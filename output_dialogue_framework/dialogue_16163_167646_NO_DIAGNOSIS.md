@@ -67,16 +67,21 @@
 
 ## EHR Summary
 
-The patient is a 66-year-old female presenting with on and off chest pain for one month. Symptoms were significant enough to prompt evaluation at an outside hospital, where she was found to have myocardial infarction and subsequently underwent cardiac catheterization revealing three-vessel coronary artery disease. Her past medical history includes hypertension, dyslipidemia, anemia, and degenerative joint disease; she also has a 40 pack-year tobacco history. On examination, she was stable and in no acute distress, with normal vital signs and unremarkable cardiopulmonary findings. Laboratory results showed mild anemia with a hematocrit of 31. The documented diagnosis was three-vessel coronary artery disease following myocardial infarction. She underwent a three-vessel coronary artery bypass graft (CABG) using the left internal mammary artery and saphenous vein grafts. Postoperatively, the patient did well and was transferred to the intensive care unit for further management.
+The patient is a 66-year-old woman presenting with one month of intermittent chest pain. She was found to have a myocardial infarction and cardiac catheterization revealed three-vessel coronary artery disease. Her past medical history includes hypertension, dyslipidemia, anemia, and degenerative joint disease; medications on admission included Zocor, aspirin, Lopressor, Zestril, Plavix, and intravenous nitroglycerin. The documented diagnosis was status post coronary artery bypass graft times three. She underwent a three-vessel coronary artery bypass graft on hospital day two and had an uncomplicated postoperative course. The patient was discharged home in good condition after five days. Discharge medications included Lasix, potassium supplement, Percocet as needed, Colace, aspirin, Zantac, metoprolol, and Zocor.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent chest pressure. The chest pressure is described as a central sensation of pressure, not sharp or dull, and occurs primarily during physical activity such as walking or climbing stairs, but not at rest. The symptom began a few days ago and has not been present for long. The patient denied any radiation of the pressure to the neck, jaw, arms, or back. No relevant medical history, medications, or allergies were discussed. No physical findings were noted in the conversation. The doctor did not provide a specific assessment or working diagnosis during this dialogue. No treatment plan or recommendations were given in the portion of the conversation provided.
+The patient presents with intermittent chest pressure as the chief complaint. The chest pressure is described as central, pressure-like, and occurs primarily during physical activity such as walking or climbing stairs, but not at rest. The symptom began a few days ago and has not been present for long. The pressure does not radiate to the neck, jaw, arms, or back. No information about relevant medical history, medications, allergies, diagnosis, or treatment plan is documented in the dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
+- **STS Score**: 0.273
+- **Model Used**: general
+- **Text1 Length**: 110 words
+- **Text2 Length**: 78 words
+
 
 ## Processing Information
 

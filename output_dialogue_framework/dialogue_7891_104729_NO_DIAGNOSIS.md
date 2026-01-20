@@ -87,16 +87,21 @@ Does that make sense? Is there anything else about this sensation or your health
 
 ## EHR Summary
 
-The patient is a 76-year-old female presenting with occasional bilateral arm heaviness occurring both at rest and with exertion. She denied associated symptoms such as shortness of breath, nausea, vomiting, or diaphoresis. Her medical history includes coronary artery disease (with question of prior myocardial infarction), non-insulin dependent diabetes mellitus, hypertension, hypercholesterolemia, retinopathy, bilateral cataracts, and incontinence; she has no known drug allergies and is on multiple medications including Prinivil, Toprol, Glucophage, Glyburide, ocular drops, and sublingual nitroglycerin as needed. Cardiac evaluation revealed a positive exercise treadmill test and cardiac catheterization showed proximal LAD occlusion, significant left circumflex and RCA disease. On admission, laboratory values were notable for glucose 151 mg/dL and creatinine 1.2 mg/dL. The documented diagnosis was multivessel coronary artery disease. She underwent coronary artery bypass grafting (CABG) times two with LIMA to LAD and SVG to OM1. Postoperatively, she was extubated on day one and weaned off NeoSynephrine drip without reported complications.
+The patient is a 76-year-old female presenting with occasional bilateral arm heaviness occurring both at rest and with exertion. She denied associated symptoms such as shortness of breath, nausea, vomiting, or diaphoresis. Her history includes coronary artery disease (question of prior myocardial infarction), non-insulin dependent diabetes mellitus, hypertension, hypercholesterolemia, retinopathy, bilateral cataracts, and incontinence; she has no known drug allergies and was taking Prinivil, Toprol, Glucophage, Glyburide, ocular drops, and sublingual nitroglycerin as needed. Evaluation revealed a positive exercise treadmill test and cardiac catheterization showed significant coronary artery disease with proximal LAD occlusion and high-grade lesions in other vessels. The documented diagnosis was status post coronary artery bypass grafting (CABG) times two. Treatment included CABG with LIMA to LAD and SVG to OM1, followed by postoperative care and stabilization. At discharge, she was stable and prescribed Lopressor, Lasix, Plavix, aspirin, Glucophage, Glyburide, ocular drops, Percocet as needed, and Colace. She was discharged to a rehabilitation facility with follow-up arranged with her surgeon, primary care provider, and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent heaviness in both arms as the chief complaint. The heaviness occurs both during movement and at rest, has been present off and on for approximately two weeks, and is described as mild and bothersome without interfering with arm use. The patient denied associated symptoms such as chest discomfort, shortness of breath, lightheadedness, numbness, tingling, or weakness in the hands or fingers, and reported no changes in daily routine or new activities. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of concerning symptoms and that the heaviness is mild and stable. The doctor suggested the sensation could be related to circulation, mild muscle fatigue, or posture, but emphasized monitoring for any changes. The patient was advised to continue normal activities and seek medical attention if new symptoms such as chest pain, significant weakness, or shortness of breath develop.
+The patient is an adult presenting with intermittent heaviness in both arms as the chief complaint. The heaviness has been occurring off and on for approximately two weeks, is mild in intensity, does not interfere with arm use, and occurs both during activity and at rest without a clear pattern. The patient denies associated symptoms such as chest discomfort, dyspnea (shortness of breath), lightheadedness, numbness, tingling, or weakness in the hands or fingers. There have been no recent changes in activity or routine. The clinical impression is that the mild, non-worsening arm heaviness without concerning associated symptoms is likely benign, possibly related to circulation, mild muscle fatigue, or posture. The treatment plan includes continuing normal activities, monitoring for any changes or new symptoms, and seeking prompt medical attention if symptoms such as chest pain, significant weakness, or shortness of breath develop. No medications or further diagnostic tests were recommended at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.577
+- **Model Used**: general
+- **Text1 Length**: 167 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

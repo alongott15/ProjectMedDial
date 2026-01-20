@@ -87,16 +87,23 @@ Do you have any questions or concerns about what we've discussed so far?
 
 ## EHR Summary
 
-The patient is a 72-year-old female presenting with left-sided weakness and a right frontal lobe mass. She reported weakness on the left side, veering to the left, and slight dizziness; MRI on 2143-4-20 revealed a right frontal lobe mass. Her past medical history includes hypertension, and she has no known drug allergies. On neurological examination prior to admission, she had normal gait but was unable to lift or hold her left leg, with weak left dorsiflexion, plantarflexion, and hand grip. The documented diagnosis was a right frontal lobe mass causing left-sided weakness. She underwent craniotomy and excision of the mass on 2143-5-7, tolerated the procedure well, and was continued on steroids postoperatively. Postoperatively, she initially had antigravity strength only in the left upper extremity and no strength in the left lower extremity, but her motor function gradually improved during her hospital stay. She is pending discharge to a rehabilitation bed for further recovery.
+The patient is a 72-year-old female presenting with left-sided weakness and a right frontal lobe mass. She reported veering to the left, slight dizziness, and was unable to lift or hold her left leg, with weak left hand grip and decreased strength in the left lower extremity. Her past medical history includes hypertension, and she has no known allergies; prior medications included HCTZ 25 mg daily. MRI revealed a right frontal lobe mass, and she underwent craniotomy with mass excision. Postoperatively, she had antigravity strength only in the left upper extremity and no strength in the left lower extremity, but showed gradual improvement during her hospital stay. The documented diagnosis was right frontal lobe mass with associated left-sided weakness. Treatment included surgical excision of the mass, postoperative steroids (dexamethasone), Dilantin for seizure prophylaxis, pain management with Percocet, and physical therapy. She is being discharged to rehabilitation and will follow up in the Brain Clinic in ten days.
+
 
 ## Dialogue Summary
 
-The patient presented with new-onset left-sided weakness. They reported difficulty walking, veering to the left, and weakness in the left arm, which began a few days ago and has remained stable without improvement or worsening. The patient also described occasional, mild dizziness throughout the day but denied any changes in speech, vision, or numbness. Relevant history includes longstanding high blood pressure; no prior similar episodes, diabetes, or heart problems were noted. On review, there were no acute neurological symptoms such as speech or vision changes. The doctor assessed that the symptoms could be related to circulation, minor nerve changes, or effects of blood pressure, and emphasized the need to rule out more serious causes due to the persistence and impact on mobility. The doctor advised the patient to monitor for new symptoms (especially sudden speech or vision changes or severe headache), move carefully to prevent falls, and agreed to perform a physical exam and possibly further tests. Rest and gentle activity were suggested, with caution given the patient's hypertension.
+The patient is an adult with a history of hypertension presenting with new-onset left-sided weakness. The weakness began a few days ago, has remained stable, and affects both walking (with veering to the left) and use of the left arm; there is no associated numbness, speech, or vision changes. The patient also reports intermittent, mild dizziness throughout the day, without clear triggers or alleviating factors. There is no prior history of similar symptoms, diabetes, or heart disease.
+
+The clinical impression is new-onset unilateral weakness and mild dizziness without other focal neurological deficits, possibly related to circulation, nerve changes, or effects of hypertension. The physician advised monitoring for new symptoms such as sudden speech or vision changes or severe headache, and recommended moving carefully to prevent falls. A basic physical exam and simple tests were planned to further evaluate the symptoms. No specific diagnosis was documented at this stage.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.594
+- **Model Used**: general
+- **Text1 Length**: 157 words
+- **Text2 Length**: 148 words
+
 
 ## Processing Information
 

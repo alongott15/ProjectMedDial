@@ -99,16 +99,23 @@ Does this explanation help clarify things for you? If you have any other concern
 
 ## EHR Summary
 
-The patient is a 53-year-old male presenting for evaluation and management of multivessel coronary artery disease identified on routine cardiac testing. He denied chest pain, shortness of breath, paroxysmal nocturnal dyspnea, or dyspnea, and his positive stress test was followed by echocardiogram and cardiac catheterization confirming multivessel disease. His past medical history includes non-insulin dependent diabetes, hyperlipidemia, mild hypertension, and glaucoma; he takes aspirin, lisinopril, lipitor, atenolol, glyburide, and lumigan eye drops. On admission, physical examination was unremarkable with stable vital signs and no acute findings; EKG showed no acute ST-T segment changes. The documented diagnosis was multivessel coronary artery disease. He underwent coronary artery bypass grafting (CABG) times five with successful postoperative recovery, including weaning from the ventilator and extubation. Postoperatively, he experienced labile blood pressure managed with fluids and was placed on an insulin drip for glycemic control; Lasix and beta blockade were initiated, and pain was managed with Percocet.
+The patient is a 53-year-old male presenting after a routine stress test was found to be positive, leading to further cardiac evaluation. He denied chest pain, shortness of breath, paroxysmal nocturnal dyspnea, or dyspnea. Cardiac catheterization revealed multivessel coronary artery disease. His past medical history includes non-insulin dependent diabetes, high cholesterol, mild hypertension, and glaucoma; he has no known drug allergies. The documented diagnosis was coronary artery disease status post coronary artery bypass grafting (CABG) times five, along with diabetes, high cholesterol, hypertension, and glaucoma. Treatment included CABG x5, postoperative diuresis with Lasix, insulin drip for blood sugar control, transfusion for low hematocrit, pain management with Percocet, and continuation of home medications. He was discharged home in stable condition with instructions for follow-up with his physicians and home physical therapy. Discharge medications included Lasix, Lumigan eye drops, glyburide, Percocet, aspirin, Zantac, Colace, potassium supplement, and Lopressor.
+
 
 ## Dialogue Summary
 
-The patient presented with a recent increase in anxiety. The anxiety was described as mild, began a few days ago, and is not associated with specific triggers; it is a general background feeling that comes and goes. The patient denied physical symptoms such as trouble sleeping, heart racing, shortness of breath, chest pain, changes in mood, loss of interest, or appetite changes, and reported no interference with daily activities. No relevant medical history, medications, or allergies were specified during the visit. The doctor noted no concerning clinical findings and assessed the anxiety as mild, short-term, and not impacting functioning or associated with physical symptoms. The doctor recommended continuing self-care strategies such as walking, regular exercise, limiting caffeine, and relaxation techniques, and advised monitoring symptoms over the next few weeks. The patient was instructed to reach out if anxiety worsens, lasts longer than a few weeks, or if new symptoms such as sleep disruption, mood changes, or physical complaints develop.
+The patient is an adult presenting with a chief complaint of increased anxiety over the past few days. The anxiety is described as mild, without identifiable triggers, and is not associated with physical symptoms such as dyspnea, chest pain, palpitations, or sleep disturbance. The patient reports no interference with daily activities, no changes in mood or appetite, and finds that walking or distraction helps alleviate symptoms. There is no relevant medical history, medication use, or allergies documented in the dialogue.
+
+The clinical impression is mild, short-term anxiety without significant impact on functioning or concerning physical symptoms. The treatment plan includes monitoring symptoms over the next few weeks, continuing self-care strategies such as regular physical activity and relaxation techniques, and limiting caffeine. The patient is advised to seek further evaluation if anxiety worsens, persists beyond a few weeks, or begins to affect sleep, mood, or daily activities, or if new symptoms such as chest pain or persistent low mood develop. No medications or further interventions are recommended at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
+- **STS Score**: 0.419
+- **Model Used**: general
+- **Text1 Length**: 146 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

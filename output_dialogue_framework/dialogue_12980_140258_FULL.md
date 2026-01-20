@@ -98,3 +98,23 @@ Let me know if you have questions about what might be causing this or about next
 ## Processing Information
 
 - **Processing Time**: 228.2s
+
+## EHR Summary
+
+The patient is a 300-year-old female presenting with melena and a syncopal episode. She experienced black, tarry stools, a drop in hematocrit from 35.3 to 24.3, tachycardia (heart rate up to 130), hypotension, and hypoxemia requiring supplemental oxygen; she was unable to describe her syncopal event. Her past medical history includes recent hip fracture (status post open reduction/internal fixation), congestive heart failure (ejection fraction 45%), and dementia; she was taking coumadin, aspirin, metoprolol, and other medications, with no known drug allergies. On admission, physical exam revealed jugular venous distention, bilateral crackles, and guaiac-positive melanotic stool; labs showed INR 5.6 and BUN/Cr ratio suggestive of upper GI bleed. The documented diagnoses included significant upper gastrointestinal bleeding, aspiration pneumonia, acute myocardial infarction (troponin 23.2, T wave inversions, reduced ejection fraction to 25%), and worsening heart failure. Treatment included transfusions (packed red blood cells, fresh frozen plasma), intravenous vitamin K, proton pump inhibitor, furosemide, empiric antibiotics (clindamycin and ceftriaxone), and supportive care with oxygen. After deterioration and discussion with family, the plan was changed to comfort measures only; the patient received morphine and Ativan as needed for comfort. She expired on [2104-6-8] with family present.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with the chief complaint of very dark, black, tar-like stools (melena) persisting for at least several days. Associated symptoms include worsening abdominal pain (currently rated 7/10), a recent episode of syncope (passing out), palpitations, dyspnea (shortness of breath), and a documented drop in hematocrit. The patient also reports swelling in the neck, crackling lung sounds on auscultation, and recent nosebleeds; stool tested strongly guaiac-positive. There is no noted relationship between symptoms and meals or activity, and no nausea or unusual fatigue was reported.
+
+The clinical impression is gastrointestinal bleeding, likely from an upper GI source, with evidence of significant blood loss and possible related complications. The physician advised that this situation requires prompt medical attention to identify and control the bleeding source and to stabilize blood levels. Recommendations included urgent follow-up with a healthcare provider or seeking emergency care if symptoms worsen, especially with increasing weakness, confusion, chest pain, or further syncope.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.779
+- **Model Used**: general
+- **Text1 Length**: 192 words
+- **Text2 Length**: 158 words
+

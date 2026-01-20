@@ -87,16 +87,21 @@ Let me know if you have questions about what to expect or how to monitor for war
 
 ## EHR Summary
 
-The patient is a 69-year-old male presenting with chest pain as the chief complaint. He reported episodes of angina with exertion worsening over the past three weeks, culminating in severe (10/10) chest pain at rest, described as an ache in the shoulder and left substernal area, accompanied by nausea and transient right ankle edema. His relevant history includes mild aortic stenosis, coronary artery disease, and multiple prior coronary stent placements. On examination, he was alert and oriented, with a heart murmur consistent with aortic stenosis and no current edema; vital signs were stable on supplemental oxygen. Laboratory results showed mild anemia and stable renal function. Cardiac catheterization revealed 80–90% in-stent restenosis of the proximal left coronary artery. The documented diagnosis is in-stent restenosis with recurrent angina. Treatment details are not specified in the note.
+The patient is a 69-year-old male presenting with chest pain. He reported episodes of angina with exertion worsening over the past three weeks, and experienced angina at rest the night before admission, as well as severe (10/10) chest pain at a scheduled catheterization. Associated symptoms included nausea and transient right ankle edema. His medical history is significant for mild aortic stenosis, coronary artery disease, and multiple prior coronary stents. Cardiac catheterization revealed significant in-stent restenosis and multi-vessel coronary artery disease. The documented diagnosis was two-vessel coronary artery disease with in-stent restenosis. The patient underwent coronary artery bypass graft surgery and was transferred to the surgical service in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain that occurs even at rest and is described as severe, reaching ten out of ten in intensity. The chest pain has been present for a few days, comes and goes throughout the day, and worsens with activity; the patient also experiences nausea during episodes but denies sweating, lightheadedness, palpitations, or irregular heartbeats. The patient reported a history of coronary artery disease with prior angioplasty and stent placement, as well as mild aortic stenosis; no history of hypertension or diabetes was mentioned. The patient noted some right ankle swelling that has since resolved and is not currently taking any medications specifically for chest pain. On assessment, the doctor noted that the chest pain occurring both with exertion and at rest, in the context of significant cardiac history, could indicate insufficient blood flow to the heart even at rest, and that nausea may be related. The doctor recommended prompt contact with the patient's cardiologist or primary care provider for in-person evaluation and possible testing to rule out worsening of cardiac condition. The patient was advised to avoid strenuous activity, monitor for new symptoms such as fainting, severe shortness of breath, or prolonged discomfort, and seek urgent attention if these occur.
+The patient is an adult with a history of coronary artery disease (status post angioplasty with stents) and mild aortic stenosis presenting with chest pain as the chief complaint. The chest pain is severe (up to 10/10), occurs both at rest and with activity, and is sometimes accompanied by nausea but not by sweating, lightheadedness, palpitations, or irregular heartbeats. The pain has persisted for several days, is triggered by exertion, and has not improved with rest; the patient reports avoiding strenuous activity due to symptom exacerbation. There was transient right ankle swelling that has since resolved. Relevant medical history includes coronary artery disease and mild aortic stenosis; no history of hypertension or diabetes was reported. The clinical impression is possible worsening cardiac ischemia given the patient's cardiac history and new or more frequent chest discomfort at rest. The treatment plan includes prompt follow-up with the patient’s cardiologist or primary care provider for in-person evaluation and possible cardiac testing, with instructions to avoid strenuous activity and monitor for new or worsening symptoms such as fainting, severe dyspnea, or prolonged discomfort. No new medications were started during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.980
-- **Similarity Label**: N/A
+- **STS Score**: 0.749
+- **Model Used**: general
+- **Text1 Length**: 109 words
+- **Text2 Length**: 187 words
+
 
 ## Processing Information
 

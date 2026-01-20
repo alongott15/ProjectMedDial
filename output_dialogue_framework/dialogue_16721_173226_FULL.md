@@ -97,16 +97,23 @@ Does that plan sound reasonable to you?
 
 ## EHR Summary
 
-The patient is a 59-year-old man presenting after being found down on the street with a possible seizure. On arrival, he was tremulous, tachycardic, hypertensive, agitated, and increasingly confused, with persistent tachycardia (heart rates in the 140s) despite escalating doses of Valium. His past medical history and allergies are unknown; he is reportedly homeless with an unquantified history of alcohol use and denies tobacco or intravenous drug use. On physical exam, he was awake but speaking unintelligibly, disoriented to place and date, tremulous, and attempting to drink from his IV line; vital signs included a temperature of 99.6°F, blood pressure 153/75 mmHg, and pulse 114 bpm. There was a large reducible umbilical hernia and forehead abrasions but no other trauma. The documented clinical impression was possible alcohol withdrawal with delirium and agitation. He was treated with escalating doses of benzodiazepines (Valium) and transferred to the Medical Intensive Care Unit for close monitoring and management of his symptoms.
+The patient is a 59-year-old man admitted after being found down on the street with possible seizure activity and agitation. On arrival, he was tremulous, tachycardic, hypertensive, agitated, and confused, with increasing benzodiazepine requirements and evidence of delirium. His past medical history and allergies were unknown; he is homeless with an unclear alcohol use history. The documented diagnoses were alcohol withdrawal, delirium tremens, and aspiration pneumonia. He was treated with an Ativan drip, transitioned to oral Librium and Ativan as needed, and completed a 14-day course of levofloxacin and Flagyl for aspiration pneumonia. He required intubation for respiratory distress but was extubated without difficulty. Right shoulder weakness was noted but improved with physical therapy; imaging revealed small bilateral subdural hematomas and pontine myelinolysis consistent with alcohol toxicity. At discharge, his condition was stable and he was transferred to rehabilitation.
+
 
 ## Dialogue Summary
 
-The patient presented with shoulder weakness as the chief complaint. The weakness has been present for a few days, is consistent throughout the day, and makes lifting or reaching overhead more difficult, though the patient can still manage most daily activities with extra caution. There is no associated pain, swelling, redness, warmth, or recent injury, and activity does not worsen the weakness. The patient reported a recent hospital admission with an episode of delirium that has been resolving, but denied other changes in energy or mood. On assessment, the doctor noted the absence of pain or inflammation and no clear precipitating event, suggesting the weakness is likely due to general deconditioning following hospitalization rather than muscle or tendon injury. The doctor recommended monitoring the symptoms, gradually resuming normal activities, and being cautious with heavy lifting. The patient was advised to report any worsening weakness, new symptoms such as numbness or tingling, or interference with independence to their healthcare team. The patient understood and agreed with the plan.
+The patient is an adult presenting with shoulder weakness as the chief complaint. The weakness has been present for a few days, is consistent throughout the day, and is not associated with pain, swelling, redness, or warmth. The patient reports difficulty with lifting and reaching overhead but can still perform most daily activities, and there is no history of recent injury or change in activity level. There was a recent hospital admission with an episode of delirium, but no ongoing changes in energy or mood.
+
+The clinical impression is that the shoulder weakness is likely due to general deconditioning following hospitalization rather than muscle or tendon injury. The treatment plan includes gradual return to usual activities, gentle use of the shoulder as tolerated, and monitoring for new symptoms such as numbness, tingling, or worsening weakness. The patient was advised to contact the healthcare team if symptoms progress or begin to interfere with independence. No medications or further interventions were prescribed at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.927
-- **Similarity Label**: N/A
+- **STS Score**: 0.586
+- **Model Used**: general
+- **Text1 Length**: 139 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ For now, try to rest when episodes occur, and avoid sudden movements. Staying hy
 
 ## EHR Summary
 
-The patient is a 53-year-old male presenting with vertigo, tinnitus (ringing in his ears), and headache since early in the month. He denied nausea, vomiting, visual disturbances, diplopia, seizures, weakness, tingling, or numbness. His past medical history is not specified in the note. Imaging at an outside hospital revealed a 3-cm x 3-cm right temporal intracranial mass with surrounding edema and hemorrhage; further workup also identified a left lung mass and adrenal mass. On admission, he was monitored in the ICU for blood pressure control and started on anti-seizure medication. The documented diagnosis was right temporal intracranial mass, with preliminary suspicion of metastatic carcinoma of the lung. He was treated with high-dose Decadron for cerebral edema and discharged home with a tapering regimen of Decadron. Follow-up includes a scheduled CT-guided lung biopsy and outpatient neurology/oncology appointments.
+The patient is a 53-year-old male presenting with vertigo, ringing in his ears, and headache since earlier in the year. Symptoms included persistent headache, tinnitus, and vertigo without associated nausea, vomiting, visual disturbances, diplopia, seizures, weakness, or sensory changes. Relevant history includes coronary artery disease with prior stenting and angioplasty, hypertension, diabetes mellitus (on insulin), and allergies to Lipitor, sulfa drugs, and Dilantin. Imaging revealed a 3-cm x 3-cm right temporal intracranial mass with surrounding edema and hemorrhage; further workup identified a left lung mass and adrenal mass, with a preliminary diagnosis of carcinoma of the lung with extensive metastasis. The patient was admitted for blood pressure control, anti-seizure therapy, and close monitoring. Treatment included initiation of high-dose Decadron for cerebral edema, Depakote for seizure prophylaxis, and Zantac; Decadron was prescribed with a tapering schedule. The patient was discharged home alert and oriented, with instructions for close follow-up, scheduled CT-guided lung biopsy, and to seek care if symptoms worsen. Further management will depend on tissue diagnosis, with possible chemotherapy or radiotherapy planned.
+
 
 ## Dialogue Summary
 
-The patient presented with episodes of vertigo (dizzy spells) as the chief complaint. Symptoms included sudden-onset vertigo, bilateral ringing in the ears that comes and goes with the vertigo, and mild headaches that occur at the same time as the other symptoms; these episodes began a few days ago and occur unpredictably, without specific triggers or warning signs, and interfere with daily activities. No relevant past medical history, medications, or allergies were mentioned. On further questioning, the patient denied any association with specific movements and reported that the ringing affects both ears and is episodic. The doctor assessed that the symptoms could be related to an inner ear issue, such as a viral inner ear infection, vestibular neuritis, or Meniere’s disease, and noted that the mild headaches are less concerning but the impact on daily life is significant. The doctor advised the patient to rest during episodes, avoid sudden movements, and stay hydrated. The patient was instructed to monitor for new symptoms such as hearing loss, persistent vomiting, weakness, difficulty speaking, or trouble walking, and to seek urgent care if these occur; follow-up was recommended if symptoms persist beyond a week or worsen.
+The patient is an adult presenting with episodes of vertigo as the chief complaint. Symptoms include sudden-onset vertigo accompanied by bilateral tinnitus (ringing in both ears) and mild headaches, all of which began a few days ago. The episodes occur unpredictably, are not triggered by specific movements, and interfere with daily activities, requiring the patient to sit down until they pass. The tinnitus and headaches coincide with the vertigo and are not constant. There is no mention of hearing loss, persistent vomiting, weakness, speech difficulty, or gait disturbance. The clinical impression is that the symptoms may be related to an inner ear issue, such as a viral infection, vestibular neuritis, or Meniere’s disease. The treatment plan includes rest during episodes, avoiding sudden movements, staying hydrated, monitoring for worsening or new symptoms, and seeking urgent care if warning signs develop; follow-up is recommended if symptoms persist beyond a week or worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.548
+- **Model Used**: general
+- **Text1 Length**: 172 words
+- **Text2 Length**: 150 words
+
 
 ## Processing Information
 

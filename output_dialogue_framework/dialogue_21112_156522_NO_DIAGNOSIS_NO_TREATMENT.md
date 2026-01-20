@@ -96,3 +96,21 @@ If you notice any new symptoms such as difficulty breathing at rest, chest pain,
 ## Processing Information
 
 - **Processing Time**: 301.0s
+
+## EHR Summary
+
+The patient is a 47-year-old man presenting with shortness of breath on exertion. He has a history of severe (4+) aortic regurgitation following strep viridans endocarditis, previously treated with six weeks of Penicillin, and reported prior symptoms of cough and fever. His past medical history includes alcohol abuse, elevated liver function tests, and depression; he is allergic to Penicillin (hives). On admission, physical exam revealed a diastolic murmur and S3 gallop, but he was in no acute distress. The documented diagnosis was severe aortic insufficiency secondary to prior endocarditis. He underwent successful minimally invasive aortic valve replacement with a #21 pericardial valve and had an uncomplicated postoperative course. At discharge, he was stable with normal vital signs and clear lung and cardiac exams. Discharge medications included aspirin, Lopressor, Parnate, Valium, Colace, and Percocet as needed for pain, with instructions for follow-up in wound clinic and with his physicians.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with exertional shortness of breath as the chief complaint. Symptoms include gradually developing dyspnea with activity (such as climbing stairs), a dry cough, and a mild fever over the past few days; symptoms are not present at rest and are not associated with chest pain, leg swelling, chills, or wheezing. There is no mention of relevant past medical history, medications, or allergies. The clinical impression is that these symptoms are most consistent with a common viral respiratory infection or mild bronchitis, rather than a more serious cardiac or pulmonary condition. The treatment plan includes supportive care with rest, hydration, and over-the-counter medications such as acetaminophen for fever. The patient was advised to monitor for worsening symptoms, including dyspnea at rest, chest pain, persistent high fever, or leg swelling, and to seek care if these develop. No prescription medications or further diagnostic testing were recommended at this time.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.483
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 153 words
+

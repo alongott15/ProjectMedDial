@@ -85,16 +85,21 @@ Let me ask: how much are these symptoms limiting what you can do day-to-day? For
 
 ## EHR Summary
 
-The patient is a 79-year-old female presenting with respiratory distress and reported granulation tissue at her tracheal site. She denied shortness of breath, chest pain, or cough at the time of evaluation. Her history is significant for recent gallstone pancreatitis requiring open cholecystectomy, complicated by congestive heart failure, atrial fibrillation, C. difficile infection, respiratory failure with failure to wean, and subsequent tracheostomy complicated by tracheal tear. Additional comorbidities include hypertension, hypothyroidism, malnutrition, right internal jugular clot, and gastroesophageal reflux disease. On examination, she was in no acute distress with stable vital signs (pulse 100, BP 109/65, oxygen saturation 99% on room air). The clinical impression included respiratory distress with granulation tissue at the tracheal site. Plans were made for bronchoscopy to further evaluate the tracheal site. Her medications included Synthroid, Metoprolol, Prilosec, Flagyl, Paxil, vitamin C, zinc, Trazodone, Zofran as needed, Coumadin, Lasix, and tube feeds.
+The patient is a 79-year-old female presenting with respiratory distress and a history of prolonged ICU stay. She experienced worsening respiratory status with ventilator dependence, believed to be secondary to a myopathic/neuropathic process causing generalized total body weakness; she denied shortness of breath, chest pain, or cough at admission. Her past medical history includes hypertension, atrial fibrillation, congestive heart failure, C. difficile infection, malnutrition, hypothyroidism, right IJ clot, GERD, and status post cholecystectomy and tracheal perforation. The documented clinical impression was respiratory failure due to neuromuscular weakness, with additional complications including atrial fibrillation and mild ileus. Treatment included bronchoscopy (negative for obstruction), tracheostomy management with successful change to a speaking trach, pressure support ventilation with weaning trials, anticoagulation adjustment, tube feeds for nutrition, a four-week trial of Prednisone 60 mg daily for neuromuscular disease, Bactrim for pseudomonas UTI, insulin sliding scale for steroid-induced hyperglycemia, and diuresis with Lasix and Captopril for fluid overload. At discharge, she was tolerating trache mask trials and tube feeds, had reduced edema, and was scheduled for follow-up with Neurology for pending muscle biopsy results. Recommendations included continuation of current therapies and monitoring at the rehabilitation facility.
+
 
 ## Dialogue Summary
 
-The patient presented with abdominal pain and nausea. Symptoms began a few days ago and include abdominal discomfort, nausea, vomiting, extreme weakness, persistent shortness of breath, thick dark sticky secretions with cough, chest discomfort, and occasional lightheadedness when standing; no fever, bowel changes, or swelling in the legs or ankles were reported. The patient noted that these symptoms have made daily activities difficult. No relevant medical history, medications, or allergies were mentioned during the visit. On clinical review, the doctor noted persistent breathing difficulty with abnormal secretions and chest discomfort, along with significant weakness and lightheadedness. The doctor assessed that the combination of gastrointestinal symptoms and respiratory issues could indicate lung or airway congestion, possibly due to infection, dehydration from vomiting, or underlying heart or lung conditions. The doctor emphasized the importance of these symptoms and discussed their impact on the patient's daily functioning. Specific treatment recommendations were not provided in this portion of the conversation.
+The patient presents with abdominal pain and nausea as the chief complaint. Symptoms began a few days ago and include abdominal discomfort, nausea, vomiting, persistent dyspnea (shortness of breath) with thick, dark, sticky secretions, chest discomfort, extreme weakness, and lightheadedness upon standing; there is no fever, diarrhea, constipation, peripheral edema, or cyanosis. The patient reports that these symptoms significantly limit daily activities and self-care. Relevant history such as chronic conditions, medications, or allergies is not specified in the dialogue. The clinical impression documented by the physician is possible lung or airway congestion, potentially related to infection, dehydration from vomiting, or underlying heart or lung disease. No specific diagnosis was confirmed during the encounter. The physician did not document a specific treatment plan but discussed the importance of these symptoms and their possible causes. Further evaluation and management were implied but not explicitly outlined.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.592
+- **Model Used**: general
+- **Text1 Length**: 191 words
+- **Text2 Length**: 143 words
+
 
 ## Processing Information
 

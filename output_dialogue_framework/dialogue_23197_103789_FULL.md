@@ -85,16 +85,23 @@ Let me know if you have any questions about managing your blood pressure or stay
 
 ## EHR Summary
 
-The patient is a 65-year-old female presenting with nausea, vomiting, and hypertension. Symptoms began the night before admission with persistent nausea, inability to tolerate oral intake, and blood glucose initially in the 120s, rising to 440 mg/dL by morning; EMS recorded a glucose of 381 mg/dL. She has a history of type 1 diabetes mellitus (on an insulin pump), hypertension, hypercholesterolemia, hiatal hernia, and prior episodes of similar symptoms attributed to gastroparesis versus gastritis/esophagitis. On arrival, her blood pressure was 190/72 mmHg and she was chest pain free; physical exam showed dry mucous membranes but was otherwise unremarkable. EKG showed no changes and initial cardiac enzymes were negative; ABG revealed alkalosis (pH 7.57). The documented clinical impression included gastroparesis related to diabetes and hypertensive urgency. Treatment included intravenous fluids, anti-emetics, labetalol as needed for blood pressure control, and aspirin. No major procedures were performed during admission.
+The patient is a 65-year-old female presenting with nausea, vomiting, and hypertension. Her symptoms began the night before admission with persistent nausea and inability to tolerate oral intake, progressing to vomiting and elevated blood glucose (up to 440 mg/dL) and systolic blood pressure in the 200s. She has a history of type 1 diabetes mellitus (on an insulin pump), hypertension, hypercholesterolemia, and prior episodes of gastroparesis. On admission, she was found to have hyperglycemia with mild diabetic ketoacidosis (DKA) and hypertensive crisis, but no evidence of end organ damage. The documented diagnoses were hyperglycemia and hypertensive crisis, with her nausea and vomiting attributed to gastroparesis. Treatment included intravenous fluids, antiemetics (IV then oral metoclopramide), aggressive insulin therapy (transitioned from pump to glargine and lispro), and antihypertensives (IV labetalol, then oral labetalol, lisinopril, and clonidine patch). By discharge, her symptoms had resolved, blood pressure and glucose were controlled, and she was stable for discharge home with medication adjustments and follow-up arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with nausea and vomiting that began approximately two days ago and has persisted without improvement. Vomiting has occurred several times but is not constant, and the nausea has been lingering. The patient reported a brief episode of confusion at symptom onset, which resolved, and noted consistently elevated blood pressure readings at home since the symptoms began. No headaches, chest discomfort, or vision changes were reported, and the patient has been able to keep some fluids down, though less than usual. The doctor assessed that the elevated blood pressure and brief confusion may be related to the current symptoms of nausea and vomiting. The doctor recommended regular monitoring of blood pressure and advised the patient to sip fluids throughout the day to maintain hydration. The patient was instructed to seek prompt medical attention if new symptoms such as persistent confusion, chest pain, difficulty speaking, weakness, or vision changes develop.
+The patient presents with nausea and vomiting as the chief complaint. Symptoms began approximately two days ago, with intermittent vomiting and persistent nausea that has neither improved nor worsened; the patient also experienced a brief episode of confusion at symptom onset but has since felt clear-headed. The patient reports a history of elevated blood pressure, with home readings significantly higher than usual coinciding with the onset of symptoms, but denies chest discomfort, vision changes, or headaches. The patient has been able to keep some fluids down but notes mild difficulty maintaining usual hydration.
+
+The clinical impression is that the elevated blood pressure and brief confusion may be related to the current symptoms of nausea and vomiting. The treatment plan includes regular monitoring of blood pressure, continued efforts to maintain hydration by sipping fluids, and instructions to seek prompt medical attention if new symptoms such as persistent confusion, chest pain, difficulty speaking, weakness, or vision changes develop. No new medications or interventions were documented during this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.573
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

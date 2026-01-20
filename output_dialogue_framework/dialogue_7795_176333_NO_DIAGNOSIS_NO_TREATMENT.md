@@ -180,3 +180,21 @@ For now, I recommend monitoring your symptoms closely. If anything worsens or ne
 ## Processing Information
 
 - **Processing Time**: 440.4s
+
+## EHR Summary
+
+The patient is an 86-year-old female presenting with nonspecific mental status changes, chest pain, right shoulder pain, right upper chest pain, and shortness of breath. Symptoms were associated with a recent history of transient ischemic attack and were found to be due to a type A ascending aortic dissection with pericardial effusion on CT scan. Relevant history includes hypothyroidism, depression, hypertension, and prior surgeries (total abdominal hysterectomy, right hip repair); she has no known drug allergies. The documented diagnoses were ascending aorta dissection type A (status post aortic arch replacement and aortic valve re-suspension), postoperative atrial fibrillation, hypothyroidism, depression, and hypertension. Treatment included surgical replacement of the ascending aorta and aortic valve re-suspension, postoperative management of atrial fibrillation with Amiodarone and Lopressor, blood pressure control with Hydralazine and Captopril, anticoagulation, and supportive care. The patient was started on multiple medications at discharge including Lopressor, Lasix, Amiodarone, Captopril, Levoxyl, Depakote, Zyprexa, and others. She was stable at discharge and referred for rehabilitation, with follow-up arranged with cardiology and primary care.
+
+
+## Dialogue Summary
+
+The patient presents with the chief complaint of persistent chest pain, mild confusion, shortness of breath, and weakness. These symptoms have been ongoing for a little while and are not identical to previous episodes but are concerning given the patient's significant cardiac and vascular history. The patient has a documented history of aortic dissection, pericardial effusion, atrial fibrillation, and transient ischemic attack (TIA). No new diagnosis was made during this encounter; however, the physician emphasized the importance of vigilance due to the patient's risk factors. The treatment plan consists of close monitoring of symptoms at home and instructions to seek urgent medical evaluation if symptoms worsen or if new warning signs develop, such as severe chest pain, increased shortness of breath, fainting, rapid or irregular heartbeat, unilateral weakness, difficulty speaking, or vision changes. The patient was encouraged to reach out immediately if any changes occur. Ongoing support and open communication with the healthcare provider were reinforced.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.665
+- **Model Used**: general
+- **Text1 Length**: 169 words
+- **Text2 Length**: 156 words
+

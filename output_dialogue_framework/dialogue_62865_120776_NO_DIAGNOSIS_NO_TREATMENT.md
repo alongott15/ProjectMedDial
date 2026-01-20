@@ -89,16 +89,21 @@ Do you have any questions about what might be going on or about what to do next?
 
 ## EHR Summary
 
-The patient is a 48-year-old female presenting with acquired absence of the right breast. She underwent a right free TRAM (transverse rectus abdominis myocutaneous) flap reconstruction. Her medical history is notable for allergies to morphine, gadolinium-containing agents, and vancomycin. Postoperatively, she experienced adequate pain control with IV Dilaudid, later transitioned to oral pain medications, and tolerated advancement of her diet without complications. Physical findings included a viable flap with good vioptics and positive Dopplers, and serosanguinous drainage from JP drains; one drain was removed prior to discharge. Laboratory results showed mild leukocytosis and anemia postoperatively. The documented diagnosis was acquired absence of the right breast status post-reconstruction. She was discharged on postoperative day 5 with remaining JP drains in place, visiting nurse assistance for drain care, and oral antibiotics.
+The patient is a 48-year-old female presenting with acquired absence of the right breast. She underwent a right free TRAM flap reconstruction and tolerated the procedure well, with her surgical flap remaining viable throughout her hospital stay. Post-operatively, she experienced adequate pain control with IV and then oral medications, and had serosanguinous drainage from her JP drains, with one drain removed prior to discharge. Her relevant history includes allergies to morphine, gadolinium-containing agents, and vancomycin. The documented diagnosis was acquired deformity of the right breast. Treatment included surgical reconstruction, post-operative antibiotics (IV cefazolin transitioned to oral duricef), pain management with hydromorphone, bowel regimen with docusate sodium, and aspirin for prophylaxis. She was discharged in good condition with instructions for drain care, activity restrictions, and follow-up with her surgeon in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. Symptoms included a tight, uncomfortable chest pain that began a few days ago, associated with difficulty breathing, high fevers over 101.5°F, shaking chills, worsening shortness of breath with activity, and increased fatigue affecting daily activities. The patient also reported new redness, swelling, warmth, tenderness, and drainage at a surgical incision site, with the redness spreading. No history of similar symptoms, heart or lung conditions, recent infections, or sick contacts was noted. On assessment, the doctor suspected a surgical site infection given the local and systemic symptoms, with possible related chest discomfort and shortness of breath. The doctor recommended prompt in-person evaluation of the incision, possible antibiotics or further care, keeping the area clean and dry, and avoiding pressure on it. The patient was advised to seek immediate care if symptoms rapidly worsen, such as spreading redness, confusion, severe shortness of breath, or feeling faint.
+The patient presents with chest pain as the chief complaint. The pain began a few days ago, is described as tight and uncomfortable, and is associated with shortness of breath, especially on exertion. Additional symptoms include high fevers (over 101.5°F), shaking chills, and increasing fatigue impacting daily activities. The patient reports new redness, swelling, warmth, tenderness, and drainage at a surgical incision site, with the redness spreading. There is no history of similar symptoms or underlying heart or lung disease. The clinical impression is a possible surgical site infection, with associated systemic symptoms such as fever and chills. The treatment plan includes prompt in-person evaluation of the incision, possible antibiotics or further care, keeping the area clean and dry, and monitoring for worsening symptoms that would require immediate attention. The patient was advised to avoid pressure on the incision and to seek urgent care if severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.930
-- **Similarity Label**: N/A
+- **STS Score**: 0.406
+- **Model Used**: general
+- **Text1 Length**: 131 words
+- **Text2 Length**: 148 words
+
 
 ## Processing Information
 

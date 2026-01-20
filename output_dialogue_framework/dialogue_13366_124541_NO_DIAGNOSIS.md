@@ -103,16 +103,21 @@ My main recommendation is to review your records or check with your clinic to en
 
 ## EHR Summary
 
-The patient is a 59-year-old female presenting with chest pain and increased weakness. She denied orthopnea and palpitations but reported dyspnea; review of systems was otherwise negative for significant cardiopulmonary or gastrointestinal symptoms. Her medical history includes type 2 diabetes, hypertension, hypercholesterolemia, depression, two prior cerebrovascular accidents with right-sided hemiparesis, and spinal stenosis. Home medications include Plavix, aspirin, Lipitor, atenolol, trazodone, and Lantus; she has no known drug allergies. Cardiac catheterization revealed an ejection fraction of 59%, 50% ostial and mid stenosis in the left anterior descending artery, 80% mid diagonal stenosis, and 50–60% diffuse distal stenosis, as well as 60% proximal stenosis in the left circumflex artery. The documented diagnosis was coronary artery disease with multiple areas of moderate to severe stenosis. The treatment plan included outpatient cardiac catheterization and ongoing management with antiplatelet agents, statin, beta-blocker, and insulin.
+The patient is a 59-year-old female presenting with chest pain and increased weakness. She denied orthopnea and palpitations but reported dyspnea; initial workup ruled out myocardial infarction and epidural abscess, and subsequent cardiac catheterization revealed three-vessel coronary artery disease with preserved ejection fraction. Her medical history includes type 2 diabetes, hypertension, hypercholesterolemia, depression, prior cerebrovascular accidents with right-sided hemiparesis, and spinal stenosis. During this admission, she underwent elective coronary artery bypass grafting (CABG) times four and atrioseptal defect repair, which she tolerated well, with an uncomplicated postoperative course except for a small area of wound necrosis at the vein harvest site managed with local care. The documented diagnoses at discharge were status post catheterization, status post CABG and atrioseptal defect repair, depression, history of cerebrovascular accident, hypertension, hypercholesterolemia, and diabetes type 2. Treatment included continuation of home medications (Aspirin, Plavix, Lipitor, Trazodone, Lantus), addition of Colace and Percocet as needed, wound care with wet-to-dry dressings, physical therapy, and incentive spirometry. She was discharged in stable condition, ambulating independently, tolerating a regular diet, and instructed to follow up with her cardiologist and primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented for a general health check-in without specific complaints. She reported no new symptoms, changes in energy, sleep, appetite, weight, mood, or memory, and denied any difficulty with physical activity such as walking, climbing stairs, or household tasks. She was unsure if she was up to date on routine health screenings and stated she had no known family history of heart disease, diabetes, or cancer. The patient recalled her blood pressure was usually in the normal range and had never been told it was high. On assessment, the doctor noted the patient was in good health with no concerning symptoms or functional limitations. The doctor emphasized the importance of preventive care and recommended reviewing her records to ensure she is current with screenings such as mammogram, colon cancer screening, blood pressure checks, cholesterol and diabetes blood tests, bone density scan, and pelvic exam/Pap smear as appropriate for her age. The patient was advised to contact the clinic with any questions or if new symptoms arise. She expressed understanding and agreed to follow up on the recommended screenings.
+The patient presented for a general health check-in without specific complaints. She reported no new symptoms, changes in energy, sleep, appetite, weight, mood, or memory, and is able to remain active without difficulty performing daily activities such as walking, climbing stairs, or household tasks. There is no known family history of heart disease, diabetes, or cancer, and she has not been told she has high blood pressure. No acute medical issues or diagnoses were identified during the visit. The clinical impression is that the patient is in good health with no current symptoms or functional concerns. The primary recommendation was to stay up to date with preventive care, including routine screenings such as mammograms, colon cancer screening, blood pressure checks, cholesterol and diabetes blood tests, bone density scans, and pelvic exams/Pap smears as appropriate for her age and history. The patient was advised to review her records or check with her clinic to confirm when these screenings were last completed. She was encouraged to remain proactive about preventive health and to reach out with any questions or if new symptoms arise.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.344
+- **Model Used**: general
+- **Text1 Length**: 184 words
+- **Text2 Length**: 181 words
+
 
 ## Processing Information
 

@@ -55,16 +55,21 @@
 
 ## EHR Summary
 
-The chief complaint is not specified in the note. No specific symptoms or their characteristics are documented. Relevant history, including past medical conditions, medications, or allergies, is not provided. Physical therapy evaluation found the patient to be stable, independent, and at baseline strength. No diagnosis is documented in the note. The patient was discharged to home with no additional treatment or recommendations specified. Follow-up was noted to be the same.
+The chief complaint is not specified in the note. No specific symptoms or their characteristics are documented. Relevant history, including past medical conditions, medications, or allergies, is not provided. The patient was evaluated by physical therapy and found to be stable, independent, and at baseline strength. No explicit diagnosis is documented in the note. The treatment plan consisted of discharge to home with follow-up as previously arranged. No additional treatments or recommendations are specified.
+
 
 ## Dialogue Summary
 
-The patient presented with concern after a fall from standing, during which they struck the back of their head. The patient denied headaches, nausea, dizziness, or visual disturbances following the incident. They reported a small cut on the back of the head, approximately one centimeter in length. No additional symptoms or relevant medical history were discussed. The doctor inquired about bleeding, swelling, and tenderness at the site of the cut but did not receive further information due to the simulation ending. No physical findings beyond the patient's description were noted. No formal assessment or diagnosis was provided. No treatment plan or specific recommendations were given during the conversation.
+The patient is an adult presenting with concern after a fall from standing, resulting in impact to the back of the head. The primary symptom is a small laceration on the occipital scalp, approximately one centimeter in length. The patient denies headache, nausea, dizziness, or visual disturbances following the incident. There is no mention of significant bleeding, swelling, or tenderness at this stage. Relevant medical history, medications, and allergies are not specified in the dialogue. No formal diagnosis has been documented yet. The treatment plan and specific recommendations have not been provided in the available text.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.920
-- **Similarity Label**: N/A
+- **STS Score**: 0.399
+- **Model Used**: general
+- **Text1 Length**: 74 words
+- **Text2 Length**: 96 words
+
 
 ## Processing Information
 

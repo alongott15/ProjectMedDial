@@ -84,16 +84,21 @@ Let me ask—have you noticed anything that seems to trigger your symptoms, such
 
 ## EHR Summary
 
-The patient is a 72-year-old male presenting with hematemesis. He reported one day of vomiting blood and approximately two days of melanotic stools, with initial hypotension (SBP in the 80s) and low hematocrit (24), which improved after transfusion and fluids. His history includes cryptogenic cirrhosis, hepatocellular carcinoma (post multiple chemoembolizations), portal hypertension, portal vein thrombosis, atrial flutter (post ablation), hypertension, diabetes mellitus type 2, and prior prostate resection; he is allergic to ciprofloxacin. On admission, physical exam showed mild edema, decreased breath sounds at the right base, and no asterixis; labs revealed anemia (Hgb 10.3, Hct 28.5), thrombocytopenia (platelets 94), elevated AST, and mild hyperkalemia. EGD demonstrated actively bleeding grade 3 esophageal varices, which were treated with banding of three varices. The documented diagnosis was upper gastrointestinal bleeding secondary to esophageal varices in the setting of cirrhosis and portal hypertension. Treatment included endoscopic variceal banding, blood transfusions, intravenous fluids, and supportive care. The patient remained hemodynamically stable following intervention.
+The patient is a 72-year-old male presenting with hematemesis as the chief complaint. He reported one day of vomiting blood and approximately two days of melanotic stools, with initial hypotension (SBP in the 80s) and a low hematocrit (24), requiring transfusion and IV fluids prior to transfer. His medical history includes cirrhosis, hepatocellular carcinoma (on experimental protocol), portal hypertension, atrial flutter status post ablation, hypertension, type 2 diabetes, and prior prostate resection; he is allergic to ciprofloxacin. On admission, EGD revealed bleeding grade 3 esophageal varices, which were successfully banded, and he remained hemodynamically stable thereafter. The documented diagnoses were upper GI bleed due to esophageal varices, hepatocellular carcinoma, cirrhosis, atrial flutter, type 2 diabetes, and hypertension. Treatment included IV protonix, octreotide drip, prophylactic ceftriaxone, blood transfusions, and banding of varices; outpatient medications were adjusted accordingly. He was discharged home in stable condition with instructions to continue lactulose, Lantus, protonix, nadolol, lasix, and spironolactone, and to follow up with his primary care provider and GI specialist.
+
 
 ## Dialogue Summary
 
-The patient presented with vomiting blood and darker-than-usual stools, concerned about a possible upper GI bleed. Vomiting involved dark, coffee-ground blood, occurring before the onset of consistently darker stools over the past few days; the amount was more than streaks but not large. The patient denied lightheadedness, weakness, shortness of breath, abdominal pain, or chest discomfort, and reported no triggers or use of aspirin/NSAIDs. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the presence of dark, coffee-ground vomit and melena without associated pain or systemic symptoms, suggesting possible bleeding from the upper digestive tract (stomach or esophagus). The doctor explained that digested blood can cause black, tarry stools and that even mild bleeding warrants monitoring. The treatment plan included tracking any changes in symptoms, avoiding aspirin/NSAIDs, and seeking prompt medical attention if bleeding increases or new symptoms develop. The patient understood and agreed to monitor for changes.
+The patient presents with the chief complaint of vomiting blood and noticing darker stools. The vomiting involved a moderate amount of dark, coffee-ground appearing blood, first noticed before the onset of consistently darker stools over the past few days. The patient denies associated symptoms such as lightheadedness, weakness, shortness of breath, or abdominal/chest pain. There is no history of aspirin or NSAID use, and no identifiable triggers for the bleeding were reported. The clinical impression discussed was possible upper gastrointestinal bleeding, likely from the stomach or esophagus, as suggested by the appearance of the vomit and stools. The patient was advised to monitor for increased bleeding, weakness, new pain, or other concerning symptoms, and to avoid medications that could worsen bleeding. Prompt medical attention was recommended if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.516
+- **Model Used**: general
+- **Text1 Length**: 166 words
+- **Text2 Length**: 133 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ Let me know if you have any questions about what I've explained, or if you need 
 
 ## EHR Summary
 
-The patient is a 40-year-old female presenting with recurrent aspiration pneumonia and hypotension. She was found unresponsive with agonal respirations and hypoxia (oxygen saturations in the 80s) after eating popcorn, requiring suctioning in the Emergency Department where corn kernels were retrieved. Her past medical history includes C3-C4 quadriplegia, recurrent aspiration pneumonias (including MRSA-positive sputum), chronic pain, anxiety/depression, adrenal insufficiency, and decubitus ulcers colonized by Pseudomonas. On physical intervention, she was intubated without complications for rigid bronchoscopy, during which popcorn fragments were removed from the left lower lobe and copious white secretions were noted bilaterally in the trachea and lungs. The documented diagnosis was recurrent aspiration pneumonia following foreign body (popcorn) aspiration. Treatment included intubation, bronchoscopy with removal of foreign material, and supportive care. She was recently treated with a fourteen-day course of Vancomycin for prior aspiration pneumonia. The patient has allergies to penicillin and sulfa drugs.
+The patient is a 40-year-old female presenting with recurrent aspiration pneumonia and hypotension. She was found unresponsive with agonal respirations and hypoxia (oxygen saturation in the 80s) after eating popcorn, requiring suctioning and removal of corn kernels from her airway. She subsequently underwent intubation and rigid bronchoscopy, during which popcorn fragments and copious secretions were removed from the lungs. Her past medical history is significant for C3-C4 quadriplegia, recurrent aspiration pneumonias (including MRSA-positive sputum), chronic pain, adrenal insufficiency, anxiety/depression, and multiple decubitus ulcers colonized by Pseudomonas. She has documented allergies to penicillin and sulfa drugs. The clinical impression was recurrent aspiration pneumonia with airway obstruction secondary to food aspiration. Treatment included intubation, bronchoscopy for foreign body removal, and supportive care; she had recently completed a 14-day course of vancomycin for prior pneumonia. Additional management addressed her chronic conditions and decubitus ulcers.
+
 
 ## Dialogue Summary
 
-The patient presented with discomfort primarily due to pain that began a few days ago and has persisted without improvement. They reported difficulty performing regular activities at home, new trouble thinking clearly, increased confusion, and feeling unusually cold. The patient noted their temperature was measured at 91 degrees and described increased daytime sleepiness, but denied shivering, numbness, or changes in skin color. No relevant medical history, medications, or allergies were mentioned. Physical findings included low body temperature and altered mental status as described by the patient. The doctor assessed these symptoms as concerning for significant hypothermia, noting that low body temperature can cause both physical and mental changes such as tiredness and confusion. The doctor advised immediate medical attention at an emergency department and recommended staying warm with blankets and avoiding cold exposure until care is received.
+The patient presented with discomfort primarily due to pain that began a few days ago and has persisted without improvement. The pain has interfered with daily activities and was accompanied by new-onset confusion and increased daytime sleepiness, both starting around the same time as the pain. The patient also reported feeling unusually cold, with a documented low body temperature of approximately 91°F, but denied shivering, numbness, or changes in skin color. There is no additional relevant medical history, medications, or allergies specified. The clinical impression was significant hypothermia, as indicated by the low temperature and associated cognitive changes. The physician advised immediate medical attention, recommending the patient go to the emergency department or call for help if unable to travel independently. Supportive measures such as staying warm with blankets and avoiding further cold exposure were also recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.916
-- **Similarity Label**: N/A
+- **STS Score**: 0.269
+- **Model Used**: general
+- **Text1 Length**: 141 words
+- **Text2 Length**: 137 words
+
 
 ## Processing Information
 

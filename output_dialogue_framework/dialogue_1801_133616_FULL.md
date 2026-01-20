@@ -85,16 +85,23 @@ For now, gentle activity like walking and stretching can help maintain strength.
 
 ## EHR Summary
 
-The patient is a 77-year-old female presenting with bilateral leg weakness. She reports a 6-year history of progressive bilateral leg heaviness and weakness, particularly with ambulation and prolonged standing, accompanied by occasional paresthesias and numbness but no frank pain or history of ulcers. Her past medical history includes type 1 diabetes, hypertension, glaucoma, a history of sarcoma, and right total knee replacement; she has no known drug allergies. On physical exam, she was alert and oriented, with warm extremities, normal capillary refill, and diminished popliteal pulses but preserved distal pulses. The documented diagnosis is not explicitly stated but the clinical picture and interventions suggest peripheral arterial disease with lower extremity arterial insufficiency. She underwent abdominal aortograms with lower extremity runoff and percutaneous transluminal angioplasty (PTA) of affected arteries during her admission. Discharge recommendations are not specified in the note.
+The patient is a 77-year-old female presenting with bilateral leg weakness. She reported a 6-year history of progressive bilateral leg heaviness and weakness, particularly with ambulation and prolonged standing, occasionally accompanied by paresthesias and numbness but no frank pain. Her relevant medical history includes type 1 diabetes, hypertension, glaucoma, and a history of sarcoma; she has no known drug allergies. The documented diagnoses were peripheral vascular disease, urinary tract infection, diabetes, hypertension, history of sarcoma, and glaucoma. During admission, she underwent two abdominal aortograms with angioplasty for lower extremity vascular disease and was treated for a urinary tract infection with ciprofloxacin. She was discharged in good condition on aspirin, clopidogrel, antihypertensives, and other home medications. Discharge instructions included monitoring for fever, increased leg pain, neurologic changes, swelling, or groin discharge, and to follow up with her physician in 1–7 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening weakness in both legs. They reported increased difficulty getting up from chairs and walking, as well as a heavy sensation in the legs and intermittent numbness or tingling, all developing over several weeks. The patient noted that symptoms are somewhat alleviated by resting overnight, with heaviness and numbness coming and going without a clear pattern, though standing or walking for a while may make them more noticeable. There was no history of falls, near-falls, or legs giving out, and the patient remains able to walk short distances safely. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted the gradual onset of bilateral leg weakness and heaviness without acute or severe features, suggesting possible causes such as changes in circulation, nerve function, or muscle strength, and mentioned mild nerve compression or decreased activity as potential contributors. The doctor recommended monitoring for any worsening symptoms or new issues such as sudden loss of control, severe pain, or difficulty with bladder or bowel function, and advised maintaining gentle activity like walking and stretching. The patient understood and agreed to monitor their symptoms and stay active.
+The patient presents with the chief complaint of bilateral leg weakness. The weakness has developed gradually over several weeks and is accompanied by a heavy sensation and intermittent numbness or tingling in both legs. These symptoms have made activities such as getting up from chairs and walking more difficult, though the patient remains able to walk short distances safely without falls or significant unsteadiness. Resting overnight provides some relief from the heaviness, but the weakness persists; symptoms do not follow a clear pattern but may be more noticeable after prolonged standing or walking.
+
+No specific diagnosis was documented, but the clinician discussed possible causes such as changes in circulation, nerve function, or muscle strength, and mentioned mild nerve compression or decreased activity as potential contributors. The treatment plan includes monitoring for any progression or new symptoms (such as sudden loss of control, severe pain, or incontinence) and maintaining gentle activity like walking and stretching to preserve strength. The patient was advised to report any worsening or new issues for further evaluation. No medications or urgent interventions were prescribed at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.561
+- **Model Used**: general
+- **Text1 Length**: 140 words
+- **Text2 Length**: 181 words
+
 
 ## Processing Information
 

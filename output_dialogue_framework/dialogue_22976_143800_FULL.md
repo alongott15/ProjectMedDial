@@ -68,16 +68,21 @@
 
 ## EHR Summary
 
-The patient is a 72-year-old male presenting with hematemesis. He reported one day of vomiting blood and approximately two days of melanotic stools, with initial hypotension (SBP in the 80s) and low hematocrit (24), which improved after transfusion and fluids. His relevant history includes cryptogenic cirrhosis, hepatocellular carcinoma (post multiple chemoembolizations), portal hypertension, portal vein thrombosis, atrial flutter (post ablation), hypertension, type 2 diabetes, and prior prostate resection; he is allergic to ciprofloxacin. On admission, physical exam showed mild edema, decreased breath sounds at the right base, and no asterixis; labs revealed anemia, thrombocytopenia, mild coagulopathy, and elevated liver enzymes. EGD demonstrated bleeding grade 3 esophageal varices, which were treated with banding of three varices. The documented diagnosis was upper gastrointestinal bleeding due to esophageal varices in the setting of cirrhosis and portal hypertension. Treatment included endoscopic variceal banding, transfusion of 2 units PRBCs, intravenous fluids, and supportive care. The patient remained hemodynamically stable after intervention.
+The patient is a 72-year-old male presenting with hematemesis as the chief complaint. He reported one day of vomiting blood and approximately two days of melanotic stools, with initial hypotension (SBP in the 80s) and low hematocrit (24), requiring transfusion and fluids prior to transfer. His medical history includes cirrhosis, hepatocellular carcinoma, portal hypertension, atrial flutter status post ablation, hypertension, diabetes mellitus type 2, and a remote history of tobacco and alcohol use; he is allergic to ciprofloxacin. On admission, EGD revealed bleeding grade 3 esophageal varices, which were successfully banded, and he remained hemodynamically stable thereafter. The documented diagnoses were upper GI bleed due to esophageal varices, hepatocellular carcinoma, cirrhosis, atrial flutter, diabetes mellitus type 2, and hypertension. Treatment included IV protonix, octreotide drip, prophylactic ceftriaxone, blood transfusions, and banding of varices; outpatient medications were adjusted accordingly. He was discharged home in stable condition with instructions to continue lactulose, Lantus, protonix, nadolol, lasix, and spironolactone, and to follow up with his primary care provider and GI specialist.
+
 
 ## Dialogue Summary
 
-The patient presented with coughing up blood as the chief complaint. They reported that this symptom began a few days ago and has occurred several times daily, with a fair amount of blood rather than just streaks. Additionally, the patient noted their stools have become black and tar-like, which is a new finding for them. No episodes of vomiting blood or nausea were reported during the encounter. There was no relevant medical history, medications, or allergies mentioned. The doctor inquired about the characteristics and timing of both the hemoptysis and melena to clarify the situation. No physical examination findings or definitive assessment were documented in the conversation. No specific treatment plan or recommendations were provided during this dialogue.
+The patient is presenting with hemoptysis (coughing up blood) as the chief complaint. The symptom began a few days ago and involves more than just streaks of blood, with several episodes occurring each day. The patient also reports noticing black, tar-like stools (melena) during this period. There is no mention of vomiting blood or nausea at this point in the dialogue. Relevant medical history, medications, allergies, and a documented diagnosis are not specified in the conversation. No specific treatment or recommendations have been documented yet.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.484
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 85 words
+
 
 ## Processing Information
 

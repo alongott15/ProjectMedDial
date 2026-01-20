@@ -109,16 +109,23 @@ If you notice any sudden worsening—like severe chest pain, difficulty breathin
 
 ## EHR Summary
 
-The patient is a 65-year-old man presenting with chest pain and shortness of breath. He reported these symptoms two days after discharge following aortic valve replacement and coronary artery bypass graft surgery, with prior complaints of lethargy and headaches during his initial admission. His medical history includes noninsulin dependent diabetes mellitus, hypertension, paroxysmal atrial fibrillation, left atrial thrombus, congestive heart failure with an ejection fraction less than 20%, right lower lobe mass, remote cerebrovascular accident, coronary artery disease, and cervical spinal stenosis. On readmission, he was found to be in congestive heart failure. Physical exam and specific test findings are not detailed in this note. The documented diagnosis was congestive heart failure. Treatment on admission included amiodarone, Lopressor, Glucotrol, Protonix, Neurontin, Lasix, and Coumadin. The patient has no known drug allergies.
+The patient is a 65-year-old man presenting with chest pain and shortness of breath following recent cardiac surgery. He experienced symptoms of lethargy, headaches, and later developed congestive heart failure, sternal wound infection, and persistent abdominal distention with pain. His medical history includes noninsulin dependent diabetes mellitus, hypertension, paroxysmal atrial fibrillation, left atrial thrombus, congestive heart failure (ejection fraction <20%), right lower lobe mass, prior cerebrovascular accident, coronary artery disease status post CABG, and permanent pacemaker placement; he has no known drug allergies. The documented diagnoses during this admission included congestive heart failure, sternal wound infection with MRSA, urinary tract infection, and metabolic toxic syndrome causing transient mental status changes. Treatment involved intravenous diuretics, beta blockers, ACE inhibitors, antibiotics (vancomycin, gentamicin, ciprofloxacin), antifungals (fluconazole, nystatin), wound debridement and closure with bilateral pectoral flaps, bowel regimen for constipation, and supportive care for metabolic encephalopathy. The patient was transferred to the Medical Service for ongoing management of his multiple health issues.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain and difficulty catching breath as the chief complaint. Symptoms included chest discomfort and shortness of breath worsening over several days, especially with movement or walking, and improving somewhat with rest; additional symptoms were abdominal bloating, pain, distention, nausea, vomiting, fatigue, headaches, swelling in both legs and ankles (noted as 1–2+ edema), need for extra pillows to sleep due to orthopnea, increased daytime sleepiness, cramping, and occasional disorientation. No specific medical history, medications, or allergies were mentioned during the conversation. Physical findings described by the patient included bilateral leg and ankle swelling and abdominal distention. The doctor assessed that the combination of symptoms—progressive shortness of breath, orthopnea, peripheral edema, abdominal symptoms, and fatigue—suggests fluid overload likely related to heart failure, though other causes such as lung or liver issues were also considered. The doctor recommended prompt medical evaluation today to assess heart and lung function and possibly perform blood tests or imaging; in the meantime, the patient was advised to rest with head elevated and avoid salty foods. The doctor emphasized seeking emergency care if symptoms suddenly worsen (severe chest pain, inability to breathe at rest, or confusion) and encouraged the patient to mention all symptoms, including cramping and disorientation, during evaluation.
+The patient is an adult presenting with chest pain and dyspnea (shortness of breath) as the chief complaint. Symptoms began a few days ago and have progressively worsened, with chest discomfort and shortness of breath exacerbated by activity and improved somewhat with rest. Additional symptoms include bilateral lower extremity edema (1–2+), orthopnea requiring extra pillows to sleep, fatigue, headaches, abdominal bloating and pain, nausea, vomiting, cramping, increased daytime sleepiness, and occasional disorientation. These symptoms are significantly limiting daily activities such as walking and meal preparation.
+
+Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression documented by the doctor is probable heart failure, with consideration of other possible causes such as pulmonary or hepatic conditions. The treatment plan includes urgent recommendation for prompt medical evaluation today to assess heart and lung function, with interim advice to rest with the head elevated and avoid salty foods. The patient was also instructed to seek emergency care if experiencing severe chest pain, worsening dyspnea at rest, or confusion.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.641
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

@@ -87,16 +87,23 @@ Let me know if you have any questions or if there’s anything else you’d like
 
 ## EHR Summary
 
-The patient is a 33-year-old male admitted for gastric bypass surgery due to morbid obesity. Postoperatively, he experienced increased blood from the nasogastric tube, diaphoresis, lightheadedness, and nausea without chest pain or dyspnea. His past medical history includes obesity, degenerative joint disease, heartburn, and headache; he has no known drug allergies and was taking Advil at home. Physical examination was notable for stable vital signs and an obese, nontender abdomen; electrocardiogram showed normal sinus rhythm. The clinical course was complicated by postoperative bleeding resulting in a hematocrit drop to 18%, requiring transfusion of 6 units of packed red blood cells and 2 units of fresh frozen platelets. The diagnosis was postoperative hemorrhage following Roux-en-Y gastric bypass. After stabilization and cessation of bleeding, his hematocrit remained stable at 28%. At discharge, he was tolerating a stage three diet and prescribed Roxicet for pain, ranitidine, Actigall 300 mg twice daily for six months, and vitamin B supplementation.
+The patient is a 33-year-old male admitted for gastric bypass surgery due to morbid obesity. Postoperatively, he developed increased blood loss from the nasogastric tube, accompanied by diaphoresis, lightheadedness, and nausea, but denied chest pain or dyspnea. His past medical history includes obesity, degenerative joint disease, heartburn, and headache; he has no known drug allergies and was taking Advil at home. The clinical course was notable for a drop in hematocrit to 18%, requiring transfusion of 6 units of packed red blood cells and 2 units of fresh frozen platelets, after which his hematocrit stabilized at 28%. The documented diagnosis was postoperative bleeding following Roux-en-Y gastric bypass. On discharge, his hematocrit remained stable and he was tolerating a stage three diet. Discharge medications included Roxicet for pain, ranitidine, Actigall 300 mg twice daily for six months, and vitamin B-12 1000 mcg daily for two months. He was advised to follow up in the surgical nutrition clinic and with his surgeon in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with increased blood coming from their nasogastric tube. Over the past couple of days, they have noticed more blood than usual, enough to change the color of the tube output, with no clear pattern or triggers. Associated symptoms include increased sweating, lightheadedness, fatigue, weakness, and mild nausea, all beginning around the same time as the bleeding; there have been no fever, chills, or signs of infection. The patient reported that the amount of bleeding has remained stable over the past few days. The doctor assessed that the patient may be experiencing symptoms related to ongoing blood loss, such as weakness and dizziness, and noted that the absence of worsening bleeding is somewhat reassuring. The doctor recommended that the patient promptly contact their healthcare team to evaluate tube placement and check blood levels for anemia or other complications. Additional advice included resting, avoiding strenuous activity, and seeking immediate medical attention if symptoms suddenly worsen (e.g., increased bleeding, severe dizziness, chest pain, or trouble breathing).
+The patient presents with increased blood output from their nasogastric tube as the chief complaint. Over the past couple of days, they have noticed a significant change in the color of the tube output due to more blood, along with new symptoms of increased fatigue, lightheadedness, sweating, and mild nausea. These symptoms occur randomly and are not triggered or worsened by movement or activity. The patient denies fever, chills, or other signs of infection, and reports that the bleeding amount has remained stable over the last few days.
+
+No specific prior medical history, medications, or allergies are documented in this encounter. The clinical impression is that the patient may be experiencing ongoing blood loss through the nasogastric tube, potentially leading to symptoms of anemia such as weakness and dizziness. The treatment plan includes prompt communication with the patient’s healthcare team for further evaluation of tube placement and blood levels, rest, and instructions to seek immediate medical attention if symptoms worsen (e.g., increased bleeding, severe dizziness, chest pain, or dyspnea).
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.562
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

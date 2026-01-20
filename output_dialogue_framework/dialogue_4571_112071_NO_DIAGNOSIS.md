@@ -89,16 +89,21 @@ If you notice any worsening or new symptoms, please let me know. Otherwise, regu
 
 ## EHR Summary
 
-The patient is a 77-year-old male presenting with increasing chest discomfort and a positive thallium stress test. He reported recurrent chest discomfort, prompting admission for further cardiac evaluation. His history is significant for coronary artery disease with prior right coronary artery stenting, percutaneous transluminal coronary angioplasty to the diagonal branch, hypertension, hypercholesterolemia, and prostate cancer treated with radiation and hormonal therapy; he has no known drug allergies. On physical exam, vital signs were stable and cardiac and pulmonary exams were unremarkable. Laboratory results showed mild anemia (hemoglobin 10.7 g/dL) and otherwise unremarkable findings. The documented diagnosis was coronary artery disease with recurrent symptoms. He underwent off-pump coronary artery bypass grafting (CABG) x1 as definitive treatment.
+The patient is a 77-year-old male presenting with increasing chest discomfort and a positive thallium stress test. He reported recurrent chest discomfort, and cardiac catheterization revealed significant coronary artery disease, including 90% LAD stenosis and prior stenting of the RCA. His medical history includes coronary artery disease with prior PTCA and stenting, hypertension, hypercholesterolemia, and prostate cancer treated with radiation, seeding, and hormonal therapy; he has no known drug allergies. The documented diagnoses were status post off-pump CABG x1 (LIMA to LAD), hypertension, elevated cholesterol, prostate cancer, and coronary artery disease with prior interventions. He underwent elective off-pump coronary artery bypass grafting and had an uncomplicated postoperative course except for atrial fibrillation, which was treated with amiodarone. He was discharged in good condition on a regimen including aspirin, clopidogrel, amiodarone, diltiazem, statins, diuretics, and supportive medications. Discharge instructions included wound care, activity restrictions, monitoring for signs of infection or fluid overload, and follow-up appointments with cardiology and primary care.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening chest discomfort. The discomfort has been present for an unspecified duration, is aggravated by activity such as walking or doing chores, and is somewhat relieved by rest; the patient reports having to reduce activity due to symptoms. Additional symptoms include irregular heartbeats (with a known history of atrial fibrillation) and gradual thyroid enlargement, which has remained stable over time and is not associated with pain, voice changes, difficulty swallowing, pressure in the neck, or changes in energy, weight, or appetite. Relevant history includes atrial fibrillation and an enlarged thyroid; no new compressive or systemic symptoms were reported. On clinical review, the doctor noted limitation of activity due to chest discomfort and stable thyroid enlargement without concerning features. The assessment was that chest discomfort may be related to atrial fibrillation and exertion, while the thyroid enlargement appears stable and non-compressive. The doctor advised monitoring for new or worsening symptoms (such as increased shortness of breath, more severe chest pain, or neck changes), staying active within comfort limits, and maintaining regular check-ins for heart rhythm and thyroid monitoring.
+The patient is an adult presenting with worsening chest discomfort as the chief complaint. The chest discomfort has gradually increased over time, is aggravated by activity such as walking or doing chores, and is somewhat relieved by rest. The patient reports a history of atrial fibrillation and an enlarged thyroid, which has remained stable in size and is not associated with pain, voice changes, difficulty swallowing, neck pressure, or changes in energy, weight, or appetite. The patient also experiences irregular heartbeats but denies other compressive thyroid symptoms. The clinical impression links the chest discomfort to atrial fibrillation, particularly with exertion, and notes the stable nature of the thyroid enlargement as reassuring. The treatment plan includes monitoring for new or worsening symptoms (such as increased shortness of breath, more severe chest pain, or sudden neck changes), staying active within comfort limits, and regular follow-up to monitor heart rhythm and thyroid status. No new medications or interventions were initiated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.447
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

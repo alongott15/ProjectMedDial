@@ -87,16 +87,21 @@ Has the discomfort been getting progressively worse over time, or does it tend t
 
 ## EHR Summary
 
-The patient is a 42-year-old male presenting with Chiari type II malformation with hydrocephalus. On admission, he was mildly anxious but well appearing, with no rashes and normal vital signs. Physical examination revealed a large head, scoliosis, an old scar at L2-L3, brisk reflexes (3+/4), bilaterally positive Babinski signs, mild end-target dysmetria on finger-to-nose testing, and difficulty with tandem gait. His cranial nerves, sensory, and motor exams were otherwise intact. The documented diagnosis was Chiari type II malformation with hydrocephalus. He underwent a bilateral suboccipital craniotomy, Chiari decompression, C1 laminectomy, and duraplasty on the day of admission. Postoperatively, he recovered well in the surgical intensive care unit and a CT scan showed expected postoperative changes.
+The patient is a 42-year-old male presenting with Chiari type II malformation with hydrocephalus. On admission, he was mildly anxious but well-appearing, with neurologic findings including brisk reflexes, bilateral positive Babinski signs, mild end-target dysmetria, and difficulty with tandem gait. His relevant history includes major depression and generalized anxiety disorder; he is on lithium carbonate and duloxetine. The documented diagnoses were Chiari II malformation, major depression, generalized anxiety disorder, corneal abrasion, sinus bradycardia, and hyponatremia. He underwent bilateral suboccipital craniotomy, Chiari decompression, C1 laminectomy, and duraplasty without postoperative neural deficits. Postoperatively, he developed transient sinus bradycardia and mild hyponatremia, both of which resolved, and a right corneal abrasion treated with erythromycin ointment. He was started on cyclobenzaprine for back spasms and continued his psychiatric medications. The patient was discharged home in good condition with instructions to follow up in clinic in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with back pain that has been more bothersome than usual. The pain has been present for a while, comes and goes, and is rated as 6 out of 10 most days; it is aggravated by certain movements (especially twisting or bending), prolonged sitting, poor posture, and stress or anxiety, and tends to worsen later in the day. The patient denied any numbness, tingling, or weakness in the legs, and reported that the discomfort limits activities such as exercise and work tasks. Relevant history includes scoliosis and mild anxiety. No physical findings were described beyond the patient's reported symptoms. The doctor assessed the back pain as likely mechanical in nature, related to posture, movement, and stress, and not suggestive of nerve involvement given the absence of neurological symptoms. The doctor recommended gentle stretching, regular movement breaks, attention to desk ergonomics, and physical therapy for core strengthening and posture improvement, advising the patient to monitor for any new neurological symptoms that would require prompt attention.
+The patient is an adult presenting with back pain as the chief complaint. The back pain has been present for an extended period, is moderate in severity (rated 6/10), and is described as intermittent, worsening with certain movements (twisting, bending), prolonged sitting, poor posture, and increased stress or anxiety. There is no associated numbness, tingling, or weakness in the legs. Relevant history includes scoliosis and mild anxiety. The clinical impression is that the back pain is mechanical in nature, likely related to scoliosis and exacerbated by posture and stress, without evidence of nerve involvement. The treatment plan includes recommendations for gentle stretching, regular movement breaks, ergonomic adjustments, and consideration of physical therapy to strengthen the core and improve posture. The patient was advised to monitor for new symptoms such as leg weakness or changes in bladder/bowel control that would require prompt attention.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.933
-- **Similarity Label**: N/A
+- **STS Score**: 0.328
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 142 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ Let’s plan for a follow-up soon to evaluate this more closely. In the meantime
 
 ## EHR Summary
 
-The patient is a 78-year-old female presenting with increasing angina on exertion over the past six months, requiring her to reduce her activity level. She previously could walk one mile before experiencing chest pain, which is relieved by rest and has not required nitroglycerin use. Her medical history includes hypertension, type II diabetes mellitus with retinopathy for 25 years, and prior laser surgeries. Preoperative evaluation revealed an ejection fraction of 60% with severe coronary artery disease: 90% occlusion of the LAD and left circumflex, and 95% occlusion of the RCA. Physical examination on admission was unremarkable, with no respiratory or neurological deficits. The documented diagnosis was severe multi-vessel coronary artery disease. She underwent a coronary artery bypass graft (CABG) times three with LIMA to LAD, OM, and PDA grafts, and tolerated the procedure well. Postoperative care included transfer to the Intensive Care Unit.
+The patient is a 78-year-old female admitted for coronary artery bypass grafting (CABG) due to increasing angina with exertion over the past six months, which required her to reduce her activity level; the pain was relieved by rest and she had no prior nitroglycerin use. Preoperative evaluation revealed severe coronary artery disease with 90% occlusion of the LAD and left circumflex arteries and 95% occlusion of the RCA, with an ejection fraction of 60%. Her medical history includes hypertension, type II diabetes mellitus with retinopathy, and prior laser surgeries. The documented diagnosis was severe multi-vessel coronary artery disease requiring surgical intervention. She underwent CABG x3 and had an uncomplicated postoperative course aside from a brief hypertensive episode and mild respiratory symptoms, both of which resolved. At discharge, her sternal wound and graft sites were intact with no signs of infection, and she was in good condition without acute cardiovascular issues. The treatment plan included discharge to rehabilitation, continuation of cardiac and diabetic medications, and follow-up with her cardiologist and primary care provider in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort affecting daily activities. The chest tightness is described as a pressure or tightness (not sharp), rated around 6/10 in severity, and occurs with walking or chores but resolves with rest; it does not radiate to the arm, neck, or jaw, and is not associated with shortness of breath, sweating, or lightheadedness. The patient reported the tightness has become more frequent and intense recently, leading to avoidance of walks and taking more breaks during chores, but denied increased fatigue. The patient has experienced similar chest tightness in the past, but noted a recent change in frequency and severity. No physical findings were discussed in the dialogue. The doctor assessed that the pattern of exertional chest tightness relieved by rest is suggestive of angina, likely due to temporary reduction in heart blood supply during activity. The doctor advised the patient to avoid strenuous activities for now, monitor for new symptoms such as pain at rest, sweating, or faintness, and seek immediate attention if these occur. A follow-up was recommended for further evaluation, and the patient asked about continuing nitroglycerin use if symptoms recur.
+The patient is an adult presenting with chest discomfort as the chief complaint. The chest tightness is described as a pressure or tightness (not sharp), rated 6/10 in severity, and is triggered by walking or physical activity; it resolves with rest and does not radiate to the arm, neck, or jaw. The patient denies associated symptoms such as shortness of breath, sweating, or lightheadedness, and reports no increased fatigue. The chest tightness has become more frequent and intense over time, leading the patient to limit daily activities and take more frequent breaks. There is a history of similar chest tightness in the past, but recent changes have caused increased concern. The clinical impression documented by the doctor is that the pattern is consistent with angina, likely due to reduced cardiac oxygen supply during exertion. The treatment plan includes advising the patient to avoid strenuous activities, monitor for new or worsening symptoms (such as pain at rest, severe pain, sweating, or faintness), and arranging a follow-up evaluation. The patient was also reminded to continue using nitroglycerin tablets as previously instructed if symptoms recur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.450
+- **Model Used**: general
+- **Text1 Length**: 175 words
+- **Text2 Length**: 182 words
+
 
 ## Processing Information
 

@@ -87,16 +87,23 @@ Let me know if you have any questions or concerns about what we've discussed so 
 
 ## EHR Summary
 
-The patient is a 52-year-old female presenting with shortness of breath on exertion and chest pain over the past year. Symptoms were associated with moderate aortic stenosis, as confirmed by cardiac catheterization, with an ejection fraction of 77% and an A-V gradient of 39 mmHg. Relevant history includes aortic stenosis on echocardiogram, hyperlipidemia, and prior cesarean section. Physical examination revealed regular heart rate and rhythm with a clean, dry, intact surgical incision postoperatively. The documented diagnosis was moderate aortic stenosis. She underwent a Bentall procedure and had an uncomplicated postoperative course, including successful extubation, ambulation, and stable vital signs at discharge (BP 122/80, HR 79-80, O2 sat 95% on room air). Discharge medications included Lopressor, Lasix (for five days), potassium supplement, aspirin, and Prempro. She was advised to follow up in three to four weeks and declined home nursing care.
+The patient is a 52-year-old female presenting with shortness of breath on exertion and chest pain over the past year. Symptoms were associated with moderate aortic stenosis, as confirmed by cardiac catheterization, with an ejection fraction of 77% and an A-V gradient of 39 mmHg. Relevant history includes aortic stenosis on echocardiogram, hyperlipidemia, and prior cesarean section. The documented diagnosis was moderate aortic stenosis. She underwent a Bentall procedure and had an uncomplicated postoperative course, including successful extubation, chest tube removal, and ambulation to level 5. Discharge medications included Lopressor, Lasix (for five days), potassium supplement, aspirin, and Prempro. The patient was advised to follow up in three to four weeks and declined home nursing care; her vital signs were stable at discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath during physical activity. Symptoms included exertional shortness of breath and chest pain, both occurring together when walking or climbing stairs, with discomfort rated as a 6 out of 10 in intensity and improving with rest; symptoms have been present for a couple of weeks. The patient denied swelling in the ankles or feet, nocturnal shortness of breath, cough, wheezing, or lightheadedness. No relevant past medical history, medications, or allergies were mentioned. The doctor noted that symptoms are triggered by exertion and relieved by rest, without associated alarming features such as fainting or nighttime symptoms. The assessment was that the pattern could be related to cardiac or pulmonary causes, deconditioning, or mild respiratory issues, but exertional chest discomfort warrants caution for possible cardiac causes. The doctor advised the patient to avoid strenuous activity until further evaluation and recommended a physical exam and basic tests such as an EKG or lab work. The patient was instructed to seek prompt medical attention if new symptoms such as chest pain at rest, pain radiating to the arm or jaw, severe shortness of breath, or dizziness develop.
+The patient is an adult presenting with exertional shortness of breath and chest pain as the chief complaint. Symptoms have been present for approximately two weeks, are triggered by physical activity such as walking or climbing stairs, and improve with rest; the discomfort is rated as 6 out of 10 in intensity during activity. The patient denies associated symptoms such as swelling in the ankles or feet, cough, wheezing, lightheadedness, or nocturnal dyspnea. Relevant medical history, medications, and allergies are not specified.
+
+The clinical impression is that the symptoms may be related to cardiac or pulmonary causes, with consideration given to possible narrowing of the coronary vessels, but less serious causes such as deconditioning are also mentioned. No definitive diagnosis is documented at this stage. The treatment plan includes avoiding strenuous activity until further evaluation and proceeding with a physical exam and basic tests such as an EKG and lab work. The patient is advised to seek prompt medical attention if new symptoms develop, including chest pain at rest, pain radiating to the arm or jaw, severe shortness of breath, or dizziness.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.546
+- **Model Used**: general
+- **Text1 Length**: 123 words
+- **Text2 Length**: 182 words
+
 
 ## Processing Information
 

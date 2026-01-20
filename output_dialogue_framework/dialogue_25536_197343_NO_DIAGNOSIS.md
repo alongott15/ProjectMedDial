@@ -87,16 +87,21 @@ Otherwise, staying mentally active and keeping a regular routine can help. If yo
 
 ## EHR Summary
 
-The patient is a 70-year-old man presenting for evaluation of coronary artery disease (CAD) following a positive exercise tolerance test (ETT) indicating ischemia of the lateral and inferior walls with an ejection fraction (EF) of 35 percent. He denied chest pain or shortness of breath at the time of testing. His medical history includes hyperlipidemia, hypertension, and seizure disorder, and he takes Dilantin, Lipitor, aspirin, vitamin E, atenolol, Altace, and a multivitamin daily; he has no known drug allergies. Cardiac catheterization revealed three-vessel disease with significant stenoses (70% proximal LAD, 80% diagonal, subtotal left circumflex, total RCA occlusion) and an EF of 29% with inferoapical hypokinesis. On physical exam, vital signs were stable with a heart rate of 60 in sinus rhythm and blood pressure of 165/81. The documented diagnosis is three-vessel coronary artery disease with reduced ejection fraction. The patient was referred for coronary artery bypass grafting (CABG) as the treatment plan.
+The patient is a 70-year-old man admitted for management of coronary artery disease (CAD) following a positive exercise tolerance test and cardiac catheterization revealing three-vessel disease. He denied chest pain or shortness of breath at the time of testing, and review of systems was noncontributory. His medical history includes hyperlipidemia, hypertension, and seizure disorder; he has no known drug allergies and was taking Dilantin, Lipitor, aspirin, vitamin E, atenolol, Altace, and a multivitamin. The documented diagnosis was CAD status post coronary artery bypass grafting (CABG) x3, with additional diagnoses of hypercholesterolemia, hypertension, and seizure disorder. He underwent CABG with LIMA to diagonal, saphenous vein graft to OM, and saphenous vein graft to distal LAD, and had an uneventful postoperative course aside from mild transient confusion that resolved without intervention. At discharge, his physical exam was stable with no acute issues, and his incisions were clean and dry. The treatment plan included continuation of aspirin, Colace, Dilantin, atorvastatin, Altace, and atenolol, as well as home health nursing and scheduled follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about increased forgetfulness over the past few weeks. Symptoms included misplacing items more often, losing track of conversations, occasional confusion about tasks, and mild short-term memory changes; these episodes did not appear to worsen over time and were sometimes more noticeable when tired but otherwise occurred randomly. The patient denied recent illnesses, changes in medications, sleep disturbances, or language difficulties. No additional medical history, medication changes, or allergies were reported. The doctor noted mild changes in short-term memory and occasional confusion without language impairment or other acute symptoms. The assessment was that these symptoms may be consistent with normal aging, especially in the absence of progression or other concerning features. The doctor recommended keeping a record of memory lapses and monitoring for any worsening or new symptoms such as language problems, gait changes, or mood alterations. Staying mentally active and maintaining a regular routine were also advised, with an offer to review medications if the patient wished.
+The patient presents with concerns about increased forgetfulness over the past few weeks. Symptoms include mild short-term memory loss, occasional confusion about tasks, and increased frequency of misplacing items, with no clear triggers except possible mild worsening when tired. The patient denies recent illnesses, medication changes, sleep disturbances, or language difficulties. There is no reported progression of symptoms, and daily functioning is only mildly affected. Relevant history includes stable general health and no new medications. The clinical impression is mild short-term memory changes with occasional confusion, likely related to normal aging, without evidence of acute neurological deficit. The treatment plan includes monitoring symptoms by keeping a log of episodes and maintaining mental activity and routine. The patient was advised to report any worsening symptoms or new issues such as language problems, gait changes, or significant mood alterations.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.924
-- **Similarity Label**: N/A
+- **STS Score**: 0.315
+- **Model Used**: general
+- **Text1 Length**: 170 words
+- **Text2 Length**: 137 words
+
 
 ## Processing Information
 

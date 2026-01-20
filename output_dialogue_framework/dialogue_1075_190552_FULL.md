@@ -100,3 +100,23 @@ Would you like guidance on how to get help quickly, or do you have someone who c
 ## Processing Information
 
 - **Processing Time**: 429.6s
+
+## EHR Summary
+
+The patient is an 84-year-old woman presenting with a chief complaint of subdural hematoma requiring transfer for specialized management. She initially experienced a chronic obstructive pulmonary disease exacerbation, followed by a fall and subsequent decreased mental status; imaging revealed a left subdural hematoma with midline shift. Her history is notable for atrial fibrillation on Coumadin. On arrival, she demonstrated left-sided responsiveness but complete right-sided paralysis, progressing to increased somnolence and poor neurologic function. The documented diagnosis was left subdural hematoma with midline shift and poor neurologic recovery post-craniotomy and evacuation. She developed recurrent fevers of unclear source and failed multiple ventilator weaning attempts, requiring tracheostomy and ongoing ventilatory support. Despite intensive care, her mental status remained poor with no purposeful movements or speech. Given her poor prognosis, the decision was made by her family to withdraw care.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with sudden onset difficulty moving the right side of the body and feeling "out of it." Symptoms include complete inability to move the right arm and leg, inability to speak, worsening alertness, increased daytime sleepiness, and impaired memory and recognition. These symptoms have progressively worsened since onset and significantly impact activities of daily living such as dressing, eating, and mobility. The patient denies recent falls, injuries, or loss of consciousness.
+
+The clinical impression documented by the doctor is a possible neurological problem affecting the brain, such as a stroke. The doctor emphasized that these symptoms are concerning for interrupted blood flow to the brain and require prompt medical evaluation. The treatment plan includes immediate recommendation to seek medical attention—either by contacting a healthcare provider or going to the emergency department for further evaluation and testing. The patient was also advised to watch for new warning symptoms such as severe headache, vomiting, or loss of consciousness, and to have someone assist them in seeking care.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.535
+- **Model Used**: general
+- **Text1 Length**: 137 words
+- **Text2 Length**: 170 words
+

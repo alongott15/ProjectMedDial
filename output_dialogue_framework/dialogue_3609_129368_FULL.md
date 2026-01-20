@@ -89,16 +89,21 @@ In the meantime, I’d advise avoiding strenuous activity until you’ve been ch
 
 ## EHR Summary
 
-The patient is a 46-year-old male presenting with angina at rest and with exertion for the past year. His symptoms initially improved after percutaneous coronary intervention (PCI) to the left anterior descending artery (LAD) but recurred a couple of weeks prior to admission. He underwent exercise treadmill testing showing ST depression and cardiac catheterization revealing 90% restenosis at the origin of the LAD and a 50% lesion at the origin of the diagonal artery. Relevant history includes HIV positivity, hypercholesterolemia, treated syphilis, xerosis, lipodystrophy, erosive arthritis, prior herniorrhaphy, HSV exposure, and anxiety; he has no known drug allergies. On [2108-11-13], he underwent two-vessel coronary artery bypass grafting (CABG) with a left internal mammary artery graft to the LAD and a vein graft to the diagonal artery. The documented diagnosis was recurrent angina due to significant coronary artery disease with restenosis. The treatment plan included surgical revascularization via CABG.
+The patient is a 46-year-old male presenting with angina at rest and with exertion for the past year. His symptoms initially improved after PCI to the LAD but recurred a couple of weeks prior to admission, with recent testing revealing significant restenosis of the LAD and a moderate lesion in the diagonal artery. Relevant history includes HIV positivity, hypercholesterolemia, prior syphilis (treated), hypertension, HSV, and prior right inguinal herniorrhaphy; he has no known drug allergies. The documented diagnoses were status post two-vessel coronary artery bypass grafting (CABG x2), prior LAD PCI, HIV+, hypertension, elevated cholesterol, HSV, and prior syphilis. He underwent successful two-vessel CABG without complications and was medically optimized during his hospital stay. Discharge medications included aspirin, pravastatin, Atripla, pantoprazole, docusate sodium, and hydromorphone as needed for pain. He was discharged home in stable condition with instructions for wound care, activity restrictions, and follow-up appointments with cardiology and infectious disease.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain occurring both at rest and during activity. The chest discomfort was described as a pressure or tightness, sometimes radiating to the left arm, and has persisted consistently for about a year; physical activity worsens the pain, while rest provides relief. The patient denied associated symptoms such as sweating, jaw pain, shortness of breath, or changes in weight, appetite, or energy. Additionally, the patient reported left wrist pain due to arthritis and bone spurs, which significantly limits daily activities and exercise. On examination, the doctor noted that the chest discomfort’s characteristics and impact on activity raise concern for possible angina or other heart-related causes. The doctor recommended a thorough cardiac evaluation, including an EKG and possibly a stress test or imaging, and advised the patient to avoid strenuous activity until further assessment. The patient acknowledged understanding of the recommendations and agreed to follow up for heart evaluation.
+The patient is an adult presenting with chest pain as the chief complaint. The chest discomfort is described as a pressure or tightness that occurs both with physical activity and at rest, has been present for about a year, and sometimes radiates to the left arm; it is relieved by rest and worsened by exertion. The patient denies associated symptoms such as shortness of breath, sweating, jaw pain, or changes in weight, appetite, or energy. The patient also reports significant left wrist pain due to arthritis and bone spurs, which further limits physical activity and daily tasks. The clinical impression documented is concern for possible angina or other heart-related causes of chest pain, given the symptom pattern and impact on daily life. The doctor recommended a thorough cardiac evaluation, including an EKG and possibly a stress test or imaging. The patient was advised to avoid strenuous activity until further assessment and to seek immediate care if new severe symptoms develop. No new medications or interventions were started at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.381
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

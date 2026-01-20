@@ -87,16 +87,23 @@ Let me know if you have any questions about this or if there’s anything else y
 
 ## EHR Summary
 
-The patient is a 61-year-old female presenting for post-operative care following a right upper lobectomy performed on 2157-11-23. Prior to planned discharge, she developed sinus tachycardia with heart rates in the 130–140 range while ambulating, and reported pain at the incision site. Her incision was noted to be clean, dry, and intact, and she was otherwise stable with oxygen saturation at 95% and blood pressure of 120/75. On evaluation by the house officer, her heart rate had decreased to 100–110 in regular sinus rhythm. The documented clinical impression was post-operative sinus tachycardia. She was started on Lopressor (metoprolol) 12.5 mg twice daily as a low-dose beta blocker. No other complications were noted, and her vital signs remained stable.
+The patient is a 61-year-old female who was admitted for a right upper lobectomy on 2157-11-23. Prior to planned discharge, she developed sinus tachycardia with heart rates in the 130–140 range while ambulating, and reported pain at the incision site. On examination, her incision was clean, dry, and intact, and her heart rate had decreased to 100–110 in regular sinus rhythm. She remained otherwise stable with oxygen saturation at 95% and blood pressure of 120/75. The documented clinical impression was postoperative sinus tachycardia. The treatment plan included starting Lopressor (metoprolol) 12.5 mg twice daily. No other complications or new symptoms were noted.
+
 
 ## Dialogue Summary
 
-The patient presented with discomfort at the incision site following surgery. The pain is described as a steady, aching sensation rated 6 out of 10 in severity, most noticeable with movement but present even at rest; there is no redness, swelling, or drainage at the site. The patient also reported episodes of a fast heart rate, reaching 130–140 bpm, occurring for one to two hours at a time over the past few days, and not triggered by activity or medications. No lightheadedness, shortness of breath, or chest pressure was noted during these episodes. The patient is not currently taking any medications and did not mention any allergies. On assessment, the doctor noted the absence of infection signs at the incision and suggested the aching pain may be part of normal healing, while the elevated heart rate could be related to postoperative changes, pain, dehydration, anxiety, or mild anemia. The doctor recommended staying well-hydrated, resting, monitoring heart rate and symptoms, and using gentle movement or a warm compress for discomfort if cleared by the surgeon. The patient was advised to report any worsening pain, new symptoms, or changes at the incision site promptly.
+The patient presents with discomfort at a surgical incision site and episodes of a noticeably fast heart rate. The incision pain is described as a steady, aching discomfort rated 6 out of 10, primarily noticed with movement, and without associated redness, swelling, or drainage. The patient reports episodes of tachycardia (heart rate up to 130–140 bpm) lasting one to two hours, occurring even at rest, and denies lightheadedness, dyspnea, or chest pressure. There is no current medication use.
+
+The clinical impression is that the aching pain may be part of normal post-surgical healing, and infection is considered less likely due to the absence of local inflammatory signs. The elevated heart rate is noted as potentially related to post-surgical recovery, pain, dehydration, anxiety, or mild anemia. The patient is advised to maintain hydration, rest, monitor heart rate and symptoms, and use gentle movement or a warm compress for discomfort if cleared by their surgeon. The patient is instructed to seek care if symptoms worsen or new signs such as dizziness, fainting, chest discomfort, or incision changes develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.570
+- **Model Used**: general
+- **Text1 Length**: 102 words
+- **Text2 Length**: 176 words
+
 
 ## Processing Information
 

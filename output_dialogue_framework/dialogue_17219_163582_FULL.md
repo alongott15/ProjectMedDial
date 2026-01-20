@@ -85,16 +85,21 @@ For now, taking note of when these episodes happen and whether anything seems to
 
 ## EHR Summary
 
-The clinical note does not specify the chief complaint or presenting symptoms for this 79-year-old male. No details regarding symptom characteristics, relevant medical history, physical exam findings, or test results are documented. There is no explicit diagnosis or clinical impression provided in the note. The discharge addendum states that discharge medications are the same as on admission, but specific medications are not listed. No additional treatment plan or recommendations are described.
+The clinical note does not specify the chief complaint or presenting symptoms for this 79-year-old male patient. There are no details provided regarding symptom characteristics, relevant medical history, or allergies. The diagnosis or clinical impression is not documented in the note. The treatment plan indicates that discharge medications remained unchanged from admission. No additional treatments or recommendations are specified.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain that began earlier today. The pain is described as coming and going randomly throughout the day, lasting a few minutes per episode, with associated central chest pressure and shortness of breath; these symptoms are moderate in intensity and require the patient to stop activity and rest until they resolve completely. The patient denied any triggers such as physical activity, eating, or stress, and reported no associated lightheadedness, sweating, or palpitations. Similar episodes of chest pressure and breathlessness have occurred in the past, but today's symptoms are more noticeable, though not worsening. No specific medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the symptoms are consistent with possible stable angina or benign causes such as muscle strain or acid reflux, given their pattern and resolution with rest. The doctor advised the patient to monitor for any changes, specifically increased severity, duration, or new symptoms like sweating, nausea, or faintness, and to seek prompt medical attention if these occur. The patient was instructed to keep track of episodes and avoid strenuous activity until further evaluation can be discussed at the next appointment.
+The patient presents with intermittent chest pain as the chief complaint. The chest pain began earlier today, is moderate in intensity, lasts a few minutes per episode, and is described as central chest pressure accompanied by shortness of breath; symptoms occur randomly, are not triggered by activity or eating, and resolve completely with rest. The patient reports having had similar episodes in the past, though today's symptoms are more noticeable, and denies associated symptoms such as lightheadedness, sweating, or palpitations. There is no documentation of relevant medical history, medications, or allergies. The clinical impression discussed includes possible stable angina or benign causes such as muscle strain or acid reflux. The treatment plan involves monitoring for worsening symptoms, avoiding strenuous activity, and keeping a record of episodes and potential triggers. The patient was advised to seek prompt medical attention if symptoms become more severe, last longer, or are accompanied by new symptoms such as sweating, nausea, or faintness. Further evaluation will be considered if symptoms persist or worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.920
-- **Similarity Label**: N/A
+- **STS Score**: 0.423
+- **Model Used**: general
+- **Text1 Length**: 59 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

@@ -95,16 +95,23 @@ Is there anything else concerning you today that we haven’t discussed?
 
 ## EHR Summary
 
-The patient is a 73-year-old female presenting with claudication as the chief complaint. She reported several weeks of worsening pain with walking, progressing to significant claudication. Her relevant medical history includes type 2 diabetes mellitus, hypercholesterolemia, hypertension, pancytopenia of unclear etiology, and bilateral carotid endarterectomy; she has allergies to Glucophage, morphine, and codeine. Physical exam revealed +2 edema in the right lower extremity, palpable pulses, and a surgical scar with serous drainage from a recent bypass graft; laboratory results showed anemia (Hgb 10.1), thrombocytopenia (Plt 61), and mild hyperbilirubinemia (TotBili 2.4). The documented diagnosis was peripheral vascular disease with claudication. She underwent a femoral/popliteal PTFE graft with distal PTFE to posterior tibial bypass vein graft. The treatment plan included surgical correction of her vascular disease and post-operative monitoring.
+The patient is a 73-year-old female presenting with claudication as the chief complaint. She reported several weeks of worsening pain with walking, progressing to significant claudication. Her relevant history includes type 2 diabetes mellitus, hypercholesterolemia, hypertension, pancytopenia of unclear etiology, and bilateral carotid endarterectomy; she has allergies to Glucophage, morphine, and codeine. The documented diagnosis was peripheral vascular disease with lower extremity stenosis. She underwent a femoral-to-popliteal PTFE graft with distal PTFE to posterior tibial vein bypass. Postoperatively, she developed left parotitis treated with antibiotics and had serous wound drainage managed with dressing changes. At discharge, her condition was stable, and she was prescribed medications including antihypertensives, antidiabetics, aspirin, and antibiotics. She was discharged to an extended care facility with instructions for wound care, activity progression, and follow-up in 1–2 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening leg pain during walking. Symptoms included an aching pain around the incision site that intensifies with activity (rated 7/10 when walking, 3–4/10 at rest), gradual increase in discomfort over several weeks, swelling and redness extending from the surgical wound, increased white or yellow drainage without odor, a recent fever over 100.5°F for one day, and new swelling of the left parotid gland. The patient denied numbness, tingling, or chills, but noted that pain medication was less effective for the recent pain increase. Physical findings described were swelling and redness at the incision site, increased drainage, and parotid gland swelling. The doctor assessed that these symptoms suggest possible infection or inflammation at the surgical site, with the parotid swelling possibly related to a mild viral infection or gland inflammation. The doctor advised keeping the wound clean, monitoring for worsening symptoms (spreading redness, increased swelling, persistent fever, difficulty moving the leg, or foul-smelling drainage), and resting when pain increases. The patient was also advised to notify their healthcare team about these changes and to report any new symptoms related to the parotid gland.
+The patient is presenting with worsening leg pain during walking, primarily around a recent surgical incision. The pain is described as aching, rated 7/10 with activity and 3–4/10 at rest, and has gradually increased over the past few weeks. Associated symptoms include swelling, redness extending from the incision, increased white or yellow wound drainage, and a recent fever over 100.5°F; there is no numbness or tingling, but pain medication has been less effective. The patient also reports new swelling of the left parotid gland.
+
+Relevant history includes recent leg surgery (exact type and date not specified). The clinical impression is possible infection or inflammation at the surgical site, with the parotid swelling noted as a potentially separate issue. The treatment plan includes keeping the wound clean, monitoring for worsening symptoms (such as spreading redness, increased swelling, persistent fever, or new movement difficulties), resting when pain increases, and notifying the surgical team or primary provider about these changes for further evaluation. Additional advice was given to monitor the parotid gland for pain with eating, dry mouth, or pus in saliva.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
+- **STS Score**: 0.572
+- **Model Used**: general
+- **Text1 Length**: 131 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

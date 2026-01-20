@@ -84,16 +84,21 @@ Does anything in particular seem to make the soreness better or worse, like eati
 
 ## EHR Summary
 
-The patient is a 74-year-old female presenting with right upper quadrant abdominal pain. The pain was dull, aching, constant, nonradiating, and triggered by movement, with no relieving factors; she also experienced fever up to 101.8°F, nausea with one episode of emesis, and a large loose bowel movement (C. difficile negative) the day prior to admission. Her medical history includes type 2 diabetes mellitus, hypothyroidism, asthma, schizophrenia, and prior MRSA infection of the right foot. On admission, her vital signs showed a temperature of 102.1°F, heart rate of 107, blood pressure 120/44, respiratory rate 14, and oxygen saturation of 97% on room air. No documented diagnosis or assessment is provided in the note. Her home medications included insulin NPH, Levoxyl, Risperdal, a multivitamin, and Peri Colace. There are no known drug allergies. Treatment or specific recommendations are not documented in the provided text.
+The patient is a 74-year-old female presenting with right upper quadrant abdominal pain. She reported a dull, aching, constant pain that was present only with movement, accompanied by fever (101.8°F), nausea, one episode of emesis, and a large loose bowel movement; there were no clear relieving or aggravating factors besides movement. Her medical history includes type 2 diabetes mellitus, hypothyroidism, asthma, schizophrenia, and prior MRSA infection of the right foot. On admission, examination revealed right upper quadrant tenderness, abdominal distension, voluntary guarding, decreased bowel sounds, and laboratory evidence of leukocytosis (WBC 15.3). Imaging showed a thickened gallbladder wall with pericholecystic fluid and sludge but no stones. The documented diagnosis was acalculous cholecystitis. Treatment included placement of a cholecystostomy tube, intravenous antibiotics (Ampicillin, Ceftriaxone, Flagyl), later transitioned to oral Amoxicillin and Levofloxacin for a 14-day course, supportive care, and management of mild asthma exacerbation with Lasix. At discharge, the patient was improved but had residual right upper quadrant soreness and was instructed to continue antibiotics, flush the cholecystostomy tube regularly, monitor inputs/outputs, and follow up in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with steady soreness on the right side of the abdomen as the chief complaint. Symptoms included constant soreness (worse with pressing, not affected by movement or eating), fever for a couple of days, nausea, one episode of vomiting, decreased appetite, reduced urine output, a large loose bowel movement, mild shortness of breath, and wheezing. No history of yellowing of skin or eyes, dark urine, or pale stools was reported. On examination, pressing on the abdomen increased soreness, but movement did not worsen symptoms. The doctor assessed that these symptoms could be related to mild infections or inflammation in the digestive system, such as a gallbladder issue or stomach virus, but the exact cause was not clear. The doctor advised rest, hydration with small sips, and avoidance of heavy or fatty foods. The patient was instructed to monitor for worsening pain, persistent vomiting, high fever, new yellowing of skin/eyes, or severe tenderness and to seek medical attention if these occurred.
+The patient is an adult presenting with right-sided abdominal pain as the chief complaint. The pain is described as steady soreness, worsened by pressing on the abdomen but not by movement or eating, and has been present for a couple of days. Associated symptoms include fever, nausea, one episode of vomiting, decreased appetite, a recent large loose bowel movement, reduced urine output, mild shortness of breath, and wheezing; there is no jaundice or significant change in stool color. Relevant history regarding past medical conditions, medications, or allergies was not specified. The clinical impression discussed includes possible mild infection or inflammation in the digestive system, such as a gallbladder issue or viral gastroenteritis, though the exact cause is not determined. The patient was advised to rest, maintain hydration with small sips, avoid heavy or fatty foods, and monitor for worsening symptoms such as increased pain, persistent vomiting, high fever, jaundice, or severe tenderness. If these concerning symptoms develop, prompt medical attention was recommended. Resting appears to provide some relief for the soreness.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.652
+- **Model Used**: general
+- **Text1 Length**: 177 words
+- **Text2 Length**: 171 words
+
 
 ## Processing Information
 

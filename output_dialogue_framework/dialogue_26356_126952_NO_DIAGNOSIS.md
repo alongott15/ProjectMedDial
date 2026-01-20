@@ -87,16 +87,21 @@ To help me understand how much this is affecting you, how much does this gassine
 
 ## EHR Summary
 
-The patient is a 75-year-old male presenting with shortness of breath. He reported "gassiness" in his lower chest relieved by milk and Prilosec, a seven-pound weight gain, and increased blood pressure over the two months prior to admission. Relevant history includes coronary artery disease and recent congestive heart failure, with no chest pain or gassiness at the time of admission. Physical findings included a chest x-ray showing congestive heart failure and an echocardiogram with an ejection fraction of 25% and widespread hypokinesis; stress testing revealed dyspnea on exertion without anginal symptoms. The documented diagnosis was coronary artery disease status post coronary artery bypass graft times four. Treatment included coronary artery bypass grafting (CABG) x4.
+The patient is a 75-year-old man presenting with shortness of breath. He reported a two-month history of "gassiness" in his lower chest, relieved by milk and Prilosec, along with a seven-pound weight gain and increased blood pressure. On admission, he denied chest pain or gassiness but continued to experience dyspnea on exertion without anginal symptoms. His past medical evaluation included a chest x-ray showing congestive heart failure and an echocardiogram revealing an ejection fraction of 25% with widespread hypokinesis. The documented diagnosis was coronary artery disease, status post coronary artery bypass graft times four. Treatment included coronary artery bypass grafting (CABG) and management of heart failure symptoms.
+
 
 ## Dialogue Summary
 
-The patient presented with a bloated, gassy sensation in the lower chest. Symptoms included gassiness that is more noticeable after meals but can occur throughout the day, recent weight gain of about seven pounds, increased blood pressure, and shortness of breath primarily with activity (dyspnea on exertion) over the past few weeks. The patient denied any swelling in the ankles, feet, or hands, and reported no burning or sour taste associated with the chest discomfort. No changes in diet or increased intake of salty or processed foods were noted. On examination, the doctor did not report any physical findings but noted the absence of peripheral edema. The doctor’s assessment included possible mild indigestion or gas buildup, but also raised concern for fluid retention potentially related to cardiac or renal causes given the constellation of symptoms. The doctor recommended monitoring for warning signs and discussed the importance of understanding how much these symptoms impact daily activities, while advising the patient to keep track of any changes as further evaluation is considered.
+The patient is an adult presenting with a chief complaint of a bloated, gassy sensation in the lower chest. Symptoms include postprandial gassiness, recent weight gain of approximately seven pounds, increased blood pressure, and exertional dyspnea over the past few weeks. The shortness of breath occurs mainly with activity and not at rest, and there is no reported peripheral edema or dietary changes. The patient denies associated symptoms such as burning, sour taste, or upward-moving discomfort. Relevant history includes recent onset of symptoms and elevated blood pressure; no medication or allergy history is specified. The clinical impression discussed by the doctor includes possible mild indigestion or gas buildup, but also raises concern for fluid retention potentially related to cardiac or renal causes given the combination of symptoms. The treatment plan involves monitoring for warning signs and assessing the impact on daily activities, with no immediate interventions or medication changes documented at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.716
+- **Model Used**: general
+- **Text1 Length**: 107 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

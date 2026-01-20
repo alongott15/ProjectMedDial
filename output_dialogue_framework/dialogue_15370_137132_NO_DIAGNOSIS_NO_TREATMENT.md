@@ -71,16 +71,21 @@
 
 ## EHR Summary
 
-The patient is a 79-year-old female presenting with chest pain. She experienced sudden onset substernal chest pain and left shoulder pain while watching television, accompanied by nausea and diaphoresis but without shortness of breath or vomiting; the pain was rated ten out of ten on arrival. Her past medical history includes osteoarthritis, seizure disorder (on Dilantin), neuropathy, pneumonia, hypothyroidism, depression, and multiple prior surgeries; she has no known drug allergies. In the field, her ECG showed ST segment elevation (3.0 mm) in leads II, III, and aVF, and she continued to have ST changes in these leads in the Emergency Department. Initial treatments included aspirin, morphine, and sublingual nitroglycerin without relief; intravenous heparin and nitroglycerin provided partial relief, reducing her pain to five out of ten. The documented cardiac risk factors are age, hypertension, and extensive tobacco use. The diagnosis of acute ST-elevation myocardial infarction (STEMI) is strongly suggested by the clinical presentation and ECG findings. The treatment plan included antiplatelet therapy, anticoagulation, and intravenous nitroglycerin for symptom control.
+The patient is a 79-year-old female presenting with chest pain. She experienced sudden onset substernal chest pain and left shoulder pain, rated ten out of ten, accompanied by nausea and diaphoresis but no shortness of breath or vomiting; the pain was unrelieved by aspirin, morphine, or nitroglycerin initially. Her past medical history includes hypertension, osteoarthritis, seizure disorder (on Dilantin), neuropathy, hypothyroidism, depression, and extensive tobacco use; she has no known drug allergies. Electrocardiogram showed ST segment elevation in II, III, and aVF, and cardiac catheterization revealed two-vessel coronary artery disease with acute occlusion of the right coronary artery. The documented diagnoses were two-vessel coronary artery disease and acute inferior myocardial infarction managed by acute stenting of the right coronary artery. Treatment included urgent percutaneous coronary intervention with thrombectomy and stenting, intra-aortic balloon pump placement, temporary pacing, antiplatelet therapy (aspirin and Plavix), beta blocker initiation, and transfusion for anemia. She was discharged in stable condition with instructions for cardiac rehabilitation, home physical therapy, and follow-up with her primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest pain is located in the middle of the chest, started a couple of days ago, and is described as coming and going rather than constant. The patient also reported associated pain in the left shoulder (but not the jaw or arm), episodes of sweating, and mild nausea during the discomfort; the pain is rated as moderate and does not wake the patient at night. The symptoms do not appear to be triggered or relieved by physical activity, deep breathing, movement, resting, or changing positions, and tend to resolve on their own. No relevant medical history, medications, or allergies were mentioned. There were no physical findings documented during this portion of the encounter. The doctor did not provide a specific assessment or working diagnosis during the conversation. No treatment plan or recommendations were given in the dialogue provided.
+The patient presents with a chief complaint of intermittent chest pain located in the center of the chest. The chest pain began a couple of days ago, is moderate in severity, comes and goes without a clear trigger, and is not affected by activity, position, or deep breathing. Associated symptoms include pain radiating to the left shoulder, sweating, and nausea during episodes; there is no radiation to the jaw or arm, and the pain does not wake the patient at night. The discomfort typically resolves on its own and is not relieved by rest or positional changes. Relevant medical history, medications, allergies, diagnosis, and treatment plan are not specified in the dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.557
+- **Model Used**: general
+- **Text1 Length**: 169 words
+- **Text2 Length**: 112 words
+
 
 ## Processing Information
 

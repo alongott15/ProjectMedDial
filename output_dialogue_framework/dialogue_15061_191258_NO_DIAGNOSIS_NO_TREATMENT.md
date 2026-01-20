@@ -87,16 +87,21 @@ Do you have any questions about what to watch for or how to care for your incisi
 
 ## EHR Summary
 
-The patient is a 55-year-old woman presenting with shortness of breath following recent coronary artery bypass graft surgery. She developed dyspnea at home, and on admission was found to have bilateral pleural effusions, which required bilateral thoracentesis; left loculated effusion persisted. Subsequently, she experienced right upper quadrant pain, and a HIDA scan confirmed cholecystitis, leading to a laparoscopic cholecystectomy for a gangrenous gallbladder. Her postoperative course was complicated by increasing erythema of the sternal incision, positive blood cultures, and positive pleural fluid for Streptococcus mutans. Physical findings included an unstable sternum and sternal wound dehiscence. The documented diagnoses included acute cholecystitis with gangrenous gallbladder and sternal wound dehiscence. Treatment involved surgical debridement of the sternal wound, laparoscopic cholecystectomy, and transfer for further management of sternal dehiscence; she was also receiving NPH insulin.
+The patient is a 55-year-old woman presenting with sternal wound dehiscence following recent coronary artery bypass graft surgery. She experienced shortness of breath, bilateral pleural effusions, and subsequently developed right upper quadrant pain, which was diagnosed as acute cholecystitis and treated with laparoscopic cholecystectomy. Her postoperative course was complicated by increasing erythema and instability of the sternal incision, with positive blood and pleural fluid cultures for streptococcus species. Relevant history includes insulin-dependent diabetes, hypercholesterolemia, and recent cardiac and gallbladder surgeries. The documented diagnosis was sternal wound dehiscence, status post sternal debridement with omental and pectoral flap reconstruction. Treatment included surgical debridement, flap procedures, intravenous antibiotics (levofloxacin and vancomycin), amiodarone for atrial fibrillation, and supportive care. She was discharged in stable condition with instructions for home nursing assessment and follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about their chest incision from recent surgery, specifically that the incision does not look right and feels like it is coming apart. They reported increased redness around the incision over the past few days, a sensation of shortness of breath that is worse with activity and somewhat relieved by rest, and a dull right upper abdominal pain that occasionally becomes sharper and comes and goes. The patient denied any fever or chills and has not noticed any drainage from the incision, but described increased difficulty performing daily activities and sleeping due to discomfort and breathing issues. Relevant history includes recent chest surgery; no medications or allergies were specified. On assessment, the doctor noted worsening redness at the incision site, increased shortness of breath with exertion, and impaired ability to perform daily tasks, raising concern for possible infection or delayed healing at the surgical site, as well as potential post-surgical complications affecting breathing. The doctor recommended prompt in-person evaluation by the surgical team or clinic, advised keeping the incision clean and dry, monitoring for new symptoms such as drainage, increasing pain, or fever, and seeking urgent care if symptoms acutely worsen. The patient was instructed to continue current medications until further evaluation and demonstrated understanding of the plan.
+The patient presents with concerns about their chest incision following recent surgery, specifically that the incision appears abnormal and feels as if it is coming apart. They report increased redness around the incision over the past few days, without drainage, fever, or chills, and describe the area as more irritated than before. The patient also notes progressive shortness of breath, which is worse with activity and somewhat relieved by rest, as well as intermittent dull right upper abdominal pain that occasionally becomes sharper. These symptoms have made daily activities and sleep more difficult. There is no mention of relevant medical history, medications, or allergies in the dialogue. The clinical impression is that the patient may be experiencing delayed healing or early signs of infection at the surgical site, with possible post-surgical complications contributing to dyspnea. The doctor advised prompt in-person evaluation by the surgical team, continued incision care (keeping it clean and dry), monitoring for new symptoms such as drainage or fever, and seeking urgent care if symptoms worsen. The patient was instructed to continue current medications until further evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.564
+- **Model Used**: general
+- **Text1 Length**: 130 words
+- **Text2 Length**: 180 words
+
 
 ## Processing Information
 

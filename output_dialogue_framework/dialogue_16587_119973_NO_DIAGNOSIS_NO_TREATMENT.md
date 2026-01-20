@@ -87,16 +87,21 @@ For now, I recommend you reach out to your cardiologist or primary doctor soon t
 
 ## EHR Summary
 
-The patient is a 76-year-old female presenting with worsening chest pain. She reports a history of stable angina since 2130, previously infrequent and exertional, but now occurring at rest at least twice weekly, sometimes during sleep, described as chest pressure relieved by sublingual nitroglycerin and rest. Her medical history includes angina, hypertension, hyperlipidemia, gastroesophageal reflux disease, recurrent biliary stones, osteopenia, arthritis, and a shellfish allergy. Outpatient cardiac testing showed moderate inferolateral ischemia on Myoview study and an echocardiogram with 50% ejection fraction, mild aortic insufficiency, and mild-to-moderate mitral regurgitation. On physical exam, she was afebrile with blood pressure 130/80 mmHg, heart rate 70 bpm, regular rhythm, clear lungs, and well-perfused extremities. The documented diagnosis is worsening angina. Treatment on admission included aspirin, Actigall, Cardizem, Protonix, Lipitor, Vioxx, nitroglycerin patch, Lamisil, and atenolol. She finds relief from chest pain with nitroglycerin and rest.
+The patient is a 76-year-old female presenting with worsening chest pressure consistent with angina. She reported a long-standing history of stable angina that recently increased in frequency and intensity, now occurring at rest at least twice weekly and sometimes during sleep, relieved by sublingual nitroglycerin and rest. Her relevant history includes angina, hypertension, hyperlipidemia, gastroesophageal reflux disease, recurrent biliary stones, osteopenia, arthritis, and an allergy to shellfish; she was taking multiple cardiac and other medications on admission. Cardiac catheterization revealed significant multi-vessel coronary artery disease with reduced ejection fraction and multiple areas of stenosis and occlusion. The documented diagnosis was coronary artery disease status post coronary artery bypass grafting (CABG). She underwent CABG x2 (LIMA to LAD and SVG to OM) without complications and had an uncomplicated postoperative course. On discharge, she was stable and prescribed medications including Lopressor, aspirin, Lipitor, Lasix (for seven days), potassium chloride (for seven days), and pain management agents. She was advised to follow up with her cardiac surgeon in four weeks and her primary care physician in two to three weeks for blood pressure monitoring.
+
 
 ## Dialogue Summary
 
-The patient presented with increased chest pressure that has become stronger and now occurs even at rest. The chest pressure is described as a squeezing sensation, lasting a few minutes per episode, and is currently moderate or more uncomfortable than before; it has been worsening over time. The patient denied associated symptoms such as sweating, shortness of breath, or lightheadedness, and reported no clear triggers, with episodes occurring randomly, including while sitting. The patient has a history of angina and high blood pressure but has not experienced limitations in daily activities due to the chest pressure. No acute physical findings were described during the visit. The doctor assessed that the patient's symptoms may represent unstable angina, given the increased frequency and occurrence at rest, and emphasized the higher risk for serious heart issues. The doctor advised the patient to contact their cardiologist or primary doctor soon to review their management plan, avoid strenuous activity, monitor for new symptoms, and seek emergency care if symptoms become severe or are accompanied by concerning features such as shortness of breath, sweating, nausea, or fainting. Guidance on symptom monitoring and when to seek help was offered.
+The patient is an adult with a history of angina and high blood pressure presenting with increased chest pressure. The chest pressure is described as a squeezing sensation, moderate in intensity, lasting a few minutes per episode, and has become more frequent and severe, now occurring even at rest without clear triggers. The patient denies associated symptoms such as sweating, shortness of breath, or lightheadedness, and reports no limitation in daily activities. Relevant history includes longstanding angina and hypertension. The clinical impression is possible unstable angina due to the change in symptom pattern and increased severity at rest. The doctor advised the patient to seek emergency care if symptoms become severe, prolonged, or are accompanied by additional concerning features such as dyspnea, diaphoresis, nausea, or syncope. The patient was instructed to contact their cardiologist or primary care provider soon for further evaluation and possible adjustment of their management plan, to avoid strenuous activity, and to monitor for new symptoms. Guidance on symptom monitoring and when to seek help was offered.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.629
+- **Model Used**: general
+- **Text1 Length**: 181 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

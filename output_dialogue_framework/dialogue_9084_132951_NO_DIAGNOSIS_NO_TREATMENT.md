@@ -87,16 +87,21 @@ How much is this affecting your day-to-day life right now? Are you able to do yo
 
 ## EHR Summary
 
-The patient is a 53-year-old male presenting with chest pain. He initially experienced chest pain treated with beta blockers, nitrates, and aspirin, followed by a negative stress test, but returned the same day with increased diaphoresis. His past medical history includes type 2 diabetes, hypertension, hypercholesterolemia, and a one pack per day smoking habit; he has no known drug allergies. On return to the emergency room, his ECG showed ST elevations and ST depression in the anterolateral leads, and cardiac catheterization revealed multivessel coronary artery disease. Physical examination on admission was notable for stable vital signs and an unremarkable cardiopulmonary and abdominal exam. Laboratory results were within normal limits. The documented diagnosis was multivessel coronary artery disease with acute coronary syndrome. Treatment included nitroglycerin and ultimately coronary artery bypass grafting times three.
+The patient is a 53-year-old male presenting with chest pain. He initially experienced chest pain and diaphoresis, with ECG findings of ST elevations and depressions in the anterolateral leads, and was found to have multivessel coronary artery disease on cardiac catheterization. His past medical history includes type 2 diabetes, hypertension, hypercholesterolemia, and a history of smoking; he has no known drug allergies. The documented diagnoses were coronary artery disease status post coronary artery bypass grafting times three, hypertension, hypercholesterolemia, and diabetes. During hospitalization, he underwent triple coronary artery bypass grafting without complications but developed mild tachycardia and tachypnea with ambulation postoperatively, associated with a drop in hematocrit, for which he received a blood transfusion. He was discharged in stable condition on postoperative day three with home oxygen therapy and instructions to maintain oxygen saturations above 93%. Discharge medications included Lopressor, Lasix, potassium supplement, aspirin, Glyburide, Lipitor, Percocet as needed, Colace, and home oxygen. He was advised to follow up with his cardiothoracic surgeon in two weeks and his primary care physician in three weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest pain began a few days ago, is intermittent, and is rated as 6 out of 10 in severity at its worst; it is accompanied by increased sweating and a racing heartbeat during episodes. Symptoms are triggered by physical activity such as walking, which also leads to gradually worsening shortness of breath, and have remained stable since onset. The patient denied lightheadedness, dizziness, or feeling faint. No relevant medical history, medications, or allergies were mentioned. The doctor noted that the symptoms are activity-induced and associated with autonomic signs, and explained that while anxiety or muscle strain could be possible, heart-related causes must be considered given the presentation. The doctor advised the patient to avoid strenuous activity, monitor for warning signs such as pain at rest, nausea, or faintness, and seek immediate medical attention if these occur. The patient reported needing to slow down daily activities due to symptoms and expressed understanding of the recommendations.
+The patient presents with chest pain as the chief complaint. The chest pain began a few days ago, is intermittent, and is rated as 6 out of 10 in severity at its worst. Episodes are triggered by physical activity such as walking and are accompanied by increased sweating, palpitations, and gradually worsening dyspnea on exertion; the symptoms have remained stable since onset. The patient denies lightheadedness, dizziness, or syncope. There is no documented relevant medical history, medications, or allergies in the dialogue. The clinical impression discussed includes possible anxiety or muscle strain but also concern for cardiac ischemia due to exertional symptoms. The treatment plan includes avoiding strenuous activity, monitoring for warning signs (pain at rest, nausea, or feeling faint), and seeking immediate medical attention if these occur. The patient reports needing to slow down daily activities due to symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.482
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 140 words
+
 
 ## Processing Information
 

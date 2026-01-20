@@ -89,16 +89,23 @@ Do you have any questions about what we've discussed or about when you should se
 
 ## EHR Summary
 
-The patient is a 77-year-old female presenting with substernal chest pain and pressure for four days, ultimately diagnosed as a new myocardial infarction. Symptoms included persistent chest discomfort without mention of associated dyspnea or other features. Her past medical history is significant for coronary artery disease, hypertension, hypercholesterolemia, gastroesophageal reflux disease, and a recent PTCA to the right coronary artery three weeks prior to admission. Cardiac catheterization revealed an ejection fraction of 50% and significant multi-vessel coronary artery occlusions. The documented diagnosis was unstable angina. She underwent coronary artery bypass grafting x3 on hospital day 3. Postoperatively, she required transfusions for hematocrit drops, received diuresis, and was treated with Kefzol for sternal drainage, which resolved. She was discharged to a rehabilitation facility in stable condition.
+The patient is a 77-year-old female presenting with substernal chest pain and pressure for four days, found to have a new myocardial infarction. Symptoms included persistent chest discomfort without mention of associated dyspnea, palpitations, or other features. Her relevant history includes coronary artery disease, hypertension, hypercholesterolemia, gastroesophageal reflux disease, and a recent PTCA to the right coronary artery three weeks prior to admission. Cardiac catheterization revealed significant multi-vessel coronary artery disease with an ejection fraction of 50%. The documented diagnosis was unstable angina, for which she underwent coronary artery bypass grafting x3. Postoperatively, she experienced sternal drainage managed with Kefzol, required transfusions for low hematocrit, and was diuresed; her recovery was otherwise stable. She was discharged in good condition to a rehabilitation facility. Discharge medications included Captopril, Niferex, Lopressor, Protonix, Lipitor, Klonopin, Xalatan, Plavix (for three months), Percocet as needed for pain, Aspirin, Lasix with potassium chloride (for one week), and Colace.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent pain and pressure in the center of the chest. The chest discomfort began a few days ago, is described as pressure or tightness (rated 6/10 at worst), and is worsened by activity such as walking or climbing stairs, though it has also occurred at rest; resting tends to relieve the symptoms, and no associated sweating, lightheadedness, or shortness of breath were reported. Relevant history includes coronary artery disease, hypertension, hyperlipidemia, and a recent procedure on the right coronary artery three weeks prior; no new symptoms such as leg swelling or nocturnal dyspnea were noted since the procedure. The doctor noted that the chest pressure is concerning given the cardiac history and recent intervention, and explained that ongoing angina is possible post-procedure. The doctor advised the patient to promptly notify their cardiologist about these symptoms, avoid strenuous activity, and keep a log of chest pain episodes. The patient was instructed to seek emergency care if pain becomes severe, persists at rest, or is accompanied by new symptoms such as nausea or sweating.
+The patient is an adult with a history of coronary artery disease, hypertension, and hyperlipidemia, presenting with intermittent chest pain and pressure. The chest discomfort began a few days ago, is described as central pressure or tightness (rated 6/10 at worst), and is triggered by activity such as walking or climbing stairs, though it has also occurred at rest. The pain typically improves with rest and is not associated with shortness of breath, diaphoresis, or lightheadedness. The patient underwent a right coronary artery procedure three weeks prior and denies new symptoms such as leg swelling or orthopnea.
+
+The clinical impression is possible angina following recent coronary intervention. The physician advised the patient to promptly notify their cardiologist about these symptoms, avoid strenuous activity, and monitor the frequency and duration of chest pain episodes. The patient was instructed to seek emergency care if the pain becomes severe, persistent at rest, or is accompanied by additional symptoms such as nausea or sweating.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.619
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

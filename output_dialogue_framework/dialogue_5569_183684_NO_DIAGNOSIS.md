@@ -194,3 +194,23 @@ Let me know if you have any questions about what to expect or what steps to take
 ## Processing Information
 
 - **Processing Time**: 443.0s
+
+## EHR Summary
+
+The patient is a 54-year-old female presenting with multiple episodes of nonbloody emesis followed by hematemesis, along with one week of diarrhea, melena, malaise, and nausea. Her symptoms began after a recent paracentesis for ascites and included seven episodes of vomiting and three episodes of hematemesis on the day of admission, without associated abdominal pain, chest pain, or shortness of breath. Relevant history includes hepatitis C cirrhosis with ascites, recently diagnosed hepatoma, type 2 diabetes, hypertension, and schizophrenia; she is allergic to penicillin. On admission, laboratory findings showed a drop in hematocrit and mild hyponatremia and hyperkalemia; physical exam revealed tachycardia on standing and a systolic murmur. The documented diagnoses were hepatitis C with cirrhosis and esophageal varices (status post bleed and endoscopic interventions), hepatoma, type 2 diabetes, hypertension, and schizophrenia. Treatment included two esophagogastroduodenoscopies with sclerotherapy and banding of varices, transfusion of blood products, octreotide, proton pump inhibitor, ciprofloxacin for prophylaxis, nadolol and Imdur for variceal management, Carafate for mucosal protection, and large-volume paracentesis for ascites. She was discharged in improved condition with follow-up arranged and a medication regimen including Glucotrol, Prolixin, Zoloft, Protonix, Nadolol, Lasix, Aldactone, Imdur, and Carafate.
+
+
+## Dialogue Summary
+
+The patient is an adult with a history of cirrhosis and prior gastrointestinal (GI) bleeding presenting with several days of nausea, vomiting (sometimes with blood), melena (dark, tarry stools), diarrhea, decreased appetite, malaise, and fatigue. The vomiting of blood and melena are particularly concerning for active GI bleeding, possibly related to esophageal varices or another source associated with their liver disease. The patient denies new or worsening symptoms beyond those described. Relevant history includes cirrhosis and previous episodes of GI bleeding; no medication or allergy information is specified.
+
+The documented clinical impression is active gastrointestinal bleeding in the context of underlying cirrhosis. The physician emphasized the seriousness of these symptoms, noting the risk of complications such as anemia, hypotension, or shock. The treatment plan included urgent recommendation to seek immediate care at the nearest emergency department for assessment and management of the bleeding and support of liver function. The patient was also advised to monitor for additional warning signs (e.g., confusion, severe abdominal pain, rapid swelling) and to reach out promptly if symptoms change or worsen.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.605
+- **Model Used**: general
+- **Text1 Length**: 191 words
+- **Text2 Length**: 176 words
+

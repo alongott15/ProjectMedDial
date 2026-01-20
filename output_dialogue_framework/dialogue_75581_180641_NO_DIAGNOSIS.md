@@ -87,16 +87,21 @@ Does that make sense? Any questions or concerns about what we've discussed?
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with bilateral carotid stenosis. He reports a six-month history of near syncopal episodes with positional changes and bilateral visual disturbances described as a "water on oil effect," though these symptoms are not associated with each other or with additional neurological deficits. His medical history includes hypertension, hyperlipidemia, coronary artery disease with rare effort angina, and he is a former smoker; there are no known drug allergies. On examination, bilateral carotid bruits were noted, and imaging (MRI and arteriogram) revealed 60–70% stenosis of the right internal carotid artery and 70–80% stenosis of the left internal carotid artery at their origins. The review of systems was notable for new left frontal parietal headaches but negative for syncope, seizures, paresis, or aphasia. The documented diagnosis is bilateral carotid artery stenosis. He was referred for surgical evaluation following these findings. Treatment recommendations or interventions during this admission are not specified in the note.
+The patient is a 58-year-old male presenting with bilateral carotid stenosis. He reported a six-month history of near syncopal episodes with positional changes and bilateral visual disturbances described as a "water on oil effect," as well as new left frontal parietal headaches; these symptoms were not associated with syncope, seizures, paresis, or aphasia. His relevant history includes hypertension, hyperlipidemia, coronary artery disease with rare effort angina, degenerative joint disease, and a history of coronary angioplasty; he has no known drug allergies. Imaging and arteriogram revealed 60–70% stenosis of the right internal carotid artery and 70–80% stenosis of the left internal carotid artery. The documented diagnoses were bilateral carotid disease (status post right carotid endarterectomy), perioperative hypotension (corrected), and coronary artery disease (status post left heart catheterization, no intervention). Treatment included right carotid endarterectomy without complications, perioperative blood pressure support, and adjustment of medications to Zestril 5 mg daily, Lopressor 75 mg twice daily, aspirin 325 mg daily, and Lipitor 40 mg daily. The patient was discharged in stable condition with a clean, intact wound and no neurological deficits.
+
 
 ## Dialogue Summary
 
-The patient presented with episodes of feeling like they are about to pass out, mainly triggered by changing positions. Symptoms included lightheadedness, temporary vision changes described as "water on oil," and near-fainting spells occurring a few times a week for at least two weeks, especially when standing up quickly; no actual loss of consciousness, ringing in the ears, sweating, or nausea were reported. The patient noted that slowing down and pausing before standing helps prevent these episodes, and there have been no recent changes in medications, fluid intake, or appetite. No relevant medical history, medication changes, or allergies were mentioned. The doctor assessed that the symptoms are consistent with orthostatic hypotension related to position changes, without evidence of more serious underlying issues. The doctor advised the patient to continue standing up slowly, flex their feet or move their legs before rising, and maintain adequate hydration. The patient was instructed to seek medical attention if they experience loss of consciousness, chest pain, weakness, or numbness, and to monitor symptoms for any increase in frequency or severity. Blood pressure measurements sitting and standing were suggested for future visits if symptoms persist.
+The patient presents with episodes of near-syncope, primarily triggered by changing positions, especially when standing up quickly. Symptoms include transient visual changes described as a "water on oil" effect and lightheadedness, without actual loss of consciousness, tinnitus, diaphoresis, or nausea. These episodes have been occurring for at least a couple of weeks, a few times per week, and have remained stable in frequency and severity. The patient reports no recent changes in medications, appetite, or fluid intake. The clinical impression is orthostatic hypotension, likely related to positional changes. The treatment plan includes advice to stand up slowly, flex feet or move legs before rising, and maintain adequate hydration. The patient was instructed to seek medical attention if symptoms worsen or if new symptoms such as syncope, chest pain, weakness, or numbness develop. Monitoring and reassessment were recommended if episodes become more frequent or severe.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.445
+- **Model Used**: general
+- **Text1 Length**: 178 words
+- **Text2 Length**: 144 words
+
 
 ## Processing Information
 

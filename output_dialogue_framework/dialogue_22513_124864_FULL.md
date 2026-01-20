@@ -100,3 +100,21 @@ Let me know if you have any other symptoms you haven't mentioned yet, or if ther
 ## Processing Information
 
 - **Processing Time**: 325.5s
+
+## EHR Summary
+
+The patient is an 83-year-old male presenting with chest pain. He experienced chest pain unrelieved by sublingual nitroglycerin, prompting EMS transport and subsequent evaluation, which revealed elevated cardiac enzymes and significant coronary artery disease (60% left main and three-vessel disease) with an ejection fraction of 40%. His past medical history includes coronary artery disease, remote myocardial infarction, peripheral vascular disease with claudication, gout, prostate cancer status post radiation, and several prior surgeries. The documented diagnosis was coronary artery disease, status post coronary artery bypass graft x2. He underwent CABG x2 without complications, developed postoperative atrial fibrillation treated with amiodarone and metoprolol, and experienced transient delirium managed with haloperidol. At discharge, he was stable and prescribed medications including aspirin, allopurinol, atorvastatin, amiodarone, metoprolol, cephalexin, and docusate sodium. Discharge instructions included wound care, activity restrictions (no driving or heavy lifting for 6 weeks), and follow-up appointments.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with chest pressure as the chief complaint. The chest pressure is described as central, pressure-like (not sharp), comes and goes, and occurs both with activity and at rest; it began a couple of days ago. Associated symptoms include episodes of confusion, complete inability to urinate for several days without burning or color change, new rattling sounds with breathing, and a red throat with whitish patches. No alleviating or aggravating factors were identified, and current medications do not relieve symptoms. Relevant history, medications, and allergies are not specified in the dialogue. The clinical impression is that the combination of chest pressure, confusion, and urinary retention may indicate a systemic issue such as dehydration, kidney or urinary tract problems, or possibly a cardiac cause; the new respiratory and throat findings were noted but not specifically linked to a diagnosis. The physician recommended prompt in-person evaluation with examination and possible testing to rule out serious conditions such as urinary tract obstruction or cardiac issues. The patient was also advised to seek immediate care if symptoms worsen, including increased chest pain, severe confusion, dyspnea, or weakness.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.463
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 188 words
+

@@ -87,16 +87,21 @@ Let me know if you have any questions or concerns about what I’ve explained so
 
 ## EHR Summary
 
-The patient is a 59-year-old male presenting with chest pain. Three days prior to admission, he experienced throat pain radiating to his sternum and left arm during exercise, which resolved with rest and aspirin; he later developed severe (8/10) chest pain. He has no significant past medical history or cardiac risk factors, but does have a family history of coronary artery disease. On evaluation, EKG showed anterior ST elevations and reciprocal inferior depressions, and cardiac enzymes were positive. Physical exam revealed normal vital signs and no acute distress. The documented diagnosis was acute coronary syndrome with an occluded LAD. He underwent percutaneous transluminal coronary angioplasty (PTCA) to the LAD and received aspirin, heparin, Integrilin, and nitroglycerin. His cardiac function was preserved and hemodynamics were normal post-procedure.
+The patient is a 59-year-old male presenting with chest pain that began as throat pain radiating to the sternum and left arm during exercise, resolving with rest and aspirin. Three days later, he developed severe (8/10) chest pain, with ECG showing anterior ST elevations and reciprocal inferior depressions. He has no significant past medical history or cardiac risk factors but has a family history of coronary artery disease. Cardiac enzymes were positive, and cardiac catheterization revealed a totally occluded LAD, for which he underwent percutaneous transluminal coronary angioplasty (PTCA). The documented diagnosis was acute anterior ST-elevation myocardial infarction (STEMI). Treatment included aspirin, heparin, nitroglycerin, Integrilin, PTCA to the LAD, and initiation of aspirin, statin, beta blocker, ACE inhibitor, and Plavix. He was stable post-procedure, with an echocardiogram showing an ejection fraction of 40–45% and anterior septal apical hypokinesis to akinesis. Discharge recommendations included outpatient cardiac rehabilitation and follow-up cholesterol panel and echocardiogram.
+
 
 ## Dialogue Summary
 
-The patient presented with pain in the throat that moves down to the chest and sometimes into the left arm during exercise. The discomfort has been occurring for a couple of weeks, is triggered by any kind of exercise (including brisk walking), and is described as a pressure or tightness rather than sharp pain, with an intensity of 6–7 out of 10. The pain resolves quickly with rest and does not persist at rest; the patient denied associated symptoms such as shortness of breath or lightheadedness. No relevant past medical history, medications, or allergies were mentioned. On clinical questioning, the doctor noted the exertional nature, location, and quality of the pain. The doctor’s assessment was that the symptoms could represent exertional angina, indicating possible reduced blood flow to the heart, though other causes were not excluded. The doctor advised the patient to pause strenuous activity and recommended prompt evaluation with a physical exam and possible heart tests, and instructed the patient to seek immediate care if new symptoms such as pain at rest, sweating, nausea, or sudden worsening occur.
+The patient is an adult presenting with exertional throat pain radiating to the chest and left arm as the chief complaint. Symptoms have been present for approximately two weeks, are triggered by any form of exercise (including brisk walking), and are described as a pressure or tightness rated 6–7/10 in intensity. The discomfort begins in the throat, moves to the chest, sometimes spreads to the left arm, and resolves quickly with rest; there is no associated dyspnea or lightheadedness. No specific alleviating factors other than rest were identified, and no exacerbating factors beyond physical activity were noted. Relevant medical history, medications, and allergies were not specified. The clinical impression documented was exertional angina, with the physician noting concern for possible reduced blood flow to the heart muscle during exertion. The treatment plan included pausing strenuous activity, arranging prompt evaluation (physical exam and possible cardiac testing), and instructions to seek immediate care if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.484
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 158 words
+
 
 ## Processing Information
 

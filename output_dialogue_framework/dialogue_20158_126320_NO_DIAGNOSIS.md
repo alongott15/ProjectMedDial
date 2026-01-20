@@ -98,3 +98,21 @@ For now, make sure you’re resting and avoiding strenuous activity until we kno
 ## Processing Information
 
 - **Processing Time**: 380.9s
+
+## EHR Summary
+
+The patient is an 84-year-old female presenting with shortness of breath, angina at rest, and nausea. Symptoms began on 10-28 and led to ER evaluation, where she was found to have elevated CK and MB, confirming myocardial infarction (MI) on 11-1. Her history includes hypertension, hypercholesterolemia, depression, gastroesophageal reflux disease, and arthritis. Cardiac catheterization revealed significant coronary artery disease with 40% LAD, 80% left circumflex, and 100% RCA occlusion; ejection fraction was 45%. The documented diagnosis was acute myocardial infarction with multivessel coronary artery disease. She underwent coronary artery bypass grafting (CABG) with LIMA to LAD and saphenous vein grafts to RCA and OM. Postoperatively, she developed atrial fibrillation controlled with IV Lopressor and was started on Amiodarone; she was discharged in stable condition on Lopressor, Aspirin, Lasix, potassium supplement, Paxil, and Amiodarone. Follow-up with cardiology and her primary care physician was recommended in three to four weeks.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is described as moderate in severity, occurs primarily at rest, and is accompanied by shortness of breath (a sensation of not being able to catch their breath) and mild nausea; episodes last a few minutes and began a few days ago. The symptoms are not triggered or relieved by changes in position or deep breathing, and there is no associated wheezing or coughing. The patient has a relevant history of high blood pressure and high cholesterol but no previously diagnosed heart problems. The clinical impression included possible cardiac, anxiety, or digestive causes for the symptoms, with particular attention to the possibility of heart-related issues given the patient’s risk factors. The doctor advised the patient to monitor and record episodes, noting any new or worsening symptoms such as sweating, severe discomfort, or prolonged episodes, and to seek prompt medical attention if these occur. The patient was also advised to rest and avoid strenuous activity until further evaluation.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.503
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 172 words
+

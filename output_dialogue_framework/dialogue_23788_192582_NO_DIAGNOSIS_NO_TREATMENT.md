@@ -105,16 +105,23 @@ By closely monitoring your blood pressure, heart rate, and oxygen levels, we’l
 
 ## EHR Summary
 
-The patient is a 76-year-old male presenting with dyspnea and chest tightness on exertion. Symptoms began in early September and led to admission for congestive heart failure, with a troponin level of 0.22. Relevant history includes prior mild aortic stenosis and preserved ejection fraction, now progressed to critical aortic stenosis with an aortic valve area of 0.9 cm², maximum gradient of 38 mmHg, and reduced ejection fraction of 27% on echocardiogram. Additional findings included mild mitral regurgitation, inferior wall hypokinesis, and global hypokinesis on stress testing, with evidence of significant ischemia. The patient denied recent exertional symptoms, claudication, orthopnea, paroxysmal nocturnal dyspnea, or lightheadedness at the time of this evaluation. Laboratory results showed BUN 38 and creatinine 1.7, indicating some renal impairment. The documented diagnosis was critical aortic stenosis with reduced ejection fraction and ischemic changes. The patient was referred for cardiac catheterization for further management.
+The patient is a 76-year-old male presenting with dyspnea and chest tightness on exertion. Symptoms began in early September and led to an admission for congestive heart failure, with subsequent work-up revealing critical aortic stenosis (aortic valve area 0.9 cm², ejection fraction 27%) and significant coronary artery disease. He denied recent exertional symptoms prior to this admission and reported no claudication, orthopnea, paroxysmal nocturnal dyspnea, or lightheadedness. Relevant history includes prior mild aortic stenosis (ejection fraction 70% in 2115), chronic kidney disease (creatinine 1.7), and significant carotid artery stenosis (100% right, 70% left). The documented diagnoses were critical aortic stenosis and multivessel coronary artery disease. The patient underwent coronary artery bypass grafting (three vessels) and aortic valve replacement with a #23 mm CE-pericardial valve. Postoperatively, he experienced brief atrial flutter/fibrillation managed with amiodarone and cardioversion, and was otherwise stable after surgery.
+
 
 ## Dialogue Summary
 
-The patient presented with episodes of a racing heartbeat and concerns about consistently elevated blood pressure. Symptoms included brief episodes of tachycardia occurring without clear triggers, persistent high blood pressure readings around 180 mmHg even outside of episodes, mild shortness of breath, and oxygen saturation measured at 92% on one liter of supplemental oxygen; no chest pain or lightheadedness was reported. The patient denied any prior history of hypertension or heart rhythm issues and reported no recent changes in medications, diet, or activity level. Physical findings were limited to patient-reported vital signs and symptoms, with no interference in daily activities noted. The doctor assessed that the patient has newly developed hypertension and intermittent tachycardia, possibly related, along with mild hypoxemia, and emphasized the importance of monitoring these changes due to potential cardiovascular strain. The treatment plan included keeping a daily log of blood pressure, heart rate, oxygen levels, and symptoms, limiting dietary salt, staying hydrated, and managing stress. The doctor advised seeking prompt care for chest pain, severe shortness of breath, fainting, oxygen saturation below 90%, swelling, sudden weight gain, or confusion, and recommended reviewing the symptom log in one to two weeks. The patient agreed to the plan and demonstrated understanding of the recommendations.
+The patient is an adult presenting with episodes of a racing heartbeat (palpitations) as the chief complaint. These episodes are brief, occur without clear triggers, and are accompanied by consistently elevated blood pressure readings (up to 180 mmHg), mild shortness of breath, and oxygen saturation around 92% on one liter of supplemental oxygen. The patient denies chest pain, lightheadedness, or prior history of hypertension or arrhythmia, and reports no recent changes in medications, diet, or activity level. The clinical impression is recent onset of hypertension with associated palpitations and mild hypoxemia, possibly related to increased cardiac workload.
+
+The treatment plan includes keeping a daily log of blood pressure, heart rate, oxygen saturation, and symptoms, as well as monitoring for warning signs such as chest pain, severe shortness of breath, fainting, swelling, sudden weight gain, or confusion. The patient is advised to limit salt intake, stay hydrated, and seek prompt care if oxygen saturation drops below 90% or if severe symptoms develop. A follow-up review of the symptom log is planned in one to two weeks. No new medications were initiated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.546
+- **Model Used**: general
+- **Text1 Length**: 141 words
+- **Text2 Length**: 183 words
+
 
 ## Processing Information
 

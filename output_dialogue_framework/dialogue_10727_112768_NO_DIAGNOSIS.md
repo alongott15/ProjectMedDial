@@ -55,16 +55,21 @@
 
 ## EHR Summary
 
-The patient is an 83-year-old male presenting with chest pain. He experienced chest pain beginning on [4-12], was found to have a myocardial infarction, and underwent cardiac catheterization revealing three vessel coronary artery disease. His history includes chronic renal insufficiency, gastrointestinal bleed, hypertension, hypercholesterolemia, type 2 diabetes mellitus, benign prostatic hypertrophy, arthritis, gout, and a prior bleeding duodenal ulcer. On transfer, his medications included captopril, levoxyl, aspirin, protonix, lipitor, glyburide, iron sulfate, lopressor, hydrochlorothiazide, nitroglycerin infusion, and heparin infusion. Physical exam and specific test results are not detailed in this note. The documented diagnosis was myocardial infarction with three vessel coronary artery disease. He underwent elective coronary artery bypass grafting (CABG) times three and remained stable preoperatively; discharge is pending placement in a rehabilitation facility.
+The patient is an 83-year-old male presenting with chest pain. He was initially admitted for chest pain and diagnosed with a myocardial infarction, with cardiac catheterization revealing three-vessel coronary artery disease. His medical history includes hypertension, hypercholesterolemia, type 2 diabetes mellitus, benign prostatic hypertrophy, arthritis, gout, chronic renal insufficiency, and prior gastrointestinal bleeding; he has no known drug allergies. During hospitalization, he underwent elective coronary artery bypass grafting (CABG) times three and had an uneventful postoperative course, though his mobility was limited by gout. The documented diagnosis was three-vessel coronary artery disease status post-myocardial infarction. At discharge, he was stable and ready for transfer to a rehabilitation facility. Discharge medications included Lopressor, Lasix, Kayciel, Colace, aspirin, Lipitor, glyburide, Levoxyl, Protonix, Percocet as needed, and regular insulin sliding scale. He was advised to follow up with his primary care physician in two weeks and with cardiology in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. They described the pain as a sensation of tightness in the chest, rather than sharp pain, and reported that it has been occurring off and on, though the exact onset was not specified. No additional symptoms, triggers, or relieving factors were mentioned. There was no relevant medical history, medications, or allergies discussed. No physical findings were noted during the conversation. The doctor did not provide an assessment or working diagnosis during this encounter. No specific advice, recommendations, or treatment plan was given in the dialogue provided.
+The patient presents with chest pain as the chief complaint. The pain is described as a sensation of tightness in the chest rather than sharp pain. The onset is unclear, but the symptom has been occurring intermittently. No information is provided regarding severity, duration, triggers, or alleviating factors. Relevant medical history, medications, and allergies are not specified in the dialogue. No diagnosis or clinical impression is documented. No treatment plan or specific recommendations are mentioned in the conversation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.938
-- **Similarity Label**: N/A
+- **STS Score**: 0.360
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 78 words
+
 
 ## Processing Information
 

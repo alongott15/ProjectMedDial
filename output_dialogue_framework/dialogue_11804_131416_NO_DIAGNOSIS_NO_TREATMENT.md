@@ -98,3 +98,23 @@ Does this explanation make sense to you, and is there anything else about your s
 ## Processing Information
 
 - **Processing Time**: 421.7s
+
+## EHR Summary
+
+The patient is a 65-year-old female presenting with abdominal pain. She has a history of chronic thoracoabdominal aneurysm diagnosed three years prior, hypertension, and obesity, and was taking hydrochlorothiazide and labetalol; she has no known allergies. On admission, she was found to have an extensive thoracoabdominal aneurysm with acute dissection, confirmed by CT scan showing a false lumen. Her hospital course included blood pressure management with labetalol and IV Nipride, transfusion to raise hematocrit, and cardiac catheterization revealing normal coronaries but persistent aortic disease. Echocardiogram showed normal ventricular function, 2+ aortic insufficiency, and a dilated aortic root (>4 cm). The documented diagnoses were chronic thoracoabdominal aneurysm with acute dissection, hypertension, and obesity. She underwent thoracoabdominal aneurysm repair with partial bypass but unfortunately did not survive the operation and expired in the operating room.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with a chief complaint of a dull ache in the upper abdomen, located just under the ribs. The discomfort has been present for a few days, rated at 4 out of 10 in severity, and is not associated with nausea, changes in appetite, bowel habits, fever, chills, or food triggers. The ache does not change with eating, movement, or rest. There is no history of bloating or discomfort after specific foods.
+
+No relevant past medical history, medications, or allergies were discussed. The clinical impression was mild, non-specific upper abdominal discomfort, possibly due to mild gastritis, muscle strain, or indigestion, without concerning features. The treatment plan includes monitoring symptoms, staying hydrated, avoiding very large or fatty meals, and keeping a symptom diary. The patient was advised to seek further care if symptoms worsen or new symptoms such as severe pain, vomiting, or jaundice develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.393
+- **Model Used**: general
+- **Text1 Length**: 133 words
+- **Text2 Length**: 149 words
+

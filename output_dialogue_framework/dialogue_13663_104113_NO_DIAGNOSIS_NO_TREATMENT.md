@@ -85,16 +85,23 @@ For now, staying informed and continuing routine follow-up is the best approach.
 
 ## EHR Summary
 
-The patient is a 48-year-old male presenting with mitral regurgitation. He reported no acute symptoms at admission, but cardiac catheterization confirmed severe (4+) mitral regurgitation with normal coronary arteries. His past medical history includes tonsillectomy, and he was taking Zestril and Klonopin; he has no known drug allergies. On physical exam, he had a regular heart rate and rhythm with a systolic murmur at the apex, clear lungs, and no peripheral edema. The documented diagnosis was severe mitral regurgitation. He underwent minimally invasive mitral valve repair without complication, though a postoperative air leak required temporary chest tube suction. The air leak resolved by postoperative day two, and the chest tube was discontinued after chest x-ray confirmed resolution of pneumothorax. He recovered well, tolerated an oral diet, and his pain was managed with oral medications, transitioning from Percocet to Tylenol #3 and Motrin due to sedation concerns.
+The patient is a 48-year-old male presenting with mitral regurgitation. He had a history of mitral valve disease, confirmed by cardiac catheterization showing 4+ mitral regurgitation and normal coronary arteries; no acute symptoms such as dyspnea or chest pain were documented at admission. Past medical history includes tonsillectomy, and home medications were Zestril and Klonopin, with no known drug allergies. On examination, he had a systolic murmur at the apex but was otherwise stable. The documented diagnosis was status post mitral valve repair. He underwent minimally invasive mitral valve repair without complication, experienced a transient postoperative air leak that resolved by postoperative day two, and was discharged in stable condition. Discharge medications included aspirin, lisinopril, clonazepam, docusate, amiodarone, ibuprofen, and Tylenol #3 as needed. He was advised to follow up with his physicians in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about mitral regurgitation and associated anxiety. They denied any new symptoms, including shortness of breath, fatigue, leg swelling, palpitations, chest discomfort, or changes in activity level or exercise tolerance. The patient reported that their anxiety is mainly triggered by thoughts about their heart or upcoming check-ups but does not affect sleep or daily routines, and is alleviated by having more information. Relevant history includes a diagnosis of mitral regurgitation and ongoing routine monitoring with check-ups and echocardiograms as previously recommended. No abnormal physical findings or new symptoms were described. The doctor assessed that the mitral regurgitation appears stable given the absence of new symptoms or functional decline, and that the patient's anxiety is situational and currently well managed. The doctor advised continuing routine follow-up and monitoring for any new symptoms such as shortness of breath, swelling, or decreased exercise tolerance, and offered to discuss anxiety management strategies if it becomes more disruptive. The patient expressed understanding and agreed to maintain regular appointments and symptom awareness.
+The patient is an adult presenting for evaluation and reassurance regarding known mitral regurgitation. They report no new symptoms, specifically denying dyspnea, fatigue, lower extremity edema, palpitations, chest discomfort, or decreased exercise tolerance. The patient’s main concern is anxiety related to their cardiac condition, which is primarily triggered by thoughts about their heart or upcoming check-ups but does not interfere with sleep or daily routines. There is no history of recent physical decline or symptom progression.
+
+The clinical assessment is that the mitral regurgitation is stable, with no evidence of decompensation or new cardiac symptoms. The patient is adherent to routine monitoring with regular check-ups and echocardiograms as previously recommended. The treatment plan includes continued routine follow-up and monitoring for new symptoms such as shortness of breath, swelling, or reduced exercise tolerance. The physician also offered reassurance and advised that if anxiety becomes more disruptive, further strategies for management can be discussed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.610
+- **Model Used**: general
+- **Text1 Length**: 138 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

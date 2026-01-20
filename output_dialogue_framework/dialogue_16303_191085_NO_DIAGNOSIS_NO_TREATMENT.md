@@ -87,16 +87,21 @@ Does this approach sound reasonable to you, or do you have any concerns about ho
 
 ## EHR Summary
 
-The patient is a 68-year-old male presenting with recurrent right-sided facial pain. The pain characteristics, including severity and duration, are not specified. His past medical history is notable for hypercholesterolemia, and he has no known drug allergies. On physical and neurologic examination, cranial nerves II-XII were intact, with a flushed face noted but no other significant findings. The patient underwent a right suboccipital craniotomy with microvascular decompression of the fifth cranial nerve for presumed trigeminal neuralgia. Postoperatively, he was neurologically intact except for some numbness behind the right ear, and he remained stable throughout his hospital stay. He was discharged in stable condition with instructions to follow up for suture removal in ten days. Discharge medications included Percocet as needed for pain, Pravachol 20 mg daily, and carbamazepine 100 mg four times daily.
+The patient is a 68-year-old male presenting with recurrent right-sided facial pain. He reported no other neurological symptoms, and physical examination revealed a flushed face but intact cranial nerves and no facial numbness. His past medical history includes hypercholesterolemia, and he has no known drug allergies. The clinical impression was recurrent right-sided facial pain, likely due to trigeminal neuralgia. He underwent a right suboccipital craniotomy with microvascular decompression of the fifth cranial nerve without complications. Postoperatively, he experienced some numbness behind the right ear but remained neurologically intact and stable. At discharge, he was prescribed Percocet as needed for pain, Pravachol 20 mg daily, and carbamazepine 100 mg four times daily. He was discharged in stable condition with instructions to follow up for staple removal in ten days.
+
 
 ## Dialogue Summary
 
-The patient presented with recurrent right-sided facial pain. Symptoms included sharp pain rated 6 out of 10, episodes of visible redness and warmth on the right cheek and behind the ear, and a flushed sensation during pain episodes; the pain had been occurring intermittently for at least a couple of weeks without clear triggers or time-of-day pattern. The patient also reported stable numbness behind the right ear since prior surgery, but denied changes in vision, chewing difficulties, or dental issues. On examination, the patient described visible redness and increased warmth on the affected side during episodes. The doctor assessed that the symptoms were consistent with possible facial nerve irritation or vascular reactivity, noting the absence of other neurological deficits as reassuring. The doctor recommended tracking episode timing and potential triggers, and suggested using a cool compress during flare-ups. The patient was advised to seek further evaluation if symptoms worsen, become constant, or if new neurological changes develop.
+The patient is an adult presenting with recurrent right-sided facial pain as the chief complaint. The pain is described as sharp, rated 6 out of 10 in severity, and is accompanied by visible redness and warmth on the right cheek, occasionally extending behind the ear; episodes have occurred intermittently for at least two weeks without identifiable triggers. There is also numbness behind the right ear, which has been stable since prior surgery. The patient denies changes in vision, chewing difficulties, or dental issues. The clinical impression is possible facial nerve irritation or vascular reactivity, with no evidence of new neurological deficits. The treatment plan includes monitoring and recording episode patterns, using a cool compress during flare-ups, and instructions to seek further evaluation if symptoms worsen or new neurological signs develop. No medications or additional interventions were prescribed at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.706
+- **Model Used**: general
+- **Text1 Length**: 128 words
+- **Text2 Length**: 140 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ Let me know if you have any questions about this plan or anything else you'd lik
 
 ## EHR Summary
 
-The patient is a 49-year-old woman admitted for surgical management of a left posterior communicating artery (PCOM) aneurysm. She has a history of multiple intracranial aneurysms, including a prior basilar tip aneurysm rupture treated with coil embolization and previous surgical clipping of right ICA bifurcation and ACOM aneurysms. On admission, physical examination was unremarkable with stable vital signs and intact neurological function. During this hospitalization, she underwent successful left PCOM aneurysm clipping without intraoperative complications. Postoperatively, she developed a fever up to 102.3°F; blood cultures grew Gram positive cocci, but this was considered a contaminant after further evaluation. She was briefly started on vancomycin, which was discontinued when contamination was suspected. The patient remained afebrile for 48 hours prior to discharge and was discharged home in stable condition. She has a documented allergy to Fiorinal.
+The patient is a 49-year-old woman admitted for surgical management of a left posterior communicating artery (PCOM) aneurysm. She has a history of basilar tip aneurysm rupture treated with coil embolization and prior surgical clipping of right internal carotid artery (ICA) bifurcation and anterior communicating artery (ACOM) aneurysms. On admission, she underwent successful left PCOM aneurysm clipping without intraoperative complications. Postoperatively, she was neurologically intact, afebrile, and hemodynamically stable, but developed a transient fever to 102.3°F; blood cultures grew Gram positive cocci, thought to be a contaminant. She was briefly treated with vancomycin, which was discontinued after contamination was suspected. At discharge, she was afebrile for 48 hours, stable, and neurologically intact. Discharge medications included oxycodone for pain and Lopressor for blood pressure control. She was instructed to follow up with her physician in two to three weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with fever, reporting a temperature up to 102.3°F as the chief complaint. The fever began approximately two days ago and has been intermittent rather than constant; the patient denied chills, body aches, sore throat, changes in appetite or energy, respiratory symptoms, urinary symptoms, and recent travel or sick contacts. Acetaminophen was taken and helped reduce the fever temporarily. No other medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of additional symptoms and found no concerning clinical findings beyond the isolated fever. The doctor’s working diagnosis was a mild viral illness, given the pattern and lack of other symptoms. Supportive care was recommended, including rest, hydration, and continued use of acetaminophen for comfort. The patient was advised to monitor for new symptoms such as rash, persistent headache, abdominal pain, or fever lasting more than 4–5 days, and to follow up if any of these occur.
+The patient is an adult presenting with fever as the chief complaint, with a maximum recorded temperature of 102.3°F. The fever began approximately two days ago, is intermittent rather than constant, and is not associated with chills, body aches, sore throat, respiratory symptoms, urinary symptoms, or changes in appetite or energy level. The patient has not had recent travel, sick contacts, or new medications. Acetaminophen was used and provided temporary relief of the fever. The clinical impression is a mild, likely viral illness without concerning features. The treatment plan includes supportive care with rest, hydration, and continued use of acetaminophen as needed for comfort. The patient was advised to monitor for new or worsening symptoms such as rash, persistent headache, abdominal pain, or fever lasting more than 4-5 days, and to seek follow-up if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.929
-- **Similarity Label**: N/A
+- **STS Score**: 0.441
+- **Model Used**: general
+- **Text1 Length**: 138 words
+- **Text2 Length**: 136 words
+
 
 ## Processing Information
 

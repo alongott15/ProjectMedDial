@@ -87,16 +87,23 @@ Would you like to discuss if anything seems to trigger or relieve your symptoms?
 
 ## EHR Summary
 
-The patient is a 66-year-old female presenting with chest pain and shortness of breath. Symptoms prompted evaluation at an outside hospital, where cardiac workup revealed three-vessel coronary artery disease with a 99% ostial lesion on the right, 50% proximal circumflex, 60% OM1, and diffusely diseased LAD; her ejection fraction was noted to be 40%. Relevant history includes coronary artery disease status post myocardial infarction in 2102, hypertension, noninsulin dependent diabetes, depression, anxiety, and questionable COPD. She is allergic to sulfa and oxycodone and takes multiple medications including Lotensin, Norvasc, Neurontin, Xanax, Levaquin, Glucotrol, Lipitor, aspirin, and Prozac. On physical exam, she was afebrile with stable vital signs, regular heart rhythm with multiple PACs, clear lungs, and no peripheral edema. The documented diagnosis was severe multi-vessel coronary artery disease. She underwent coronary artery bypass grafting x3 with left internal mammary artery to the LAD and saphenous vein grafts to the OM and right PDA. The patient tolerated the procedure well.
+The patient is a 66-year-old female presenting with chest pain and shortness of breath. Her symptoms prompted evaluation, which revealed three-vessel coronary artery disease with a 99% ostial lesion on the right, 50% proximal circumflex, 60% OM1, and diffusely diseased LAD; her ejection fraction was noted to be 40%. Relevant history includes prior myocardial infarction, hypertension, noninsulin dependent diabetes, depression, anxiety, and possible COPD; she has allergies to sulfa and oxycodone. The documented diagnosis was coronary artery disease, status post coronary artery bypass graft x3. She underwent successful surgical revascularization with left internal mammary artery and saphenous vein grafts, tolerated the procedure well, and was stable postoperatively. Her hospital course was notable for mild postoperative hyponatremia that resolved and some oxygen desaturations with ambulation. Discharge medications included Lopressor, Lasix, KCL, aspirin, Percocet, Colace, Prozac, and Glucotrol. She was discharged in stable condition to rehabilitation with instructions for follow-up with her cardiologist and primary care physician in three weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. She described the pain as a pressure sensation, rated 6 out of 10 at its worst, lasting for a few days and accompanied by shortness of breath. The shortness of breath and chest pressure worsen with activity such as walking or climbing stairs but improve with rest; she denied any wheezing, coughing, or radiation of pain to the neck, jaw, or arm. No other symptoms or relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted stable symptoms without progression, absence of severe pain, and no associated warning signs such as fainting or diaphoresis. The assessment included possible cardiac or pulmonary causes, muscle strain, or anxiety, given the symptom pattern and lack of concerning features. The doctor advised the patient to avoid strenuous activity and monitor for worsening symptoms, and to seek immediate care if severe pain, fainting, or other urgent signs develop. Rest was noted by the patient to relieve symptoms.
+The patient presents with chest pain as the chief complaint. The chest pain is described as a pressure (not sharp or dull), rated 6 out of 10 at its worst, and has been present for a few days without worsening. The patient also reports associated shortness of breath that is exacerbated by activity (such as walking or climbing stairs) and improves with rest; there is no cough, wheezing, or radiation of pain to the neck, jaw, or arm. No other triggers or alleviating factors were identified besides rest, and the symptoms have remained stable since onset.
+
+No specific diagnosis was documented, but the physician noted that the symptoms could be related to cardiac, pulmonary, musculoskeletal, or anxiety-related causes, and emphasized the importance of monitoring for warning signs. The treatment plan included advice to avoid strenuous activity and to seek immediate care if symptoms worsen, severe pain develops, or if the patient experiences fainting or diaphoresis. The patient was encouraged to monitor for changes and report any concerning developments.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.506
+- **Model Used**: general
+- **Text1 Length**: 158 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

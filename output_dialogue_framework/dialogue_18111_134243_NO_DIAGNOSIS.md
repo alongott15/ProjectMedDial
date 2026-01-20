@@ -98,3 +98,21 @@ Does this summary fit with what you’ve been experiencing? Is there anything el
 ## Processing Information
 
 - **Processing Time**: 481.1s
+
+## EHR Summary
+
+The patient is a 68-year-old female admitted with signs and symptoms of Takotsubo cardiomyopathy and myocardial infarction following a recent accident. She presented with bilateral rales, jugular venous distension, atrial fibrillation, and T wave inversions on EKG, later developing right lower quadrant abdominal tenderness and nausea. Her past medical history includes hypercholesterolemia, diabetes mellitus, paroxysmal atrial fibrillation, hypertension, and iron deficiency anemia; she denied drug allergies and was taking multiple cardiac and diabetic medications. During hospitalization, she was diagnosed with Takotsubo syndrome with myocardial infarction and cardiomyopathy, ischemic colon requiring ileocolectomy, atrial fibrillation and flutter, and C. difficile diarrhea. She underwent cardiac catheterization, urgent exploratory laparotomy with ileocecectomy for ischemic colon, and subsequent ileocolostomy. Postoperatively, she was treated with amiodarone, heparin, anticoagulation for arrhythmias, diuresis, and Flagyl for C. difficile colitis. She recovered well, was advanced on her diet, and was discharged in improved condition. Discharge instructions included follow-up with her physicians, continuation of Flagyl, anticoagulation monitoring, and dietary supplementation.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with chest pain following an accident as the chief complaint. Symptoms include chest pressure (not sharp), dyspnea that worsens with movement and is associated with audible crackling sounds on breathing, persistent lower right abdominal tenderness aggravated by movement, nausea, and recent onset diarrhea. The patient reports no fever or cough, but daily activities are more difficult due to these symptoms. The doctor notes that these findings may be consistent with post-traumatic injuries such as bruised ribs, lung contusion, or irritation of the lung lining or abdominal organs; jugular venous distension was reported at 9 cm. The documented clinical impression is possible internal injury (e.g., lung contusion, small pneumothorax, or abdominal irritation) following trauma. The treatment plan includes a physical examination and chest X-ray to rule out internal injury, advice to rest and avoid strenuous activity, and instructions to seek urgent care if symptoms worsen or new symptoms develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.416
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 154 words
+

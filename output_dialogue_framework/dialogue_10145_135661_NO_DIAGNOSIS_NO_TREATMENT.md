@@ -86,3 +86,21 @@
 ## Processing Information
 
 - **Processing Time**: 441.6s
+
+## EHR Summary
+
+The patient is an 86-year-old woman presenting with minimal responsiveness, cyanosis, diaphoresis, tachypnea, and severe hypoxemia. She initially reported upper back pain and shortness of breath, with oxygen saturation between 34–54% on 6 L/min oxygen, improving to 93–100% on a nonrebreather mask. Her course was complicated by hypotension after intravenous Lasix, requiring vasopressor support, and later by aspiration of ice cream leading to a drop in O2 saturation and subsequent intubation. Relevant history includes congestive heart failure, acute renal failure, atrial fibrillation, coronary artery disease, hypertension, scoliosis, and kyphosis; she is intolerant of ACE inhibitors. The documented diagnoses included urinary tract infection, possible aspiration pneumonia, congestive heart failure exacerbation, and mechanical restrictive lung disease. Treatment included antibiotics (Levofloxacin, Flagyl, Vancomycin), diuretics, vasopressors, BiPAP, intubation, and later comfort measures with morphine and oxygen after DNR/DNI status was established. The patient became progressively unresponsive and expired on hospital day 12. Autopsy was declined per family wishes.
+
+
+## Dialogue Summary
+
+The patient presents with the chief complaint of shortness of breath. The dyspnea occurs primarily at rest (while sitting or lying down), comes and goes without a clear time pattern, and has developed gradually over the past few days. Associated symptoms include intermittent bluish discoloration of the lips and fingertips (suggesting possible cyanosis), a dull ache in the upper back, increased fatigue, and reduced ability to perform daily activities; there is no reported leg or foot swelling, dizziness, or syncope. The patient reports that these symptoms are making it harder to manage household tasks due to increased tiredness. Relevant medical history, medications, allergies, and a formal diagnosis are not specified in the dialogue. No specific treatment or recommendations were documented during this encounter.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.536
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 123 words
+

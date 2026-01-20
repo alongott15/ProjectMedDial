@@ -87,16 +87,23 @@ Let me know if you have any questions about what we've talked about, or if there
 
 ## EHR Summary
 
-The patient is a 54-year-old female presenting with an acute psychotic episode after self-discontinuation of psychiatric medications. She was noncommunicative on admission and exhibited high fever (102.8°F), tachycardia (pulse 120), elevated systolic blood pressure (130–140 mmHg), tachypnea (respiratory rate 30), and gross tremors. Her medical history includes schizophrenia, bipolar disorder, and alcohol use. On admission, creatine kinase was elevated at 928 with no MB fraction and no significant ECG changes; sodium was also elevated at 160. Psychiatry was consulted to evaluate for neuroleptic malignant syndrome due to her symptoms and laboratory findings. She was empirically treated with Levofloxacin for presumed community-acquired pneumonia, though chest x-ray was negative for infiltrate, and urinalysis and urine culture were negative for infection. Additional management included Ativan administration and intravenous fluids (D5 half normal saline) for hypernatremia.
+The patient is a 54-year-old female presenting with an acute psychotic episode after self-discontinuation of psychiatric medications, accompanied by fever, noncommunicativeness, gross tremors, and altered mental status. On admission, she exhibited a temperature of 102.8°F, pulse of 120, respiratory rate of 30, and systolic blood pressure of 130–140, along with significant extremity stiffness and a gross resting tremor. Her medical history includes schizophrenia, bipolar disorder, chronic alcohol use, and chronic diarrhea; she was not taking psychotropic medications during this admission. The documented diagnoses were neuroleptic malignant syndrome, delirium, hypernatremia, enterococcal urinary tract infection (UTI), chronic diarrhea, and chronic schizophrenia. Treatment included aggressive intravenous hydration with D5 half normal saline for hypernatremia, Levofloxacin initially for presumed pneumonia (later discontinued), amoxicillin for enterococcal UTI, Ativan for agitation and delirium, and Immodium for diarrhea. Psychiatry recommended withholding psychotropic medications during the acute phase. The patient’s sodium and creatine kinase levels normalized over the hospital course, her mental status gradually improved, and she was transferred to inpatient psychiatry for further management. Outpatient follow-up for chronic diarrhea was advised.
+
 
 ## Dialogue Summary
 
-The patient presented with confusion and feeling "out of it." Symptoms included increasing difficulty with daily tasks, forgetfulness, disorientation, diarrhea, and skin breakdown with redness and irritation, especially worsening after sitting for long periods or wearing certain clothing; these symptoms have been present and worsening over the past few days. The patient denied open sores, bleeding, pus, or increased warmth in the affected skin areas. No specific medical history, medications, or allergies were mentioned. On examination, the doctor noted skin redness and irritation without signs of infection and increasing confusion possibly related to dehydration from diarrhea and discomfort from skin breakdown. The assessment was that the patient's confusion and disorientation may be exacerbated by dehydration and skin discomfort, with no current evidence of skin infection. The doctor recommended keeping the affected skin clean and dry, avoiding prolonged sitting, wearing loose clothing, and maintaining hydration by drinking small sips of water throughout the day. The patient was advised to seek prompt medical attention if symptoms worsen or new concerning signs develop.
+The patient presents with the chief complaint of confusion and feeling "out of it." Over the past several days, they have experienced increasing difficulty with organization, forgetfulness, and disorientation, which has impacted daily activities. Additional symptoms include recent onset diarrhea and skin breakdown characterized by redness and irritation, particularly worsening after prolonged sitting and with certain clothing; there are no open sores, bleeding, or signs of infection. The patient reports decreased oral intake of food and fluids.
+
+The clinical impression links the confusion and disorientation to possible dehydration from diarrhea and discomfort from skin breakdown. The treatment plan includes recommendations to keep the affected skin areas clean and dry, avoid prolonged sitting, wear loose clothing, and maintain hydration by drinking small sips of water throughout the day. The patient was advised to seek prompt medical attention if symptoms worsen or new concerning signs develop, such as fever, spreading redness, increased pain, severe headache, or weakness. No specific diagnosis or medication was documented.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.926
-- **Similarity Label**: N/A
+- **STS Score**: 0.458
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

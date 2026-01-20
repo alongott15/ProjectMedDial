@@ -71,16 +71,21 @@
 
 ## EHR Summary
 
-The patient is a 49-year-old female presenting with colitis and gastrointestinal bleeding. She has experienced blood loss over several months, with abnormal colonoscopies revealing areas of stricturing, and persistent symptoms despite steroid therapy. Her past medical history includes neuralgia, rheumatoid arthritis, and depression; she has no known drug allergies and is a Jehovah's Witness who declines blood transfusions but will accept certain non-RBC products. On admission, her hematocrit was 20, and physical examination showed mild abdominal tenderness with a clean, intact surgical incision. The clinical impression was colitis with bleeding, most likely due to Crohn's disease. She underwent a right colectomy after multidisciplinary consultation. The treatment plan included surgery without blood transfusion, in accordance with her wishes, and supportive care as needed.
+The patient is a 49-year-old female presenting with colitis and gastrointestinal bleeding. She reported several months of blood loss, abnormal colonoscopies with stricturing, and persistent symptoms despite steroid therapy, resulting in severe anemia (hematocrit 20, hemoglobin as low as 5.5-6.0). Her past medical history includes neuralgia, rheumatoid arthritis, and depression; she has no known drug allergies and is a Jehovah's witness who declined blood transfusions. The documented diagnosis was colitis with bleeding, likely due to Crohn's disease. She underwent a right colectomy without complications and was managed postoperatively with oxygen therapy and a steroid taper. At discharge, she was stable and prescribed a prednisone taper, pain management, and her home psychiatric medications. She was advised to monitor for fever, severe abdominal pain, or intractable nausea/vomiting, and to follow up with her physician within 1–12 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with rectal bleeding. The bleeding is mostly mixed with stool and has been noticeable with every bowel movement for the past few days. The patient reports feeling a bit more tired lately, possibly related to blood loss, but denies lightheadedness, shortness of breath, abdominal pain, cramping, or changes in bowel habits aside from the bleeding. No relevant medical history, medications, or allergies were mentioned. On review of symptoms, the doctor noted the absence of abdominal pain and stable bowel habits. The doctor did not provide a specific assessment or working diagnosis during the conversation. No treatment plan or recommendations were given in this dialogue.
+The patient presents with rectal bleeding as the chief complaint. The bleeding is described as being mixed with stool and has occurred with every bowel movement for the past few days. The patient reports increased fatigue, which they attribute to blood loss, but denies lightheadedness, dyspnea, abdominal pain, cramping, or significant changes in bowel habits aside from the bleeding. No relevant past medical history, medications, or allergies are specified. No documented diagnosis or clinical impression is provided in the dialogue. No specific treatment or recommendations are mentioned.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.588
+- **Model Used**: general
+- **Text1 Length**: 135 words
+- **Text2 Length**: 87 words
+
 
 ## Processing Information
 

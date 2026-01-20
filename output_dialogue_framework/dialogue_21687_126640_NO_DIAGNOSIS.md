@@ -87,16 +87,23 @@ Let me know if you have questions about any of this, or if there’s anything el
 
 ## EHR Summary
 
-The patient is an 87-year-old female presenting with worsening depression and ataxia. She reported progressive depressive symptoms, decreased oral intake, and psychomotor slowing over the past one to two years. Her past medical history includes hypertension, depression, irritable bowel syndrome, dizziness, hearing loss, history of falls, glaucoma, and Bell's palsy. On admission, she was alert and oriented with short-term memory deficits but had strong and equal limb strength; vital signs were stable and lung sounds clear. Imaging revealed a 2 x 3 cm right subdural hematoma with mild mass effect but no midline shift or skull fracture. The documented diagnosis was chronic right subdural hematoma. She underwent a bedside burr hole procedure for hematoma drainage without complications. The treatment plan included surgical intervention and continuation of her home medications.
+The patient is an 87-year-old woman presenting with worsening depression and ataxia. She reported progressive depressive symptoms over one to two years, decreased oral intake, psychomotor slowing, and recent short-term memory deficits; she denied chest pain or dyspnea. Her past medical history includes hypertension, depression, irritable bowel syndrome, dizziness, hearing loss, history of falls, glaucoma, Bell's palsy, and prior surgeries. Imaging revealed a 2 x 3 cm right chronic subdural hematoma with mild mass effect but no midline shift. The documented diagnosis was right subdural hematoma. She underwent a bedside burr hole procedure for hematoma drainage without complications, followed by improvement in memory and strength. The treatment plan included discharge to short-term rehabilitation, continuation of antihypertensive and antidepressant medications, pain management with Tylenol, bowel regimen, and ophthalmic drops for glaucoma. Follow-up was arranged with her physician and a repeat head CT in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening depression. Symptoms discussed included persistently low mood most days without clear triggers, decreased motivation, psychomotor slowing, increased difficulty completing daily activities, decreased appetite, new trouble with balance and unsteady walking, and occasional headaches; these changes have been more noticeable over the past few weeks. The patient denied recent changes in medications or new treatments, as well as vision changes or weakness in the arms or legs. No relevant medical history, medications, or allergies were specified. The doctor noted the combination of lower mood, increased difficulty with daily tasks, new balance issues, and headaches. The assessment was that in older adults, changes in mood and coordination may be related to underlying medical issues beyond depression, such as vitamin deficiencies, thyroid problems, or subtle brain changes. The doctor recommended the patient contact their primary care provider soon for a check-up, medication review, neurological exam, and possible blood tests. Additional advice included keeping the home environment safe, considering assistive devices for walking if needed, and seeking prompt medical attention for sudden weakness, vision changes, confusion, or falls.
+The patient is an older adult presenting with worsening depression as the chief complaint. Over the past several weeks, they have experienced persistently low mood, decreased motivation, psychomotor slowing, reduced appetite, and increased difficulty with daily activities such as dressing and meal preparation. The patient also reports new-onset balance difficulties and occasional headaches but denies vision changes or limb weakness. There have been no recent medication changes.
+
+The clinical impression is that the patient’s symptoms may be due to depression but could also be related to underlying medical issues such as vitamin deficiencies, thyroid problems, or neurological changes. The treatment plan includes a recommendation to follow up with their primary care provider for further evaluation, including medication review, neurological examination, and possible blood tests. The patient was also advised to ensure home safety by removing tripping hazards and to consider using a cane or walker if unsteady. They were instructed to seek prompt medical attention if they develop sudden weakness, vision changes, confusion, or experience a fall.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.437
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

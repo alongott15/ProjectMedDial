@@ -85,16 +85,23 @@ Otherwise, I’d recommend continuing with your current approach and keeping an 
 
 ## EHR Summary
 
-The patient is a 71-year-old man presenting with a chief complaint of two weeks of weakness, decreased appetite, and nausea and vomiting. Symptoms were accompanied by severe dehydration and evidence of partial small bowel obstruction, as demonstrated by CT scan and barium study. His past medical history includes bladder cancer status post ileal conduit, gout, chronic renal insufficiency (baseline creatinine 2.5), hypertension, alcohol abuse, psoriasis, a large parastomal hernia, and obesity. On admission, he was febrile (temperature 102.8°F), hypotensive (BP 97/49), tachycardic (HR 135) with atrial fibrillation, and had acute renal failure (creatinine 4.8). The clinical impression included partial small bowel obstruction with concern for possible ischemia or infarct of bowel incarcerated in the parastomal hernia, acute renal failure, and atrial fibrillation with rapid ventricular response. Treatment included intravenous antibiotics (Unasyn, Ceftriaxone, Flagyl), dopamine drip for blood pressure support, digoxin for rate control, thiamine supplementation, and oxygen therapy. The patient was transferred to the ICU for further management of these acute issues.
+The patient is a 71-year-old man presenting with a two-week history of weakness, decreased appetite, and nausea and vomiting. He was found to have severe dehydration, acute renal failure (creatinine up to 4.8), paroxysmal atrial fibrillation with rapid ventricular response, and a partial small bowel obstruction associated with a large incarcerated parastomal hernia. His past medical history includes bladder cancer status post ileal conduit, gout, chronic renal insufficiency, hypertension, alcohol abuse, psoriasis, and obesity. On admission, he was febrile (102.8°F), tachycardic (HR 135), hypotensive (BP 97/49), and ill-appearing; laboratory studies showed leukocytosis and elevated BUN/creatinine. The documented diagnoses were status post parastomal hernia repair and reduction of incarcerated hernia, partial small bowel obstruction, acute renal failure, paroxysmal atrial fibrillation with rapid ventricular response, adrenal insufficiency, extreme weakness, and deconditioning. Treatment included exploratory laparotomy with hernia repair, intravenous fluids, vasopressors, antibiotics (Levaquin, Flagyl, Vancomycin), amiodarone for arrhythmia, anticoagulation, steroid taper for adrenal insufficiency, nutritional support, and physical/occupational therapy. At discharge, he was stable on oral medications and required intensive rehabilitation.
+
 
 ## Dialogue Summary
 
-The patient presented for a general health check-in without any specific symptoms or complaints. They reported no changes in energy levels, appetite, sleep, mood, memory, or ability to perform daily activities, and denied experiencing coughs, headaches, changes in bowel or urinary habits, muscle aches, or joint stiffness. The patient stated they have been keeping up with regular health screenings and routine check-ups and had not traveled recently or been exposed to illness. No relevant medical history, medications, or allergies were mentioned during the visit. The doctor noted the absence of new symptoms or physical findings and assessed the patient's overall health as stable. The doctor recommended continuing current preventive care habits, maintaining regular screenings and activity levels, and monitoring for any new or persistent symptoms such as cough, pain, or changes in routines. The patient was advised to reach out if any new concerns arise and expressed understanding of the plan.
+The patient presented for a routine check-in without any specific chief complaint. They denied changes in energy, appetite, sleep, mood, memory, or ability to perform daily activities, and reported no new symptoms such as cough, headaches, bowel or urinary changes, muscle aches, or joint stiffness. The patient is up to date with regular health screenings and has not had recent travel or exposure to illness. No relevant medical history, medications, or allergies were discussed during this visit.
+
+The clinical impression was stable overall health with no new or concerning symptoms documented. The treatment plan included advice to continue current healthy habits, maintain routine screenings and activity levels, and monitor for any new symptoms such as persistent cough, unexpected pain, or changes in routine. The patient was encouraged to reach out if any new issues arise.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
+- **STS Score**: 0.470
+- **Model Used**: general
+- **Text1 Length**: 169 words
+- **Text2 Length**: 135 words
+
 
 ## Processing Information
 

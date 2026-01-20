@@ -83,16 +83,21 @@ For now, let’s make sure you have a safe plan moving forward. Do you have any 
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with chest pain and congestive heart failure. He reported several weeks of chest pain and dyspnea on exertion prior to admission. His medical history includes coronary artery disease status post angioplasty and stenting, brachytherapy, high cholesterol, and borderline diabetes; he has no known drug allergies and was taking Lipitor, Plavix, atenolol, and aspirin on admission. Cardiac catheterization revealed a 90% left anterior descending stenosis, 80% diagonal stenosis, and an ejection fraction of 65%. Electrocardiogram showed sinus bradycardia at 50 beats per minute with stable lateral ST/T wave changes. The documented diagnosis was progression of coronary artery disease with symptomatic heart failure. The patient was transferred for evaluation and planned coronary artery bypass graft surgery.
+The patient is a 58-year-old male presenting with chest pain and congestive heart failure. Several weeks prior to admission, he developed chest pain and dyspnea on exertion, which prompted evaluation and transfer for surgical intervention. His history is significant for coronary artery disease status post angioplasty, stenting, and brachytherapy, as well as high cholesterol and borderline diabetes; he has no known drug allergies. Cardiac catheterization revealed severe coronary artery stenoses, and the documented diagnosis was coronary artery disease status post coronary artery bypass graft, angioplasty, stenting, and brachytherapy. He underwent a successful coronary artery bypass graft x2 and had an uncomplicated postoperative course, including extubation, removal of tubes and lines, and achievement of Level V in physical therapy. Treatment included continuation of antiplatelet therapy (Plavix, aspirin), beta blockers (Lopressor), diuretics (Lasix), and supportive medications; he also received alcohol prophylaxis for delirium tremens due to his history of alcohol abuse. The patient was discharged home in stable condition with instructions for follow-up with his cardiologist in four weeks and primary care physician in one to two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest pain began a few days ago and is described as a pressure or tightness, moderate in intensity, brought on by physical activity such as walking or climbing stairs, and relieved by rest; it has remained stable since onset. The patient also reported shortness of breath with exertion, which has affected daily activities and requires stopping to rest more frequently, but denied associated sweating, lightheadedness, or palpitations. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted exertional chest pressure and dyspnea without other acute symptoms. The assessment included concern for possible angina and consideration of other causes such as muscle strain or acid reflux, but emphasized the need to rule out cardiac ischemia due to exertional symptoms. The doctor advised the patient to avoid strenuous activity, recommended further evaluation including ECG and cardiac testing, and instructed the patient to seek emergency care if symptoms worsen or new symptoms develop.
+The patient presents with chest pain as the chief complaint. The chest pain began a few days ago and is described as a moderate pressure or tightness, primarily triggered by physical activity such as walking or climbing stairs, and relieved by rest. The patient also reports exertional dyspnea (shortness of breath with activity) that started concurrently with the chest pain and has affected daily activities, requiring more frequent rest. There are no associated symptoms of sweating, lightheadedness, or palpitations. Relevant history, medications, and allergies are not specified in the dialogue. The clinical impression discussed is possible angina, given the exertional nature of symptoms and relief with rest, though other causes such as muscle strain or acid reflux were mentioned. The treatment plan includes avoiding strenuous activity until further evaluation and obtaining cardiac testing such as an ECG. The patient was advised to seek emergency care if symptoms worsen or new concerning features develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.597
+- **Model Used**: general
+- **Text1 Length**: 176 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

@@ -89,16 +89,21 @@ Does this explanation make sense? Is there anything specific you’re concerned 
 
 ## EHR Summary
 
-The patient is a 68-year-old female presenting with an episode of chest pressure and recurrent episodes of chest pain since 2122, which were relieved by rest. She reported worsening symptoms prior to admission and has a history of diabetes mellitus, IgG monoclonal gammopathy, osteoporosis, and a prior silent myocardial infarction. On admission, her vital signs were stable and physical examination was unremarkable; laboratory data and cardiac enzymes were within normal limits, and chest x-ray showed no acute cardiopulmonary disease. Cardiac catheterization revealed three-vessel coronary artery disease with heavily calcified, diffusely diseased vessels. The documented diagnosis was three-vessel coronary artery disease. She underwent coronary artery bypass grafting x4 on 2124-2-8. Her medications on admission included NPH insulin, regular insulin, aspirin, vitamin E, zinc, and vitamin C.
+The patient is a 68-year-old female presenting with an episode of chest pressure and recurrent chest pain since 2122, relieved by rest, with recent worsening of symptoms. She has a history of diabetes mellitus, IgG monoclonal gammopathy, osteoporosis, and a prior silent myocardial infarction. On admission, her vital signs were stable and cardiac enzymes were negative; however, cardiac catheterization revealed three-vessel coronary artery disease with heavily calcified, diffusely diseased vessels. The documented diagnosis was status post coronary artery bypass graft x 4. She underwent coronary artery bypass grafting (CABG) with four grafts and tolerated the procedure without complications. Postoperatively, she experienced some shortness of breath and crackles at the lung bases, which improved with intravenous Lasix. At discharge, her condition was good, and she was prescribed medications including Lasix, Lopressor, aspirin, insulin, and others, with follow-up arranged with her surgical, primary care, and cardiology teams. She was discharged home in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure that has been occurring more frequently and is causing concern. The pressure is described as moderate in intensity, comes on with activity such as walking or doing chores, and improves with rest; it has made daily activities more difficult, requiring the patient to take more breaks. The patient also reported occasional shortness of breath, especially since a recent total abdominal hysterectomy for fibroids and heavy bleeding, but denied sweating or lightheadedness. No history of heart surgery was noted, and no other relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the pattern of exertional chest pressure relieved by rest, with increasing frequency and associated shortness of breath, could be consistent with angina due to possible narrowing of the coronary vessels. The doctor recommended prompt cardiac evaluation including an EKG and further assessment, advised the patient to avoid strenuous activity until more is known, and instructed to seek immediate care if severe chest pain, pain at rest, or new symptoms such as nausea, sweating, or fainting develop. The patient understood and agreed to follow these recommendations.
+The patient is a female presenting with chest pressure as the chief complaint. The chest pressure is described as moderate in intensity, comes on with activity (such as walking or doing chores), improves with rest, and has become more frequent recently; it is accompanied by occasional shortness of breath but not by sweating or lightheadedness. The symptoms are impacting her ability to perform daily activities, requiring her to take more breaks. Relevant history includes a recent total abdominal hysterectomy for fibroids and heavy bleeding, with no history of cardiac surgery. The clinical impression documented by the physician is possible angina, likely due to reduced oxygen supply to the heart during exertion. The treatment plan includes prompt cardiac evaluation (such as an EKG), advice to avoid strenuous activity, and instructions to seek immediate care if severe symptoms develop (such as pain at rest, nausea, sweating, or fainting). The patient was advised to take it easy until further assessment.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.556
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

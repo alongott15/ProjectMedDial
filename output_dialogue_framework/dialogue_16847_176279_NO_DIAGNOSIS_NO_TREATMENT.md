@@ -96,3 +96,21 @@ Let me know if you have any questions about what I've shared or if there are oth
 ## Processing Information
 
 - **Processing Time**: 463.8s
+
+## EHR Summary
+
+The patient is a 40-year-old female presenting with a three-week history of sore throat, odynophagia, nasal congestion, productive cough, nausea, vomiting, and painful swelling of the left lower extremity. She was found to be in acute liver failure with markedly elevated transaminases and hyperbilirubinemia, as well as pancreatitis, attributed to acetaminophen toxicity on a background of chronic hepatitis C. Her past medical history includes HIV (on Trizivir, held during admission), hepatitis C (on PEG-interferon and ribavirin), anemia, depression, and hypercholesterolemia; she has no known drug allergies. Hospital course was complicated by coagulopathy, thrombocytopenia, portal hypertension with ascites, GI bleeding from an esophageal ulcer, left lower extremity cellulitis with a ruptured cystic structure, laryngeal candidiasis, and bullous impetigo. The documented diagnoses included acute on chronic liver failure secondary to acetaminophen ingestion, hepatitis C, HIV infection, left lower extremity cellulitis, esophageal ulcer, laryngeal candidiasis, anemia, thrombocytopenia, coagulopathy of undetermined etiology, and bullous impetigo. Treatment included intravenous N-acetylcysteine for liver failure, antibiotics (Unasyn then Augmentin) for cellulitis, lactulose for hepatic encephalopathy, fluconazole and nystatin for candidiasis, valaciclovir for esophageal ulcer, topical mupirocin for impetigo, diuretics (Lasix and spironolactone) for ascites, vitamin K for coagulopathy, and supportive care. At discharge, her condition was fair and she was sent home with follow-up arranged and a regimen including oral antibiotics, antifungals, diuretics, lactulose, vitamin K, and topical therapy for skin lesions.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with left leg pain as the chief complaint. Symptoms include progressively worsening pain (rated 7/10), swelling, redness, and warmth in the left calf over several days, with associated tenderness and difficulty ambulating; no numbness, tingling, fever, or chills were reported, but the patient feels generally unwell and has experienced some confusion. There is no history of trauma, prolonged immobility, or similar prior episodes. The clinical impression documented by the doctor is concern for possible cellulitis (skin or soft tissue infection) or a vascular issue such as a blood clot. The treatment plan includes urgent in-person medical evaluation today, leg elevation, and minimizing weight-bearing. The patient was also advised to seek emergency care if symptoms worsen or new symptoms such as fever, increased confusion, or respiratory difficulty develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.400
+- **Model Used**: general
+- **Text1 Length**: 225 words
+- **Text2 Length**: 133 words
+

@@ -87,16 +87,21 @@ Let me know if you have any questions or worries about what we've talked about.
 
 ## EHR Summary
 
-The patient is a 71-year-old man presenting after an acute myocardial infarction. He reported some vague chest pain following the event and had an unsuccessful angioplasty attempt of the left anterior descending artery. His relevant history includes recent myocardial infarction and failed angioplasty; no medication allergies are documented. On physical examination, he was well-nourished, in no acute distress, with normal cardiac and pulmonary findings and normal renal function. The documented diagnoses were status post myocardial infarction and status post coronary artery bypass grafting (CABG) with internal mammary artery to the left anterior descending artery. He underwent CABG x1 on admission and had an uncomplicated postoperative course. Discharge medications included Toprol XL 50 mg daily, lisinopril 10 mg daily, and Coumadin 5 mg daily. He was advised to follow up with his cardiothoracic surgeon in three weeks and his primary care physician in one month.
+The patient is a 71-year-old man presenting with a history of acute myocardial infarction and ongoing vague chest pain. He previously underwent an unsuccessful angioplasty attempt of the left anterior descending artery. On examination, he was well-nourished and in no acute distress, with normal cardiac and pulmonary findings and no evidence of vascular or abdominal abnormalities. His renal function was normal. The documented diagnoses were status post myocardial infarction and status post coronary artery bypass grafting (CABG) with internal mammary artery to the left anterior descending artery. He underwent CABG x1 on admission and had an uneventful postoperative course. Discharge medications included Toprol XL 50 mg daily, lisinopril 10 mg daily, and Coumadin 5 mg daily. Follow-up was arranged with his cardiothoracic surgeon in three weeks and his primary care physician in one month.
+
 
 ## Dialogue Summary
 
-The patient presented with vague chest pain following a recent heart attack. The chest discomfort was described as a pressure in the center of the chest, rated at 4–5 out of 10 in intensity, coming and going throughout the day regardless of activity or rest, and typically lasting 10–15 minutes at a time. The patient denied associated symptoms such as shortness of breath, sweating, or lightheadedness. Relevant history includes a recent heart attack; no medications or allergies were mentioned. On assessment, the doctor noted the chest discomfort was mild to moderate, not linked to exertion or concerning symptoms, and likely related to post-cardiac event healing and possible anxiety. The doctor advised monitoring for any changes in the pain, especially if it becomes more severe, lasts longer, or is accompanied by warning signs like difficulty breathing, sweating, or nausea. The patient was encouraged to track symptom patterns and consider gentle activity and relaxation techniques, with instructions to notify the healthcare team if symptoms persist or worsen.
+The patient is an adult presenting with vague chest pain following a recent heart attack. The chest discomfort is described as a mild to moderate (rated 4–5/10) pressure located centrally, lasting 10–15 minutes at a time, and occurring intermittently throughout the day without clear triggers or relation to activity. The patient denies associated symptoms such as dyspnea, diaphoresis, or lightheadedness. Relevant history includes a recent myocardial infarction; no medication or allergy details are specified. The clinical impression is that the chest discomfort is likely benign post-cardiac event pain, with no alarming features identified. The physician advised monitoring for any changes in pain characteristics or the development of new symptoms such as severe pain, shortness of breath, sweating, or nausea, which would warrant immediate medical attention. Recommendations included tracking symptom patterns and considering gentle activity and relaxation techniques. The patient was instructed to notify the healthcare team if symptoms persist or worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.426
+- **Model Used**: general
+- **Text1 Length**: 134 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

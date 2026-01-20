@@ -85,16 +85,21 @@ For now, try to rest and stick with bland foods if you feel up to eating—thing
 
 ## EHR Summary
 
-The patient is a 20-year-old female presenting after involvement as an unrestrained passenger in a high-speed motor vehicle accident. She was ejected from the vehicle, found curled in the fetal position, and the vehicle sustained extensive damage. At the scene, she was awake but confused and had no memory of the incident. She has no significant past medical history. Cervical spine immobilization was initiated in the field, and she was transported to the emergency room for further management. No specific diagnosis or additional clinical findings are documented in this note. Treatment included cervical spine immobilization and emergency evaluation.
+The patient is a 20-year-old female presenting after involvement as an unrestrained passenger in a high-speed motor vehicle accident. She was ejected from the vehicle and found in a fetal position at the scene, with the vehicle noted to be extensively damaged. On initial evaluation, she was awake but confused and had no memory of the incident. There is no significant past medical history documented. The clinical impression is trauma following a motor vehicle accident with altered mental status and amnesia for the event. Initial management included cervical spine immobilization and transport to the emergency department for further evaluation and care. Specific injuries, diagnoses, or additional treatments are not detailed in the provided note.
+
 
 ## Dialogue Summary
 
-The patient presented with discomfort, reporting an elevated temperature and a general sense of not feeling well. Symptoms included a mild but persistent fever for the past couple of days, intermittent nausea, and a couple of episodes of vomiting with no clear pattern; appetite was decreased, and vomiting was described as small amounts each time. The patient noted feeling warm without chills or sweating and was able to keep down some water but little else. No relevant medical history, medications, or allergies were mentioned. The doctor assessed the symptoms as likely due to a viral stomach bug (gastroenteritis), which typically resolves within a few days in young adults. The doctor advised maintaining hydration with small sips of water or clear fluids and recommended bland foods such as crackers or toast if tolerated. The patient was instructed to seek medical attention if unable to keep fluids down, if blood appears in vomit, if severe abdominal pain develops, if the fever rises, or if weakness or confusion occurs; follow-up was advised if symptoms do not improve in another day or two or worsen. The patient also mentioned a feeling of fullness in the right ear along with the other symptoms.
+The patient is a young adult presenting with the chief complaint of fever and general discomfort. They report a subjective increase in body temperature for the past couple of days, without chills or sweating, and have experienced intermittent nausea with a few episodes of small-volume vomiting not associated with meals or specific times. The patient notes poor appetite and has been able to tolerate only small amounts of water. No additional symptoms such as severe abdominal pain or blood in vomit are reported, and there is mention of a sensation of fullness in the right ear. Relevant past medical history, medications, and allergies are not specified. The clinical impression documented by the doctor is likely viral gastroenteritis. The treatment plan includes supportive care with emphasis on maintaining hydration through small sips of water or clear fluids, resting, and consuming bland foods as tolerated. The patient was advised to monitor for warning signs such as inability to keep fluids down, blood in vomit, severe abdominal pain, rising temperature, or new confusion, and to seek further medical attention if these occur or if symptoms do not improve within a couple of days.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.908
-- **Similarity Label**: N/A
+- **STS Score**: 0.123
+- **Model Used**: general
+- **Text1 Length**: 114 words
+- **Text2 Length**: 190 words
+
 
 ## Processing Information
 

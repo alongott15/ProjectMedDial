@@ -87,16 +87,21 @@ Does that sound clear? Any questions or concerns about what to watch for or how 
 
 ## EHR Summary
 
-The patient is a 40-year-old male presenting with occasional palpitations and no shortness of breath or dyspnea on exertion. He reports a history of a heart murmur diagnosed at age 30 and has undergone serial echocardiograms and exercise tolerance tests over the past decade. His past medical history includes mitral regurgitation, hemorrhoids, and an old left wrist fracture; he is allergic to aspirin, which causes airway problems requiring epinephrine. On physical examination, he was well-nourished and muscular, with a pulse of 57, blood pressure readings of 142/94 and 133/84, and a grade IV/VI systolic murmur with a palpable thrill at the point of maximal impulse; varicosities were noted in the left lower extremity. Laboratory results were within normal limits. The documented diagnosis is mitral regurgitation. The patient was maintained on Ultram 50 mg three times daily during admission.
+The patient is a 40-year-old male presenting with occasional palpitations and no shortness of breath or dyspnea on exertion. He has a history of mitral regurgitation, previously diagnosed murmur, hemorrhoids, and an old left wrist fracture, and is allergic to aspirin (causing airway problems requiring epinephrine). On admission, physical exam revealed a grade IV/VI systolic murmur with a palpable thrill at the PMI, but no signs of heart failure or respiratory distress. The documented diagnosis was status post mitral valve repair for mitral regurgitation. The patient underwent successful mitral valve repair surgery and had an uncomplicated postoperative course except for a transient low-grade fever and mild right lower lobe atelectasis. At discharge, he was stable with clear lungs and no peripheral edema. Discharge medications included Percocet, acetaminophen, Lopressor, and Ultram. He was advised to use incentive spirometry, increase ambulation, cough to clear mucus, and follow up in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with occasional palpitations as the chief complaint. She reported a history of fever following recent surgery, initially high (103°F) and now persistent at a low-grade level (about 100.7°F), without associated chills, sweating, weakness, or changes in energy. She denied pain, redness, or swelling at the surgical site and noted that palpitations occur randomly, not linked to specific activities or times of day; these palpitations are new for her. No other relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of concerning symptoms such as chest pain, shortness of breath, or surgical site complications, and suggested the findings were likely a mild postoperative response rather than a serious complication. The doctor recommended monitoring temperature and heart symptoms, maintaining hydration and rest, and advised prompt follow-up if palpitations become frequent or severe, or if fever spikes. The patient understood and agreed to monitor her symptoms as instructed.
+The patient is an adult presenting with occasional palpitations as the chief complaint. Symptoms include new-onset, randomly occurring palpitations and a persistent low-grade fever (approximately 100.7°F), following a recent surgery; the patient previously had a higher fever (up to 103°F) postoperatively. There is no associated pain, redness, or swelling at the surgical site, and no chills, sweating, weakness, or fatigue. The patient denies any prior history of palpitations. The clinical impression is that these symptoms likely represent a mild postoperative response rather than a serious complication. The treatment plan includes monitoring temperature and heart symptoms, maintaining hydration, and getting adequate rest. The patient was advised to seek prompt medical attention if palpitations become frequent, or if chest pain, dyspnea, or a spike in fever occurs.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.943
-- **Similarity Label**: N/A
+- **STS Score**: 0.485
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 125 words
+
 
 ## Processing Information
 

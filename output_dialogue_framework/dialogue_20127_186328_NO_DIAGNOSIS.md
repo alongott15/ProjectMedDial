@@ -87,16 +87,23 @@ For now, gradually resuming your normal routines, staying hydrated, and getting 
 
 ## EHR Summary
 
-The patient is a 76-year-old male presenting for management of a large adenoma at the hepatic flexure discovered during an incomplete surveillance colonoscopy. He was asymptomatic prior to admission, with the primary issue being the inability to complete polypectomy due to the size and location of the adenoma. Relevant history includes diabetes mellitus, prior prostatectomy, artificial urinary sphincter, agoraphobia, osteoarthritis, alcohol use, and a sulfa allergy; home medication is Celexa. On physical exam, he was alert and oriented, in no acute distress, with a soft, nontender abdomen and a reducible left inguinal hernia. The documented diagnosis was a large colonic adenoma requiring surgical intervention. The patient underwent an extended right colectomy (initially laparoscopic, converted to open), received morphine PCA for pain, and magnesium supplementation for postoperative hypomagnesemia. Postoperatively, he experienced mild confusion and agitation, prompting initiation of CIWA protocol and Ativan for delirium tremens prophylaxis due to significant alcohol history.
+The patient is a 76-year-old male admitted for surgical management following an incomplete surveillance colonoscopy due to a large adenoma at the hepatic flexure. He underwent an extended right colectomy, initially laparoscopic but converted to open, and initially did well postoperatively with morphine PCA for pain control. On postoperative day two, he developed agitation and florid delirium tremens with tachycardia and ST depressions, attributed to alcohol withdrawal, requiring transfer to the Surgical Intensive Care Unit and treatment with Ativan drip, Lopressor, folate, thiamine, and multivitamin. He also developed aspiration pneumonia with E. coli and Staphylococcus aureus identified in sputum, treated with Levofloxacin. Past medical history includes diabetes mellitus, prostatectomy, artificial urinary sphincter, agoraphobia, osteoarthritis, and alcohol use; home medication is Celexa and he has a sulfa allergy. Neurology recommended transitioning to long-term benzodiazepine (Valium), which was successfully weaned as his mental status improved. The Foley catheter and artificial urinary sphincter were discontinued during admission. At discharge, he was stable, tolerating a soft diet, and sent home with a 10-day course of Levofloxacin and instructions to follow up in 2-3 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns following an incomplete colonoscopy due to a large adenoma and subsequent surgery. They reported experiencing mild confusion and agitation, particularly after surgery, with episodes of rapid heartbeat and fever that began later in the postoperative period and lasted several days. The rapid heartbeat was most noticeable at rest and worsened when the Ativan dose was reduced; no shaking, sweating, or sleep disturbances were noted. The patient’s mental clarity and heart rate improved by the ninth day after surgery, and they have since resumed usual activities with decreased fatigue and weakness. Relevant history includes recent surgery for a large adenoma and use of Ativan, with symptoms appearing during dose reduction. The doctor assessed these symptoms as a reversible, medication-related episode commonly seen after major procedures, especially with changes in sedative medications. The doctor advised gradual resumption of normal routines, maintaining hydration and rest, and monitoring for recurrence of confusion, persistent rapid heart rate, chest pain, or severe shortness of breath. The patient expressed understanding and agreed to report any new or worsening symptoms.
+The patient is an adult presenting for follow-up after a colonoscopy was incomplete due to a large adenoma and subsequent surgery. Postoperatively, the patient experienced episodes of mild confusion, agitation, rapid heartbeat (noted primarily at rest), and fever, which began several days after surgery and were associated with attempts to reduce Ativan. The symptoms lasted for a few days and resolved by the ninth day after surgery, with mental clarity and heart rate returning to normal. The patient denied shaking, sweating, or sleep disturbances during these episodes and reported gradual improvement in fatigue and return to usual activities.
+
+Relevant history includes recent surgery for a large adenoma and use of Ativan. The clinical impression was a reversible, medication-related episode of confusion and tachycardia, likely related to perioperative Ativan adjustment rather than a more serious or ongoing condition. The treatment plan included reassurance, gradual resumption of normal activities, maintaining hydration and rest, and monitoring for recurrence of confusion, persistent tachycardia, chest pain, or severe shortness of breath. The patient was advised to report any new or concerning symptoms to the care team.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.574
+- **Model Used**: general
+- **Text1 Length**: 180 words
+- **Text2 Length**: 181 words
+
 
 ## Processing Information
 

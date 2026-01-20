@@ -87,16 +87,21 @@ For now, try to avoid strenuous activity until you've been fully evaluated. Let 
 
 ## EHR Summary
 
-The patient is a 64-year-old male presenting with a chief complaint of intermittent chest pain for one month, described as heaviness associated with shortness of breath and diaphoresis. The chest pain was most prominent with exertion and did not radiate to the arm, neck, or jaw. Relevant history includes hypertension, diabetes, hypercholesterolemia, neck adenoma, prostate enlargement, hemorrhoids, and prior colonic polyp removal; current medications include Toprol, Lipitor, aspirin, Altace, glyburide, and sublingual nitroglycerin. He has a documented allergy to penicillin (angioedema) and streptomycin. Cardiac catheterization revealed severe multi-vessel coronary artery disease with 99% stenosis in the mid-LAD and 100% in the distal LAD, among other significant lesions; ejection fraction was 46%. Laboratory results were within normal limits except for a mildly decreased hematocrit (33.8). The documented diagnosis is severe coronary artery disease following a positive stress test. The treatment plan included cardiac catheterization and ongoing management with anti-anginal and cardiac medications.
+The patient is a 64-year-old male presenting with a one-month history of intermittent chest pain, described as heaviness associated with shortness of breath and diaphoresis, worsening with exertion. He denied radiation of pain to the arm, neck, or jaw. Relevant history includes hypertension, diabetes, hypercholesterolemia, neck adenoma, prostate enlargement, hemorrhoids, and prior colonic polyp removal; he is allergic to penicillin (angioedema) and streptomycin. Cardiac catheterization revealed severe multi-vessel coronary artery disease, and the patient was admitted for coronary artery bypass grafting (CABG x4) following a positive stress test. The documented diagnoses were status post CABG x4, coronary artery disease, hypertension, hypercholesterolemia, non-insulin dependent diabetes mellitus, unstable angina, colonic adenoma, prostate enlargement, status post colonic polyp removal, and hemorrhoids. Postoperatively, the patient recovered well with only a small stable left-sided pneumothorax and low-grade fevers. Discharge medications included Lasix, potassium chloride, Colace, Zantac, aspirin, Percocet as needed for pain, Plavix for three months, atorvastatin, glyburide, and metoprolol. The patient was discharged home in good condition with follow-up arranged in 4-6 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain described as a heaviness or pressure, which was the primary reason for the visit. The chest discomfort was moderate in severity, sometimes more intense with activity, and was accompanied by shortness of breath and sweating or clamminess, especially during exertion such as walking or climbing stairs; these symptoms improved with rest. The episodes had been occurring for a few days, increasing in frequency, and the patient also reported a slight temperature but denied nausea, lightheadedness, or pain radiating to the arm, neck, or jaw. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the pattern of exertional chest pressure relieved by rest, with associated sweating and shortness of breath, was concerning for a possible heart-related issue such as angina. The doctor recommended further evaluation as soon as possible, including an EKG and possibly other cardiac tests. The patient was advised to avoid strenuous activity until fully evaluated and to seek emergency care if symptoms worsened or new symptoms developed. The patient expressed understanding and agreed to follow the recommendations.
+The patient is an adult presenting with chest pain as the chief complaint. The chest discomfort is described as a heaviness or pressure, moderate in intensity, that worsens with exertion (such as walking or climbing stairs) and improves with rest. Associated symptoms include shortness of breath and sweating (clamminess) during episodes, but no nausea, lightheadedness, or pain radiating to the arm, neck, or jaw. These symptoms have been occurring intermittently for several days and are becoming more frequent. Relevant history, medications, and allergies are not specified. The clinical impression is concern for a possible heart-related issue, such as angina, due to the exertional nature and relief with rest. The treatment plan includes urgent further evaluation with an EKG and possibly other cardiac tests, advice to avoid strenuous activity, and instructions to seek emergency care if symptoms worsen or new severe symptoms develop. The patient was advised to report any changes while awaiting further assessment.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.551
+- **Model Used**: general
+- **Text1 Length**: 169 words
+- **Text2 Length**: 154 words
+
 
 ## Processing Information
 

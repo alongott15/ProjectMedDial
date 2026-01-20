@@ -85,16 +85,21 @@ To get a fuller picture, have you noticed any wheezing or noisy breathing along 
 
 ## EHR Summary
 
-The patient is an 81-year-old male presenting with shortness of breath after transfer from an outside hospital. Specific details regarding the severity, duration, or triggers of the dyspnea are not documented. Relevant past medical history, medications, and allergies are not specified in the note. Clinical findings, physical exam results, and diagnostic test results are not provided. The diagnosis and clinical impression are not documented in this excerpt. Treatment plan and recommendations are not described in the available text.
+The patient is an 81-year-old male presenting with shortness of breath after transfer from an outside hospital. The clinical note lists dyspnea as the chief complaint, but does not provide further details regarding the severity, duration, or associated symptoms. Relevant medical history, medications, and allergies are not specified in the provided text. There is no documented diagnosis or clinical impression included in this excerpt. The treatment plan and specific recommendations are also not described in the available information.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble catching their breath. They reported that the shortness of breath develops gradually throughout the day, worsens with activity such as walking or climbing stairs, and is somewhat relieved at rest, but becomes more difficult when lying down at night, requiring extra pillows for comfort. Additional symptoms included a worsening cough with clear sputum, recent onset of a scratchy throat, and increased swelling in the legs, especially around the ankles; the patient denied chest pain, dizziness, or wheezing. No relevant medical history, medications, or allergies were mentioned. On review, the doctor noted the absence of chest pain and dizziness as reassuring findings and highlighted that the combination of symptoms could indicate fluid buildup in the body, potentially related to heart or lung function. The doctor explained that the scratchy throat may be due to irritation from coughing or a mild upper respiratory infection. The patient demonstrated understanding of the assessment. No specific treatment plan or recommendations were provided during this conversation.
+The patient presents with the chief complaint of shortness of breath. The dyspnea develops gradually throughout the day, worsens with physical activity (such as walking or climbing stairs), and is also aggravated by lying down at night, requiring extra pillows for comfort. Associated symptoms include a worsening cough with clear sputum, recent onset of a scratchy throat, and increased swelling in the legs, particularly around the ankles; there is no chest pain, dizziness, or wheezing. The shortness of breath is present upon waking and persists throughout the day. Relevant history, medications, and allergies are not specified in the dialogue. The clinical impression discussed by the doctor suggests possible fluid buildup affecting the lungs and legs, potentially related to cardiac or pulmonary inefficiency, but no definitive diagnosis is documented. The doctor explains the possible causes and reassures the patient regarding the absence of chest pain or dizziness; further evaluation is implied but no specific treatment plan is documented in this conversation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.747
+- **Model Used**: general
+- **Text1 Length**: 78 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

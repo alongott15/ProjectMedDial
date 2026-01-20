@@ -87,16 +87,21 @@ If the sore keeps getting bigger or you notice drainage or worsening redness, it
 
 ## EHR Summary
 
-The patient is an 84-year-old male presenting with an opened large sacral decubitus ulcer, which had previously been covered with eschar and was noted to have opened at the rehabilitation facility. He denied associated symptoms such as fever, chills, nausea, vomiting, diarrhea, changes in urinary or bowel habits, hematuria, or rectal bleeding; he reported only a chronic nonproductive cough at baseline. His relevant medical history includes coronary artery disease (status post angioplasty), congestive heart failure (EF 25%), recent MSSA bacteremia on a six-week course of Oxacillin, type 2 diabetes, chronic renal insufficiency, gout, hypothyroidism, hyperlipidemia, mitral regurgitation, peripheral vascular disease, and benign prostatic hypertrophy. On admission, he was recovering well from his recent infection and had an increased appetite. No new abnormal physical exam findings or test results were documented in this note. The clinical impression focused on the management of the reopened sacral decubitus ulcer in the context of his complex medical history. Treatment included ongoing Oxacillin therapy for MSSA bacteremia and supportive care for his chronic conditions. Further wound care and monitoring were recommended.
+The patient is an 84-year-old male presenting with an opened large sacral decubitus ulcer, which had previously been covered with eschar and had been present for months. At the time of admission, he denied fevers, chills, gastrointestinal symptoms, urinary changes, or rectal bleeding, and reported only a chronic nonproductive cough at baseline without recent respiratory or gastrointestinal infections. He had recently completed a hospital stay for MSSA bacteremia and was on a six-week course of Oxacillin. His relevant medical history includes coronary artery disease (status post angioplasty), congestive heart failure (EF 25%), chronic renal insufficiency, type 2 diabetes, gout, hypothyroidism, hyperlipidemia, mitral regurgitation, peripheral vascular disease, benign prostatic hypertrophy (post-TURP), cataracts, COPD, esophagitis, anemia, osteoarthritis, and urinary incontinence. No known drug allergies were documented. The clinical impression was an opened sacral decubitus ulcer in the context of multiple comorbidities and recent MSSA bacteremia. Treatment at admission included continuation of Oxacillin for the bacteremia and evaluation of the ulcer. Further management details were not specified in the note.
+
 
 ## Dialogue Summary
 
-The patient presented with a large sore on the lower back that has opened up and is not healing as expected. The sore has been present for a few days, is increasingly red, mildly painful (worse with movement or prolonged sitting), and has been getting larger with spreading redness; no drainage, fever, chills, or general malaise were reported. The patient noted prior skin issues but this is the first time experiencing a sore of this size, and the sore has made it harder to move, sleep comfortably, and perform daily activities. On examination, the doctor noted the absence of systemic symptoms but highlighted the concerning progression of the sore and redness. The assessment was a pressure-related skin sore with delayed healing and risk for infection, especially given its growth and spreading erythema. The doctor recommended keeping the area clean with mild soap and water, reducing pressure by changing positions frequently or using a cushion, and monitoring for signs of infection such as pus, increased pain, warmth, or fever. The patient was advised to seek further care if the sore worsens or new symptoms develop.
+The patient is an adult presenting with a chief complaint of a large, non-healing sore on the lower back. The sore has been open for several days, is increasingly red, mildly painful (worse with movement or prolonged sitting), and has been getting larger with spreading redness; there is no drainage, fever, chills, or systemic symptoms. The patient reports prior skin issues but this is the first sore of this size, and the lesion is interfering with mobility, sleep, and daily activities. There is a history of a chronic nonproductive cough that has not changed. The clinical impression is a possible pressure ulcer (decubitus ulcer) with concern for impaired healing and risk of infection, though no infection is currently documented. The treatment plan includes keeping the area clean with mild soap and water, reducing pressure on the lower back by changing positions frequently or using a cushion, and monitoring for signs of infection such as pus, increased pain, warmth, or fever. The patient was advised to seek further medical evaluation if the sore enlarges, drainage develops, or redness worsens.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.937
-- **Similarity Label**: N/A
+- **STS Score**: 0.495
+- **Model Used**: general
+- **Text1 Length**: 167 words
+- **Text2 Length**: 178 words
+
 
 ## Processing Information
 

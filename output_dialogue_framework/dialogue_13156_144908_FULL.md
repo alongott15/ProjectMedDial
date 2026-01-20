@@ -86,16 +86,23 @@ Does this plan sound reasonable to you? And would you like any tips on managing 
 
 ## EHR Summary
 
-The patient is a 64-year-old male presenting with nausea and epigastric pressure. Symptoms led to evaluation at Hospital6, where he was found to have a non-Q-wave myocardial infarction. Cardiac catheterization revealed 3-vessel coronary artery disease. There is no additional relevant medical history, medication, or allergy information documented. The clinical impression was non-Q-wave myocardial infarction with significant coronary artery disease. He was transferred to Hospital1 for coronary artery bypass graft surgery. Further physical exam findings and specific post-operative recommendations are not specified in the note.
+The patient is a 64-year-old male presenting with nausea and epigastric pressure. Symptoms included persistent nausea and a sensation of pressure in the upper abdomen. He was found to have a non-Q-wave myocardial infarction, confirmed by cardiac catheterization revealing 3-vessel coronary artery disease. The patient was transferred for further management. The documented diagnosis was non-Q-wave myocardial infarction with significant coronary artery disease. The treatment plan included transfer for coronary artery bypass graft surgery. No additional relevant medical history, medications, or allergies were specified in the note.
+
 
 ## Dialogue Summary
 
-The patient presented with epigastric pressure and nausea. The pressure was described as mild, located in the upper abdomen, and did not resemble previous heart-related symptoms; the patient denied chest pain, shortness of breath, or sweating. Relevant history includes significant cardiac disease, though no current medications or allergies were mentioned. No abnormal physical findings were reported in the conversation. The doctor assessed that while the symptoms could be related to indigestion or mild gastritis, atypical angina could not be ruled out due to the patient’s cardiac history. The doctor advised close monitoring for any new or worsening symptoms such as chest pain, shortness of breath, sweating, palpitations, or pain radiating to the arm or jaw, and recommended seeking immediate medical attention if these occurred. Dietary recommendations included avoiding spicy foods, fatty or fried items, caffeine, and large heavy meals, and eating smaller, lighter meals. The patient was instructed to avoid strenuous activity and to reach out if symptoms changed or worsened.
+The patient is an adult with a significant cardiac history presenting with epigastric pressure and nausea. The pressure is described as mild, located in the upper abdomen, and does not resemble previous cardiac events; there is no associated chest pain, dyspnea (shortness of breath), or diaphoresis (sweating). The patient denies any classic cardiac warning signs and reports that the current symptoms are different from prior heart issues. Relevant history includes significant cardiac disease, but no specific medications or allergies are mentioned.
+
+The clinical impression is that the symptoms may be related to a non-cardiac cause such as indigestion or mild gastritis, but atypical angina cannot be fully excluded due to the patient’s cardiac background. The treatment plan includes close monitoring for any new or worsening symptoms (such as chest pain, dyspnea, sweating, palpitations, or radiating pain), avoiding strenuous activity, and dietary modifications (avoiding spicy, fatty, or fried foods, caffeine, and large meals). The patient is advised to seek immediate medical attention if concerning symptoms develop and to continue communication with the provider if there are any changes.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.613
+- **Model Used**: general
+- **Text1 Length**: 86 words
+- **Text2 Length**: 177 words
+
 
 ## Processing Information
 

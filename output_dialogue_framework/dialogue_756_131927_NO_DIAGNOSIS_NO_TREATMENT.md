@@ -103,16 +103,21 @@ Let me know if there’s anything else you’d like to discuss or if you have an
 
 ## EHR Summary
 
-The patient is a 72-year-old female presenting for a diagnostic cardiac catheterization due to reversible ischemia identified on stress testing. She has a past medical history of coronary artery bypass grafting (CABG). There were no acute symptoms documented on admission, and her physical exam was unremarkable, with normal vital signs and no distress. Laboratory results showed elevated glucose (252 mg/dL), urea nitrogen (28 mg/dL), and creatinine (1.5 mg/dL), with other values within normal limits. The primary intervention during this admission was aspirin desensitization, which she tolerated well. The documented clinical impression was reversible ischemia requiring further evaluation. She was managed with her home medications, including clopidogrel, amlodipine, atenolol, atorvastatin, levothyroxine, furosemide, pantoprazole, conjugated estrogens, multivitamin, and Benicar. No new symptoms or complications were noted during her brief hospital course.
+The patient is a 72-year-old female presenting for a diagnostic catheterization due to reversible ischemia noted on stress testing. She did not report acute symptoms during this admission and was noted to be in no apparent distress on exam. Her past medical history includes coronary artery bypass grafting (CABG), and she has documented allergies to penicillins, codeine, aspirin, and epinephrine. The clinical impression was angina and coronary artery disease (CAD). During hospitalization, she underwent aspirin desensitization, which she tolerated well, and was subsequently started on daily aspirin therapy. Discharge medications included aspirin 325 mg daily in addition to her prior regimen. She was discharged home in stable condition with instructions to continue all medications and to seek immediate care if she experiences chest pain or shortness of breath. Follow-up with her cardiologist was advised within one month.
+
 
 ## Dialogue Summary
 
-The patient presented with concern regarding a finding of reversible ischemia on a recent stress test and was referred for a diagnostic catheterization. The patient denied any symptoms of chest discomfort, shortness of breath, fatigue with activity, lightheadedness, fainting, palpitations, or changes in energy, appetite, or weight; they reported no limitations in daily activities such as walking or climbing stairs. No relevant medical history, medications, or allergies were discussed. The doctor noted the absence of symptoms and physical limitations, explaining that reversible ischemia can be “silent” and may indicate a blockage in one or more heart arteries despite feeling well. The assessment was that the reversible ischemia on stress testing warrants further evaluation with a diagnostic cath to visualize the heart’s blood vessels. The doctor advised that most patients are awake but comfortable during the procedure, which typically lasts 30–60 minutes, followed by several hours of rest and avoidance of strenuous activity for a day or two; most can return to normal routines within a few days. The patient was instructed to monitor for unusual bleeding, swelling at the insertion site, or sudden changes in health after the procedure and to contact their care team if these occur. Support at home was confirmed, and the doctor encouraged the patient to reach out with any further questions or concerns.
+The patient is an adult presenting for evaluation after a stress test revealed reversible ischemia, with the primary concern being to understand the findings and the need for a diagnostic cardiac catheterization. The patient reports no chest discomfort, dyspnea (shortness of breath), fatigue, lightheadedness, palpitations, or changes in daily activity tolerance, appetite, energy, or weight. There is no mention of relevant past medical history, medications, or allergies in the dialogue. The clinical impression is reversible ischemia on stress testing without current symptoms, suggesting possible coronary artery narrowing that is not causing overt symptoms ("silent" ischemia). The treatment plan includes proceeding with a diagnostic cardiac catheterization to directly assess the heart’s blood vessels and guide further management. The doctor explained the procedure details, expected recovery (rest for several hours post-procedure, avoid strenuous activity for 1–2 days), and signs to monitor for after the procedure (e.g., bleeding or swelling at the insertion site). The patient has support at home and was encouraged to report any new symptoms or concerns during recovery.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.620
+- **Model Used**: general
+- **Text1 Length**: 137 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

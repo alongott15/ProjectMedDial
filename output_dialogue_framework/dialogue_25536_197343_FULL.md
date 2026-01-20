@@ -89,16 +89,21 @@ How does that plan sound to you? Is there anything else you've been concerned ab
 
 ## EHR Summary
 
-The patient is a 70-year-old man presenting for evaluation of coronary artery disease (CAD) following a positive exercise tolerance test (ETT) indicating ischemia of the lateral and inferior walls with an ejection fraction (EF) of 35 percent. He denied chest pain or shortness of breath at the time of testing. His medical history is significant for hyperlipidemia, hypertension, and seizure disorder, and he takes Dilantin, Lipitor, aspirin, vitamin E, atenolol, Altace, and a multivitamin; he has no known drug allergies. Cardiac catheterization revealed three-vessel disease with significant stenoses (70% proximal LAD, 80% diagonal, subtotal left circumflex, total RCA occlusion) and an EF of 29% with inferoapical hypokinesis. On physical exam, vital signs were stable with blood pressure 165/81 mmHg and O2 saturation 99% on room air. The documented diagnosis is severe three-vessel coronary artery disease. The patient was referred for coronary artery bypass grafting (CABG) as the treatment plan.
+The patient is a 70-year-old man admitted for management of coronary artery disease (CAD) following a positive exercise tolerance test and cardiac catheterization revealing three-vessel disease. He denied chest pain or dyspnea at the time of testing, and review of systems was noncontributory. His medical history includes hyperlipidemia, hypertension, and seizure disorder; he has no known drug allergies and was taking Dilantin, Lipitor, aspirin, vitamin E, atenolol, Altace, and a multivitamin. The documented diagnosis was CAD status post coronary artery bypass grafting (CABG) x3, with additional diagnoses of hypercholesterolemia, hypertension, and seizure disorder. He underwent CABG with LIMA to diagonal, saphenous vein graft to OM, and saphenous vein graft to distal LAD, and had an uneventful postoperative course aside from mild, transient confusion. At discharge, his physical exam was stable with minor short-term memory deficit but no acute issues. Treatment included continuation of aspirin, Dilantin, atorvastatin, Altace, atenolol, and Colace. He was discharged home in good condition with visiting nurse support and follow-up appointments scheduled.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about recent confusion and decreased memory sharpness. Symptoms have been ongoing for a few weeks, with gradual worsening, and are present throughout the day without clear triggers; the patient has missed appointments and sometimes double-checks medications due to these issues. No headaches, vision changes, balance problems, or sleep disturbances were reported. The patient's wife has noticed increased forgetfulness, including repeating questions and losing track of conversations. No relevant medical history, medication changes, or allergies were specified during the visit. On assessment, the doctor noted mild cognitive changes affecting daily life, with possible causes including medication side effects, metabolic changes, or early cognitive conditions. The doctor recommended reviewing current medications, considering basic blood tests to rule out reversible causes, and keeping a daily log of incidents. The patient was advised to seek immediate care if sudden severe symptoms develop, but otherwise to proceed with a stepwise evaluation.
+The patient is an adult presenting with concerns about confusion and decreased memory. These symptoms have been ongoing for several weeks, are present throughout the day, and have recently become more noticeable, affecting daily activities such as managing appointments and medications. The patient denies associated symptoms such as headaches, vision changes, balance problems, or sleep disturbances. The patient's wife has also observed increased forgetfulness and repetition in conversations. There is no clear trigger for the cognitive symptoms, and they are not related to stress or fatigue. The clinical impression is ongoing mild cognitive impairment with possible reversible causes considered, such as medication effects or metabolic changes. The treatment plan includes reviewing current medications, conducting basic blood tests to rule out common reversible causes, and keeping a daily log of cognitive incidents. The patient was advised to seek immediate care if acute neurological symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.925
-- **Similarity Label**: N/A
+- **STS Score**: 0.405
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 144 words
+
 
 ## Processing Information
 

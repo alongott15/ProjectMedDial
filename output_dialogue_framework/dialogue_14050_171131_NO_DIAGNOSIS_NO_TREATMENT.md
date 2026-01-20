@@ -65,16 +65,21 @@
 
 ## EHR Summary
 
-The patient is an 83-year-old female presenting with hematemesis and melanotic stools. She experienced two episodes of hematemesis and multiple episodes of melena, with one episode of hypotension in the Emergency Department. Her past medical history includes cerebrovascular accident, congestive heart failure, hypertension, and a prior seizure disorder; she was treated for a congestive heart failure flare one month ago. On examination, she was hemodynamically stable after fluid resuscitation, with right upper quadrant abdominal tenderness and 1+ bilateral lower extremity edema; neurologically, she had some right facial weakness. Laboratory results showed a hematocrit of 31.6 and an INR of 4.2. The clinical impression was upper gastrointestinal bleeding. Treatment included intravenous fluids, nasogastric lavage (grossly bloody), administration of vitamin K, and transfusion of two units of fresh frozen plasma. The patient was designated as Do-Not-Resuscitate and Do-Not-Intubate, and did not report shortness of breath or chest pain.
+The patient is an 83-year-old female presenting with hematemesis and melanotic stools. She experienced two episodes of hematemesis and multiple episodes of melena, with one episode of hypotension in the Emergency Department; nasogastric lavage was grossly bloody. Her past medical history includes cerebrovascular accident, congestive heart failure, hypertension, and seizure disorder. On admission, laboratory findings included a hematocrit of 31.6 and an INR of 4.2. The documented diagnosis was upper gastrointestinal bleed due to duodenal bulb ulcers. Treatment included intravenous fluids, blood transfusions (2 units packed red blood cells), 4 units of fresh frozen plasma, Vitamin K, and intravenous pantoprazole; her INR was reduced to 1.3. An upper endoscopy revealed gastritis and two duodenal bulb ulcers, which stabilized without intervention. She was discharged in stable condition with instructions to continue pantoprazole, phenobarbital, fluoxetine, and Colace, and to avoid anticoagulation due to bleeding risk.
+
 
 ## Dialogue Summary
 
-The patient presented with vomiting blood and noticing very dark, almost black stools. The symptoms began a couple of days ago and occurred close together in time. The patient described concern about the appearance of the stools and the presence of blood in vomit. No additional symptoms, severity details, or triggers were specified. There was no relevant medical history, medications, or allergies mentioned. The doctor inquired about the amount of blood in the vomit and asked if the patient had experienced lightheadedness or fainting, but no answers were provided. No physical findings, assessment, or treatment plan were discussed during the conversation.
+The patient presents with hematemesis (vomiting blood) and melena (black, tarry stools) as the chief complaint. The symptoms began approximately two days ago and occurred close together in time. The patient describes vomiting blood but does not specify the quantity, and reports noticing very dark stools. The doctor inquired about associated symptoms such as lightheadedness or fainting, but no response is documented. Relevant medical history, medications, allergies, and risk factors are not specified in the dialogue. No formal diagnosis is documented in this encounter. No treatment plan or specific recommendations are provided in the available text.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.700
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 96 words
+
 
 ## Processing Information
 

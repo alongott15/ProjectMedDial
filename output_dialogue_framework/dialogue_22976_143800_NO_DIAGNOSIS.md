@@ -83,16 +83,21 @@ Would you like advice on what to expect at the hospital, or do you have question
 
 ## EHR Summary
 
-The patient is a 72-year-old male presenting with hematemesis. He reported one day of vomiting blood and approximately two days of melanotic stools, with initial hypotension (SBP in the 80s) and low hematocrit (24), which improved after transfusion and fluids. His relevant history includes cirrhosis, hepatocellular carcinoma (post multiple chemoembolizations), portal hypertension, portal vein thrombosis, atrial flutter (post ablation), hypertension, diabetes mellitus type 2, and prior prostate resection; he is allergic to ciprofloxacin. On admission, physical exam showed hemodynamic stability, mild lower extremity edema, and decreased breath sounds at the right lung base. Laboratory findings included anemia (Hgb 10.3, Hct 28.5), thrombocytopenia (platelets 94), elevated AST (74), and hyperglycemia (glucose 226). Esophagogastroduodenoscopy (EGD) revealed bleeding grade 3 esophageal varices, which were treated with banding of three varices. The documented diagnosis was upper gastrointestinal bleeding due to esophageal varices in the setting of cirrhosis and portal hypertension. Treatment included blood transfusions, intravenous fluids, and endoscopic variceal banding; the patient remained hemodynamically stable after intervention.
+The patient is a 72-year-old male presenting with hematemesis as the chief complaint. He reported one day of vomiting blood and approximately two days of melanotic stools, with initial hypotension (SBP in the 80s) and a low hematocrit (24), requiring transfusion and IV fluids prior to transfer. His medical history includes cryptogenic cirrhosis, hepatocellular carcinoma (on experimental protocol), portal hypertension, portal vein thrombosis, atrial flutter post-ablation, hypertension, type 2 diabetes, and prior prostate resection; he is allergic to ciprofloxacin. On admission, EGD revealed actively bleeding grade 3 esophageal varices, which were successfully banded, and he remained hemodynamically stable thereafter. The documented diagnoses were upper GI bleed due to esophageal varices, hepatocellular carcinoma, cirrhosis, atrial flutter, type 2 diabetes, and hypertension. Treatment included IV protonix, octreotide drip, prophylactic ceftriaxone, blood transfusions, and banding of varices; outpatient medications were adjusted and included lactulose, Lantus, protonix, nadolol, lasix, and spironolactone. He was discharged home in stable condition with instructions to follow up with gastroenterology and primary care, and to hold Diovan until further evaluation.
+
 
 ## Dialogue Summary
 
-The patient presented with dark-colored stools noticed for the past few days. Symptoms included persistent dark stools, vomiting with dark blood, increased weakness, lightheadedness, and difficulty performing usual daily activities due to fatigue. No change in severity of vomiting or weakness was reported over the past few days. No relevant medical history, medications, or allergies were mentioned. The doctor noted that the combination of dark stools, vomiting blood, and ongoing weakness suggests possible bleeding in the upper digestive tract, which may be serious if it leads to faintness or impaired daily functioning. The assessment was that these symptoms likely indicate gastrointestinal bleeding requiring prompt evaluation. The doctor strongly recommended contacting a healthcare provider or going to urgent care or the emergency department for further assessment and testing, and advised immediate help if symptoms worsen (such as increased weakness, chest pain, trouble standing, or confusion).
+The patient presents with the chief complaint of dark-colored stools noticed for several days. Key symptoms include persistent dark stools, episodes of vomiting with dark blood, increased weakness, lightheadedness, and reduced ability to perform daily activities due to fatigue. The patient reports that both the vomiting and weakness have remained unchanged over the past few days. There is no mention of relevant past medical history, medications, or allergies in the dialogue. The clinical impression documented by the doctor is possible upper gastrointestinal bleeding, as indicated by melena (dark stools) and hematemesis (vomiting blood). The doctor explained that these symptoms can be serious and may result from blood loss. The treatment plan includes a strong recommendation for urgent evaluation by a healthcare provider or at an emergency department to assess blood levels and identify the source of bleeding, with instructions to seek immediate help if symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.537
+- **Model Used**: general
+- **Text1 Length**: 171 words
+- **Text2 Length**: 146 words
+
 
 ## Processing Information
 

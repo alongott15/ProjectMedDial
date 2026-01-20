@@ -89,16 +89,23 @@ Let me know if you have any questions about this or
 
 ## EHR Summary
 
-The patient is a 37-year-old female presenting with decreased vision in the left eye over the past five months. She denied associated symptoms such as fevers, chills, sweats, chest pain, shortness of breath, or palpitations. Her medical history includes depression, allergic rhinitis, and eczema, for which she takes Zoloft, Flonase, and Hydrocortisone Cream; she has a penicillin allergy. Physical examination was notable only for visual changes in the left eye, with otherwise unremarkable findings. Imaging and work-up revealed a tuberculum sella meningioma. The patient underwent a left frontal craniotomy and removal of the meningioma. She tolerated the procedure well, had an unremarkable postoperative course, and was discharged home in stable condition.
+The patient is a 37-year-old female presenting with decreased vision in the left eye over the past five months. She denied associated symptoms such as fever, chills, sweats, chest pain, dyspnea, or palpitations. Her medical history includes depression, allergic rhinitis, eczema, and a known allergy to penicillin; she is currently taking Zoloft, Flonase, and Hydrocortisone Cream. On work-up, she was diagnosed with a tuberculum sella meningioma. She underwent a left frontal craniotomy for tumor removal, which she tolerated well, and her postoperative course was unremarkable. At discharge, her vision was slightly improved and she was stable. Discharge medications included Dilantin for seizure prophylaxis, Decadron with a tapering schedule, Zantac, and Percocet for pain management. She was discharged home in stable condition with her family.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening vision in the left eye. The blurring has developed over time, is painless, and is most noticeable when reading or focusing on small print up close; there are no associated floaters, flashes of light, pain, double vision, or distortion. The patient does not wear glasses or contact lenses and has not previously experienced vision changes. On covering the right eye, the left eye’s vision is described as generally blurry but not dimmer or distorted. The doctor assessed that this is likely a benign change in the eye’s focusing ability, possibly presbyopia or a mild refractive error, given the absence of alarming symptoms and no significant impact on daily activities. The doctor recommended scheduling an eye exam with an optometrist or ophthalmologist for further evaluation and possible prescription update. The patient was also advised to use brighter lighting or try over-the-counter reading glasses for small print and to seek prompt care if new symptoms such as sudden vision loss, pain, flashes, or a curtain-like shadow develop.
+The patient is an adult presenting with worsening vision in the left eye as the chief complaint. The visual change has developed gradually over time, is painless, and is most noticeable when reading or focusing on small print; there are no associated symptoms such as floaters, flashes of light, pain, double vision, or distortion. The patient has no prior history of needing glasses or contact lenses and reports that the blurring is a new issue, not significantly interfering with daily activities but making reading more difficult. Relevant medical history, medications, and allergies are not specified.
+
+The clinical impression is a gradual, painless blurring of vision in the left eye, likely due to presbyopia or a mild refractive error, with no warning signs for more serious pathology. The doctor advised scheduling a comprehensive eye exam with an optometrist or ophthalmologist to confirm the diagnosis and update the prescription if needed. Additional recommendations included using brighter lighting or over-the-counter reading glasses for small print and seeking prompt evaluation if new symptoms such as sudden vision changes, pain, flashes, or a curtain-like shadow develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.490
+- **Model Used**: general
+- **Text1 Length**: 124 words
+- **Text2 Length**: 181 words
+
 
 ## Processing Information
 

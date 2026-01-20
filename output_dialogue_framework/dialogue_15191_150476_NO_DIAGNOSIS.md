@@ -87,16 +87,21 @@ In the meantime, avoid strenuous activities and seek immediate attention if you 
 
 ## EHR Summary
 
-The patient is a 70-year-old female presenting with chest pain. She reported a 7/10 aching pain in the left chest radiating to the neck and left shoulder, which began while going to bed, persisted through the night, and resolved in the morning; similar episodes have occurred intermittently since [2127-1-2]. The pain was not associated with nausea, vomiting, shortness of breath, or diaphoresis, and recently has not been relieved as quickly by rest or sublingual nitroglycerin as in the past. Her medical history includes diabetes mellitus (noninsulin-dependent), coronary artery disease (with prior PTCA and stenting), hypertension, hypercholesterolemia, and hiatal hernia. In the Emergency Department, she became pain-free after receiving three sublingual nitroglycerin tablets and aspirin; she was also given IV Lopressor for elevated systolic blood pressure in the 200s. The documented diagnosis is not explicitly stated in the note. The treatment plan included nitroglycerin, aspirin, and IV Lopressor, with monitoring of her symptoms and blood pressure.
+The patient is a 70-year-old female presenting with chest pain. She reported a 7/10 aching pain in the left chest radiating to the neck and left shoulder, which occurred at rest while going to bed, lasted through the night, and was not associated with nausea, vomiting, dyspnea, or diaphoresis; recent episodes were less responsive to rest and nitroglycerin. Her history includes diabetes mellitus (noninsulin-dependent), coronary artery disease with prior PTCA and stenting, hypertension, hypercholesterolemia, and hiatal hernia; she has a questionable sulfa allergy. On admission, ECG showed normal sinus rhythm without acute changes, cardiac enzymes were not elevated, and cardiac catheterization revealed significant multi-vessel coronary artery disease. The documented diagnoses were two-vessel coronary artery disease (unstable angina), hypertension, diabetes mellitus, and gastroesophageal reflux disease. She was treated with nitroglycerin and heparin drips, aspirin, beta blocker, ACE inhibitor, statin, and insulin sliding scale; her antihypertensive regimen was adjusted to achieve better blood pressure control. She was transferred in stable condition to Cardiothoracic Surgery for planned coronary artery bypass grafting (CABG).
+
 
 ## Dialogue Summary
 
-The patient presented with sudden-onset chest pain described as a pressure sensation that spreads to the neck and left shoulder. The discomfort is rated 6 out of 10 in severity, lasts a few minutes per episode, occurs even at rest, and is relieved by resting; there are no associated symptoms such as shortness of breath, sweating, or lightheadedness. The patient denied prior similar episodes and reported no known history of high blood pressure or high cholesterol but has a history of PTCA to the LAD in 1996 and a recent positive ETT thallium for an inferior-posterior reversible defect. No new physical findings were described during the conversation. The doctor assessed that the symptoms, in the context of the patient's cardiac history, raise concern for possible angina or other heart-related causes. The doctor recommended prompt evaluation today to rule out ongoing heart issues and advised avoiding strenuous activities, with instructions to seek immediate care if severe symptoms develop. The patient requested guidance on where to go for evaluation and demonstrated understanding of the recommendations.
+The patient is an adult presenting with sudden-onset chest pain as the chief complaint. The discomfort is described as pressure-like, rated 6 out of 10 in severity, radiating from the chest to the neck and left shoulder, lasting a few minutes per episode, occurring even at rest, and relieved by rest; there are no associated symptoms such as dyspnea, diaphoresis, or lightheadedness. This is a new symptom for the patient, who has a history of percutaneous transluminal coronary angioplasty (PTCA) to the left anterior descending artery (LAD) in 1996 and a recent positive exercise tolerance test (ETT) thallium scan indicating an inferior-posterior reversible defect; there is no known history of hypertension or hyperlipidemia. The clinical impression documented is possible angina due to coronary artery disease. The physician recommended prompt evaluation today to rule out ongoing cardiac issues, advised avoiding strenuous activity, and instructed the patient to seek immediate care if severe symptoms develop. Guidance on where to seek prompt evaluation was offered.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.586
+- **Model Used**: general
+- **Text1 Length**: 169 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ Let me know if you have any history of lung or heart conditions, as that would h
 
 ## EHR Summary
 
-The patient is a 73-year-old male presenting with cough and symptoms of an upper respiratory tract infection. He developed progressive tachypnea over several days, with production of white sputum but no fevers, chills, or chest pain. His medical history includes chronic obstructive pulmonary disease (COPD) and chronic atrial fibrillation, with no prior intubation or BiPAP use. On admission, he was tachypneic (respiratory rate 40), tachycardic (heart rate 128), hypertensive (BP 146/86), and required six liters of oxygen via nasal cannula to maintain oxygen saturation at 98%. Physical exam revealed use of accessory muscles for respiration, diffuse bilateral wheezing, dry mucous membranes, and an irregular tachycardic heart rate. Chest x-ray showed evidence of pneumonia, and arterial blood gas was notable for a pH of 7.20, pCO2 of 67, and pO2 of 93. The documented diagnosis was COPD exacerbation with pneumonia. Treatment included Solu-Medrol, levofloxacin, albuterol nebulizers, fluids, and initiation of BiPAP, after which the patient showed some improvement.
+The patient is a 73-year-old male presenting with worsening shortness of breath and cough associated with an upper respiratory tract infection. He developed progressive tachypnea over several days, producing white sputum but without fever, chills, or chest pain. His medical history includes chronic obstructive pulmonary disease (COPD) and chronic atrial fibrillation. On admission, he was tachypneic, tachycardic, and required supplemental oxygen; physical exam revealed diffuse wheezing and use of accessory muscles for respiration. The documented diagnosis was COPD exacerbation. Treatment included BiPAP ventilation, levofloxacin, Solu-Medrol, albuterol nebulizers, and supportive care; he also received management for alcohol withdrawal and atrial fibrillation. The patient improved with therapy, was weaned to nasal cannula oxygen, and remained stable on the medical floor. He was discharged in stable condition with medications including prednisone, albuterol and ipratropium nebulizers, metoprolol, warfarin, and instructions to follow up with his primary care physician after transfer to a rehabilitation facility.
+
 
 ## Dialogue Summary
 
-The patient presented with cough and trouble breathing. Symptoms included worsening shortness of breath over the past few days, persistent cough with production of white sputum, increased wheezing, and mild swelling in the legs and ankles; physical activity and lying down aggravated the breathing difficulties, while dust and cold air did not. The patient denied fever, sore throat, nasal congestion, or waking up at night short of breath. Relevant history included chronic obstructive pulmonary disease (COPD) and chronic atrial fibrillation. On clinical review, the patient described increased difficulty with daily activities due to breathlessness and noted trace peripheral edema. The doctor assessed that the symptoms could be related to lung or heart issues, such as a COPD flare-up, chronic bronchitis, or mild fluid buildup, and considered infection less likely due to absence of fever or sore throat. The doctor advised the patient to rest, monitor for warning signs (rapidly worsening shortness of breath, chest pain, or increased leg swelling), and seek prompt medical attention if these occur; adjustment of medications or inhaler use may be considered depending on routine treatment. The patient acknowledged understanding and agreed to monitor symptoms as recommended.
+The patient is an adult presenting with cough and dyspnea as the chief complaint. Symptoms include progressively worsening shortness of breath over several days, persistent cough with white sputum, increased wheezing, and mild leg and ankle swelling. The patient reports that physical activity and lying down exacerbate the dyspnea, while there is no fever, sore throat, or nasal congestion. Relevant history includes chronic obstructive pulmonary disease (COPD) and chronic atrial fibrillation. The clinical impression discussed includes possible COPD exacerbation, chronic bronchitis, or mild fluid overload related to heart issues; infection is considered less likely due to the absence of fever or upper respiratory symptoms. The treatment plan includes monitoring for warning signs such as rapidly worsening dyspnea, chest pain, or increased leg swelling, with instructions to seek prompt medical attention if these occur. The doctor also suggests considering medication adjustments or inhaler use if part of the patient’s routine treatment. The patient was advised to take it easy and report any significant changes.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.760
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

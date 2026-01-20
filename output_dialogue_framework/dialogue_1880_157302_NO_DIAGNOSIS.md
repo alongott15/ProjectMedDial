@@ -98,3 +98,21 @@ Let me know if you have any questions or concerns about what we've talked about.
 ## Processing Information
 
 - **Processing Time**: 403.8s
+
+## EHR Summary
+
+The patient is an 81-year-old female presenting with progressive shortness of breath and fatigue on exertion, as well as dizziness and postural orthostatic hypotension. She denied orthopnea or paroxysmal nocturnal dyspnea. Her past medical history includes hypertension and hyperlipidemia, and she has no known drug allergies. Echocardiogram revealed moderate mitral stenosis with a mean diastolic gradient of 7 mm, mitral valve area of 1.4 cm², thickened mitral leaflets, at least 2+ mitral regurgitation, mild aortic sclerosis, mild tricuspid regurgitation, mild to moderate pulmonary hypertension, and a moderately dilated left atrium. The documented diagnosis was moderate mitral stenosis with associated symptoms. She underwent successful mitral valve repair with a #27 Mosaic valve and had an uncomplicated postoperative course, except for transient atrial fibrillation/flutter managed with amiodarone. At discharge, her condition was good, and she was prescribed amiodarone, Lasix, Lopressor, Percocet, Colace, Lipitor, aspirin, potassium chloride, and Zantac, with instructions to follow up in four weeks.
+
+
+## Dialogue Summary
+
+The patient presents with the chief complaint of exertional shortness of breath that has been ongoing for approximately two weeks. Symptoms include gradual onset dyspnea and increased fatigue during activity, with rapid recovery upon rest; there is no dyspnea at rest, orthopnea, leg swelling, weight change, chest pain, cough, wheezing, or voice changes. Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression is that the symptoms are most consistent with mild deconditioning, though mild anemia or age-related changes in heart or lung function are also considered possible; no red-flag symptoms are present. The treatment plan includes gentle activity as tolerated (such as walking and gradually increasing endurance), maintaining hydration and a balanced diet, and monitoring for any worsening or new symptoms. The patient is advised to seek prompt medical attention if symptoms worsen, occur at rest, or if new symptoms such as dizziness, fainting, or swelling develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.532
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 153 words
+

@@ -89,16 +89,21 @@ Let me ask—when did you first notice the rash and abdominal discomfort? This w
 
 ## EHR Summary
 
-The patient is a 56-year-old male admitted for high-dose methotrexate therapy. He reports current symptoms of weakness, mild nausea, and cervical pain, but denies fevers or chills. His medical history is notable for recently diagnosed high-grade lymphoma (presumed [year] lymphoma) and cervical disc disease; he has no known drug allergies and was not on medications at admission. On physical exam, he was afebrile with mild tachycardia (heart rate 100), blood pressure 138/100, oxygen saturation 96% on room air, and no palpable lymphadenopathy. The documented diagnosis is low-volume resected high-grade lymphoma. The treatment plan included administration of high-dose methotrexate as part of his chemotherapy regimen.
+The patient is a 56-year-old male admitted for high-dose methotrexate therapy for recently diagnosed lymphoma. He reported weakness, mild nausea, and cervical pain but denied fevers or chills on admission. His past medical history includes cervical disc disease, and he had no known drug allergies or home medications. During hospitalization, he developed neutropenic fever, a subdural hematoma after a fall, and gastritis confirmed by endoscopy. The documented diagnoses were lymphoma, subdural hematoma, and gastritis. Treatment included high-dose methotrexate with leucovorin rescue, antibiotics and antifungals for neutropenic fever, platelet transfusions for hematoma management, proton pump inhibitors and sucralfate for gastritis, and Remeron for sleep disorder and depressed mood. At discharge, he was prescribed lansoprazole, leucovorin, Remeron, potassium chloride, sucralfate, and Compazine as needed. The patient was discharged in good condition.
+
 
 ## Dialogue Summary
 
-The patient presented with weakness as the chief complaint. Symptoms discussed included mild nausea, intermittent neck pain described as deep and joint-related with associated stiffness (worsened by movement, improved with rest), episodes of fever with temperature spikes lasting a few hours, a rash on the chest resembling zoster (shingles), and low-grade abdominal pain that began a few days ago along with the rash. The patient denied dizziness, changes in appetite, chills, sore throat, cough, or congestion, and reported difficulty keeping up with daily activities due to weakness. No swelling or redness was noted in the neck area. The doctor assessed that the combination of weakness, intermittent fever, joint discomfort in the neck, chest rash resembling zoster, and abdominal pain suggests a possible underlying viral process, most likely shingles, which can cause systemic symptoms. The doctor recommended monitoring for new or worsening symptoms such as spreading rash, increasing pain, trouble swallowing, or confusion and advised seeking prompt medical attention if these occur. Rest was encouraged, and cool compresses and loose clothing were suggested for rash comfort; over-the-counter pain relievers may be considered if there are no contraindications.
+The patient is an adult presenting with generalized weakness as the chief complaint. They report associated mild nausea, intermittent neck joint pain with stiffness (worsened by movement, improved with rest), episodic fever (lasting a few hours, higher than usual), and a rash on the chest resembling zoster, along with low-grade abdominal pain. The neck pain is not accompanied by swelling or redness, and there are no symptoms of sore throat, cough, or congestion. The rash and abdominal discomfort both began a few days prior to the visit. Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression is an underlying viral process, possibly shingles (zoster), given the characteristic rash and systemic symptoms. The treatment plan includes monitoring for worsening or new symptoms (such as spreading rash, increased pain, trouble swallowing, or confusion), resting, using cool compresses and loose clothing for rash comfort, and considering over-the-counter pain relievers if there are no contraindications.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
+- **STS Score**: 0.492
+- **Model Used**: general
+- **Text1 Length**: 129 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

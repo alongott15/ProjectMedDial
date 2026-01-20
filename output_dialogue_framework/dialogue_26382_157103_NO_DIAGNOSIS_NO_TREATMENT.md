@@ -82,16 +82,23 @@ Let me know if you have any questions about what we've discussed or if anything 
 
 ## EHR Summary
 
-The patient is a 69-year-old female presenting with non-ST elevation myocardial infarction (NSTEMI) as the chief complaint. She experienced chest tightness at rest lasting two hours, which resolved spontaneously, followed by another episode of chest pain radiating to the right shoulder and neck lasting two to three hours; she has been chest pain free for three days prior to transfer. She also reported melena for two days but denied other gastrointestinal or urinary symptoms. Her past medical history includes coronary artery disease with prior RCA stent and PTCA of the left circumflex, hypertension, hypercholesterolemia, and a previous myocardial infarction. On evaluation, her peak CK MB index was 4.3 and peak CK was 189. The documented diagnosis was non-ST elevation myocardial infarction. Treatment included administration of Nitro Paste, beta blocker (metoprolol), aspirin, heparin, Aggrastat, and continuation of her antihypertensive and lipid-lowering medications.
+The patient is a 69-year-old female presenting with non-ST elevation myocardial infarction (NSTEMI). She experienced chest tightness at rest lasting two hours, which resolved spontaneously, followed by another episode of chest pain radiating to the right shoulder and neck lasting two to three hours; she was chest pain free for three days prior to transfer. Her past medical history includes coronary artery disease with prior stenting, hypertension, hypercholesterolemia, and previous myocardial infarction. On admission, laboratory findings and EKG changes were consistent with acute coronary syndrome. The documented diagnoses were coronary artery disease, hypercholesterolemia, and urinary tract infection (UTI). She underwent successful cardiac catheterization with stenting of a 95% mid right coronary artery stenosis and was treated for peri-procedural anemia and a UTI. Discharge medications included atenolol, aspirin, lisinopril, gemfibrozil, fluvastatin, Plavix (for 28 days), Protonix, and ciprofloxacin (for six days), with instructions for outpatient follow-up and monitoring for fever.
+
 
 ## Dialogue Summary
 
-The patient presented with chest tightness and pain, first noticed three to four days ago, lasting from a few minutes up to half an hour, sometimes radiating to the right shoulder and neck, and typically occurring at rest. Additional symptoms included nosebleeds and black, tar-like stools, with a positive stool test for blood; the patient denied shortness of breath, lightheadedness, or sweating during chest pain episodes. The patient also reported a mild fever (temperature up to 101.2°F) and mild burning with urination after Foley catheter removal, which has since improved. Relevant history includes ongoing use of Gemfibrozil, Plendil, Hygroton, Naprosyn, Aspirin, Vitamin C, and Fluvastatin, with no recent medication changes. The doctor noted concern for possible gastrointestinal bleeding likely related to aspirin and naproxen use, supported by the presence of melena and nosebleeds. The doctor advised the patient to stop taking aspirin and naproxen immediately and recommended prompt evaluation at a clinic or emergency department for further assessment and possible blood tests. The patient was instructed to seek immediate care if symptoms worsen or new severe symptoms develop.
+The patient is an adult presenting with episodes of chest tightness and pain, first noticed three to four days ago, lasting from a few minutes up to half an hour, sometimes radiating to the right shoulder and neck, and typically occurring at rest. The patient denies associated dyspnea, lightheadedness, or sweating during these episodes but reports recent nosebleeds and black, tar-like stools; stool testing was positive for blood. The patient’s medication list includes Gemfibrozil, Plendil, Hygroton, Naprosyn, Aspirin, Vitamin C, and Fluvastatin, with no recent changes. There is also a history of mild fever (101.2°F) and mild burning with urination after Foley catheter removal, which has improved.
+
+The clinical impression is possible gastrointestinal bleeding, likely related to aspirin and naproxen use, with concern for potential cardiac causes of chest pain also noted. The patient was advised to stop aspirin and naproxen immediately and to seek prompt evaluation at a clinic or emergency department for further assessment, including blood counts and medication review. Additional instructions included seeking immediate care if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.626
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

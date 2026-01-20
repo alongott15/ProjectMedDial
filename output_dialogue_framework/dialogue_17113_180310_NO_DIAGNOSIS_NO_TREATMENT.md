@@ -110,3 +110,23 @@ Does this help clarify things? Let me know if you have any other questions or co
 ## Processing Information
 
 - **Processing Time**: 385.0s
+
+## EHR Summary
+
+The patient is a 39-year-old female presenting one day after a normal vaginal delivery with lethargy, abnormal liver and kidney function, decreased urine output, fatigue, dizziness, and dull periumbilical epigastric pain over the preceding three to four days. She also reported bouts of nausea and vomiting during pregnancy, as well as vaginal discharge and constipation on review of systems. Her past medical history includes high cholesterol, and she has no known drug allergies. Laboratory findings revealed elevated liver enzymes, hyperbilirubinemia, coagulopathy, and acute kidney injury. The documented diagnosis was acute liver failure. Treatment included intensive monitoring in the ICU, transfusions of fresh frozen plasma, packed red blood cells, cryoprecipitate, broad spectrum antibiotics for prophylaxis, and lactulose. Extensive infectious workup was negative, and her liver function progressively improved during hospitalization. She was discharged in good condition with no new medications and advised to follow up in one to two weeks.
+
+
+## Dialogue Summary
+
+The patient presents with a chief complaint of persistent low energy and fatigue. Key symptoms include constant tiredness, nausea with occasional vomiting (a few episodes), decreased appetite, a dull steady ache in the upper abdomen near the belly button, and recent constipation; these symptoms have lasted for several days and are interfering with daily activities. The patient denies fever or chills, reports no changes in sleep, and notes decreased urine output and some dizziness, likely related to mild dehydration from reduced fluid intake and vomiting. Relevant history regarding chronic medical conditions, medications, or allergies is not specified.
+
+The clinical impression is that the symptoms are most consistent with a mild digestive upset, such as gastritis, indigestion, or a mild viral gastroenteritis, possibly complicated by mild dehydration and constipation. The treatment plan includes supportive care: maintaining hydration with small sips of water or clear fluids, eating small bland meals as tolerated, and monitoring for worsening symptoms. The patient was advised to seek prompt medical attention if experiencing persistent vomiting, inability to keep fluids down, severe pain, blood in vomit or stool, yellowing of the skin or eyes, or increasing weakness or dizziness. If symptoms do not improve within a week or new concerning signs develop, follow-up was recommended.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.544
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 207 words
+

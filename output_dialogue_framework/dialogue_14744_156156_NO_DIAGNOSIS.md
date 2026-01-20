@@ -87,16 +87,21 @@ Would you like advice on specific stretches or tips for moving safely around the
 
 ## EHR Summary
 
-The patient is an 85-year-old female being discharged to rehabilitation. She was admitted with a surgical wound, and her main issues included wound healing and a previously slightly cellulitic right leg harvest site, which is now resolving with decreased pain. Her relevant history includes recent surgery and use of multiple cardiac and ocular medications, as well as antibiotics (vancomycin, levofloxacin), anticoagulants (Coumadin, Lovenox), and antihypertensives. On examination, the incision is clean and dry with no discharge, erythema, or click, and her condition is described as good on discharge. The clinical impression is that her wound is healing appropriately with resolving cellulitis. The treatment plan includes continuation of her current medications, monitoring of wound healing at rehabilitation, cardiac diet, activity restrictions (no heavy lifting, 10-pound limit), staple removal in one week, and follow-up with her primary care provider and surgeon. She is encouraged to ambulate out of bed and have her INR checked for Coumadin dosing.
+The patient is an 85-year-old female being discharged to rehabilitation. She was admitted with a surgical wound and a right leg harvest site that was previously slightly cellulitic but is now resolving; her pain has decreased. The incision is currently clean, dry, and without discharge, erythema, or clicking. Her relevant history includes recent surgery and use of multiple cardiac and ophthalmic medications, as well as antibiotics and anticoagulants. The documented clinical impression is good wound healing and stable cardiopulmonary status. Discharge medications include aspirin, Lopressor, amiodarone, captopril, hydralazine, Lasix, potassium chloride, Coumadin (with INR monitoring), Lovenox, vancomycin, levofloxacin, albuterol, Atrovent, Timoptic, Trusopt, and an unspecified ophthalmic drop. The treatment plan includes wound monitoring at rehabilitation, cardiac diet, no heavy lifting (10-pound limit), staple removal in one week, and follow-up with her primary care provider and surgeon. Her condition on discharge is described as good.
+
 
 ## Dialogue Summary
 
-The patient presented with lower back pain of several days’ duration. The pain is rated 5–6 out of 10 in severity, is worsened by movement or prolonged standing, and is somewhat relieved by rest and use of a heating pad; it has made getting around the house and sleeping more difficult, but the patient denies any numbness, tingling, or weakness in the legs, as well as fever, appetite changes, or weight loss. No relevant medical history, medications, or allergies were mentioned. On review of symptoms, there were no neurological deficits or systemic symptoms reported. The doctor assessed the pain as likely due to muscle strain or mild joint irritation, given the absence of concerning features. The treatment plan included advice to continue gentle movement (such as short walks and light stretching), use heat for comfort, and consider over-the-counter acetaminophen if needed for short-term relief; the doctor also recommended avoiding excessive bed rest. The patient was advised to seek care sooner if symptoms worsen or if new neurological symptoms develop. The doctor offered to provide specific advice on stretches and safe movement around the house.
+The patient is an adult presenting with lower back pain as the chief complaint. The pain has been present for a few days, is rated 5–6 out of 10 in severity, worsens with movement or prolonged standing, and improves somewhat with rest and use of a heating pad. The discomfort has made getting around the house and sleeping more difficult, but there is no associated numbness, tingling, weakness in the legs, fever, appetite changes, or weight loss. No relevant past medical history, medications, or allergies were specified. The clinical impression is that the symptoms are consistent with muscle strain or mild joint irritation, without signs of nerve involvement or other concerning features. The treatment plan includes continuing gentle movement (such as short walks and light stretching), using heat for comfort, and considering over-the-counter acetaminophen for short-term relief if needed. The patient was advised to avoid excessive bed rest and to seek further evaluation if symptoms worsen or new neurological signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.932
-- **Similarity Label**: N/A
+- **STS Score**: 0.447
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

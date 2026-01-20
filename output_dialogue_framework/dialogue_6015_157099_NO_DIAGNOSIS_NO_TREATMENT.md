@@ -186,3 +186,23 @@ If you remain stable and don’t notice any of these red flags, it’s reasonabl
 ## Processing Information
 
 - **Processing Time**: 414.2s
+
+## EHR Summary
+
+The patient is a 60-year-old male presenting with a 2-week history of nausea, cold sweats, and severe left hand pain, along with an episode of malaise, nausea, and shortness of breath on the day of admission. Symptoms were associated with ST-elevation on ECG, prompting transfer for cardiac catheterization. His past medical history includes coronary artery disease (status post 3-vessel CABG), hypercholesterolemia, osteoarthritis, back pain, disc disease, sacroiliac disease, and gastroesophageal reflux disease; he is allergic to codeine. Cardiac catheterization revealed a culprit lesion in the saphenous vein graft to the second obtuse marginal, which was treated with two stents, and an additional proximal circumflex lesion was also stented. The documented diagnoses were ST-elevation myocardial infarction, back pain, and gastroesophageal reflux disease. Treatment included dual antiplatelet therapy (aspirin and Plavix), statin, beta blocker, ACE inhibitor, diuretics (Lasix), and continuation of home medications for GERD and pain. The patient was stable at discharge and advised to follow up with his cardiologist within one month and primary care physician within one week.
+
+
+## Dialogue Summary
+
+The patient is an adult with a history of coronary artery disease and previous STEMI presenting with discomfort when lying flat and pain in the left hand. The patient also mentioned nausea as a symptom. The doctor explained that these symptoms could be related to heart function or circulation, particularly given the patient’s cardiac history, and emphasized the importance of monitoring for chest pain, shortness of breath (dyspnea), palpitations, or worsening discomfort. There is no specific documented diagnosis in this encounter, but the clinical impression is concern for possible cardiac-related symptoms or heart failure exacerbation.
+
+The treatment plan includes urgent evaluation if red flag symptoms develop, continued adherence to prescribed heart medications, and close monitoring of symptoms at home. The patient was instructed to seek immediate medical attention if experiencing severe chest pressure, sudden shortness of breath, sweating, palpitations, or feeling faint. The doctor and patient agreed on a cautious approach with clear instructions to rest and monitor for any changes overnight. The patient expressed understanding of the plan and agreed to reach out if symptoms worsen or change.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.596
+- **Model Used**: general
+- **Text1 Length**: 169 words
+- **Text2 Length**: 179 words
+

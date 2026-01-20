@@ -85,16 +85,21 @@ In the meantime, try to pace yourself with activities and watch for any new symp
 
 ## EHR Summary
 
-The patient is a 73-year-old male presenting with worsening shortness of breath and dyspnea on exertion. Symptoms developed over several days while at home, prompting presentation to the emergency room. Past medical history includes hypertension, atrial fibrillation, hypercholesterolemia, and a recent inferior wall myocardial infarction on 2115-2-20. On admission, he was found to be in congestive heart failure and sinus bradycardia, with an INR of 6.99 and creatinine of 1.4 (baseline 1.1); he was ruled out for new myocardial infarction by enzymes. Medications including Amiodarone, atenolol, and Coumadin were held. The documented diagnosis was congestive heart failure in the setting of three-vessel coronary artery disease. The patient was treated with diuresis and atropine, stabilized, and subsequently underwent coronary artery bypass grafting (CABG x5) on 2115-3-18.
+The patient is a 73-year-old man presenting with worsening shortness of breath and dyspnea on exertion. His symptoms progressed over several days, leading to admission for congestive heart failure, during which he was found to have sinus bradycardia and later episodes of atrial fibrillation. Relevant history includes hypertension, atrial fibrillation, hypercholesterolemia, and a recent inferior wall myocardial infarction; he has no known drug allergies and was on multiple cardiac medications, some of which were held on admission. The documented diagnoses were coronary artery disease, atrial fibrillation, hypercholesterolemia, and hypertension. He underwent coronary artery bypass grafting (CABG) and subsequently required a permanent pacemaker due to tachybrady syndrome and persistent arrhythmias. Postoperative care included diuresis, blood transfusion, management of arrhythmias with Amiodarone, and anticoagulation with Coumadin. At discharge, he was stable with instructions to continue cardiac medications, wound care for the pacemaker site, and follow-up with cardiology and surgical teams.
+
 
 ## Dialogue Summary
 
-The patient presented with increasing shortness of breath, especially during activity such as walking. Symptoms included progressive difficulty catching breath over time, with worsening impact on daily activities like dressing and chores; no wheezing, coughing, chest tightness, leg swelling, or weight gain were reported. The patient noted that breathing is not worse at night or when lying flat. Relevant history includes atrial fibrillation, hypertension, hyperlipidemia, prior myocardial infarction, and current use of blood thinners and heart medications. The doctor assessed that the worsening exertional dyspnea may be related to decreased cardiac efficiency or possible lung changes, given the cardiac history. The doctor recommended a physical exam, EKG, and blood work to clarify the cause and advised the patient to pace activities and monitor for new symptoms such as chest discomfort, palpitations, fainting, or swelling. The patient also mentioned occasional slow heart rate and confusion, which the doctor acknowledged should be mentioned during testing.
+The patient is an adult with a history of atrial fibrillation, hypertension, hyperlipidemia, and prior myocardial infarction presenting with worsening shortness of breath on exertion. The dyspnea has developed gradually over time and now limits daily activities such as dressing and household chores; it is not associated with orthopnea, paroxysmal nocturnal dyspnea, leg swelling, wheezing, cough, or chest tightness. The patient denies recent weight gain or edema and reports no worsening of symptoms when lying flat. Relevant medical history includes use of blood thinners and heart medications for cardiac conditions. The clinical impression is that the progressive exertional dyspnea may be related to decreased cardiac function or possible mild pulmonary changes, given the cardiac history. The treatment plan includes a physical exam, EKG, and blood tests to further evaluate the cause of symptoms. The patient was advised to pace activities and monitor for new symptoms such as chest pain, palpitations, syncope, or swelling, and to seek prompt care if these occur. Additional symptoms of bradycardia and confusion were mentioned by the patient for further evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.654
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

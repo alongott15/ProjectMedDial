@@ -87,16 +87,21 @@ Does this summary make sense, or is there anything else you’re concerned about
 
 ## EHR Summary
 
-The patient is an 88-year-old female presenting with unstable angina and substernal chest pain relieved by nitroglycerin. Her symptoms included chest pain, elevated troponin (2.0), and anterolateral T wave inversions on EKG; she became pain-free after initial medical management. Relevant history includes hypertension, recurrent C. difficile infection, prior GI bleed, right hip surgery, DVT, and a significant smoking history. On transfer, medications included enoxaparin, Lopressor, atorvastatin, Ativan, Plavix, aspirin, Avapro, and prednisone. Physical exam on admission revealed significant right groin pain and stable vital signs. Cardiac catheterization showed clean coronary arteries with no intervention performed; echocardiogram revealed septal apical and anterior hypokinesis with an ejection fraction of 35%. Her post-catheterization course was complicated by a large right groin hematoma and agitation requiring sedation. The treatment plan included continued medical management for her cardiac condition and symptomatic management of her groin hematoma.
+The patient is an 88-year-old female admitted for cardiac catheterization following unstable angina with substernal chest pain relieved by nitroglycerin. She experienced chest pain, elevated troponin (2.0), and EKG changes, and was initially managed medically before transfer. Her history includes hypertension, recurrent C. difficile infection, prior GI bleed, right hip surgery, DVT, and appendectomy; medications on transfer included enoxaparin, Lopressor, atorvastatin, Ativan, Plavix, aspirin, Avapro, and prednisone. Cardiac catheterization revealed clean coronaries and a 35% ejection fraction, but her course was complicated by a large right groin hematoma and a drop in hematocrit requiring transfusion of 3 units of packed red blood cells. The chest pain was ultimately attributed to a noncardiac source, likely gastrointestinal, as it responded to Maalox. Discharge diagnoses included noncardiac chest pain, status post cardiac catheterization with large groin hematoma, and hypertension. She was discharged in good condition to a rehabilitation facility with instructions for hematocrit monitoring and follow-up. Discharge medications included irbesartan, metoprolol, atorvastatin, bowel regimen agents, Tylenol, and Maalox as needed.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain located in the middle of the chest. The chest pain has been present for a few days, comes and goes, was first noticed while sitting, and is relieved by nitroglycerin; resting helps somewhat, while activity does not worsen it, and moving around does not affect it. The patient denied associated symptoms such as sweating, nausea, or lightheadedness, but reported a dull ache in the right groin that is present most of the time and makes walking and household activities more difficult; there is no swelling, redness, or warmth in the right leg. The patient uses nitroglycerin for chest pain relief. On assessment, the doctor noted that the chest discomfort pattern and response to nitroglycerin suggest a possible cardiac origin, while the right groin ache may be musculoskeletal in nature, such as arthritis or strain, but other causes are possible. The doctor advised monitoring for new or worsening symptoms including severe chest pain unrelieved by nitroglycerin, sudden shortness of breath, fainting, or signs of infection in the leg, and to seek help if these occur. The patient was instructed to continue using nitroglycerin as directed and to rest the affected leg when possible.
+The patient presents with central chest pain as the chief complaint. The chest discomfort has been present for a few days, is intermittent, began while at rest, and is relieved by nitroglycerin; it is not clearly related to activity or position, and there are no associated symptoms such as sweating, nausea, or shortness of breath. The patient also reports a persistent dull ache in the right groin that makes walking and daily activities more difficult, but denies swelling, redness, or warmth in the leg. Relevant history includes current use of nitroglycerin for chest pain. The clinical impression is that the chest pain may be cardiac in origin due to its response to nitroglycerin, while the right groin pain is suspected to be musculoskeletal, such as arthritis or strain. The treatment plan includes continued use of nitroglycerin as needed, resting the affected leg, and monitoring for new or worsening symptoms such as severe chest pain unrelieved by nitroglycerin, sudden shortness of breath, fainting, or signs of leg infection. The patient was advised to seek immediate care if these symptoms occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.596
+- **Model Used**: general
+- **Text1 Length**: 167 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

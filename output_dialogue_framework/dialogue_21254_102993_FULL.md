@@ -89,16 +89,21 @@ Given the breathing episodes and bradycardia, it’s best to have your baby eval
 
 ## EHR Summary
 
-The patient is a newborn male delivered at 32 1/7 weeks gestation, admitted for management of prematurity. He exhibited moderate nasal flaring and mild retractions shortly after birth but remained pink in room air. Apgar scores were 7 at one minute and 8 at five minutes. Relevant maternal history includes depression (not currently treated), hypothyroidism (on Armour), uterine fibroids, and cervical shortening; the mother received antibiotics prior to delivery due to unknown Group B Streptococcus status and prematurity. On physical exam, the infant was non-dysmorphic with normal red reflex, soft and flat anterior fontanel, and intact palate. The clinical impression was prematurity with mild respiratory distress. Management included admission to the Intensive Care Nursery for monitoring and supportive care.
+The patient is a newborn male delivered at 32-1/7 weeks gestation, admitted for management of prematurity. On admission, he exhibited grunting, nasal flaring, and mild retractions, with chest x-ray findings consistent with transient tachypnea of the newborn; he also had occasional apnea and indirect hyperbilirubinemia. The infant was initially placed on CPAP and received phototherapy for hyperbilirubinemia, as well as a 48-hour course of ampicillin and gentamicin for rule out sepsis (blood cultures were negative). Relevant maternal history includes depression (not on treatment), hypothyroidism (on Armour), fibroids, and cervical shortening. The documented diagnoses were appropriate for gestational age preterm male infant, transient tachypnea of the newborn (resolved), apnea of prematurity, indirect hyperbilirubinemia (resolving), and sepsis ruled out. At discharge, the infant was stable, tolerating feeds, and receiving 24-calorie breast milk with human milk fortifier. The treatment plan included advancing calories as needed for weight gain, ferrous sulfate supplementation, and completion of newborn screening. No immunizations had been given at the time of discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about her infant experiencing episodes of stopped breathing. The episodes last a few seconds, occur mostly during sleep, and are accompanied by slowed heart rate and brief sluggishness afterward; there have been no observed changes in lip or facial color. The parent reported these episodes started recently, within the last few days, and their frequency and duration have remained stable. Additionally, the infant has a red diaper rash with white patches that has persisted for a little while. No other medical history, medications, or allergies were mentioned. The doctor noted the combination of brief apnea, bradycardia, and post-episode sluggishness without cyanosis, as well as a diaper rash likely consistent with a yeast infection. The doctor advised close monitoring for warning signs such as prolonged episodes, color changes, feeding difficulties, or increased sleepiness, and recommended seeking immediate medical attention if these occur. For the diaper rash, keeping the area clean and dry was suggested, with possible use of an antifungal cream pending pediatrician guidance; prompt evaluation by the infant’s doctor was recommended for both issues.
+The patient is a parent presenting concerns about their infant experiencing episodes of apnea (brief pauses in breathing) during sleep. The episodes last a few seconds, are associated with bradycardia (slowed heart rate), and the infant appears sluggish afterward but returns to baseline; there have been no observed color changes such as cyanosis or pallor. These symptoms began within the past few days and have not increased in frequency or duration. Additionally, the parent reports a red diaper rash with white patches that has persisted for a while. The clinical impression is that the infant is having brief sleep-related apnea with bradycardia and post-episode sluggishness, and a possible yeast (candidal) diaper rash. The doctor advised close monitoring for worsening symptoms (longer episodes, color changes, feeding difficulties, or increased sleepiness) and recommended seeking immediate medical attention if these occur. For the diaper rash, keeping the area clean and dry was suggested, and an antifungal cream may be needed; follow-up with the pediatrician was recommended for further evaluation and treatment guidance.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.497
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

@@ -85,16 +85,23 @@ For now, I recommend avoiding any potential irritants—such as spicy foods or m
 
 ## EHR Summary
 
-The patient is a 79-year-old female presenting with a chief complaint of tongue swelling that began earlier in the evening. She reported waking up with a strange sensation in her neck and a swollen tongue, but denied chest pain, dyspnea, dizziness, rash, or itching. Her medical history includes atrial fibrillation, hypertension, questionable chronic obstructive pulmonary disease, hypercholesterolemia, depression, osteoarthritis (status post bilateral total knee replacement), and spinal stenosis; she is allergic to Bactrim and has been taking lisinopril since August of the previous year. She recently completed a course of Ceftin following a COPD flare. In the Emergency Department, she was treated with intravenous Solu-Medrol 150 mg and an H2 blocker, and was evaluated by Anesthesia. She was admitted to the Medical Intensive Care Unit for observation. The clinical impression suggests angioedema, likely related to ACE inhibitor use (lisinopril), though this is not explicitly stated in the note. The treatment plan included continued observation and supportive care.
+The patient is a 79-year-old female presenting with acute tongue swelling that began earlier in the evening. She reported waking up with a strange neck sensation and a swollen tongue, but denied chest pain, dyspnea, dizziness, rash, or itching. Her history includes atrial fibrillation, hypertension, depression, hypercholesterolemia, and questionable chronic obstructive pulmonary disease; she had been taking lisinopril since August of the previous year and has a Bactrim allergy. On examination, her tongue was visibly swollen with slurred speech, but there was no stridor or respiratory distress. The documented diagnosis was angioedema, most likely secondary to ACE inhibitor (lisinopril) use. Treatment included discontinuation of the ACE inhibitor, administration of intravenous steroids and H2 blockers, observation in the ICU, and initiation of Benadryl and famotidine; she was discharged with an EpiPen and instructions for emergency use if symptoms recurred. Additional management included starting amlodipine for hypertension and resuming warfarin for atrial fibrillation. The patient was stable at discharge and advised to follow up with her primary care physician and allergy specialist.
+
 
 ## Dialogue Summary
 
-The patient presented with tongue swelling as the chief complaint. Symptoms included tongue swelling noticed a couple of days ago, a strange (but not painful) sensation in the neck, slurred speech, and new onset of wheezing; these symptoms have remained stable without improvement or worsening. The patient denied difficulty swallowing, changes in eating or drinking, and reported no recent changes in foods, medications, or dental products. No specific triggers for the neck sensation or wheezing were identified. The doctor noted that the combination of tongue swelling, slurred speech, and wheezing is concerning for possible airway involvement, and discussed potential causes such as allergic reactions or medication side effects, though no new exposures were reported. The doctor advised close monitoring for worsening swelling, increased breathing difficulty, or trouble swallowing, and recommended avoiding potential irritants like spicy foods or mouthwashes. The patient was instructed to track symptom changes and report any new triggers or worsening symptoms promptly.
+The patient presents with the chief complaint of tongue swelling that began approximately two days ago. Key symptoms include persistent tongue swelling, a strange (but not painful) sensation in the neck, slurred speech, and new onset of wheezing; the patient denies difficulty swallowing or changes in eating or drinking. The symptoms have remained stable without improvement or worsening, and there are no identified triggers such as new foods, medications, or dental products. The patient has not started any new medications and reports no recent exposures.
+
+The clinical impression is concern for possible airway involvement due to the combination of tongue swelling and breathing changes, though a specific diagnosis is not documented. The treatment plan includes close monitoring for worsening symptoms, avoidance of potential irritants (such as spicy foods or mouthwashes), and instructions to seek prompt medical attention if swelling increases, breathing becomes more difficult, or swallowing is affected. The patient is also advised to track any changes or triggers related to their symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.608
+- **Model Used**: general
+- **Text1 Length**: 170 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

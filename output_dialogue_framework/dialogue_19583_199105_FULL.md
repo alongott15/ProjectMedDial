@@ -87,16 +87,21 @@ Let me know if you’re currently taking any medications for blood pressure, hea
 
 ## EHR Summary
 
-The patient is a 72-year-old male presenting with respiratory distress. He was transferred from a rehabilitation facility due to respiratory distress and possible pneumonia, as well as for management of volume overload. His medical history includes coronary artery disease (with prior stenting), type 2 diabetes mellitus, hypertension, peripheral vascular disease, chronic renal insufficiency, gout, benign prostatic hyperplasia, and a history of abdominal hernia with prior small bowel resections and tracheostomy placement. On physical exam, he was alert and in no apparent distress, with coarse breath sounds bilaterally and an intact tracheostomy with air leak; he also had significant upper and lower extremity edema. Laboratory results showed leukocytosis (WBC 13.3). The clinical impression included respiratory distress possibly due to pneumonia and volume overload. No major surgical or invasive procedures were performed during this admission. Treatment focused on supportive care and management of his respiratory and volume status.
+The patient is a 72-year-old male presenting with respiratory distress. He experienced shortness of breath and was found to have a large cuff air leak from his tracheostomy, fever, and tachypnea; laboratory studies revealed leukocytosis and cultures grew oxacillin-resistant Staphylococcus aureus in both sputum and blood, with pseudomonas in urine. His medical history includes coronary artery disease (status post stents and PTCA), diabetes mellitus type 2, hypertension, peripheral vascular disease, chronic renal insufficiency, prior ventral hernia repair with small bowel resection, and a history of alcohol and tobacco use. The documented diagnoses were respiratory distress, congestive heart failure, air leak from tracheostomy, pancreatitis, and pneumonia. Treatment included diuresis for volume overload, replacement of the tracheostomy tube to resolve the air leak, and initiation of antibiotics (linezolid and cefepime) targeting resistant staphylococcus and pseudomonas. The patient improved clinically with resolution of fever and decreased white blood cell count. He was discharged in stable condition to an extended care facility with instructions to continue medications as directed and to follow up with his physicians.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening trouble breathing over the past week. Symptoms included shortness of breath that is aggravated by physical activity, difficulty with walking and chores, increased swelling in both legs, feet, and some puffiness in the hands, and chest discomfort when trying to catch breath; no coughing, wheezing, lightheadedness, dizziness, or difficulty speaking in full sentences were reported. The patient denied waking up at night short of breath or needing to sit up to breathe more easily. Relevant history includes current use of Lopressor and ASA for blood pressure and heart, and Lasix for fluid management; no allergies were mentioned. On clinical review, the doctor noted mild symptoms with exertional shortness of breath and peripheral edema, but no signs of severe respiratory distress. The assessment was that the combination of breathing difficulties and swelling likely indicates fluid retention, possibly related to heart function or other causes. The doctor advised close monitoring for any sudden worsening (such as severe shortness of breath at rest, persistent chest pain, or confusion), recommended elevating the legs when sitting, and suggested reducing dietary salt to help manage fluid buildup. The patient demonstrated understanding of the plan and agreed to monitor symptoms.
+The patient is an adult presenting with worsening shortness of breath as the chief complaint. Symptoms include dyspnea that is exacerbated by physical activity, associated with bilateral leg and foot swelling (and some hand puffiness), and mild chest discomfort when trying to catch their breath; these symptoms have been present for nearly a week and are impacting daily activities. The patient denies orthopnea, paroxysmal nocturnal dyspnea, cough, wheezing, lightheadedness, or difficulty speaking in full sentences. Relevant history includes current use of Lopressor, ASA, and Lasix for blood pressure, heart, and fluid management; no medication allergies are specified. The clinical impression is possible fluid overload, potentially related to cardiac or renal causes, though no definitive diagnosis is documented. The treatment plan includes monitoring for worsening symptoms (such as severe dyspnea at rest or persistent chest pain), elevating the legs when sitting, and reducing dietary salt intake. The patient was advised to seek prompt medical attention if symptoms acutely worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.441
+- **Model Used**: general
+- **Text1 Length**: 172 words
+- **Text2 Length**: 158 words
+
 
 ## Processing Information
 

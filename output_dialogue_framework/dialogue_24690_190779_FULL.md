@@ -98,3 +98,21 @@ Let me know if you have any questions or concerns about what we've discussed or 
 ## Processing Information
 
 - **Processing Time**: 406.8s
+
+## EHR Summary
+
+The patient is a 44-year-old male presenting with recurrent chest discomfort during exertion. Symptoms were associated with a history of non-Q wave myocardial infarction and prior percutaneous transluminal coronary angioplasty with stenting. Recent nuclear stress testing revealed inferior lateral wall ischemia and a probable small fixed infarct, with an ejection fraction of 40%. Cardiac catheterization demonstrated severe proximal and distal right coronary artery lesions and significant stenosis in the left circumflex artery. The documented diagnosis was status post coronary artery bypass graft times two. The patient underwent an uncomplicated coronary artery bypass graft procedure and recovered well postoperatively, achieving discharge criteria. Discharge medications included aspirin, isosorbide mononitrate, Plavix, Lopressor, atorvastatin, gemfibrozil, Colace, and Percocet as needed for pain. The patient was discharged home in good condition with instructions for follow-up with cardiology and cardiac surgery.
+
+
+## Dialogue Summary
+
+The patient presents with exertional chest discomfort as the chief complaint. The chest tightness is described as an uncomfortable pressure that occurs only during physical activity (such as walking up stairs or carrying groceries), has been present for several weeks, and is becoming more frequent but not more intense. The discomfort resolves within a few minutes of rest and is occasionally accompanied by mild shortness of breath, without associated sweating, nausea, or pain radiating to other areas. There is no history of high blood pressure, high cholesterol, diabetes, or smoking, and no triggers other than physical activity are identified. The clinical impression documented is "exertional chest tightness," with concern for possible cardiac etiology despite low risk factors. The treatment plan includes further evaluation with a stress test or ECG to assess cardiac function and advice to avoid strenuous activity until more information is available. The patient was instructed to seek immediate medical attention if symptoms occur at rest, last longer, become more intense, or are accompanied by new symptoms such as sweating, nausea, or pain radiating to the arm or jaw.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.466
+- **Model Used**: general
+- **Text1 Length**: 135 words
+- **Text2 Length**: 181 words
+

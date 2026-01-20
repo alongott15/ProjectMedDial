@@ -87,16 +87,23 @@ If the pain continues or gets worse, it would be a good idea to have the tube si
 
 ## EHR Summary
 
-The patient is a 29-year-old male admitted for management of pancreatitis. During his hospital stay, he experienced sinus pain related to feeding tube placement, which resolved without fever or worsening pain, and had limited mobility requiring a Foley catheter. His medical history includes recent use of Haldol and Valium, both of which were tapered with plans for discontinuation, and he remains on tube feeds (Peptamen at 70 cc/hour). On discharge, his vital signs were stable and he was noted to be improving in strength and mobility per physical therapy. The documented diagnosis is pancreatitis. Discharge medications include subcutaneous heparin, Topamax, fentanyl patch, Haldol, Valium, Motrin, Tylenol, Dulcolax as needed, and continued tube feeds. Recommendations include monitoring heparin while on tube feeds and follow-up with gastroenterology for ongoing management of pancreatitis.
+The patient is a 29-year-old male admitted for management of pancreatitis. During his hospital stay, he experienced sinus pain secondary to feeding tube placement, which resolved without fever or worsening pain, and had limited mobility requiring a Foley catheter. His strength and mobility improved with physical therapy, and he tolerated tube feeds at a goal rate of 70 cc per hour. Relevant history includes recent use of Haldol and Valium, both of which were tapered with plans for discontinuation, and ongoing use of subcutaneous heparin for thromboprophylaxis. The documented diagnosis was pancreatitis. At discharge, he was stable with improving mobility and strength. Discharge medications included heparin, Topamax, fentanyl patch, Haldol, Valium, Motrin, Tylenol, Dulcolax as needed, and tube feeds (Peptamen). Follow-up with gastroenterology was recommended for continued management of pancreatitis.
+
 
 ## Dialogue Summary
 
-The patient presented with sinus pain following feeding tube placement. The pain has persisted since the tube was inserted and is described as a constant pressure sensation, rated 6 out of 10 in severity, primarily around the nose and cheeks. The patient reported no congestion, drainage, fever, or headaches, but noted that mobility has worsened since the tube placement due to discomfort. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor attributed the symptoms to local irritation from the feeding tube rather than infection, given the absence of other sinus-related symptoms. The doctor recommended ensuring proper tube positioning and suggested that saline nasal sprays (if approved by the care team) may help relieve irritation. The patient was advised to monitor for new symptoms such as fever, swelling, or drainage and to seek further evaluation if pain persists or worsens.
+The patient is an adult presenting with sinus pain following feeding tube placement. The pain is described as a constant pressure sensation rated 6 out of 10, primarily around the nose and cheeks, and has persisted without improvement since the tube was inserted. The discomfort has led to reduced mobility, making it harder for the patient to move around, but there are no associated symptoms such as congestion, drainage, fever, or headache. Relevant history includes recent feeding tube placement; no other medical history, medications, or allergies are specified.
+
+The clinical impression is that the sinus pain is likely due to local irritation from the feeding tube rather than infection or typical sinus pathology. The treatment plan includes ensuring proper tube positioning, considering adjustments to reduce pressure, and possibly using saline nasal sprays if approved by the care team. The patient was advised to monitor for new symptoms such as fever, swelling, or drainage, which could indicate infection and would require prompt evaluation. If discomfort persists or worsens, the patient should have the tube site checked by a healthcare provider.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.484
+- **Model Used**: general
+- **Text1 Length**: 130 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

@@ -99,16 +99,21 @@ Would you like me to connect you directly with the scheduling team or send you a
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with abdominal aortic aneurysm (AAA) and bilateral iliac artery aneurysms. He is asymptomatic, with the AAA noted to have increased in size to 6.0 cm. Relevant history includes hypertension, hypercholesterolemia, chronic renal insufficiency, gout, prior acute aortic dissection repair (2118), and ascending aortic aneurysm repair (2128-2-25). Medications on admission included atenolol, Maxzide, Cozaar, Zocor, probenecid, and aspirin; he has no known drug allergies but reports throat tightness with eggplant. On physical exam, vital signs were stable (BP 138/58, pulse 86, respirations 18) and no jugular venous distension was noted. The documented diagnosis is enlarging abdominal aortic aneurysm with bilateral iliac artery aneurysms. The patient was admitted for elective endovascular AAA repair.
+The patient is a 61-year-old male presenting with abdominal aortic aneurysm (AAA) and bilateral iliac artery aneurysms. He was asymptomatic, with the AAA noted to have increased in size to 6.0 cm. His relevant history includes hypertension, hypercholesterolemia, chronic renal insufficiency, gout, prior acute aortic dissection repair, and ascending aortic aneurysm repair. The documented diagnosis was a 6 cm asymptomatic AAA and bilateral iliac artery aneurysms. He underwent an elective endovascular stent graft repair of the AAA and iliac artery aneurysms without complications. Perioperative management included IV hydration, Mucomyst protocol for renal protection, and Kefzol for infection prophylaxis. At discharge, his condition was satisfactory with stable renal function and clean surgical sites. He was advised to continue his home medications, use Percocet as needed for pain, and follow up in 6–11 days.
+
 
 ## Dialogue Summary
 
-The patient presented for follow-up regarding abdominal aortic aneurysm and iliac artery aneurysms, with no current symptoms. The patient denied back pain, abdominal discomfort, pulsating abdominal sensations, changes in energy, appetite, weight, leg color or temperature, swelling, and reported no recent changes in blood pressure or medications. Relevant history includes known abdominal aortic and iliac artery aneurysms, stable medication regimen, and no smoking. No abnormal clinical findings were described; the patient’s legs appeared normal and there were no concerning symptoms noted. The doctor assessed that the patient’s condition is stable and symptom-free, emphasizing the importance of regular imaging to monitor aneurysm size due to the risk of asymptomatic growth. The treatment plan included recommending scheduling the next ultrasound or CT scan (typically every 6–12 months), maintaining blood pressure control, continuing a healthy lifestyle, and avoiding smoking. The doctor advised immediate care if sudden back or abdominal pain, dizziness, or new leg symptoms develop, and offered assistance with scheduling the follow-up appointment.
+The patient is an adult presenting for follow-up regarding known abdominal aortic aneurysm and iliac artery aneurysms. They report no current symptoms, including absence of back pain, abdominal discomfort, pulsatile abdominal sensation, leg changes, or alterations in energy, appetite, or weight. There have been no recent changes in blood pressure, medications, or lifestyle; the patient maintains a healthy routine and does not smoke. The documented clinical impression is stable abdominal aortic and iliac artery aneurysms without symptoms. The physician emphasized the importance of regular imaging (ultrasound or CT scan every 6–12 months) to monitor aneurysm size, as aneurysms can progress without symptoms. The patient does not have a follow-up appointment scheduled and requested assistance with arranging their next imaging study. The treatment plan includes contacting the vascular specialist or primary care provider to schedule imaging and continuing current health maintenance practices. The patient was also advised to seek immediate care if new symptoms such as severe back or abdominal pain, dizziness, or leg changes develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.589
+- **Model Used**: general
+- **Text1 Length**: 132 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

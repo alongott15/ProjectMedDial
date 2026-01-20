@@ -75,16 +75,21 @@
 
 ## EHR Summary
 
-The patient is a 48-year-old man presenting with new onset dyspnea on exertion and angina. Symptoms included shortness of breath and chest pain with activity, prompting cardiac catheterization which revealed two-vessel coronary artery disease and an ejection fraction of 40%. His past medical history is significant for hypercholesterolemia, and he was taking Gemfibrozil, Atenolol, and Aspirin. On examination, cardiac catheterization showed significant stenoses in the LAD and RCA, and postoperative ejection fraction improved to 50-55%. The documented diagnosis was coronary artery disease requiring revascularization. He underwent coronary artery bypass grafting (CABG) times three (LIMA to LAD, left radial to D1, saphenous vein graft to PDA). Postoperatively, he developed a fever with sputum cultures positive for gram negative rods, treated with Levofloxacin, and had one episode of epigastric pain with right bundle branch block on EKG but no evidence of myocardial infarction. The patient recovered well and was transferred to the floor by postoperative day three.
+The patient is a 48-year-old man presenting with new onset dyspnea on exertion and angina. Symptoms included exertional shortness of breath and chest pain, with cardiac catheterization revealing two-vessel coronary artery disease and an ejection fraction of 40%. Past medical history is significant for hypercholesterolemia, and medications prior to admission included Gemfibrozil, Atenolol, and Aspirin. The documented diagnosis was coronary artery disease requiring revascularization, status post coronary artery bypass grafting (CABG) times three. Postoperatively, he experienced fever with sputum cultures positive for gram negative rods, treated with Levofloxacin, and had one episode of epigastric pain with right bundle branch block on EKG. He also required a blood transfusion for low hematocrit and mild hypotension but otherwise recovered well. At discharge, his medications included Lopressor, potassium chloride, Lasix, Colace, Zantac, Aspirin, Motrin as needed, Imdur, Niferex, Levofloxacin for 7 days, and Percocet. He was advised to follow up with his cardiothoracic surgeon and primary care provider within 1–9 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath on exertion and intermittent chest pain. Symptoms included exertional dyspnea, chest discomfort described as pressure, and epigastric pain, all of which typically occurred during activity and resolved within a few minutes of rest; the patient also reported a mild fever but denied nausea, lightheadedness, or sweating. The symptoms had been present for several days and had remained stable without significant improvement or worsening. No relevant past medical history, medications, or allergies were mentioned. The doctor noted that the chest and epigastric discomfort were exertional, gradual in onset, and relieved by rest. No explicit assessment or working diagnosis was stated during the conversation. No specific treatment plan or recommendations were provided in the dialogue.
+The patient presents with the chief complaint of exertional shortness of breath and chest discomfort. Symptoms include dyspnea and chest pain that occur primarily during physical activity, with associated epigastric pressure and a mild fever; the symptoms have persisted for several days without significant change. The chest and epigastric discomfort are described as a pressure sensation, come on gradually with activity, and resolve within a few minutes of rest. The patient denies associated nausea, lightheadedness, or diaphoresis. Relevant medical history, medications, allergies, and a formal diagnosis are not specified in the dialogue. No specific treatment plan or recommendations were documented during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.415
+- **Model Used**: general
+- **Text1 Length**: 158 words
+- **Text2 Length**: 103 words
+
 
 ## Processing Information
 

@@ -91,16 +91,21 @@ Would you like more information on what
 
 ## EHR Summary
 
-The patient is a 63-year-old male presenting with lower abdominal pain. The pain had been present since Tuesday, was relieved by lying supine and taking muscle relaxants, and was associated with decreased volume of green pea stools and passage of flatus; there were no fevers, chills, nausea, or vomiting. His relevant history includes Crohn's colitis, multiple sclerosis with quadriplegia and neurogenic bladder, type 2 diabetes mellitus, prior DVT, BPH status post TURP, depression, and a sacral decubitus ulcer colonized with VRE. On physical exam, he was alert and oriented, vital signs were stable, lungs were clear, and the abdomen was soft and non-tender with a functioning ostomy. Laboratory results showed mild anemia but normal white blood cell counts. The documented diagnosis was lower abdominal pain in the setting of Crohn's colitis. He underwent a sigmoid colectomy with Hartmann's procedure and end colostomy. Postoperative care included monitoring and supportive management.
+The patient is a 63-year-old male presenting with lower abdominal pain. His pain had been present since Tuesday, was relieved by lying supine and taking muscle relaxants, and was associated with decreased volume of green pea stools and continued passage of flatus; he denied fevers, chills, nausea, or vomiting. Relevant history includes Crohn's colitis, multiple sclerosis with quadriplegia and neurogenic bladder, diabetes mellitus type 2, prior DVT, BPH with prior TURP, and no known drug allergies. Imaging revealed a distended colon with mesocolonic twist at the sigmoid, concerning for early sigmoid volvulus. The documented diagnosis was sigmoid volvulus. Colonoscopic decompression was unsuccessful, so the patient underwent sigmoid colectomy with Hartmann's procedure and end colostomy. Postoperatively, he was managed with NPO status, IV fluids, gradual diet advancement, and ostomy care education; hematuria was managed with temporary cessation of coumadin and urology consultation. At discharge, he was stable, tolerating a regular diet, pain controlled with oral medications, and provided instructions for wound care, medication management, INR monitoring, and outpatient follow-up with surgery and urology.
+
 
 ## Dialogue Summary
 
-The patient presented with blood in the urine. They reported noticing hematuria for a few days, occurring more than once but not every time they urinate, with urine appearing more red than usual and no clots or tissue observed. The patient denied pain, discomfort, changes in urinary frequency, swelling in the legs, ankles, or feet, and reported no recent illnesses or new medications. Additionally, the patient described new episodes of oxygen desaturation into the high 80s and increased shortness of breath over the past few days, which worsened with activity but sometimes occurred at rest. The doctor noted that the absence of urinary pain or frequency changes made infection or stones less likely and expressed concern about the combination of hematuria and respiratory symptoms, suggesting a possible underlying issue affecting the lungs or circulation. The doctor recommended prompt in-person medical evaluation, either through primary care or urgent care/emergency room if symptoms worsen, and advised rest and avoidance of strenuous activity. The patient acknowledged understanding and agreed to seek further evaluation.
+The patient is an adult presenting with hematuria (blood in the urine) as the chief complaint. The hematuria began a few days ago, occurs intermittently, and is described as a change in urine color to red without associated pain, discomfort, or changes in urinary frequency; no clots or tissue were noted. The patient also reports new-onset dyspnea (shortness of breath) and oxygen desaturations into the high 80s, which are worse with activity but can occur at rest, and denies recent illness, medication changes, or peripheral edema. Relevant history includes stable prescription medications and no recent infections. The clinical impression is that while isolated hematuria may have benign causes, the combination with new hypoxemia and dyspnea raises concern for a possible cardiopulmonary or circulatory issue. The physician recommends prompt in-person evaluation—either with the primary care provider or urgent/emergency care if symptoms worsen—to rule out serious underlying conditions. The patient is advised to rest, avoid strenuous activity, and seek immediate care if experiencing severe shortness of breath, faintness, or inability to catch their breath.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.410
+- **Model Used**: general
+- **Text1 Length**: 172 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

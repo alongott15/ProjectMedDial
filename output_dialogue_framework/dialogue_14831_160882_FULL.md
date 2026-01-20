@@ -91,16 +91,21 @@ For now, continuing with routine care and scheduled checkups is the best approac
 
 ## EHR Summary
 
-The patient is a newborn male delivered at 27 1/7 weeks gestation via cesarean section due to breech presentation and progressive pre-term labor. He experienced respiratory distress at birth, requiring intubation, surfactant administration, and subsequent respiratory support including nasopharyngeal CPAP and nasal cannula oxygen. The infant has had episodes of apnea of prematurity, bradycardia, and desaturation, particularly associated with immature feeding coordination. Relevant history includes maternal subchorionic hematoma, vaginal bleeding, and placental abruption during pregnancy. On physical exam, birth weight was 1050 grams (50th percentile for gestational age), with Apgar scores of 4, 7, and 8 at 1, 5, and 10 minutes respectively. The documented diagnosis is chronic lung disease of prematurity. Treatment has included caffeine citrate for apnea, Diuril (and previously Aldactone) for chronic lung disease, and as-needed Combivent inhalers. The patient remains on 100% oxygen via nasal cannula at discharge.
+The patient is a male neonate born at 27 1/7 weeks gestation, admitted for complications of extreme prematurity. He experienced respiratory distress syndrome requiring intubation, surfactant therapy, and prolonged respiratory support, as well as apnea of prematurity treated with caffeine citrate. His hospital course was notable for chronic lung disease (bronchopulmonary dysplasia), hypotension requiring pressors and hydrocortisone, presumed sepsis treated with antibiotics (with negative cultures), anemia of prematurity requiring transfusions, hyperbilirubinemia managed with phototherapy, bilateral intraventricular hemorrhage with resolved ventriculomegaly, and a left inguinal hernia. Relevant history includes maternal complications (subchorionic hematoma, vaginal bleeding, abruption) and no documented allergies. The documented diagnoses include prematurity, bronchopulmonary dysplasia, status post respiratory distress syndrome and apnea, right aortic arch with aberrant left subclavian artery, anemia of prematurity, and left inguinal hernia. At discharge, the infant was stable on nasal cannula oxygen, receiving breast milk fortified to 24 kcal/oz, potassium chloride, Diuril, iron, and multivitamins. He was transferred in good condition for surgical repair of the inguinal hernia and follow-up with multiple specialties was arranged. Immunizations were up to date and further prophylaxis for RSV and influenza was recommended.
+
 
 ## Dialogue Summary
 
-The patient presented for a general check-in without any specific complaints. No symptoms were reported; the parent denied any changes in feeding, sleeping, mood, growth or developmental milestones, recent illnesses, rashes, changes in skin color, fever, or alterations in bowel movements. There was no relevant medical history, medications, or allergies mentioned during the visit. The doctor noted that the infant appeared healthy based on the absence of concerning symptoms and normal routines as described by the parent. The assessment was that the baby is doing well with no current health concerns. The doctor recommended continuing routine care and regular checkups, and advised the parent to monitor for any unusual symptoms such as persistent fussiness, poor feeding, high fever, or sudden changes in behavior or appearance. The parent was encouraged to reach out if any concerns arise in the future.
+The patient presented for a routine check-in with no specific chief complaint or symptoms. The caregiver reported no changes in feeding, sleeping, mood, growth, development, or bowel movements, and denied any recent illnesses, rashes, fever, or concerning exposures. There were no issues noted with developmental milestones such as smiling, making sounds, or moving limbs. No relevant medical history, medications, or allergies were discussed. The clinical assessment was that the infant appears healthy with normal routines and no concerning symptoms. The doctor advised continuing routine care and regular checkups, and recommended monitoring for any new symptoms such as persistent fussiness, poor feeding, high fever, or sudden changes in behavior or appearance. The caregiver was encouraged to reach out if any concerns arise. No further interventions were indicated at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.935
-- **Similarity Label**: N/A
+- **STS Score**: 0.497
+- **Model Used**: general
+- **Text1 Length**: 185 words
+- **Text2 Length**: 129 words
+
 
 ## Processing Information
 

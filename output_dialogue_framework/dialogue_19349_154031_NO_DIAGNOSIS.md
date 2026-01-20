@@ -91,16 +91,23 @@ If you have any other questions about caring for your premature baby or want mor
 
 ## EHR Summary
 
-The patient is a male newborn delivered at 34 and 4/7 weeks gestational age, admitted for management of prematurity. He was born via cesarean section after induction of labor due to fetal intolerance, following maternal gestational diabetes managed with insulin. At birth, the infant had good tone and cry, required brief free-flow oxygen for two minutes, and was transferred to the Neonatal Intensive Care Unit without complications. Physical examination revealed a well-appearing preterm infant with stable vital signs on room air, minimal intercostal retractions, and normal cardiovascular and abdominal findings. The documented diagnosis was prematurity. The treatment plan included supportive care in the NICU with monitoring and brief oxygen supplementation. No additional interventions or complications were noted during the neonatal course.
+The patient is a male newborn admitted to the Neonatal Intensive Care Unit for management of prematurity at 34 and 4/7 weeks gestational age. He was born via cesarean section after induction of labor due to fetal intolerance, with initial good tone and cry, and required two minutes of free-flow oxygen before stabilizing on room air. The infant exhibited minimal intercostal retractions but had no apnea, maintained stable vital signs, and had a normal newborn examination throughout admission. Relevant history includes maternal gestational diabetes managed with insulin and no known maternal infections. The documented diagnoses were prematurity (34 and 4/7 weeks) and hyperbilirubinemia of prematurity, which resolved after two days of phototherapy. Treatment included IV fluids transitioning to full oral feeds of breast milk enriched with Enfamil powder, phototherapy for hyperbilirubinemia, and initiation of elemental iron supplementation. No antibiotics were required, and all newborn screenings, including hearing and car seat tests, were normal. Discharge recommendations included continued enriched breast milk feeds, iron supplementation, delayed hepatitis B immunization until reaching 2 kg or two months of age, and follow-up with the primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns regarding their premature infant, specifically wanting reassurance and guidance on what to monitor. The parent reported minimal chest movements (intercostal retractions) since birth, with no episodes of fast breathing, pauses, or worsening during feeding, sleeping, or crying. Feeding has been normal, with no tiring, coughing, or color changes noted during feeds, and the baby appears alert and active when awake. There is no history of bluish or pale skin or lips, and the minimal chest movements have remained stable over time. The doctor assessed that these mild chest movements are common in premature infants due to ongoing lung and chest muscle development and found the overall clinical picture reassuring given stable symptoms and normal activity. The doctor advised gentle monitoring at home, emphasizing the importance of watching for increased work of breathing, color changes, or feeding difficulties and seeking prompt medical attention if these occur. Specific recommendations for safe sleep were provided: placing the baby on their back on a firm mattress with no loose bedding, keeping the sleep area smoke-free, and avoiding overheating. No specific intervention was needed for the mild chest movements other than continued observation.
+The patient is a parent concerned about their premature infant, specifically regarding minimal chest movements observed since birth. The infant exhibits mild intercostal retractions but no episodes of tachypnea, apnea, feeding difficulties, or color changes such as cyanosis or pallor. The baby remains alert, responsive, and feeds well, with no worsening of symptoms over time. There is no relevant past medical history, medication use, or allergies documented.
+
+The clinical impression is that the minimal chest movements are likely related to normal respiratory effort in a premature infant with maturing lungs and are not currently cause for alarm. The doctor advised continued gentle monitoring at home for any new or worsening symptoms, such as increased work of breathing, feeding problems, or color changes. Specific recommendations included practicing safe sleep (placing the baby on their back on a firm mattress without loose bedding) and maintaining a smoke-free environment to reduce SIDS risk. No additional interventions were deemed necessary at this time, and the parent was encouraged to seek medical attention if concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.528
+- **Model Used**: general
+- **Text1 Length**: 183 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

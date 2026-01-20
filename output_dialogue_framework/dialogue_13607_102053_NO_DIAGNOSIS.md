@@ -87,16 +87,21 @@ Does that sound clear to you, or is there anything else about the rash that’s 
 
 ## EHR Summary
 
-The patient is a 68-year-old male presenting with substernal chest pain and a history of coronary artery disease, hypertension, and prior cardiac catheterization. He reported chest pain and had a positive stress test; prior catheterization showed 50–55% stenosis of the left main and 80% of the LAD, with additional 60% RCA occlusion noted on review. His medications included atenolol, aspirin, and lipitor, and he has a sulfa allergy. Echocardiogram showed preserved ejection fraction. The documented diagnosis was coronary artery disease, for which he underwent coronary artery bypass grafting (CABG) times four. Postoperatively, he developed atrial fibrillation and a light rash; he was treated with Lopressor, Amiodarone, magnesium, and Benadryl. The patient’s physical examination remained benign, and his rash was stable at last note.
+The patient is a 68-year-old male presenting with substernal chest pain and a history of coronary artery disease, hypertension, and prior cardiac catheterization. He was found to have significant coronary artery stenoses (50–55% left main, 80% LAD, 60% RCA) and a positive stress test. His past medical history includes hypertension, coronary artery disease, and salivary gland removal; medications on admission included atenolol, aspirin, and Lipitor, with a documented allergy to sulfa drugs. The clinical diagnosis was coronary artery disease, for which he underwent a four-vessel coronary artery bypass graft (CABG). Postoperatively, he developed atrial fibrillation managed with Lopressor and Amiodarone, and a rash treated with Benadryl, Zyrtec, and topical steroids per dermatology recommendations. He also had an elevated white count and sputum cultures positive for Serratia, managed with antibiotics including Ancef and briefly Augmentin (later discontinued due to suspected allergic reaction). Infectious Disease was consulted; blood and urine cultures were obtained, and C. difficile testing was negative. The patient’s wound remained stable, he ambulated well, and his ICU course was otherwise uneventful.
+
 
 ## Dialogue Summary
 
-The patient presented with an itchy patch on the skin as the chief complaint. The patient reported that the area has been present for a few days, has increased slightly in size, and is mostly an annoyance rather than disabling, with intermittent itching that is sometimes distracting. The affected area is about the size of a quarter on the upper arm, has a rash with peeling or flaking of the top skin layer, but no pain, warmth, swelling, or clear triggers; friction from clothing is minimal. The patient tried regular lotion without improvement or worsening. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted a small, itchy, peeling rash without signs of infection and suggested possible mild eczema, contact dermatitis, or irritation from dryness or friction. The doctor recommended using a gentle, fragrance-free moisturizer regularly and avoiding scratching, with instructions to monitor for worsening or signs of infection. The patient understood and agreed with the plan.
+The patient is an adult presenting with an itchy patch on the upper arm as the chief complaint. The affected area has been present for several days, has increased slightly in size, and is described as a rash with peeling or flaking skin; the itching is distracting but does not interfere with daily activities. There is no associated pain, warmth, swelling, or identified triggers, and the area is approximately the size of a quarter. The patient has tried regular lotion without improvement or worsening of symptoms. Relevant history of other medical conditions, medications, or allergies was not specified. The clinical impression was a benign skin condition, possibly mild eczema, contact dermatitis, or irritation from friction or dryness. The treatment plan includes using a gentle, fragrance-free moisturizer and avoiding scratching, with instructions to monitor for signs of infection or worsening symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.934
-- **Similarity Label**: N/A
+- **STS Score**: 0.328
+- **Model Used**: general
+- **Text1 Length**: 172 words
+- **Text2 Length**: 140 words
+
 
 ## Processing Information
 

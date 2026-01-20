@@ -87,16 +87,23 @@ In the meantime, if you start to feel worse—such as new chest pain, trouble br
 
 ## EHR Summary
 
-The patient is a 47-year-old male presenting with hypotension (systolic blood pressures in the 60s) associated with light-headedness and dizziness. He also reported vomiting, diarrhea, and decreased oral intake for several days prior to admission, with a history of heavy ethanol use (half a gallon of vodka per day for one week, last drink on the morning of admission). Relevant history includes HIV (long-term nonprogressor), hypertension, rheumatic fever, and status post cholecystectomy. On physical exam, he was monitored using the CIWA protocol for ethanol withdrawal, with CIWA scores in the high teens. Laboratory findings included hyponatremia (sodium 115, improved to 132), acute renal failure (creatinine 2.4, improved with fluids), macrocytic anemia (MCV >100), and positive blood cultures for gram positive cocci; urinalysis and chest x-ray were negative. The documented diagnoses were ethanol withdrawal, acute renal failure, hyponatremia, and macrocytic anemia likely secondary to ethanol toxicity. Treatment included titrated diazepam per CIWA protocol for withdrawal, intravenous fluids for renal failure and hyponatremia, and close monitoring.
+The patient is a 47-year-old male presenting with hypotension (systolic blood pressures in the 60s) associated with light-headedness and dizziness. He also reported vomiting, diarrhea, and decreased oral intake for several days, with a history of heavy ethanol use (half a gallon of vodka daily for one week prior to admission) and last drink on the morning of admission. Relevant history includes HIV (long-term nonprogressor), hypertension, rheumatic fever, and prior cholecystectomy. On admission, he was found to have hyponatremia (sodium 115), acute renal failure (creatinine 2.4), and macrocytic anemia, all of which improved with supportive care. Blood cultures were initially positive for coagulase-negative staphylococcus (likely contaminant), and he was treated briefly with vancomycin. The documented diagnosis was alcohol withdrawal. Treatment included CIWA protocol with diazepam titration, transition to outpatient Klonopin, IV fluids for renal failure and hyponatremia, folate and thiamine supplementation, and discharge medications including multivitamins, nicotine patch, propranolol, venlafaxine, Tylenol as needed, and Klonopin. He was discharged home in stable condition with instructions to follow up with his primary care physician and participate in rehab post-detox.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns of feeling light-headed and having low blood pressure, with systolic readings in the 60s. Symptoms included sudden onset dizziness, especially upon standing, generalized weakness, reduced fluid intake, persistent vomiting and diarrhea, decreased urine output, and darker urine; the patient denied fainting or chest pain. The patient reported needing to stay lying down due to severe dizziness and shakiness when attempting to stand, with symptoms remaining unchanged since onset. Relevant history included recent vomiting and diarrhea leading to poor oral intake; no medication changes or other illnesses were mentioned. Clinical findings described by the patient included orthostatic dizziness, weakness, and signs of dehydration (low urine output, dark urine). The doctor assessed that the symptoms were most likely due to dehydration from ongoing vomiting and diarrhea, resulting in hypotension and orthostatic symptoms. The doctor recommended in-person evaluation at urgent care or an emergency department for assessment and possible IV fluids due to the severity of hypotension and inability to maintain oral hydration. The patient was also advised to seek immediate medical attention if symptoms worsened or new concerning signs developed.
+The patient is an adult presenting with concerns of light-headedness and persistently low blood pressure, with systolic readings in the 60s. Symptoms began suddenly within the past day and include dizziness (worsened by standing), generalized weakness, reduced urine output, and dark-colored urine. The patient reports ongoing vomiting and diarrhea with decreased fluid intake and inability to keep fluids down; no chest pain or fainting is reported. Symptoms have remained unchanged since onset, and the patient feels unable to safely stand or move around due to dizziness and shakiness.
+
+Relevant history includes recent gastrointestinal illness with associated fluid losses; no mention of chronic medical conditions, medications, or allergies. The clinical impression is dehydration secondary to ongoing vomiting and diarrhea, resulting in symptomatic hypotension. The doctor advised that, due to the severity of hypotension and inability to tolerate oral fluids, in-person evaluation at urgent care or an emergency department is warranted for assessment and possible intravenous fluid administration. The patient was also counseled to seek immediate medical attention if symptoms worsen or new concerning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.684
+- **Model Used**: general
+- **Text1 Length**: 177 words
+- **Text2 Length**: 174 words
+
 
 ## Processing Information
 

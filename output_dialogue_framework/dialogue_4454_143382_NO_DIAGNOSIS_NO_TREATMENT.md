@@ -87,16 +87,21 @@ For now, I’d recommend taking it easy, staying upright as much as possible, an
 
 ## EHR Summary
 
-The patient is a 73-year-old male presenting with suspected aspiration pneumonia. He was found by nursing home staff to be tachycardic (heart rate 120), tachypneic (respiratory rate 30–32), and hypoxic, requiring supplemental oxygen (five liters by face mask, O2 saturation 90–93%). His past medical history includes multi-infarct dementia (nonverbal at baseline), diabetes mellitus, hypertension, benign prostatic hypertrophy with chronic suprapubic catheter, recurrent urinary tract infections, multiple prior aspiration pneumonias, status post gastrojejunostomy tube, and sacral decubitus ulcers. On arrival to the Emergency Department, he was afebrile with elevated blood pressure (180/86) and improved oxygen saturation (99%) on a 100% nonrebreather mask. The clinical impression was likely aspiration pneumonia. He was treated with vancomycin, ceftriaxone, and metronidazole (Flagyl) and admitted to the medical intensive care unit for further management. No drug allergies were reported.
+The patient is a 73-year-old male presenting after a likely aspiration event with tachycardia, tachypnea (respiratory rate of 32), and decreased oxygen saturation requiring supplemental oxygen. On admission, he was afebrile but in mild respiratory distress, with rhonchorous breath sounds bilaterally and an oxygen saturation of 90-93% on five liters by face mask, improving to 97% on a nonrebreather. His past medical history includes multi-infarct dementia (nonverbal at baseline), multiple prior aspiration pneumonias, diabetes mellitus, hypertension, benign prostatic hypertrophy with chronic suprapubic catheter, and a history of recurrent urinary tract infections. The documented diagnosis was aspiration pneumonia. He was treated initially with vancomycin, ceftriaxone, and metronidazole, then transitioned to levofloxacin for three days and continued on ceftriaxone to complete a ten-day antibiotic course. Additional management included metoprolol for hypertension, hypotonic fluids for hypernatremia, and adjustment of tube feeds and free water boluses to reduce aspiration risk. The patient was discharged in stable condition back to his nursing home with instructions to complete the antibiotic course and continue prior medications.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble breathing after feeling that something went down the wrong way. Symptoms included increased difficulty catching breath, needing to rest more often during daily activities, faster heart rate, quicker breathing even at rest, lower oxygen levels than usual, and dry mouth; these symptoms began immediately after the initial episode and have remained stable without improvement or worsening. The patient denied coughing, chest discomfort, lightheadedness, or leg swelling. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted persistent new breathing trouble and tachycardia following possible airway irritation or obstruction, with compensatory symptoms but no signs of heart attack or fluid overload. The doctor advised the patient to take it easy, remain upright, sip water if able, and monitor oxygen levels at home; urgent care was recommended if symptoms worsen or oxygen saturation drops below 92%. Warning signs such as worsening shortness of breath, bluish lips or fingers, severe difficulty speaking, or confusion were specifically highlighted as reasons to seek immediate medical attention.
+The patient is an adult presenting with acute onset shortness of breath and tachycardia following an episode of suspected aspiration ("something went down the wrong way"). The patient reports increased work of breathing, requiring frequent rest even with minimal activity, a sensation of dry mouth, and self-reported lower oxygen levels; symptoms began immediately after the aspiration event and have remained stable without improvement or worsening. There is no associated cough, chest discomfort, lightheadedness, or peripheral edema. The patient denies any prior similar episodes. The clinical impression is likely airway irritation or partial obstruction due to aspiration, with compensatory tachypnea and tachycardia; cardiac causes such as myocardial infarction or fluid overload are considered less likely given the absence of chest pain or edema. The treatment plan includes conservative management: rest, maintaining an upright position, sipping water as tolerated, and monitoring oxygen saturation at home. The patient is advised to seek urgent care if symptoms worsen or if oxygen saturation drops below 92%, or if warning signs such as cyanosis or severe dyspnea develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.615
+- **Model Used**: general
+- **Text1 Length**: 169 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

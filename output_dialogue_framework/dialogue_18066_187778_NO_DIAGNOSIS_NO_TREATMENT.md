@@ -83,16 +83,21 @@ Has the weakness been getting any better, worse, or has it stayed exactly the sa
 
 ## EHR Summary
 
-The patient is a 73-year-old female presenting with a thirty-minute seizure. She has a history of right frontal glioblastoma, previously resected and treated with chemotherapy and radiation, with recent tumor progression. On admission, she was intubated and monitored in the neurosurgical ICU, with head CT showing increased edema and mass effect from recurrent glioblastoma. She exhibited mild residual left-sided weakness but was otherwise awake, responsive, and denied pain. Laboratory results included a white blood cell count of 6.1, hematocrit 28.5, platelets 116, and a low Dilantin level of 1.4. The documented diagnosis was recurrent right frontal glioblastoma with seizure. Treatment included stabilization, monitoring, and right frontal craniotomy for tumor excision without intraoperative complications. Postoperatively, her vital signs remained stable.
+The patient is a 73-year-old woman presenting with a thirty-minute seizure. She has a history of right frontal glioblastoma multiforme (GBM) previously resected, with recent tumor progression and associated increased edema and mass effect on imaging. On admission, she was intubated and monitored in the neurosurgical ICU, later extubated without further seizures, and noted to have mild residual left-sided weakness and mild left facial droop. Her past medical history includes osteoporosis and hypertension. The documented diagnosis is recurrent right frontal GBM with seizure. She underwent right frontal craniotomy with excision of the recurrent tumor and Gliadel wafer implantation, without intraoperative complications. Postoperatively, she remained neurologically stable and was started on Decadron, Dilantin, levetiracetam, and supportive medications. She was discharged in stable condition with plans for rehabilitation and follow-up in the brain clinic in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with a recent seizure as the chief complaint. They reported experiencing mild, persistent weakness on the left side since the seizure, which began a few days ago while sitting at home and has not changed in severity throughout the day. The patient denied any new headaches, numbness, changes in sensation, speech, vision, balance, confusion, memory problems, or difficulty finding words. The weakness has not improved or worsened and has made daily tasks slightly slower but still manageable. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted seizure followed by persistent mild left-sided weakness without other neurological symptoms and discussed the possibility of Todd’s paralysis versus other causes such as a small stroke. The doctor emphasized the importance of further evaluation since the weakness has not resolved. Specific recommendations for further evaluation or treatment were not detailed in this conversation.
+The patient is an adult presenting with a recent seizure as the chief complaint. The seizure occurred a few days ago while the patient was sitting at home, with no preceding unusual activity. Since the episode, the patient has experienced persistent mild weakness on the left side, which has remained stable and does not fluctuate throughout the day. There are no associated symptoms such as headaches, numbness, changes in sensation, speech or vision disturbances, balance issues, confusion, or memory problems. The weakness mildly impacts daily activities but does not prevent self-care or mobility. The clinical impression discussed was possible Todd’s paralysis versus other neurological causes such as a small stroke, given the persistent nature of the weakness. The physician advised that further evaluation may be necessary to rule out other causes since the weakness has not improved. No specific treatment or medication was documented in this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.932
-- **Similarity Label**: N/A
+- **STS Score**: 0.458
+- **Model Used**: general
+- **Text1 Length**: 135 words
+- **Text2 Length**: 147 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ If anything new comes up—like mild symptoms, changes in energy, or anything ou
 
 ## EHR Summary
 
-The patient is a 72-year-old male presenting with progressive exertional chest discomfort and shortness of breath. Symptoms have worsened recently, with dyspnea occurring after walking approximately one-half block and severe shortness of breath and fatigue during a stress test, which was stopped after 3 minutes 30 seconds; chest discomfort was also noted at that time. Relevant history includes prior myocardial infarction in 2121, coronary artery disease status post stenting, type 2 diabetes, and hyperlipidemia. A recent MIBI scan showed a moderate lateral wall and apical reversible defect and a fixed inferior defect, with a left ventricular ejection fraction of approximately 54%. Cardiac catheterization revealed three vessel coronary artery disease with mild systolic and moderate diastolic ventricular dysfunction. The documented clinical impression is three vessel coronary artery disease with ventricular dysfunction. The patient was referred to Cardiac Surgery for evaluation of possible surgical intervention.
+The patient is a 72-year-old male presenting with progressive exertional chest discomfort and shortness of breath, worsening to the point of dyspnea after walking half a block. Symptoms included severe shortness of breath and fatigue during a stress test, as well as chest discomfort, but no claudication, orthopnea, edema, paroxysmal nocturnal dyspnea, or lightheadedness. Relevant history includes coronary artery disease status post stenting, prior myocardial infarction (2121), diabetes mellitus type 2, and hyperlipidemia; there are no known drug allergies. Cardiac catheterization revealed three vessel coronary artery disease with mild systolic and moderate diastolic ventricular dysfunction. The documented diagnosis was three vessel coronary artery disease status post coronary artery bypass grafting x 3, diabetes mellitus type 2, and hyperlipidemia. The patient underwent successful coronary artery bypass grafting (CABG) x 3 without complications and was managed postoperatively with insulin optimization, amiodarone, Lopressor, and aspirin. He experienced brief episodes of atrial fibrillation postoperatively but remained in sinus rhythm at discharge. Discharge medications included Lantus and aspirin, and the patient was referred to a rehabilitation facility in good condition.
+
 
 ## Dialogue Summary
 
-The patient presented with no specific complaints and reported feeling well overall. They denied any recent changes in energy, sleep, appetite, or mood, and stated they have been able to keep up with usual activities and routines without difficulty. The patient also denied recent symptoms such as cough, sore throat, headaches, fever, balance or walking issues, palpitations, chest discomfort, shortness of breath, or swelling in the legs or ankles. No relevant medical history, medications, or allergies were mentioned during the visit. The doctor noted that the patient appeared to be in good health with no current symptoms or functional changes. The assessment was that the patient is in overall good health without concerning symptoms at this time. The doctor recommended scheduling a general wellness visit soon for preventive care, including blood pressure checks, vaccinations, and age-appropriate screenings. The patient was advised to reach out if any new symptoms or changes arise and to continue current routines.
+The patient presented without any specific chief complaint and reported no current symptoms. They denied changes in energy, sleep, appetite, or mood, and have been able to maintain their usual activities and routines without difficulty. The patient also denied recent issues such as cough, sore throat, headaches, fever, balance problems, palpitations, chest discomfort, shortness of breath, or peripheral edema. No relevant medical history, medications, or allergies were specified in the dialogue. The clinical impression was that the patient is in good health overall with no current symptoms or functional changes. The treatment plan included a recommendation to schedule a general wellness visit for preventive care, including blood pressure checks, vaccinations, and age-appropriate screenings. The doctor advised the patient to monitor for any new symptoms and to reach out if concerns arise.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.933
-- **Similarity Label**: N/A
+- **STS Score**: 0.443
+- **Model Used**: general
+- **Text1 Length**: 175 words
+- **Text2 Length**: 131 words
+
 
 ## Processing Information
 

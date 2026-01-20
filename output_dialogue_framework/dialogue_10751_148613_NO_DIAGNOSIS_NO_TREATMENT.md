@@ -87,16 +87,23 @@ Would you like help understanding what might happen during your visit or how DKA
 
 ## EHR Summary
 
-The patient is a 27-year-old female presenting with diabetic ketoacidosis (DKA). She reported one week of elevated blood glucose, with readings over 600 mg/dL for the past 2–3 days despite increasing her insulin doses as instructed. Additional symptoms included vomiting, shortness of breath (noted to have cold-induced asthma), intermittent fever up to 101.9°F, chills, diarrhea for two days, polyuria, and nocturia. Her medical history includes type I and II diabetes mellitus with prior DKA episodes, chronic sinusitis, irritable bowel syndrome, GERD, depression, and asthma; she is allergic to E-Mycin. On examination in the ED, she was tachycardic (HR 128), hypertensive (BP 153/79), afebrile (T 99.2°F), and had a blood glucose of 953 mg/dL, anion gap metabolic acidosis (anion gap 20), positive urine ketones, and lactic acidosis (lactate 5.0). The documented diagnosis was DKA. She was treated with intravenous insulin and fluid hydration, resulting in improvement of glucose and anion gap within several hours.
+The patient is a 27-year-old woman presenting with diabetic ketoacidosis (DKA). She reported one week of elevated blood glucose, with levels over 600 mg/dL for 2–3 days, despite increasing her insulin doses as advised, along with vomiting, shortness of breath, intermittent fever up to 101.9°F, chills, diarrhea for two days, polyuria, and nocturia. Her medical history includes type I and II diabetes mellitus with prior DKA episodes, chronic sinusitis, irritable bowel syndrome, GERD, depression, and asthma; she is allergic to E-Mycin. On admission, she was tachycardic with a blood glucose of 953 mg/dL, anion gap metabolic acidosis, positive urine ketones, and lactic acidosis. The documented diagnoses were DKA and sinusitis. She was treated with intravenous insulin, aggressive IV fluid hydration with potassium supplementation, and later transitioned to subcutaneous insulin; antibiotics were continued for sinusitis. ENT was consulted for persistent sinus symptoms, but the antibiotic regimen was not finalized before discharge. The patient eloped from the hospital before further care, education, or follow-up could be arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about persistently high blood sugar, vomiting, and intermittent shortness of breath. Symptoms included elevated blood sugar for several days not responding to usual insulin, frequent vomiting with inability to keep fluids down, increased urination (including nocturia), diarrhea, chills, intermittent fever, and fatigue significantly interfering with daily activities. The patient denied chest pain, faintness, or fruity breath odor but reported occasional fast heartbeat associated with anxiety or vomiting. Relevant history includes diabetes managed with insulin; no medication allergies or other medical history were specified. The doctor noted the combination of uncontrolled hyperglycemia, vomiting, dehydration, and increased urination, raising concern for possible diabetic ketoacidosis (DKA). The assessment was that the patient’s symptoms could indicate DKA, a potentially serious complication requiring urgent evaluation. The doctor recommended seeking urgent medical attention for possible IV fluids and monitoring, advised sipping small amounts of water if possible, and instructed the patient to go to the emergency department immediately if symptoms worsened (e.g., confusion, severe abdominal pain, faintness). The patient expressed understanding and requested further explanation about DKA management.
+The patient is an adult presenting with persistently high blood sugar that is not responding to usual insulin therapy. Key symptoms include vomiting (with inability to keep fluids down), intermittent dyspnea (shortness of breath, especially after vomiting), increased urination (including nocturia), diarrhea, chills, and intermittent fever for the past several days. These symptoms have significantly interfered with daily activities and caused exhaustion. The patient denies chest pain or fainting but reports occasional tachycardia associated with anxiety or vomiting.
+
+The clinical impression documented by the doctor is concern for diabetic ketoacidosis (DKA) due to the combination of uncontrolled hyperglycemia, vomiting, dehydration, and increased urination. The treatment plan includes urgent medical evaluation, likely requiring intravenous fluids and close monitoring. The patient was advised to seek immediate care and to go to the emergency department if symptoms worsen (such as increased dyspnea, confusion, severe abdominal pain, or feeling faint). Supportive advice included attempting to sip small amounts of water but not delaying medical attention.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.977
-- **Similarity Label**: N/A
+- **STS Score**: 0.743
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

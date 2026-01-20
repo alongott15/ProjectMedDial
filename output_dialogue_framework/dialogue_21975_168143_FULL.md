@@ -89,16 +89,21 @@ Has the pain been getting any better or worse over these past few weeks?
 
 ## EHR Summary
 
-The patient is a 67-year-old male admitted for coronary artery bypass grafting (CABG) due to documented moderate inferior and reversible anterior wall defects on ETT, with an ejection fraction of 34%. He reported no discomfort or shortness of breath at admission. His medical history includes insulin-dependent diabetes, peripheral vascular disease, prior left CVA, hypertension, hypercholesterolemia, chronic renal insufficiency, and chronic bronchiectasis. On postoperative day 2, he developed atrial fibrillation, which was managed with IV and oral Amiodarone and beta blocker (Lopressor), resulting in rate control. Physical examination at discharge showed stable vital signs, afebrile status, clear chest, and regular heart rhythm. The documented diagnosis was coronary artery disease requiring CABG and postoperative atrial fibrillation. Treatment included CABG x3, management of atrial fibrillation with Amiodarone and beta blocker, and physical therapy for ambulation. The patient was discharged home in stable condition after demonstrating good functional recovery.
+The patient is a 67-year-old male admitted for coronary artery bypass grafting (CABG) due to documented coronary artery disease with moderate inferior and reversible anterior wall defects on prior ETT, and an ejection fraction of 34%. He reported no discomfort or shortness of breath at admission. His medical history includes insulin-dependent diabetes, peripheral vascular disease, hypertension, hypercholesterolemia, chronic renal insufficiency, chronic bronchiectasis, and prior left CVA. During his hospital course, he underwent CABG x3 (LIMA to LAD, saphenous vein to OM and ramus) and postoperatively developed atrial fibrillation, which was managed with Lopressor and Amiodarone. The patient recovered well, was able to ambulate over 500 feet and climb stairs, and had stable vital signs and renal function at discharge. The documented diagnosis was coronary artery disease status post CABG complicated by postoperative atrial fibrillation. Discharge medications included Lopressor, Lasix, Aspirin, NPH insulin, Amiodarone, Percocet as needed, and Colace. He was advised to follow up with his surgeon in 2–25 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with pain in both calves during walking, making mobility more difficult. The pain has been present for several weeks, comes on after walking a block or two, and resolves with rest; it does not occur when sitting or inactive. The patient denied numbness, tingling, or changes in color or temperature of the legs and feet. The pain has worsened over the past few weeks, impacting daily activities such as shopping and errands. Relevant history includes diabetes, high blood pressure, and known circulation problems in the legs. On assessment, the doctor identified the symptoms as claudication, likely due to worsening underlying circulation issues. The doctor advised monitoring for new symptoms such as pain at rest, non-healing wounds, or skin changes, and recommended continued management of diabetes and blood pressure, avoiding smoking, and engaging in gentle walking with rest as needed. Supervised exercise programs were also suggested as a possible way to improve symptoms over time.
+The patient is an adult presenting with pain in both calves during walking as the chief complaint. The pain has been present for several weeks, occurs after walking a short distance (about one to two blocks), and resolves with rest; it does not occur at rest and is not associated with numbness, tingling, or changes in leg color or temperature. The symptoms have worsened recently, impacting daily activities such as shopping and errands. Relevant history includes diabetes, hypertension, and known circulation problems in the legs. The clinical impression documented by the doctor is claudication, likely due to worsening peripheral arterial disease. The patient was advised to monitor for new symptoms such as rest pain, non-healing wounds, or skin changes, which would require urgent attention. The treatment plan includes continued management of diabetes and blood pressure, avoidance of smoking, gentle walking within tolerance, and consideration of supervised exercise programs.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.930
-- **Similarity Label**: N/A
+- **STS Score**: 0.405
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 148 words
+
 
 ## Processing Information
 

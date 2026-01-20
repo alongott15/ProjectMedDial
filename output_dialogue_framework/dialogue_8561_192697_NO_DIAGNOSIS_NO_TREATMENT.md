@@ -89,16 +89,21 @@ Let me know if you have questions or if any new symptoms develop—especially if
 
 ## EHR Summary
 
-The patient is a 56-year-old male admitted for high-dose methotrexate therapy. He reports weakness, mild nausea, and cervical pain, but denies fevers or chills. His medical history is notable for recently diagnosed high-grade lymphoma and cervical disc disease, with no known drug allergies and no medications on admission. On physical examination, he was afebrile with mild tachycardia (heart rate 100), blood pressure of 138/100, oxygen saturation of 96% on room air, and no palpable lymphadenopathy. The documented diagnosis is high-grade lymphoma, status post resection and initial chemotherapy (McGraft protocol). The treatment plan included administration of high-dose methotrexate as part of ongoing lymphoma management.
+The patient is a 56-year-old male admitted for high-dose methotrexate therapy for recently diagnosed lymphoma. He reported weakness, mild nausea, and cervical pain on admission, but denied fevers or chills. His past medical history includes cervical disc disease, and he had no known drug allergies or home medications. During hospitalization, he developed neutropenic fever, a subdural hematoma after a fall, and gastritis confirmed by endoscopy. The documented diagnoses were lymphoma, subdural hematoma, and gastritis. Treatment included high-dose methotrexate with leucovorin rescue, urine alkalinization for methotrexate clearance, antibiotics and antifungals for neutropenic fever, platelet transfusions for hematoma management, proton pump inhibitors and sucralfate for gastritis, and Remeron for sleep disorder and depressed mood. At discharge, he was prescribed lansoprazole, leucovorin, Remeron, potassium chloride, sucralfate, and Compazine as needed. The patient was discharged in good condition.
+
 
 ## Dialogue Summary
 
-The patient presented with weakness making daily activities difficult. Symptoms included intermittent weakness for a few days, nausea, dull neck pain without clear triggers, low-grade abdominal pain, fever with spiking temperatures, a painful blistering and red rash on the chest (described as resembling zoster), trouble sleeping, and feeling down. The patient denied chills and reported no prior history of shingles or similar rashes. On examination, the rash was localized to the chest with blisters and pain but little itching. The doctor assessed that the combination of symptoms and the pattern of the rash suggested shingles (herpes zoster), possibly triggered by stress or immune changes, with associated systemic symptoms. The doctor recommended keeping the rash area clean, avoiding scratching, considering early antiviral medication, using over-the-counter pain relievers and cool compresses for discomfort, and monitoring for warning signs such as confusion, vision changes, severe headache, or rash spreading to the face or eyes. Supportive care and rest were advised, with instructions to report any worsening symptoms, especially increased neck pain or new neurological signs.
+The patient is an Gordon-year-old individual presenting with generalized weakness as the chief complaint. Symptoms began a few days ago and include intermittent weakness, nausea, low-grade abdominal pain, a dull neck ache, fever with spiking temperatures, and a painful blistering rash with redness on the chest consistent with zoster (shingles); the patient denies chills but reports difficulty sleeping and feeling down. The rash is described as painful with blisters and redness, without significant itching, and is new for the patient who has no prior history of shingles. The symptoms are interfering with daily activities. Relevant history regarding chronic medical conditions, medications, or allergies is not specified. The clinical impression is shingles (herpes zoster), based on the characteristic rash and associated symptoms. The treatment plan includes keeping the rash area clean, avoiding scratching, considering early antiviral medication, using over-the-counter pain relievers and cool compresses for discomfort, and monitoring for warning signs such as confusion, vision changes, severe headache, or rash spreading to the face or eyes. Supportive care and rest were also recommended, with instructions to report any worsening symptoms, particularly increased neck pain or new neurological signs.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.934
-- **Similarity Label**: N/A
+- **STS Score**: 0.439
+- **Model Used**: general
+- **Text1 Length**: 134 words
+- **Text2 Length**: 187 words
+
 
 ## Processing Information
 

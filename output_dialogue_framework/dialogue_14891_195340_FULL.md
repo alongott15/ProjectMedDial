@@ -87,16 +87,21 @@ Let me know if you have any questions or if there’s anything else you’d like
 
 ## EHR Summary
 
-The patient is a 45-year-old male presenting with intermittent chest pain occurring both with exercise and at rest. Symptoms prompted evaluation by his pulmonologist, followed by referral to cardiology; a positive stress test and cardiac catheterization revealed three-vessel coronary artery disease with normal ejection fraction. Relevant history includes asthma, hypertension, and hypercholesterolemia, with no known allergies and a remote history of smoking. On admission, he was alert and in no acute distress; physical exam was unremarkable except for elevated blood pressure (146/82 mmHg) and oxygen saturation of 94% on room air. Laboratory values were within normal limits. The documented diagnosis was three-vessel coronary artery disease. The patient was transferred for and subsequently underwent coronary artery bypass grafting.
+The patient is a 45-year-old male presenting with intermittent chest pain occurring both with exercise and at rest. Symptoms prompted a positive stress test and cardiac catheterization, which revealed three-vessel coronary artery disease with normal ejection fraction. Relevant history includes asthma, hypertension, and hypercholesterolemia; the patient has no known allergies and quit smoking in 2161. The documented diagnosis was coronary artery disease status post coronary artery bypass grafting (CABG) times three, along with hypertension, hypercholesterolemia, and asthma. The patient underwent CABG with LIMA to LAD and saphenous vein grafts to the ramus and PDA2, tolerated the procedure well, and had an uncomplicated postoperative course. At discharge, he was stable with clear breath sounds, regular heart rhythm, and clean incisions. Discharge medications included antihypertensives, statins, asthma medications, aspirin, and short-term diuretics and pain control. Follow-up was arranged with his primary care physician in two weeks and cardiology in four to six weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent chest pain occurring both with activity and at rest. The pain has been present for a few days, is located centrally behind the breastbone, rates as a 6 out of 10 in intensity, and lasts several minutes per episode. The patient reported associated mild shortness of breath but denied sweating, lightheadedness, or increased asthma symptoms, and noted that nitroglycerin relieves the pain; eating and deep breaths do not affect it. Relevant history includes asthma and prior episodes of chest pain, though the current episodes are more frequent and prolonged. No wheezing or increased inhaler use was reported during these episodes. On assessment, the doctor noted that the pain’s characteristics and response to nitroglycerin could indicate a possible issue with the heart’s blood supply rather than asthma. The doctor recommended further evaluation to rule out cardiac causes, advised avoiding strenuous activity until assessment is complete, and instructed the patient to seek immediate care if symptoms worsen or new symptoms develop. The patient understood and agreed to follow these recommendations.
+The patient is an adult presenting with intermittent chest pain as the chief complaint. The pain is described as midline, substernal, rated 6/10 in intensity, lasting several minutes per episode, and occurring both with activity and at rest over the past few days. The pain is relieved by nitroglycerin and is not associated with sweating, lightheadedness, or increased asthma symptoms; mild dyspnea is noted but not clearly linked to asthma exacerbation. The patient has a history of asthma but reports no recent wheezing or increased inhaler use. The clinical impression is that the chest pain may be related to cardiac ischemia, given its characteristics and response to nitroglycerin, though no definitive diagnosis is documented. The treatment plan includes advising the patient to avoid strenuous activity until further evaluation and to seek immediate medical attention if symptoms worsen or new symptoms develop. The physician recommends further assessment to rule out underlying heart-related causes. No new medications or interventions were initiated during this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.472
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

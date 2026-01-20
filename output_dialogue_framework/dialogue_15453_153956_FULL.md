@@ -75,16 +75,21 @@
 
 ## EHR Summary
 
-The patient is a 48-year-old male presenting with upper gastrointestinal bleeding. He experienced multiple episodes of hematemesis, including two episodes at the airport following a recent hospital discharge for esophageal varices. His relevant history includes hepatocellular carcinoma, hepatitis C, cirrhosis, portal vein thrombosis, and prior esophageal variceal banding. On admission, his hematocrit was reported as 21, and he received a total of 4 units of packed red blood cells and 3 units of fresh frozen plasma during his hospital stay. Esophagogastroduodenoscopy revealed grade II mid-to-lower esophageal varices (not actively bleeding), small esophageal ulcers likely from prior sclerotherapy, and a small hiatal hernia; six additional bands were placed. The documented diagnosis was upper gastrointestinal bleeding secondary to esophageal varices. The treatment plan included blood transfusions, endoscopic variceal banding, and supportive care. After the procedure, the patient was hemodynamically stable and transferred to the medical floor.
+The patient is a 48-year-old male presenting with recurrent upper gastrointestinal bleeding. He experienced multiple episodes of hematemesis, including two episodes at the airport and one episode during hospitalization, with associated mild medial abdominal pain and heartburn but no nausea, vomiting, diarrhea, fevers, or chills. His medical history is significant for hepatocellular carcinoma, hepatitis C, cirrhosis, portal vein thrombosis, prior duodenal ulcer with perforation, and grade III esophageal varices previously treated with banding; he has no known drug allergies and was on multiple liver-related medications. On admission, he was found to be jaundiced with scleral icterus, abdominal distension and tenderness, and 2+ pitting edema in the lower extremities; laboratory studies showed anemia (hematocrit 27.3), elevated liver enzymes, and hyperbilirubinemia. Esophagogastroduodenoscopy revealed grade II esophageal varices (not actively bleeding) which were banded, small esophageal ulcers, and a hiatal hernia. The documented diagnosis was upper gastrointestinal bleeding secondary to esophageal varices in the setting of advanced liver disease. Treatment included transfusions of packed red blood cells and fresh frozen plasma, octreotide infusion for 72 hours, continued liver medications, and escalation of opioid analgesics for pain control. The patient was discharged in fair but guarded condition with hospice and palliative care involvement, a do not resuscitate order in place, and instructions for end-of-life planning.
+
 
 ## Dialogue Summary
 
-The patient presented with spitting up a blood clot accompanied by red fluid earlier today. They described the fluid as mostly blood rather than saliva or mucus and reported mild pain in the middle of the abdomen, which has occurred along with the bleeding; the pain typically lasts a few hours and is sometimes relieved by lying down. The patient stated that this type of bleeding has happened a few times before, though today’s episode was worse, and denied any black or tarry stools or changes in bowel movements. No nausea or vomiting was reported with these episodes. There was no mention of relevant medical history, medications, or allergies. On clinical questioning, the doctor noted the absence of gastrointestinal symptoms such as melena and the presence of mild mid-abdominal pain with recurrent episodes of hematemesis. The doctor’s assessment focused on characterizing the bleeding and abdominal pain to determine the possible source but did not state a specific diagnosis. No specific treatment plan or recommendations were provided during the conversation.
+The patient is an adult presenting with the chief complaint of coughing up a blood clot with red fluid earlier today. The patient describes the expectorated material as mostly blood rather than saliva or mucus, and reports associated mild, mid-abdominal pain that has occurred alongside the bleeding. The abdominal pain typically lasts a few hours and is sometimes relieved by lying down; there are no clear triggers. The patient has experienced similar bleeding episodes in the past, though today's episode was more pronounced. There is no history of black or tarry stools, changes in bowel movements, nausea, or vomiting. Relevant medical history, medications, allergies, and a documented diagnosis are not specified in the dialogue. No specific treatment or recommendations were documented during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.537
+- **Model Used**: general
+- **Text1 Length**: 211 words
+- **Text2 Length**: 124 words
+
 
 ## Processing Information
 

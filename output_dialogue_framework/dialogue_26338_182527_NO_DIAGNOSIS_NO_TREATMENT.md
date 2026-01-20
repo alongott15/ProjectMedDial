@@ -87,16 +87,23 @@ For now, try to rest, stay hydrated, and avoid strenuous activity. Does that pla
 
 ## EHR Summary
 
-The patient is a 56-year-old woman presenting with a chief complaint of leg weakness progressing to arm weakness over one day. She also reported headache, nausea, and vomiting, and had taken four aspirin for the headache. Her history is significant for hypertension, menopause, and a fall down stairs one month prior with head bruising but no initial medical evaluation. On examination, she was hypertensive (160/79 mmHg), alert, and oriented, with right-sided deltoid, triceps, finger extensor, pronator drift, and knee flexion weakness; right toes were upgoing, and left pupil was nonreactive. CT imaging revealed a subacute and acute subdural hematoma with midline shift and minimal hydrocephalus. The documented diagnosis was chronic subdural hematoma. She underwent left frontal and parietal burr hole evacuation of the hematoma without complications. Postoperatively, she had a stable course with good radiographic evacuation of the hematoma and remained awake and alert.
+The patient is a 56-year-old woman presenting with a one-day history of leg weakness progressing to arm weakness, accompanied by headache, nausea, and vomiting. She reported taking four aspirin for her headache and had a history of a fall with head injury one month prior. Her past medical history includes hypertension and menopause, and she is taking Prempro, Univasc, and aspirin as needed; she has no known drug allergies. On examination, she exhibited right-sided motor weakness and abnormal pupillary findings. CT imaging revealed a subacute and acute subdural hematoma with midline shift and minimal hydrocephalus. The documented diagnosis was subdural hematoma. She underwent left frontal and parietal burr hole evacuation of the hematoma without complications. Postoperatively, her neurological status improved, and she was discharged home on Percocet as needed for headache, with instructions for follow-up in two weeks and a repeat head CT.
+
 
 ## Dialogue Summary
 
-The patient presented with weakness in the legs as the chief complaint. The weakness began a few days ago, has gradually worsened, and is now affecting daily activities such as walking and climbing stairs; the patient also reports getting tired more quickly. There is milder weakness in the arms that started after the legs, but no numbness, tingling, or balance problems. The patient additionally reported headaches, nausea, and vomiting, but denied fever, cough, vision changes, trouble speaking, or swallowing difficulties. No relevant medical history, medications, or allergies were mentioned. The doctor noted the absence of sensory changes and balance issues, and assessed that the symptoms could be due to viral infection, dehydration, changes in activity level, stress, or other causes, but recommended further evaluation due to worsening symptoms. The treatment plan includes a physical exam and basic blood tests to rule out electrolyte imbalances or thyroid issues, advice to rest and stay hydrated, and instructions to seek urgent care if new warning symptoms develop. The patient was advised to mention vomiting during the upcoming exam.
+The patient is an adult presenting with the chief complaint of leg weakness. The weakness began a few days ago, has gradually worsened, and now affects both legs and, to a lesser extent, the arms; it is associated with increased fatigue during activities such as walking and climbing stairs. The patient denies numbness, tingling, balance problems, fever, cough, vision changes, speech or swallowing difficulties, but reports accompanying headaches, nausea, and vomiting. No relevant past medical history, medications, or allergies were documented in the dialogue.
+
+The clinical impression is nonspecific limb weakness with associated constitutional symptoms, with possible causes including viral infection, dehydration, electrolyte imbalance, thyroid dysfunction, or stress. The physician recommended further evaluation with a physical exam and basic blood tests to investigate potential underlying causes. The patient was advised to rest, stay hydrated, avoid strenuous activity, and monitor for new or worsening symptoms such as difficulty speaking, swallowing, severe headache, vision changes, or trouble breathing. No specific diagnosis or medication was documented at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.430
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

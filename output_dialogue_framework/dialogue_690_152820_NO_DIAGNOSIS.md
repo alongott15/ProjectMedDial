@@ -95,16 +95,23 @@ Let me know if you have any questions or concerns about what to watch for, or if
 
 ## EHR Summary
 
-The patient is a 72-year-old male presenting with a chief complaint of pain on swallowing (odynophagia) and dysphagia for both solids and liquids for three weeks. Symptoms were accompanied by increased hoarseness and secretions over the past three days, as well as an episode of choking the night before admission. He has a history of esophageal ring, noninsulin dependent diabetes mellitus with neuropathy, chronic renal insufficiency, coronary artery disease, peripheral vascular disease, hyperlipidemia, bilateral cataracts, and hiatal hernia; he also underwent right lower molar extraction one week prior. On physical examination, he was alert and oriented, with stable vital signs; notable findings included slight erythema and ecchymosis in the right oropharynx and slight cervical adenopathy. The clinical impression is not explicitly documented in the note. Treatment details or specific recommendations are not provided in the available text.
+The patient is a 72-year-old male presenting with a three-week history of odynophagia (pain on swallowing), dysphagia for solids and liquids, and increased hoarseness, with worsening secretions and an episode of choking in the days prior to admission. Symptoms were accompanied by slight erythema and ecchymosis in the right oropharynx, swelling at the base of the tongue, marked edema of the false cords and arytenoids, and a narrowed airway on examination. Relevant history includes noninsulin dependent diabetes mellitus with neuropathy, chronic renal insufficiency, coronary artery disease, peripheral vascular disease, hyperlipidemia, bilateral cataracts, esophageal ring, and hiatal hernia; he is allergic to codeine and morphine sulfate. The documented diagnosis was supraglottitis. Treatment included intravenous Decadron, clindamycin, levofloxacin, NPO status initially, ICU monitoring, and later transition to oral intake as swelling improved. At discharge, the patient was stable, tolerating a regular diet, and prescribed a 14-day course of clindamycin with instructions to follow up in 2–3 days. Pain management included Percocet and Tylenol as needed.
+
 
 ## Dialogue Summary
 
-The patient presented with pain when swallowing that has been worsening over several days. Symptoms include a soreness in the throat rated at 7/10 intensity, affecting swallowing of both solids and liquids, occasional sensation of food and liquids getting stuck, increased hoarseness, and slightly increased secretions; eating, drinking, and talking worsen symptoms, while resting the voice provides partial relief. The patient denied fever or cough and reported sometimes avoiding eating or drinking due to discomfort. No relevant medical history, medications, or allergies were mentioned. On examination, the patient described the soreness as localized to the throat, with no higher or lower chest involvement, and noted that swallowing is painful but still possible. The doctor assessed these symptoms as likely due to irritation or inflammation in the throat, possibly involving the vocal cords, with common causes including viral infection, acid reflux, or voice overuse; more serious infection was considered less likely due to absence of fever or cough. The doctor recommended self-care measures: resting the voice, sipping cool or warm fluids, eating soft foods, staying hydrated, and avoiding irritants; monitoring for worsening symptoms such as inability to swallow, choking, or difficulty breathing was advised. A follow-up was suggested if symptoms do not improve within a week or if they worsen.
+The patient is an adult presenting with painful swallowing (odynophagia) as the chief complaint. Symptoms include throat soreness rated 7/10 in intensity, worsened by eating, drinking, and talking, with associated hoarseness and occasional sensation of food or liquids getting stuck; these symptoms have been progressively worsening over several days. The patient denies fever or cough but reports increased secretions and sometimes avoids eating or drinking due to discomfort. Relevant history, medications, and allergies are not specified.
+
+The clinical impression is irritation or inflammation of the throat, possibly involving the vocal cords or nearby structures, likely due to common causes such as viral infection, acid reflux, or voice overuse. The patient was advised to rest their voice, stay hydrated, avoid irritants (such as spicy foods or very hot drinks), and consume soft foods. The doctor recommended monitoring for worsening symptoms such as inability to swallow, drooling, significant weight loss, or difficulty breathing, and to seek prompt care if these occur. A follow-up was suggested if symptoms do not improve within a week or if they worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.969
-- **Similarity Label**: N/A
+- **STS Score**: 0.697
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

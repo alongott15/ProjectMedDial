@@ -87,16 +87,21 @@ If you have any new or worsening symptoms, let me know right away. Does that mak
 
 ## EHR Summary
 
-The patient is a 67-year-old man presenting with a two-day history of cough and one day of nausea and vomiting, without sputum production. He also reported feeling hot and experiencing diaphoresis, with no hematemesis, hemoptysis, diarrhea, gastrointestinal bleeding, or abdominal pain. His past medical history includes coronary artery disease (status post myocardial infarction and coronary artery bypass graft), peripheral vascular disease with bilateral above-knee amputation, chronic renal insufficiency, diabetes mellitus type II, abdominal aortic aneurysm, ischemic bowel, and ischemic colitis. On evaluation at an outside hospital, he was found to have elevated creatinine (2.1), hyperkalemia (potassium 6.2), increased amylase (188) and lipase (368), and troponin I of 0.9; he became hypotensive and tachycardic, requiring Dopamine. Chest x-ray was clear and ECG showed no changes. The documented diagnosis was pancreatitis with acute on chronic renal failure and hyperkalemia. Treatment included Dopamine for hypotension and transfer for further management.
+The patient is a 67-year-old man presenting with a two-day history of cough and one day of nausea and vomiting, accompanied by subjective fever and diaphoresis. He denied abdominal pain, dysuria, gastrointestinal bleeding, or respiratory distress, and reported only one episode of vomiting after breakfast. His past medical history is significant for coronary artery disease, peripheral vascular disease with bilateral above-knee amputation, chronic renal insufficiency, diabetes mellitus type II, and abdominal aortic aneurysm. On admission, laboratory findings included elevated creatinine (2.9), hyperkalemia (potassium 6.2), and increased amylase (188) and lipase (368); he also developed hypotension and tachycardia requiring dopamine support. The documented diagnoses were pancreatitis, hypotension, chronic renal insufficiency, acute renal failure, and diabetes mellitus. Treatment included intravenous fluids for hypotension, supportive care for pancreatitis, and monitoring of renal function; his laboratory values improved during hospitalization. He was discharged in stable condition with instructions to follow up in one week and to continue his home medications.
+
 
 ## Dialogue Summary
 
-The patient presented with a cough as the chief complaint. Symptoms included a cough of a few days’ duration without significant change, nausea preceding episodes of vomiting (two or three times), increased sweating, feeling hotter than usual, and intermittent lightheadedness; these symptoms have made daily activities more difficult and required increased rest. The patient denied chills but reported sweating and lightheadedness, and noted a history of pancreatitis. No physical examination findings were described in the conversation. The doctor assessed that the combination of cough, nausea, vomiting, sweating, feeling hot, and lightheadedness could most commonly be due to a viral infection or possibly gastritis from repeated coughing and vomiting, while also considering the patient’s history of pancreatitis. The doctor recommended maintaining hydration with small sips of water or oral rehydration solution, monitoring for warning signs such as severe abdominal pain, confusion, persistent vomiting, or signs of dehydration, and seeking care promptly if these occur. Otherwise, rest and gentle foods were advised while symptoms resolve.
+The patient presents with a chief complaint of cough. The cough began a few days ago and has remained unchanged; associated symptoms include nausea (preceding vomiting), vomiting (two to three episodes, stable), increased sweating, subjective fever, and intermittent lightheadedness, all of which have impacted daily activities and required increased rest. The patient denies chills but reports significant sweating and feeling hotter than usual. There is a relevant history of pancreatitis. The clinical impression was that the symptoms are most likely due to a viral infection or possibly gastritis secondary to coughing and vomiting, with consideration given to the patient's history of pancreatitis. The treatment plan includes maintaining hydration with small sips of water or oral rehydration solution, monitoring for warning signs such as severe abdominal pain, persistent vomiting, or signs of dehydration, and seeking prompt care if these occur. The patient was advised to rest, consume gentle foods, and report any new or worsening symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.636
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 155 words
+
 
 ## Processing Information
 

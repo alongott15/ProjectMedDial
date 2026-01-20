@@ -85,16 +85,21 @@ Let me know if you have any allergies to medications or if you’ve tried anythi
 
 ## EHR Summary
 
-The patient is a 29-year-old female presenting with postoperative complications following a right dorsal foot exostectomy. She developed erythema, purulent drainage, and wound dehiscence one week after surgery, with subsequent fever (temperature up to 39.0°C) and leukocytosis (WBC 16.6). Her wound culture grew Staphylococcus aureus. She has no significant past medical history and no known drug allergies. On physical exam, she was in no apparent distress with a 6 by 4 cm ulcer on the right foot. The documented diagnosis was status post right dorsal foot exostectomy with postoperative cellulitis and dehiscence. Treatment included incision and drainage of the right foot wound with VAC placement, administration of Vancomycin and Clindamycin, and a parascapular fascia-cutaneous free flap with split-thickness skin graft to the right lower extremity wound. She was advised further management for her non-healing wound.
+The patient is a 29-year-old female presenting with postoperative cellulitis and wound dehiscence following a right dorsal foot exostectomy. She developed erythema, purulent drainage, and fever (temperature up to 39.0°C) one week after surgery, with a white blood cell count of 16.6 and later 14.8 on admission; cultures grew Staphylococcus aureus. Her past medical history is unremarkable, and she has no known drug allergies. The documented diagnosis was status post right dorsal foot exostectomy complicated by postoperative cellulitis and dehiscence. Treatment included intravenous antibiotics (initially Vancomycin and Clindamycin, then Oxacillin, and Ancef at discharge), incision and drainage with VAC placement, and subsequent parascapular fascia-cutaneous free flap with split-thickness skin grafting. She was also managed with leg elevation, immobilization, anticoagulation (Dextran, then heparin and aspirin), and pain control. At discharge, she was instructed to remain in bed with her leg elevated and to follow up with her physician.
+
 
 ## Dialogue Summary
 
-The patient presented with a non-healing open wound on the right lower leg that has become increasingly painful. Symptoms discussed included persistent pain, redness around the wound, pus drainage, worsening redness and drainage over several days, fever, difficulty walking, reduced toe movement, trouble with daily activities and sleep, and increased warmth and firmness around the wound. The patient reported that these symptoms have been present for at least several days and are interfering with normal routines and work. No relevant medical history, medications, or allergies were mentioned. On clinical questioning, the doctor noted signs of infection such as increasing redness, warmth, pus, pain, and fever, as well as functional impairment. The assessment was that the wound is likely infected, with bacterial involvement suggested by worsening symptoms and systemic signs. The doctor recommended proper wound care, keeping the area clean and covered, and advised that medical treatment such as antibiotics may be necessary. The patient was instructed to seek in-person evaluation soon, especially if symptoms worsen or systemic signs develop.
+The patient presents with a chief complaint of a non-healing, painful open wound on the right lower leg. Symptoms include persistent pain, increasing redness, warmth, firmness, pus drainage, and worsening over several days, accompanied by fever and difficulty walking or moving toes. The pain is significantly impacting daily activities, including mobility, sleep, and work. There is no documentation of relevant medical history, medications, or allergies in the dialogue. The clinical impression is a wound infection, as indicated by the presence of redness, warmth, pus, pain, and fever. The doctor recommends proper wound care (keeping the area clean and covered) and advises that medical treatment such as antibiotics may be necessary. The patient is instructed to seek in-person evaluation soon due to worsening symptoms and to watch for warning signs such as spreading redness, increasing pain, or feeling generally unwell.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.659
+- **Model Used**: general
+- **Text1 Length**: 147 words
+- **Text2 Length**: 139 words
+
 
 ## Processing Information
 

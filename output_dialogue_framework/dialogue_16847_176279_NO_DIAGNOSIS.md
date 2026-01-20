@@ -98,3 +98,23 @@ If you notice any new symptoms like chest pain, shortness of breath, worsening c
 ## Processing Information
 
 - **Processing Time**: 485.2s
+
+## EHR Summary
+
+The patient is a 40-year-old female presenting with a three-week history of sore throat, odynophagia, nasal congestion, productive cough, nausea, vomiting, and painful swelling of the left lower extremity. She was found to be in acute liver failure with markedly elevated transaminases and hyperbilirubinemia, as well as pancreatitis, attributed to acetaminophen toxicity on a background of chronic hepatitis C and HIV infection. Her hospital course was complicated by coagulopathy, thrombocytopenia, portal hypertension with ascites, GI bleeding from an esophageal ulcer, hepatic encephalopathy, left lower extremity cellulitis with a ruptured cystic structure, laryngeal candidiasis, and bullous impetigo. Past medical history includes HIV, hepatitis C, anemia, depression, and hypercholesterolemia; she has no known drug allergies. The documented diagnoses were acute on chronic liver failure secondary to acetaminophen ingestion, hepatitis C, HIV infection, left lower extremity cellulitis, esophageal ulcer, laryngeal candidiasis, anemia, thrombocytopenia, coagulopathy of undetermined etiology, and bullous impetigo. Treatment included intravenous N-acetylcysteine for liver failure, antibiotics (Unasyn then Augmentin) for cellulitis, fluconazole and nystatin for candidiasis, lactulose for encephalopathy, topical mupirocin for impetigo, diuretics and vitamin K for liver-related complications, and valaciclovir for esophageal ulcer. At discharge, she was improved and sent home with ongoing medications and follow-up arranged with hepatology and hematology clinics.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with acute left leg pain, swelling, and redness as the chief complaint. Symptoms began suddenly, with the pain rated 8 out of 10 in severity, worsened by standing or walking, and partially relieved by rest and leg elevation; the swelling and discomfort have progressively worsened and now significantly limit daily activities. The patient also reports new-onset confusion (difficulty concentrating, disorientation) and involuntary hand movements (shaking/flapping), both of which have been increasing in frequency and severity. No fevers or chills were noted, but the patient feels generally unwell.
+
+Relevant history, medications, and allergies were not specified. The clinical impression was that the constellation of unilateral leg symptoms and new neurological changes is concerning for a serious underlying condition such as infection or deep vein thrombosis, with possible systemic involvement. The physician recommended immediate medical evaluation at an urgent care or emergency department for further diagnostic workup and prompt treatment. Interim advice included keeping the leg elevated, minimizing activity, and seeking emergency care if new symptoms such as chest pain, shortness of breath, worsening confusion, or syncope develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.496
+- **Model Used**: general
+- **Text1 Length**: 203 words
+- **Text2 Length**: 182 words
+

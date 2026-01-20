@@ -87,16 +87,21 @@ Let me know if you have questions or if you'd like to discuss any medications or
 
 ## EHR Summary
 
-The patient is a 77-year-old man presenting with loss of consciousness and a fall, following a three-month history of dizziness. He was found to have an abnormal electrocardiogram but negative cardiac enzymes. His past medical history includes an upper respiratory infection, L1 compression fracture, cataract, and prior left inguinal hernia repair; he has no known drug allergies. On examination, he was hemodynamically stable with clear lungs and a regular heart rhythm. Cardiac catheterization revealed an ejection fraction of 55–60% and three-vessel coronary artery disease. The documented diagnosis was three-vessel coronary artery disease. He underwent a three-vessel coronary artery bypass graft (CABG) and recovered well postoperatively, with plans for rehabilitation. Medications included Lopressor, Zocor, aspirin, and others as listed.
+The patient is a 77-year-old man presenting with a three-month history of dizziness, who experienced loss of consciousness and a fall. He was admitted after an abnormal electrocardiogram; cardiac enzymes were negative. His past medical history includes upper respiratory infection, L1 compression fracture, cataract, and prior left inguinal hernia repair; there are no known drug allergies. Cardiac catheterization revealed three vessel disease with an ejection fraction of 55–60%. The documented diagnosis was status post three vessel coronary artery bypass graft. He underwent coronary artery bypass grafting (CABG) with LIMA to LAD and saphenous vein grafts to the diagonal and obtuse marginal arteries. Postoperatively, he recovered well, participated in physical therapy, and was discharged in good condition to rehabilitation. Discharge medications included metoprolol, lasix, KayCiel, aspirin, Percocet, Colace, Protonix, lactulose, and albuterol nebulizers.
+
 
 ## Dialogue Summary
 
-The patient presented with dizziness and a recent episode of loss of consciousness resulting in a fall. The dizziness is described as noticeable and strong enough to cause concern about falling, primarily occurring when standing up or changing positions, and resolving quickly with sitting or lying down; no blurred vision, chest discomfort, palpitations, or shortness of breath were reported. The episode of loss of consciousness was preceded by lightheadedness but not by sweating or weakness, and there were no lingering effects such as confusion or headache after the fall. The symptoms began a few days ago, with only one episode of syncope, and the patient remains able to perform most daily activities but is more cautious. Relevant history includes use of blood pressure medications, though specific agents were not named. On assessment, the doctor noted that the positional nature of symptoms and rapid improvement with rest suggest orthostatic hypotension as the likely cause. The doctor recommended staying well-hydrated, standing up slowly, removing tripping hazards, and reviewing blood pressure medications with a healthcare provider. The patient was advised to seek immediate care if new symptoms such as chest pain, palpitations, weakness, or trouble speaking develop, and to monitor symptoms while being cautious with movement.
+The patient is an adult presenting with dizziness and a recent episode of loss of consciousness resulting in a fall. The dizziness is described as noticeable and occurs primarily when standing up or changing positions, with rapid improvement upon sitting or lying down; it is severe enough to cause concern about falling again. The loss of consciousness was preceded by lightheadedness and has occurred only once, with no lingering confusion, headache, or weakness afterward. The symptoms began a few days ago and have not significantly limited daily activities, though the patient is now more cautious. Relevant history includes use of blood pressure medications, though specific agents are not listed. The clinical impression documented is orthostatic hypotension, likely related to positional changes and possibly medication effects. The treatment plan includes advice to stay well-hydrated, rise slowly from sitting or lying positions, remove tripping hazards at home, and review blood pressure medications with a doctor. The patient was also advised to seek immediate care if new symptoms such as chest pain, palpitations, unilateral weakness, or speech difficulties develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.398
+- **Model Used**: general
+- **Text1 Length**: 132 words
+- **Text2 Length**: 176 words
+
 
 ## Processing Information
 

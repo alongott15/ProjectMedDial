@@ -87,16 +87,21 @@ Let me know if you have questions or if anything else has changed with your symp
 
 ## EHR Summary
 
-The patient is a 77-year-old male presenting with chest discomfort. He reported a one-week history of sub-sternal chest pain, shortness of breath, nausea, and vomiting, with pain severe enough to awaken him from sleep on the day of admission. His medical history includes type 2 diabetes, hypertension, and asthma; he has no known drug allergies. On admission, physical exam revealed bilateral carotid bruits, distant heart sounds, and pitting edema in the extremities. Initial EKG showed ST depressions with positive cardiac enzymes, and cardiac catheterization demonstrated three-vessel coronary artery disease with significant stenoses (80% LM, 80% LAD, 50% LCx, 90% RCA). The documented diagnosis was multi-vessel coronary artery disease. He underwent coronary artery bypass grafting (CABGx4) as definitive treatment.
+The patient is a 77-year-old male presenting with chest discomfort. He reported a one-week history of sub-sternal chest pain, shortness of breath, nausea, and vomiting, with pain severe enough to awaken him from sleep; EKG showed ST depressions and positive cardiac enzymes. His medical history includes type 2 diabetes, hypertension, asthma, and chronic renal insufficiency, with no known drug allergies. Cardiac catheterization revealed three-vessel coronary artery disease with significant stenoses (80% LM, 80% LAD, 50% LCx, 90% RCA), and he underwent coronary artery bypass grafting (CABG x4) on hospital day 3. The hospital course was complicated by atrial fibrillation managed with amiodarone and beta-blockers, postoperative fluid overload requiring diuresis, and stable chronic renal insufficiency. The documented diagnoses at discharge were coronary artery disease, insulin-dependent diabetes mellitus, hypertension, asthma, and atrial fibrillation. Discharge medications included aspirin, atorvastatin, metoprolol, amiodarone, furosemide, allopurinol, pantoprazole, docusate sodium, hydrocodone-acetaminophen as needed, and fluticasone-salmeterol. He was discharged in good condition to an extended care facility with instructions for medication adherence, activity restrictions (no driving for 4 weeks, no lifting over 10 lbs for 3 months), wound care, and follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort. Symptoms included central chest pressure rated up to 7/10 in intensity, occurring both at rest and during activity, sometimes waking the patient from sleep, and persisting for several days with increased severity at night. Associated symptoms were shortness of breath (especially during episodes), nausea with occasional vomiting, increased fatigue during daily activities, and intermittent confusion; the patient denied sweating, lightheadedness, or wheezing. No relevant medical history, medications, or allergies were mentioned. The doctor noted the combination of chest pressure, shortness of breath, and nausea—particularly at rest and with vomiting—could be seen in conditions such as acid reflux or anxiety but may also indicate heart-related issues requiring caution. The doctor recommended contacting the patient's healthcare provider soon or seeking prompt medical attention to rule out serious causes. Additional advice included avoiding strenuous activity and monitoring for new symptoms such as severe chest pain, sweating, or worsening shortness of breath, which would require immediate attention.
+The patient presents with chest discomfort as the chief complaint. The discomfort is described as a central chest pressure, rated up to 7 out of 10 in intensity, occurring both at rest and during activity, and has persisted for several days with episodes waking the patient from sleep. Associated symptoms include shortness of breath, increased fatigue with daily activities, nausea, and occasional vomiting; the patient denies sweating, lightheadedness, or wheezing but reports intermittent confusion. Relevant medical history, medications, and allergies are not specified. The clinical impression discussed includes possible causes such as acid reflux or anxiety, but the provider emphasizes concern for potential heart-related issues given the symptom profile. No definitive diagnosis is documented. The treatment plan includes advising the patient to seek prompt medical attention to rule out serious causes, avoid strenuous activity, and monitor for worsening symptoms such as severe chest pain or increased shortness of breath. The patient is also advised to report new or changing symptoms, including confusion, to their healthcare provider.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.552
+- **Model Used**: general
+- **Text1 Length**: 184 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

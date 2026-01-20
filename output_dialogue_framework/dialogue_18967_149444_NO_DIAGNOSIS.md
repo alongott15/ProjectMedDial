@@ -85,16 +85,21 @@ Let me ask: have you ever had any similar symptoms in the past, or any known hea
 
 ## EHR Summary
 
-The patient is a 72-year-old female presenting with progressive chest discomfort and shortness of breath. She reports right-sided chest pressure occurring daily for the past two years, both at rest and with exertion, consistently relieved by sublingual nitroglycerin. She also experiences worsening dyspnea on exertion, now triggered by walking as little as thirty feet on a flat surface. Her medical history is significant for coronary artery disease with a totally occluded right coronary artery, a 50–60% left circumflex lesion, and bilateral carotid stenosis (70–79%). On physical exam, she was alert and oriented, with a 2/6 holosystolic murmur at the left sternal border and bilateral carotid bruits; lungs were clear and peripheral pulses were intact. Recent exercise treadmill testing showed mild fixed anterior septal defect without ischemia and an ejection fraction of 57%. The documented clinical impression is progressive angina and dyspnea likely secondary to underlying coronary artery disease. She continues on medical management and is scheduled for further carotid testing and radiology.
+The patient is a 72-year-old woman presenting with progressive chest discomfort and shortness of breath. Her chest discomfort, described as right-sided pressure, has been present for two years and now occurs daily at rest and with exertion, always relieved by sublingual nitroglycerin. She also reports worsening dyspnea on exertion, occurring with minimal activity such as walking thirty feet. Relevant history includes coronary artery disease, hypertension, hyperlipidemia, diabetes with neuropathy, carotid artery disease, and hypothyroidism. Cardiac catheterization revealed 50% left main coronary artery stenosis, 80% mid left circumflex stenosis, and a proximally occluded right coronary artery. The documented plan was to proceed with carotid endarterectomy (CEA) prior to coronary artery bypass grafting (CABG) as coordinated between cardiothoracic and vascular surgery teams. No new medications or additional treatments were specified in this note.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening chest discomfort, described as pressure on the right side of the chest, which has been increasing over several weeks. The discomfort is triggered by physical activity, rated as 6 out of 10 at its worst, and is accompanied by shortness of breath and increased fatigue, making daily activities more difficult; symptoms are relieved by rest and do not occur at rest. The patient denied associated symptoms such as cough, fever, or leg swelling. Relevant history includes coronary artery disease, hypertension, and diabetes; the patient reported no prior similar chest pressure episodes. On clinical review, the doctor noted exertional right-sided chest pressure and shortness of breath without signs of infection or fluid overload. The assessment was that the symptoms may be related to cardiac or pulmonary function, though right-sided pressure is less typical for heart-related issues. The doctor advised the patient to limit physical activity, monitor for changes such as new symptoms or worsening discomfort, and seek prompt evaluation if symptoms progress.
+The patient is an adult with a history of coronary artery disease, hypertension, and diabetes presenting with gradually worsening right-sided chest pressure as the chief complaint. The chest discomfort is described as a pressure (rated 6/10 at worst), primarily triggered by physical activity and relieved by rest, and has been present for several weeks. Associated symptoms include exertional shortness of breath and increased fatigue, with no cough, fever, or lower extremity swelling reported. The symptoms have significantly impacted the patient's ability to perform daily activities. There is no prior history of similar chest pressure. The clinical impression was that the exertional chest pressure and dyspnea could be related to cardiac or pulmonary causes, though right-sided pressure is less typical for heart-related issues; infection and fluid overload were considered less likely. The treatment plan included advising the patient to limit physical activity, monitor for any worsening or new symptoms (such as discomfort at rest, dizziness, or palpitations), and seek prompt evaluation if symptoms change. No new medications or diagnostic tests were initiated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.972
-- **Similarity Label**: N/A
+- **STS Score**: 0.671
+- **Model Used**: general
+- **Text1 Length**: 131 words
+- **Text2 Length**: 174 words
+
 
 ## Processing Information
 

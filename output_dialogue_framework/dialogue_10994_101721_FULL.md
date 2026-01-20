@@ -87,16 +87,21 @@ Let me know if you have any concerns about her behavior or if anything changes�
 
 ## EHR Summary
 
-The patient is a newborn female presenting after precipitous out-of-hospital delivery at 28 and 1/7 weeks gestation, weighing 1100 grams. She was described as active and breathing well at birth, with an Apgar score of 8 (time not specified), but appeared mildly hypotonic and had mild respiratory retractions on arrival to the NICU. The mother had no prenatal care, and prenatal screens after delivery were unremarkable. On exam, the infant was mildly hypothermic (rectal temperature 92.0°F), with heart rate 122, respiratory rate 55, blood pressure 59/27 (mean 38), and slightly delayed capillary refill. Physical findings included prominent molding, soft and flat anterior fontanelle, mobile sutures, intact palate, fair bilateral air entry, and no murmurs or abdominal abnormalities. The clinical impression was consistent with prematurity at 29 weeks gestation. The patient was admitted to the newborn intensive care unit for further management and monitoring.
+The patient is a newborn female, born at 28 weeks gestation with a birth weight of 1100 grams, presenting for management of prematurity. She was delivered precipitously at home without prenatal care and admitted to the NICU for evaluation and stabilization. On arrival, she was mildly hypotonic, with mild respiratory distress and hypothermia, but otherwise stable. Relevant history includes lack of prenatal care, maternal cocaine exposure, and no known allergies; initial labs and screens were largely unremarkable except for a positive maternal tox screen for cocaine. The clinical course was notable for respiratory distress syndrome requiring brief intubation and surfactant, a moderate patent ductus arteriosus treated with indomethacin, hyperbilirubinemia managed with phototherapy, and a left subependymal cyst on follow-up head ultrasound. The documented diagnoses include prematurity, respiratory distress syndrome, PDA, and hyperbilirubinemia. Treatment included respiratory support (intubation, surfactant, nasal cannula), indomethacin, phototherapy, iron and vitamin E supplementation, empiric antibiotics (ampicillin and gentamicin), and nutritional support with TPN and enteral feeds. At discharge, the infant was feeding well by mouth, gaining weight appropriately, and was discharged home in good condition with recommendations for continued iron supplementation and pediatric follow-up.
+
 
 ## Dialogue Summary
 
-The patient presented with concern for her child’s abdominal pain and discomfort. The child’s symptoms included sudden onset of cramping abdominal pain centered in the middle of the belly, decreased appetite (leaving most of her lunch untouched), and holding her belly, with no vomiting, diarrhea, fever, constipation, or changes in bowel movements. The pain was described as cramping rather than sharp or dull, and resting provided some relief while eating and movement did not affect the pain. The child had a normal stool today and no difficulty with bowel movements. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of alarming symptoms such as persistent vomiting, blood in stool, severe pain, or fever, and suggested the pain was likely due to a mild viral infection, gas, or temporary stomach upset. The doctor recommended supportive care with rest, small sips of fluids, and light foods as tolerated, and advised monitoring for new symptoms such as high fever, worsening pain, persistent vomiting, or lethargy, with instructions to seek care if these develop. The parent understood and agreed to monitor the child’s condition.
+The patient is a young child presenting with abdominal pain as the chief complaint. The pain is described as a cramping sensation centered in the middle of the abdomen, with sudden onset earlier in the day. Associated symptoms include decreased appetite, but there is no vomiting, diarrhea, fever, or changes in bowel movements; the child had a normal stool today. Resting provides some relief, while eating and movement do not affect the pain. There is no relevant past medical history, medications, or allergies documented. The clinical impression is that the abdominal pain is likely due to a mild viral infection, gas, or temporary stomach upset, given the absence of alarming symptoms. The treatment plan includes supportive care: rest, offering small sips of fluids, and allowing light foods as tolerated. Caregivers are advised to monitor for new or worsening symptoms such as high fever, persistent vomiting, severe pain, or lethargy, and to seek prompt care if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.931
-- **Similarity Label**: N/A
+- **STS Score**: 0.368
+- **Model Used**: general
+- **Text1 Length**: 188 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

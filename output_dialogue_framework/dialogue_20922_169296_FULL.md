@@ -97,16 +97,21 @@ Does that make sense? Is there anything specific you’re most concerned about o
 
 ## EHR Summary
 
-The patient is a 77-year-old female presenting with chest pain while on vacation. She has a history of coronary artery disease, insulin-dependent diabetes mellitus, hypothyroidism, hypercholesterolemia, congestive heart failure, and hypertension. Cardiac catheterization revealed significant coronary artery disease. Preoperative medications included Diovan, Lasix, Lipitor, insulin, Synthroid, fluoxetine, Epogen, Zestril, nitroglycerin patch, multivitamins, and iron supplements; she has no known drug allergies. On admission, she underwent coronary artery bypass grafting (CABG) with a saphenous vein graft to the left anterior descending artery. Postoperatively, she was initially supported with epinephrine, Neo-Synephrine, and Propofol infusions and transported to the ICU in stable condition. By postoperative day one, she was weaned off epinephrine with good cardiac indices and stable neurologic status. The documented diagnosis was significant coronary artery disease treated with CABG.
+The patient is a 77-year-old female presenting with chest pain while on vacation. She was found to have significant coronary artery disease on cardiac catheterization and subsequently underwent coronary artery bypass graft surgery. Her postoperative course was notable for delayed extubation due to inadequate cuff leak, an episode of rapid atrial fibrillation treated with Amiodarone and Lopressor, a diffuse maculopapular rash on her back diagnosed as contact dermatitis with miliaria, and a postoperative urinary tract infection with Enterobacter causing dysuria, frequency, and urgency. She also developed a left-sided pleural effusion requiring thoracentesis, after which her respiratory status improved and she no longer required supplemental oxygen. Relevant history includes insulin-dependent diabetes mellitus, hypothyroidism, hypercholesterolemia, hypertension, and prior congestive heart failure; she has no known drug allergies. The documented diagnoses were coronary artery disease status post coronary artery bypass graft, contact dermatitis with eosinophilia, insulin-dependent diabetes mellitus, and postoperative urinary tract infection. Treatment included coronary artery bypass grafting, Amiodarone and Lopressor for atrial fibrillation, Clobetasol and Benadryl for the rash, Levofloxacin for urinary tract infection, and routine postoperative medications; she was discharged home in stable condition with follow-up arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. They reported intermittent chest pain over the past few days, occasional mild difficulty breathing (especially after extubation), persistent noisy breathing described as stridor since extubation (unchanged in intensity and present most of the time), and a healing rash on the back with peeling skin and blisters but minimal discomfort or itching. The patient denied fever, chills, sweating, or lightheadedness, and noted new urinary symptoms including increased frequency and some discomfort. Relevant history includes recent extubation; no medications or allergies were mentioned. On clinical review, the doctor noted persistent stridor without voice changes or severe respiratory distress, and a healing rash with no significant pain. The assessment was mild post-extubation airway irritation causing stridor, resolving rash, and possible mild urinary tract irritation or infection. The doctor recommended monitoring for worsening symptoms (especially breathing difficulty or urinary pain), staying hydrated, gentle skin care for the rash, and seeking prompt medical attention if symptoms suddenly worsen.
+The patient presents with chest pain as the main complaint. The chest pain began a few days ago, is intermittent, and is accompanied by mild dyspnea, especially after recent extubation. The patient also reports persistent stridor since extubation (noticed immediately afterward, unchanged in intensity, present at rest and with activity), a healing rash on the back with peeling skin and blisters but minimal discomfort, and new urinary symptoms including increased frequency and mild discomfort. There is no history of fever, chills, or significant voice changes. Relevant history includes recent extubation and a resolving rash; no medication or allergy information is specified. The clinical impression is post-extubation stridor likely due to mild airway swelling or irritation, a healing rash, and possible mild urinary tract irritation or infection. The treatment plan includes monitoring for worsening symptoms, maintaining hydration, gentle skin care for the rash, and seeking prompt medical attention if severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.920
-- **Similarity Label**: N/A
+- **STS Score**: 0.510
+- **Model Used**: general
+- **Text1 Length**: 187 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ Let me know if you have any questions about what we've talked about or if you'd 
 
 ## EHR Summary
 
-The patient is a 70-year-old female presenting with progressive lower extremity weakness and increasing anginal symptoms. She reported worsening weakness in her legs and chest pain, with imaging revealing chronic white matter ischemic changes and possible new small lesion at the right semiovale. Her medical history includes insulin-dependent diabetes mellitus, coronary artery disease, Parkinson's disease, prior CVA, spinal stenosis, and subclavian steal syndrome. On admission, she was afebrile, in no acute distress, with stable vital signs, clear lungs, and a regular heart rhythm. Cardiac catheterization showed severe multivessel coronary artery disease (LAD 90% ostial lesion, LCX 90-95% lesion, RCA 80% lesion), moderate mitral insufficiency, and low to normal left ventricular ejection fraction. The documented diagnosis was multivessel coronary artery disease with symptomatic angina and mitral insufficiency. Admission medications included aspirin, Lopressor, nitroglycerin patches, Prevacid, Avapro, Norvasc, Plavix, and Lantus insulin with a sliding scale. Further management details are not specified in this note.
+The patient is a 70-year-old female presenting with progressive lower extremity weakness and increasing anginal symptoms. She reported worsening weakness in her legs and chest pain, with imaging revealing chronic white matter ischemic changes and possible new small lesion at the right semiovale. Carotid Dopplers showed obstructive disease, and echocardiogram demonstrated moderate mitral insufficiency. Her past medical history includes diabetes mellitus (insulin-dependent), coronary artery disease, Parkinson's disease, prior CVA, spinal stenosis, and subclavian steal syndrome. Cardiac catheterization revealed significant coronary artery disease (LAD 90% ostial lesion, LCX 90-95% lesion, RCA 80% lesion), low to normal left ventricular ejection fraction, and 3+ mitral insufficiency. The documented clinical impression was severe multivessel coronary artery disease with mitral insufficiency. Admission medications included aspirin, Lopressor, nitroglycerin patches, Prevacid, Avapro, Norvasc, Plavix, and Lantus insulin with a sliding scale. Treatment plan details beyond medication management are not specified in this note.
+
 
 ## Dialogue Summary
 
-The patient presented with progressive weakness in the legs, which has been worsening over time. The weakness is most noticeable during activities such as walking, getting up from a chair, and moving around the house, and has led to difficulty with grocery shopping, managing stairs, and household chores. The patient also reported chest tightness that occurs with activity and resolves quickly with rest, but denied any lightheadedness, shortness of breath, numbness, or tingling in the legs. No specific medical history, medications, or allergies were mentioned during the conversation. On assessment, the doctor noted that the symptoms—activity-induced leg weakness and chest tightness relieved by rest—may suggest angina due to possible reduced oxygen supply to the heart during exertion. The doctor recommended avoiding strenuous activities until further evaluation can be completed and advised seeking immediate medical attention if chest tightness occurs at rest, lasts longer than usual, or is accompanied by new symptoms such as shortness of breath, fainting, or pain radiating to the arm or jaw. The patient expressed understanding of the assessment and recommendations.
+The patient presents with progressive leg weakness and activity-induced chest tightness as the chief complaint. The leg weakness has worsened over time, making walking, rising from a chair, grocery shopping, and managing stairs increasingly difficult; there is no associated numbness or tingling. The chest discomfort is described as tightness that occurs with physical activity and resolves quickly with rest, without associated dyspnea or lightheadedness. These symptoms have been present and worsening over several weeks. Relevant history, medications, and allergies are not specified in the dialogue. The clinical impression documented by the doctor is angina, likely due to reduced oxygen supply to the heart during exertion. The patient was advised to avoid strenuous activities and seek immediate medical attention if chest tightness occurs at rest, lasts longer than usual, or is accompanied by new symptoms such as shortness of breath, fainting, or pain radiating to the arm or jaw. Further evaluation was recommended to assess the underlying cause of the symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.503
+- **Model Used**: general
+- **Text1 Length**: 146 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

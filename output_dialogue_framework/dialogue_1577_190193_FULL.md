@@ -87,16 +87,23 @@ In the meantime, try to avoid strenuous activity and monitor for any changes. Le
 
 ## EHR Summary
 
-The patient is a 52-year-old male presenting with chest pain of several weeks’ duration, without pain at rest. He reported increased symptoms prior to admission and had previously used sublingual nitroglycerin. His relevant history includes atrial fibrillation, hypertension, depression, and former tobacco use; home medications included Lopressor, Coumadin, and aspirin, with no known drug allergies. Cardiac catheterization revealed an ejection fraction of 67% and significant coronary artery stenoses (90% mid-LAD, 60% proximal circumflex, 60% OM2). The documented diagnosis was severe coronary artery disease. He underwent off-pump coronary artery bypass grafting (LIMA to LAD and saphenous vein graft to OM1) without complications. Postoperatively, he developed atrial fibrillation controlled with intravenous Lopressor and was noted to recover well with physical therapy and ambulation.
+The patient is a 52-year-old male presenting with several weeks of exertional chest pain, without chest pain at rest. His symptoms prompted a stress test showing diffuse ST depression, leading to further evaluation for possible coronary artery revascularization. Relevant history includes hypertension, paroxysmal atrial fibrillation (on Coumadin), depression, and former tobacco use; he has no known drug allergies. Cardiac catheterization revealed significant coronary artery disease with 90% mid-LAD stenosis and additional lesions. The documented diagnosis was coronary artery disease, status post off-pump coronary artery bypass graft times two. Postoperatively, he experienced atrial fibrillation controlled with intravenous Lopressor, Amiodarone, and diltiazem, converting to normal sinus rhythm by postoperative day two. He recovered well with physical therapy and was discharged home in stable condition on postoperative day four. Discharge medications included Lopressor, Lasix, KayCiel, aspirin, Plavix (with instructions to resume Coumadin after Plavix is discontinued), Amiodarone taper, Cardizem CD, Percocet, and Colace, with follow-up recommended with his cardiologist and primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with chest tightness and discomfort located in the middle of the chest. The pain was described as tight and uncomfortable (not sharp), rated 6 out of 10 in intensity, present for at least several days, and has gradually worsened to the point of interfering with daily activities. The tightness occurs even at rest, is not triggered by movement, eating, or position, but may be slightly worsened by stress; there is no associated shortness of breath, sweating, or lightheadedness. No specific medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of classic alarming symptoms but expressed concern due to the persistence and worsening of chest discomfort, emphasizing the need to rule out heart-related causes. The doctor advised the patient to seek immediate care if severe symptoms or new signs such as shortness of breath, nausea, or radiating pain develop. Otherwise, the patient was instructed to schedule a prompt appointment for further evaluation, avoid strenuous activity, and monitor for any changes.
+The patient presents with a chief complaint of gradually worsening chest tightness located in the center of the chest. The discomfort is described as tight and uncomfortable (not sharp), rated 6 out of 10 in intensity, present at rest as well as during activity, and has persisted for at least several days without a clear trigger. The pain has recently become more noticeable and is now interfering with daily activities; stress may exacerbate the symptoms, but eating or changing positions does not affect them. The patient denies associated symptoms such as shortness of breath, sweating, or lightheadedness.
+
+No specific diagnosis was documented, but the physician expressed concern for possible cardiac causes and emphasized the need to rule out heart-related conditions. The treatment plan included instructions to seek prompt medical care if symptoms become severe or if new symptoms such as shortness of breath, nausea, or radiating pain develop. The patient was advised to schedule a thorough evaluation soon, avoid strenuous activity, and monitor for any changes in symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.935
-- **Similarity Label**: N/A
+- **STS Score**: 0.491
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ If the discomfort doesn’t start to improve in the next few days or becomes mor
 
 ## EHR Summary
 
-The patient is a 72-year-old female presenting with sudden onset upper abdominal pain and limited emesis at home. She reported associated symptoms of nausea, vomiting, fever or chills, sweats, and diarrhea, with pain exacerbated by food ingestion and no relieving factors. Her relevant medical history includes coronary artery disease status post myocardial infarction, congestive heart failure, prior cerebrovascular accident with right-sided hemiparesis, chronic obstructive pulmonary disease, a history of H. pylori positive upper GI bleed, and possible chronic renal failure; she is allergic to Levaquin and penicillin (rash). Admitting medications included Lasix, Prevacid, lisinopril, Albuterol, Atrovent, Flovent, aspirin, Paxil, and Diltiazem. On physical exam at admission, her temperature was 98.1°F and she was afebrile without chills. The documented diagnosis was probable gallstone pancreatitis. Treatment details are not specified in the note.
+The patient is a 72-year-old female presenting with sudden onset upper abdominal pain and limited emesis at home, leading to hospital admission. She reported associated nausea, vomiting, fever or chills, sweats, and diarrhea, with pain exacerbated by food and no relieving factors. Her past medical history includes coronary artery disease with prior myocardial infarction and stent placement, congestive heart failure, cerebrovascular accident with right-sided hemiparesis, chronic obstructive pulmonary disease, a history of Helicobacter pylori positive GI bleed, and possible chronic renal failure; she is allergic to Levaquin and penicillin. On admission, laboratory findings showed leukocytosis, elevated amylase (571) and lipase (1,365), and mildly elevated creatinine; imaging revealed a moderately dilated gallbladder with sludge but no stones. The documented diagnosis was presumed gallstone pancreatitis, status post recent left carotid endarterectomy. She was treated with IV hydration, antibiotics (Flagyl and ceftriaxone), and underwent an uneventful laparoscopic cholecystectomy. Postoperatively, her symptoms and laboratory values improved, antibiotics were discontinued, and her diet was advanced. She was discharged home in stable condition with nursing care and follow-up arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with sudden pain in the right upper abdomen. The pain was described as dull and achy, rated at 6 out of 10 in severity, and began after a coughing spell; it has remained persistent without significant change in intensity or character. Associated symptoms included mild nausea, a bit of vomiting, decreased appetite, and recent sweats with mild fever or chills, but no jaundice, dark urine, or pale stools were reported. No specific triggers related to food or movement were identified. The doctor noted the absence of concerning signs such as jaundice or severe illness and assessed that the symptoms may be due to abdominal muscle strain following coughing, with mild nausea possibly secondary to discomfort. The doctor recommended monitoring symptoms closely, using gentle heat and avoiding heavy lifting or straining, and advised prompt medical attention if new symptoms such as persistent vomiting, severe tenderness, or jaundice develop. A follow-up evaluation was suggested if the discomfort does not improve or worsens over the next few days.
+The patient is an adult presenting with sudden onset right upper abdominal pain as the chief complaint. The pain is described as dull and achy, rated 6 out of 10 in severity, and began after a coughing spell; it has remained persistent without significant change in intensity or character. Associated symptoms include mild nausea, occasional vomiting, decreased appetite, and recent mild sweats and chills, but no jaundice, dark urine, or pale stools. There is no clear trigger related to food or movement. Relevant history of prior medical conditions, medications, or allergies is not specified. The clinical impression is that the symptoms are most likely due to abdominal wall muscle strain following coughing, with no current evidence of hepatobiliary involvement or severe illness. The treatment plan includes monitoring symptoms, using gentle heat for comfort, avoiding heavy lifting or straining, and seeking prompt medical attention if new symptoms such as fever, persistent vomiting, severe tenderness, or jaundice develop. Follow-up evaluation is advised if symptoms do not improve or worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.521
+- **Model Used**: general
+- **Text1 Length**: 173 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ Let me ask—does anything in particular seem to make these episodes worse or be
 
 ## EHR Summary
 
-The patient is a 56-year-old male presenting with chest pain and positive cardiac enzymes consistent with myocardial infarction. He reported increasing chest pain episodes over the past three to four weeks, with frequency and intensity worsening; initially, the pain occurred every few days and lasted 20–40 seconds. Prior to admission, he was started on Diltiazem by his cardiologist, but symptoms persisted and worsened, leading to a switch to sublingual Nitroglycerin. His past medical history includes gastroesophageal reflux disease, asthma, allergic rhinitis, and a history of colonic polyps. On physical examination, he was in no acute distress with stable vital signs and unremarkable cardiopulmonary and abdominal findings. The documented diagnosis was myocardial infarction. Treatment included discontinuation of Diltiazem and initiation of sublingual Nitroglycerin, along with continuation of home medications such as Aspirin.
+The patient is a 56-year-old male presenting with chest pain and positive cardiac enzymes consistent with myocardial infarction. He reported increasing chest pain episodes over the preceding three to four weeks, with worsening frequency and intensity, initially lasting 20–40 seconds and not relieved by Diltiazem or sublingual Nitroglycerin. His past medical history includes gastroesophageal reflux disease, asthma, allergic rhinitis, and a history of colonic polyps; he has no known drug allergies. On admission, laboratory and ECG findings supported the diagnosis of acute myocardial infarction with unstable angina and three-vessel coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) times four and tolerated the procedure well, with an uncomplicated postoperative course. At discharge, he was stable and prescribed Lopressor, Lasix, K-Dur, Aspirin, Percocet, Singulair, Prilosec, Albuterol as needed, Vitamin E, and Vitamin C. No complications were documented during the hospital stay. The patient was discharged home in good condition.
+
 
 ## Dialogue Summary
 
-The patient presented with increased frequency of chest pains as the chief complaint. Symptoms included a central chest pressure rated 6/10 in intensity, lasting five to ten minutes per episode, worsened by physical activity and relieved by rest, with recent onset of episodes occurring even at rest. The patient also reported slight tachycardia during episodes but denied sweating or shortness of breath; no radiation of pain was noted. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the chest pressure was becoming more frequent and now occurred at rest, with increasing intensity. The assessment was that these symptoms may suggest unstable angina or reduced blood flow to the heart, possibly related to narrowing of the heart arteries. The doctor recommended prompt evaluation to rule out significant cardiac issues, advised avoiding strenuous activity, and instructed the patient to monitor for new symptoms such as severe pain, shortness of breath, or fainting, with instructions to seek emergency care if these occur.
+The patient is an adult presenting with increased frequency of chest pain as the chief complaint. The chest pain is described as a central, pressure-like sensation rated 6 out of 10 in intensity, lasting 5–10 minutes per episode, and has recently become more severe and now occurs even at rest. Physical activity triggers the chest pressure, while rest alleviates it; there is associated mild tachycardia but no shortness of breath or diaphoresis. The patient notes that the pain does not radiate and has no other clear triggers. Relevant history, medications, and allergies are not specified in the dialogue. The clinical impression discussed is possible unstable angina due to the change in frequency and occurrence at rest. The doctor advised prompt evaluation to rule out significant cardiac issues, avoidance of strenuous activity, and monitoring for new symptoms such as severe pain, dyspnea, or syncope, with instructions to seek emergency care if these develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.572
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

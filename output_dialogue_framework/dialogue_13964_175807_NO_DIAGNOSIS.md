@@ -87,16 +87,23 @@ Do you have any questions about what might be going on or about the next steps?
 
 ## EHR Summary
 
-The patient is an 88-year-old female presenting with right hand weakness, clumsiness, and shaking, which developed over the course of a week. Symptoms included inability to pick up objects or cut food with her right hand, following a minor head injury four weeks prior that resulted in a brief period of left-sided headache but no loss of consciousness, nausea, or vomiting. Her medical history includes noninsulin dependent diabetes and congestive heart failure, and she is taking Prevacid, atenolol, K-Ciel, Lasix, and aspirin. On examination, she was alert and oriented with intact cranial nerves, but had trace pronator drift and decreased strength (4/5) in the right upper extremity, slowed coordination on the right, and sensory changes in the right palm. Laboratory results showed mild hyponatremia and elevated creatinine. Head CT revealed a subacute left subdural hematoma with no interval increase. The documented diagnosis was subacute left subdural hematoma. The patient was monitored during admission; specific treatments or interventions were not detailed in the note.
+The patient is an 88-year-old woman presenting with right hand clumsiness, weakness, and shaking, following a minor head injury four weeks prior. She initially experienced a week of left-sided headache without nausea or vomiting, and a CT scan revealed a minuscule bleed. Her symptoms progressed to right hand dysfunction, including inability to pick up objects and difficulty cutting food. Relevant history includes noninsulin dependent diabetes and congestive heart failure; medications on admission included Prevacid, atenolol, K-Ciel, Lasix, and aspirin, with no known drug allergies. Head CT on admission showed a subacute left subdural hematoma with no interval increase. During hospitalization, she had one episode of acute confusion and combativeness, which resolved after Haldol administration. The patient was treated with close neurological monitoring, Tylenol for pain, Dilantin for seizure prophylaxis, and supportive care; she was found to require short-term rehabilitation prior to discharge. She was discharged in stable condition with follow-up arranged in two weeks and a repeat head CT planned.
+
 
 ## Dialogue Summary
 
-The patient presented with new-onset clumsiness and shakiness in the right hand, making it difficult to cut things, button clothes, and write. Symptoms began a few days ago and have remained stable; the patient denied numbness, tingling, weakness, vision changes, or speech difficulties. The patient also reported a dull, intermittent headache on the left side near the temple, which is a new type of pain, and described a single episode of extreme confusion and combativeness during admission that has not recurred. No relevant past medical history, medications, or allergies were mentioned. On examination, there were no additional physical findings described beyond the patient's reported symptoms. The doctor assessed that the combination of new right-hand coordination problems and left-sided headache could indicate a neurological issue such as a mild stroke or transient ischemic attack (TIA), though other causes like nerve problems or medication side effects were also considered. The doctor recommended further evaluation by the care team, including a neurological exam and possibly imaging, and advised the patient to report any new symptoms such as weakness, numbness, speech difficulties, or worsening confusion immediately.
+The patient is an adult presenting with new-onset clumsiness and shakiness of the right hand as the chief complaint. Symptoms include difficulty with fine motor tasks such as cutting, buttoning clothes, and writing, without associated numbness, tingling, weakness, vision changes, or speech difficulties. The patient also reports a new, intermittent dull headache localized to the left temple and describes a single episode of confusion and combativeness during admission, which has not recurred. There is no prior history of similar headaches.
+
+The clinical impression is concern for a possible mild stroke or transient ischemic attack (TIA), given the acute onset of unilateral hand coordination problems and new headache. The physician notes that other causes such as nerve issues or medication side effects are also possible. The treatment plan includes referral to the care team for further evaluation, including a neurological exam and possible imaging studies if not already performed. The patient is advised to report any new symptoms such as weakness, numbness, speech difficulties, or worsening confusion immediately.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
+- **STS Score**: 0.610
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

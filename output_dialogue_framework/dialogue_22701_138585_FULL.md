@@ -87,16 +87,21 @@ Let me know if you have any questions or if you notice any new symptoms—I’m 
 
 ## EHR Summary
 
-The patient is a 32-year-old male presenting with shortness of breath. He reported progressive dyspnea and increased wheezing over the past three to four days, with peak expiratory flow rates dropping to the 300s from his baseline of approximately 650, following exposure to high pollen counts. He denied fever, chills, sputum production, abdominal discomfort, joint tenderness, lower extremity swelling, nausea, or vomiting. His past medical history is significant for asthma diagnosed in November 2169, with a prior asthma attack requiring hospitalization and prednisone. Home medications included Flovent, albuterol as needed, and Claritin; he has no known drug allergies. On physical exam, he was mildly distressed but comfortable, with vital signs notable for mild tachycardia and an oxygen saturation of 97% on room air. The documented diagnosis was an asthma exacerbation likely triggered by allergies. Treatment included increased use of albuterol at home and continuation of his inhaled corticosteroid regimen.
+The patient is a 32-year-old male presenting with shortness of breath. He reported progressive dyspnea and increased wheezing over three to four days, with peak flows dropping from his baseline of 650 to the 300s, following exposure to high pollen counts; he denied fever, chills, sputum production, or lower extremity swelling. His past medical history is significant for asthma diagnosed in 2169, with a prior hospitalization for an asthma attack, and he has no known drug allergies. On examination, he was in mild respiratory distress with expiratory wheezes and a prolonged expiratory phase; chest x-ray was unremarkable. The documented diagnosis was asthma exacerbation requiring a short Intensive Care Unit stay. Treatment included systemic corticosteroids (prednisone and Solu-Medrol), frequent nebulized bronchodilators (albuterol and Atrovent), supplemental oxygen, and initiation of fexofenadine for possible allergic triggers. He improved with therapy, with peak flows rising to 480 and oxygen saturation normalizing, and was discharged on a prednisone taper, inhaled steroids, short- and long-acting beta agonists, and antihistamines. Follow-up with his primary care physician was advised within one week.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble breathing as the chief complaint. Symptoms included mild episodes of wheezing, shortness of breath even at rest, chest tightness (described as uncomfortable but not painful), and lower peak flow meter readings; symptoms had persisted for a few days and were triggered by exercise and changes in weather, but not by pets or dust. The patient denied coughing or changes in voice, and reported that symptoms had remained stable without improvement or worsening. No relevant medical history, medications, or allergies were mentioned. The doctor noted the absence of cough and voice changes as reassuring clinical findings. The assessment was mild airway sensitivity or possible mild asthma, with symptoms likely related to reactive airways triggered by exertion or weather changes. The doctor advised monitoring for warning signs such as severe shortness of breath, difficulty speaking, bluish lips, or sudden worsening of symptoms, and recommended avoiding known triggers, limiting strenuous exercise, and tracking peak flow readings. The patient acknowledged understanding and agreed to monitor symptoms and peak flow at home.
+The patient is an adult presenting with difficulty breathing as the chief complaint. Symptoms include episodes of shortness of breath, wheezing, and chest tightness, which have persisted for a few days and are triggered by exercise and changes in weather; there is no associated cough or voice change. The patient reports that symptoms occur even at rest and have remained stable without significant improvement or worsening. Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression documented by the physician is mild asthma or airway sensitivity, likely triggered by physical activity or temperature changes. The treatment plan includes monitoring for warning signs such as severe dyspnea, trouble speaking, or bluish lips, avoiding known triggers, limiting strenuous exercise, and tracking peak flow meter readings at home. The patient was advised to seek prompt care if symptoms worsen or new concerning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.672
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 146 words
+
 
 ## Processing Information
 

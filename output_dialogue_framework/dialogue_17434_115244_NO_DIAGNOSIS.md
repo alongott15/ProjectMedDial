@@ -83,16 +83,21 @@ Let me ask: does resting help you feel less exhausted, or do you still feel quit
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with presyncope. He reported a one-week history of fatigue, lightheadedness, and melena with occasional bright red blood per rectum, as well as band-like chest pain radiating from his back, worsened by deep breaths and movement but without dyspnea, nausea, vomiting, or diaphoresis. His history includes chronic lower back pain post-bicycle accident, hyperplastic colon polyp, rheumatic fever, obstructive sleep apnea, childhood polio, and sulfa allergy; he had been taking ibuprofen 400 mg every 4-6 hours for one month. On examination, he was afebrile with a blood pressure of 105/66 mmHg, pulse 82, and dry mucous membranes noted. The clinical impression suggests possible gastrointestinal bleeding likely related to NSAID use. Treatment recommendations would likely include discontinuation of NSAIDs and further evaluation for GI bleeding, though specific interventions are not documented in the note.
+The patient is a 58-year-old male presenting with presyncope. He reported a one-week history of fatigue, lightheadedness, melena, and occasional bright red blood per rectum, along with band-like chest pain consistent with his chronic back pain. His past medical history includes chronic lower back pain post-bicycle accident, hyperplastic colon polyp, rheumatic fever, obstructive sleep apnea, and childhood polio; he has a sulfa allergy and was taking ibuprofen regularly. On admission, he was found to have anemia (hematocrit 24.3, nadir 13.9) and a brisk upper GI bleed, with EGD revealing a duodenal clot and active bleeding requiring gastroduodenal artery embolization. The documented diagnoses were upper GI bleed, anemia secondary to blood loss, melena, and chest pain not otherwise specified. Treatment included six units of packed red blood cells, Protonix 40 mg twice daily, and discontinuation of NSAIDs and omega oils; Ultram was started for chronic back pain. The patient was stable on discharge with no ongoing bleeding or abdominal pain and was advised to avoid NSAIDs, alcohol, and coffee, and to follow up with his primary care physician in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with episodes of sudden lightheadedness, primarily concerned about nearly passing out. They reported having to sit down during these episodes, increased tiredness over the past few days, and chest pain described as a band around the chest radiating to the back, which worsens with deep breaths or movement but is unaffected by lying down. The patient also noted black, tarry stools and some bright red blood in their stools, with no changes in appetite or weight. There is no history of actual loss of consciousness. The doctor assessed that the combination of sudden lightheadedness, increased fatigue, and changes in stool color and blood presence could indicate bleeding in the digestive tract, potentially leading to weakness and dizziness from blood loss. Resting provides only partial relief from tiredness, and chest/back pain persists. The doctor explained the possible connection between gastrointestinal bleeding and the patient’s symptoms and emphasized the importance of these findings. No specific treatment plan or further recommendations were documented in this conversation.
+The patient is an adult presenting with lightheadedness as the chief complaint. They report sudden episodes of lightheadedness over the past few days, sometimes requiring them to sit down to avoid passing out, but without actual syncope. Additional symptoms include chest pain described as a band radiating to the back, worsened by deep breaths or movement, increased fatigue not relieved by rest, and no changes in appetite or weight. The patient also notes black, tarry stools and some bright red blood per rectum. The physician explains that these findings may indicate gastrointestinal bleeding, which could account for the patient’s weakness and dizziness. No specific diagnosis is formally documented in the dialogue. The physician provides education about the possible cause of symptoms but does not document a treatment plan or specific recommendations in this exchange.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.539
+- **Model Used**: general
+- **Text1 Length**: 180 words
+- **Text2 Length**: 134 words
+
 
 ## Processing Information
 

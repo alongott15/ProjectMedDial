@@ -87,16 +87,23 @@ Let me know if you have any other symptoms you haven't mentioned, like chest dis
 
 ## EHR Summary
 
-The patient is an 84-year-old male presenting with syncope. He reported progressively worsening aortic stenosis over the past six months, increased fatigue, and experienced a syncopal episode while driving. Relevant history includes hypertension, type 2 diabetes, mitral regurgitation, aortic stenosis, and hyperlipidemia; he has a shellfish-derived allergy. On admission, physical exam showed bradycardia (HR 52), right carotid bruit, and a systolic ejection murmur; discharge exam revealed stable vital signs, no murmur, and mild bilateral lower extremity edema. The documented diagnoses were severe aortic stenosis and mitral regurgitation. Treatment included cardiac catheterization, aortic valve replacement with a 23-mm Mosaic tissue valve, mitral valve repair with annuloplasty, and coronary artery bypass grafting x3. Postoperative care included monitoring of incisions and management of mild edema.
+The patient is an 84-year-old male presenting with syncope. He reported progressively worsening aortic stenosis over the past six months, increased fatigue, and a syncopal episode while driving. Relevant history includes hypertension, type 2 diabetes, mitral regurgitation, aortic stenosis, and hyperlipidemia; he has a shellfish-derived allergy. On admission, he underwent cardiac catheterization followed by aortic valve replacement, mitral valve repair, and coronary artery bypass grafting. The documented diagnoses were coronary artery disease status post CABG, aortic stenosis status post AVR, mitral regurgitation status post repair, type 2 diabetes, hypertension, and hyperlipidemia. Postoperatively, he developed atrial fibrillation treated with beta blockers and amiodarone, and was successfully converted back to sinus rhythm. Discharge medications included amiodarone, metoprolol, furosemide, potassium chloride, and his chronic medications for diabetes and hyperlipidemia. He was discharged home in good condition with instructions for wound care, activity restrictions, and follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with concern after experiencing a recent fainting episode. Symptoms discussed included a sudden onset of lightheadedness while standing in the kitchen, followed by fainting without significant warning, and persistent fatigue since the event; the tiredness has remained stable and requires the patient to take more frequent breaks during daily activities, though no help has been needed. The patient denied any injury during the episode and reported no recurrence of fainting, chest discomfort, irregular heartbeat, or shortness of breath. No history of hunger, dehydration, or rapid movement prior to the episode was noted, and no other relevant medical history, medications, or allergies were mentioned. Physical findings were limited to patient-reported symptoms, with no injuries described. The doctor assessed the episode as syncope, possibly related to transient blood pressure changes or brief interruptions in cerebral blood flow, and found it reassuring that there were no further episodes or injuries. The doctor recommended maintaining good hydration, rising slowly from sitting or lying positions, sitting down if feeling lightheaded, and monitoring for any new symptoms such as chest pain or palpitations; the patient was advised to observe fatigue over the next week and seek medical attention if concerning symptoms develop.
+The patient is an adult presenting with a chief complaint of a recent fainting episode (syncope). The episode occurred while standing in the kitchen, preceded by brief lightheadedness and without clear triggers such as hunger, dehydration, or standing up quickly. Since the event, the patient has experienced persistent fatigue, requiring more frequent breaks during daily activities but has not had further fainting or associated symptoms such as chest pain, palpitations, or dyspnea. There was no injury during the episode.
+
+The clinical impression was a single episode of syncope in the context of possible orthostatic or cardiovascular causes, though no definitive diagnosis was documented. The treatment plan included recommendations to maintain adequate hydration, rise slowly from sitting or lying positions, and sit down if feeling lightheaded. The patient was advised to monitor for warning signs such as chest pain, palpitations, or confusion and to seek medical attention if these occur. Ongoing monitoring of fatigue and symptom progression over the next week was also recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.538
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

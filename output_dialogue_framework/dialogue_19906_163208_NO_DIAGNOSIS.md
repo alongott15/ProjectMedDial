@@ -76,16 +76,23 @@ Would you like some tips on wound care or guidance about when to see someone in 
 
 ## EHR Summary
 
-The patient is a 28-year-old female presenting after being found unresponsive at home with associated hypothermia and minor burns to her back and right arm. She was discovered by a family member following a loud thump, was unresponsive, incontinent of urine, and had clenched jaws requiring manual opening; no tonic-clonic movements or tongue biting were observed. Her past medical history includes a remote seizure episode, intravenous drug use, depression, and recent detoxification for heroin use; current medications include Celexa, Klonopin, Percocet, Doxepin, and Seroquel, with no known drug allergies. On EMS arrival, she was hypothermic (86.0°F) and unresponsive but responded briefly to Narcan administration, with further improvement after a second dose in the Emergency Department along with warming measures. The patient denied recent heroin use but reported taking Percocet and Klonopin in the days prior to admission. Physical examination noted a generally well-appearing but somewhat unkempt woman in no acute distress. No explicit diagnosis was documented in the note. Treatment included administration of Narcan, intravenous warm saline, and warming blankets.
+The patient is a 28-year-old female presenting after being found unresponsive at home, with a history of a prior seizure, intravenous drug use, and depression. She was discovered lying on the ground, unresponsive, incontinent of urine, and with burns to her back and right arm; her mouth was clenched shut but no tonic-clonic movements or tongue biting were observed. On arrival, she was hypothermic (86.0°F) and responded to Narcan administration, with subsequent improvement in mental status and temperature. Her past medical history includes a remote seizure, recent detoxification for heroin, and ongoing use of Percocet and Klonopin; she denied recent heroin use or suicidal ideation. The documented diagnoses were seizure, third degree burns, depression, and possible ongoing substance abuse. She was treated with Trileptal for seizure prevention, silver sulfadiazine dressings for burns, and Celexa for depression, with discontinuation of Seroquel and Doxepin due to seizure risk. The patient was advised to follow up with Neurology, Psychiatry, and Plastic Surgery, and to monitor her burns for signs of infection. Pain management included ibuprofen and a short course of Percocet as needed.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about healing burns, reporting persistent soreness and redness, particularly on the arm, with discomfort during movement. The patient noted that dressing changes are performed most days but occasionally forgotten; there has been no unusual discharge, significant swelling, or new symptoms such as fever or pus. The soreness and redness have remained unchanged since onset, and daily activities like dressing and chores are more difficult due to arm pain, sometimes requiring assistance. The patient is currently using Percocet for pain relief, which helps somewhat, but has not tried cool compresses. No relevant medical history or allergies were mentioned. On assessment, the doctor noted ongoing pain and redness without signs of infection, but highlighted that slow improvement may indicate delayed healing or need for further care. The doctor advised keeping the area clean with gentle washing and regular dressing changes, suggested considering over-the-counter pain medications for longer-term use instead of Percocet, and recommended seeking in-person evaluation if symptoms worsen or new signs of infection develop. The patient requested wound care tips, especially for hard-to-reach areas like the back, and agreed to seek further care if symptoms persist.
+The patient presents with persistent soreness and redness from burns, primarily affecting the arm and back, which are interfering with daily activities such as dressing and chores. The burns remain sore and red without significant improvement since onset, but there is no reported swelling, unusual discharge, or fever to suggest infection. The patient has been able to change dressings most days and is currently using Percocet for pain relief, though the discomfort remains significant and movement is uncomfortable. There is no documented history of new symptoms such as increased redness, warmth, swelling, pus, or fever.
+
+The clinical impression is that the burns are slow to heal, with ongoing pain and redness but no clear signs of infection at this time. The doctor advised continued wound care with gentle washing and regular dressing changes, suggested considering over-the-counter pain medications like acetaminophen or ibuprofen instead of prolonged Percocet use, and recommended a clinical evaluation if symptoms worsen or do not improve. The patient requested additional wound care tips, especially for hard-to-reach areas like the back.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.928
-- **Similarity Label**: N/A
+- **STS Score**: 0.381
+- **Model Used**: general
+- **Text1 Length**: 180 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

@@ -98,3 +98,23 @@ Let me know if you’ve had any recent fevers or other new symptoms—sometimes 
 ## Processing Information
 
 - **Processing Time**: 459.2s
+
+## EHR Summary
+
+The patient is a 41-year-old male admitted for elective revision of prior gastric bypass due to persistent weight gain, attributed to a gastro-gastric fistula. He reported ongoing weight gain over several years following his initial surgery, which was complicated by leaks and intra-abdominal abscesses; he was also noted to have anemia. Past medical history includes morbid obesity, degenerative joint disease, dyslipidemia, and hypoglycemia, with no known drug allergies. During this admission, he underwent revision of Roux-en-Y gastric bypass, partial gastrectomy, repair of gastric perforation, drainage of intra-abdominal abscess, and management of a right lower extremity DVT. The documented diagnoses were gastrogastric fistula, obesity, and incisional hernia. Treatment included multiple surgical interventions, antibiotics (including meropenem and ciprofloxacin), anticoagulation for DVT, TPN and tube feedings, and pain management with hydromorphone. At discharge, he was stable and sent home on full-strength tube feedings with home nursing support, instructions for wound care, activity restrictions, and follow-up arranged in one week.
+
+
+## Dialogue Summary
+
+The patient presents with a chief complaint of gradual weight gain over several months. Key symptoms include increased fatigue, pain behind the right knee that is worsened by walking or standing and relieved by rest, and a history of anemia with occasional tachycardia. The patient denies changes in appetite or sleep quality but reports that fatigue and knee pain are limiting daily activities. Recent fevers and increased oxygen needs were also noted.
+
+Relevant history includes a diagnosis of anemia and episodes of tachycardia; no other medical history, medications, or allergies were specified. The clinical impression is that weight gain and fatigue are likely multifactorial, related to decreased activity from knee pain and underlying anemia, with other causes such as thyroid issues considered less likely based on current symptoms. The treatment plan includes gentle activity as tolerated, continued management of anemia per previous provider instructions, and monitoring for worsening knee pain or new symptoms such as swelling, redness, or fever. The patient was advised to track fevers and increased oxygen needs and to seek further evaluation if symptoms worsen.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.425
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 178 words
+

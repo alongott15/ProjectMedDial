@@ -89,16 +89,21 @@ Let me know if you have questions or if there's anything else you'd like to disc
 
 ## EHR Summary
 
-The patient is a 64-year-old female presenting with recent onset of exertional chest discomfort radiating to her shoulders. Symptoms began shortly before admission and prompted cardiac catheterization, which revealed 80-90% stenosis of the left main coronary artery, with lesser involvement of the circumflex and right coronary arteries; ejection fraction was preserved at 70%. Her past medical history includes coronary artery disease, asthma (with prior intubation), hypertension, gastroesophageal reflux disease, oophorectomy, and hypercholesterolemia; she is allergic to sulfa drugs. On physical exam, she was hemodynamically stable with a 3/6 systolic ejection murmur and clear lungs. Laboratory values were within normal limits. The documented diagnosis was severe left main coronary artery disease. She was transferred for coronary artery bypass grafting as the primary treatment plan.
+The patient is a 64-year-old woman presenting with recent onset of exertional chest discomfort radiating to her shoulders. Symptoms prompted cardiac catheterization, which revealed significant left main coronary artery disease (80-90% stenosis) and preserved ejection fraction. Her past medical history includes coronary artery disease, asthma (with prior intubation), hypertension, gastroesophageal reflux disease, hypercholesterolemia, and prior oophorectomy; she is allergic to sulfa. The documented diagnosis was coronary artery disease status post coronary artery bypass grafting (CABG) x2, along with asthma, hypertension, GERD, and hypercholesterolemia. She underwent successful CABG with a left internal mammary artery graft to the LAD and a saphenous vein graft to the obtuse marginal artery. Postoperatively, she was hemodynamically stable, weaned from the ventilator, and had an uneventful recovery. At discharge, her condition was good, and she was prescribed medications including furosemide, potassium chloride, aspirin, theophylline, inhalers for asthma, atorvastatin, metoprolol, and Percocet as needed. She was advised to follow up in the clinic in two weeks and with her physicians at four and six weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort during exertion that radiates to the shoulders. Symptoms include pressure or tightness in the chest lasting a few minutes during activity, increased shortness of breath with exertion, and difficulty performing daily activities such as walking up stairs or carrying groceries; symptoms have been present for a few days and are more noticeable with activity, but resolve with rest. The patient denied sweating or lightheadedness during episodes. Relevant history includes coronary artery disease, high blood pressure, and high cholesterol; no diabetes was reported. No abnormal physical findings were described in the encounter. The doctor assessed the symptoms as exertional angina, likely related to underlying coronary artery disease and risk factors. The doctor advised the patient to avoid strenuous activities and schedule a prompt evaluation with their cardiologist or primary care provider for further assessment and possible medication adjustment. The patient was instructed to seek immediate medical attention if symptoms occur at rest, last longer than usual, or are accompanied by sweating, severe shortness of breath, or faintness.
+The patient is an adult with a history of coronary artery disease, hypertension, and hyperlipidemia presenting with exertional chest discomfort. The chest discomfort is described as a pressure or tightness that radiates to the shoulders, occurs with physical activity (such as walking up stairs or carrying groceries), lasts a few minutes, and resolves with rest. The patient also reports occasional shortness of breath during these episodes but denies sweating or lightheadedness. Symptoms began a few days ago and have become more noticeable, now causing the patient to slow down during daily activities. The documented clinical impression is exertional angina, likely related to underlying coronary artery disease. The physician advised the patient to avoid strenuous activities and to schedule a prompt evaluation with their cardiologist or primary care provider for further assessment and possible medication adjustment. The patient was also instructed to seek immediate medical attention if symptoms occur at rest, last longer than usual, or are accompanied by severe shortness of breath, sweating, or fainting.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.532
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

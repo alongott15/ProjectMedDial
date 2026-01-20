@@ -182,3 +182,23 @@ Let me know if you have any questions about what to do next or if you need help 
 ## Processing Information
 
 - **Processing Time**: 439.0s
+
+## EHR Summary
+
+The patient is a 24-year-old woman presenting with diabetic ketoacidosis (DKA). She experienced malaise, multiple episodes of nausea and vomiting, and sharp, non-radiating right and then left-sided abdominal pain without associated diarrhea, fever, or constipation; she also reported chills. Her past medical history includes type 1 diabetes mellitus complicated by diabetic retinopathy and polycystic ovarian syndrome, and she has an allergy to erythromycin base. The documented diagnosis was DKA. She was treated with intravenous insulin, aggressive fluid hydration with D5 1/2 NS, potassium repletion, and symptomatic management with morphine and ondansetron. Her metabolic derangements resolved overnight, her home insulin regimen was restarted, and she was discharged in stable condition with instructions to follow up in clinic within one week. No changes were made to her outpatient medications.
+
+
+## Dialogue Summary
+
+The patient is an adult with type 1 diabetes presenting with sharp, non-constant abdominal pain (initially on the right side, later also on the left), accompanied by nausea, vomiting, chills, and significant fatigue for several days. The abdominal pain comes and goes, does not radiate or spread elsewhere, and is not associated with diarrhea, fever, or sweats. The patient denies any episodes of diarrhea or fever throughout the course of symptoms. Relevant history includes type 1 diabetes; no medication allergies or other chronic conditions are specified.
+
+The clinical impression discussed was concern for possible diabetic ketoacidosis (DKA) given the combination of symptoms and diabetes history. The doctor advised urgent medical evaluation to check blood glucose and ketone levels, emphasizing that DKA requires prompt treatment and should not be managed at home. The patient was instructed to bring their blood sugar log and insulin to the healthcare facility and to inform the care team about any missed insulin doses or elevated blood sugars. Ongoing support and open communication were encouraged, with instructions to reach out if symptoms change or worsen.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.827
+- **Model Used**: general
+- **Text1 Length**: 127 words
+- **Text2 Length**: 179 words
+

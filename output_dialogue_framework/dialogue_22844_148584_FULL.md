@@ -85,16 +85,21 @@ Let me ask—have you taken your temperature at home, and if so, how high has it
 
 ## EHR Summary
 
-The patient is a 26-year-old male presenting with persistent fever during hospitalization following treatment for acute myeloid leukemia (AML) and acute lymphoblastic leukemia (ALL). He experienced daily fevers up to 102–103°F with no initially identified source, and cultures of blood, urine, and stool were negative except for a positive Clostridioides difficile toxin. Relevant history includes recent chemotherapy for AML and ALL, and ongoing prophylactic medications such as acyclovir and Nystatin. Physical findings included persistent fever; laboratory findings revealed only C. difficile positivity. The clinical impression was fever of unknown origin in the context of immunosuppression, with possible contributions from infection (C. difficile) or active leukemia. Treatment included empiric antibiotics (Levaquin, cefepime, vancomycin), antifungal therapy (AmBisome), initiation of oral Flagyl for C. difficile, and high-dose Ara-C chemotherapy. The patient’s fever resolved spontaneously after these interventions, and he remained afebrile for the rest of his hospital stay. Recommendations included monitoring renal function for antibiotic dosing and sending HSV antibody titers to guide acyclovir use.
+The patient is a 26-year-old male presenting with persistent fever during hospitalization following treatment for acute myeloid leukemia (AML) and acute lymphoblastic leukemia (ALL). He experienced daily fevers up to 102–103°F, headache associated with fever spikes, and occasional left ear fullness; a single erythematous scalp lesion was also noted and resolved spontaneously. Relevant history includes recent chemotherapy, neutropenia, and use of prophylactic acyclovir and Nystatin. Workup revealed negative blood and urine cultures, but a positive Clostridioides difficile toxin. The clinical impression included fever of unknown origin in the context of immunosuppression, possible C. difficile infection, and possible sinusitis or mastoiditis on MRI. Treatment included empiric broad-spectrum antibiotics (Levaquin, cefepime, vancomycin), antifungal therapy (AmBisome), oral Flagyl for C. difficile, high-dose Ara-C chemotherapy, and supportive transfusions. The patient became afebrile after five days of therapy, tolerated chemotherapy well, and remained stable under neutropenic precautions. Infectious Disease consultation recommended HSV antibody titers to guide acyclovir use, and the patient was empirically treated for possible sinusitis.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent fever. Symptoms included fever without chills or sweating, headaches that worsen during fever spikes, occasional left ear fullness without pain, discharge, or hearing changes, increased fatigue, and a tender, red, raised spot on the scalp resembling a bug bite; all symptoms began a few days ago. The patient denied congestion, runny nose, or sore throat. No relevant medical history, medications, or allergies were mentioned. On examination, the doctor noted mild fever (maximum recorded at 101.5°F), headaches, ear fullness without severe ear findings, and a stable, tender scalp lesion. The doctor assessed that the symptoms were most consistent with a mild viral infection or minor sinus/ear issue, and that the scalp spot was likely benign and unrelated. The doctor advised monitoring the scalp lesion for changes and reassured the patient that the lack of severe ear symptoms was reassuring.
+The patient is an adult presenting with intermittent fever as the chief complaint. The fever has been present for a few days, with a maximum recorded temperature of 101.5°F, and is accompanied by headaches that worsen during fever spikes and occasional left ear fullness without pain, discharge, or hearing loss. The patient also reports a tender, red, raised spot on the scalp resembling a bug bite, which has not changed in size or appearance. There are no associated symptoms of congestion, runny nose, or sore throat. Relevant history, medications, and allergies are not specified. The clinical impression is that the symptoms are most likely due to a viral infection or mild sinus/ear issue, with the scalp lesion likely benign. The physician reassured the patient that the absence of severe ear pain, discharge, or significant hearing loss suggests no serious ear infection and advised monitoring the scalp spot for changes. No specific medications or interventions were documented; supportive care and observation were implied.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.943
-- **Similarity Label**: N/A
+- **STS Score**: 0.480
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

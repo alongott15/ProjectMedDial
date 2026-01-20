@@ -95,16 +95,21 @@ If you have any other concerns or want tips on relaxation exercises, I’m happy
 
 ## EHR Summary
 
-The patient is a 24-year-old female presenting with shortness of breath and a feeling of suffocation. Symptoms had been present for approximately one year prior to admission. Her past medical history includes borderline high cholesterol, gastroesophageal reflux disease, heartburn, abnormal menses, and a sensation of suffocation; she takes Celexa as needed and is allergic to Sudafed. On physical exam, she was afebrile and stable, with a 3/6 murmur at the left lower sternal border but otherwise normal findings. Workup revealed an atrial septal defect (ASD). She underwent minimally invasive ASD repair during this admission. Postoperatively, she required increased oxygen and was found to have a large pleural effusion but no pulmonary embolism; she was treated with diuretics, chest physical therapy, Percocet for pain, and low-dose beta blockers. Her oxygen saturation improved with these interventions.
+The patient is a 24-year-old female presenting with a history of shortness of breath and a feeling of suffocation. Symptoms were present for approximately one year prior to admission and led to the diagnosis of atrial septal defect (ASD). Relevant history includes borderline high cholesterol, heartburn, gastroesophageal reflux disease, abnormal menses, use of Celexa as needed, and an allergy to Sudafed. The documented diagnosis was ASD status post minimally invasive closure, along with borderline high cholesterol, heartburn, GERD, and abnormal menses. She underwent minimally invasive ASD closure and experienced postoperative pain and increased oxygen requirements due to a large pleural effusion, which was managed with diuresis and pulmonary therapy. Pain was controlled with Percocet and Motrin, and she was started on additional medications including ASA, Zantac, Colace, K-Ciel, and Lasix. The patient improved steadily, was able to ambulate, and was discharged home in stable condition. She was advised to follow up with her surgeon in 4-6 weeks and her primary care physician in 1-2 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath, describing difficulty getting a full breath and a sensation of suffocation that has persisted for a few days. Symptoms included feeling short of breath, especially during times of stress, but no wheezing, cough, chest tightness, lightheadedness, dizziness, or racing heartbeat; the sensation did not worsen with activity or lying down and did not affect sleep. The patient reported no recent illness or environmental changes and has an allergy to Sudafed. Physical findings were not directly noted, but the patient stated that slow, deep breathing helps reduce the intensity of symptoms. The doctor assessed that the breathing difficulties are most consistent with anxiety-related breathing changes (“air hunger”) rather than a physical lung or heart problem, given the absence of other concerning symptoms and relevant history. The doctor recommended practicing relaxation exercises, mindfulness, and slow, deep breathing during episodes, and advised seeking further evaluation if new symptoms such as chest pain, fainting, or persistent/severe shortness of breath develop. The patient expressed understanding and interest in learning more about relaxation techniques.
+The patient is an adult presenting with the chief complaint of shortness of breath described as difficulty getting a full breath and a sensation of "suffocating," ongoing for several days. Symptoms are most noticeable during periods of stress, improve with slow, deep breathing, and are not associated with wheezing, cough, chest tightness, lightheadedness, dizziness, palpitations, or nocturnal symptoms. There is no recent illness, environmental change, or significant medical history noted except for an allergy to Sudafed. The clinical impression is that the patient's symptoms are consistent with anxiety-related breathing changes ("air hunger") rather than a primary cardiopulmonary disorder. The treatment plan includes practicing relaxation exercises, focusing on slow, controlled breathing during episodes, and considering stress management strategies such as mindfulness or gentle exercise. The patient was advised to seek further evaluation if new symptoms develop (e.g., chest pain, fainting, persistent or severe dyspnea). The patient expressed interest in learning more about relaxation and mindfulness techniques.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.507
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 155 words
+
 
 ## Processing Information
 

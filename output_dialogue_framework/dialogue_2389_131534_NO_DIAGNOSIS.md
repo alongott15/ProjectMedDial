@@ -63,16 +63,21 @@
 
 ## EHR Summary
 
-The patient is a 64-year-old female presenting with epistaxis followed by hematemesis. She reported a history of frequent nosebleeds, recent coffee ground emesis, seven to eight days of dark or tarry stools, and crampy abdominal pain over several months. Her past medical history includes hypertension, cholecystectomy, and tooth extractions without bleeding complications; she has no known allergies and takes verapamil, aspirin, ibuprofen, and unspecified Chinese herbs. On admission, she denied chest pain, dizziness, or shortness of breath but endorsed nausea and headache. Physical examination noted a woman in no acute distress with stable vital signs. The documented diagnosis is not explicitly stated in the note. Treatment details are not specified in the provided text.
+The patient is a 64-year-old female presenting with epistaxis followed by hematemesis. She reported a history of frequent nosebleeds, recent coffee ground emesis, seven to eight days of dark or tarry stools, and crampy abdominal pain over several months. Her past medical history includes hypertension and cholecystectomy, and she was taking verapamil, aspirin, ibuprofen, and unspecified Chinese herbs on admission; she has no known allergies. On evaluation, laboratory studies showed a drop in hematocrit from 37.5 to 29.5, and endoscopy revealed active bleeding in the posterior pharynx with mild gastritis but no esophageal or duodenal lesions. The documented diagnoses were epistaxis with secondary hematemesis, mild gastritis, and anemia. Treatment included placement of Merocel in the left naris, discontinuation of aspirin and ibuprofen, initiation of Keflex 500 mg orally four times daily for five days, Protonix 40 mg daily for six weeks, and ferrous sulfate 325 mg daily for six months. She was discharged home with instructions to follow up with ENT and her primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with recent nosebleeds as the chief complaint. They reported experiencing nosebleeds a few times recently, along with intermittent stomach pain that comes and goes. The patient also described associated nausea and an episode of vomiting blood. These symptoms began a few days ago, and the patient denied any prior history of similar issues. No medications, allergies, or other relevant medical history were mentioned. There were no physical findings documented during the encounter. The doctor inquired about the frequency and severity of symptoms, including the amount of blood vomited and any associated lightheadedness or changes in energy level, but no assessment or treatment plan was provided during the simulation.
+The patient presents with the chief complaint of recurrent nosebleeds. They report experiencing several episodes recently, accompanied by intermittent stomach pain. The stomach pain is described as coming and going, and is associated with nausea and an episode of hematemesis (vomiting blood). These symptoms began a few days ago, and the patient denies any prior history of similar issues. There is no documented diagnosis in the dialogue. No specific treatment or recommendations were provided during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.484
+- **Model Used**: general
+- **Text1 Length**: 166 words
+- **Text2 Length**: 77 words
+
 
 ## Processing Information
 

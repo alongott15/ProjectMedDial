@@ -100,3 +100,23 @@ Let me know if you have any questions about what we’ve discussed or if you not
 ## Processing Information
 
 - **Processing Time**: 358.6s
+
+## EHR Summary
+
+The patient is a 76-year-old female presenting with nausea, which serves as her anginal equivalent. She reported chest pain, shortness of breath, and nausea, and was found to have a non-Q wave myocardial infarction. Her history is significant for coronary artery disease with prior mid-LAD stenosis, diffuse left circumflex and RCA disease, hypertension, GERD, Billroth II, anemia, hyperlipidemia, ischemic cardiomyopathy, and prior surgeries (hysterectomy, appendectomy). Cardiac catheterization revealed significant multi-vessel coronary artery disease, and she continued to experience angina during the procedure, which resolved after intra-aortic balloon pump placement. The documented diagnosis was CAD status post coronary artery bypass grafting (CABG) times three. Treatment included CABG with saphenous vein grafts to OM1, OM2, and RPL, postoperative management with weaning from intra-aortic balloon pump and ventilator, antibiotics and warm packs for parotitis, and cardiac rehabilitation. Discharge medications included Plavix, aspirin, Lipitor, Protonix, Creon, metoprolol, furosemide, potassium chloride, and Percocet as needed. She was discharged in stable condition to a rehabilitation facility with follow-up arranged in four weeks.
+
+
+## Dialogue Summary
+
+The patient presents with nausea as the chief complaint. Symptoms include intermittent nausea, mild chest pressure or tightness (sometimes with activity or at rest), mild shortness of breath not limiting activities, and swelling with tenderness around the left parotid gland. The chest symptoms are not associated with lightheadedness, sweating, or leg swelling, and there is no recent weight gain. The patient also denies lower extremity edema.
+
+The clinical impression is possible mild infection or inflammation of the left parotid gland (parotitis), which may be contributing to systemic symptoms like nausea; the mild chest symptoms are thought to be related to general discomfort rather than a primary cardiac or pulmonary issue. The treatment plan includes supportive care with hydration, warm compresses to the affected area, and monitoring for worsening symptoms such as fever, increased pain, difficulty opening the mouth, or more severe chest symptoms. The patient was advised to seek prompt care if these concerning features develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.468
+- **Model Used**: general
+- **Text1 Length**: 166 words
+- **Text2 Length**: 156 words
+

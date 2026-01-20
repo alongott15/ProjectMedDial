@@ -55,16 +55,21 @@
 
 ## EHR Summary
 
-The patient is a 44-year-old male presenting with lower gastrointestinal bleeding (LGIB) as the chief complaint. He reported rectal bleeding for a few hours, with darker stools than usual and no associated dizziness or abdominal pain; he has a history of recurrent LGIBs over the past few months requiring multiple transfusions. His medical history is significant for Ehlers-Danlos syndrome type IV with prior bowel bleeds, celiac and carotid artery aneurysms, hypertension, GERD, and previous surgeries. On examination, he was alert and stable, with an unremarkable abdominal exam. Laboratory findings showed a declining hematocrit from 43.0 to 31.8 during admission. Colonoscopy revealed multiple clots in the colon but no clear source of bleeding. The clinical impression was ongoing LGIB in the setting of Ehlers-Danlos syndrome type IV. Treatment included DDAVP administration, transfusion of packed red blood cells, intravenous fluids, bowel rest (NPO), and serial hematocrit monitoring.
+The patient is a 44-year-old male presenting with lower gastrointestinal bleeding (LGIB) as the chief complaint. He reported rectal bleeding for several hours, with darker stools than usual but denied dizziness or abdominal pain; he has a history of recurrent LGIB requiring transfusions. Relevant history includes Ehlers-Danlos syndrome type IV, prior bowel bleeds, celiac and carotid artery aneurysms, GERD, hypertension, and Mefoxin allergy. On admission, his hematocrit was 43.0 and gradually decreased, necessitating transfusions and DDAVP administration. Colonoscopy revealed multiple clots initially and later an ulceration near a colonic anastomosis, but no active bleeding source. The documented diagnosis was lower GI bleed. Treatment included PRBC transfusions, DDAVP, parenteral nutrition, mesalamine enemas, ursodiol, and pantoprazole; he was discharged home in stable condition with instructions to continue these medications and follow up with gastroenterology and surgery.
+
 
 ## Dialogue Summary
 
-The patient presented with rectal bleeding as the chief complaint. They reported that the blood observed was darker in color rather than bright red, and noted that their stools have also appeared darker. No additional symptoms such as fatigue or weakness were discussed. There was no relevant medical history, medications, or allergies mentioned during the encounter. The doctor inquired about the color of the blood to help determine the possible source of bleeding and asked about any impact on daily life or associated symptoms. No physical findings were described, and no assessment or working diagnosis was stated. No specific advice, recommendations, or treatments were provided during this visit.
+The patient is presenting with rectal bleeding as the chief complaint. They report that the blood appears darker rather than bright red, and their stools have also been darker in color. The duration and frequency of the bleeding are not specified. The patient has not yet described associated symptoms such as fatigue, weakness, or other changes in overall health. Relevant medical history, medications, and allergies are not documented in this dialogue. No diagnosis or clinical impression has been documented at this stage. No treatment plan or specific recommendations have been provided yet.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.625
+- **Model Used**: general
+- **Text1 Length**: 134 words
+- **Text2 Length**: 92 words
+
 
 ## Processing Information
 

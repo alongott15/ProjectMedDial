@@ -89,16 +89,21 @@ Let me know if you have any questions or if anything changes.
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with chest pain who was admitted for cardiac catheterization. He was found to have multivessel coronary artery disease and subsequently underwent a coronary artery bypass graft x2 on admission day. Postoperatively, he required ventilator support, transfusions for low hematocrit and hemodynamic stability, and had an intra-aortic balloon pump placed and removed without complication. Physical therapy was involved for ambulation, and his chest tube, Foley catheter, and JP drain were removed sequentially as he recovered. The documented diagnosis was multivessel coronary artery disease requiring surgical intervention. He was discharged home in stable condition with instructions for follow-up with his primary care physician/cardiologist and cardiothoracic surgery for staple removal. Discharge medications included Percocet, Colace, Synthroid, inhalers (albuterol, ipratropium), aspirin, Lopressor, Lasix, and Protonix.
+The patient is a 62-year-old male presenting with chest pain who was admitted for cardiac catheterization. Catheterization revealed multi-vessel coronary artery disease, and the patient subsequently underwent a coronary artery bypass graft x2. Postoperatively, he required ventilatory support, transfusions for low hematocrit and hemodynamic stability, and had an intra-aortic balloon pump placed and later removed without complication. He was gradually weaned from the ventilator, had his chest tube and Foley catheter removed, and participated in physical therapy for ambulation. The patient’s pain was controlled, and he tolerated diet advancement well. He was discharged home in stable condition with instructions to follow up with his primary care physician/cardiologist and cardiothoracic surgery for staple removal. Discharge medications included Percocet, Colace, Synthroid, inhalers (albuterol, ipratropium), aspirin, Lopressor, Lasix, and Protonix.
+
 
 ## Dialogue Summary
 
-The patient presented with a complaint of chest pressure. The symptom was described as a moderate (5/10), persistent pressure located in the center of the chest, present for a couple of days, not sharp or stabbing, and not associated with activity, eating, breathing, or changes in position. The patient denied any associated symptoms such as shortness of breath, sweating, or lightheadedness and reported no prior similar episodes. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of alarming features but acknowledged that new chest discomfort warrants attention due to potential serious causes. The doctor recommended monitoring for any changes, especially increased intensity, radiation of pain, shortness of breath, sweating, or nausea, and advised seeking prompt medical attention if these occur. For now, the patient was advised to take it easy, observe for triggers, and consider simple measures like antacids or gentle stretching if symptoms persist. The patient understood and agreed to monitor symptoms and follow up as needed.
+The patient is an adult presenting with a chief complaint of chest pressure. The pressure is described as moderate (5/10), persistent, and located centrally in the chest, without radiation. It has been present for a couple of days, is not associated with physical activity, eating, stress, breathing, or changes in position, and is not accompanied by shortness of breath, sweating, or lightheadedness. This is the first occurrence of such symptoms for the patient. No relevant past medical history, medications, or allergies were specified. The clinical impression was that the chest pressure may be benign (such as muscle strain, mild acid reflux, or anxiety), but more serious causes could not be fully excluded. The patient was advised to monitor for any new or worsening symptoms (such as increased intensity, radiation of pain, shortness of breath, sweating, or nausea) and to seek prompt medical attention if these occur. For now, conservative measures such as rest and possibly antacids or gentle stretching were suggested, with a recommendation to follow up with a doctor if symptoms persist or worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.450
+- **Model Used**: general
+- **Text1 Length**: 127 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

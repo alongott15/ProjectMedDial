@@ -98,3 +98,23 @@ Let me know if you have any other questions or concerns about what we discussed.
 ## Processing Information
 
 - **Processing Time**: 230.0s
+
+## EHR Summary
+
+The patient is a 54-year-old male presenting for surgical management of a mass in the floor of the mouth. He reported noticing the mass prior to admission, which was determined to require resection and reconstruction. There is no other past medical history or pertinent family history documented. The principal diagnosis was squamous cell carcinoma of the floor of the mouth. He underwent resection of the floor of the mouth with mandibulectomy, bilateral neck dissection, tooth extraction, tracheostomy placement, and free radial left osseocutaneous flap without complications. Postoperatively, he developed mild dysphagia and erythema around the incision, for which he was treated with tube feeds, a puree diet, and Keflex. At discharge, his nasogastric tube and tracheostomy were removed, and he was prescribed Keflex, Roxicet elixir, Prilosec, and thickened meals. He was advised to follow up with surgery, plastic surgery, and speech therapy for ongoing wound care and swallowing assessment.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with a new lump or mass in the floor of the mouth as the chief complaint. Symptoms include mild discomfort when eating, mild dysphagia (trouble swallowing), and localized redness around an "incision-like" area, without pain, swelling, drainage, speech changes, numbness, or tingling. The lump has been present for a few days without significant change in size or sensation and is not associated with recent dental work or oral procedures. The patient remains able to perform normal activities, with only mild interference during eating.
+
+The clinical impression discussed includes possible causes such as a blocked salivary gland (mucocele or ranula), minor infection, or unrecognized trauma, with reassurance that most causes are benign. The treatment plan includes supportive care: staying hydrated, avoiding spicy or acidic foods, and performing gentle warm salt water rinses. The patient was advised to monitor for worsening symptoms such as increasing pain, swelling, fever, difficulty breathing, or rapid growth of the mass, and to seek further evaluation if these occur or if symptoms do not improve within one to two weeks. No medications were prescribed at this time.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.623
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 186 words
+

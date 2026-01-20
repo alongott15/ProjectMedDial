@@ -82,16 +82,21 @@ Let me ask: On a scale of 1 to 10, how would you rate the discomfort in your leg
 
 ## EHR Summary
 
-The patient is a 69-year-old male presenting with left lower extremity cellulitis and hematoma. He developed a progressively enlarging hematoma on his left shin after bumping it with a suitcase six days prior to admission, followed by localized shin pain but no distal weakness, sensory deficits, fever, or chills. His past medical history includes congestive heart failure (CHF), atrial fibrillation on Coumadin, cardiomyopathy, coronary artery disease status post CABG, pulmonary hypertension, obstructive sleep apnea, and other cardiac interventions. On presentation, he was afebrile with stable vital signs. The clinical impression was left lower extremity cellulitis with associated hematoma in the setting of anticoagulation. He was started on intravenous Ancef after blood cultures were obtained. Prior to admission, he had been treated with oral Keflex and Vicodin for pain, and his Coumadin dose was recently decreased due to a supratherapeutic INR.
+The patient is a 69-year-old male presenting with left lower extremity cellulitis and hematoma following trauma to his left shin. He reported progressive swelling and pain at the hematoma site over six days, with surrounding erythema and pitting edema, but denied fever, chills, distal weakness, or sensory deficits. His history is significant for congestive heart failure (EF 35%), atrial fibrillation on Coumadin, cardiomyopathy, coronary artery disease, prior aortic valve replacement, and multiple other cardiac comorbidities; he is allergic to penicillin (rash) and morphine (paranoia). On admission, his INR was supratherapeutic at 4.4, and he had already completed four days of oral antibiotics without improvement. The documented diagnoses were left lower extremity hematoma, left leg cellulitis, congestive heart failure, atrial fibrillation, and coronary artery disease. Treatment included holding and then restarting Coumadin, IV Ancef transitioned to oral Keflex for a total 7-day antibiotic course, surgical evacuation of the hematoma with wound care, and continuation of his cardiac medications. He was discharged home with plans for wound care follow-up and outpatient monitoring of his INR and cardiac status.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent pain in the left leg, primarily localized to the area of a large bruise on the left shin. The pain is constant throughout the day, worsens with movement, and is associated with swelling, redness, warmth, and difficulty walking; the discomfort was rated as 7 out of 10 in severity. The patient denied any known injury or trauma to the area and reported that the symptoms appeared without a clear cause. The patient has tried elevating the leg and taking Vicodin for pain, which provided minimal relief; ice has not been used. On examination, the doctor noted localized swelling, redness, and warmth over the hematoma. The doctor’s assessment included concern for possible cellulitis or inflammation from a hematoma, given the absence of trauma and presence of localized symptoms. The doctor explained these possibilities to the patient and emphasized monitoring for infection. No additional specific treatment recommendations were provided during this portion of the discussion.
+The patient is an adult presenting with persistent left leg pain as the chief complaint. The pain is constant, rated 7 out of 10 in severity, localized to the left shin where there is a large bruise, and is worsened by movement. Associated symptoms include swelling, redness, and warmth at the site of the hematoma, with no history of trauma or injury to the area. The discomfort and swelling have significantly impaired the patient's ability to walk and perform daily activities. The patient has tried elevating the leg and taking Vicodin, which provided minimal relief; ice has not been used. The doctor noted concern for possible cellulitis or inflammation from a hematoma, given the absence of trauma and presence of localized redness, swelling, and warmth. No definitive diagnosis or specific new treatment was documented during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.510
+- **Model Used**: general
+- **Text1 Length**: 176 words
+- **Text2 Length**: 137 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ Does anything seem to make these symptoms better or worse, such as rest, changin
 
 ## EHR Summary
 
-The patient is a 78-year-old female presenting with chest pain. She described the pain as pressure radiating across her chest, minimally relieved by three doses of sublingual nitroglycerin, with a prior episode relieved by one dose; she denied shortness of breath, focal weakness, or vision changes. She also reported worsening right neck pain over several days and numbness and tingling in her left hand for several weeks, with a history of chronic neck pain following a dental abscess. Her medical history includes coronary artery disease status post stenting, hypertension, hyperlipidemia, and anxiety; she has a documented allergy to penicillins. Physical exam was notable for elevated blood pressure (162/65 mmHg), bradycardia (pulse 56), and normal cardiopulmonary and neurological findings. Admission labs showed mild anemia and elevated PTT. The documented clinical impression included chest pain and a focal right carotid dissection identified on CT scan. No major surgical or invasive procedures were performed during this admission; specific treatments or recommendations were not detailed in the note.
+The patient is a 78-year-old female presenting with chest pain. She described the pain as pressure radiating across her chest, minimally relieved by three doses of sublingual nitroglycerin, with a prior episode relieved by one dose; she denied shortness of breath but reported right neck pain and left hand numbness and tingling. Her past medical history includes coronary artery disease status post stenting, hypertension, hyperlipidemia, and anxiety, and she has a documented allergy to penicillins. Imaging revealed no evidence of carotid dissection and only mild bilateral carotid stenosis (<40%). The documented diagnosis was chest pain, most consistent with typical angina rather than carotid dissection. She remained asymptomatic during her hospital stay and was discharged in good condition. Treatment included continuation of aspirin 81 mg daily and Zetia 10 mg daily, with instructions for outpatient stress testing and follow-up with her primary care physician and cardiologist. She was advised to monitor for recurrent symptoms and to resume all regular home medications.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. Symptoms included a moderate, pressure-like sensation in the chest that comes and goes, right-sided neck discomfort occurring simultaneously with the chest pressure, and numbness and tingling in the left hand that resolves when the chest pressure stops. The symptoms have been present for a few days, tend to occur during the day, do not wake the patient at night, and appear randomly without clear triggers, though stress may sometimes worsen them; resting and relaxation techniques provide some relief. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted that the symptoms are not typical for cardiac issues due to their pattern and lack of exertional or nocturnal worsening. The assessment included possible muscle tension, anxiety, or nerve-related causes, with stress as a contributing factor. The doctor advised the patient to monitor for symptom patterns and to seek prompt medical attention if severe pain, shortness of breath, sweating, nausea, or persistent/intense discomfort develops.
+The patient presents with chest pain as the chief complaint. Symptoms include moderate, pressure-like chest discomfort that comes and goes, sometimes accompanied by right-sided neck pain and numbness and tingling in the left hand; these symptoms typically occur together, last a short time, are not triggered by activity or eating, and tend to be worse with stress but not always. The symptoms have been present for a few days and are not severe enough to wake the patient from sleep; resting and relaxation techniques provide some relief. There is no mention of pertinent medical history, medications, or allergies. The clinical impression includes possible muscle tension, anxiety, or nerve-related issues, with the doctor noting that the symptoms are not typical for cardiac causes but should still be monitored. The treatment plan involves tracking symptom patterns and using rest or relaxation for relief. The patient was advised to seek prompt medical attention if symptoms worsen or new concerning features such as severe pain, dyspnea, sweating, or nausea develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.969
-- **Similarity Label**: N/A
+- **STS Score**: 0.561
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ Let me know if you have any other concerns or if you’d like advice on managing
 
 ## EHR Summary
 
-The patient is a 48-year-old male presenting for management of Pneumocystis jirovecii pneumonia (PCP) in the setting of HIV with CD4 count less than 50. He was admitted following a positive bronchoscopic diagnosis of PCP after previously endorsing dyspnea and cough, though he currently denies symptoms such as fever, chills, cough, or shortness of breath. His past medical history includes HIV, and he has a documented allergy to Bactrim DS. On admission, he was febrile to 101.4°F and had an initial heart rate of 108, which improved after intravenous fluids; oxygen saturation was 96% on room air. The documented diagnosis is PCP pneumonia. Initial treatment with IV pentamidine was discontinued due to local infusion reaction (itching and erythema), and therapy was changed to clindamycin and primaquine per infectious disease recommendations. The patient was counseled about safety risks related to bed height and demonstrated understanding but refused to lower the bed.
+The patient is a 48-year-old male presenting for treatment of Pneumocystis jirovecii pneumonia (PCP) in the setting of advanced HIV/AIDS (CD4 <50). He was admitted after outpatient bronchoscopy confirmed PCP, though he reported being asymptomatic at admission and denied current fever, cough, or dyspnea, despite prior documentation of dyspnea and an ED fever of 101.4°F. His past medical history includes HIV/AIDS (diagnosed ~10 years ago), chronic low back pain, asthma, and prior pneumonia; he has a reported allergy to Bactrim DS. The documented diagnosis was PCP pneumonia with secondary AIDS. Initial treatment included IV pentamidine, but due to possible allergic reactions, therapy was changed to clindamycin and primaquine; outpatient dapsone was discontinued. He was also empirically treated for facial dermatitis with ketoconazole cream and continued his HAART regimen. The patient left the hospital against medical advice with prescriptions for a 21-day course of clindamycin and primaquine, instructions to continue HAART, and follow-up with infectious disease and dermatology as an outpatient. He was advised to seek medical attention if symptoms such as fever, cough, or shortness of breath develop.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble breathing and associated anxiety. Symptoms included noticeable shortness of breath beginning a few days ago (now improved), chest tightness, fever lasting a couple of days (now resolved), weakness during the worst period, ongoing fatigue, and increased low back pain; physical activity worsened the breathing and chest tightness, while lying down and environmental factors did not affect symptoms. The patient denied cough, chills, and excessive sweating. No relevant medical history, medications, or allergies were mentioned. On clinical review, the patient reported improvement in breathing and normalization of temperature, but persistent tiredness and low energy. The doctor assessed that the patient likely experienced a mild respiratory infection with lingering fatigue and weakness. The doctor recommended gradual return to normal activity, avoiding overexertion, and advised monitoring for worsening breathing, new chest pain, or recurrent fever as reasons to seek care sooner.
+The patient is an adult presenting with shortness of breath as the chief complaint. Symptoms began a few days ago and included dyspnea worsened by physical activity, chest tightness, fever lasting a couple of days, and generalized weakness; there was no cough, chills, or significant sweating. The patient reports improvement in breathing and normalization of temperature, but ongoing fatigue and low energy persist. Fever resolved after a few days, and current activities such as walking around the house are now manageable, though stairs were previously difficult. There is no mention of relevant past medical history, medications, or allergies in the dialogue. The clinical impression documented by the doctor is a mild viral respiratory infection. The treatment plan includes reassurance, advice to gradually resume activity without overexertion, and instructions to seek further care if symptoms worsen or new symptoms such as chest pain or high fever develop. The patient also mentioned increased low back pain, but this was not addressed in the assessment or plan.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
+- **STS Score**: 0.541
+- **Model Used**: general
+- **Text1 Length**: 178 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

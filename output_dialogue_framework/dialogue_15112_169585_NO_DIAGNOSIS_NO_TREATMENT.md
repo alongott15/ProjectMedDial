@@ -87,16 +87,21 @@ If you ever notice the pressure coming on at rest, lasting longer than usual, or
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with a history of chest pain since 2156. He was found to have 3-vessel coronary artery disease on cardiac catheterization. His past medical history includes hypertension, hypercholesterolemia, gout, aphthous stomatosis, gastroesophageal reflux disease, and abnormal movements in sleep; admission medications included atenolol, Accupril, Lipitor, allopurinol, colchicine, ranitidine, and aspirin. On admission, he underwent a five-vessel coronary artery bypass graft (CABG) and had an uncomplicated postoperative course. On the day of discharge, his vital signs were stable and his physical exam was unremarkable except for a low hematocrit of 19.7. He received two units of packed red blood cells after discussion of risks and benefits. The documented diagnosis was multivessel coronary artery disease status post CABG. The treatment plan included transfusion, advancement of diet, and routine postoperative care.
+The patient is a 61-year-old male presenting with a history of chest pain since 2156. He was found to have 3-vessel coronary artery disease on cardiac catheterization. His past medical history includes hypertension, hypercholesterolemia, gout, aphthous stomatosis, gastroesophageal reflux disease, and abnormal movements in sleep; medications on admission included atenolol, Accupril, Lipitor, allopurinol, colchicine, ranitidine, and aspirin. The documented diagnosis was multivessel coronary artery disease. He underwent a five-vessel coronary artery bypass graft on 2166-1-28 and had an uncomplicated postoperative course. On the day of discharge, he was stable but had a hematocrit of 19.7 and received 2 units of packed red blood cells. At discharge, he was comfortable, vital signs were stable, and his incision was clean and intact. He was discharged home in stable condition with follow-up arranged in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain described as a pressure sensation, which was their main concern. The chest pressure has been present for a few days, is rated 5–6/10 in intensity during activity, and is relieved by rest; it does not occur at rest or at night. The patient denied associated symptoms such as shortness of breath, sweating, or palpitations. Relevant history includes hypertension and hypercholesterolemia, with no diabetes or prior heart conditions mentioned. On assessment, the doctor noted that the exertional chest pressure relieved by rest, in the context of cardiovascular risk factors, is suggestive of possible angina. The doctor recommended avoiding strenuous activity and advised prompt follow-up with the patient’s regular doctor for further evaluation, including possible cardiac testing and treatment adjustments. The patient was instructed to seek immediate medical attention if symptoms worsen, occur at rest, or are accompanied by new symptoms such as nausea, sweating, or shortness of breath.
+The patient is an adult presenting with chest pain as the chief complaint. The pain is described as a pressure sensation in the chest, rated 5–6 out of 10 in intensity, occurring primarily during physical activity and resolving with rest; it has been present for several days without significant change. The patient denies associated symptoms such as dyspnea, sweating, or palpitations, and reports no pain at rest. Relevant history includes hypertension and hypercholesterolemia, with ongoing treatment for both conditions. The clinical impression documented by the doctor is that the symptoms are suggestive of angina, likely related to underlying cardiovascular risk factors. The treatment plan includes avoiding strenuous activity until further evaluation, scheduling a follow-up with the patient’s regular doctor for cardiac assessment, and monitoring for any worsening symptoms such as chest pain at rest, prolonged discomfort, or new symptoms like nausea, sweating, or shortness of breath. The patient was advised to seek immediate medical attention if these warning signs occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.557
+- **Model Used**: general
+- **Text1 Length**: 133 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

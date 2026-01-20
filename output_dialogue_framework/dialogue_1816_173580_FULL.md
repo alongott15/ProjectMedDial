@@ -87,16 +87,21 @@ Does that plan make sense to you, or is there anything else about your symptoms 
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with chest pain who was admitted for cardiac catheterization. He was found to have multivessel coronary artery disease and subsequently underwent a coronary artery bypass graft x2 on admission day. His postoperative course included ventilator support, which he was successfully weaned from, and management of low hematocrit with transfusions. An intra-aortic balloon pump placed during catheterization was removed without complication on postoperative day 1. Physical therapy was involved for ambulation, and his chest tube, Foley catheter, JP drain, and wires were all removed sequentially as he recovered. The documented diagnosis was multivessel coronary artery disease requiring surgical intervention. He was discharged home in stable condition with instructions for follow-up with his primary care physician and cardiothoracic surgery, and prescribed medications including Percocet, Colace, Synthroid, inhalers (albuterol, ipratropium), aspirin, Lopressor, Lasix, and Protonix.
+The patient is a 62-year-old male presenting with chest pain who was admitted for cardiac catheterization. He was found to have multivessel coronary artery disease and subsequently underwent a coronary artery bypass graft x2 on admission day. Postoperatively, he required ventilatory support, transfusions for low hematocrit and hemodynamic stability, and had an intra-aortic balloon pump placed and later removed without complication. Physical therapy was involved for ambulation, and his chest tube, Foley catheter, and JP drain were removed sequentially as he recovered. His pain was controlled, and he was able to tolerate a regular diet with continued ambulation. The documented diagnosis was multivessel coronary artery disease requiring surgical intervention. He was discharged home in stable condition with instructions for follow-up with his primary care physician and cardiothoracic surgery, and prescribed medications including Percocet, Colace, Synthroid, inhalers (albuterol, ipratropium), aspirin, Lopressor, Lasix, and Protonix.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest pain began a few days ago, is described as a pressure-like sensation, comes and goes, lasts a few minutes each time, and is rated 4–5 out of 10 in intensity. The pain occurs both during activity and at rest, has no clear triggers, is not affected by changes in position, and is not associated with shortness of breath, sweating, or lightheadedness. The patient denied recent illnesses, new medications, or changes in health or routine. On examination, no additional physical findings were noted by the doctor or described by the patient. The doctor assessed that while the absence of associated symptoms is somewhat reassuring, chest discomfort warrants careful evaluation due to possible cardiac causes. The doctor recommended monitoring for warning signs (such as worsening pain, longer duration, exertional symptoms, or new associated symptoms), keeping a symptom diary, and proceeding with an ECG and bloodwork to rule out serious conditions. The patient agreed with the plan and expressed understanding.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain began a few days ago, is described as a pressure-like sensation rated 4–5 out of 10 in intensity, lasts a few minutes per episode, and occurs both at rest and with activity without clear triggers or alleviating factors. The patient denies associated symptoms such as dyspnea, diaphoresis, or lightheadedness, and reports no recent illnesses, medication changes, or increased stress. There is no effect of position or movement on the pain. Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression is that while the symptoms are somewhat reassuring due to the absence of classic warning signs, cardiac causes cannot be ruled out. The treatment plan includes monitoring for warning signs (such as worsening pain, new associated symptoms, or increased severity), keeping a symptom diary, and arranging for an ECG and bloodwork to further evaluate the cause of the chest pain.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.547
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

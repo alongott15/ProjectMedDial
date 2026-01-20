@@ -87,16 +87,23 @@ Does anything seem to make your appetite or energy better or worse, or is it fai
 
 ## EHR Summary
 
-The patient is an 85-year-old woman presenting with painless jaundice, dark urine, pruritus, constipation, decreased appetite, early satiety, and a 10-pound weight loss. These symptoms led to the discovery of an ampullary mass during ERCP with biopsy. Her past medical history includes two breast lumps, varicose veins, and prior tonsillectomy and adenoidectomy; she has no known drug allergies and takes only a multivitamin and Tums. On admission, she underwent a pylorus-preserving pancreaticoduodenectomy (Whipple procedure) and open cholecystectomy. Postoperatively, she developed slow oozing requiring multiple blood transfusions and later experienced a drop in hematocrit with abdominal tenderness and firmness. Exploratory laparotomy revealed hemoperitoneum without active bleeding and intact anastomoses; her abdomen was washed out. She was returned to the ICU intubated and started on Levofloxacin and Flagyl for suspected aspiration pneumonia. The documented diagnosis was ampullary mass with postoperative hemoperitoneum.
+The patient is an 85-year-old woman presenting with painless jaundice, dark urine, pruritus, constipation, decreased appetite, early satiety, and a 10-pound weight loss. Symptoms were noted prior to referral and led to the discovery of an ampullary mass during ERCP with biopsy. Her past medical history includes two breast lumps, varicose veins, and prior tonsillectomy and adenoidectomy; she has no known drug allergies and takes only a multivitamin and Tums. The documented diagnosis is ampullary mass with obstructive jaundice. She underwent a pylorus-preserving pancreaticoduodenectomy (Whipple procedure) and open cholecystectomy, complicated by postoperative hemoperitoneum requiring reoperation, prolonged intubation, and management for possible aspiration pneumonia and infection. Postoperative care included blood transfusions, antibiotics (Zosyn), octreotide, TPN, diuresis with Lasix, pain control with morphine, and heart rate control with Lopressor. Her condition stabilized with decreasing white count and adequate urine output. She is currently in the ICU but is scheduled for transfer to the floor and subsequent rehabilitation.
+
 
 ## Dialogue Summary
 
-The patient presented with complaints of feeling weaker than usual and decreased ability to perform daily activities. Symptoms included overall weakness, reduced steadiness and strength, difficulty getting up and moving around the house, and a gradual worsening over the past few weeks. The patient reported a significant decrease in appetite, managing only one small meal and occasional snacks per day, but denied lightheadedness, falls, trouble swallowing, nausea, or feeling full quickly; the weakness was described as constant throughout the day. No relevant medical history, medications, or allergies were mentioned during the encounter. The doctor assessed that the patient's weakness is likely related to poor nutritional intake due to reduced appetite over recent weeks. The doctor recommended increasing intake by having small, frequent snacks or drinks throughout the day, suggesting easy-to-eat foods such as yogurt, soup, or smoothies. The patient was advised to seek prompt medical attention if new symptoms such as fever, confusion, or sudden worsening occur. The patient expressed understanding of the assessment and agreed to try the suggested dietary changes.
+The patient presents with the chief complaint of progressive generalized weakness. Over the past few weeks, the patient has experienced increasing difficulty with daily activities such as getting up and moving around the house, describing the weakness as constant throughout the day. The patient reports a significant decrease in appetite and oral intake, now managing only one small meal and occasional snacks per day, without associated symptoms such as lightheadedness, falls, dysphagia, or nausea. No specific triggers or alleviating factors for the symptoms were identified.
+
+There is no relevant past medical history, medications, or allergies documented in this encounter. The clinical impression is that the patient's weakness is likely related to reduced nutritional intake secondary to decreased appetite. The treatment plan includes recommendations to increase intake through small, frequent snacks and easy-to-eat foods such as yogurt, soup, or smoothies, and to seek prompt medical attention if new symptoms like fever, confusion, or sudden worsening occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.935
-- **Similarity Label**: N/A
+- **STS Score**: 0.374
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 155 words
+
 
 ## Processing Information
 

@@ -63,16 +63,21 @@
 
 ## EHR Summary
 
-The patient is an 82-year-old female presenting for evaluation of atrial flutter. She experienced increased dyspnea on exertion and a rapid, irregular heartbeat for one month, with fever and chills over the past week and a half, and was unable to get out of bed due to shortness of breath prior to admission. Her relevant history includes coronary artery disease (status post coronary artery bypass graft and mitral valve repair), hypercholesterolemia, diabetes mellitus, hypertension, and prior retroperitoneal liposarcoma resection. On review of systems, she denied chest pain, orthopnea, paroxysmal nocturnal dyspnea, and palpitations, but reported mild pedal edema and improving shortness of breath. At the outside hospital, she was diagnosed with congestive heart failure, right lower lobe pneumonia, and atrial flutter with 4:1 block. She was treated with Levaquin and started on a heparin drip; a positive D-dimer (>1,000) and low probability V/Q scan were noted. Admitting medications included aspirin and NPH insulin. She is currently stable and comfortable, admitted for further evaluation of atrial flutter.
+The patient is an 82-year-old female presenting for evaluation of atrial flutter. She reported one month of increased dyspnea on exertion and rapid, irregular heartbeat, with recent fever, chills, and inability to get out of bed due to shortness of breath; symptoms improved by admission. Her history includes coronary artery disease (status post CABG and mitral valve repair), hypercholesterolemia, diabetes mellitus, hypertension, and recent right lower lobe pneumonia. On admission, she was diagnosed with atrial flutter, congestive heart failure, and had been treated for pneumonia with Levaquin. During hospitalization, she underwent atrial flutter ablation and DDD pacemaker placement, with rate control achieved using Lopressor and discontinuation of Cardizem. She was started on diuresis for heart failure and continued on anticoagulation (heparin drip, later Coumadin), with additional management for diabetes and hyperlipidemia. At discharge, her symptoms had resolved, and she was asymptomatic with stable vital signs. Discharge medications included Lopressor, Imdur, Lasix, Captopril, Lipitor, aspirin, NPH insulin, sliding scale regular insulin, and Coumadin.
+
 
 ## Dialogue Summary
 
-The patient presented with tenderness in the legs as the chief complaint. The tenderness is constant and most noticeable when pressing on the legs, has been present for a few days, and makes getting up from a chair more difficult, though walking remains manageable. The patient described being more cautious due to the tenderness but did not report additional symptoms such as swelling, redness, or changes in skin temperature. No relevant medical history, medications, or allergies were mentioned. On examination, no specific physical findings were documented due to incomplete information. The doctor did not provide a formal assessment or working diagnosis during the conversation. No treatment plan or specific recommendations were given in this encounter.
+The patient presents with leg tenderness as the chief complaint. The tenderness is constant and most noticeable when pressing on the legs, and has been present for a few days. The patient reports increased difficulty getting up from a chair but is still able to walk, though more cautiously due to the discomfort. There is no mention of swelling, redness, or changes in skin temperature at this stage. Relevant medical history, medications, allergies, and a formal diagnosis are not specified in the dialogue. No specific treatment or recommendations have been documented yet.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.931
-- **Similarity Label**: N/A
+- **STS Score**: 0.220
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 92 words
+
 
 ## Processing Information
 

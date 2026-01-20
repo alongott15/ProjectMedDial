@@ -89,16 +89,23 @@ How much are these symptoms affecting your day-to-day life right now? Are you ab
 
 ## EHR Summary
 
-The patient is a 65-year-old male presenting for evaluation after an MRI revealed a large left-sided cerebellar lesion with significant surrounding edema during routine postoperative follow-up. He reported one episode of vomiting three days prior but denied headache, fever, chills, nausea, visual changes, or altered mentation. His medical history includes non-small cell and small cell adenocarcinoma of the lung treated with chemotherapy and radiation, post-radiation esophagitis requiring tube feeding, appendectomy, and mild left hip arthritis. Current medications are Buspar, amitriptyline, and Prilosec; he has no known drug allergies. On physical exam, he was tachycardic but otherwise stable, with a slightly abnormal finger-to-nose test neurologically. The documented clinical impression is a cerebellar lesion with edema in the context of prior lung cancer. The patient was advised to come to the Emergency Room for further evaluation and management. Specific treatments or interventions during this admission are not detailed in the note.
+The patient is a 65-year-old male presenting for evaluation after an MRI revealed a large left-sided cerebellar lesion with significant surrounding edema during routine postoperative follow-up. He reported one episode of vomiting three days prior but denied headache, fever, chills, nausea, visual changes, or altered mentation. His history includes non-small cell and small cell adenocarcinoma of the lung treated with chemotherapy and radiation, post-radiation esophagitis, bilateral peripheral neuropathy, appendectomy, and mild left hip arthritis; current medications include Buspar, Amitriptyline, and Prilosec, with no known drug allergies. On examination, he had mild left-sided dysmetria and proximal leg weakness but was otherwise neurologically intact. The documented diagnosis was a cerebellar tumor with associated edema. Treatment included suboccipital craniotomy for tumor resection, postoperative monitoring, and initiation of Decadron with a planned taper, along with other supportive medications. He was discharged home in stable condition with instructions for follow-up in the Brain Clinic in two weeks and staple removal in 10 days.
+
 
 ## Dialogue Summary
 
-The patient presented with vomiting as the chief complaint. Vomiting began a few days ago, occurs unpredictably, and sometimes happens even without recent food intake; the patient can usually keep some food and liquids down. Additional symptoms include mild to moderate numbness and tingling in both hands, fingers, and toes, present most of the time without specific triggers, and new weakness and coordination difficulty affecting the left leg, especially when rising from a chair or climbing stairs; hand coordination remains intact. No fever, abdominal pain, or changes in bowel movements were reported. The patient denied interference with fine motor tasks and stated that daily activities are manageable, though slower due to leg weakness. The doctor noted that the combination of vomiting, sensory changes, and unilateral leg weakness could suggest a neurological cause rather than a simple gastrointestinal issue. The doctor advised close monitoring for worsening symptoms, such as increased weakness, trouble speaking or seeing, or severe headache, and emphasized the importance of staying hydrated. The patient was instructed to seek prompt medical attention if unable to keep fluids down or if symptoms progress.
+The patient is an adult presenting with vomiting as the chief complaint. The vomiting began a few days ago, occurs unpredictably, and sometimes happens even without recent food intake, though the patient can usually keep some food and liquids down. Additional symptoms include ongoing mild to moderate numbness and tingling in both hands, fingers, and toes (present most of the time, not triggered by specific activities), and new weakness and coordination difficulties affecting the left leg, particularly when rising from a chair or climbing stairs. There is no fever, abdominal pain, or change in bowel movements, and the numbness does not interfere with fine motor tasks.
+
+Relevant history, medications, and allergies are not specified. The clinical impression is that the combination of vomiting, sensory changes, and unilateral leg weakness may indicate a neurological issue rather than a simple gastrointestinal cause. The treatment plan includes close monitoring of symptoms, maintaining hydration, and instructions to seek urgent care if symptoms worsen (such as increased weakness, trouble speaking or seeing, severe headache, or inability to keep fluids down). The patient is currently able to manage daily activities with only mild limitations due to left leg weakness.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
+- **STS Score**: 0.504
+- **Model Used**: general
+- **Text1 Length**: 158 words
+- **Text2 Length**: 193 words
+
 
 ## Processing Information
 

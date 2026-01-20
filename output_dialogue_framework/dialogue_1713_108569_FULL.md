@@ -89,16 +89,21 @@ Does this plan make sense to you, or do you have any questions about what we’v
 
 ## EHR Summary
 
-The patient is a 70-year-old male presenting with epigastric pain for several hours that migrated to the right upper quadrant. He denied nausea, vomiting, or prior similar episodes. His past medical history includes brain metastasis secondary to renal carcinoma, status post left nephrectomy, and a prior myocardial infarction. On examination, he was alert and oriented, with right upper quadrant abdominal tenderness and voluntary guarding; laboratory studies were within normal limits, and abdominal ultrasound showed a distended gallbladder with stones and a positive sonographic Murphy's sign, but no wall thickening or pericholecystic fluid. The documented diagnosis was gallstone disease with acute cholecystitis. The patient was admitted, started on antibiotics, made NPO, and underwent a laparoscopic cholecystectomy that was converted to an open procedure. Postoperatively, he received Lopressor, Levofloxacin, Flagyl, and subcutaneous Heparin.
+The patient is a 70-year-old male presenting with several hours of epigastric pain that migrated to the right upper quadrant, without associated nausea, vomiting, or prior episodes. Examination revealed right upper quadrant tenderness and voluntary guarding, and abdominal ultrasound showed a distended gallbladder with stones and a positive sonographic Murphy's sign. Relevant history includes brain metastasis secondary to renal carcinoma (status post left nephrectomy), and prior myocardial infarction; current medications include Dilantin, Lipitor, and folic acid. The documented diagnosis was cholecystitis. The patient underwent laparoscopic cholecystectomy converted to open cholecystectomy, received antibiotics (Levofloxacin, Flagyl), and was started on Lopressor and subcutaneous Heparin postoperatively. Postoperative complications included an episode of unresponsiveness requiring Narcan and ICU monitoring, as well as persistent oxygen dependence and unsteady ambulation. At discharge, the patient was stable but required supplemental oxygen and was referred to a rehabilitation facility with follow-up arranged in 10–14 days. Discharge medications included atenolol, Percocet as needed for pain, Dilantin, Lipitor, folic acid, Combivent inhaler, and oxygen.
+
 
 ## Dialogue Summary
 
-The patient presented with upper abdominal pain that has shifted toward the right side. The pain began a few days ago, is described as a dull ache with occasional pressure, rated at 6/10 in severity, and is associated with tenderness on the right side; it is worsened by movement and improved with rest, with no effect from eating. The patient denied nausea, vomiting, fever, jaundice, dark urine, appetite changes, cough, or chest discomfort but reported recent shortness of breath, a need for supplemental oxygen, and feeling unsteady when walking. Relevant history includes the use of oxygen for unspecified reasons; no medications or allergies were mentioned. On clinical assessment, the doctor noted right-sided abdominal tenderness and mild shortness of breath without signs of jaundice or infection. The doctor’s assessment included possible mild inflammation, muscle strain, or gallbladder irritation, with less concern for lung infection due to the absence of cough or chest pain. The doctor recommended gentle rest, avoiding strenuous activity, staying hydrated, and monitoring for warning signs such as severe pain, fever, persistent vomiting, or yellowing of the skin. The patient was advised to seek prompt medical attention if symptoms worsen or if breathing becomes more difficult.
+The patient is an adult presenting with upper abdominal pain that has shifted toward the right side. The pain began a few days ago, is described as a dull ache with occasional pressure, rated at 6/10 in severity, and is associated with right-sided tenderness; it is worsened by movement and improved with rest, with no effect from eating. The patient denies nausea, vomiting, fever, jaundice, or changes in urine, but reports recent shortness of breath, need for supplemental oxygen, and mild unsteadiness when walking. There is no cough or chest discomfort. Relevant history includes the use of oxygen for unspecified reasons. The clinical impression is possible mild inflammation, muscle strain, or gallbladder irritation, with less likelihood of liver or lung infection due to the absence of systemic symptoms. The treatment plan includes gentle rest, avoiding strenuous activity, maintaining hydration, and monitoring for warning signs such as severe pain, fever, persistent vomiting, or jaundice; the patient is advised to seek prompt medical attention if symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.540
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

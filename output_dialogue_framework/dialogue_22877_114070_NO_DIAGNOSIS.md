@@ -106,3 +106,23 @@ If you have any questions about what might be causing these symptoms or what to 
 ## Processing Information
 
 - **Processing Time**: 421.5s
+
+## EHR Summary
+
+The patient is a 79-year-old woman admitted for additional repair and revision of a thoracoabdominal aortic aneurysm. She presented without acute distress and underwent redo left thoracotomy with replacement of the descending aorta, followed by an exploratory laparotomy and celiac to superior mesenteric artery bypass due to postoperative abdominal tenderness and imaging findings of thrombus. Her past medical history includes prior abdominal aortic aneurysm repair, hypertension, hypercholesterolemia, right adrenal mass, osteoarthritis, osteoporosis, polymyalgia rheumatica (PMR), and chronic low back pain; home medications included aspirin, Lipitor, Norvasc, and Fosamax, with no known drug allergies. During her hospital course, she experienced episodes of dyspnea during ventilator weaning, a rising white count without identified infection, moderate left pleural effusion, and intermittent atrial fibrillation. The documented diagnoses were status post redo thoracotomy with aortic graft, exploratory laparotomy with vascular bypass, hypertension, hypercholesterolemia, right adrenal mass, osteoarthritis, osteoporosis, PMR, and chronic low back pain. Treatment included surgical interventions, antibiotics (later discontinued), anticoagulation with warfarin and heparin, amiodarone and beta-blockers for atrial fibrillation, diuretics, potassium supplementation, and supportive care with physical therapy. At discharge, she was stable and transferred to rehabilitation with instructions for follow-up and a regimen including isotalopram, Flovent, warfarin (target INR 2–2.5), Lopressor, amiodarone, Lasix, potassium chloride, Darvocet as needed, Metamucil, multivitamin, zinc sulfate, and sliding scale insulin.
+
+
+## Dialogue Summary
+
+The patient presents with abdominal pain and tenderness as the chief complaint. The abdominal discomfort has been gradually increasing over several days, is localized to the lower abdomen, rated 5 out of 10 in severity, and is worsened by palpation but not by movement; there are no associated changes in appetite, bowel habits, or fever. The patient also reports dyspnea, particularly during ventilator weaning attempts, described as a gradual onset and partially relieved by sitting up and slow breathing; diminished breath sounds are noted on the left side. Additional symptoms include intermittent atrial fibrillation and mild swelling in the legs and feet. Relevant history includes recent ventilator use and current cardiac arrhythmia.
+
+The clinical impression is that the symptoms may be related to fluid retention and cardiac function, possibly due to inefficient heart pumping, as well as decreased mobility post-ventilation. The treatment plan includes monitoring for worsening symptoms (such as increased swelling, chest pain, or changes in urine output), elevating the legs, sitting upright to aid breathing and swelling, and keeping the care team informed of any new developments. No new medications or interventions were documented during this encounter.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.535
+- **Model Used**: general
+- **Text1 Length**: 215 words
+- **Text2 Length**: 189 words
+

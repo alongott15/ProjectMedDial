@@ -87,16 +87,21 @@ Let me ask—how long have you been feeling more tired than usual? Did that star
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with presyncope. He reported a one-week history of fatigue, lightheadedness, and melena with occasional hematochezia, as well as band-like chest pain radiating from his back, worsened by deep breaths and movement but without dyspnea, nausea, vomiting, or diaphoresis. His relevant history includes chronic lower back pain post-bicycle accident, hyperplastic colon polyp, rheumatic fever, obstructive sleep apnea, childhood polio, and sulfa allergy; he had been taking ibuprofen 400 mg every 4–6 hours for about a month. On examination, he was afebrile with a blood pressure of 105/66 mmHg, pulse 82, and dry mucous membranes noted. The documented diagnosis is not explicitly stated in the note. Treatment details are not specified in the provided excerpt.
+The patient is a 58-year-old male presenting with presyncope. He reported a one-week history of fatigue, lightheadedness, melena, and occasional bright red blood per rectum, along with band-like chest pain and chronic back pain. His medical history includes chronic lower back pain post-bicycle accident, hyperplastic colon polyp, rheumatic fever, obstructive sleep apnea, and childhood polio; he is allergic to sulfa. On admission, he was found to have anemia (hematocrit 24.3, nadir 13.9) and a brisk upper gastrointestinal bleed, with EGD revealing a duodenal clot and active bleeding requiring gastroduodenal artery embolization and transfusion of six units of packed red blood cells. The documented diagnoses were upper GI bleed, anemia secondary to blood loss, melena, and chest pain not otherwise specified. Treatment included embolization, blood transfusions, initiation of Protonix 40 mg twice daily, and discontinuation of NSAIDs and omega oils; Ultram was started for chronic back pain. The patient was stable at discharge with a hematocrit of approximately 28, tolerating a regular diet, and without ongoing GI symptoms. He was advised to avoid NSAIDs, alcohol, and coffee, and to follow up with his primary care physician in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with several days of lightheadedness, describing episodes that come and go throughout the day and are sometimes worsened by standing or moving around. Additional symptoms include increased fatigue starting around the same time as the lightheadedness, making daily activities such as walking around the house more difficult, and chest pain described as a band across the chest radiating to the back, which worsens with deep breaths or movement and improves somewhat with rest. The patient denied palpitations or shortness of breath and reported a history of obstructive sleep apnea without recent changes in sleep quality. On review, the doctor noted that symptoms are exacerbated by movement or standing and that chest discomfort is pleuritic in nature but partially relieved by rest. The doctor’s assessment included possible contributions from dehydration, low blood pressure, or sleep apnea, and considered musculoskeletal or inflammatory causes for the chest pain while emphasizing caution with chest symptoms. The doctor recommended tracking episodes of lightheadedness, ensuring adequate hydration, and seeking prompt medical attention if severe shortness of breath, persistent chest pressure, or fainting occurs. The patient acknowledged understanding of these recommendations.
+The patient is an adult presenting with lightheadedness as the chief complaint. They report several days of intermittent lightheadedness, increased fatigue, and reduced energy, with symptoms worsening during movement or standing and making daily activities more difficult. The patient also describes chest pain described as a band across the chest radiating to the back, which is aggravated by deep breathing or movement and partially relieved by rest; no palpitations or shortness of breath are reported. Relevant history includes obstructive sleep apnea with no recent changes in sleep quality. The clinical impression discussed includes possible contributions from dehydration, low blood pressure, or sleep apnea, with consideration of musculoskeletal or inflammatory causes for the chest pain. The treatment plan includes monitoring symptom patterns, ensuring adequate hydration, and instructions to seek prompt medical attention if severe shortness of breath, persistent chest pressure, or syncope occurs. No new medications or diagnostic tests were documented during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.426
+- **Model Used**: general
+- **Text1 Length**: 188 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

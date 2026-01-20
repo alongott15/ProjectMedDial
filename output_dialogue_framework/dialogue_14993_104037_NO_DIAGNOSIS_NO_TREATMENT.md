@@ -107,16 +107,21 @@ You’re doing the right thing by bringing this up early, and we’ll make sure 
 
 ## EHR Summary
 
-The patient is a 74-year-old male presenting with hematuria. He reported blood in the urine, and cystoscopy revealed an enlarged, friable prostate, while a CT scan identified a 7.3 x 6.0 cm left adrenal mass; urine catecholamines were negative. His relevant history includes benign prostatic hypertrophy, coronary artery disease (EF 45%), hypercholesterolemia, sleep apnea, prior knee and carpal tunnel surgeries, and depression; he takes Zoloft, Terazosin, Lipitor, Diovan, Diltiazem, aspirin, and Flovent, with no known drug allergies. On examination, he was afebrile with stable vital signs, a soft nontender abdomen, clear lungs, and no edema. The clinical impression was left adrenal mass and hematuria likely secondary to prostatic hypertrophy. He underwent a left adrenalectomy without complications, received one unit of packed red blood cells for a hematocrit of 28, and was started on a hydrocortisone taper postoperatively. He was monitored in the ICU, extubated the same day, remained hemodynamically stable, and was ruled out for myocardial infarction before discharge.
+The patient is a 74-year-old male presenting with hematuria. He reported blood in the urine, and cystoscopy revealed an enlarged, friable prostate possibly causing the hematuria; a CT scan also identified a 7.3 x 6.0 cm left adrenal mass. His relevant history includes benign prostatic hypertrophy, coronary artery disease (EF 45%), hypercholesterolemia, sleep apnea, prior knee and carpal tunnel surgeries, and depression; he has no known drug allergies. The documented diagnoses were status post adrenalectomy, coronary artery disease, sleep apnea, benign prostatic hypertrophy, and depression. He underwent a left adrenalectomy, tolerated the procedure well, and was monitored postoperatively in the ICU before transfer to the floor. Postoperative care included a hydrocortisone taper, transfusion of one unit of packed red blood cells for hematocrit of 28, pain management, and gradual diet advancement. He was afebrile and hemodynamically stable throughout admission, with no evidence of postoperative myocardial infarction. The patient was discharged in stable condition to a rehabilitation facility with follow-up arranged in two to three weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with blood in the urine (hematuria) noticed a couple of times over the past few days. The patient denied any pain or discomfort with urination, lower abdominal or back pain, fever, unexplained weight loss, night sweats, or changes in urine color aside from the blood; there was no association with specific activities such as exercise or straining. The patient reported no prior history of urinary tract issues or kidney problems and has not experienced this symptom before. On review, there were no additional symptoms or physical findings described. The doctor assessed this as isolated painless hematuria without other concerning features, noting that common causes can include minor irritation, benign prostatic changes, or less commonly infection or urinary tract pathology. The doctor recommended a urine test to check for infection or other abnormalities and advised monitoring for new symptoms such as pain, increased urinary frequency or urgency, fever, larger amounts of blood, or blood clots. The patient was instructed to stay hydrated, continue normal activities, and promptly report any worsening or new symptoms. Further evaluation would be considered based on urine test results.
+The patient is an adult male presenting with painless hematuria (blood in urine) noticed a couple of times over the past few days. He reports no associated dysuria, abdominal or back pain, fever, weight loss, night sweats, or changes in urinary frequency or appearance outside of the hematuria. There is no prior history of urinary tract or kidney problems, and no clear triggers such as exercise or straining were identified. The clinical impression is isolated painless hematuria without other concerning symptoms; possible causes discussed include benign prostatic changes, minor irritation, or less commonly, infection or urinary tract pathology. The treatment plan includes obtaining a urine test to check for infection or other abnormalities and monitoring for new symptoms such as pain, fever, increased bleeding, or urinary difficulty. The patient was advised to stay hydrated, continue normal activities, and promptly report any worsening or new symptoms. Further evaluation will be considered based on urine test results.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.608
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 155 words
+
 
 ## Processing Information
 

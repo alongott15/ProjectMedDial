@@ -87,16 +87,23 @@ Let me know if you have any questions or if there’s anything else on your mind
 
 ## EHR Summary
 
-The patient is a 54-year-old male presenting with chest pain. He describes his chest pain as "cold tight air in chest," but recently denies any symptoms including nausea, vomiting, or dyspnea. His history is significant for coronary artery disease with prior stenting of the left circumflex artery (twice in 2107), hypercholesterolemia, obesity, cholelithiasis, and anemia (thalassemia). He has no known drug allergies and is taking pravachol, lopressor, and aspirin. Family history includes myocardial infarction and coronary artery disease. On review of systems, he reports a 10–15 pound exercise-related weight loss and shortness of breath with two flights of stairs. Physical exam notes a heart rate of 68. The patient was referred for further workup after a markedly positive stress test; specific diagnosis and treatment plan are not documented in the provided note.
+The patient is a 54-year-old male presenting with chest pain. He described his chest pain as "cold tight air in chest," but recently denied any symptoms including nausea, vomiting, or dyspnea on exertion. His history is significant for coronary artery disease with prior stenting of the left circumflex artery, hypercholesterolemia, obesity, cholelithiasis, and anemia (thalassemia). Cardiac catheterization revealed severe multivessel coronary artery disease, including 95% stenosis of the left circumflex and 80% stenosis of the LAD. The documented diagnosis was coronary artery disease, status post coronary artery bypass grafting (CABG) times three. Treatment included CABG with LIMA to LAD, saphenous vein graft to PDA, and left radial to OM, along with postoperative management and blood transfusions for low hematocrit. The patient was discharged in stable condition on medications including Lopressor, Lasix, potassium, Colace, Zantac, isosorbide mononitrate, Pravachol, aspirin, ibuprofen, and Dilaudid as needed. He was advised to follow up with his cardiologist in four weeks and his primary care physician in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain. The chest pain is described as a pressure-like sensation, rated 5–6 out of 10 in intensity, and occurs primarily during physical activity such as climbing stairs; it does not occur at rest or when lying down. Associated symptoms include shortness of breath with exertion, which resolves quickly upon resting; the patient denied fatigue, sweating, nausea, or lightheadedness. The patient reported a recent weight loss of 10–15 pounds attributed to increased exercise, with no changes in exercise routine otherwise. No additional medical history, medications, or allergies were mentioned. The doctor noted that the exertional chest pressure and shortness of breath, without concerning symptoms at rest or other warning signs, may be related to increased cardiac demand during activity but advised caution due to the potential for underlying heart issues. The doctor recommended follow-up with the patient’s primary care provider for further evaluation, including possible physical exam and cardiac testing, and advised the patient to seek prompt medical attention if symptoms worsen or new symptoms develop.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is described as a pressure-like sensation, rated 5–6 out of 10 in intensity, and occurs primarily with physical activity such as climbing stairs; it is not present at rest or when lying down. The patient also experiences shortness of breath with exertion (noted after two flights of stairs) but recovers quickly upon resting and denies associated symptoms such as sweating, nausea, lightheadedness, or increased fatigue. There is a history of recent weight loss attributed to increased exercise, with no other significant changes reported.
+
+The clinical impression is that the symptoms are exertional and may be related to increased cardiac demand during activity, but underlying heart issues cannot be ruled out. The treatment plan includes a recommendation to follow up with the primary care provider for further evaluation, including a physical exam and possible tests such as an EKG or stress test. The patient was advised to monitor for worsening symptoms or new concerning signs (such as severe pain, symptoms at rest, sweating, or fainting) and to seek prompt medical attention if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.510
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 189 words
+
 
 ## Processing Information
 

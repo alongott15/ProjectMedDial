@@ -71,16 +71,21 @@
 
 ## EHR Summary
 
-The patient is a 59-year-old female presenting with left facial pain due to trigeminal neuralgia. She reported chronic pain localized to the left side of her face, prompting evaluation for surgical intervention. Her medical history includes multiple sclerosis with associated left arm tremors, difficulty writing, left leg dragging, a left corneal scar, and occasional constipation; she is allergic to penicillin (causing hives) and bee stings. On examination, she was well-appearing, ambulatory with a cane, and had normal motor strength in the lower extremities. The documented diagnosis was chronic left facial pain secondary to trigeminal neuralgia. She underwent a nucleus caudalis Drez procedure via suboccipital craniectomy and C1-C2 laminectomy with radiofrequency lesioning of the trigeminal nucleus caudalis. The treatment plan included surgical intervention to address her facial pain.
+The patient is a 59-year-old female presenting with chronic left facial pain due to trigeminal neuralgia. Her symptoms included persistent left facial pain, with a history of multiple sclerosis manifesting as left arm tremors, inability to write, and dragging of the left leg; she also reported occasional constipation. She has a known allergy to penicillin (causing hives) and bee stings, and was taking Neurontin, amitriptyline, primidone, and Baclofen prior to admission. The documented diagnosis was chronic left facial pain status post Drez lesion. She underwent a suboccipital craniectomy and C1-C2 laminectomy with radiofrequency Drez lesion in the left trigeminal nucleus caudalis, resulting in resolution of her facial pain. Postoperatively, she experienced nausea that improved over several days and was managed for an abnormal preoperative ECG with increased Lopressor and initiation of aspirin. She was discharged in stable condition with instructions for follow-up with neurosurgery and cardiology, staple removal, and physical/occupational therapy. Discharge medications included aspirin, Lopressor, Tylenol, Percocet, Colace, Dulcolax, Baclofen, primidone, amitriptyline, and Neurontin.
+
 
 ## Dialogue Summary
 
-The patient presented with pain on the left side of the face as the chief complaint. The pain was described as sharp, electric shock-like, and intermittent, with episodes triggered by touching the face—especially around the cheek—and sometimes worsened by chewing; temperature changes did not affect it. The patient reported that the pain started a while ago and has become more frequent recently. Additional symptoms included weakness and trouble with movement on the left side, moderate tremors in the left arm interfering with writing, and occasional dragging of the left leg while walking. No numbness was mentioned. The doctor inquired about symptom severity and characteristics but did not provide a specific assessment or diagnosis during the conversation. No treatment plan or recommendations were given in this dialogue.
+The patient is presenting with left-sided facial pain as the chief complaint. The pain is described as sharp, electric shock-like, and intermittent, primarily triggered by touching the left cheek and sometimes worsened by chewing; temperature changes do not affect it. The pain has been present for an unspecified duration but has become more frequent recently. The patient also reports additional neurological symptoms, including weakness and difficulty with movement on the left side, moderate tremors in the left arm, trouble writing, and occasional dragging of the left leg while walking, all of which moderately interfere with daily activities. Relevant medical history, medications, allergies, and a documented diagnosis are not specified in the dialogue. No specific treatment or recommendations were documented in this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.658
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 122 words
+
 
 ## Processing Information
 

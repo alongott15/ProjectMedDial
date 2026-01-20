@@ -61,16 +61,21 @@
 
 ## EHR Summary
 
-The patient is a 61-year-old female admitted for coil embolization of a 3.5 mm anterior communicating artery (ACOM) aneurysm. She has a history of significant right (75-80%) and left (65-70%) internal carotid artery stenosis, hypertension, coronary artery disease with prior CABG, COPD, reflux, and schizophrenia. On admission, she was in no acute distress, with a 3+ carotid bruit on the right and fine crackles at the lung bases, but otherwise stable physical findings. The documented diagnosis was an ACOM aneurysm. She underwent successful coil embolization without interprocedural complications. Postoperatively, she remained neurologically intact, with no groin hematoma and preserved pedal pulses. She was monitored overnight and then transferred to the regular floor in stable condition.
+The patient is a 61-year-old female admitted for elective coiling of a 3.5 mm anterior communicating artery (ACOM) aneurysm. She has a history of significant right and left internal carotid artery stenosis, hypertension, coronary artery disease with prior CABG, COPD, reflux, and schizophrenia. On admission, she was in no acute distress, with physical exam notable for a right carotid bruit and mild right lip asymmetry with smile; otherwise, her neurological and systemic exams were unremarkable. The documented diagnosis was an ACOM aneurysm status post coil embolization. The procedure was completed without complications, and her postoperative course was stable with intact pulses and no neurological deficits. She was discharged in stable condition on her home medications with the addition of Percocet as needed for pain and instructions to follow up in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble breathing as the chief complaint. The breathing difficulty has been gradually worsening over the past few days and is making activities such as walking around the house and climbing stairs more challenging, with increased shortness of breath during exertion. The patient denied cough and swelling in the legs but reported mild chest discomfort that is not very strong. No relevant medical history, medications, or allergies were mentioned during the encounter. There were no physical findings noted by the doctor in this dialogue. The doctor did not provide a specific assessment or working diagnosis. No advice, recommendations, or treatment plan were given during this visit.
+The patient presents with the chief complaint of trouble breathing. The dyspnea has been gradually worsening over the past few days and is now interfering with activities such as walking around the house and climbing stairs. The patient reports increased shortness of breath with exertion but denies cough or leg swelling. Mild chest discomfort is present but not severe. Relevant medical history, medications, allergies, diagnosis, and treatment plan are not specified in the dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.909
-- **Similarity Label**: N/A
+- **STS Score**: 0.258
+- **Model Used**: general
+- **Text1 Length**: 132 words
+- **Text2 Length**: 74 words
+
 
 ## Processing Information
 

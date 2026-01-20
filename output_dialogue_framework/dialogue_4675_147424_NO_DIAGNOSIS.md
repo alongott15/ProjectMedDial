@@ -98,3 +98,23 @@ Let me know if you have any questions or if anything changes.
 ## Processing Information
 
 - **Processing Time**: 411.0s
+
+## EHR Summary
+
+The patient is a 54-year-old male presenting with dyspnea and mental status changes after being referred to the emergency room for evaluation of a right upper extremity deep vein thrombosis (DVT) found on routine follow-up. He reported shortness of breath and exhibited confusion, including loss of short-term memory and a brief unresponsive episode following administration of IV Benadryl and steroids. His history is significant for recent aortic valve replacement (AVR), postoperative atrial fibrillation, hypertension, renal calculi, possible sleep apnea, and allergies to Keflex and heparin agents. Imaging revealed a pulmonary embolism, and laboratory testing confirmed heparin-induced thrombocytopenia (HIT) after a drop in platelets following heparin administration. The documented diagnoses were pulmonary embolism, right upper extremity DVT, and HIT. Treatment included discontinuation of heparin, initiation of Argatroban, transition to warfarin, and continuation of other cardiac medications. The patient was discharged in good condition with instructions for wound care, medication adherence, and follow-up for INR monitoring and hematology evaluation.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with recent onset shortness of breath and new short-term memory issues. The dyspnea began within the past couple of days, is mild, and worsens with activity but not at rest or specific times of day; there is no associated chest pain, cough, fever, leg swelling, dizziness, or lightheadedness. The memory changes also started suddenly in the past few days and are limited to forgetfulness without confusion, speech difficulty, or comprehension problems. The patient reports mild impact on daily activities but remains able to manage most tasks.
+
+No relevant past medical history, medications, or allergies were discussed. The clinical impression was that the mild exertional dyspnea may be due to a mild respiratory infection, allergies, or deconditioning, while the sudden memory changes are less typical but not accompanied by concerning neurological symptoms. The treatment plan includes monitoring for any new or worsening symptoms such as chest pain, severe dyspnea at rest, confusion, weakness, or speech difficulties, and seeking urgent care if these develop. The patient was advised to rest, stay hydrated, avoid overexertion, and follow up with their primary care provider if symptoms persist or worsen.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.483
+- **Model Used**: general
+- **Text1 Length**: 157 words
+- **Text2 Length**: 191 words
+

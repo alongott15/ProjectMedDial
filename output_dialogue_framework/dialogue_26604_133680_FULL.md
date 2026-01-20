@@ -107,16 +107,21 @@ In the meantime, keep up with your healthy routines and watch for any changes in
 
 ## EHR Summary
 
-The patient is a 300-year-old female presenting with a left hip fracture. She underwent open reduction and internal fixation during her hospital stay. Her relevant medical history includes coronary artery disease with angina, chronic obstructive pulmonary disease, dementia, hypertension, depression, history of gastrointestinal bleed, history of falls, interstitial lung disease, and anemia. During admission, she was transfused two units of packed red blood cells, increasing her hematocrit from 27 to 37.5. On discharge, her diagnoses included left hip fracture status post-surgery and the aforementioned chronic conditions. The treatment plan included dry sterile dressings, partial weightbearing exercise, supplemental oxygen to maintain saturation between 90% and 94%, and a regimen of medications for pain, anticoagulation, blood pressure, infection prophylaxis, bowel management, and respiratory support. She was instructed to follow up in the orthopedic clinic.
+The patient is a 300-year-old female admitted for management of a left hip fracture. She underwent open reduction and internal fixation for the fracture and received two units of packed red blood cells, with hematocrit increasing from 27 to 37.5. Her medical history includes coronary artery disease with angina, chronic obstructive pulmonary disease, dementia, hypertension, depression, history of gastrointestinal bleed, history of falls, interstitial lung disease, and anemia. The documented diagnoses were left hip fracture status post-surgery and multiple chronic comorbidities as listed. Discharge medications included Percocet for pain, Lovenox for anticoagulation, Lopressor for blood pressure, Levofloxacin for infection prophylaxis, Lasix for fluid management, and several supportive medications. She was advised to continue partial weightbearing exercise, use dry sterile dressings daily and as needed, and maintain oxygen saturation between 90% and 94%. Follow-up was arranged in the orthopedic clinic.
+
 
 ## Dialogue Summary
 
-The patient presented for a general health check-in without any specific symptoms. They reported no recent changes in energy, sleep, appetite, mood, stress levels, physical activity, diet, hydration, or sleep routine, and denied experiencing headaches, coughs, joint stiffness, or digestive changes. No relevant medical history, medications, or allergies were mentioned during the visit. The doctor noted that the patient was feeling well overall with consistent routines and no new limitations. The assessment was that there were no concerning symptoms and the patient’s current health status was stable. The doctor recommended age-appropriate preventive care, including regular screenings such as blood pressure measurement, cholesterol checks, blood sugar testing, cancer screenings (mammogram and colonoscopy), bone density assessment, and vaccinations (flu, pneumonia, shingles). The patient was advised to contact their primary care provider to schedule these screenings and was offered tips for preparing for appointments and organizing health information. The doctor emphasized the importance of early detection through routine tests and encouraged the patient to report any new symptoms promptly.
+The patient presented for a general health check-in without any specific chief complaint or symptoms. They reported no recent changes in energy, sleep, appetite, mood, stress levels, or daily routines, and denied experiencing headaches, coughs, joint stiffness, or digestive changes. There is no relevant medical history, medications, or allergies documented in this encounter. The clinical impression was that the patient is currently well with no concerning symptoms. The doctor emphasized the importance of preventive care and recommended routine screenings appropriate for the patient’s age, including blood pressure measurement, cholesterol and blood sugar testing, cancer screenings (such as mammograms and colonoscopy), bone density assessment, and vaccinations (flu, pneumonia, shingles). The patient was advised to contact their primary care provider to schedule these screenings and to maintain healthy routines. Additional advice included preparing for appointments and organizing health information. No acute treatment or new medications were prescribed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.935
-- **Similarity Label**: N/A
+- **STS Score**: 0.397
+- **Model Used**: general
+- **Text1 Length**: 139 words
+- **Text2 Length**: 145 words
+
 
 ## Processing Information
 

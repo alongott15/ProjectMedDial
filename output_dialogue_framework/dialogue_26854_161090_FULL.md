@@ -87,16 +87,21 @@ Let me know if you have any questions about what to expect during recovery, or i
 
 ## EHR Summary
 
-The patient is a 54-year-old female presenting with headache. She reported extensive headaches associated with a right-sided sphenoid meningioma, which was stable on imaging but refractory to medical management. Her past medical history includes valvular heart disease and occasional heartburn, and she has no known drug allergies. On physical exam, she was alert and oriented, with normal neurological findings and a well-healing surgical incision; headaches persisted but were better controlled with revised medications. Laboratory results were notable for a glucose of 163 mg/dL and otherwise unremarkable basic labs. The documented diagnosis was right-sided sphenoid meningioma. She underwent elective right craniotomy for mass resection without perioperative complications. Postoperative pain was effectively managed with oral medications, and she progressed well during her hospital stay.
+The patient is a 54-year-old female presenting with headache. She had a history of extensive headaches and was found to have a right-sided sphenoid meningioma, which was stable on imaging but refractory to medical management. Her past medical history includes valvular heart disease and occasional heartburn, and she has no known drug allergies. The documented diagnosis was right-sided brain mass. She underwent an elective right craniotomy for mass resection without perioperative complications, and her postoperative pain was controlled with oral medications. At discharge, she was neurologically stable and continued to experience some headache, managed with a revised medication regimen including lamotrigine, quetiapine, docusate sodium, butalbital-acetaminophen-caffeine, ibuprofen, and hydromorphone as needed. Discharge instructions included activity restrictions, wound care guidance, constipation prevention, and seizure precautions. She was advised to follow up in clinic for suture/staple removal and further evaluation.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent headaches and increased fatigue following cranial surgery. Headaches were described as moderate in severity, without identifiable triggers, and fatigue began immediately postoperatively, impacting daily activities such as exercise and household tasks. Resting provided only partial relief from tiredness, and the patient reported no changes in sleep patterns, vision, speech, or muscle strength. The patient’s medical history includes recent cranial surgery; no medications or allergies were mentioned. On clinical review, no concerning neurological symptoms were noted. The doctor assessed the symptoms as consistent with typical post-surgical recovery, noting that moderate headaches and fatigue are common and reassuring in the absence of other neurological deficits. The treatment plan included pacing activities, gradual increase in exercise, maintaining hydration and nutrition, and monitoring for new symptoms such as severe headaches, confusion, weakness, or changes in vision or speech, with instructions to contact the healthcare team if these arise.
+The patient is a post-cranial surgery individual presenting with persistent headaches and increased fatigue as the main complaints. Headaches are described as moderate in severity, without identifiable triggers, and have been ongoing since the surgery. Fatigue also began immediately after surgery, has led to reduced activity levels, and is only partially relieved by rest; sleep patterns remain unchanged. The patient denies any new neurological symptoms such as vision changes, speech difficulties, or weakness. Relevant history includes recent cranial surgery; no other medical history, medications, or allergies are specified. The clinical impression is that these symptoms are consistent with typical post-surgical recovery, without evidence of acute complications. The treatment plan includes gradual increase in activity as tolerated, maintaining hydration and nutrition, and monitoring for any new or worsening symptoms such as severe headache, confusion, weakness, or sensory changes. The patient was advised to contact the healthcare team if concerning symptoms develop or if fatigue persists beyond the expected recovery period.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.631
+- **Model Used**: general
+- **Text1 Length**: 137 words
+- **Text2 Length**: 159 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ Let me know if you have any specific questions or concerns you'd like to discuss
 
 ## EHR Summary
 
-The patient is a newborn male admitted for prematurity following delivery at 27 1/7 weeks gestation by cesarean section due to breech presentation and progressive pre-term labor. He experienced respiratory distress at birth, requiring intubation, surfactant administration, and subsequent respiratory support including nasopharyngeal CPAP and nasal cannula oxygen. The infant was treated with caffeine citrate for apnea of prematurity and continues to have episodes of bradycardia and desaturation related to immature feeding coordination. Relevant history includes maternal subchorionic hematoma, vaginal bleeding, and placental abruption during pregnancy. On physical exam, birth weight was 1050 grams, length 36 cm, and head circumference 26 cm, all at the 50th percentile for gestational age. The documented diagnosis is chronic lung disease of prematurity. Treatment has included Diuril (from day 23 onward), Aldactone (day 35–72), and as-needed Combivent inhalers. The patient remains on 100% oxygen via nasal cannula at 50 cc/min flow.
+The patient is a male neonate born at 27 1/7 weeks gestation, admitted for prematurity and associated complications. He experienced respiratory distress syndrome requiring intubation, surfactant therapy, and ongoing oxygen support, as well as apnea of prematurity managed with caffeine citrate. His hospital course was notable for chronic lung disease (bronchopulmonary dysplasia), hypotension requiring pressors and hydrocortisone, presumed sepsis treated with antibiotics (with negative cultures), hyperbilirubinemia managed with phototherapy, bilateral intraventricular hemorrhage with resolved ventriculomegaly, and anemia of prematurity requiring transfusions. Relevant history includes a complicated pregnancy with subchorionic hematoma, vaginal bleeding, and maternal nifedipine use. The documented diagnoses include prematurity, bronchopulmonary dysplasia, status post respiratory distress syndrome and apnea, right aortic arch with aberrant left subclavian artery, and left inguinal hernia. At discharge, the infant was stable on nasal cannula oxygen, receiving breast milk fortified to 24 calories/ounce, potassium chloride, Diuril, iron, and multivitamins. He was transferred in good condition for surgical repair of his left inguinal hernia and provided with follow-up recommendations for neurology, cardiology, and early intervention services.
+
 
 ## Dialogue Summary
 
-The patient presented with no specific concerns or symptoms. They reported no changes in feeding, sleeping, activity levels, rashes, congestion, fussiness, fever, or temperature, and confirmed normal achievement of developmental milestones such as eye contact, responding to sounds, and active movement. No recent environmental changes, exposures to illness, or discomfort during diaper changes or bath time were noted, and stool color, consistency, and frequency were described as normal. No relevant medical history, medications, or allergies were mentioned. The doctor found no concerning symptoms or changes in behavior, feeding, or development on review. The assessment was that the baby is doing well overall with no current problems identified. The doctor advised continued regular care and monitoring, and recommended reaching out if new symptoms such as persistent crying, difficulty feeding, fever, or unusual changes in stool or skin develop. The patient expressed understanding and agreed to monitor for any new symptoms.
+The patient presented for a routine evaluation with no specific chief complaint. There were no reported symptoms, including changes in feeding, sleeping, activity level, rashes, congestion, fussiness, fever, or discomfort during daily routines. The patient reported normal developmental milestones and no recent environmental changes or exposures to illness. No changes in stool color, consistency, or frequency were noted. Relevant medical history, medications, and allergies were not specified. The clinical impression was that the infant is doing well overall with no concerning symptoms or behavioral changes. The doctor advised continued routine care and monitoring for new symptoms such as persistent crying, feeding difficulties, fever, or unusual stool or skin changes. No specific treatment was indicated at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.930
-- **Similarity Label**: N/A
+- **STS Score**: 0.500
+- **Model Used**: general
+- **Text1 Length**: 171 words
+- **Text2 Length**: 117 words
+
 
 ## Processing Information
 

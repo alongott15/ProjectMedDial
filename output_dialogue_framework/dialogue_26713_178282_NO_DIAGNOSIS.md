@@ -85,16 +85,21 @@ Let me know if you have any other symptoms I haven't asked about, or if you'd li
 
 ## EHR Summary
 
-The patient is a 65-year-old male presenting for evaluation after an MRI revealed a large left-sided cerebellar lesion with significant surrounding edema during routine postoperative follow-up. He reported one episode of vomiting three days prior but denied headache, fever, chills, nausea, visual changes, or altered mentation. His medical history includes non-small cell and small cell adenocarcinoma of the lung treated with chemotherapy and radiation, post-radiation esophagitis requiring tube feeding, bilateral peripheral neuropathy, appendectomy, and mild left hip arthritis. Current medications are Buspar, amitriptyline, and Prilosec; he has no known drug allergies. On physical exam, he was tachycardic but otherwise stable, with a neurological finding of slightly off finger-to-nose testing. The documented clinical impression is a cerebellar lesion with edema in the context of prior lung cancer. The patient was advised to come to the Emergency Room for further evaluation as directed by his primary care physician. Specific treatments or interventions during this admission are not documented in the provided note.
+The patient is a 65-year-old male presenting for evaluation after an MRI revealed a large left-sided cerebellar lesion with significant surrounding edema during routine postoperative follow-up. He reported one episode of vomiting three days prior but denied headache, fever, chills, nausea, visual changes, or altered mentation. His history includes non-small cell and small cell adenocarcinoma of the lung treated with chemotherapy and radiation, post-radiation esophagitis requiring tube feeding, bilateral peripheral neuropathy, appendectomy, and mild left hip arthritis; current medications include Buspar, Amitriptyline, and Prilosec, with no known drug allergies. On examination, he had mild left-sided dysmetria and proximal leg weakness but was otherwise neurologically intact. The documented diagnosis was cerebellar metastasis. Treatment included suboccipital craniotomy for tumor resection, postoperative monitoring, and initiation of Decadron with a planned taper, along with other supportive medications. He was discharged home in stable condition with instructions for follow-up in the Brain Clinic in two weeks and staple removal in 10 days.
+
 
 ## Dialogue Summary
 
-The patient presented with recent vomiting episodes. Vomiting began a few days ago, with a couple of episodes occurring without identifiable triggers related to food or activity. The patient denied fever, abdominal pain, or changes in bowel movements but reported tingling and numbness in the hands and fingers, which started prior to the vomiting and has gradually worsened, now spreading to the toes. The tingling and numbness have made tasks like buttoning shirts and walking more difficult, especially on the left side, and the patient has noticed mild weakness in the left leg; no unusual fatigue, appetite, or weight changes were reported. No relevant medical history, medications, or allergies were mentioned. The doctor noted the combination of vomiting and progressive sensory symptoms with mild weakness and suggested a possible issue affecting the nerves, such as vitamin deficiencies, medication side effects, or blood sugar changes. The doctor recommended further evaluation, advised the patient to stay hydrated, avoid unsafe activities due to weakness or numbness, and seek urgent care if severe symptoms develop. The patient expressed understanding of the plan and agreed to monitor for any new or worsening symptoms.
+The patient is an adult presenting with vomiting as the chief complaint. Vomiting began a few days ago, with a couple of episodes occurring without identifiable triggers; there is no associated fever, abdominal pain, or changes in bowel movements. The patient also reports gradually worsening tingling and numbness in the hands and fingers, which started prior to the vomiting and has since spread to the toes, along with mild weakness in the left leg and some difficulty with fine motor tasks and walking. There is no reported fatigue, appetite change, or weight loss. Relevant history, medications, and allergies are not specified. The clinical impression is that the symptoms may be due to a neurological issue potentially related to vitamin deficiencies, medication side effects, or blood sugar changes, though other causes are possible. The treatment plan includes further evaluation, advice to stay well-hydrated, avoid unsafe activities due to weakness or numbness, and instructions to seek urgent care if severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
+- **STS Score**: 0.491
+- **Model Used**: general
+- **Text1 Length**: 157 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

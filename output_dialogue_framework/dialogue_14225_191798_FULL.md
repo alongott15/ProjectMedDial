@@ -89,16 +89,21 @@ Would you like to discuss steps for further evaluation, or do you have any quest
 
 ## EHR Summary
 
-The patient is a 70-year-old male presenting with several months of exertional dyspnea and chest pressure. Symptoms were associated with a positive stress thallium test and EKG changes. His relevant history includes hypertension, hypercholesterolemia, diabetes, remote tobacco use, silent myocardial infarction, and prior esophageal dilatation; home medications included Toprol XL, Prilosec, Captopril, Lipitor, and aspirin. Cardiac catheterization revealed a left ventricular ejection fraction of 65% with 90% stenosis of both the LAD and left circumflex arteries. On physical exam, he was in no acute distress with stable vital signs and normal peripheral pulses. The documented diagnosis was severe coronary artery disease. He underwent coronary artery bypass grafting (CABG) and postoperatively experienced an episode of supraventricular tachycardia/rapid atrial fibrillation, initially unresponsive to Lopressor but controlled with diltiazem and fluid boluses.
+The patient is a 70-year-old male presenting with several months of exertional dyspnea and chest pressure. Symptoms included shortness of breath and chest discomfort on exertion, with a positive stress thallium test and EKG changes noted. His relevant history includes hypertension, hypercholesterolemia, diabetes, remote tobacco use, silent myocardial infarction (MI), and prior esophageal dilatation; home medications included Toprol XL, Prilosec, Captopril, Lipitor, and aspirin. Cardiac catheterization revealed significant coronary artery disease with 90% stenosis in the LAD and left circumflex arteries. The documented diagnosis was severe coronary artery disease status post coronary artery bypass grafting (CABG), complicated by postoperative atrial fibrillation. Treatment included CABG surgery, initiation of amiodarone and increased Lopressor for arrhythmia control, intensive chest physiotherapy, short-term Lasix for fluid management, and discharge on a regimen including aspirin, Zantac, Colace, potassium chloride, Lasix, Lopressor, amiodarone, and Percocet as needed. The patient was discharged in good condition with a heart monitor for outpatient rhythm surveillance and follow-up arranged with cardiology and surgery.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath and chest pressure during activity as the chief complaint. Symptoms began a few days ago, are triggered by exertion (such as climbing stairs or carrying groceries), and improve with rest; the chest pressure is rated 6 out of 10 at its worst and is sometimes accompanied by pain near a previous esophageal procedure site. The patient denied associated symptoms such as sweating, nausea, lightheadedness, swelling in the ankles or feet, or cough, and reported needing to stop and rest more often during daily activities. Relevant history includes a prior esophageal procedure; no medications or allergies were mentioned. No abnormal physical findings were described during the encounter. The doctor assessed that the symptoms could be due to cardiac, pulmonary, or musculoskeletal causes, or possibly irritation from the prior procedure, noting that the lack of worsening and absence of severe symptoms is somewhat reassuring. The doctor advised the patient to avoid strenuous activity, monitor for new or worsening symptoms (such as pain at rest, severe shortness of breath, fainting, or sweating), stay hydrated, and bring in any recent blood pressure readings or heart test results for review. Further evaluation steps were offered for discussion.
+The patient is an adult presenting with the chief complaint of exertional shortness of breath and chest pressure. Symptoms began a few days ago, are rated as 6 out of 10 in severity during activity, and are triggered by physical exertion such as climbing stairs or carrying groceries; they improve with rest and have remained stable since onset. The patient denies associated symptoms such as sweating, nausea, lightheadedness, cough, or peripheral edema, but reports occasional pain near a prior esophageal procedure site. Relevant history includes a previous esophageal procedure, though no further medical history, medications, or allergies are specified. The clinical impression discussed includes possible cardiac, pulmonary, or post-procedural causes for the symptoms, with reassurance provided due to the absence of worsening or rest symptoms. The treatment plan includes avoiding strenuous activity, monitoring for new or worsening symptoms (such as pain at rest, severe dyspnea, fainting, or sweating), staying hydrated, and reviewing any available blood pressure readings or recent cardiac tests. Further evaluation and diagnostic steps were suggested but not specified in detail.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.466
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

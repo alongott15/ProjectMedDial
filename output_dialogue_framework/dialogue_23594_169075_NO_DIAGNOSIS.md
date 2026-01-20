@@ -85,16 +85,21 @@ Let me ask—how much is this affecting your day-to-day life? Are you finding it
 
 ## EHR Summary
 
-The patient is a 72-year-old female presenting with shortness of breath. She experienced an acute onset of dyspnea two hours prior to presentation, accompanied by decreased responsiveness. Her medical history includes hypertension, recent atrial fibrillation, cerebrovascular accident, and current anticoagulation therapy with Coumadin. On arrival, she was unresponsive to verbal or painful stimuli and developed respiratory failure requiring rapid sequence intubation. Initial management included administration of Lidocaine, Vecuronium, Etomidate, Succinylcholine, intravenous fluids, and Dopamine for transient hypotension. A head CT scan was negative for acute bleed, shift, or mass. The patient was also treated with ceftriaxone and Ativan for agitation. No specific diagnosis beyond respiratory failure and altered mental status was documented at this time.
+The patient is a 72-year-old female presenting with acute shortness of breath. She experienced sudden onset dyspnea two hours prior to admission, accompanied by decreased responsiveness and required intubation for hypoxic respiratory failure. Her relevant history includes hypertension, atrial fibrillation (on anticoagulation), prior cerebrovascular accident, spinal stenosis, GERD, chronic knee pain, and a penicillin allergy. On admission, she was found to have left lower lobe pneumonia with associated respiratory failure and altered mental status. The documented diagnosis was hypoxic respiratory failure secondary to left lower lobe pneumonia. Treatment included intubation, tracheostomy after prolonged intubation, antibiotics (initially ceftriaxone and azithromycin, later ceftazidime and levofloxacin for Pseudomonas coverage), and supportive care including bronchoscopy for secretion management. Her atrial fibrillation was managed with metoprolol and a heparin drip, with plans to transition back to Coumadin after a PEG placement.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns of very thick sputum requiring frequent suctioning. The sputum has been present for a few days, appears pale, is not malodorous, and has been worsening; no triggers or relieving factors were identified. The patient denied increased fatigue, shortness of breath, or changes in fluid intake, but reported a decrease in urine output to approximately 30 cc per hour, which is lower than usual, without associated swelling in the extremities. No relevant medical history, medications, or allergies were mentioned during the encounter. On clinical review, the patient described difficulty maintaining usual activities due to the need for frequent suctioning but had no other systemic symptoms. The doctor assessed that the thick secretions and decreased urine output could be related to hydration status, mild airway irritation or infection, or underlying medical conditions, and noted the absence of concerning symptoms such as dyspnea or edema. The doctor advised monitoring both sputum thickness and urine output closely and acknowledged the impact on daily activities.
+The patient presents with a chief complaint of very thick sputum requiring frequent suctioning. The sputum has been present for a few days, appears pale, is not malodorous, and has recently worsened; no specific triggers or alleviating factors were identified. The patient denies associated symptoms such as increased fatigue or dyspnea and reports stable fluid intake but notes a decrease in urine output to approximately 30 cc per hour, which is lower than usual. There is no reported peripheral edema. The physician notes that the thick sputum and decreased urine output may be related to hydration status, underlying medical conditions, or changes in fluid handling, and that the absence of respiratory distress is reassuring. No specific diagnosis was documented during the encounter. The patient reports that frequent suctioning is interfering with daily activities. The physician advises monitoring hydration and urine output and acknowledges the impact on quality of life.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
+- **STS Score**: 0.214
+- **Model Used**: general
+- **Text1 Length**: 136 words
+- **Text2 Length**: 149 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ In the meantime, try to avoid situations where unsteadiness could lead to a fall
 
 ## EHR Summary
 
-The patient is a 73-year-old female presenting with a thirty-minute seizure. She has a history of right frontal glioblastoma, previously resected and treated with chemotherapy and radiation, with recent tumor progression. On admission, she was intubated and monitored in the neurosurgical ICU, with head CT showing increased edema and mass effect from recurrent glioblastoma. She exhibited mild residual left-sided weakness but was otherwise awake, responsive, and denied pain. Laboratory results included a white blood cell count of 6.1, hematocrit 28.5, platelets 116, and a low Dilantin level of 1.4. The documented diagnosis was recurrent right frontal glioblastoma with seizure. Treatment included stabilization, monitoring, and a right frontal craniotomy for tumor excision without intraoperative complications. Postoperatively, her vital signs remained stable.
+The patient is a 73-year-old woman presenting with a thirty-minute seizure. She has a history of right frontal glioblastoma multiforme (GBM), previously resected and treated with chemotherapy and radiation, with recent tumor progression. On admission, she exhibited mild residual left-sided weakness and a mild left facial droop, but was awake, alert, and denied pain. Imaging revealed increased edema and mass effect from recurrent right frontal GBM. The documented diagnosis was recurrent right frontal glioblastoma multiforme with associated seizure. She underwent right frontal craniotomy with excision of the recurrent tumor and Gliadel wafer implantation, followed by stable postoperative recovery. Discharge medications included Decadron, Dilantin, levetiracetam, and supportive therapies. She was discharged in stable condition with plans for rehabilitation and follow-up in the brain clinic in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with concern after experiencing a recent seizure. They reported mild weakness on the left side that began immediately after the seizure and has persisted without improvement; specifically, they described difficulty holding objects with the left hand, unsteady walking, and taking longer to get dressed. The patient denied any numbness, tingling, changes in speech or vision, or new headaches. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted new and persistent left-sided weakness following a seizure, raising concern for postictal weakness versus other causes such as a cerebrovascular event. The doctor recommended prompt further evaluation, including a physical exam and possible brain imaging, to rule out serious conditions. The patient was advised to seek immediate medical attention if new symptoms such as speech difficulty, severe headache, vision loss, or worsening weakness occur, and to take precautions to prevent falls at home.
+The patient is an adult presenting with concern after experiencing a recent seizure. Key symptoms include new-onset mild left-sided weakness that began immediately after the seizure and has persisted without improvement; the weakness affects holding objects, walking, and dressing but is not accompanied by numbness, tingling, speech or vision changes, or new headaches. There is no relevant past medical history, medications, or allergies documented in the dialogue. The clinical impression discussed includes possible postictal weakness but also consideration of other causes such as stroke due to the persistence of symptoms. The treatment plan includes prompt further assessment with a physical exam and possible brain imaging to rule out serious conditions. The patient was advised to monitor for new symptoms (such as speech difficulty, severe headache, vision loss, or worsening weakness) and to seek immediate medical attention if these occur. Additional recommendations included avoiding situations that could lead to falls and seeking assistance with daily activities as needed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.937
-- **Similarity Label**: N/A
+- **STS Score**: 0.457
+- **Model Used**: general
+- **Text1 Length**: 126 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

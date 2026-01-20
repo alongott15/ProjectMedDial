@@ -87,16 +87,21 @@ Would you be open to talking about strategies or supports that could help with y
 
 ## EHR Summary
 
-The patient is an 87-year-old female presenting with worsening depression and ataxia. She reported progressive depressive symptoms, decreased oral intake, and psychomotor slowing over the past one to two years. Her past medical history includes hypertension, depression, irritable bowel syndrome, dizziness, hearing loss, history of falls, glaucoma, and Bell's palsy. On admission, she was alert and oriented with short-term memory deficits but no chest pain or dyspnea; vital signs were stable and lung sounds were clear. Imaging revealed a 2 x 3 cm right subdural hematoma with mild mass effect and no midline shift. The documented diagnosis was chronic right subdural hematoma. She underwent a bedside burr hole procedure for hematoma drainage without complications. Post-procedure, she remained alert and oriented, with headache as the primary complaint.
+The patient is an 87-year-old woman presenting with worsening depression and ataxia. She reported progressive depressive symptoms, decreased oral intake, and psychomotor slowing over the past one to two years, with recent short-term memory deficits but no chest pain or dyspnea. Her past medical history includes hypertension, depression, irritable bowel syndrome, dizziness, hearing loss, history of falls, glaucoma, and Bell's palsy. On admission, imaging revealed a 2 x 3 cm right chronic subdural hematoma with mild mass effect but no midline shift. The documented diagnosis was right subdural hematoma. She underwent a bedside burr hole procedure for hematoma drainage without complications, followed by improvement in memory and strength. The treatment plan included discharge to rehabilitation, continuation of antihypertensive and antidepressant medications, pain management with Tylenol, bowel regimen, and ophthalmic drops, with follow-up and repeat head CT in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening low mood and increased difficulty with mobility. Symptoms included feeling more down over the past few weeks, decreased appetite, reduced interest in usual activities, increased unsteadiness, trouble keeping balance, a history of falls, psychomotor slowing, and occasional forgetfulness during chores. No new weakness, numbness, or vision changes were reported, and symptoms occurred randomly throughout the day without clear triggers. The patient remains able to get out of bed and manage basic daily needs but moves more slowly and finds daily tasks more challenging. Relevant history includes prior falls and depression. On assessment, the doctor noted that worsening depression may be contributing to slowed movement and increased physical unsteadiness. The doctor recommended maintaining a consistent routine, staying as physically active as safely possible, seeking support from others, and monitoring for new symptoms such as sudden weakness or confusion; the patient was open to discussing further strategies for mood and mobility support at home.
+The patient presents with worsening low mood and increased difficulty with mobility. Over the past few weeks, they have experienced increased depressive symptoms, including decreased appetite, loss of interest in usual activities, and psychomotor slowing, as well as increased unsteadiness and balance difficulties without new weakness, numbness, or vision changes. The patient has a history of falls and reports that these symptoms are making daily tasks more challenging, though they are still able to manage basic self-care. There are no specific triggers for the mood or balance changes, which occur randomly throughout the day. The clinical impression is that worsening depression is contributing to decreased energy, motivation, and physical steadiness. The treatment plan includes recommendations for maintaining a consistent routine, staying as physically active as safely possible, seeking social support, and monitoring for new symptoms such as sudden weakness or falls. The patient is open to discussing further strategies or supports to improve mood and mobility at home. No new medications or interventions were documented during this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.313
+- **Model Used**: general
+- **Text1 Length**: 139 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

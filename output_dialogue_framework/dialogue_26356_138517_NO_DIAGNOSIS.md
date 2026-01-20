@@ -86,16 +86,23 @@ Let me know if you have any questions or if there’s anything else you’d like
 
 ## EHR Summary
 
-The patient is a 75-year-old male presenting with bowel obstruction. He was found to have distended loops of small and large bowel on abdominal CT, with an apple core lesion at the splenic flexure causing near complete obstruction. Relevant history includes transfer from an outside hospital for further management. On physical and intraoperative examination, there was a markedly dilated right transverse colon and small bowel, with no palpable liver mass. The documented diagnosis was chronic obstruction. Treatment included a subtotal colectomy with ileostomy formation.
+The patient is a 75-year-old male presenting with bowel obstruction. He was found to have distended loops of small and large bowel on abdominal CT, with an apple core lesion at the splenic flexure causing near complete obstruction. There is no mention of specific symptom characteristics such as pain, vomiting, or duration. Relevant history, medications, and allergies are not specified. The documented diagnosis was chronic obstruction. The patient underwent a subtotal colectomy with ileostomy formation on 6-19, with intraoperative findings of a markedly dilated right transverse colon and small bowel and no palpable liver mass. The treatment plan included surgical intervention for the obstruction. Further recommendations or outpatient management are not specified.
+
 
 ## Dialogue Summary
 
-The patient presented with mild, intermittent, gas-like, crampy abdominal pain. The pain was described as uncomfortable but not severe or worsening, and the patient denied any vomiting, fever, abdominal swelling, or difficulty passing stool or gas. The patient has a history of colonic obstruction, which was noted as relevant to the current symptoms. No abnormal physical findings were reported by the patient or observed by the doctor during the discussion. The doctor assessed that the symptoms are mild and stable, without warning signs of recurrent or worsening obstruction. The doctor advised close monitoring for any escalation of pain, new vomiting, persistent bloating, or inability to pass stool or gas, and to seek medical attention promptly if these develop. For current management, the doctor recommended gentle self-care measures including hydration, a balanced diet with adequate fiber (unless contraindicated), and light activity such as walking. The patient was instructed to contact their healthcare provider if symptoms worsen or new concerning signs appear.
+The patient is an individual with a history of colonic obstruction presenting with mild, gas-like, crampy abdominal pain. The discomfort is described as uncomfortable but not severe or worsening, and there are no associated symptoms such as vomiting, fever, increased abdominal swelling, or inability to pass stool or gas. The patient denies any warning signs that would suggest a recurrence or worsening of the previous obstruction. Relevant history includes prior colonic obstruction; no medication or allergy information is specified.
+
+The clinical impression is that the current symptoms are mild and stable, likely related to benign causes such as dietary changes, mild constipation, or gas, rather than a serious obstruction. The treatment plan includes close monitoring for any escalation of symptoms and instructions to seek prompt medical attention if warning signs develop. Supportive care is recommended, including staying hydrated, maintaining a balanced diet with adequate fiber (unless otherwise directed), and engaging in light activity such as walking. The patient is advised to contact their healthcare provider if symptoms worsen or new concerning signs appear.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.943
-- **Similarity Label**: N/A
+- **STS Score**: 0.625
+- **Model Used**: general
+- **Text1 Length**: 112 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

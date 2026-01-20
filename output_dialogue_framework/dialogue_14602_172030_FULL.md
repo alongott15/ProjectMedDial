@@ -87,16 +87,21 @@ Let me know if you have any questions or if there's anything else you've noticed
 
 ## EHR Summary
 
-The patient is a 62-year-old man presenting with nausea, vomiting, and abdominal pain for one day, as well as an episode of hematemesis. Symptoms included gastrointestinal discomfort and a single episode of vomiting blood, with positive occult blood in the Emergency Department. Relevant history includes type 2 diabetes managed with Metformin, which was discontinued during admission due to concern for acidosis. On examination and testing, he was found to have diabetic ketoacidosis and an upper gastrointestinal bleed; esophagogastroduodenoscopy revealed a nonbleeding tear at the gastroesophageal junction. The documented diagnoses were diabetic ketoacidosis and upper gastrointestinal bleed secondary to a nonbleeding tear. Treatment included intravenous insulin drip for ketoacidosis, transition to subcutaneous heparin, discontinuation of Metformin, and empiric intravenous Protonix 40 mg twice daily, later switched to oral Protonix. The patient had no further episodes of hematemesis, maintained stable hematocrit, and was discharged home in stable condition.
+The patient is a 62-year-old man presenting with nausea, vomiting, and abdominal pain for one day. He experienced an episode of hematemesis in the Emergency Department, which was positive for occult blood, prompting admission for evaluation of an upper gastrointestinal bleed. His medical history includes type 2 diabetes, and he was found to be in diabetic ketoacidosis on admission. Esophagogastroduodenoscopy revealed a nonbleeding tear at the gastroesophageal junction. The documented diagnoses were upper gastrointestinal bleed secondary to a nonbleeding tear and diabetic ketoacidosis. Treatment included an insulin drip for ketoacidosis, discontinuation of Metformin, subcutaneous heparin, and intravenous Protonix 40 mg twice daily transitioned to oral Protonix. The patient had no further episodes of hematemesis, his hematocrit remained stable, and he was discharged home in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent nausea as the chief complaint. They reported several days of ongoing nausea accompanied by vomiting and a dull, constant ache in the upper stomach, which worsened with eating or drinking, including water. The patient noted a noticeable amount of blood in their vomit but denied seeing blood in their stool. No additional medical history, medications, or allergies were mentioned. On assessment, the doctor noted the combination of persistent upper stomach discomfort, nausea, and vomiting with blood as concerning for possible irritation or bleeding in the stomach or upper digestive tract, such as from a stomach ulcer or gastritis. The doctor recommended prompt evaluation in a medical setting, ideally the same day, and advised avoiding foods or drinks that worsen symptoms. The patient was instructed to seek immediate care if symptoms worsened or if more blood was noticed.
+The patient is an adult presenting with persistent nausea as the chief complaint. Symptoms have been ongoing for several days and include upper abdominal (epigastric) pain described as a constant dull ache, associated with vomiting that contains a noticeable amount of blood (hematemesis). Eating or drinking, especially heavier foods or even water, exacerbates the discomfort. There is no reported blood in the stool. Relevant medical history, medications, and allergies are not specified. The clinical impression discussed includes possible irritation or bleeding in the upper gastrointestinal tract, such as gastritis or a stomach ulcer, though no definitive diagnosis was documented. The treatment plan is to seek prompt medical evaluation today for further assessment, including possible vital sign monitoring and diagnostic tests, and to avoid foods or drinks that worsen symptoms; immediate care is advised if symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.593
+- **Model Used**: general
+- **Text1 Length**: 126 words
+- **Text2 Length**: 136 words
+
 
 ## Processing Information
 

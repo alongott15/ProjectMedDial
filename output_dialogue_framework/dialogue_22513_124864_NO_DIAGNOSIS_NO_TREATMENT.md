@@ -89,16 +89,21 @@ Let me know if you have any questions about what we’ve talked about or if you 
 
 ## EHR Summary
 
-The patient is an 83-year-old male presenting with chest pain. He experienced chest pain on [2153-1-15] that was minimally relieved by his usual sublingual nitroglycerin, prompting EMS transport. His history is significant for longstanding stable angina, remote myocardial infarction, peripheral vascular disease, gout, and prostate cancer status post radiation and TURP. On admission, cardiac catheterization revealed 60% left main stenosis, three-vessel disease, and an ejection fraction of 40%. Physical exam showed a well-appearing male in no acute distress with stable vital signs and no focal deficits. The documented diagnosis was coronary artery disease with acute worsening and multi-vessel involvement. Treatment included coronary artery bypass grafting (CABG) x2. No drug allergies were reported.
+The patient is an 83-year-old male presenting with chest pain. He experienced chest pain unrelieved by sublingual nitroglycerin, prompting EMS transport and subsequent evaluation, which revealed elevated cardiac enzymes and significant coronary artery disease (60% left main, three-vessel disease, ejection fraction 40%). His medical history includes longstanding stable angina, remote myocardial infarction, peripheral vascular disease with left leg claudication, gout, prostate cancer status post-radiation, and multiple prior surgeries. The documented diagnoses were coronary artery disease status post coronary artery bypass graft x2, remote MI, PVD, gout, and other past conditions. He underwent coronary artery bypass grafting x2 without complications and had a brief episode of postoperative atrial fibrillation treated with amiodarone and metoprolol. At discharge, he was stable and prescribed medications including aspirin, allopurinol, atorvastatin, amiodarone, metoprolol, cephalexin, and docusate sodium. Discharge instructions included wound care, activity restrictions (no driving or heavy lifting for 6 weeks), and follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The pain has been occurring for a couple of days, is moderate in severity, located centrally in the chest, comes on randomly, and lasts for short periods but recurs frequently; it is uncomfortable enough to interrupt activities. The patient also reported intermittent confusion or feeling delirious during episodes, but denied shortness of breath, sweating, lightheadedness, speech difficulty, weakness, or vision changes. Relevant history includes coronary artery disease with two prior bypass surgeries and recent difficulty voiding urine; no diabetes was reported. The patient additionally mentioned a sore, red throat with white patches and irritation on the right hand at a previous IV site. The doctor noted the importance of monitoring new chest symptoms and confusion given the cardiac history, and suggested that urinary retention could also contribute to confusion. The assessment focused on possible cardiac causes for the symptoms and the need to evaluate both heart and urinary issues. The doctor recommended monitoring for warning signs (increased confusion, persistent chest pain, shortness of breath, weakness), seeking prompt medical attention if these develop, staying hydrated, avoiding strenuous activity, and arranging a timely evaluation for both cardiac and urinary concerns.
+The patient is an adult with a history of coronary artery disease and two prior bypass surgeries presenting with chest pain as the chief complaint. The chest pain has been present for a couple of days, is moderate in severity, located centrally, recurs in brief episodes, and is associated with intermittent confusion but not with dyspnea, sweating, lightheadedness, weakness, or vision changes. The patient also reports new difficulty with urination and, later in the conversation, mentions a sore, red throat with white patches and irritation at a previous IV site on the right hand. There is no documented diagnosis in this encounter, but the physician notes that the patient’s cardiac history increases concern for cardiac causes of chest pain and confusion. The treatment plan includes monitoring for warning signs such as increased confusion, persistent chest pain, shortness of breath, or weakness, and seeking prompt medical attention if these occur. The physician recommends a soon evaluation to assess cardiac status and urinary symptoms and advises staying hydrated and avoiding strenuous activity until further assessment. The patient is encouraged to mention the throat and hand symptoms during the upcoming evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.629
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 188 words
+
 
 ## Processing Information
 

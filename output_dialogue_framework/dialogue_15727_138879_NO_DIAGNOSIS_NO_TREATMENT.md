@@ -89,16 +89,23 @@ Let me know if you have any questions about what I’ve said or if you’re noti
 
 ## EHR Summary
 
-The patient is an 87-year-old male presenting for follow-up after a motor vehicle accident, during which a left subdural hematoma was discovered. He subsequently developed increasing nausea, vomiting, and abdominal distention. His history is notable for left radical nephrectomy for renal oncocytoma and chronic constipation. Imaging revealed a high-grade small bowel obstruction near the previous surgical site. On physical exam and intraoperative findings, a single adhesion was identified and lysed during exploratory laparotomy. Postoperatively, he required an enteric feeding tube due to poor oral intake, which was later removed after he tolerated adequate oral nutrition. He also developed a urinary tract infection with pansensitive Enterococcus, treated with Levaquin, and experienced constipation managed with a bowel regimen. The patient was discharged in stable condition after resolution of these issues.
+The patient is an 87-year-old male presenting for evaluation after a follow-up CT scan revealed a left subdural hematoma following a motor vehicle accident. He subsequently developed increasing nausea, vomiting, and abdominal distention, and imaging demonstrated a high-grade small bowel obstruction near the previous left nephrectomy surgical site. His relevant history includes left radical nephrectomy for renal oncocytoma, chronic constipation, and hyperthyroidism. The documented diagnoses were small bowel obstruction status post exploratory laparotomy and lysis of adhesions, left subdural hematoma, left renal oncocytoma status post nephrectomy, and hyperthyroidism. Treatment included exploratory laparotomy with lysis of adhesions, management of postoperative poor oral intake with temporary enteric feeding tube, treatment of a urinary tract infection with Levaquin, and initiation of a rigorous bowel regimen for constipation. Discharge medications included simethicone, mineral oil, lactulose, Colace, Dulcolax, Lopressor, Protonix, Darvocet-N 100, epoetin alpha, albuterol-ipratropium, albuterol nebulizer solution, heparin, methimazole, and as-needed enemas. The patient was discharged in stable condition with follow-up scheduled in two to three weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with several days of stomach trouble, primarily nausea and vomiting. Symptoms included persistent queasiness with multiple episodes of vomiting, constant abdominal bloating and swelling, decreased appetite, difficulty eating or drinking, and increased constipation with infrequent bowel movements. The patient reported that the bloating was constant and not affected by eating or drinking, and that these symptoms made daily activities and self-care more difficult due to weakness. No diarrhea was reported. There was no mention of relevant past medical history, medications, or allergies. On assessment, the doctor noted that the combination of persistent vomiting, bloating, reduced intake, and constipation could indicate mild gastrointestinal upset but also raised concern for dehydration or worsening illness. The doctor advised the patient to sip small amounts of clear fluids throughout the day, use gentle movement and warm compresses for abdominal discomfort, and to seek medical attention if unable to keep fluids down, or if new severe symptoms developed. The patient understood the recommendations and agreed to monitor symptoms and reach out if they worsened.
+The patient presents with the chief complaint of persistent nausea and vomiting. Symptoms have been ongoing for several days and include constant abdominal bloating, decreased appetite, difficulty eating or drinking, and increased constipation with infrequent bowel movements. The patient reports that these symptoms have led to weakness and difficulty performing daily activities. There is no mention of diarrhea, fever, or new severe pain.
+
+Relevant medical history, medications, and allergies are not specified in the dialogue. The clinical impression is mild gastrointestinal upset with concern for dehydration due to persistent vomiting, poor oral intake, and constipation. The treatment plan includes sipping small amounts of clear fluids (such as water, broth, or electrolyte solutions), gentle movement, and warm compresses to the abdomen for comfort. The patient was advised to seek prompt medical attention if unable to keep fluids down, or if new severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
+- **STS Score**: 0.469
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 143 words
+
 
 ## Processing Information
 

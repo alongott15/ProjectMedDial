@@ -87,16 +87,21 @@ Let me know if you have any questions about what to watch for or how to manage t
 
 ## EHR Summary
 
-The patient is a 40-year-old female presenting with increased cough productive of green sputum and increased shortness of breath for two weeks. Symptoms began after an aspiration event one and a half weeks prior to admission, with no reported fever, chills, or upper respiratory symptoms. Her past medical history includes quadriplegia from a C3-C4 spinal cord injury, chronic adrenal insufficiency, recurrent aspiration pneumonia, GERD, depression, chronic low back pain, left heel osteomyelitis, anxiety, anemia, and decubitus ulcers colonized with pseudomonas. On arrival, she was hypotensive (BP 84/70) and hypoxic (O2 saturation 78%), which improved to 94% with 100% nonrebreather oxygen. In the Emergency Department, she received Vancomycin, Flagyl, Levofloxacin, Hydrocortisone, Narcan, Florinef, and IV fluids; a central line was placed and Dopamine was started for hypotension. She was admitted to the ICU for stabilization before transfer to the Medicine floor. The documented clinical impression is recurrent aspiration pneumonia with acute hypoxemic respiratory failure and hypotension. Treatment included broad-spectrum antibiotics, corticosteroids, vasopressor support, and supplemental oxygen.
+The patient is a 40-year-old female presenting with a two-week history of increased cough productive of green sputum and increased shortness of breath. Symptoms were preceded by an aspiration event while eating, and on admission she was hypotensive and hypoxic, requiring oxygen support. Her relevant history includes quadriplegia secondary to C3-C4 spinal cord injury, chronic adrenal insufficiency, recurrent aspiration pneumonia, extensive sacral decubitus ulcers, and multiple chronic conditions; she is allergic to penicillin and sulfa. The documented diagnosis was aspiration pneumonia, with additional problems including quadriplegia, sacral decubitus ulcers, chronic back pain, and hypoalbuminemia. Treatment included a fourteen-day course of Levofloxacin and Flagyl, oxygen therapy, frequent suctioning, chest physical therapy, continuation of her chronic medications, aggressive bowel regimen, nutritional supplementation, and wound care for ulcers. She was stabilized during her hospital stay and discharged in stable condition to a subacute nursing facility. Discharge instructions emphasized completion of antibiotics, ongoing respiratory therapy, aspiration precautions, minimization of narcotic use, and continued bowel management.
+
 
 ## Dialogue Summary
 
-The patient presented with increased coughing producing green mucus. Symptoms have been present for a few days and have worsened recently, including persistent shortness of breath even at rest, lightheadedness, and lower oxygen saturation readings (high 80s to low 90s) measured by home pulse oximeter. The patient denied fever, chills, chest pain, tightness, or wheezing, and reported symptoms are consistent throughout the day. Relevant history includes recurrent aspiration pneumonia and prior lung issues related to this, but no asthma or COPD. No physical findings were directly noted, but the patient described left upper and lower abdominal tenderness. The doctor assessed that the worsening cough, green sputum, and decreased oxygen levels may indicate a lung infection, which is concerning given the patient's history of aspiration pneumonia. The doctor recommended prompt medical evaluation due to the risk associated with low oxygen levels, advised monitoring for worsening symptoms (such as increased shortness of breath, confusion, persistent lightheadedness, or cyanosis), and suggested resting, staying hydrated, and closely tracking oxygen levels until seen.
+The patient presents with increased coughing producing green sputum as the chief complaint. Symptoms have been present for a few days and are worsening, with associated shortness of breath at rest, lightheadedness, and home pulse oximeter readings in the high 80s to low 90s. The patient denies fever, chills, chest pain, tightness, or wheezing, and reports symptoms are consistent throughout the day. Relevant history includes recurrent aspiration pneumonia but no asthma or COPD. The clinical impression is possible lung infection (suggested by green sputum) with hypoxemia, concerning in the context of prior aspiration pneumonia. The physician recommends prompt medical evaluation due to declining oxygen levels and underlying lung issues. Supportive advice includes resting, staying hydrated, monitoring oxygen saturation, and seeking immediate care if symptoms worsen. The patient also reports left upper and lower abdominal tenderness and is advised to mention this during evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.974
-- **Similarity Label**: N/A
+- **STS Score**: 0.688
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 143 words
+
 
 ## Processing Information
 

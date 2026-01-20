@@ -87,16 +87,23 @@ Let me know if you have any questions or concerns about this plan, or if there�
 
 ## EHR Summary
 
-The patient is a 61-year-old woman presenting for left internal carotid artery stent placement due to significant carotid artery stenosis. She has a history of right internal carotid artery stenosis (75–80%), left internal carotid artery stenosis (65–70%), and a previously coiled anterior communicating artery aneurysm. On examination, she was in no acute distress, with a right carotid bruit and mild right lip asymmetry on smiling; other findings were unremarkable. She underwent left carotid artery stenting without intraoperative complications and was monitored postoperatively in the ICU. Her postoperative course was stable, with no changes in mental status and no groin hematoma after sheath removal. The documented diagnosis was left internal carotid artery stenosis status post stent placement. She was discharged home in stable condition with prescriptions for Plavix and aspirin, and instructed to follow up in two weeks.
+The patient is a 61-year-old woman presenting for left internal carotid artery stent placement due to significant carotid artery stenosis. She has a history of right internal carotid artery stenosis (75–80%), left internal carotid artery stenosis (65–70%), and a previously coiled 3.5 mm anterior communicating artery aneurysm. On examination, she was in no acute distress, with a right carotid bruit and fine crackles at the lung bases that cleared with cough; neurologically, she had decreased right lip movement with smile but no other focal deficits. The documented diagnosis was left internal carotid artery stenosis. She underwent successful left carotid artery stenting without intraoperative complications and was monitored postoperatively in the ICU. Her recovery was stable, with no changes in mental status and no groin hematoma after sheath removal. She was discharged home in stable condition with prescriptions for Plavix and aspirin, and instructed to follow up in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with decreased movement of the right lip when smiling. The symptom was noticed suddenly and has remained unchanged since onset; the patient described it as feeling "a little off" but denied any associated numbness, tingling, weakness, or changes in movement elsewhere in the face or body. There were no difficulties with speaking, eating, closing the eye, or expressing themselves, and no recent illnesses, headaches, or injuries were reported. Sensation on the affected side was normal to the touch. On examination, the doctor noted that the change was isolated to the right lip during smiling, with no other facial weakness or neurological deficits described. The doctor assessed that mild, isolated facial movement changes could be due to minor nerve irritation or subtle muscle issues, and that serious causes were less likely given the absence of other symptoms. The treatment plan included monitoring for new symptoms (such as spreading weakness, difficulty swallowing, or vision changes), performing gentle facial exercises, and considering further evaluation if the issue persists or worsens.
+The patient is an adult presenting with decreased movement of the right lip when smiling as the chief complaint. The symptom had a sudden onset, has remained stable since it began, and is not associated with numbness, tingling, weakness elsewhere in the face or body, or difficulties with speaking, eating, or eye closure. There is no history of recent illness, headache, or injury prior to the onset of symptoms. The patient reports no impact on daily activities aside from noticing the change in the mirror.
+
+The clinical impression is an isolated change in right lip movement with no other neurological deficits, likely due to minor nerve irritation or subtle muscle issues. The treatment plan includes monitoring for new symptoms such as spreading weakness, difficulty swallowing, or vision changes, and performing gentle facial exercises. The patient was advised to seek prompt care if additional symptoms develop and to consider further evaluation if the condition persists or worsens.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.907
-- **Similarity Label**: N/A
+- **STS Score**: 0.473
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

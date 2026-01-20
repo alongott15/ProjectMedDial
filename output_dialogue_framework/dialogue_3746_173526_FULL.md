@@ -101,16 +101,23 @@ Is there anything else on your mind or any questions about this approach?
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with abdominal aortic aneurysm (AAA) and bilateral iliac artery aneurysms. He is asymptomatic, with the AAA noted to have increased in size to 6.0 cm. Relevant history includes hypertension, hypercholesterolemia, chronic renal insufficiency, gout, prior acute aortic dissection repair (2118), and ascending aortic aneurysm repair (2128-2-25). On admission, his vital signs were stable with blood pressure 138/58, pulse 86, and respirations 18. The documented diagnosis is enlarging abdominal aortic aneurysm and bilateral iliac artery aneurysms. The patient was admitted for elective endovascular AAA repair. Medications on admission included atenolol, Maxzide, Cozaar, Zocor, probenecid, and aspirin. No known drug allergies were reported; however, eggplant causes throat tightness.
+The patient is a 61-year-old male presenting with abdominal aortic aneurysm (AAA) and bilateral iliac artery aneurysms. He was asymptomatic, with the AAA noted to have increased in size to 6.0 cm. His relevant history includes hypertension, hypercholesterolemia, chronic renal insufficiency, gout, prior acute aortic dissection repair, and ascending aortic aneurysm repair. The documented diagnosis was a 6 cm asymptomatic abdominal aortic aneurysm and bilateral iliac artery aneurysms. He underwent elective endovascular stent graft repair of the AAA and iliac artery aneurysms without complications. Perioperative management included IV hydration, Mucomyst protocol for renal protection, and perioperative Kefzol. At discharge, his condition was satisfactory with stable renal function, and he was advised to follow up in 6–11 days. Discharge medications included his home regimen plus Percocet for pain and Colace for bowel care.
+
 
 ## Dialogue Summary
 
-The patient presented with a request for follow-up regarding previously diagnosed abdominal and iliac artery aneurysms, without any current symptoms. The patient denied new or worsening pain, changes in appetite, fatigue, difficulty with daily activities, weight changes, leg swelling, urinary issues, fevers, chills, or night sweats, and reported feeling normal overall. Relevant history includes abdominal and iliac aneurysms diagnosed some years ago, with the last follow-up indicating stability; no recent imaging has been performed. No abnormal physical findings or symptoms were described during the visit. The doctor assessed that the aneurysms are likely stable given the absence of symptoms and unchanged daily activity. The treatment plan includes scheduling an updated imaging scan to monitor the aneurysms and continuing routine follow-up if stability is confirmed. The doctor advised maintaining a healthy lifestyle, monitoring blood pressure, and seeking immediate care for sudden severe pain or unusual symptoms. The patient expressed understanding and agreement with the proposed plan.
+The patient is an adult presenting for follow-up regarding known abdominal and iliac artery aneurysms. They report no current symptoms, including no abdominal or back pain, changes in appetite, fatigue, weight changes, leg swelling, urinary issues, fevers, chills, or night sweats. The patient remains active and able to perform daily activities without difficulty. Relevant history includes previously diagnosed abdominal and iliac aneurysms, with the last follow-up indicating stability; the exact date of diagnosis and most recent imaging are not specified.
+
+The clinical impression is stable abdominal and iliac artery aneurysms without new or concerning symptoms. The treatment plan includes scheduling updated imaging to monitor aneurysm status and continuing routine surveillance if stability is confirmed. The patient was advised to maintain a healthy lifestyle, including staying active and managing blood pressure, and to seek immediate care if sudden pain or other acute symptoms develop. No new medications or interventions were initiated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.594
+- **Model Used**: general
+- **Text1 Length**: 132 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

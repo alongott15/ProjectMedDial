@@ -87,16 +87,21 @@ Would you like to discuss strategies for managing your symptoms at home or possi
 
 ## EHR Summary
 
-The patient is a 70-year-old male presenting for cardiac clearance prior to scheduled abdominal aortic aneurysm repair. He reports a history of coronary artery disease with prior myocardial infarction, coronary artery bypass grafting, and peripheral vascular disease. Recent testing revealed an ejection fraction of 43%, 50–70% carotid stenosis, and stress-induced inferior apical and lateral wall ischemia. Physical examination showed stable vital signs and no acute abnormalities were noted. Laboratory values were within normal limits. The documented assessment includes coronary artery disease, peripheral vascular disease, hypertension, abdominal aortic aneurysm, hyperlipidemia, and prior cerebrovascular accident. His medications on admission included aspirin, diltiazem, atenolol, and isosorbide dinitrate. The treatment plan focused on preoperative cardiac evaluation and continued medical management in preparation for surgery.
+The patient is a 70-year-old male admitted for cardiac clearance and management prior to scheduled abdominal aortic aneurysm repair. He has a history of coronary artery disease, prior myocardial infarction, coronary artery bypass grafting, peripheral vascular disease, hypertension, hyperlipidemia, and prior cerebrovascular accident. During this admission, he underwent a redo coronary artery bypass graft x3 due to significant coronary lesions and ischemia noted on stress testing. Postoperatively, he experienced hypoxemia requiring high-flow oxygen and developed increased sputum production with occasional desaturation. A presumptive diagnosis of pneumonia was made based on chest x-ray findings and clinical decompensation. Treatment included intravenous diuretics (Lasix), albuterol and Atrovent nebulizers, aggressive pulmonary toilet, and a 10-day course of levofloxacin. The patient improved with therapy, was weaned to lower oxygen support, and was transferred back to the floor in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with increased difficulty breathing over the past few days. Symptoms included shortness of breath that worsens with activity but improves at rest, and a productive cough with a large amount of sputum of unchanged color; no fever, chills, chest tightness, pressure, swelling in the legs, lightheadedness, or cyanosis were reported. The patient noted a significant impact on daily activities, requiring them to slow down during chores and shopping. Relevant history includes prior heart stress test changes in the inferior apical and lateral walls and previously documented low oxygen levels, but no use of supplemental oxygen at home. On assessment, the doctor noted that the symptoms could be related to underlying heart or lung issues, particularly given exertional dyspnea and sputum production without signs of infection. The doctor recommended pacing activities, monitoring for new symptoms such as chest discomfort, sudden worsening of shortness of breath, or swelling, and suggested rechecking oxygen levels soon. The patient was advised to seek prompt care if symptoms worsen or new concerning signs develop, and expressed interest in discussing home management strategies and further evaluation steps.
+The patient is an adult presenting with increased difficulty breathing as the chief complaint. The dyspnea has persisted for at least several days, is stable (not improving or worsening), and is worse with exertion but less severe at rest. Associated symptoms include a productive cough with a large amount of sputum, but no fever, chills, chest pain, swelling, lightheadedness, or cyanosis. The patient reports decreased ability to perform daily activities due to shortness of breath. Relevant history includes prior abnormal heart stress test findings (inferior apical and lateral wall changes) and previously documented low oxygen levels, but no use of supplemental oxygen at home. The clinical impression is that the symptoms may be related to underlying heart or lung issues, possibly overlapping, especially given exertional dyspnea and sputum production. The treatment plan includes pacing activities, monitoring for new or worsening symptoms (such as chest discomfort, sudden worsening of dyspnea, or swelling), and rechecking oxygen levels soon; the patient was also offered discussion of home management strategies and further evaluation steps.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.926
-- **Similarity Label**: N/A
+- **STS Score**: 0.609
+- **Model Used**: general
+- **Text1 Length**: 135 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

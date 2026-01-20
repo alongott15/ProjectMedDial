@@ -87,16 +87,23 @@ If you notice any of those warning signs or if your symptoms get worse instead o
 
 ## EHR Summary
 
-The patient is a 53-year-old woman presenting for management of complications related to prior thoracic radiation therapy. She has a history of Hodgkin's lymphoma treated with radiation in 2110, resulting in fibrothorax, restrictive airway disease, and restrictive pericarditis requiring pericardectomy. Her symptoms include chronic restrictive lung disease necessitating home oxygen. On admission, her physical exam revealed clear lungs without effusions and a regular heart rate with normal heart sounds. She is allergic to intravenous dye. The documented diagnoses include fibrothorax and restrictive lung disease secondary to prior radiation therapy. Her treatment regimen includes Lasix, iron, Epogen (to be discontinued soon), Lopressor, sertraline, levothyroxine, enoxaparin, nystatin, lansoprazole, albuterol nebulizers, clindamycin (to be discontinued on 7-18), calcium gluconate as needed, artificial tears as needed, and Percocet elixir via PEG tube as needed. She has strong family support aiding her recovery.
+The patient is a 53-year-old woman presenting for postoperative care following left decortication. She experienced failure to wean from the ventilator postoperatively, complicated by methicillin-resistant Staphylococcus aureus and Enterobacter pneumonia, and later developed cellulitis at her percutaneous endoscopic gastrostomy tube site with fever and elevated white blood cell count. Her history is significant for Hodgkin's lymphoma treated with radiation, resulting in fibrothorax, restrictive lung disease requiring home oxygen, and prior pericardectomy for restrictive pericarditis. The documented diagnoses at discharge were status post left decortication, tracheostomy, and percutaneous endoscopic gastrostomy tube placement. Treatment included a full course of vancomycin and ceftazidime for pneumonia, a two-week course of oral clindamycin for cellulitis, tube feeds via gastrostomy, and ongoing physical therapy. At discharge, her infection had resolved, she was afebrile with normalized white blood cell count, and she was able to ambulate unassisted. She was advised to continue physical therapy as tolerated, gradually wean tube feeds as oral intake improves, and follow up with her thoracic surgeon in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with mild swelling (edema) noticed a few days ago. The swelling has not worsened, remains localized around the gastrostomy tube site, and improves somewhat with leg elevation and rest; it does not interfere with daily activities and is described as a mild annoyance. The patient also reported lingering but nearly resolved tenderness and redness near the tube, with no spreading, drainage, or chills, and mild, intermittent fevers. No changes in activity level, diet, or tube care routine were noted. On examination, the doctor noted that symptoms are improving, localized, and not associated with significant systemic signs. The assessment was mild local irritation or inflammation around the gastrostomy tube, with mild peripheral edema likely related to circulation or activity. The doctor recommended continuing usual tube care, monitoring for new or worsening symptoms (such as increased redness, swelling, pain, pus, or persistent fever), and elevating the legs when possible. The patient was advised to seek prompt attention if symptoms worsen or warning signs develop; otherwise, home monitoring was considered reasonable.
+The patient presents with mild swelling (edema) and localized redness and tenderness near the gastrostomy tube site. The swelling began a few days ago, has not worsened, improves with leg elevation and rest, and does not limit daily activities. The redness and tenderness around the tube are nearly resolved, with no spreading, drainage, or significant symptoms beyond mild, intermittent fever; there have been no recent changes in routine, diet, or tube care. The patient denies chills or functional impairment.
+
+The clinical impression is mild local irritation or inflammation around the gastrostomy tube, with possible mild peripheral edema. The physician recommends continuing usual tube care, monitoring for new or worsening symptoms (such as increased redness, swelling, pain, pus, or persistent fever), and elevating the legs as needed. No new medications or interventions are prescribed at this time. The patient agrees to monitor symptoms and report any concerning changes.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.921
-- **Similarity Label**: N/A
+- **STS Score**: 0.448
+- **Model Used**: general
+- **Text1 Length**: 167 words
+- **Text2 Length**: 147 words
+
 
 ## Processing Information
 

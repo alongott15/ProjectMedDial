@@ -63,16 +63,21 @@
 
 ## EHR Summary
 
-The patient is an 84-year-old male presenting with occasional lightheadedness. He has a history of mitral valve replacement 13 years ago, heart failure, acute rheumatic fever as a child, and hypertension, and is on Inderal, Coumadin, Digoxin, and Lasix at home with no known drug allergies. Echocardiogram revealed aortic valve stenosis with an AV gradient of 28 mmHg and valve area of 0.8 cm², prompting referral for surgical intervention. On physical exam, a heart murmur was noted; he was off Coumadin preoperatively. The patient underwent aortic valve replacement with a #21 Carbomedics Top Hat prosthesis via redo sternotomy for aortic stenosis. Postoperatively, he was extubated without difficulty, briefly required pressors, and was transferred to the floor in stable condition. He exhibited chronic atrial fibrillation with heart rates in the 120s–130s; anticoagulation was restarted postoperatively and Lopressor was increased to control heart rate. At discharge, his medications included Coumadin titrated to INR.
+The patient is an 84-year-old male presenting with occasional lightheadedness. He has a history of mitral valve replacement 13 years ago, heart failure, acute rheumatic fever as a child, hypertension, and chronic atrial fibrillation. Recent echocardiogram showed aortic valve stenosis with an AV gradient of 28 mmHg and valve area of 0.8 cm², prompting referral for surgical intervention. On admission, a heart murmur was noted and he was taken off Coumadin in preparation for surgery. The documented diagnosis was aortic stenosis, for which he underwent aortic valve replacement with a #21 Carbomedics Top Hat prosthesis via redo sternotomy. Postoperatively, he was managed in the ICU, weaned off pressors, and anticoagulation was restarted once his INR was therapeutic; his heart rate remained elevated due to chronic atrial fibrillation, so Lopressor was increased. Discharge medications included Coumadin titrated to INR, Lopressor 25 mg b.i.d., aspirin 325 mg b.i.d., Lasix with potassium supplementation, Colace, Tums, Percocet as needed, bisacodyl suppositories as needed, and insulin sliding scale for diabetes. He is being discharged to rehabilitation with follow-up arranged and ongoing anticoagulation management by his primary care provider and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about a rapid heart rate. They reported episodes of heart racing up to 150–160 beats per minute, noticed a few days ago, with the symptom coming and going throughout the day rather than being constant. The patient denied chest pain, shortness of breath, or trouble breathing, but stated that the fast heartbeat has made daily activities more difficult, requiring them to slow down and take breaks more often. No specific triggers such as physical activity, stress, or certain foods or drinks were identified. No relevant medical history, medications, or allergies were mentioned during the encounter. The doctor inquired about associated symptoms (lightheadedness, fainting, irregular rhythm) and the duration of episodes but did not note any physical findings. No formal assessment or diagnosis was provided, and no specific treatment plan or recommendations were discussed during the conversation.
+The patient presents with the chief complaint of episodes of rapid heart rate. The patient reports that their heart rate has been increasing to approximately 150–160 beats per minute over the past few days, with episodes that come and go throughout the day. They deny associated chest pain, dyspnea, or lightheadedness, but note increased difficulty with daily activities and needing to take breaks more often due to the tachycardia. No clear triggers such as physical activity, stress, or dietary factors have been identified. Relevant medical history, medications, allergies, and a formal diagnosis are not specified in the dialogue. No specific treatment or recommendations were documented during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.931
-- **Similarity Label**: N/A
+- **STS Score**: 0.387
+- **Model Used**: general
+- **Text1 Length**: 185 words
+- **Text2 Length**: 108 words
+
 
 ## Processing Information
 

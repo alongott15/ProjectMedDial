@@ -87,16 +87,21 @@ If you have any questions about what to expect or what might happen next, let me
 
 ## EHR Summary
 
-The patient is a 63-year-old male presenting for evaluation of silent ischemia, referred for outpatient cardiac catheterization. He reports no recent chest pain but has a remote history of chest and epigastric discomfort diagnosed as angina in 2183; since then, he has been asymptomatic for chest pain. His history is significant for hypertension, diabetes, peripheral vascular disease, prior silent myocardial infarction, and cerebrovascular accident (CVA) with right eye blindness and right-sided weakness. Recent stress testing revealed a fixed inferior defect, small anterior defect, diffuse ST-T wave changes at low workload, and positive shortness of breath; echocardiogram showed inferior hypokinesis with an ejection fraction of 35–40%. Cardiac catheterization demonstrated an ejection fraction of 40%, fixed inferior akinesis, severe multi-vessel coronary artery disease (90% left vein, 60% LAD, 80% left circumflex, 90% proximal right coronary artery occlusion), and trace mitral regurgitation. The documented diagnosis is silent ischemia with severe coronary artery disease. Treatment details are not specified in the note.
+The patient is a 63-year-old male presenting with silent ischemia, referred for outpatient cardiac catheterization. He reported no recent chest pain but had a remote history of angina and experienced shortness of breath during a recent exercise tolerance test, along with diffuse ST-T wave changes and EKG depressions. His medical history includes hypertension, diabetes, prior CVA, peripheral vascular disease, and a prior silent myocardial infarction; he has no known drug allergies. Cardiac catheterization revealed severe multi-vessel coronary artery disease with an ejection fraction of 40%. The documented diagnoses were coronary artery disease status post coronary artery bypass grafting (CABG) times four, postoperative atrial fibrillation, diabetes, CVA, and hernia. Treatment included CABG x4 with intra-aortic balloon pump support, management of postoperative bleeding, and initiation of medications such as Lasix, potassium chloride, amiodarone, insulin, and antihypertensives. The patient was discharged in stable condition with instructions to follow up with cardiology and primary care in one month.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath, particularly during exercise or stress testing, as the chief complaint. Additional symptoms included persistent vision loss in the right eye, right-sided weakness, and a right-sided headache rated at 6 out of 10, all ongoing for several days and interfering with daily activities such as reading, driving, and managing household tasks. The patient denied any numbness, tingling, or changes in speech. Relevant history includes hypertension and leg swelling; no medications or allergies were mentioned. On clinical questioning, the vision loss was constant and not affected by activity, and the headache had not changed in intensity since onset. The doctor assessed that the combination of sudden and persistent vision changes, weakness, and functional impairment was concerning for a possible neurological or vascular event affecting the brain or eye, such as stroke. The doctor recommended urgent medical evaluation, advising the patient to seek care as soon as possible—preferably in the emergency department—to rule out serious causes and initiate appropriate treatment. The patient understood and acknowledged the need for prompt assessment.
+The patient is an adult presenting with the chief complaint of shortness of breath, particularly during exercise or stress testing. Additional symptoms include persistent right-sided vision loss, right-sided weakness, and a right-sided headache rated 6 out of 10, all ongoing for several days. The vision loss is constant and not affected by activity, and the symptoms have significantly impacted daily activities such as reading, driving, and managing household tasks. The patient denies numbness, tingling, or speech changes. Relevant history includes hypertension and lower extremity swelling. The clinical impression is concern for a possible neurological or vascular event affecting the brain or eye, such as stroke or transient ischemic attack. The doctor advised urgent medical evaluation, recommending the patient seek immediate care in the emergency department to rule out serious causes and initiate appropriate treatment. No specific medications or interventions were started during this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.487
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 144 words
+
 
 ## Processing Information
 

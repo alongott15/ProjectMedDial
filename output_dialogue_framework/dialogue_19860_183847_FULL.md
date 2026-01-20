@@ -87,16 +87,21 @@ If you notice new symptoms like fever, spreading redness, increasing pain, or dr
 
 ## EHR Summary
 
-The patient is an 84-year-old female presenting with a nonhealing left heel ulcer and cellulitis. She was unable to report pain or fevers due to baseline dementia. Her past medical history includes seizure disorder, multiple bypass grafts, peripheral vascular disease, and dementia. On examination, she was afebrile with stable vitals, and her left lower extremity showed cellulitis extending from the heel up to a quarter of the shin with a heel ulcer. The documented clinical impression was left lower extremity cellulitis and nonhealing ulcer, likely due to poor blood flow. She was treated with broad-spectrum antibiotics, and an angiogram revealed no targets for bypass and minimal blood flow to the heel. After discussion with her family, the decision was made to defer above-knee amputation and continue conservative management with antibiotics, which led to improvement and resolution of erythema. The plan was for discharge back to her nursing home after stabilization; she also experienced an episode of bright red blood per rectum, for which GI consultation and colonoscopy were planned.
+The patient is an 84-year-old female presenting with a nonhealing left heel ulcer and cellulitis. She was unable to report pain or fevers due to baseline dementia. Her past medical history includes seizure disorder, multiple bypass grafts, peripheral vascular disease, and dementia. On admission, she was afebrile with stable vitals, and physical exam revealed cellulitis extending from the heel up the shin with an ulcer. The clinical impression was left lower extremity cellulitis and nonhealing ulcer in the setting of severe peripheral vascular disease. She was treated with broad-spectrum antibiotics, and surgical intervention was considered but deferred in favor of conservative management after family discussion. During hospitalization, she developed blood loss anemia requiring transfusion, experienced seizure-like activity, and later became unresponsive with hypoxemia, leading to ICU transfer and comfort measures. The patient expired on [2152-9-7].
+
 
 ## Dialogue Summary
 
-The patient presented with a non-healing sore on the left heel. The sore has been present for an unspecified duration, has increased in size, and appears more red; associated symptoms include swelling, warmth, and tenderness in the surrounding left leg, with pain rated at 6 out of 10. The patient denied fever, chills, drainage, or unusual odor from the wound, and reported that elevating the leg and resting help somewhat with swelling but not tenderness; soreness and swelling have made walking and daily activities more difficult. The patient has only used clean bandages for wound care and has not tried creams or other treatments. Relevant history includes occasional memory trouble and seizure-like episodes, which the patient asked about mentioning during future evaluation. On examination, the doctor noted redness, swelling, warmth, and tenderness without drainage or odor, suggesting possible cellulitis or local infection. The doctor recommended in-person evaluation soon for further assessment and possible treatment, advised continued elevation and clean bandaging of the leg, and instructed the patient to seek prompt medical attention if new symptoms such as fever, spreading redness, increasing pain, or drainage develop.
+The patient presents with a non-healing sore on the left heel as the chief complaint. The sore has been present for an unspecified duration, has increased in size, and is now more red; associated symptoms include swelling, warmth, and tenderness of the left leg, with pain rated 6 out of 10. The patient reports that elevating the leg and resting provide some relief for swelling, but tenderness persists; there is no fever, chills, drainage, or unusual odor. The symptoms make ambulation and daily activities more difficult. Relevant history includes occasional memory trouble and seizure-like episodes, though these are not the focus of this visit. The clinical impression documented by the doctor is possible cellulitis or local infection/inflammation of the left heel and leg. The treatment plan includes keeping the area clean and covered, continuing to elevate the leg, avoiding pressure on the heel, and seeking in-person evaluation soon for further assessment and possible treatment. The patient was also advised to monitor for new symptoms such as fever, spreading redness, increasing pain, or drainage, and to seek prompt medical attention if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.658
+- **Model Used**: general
+- **Text1 Length**: 135 words
+- **Text2 Length**: 182 words
+
 
 ## Processing Information
 

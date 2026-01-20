@@ -87,16 +87,21 @@ In the meantime, try to avoid strenuous activity until you've been evaluated. Do
 
 ## EHR Summary
 
-The patient is a 53-year-old male presenting with several months of chest pain and recent positive exercise tolerance test. He reported chest pain of several months’ duration and shortness of breath, with no history of COPD, asthma, or orthopnea. His past medical history includes hypertension, hypercholesterolemia, GERD, and hyperparathyroidism; medications on admission were Univasc, Lipitor (discontinued due to fatigue), and aspirin, with no known drug allergies. Cardiac catheterization revealed 95% LAD stenosis, 60% OM1 stenosis, and 100% proximal RCA occlusion, with an ejection fraction of 60–70% and trivial mitral regurgitation; laboratory data and chest x-ray were unremarkable. Physical exam showed clear lungs, regular cardiac rhythm without murmur, and no neurological deficits. The documented diagnosis was severe multi-vessel coronary artery disease. The patient was referred for coronary artery bypass grafting following cardiac catheterization.
+The patient is a 53-year-old man presenting with several months of chest pain and a recent positive exercise tolerance test. He reported chest pain and shortness of breath, with no history of heart disease, COPD, or asthma; symptoms were persistent over several months. His past medical history includes hypertension, hypercholesterolemia, GERD, and hyperparathyroidism, and he was taking Univasc, Lipitor (discontinued due to fatigue), and aspirin on admission; he has no known drug allergies. Cardiac catheterization revealed severe coronary artery disease (95% LAD, 60% OM1, 100% proximal RCA) with preserved ejection fraction, and he was diagnosed with multivessel coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) times four and tolerated the procedure well, with an uneventful postoperative course. At discharge, his condition was stable and he was advised to continue cardiac rehabilitation and follow up in clinic. Discharge medications included potassium chloride, Colace, aspirin, Percocet as needed for pain, citalopram, metoprolol, Lasix, ferrous sulfate, ascorbic acid, and simvastatin.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest pain was described as a pressure sensation, rated 6 out of 10 at its worst, lasting a few minutes per episode, and occurring more often with activity but sometimes at rest; it was accompanied by shortness of breath during episodes. The patient denied nausea, lightheadedness, sweating, leg or ankle swelling, and waking up at night short of breath. Relevant history includes high blood pressure and high cholesterol, with no known heart or lung conditions and no diabetes. No physical findings were described in this encounter. The doctor assessed that the chest pressure and exertional shortness of breath, in the context of the patient’s risk factors, could indicate angina or another heart-related issue. The doctor recommended prompt evaluation by the patient’s primary care provider, possible further testing such as an EKG, and advised seeking immediate medical attention if symptoms worsen or new symptoms develop. The patient was also advised to avoid strenuous activity until further evaluation.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is described as a pressure sensation, rated 6 out of 10 at its worst, lasting a few minutes per episode, and is sometimes triggered by activity but can also occur at rest. The patient also reports associated shortness of breath during these episodes, which improves with rest; there is no nausea, lightheadedness, or sweating. Relevant history includes high blood pressure and high cholesterol, with no known heart or lung conditions and no diabetes. There is no reported leg swelling or nocturnal dyspnea. The clinical impression is possible angina, given the exertional chest pressure and cardiovascular risk factors. The treatment plan includes prompt evaluation by the primary care provider, possible further cardiac testing (such as EKG), and instructions to avoid strenuous activity until further assessment. The patient was also advised to seek immediate medical attention if symptoms worsen or new concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.585
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 158 words
+
 
 ## Processing Information
 

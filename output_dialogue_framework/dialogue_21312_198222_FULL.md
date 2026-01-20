@@ -87,16 +87,21 @@ Let me know if you have questions or concerns about what we've discussed.
 
 ## EHR Summary
 
-The patient is a 74-year-old female presenting with a large black stool and abdominal pain. She was found to be hypotensive (blood pressure 82/50) and had an elevated INR of 3.5, with a decrease in hematocrit from 32 to 28.1. Her past medical history includes hypertension, diabetes mellitus, aortic valve replacement (on Coumadin), depression, and prior cerebrovascular accident. Nasogastric lavage revealed coffee ground emesis, and endoscopy showed two esophageal ulcers without active bleeding. She received high-dose proton pump inhibitors, two packed red blood cell transfusions, and four units of fresh frozen plasma. During her hospital stay, she was also diagnosed with a urinary tract infection and started on Levaquin. The patient remained hemodynamically stable, had no further bleeding, and was discharged in stable condition.
+The patient is a 74-year-old female presenting with a chief complaint of a large black stool and abdominal pain. She was found to be hypotensive (BP 82/50), tachycardic, and had a decreased hematocrit from 32 to 28.1, with coffee ground emesis on nasogastric lavage, indicating upper gastrointestinal bleeding. Her past medical history includes hypertension, diabetes mellitus, aortic valve replacement on Coumadin, depression, and chronic right foot ulcer. Endoscopy revealed two esophageal ulcers without active bleeding; she was diagnosed with upper gastrointestinal bleed, esophageal ulcers, and urinary tract infection (UTI). Treatment included high-dose intravenous pantoprazole, two units of packed red blood cells, four units of fresh frozen plasma, vitamin K, and a five-day course of levofloxacin for UTI. Blood pressure was stabilized with fluids, antihypertensive medications were resumed when stable, and her chronic foot ulcer received wet-to-dry dressing changes. She was discharged in stable condition to a facility for further care and scheduled for follow-up endoscopy.
+
 
 ## Dialogue Summary
 
-The patient presented with large black stools and abdominal pain. The abdominal discomfort has worsened over time, is rated 6 out of 10 in severity, and is mainly located across the middle of the stomach; resting provides slight relief, while eating or moving does not help. Additional symptoms include increased fatigue, episodes of lightheadedness (especially when standing or moving), and vomiting described as resembling coffee grounds; the patient also reported a decreased appetite. No history of fainting was noted, but the patient felt close to fainting on several occasions. The doctor observed low blood pressure and connected the symptoms to possible gastrointestinal bleeding, such as from an ulcer or gastritis. The doctor recommended urgent evaluation at the emergency department or urgent care to check blood counts and ensure stability. The patient was advised to rest, avoid strenuous activity, and seek immediate help if symptoms worsen.
+The patient is an adult presenting with the chief complaint of large black stools and abdominal pain. The abdominal pain is located across the mid-abdomen, has worsened over time, and is rated 6 out of 10 in severity; it is somewhat relieved by rest but not by eating or movement. Additional symptoms include fatigue, episodes of lightheadedness (especially on standing), and vomiting with a coffee-ground appearance, along with decreased appetite. The patient denies actual fainting but reports near-syncope. Relevant findings include low blood pressure noted by the physician. The clinical impression is possible gastrointestinal bleeding, potentially due to an ulcer or gastritis with bleeding, as indicated by melena and coffee-ground emesis. The doctor advised urgent medical evaluation at the emergency department or urgent care for further assessment and stabilization, including checking blood counts. The patient was instructed to rest, avoid strenuous activity, and seek immediate help if symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.687
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 149 words
+
 
 ## Processing Information
 

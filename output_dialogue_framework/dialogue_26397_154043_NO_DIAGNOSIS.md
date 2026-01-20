@@ -87,16 +87,21 @@ Does that make sense, or is there anything else about your symptoms you'd like t
 
 ## EHR Summary
 
-The patient is a 54-year-old male presenting with chest pain. He describes his chest pain as "cold tight air in chest," but recently denies any symptoms, including nausea, vomiting, or dyspnea on exertion. His history is significant for coronary artery disease with prior stenting of the left circumflex artery (twice in 2107), hypercholesterolemia, obesity, cholelithiasis, and anemia (thalassemia), and he has no known drug allergies. He had a markedly positive stress test prior to admission and reports a recent 10–15 pound weight loss related to exercise and shortness of breath with climbing two flights of stairs. On physical examination, his heart rate was 68. The documented diagnosis is not explicitly stated in the note. Medications on admission included pravachol, lopressor, and aspirin; further workup was planned due to the positive stress test.
+The patient is a 54-year-old male presenting with chest pain. He has a history of coronary artery disease with prior stenting of the left circumflex artery, hypercholesterolemia, obesity, and cholelithiasis. At presentation, he denied current chest pain, dyspnea, or other acute symptoms, but had a markedly positive stress test and a history of exertional shortness of breath with two flights of stairs. Cardiac catheterization revealed severe multivessel coronary artery disease, including 95% stenosis of the left circumflex and 80% stenosis of the LAD. The documented diagnosis was coronary artery disease, status post coronary artery bypass grafting (CABG) times three. Treatment included CABG with LIMA to LAD, SVG to PDA, and left radial to OM, as well as perioperative transfusions and standard postoperative care. On discharge, he was stable and prescribed Lopressor, Lasix, potassium, Colace, Zantac, isosorbide mononitrate, Pravachol, aspirin, ibuprofen, and Dilaudid as needed. He was advised to follow up with his cardiologist in four weeks and his primary care physician in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain. The chest pain builds up gradually during activity, particularly when walking or going up stairs, and is rated as 6 out of 10 in intensity at its worst; the patient also experiences shortness of breath with exertion, which resolves if activity continues and does not require stopping to rest. The patient denied associated symptoms such as sweating, nausea, lightheadedness, wheezing, or cough. Recent history includes a 10–15 pound weight loss attributed to increased exercise, with no changes in exercise routine otherwise. No physical findings were described during the visit. The doctor assessed that the symptoms are moderate, come on gradually with exertion, and may be related to cardiac or musculoskeletal causes, but noted that new chest discomfort during exertion warrants further evaluation. The doctor recommended moderating activity until further assessment, scheduling a check-up to evaluate heart health, and seeking immediate medical attention if symptoms worsen or new warning signs develop.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain develops gradually during physical activity, such as walking or climbing stairs, and is accompanied by exertional shortness of breath; the pain is rated 6 out of 10 at its worst. The patient denies associated symptoms such as sweating, nausea, lightheadedness, wheezing, or cough, and reports recent weight loss due to increased exercise. There is no documented relevant medical history, medications, or allergies. The clinical impression is that the symptoms may be related to either cardiac causes or musculoskeletal strain, with some reassurance given due to the moderate severity and absence of concerning associated symptoms. The doctor advised moderating activity until further evaluation and emphasized the importance of monitoring for warning signs such as pain at rest, worsening pain, fainting, palpitations, or severe shortness of breath. The patient was instructed to schedule a check-up soon for further assessment and to seek immediate care if symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.525
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

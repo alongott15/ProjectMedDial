@@ -87,16 +87,21 @@ Is there anything else about your recent health that you’re concerned about or
 
 ## EHR Summary
 
-The patient is a 45-year-old woman presenting with recurrent chest pain. She reported bilateral arm joint and throat discomfort while riding in her car, and an EKG at that time revealed a new T wave inversion; echocardiogram showed no significant change. Her relevant history includes prior right coronary and circumflex artery stents, recent RCA re-stenosis, hypothyroidism, and an allergy to sulfa medications. On admission, laboratory data showed potassium 3.5, BUN 9, and creatinine 0.6. During hospitalization, she was found to have a 100% RCA occlusion. The documented diagnosis was complete right coronary artery occlusion. She underwent a vein graft coronary artery bypass graft (CABG) of the RCA and recovered well postoperatively, with resolution of orthostatic hypertension after fluid administration.
+The patient is a 45-year-old woman presenting with recurrent chest pain. She experienced bilateral arm joint and throat discomfort while riding in her car, and an EKG at that time showed new T wave inversion; an echocardiogram revealed no significant change. Her relevant history includes prior right coronary and circumflex artery stents, hypothyroidism, and an allergy to sulfa medications. On admission, she was found to have a 100% right coronary artery (RCA) occlusion. The documented diagnosis was RCA occlusion requiring surgical intervention. She underwent a coronary artery bypass graft (CABG) of the RCA and recovered well postoperatively, with resolution of orthostatic hypertension after fluid administration. At discharge, she was ambulating well, cleared by Physical Therapy, and prescribed medications including atenolol, Niferex, Colace, Synthroid, Prempro, Plavix, Lipitor, Percocet as needed, aspirin, and ranitidine. She was advised to follow up with her primary care physician in three to four weeks and her cardiac surgeon in six weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with recurrent chest pain as the chief complaint. The discomfort is typically located in the middle of the chest and is sometimes accompanied by pain in both arm joints and the throat; episodes last a few minutes, occur randomly, and are rated 5–6 out of 10 in intensity. The patient reported no clear triggers or relieving factors and denied associated symptoms such as shortness of breath, sweating, palpitations, or lightheadedness, but noted occasional increases in blood pressure upon standing. The arm joint pain is described as inside the joints without affecting movement. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of concerning cardiac symptoms and suggested that the pattern and characteristics of discomfort may indicate musculoskeletal strain, acid reflux, or anxiety rather than a serious cardiac issue. The doctor advised monitoring symptom episodes for patterns, managing stress, gentle stretching, staying hydrated, and to seek prompt care if symptoms worsen or new symptoms develop.
+The patient is an adult presenting with recurrent chest pain as the chief complaint. The discomfort is described as midline chest pain, occasionally radiating to both arm joints and the throat, with episodes rated at 5–6 out of 10 in intensity and lasting a few minutes each time. The symptoms occur without clear triggers or relieving factors and are not associated with dyspnea, palpitations, lightheadedness, or sweating; the patient also reports occasional increases in blood pressure upon standing. Arm joint discomfort is described as intra-articular pain without limitation of movement. There is no documented relevant medical history, medications, or allergies in the dialogue. The clinical impression was that the symptoms are likely due to a non-cardiac cause such as musculoskeletal strain, acid reflux, or anxiety, given the absence of concerning features. The treatment plan includes monitoring symptoms for patterns, managing stress, gentle stretching, staying hydrated, and seeking prompt care if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.386
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

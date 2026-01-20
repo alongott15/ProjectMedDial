@@ -97,16 +97,21 @@ If you have any questions about what to watch for or how to manage things at hom
 
 ## EHR Summary
 
-The patient is a 71-year-old female presenting with chest pain radiating to the back and jaw. Symptoms began at home on 2108-10-22, and echocardiogram revealed anterior ischemia with an ejection fraction of 54 percent. Cardiac catheterization showed significant multi-vessel coronary artery disease, including 90% occlusion in several vessels. Her past medical history includes hypertension, abdominal aortic aneurysm, prior cerebrovascular accident, left nephrectomy, chronic obstructive pulmonary disease, and gastroesophageal reflux disease; home medications included aspirin, Lasix, Lipitor, Dilantin, Colace, Cardizem CD, Zoloft, and labetalol. On examination prior to discharge, she was afebrile with stable vital signs, clear chest except for diffuse wheezes, and regular heart rhythm. The documented diagnosis was multi-vessel coronary artery disease with anterior ischemia. She underwent coronary artery bypass grafting times four on 2108-10-29 and had an uncomplicated postoperative course aside from extended ICU monitoring due to COPD. Treatment included surgical revascularization, pulmonary toilet, and supportive care; she was ambulatory and stable at discharge.
+The patient is a 71-year-old female presenting with chest pain radiating to the back and jaw. Symptoms began at home on 2108-10-22, and evaluation revealed anterior ischemia on echocardiogram with an ejection fraction of 54%. Cardiac catheterization showed significant multi-vessel coronary artery disease, including 90% occlusions in several vessels. Her past medical history includes hypertension, abdominal aortic aneurysm, prior cerebrovascular accident, left nephrectomy, chronic obstructive pulmonary disease, and gastroesophageal reflux disease. The documented diagnosis was multi-vessel coronary artery disease with anterior ischemia. She underwent coronary artery bypass grafting (CABG) times four and had an uncomplicated postoperative course, with extra ICU monitoring due to COPD. At discharge, she was stable, ambulatory, and her incisions were healing well. The treatment plan included discharge to a rehabilitation facility, continuation of cardiac and supportive medications, and follow-up with her surgeon in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain described as a pressure in the center of the chest that spreads to the back and jaw. The discomfort began several days ago, with each episode lasting several minutes and rated as a 6 to 7 out of 10 in severity; it occurs both at rest and during activity, is not associated with sweating, shortness of breath, or lightheadedness, and is somewhat relieved by rest but typically resolves on its own. The patient denied any specific triggers and reported no relief from medications. Relevant history includes high blood pressure and high cholesterol; no other medical history or allergies were mentioned. On clinical review, the pain was centrally located and pressure-like, without sharp or burning qualities. The doctor assessed that the symptoms could be related to cardiac causes given the nature of the pain and the patient’s risk factors, though other causes such as muscle strain or acid reflux were also considered. The doctor advised the patient to avoid strenuous activity, keep track of symptom patterns, and contact their primary care provider soon for in-person evaluation; immediate medical attention was recommended if symptoms worsen or new symptoms such as nausea or difficulty breathing develop. The patient expressed understanding of these recommendations.
+The patient is an adult woman presenting with chest pain as her chief complaint. She describes a central chest pressure rated 6–7/10 in severity, spreading to her back and jaw, with episodes lasting several minutes and occurring both at rest and during activity. She denies associated symptoms such as dyspnea, diaphoresis, or lightheadedness, and notes that resting helps somewhat but the discomfort typically resolves on its own. Relevant history includes hypertension and hypercholesterolemia. The clinical impression is that the symptoms could be cardiac in origin, particularly given her risk factors, though other causes like muscle strain or acid reflux are also considered. The physician advises close monitoring of symptoms, avoidance of strenuous activity, and prompt follow-up with her primary care provider for further evaluation. She is instructed to seek emergency care if symptoms worsen, last longer, or are accompanied by new signs such as nausea or difficulty breathing. The patient expresses understanding and agrees to monitor her symptoms and contact her doctor.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.573
+- **Model Used**: general
+- **Text1 Length**: 141 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

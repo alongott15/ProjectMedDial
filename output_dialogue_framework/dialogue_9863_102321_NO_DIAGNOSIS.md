@@ -97,16 +97,23 @@ Does that clarify things for you? Is there anything else you’d like to discuss
 
 ## EHR Summary
 
-The patient is a 59-year-old male presenting with increasing dyspnea on exertion and occasional chest discomfort over the past few months. Symptoms have progressively worsened, prompting evaluation. Relevant history includes coronary artery disease with prior percutaneous transluminal coronary angioplasty (PTCA) in 2102, 2108, and 2109, previous myocardial infarction, hypertension, hypercholesterolemia, chronic back pain, possible transient ischemic attack or cerebrovascular accident, degenerative joint disease, and left total hip replacement. Medications prior to admission included Toprol XL, Lipitor, Diovan, aspirin, Motrin, Percocet as needed, Plavix, Imdur, and a multivitamin; he is allergic to Zestril (cough). On admission, cardiac catheterization revealed occlusion of the left anterior descending and right coronary arteries with in-stent stenosis and moderate obtuse marginal disease. Physical examination was notable for clear lungs, regular heart rhythm without murmur, and no edema. The documented clinical impression was severe multi-vessel coronary artery disease. The treatment plan included consultation with cardiothoracic surgery and acceptance for surgical intervention; a carotid duplex showed no significant hemodynamic lesions while awaiting surgery.
+The patient is a 57-year-old male presenting with increasing dyspnea on exertion and occasional chest discomfort over the past few months. Symptoms were progressive and associated with a history of coronary artery disease, including prior percutaneous transluminal coronary angioplasty and myocardial infarction. Cardiac catheterization revealed occlusion of the left anterior descending and right coronary arteries with instent stenosis and moderate obtuse marginal disease. Relevant history includes hypertension, hypercholesterolemia, chronic back pain, degenerative joint disease, and status post left total hip replacement; he is allergic to Zestril (cough). The documented diagnoses were coronary artery disease status post coronary artery bypass grafting times three, hypertension, hypercholesterolemia, chronic back pain, degenerative joint disease, and status post left total hip replacement. Treatment included coronary artery bypass grafting (CABG) times three, management of a postoperative right pneumothorax with chest tube placement, and initiation of medications including metoprolol, Lasix, potassium chloride, aspirin, Lipitor, and Percocet. The patient was discharged home in stable condition with instructions for wound care follow-up in two weeks and additional follow-up with his primary care physician and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with increased shortness of breath during household activities. Symptoms included gradually worsening dyspnea over the past few weeks, mild swelling in the lower legs, and chest discomfort described as tightness or pressure occurring with exertion and relieved by rest; no cough, nocturnal dyspnea, abdominal bloating, or weight gain were reported. Relevant history includes coronary artery disease with prior myocardial infarction, hypertension, hyperlipidemia, and current medications: Toprol XL, Lipitor, Diovan, Aspirin, Motrin, Percocet, Plavix, Imdur, and a multivitamin; no known lung conditions or allergies were mentioned. Physical findings were limited to patient-reported lower leg swelling and exertional symptoms. The doctor assessed that the symptoms may be related to decreased cardiac efficiency and possible fluid retention secondary to heart disease. The treatment plan included monitoring for worsening symptoms (such as chest pain at rest, severe shortness of breath, or rapid swelling), elevating the legs when sitting, reducing salt intake, and arranging prompt follow-up with the cardiologist or primary provider for further evaluation. The doctor advised the patient to report the gradual worsening of symptoms and new leg swelling to their cardiologist. The patient expressed understanding and agreed to the recommendations.
+The patient is an adult with a history of coronary artery disease, prior myocardial infarction, hypertension, and hyperlipidemia, presenting with increased shortness of breath during exertion as the chief complaint. Over the past few weeks, dyspnea has gradually worsened and is now accompanied by mild lower leg swelling and chest tightness or pressure during activity, which resolves with rest. The patient denies cough, orthopnea, paroxysmal nocturnal dyspnea, abdominal bloating, or recent weight gain. Relevant medications include Toprol XL, Lipitor, Diovan, Aspirin, Motrin, Percocet, Plavix, Imdur, and a multivitamin; no known lung disease was reported.
+
+The clinical impression is that these symptoms may be related to decreased cardiac function, possibly leading to fluid retention and exertional symptoms. The treatment plan includes monitoring for worsening symptoms (such as chest pain at rest or severe dyspnea), elevating the legs when sitting, reducing salt intake, and arranging prompt follow-up with the cardiologist or primary provider for further evaluation. The patient was advised to report any significant changes or new symptoms immediately.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.974
-- **Similarity Label**: N/A
+- **STS Score**: 0.614
+- **Model Used**: general
+- **Text1 Length**: 176 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

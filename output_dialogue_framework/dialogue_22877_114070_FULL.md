@@ -110,3 +110,21 @@ Would you like some tips on gentle exercises or ways to make daily tasks a bit e
 ## Processing Information
 
 - **Processing Time**: 427.9s
+
+## EHR Summary
+
+The patient is a 79-year-old female admitted for additional repair and revision of a known thoracoabdominal aortic aneurysm. She presented without acute distress and underwent redo left thoracotomy with replacement of the descending aorta, followed by an exploratory laparotomy and celiac to superior mesenteric artery bypass due to postoperative abdominal tenderness and imaging findings of thrombus. Her postoperative course included intermittent dyspnea during ventilator weaning, a rising white count without identified infectious source, moderate left pleural effusion, and episodes of atrial fibrillation. Past medical history includes prior abdominal aortic aneurysm repair, hypertension, hypercholesterolemia, right adrenal mass, osteoarthritis, osteoporosis, polymyalgia rheumatica (PMR), and chronic low back pain. She has no known drug allergies and was taking aspirin, Lipitor, Norvasc, and Fosamax at admission. The documented diagnoses were status post redo thoracotomy with aortic graft, exploratory laparotomy with vascular bypass, hypertension, hypercholesterolemia, right adrenal mass, osteoarthritis, osteoporosis, PMR, and chronic low back pain. Treatment included surgical interventions, postoperative antibiotics (later discontinued), anticoagulation with warfarin and heparin, amiodarone and beta-blockers for atrial fibrillation, supportive care, and physical therapy. She was discharged in good condition to rehabilitation with instructions for follow-up and a regimen including warfarin, Lopressor, amiodarone, Lasix, potassium chloride, Flovent, isotalopram, Darvocet as needed, Metamucil, multivitamin, zinc sulfate, and sliding scale insulin.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with difficulty breathing, especially during attempts to wean from the ventilator. Symptoms include exertional dyspnea that is less severe at rest, increased fatigue with talking and eating, and mild, constant abdominal tenderness that does not worsen with movement or coughing. The patient denies fever, chills, or appetite changes, and reports new mild swelling in the legs and arms. Relevant history includes intermittent atrial fibrillation and recent ventilator use following critical illness. The clinical impression is that the patient’s symptoms are consistent with post-ventilator muscle weakness and recovery from critical illness, with abdominal tenderness likely related to muscle use or positioning. The treatment plan includes gradual physical therapy and breathing exercises to rebuild strength, monitoring for new or worsening symptoms, and supportive advice for making daily tasks easier during recovery. The patient was advised to report any increase in discomfort, fever, or new symptoms to the care team.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.483
+- **Model Used**: general
+- **Text1 Length**: 210 words
+- **Text2 Length**: 153 words
+

@@ -93,16 +93,21 @@ Let’s get these tests scheduled and keep a close eye on things together. Do yo
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with recent onset of substernal chest pain and dyspnea on exertion. Symptoms were associated with electrocardiogram changes and were evaluated in the emergency room, leading to further cardiac workup. Relevant history includes insulin-dependent diabetes mellitus and hypertension; medications on admission included NPH insulin, Glucophage, glyburide, Levatol, and Mavik. Cardiac catheterization revealed three-vessel coronary artery disease and a large pericardial effusion with a 1-cm x 6-cm thrombin fibrin mass, but no tamponade. Physical examination was unremarkable except for findings related to the cardiac condition. The documented diagnosis was three-vessel coronary artery disease with pericardial effusion. The patient underwent coronary artery bypass graft surgery (two grafts) and pericardial peel, tolerated the procedure well, and was transferred postoperatively in stable condition. Postoperative care included extubation and removal of chest tubes.
+The patient is a 62-year-old male presenting with recent onset of substernal chest pain and dyspnea on exertion. Symptoms were associated with electrocardiogram changes and were further evaluated by cardiac catheterization, which revealed three-vessel coronary artery disease and a pericardial effusion with a large thrombin fibrin mass. Relevant history includes insulin-dependent diabetes mellitus and hypertension; medications on admission included NPH insulin, Glucophage, glyburide, Levatol, and Mavik. The documented diagnoses were status post coronary artery bypass graft surgery, status post cardiac catheterization, and history of insulin-dependent diabetes mellitus. The patient underwent coronary artery bypass graft surgery (two grafts) with pericardial peel and tolerated the procedure well. Postoperatively, he recovered without complications, participated in physical therapy, and was discharged home in good condition.
+
 
 ## Dialogue Summary
 
-The patient presented with central chest pain as the chief complaint. The pain was described as a pressure sensation in the middle of the chest, rated 6 out of 10 at its worst, persisting for several days without significant change, and not radiating to the arms, neck, or back. The patient also reported gradual onset shortness of breath with physical activity, which, along with the chest pressure, was worsened by exertion (such as climbing stairs or walking) and relieved by rest or sitting down; no associated symptoms such as sweating, nausea, dizziness, or rapid heartbeat were noted. No relevant medical history, medications, or allergies were mentioned during the encounter. On clinical review, the doctor noted that symptoms were exertional and resolved with rest, with no acute distress or additional findings described. The doctor’s assessment was that the pattern of exertional chest pressure and dyspnea could be consistent with angina due to narrowed blood vessels affecting heart blood flow. The treatment plan included arranging heart tests (EKG and possibly a stress test), advising the patient to avoid strenuous activity until further evaluation, and instructing them to seek immediate care if symptoms worsen or new symptoms such as pain at rest, sweating, or fainting develop. The patient expressed understanding and agreed to the recommended plan.
+The patient is an adult presenting with chest pain as the chief complaint. The pain is described as a central chest pressure, rated 6 out of 10 at its worst, present for several days without significant change, and is not radiating. The discomfort is triggered by physical activity such as climbing stairs or walking and is relieved by rest or sitting down; associated symptoms include exertional shortness of breath that comes on gradually, but no lightheadedness, dizziness, sweating, nausea, or palpitations. Relevant medical history, medications, and allergies are not specified. The clinical impression is that the symptoms are consistent with angina, likely due to reduced blood flow to the heart muscle from narrowed blood vessels. The treatment plan includes arranging for cardiac evaluation with an EKG and possibly an exercise stress test. The patient was advised to avoid strenuous activity until further assessment and to seek immediate medical attention if symptoms worsen or new symptoms such as pain at rest, sweating, or fainting develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.472
+- **Model Used**: general
+- **Text1 Length**: 121 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

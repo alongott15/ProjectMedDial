@@ -87,16 +87,21 @@ I recommend scheduling an in-person visit soon so we can assess the ulcers direc
 
 ## EHR Summary
 
-The patient is a 65-year-old male presenting with bilateral ischemic Achilles heel ulcers. He reports ulcerations in the Achilles tendon area of both feet, attributed to dry skin and abrasions from scratching, with associated rest pain and inability to ambulate due to pain; he is currently wheelchair bound. His medical history includes coronary artery disease (status post coronary artery bypass graft), diabetes, hypertension, hypercholesterolemia, gastroesophageal reflux disease, and rheumatoid arthritis. On physical exam, he was alert and cooperative, with stable vital signs and clear lungs; no acute distress was noted. The documented diagnosis is bilateral ischemic heel ulcers. Prior treatment included intravenous antibiotics at an outside hospital without improvement, and he underwent an angiogram before referral for further evaluation. Admission medications included insulin (Humulin NPH), Lopressor, Tricor, Mavik, Zocor, and sublingual nitroglycerin as needed. Further management recommendations are not specified in the note.
+The patient is a 65-year-old male presenting with bilateral ischemic Achilles heel ulcers. He reported rest pain and inability to ambulate due to pain, with a history of diabetes, coronary artery disease (status post coronary artery bypass graft), hypertension, hypercholesterolemia, and rheumatoid arthritis. The ulcers developed secondary to dry skin and abrasions, were unresponsive to prior intravenous antibiotics, and were complicated by infection with pseudomonas and gram-negative rods. On admission, physical exam revealed cool, pale feet with draining Achilles ulcers and non-palpable distal pulses. The documented diagnoses included bilateral ischemic Achilles ulcers, pulmonary edema requiring intubation, myocardial infarction, and yeast bacteremia. Treatment involved right axillo-femoral and left femoral-anterior tibial bypass grafts with bilateral heel debridement, intravenous antibiotics (Kefzol, ciprofloxacin), anticoagulation (heparin, Coumadin), diuresis (Lasix), and antifungal therapy (fluconazole). At discharge, the patient was stable with improved pulses, on ciprofloxacin, fluconazole, antiplatelet agents, antihypertensives, and insulin sliding scale, and was referred to rehabilitation with instructions for wet-to-dry dressings and follow-up.
+
 
 ## Dialogue Summary
 
-The patient presented with painful, non-healing sores on both Achilles heels. The ulcers began approximately two weeks ago, have become more painful and possibly larger over time, and are significantly limiting the patient's ability to walk or move around the house. The patient denied any drainage, redness, swelling, numbness, tingling, color or temperature changes in the feet, and reported no prior history of wounds or slow healing on the feet or legs. On examination, there were no signs of infection described by the patient, but the doctor noted the persistence and worsening of the ulcers. The assessment was that these persistent and worsening heel ulcers may be related to pressure, poor blood flow, or underlying conditions such as diabetes, despite no previous history. The doctor advised the patient to continue keeping the sores clean and covered, avoid pressure on the heels, and monitor for signs of infection such as redness, warmth, swelling, drainage, or fever. The doctor recommended scheduling an in-person visit soon for direct assessment of the ulcers, evaluation of circulation, and consideration of further treatments or referral to a wound care specialist if needed.
+The patient is an adult presenting with painful, non-healing sores (ulcers) on both Achilles heels as the chief complaint. The ulcers began approximately two weeks ago and have progressively become more painful and slightly larger, significantly limiting the patient's ability to walk and perform daily activities. There is no reported drainage, redness, swelling, numbness, tingling, or color/temperature changes in the feet, and no prior history of similar wounds or delayed healing. The patient has been keeping the sores clean and covered but has not used ointments or special treatments. The clinical impression is of persistent and worsening heel ulcers without overt signs of infection but with concern for possible underlying issues such as pressure, poor circulation, or diabetes. The treatment plan includes continuing to keep the areas clean and covered, minimizing pressure on the heels, monitoring for signs of infection (redness, warmth, swelling, drainage, fever), and scheduling an in-person visit for further assessment. Referral to a wound care specialist and additional evaluation for underlying causes may be considered based on in-person findings.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.969
-- **Similarity Label**: N/A
+- **STS Score**: 0.701
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

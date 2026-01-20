@@ -87,16 +87,21 @@ For now, try to stay hydrated and avoid strenuous activity until you can be eval
 
 ## EHR Summary
 
-The patient is a female over 90 years old presenting with an upper gastrointestinal bleed. She reported ongoing melena (black stools) and a decrease in hematocrit from 35.0% to 30.0% over several days, with an episode of hypotension (blood pressure 70/60) prompting admission. She denied fevers, chills, nausea, vomiting, chest pain, or dyspnea. Her medical history includes peptic ulcer disease, gastroesophageal reflux disease, dementia, depression, osteoporosis, vertigo, cataracts, gait disorder, hypertension, coronary artery disease, and hematuria. On physical examination, her vital signs were stable except for the prior hypotensive episode; oxygen saturation was 98% on two liters nasal cannula. The documented diagnosis was recurrent upper gastrointestinal bleeding likely related to peptic ulcer disease. The treatment plan included supportive care without endoscopy due to her DNR/DNI status and continued use of proton pump inhibitors and other home medications.
+The patient is an elderly female presenting with upper gastrointestinal bleed. She experienced ongoing melena (black stools), a decrease in hematocrit from 35.0% to 30.0%, and an episode of hypotension (blood pressure 70/60) prior to admission, but denied fevers, chills, nausea, vomiting, chest pain, or dyspnea. Her medical history includes peptic ulcer disease, gastroesophageal reflux disease, dementia, depression, osteoporosis, vertigo, cataracts, gait disorder, hypertension, coronary artery disease, and hematuria; she has no known drug allergies and is DNR/DNI. On admission, her hematocrit was 24.1% and endoscopy revealed a tear near the gastroesophageal junction, antral erosions, and a gastric ulcer with a visible vessel that was cauterized. The documented diagnoses were upper gastrointestinal bleed (status post cauterization), peptic ulcer disease, and multiple chronic conditions. Treatment included transfusion of one unit of packed red blood cells, continuation of Protonix 40 mg twice daily (to be reduced after stabilization), antibiotics (amoxicillin and clarithromycin) for sinusitis seen on head CT, and supportive care for comorbidities. She was advised to follow up with her primary care physician within one week and with gastroenterology as needed.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about having dark stools for the past few days. They reported associated symptoms of increased lightheadedness and noted that their blood pressure was low at the last measurement, with these symptoms remaining stable over the past few days. The patient denied any changes in diet or medications, and did not observe any bright red blood in the stool, shortness of breath, chest discomfort, or limitations in daily activities. Relevant history includes a previously noted lower hematocrit, though the timing was not specified, and no new medications or dietary changes. The doctor noted the combination of dark stools, lightheadedness, low blood pressure, and decreased hematocrit as concerning for possible slow gastrointestinal bleeding. The assessment was that these symptoms may indicate ongoing blood loss in the digestive tract rather than dietary or medication causes. The doctor recommended prompt in-person evaluation and advised the patient to stay hydrated, avoid strenuous activity, and seek immediate care if symptoms worsen; the patient confirmed they have support to get to a hospital.
+The patient is an adult presenting with the chief complaint of dark stools for several days. Associated symptoms include increased lightheadedness and persistently low blood pressure, without shortness of breath, chest discomfort, or limitation of daily activities. The patient denies any recent changes in diet or medications and has not observed any bright red blood in the stool. There is a history of a previously noted low hematocrit, though the timing is unclear. The clinical impression is possible gastrointestinal blood loss, given the combination of melena (dark stools), lightheadedness, low blood pressure, and decreased hematocrit. The physician recommended prompt in-person evaluation to assess for ongoing internal bleeding and advised seeking immediate care if symptoms worsen (such as severe weakness, chest pain, fainting, or rapid heartbeat). Supportive advice included staying hydrated and avoiding strenuous activity until further assessment. The patient has arranged for assistance to reach a hospital for evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.677
+- **Model Used**: general
+- **Text1 Length**: 180 words
+- **Text2 Length**: 149 words
+
 
 ## Processing Information
 

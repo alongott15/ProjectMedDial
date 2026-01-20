@@ -87,16 +87,21 @@ If you ever have severe chest pain that doesn’t resolve quickly, or if you fee
 
 ## EHR Summary
 
-The patient is a 71-year-old man presenting with unstable angina. He reports a 15-year history of exertional angina characterized by bilateral shoulder and neck discomfort relieved by nitroglycerin, with recent episodes of nocturnal angina and new-onset lightheadedness. He denies any dyspnea. Relevant history includes hypertension, hypercholesterolemia, arthritis, BPH, a family history of coronary artery disease, and prior left carotid endarterectomy. Physical examination revealed blood pressure of 140/80 mmHg, heart rate of 72 bpm, regular cardiac rhythm, clear lungs, and no edema. Cardiac catheterization previously showed OM1 80% occlusion, total RCA occlusion, EF 45-50%, and inferior wall hypokinesis; recent echo showed EF 40% with inferior hypokinesis. The documented diagnosis is unstable angina. On admission, medications included Pravachol, Atenolol, Prilosec, Nitro patch, and Ibuprofen.
+The patient is a 71-year-old man presenting with unstable angina. He reported a 15-year history of exertional angina characterized by bilateral shoulder and neck discomfort relieved by nitroglycerin, with recent episodes of nocturnal angina and new-onset lightheadedness. He denied any dyspnea. His medical history includes hypertension, hypercholesterolemia, benign prostatic hypertrophy, and arthritis; he has no known drug allergies. Cardiac catheterization revealed three-vessel coronary artery disease with significant occlusions and an ejection fraction of 51%. The documented diagnoses were three-vessel coronary artery disease status post coronary artery bypass grafting (CABG) times three, hypertension, hypercholesterolemia, benign prostatic hypertrophy, and arthritis. Treatment included CABG (LIMA to LAD, SVG to OM, SVG to diagonal), postoperative management, and discharge medications such as Pravachol, Lopressor, Prilosec, Ibuprofen, Percocet, Colace, Lasix, KCL, and ASA. The patient was stable at discharge and advised to follow up with his cardiologist in six weeks and his primary care provider within one to seven weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort, primarily during physical activity such as walking or doing chores. Symptoms included worsening angina over the past few weeks, discomfort spreading to both shoulders and neck during exertion, occasional nighttime episodes, and associated lightheadedness; the discomfort was described as moderate and typically resolved quickly with rest. The patient reported a history of angina for several years and noted increased frequency and severity recently, with no mention of current medications or allergies. The patient found daily activities more difficult and needed to take breaks more often. The doctor assessed that the angina has become more frequent, occurs with less exertion, and sometimes at rest, suggesting possible progression of heart disease and reduced oxygen supply to the heart. The doctor recommended follow-up with the patient's cardiologist for medication review and possible further testing, advised avoiding heavy exertion, and instructed the patient to monitor for new symptoms such as pain unrelieved by rest or new shortness of breath. The patient was also advised to seek emergency care if severe chest pain or faintness occurred.
+The patient is an adult with a history of angina presenting with worsening chest discomfort. The discomfort is described as moderate, triggered primarily by physical activity such as walking, chores, or lifting, and occasionally occurs at rest, including waking the patient at night—this is a new development. The pain radiates to both shoulders and sometimes the neck, and is occasionally accompanied by lightheadedness, but not by sweating or shortness of breath. The discomfort typically resolves quickly with rest, but the patient reports increased frequency and reduced exercise tolerance over the past couple of weeks. Relevant history includes longstanding angina; no medication or allergy details are specified. The clinical impression is that the patient's angina is becoming more frequent and occurring with less exertion, suggesting possible progression of underlying heart disease. The doctor advised prompt follow-up with a cardiologist for medication review and possible further testing, recommended avoiding heavy exertion, monitoring for new or worsening symptoms, and seeking emergency care if severe or persistent chest pain or significant symptoms occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.969
-- **Similarity Label**: N/A
+- **STS Score**: 0.576
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

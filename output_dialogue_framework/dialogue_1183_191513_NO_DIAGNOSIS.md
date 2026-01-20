@@ -85,16 +85,21 @@ Let me know if you have any questions about what we've discussed or next steps.
 
 ## EHR Summary
 
-The patient is a 76-year-old female presenting with decreased mental status, decreased motor skills, and decreased communication following a recent history of subdural hematoma. She experienced worsening mental status and headache after initial subdural hematoma drainage, requiring readmission and further intervention. Her past medical history includes hypertension, and she has allergies to erythromycin and penicillin. On examination, she was afebrile, hypertensive (BP 168/70), alert but slow to respond, with right-sided weakness. The documented diagnosis was recurrent subdural hematoma with associated neurological deficits. Treatment included bedside drainage of the subdural hematoma via frontal burr hole, which resulted in complete evacuation as confirmed by repeat head CT. She improved clinically, regaining orientation and strength, and was deemed safe for discharge home with continued physical and occupational therapy support. Discharge medications included verapamil, hydrochlorothiazide, Lipitor, Percocet as needed, and Colace.
+The patient is a 76-year-old woman presenting with decreased mental status, decreased motor skills, and decreased communication following a recent history of subdural hematoma. She experienced mental status changes and headache after an initial subdural hematoma drainage, prompting readmission. Her past medical history includes hypertension, and she has allergies to erythromycin and penicillin. On examination, she was awake but slow to respond, with right-sided weakness. The documented diagnosis was recurrent subdural hematoma with associated neurological deficits. Treatment included bedside drainage of the subdural hematoma via frontal burr hole, which resulted in complete evacuation as confirmed by repeat head CT. She improved clinically, was mobile with good strength, and was discharged home in stable condition. Discharge instructions included follow-up with neurosurgery in one month and a repeat head CT scan.
+
 
 ## Dialogue Summary
 
-The patient presented with changes in mental state. They reported increased confusion, difficulty focusing, and trouble communicating, which have gradually worsened over time rather than starting suddenly. The patient also described mild to moderate headaches that come and go, right-sided weakness, slowed thinking, and increased difficulty managing conversations, daily tasks, getting dressed, preparing meals, and moving around the house. No differences in symptom severity were noted throughout the day. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that these gradual cognitive and physical changes, along with headaches and right-sided weakness, may indicate an underlying neurological issue such as small strokes or changes in blood flow. The doctor recommended a thorough neurological assessment including brain imaging and blood tests, and advised the patient to seek immediate medical attention if symptoms suddenly worsen (e.g., severe confusion, new weakness, difficulty speaking, or trouble walking). The patient expressed understanding of the plan.
+The patient presents with concerns about changes in mental state. They report increasing confusion, difficulty focusing and communicating, and trouble managing daily activities such as conversations, household tasks, dressing, and meal preparation. Symptoms have developed gradually over time rather than suddenly and are accompanied by mild to moderate, intermittent headaches and right-sided weakness affecting motor skills. There is no variation in symptom severity throughout the day. Relevant history, medications, and allergies are not specified. The clinical impression is a possible underlying neurological issue affecting brain function, with consideration of causes such as small strokes or changes in blood flow. The treatment plan includes arranging a thorough neurological assessment with brain imaging and blood tests. The patient was advised to seek immediate medical attention if symptoms suddenly worsen, such as with severe confusion, new weakness, difficulty speaking, or trouble walking.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.453
+- **Model Used**: general
+- **Text1 Length**: 129 words
+- **Text2 Length**: 139 words
+
 
 ## Processing Information
 

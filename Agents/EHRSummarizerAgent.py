@@ -54,7 +54,7 @@ class EHRSummarizerAgent:
             {"role": "system", "content": EHR_SUMMARIZER_PROMPT},
             {"role": "user", "content": f"""Clinical Note:{metadata_str}
 
-{ehr_text[:2000]}
+{ehr_text}
 
 Provide a concise summary (5-8 sentences) covering:
 - Main complaint

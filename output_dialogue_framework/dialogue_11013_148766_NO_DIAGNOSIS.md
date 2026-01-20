@@ -91,16 +91,23 @@ If the drainage increases, the skin changes, or you start to feel unwell (fever,
 
 ## EHR Summary
 
-The patient is a 76-year-old female presenting with worsening symptoms of coronary artery disease. She recently had a positive stress test and underwent cardiac catheterization, which revealed 90% left main and three-vessel coronary artery disease with an ejection fraction of 63%. Her past medical history includes coronary artery disease, questionable transient ischemic attack, hypercholesterolemia, gastroesophageal reflux disease, prior endocarditis, upper gastrointestinal bleed due to aspirin, diverticulosis, colon polypectomy, chronic back pain, bilateral cataract extraction, negative breast biopsy, and tonsillectomy. Preoperative medications included aspirin, atenolol, Zantac, Prevacid, Lipitor, Colace, Integrilin, and heparin. She has allergies to prednisone (rash), Vioxx, Robaxin, Celebrex, and amlodipine. Carotid ultrasound showed no significant stenosis in either carotid artery. The documented diagnosis was severe left main and three-vessel coronary artery disease, and she was transferred for coronary artery bypass grafting.
+The patient is a 76-year-old female presenting with worsening symptoms of coronary artery disease. She experienced increased cardiac symptoms, had a positive stress test, and was found to have 90% left main and three-vessel coronary artery disease on cardiac catheterization, with an ejection fraction of 63%. Her past medical history includes coronary artery disease, hypercholesterolemia, gastroesophageal reflux disease, prior endocarditis, and a history of upper gastrointestinal bleed due to aspirin, among others. During admission, she underwent coronary artery bypass grafting times three and experienced intraoperative hypotension requiring emergent bypass and postoperative complications including right ventricular dysfunction, hyponatremia, atrial fibrillation, and right thigh wound dehiscence at the vein harvest site. The documented diagnoses were coronary artery disease, status post coronary artery bypass graft times three, and right thigh wound dehiscence. Treatment included coronary artery bypass surgery, inotropic and vasopressor support, wound care with VAC dressing, and discharge medications such as aspirin, amiodarone, Lasix, potassium chloride, Lopressor, and Tylenol with codeine. She was discharged in good condition to a rehabilitation facility with follow-up arranged with her cardiologist and surgeons.
+
 
 ## Dialogue Summary
 
-The patient presented with loose stools and ongoing drainage from the right ankle and calf. The loose stools have been present for a few days, though the exact onset is unclear, and the patient did not report associated fever, chills, or unusual fatigue. The drainage around the right ankle and calf has persisted without redness, swelling, warmth, or foul odor, and its amount is worsened by prolonged standing or increased movement; there have been no changes in color or consistency. The drainage makes daily activities more difficult but does not prevent mobility. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of infection signs and suggested the drainage may be due to chronic skin changes or a wound that has not fully healed, while the loose stools may be related to diet, a mild stomach bug, or stress. The doctor recommended elevating the affected leg, keeping the area clean and covered with a dry dressing, monitoring for signs of infection, staying hydrated, and avoiding foods that could worsen diarrhea. The patient was advised to seek further evaluation if symptoms worsen or new concerning signs develop.
+The patient presents with concerns of loose stools and ongoing drainage from the right ankle and calf. The loose stools have been present for a few days, with no associated fever, chills, or significant fatigue. The drainage around the right ankle and calf has persisted without redness, swelling, warmth, or foul odor, but is worsened by prolonged standing or increased movement and makes daily activities more difficult. There have been no changes in the color or consistency of the drainage.
+
+The clinical impression is persistent drainage likely due to chronic skin changes or a wound that has not fully healed, without current signs of infection; the loose stools are considered mild and possibly related to diet, a mild gastrointestinal illness, or stress. The treatment plan includes elevating the affected leg, keeping the area clean and covered with a dry dressing, monitoring for signs of infection (redness, warmth, swelling, foul odor), staying hydrated, and avoiding foods that may worsen diarrhea. The patient was advised to seek further evaluation if symptoms worsen or new concerning signs develop. No acute intervention was deemed necessary at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.922
-- **Similarity Label**: N/A
+- **STS Score**: 0.316
+- **Model Used**: general
+- **Text1 Length**: 177 words
+- **Text2 Length**: 184 words
+
 
 ## Processing Information
 

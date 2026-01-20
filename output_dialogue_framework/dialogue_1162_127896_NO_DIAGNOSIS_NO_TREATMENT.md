@@ -85,16 +85,23 @@ Still, I’d like to know—over the past couple of weeks, have these symptoms b
 
 ## EHR Summary
 
-The patient is a 53-year-old man presenting for evaluation of a brain tumor. He reported a history of pulsatile tightness, poor balance, dizziness, and later developed mid-frontal headaches radiating to the back of his head, along with pressure in his right ear; these symptoms were not relieved by antibiotics or physical therapy. His past medical history includes insulin-dependent diabetes, angina, and prior angioplasty with three stent placements. Physical examination was notable for stable vital signs and a normal neurological exam, including intact cognition, language, and cranial nerves. Imaging with gadolinium-enhanced MRI on 2114-11-17 revealed a mass in the right temporal brain. The documented diagnosis is a right temporal brain mass; lung biopsy was non-diagnostic and adrenal biopsy results are pending. No specific treatment or recommendations were documented in this note.
+The patient is a 53-year-old man presenting for evaluation of a brain tumor. He reported symptoms beginning in August with pulsatile tightness, poor balance, dizziness, and later developed mid-frontal headaches radiating to the back of his head, as well as pressure in his right ear; these symptoms were not relieved by antibiotics or physical therapy. His past medical history includes insulin-dependent diabetes, angina, and prior angioplasty with three stent placements. MRI revealed a right temporal brain mass, and he subsequently underwent a right temporal craniotomy for tumor resection. Postoperatively, his neurological exam was stable and unremarkable. The documented diagnosis was right temporal brain tumor. Treatment included surgical resection, postoperative Depakote 500 mg three times daily for one week, Decadron to be tapered, Zantac, Percocet for pain, and continuation of his home medications (Univasc, Niacin, Atenolol, Actose). He was discharged home in stable condition with follow-up scheduled in the brain tumor clinic.
+
 
 ## Dialogue Summary
 
-The patient presented with a chief complaint of an odd pulsating tightness in the head. Symptoms began a couple of weeks ago and include intermittent pulsating tightness, mid-frontal headaches radiating toward the back of the head (with discomfort up to 6/10), mild dizziness, balance problems, and a sensation of pressure in the right ear; these symptoms occur throughout the day without clear triggers and are distracting but not disabling. The patient denied recent cold symptoms, allergies, or changes in hearing, and reported no worsening or improvement over the past two weeks. No relevant past medical history, medications, or allergies were mentioned. On review, there were no severe neurological symptoms, hearing loss, or severe dizziness requiring support. The doctor assessed that the symptoms may be related to tension-type headaches or inner ear pressure, given the absence of alarming features. The doctor reassured the patient that the lack of severe or progressive symptoms is a good sign and explained possible causes. No specific treatment was recommended at this time; further evaluation would be considered if symptoms worsen or change.
+The patient is an adult presenting with a chief complaint of a pulsating tightness in the head. Symptoms began approximately two weeks ago and include intermittent mid-frontal headaches radiating toward the back of the head (up to 6/10 discomfort), mild dizziness, balance issues, and a sensation of pressure in the right ear. The symptoms are not associated with specific triggers, recent illness, allergies, or changes in hearing, and are described as distracting but not disabling. The patient reports that these symptoms have remained stable over the past two weeks and impact concentration but do not interfere significantly with daily activities.
+
+Relevant medical history, medications, and allergies were not specified. The clinical impression was that the symptoms may be related to tension-type headaches or inner ear pressure, given the absence of severe dizziness, hearing loss, or other neurological deficits. The physician provided reassurance regarding the benign nature of the symptoms and explained possible causes. No specific treatment or medication was documented; further evaluation was suggested only if symptoms worsen or new concerning features develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.470
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

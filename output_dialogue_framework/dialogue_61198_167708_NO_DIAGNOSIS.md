@@ -87,16 +87,21 @@ If you notice symptoms like feeling faint, rapid heartbeat, severe abdominal pai
 
 ## EHR Summary
 
-The patient is a 60-year-old male presenting with a chief complaint of black stool (melena) for one day. He reported a single episode of black, tarry stool without associated abdominal pain, reflux, nausea, vomiting, diarrhea, shortness of breath, chest pain, or lightheadedness. His history is significant for NSTEMI status post stent placement and long-term use of aspirin and clopidogrel; he also reported increased alcohol intake and recent use of Advil. On examination, he was stable and in no acute distress, with normal vital signs and an unremarkable abdominal exam. An endoscopy was performed during admission. The clinical impression was melena likely related to gastrointestinal bleeding, possibly exacerbated by antiplatelet therapy and NSAID use. He was treated with IV protonix and underwent NG lavage, which was negative for active bleeding. No further episodes of melena occurred during hospitalization, and he remained stable throughout his stay.
+The patient is a 60-year-old male presenting with a chief complaint of black stool (melena) for one day. He reported a single episode of black, tarry stool without associated abdominal pain, nausea, vomiting, diarrhea, shortness of breath, chest pain, or lightheadedness; he did note mild fatigue and recent increased alcohol intake. His medical history includes non-ST elevation myocardial infarction (NSTEMI) with prior stent placement, and he has been taking aspirin and clopidogrel for over five years. On admission, he was hemodynamically stable, and nasogastric lavage was negative for active bleeding. Endoscopy revealed a 1 cm cratered but clean-based gastric ulcer in the antrum without active bleeding. The documented diagnosis was gastric ulcer/upper GI bleed. Treatment included IV pantoprazole followed by oral omeprazole 40 mg twice daily, continuation of cardiac medications, and discharge with instructions to follow up with his primary care provider and return if symptoms worsened. He was advised to monitor for further bleeding or concerning symptoms and had a pending test for H. pylori.
+
 
 ## Dialogue Summary
 
-The patient presented with black, tarry stool noted yesterday, which was abnormal for them. They reported mild fatigue but denied any stomach pain, nausea, changes in appetite, visible blood in the toilet or on wiping, easy bruising, or recent changes in diet, travel, or routine. The black stool persisted into today and had not returned to normal color. Relevant history includes current use of aspirin, Advil, Metoprolol, Diovan, Lipitor, and Niaspan; no use of iron supplements or Pepto-Bismol was reported. The doctor noted concern for possible upper gastrointestinal bleeding, particularly given the use of aspirin and Advil, which can increase risk for stomach irritation or ulcers. The doctor recommended prompt in-person evaluation within the next day or two, including possible blood count checks and further investigation of the digestive tract. The patient was advised to avoid Advil and other NSAIDs until evaluated and to seek immediate medical attention if symptoms worsen (such as faintness, rapid heartbeat, severe abdominal pain, or recurrent dark stools). The patient acknowledged and agreed to follow these recommendations.
+The patient is an adult presenting with the chief complaint of black, tarry stool first noticed yesterday. Associated symptoms include mild fatigue without abdominal pain, nausea, changes in appetite, or visible blood in the stool; the dark stool has persisted into today. The patient denies recent dietary changes, travel, or new medications and is not taking iron supplements or bismuth-containing products. Relevant history includes current use of aspirin, Advil (NSAID), Metoprolol, Diovan, Lipitor, and Niaspan. The clinical impression is possible upper gastrointestinal bleeding, potentially related to NSAID or aspirin use. The treatment plan includes prompt in-person evaluation within 1–2 days for further assessment (including possible blood counts and GI investigation) and immediate discontinuation of Advil/NSAIDs. The patient was advised to seek urgent care if symptoms worsen (e.g., severe fatigue, rapid heartbeat, severe abdominal pain, or recurrent black stools).
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.975
-- **Similarity Label**: N/A
+- **STS Score**: 0.717
+- **Model Used**: general
+- **Text1 Length**: 166 words
+- **Text2 Length**: 138 words
+
 
 ## Processing Information
 

@@ -87,16 +87,23 @@ If things worsen or you develop new symptoms, it would be best to get checked so
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with dyspnea on exertion. He has a 16-year history of a cardiac murmur and recently developed back pain, fever, chills, and malaise following a dental visit, with positive blood cultures. Echocardiography revealed severe mitral regurgitation with leaflet vegetation, mild left ventricular hypertrophy, left atrial enlargement, dilated ascending aorta, mild aortic insufficiency, tricuspid regurgitation, and mild pulmonary hypertension; ejection fraction was preserved at 56–60%. Past medical history includes mitral regurgitation, benign prostatic hyperplasia, chronic low back pain, a left lung nodule, and alcohol use. Medications at admission included atenolol, aspirin, vitamin E, flax seed oil, fish oil, live yogurt cultures, and penicillin with dental visits. The documented diagnosis was severe mitral regurgitation with leaflet vegetation. The patient underwent mitral valve repair surgery. No drug allergies were reported, though Percocet causes stomach cramps.
+The patient is a 61-year-old man presenting with dyspnea on exertion. He had a history of a cardiac murmur for 16 years and recently developed back pain, fever, chills, and malaise following a dental visit, with subsequent positive blood cultures and echocardiographic evidence of mitral regurgitation with leaflet vegetation. His past medical history includes mitral regurgitation, benign prostatic hyperplasia, chronic low back pain, a left lung nodule, and alcohol use; he has no known drug allergies but reports stomach cramps with Percocet. The documented diagnosis was severe mitral regurgitation with leaflet vegetation, leading to mitral valve replacement with a Mosaic porcine valve. Postoperatively, he remained hemodynamically stable, was weaned from vasopressors and ventilatory support, and had an uneventful recovery. At discharge, his physical exam was stable with mild edema, and laboratory values were within acceptable ranges except for a decreased hematocrit. The treatment plan included discharge to home with visiting nurse support, follow-up appointments, and medications such as potassium chloride, Colace, Zantac, aspirin, Dilaudid as needed, Lasix, and Lopressor.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath on exertion. Symptoms included several days of difficulty catching breath that worsens with activity and improves with rest, persistent swelling in the legs (edema) that does not vary throughout the day, recent back pain, feverishness with chills, increased tiredness, and a general sense of malaise; no chest pain or cough was reported. The patient denied any improvement in swelling or breathing since onset. No specific medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the presence of lower extremity swelling and exertional dyspnea, with associated constitutional symptoms. The doctor assessed that these symptoms could be due to fluid retention, possible underlying infection or inflammation, or issues related to the heart or kidneys. The treatment plan included monitoring temperature and symptoms, elevating the legs to help with swelling, maintaining hydration while avoiding excess salt, and seeking prompt care if symptoms worsen or new symptoms develop; a follow-up visit and basic tests were also recommended for further evaluation. The patient understood and agreed to the plan.
+The patient presents with the chief complaint of shortness of breath on exertion. Symptoms have been present for at least several days and include dyspnea that worsens with activity and improves with rest, persistent bilateral leg swelling (edema) that does not fluctuate throughout the day, intermittent back pain, feverishness with chills, increased fatigue, and a general sense of malaise; there is no chest pain or cough. The patient reports that neither the swelling nor the breathing difficulty has improved since onset. Relevant history of chronic back pain is noted, but no other medical history, medications, or allergies are specified.
+
+The clinical impression discussed includes possible fluid retention due to cardiac or renal causes, or a mild infection or inflammation, given the combination of symptoms. The treatment plan includes monitoring temperature and symptoms, elevating the legs to help with edema, maintaining hydration while avoiding excess salt, and seeking prompt evaluation if symptoms worsen or new symptoms such as chest discomfort or confusion develop. The patient is advised to schedule a follow-up visit for further evaluation and possible basic testing. No specific medications or immediate interventions are documented at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
+- **STS Score**: 0.542
+- **Model Used**: general
+- **Text1 Length**: 169 words
+- **Text2 Length**: 189 words
+
 
 ## Processing Information
 

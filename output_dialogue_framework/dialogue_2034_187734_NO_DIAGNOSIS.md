@@ -63,16 +63,21 @@
 
 ## EHR Summary
 
-The patient is a 60-year-old male presenting with weakness, a fall, and one episode of hematemesis. He reported a prior episode of melena one week before admission and continued to have tarry stools during hospitalization. His past medical history includes insulin-dependent diabetes for 15 years and macular degeneration. On initial evaluation, his hematocrit was 25.5, and nasogastric lavage revealed maroon coffee ground fluid; endoscopy showed 2+ varices and erosions in the cardiac antrum. Repeat endoscopies revealed Grade III esophageal varices with stigmata of recent bleeding, gastritis, and portal hypertensive gastropathy. The documented diagnosis was upper gastrointestinal bleeding due to esophageal varices and gastritis. Treatment included transfusion of five units of packed red blood cells and endoscopic banding of esophageal varices. At discharge, there were no further episodes of hematemesis, though melena persisted.
+The patient is a 60-year-old male presenting with weakness, a fall, and one episode of hematemesis. He reported melena one week prior to admission and was found to have a low hematocrit (25.5), with nasogastric lavage showing maroon coffee ground fluid. Esophagogastroduodenoscopy revealed esophageal varices and gastritis, with subsequent banding of Grade III varices after evidence of recent bleeding. His past medical history includes insulin-dependent diabetes, macular degeneration, chronic urinary tract infections, and left nephrectomy. The documented diagnosis was upper gastrointestinal bleeding due to esophageal varices and portal hypertensive gastropathy, with underlying cirrhosis suggested by imaging (small liver, massive ascites, splenomegaly). Treatment included blood transfusions, endoscopic variceal banding, and medications such as spironolactone, Lasix, propranolol, Protonix, and Neutra-Phos. The patient was stabilized and discharged home in stable condition with follow-up arranged with his primary care physician and gastroenterology for further evaluation and management.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening weakness over the past few days, which led to a fall. The weakness has progressively increased, and the patient reported feeling more tired after the fall but did not sustain any major injuries and was able to get up independently. Additional symptoms include vomiting with blood and dark, tarry stools. No specific severity or quantity of blood in vomit was described, and the patient did not mention lightheadedness or dizziness at this point. No relevant medical history, medications, or allergies were discussed. The doctor inquired about possible gastrointestinal bleeding and asked clarifying questions regarding the nature of the vomiting and stool changes. No formal assessment or treatment plan was provided during the conversation.
+The patient presents with generalized weakness as the chief complaint, which has progressively worsened over the past few days and resulted in a fall. The patient reports being able to get up independently after the fall and denies major injuries, though they felt more fatigued afterward. Additional symptoms include episodes of vomiting blood (hematemesis) and noticing dark, tarry stools (melena). The duration of these gastrointestinal symptoms is not specified. Relevant medical history, medications, allergies, and a formal diagnosis are not documented in the dialogue. No specific treatment or recommendations are provided in the conversation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.601
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 94 words
+
 
 ## Processing Information
 

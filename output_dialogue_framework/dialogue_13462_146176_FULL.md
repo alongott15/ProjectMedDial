@@ -85,16 +85,23 @@ Overall, you’re doing the right things. Keeping track of how you feel and stic
 
 ## EHR Summary
 
-The patient is a 54-year-old male presenting for elective surgical clipping of known left-sided cerebral aneurysms. He was asymptomatic at admission, with no acute neurological complaints documented. His relevant history includes prior subarachnoid hemorrhage, right MCA aneurysm clipping in 2164, coronary artery disease, prior myocardial infarction, LAD stents, angina, and GERD; home medication included Lopressor. On admission, physical examination was unremarkable with normal neurological findings. The documented diagnosis was wide-necked left anterior temporal artery and left PComm aneurysms. He underwent left craniotomy with successful clipping of the aneurysms, confirmed by postoperative angiogram showing no residual aneurysm. The patient remained neurologically stable postoperatively and was discharged home on dexamethasone, Lopressor, and Percocet as needed. Follow-up was arranged in one month, with staple removal planned in ten days and a dexamethasone taper prescribed.
+The patient is a 54-year-old male presenting for elective surgical clipping of known left middle cerebral artery (MCA) and left posterior communicating artery (PComm) aneurysms. He was asymptomatic at admission, with no neurological deficits on examination. His relevant history includes prior subarachnoid hemorrhage (SAH) with right MCA aneurysm clipping in 2164, coronary artery disease, prior myocardial infarction (2173-6-10), two LAD stents, angina, and GERD. The documented diagnosis was wide-necked left MCA and PComm aneurysms not amenable to coil embolization. He underwent successful left craniotomy with aneurysm clipping, confirmed by postoperative angiogram to have no residual aneurysm. The patient remained neurologically stable postoperatively, ambulated well, and tolerated oral intake. Discharge medications included dexamethasone (with a tapering schedule), Lopressor, and Percocet as needed. He was discharged home with instructions for staple removal in ten days and neurosurgical follow-up in one month.
+
 
 ## Dialogue Summary
 
-The patient presented for a routine check-in due to a history of heart issues but did not report any specific symptoms. The patient denied experiencing shortness of breath, palpitations, changes in energy levels, swelling in the legs or ankles, unexpected weight gain, or changes in sleep quality. The patient stated they have been able to maintain their usual activity level without difficulty and reported no recent changes to their routine or upcoming travel plans. The patient was unsure of the exact details of their medications but indicated adherence to the recommended regimen for heart health. No abnormal clinical findings were described by the patient or noted by the doctor during the visit. The doctor assessed that the patient's heart health appears stable, with no concerning symptoms or changes in activity tolerance. The doctor recommended continuing current medications and follow-up appointments, maintaining an active lifestyle and balanced diet, and monitoring for new symptoms such as chest discomfort, sudden fatigue, or dizziness. The patient was advised to reach out if any new concerns arise and expressed understanding of the plan.
+The patient is an adult with a history of heart issues presenting for a routine check-in without specific complaints. They report no new symptoms such as dyspnea, palpitations, swelling, or changes in energy level, activity tolerance, weight, or sleep quality. The patient is able to maintain their usual activities and has not experienced any recent changes in routine or medication adherence. Relevant medical history includes unspecified heart issues and ongoing management with recommended medications, though specific details are not provided.
+
+The clinical impression is that the patient's heart health is stable with no concerning symptoms at this time. The treatment plan includes continuing current medications, maintaining regular follow-up appointments, and monitoring for new symptoms such as chest discomfort, sudden fatigue, or dizziness. The doctor advised the patient to maintain their routine, stay active, eat a balanced diet, and promptly report any new or concerning symptoms. No changes to the current management plan were recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.919
-- **Similarity Label**: N/A
+- **STS Score**: 0.222
+- **Model Used**: general
+- **Text1 Length**: 139 words
+- **Text2 Length**: 154 words
+
 
 ## Processing Information
 

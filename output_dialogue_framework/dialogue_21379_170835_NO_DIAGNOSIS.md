@@ -87,16 +87,21 @@ Let me know if you'd like to talk through any strategies for fall prevention at 
 
 ## EHR Summary
 
-The patient is a 77-year-old man presenting with dizziness for three months, culminating in loss of consciousness and a fall. He reported no chest pain, but an abnormal electrocardiogram was noted on admission. His past medical history includes an upper respiratory infection, L1 compression fracture, cataract, and prior left inguinal hernia repair; he has no known drug allergies. On examination, vital signs were stable and physical findings were unremarkable. Cardiac catheterization revealed an ejection fraction of 55–60% and three vessel coronary artery disease. The documented diagnosis was three vessel coronary artery disease. He underwent a three vessel coronary artery bypass graft (CABG) and recovered postoperatively, with plans for rehabilitation after discharge.
+The patient is a 77-year-old man presenting with a three-month history of dizziness, who experienced loss of consciousness and a fall. He was admitted after an abnormal electrocardiogram, though cardiac enzymes were negative. Past medical history includes upper respiratory infection, L1 compression fracture, cataract, and prior left inguinal hernia repair; there are no known drug allergies. Cardiac catheterization revealed three vessel coronary artery disease with an ejection fraction of 55–60%. The documented diagnosis was status post three vessel coronary artery bypass graft. He underwent coronary artery bypass grafting (CABG) with LIMA to LAD and saphenous vein grafts to the diagonal and obtuse marginal arteries. Postoperative recovery was uneventful, and he was discharged in good condition with medications including metoprolol, lasix, kayciel, aspirin, percocet, colace, protonix, lactulose, and albuterol as needed. The patient was referred for rehabilitation following discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with dizziness as the chief complaint. Symptoms included intermittent dizziness over the past few days, one episode of loss of consciousness resulting in a fall, and feeling lightheaded prior to fainting; there were no associated chest pain, palpitations, shortness of breath, headaches, sweating, or heart racing, and no clear triggers identified. The patient reported quick recovery after the syncopal episode, with lingering mild dizziness but no confusion or fatigue. No relevant medical history, medications, or allergies were mentioned during the encounter. On assessment, the doctor noted episodes of lightheadedness and syncope without obvious triggers or concerning associated symptoms, suggesting less likelihood of a severe underlying problem but acknowledging possible causes such as blood pressure changes or heart rhythm issues. The doctor recommended ensuring adequate hydration, rising slowly from sitting or lying positions, and maintaining a safe home environment to prevent falls. The patient requested additional advice on fall prevention strategies at home and expressed understanding of the recommendations provided.
+The patient is an adult presenting with dizziness as the chief complaint. The dizziness began a few days ago, occurs intermittently without clear triggers, and has remained stable in severity. The patient experienced one episode of loss of consciousness associated with lightheadedness, resulting in a fall, but recovered quickly without confusion, fatigue, or lingering symptoms. There have been no associated chest pain, palpitations, shortness of breath, or headaches. Relevant history regarding medications or chronic conditions was not specified. The clinical impression is that the episodes may be related to blood pressure changes, heart rhythm issues, or dehydration, but no definitive diagnosis was documented. The treatment plan includes advice to maintain good hydration, rise slowly from sitting or lying positions, and implement fall prevention strategies at home; the patient was also instructed to monitor for new or worsening symptoms and to contact their healthcare provider if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.422
+- **Model Used**: general
+- **Text1 Length**: 138 words
+- **Text2 Length**: 147 words
+
 
 ## Processing Information
 

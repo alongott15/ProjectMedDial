@@ -87,16 +87,21 @@ If you notice any new symptoms like severe pain spreading, numbness, or trouble 
 
 ## EHR Summary
 
-The patient is a 77-year-old male presenting with a chief complaint of status post fall at home. He experienced a mechanical fall resulting in left lower extremity pain and inability to ambulate, with physical exam showing the left lower extremity shortened and externally rotated, and tenderness over the hip. His relevant history includes atrial fibrillation on anticoagulation (INR 2.5), coronary artery disease status post CABG, low ejection fraction (25%) with ICD, Parkinson's disease, prior right hip replacements, degenerative joint disease of the spine, and hypertension; he also has allergies to penicillins, Comtan, and shellfish-derived products. On admission, he was well-appearing with stable vital signs; at discharge, he remained in no acute distress with stable exam findings and minimal serous drainage at the surgical site. The documented diagnosis was left hip fracture. He underwent left hip hemiarthroplasty on hospital day 2. The treatment plan included post-operative care with monitoring of the surgical site, management of comorbidities, and recommendations for continued supportive care at home with 24-hour assistance.
+The patient is a 77-year-old male presenting after a mechanical fall at home. He was found to have a left hip fracture, with the left lower extremity noted to be shortened, externally rotated, and tender to palpation over the hip; there was no skin tenting and pedal pulses were intact. His past medical history includes atrial fibrillation on anticoagulation, coronary artery disease status post CABG, low ejection fraction with ICD, Parkinson's disease, prior right hip replacements, degenerative joint disease of the spine, and hypertension; he has allergies to penicillins, Comtan, and shellfish-derived products. The documented diagnoses were status post fall, left hip fracture, and acute blood loss anemia. He underwent left hip hemiarthroplasty on hospital day 2, received fresh frozen plasma for elevated INR preoperatively, and was transfused with packed red blood cells postoperatively for acute blood loss anemia. His hypertension was managed with IV antihypertensives perioperatively, and he was restarted on warfarin with INR monitoring. At discharge, his condition was stable, pain was controlled, and he was advised to be weight bearing as tolerated on the left leg, monitor for signs of infection, and follow up with orthopaedics in two weeks. He was discharged to an extended care facility with instructions for medication management and wound care.
+
 
 ## Dialogue Summary
 
-The patient presented with left leg pain and inability to bear weight following a fall at home earlier today. She reported sharp pain rated 8/10 when attempting to move or touch the leg, and noted her left leg appeared shorter and turned outward compared to the other side, with tenderness over the hip but no significant swelling, bruising, numbness, or tingling. She was able to wiggle her toes and move her ankle, though movement of the leg caused significant pain; symptoms had remained unchanged since the fall. No relevant past medical history, medications, or allergies were mentioned. On examination, the doctor noted concern for possible hip fracture based on the mechanism of injury, pain characteristics, and abnormal leg position. The doctor recommended urgent evaluation in the emergency department for X-ray confirmation and likely surgical management, advising the patient to avoid bearing weight or moving the leg and to seek immediate help if new symptoms such as severe pain, numbness, or loss of toe movement developed. The patient expressed understanding and agreed to follow these recommendations.
+The patient is an adult presenting with left leg pain and inability to bear weight following a fall at home earlier today. The pain is described as sharp, rated 8/10 with movement or palpation, and is associated with visible shortening and external rotation of the left leg, as well as tenderness over the hip; there is no reported numbness, tingling, significant swelling, or bruising. The patient can move their toes and ankle but cannot walk due to pain. There is no history provided of underlying medical conditions, medications, or allergies. The clinical impression is a possible hip fracture based on mechanism of injury, pain characteristics, and limb positioning. The doctor recommended urgent evaluation in the emergency department, including X-ray imaging to confirm the diagnosis, and advised that treatment often involves surgical repair. The patient was instructed to avoid weight-bearing on the affected leg and seek immediate medical attention, with additional advice to monitor for new symptoms such as spreading pain or neurological changes.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.574
+- **Model Used**: general
+- **Text1 Length**: 208 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

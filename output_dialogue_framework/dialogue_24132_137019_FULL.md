@@ -87,16 +87,21 @@ Does that explanation help clarify things for you? Is there anything else about 
 
 ## EHR Summary
 
-The patient is a 35-year-old male presenting for management of multiple intracranial aneurysms, including bilateral internal carotid bifurcation aneurysms and an anterior communicating aneurysm, previously surgically clipped. He also has a proximal right supraclinoid internal carotid artery aneurysm that was not amenable to prior clipping or endovascular coiling due to its wide neck, as well as an unclippable fusiform aneurysmal dilatation of the right ICA at the origin of the anterior choroidal artery. Relevant history includes hypertension, peptic ulcer disease, childhood asthma, Bell's palsy, and allergy to codeine; current medications are Tagamet and Tylenol. On admission, physical exam showed stable vital signs and a neurological exam notable for increased sensation in the left frontoparietal and temporal regions but otherwise intact cranial nerves and motor function. The documented diagnosis was multiple intracranial aneurysms with a focus on a right ICA aneurysm. The patient underwent surgical clipping of the right ICA aneurysm, complicated intraoperatively by aneurysmal rupture that was controlled, with successful clip placement achieved. Postoperatively, he was monitored in the Surgical Intensive Care Unit.
+The patient is a 35-year-old male presenting for surgical management of a right internal carotid artery (ICA) aneurysm. He has a history of multiple intracranial aneurysms, previously clipped, and was admitted for repeat surgery due to an unclippable fusiform aneurysmal dilatation of the right ICA. On admission, he was afebrile with stable vital signs and demonstrated increased sensation in the left frontoparietal and temporal regions but no motor deficits. His past medical history includes hypertension, peptic ulcer disease, childhood asthma, and prior Bell's palsy; he is allergic to codeine and was taking Tagamet and Tylenol. The documented diagnosis was right ICA aneurysm. He underwent successful surgical clipping of the aneurysm after intraoperative rupture, which was controlled. Postoperatively, he remained neurologically stable, was extubated on postoperative day one, and had no further neurological deficits or complaints of headache. He was discharged home in stable condition with instructions for follow-up and staple removal.
+
 
 ## Dialogue Summary
 
-The patient presented with an increased sensation on the left side of the head, specifically in the frontoparietal and temporal areas. The sensation has been gradually developing over the past few days, is described as a heightened awareness rather than numbness, tingling, or pressure, and does not interfere with daily activities or concentration. The patient reported no associated symptoms such as headaches, vision changes, weakness, trouble speaking, recent illnesses, sinus issues, or changes in sleep or stress levels. On examination, there were no physical findings noted beyond the patient's described sensation, which has remained steady in intensity. The doctor assessed that the absence of other neurological symptoms makes serious causes unlikely and suggested that minor nerve irritation, muscle tension, or heightened attention may be contributing factors. The treatment plan included monitoring for new symptoms such as weakness, headaches, vision changes, or speech difficulties, and recommended gentle stretching, hydration, and regular rest. The patient expressed understanding and reassurance following the explanation.
+The patient is an adult presenting with an increased sensation on the left frontoparietal and temporal areas of the head as the chief complaint. The sensation has developed gradually over several days, is described as a heightened awareness (not numbness, tingling, or pressure), and does not interfere with daily activities or concentration. There are no associated symptoms such as headaches, vision changes, weakness, speech difficulties, recent illnesses, or changes in sleep or stress levels. The sensation has remained steady in intensity and is not affected by activity or position. Relevant medical history, medications, and allergies are not specified. The clinical impression is that the symptoms are likely benign, possibly related to minor nerve irritation, muscle tension, or increased attention to the area, with no evidence of serious underlying pathology. The treatment plan includes monitoring for new or worsening symptoms and general supportive measures such as gentle stretching, hydration, and adequate rest. The patient was advised to seek prompt medical attention if additional neurological symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
+- **STS Score**: 0.457
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

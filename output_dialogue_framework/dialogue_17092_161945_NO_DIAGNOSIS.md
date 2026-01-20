@@ -87,16 +87,21 @@ Let me know if you have any questions or concerns about caring for the site, or 
 
 ## EHR Summary
 
-The patient is a 56-year-old male presenting with discharge from his abdominal wound and redness around his stoma site. He denied fevers, chills, nausea, or vomiting. His history is significant for inflammatory bowel disease, prior sigmoid perforation with colectomy and colostomy, and deep vein thrombosis; current medications include Levaquin, Prednisone, Folate, Asacol, Coumadin, and a multivitamin. On examination, he was afebrile with stable vital signs; the abdomen was soft and nontender, the ostomy was intact, but there was stool drainage from the inferior edge of the midline wound. The documented diagnosis is not explicitly stated in the note. Treatment details during this admission are not specified in the provided text.
+The patient is a 56-year-old male presenting with discharge from his abdominal wound and redness around his stoma site. He denied fevers, chills, nausea, or vomiting, and physical exam revealed stool drainage from the inferior edge of his midline wound but an otherwise soft, nontender abdomen. His history is significant for inflammatory bowel disease, prior sigmoid perforation with colostomy, and deep vein thrombosis; medications include prednisone, Levaquin, Asacol, Coumadin, and folate. Colonoscopy demonstrated Crohn's disease with skip lesions, and imaging suggested a possible internal cutaneous fistula and abscess. The documented diagnoses were Crohn's disease with suspected internal cutaneous fistula and an intraoperative inferior wall myocardial infarction. Treatment included sigmoid colectomy, right coronary artery stenting for 90% stenosis, IV fluids, antibiotics (Levaquin and Flagyl), steroids (prednisone), antiplatelet therapy (aspirin, Plavix), and metoprolol. Coumadin was held postoperatively, and the patient was advanced to a regular diet and tolerated ambulation without issues. He was discharged in stable condition with follow-up arranged with surgery and cardiology.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about discharge from the area around their abdominal wound (stoma site). They reported noticing mild, watery discharge for a few days, with no change in amount or appearance, and no blood present. The patient also described some stable redness around the stoma site, without swelling, tenderness, odor, fever, or increased difficulty in wound care; their usual care routine has been sufficient. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted mild watery discharge and stable redness near the stoma site, with no signs of infection such as spreading redness, pain, fever, or foul odor. The doctor explained that these findings are often part of normal healing if the area is being cared for and symptoms are not worsening. The patient was advised to continue their usual wound care, monitor the area daily, and seek further medical attention if symptoms worsen or new signs of infection develop. The patient expressed understanding and had no further questions at this time.
+The patient presents with concern about discharge from the area around their abdominal wound (stoma site). They report noticing mild, watery discharge for a few days, with stable redness but no swelling, tenderness, odor, fever, or increased difficulty in wound care. The discharge has not required more frequent dressing changes, and the redness has not spread or intensified. There is no history of worsening symptoms or systemic signs of infection. The clinical impression is that the patient is experiencing mild watery discharge and stable redness near the stoma, likely consistent with normal healing rather than infection. The treatment plan includes continuing the current wound care routine and monitoring for any changes such as increased discharge, pain, spreading redness, or systemic symptoms. The patient was advised to seek further medical attention if these warning signs develop. No new medications or interventions were initiated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.493
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 145 words
+
 
 ## Processing Information
 

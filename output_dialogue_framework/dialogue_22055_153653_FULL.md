@@ -87,16 +87,21 @@ In the meantime, try to pace yourself with activities and note if you develop an
 
 ## EHR Summary
 
-The patient is a 70-year-old male presenting for cardiac clearance prior to scheduled abdominal aortic aneurysm repair. He reports a history of coronary artery disease with prior myocardial infarction, coronary artery bypass grafting, and peripheral vascular disease. Recent testing revealed an ejection fraction of 43%, 50–70% carotid stenosis, and stress-induced inferior apical and lateral wall ischemia. Laboratory values were within normal limits, and vital signs were stable on admission. Physical exam was unremarkable. The documented assessment includes coronary artery disease, peripheral vascular disease, hypertension, abdominal aortic aneurysm, hyperlipidemia, and prior cerebrovascular accident. The patient’s medications on admission included aspirin, diltiazem, atenolol, and isosorbide dinitrate. The plan was to proceed with further preoperative evaluation and management in preparation for aneurysm repair.
+The patient is a 70-year-old male admitted for cardiac clearance and management prior to scheduled abdominal aortic aneurysm repair. He has a history of coronary artery disease, prior myocardial infarction, coronary artery bypass grafting, peripheral vascular disease, hypertension, hyperlipidemia, and prior cerebrovascular accident. During admission, he underwent a redo coronary artery bypass graft x3 due to significant coronary lesions and prior graft occlusions. Postoperatively, he developed hypoxemia with high sputum production and required supplemental oxygen and aggressive pulmonary management. He was diagnosed presumptively with pneumonia based on chest x-ray findings and clinical decompensation, and was treated with intravenous Lasix, albuterol and Atrovent nebulizers, and a 10-day course of levofloxacin. Physical therapy was initiated for mobility, and his pulmonary status improved with ongoing care. The patient was weaned from oxygen, chest x-ray showed improvement, and he was transferred back to the floor in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble breathing, which has been worsening over the past few weeks and is the main reason for the visit. Symptoms include increased shortness of breath with physical activity, chest discomfort that comes and goes (especially during exertion), and a productive cough with clear to white sputum; no fever, chills, lightheadedness, or swelling in the legs were reported. The patient has a history of ischemia noted on a previous stress test (inferior apical and lateral wall) and reports that these symptoms are now limiting daily activities such as walking and household chores. No blue discoloration of lips or fingertips was noted. On assessment, the doctor considered that both cardiac ischemia and possible chronic airway changes (such as chronic bronchitis) could be contributing to the symptoms, with lung infection being less likely due to the absence of fever, chills, and colored sputum. The doctor recommended follow-up tests including checking oxygen levels, possibly repeating heart tests, and considering a chest X-ray to clarify the cause. Advice was given to pace activities and monitor for new symptoms such as chest pain at rest, fainting, or swelling, with instructions to seek prompt medical attention if these occur.
+The patient presents with shortness of breath as the chief complaint. Symptoms include exertional dyspnea and intermittent chest discomfort, both worsening over the past few weeks and now limiting daily activities such as walking and household chores; the patient also reports a productive cough with clear to white sputum but denies fever, chills, cyanosis, lightheadedness, or leg swelling. Relevant history includes a prior stress test showing ischemia in the inferior apical and lateral wall. The clinical impression is that both cardiac ischemia and possible chronic airway changes (such as chronic bronchitis) may be contributing to the symptoms, with a lung infection considered less likely due to the absence of fever and the nature of the sputum. The treatment plan includes further evaluation with basic tests such as checking oxygen levels, possibly repeating heart tests, and considering a chest X-ray. The patient is advised to pace activities and monitor for new symptoms like chest pain at rest, fainting, or swelling, and to seek prompt medical attention if these occur. The doctor also offers to provide more information about the recommended tests and home management strategies for cough and sputum.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.932
-- **Similarity Label**: N/A
+- **STS Score**: 0.501
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 188 words
+
 
 ## Processing Information
 

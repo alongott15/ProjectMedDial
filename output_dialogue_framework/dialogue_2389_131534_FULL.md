@@ -87,16 +87,21 @@ Let me know if you have any questions or concerns about these recommendations, o
 
 ## EHR Summary
 
-The patient is a 64-year-old female presenting with epistaxis followed by hematemesis. She reported a history of frequent nosebleeds, recent coffee ground emesis, seven to eight days of dark or tarry stools, and crampy abdominal pain over several months. Her past medical history includes hypertension and status post cholecystectomy and tooth extractions without bleeding complications; she has no known allergies. On admission, she was afebrile and in no acute distress. The diagnosis was not explicitly documented in the note. Her medications on admission included verapamil, aspirin, ibuprofen, and unspecified Chinese herbs. Treatment details or specific recommendations were not provided in the documented note.
+The patient is a 64-year-old female presenting with epistaxis followed by hematemesis. She reported left-sided nosebleed, swallowing blood, abdominal pain, and bloody hematemesis, with a history of frequent nosebleeds, recent coffee ground emesis, and seven to eight days of dark or tarry stools and crampy abdominal pain. Her past medical history includes hypertension and cholecystectomy, and she was taking verapamil, aspirin, ibuprofen, and unspecified Chinese herbs on admission; she has no known allergies. On evaluation, she was found to have active bleeding in the posterior pharynx and mild gastritis on endoscopy, with stable anemia and no evidence of gastrointestinal ulceration or ongoing bleeding. The documented diagnoses were epistaxis, posterior pharyngeal bleeding, mild gastritis, and anemia. Treatment included placement of Merocel in the left naris, discontinuation of aspirin and ibuprofen, initiation of Keflex 500 mg orally four times daily for five days, Protonix 40 mg daily for six weeks, and ferrous sulfate 325 mg daily for six months. She was advised to continue verapamil for hypertension and to follow up with ENT and her primary care physician the following week. The patient was discharged home in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with nosebleeds and an episode of vomiting dark blood. Symptoms included several recent nosebleeds of moderate duration, intermittent abdominal pain of mild intensity, nausea preceding the vomiting, and dark, tarry stools; no lightheadedness, weakness, or significant impact on daily activities was reported. The patient is currently taking verapamil, aspirin, ibuprofen, and Chinese herbs, with no known bleeding or liver disorders. On examination, no physical findings were described by the doctor or patient. The doctor assessed that the combination of aspirin and ibuprofen may be contributing to gastrointestinal irritation and bleeding, with dark blood in vomit and stools suggesting possible upper GI tract involvement. The doctor recommended pausing aspirin and ibuprofen, monitoring for worsening symptoms such as persistent vomiting, heavy bleeding, faintness, or black stools, and keeping a record of future episodes. The patient was advised to seek prompt care if symptoms worsen and to continue verapamil and Chinese herbs unless otherwise directed.
+The patient is an adult presenting with episodes of nosebleeds and recent hematemesis (vomiting dark blood). Symptoms include several recent nosebleeds of moderate duration, intermittent mild abdominal pain, preceding nausea before vomiting, and the presence of dark, tarry stools (melena). The patient denies lightheadedness or weakness and reports no significant impact on daily activities. Relevant history includes current use of verapamil, aspirin, ibuprofen, and Chinese herbs, with no known bleeding or liver disorders. The clinical impression is upper gastrointestinal bleeding, likely exacerbated by concurrent use of aspirin and ibuprofen. The treatment plan includes discontinuing aspirin and ibuprofen and monitoring for worsening symptoms such as persistent vomiting, heavy bleeding, faintness, or black stools. The patient was advised to track future episodes and seek prompt care if symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.969
-- **Similarity Label**: N/A
+- **STS Score**: 0.737
+- **Model Used**: general
+- **Text1 Length**: 187 words
+- **Text2 Length**: 127 words
+
 
 ## Processing Information
 

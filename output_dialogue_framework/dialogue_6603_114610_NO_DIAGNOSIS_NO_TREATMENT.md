@@ -87,16 +87,23 @@ Let me know if you have any specific concerns or questions about managing these 
 
 ## EHR Summary
 
-The patient is a 36-year-old male presenting with fevers and cough. He experienced fevers up to 101°F and a productive cough, with unclear sputum color, and was found to be febrile in the emergency department with a white blood cell count of 18.8. His medical history includes cerebral palsy, epilepsy, aspiration, and aphasia, with no known drug allergies. Physical exam revealed decreased breath sounds at the right lung base and crackles in the mid-right lung and bibasilar regions. Chest X-ray showed persistent right lung opacification, pleural effusion, and cavitation; CT chest confirmed necrotizing pneumonia in the right middle and lower lobes with a lung abscess. The documented diagnosis was aspiration pneumonia complicated by a right lower lobe lung abscess. Treatment included intravenous levofloxacin and clindamycin.
+The patient is a 36-year-old male presenting with fevers and productive cough. He experienced fevers up to 101°F and a productive cough, with unclear sputum color, and was found to have persistent right lower lobe pneumonia with cavitation and pleural effusion on imaging. His medical history includes cerebral palsy, epilepsy, recurrent aspiration, and aphasia, with no known drug allergies. During admission, he was diagnosed with a right lower lobe lung abscess (necrotizing pneumonia), epilepsy, and aspiration. Treatment included a 4-week course of levofloxacin and a 6-week course of clindamycin, with a PICC line placed for IV antibiotics due to difficulty tolerating oral medications; his antiepileptic regimen was adjusted, and he was started on Remeron for depression. He was also kept NPO for a period due to aspiration risk but later resumed a ground diet with thickened liquids per family wishes. Discharge instructions emphasized monitoring for shortness of breath or persistent fevers and follow-up with his primary care physician in two weeks. The patient was discharged in stable condition to an extended care facility.
+
 
 ## Dialogue Summary
 
-The patient presented with fevers and a cough. The cough is productive of yellowish mucus, worsens after eating or lying down, and is sometimes associated with mild difficulty breathing during coughing fits; no chest pain or blood in the mucus was reported. Symptoms have persisted for several days, remain unchanged in severity, and have impacted the patient's ability to perform usual activities, requiring more rest, especially during fever episodes or after coughing spells. The patient also mentioned recent weight loss and occasional difficulty swallowing. No relevant medical history, medications, or allergies were discussed. On assessment, the doctor noted several days of fever and productive cough likely due to a viral or mild bacterial respiratory infection, with possible postnasal drip or airway irritation contributing to cough triggers. The doctor advised monitoring for warning signs such as shortness of breath at rest, severe chest pain, confusion, or persistent high fever, and recommended rest, hydration, and over-the-counter remedies like honey or throat lozenges. If symptoms persist beyond 10 days, worsen, or new concerning features develop, further evaluation was advised.
+The patient presents with several days of fever and productive cough as the chief complaint. The cough produces yellowish mucus, is sometimes triggered by eating or lying down, and is associated with intermittent dyspnea during coughing fits but no chest pain or hemoptysis. The symptoms have made it harder for the patient to perform usual activities, requiring increased rest, especially during fever episodes or after coughing spells. The patient reports recent weight loss and occasional difficulty swallowing. There is no documented relevant medical history, medications, or allergies in the dialogue.
+
+The clinical impression is a likely viral or mild bacterial respiratory infection, with possible postnasal drip or airway irritation contributing to cough triggers. The treatment plan includes supportive care: rest, hydration, and over-the-counter remedies such as honey or throat lozenges. The patient was advised to monitor for warning signs including persistent high fever, severe chest pain, shortness of breath at rest, or confusion, and to seek further evaluation if symptoms persist beyond 10 days, worsen, or new concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.587
+- **Model Used**: general
+- **Text1 Length**: 173 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

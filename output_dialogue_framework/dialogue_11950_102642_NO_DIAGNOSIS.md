@@ -63,16 +63,21 @@
 
 ## EHR Summary
 
-The patient is a 74-year-old female presenting for postoperative management following a hemorrhoidectomy. She was admitted primarily for pain control and observation after her surgical procedure. Her pain was initially managed with subcutaneous and intravenous morphine, then transitioned to oral Dilaudid, with intermittent breakthrough discomfort controlled by the same medication. Relevant history includes recent hemorrhoidectomy; no medication allergies or other significant medical history are documented. On examination, the surgical site was clean with mild serosanguinous drainage and no evidence of infection or gross bleeding. The documented diagnosis was status post hemorrhoidectomy. At discharge, her condition was stable and the wound site remained clean. She was discharged with oral Dilaudid for pain, instructions to use mineral oil and frequent sitz baths, and follow-up arranged with her physician.
+The patient is a 74-year-old female presenting for postoperative management following hemorrhoidectomy. She was admitted primarily for pain control and observation after her procedure on [2182-8-19]. Her pain was initially managed with subcutaneous and intravenous morphine, then transitioned to oral Dilaudid, with intermittent breakthrough discomfort controlled by the oral medication. On examination, the surgical site was clean with mild serosanguinous drainage and no evidence of infection or gross bleeding. Relevant history includes recent hemorrhoidectomy; no allergies or chronic medications are specified. The documented diagnosis was status post hemorrhoidectomy. Treatment included discharge with 90 tablets of Dilaudid for pain, instructions to use 30 cc of mineral oil three times daily, and at least seven sitz baths daily to prevent wound infection. At discharge, her condition was stable and the wound site remained clean without signs of infection.
+
 
 ## Dialogue Summary
 
-The patient presented with pain following a recent surgical procedure. The pain was described as mostly aching, with episodes of sharper pain triggered by movement or sitting down, and was localized around the surgical site without radiation. The patient rated the pain as 6 out of 10 in severity and reported that it has been slowly improving but remains uncomfortable. No additional symptoms were mentioned. Relevant history includes recent surgery; no medications or allergies were discussed. There were no specific physical findings noted in the conversation. The doctor did not provide a formal assessment or working diagnosis during this exchange. No treatment plan or specific recommendations were given in the documented portion of the dialogue.
+The patient presents with postoperative pain as the chief complaint following a recent surgical procedure. The pain is described as primarily aching around the incision site, occasionally becoming sharper with movement or when attempting to sit down. The patient rates the pain as 6 out of 10 in severity and notes that it is slowly improving but remains uncomfortable. There is no mention of pain radiating beyond the surgical area. Relevant medical history includes recent surgery; no medications or allergies are specified. No explicit diagnosis beyond postoperative pain is documented. The treatment plan or specific recommendations have not been provided in the dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.935
-- **Similarity Label**: N/A
+- **STS Score**: 0.497
+- **Model Used**: general
+- **Text1 Length**: 136 words
+- **Text2 Length**: 103 words
+
 
 ## Processing Information
 

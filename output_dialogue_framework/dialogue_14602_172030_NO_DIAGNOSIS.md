@@ -59,16 +59,21 @@
 
 ## EHR Summary
 
-The patient is a 62-year-old man presenting with nausea, vomiting, and abdominal pain for one day. He experienced an episode of hematemesis in the Emergency Department, which was positive for occult blood, prompting admission for evaluation of an upper gastrointestinal bleed. His medical history includes type 2 diabetes, and he was found to have diabetic ketoacidosis on admission. Esophagogastroduodenoscopy revealed a nonbleeding tear at the gastroesophageal junction. Hematocrit remained stable and there were no further episodes of hematemesis during admission. The documented diagnoses were upper gastrointestinal bleed secondary to a nonbleeding tear and diabetic ketoacidosis. Treatment included intravenous Protonix 40 mg twice daily (transitioned to oral Protonix), insulin drip for ketoacidosis, discontinuation of Metformin, and subcutaneous heparin. The patient was discharged home in stable condition.
+The patient is a 62-year-old man presenting with nausea, vomiting, and abdominal pain for one day. He experienced an episode of hematemesis in the Emergency Department, which was positive for occult blood, prompting admission for evaluation of an upper gastrointestinal bleed. His medical history includes type 2 diabetes, and he was found to have diabetic ketoacidosis on admission. Esophagogastroduodenoscopy revealed a nonbleeding tear at the gastroesophageal junction. The documented diagnoses were upper gastrointestinal bleed secondary to a nonbleeding tear and diabetic ketoacidosis. Treatment included intravenous Protonix 40 mg twice daily (transitioned to oral Protonix), insulin drip for ketoacidosis, discontinuation of Metformin, and subcutaneous heparin. The patient's anion gap closed, hematocrit remained stable, and there were no further episodes of hematemesis during hospitalization. He was discharged home in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent nausea. They reported associated vomiting and upper abdominal pain described as a dull ache, primarily in the upper part of the belly, which comes and goes and occurs along with the nausea and vomiting. No information was provided regarding severity on a pain scale, presence of blood in vomit, or bowel movements. No relevant medical history, medications, or allergies were mentioned. The doctor inquired about the characteristics and location of the abdominal pain, as well as the presence of blood in vomit or stool, but no further assessment was documented. No specific diagnosis or treatment plan was discussed during the encounter.
+The patient presents with persistent nausea as the chief complaint. They report associated vomiting and upper abdominal pain described as a dull ache that comes and goes. The pain is localized to the upper part of the abdomen and occurs alongside the nausea and vomiting. The duration and severity of symptoms are discussed, but specific values are not provided in the excerpt. Relevant medical history, medications, allergies, and a documented diagnosis are not specified in the dialogue. No treatment plan or specific recommendations are documented in this portion of the conversation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.934
-- **Similarity Label**: N/A
+- **STS Score**: 0.391
+- **Model Used**: general
+- **Text1 Length**: 129 words
+- **Text2 Length**: 91 words
+
 
 ## Processing Information
 

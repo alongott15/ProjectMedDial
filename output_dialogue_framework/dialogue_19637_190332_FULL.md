@@ -87,16 +87,21 @@ In the meantime, staying hydrated and avoiding stimulants like caffeine is wise.
 
 ## EHR Summary
 
-The patient is an 84-year-old male presenting with occasional lightheadedness. He has a history of mitral valve replacement 13 years prior, heart failure, acute rheumatic fever as a child, and hypertension, and is on Inderal, Coumadin, Digoxin, and Lasix at home with no known drug allergies. Echocardiogram revealed aortic valve stenosis with an AV gradient of 28 mmHg and valve area of 0.8 cm². Physical exam was notable for a cardiac murmur, and he was off Coumadin preoperatively. The documented diagnosis was aortic stenosis, for which he underwent aortic valve replacement with a #21 Carbomedics Top Hat prosthesis via redo sternotomy. Postoperatively, he was extubated without difficulty, briefly required pressors, and was noted to have chronic atrial fibrillation with heart rates in the 120–130s. Treatment included resumption of anticoagulation (heparin drip transitioned to Coumadin when INR >2.0) and increased Lopressor to 25 mg twice daily to control heart rate; no amiodarone was started. At discharge, he was continued on Coumadin titrated to INR.
+The patient is an 84-year-old male presenting with occasional lightheadedness. He has a history of mitral valve replacement 13 years ago, heart failure, hypertension, acute rheumatic fever as a child, and chronic atrial fibrillation. Recent echocardiogram showed aortic valve stenosis with an AV gradient of 28 mmHg and valve area of 0.8 cm², prompting referral for surgical intervention. On admission, a cardiac murmur was noted and he was taken off Coumadin in preparation for surgery. The documented diagnosis was severe aortic stenosis, for which he underwent aortic valve replacement with a #21 Carbomedics Top Hat prosthesis via redo sternotomy. Postoperatively, he was managed in the ICU, weaned off pressors, and anticoagulation was restarted once his INR was therapeutic; his heart rate remained elevated due to chronic atrial fibrillation, so Lopressor was increased. Discharge medications included Coumadin titrated to INR, Lopressor 25 mg b.i.d., aspirin, Lasix with potassium supplementation, Colace, Tums, Percocet as needed, bisacodyl suppositories as needed, and insulin sliding scale for diabetes. He is being discharged to rehabilitation with follow-up arranged and ongoing anticoagulation management by his primary care provider and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with episodes of rapid heartbeat, reporting rates up to 150–160 beats per minute. Symptoms included intermittent fast heartbeats occurring randomly over the past few days, typically lasting a few minutes, without associated lightheadedness, shortness of breath, chest discomfort, or impact on daily activities. The patient denied starting new medications, changes in routine, increased caffeine intake, or elevated stress levels. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of concerning symptoms and that the episodes were brief and not worsening, but acknowledged the high heart rate as warranting further evaluation. The doctor recommended keeping a diary of episodes and advised seeking care if new symptoms such as fainting, chest pain, or difficulty breathing develop. An ECG and possible rhythm monitoring were suggested for further investigation. The patient agreed to track episodes and understood the plan.
+The patient presents with episodes of rapid heartbeat, reporting heart rates up to 150–160 beats per minute. These episodes have occurred intermittently over the past few days, last a few minutes each, and are not associated with lightheadedness, dyspnea, chest discomfort, or limitation of daily activities. The episodes appear random, with no clear triggers such as activity, rest, new medications, caffeine intake, or increased stress. There is no relevant medical history or recent changes in routine documented. The clinical impression is intermittent episodes of tachycardia without associated alarming symptoms. The treatment plan includes keeping a diary of episodes, monitoring for new symptoms (such as fainting, chest pain, or shortness of breath), and arranging for an ECG and possibly ambulatory rhythm monitoring. The patient was also advised to stay hydrated and avoid stimulants like caffeine.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.940
-- **Similarity Label**: N/A
+- **STS Score**: 0.371
+- **Model Used**: general
+- **Text1 Length**: 183 words
+- **Text2 Length**: 134 words
+
 
 ## Processing Information
 

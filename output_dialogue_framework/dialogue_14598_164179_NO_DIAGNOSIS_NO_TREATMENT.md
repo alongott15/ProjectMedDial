@@ -87,16 +87,21 @@ Let me know if you have any questions about what I’ve shared or if there’s a
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with recurrent exertional angina. He reported chest pain after walking approximately one quarter of a mile, similar to symptoms experienced prior to his last cardiac intervention, beginning about three weeks before admission. His history is significant for coronary artery disease status post myocardial infarction and multiple percutaneous coronary interventions, with no known drug allergies and current medications including aspirin, Mevacor, atenolol, Imdur, Altace, and Plavix. On examination, he was neurologically intact, had clear lungs, regular heart rhythm, and no peripheral edema. Laboratory results were within normal limits. The documented diagnosis was recurrent angina due to right coronary artery disease. He was admitted and underwent coronary artery bypass grafting (CABG) times two with left internal mammary artery (LIMA) to the affected vessel.
+The patient is a 61-year-old male presenting with recurrent exertional angina, characterized by chest pain after walking approximately one quarter of a mile, similar to symptoms experienced prior to his last cardiac intervention. Symptoms began about three weeks before admission and were triggered by exertion. His relevant history includes coronary artery disease status post myocardial infarction and multiple percutaneous coronary interventions, with no known drug allergies and ongoing medications including aspirin, Mevacor, atenolol, Imdur, Altace, and Plavix. The documented diagnosis was status post coronary artery bypass grafting (CABG) times two. He underwent CABG with LIMA to the LAD and saphenous vein graft to the PDA, and his postoperative course was uncomplicated except for a small amount of wound drainage, which resolved with brief vancomycin therapy. At discharge, he was in good condition and prescribed medications including Lopressor, Lasix, KCL, Colace, aspirin, Mevacor, Tylenol, Percocet, ibuprofen, Imdur, and Plavix. He was advised to follow up with his cardiologist in four weeks and his primary care physician in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain occurring after walking about a quarter of a mile. The chest pain is described as a tightness or pressure, rated 5–6 out of 10 in severity, and is reliably triggered by exertion but resolves within a few minutes of rest; the patient denied associated symptoms such as shortness of breath, sweating, or lightheadedness. The discomfort has not changed in frequency or intensity over time and does not radiate to other areas; the patient has begun to avoid longer walks due to these symptoms. No relevant medical history, medications, or allergies were discussed during this encounter. On clinical questioning, there were no findings of pain at rest or worsening symptoms, and the pain is limited to exertion. The doctor assessed that the pattern is consistent with stable angina, likely due to temporary decreased blood flow to the heart during activity. The doctor recommended the patient follow up with their cardiologist or primary care provider for medication review and possible further testing, advised avoiding activities that reliably trigger symptoms, and instructed the patient to seek prompt medical attention if new or worsening symptoms develop.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is described as a tightness or pressure, rated 5–6 out of 10 in severity, and occurs consistently after walking about a quarter of a mile; it resolves within a few minutes of rest and does not radiate to other areas. The patient denies associated symptoms such as shortness of breath, sweating, or lightheadedness, and reports that the discomfort has remained stable over time but has led to avoidance of longer walks. Relevant medical history, current medications, and allergies are not specified in the dialogue. The clinical impression documented by the doctor is stable angina, based on the exertional nature and relief with rest. The treatment plan includes advising the patient to avoid activities that reliably trigger symptoms, monitor for any new or worsening symptoms (such as pain at rest or associated shortness of breath), and to follow up soon with their cardiologist or primary care provider for further evaluation and possible medication review. No changes to current medications were recommended until after specialist follow-up. The patient was instructed to seek prompt medical attention if new concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.549
+- **Model Used**: general
+- **Text1 Length**: 170 words
+- **Text2 Length**: 194 words
+
 
 ## Processing Information
 

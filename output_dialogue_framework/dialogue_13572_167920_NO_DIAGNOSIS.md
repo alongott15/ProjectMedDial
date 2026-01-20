@@ -87,16 +87,21 @@ Does this explanation make sense, or is there anything else about your symptoms 
 
 ## EHR Summary
 
-The patient is a 59-year-old male presenting with chest pain as the chief complaint. Three days prior to admission, he experienced throat pain radiating to his sternum and left arm during exercise, which resolved with rest and aspirin; symptoms later progressed to 8/10 chest pain. He has no significant past medical history or cardiac risk factors, but a notable family history of coronary artery disease. On evaluation, EKG showed anterior ST elevations and reciprocal inferior depressions, and cardiac enzymes were positive. Physical exam revealed stable vital signs and no acute distress. The documented diagnosis was acute coronary syndrome with anterior ST elevation myocardial infarction (STEMI). He was treated with aspirin, Heparin, Integrilin, nitroglycerin, and underwent percutaneous transluminal coronary angioplasty (PTCA) to the left anterior descending artery (LAD). Cardiac function was preserved post-intervention, and hemodynamics were normal.
+The patient is a 59-year-old male presenting with chest pain that began as throat pain radiating to the sternum and left arm during exercise, resolving with rest and aspirin. Three days later, he developed severe (8/10) chest pain, with ECG showing anterior ST elevations and reciprocal inferior depressions. He has no significant past medical history or cardiac risk factors, but has a family history of coronary artery disease. Cardiac enzymes were positive, and cardiac catheterization revealed a totally occluded LAD, for which he underwent percutaneous transluminal coronary angioplasty (PTCA). The documented diagnosis was acute anterior ST-elevation myocardial infarction (STEMI). Treatment included aspirin, heparin, Integrilin, nitroglycerin, PTCA to the LAD, and initiation of aspirin, statin, beta blocker, ACE inhibitor, and Plavix. He was advised to follow up with outpatient cardiac rehabilitation and have repeat cholesterol panel and echocardiogram in a few months.
+
 
 ## Dialogue Summary
 
-The patient presented with exertional chest and throat discomfort. Symptoms included an ache that begins in the throat, moves to the chest and left arm, described as a tightness or pressure (squeezing sensation), occurring only during physical activity and resolving with rest; the discomfort is moderate in intensity, does not wake the patient at night, and is not associated with shortness of breath, sweating, or lightheadedness, though it is accompanied by anxiety. The pain is strongest in the middle of the chest, starts in the throat, and does not move beyond the chest and left arm. The patient reported a history of leukocytosis but no other relevant medical history, medications, or allergies were mentioned. No abnormal physical findings were described during the encounter. The doctor assessed that the symptoms are consistent with exertional angina, likely related to decreased oxygen supply to the heart during activity, and noted that leukocytosis may or may not be related. The doctor recommended avoiding strenuous activity until further evaluation, including an EKG and possibly a stress test, and advised seeking immediate care if symptoms occur at rest or are accompanied by new symptoms such as shortness of breath, nausea, or sweating. The patient was reassured and instructed to follow up as part of the evaluation.
+The patient is an adult presenting with exertional chest discomfort as the chief complaint. Symptoms include a moderate, tightness or pressure-like pain that begins in the throat, radiates to the chest and left arm, and occurs exclusively during physical activity; the discomfort resolves with rest and is not associated with shortness of breath, sweating, or lightheadedness. The pain does not occur at rest or wake the patient at night, and resting alleviates the symptoms. Relevant history includes a mention of leukocytosis, though its relation to the current symptoms is unclear. The clinical impression documented is exertional angina, suggesting possible reduced oxygen supply to the heart during activity. The treatment plan includes avoiding strenuous activity until further evaluation, with recommendations for diagnostic testing such as an EKG and possibly a stress test. The patient was advised to seek immediate medical attention if symptoms occur at rest, last longer than usual, or are accompanied by new symptoms such as shortness of breath, nausea, or sweating. Further evaluation of leukocytosis may be considered as part of the overall assessment.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.473
+- **Model Used**: general
+- **Text1 Length**: 141 words
+- **Text2 Length**: 176 words
+
 
 ## Processing Information
 

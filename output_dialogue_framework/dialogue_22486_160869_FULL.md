@@ -87,16 +87,23 @@ Does that make sense, and is there anything specific you'd like to ask about man
 
 ## EHR Summary
 
-The patient is a 49-year-old female presenting with colitis and gastrointestinal bleeding. She has experienced blood loss over several months, with abnormal colonoscopies revealing areas of stricturing, and a hematocrit of 20 on admission. Her symptoms have persisted despite steroid therapy, and Crohn's disease is considered the most likely underlying cause. Relevant history includes neuralgia, rheumatoid arthritis, and depression; she has no known drug allergies and is a Jehovah's Witness who declines blood transfusions but will accept certain non-RBC products. Physical exam showed mild abdominal tenderness with a clean, dry surgical incision, and no acute cardiopulmonary findings. The documented diagnosis was colitis with bleeding, likely secondary to Crohn's disease. She underwent a right colectomy, with perioperative management tailored to her refusal of blood products.
+The patient is a 49-year-old female presenting with colitis and gastrointestinal bleeding. She reported several months of blood loss and abnormal colonoscopies showing stricturing, with a hematocrit of 20 and hemoglobin as low as 5.5–6.0 g/dL. Her history includes neuralgia, rheumatoid arthritis, and depression; she is a Jehovah's Witness and declined blood transfusions but accepted other non-RBC products. The documented diagnosis was colitis with bleeding, likely due to Crohn's disease. She underwent a right colectomy without complications and was managed postoperatively with oxygen therapy, steroid taper, and supportive care. At discharge, she was stable and prescribed a prednisone taper, pain management, stool softener, and continuation of her home medications. She was advised to monitor for fever, severe abdominal pain, or persistent nausea/vomiting, and to follow up with her physician within 1–12 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with bleeding related to colitis as the chief complaint. They reported ongoing blood loss for approximately two weeks, with the amount of bleeding remaining stable since onset and no specific triggers identified; the bleeding occurs randomly and is not associated with abdominal pain or cramping. The patient described increased tiredness and reduced energy levels since the bleeding began, though daily activities are still manageable, with fatigue being the main impact. No history of abdominal pain, cramping, or other new symptoms was mentioned, and no medications or allergies were discussed. On assessment, the doctor noted that the stable, mild bleeding without worsening symptoms or pain is somewhat reassuring, but acknowledged that ongoing blood loss can cause fatigue. The doctor advised monitoring for signs of significant blood loss such as lightheadedness, pale skin, or rapid heartbeat, and recommended staying hydrated and tracking any changes in symptoms. The patient was instructed to seek medical attention if bleeding worsens, new symptoms develop, or fatigue increases.
+The patient presents with a chief complaint of ongoing bleeding related to colitis. The bleeding has been present for approximately two weeks, is described as stable (neither worsening nor improving), and is not associated with abdominal pain, cramping, or identifiable triggers. The patient reports increased fatigue likely related to the blood loss but is still able to perform usual daily activities, though with more tiredness. There is no mention of other symptoms such as lightheadedness, paleness, or rapid heartbeat.
+
+The clinical impression is bleeding secondary to colitis without evidence of acute complications. The treatment plan includes monitoring symptoms, staying hydrated, and watching for signs of increased bleeding or new symptoms such as feeling faint, paleness, or rapid heartbeat. The patient was advised to seek medical attention if symptoms worsen or new concerning signs develop. No medications or additional interventions were documented at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.705
+- **Model Used**: general
+- **Text1 Length**: 132 words
+- **Text2 Length**: 144 words
+
 
 ## Processing Information
 

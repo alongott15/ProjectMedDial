@@ -87,16 +87,21 @@ Let me know if you have any questions or concerns about what we’ve discussed, 
 
 ## EHR Summary
 
-The patient is a 68-year-old male presenting with progressive anginal symptoms and abnormal exercise treadmill test. He reported intermittent left arm pain and chest tingling, with symptoms worsening over time. His medical history includes hypertension, hypercholesterolemia, angina, and gout; he has no known drug allergies and was taking aspirin, Lopid, Timolol, Dyazide, Imdur, colchicine, and Indocin on admission. On physical examination, he was afebrile with stable vital signs, clear lungs, and a regular heart rhythm without murmurs. Cardiac catheterization revealed multivessel coronary artery disease. The documented diagnosis was multivessel coronary artery disease. He was referred to Cardiothoracic Surgery for evaluation for coronary artery bypass grafting.
+The patient is a 68-year-old male presenting with progressive anginal symptoms and abnormal exercise treadmill test. He reported intermittent left arm pain and chest tingling, with a positive stress test prompting referral for cardiac catheterization. His medical history includes hypertension, hypercholesterolemia, angina, and gout; he has no known drug allergies. Cardiac catheterization revealed multivessel coronary artery disease. The documented diagnoses were coronary artery disease, status post coronary artery bypass graft (CABG), angina, hypertension, high cholesterol, and gout. He underwent CABG x3 and had an uncomplicated postoperative course, including diuresis and management of gout symptoms. Discharge medications included Lopressor, potassium chloride, indomethacin, colchicine, gemfibrozil, Percocet, Colace, aspirin, Zantac, and Lasix. He was discharged home in stable condition with follow-up instructions for his primary care doctor and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort described as a tingling sensation, which has been worsening over the past few weeks and is impacting daily activities such as walking. The chest discomfort typically occurs during physical activity, improves with rest within a few minutes, and is rated as 6 out of 10 in intensity at its worst. The patient also reported that the discomfort sometimes radiates to the left arm during activity, accompanied by increased tiredness but no shortness of breath; there is no jaw involvement. The patient has reduced activity levels due to these symptoms and additionally mentioned pain and swelling in the right lower leg and calf, as well as discomfort in the right lower abdomen. No relevant medical history, medications, or allergies were discussed. The doctor assessed that the symptoms are suggestive of angina, likely related to insufficient oxygen supply to the heart during exertion, and noted the progressive nature and arm involvement as concerning features. The doctor advised avoiding strenuous activity until further evaluation, recommended prompt medical attention for severe chest pain or other warning signs, and suggested scheduling a healthcare provider visit for assessment, possibly including an EKG or stress test.
+The patient is an adult presenting with chest discomfort as the chief complaint. The chest discomfort is described as a tingling sensation, rated 6/10 in intensity, that has been progressively worsening over several weeks and is triggered by physical activity such as walking, but resolves within a few minutes of rest. The discomfort sometimes radiates to the left arm during activity and is accompanied by increased fatigue, though there is no associated dyspnea or jaw pain. The symptoms have led the patient to reduce daily activities and avoid exertion. Relevant history of other medical conditions, medications, or allergies is not specified. The clinical impression documented by the physician is possible angina, given the exertional nature of the symptoms and radiation to the left arm. The treatment plan includes avoiding strenuous activity until further evaluation, monitoring for warning signs (such as severe chest pain, sweating, nausea, or shortness of breath at rest), and scheduling a follow-up for diagnostic assessment (e.g., EKG or stress test). The patient also reported pain and swelling in the right lower leg and calf, and right lower abdominal discomfort, which they were advised to mention at their next appointment.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.571
+- **Model Used**: general
+- **Text1 Length**: 126 words
+- **Text2 Length**: 192 words
+
 
 ## Processing Information
 

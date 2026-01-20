@@ -98,3 +98,21 @@ For now, try to pace yourself and see if things improve over the next week. If t
 ## Processing Information
 
 - **Processing Time**: 380.8s
+
+## EHR Summary
+
+The patient is a 46-year-old female presenting with recurrent shortness of breath. She has a five-year history of asthma-like symptoms that worsened until a benign supraglottic tracheal mass was identified by bronchoscopy and biopsy, with initial improvement after laser ablation but subsequent return of dyspnea. Her past medical history is otherwise unremarkable, and she has no known drug allergies; her only medication on admission was Prozac. On admission, she was afebrile, in no acute distress, and had stable vital signs with clear chest and regular cardiac rhythm. The documented diagnosis was supraglottic tracheal mass stenosis with respiratory compromise. She underwent anterior cricoid reconstruction with rib cartilage graft and tracheostomy tube placement without complications. Postoperatively, she remained stable, tolerated a regular diet, and was discharged home in good condition. Discharge instructions included Roxicet elixir, pediatric suction catheter, humidifier, portable suction, and follow-up in one week.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with the chief complaint of shortness of breath. The dyspnea has been present for a few days, is unchanged in severity, and is primarily triggered by exertion such as walking, climbing stairs, or carrying groceries; it does not occur at rest or worsen when lying down. The patient denies associated symptoms including cough, chest discomfort, wheezing, or peripheral edema, and reports no recent illnesses, allergies, or environmental changes. There is no relevant past medical history, medications, or allergies documented. The clinical impression is exertional dyspnea without red-flag symptoms, possibly related to deconditioning, mild anemia, or subclinical allergies. The treatment plan includes monitoring for new or worsening symptoms (such as chest pain, fainting, persistent tachycardia, or swelling), pacing activities, and considering gradual increases in physical activity. The patient was reassured and provided with advice on activity modification.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.540
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 142 words
+

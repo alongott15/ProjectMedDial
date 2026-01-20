@@ -87,16 +87,23 @@ If your symptoms persist for more than a few days, worsen, or new symptoms devel
 
 ## EHR Summary
 
-The patient is a 60-year-old man presenting with a two-year history of chest discomfort and burning, accompanied by exertional shortness of breath that worsened over the past month. Symptoms prompted evaluation by a cardiologist, where stress testing and cardiac catheterization revealed one-vessel coronary artery disease. His past medical history includes hyperlipidemia, irritable bowel syndrome, benign prostatic hypertrophy, fibromyalgia, and a history of Lyme disease. He has a documented drug allergy to aspirin and was taking Toprol XL, Norvasc, Zantac, Imodium, and Librax prior to admission. Physical examination postoperatively was benign, with stable vital signs and no complications noted. The documented diagnosis was one-vessel coronary artery disease. The patient underwent off-pump coronary artery bypass grafting using the left internal mammary artery to the left anterior descending artery. Postoperative recovery was uneventful, and he was transferred from the Cardiac Surgery Recovery Unit to the floor in stable condition.
+The patient is a 60-year-old man presenting with a two-year history of chest discomfort and chest burning, accompanied by shortness of breath on exertion, which worsened over the past month. Symptoms prompted evaluation by a cardiologist, leading to a stress test and cardiac catheterization that revealed one-vessel coronary artery disease; an attempted intervention to the left anterior descending artery was unsuccessful. Past medical history includes hyperlipidemia, irritable bowel syndrome, benign prostatic hypertrophy, fibromyalgia, and a drug allergy to aspirin. The documented diagnosis was coronary artery disease, along with fibromyalgia, hypercholesterolemia, benign prostatic hypertrophy, and irritable bowel syndrome. The patient underwent off-pump coronary artery bypass grafting using the left internal mammary artery to the left anterior descending artery. Postoperative recovery was stable with minor low-grade fever and no significant complications. At discharge, the patient was stable and afebrile. Discharge medications included Plavix, atorvastatin, aspirin, Zantac, Lopressor, Lasix, potassium chloride, Percocet as needed for pain, Librax, and Imodium.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort as the chief complaint. Symptoms included chest discomfort occurring both during physical activity and at rest, associated shortness of breath (especially when discomfort worsens), mild back pain, and episodes of a fast heartbeat that come on suddenly and resolve on their own; the patient denied wheezing or coughing but noted breathing feels harder during episodes. The symptoms have been present for a few days, and the patient also reported a recent elevated temperature up to 38.6°C. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the combination of chest discomfort, shortness of breath, back pain, and tachycardia without respiratory symptoms like cough or wheezing. The doctor assessed that these symptoms could be related to muscle strain, anxiety, acid reflux, or potentially heart or lung issues, and emphasized monitoring for warning signs such as severe chest pain, pain radiating to the jaw or left arm, fainting, or sweating. The doctor recommended noting triggers and relieving factors, resting, staying hydrated, and avoiding strenuous activity; if symptoms persist, worsen, or new symptoms develop (such as cough, fever, or leg swelling), the patient should seek in-person evaluation. The patient was advised to monitor their temperature as well.
+The patient presents with a chief complaint of chest discomfort. Symptoms include chest discomfort occurring both at rest and with activity, associated with shortness of breath, mild back pain, and episodes of palpitations (sudden onset, resolving spontaneously), all persisting for a few days. The patient denies wheezing or coughing but reports a recent fever up to 38.6°C. Relevant medical history, medications, and allergies are not specified in the dialogue.
+
+The clinical impression is that these symptoms could be due to common conditions such as muscle strain, anxiety, or acid reflux, but more serious causes involving the heart or lungs cannot be excluded. The patient was advised to monitor for warning signs such as severe chest pain, pain radiating to the jaw or left arm, fainting, or sweating, and to seek immediate care if these occur. Recommendations include resting, staying hydrated, avoiding strenuous activity, and tracking any triggers or relieving factors. The patient was also advised to seek further evaluation if symptoms persist, worsen, or new symptoms such as cough, fever, or leg swelling develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.560
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 174 words
+
 
 ## Processing Information
 

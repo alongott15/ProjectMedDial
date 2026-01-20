@@ -87,16 +87,21 @@ Would you be interested in some gentle stretching or strengthening exercises for
 
 ## EHR Summary
 
-The patient is a 65-year-old male presenting with back and leg pain. He reported crescendo leg pain and claudication over the last 6 months, along with longstanding low back pain. His medical history includes hypertension, Parkinson's disease, and diabetes, and he has allergies to penicillins, sulfa drugs, and Stelazine. On physical exam, his wound was healing primarily, and motor and sensory function were intact. He underwent posterior spinal decompression and discectomy with repair of a dural tear; a CSF leak was controlled intraoperatively. The documented diagnosis was lumbar spinal stenosis with associated claudication and back pain. Postoperatively, he was placed on bed rest for 48 hours, then mobilized, with no complications such as headaches or bowel/bladder dysfunction. Discharge medications included perphenazine, atenolol, lisinopril, amlodipine, folic acid, metformin, atorvastatin, bicalutamide, and codeine for pain management.
+The patient is a 65-year-old male presenting with back and leg pain. He reported crescendo leg pain and claudication over the past six months, along with longstanding low back pain. His medical history includes hypertension, Parkinson's disease, and diabetes, and he has allergies to penicillins, sulfa drugs, and Stelazine. The documented diagnosis was herniated disk and spinal stenosis. He underwent posterior spinal decompression and discectomy, with repair of a dural tear; the postoperative course was notable for controlled CSF leak, primary wound healing, and intact motor and sensory function. At discharge, he was stable, neurologically intact, ambulatory, and his wound was healing well. Discharge medications included antihypertensives, antidiabetics, atorvastatin, bicalutamide, perphenazine, folic acid, and codeine as needed for pain. He was advised to keep the wound clean and dry, avoid immersion, and follow up as planned.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening back and leg pain, reporting that the leg pain is more severe than the back pain. The leg discomfort reaches up to 7 out of 10 in intensity at its worst, is mostly felt in the calf, and has been increasing over time rather than appearing suddenly. The pain is aggravated by walking or standing and improves with rest or sitting; the back pain persists more than the leg pain when resting. The patient denied any numbness, tingling, or weakness in the leg, and noted that the symptoms have made daily activities and chores more difficult, requiring frequent breaks. No relevant medical history, medications, or allergies were mentioned. The doctor observed that the pattern of pain worsening with activity and improving with rest is consistent with claudication, possibly related to circulation issues, but also considered nerve irritation from the lower back as a contributing factor. The doctor recommended pacing activities, taking breaks as needed, monitoring for new symptoms such as numbness or weakness, and offered gentle stretching or strengthening exercises for the back.
+The patient is an adult presenting with worsening back and leg pain, with the leg pain being more severe than the back pain. The leg discomfort is primarily in the calf, sometimes radiating further down, and reaches an intensity of 7 out of 10 at its worst. Symptoms have been present for a prolonged period, with longstanding low back pain and more recent, progressive leg pain that worsens with walking or standing and improves with rest; there is no associated numbness, tingling, or weakness. The pain has made daily activities and chores more difficult, requiring frequent breaks during ambulation. The clinical impression discussed includes possible claudication related to circulation issues and consideration of nerve irritation from the lower back. The patient was advised to pace activities, take breaks as needed, and monitor for new symptoms such as numbness, tingling, or weakness. Gentle stretching or strengthening exercises for the back were offered as a potential intervention.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.610
+- **Model Used**: general
+- **Text1 Length**: 136 words
+- **Text2 Length**: 155 words
+
 
 ## Processing Information
 

@@ -93,16 +93,23 @@ Regular monitoring and staying proactive about your health are key. If you ever 
 
 ## EHR Summary
 
-The patient is a 72-year-old male presenting with progressive exertional chest discomfort and shortness of breath. Symptoms have worsened recently, with dyspnea occurring after walking approximately one-half block and severe shortness of breath and fatigue limiting a stress test to 3 minutes 30 seconds; chest discomfort was also noted during the test. Relevant history includes prior myocardial infarction (2121), coronary artery disease status post stenting, type 2 diabetes, and hyperlipidemia. A recent MIBI scan showed a moderate lateral wall and apical reversible defect plus a fixed inferior defect, with a left ventricular ejection fraction of 54%. Cardiac catheterization revealed three vessel coronary artery disease with mild systolic and moderate diastolic ventricular dysfunction. The documented clinical impression is symptomatic multi-vessel coronary artery disease. The patient was referred to cardiac surgery for evaluation of possible surgical intervention.
+The patient is a 72-year-old male presenting with progressive exertional chest discomfort and shortness of breath. Symptoms included dyspnea after walking half a block and chest discomfort during a stress test, which was stopped after 3 minutes 30 seconds due to severe shortness of breath and fatigue; no orthopnea, edema, or paroxysmal nocturnal dyspnea were reported. Relevant history includes prior myocardial infarction (2121), coronary artery disease status post stenting, diabetes mellitus type 2, and hyperlipidemia; there are no known drug allergies. Cardiac catheterization revealed three vessel coronary artery disease with mild systolic and moderate diastolic ventricular dysfunction. The documented diagnosis was three vessel coronary artery disease status post coronary artery bypass grafting x 3, diabetes mellitus type 2, and hyperlipidemia. Treatment included coronary artery bypass grafting x 3, perioperative antibiotics, insulin management, and continuation of aspirin and Lantus at discharge. The patient experienced brief episodes of atrial fibrillation postoperatively but remained in sinus rhythm at discharge. He was discharged in good condition to a rehabilitation facility.
+
 
 ## Dialogue Summary
 
-The patient presented with no specific complaints or symptoms at this visit. They denied any recent changes in energy, appetite, sleep, ability to perform regular activities and hobbies, weight, lumps, skin changes, aches, stiffness, joint discomfort, shortness of breath, cough, chest discomfort, headaches, vision changes, or bowel habits. No relevant medical history, medications, or allergies were mentioned during the encounter. There were no abnormal clinical findings reported by the patient or observed by the doctor. The doctor assessed that the patient’s overall health is stable with no evidence of common issues such as infections, mild joint problems, or digestive disturbances at this time. The doctor recommended continuing regular activities and healthy routines, staying attentive to any new or subtle changes in health, and reaching out promptly if any new symptoms arise. Routine monitoring and proactive communication were emphasized as important for ongoing health maintenance. The patient expressed understanding and agreement with this approach.
+The patient presented for a routine check-in without any specific chief complaint. They denied experiencing any symptoms, including changes in energy, appetite, sleep, weight, skin, joint comfort, breathing, headaches, vision, or digestion. The patient reported being able to maintain all regular activities and hobbies without difficulty. No relevant medical history, medications, or allergies were discussed during this encounter.
+
+The clinical assessment was that the patient’s overall health is stable with no new or concerning symptoms reported. No diagnosis was documented, as there were no findings to suggest acute or chronic illness. The treatment plan consisted of reassurance and advice to continue regular activities and healthy routines. The patient was instructed to monitor for any new symptoms and to report any changes or concerns promptly.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.929
-- **Similarity Label**: N/A
+- **STS Score**: 0.337
+- **Model Used**: general
+- **Text1 Length**: 166 words
+- **Text2 Length**: 124 words
+
 
 ## Processing Information
 

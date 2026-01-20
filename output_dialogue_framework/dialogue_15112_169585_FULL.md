@@ -97,16 +97,23 @@ Otherwise, gentle physical activity, a regular sleep routine, and limiting caffe
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with a history of chest pain since 2156. He was found to have 3-vessel coronary artery disease on cardiac catheterization. His past medical history includes hypertension, hypercholesterolemia, gout, aphthous stomatosis, gastroesophageal reflux disease, and abnormal movements in sleep; admission medications included atenolol, Accupril, Lipitor, allopurinol, colchicine, ranitidine, and aspirin. On admission, he underwent a five-vessel coronary artery bypass graft (CABG) and had an uncomplicated postoperative course, including successful ventilator weaning and extubation. On discharge, his vital signs were stable, his chest was clear to auscultation, and his surgical incision was clean and intact. His hematocrit was 19.7 on discharge day, and he received 2 units of packed red blood cells after discussion of risks and benefits. The documented diagnosis was multivessel coronary artery disease status post CABG. He was discharged in stable condition with no acute complaints.
+The patient is a 61-year-old male presenting with a history of chest pain since 2156. He was found to have 3-vessel coronary artery disease on cardiac catheterization. His past medical history includes hypertension, hypercholesterolemia, gout, aphthous stomatosis, gastroesophageal reflux disease, and abnormal movements in sleep; admission medications included atenolol, Accupril, Lipitor, allopurinol, colchicine, ranitidine, and aspirin. The documented diagnosis was multivessel coronary artery disease. He underwent a five-vessel coronary artery bypass graft surgery and had an uncomplicated postoperative course. On the day of discharge, he was stable and comfortable but had a hematocrit of 19.7, for which he received two units of packed red blood cells. He was discharged home in stable condition with instructions to follow up with his physician in approximately two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent chest pain that has been occurring for a few days, prompting concern and anxiety. The chest pain is described as a pressure-like sensation, rated 5–6 out of 10 in intensity, comes and goes, is not triggered by activity or position, and is not associated with shortness of breath, sweating, lightheadedness, or indigestion. The patient reported increased anxiety and some restless sleep since the onset of symptoms but denied other mood changes; occasional heartburn was noted but not concurrent with the chest discomfort. No significant medical history, medications, or allergies were discussed. On assessment, the doctor noted the absence of exertional symptoms or alarming features and considered non-cardiac causes such as muscle tension or anxiety most likely. The doctor advised monitoring for any changes in symptoms, especially if they become more severe, occur with activity, or are accompanied by new symptoms like significant shortness of breath or sweating. Recommendations included stress management strategies such as deep breathing exercises and mindfulness meditation, maintaining a symptom log to track patterns, gentle physical activity, regular sleep routines, and limiting caffeine. The doctor also offered resources for relaxation techniques and symptom tracking, and the patient expressed understanding and interest in these suggestions.
+The patient is an adult presenting with intermittent chest pain as the chief complaint. The chest discomfort is described as a pressure-like sensation, rated 5–6 out of 10 in intensity, occurring over the past few days, and is not triggered by activity, position, eating, or breathing. There are no associated symptoms such as shortness of breath, sweating, lightheadedness, or indigestion; the patient reports increased anxiety and some restless sleep since the onset of symptoms. Relevant history includes occasional heartburn not temporally related to the chest pain; no other pertinent medical history, medications, or allergies are specified.
+
+The clinical impression is that the symptoms are most consistent with a non-cardiac cause, likely related to muscle tension or anxiety, given the absence of exertional triggers or alarming features. The treatment plan includes reassurance, education on warning signs that would require prompt medical attention (such as increased severity, exertional pain, or new symptoms like significant dyspnea or sweating), and recommendations for stress management techniques (e.g., deep breathing, mindfulness meditation). The patient was also advised to keep a symptom log and offered resources for relaxation and symptom tracking.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.474
+- **Model Used**: general
+- **Text1 Length**: 125 words
+- **Text2 Length**: 184 words
+
 
 ## Processing Information
 

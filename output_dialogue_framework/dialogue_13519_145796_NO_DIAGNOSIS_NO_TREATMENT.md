@@ -89,16 +89,21 @@ If your symptoms suddenly get much worse—like severe difficulty breathing, lip
 
 ## EHR Summary
 
-The patient is a 69-year-old male presenting for cardiac catheterization due to known aortic stenosis (AS). He reports a history of exertional shortness of breath, which has worsened over the past year and now occurs after climbing only one flight of stairs; he denies chest discomfort. His medical history includes moderate chronic obstructive pulmonary disease, hypertension, hyperlipidemia, and a remote history of hepatitis (type unspecified). Cardiac testing prior to admission showed an aortic valve area of 0.9–1.0 cm² with significant gradients, trace mitral and tricuspid regurgitation, and preserved ejection fraction (60–66%); coronary angiography revealed a 90% stenosis in the OM1 branch but no other significant coronary disease. Physical exam findings are not specified. The documented diagnosis is severe aortic stenosis with associated coronary artery disease and COPD. Medications on admission included Zocor, Aldactazide, Flovent, and Maxair. The treatment plan included cardiac catheterization for further evaluation and management of his valvular and coronary disease.
+The patient is a 69-year-old male presenting for cardiac catheterization due to known aortic stenosis (AS). He reported a history of exertional shortness of breath that had worsened over the past year, now occurring after climbing only one flight of stairs; he denied chest discomfort. Relevant history includes moderate chronic obstructive pulmonary disease, hypertension, hyperlipidemia, and a remote history of hepatitis, with no known drug allergies. Cardiac catheterization revealed severe aortic stenosis (valve area 0.9 cm²) and a 90% stenosis in the OM1 coronary artery. The documented diagnoses were aortic stenosis status post aortic valve replacement with a #21 bovine pericardial valve, coronary artery disease status post coronary artery bypass grafting (CABG) to OM1, chronic obstructive pulmonary disease, hypertension, and hyperlipidemia. Treatment included surgical aortic valve replacement and CABG, followed by postoperative monitoring and supportive care. At discharge, he was stable and prescribed aspirin, metoprolol, Lasix, simvastatin, inhalers for COPD, potassium chloride, and pain medications, with instructions for follow-up in cardiology and primary care clinics.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath during activity that has been worsening over at least two weeks. Symptoms include difficulty catching breath with both light and moderate activity, persistent breathlessness even at rest (though improved with sitting), and wheezing with a whistling sound on exhalation; no chest pain, leg swelling, nocturnal dyspnea, or lightheadedness were reported. The patient denied any clear triggers such as weather changes, dust, or smoke, and noted that resting helps but does not fully resolve symptoms. Relevant history includes use of inhalers (Flovent and Maxair), which have recently become less effective, and the patient mentioned a large bruise on the left thigh. No acute physical findings were described in the dialogue. The doctor assessed that the symptoms are likely due to airway narrowing or irritation, possibly from asthma, chronic bronchitis, or other lung conditions, and noted the absence of signs concerning for heart failure. The doctor recommended avoiding strenuous activities, monitoring for new or worsening symptoms (such as fever, productive cough, weakness, or dizziness), and suggested lung function testing and a chest X-ray; the patient was also advised to seek urgent care if severe breathing difficulty or cyanosis occurs. The patient was encouraged to mention the thigh bruise during further evaluation.
+The patient is an adult presenting with the chief complaint of progressive shortness of breath, especially with activity. Symptoms have been ongoing for at least two weeks and now occur even with light activity such as walking across a room or climbing stairs; resting provides partial relief but does not fully resolve the dyspnea. The patient also reports wheezing, including a whistling sound on exhalation, but denies leg swelling, chest pain, orthopnea, or nocturnal dyspnea. There is no clear association with environmental triggers such as dust, smoke, or weather changes. Relevant history includes current use of inhalers (Flovent and Maxair), which are reportedly less effective recently. The clinical impression discussed includes possible asthma, chronic bronchitis, or other airway-related lung conditions. The treatment plan includes avoiding strenuous activities, monitoring for new or worsening symptoms (such as fever, productive cough, weakness, or dizziness), and considering lung function testing and a chest X-ray. The patient also mentioned a large bruise on the left thigh and was advised to mention this during further evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.447
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

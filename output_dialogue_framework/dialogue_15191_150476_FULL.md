@@ -89,16 +89,21 @@ Let me know if you have any questions or if there’s anything specific you’d 
 
 ## EHR Summary
 
-The patient is a 70-year-old female presenting with chest pain. She reported a 7/10 aching pain in the left chest radiating to the neck and left shoulder, which began while going to bed, persisted through the night, and resolved in the morning; there were no associated symptoms such as nausea, vomiting, shortness of breath, or diaphoresis. She has experienced recurrent chest pain episodes since [2127-1-2], with recent episodes not relieved as quickly by rest or sublingual nitroglycerin as in the past. Her medical history includes diabetes mellitus (noninsulin-dependent), coronary artery disease (history of PTCA and stenting), hypertension, hypercholesterolemia, and hiatal hernia. In the Emergency Department, she became pain-free after receiving three sublingual nitroglycerin tablets and aspirin; she was also given IV Lopressor for elevated systolic blood pressure in the 200s. The documented diagnosis is not explicitly stated in the note. The treatment plan included nitroglycerin, aspirin, and IV Lopressor.
+The patient is a 70-year-old female presenting with chest pain. She reported a 7/10 aching pain in the left chest radiating to the neck and left shoulder, which began while going to bed, lasted through the night, and was not relieved as quickly by rest or sublingual nitroglycerin as her previous angina episodes. She denied associated symptoms such as nausea, vomiting, shortness of breath, or diaphoresis. Her medical history includes diabetes mellitus (noninsulin-dependent), coronary artery disease with prior PTCA and stenting, hypertension, hypercholesterolemia, and hiatal hernia; she has a questionable sulfa allergy. The documented diagnoses were two-vessel coronary artery disease (with significant stenoses on catheterization), hypertension, diabetes mellitus, and gastroesophageal reflux disease. Treatment included heparin and nitroglycerin drips, continuation of ACE inhibitor, statin, aspirin, beta blocker, and initiation of Isordil and Protonix; her diabetes was managed with insulin sliding scale during hospitalization. She was transferred in stable condition to Cardiothoracic Surgery for planned coronary artery bypass grafting (CABG).
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort that radiates to the neck and left shoulder. The pain developed gradually over the past few days, is rated 6 out of 10 in intensity, worsens with physical activity (such as walking), and improves somewhat with rest; it comes and goes throughout the day and is not associated with shortness of breath, sweating, or lightheadedness. The patient denied taking any medications for the pain and reported no relief with position changes. Relevant history includes prior heart problems, specifically a PTCA to the LAD in 1996 and a recent positive ETT thallium for an inferior-posterior reversible defect; the patient was unsure about high blood pressure or cholesterol status. No new physical findings were described during the conversation. The doctor’s assessment was that the symptoms could be related to the heart, possibly angina, given the activity-related nature of the discomfort and the patient’s cardiac history. The doctor advised avoiding strenuous activity, monitoring for any worsening or new symptoms (such as pain at rest, shortness of breath, sweating, nausea, or fainting), and contacting the patient’s cardiologist or primary care provider soon for further evaluation. The patient expressed understanding and agreed to follow these recommendations.
+The patient is an adult with a history of heart problems presenting with chest discomfort as the chief complaint. The pain began gradually a few days ago, is rated 6/10 in intensity, radiates to the neck and left shoulder, worsens with physical activity, and improves somewhat with rest; it is intermittent throughout the day. The patient denies associated symptoms such as dyspnea, diaphoresis, or lightheadedness. Relevant history includes prior PTCA to the LAD in 1996 and a recent positive ETT thallium for an inferior-posterior reversible defect; current medications and allergies are not specified. The clinical impression is that the symptoms may represent angina, given the activity-related chest pain and cardiac history. The treatment plan includes avoiding strenuous activity, monitoring for worsening or new symptoms (such as pain at rest, dyspnea, diaphoresis, nausea, or syncope), and contacting the cardiologist or primary care provider promptly for further evaluation. The patient was advised to seek urgent medical attention if symptoms intensify or new warning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.972
-- **Similarity Label**: N/A
+- **STS Score**: 0.599
+- **Model Used**: general
+- **Text1 Length**: 158 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

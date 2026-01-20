@@ -91,16 +91,21 @@ Does this explanation make sense, or is there anything else about your symptoms 
 
 ## EHR Summary
 
-The patient is a 53-year-old woman presenting for management of complications related to prior thoracic radiation therapy. She has a history of Hodgkin's lymphoma treated with radiation in 2110, resulting in fibrothorax, restrictive airway disease, and restrictive pericarditis requiring pericardectomy. Her symptoms include chronic restrictive lung disease necessitating home oxygen. On physical examination, her lungs were clear to auscultation bilaterally with no effusions, and her heart sounds were normal. The documented diagnoses include fibrothorax and restrictive lung disease secondary to prior radiation therapy. Her treatment regimen on admission included Lasix, iron, Epogen (to be discontinued soon), Lopressor, sertraline, levothyroxine, enoxaparin, nystatin, lansoprazole, albuterol nebulizers, clindamycin (to be discontinued), calcium gluconate, artificial tears, and Percocet elixir via PEG tube. She is allergic to intravenous dye. The patient benefits from a strong family support system during her recovery.
+The patient is a 53-year-old woman presenting for postoperative care following left decortication. She experienced failure to wean from the ventilator postoperatively, complicated by methicillin-resistant Staphylococcus aureus and Enterobacter pneumonia, and developed cellulitis at the percutaneous endoscopic gastrostomy tube site with fever and elevated white blood cell count. Her history includes Hodgkin's lymphoma treated with radiation therapy, resulting in fibrothorax, restrictive lung disease requiring home oxygen, and prior pericardectomy for restrictive pericarditis. The documented diagnoses at discharge were status post left decortication, tracheostomy, and percutaneous endoscopic gastrostomy tube placement. Treatment included a full course of vancomycin and ceftazidime for pneumonia, a two-week course of oral clindamycin for cellulitis, tube feeds via gastrostomy, and aggressive physical therapy. At discharge, her infection had resolved, she was afebrile with normalized white blood cell count, and she was able to ambulate unassisted. She was advised to continue physical therapy as tolerated, gradually wean tube feeds as oral intake improves, and follow up with her thoracic surgeon in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with mild swelling in the legs, which has remained stable since onset a few days ago. The swelling is more noticeable later in the day, especially after being up and moving around, but does not cause discomfort or limit activities. The patient denied shortness of breath, chest discomfort, or sudden weight gain, and reported recent fevers and tenderness, warmth, and redness near a tube site, which are now mostly resolved with only mild erythema remaining. No changes in medications, diet, or activity level were noted. On examination, the doctor found no concerning symptoms and assessed that the mild leg swelling is likely related to prolonged standing and residual effects from the recent infection (cellulitis) near the tube site. The doctor recommended elevating the legs when sitting, staying well hydrated, and monitoring for worsening symptoms such as increased swelling, pain, shortness of breath, or recurrent fever. The patient understood the explanation and agreed to monitor symptoms and follow the advice provided.
+The patient is an adult presenting with mild swelling in the legs as the chief complaint. The swelling began a few days ago, has remained stable, and is more noticeable later in the day, especially after being on their feet; it does not cause discomfort or limit activities. The patient denies associated symptoms such as dyspnea, chest discomfort, or sudden weight gain, and reports no recent changes in medications, diet, or activity level. There is a recent history of cellulitis with tenderness, redness, and warmth near a tube site, which is now resolving with only minimal erythema remaining; recent fevers have also improved. The clinical impression is that the mild leg swelling is likely related to dependent edema from standing and residual effects of the recent local infection/inflammation near the tube site. The treatment plan includes conservative management with leg elevation, maintaining hydration, and monitoring for worsening symptoms such as increased swelling, pain, shortness of breath, or recurrent fever. The patient was advised to report any concerning changes promptly. No new medications or interventions were initiated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.929
-- **Similarity Label**: N/A
+- **STS Score**: 0.415
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

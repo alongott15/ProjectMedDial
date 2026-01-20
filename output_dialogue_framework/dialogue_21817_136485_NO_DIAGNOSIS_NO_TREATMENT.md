@@ -87,16 +87,23 @@ Let me know if you have any questions or concerns about what we’ve discussed s
 
 ## EHR Summary
 
-The patient is a 71-year-old female presenting with loose purple bowel movements accompanied by light-headedness and dizziness with each episode. Symptoms began on the day of admission, and she denies any loss of consciousness, chest pain, abdominal pain, nausea, vomiting, or prior episodes of purple stools. She reports a prodrome of several days of nonproductive cough, for which she was taking Robitussin. Her medical history includes cerebrovascular accident, hypertension, and diabetes mellitus. No physical exam findings, diagnostic results, or explicit diagnosis are documented in this note. There is no specific treatment plan or recommendations provided in the available documentation.
+The patient is a 71-year-old female presenting with loose purple bowel movements accompanied by light-headedness and dizziness with each episode. Symptoms began on the day of admission, and she denies any loss of consciousness, chest pain, abdominal pain, nausea, vomiting, or prior episodes of purple stools. She reports a prodrome of several days of nonproductive cough, for which she was taking Robitussin. Her medical history includes cerebrovascular accident, hypertension, and diabetes mellitus. No diagnosis is documented in the note. There is no specific treatment or advice mentioned in the provided text.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening trouble breathing. Symptoms included gradually increasing shortness of breath over several days, worse with activity and when lying down, swelling in the lower legs and feet, a sharp chest pain especially with deep breaths or coughing, a persistent cough, reduced appetite, and increased fatigue and weakness. No wheezing or weight gain was reported. The doctor noted that the breathing difficulties, leg swelling, and fatigue could be related to fluid buildup possibly due to changes in heart or lung function, with heart-related causes considered likely given the symptom pattern; sharp chest pain with deep breaths may suggest irritation or inflammation around the lungs. The doctor recommended checking vital signs and ordering basic tests such as a chest X-ray and blood work. Advice included resting with the head elevated, limiting salt intake, and seeking immediate care if severe shortness of breath, persistent chest pain, or faintness occurs. The patient expressed understanding and agreed to monitor symptoms and follow recommendations.
+The patient presents with worsening shortness of breath as the chief complaint. Symptoms include gradually progressive dyspnea over several days, lower leg and foot swelling, increased fatigue, and sharp chest pain that is worse with deep breaths or coughing and somewhat relieved by rest. The dyspnea is exacerbated by lying down and has recently begun to occur even at rest; there is also a non-productive cough and decreased appetite, but no wheezing or significant weight gain. Relevant history, medications, and allergies are not specified in the dialogue.
+
+The clinical impression is possible fluid overload due to decreased cardiac function, with consideration of heart-related causes and possible lung irritation or inflammation. The treatment plan includes checking vital signs, ordering a chest X-ray and blood work, recommending rest with head elevation, and advising salt intake limitation. The patient was instructed to seek immediate care if severe shortness of breath, persistent chest pain, or faintness develops.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.362
+- **Model Used**: general
+- **Text1 Length**: 91 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

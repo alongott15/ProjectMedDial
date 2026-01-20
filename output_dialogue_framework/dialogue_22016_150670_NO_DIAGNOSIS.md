@@ -83,16 +83,21 @@ Let me ask—before your surgery, did you ever experience anything similar, or i
 
 ## EHR Summary
 
-The patient is a 44-year-old female presenting with a persistent postoperative headache localized to the left side of the head following a hysterectomy. The headache prompted outpatient evaluation and subsequent admission for further work-up. Her past medical history includes fibroids (status post hysterectomy), prior appendectomy, and benign breast cyst removal; she has no medication allergies and was taking Lipitor and Fioricet. Physical examination was unremarkable, with normal vision and facial function. MRI revealed an enhancing mass in the sella, consistent with an adenoma. The documented diagnosis was a sellar adenoma. She underwent transnasal, trans-sphenoidal surgical removal of the lesion, which she tolerated well. Postoperative recovery was stable.
+The patient is a 44-year-old female presenting with a persistent postoperative headache localized to the left side of the head following a hysterectomy. The headache prompted outpatient evaluation and subsequent admission for further work-up, which included MRI imaging that revealed an enhancing mass in the sella, consistent with an adenoma. Her past medical history includes fibroids (status post hysterectomy), prior appendectomy, and benign breast cyst removal; she has no medication allergies and was taking Lipitor and Fioricet for headaches. Physical examination was unremarkable, with normal neurological findings and full visual fields. The documented diagnosis was a sellar mass consistent with an adenoma. She underwent transnasal, trans-sphenoidal surgical removal of the lesion, tolerated the procedure well, and had an unremarkable postoperative course. At discharge, her condition was stable and improved, with follow-up arranged for neurosurgery, ENT, and endocrine services; pathology results were pending at discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with a persistent headache on the left side of the head following a recent surgical procedure. The headache is described as a dull, lingering pain that began immediately after surgery and has remained unchanged, rated at 5 out of 10 in severity. The patient denied associated symptoms such as changes in vision, nausea, or sensitivity to light or sound, and reported no triggers or relief with position changes; sleep quality has been affected, but hydration is adequate. The patient has been taking Fioricet as prescribed for the headache without significant improvement and has not tried acetaminophen or ibuprofen. There is no prior history of similar headaches before the surgery. On assessment, the doctor noted the absence of concerning neurological symptoms and suggested the headache may be related to tension, disrupted sleep, or stress from recovery. The doctor reassured the patient and discussed possible causes, emphasizing that the lack of warning signs is reassuring. No new medications or interventions were recommended during this visit.
+The patient is an adult presenting with a persistent left-sided headache as the chief complaint following a recent surgical procedure. The headache is described as a constant, dull pain rated 5 out of 10 in severity, beginning immediately after surgery and remaining unchanged since onset. There are no associated symptoms such as vision changes, nausea, or sensitivity to light or sound, and the pain does not fluctuate with activity or position. The headache has not responded to prescribed Fioricet, and the patient has not tried acetaminophen or ibuprofen. Sleep quality has been affected, but hydration is adequate, and there is no prior history of similar headaches. The clinical impression is that the headache may be related to post-surgical factors such as tension, disrupted sleep, or stress, with no warning signs for more serious causes identified. The physician provided reassurance regarding the absence of concerning symptoms and discussed possible benign causes related to recovery. No new medications or interventions were documented during this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.600
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ Let me know if you'd like suggestions for specific stretches or tips for making 
 
 ## EHR Summary
 
-The patient is an 85-year-old female being discharged to rehabilitation. She was admitted with a surgical wound, and her main issues included wound healing and post-surgical recovery. Her right leg harvest site, previously slightly cellulitic, is now resolving well, and her pain has decreased. Relevant history includes recent surgery and use of multiple cardiac and ocular medications; allergies are not specified. On exam, the incision is clean and dry with no discharge, click, or erythema. The documented assessment is good condition on discharge with improving wound status. The treatment plan includes a comprehensive medication regimen (including aspirin, Lopressor, amiodarone, captopril, hydralazine, antibiotics, diuretics, anticoagulants, and eye drops), cardiac diet, activity restrictions (no heavy lifting over 10 pounds), staple removal in one week, and follow-up with her primary care provider and surgeon. She is encouraged to ambulate and will have her INR monitored for Coumadin dosing.
+The patient is an 85-year-old female being discharged to rehabilitation. She was admitted with a surgical wound and a right leg harvest site that was previously slightly cellulitic but is now resolving; pain has decreased, and the incision is clean and dry with no discharge, click, or erythema. Her cardiopulmonary status is stable, and she is encouraged to ambulate out of bed with a 10-pound lifting limit. Relevant history includes recent surgery and use of multiple medications, including anticoagulants (Coumadin, Lovenox), antibiotics (vancomycin, levofloxacin), cardiac medications (aspirin, Lopressor, amiodarone, captopril, hydralazine, Lasix), and ophthalmic drops. The documented clinical impression is postoperative recovery with resolving cellulitis at the leg harvest site. The treatment plan includes wound monitoring, continuation of current medications, cardiac diet, staple removal in one week, and follow-up with her primary care provider and surgeon. Her condition on discharge was noted as good.
+
 
 ## Dialogue Summary
 
-The patient presented with a dull ache in the lower back that has persisted for a few days. The pain is rated as a 5 out of 10 in severity, is worsened by prolonged sitting, and is relieved somewhat by standing, gentle movement, and taking breaks from sitting; walking is uncomfortable and sleeping is more difficult due to the ache, but getting dressed is not significantly affected. The patient denied any numbness, tingling, leg weakness, or changes in bladder or bowel habits. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of neurological symptoms and linked the lower back ache to increased time spent sitting, with no evidence of a more serious underlying condition. The doctor recommended adjusting sitting position, using a cushion for support, taking frequent standing or walking breaks, and performing gentle stretches or light activity. The patient was advised to monitor for worsening symptoms or new neurological changes and to contact their doctor if these occur.
+The patient is an adult presenting with a chief complaint of lower back pain. The pain is described as a dull ache, rated 5 out of 10 in severity, present for several days without significant change. The discomfort is worsened by prolonged sitting and improved with gentle movement or standing; it causes some difficulty with walking and sleeping but does not affect dressing. The patient denies numbness, tingling, leg weakness, or changes in bladder or bowel habits. Relevant history includes increased time spent sitting recently and no recent heavy lifting or bending. The clinical impression is that the lower back ache is likely related to muscle and joint strain from prolonged sitting, without signs of a more serious underlying condition. The treatment plan includes adjusting sitting position, using a cushion for support, taking frequent breaks to stand or walk, and performing gentle stretches; the patient was advised to monitor for any new or worsening symptoms such as numbness or changes in bladder or bowel control.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.930
-- **Similarity Label**: N/A
+- **STS Score**: 0.371
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

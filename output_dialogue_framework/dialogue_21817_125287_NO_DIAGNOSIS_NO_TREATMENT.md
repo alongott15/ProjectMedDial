@@ -89,16 +89,23 @@ Let me know if you have questions about what I’ve shared or if
 
 ## EHR Summary
 
-The patient is a 71-year-old female presenting with diarrhea, purple stools, and lightheadedness. She reported the onset of these symptoms one day prior to admission, with dizziness accompanying each bowel movement, but denied loss of consciousness, chest pain, abdominal pain, nausea, vomiting, or prior similar episodes. Her history is significant for hypertension, diabetes mellitus (on oral agents), and a cerebrovascular accident eleven years ago with residual leg weakness; she is currently taking Coumadin. She also had a recent nonproductive cough treated with Robitussin. Clinical findings and a specific diagnosis are not documented in the provided note. The treatment plan and recommendations are not specified in the available text.
+The patient is a 71-year-old female presenting with diarrhea, purple stools, and lightheadedness. She reported the onset of these symptoms one day prior to admission, with dizziness occurring during each bowel movement, but denied loss of consciousness, chest pain, abdominal pain, nausea, vomiting, or prior similar episodes. Her history is significant for hypertension, diabetes mellitus (on oral agents), and a cerebrovascular accident eleven years ago with residual leg weakness; she is currently taking Coumadin. She also had a recent nonproductive cough for several days, for which she was using Robitussin. The clinical note does not specify a documented diagnosis. The treatment plan and specific recommendations are not detailed in the provided note.
+
 
 ## Dialogue Summary
 
-The patient presented with diarrhea of sudden onset, ongoing for several days. Symptoms included diarrhea with unusual purple-colored stools, persistent lightheadedness and dizziness especially during bowel movements (without fainting or loss of consciousness), and a non-productive dry cough; the patient denied fever, chest pain, trouble breathing, or blood in the stool. The patient reported that symptoms have remained stable over the past few days and have not significantly interfered with daily activities, though dizziness during bowel movements slows them down somewhat. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted concern for possible dehydration or gastrointestinal bleeding due to the combination of persistent dizziness and abnormal stool color, while also considering common causes such as infection or dietary changes. The doctor recommended maintaining hydration with clear fluids and electrolyte solutions, monitoring for warning signs such as fainting, severe weakness, chest pain, trouble breathing, black/tarry stools, or bright red blood in the stool, and seeking prompt medical attention if these occur. The doctor advised an in-person evaluation soon to investigate the cause of the stool color change and reassured the patient about the absence of severe symptoms.
+The patient presents with the chief complaint of diarrhea of several days’ duration. Symptoms began suddenly and include persistent diarrhea, stools with an unusual purple color, and episodes of lightheadedness and dizziness, especially during bowel movements; the patient denies blood in the stool, fainting, or loss of consciousness. The patient also reports a non-productive cough without fever, chest pain, or dyspnea, and is able to manage most daily activities despite these symptoms. There is no documented relevant medical history, medications, or allergies in the dialogue.
+
+The clinical impression is concern for possible gastrointestinal bleeding or dehydration due to the combination of unusual stool color and ongoing dizziness, though reassurance is provided by the absence of severe symptoms or functional decline. The doctor recommends maintaining hydration with clear fluids and monitoring for warning signs such as fainting, severe weakness, chest pain, trouble breathing, black/tarry stools, or visible blood. The patient is advised to seek prompt in-person evaluation to investigate the cause of the stool color change. No specific diagnosis or medication was documented at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.974
-- **Similarity Label**: N/A
+- **STS Score**: 0.596
+- **Model Used**: general
+- **Text1 Length**: 112 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

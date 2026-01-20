@@ -89,16 +89,23 @@ Let me know if you have questions or if anything changes.
 
 ## EHR Summary
 
-The patient is a 50-year-old male presenting with decreased energy level and increased mid-chest discomfort. He has a longstanding history of esophagitis and years of chest discomfort, with recent worsening symptoms. Relevant history includes hypertension, hypercholesterolemia, cigarette smoking, esophagitis, obesity, and a penicillin allergy. Cardiac catheterization revealed left main and three-vessel coronary artery disease. The documented diagnosis was severe coronary artery disease. He underwent a four-vessel coronary artery bypass graft with left radial artery harvest. Postoperatively, he required IV nitroglycerin for hypertension, was extubated promptly, transferred to the telemetry floor, and started on Lopressor with dose adjustment. The patient progressed well with cardiac rehabilitation and physical therapy, remained hemodynamically stable, and had chest tubes and pacing wires removed without complications.
+The patient is a 50-year-old male presenting with decreased energy level and increased mid-chest discomfort, with a longstanding history of esophagitis and years of chest discomfort. Recently, his symptoms worsened, prompting referral for cardiac catheterization, which revealed left main and three-vessel coronary artery disease. Past medical history includes hypertension, hypercholesterolemia, cigarette smoking, esophagitis, obesity, and a penicillin allergy. The documented diagnosis was coronary artery disease, status post coronary artery bypass graft (CABG). He underwent a four-vessel CABG with left radial artery harvest and had an uncomplicated postoperative course, progressing well with cardiac rehabilitation and ambulation. Discharge medications included aspirin, Lasix, potassium chloride, Colace, Imdur, Prevacid, Lopressor, Percocet, and ibuprofen. The patient was stable at discharge and advised to follow up with his surgeons, primary care physician, and cardiologist in one month.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort. They described the discomfort as a pressure in the chest, present for at least several days, occurring both during activity and at rest, and noted that it has made daily activities more difficult. Additional symptoms included reduced energy and minimal swelling in the feet, which is more noticeable at the end of the day or after prolonged standing; these symptoms have remained stable over the past several days. No specific medical history, medications, or allergies were mentioned. On assessment, the doctor noted the combination of chest pressure, lower energy, and foot swelling, explaining these could be related to fluid retention or the heart working harder than usual. The doctor advised monitoring for any worsening symptoms such as increased swelling, worsening chest pain, shortness of breath, or faintness, and to seek care promptly if these occur. The patient was instructed to elevate their feet when sitting and take breaks during activities, and to follow up if symptoms persist beyond another week or worsen. The patient acknowledged understanding of the plan.
+The patient presents with chest discomfort as the chief complaint. Symptoms include several days of chest pressure (described as a sensation of pressure occurring both at rest and with activity), reduced energy and stamina, and minimal swelling in the feet that is more noticeable at the end of the day or after prolonged standing. The patient reports these symptoms have remained stable over the past several days and are impacting daily activities such as walking and chores. No specific relevant medical history, medications, or allergies were documented in the dialogue.
+
+The clinical impression discussed by the doctor is that these symptoms may be related to fluid retention and possibly the heart working harder than usual, but no definitive diagnosis was made. The treatment plan includes monitoring for worsening symptoms (such as increased swelling, chest pain with shortness of breath, or faintness), elevating the feet when sitting, taking breaks during activities, and seeking further evaluation if symptoms persist beyond another week or worsen. The patient was advised to seek prompt care if any concerning changes occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
+- **STS Score**: 0.476
+- **Model Used**: general
+- **Text1 Length**: 131 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

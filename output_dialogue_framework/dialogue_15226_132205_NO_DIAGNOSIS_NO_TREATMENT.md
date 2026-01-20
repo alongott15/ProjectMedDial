@@ -98,3 +98,23 @@ For now, you can try gentle stretching and using a humidifier or saline nasal sp
 ## Processing Information
 
 - **Processing Time**: 443.4s
+
+## EHR Summary
+
+The patient is a 43-year-old female presenting with unstable angina, characterized by intermittent left mid arm pain beginning on 2156-12-15, which was responsive only to increased intravenous Nitroglycerin. She has a history of coronary artery disease with recent coronary artery bypass grafting, insulin-dependent diabetes mellitus, hypertension, gastroesophageal reflux disease, tooth abscess, and dyslipidemia. On admission, laboratory findings included a hematocrit of 29 and elevated troponin levels (up to 0.65), with ECG showing stable changes and nuclear imaging revealing a reversible large anterior defect. Cardiac catheterization identified an 80% anastomotic lesion at the LIMA to LAD graft, which was treated with balloon angioplasty; she was subsequently managed with antiplatelet and anticoagulant therapy. During hospitalization, she developed epistaxis attributed to Aggrestat, which resolved after nasal packing by ENT. The documented discharge diagnoses were LIMA to LAD anastomotic lesion status post PTCA, coronary artery disease, type 1 diabetes, and nosebleed secondary to Aggrestat. She was discharged on Toprol XL, Plavix, aspirin, vitamin B6, B12, folic acid, Keflex for dental abscess, and instructed to follow up with ENT for packing removal and her primary care physician.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with a chief complaint of intermittent, dull, aching pain in the mid-left arm. The pain has persisted without clear triggers, is rated 5/10 in severity, is not associated with numbness, tingling, weakness, swelling, or redness, and is somewhat relieved by rest but not worsened by movement. The patient also reports a persistent nosebleed for several days, which is more frequent than usual, and mentions a current dental abscess. There is no history of recent trauma, overuse, or changes in routine, and no additional bleeding or bruising has been noted.
+
+The clinical impression is that the arm pain may be due to minor muscle strain or overuse, though no specific cause is identified, and the persistent nosebleed could be related to local irritation or, less commonly, a clotting issue. The treatment plan includes monitoring for new symptoms such as unexplained bruising or increased bleeding, using gentle stretching for the arm pain, and trying a humidifier or saline nasal spray for the nosebleed. The patient is advised to seek further evaluation if symptoms worsen or persist beyond another week.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.435
+- **Model Used**: general
+- **Text1 Length**: 182 words
+- **Text2 Length**: 183 words
+

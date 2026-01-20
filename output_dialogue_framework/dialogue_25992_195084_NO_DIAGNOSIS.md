@@ -85,16 +85,21 @@ For now, starting with gentle walks and slowly increasing your activity is a goo
 
 ## EHR Summary
 
-The patient is a 71-year-old male presenting after an abnormal electrocardiogram with T wave inversions in V5-V6 was found on routine office visit. He was asymptomatic at that time but developed shortness of breath, without chest pain, during a positive exercise tolerance test. Relevant history includes hypercholesterolemia and a history of smoking; home medications included Lipitor, aspirin, and atenolol. Cardiac catheterization revealed significant coronary artery disease with left main coronary artery stenosis and LAD occlusion, and ejection fraction was 35 percent. The documented diagnosis was coronary artery disease with reduced ejection fraction. He underwent coronary artery bypass grafting (CABG x2) with LIMA to LAD and SVG to PDA, and his postoperative course was uncomplicated. On discharge, he was stable, afebrile, with clear lungs, regular heart rhythm, and a clean, intact incision. Discharge medications included Lopressor, Lasix (for five days), potassium chloride (for five days), aspirin, Lipitor, Percocet as needed, and Colace, with instructions for follow-up.
+The patient is a 71-year-old male presenting after an abnormal electrocardiogram with T wave inversions in V5-V6 was found on routine office visit. He was asymptomatic at that time but developed shortness of breath, without chest pain, during a positive exercise tolerance test. Relevant history includes hypercholesterolemia and smoking, with home medications of Lipitor, aspirin, and atenolol. Cardiac catheterization revealed left main coronary artery 40% stenosis with dissection, 50% distal occlusion, and LAD 80% ostial occlusion, with an ejection fraction of 35%. The documented diagnosis was significant coronary artery disease. The patient underwent coronary artery bypass grafting (LIMA to LAD and SVG to PDA) and had an uncomplicated postoperative course. Discharge medications included Lopressor, Lasix, potassium chloride, aspirin, Lipitor, Percocet as needed, and Colace. He was advised to follow up in three to four weeks and arranged for home nursing care for wound checks, vital sign monitoring, and physical therapy.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath experienced during an exercise tolerance test. The symptom developed gradually with increased exertion and improved upon slowing down; the patient denied chest discomfort, lightheadedness, palpitations, wheezing, or coughing during the episode. No breathing difficulties were reported during routine daily activities, and the patient noted a lack of regular exercise, with current activity limited to walking short distances. Physical findings were not directly observed, but the patient described no concerning symptoms outside of the test. The doctor assessed that the shortness of breath was likely related to exertion beyond the patient's usual activity level and attributed it to deconditioning rather than underlying cardiac or pulmonary issues. The doctor recommended gradually increasing activity by adding short walks to improve exercise tolerance and advised monitoring for shortness of breath with lighter activities or new symptoms such as chest pain or dizziness. The patient expressed understanding and agreed to follow the advice.
+The patient is an adult presenting with exertional shortness of breath noted during an exercise tolerance test. The dyspnea developed gradually with increasing exertion and resolved upon slowing down; there was no associated chest discomfort, lightheadedness, palpitations, wheezing, or cough. The patient reports no shortness of breath during routine daily activities and does not engage in regular exercise, typically only walking short distances. There is no relevant past medical history, medications, or allergies documented in the dialogue. The clinical impression was that the exertional dyspnea is likely due to deconditioning from low physical activity rather than underlying cardiopulmonary disease. The doctor advised gradually increasing physical activity by adding short walks to improve exercise tolerance. The patient was instructed to monitor for new symptoms such as dyspnea with light activity, chest pain, or dizziness, and to report these if they occur. No medications or further diagnostic testing were recommended at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
+- **STS Score**: 0.473
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

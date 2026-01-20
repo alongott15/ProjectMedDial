@@ -89,16 +89,21 @@ Let me know if you have any questions about what we’ve discussed or about the 
 
 ## EHR Summary
 
-The patient is a 74-year-old male presenting with chest pain radiating to the jaw. He reported new-onset chest pain, was ruled out for myocardial infarction, and experienced rapid improvement of diarrhea after empiric treatment with flagyl for C. difficile. His past medical history includes coronary artery disease (CAD) with prior myocardial infarctions, type II diabetes mellitus, retinopathy, neuropathy, carotid stenosis, COPD, chronic renal insufficiency, peripheral vascular disease, and lung nodules. Physical exam was notable for a right carotid bruit but otherwise unremarkable findings; vital signs were stable. Cardiac stress testing showed small to moderate inferior and minimal wall ischemia with an ejection fraction of 55%, and cardiac catheterization revealed three-vessel disease. The documented diagnosis was multivessel coronary artery disease. He underwent off-pump coronary artery bypass grafting (CABG) x4 as definitive treatment.
+The patient is a 74-year-old male presenting with chest pain radiating to the jaw. He reported new-onset chest pain prior to admission, with a history of lower extremity cellulitis and recent diarrhea that improved with metronidazole. His past medical history includes coronary artery disease (CAD) with prior myocardial infarctions, type II diabetes mellitus, retinopathy, neuropathy, carotid stenosis, COPD, chronic renal insufficiency, peripheral vascular disease, and lung nodules; he has no known drug allergies. Workup revealed three-vessel coronary artery disease, and he underwent off-pump quadruple coronary artery bypass grafting without intraoperative complications. Postoperatively, he developed atrial fibrillation/flutter, which was managed with increased beta blockade, electrolyte repletion, and an amiodarone bolus; he also received antibiotics for cellulitis and continued metronidazole for presumed C. difficile infection. The documented diagnosis was coronary artery disease status post off-pump coronary artery bypass graft x4. Discharge medications included furosemide, potassium chloride, docusate sodium, aspirin, clopidogrel, metoprolol, ranitidine, metronidazole, and cephalexin. He was discharged in stable condition to an extended care facility with instructions for wound care, activity restrictions, and follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain that sometimes radiates to the jaw. The chest discomfort began a few days ago, lasts a few minutes at a time, is rated 6/10 in severity, and is described as pressure or tightness rather than sharp or burning; it is triggered by physical activity such as walking or climbing stairs and relieved by rest, with no change from deep breathing or position. The patient denied associated sweating, lightheadedness, fever, or chills, but reported recent diarrhea and redness and swelling in the lower left leg. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the exertional chest pain with jaw radiation is concerning for angina, and the leg symptoms could indicate infection or a blood clot. The doctor recommended prompt medical evaluation today to rule out serious cardiac or vascular causes and advised avoiding strenuous activity and elevating the affected leg until seen. The patient was instructed to seek emergency care if chest pain worsens, lasts longer than a few minutes, or is accompanied by shortness of breath or faintness.
+The patient presents with chest pain as the chief complaint. The discomfort is described as pressure or tightness in the chest, rated 6/10 in severity, lasting a few minutes at a time, and typically triggered by physical activity such as walking or climbing stairs; it radiates to the jaw and is relieved by rest but not by changes in position or deep breathing. The patient denies associated symptoms of sweating or lightheadedness but reports recent diarrhea and redness and swelling in the lower left leg without fever or chills. Relevant medical history, medications, and allergies are not specified. The clinical impression is possible angina due to exertional chest pain with jaw radiation, and concern for possible infection or blood clot in the lower leg. The physician recommends prompt medical evaluation today to rule out serious cardiac causes and to assess the leg symptoms. The patient is advised to avoid strenuous activity, keep the affected leg elevated, and seek emergency care if symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.459
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

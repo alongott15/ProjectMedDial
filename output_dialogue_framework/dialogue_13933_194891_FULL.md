@@ -85,16 +85,21 @@ To help narrow things down, could you describe what the pain actually feels like
 
 ## EHR Summary
 
-The patient is a 28-year-old female presenting with fever and left upper quadrant pain following a recent laparoscopic appendectomy. She reported that the pain began one to two days postoperatively, progressively worsened, radiated to the left shoulder and arm, and was exacerbated by deep breaths. Associated symptoms included nausea without emesis, anorexia, poor oral intake, chills, sweats, shortness of breath, one episode of vomiting, loose stools, and a diffuse maculopapular rash after taking Percocet. Her past medical history includes asthma and hypertension; she is allergic to sulfa drugs. On examination, she was febrile (101.2°F), tachycardic (pulse 120), hypertensive (BP 180/95), tachypneic (RR 22), and had an oxygen saturation of 94% on room air. The documented diagnosis was pneumonia. She was advised to discontinue Percocet due to the rash and received treatment for pneumonia during her admission.
+The patient is a 28-year-old female presenting with fever and left upper quadrant pain eight days after laparoscopic appendectomy. She reported progressive pain radiating to the left shoulder and arm, exacerbated by deep breaths, along with nausea, anorexia, chills, sweats, shortness of breath, and a diffuse maculopapular rash. Her past medical history includes asthma and hypertension; she was taking albuterol and Percocet, with a known allergy to sulfa drugs. On admission, she was febrile (101.2°F), tachycardic (pulse 120), hypertensive (BP 180/95), tachypneic (RR 22), and had decreased breath sounds with a left pleural effusion and left lower lobe consolidation on imaging. The documented diagnosis was postoperative pneumonia. She was treated initially with Levofloxacin and Vancomycin, later switched to Levofloxacin and Clindamycin, and received Tylenol for fever; Vancomycin was discontinued after consultation. The rash was managed with Triamcinolone cream and Sarna, and her symptoms improved; she was discharged home in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with fever and persistent pain on the left side under the ribs. The pain, rated 6 out of 10, sometimes spreads to the left shoulder and arm, is mostly a dull ache but becomes sharper with movement or deep breaths, and has been present for a few days. Associated symptoms include nausea, decreased appetite, one episode of vomiting, increased tiredness, and shortness of breath with exertion; the fever is intermittent and the patient has not measured their temperature. The patient denied any yellowing of the skin or eyes. No relevant medical history, medications, or allergies were mentioned. The doctor noted that the pain’s location and characteristics, along with fever and associated symptoms, suggest possible irritation or inflammation around the diaphragm, lung lining (pleurisy), or upper abdominal organs such as the spleen or stomach. The doctor explained that these symptoms are consistent with infection or inflammation and found the absence of jaundice reassuring. The doctor did not specify a treatment plan in this conversation.
+The patient is an adult presenting with fever and persistent left-sided pain under the ribs as the chief complaint. The pain is described as a dull ache rated 6 out of 10, occasionally spreading to the left shoulder and arm, and becomes sharper with deep breaths or movement; it has persisted for several days. Associated symptoms include intermittent fever (unmeasured), nausea, decreased appetite, one episode of vomiting, increased fatigue, and exertional shortness of breath. The patient denies jaundice. Relevant history, medications, and allergies are not specified. The clinical impression discussed by the doctor suggests possible irritation or inflammation around the diaphragm, pleurisy, or involvement of organs such as the spleen or stomach. No definitive diagnosis was documented during the encounter. The doctor explained potential causes and indicated that further evaluation would be needed to narrow down the diagnosis; no specific treatment or medication was recommended at this stage.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.629
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 148 words
+
 
 ## Processing Information
 

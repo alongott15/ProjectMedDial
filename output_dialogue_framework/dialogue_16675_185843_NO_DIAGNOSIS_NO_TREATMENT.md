@@ -190,3 +190,23 @@ Let me know if you have any questions about what to watch for, or if there's any
 ## Processing Information
 
 - **Processing Time**: 462.0s
+
+## EHR Summary
+
+The patient is an 89-year-old male presenting with generalized weakness, malaise, and progressive inability to walk over one week, culminating in a fall and acute paraplegia. He reported right leg immobility, decreased movement in the left leg, right upper chest wall pain worsened by movement, intermittent foot sensations, constipation, mild fever (99°F), and shortness of breath; he had been on home oxygen for the past month. Relevant history includes chronic obstructive pulmonary disease (COPD) exacerbation treated with Levaquin, osteoporosis, and prior compression fractures. MRI revealed moderate thoracic cord impingement due to a T4 compression deformity and old compression fractures at L1-L4 and T11. The documented diagnosis was thoracic spinal cord compression with paraplegia, likely secondary to epidural hematoma and vertebral compression deformity. The patient underwent T3-T7 laminectomy and T4 epidural hematoma evacuation; postoperatively, there was no improvement in lower extremity movement. Discharge medications included pain management, COPD therapies, anticoagulation, insulin, and bowel regimen. He was discharged in stable condition to rehabilitation with instructions for brace use, staple removal on postoperative day 10, and follow-up in 2-3 weeks.
+
+
+## Dialogue Summary
+
+The patient is an individual with a history of spinal cord injury and chronic paraplegia presenting with generalized weakness, malaise, chest pain, and inability to walk (which is their baseline). The patient reports that the current weakness and malaise are somewhat worse than usual, and describes a recent episode where their right leg gave out, resulting in a fall and subsequent inability to move the leg, which is a change from their typical baseline. There is no mention of fever, new numbness, or changes in bladder or bowel function at this time. The patient's relevant history includes chronic paraplegia following spinal cord injury; no medications or allergies are specified.
+
+The clinical impression is that the worsening weakness and new right leg symptoms may represent a significant change from baseline and could indicate progression of neurological impairment or another underlying issue. The doctor advised the patient to monitor symptoms closely, maintain hydration, and rest, but emphasized the importance of seeking prompt medical attention due to the new neurological deficit in the right leg. The patient was instructed to contact their healthcare provider immediately regarding this change. Ongoing monitoring for additional symptoms such as fever, chills, or changes in urination was also recommended.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.577
+- **Model Used**: general
+- **Text1 Length**: 177 words
+- **Text2 Length**: 201 words
+

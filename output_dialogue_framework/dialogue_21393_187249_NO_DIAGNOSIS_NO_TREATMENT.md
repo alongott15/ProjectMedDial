@@ -87,16 +87,23 @@ Is there anything else on your mind or any questions about your health that you'
 
 ## EHR Summary
 
-The patient is a 71-year-old man presenting with a chief complaint of two weeks of weakness, decreased appetite, and nausea and vomiting. Symptoms were accompanied by severe dehydration and evidence of partial small bowel obstruction, as demonstrated by CT scan and barium study. His past medical history includes bladder cancer status post ileal conduit, gout, chronic renal insufficiency (baseline creatinine 2.5), hypertension, alcohol abuse, psoriasis, obesity, and a known large parastomal hernia. On admission, physical exam revealed fever (temperature 102.8°F), tachycardia with atrial fibrillation (heart rate 135), hypotension (BP 97/49), and mild hypoxemia (O2 saturation 96% on 2L nasal cannula). The documented diagnoses included acute renal failure (creatinine 4.8), atrial fibrillation with rapid ventricular response, partial small bowel obstruction, and possible ischemic or infarcted bowel related to the parastomal hernia. Treatment included intravenous antibiotics (Unasyn, Ceftriaxone, Flagyl), dopamine drip for blood pressure support, digoxin for atrial fibrillation, thiamine supplementation, and continuation of antihypertensive therapy. Surgical intervention for the hernia was not pursued due to extensive comorbidities.
+The patient is a 71-year-old man presenting with a two-week history of weakness, decreased appetite, and nausea and vomiting. He was found to have severe dehydration, acute renal failure (creatinine up to 4.8), paroxysmal atrial fibrillation with rapid ventricular response, and a partial small bowel obstruction related to an incarcerated parastomal hernia. His past medical history includes bladder cancer (status post ileal conduit), gout, chronic renal insufficiency, hypertension, alcohol abuse, psoriasis, and obesity. On admission, he was febrile (102.8°F), tachycardic (HR 135), hypotensive (BP 97/49), and ill-appearing; laboratory studies showed leukocytosis and elevated BUN/creatinine. The documented diagnoses were status post parastomal hernia repair, partial small bowel obstruction, acute renal failure, paroxysmal atrial fibrillation with rapid ventricular response, adrenal insufficiency, extreme weakness, and deconditioning. Treatment included exploratory laparotomy with hernia repair, intravenous fluids, vasopressors, antibiotics (Levaquin, Flagyl, Vancomycin), amiodarone for atrial fibrillation, anticoagulation with heparin, steroid taper for adrenal insufficiency, nutritional support, and intensive physical rehabilitation. At discharge, the patient was stable on oral medications and required ongoing physical therapy and follow-up with endocrinology.
+
 
 ## Dialogue Summary
 
-The patient presented for a general health check-in without specific symptoms or concerns. They reported no new symptoms, maintained regular activity and a balanced diet, and had no issues with energy levels, sleep, mood, memory, mobility, vision, or hearing. The patient stated they keep up with annual exams and screenings and have not experienced any problems during those visits. No relevant medical history, medications, or allergies were mentioned. The doctor found no immediate concerns based on the patient's responses and overall well-being. The assessment was that the patient is in good health and staying on top of preventive care. The doctor recommended continuing healthy habits, regular screenings, and monitoring for any new symptoms such as fatigue, pain, mood or memory changes, or anything interfering with daily life. The patient expressed understanding and had no further questions.
+The patient presented for a routine check-in without any specific chief complaint or new symptoms. They reported no issues with energy, sleep, mood, memory, mobility, vision, or hearing, and are able to maintain their usual activities without difficulty. The patient is keeping up with annual exams and preventive screenings and has not experienced any recent changes in health status. No relevant medical history, medications, or allergies were discussed during this visit.
+
+There was no documented diagnosis, as the patient denied any concerning symptoms. The clinical impression was that the patient is in good health and maintaining appropriate preventive care. The treatment plan included recommendations to continue regular physical activity, a balanced diet, and routine health screenings. The doctor advised the patient to monitor for any new symptoms and to report changes such as unexpected fatigue, persistent pain, or alterations in mood or memory promptly.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.926
-- **Similarity Label**: N/A
+- **STS Score**: 0.448
+- **Model Used**: general
+- **Text1 Length**: 173 words
+- **Text2 Length**: 144 words
+
 
 ## Processing Information
 

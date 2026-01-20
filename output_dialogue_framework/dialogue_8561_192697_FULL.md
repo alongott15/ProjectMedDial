@@ -87,16 +87,21 @@ Let me know if you have questions about what to expect with shingles or how to m
 
 ## EHR Summary
 
-The patient is a 56-year-old male admitted for high-dose methotrexate therapy. He reports current symptoms of weakness, mild nausea, and cervical pain, but denies fevers or chills. His medical history is notable for recently diagnosed high-grade lymphoma, previously treated with the McGraft protocol and intrathecal therapy, as well as cervical disc disease; he has no known drug allergies and was not on medications at admission. On physical exam, he was afebrile with mild tachycardia (heart rate 100), elevated blood pressure (138/100), and oxygen saturation of 96% on room air; no lymphadenopathy or distress was noted. The documented diagnosis is high-grade lymphoma. The treatment plan includes administration of high-dose methotrexate as part of his ongoing chemotherapy regimen.
+The patient is a 56-year-old male admitted for high-dose methotrexate therapy for recently diagnosed lymphoma. He reported weakness, mild nausea, and cervical pain but denied fevers or chills on admission. His past medical history includes cervical disc disease, and he had no known drug allergies or home medications. During hospitalization, he developed neutropenic fever, a subdural hematoma after a fall, and symptoms of gastritis confirmed by endoscopy. The documented diagnoses were lymphoma, subdural hematoma, and gastritis. Treatment included high-dose methotrexate with leucovorin rescue, antibiotics and antifungals for neutropenic fever, platelet transfusions for hematoma management, proton pump inhibitors and sucralfate for gastritis, and Remeron for sleep disorder and depressed mood. At discharge, he was prescribed lansoprazole, leucovorin, Remeron, potassium chloride, sucralfate, and Compazine as needed. The patient was discharged in good condition.
+
 
 ## Dialogue Summary
 
-The patient presented with weakness that has made daily activities difficult. Symptoms discussed included mild nausea, cervical pain, fever spikes up to 38–39°C lasting a few hours, a painful and tingling rash on the chest resembling zoster, trouble sleeping, and feeling down; the rash appeared shortly after the onset of weakness and was preceded by tingling and pain. The patient denied dizziness, appetite changes, chills, sweating, or rash elsewhere. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the presence of a painful, tingling chest rash with associated fever and malaise. The assessment was herpes zoster (shingles), based on the characteristic rash and prodromal symptoms. The doctor recommended starting antiviral treatment early, managing pain, keeping the affected area clean, and monitoring for concerning symptoms such as rash spreading to the face or eyes, confusion, severe headache, or vision changes; supportive care at home was also advised. The patient was encouraged to ask questions about symptom management and recovery.
+The patient is an adult presenting with weakness as the chief complaint. Key symptoms include mild nausea, intermittent fever spikes up to 38–39°C lasting a few hours, cervical pain, and a painful, tingling rash on the chest that appeared shortly after the onset of weakness; the rash was preceded by tingling and pain. The patient denies dizziness, appetite changes, chills, or sweating but reports trouble sleeping and feeling down. Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression documented is herpes zoster (shingles), based on the characteristic painful, tingling rash and associated systemic symptoms. The physician explained that shingles is a reactivation of the chickenpox virus and can cause these symptoms. The treatment plan includes early initiation of antiviral therapy, pain management, and keeping the affected area clean. The patient was also advised to seek urgent care if the rash spreads to the face or eyes, or if confusion, severe headache, or vision changes develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
+- **STS Score**: 0.424
+- **Model Used**: general
+- **Text1 Length**: 131 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

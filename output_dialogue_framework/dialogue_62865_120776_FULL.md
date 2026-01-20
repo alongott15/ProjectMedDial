@@ -87,16 +87,21 @@ Does anything seem to make the pain or shortness of breath better or worse? For 
 
 ## EHR Summary
 
-The patient is a 48-year-old female presenting with acquired absence of the right breast. She underwent a right free TRAM (transverse rectus abdominis myocutaneous) flap reconstruction. Her past medical history includes allergies to morphine, gadolinium-containing agents, and vancomycin. Postoperatively, she experienced adequate pain control with IV Dilaudid, later transitioned to oral pain medications, and tolerated advancement of her diet without complications. Physical findings included a viable flap with good vioptics and positive Dopplers, serosanguinous drainage from JP drains, and stable vital signs throughout admission. Laboratory results showed mild leukocytosis (WBC 13.2), anemia (Hgb 9.7), and mild hypocalcemia (calcium 8.2). The documented diagnosis was acquired absence of the right breast status post reconstruction. Treatment included surgical reconstruction, postoperative antibiotics (IV cefazolin then PO duricef), pain management, bowel regimen, and discharge with JP drains in place and visiting nurse assistance for drain care.
+The patient is a 48-year-old female presenting with acquired absence of the right breast. She underwent a right free TRAM flap reconstruction and tolerated the procedure well, with her surgical flap remaining viable throughout her hospital stay. Postoperatively, she experienced adequate pain control with IV and then oral medications, and her recovery was stable without signs of infection or other complications. Her relevant history includes allergies to morphine, gadolinium-containing agents, and vancomycin. The documented diagnosis was acquired deformity of the right breast. Treatment included surgical reconstruction, postoperative antibiotics (IV cefazolin transitioned to oral duricef), pain management with hydromorphone, bowel regimen with docusate sodium, and aspirin for prophylaxis. She was discharged home in good condition with JP drains in place, instructions for drain care with VNA support, and advice to avoid strenuous activity or chest pressure. Follow-up with her surgeon was arranged for one week after discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. She reported chest pain that began a few days ago, occurring intermittently throughout the day and worsening with movement or deep breaths; resting provides some relief. Additional symptoms included shaking chills, fevers over 101.5°F lasting several hours (especially in the evenings), shortness of breath, increased effort with daily activities, and sweating during fever episodes; she denied lightheadedness, fainting, or palpitations. Her relevant history includes recent surgery on her right breast, which is now absent. The doctor noted chest discomfort, activity-related dyspnea, and systemic symptoms following recent breast surgery. The assessment included possible post-surgical infection or inflammation, such as pleurisy, given the combination of fever, chills, and chest pain with breathing. The doctor recommended a physical exam and diagnostic tests (chest X-ray, blood work) to evaluate for infection or other complications, advised monitoring temperature and symptoms, and instructed the patient to seek urgent care if symptoms worsen or new concerning signs develop.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain began a few days ago, is intermittent, worsens with movement or deep breaths, and is accompanied by shortness of breath that limits daily activities. The patient also reports shaking chills and fevers over 101.5°F for the past couple of days, especially in the evenings, along with sweating but no palpitations or lightheadedness. Resting provides some relief, while activity exacerbates symptoms. Relevant history includes recent right breast surgery. The clinical impression is possible post-surgical infection or inflammation (such as pleurisy) related to the chest area. The treatment plan includes a physical exam and basic tests (chest X-ray, blood work) to evaluate for infection or complications, monitoring temperature and symptoms, and instructions to seek urgent care if symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.403
+- **Model Used**: general
+- **Text1 Length**: 146 words
+- **Text2 Length**: 133 words
+
 
 ## Processing Information
 

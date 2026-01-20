@@ -85,16 +85,23 @@ For now, focus on sipping electrolyte-containing fluids (like oral rehydration s
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with lethargy and altered mental status. He reported episodes of passing out, waking up confused in his wheelchair after several hours, and feeling as though he had a seizure, with these symptoms lasting about three weeks. Additional symptoms included intermittent nausea and vomiting for two weeks (worsening over the last three days) and increased stoma output. His relevant history includes human immunodeficiency virus (CD4 count 492), prior cerebrovascular accident with residual weakness, chronic renal insufficiency, hypertension, colectomy with colostomy, neuropathy, and multiple medication and substance allergies. On admission, he was taking antiretroviral therapy (indinavir, epivir, retrovir), Prilosec, Neurontin, MS Contin, Zoloft, and trazodone. No specific physical exam findings or test results are documented in this note. The diagnosis and treatment plan are not specified in the provided text.
+The patient is a 58-year-old male presenting with lethargy and altered mental status. He reported episodes of passing out, confusion upon awakening, and intermittent nausea and vomiting for two weeks, with increased stoma output over the last three days. His medical history includes human immunodeficiency virus (HIV), cerebrovascular accident with residual weakness, chronic renal insufficiency, hypertension, and status post colectomy with colostomy. On admission, he was hypotensive and required intravenous fluids and a dopamine drip, later weaned off as his blood pressure stabilized. Workup revealed no new neurological events, and his altered mental status was attributed to hypovolemia from increased stoma output and excessive narcotic use; his opioid dose was reduced with improvement. The documented diagnosis was gastroenteritis. He was treated with supportive care including fluids, adjustment of pain medications, and a short course of Neutra-Phos for low phosphate. The patient was discharged in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with fatigue and feeling "out of it." They reported significant tiredness interfering with daily routines, increasing confusion and mental fog, worsening over several days, along with decreased appetite, nausea, vomiting, and episodes of passing out. The patient noted lightheadedness on standing and higher-than-usual, looser stoma output without blood or color change; sleep patterns were unchanged. No history of headaches, fever, or other symptoms was mentioned. Physical findings included episodes of syncope triggered by standing or moving quickly and signs of possible dehydration. The doctor assessed that the symptoms were likely due to dehydration and possible electrolyte imbalance related to increased stoma output. The doctor advised sipping electrolyte-containing fluids throughout the day, monitoring stoma output, and seeking prompt medical care if unable to keep fluids down, experiencing rapid heartbeat, chest pain, severe abdominal pain, or worsening fainting. The patient expressed understanding of the recommendations.
+The patient presents with the chief complaint of persistent tiredness and feeling "out of it." Symptoms include significant fatigue interfering with daily activities, mental fog and confusion, worsening over several days, along with nausea, vomiting, decreased appetite, and episodes of lightheadedness and syncope, particularly when standing up quickly. The patient reports increased and looser stoma output without blood or color change, and has been able to keep some fluids down but notes signs suggestive of dehydration. Relevant history includes the presence of a stoma; no other medical history, medications, or allergies are specified.
+
+The clinical impression is that the patient's symptoms are likely due to dehydration and possible electrolyte imbalances secondary to increased stoma output. The treatment plan includes advice to sip electrolyte-containing fluids (such as oral rehydration solutions) throughout the day and to closely monitor stoma output. The patient is instructed to seek prompt medical care if unable to keep fluids down, if fainting persists, or if new symptoms such as rapid heartbeat, chest pain, or severe abdominal pain develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.640
+- **Model Used**: general
+- **Text1 Length**: 146 words
+- **Text2 Length**: 171 words
+
 
 ## Processing Information
 

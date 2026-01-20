@@ -87,16 +87,21 @@ Let me know if you have any questions or if anything changes before your appoint
 
 ## EHR Summary
 
-The patient is a 56-year-old woman presenting with a chief complaint of leg weakness progressing to arm weakness over one day. She also reported headache, nausea, and vomiting, and had taken four aspirin for the headache. Her history includes hypertension, menopause, and a fall down stairs one month prior with head trauma but no initial medical evaluation. On examination, she was hypertensive (BP 160/79), alert, with right-sided deltoid, triceps, finger extensor, pronator drift, and knee flexion weakness, as well as right upgoing toes; left pupil was nonreactive. CT of the head revealed a subacute and acute subdural hematoma with midline shift and minimal hydrocephalus. The documented diagnosis was chronic subdural hematoma. She underwent left frontal and parietal burr hole evacuation of the hematoma without complications. Postoperatively, her course was stable and follow-up CT showed good evacuation of the hematoma.
+The patient is a 56-year-old woman presenting with a one-day history of leg weakness progressing to arm weakness, accompanied by headache, nausea, and vomiting. She reported taking four aspirin for her headache and had a history of a fall with head injury one month prior. Her past medical history includes hypertension and menopause, and she is taking Prempro, Univasc, and aspirin as needed; she has no known drug allergies. On examination, she had right-sided motor weakness and abnormal pupillary findings. Head CT revealed a subacute and acute subdural hematoma with midline shift and minimal hydrocephalus. The documented diagnosis was subdural hematoma. She underwent left frontal and parietal burr hole evacuation of the hematoma without complications. Postoperatively, her neurological status improved, and she was discharged home on Percocet as needed for headache, with instructions for follow-up and repeat head CT in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with progressive weakness in the legs, which has worsened over the past few days and is now affecting daily activities. The patient reported difficulty walking, standing up from a chair, climbing stairs, and noted that their legs do not feel as strong as usual; recently, similar weakness has developed in the arms. There was no numbness or tingling, but the patient described feeling off-balance while walking and experiencing headache and nausea that typically occur alongside the weakness, sometimes with a sensation of impending vomiting. No history of falls was reported, and the patient has found it increasingly difficult to manage routine tasks without assistance. No relevant medical history, medications, or allergies were mentioned during the visit. The doctor noted the gradual onset and progression of weakness from legs to arms, associated with headache and nausea, and discussed possible causes including viral illness, nervous system changes, or metabolic disturbances. The doctor advised arranging an in-person evaluation soon for further assessment, recommended avoiding fall risks and seeking help with unsafe tasks, and provided instructions to seek urgent care if warning signs such as difficulty speaking, swallowing, seeing, breathing, or loss of bladder/bowel control occur.
+The patient is an adult presenting with progressive weakness in the legs, now involving the arms. The weakness began a few days ago and has gradually worsened, making walking, standing from a chair, climbing stairs, and daily activities more difficult; balance is also impaired, though there have been no falls. The patient denies numbness or tingling but reports associated headache and nausea that occur alongside the weakness, with occasional near-vomiting when the headache intensifies. No specific relevant medical history, medications, or allergies were documented. The clinical impression included possible causes such as viral illness, nervous system changes, or electrolyte/blood pressure issues, but no definitive diagnosis was made. The doctor advised urgent attention if warning signs such as difficulty speaking, swallowing, vision changes, breathing problems, or loss of bladder/bowel control occur. The treatment plan includes arranging an in-person evaluation soon for examination and basic tests, avoiding fall risks, and seeking help with unsafe tasks. The patient was instructed to monitor for any worsening or new symptoms and to seek immediate care if warning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.479
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 174 words
+
 
 ## Processing Information
 

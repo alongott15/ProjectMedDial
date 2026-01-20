@@ -87,16 +87,21 @@ Let me know if you have any questions or if anything changes—I want to make su
 
 ## EHR Summary
 
-The patient is a 72-year-old female presenting with sudden onset upper abdominal pain and limited emesis at home. She reported associated symptoms of nausea, vomiting, fever or chills, sweats, and diarrhea, with pain exacerbated by food ingestion and no relieving factors. Her relevant medical history includes coronary artery disease with prior myocardial infarction and stent placement, congestive heart failure, Helicobacter pylori positive upper GI bleed, cerebrovascular accident with right-sided hemiparesis, chronic obstructive pulmonary disease, a 30 pack-year smoking history, and possible chronic renal failure; she is allergic to Levaquin and penicillin (rash). She was admitted with probable gallstone pancreatitis following a recent left carotid endarterectomy. On admission, her temperature was 98.1°F and she was afebrile without chills. The documented diagnosis was probable gallstone pancreatitis. Her admitting medications included Lasix, Prevacid, lisinopril, Albuterol, Atrovent, Flovent, aspirin, Paxil, and Diltiazem. Specific treatments or recommendations for pancreatitis were not detailed in the note.
+The patient is a 72-year-old female presenting with sudden onset upper abdominal pain and limited emesis at home, leading to hospital admission. She reported associated symptoms of nausea, vomiting, fever or chills, sweats, and diarrhea, with pain exacerbated by food and no relieving factors. Her past medical history includes coronary artery disease with prior myocardial infarction and stenting, congestive heart failure, cerebrovascular accident with right-sided hemiparesis, chronic obstructive pulmonary disease, a history of Helicobacter pylori-positive GI bleed, and possible chronic renal failure; she is allergic to Levaquin and penicillin. On admission, laboratory findings showed leukocytosis (WBC 20.2), elevated amylase (571) and lipase (1,365), and mildly elevated creatinine (1.7). The documented diagnosis was presumed gallstone pancreatitis, status post recent left carotid endarterectomy. She was treated with IV hydration, antibiotics (Flagyl and ceftriaxone), and underwent an uneventful laparoscopic cholecystectomy. Her condition stabilized postoperatively, antibiotics were discontinued, her diet was advanced, and she was discharged home with nursing care. Follow-up was arranged with her surgical and vascular teams.
+
 
 ## Dialogue Summary
 
-The patient presented with sudden onset pain in the upper right abdomen. Symptoms included sharp pain rated 7/10, mild vomiting, chills, sweats, diarrhea, nausea worsened by eating, and tenderness in the affected area; the pain began earlier today without a clear trigger and this is the first episode. The patient denied fever, jaundice, changes in bowel movements beyond diarrhea, new medications, or history of gallbladder or liver problems. On examination, the patient described significant discomfort and difficulty tolerating food, but was able to keep some water down. The doctor’s assessment was concern for possible gallbladder involvement or digestive tract infection, noting the absence of jaundice as reassuring but emphasizing the need to monitor for worsening symptoms. The doctor advised rest, clear fluids in small amounts, and avoidance of fatty or heavy foods. The patient was instructed to seek prompt medical attention if pain becomes severe, high fever develops, jaundice appears, or if unable to keep fluids down.
+The patient presents with sudden-onset upper right abdominal pain as the chief complaint. The pain began earlier today, is described as sharp and rated 7 out of 10 in severity, and is accompanied by nausea, vomiting, chills, sweats, diarrhea, and tenderness; eating worsens the nausea, but the patient has been able to keep down some water. There is no history of similar symptoms, gallbladder or liver problems, or new medications, and the patient denies yellowing of the skin or eyes. The clinical impression discussed includes possible gallbladder issues or a digestive tract infection, with concern for potential infection or inflammation of the gallbladder. No definitive diagnosis was documented. The treatment plan includes rest, maintaining hydration with clear fluids in small amounts, and avoiding fatty or heavy foods until symptoms improve. The patient was advised to seek prompt medical attention if pain becomes severe, a high fever develops, jaundice occurs, or if unable to keep fluids down.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.621
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

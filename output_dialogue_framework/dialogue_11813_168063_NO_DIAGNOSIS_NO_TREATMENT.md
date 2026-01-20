@@ -85,16 +85,21 @@ Does that make sense, or is there anything else you’re concerned about?
 
 ## EHR Summary
 
-The patient is a 58-year-old male who was found to be positive for Clostridioides difficile toxin at the time of discharge. Symptom details related to the C. difficile infection are not specified in the note. Relevant history includes diabetes, as the patient received instructions on insulin management and blood glucose monitoring. Clinical findings specifically mention the positive C. difficile toxin result. The documented diagnosis is C. difficile infection. Treatment included a 14-day course of oral Flagyl (metronidazole) and instructions to follow up with the primary care physician regarding the infection. The patient was also advised to follow up with ENT and endocrinology, and to adhere to a carb count-based sliding scale of insulin with 18 units of Lantus nightly, monitoring blood sugars closely and reporting abnormalities.
+The patient is a 58-year-old male who was found to be positive for Clostridioides difficile toxin at the time of discharge. No specific symptoms are detailed in this note. Relevant history includes diabetes, as the patient received instructions on insulin management and blood sugar monitoring. The documented diagnosis was C. difficile infection. Treatment included a 14-day course of oral Flagyl (metronidazole) and instructions to follow up with the primary care physician regarding the infection. The patient was also advised to follow up with ENT and endocrinology for suture removal and diabetes management, respectively. He was instructed to use a carbohydrate-count-based sliding scale for insulin, take 18 units of Lantus nightly, and monitor blood sugars closely.
+
 
 ## Dialogue Summary
 
-The patient presented with mild diarrhea. They reported having loose stools two to three times per day for the past few days, with no associated stomach pain, fever, blood in the stool, or identifiable food triggers. The diarrhea had not changed in severity, was not interfering with daily activities, and the patient was maintaining adequate hydration without symptoms of dehydration. There was no recent travel, nor any new medications or supplements started. On examination, no physical findings were described. The doctor assessed this as a mild, self-limited case of diarrhea without warning signs, likely due to a brief viral or dietary upset. The doctor recommended continuing to drink fluids, eating light meals, and avoiding greasy or spicy foods, with instructions to report if symptoms persist beyond a week or if new symptoms such as blood in the stool, high fever, or significant weakness develop.
+The patient presents with a chief complaint of mild diarrhea. The diarrhea has been ongoing for a few days, with two to three loose stools per day, and is not associated with abdominal pain, fever, blood in the stool, or dietary triggers. The patient reports maintaining adequate hydration, no signs of dehydration, and no interference with daily activities. There is no recent travel or new medications. The documented clinical impression is a mild, self-limited case of diarrhea without warning signs. The treatment plan includes continuing to drink fluids, eating light meals, and avoiding greasy or spicy foods. The patient was advised to monitor for worsening symptoms or new warning signs and to seek further evaluation if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
+- **STS Score**: 0.410
+- **Model Used**: general
+- **Text1 Length**: 115 words
+- **Text2 Length**: 118 words
+
 
 ## Processing Information
 

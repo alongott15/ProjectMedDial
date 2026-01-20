@@ -87,16 +87,21 @@ Is there anything else about your health or daily life you’d like to discuss t
 
 ## EHR Summary
 
-The patient is a 74-year-old male presenting for follow-up of a brain tumor. He has a history of a right frontal atypical meningioma, previously treated with multiple surgeries, chemotherapy (Temodar), radiation, and stereotactic radiosurgery. He reports no acute symptoms at this visit and is described as awake, alert, and oriented. His medical history includes several craniotomies, duraplasty, cranioplasty, and a documented allergy to phenytoin. On recent MRI, a recurrent and infiltrative right frontal meningioma was identified. The clinical impression is recurrent atypical meningioma. Treatment during this admission included a right redo craniotomy for excision of the mass with microscope, duraplasty, and cranioplasty. He was admitted electively for surgery and there were no reported complications.
+The patient is a 74-year-old male presenting for management of a recurrent brain tumor (meningioma). He reported no headaches, nausea, vomiting, dizziness, seizures, visual disturbances, or gait abnormalities at the time of admission. His medical history includes prior craniotomies, radiation therapy, chemotherapy for meningioma, atrial fibrillation (on Coumadin), and GERD; he is allergic to phenytoin. On this admission, he underwent a right redo craniotomy with excision of the mass, duraplasty, and cranioplasty without intraoperative complications. Postoperatively, he experienced transient atrial fibrillation managed with metoprolol and diltiazem, and was continued on amiodarone per cardiology recommendations. The documented diagnosis was recurrent atypical meningioma. At discharge, he was neurologically stable and prescribed gabapentin, lisinopril, oxycodone-acetaminophen as needed, docusate sodium, famotidine, dexamethasone (taper), amiodarone, and metoprolol. He was advised to keep the incision site clean and dry, monitor for signs of infection or neurological changes, and follow up with neurosurgery and cardiology as scheduled.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns regarding their brain tumor and requested guidance on symptoms to monitor. They reported no new headaches, vision problems, weakness, changes in balance, speech, memory, energy levels, or difficulties with walking, coordination, or daily activities; all symptoms remain stable and unchanged. The patient is not currently taking any medications for the tumor and is undergoing regular monitoring with follow-up visits every several months. No physical findings or new neurological deficits were described during the visit. The doctor assessed the situation as stable, with no concerning new symptoms related to the brain tumor at this time. The doctor advised continued regular follow-up visits and imaging, and recommended watching for sudden changes in strength, sensation, confusion, movement, or speech. The patient was encouraged to report any new or unusual symptoms promptly and reassured that most changes tend to be gradual. No additional concerns were raised by the patient during the visit.
+The patient is an adult presenting for follow-up and discussion regarding a known brain tumor. The patient reports no new symptoms, including no headaches, vision problems, weakness, changes in balance, speech, memory, energy, or coordination. There are no difficulties with daily activities or self-care, and the patient’s condition appears stable. The patient is not currently on any medications or active treatments for the brain tumor; management consists of regular monitoring with follow-up visits every several months. The documented diagnosis is a brain tumor under surveillance. The physician emphasized the importance of monitoring for new symptoms such as sudden weakness, confusion, or changes in movement or speech, and advised prompt reporting of any concerning changes. The patient was reassured about the stability of their condition and encouraged to continue regular check-ups and symptom awareness. No additional concerns were raised during the visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.937
-- **Similarity Label**: N/A
+- **STS Score**: 0.444
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 141 words
+
 
 ## Processing Information
 

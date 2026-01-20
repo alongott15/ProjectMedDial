@@ -96,3 +96,21 @@ If your symptoms worsen—such as developing chest pain, difficulty breathing at
 ## Processing Information
 
 - **Processing Time**: 418.5s
+
+## EHR Summary
+
+The patient is a 47-year-old man presenting with shortness of breath on exertion. He has a history of severe (4+) aortic regurgitation following strep viridans endocarditis, previously treated with six weeks of Penicillin, and reports no acute distress at admission. His relevant history includes alcohol abuse, depression, elevated liver function tests, and an allergy to Penicillin (hives). The documented diagnosis is severe aortic insufficiency secondary to prior endocarditis. He underwent preoperative cardiac catheterization (showing no coronary disease) and subsequently had an aortic valve replacement with a #21 pericardial valve via a minimally invasive approach. The postoperative course was uncomplicated, with successful extubation, removal of chest tubes and pacemaker wires, and stable hemodynamics throughout recovery. At discharge, he was prescribed Aspirin, Lopressor, Parnate, Valium, Colace, and Percocet as needed for pain. He was advised to follow up in the wound clinic in two weeks and with his physicians at four and six weeks.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with shortness of breath on exertion as the chief complaint. Symptoms began a few days ago and include exertional dyspnea, mild anxiety, a dry cough, mild fever, and increased fatigue; symptoms improve with rest and there is no chest pain, wheezing, leg swelling, or productive cough. The patient denies chills, night sweats, or peripheral edema. Relevant history regarding chronic medical conditions, medications, or allergies is not specified. The clinical impression is a mild respiratory infection, such as viral bronchitis or a mild upper respiratory tract infection, based on the constellation of symptoms and absence of more serious features. The treatment plan includes supportive care with rest, hydration, and over-the-counter medications for fever as needed. The patient was advised to monitor for worsening symptoms such as chest pain, difficulty breathing at rest, high fever, or productive cough with colored mucus or blood, and to seek prompt care if these develop. The patient agreed to the plan and expressed understanding.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.408
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 164 words
+

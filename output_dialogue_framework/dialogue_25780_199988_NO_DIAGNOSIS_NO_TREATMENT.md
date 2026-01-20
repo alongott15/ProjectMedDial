@@ -97,16 +97,23 @@ Do you have any questions about which foods or drinks might help, or anything el
 
 ## EHR Summary
 
-The patient is a 74-year-old male presenting for curative resection of rectal adenocarcinoma following evaluation for rectal bleeding. He reported rectal bleeding beginning several months prior, and colonoscopy revealed an ulcerative rectal lesion, which was biopsied and confirmed as moderately differentiated adenocarcinoma. His past medical history includes prostate cancer (treated with radiation), hypercholesterolemia, and peptic ulcer disease; he has no known drug allergies and takes Cardura and Lipitor. On initial examination, he was afebrile, with normal vital signs and unremarkable physical findings; preoperative hematocrit was 40.4. The patient underwent proctocolectomy with coloanal anastomosis and loop ileostomy without intraoperative complications. Postoperatively, he was stable and comfortable with epidural pain control, and clear liquids were started on postoperative day two. The documented diagnosis was rectal adenocarcinoma, and the treatment included surgical resection with supportive postoperative care.
+The patient is a 74-year-old male presenting for curative resection of rectal cancer after evaluation for rectal bleeding revealed a moderately differentiated adenocarcinoma. He underwent a proctocolectomy with coloanal anastomosis and loop ileostomy, with an initially stable postoperative course complicated by high ostomy output, partial small bowel obstruction, abdominal pain, distension, and an anastomotic leak. His hospital course included hypotension, increased white blood cell count, sepsis, and decreased oxygen saturation, requiring ICU transfer, intravenous fluids, broad-spectrum antibiotics, TPN, tube feeds, and percutaneous drainage of intra-abdominal fluid collections. Relevant history includes prostate cancer (treated with radiation), hypercholesterolemia, and peptic ulcer disease; he has no known drug allergies and takes Cardura and Lipitor. The documented diagnoses were rectal cancer, status post proctocolectomy with coloanal anastomosis and loop ileostomy, resolved partial small bowel obstruction, resolved postoperative leak, hyperlipidemia, and history of prostate cancer. Treatment included surgery, intravenous fluids, antibiotics, nutritional support (TPN and tube feeds), percutaneous drainage, and medications such as Lipitor, Heparin, Protonix, Lopressor, Imodium, Vitamin D, Zinc Sulfate, and Calcium Carbonate. At discharge, the patient was stable, afebrile, tolerating oral intake, and meeting nutritional needs. He was discharged in good condition to a rehabilitation facility with follow-up arranged with colorectal surgery and urology.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about high output from their ileostomy. Over the past few days, the ileostomy output has been higher than usual and more liquid in consistency, requiring the patient to empty the pouch much more frequently; however, there has been no skin irritation around the stoma, and energy levels remain unchanged. The patient reported no abdominal pain, cramping, fever, or signs of dehydration, and has been able to maintain adequate fluid intake. No specific foods or drinks were identified as triggers for the increased output, and occasional formed stool was noted mixed with the liquid output. On examination, there were no concerning symptoms such as dehydration or infection. The doctor assessed this as a likely temporary increase in ileostomy output, possibly related to minor gut irritation or changes in gut motility, with reassuring signs due to the absence of dehydration and other symptoms. The treatment plan included continuing to focus on hydration with fluids containing salt and sugar (such as oral rehydration solutions or diluted juice with salt), trying foods that thicken stool (like bananas, rice, or applesauce), and monitoring for any new symptoms such as dehydration, pain, or fever that would warrant further evaluation.
+The patient is an adult presenting with increased ileostomy output as the chief complaint. Over the past few days, the patient has experienced higher and more liquid ileostomy output than usual, requiring more frequent pouch emptying, but denies abdominal pain, cramping, fever, or signs of dehydration. The patient reports maintaining adequate fluid intake and has not identified any dietary triggers; energy levels and daily routines remain largely unaffected. There is no reported skin irritation around the stoma, and occasional formed stool is still observed.
+
+The clinical impression is a temporary increase in ileostomy output, likely related to minor gut irritation, mild viral illness, or nonspecific changes in gut motility. The main concern discussed was the risk of dehydration. The treatment plan includes continuing to focus on adequate fluid intake (preferably fluids with salt and sugar such as oral rehydration solutions), and incorporating foods that may help thicken stool, such as bananas, rice, or applesauce. The patient was advised to monitor for signs of dehydration or new symptoms and to seek further evaluation if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.937
-- **Similarity Label**: N/A
+- **STS Score**: 0.488
+- **Model Used**: general
+- **Text1 Length**: 202 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

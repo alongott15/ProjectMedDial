@@ -89,16 +89,21 @@ Would you be able to monitor your pulse or use a home blood pressure monitor dur
 
 ## EHR Summary
 
-The patient is an 84-year-old male presenting with occasional lightheadedness. He has a history of mitral valve replacement 13 years ago, heart failure, acute rheumatic fever as a child, and hypertension, and is on Inderal, Coumadin, Digoxin, and Lasix at home with no known drug allergies. Echocardiogram revealed aortic valve stenosis with an AV gradient of 28 mmHg and valve area of 0.8 cm². Physical exam was notable for a cardiac murmur, and he was off Coumadin in preparation for surgery. The documented diagnosis was aortic stenosis, for which he underwent aortic valve replacement with a #21 Carbomedics Top Hat prosthesis via redo sternotomy. Postoperatively, he was extubated without difficulty, briefly required pressors, and was managed for chronic atrial fibrillation with anticoagulation and increased Lopressor to control heart rate. At discharge, his medications included Coumadin titrated to INR.
+The patient is an 84-year-old male presenting with occasional lightheadedness. He has a history of mitral valve replacement 13 years ago, heart failure, acute rheumatic fever as a child, hypertension, and chronic atrial fibrillation. Recent echocardiogram showed aortic valve stenosis with an AV gradient of 28 mmHg and valve area of 0.8 cm², prompting referral for surgical intervention. On admission, a heart murmur was noted and he was taken off Coumadin in preparation for surgery. The documented diagnosis was aortic stenosis, for which he underwent aortic valve replacement with a #21 Carbomedics Top Hat prosthesis via redo sternotomy. Postoperatively, he was managed in the ICU, extubated without difficulty, weaned off pressors, and anticoagulation was restarted once INR was therapeutic; his chronic atrial fibrillation persisted with elevated heart rates managed by increasing Lopressor. Discharge medications included Coumadin titrated to INR, Lopressor 25 mg b.i.d., aspirin 325 mg b.i.d., Lasix with potassium supplementation, Colace, Tums, Percocet as needed, bisacodyl suppositories as needed, and insulin sliding scale for diabetes. He is being discharged to rehabilitation with follow-up arranged and ongoing anticoagulation management by his primary care provider and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with episodes of a fast heartbeat, reporting heart rates up to 150–160 beats per minute over the past few days. The tachycardia occurs randomly without clear triggers such as activity or stress, lasts several minutes, and has remained consistent in frequency since onset. The patient denied associated symptoms including chest discomfort, lightheadedness, shortness of breath, feeling faint, or post-episode fatigue, and described the rhythm as steady rather than irregular or fluttering. No relevant medical history, medications, or allergies were mentioned during the encounter. On assessment, the doctor noted the absence of concerning symptoms and suggested the episodes may be due to supraventricular tachycardia (SVT) or another benign arrhythmia, but emphasized the need to rule out underlying causes given the high heart rate and new onset. The doctor recommended tracking the timing and duration of episodes, monitoring pulse with a home blood pressure monitor during events, and seeking immediate care if new symptoms such as chest pain, faintness, or prolonged tachycardia occur. The patient agreed to monitor and record episodes as advised.
+The patient is an adult presenting with episodes of a rapid heartbeat as the chief complaint. The patient reports sudden onset of tachycardia, with heart rates up to 150–160 beats per minute, occurring randomly over the past few days without identifiable triggers. Each episode lasts several minutes, occurs with a steady rhythm (not irregular or fluttering), and is not associated with chest discomfort, lightheadedness, dyspnea, or post-episode fatigue. There is no change in frequency since onset, and energy levels remain stable. Relevant medical history, medications, and allergies are not specified. The clinical impression is that these episodes may represent supraventricular tachycardia (SVT) or another benign heart rhythm disturbance, given the absence of concerning symptoms. The treatment plan includes monitoring and documenting the timing and duration of episodes, checking pulse or blood pressure during events, and seeking immediate care if new symptoms such as chest pain, syncope, or prolonged tachycardia occur. The patient was advised to report any changes in symptom pattern or severity.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.405
+- **Model Used**: general
+- **Text1 Length**: 186 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ Is there any particular area of your health you’re most curious about, or woul
 
 ## EHR Summary
 
-The patient is a 72-year-old male presenting for catheterization with a history of coronary artery disease (status post CABG and stenting), diabetes mellitus, cervical disease, and chronic narcotic use. He was admitted for management of congestive heart failure after presenting with decreased mental status, acute renal failure (creatinine 1.8), shortness of breath, and dyspnea on exertion. He had been receiving OxyContin for chronic pain and was initially treated with Narcan. Physical findings included oxygen desaturation to 82%, mild congestive heart failure on chest x-ray, and elevated troponin (0.26). Cardiac catheterization revealed elevated pulmonary pressures (mean pulmonary capillary wedge 37%, PA pressure 58/26), severe pulmonary hypertension, and a 40% distal lesion in the left main coronary artery. The documented diagnoses were congestive heart failure and severe pulmonary hypertension. Treatment included diuresis with IV Lasix, Nitroglycerin drip, Nutracort, Ceftriaxone for bronchitis, and supportive care for oxygenation.
+The patient is a 72-year-old male presenting for catheterization and management of congestive heart failure. He experienced decreased mental status, acute renal failure (creatinine 1.8), shortness of breath, dyspnea on exertion, and paroxysmal nocturnal dyspnea; oxygen saturation dropped to 82% during hospitalization. His past medical history includes coronary artery disease (status post CABG and PTCA/stenting), diabetes mellitus, chronic cervical stenosis (status post fusion), narcotic dependence, depression, glaucoma, and chronic pain; allergies include bee sting, Lipitor, and Neurontin. The documented diagnoses were congestive heart failure, coronary artery disease, diabetes mellitus, chronic cervical stenosis, chronic narcotic dependence, depression, and glaucoma. Cardiac catheterization revealed severe coronary artery disease with multiple occlusions and elevated pulmonary pressures; chest imaging showed mild congestive heart failure and bilateral pleural effusions. Treatment included IV Lasix with significant diuresis, Nitroglycerin drip, Nutracort, initiation and titration of Captopril, Imdur, metoprolol, acetazolamide, sliding scale insulin, Solu-Medrol inhaler, albuterol as needed, methadone for pain, and bowel regimen for constipation. The patient was placed on a cardiac-diabetic diet and received physical therapy evaluation for rehabilitation. He was discharged in good condition with follow-up arranged for medication optimization and monitoring of CT findings.
+
 
 ## Dialogue Summary
 
-The patient presented with no specific chief complaint and reported no current symptoms. They denied any recent changes in energy, sleep, appetite, physical activity, or medication use, and stated they had not experienced headaches, joint stiffness, coughs, or other new discomforts. The patient also reported no changes in mood or motivation and confirmed they were able to perform all usual activities without limitation. No relevant medical history, medications, or allergies were mentioned during the visit. There were no abnormal clinical findings described by the patient or noted by the doctor. The doctor assessed that the patient is in good overall health with stable daily functioning and no new symptoms. The doctor recommended routine preventive care, including blood pressure checks, cholesterol and diabetes screening, age-appropriate cancer screenings (such as colonoscopy), and vaccines like the annual flu shot and updated pneumonia or shingles vaccines. The doctor offered to review which screenings might be due and to make a plan for follow-up based on the patient's age and preventive care guidelines.
+The patient presented for a routine visit without any specific chief complaint. They reported no current symptoms, including no changes in energy, sleep, appetite, physical activity, or medication use. The patient denied recent headaches, joint stiffness, cough, or limitations in daily activities and described their mood and motivation as stable. There is no relevant medical history, medication changes, or allergies documented in this encounter. No diagnosis was made during the visit, as the patient is asymptomatic and functioning well. The physician emphasized the importance of routine preventive care, including screenings for blood pressure, cholesterol, diabetes, and age-appropriate cancer screenings (such as colonoscopy), as well as vaccinations like the annual flu shot and updated pneumonia or shingles vaccines. The patient expressed interest in guidance regarding which screenings are recommended for their age. The plan is to review and update routine preventive care and screenings as appropriate.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.932
-- **Similarity Label**: N/A
+- **STS Score**: 0.436
+- **Model Used**: general
+- **Text1 Length**: 189 words
+- **Text2 Length**: 145 words
+
 
 ## Processing Information
 

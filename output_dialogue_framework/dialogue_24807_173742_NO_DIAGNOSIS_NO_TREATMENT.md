@@ -87,16 +87,21 @@ Let me know if you have any questions about what I've shared or if you notice an
 
 ## EHR Summary
 
-The patient is a 40-year-old female presenting with recurrent aspiration pneumonia and hypotension. She was found unresponsive with agonal respirations and hypoxia (oxygen saturations in the 80s) after eating popcorn, which led to airway obstruction by corn kernels. Her past medical history includes C3-C4 quadriplegia, recurrent aspiration pneumonias (including MRSA-positive sputum), adrenal insufficiency, chronic pain, anxiety/depression, chronic anemia, and decubitus ulcers colonized by Pseudomonas. She has allergies to penicillin and sulfa. On examination and intervention, she was intubated for rigid bronchoscopy, during which popcorn fragments were removed from the left lower lobe and copious white secretions were noted bilaterally in the lungs. The documented diagnosis was recurrent aspiration pneumonia secondary to foreign body aspiration. Treatment included intubation, bronchoscopy for foreign body removal, and supportive care.
+The patient is a 40-year-old female presenting with recurrent aspiration pneumonia and hypotension. She was found unresponsive with agonal respirations and hypoxia (oxygen saturation in the 80s) after eating popcorn, requiring suctioning and removal of corn kernels from her airway. She subsequently underwent intubation and rigid bronchoscopy, during which popcorn fragments and copious secretions were removed from the lungs. Her past medical history includes C3-C4 quadriplegia, chronic pain, anxiety/depression, adrenal insufficiency, recurrent aspiration pneumonia (including MRSA), and decubitus ulcers colonized by Pseudomonas. She has allergies to penicillin and sulfa. The documented diagnosis was recurrent aspiration pneumonia with airway obstruction secondary to foreign body aspiration. Treatment included intubation, bronchoscopy for foreign body removal, and supportive care. She was recently treated with a fourteen-day course of vancomycin for prior aspiration pneumonia.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about changes in mental state, specifically increased confusion and difficulty concentrating. Symptoms began approximately two days ago and include persistent lower back pain described as a constant ache, feeling unusually cold with a measured body temperature of 91.0°F, shivering, and some shaking when cold; the patient also reported increased drowsiness and disorientation but denied slurred speech, limb weakness, sweating, or changes in breathing. No recent illnesses, injuries, medication use, allergies, or exposure to cold environments were reported. The patient noted that these symptoms have made daily activities and routine tasks more difficult. The doctor observed the combination of low body temperature, mental cloudiness, and persistent pain, and explained that these findings could indicate an underlying issue with body regulation, such as hormonal imbalance or mild infection. The doctor recommended seeking medical attention today for further evaluation, including vital signs and basic blood tests, and advised the patient to keep warm and monitor for worsening symptoms such as increased confusion or difficulty waking. The patient acknowledged the advice and agreed to seek care promptly.
+The patient is an adult presenting with concerns about changes in mental state. Over the past couple of days, they have experienced increased confusion, difficulty concentrating, and persistent lower back pain described as a constant ache. Additional symptoms include feeling unusually cold, shivering, and a documented low body temperature of 91.0°F, with associated mild drowsiness and disorientation but no slurred speech or motor deficits. The patient denies recent illness, injury, or exposure to cold environments. There is no relevant medical history, medications, or allergies specified. The clinical impression is that the combination of hypothermia and altered mental status without clear external cause may indicate an underlying issue such as hormonal imbalance or infection. The doctor advised urgent medical evaluation, including vital signs assessment and blood tests, and recommended the patient keep warm and monitor for worsening symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.926
-- **Similarity Label**: N/A
+- **STS Score**: 0.273
+- **Model Used**: general
+- **Text1 Length**: 129 words
+- **Text2 Length**: 137 words
+
 
 ## Processing Information
 

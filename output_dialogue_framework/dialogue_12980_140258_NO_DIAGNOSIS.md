@@ -96,3 +96,21 @@ For now, I recommend stopping aspirin unless specifically directed otherwise by 
 ## Processing Information
 
 - **Processing Time**: 392.8s
+
+## EHR Summary
+
+The patient is a 300-year-old female presenting with melena and a syncopal episode, accompanied by decreasing hematocrit. She was tachycardic, hypotensive, and hypoxic on admission, with physical exam notable for jugular venous distention, bilateral crackles, and guaiac-positive melanotic stool. Her past medical history includes recent hip fracture (status post open reduction/internal fixation), congestive heart failure (ejection fraction 45%), and dementia; she was taking coumadin, aspirin, metoprolol, and other medications, with no known drug allergies. Laboratory findings revealed significant anemia (hematocrit 24.3), elevated INR (5.6), and elevated BUN. The documented diagnoses were upper gastrointestinal bleed, aspiration pneumonia, acute myocardial infarction (demand ischemia), and acute decompensated heart failure with reduced ejection fraction. Initial treatment included transfusions of fresh frozen plasma and packed red blood cells, intravenous vitamin K, proton pump inhibitor, furosemide, and empiric antibiotics (clindamycin and ceftriaxone). Due to worsening clinical status and poor prognosis, the care plan was transitioned to comfort measures only. The patient received morphine and Ativan for symptom relief and expired on [2104-6-8] with family present.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with the chief complaint of passing dark, black, tarry stools (melena) and associated discomfort. Symptoms began a few days ago and include consistently black, tarry stools, chest pain that is constant throughout the day, episodes of syncope (passing out), low energy that has been worsening, rapid heartbeat, and recent nosebleeds. The patient reports taking enteric-coated aspirin and has a documented drop in hematocrit; there is no change in appetite and no clear triggers for the symptoms. Additional symptoms mentioned include neck swelling, dyspnea (difficulty breathing), and crackling lung sounds on examination. The clinical impression provided by the doctor is gastrointestinal bleeding, likely related to aspirin use, with signs of possible significant blood loss. The treatment plan includes stopping aspirin unless otherwise directed, maintaining hydration, and close monitoring for worsening symptoms such as further drops in energy, persistent dizziness, or new bleeding. The patient was advised to seek prompt medical attention if these warning signs occur and to follow up soon for further evaluation and management.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.719
+- **Model Used**: general
+- **Text1 Length**: 169 words
+- **Text2 Length**: 171 words
+

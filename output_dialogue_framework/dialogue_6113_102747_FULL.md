@@ -89,16 +89,21 @@ Let me know if you have any other questions or concerns about this, or if thereâ
 
 ## EHR Summary
 
-The patient is a 67-year-old female presenting with ongoing drainage from her sternum. She has a history of aortic valve replacement and coronary artery bypass grafting with prior sternal dehiscence and bilateral pectoral flap repair, and previously required removal of an extruding suture and superficial pledgets due to sternal wound drainage. Her past medical history includes congestive heart failure, cholelithiasis, headaches, osteoarthritis, uterine fibroids, psoriasis, and obesity; current medications are metoprolol, aspirin, lisinopril, furosemide, and Lipitor. On examination, she was obese with a well-healed sternum except for a 1 cm opening at the superior aspect and plus one bilateral pedal edema; vital signs were stable. The documented clinical impression is persistent sternal wound drainage following prior cardiac surgery and wound complications. The treatment plan during this admission is not specified in the note.
+The patient is a 67-year-old female presenting with ongoing drainage from her sternum. She reported persistent sternal wound drainage following prior aortic valve replacement, coronary artery bypass grafting, and pectoral flap repair, with a 1 cm opening at the superior aspect of the sternum noted on exam. Her past medical history includes congestive heart failure, obesity, cholelithiasis, osteoarthritis, uterine fibroids, psoriasis, and headaches; she takes metoprolol, aspirin, lisinopril, furosemide, and Lipitor, with no known drug or dietary allergies. The documented diagnosis was draining sinus status post aortic valve replacement and coronary artery bypass graft with pectoral flaps, complicated by sternal wound infection with Staphylococcus aureus. She underwent deep sternal exploration and removal of infected pledgets. Treatment included intravenous antibiotics followed by a two-week course of oral Linezolid 600 mg twice daily, continuation of cardiac medications, and wound management with a JP drain. She was discharged home in stable condition with visiting nurse follow-up and scheduled outpatient appointments for wound and drain assessment.
+
 
 ## Dialogue Summary
 
-The patient presented with ongoing drainage from the sternum. The drainage has been present for an unspecified duration, is clear to slightly yellow, thin in consistency, and odorless; the patient reported no associated redness, swelling, warmth, fever, chills, or systemic symptoms, and the amount of drainage has remained stable over time. The patient described mild discomfort but no significant impact on daily activities and has been maintaining hygiene of the area. Relevant history includes prior aortic valve replacement, two coronary artery bypass grafts, and a pectoral flap due to previous wound complications. No physical findings of infection were noted by the patient. The doctor assessed that the persistent drainage is likely related to slow healing or a superficial wound following complex cardiac and reconstructive surgery, with no current evidence of deep or active infection. The doctor recommended continued gentle hygiene with mild soap and water, use of clean dressings as needed, and monitoring for any changes such as increased drainage, new redness, swelling, pain, or fever. If symptoms worsen or persist for several more weeks, in-person evaluation or referral to a wound care specialist was advised.
+The patient is an adult presenting with ongoing drainage from the sternum. The drainage is described as clear to slightly yellow, thin, and odorless, with no associated redness, swelling, warmth, or systemic symptoms such as fever or malaise. The amount of drainage has remained stable over time and does not significantly impact daily activities, though it causes some discomfort. Relevant history includes prior aortic valve replacement, two coronary artery bypass grafts, and a pectoral flap for wound complications in the same area. The clinical impression is that the drainage is likely due to slow healing or a persistent superficial wound following complex cardiac and reconstructive surgeries, without evidence of active infection. The patient was advised to continue gentle hygiene with mild soap and water, keep the area dry, and use a clean dressing if needed. They were instructed to monitor for increased drainage, new redness, swelling, pain, or fever, and to seek prompt medical attention if these occur. Referral to a wound care specialist was suggested if the drainage persists or worsens.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.975
-- **Similarity Label**: N/A
+- **STS Score**: 0.653
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

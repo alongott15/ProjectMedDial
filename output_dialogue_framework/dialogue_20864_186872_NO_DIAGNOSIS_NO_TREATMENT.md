@@ -87,16 +87,23 @@ If you ever notice new symptoms like trouble knowing where you are, seeing thing
 
 ## EHR Summary
 
-The patient is an 81-year-old female admitted for surgical management of a bowel condition. She underwent exploratory laparotomy, fistula takedown, small bowel resection with ileocolic anastomosis, and lysis of adhesions on hospital day five. Postoperatively, she experienced sun-downing associated with narcotic use, which resolved after discontinuation of narcotics and the presence of an overnight sitter. Her pain was managed initially with a patient-controlled analgesia pump and then transitioned to oral medications. She was maintained on ceftriaxone and Diflucan postoperatively, and her diet was advanced as bowel function returned. The patient’s past urological procedures prompted a urology consult during her stay. At discharge, she was stable and transferred to a rehabilitation center with a regimen including vancomycin, Diflucan, ceftriaxone, Elavil, insulin sliding scale, heparin, Synthroid, Protonix, Lopressor, and Tylenol as needed. Follow-up appointments were arranged with surgery and urology.
+The patient is an 81-year-old female admitted for surgical management of a gastrointestinal issue. She underwent exploratory laparotomy, fistula takedown, small bowel resection with ileocolic anastomosis, and lysis of adhesions on hospital day five. Postoperatively, she experienced sun-downing associated with narcotic use, which resolved after discontinuation of narcotics and the presence of an overnight sitter; her pain was managed with a patient-controlled analgesia pump and then oral medications. Her diet was advanced to regular, bowel function returned, and tube feeds were started. Relevant history includes past urological procedures and ongoing urology consultation. The documented postoperative complications were limited to sun-downing with narcotics. She was maintained on ceftriaxone and Diflucan postoperatively, and discharge medications included vancomycin, Diflucan, ceftriaxone, Elavil, insulin sliding scale, heparin, Synthroid, Protonix, Lopressor, and Tylenol as needed. The patient was discharged in stable condition to a rehabilitation center with follow-up appointments scheduled.
+
 
 ## Dialogue Summary
 
-The patient presented with lower body pain causing significant discomfort. The pain is described as achy, worsens in the evenings, and has remained about the same over the past few weeks, with some increase in severity at night; taking it easy provides partial relief but does not resolve the pain. The discomfort interferes with daily activities such as walking and getting dressed, requiring more effort. The patient reported experiencing confusion and mental fogginess in the evenings, particularly after taking narcotic pain medication, but denied trouble recognizing people or places and described the confusion as mild and predictable. No additional medical history, medications, or allergies were specified beyond the use of narcotic pain medicine. The doctor noted that the evening confusion is likely a side effect of narcotic pain medication, especially in older adults, and is not suggestive of a more serious condition given the absence of disorientation or hallucinations. The doctor recommended considering an adjustment to the pain regimen, such as lowering the dose or changing the timing, and suggested keeping evening routines simple and well-lit to help with orientation. The patient expressed interest in discussing changes to their pain medication to reduce confusion.
+The patient is an adult presenting with the chief complaint of pain, primarily in the lower body, described as achy and worsening in the evenings. The pain has been persistent, possibly slightly worse in the evenings, and is exacerbated by activity such as walking or getting dressed, though rest provides some relief. The patient reports that taking narcotic pain medication in the evening leads to mild confusion, described as feeling "foggy" or less mentally sharp, without disorientation or hallucinations. There is no history of difficulty recognizing people or places.
+
+The clinical impression is that the evening confusion is likely a side effect of narcotic pain medication rather than a more serious cognitive issue. The physician advised considering adjustments to the pain regimen, such as lowering the dose or changing the timing of medication, to reduce cognitive side effects. Additional recommendations included keeping evening routines simple and well-lit to aid orientation. The patient was instructed to report any new or worsening symptoms such as disorientation or hallucinations.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.933
-- **Similarity Label**: N/A
+- **STS Score**: 0.521
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

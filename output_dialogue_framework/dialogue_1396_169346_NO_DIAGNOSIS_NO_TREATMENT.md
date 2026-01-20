@@ -87,16 +87,21 @@ Otherwise, staying well-hydrated and resting are helpful. Let me know if you hav
 
 ## EHR Summary
 
-The patient is an 84-year-old male presenting with substernal chest pain radiating to the left shoulder. He denied palpitations or shortness of breath. His history includes hypertension, hypercholesterolemia, angina for six years, and glaucoma, and he was taking multiple cardiovascular and ophthalmic medications on admission. Electrocardiogram showed diffuse ST depression in the precordial leads, and cardiac enzymes (CK, MB, troponin) were elevated; cardiac catheterization revealed significant left main and right coronary artery disease with an ejection fraction of 40%. The documented diagnosis was acute coronary syndrome due to severe multivessel coronary artery disease. He underwent coronary artery bypass grafting (CABG) times three with intra-aortic balloon pump support. Postoperatively, his course was complicated by respiratory failure requiring prolonged intubation and episodes of confusion after transfer to the floor. Treatment included surgical revascularization, supportive care, and management of postoperative complications.
+The patient is an 84-year-old male presenting with substernal chest pain radiating to the left shoulder. He denied palpitations or dyspnea at onset. His history includes hypertension, hypercholesterolemia, angina, and glaucoma, and he was on multiple cardiac and ocular medications. Workup revealed ECG changes, elevated cardiac enzymes, and significant coronary artery disease with reduced ejection fraction (40%). The documented diagnosis was acute coronary syndrome due to severe multivessel coronary artery disease. He underwent coronary artery bypass grafting (CABG) times three, with postoperative complications including respiratory failure requiring prolonged intubation, delirium with an unwitnessed fall, Clostridium difficile infection, and new-onset atrial fibrillation. Treatments included intra-aortic balloon pump support, antibiotics (Flagyl for C. difficile), amiodarone for atrial fibrillation, and supportive care; a Foley catheter was placed and planned for removal at rehabilitation. Upon discharge, he was stable, in normal sinus rhythm, and instructed to follow up with his surgeon and have the Foley catheter removed at the rehabilitation center.
+
 
 ## Dialogue Summary
 
-The patient presented with fever up to 101°F for a few days. Symptoms included measured fever, pressure-like discomfort in the left chest that worsens with deep breaths but does not radiate, mild increased shortness of breath with exertion, and general fatigue; there were no chills, sweating, shaking, cough, or chest pain radiating to the arm, neck, or back. No relevant past medical history, medications, or allergies were mentioned. On review, the doctor noted the chest discomfort was pleuritic in nature and associated with mild dyspnea. The assessment was that symptoms could be consistent with a common viral infection but that chest discomfort and increased shortness of breath warranted caution for possible pleuritis or more serious conditions such as lung infection or cardiac issues. The doctor advised continued monitoring of temperature and symptoms, with instructions to seek prompt medical attention if shortness of breath worsens, chest discomfort becomes severe or constant, or new symptoms such as confusion, fainting, or trouble speaking develop. Supportive care with hydration and rest was also recommended. The patient expressed understanding and agreed to monitor symptoms as advised.
+The patient presents with a chief complaint of fever, measured up to 101°F, that began a few days ago. Key symptoms include pressure-like discomfort in the left chest that worsens with deep breaths and mild dyspnea (shortness of breath) requiring more frequent rest during activity; there is no cough, chills, sweating, or radiation of chest discomfort. The patient has no documented history, medications, or allergies mentioned in the dialogue. The clinical impression is that these symptoms may be consistent with a mild viral respiratory infection, with possible pleuritic involvement, but the provider expresses caution due to the presence of chest discomfort and increased shortness of breath. No definitive diagnosis is documented. The treatment plan includes monitoring temperature and symptoms, seeking prompt medical attention if shortness of breath worsens, chest discomfort becomes severe or constant, or new symptoms such as confusion or fainting develop. Supportive care with hydration and rest is also recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.384
+- **Model Used**: general
+- **Text1 Length**: 157 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

@@ -89,16 +89,21 @@ For now, it's wise to avoid strenuous activity until you've been checked out. Do
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with shortness of breath. He reported worsening dyspnea, fatigue, malaise, and inability to achieve a complete breath, which had progressed over the past year following complications from a laparoscopic cholecystectomy and subsequent Roux-en-Y reconstruction. His history is significant for diabetes mellitus, hypertension, chronic anemia, diabetic neuropathy, and prior thoracic procedures for pleural effusions. On workup, he was found to have bilateral fibrothoraxes (worse on the right), mediastinal adenopathy, and a ground glass appearance in both lungs on CT scan. The documented diagnosis includes chronic pleural effusions and bilateral fibrothoraxes. Admission medications included ciprofloxacin, though further details of the treatment plan are not specified in the note.
+The patient is a 62-year-old male presenting with shortness of breath. He reported worsening dyspnea, fatigue, malaise, and inability to achieve a complete breath, with symptoms progressing over the past year and associated with chronic pleural effusions and recent increased shortness of breath. His relevant history includes diabetes mellitus, hypertension, chronic anemia, prior bile duct injury with Roux-en-Y reconstruction, and multiple thoracenteses for pleural effusions; he is allergic to Vicodin. On admission, physical exam revealed bibasilar crackles (worse on the right), and imaging showed bilateral fibrothorax and mediastinal adenopathy. The documented diagnoses were fibrothorax, diabetes mellitus, pneumonia, prostatitis, and anemia. Treatment included diuresis with Lasix, BIPAP for ventilation, right lung decortication surgery, antibiotics (Levofloxacin), pain control, tracheostomy, and continued ventilatory support with CPAP. The patient was discharged in stable condition with a comprehensive medication regimen and instructions for follow-up with thoracic surgery, primary care, pulmonology, and pending cardiology recommendations.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain. The chest pain began a few days ago, lasts a few minutes per episode, and is described as a tightness or pressure rated 5 out of 10 in intensity. It occurs primarily with activity, is relieved by stopping activity, and does not improve with deep breaths; the patient has had to reduce activity as a result. No associated symptoms such as sweating, shortness of breath, lightheadedness, palpitations, leg swelling, cough, or trouble lying flat were reported. No relevant medical history, medications, or allergies were mentioned. The doctor assessed that the pressure-like chest discomfort with exertion may be related to cardiac blood flow and warrants prompt evaluation to rule out underlying heart concerns. The doctor recommended avoiding strenuous activity and advised a prompt evaluation with an exam and possible tests (EKG and bloodwork), with instructions to seek immediate care if symptoms worsen or new symptoms develop.
+The patient is an adult presenting with chest pain as the chief complaint. The chest discomfort began a few days ago, is described as a pressure-like tightness rated 5 out of 10 in intensity, lasts a few minutes, and is triggered by physical activity but relieved by rest; it does not occur at rest or after eating. The patient denies associated symptoms such as dyspnea, diaphoresis, palpitations, lightheadedness, peripheral edema, cough, or orthopnea. The pain has led to decreased activity levels, as the patient must stop exertion when symptoms occur. Relevant medical history, medications, and allergies are not specified. The clinical impression is exertional chest discomfort possibly related to decreased cardiac blood flow during activity. The treatment plan includes prompt evaluation with physical examination and basic cardiac testing (such as EKG and bloodwork), avoidance of strenuous activity until assessment, and instructions to seek immediate care if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.427
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

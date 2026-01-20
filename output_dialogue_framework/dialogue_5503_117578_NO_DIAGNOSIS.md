@@ -87,16 +87,21 @@ Let me know if you have any questions or concerns about this plan.
 
 ## EHR Summary
 
-The patient is a 54-year-old male presenting with exertional substernal chest pain. His symptoms included angina on exertion, which was relieved by nitroglycerin, and he had a recent positive stress test. Relevant history includes coronary artery disease with prior non-Q-wave myocardial infarction, hypercholesterolemia, hypertension, and a positive family history of cardiac disease; he has no known drug allergies and was taking atenolol, aspirin, Lipitor, and nitroglycerin on admission. On physical examination, his blood pressure was 100/70 mmHg and heart rate was 60 bpm, with no acute distress noted. The documented diagnosis is three-vessel coronary artery disease. The treatment plan included referral for coronary artery bypass grafting after initial outpatient medical therapy failed to control his symptoms.
+The patient is a 54-year-old male presenting with exertional substernal chest pain (angina) as the chief complaint. His symptoms included chest pain on exertion relieved by nitroglycerin, with a recent positive stress test and prior admission for chest pressure to rule out myocardial infarction. Relevant history includes coronary artery disease with 3-vessel involvement, hypercholesterolemia, hypertension, positive family history, and a prior non-Q-wave myocardial infarction; he was taking atenolol, aspirin, Lipitor, and nitroglycerin on admission and has no known drug allergies. The documented diagnosis was unstable angina requiring surgical intervention. He underwent a 4-vessel coronary artery bypass graft without major intraoperative complications. Postoperatively, his course was notable for high pain requirements and a brief episode of presumed pneumonia, which responded to empiric antibiotics (Levaquin and Flagyl). At discharge, he was stable and afebrile, with instructions to continue medications including Lopressor, Lasix, K-Dur, Colace, oxycodone, Zantac, aspirin, Tylenol, Levaquin, and Flagyl. Follow-up was arranged with his surgeon in one month and wound care clinic in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain occurring during physical activity. The pain was described as a pressure in the center of the chest, rated 7 out of 10 in severity during exertion, and relieved by rest and nitroglycerin; changing position did not affect the discomfort. Symptoms have been present for a few days and are accompanied by a fever of 101.5°F, but there were no associated shortness of breath, sweating, lightheadedness, cough, sore throat, or other signs of infection. The patient reported a history of similar chest pain with activity, though this episode is more severe and includes fever. On assessment, the doctor noted the pattern was consistent with angina, with increased intensity and new fever making the case more complex. The doctor recommended in-person evaluation soon due to worsening symptoms and nitroglycerin use for relief. The patient was advised to avoid strenuous activity, monitor for new symptoms such as persistent pain at rest, fainting, or trouble breathing, and seek immediate attention if these occur.
+The patient is an adult presenting with chest pain as the chief complaint. The pain is described as a central chest pressure, rated 7 out of 10 during physical activity, and is relieved by rest and sometimes by nitroglycerin; it has been present for several days. The patient also reports a fever of 101.5°F but denies shortness of breath, sweating, lightheadedness, cough, sore throat, or other infection symptoms. There is a history of similar exertional chest pain in the past, but this episode is more severe and accompanied by fever. The documented clinical impression is angina, given the exertional nature of the chest pressure and relief with rest or nitroglycerin. The physician notes that the increased severity and new fever make the case more complex. The treatment plan includes recommending in-person evaluation soon, avoiding strenuous activity, and monitoring for new symptoms such as persistent pain at rest, fainting, or dyspnea that would require immediate attention. The patient was advised to seek prompt care if symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.665
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

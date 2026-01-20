@@ -87,16 +87,21 @@ Does anything in particular seem to trigger or worsen the pain, such as eating, 
 
 ## EHR Summary
 
-The patient is a 59-year-old female presenting with left facial pain consistent with trigeminal neuralgia. She reported chronic, severe facial pain and has a history of multiple sclerosis with associated left arm tremors, inability to write, and left leg dragging, as well as occasional constipation and a prior corneal scar on the left. Her medications included Neurontin, amitriptyline, primidone, and baclofen; she has allergies to penicillin (causing hives) and bee stings. On examination, she was well-appearing, used a cane for ambulation, and had normal motor strength in the lower extremities with brisk patellar reflexes. The documented diagnosis was chronic left facial pain status post Drez lesion. She underwent a suboccipital craniectomy and C1-C2 laminectomy with radiofrequency Drez lesioning of the left trigeminal nucleus caudalis. The treatment plan was surgical intervention for pain control.
+The patient is a 59-year-old female presenting with chronic left facial pain due to trigeminal neuralgia. Her symptoms included persistent left facial pain, with a history of multiple sclerosis manifesting as left arm tremors, inability to write, and dragging of the left leg; she also reported occasional constipation. She has a documented allergy to penicillin (causing hives) and bee stings, and was taking Neurontin, amitriptyline, primidone, and Baclofen prior to admission. The primary diagnosis was chronic left facial pain status post Drez lesion. She underwent a suboccipital craniectomy and C1-C2 laminectomy with radiofrequency Drez lesioning of the left trigeminal nucleus caudalis, after which her facial pain resolved and neurological status remained stable. Postoperatively, she experienced nausea that improved with time and had a slightly abnormal cardiac workup, for which Lopressor was increased and aspirin started. Discharge medications included aspirin, Lopressor, Tylenol, Percocet, Colace, Dulcolax, Baclofen, primidone, amitriptyline, and Neurontin. She was discharged in stable condition with follow-up appointments for neurosurgery, cardiology, staple removal, and therapy evaluation.
+
 
 ## Dialogue Summary
 
-The patient presented with left-sided facial pain, mainly around the left cheek and jaw. The pain was rated as 7 out of 10 in severity, had been present for a few days, and remained steady without improvement or worsening. There was no associated swelling, redness, warmth, numbness, or tingling, though chewing tougher foods made the pain more uncomfortable. The patient also reported left arm tremors and left leg dragging, both consistent since a prior diagnosis of multiple sclerosis, and noted difficulty with writing due to the tremors. On examination, there were no signs of infection or dental abscess, and no facial weakness or drooping was reported. The doctor assessed that nerve irritation or neuralgia related to multiple sclerosis could be contributing to the facial pain. The treatment plan included gentle self-care measures such as using a warm compress and avoiding tough foods, with instructions to report any new symptoms like facial weakness, drooping, or vision changes.
+The patient is an adult presenting with left-sided facial pain as the chief complaint. The pain is localized to the left cheek and jaw, rated 7 out of 10 in severity, has persisted for a few days, and is aggravated by eating tougher foods but not by brushing teeth or exposure to cold air. There is no associated swelling, redness, warmth, numbness, or tingling, and chewing and talking are only mildly uncomfortable. The patient has a history of multiple sclerosis with chronic left arm tremors and left leg dragging. The clinical impression is possible nerve irritation or neuralgia related to multiple sclerosis, with infection or dental abscess considered less likely due to the absence of inflammatory signs. The doctor advised gentle self-care measures such as using a warm compress and avoiding tough foods. The patient was instructed to monitor for new symptoms like facial weakness, drooping, vision changes, or worsening pain and to report these promptly.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.652
+- **Model Used**: general
+- **Text1 Length**: 166 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

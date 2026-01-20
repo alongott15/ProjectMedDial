@@ -87,16 +87,21 @@ Is there anything else you've noticed that we haven't discussed yet?
 
 ## EHR Summary
 
-The patient is a 63-year-old male presenting with lower abdominal pain. The pain had been present since Tuesday, was relieved by lying supine and taking muscle relaxants, and was associated with decreased volume of green pea stools and some flatus; there were no fevers, chills, nausea, or vomiting. His past medical history includes Crohn's colitis, multiple sclerosis with quadriplegia and neurogenic bladder, type 2 diabetes mellitus, history of DVT, BPH status post TURP, depression, and sacral decubitus colonized with VRE. On physical exam, he was alert and oriented, vital signs were stable, lungs were clear, heart was regular, and the abdomen was soft and non-tender with a functioning ostomy. Laboratory results showed mild anemia but no significant leukocytosis. The documented diagnosis was lower abdominal pain in the context of Crohn's colitis. He underwent a sigmoid colectomy with Hartmann's procedure and end colostomy. Postoperative care included monitoring and supportive management.
+The patient is a 63-year-old male presenting with lower abdominal pain. His pain had been present since Tuesday, was relieved by lying supine and taking muscle relaxants, and was associated with decreased volume of green pea stools but no fevers, chills, nausea, or vomiting. His medical history includes Crohn's colitis, multiple sclerosis with quadriplegia and neurogenic bladder, diabetes mellitus type 2, prior DVT, BPH, depression, and prior surgeries. Imaging revealed a distended colon with mesocolonic twist at the sigmoid, concerning for early sigmoid volvulus. The documented diagnosis was sigmoid volvulus. Colonoscopic decompression was unsuccessful, so he underwent sigmoid colectomy with Hartmann's procedure and end colostomy. Postoperatively, he was managed with NPO status, IV fluids, gradual diet advancement, ostomy care education, and resumption of home medications including anticoagulation; hematuria was managed with urology consultation and temporary catheterization. At discharge, he was stable, tolerating a regular diet, with pain controlled on oral medications, and was provided instructions for incision care, activity restrictions, and follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with blood in the urine noted over the past few days. The hematuria was described as a uniform discoloration without clots, and the color and amount have remained stable. The patient denied pain or burning with urination, lower abdominal or back pain, and reported no fever, chills, or night sweats. Additional symptoms included dropping oxygen levels into the high 80s, increased secretions with a poor cough, hoarseness, and shortness of breath both with activity and at rest, all beginning around the same time as the hematuria. No relevant medical history, medications, or allergies were mentioned. The doctor noted concern for possible urinary tract issues but highlighted that the combination of respiratory symptoms and hematuria could indicate a more serious underlying condition affecting the lungs or airway. The doctor recommended prompt in-person evaluation today due to low oxygen levels and advised immediate emergency care if symptoms worsen. The patient reported no other new symptoms and agreed to follow the recommendations.
+The patient presents with hematuria (blood in urine) as the chief complaint. The hematuria has been present for a few days, is described as a uniform discoloration without clots, and has not changed in severity. The patient denies dysuria, abdominal or back pain, fever, chills, or night sweats. Additional symptoms include new-onset hypoxemia (oxygen saturation dropping into the high 80s), increased respiratory secretions with a poor cough, hoarseness, and dyspnea with both activity and at rest, all starting around the same time as the hematuria. Relevant medical history, medications, and allergies are not specified. The clinical impression is that the combination of hematuria and respiratory symptoms may indicate a serious underlying condition affecting the lungs or airway, with possible but less likely urinary tract causes given the absence of pain. The treatment plan is prompt in-person evaluation today to rule out serious causes, with instructions to seek emergency care if symptoms worsen or oxygen levels drop further. No specific diagnosis was documented.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.374
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

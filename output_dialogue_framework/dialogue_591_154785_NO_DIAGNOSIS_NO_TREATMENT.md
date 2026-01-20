@@ -87,16 +87,23 @@ Let me ask—where exactly do you feel the pressure in your chest? Is it strictl
 
 ## EHR Summary
 
-The patient is a 77-year-old male presenting with chest discomfort. He reported a one-week history of sub-sternal chest pain, shortness of breath, nausea, and vomiting, with pain severe enough to awaken him from sleep on the day of admission. His past medical history includes type 2 diabetes, hypertension, and asthma; he has no known drug allergies. On admission, physical exam revealed bilateral carotid bruits, distant heart sounds, and pitting edema in the extremities. Initial workup showed ST depressions on EKG and positive cardiac enzymes, and cardiac catheterization revealed three-vessel coronary artery disease with significant stenoses (80% LM, 80% LAD, 50% LCx, 90% RCA). The documented diagnosis was multi-vessel coronary artery disease. He underwent coronary artery bypass grafting (CABGx4: LIMA to LAD, SVG to Diagonal, PDA, and PLV). Postoperative care and monitoring were provided during his hospital stay.
+The patient is a 77-year-old male presenting with chest discomfort. He reported a one-week history of sub-sternal chest pain, shortness of breath, nausea, and vomiting, with pain severe enough to awaken him from sleep; symptoms were associated with ST depressions on EKG and positive cardiac enzymes. His past medical history includes type 2 diabetes, hypertension, asthma, and chronic renal insufficiency; he has no known drug allergies. Cardiac catheterization revealed three-vessel coronary artery disease with significant stenoses, and he subsequently underwent coronary artery bypass grafting (CABG x4). The hospital course was complicated by atrial fibrillation, postoperative fluid overload, and transient worsening of renal function, all of which were managed with medications including amiodarone, diuretics, and beta blockers. The documented discharge diagnoses were coronary artery disease, insulin-dependent diabetes mellitus, hypertension, asthma, and atrial fibrillation. At discharge, he was stable with improving renal function and reduced edema. He was discharged to an extended care facility with instructions for medication adherence, activity restrictions, wound care, and follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort as the chief complaint. Symptoms included central chest pressure rated 6/10 in intensity, shortness of breath, nausea with a couple of episodes of vomiting, intermittent confusion, and irregular heartbeat during episodes; the chest pressure was not triggered by activity or eating and woke the patient from sleep, with no relief from position changes, deep breathing, or current medications. The patient reported a history of atrial fibrillation and recent weight gain of about 10 kilos since surgery, as well as swelling. Physical findings described by the patient included central chest pressure without radiation to the arm, neck, or jaw. The doctor assessed that the combination of chest pressure waking the patient from sleep, confusion, and irregular heartbeat was concerning for possible cardiac causes such as angina or reduced blood flow related to atrial fibrillation. The doctor recommended prompt medical attention to rule out serious conditions, advised avoiding physical exertion, and instructed the patient to monitor for worsening symptoms such as severe chest pain, fainting, or weakness, with instructions to call emergency services if these occurred.
+The patient is an adult presenting with chest discomfort as the chief complaint. The chest discomfort is described as a central pressure, rated 6 out of 10 in intensity, that wakes the patient from sleep and is not relieved or worsened by position changes, deep breathing, or current medications. Associated symptoms include shortness of breath, nausea with episodes of vomiting, intermittent confusion, irregular heartbeat during episodes (with a history of atrial fibrillation), and recent swelling with a weight gain of approximately 10 kilograms since surgery. The discomfort does not radiate to the arm, neck, or jaw.
+
+Relevant history includes prior atrial fibrillation and recent surgery. The clinical impression documented by the doctor is concern for cardiac causes such as arrhythmia-related symptoms or reduced cardiac blood flow (e.g., angina), with consideration of urgent etiologies. The treatment plan includes a recommendation for prompt medical evaluation to rule out serious cardiac conditions, advice to avoid physical exertion, and instructions to monitor for worsening symptoms such as increased confusion, fainting, severe chest pain, or limb weakness, with directions to seek emergency care if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.660
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 181 words
+
 
 ## Processing Information
 

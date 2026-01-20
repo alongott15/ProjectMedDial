@@ -89,16 +89,21 @@ Does that explanation make sense? Is there anything else you’re concerned abou
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with chronic left infraorbital and cheek pain, described as facial pain persisting for 3-4 years, partially relieved by Tegretol. Imaging revealed a left petrous sphenoid meningioma compressing the brainstem, but he had no neurological deficits, seizures, incontinence, or falls prior to surgery. Relevant history includes long-standing facial pain and use of Tegretol for symptom management; no medication allergies are specified. Preoperative laboratory values were within normal limits, and intraoperative and postoperative courses were stable except for a transient drop in platelet count, which was treated with one unit of platelets. Physical exam postoperatively showed a slightly unsteady gait and transient diplopia, which resolved by discharge. The documented diagnosis was status post craniotomy for excision of meningioma. Treatment included left presigmoid occipital craniotomy for tumor removal, platelet transfusion, and provision of a cane for ambulation. The patient was discharged in stable condition with arrangements for physical and occupational therapy follow-up at home.
+The patient is a 58-year-old male presenting with facial pain, specifically left infraorbital and cheek pain, persisting for 3-4 years. The pain was partially relieved by Tegretol. His medical history is notable for a left petrous sphenoid meningioma compressing the brain stem, but he had no neurological deficits, seizures, incontinence, or falls prior to surgery. The documented diagnosis was status post craniotomy for excision of meningioma. He underwent a left presigmoid occipital craniotomy for tumor removal, with an unremarkable intraoperative and stable postoperative course. Postoperatively, he experienced transient diplopia and a slightly unsteady gait, which improved with the use of a cane; he received physical and occupational therapy evaluations. He was advised not to walk unassisted and arrangements were made for home PT/OT follow-up, with his wife available to assist him at home. Discharge instructions included staple removal and follow-up appointments, with interpreter services provided for communication.
+
 
 ## Dialogue Summary
 
-The patient presented with pain on the left side of the face, primarily around the cheek and under the eye. The pain had been present for a few days, was described as a persistent dull ache rated 6 out of 10, and was most noticeable in the infraorbital area below the left eye; it did not worsen with touch or chewing and had not affected daily activities significantly. The patient denied nasal congestion, runny nose, changes in sense of smell, dizziness, or spinning sensations, but reported occasional mild unsteadiness when walking and later mentioned double vision along with the facial pain. No relevant medical history, medications, or allergies were discussed. On examination, there were no physical findings reported beyond the localized facial pain and mild imbalance. The doctor assessed that the symptoms were more likely due to nerve irritation, mild inflammation, or muscle tension, and considered sinus infection and dental causes less likely given the absence of nasal or jaw-related symptoms. The doctor advised using gentle warm compresses, staying hydrated, and resting, with instructions to seek prompt care if new symptoms such as double vision, severe headache, weakness, numbness, facial drooping, or spreading pain occurred, or if symptoms did not improve within a week.
+The patient is an adult presenting with left-sided facial pain, primarily localized to the infraorbital area below the left eye. The pain has persisted for several days, is described as a dull ache rated 6 out of 10, and is not worsened by touch or chewing; there are no associated nasal symptoms such as congestion or changes in smell. The patient also reports occasional mild unsteadiness when walking, without true dizziness or vertigo. Relevant history regarding other medical conditions, medications, or allergies is not specified. The clinical impression is that the facial pain may be due to nerve irritation, mild inflammation, or muscle tension, with the unsteadiness possibly related to minor inner ear disturbance or distraction from discomfort; sinus infection and dental causes are considered less likely. The patient was advised to use gentle warm compresses, maintain hydration, and rest, with instructions to seek prompt care if new symptoms such as double vision, severe headache, weakness, numbness, facial drooping, or spreading pain develop. The patient subsequently reported noticing some double vision along with the facial pain and sought clarification about its significance.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.359
+- **Model Used**: general
+- **Text1 Length**: 147 words
+- **Text2 Length**: 182 words
+
 
 ## Processing Information
 

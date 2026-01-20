@@ -87,16 +87,21 @@ For now, try to take it easy with physical activity until we've had a chance to 
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with chest pain. He has a history of hypertension, hyperlipidemia, and heavy tobacco use. On admission, he was afebrile with stable vital signs, clear lungs, and a regular heart rate; there was a possible right bruit but no other significant findings. Cardiac catheterization was positive, leading to a diagnosis of coronary artery disease requiring intervention. The patient underwent coronary artery bypass grafting (CABG) times five, including LIMA to LAD and multiple saphenous vein grafts. Postoperatively, he recovered well, was extubated, had his chest tube and Foley removed, and was advanced to a regular diet. Physical therapy evaluated him for mobility, and he was cleared for discharge. He was discharged home in stable condition with instructions to follow up with his primary care physician and cardiologist within one to two weeks.
+The patient is a 61-year-old male presenting with chest pain. He has a history of hypertension, hyperlipidemia, and heavy tobacco use. On admission, he was found to have positive findings on cardiac catheterization. Physical examination showed stable vital signs and no acute abnormalities. The documented diagnosis was coronary artery disease requiring surgical intervention. He underwent coronary artery bypass grafting (CABG) times five, including LIMA to LAD and multiple saphenous vein grafts. Postoperatively, he recovered well, was extubated, and cleared for mobility. He was discharged home in stable condition with instructions to follow up with his primary care physician and cardiologist within one to two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The patient described the pain as a pressure-like discomfort in the chest, not sharp or burning, which has been present for a few days and comes and goes. The pressure is more noticeable with physical activity such as walking or doing chores, is generally mild but has occasionally required the patient to stop and rest, and resolves within a few minutes of resting; no associated symptoms such as shortness of breath, sweating, or lightheadedness were reported. Relevant history includes high blood pressure and high cholesterol, with no prior diagnosed heart problems. On assessment, the doctor noted that the chest pressure is exertional and improves with rest, raising concern for possible angina given the patient’s risk factors. The doctor recommended further evaluation with an EKG and possibly blood tests. The patient was advised to limit physical activity until further testing is completed and to seek immediate medical attention if symptoms worsen or new symptoms develop. The patient understood and agreed with the plan.
+The patient is an adult presenting with chest pain as the chief complaint. The pain is described as a pressure-like discomfort in the chest, occurring intermittently over the past few days, and is more noticeable with physical activity; it typically resolves within a few minutes of rest. The patient denies associated symptoms such as shortness of breath, sweating, or lightheadedness. Relevant history includes hypertension and hypercholesterolemia, with no prior diagnosis of heart disease. The clinical impression is that the symptoms may represent angina, given the exertional nature and improvement with rest, in the context of cardiovascular risk factors. The treatment plan includes arranging further evaluation with an EKG and blood tests. The patient was advised to limit physical activity until further assessment and to seek immediate medical attention if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.559
+- **Model Used**: general
+- **Text1 Length**: 105 words
+- **Text2 Length**: 135 words
+
 
 ## Processing Information
 

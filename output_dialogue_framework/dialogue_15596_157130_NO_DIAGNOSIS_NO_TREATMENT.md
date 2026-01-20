@@ -85,16 +85,23 @@ For now, it would be helpful to keep track of when these symptoms happen and wha
 
 ## EHR Summary
 
-The patient is a 68-year-old male presenting with worsening exercise tolerance over the past couple of months. He reports that his ability to bike has decreased from five miles last year to barely one mile recently, accompanied by generalized weakness and occasional chest tightness radiating to both shoulders during exertion. He denies dyspnea, nausea, vomiting, lightheadedness, or palpitations. His medical history is significant for long-standing diabetes mellitus with neuropathy, retinopathy, and nephropathy; he is on Glucovance, Neurontin, insulin, and Lipitor. Physical examination revealed stable vital signs and 1+ edema of both ankles, with otherwise unremarkable findings. Laboratory data showed mild leukocytosis and a creatinine of 1.3. The patient underwent cardiac catheterization for further evaluation of his symptoms. The diagnosis and specific treatment plan are not documented in the provided note.
+The patient is a 68-year-old male presenting with worsening exercise tolerance over the past couple of months. He reports that his ability to bike has decreased from five miles last year to barely one mile recently, accompanied by generalized weakness. He occasionally experiences chest tightness during exercise radiating to both shoulders but denies dyspnea, nausea, vomiting, lightheadedness, or palpitations. Relevant history includes long-standing diabetes mellitus with neuropathy, retinopathy, and nephropathy; he is allergic to Percocet (tachycardia). On examination, he was in no acute distress with stable vital signs and mild bilateral ankle edema. Laboratory data showed mild renal impairment (creatinine 1.3). The clinical impression was possible cardiac etiology for his symptoms, and he underwent cardiac catheterization for further evaluation. The treatment plan included hospital admission for workup and cardiac catheterization; additional recommendations or results are not specified in the note.
+
 
 ## Dialogue Summary
 
-The patient presented with increasing difficulty tolerating exercise and regular activities. Over the past several weeks, the patient has experienced worsening exercise intolerance, generalized weakness present even at rest, and specific difficulty with activities such as walking up stairs and carrying groceries. The patient reported chest tightness during exertion that sometimes radiates to both shoulders, which resolves with rest, but denied swelling in the legs or feet, lightheadedness, fainting, appetite changes, or weight changes. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that symptoms are most noticeable during physical activity and improve with rest, with no associated swelling or lightheadedness; chest tightness with exertion was discussed as potentially related to cardiac response, lung function, or deconditioning. The doctor advised the patient to avoid strenuous activities until further evaluation and to seek immediate care if chest pain persists at rest, severe shortness of breath, or fainting occurs. The patient was instructed to keep track of symptom timing and triggers, and follow-up for further assessment and possible basic tests was recommended.
+The patient is an adult presenting with increasing difficulty tolerating exercise and regular activities as the chief complaint. Over the past several weeks, the patient has experienced worsening exercise intolerance and generalized weakness, which is present even at rest but exacerbated by physical tasks such as climbing stairs and carrying groceries. The patient reports chest tightness during exertion that radiates to both shoulders and resolves with rest, without associated swelling, lightheadedness, appetite changes, or weight loss. There is no history of leg or foot swelling or episodes of fainting.
+
+The clinical impression discussed includes possible cardiac causes for exertional chest tightness, with other considerations such as lung function or deconditioning. The physician advised the patient to avoid strenuous activity until further evaluation and to monitor for warning signs such as chest pain unrelieved by rest, severe shortness of breath, or fainting. The patient was instructed to keep a detailed record of symptom occurrence and triggers. Further assessment and basic diagnostic tests were suggested as next steps.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.593
+- **Model Used**: general
+- **Text1 Length**: 140 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

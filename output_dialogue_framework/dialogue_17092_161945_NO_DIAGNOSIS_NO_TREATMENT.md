@@ -85,16 +85,21 @@ Most importantly, maintaining good hygiene and monitoring for changes are key st
 
 ## EHR Summary
 
-The patient is a 56-year-old male presenting with discharge from his abdominal wound and redness around his stoma site. He denied fevers, chills, nausea, or vomiting. His history is significant for inflammatory bowel disease, prior sigmoid perforation with colectomy and colostomy, and deep vein thrombosis; current medications include Levaquin, Prednisone, Folate, Asacol, Coumadin, and a multivitamin. On examination, he was afebrile with stable vital signs; the abdomen was soft and nontender, the ostomy was intact, but there was stool drainage from the inferior edge of the midline wound. The documented diagnosis is not explicitly stated in the note. Treatment details during this admission are not specified in the provided text.
+The patient is a 56-year-old male presenting with discharge from his abdominal wound and redness around his stoma site. He denied fevers, chills, nausea, or vomiting, and physical exam revealed stool drainage from the inferior edge of his midline wound but an otherwise soft, nontender abdomen. His history is significant for inflammatory bowel disease, prior sigmoid perforation with colostomy, and deep vein thrombosis; medications include prednisone, Levaquin, Asacol, Coumadin, and folate. Colonoscopy confirmed Crohn's disease with skip lesions, and imaging raised concern for an internal cutaneous fistula and possible abscess. The patient underwent sigmoid colectomy, during which he suffered an inferior wall myocardial infarction requiring right coronary artery stenting. He was managed postoperatively in the ICU, transitioned to oral prednisone, and started on aspirin, Plavix, metoprolol, Levaquin, and Flagyl. The patient stabilized, tolerated diet advancement, and was discharged with follow-up arranged with surgery and cardiology.
+
 
 ## Dialogue Summary
 
-The patient presented with discharge from their abdominal wound at the stoma site. They reported the discharge began a few days ago, has remained stable in amount, is clear and watery, and has no strong odor; they also noted mild redness around the stoma but denied swelling, tenderness, discomfort with movement, fever, or feeling unwell. The redness has not spread or worsened, and their wound care routine has not changed. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted stable mild redness and clear discharge without signs of infection such as spreading redness, swelling, pain, fever, or foul-smelling discharge. The doctor concluded that the findings are consistent with normal healing and not suggestive of infection at this time. The treatment plan included continuing the current wound care routine, monitoring for any changes (such as increased redness, swelling, pain, cloudy or foul-smelling discharge, or fever), and seeking prompt evaluation if these occur. The patient was encouraged to maintain good hygiene and to reach out with any concerns or questions about wound care.
+The patient presented with concern about discharge from their abdominal wound at the stoma site. The discharge began a few days ago, has remained stable in amount, and is described as clear and watery without odor; the patient also noted mild redness around the site but denied swelling, tenderness, fever, or systemic symptoms. The redness has not spread or worsened, and there has been no impact on daily activities or discomfort with movement. The patient reports adhering to their usual wound care routine without recent changes. The clinical impression was that the wound is not showing strong signs of infection, as there is no fever, spreading redness, swelling, pain, or purulent discharge. The doctor advised continuing the current cleaning regimen and monitoring for any changes such as increased redness, swelling, pain, or foul-smelling discharge. The patient was instructed to seek prompt evaluation if new symptoms develop or if they feel unwell. Maintaining good hygiene and vigilance for changes were emphasized as key steps in ongoing care.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.474
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

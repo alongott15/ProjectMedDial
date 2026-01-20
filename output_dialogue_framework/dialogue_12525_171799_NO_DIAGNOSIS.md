@@ -85,16 +85,23 @@ For now, I recommend avoiding activities like driving until you know more. If yo
 
 ## EHR Summary
 
-The patient is a 61-year-old female presenting for an elective cerebral angiogram. She previously experienced an episode of diplopia on 2117-10-21, with no further symptoms and mild vertigo that resolved at that time. Her past medical history is negative for diabetes, heart, or lung disease, and she has no known drug allergies; current medications include multivitamins, aspirin, and Lipitor. On admission, her vital signs were stable and physical examination was unremarkable. A diagnostic cerebral angiogram was performed, followed by embolization and coiling of a known right internal carotid aneurysm. The patient tolerated the procedure well, with an unremarkable postoperative course. She was discharged home with instructions to resume her preoperative medications.
+The patient is a 61-year-old female presenting for an elective cerebral angiogram following a prior episode of diplopia and mild vertigo in October 2117, both of which resolved. She reported no ongoing symptoms at the time of admission. Her past medical history is negative for diabetes, heart, or lung disease, and she has no known drug allergies; current medications include multivitamins, aspirin, and Lipitor. On admission, her physical examination and vital signs were stable and unremarkable. The documented diagnosis was a right internal carotid aneurysm. She underwent successful embolization and coiling of the aneurysm, tolerated the procedure well, and had an unremarkable postoperative course. At discharge, she was stable and improved, with instructions to resume her preoperative medications and arrange a follow-up appointment.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent double vision. The double vision occurs only when both eyes are open, is worsened by looking in certain directions, and began a few days ago; it is accompanied by mild vertigo described as a spinning sensation, especially when moving around, but has not worsened or interfered significantly with daily activities. The patient denied any weakness, trouble speaking, or swallowing difficulties, and reported no association with fatigue or reading. No relevant medical history, medications, or allergies were mentioned. On clinical questioning, the double vision resolved when one eye was covered, and there were no other neurological symptoms. The doctor assessed that the symptoms are most likely related to a problem with how the eyes are working together, possibly due to a minor eye muscle or nerve issue, or a mild inner ear disturbance causing vertigo; the absence of other neurological deficits was noted as reassuring. The doctor recommended avoiding activities such as driving until further evaluation, advised urgent care if new symptoms develop (such as severe headache, weakness, or persistent double vision), and suggested arranging an eye exam and possible neurological evaluation. The patient understood and agreed with the plan.
+The patient is an adult presenting with the chief complaint of intermittent double vision. The double vision occurs only when both eyes are open, is worsened by looking in certain directions, and is accompanied by mild vertigo described as a spinning sensation. Symptoms began a few days ago and have not worsened; there is no associated weakness, speech difficulty, or swallowing problems. The patient reports that daily activities are only mildly affected, mainly when walking, and no specific triggers other than eye movement are identified. Relevant history, medications, and allergies are not specified.
+
+The clinical impression is that the symptoms are likely related to a benign issue with eye muscle coordination or a mild inner ear disturbance, but more serious causes need to be ruled out. The treatment plan includes avoiding activities such as driving until further evaluation, seeking immediate care if new or worsening neurological symptoms develop, and arranging for an eye exam and possible neurological evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
+- **STS Score**: 0.487
+- **Model Used**: general
+- **Text1 Length**: 123 words
+- **Text2 Length**: 158 words
+
 
 ## Processing Information
 

@@ -193,3 +193,21 @@ If anything changes or you feel unsure, don’t hesitate to reach out right away
 ## Processing Information
 
 - **Processing Time**: 464.9s
+
+## EHR Summary
+
+The patient is a 74-year-old male presenting with decreased attention, increased lethargy, and increased right-sided weakness. These symptoms developed after a recent hospitalization for a left subacute subdural hematoma following a fall, with the family noting worsening neurological status prior to this admission. On examination, he was lethargic but able to follow commands, with decreased strength and right-sided drift. His past medical history includes hepatic encephalopathy with cirrhosis, insulin-dependent diabetes mellitus, coronary artery disease status post coronary artery bypass grafting, atrial fibrillation, gout, myelodysplastic syndrome, and myelofibrosis. Imaging revealed a stable chronic left subdural hematoma with 8 mm midline shift. The documented diagnosis was chronic left subdural hematoma with associated neurological deficits. Treatment included correction of coagulopathy and bedside twist drill drainage of the hematoma, resulting in clinical improvement; his atrial fibrillation medication was changed from Lopressor to atenolol. He was discharged in stable condition with follow-up plans including repeat head CT in three to four weeks and outpatient care.
+
+
+## Dialogue Summary
+
+The patient is an adult with a history of cirrhosis, hepatic encephalopathy, subdural hematoma, diabetes, and atrial fibrillation presenting with increased tiredness, decreased attention, and right-sided weakness. These symptoms have been present for several days and are the main concerns at this time. The patient denies new confusion, speech difficulties, falls, or significant changes in sleep. The physician notes that these symptoms could be related to hepatic encephalopathy, neurological changes (including possible delayed effects from prior subdural hematoma), or other factors such as medication or blood sugar fluctuations. No definitive diagnosis is documented, but the clinical impression is that the symptoms warrant close monitoring due to the patient’s complex history. The treatment plan includes monitoring for any worsening symptoms (such as new confusion, speech or movement difficulties, or falls), maintaining hydration and nutrition, resting as needed, and ensuring someone is available to check in on the patient. The patient is advised to seek immediate medical attention if symptoms worsen or new neurological signs develop. Regular communication with the healthcare provider is recommended if there are any changes.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.619
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 177 words
+

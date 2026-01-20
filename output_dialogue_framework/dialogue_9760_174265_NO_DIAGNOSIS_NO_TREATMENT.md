@@ -186,3 +186,23 @@ If anything new develops or your symptoms worsen, please reach out promptly. For
 ## Processing Information
 
 - **Processing Time**: 327.4s
+
+## EHR Summary
+
+The patient is a 50-year-old male presenting with mechanical lower back pain due to a pathologic fracture of L3 in the setting of multiple myeloma and multiple compression fractures. He reported lower back pain and left leg weakness, with physical exam showing decreased strength in the left lower extremity and absent knee reflexes. His relevant history includes multiple myeloma and a left hip lesion. MRI confirmed a pathologic L3 fracture, and he was diagnosed with mechanical back pain secondary to tumor involvement. The patient underwent preoperative embolization of the L3 vertebral body tumor followed by L2-L5 spinal fusion with L3 vertebrectomy, and received intraoperative blood transfusions. Postoperatively, he developed left leg swelling and was evaluated for DVT, which was ruled out; imaging revealed a retroperitoneal hematoma that led to minor bleeding from his drain site, managed with local stitches and observation. He also began radiation therapy to the left hip during hospitalization. At discharge, he was stable and prescribed Colace, ferrous sulfate, Tylenol, Percocet, and Senna, with follow-up arranged for staple removal and further orthopedic evaluation.
+
+
+## Dialogue Summary
+
+The patient is an adult with a history of multiple myeloma and recent spinal fractures presenting with lower back pain and swelling in the left leg. The lower back pain is described as mechanical, likely related to muscle strain or postural changes following the fractures, and there are no reported new neurological symptoms such as weakness, numbness, or changes in gait. The left leg swelling is noted, with concerns raised for possible deep vein thrombosis (DVT), hematoma expansion, or circulatory issues, especially given reduced mobility after spinal injury. No acute neurological deficits or urgent complications are currently reported.
+
+The clinical impression is that the situation is stable, with symptoms attributed to mechanical pain and mild swelling post-fracture. The treatment plan includes monitoring for warning signs such as new neurological symptoms (e.g., loss of movement or sensation, bowel/bladder changes) or worsening leg swelling (painful, warm, or red), which would require prompt evaluation. Supportive measures recommended include gentle movement, use of supportive devices, pacing activity, and symptomatic management (e.g., ice or elevation for swelling). The patient is advised to remain vigilant for any new or worsening symptoms and to seek immediate medical attention if these occur.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.644
+- **Model Used**: general
+- **Text1 Length**: 176 words
+- **Text2 Length**: 194 words
+

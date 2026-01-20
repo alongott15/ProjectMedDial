@@ -87,16 +87,23 @@ If you notice any new symptoms like numbness, severe swelling, or fever, let som
 
 ## EHR Summary
 
-The patient is a 77-year-old male presenting after a mechanical fall at home. He reported left lower extremity pain and inability to ambulate, with the left leg noted to be shortened and externally rotated on exam, and tenderness over the hip. His past medical history includes atrial fibrillation on anticoagulation (INR 2.5), coronary artery disease status post CABG, reduced ejection fraction (25%) with ICD, Parkinson's disease, prior right hip replacements, degenerative joint disease of the spine, and hypertension; he also has allergies to penicillins, Comtan, and shellfish-derived products. On admission, he was well-appearing with stable vital signs; physical exam confirmed left lower extremity deformity without neurovascular compromise. Laboratory results showed mild anemia and stable white blood cell counts. The documented diagnosis was left hip fracture following a fall. He underwent left hip hemiarthroplasty on hospital day 2. At discharge, his wound was healing with minimal serous drainage and ecchymosis, and he remained hemodynamically stable. The treatment plan included postoperative care and monitoring for complications.
+The patient is a 77-year-old male presenting after a mechanical fall at home. He was found to have a left hip fracture, with the left lower extremity noted to be shortened, externally rotated, and tender to palpation over the hip; there was no skin tenting and pedal pulses were intact. His past medical history includes atrial fibrillation on anticoagulation, coronary artery disease status post CABG, low ejection fraction with ICD, Parkinson's disease, prior right hip replacements, degenerative joint disease of the spine, and hypertension; he has allergies to penicillins, Comtan, and shellfish-derived products. The documented diagnoses were status post fall, left hip fracture, and acute blood loss anemia. He underwent a left hip hemiarthroplasty on hospital day 2, received fresh frozen plasma for elevated INR preoperatively, and was transfused with packed red blood cells postoperatively for acute blood loss anemia. Postoperative care included blood pressure management, physical therapy for mobility, and resumption of warfarin with INR monitoring. At discharge, he was stable and transferred to an extended care facility with instructions for weight-bearing as tolerated, wound care, medication adherence, and follow-up with orthopaedics in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with left leg pain and difficulty after a fall at home. She reported severe pain (rated 8/10) in her hip, especially when moving or bearing weight, immediate onset of symptoms after the fall, inability to perform daily activities, and observed that her left leg appeared shorter and turned outward with tenderness around the hip. She denied numbness, tingling, head injury, or loss of consciousness. On examination, the doctor noted classic signs of possible hip fracture, including leg shortening and external rotation. The assessment was that her symptoms suggested a significant hip injury, likely a fracture. The doctor advised her to avoid putting any weight on the leg, arrange immediate evaluation at an emergency department for X-ray confirmation, and remain as comfortable as possible until then. She was instructed to seek help if new symptoms such as numbness, severe swelling, or fever developed, and confirmed she had someone to assist her in getting to the hospital.
+The patient is an adult presenting with left leg pain and dysfunction following a fall at home. She reports immediate onset of severe pain (rated 8/10), difficulty bearing weight, and inability to perform daily activities such as walking or getting up. The patient notes her left leg appears shorter, turns outward, and is tender around the hip, but denies numbness, tingling, or head injury. There is no reported loss of consciousness.
+
+The clinical impression is a suspected significant hip injury, likely a fracture, based on the mechanism of injury and physical findings (shortened, externally rotated leg). The doctor advised the patient to avoid weight-bearing and seek immediate evaluation at an emergency department for imaging (X-ray) and further management. Additional instructions included minimizing movement and monitoring for new symptoms such as numbness, swelling, or fever. The patient has arranged transportation to the hospital with her son.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.553
+- **Model Used**: general
+- **Text1 Length**: 186 words
+- **Text2 Length**: 145 words
+
 
 ## Processing Information
 

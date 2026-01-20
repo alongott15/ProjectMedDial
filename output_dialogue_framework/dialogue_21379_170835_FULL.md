@@ -85,16 +85,21 @@ Let me ask: Has anything seemed to set off the episode, such as a particular tim
 
 ## EHR Summary
 
-The patient is a 77-year-old man presenting with loss of consciousness and a fall, following a three-month history of dizziness. He reported no chest pain, but his electrocardiogram was grossly abnormal on admission. Past medical history includes recent upper respiratory infection treated with azithromycin, L1 compression fracture, cataract, and prior left inguinal hernia repair; he has no known drug allergies. On examination, vital signs were stable and physical findings were unremarkable. Cardiac catheterization revealed an ejection fraction of 55–60% and three-vessel coronary artery disease. The documented diagnosis was three-vessel coronary artery disease. He underwent a three-vessel coronary artery bypass graft (CABG) and recovered well postoperatively, with plans for rehabilitation after discharge. Medications included Lopressor, Zocor, aspirin, and others as listed.
+The patient is a 77-year-old man presenting with a three-month history of dizziness, who experienced loss of consciousness and a fall. He was admitted after an abnormal electrocardiogram and negative cardiac enzymes. Past medical history includes recent upper respiratory infection treated with azithromycin, L1 compression fracture, cataract, and prior left inguinal hernia repair; there are no known drug allergies. Cardiac catheterization revealed an ejection fraction of 55–60% and three vessel coronary artery disease. The documented diagnosis was status post three vessel coronary artery bypass graft. He underwent coronary artery bypass grafting with LIMA to LAD and saphenous vein grafts to the diagonal and obtuse marginal arteries. Postoperative recovery was uneventful, and he was discharged in good condition to rehabilitation. Discharge medications included metoprolol, lasix, KayCiel, aspirin, Percocet, Colace, Protonix, lactulose, and albuterol nebulizers as needed.
+
 
 ## Dialogue Summary
 
-The patient presented with dizziness and a recent episode of loss of consciousness resulting in a fall. The dizziness began a few days ago and has occurred intermittently, with the fainting episode preceded by lightheadedness but no visual changes or other warning signs; recovery after the fall was rapid, with no confusion, weakness, or mobility issues. The patient reported no prior history of fainting, no identifiable triggers such as standing up quickly or skipping meals, and denied chest discomfort, palpitations, or shortness of breath. The patient has become more cautious with daily activities since the incident but continues to function normally. On examination, there were no lingering neurological deficits described by the patient. The doctor assessed that the sudden, brief loss of consciousness without clear triggers and rapid recovery could be due to benign causes such as a drop in blood pressure or dehydration but emphasized the need to rule out cardiac or other underlying conditions. The doctor advised the patient to stay hydrated, rise slowly from sitting or lying positions, avoid walking alone, and seek immediate care if new symptoms such as chest pain, confusion, or recurrent fainting occur; the patient was also encouraged to monitor and record future episodes of dizziness.
+The patient is an adult presenting with dizziness and a recent episode of loss of consciousness resulting in a fall. The dizziness began a few days ago and has occurred intermittently without clear triggers; the syncopal episode was preceded by lightheadedness but no visual changes, chest discomfort, palpitations, or shortness of breath. The patient recovered quickly after the event with no confusion, weakness, or residual symptoms and reports increased caution with daily activities since the incident. There is no prior history of similar episodes. The clinical impression is a sudden, brief loss of consciousness (syncope) of unclear etiology, possibly related to transient hypotension, dehydration, or circulatory changes. The physician advised maintaining adequate hydration, standing up slowly, and avoiding walking alone until further evaluation. The patient was instructed to monitor for new symptoms such as chest pain, ongoing confusion, or recurrent fainting and to seek care if these occur. Further investigation was recommended to rule out cardiac or other underlying causes.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.383
+- **Model Used**: general
+- **Text1 Length**: 135 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

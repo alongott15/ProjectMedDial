@@ -85,16 +85,23 @@ In the meantime, try to rest and avoid activities that require full alertness, l
 
 ## EHR Summary
 
-The patient is a 51-year-old male presenting with persistent drainage from a scalp incision and increasing headache following resection of a frontal astrocytoma with Gliadel placement. He reported ongoing drainage from the surgical site, worsening headaches (sometimes relieved by Percocet), and episodes of nausea. His past medical history includes steroid-induced diabetes, prior tumor resections, radiation therapy, tracheostomy removal, tonsillectomy, and adenoidectomy. On evaluation, wound culture grew gram-positive cocci. Physical examination showed the patient was neurologically intact with full muscle strength and alert mental status initially. The documented diagnosis was wound infection at the surgical site with associated increased intracranial pressure due to cerebrospinal fluid accumulation. Treatment included surgical incision and drainage with removal of the cranial bone flap, vent drain placement for decompression, and intravenous Vancomycin for infection. The patient’s wound remained full but without leakage after drain clamping.
+The patient is a 51-year-old male presenting with persistent drainage from a cranial incision site and increasing headache following prior resection of a frontal astrocytoma with Gliadel placement. He reported ongoing wound drainage, headaches relieved by Percocet, and episodes of nausea; later, his mental status deteriorated slightly, becoming sleepy but still arousable. His history includes steroid-induced diabetes, prior tumor resections, radiation therapy, and tracheostomy removal. The clinical impression was wound infection with gram-positive cocci and recurrent brain tumor. Treatment included surgical incision and drainage with removal of the cranial bone flap, vent drain placement, right temporal craniotomy for tumor excision, and intravenous Vancomycin for infection. Postoperatively, he was neurologically stable and required rehabilitation prior to discharge. Additional medications at discharge included Glyburide, Zantac, sliding scale insulin, Colace, Zyban, and Decadron. He was advised to continue Vancomycin until [2190-2-14], follow up in the Brain Clinic in two weeks, and will require further radiation therapy and likely chemotherapy after recovery.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening weakness in the left arm over the past several days. The weakness is described as decreased strength without numbness, tingling, or changes in sensation, and is limited to the left arm with no involvement of the legs or face. The patient also reported increased daytime sleepiness that persists even after a full night's sleep, making daily activities such as getting dressed and staying awake challenging. No difficulties with speech, understanding words, or balance were noted. There was no mention of relevant medical history, medications, or allergies. The doctor assessed that the combination of progressive arm weakness and excessive sleepiness could indicate an issue with brain or nervous system function and emphasized the need for prompt evaluation. The doctor recommended seeking an in-person assessment as soon as possible, ideally today, and advised immediate emergency care if new symptoms such as speech difficulty, vision changes, severe headache, or spreading weakness occur. The patient was also advised to rest and avoid activities requiring full alertness until evaluated.
+The patient is an adult presenting with progressive left arm weakness as the chief complaint. The weakness has been worsening over several days and is not associated with numbness, tingling, or sensory changes; it is limited to the left arm with no involvement of the legs or face. The patient also reports significant daytime sleepiness that persists despite adequate nighttime rest, making daily activities such as dressing and staying awake challenging. There are no reported difficulties with speech, understanding, or balance.
+
+No specific past medical history, medications, or allergies are documented. The clinical impression is that the combination of worsening unilateral arm weakness and increased sleepiness may indicate a neurological issue requiring urgent evaluation. The physician recommends prompt in-person assessment, ideally the same day, and advises seeking emergency care if new symptoms such as speech difficulty, vision changes, severe headache, or spreading weakness develop. The patient is also advised to rest and avoid activities requiring full alertness until evaluated.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.921
-- **Similarity Label**: N/A
+- **STS Score**: 0.288
+- **Model Used**: general
+- **Text1 Length**: 158 words
+- **Text2 Length**: 159 words
+
 
 ## Processing Information
 

@@ -63,16 +63,21 @@
 
 ## EHR Summary
 
-The patient is a 60-year-old man presenting with a history of chest pain since July 2188. He previously underwent cardiac catheterization, which revealed a high-grade lesion in the left anterior descending (LAD) artery. His past medical history includes abdominal aortic aneurysm (2.9 cm), hypertension, gastroesophageal reflux disease, and hypercholesterolemia; he is allergic to amoxicillin (rash). On admission, vital signs showed heart rate 94 and blood pressure 157/91, with physical exam notable for 1+ bilateral lower extremity edema but otherwise unremarkable findings. The documented diagnosis was coronary artery disease with a high-grade LAD lesion. He underwent an off-pump coronary artery bypass graft (CABG) with LIMA to LAD and had an uncomplicated postoperative course. At discharge, he was prescribed Lopressor, Percocet as needed, Colace, Plavix for three months, aspirin, and Lasix. The patient was discharged home in good condition with no acute issues.
+The patient is a 60-year-old man presenting with a history of chest pain since July 2188. He previously underwent cardiac catheterization, which revealed a high-grade LAD lesion. His past medical history includes abdominal aortic aneurysm (2.9 cm), hypertension, gastroesophageal reflux disease, and hypercholesterolemia; he is allergic to amoxicillin (rash). On admission, physical exam showed stable vital signs and mild bilateral lower extremity edema, but no acute distress. The documented diagnosis was status post coronary artery bypass grafting (CABG) times one. He underwent an off-pump CABG with LIMA to LAD and had an uncomplicated postoperative course, including early ambulation and removal of chest tube and wires. At discharge, he was in good condition and prescribed Lopressor, Percocet, Colace, Plavix (for three months), aspirin, Lasix (for seven days), potassium supplement (for seven days), and Zantac. He was advised to follow up with his physician in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The patient described the pain as a pressure-like feeling, not sharp, with episodes lasting a few minutes at a time. The discomfort occurs even at rest and is not associated with physical activity; no clear triggers or relieving factors were identified. The patient denied associated symptoms such as shortness of breath, sweating, or lightheadedness. No relevant medical history, medications, or allergies were mentioned. There were no physical findings discussed in the conversation. The doctor did not provide a specific assessment or working diagnosis during this encounter. No treatment plan or recommendations were given in the portion of the dialogue provided.
+The patient presents with a chief complaint of chest pain. The discomfort is described as a pressure-like sensation, not sharp, and each episode lasts a few minutes. The chest pressure occurs even at rest and is not associated with physical activity. The patient denies associated symptoms such as dyspnea, diaphoresis, or lightheadedness. Relevant medical history, medications, allergies, and a documented diagnosis are not specified in the dialogue. No treatment plan or specific recommendations were documented during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.416
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 78 words
+
 
 ## Processing Information
 

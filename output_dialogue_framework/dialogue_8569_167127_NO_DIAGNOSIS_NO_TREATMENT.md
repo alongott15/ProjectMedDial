@@ -87,16 +87,21 @@ For now, staying hydrated and taking it easy as you continue to recover is sensi
 
 ## EHR Summary
 
-The patient is a 68-year-old male admitted for observation following nephroureteral stent placement due to distal left ureteral obstruction with hydronephrosis and a minimally functioning right kidney. After the procedure, he experienced chills, hypotension (blood pressure as low as 82/45), and tachycardia, but was initially afebrile; later, his temperature rose to a maximum of 100.3°F. Relevant history includes bladder cancer with positive lymph nodes, hypertension, radical cystectomy, and ileal loop diversion; allergies to Haldol and Ambien were noted. On admission, physical exam was unremarkable except for a bloody urostomy, and his white blood cell count increased from 11.4 to 23.8. The clinical impression was post-procedural sepsis or infection with hemodynamic instability. He was transferred to the Medical Intensive Care Unit for close monitoring and received intravenous fluid boluses to stabilize blood pressure. Infectious Disease recommended initiation of ceftazidime and vancomycin, which was implemented, and cultures were obtained.
+The patient is a 68-year-old male admitted for observation following nephroureteral stent placement, after which he experienced hypotension. Post-procedure, he developed chills, tachycardia, and a drop in blood pressure, with a maximum temperature of 100.3°F and elevated white blood cell counts (up to 23.8). His past medical history includes bladder cancer with positive lymph nodes and hypertension, and he has a history of radical cystectomy with ileal loop diversion. Allergies to Haldol and Ambien are noted. The clinical impression was post-procedural hypotension and suspected infection. He was treated with intravenous fluids, ceftazidime, and vancomycin, and his hemodynamics stabilized in the ICU before transfer back to the floor. He was discharged home on oral antibiotics with instructions for follow-up.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about a spell of low blood pressure following a recent procedure. Symptoms included chills and a noticeably faster heart rate during the episode, without dizziness, as well as weakness and slower movement lasting for a couple of days afterward. The patient reported no new medications, continuing Atenolol and Prilosec, and stated that symptoms have resolved with no further episodes since the initial event. The doctor noted that the episode occurred soon after the procedure and that the patient’s symptoms have gradually improved, with day-to-day activities mostly unaffected except for temporary slower movement. Assessment was that the patient experienced a transient drop in blood pressure with compensatory tachycardia and chills, likely related to post-procedural changes, and that recovery has been reassuring. The doctor advised staying hydrated, taking it easy during recovery, and seeking prompt medical attention if symptoms such as faintness, chest pain, or persistent weakness recur. The patient confirmed gradual improvement with activity and showed understanding of the doctor’s explanation.
+The patient is an adult presenting with concern about a spell of low blood pressure that occurred shortly after a recent procedure. The episode was characterized by hypotension, chills, and noticeable tachycardia, with associated weakness and slower movement lasting for a couple of days. The patient denied dizziness and reported no new medications, continuing Atenolol and Prilosec as usual. There is no history of recurrent episodes, and symptoms have resolved with gradual improvement in strength and activity level. The clinician assessed the event as a likely transient post-procedural hypotensive episode with compensatory tachycardia and chills, possibly related to routine peri-procedural factors. No ongoing issues or complications were identified. The treatment plan included reassurance, advice to stay hydrated, take it easy during recovery, and instructions to seek prompt medical attention if symptoms such as faintness, chest pain, or persistent weakness recur. The patient was encouraged to report any new or worsening symptoms to the healthcare team.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
+- **STS Score**: 0.612
+- **Model Used**: general
+- **Text1 Length**: 118 words
+- **Text2 Length**: 155 words
+
 
 ## Processing Information
 

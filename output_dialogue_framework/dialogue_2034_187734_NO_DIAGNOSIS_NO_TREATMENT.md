@@ -87,16 +87,21 @@ If you notice larger amounts of blood, severe abdominal pain, or worsening weakn
 
 ## EHR Summary
 
-The patient is a 60-year-old male presenting with weakness, a fall, and an episode of hematemesis. He reported melena one week prior to admission and continued to have tarry stools during hospitalization, but denied abdominal pain. His past medical history includes insulin-dependent diabetes for 15 years and macular degeneration. Initial evaluation revealed a low hematocrit (25.5), maroon fluid on nasogastric lavage, and esophagogastroduodenoscopy findings of 2+ varices and gastric erosions; subsequent endoscopies showed Grade III esophageal varices with stigmata of recent bleeding, gastritis, and portal hypertensive gastropathy. The documented diagnosis was upper gastrointestinal bleeding secondary to esophageal varices and gastritis. Treatment included transfusion of five units of packed red blood cells and endoscopic banding of esophageal varices. At discharge, the patient had no further hematemesis but continued to note melena.
+The patient is a 60-year-old male presenting with weakness, a fall, and one episode of hematemesis. He reported melena one week prior to admission and was found to have a low hematocrit (25.5), with nasogastric lavage showing maroon coffee ground fluid. Esophagogastroduodenoscopy revealed Grade III esophageal varices with stigmata of recent bleeding, erosions in the cardiac antrum, and portal hypertensive gastropathy; four bands were placed around the varices. His past medical history includes insulin-dependent diabetes, macular degeneration, chronic urinary tract infections, and left nephrectomy. The documented diagnosis was upper gastrointestinal bleeding due to esophageal varices and portal hypertension, with associated massive ascites and splenomegaly on ultrasound. Treatment included blood transfusions, endoscopic banding of varices, and initiation of spironolactone, Lasix, propranolol, Protonix, and Neutra-Phos. The patient was hemodynamically stabilized, had no further hematemesis, and was discharged home in stable condition with follow-up arranged with his primary care physician and gastroenterology for re-evaluation and re-banding of varices.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening weakness over several days, culminating in a fall. Symptoms included increased difficulty with walking, getting dressed, and general fatigue throughout the day, as well as soreness from the fall; no numbness, tingling, lightheadedness, or vision changes were reported. The patient also described multiple episodes of vomiting blood and dark, tarry stools over the past several days, with no recent illnesses or medication changes. Physical findings included mild soreness from the fall but no significant bruising. The doctor assessed that the combination of weakness, fatigue, vomiting blood, and melena suggests possible gastrointestinal bleeding leading to anemia and associated symptoms. The doctor recommended avoiding strenuous activity, maintaining hydration, and seeking prompt medical care for further evaluation and treatment. The patient was advised to watch for warning signs such as increased bleeding, severe abdominal pain, or worsening weakness and to seek immediate help if these occur. The patient acknowledged understanding of the assessment and recommendations.
+The patient presents with progressive weakness and a recent fall as the chief complaint. Over the past few days, the patient has experienced increasing fatigue and generalized weakness, making daily activities such as walking and dressing more difficult; the weakness is present even at rest. There is no associated numbness, tingling, or recent medication changes, and no lightheadedness or vision changes prior to the fall. The patient reports several episodes of vomiting blood and dark, tarry stools over the same period, with mild soreness but no significant injury from the fall. The clinician’s assessment is possible gastrointestinal bleeding leading to anemia, which may explain the weakness, fatigue, and fall. The treatment plan includes advising the patient to avoid strenuous activity, maintain hydration, and seek prompt medical evaluation for further testing and management. The patient was also instructed to watch for warning signs such as increased bleeding, severe abdominal pain, or worsening weakness and to seek immediate care if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.566
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

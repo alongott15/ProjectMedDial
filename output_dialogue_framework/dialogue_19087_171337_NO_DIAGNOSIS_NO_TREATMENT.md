@@ -100,3 +100,21 @@ Does this explanation make sense, and do you have any questions about what we've
 ## Processing Information
 
 - **Processing Time**: 414.8s
+
+## EHR Summary
+
+The patient is a 73-year-old male presenting with worsening shortness of breath and cough associated with an upper respiratory tract infection. He experienced progressive tachypnea over several days, produced white sputum, and denied fevers, chills, or chest pain. His medical history includes chronic obstructive pulmonary disease (COPD) and chronic atrial fibrillation. On admission, he was tachypneic, tachycardic, and required supplemental oxygen; chest x-ray showed hyperinflated lungs without infiltrates or heart failure. The documented diagnosis was COPD exacerbation. Treatment included BiPAP ventilation, levofloxacin, Solu-Medrol, albuterol nebulizers, and supportive care; he also received management for alcohol withdrawal and atrial fibrillation. The patient improved with therapy, was weaned to nasal cannula oxygen, and remained stable on discharge. He was discharged on multiple medications including prednisone, inhaled bronchodilators, metoprolol, warfarin, and advised to follow up with his primary care physician after transfer to a rehabilitation facility.
+
+
+## Dialogue Summary
+
+The patient presents with a chief complaint of persistent cough and increased shortness of breath. Symptoms began a few days ago, with the cough preceding the onset of dyspnea, and both have worsened over the past couple of days. The patient reports white sputum production, increased wheezing especially at night, and greater difficulty performing daily activities due to dyspnea; there is no fever, chest pain, sore throat, congestion, runny nose, or sneezing. The patient also notes using accessory muscles for breathing and experiencing dry mouth. Relevant medical history regarding chronic lung disease or inhaler use is not specified, though the patient mentions prior nebulizer use. The clinical impression is possible airway inflammation or narrowing, such as bronchitis or an exacerbation of chronic lung disease, but no definitive diagnosis is documented. The treatment plan includes rest, hydration, avoidance of respiratory irritants, and use of previously prescribed inhalers or nebulizers as directed, with instructions to seek urgent care if severe symptoms develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.676
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 160 words
+

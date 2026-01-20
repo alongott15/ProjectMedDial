@@ -87,16 +87,23 @@ For now, staying aware of your symptoms and noting any changes is a good step. I
 
 ## EHR Summary
 
-The patient is a 75-year-old male presenting with occasional burning chest pain unrelated to activity. Symptoms began a week and a half prior to admission, and an exercise tolerance test revealed chest pain with ST segment depressions in V4 to V6 after four minutes of exercise. Relevant history includes coronary artery disease, migraines, and nephrolithiasis, with current medications including aspirin, atenolol, Imdur, and diltiazem; no known drug allergies. Physical examination showed stable vital signs and was otherwise unremarkable. Cardiac catheterization demonstrated an ejection fraction of 50% with significant coronary artery occlusions (90% LAD, 80% diagonal 1, 70% RCA). The documented diagnosis was severe multi-vessel coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) times three with left internal mammary artery to LAD and saphenous vein grafts to the obtuse marginal and posterior descending artery. Postoperative care included placement of atrial wires and mediastinal and pleural tubes.
+The patient is a 75-year-old male presenting with chest pain described as occasional burning, unrelated to activity, occurring for a week and a half prior to admission. Symptoms were further evaluated with an exercise tolerance test, which revealed chest pain and ST segment depressions in V4 to V6, prompting referral for cardiac catheterization. Relevant history includes coronary artery disease, migraines, and nephrolithiasis; medications prior to admission included aspirin, atenolol, imdur, and diltiazem, with no known drug allergies. Cardiac catheterization showed significant coronary artery occlusions (90% LAD, 80% diagonal 1, 70% RCA), and the patient subsequently underwent coronary artery bypass grafting times three. Postoperatively, he experienced minimal sternal drainage managed with vancomycin, and no evidence of infection or other complications was noted. The documented diagnoses were status post coronary artery bypass graft times three, migraine headaches, possible history of transient ischemic attack, and history of nephrolithiasis. At discharge, the patient was stable and sent home with medications including Lopressor, Lasix, potassium chloride, aspirin, Lipitor, Plavix, Percocet, Colace, and Alphagan eyedrops. Follow-up with primary care or cardiology was arranged for three weeks post-discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with a burning sensation in the chest. The symptom was described as mild to moderate, uncomfortable but not painful, occurring intermittently over the past couple of weeks without a clear pattern related to meals, lying down, or stress, though sometimes brought on by physical activity and noted during an exercise tolerance test as chest pain. The patient denied associated symptoms such as shortness of breath, sweating, or lightheadedness, and reported no limitations in daily activities due to the discomfort. Relevant history includes a prior diagnosis of coronary artery disease, with no history of heartburn or acid reflux. No new physical findings were described during the visit. The doctor assessed that while the symptoms could be related to acid reflux, the patient’s history of coronary artery disease and exertional chest pain warranted caution and further monitoring. The doctor recommended that the patient keep track of when episodes occur, monitor for any increase in frequency or severity, and seek prompt medical attention if new symptoms such as persistent chest pain, difficulty breathing, or faintness develop. The patient was also offered advice on practical ways to monitor and manage mild discomfort at home.
+The patient is an adult with a history of coronary artery disease presenting with intermittent burning chest discomfort. The symptom is described as mild to moderate in severity, not associated with meals, lying down, or stress, and has been present for a couple of weeks without significant progression. The burning sensation sometimes occurs with physical activity, notably during an exercise tolerance test when chest pain was also experienced, but is not accompanied by shortness of breath, sweating, or lightheadedness. The discomfort does not limit daily activities but causes some anxiety.
+
+Relevant history includes a prior diagnosis of coronary artery disease and no history of heartburn or acid reflux. The clinical impression is that the symptoms may be cardiac in origin given the patient’s history and exertional component, though acid reflux was also considered less likely. The treatment plan includes monitoring symptoms for changes in frequency, severity, or impact on activity, and seeking prompt medical attention if new symptoms such as persistent chest pain, dyspnea, or presyncope occur. The patient was advised to keep a symptom diary and offered further discussion on strategies for home management of mild discomfort.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.601
+- **Model Used**: general
+- **Text1 Length**: 181 words
+- **Text2 Length**: 188 words
+
 
 ## Processing Information
 

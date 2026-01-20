@@ -83,16 +83,21 @@ Keeping up with these checks is a proactive way to maintain your health. If youâ
 
 ## EHR Summary
 
-The patient is a 60-year-old male presenting with swelling and pain in the scrotal perineal region for three days. He was diagnosed with Fournier's gangrene and transferred via Medivac for urgent care. His past medical history includes myocardial infarction, noninsulin dependent diabetes, hypertension, and hypercholesterolemia; he was noncompliant with all home medications. On admission, laboratory findings showed hyponatremia (sodium 128), hyperglycemia (glucose 525), mild renal impairment (BUN 25, creatinine 1.2), and leukocytosis (WBC 11,200). The documented diagnosis was Fournier's gangrene. Treatment included emergent scrotal debridement in the operating room, postoperative admission to the surgical intensive care unit, central venous line placement, and transfusion of one unit of blood. The patient was kept NPO postoperatively.
+The patient is a 60-year-old male presenting with three days of swelling and pain in the scrotal and perineal region. He was diagnosed with Fournier's gangrene and transferred via Medivac for urgent care. His past medical history includes myocardial infarction, noninsulin dependent diabetes, hypertension, and hypercholesterolemia; he was noncompliant with medications and had no known drug allergies. On admission, laboratory studies showed hyponatremia, hyperglycemia (glucose 525), and mild renal impairment. The documented diagnosis was Fournier's gangrene with postoperative complications including respiratory distress and yeast infection. Treatment included emergent scrotal and perineal debridement, diverting colostomy, ventilatory support, broad-spectrum antibiotics (initially ampicillin, gentamicin, and Flagyl, later changed to vancomycin, levofloxacin, and fluconazole), blood glucose management with glyburide, and electrolyte correction. The patient stabilized postoperatively and was discharged in stable condition with plans to complete a two-week course of antibiotics and antifungal therapy, and follow-up appointments with plastic and general surgery services.
+
 
 ## Dialogue Summary
 
-The patient presented with a general concern about their health but did not report any specific symptoms. They denied changes in energy, sleep, appetite, weight, new aches or pains, unusual sensations, recent infections, coughs, colds, fevers, or changes in mood or mental well-being. No relevant medical or family history concerns were mentioned, and the patient reported no new limitations with physical activity such as shortness of breath or fatigue. The doctor noted no clinical findings based on the patient's responses. The assessment was that the patient is not experiencing any new symptoms or changes in daily function and is seeking preventive care. The doctor recommended reviewing and updating routine screenings, including blood pressure, cholesterol, diabetes testing, and age-appropriate cancer screenings. The patient agreed to proceed with the recommended preventive tests and follow-up.
+The patient presented for a general health check-in without a specific chief complaint. They reported no new symptoms, including no changes in energy, sleep, appetite, weight, mood, or physical activity, and denied recent infections, pain, or unusual sensations. There were no concerns from their medical or family history. No diagnosis was documented, as the patient is asymptomatic. The physician emphasized the importance of preventive care and recommended reviewing and updating routine screenings such as blood pressure, cholesterol, diabetes testing, and age-appropriate cancer screenings. The treatment plan involves arranging these preventive tests and following up to review results. The patient agreed to proceed with the recommended screenings.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.914
-- **Similarity Label**: N/A
+- **STS Score**: 0.379
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 106 words
+
 
 ## Processing Information
 

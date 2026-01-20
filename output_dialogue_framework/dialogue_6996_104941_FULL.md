@@ -82,16 +82,21 @@ Let me know if you’ve noticed any other changes, like dark urine, dry mouth, o
 
 ## EHR Summary
 
-The patient is a 67-year-old man presenting with a two-day history of cough and one day of nausea and vomiting, accompanied by diaphoresis and feeling hot. He denied hematemesis, hemoptysis, diarrhea, gastrointestinal bleeding, abdominal pain, or dysuria. His past medical history includes coronary artery disease (with prior myocardial infarction and coronary artery bypass graft), peripheral vascular disease with bilateral above-knee amputation, chronic renal insufficiency, diabetes mellitus type II, abdominal aortic aneurysm, ischemic bowel, and ischemic colitis. On evaluation at an outside hospital, he was found to have elevated creatinine (2.1), hyperkalemia (potassium 6.2), increased amylase (188) and lipase (368), and troponin I of 0.9; chest x-ray and ECG were unremarkable. He developed hypotension (systolic BP in the 70s) and tachycardia (HR in the 120s), requiring Dopamine for blood pressure support. The clinical impression was pancreatitis with acute on chronic renal failure and hyperkalemia. Treatment included Dopamine infusion and transfer for further management.
+The patient is a 67-year-old man presenting with a two-day history of cough and one day of nausea and vomiting, accompanied by diaphoresis and subjective fever. He denied abdominal pain, diarrhea, hematemesis, hemoptysis, melena, or dysuria. His past medical history includes coronary artery disease (status post MI and CABG), peripheral vascular disease with bilateral above-knee amputation, chronic renal insufficiency, diabetes mellitus type II, abdominal aortic aneurysm, ischemic bowel, and ischemic colitis. On admission, laboratory findings showed elevated creatinine (2.9), hyperkalemia (6.2), and increased amylase (188) and lipase (368); he also developed hypotension and tachycardia requiring dopamine. The documented diagnoses were pancreatitis, hypotension, chronic renal insufficiency, acute renal failure, and diabetes mellitus. Treatment included intravenous fluids for hypotension, supportive care for pancreatitis, and close monitoring of renal function; his symptoms and laboratory values improved during hospitalization. He was discharged in stable condition on his home medications and instructed to follow up with his physician in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with cough, nausea, vomiting, and episodes of feeling hot and sweaty. Symptoms began a few days ago and have worsened slightly, particularly with increased sweating and lightheadedness; the sweating tends to come on suddenly, especially when feeling hot or lightheaded. The patient reported difficulty eating due to nausea and vomiting, reduced appetite, and trouble getting around the house because of lightheadedness, but denied actually fainting. The patient has a history of pancreatitis. No objective fever was measured, and the patient denied symptoms of dark urine or dry mouth. The doctor assessed that the symptoms—nausea, vomiting, lightheadedness, and sudden sweating—could be related to dehydration or underlying pancreatitis, possibly exacerbated by poor oral intake. The doctor recommended frequent small sips of clear fluids and advised seeking medical attention if unable to keep fluids down, if confusion develops, or if lightheadedness worsens or leads to fainting.
+The patient presents with nausea, vomiting, and cough as the main complaints. Symptoms began a few days ago and have worsened slightly, with increased sweating and episodes of feeling lightheaded, though there has been no actual syncope. The patient reports difficulty eating due to nausea and vomiting, reduced appetite, and trouble moving around the house because of lightheadedness; sweating is described as sudden and associated with feeling hot or lightheaded. The patient has a history of pancreatitis, which may be contributing to current symptoms. No measured fever was reported, only subjective sensations of warmth and sweating. The clinical impression is that the symptoms—particularly nausea, vomiting, lightheadedness, and sudden sweating—are likely related to dehydration and underlying pancreatitis. The treatment plan includes frequent small sips of clear fluids and monitoring for signs of worsening dehydration (such as inability to keep fluids down, confusion, or fainting), with instructions to seek medical attention if these occur. The patient denies additional signs of dehydration such as dark urine or dry mouth at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.582
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

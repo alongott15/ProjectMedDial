@@ -87,16 +87,23 @@ Let me ask—how much are these symptoms affecting your ability to do everyday t
 
 ## EHR Summary
 
-The patient is a 28-year-old female presenting with elevated blood pressures, intractable nausea and vomiting, low-grade fever (to 100.4°F), and increased erythema around her abdominal incision ten days after a low transverse cesarean section. She reported no unusual vaginal discharge, minimal vaginal bleeding, and denied dizziness, shortness of breath, chest pain, headaches, right upper quadrant pain, or visual changes. Her past medical history includes class C diabetes (diagnosed 12 years ago) with one prior episode of diabetic ketoacidosis, and she is on insulin therapy; there are no known drug allergies. On evaluation at the transferring hospital, she had urine ketones and an elevated white blood cell count. Physical findings included erythema at the incision site without drainage. The clinical impression was possible cellulitis of the abdominal incision in the context of recent cesarean section and poorly controlled diabetes. Treatment included intravenous fluids, subcutaneous insulin, and initiation of Kefzol (cefazolin) for suspected cellulitis.
+The patient is a 28-year-old female presenting with elevated blood pressures, intractable nausea and vomiting, low-grade fever, and increased erythema around her abdominal incision following a recent low transverse cesarean section. She reported no unusual vaginal discharge, minimal vaginal bleeding, and denied dizziness, shortness of breath, chest pain, headache, right upper quadrant pain, or visual changes. Her medical history includes class C diabetes (with prior diabetic ketoacidosis) and recent cesarean section for arrest of descent. On admission, she was found to have diabetic ketoacidosis, postpartum endomyometritis (with uterine tenderness and abdominal collection), and preeclampsia (elevated blood pressure and proteinuria). Treatment included intravenous fluids, insulin therapy, electrolyte replacement, magnesium for preeclampsia, antihypertensives (labetalol and nifedipine), and broad-spectrum intravenous antibiotics transitioned to oral Augmentin. A percutaneous drain was placed for the abdominal collection, which was sterile on culture. The patient was discharged in stable condition after being afebrile for 24 hours, with follow-up arranged, though she signed out against medical advice.
+
 
 ## Dialogue Summary
 
-The patient presented with elevated blood pressure, persistent nausea, and vomiting. Symptoms began a few days ago and have been worsening, with vomiting occurring several times daily and difficulty keeping down even water. The patient also reported worsening swelling in the legs (present all the time), intermittent fever, overall fatigue, and new redness and firmness around a recent abdominal incision, as well as tenderness in the lower abdomen. No headaches or vision changes were noted. The patient has needed help with daily activities due to fatigue and leg swelling. The doctor assessed that the combination of persistent vomiting, inability to tolerate fluids, worsening leg swelling, fever, and changes at the incision site could indicate an underlying infection or a complication related to recent surgery. The doctor recommended urgent in-person evaluation to check for possible infection, advised sipping small amounts of clear fluids to avoid dehydration, monitoring temperature and blood pressure, and seeking immediate care if new severe symptoms develop.
+The patient is an adult presenting with elevated blood pressure, persistent nausea, and vomiting as the chief complaints. Symptoms began a few days ago and have progressively worsened, with vomiting occurring several times daily and difficulty retaining food or fluids, including water. The patient also reports worsening bilateral leg swelling (present throughout the day), intermittent fever, fatigue, and new redness and firmness around a recent abdominal incision. There is no history of headache or vision changes, but the patient notes increased difficulty with daily activities due to these symptoms and lower abdominal tenderness.
+
+Relevant medical history includes recent abdominal surgery (exact timing not specified). The clinical impression is concern for possible infection or surgical complication, given the combination of incision changes, fever, and systemic symptoms. The physician recommended urgent in-person evaluation to assess for infection and monitor for dehydration, advising the patient to sip clear fluids and track temperature and blood pressure. The patient was instructed to seek immediate care if new severe symptoms such as confusion, severe pain, or shortness of breath develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.449
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 174 words
+
 
 ## Processing Information
 

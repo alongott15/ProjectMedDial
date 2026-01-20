@@ -109,16 +109,21 @@ If you’re unsure about any of these, we can review your records together or I 
 
 ## EHR Summary
 
-The patient is a 65-year-old female presenting after a fall at home, with confusion, anxiety, and worsening somnolence. She exhibited hypoxemia (O2 saturation in the 70s-80s), chronic shortness of breath at baseline, and was noted to be disoriented and shaky, with recent increased daytime sleepiness. Her history includes diabetes, chronic hypercarbia, paroxysmal atrial fibrillation on amiodarone, anxiety disorder, prior DVT, GERD, and hypoxemia requiring home oxygen. On examination, her O2 saturation was 81% on 3 liters of oxygen, heart rate was in the 70s, and blood pressure was 140/33; she was alert and sitting up in bed. An arterial blood gas revealed a PCO2 of 120 and a bicarbonate level of 54. The clinical impression was acute on chronic hypercapnic respiratory failure likely related to underlying pulmonary disease. She was treated with biPAP, which led to some improvement in mental status.
+The patient is a 65-year-old female presenting after a fall at home, with confusion, anxiety, and hypoxemia. She was noted to have worsening somnolence, daytime napping, baseline shortness of breath, and a recent history of left lower lobe pneumonia and chronic hypercarbia on home oxygen. On admission, her O2 saturation was in the 70s-80s and arterial blood gas revealed a PCO2 of 120; she improved with BIPAP therapy. Her past medical history includes diabetes, paroxysmal atrial fibrillation on amiodarone, DVT, GERD, and vitamin B12 deficiency anemia; she is allergic to penicillin. The documented diagnoses were hypercarbia, congestive heart failure, and vitamin B12 deficiency anemia. Treatment included BIPAP support, diuresis, initiation of vitamin B12 injections, and a thick liquid diet following a failed swallow evaluation. She was referred to pulmonary rehabilitation for optimization of home oxygen management and continued BIPAP at night, and was discharged in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented for a general health check-in without any specific complaints. She reported no changes in energy, sleep, appetite, activity level, vision, hearing, dental health, or balance, and denied any new aches, pains, or other symptoms over the past few months. No relevant medical history, medications, or allergies were mentioned during the visit. The doctor noted that the patient appeared to be in good overall health with no new concerns based on her responses. The assessment focused on the absence of current symptoms and the need to update preventive care. The doctor recommended reviewing and updating routine screenings—including mammogram, colonoscopy, blood pressure, cholesterol, diabetes screening, and bone density scan—as well as vaccines such as flu shot, shingles, and pneumonia vaccines. The doctor suggested making a checklist of due screenings and vaccines and offered to help review records or schedule needed tests. The patient expressed understanding and agreed to proceed with catching up on recommended preventive care.
+The patient presented for a general health check-in without any specific chief complaint. She reported no new symptoms, including no changes in energy, sleep, appetite, activity level, shortness of breath, aches, pains, vision, hearing, dental health, or balance. There is no relevant medical history, medications, or allergies documented in this encounter. The clinical impression was that the patient is in good overall health with no new concerns. The primary focus was on preventive care due to the absence of recent check-ups, screenings, or vaccinations. The doctor recommended updating routine screenings such as mammogram, colonoscopy, blood pressure and cholesterol checks, diabetes screening, bone density scan, and vaccines including flu, shingles, and pneumonia. A checklist was suggested to help the patient track and schedule these preventive measures. The patient agreed to proceed with catching up on recommended screenings and vaccinations.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.938
-- **Similarity Label**: N/A
+- **STS Score**: 0.410
+- **Model Used**: general
+- **Text1 Length**: 147 words
+- **Text2 Length**: 138 words
+
 
 ## Processing Information
 

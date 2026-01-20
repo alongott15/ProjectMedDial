@@ -85,16 +85,21 @@ Let me ask—over the past day or two, has your breathing gotten any better, sta
 
 ## EHR Summary
 
-The patient is a 63-year-old female presenting with respiratory failure. She experienced increasing respiratory distress, intermittent fevers, thick greenish sputum, bowel distention, and vomiting following a recent tracheostomy tube change, during which food was found in the trachea and air was noted in her stomach. Her history is significant for chronic obstructive pulmonary disease (COPD) requiring chronic ventilator support via tracheostomy, hypertension, depression, hypercholesterolemia, anxiety, coronary artery disease, and prior non-Q wave myocardial infarction. Allergies include sulfa, codeine, Augmentin, and shellfish. Bronchoscopy revealed a posterior tracheal ulcer near the tracheostomy site, and a tracheoesophageal fistula could not be ruled out. Sputum cultures had previously grown Proteus, Serratia, and Methicillin-resistant Staphylococcus aureus (MRSA). She was treated with Vancomycin for MRSA and Ceftazidime for Proteus. The patient was transferred for further evaluation and management of her respiratory failure and possible tracheoesophageal fistula.
+The patient is a 63-year-old female presenting with respiratory failure. She experienced increasing respiratory distress, intermittent fevers, thick greenish sputum, bowel distention, and vomiting following a tracheostomy tube change, with food discovered in the trachea and evidence of air in the stomach. Her history includes chronic obstructive pulmonary disease (COPD) requiring chronic ventilator support, hypertension, depression, hypercholesterolemia, anxiety, coronary artery disease, and multiple drug allergies. On admission, laboratory studies showed leukocytosis and chest imaging revealed bilateral basilar pneumonia consistent with aspiration. The documented diagnoses were aspiration pneumonia and a significant tracheoesophageal fistula, which was confirmed by bronchoscopy and surgically repaired. Treatment included intravenous antibiotics (Vancomycin, Ceftazidime, Clindamycin), surgical repair of the fistula, gastrostomy tube decompression, jejunostomy tube placement for feeding, ventilatory support, and management of hypertension and pain. The patient also received total parenteral nutrition, electrolyte repletion, and treatment for a postoperative urinary tract infection with Gentamicin. She was discharged stable on ventilator support with ongoing management for her chronic conditions.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening shortness of breath. They reported increased effort with breathing over the past few days, which is aggravated by walking and eating, and leaves them feeling exhausted even with basic activities such as dressing or moving around. The patient described episodes of food "going down the wrong way," resulting in coughing, and noted that food was recently found in their windpipe; they also reported intermittent fevers but denied changes in voice or chest pain unrelated to prior surgery. No specific past medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the patient's symptoms suggest aspiration (food entering the airway), which can cause irritation or pneumonia, contributing to increased shortness of breath and fatigue. The doctor emphasized that these symptoms are significantly impacting daily activities and highlighted the risk of lung infection due to aspiration. The patient confirmed that their breathing has worsened over the past couple of days, even at rest. The doctor recommended close monitoring of symptoms and indicated that worsening or persistent symptoms may require more urgent attention.
+The patient presents with worsening shortness of breath as the chief complaint. Over the past few days, dyspnea has increased, particularly with activity and eating, and is now present even at rest; the patient reports significant fatigue and difficulty performing basic tasks such as dressing. The patient describes episodes of coughing when swallowing, with a recent finding of food in the windpipe, and reports intermittent fevers but no changes in voice or chest pain unrelated to recent surgery. Relevant history includes recent surgery and documented aspiration of food into the airway. The clinical impression is that aspiration during swallowing is contributing to the patient's respiratory symptoms and may be increasing the risk of lung infection (such as pneumonia). The physician advises close monitoring due to the impact on daily activities and the potential for complications. No specific treatments or medications are documented in this dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.628
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 145 words
+
 
 ## Processing Information
 

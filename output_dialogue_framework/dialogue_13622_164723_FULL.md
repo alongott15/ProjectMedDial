@@ -87,16 +87,23 @@ If this starts to interfere more with your daily life or you notice any warning 
 
 ## EHR Summary
 
-The patient is a 75-year-old female admitted for elective lumbar surgery due to chronic right calf and leg pain associated with L5-S1 spondylolisthesis. She underwent L4-5 laminectomy and facetectomy, and L5-S1 pedicle screw fixation. Her past medical history includes right carotid stenosis, hypertension, intermittent atrial fibrillation, and chronic low back pain. Postoperatively, she experienced a cerebrospinal fluid (CSF) leak, which was repaired without further complications, and was placed on flat bed rest for 48 hours. On postoperative day one, she developed rapid atrial fibrillation that was refractory to IV diltiazem and Lopressor, requiring transfer to the Medical Intensive Care Unit and initiation of a diltiazem drip; troponin peaked at 1.5, indicating mild myocardial damage. Rate control was achieved with oral diltiazem, and she was subsequently transferred back to the floor. Physical therapy was initiated without further sequelae, and her postoperative course was otherwise unremarkable. She was cleared by cardiology prior to discharge.
+The patient is a 75-year-old female admitted for elective lumbar surgery due to L5-S1 spondylolisthesis, with a history of right carotid stenosis, hypertension, intermittent atrial fibrillation, and chronic low back and right leg pain. She underwent L4-5 laminectomy and facetectomy with L5-S1 pedicle screw fixation. Postoperatively, she experienced an episode of rapid atrial fibrillation on 8-21, which was refractory to IV diltiazem and metoprolol, requiring transfer to the Medical Intensive Care Unit and initiation of a diltiazem drip. Cardiac enzymes showed a troponin peak of 1.5, indicating mild myocardial damage. Her arrhythmia was subsequently controlled with oral diltiazem, and she was transferred back to the floor and mobilized with physical therapy without further complications. The documented diagnoses include postoperative atrial fibrillation and mild myocardial injury. She was discharged home on 8-28 with instructions to wear a brace when out of bed, keep surgical staples for two weeks, and follow up for staple removal and wound check. Discharge medications included Tylenol #3 for pain, metoprolol, and diltiazem for rate control; no anticoagulation or antiplatelet therapy was required per Cardiology.
+
 
 ## Dialogue Summary
 
-The patient presented with pain in the right calf and leg. The discomfort has been present for about two years, is rated as 6 out of 10 in severity, and is described as an ache that sometimes feels heavier with prolonged standing or walking; it improves with rest and does not radiate to the thigh or foot. The patient denied any swelling, redness, warmth, numbness, tingling, or weakness in the right leg. No relevant medical history, medications, or allergies were mentioned. On clinical assessment, there were no signs of acute inflammation or neurological involvement. The doctor assessed that the symptoms are most consistent with a circulatory issue such as peripheral artery disease (PAD) or possibly mild arthritis or muscle strain, rather than an acute problem like a blood clot. The doctor recommended monitoring for new symptoms such as sudden swelling, redness, severe pain, or changes in foot color or temperature, and advised gentle activity, avoiding prolonged standing, and elevating the legs when resting. Further evaluation was suggested if symptoms worsen or interfere more with daily life.
+The patient is an adult presenting with right calf and leg pain as the chief complaint. The discomfort has persisted for approximately two years, is described as an ache (pain rated 6/10), and is worsened by walking or standing while improving with rest. There is no associated swelling, redness, warmth, numbness, tingling, or weakness, and the pain does not radiate beyond the right calf and leg. Relevant history regarding other medical conditions, medications, or allergies was not specified.
+
+The clinical impression is that the symptoms are likely due to peripheral artery disease (PAD) or possibly mild arthritis or muscle strain, rather than an acute issue such as a blood clot. The treatment plan includes monitoring for new symptoms (such as sudden swelling, redness, severe pain, or changes in foot color/temperature), engaging in gentle activity, avoiding prolonged standing, and elevating the legs during rest. The patient was advised to seek further evaluation if symptoms worsen or new warning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.948
-- **Similarity Label**: N/A
+- **STS Score**: 0.352
+- **Model Used**: general
+- **Text1 Length**: 178 words
+- **Text2 Length**: 159 words
+
 
 ## Processing Information
 

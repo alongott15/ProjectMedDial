@@ -87,16 +87,21 @@ Let me know if you have any questions or if anything changes.
 
 ## EHR Summary
 
-The patient is a 74-year-old male presenting with a chief complaint of three days of nausea, vomiting, dizziness, mild frontal headache, mild lightheadedness, progressive unsteadiness of gait, and mild photophobia. Symptoms included increased vomiting (three times on the day of admission), but he denied vertigo, chest pain, shortness of breath, cough, dysuria, abdominal pain, or diarrhea. Relevant history includes renal cell carcinoma with lung metastases, polycythemia, glaucoma, prior left nephrectomy, and allergy to Benadryl; current medications are multivitamins, ibuprofen, and cyclobenzaprine. On physical exam, he was afebrile (temperature 95.5°F), hypertensive (BP 195/97), mildly hypoxic (O2 sat 93% on room air), alert and oriented, with mild photophobia and headache but otherwise normal neurological and systemic findings. No explicit diagnosis was documented in the note. Treatment or specific recommendations were not detailed in the provided text.
+The patient is a 74-year-old male presenting with a three-day history of nausea, vomiting, dizziness, mild frontal headache, mild lightheadedness, progressive unsteadiness of gait, and mild photophobia. Symptoms included increased vomiting (three times on the day of admission), but he denied vertigo, chest pain, dyspnea, cough, dysuria, abdominal pain, or diarrhea. Relevant history includes renal cell carcinoma with lung metastases, prior left nephrectomy, polycythemia, glaucoma, and a rash; medications on admission were multivitamins, ibuprofen, and cyclobenzaprine, with an allergy to Benadryl. Imaging revealed a 2.5–3 cm midline cerebellar lesion with possible early fourth ventricle compression but no hydrocephalus. The clinical impression was cerebellar tumor with associated symptoms. The patient underwent suboccipital craniotomy for tumor resection without complications and was managed postoperatively with blood pressure control (Nipride and Lopressor), Decadron, and supportive care. He required rehabilitation prior to discharge and was discharged in stable condition. Follow-up was arranged with the brain tumor clinic and for staple removal in one week to ten days.
+
 
 ## Dialogue Summary
 
-The patient presented with nausea and several episodes of vomiting over the past few days. Symptoms included intermittent nausea, vomiting, dizziness, mild frontal headache described as a dull ache worsened by bright light, mild lightheadedness, and gradually worsening unsteadiness on their feet; no changes in vision, no sensitivity to sounds, and no diarrhea or abdominal pain were reported. The patient denied any recent changes in diet or medications and stated this was a new type of headache for them; no history of falls or near-falls was noted. On examination, the patient described mild photophobia associated with the headache but no other neurological symptoms. The doctor assessed that the combination of new mild frontal headache, nausea, vomiting, and worsening unsteadiness could be due to a viral infection or inner ear issue but cautioned about possible neurological causes given the progression. The doctor advised monitoring for warning signs such as weakness, trouble speaking, double vision, or severe headache and recommended rest, hydration, and fall precautions. The patient was instructed to seek prompt care if symptoms worsen or new concerning signs develop.
+The patient presents with a chief complaint of nausea and several episodes of vomiting over the past few days. Symptoms include intermittent nausea, vomiting, dizziness, mild frontal headache (described as a dull ache worsened by bright light), mild lightheadedness, and gradually worsening unsteadiness on their feet; there are no changes in vision, no sensitivity to sounds, and no gastrointestinal symptoms such as diarrhea or abdominal pain. The patient reports no recent changes in diet or medications and has not experienced similar headaches before. There is no history of falls or near-falls, but the unsteadiness has been progressively worsening. The clinical impression discussed includes possible causes such as a viral infection or inner ear issue, with caution for potential neurological causes given the new and worsening symptoms. No definitive diagnosis was documented. The treatment plan includes monitoring for warning signs (such as weakness, trouble speaking, double vision, or severe headache), resting, maintaining hydration, and avoiding fall risks. The patient was advised to seek prompt care if any concerning symptoms develop or if unsteadiness continues to worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.536
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

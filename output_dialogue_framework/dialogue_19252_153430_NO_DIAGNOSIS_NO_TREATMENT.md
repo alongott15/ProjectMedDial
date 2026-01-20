@@ -85,16 +85,23 @@ For now, resting your voice, staying well hydrated, and avoiding irritants like 
 
 ## EHR Summary
 
-The patient is a 77-year-old woman presenting with increased hoarseness and sore throat for the past week. Symptoms included progressive hoarseness and throat discomfort, with a history of vocal cord polyps previously diagnosed at 3 by 3 mm. Relevant history includes hypertension, insulin-dependent diabetes mellitus, chronic obstructive pulmonary disease, atrial fibrillation, deep venous thrombosis, and current medications such as glyburide, Zantac, Tylenol, Coumadin, Losartan, Albuterol, and Atrovent. On fiberoptic examination, a left vocal cord polyp prolapsing into the trachea was observed, causing airway obstruction and edema; the remainder of the physical exam was unremarkable. The documented diagnosis was airway obstruction secondary to vocal cord polyps and edema. Treatment included initiation of Decadron and Unasyn, with plans for surgical intervention after INR normalization. Coumadin was discontinued due to elevated INR and sufficient prior treatment for deep venous thrombosis.
+The patient is a 77-year-old woman presenting with increased hoarseness and sore throat for the past week. She has a history of hypertension, insulin-dependent diabetes mellitus, chronic obstructive pulmonary disease, atrial fibrillation, deep venous thrombosis, and vocal cord polyps. Examination with fiberoptic scope revealed a 3 by 3 mm left vocal cord polyp prolapsing into the trachea, causing airway obstruction and edema. The documented diagnosis was airway obstruction secondary to vocal cord polyps and edema. She was started on Decadron and Unasyn, and her Coumadin was discontinued due to elevated INR and completed DVT treatment. The plan is for surgical removal of the polyp once her INR decreases, with preoperative labs scheduled for follow-up. The patient’s throat swelling improved during admission, and she was discharged in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with progressive hoarseness of voice as the chief complaint. Symptoms included increased difficulty being heard, a sore throat, and episodes of breathing difficulty described as needing to work harder to get air in, without lightheadedness, dizziness, cough, trouble swallowing, or noisy breathing; symptoms have persisted and worsened over the past couple of weeks. No relevant medical history, medications, or allergies were mentioned. The patient reported that the hoarseness has not led to complete voice loss, and breathing difficulty occurs randomly without clear triggers. On assessment, the doctor noted gradual onset hoarseness and mild breathing difficulty, possibly due to throat inflammation from viral infection or irritation. The doctor advised monitoring for worsening symptoms such as complete voice loss, increased breathing difficulty, or new swallowing problems, and to seek prompt medical attention if these occur. Recommendations included resting the voice, staying hydrated, avoiding irritants like smoke, and considering further throat examination if symptoms persist or worsen over the next week. The patient expressed understanding and concern about potential airway obstruction.
+The patient is an adult presenting with progressive hoarseness as the chief complaint. Over the past couple of weeks, the patient’s voice has become more hoarse and quieter, making it difficult to be heard, and is accompanied by a sore throat. The patient also reports intermittent dyspnea described as increased effort to inhale, without associated noisy breathing, lightheadedness, dizziness, cough, or dysphagia. There is no mention of relevant past medical history, medications, or allergies.
+
+The clinical impression is that the hoarseness and mild breathing difficulty may be due to throat inflammation, possibly from a viral infection or irritation. The treatment plan includes voice rest, maintaining hydration, and avoiding irritants such as smoke. The patient was advised to monitor for worsening symptoms—such as complete loss of voice, increased breathing difficulty, or new swallowing problems—and to seek prompt medical attention if these occur. If symptoms persist or worsen over the next week, further examination of the throat was recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.632
+- **Model Used**: general
+- **Text1 Length**: 128 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

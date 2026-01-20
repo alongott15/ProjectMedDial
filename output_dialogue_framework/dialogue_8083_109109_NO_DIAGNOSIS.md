@@ -87,16 +87,21 @@ Let me know if you have any other questions or if anything changes with your bab
 
 ## EHR Summary
 
-The patient is a newborn female evaluated due to maternal intrapartum fever. She was delivered at 40-4/7 weeks via stat cesarean section for nonreassuring fetal heart pattern and 20% placental abruption, with Apgar scores of 8 and 9 at one and five minutes, respectively. On initial examination, the infant was somewhat pale but otherwise had normal vital signs and physical findings. Relevant history includes full-term birth to a mother who was GBS negative, hepatitis B surface antigen negative, and had no prenatal complications except for fever (maximum 101°F) an hour before delivery; no intrapartum antibiotics were given. Due to the risk of infection from maternal fever and initial pallor, empiric antibiotics (ampicillin and gentamicin) and a normal saline bolus were administered. The following day, the infant’s blood culture was positive for group B beta streptococcus. The documented diagnosis was neonatal group B streptococcal bacteremia. The treatment plan included continuation of antibiotics and further evaluation with repeat blood culture and lumbar puncture.
+The patient is a full-term newborn female presenting for evaluation due to maternal intrapartum fever. At birth, the infant was noted to be somewhat pale but otherwise had stable vital signs and a normal examination. Maternal history included a maximum temperature of 101°F an hour before delivery, stat cesarean section for nonreassuring fetal heart pattern, and a 20% placental abruption; prenatal labs were unremarkable. Initial management included empiric antibiotics (ampicillin and gentamicin) and a normal saline bolus. Blood cultures later grew group B beta streptococcus, confirming the diagnosis of beta streptococcus bacteremia. Antibiotics were changed to intravenous penicillin G, with plans for a seven-day course. The infant remained clinically stable throughout hospitalization and was discharged in stable condition to complete treatment at another hospital under pediatric care. At discharge, she was ad lib breast-feeding, had passed her hearing screen, and had her state laboratory screen sent.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about possible infection in her newborn due to the mother having a fever during labor. The baby was noted to have persistent pallor since soon after birth, but no episodes of bluish discoloration, fever, rapid breathing, grunting, or difficulty feeding were reported. The parent denied any trouble with latching, sucking, excessive sleepiness, or changes in pallor related to feeding or crying. No other symptoms such as respiratory distress or temperature abnormalities were observed. The doctor assessed that the baby’s consistent pallor could be due to benign causes like mild anemia or normal circulation, but acknowledged the increased infection risk given the maternal fever during labor. The doctor advised close monitoring for any new symptoms including bluish color around the lips, feeding difficulties, unusual sleepiness, or breathing problems, and recommended seeking medical attention if these occur. The parent was also encouraged to schedule a newborn checkup with the pediatrician to further discuss concerns.
+The patient is a newborn whose parent presents with concerns about possible infection risk due to maternal fever during labor. The primary symptom reported is persistent pallor noted soon after birth, with no associated cyanosis, fever, feeding difficulties, increased sleepiness, or respiratory distress. The baby has been feeding well and waking normally, and there have been no episodes of rapid breathing, grunting, or trouble with breathing. Relevant history includes maternal fever during labor, which increases the risk for neonatal infection. The clinical impression is that the pallor may be due to benign causes such as mild anemia or normal circulatory variation, but infection risk cannot be fully excluded given the maternal history. No definitive diagnosis was documented. The treatment plan includes close monitoring for any new symptoms such as cyanosis, feeding problems, unusual sleepiness, or respiratory difficulty, and prompt medical attention if these arise. The parent was also advised to schedule a newborn checkup with the pediatrician to further discuss concerns.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.508
+- **Model Used**: general
+- **Text1 Length**: 146 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

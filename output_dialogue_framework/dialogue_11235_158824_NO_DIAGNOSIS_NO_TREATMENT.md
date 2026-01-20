@@ -98,3 +98,21 @@ Before we wrap up, does anything in particular trigger your coughing, or does it
 ## Processing Information
 
 - **Processing Time**: 420.8s
+
+## EHR Summary
+
+The patient is a 39-year-old male presenting with fevers, rigors, and chills for three days. He was found to be hypoxic (oxygen saturation 87%) in the emergency department and reported intermittent abdominal pain (4/10), mild diarrhea, productive cough with clear sputum, persistent oral thrush, blurred vision, and occasional headaches. His medical history is significant for acquired immunodeficiency syndrome (CD4 count of 1), cytomegalovirus retinitis, hypertension, anemia, and multiple prior opportunistic infections; he is on highly active antiretroviral therapy and foscarnet. The documented diagnoses were Klebsiella bacteremia/pneumonia, acute renal failure (resolving), cytomegalovirus retinitis, and hypertension. Treatment included intravenous ceftriaxone for Klebsiella pneumonia (14-day course, 8 days remaining at discharge), removal of the infected Port-A-Cath, continued foscarnet for CMV retinitis, and adjustment of medications for renal function. The patient was switched to dapsone for Pneumocystis prophylaxis and continued his antiretroviral regimen. He was discharged in stable condition with home health services and follow-up appointments scheduled.
+
+
+## Dialogue Summary
+
+The patient presents with several days of fever and chills as the chief complaint. Symptoms include intermittent fever with chills and shaking rigors, a cough producing clear sputum, some dyspnea (difficulty breathing) even at rest, constant abdominal pain, mild diarrhea, occasional constipation, and recent blurred vision. There is no history of recent travel, sick contacts, or dietary changes. The cough is not associated with any specific triggers and sputum remains clear without yellow, green, or blood-streaked mucus. The clinical impression is most consistent with a viral infection, such as influenza or another respiratory virus, though a mild bacterial infection is also considered. The physician notes that the clear sputum is reassuring and less likely to indicate pneumonia. The treatment plan includes supportive care with rest, hydration, and symptom monitoring, and the patient is advised to seek prompt care if symptoms worsen (e.g., severe dyspnea, chest pain, confusion, or persistent high fever). The use of a thermometer or pulse oximeter at home is recommended for tracking progress.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.510
+- **Model Used**: general
+- **Text1 Length**: 153 words
+- **Text2 Length**: 166 words
+

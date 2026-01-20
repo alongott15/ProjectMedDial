@@ -85,16 +85,23 @@ Let me know if you have any questions about what to watch for or how to manage a
 
 ## EHR Summary
 
-The patient is a 65-year-old female presenting with nausea, vomiting, and hypertension. Symptoms began the night before admission with persistent nausea and inability to tolerate oral intake, progressing to non-bloody, non-bilious vomiting and elevated blood glucose (up to 440 mg/dL). She has a history of type 1 diabetes mellitus on an insulin pump, hypertension, hypercholesterolemia, hiatal hernia, and prior episodes of similar symptoms attributed to gastroparesis versus gastritis/esophagitis. On arrival, her blood pressure was 190/72 mmHg and blood glucose was 381 mg/dL; she was alert and oriented but had dry mucous membranes. Physical exam revealed stable vital signs and no acute distress. The documented clinical impression included gastroparesis related to diabetes and hypertensive urgency. Treatment included intravenous fluids, anti-emetics, labetalol as needed for blood pressure control, and aspirin. No major surgical or invasive procedures were performed during this admission.
+The patient is a 65-year-old female presenting with nausea, vomiting, and hypertension. Her symptoms began the night before admission with persistent nausea, inability to tolerate oral intake, and blood glucose levels rising from the 120s to 440 mg/dL, accompanied by systolic blood pressure up to 200 mmHg. She has a history of type 1 diabetes mellitus (on an insulin pump), hypertension, hypercholesterolemia, and sciatica, with no known drug allergies. On admission, she was found to have hyperglycemia with mild diabetic ketoacidosis (DKA) and hypertensive crisis, but no evidence of end organ damage. The clinical impression attributed her nausea and vomiting to gastroparesis, and her hypertension and hyperglycemia were managed with intravenous fluids, antiemetics, insulin, and antihypertensives. Her insulin pump was discontinued during hospitalization, and she was transitioned to insulin glargine and lispro. By discharge, her symptoms had resolved, blood pressure and glucose were controlled, and she was discharged home in stable condition with instructions to continue her new medication regimen and follow up as scheduled.
+
 
 ## Dialogue Summary
 
-The patient presented with nausea and vomiting that began yesterday. The nausea has made it difficult to eat and has limited daily activities, with the patient mostly wanting to lie down; vomiting has occurred a couple of times since onset, and keeping fluids down has been challenging. The patient reported no fever, abdominal pain, diarrhea, or unusual appearance of vomit, and noted a brief episode of confusion that has since improved. Relevant history includes high blood pressure managed with ongoing medication, which the patient has continued to take as usual. On assessment, the doctor noted the sudden onset of symptoms without concerning features such as blood in vomit or persistent confusion. The working diagnosis was likely mild viral gastroenteritis or dietary upset, with reassurance provided due to the absence of alarming symptoms. The doctor advised frequent sipping of clear fluids to prevent dehydration and instructed the patient to seek care if unable to keep fluids down for more than 24 hours or if new symptoms such as confusion, dizziness, or dark urine develop.
+The patient is an adult with a history of hypertension presenting with nausea and vomiting as the chief complaint. Symptoms began yesterday, with several episodes of vomiting and difficulty keeping fluids down, leading to reduced oral intake and decreased activity; there are no associated fever, abdominal pain, diarrhea, or hematemesis. The patient has continued taking antihypertensive medication as usual and reported transient confusion that has since improved. No specific triggers for the nausea were identified.
+
+The clinical impression was likely mild viral gastroenteritis or dietary upset, given the acute onset and absence of alarming features. The treatment plan focused on supportive care: the patient was advised to sip small amounts of clear fluids frequently to prevent dehydration and to monitor for warning signs such as persistent inability to keep fluids down, new confusion, dizziness, or dark urine. The patient was instructed to seek further care if these symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.522
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 149 words
+
 
 ## Processing Information
 

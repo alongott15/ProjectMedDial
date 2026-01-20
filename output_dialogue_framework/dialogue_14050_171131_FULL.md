@@ -100,3 +100,21 @@ Do you have someone who can help you get to the hospital safely?
 ## Processing Information
 
 - **Processing Time**: 421.0s
+
+## EHR Summary
+
+The patient is an 83-year-old female presenting with hematemesis and melanotic stools. She experienced two episodes of hematemesis and multiple episodes of melena, with one episode of hypotension in the Emergency Department; nasogastric lavage was grossly bloody. Her past medical history includes cerebrovascular accident, congestive heart failure, hypertension, and seizure disorder. On admission, her hematocrit was 31.6 and INR was 4.2. The documented diagnosis was upper gastrointestinal bleed due to duodenal bulb ulcers. Treatment included transfusion of 2 units of packed red blood cells, 4 units of fresh frozen plasma, intravenous Vitamin K, and intravenous Protonix (pantoprazole); her INR was reduced to 1.3. An upper endoscopy revealed gastritis and two duodenal bulb ulcers that stabilized without intervention. She was discharged in stable condition with instructions to continue pantoprazole, phenobarbital, fluoxetine, and Colace, and to avoid anticoagulation due to bleeding risk.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with hematemesis (vomiting dark blood) as the chief complaint. Symptoms began suddenly over the past few days and include black, tarry stools (melena), right upper abdominal tenderness, lightheadedness, difficulty eating, decreased activity, and swelling in the lower legs; the leg swelling has been stable, and there is no dyspnea or orthopnea. The patient denies worsening leg swelling or shortness of breath. Relevant history regarding prior medical conditions, medications, or allergies is not specified. The clinical impression is upper gastrointestinal bleeding, possibly from the stomach or esophagus, with associated signs of possible blood loss. The physician advised urgent evaluation in the emergency department for further workup, including blood tests, vital sign monitoring, and possible imaging or endoscopy to identify the bleeding source. The patient was instructed to seek immediate care if symptoms worsen and confirmed they have transportation to the hospital.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.704
+- **Model Used**: general
+- **Text1 Length**: 140 words
+- **Text2 Length**: 146 words
+

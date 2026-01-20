@@ -85,16 +85,23 @@ Mild fatigue is common and sometimes resolves on its own, but if this continues 
 
 ## EHR Summary
 
-The patient is a 71-year-old female presenting with a chief complaint of aortic valve insufficiency. She reported recent onset of symptoms including increased weakness and fatigue. Her relevant medical history includes hypertension, nonsustained ventricular tachycardia (NSVT), atrial tachyarrhythmias, sinusitis, and reflux; she has no known drug allergies and was taking aspirin, enalapril, norvasc, and prilosec prior to admission. On admission, she underwent preoperative evaluation followed by an uncomplicated aortic valve repair. Postoperatively, she required atrial pacing and chest tube management, both discontinued within two days, and her recovery was stable with well-controlled pain and good ambulation. The documented diagnosis was aortic valve insufficiency requiring surgical repair. At discharge, she was stable and prescribed a seven-day course of Lasix and potassium chloride, as well as Percocet for pain, Colace for bowel management, and enteric-coated aspirin.
+The patient is a 71-year-old female presenting with a chief complaint of aortic valve insufficiency. She reported recent onset of symptoms including increased weakness and fatigue. Her relevant medical history includes hypertension, nonsustained ventricular tachycardia (NSVT), atrial tachy-arrhythmias, sinusitis, and reflux; she has no known drug allergies and was taking aspirin, enalapril, Norvasc, and Prilosec prior to admission. The documented diagnosis was aortic insufficiency. She underwent an aortic valve repair without complications and recovered well postoperatively. Discharge medications included Lasix, potassium chloride, Percocet as needed for pain, Colace, and enteric coated aspirin. She was discharged in stable condition with instructions to follow up with her surgeon in four weeks, her cardiologist in two to four weeks, and her primary care physician in two to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with a chief complaint of feeling more weak than usual over the past couple of weeks. Symptoms included a constant sense of low energy and increased tiredness during daily activities, with some improvement after resting but persistent fatigue overall; there was no true loss of muscle strength, shortness of breath, chest discomfort, balance issues, or changes in sleep, appetite, or weight. No relevant medical history, medications, or allergies were mentioned. The patient described difficulty with routine tasks due to tiredness but denied other concerning symptoms. The doctor assessed that the patient is experiencing general fatigue without red-flag symptoms, possibly related to mild infection, stress, dehydration, or age-related changes, but found no evidence of urgent underlying conditions. The doctor recommended maintaining good hydration, eating regular balanced meals, pacing activities, and monitoring for new symptoms such as fever, unexplained weight loss, dizziness, or confusion. If symptoms persist beyond another week or two or worsen, the doctor advised scheduling a check-up and considering basic bloodwork to rule out causes like anemia or thyroid dysfunction.
+The patient presents with a chief complaint of increased weakness and low energy. The symptoms have been constant throughout the day for approximately two weeks, making daily activities more difficult and causing increased fatigue with exertion; resting provides only partial relief. The patient denies associated symptoms such as dyspnea, chest discomfort, balance problems, changes in sleep, appetite, or weight, and describes the weakness as general tiredness rather than true loss of muscle strength. No relevant past medical history, medications, or allergies were discussed in the dialogue.
+
+The clinical impression is mild, nonspecific fatigue without urgent warning signs. The treatment plan includes recommendations for maintaining hydration, eating regular balanced meals, pacing activities, and monitoring for new or worsening symptoms such as fever, unexplained weight loss, dizziness, or confusion. The patient was advised to seek further evaluation if symptoms persist beyond another week or two or if they worsen, with possible consideration of basic bloodwork to rule out underlying causes like anemia or thyroid dysfunction.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
+- **STS Score**: 0.434
+- **Model Used**: general
+- **Text1 Length**: 126 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

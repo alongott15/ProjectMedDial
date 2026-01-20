@@ -87,16 +87,21 @@ My recommendation is to monitor for any warning signs—like sudden worsening of
 
 ## EHR Summary
 
-The patient is a 70-year-old male presenting for cardiac clearance prior to scheduled abdominal aortic aneurysm repair. He reports a history of coronary artery disease with prior myocardial infarction, coronary artery bypass grafting, and peripheral vascular disease. Recent testing revealed an ejection fraction of 43%, 50–70% carotid stenosis, and stress-induced inferior apical and lateral wall ischemia. Physical examination showed stable vital signs and no acute abnormalities were noted. Laboratory values were within normal limits. The documented assessment includes coronary artery disease, peripheral vascular disease, hypertension, abdominal aortic aneurysm, hyperlipidemia, and prior cerebrovascular accident. His medication regimen on admission included aspirin, diltiazem, atenolol, and isosorbide dinitrate. The treatment plan focused on preoperative cardiac evaluation and optimization of medical therapy in preparation for surgery.
+The patient is a 70-year-old male admitted for cardiac clearance and management prior to scheduled abdominal aortic aneurysm repair. He has a history of coronary artery disease, prior myocardial infarction, coronary artery bypass grafting, peripheral vascular disease, hypertension, hyperlipidemia, and prior cerebrovascular accident. During admission, he underwent a redo coronary artery bypass graft x3 due to significant coronary lesions and ischemia noted on stress testing. Postoperatively, he experienced hypoxemia with high sputum production and required supplemental oxygen and aggressive pulmonary care; chest x-ray suggested pneumonia, and he was started on levofloxacin for a presumptive diagnosis of pneumonia. He also received intravenous Lasix for fluid management and albuterol/Atrovent nebulizers for airway support. Sputum cultures were negative, and his pulmonary status improved with treatment. Physical therapy was consulted for mobility, and the patient was gradually weaned from oxygen as his condition stabilized. He continued on his cardiac medications and was discharged in stable condition with ongoing pulmonary and cardiac care recommendations.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening breathing difficulties and chest discomfort over the past several days. Symptoms included shortness of breath with minimal activity, increased fatigue when breathing worsens, and a productive cough with thick, pale sputum; the patient denied blue lips, fingertip discoloration, chest pain radiating to the arm/jaw/back, sweating, nausea, swelling in the ankles/feet, or sudden weight gain. The patient reported occasional drops in oxygen levels with activity and referenced prior stress test findings of inferior apical and lateral wall ischemia. No allergies or current medications were mentioned. On review, there were no acute physical findings such as cyanosis or peripheral edema described by the patient. The doctor assessed that the symptoms could be due to mild respiratory infection or chronic airway irritation, with possible contribution from cardiac ischemia, but noted the absence of urgent warning signs. The doctor advised monitoring for sudden worsening of breathlessness at rest, new chest pain, fainting, or leg swelling and recommended staying hydrated and pacing activities; no specific treatment for cough and sputum was given beyond continued observation.
+The patient presents with gradually worsening shortness of breath and chest discomfort as the chief complaint. Symptoms include exertional dyspnea that limits daily activities, increased fatigue during episodes, and a productive cough with thick, pale sputum over several days; there is no hemoptysis, orthopnea, paroxysmal nocturnal dyspnea, peripheral edema, or classic anginal symptoms such as radiating chest pain, sweating, or nausea. The patient reports intermittent drops in oxygen saturation with activity and has a history of inferior apical and lateral wall ischemia noted on a prior stress test. No acute signs of cyanosis or heart failure were reported. The clinical impression is that both respiratory (possible mild infection or airway irritation) and cardiac factors (history of ischemia) may be contributing to the patient’s symptoms. The physician advised monitoring for warning signs such as sudden worsening of breathlessness at rest, new chest pain, fainting, or leg swelling, and to seek prompt care if these develop. Supportive recommendations included staying well-hydrated and pacing activities. No new medications or interventions were initiated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.931
-- **Similarity Label**: N/A
+- **STS Score**: 0.464
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

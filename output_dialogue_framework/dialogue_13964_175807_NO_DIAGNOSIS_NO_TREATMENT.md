@@ -87,16 +87,21 @@ How much is this affecting your day-to-day life? Are there specific activities y
 
 ## EHR Summary
 
-The patient is an 88-year-old female presenting with right hand weakness, clumsiness, and shaking, which developed over the course of a week. Symptoms included inability to pick up objects or cut food with her right hand, following a minor head injury four weeks prior that initially caused a left-sided headache without loss of consciousness, nausea, or vomiting. Her medical history includes noninsulin dependent diabetes and congestive heart failure; current medications are Prevacid, atenolol, K-Ciel, Lasix, and aspirin. Physical examination revealed trace pronator drift and decreased strength in the right upper extremity, slowed coordination on the right, decreased palm sensation to temperature, and positive nystagmus. Laboratory results showed mild hyponatremia and elevated creatinine. Head CT demonstrated a subacute left subdural hematoma with no interval increase. The documented diagnosis was subacute left subdural hematoma. The patient was monitored during her hospital stay; specific treatments or interventions were not detailed in the note.
+The patient is an 88-year-old woman presenting with right hand clumsiness, weakness, and shaking, following a minor head injury four weeks prior. She initially experienced a week of left-sided headache without nausea or vomiting, and a CT scan at that time showed a minuscule bleed. Her symptoms progressed to right hand dysfunction, including inability to pick up objects and difficulty cutting food, prompting emergency evaluation. Relevant history includes noninsulin dependent diabetes and congestive heart failure; medications on admission included Prevacid, atenolol, K-Ciel, Lasix, and aspirin, with no known drug allergies. Head CT on admission revealed a subacute left subdural hematoma with no interval increase. During hospitalization, she had one episode of acute confusion and combativeness that resolved after Haldol administration, with mental status remaining clear thereafter. The patient was treated with close neurological monitoring, supportive care, and started on Dilantin for seizure prophylaxis. She was discharged in stable condition with recommendations for a short rehabilitation stay, follow-up with her physician in two weeks, and repeat head CT.
+
 
 ## Dialogue Summary
 
-The patient presented with shakiness and clumsiness in the right hand, making tasks such as cutting food and writing more difficult. The symptoms have been progressively worsening and are present most of the time, with clumsiness becoming more noticeable during fine motor activities; there is no associated numbness, sensory changes, or true weakness, though grip feels less steady. The patient also reported a left-sided headache and a single prior episode of confusion and combative behavior during a previous admission, but denied any vision or speech changes and has not had further episodes of confusion. No allergies or medications were mentioned. On examination, there were no reports of numbness, weakness, or sensory loss, and the shakiness does not change when holding the hand still. The doctor assessed that the persistent right hand shakiness and clumsiness, in the context of a prior episode of confusion, could be related to neurological changes and warrants monitoring. The doctor recommended using adaptive tools with larger handles, taking extra time with fine motor tasks, ensuring a safe environment to prevent falls, and seeking prompt medical attention if new symptoms such as weakness, numbness, vision changes, or confusion occur.
+The patient presents with a chief complaint of shakiness and clumsiness in the right hand. Symptoms have been progressively worsening, with persistent tremor and difficulty performing fine motor tasks such as cutting food and writing; there is no associated numbness, weakness, or sensory changes, and the shakiness does not fluctuate with rest or activity. The patient reports a one-time episode of confusion and combative behavior during a prior admission, but no recurrence since then; there is also a history of left-sided headache but no vision or speech changes. The patient retains grip strength but describes decreased steadiness in the right hand. The clinical impression is that the symptoms may be related to neurological changes, possibly involving nerves or brain function, though no specific diagnosis is documented. The treatment plan includes monitoring for new symptoms (such as weakness, numbness, vision changes, or confusion), using adaptive tools with larger handles for daily tasks, taking extra time with fine motor activities, and ensuring a safe environment to prevent falls. The patient is advised to seek prompt medical attention if symptoms worsen or new neurological symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.524
+- **Model Used**: general
+- **Text1 Length**: 167 words
+- **Text2 Length**: 183 words
+
 
 ## Processing Information
 

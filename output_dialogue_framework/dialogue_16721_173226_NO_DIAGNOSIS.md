@@ -96,3 +96,21 @@ Let me know if you have any questions about managing this at home or if you'd li
 ## Processing Information
 
 - **Processing Time**: 428.4s
+
+## EHR Summary
+
+The patient is a 59-year-old man admitted after being found down on the street with possible seizure activity. On arrival, he was tremulous, tachycardic, hypertensive, agitated, and confused, with increasing benzodiazepine requirements and evidence of delirium. His past medical history and allergies were unknown; he is apparently homeless with an unclear alcohol use history. The documented diagnoses were alcohol withdrawal, delirium tremens, and aspiration pneumonia. He was treated with an Ativan drip, then transitioned to oral Librium and Ativan as needed, and completed a 14-day course of levofloxacin and Flagyl for aspiration pneumonia. He required intubation for respiratory distress but was extubated without difficulty. Right shoulder weakness was noted but improved with physical therapy; imaging revealed small bilateral subdural hematomas and pontine myelinolysis consistent with alcohol toxicity. At discharge, his condition was stable and he was transferred to rehabilitation.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with shoulder weakness as the chief complaint. The weakness began a few days ago, has not worsened, and is most noticeable during activities such as lifting heavy objects or reaching overhead; it is not present at rest. The patient denies pain, numbness, tingling, swelling, recent injuries, changes in activity, or recent illnesses, and reports full range of motion without stiffness. There is no relevant past medical history or medication use documented. The clinical impression is isolated shoulder weakness without associated neurological or traumatic symptoms, likely due to minor strain, overuse, or subtle postural changes. The treatment plan includes monitoring symptoms, performing gentle range-of-motion exercises, and avoiding heavy lifting. The patient was advised to seek further evaluation if new symptoms develop or if the weakness worsens.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.455
+- **Model Used**: general
+- **Text1 Length**: 139 words
+- **Text2 Length**: 131 words
+

@@ -87,16 +87,21 @@ Does that make sense? Is there anything else you’re concerned about or any que
 
 ## EHR Summary
 
-The patient is a 69-year-old male presenting with a one-month history of feeling poorly, headache, and diaphoresis. Symptoms began at the start of the month and prompted further cardiac evaluation. Relevant history includes hypertension, hypercholesterolemia, prior abdominal aortic aneurysm repair, aortobifemoral bypass, pulmonary embolus, mild thrombocytopenia, gout, benign prostatic hypertrophy, basal-cell carcinoma, and former tobacco use. Preoperative medications included aspirin, Zestril, doxazosin, Lipitor, allopurinol, vitamin E, fish oil, calcium, and multivitamins. Physical examination showed a pulse of 63, blood pressure 110/60, oxygen saturation 95%, regular heart rhythm with a 2/6 systolic murmur and S4, clear lungs, and no edema. Cardiac testing revealed significant coronary artery disease with multiple stenoses (up to 75%) and a normal ejection fraction on echocardiogram. The documented diagnosis was severe multivessel coronary artery disease. The patient was referred for coronary artery bypass surgery.
+The patient is a 69-year-old male presenting with a one-month history of feeling poorly, headache, and diaphoresis. He had a positive stress test for inferolateral ST depression and cardiac catheterization revealed significant multi-vessel coronary artery disease, including 40-60% left main stenosis and multiple other lesions. His past medical history includes hypertension, hypercholesterolemia, prior abdominal aortic aneurysm repair, aortobifemoral bypass, pulmonary embolus, mild thrombocytopenia, gout, benign prostatic hypertrophy, basal-cell carcinoma of the skin, and former tobacco use. The documented diagnosis was status post coronary artery bypass graft (CABG) for multi-vessel coronary artery disease. Treatment included CABG x4 (LIMA to LAD, SVG to OM1 and OM2, SVG to PDA), postoperative monitoring, and gradual ambulation with physical therapy. Discharge medications included Lopressor, Lasix, potassium supplement, aspirin, Percocet, ibuprofen, Lipitor, and allopurinol. The patient was discharged home in stable condition with instructions for wound check in two weeks and follow-up with his surgeon and cardiologist in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with feeling poorly for about a month. Symptoms included a persistent headache present most of the time and increased sweating occurring both during the day and at night, with no identifiable triggers such as activity, food, or temperature changes. The patient denied changes in appetite, fevers, chills, weight loss, or swollen glands, and rated overall unwellness as 6 out of 10 in severity. No relevant medical history, new medications, recent illness, or increased stress were reported. The doctor noted that daily activities were somewhat slowed but not completely stopped by these symptoms. The assessment was that the symptoms could be related to mild infections, hormonal changes, medication effects, or underlying health issues, with reassurance given due to the absence of red flag symptoms. The doctor recommended monitoring for new symptoms (such as fever, confusion, chest pain, or significant health changes), staying hydrated and resting, and advised a check-up and possible lab tests if symptoms worsen or new issues arise.
+The patient is an adult presenting with a chief complaint of feeling unwell for about one month. Key symptoms include a persistent, mostly constant headache and increased sweating occurring both during the day and at night, without identifiable triggers such as activity, food, or temperature changes. The symptoms have moderately impacted daily activities (rated 6/10 in severity), but the patient denies associated fever, chills, weight loss, or swollen glands. There is no relevant recent illness, medication change, or increased stress reported. The clinical impression discussed includes possible common causes such as mild infections, hormonal changes, medication effects, or underlying health issues, with consideration to rule out thyroid problems or blood sugar changes. No definitive diagnosis was documented during the visit. The treatment plan includes monitoring for new symptoms (such as fever, confusion, chest pain), maintaining hydration and rest, and seeking further evaluation if symptoms worsen or new issues develop. Basic lab tests may be considered if symptoms persist or progress.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.432
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

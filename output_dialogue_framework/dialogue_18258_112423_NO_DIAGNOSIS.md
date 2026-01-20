@@ -85,16 +85,21 @@ For now, rest, stay hydrated with small sips of water or clear fluids, and avoid
 
 ## EHR Summary
 
-The patient is a 74-year-old female presenting with right-sided abdominal pain. She reported dull, aching, constant right upper quadrant pain for several days, which was nonradiating and triggered by movement, along with a fever of 101.8°F, nausea, one episode of emesis, and a large loose bowel movement (C. difficile negative) prior to admission. Her medical history includes type 2 diabetes mellitus, hypothyroidism, asthma, schizophrenia, and prior MRSA infection of the right foot. On admission, her vital signs showed a temperature of 102.1°F, heart rate of 107 bpm, blood pressure of 120/44 mmHg, respiratory rate of 14, and oxygen saturation of 97% on room air. The documented diagnosis is not specified in the provided note. Her home medications included insulin NPH, Levoxyl, Risperdal, a multivitamin, and Peri Colace. No known drug allergies were reported. The treatment plan and specific recommendations are not detailed in the available text.
+The patient is a 74-year-old female presenting with right upper quadrant abdominal pain. She reported a dull, aching, constant pain that was movement-related, accompanied by fever (101.8°F), nausea, one episode of emesis, and a large loose bowel movement; physical exam revealed right upper quadrant tenderness, voluntary guarding, and decreased bowel sounds. Her medical history includes type 2 diabetes mellitus, hypothyroidism, asthma, schizophrenia, and prior MRSA infection of the right foot. Laboratory findings showed leukocytosis (WBC 15.3), and imaging demonstrated a thickened gallbladder wall with pericholecystic fluid and sludge but no stones. The documented diagnosis was acalculous cholecystitis. She underwent placement of a cholecystostomy tube and received intravenous antibiotics (Ampicillin, Ceftriaxone, Flagyl), later transitioned to oral Amoxicillin and Levofloxacin for a 14-day course. The patient’s abdominal pain improved, and she was discharged in stable condition with instructions for cholecystostomy tube care and follow-up.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent pain in the upper right abdomen. The pain had been constant for several days, rated as 7 out of 10 in severity, and was worsened by pressing on the area; movement did not provide relief. Associated symptoms included fever, nausea, vomiting (once or twice), decreased appetite, and a recent large, loose bowel movement; the patient denied yellowing of the skin or eyes, dark urine, constipation, or changes in stool color. No relevant medical history, medications, or allergies were discussed. On examination, the patient described tenderness in the upper right abdomen when pressed. The doctor assessed that the symptoms suggested inflammation or irritation in the upper right abdomen, possibly involving the liver or gallbladder, and noted that fever and digestive upset could indicate infection or inflammation. The doctor advised rest, hydration with clear fluids, and avoidance of fatty or heavy foods, with instructions to seek prompt medical attention if symptoms worsened or new concerning signs developed. The patient was encouraged to monitor for severe tenderness, confusion, inability to keep fluids down, or jaundice and to discuss any medication concerns as needed.
+The patient is an adult presenting with right upper abdominal pain as the chief complaint. The pain has been constant for several days, rated 7 out of 10 in severity, worsened by palpation, and associated with fever, nausea, vomiting (once or twice), decreased appetite, and a recent large loose bowel movement. The patient denies jaundice, dark urine, or changes in stool color. There is no mention of relevant past medical history, medications, or allergies in the dialogue. The clinical impression is possible inflammation or infection involving the upper right abdomen, with differential considerations including gallbladder problems or a mild digestive tract infection. The treatment plan includes rest, maintaining hydration with clear fluids, and avoiding fatty or heavy foods. The patient was advised to seek prompt medical attention if symptoms worsen or new concerning signs develop (such as severe tenderness, jaundice, or inability to keep fluids down).
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.606
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 146 words
+
 
 ## Processing Information
 

@@ -87,16 +87,23 @@ Let me know if you have any questions or concerns about what we’ve talked abou
 
 ## EHR Summary
 
-The patient is a 71-year-old male presenting after an abnormal electrocardiogram with T wave inversions in V5-V6 was found on routine office visit. He was asymptomatic at that time but developed shortness of breath, without chest pain, during a positive exercise tolerance test. Relevant history includes hypercholesterolemia and a history of smoking; home medications included Lipitor, aspirin, and atenolol. Cardiac catheterization revealed left main coronary artery 40% stenosis with dissection, 50% distal occlusion, and 80% ostial occlusion of the LAD, with an ejection fraction of 35%. The documented diagnosis was significant coronary artery disease. He underwent coronary artery bypass grafting (LIMA to LAD and SVG to PDA) and had an uncomplicated postoperative course. On discharge, he was stable, afebrile, with clear lungs, regular heart rhythm, and a clean, intact incision. Discharge medications included Lopressor, Lasix, potassium chloride, aspirin, Lipitor, Percocet as needed, and Colace; he was advised to follow up with his physician.
+The patient is a 71-year-old male presenting after abnormal electrocardiogram findings (T wave inversions in V5-V6) discovered during a routine office visit. He was asymptomatic at first but developed shortness of breath during a positive exercise tolerance test; he denied chest pain. Relevant history includes hypercholesterolemia and a history of smoking, with home medications of Lipitor, aspirin, and atenolol. Cardiac catheterization revealed significant coronary artery disease with left main coronary artery stenosis and LAD occlusion, and his ejection fraction was 35 percent. The documented diagnosis was severe coronary artery disease. He underwent coronary artery bypass grafting (LIMA to LAD and SVG to PDA) without complications and recovered well postoperatively. Discharge medications included Lopressor, Lasix, potassium chloride, aspirin, Lipitor, Percocet as needed, and Colace. He was advised to follow up in three to four weeks and arranged for home nursing care for wound checks, vital sign monitoring, and physical therapy.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath experienced during a recent exercise test. The symptom was described as a mild sensation that built up gradually with exertion, resolved quickly upon rest, and did not occur during routine daily activities, sleep, or in response to weather changes; no associated wheezing, coughing, chest discomfort, or inability to catch breath was reported. The patient denied recent infections, changes in weight or appetite, and nighttime breathing issues. No physical findings were noted during the conversation. The doctor assessed that the mild exertional breathlessness is likely related to fitness level or normal aging and is not accompanied by concerning symptoms. The doctor advised the patient to stay active within their comfort zone, gradually increase activity level, and monitor for any worsening or new symptoms such as chest discomfort, dizziness, or swelling. Further discussion about safe ways to build exercise tolerance was offered if desired.
+The patient presented with exertional shortness of breath noticed during a recent exercise test. The symptom was described as mild, developed gradually with increased activity, and resolved quickly with rest; it does not occur during routine daily activities, sleep, or in response to weather changes. The patient denied associated symptoms such as wheezing, cough, chest discomfort, or orthopnea, and reported no recent infections or changes in weight or appetite. There is no relevant past medical history, medications, or allergies documented in this encounter.
+
+The clinical impression was that the mild exertional dyspnea is likely related to normal aging or current fitness level, rather than an acute or serious underlying condition. The doctor advised monitoring for any worsening symptoms or new associated features such as chest pain, dizziness, or swelling. The treatment plan included reassurance, encouragement to remain active within the patient’s comfort zone, and consideration of gradually increasing exercise tolerance. No medications or further diagnostic testing were recommended at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.936
-- **Similarity Label**: N/A
+- **STS Score**: 0.482
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

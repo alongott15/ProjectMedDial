@@ -87,16 +87,21 @@ Would you say these symptoms are making it difficult to manage your normal routi
 
 ## EHR Summary
 
-The patient is a 52-year-old female presenting with abdominal distention. She reported a 3-month history of increasing abdominal girth, acutely worsening over the past three weeks, accompanied by dyspnea and lower extremity edema. Additional symptoms included mild periumbilical pain, possible chills, nausea, vomiting, jaundice (yellowing of eyes), dark urine, and melena (tarry stools); she denied fever, headache, and chest pain. Her medical history includes hypertension, hypercholesterolemia, and alcohol dependence, with a 40-pack-year smoking history and no known drug allergies. On examination, she was anxious but not in acute distress, with tachycardia (heart rate 125), a distended and taut abdomen, periumbilical tenderness, and clear lungs. No diagnosis is explicitly documented in the provided note. No specific treatments or recommendations are mentioned in the excerpt.
+The patient is a 52-year-old female presenting with abdominal distention. She reported a 3-month history of increasing abdominal girth, acutely worsening over the past three weeks, accompanied by dyspnea, lower extremity edema, mild periumbilical pain, possible chills, nausea, vomiting, jaundice, dark urine, and melena. Her relevant history includes hypertension, hypercholesterolemia, alcohol dependence, and a 40-pack-year smoking history; she has no known drug allergies and was not on medications at admission. Physical exam revealed a distended, tender abdomen, bilateral lower extremity edema, spider angiomata, and palmar erythema. Imaging and biopsy confirmed ascites due to chronic liver disease with toxic metabolic injury and fibrosis, likely related to alcohol use; portal hypertension was also documented. The hospital course included paracentesis, aggressive diuresis with furosemide and spironolactone, pentoxifylline, prophylactic antibiotics for possible infection, and transfusion for a drop in hematocrit; no active gastrointestinal bleeding was found. At discharge, her condition was stable and she was sent home with instructions to follow up in the Liver Clinic and with a new primary care physician. Discharge medications included folic acid, thiamine, pantoprazole, pentoxifylline, furosemide, and spironolactone.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent abdominal bloating and distension interfering with daily activities. Symptoms discussed included constant abdominal bloating, difficulty breathing (especially when bloating is severe), increased difficulty with walking and climbing stairs, dark (almost black) stools, a dull ache around the belly button rated 4/10 in intensity, swelling in the legs, recent weight gain suggestive of fluid retention, mild nausea, and occasional chills. The patient denied constipation or diarrhea and noted that symptoms did not change with food or activity. No specific medical history, medications, or allergies were mentioned. On assessment, the doctor noted the combination of abdominal bloating, leg swelling, shortness of breath, and weight gain as concerning for possible fluid buildup related to heart, liver, kidney, or digestive issues; dark stools were noted as possibly indicating gastrointestinal bleeding. The doctor recommended prompt follow-up with the patient's healthcare provider for an exam and basic tests such as blood work and imaging. The patient was advised to seek immediate medical attention if severe shortness of breath at rest, chest pain, confusion, or very tarry/bloody stools occurred.
+The patient presents with persistent abdominal bloating and distension as the chief complaint. Symptoms include constant abdominal bloating, shortness of breath that worsens with bloating, dull periumbilical abdominal pain rated 4/10, swelling in the legs, recent weight gain suggestive of fluid retention, dark (almost black) stools, mild nausea, chills, and increased fatigue with daily activities. The patient denies constipation or diarrhea, and symptoms are not affected by food or activity. Relevant history, medications, and allergies are not specified. The clinical impression is possible fluid buildup in the body, potentially related to cardiac, hepatic, renal, or gastrointestinal causes; dark stools may indicate gastrointestinal bleeding. The doctor recommends prompt evaluation by a healthcare provider, including physical examination and basic tests such as blood work and imaging. The patient is advised to seek immediate medical attention if severe shortness of breath at rest, chest pain, confusion, or overt gastrointestinal bleeding occurs.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.969
-- **Similarity Label**: N/A
+- **STS Score**: 0.550
+- **Model Used**: general
+- **Text1 Length**: 180 words
+- **Text2 Length**: 148 words
+
 
 ## Processing Information
 

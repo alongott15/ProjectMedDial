@@ -85,16 +85,21 @@ For now, I recommend you avoid strenuous activity until we know more. If you not
 
 ## EHR Summary
 
-The patient is a 52-year-old male presenting with chest pain of several weeks' duration, without pain at rest. He reported increased symptoms prior to admission and had previously used sublingual nitroglycerin. Relevant history includes atrial fibrillation, hypertension, depression, and former tobacco use; home medications included Lopressor, Coumadin, and aspirin, with no known drug allergies. Cardiac catheterization revealed an ejection fraction of 67% and significant coronary artery stenoses (90% mid-LAD, 60% proximal circumflex, 60% OM2). The documented diagnosis was severe coronary artery disease. He underwent off-pump coronary artery bypass grafting (CABG) with LIMA to LAD and saphenous vein graft to OM1, tolerating the procedure well without complications. Postoperatively, he developed atrial fibrillation controlled with intravenous Lopressor and Amiodarone. Physical therapy was initiated and the patient demonstrated good progress with ambulation.
+The patient is a 52-year-old male presenting with several weeks of chest pain, without pain at rest. He reported increased symptoms leading to hospital admission and had a stress test showing diffuse ST depression. His relevant history includes hypertension, paroxysmal atrial fibrillation (on Coumadin), depression, and former tobacco use; he has no known drug allergies. Cardiac catheterization revealed significant coronary artery disease with 90% mid-LAD stenosis and additional lesions. The documented diagnosis was coronary artery disease, status post off-pump coronary artery bypass graft times two. Treatment included LIMA graft to the LAD and saphenous vein graft to the OM1, with postoperative management of atrial fibrillation using intravenous Lopressor, Amiodarone, and diltiazem, later transitioned to oral medications. At discharge, he was stable, ambulating well, and prescribed Lopressor, Lasix, KayCiel, aspirin, Plavix (with instructions to resume Coumadin after Plavix is discontinued), Amiodarone taper, Cardizem CD, Percocet, and Colace. Follow-up with his cardiologist and primary care physician was advised in approximately three weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening chest pain as the chief complaint. The chest pain began a few days ago and has increased in severity, now rated as 7 out of 10 with activity, and is notably worse with exertion but improves somewhat with rest; eating and deep breathing do not affect the pain. The patient denied associated symptoms such as shortness of breath, sweating, lightheadedness, cough, fever, or leg swelling. The pain has significantly impacted daily activities, requiring the patient to slow down and stop some usual tasks. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of other concerning symptoms but highlighted that chest discomfort worsening with exertion could be related to cardiac or musculoskeletal causes. The doctor advised the patient to avoid strenuous activity until further evaluation and instructed them to seek prompt medical attention if new symptoms such as sudden shortness of breath, nausea, or persistent pain develop. Further evaluation was recommended to rule out urgent causes and determine the underlying issue.
+The patient presents with worsening chest pain as the chief complaint. The chest pain began a few days ago and has increased in severity, now rated 7 out of 10 with activity, and is significantly impacting daily activities. The pain is exacerbated by exertion and relieved somewhat by rest; it is not affected by eating or deep breathing. The patient denies associated symptoms such as shortness of breath, sweating, lightheadedness, cough, fever, or leg swelling. Relevant medical history, medications, and allergies are not specified. The clinical impression is that the chest pain could be related to cardiac or musculoskeletal causes, but no definitive diagnosis is documented. The treatment plan includes avoiding strenuous activity and monitoring for new symptoms such as sudden shortness of breath, nausea, or persistent pain. Further evaluation is recommended to rule out urgent causes of chest pain.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.409
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 140 words
+
 
 ## Processing Information
 

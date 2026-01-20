@@ -85,16 +85,23 @@ If you notice new symptoms like shortness of breath, chest pain, sudden worsenin
 
 ## EHR Summary
 
-The patient is a 72-year-old female presenting for management of an ascending thoracic aneurysm. She was found to have mild aortic insufficiency on outpatient cardiac catheterization prior to admission. Her past medical history includes sinus infections and aortic aneurysm, with prior pericardectomy and cesarean section; home medications included hydrochlorothiazide, atenolol, and Ecotrin. On admission, laboratory results were within normal limits, but urinalysis revealed a urinary tract infection, for which she received three days of ciprofloxacin. The documented diagnosis was ascending thoracic aneurysm. On [2115-2-19], she underwent surgical repair of the ascending thoracic aneurysm and replacement of the ascending aorta under general anesthesia. Postoperatively, she was managed with a Nipride drip and hydralazine to control blood pressure and was transferred to the floor after stabilization. Physical therapy was involved in her postoperative care, and she did well during her hospital course.
+The patient is a 72-year-old female presenting for management of an ascending thoracic aneurysm. She was found to have mild aortic insufficiency on outpatient cardiac catheterization prior to admission. Her past medical history includes sinus infections and aortic aneurysm, with prior pericardectomy and cesarean section; she is a former smoker with a family history of myocardial infarction. The documented diagnosis was ascending thoracic aneurysm. She underwent surgical repair and replacement of the ascending aorta under general anesthesia on hospital day two. During her hospital course, she was treated for a urinary tract infection with ciprofloxacin, managed postoperatively with antihypertensive medications, and received physical therapy. At discharge, her medications included Captopril, Atenolol, Lasix (for five days), Motrin for pain (due to opioid allergy), and other supportive medications. She was discharged in good condition with follow-up arranged with her primary care physician and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble related to a urinary tract infection. They reported urinary discomfort and increased frequency, as well as gradual swelling in the legs and ankles, which has made it harder to get around but has not worsened over the past few days. The patient also described experiencing loose stools on and off recently, but denied any fever or chills. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted mild urinary symptoms and gradual peripheral edema without acute changes. The assessment was a mild urinary tract infection with associated leg swelling likely due to fluid retention or decreased activity, and loose stools possibly from mild gut upset. The doctor recommended monitoring for worsening symptoms, elevating the legs, staying hydrated, gentle movement, and provided advice on self-care for urinary symptoms and swelling; urgent care was advised if new symptoms such as fever, chest pain, or rapid swelling occurred.
+The patient is an adult presenting with urinary discomfort and increased urinary frequency as the chief complaint. Symptoms include dysuria, urinary frequency, gradual onset of bilateral lower extremity swelling (noted especially around the ankles), and intermittent loose stools over the past few days. The patient reports that the leg swelling has remained stable recently and denies fever or chills. There is no mention of relevant past medical history, medications, or allergies in the dialogue.
+
+The clinical impression is a mild urinary tract infection with associated lower extremity edema, likely related to fluid retention, decreased activity, or circulation changes, and possible mild gastrointestinal upset. The physician notes that the case appears mild given the absence of systemic symptoms or rapid progression. The treatment plan includes monitoring for worsening symptoms, elevating the legs when sitting, maintaining hydration, gentle movement to improve circulation, and home management of discomfort. The patient is advised to seek prompt care if new symptoms such as shortness of breath, chest pain, sudden worsening of swelling, or fever develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.930
-- **Similarity Label**: N/A
+- **STS Score**: 0.408
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

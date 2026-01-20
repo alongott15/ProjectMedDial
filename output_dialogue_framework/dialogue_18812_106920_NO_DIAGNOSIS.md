@@ -85,16 +85,21 @@ If you notice severe shortness of breath, sudden chest pain, or any further fain
 
 ## EHR Summary
 
-The patient is a 19-year-old female presenting with emboli as the chief complaint. She experienced chest pain, shortness of breath, and two episodes of syncope, along with a recent history of left lower extremity pain and swelling two weeks prior. Her past medical history includes asthma diagnosed one month ago, and she is currently taking Diflucan, ibuprofen, azithromycin, heparin, and birth control; she has no known drug allergies. On admission, her heart rate was in the 140s with hypotension (BP 86/40), and subsequent evaluation revealed tachycardia (HR 120s) and systolic blood pressure in the 110-120s. Chest x-ray was negative, but CT angiogram confirmed a pulmonary embolism. The documented diagnosis was pulmonary embolism. Treatment included initiation of heparin and transfer for thrombolysis.
+The patient is a 19-year-old female presenting with emboli. She reported chest pain, shortness of breath, pleuritic chest pain, syncope, and a recent history of left lower extremity pain and swelling; symptoms included tachycardia, hypotension, and mild respiratory distress. Her past medical history includes asthma diagnosed one month prior, and she was taking ibuprofen, azithromycin, Diflucan, Heparin, and oral contraceptives; there are no known drug allergies. Family history is notable for deep venous thrombosis in her father and grandmother. Imaging revealed large pulmonary emboli extending to the left pulmonary artery, and laboratory studies showed leukocytosis and sinus tachycardia on ECG. The documented diagnosis was pulmonary embolism, likely related to a genetic predisposition and oral contraceptive use. Treatment included Heparin infusion, thrombolysis with TPA, transition to Coumadin with INR monitoring, and initiation of calcium carbonate and vitamin D. She was advised to avoid oral contraceptives and follow up with Hematology for a hypercoagulability workup.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain and difficulty breathing. The chest pain was described as sharp, rated 6 out of 10 in severity, and worsened with inspiration; it was intermittent rather than constant. The patient also reported shortness of breath, which was most noticeable when sitting up, occasional lightheadedness, one episode of fainting, a cough, and new onset left leg pain and swelling that began a few days ago and has been worsening. There was no history of leg injury or known triggers for the leg symptoms. On assessment, the doctor noted the combination of chest discomfort, breathing difficulty, fainting, and unilateral leg swelling and pain as concerning for a possible blood clot that may have traveled from the leg to the lungs (suggestive of pulmonary embolism). The doctor advised prompt medical evaluation due to the seriousness and progression of symptoms, recommended avoiding strenuous activity, and suggested elevating the affected leg. The patient was instructed to seek emergency care if severe shortness of breath, sudden chest pain, or further fainting occurred.
+The patient is an adult presenting with chest pain and shortness of breath as the chief complaint. The chest pain is described as sharp, rated 6 out of 10, worsens with inspiration, and is intermittent. The patient also reports dyspnea that is more pronounced when sitting up, occasional symptoms with activity, lightheadedness, a recent fainting episode, cough, and new onset of left leg pain and swelling that began a few days ago and is worsening. There is no history of leg injury or trauma. The clinician’s assessment suggests concern for a possible blood clot (deep vein thrombosis) with potential pulmonary embolism, given the combination of chest symptoms, syncope, and unilateral leg swelling. The patient was advised to seek prompt medical care, avoid strenuous activity, and keep the affected leg elevated. Emergency care was recommended if symptoms worsen, such as severe shortness of breath, sudden chest pain, or additional fainting.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.725
+- **Model Used**: general
+- **Text1 Length**: 153 words
+- **Text2 Length**: 149 words
+
 
 ## Processing Information
 

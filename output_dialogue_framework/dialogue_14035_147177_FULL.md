@@ -87,16 +87,21 @@ Does that all make sense so far, and is there anything else about your symptoms 
 
 ## EHR Summary
 
-The patient is a 75-year-old male presenting with acute shortness of breath for five hours. He experienced tachypnea, hypoxemia with room air saturation in the 70s, a temperature of 102.2°F, and was noted to cough while swallowing, suggesting possible aspiration. His past medical history includes hypertension, dementia, benign prostatic hypertrophy, hyperlipidemia, gastritis, gastroesophageal reflux disease, and a history of multiple falls. On examination, he was febrile (102.0°F), mildly arousable, and had an oxygen saturation of 96% on a non-rebreather mask. The clinical impression was presumed aspiration. Treatment included supplemental oxygen (non-rebreather and BiPAP), intravenous fluids (1500 cc), and antibiotics (Levofloxacin and Flagyl). He also received a pneumococcal vaccine during admission.
+The patient is a 75-year-old male presenting with acute shortness of breath for five hours, tachypnea, hypoxemia (room air saturation in the 70s), and fever (102.2°F), with presumed aspiration. He was noted to be coughing while swallowing on the morning of admission, and physical exam revealed crackles at the lung bases and respiratory distress. Past medical history includes hypertension, dementia (presumed Lewy body), benign prostatic hypertrophy, multiple falls, incontinence, hyperlipidemia, gastritis, GERD, and possible normal pressure hydrocephalus; medications include Depakote, Norvasc, aspirin, Prevacid, Risperdal, Zoloft, Ativan, Percocet, B12, Tylenol, and Anusol. The documented diagnosis was aspiration pneumonia with respiratory failure, with a differential including over-sedation from psychiatric medications. Treatment included BiPAP support, intravenous antibiotics (Levofloxacin, Flagyl, later Vancomycin for gram-positive cocci), intravenous fluids, and holding all oral medications; he was also started on IV Lopressor for hypertension and total parenteral nutrition after failing a bedside swallowing study. The patient’s respiratory status improved with therapy, and he was scheduled for a PICC line placement for continued IV antibiotics prior to discharge. He was maintained on droplet precautions pending final viral culture results despite negative influenza antigens. The patient’s code status is "Do Not Resuscitate" and "Do Not Intubate."
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening shortness of breath. Symptoms included difficulty catching breath that builds up over time, increased breathing rate (tachypnea) during episodes, a sensation of not getting enough air even with deep breaths, coughing that occurs often when swallowing (but not every time), intermittent abdominal pain, and a recent fever of 102.2°F. The patient denied wheezing, chest pain, or leg/ankle swelling, and noted that shortness of breath does not worsen when lying down. No specific medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the combination of gradually worsening dyspnea, fever, and cough with swallowing suggests a possible respiratory infection or throat/airway irritation, with less likelihood of serious heart or lung disease due to the absence of chest pain, wheezing, or edema. The doctor recommended monitoring temperature and breathing closely, resting, staying hydrated, and avoiding strenuous activity. The patient was advised to seek prompt medical attention if fever increases, new chest pain, confusion, or difficulty speaking develops, or if swallowing or breathing worsens.
+The patient presents with the chief complaint of gradually worsening shortness of breath (dyspnea), which has begun to interfere with daily activities. Symptoms include tachypnea, a sensation of not getting enough air even with deep breaths, and coughing that occurs primarily during swallowing; there is no wheezing or chest pain, but intermittent abdominal pain is reported. The patient recently experienced a fever of 102.2°F but denies leg or ankle swelling and notes that dyspnea does not worsen with changes in position. Relevant history regarding chronic medical conditions, medications, or allergies is not specified. The clinical impression is that the symptoms may be due to a mild respiratory infection or irritation in the throat or airway, with serious cardiac or pulmonary causes considered less likely given the absence of chest pain, wheezing, or edema. The treatment plan includes monitoring temperature and breathing, resting, maintaining hydration, and avoiding strenuous activity. The patient was advised to seek prompt medical attention if new symptoms such as higher fever, chest pain, confusion, or difficulty speaking develop, or if swallowing or breathing difficulties worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.581
+- **Model Used**: general
+- **Text1 Length**: 197 words
+- **Text2 Length**: 178 words
+
 
 ## Processing Information
 

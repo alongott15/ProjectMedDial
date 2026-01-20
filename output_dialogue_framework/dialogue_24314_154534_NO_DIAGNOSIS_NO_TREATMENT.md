@@ -98,3 +98,21 @@ Does that explanation make sense? Would you like advice on specific foods or str
 ## Processing Information
 
 - **Processing Time**: 417.9s
+
+## EHR Summary
+
+The patient is a female over 90 years old presenting with abdominal pain and bloating that worsened over several days. She experienced increasing abdominal distention, nausea, and vomiting, with no fevers or chills, and was found to have a large sigmoid filled with air consistent with sigmoid volvulus. Her past medical history includes hypertension and a prior upper gastrointestinal bleed after NSAID use; she has no known drug allergies and was taking Captopril, Isopt SR, Dyazide, and Paxil on admission. On examination, her abdomen was distended and diffusely tender, and imaging confirmed persistent sigmoid volvulus despite initial sigmoidoscopy. The documented diagnosis was sigmoid volvulus, status post sigmoid colectomy and end colostomy. Treatment included emergent surgery, postoperative antibiotics (Ceftriaxone and Flagyl), pain management with Percocet and a fentanyl patch, fluid management, and gradual advancement of diet. She was discharged in stable condition to a rehabilitation facility with instructions for follow-up wound care and staple removal.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with abdominal pain as the chief complaint. Symptoms include moderate abdominal discomfort, visible bloating with a sense of fullness, occasional nausea, and one or two episodes of vomiting over several days; there are no changes in bowel movements, and the symptoms are not worsening. The discomfort is affecting daily activities but not completely preventing them. Relevant history regarding past medical conditions, medications, or allergies was not specified. The clinical impression was a common digestive issue such as indigestion, mild gastritis, or temporary bloating, possibly due to dietary factors or a minor viral stomach bug. The treatment plan includes eating smaller, bland meals, staying hydrated, and avoiding fatty, spicy, or highly processed foods. The patient was advised to monitor for new or worsening symptoms such as persistent vomiting, severe pain, fever, or blood in stool or vomit, and to seek medical care if these occur. Additional dietary advice was requested by the patient.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.485
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 158 words
+

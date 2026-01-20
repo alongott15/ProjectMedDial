@@ -98,3 +98,21 @@ Let me know if you've noticed anything in particular that seems to trigger these
 ## Processing Information
 
 - **Processing Time**: 158.4s
+
+## EHR Summary
+
+The patient is a 74-year-old male presenting with a massive diaphragmatic hernia and associated infarcted small bowel, small bowel obstruction, pericarditis, and cardiac adhesions to the pericardium. He had herniation of bowel into the left hemithorax, with symptoms of bowel obstruction and pericarditis documented on admission. Relevant history includes prior aortic valve replacement and asthma; he was on anticoagulation therapy. The documented diagnoses were status post diaphragmatic hernia repair, infarcted small bowel resection, division of cardiac adhesions to pericardium, drainage of right chest pleural effusion, and insertion of left chest tube. Treatment included emergent reversal of anticoagulation, IV antibiotics (Zosyn), surgical repair with small bowel resection, chest tube placement, transfusion of blood products, and postoperative management of tachycardia with beta blockers and resumption of anticoagulation (transitioned to oral Coumadin). The patient’s postoperative ileus resolved and his diet was advanced appropriately. He was discharged in stable condition with instructions to continue Coumadin and beta blockers, and to follow up with home visiting nurse assistance and physical therapy for endurance training.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with chest pressure and shortness of breath, primarily after eating, related to a previously identified hernia near the diaphragm. Symptoms began a few days ago and include chest pressure on the left side, worsened by eating and bending over, and associated with increased fatigue and the need to rest more during daily activities. The patient denies dysphagia, heartburn, acid reflux, early satiety, nausea, vomiting, or changes in bowel movements. There is no reported difficulty swallowing or food impaction. The clinical impression is that the hernia—likely a hiatal or paraesophageal hernia—is causing chest pressure and dyspnea by allowing part of the bowel to move into the chest cavity and compress thoracic structures. The treatment plan includes dietary modifications such as eating smaller, more frequent meals, avoiding large meals, and remaining upright for at least an hour after eating. The patient was also advised to monitor for warning signs such as severe pain, vomiting, inability to pass gas or stool, or severe shortness of breath, which would require prompt medical attention. Staying upright after meals and avoiding bending over were noted to help alleviate symptoms.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.553
+- **Model Used**: general
+- **Text1 Length**: 169 words
+- **Text2 Length**: 189 words
+

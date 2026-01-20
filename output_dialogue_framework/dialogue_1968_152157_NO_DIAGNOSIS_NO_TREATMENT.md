@@ -71,16 +71,21 @@
 
 ## EHR Summary
 
-The patient is a 44-year-old male presenting with chest pain, nausea, and vomiting. Symptoms began the night prior with persistent nausea, vomiting, sweats, chills, and substernal chest pain described as pressure with tingling down the left upper extremity; symptoms were not relieved by water, aspirin, or Rolaids. Relevant history includes hypercholesterolemia, gastroesophageal reflux disease, borderline hypertension, tobacco abuse (20 pack-year history), and a family history of cardiac disease. On arrival at the outside hospital, his blood pressure was 200/100 mmHg. The documented clinical impression was an acute cardiac event in the setting of multiple cardiac risk factors. Treatment included initiation of nitroglycerin drip, IV Lopressor, aspirin, Aggrastat drip, Heparin drip, and supplemental oxygen. Outpatient medications prior to admission included aspirin and Rolaids.
+The patient is a 44-year-old male presenting with chest pain, nausea, and vomiting. Symptoms began the night prior to admission, with substernal chest pain described as pressure and "stiff," accompanied by tingling down the left upper extremity, sweats, and chills; symptoms were not relieved by water, aspirin, or Rolaids. Relevant history includes hypercholesterolemia, gastroesophageal reflux disease, borderline hypertension, tobacco abuse (20 pack-year history), and a family history of cardiac disease. On admission, blood pressure was elevated at 164/117 mmHg, and laboratory values were notable for a white count of 12.6. The documented diagnosis was inferior wall myocardial infarction. The patient underwent cardiac catheterization with stenting of the right circumflex artery and received a temporary pacer wire for reflex bradycardia. He was treated with aspirin, Plavix, Lipitor, Lisinopril, Toprol XL, and Lasix, and counseled on smoking cessation. The patient was discharged in stable condition with instructions for cardiac follow-up and a repeat stress test in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The pain was described as a 6 out of 10 in severity, uncomfortable but not unbearable, and has been occurring for a couple of days. Associated symptoms included nausea, sweating, chills, and episodes of vomiting when the pain worsens; each episode lasts approximately 10 to 20 minutes. The patient noted that eating, especially larger meals, tends to trigger the symptoms, while physical activity and stress do not appear to be related. No relevant medical history, medications, or allergies were mentioned during the encounter. There were no physical examination findings discussed. The doctor did not provide a specific assessment or working diagnosis during the conversation. No treatment plan or recommendations were given in this dialogue.
+The patient is presenting with chest pain as the chief complaint. The pain is rated 6 out of 10 in severity, has been occurring for a couple of days, and each episode lasts 10 to 20 minutes. The chest pain is associated with nausea, vomiting (on several occasions), sweating, and chills, which typically occur during the episodes. Eating, especially larger meals, appears to trigger or worsen the symptoms, while physical activity and stress do not seem to be related. There is no documented relevant medical history, diagnosis, or treatment plan in the provided dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.528
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 94 words
+
 
 ## Processing Information
 

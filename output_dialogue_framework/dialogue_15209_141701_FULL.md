@@ -100,3 +100,21 @@ Let me know if you have any questions or concerns about what we've discussed.
 ## Processing Information
 
 - **Processing Time**: 347.3s
+
+## EHR Summary
+
+The patient is a 58-year-old female presenting with fever, cough with yellow sputum, and shortness of breath at rest. Symptoms included periodic cough, fevers up to 102°F, and dyspnea, with no chest pain or headaches; physical exam revealed decreased breath sounds and positive egophony at the right lower lobe. Relevant history includes chronic obstructive pulmonary disease (COPD), hypertension, recent epidural abscess with paraplegia, prior MRSA bacteremia, mitral valve endocarditis, and a Foley catheter in place. On admission, imaging showed a right lower lobe infiltrate and consolidation, and sputum culture was positive for Haemophilus influenzae. The documented diagnoses were pneumonia due to Haemophilus influenzae, COPD, epidural abscess, endocarditis, hypertension, paraplegia, iron deficiency anemia, and sacral decubitus ulcer. Treatment included levofloxacin for pneumonia, nebulizers and inhalers for COPD, vancomycin for epidural abscess, iron supplementation for anemia, supportive care for paraplegia and ulcer prevention, and subcutaneous heparin for prophylaxis. The patient was discharged in stable condition with instructions to continue medications and follow up with her primary care physician.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with the chief complaint of recurrent fevers up to 101–102°F. Symptoms include intermittent fever for several days, increased cough with more frequent production of yellow sputum, shortness of breath even at rest, and worsening back pain; there are no chills, sweating, chest pain, wheezing, or chest tightness. The cough occurs throughout the day without specific triggers. Relevant history, medications, and allergies are not specified. The clinical impression is a possible respiratory infection, such as bronchitis, with concern for the presence of shortness of breath at rest and worsening back pain. The treatment plan includes supportive care: staying hydrated, resting, and using a humidifier or saline nasal spray for cough relief. The patient was advised to monitor for new or worsening symptoms (chest pain, confusion, difficulty breathing) and to seek prompt medical attention if these occur. Follow-up was recommended if symptoms do not improve or worsen within a few days.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.704
+- **Model Used**: general
+- **Text1 Length**: 166 words
+- **Text2 Length**: 155 words
+

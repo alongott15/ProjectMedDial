@@ -87,16 +87,23 @@ If these symptoms persist or become more limiting, we might consider a lung func
 
 ## EHR Summary
 
-The patient is a 65-year-old male presenting with dyspnea on exertion. He reported a progressive decrease in activity tolerance over the past year, with a history of worsening exertional shortness of breath. Relevant history includes myocardial infarction, coronary artery disease, moderate mitral regurgitation, possible chronic obstructive pulmonary disease, hypertension, hyperlipidemia, depression, and no known drug allergies; current medications include Vistaril, Lipitor, multivitamins, aspirin, and escitalopram. On admission, he underwent coronary artery bypass grafting and mitral valve repair without surgical complications. Postoperatively, he required pacing for two days to maintain heart rate and was successfully extubated on postoperative day one, though he remained wheezy with a significant productive cough. He received two units of packed red blood cells for a hematocrit of 21.2. The documented diagnoses include coronary artery disease and mitral valve disease. Treatment included surgical intervention, blood transfusion, and supportive postoperative care.
+The patient is a 65-year-old man presenting with dyspnea on exertion. He reported progressive decrease in activity tolerance over the past year, with a history of worsening exertional dyspnea and productive cough with wheezing during his hospital stay. Relevant history includes coronary artery disease with prior myocardial infarction, moderate mitral regurgitation, hypertension, hyperlipidemia, possible COPD, depression, and no known drug allergies. The documented diagnoses were coronary artery disease and mitral valve disease requiring surgical intervention. He underwent coronary artery bypass grafting and mitral valve repair without complications, but developed postoperative atrial fibrillation managed with Metoprolol and Amiodarone, and was anticoagulated with heparin and Coumadin. At discharge, he was stable and in sinus rhythm; Amiodarone was discontinued due to bradycardia. Discharge medications included Metoprolol, Escitalopram, Atorvastatin, Percocet, aspirin, Potassium Chloride, Lasix for 10 days, and a short course of Coumadin. Follow-up instructions included visiting nurse INR check, contacting his cardiologist for Coumadin dosing, and follow-up appointments with his cardiologist and primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble catching their breath during increased activity. They reported shortness of breath over the past couple of weeks, which is triggered by exertion and improves with rest, along with wheezing and a clear, productive cough; no chest pain, colored sputum, or symptoms at rest were noted. The patient stated that these symptoms have made daily activities such as climbing stairs and carrying groceries more difficult, but the severity has remained stable. No history of fever, chest discomfort, or nocturnal symptoms was mentioned, and no relevant medical history, medications, or allergies were discussed. On assessment, the doctor noted exertional dyspnea, wheezing, and clear sputum without signs of infection or acute illness. The doctor’s working diagnosis included possible mild asthma or chronic bronchitis, given the symptom pattern and absence of alarming features. The treatment plan included monitoring for worsening symptoms (such as shortness of breath at rest, colored sputum, fever, or chest pain), pacing activities with breaks, using a humidifier, staying hydrated, and considering further evaluation (lung function testing or inhaler) if symptoms persist or worsen. The patient agreed to the recommendations and showed understanding of the plan.
+The patient presents with exertional shortness of breath as the chief complaint. Symptoms have been present for the past couple of weeks and include dyspnea with activity, wheezing, and a clear, productive cough; symptoms improve with rest and do not occur at rest or during sleep. The patient denies chest pain, fever, or colored sputum, and reports no worsening of symptoms over time. There is no mention of relevant past medical history, medications, or allergies in the dialogue.
+
+The clinical impression discussed includes possible mild asthma or chronic bronchitis, with reassurance given due to the absence of acute or severe features. The treatment plan includes monitoring for any new or worsening symptoms (such as dyspnea at rest, colored sputum, fever, or chest pain), pacing activities, using a humidifier, and staying hydrated to help loosen mucus. Further evaluation with lung function testing or inhaler therapy may be considered if symptoms persist or worsen. The patient agrees to follow these recommendations and will report any changes.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.576
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

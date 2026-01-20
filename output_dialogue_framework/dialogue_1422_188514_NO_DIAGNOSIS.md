@@ -184,3 +184,23 @@ I’m glad you’re taking this seriously. Please don’t hesitate to reach out 
 ## Processing Information
 
 - **Processing Time**: 461.9s
+
+## EHR Summary
+
+The patient is a 42-year-old woman presenting with acute shortness of breath after recent gastric bypass surgery. She reported mild cough, mild nausea, vomiting, and diffuse abdominal pain, but denied chest pain, polyuria, or polydipsia; her home blood glucose was over 300-400 mg/dL. Her medical history includes Type I diabetes mellitus, hypertension, morbid obesity, neuropathy, osteoarthritis/rheumatoid arthritis, and hypercholesterolemia; she is allergic to intravenous contrast and cephalosporins. On admission, she was found to be in diabetic ketoacidosis (DKA) with a blood glucose of 498 mg/dL, severe metabolic acidosis, and an elevated anion gap, and was also diagnosed with a non-ST elevation myocardial infarction (NSTEMI), likely secondary to demand during DKA. She was treated with intravenous insulin, aggressive fluid resuscitation, aspirin, a beta-blocker (metoprolol), and an ACE inhibitor (lisinopril); heparin was withheld due to recent surgery. Cardiology evaluation included echocardiogram (normal) and plans for outpatient stress testing; VQ scan ruled out pulmonary embolism. Her leukocytosis resolved without further antibiotics, and her DKA resolved with normalization of labs. She was discharged in good condition on a diabetic diet and adjusted medications, with follow-up arranged for cardiology, diabetes management, and gastric bypass clinic.
+
+
+## Dialogue Summary
+
+The patient is an adult with a history of diabetes presenting with shortness of breath as the main complaint. Key symptoms include shortness of breath, mild cough, nausea, vomiting, and mild abdominal pain, all persisting for about three days. The patient reports consistently elevated blood sugars, typically in the high 100s to low 200s. Relevant medical history includes diabetes with recent high blood glucose readings.
+
+The clinician expressed concern for potentially serious conditions such as diabetic ketoacidosis (DKA), non-ST elevation myocardial infarction (NSTEMI), or pulmonary embolism, given the combination of symptoms and underlying diabetes. No definitive diagnosis was made during the dialogue, but DKA and other acute conditions were considered possible. The treatment plan emphasized the need for immediate evaluation in an emergency department for urgent assessment and management. The patient was advised to seek emergency care without delay and to inform the medical team of their symptoms and diabetes history upon arrival.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.783
+- **Model Used**: general
+- **Text1 Length**: 190 words
+- **Text2 Length**: 153 words
+

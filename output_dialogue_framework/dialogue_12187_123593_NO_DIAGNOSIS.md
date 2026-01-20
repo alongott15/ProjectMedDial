@@ -85,16 +85,21 @@ For now, focusing on stress management and good hydration is a practical step, s
 
 ## EHR Summary
 
-The patient is a 45-year-old female admitted for a diagnostic cerebral angiogram with coiling. She has a history of headaches, fibromyalgia, and prior episodes of slurred speech. On admission, her vital signs were stable, and she was taking Plavix, Xanax, Prozac, cyclobenzaprine, aspirin, and vitamin E; she has a documented allergy to tetracycline. The patient underwent successful coiling and stent placement of a left carotid ophthalmic aneurysm without complications. Postoperatively, her vital signs remained stable and laboratory results were within normal limits. Physical examination showed she was awake, alert, and neurologically intact. The documented diagnosis was left carotid ophthalmic aneurysm. She was discharged in stable condition following the procedure.
+The patient is a 45-year-old female admitted for a diagnostic cerebral angiogram with coiling. She has a history of headaches, fibromyalgia, and prior episodes of slurred speech, but no acute neurological symptoms were documented on admission. Her past surgical history includes tubal ligation, cystectomies, and breast lesion excision; she is allergic to tetracycline. The patient underwent successful coiling with stent placement for a left carotid ophthalmic aneurysm without complications. Postoperatively, she remained neurologically stable with intact strength, visual fields, and no evidence of hematoma at the angiocele site. The final diagnosis was status post coiling with stent placement for left carotid ophthalmic aneurysm. She was discharged in good condition on Plavix 75 mg daily and aspirin 325 mg daily, with instructions to avoid strenuous activity until follow-up in two weeks. Follow-up appointments were arranged with her neurosurgeon and primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with recurrent headaches primarily around the temples and occasionally at the back of the head. Headaches have been occurring for months, are usually moderate in intensity, sometimes severe enough to require rest, and are often worsened by stress or fatigue; resting and drinking water provide some relief. The patient also reported episodes of slurred speech associated with headaches, lasting a few minutes, noticed both by themselves and others, but denied any weakness, numbness, or vision changes. No specific medication was noted to help with the slurred speech. The doctor assessed that while these symptoms are generally manageable and may be related to stress or fatigue, the combination of headaches and transient slurred speech warrants monitoring for any progression or new neurological symptoms. The doctor recommended keeping a detailed log of episodes, including timing, duration, and triggers, and advised seeking prompt medical attention if slurred speech becomes more frequent, lasts longer, or is accompanied by new symptoms such as weakness, numbness, or vision changes. Stress management and good hydration were suggested as practical steps, and the patient expressed interest in strategies for managing stress and improving sleep.
+The patient presents with recurrent headaches as the chief complaint. The headaches are described as occurring mostly around the temples and sometimes the back of the head, with moderate intensity most of the time but occasionally severe enough to require rest; they have been ongoing for several months. Episodes of slurred speech accompany the headaches intermittently, lasting only a few minutes and noticed both by the patient and others, without associated weakness, numbness, or vision changes. Stress and fatigue appear to worsen the headaches and may trigger the slurred speech, while resting and hydration provide some relief. There is no mention of relevant medical history, medications, or allergies. The clinical impression is that these symptoms are most likely benign and possibly related to stress or fatigue, but other causes should be ruled out if symptoms change. The treatment plan includes monitoring episodes by keeping a symptom diary, focusing on stress management and hydration, and seeking prompt medical attention if new neurological symptoms develop or if slurred speech becomes more frequent or prolonged. The patient expressed interest in strategies for managing stress and improving sleep.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.928
-- **Similarity Label**: N/A
+- **STS Score**: 0.371
+- **Model Used**: general
+- **Text1 Length**: 141 words
+- **Text2 Length**: 184 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ For now, gentle activity and monitoring your symptoms is reasonable. If the disc
 
 ## EHR Summary
 
-The patient is a 71-year-old man presenting after an acute myocardial infarction. He reported some vague chest pain following the event and had an unsuccessful angioplasty attempt of the left anterior descending artery. His relevant history includes recent myocardial infarction and attempted angioplasty; no allergies or other medications are specified prior to admission. On physical examination, he was well-nourished and in no acute distress, with normal cardiac and pulmonary findings and normal renal function. The documented diagnoses were status post myocardial infarction and status post coronary artery bypass grafting (CABG) with internal mammary artery to the left anterior descending artery. He underwent CABG x1 on admission and had an uneventful postoperative course. Discharge medications included Toprol XL 50 mg daily, lisinopril 10 mg daily, and Coumadin 5 mg daily. He was advised to follow up with his cardiothoracic surgeon in three weeks and his primary care physician in one month.
+The patient is a 71-year-old man presenting with a history of acute myocardial infarction and ongoing vague chest pain. He previously underwent an unsuccessful angioplasty attempt of the left anterior descending artery. On examination, he was well-nourished and in no acute distress, with normal cardiac and pulmonary findings and no evidence of peripheral vascular disease. His renal function was normal. The documented diagnoses were status post myocardial infarction and status post coronary artery bypass grafting (CABG) with internal mammary artery to the left anterior descending artery. He underwent CABG x1 on admission and had an uneventful postoperative course. Discharge medications included Toprol XL 50 mg daily, lisinopril 10 mg daily, and Coumadin 5 mg daily. Follow-up was arranged with his cardiothoracic surgeon in three weeks and his primary care physician in one month.
+
 
 ## Dialogue Summary
 
-The patient presented with vague chest pain since a prior heart attack. The discomfort was described as mild (rated 3–4/10), nagging, located centrally behind the breastbone, present for a few days, and not sharp; it improved with rest and did not worsen with activity, meals, or movement. The patient denied associated symptoms such as shortness of breath, sweating, or unusual fatigue. Relevant history includes a previous heart attack; no medications or allergies were mentioned. On clinical questioning, there were no alarming features such as pain with exertion or systemic symptoms. The doctor assessed that the chest discomfort was likely benign, possibly due to muscle soreness or mild chest wall irritation, rather than a cardiac cause. The doctor recommended gentle activity, monitoring symptoms, and seeking prompt medical attention if the pain worsens or is accompanied by new symptoms such as breathlessness or faintness. The patient understood and agreed to monitor for any changes.
+The patient is an adult with a history of heart attack presenting with vague, mild central chest pain. The discomfort is rated 3–4 out of 10 in severity, has been present for a few days, is located behind the breastbone, and does not radiate. The pain improves with rest, is not worsened by activity or meals, and is not associated with dyspnea, sweating, or unusual fatigue. Relevant history includes a prior myocardial infarction; no current medications or allergies are specified. The clinical impression is that the chest discomfort is likely benign, possibly due to muscle soreness or mild chest wall irritation rather than a cardiac cause. The patient was advised to monitor symptoms and engage in gentle activity. They were instructed to seek prompt medical attention if symptoms worsen or new symptoms such as shortness of breath or faintness develop. The patient expressed understanding and reassurance with this plan.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.480
+- **Model Used**: general
+- **Text1 Length**: 133 words
+- **Text2 Length**: 149 words
+
 
 ## Processing Information
 

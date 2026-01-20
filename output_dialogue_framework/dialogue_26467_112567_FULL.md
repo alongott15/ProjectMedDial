@@ -99,16 +99,21 @@ For now, there’s nothing that requires further investigation, and I encourage 
 
 ## EHR Summary
 
-The patient is a 66-year-old female presenting with chest pain and shortness of breath. She reported a history of angina, but experienced worsening chest pain radiating to her neck and increased anginal symptoms with minimal exertion the day prior to admission. Her past medical history includes type 2 diabetes mellitus, peripheral vascular disease with bilateral lower extremity amputations, chronic renal insufficiency, coronary artery disease status post stent, and gout. Initial evaluation revealed EKG changes (ST depression in I and AVL), elevated cardiac enzymes (CK 1000, MB 89, troponin 24.8), and she was transferred for cardiac catheterization. Catheterization showed significant coronary artery disease with left main mild disease, diffuse left anterior descending disease, totally occluded left circumflex, and right coronary artery mid-segment total occlusion; no interventions were performed due to technical difficulty and prior assessment as a poor surgical candidate. Cardiothoracic surgery was consulted for further evaluation. The documented clinical impression is severe multivessel coronary artery disease with recurrent angina. The treatment plan included continued medical management and cardiothoracic surgery consultation, with no surgical intervention performed at this time.
+The patient is a 66-year-old female presenting with chest pain and shortness of breath. She reported worsening angina, with chest pain radiating to her neck and occurring with minimal exertion, as well as decreased ability to transfer from bed to wheelchair due to symptoms. Her past medical history includes type 2 diabetes mellitus, peripheral vascular disease with bilateral lower limb amputations, chronic renal insufficiency, coronary artery disease (status post stent), and gout; she is allergic to ACE inhibitors. Cardiac catheterization revealed extensive coronary artery disease but no intervention was performed due to her comorbidities and poor surgical candidacy. During hospitalization, she developed a retroperitoneal bleed post-catheterization (managed with thrombin injection) and acute cholecystitis requiring percutaneous cholecystostomy and antibiotics (Levofloxacin, Vancomycin, Metronidazole). The documented diagnoses were coronary artery disease status post non-ST elevation myocardial infarction, diabetes mellitus type 2, hypertension, and chronic renal insufficiency. Treatment included continuation and adjustment of cardiac medications (beta blocker, nitrates, hydralazine), blood transfusion, management of infections, and supportive care; anticoagulation was held due to bleeding risk. She was stable at discharge and transferred to a rehabilitation center for further intravenous antibiotics and rehabilitation.
+
 
 ## Dialogue Summary
 
-The patient presented for a routine check-in without any specific symptoms or concerns. They reported no new aches, changes in energy, sleep disturbances, alterations in activity level, appetite, weight, or mood; all aspects of their health have remained stable. The patient stated they are up to date with routine screenings and preventive care, and have not missed any recent appointments. No abnormal physical findings or symptoms were described during the visit. The doctor assessed that the patient is in good health, maintaining usual routines, and that there are no underlying issues requiring further investigation at this time. The doctor emphasized the importance of ongoing preventive care, regular screenings, and monitoring for subtle changes such as persistent fatigue, unexplained pain, or shifts in daily habits. The patient was advised to continue current healthy routines and to promptly report any new symptoms or changes in health. The doctor reinforced that proactive check-ins and attentiveness to health are key for long-term well-being.
+The patient presented for a routine check-in without any specific chief complaint. They reported no new symptoms, including no changes in energy, sleep, activity level, appetite, weight, or mood, and confirmed they are up to date with routine screenings and preventive care. There is no relevant medical history, medications, or allergies documented in this encounter. The clinical assessment was that the patient is in stable health with no current concerns requiring further investigation. The doctor emphasized the importance of ongoing preventive care and regular screenings. The treatment plan included maintaining current healthy routines and remaining vigilant for any new or subtle changes in health, such as persistent fatigue, pain, or changes in daily habits. The patient was advised to promptly report any new symptoms if they arise. No additional interventions were recommended at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.921
-- **Similarity Label**: N/A
+- **STS Score**: 0.389
+- **Model Used**: general
+- **Text1 Length**: 187 words
+- **Text2 Length**: 135 words
+
 
 ## Processing Information
 

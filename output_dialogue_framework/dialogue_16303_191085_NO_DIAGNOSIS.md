@@ -89,16 +89,21 @@ Does that make sense? Any questions or concerns about what we've discussed?
 
 ## EHR Summary
 
-The patient is a 68-year-old male presenting with recurrent right-sided facial pain. The pain characteristics, including severity and duration, are not specified. His past medical history is significant for hypercholesterolemia, and he has no known drug allergies. On physical examination, he was noted to have a flushed face but was otherwise neurologically intact, with cranial nerves II-XII functioning normally and no facial numbness postoperatively except for some numbness behind the right ear. The documented diagnosis was not explicitly stated but the patient underwent right suboccipital craniotomy with microvascular decompression of the fifth cranial nerve, suggesting trigeminal neuralgia. Postoperative recovery was stable without complications. Treatment included surgical intervention, discharge medications of Percocet as needed for pain, Pravachol 20 mg daily, and carbamazepine 100 mg four times daily. The patient was advised to follow up in ten days for staple removal.
+The patient is a 68-year-old male presenting with recurrent right-sided facial pain. The pain was persistent and led to neurosurgical evaluation. His past medical history is significant for hypercholesterolemia, and he has no known drug allergies. On examination, cranial nerves II-XII were intact and there were no focal neurological deficits. The documented diagnosis was trigeminal neuralgia, for which he underwent a right suboccipital craniotomy with microvascular decompression of the fifth cranial nerve without complications. Postoperatively, he experienced some numbness behind the right ear but no facial numbness or headache, and he remained neurologically intact. He was discharged in stable condition with prescriptions for Percocet as needed for pain, Pravachol 20 mg daily, and carbamazepine 100 mg four times daily. Follow-up was arranged for staple removal in ten days.
+
 
 ## Dialogue Summary
 
-The patient presented with recurrent right-sided facial pain. The pain was described as sharp, moderate in intensity, occurring in the right cheek and jaw area, sometimes accompanied by facial flushing, with each episode lasting a few minutes and no identifiable triggers. The patient also reported numbness just behind the right ear, attributed to a prior surgery, but denied any changes in vision, speech, or facial muscle movement. There was no history of the pain interfering with sleep or daily activities. On assessment, the doctor noted brief, moderate episodes of sharp discomfort in the right cheek and jaw, occasional flushing, and numbness behind the ear from previous surgery, with no neurological deficits. The doctor suggested that the symptoms could be related to nerve irritation possibly linked to prior surgery. The treatment plan included monitoring symptoms, using gentle massage and warm compresses for self-care, and avoiding potential triggers; the patient was advised to seek further care if new symptoms such as muscle weakness or speech difficulties develop or if the pain worsens. The patient understood and agreed to monitor symptoms and follow the recommended self-care measures.
+The patient is an adult presenting with recurrent right-sided facial pain as the chief complaint. The pain is described as sharp, moderate in intensity, and occurs in the right cheek and jaw area, sometimes accompanied by facial flushing; each episode lasts a few minutes and occurs without identifiable triggers. The patient also reports numbness behind the right ear, attributed to a prior surgery, but denies any changes in vision, speech, or facial muscle movement. The pain does not interfere with sleep or daily activities. Relevant history includes previous surgery near the affected area. The clinical impression is likely nerve irritation related to prior surgery, with intermittent symptoms not currently considered dangerous. The treatment plan includes monitoring symptoms, using gentle massage and warm compresses for relief, and avoiding potential triggers. The patient was advised to seek prompt care if new symptoms such as muscle weakness, difficulty closing the eye, or speech problems develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.969
-- **Similarity Label**: N/A
+- **STS Score**: 0.637
+- **Model Used**: general
+- **Text1 Length**: 128 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

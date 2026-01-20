@@ -87,16 +87,23 @@ Let me know if you have any questions or if there’s anything else you’d like
 
 ## EHR Summary
 
-The patient is a 72-year-old female presenting for management of an ascending thoracic aneurysm. She was found to have mild aortic insufficiency on outpatient cardiac catheterization prior to admission. Her past medical history includes sinus infections and aortic aneurysm, with prior pericardectomy and cesarean section; home medications included hydrochlorothiazide, atenolol, and Ecotrin. Preoperative labs were within normal limits, and a urinary tract infection was identified and treated with ciprofloxacin for three days. On [2115-2-19], she underwent surgical repair of the ascending thoracic aneurysm with replacement of the ascending aorta under general anesthesia. Postoperatively, she required a Nipride drip and hydralazine for blood pressure control, which were weaned prior to transfer to the floor. The documented diagnosis was ascending thoracic aneurysm. The treatment plan included surgical intervention, perioperative blood pressure management, and physical therapy involvement during recovery.
+The patient is a 72-year-old female presenting for management of an ascending thoracic aneurysm. She was found to have mild aortic insufficiency on outpatient cardiac catheterization prior to admission. Her past medical history includes sinus infections and aortic aneurysm, with prior pericardectomy and cesarean section; she is a former smoker with a family history of myocardial infarction. The documented diagnosis was ascending thoracic aneurysm. She underwent surgical repair and replacement of the ascending aorta under general anesthesia on hospital day two. During her hospital course, she was treated for a urinary tract infection with ciprofloxacin and managed postoperatively with blood pressure control and physical therapy. At discharge, her medications included Captopril, Atenolol, Lasix (for five days), Motrin for pain (due to opioid allergy), and other supportive medications. She was discharged in good condition with instructions to follow up with her primary care physician or cardiologist within the week.
+
 
 ## Dialogue Summary
 
-The patient presented with urinary discomfort suggestive of a possible urinary tract infection. Symptoms began a few days ago and include mild discomfort during urination, leg swelling that worsens by evening and improves with elevation, and recent loose stools. The patient reported no changes in urine color or smell, and the swelling has not significantly limited daily activities but does make legs feel heavier and shoes harder to put on when swollen. No history of severe pain, fever, or difficulty walking was mentioned, and no medication or allergy history was specified. On examination, the doctor noted mild urinary discomfort, leg swelling with diurnal variation, and loose stools. The assessment was mild urinary tract infection symptoms with benign leg swelling likely related to fluid pooling, and loose stools possibly due to a minor stomach bug. The doctor recommended staying hydrated, elevating legs, monitoring for new or worsening symptoms (such as fever, increased swelling, chest discomfort, or blood in urine), and continuing regular medications unless new symptoms develop.
+The patient is an adult female presenting with symptoms suggestive of a urinary tract infection as her chief complaint. She reports mild urinary discomfort that began a few days ago, without changes in urine color or smell, and also notes recent onset of leg swelling that worsens by evening and improves with leg elevation and rest. The swelling has not significantly limited her daily activities but makes her legs feel heavier and shoes harder to put on when swollen. She also reports experiencing loose stools around the same time as her other symptoms.
+
+There is no documented history of severe pain, fever, or functional impairment. The clinical impression is mild urinary discomfort likely due to a urinary tract infection, with dependent leg swelling likely related to fluid pooling, and loose stools possibly due to a minor gastrointestinal issue. The treatment plan includes maintaining good hydration, continuing leg elevation, monitoring for new or worsening symptoms (such as fever, hematuria, chest discomfort, or shortness of breath), and contacting the clinic if symptoms progress. The patient was advised that most mild UTIs respond well to treatment and that her described swelling is common and often benign.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.918
-- **Similarity Label**: N/A
+- **STS Score**: 0.320
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 193 words
+
 
 ## Processing Information
 

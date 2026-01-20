@@ -98,3 +98,21 @@ Does that all make sense? Is there anything else you’re concerned about or wou
 ## Processing Information
 
 - **Processing Time**: 392.1s
+
+## EHR Summary
+
+The patient is a 55-year-old male admitted for coronary artery bypass graft due to coronary artery disease. He had a history of silent myocardial infarction, hypertension, and prior gastrointestinal bleed, and presented with shortness of breath on exertion but no chest pain. During his hospital course, he developed postoperative atrial fibrillation, which was managed with amiodarone and metoprolol, restoring normal sinus rhythm. He experienced a transient fever on postoperative day four, but workup was negative for infection and no treatment was initiated as he had no respiratory symptoms. The patient was started on anticoagulation with heparin and transitioned to Coumadin, with careful dosing due to a history of alcoholic liver disease; INR was monitored and was 1.4 at discharge. The documented diagnoses were coronary artery disease and atrial fibrillation. Discharge medications included Imdur, Plavix, Coumadin, Percocet, Colace, Lasix, potassium chloride, metoprolol, and amiodarone. He was discharged in stable condition with instructions for close INR monitoring and follow-up with his cardiologist and primary care physician.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with shortness of breath as the chief complaint. The dyspnea has developed gradually over several days and is primarily exertional, worsening with activities such as climbing stairs or walking quickly, but is minimal at rest or when sitting still. Associated symptoms include a fever up to 101.8°F, which responds temporarily to acetaminophen, and decreased energy; there is no cough, new chest discomfort, or leg swelling. The patient reports no change in appetite and no chills. Relevant history includes chronic chest discomfort, but no new or worsening chest pain was noted. The clinical impression is a mild respiratory infection or a possible flare of an underlying condition, with viral infection considered most likely given the symptom pattern. The treatment plan includes rest, hydration, and continued use of acetaminophen for fever, with instructions to seek prompt medical attention if symptoms worsen or new concerning symptoms develop. Supportive care is expected to lead to improvement over several days.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.513
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 161 words
+

@@ -82,16 +82,21 @@ If you ever notice these spells lasting longer, new symptoms like trouble speaki
 
 ## EHR Summary
 
-The patient is an 84-year-old woman presenting for management of right internal carotid artery stenosis. She reported prior transient ischemic attack symptoms affecting the right side and episodes of dizziness on leaning forward. Her medical history includes a previous craniotomy for brain tumor excision, arthritis, and a left carotid artery stent; she was taking aspirin, Lipitor, atenolol, Ativan, methyldopa, nifedipine, Protonix, and Plavix on admission. On evaluation, she was found to have 80–90% stenosis of the right internal carotid artery and greater than 70% stenosis of the left vertebral artery. The documented diagnosis was carotid artery stenosis. She underwent right internal carotid artery stenting and tolerated the procedure without complications. Postoperatively, she remained afebrile with stable vital signs and was managed with a short course of heparin and blood pressure control. She was monitored in the ICU and Post Anesthesia Care Unit due to bed availability.
+The patient is an 84-year-old woman presenting for management of right internal carotid artery stenosis. She had a history of transient ischemic attacks affecting the right side and reported dizziness on leaning forward. Her past medical history includes prior craniotomy for brain tumor excision, arthritis, and a left carotid artery stent; she was taking aspirin, Lipitor, atenolol, Ativan, methyldopa, nifedipine, Protonix, and Plavix on admission. During hospitalization, angiography revealed greater than 70% stenosis of the left vertebral artery and left internal carotid artery stenosis in addition to the known right-sided disease. The documented diagnosis was carotid artery stenosis, and she underwent right internal carotid artery stenting without complications. Postoperatively, she experienced mild delirium, which was managed with Haldol, and some shoulder pain but otherwise remained stable. She was evaluated by physical therapy and determined to need rehabilitation. The treatment plan included discharge home with continued physical therapy, family assistance, and a regimen of antiplatelet agents, antihypertensives, statin, and supportive medications.
+
 
 ## Dialogue Summary
 
-The patient presented with dizziness, particularly when leaning forward or getting up quickly. The dizziness typically resolves within a minute after straightening up and has been occurring for a few days, with slightly increased frequency but no worsening severity. The patient denied any right-sided weakness, numbness, speech changes, or vision changes during episodes, and reported no heart racing or sweating, though occasionally feels faint and sometimes confused or disoriented during dizzy spells. The dizziness has made daily activities like getting up and moving around more difficult, requiring the patient to take things slower. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the positional nature of the dizziness and suggested it is likely positional or orthostatic dizziness, possibly related to blood pressure changes with movement. The doctor recommended rising slowly from sitting or lying down and increasing fluid intake to help reduce episodes. The patient was advised to seek prompt evaluation if symptoms worsen or new neurological symptoms develop.
+The patient presents with dizziness as the chief complaint. The dizziness occurs primarily when leaning forward or standing up quickly, lasts less than a minute, and resolves upon straightening up; it is sometimes accompanied by mild feelings of faintness or brief disorientation but not by heart racing or sweating. The patient denies any associated right-sided weakness, numbness, speech, or vision changes during these episodes. The dizziness has been present for a few days and has become slightly more frequent but not more severe, and it has made daily activities like getting up and moving around more difficult. There is no mention of relevant medical history, medications, or allergies in the dialogue. The clinical impression is positional or orthostatic dizziness, likely related to transient drops in blood pressure with movement. The treatment plan includes recommendations to rise slowly from sitting or lying positions and to maintain adequate hydration. The doctor advised monitoring for new or worsening symptoms such as prolonged episodes, speech or vision changes, or weakness, which would warrant prompt evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.937
-- **Similarity Label**: N/A
+- **STS Score**: 0.468
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 171 words
+
 
 ## Processing Information
 

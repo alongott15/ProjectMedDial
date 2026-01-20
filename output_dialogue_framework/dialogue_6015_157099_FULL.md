@@ -87,16 +87,21 @@ Do you have any history of heart problems or risk factors like high blood pressu
 
 ## EHR Summary
 
-The patient is a 60-year-old male presenting with a 2-week history of nausea, cold sweats, and severe left hand pain, with an acute episode of nausea and shortness of breath on the day of admission. Symptoms were associated with a general feeling of malaise and occurred despite a normal exercise thallium test one week prior. Relevant history includes coronary artery disease (status post 3-vessel CABG in 2167 and prior PCI), hypercholesterolemia, osteoarthritis, back pain, disc disease, sacroiliac disease, and GERD; he is allergic to codeine and was taking Prevacid, Toprol-XL, and aspirin. On presentation, he was found to have inferior ST elevations and was transferred for cardiac catheterization. Cardiac catheterization revealed a culprit lesion in the saphenous vein graft to the second obtuse marginal, which was treated with two stents; additional tight lesions were noted in the LAD and left circumflex arteries. The patient remained hemodynamically stable but had an elevated wedge pressure of 26. The documented diagnosis was acute coronary syndrome due to graft occlusion. Treatment included stenting of the culprit lesion, administration of heparin, Plavix, and Integrilin, and transfer to the Coronary Care Unit for monitoring.
+The patient is a 60-year-old male presenting with a 2-week history of nausea, cold sweats, and severe left hand pain, along with an episode of malaise, nausea, and shortness of breath on the day of admission. Symptoms were associated with inferior ST elevations on ECG, prompting transfer for cardiac catheterization. Relevant history includes coronary artery disease (status post 3-vessel CABG), hypercholesterolemia, osteoarthritis, back pain, disc disease, sacroiliac disease, and gastroesophageal reflux disease; he is allergic to codeine. The documented diagnosis was ST-elevation myocardial infarction. Treatment included cardiac catheterization with stenting of the saphenous vein graft to the second obtuse marginal and proximal circumflex, administration of heparin, Plavix, Integrilin, aspirin, statin, beta blocker, ACE inhibitor, and diuretics as needed. The patient was continued on his home medications for GERD and back pain and was advised to pursue outpatient cardiac rehabilitation. He was discharged in stable condition with instructions to follow up with his cardiologist within one month and primary care physician within one week.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent nausea as the chief complaint. Symptoms included nausea lasting for several days, cold sweats occurring alongside the nausea, and an aching pain in the palm of the left hand rated up to 6/10 in severity, which developed gradually and sometimes made gripping objects uncomfortable but did not cause numbness or tingling. The patient also reported increased fatigue and lower energy levels than usual; resting helped somewhat with the hand ache, while lying flat worsened overall symptoms. Relevant history included coronary artery disease and high cholesterol, with no diabetes or hypertension reported. On examination, no physical findings were described beyond the patient’s symptom reports. The doctor assessed that while these symptoms could be due to a viral illness or dehydration, the combination of nausea, cold sweats, and new left hand discomfort warranted caution for possible circulatory or cardiac causes. The doctor advised resting, staying hydrated, avoiding lying flat, and monitoring for warning signs such as chest discomfort, shortness of breath, or pain radiating to the jaw or arm, recommending prompt care if these develop and further evaluation if symptoms persist or worsen.
+The patient is an adult presenting with persistent nausea as the chief complaint. Symptoms have been present for a few days and include nausea, cold sweats, and an aching sensation in the left palm (rated up to 6/10 in severity), which sometimes makes gripping uncomfortable but does not cause numbness or tingling. The symptoms tend to occur together and are accompanied by increased fatigue and reduced energy levels; resting helps the hand ache somewhat, while lying flat worsens overall discomfort. Relevant history includes coronary artery disease and high cholesterol; there is no history of diabetes or hypertension reported. The clinical impression is cautious, noting that while symptoms could be due to a viral illness or dehydration, the combination of nausea, cold sweats, and new left hand discomfort raises concern for possible circulatory or cardiac issues. The patient was advised to rest, stay hydrated, avoid lying flat, and monitor for new symptoms such as chest discomfort, dyspnea, or pain radiating to the arm or jaw. If these warning signs develop or if symptoms worsen, prompt medical evaluation was recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.508
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 178 words
+
 
 ## Processing Information
 

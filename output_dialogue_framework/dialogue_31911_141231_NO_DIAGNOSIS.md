@@ -158,3 +158,23 @@ Most importantly, follow any instructions about wearing a neck brace or collar i
 ## Processing Information
 
 - **Processing Time**: 370.0s
+
+## EHR Summary
+
+The patient is a 71-year-old male presenting with neck pain following a fall that resulted in a C2 fracture. He reported neck pain as the primary symptom, and physical examination revealed no neurological deficits. His relevant medical history includes Crohn's disease (status post proctocolectomy), melanoma of the left forearm, prior right elbow surgery, benign prostatic hyperplasia, degenerative joint disease, right knee replacement, hypertension, and erectile dysfunction; he has allergies to amoxicillin, Flagyl, and latex. The documented diagnosis was C2 fracture. Treatment included surgical placement of a halo-vest without complications, postoperative DVT prophylaxis, intravenous antibiotics, oral pain control, and physical therapy for mobilization. Discharge instructions emphasized wound care for the halo-vest pin sites, activity restrictions (no lifting over 10 lbs), regular walking, and avoidance of NSAIDs. The patient was discharged in good condition to an extended care facility with follow-up arranged in two weeks.
+
+
+## Dialogue Summary
+
+The patient is an adult with a recent diagnosis of a C2 vertebral fracture, presenting for follow-up and guidance. The main complaint is persistent neck pain without any new or worsening symptoms such as numbness, weakness, gait disturbance, or changes in bladder or bowel control. The patient denies any neurological deficits and reports that the neck pain is steady but not worsening. Relevant history includes the recent C2 fracture; no other medical history, medications, or allergies are specified.
+
+The documented diagnosis is a C2 (cervical spine) fracture. The treatment plan emphasizes strict neck immobilization, avoidance of heavy lifting, twisting, bending, high-impact activities, and modification of household chores as needed. The patient is advised to maintain a neutral neck position during sleep, use a supportive pillow, and follow all specialist instructions regarding use of a cervical collar or brace. The patient is instructed to monitor for any new neurological symptoms and to seek urgent care if these develop, while continuing to follow up with their care team for ongoing management.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.611
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 169 words
+

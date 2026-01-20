@@ -89,16 +89,23 @@ Would you like advice on how to monitor these spells at home or tips for staying
 
 ## EHR Summary
 
-The patient is an 84-year-old woman presenting for management of right internal carotid artery stenosis. She reported prior transient ischemic attack symptoms corresponding to the right side and dizziness on leaning forward. Her medical history includes a previous craniotomy for brain tumor excision, arthritis, and a left carotid artery stent; she was taking aspirin, Lipitor, atenolol, Ativan, methyldopa, nifedipine, Protonix, and Plavix on admission. On evaluation, she was found to have 80–90% stenosis of the right internal carotid artery and greater than 70% stenosis of the left vertebral artery. The documented diagnosis was carotid artery stenosis. She underwent right internal carotid artery stenting and tolerated the procedure without complications. Postoperatively, her vital signs remained stable, and she was managed with a short course of heparin and blood pressure control. She was monitored in the ICU and then the Post Anesthesia Care Unit due to bed availability.
+The patient is an 84-year-old woman presenting for management of right internal carotid artery stenosis. She had a history of transient ischemic attacks affecting the right side and reported dizziness on leaning forward. Her past medical history includes prior craniotomy for brain tumor excision, arthritis, and a left carotid artery stent; she was taking aspirin, Lipitor, atenolol, Ativan, methyldopa, nifedipine, Protonix, and Plavix on admission. The documented diagnosis was severe right internal carotid artery stenosis (80–90%) with additional findings of left vertebral and left internal carotid artery stenosis. She underwent right internal carotid artery stenting without complications and was monitored postoperatively. Postprocedure, she experienced mild delirium that resolved with Haldol. She was evaluated by physical therapy and determined to need home rehabilitation. At discharge, she was stable and required continued physical therapy and family assistance at home. Discharge medications included Plavix, aspirin, Colace, Protonix, nifedipine, atorvastatin, atenolol, and methyldopa.
+
 
 ## Dialogue Summary
 
-The patient presented with spells of dizziness, particularly when leaning forward, which have made daily activities more difficult and led them to move more cautiously at home. The dizziness episodes come on suddenly, last a few minutes, and are accompanied by brief weakness on the right side, but no changes in vision, numbness, or speech difficulties were reported. These symptoms began a few days ago and are new for the patient; no recent changes in blood pressure or new medications were noted. On examination, the patient described being able to speak clearly during episodes and managing daily tasks slowly but independently. The doctor assessed that the sudden dizziness and transient right-sided weakness could be related to changes in cerebral blood flow, possibly a transient ischemic attack (TIA), especially given the abrupt onset and resolution of symptoms. The doctor recommended notifying the primary care provider soon for further evaluation, including blood pressure checks and possible additional tests. Advice was given to continue moving slowly and carefully, monitor for worsening symptoms such as persistent weakness or speech/vision changes, and seek immediate medical attention if these occur. The patient requested tips for staying safe at home, especially in light of some shoulder pain after a previous procedure.
+The patient is an adult presenting with episodes of dizziness, primarily triggered by leaning forward, which have been occurring for a few days. These spells come on suddenly, last a few minutes, and are associated with transient right-sided weakness but no changes in vision, speech, or numbness. The symptoms have made daily activities more challenging, causing the patient to move more slowly and cautiously at home. There is no history of recent medication changes or known blood pressure fluctuations.
+
+The clinical impression is that these episodes may represent transient ischemic attacks (TIAs), possibly due to brief changes in cerebral blood flow. The physician advised the patient to notify their primary care provider promptly for further evaluation, including blood pressure assessment and possible additional testing. The patient was instructed to continue moving carefully, especially when standing or leaning forward, and to seek immediate medical attention if symptoms worsen or persist. Home safety tips and monitoring strategies were offered upon the patient's request.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.555
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

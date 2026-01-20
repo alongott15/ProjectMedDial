@@ -87,16 +87,21 @@ Would you like to talk more about ways to manage this or discuss possible next s
 
 ## EHR Summary
 
-The patient is a 67-year-old male admitted for coronary artery bypass grafting (CABG) due to documented moderate inferior and reversible anterior wall defects on ETT, with an ejection fraction of 34%. He reported no discomfort or shortness of breath at admission. His medical history includes insulin-dependent diabetes, peripheral vascular disease, prior left CVA, hypertension, hypercholesterolemia, chronic renal insufficiency, and chronic bronchiectasis. On postoperative day 2 after CABG x3 (LIMA to LAD, saphenous vein to OM and ramus), he developed atrial fibrillation, which was managed with IV and oral Amiodarone and beta blocker (Lopressor). The patient subsequently recovered well, participated in physical therapy, ambulated over 500 feet, and climbed stairs prior to discharge. On discharge, his vital signs were stable, he was afebrile, and his chest exam was clear with regular rate and rhythm. The treatment plan included continuation of his home medications and new antiarrhythmic therapy for atrial fibrillation.
+The patient is a 67-year-old male admitted for coronary artery disease management. He reported no discomfort or shortness of breath on admission, but prior testing revealed a moderate inferior defect, reversible anterior wall defect, and an ejection fraction of 34%. His history includes insulin-dependent diabetes, peripheral vascular disease, prior left CVA, hypertension, hypercholesterolemia, chronic renal insufficiency, and chronic bronchiectasis. The patient underwent coronary artery bypass grafting (CABG) times three and postoperatively developed atrial fibrillation, which was controlled with beta blocker (Lopressor) and Amiodarone. He recovered well, was able to ambulate over 500 feet, and climbed stairs before discharge. At discharge, his vital signs were stable, he was afebrile, and his creatinine remained stable around 2.3–2.5 mg/dL. The documented diagnosis was coronary artery disease with postoperative atrial fibrillation. Discharge medications included Lopressor, Lasix, Aspirin, NPH insulin, Amiodarone, Percocet as needed, and Colace, with instructions to follow up in 2–25 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with pain in both calves when walking. The pain has been ongoing for several weeks, starts after walking about a block, is described as tightness, and reaches an intensity of 6 out of 10 at its worst; it resolves with rest and does not linger. The patient denied numbness, tingling, or changes in color or temperature in the legs or feet, and reported no worsening or improvement over the past few weeks. The pain has made daily activities more difficult, requiring more frequent breaks. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the pattern of exertional calf pain relieved by rest is consistent with claudication, possibly related to peripheral artery disease. The doctor advised the patient to avoid pushing through pain, take breaks as needed, stay active within limits, and monitor for new symptoms such as pain at rest, non-healing sores, or sudden changes in leg color or temperature. The patient expressed interest in discussing management strategies and exercises.
+The patient is an adult presenting with pain in both calves during walking. The pain, described as tightness rated 6 out of 10, begins after walking about a block, worsens with continued activity, and resolves with rest; it has been present for several weeks without improvement or worsening. There are no associated symptoms such as numbness, tingling, or changes in color or temperature of the legs or feet. The symptoms are significantly impacting the patient's daily activities and mobility. The clinical impression documented by the doctor is claudication, likely related to peripheral artery disease. The doctor advised the patient to avoid pushing through the pain, take breaks as needed, and monitor for any changes in walking distance or new symptoms such as pain at rest or skin changes. Staying active within limits was recommended, and the patient was encouraged to report any concerning new symptoms promptly. Further discussion about management strategies and possible next steps was offered.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.925
-- **Similarity Label**: N/A
+- **STS Score**: 0.334
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

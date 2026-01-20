@@ -186,3 +186,21 @@ Do you have any concerns about trying these strategies, or is there anything els
 ## Processing Information
 
 - **Processing Time**: 414.7s
+
+## EHR Summary
+
+The patient is a 74-year-old male presenting with a massive diaphragmatic hernia, infarcted small bowel, small bowel obstruction, pericarditis, and cardiac adhesions to the pericardium. He had bowel herniation into the left hemithorax via the anterior diaphragm, with associated small bowel infarction and obstruction. His past medical history includes aortic valve replacement in 2194 and asthma; he was on anticoagulation therapy. The documented diagnoses were status post diaphragmatic hernia repair, infarcted small bowel resection, division of cardiac adhesions to pericardium, drainage of right chest pleural effusion, and insertion of a left chest tube. Treatment included emergent reversal of anticoagulation, IV Zosyn, surgical repair with small bowel resection, chest tube placement, blood product transfusion, and postoperative management of tachycardia and anticoagulation. The patient was transitioned to oral Coumadin and beta blockers by discharge. He was discharged in stable condition with instructions for home VNA, physical therapy for endurance training, and follow-up with his physician in 1–14 weeks.
+
+
+## Dialogue Summary
+
+The patient presented with symptoms suspected to be related to bowel herniation into the chest area. The patient described episodes of discomfort that may be triggered by changes in position or abdominal pressure, but the symptoms were currently manageable. No specific details regarding severity, duration, or associated symptoms were documented. The clinical impression was possible herniation of bowel into the chest, with concern for potential complications such as bowel obstruction or compromised blood flow. The doctor advised the patient to monitor for warning signs including severe or persistent abdominal pain, unremitting vomiting, fever, or feeling faint, and to seek immediate medical attention if these occurred. For home management, recommendations included eating smaller, more frequent meals, avoiding heavy lifting or straining, staying upright after eating, and maintaining gentle activity and hydration. The patient was instructed to keep track of symptoms and to reach out if any changes or new concerns arose before the scheduled appointment. No medications or interventions were prescribed at this time.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.547
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 163 words
+

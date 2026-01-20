@@ -85,16 +85,21 @@ Let me know if you have any questions about what to watch for, or if you'd like 
 
 ## EHR Summary
 
-The patient is a 45-year-old female presenting at 37 weeks and 5 days of gestation with elevated blood pressures. She reported no headaches, visual changes, or right upper quadrant pain at admission. Her pregnancy was complicated by chronic hypertension managed with labetalol, and she was found to have proteinuria on the day of admission. Relevant history includes advanced maternal age, prior therapeutic and spontaneous abortions, mitral valve prolapse, and a fetal abdominal cyst treated with ultrasound-guided drainage. On admission, she was diagnosed with hypertension in pregnancy and possible preeclampsia. The treatment plan included induction of labor due to her hypertension. Additional prenatal issues included positive group B streptococcus status and prior episodes of preterm contractions managed with magnesium sulfate.
+The patient is a 45-year-old female presenting at 37 weeks and 5 days gestation with elevated blood pressures. She reported no headaches, visual changes, or right upper quadrant pain, but was found to have proteinuria and elevated liver function tests on admission; physical exam showed hypertension and trace bilateral edema. Her relevant history includes chronic hypertension during pregnancy managed with labetalol, mitral valve prolapse, prior therapeutic and spontaneous abortions, and no known drug allergies. The documented diagnoses were delivery of a live born female via cesarean section, aspiration pneumonia of bacterial origin, and HELLP syndrome (hemolysis, elevated liver function, and low platelets). Treatment included induction of labor with Pitocin, magnesium sulfate for seizure prophylaxis, cesarean section due to labor arrest, antibiotics (ceftriaxone, clindamycin, azithromycin, later Zosyn and vancomycin) for pneumonia, anticoagulation initially for pulmonary emboli (later withheld), nifedipine for hypertension, and supportive care including oxygen and incentive spirometry. She also received Protonix for GERD prophylaxis and a single dose of Diflucan for probable yeast infection. At discharge, her vital signs and laboratory values had stabilized, and she was ambulating and tolerating oral intake. She was advised to follow up with her obstetrician in 2 weeks, her primary care physician for thrombophilia workup, and to obtain an outpatient EGD for evaluation of hematemesis.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about elevated blood pressure during pregnancy. She reported noticing higher blood pressure readings at recent prenatal checkups, trace edema (swelling) on both sides, decreased urine output, and a slight decrease in energy, but denied headaches or vision changes. She also mentioned being told there was protein in her urine. Her medical history includes current pregnancy and use of labetalol for blood pressure management, with no side effects noted from the medication. On examination, the doctor noted the presence of trace edema and absence of severe symptoms such as headaches or vision changes. The doctor assessed that the combination of elevated blood pressure, proteinuria, and swelling could indicate preeclampsia, which is being closely monitored by her healthcare team. The doctor advised continued monitoring of blood pressure at home, resting and elevating feet to manage swelling, and prompt reporting of any new or worsening symptoms such as severe headaches, vision changes, increased swelling, or upper abdominal pain. The patient expressed understanding and agreed to monitor for warning signs.
+The patient is a pregnant woman presenting with concerns about elevated blood pressure during her pregnancy. She reports noticing increased blood pressure at recent prenatal checkups, trace bilateral edema, decreased urine output, and mild fatigue, but denies headaches or visual changes. Proteinuria was noted by her healthcare team. Her relevant history includes current pregnancy and recent initiation of labetalol, with no reported side effects from the medication. The clinical impression discussed is possible preeclampsia, given the combination of hypertension, proteinuria, and edema. The treatment plan includes ongoing monitoring of blood pressure and proteinuria, continued labetalol therapy, and advice to rest and elevate her feet as needed. She was counseled to watch for warning symptoms such as severe headaches, vision changes, increased swelling, or upper abdominal pain, and to report any new or worsening symptoms promptly.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.975
-- **Similarity Label**: N/A
+- **STS Score**: 0.605
+- **Model Used**: general
+- **Text1 Length**: 212 words
+- **Text2 Length**: 135 words
+
 
 ## Processing Information
 

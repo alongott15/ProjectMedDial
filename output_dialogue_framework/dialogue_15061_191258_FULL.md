@@ -87,16 +87,25 @@ Let me know if you have any questions about caring for your incision at home or 
 
 ## EHR Summary
 
-The patient is a 55-year-old woman presenting with shortness of breath following recent coronary artery bypass graft surgery. She developed dyspnea at home, and on admission was found to have bilateral pleural effusions, which required bilateral thoracentesis; left loculated effusion persisted. Subsequently, she developed right upper quadrant pain, and a HIDA scan confirmed acute cholecystitis, for which she underwent laparoscopic cholecystectomy revealing a gangrenous gallbladder. Her postoperative course was complicated by increasing erythema of the sternal incision, positive blood cultures, and pleural fluid positive for Streptococcus mutans. Physical findings included an unstable sternum and sternal wound dehiscence. The documented diagnoses included bilateral pleural effusions, acute gangrenous cholecystitis, and sternal wound dehiscence. Treatments included thoracentesis, laparoscopic cholecystectomy, local and operative debridement of the sternal wound, and transfer for further management of sternal dehiscence. She was also receiving NPH insulin.
+The patient is a 55-year-old woman presenting with sternal wound dehiscence following recent coronary artery bypass graft surgery. She experienced shortness of breath, bilateral pleural effusions, and subsequently developed right upper quadrant pain, which was diagnosed as acute cholecystitis and treated with laparoscopic cholecystectomy. Her postoperative course was complicated by increasing erythema and dehiscence of the sternal incision, with positive blood and pleural fluid cultures for streptococcal species. Relevant history includes insulin-dependent diabetes, hypercholesterolemia, and recent cardiac and gallbladder surgeries. The documented diagnosis was sternal wound dehiscence, status post sternal debridement and omental and pectoral flap reconstruction. Treatment included surgical debridement, flap reconstruction, intravenous antibiotics (levofloxacin and vancomycin), amiodarone for atrial fibrillation, and supportive care. She was discharged in stable condition with instructions for home nursing assessment and follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about their chest incision appearing to come apart and increased redness at the site. They reported mild, activity-related shortness of breath that comes and goes, a persistent dull ache in the right upper abdomen rated 5 out of 10 in severity, and noted that the abdominal pain is mostly constant. The patient denied any drainage from the incision, as well as fever or chills. No specific past medical history, medications, or allergies were mentioned. On examination, the doctor noted worsening redness and separation at the chest incision without drainage or systemic symptoms, and a persistent dull right upper abdominal ache. The assessment was possible superficial wound complication at the incision site, with abdominal discomfort possibly related to post-surgical healing; mild shortness of breath was noted as a potential part of recovery. The doctor recommended keeping the incision clean and dry, monitoring for new drainage, swelling, or systemic symptoms, and contacting the surgical team if redness spreads, separation worsens, or if fever, chills, or drainage develop.
+The patient presents with concern about increasing redness and separation at their chest incision site. They report mild, intermittent shortness of breath, especially with activity, and a persistent dull ache in the right upper abdomen rated 5 out of 10 in severity. The patient denies any drainage from the incision, as well as fever or chills. The redness and separation at the incision have been worsening over the past few days, while the abdominal pain has remained stable.
+
+There is no documented history of other medical conditions, medications, or allergies in this encounter. The clinical impression is possible superficial wound complication at the chest incision site, with concern for impaired healing but no clear evidence of infection at this time. The right upper abdominal discomfort may be related to post-surgical healing.
+
+The treatment plan includes keeping the incision clean and dry, monitoring for new drainage, swelling, or systemic symptoms such as fever, and contacting the surgical team promptly if these develop or if the wound worsens. The patient was advised to watch for signs of infection or further complications and to seek prompt attention if symptoms escalate.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.473
+- **Model Used**: general
+- **Text1 Length**: 130 words
+- **Text2 Length**: 187 words
+
 
 ## Processing Information
 

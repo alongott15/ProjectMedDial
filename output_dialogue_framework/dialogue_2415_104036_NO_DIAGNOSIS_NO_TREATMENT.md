@@ -100,3 +100,21 @@ Let me know if you have any questions or if anything changes with your symptoms.
 ## Processing Information
 
 - **Processing Time**: 417.2s
+
+## EHR Summary
+
+The patient is a 66-year-old man presenting with substernal chest pain. He experienced chest pain at his rehabilitation facility, was given three sublingual nitroglycerins, and was found to have ST elevations on ECG with hypotension (BP in the 80s/50s). His history includes multiple sclerosis, deep venous thromboses status post inferior vena cava filter, hypertension, and chronic constipation; he reports no known drug allergies and was taking Coumadin, Diltiazem, and other medications on admission. Cardiac catheterization revealed severe multi-vessel coronary artery disease with a 99% LAD stenosis, 95% distal circumflex stenosis, and 90% mid-right coronary artery lesion; the LAD and circumflex were stented initially, complicated by ventricular fibrillation requiring defibrillation and a distal aortic dissection, followed by successful right coronary artery stenting later in the hospital course. The documented diagnoses were myocardial infarction, coronary artery disease, hypercholesterolemia, hypertension, multiple sclerosis, and deep venous thrombosis. Treatment included dual antiplatelet therapy (aspirin, Plavix), beta blocker, ACE inhibitor, statin, long-term anticoagulation with Coumadin and Lovenox until therapeutic INR, and supportive care including transfusions for anemia. The patient was discharged in improved condition to a rehabilitation facility with instructions for daily INR checks and follow-up.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with shortness of breath as the chief complaint. Symptoms include progressive dyspnea over several days, chest heaviness, increased fatigue and weakness, orthopnea requiring extra pillows, and exertional worsening of symptoms; the patient also reports a cough producing pink, frothy sputum but denies lower extremity swelling or dizziness. The onset of symptoms was a few days ago, with noticeable worsening since onset. There is no mention of relevant past medical history, medications, or allergies. The clinical impression documented by the doctor is pulmonary edema, likely due to fluid accumulation in the lungs. The treatment plan includes prompt medical evaluation, resting with the head elevated, avoiding strenuous activity, and monitoring for worsening symptoms such as increased shortness of breath, confusion, chest pain, or cyanosis. The patient was advised to seek emergency care if oxygen saturation drops below 90% or if symptoms worsen. No medications or additional interventions were prescribed during this encounter.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.459
+- **Model Used**: general
+- **Text1 Length**: 190 words
+- **Text2 Length**: 156 words
+

@@ -87,16 +87,21 @@ Would you like any advice on how to proceed with arranging a prompt evaluation?
 
 ## EHR Summary
 
-The patient is a 64-year-old female presenting with chest pain, pressure, and increasing shortness of breath on exertion. Symptoms were progressive and associated with a history of myocardial infarction and prior stent placement, with recent evidence of significant right coronary artery restenosis (90%) and a preserved ejection fraction (>55%). Her medical history includes high cholesterol, gastroesophageal reflux disease, prior cerebrovascular accident, lumbar disc disease, hemorrhoids, and obesity. On physical examination, she was afebrile with stable vital signs, clear lungs, a regular heart rhythm with a II/VI systolic ejection murmur, and no peripheral edema. The documented diagnosis was coronary artery disease with significant restenosis of a previously placed stent. The treatment plan included surgical intervention with coronary artery bypass grafting. She was maintained on medications including Lipitor, Prilosec, Metoprolol, Plavix, and aspirin.
+The patient is a 64-year-old female presenting with chest pain, pressure, and increasing shortness of breath on exertion. Her symptoms were associated with a history of myocardial infarction, prior stent placement, and significant right coronary artery restenosis (90%) noted on previous catheterization. Relevant history includes high cholesterol, gastroesophageal reflux disease, cerebrovascular accident, lumbar disc disease, hemorrhoids, obesity, and allergies to sulfa, Prednisone, and Ceftin. The documented diagnosis was severe right coronary artery restenosis requiring surgical intervention. She underwent a coronary artery bypass graft (CABG) using the left internal mammary artery to the right coronary artery. Postoperatively, she was weaned from ventilatory and vasopressor support, managed with diuresis, and her beta blocker was discontinued due to hypotension. She participated in physical therapy, improved steadily, and was discharged home in stable condition with instructions for outpatient cardiac rehabilitation and follow-up appointments. Discharge medications included Protonix, Lipitor, Percocet as needed, aspirin, Colace, potassium supplement, and Lasix.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain and pressure, accompanied by anxiety. Symptoms included central chest pain and pressure behind the breastbone, worsening over several days, and increasing shortness of breath with activity such as walking or climbing stairs; symptoms improved with rest and were rated as moderate to uncomfortable during exertion. The patient denied associated sweating, nausea, or lightheadedness, and reported a history of prior chest pain but noted that current symptoms were more severe. No physical findings were described in the conversation. The doctor assessed that the symptoms—particularly chest pressure and shortness of breath worsening with activity and improving with rest—could indicate angina, suggesting the heart may not be getting enough oxygen during exertion. The doctor recommended avoiding strenuous activity and arranging prompt evaluation, ideally the same day, to rule out urgent causes. Additional advice included seeking emergency care if symptoms worsen, occur at rest, or new symptoms such as fainting, sweating, or radiating pain develop.
+The patient is an adult presenting with chest pain and pressure as the chief complaint. The discomfort is described as central, located behind the breastbone, and has been worsening over several days. Symptoms are exacerbated by physical activity (such as walking or climbing stairs) and are accompanied by shortness of breath on exertion, both of which improve with rest; there is no associated sweating, nausea, or lightheadedness. The patient rates the discomfort as moderate to severe during activity, requiring them to stop and rest, and notes that these symptoms are worse than previous episodes of chest pain. Relevant history includes prior episodes of chest pain, but current symptoms are more intense and include exertional dyspnea. The clinical impression documented is possible angina, with concern for the heart not receiving enough oxygen during exertion. The treatment plan includes avoiding strenuous activity, arranging prompt medical evaluation (ideally the same day), and instructions to seek emergency care if symptoms worsen or new symptoms develop. The patient expressed anxiety about the symptoms and requested advice on arranging an urgent evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.561
+- **Model Used**: general
+- **Text1 Length**: 153 words
+- **Text2 Length**: 176 words
+
 
 ## Processing Information
 

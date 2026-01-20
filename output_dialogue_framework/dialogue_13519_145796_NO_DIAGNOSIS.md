@@ -85,16 +85,21 @@ Would you like to discuss strategies for managing these symptoms at home, or do 
 
 ## EHR Summary
 
-The patient is a 69-year-old male presenting for cardiac catheterization due to known aortic stenosis (AS). He reports a history of exertional shortness of breath, which has worsened over the past year and now occurs after climbing only one flight of stairs; he denies chest discomfort. His medical history includes moderate chronic obstructive pulmonary disease, hypertension, hyperlipidemia, and a remote history of hepatitis (type unspecified); he has no known drug allergies and takes Zocor, Aldactazide, Flovent, and Maxair. Cardiac testing prior to admission showed an ejection fraction of 66%, aortic valve area of 1.0 cm², and significant aortic valve gradients; recent catheterization revealed an aortic valve area of 0.9 cm², gradient of 33, and a 90% stenosis in the OM1 coronary artery, with preserved ejection fraction (60%). Physical exam and additional findings are not specified. The documented diagnosis is severe aortic stenosis with significant coronary artery disease (OM1 lesion). Treatment details during this admission are not specified in the provided note.
+The patient is a 69-year-old male presenting for evaluation and management of known aortic stenosis (AS), referred for cardiac catheterization. He reported a history of exertional shortness of breath, which had worsened over the past year, now occurring after climbing one flight of stairs; he denied chest discomfort. His medical history includes aortic stenosis, chronic obstructive pulmonary disease (COPD), hypertension, hyperlipidemia, and a remote history of hepatitis, with no known drug allergies. Cardiac catheterization revealed severe AS (valve area 0.9 cm²) and a 90% stenosis in the OM1 coronary artery; echocardiogram confirmed AS with significant gradients. The documented diagnoses were aortic stenosis status post aortic valve replacement with a #21 bovine pericardial valve, coronary artery disease status post coronary artery bypass grafting (CABG) to OM1, COPD, hypertension, and hyperlipidemia. Treatment included surgical aortic valve replacement and CABG, followed by postoperative care with medications such as aspirin, metoprolol, Lasix, simvastatin, inhaled bronchodilators, potassium chloride, and analgesics. The patient remained stable postoperatively and was discharged home in stable condition with instructions for follow-up in cardiology and primary care clinics.
+
 
 ## Dialogue Summary
 
-The patient presented with difficulty catching their breath during activities around the house. Symptoms included exertional shortness of breath and wheezing, both present for several weeks, with no associated chest pain, cough, lightheadedness, or fainting; symptoms are triggered by activity (especially climbing stairs) and improve with rest or lying down, without affecting sleep. The patient reported needing to slow down daily activities due to breathing difficulties and also mentioned a large bruise on the left thigh. No relevant past medical history, medications, or allergies were discussed. On review, there were no reports of chest pain, nocturnal symptoms, or orthopnea. The doctor assessed that the pattern of exertional dyspnea and wheezing without nighttime symptoms suggests a mild airway issue, such as asthma or chronic bronchitis. The doctor advised the patient to pace activities, monitor for new symptoms (such as cough, fever, swelling, or chest pain), and seek prompt care if symptoms worsen or occur at rest. The patient expressed understanding and interest in learning strategies for managing symptoms at home.
+The patient is an adult presenting with shortness of breath as the chief complaint. The dyspnea primarily occurs with activity (such as climbing stairs or doing household tasks) and is accompanied by wheezing, but not by chest pain, cough, or nocturnal symptoms; resting or lying down alleviates the symptoms. The symptoms have been present for several weeks and have led to a reduction in daily activities, but there is no associated lightheadedness or orthopnea. The patient also reported a recent large bruise on the left thigh. There is no mention of relevant past medical history, medications, or allergies. The clinical impression was a mild airway issue, such as asthma or possibly chronic bronchitis, based on the activity-related pattern and associated wheezing. The treatment plan included advice to pace activities, monitor for new or worsening symptoms (such as chest pain, swelling, cough, or fever), and seek prompt care if symptoms worsen or occur at rest. The patient expressed interest in discussing home management strategies for these symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.470
+- **Model Used**: general
+- **Text1 Length**: 177 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

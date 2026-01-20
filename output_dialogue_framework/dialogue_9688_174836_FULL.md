@@ -87,16 +87,21 @@ Let me ask—have you noticed any wheezing or trouble breathing in a way that fe
 
 ## EHR Summary
 
-The patient is a 55-year-old male presenting for a scheduled cardiac catheterization. He has a history of three-vessel coronary artery disease, prior myocardial infarction on 9-20, and previous stenting of the LAD and LCx arteries on 9-26, now returning for staged RCA intervention. He reports being chest pain free and compliant with medications, with only occasional shortness of breath after walking his dog and no symptoms at rest. Relevant history includes hypertension, type 2 diabetes (diet controlled), hyperlipidemia, morbid obesity, obstructive sleep apnea, GERD, hiatal hernia, knee arthritis (status post left TKA), and depression/anxiety; he is allergic to Visipaque. On exam and during this admission, he remained chest pain free and had no acute symptoms such as nausea, vomiting, fever, chills, or diaphoresis. The documented diagnosis is three-vessel coronary artery disease status post recent MI and staged interventions. Treatment included continuation of beta blocker, ACE inhibitor, statin, and Plavix, with plans for staged RCA stenting to minimize risk of contrast-induced nephropathy. The patient has also stopped smoking in the past two weeks.
+The patient is a 55-year-old male presenting for a scheduled cardiac catheterization as part of staged intervention for three-vessel coronary artery disease (CAD). He has been chest pain free and compliant with medications, with only occasional shortness of breath after exertion and no symptoms at rest. His relevant history includes recent myocardial infarction (9/20), prior stenting of the LAD and LCX (9/26), diabetes mellitus, hypertension, morbid obesity, obstructive sleep apnea, and a documented allergy to Visipaque contrast dye. During the hospital stay, he underwent successful stenting of the RCA after experiencing transient hypotension and flushing attributed to a contrast reaction, which resolved with supportive care. The documented diagnosis was CAD, status post multi-vessel stenting. He was discharged hemodynamically stable, chest pain free, and breathing comfortably on room air. The treatment plan included continuation of antiplatelet therapy (aspirin, clopidogrel), statin, beta-blocker, ACE inhibitor, nitrates, diabetic management with metformin, and instructions for pre-medication prior to future contrast exposure. He was advised to continue smoking cessation, follow a diabetic/heart-healthy diet, and follow up with his primary care provider and urology as scheduled.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure, particularly concerned due to an upcoming cardiac catheterization. The chest pressure occurs during physical activity, such as walking the dog, and is accompanied by mild shortness of breath that resolves with rest; no lightheadedness, sweating, or wheezing were reported. The symptoms have remained stable in severity and frequency, and resting alleviates them; the patient has not taken extra medication for relief. Relevant history includes a prior reaction to contrast dye during procedures, characterized by flushing and low blood pressure requiring treatment. No abnormal physical findings were described in the conversation. The doctor assessed that the symptoms are consistent with stable angina, likely related to cardiac ischemia during exertion. The doctor advised avoiding strenuous activity that provokes symptoms and emphasized informing the cardiology team about the previous dye reaction to ensure precautions are taken during the upcoming procedure. The patient was instructed to report any new or worsening symptoms, such as chest discomfort at rest or severe shortness of breath.
+The patient is presenting for evaluation prior to a scheduled cardiac catheterization, with the chief complaint of chest pressure. The chest pressure occurs during physical activity such as walking and is accompanied by mild shortness of breath, both of which resolve with rest; there is no associated lightheadedness, sweating, or wheezing. The symptoms have remained stable in severity and frequency. The patient reports a prior adverse reaction to contrast dye during a previous procedure, characterized by flushing and hypotension that required treatment. The clinical impression documented is that the symptoms are consistent with stable angina, likely related to underlying cardiac disease. The treatment plan includes advising the patient to avoid strenuous activity that provokes symptoms and ensuring the cardiology team is aware of the previous contrast dye reaction so that precautions can be taken during the upcoming procedure. The patient was instructed to report any new or worsening symptoms, such as chest discomfort at rest or severe shortness of breath.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.706
+- **Model Used**: general
+- **Text1 Length**: 179 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

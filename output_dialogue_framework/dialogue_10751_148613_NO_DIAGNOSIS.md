@@ -85,16 +85,21 @@ If you start feeling more confused, have worsening breathing, or can’t keep fl
 
 ## EHR Summary
 
-The patient is a 27-year-old female presenting with diabetic ketoacidosis (DKA). She reported one week of elevated blood glucose, with levels greater than 600 mg/dL for 2–3 days, despite increasing her insulin doses as instructed. Additional symptoms included vomiting, shortness of breath (noted to have cold-induced asthma), intermittent fever up to 101.9°F, chills, diarrhea for two days, polyuria, and nocturia. Her relevant history includes type I and II diabetes mellitus with prior DKA episodes, chronic sinusitis, irritable bowel syndrome, GERD, depression, and asthma; she is allergic to E-Mycin. On examination in the emergency department, she was tachycardic (HR 128), hypertensive (BP 153/79), afebrile (T 99.2°F), and had a blood glucose of 953 mg/dL, anion gap metabolic acidosis (anion gap 20), positive urine ketones, and lactic acidosis (lactate 5.0). The documented diagnosis was DKA. Treatment included intravenous insulin infusion and IV fluid hydration, resulting in improvement of glucose and anion gap within several hours.
+The patient is a 27-year-old woman presenting with diabetic ketoacidosis (DKA). She reported one week of elevated blood glucose, with levels over 600 mg/dL for 2–3 days, along with vomiting, shortness of breath, intermittent fever up to 101.9°F, chills, diarrhea for two days, polyuria, and increased nocturia. Her history includes type I and II diabetes mellitus with prior DKA episodes, chronic sinusitis, irritable bowel syndrome, GERD, depression, asthma, and an allergy to E-Mycin. On admission, she was tachycardic with a blood glucose of 953 mg/dL, anion gap metabolic acidosis, and ketone-positive urine; lactic acidosis was also noted. The documented diagnoses were DKA and sinusitis. She was treated with intravenous insulin, aggressive IV fluid hydration with potassium supplementation, and later transitioned to subcutaneous insulin; antibiotics were continued for sinusitis. ENT was consulted for persistent sinus symptoms, but the antibiotic regimen was not finalized before discharge. The patient eloped from the hospital before further care, education, or follow-up could be arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with uncontrolled high blood sugar. They reported vomiting, constant shortness of breath, increased urination (including nocturia), intermittent fevers and chills, fatigue, difficulty maintaining daily activities, diarrhea, and recent onset of tender sinuses. The high blood sugar and vomiting began a couple of days ago and have persisted despite insulin use; the shortness of breath is constant and not triggered by specific activities. The patient also described increased thirst and difficulty sleeping due to symptoms. No specific past medical history, medications, or allergies were mentioned in this conversation. The doctor noted the combination of persistent hyperglycemia, vomiting, shortness of breath, and other symptoms as concerning for possible diabetic ketoacidosis (DKA). The doctor recommended urgent in-person evaluation today due to the risk of DKA and advised the patient to stay hydrated with water or sugar-free fluids until then. The patient was instructed to seek emergency care if confusion, worsening breathing, or inability to keep fluids down occurred.
+The patient is an adult presenting with uncontrolled high blood glucose as the chief complaint. Over the past few days, they have experienced persistent hyperglycemia despite insulin use, accompanied by vomiting, constant shortness of breath (dyspnea), increased urination (polyuria), intermittent fevers and chills, fatigue, and some diarrhea. The patient reports these symptoms are significantly interfering with daily activities and sleep. Relevant history includes diabetes managed with insulin; no other medical history, medications, or allergies are specified. The clinical impression documented by the doctor is concern for diabetic ketoacidosis (DKA), given the combination of refractory hyperglycemia, vomiting, dyspnea, and other symptoms. The treatment plan includes urgent in-person evaluation today for possible DKA, advice to maintain hydration with water or sugar-free fluids if possible, and instructions to seek emergency care if confusion, worsening breathing, or inability to keep fluids down occurs. Sinus tenderness was mentioned by the patient but not directly addressed in the assessment or plan.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.974
-- **Similarity Label**: N/A
+- **STS Score**: 0.825
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 155 words
+
 
 ## Processing Information
 

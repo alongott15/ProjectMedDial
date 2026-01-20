@@ -85,16 +85,21 @@ Let me ask—do you notice anything in particular that seems to trigger these sy
 
 ## EHR Summary
 
-The patient is a 65-year-old woman presenting for evaluation and management of coronary artery disease following a history of myocardial infarction and multiple prior percutaneous coronary interventions. She reported a positive stress test and subsequently underwent cardiac catheterization with PTCA and brachytherapy prior to admission. Her past medical history includes hypothyroidism (treated with radioactive iodine), hypertension, obesity, and several prior surgeries. On preoperative examination, she was found to have clear lungs, regular heart rhythm, benign skin findings except for cherry hemangiomas and right groin fungal growth, and intact neurological status. Preoperative labs showed a hematocrit of 38.8, creatinine 1.0, BUN 18, and platelet count of 24,000. The documented diagnosis was severe coronary artery disease with a history of old inferior myocardial infarction. She underwent coronary artery bypass grafting x2 during this admission. Her pre-admission medications included Plavix, Lipitor, methimazole, atenolol, lisinopril, aspirin, and a multivitamin; she has a penicillin allergy.
+The patient is a 65-year-old female admitted for coronary artery bypass grafting following a history of myocardial infarction and recurrent coronary artery disease. She reported no acute complaints on admission, but preoperative evaluation revealed stable vital signs and a history of multiple PTCAs, stents, and positive stress test. Her past medical history includes hypothyroidism (treated with methimazole), hypertension, obesity, and several prior surgeries. During her postoperative course, she experienced transient first-degree A-V block and brief nocturnal pauses, possibly related to enhanced vagal tone or obstructive sleep apnea, but remained hemodynamically stable and ambulatory. The documented diagnoses at discharge were status post coronary artery bypass grafting x2, status post myocardial infarction, and hypothyroidism. Treatment included continuation of Plavix, atorvastatin, methimazole, aspirin, and supportive medications such as Dilaudid for pain and Colace for bowel regimen. She was discharged home in stable condition with instructions for follow-up with her primary care physician and cardiothoracic surgeon.
+
 
 ## Dialogue Summary
 
-The patient presented with difficulty breathing and chest tightness. Symptoms have been present for a few days, worsen with activity, and improve somewhat with rest; the patient also reported mild swelling and pain in the legs and ankles, which increases with standing or walking and improves with sitting. The patient denied cough, fever, upper respiratory symptoms, nocturnal shortness of breath, or need for extra pillows at night. There was no history of specific triggers such as salty foods or weather changes, and the symptoms have made daily activities more difficult due to increased fatigue. On examination, the patient described rough chest sounds but no wheezing or crackling. The doctor assessed that the symptoms may be related to inefficient heart or circulatory function leading to mild fluid buildup and exertional dyspnea, but noted the absence of severe or acute signs. The doctor explained these findings to the patient and discussed possible patterns and triggers to further clarify the underlying cause.
+The patient presents with the chief complaint of increased difficulty breathing and chest tightness. Symptoms have been present for a few days, with dyspnea and chest tightness worsening on exertion and improving somewhat at rest; mild bilateral leg and ankle swelling with associated pain is also reported, which intensifies with prolonged standing or walking and improves with rest. The patient denies cough, fever, upper respiratory symptoms, nocturnal dyspnea, or orthopnea. The symptoms are significantly impacting daily activities, causing increased fatigue and reduced exercise tolerance. Relevant history, medications, and allergies are not specified in the dialogue. The physician’s clinical impression is possible fluid retention related to decreased cardiac or circulatory efficiency, leading to exertional dyspnea and peripheral edema. No specific diagnosis or treatment plan was documented during this encounter. The patient was asked about potential triggers, but none were identified.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.935
-- **Similarity Label**: N/A
+- **STS Score**: 0.484
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 139 words
+
 
 ## Processing Information
 

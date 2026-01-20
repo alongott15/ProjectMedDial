@@ -95,16 +95,23 @@ Would you like me to help arrange an appointment for your check-up, or do you ha
 
 ## EHR Summary
 
-The patient is a 54-year-old male presenting for elective surgical clipping of known left-sided cerebral aneurysms. He was asymptomatic at admission, with no acute neurological complaints documented. His relevant history includes prior subarachnoid hemorrhage, right MCA aneurysm clipping, coronary artery disease, prior myocardial infarction, stents to the LAD, angina, and GERD; home medication included Lopressor. On admission, physical examination was unremarkable with normal neurological findings. The documented diagnosis was wide-necked left anterior temporal artery and left PComm aneurysms. He underwent successful left craniotomy with aneurysm clipping, confirmed by postoperative angiogram showing no residual aneurysm. The patient remained neurologically stable postoperatively, ambulating well and eating normally. Discharge medications included dexamethasone, Lopressor, and Percocet as needed; he was advised to follow up in one month and have staples removed in ten days.
+The patient is a 54-year-old male presenting for elective surgical clipping of known left-sided cerebral aneurysms. He was asymptomatic at admission, with no neurological deficits noted on physical examination. His relevant history includes prior subarachnoid hemorrhage, right MCA aneurysm clipping in 2164, coronary artery disease, prior myocardial infarction (2173-6-10), stents to the LAD, angina, and GERD; home medication included Lopressor. The clinical impression was wide-necked left anterior temporal artery and left PComm aneurysms not amenable to coil embolization. He underwent successful left craniotomy with aneurysm clipping, confirmed by postoperative angiogram showing no residual aneurysm. The patient remained neurologically stable postoperatively, ambulated well, and tolerated oral intake. Discharge medications included dexamethasone (with a tapering schedule), Lopressor, and Percocet as needed. He was discharged home with instructions for staple removal in ten days and neurosurgical follow-up in one month.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about their heart health and requested a check-in to ensure everything was on track. The patient denied experiencing chest discomfort, shortness of breath, palpitations, swelling in the legs, weight changes, unusual fatigue, sleep disturbances, or episodes of lightheadedness or fainting; they reported being able to perform usual activities such as walking and climbing stairs without difficulty. The patient mentioned trying to maintain a healthy diet and stay active but was unsure about specific medications and had not had recent check-ups or lab tests. No abnormal physical findings or symptoms were described by the patient. The doctor assessed that the absence of concerning symptoms and the ability to maintain normal activities were reassuring for heart health. The doctor recommended scheduling a routine check-up, including basic labs and a physical exam, to monitor blood pressure, cholesterol, and other measures. The patient was advised to continue healthy habits and to report any new symptoms such as chest discomfort or unusual fatigue. The patient agreed to arrange a check-up and had no further questions.
+The patient is an adult presenting for a routine evaluation of heart health due to personal concern and past history (specifics not detailed). The patient reports no chest discomfort, dyspnea, palpitations, lower extremity swelling, weight changes, unusual fatigue, lightheadedness, or sleep disturbances. They are able to perform usual activities such as walking and climbing stairs without difficulty and have not noticed any recent changes in their health status. The patient follows general healthy lifestyle measures, including watching their diet and staying active, but is unsure of specific medications and has not had recent check-ups or lab tests.
+
+No concerning symptoms were identified during the visit. The clinical impression is that the patient is currently well and has no evidence of symptomatic heart disease. The treatment plan includes scheduling a routine check-up with basic laboratory tests and a physical exam to monitor blood pressure, cholesterol, and other relevant measures. The patient was advised to continue healthy habits and to report any new symptoms such as chest discomfort or unusual fatigue promptly.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.923
-- **Similarity Label**: N/A
+- **STS Score**: 0.265
+- **Model Used**: general
+- **Text1 Length**: 137 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

@@ -87,16 +87,23 @@ Next steps would usually include a physical exam and possibly some basic tests t
 
 ## EHR Summary
 
-The patient is a 59-year-old male presenting with increasing dyspnea on exertion and occasional chest discomfort over the past few months. Symptoms have progressively worsened, prompting evaluation. His relevant history includes coronary artery disease with prior percutaneous transluminal coronary angioplasty in 2102, 2108, and 2109, previous myocardial infarction, hypertension, hypercholesterolemia, chronic back pain, possible transient ischemic attack or cerebrovascular accident, degenerative joint disease, and left total hip replacement. Medications prior to admission included Toprol XL, Lipitor, Diovan, aspirin, Motrin, Percocet as needed, Plavix, Imdur, and a multivitamin; he is allergic to Zestril (cough). On admission, cardiac catheterization revealed occlusion of the left anterior descending and right coronary arteries with in-stent stenosis and moderate obtuse marginal disease. Physical examination was notable for clear lungs, regular heart rhythm without murmur, and no edema. The documented clinical impression was significant multi-vessel coronary artery disease. Cardiothoracic surgery was consulted and the patient was accepted for surgical intervention; a carotid duplex showed no significant hemodynamic lesions while awaiting surgery.
+The patient is a 57-year-old male presenting with increasing dyspnea on exertion and occasional chest discomfort over the past few months. Symptoms were progressive and associated with a history of coronary artery disease, including prior percutaneous transluminal coronary angioplasty and myocardial infarction. Cardiac catheterization on admission revealed occlusion of the left anterior descending and right coronary arteries with instent stenosis and moderate obtuse marginal disease. Past medical history includes hypertension, hypercholesterolemia, chronic back pain, degenerative joint disease, and status post left total hip replacement; he is allergic to Zestril (cough). The documented diagnoses were coronary artery disease status post coronary artery bypass grafting times three, hypertension, hypercholesterolemia, chronic back pain, degenerative joint disease, and status post left total hip replacement. Treatment included coronary artery bypass grafting (CABG) times three, management of a postoperative right pneumothorax with chest tube placement, and initiation of medications including metoprolol, Lasix, potassium chloride, aspirin, Lipitor, and Percocet. The patient was discharged home in stable condition with instructions for wound care follow-up in two weeks and additional follow-up with his primary care physician and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with progressive shortness of breath during activity, most notably when walking up stairs. Symptoms have worsened over the past couple of weeks and now include occasional chest discomfort described as tightness or pressure with exertion, swelling in the lower legs that is worse at the end of the day and partially relieved by elevating the feet, and some rattling sounds when breathing; no cough, wheezing, dizziness, or fainting were reported. The patient stated these symptoms have slowed daily activities and require more frequent breaks. No specific triggers such as foods, salt intake, or weather changes were identified. The doctor noted the combination of exertional breathlessness, chest tightness, and leg swelling may be related to heart or lung function, possibly due to inefficient cardiac pumping and fluid buildup. The doctor advised the patient to avoid strenuous activities, monitor for warning signs such as sudden worsening of breathlessness, persistent chest pain, or faintness, and seek immediate care if these occur. Recommendations included keeping legs elevated when sitting and observing changes in swelling, with plans for a physical exam and basic tests to further evaluate heart and lung function.
+The patient presents with progressive shortness of breath on exertion as the chief complaint. Over the past several weeks, dyspnea has worsened, particularly during activities such as walking up stairs, and is accompanied by exertional chest tightness/pressure and lower leg swelling that is worse at the end of the day and partially relieved by leg elevation. The patient denies cough, lightheadedness, dizziness, or fainting, but reports occasional rattling sounds when breathing; there is no wheezing or noisy breathing. No specific triggers such as foods, salt intake, or weather changes have been identified.
+
+The clinical impression discussed was possible heart dysfunction leading to fluid buildup and exertional symptoms, with concern for fluid in the lungs. The treatment plan includes limiting strenuous activity, monitoring for warning signs (such as worsening dyspnea at rest, persistent chest pain, or syncope), elevating the legs when sitting, and observing for changes in swelling. Further evaluation with a physical exam and basic heart and lung tests was recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.508
+- **Model Used**: general
+- **Text1 Length**: 179 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

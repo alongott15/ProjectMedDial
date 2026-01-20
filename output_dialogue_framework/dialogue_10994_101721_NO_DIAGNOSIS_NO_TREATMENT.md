@@ -87,16 +87,21 @@ If you have any questions or notice new symptoms, let me know.
 
 ## EHR Summary
 
-The patient is a newborn female presenting after precipitous out-of-hospital delivery at 28 and 1/7 weeks gestation, with a birth weight of 1100 grams. She was described as active and breathing well at birth, with an Apgar score of 8 (time not specified), but appeared mildly hypotonic and had mild respiratory distress with fair air entry and mild retractions on arrival to the NICU. The mother had no prenatal care, and prenatal labs after delivery were unremarkable. On exam, the infant was mildly hypothermic (rectal temperature 92.0°F), with vital signs: heart rate 122, respiratory rate 55, blood pressure 59/27 (mean 38), and slightly delayed capillary refill. Physical findings included prominent molding, soft and flat anterior fontanelle, and normal abdominal exam. The clinical impression was consistent with extreme prematurity at 29 weeks gestation. The infant was admitted to the neonatal intensive care unit for further management and monitoring.
+The patient is a newborn female, born at 28 weeks gestation with a birth weight of 1100 grams, presenting for management of prematurity and associated complications. She was delivered precipitously at home without prenatal care and admitted to the NICU for evaluation and stabilization. On admission, she was mildly hypotonic, with mild respiratory distress and hypothermia, but otherwise stable vital signs. Her hospital course included respiratory support with intubation, surfactant administration, and subsequent weaning to room air; treatment of a moderate patent ductus arteriosus with indomethacin; management of hyperbilirubinemia with phototherapy; and nutritional support advancing from TPN to full oral feeds. Relevant history includes maternal cocaine exposure and no prenatal care, but infectious workup was negative and no transfusions were required. The clinical impression was prematurity with associated respiratory distress syndrome, PDA, and hyperbilirubinemia. At discharge, the infant was stable, feeding well by mouth, and gaining weight appropriately. Discharge recommendations included continued iron supplementation, follow-up with pediatrics in two days, and routine newborn care.
+
 
 ## Dialogue Summary
 
-The patient presented with mild, crampy abdominal pain that began earlier in the day. The discomfort was described as not sharp, worsened with movement, and did not change with eating or going to the bathroom; it made the patient less active and made resting during the day more difficult, though sleep the previous night was normal. There was no vomiting, diarrhea, fever, or changes in feeding reported. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted mild, crampy abdominal discomfort without concerning features such as severe pain, persistent vomiting, high fever, or worsening symptoms. The doctor’s impression was that this presentation is often due to mild digestive upset, gas, or changes in activity or routine in young children. The treatment plan included monitoring symptoms, maintaining hydration, and using gentle movement or rest as needed. The doctor advised seeking urgent care if pain worsens, fever develops, vomiting occurs, or the patient appears very unwell or unusually sleepy.
+The patient presented with a chief complaint of abdominal pain that began earlier in the day. The pain was described as mild, crampy, and uncomfortable, worsened by movement but not affected by eating or bowel movements. There were no associated symptoms of vomiting, diarrhea, or fever, and the patient’s feeding remained unchanged. The discomfort led to decreased activity and made resting during the day more difficult, though sleep the previous night was normal. Relevant history regarding past medical issues, medications, or allergies was not specified. The clinical impression was mild, crampy abdominal discomfort likely due to benign causes such as mild digestive upset or gas, without signs of a more serious condition. The treatment plan included observation, maintaining hydration, gentle movement or rest as needed, and instructions to seek care if symptoms worsen or new concerning signs develop. The patient was advised to monitor for increased pain, fever, vomiting, or lethargy and to report any changes.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.928
-- **Similarity Label**: N/A
+- **STS Score**: 0.365
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

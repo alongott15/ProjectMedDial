@@ -59,16 +59,21 @@
 
 ## EHR Summary
 
-The patient is a 60-year-old female presenting with bright red blood per rectum and coffee ground hematemesis. She reported episodes of tarry stools over the past two days, along with ongoing rectal bleeding and emesis of altered blood. Her past medical history is significant for congestive heart failure, coronary artery disease (status post CABG), diabetes mellitus with complications, hypertension, peripheral vascular disease, chronic renal insufficiency, and multiple other comorbidities. On admission, she was hypotensive (BP 90–100/60) and tachycardic (HR 101–103), with a hematocrit dropping from 27.9 to 16.6; stool was heme positive and dark. Physical exam and gastric lavage did not reveal active upper GI bleeding. The clinical impression was gastrointestinal bleeding in the context of multiple comorbidities. She received two units of packed red blood cells prior to admission and intravenous fluids for hemodynamic support. Further management included central line placement and monitoring.
+The patient is a 60-year-old female presenting with bright red blood per rectum and coffee ground hematemesis. She experienced episodes of tarry stools over the past two days, with associated hypotension (blood pressure 90–100/60 mmHg) and tachycardia (heart rate 101–103 bpm) on admission. Her hematocrit dropped to 16.6, and stool was heme positive; no abdominal pain, vomiting, or chest pain was reported. Relevant history includes congestive heart failure, coronary artery disease (status post CABG), diabetes with neuropathy and nephropathy, hypertension, peripheral vascular disease, chronic renal insufficiency, and multiple prior surgeries including pacemaker and mitral valve replacement. She is on multiple medications including anticoagulants (heparin, aspirin), diuretics, insulin, and antibiotics for pneumonia. The clinical impression is gastrointestinal bleeding with anemia. Treatment included transfusion of packed red blood cells, intravenous fluids, and ongoing management of comorbidities. She is allergic to morphine, Motrin, and codeine.
+
 
 ## Dialogue Summary
 
-The patient presented with bright red blood noticed during bowel movements. They reported that this bleeding began a couple of days ago and has occurred more than once, along with observing dark, coffee ground-like material in vomitus recently. Additional symptoms included tarry stools, but the patient denied increased weakness, lightheadedness, or changes in energy. No relevant medical history, medications, or allergies were mentioned. The doctor inquired about the timing, frequency, and amount of bleeding, as well as associated symptoms such as weakness and energy changes. No physical findings or explicit assessment were documented in the conversation. No specific treatment plan or recommendations were provided during the dialogue.
+The patient presents with the chief complaint of noticing bright red blood during bowel movements. They report that this rectal bleeding began a few days ago and has occurred multiple times. Additional symptoms include vomiting with dark, coffee ground-like material and episodes of tarry stools (melena), but no significant weakness, lightheadedness, or change in energy level. The patient describes the bleeding as more than just a small streak, though the exact amount is not specified. There is no documented relevant medical history, medications, or allergies in the dialogue. No formal diagnosis was documented during the conversation. No specific treatment or recommendations were provided in the text.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.665
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 106 words
+
 
 ## Processing Information
 

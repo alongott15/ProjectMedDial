@@ -99,16 +99,23 @@ Most mild chest discomfort resolves on its own with time and simple measures lik
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with shortness of breath. He reported worsening dyspnea, fatigue, malaise, and inability to achieve a complete breath, with symptoms increasing after a recent discharge from a rehabilitation facility. His history is notable for diabetes mellitus, hypertension, chronic pleural effusions (worse on the right), and prior bile duct injury requiring Roux-en-Y reconstruction. Imaging revealed bilateral fibrothoraxes (particularly on the right), mediastinal adenopathy, and a ground glass appearance in both lungs of unclear etiology. The documented diagnosis includes bilateral fibrothoraxes and chronic pleural effusions. Treatment details are not fully specified in the note, but admission medications included ciprofloxacin. Further management and recommendations are not documented in this excerpt.
+The patient is a 62-year-old male presenting with shortness of breath. He reported worsening dyspnea, fatigue, malaise, and inability to achieve a complete breath, with a history of chronic pleural effusions and recent increased shortness of breath. His past medical history includes diabetes mellitus, hypertension, chronic anemia, and prior bile duct injury with Roux-en-Y reconstruction. On admission, physical exam revealed bibasilar crackles and laboratory studies showed chronic hypercapnia and anemia. The documented diagnoses were fibrothorax, diabetes mellitus, pneumonia, prostatitis, and anemia. Treatment included diuresis with Lasix, BIPAP for ventilation support, right lung decortication surgery, antibiotics (Levofloxacin), pain management, and tracheostomy with subsequent ventilator weaning. The patient was discharged in stable condition with instructions for follow-up with thoracic surgery, primary care, pulmonology, and pending cardiology recommendations.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest pain began a couple of days ago, is described as a dull, pressure-like sensation that comes and goes throughout the day, is mostly mild and does not interfere with activities or sleep, and is not triggered by physical activity or eating. Resting provides some relief, but changing position or deep breathing does not help, and there are no associated symptoms such as shortness of breath, sweating, or pain radiating to other areas. The patient reported no recent illnesses, increased stress, or changes in routine. On assessment, the doctor noted the absence of concerning features and suggested that the symptoms are likely not cardiac in origin, with possible causes including muscle strain, acid reflux, anxiety, or mild chest wall inflammation. The doctor recommended monitoring symptoms for any changes, keeping a diary to track episodes, and seeking prompt medical attention if symptoms worsen or new warning signs develop. Gentle activity and avoiding aggravating factors were advised, with follow-up suggested if symptoms persist beyond a week or two.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain began a couple of days ago, is described as a dull, pressure-like sensation that comes and goes throughout the day, is mild in intensity, and is not triggered by activity or eating. The discomfort improves somewhat with rest, does not interfere with sleep, and is not associated with shortness of breath, sweating, or pain radiating to other areas. There is no recent illness, increased stress, or changes in routine reported.
+
+The clinical impression is that the symptoms are mild and most likely due to non-cardiac causes such as muscle tension, mild acid reflux, or stress, given the absence of warning signs. The treatment plan includes monitoring symptoms, avoiding aggravating activities or foods, and keeping a diary to track episodes. The patient was advised to seek prompt medical attention if symptoms worsen, become associated with exertion, or new symptoms such as dyspnea, nausea, or radiating pain develop. Follow-up was recommended if symptoms persist beyond one to two weeks or worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.436
+- **Model Used**: general
+- **Text1 Length**: 125 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

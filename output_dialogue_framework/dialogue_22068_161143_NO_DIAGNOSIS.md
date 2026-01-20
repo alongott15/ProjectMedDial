@@ -87,16 +87,23 @@ Does this explanation make sense? Are there any other symptoms or concerns youâ€
 
 ## EHR Summary
 
-The patient is a 71-year-old woman presenting with abrupt onset chest pain. Her symptoms began the night prior to admission and were associated with persistent ST segment elevations in V5, V6, and AVL, unrelieved by initial treatment with aspirin, nitroglycerin, and beta-blocker. She has a history of hypertension and takes amlodipine and aspirin; she has no known drug allergies. On transfer, she underwent rescue angioplasty with stenting of a 60% OM1 lesion after failed thrombolysis with reteplase, and continued to experience intermittent chest pain post-procedure. Physical examination was notable for stable vital signs, clear lungs, and no peripheral edema. Laboratory findings included elevated troponin (>50), CK (390), and white blood cell count (15.8). The documented diagnosis was acute coronary syndrome with ongoing ischemia requiring percutaneous coronary intervention. Treatment included aspirin, nitroglycerin, beta-blocker, reteplase, and PTCA with stent placement, with continued monitoring in the CCU.
+The patient is a 71-year-old woman presenting with abrupt onset chest pain. Her symptoms included persistent chest pain with ST segment elevations in leads I, AVL, V5, and V6, which did not resolve with initial medical therapy (Aspirin, Nitroglycerin, beta-blocker, and reteplase). She has a history of hypertension and was taking Amlodipine and Aspirin prior to admission; she has no known drug allergies. The documented diagnosis was single-vessel (OM1) coronary artery disease status post stent placement. Treatment included percutaneous transluminal coronary angioplasty (PTCA) with stenting of the OM1 lesion, initiation of Captopril, Metoprolol, Lipitor, Aspirin, Plavix, and Nitroglycerin as needed, as well as diuresis for cardiac optimization. During her hospital stay, she developed a groin hematoma post-catheterization, which was managed conservatively after discontinuing Heparin. She was placed on a bowel regimen for constipation and referred to rehabilitation for ambulation and strength optimization. She was discharged in fair condition to a rehabilitation facility with follow-up arranged in the Cardiology Clinic in six weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with sudden onset chest pressure as the chief complaint. The chest pain was described as pressure-like, rated 6/10 in intensity, located centrally, and did not radiate; it occurred in brief episodes lasting a few minutes and started after a recent catheterization. The patient denied associated symptoms such as shortness of breath, sweating, lightheadedness, fever, or chills, but reported increased tenderness and a hematoma at the groin catheterization site without worsening swelling or spreading bruising. The patient also mentioned recent constipation and decreased appetite. On examination, no signs of infection or worsening hematoma were noted by history. The doctor assessed that the chest pressure and local soreness may be part of the healing process post-catheterization, but emphasized monitoring for new or worsening symptoms due to the recent cardiac procedure. The doctor advised the patient to watch for increasing swelling, redness, or warmth at the catheterization site and to seek immediate care if chest pain becomes more severe, persistent, or is accompanied by other concerning symptoms.
+The patient is an adult presenting with sudden-onset, pressure-like chest pain rated 6 out of 10, localized to the center of the chest and occurring in brief, stuttering episodes since a recent catheterization. The pain does not radiate and is not associated with dyspnea, diaphoresis, or lightheadedness. The patient also reports increased tenderness and a small hematoma at the groin catheterization site, without signs of infection or expanding bruising, and mentions recent constipation and decreased appetite. Relevant history includes recent cardiac catheterization; no other medical history, medications, or allergies are specified.
+
+The clinical impression is that the chest discomfort and local groin tenderness are likely post-procedural and not currently suggestive of acute cardiac or infectious complications. The treatment plan includes monitoring for worsening symptoms such as persistent or severe chest pain, new shortness of breath, or changes at the catheterization site (increased swelling, redness, or warmth), with instructions to seek immediate care if these develop. The patient was reassured about the current findings and advised on symptom monitoring.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.608
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

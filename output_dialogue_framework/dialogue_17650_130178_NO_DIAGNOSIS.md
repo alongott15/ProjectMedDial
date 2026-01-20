@@ -85,16 +85,23 @@ For now, I recommend continuing your activities but pacing yourself and noting a
 
 ## EHR Summary
 
-The patient is a 69-year-old male presenting for cardiac catheterization due to a history of exertional chest tightness. He reported no acute symptoms at presentation but had prior episodes of chest discomfort with exertion. His medical history includes bipolar disorder, possible silent anterior myocardial infarction, heavy alcohol use, chronic back pain, and coronary artery disease with a previous right coronary artery stent; he takes aspirin and has no known drug allergies. Physical examination revealed clear lungs, regular heart rhythm without murmurs, and well-perfused extremities. Cardiac catheterization was positive for significant coronary artery disease, and he subsequently underwent coronary artery bypass grafting (CABG) x2 with left internal mammary artery to LAD and saphenous vein grafts to the ramus and OM. Postoperatively, he experienced a persistent air leak from his chest tube and a small, stable pneumothorax after chest tube removal, which improved with supplemental oxygen. The patient was advanced to a regular diet, followed by physical therapy, and remained stable throughout his hospital course.
+The patient is a 69-year-old male presenting for cardiac catheterization due to a history of exertional chest tightness. He reported no acute symptoms at presentation but had prior episodes of exertional chest discomfort. His medical history includes bipolar disorder, possible silent anterior myocardial infarction, heavy alcohol use, chronic back pain, and coronary artery disease with a previous right coronary artery stent; he has no known drug allergies and was taking aspirin. Cardiac catheterization revealed significant findings, and he subsequently underwent coronary artery bypass grafting (CABG x2) with left internal mammary artery ligation to the LAD and saphenous vein grafts to the ramus and OM. Postoperatively, he experienced a persistent air leak managed with chest tube suction, followed by a small, stable pneumothorax after tube removal, which improved with supplemental oxygen. The patient was evaluated by physical therapy and recommended for acute rehabilitation to improve mobility. He was discharged in stable condition to an acute rehabilitation facility with instructions for follow-up and prescribed Percocet, Lasix, and Lopressor.
+
 
 ## Dialogue Summary
 
-The patient presented with chest tightness occurring during exertion. The chest tightness is described as a squeezing or pressure sensation that arises with more vigorous activity (such as walking up stairs or moving around a lot), has been present for a few weeks, and resolves quickly with rest; it does not occur with light activity, emotional stress, or after eating. The patient denied associated symptoms such as sweating, lightheadedness, shortness of breath, or lingering discomfort and reported that the symptom has not prevented completion of daily routines but does cause some slowing down during activity. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the described chest pressure with exertion, resolving with rest and without other symptoms, is often seen in stable angina. The doctor advised the patient to continue activities while pacing themselves, monitor for any changes in symptoms, and seek prompt medical attention if symptoms worsen or new symptoms develop. A routine check-up for further evaluation and possible diagnostic testing was also recommended.
+The patient presents with chest tightness during exertion as the chief complaint. The chest tightness is described as a squeezing or pressure sensation that occurs with more vigorous activity (such as walking up stairs), has been present for several weeks, and resolves quickly with rest; it does not occur with light activity, emotional stress, or eating, and is not associated with shortness of breath, sweating, or lightheadedness. The symptoms have not significantly limited daily activities but cause the patient to slow down during exertion. No relevant past medical history, medications, or allergies were discussed in this encounter.
+
+The clinical impression documented by the doctor is that the symptoms are consistent with stable angina. The treatment plan includes advice to continue activities while pacing oneself, monitoring for any changes or worsening symptoms, and scheduling a routine check-up for further evaluation. The doctor also provided education on warning signs that would require prompt medical attention.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.483
+- **Model Used**: general
+- **Text1 Length**: 166 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

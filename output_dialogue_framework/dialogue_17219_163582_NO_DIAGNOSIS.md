@@ -95,16 +95,21 @@ Does that help clarify what to expect? If you have any concerns or want to discu
 
 ## EHR Summary
 
-The clinical note does not specify the chief complaint or presenting symptoms for this 79-year-old male patient. No details regarding symptom characteristics, relevant medical history, physical exam findings, or test results are documented. There is no explicit diagnosis or clinical impression provided in the note. The discharge plan states that medications at discharge are the same as on admission, but specific medications are not listed. No additional treatments or recommendations are described.
+The clinical note does not specify the chief complaint or presenting symptoms for this 79-year-old male patient. There are no details provided regarding symptom characteristics, relevant medical history, or allergies. The diagnosis or clinical impression is not documented in the note. The treatment plan indicates that discharge medications remained the same as on admission, with no new treatments or recommendations specified. Further clinical details are not available in the provided documentation.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain described as a central chest pressure. The chest pressure began a few days ago, is rated 6 out of 10 at its worst, occurs with activity, improves with rest, and is accompanied by shortness of breath but not by sweating or lightheadedness. The symptoms make daily activities more difficult, requiring the patient to take breaks due to increased shortness of breath; the pressure does not occur at night or with food or stress. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the chest pressure is exertional and relieved by rest, raising concern for possible angina but also considering other causes such as muscle strain or acid reflux. The doctor recommended avoiding strenuous activity, monitoring for any worsening or new symptoms (such as severe pain, pain radiating to the arm or jaw, or feeling faint), and seeking immediate help if these occur. The plan includes a physical exam, electrocardiogram (EKG), and possibly blood work to evaluate heart function, with further testing depending on initial results. The patient expressed understanding and agreed to follow the recommendations.
+The patient presents with chest pain as the chief complaint. The pain is described as a central chest pressure, rated 6 out of 10 at its worst, which is triggered by physical activity and relieved by rest; it is accompanied by shortness of breath but not by sweating or lightheadedness. The symptoms began a few days ago, have remained stable, and are making daily activities more difficult. There is no mention of nocturnal symptoms, association with food or stress, or other relevant medical history, medications, or allergies. The clinical impression is that the pattern of exertional chest pressure and dyspnea may suggest angina, though other causes such as muscle strain or acid reflux are also considered. The treatment plan includes avoiding strenuous activity, monitoring for any worsening or new symptoms (such as severe pain, radiation to arm or jaw, or syncope), and seeking immediate care if these occur. Recommended next steps are a physical exam, electrocardiogram (EKG), and possibly blood work to evaluate for cardiac causes, with further testing depending on initial results. The patient was advised to take it easy and report any changes in symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.924
-- **Similarity Label**: N/A
+- **STS Score**: 0.348
+- **Model Used**: general
+- **Text1 Length**: 71 words
+- **Text2 Length**: 187 words
+
 
 ## Processing Information
 

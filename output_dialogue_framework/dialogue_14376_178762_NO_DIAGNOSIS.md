@@ -89,16 +89,21 @@ How much are these symptoms affecting your day-to-day life right now? Are you ab
 
 ## EHR Summary
 
-The patient is a 68-year-old female presenting with shortness of breath. She reported a history of hypertension, hypercholesterolemia, diabetes mellitus, congestive heart failure, and anemia, with recent positive exercise treadmill test and referral for cardiac catheterization revealing two-vessel coronary artery disease. She underwent coronary artery bypass grafting (LIMA to LAD, SVG to Ramus) on admission. Physical exam was notable for stable vital signs, no acute distress, and well-healed surgical incision. Laboratory findings on admission showed anemia (Hgb 7.4 g/dL), thrombocytopenia (Plt 93), and elevated PT/INR, which improved during hospitalization. The documented diagnosis was two-vessel coronary artery disease status post-CABG. Treatment included surgical revascularization and supportive postoperative care. She was discharged in stable condition with no documented complications.
+The patient is a 68-year-old female presenting with shortness of breath. She reported dyspnea in the context of a history of hypertension, hypercholesterolemia, diabetes mellitus, and congestive heart failure, with recent positive exercise treadmill testing. Cardiac catheterization revealed two-vessel coronary artery disease (80% stenosis in LAD and LCx), leading to admission for coronary artery bypass grafting (CABG x2: LIMA to LAD, SVG to Ramus) on admission day. Her postoperative course was notable for transient hypotension requiring vasopressor support and blood transfusions, but she gradually stabilized and was able to ambulate well by discharge. The documented diagnoses included coronary artery disease status post CABG x2, hypertension, hypercholesterolemia, diabetes mellitus, congestive heart failure, GERD, colon cancer status post colectomy, anemia, and other chronic conditions. At discharge, her condition was good and she was prescribed medications including metoprolol, aspirin, pantoprazole, furosemide, atorvastatin, docusate, oxycodone-acetaminophen, potassium chloride, and insulin. She was advised on wound care, activity restrictions (no lifting over 10 pounds for 2 months, no driving for 1 month), and scheduled for follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening shortness of breath as the chief complaint. Symptoms include increased shortness of breath with exertion (such as walking around the house or climbing stairs), swelling in the feet and ankles that is worse by the end of the day and only partially improves with leg elevation, episodes of lightheadedness when standing up quickly (without fainting), the need for extra pillows to sleep, and occasional waking at night feeling short of breath. The patient reported that these symptoms have made daily activities more difficult and cause fatigue and breathlessness with exertion. No specific medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the combination of shortness of breath, peripheral edema, orthopnea, and paroxysmal nocturnal dyspnea could be related to fluid retention and possible decreased cardiac function; lightheadedness was attributed to possible blood pressure changes or fluid shifts. The doctor advised daily weight monitoring, limiting dietary salt, and continuing to elevate the legs to help manage symptoms. The patient was instructed to seek immediate care if severe symptoms develop (such as severe difficulty breathing at rest, chest pain, or confusion) and to follow up with their primary care provider for further evaluation and testing.
+The patient is an adult presenting with the chief complaint of gradually worsening shortness of breath. Symptoms include exertional dyspnea that interferes with daily activities such as walking and climbing stairs, bilateral lower extremity swelling that is worse by the end of the day and partially improves with leg elevation, episodes of lightheadedness upon standing (without syncope), and orthopnea requiring extra pillows at night, with occasional nocturnal dyspnea. The swelling does not completely resolve overnight. Relevant history, medications, and allergies are not specified. The clinical impression discussed is possible fluid overload related to decreased cardiac function, as suggested by the constellation of symptoms. The treatment plan includes daily weight monitoring, dietary salt restriction, continued leg elevation, and instructions to seek urgent care for severe symptoms such as chest pain, severe dyspnea at rest, or confusion. The patient is also advised to follow up with their primary care provider for further evaluation and testing.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.554
+- **Model Used**: general
+- **Text1 Length**: 171 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

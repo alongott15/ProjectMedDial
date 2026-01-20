@@ -87,16 +87,21 @@ Let me ask—have you started any new medications recently or changed your diet 
 
 ## EHR Summary
 
-The patient is a 73-year-old woman presenting with chest pain associated with nausea and mild dizziness. She denied emesis, diaphoresis, shortness of breath, lower extremity edema, and recent weight gain, but reported occasional palpitations; her pain improved in the Emergency Room. Her history includes coronary artery disease, diabetes mellitus type 2, aortic stenosis (valve area 0.8 cm²), hypertension, hypercholesterolemia, anemia, and bilateral subclavian stenosis. On admission, her heart rate was 57 bpm, blood pressure 199/54 mmHg, respiratory rate 14, and oxygen saturation 98% on 2 liters; she was sitting up in bed and denied pain or dyspnea at that time. The documented clinical impression was rule out myocardial infarction. Initial treatment included a nitroglycerin drip, aspirin, Pepcid, GI cocktail, and Zofran. She was admitted to the medical service for further evaluation and management.
+The patient is a 73-year-old woman presenting with chest pain associated with nausea and mild dizziness, but without shortness of breath or diaphoresis. Her symptoms improved in the Emergency Room after receiving nitroglycerin, aspirin, and supportive medications. She has a history of coronary artery disease, diabetes mellitus type 2, aortic stenosis, hypertension, hypercholesterolemia, anemia, and T11-12 paravertebral mass, and is allergic to senna, shellfish, and intravenous contrast. On evaluation, she was found to have significant right coronary artery stenosis (70%) and severe aortic stenosis (valve area 0.7 cm²). The documented diagnoses were coronary artery disease status post coronary artery bypass grafting (CABG) times one with a saphenous vein graft to the posterior descending coronary artery, and aortic stenosis status post aortic valve replacement with a #19 Mosaic porcine valve. Treatment included CABG and aortic valve replacement, followed by postoperative care with beta blockers, diuretics, and gradual rehabilitation. She was discharged in good condition to rehabilitation with instructions for follow-up and a regimen including metoprolol, aspirin, furosemide, potassium chloride, valsartan, atorvastatin, glipizide, insulin sliding scale, and supportive medications.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. Symptoms discussed included chest pressure located behind the breastbone, episodes lasting five to ten minutes without clear triggers, occasional palpitations described as heart fluttering or skipping beats, mild nausea, random episodes of lightheadedness (not spinning), and trace swelling in the feet and ankles. The patient denied starting new medications or making significant dietary changes recently. No allergies or other medical history were mentioned. On clinical review, the doctor noted the combination of chest pressure, palpitations, lightheadedness, mild nausea, and mild peripheral swelling. The assessment was that these symptoms could be related to anxiety, mild heart rhythm changes, blood pressure fluctuations, or fluid balance issues, with reassurance given due to the absence of exertional pain and severe features. The doctor recommended tracking symptom episodes and advised seeking urgent care if pain becomes more severe, lasts longer than 10–15 minutes, or is accompanied by shortness of breath or pain radiating to the arm or jaw.
+The patient presents with chest pain as the chief complaint. The chest pain is described as a pressure sensation located behind the breastbone, lasting five to ten minutes per episode, and not triggered by specific activities. Associated symptoms include mild nausea, occasional lightheadedness (not vertigo), palpitations (heart fluttering or skipped beats), and trace swelling in the feet and ankles. The patient denies recent medication or dietary changes. The clinical impression discussed includes possible anxiety, mild heart rhythm changes, or issues related to blood pressure or fluid balance, with reassurance that the absence of exertional pain is somewhat reassuring. No definitive diagnosis was documented. The treatment plan includes symptom monitoring—specifically tracking episodes and associated factors—and instructions to seek urgent care if symptoms worsen, last longer than 10–15 minutes, or are accompanied by shortness of breath or pain radiating to the arm or jaw.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.546
+- **Model Used**: general
+- **Text1 Length**: 177 words
+- **Text2 Length**: 142 words
+
 
 ## Processing Information
 

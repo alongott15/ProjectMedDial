@@ -87,16 +87,21 @@ Does this explanation make sense? And do you have any questions about what might
 
 ## EHR Summary
 
-The patient is a 49-year-old male presenting with hypertension, anemia, and hematemesis. He experienced an episode of hematemesis with associated faintness, as well as weakness, fatigue, and mild abdominal pain; he denied chest pain, dyspnea, nausea, vomiting, melena, or bright red blood per rectum at the time of transfer. His history includes hepatitis B, alcohol-induced cirrhosis with prior upper GI bleeds, hepatitis C (treated), erosive gastritis, duodenitis, type 2 diabetes mellitus, and lumbar disk herniation. No drug allergies were reported. On admission, his hematocrit was 35. The documented diagnosis was upper gastrointestinal bleeding in the setting of cirrhosis and portal hypertension. He underwent an emergent TIPS procedure and was stable post-procedure. Treatment included Levaquin, Protonix, insulin (NPH and sliding scale regular), lactulose titrated to bowel movements, and a multivitamin.
+The patient is a 49-year-old male presenting with hematemesis, hypertension, and anemia. He experienced an episode of hematemesis with faintness, leading to ICU admission and an emergent TIPS procedure for upper gastrointestinal bleeding. Symptoms included weakness, fatigue, mild abdominal pain, and later referred shoulder pain and hiccups; he denied chest pain, dyspnea, nausea, vomiting, melena, or bright red blood per rectum. Relevant history includes hepatitis B, alcohol-induced cirrhosis, hepatitis C (treated), erosive gastritis, duodenitis, diabetes mellitus type 2, and prior episodes of GI bleeding; there are no known drug allergies. The documented diagnosis was upper gastrointestinal bleed status post TIPS. Treatment included TIPS procedure, Levaquin for SBP prophylaxis, Protonix, lactulose, insulin sliding scale for diabetes, Thorazine for hiccups, oxycodone for shoulder pain, and Tylenol as needed. The patient’s liver function tests and hematocrit were monitored closely; fevers were attributed to focal hepatic ischemia rather than infection. He was discharged with instructions to follow up at the liver clinic and with his primary care provider for diabetes management.
+
 
 ## Dialogue Summary
 
-The patient presented with vomiting blood and discomfort as the chief complaint. Symptoms discussed included blood in vomit (more than a streak, noticed in the bowl), dark stools for several days, mild dull abdominal pain rated 4–5/10 at worst, shoulder pain, fatigue, weakness, low-grade fever, and hiccups; the patient denied nausea, loss of appetite, fainting, shortness of breath, or heart racing. No relevant medical history, medications, or allergies were mentioned. The doctor noted ongoing upper gastrointestinal bleeding symptoms with associated fatigue and weakness, but no signs of rapid progression or severe instability. The assessment was possible upper GI tract bleeding, likely from the stomach or esophagus, with concern for blood loss. The doctor advised avoiding aspirin, NSAIDs, and blood thinners, recommended prompt evaluation for blood counts and further testing to identify the bleeding source, and instructed the patient to seek emergency care if symptoms worsen (increased bleeding, fainting, or severe pain). The patient understood the explanation and asked about dietary restrictions until further evaluation.
+The patient is an adult presenting with hematemesis (vomiting blood) as the chief complaint. Key symptoms include several days of vomiting blood (more than a streak but not massive), melena (dark stools), mild dull abdominal pain (rated 4–5/10), shoulder pain, fatigue, low-grade fever, and hiccups; there is no nausea, loss of appetite, fainting, dyspnea, or palpitations. The patient reports that the bleeding and dark stools have remained stable over the past few days. Relevant history regarding medications or underlying conditions is not specified. The clinical impression is possible upper gastrointestinal bleeding, likely from the stomach or esophagus, with associated symptoms of blood loss. The physician advised avoiding aspirin, NSAIDs, and blood thinners due to the risk of worsening bleeding. The treatment plan includes prompt evaluation with blood counts and further diagnostic tests to identify the bleeding source, and instructions to seek emergency care if symptoms worsen (increased bleeding, faintness, or severe pain). Dietary recommendations were not specifically addressed in the documented advice.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.762
+- **Model Used**: general
+- **Text1 Length**: 167 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

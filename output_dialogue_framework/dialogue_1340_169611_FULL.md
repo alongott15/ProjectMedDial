@@ -87,16 +87,23 @@ Let me know if you have any other questions or if you need help arranging transp
 
 ## EHR Summary
 
-The patient is a 78-year-old woman presenting with complications following a diagnostic cardiac catheterization. She has a history of coronary artery disease, type 2 diabetes, and COPD, and reports longstanding angina at rest and dyspnea on exertion, with recent increases in chest discomfort episodes lasting about 10 minutes and occurring weekly, sometimes at rest. She also notes mild dyspnea on exertion and uses two to three pillows at night, though the relationship to her dyspnea is unclear. Prior cardiac testing showed a small reversible anteroapical defect and normal left ventricular function (EF 76%), with no chest pain or EKG changes during the test. During her recent catheterization, no progression of coronary disease was found, and no intervention was performed. Post-procedure, she developed an expanding right groin hematoma and hypotension, requiring manual pressure, a clamp, atropine for bradycardia, and transient dopamine support. The documented clinical impression is post-cardiac catheterization hematoma with associated hypotension. Treatment included local hemostasis measures and supportive medications for hemodynamic instability.
+The patient is a 78-year-old woman presenting with a right groin hematoma and hypotension following a diagnostic cardiac catheterization. She reported a history of increasing frequency of chest discomfort lasting about 10 minutes, occurring once weekly, and mild dyspnea on exertion; she also noted sleeping on two to three pillows, though the relationship to dyspnea was unclear. Her relevant history includes coronary artery disease, type 2 diabetes mellitus, COPD, hypertension, hypercholesterolemia, and chronic aspirin use; she is allergic to penicillin (rash). The documented diagnoses were coronary artery disease status post cardiac catheterization without intervention, complicated by right groin hematoma, as well as hypertension, hypercholesterolemia, diabetes, and COPD. Treatment included manual pressure and a fem-stat device for hemostasis, transfusion of one unit of packed red blood cells and one bag of platelets (due to suspected aspirin-induced platelet dysfunction), and supportive care. She remained hemodynamically stable after initial management, had no further bleeding, and was discharged home on her unchanged medication regimen. She was advised to follow up with her primary cardiologist in one to two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with a growing bruise and bleeding in the right groin following a recent heart procedure. Symptoms included a firm lump at the groin site with increased bruising, oozing, and associated anxiety, as well as chest pain at rest rated 6/10, intermittent in nature, and shortness of breath on exertion. The patient denied lightheadedness or sweating but reported difficulty with daily activities due to weakness, low blood pressure, and ongoing bleeding. Relevant history includes recent cardiac catheterization; no medications or allergies were mentioned. On assessment, the doctor noted concern for a possible hematoma at the groin site and emphasized that chest pain at rest after a heart procedure is worrisome for potential complications. The doctor strongly recommended immediate evaluation in the emergency department due to the combination of continued bleeding, firm lump, and chest pain at rest. The patient was advised to keep pressure off the area, avoid walking, and seek urgent care, with instructions to call emergency services if symptoms worsened. The patient understood and agreed to go to the emergency department.
+The patient is an adult presenting with a growing bruise and ongoing bleeding at the right groin following a recent heart procedure. Key symptoms include a firm lump at the groin site with increased bruising and oozing, chest pain rated 6/10 that occurs even at rest, and exertional shortness of breath; the patient denies lightheadedness or sweating. These symptoms have significantly impacted daily activities, causing weakness and difficulty with routine tasks. Relevant history includes recent cardiac intervention, but no specific medications or allergies are mentioned.
+
+The clinical impression is concern for a possible groin hematoma with ongoing bleeding and potential cardiac complications, given the chest pain at rest after the procedure. The doctor strongly advised immediate evaluation in the emergency department to assess for significant bleeding and to rule out post-procedural cardiac complications. Additional recommendations included minimizing activity, keeping pressure off the affected area, and seeking emergency services if symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.506
+- **Model Used**: general
+- **Text1 Length**: 175 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

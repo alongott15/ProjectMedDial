@@ -172,3 +172,23 @@ In summary: don’t stop your insulin entirely, but you may need to adjust the d
 ## Processing Information
 
 - **Processing Time**: 385.5s
+
+## EHR Summary
+
+The patient is a 21-year-old male presenting with diabetic ketoacidosis (DKA). He reported two days of nausea and vomiting, with laboratory findings showing anion gap acidosis, elevated white blood cell count, and initial glucose in the 500s; no evidence of infection was found. His past medical history includes type I diabetes diagnosed at age 18, with no known drug allergies and usual NPH insulin use. The documented diagnosis was DKA. He was treated with intravenous fluids and an insulin drip, later transitioned to subcutaneous NPH insulin as his anion gap normalized and symptoms resolved. At discharge, his glucose ranged from 182 to 250, and he was eating a regular diet without nausea or vomiting. He received diabetes education, was prescribed glucose test strips, instructed to check glucose four times daily, and scheduled for follow-up at the diabetes center. Discharge medications remained unchanged.
+
+
+## Dialogue Summary
+
+The patient is a person with type 1 diabetes presenting with persistent nausea, vomiting, and diarrhea for a couple of days. These gastrointestinal symptoms are making it difficult for the patient to maintain hydration and regular food intake. The patient has a recent history of diabetic ketoacidosis (DKA) and is currently taking NPH insulin. The clinical concern is for possible recurrence of DKA given ongoing symptoms and difficulty with oral intake.
+
+The physician emphasized the importance of frequent blood glucose monitoring (every 2–4 hours), checking ketones if blood sugars are high, and maintaining hydration. The patient was advised not to stop insulin entirely but to consider adjusting the NPH dose based on blood sugar readings and oral intake, with caution to avoid hypoglycemia. Warning signs such as inability to keep fluids down, severe abdominal pain, confusion, or low blood sugars were discussed as indications for urgent medical attention. The patient agreed to monitor symptoms closely, adjust insulin as needed, and seek help if symptoms worsen or new issues arise.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.856
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 169 words
+

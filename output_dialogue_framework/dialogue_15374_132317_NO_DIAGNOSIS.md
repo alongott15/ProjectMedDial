@@ -87,16 +87,21 @@ Does that help clarify things a bit? Let me know if you have any questions or co
 
 ## EHR Summary
 
-The patient is a 35-year-old male presenting with recurrent Aspergilloma on the right side, with symptoms of shortness of breath and hemoptysis. He has a history of sarcoidosis, prior left triple lobe lobectomy for Aspergilloma, diabetes secondary to steroids, and previous hemoptysis. Current medications include prednisone, Bactrim, Zantac, Cancidas, NPH, Flovent, albuterol, and posaconazole; no known drug allergies are documented. On this admission, he underwent a right upper lobe lobectomy for right upper lobe Aspergilloma and tolerated the procedure well. Postoperatively, he developed a complication following CT-guided aspiration of a right chest fluid collection, resulting in an episode of unresponsiveness. Neurologic evaluation revealed persistent aphasia and left hemiparesis, with MRI confirming a right parietal infarct. The assessment was postoperative right parietal infarct with left hemiparesis and aphasia. Treatment included ICU observation, neurology consultation, and multidisciplinary follow-up.
+The patient is a 35-year-old male presenting with recurrent Aspergilloma on the right side, with symptoms of shortness of breath and hemoptysis. He has a history of sarcoidosis, prior left triple lobe lobectomy for Aspergilloma, diabetes secondary to steroids, and no known drug allergies. The patient underwent a right upper lobe lobectomy for Aspergilloma, which was complicated by an air embolism resulting in left hemiparesis and aphasia; imaging revealed a right parietal infarct. Postoperatively, he also developed a pneumothorax requiring chest tube placement and experienced episodes of tachycardia and atrial fibrillation. Neurological status gradually improved with supportive care, physical therapy, and continued antifungal and steroid therapy. At discharge, he was stable with mild residual left upper extremity weakness and decreased breath sounds on the right. He was discharged home with a chest tube (Heimlich valve), visiting nurse assistance, and a regimen including prednisone, antifungals, inhalers, and pain management, with follow-up scheduled in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble breathing and associated anxiety. They reported an inability to get a full breath in, chest tightness, and shortness of breath that worsens with activity, as well as coughing up small streaks of bright red blood in their sputum for the past few days, especially after coughing or exertion. The patient denied wheezing, fever, night sweats, or unexplained weight loss. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the symptoms—shortness of breath and hemoptysis—were linked to activity and coughing, without other concerning systemic symptoms. The doctor explained that small amounts of bright red blood are often due to irritation or broken blood vessels from coughing and are less worrisome than larger amounts. The treatment plan included monitoring for worsening symptoms, resting the voice, staying hydrated, and avoiding activities that provoke coughing; urgent care was advised if symptoms escalate (e.g., increased bleeding, chest pain, or feeling faint). The patient understood and agreed to monitor their symptoms as instructed.
+The patient presents with shortness of breath and anxiety as the chief complaint. Symptoms include a sensation of chest tightness and inability to take a full breath, which are exacerbated by physical activity, along with small streaks of bright red blood in the sputum noted for several days, especially after coughing or exertion. The patient denies associated symptoms such as fever, night sweats, or weight loss. There is no mention of relevant past medical history, medications, or allergies. The clinical impression is that the hemoptysis (blood in sputum) is likely due to airway irritation from coughing or exertion, without signs of a more serious underlying condition. The treatment plan includes monitoring for worsening symptoms, resting, staying hydrated, and avoiding activities that provoke coughing. The patient was advised to seek urgent care if larger amounts of blood, chest pain, faintness, or worsening dyspnea occur, or to follow up if symptoms do not improve within one to two weeks.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.453
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

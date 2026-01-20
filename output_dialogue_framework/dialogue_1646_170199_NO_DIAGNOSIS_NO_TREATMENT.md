@@ -98,3 +98,21 @@ Does that plan sound reasonable to you?
 ## Processing Information
 
 - **Processing Time**: 385.8s
+
+## EHR Summary
+
+The patient is a 67-year-old male presenting with chest pain. He was found to have multivessel coronary artery disease on cardiac catheterization. His past medical history, allergies, and prior medications are not specified. The documented diagnosis was multivessel coronary artery disease. He underwent a coronary artery bypass graft (CABG) times two and had an uneventful postoperative course, including successful weaning from the ventilator, removal of Foley and chest tubes, and progressive ambulation with Physical Therapy. His Lopressor dose was increased for better heart rate control. At discharge, he was stable and prescribed albuterol and atropine inhalers, Lipitor, Percocet, aspirin, Lopressor, Lasix, and potassium. He was advised to follow up with his primary care physician in 1–2 weeks and with his cardiologist in four weeks.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with chest pain as the chief complaint. The chest discomfort began a few days ago, occurs with activity such as walking up stairs, lasts a few minutes per episode, and is described as mild to moderate pressure or tightness that resolves quickly with rest. The patient denies associated symptoms such as dyspnea, diaphoresis, or lightheadedness, and reports no radiation of pain. There is no prior history of heart disease, hypertension, diabetes, or hyperlipidemia. The clinical impression discussed was possible early angina versus other causes such as muscle strain or acid reflux. The treatment plan included avoiding strenuous activity and arranging prompt follow-up with the primary care provider for further evaluation, including possible cardiac testing. The patient was also advised to seek immediate medical attention if symptoms worsen or new symptoms develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.515
+- **Model Used**: general
+- **Text1 Length**: 124 words
+- **Text2 Length**: 137 words
+

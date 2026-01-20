@@ -87,16 +87,21 @@ Would you like to discuss strategies for managing the nausea and weakness at hom
 
 ## EHR Summary
 
-The patient is an over 90-year-old female presenting with nausea, syncope, epigastric pain, and mental status changes. She experienced a syncopal episode after a hot shower, followed by incontinence, multiple episodes of nausea and vomiting, and worsening cognitive function and weakness. Her medical history includes coronary artery disease, aortic stenosis, atrial fibrillation (off Norpace and coumadin), frequent urinary tract infections, chronic gastrointestinal symptoms, and several other chronic conditions; she is allergic to ciprofloxacin. On examination, she was cachectic, frail, uncomfortable, and appeared toxic, with vital signs showing hypotension (BP 99/70), tachycardia (P 110), and tachypnea (R 28). Laboratory findings revealed elevated amylase and lipase, and urinalysis showed cloudy urine with many bacteria; abdominal ultrasound demonstrated gallstones and dilated intrahepatic ducts. The clinical impression suggests acute biliary pathology with possible infection and pancreatitis. She was started on levofloxacin and metronidazole and admitted for further management.
+The patient is an elderly female presenting with nausea, syncope, epigastric pain, and mental status changes. She experienced a syncopal episode after a hot shower, followed by incontinence, recurrent nausea and vomiting, cognitive decline, and weakness, with epigastric pain radiating to her shoulders. Her history includes coronary artery disease, aortic stenosis, atrial fibrillation, chronic gastrointestinal symptoms, frequent urinary tract infections, and multiple other chronic conditions; she is allergic to ciprofloxacin. On evaluation, she was found to have elevated amylase and lipase, cloudy urine with many bacteria, and abdominal ultrasound showed gallstones with gallbladder wall thickening and dilated intrahepatic ducts. The documented diagnoses were cholecystitis, pancreatitis, atrial fibrillation, coronary artery disease, and urinary tract infection. She was started on levofloxacin and metronidazole for infection. After discussion with her primary care provider and family regarding her wishes and prognosis, the patient was transitioned to comfort measures only and subsequently expired during the hospital stay.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent nausea as the chief complaint. They reported ongoing nausea without clear triggers, episodes of fainting that occur suddenly without warning, a dull ache in the upper abdomen radiating to the shoulders, occasional vomiting, and weakness that has made it difficult to perform normal daily activities, requiring more frequent rest. No specific timing for symptom onset was provided, and the patient noted that symptoms have remained stable without increasing in frequency or severity. No relevant medical history, medications, or allergies were mentioned. The doctor noted the combination of persistent nausea, fainting episodes, and abdominal discomfort radiating to the shoulders, emphasizing that these symptoms could be related to common conditions such as digestion issues, blood pressure changes, or mild dehydration, but may also signal something more significant. The doctor advised the patient to stay hydrated, rest as needed, avoid sudden movements that could trigger fainting, and monitor for new or worsening symptoms such as increased pain, persistent vomiting, or difficulty breathing. The patient requested additional strategies for managing nausea and weakness at home and expressed understanding of the doctor's recommendations.
+The patient presents with persistent nausea as the chief complaint. Key symptoms include ongoing nausea, episodes of fainting without warning, a dull ache in the upper abdomen radiating to the shoulders, occasional vomiting, and associated weakness. These symptoms have been present for an unspecified duration, are not worsening, and are significantly impacting daily activities, requiring the patient to rest more frequently. The patient reports no clear triggers or alleviating factors aside from some relief with rest. There is no relevant medical history, medications, or allergies documented in the dialogue. The clinical impression is that the symptoms could be related to common conditions such as digestive issues, blood pressure changes, or mild dehydration, but the combination of fainting and abdominal pain radiating to the shoulders warrants attention for potentially more significant causes. The treatment plan includes advice to stay well hydrated, rest as needed, avoid sudden movements that could trigger fainting, and monitor for any new or worsening symptoms such as increased pain, persistent vomiting, or difficulty breathing. The patient requested additional strategies for managing nausea and weakness at home.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.418
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

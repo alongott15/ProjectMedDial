@@ -85,16 +85,23 @@ For now, maintaining good sleep and hydration is helpful, as both can reduce the
 
 ## EHR Summary
 
-The patient is a 41-year-old female presenting for further treatment of a right temporal arteriovenous malformation (AVM) previously identified after seizures in the fall of 2131. She did not report any new symptoms at this admission. Her past medical history is otherwise unremarkable, and current medications include Paxil and Prilosec. On examination, she was well-appearing with a normal general and neurological exam. The diagnosis of right temporal AVM was confirmed by prior MRI and angiogram. During this admission, she underwent repeat diagnostic cerebral angiogram and coiling of the AVM. The procedure and hospital course were unremarkable, and she was discharged home with outpatient follow-up arranged.
+The patient is a 41-year-old female presenting for further treatment of a right temporal arteriovenous malformation (AVM) previously identified after seizures in the fall of 2131. She reported no acute symptoms at this admission, and her physical and neurological examinations were unremarkable. Her past medical history is otherwise unremarkable, and current medications include Paxil and Prilosec. The documented diagnosis is a right temporal cerebral AVM. During this admission, she underwent a repeat diagnostic cerebral angiogram and coiling of the AVM under local anesthesia. The procedure was well tolerated, and her post-procedure hospital course was unremarkable. She was discharged home with instructions for outpatient follow-up.
+
 
 ## Dialogue Summary
 
-The patient presented with recent seizures as the chief complaint. The episodes have been occurring for an unspecified duration, are infrequent, last only a few seconds, and do not involve loss of consciousness, unusual movements, confusion, trouble speaking, or odd sensations; the patient feels normal before and after each episode and can continue activities without interruption. No specific triggers such as stress, sleep changes, or flashing lights were identified, and there have been no recent changes in medication, sleep habits, or stress levels. The patient denied any history of worsening symptoms or injury related to the episodes. On assessment, the doctor noted that the brief, non-disruptive nature of the episodes without post-event confusion or abnormal movements is reassuring and less typical of concerning seizure types. The doctor recommended keeping a diary to track episode timing and circumstances, maintaining good sleep and hydration, and seeking prompt medical attention if warning signs such as loss of consciousness, confusion, muscle jerks, or injury occur. Follow-up was advised if episodes become more frequent or change in character.
+The patient is an adult presenting with concerns about recent seizure-like episodes. The episodes are described as brief (lasting a few seconds), infrequent, not associated with loss of consciousness, unusual movements, confusion, or post-ictal symptoms, and do not interrupt ongoing activities. There are no identifiable triggers such as stress, sleep deprivation, or flashing lights, and the patient reports no recent changes in medication, sleep habits, or stress levels. Relevant medical history, current medications, and allergies are not specified.
+
+The clinical impression is that these episodes are not typical of concerning seizures, as they lack features such as loss of awareness or abnormal movements; alternative explanations such as momentary lapses in attention or mild drops in blood pressure were discussed. The treatment plan includes maintaining a diary to track episode frequency and context, monitoring for any warning signs (such as loss of consciousness, confusion, or injury), and maintaining good sleep and hydration. The patient was advised to seek prompt medical attention if more serious symptoms develop or if the episodes worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.927
-- **Similarity Label**: N/A
+- **STS Score**: 0.480
+- **Model Used**: general
+- **Text1 Length**: 104 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

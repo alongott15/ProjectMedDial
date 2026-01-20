@@ -67,16 +67,21 @@
 
 ## EHR Summary
 
-The patient is a 59-year-old man presenting with a chief complaint of sore throat, malaise, and odynophagia for two days. He also reported left neck swelling and tenderness for the past 24 hours, subjective fevers, and hoarseness; he denied recent dental work or pain related to eating. His relevant medical history includes non-insulin dependent diabetes mellitus, hypertension, and hypercholesterolemia; he has no known drug allergies. On physical examination, he appeared tired but not in respiratory distress, with notable findings of left soft palate swelling and uvular deviation to the right, as well as left-sided floor of mouth tenderness. The diagnosis is not explicitly documented in the note. Treatment details are not specified in the provided text.
+The patient is a 59-year-old man presenting with a two-day history of sore throat, malaise, odynophagia, and left neck swelling and tenderness. He reported subjective fevers, hoarseness, and recent sick contact with his wife who had an upper respiratory infection; he denied recent dental work or prior neck swelling. His past medical history includes non-insulin dependent diabetes mellitus, hypertension, and hypercholesterolemia, with no known drug allergies. Physical examination revealed left soft palate swelling with uvular deviation, a tender enlarged left submandibular gland, and fiberoptic endoscopy showed significant left-sided pharyngeal wall swelling compromising the airway. Laboratory studies showed leukocytosis (WBC 28.5) and hyperglycemia (glucose 185). Neck CT demonstrated a left parapharyngeal and retropharyngeal space phlegmon without abscess. The documented diagnosis was left parapharyngeal and retropharyngeal phlegmon/cellulitis. Treatment included ICU observation for airway compromise, intravenous Unasyn and Decadron, followed by discharge on a ten-day course of Augmentin XR and continuation of home antihypertensive and lipid-lowering medications.
+
 
 ## Dialogue Summary
 
-The patient presented with a persistent sore throat. The sore throat has lasted for several days and is worsening, causing discomfort with eating, talking, and sleeping. Additional symptoms include pain when swallowing, general malaise, possible fevers (not measured), and swelling and tenderness on the left side of the neck. The patient denied specific details about pain radiating to the ear, as the simulation ended before answering. No relevant medical history, medications, or allergies were mentioned. The doctor inquired about symptom severity, associated symptoms, and neck findings but did not provide a formal assessment or diagnosis during the conversation. No specific treatment plan or recommendations were given in the dialogue.
+The patient presents with a chief complaint of a persistent sore throat. The sore throat has lasted for several days and is worsening, causing discomfort with eating, talking, and sleeping. Associated symptoms include pain with swallowing, general malaise, possible fever (not measured), and swelling and tenderness on the left side of the neck. The patient reports that the pain is primarily in the throat and neck. Relevant past medical history, medications, allergies, and a formal diagnosis are not specified in the dialogue. No specific treatment or recommendations have been documented at this stage.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.977
-- **Similarity Label**: N/A
+- **STS Score**: 0.607
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 93 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ Let me ask—how much is this swelling affecting your day-to-day life? For examp
 
 ## EHR Summary
 
-The patient is a 47-year-old male presenting with stage IIIB (T4) carcinoma of the right lung as the chief complaint. He experienced symptoms of superior vena cava (SVC) syndrome, including facial swelling, and had a history of tobacco use. His past medical history includes non-small cell lung cancer, prior right upper lobectomy with en bloc resection of the SVC and brachiocephalic veins, and prior radiation and chemotherapy. On physical exam, he appeared well but anxious, with facial swelling consistent with SVC syndrome and slightly distant heart sounds; chest was clear to auscultation bilaterally. A chest X-ray on [2144-5-10] showed a persistent right-sided hydropneumothorax following pleural tube removal. The documented diagnosis was stage IIIB (T4) non-small cell lung cancer with SVC syndrome. Treatment included median sternotomy for mediastinal mass resection and reconstruction of the SVC and brachiocephalic veins using Gore-Tex, following induction chemoradiotherapy.
+The patient is a 47-year-old male presenting with stage IIIB (T4) carcinoma of the right lung and symptoms of superior vena cava (SVC) syndrome, including facial swelling. He had a history of induction chemoradiotherapy with good response and no evidence of distant disease, as well as prior tobacco use and a family history of coronary artery disease. On admission, he underwent bronchoscopy, median sternotomy, right upper lobectomy en bloc with SVC and brachiocephalic vein resection, mediastinal lymphadenectomy, and Gore-Tex reconstruction of the SVC and brachiocephalic veins. Postoperative imaging showed stable right-sided hydropneumothorax and expected surgical changes; his recovery was unremarkable with well-controlled pain and independent ambulation. The documented diagnosis was status post median sternotomy for mediastinal mass with Gore-Tex reconstruction to the SVC. Discharge medications included aspirin, metoprolol tartrate, and oxycodone-acetaminophen as needed for pain. He was discharged home in good condition with instructions to monitor for signs of infection or complications and to follow up with his physician.
+
 
 ## Dialogue Summary
 
-The patient presented with facial swelling that has persisted for a few days and is gradually worsening. The swelling is isolated to the face, with no associated symptoms such as trouble breathing, difficulty swallowing, voice changes, swelling in other areas, rashes, headaches, vision changes, or feelings of pressure/fullness in the head or neck. The patient denied recent dental work, sinus issues, infections, medication changes, or new exposures to foods or products. The swelling does not vary throughout the day and has no identifiable triggers. On assessment, the doctor noted isolated facial swelling without urgent symptoms and discussed possible causes such as allergies, infections, or issues with fluid drainage or blood flow, though no clear etiology was identified from the history. The patient reported the swelling is mostly uncomfortable and noticeable but does not interfere with eating or speaking. The doctor advised that, in the absence of severe symptoms, this is less likely to be a severe allergic reaction and recommended further evaluation to investigate underlying causes of persistent and worsening facial swelling.
+The patient is an adult presenting with the chief complaint of facial swelling. The swelling began a few days ago and has been gradually worsening, with no associated symptoms such as dyspnea, dysphagia, voice changes, headaches, vision changes, or swelling elsewhere. There are no identifiable triggers, and the swelling remains consistent throughout the day; the patient denies recent dental work, sinus issues, infections, medication changes, or new exposures. The swelling is described as uncomfortable and noticeable but does not interfere with eating or speaking. Relevant history regarding medications, allergies, or chronic conditions was not specified. The clinical impression is isolated facial swelling without urgent symptoms or clear etiology. The doctor explained that while severe allergic reaction is unlikely, persistent and worsening swelling may indicate underlying issues with fluid drainage or blood flow. No specific treatment or medication was documented; further evaluation was implied based on the persistence and progression of symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.922
-- **Similarity Label**: N/A
+- **STS Score**: 0.310
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

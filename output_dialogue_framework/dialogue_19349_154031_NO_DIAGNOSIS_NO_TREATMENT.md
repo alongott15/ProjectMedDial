@@ -99,16 +99,23 @@ If you do notice any new symptoms—like increased work of breathing, difficulty
 
 ## EHR Summary
 
-The patient is a male newborn delivered at 34 and 4/7 weeks gestational age, admitted for management of prematurity. He was born via cesarean section after maternal induction due to fetal intolerance, with rupture of membranes 14 hours prior to delivery and clear amniotic fluid. The infant had good tone and cry at birth, required brief free-flow oxygen for two minutes, and was transferred to the Neonatal Intensive Care Unit without complications. Physical examination showed a well-appearing preterm infant with stable vital signs on room air, minimal intercostal retractions, and no dysmorphic features. Birth weight was 1840 grams (58th percentile), length 42 cm, and head circumference 30.5 cm. The documented diagnosis was prematurity. Treatment included supportive care in the NICU and monitoring of respiratory status.
+The patient is a male newborn delivered at 34 and 4/7 weeks gestational age, admitted for management of prematurity. He was born via cesarean section after induction for maternal abdominal pain and fetal intolerance, with initial good tone and cry, and required brief free-flow oxygen. On examination, he appeared well, with minimal intercostal retractions but stable vital signs and no dysmorphic features. The hospital course was notable for stable respiratory and cardiovascular status, successful transition from IV fluids to full oral feeds, and two days of phototherapy for hyperbilirubinemia (peak bilirubin 10.3 mg/dL, resolved to 5.3 mg/dL). Relevant history includes maternal gestational diabetes managed with insulin and no evidence of infection in the newborn. The documented diagnoses were prematurity (34 and 4/7 weeks) and resolved hyperbilirubinemia of prematurity. Treatment included enriched breast milk feeds (24 kcal/oz with Enfamil powder) and elemental iron supplementation. Discharge recommendations included follow-up with the primary care physician, delayed hepatitis B immunization until reaching 2 kg or two months of age, and continued monitoring.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns regarding her baby’s early birth and overall well-being. She reported that her baby was born prematurely (exact gestational age not specified), has been feeding well, growing, and having plenty of wet diapers and regular bowel movements. The only symptom noted was minimal intercostal retractions during breathing, present since birth and not worsening; there were no episodes of fast breathing, bluish or pale skin, unusual tiredness, feeding difficulties, or temperature instability. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor found the baby’s steady feeding, growth, normal color, and hydration status reassuring, with mild retractions likely related to ongoing lung and muscle maturation typical in premature infants. The assessment was that the baby is adapting well outside the womb with no concerning signs at present. The doctor advised continued monitoring for any changes in breathing effort, color, feeding, or alertness, and recommended routine check-ups to track progress; parents were instructed to seek care promptly if new symptoms arise.
+The patient is an infant who presented for evaluation due to being born prematurely. The primary concern was ongoing minimal intercostal retractions observed since birth, though the infant has been feeding well, growing, maintaining normal color, and having regular wet diapers and bowel movements. There have been no episodes of cyanosis, increased work of breathing, poor feeding, excessive sleepiness, or temperature instability. Relevant history includes prematurity; no specific gestational age or other medical issues were specified.
+
+The clinical impression was that the mild intercostal retractions are likely related to lung and muscle immaturity commonly seen in premature infants, with no evidence of acute respiratory distress or other complications. The treatment plan included continued monitoring at home for any new or worsening symptoms such as increased work of breathing, feeding difficulties, changes in color, or lethargy. Routine check-ups were recommended to track growth and development, and the caregiver was advised to seek prompt evaluation if concerning symptoms arise. Overall, reassurance was provided regarding the infant’s current progress and adaptation outside the womb.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.496
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 171 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ For now, I recommend continuing to take it easy and use your nitroglycerin as pr
 
 ## EHR Summary
 
-The patient is an 81-year-old man presenting with acute chest pain. He experienced a sharp, band-like pain across his chest at rest, rated 6/10, radiating from right to left, similar to previous angina episodes but refractory to sublingual nitroglycerin; he also reported diaphoresis but denied nausea, vomiting, or dyspnea. His history includes coronary artery disease, prior CABG (LIMA to LAD, SVG to PDA and diag-1), PCI with stent placement, and hypertension. On arrival at the outside hospital, ECG showed ST elevations in the inferior leads and ST depressions in the precordial leads. Cardiac catheterization revealed 100% occlusion of the native RCA and SVG to PDA graft, with successful ballooning and stenting of an OM-2 lesion. The documented diagnosis was acute coronary syndrome due to graft and native vessel occlusion. Treatment included aspirin, beta blocker, IV nitroglycerin, heparin, Aggrestat, and percutaneous coronary intervention with stenting. The patient was monitored in the CCU following intervention.
+The patient is an 81-year-old man presenting with chest pain at rest during church. The pain was described as sharp, band-like, radiating across the chest from right to left, rated 6/10, similar to prior angina but refractory to sublingual Nitroglycerin; he also experienced diaphoresis but denied nausea, vomiting, palpitations, or dyspnea. His past medical history includes coronary artery disease with prior CABG and PCI, hypertension, hyperlipidemia, and obesity. On admission, ECG showed ST elevations in the inferior leads and ST depressions in the precordial leads. Cardiac catheterization revealed a 100% occluded native RCA and SVG to PDA graft, with successful stenting of an OM-2 lesion. The documented diagnosis was acute coronary syndrome due to graft and native vessel occlusion. Treatment included aspirin, beta blocker, IV Nitroglycerin, heparin, Aggrestat, and percutaneous coronary intervention with stent placement. The patient was observed in the CCU following intervention.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest pain had been occurring for a couple of days, described as a sharp pain like a band across the chest, radiating from the right to the left side, and rated as 6 out of 10 in severity. The pain was triggered by activity (such as walking or doing things around the house), improved with rest and nitroglycerin, and was accompanied by increased sweating but not by shortness of breath, lightheadedness, nausea, vomiting, or pain in the jaw or arm. The patient reported that the pain made daily activities more difficult. The patient is taking nitroglycerin, which provided some relief. The doctor assessed that the pattern of chest discomfort—activity-related and relieved by rest and nitroglycerin—was suggestive of angina, noting that sweating during episodes may indicate physiological stress. The doctor advised the patient to avoid strenuous activity, continue using nitroglycerin as prescribed, monitor for any worsening or new symptoms (such as pain at rest, severe shortness of breath, fainting, or nausea), and to seek prompt medical attention if these occur. The patient demonstrated understanding of the recommendations.
+The patient is presenting with chest pain as the chief complaint. The pain has been present for a couple of days, is described as sharp and band-like across the chest, radiates from right to left, is rated 6 out of 10 in severity, and is triggered by activity but improves with rest and nitroglycerin. Associated symptoms include increased sweating during episodes, but no shortness of breath, lightheadedness, nausea, vomiting, or pain radiating to the jaw or arm. The patient reports that the pain has limited their ability to perform daily activities. Relevant history includes the use of nitroglycerin for symptom relief; no other medical history or allergies are specified. The clinical impression documented is angina, likely due to insufficient cardiac oxygenation during exertion. The treatment plan includes continuing nitroglycerin as prescribed, avoiding strenuous activity, monitoring for worsening or new symptoms, and following up with a cardiologist or primary care provider. The patient was advised to seek prompt medical attention if symptoms worsen or new warning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.602
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ If you notice any worsening symptoms or if the drainage persists beyond a week, 
 
 ## EHR Summary
 
-The patient is a 45-year-old female presenting with new onset back pain. She reported sudden back pain on April 2, and imaging at an outside hospital revealed a type A aortic dissection. Her past medical history includes mechanical mitral valve replacement (MVR) in 2153, hypertension, degenerative joint disease with chronic low back pain, spontaneous pneumothorax, and cesarean section; she has a documented allergy to penicillins. On physical exam, she was not in acute distress, neurologically intact, with regular cardiac rhythm and equal blood pressures in both arms. Laboratory findings during admission included elevated white blood cell count, thrombocytosis, anemia, and elevated INR. The documented diagnosis was type A aortic dissection. She underwent emergent surgical repair of the ascending aorta via redo sternotomy, followed by re-exploration for mediastinal hematoma evacuation. Postoperatively, she was managed in the cardiothoracic surgical recovery unit with supportive care.
+The patient is a 45-year-old female presenting with new onset back pain. She reported sudden back pain on April 2, and imaging revealed a type A aortic dissection. Her relevant history includes mechanical mitral valve replacement in 2153, hypertension, chronic low back pain, and an allergy to penicillins. The documented diagnoses were acute type A aortic dissection, status post mechanical mitral valve replacement, chronic low back pain, and hypertension. She underwent emergent surgical repair of the ascending aorta with subsequent re-exploration for hematoma, followed by a postoperative course including anticoagulation management, amiodarone for atrial fibrillation, and antibiotics for sternal drainage. At discharge, her condition was good and she was prescribed medications including furosemide, potassium chloride, docusate sodium, aspirin, ranitidine, atorvastatin, amiodarone, acetaminophen-codeine, metoprolol, levofloxacin, and coumadin with INR monitoring. She was advised to avoid driving for 4 weeks, not lift more than 10 lbs for 3 months, and to follow up with her physicians for medication and INR management.
+
 
 ## Dialogue Summary
 
-The patient presented with new back pain that has been bothering them more than usual. The back pain is described as a dull ache in the lower back, rated 6 out of 10 in severity, worsening with movement or prolonged standing and improving with sitting or lying down; onset was a few days ago. The patient also reported poor appetite starting around the same time and a small amount of clear, watery drainage from the chest area without redness or swelling. No numbness, tingling, weakness in the legs, or bladder/bowel changes were noted, and there was no history of recent chest injury or procedures. The doctor assessed the back pain as likely related to muscle strain aggravated by activity, and noted that the clear chest drainage is less likely to be infectious given the absence of redness or swelling but should be monitored. The doctor recommended gentle stretching, avoiding activities that worsen the back pain, and keeping the chest area clean and dry. The patient was advised to watch for new symptoms such as fever, increasing pain, redness, swelling, or changes in drainage, and to follow up if symptoms worsen or persist beyond a week.
+The patient is an adult presenting with new-onset back pain as the chief complaint. The back pain is described as a dull ache in the lower back, rated 6 out of 10 in severity, worsening with movement or standing and improving with sitting or lying down; symptoms began a few days ago and are accompanied by decreased appetite. The patient also reports a small amount of clear, watery drainage from the chest area without redness, swelling, recent injury, or procedures, and denies numbness, tingling, weakness, or bladder/bowel dysfunction. No specific triggers or patterns for the symptoms were identified. Relevant medical history, medications, and allergies were not specified. The clinical impression was likely musculoskeletal back pain (possibly muscle strain) and non-infectious chest drainage, though no formal diagnosis was documented. The treatment plan included monitoring for new or worsening symptoms (such as fever, increased pain, redness, swelling, or changes in drainage), gentle stretching, activity modification for back pain, and keeping the chest area clean and dry. The patient was advised to follow up if symptoms persist beyond a week or worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.557
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

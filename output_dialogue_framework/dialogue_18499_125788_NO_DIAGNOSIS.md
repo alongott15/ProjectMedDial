@@ -85,16 +85,23 @@ In the meantime, try to avoid activities that could put you at risk of falling o
 
 ## EHR Summary
 
-The patient is a 55-year-old male presenting with upper extremity weakness for the past two to three months. He reported decreased muscle strength and sensation in the right upper extremity, with physical exam findings of right upper extremity strength at 3+, right leg strength at 4+, absent reflexes in the right upper extremity and left ankle, and decreased sharp sensation in the right upper extremity. His past medical history includes reflux disease and prior appendectomy, with no known allergies. On examination, he was alert and oriented, with stable vital signs and otherwise unremarkable systemic findings. The patient underwent C6-C7 laminectomies with resection of an intramedullary lesion; no intraoperative complications were noted. Postoperatively, he received a Solu-Medrol drip for 24 hours, and his motor strength improved to 5/5 in all muscle groups with intact sensation. He was transferred to the regular floor with physical therapy consultation and was determined to require a rehabilitation stay prior to discharge. Discharge medications included Zantac, Percocet, Tylenol, Colace, and Milk of Magnesia.
+The patient is a 55-year-old male presenting with upper extremity weakness for the past two to three months. On examination, he had decreased muscle strength (3+) and sensation in the right upper extremity, decreased reflexes, and mild weakness in the right leg. His past medical history includes reflux disease and prior appendectomy, with no known allergies. The clinical course included C6-C7 laminectomies with resection of an intramedullary lesion; there were no intraoperative complications. Postoperatively, he received a Solu-Medrol drip for 24 hours and showed improvement in motor strength and sensation. The documented plan included discharge to rehabilitation, staple removal on postoperative day 10, and follow-up in the Brain Clinic in three to four weeks. Discharge medications included Zantac, Percocet, Tylenol, Colace, Milk of Magnesia, and Dulcolax suppository as needed. The patient's condition was stable at discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually increasing weakness in the right arm over the past few days. Symptoms included difficulty gripping, lifting, buttoning a shirt, carrying groceries, and writing with the right hand, as well as decreased sensation to sharp in the right arm; no tingling or numbness was reported. The patient also noted some decreased muscle strength in the right leg, which made walking feel "off," but denied any changes in facial movement or speech. No recent injuries, illnesses, new medications, or allergies were mentioned. On assessment, the doctor noted unilateral weakness and sensory changes affecting daily activities but not causing complete loss of function. The doctor’s working diagnosis included possible neurological causes such as nerve involvement, and emphasized ruling out serious conditions. The doctor recommended an in-person evaluation soon and advised monitoring for new symptoms such as trouble speaking, facial drooping, severe headache, or loss of balance. The patient was also advised to avoid activities that could increase risk of injury and to report any changes before the evaluation.
+The patient is an adult presenting with gradually increasing weakness in the right arm as the chief complaint. Symptoms began a few days ago and include difficulty gripping, lifting, buttoning a shirt, carrying groceries, and writing with the right hand, along with decreased sensation to sharp in the right arm; there is also some decreased muscle strength in the right leg, making walking more difficult but not impossible. The patient denies numbness, tingling, facial changes, speech difficulties, recent injuries, new medications, or illnesses. No allergies or relevant past medical history were specified.
+
+The clinical impression is possible neurological involvement affecting the right side, with consideration of nerve, muscle, brain, or spinal cord causes such as a pinched nerve or other neurological issues. The doctor did not document a definitive diagnosis but emphasized the need to rule out serious neurological conditions. The treatment plan includes urgent in-person evaluation and instructions to monitor for new symptoms such as trouble speaking, facial drooping, severe headache, or loss of balance. The patient was advised to avoid activities that could increase the risk of falls or injury and to seek immediate care if symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.577
+- **Model Used**: general
+- **Text1 Length**: 136 words
+- **Text2 Length**: 190 words
+
 
 ## Processing Information
 

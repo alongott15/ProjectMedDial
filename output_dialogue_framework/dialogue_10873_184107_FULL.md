@@ -87,16 +87,21 @@ Would you like advice on simple exercises to start at home, or would you prefer 
 
 ## EHR Summary
 
-The patient is a 20-year-old female presenting with an L2 burst fracture. She was neurologically intact on admission despite significant canal compromise. Her relevant history includes no documented chronic illnesses, medications, or allergies. Imaging with CT and MRI confirmed the unstable fracture pattern, and physical exam findings are not detailed. The documented diagnosis was unstable L2 burst fracture with canal compromise. Treatment included anterior and posterior spinal reconstructive surgery with corpectomy, anterior spinal fusion (L1-L3), posterior spinal fusion (T10-L4), instrumentation, and iliac crest bone graft, followed by postoperative homologous blood transfusion for anemia. Her postoperative course was unremarkable, wounds are healing well, pain is controlled with oral medications, and she is immobilized in a TLSO brace. She is discharged for continued psychiatric and physical rehabilitation, with plans for brace wear for three months and physical therapy for up to six months.
+The patient is a 20-year-old female presenting with an L2 burst fracture. She was neurologically intact despite significant canal compromise and was medically stabilized on admission. Her relevant history includes no documented comorbidities, medications, or allergies. The clinical assessment was an unstable L2 burst fracture with canal compromise. Treatment included anterior and posterior spinal reconstructive surgery with corpectomy at L2, anterior spinal fusion from L1-L3 using a Harm's cage, and posterior spinal fusion from T10-L4 with instrumentation and iliac crest bone graft. Postoperatively, she received homologous blood transfusion for residual anemia, which stabilized without symptoms, and her pain was managed with oral medications. She is immobilized in a TLSO brace and discharged for continued physical and psychiatric rehabilitation, with plans for brace wear for three months and physical therapy for up to six months. Follow-up is scheduled in 10–11 days for wound and construct assessment.
+
 
 ## Dialogue Summary
 
-The patient presented with a follow-up regarding recovery from a burst fracture in the lower back. They reported ongoing mild lower back pain, described as a dull ache rated 4–5/10 with certain movements such as bending or lifting, but denied any numbness, weakness, or changes in energy, and noted gradual improvement since the injury. The patient is able to perform most daily activities but avoids heavy lifting or activities that strain the back. Relevant history includes a burst fracture and anemia, with no current symptoms of anemia (no tiredness, shortness of breath, or lightheadedness). On examination, there were no new neurological symptoms reported. The doctor assessed that recovery is progressing well, with lingering mild discomfort typical at this stage post-injury, especially without physical therapy. The doctor recommended gradually reintroducing gentle exercises at home to strengthen core and back muscles and advised avoiding heavy lifting; a referral to physical therapy was offered if symptoms persist. The patient opted to begin with home exercises and understood the plan.
+The patient is an adult presenting for follow-up after a burst fracture in the lower back. Current symptoms include a persistent dull ache in the lower back, rated 4–5 out of 10 with bending or lifting, but no numbness, weakness, or changes in energy level. The pain has gradually improved since the injury and does not significantly interfere with most daily activities, though the patient avoids heavy lifting and strenuous movements. Relevant history includes anemia, but the patient denies symptoms such as tiredness, dyspnea, or lightheadedness. The clinical impression is ongoing recovery from a burst fracture with mild, movement-related discomfort and no neurological deficits. The treatment plan includes gradual reintroduction of gentle exercises at home to strengthen core and back muscles, with the option to pursue physical therapy if symptoms persist. The patient was advised to avoid heavy lifting and to monitor for new symptoms such as increasing pain, numbness, weakness, or changes in bladder or bowel control. No new medications or interventions were initiated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.549
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

@@ -85,16 +85,23 @@ For practical steps, try to pace yourself and avoid pushing through the tightnes
 
 ## EHR Summary
 
-The patient is a 68-year-old male presenting with worsening exercise tolerance over the past couple of months. He reports that his ability to bike has decreased from five miles last year to barely one mile recently, accompanied by generalized weakness. He occasionally experiences chest tightness during exercise radiating to both shoulders but denies dyspnea, nausea, vomiting, lightheadedness, or palpitations. His past medical history includes long-standing diabetes mellitus with neuropathy, retinopathy, and nephropathy; he is allergic to Percocet (tachycardia). On physical exam, he was in no acute distress with stable vital signs and 1+ ankle edema bilaterally. Laboratory data showed mild elevation in white blood cell count and creatinine. The patient underwent cardiac catheterization for further evaluation of his symptoms. The diagnosis and specific treatment plan are not documented in the provided note.
+The patient is a 68-year-old male presenting with worsening exercise tolerance over the past couple of months. He reports that his ability to bike has decreased from five miles last year to barely one mile recently, accompanied by generalized weakness. He occasionally experiences chest tightness during exercise radiating to both shoulders but denies dyspnea, nausea, vomiting, lightheadedness, or palpitations. Relevant history includes diabetes mellitus for 20-25 years with neuropathy, retinopathy, and nephropathy; he is also status post cholecystectomy and hernia repair. Allergies include Percocet (tachycardia). On admission, physical exam was notable for 1+ ankle edema; laboratory data showed mild renal impairment (creatinine 1.3). The clinical impression was possible cardiac etiology for his symptoms, and he underwent cardiac catheterization for further evaluation. Treatment included continued management of diabetes and cardiac workup; specific interventions following catheterization are not documented in this note.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening tiredness and decreased ability to keep up with usual walks and activities. Symptoms included increased fatigue over the past few weeks, difficulty performing chores and walking up stairs, need for frequent breaks, chest tightness during exertion that sometimes radiates to both shoulders (relieved by rest), and general weakness in the arms and legs after activity; no swelling in the legs or feet, and no changes in appetite, weight, or sleep were reported. No relevant medical history, medications, or allergies were specified. On clinical review, the doctor noted the absence of swelling and other systemic symptoms. The doctor assessed that the patient's symptoms could be related to the heart or circulation, possibly indicating reduced exercise tolerance due to cardiac causes. The doctor advised the patient to take it easy with physical activity, avoid pushing through chest tightness, and seek prompt medical attention if chest discomfort does not resolve with rest, or if severe shortness of breath or sudden weakness occurs. A follow-up was recommended to check blood pressure and consider basic tests for further evaluation. The patient was instructed to continue current medications as usual until the follow-up.
+The patient is an adult presenting with gradually worsening fatigue and generalized weakness as the chief complaint. Over the past few weeks, they have experienced increasing difficulty performing daily activities, such as walking, climbing stairs, and household chores, requiring more frequent breaks. The patient reports exertional chest tightness radiating to both shoulders that resolves with rest, but denies lower extremity swelling, changes in appetite, weight, or sleep. Weakness in the arms and legs is noted, especially after activity.
+
+There is no mention of relevant medical history, medications, or allergies in the dialogue. The clinician’s assessment suggests that the symptoms may be related to cardiac or circulatory issues, possibly reduced exercise tolerance due to the heart not meeting the body’s demands during activity. The treatment plan includes advising the patient to limit physical exertion, pace activities, and avoid pushing through chest tightness. The patient is instructed to seek prompt medical attention if chest discomfort persists at rest, severe shortness of breath, or sudden weakness occurs, and a follow-up is planned for further evaluation including blood pressure measurement and basic tests.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.613
+- **Model Used**: general
+- **Text1 Length**: 140 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

@@ -179,16 +179,23 @@ Overall, it’s common to feel some anxiety when managing multiple conditions, b
 
 ## EHR Summary
 
-The patient is a 53-year-old male presenting for evaluation following a positive routine stress test, without chest pain, shortness of breath, paroxysmal nocturnal dyspnea, or dyspnea. He underwent further workup at an outside hospital, including echocardiogram and cardiac catheterization, which revealed multivessel coronary artery disease. His past medical history includes non-insulin dependent diabetes, hypercholesterolemia, mild hypertension, and glaucoma; he takes aspirin, lisinopril, lipitor, atenolol, glyburide, and lumigan eye drops. On admission, physical examination was unremarkable with stable vital signs and no acute findings; EKG showed no acute ST-T segment changes. The documented diagnosis was multivessel coronary artery disease. He underwent coronary artery bypass grafting (CABG) times five and was successfully extubated postoperatively. Postoperative management included blood pressure control with fluids, insulin drip for blood sugars, diuresis with Lasix, beta blockade, and pain management with Percocet.
+The patient is a 53-year-old male presenting after a routine stress test was found to be positive, with no reported chest pain, shortness of breath, paroxysmal nocturnal dyspnea, or dyspnea. He underwent further evaluation with echocardiogram and cardiac catheterization, which revealed multivessel coronary artery disease. His past medical history includes non-insulin dependent diabetes, high cholesterol, mild hypertension, and glaucoma; he has no known drug allergies. The documented diagnosis was coronary artery disease status post coronary artery bypass grafting (CABG) times five, along with diabetes, hyperlipidemia, hypertension, and glaucoma. Treatment included CABG x5, postoperative management with insulin drip for blood sugar control, Lasix for diuresis, beta blockade, pain control with Percocet, and transfusion for low hematocrit. He was started on a regimen including Lasix, glyburide, aspirin, Lopressor, and other supportive medications at discharge. The patient was discharged home in stable condition with instructions for follow-up with his physicians and home physical therapy.
+
 
 ## Dialogue Summary
 
-The patient presented for a general health check-in, expressing anxiety about managing diabetes and other chronic conditions. No new symptoms were reported; specifically, the patient denied chest pain, shortness of breath, unusual fatigue, appetite changes, or blood sugar fluctuations, and stated that worries do not affect sleep or mood. Relevant history includes diabetes, hypertension, and high cholesterol, with the patient actively monitoring blood sugar and blood pressure at home and cholesterol during clinic visits. The patient described staying active without limitations and reported stable blood sugar levels. The doctor assessed that the patient’s chronic conditions are well controlled and that current management is effective, noting that anxiety about health is common in this context. Recommendations included continuing regular monitoring of blood sugar and blood pressure at home, adding routine foot checks for diabetes-related complications, and maintaining regular clinic visits for cholesterol and kidney function labs. The doctor advised the patient to reach out if any new symptoms arise, such as unusual thirst, frequent urination, blurry vision, wounds that heal slowly, headaches, vision changes, dizziness, numbness, or non-healing wounds.
+The patient is an adult with a history of diabetes, hypertension, and hypercholesterolemia presenting for a routine health check-in, expressing some anxiety about chronic disease management. The patient reports no chest pain, dyspnea, unusual fatigue, appetite changes, or other new symptoms, and states that blood sugar has been steady without recent highs or lows. The patient remains active without limitations and monitors blood pressure at home; cholesterol is tracked during clinic visits. There are no reported effects of anxiety on sleep or mood, and the patient’s main concern is ensuring adequate self-management of chronic conditions.
+
+The clinical impression is that the patient’s diabetes, blood pressure, and cholesterol are well controlled, with no new or concerning symptoms. The treatment plan includes continuing current routines of monitoring blood sugar and blood pressure at home, adding regular foot checks for diabetes-related complications, and maintaining routine lab work and clinic follow-ups for cholesterol and kidney function. The doctor provided education on symptoms to watch for (e.g., unusual thirst, frequent urination, blurry vision, wounds that heal slowly for diabetes; headaches, vision changes, dizziness for hypertension) and encouraged the patient to reach out if any new symptoms arise. Overall, reassurance was given regarding current management, and strategies for monitoring and addressing health-related anxiety were discussed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.547
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 209 words
+
 
 ## Processing Information
 

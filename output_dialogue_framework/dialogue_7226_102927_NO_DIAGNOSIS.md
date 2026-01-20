@@ -87,16 +87,23 @@ In the meantime, try to note any patterns if you can, and avoid excess caffeine 
 
 ## EHR Summary
 
-The patient is a 70-year-old male admitted for an elective coronary artery bypass grafting (CABG) times two. He had no acute symptoms on admission and was in no distress, with a benign physical exam. His past medical history includes hypercholesterolemia, benign prostatic hyperplasia, rheumatic fever, renal stones, hiatal hernia, and rheumatoid arthritis; he takes Toprol, Plaquenil, Terazosin, iron, aspirin, simvastatin, and hydrochlorothiazide. The patient underwent CABG with saphenous vein grafts to OM-I and PDA, and his postoperative course was initially uncomplicated. On postoperative day three, he developed rapid atrial fibrillation, which was treated with Lopressor and Amiodarone, resulting in conversion to sinus rhythm after six hours. He continued to improve with physical therapy and was ambulating well. The documented diagnosis was postoperative atrial fibrillation following CABG. He was discharged home in good condition on Lopressor and Amiodarone.
+The patient is a 70-year-old male admitted for an elective coronary artery bypass graft (CABG) times two. He had no acute symptoms on admission and was in no distress, with normal cardiac and pulmonary exam findings. His past medical history includes hypercholesterolemia, benign prostatic hyperplasia, rheumatic fever, renal stones, hiatal hernia, and rheumatoid arthritis; he takes Toprol, Plaquenil, Terazosin, iron, aspirin, simvastatin, and hydrochlorothiazide, and has no known drug allergies. The patient underwent CABG with saphenous vein grafts to OM-I and PDA, and his postoperative course was uncomplicated until postoperative day three, when he developed rapid atrial fibrillation. This arrhythmia was treated with Lopressor and Amiodarone, resulting in conversion to sinus rhythm after six hours. He continued to recover well with physical therapy and was discharged home in good condition. Discharge medications included Lopressor, Amiodarone (taper), Simvastatin, Percocet as needed, Aspirin, potassium supplement, Lasix, and Colace. He was advised to follow up with his physician in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with episodes of rapid heartbeat as the chief complaint. Symptoms included a fast and sometimes irregular or fluttering heartbeat occurring for a few minutes to longer periods, persisting for several months, with no specific triggers identified and no associated lightheadedness, dizziness, or fainting. The patient reported that these episodes occasionally required stopping to catch their breath but did not prevent most daily activities, and the frequency and duration had remained stable over time. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of concerning symptoms and suggested the episodes were likely palpitations or arrhythmias, which are often benign but warrant evaluation due to their irregular nature and persistence. The doctor recommended monitoring symptoms, avoiding excess caffeine and alcohol, and advised further evaluation with an EKG or heart rhythm monitor. The patient agreed to proceed with basic heart tests and demonstrated understanding of the plan.
+The patient presents with episodes of rapid and sometimes irregular heartbeat as the chief complaint. Symptoms have been ongoing for several months, occurring intermittently without identifiable triggers, and are described as fast and occasionally fluttering; episodes last from a few minutes to longer and can cause mild shortness of breath requiring the patient to stop and rest. The patient denies associated symptoms such as lightheadedness, dizziness, or syncope, and reports no worsening in frequency or duration. Relevant medical history, medications, and allergies are not specified.
+
+The clinical impression is that the patient is experiencing palpitations likely due to a benign arrhythmia, with no immediate red-flag symptoms. The treatment plan includes monitoring for concerning symptoms (such as chest pain, severe dyspnea, or near-syncope), lifestyle advice to avoid excess caffeine or alcohol, and arranging basic cardiac evaluation with an EKG and ambulatory heart rhythm monitoring. The patient agrees to proceed with these diagnostic tests.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.938
-- **Similarity Label**: N/A
+- **STS Score**: 0.538
+- **Model Used**: general
+- **Text1 Length**: 158 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

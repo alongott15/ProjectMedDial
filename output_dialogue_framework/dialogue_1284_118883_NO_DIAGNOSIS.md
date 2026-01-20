@@ -98,3 +98,21 @@ For now, staying hydrated and maintaining your usual routine is sensible. Most m
 ## Processing Information
 
 - **Processing Time**: 398.1s
+
+## EHR Summary
+
+The patient is a 36-year-old male presenting with abdominal pain. He was found to be in end-stage liver failure, which was complicated by new onset renal failure during his hospital stay. His medical course included transfer from the Medical Intensive Care Unit to the floor after discussions with family regarding goals of care. The patient was made do not resuscitate/do not intubate and placed on comfort measures only. The documented diagnosis was end-stage liver failure with renal failure. Despite supportive care, the patient ultimately passed away during hospitalization.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with intermittent dull abdominal pain centered around the belly button. The ache began a couple of days ago, is rated 3–4 out of 10 in severity, comes and goes without clear triggers, and has not worsened over time. There are no associated symptoms such as fever, nausea, vomiting, appetite changes, or alterations in bowel movements. Relevant history, medications, and allergies are not specified. The clinical assessment is that the symptoms are mild and nonspecific, likely due to benign causes such as minor muscle strain, mild digestive changes, or stress. The treatment plan includes monitoring for any changes, staying hydrated, and maintaining usual activities. The patient was advised to seek further evaluation if the pain worsens, persists beyond a week, or if new symptoms such as severe pain or gastrointestinal bleeding develop. No medications or specific interventions were prescribed at this time.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.431
+- **Model Used**: general
+- **Text1 Length**: 88 words
+- **Text2 Length**: 147 words
+

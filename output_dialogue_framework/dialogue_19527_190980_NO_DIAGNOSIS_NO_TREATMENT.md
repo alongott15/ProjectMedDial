@@ -183,16 +183,21 @@ Does that all make sense? And do you have any questions about what to expect wit
 
 ## EHR Summary
 
-The patient is a 73-year-old male presenting with recent onset of angina with exertion. Symptoms included chest pain triggered by physical activity, leading to a positive exercise tolerance test (ETT) on 2165-3-13. Relevant history includes insulin-dependent diabetes mellitus, hypercholesterolemia, possible hypertension, and a remote history of smoking; current medications are Pravachol, aspirin, and insulin. On examination, he was in no acute distress with normal cardiovascular and respiratory findings. Laboratory results and ECG showed normal sinus rhythm with borderline first-degree A-V block and left bundle branch block. The documented diagnoses were unstable angina and coronary artery disease. During hospitalization, he underwent cardiac catheterization revealing an ejection fraction of approximately 60% and subsequently had a four-vessel coronary artery bypass graft. Treatment included surgical intervention and continuation of his prior medications.
+The patient is a 73-year-old male presenting with recent onset of angina with exertion. He experienced chest pain during exertion, leading to a positive exercise treadmill test and subsequent transfer for further cardiac evaluation. His past medical history includes insulin-dependent diabetes mellitus, hypercholesterolemia, possible hypertension, and a remote history of smoking; he has no known allergies and was taking pravachol, aspirin, and insulin. The documented diagnoses were unstable angina and coronary artery disease, status post coronary artery bypass grafting x4. During hospitalization, he underwent cardiac catheterization revealing significant three-vessel disease and subsequently had a quadruple coronary artery bypass graft without significant complications. Postoperatively, he was started on beta blockade, continued on anticoagulation, and managed for elevated blood glucose with his usual insulin regimen. At discharge, he was stable, tolerating a regular diet, ambulating well, and free of anginal symptoms. Discharge instructions included continuation of cardiac and diabetic medications, a cardiac/diabetic diet, physical activity as tolerated, and follow-up with his cardiologist and primary physician.
+
 
 ## Dialogue Summary
 
-The patient presented with episodes of rapid and irregular heartbeat. Symptoms included a fast and irregular heart rate occurring both at rest and during activity, sometimes requiring the patient to stop and sit down until the episode passes; these episodes typically last a few minutes and have not increased in frequency or severity. The patient denied associated symptoms such as chest pain, dizziness, lightheadedness, shortness of breath, leg swelling, or weight changes. There is no history of heart conditions, high blood pressure, or use of cardiac medications. On assessment, the doctor noted that the brief, untriggered episodes without concerning symptoms or cardiac history are most often due to a benign arrhythmia or rhythm disturbance. The doctor recommended monitoring the heart rhythm with a portable device to capture an episode and advised seeking urgent care if new symptoms such as fainting, severe chest pain, or significant shortness of breath develop. The patient agreed to proceed with heart rhythm monitoring and was instructed to reach out if any changes occur before the follow-up.
+The patient is an adult presenting with episodes of rapid and irregular heartbeat as the chief complaint. These episodes occur without clear triggers, last a few minutes, and are not associated with chest pain, dizziness, dyspnea, swelling, or weight changes. The patient reports no history of heart conditions, hypertension, or use of cardiac medications. The clinical impression is that these symptoms are most likely due to a benign arrhythmia or common rhythm disturbance, given the absence of concerning features or significant medical history. The treatment plan includes arranging for ambulatory heart rhythm monitoring to capture an episode and confirm the diagnosis. The patient was advised to seek urgent care if new symptoms such as fainting, severe chest pain, or significant shortness of breath develop. The patient expressed understanding and agreement with the plan and will follow up after monitoring results are available.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.508
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 142 words
+
 
 ## Processing Information
 

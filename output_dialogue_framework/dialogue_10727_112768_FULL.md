@@ -89,16 +89,21 @@ Let me know if you have questions or if anything changes with your symptoms.
 
 ## EHR Summary
 
-The patient is an 83-year-old male presenting with chest pain. He experienced chest pain beginning on [4-12], was found to have a myocardial infarction, and underwent cardiac catheterization revealing three vessel disease. His history includes chronic renal insufficiency, gastrointestinal bleed, hypertension, hypercholesterolemia, type 2 diabetes mellitus, benign prostatic hypertrophy, arthritis, gout, and a prior bleeding duodenal ulcer. On transfer, he was receiving captopril, levoxyl, aspirin, protonix, lipitor, glyburide, iron sulfate, lopressor, hydrochlorothiazide, nitroglycerin infusion, and heparin infusion. Physical findings and test results included a negative CT scan for GI pathology and guaiac positive stool with decreased hematocrit. The documented diagnosis was myocardial infarction with three vessel coronary artery disease. Treatment included continued nitroglycerin and heparin infusions preoperatively and elective coronary artery bypass grafting (CABG) times three. The patient was stable preoperatively and is currently awaiting a rehabilitation bed.
+The patient is an 83-year-old male presenting with chest pain. He was initially admitted for chest pain and diagnosed with a myocardial infarction, with cardiac catheterization revealing three-vessel coronary artery disease. His medical history includes hypertension, hypercholesterolemia, type 2 diabetes mellitus, benign prostatic hypertrophy, arthritis, gout, chronic renal insufficiency, and prior gastrointestinal bleeding. During hospitalization, he underwent elective coronary artery bypass grafting (CABG) times three and had an uneventful postoperative course, though his mobility was limited by gout. The documented diagnosis was myocardial infarction due to three-vessel coronary artery disease. Treatment included CABG surgery, nitroglycerin and heparin infusions preoperatively, and a postoperative regimen of Lopressor, Lasix, Kayciel, Colace, aspirin, Lipitor, glyburide, Levoxyl, Protonix, Percocet as needed, and insulin sliding scale. He was considered stable at discharge and was advised to follow up with his primary care physician in two weeks and his cardiologist in four weeks. Discharge was to a rehabilitation facility.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent chest pain, described as a noticeable pressure in the center of the chest, which began a few days ago. The chest pressure is not constant, occurs randomly without clear triggers, is uncomfortable but not severe enough to stop activity, and is not associated with lightheadedness, sweating, nausea, or shortness of breath. The patient also reported increased fatigue and limited mobility due to gout, and mentioned a recent drop in hematocrit and a positive stool test for blood. No other medical history, medications, or allergies were discussed. On assessment, the doctor noted the chest pressure was less likely to be an urgent cardiac issue given the absence of severe or exertional symptoms, but considered that anemia from possible gastrointestinal blood loss could contribute to the fatigue and mild chest discomfort. The doctor advised monitoring for any worsening symptoms such as increased chest pressure, prolonged episodes, or new symptoms like shortness of breath or faintness, and recommended staying hydrated and resting as needed. The doctor also suggested following up to investigate the source of gastrointestinal bleeding to help improve energy levels and potentially reduce chest pressure.
+The patient is an adult presenting with intermittent central chest pressure as the chief complaint. The chest discomfort began a few days ago, is described as a noticeable but not severe pressure in the center of the chest, occurs randomly without clear triggers, and is not associated with lightheadedness, sweating, or nausea. The patient also reports increased fatigue and has a history of decreased hematocrit and a positive stool test for blood, suggesting possible gastrointestinal blood loss; mobility is limited by gout. There is no reported shortness of breath. The clinical impression is that the chest pressure is less likely to be an urgent cardiac issue given the absence of severe or exertional symptoms, but may be related to anemia from blood loss. The treatment plan includes monitoring symptoms, maintaining hydration and rest, and following up to investigate and address the source of gastrointestinal bleeding. The patient was advised to seek prompt care if symptoms worsen or new concerning features develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.497
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

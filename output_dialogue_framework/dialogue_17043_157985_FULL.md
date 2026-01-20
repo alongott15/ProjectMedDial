@@ -100,3 +100,21 @@ Let me know if you have any questions about what we've discussed, or if there's 
 ## Processing Information
 
 - **Processing Time**: 414.3s
+
+## EHR Summary
+
+The patient is a 49-year-old woman presenting with acute onset left-sided numbness and tingling, followed by right upper quadrant numbness, difficulty holding objects, and progressive gait disturbance. Symptoms began at 4:45 p.m. on the day of admission and rapidly progressed to inability to walk. She has no significant past medical history, takes no regular medications, and reports a sulfa allergy causing rash. On evaluation, vital signs were stable and oxygen saturation was normal. Head CT revealed a 3.5-cm right-sided mass with hyperintense ring enhancement and mild edema. The documented clinical impression is a right-sided brain mass. Treatment details and specific recommendations are not documented in this note.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with numbness and tingling on the left side of the body as the chief complaint. Symptoms began gradually and have progressively worsened, now resulting in significant difficulty walking, decreased sensation and strength in the left arm, leg, and side of the abdomen, and inability to distinguish temperature on the affected side. The patient denies changes in speech, vision, or swallowing, and reports no recent injuries, illnesses, or new medications. The symptoms have led to increased dependence for daily activities such as getting out of bed and dressing. The clinical impression is that the pattern of progressive numbness and weakness suggests a neurological cause, possibly involving the nerves or spinal cord, rather than a muscle or joint issue; conditions such as multiple sclerosis or nerve compression were mentioned as possible etiologies. No definitive diagnosis was documented. The treatment plan includes arranging a neurological evaluation with possible imaging studies (such as MRI), avoiding activities that could lead to falls, and seeking prompt medical attention if new symptoms develop. The patient was advised to contact a neurologist soon and to monitor for any changes.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.623
+- **Model Used**: general
+- **Text1 Length**: 107 words
+- **Text2 Length**: 187 words
+

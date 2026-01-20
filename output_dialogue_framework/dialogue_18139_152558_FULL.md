@@ -87,16 +87,21 @@ For now, try to rest, stay hydrated, and keep track of any changes. If you have 
 
 ## EHR Summary
 
-The patient is an 87-year-old female admitted for evaluation of fever of unknown origin persisting for almost two months despite multiple courses of antibiotics and two prior unrevealing diagnostic workups. During hospitalization, she developed respiratory failure on [2183-9-22], requiring intubation and transfer to the Intensive Care Unit. She was started on antibiotics for presumed aspiration pneumonia. Her past medical history, medication list, and allergies are not specified in the note. After discussions with her family and health care proxy, her code status was changed to comfort measures only on [2183-9-25], and she was extubated. The patient was managed with a morphine drip for comfort. She subsequently expired on [2183-9-27].
+The patient is an 87-year-old female admitted for evaluation of fever of unknown origin, persisting despite two months of antibiotics and prior unrevealing diagnostic workups. She developed respiratory failure during hospitalization, requiring transfer to the Intensive Care Unit and intubation. The clinical impression was presumed aspiration pneumonia, for which she was started on antibiotics. Her past medical history, specific medications, and allergies are not specified in the note. After discussions with her family and health care proxy, her code status was changed to comfort measures only, and she was extubated. The patient was managed with a morphine drip for comfort. She subsequently expired on [2183-9-27].
+
 
 ## Dialogue Summary
 
-The patient presented with fever as the chief complaint. They reported that the fever began a few days ago, is intermittent rather than constant, and has been accompanied by new difficulty breathing, which occurs even at rest and does not improve with rest. The patient denied having a cough, sore throat, chest pain, chest tightness, swelling in the legs or ankles, recent weight gain, increased fatigue, weakness, or confusion. They measured their temperature at home but could not recall the exact value, only that it was elevated. No relevant medical history, medications, or allergies were mentioned. The doctor noted the presence of fever and resting dyspnea without other classic respiratory or cardiac symptoms and explained that these findings could indicate an infection affecting the lungs or airways, or possibly a heart-related issue, especially in older adults. The doctor recommended in-person evaluation soon due to the risk of worsening breathing difficulty and advised the patient to rest, stay hydrated, monitor for new symptoms (such as faintness, cyanosis, or worsening weakness), and have someone check in on them regularly.
+The patient is an older adult presenting with fever as the chief complaint. The fever began a few days ago, is intermittent, and has been measured at home but without a recorded temperature. The patient also reports new-onset dyspnea (shortness of breath) that occurs even at rest and does not improve with rest; there is no associated cough, sore throat, chest pain, swelling, or confusion. Relevant history regarding chronic medical conditions, medications, or allergies is not specified. The clinical impression discussed by the doctor is possible infection affecting the lungs or airways (such as pneumonia), though other causes like cardiac conditions are also considered. The treatment plan includes a recommendation for in-person evaluation soon due to the severity of dyspnea at rest and the presence of fever. The patient is advised to rest, stay hydrated, monitor for worsening symptoms (such as faintness, cyanosis, or increased weakness), and seek immediate care if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.691
+- **Model Used**: general
+- **Text1 Length**: 105 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

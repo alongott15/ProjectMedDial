@@ -89,16 +89,21 @@ Let me know if you've noticed anything that seems to trigger or worsen either th
 
 ## EHR Summary
 
-The patient is an 81-year-old male presenting with a ruptured pseudoaneurysm. He reported a pulsatile mass in his left groin following a recent cardiac catheterization on 2193-6-6. On examination, a pulsatile hematoma was noted in the left groin, and ultrasound confirmed a partially thrombosed left groin pseudoaneurysm with a 6 mm neck and a 2.3 cm round component containing active color flow. Laboratory results showed mild anemia (hemoglobin 8.8, hematocrit 27.3) but were otherwise unremarkable. The documented diagnosis was a left groin pseudoaneurysm. The patient underwent surgical repair of the pseudoaneurysm and remained stable postoperatively. On postoperative day 3, he experienced transient arm tightness reminiscent of prior cardiac ischemia, but EKG, cardiac enzymes, chest x-ray, and blood gases were all normal. The treatment plan included surgical repair and postoperative monitoring for cardiac symptoms.
+The patient is an 81-year-old male presenting with a ruptured pseudoaneurysm. He reported a pulsatile mass in his left groin following a recent cardiac catheterization, and physical examination revealed a pulsatile hematoma in the left groin. Laboratory studies and ultrasound confirmed a partially thrombosed left groin pseudoaneurysm with active color flow. His relevant history includes coronary artery disease (CAD) and recent cardiac ischemia. The documented diagnoses were ruptured pseudoaneurysm and CAD. He underwent surgical repair of the pseudoaneurysm and was monitored postoperatively, including evaluation for transient arm tightness suggestive of possible cardiac ischemia, though cardiac workup was negative. Discharge medications included aspirin, clopidogrel, atorvastatin, lisinopril, atenolol, isosorbide mononitrate, allopurinol, acetaminophen, levofloxacin, docusate sodium, nitroglycerin as needed, and a multivitamin. The patient was discharged in stable condition with instructions to keep the JP drain in place and follow up with his physician within one week.
+
 
 ## Dialogue Summary
 
-The patient presented with swelling in the left groin area causing discomfort. The swelling has gradually worsened over several days, accompanied by bruising around the groin and scrotum, moderate pain, and limited mobility, but without redness, warmth, or recent injury. The patient also reported ongoing pain in both forearms radiating to the elbows and limited shoulder movement, with no changes in strength or sensation, and occasional chest pain that feels different from usual. No urinary symptoms such as pain, difficulty starting, or blood in urine were noted. The doctor observed progressive swelling and bruising without clear trauma and assessed possible causes including hernia, blood vessel leak, or age-related tissue changes; infection was considered less likely due to absence of warmth or redness. Arm discomfort and shoulder stiffness were attributed to possible arthritis or muscle strain. The doctor advised monitoring for new symptoms such as increasing pain, fever, chills, or sudden leg weakness, and recommended gentle movement, elevation of the swollen area, and avoiding aggravating activities. No specific triggers for symptoms were identified by the patient.
+The patient is an adult presenting with swelling in the left groin area as the chief complaint. The swelling has gradually worsened over several days, is associated with moderate pain, bruising in the groin and scrotum, and is limiting mobility, especially walking and changing positions. There is no history of trauma, heavy lifting, or urinary symptoms, and no warmth or redness over the area. The patient also reports ongoing pain in both forearms radiating to the elbows and limited shoulder movement, but no changes in strength or sensation. The clinical impression includes possible causes for the groin swelling such as hernia, small blood vessel leak, or age-related tissue changes, with infection considered less likely due to absence of redness or warmth; arm discomfort may be due to arthritis or muscle strain. The treatment plan includes monitoring for new symptoms (such as increasing pain, fever, chills, or sudden leg weakness), gentle movement, elevation of the swollen area if possible, and avoiding aggravating activities. No specific triggers for symptoms were identified by the patient. The patient also mentioned occasional chest pain and persistent forearm pain radiating to the elbows.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.513
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 187 words
+
 
 ## Processing Information
 

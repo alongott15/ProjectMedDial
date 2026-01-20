@@ -96,3 +96,21 @@ Let me know if you've had any changes in how much you're drinking lately, or if 
 ## Processing Information
 
 - **Processing Time**: 432.9s
+
+## EHR Summary
+
+The patient is a 72-year-old female presenting with acute onset shortness of breath. She developed dyspnea and decreased responsiveness two hours prior to admission, requiring intubation for hypoxic respiratory failure; her initial exam showed unresponsiveness, pinpoint pupils, and respiratory distress. Her history includes hypertension, atrial fibrillation (on anticoagulation), cerebrovascular accident, spinal stenosis, GERD, and chronic knee pain; she has a penicillin allergy (rash). The documented diagnosis was hypoxic respiratory failure secondary to acute left lower lobe pneumonia. Treatment included intubation, mechanical ventilation, tracheostomy for prolonged respiratory failure, and antibiotics (initially ceftriaxone and azithromycin, later ceftazidime and levofloxacin for Pseudomonas coverage). She also received supportive care with fluids, dopamine for hypotension, and sedation as needed. Management of atrial fibrillation included metoprolol and a heparin drip, with plans to transition back to Coumadin after procedures. Her mental status improved with pneumonia treatment, and further workup for new infarction or seizure was negative.
+
+
+## Dialogue Summary
+
+The patient presents with a chief complaint of persistent thick mucus production requiring frequent clearance. Symptoms have been present for several days, are not triggered or alleviated by specific factors, and are significant enough to interfere with daily activities. The patient also reports decreased urine output, averaging around 30 cc per hour, but denies swelling, dyspnea, fever, or chills. No recent changes in fluid intake were noted, and there is no mention of relevant medical history, medications, or allergies. The clinical impression is that the symptoms may be related to mild irritations, allergies, or dehydration, with a less likely possibility of serious infection or lung disease given the absence of systemic symptoms. The treatment plan includes increasing hydration to help thin the mucus and improve urine output, and monitoring for new symptoms such as swelling, shortness of breath, or confusion. The patient also mentioned an itchy rash on the abdomen at the end of the visit. Further evaluation of the rash was not documented in this dialogue.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.423
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 167 words
+

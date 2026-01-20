@@ -89,16 +89,21 @@ Let me know if you have questions about any of these options, or if you’d like
 
 ## EHR Summary
 
-The patient is a 48-year-old female presenting with chronic discomfort and pain due to very large uterine fibroids extending up to the umbilical level. She reported significant pain with bending and movement, and had begun experiencing hot flashes; her FSH level of 39 units indicated perimenopausal status. Her past medical history includes a seizure disorder (last seizure in 2106, on Dilantin 100 mg PO BID) and environmental allergies treated with daily Zyrtec. On physical examination and imaging, the uterus was noted to be significantly enlarged. The documented diagnosis was symptomatic uterine fibroids with perimenopausal symptoms. She underwent a supracervical hysterectomy, bilateral salpingo-oophorectomy, and evaluation of the left ureter for patency, which was confirmed intraoperatively. The surgical procedure was completed without reported complications, and final pathology results were pending at discharge.
+The patient is a 48-year-old female presenting with chronic discomfort and pain due to very large uterine fibroids extending to the umbilical level. She reported significant pain with bending and movement, and had begun experiencing hot flashes; her FSH level of 39 units indicated perimenopausal status. Her past medical history includes a seizure disorder (last seizure in 2106) managed with Dilantin, and environmental allergies treated with Zyrtec. The documented diagnosis was symptomatic uterine fibroids, status post supracervical hysterectomy, bilateral salpingo-oophorectomy, and evaluation/repair of the left ureter. Postoperatively, she experienced mild ileus that resolved by day four, and her pain was controlled with Motrin and occasional Percocet. She received perioperative antibiotics, blood transfusion, DVT prophylaxis, and adjustments to her Dilantin dosing. At discharge, her bowel and bladder function had returned to normal, and she was prescribed Protonix, Dilantin, Zyrtec, Motrin, Percocet, Niferex, and a multivitamin with iron (to be started after bowel function fully returns). Follow-up appointments were arranged for staple removal, urology evaluation, Dilantin management, and primary care.
+
 
 ## Dialogue Summary
 
-The patient presented with ongoing discomfort and pain due to an enlarged uterus from fibroids, which makes daily movement more difficult. She described the pain as a mostly dull ache, rated around 6 out of 10 on most days, worsening with bending or increased activity, and noted that the discomfort is persistent and located low in the abdomen, spread out rather than localized. She reported no changes in her periods (no heavier bleeding or irregular cycles), no bloating, appetite changes, or increased urination, but did mention experiencing hot flashes. The discomfort has slowly worsened over time, especially with movement, and she now avoids tasks like bending down or lifting due to the pain. No other relevant medical history, medications, or allergies were discussed. The doctor assessed that the consistent discomfort is likely due to pressure from the fibroids on surrounding tissues and muscles, with no signs of other complications at present. The doctor recommended gentle stretching, avoiding heavy lifting, applying heat to the lower abdomen, and considering over-the-counter pain relievers if appropriate; maintaining a healthy weight and staying active within comfort limits was also advised. If symptoms worsen or interfere more with daily life, further treatment options such as medications to shrink fibroids or surgical procedures could be considered.
+The patient is a woman presenting with ongoing discomfort and pain due to an enlarged uterus from fibroids. She describes the pain as a dull ache, rated 6 out of 10 on most days, which worsens with bending or increased activity and is primarily located low in the abdomen and spread out. The discomfort has been present for an extended period and has gradually worsened over time, impacting her ability to bend or lift objects. She denies changes in menstrual bleeding, irregular cycles, bloating, appetite changes, or increased urinary frequency, but reports experiencing hot flashes. There is no mention of relevant medical history, medications, or allergies. The documented clinical impression is that her symptoms are consistent with discomfort from uterine fibroids. The treatment plan includes recommendations for gentle stretching, avoiding heavy lifting, applying heat to the lower abdomen, and considering over-the-counter pain relievers if appropriate. Additional options such as medications to shrink fibroids or surgical procedures were mentioned for future consideration if symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.608
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

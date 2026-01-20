@@ -89,16 +89,21 @@ Does that make sense? Is there anything else about your daily life that’s been
 
 ## EHR Summary
 
-The patient is a 73-year-old male presenting with chest pain. He experienced substernal chest pain radiating to the left arm while working on his boat, which persisted for 20 minutes and was not relieved by Tums; nitroglycerin provided relief for the chest pain, but left arm discomfort continued. In the weeks prior, he reported indigestion symptoms unresponsive to antacids. He denied shortness of breath, nausea, vomiting, diaphoresis, fevers, chills, or sweats. On arrival, ST elevations were noted on electrocardiogram, and he remained hemodynamically stable with a hematocrit of 40. Cardiac catheterization revealed significant coronary artery disease, including 60–90% stenoses in the left anterior descending artery, 80% stenosis in the left circumflex, total occlusion of obtuse marginal two and the right coronary artery, and 90% stenosis in obtuse marginal three. The documented diagnosis was acute myocardial infarction with multivessel coronary artery disease. He was treated initially with aspirin and nitroglycerin and then transferred for emergent coronary artery bypass grafting.
+The patient is a 73-year-old male presenting with chest pain. He experienced substernal chest pain radiating to the left arm, preceded by weeks of indigestion unrelieved by Tums, and had persistent pain for 20 minutes while working on his boat, prompting him to call 911. On arrival, ST elevations were noted on ECG, and his pain was relieved with nitroglycerin; he denied dyspnea, nausea, vomiting, or diaphoresis. His past medical and surgical history was negative, and he had no known drug allergies. Cardiac catheterization revealed significant multi-vessel coronary artery disease, and he underwent emergent coronary artery bypass grafting times three. The documented diagnosis was coronary artery disease, status post coronary artery bypass grafting. Postoperatively, he had a brief episode of asymptomatic ventricular tachycardia that resolved spontaneously, and his recovery was otherwise stable. At discharge, he was prescribed Lasix, potassium chloride, aspirin, Lopressor, Niferex, Colace, Tylenol, and Advil, and instructed to follow up with his surgeons and primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with new episodes of confusion. The confusion has made it harder for the patient to keep track of their schedule and daily tasks, and is accompanied by occasional agitation; both symptoms began a few days ago, fluctuate throughout the day without clear triggers, and have remained stable since onset. The patient denied changes in sleep, headaches, vision changes, or starting any new medications. No physical findings were described during the visit. The doctor assessed that the patient is experiencing mild, new confusion and agitation, possibly related to factors such as infection, dehydration, metabolic changes, stress, or minor illness, but noted that symptoms are not severe at this time. The doctor advised the patient to monitor for worsening symptoms (such as increasing confusion, difficulty recognizing people or places, trouble speaking, weakness, fever, or inability to care for self), maintain hydration and regular meals, keep a routine, and have someone check in regularly if possible. The patient was instructed to report any worsening or persistence of symptoms over the next few days.
+The patient presents with new-onset confusion as the chief complaint. The confusion has been present for a few days, is intermittent throughout the day, and is accompanied by mild agitation but no headaches, vision changes, or sleep disturbances. The patient reports difficulty keeping track of their schedule but is still able to manage most daily activities; there have been no recent medication changes. The clinical impression is new, mild cognitive changes without acute severe features. The physician discussed possible causes such as infection, dehydration, metabolic changes, stress, or minor illness. The treatment plan includes monitoring for worsening symptoms, maintaining hydration and nutrition, keeping a regular routine, and having someone check in regularly. The patient was advised to seek prompt attention if confusion worsens or if additional symptoms such as fever, weakness, or inability to care for self develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.925
-- **Similarity Label**: N/A
+- **STS Score**: 0.323
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 138 words
+
 
 ## Processing Information
 

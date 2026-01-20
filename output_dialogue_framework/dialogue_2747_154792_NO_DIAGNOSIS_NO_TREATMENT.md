@@ -87,16 +87,21 @@ Does this make sense, or is there anything else you'd like to discuss or clarify
 
 ## EHR Summary
 
-The patient is a 51-year-old male presenting for evaluation of aortic regurgitation and ascending aortic dilation. He reports shortness of breath with heavy exertion over the past several years, but denies dyspnea with stair climbing or walking and has no chest pain. His history includes congenital aortic stenosis repaired at age 12, a 40-pack-year smoking history, and prior vasectomy; he has no known drug allergies. Physical examination revealed a grade 3/6 systolic ejection murmur with otherwise unremarkable findings. Echocardiogram showed moderate aortic regurgitation, mild aortic stenosis, and marked dilation of the ascending aorta. The documented diagnoses were aortic regurgitation and ascending aortic dilation, status post aortic valve replacement and ascending aorta replacement with coronary artery reimplantation. Treatment included cardiac catheterization followed by surgical replacement of the aortic valve and ascending aorta with coronary artery reimplantation.
+The patient is a 51-year-old male presenting for management of aortic regurgitation and ascending aortic dilation. He reported shortness of breath with heavy exertion for several years but denied dyspnea with stair climbing or walking and had no chest pain. His history includes congenital aortic stenosis repaired at age 12, a 40-pack-year smoking history, and no known drug allergies. Echocardiogram and cardiac catheterization revealed significant aortic regurgitation, mild aortic stenosis, and a markedly dilated ascending aorta. The documented diagnoses were aortic regurgitation, ascending aortic dilation, and status post aortic valve and ascending aorta replacement with coronary artery reimplantation. He underwent redo aortic valve replacement and ascending aorta replacement with coronary artery reimplantation, tolerated the procedure well, and had an uncomplicated postoperative course aside from a brief episode of rapid atrial fibrillation that resolved spontaneously. At discharge, he was stable, in good condition, and prescribed medications including Colace, aspirin, Tylenol, Percocet, captopril, Lopressor, and trazodone. He was advised to follow a cardiac diet and follow up with his cardiologist and surgeon as scheduled.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath occurring during heavy exertion. Symptoms included difficulty catching breath only with strenuous activity, without associated dizziness, lightheadedness, chest pain, wheezing, or coughing; the symptom has been present for at least a couple of weeks and does not affect daily activities. The patient reported a prior brief episode of rapid atrial fibrillation but denied recent palpitations or irregular heartbeats, and noted that the episode seemed to occur spontaneously. No other relevant medical history, medications, or allergies were discussed. On clinical review, there were no concerning findings such as chest discomfort, cough, or dizziness. The doctor assessed that the exertional shortness of breath is likely benign and may be related to age-related changes or the history of atrial fibrillation, but advised monitoring for new symptoms. Recommendations included gradually increasing activity level as tolerated, staying hydrated, avoiding excessive caffeine or alcohol, and seeking follow-up if symptoms worsen or new issues arise. The patient expressed understanding and agreed to monitor for any changes.
+The patient presents with exertional dyspnea as the chief complaint. The shortness of breath occurs only with heavy exertion and has been present for at least a couple of weeks; it does not occur with lighter activities such as walking or climbing stairs and is not associated with chest pain, dizziness, wheezing, or cough. The patient has a history of a brief episode of rapid atrial fibrillation but has not experienced recent palpitations or irregular heartbeats. The episode of rapid heartbeats appeared to occur spontaneously without identifiable triggers. The patient's daily activities are not significantly affected by the symptoms. The clinical impression is that the exertional dyspnea is likely benign and may be related to age-related changes or prior atrial fibrillation, but ongoing monitoring is advised. The treatment plan includes monitoring for new symptoms such as chest discomfort, fainting, or leg swelling, gradually increasing activity as tolerated, staying hydrated, and avoiding excessive caffeine or alcohol. The patient was advised to follow up if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.566
+- **Model Used**: general
+- **Text1 Length**: 172 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

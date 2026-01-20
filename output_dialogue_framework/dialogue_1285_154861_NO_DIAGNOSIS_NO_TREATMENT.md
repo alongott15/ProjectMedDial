@@ -87,16 +87,23 @@ Let me know if you have any questions or concerns about what we've discussed.
 
 ## EHR Summary
 
-The patient is a 55-year-old woman presenting with right supraorbital headaches and diplopia since December 30, 2170. Headaches prompted an MRI, which revealed an aneurysm, and her past medical history includes hypertension. On physical examination, she was in no acute distress with normal HEENT and neurological findings. Angiography identified a dysplastic left MCA trunk with two micro-aneurysms not amenable to therapy and a large right cavernous ICA aneurysm. The documented diagnosis was a right cavernous internal carotid artery aneurysm. She underwent successful GDC coil embolization of the cavernous ICA aneurysm without complications. At discharge, she was stable and alert, prescribed Lopressor 50 mg daily, and advised to follow up in two to three weeks.
+The patient is a 55-year-old woman presenting with right supraorbital headaches and diplopia since December 30, 2170. Headaches prompted an MRI, which revealed an aneurysm, and subsequent angiography identified a dysplastic left MCA trunk with two micro-aneurysms and a large right cavernous ICA aneurysm. Her past medical history includes hypertension, and she is taking Lopressor 50 mg daily. The documented diagnosis was a large right cavernous internal carotid artery aneurysm. She underwent successful GDC coil embolization of the cavernous ICA aneurysm without complications. Postoperatively, she remained stable, alert, and oriented, with normal neurological and physical examination findings. The patient was discharged home in stable condition with instructions for follow-up in two to three weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with headaches, primarily located above the right eye. The headaches began a few days ago and have been occurring intermittently throughout the day, described as a moderate, dull ache that is distracting but does not prevent daily activities. The patient also reported episodes of double vision associated with the headache, which resolve when one eye is closed; no specific triggers or worsening factors were identified, and there is no prior history of similar symptoms. No other neurological symptoms such as weakness, numbness, or speech difficulties were mentioned. The doctor noted that the combination of new-onset dull headache and intermittent double vision could be related to the nerves or muscles controlling eye movement, and considered sinus pressure or eye strain as possible causes, but emphasized the significance of new double vision. The doctor advised resting the eyes periodically, avoiding prolonged screen time, staying hydrated, and using over-the-counter pain relief for mild discomfort. The patient was instructed to seek prompt medical attention if symptoms worsen or new neurological symptoms develop, and to follow up if symptoms persist beyond a few days.
+The patient is an adult presenting with a chief complaint of headaches, primarily located above the right eye. The headaches began a few days ago and occur intermittently throughout the day, described as a moderate, dull ache that is distracting but does not prevent daily activities. The patient also reports new-onset episodes of double vision associated with the headache, which resolve when one eye is closed; there are no prior similar episodes, and no specific triggers have been identified. There is no history of previous headaches or double vision.
+
+The clinical impression is that the symptoms may be related to the nerves or muscles controlling eye movement, with possible contributions from sinus pressure or eye strain, but no definitive diagnosis was documented. The treatment plan includes conservative measures such as resting the eyes periodically, avoiding prolonged screen time, staying hydrated, and using over-the-counter pain relief for mild discomfort. The patient was advised to seek prompt medical attention if symptoms worsen or if new neurological symptoms develop. Continued monitoring of symptoms and follow-up if they persist or deteriorate was recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.454
+- **Model Used**: general
+- **Text1 Length**: 114 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

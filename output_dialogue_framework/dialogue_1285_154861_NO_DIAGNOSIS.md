@@ -100,3 +100,21 @@ Let me know if you'd like advice on managing discomfort at home, or if you have 
 ## Processing Information
 
 - **Processing Time**: 417.8s
+
+## EHR Summary
+
+The patient is a 55-year-old woman presenting with right supraorbital headaches and diplopia since December 30, 2170. Headaches prompted an MRI, which revealed an aneurysm, and subsequent angiography identified a dysplastic left MCA trunk with two micro-aneurysms and a large right cavernous ICA aneurysm. Her past medical history includes hypertension, and she takes Lopressor 50 mg daily. On examination, she was in no acute distress with normal neurological and systemic findings. The documented diagnosis was a large right cavernous ICA aneurysm. She underwent successful GDC coil embolization of the aneurysm without complications. The patient was discharged home in stable condition with instructions for follow-up in two to three weeks.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with a chief complaint of headaches located above the right eye. The headaches have been occurring intermittently for a few days and are described as a dull ache with a severity of 6 out of 10, accompanied by episodes of double vision but no blurriness. The patient reports no associated symptoms such as nausea, sensitivity to light, balance problems, eyelid drooping, or weakness. This is the first occurrence of both symptoms together, and no specific triggers have been identified. Relevant medical history, medications, and allergies are not specified. The clinical impression is that while the symptoms are not immediately concerning due to the absence of neurological deficits, new-onset double vision with headache warrants further observation. The treatment plan includes monitoring the frequency and characteristics of the episodes, seeking prompt medical attention if symptoms worsen (such as persistent double vision, eyelid drooping, weakness, or severe pain), and using rest and over-the-counter pain relief for symptom management. The patient was advised to keep a symptom diary and to reach out with any questions or for additional home management advice.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.390
+- **Model Used**: general
+- **Text1 Length**: 109 words
+- **Text2 Length**: 183 words
+

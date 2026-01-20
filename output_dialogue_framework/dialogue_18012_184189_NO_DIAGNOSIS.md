@@ -71,16 +71,21 @@
 
 ## EHR Summary
 
-The patient is an 81-year-old man presenting with acute chest pain. He experienced a sharp, band-like pain across his chest at rest, rated 6/10, radiating from right to left, similar to previous angina episodes but refractory to sublingual nitroglycerin; he also reported diaphoresis but denied nausea, vomiting, or dyspnea. His history includes coronary artery disease, prior CABG (LIMA to LAD, SVG to PDA and diag-1), PCI with stent placement, and hypertension. On arrival at the outside hospital, ECG showed ST elevations in the inferior leads and ST depressions in the precordial leads. Cardiac catheterization revealed a 100% occluded native RCA and SVG to PDA graft, with successful ballooning and stenting of an OM-2 lesion. The documented diagnosis was acute coronary syndrome due to coronary artery disease. Treatment included aspirin, beta blocker, IV nitroglycerin, heparin, Aggrestat, and percutaneous coronary intervention with stent placement. The patient was monitored in the CCU following intervention.
+The patient is an 81-year-old man presenting with acute chest pain at rest during church. The pain was described as sharp, band-like, radiating across the chest from right to left, rated 6/10, similar to prior angina but refractory to sublingual Nitroglycerin; he also experienced diaphoresis but denied nausea, vomiting, dyspnea, or palpitations. His past medical history includes coronary artery disease with prior CABG and PCI, hypertension, hyperlipidemia, and obesity; he takes sublingual Nitroglycerin, Imdur, Toprol XL, Lescol, Aspirin, and Nifedipine. On admission, ECG showed ST elevations in inferior leads and ST depressions in precordial leads. Cardiac catheterization revealed 100% occlusion of the native RCA and SVG to PDA graft, with successful stenting of an OM-2 lesion. The documented diagnosis was acute coronary syndrome due to graft and native vessel occlusion. Treatment included aspirin, beta blocker, IV Nitroglycerin, heparin, Aggrestat, and percutaneous coronary intervention with stent placement. The patient was monitored in the CCU following the procedure.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain. The pain began earlier today, occurs in episodes lasting a few minutes, is described as sharp and band-like across the chest, and radiates from the right to the left side. The patient rated the pain as 7 out of 10 at its worst and reported associated sweating but denied shortness of breath or lightheadedness. The pain occurred while the patient was at rest, without any physical activity as a trigger. Relevant history includes coronary artery disease with prior bypass surgery and stent placement; the patient noted the current pain is reminiscent of previous cardiac symptoms and denied any known lung conditions. No specific clinical findings were documented by the doctor during this encounter. The doctor did not provide an explicit assessment or treatment plan within the dialogue provided.
+The patient is an adult with a history of coronary artery disease, prior bypass surgery, and stent placement presenting with chest pain. The pain began earlier today, is described as sharp and band-like across the chest, radiates from the right to the left side, and each episode lasts a few minutes. The pain occurs at rest, is rated 7 out of 10 in severity, and is associated with sweating but not with dyspnea or lightheadedness. The patient reports that the pain is reminiscent of previous cardiac symptoms. No specific triggers or relieving factors were identified. There is no documented diagnosis or treatment plan in the dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.647
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 106 words
+
 
 ## Processing Information
 

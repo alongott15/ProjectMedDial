@@ -87,16 +87,23 @@ Let me know if you have any questions about what we’ve discussed or if there�
 
 ## EHR Summary
 
-The patient is a 68-year-old male presenting with melena and lightheadedness. He reported awakening with lightheadedness and dyspnea, followed by a melanotic bowel movement; he denied chest pain, abdominal pain, nausea, vomiting, hemoptysis, hematemesis, or hematuria. His past medical history includes dyslipidemia and a previous gastric ulcer, and he has been taking naprosyn for shoulder pain. On exam, vital signs were notable for blood pressure 152/49 and heart rate 96; abdominal exam was benign. NG lavage returned blood-tinged fluid that cleared after 750 cc, stool was hemoccult positive, and hematocrit was 30. The clinical impression was gastrointestinal bleeding, likely related to peptic ulcer disease. He was started on intravenous proton pump inhibitor therapy and admitted for endoscopic evaluation (EGD).
+The patient is a 68-year-old male presenting with melena and lightheadedness. He reported awakening with lightheadedness and dyspnea, followed by a melanotic bowel movement; he denied chest pain, abdominal pain, nausea, vomiting, hemoptysis, hematemesis, or hematuria. His past medical history includes dyslipidemia and a remote history of gastric ulcer, and he had been taking naprosyn for shoulder pain. On admission, laboratory studies showed anemia (hematocrit as low as 24.4), and nasogastric lavage returned blood-tinged fluid. The documented diagnosis was duodenal ulcer with bleeding and blood loss anemia. Treatment included intravenous proton pump inhibitor (PPI), two units of packed red blood cell transfusions, and esophagogastroduodenoscopy (EGD) which revealed a non-bleeding duodenal ulcer and erosions. He was discharged in good condition on oral pantoprazole and instructed to avoid NSAIDs.
+
 
 ## Dialogue Summary
 
-The patient presented with black stools as the chief complaint. They reported associated symptoms of lightheadedness, increased shortness of breath with activity, and difficulty performing usual activities such as walking around the house; these symptoms began around the same time as the black stools and have persisted daily for several days without improvement. The patient denied any stomach pain or changes in appetite but noted that the stools were sticky and had a stronger odor than usual. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor explained that the combination of black, sticky stools and lightheadedness with exertion suggests possible slow gastrointestinal bleeding, potentially leading to lower blood levels and reduced oxygen delivery. The doctor recommended prompt evaluation by the patient’s healthcare provider, including possible blood tests and gastrointestinal examination. The patient was advised to rest, avoid strenuous activity, and monitor for warning signs such as fainting, rapid heartbeat, vomiting blood, or severe weakness, seeking immediate medical attention if these occur. The patient understood the recommendations and agreed to follow up with their provider.
+The patient is an adult presenting with black stools as the chief complaint. Over the past several days, they have experienced daily black, sticky stools with a strong odor, accompanied by lightheadedness and exertional shortness of breath, making daily activities more difficult. The patient denies abdominal pain or changes in appetite, and reports that symptoms have remained stable without improvement or worsening. There is no mention of relevant medical history, medications, or allergies in the dialogue.
+
+The clinician’s assessment is that the combination of black, sticky stools and lightheadedness suggests possible slow gastrointestinal bleeding, likely from an upper GI source. The patient was advised to promptly contact their healthcare provider for further evaluation, including possible blood tests and GI investigation. Additional recommendations included monitoring for warning signs such as fainting, rapid heartbeat, vomiting blood, or severe weakness, and seeking immediate medical attention if these occur. The patient was also advised to rest and avoid strenuous activity until further evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.557
+- **Model Used**: general
+- **Text1 Length**: 127 words
+- **Text2 Length**: 159 words
+
 
 ## Processing Information
 

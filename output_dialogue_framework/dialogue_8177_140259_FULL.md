@@ -87,16 +87,23 @@ Let me know if you have any questions or concerns about what we discussed.
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with progressive dyspnea on exertion. He reported worsening shortness of breath, dyspnea on exertion, and belching since January, with one episode of shortness of breath and left arm pain relieved by sublingual nitroglycerine. His history includes coronary artery disease with prior LAD stents, aortic stenosis, insulin-dependent diabetes, hypertension, hyperlipidemia, obesity, and benign prostatic hypertrophy; he has no known drug allergies. Cardiac catheterization revealed 70% in-stent restenosis of the LAD, aortic valve area of 1.1 cm², and an ejection fraction of 48%. On admission, he underwent coronary artery bypass grafting (CABG) x1 and aortic valve replacement. Postoperatively, his course was complicated by an apical pneumothorax requiring chest tube reinsertion. Laboratory findings included mild anemia (Hgb 8.9), elevated WBC (11.8), hyperglycemia (glucose 239), and mild hyperkalemia (K 5.2). The documented diagnoses were coronary artery disease with in-stent restenosis and aortic stenosis; treatment included surgical intervention and management of postoperative complications.
+The patient is a 62-year-old male presenting with progressive dyspnea on exertion. He reported worsening shortness of breath, dyspnea on exertion, and belching since January, with one episode of shortness of breath and left arm pain relieved by sublingual nitroglycerine. His history includes coronary artery disease with prior LAD stents, aortic stenosis, insulin-dependent diabetes, hypertension, hyperlipidemia, obesity, and benign prostatic hypertrophy; he has no known drug allergies. Cardiac catheterization revealed 70% in-stent restenosis of the LAD and aortic valve area of 1.1 cm² with an ejection fraction of 48%. The documented diagnoses were aortic stenosis and coronary artery disease. He underwent coronary artery bypass grafting (CABG) x1 and aortic valve replacement, complicated postoperatively by a persistent apical pneumothorax requiring chest tube management. At discharge, he was stable and prescribed medications including aspirin, simvastatin, glyburide-metformin, metoprolol, furosemide, potassium chloride, and others. Discharge instructions included wound care, activity restrictions, medication adherence, and follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with progressive shortness of breath during activity. Symptoms included increasing difficulty catching breath over several weeks, worsened by exertion such as walking up stairs or running errands, and requiring more frequent rest and avoidance of certain activities. The patient also reported aching or pressure-like pain radiating down the left arm that coincided with episodes of shortness of breath, as well as belching; no cough, leg swelling, dizziness, sweating, or palpitations were noted. No relevant medical history, medications, or allergies were mentioned. The doctor noted the gradual worsening of exertional dyspnea and associated arm discomfort, expressing concern for possible cardiac or pulmonary involvement. The assessment was that these symptoms could be related to heart strain or other causes such as acid reflux, but heart involvement was considered given the arm pain and pressure. The doctor recommended prompt in-person evaluation by the patient's healthcare provider, advised avoiding strenuous activity and resting as needed, and instructed the patient to seek emergency care if severe chest pain, sudden shortness of breath at rest, fainting, or sweating occurred.
+The patient is an adult presenting with progressive shortness of breath on exertion as the chief complaint. Symptoms have worsened over several weeks and now limit activities such as walking up stairs and running errands; the patient reports needing to rest more often and avoiding certain activities. Associated symptoms include aching or pressure-like pain radiating down the left arm, which occurs concurrently with dyspnea, and occasional belching; there is no cough, leg swelling, dizziness, sweating, or palpitations. Relevant medical history, medications, and allergies are not specified.
+
+The clinical impression is that the combination of exertional dyspnea and left arm discomfort raises concern for possible cardiac involvement, though other causes such as pulmonary or gastrointestinal issues are also considered. No definitive diagnosis was documented during the encounter. The treatment plan includes a recommendation for prompt in-person evaluation by the patient's healthcare provider and instructions to seek emergency care if severe chest pain, sudden shortness of breath at rest, fainting, or sweating develop. The patient is also advised to avoid strenuous activity and rest as needed until further evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.580
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 177 words
+
 
 ## Processing Information
 

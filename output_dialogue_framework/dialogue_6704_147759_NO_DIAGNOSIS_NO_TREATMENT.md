@@ -87,16 +87,21 @@ Let me know if you have any questions about managing these symptoms at home or i
 
 ## EHR Summary
 
-The patient is a 74-year-old male presenting with a chief complaint of three days of nausea, vomiting, dizziness, mild frontal headache, and mild lightheadedness. Symptoms included progressive unsteadiness of gait, increased vomiting (three times on the day of admission), and mild photophobia, without vertigo or other systemic complaints such as chest pain or shortness of breath. Relevant history includes renal cell carcinoma with lung metastases, prior left nephrectomy, polycythemia, glaucoma, and a rash; current medications are multivitamins, ibuprofen, and cyclobenzaprine, with an allergy to Benadryl. On physical exam, vital signs showed hypothermia (95.5°F), hypertension (195/97), and mild hypoxemia (O2 saturation 93% on room air); the patient was alert and oriented but kept a towel over his eyes due to photophobia and headache, with otherwise normal neurological and systemic findings. No explicit diagnosis was documented in the note. Treatment or specific recommendations were not detailed in the provided text.
+The patient is a 74-year-old male presenting with a three-day history of nausea, vomiting, dizziness, mild frontal headache, lightheadedness, progressive unsteadiness of gait, and mild photophobia. Symptoms included increased vomiting (three times on the day of admission) and worsening gait instability, but no vertigo, chest pain, shortness of breath, or abdominal complaints. Relevant history includes renal cell carcinoma with lung metastases, prior left nephrectomy, polycythemia, glaucoma, and a rash; medications on admission were multivitamins, ibuprofen, and cyclobenzaprine, with an allergy to Benadryl. Imaging revealed a 2.5–3 cm midline cerebellar lesion with possible early fourth ventricle compression but no hydrocephalus. The clinical impression was cerebellar tumor with associated symptoms. The patient underwent suboccipital craniotomy for tumor resection without complications and was managed postoperatively with blood pressure control (Nipride, then oral Lopressor and Vasotec) and Decadron. At discharge, he was stable, neurologically intact, and referred for rehabilitation and follow-up in the brain tumor clinic.
+
 
 ## Dialogue Summary
 
-The patient presented with nausea that has been ongoing for a couple of days, making it difficult to keep food and fluids down. Symptoms include intermittent nausea throughout the day, occasional small-volume vomiting without blood or dark color, mild dizziness described as lightheadedness and feeling unsteady, and a mild frontal headache. The patient reported reduced ability to eat and drink, increased thirst, and possibly decreased urination, but is still able to manage most daily activities. No history of fainting, severe dizziness, or abnormal vomit was noted. The doctor assessed that these symptoms are likely due to a mild stomach virus or a reaction to something eaten, with dehydration being a concern due to difficulty keeping fluids down. The doctor recommended sipping small amounts of clear fluids frequently and avoiding large quantities at once, as well as monitoring for worsening symptoms such as decreased urination, severe weakness, confusion, blood in vomit, or inability to walk safely. The patient understood the advice and agreed to monitor symptoms and seek further care if needed.
+The patient is an adult presenting with nausea as the chief complaint. Symptoms include intermittent nausea for a couple of days, a few episodes of small-volume vomiting without blood or dark color, mild dizziness described as lightheadedness with some unsteadiness, and a mild frontal headache. The patient reports difficulty eating and drinking, mild thirst, and decreased urination, suggesting possible mild dehydration. There is no history of fainting, severe headache, or abnormal vomit appearance. The clinical impression is likely a mild gastrointestinal illness (such as a stomach virus or food reaction) with associated dehydration. The treatment plan includes sipping small amounts of clear fluids frequently to maintain hydration, avoiding large volumes at once, and monitoring for worsening symptoms such as inability to urinate, severe weakness, confusion, blood in vomit, or increased dizziness. The patient was advised to seek medical attention if these concerning signs develop and to practice gentle self-care and rest.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.453
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

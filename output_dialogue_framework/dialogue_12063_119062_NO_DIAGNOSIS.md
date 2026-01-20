@@ -85,16 +85,21 @@ Let me ask: when you lie down at night, does your breathing feel any different, 
 
 ## EHR Summary
 
-The patient is a 52-year-old female presenting with shortness of breath on exertion and chest pain over the past year. Symptoms were associated with moderate aortic stenosis confirmed by cardiac catheterization, with an ejection fraction of 77% and an A-V gradient of 39 mmHg. Relevant history includes aortic stenosis on echocardiogram, hyperlipidemia, and prior cesarean section. Home medications included Prempro, atenolol, Fortaz XT, and aspirin. On physical exam, she had a regular heart rate and rhythm, normal sinus, and a clean, dry surgical incision. The documented diagnosis was moderate aortic stenosis. She underwent a Bentall procedure and recovered well postoperatively, with stable vital signs at discharge. Discharge medications included Lopressor, Lasix (for five days), potassium supplement, aspirin, and Prempro, and she was advised to follow up in three to four weeks.
+The patient is a 52-year-old female presenting with shortness of breath on exertion and chest pain over the past year. Symptoms were associated with moderate aortic stenosis, as confirmed by cardiac catheterization, with an ejection fraction of 77% and an A-V gradient of 39 mmHg. Relevant history includes aortic stenosis on echocardiogram, hyperlipidemia, and prior cesarean section. The documented diagnosis was moderate aortic stenosis. She underwent a Bentall procedure on admission. Postoperatively, the patient recovered well, was extubated, weaned off drips, had her chest tube removed, and was able to ambulate and climb stairs prior to discharge. Discharge medications included Lopressor, Lasix (for five days), potassium supplement, aspirin, and Prempro. She was advised to follow up with her physician in three to four weeks and declined home nursing care.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath during activity. Symptoms included exertional shortness of breath described as difficulty getting enough air, and chest pain that occurs with physical activity such as climbing stairs or carrying groceries; both symptoms resolve within a few minutes of rest and have been present for several days, becoming more noticeable recently. The patient denied cough, wheezing, swelling in the ankles or legs, or changes in breathing when lying down or at night. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the symptoms are triggered by exertion and improve quickly with rest, and explained that these features make cardiac causes important to consider, while the absence of other symptoms makes some causes less likely. The doctor recommended avoiding strenuous activity until further evaluation and advised seeking immediate care if new symptoms such as persistent pain, pain radiating to the arm or jaw, severe dizziness, or sweating develop. The patient understood and agreed to follow these recommendations.
+The patient is an adult presenting with exertional shortness of breath and chest pain as the chief complaint. Symptoms occur primarily during physical activity such as climbing stairs, carrying groceries, or even light exertion, and are characterized by a sensation of not getting enough air and chest discomfort; both symptoms resolve within a few minutes of rest. The patient denies cough, wheezing, lower extremity swelling, or orthopnea, and reports no symptoms at rest or during the night. Relevant medical history, medications, and allergies are not specified in the dialogue. The clinical impression is that the symptoms may be related to cardiac causes, given the exertional chest discomfort and dyspnea, though pulmonary and anxiety-related causes are also considered less likely due to the absence of other symptoms. The doctor advised the patient to avoid strenuous activity until further evaluation and to seek immediate care if symptoms worsen or new warning signs develop (such as persistent pain, pain radiating to the arm or jaw, severe dizziness, or sweating). No specific diagnosis or medication was documented at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.501
+- **Model Used**: general
+- **Text1 Length**: 129 words
+- **Text2 Length**: 176 words
+
 
 ## Processing Information
 

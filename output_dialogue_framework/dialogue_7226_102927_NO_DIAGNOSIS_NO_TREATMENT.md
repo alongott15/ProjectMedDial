@@ -97,16 +97,21 @@ Let me know if you have any questions about what to expect or how to monitor you
 
 ## EHR Summary
 
-The patient is a 70-year-old male admitted for an elective coronary artery bypass grafting (CABG) times two. He had no acute symptoms on admission and was in no distress, with a benign physical exam. His past medical history includes hypercholesterolemia, benign prostatic hyperplasia, rheumatic fever, renal stones, hiatal hernia, and rheumatoid arthritis; he takes Toprol, Plaquenil, Terazosin, iron, aspirin, simvastatin, and hydrochlorothiazide. Postoperatively, he initially recovered well but developed rapid atrial fibrillation on postoperative day three, which was treated with Lopressor and Amiodarone, resulting in conversion to sinus rhythm after six hours. The documented diagnosis was postoperative atrial fibrillation following CABG. He continued to improve with physical therapy and was discharged home in good condition. Discharge medications included Lopressor and Amiodarone.
+The patient is a 70-year-old male admitted for an elective coronary artery bypass graft (CABG) times two. He had no acute symptoms on admission and was in no distress, with normal cardiac and pulmonary findings. His past medical history includes hypercholesterolemia, benign prostatic hyperplasia, rheumatic fever, renal stones, hiatal hernia, and rheumatoid arthritis; he takes Toprol, Plaquenil, Terazosin, iron, aspirin, simvastatin, and hydrochlorothiazide, with no known drug allergies. During his hospital course, he underwent CABG with saphenous vein grafts to OM-I and PDA, and postoperatively developed rapid atrial fibrillation on day three, which was treated successfully with Lopressor and Amiodarone. The documented diagnosis was postoperative atrial fibrillation following CABG. He was discharged in good condition on a regimen including Lopressor, Amiodarone (taper), simvastatin, Percocet as needed, aspirin, potassium supplement, Lasix, and Colace. Follow-up with his physician was advised in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with brief episodes of rapid heartbeat occurring over the past few days. The episodes last several minutes, come and go randomly without identifiable triggers, and are not associated with lightheadedness or shortness of breath; mild chest discomfort is occasionally noted but is not severe. The patient reports no prior history of similar symptoms and feels back to normal after each episode, with no lingering fatigue or weakness. The patient is scheduled for an elective CABG and expressed concern about these new symptoms. On assessment, the doctor noted that these episodes are likely benign rhythm disturbances common in individuals with underlying heart conditions, especially in the absence of severe chest pain, fainting, or ongoing shortness of breath. The doctor recommended tracking the timing and characteristics of the episodes and informing the cardiologist or surgical team prior to surgery, as further evaluation with ECG or monitoring may be warranted. The patient was advised to seek immediate medical attention if new symptoms such as severe chest pain, fainting, or significant shortness of breath develop.
+The patient is presenting with episodes of rapid heartbeat (palpitations) as the chief complaint. These episodes began a few days ago, occur intermittently without clear triggers, last several minutes, and are not associated with lightheadedness, dyspnea, or significant chest discomfort; the patient returns to baseline after each episode and reports no lingering symptoms. There is no prior history of similar symptoms, and the patient is scheduled for an elective coronary artery bypass graft (CABG). The clinical impression is that these are brief episodes of rapid heart rhythm, likely benign but potentially related to underlying heart disease. No acute arrhythmia or dangerous symptoms were identified during the visit. The treatment plan includes monitoring and documenting the timing and characteristics of episodes, informing the cardiologist or surgical team prior to surgery, and seeking immediate care if severe chest pain, syncope, or significant shortness of breath develops. The doctor also recommended possible ECG or rhythm monitoring before the procedure. No new medications or interventions were initiated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.657
+- **Model Used**: general
+- **Text1 Length**: 141 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

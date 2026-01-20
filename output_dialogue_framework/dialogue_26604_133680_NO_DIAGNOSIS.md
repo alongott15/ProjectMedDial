@@ -87,16 +87,21 @@ If anything changes—like new symptoms or concerns—you should feel comfortabl
 
 ## EHR Summary
 
-The patient is a 300-year-old female presenting with a left hip fracture. She underwent open reduction and internal fixation during her hospital stay. Her relevant medical history includes coronary artery disease with angina, chronic obstructive pulmonary disease, dementia, hypertension, depression, anemia, interstitial lung disease, a history of GI bleed, and prior falls. On admission, she was transfused two units of packed red blood cells, increasing her hematocrit from 27 to 37.5. The documented diagnoses were left hip fracture status post-surgery, coronary artery disease, COPD, dementia, hypertension, depression, anemia, and other chronic conditions. Discharge instructions included dry sterile dressings, partial weightbearing exercise, and supplemental oxygen to maintain saturation between 90% and 94%. Medications prescribed at discharge included Percocet for pain, Lovenox for anticoagulation, Lopressor for blood pressure, Levofloxacin for infection prophylaxis, and several supportive medications. The patient was scheduled for orthopedic follow-up after discharge.
+The patient is a 300-year-old female admitted for management of a left hip fracture. She underwent open reduction and internal fixation for the fracture. Her hospital course included transfusion of two units of packed red blood cells, resulting in an increase in hematocrit from 27 to 37.5. Relevant history includes coronary artery disease with angina, chronic obstructive pulmonary disease, dementia, hypertension, depression, history of gastrointestinal bleed, history of falls, interstitial lung disease, and anemia. The documented diagnoses were left hip fracture status post open reduction and internal fixation, along with her chronic comorbidities. Discharge treatment included dry sterile dressings, partial weightbearing exercise, oxygen therapy to maintain saturation between 90% and 94%, and multiple medications including pain control, anticoagulation, antibiotics, and supportive therapies. The patient was instructed to follow up in the orthopedic clinic.
+
 
 ## Dialogue Summary
 
-The patient presented for a general health check-in without specific symptoms or complaints. They reported no changes in energy, sleep, appetite, mood, memory, concentration, or stress levels, and denied any new aches, pains, discomfort, or difficulties with daily activities such as walking or climbing stairs. The patient stated they have not had any recent check-ups, screenings, or vaccinations and could not recall when these were last completed. They described their lifestyle as active with a balanced diet and no recent changes to their routine. No abnormal clinical findings were noted during the conversation. The doctor assessed that the patient's overall health and daily routines appear stable, with no concerning symptoms reported. The doctor recommended scheduling a routine check-up to review preventive care needs, including screenings and vaccinations, and advised continuing current healthy lifestyle habits. The patient expressed understanding and agreed to follow up if any new concerns arise.
+The patient presented for a general health check-in without any specific chief complaint. They reported no changes in energy, sleep, appetite, mood, memory, or concentration, and denied any new or ongoing symptoms such as pain, discomfort, or functional limitations in daily activities. There is no mention of relevant medical history, medications, or allergies in the dialogue. The clinical impression was that the patient's overall health and routines have remained stable, with no concerning findings. No formal diagnosis was documented. The treatment plan included a recommendation to schedule a routine preventive check-up to review screenings and vaccinations, and to continue maintaining an active lifestyle and balanced diet. The patient was advised to reach out if any new symptoms or concerns arise.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.929
-- **Similarity Label**: N/A
+- **STS Score**: 0.259
+- **Model Used**: general
+- **Text1 Length**: 133 words
+- **Text2 Length**: 120 words
+
 
 ## Processing Information
 

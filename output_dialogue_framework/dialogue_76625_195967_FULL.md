@@ -116,3 +116,21 @@ In the meantime, keep monitoring for any changes—like sudden worsening pain, s
 ## Processing Information
 
 - **Processing Time**: 226.1s
+
+## EHR Summary
+
+The patient is a 44-year-old male presenting with chest pain and back pain. He reported a six-hour history of crushing chest pain radiating to his back, persistent and without alleviating factors; initial management with labetalol provided some relief, but pain later became refractory. His medical history includes hypertension and hypercholesterolemia, with allergies to aspirin and morphine. Imaging revealed a type B aortic dissection extending from the left subclavian artery to the bilateral external iliac arteries, with maintained organ perfusion and no evidence of infarction. The documented diagnosis was type B aortic dissection. Treatment included blood pressure control with labetalol during admission, and discharge on hydrochlorothiazide, amlodipine, and metoprolol tartrate, along with atorvastatin, lorazepam, and Percocet as needed for pain. He was advised to quit smoking, avoid heavy lifting, monitor blood pressure at home, and follow up regularly with vascular surgery. The patient was discharged home in stable condition with improved pain and well-controlled blood pressure.
+
+
+## Dialogue Summary
+
+The patient is an adult with a history of type B aortic dissection presenting with new, steady aching pain in the chest and back. The pain is not described as sharp or tearing and is not associated with neurological symptoms such as numbness or weakness; there is no reported shortness of breath or sudden worsening. Relevant history includes prior type B aortic dissection, which increases the risk for serious vascular complications. No new diagnosis was documented during this encounter; the clinical impression is that the symptoms could be benign but warrant caution due to the patient’s vascular history. The doctor advised the patient to contact their specialist for further assessment and possible imaging to rule out complications. The patient was instructed to monitor for any changes, including sudden severe pain, shortness of breath, or neurological symptoms, and to seek urgent care if these occur. The plan emphasizes close monitoring and prompt communication with both the specialist and the primary provider if symptoms change.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.722
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 163 words
+

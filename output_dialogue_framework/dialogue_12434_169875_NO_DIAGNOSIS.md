@@ -85,16 +85,21 @@ If you notice new symptoms—such as sudden severe headache, double vision, trou
 
 ## EHR Summary
 
-The patient is a 65-year-old female presenting with a cerebral aneurysm. She reported no headache, vision problems, weakness, or paresthesias, but did note changes in her gait. Her past medical history includes type 2 diabetes, hypertension, and chronic obstructive pulmonary disease; she is allergic to penicillin, Keflex, and Bactrim. On examination, she was frail but in no acute distress, with positive rales on chest exam and an ataxic gait. The documented diagnosis was cerebral aneurysm. She underwent successful coiling of the aneurysm and remained neurologically stable postoperatively. Post-procedure care included hourly neurological checks and heparin to maintain her PTT in the 50-60 range. She was discharged in stable condition.
+The patient is a 65-year-old woman presenting with a cerebral aneurysm. She reported no headache, vision problems, weakness, or paresthesias, but did note changes in her gait. Her past medical history includes type 2 diabetes, hypertension, and chronic obstructive pulmonary disease; she is allergic to penicillin, Keflex, and Bactrim. On examination, she had an ataxic gait and mild left foot edema but was otherwise neurologically intact. The documented diagnosis was cerebral aneurysm, status post coiling procedure. Postoperatively, she remained neurologically stable with no new deficits and was managed with heparin for anticoagulation and blood pressure control using Nipride and oral antihypertensives. She was discharged home in stable condition on Plavix, aspirin, metoprolol (increased dose), glyburide, neurontin, amitriptyline, estradiol, and trandolapril. Follow-up with her physician was arranged in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with concern regarding a known cerebral aneurysm. They reported a gradually worsening unsteady gait, describing increased difficulty with walking, especially on uneven surfaces, and needing to take wider steps to maintain balance; the unsteadiness has made daily activities more difficult but has not resulted in falls. The patient denied headaches, vision changes, or weakness in the arms or legs, and noted that the unsteadiness is not tied to a specific time of day. Relevant history includes the diagnosis of cerebral aneurysm; no medications or allergies were mentioned. On clinical questioning, the patient described a wide-based gait and increased caution due to fear of falling, but no actual falls. The doctor assessed that the unsteady gait could be related to the cerebral aneurysm or other factors such as changes in strength, sensation, or medications, but found it reassuring that there were no additional neurological symptoms. The doctor recommended focusing on home safety (supportive footwear, clearing clutter), considering physical therapy for balance, and monitoring for new symptoms such as sudden severe headache, double vision, speech trouble, or weakness. The patient also mentioned mild swelling in the left foot at the end of the visit.
+The patient is an adult presenting with concern about a known cerebral aneurysm and new onset of unsteady gait. The patient reports gradually worsening unsteadiness and a wide-based gait, which has made daily activities more difficult but has not resulted in falls. There are no associated symptoms such as headache, vision changes, or limb weakness. Relevant history includes the diagnosis of a cerebral aneurysm; no medication or allergy information is provided. The clinical impression is that the unsteady gait may be related to the cerebral aneurysm or other neurological or musculoskeletal factors. The treatment plan includes recommendations for home safety (supportive footwear, clearing clutter), consideration of physical therapy for balance, and monitoring for new neurological symptoms such as severe headache, double vision, speech difficulty, or weakness. The patient was advised to report any new concerning symptoms promptly and to consider further evaluation with a neurologist. Mild swelling in the left foot was mentioned but not addressed in detail during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.669
+- **Model Used**: general
+- **Text1 Length**: 129 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

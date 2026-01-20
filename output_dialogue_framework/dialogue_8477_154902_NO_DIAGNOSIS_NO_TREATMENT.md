@@ -97,16 +97,23 @@ Let your provider know about all these changes—they may want to check your blo
 
 ## EHR Summary
 
-The patient is a 33-year-old male admitted for gastric bypass surgery due to morbid obesity. Postoperatively, he experienced increased blood from the nasogastric tube, diaphoresis, lightheadedness, and nausea without chest pain or shortness of breath. His past medical history includes obesity, degenerative joint disease, heartburn, and headache; he has no known drug allergies and was taking Advil at home. Physical examination revealed stable vital signs and an unremarkable cardiopulmonary and abdominal exam; electrocardiogram showed normal sinus rhythm. The clinical course was complicated by postoperative bleeding with a hematocrit drop to 18%, requiring transfusion of 6 units of packed red blood cells and 2 units of fresh frozen platelets, after which his hematocrit stabilized at 28%. The documented diagnosis was postoperative bleeding following Roux-en-Y gastric bypass. At discharge, his hematocrit remained stable and he was tolerating a stage three diet. Discharge medications included Roxicet for pain, ranitidine, Actigall 300 mg twice daily for six months, and vitamin B supplementation.
+The patient is a 33-year-old male admitted for gastric bypass surgery due to morbid obesity. Postoperatively, he experienced increased blood from the nasogastric tube, diaphoresis, lightheadedness, and nausea without chest pain or dyspnea. His past medical history includes obesity, degenerative joint disease, heartburn, and headache; he has no known drug allergies and was taking Advil at home. The clinical impression was postoperative gastrointestinal bleeding with a drop in hematocrit to 18%. He was treated with transfusion of 6 units of packed red blood cells and 2 units of fresh frozen platelets, resulting in stabilization of his hematocrit at 28%. The patient tolerated a stage three diet well and was discharged in stable condition. Discharge medications included Roxicet for pain, ranitidine, Actigall for six months, and vitamin B-12 for two months. He was advised to follow up in the surgical nutrition clinic and with his surgeon in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with increased blood from their nasogastric tube. Over the past couple of days, they have noticed a greater amount of bright red blood from the tube, sudden episodes of sweating at random times, lightheadedness affecting daily activities, and some nausea; no pain in the stomach or chest, no changes in heart rate, and no increase in total tube fluid were reported. No specific medical history, medications, or allergies were mentioned during the conversation. The doctor noted the presence of bright red blood, sudden sweating, and lightheadedness without associated pain or heart rate changes. The assessment was that these symptoms likely indicate ongoing active bleeding from the upper digestive tract, possibly related to the tube placement or nearby tissue, with the body reacting to blood loss. The doctor recommended contacting the healthcare provider managing the nasogastric tube as soon as possible for evaluation, advised rest and avoidance of strenuous activity, and instructed the patient to monitor for worsening symptoms such as increased dizziness, fainting, rapid heartbeat, or a significant increase in blood. If any of these symptoms develop or worsen, urgent medical attention was advised.
+The patient is an adult presenting with increased blood from their nasogastric tube as the chief complaint. Over the past couple of days, they have noticed a greater amount of bright red blood from the tube, accompanied by sudden episodes of sweating, lightheadedness, and some nausea; these symptoms are not associated with pain, changes in heart rate, or increased total tube output. The sweating occurs unpredictably and is not linked to activity or time of day. There is no reported abdominal or chest pain.
+
+The clinical impression is ongoing upper gastrointestinal bleeding, possibly from the area of nasogastric tube placement or nearby tissue, with associated symptoms likely due to blood loss. The patient was advised to contact their healthcare provider promptly for further evaluation, including possible assessment of blood counts and tube placement. Recommendations included resting, avoiding strenuous activity, and monitoring for worsening symptoms such as increased dizziness, fainting, rapid heartbeat, or a significant increase in bleeding. The patient was instructed to seek urgent medical attention if severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.590
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

@@ -87,16 +87,23 @@ Let me know if you have any questions about what we've discussed or if you'd lik
 
 ## EHR Summary
 
-The patient is a 27-year-old female presenting with a chief complaint of left-sided headache for two weeks. Symptoms included left facial and tooth pain as well as some double vision. She had no significant past medical history and no drug allergies. On examination, she exhibited a left sixth nerve palsy, with otherwise normal cranial nerve and muscle strength findings. Imaging revealed a large (4 cm) fusiform aneurysm in the sella region of the left internal carotid artery. The documented diagnosis was left internal carotid artery aneurysm. Treatment included GDC coil embolization and permanent balloon occlusion of the left internal carotid artery, which she tolerated well. She was discharged home in stable condition with instructions for outpatient follow-up.
+The patient is a 27-year-old female presenting with a two-week history of left-sided headache, left facial and tooth pain, and some double vision. Symptoms included a left sixth nerve palsy on examination, with no lateral gaze past midline in the left eye. She has no significant past medical history and no drug allergies. Imaging revealed a large (4 cm) fusiform aneurysm in the left cavernous internal carotid artery. The documented diagnosis was left cavernous internal carotid artery aneurysm. Treatment included GDC coil embolization and permanent balloon occlusion of the left internal carotid artery, which was tolerated well without complications. The patient was discharged home in stable condition and instructed to follow up in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with a left-sided headache persisting for the past couple of weeks. Symptoms included constant pain in the left cheek and teeth, which is partially relieved by over-the-counter pain medications, and episodes of double vision affecting both eyes that occur mainly during headache episodes. The patient denied nausea, sensitivity to light or sound, and reported no prior history of similar headaches or facial pain. The discomfort is distracting and impacts concentration at work but does not prevent daily activities. On assessment, the doctor noted that while the symptoms could be related to sinus pressure or inflammation, the presence of double vision is atypical for simple sinus issues and may indicate other causes involving nerves around the eye. The doctor recommended continuing over-the-counter pain medications, trying supportive measures such as a humidifier or saline nasal sprays, and staying hydrated. The patient was advised to seek prompt medical attention if double vision worsens, becomes persistent, or if new symptoms such as weakness or numbness develop.
+The patient is an adult presenting with a chief complaint of a left-sided headache persisting for the past couple of weeks. The headache remains localized to the left side and is accompanied by constant pain in the left cheek and teeth, with over-the-counter pain medications providing only partial relief. The patient also reports episodes of double vision affecting both eyes, which occur primarily during headache episodes, but denies nausea, photophobia, or phonophobia. There is no prior history of similar headaches or facial pain, and the symptoms are distracting but do not prevent daily activities.
+
+The clinical impression discussed includes possible sinus pressure or inflammation as a cause for the facial and dental pain, but the presence of double vision raises concern for other etiologies, such as nerve involvement. The patient was advised to continue using over-the-counter pain medications and consider supportive measures like a humidifier or saline nasal sprays. The doctor emphasized the importance of seeking prompt medical attention if double vision worsens or if new neurological symptoms develop. No formal diagnosis was documented during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.511
+- **Model Used**: general
+- **Text1 Length**: 115 words
+- **Text2 Length**: 177 words
+
 
 ## Processing Information
 

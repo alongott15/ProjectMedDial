@@ -87,16 +87,21 @@ Would you like advice on how best to safely get evaluated, or do you have any qu
 
 ## EHR Summary
 
-The patient is a 49-year-old woman presenting with acute onset left-sided numbness and tingling, progressing to right upper quadrant numbness, difficulty holding objects, and inability to walk. Symptoms began at 4:45 p.m. on the day of admission and rapidly worsened, resulting in complete inability to ambulate by the time of hospital arrival. She has no significant past medical history, is not on any medications, and reports a sulfa allergy causing rash. Physical examination revealed stable vital signs. A head CT demonstrated a 3.5-cm right-sided mass with hyperintense ring enhancement and mild edema. The documented diagnosis was not explicitly stated, but findings are consistent with a brain mass. Treatment details and specific recommendations were not documented in this note.
+The patient is a 49-year-old woman presenting with acute onset of left-sided numbness and tingling, followed by right upper quadrant numbness, difficulty holding objects, and progressive difficulty walking. Symptoms began at 4:45 p.m. on the day of admission and worsened over the next 30 minutes, resulting in inability to walk upon arrival at the hospital. She has no significant past medical history, with prior cesarean section and varicose vein stripping; she reports a sulfa allergy causing rash and was not on any medications at admission. On examination, her vital signs were stable. A head CT revealed a 3.5-cm right-sided mass with hyperintense ring enhancement and mild edema. The documented diagnosis was a right-sided brain mass. Treatment details or specific recommendations were not documented in this note.
+
 
 ## Dialogue Summary
 
-The patient presented with new onset numbness and tingling on the left side, first noticed a few days ago. Symptoms include persistent numbness and decreased sensation in the left upper and lower extremity and left side of the stomach, making it difficult to move the left side, walk, and perform daily tasks such as getting dressed, preparing meals, and using a phone. The patient reported no changes in vision or speech, no recent injuries, falls, or infections, and has not experienced similar symptoms before; sensation to touch and temperature is decreased but not completely absent. There were no specific triggers or relieving factors identified. On examination, the patient described significant functional impairment due to decreased sensation and weakness on the left side. The doctor assessed that these symptoms could be related to changes in nerve function from the brain or spinal cord and emphasized the importance of prompt medical evaluation to rule out serious causes. The doctor advised the patient to avoid situations that could lead to falls or injury and to seek emergency care if new symptoms such as trouble speaking, vision changes, severe headache, or confusion develop. The patient understood the need for timely evaluation and asked about preparing for the visit.
+The patient is an adult presenting with new-onset numbness and tingling on the left side, first noticed a few days ago. Symptoms include decreased sensation and difficulty moving the left upper and lower extremities, as well as the left side of the abdomen, resulting in impaired mobility (unable to walk) and challenges with daily activities such as dressing and using a phone. The patient reports no changes in vision or speech, no recent injuries or infections, and no prior similar episodes; sensation is decreased but not completely absent. There are no identified triggers or alleviating factors for the symptoms. The clinical impression is that the unilateral numbness and weakness may be related to neurological changes involving the brain or spinal cord, though a specific diagnosis is not documented. The doctor recommends prompt in-person medical evaluation to rule out serious causes such as nerve or circulation issues. The patient is advised to avoid situations that could lead to falls or injury and to seek emergency care if new symptoms such as speech difficulty, vision changes, severe headache, or confusion develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.972
-- **Similarity Label**: N/A
+- **STS Score**: 0.603
+- **Model Used**: general
+- **Text1 Length**: 126 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ For now, it would be helpful to know: on a scale of 1 to 10, how would you rate 
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with shortness of breath. He reported worsening dyspnea, fatigue, malaise, and inability to achieve a complete breath, with symptoms increasing after a recent discharge from rehabilitation. His history is notable for diabetes mellitus, hypertension, chronic anemia, diabetic neuropathy, and prior laparoscopic cholecystectomy complicated by bile duct injury and subsequent Roux-en-Y reconstruction, leading to chronic pleural effusions and multiple thoracenteses. Imaging revealed bilateral fibrothoraxes (worse on the right), mediastinal adenopathy, and a ground glass appearance in both lungs of unclear etiology. The documented diagnosis includes chronic pleural effusions and bilateral fibrothoraxes. Admission medications included ciprofloxacin; further specific treatments or recommendations are not detailed in the note.
+The patient is a 62-year-old male presenting with shortness of breath. He reported worsening dyspnea, fatigue, malaise, and inability to achieve a complete breath, with a history of chronic pleural effusions and recent increased shortness of breath. Relevant history includes diabetes mellitus, hypertension, chronic anemia, prior bile duct injury with Roux-en-Y reconstruction, and multiple thoracenteses; he is allergic to Vicodin. On admission, physical exam revealed bibasilar crackles and laboratory studies showed chronic hypercapnia and anemia. The documented diagnoses were fibrothorax, diabetes mellitus, pneumonia, prostatitis, and anemia. Treatment included diuresis with Lasix, BIPAP for ventilation support, right lung decortication surgery, bronchoscopy for airway clearance, antibiotics (Levofloxacin) for pneumonia, tracheostomy, and continued ventilatory support with CPAP. The patient was discharged in stable condition with a comprehensive medication regimen and instructions for follow-up with thoracic surgery, primary care, pulmonology, and pending cardiology recommendations.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure described as uncomfortable and not sharp, which started gradually a couple of days ago. The pressure is moderate in severity (rated 6/10 at worst), tends to occur with physical activity such as walking or climbing stairs, and improves within a few minutes of rest; it does not occur at rest. The patient denied associated symptoms including shortness of breath, sweating, discomfort radiating to the arm or jaw, nausea, lightheadedness, or feeling faint. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that exertional chest pressure relieved by rest may indicate the heart muscle is not getting enough oxygen during increased demand and could be consistent with angina. The doctor recommended avoiding strenuous activity until further evaluation and advised seeking immediate medical attention if new symptoms such as persistent chest pain, severe shortness of breath, sweating, nausea, or radiating pain develop. The patient demonstrated understanding of these recommendations.
+The patient is an adult presenting with chest pressure as the chief complaint. The discomfort is described as a moderate, pressure-like sensation (rated 6/10 at worst) that began gradually two days ago and is triggered by physical activity such as walking or climbing stairs; it improves within a few minutes of rest and is not present at rest. The patient denies associated symptoms such as shortness of breath, sweating, nausea, lightheadedness, or radiation of discomfort to the arm or jaw. There is no mention of relevant medical history, medications, or allergies in the dialogue. The clinical impression documented by the doctor is possible angina, given the exertional nature of the chest pressure and its relief with rest. The treatment plan includes advising the patient to avoid strenuous activity until further evaluation can be completed and to seek immediate medical attention if more severe or persistent symptoms develop. The doctor also requests a pain severity rating to further assess the impact of symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.411
+- **Model Used**: general
+- **Text1 Length**: 140 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

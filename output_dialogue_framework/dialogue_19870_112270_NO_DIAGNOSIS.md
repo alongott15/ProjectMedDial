@@ -87,16 +87,21 @@ Does that make sense? Any questions about what we’ve discussed?
 
 ## EHR Summary
 
-The patient is a 75-year-old male presenting with increased shortness of breath on exertion and occasional chest discomfort. Symptoms included progressive dyspnea and fatigue, with a history of congestive heart failure and paroxysmal atrial fibrillation. Relevant history includes coronary artery disease, rheumatic fever, emphysema (on Theophylline), hypertension, osteoarthritis, and prior failed cardioversions and ablation for atrial fibrillation. On admission, medications included Zestril, Atenolol, Maxzide, ASA, MVI, and Theophylline; no known allergies. Physical findings during hospitalization included stable postoperative recovery after elective coronary artery bypass grafting (CABG x1), transient need for Neo-Synephrine for blood pressure support, and development of postoperative atrial fibrillation treated with IV Lopressor, with successful return to sinus rhythm. The documented diagnosis was coronary artery disease with symptomatic heart failure and atrial fibrillation. Treatment included CABG surgery, perioperative blood pressure management, and antiarrhythmic therapy. The patient was discharged in stable condition.
+The patient is a 75-year-old male presenting with increased shortness of breath on exertion and occasional chest discomfort. Symptoms included progressive dyspnea with exertion and fatigue, with a history of congestive heart failure and paroxysmal atrial fibrillation. Relevant history includes coronary artery disease, emphysema, hypertension, rheumatic fever, osteoarthritis, and prior failed cardioversions and ablation for atrial fibrillation. The documented diagnosis was coronary artery disease with symptomatic progression requiring surgical intervention. The patient underwent elective coronary artery bypass grafting (CABG x1) without intraoperative complications. Postoperatively, he developed atrial fibrillation, which reverted to sinus rhythm after IV Lopressor and was managed with oral Amiodarone. Discharge medications included Lopressor, Lasix, KCL, Aspirin, Plavix, Theodur, Amiodarone, Colace, and Percocet as needed. He was discharged home in stable condition with follow-up arranged with his primary care physician and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with increased shortness of breath during activities such as walking around the house. Symptoms included mild chest discomfort described as pressure, which occurs with exertion and resolves after a few minutes of rest, as well as increased fatigue; there was no wheezing, coughing, or swelling in the legs or feet, and lying down does not worsen breathing. The symptoms have gradually worsened over time and are triggered by physical activity rather than a specific time of day. No relevant medical history, medications, or allergies were mentioned during the visit. On clinical review, the patient denied orthopnea and reported that symptoms improve with rest and do not occur at rest. The doctor assessed that the exertional symptoms and mild chest pressure may be related to cardiac function rather than lung disease, given the absence of respiratory symptoms or peripheral edema. The doctor advised the patient to pace activity, avoid overexertion, and seek urgent care if chest pain occurs at rest, severe shortness of breath develops, or symptoms do not resolve with rest; a routine check-up for heart health was recommended.
+The patient presents with exertional shortness of breath as the chief complaint. Symptoms include mild chest pressure accompanying dyspnea during activities such as walking or climbing stairs, which resolve with rest and have gradually worsened over time; there is no associated cough, wheezing, or peripheral edema, and lying down does not worsen symptoms. The patient also reports increased fatigue but denies orthopnea or paroxysmal nocturnal dyspnea. Relevant history, medications, and allergies are not specified in the dialogue. The clinical impression is that the symptoms may be related to decreased cardiac efficiency during exertion, with a less likely pulmonary cause given the absence of respiratory symptoms. The treatment plan includes advice to pace activity and avoid overexertion, with instructions to seek urgent care if chest pain at rest, severe dyspnea, or syncope occur. A routine check-up to further evaluate heart health is recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.512
+- **Model Used**: general
+- **Text1 Length**: 134 words
+- **Text2 Length**: 142 words
+
 
 ## Processing Information
 

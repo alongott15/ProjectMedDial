@@ -87,16 +87,23 @@ Most causes are not life-threatening, but it's best to be cautious with these sy
 
 ## EHR Summary
 
-The patient is a 50-year-old male presenting with acute dysarthria and chest pain at rest. He has a history of hepatitis B, hepatitis C, intravenous drug abuse, recurrent aspiration pneumonia, schizoaffective disorder, peripheral neuropathy, chronic obstructive pulmonary disease, and hypertension. On hospital day four, an abdominal CT scan revealed portal vein air. During emergent exploratory laparotomy, he was found to have total toxic megacolon and underwent total colectomy with ileostomy at the mucous fistula. Postoperatively, he developed high ostomy output (4–5 liters/day) leading to dehydration and acute kidney injury (creatinine increased to 3.5), which improved with aggressive hydration (creatinine decreased to 1). Clostridium difficile culture from the ostomy output was sent for evaluation. The documented diagnosis was total toxic megacolon. Treatment included surgical intervention (total colectomy and ileostomy) and supportive care with aggressive hydration.
+The patient is a 50-year-old male presenting with acute dysarthria and chest pain at rest. He has a history of hepatitis B, hepatitis C, intravenous drug abuse, recurrent aspiration pneumonia, schizoaffective disorder, peripheral neuropathy, chronic obstructive pulmonary disease, and hypertension. During hospitalization, he developed portal vein air on abdominal CT and subsequently underwent emergent exploratory laparotomy, which revealed total toxic megacolon. The patient received a total colectomy and ileostomy at the mucous fistula. Postoperatively, he experienced high ostomy output (4–5 liters/day) leading to dehydration and acute kidney injury (creatinine increased to 3.5), which improved with aggressive hydration. Clostridium difficile culture was sent from the ostomy output. The patient’s renal function returned to baseline, and his recovery was otherwise unremarkable.
+
 
 ## Dialogue Summary
 
-The patient presented with sudden onset slurred speech and chest discomfort at rest. The slurred speech began today, has been constant, and is characterized by words sounding slurred without difficulty moving lips or tongue. The chest pain is described as a pressure sensation, rated 5 out of 10 in intensity, and does not worsen with talking, eating, or physical activity; no shortness of breath, sweating, or lightheadedness was reported. The patient denied any new weakness or changes in sensation in the arms or legs. No relevant medical history, medications, or allergies were mentioned. The doctor noted the combination of sudden slurred speech and chest pressure as potentially concerning for neurological or cardiac issues, such as impaired blood flow to the brain or heart. The doctor recommended prompt medical evaluation today at a clinic, urgent care, or emergency department, and advised immediate attention if new symptoms such as weakness, trouble understanding speech, vision changes, or worsening chest pain develop. The patient acknowledged understanding of the recommendations.
+The patient is an adult presenting with sudden-onset slurred speech and chest discomfort. The slurred speech began today, has been constant since onset, and is not associated with difficulty moving the lips or tongue, nor with limb weakness or sensory changes. The chest pain is described as a pressure sensation, rated 5 out of 10 in intensity, occurring at rest and not worsened by activity, talking, or eating; there is no associated dyspnea, sweating, or lightheadedness. No relevant past medical history, medications, or allergies were specified.
+
+The clinical impression was concern for possible serious causes such as neurological or cardiac events, given the combination of sudden speech changes and chest pressure. The patient was advised to seek prompt medical attention today at a clinic, urgent care, or emergency department to rule out urgent conditions. Additional instructions included seeking immediate help if new symptoms such as weakness, trouble understanding speech, vision changes, or worsening chest pain develop. No specific diagnosis or medication was documented during the encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.913
-- **Similarity Label**: N/A
+- **STS Score**: 0.283
+- **Model Used**: general
+- **Text1 Length**: 119 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

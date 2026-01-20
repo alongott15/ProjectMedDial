@@ -87,16 +87,21 @@ Let me know if you have any questions about what I’ve said or if you want advi
 
 ## EHR Summary
 
-The patient is a 27-year-old female presenting with a chief complaint of left-sided headache for two weeks. Symptoms included left facial and tooth pain as well as some double vision. She had no significant past medical history and no drug allergies. On examination, she exhibited a left sixth nerve palsy, with otherwise normal cranial nerve and muscle strength findings. Imaging revealed a large (4 cm) fusiform aneurysm in the sella region of the left internal carotid artery. The documented diagnosis was left internal carotid artery aneurysm. Treatment involved GDC coil embolization and permanent balloon occlusion of the left internal carotid artery, which she tolerated well. She was discharged home in stable condition with instructions for outpatient follow-up.
+The patient is a 27-year-old female presenting with a two-week history of left-sided headache, left facial and tooth pain, and some double vision. Symptoms included a left sixth nerve palsy on examination, with no lateral gaze past midline in the left eye. Past medical history was not significant, and there were no drug allergies. Imaging revealed a large (4 cm) fusiform aneurysm in the left cavernous internal carotid artery. The documented diagnosis was left cavernous internal carotid artery aneurysm. Treatment included diagnostic angiogram, GDC coil embolization, and permanent balloon occlusion of the left internal carotid artery. The patient tolerated the procedure well, had an uneventful postoperative course, and was discharged home in stable condition. She was advised to follow up with her physician in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with a new headache on the left side of the head, ongoing for about two weeks. Symptoms included a constant dull ache (rated 6/10 in severity), persistent left facial and tooth pain not related to eating or touch, and double vision; there was no history of similar headaches, and no associated nausea, sensitivity to light or sound, weakness, numbness, tingling, or sleep changes. The discomfort has made it harder for the patient to focus at work and perform daily activities. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted the combination of new, constant unilateral headache, facial pain, and double vision without other neurological symptoms. The doctor explained that while sinus inflammation, dental issues, or migraines could cause some symptoms, double vision is atypical and warrants further evaluation to rule out nerve or structural causes near the eye and face. The doctor recommended prompt medical evaluation within a few days, including checking eye movements and possibly imaging, and advised monitoring for new symptoms such as weakness, confusion, or speech changes that would require urgent attention.
+The patient is an adult presenting with a chief complaint of a new, constant headache on the left side of the head persisting for approximately two weeks. The headache is described as a dull ache rated 6 out of 10 in severity, accompanied by constant left facial pain and double vision; there are no associated triggers, alleviating factors, or changes in sleep, and no history of similar headaches. The patient denies nausea, sensitivity to light or sound, weakness, numbness, or tingling. There is no relevant past medical history or medication use documented. The clinical impression is that the combination of new unilateral headache, facial pain, and double vision warrants further evaluation to rule out neurological or structural causes near the eye and face; common causes like sinus inflammation or migraine are considered less likely due to the presence of double vision. The treatment plan includes recommending prompt medical evaluation within the next few days, assessment of eye movements, and possible imaging. The patient was also advised to monitor for new symptoms such as weakness, confusion, or speech changes, which would require urgent attention.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.507
+- **Model Used**: general
+- **Text1 Length**: 126 words
+- **Text2 Length**: 183 words
+
 
 ## Processing Information
 

@@ -108,3 +108,23 @@ Let me know if you have any questions or concerns about what we’ve discussed s
 ## Processing Information
 
 - **Processing Time**: 445.0s
+
+## EHR Summary
+
+The patient is a 68-year-old female admitted with symptoms of [**Last Name (un) **]-Tsubo cardiomyopathy and myocardial infarction following a recent accident. She presented with bilateral rales, jugular venous distension, atrial fibrillation, and subsequently developed right lower quadrant abdominal pain with nausea. Her past medical history includes hypercholesterolemia, diabetes mellitus, paroxysmal atrial fibrillation, hypertension, and iron deficiency anemia; she denied any drug allergies and was on multiple cardiac and diabetic medications. The documented diagnoses were [**Last Name (un) **]-Tsubo syndrome with myocardial infarction and cardiomyopathy, ischemic colon requiring ileocolectomy, atrial fibrillation and flutter, and C. difficile diarrhea. She underwent cardiac catheterization, was treated for arrhythmias with amiodarone and heparin, and required urgent ileocecectomy for ischemic colon, followed by ileocolostomy. Postoperatively, she was treated with anticoagulation, diuresis, and Flagyl for C. difficile colitis, and her diet was gradually advanced. At discharge, her condition was improved, and she was instructed to continue Flagyl, follow up with her physicians, and supplement her diet as needed.
+
+
+## Dialogue Summary
+
+The patient presented with chest pain as the main complaint. The chest pain began a few days ago, is intermittent, and is accompanied by shortness of breath, a rattling sound in the chest, and increased difficulty with daily activities such as walking and climbing stairs. Additional symptoms include nausea, lower right abdominal tenderness that worsens with pressure or movement (but not with eating), and recent diarrhea; there is no fever, chills, or vomiting. Relevant history, medications, and allergies were not specified.
+
+The clinical impression was possible mild lung congestion (such as bronchitis or mild pneumonia) combined with a gastrointestinal issue. The physician advised close monitoring of breathing, pain, and other symptoms, with instructions to seek prompt medical attention if symptoms worsen (e.g., increased shortness of breath, fever, severe or spreading pain, persistent vomiting). Supportive care recommendations included rest, hydration, avoiding strenuous activity, and tracking temperature or oxygen levels if possible. The patient was encouraged to report any new or rapidly changing symptoms.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.406
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 162 words
+

@@ -87,16 +87,21 @@ Would you like to talk more about safe pain relief options or discuss a referral
 
 ## EHR Summary
 
-The patient is a 55-year-old woman presenting for management of a nonruptured carotid ophthalmic aneurysm. She did not report acute symptoms at admission and was noted to be in no acute distress on examination. Her past medical history includes occipital neuralgia (status post TENS placement), low back pain, pernicious anemia, and several prior surgeries including appendectomy, gastric stapling, total abdominal hysterectomy, multiple lumbosacral discectomies, left breast lumpectomy, and varicose vein stripping; she has allergies to steroids, Benadryl, codeine, and ibuprofen. On physical exam, vital signs were stable and neurologic examination was unremarkable. The documented diagnosis was a nonruptured carotid ophthalmic aneurysm. She underwent a left pterional craniotomy for aneurysm clipping without intraoperative complications. Postoperative angiogram confirmed successful aneurysm clipping with no complications, and she remained neurologically intact throughout her hospital stay. The treatment plan included postoperative monitoring in the ICU, gradual transfer to the regular floor, ambulation, and resumption of a regular diet.
+The patient is a 55-year-old woman admitted for management of a nonruptured carotid ophthalmic aneurysm. She underwent a left pterional craniotomy for aneurysm clipping without intraoperative complications. Postoperatively, she was monitored in the intensive care unit, remained neurologically intact, and had stable vital signs throughout her stay. A postoperative angiogram confirmed successful aneurysm clipping with no complications. Her past medical history includes occipital neuralgia (status post TENS placement), low back pain, pernicious anemia, and several prior surgeries. She has documented allergies to steroids, Benadryl, codeine, and ibuprofen. The patient was discharged in stable condition with prescriptions for Percocet as needed for pain, Celexa, and Premarin. She was advised to follow up for staple removal and with her neurosurgeon in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with ongoing low back pain that has gradually worsened over time. The pain is rated as 6 out of 10 in severity and is aggravated by prolonged sitting or standing, while rest and heat provide some relief; sleeping can be uncomfortable on some nights. The patient denied any numbness, tingling, or weakness in the legs and reported no recent falls or injuries. Relevant history includes multiple lumbosacral discectomies and allergies to steroids, Benadryl, codeine, and ibuprofen. On assessment, the doctor attributed the discomfort to the patient’s history of back surgery and ongoing spine issues, noting the absence of new neurological symptoms. The doctor recommended gentle stretching, staying active within comfort limits, continued use of heat, and discussed physical therapy as a management option. The patient expressed interest in physical therapy and requested advice on safe pain relief options given their allergies.
+The patient is an adult presenting with ongoing low back pain that has gradually worsened over time. The pain is rated as 6 out of 10 in severity and is aggravated by prolonged sitting or standing, while rest and heat provide some relief; there are no associated symptoms of numbness, tingling, or leg weakness. The discomfort interferes with daily activities such as walking, standing, and sleeping. Relevant history includes multiple prior lumbosacral discectomies and allergies to steroids, Benadryl, codeine, and ibuprofen; there have been no recent injuries or falls. The clinical impression is that the pain is likely related to the patient’s history of back surgery and ongoing spine issues, without evidence of new nerve involvement. The treatment plan includes recommendations for gentle stretching, staying active within comfort limits, continued use of heat, and consideration of physical therapy for further support. The patient was also advised to monitor for new symptoms such as leg weakness or loss of bladder/bowel control and to seek prompt care if these occur. Safe pain relief options are to be discussed further given the patient’s medication allergies.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
+- **STS Score**: 0.469
+- **Model Used**: general
+- **Text1 Length**: 121 words
+- **Text2 Length**: 182 words
+
 
 ## Processing Information
 

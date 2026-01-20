@@ -87,16 +87,23 @@ For now, try to take it easy and avoid strenuous activities until you’re seen.
 
 ## EHR Summary
 
-The patient is a 59-year-old man presenting with fatigue and sluggishness for the past three years, with recent worsening of chest pressure and shortness of breath over the past two months. His symptoms prompted a stress test and subsequent cardiac catheterization. Past medical history includes hypertension, hypercholesterolemia, asthma, and gastroesophageal reflux disease; he has a history of cholecystectomy in 2151. Current medications include antihypertensives, lipid-lowering agents, asthma inhalers, and various supplements. On physical examination, he appeared slightly anxious and short of breath, with mild petechiae on the right wrist and a III/VI systolic murmur radiating to the carotids. The documented plan was referral for aortic valve replacement. No additional acute treatments or recommendations were specified in this note.
+The patient is a 59-year-old man presenting with fatigue and sluggishness for three years, with recent worsening chest pressure and shortness of breath over the past two months. His symptoms prompted a stress test and cardiac catheterization, leading to referral for aortic valve replacement. Relevant history includes hypertension, hypercholesterolemia, asthma, and gastroesophageal reflux disease; medications include antihypertensives, statins, inhalers, and supplements. Physical exam revealed shortness of breath, mild petechiae on the right wrist, an III/VI systolic murmur radiating to the carotids, and mild bilateral calf tenderness. The documented diagnosis was status post aortic valve replacement with a #23 prosthetic valve. The patient underwent minimally invasive aortic valve replacement and had an uncomplicated postoperative course. He was discharged home on his previous medications plus Lopressor, Percocet as needed, and Colace.
+
 
 ## Dialogue Summary
 
-The patient presented with complaints of feeling very tired and sluggish. Symptoms included persistent fatigue over the past couple of weeks, increased difficulty completing usual activities and errands, shortness of breath, and episodes of chest pressure described as tightness and discomfort (not pain), sometimes occurring with activity and sometimes at rest, lasting a few minutes or longer; resting provides only partial relief. The patient denied changes in sleep, fevers, or weight changes, and reported that the chest pressure does not radiate to the arm, neck, or jaw. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted ongoing tiredness and chest tightness with breathlessness not fully relieved by rest. The assessment was that these symptoms could be related to stress or a viral illness but may also indicate possible heart or lung concerns, particularly given the combination of chest discomfort and breathlessness. The doctor recommended prompt in-person evaluation and advised the patient to avoid strenuous activities until further assessment; warning signs such as severe chest pain, pain radiating to the arm or jaw, faintness, or sweating should prompt immediate emergency care.
+The patient presents with the chief complaint of persistent fatigue and sluggishness. Over the past couple of weeks, the patient has experienced increased tiredness that interferes with daily activities and is only partially relieved by rest. Additional symptoms include episodes of chest tightness and discomfort (not radiating), sometimes occurring at rest or with activity, and recent onset of shortness of breath; there are no fevers or weight changes. The patient denies changes in sleep patterns.
+
+Relevant medical history, medications, and allergies are not specified. The clinical impression is concern for possible cardiac or pulmonary causes given the combination of chest discomfort, dyspnea, and fatigue. The treatment plan includes prompt in-person evaluation to rule out serious conditions, advice to avoid strenuous activity, and instructions to seek emergency care if severe chest pain, pain radiating to the arm or jaw, faintness, or diaphoresis develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.635
+- **Model Used**: general
+- **Text1 Length**: 129 words
+- **Text2 Length**: 142 words
+
 
 ## Processing Information
 

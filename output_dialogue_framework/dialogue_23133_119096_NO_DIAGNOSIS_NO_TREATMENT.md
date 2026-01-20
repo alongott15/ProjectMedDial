@@ -98,3 +98,21 @@ Would you be comfortable scheduling a visit soon to have your heart rate checked
 ## Processing Information
 
 - **Processing Time**: 417.7s
+
+## EHR Summary
+
+The patient is a 52-year-old female presenting with complete heart block and bradycardia. She reported four months of gradually worsening dyspnea on exertion and associated dizziness, but denied chest pain, orthopnea, paroxysmal nocturnal dyspnea, or edema. Her past medical history includes hypertension (not treated for the past three months) and hypercholesterolemia; she has no known drug allergies. On admission, her heart rate was 35–40 bpm with blood pressure ranging from 110 to 175 systolic, and laboratory evaluation revealed an elevated troponin of 7.9 that trended down during hospitalization. The documented diagnosis was complete heart block and bradycardia. She underwent successful DDD pacemaker placement and was started on hydrochlorothiazide for hypertension, as well as aspirin, Lipitor, and a short course of Keflex post-procedure. Outpatient stress testing and initiation of a beta blocker were recommended, and she was discharged home in stable condition with follow-up arranged with her primary care physician.
+
+
+## Dialogue Summary
+
+The patient presents with gradually worsening shortness of breath on exertion as the chief complaint. Symptoms include activity-induced dyspnea and occasional dizziness, sometimes occurring together, with both resolving quickly upon rest; the patient also reports a subjective sense of a slower heart rate but has not measured it. There is no history of heart problems, no chest discomfort, no leg swelling, and the only medication taken is Tylenol. The symptoms have led to decreased tolerance for usual activities such as climbing stairs and carrying groceries. The physician notes that the pattern of exertional symptoms relieved by rest, along with perceived bradycardia, may indicate an issue with heart rhythm or lung function, though no definitive diagnosis is documented at this visit. The treatment plan includes monitoring symptoms, urgent care if severe symptoms develop (such as chest pain, severe dyspnea at rest, fainting, or leg swelling), and scheduling a routine visit for heart rate assessment and an EKG. No medication changes or additional interventions are recommended at this time.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.530
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 167 words
+

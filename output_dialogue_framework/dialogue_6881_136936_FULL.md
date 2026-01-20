@@ -89,16 +89,21 @@ Does anything seem to make the discomfort feel better or worse, such as changing
 
 ## EHR Summary
 
-The patient is an 85-year-old female presenting with nausea, vomiting, and chest pain. Her symptoms of chronic chest pain, along with worsening nausea and vomiting, had intensified over the two days prior to admission, and she had not eaten for 24 hours before presentation. Her past medical history includes temporal arteritis (previously treated with steroids), abdominal aortic aneurysm, dilated ascending aorta, congestive heart failure, osteoarthritis, depression, and a history of shingles. On admission, she was hypotensive en route to the hospital and was intubated; in the Emergency Department, CT imaging showed no change in her known aortic pathology and EKG was unchanged from baseline. She became normotensive after initial management. The documented clinical impression was chest pain with associated gastrointestinal symptoms in the context of significant cardiac history. She was admitted to the intensive care unit for further monitoring and management. Specific treatments or medications during this admission were not detailed in the note.
+The patient is an 85-year-old female presenting with nausea, vomiting, and chest pain. She experienced worsening nausea and vomiting over two days prior to admission, with chronic chest pain and poor oral intake for 24 hours; she became hypotensive en route to the hospital and required intubation. Her past medical history includes temporal arteritis, abdominal aortic aneurysm, dilated ascending aorta, congestive heart failure, osteoarthritis, depression, and anemia of chronic disease; she has no known drug allergies. On admission, she was found to have dehydration, diarrhea, anemia, and a urinary tract infection. The documented discharge diagnoses were dehydration, diarrhea, osteoarthritis, giant-cell arteritis, depression, and anemia. Treatment included fluid resuscitation, transfusion of one unit of packed red blood cells, intravenous fluids, pain management with acetaminophen and tramadol, discontinuation of NSAIDs due to gastritis risk, and a seven-day course of Bactrim for urinary tract infection. She was extubated successfully, maintained good oxygenation, and her diet was supplemented with nutritional drinks. Discharge plans included follow-up with her primary care physician and likely transfer to a skilled nursing facility.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort that is not painful but causes uneasiness. The chest discomfort began a few days ago, occurs intermittently throughout the day, and is accompanied by neck discomfort during episodes; both symptoms last for the same duration and have no clear triggers related to activity, eating, or position. The patient denied shortness of breath or lightheadedness during these episodes and reported additional constant knee discomfort due to arthritis, as well as recent diarrhea. The knee discomfort has remained stable and is eased by gentle movement, while head and neck pain sometimes occur together. On assessment, the doctor noted the absence of alarming symptoms such as severe pain, shortness of breath, or fainting, and suggested that the chest and neck discomfort may be related to musculoskeletal issues, mild acid reflux, or sinus problems, given the patient's history of arthritis and possible chronic sinusitis. The doctor recommended monitoring symptoms, staying hydrated due to diarrhea, and seeking prompt medical attention if severe or new symptoms develop. No specific medication changes were advised, and gentle movement was encouraged for arthritis-related knee discomfort.
+The patient is an older adult presenting with intermittent chest discomfort as the chief complaint. The chest discomfort is described as non-painful but uneasy, began a few days ago, and occurs randomly throughout the day without clear triggers such as activity, eating, or positional changes. The discomfort is accompanied by neck discomfort that occurs simultaneously and lasts for the same duration; there is no associated dyspnea or lightheadedness. The patient also reports chronic knee discomfort attributed to arthritis (which is unchanged), occasional head and neck pain, and recent diarrhea. There is no mention of relevant medications or allergies. The clinical impression suggests that the chest and neck discomfort may be due to musculoskeletal causes, mild acid reflux, or sinus-related issues, with reassurance provided due to the absence of alarming symptoms. The treatment plan includes monitoring symptoms, staying hydrated due to diarrhea, gentle movement for arthritis, and seeking prompt medical attention if severe or new symptoms develop. No new medications or interventions were prescribed at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.498
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

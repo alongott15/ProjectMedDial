@@ -98,3 +98,23 @@ If your symptoms continue to worsen or you’re unable to keep fluids down, it w
 ## Processing Information
 
 - **Processing Time**: 330.8s
+
+## EHR Summary
+
+The patient is a 29-year-old female presenting with sore throat and odynophagia that worsened over two days, leading to inability to swallow solids or liquids and drooling. She developed vomiting, high-grade fever, and hoarse voice on admission, but denied respiratory compromise, cough, coryza, or headache. Examination revealed massive edematous inflamed epiglottis with airway compromise, and laboratory studies showed leukocytosis (WBC 18.2, 81% neutrophils). Her past medical history includes anxiety and eczema; she takes Aldactone for acne and Celexa for anxiety, with no known drug allergies. The documented diagnosis was epiglottitis. She was treated with intravenous Unasyn and Decadron, humidified air, and close airway monitoring, later transitioning to oral Augmentin and symptomatic lidocaine solution for throat pain. The patient improved clinically, was able to tolerate oral intake, and was discharged home in good condition with instructions for follow-up.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with a chief complaint of severe sore throat and painful swallowing (odynophagia) for the past couple of days. Symptoms include high fever, hoarseness, constant throat pain worsened by swallowing, significant difficulty swallowing both solids and liquids, drooling, and some vomiting; there is no cough, neck/jaw swelling, or respiratory distress. The patient reports worsening symptoms over time and visible throat redness without spots or airway compromise. Relevant history regarding past medical conditions, medications, or allergies is not specified.
+
+The clinical impression is a severe pharyngitis likely due to a viral or bacterial infection, with concern for significant throat inflammation given the drooling and odynophagia. The treatment plan includes recommendations for maintaining hydration by sipping fluids, using soothing fluids like warm tea or broth, and over-the-counter pain relief. The doctor advised urgent evaluation if breathing difficulty, severe neck swelling, or inability to swallow fluids develops, and suggested in-person assessment and possible rapid strep testing if symptoms worsen or oral intake remains poor.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.563
+- **Model Used**: general
+- **Text1 Length**: 137 words
+- **Text2 Length**: 166 words
+

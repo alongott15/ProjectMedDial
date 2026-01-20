@@ -85,16 +85,23 @@ Let me ask—how much is this affecting your day-to-day life? Are there activiti
 
 ## EHR Summary
 
-The patient is a 68-year-old male presenting with worsening exercise tolerance over the past couple of months. He reports that his ability to bike has decreased from five miles last year to barely one mile recently, accompanied by generalized weakness. He occasionally experiences chest tightness during exercise radiating to both shoulders but denies dyspnea, nausea, vomiting, lightheadedness, or palpitations. His medical history is significant for long-standing diabetes mellitus with neuropathy, retinopathy, and nephropathy; he is allergic to Percocet (tachycardia). On examination, he was in no acute distress with stable vital signs and 1+ ankle edema bilaterally. Laboratory results showed mild elevation in white blood cell count and creatinine. The patient underwent cardiac catheterization for further evaluation of his symptoms. The diagnosis and specific treatment plan are not documented in the provided note.
+The patient is a 68-year-old male presenting with worsening exercise tolerance over the past couple of months. He reports that his ability to bike has decreased from five miles last year to barely one mile recently, accompanied by generalized weakness. He occasionally experiences chest tightness during exercise radiating to both shoulders but denies dyspnea, nausea, vomiting, lightheadedness, or palpitations. Relevant history includes long-standing diabetes mellitus with neuropathy, retinopathy, and nephropathy; he is on Glucovance, Neurontin, insulin (NPH and regular), and Lipitor. Physical exam revealed 1+ bilateral ankle edema but was otherwise unremarkable. The patient was admitted for further evaluation and underwent cardiac catheterization. The documented diagnosis is not specified in the note. Treatment included inpatient workup and cardiac catheterization; further management details are not provided.
+
 
 ## Dialogue Summary
 
-The patient presented with decreased exercise tolerance and difficulty performing usual activities. Over the past few months, they have experienced gradually worsening fatigue and chest tightness during exertion, particularly when walking uphill or carrying heavy objects; these symptoms resolve quickly with rest and are not present at rest. The patient denied significant shortness of breath, lightheadedness, or symptoms triggered by weather, but reported some generalized weakness with daily tasks such as climbing stairs and lifting objects. No specific medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the pattern of exertional chest tightness and fatigue relieved by rest is suggestive of possible angina or reduced blood flow to the heart during activity, while also considering age-related cardiovascular changes. The doctor emphasized the importance of ruling out angina and noted the absence of more concerning symptoms such as fainting or severe pain. The patient acknowledged that these symptoms have led them to avoid certain activities. The doctor explained the likely causes and the significance of the symptom pattern, and discussed next steps for evaluation.
+The patient is an adult presenting with decreased exercise tolerance as the chief complaint. Over the past few months, they have experienced gradually worsening fatigue and chest tightness during physical activity, particularly with increased exertion such as walking uphill or carrying heavy objects; these symptoms resolve quickly with rest and are not present at rest. The patient also reports generalized weakness with daily tasks but denies significant shortness of breath or lightheadedness. There is no mention of relevant past medical history, medications, or allergies in the dialogue.
+
+The clinician’s assessment suggests possible angina due to insufficient blood flow to the heart during exertion, noting that the pattern of exertional chest tightness relieved by rest is classic for this condition. No definitive diagnosis was documented, but angina was discussed as a likely consideration. The patient has adapted by avoiding more strenuous activities. No specific treatment or medication was prescribed during this encounter; further evaluation to rule out cardiac causes was implied but not explicitly stated.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.698
+- **Model Used**: general
+- **Text1 Length**: 125 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

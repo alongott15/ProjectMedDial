@@ -89,16 +89,21 @@ Does it feel like these episodes are happening more often or getting worse over 
 
 ## EHR Summary
 
-The patient is a 51-year-old male presenting with a one-year history of chest pain. He reported multiple episodes of palpitations, heart racing, shortness of breath, dizziness, and syncope. His medical history includes cardiomyopathy, dilated ascending aorta, hypertension, significant tobacco and alcohol use, depression with prior admissions for suicidal ideation, and panic disorder. Cardiac catheterization revealed a pulmonary capillary wedge pressure of 23 mmHg, LVEDP of 28 mmHg, ejection fraction of 24%, 1+ mitral regurgitation, and no coronary artery disease. On physical exam, he was in no acute distress with stable vital signs but had scattered rales at the lung bases and a palpable liver. The documented diagnosis was ascending aortic aneurysm with severe cardiomyopathy. The patient underwent surgical repair of the ascending aortic aneurysm and aortic valve replacement with dacron grafts.
+The patient is a 51-year-old male presenting with a one-year history of chest pain, palpitations, heart racing, shortness of breath, dizziness, and syncope. Symptoms were associated with underlying cardiomyopathy and a dilated ascending aorta, with recent catheterization revealing elevated pressures and reduced ejection fraction. Past medical history includes hypertension, significant tobacco and alcohol use, depression with prior suicide attempts, and panic disorder. The patient was admitted for further imaging and subsequently underwent surgical repair of an ascending aortic aneurysm and aortic valve replacement. Postoperatively, he developed delirium and transient atrial fibrillation with first-degree AV block, which resolved with amiodarone. Delirium persisted, requiring psychiatric consultation and treatment with haloperidol and benzodiazepines. The documented diagnoses at discharge were status post aortic dissection repair and delirium. He was discharged in good condition to rehabilitation with a regimen including haloperidol, clonazepam, amiodarone, metoprolol, furosemide, and supportive medications, with follow-up arranged with primary care and cardiology.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain that has been causing significant anxiety. Symptoms include episodes of chest pressure (rated 7/10 at worst), heart racing (palpitations), shortness of breath, dizziness, and fainting (syncope), with episodes lasting several minutes or longer and sometimes leading to confusion or disorientation. The patient reported that stress worsens the symptoms, and these episodes have become more frequent, leading to avoidance of activities like walking alone or driving due to safety concerns. No specific medical history, medications, or allergies were mentioned. The doctor noted the combination of chest pressure, palpitations, shortness of breath, dizziness, and fainting, particularly during stressful times, and emphasized that these symptoms could indicate heart rhythm issues, blood pressure changes, or anxiety-related responses. The assessment highlighted the need to rule out cardiac or circulatory causes given the presence of syncope and ongoing dizziness. The doctor recommended arranging an EKG and blood work for further evaluation and advised the patient to avoid situations where fainting could be dangerous. The patient was also instructed to seek urgent care if severe chest pain, pain radiating to the arm or jaw, or prolonged loss of consciousness occurs.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is described as a pressure sensation, rated up to 7 out of 10 in intensity, and is accompanied by palpitations (heart racing), shortness of breath (dyspnea), dizziness, and episodes of fainting (syncope), particularly during periods of stress. The episodes last several minutes or longer and have increased in frequency, sometimes causing confusion or disorientation. The symptoms have significantly impacted the patient's daily life, leading to avoidance of activities such as walking alone or driving due to safety concerns. Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression includes possible heart rhythm issues, blood pressure changes, or anxiety-related responses, with emphasis on the need to rule out cardiac or circulatory causes due to the presence of syncope. The treatment plan includes arranging an EKG and blood work for further evaluation and advising the patient to avoid situations where fainting could be dangerous. The patient was also instructed to seek urgent care if severe or persistent chest pain, pain radiating to the arm or jaw, or prolonged loss of consciousness occurs.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.554
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 191 words
+
 
 ## Processing Information
 

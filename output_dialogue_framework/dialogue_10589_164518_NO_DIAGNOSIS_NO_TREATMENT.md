@@ -85,16 +85,21 @@ Does anything seem to make the pain or itching better or worse, or is it fairly 
 
 ## EHR Summary
 
-The patient is a 76-year-old male presenting with acute onset abdominal pain, ultimately requiring colonic resection for ischemic gut. He reported a six-week history of pruritus, 12-pound unintentional weight loss, dark urine, and light stools prior to admission. His past medical history includes autoimmune hepatitis, coronary artery disease, hypercholesterolemia, COPD, hypertension, left carotid occlusion, gastritis, non-insulin dependent diabetes mellitus, Raynaud's phenomenon, cholelithiasis, and idiopathic pleural effusions. On admission, vital signs were notable for hypertension (BP 181/98), and laboratory studies showed elevated white blood cell count (11.2), creatinine (1.6), glucose (283), and liver function tests (ALT 176, alkaline phosphatase 165). Imaging revealed colonic distention with stool and air in the rectum and distal colon. The documented diagnosis was ischemic gut requiring surgical intervention, with a background of autoimmune hepatitis confirmed by liver biopsy. Treatment included colonic resection and ongoing management of his chronic conditions. No drug allergies were reported.
+The patient is a 76-year-old male presenting with acute onset abdominal pain, ultimately leading to colonic resection for ischemic gut. He experienced diffuse, steady abdominal pain radiating to the back, associated with constipation, nausea, and vomiting, without relief from positional changes or activity. His prior medical history includes autoimmune hepatitis, coronary artery disease, COPD, hypertension, non-insulin dependent diabetes mellitus, and other chronic conditions; he has no known drug allergies and was on multiple medications including prednisone and coumadin. Imaging revealed colonic distention and pneumatosis, and laboratory studies showed mild leukocytosis and elevated creatinine and glucose. The documented diagnosis was ischemic bowel requiring right hemicolectomy with diverting ileostomy and mucus fistula, in the context of underlying autoimmune hepatitis. Treatment included urgent IV antibiotics, surgical intervention, ventilatory support postoperatively, and gradual advancement of diet with physical therapy prior to discharge. On discharge, he was stable, tolerating oral intake, and prescribed aspirin, atenolol, lipitor, atrovent, coumadin, citrucel, multivitamin, protonix, actigall, prednisone, levofloxacin for 6 days, and flagyl for 6 days. He was discharged home with visiting nursing and scheduled for surgical follow-up.
+
 
 ## Dialogue Summary
 
-The patient presented with sudden-onset abdominal pain as the chief complaint. The pain was described as diffuse across the abdomen, sometimes radiating to the back, rated 7–8 out of 10 in severity, and was constant without clear triggers or relieving factors. Additional symptoms included steady skin itching (not worsened at any particular time and unrelieved by lotion), dark urine, lighter stools, constipation with gradual return of bowel function, nausea, vomiting, and unintentional weight loss; the patient denied any yellowing of the eyes or skin. No relevant past medical history, medications, or allergies were mentioned. On review, there were no physical findings noted beyond the patient’s descriptions. The doctor assessed that the constellation of symptoms could indicate a possible issue with the liver or bile ducts, such as blockage or inflammation, given the changes in bile processing. The doctor recommended monitoring for new or worsening symptoms (especially jaundice, increased pain, fever, or worsening vomiting), advised staying hydrated, and suggested avoiding fatty foods to help reduce discomfort until further evaluation.
+The patient presents with a chief complaint of sudden-onset, severe abdominal pain rated 7–8 out of 10. The pain is diffuse across the abdomen, sometimes radiating to the back, and is constant without clear triggers or alleviating factors. Associated symptoms include persistent skin itching, dark urine, lighter-colored stools, nausea, vomiting, constipation with gradual improvement, and unintentional weight loss; there is no reported jaundice. No relevant past medical history, medications, or allergies are documented. The clinical impression discussed by the doctor is a possible issue with the liver or bile ducts, such as blockage or inflammation, given the constellation of symptoms. The patient was advised to monitor for new or worsening symptoms (especially jaundice, increased pain, fever, or worsening vomiting), seek further evaluation soon, stay hydrated, and avoid fatty foods to reduce discomfort. No specific diagnosis or medication was documented at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.584
+- **Model Used**: general
+- **Text1 Length**: 179 words
+- **Text2 Length**: 142 words
+
 
 ## Processing Information
 

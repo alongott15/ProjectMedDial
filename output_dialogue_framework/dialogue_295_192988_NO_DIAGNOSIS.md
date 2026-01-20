@@ -89,16 +89,21 @@ Does the soreness or unsteadiness seem to be getting better, staying the same, o
 
 ## EHR Summary
 
-The patient is a 61-year-old female presenting with loss of consciousness at home, followed by a fall resulting in left rib bruising. She reported no acute distress on examination but demonstrated increased instability with heel-to-toe ambulation and swaying with Romberg. Her past medical history includes hypertension, chronic urinary tract infection, deep venous thrombosis, and prior palpitations; home medications included Rhinocort, Tylenol, hydrochlorothiazide, Lipitor, and aspirin. Physical exam was notable for blood pressure of 148/89, normal cranial nerve findings, and a longstanding hard palate mass. Magnetic resonance imaging revealed a cerebral aneurysm. The patient was admitted and taken directly for an angiogram. No known drug allergies were reported.
+The patient is a 61-year-old female presenting with loss of consciousness at home, followed by a fall resulting in left rib bruising. She reported no acute distress on examination but demonstrated increased instability with heel-to-toe ambulation and swaying with Romberg. Her past medical history includes hypertension, chronic urinary tract infection, deep venous thrombosis, and prior palpitations; home medications included Rhinocort, Tylenol, hydrochlorothiazide, Lipitor, and aspirin, with no known drug allergies. Imaging revealed a cerebral aneurysm, specifically a right internal carotid artery cavernous aneurysm. She underwent angiogram with coiling of the aneurysm and received heparin and Ancef (Kefzol) for prophylaxis postoperatively. The hospital course was notable for a rash attributed to Kefzol, which resolved after discontinuation and administration of Benadryl. At discharge, her condition was good, and she was instructed to take aspirin 325 mg daily and follow up in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with recent loss of consciousness as the chief complaint. Symptoms included a sudden fainting episode while standing, with no preceding warning signs such as lightheadedness, sweating, or palpitations, and subsequent mild unsteadiness when walking, especially during heel-to-toe movements. The patient reported bruising and mild soreness around the left ribs following the episode, with pain noticeable on certain movements but not affecting breathing; energy levels remained normal. Relevant history included prior palpitations but no previous episodes of syncope, and no mention of medications or allergies. On assessment, the doctor noted the absence of confusion or headache post-episode, persistent rib soreness, and ongoing gait unsteadiness. The working diagnosis considered possible causes such as orthostatic hypotension, cardiac arrhythmia, or neurological factors, given the sudden onset and post-episode symptoms. The doctor recommended gentle rest for the rib soreness, monitoring for worsening symptoms, and advised blood pressure checks (sitting and standing), heart rhythm review, and basic blood tests to investigate underlying causes. The patient was instructed to seek immediate care if chest pain, persistent weakness, speech difficulties, or recurrent fainting occurred.
+The patient is an adult presenting with a chief complaint of a recent episode of loss of consciousness (syncope) while standing. The episode occurred suddenly without warning signs such as lightheadedness, palpitations, or sweating, and was followed by mild unsteadiness when walking and bruising with soreness around the left ribs. The patient denies headache, confusion, or difficulty breathing, and reports no prior episodes of syncope but does have a history of palpitations. There is no mention of current medications or allergies. The clinical impression is a sudden unexplained syncopal episode with post-fall rib bruising and mild gait unsteadiness. The treatment plan includes gentle rest for the rib soreness, monitoring for worsening symptoms, and further evaluation with orthostatic blood pressure measurements, heart rhythm assessment, and basic blood tests. The patient was advised to seek immediate care if warning signs such as chest pain, persistent weakness, or recurrent syncope occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.432
+- **Model Used**: general
+- **Text1 Length**: 141 words
+- **Text2 Length**: 148 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ Let me know if you have questions or concerns about what to watch for, or if you
 
 ## EHR Summary
 
-The patient is a 69-year-old male presenting with left lower extremity cellulitis and hematoma. He developed a focal hematoma on his left shin after bumping it with a suitcase six days prior, which progressively enlarged and was associated with localized shin pain but no distal weakness, sensory deficits, fever, or chills. His past medical history includes congestive heart failure (CHF) with ejection fraction of 35%, atrial fibrillation on Coumadin, cardiomyopathy, coronary artery disease status post CABG, pulmonary hypertension, obstructive sleep apnea on BiPAP, and prior aortic valve replacement. On presentation, his INR was recently supratherapeutic but his vital signs were stable and he was afebrile. Physical exam findings are not detailed in the note. The documented diagnosis was left lower extremity cellulitis with associated hematoma. Treatment included initiation of IV Ancef after obtaining blood cultures, following prior outpatient therapy with oral Keflex and pain management with Vicodin.
+The patient is a 69-year-old male presenting with left lower extremity cellulitis and hematoma following trauma to his left shin six days prior to admission. He reported progressive swelling and pain at the hematoma site, with surrounding erythema and edema, but denied fever, chills, distal weakness, or sensory deficits. His past medical history includes congestive heart failure (CHF) with EF 35%, atrial fibrillation on Coumadin, ischemic cardiomyopathy, coronary artery disease, status post aortic valve replacement, and other comorbidities; he is allergic to penicillin (rash) and morphine (paranoia). On admission, his INR was supratherapeutic at 4.4, and he had been on oral Keflex for four days without improvement. The documented diagnoses were left lower extremity hematoma, left leg cellulitis, CHF, atrial fibrillation, and coronary artery disease. Treatment included holding and then restarting Coumadin, IV Ancef followed by oral Keflex for a total of 7 days, surgical evacuation of the hematoma, wound care with pressure dressings, and continuation of his cardiac medications. He was discharged home with plans for wound care via VNA and follow-up with his primary care physician and surgery clinic.
+
 
 ## Dialogue Summary
 
-The patient presented with pain in the left leg at the site of a bruise. The pain began a few days ago, is rated 7 out of 10 in severity, worsens with walking or movement, and improves somewhat with rest. The patient reported that the bruise on the left shin has increased in size, changed color, developed surrounding redness, and is associated with swelling and warmth; no drainage was noted. There is no history of fever, chills, or general malaise, but the swelling and discomfort have made it difficult for the patient to walk normally at home. The doctor noted the increasing size, redness, and warmth of the bruise and explained these could indicate irritation or possible infection of the tissue under the skin. The doctor advised resting the leg, keeping it elevated, applying a cool compress for swelling, and avoiding excessive weight-bearing. The patient was instructed to monitor for spreading redness, fever, or drainage and to seek prompt medical attention if these symptoms develop.
+The patient is an adult presenting with pain in the left leg at the site of a bruise. The pain began a few days ago, is rated 7 out of 10 in severity, worsens with walking or movement, and improves somewhat with rest. The patient reports that the bruise has increased in size, changed color, and is now associated with redness, swelling, and warmth, but denies fever, chills, drainage, or feeling generally unwell. The swelling and discomfort are significant enough to make walking at home difficult. There is no documented relevant medical history, medications, or allergies. The clinical impression is a bruised left shin with signs of possible irritation or early infection (such as increasing redness, swelling, and warmth), though no definitive diagnosis of infection was made. The treatment plan includes rest, leg elevation, application of a cool compress, minimizing weight-bearing, and monitoring for worsening symptoms such as spreading redness, fever, or drainage, with instructions to seek prompt medical attention if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.487
+- **Model Used**: general
+- **Text1 Length**: 181 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

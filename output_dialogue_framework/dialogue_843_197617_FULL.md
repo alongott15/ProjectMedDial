@@ -89,16 +89,21 @@ Let me know if you have any questions or if there's someone who can help get you
 
 ## EHR Summary
 
-The patient is a 45-year-old man presenting with fever and neutropenia. He reported fevers up to 104°F and increasing lower extremity weakness, but denied headache, neck stiffness, photophobia, cough, sore throat, nausea, vomiting, diarrhea, abdominal pain, dysuria, and chest pain. His medical history is significant for HIV, non-Hodgkin's lymphoma with renal and bone marrow involvement, Hodgkin's disease in remission, prior lymphomatous meningitis, tumor lysis syndrome, Cryptosporidium infection, and PCP. On examination, cerebrospinal fluid (CSF) analysis initially showed no white cells and normal protein and glucose, but a subsequent CSF gram stain revealed gram-positive cocci. The documented clinical impression was fever and neutropenia in the context of immunosuppression and recent lymphomatous meningitis. Treatment included initiation of broad-spectrum antibiotics (Vancomycin, Ticarcillin, Ampicillin, Ceftriaxone) and Acyclovir. The patient was also maintained on antiretroviral therapy and Bactrim for prophylaxis.
+The patient is a 45-year-old man presenting with fever and neutropenia. He reported fevers up to 104°F and increasing lower extremity weakness, but denied headache, neck stiffness, photophobia, cough, sore throat, nausea, vomiting, diarrhea, abdominal pain, dysuria, and chest pain. His medical history includes HIV, non-Hodgkin's lymphoma with renal and bone marrow involvement, Hodgkin's disease in remission, prior lymphomatous meningitis, tumor lysis syndrome, Cryptosporidium infection, and PCP. On admission, physical exam revealed right third nerve palsy, left facial weakness, decreased distal sensation in both lower extremities, and dysmetria. Laboratory findings included a white blood cell count of 12.4 and sodium of 124; CSF analysis initially showed no infection but later revealed gram-positive cocci. The clinical impression was fever and neutropenia in the setting of immunosuppression and recent lymphomatous meningitis. Treatment included broad-spectrum antibiotics (Vancomycin, Ticarcillin, Acyclovir, Ampicillin, Ceftriaxone), Decadron, and intrathecal chemotherapy. Despite aggressive management, the patient’s condition declined and he died during hospitalization.
+
 
 ## Dialogue Summary
 
-The patient presented with fever as the chief complaint. Symptoms included fever for several days (exact temperature not recalled), progressive weakness in the legs that began before the fever and has worsened over time, decreased sensation in both lower legs, difficulty with daily activities such as walking and dressing, and a decline in mental focus and functioning. The patient denied starting new medications recently and reported no recent infections prior to symptom onset; past infections were mentioned but not specified. Additional symptoms of right eye drooping and left facial weakness were noted at the end of the visit. The doctor assessed that the combination of fever, progressive leg weakness, sensory changes, cognitive decline, and cranial nerve findings may indicate a neurological process, possibly involving the nerves or an inflammatory/autoimmune condition, rather than a simple viral illness. The doctor recommended urgent evaluation at an emergency department or urgent care for a detailed neurological exam and further testing, advised fall precautions, and instructed the patient to seek immediate care if symptoms such as difficulty speaking, swallowing, breathing, or sudden worsening of weakness occur.
+The patient presents with fever as the chief complaint. Key symptoms include progressive weakness in the legs that began before the onset of fever, worsening over time, decreased sensation in both lower legs, difficulty with daily activities, and a decline in mental focus. The patient also reports right eye drooping and left facial weakness. There is no history of new medications or recent infections prior to symptom onset. The doctor notes that the combination of fever, progressive leg weakness, sensory changes, cognitive decline, and cranial nerve findings suggests a possible neurological process affecting the nerves or nervous system, rather than a simple viral illness. No specific diagnosis is documented. The treatment plan includes urgent evaluation at an emergency department or urgent care for a detailed neurological exam and further testing, with advice to avoid fall risks and seek immediate care if symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.638
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 143 words
+
 
 ## Processing Information
 

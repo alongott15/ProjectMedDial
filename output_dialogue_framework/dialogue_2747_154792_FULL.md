@@ -85,16 +85,23 @@ Let me ask—have you noticed any wheezing or cough during these episodes, or do
 
 ## EHR Summary
 
-The patient is a 51-year-old male presenting for evaluation of aortic regurgitation and ascending aortic dilation. He reports shortness of breath with heavy exertion over the past several years but denies dyspnea with stair climbing or walking and has no chest pain. His history includes congenital aortic stenosis repaired at age 12, a 40-pack-year smoking history, and prior aortic valvuloplasty. On examination, he was in no acute distress, with clear lungs and a grade 3/6 systolic ejection murmur; laboratory values were within normal limits. Echocardiogram showed 2+ aortic regurgitation, mild aortic stenosis, and marked dilation of the ascending aorta. The documented diagnoses were aortic regurgitation and ascending aortic dilation. During hospitalization, he underwent aortic valve replacement and ascending aorta replacement with coronary artery reimplantation. The treatment plan included surgical intervention following cardiac catheterization.
+The patient is a 51-year-old male presenting with a history of aortic regurgitation and ascending aortic dilation. He reported shortness of breath with heavy exertion for several years but denied dyspnea with stair climbing or walking and had no chest pain. His past medical history includes congenital aortic stenosis (status post valvuloplasty at age 12) and a 40-pack-year smoking history; he has no known drug allergies. Echocardiogram and cardiac catheterization revealed significant aortic regurgitation, mild aortic stenosis, and a markedly dilated ascending aorta. The documented diagnoses were aortic regurgitation, ascending aortic dilation, and status post aortic valve and ascending aorta replacement with coronary artery reimplantation. He underwent redo aortic valve replacement and ascending aorta replacement with coronary artery reimplantation, tolerated the procedure well, and had an uncomplicated postoperative course aside from a brief episode of atrial fibrillation that resolved spontaneously. At discharge, he was stable, in good condition, and neurologically intact. Discharge medications included Colace, aspirin, Tylenol, Percocet, captopril, Lopressor, and trazodone, with instructions for cardiac diet and follow-up with his cardiologist and surgeon.
+
 
 ## Dialogue Summary
 
-The patient presented with exertional shortness of breath as the chief complaint. Symptoms included difficulty catching breath only during strenuous activity, brief palpitations during a short run, and no chest pain, lightheadedness, wheezing, or cough; symptoms resolved quickly with rest and did not affect daily activities or occur at rest or at night. The patient denied any history of asthma or lung problems and reported no need to cut back on usual tasks. No physical findings were described in the conversation. The doctor assessed the symptoms as likely related to mild deconditioning, age-related changes, or benign heart rhythm changes, noting the absence of concerning features such as persistent symptoms, chest pain, or nocturnal breathing issues. The doctor reassured the patient that the pattern was not suggestive of serious heart or lung disease and explained that palpitations resolving quickly without other symptoms are generally not dangerous. No specific treatment was recommended at this time; further evaluation would depend on any future changes or additional symptoms.
+The patient is an adult presenting with exertional shortness of breath as the chief complaint. Symptoms include dyspnea occurring only during strenuous physical activity, with rapid resolution upon rest, and a brief episode of palpitations lasting one to two minutes that resolved spontaneously. The patient denies chest pain, lightheadedness, orthopnea, paroxysmal nocturnal dyspnea, wheezing, cough, or any history of asthma or lung disease. There is no limitation of daily activities, and symptoms have remained stable over time.
+
+The clinical impression documented by the physician suggests the pattern is consistent with mild deconditioning, age-related changes, or possibly benign causes such as mild asthma or non-dangerous heart rhythm changes. The physician reassured the patient that the symptoms are not indicative of serious heart or lung disease given their characteristics and lack of progression. No specific treatment was prescribed at this visit; the focus was on reassurance and further clarification of respiratory history.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.591
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 150 words
+
 
 ## Processing Information
 

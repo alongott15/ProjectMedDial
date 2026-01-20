@@ -89,16 +89,23 @@ Let me know if you have any questions about what might be going on or about step
 
 ## EHR Summary
 
-The patient is a 77-year-old male presenting with four days of right upper quadrant abdominal pain, which worsened with eating. The pain persisted, prompting evaluation at an outside hospital where imaging revealed cholelithiasis and cholecystitis, with CT confirming an inflamed gallbladder and inflammatory changes. Relevant history includes coronary artery disease status post CABG, hypertension, Barrett's esophagus, prior prostatectomy, herniated lumbar disc, renal stone with prior stenting, and right inguinal hernia repair; medications include Lopressor, aspirin, Protonix, and Accupril, with an iodine allergy. On admission, he had a fever of 101.6°F, leukocytosis (WBC 13), elevated liver function tests, total bilirubin of 1.4, and a positive Murphy's sign. The documented diagnosis was acute cholecystitis with cholelithiasis. He underwent open cholecystectomy and concurrent umbilical hernia repair. Postoperative recovery was uneventful; nasogastric tube and Foley catheter were removed by postoperative day two, diet was advanced as tolerated, and the patient was discharged on postoperative day four.
+The patient is a 77-year-old male presenting with four days of right upper quadrant abdominal pain, worsened by eating. Symptoms included persistent pain, fever of 101.6°F, elevated white blood cell count (13), elevated liver function tests, and a total bilirubin of 1.4; imaging revealed cholelithiasis and cholecystitis with inflammatory changes. Relevant history includes coronary artery disease status post coronary artery bypass graft (twice), hypertension, Barrett's esophagus, prostatectomy, herniated lumbar disc, renal stones status post bilateral stents, and right inguinal hernia repair; the patient is allergic to iodine. The documented diagnoses were cholelithiasis and cholecystitis, status post open cholecystectomy and umbilical hernia repair. The patient underwent open cholecystectomy and umbilical hernia repair, followed by postoperative management with nasogastric tube, Foley catheter, morphine PCA, and gradual advancement of diet. At discharge, the patient was afebrile, pain was controlled with oral medication, and he was tolerating a regular diet and ambulating. Discharge medications included Protonix, Lopressor, Percocet as needed, Levaquin, Flagyl for ten days, and Colace. The patient was instructed to follow up in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with pain in the upper right abdomen, especially after eating. The discomfort had been present for a few days, was described as a steady dull ache rated 6 out of 10 in intensity, and worsened with food intake but not with changes in position. Associated symptoms included a mild fever; the patient denied chills, jaundice, nausea, vomiting, changes in bowel movements, appetite loss, or unintentional weight loss. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the absence of severe symptoms such as jaundice or persistent vomiting. The assessment was that the symptoms could be related to gallbladder inflammation or irritation, but did not appear emergent at this time. The doctor recommended sticking to lighter, low-fat meals, maintaining hydration, and monitoring for new or worsening symptoms such as severe pain, persistent vomiting, jaundice, or higher fever, which would require urgent attention.
+The patient presents with upper right abdominal pain as the chief complaint. The discomfort has been present for a few days, is described as a steady, dull ache rated 6 out of 10 in intensity, and is consistently worsened by eating but not affected by position; there is also a mild fever. The patient denies nausea, vomiting, changes in bowel movements, jaundice, chills, appetite loss, or unintentional weight loss. No relevant past medical history, medications, or allergies are specified.
+
+The clinical impression discussed is possible gallbladder inflammation or irritation, given the location and meal-related worsening of pain. The doctor advised dietary modifications, specifically sticking to lighter, low-fat meals and maintaining hydration. The patient was instructed to monitor for new or worsening symptoms such as severe pain, persistent vomiting, jaundice, or higher fever, which would require urgent evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.969
-- **Similarity Label**: N/A
+- **STS Score**: 0.638
+- **Model Used**: general
+- **Text1 Length**: 173 words
+- **Text2 Length**: 137 words
+
 
 ## Processing Information
 

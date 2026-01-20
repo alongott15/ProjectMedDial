@@ -87,16 +87,21 @@ Let me know if there’s anything specific you’re worried about or if you’d 
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with T7-T8 osteomyelitis. He reported several months of shoulder pain, fever, a shoulder infection, and a mass over the sternum, with persistent pain despite two incision and drainage procedures. His medical history includes hypertension, hypercholesterolemia, pancreatitis, depression, and recent cessation of alcohol abuse; he has no known drug allergies. Physical exam showed mild bilateral lower extremity edema, mild discomfort with palpation, wide gait, and good range of motion in both lower extremities. Laboratory results revealed mild anemia (Hgb 9.1–9.2 g/dL) with normal white blood cell count. MRI demonstrated increased T2 signal at T7-T8 consistent with osteomyelitis and a small bulging disc without neural impingement. The documented diagnosis was T7-T8 osteomyelitis. Treatment included IV antibiotics and staged surgical intervention: thoracotomy with anterior fusion T7-T9 and partial vertebrectomy, followed by posterior fusion T5-T11; the patient improved significantly and was able to ambulate at discharge.
+The patient is a 61-year-old male presenting with T7-T8 osteomyelitis. He reported several months of shoulder pain, fever, a shoulder infection, and a mass over the sternum, with persistent pain despite two incision and drainage procedures. MRI revealed increased T2 signal at T7 and T8 consistent with osteomyelitis, and a small bulging disk at T7-T8 without neural impingement. His past medical history includes hypertension, hypercholesterolemia, pancreatitis, depression, and recent cessation of alcohol abuse; he has no known drug allergies. The documented diagnosis was T7-T8 osteomyelitis. Treatment included anterior and posterior spinal fusion surgeries, IV vancomycin for 6 weeks for osteomyelitis, levofloxacin for 10 days for urinary tract infection, pain management, and physical/occupational therapy. He was discharged in good condition to acute rehab with instructions for activity as tolerated, use of a CTLSO brace when out of bed, and close outpatient follow-up.
+
 
 ## Dialogue Summary
 
-The patient presented with shoulder pain that has been worsening over the past few days. Symptoms include increased pain with arm movement, firm swelling of the shoulder, intermittent fever, and difficulty with daily activities such as dressing, reaching, and sleeping. The patient also reported a mass over the sternum with warmth but minimal redness, and discomfort similar to the shoulder pain but less intense. Relevant history includes a prior statement that there is an infection in the shoulder; no medications or allergies were mentioned. On examination, the doctor noted firm swelling of the shoulder and a warm lump over the sternum, without significant changes in size or persistent fever. The assessment was possible infection affecting both the shoulder and sternum, with concern for inflammation or infection spreading. The doctor recommended managing pain, keeping affected areas clean and protected, resting, avoiding strain on the shoulder, and monitoring for worsening symptoms such as increased redness, severe chest pain, persistent high fever, or feeling very unwell; prompt medical attention was advised if these occur. The patient was encouraged to stay in contact with their healthcare team regarding antibiotics or other treatments and asked for advice on sleeping comfortably with shoulder pain.
+The patient presents with shoulder pain as the chief complaint. The pain began a few days ago, has worsened with arm movement, and is accompanied by swelling, intermittent fever, and functional limitations such as difficulty dressing, reaching, and sleeping. The patient also reports a firm, uncomfortable mass over the sternum with associated warmth but minimal redness; the discomfort is similar to the shoulder pain but less intense. There is a history of being told there is an infection in the shoulder. The clinical impression is a shoulder infection with possible extension or related inflammation/infection over the sternum. The treatment plan includes managing pain, keeping affected areas clean and protected, resting, and avoiding strain on the shoulder. The patient is advised to monitor for worsening symptoms (such as increased redness, severe pain, or persistent high fever) and to contact their healthcare team regarding antibiotics or if symptoms progress.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.463
+- **Model Used**: general
+- **Text1 Length**: 141 words
+- **Text2 Length**: 147 words
+
 
 ## Processing Information
 

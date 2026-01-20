@@ -109,16 +109,23 @@ Keep paying attention to how your body responds, and don’t hesitate to scale b
 
 ## EHR Summary
 
-The patient is a 20-year-old female presenting with an L2 burst fracture. She was neurologically intact despite significant canal compromise on imaging. Her relevant history includes no documented comorbidities, and she was medically stabilized prior to surgery. Clinical findings included imaging-confirmed unstable spinal fracture without neurological deficit. The documented diagnosis was unstable L2 burst fracture with canal compromise. Treatment included anterior and posterior spinal reconstructive surgery with corpectomy, spinal fusion from T10-L4, instrumentation, and iliac crest bone graft, as well as postoperative homologous blood transfusion for anemia. Her postoperative course was unremarkable, wounds are healing well, pain is controlled with oral medications, and she is immobilized in a TLSO brace. She was discharged for continued psychiatric and physical rehabilitation, with plans for brace wear for three months and physical therapy for up to six months.
+The patient is a 20-year-old female presenting with an L2 burst fracture. She was neurologically intact despite significant canal compromise and was medically stabilized on admission. Her relevant history includes no documented comorbidities, medications, or allergies. The clinical impression was an unstable spinal fracture with canal compromise. Treatment included anterior and posterior spinal reconstructive surgery with corpectomy at L2, anterior spinal fusion from L1-L3, and posterior spinal fusion from T10-L4 with instrumentation and iliac crest bone graft. Postoperatively, she received homologous blood transfusion for residual anemia, which stabilized without symptoms, and her pain was managed with oral medications. She is immobilized in a TLSO brace, has resumed normal bowel and bladder function, and is healing well postoperatively. Discharge plans include continued psychiatric and physical rehabilitation, follow-up in 10–11 days for wound and construct assessment, brace wear for three months, and physical therapy for up to six months.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about healing after an L2 burst fracture in the lower back. Symptoms discussed included gradually improving back pain (not completely resolved), with discomfort aggravated by bending, twisting, or lifting heavy objects; the patient denied any numbness, weakness, or changes in bladder or bowel control, and reported no changes in groin sensation. The patient is able to perform most usual activities while being cautious and has not had recent imaging or follow-up with a specialist since the injury. Relevant history includes residual anemia, though the patient denied symptoms such as fatigue or shortness of breath related to this. On assessment, the doctor noted no concerning neurological symptoms and found the recovery to be progressing well, with no signs of nerve involvement. The doctor recommended scheduling a follow-up with an orthopedic or spine specialist and possibly repeat imaging to confirm proper healing and alignment. The patient was advised to continue avoiding heavy lifting and activities that strain the back, but may continue light walking and gentle stretching as long as these do not cause discomfort. The doctor emphasized monitoring for new symptoms such as leg weakness or changes in bladder/bowel function and to seek care promptly if these occur.
+The patient is an adult presenting for follow-up of a lower back (L2) burst fracture, seeking reassurance about healing. Key symptoms include gradually improving back pain without numbness, weakness, or changes in bladder or bowel control; pain is aggravated by bending, twisting, or lifting heavy objects but is otherwise manageable. The patient reports being able to perform most usual activities while avoiding overexertion and has not had recent imaging or specialist follow-up since the injury. There is a history of residual anemia, but no current symptoms such as fatigue or shortness of breath.
+
+The clinical impression is that the patient’s recovery is progressing well, with no signs of neurological compromise. The doctor recommends scheduling a follow-up with an orthopedic or spine specialist and possibly repeat imaging to confirm proper spinal alignment and healing. The patient is advised to continue avoiding heavy lifting and activities that strain the back, while gentle walking and stretching are permitted as long as they do not cause discomfort. The patient is instructed to monitor for new symptoms such as leg weakness, numbness, or changes in bladder/bowel function and to seek care promptly if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.641
+- **Model Used**: general
+- **Text1 Length**: 147 words
+- **Text2 Length**: 190 words
+
 
 ## Processing Information
 

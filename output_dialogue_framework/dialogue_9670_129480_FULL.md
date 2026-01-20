@@ -83,16 +83,21 @@ Let me ask—where exactly in your chest do you feel the pain? Is it more in the
 
 ## EHR Summary
 
-The patient is a 45-year-old woman presenting with recurrent chest pain. She experienced bilateral arm joint and throat discomfort while riding in her car, and an EKG at that time revealed a new T wave inversion; echocardiogram showed no significant change. Her relevant history includes prior right coronary and circumflex artery stents, hypothyroidism, and an allergy to sulfa medications. On admission, laboratory data showed potassium 3.5, BUN 9, and creatinine 0.6. She was found to have a 100% right coronary artery (RCA) occlusion. The patient underwent a vein graft coronary artery bypass graft (CABG) of the RCA. Postoperatively, she recovered well except for some orthostatic hypertension related to low hematocrit, which improved with fluids. She was ambulating well by discharge.
+The patient is a 45-year-old woman presenting with recurrent chest pain. She experienced bilateral arm joint and throat discomfort while riding in her car, and an EKG at that time showed new T wave inversion; an echocardiogram revealed no significant change. Her relevant history includes prior right coronary and circumflex artery stents, hypothyroidism, and an allergy to sulfa medications. On admission, she was found to have a 100% right coronary artery (RCA) occlusion. The documented diagnosis was RCA occlusion requiring surgical intervention. She underwent a coronary artery bypass graft (CABG) of the RCA and recovered well postoperatively, with transient orthostatic hypertension managed with fluids. At discharge, she was ambulating well, cleared by Physical Therapy, and prescribed medications including atenolol, Niferex, Colace, Synthroid, Prempro, Plavix, Lipitor, Percocet as needed, aspirin, and ranitidine. She was advised to follow up with her primary care provider in three to four weeks and her cardiac surgeon in six weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with recurrent chest pain. The chest pain is rated as 6 out of 10 in intensity at its worst, occurs a few times a week, lasts several minutes per episode, and is sometimes relieved by rest but not always; it is accompanied by discomfort in both arm joints and the throat, with all symptoms coming on together. The patient denied shortness of breath, sweating, or lightheadedness during episodes, and reported that the discomfort does not interrupt sleep or daily activities. No relevant medical history, medications, or allergies were mentioned. On further questioning, the pain was described as being located mostly in the center of the chest and does not radiate. The doctor assessed that the symptoms are bothersome but not severely limiting, and that serious heart-related causes are less likely given the absence of warning signs and the nature of the discomfort; possible causes discussed included muscle or joint issues, digestive problems such as acid reflux, or stress. The doctor advised caution but reassured the patient based on the current symptom profile.
+The patient presents with recurrent chest pain as the chief complaint. The chest pain is described as central, rated 6 out of 10 in intensity, occurs a few times per week, lasts several minutes per episode, and is sometimes partially relieved by rest. Associated symptoms include discomfort in both arm joints and the throat during episodes; there is no dyspnea, diaphoresis, or lightheadedness. The episodes do not interrupt sleep or daily activities. Relevant medical history, medications, and allergies are not specified. The clinical impression is that serious cardiac causes are less likely given the symptom profile, though caution is advised. The physician discussed possible non-cardiac etiologies such as musculoskeletal, gastrointestinal (e.g., acid reflux), or stress-related causes. No specific treatment was documented; the focus was on reassurance and further assessment of symptom characteristics.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.437
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 132 words
+
 
 ## Processing Information
 

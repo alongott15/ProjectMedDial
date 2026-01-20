@@ -101,16 +101,21 @@ Otherwise, gentle care and monitoring are the best approach. If anything changes
 
 ## EHR Summary
 
-The patient is an 86-year-old male presenting after being struck by a car traveling at approximately 20–25 mph. He reports mild right orbital pain and denies loss of consciousness, though he cannot recall all details of the incident. His past medical history is significant for hypertension, and he has no known drug allergies. On examination, he was alert with stable vital signs, a right supraorbital laceration (3–3.5 cm), blood from the right nare, and a small left thumb laceration; no other acute injuries were noted. Laboratory studies were notable for mild leukocytosis (WBC 12.5) and slightly elevated creatinine (1.4), with otherwise unremarkable results. Imaging revealed no pneumothorax, fractures, or other acute findings. The clinical impression is minor trauma with soft tissue injuries following a pedestrian-vehicle accident. Treatment included wound care for lacerations and observation.
+The patient is an 86-year-old male presenting after being struck by a car while walking. He reported mild right orbital pain and was found to have a right supraorbital laceration (3–3.5 cm), blood from the right nare, and a small left thumb laceration; he denied loss of consciousness but could not recall all events around the impact. On admission, he was alert with stable vital signs and no apparent distress; physical exam and labs were notable for mild tachycardia and elevated blood pressure, but otherwise unremarkable. Past medical history includes hypertension, and he has no known drug allergies. Imaging revealed a left temporoparietal epidural versus subdural bleed and a left occipital parenchymal bleed, with no skull or cervical spine fractures. The documented clinical impression was acute head injury with associated minor soft tissue injuries. He was admitted to the ICU for close neurological monitoring, evaluated by Neurosurgery and Ophthalmology, and subsequently deemed stable for discharge. Discharge recommendations included outpatient follow-up with Neurosurgery, Ophthalmology, and his primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with mild pain around the right eye following being hit by a car while walking. Symptoms included a dull ache rated 2 out of 10 in severity, localized to the right eye, and a brief nosebleed from the right nostril that stopped quickly on its own; no swelling, vision changes, headaches, dizziness, or balance issues were reported. The patient denied any difficulty moving the eye, double vision, or recurrence of nosebleeds, and noted that touching the area made the ache more noticeable but did not worsen it otherwise. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor found no signs of serious injury, such as bone or nerve damage, and described the presentation as consistent with a mild soft tissue injury near the eye. The doctor advised monitoring for new symptoms including increased pain, swelling, changes in vision, or recurring nosebleeds, and recommended gentle self-care measures such as using a cool compress and avoiding forceful nose blowing. The patient expressed understanding and had no further concerns.
+The patient is an adult presenting with pain around the right eye following a pedestrian–vehicle accident. The pain is described as a mild (2/10), dull ache that is slightly worsened by touch but not associated with swelling, vision changes, headaches, dizziness, or balance issues. The patient experienced a brief nosebleed from the right nostril immediately after the accident, which resolved quickly and has not recurred. There are no reported difficulties with eye movement or double vision. Relevant history of other medical conditions, medications, or allergies is not specified. The clinical impression is a mild soft tissue injury near the right eye without evidence of deeper structural damage or complications. The treatment plan includes monitoring for new symptoms (such as increased pain, swelling, vision changes, or recurrent nosebleeds), using a cool compress for soreness, and avoiding forceful nose blowing. The patient was reassured that symptoms are likely to resolve on their own within one to two weeks and was advised to seek medical attention if concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.578
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

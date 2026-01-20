@@ -98,3 +98,21 @@ If you notice any new symptoms like fever, colored mucus, chest pain, or increas
 ## Processing Information
 
 - **Processing Time**: 448.8s
+
+## EHR Summary
+
+The patient is a 72-year-old female presenting with acute onset shortness of breath. She developed dyspnea and decreased responsiveness two hours prior to admission, requiring intubation for hypoxic respiratory failure; her course was complicated by persistent secretions and failed spontaneous breathing trials, leading to tracheostomy placement. Relevant history includes hypertension, atrial fibrillation (on anticoagulation), prior cerebrovascular accident, spinal stenosis, GERD, chronic knee pain, and a penicillin allergy. On admission, she was found to have left lower lobe pneumonia with associated respiratory failure and acute mental status changes. The documented diagnosis was hypoxic respiratory failure secondary to left lower lobe pneumonia. Treatment included intubation, antibiotics (initially ceftriaxone and azithromycin, later ceftazidime and levofloxacin for Pseudomonas coverage), bronchoscopy for secretion clearance, and supportive care with fluids and vasopressors as needed. Her atrial fibrillation was managed with metoprolol and a heparin drip, with plans to transition back to Coumadin after a PEG placement.
+
+
+## Dialogue Summary
+
+The patient presents with a chief complaint of increased thick, sticky, clear mucus that has been difficult to manage over the past few days. The mucus is not discolored (no yellow or green), and its consistency makes it hard to clear, interfering with sleep and eating. The patient denies shortness of breath, wheezing, recent illness, or environmental changes but reports decreased fluid intake, reduced appetite, and darker urine without dysuria. Relevant history includes a urine output of approximately 30 cc per hour and recent onset of a rash on the abdomen with increased agitation (relationship to main complaint not established in the dialogue). The clinical impression is that dehydration is likely contributing to the thickened mucus, with infection considered less likely due to the absence of fever, colored sputum, or respiratory symptoms. The treatment plan includes increasing fluid intake (even small sips throughout the day), monitoring for worsening symptoms, and considering use of a humidifier to help thin secretions. The patient is advised to notify their healthcare team if eating or drinking remains difficult or if urine output decreases further. They are also instructed to seek medical attention if new symptoms such as fever, colored mucus, chest pain, or increased breathing difficulty develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.361
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 203 words
+

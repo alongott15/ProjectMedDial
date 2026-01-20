@@ -89,16 +89,21 @@ Does that all make sense, or is there anything else about your hand or the injur
 
 ## EHR Summary
 
-The patient is a 41-year-old male presenting for management of a complex right hand injury following an accidental gunshot wound sustained while hunting. He experienced extensive soft tissue, tendon, and bone loss in the right hand, with only partial remnants of the index and fifth metacarpal bones and loss of all metacarpals at the carpal metacarpal level. His past medical history includes borderline hypertension and multiple prior right hand surgeries. On admission, physical findings included significant deficits in the right hand requiring reconstructive intervention. The documented clinical impression was severe traumatic injury to the right hand with composite tissue loss. Treatment included left radial forearm free tissue transfer to the dorsum of the right hand, split thickness skin graft from the left thigh to the left forearm, and placement of antibiotic-impregnated methacrylate spacers in the right hand. Postoperatively, he was monitored in the ICU for free flap viability before transfer to the surgical floor for continued care.
+The patient is a 41-year-old male presenting for management of a severe right hand injury following an accidental gunshot wound sustained while hunting. He experienced extensive soft tissue, tendon, and bone loss in the right hand, with only partial remnants of the index and fifth metacarpal bones remaining and loss at the carpal metacarpal level. His past medical history includes borderline hypertension and multiple prior right hand surgeries. The documented clinical impression was complex traumatic injury to the right hand requiring reconstructive surgery. During this admission, he underwent left radial forearm free tissue transfer to the dorsum of the right hand, split thickness skin grafting from the left thigh, and placement of antibiotic-impregnated spacers. Postoperatively, his pain was well controlled, and he had an uneventful recovery with occupational therapy involvement and transition from cast to splint. He was discharged in stable condition with instructions for wound care, visiting nurse assistance, and follow-up for further surgical planning. Discharge medications included Keflex, aspirin, OxyContin, and oxycodone.
+
 
 ## Dialogue Summary
 
-The patient presented with a gunshot wound to the back of the right hand. Symptoms included significant pain rated 7 out of 10, difficulty using the hand for regular activities due to pain, but no numbness, loss of finger movement, swelling, redness, or drainage. The injury occurred a couple of days ago; the patient cleaned and bandaged the wound immediately and has been keeping it clean. No history of recent tetanus vaccination was recalled. On examination, there were no signs of infection or neurovascular compromise reported by the patient. The doctor assessed the wound as painful but without current evidence of infection or structural damage, noting ongoing risk for infection and importance of monitoring. The treatment plan included keeping the area clean and dry, changing the bandage daily, avoiding heavy use until pain improves, monitoring for signs of infection (such as spreading redness, pus, increasing pain, fever, or new movement problems), seeking prompt care if these develop, and obtaining a tetanus booster soon. The patient understood and agreed with the recommendations.
+The patient is an adult presenting with a gunshot wound to the back of the right hand as the chief complaint. The injury occurred a couple of days ago and is associated with significant pain rated 7 out of 10, but there is no numbness, difficulty moving fingers, swelling, redness, or drainage. The patient cleaned and bandaged the wound immediately after the injury and reports difficulty performing daily activities due to pain, though hand movement is preserved. Relevant history regarding tetanus vaccination is unknown. The clinical impression is a recent gunshot wound to the right hand without signs of infection or neurovascular compromise. The treatment plan includes keeping the wound clean and dry, changing the bandage daily, monitoring for signs of infection (such as redness, pus, increasing pain, fever, or loss of movement), avoiding heavy use until pain improves, and obtaining a tetanus booster due to uncertain vaccination status. The patient was advised to seek prompt care if any warning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.507
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

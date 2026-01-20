@@ -87,16 +87,23 @@ Next steps would usually involve a closer look at your medical history and possi
 
 ## EHR Summary
 
-The patient is a 63-year-old male presenting with progressive leg weakness and urinary incontinence, transferred for surgical management of spinal stenosis and posterior disc herniation at T2-T3. He reported a one-year history of ataxia, with recent worsening of leg weakness and inability to bear weight for 48 hours prior to admission. Past medical history includes Non-Hodgkin's lymphoma (treated with radiation and surgery), hypertension, and hypercholesterolemia. On examination, he had 3/5 strength in both lower extremities, increased lower extremity reflexes, and intact cranial nerves; MRI confirmed T2-T3 spinal stenosis with posterior herniation. Laboratory values on admission were within normal limits. The documented diagnosis was spinal stenosis with posterior disc herniation at T2-T3. He underwent a T2-T3 decompression laminectomy without intraoperative complications. Postoperatively, his lower extremity strength remained reduced but stable, and his vital signs were stable.
+The patient is a 63-year-old male presenting with progressive leg weakness and increased urinary incontinence over five days, on a background of one year of ataxia. He was unable to bear weight for 48 hours prior to admission and required a walker for mobility. Relevant history includes Non-Hodgkin's lymphoma (treated with radiation and surgery), hypertension, and high cholesterol. Examination revealed 3/5 strength in both lower extremities, hyperreflexia in the lower limbs, and MRI evidence of spinal stenosis with posterior disc herniation at T2-T3. The documented diagnosis was spinal stenosis with posterior herniation at T2-T3. Treatment included T2-T3 decompression laminectomy followed by a revision laminectomy due to lack of neurological improvement, as well as management of new-onset atrial fibrillation with beta blocker therapy. At discharge, the patient was stable with improved but still reduced lower extremity strength (4- out of 5) and was referred for acute rehabilitation. Discharge medications included Decadron, Metoprolol, Lactulose, Colace, Dulcolax, Senna, Hydromorphone, Terazosin, Zantac, and Atorvastatin.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening balance and difficulty walking. Symptoms included gradually increasing leg weakness over the past few weeks, trouble bearing weight, near-falls without actual falls, impaired coordination when walking (feet not landing as expected), and increased difficulty with daily tasks such as dressing and chores; the patient also reported more trouble with urinary incontinence but denied numbness or tingling in the legs or feet. No specific triggers or times of day worsened symptoms, and fine motor skills for tasks like buttoning a shirt or writing were unaffected. No relevant medical history, medications, or allergies were mentioned during the encounter. The doctor noted ongoing changes in mobility and coordination, with no sensory deficits reported. The assessment was that the symptoms likely reflect a problem with movement control rather than sensation, possibly related to the nervous system, muscles, or balance centers. The doctor recommended making the home environment safer (using sturdy shoes, clearing obstacles, considering a cane or walker), and advised seeking immediate care if new symptoms such as severe dizziness, vision changes, slurred speech, or arm weakness occur. Further evaluation of medical history and basic tests were suggested as next steps.
+The patient presents with increasing difficulty with balance and walking as the chief complaint. Over the past few weeks, the patient has experienced gradually worsening leg weakness, impaired coordination (notably ataxia while walking), and increased difficulty performing daily activities such as dressing and chores. There is no reported numbness, tingling, or specific triggers, and the symptoms are consistent throughout the day; the patient has not fallen but has had near-falls. The patient also reports recent worsening of urinary incontinence. Relevant medical history, medications, and allergies are not specified in the dialogue.
+
+The clinical impression is that the symptoms are likely related to changes in movement control, possibly involving the nervous system, muscles, or balance centers, rather than sensory deficits. The physician recommends home safety modifications (such as using sturdy shoes and clearing obstacles), and considering assistive devices like a cane or walker to reduce fall risk. The patient is advised to seek immediate care if acute neurological symptoms develop. Further evaluation of medical history and basic diagnostic tests are suggested as next steps.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.464
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

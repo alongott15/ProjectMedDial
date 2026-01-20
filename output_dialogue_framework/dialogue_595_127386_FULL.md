@@ -87,16 +87,21 @@ Let me ask—can you describe what the pain feels like? Is it throbbing, sharp, 
 
 ## EHR Summary
 
-The patient is a 44-year-old woman presenting with headache. She developed an acute, maximal-onset, dull headache at the back of her head two days after undergoing endoscopic retrograde cholangiopancreatography for gallstones, with subsequent nausea and neck stiffness but no fever, chills, or visual symptoms. The headache worsens with coughing or straining and is currently rated as 7 out of 10 in severity. Her past medical history is significant for multiple sclerosis treated with Avonex. On evaluation, CT scan was normal and lumbar puncture showed 0–10 white cells, 240–400 red cells, glucose 49, and protein 55, with no opening pressure recorded. She received Demerol, Versed, Phenergan, Dilaudid for pain, and one dose of ceftriaxone for meningitis coverage. No explicit diagnosis was documented in the note.
+The patient is a 44-year-old female presenting with acute headache. The headache began suddenly two days after an endoscopic retrograde cholangiopancreatography for gallstones, described as maximal onset, dull, and persistent, initially occipital and later extending bifrontally, with associated nausea and neck stiffness but no fever, chills, or visual symptoms. She reported the pain worsened with coughing or straining and rated it as 7 out of 10 in severity. Her medical history includes multiple sclerosis (on Avonex), avascular necrosis of the shoulders (status post replacement), and gallstones; she is allergic to rifampin. Imaging and lumbar punctures were performed, with CSF showing persistent red blood cells but no clear evidence of infection or infarct; MRI-MRA revealed no aneurysm initially, but subsequent angiography identified a right vertebral dissecting aneurysm proximal to the vertebrobasilar junction. The documented diagnosis was a right vertebral dissecting aneurysm. Treatment included pain management with morphine and Percocet (later switched to Percocet alone), antiemetics (Reglan and Compazine), and a lumbar epidural blood patch; she was transferred to neurosurgery for further management of the aneurysm. Upon transfer, her condition was stable.
+
 
 ## Dialogue Summary
 
-The patient presented with a sudden-onset headache that was different from their usual pattern. The headache began earlier in the day, reached peak intensity within an hour, and was rated 7 out of 10 in severity; it was described as throbbing and diffuse (all over the head). Associated symptoms included sensitivity to light, nausea, and vomiting, with bright lights worsening the pain; no visual changes, weakness, numbness, trouble speaking, fever, neck stiffness, or rash were reported. No relevant medical history, medications, or allergies were mentioned. On clinical questioning, the doctor noted the absence of neurological deficits or meningeal signs. The assessment was that the presentation could be consistent with migraine, though the sudden onset warranted monitoring for more serious causes. The doctor advised rest in a dark, quiet room, hydration, and use of over-the-counter pain relievers if tolerated, and instructed the patient to seek urgent care if new symptoms such as confusion, persistent vomiting, fainting, high fever, stiff neck, vision loss, or weakness developed.
+The patient is an adult presenting with a sudden-onset headache as the chief complaint. The headache began earlier in the day, reached peak intensity within an hour, is rated 7 out of 10, and is described as throbbing and diffuse (not localized to one side or area). Associated symptoms include photophobia (sensitivity to light), nausea, and vomiting, with bright lights worsening the pain; there are no visual changes, weakness, numbness, speech difficulties, fever, neck stiffness, or rash. The patient reports that this headache is different from their usual pattern. The clinical impression discussed was a possible migraine, though the sudden onset warrants monitoring for more serious causes. The treatment plan includes resting in a dark, quiet room, staying hydrated, and considering over-the-counter pain relievers if tolerated. The patient was advised to seek urgent care if new symptoms such as confusion, persistent vomiting, fainting, high fever, stiff neck, vision loss, or weakness develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.510
+- **Model Used**: general
+- **Text1 Length**: 180 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

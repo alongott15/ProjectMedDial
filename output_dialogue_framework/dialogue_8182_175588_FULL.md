@@ -87,16 +87,21 @@ Let me know if you’ve had any recent injuries or if there’s anything else yo
 
 ## EHR Summary
 
-The patient is an 81-year-old male presenting with a ruptured pseudoaneurysm. He reported a pulsatile mass in his left groin following a recent cardiac catheterization on 2193-6-6. On examination, a pulsatile hematoma was noted in the left groin, and ultrasound confirmed a partially thrombosed left groin pseudoaneurysm with a 6 mm neck and a 2.3 cm round component containing active color flow. Laboratory results showed mild anemia (hemoglobin 8.8, hematocrit 27.3) but were otherwise unremarkable. The documented diagnosis was a left groin pseudoaneurysm. The patient underwent surgical repair of the pseudoaneurysm and remained stable postoperatively. On postoperative day 3, he experienced transient arm tightness, but cardiac workup including EKG, cardiac enzymes, and chest x-ray was normal. The treatment plan included surgical repair and postoperative monitoring.
+The patient is an 81-year-old male presenting with a ruptured pseudoaneurysm. He reported a pulsatile mass in his left groin following a recent cardiac catheterization, and physical examination revealed a pulsatile hematoma in the left groin. Ultrasound confirmed a partially thrombosed left groin pseudoaneurysm with active color flow. Relevant history includes coronary artery disease (CAD) and recent cardiac catheterization; no allergies are specified. The documented diagnoses were ruptured pseudoaneurysm and CAD. The patient underwent surgical repair of the pseudoaneurysm and was monitored postoperatively, including evaluation for transient arm tightness suggestive of possible cardiac ischemia, though cardiac workup was negative. Discharge medications included aspirin, clopidogrel, atorvastatin, lisinopril, atenolol, isosorbide mononitrate, allopurinol, acetaminophen, levofloxacin, docusate sodium, nitroglycerin as needed, and a multivitamin. He was discharged in stable condition with instructions to keep the JP drain in place and follow up with his physician within one week.
+
 
 ## Dialogue Summary
 
-The patient presented with swelling in the left groin that has increased in size and pain over the past few days. The swelling is persistent, more noticeable and uncomfortable with movement, bending, coughing, or straining, and is associated with tenderness but no redness or warmth. The patient also reported constant pain in both forearms up to the elbows, discomfort and limited movement in the shoulders, and difficulty performing daily tasks such as dressing and reaching; additional symptoms of chest pain and lightheadedness were mentioned. No recent injuries were reported. On examination, the doctor noted persistent groin swelling with increased discomfort on straining, and constant arm pain affecting daily activities. The assessment included possible hernia for the groin swelling and joint or muscle issues for the arm and shoulder symptoms. The doctor advised avoiding heavy lifting or activities that strain the affected areas and recommended seeking prompt medical attention if symptoms worsen suddenly (severe pain, redness, fever, or inability to move).
+The patient presents with swelling in the left groin as the chief complaint. The swelling has been present for a few days, is persistent, has increased in size and pain, and is more noticeable and uncomfortable with movement, bending, or straining; there is no reported redness or warmth. The patient also reports constant pain in both forearms up to the elbows, discomfort and limited movement in the shoulders, and associated difficulty with daily activities such as dressing and reaching. Additional symptoms include chest pain and lightheadedness, though no recent injuries were reported. The clinical impression documented by the physician suggests the groin swelling may be related to a hernia, given its persistence and exacerbation with coughing or straining; arm and shoulder symptoms are noted as possibly related to joint or muscle issues. The treatment plan includes avoiding heavy lifting or activities that strain the affected areas and monitoring for any sudden worsening of symptoms such as severe pain, redness, fever, or loss of movement, with instructions to seek prompt medical attention if these occur. No specific treatment was documented for the chest pain.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.483
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 183 words
+
 
 ## Processing Information
 

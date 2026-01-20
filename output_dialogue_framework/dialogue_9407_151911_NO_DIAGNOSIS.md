@@ -93,16 +93,21 @@ If you notice increasing fever, redness, difficulty breathing, or rapid enlargem
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with T7-T8 osteomyelitis. He reported several months of shoulder pain, fever, a shoulder infection, and a mass over the sternum, with persistent pain despite two incision and drainage procedures. His medical history includes hypertension, hypercholesterolemia, pancreatitis, depression, and recent cessation of alcohol abuse; he has no known drug allergies. Physical exam showed mild bilateral lower extremity edema, mild discomfort with palpation, wide gait, and good range of motion in both lower extremities. Laboratory results revealed mild anemia (Hgb 9.1–9.2 g/dL, Hct 26.6–28.1%) with normal white blood cell count. MRI demonstrated increased T2 signal at T7 and T8 consistent with osteomyelitis and a small bulging disk without neural impingement. The documented diagnosis was T7-T8 osteomyelitis. Treatment included IV antibiotics and staged thoracotomy with anterior and posterior spinal fusion and partial vertebrectomy; the patient improved significantly and was able to ambulate at discharge.
+The patient is a 61-year-old male presenting with T7-T8 osteomyelitis. He reported several months of shoulder pain, fever, a shoulder infection, and a mass over the sternum, with persistent pain despite two incision and drainage procedures. MRI revealed increased T2 signal at T7 and T8 consistent with osteomyelitis, and a small bulging disk at T7-T8 without neural impingement. His past medical history includes hypertension, hypercholesterolemia, pancreatitis, depression, and recent cessation of alcohol abuse; he has no known drug allergies. The documented diagnosis was T7-T8 osteomyelitis. Treatment included anterior and posterior spinal fusion surgeries, IV vancomycin for 6 weeks for osteomyelitis, and a 10-day course of oral levofloxacin for urinary tract infection. He was discharged in good condition to acute rehab with instructions for activity as tolerated, use of a CTLSO brace when out of bed, and weekly laboratory monitoring. Follow-up with his orthopedic surgeon was arranged for two weeks post-discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with shoulder pain as the chief complaint. Symptoms included a dull, aching pain in the front of the shoulder persisting for nearly a week, worsened by movement (especially lifting or reaching overhead), rated 6–7/10 in severity, and associated with swelling, warmth, and a recent fever. The pain interfered with sleep and daily activities such as getting dressed. The patient also reported a newly noticed mass over the sternum but denied any recent cuts or insect bites near the shoulder. On assessment, the doctor noted that the combination of shoulder pain, swelling, warmth, fever, and the new mass could indicate an inflammatory or infectious process, such as septic arthritis, bursitis, or a more widespread infection. The doctor advised avoiding heavy lifting and strenuous use of the arm, monitoring for worsening symptoms (increasing redness, swelling, severe pain, higher fever, difficulty breathing, or rapid enlargement of the mass), and seeking prompt medical attention if these occur. Further evaluation with imaging or blood tests was recommended to clarify the diagnosis.
+The patient is an adult presenting with shoulder pain as the chief complaint. The pain is described as a dull, aching sensation located at the front of the shoulder, persistent for several days to a week, rated 6–7 out of 10 in severity, and worsened by movement, especially lifting or reaching overhead. Associated symptoms include swelling, warmth, and recent fever, with the pain interfering with sleep and daily activities; the patient also reports a new mass over the sternum. There is no history of cuts or insect bites near the shoulder. The clinical impression is possible joint or soft tissue infection (such as septic arthritis or bursitis) or a significant inflammatory process, with concern for a more widespread infectious or inflammatory condition given the new sternal mass. The treatment plan includes avoiding heavy lifting or strenuous use of the arm, monitoring for worsening symptoms (such as increased redness, swelling, severe pain, higher fever, difficulty breathing, or rapid enlargement of the mass), and seeking prompt medical attention if these occur. The doctor recommends further evaluation by a healthcare provider, possibly including imaging or blood tests, and advises rest and symptom monitoring in the meantime.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.458
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 193 words
+
 
 ## Processing Information
 

@@ -85,16 +85,23 @@ Let me ask: does anything in particular seem to bring on the fluttering feeling 
 
 ## EHR Summary
 
-The patient is an 83-year-old female presenting with chest pressure and shortness of breath at rest, accompanied by occasional palpitations. The chest pressure was substernal without radiation, and symptoms resolved after administration of sublingual nitroglycerin, aspirin, and a beta blocker in the Emergency Room. Her relevant history includes unstable angina, non-insulin dependent diabetes mellitus, hypertension, prior lumpectomy and radiation for breast carcinoma, and hypercholesterolemia; she has no known drug allergies. On examination, she had a regular heart rate with a III/VI systolic ejection murmur and bibasilar crackles in the lungs, but no edema or jugular venous distention. Laboratory results showed mild renal insufficiency (BUN 49, creatinine 1.6), elevated glucose (150), and normal troponin. Cardiac catheterization revealed significant multi-vessel coronary artery disease, including 70% proximal LMCA stenosis and 80–90% stenosis in major branches. The documented diagnosis was severe coronary artery disease. She underwent coronary artery bypass surgery as definitive treatment.
+The patient is an 83-year-old female presenting with chest pressure and shortness of breath at rest, along with occasional palpitations. The chest pressure was substernal without radiation, and symptoms resolved after administration of sublingual nitroglycerin, aspirin, and a beta blocker in the Emergency Room. Her relevant history includes unstable angina, non-insulin dependent diabetes mellitus, hypertension, prior breast cancer treated with lumpectomy and radiation, and hypercholesterolemia; she has no known drug allergies. Cardiac catheterization revealed significant multi-vessel coronary artery disease, and she underwent coronary artery bypass grafting (CABG) times four. The documented diagnosis was status post coronary artery bypass graft times four. Postoperatively, she experienced labile blood pressure but stabilized and was transferred to rehabilitation in stable condition. Discharge medications included Lasix, KayCiel, aspirin, Lopressor, Glucotrol, Percocet, Colace, and Amiodarone. She was advised to avoid heavy lifting for six weeks, not to drive for one month, and to follow up with her primary care provider or cardiologist in three weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure as the chief complaint. They reported that the chest pressure has been present for a few days, is persistent, and makes daily activities such as walking around the house and getting dressed more tiring; they also described associated shortness of breath that is worse with activity and improves somewhat with rest. The patient noted occasional brief episodes of heart fluttering or pounding lasting only a few seconds, without associated lightheadedness or fainting, and denied any sharp or squeezing chest pain. No specific triggers for the palpitations were identified, and the patient did not mention any relevant medical history, medications, or allergies. On review, the doctor noted the absence of severe palpitations, fainting, or worsening symptoms. The doctor assessed that the symptoms could be due to common causes such as anxiety, mild heart rhythm changes, mild fluid retention, or anemia, but acknowledged that more significant heart or lung conditions should be considered. The doctor advised monitoring symptoms closely and discussed the importance of identifying any potential triggers. The patient expressed understanding of the explanation provided.
+The patient presents with a chief complaint of persistent chest pressure. The chest pressure has been present for a few days and is accompanied by shortness of breath that is more noticeable with activity, as well as occasional brief episodes of heart fluttering or pounding lasting only a few seconds. The patient reports that these symptoms make daily activities more tiring, and that resting provides some relief for the shortness of breath; there is no sharp or squeezing chest pain, and no episodes of lightheadedness or syncope. There is no clear trigger for the palpitations, and the symptoms have remained stable since onset.
+
+Relevant medical history, medications, and allergies are not specified in the dialogue. The clinical impression discussed by the doctor includes possible causes such as anxiety, mild heart rhythm changes, mild fluid retention, or anemia, but no definitive diagnosis is documented. The doctor advises monitoring the symptoms closely due to possible overlap with more significant heart or lung conditions and reassures the patient that the absence of worsening symptoms, severe palpitations, or fainting is somewhat reassuring. No specific treatments or medications are recommended at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.541
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 188 words
+
 
 ## Processing Information
 

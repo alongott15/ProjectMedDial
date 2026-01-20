@@ -87,16 +87,21 @@ Does that make sense? Is there anything else about your symptoms that you’re c
 
 ## EHR Summary
 
-The patient is a 54-year-old female presenting with hematemesis as her chief complaint. She reported one week of malaise, nausea, diarrhea, melena, decreased appetite, and on the day of admission experienced seven episodes of nonbloody emesis followed by multiple episodes of hematemesis. Her relevant history includes hepatitis C cirrhosis, recent diagnosis of hepatoma (AFP 340,000), type 2 diabetes, hypertension, schizophrenia, and a recent paracentesis for ascites; she is allergic to penicillin. On physical exam, she appeared well and in no acute distress, with orthostatic vital signs showing an increase in pulse from 88 to 120 upon standing. The documented clinical impression is upper gastrointestinal bleeding in the context of advanced liver disease. Treatment details are not specified in the provided text.
+The patient is a 54-year-old woman presenting with multiple episodes of nonbloody emesis followed by hematemesis, along with one week of diarrhea, melena, malaise, nausea, and decreased appetite. Her symptoms began after a recent paracentesis for ascites and included seven episodes of vomiting and three episodes of hematemesis on the day of admission. She denied abdominal pain, chest pain, shortness of breath, or use of NSAIDs. Her relevant history includes hepatitis C cirrhosis with ascites, recently diagnosed hepatoma, type 2 diabetes, hypertension, and schizophrenia; she is allergic to penicillin. On admission, she was found to have orthostatic tachycardia, a drop in hematocrit, and laboratory evidence of hyponatremia and renal dysfunction. The documented diagnoses were hepatitis C with cirrhosis and esophageal varices (status post bleed and endoscopic therapy), hepatoma, type 2 diabetes, hypertension, and schizophrenia. Treatment included two esophagogastroduodenoscopies with sclerotherapy and banding of varices, transfusion of blood products, octreotide, proton pump inhibitor, ciprofloxacin for prophylaxis, Carafate, nadolol, Imdur, diuretics, and a repeat large-volume paracentesis. She was discharged home in improved condition with follow-up arranged and a medication regimen including Glucotrol, Prolixin, Zoloft, Protonix, Nadolol, Lasix, Aldactone, Imdur, and Carafate.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent fatigue and general malaise. They reported ongoing nausea and multiple episodes of vomiting over several days, with the nausea fluctuating throughout the day and not relieved by vomiting; vomiting was typically small in amount and sometimes contained small streaks of blood, but there was no associated stomach pain or discomfort. The patient noted difficulty keeping food down, reduced appetite, and had to rest more, with symptoms occurring randomly and not linked to specific foods or activities. Additional symptoms included diarrhea and melena. On assessment, the doctor noted the presence of fatigue, nausea, vomiting with occasional blood streaks, and absence of abdominal pain, suggesting that the blood was most likely due to minor esophageal tears (Mallory-Weiss tears) from repeated vomiting, but advised monitoring for more serious signs. The doctor recommended rest, hydration with frequent small sips, and a bland diet avoiding spicy or hard-to-digest foods. The patient was advised to seek prompt medical attention if larger amounts of blood, black/tarry stools, severe abdominal pain, or inability to keep fluids down occurred.
+The patient is an adult presenting with the chief complaint of persistent fatigue and general malaise. Over the past several days, they have experienced intermittent nausea and multiple episodes of vomiting, typically small in volume, with occasional small streaks of blood noted in the vomitus. The nausea persists after vomiting and does not appear to be triggered by specific foods, activities, or times of day; there is no associated abdominal pain. The patient reports difficulty maintaining normal food intake and has had to rest more, but is able to sip fluids. Additional symptoms include recent diarrhea and melena. The clinical impression discussed was that the blood in vomit is most likely due to minor esophageal tears (Mallory-Weiss tears) from repeated vomiting, though more serious causes were not ruled out. The treatment plan included recommendations for rest, maintaining hydration with frequent small sips, and consuming bland foods such as crackers or toast while avoiding hard-to-digest or spicy foods. The patient was advised to seek prompt medical attention if they experience larger amounts of blood, black or tarry stools, severe abdominal pain, or inability to keep fluids down.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.602
+- **Model Used**: general
+- **Text1 Length**: 189 words
+- **Text2 Length**: 186 words
+
 
 ## Processing Information
 

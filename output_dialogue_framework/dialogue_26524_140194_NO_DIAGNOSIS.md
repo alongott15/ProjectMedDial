@@ -87,16 +87,23 @@ If you have questions about what to expect next or what might happen during the 
 
 ## EHR Summary
 
-The patient is a newborn male delivered at 34 1/7 weeks gestation via cesarean section due to concerns about fetal growth. At birth, he was extremely pale, had no tone, and exhibited no respiratory effort, requiring bag and mask ventilation for approximately one and a half minutes; his Apgar scores were 2 at 1 minute, 8 at 5 minutes, and 9 at 10 minutes. The mother’s pregnancy was complicated by preterm labor and was originally a quadruplet gestation, with betamethasone administered at 25 weeks. On physical examination, the infant was slightly pale but otherwise alert and reactive, with stable vital signs and normal findings on lung and cardiac exam. Birth weight was 1440 g (10th–25th percentile), and discharge weight was 1680 g (less than 10th percentile). The clinical impression was a preterm male with initial respiratory depression at birth, likely related to prematurity. Treatment included immediate resuscitation with bag and mask ventilation and close monitoring in the neonatal period. No ongoing respiratory distress or other complications were documented at discharge.
+The patient is a newborn male, delivered at 34-1/7 weeks gestation as triplet #1 via cesarean section due to concerns about fetal growth. At birth, he was extremely pale, had no tone or respiratory effort, and required bag and mask ventilation for approximately 1.5 minutes, with Apgar scores improving from 2 at 1 minute to 8 at 5 minutes and 9 at 10 minutes. He remained stable on room air with no respiratory distress, apnea, bradycardia, or desaturations during his hospital stay. The infant experienced a brief episode of hypoglycemia on day two, which resolved with a D-10-W bolus, and developed physiologic hyperbilirubinemia treated successfully with single phototherapy. Relevant history includes prematurity as a triplet and maternal postoperative complications; no allergies or chronic medications are documented. The documented diagnoses were prematurity (34-1/7 weeks) and status post physiologic hyperbilirubinemia. Treatment included supportive care, phototherapy, supplemental iron and vitamin E, and advancement to full enteral feedings with breast milk or E-26 formula. Discharge recommendations included continued breastfeeding with supplemental E-26, routine pediatric follow-up, early intervention services, and visiting nurse support; immunizations were deferred due to weight less than 2 kg.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns that her baby appeared extremely pale immediately after birth. The baby's skin color remained pale with little improvement since delivery, and there was low activity and lack of movement or respiratory effort at birth; feeding status was unknown, but no trouble with crying or making sounds was noted. No bluish discoloration of lips, tongue, hands, or feet was observed, and there were no signs of bruising or bleeding. The patient was unsure about any medical interventions performed right after birth. On assessment, the doctor noted persistent paleness and low activity, which could indicate anemia, circulatory issues, or perinatal difficulties. The doctor recommended urgent evaluation by a pediatrician or hospital nursery to rule out underlying problems and advised immediate medical attention if symptoms such as difficulty breathing, poor feeding, or increasing sleepiness develop. The patient expressed understanding of the need for prompt medical assessment.
+The patient is concerned about her newborn's persistent paleness since birth. The baby exhibited extreme pallor immediately after delivery, with little improvement noted, and continues to appear pale overall without cyanosis (no bluish tint to lips, hands, or feet). Additional symptoms include low activity and poor muscle tone at birth, with no initial respiratory effort; the baby remains less active than expected but is able to make some sounds and has not shown signs of bleeding or bruising. The feeding status is unknown at this time.
+
+There is no documented relevant medical history, medications, or allergies. The clinical impression discussed includes possible neonatal anemia, circulatory issues, or perinatal complications as potential causes for the persistent pallor and low activity. The doctor did not provide a definitive diagnosis but emphasized the need for urgent evaluation. The treatment plan is to have the baby seen promptly by a pediatrician or in the hospital nursery for further assessment, with instructions to seek immediate care if symptoms worsen (such as difficulty breathing, poor feeding, or increased sleepiness).
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.613
+- **Model Used**: general
+- **Text1 Length**: 188 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

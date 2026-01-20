@@ -87,16 +87,21 @@ Let me ask—could you point to exactly where the pain is located on your right 
 
 ## EHR Summary
 
-The patient is a 73-year-old female presenting with shortness of breath following a fall several days prior. She reported right-sided rib pain and had ecchymosis over the right face, orbit, and hip, with decreased breath sounds at the right lung base. Her past medical history includes coronary artery disease status post myocardial infarction, peripheral vascular disease, breast and colon cancer (both status post surgery), asthma, hypothyroidism, hyperlipidemia, osteoporosis, and recurrent urinary tract infections; allergies to Metrogel and Desipramine are noted. Physical exam confirmed right-sided trauma and respiratory findings, and laboratory results showed anemia (hemoglobin 8.4 g/dL, hematocrit 23.8%). Chest CT revealed a large right hemothorax, and chest X-ray showed persistent right pleural effusion/atelectasis without pneumothorax. The documented diagnosis was right hemothorax secondary to trauma. She underwent right video-assisted thoracoscopic surgery (VATS) evacuation of hematoma as treatment.
+The patient is a 73-year-old woman presenting with shortness of breath following a fall several days prior, which resulted in a right-sided hemothorax. She reported right rib pain, right lower leg swelling, right knee pain, and ecchymosis over the right face and orbit, with oxygen desaturation noted on ambulation (saturations dropping to 85% on 6 liters O2). Her past medical history includes coronary artery disease with prior myocardial infarctions, peripheral vascular disease, breast and colon cancer, asthma, hypothyroidism, and atrial fibrillation; she is allergic to Metrogel and Desipramine. Imaging revealed a large right hemothorax with associated rib fractures and collapse of the right middle and lower lung lobes. The documented diagnosis was right hemothorax status post fall, managed with right VATS evacuation of hematoma. Postoperatively, she experienced persistent respiratory deconditioning and required supplemental oxygen. She was discharged to extended care on a regimen including oxygen therapy, multiple cardiac and pulmonary medications, and instructions for pulmonary hygiene and wound care. Follow-up with her physician was advised after rehabilitation.
+
 
 ## Dialogue Summary
 
-The patient presented with difficulty catching their breath following a fall a few days ago. They reported shortness of breath that worsens with movement and improves somewhat with rest, as well as sharp pain rated 6/10 over the right ribs, especially with movement or deep breaths. The patient denied bruising, swelling, lightheadedness, chest tightness, coughing, confusion, or difficulty speaking, but noted their oxygen drops with activity and that daily activities such as dressing and meal preparation have become more difficult. Relevant history includes recent trauma from a fall; no medications or allergies were mentioned. On examination, the pain was localized directly over the right ribs without abdominal involvement, and the patient described increased fatigue and unsteady walking since the fall. The doctor assessed that the symptoms are likely due to a rib injury (such as a bruise or minor fracture), leading to shallow breathing and reduced oxygen levels with activity. The doctor recommended continued rest, use of pillows for support, pacing activities, and monitoring for worsening symptoms such as shortness of breath at rest, confusion, chest tightness, fever, or coughing up blood, advising prompt medical attention if these occur.
+The patient is an adult presenting with shortness of breath and right-sided rib pain following a fall a few days ago. The dyspnea is significantly worse with activity, accompanied by a sharp pain rated 6 out of 10 over the right ribs, especially with movement or deep breaths; there is no associated bruising, swelling, lightheadedness, chest tightness, or cough. The patient reports decreased oxygen saturation with exertion, increased fatigue, and unsteady walking since the fall, and finds daily activities such as dressing and meal preparation more difficult due to symptoms. Resting, using extra pillows, and pacing activities provide some relief. There is no confusion or difficulty speaking when oxygen drops. The clinical impression is a possible rib injury (such as a bruise or minor fracture) causing pain-limited breathing and exertional hypoxemia. The treatment plan includes continued rest, supportive positioning with pillows, activity pacing, and instructions to seek prompt medical attention if symptoms worsen or new concerning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.637
+- **Model Used**: general
+- **Text1 Length**: 167 words
+- **Text2 Length**: 158 words
+
 
 ## Processing Information
 

@@ -89,16 +89,23 @@ Let me know if you have questions or if anything changes.
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with recurrent exertional angina. He reported chest pain after walking approximately one quarter of a mile, similar to symptoms experienced prior to his last cardiac intervention, beginning about three weeks before admission. His history includes coronary artery disease status post myocardial infarction and multiple percutaneous coronary interventions, with no known drug allergies and current medications including aspirin, Mevacor, atenolol, Imdur, Altace, and Plavix. On examination, he was neurologically intact, lungs were clear, cardiovascular exam was normal, and there were no signs of peripheral edema or cyanosis; laboratory values were within normal limits. The documented diagnosis was recurrent angina due to significant right coronary artery disease. He was admitted and underwent coronary artery bypass grafting (CABG) times two with left internal mammary artery (LIMA) grafting. Further details of the postoperative course or additional recommendations are not specified.
+The patient is a 61-year-old male presenting with recurrent exertional angina, characterized by chest pain after walking approximately one quarter of a mile, similar to symptoms experienced prior to his last cardiac intervention. Symptoms began about three weeks prior to admission and were triggered by physical activity. His relevant history includes coronary artery disease status post myocardial infarction and multiple percutaneous coronary interventions, with no known drug allergies and ongoing medications including aspirin, Mevacor, atenolol, Imdur, Altace, and Plavix. The documented diagnosis was status post coronary artery bypass grafting (CABG) times two. He underwent CABG with LIMA to the LAD and saphenous vein graft to the PDA, with an uncomplicated postoperative course aside from a brief episode of wound drainage treated with vancomycin. The patient was discharged in good condition on a regimen including Lopressor, Lasix, KCL, Colace, aspirin, Mevacor, Tylenol, Percocet, ibuprofen, Imdur, and Plavix. Follow-up was arranged with his cardiologist and primary care physician in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain occurring during walking, especially after about a quarter mile, and expressed anxiety due to a history of heart problems. The chest pain is described as a moderate tightness or pressure that is brought on by physical activity such as walking, going up stairs, or doing heavier chores, and resolves with rest; there is no associated sweating, nausea, shortness of breath at rest, or radiation of pain. The patient reported that the symptoms have returned more recently and now occur with less exertion than before. Relevant history includes a prior heart condition, but no medications or allergies were specified. On assessment, the doctor noted that the pattern of exertional chest tightness relieved by rest is typical for angina and that the decreased threshold for symptoms may indicate a change in cardiac status. The doctor found it reassuring that there were no severe or persistent symptoms or other alarming features. The treatment plan included advising the patient to contact their cardiologist or primary care provider soon for further evaluation, possible medication review, and stress testing, as well as to avoid activities that provoke symptoms and monitor for any warning signs such as pain at rest or new symptoms. The patient understood and agreed to follow these recommendations.
+The patient is an adult with a history of heart disease presenting with recurrent chest pain during physical activity. The chest pain is described as moderate tightness or pressure, triggered by walking about a quarter mile, climbing stairs, or doing heavier chores, and is relieved by rest. The patient reports that the threshold for activity before symptom onset has decreased compared to prior episodes. There are no associated symptoms such as shortness of breath at rest, sweating, nausea, or pain radiating to the arm, neck, or jaw.
+
+The clinical impression documented is angina, likely due to decreased oxygen supply to the heart during exertion. The physician notes that the earlier onset of symptoms may indicate a change in cardiac status. The treatment plan includes prompt follow-up with the patient’s cardiologist or primary care provider for further evaluation, possible medication review, and consideration of stress testing. The patient is advised to avoid activities that provoke symptoms and to monitor for warning signs such as pain at rest or new symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.526
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

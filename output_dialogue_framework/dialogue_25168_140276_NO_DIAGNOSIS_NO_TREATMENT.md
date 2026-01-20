@@ -87,16 +87,21 @@ Let me know if the pain or weakness gets worse, or if it starts interfering more
 
 ## EHR Summary
 
-The patient is an 82-year-old woman presenting after being found on the floor of her apartment, with no memory of the fall or subsequent events. She had complained only of fatigue prior to admission and was found dazed but conscious, without headache or neck stiffness. Her past medical history includes hypertension, atrial fibrillation, dementia, prior cerebrovascular accident, and status post nephrectomy; she was taking Coumadin, Plendil, Lopressor, Lasix, and Zoloft. On physical examination, she had a large hematoma on the left side of her face, was awake and alert but disoriented to year, with intact cranial nerves and no focal motor deficits. The documented diagnosis was subarachnoid hemorrhage in the setting of anticoagulation. The treatment plan is not specified in the note.
+The patient is an 82-year-old woman presenting after being found on the floor of her apartment, with no memory of the fall or subsequent events. She was noted to be dazed but conscious on admission, with a large left facial hematoma and baseline progressive dementia; she had no headache, neck stiffness, or focal neurological complaints prior to the event. Her past medical history includes hypertension, atrial fibrillation (on Coumadin), prior cerebrovascular accident, and nephrectomy. Imaging revealed a subarachnoid hemorrhage and cerebellar infarct, with subsequent neurological decline and evidence of enlarged ventricles. The documented diagnoses were subarachnoid hemorrhage and cerebellar infarct, complicated by anticoagulation and hydrocephalus. Treatment included transfusion of fresh frozen plasma to reverse anticoagulation, placement of a ventricular drain, and supportive care including PEG tube placement for nutrition. The patient remained neurologically impaired but hemodynamically stable and afebrile at discharge. She was discharged to rehabilitation with follow-up arranged in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with pain in both shoulders. Symptoms included a dull ache deep inside the shoulder joints, rated as 6 out of 10 in severity, present for a few days, and worsening with movement such as reaching or lifting; the patient also reported constant weakness on the right side without numbness or tingling. No recent injuries, falls, or changes in activity level were noted. The doctor observed that the discomfort was deep in the joint and associated with unilateral weakness, and considered possible age-related changes such as arthritis or tendon wear, while noting that constant right-sided weakness could suggest nerve involvement. The doctor recommended gentle activity, avoiding heavy lifting, and applying warm compresses to the shoulders for 15–20 minutes several times a day to ease joint pain. The patient was advised to monitor for new symptoms such as sudden changes in strength, trouble speaking, or facial drooping, and to report any worsening pain or weakness. The doctor offered advice on simple exercises and ways to make daily tasks easier at the patient's request.
+The patient presents with bilateral shoulder pain as the chief complaint. The pain is described as a deep, dull ache in both shoulder joints, rated 6 out of 10 in severity, present for several days and worsened by movement such as reaching or lifting; it is accompanied by constant weakness on the right side but no numbness or tingling. There is no history of recent injury, falls, or changes in activity level. The physician notes that the symptoms may be related to age-associated changes in the shoulder joints, such as arthritis or tendon wear, but also considers possible nerve involvement due to unilateral weakness. No definitive diagnosis is documented. The treatment plan includes gentle activity, avoiding heavy lifting, applying warm compresses for 15–20 minutes several times daily, and monitoring for new or worsening symptoms. The patient is advised to seek urgent care if sudden changes in strength, speech, or facial movement occur. The physician offers to provide advice on exercises and strategies to ease daily activities.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.931
-- **Similarity Label**: N/A
+- **STS Score**: 0.292
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

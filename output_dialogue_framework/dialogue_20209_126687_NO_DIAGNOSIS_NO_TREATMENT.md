@@ -91,16 +91,21 @@ For now, try to pace yourself with activities and stay hydrated. If you feel unw
 
 ## EHR Summary
 
-The patient is an 83-year-old male presenting with unsteadiness and fever at home, initially suspected to have a urinary tract infection. He has a history of chronic urinary tract infections, Alzheimer's dementia, chronic obstructive pulmonary disease, hypercholesterolemia, and gallstones. The patient was found to have an elevated lipase of 1,154 and mildly elevated total bilirubin, with no abdominal pain reported. Physical examination revealed a temperature of 98°F, blood pressure 124/60 mmHg, pulse 76 bpm, oxygen saturation 95% on room air, and dry crackles at the lung bases. The documented clinical impression was pancreatitis, with possible need for endoscopic retrograde cholangiopancreatography. Treatment included intravenous antibiotics (Rocephin, Flagyl, Zosyn), Tylenol, and intravenous fluids. The patient was transferred for further evaluation and management. No drug allergies were reported.
+The patient is an 83-year-old male presenting for management of pancreatitis, with a history of unsteadiness and fever at home. He was initially evaluated for a possible urinary tract infection but had no abdominal pain; laboratory studies revealed elevated lipase (1,154) and gallstones on imaging. His past medical history includes Alzheimer's dementia, chronic urinary tract infections, chronic obstructive pulmonary disease, hypercholesterolemia, and a history of gallstones; he has no known drug allergies. The documented diagnosis was gallstone pancreatitis. Treatment included intravenous antibiotics (Rocephin, Flagyl, Zosyn), aggressive fluid hydration, nothing by mouth, and nutritional support with Quick Mix. He received consultations for endoscopic retrograde cholangiopancreatography (ERCP) and surgery, with MRCP confirming multiple small stones in the common bile duct and cystic duct. The plan was to proceed with ERCP for stone removal during hospitalization and to schedule an outpatient cholecystectomy. His COPD remained stable on home therapy throughout the hospital course.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening shortness of breath. Symptoms include moderate shortness of breath that is worse with activity (such as walking), faster heart rate during episodes of breathlessness, occasional nausea and vomiting (twice recently), and sweating accompanying these episodes; symptoms come on gradually and are not associated with swelling, cough, chest discomfort, lightheadedness, or dizziness. The patient reports that resting helps alleviate symptoms, and there has been no worsening over time or significant limitation of daily activities. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of swelling, chest pain, or dizziness and suggested the symptoms may be due to mild strain on the heart or lungs, possibly related to mild heart rhythm changes, dehydration, or a mild infection. The doctor advised the patient to pace activities, stay hydrated, and rest when symptoms occur. The patient was instructed to monitor for increased frequency or severity of nausea and vomiting, and to report new symptoms such as chest pain, fainting, or swelling promptly.
+The patient is an older adult presenting with the chief complaint of gradually worsening shortness of breath. Symptoms include moderate dyspnea that is triggered by exertion (such as walking), accompanied by a faster heart rate during these episodes, and occasional nausea, vomiting (twice recently), and sweating; symptoms come on gradually and are alleviated by rest. The patient denies chest pain, cough, swelling, lightheadedness, or dizziness, and reports no significant limitations in daily activities aside from needing to move more slowly. Relevant history regarding medications or chronic conditions is not specified. The clinical impression is that the symptoms may be due to mild strain on the heart or lungs, possibly related to mild heart rhythm changes, dehydration, or a mild infection, but no urgent cause is suspected at this time. The treatment plan includes monitoring symptoms for any worsening or new developments (such as increased frequency of nausea/vomiting, chest pain, fainting, or swelling), pacing activities, staying hydrated, and resting during episodes. The patient was advised to report any concerning changes promptly.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.932
-- **Similarity Label**: N/A
+- **STS Score**: 0.339
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

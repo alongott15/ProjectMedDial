@@ -87,16 +87,23 @@ Let me know if you have any questions or concerns about what we've discussed so 
 
 ## EHR Summary
 
-The patient is a 52-year-old female presenting with complete heart block. She reports four months of gradually worsening dyspnea on exertion and associated dizziness, without chest pain, orthopnea, paroxysmal nocturnal dyspnea, or lower extremity edema. Her medical history includes hypertension (not treated for the past three months) and hypercholesterolemia; she has no known drug allergies. On examination, her blood pressure was 160/70 mmHg, heart rate 35–40 bpm, and she had bibasilar crackles and a I/VI systolic murmur at the left upper sternal border. The documented diagnosis was complete heart block with bradycardia. The treatment plan is not specified in the provided note.
+The patient is a 52-year-old female presenting with complete heart block and bradycardia. She reported four months of gradually worsening dyspnea on exertion and associated dizziness, but denied chest pain, orthopnea, paroxysmal nocturnal dyspnea, edema, or other systemic symptoms. Her past medical history includes hypertension (not treated for the past three months) and hypercholesterolemia; she has no known drug allergies. On admission, her heart rate was 35–40 bpm with blood pressure ranging from 110 to 175 systolic, and EKG confirmed complete heart block with bradycardia. The documented diagnosis was complete heart block and bradycardia, status post DDD pacemaker placement. Treatment included DDD pacemaker implantation, initiation of hydrochlorothiazide for hypertension, and discharge medications of aspirin, Lipitor, hydrochlorothiazide, and a short course of Keflex for pacemaker prophylaxis. She was discharged home in stable condition with instructions for outpatient stress testing and follow-up with her primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening shortness of breath during activity. Symptoms include difficulty catching breath when walking up stairs or doing chores, increased fatigue even at rest, and episodes of dizziness that occur alongside shortness of breath during movement and last about one to two minutes. The patient denied chest discomfort and leg swelling, and reported no specific triggers other than physical activity; daily tasks have become more challenging, requiring frequent breaks. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the progressive nature of symptoms and the impact on daily functioning. The assessment was that these symptoms could be related to changes in heart or lung function, or lower fitness levels, with concern for possible oxygenation issues. The doctor advised pacing activities, taking breaks, staying hydrated, monitoring for warning signs (chest pain, severe shortness of breath at rest, fainting, leg swelling), and recommended checking vital signs and considering basic tests to evaluate heart and lung health.
+The patient presents with progressive shortness of breath on exertion as the chief complaint. Symptoms include dyspnea that has gradually worsened over time, now occurring with activities such as walking up stairs and even with routine household tasks, along with associated dizziness that coincides with episodes of shortness of breath and resolves within a few minutes. The patient also reports increased fatigue, including at rest, but denies chest discomfort or leg swelling. No specific triggers other than physical activity were identified, and there is no mention of relevant past medical history, medications, or allergies in the dialogue.
+
+The clinical impression discussed by the doctor suggests possible underlying changes in heart or lung function or decreased fitness level, but no definitive diagnosis was documented. The treatment plan includes advice to pace activities, take breaks as needed, stay hydrated, and monitor for warning signs such as chest pain, severe dyspnea at rest, fainting, or leg swelling. The doctor also recommends checking vital signs and considering basic tests to further evaluate heart and lung health.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.535
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

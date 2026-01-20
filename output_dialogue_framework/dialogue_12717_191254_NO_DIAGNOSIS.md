@@ -87,16 +87,21 @@ Does that sound manageable for now, or is there anything else about your shoulde
 
 ## EHR Summary
 
-The patient is a male over 90 years old presenting with a three-day history of nausea, coffee ground emesis, an episode of dark tarry stools, decreased oral intake, and mild confusion. Symptoms included gastrointestinal bleeding evidenced by coffee ground emesis and melena, with associated mild confusion and poor oral intake. His past medical history is significant for coronary artery disease (status post myocardial infarction and coronary artery bypass graft), recent left hip revision, pacemaker placement, and colectomy for diverticulitis; he is allergic to sulfa. On admission, his hematocrit was 31.2, and nasogastric lavage was positive for coffee ground material that did not clear after two liters; he remained hemodynamically stable in the Emergency Department. The clinical impression was upper gastrointestinal bleeding. Treatment included intravenous fluids (three liters total) and gastroenterology consultation; EGD was deferred at the patient's and family's request.
+The patient is a male over 90 years old presenting with a three-day history of nausea, coffee ground emesis, dark tarry stools, decreased oral intake, and mild confusion. Symptoms were associated with a drop in hematocrit and positive nasogastric lavage for coffee ground material, indicating upper gastrointestinal bleeding; he remained hemodynamically stable during initial evaluation. Relevant history includes coronary artery disease (status post myocardial infarction and CABG), recent left hip revision, pacemaker placement, colectomy for diverticulitis, and sulfa allergy. The documented diagnosis was upper gastrointestinal bleed. Treatment included intravenous fluids, transfusion of one unit of packed red blood cells, holding all anticoagulation and aspirin, initiation of Protonix twice daily, and later starting Lovenox for DVT prophylaxis once stable. An upper GI series was negative for ulcers or tumors, and endoscopy was deferred per family wishes. The patient’s pulmonary medications were adjusted, and he received an influenza vaccine prior to discharge. At discharge, his condition was good, and he was advised to continue Protonix, pulmonary inhalers, Lovenox until fully weight bearing, captopril, use pneumonic boots overnight, and ambulate frequently.
+
 
 ## Dialogue Summary
 
-The patient presented with right shoulder pain. The pain was described as an aching discomfort, primarily located at the top of the right shoulder, rated 6 out of 10 with movement, and has been present for a couple of weeks. The pain worsens with movement such as reaching or lifting and improves with rest and certain positions; there is no associated swelling, redness, or warmth, and no weakness or numbness reported. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of visible inflammation and suggested the likely cause was overuse, minor strain, or tendon irritation rather than a severe injury or infection. The doctor recommended continued rest, avoiding aggravating movements, applying ice for 15–20 minutes several times daily, and gentle stretching if tolerated. The patient was advised to monitor for new symptoms such as weakness or numbness and to seek further evaluation if symptoms persist or worsen over the next one to two weeks.
+The patient is an adult presenting with right shoulder pain as the chief complaint. The pain is described as an aching discomfort, rated 6 out of 10 with movement, and has been present for approximately two weeks. The discomfort is localized to the top of the right shoulder, worsens with movement (especially reaching or lifting), and improves with rest; there is no associated swelling, redness, or warmth. The patient reports no weakness, numbness, or visible changes. Relevant history, medications, and allergies are not specified. The clinical impression is shoulder discomfort likely due to overuse, minor strain, or tendon irritation, without evidence of severe injury or infection. The treatment plan includes rest, avoiding aggravating movements, applying ice for 15–20 minutes several times daily, and gentle stretching if tolerated. The patient was advised to monitor for new symptoms such as weakness or numbness and to seek further evaluation if symptoms do not improve within one to two weeks or worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.914
-- **Similarity Label**: N/A
+- **STS Score**: 0.284
+- **Model Used**: general
+- **Text1 Length**: 178 words
+- **Text2 Length**: 158 words
+
 
 ## Processing Information
 

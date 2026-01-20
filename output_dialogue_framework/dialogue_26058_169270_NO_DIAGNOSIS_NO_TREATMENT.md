@@ -96,3 +96,21 @@ If the pain continues to worsen or you notice new changes like lumps in your nec
 ## Processing Information
 
 - **Processing Time**: 427.4s
+
+## EHR Summary
+
+The patient is a 61-year-old male presenting with a many-year history of throat pain, especially with exertion, which had increased over the past few months. He denied symptoms at rest. His past medical history includes hypertension, and he was previously on isosorbide (discontinued due to nausea), metoprolol, Accupril, and aspirin; he has no known drug allergies. Cardiac workup revealed ST depressions on stress echocardiogram and significant coronary artery disease on catheterization, including 100% occlusions of the left anterior descending and circumflex arteries. The documented diagnoses were status post coronary artery bypass grafting times three, coronary artery disease, and hypertension. He underwent CABG x3 with vein grafts and had an uncomplicated postoperative course aside from transient nausea and mild lower extremity edema. At discharge, he was stable and prescribed Lopressor, Colace, aspirin, Percocet as needed, Lasix for seven days, and potassium chloride for seven days. He was instructed to follow up with his cardiothoracic surgeon in two to four weeks.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with throat soreness as the chief complaint. The soreness is described as moderate to severe (7/10 with activity), worsens with physical exertion, and improves with rest; it has gradually worsened over several months. The patient denies associated symptoms such as fever, weight loss, difficulty swallowing, voice changes, or neck swelling, but reports recent episodes of nausea and occasional vomiting. There is no history of recent illness such as cold or flu. The clinical impression is that the throat soreness is likely due to irritation, mild inflammation, or possible strain from overuse or environmental factors, rather than an acute infection. The treatment plan includes staying hydrated, avoiding irritants like smoke or dry air, monitoring for new symptoms (such as difficulty swallowing, persistent hoarseness, or neck lumps), and pacing activities. The doctor also recommended gentle self-care measures for symptom relief at home. Further evaluation is advised if symptoms worsen or new concerning features develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.280
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 158 words
+

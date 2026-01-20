@@ -87,16 +87,21 @@ Let me know if you've noticed any fevers or chills recently, as that can help cl
 
 ## EHR Summary
 
-The patient is a 60-year-old male presenting with chest pain. He reported a three-day history of upper respiratory symptoms (cough, rhinorrhea, sore throat) followed by sudden onset of dull chest ache that increased with inspiration and was relieved by sitting forward; the pain recurred and intensified throughout the day but was not associated with exertion, dyspnea, diaphoresis, nausea, or vomiting. He has no prior medical history. On arrival to the emergency department, he was febrile (99.6°F) and found to be in atrial fibrillation with a heart rate in the 150s; his blood pressure dropped to 80/palpitation after receiving Lopressor, Cardizem, and esmolol. Sublingual nitroglycerin and aspirin reduced his chest pain, and intravenous morphine provided almost complete relief. Electrocardiogram at the receiving hospital showed atrial flutter and ST elevations in leads I, II, aVL, and V3–V6. The documented clinical impression was atrial arrhythmia with possible acute coronary syndrome or pericarditis (based on ST elevations and symptom characteristics). Treatment included heparin, Aggrastat, beta-blockers, calcium channel blockers, nitroglycerin, aspirin, and morphine.
+The patient is a 60-year-old male presenting with chest pain. He reported a three-day history of upper respiratory symptoms (cough, rhinorrhea, sore throat) followed by sudden onset of dull, inspiratory chest pain that was relieved by sitting forward and recurred with increasing intensity throughout the day, without associated dyspnea, diaphoresis, or gastrointestinal symptoms. His past medical history is unremarkable, with no prior medications or allergies; notable risk factors include a 40-pack-year tobacco history and family history of myocardial infarction. On admission, he was found to be in atrial fibrillation with ST elevations on ECG and a small pericardial effusion on echocardiogram. The documented diagnoses were pericarditis with atrial fibrillation. Treatment included Motrin for pericarditis pain, amiodarone and beta blockers for rhythm control, anticoagulation with Coumadin and Lovenox, aspirin, metoprolol, and management of bilateral phlebitis with Keflex. The patient was discharged home in good condition with instructions for outpatient follow-up and continued medications.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain described as a pressure sensation, which has persisted for a few days. Associated symptoms include cough, runny nose, sore throat, and swelling with tenderness, redness, and warmth in both legs, all of which began around the same time. The patient reported that physical activity does not worsen the chest pressure, and the sore throat remains unchanged regardless of activity or position; daily activities are somewhat slowed but still manageable. No history of fever or chills was noted, and no prior medical history, medications, or allergies were mentioned. On examination, the doctor noted mild respiratory symptoms and bilateral leg swelling with signs suggestive of phlebitis (tenderness, redness, warmth). The assessment included possible upper respiratory infection and concern for bilateral phlebitis, which is atypical for a simple viral illness. The doctor advised monitoring for worsening symptoms such as increased swelling, severe chest pain, spreading redness, shortness of breath, or fever, and recommended gentle movement and leg elevation to help with swelling. The patient was instructed to seek prompt medical attention if any concerning changes occur.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is described as a pressure sensation, accompanied by cough, runny nose, and sore throat, all of which began a few days prior and have remained stable. The patient also reports bilateral leg swelling, tenderness, redness, and warmth that started concurrently with the respiratory symptoms; these leg symptoms have not worsened. Physical activity does not exacerbate the chest pressure, and the patient remains able to perform most daily activities, though somewhat slowed by symptoms. There is no history of fever or chills. The clinical impression includes a likely mild upper respiratory illness and possible bilateral phlebitis, which is noted to be atypical for a simple viral infection. The treatment plan consists of monitoring symptoms closely, elevating the legs during rest, and maintaining gentle movement. The patient was advised to seek prompt medical attention if symptoms worsen or if new signs such as increased swelling, severe chest pain, shortness of breath, spreading redness, or fever develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.633
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

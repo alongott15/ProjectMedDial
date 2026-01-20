@@ -87,16 +87,23 @@ Let me ask—are you able to keep weight off that heel at home, perhaps by using
 
 ## EHR Summary
 
-The patient is an 84-year-old female presenting with a nonhealing left heel ulcer and cellulitis. She was unable to report pain or fevers due to baseline dementia. Her past medical history includes seizure disorder, multiple bypass grafts, peripheral vascular disease, and dementia. On examination, she was afebrile with stable vitals, and her left lower extremity showed cellulitis extending from the heel up to a quarter of the shin with a heel ulcer. The documented clinical impression was left lower extremity cellulitis and nonhealing ulcer, likely related to poor vascular supply. She was treated with broad-spectrum antibiotics, and an angiogram revealed no targets for bypass and minimal blood flow to the heel. Surgical intervention (above knee amputation) was considered but deferred in favor of continued conservative management with antibiotics, which led to improvement and resolution of erythema. The plan was for discharge back to her nursing home after family discussion and decision to hold off on amputation; a GI consult and colonoscopy were also planned following an episode of rectal bleeding.
+The patient is an 84-year-old female presenting with a nonhealing left heel ulcer and cellulitis. She was unable to report pain or fevers due to baseline dementia. Her past medical history includes seizure disorder, multiple bypass grafts, peripheral vascular disease, and dementia. On admission, physical exam revealed cellulitis extending from the left heel up to a quarter of the shin with an ulcer; she was afebrile and hemodynamically stable. The documented clinical impression was left lower extremity cellulitis with underlying severe peripheral vascular disease and nonhealing ulcer. She was treated with broad-spectrum antibiotics, and an angiogram showed poor blood flow with no surgical targets; conservative management was chosen over above-knee amputation. During hospitalization, she developed bright red blood per rectum requiring transfusion, and later had a seizure-like episode managed with neurology consultation and Dilantin monitoring. Her condition deteriorated with respiratory failure, and after discussions with her family, she was transitioned to comfort measures only and expired on [2152-9-7].
+
 
 ## Dialogue Summary
 
-The patient presented with a nonhealing sore on the left heel. Symptoms included persistent soreness, redness, swelling, gradual enlargement of the sore, an open area with broken skin, and increased discomfort and swelling with walking or pressure; no drainage, foul odor, unusual tissue color, fever, or chills were reported. The patient noted difficulty walking and reduced ability to perform daily activities due to heel discomfort. No relevant medical history, medications, or allergies were mentioned. On examination, the doctor noted persistent inflammation and an open wound with redness and swelling, but no signs of systemic infection. The assessment was a nonhealing heel sore with signs of local inflammation and risk for infection or cellulitis. The doctor recommended keeping the area clean, minimizing pressure on the heel, avoiding walking barefoot, and monitoring for worsening symptoms such as increased redness, warmth, pus, or systemic illness. The patient was advised to use supportive shoes or a walker to reduce weight-bearing and to seek further care if symptoms progressed.
+The patient presents with a chief complaint of a nonhealing sore on the left heel. The sore has been present for an unspecified duration, is gradually increasing in size, and now features an open area with broken skin, redness, and swelling; symptoms worsen with walking and increased activity. The patient denies fever, chills, foul odor, or unusual tissue color, but reports difficulty with mobility and daily activities due to discomfort. There is no documented relevant medical history, medications, or allergies in the dialogue.
+
+The clinical impression discussed is a persistent heel ulcer with signs of local inflammation and possible early infection (cellulitis risk). The physician advised keeping the area clean, minimizing pressure on the heel, avoiding walking barefoot, and monitoring for worsening symptoms such as increased redness, warmth, pus, or systemic illness. The patient is able to partially offload weight using a walker but continues to experience mobility challenges. No specific medications or advanced wound care interventions were documented in this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.697
+- **Model Used**: general
+- **Text1 Length**: 158 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

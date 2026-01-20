@@ -184,3 +184,21 @@ If you notice any additional symptoms like confusion, persistent vomiting, or se
 ## Processing Information
 
 - **Processing Time**: 264.3s
+
+## EHR Summary
+
+The patient is an 87-year-old male presenting with abdominal pain, peritonitis, and a perforated appendix. He reported progressively worsening diffuse, sharp abdominal pain, lethargy, and nausea, with chills but no fever. His past medical history includes coronary artery disease, atrial fibrillation, GERD, chylous ascites, retroperitoneal fibrosis, and multiple ventral hernias; he has no known drug allergies. Imaging revealed an inflamed appendix, ventral hernia with fluid-filled sacs, dilated small bowel loops, and ascites. The documented diagnoses were acute gangrenous appendicitis with chylous ascites and a large complex ventral/incisional hernia. He underwent open appendectomy and complex ventral hernia repair, with a post-operative course complicated by chronic hyponatremia and transient acute renal failure that improved with fluid correction. Discharge instructions included a low sodium, high protein diet with fluid restriction, daily monitoring of JP drain and Foley catheter outputs, and avoidance of heavy lifting. He was discharged in stable condition to extended care and advised to follow up in two weeks for further management.
+
+
+## Dialogue Summary
+
+The patient presented with worsening abdominal pain and increasing lethargy. Additional symptoms included chills, and the doctor expressed concern about the combination of escalating pain and new fatigue, which may indicate a serious intra-abdominal condition such as infection or inflammation. The doctor specifically mentioned possible diagnoses like peritonitis or a perforated organ but did not make a definitive diagnosis in this conversation. No relevant past medical history, medications, or allergies were documented. The treatment plan emphasized the need for urgent in-person medical evaluation, recommending that the patient go to the emergency department or call for help without delay. The doctor advised that further warning signs—such as fever, chills, confusion, severe abdominal tenderness, or persistent vomiting—would require immediate emergency care. The patient agreed to seek prompt evaluation and was instructed to reach out if symptoms changed or new concerns arose.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.595
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 139 words
+

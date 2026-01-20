@@ -95,16 +95,21 @@ For now, continuing with extra pillows and keeping an eye on your symptoms is a 
 
 ## EHR Summary
 
-The patient is a 74-year-old male presenting with nocturnal dyspnea and minimal chest discomfort. Symptoms included shortness of breath at night, mild chest pain, and oxygen desaturation to 88% on three liters; he denied nausea, vomiting, or diaphoresis. Relevant history includes type 2 diabetes mellitus, hypertension, hyperlipidemia, mild COPD, and a positive smoking history; there are no known drug allergies. On examination, he had rhonchorous breath sounds and a cardiac murmur at the apex, with stable vital signs. Laboratory findings showed elevated troponin (0.4), leukocytosis (WBC 13.0), and EKG with sinus tachycardia and flipped T waves in V3–V6; chest x-ray revealed left atrial enlargement. The documented diagnosis was congestive heart failure and acute myocardial infarction due to multi-vessel coronary artery disease. Treatment included diuretics (Lasix), heparin, nitroglycerin, Lopressor, and ultimately coronary artery bypass grafting (CABG x3) with aortic valve replacement. The patient was admitted for telemetry monitoring and managed by the cardiothoracic surgery team.
+The patient is a 74-year-old male presenting with nocturnal dyspnea and minimal chest discomfort. Symptoms included shortness of breath at night, mild chest pain, and oxygen desaturation to 88% on three liters, without associated nausea, vomiting, or diaphoresis. Relevant history includes type 2 diabetes mellitus, hypertension, high cholesterol, mild COPD, and a positive smoking history; there are no known drug allergies. On admission, he was found to be in congestive heart failure and subsequently ruled in for a heart attack (myocardial infarction) with multi-vessel coronary artery disease. He underwent coronary artery bypass grafting (CABG x3) and aortic valve replacement, followed by an uncomplicated postoperative course except for a slow air leak requiring prolonged chest tube suction. The patient improved with physical therapy and was discharged to a rehabilitation facility in stable condition. Discharge medications included Lopressor, Metformin, Protonix, Lipitor, Glyburide, Vicodin as needed, aspirin, Lasix, and potassium. He was advised to follow up with his primary care physician and cardiologist within one to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with nighttime breathing discomfort. Symptoms included trouble breathing at night for at least several days, which worsens when lying flat and improves with the use of extra pillows; the discomfort is gradual when trying to fall asleep, not associated with waking up suddenly, and is accompanied by minimal chest discomfort but no swelling in the legs, new cough, daytime fatigue, or recent illness. The patient denied any recent colds, allergies, or changes in the home environment, and reported no impact on daytime energy or activities. No physical findings were described beyond the patient’s reported symptoms. The doctor assessed that the mild, stable nighttime breathing issues are likely benign and possibly related to fluid shifts or age-related changes in lung and chest wall function, with no signs of more serious conditions. The treatment plan included continuing to use extra pillows at night and monitoring symptoms. The doctor advised seeking medical attention if new symptoms develop, such as sudden shortness of breath, waking up gasping for air, worsening chest pain, swelling in the legs, or daytime breathing problems. The patient understood and agreed with the plan.
+The patient is an adult presenting with nighttime breathing discomfort as the chief complaint. Symptoms include gradual onset dyspnea when lying flat, mild chest discomfort, and improvement with the use of extra pillows; symptoms have been present for several days without worsening and do not cause sudden awakening or affect daytime energy or activities. The patient denies lower extremity swelling, new cough, recent illness, allergies, or environmental changes. There is no relevant past medical history, medications, or allergies documented. The clinical impression is mild, stable nocturnal dyspnea likely related to positional or age-related physiological changes, without evidence of acute or serious underlying disease. The treatment plan includes continuing to sleep with extra pillows and monitoring for any new or worsening symptoms. The patient was advised to seek medical attention if symptoms progress to include sudden shortness of breath, waking up gasping for air, chest pain, swelling in the legs, or daytime breathing difficulties. The patient expressed understanding and agreement with the plan.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.486
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

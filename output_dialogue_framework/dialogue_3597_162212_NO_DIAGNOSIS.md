@@ -95,16 +95,23 @@ The most important thing is to keep your leg as still as possible and seek urgen
 
 ## EHR Summary
 
-The patient is a 34-year-old male presenting with a chief complaint of crush injury to the left lower extremity after being struck and pinned between vehicles. He experienced a large degloving injury and a displaced open tibia fracture of the left leg, with moderate discomfort noted on examination. His past medical history includes anxiety, and he takes Paxil; there are no known drug allergies. On physical exam, he was afebrile, with stable vital signs and slight tachycardia, but otherwise unremarkable findings. The documented diagnosis was crush injury to the left lower extremity. Treatment included open reduction with external fixation, vascular bypass grafting, internal plate placement, multiple skin grafts, and a myocutaneous free muscle flap. The patient was evaluated and managed by Orthopedics, Vascular Surgery, and Plastic Surgery teams.
+The patient is a 34-year-old male presenting with a crush injury to the left lower extremity after being struck and pinned between vehicles. He experienced a large degloving injury with exposed muscle and bone, a displaced open tibia and fibula fracture, moderate discomfort, loss of active dorsiflexion, and partial sensory loss in the superficial peroneal nerve distribution. His past medical history includes anxiety, and he takes Paxil; he has no known drug allergies and uses tobacco. The documented diagnosis was crush injury to the left lower extremity. Treatment included multiple surgical interventions: open reduction with external fixation, vascular bypass grafting, internal plate placement, myocutaneous free flap, and split-thickness skin grafts. He received pain management, antibiotics, anticoagulation, and psychiatric support during admission. At discharge, he was advised to bear weight as tolerated, maintain range of motion exercises, use a boot at 90 degrees in bed, and continue wound care and flap checks in rehabilitation.
+
 
 ## Dialogue Summary
 
-The patient presented with an open fracture of the left lower leg, reporting difficulty with mobility and concern about the injury. Symptoms included inability to lift the foot, loss of sensation over the top of the foot, cooler temperature in the left foot compared to the right, pain rated at 7/10 (especially with movement), inability to bear weight, and stable swelling and discomfort since the injury occurred earlier that day. The patient denied noticing any dirt or debris in the wound and stated the wound appeared clean. On examination, the doctor noted signs concerning for nerve injury (foot drop and sensory loss) and possible compromised blood flow (cooler foot), with no evidence of worsening swelling or visible debris. The assessment was an open fracture with suspected nerve and blood vessel involvement, carrying a high risk for infection and potential for permanent damage if not treated promptly. The doctor recommended urgent medical attention, including possible imaging, antibiotics, and surgery, and advised keeping the leg still and elevated while awaiting care. The patient was instructed to watch for changes in foot color (pale or blue), increasing coolness, worsening numbness, severe pain, or swelling as warning signs requiring immediate attention. Early treatment was emphasized as critical to prevent complications such as infection or permanent nerve damage.
+The patient is an adult presenting with an open fracture of the left lower leg as the chief complaint. Key symptoms include inability to lift the foot (foot drop), loss of sensation over the top of the foot, pain rated at 7/10, swelling and discomfort that have remained stable since the injury, and a cooler temperature in the affected foot compared to the other side. The patient is unable to bear weight on the left leg and reports no visible dirt or debris in the wound. Relevant history regarding prior medical conditions, medications, or allergies is not specified.
+
+The clinical assessment indicates concern for possible nerve and blood vessel involvement associated with the open fracture, based on motor and sensory deficits and changes in limb temperature. The treatment plan includes urgent medical evaluation in an emergency setting, with recommendations for imaging, antibiotics, and possible surgical intervention to clean the wound and repair damage. The patient was advised to keep the leg still and elevated, avoid eating or drinking in case procedures are needed, and monitor for worsening symptoms such as increased coolness, color changes, severe pain, or swelling. Early intervention was emphasized to prevent complications like infection or permanent nerve damage.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.640
+- **Model Used**: general
+- **Text1 Length**: 153 words
+- **Text2 Length**: 201 words
+
 
 ## Processing Information
 

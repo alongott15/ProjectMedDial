@@ -85,16 +85,21 @@ If you notice any new symptoms—like confusion, severe drowsiness, or worsening
 
 ## EHR Summary
 
-The patient is a 54-year-old female presenting with hypercarbia. She experienced hypercarbic respiratory failure, with symptoms including decreased respiratory rate and decreased oxygen saturation, following chronic use of pain medications, narcotics, and benzodiazepines for chronic low back pain. Her medical history includes congestive heart failure, coronary artery disease status post-CABG (2195), chronic obstructive pulmonary disease, hyperlipidemia, GERD, anxiety disorder, depression, and myoclonus; she is also an avid smoker. On admission, arterial blood gas showed pH 7.25, PCO2 72, and PO2 53; echocardiogram revealed EF 55% with mild mitral and moderate tricuspid regurgitation. The clinical impression was hypercarbic respiratory failure likely secondary to overmedication with narcotics and benzodiazepines. She was closely monitored in the ICU and successfully extubated the day after admission. The treatment plan included discontinuation or adjustment of sedating medications and supportive care.
+The patient is a 54-year-old female presenting with hypercarbia. She experienced hypercarbic respiratory failure, with arterial blood gas showing pH 7.25, PCO2 72, and PO2 53 prior to intubation, and had decreased respiratory rate and oxygen saturation associated with chronic use of narcotics and benzodiazepines for pain management. Her medical history includes congestive heart failure, coronary artery disease status post-CABG, chronic low back pain, myoclonus, hyperlipidemia, GERD, anxiety disorder, depression, and COPD; she is also an avid smoker and allergic to tape. The documented diagnosis was hypercarbic respiratory failure of unknown etiology, suspected to be secondary to overmedication with sedatives and pain medications. She was monitored in the ICU, intubated, and subsequently extubated the day after admission. The patient left the hospital against medical advice before further assessment or medication adjustments could be made. She was advised to urgently follow up with her primary care and pain management physicians and offered outpatient pulmonary function testing. Discharge condition was guarded.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about abnormal breathing and elevated CO2 levels. They reported increased shortness of breath, particularly during activity, which has worsened over the past few days and is accompanied by anxiety and occasional need to pause during exertion. The patient noted their breathing feels slower than usual and that others have commented on a lower breathing rate; however, they denied headaches, confusion, trouble staying awake, morning headaches, or waking up short of breath. No specific triggers for the slowed breathing were identified, and symptoms occur regardless of position or time of day. The patient also mentioned noticing lower oxygen levels and strong anxiety when breathing feels off. On assessment, the doctor noted slowed breathing and increased exertional dyspnea without signs of severe hypercapnia such as confusion or morning headaches. The doctor advised monitoring symptoms, staying active as tolerated, practicing breathing exercises, and avoiding sedating medications; they emphasized seeking prompt care if confusion, severe drowsiness, or worsening shortness of breath at rest develops. The patient was instructed to continue monitoring oxygen saturation and report any concerning changes.
+The patient presents with concerns about increased shortness of breath and elevated CO2 levels. The dyspnea is primarily exertional, worsening over the past few days, and is accompanied by a subjective sense of slowed breathing and anxiety, but without headaches, confusion, or morning symptoms. The patient reports that the shortness of breath builds gradually with activity and sometimes requires pausing to recover; there are no specific triggers related to position or time of day. There is no history of waking with shortness of breath or morning headaches. Relevant history regarding underlying pulmonary or cardiac conditions, medications, or allergies is not specified. The clinical impression is that the patient’s slowed breathing is contributing to elevated CO2 (possible hypoventilation), but there are no signs of acute hypercapnic complications. The treatment plan includes monitoring symptoms, staying active as tolerated, practicing breathing exercises, avoiding sedating medications, and seeking prompt care if new symptoms such as confusion or severe drowsiness develop. The patient is also advised to continue monitoring oxygen saturation and report any concerns.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.593
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

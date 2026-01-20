@@ -87,16 +87,23 @@ If you were to experience another loss of consciousness, chest pain, sudden weak
 
 ## EHR Summary
 
-The patient is a 61-year-old female presenting with loss of consciousness at home, followed by a fall resulting in left rib bruising. She reported no acute distress on examination but demonstrated increased instability with heel-to-toe ambulation and swaying with Romberg. Her past medical history includes hypertension, chronic urinary tract infection, deep venous thrombosis, and prior palpitations; home medications included Rhinocort, Tylenol, hydrochlorothiazide, Lipitor, and aspirin. Physical exam revealed stable vital signs, normal cranial nerve function, and clear chest and cardiovascular findings. Imaging identified a cerebral aneurysm. The patient was admitted and taken directly for an angiogram. No known drug allergies were reported.
+The patient is a 61-year-old female presenting with loss of consciousness at home, followed by a fall resulting in left rib bruising. She reported a history of palpitations, hypertension, chronic urinary tract infection, and deep venous thrombosis. Imaging revealed a cerebral aneurysm, specifically a right internal carotid artery cavernous aneurysm. On admission, physical examination was notable for instability with heel-to-toe ambulation and swaying with Romberg, but otherwise unremarkable. The documented diagnosis was a right internal carotid artery cavernous aneurysm. Treatment included angiogram with coiling of the aneurysm, postoperative heparin drip, and antibiotic prophylaxis with Ancef (Kefzol), which was discontinued after the patient developed a rash; Benadryl was administered for the rash. She was discharged in good condition on aspirin 325 mg daily and instructed to follow up in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with recent loss of consciousness while standing. Symptoms discussed included sudden fainting without preceding warning signs, bruising and mild soreness on the left ribs after the episode, transient disorientation upon regaining consciousness, and ongoing unsteadiness when attempting heel-to-toe walking, toe walking, heel walking, or standing with eyes closed; the unsteadiness was described as legs not cooperating rather than dizziness or vertigo. The patient reported a history of palpitations (not present during this episode) and prior heart tests such as ECG, which were reportedly unremarkable. No chest pain, sweating, or new palpitations were noted after the event. The doctor assessed that the episode could be related to blood pressure changes, heart rhythm issues, or neurological factors, and noted that new balance difficulties warranted further evaluation. The treatment plan included checking blood pressure in different positions, reviewing medications if any, and performing a basic neurological exam to assess strength and coordination; the patient was advised to avoid situations where falls might occur and to move slowly when standing up. The doctor instructed the patient to seek immediate care if symptoms such as another loss of consciousness, chest pain, sudden weakness, trouble speaking, or severe dizziness occur.
+The patient is an adult presenting with a chief complaint of a recent episode of loss of consciousness (syncope) while standing. The episode was unwitnessed, and the patient reports subsequent bruising and soreness over the left ribs but no severe pain. After regaining consciousness, the patient experienced disorientation and has since noticed increased unsteadiness, particularly during heel-to-toe walking, toe or heel walking, and when standing with feet together and eyes closed; the unsteadiness is described as legs not cooperating rather than dizziness or vertigo. The patient denies chest pain, sweating, or palpitations at the time of the episode but has a history of palpitations previously evaluated with ECG, which was reportedly unremarkable. No specific triggers for the episode or unsteadiness were identified.
+
+The clinical impression is a syncopal episode with new-onset balance difficulties, possibly related to neurological or musculoskeletal factors. The treatment plan includes checking blood pressure in different positions, reviewing medications, and performing a basic neurological exam to assess strength and coordination. The patient was advised to avoid situations that could lead to falls and to seek immediate care if symptoms such as recurrent syncope, chest pain, sudden weakness, speech difficulties, or severe dizziness occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.427
+- **Model Used**: general
+- **Text1 Length**: 130 words
+- **Text2 Length**: 196 words
+
 
 ## Processing Information
 

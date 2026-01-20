@@ -91,16 +91,21 @@ Does this approach make sense to you? Are there
 
 ## EHR Summary
 
-The patient is a 47-year-old male presenting with left groin pain extending over the perineum and scrotum following a recent incision and drainage procedure at another hospital. He reports dissatisfaction with prior care and has a history of spina bifida, recurrent urinary tract infections, urostomy, intestinal resection, Bell's palsy, psychiatric disorders including antisocial personality disorder, and substance abuse. He also has documented allergies to latex, morphine, and codeine. On admission, he was refusing IVs and certain medications; psychiatry determined he was not competent to refuse care. Surgical evaluation ruled out Fournier's gangrene. The patient was started on vancomycin, Zosyn, and clindamycin after blood cultures were drawn. No new diagnosis beyond the exclusion of Fournier's gangrene was documented. The treatment plan included broad-spectrum antibiotics and psychiatric assessment.
+The patient is a 47-year-old male presenting with left groin pain extending over the perineum and scrotum following a recent incision and drainage for a left subgluteal wound infection. He reported agitation and poor pain control, with physical exam notable for fever (102.9°F), tachycardia, a urostomy with surrounding erythema, and a full-thickness 8 cm left subgluteal wound with purulence and erythema. His history includes spina bifida, chronic urinary tract infections, urostomy, antisocial personality disorder, polysubstance abuse, and prior diagnoses of HIV and possible hepatitis C (not confirmed during this admission). The documented diagnosis was left perirectal and gluteal abscess with ongoing infection, and psychiatric instability with narcotic withdrawal. Treatment included broad-spectrum antibiotics (initially vancomycin, Zosyn, clindamycin; later adjusted to vancomycin, levofloxacin, and Flagyl), aggressive pain management with oxycodone and hydromorphone PCA, psychiatric medications (risperidone, Klonopin, Haldol, Ativan), wound care with dressing changes and hydrogen peroxide cleaning, and plans for PICC line placement. Psychiatry recommended continued close monitoring with a 1:1 sitter and transfer to a medical/psychiatric facility for further care. The patient’s agitation improved with pain control and psychiatric medications, and his wound showed slow healing.
+
 
 ## Dialogue Summary
 
-The patient presented with pain in the right buttock, describing it as dull and aching, and reported a buttock ulcer that has not been healing well. The pain is worsened by sitting and movement, while lying on the side provides some relief; the discomfort has persisted for an unspecified duration and has become more noticeable recently. The patient denied swelling, redness, numbness, tingling, drainage, odor, or changes in the skin around the ulcer, but noted increased agitation and difficulty sleeping due to the pain. No relevant medical history, medications, or allergies were mentioned. On clinical review, there were no signs of infection such as redness or drainage, but the ulcer’s delayed healing and impact on sleep were noted. The doctor assessed that the persistent ulcer and discomfort may be due to ongoing pressure or irritation, with concern for potential infection if new symptoms arise. The treatment plan included minimizing pressure on the area by changing positions frequently, using a soft cushion when sitting, keeping the ulcer clean and dry, and monitoring for warning signs of infection such as increased redness, warmth, swelling, drainage, or fever; direct wound assessment by a healthcare provider was also recommended if healing does not improve.
+The patient presents with right-sided buttock pain as the chief complaint. The pain is described as dull and aching, worsened by sitting and movement, and somewhat relieved by lying on the side; it has been present for an unspecified duration but has become more noticeable recently. The patient also reports a buttock ulcer in the same area that has not been healing well, without associated swelling, redness, numbness, tingling, drainage, or odor. The discomfort is affecting the patient’s sleep and mood, leading to increased agitation. There is no documented history of infection or other relevant medical conditions in the dialogue. The clinical impression is a non-healing buttock ulcer with associated chronic pain, likely due to ongoing pressure and irritation but without current signs of infection. The treatment plan includes minimizing pressure on the area by changing positions frequently, using a soft cushion when sitting, and keeping the ulcer clean and dry. The patient was advised to monitor for warning signs of infection (such as redness, swelling, drainage, or fever) and to seek further evaluation if these occur or if the ulcer does not improve.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.415
+- **Model Used**: general
+- **Text1 Length**: 186 words
+- **Text2 Length**: 184 words
+
 
 ## Processing Information
 

@@ -87,16 +87,23 @@ Does that sound reasonable to you? And do you have any questions about what we�
 
 ## EHR Summary
 
-The patient is a 54-year-old male presenting with one week of mid-sternal discomfort as the chief complaint. Symptoms included daily episodes of chest discomfort at rest lasting 1–30 minutes, sometimes associated with left arm weakness and palpitations, but without dyspnea, paroxysmal nocturnal dyspnea, or edema; symptoms were not triggered by exercise. Relevant history includes Hodgkin's disease treated with chemotherapy and radiation 30 years ago, status post splenectomy, and allergies to codeine and penicillin. On examination, he was tachycardic but in no acute distress, with stable vital signs and no abnormal findings on chest or abdominal exam. Laboratory findings showed elevated troponin (up to 8.2), sinus tachycardia on ECG with questionable ST elevations, and a normal chest x-ray. Cardiac catheterization revealed an ejection fraction of 35–40%, multiple areas of akinesis/hypokinesis, and severe multivessel coronary artery stenosis (up to 90%). The documented diagnosis was acute coronary syndrome with significant coronary artery disease. Treatment included aspirin and further cardiac evaluation; specific interventions beyond catheterization are not detailed in the note.
+The patient is a 54-year-old male presenting with one week of mid-sternal discomfort, occurring daily at rest for 1–30 minutes, occasionally associated with left arm weakness and palpitations, but without dyspnea or exertional pain. He has a history of Hodgkin's disease treated with chemotherapy, radiation, and splenectomy, and reports allergies to codeine and penicillin. On admission, troponin levels were elevated (up to 8.2), and cardiac catheterization revealed significant multi-vessel coronary artery disease with reduced ejection fraction (35–40%) and regional wall motion abnormalities. The documented diagnosis was acute coronary syndrome due to severe coronary artery disease. The patient underwent uncomplicated triple coronary artery bypass grafting with saphenous vein grafts. Postoperatively, he was stable, afebrile, and able to ambulate, though he experienced transient hypotension and tachycardia that resolved without symptoms. Discharge medications included Zantac, aspirin, and Lopressor, and he was advised to follow up in two and six weeks postoperatively. A biopsy of a suspicious left ear lobe mass was planned prior to discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with mild to moderate discomfort in the middle of the chest persisting for about a week. Symptoms included chest discomfort lasting several minutes at a time, intermittent weakness in the left arm, and episodes of heart racing with heart rates up to 110, sometimes accompanied by a sensation of lower blood pressure. These symptoms occurred both together and separately, were not triggered by activity, meals, or stress, and did not cause shortness of breath, sweating, or lightheadedness. The patient reported that symptoms were bothersome but did not limit daily activities. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of severe or immediately concerning symptoms but expressed caution due to the combination of chest discomfort and arm weakness. The doctor recommended tracking episodes and seeking prompt medical attention if severe pain, breathing difficulty, sweating, or worsening weakness developed; otherwise, a routine check-up with the primary care provider and possible basic tests were advised to rule out heart-related causes.
+The patient is an adult presenting with a chief complaint of central chest discomfort persisting for about one week. The discomfort is described as mild to moderate in intensity, lasting several minutes at a time, and has remained unchanged over the week. Associated symptoms include intermittent left arm weakness and episodes of palpitations with heart rates up to 110 bpm, sometimes accompanied by a subjective sense of low blood pressure; these symptoms are not triggered by activity, meals, or stress and do not include dyspnea, diaphoresis, or lightheadedness. The symptoms have not limited daily activities but are bothersome.
+
+There is no relevant past medical history, medications, or allergies documented. The clinical impression is that the symptoms may be related to benign causes such as muscle strain, anxiety, or non-serious heart rhythm changes, but the combination of chest discomfort and arm weakness warrants further evaluation to rule out more serious conditions. The treatment plan includes monitoring and recording symptom episodes, seeking prompt medical attention if severe symptoms develop (such as severe pain, dyspnea, diaphoresis, or worsening weakness), and scheduling a routine follow-up with a primary care provider for further assessment and possible basic cardiac testing.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
+- **STS Score**: 0.508
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 194 words
+
 
 ## Processing Information
 

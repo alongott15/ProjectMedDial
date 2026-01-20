@@ -89,16 +89,21 @@ Does that make sense? Is there anything else about your breathing or overall hea
 
 ## EHR Summary
 
-The patient is a 69-year-old male presenting for cardiac catheterization due to known aortic stenosis (AS). He reports a history of exertional shortness of breath, which has worsened over the past year and now occurs after climbing only one flight of stairs; he denies chest discomfort. His medical history includes moderate chronic obstructive pulmonary disease, hypertension, hyperlipidemia, and a remote history of hepatitis (type unspecified). Cardiac testing revealed an aortic valve area of 0.9–1.0 cm² with significant gradients, trace mitral and tricuspid regurgitation, and preserved ejection fraction (60–66%); coronary angiography showed a 90% stenosis in the OM1 branch but no other significant coronary disease. Physical exam findings are not specified. The documented diagnosis is severe aortic stenosis with associated coronary artery disease and COPD. Medications on admission included Zocor, Aldactazide, Flovent, and Maxair. The treatment plan is not detailed in the provided note.
+The patient is a 69-year-old male presenting for cardiac catheterization due to known aortic stenosis (AS). He reported a history of exertional shortness of breath, which had worsened over the past year, now occurring after climbing only one flight of stairs; he denied chest discomfort. His relevant history includes moderate chronic obstructive pulmonary disease, hypertension, hyperlipidemia, and a past cholecystectomy; he has no known drug allergies and quit tobacco use in the previous year. Cardiac catheterization revealed severe AS (aortic valve area 0.9 cm²) and a 90% stenosis in the OM1 coronary artery. The documented diagnoses were aortic stenosis status post aortic valve replacement with a #21 bovine pericardial valve, coronary artery disease status post coronary artery bypass grafting (CABG) to OM1, chronic obstructive pulmonary disease, hypertension, and hyperlipidemia. Treatment included surgical aortic valve replacement and CABG, followed by postoperative monitoring and supportive care. At discharge, he was stable and prescribed aspirin, metoprolol, Lasix, simvastatin, Flovent, Combivent as needed, potassium chloride, Percocet, and ibuprofen. He was advised to follow up in the clinic in two weeks and with his primary care provider in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath on exertion as the chief complaint. Symptoms included several days of progressive shortness of breath and wheezing, which worsen with activity and improve with rest; there was no cough, chest pain, swelling in the ankles or feet, weight gain, or nighttime shortness of breath. The patient reported needing to stop and rest during activities due to the severity of symptoms. Relevant history includes COPD and aortic stenosis; no history of asthma was noted. On assessment, the doctor noted that the symptoms are likely related to COPD, possibly with contribution from aortic stenosis, and that the absence of swelling or nighttime symptoms makes acute heart failure less likely. The doctor advised monitoring for warning signs such as chest pain, fainting, or shortness of breath at rest, and to seek prompt medical attention if these occur. The patient was instructed to pace activities, avoid triggers like smoke or strong odors, and use COPD medications as prescribed. If symptoms do not improve or worsen over the next few days, a follow-up with a healthcare provider was recommended.
+The patient is an adult with a history of COPD and aortic stenosis presenting with shortness of breath on exertion as the chief complaint. Symptoms include several days of progressive dyspnea and wheezing, which worsen with activity and improve with rest; there is no associated cough, chest pain, peripheral edema, or orthopnea. The patient reports needing to stop and rest during activities due to breathlessness but denies nocturnal symptoms or recent weight gain. Relevant history includes prior diagnoses of COPD and aortic stenosis; no asthma was reported. The clinical impression is that the symptoms are likely related to a flare of COPD, possibly with some contribution from aortic stenosis, but without evidence of acute heart failure. The treatment plan includes monitoring for warning signs such as chest pain, fainting, or resting dyspnea, pacing activities, avoiding triggers, and ensuring proper use of prescribed COPD medications. The patient was advised to seek prompt medical attention if symptoms worsen or new concerning signs develop and to follow up with their healthcare provider if there is no improvement. The patient also mentioned a large bruise on the left thigh, inquiring if it could be medication-related.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.565
+- **Model Used**: general
+- **Text1 Length**: 187 words
+- **Text2 Length**: 191 words
+
 
 ## Processing Information
 

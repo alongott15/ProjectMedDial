@@ -89,16 +89,21 @@ Let me know if you have any questions about what I’ve explained or if there’
 
 ## EHR Summary
 
-The patient is a 44-year-old male presenting with bright red blood per rectum and dizziness. He reported maroon stools for three days, a recent syncopal episode at home, and had started taking aspirin in the past month. His medical history includes hypertension, dyslipidemia, and obstructive sleep apnea on CPAP; he has no known drug allergies. On admission, he was diaphoretic, pale, and hypotensive (SBP in the 80s), with a hematocrit of 23.8 after receiving one unit of PRBC at an outside hospital; physical exam revealed grossly positive blood on rectal exam without masses or hemorrhoids. A nasogastric lavage was mildly positive for blood but not grossly bloody. The clinical impression was gastrointestinal bleeding, likely exacerbated by recent aspirin use and history of gastric bypass surgery. Treatment included transfusion of two units of PRBCs, which improved his symptoms and blood pressure, and supportive care; he underwent an EGD during admission.
+The patient is a 44-year-old male presenting with bright red blood per rectum and dizziness. He reported maroon stools for three days, a recent syncopal episode at home, and had started taking aspirin in the past month; on admission, he was diaphoretic, pale, and hypotensive, with a hematocrit as low as 21.6. His past medical history includes hypertension, dyslipidemia, and obstructive sleep apnea on CPAP; he has no known drug allergies. On evaluation, rectal exam showed grossly positive blood, and EGD revealed an ulcer at the gastrojejunal anastomosis. The documented diagnosis was gastrointestinal bleed. Treatment included transfusion of packed red blood cells, endoscopic injection of the ulcer, and initiation of sucralfate and pantoprazole. He was advanced through bariatric diet stages with good tolerance, and his hematocrit stabilized prior to discharge. The patient was discharged home with instructions to resume regular medications, take new prescriptions as ordered, and follow up with his physician and for a repeat EGD.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about bright red blood noticed during bowel movements. He reported seeing blood in the toilet bowl on multiple occasions over the past one to two days, accompanied by sudden dizziness, sweating, and an episode of almost fainting; these symptoms lasted a few minutes and resolved. He also described maroon-colored stools, increased fatigue and weakness over the past few days, and his wife noted he appeared pale; there was no pain, discomfort, diarrhea, constipation, or straining associated with the bleeding, and no clear triggers identified. No relevant medical history, medications, or allergies were mentioned. On review, the doctor noted the combination of rectal bleeding, dizziness, sweating, faintness, maroon stools, fatigue, and paleness as concerning for more significant blood loss than typical hemorrhoids, possibly from higher up in the digestive tract. The assessment was that the symptoms warranted prompt in-person evaluation to check blood counts and determine the source of bleeding. The doctor advised rest, avoiding strenuous activity, drinking fluids, and seeking urgent care if symptoms worsen or a large amount of blood is seen. The patient expressed understanding and agreed to follow up soon.
+The patient is an adult presenting with rectal bleeding as the chief complaint. He reports noticing bright red blood in the toilet bowl on multiple occasions over the past one to two days, accompanied by sudden episodes of dizziness, sweating, and near-fainting that lasted a few minutes. Additional symptoms include maroon-colored stools, increased fatigue, weakness, and his wife observed that he appeared pale; he denies pain, discomfort, diarrhea, constipation, or straining during bowel movements. The physician notes that these symptoms suggest more significant blood loss than typically seen with simple hemorrhoids and raises concern for a possible higher source of gastrointestinal bleeding. No specific diagnosis was documented, but the clinical impression is that the combination of bleeding, fatigue, paleness, and presyncope warrants prompt evaluation. The treatment plan includes recommending in-person assessment soon to check blood counts and determine the bleeding source. The patient was advised to rest, avoid strenuous activity, maintain hydration, and seek urgent care if symptoms worsen or if there is a large amount of blood.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.969
-- **Similarity Label**: N/A
+- **STS Score**: 0.593
+- **Model Used**: general
+- **Text1 Length**: 157 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

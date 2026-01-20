@@ -89,16 +89,25 @@ Let me know if you have questions about managing these symptoms or need advice o
 
 ## EHR Summary
 
-The patient is a 22-year-old male presenting with headache, low back pain, and jaw pain following a bicycle accident in which he was not wearing a helmet. His symptoms included a diffuse, constant headache rated 4–5 in intensity, mild neck pain, low back pain improving with Tylenol, and one episode of nausea with vomiting; there were no visual changes, focal numbness, or weakness. Relevant history includes prior left wrist fracture, jaw dislocation, and an allergy to aspirin (facial swelling); he was not taking any medications. On examination, he was awake, alert, and oriented with normal vital signs, no neurologic deficits, and abrasions over the sacrum and left lower flank. The documented diagnosis was right temporal epidural bleed. The treatment plan is not specified in the note.
+The patient is a 22-year-old male presenting with headache, low back pain, and jaw pain following a bicycle accident in which he was not wearing a helmet. His symptoms included a diffuse, constant headache rated 4–5/10 in intensity, mild neck pain, low back pain improving with Tylenol, and one episode of nausea with vomiting; there were no visual changes, focal neurological deficits, or loss of consciousness. Relevant history includes prior left wrist fracture, jaw dislocation, and an allergy to aspirin (facial swelling); he was not taking any medications at presentation. The documented diagnosis was a small right temporal epidural hematoma and an undisplaced right posterior occipital fracture. He was admitted for overnight observation in the Medical Intensive Care Unit with hourly neurologic checks, received Zantac and Tylenol, and had stable repeat head CT findings. On discharge, he was neurologically intact and advised to follow up in three weeks with repeat head CT prior to his appointment.
+
 
 ## Dialogue Summary
 
-The patient presented with headache and lower back pain following a recent bike accident. Symptoms included a dull, achy pain localized to the middle lower back (worse with movement, improved with rest, rated 6/10), headache with associated nausea and one episode of vomiting (no sensitivity to light or sound, no vision changes), and jaw stiffness and soreness (rated 5/10, no clicking, able to open/close mouth). The patient denied numbness, tingling, or weakness in the legs. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the lower back pain and jaw discomfort were likely due to soft tissue injury (muscle strain or mild bruising) and mild jaw sprain or bruise, without signs of nerve involvement or fracture/dislocation. The doctor recommended gentle rest, avoiding aggravating activities, applying ice packs for short periods, and using over-the-counter pain relief if appropriate. The patient was advised to seek medical attention if symptoms worsened or new concerning signs developed.
+The patient is an adult presenting with headache and lower back pain following a recent bike accident. The lower back pain is described as dull and achy, rated 6/10 in severity, localized to the middle lower back, worsened by movement, and improved with rest; there is no radiation, numbness, tingling, or weakness. The patient also reports jaw stiffness and soreness (5/10 severity) without clicking or difficulty opening the mouth, as well as a headache accompanied by nausea and one episode of vomiting, but denies sensitivity to light, sound, or vision changes. Relevant history of allergies or medications is not specified.
+
+The clinical impression is that the lower back pain is likely due to a soft tissue injury (muscle strain or mild bruising), and the jaw symptoms are consistent with a mild sprain or bruise rather than fracture or dislocation. There is no evidence of nerve involvement or serious injury based on the absence of neurological symptoms.
+
+The treatment plan includes rest, avoiding aggravating activities, applying ice packs for short periods, and using over-the-counter analgesics such as acetaminophen or ibuprofen if there are no contraindications. The patient was advised to seek medical attention if symptoms worsen or new concerning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.631
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 200 words
+
 
 ## Processing Information
 

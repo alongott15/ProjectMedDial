@@ -71,16 +71,21 @@
 
 ## EHR Summary
 
-The patient is a 39-year-old female presenting one day postpartum after a normal vaginal delivery with lethargy and abnormal liver and kidney function. She reported dull periumbilical epigastric pain for three to four days, bouts of nausea and vomiting during pregnancy, decreased urine output, fatigue, and dizziness. Her past medical history includes high cholesterol, and she has no known drug allergies. On admission, laboratory findings revealed leukocytosis (WBC 30), anemia (hematocrit 23), thrombocytopenia (platelets 136), elevated BUN (34) and creatinine (3.6), hypoglycemia (glucose 49), hypoalbuminemia (1.7), hyperbilirubinemia (6.8), prolonged PT (19.9), low fibrinogen (51), and markedly elevated liver enzymes (ALT 269, AST 169, alkaline phosphatase 787). These findings were consistent with acute liver failure. The patient was transferred to a higher-level facility for further management. Treatment prior to transfer included magnesium and Pitocin during delivery; no additional treatments are specified in this note.
+The patient is a 39-year-old female presenting one day after a normal vaginal delivery with lethargy, abnormal liver and kidney function, decreased urine output, fatigue, dizziness, and dull periumbilical epigastric pain over the preceding three to four days. She also reported bouts of nausea and vomiting during pregnancy, as well as mild scleral icterus, constipation, and vaginal discharge on review of systems. Her past medical history includes high cholesterol, and she has no known drug allergies. Laboratory findings revealed elevated liver enzymes (ALT 269, AST 169), hyperbilirubinemia (total bilirubin 6.8), coagulopathy (PT 19.9, fibrinogen 51), acute kidney injury (creatinine 3.6), and hypoglycemia (glucose 49). The documented diagnosis was acute liver failure. Treatment included intensive monitoring in the ICU, transfusions of fresh frozen plasma, packed red blood cells, cryoprecipitate, broad-spectrum antibiotics for prophylaxis, and lactulose. Extensive infectious workup was negative, and her liver function progressively improved during hospitalization. She was discharged in good condition with no new medications and advised to follow up in one to two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with low energy as the chief complaint. They reported feeling lethargic for several days to about a week, accompanied by nausea, dizziness, decreased appetite, dull abdominal pain around the belly button and upper stomach, and intermittent vomiting. The patient noted that resting provides some relief, while activity worsens symptoms; eating does not affect their condition. Symptoms have remained stable over the past week without improvement. No specific medical history, medications, or allergies were mentioned. The doctor inquired about urinary changes but did not receive a response before the simulation ended. No physical findings or formal assessment were documented. No treatment plan or recommendations were provided during the conversation.
+The patient presents with a chief complaint of low energy. Over the past several days (close to a week), they have experienced persistent lethargy, nausea, dizziness, poor appetite, and intermittent vomiting. The patient reports a dull abdominal pain around the belly button and upper stomach area. Resting provides some relief, while activity worsens symptoms; eating does not affect their condition. Symptoms have remained stable without improvement over the past week. No diagnosis or clinical impression was documented in the dialogue. No treatment plan or specific recommendations were provided during this encounter. Relevant medical history, medications, and allergies were not discussed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.450
+- **Model Used**: general
+- **Text1 Length**: 167 words
+- **Text2 Length**: 100 words
+
 
 ## Processing Information
 

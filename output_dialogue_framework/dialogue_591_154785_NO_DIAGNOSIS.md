@@ -89,16 +89,21 @@ Would you like me to explain more about what could be causing these symptoms or 
 
 ## EHR Summary
 
-The patient is a 77-year-old male presenting with chest discomfort. He reported a one-week history of sub-sternal chest pain, shortness of breath, nausea, and vomiting, with pain severe enough to awaken him from sleep on the day of admission. His past medical history includes type 2 diabetes, hypertension, and asthma; he has no known drug allergies. On admission, physical exam revealed bilateral carotid bruits, distant heart sounds, and pitting edema in the extremities. Initial evaluation showed ST depressions on EKG and positive cardiac enzymes, and cardiac catheterization demonstrated three-vessel coronary artery disease with significant stenoses (80% LM, 80% LAD, 50% LCx, 90% RCA). The documented diagnosis was severe multi-vessel coronary artery disease. He underwent coronary artery bypass grafting (CABGx4: LIMA to LAD, SVG to Diagonal, PDA, and PLV). Postoperative care included monitoring of blood counts and supportive management.
+The patient is a 77-year-old male presenting with chest discomfort. He reported a one-week history of sub-sternal chest pain, shortness of breath, nausea, and vomiting, with pain severe enough to awaken him from sleep; EKG showed ST depressions and positive cardiac enzymes. His past medical history includes type 2 diabetes, hypertension, asthma, and chronic renal insufficiency, with no known drug allergies. Cardiac catheterization revealed three-vessel coronary artery disease with significant stenoses, and he subsequently underwent coronary artery bypass grafting (CABG x4). The hospital course was complicated by atrial fibrillation, postoperative fluid overload, and transient worsening of renal function, all managed with medications including amiodarone, beta blockers, and diuretics. The documented diagnoses at discharge were coronary artery disease, insulin-dependent diabetes mellitus, hypertension, asthma, and atrial fibrillation. Discharge medications included aspirin, atorvastatin, metoprolol, amiodarone, furosemide, and fluticasone-salmeterol among others. He was discharged in good condition to an extended care facility with instructions for activity restrictions and follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest pain began suddenly, waking the patient from sleep, and has persisted without improvement; it is rated as 6 out of 10 in intensity and lasts for extended periods. Associated symptoms include shortness of breath, nausea, vomiting during severe episodes, increased fatigue, difficulty with daily activities, and swelling; the patient also reported occasional confusion but denied sweating or feeling faint. There is no clear pattern or trigger for the symptoms, and activities such as eating or lying down do not affect them. Relevant history includes past atrial fibrillation, which the patient mentioned during the discussion. The doctor noted concern for possible cardiac or pulmonary causes due to the combination of chest pain, shortness of breath, nausea, vomiting, swelling, and confusion. The doctor recommended prompt in-person evaluation to rule out serious conditions such as heart problems and advised seeking emergency care if symptoms worsen (severe chest pain, trouble breathing, or confusion). The patient was advised to rest, avoid strenuous activity, and report any new or worsening symptoms while awaiting further evaluation.
+The patient presents with chest pain as the chief complaint. The chest pain began suddenly, waking the patient from sleep, is rated 6 out of 10 in intensity, lasts for prolonged periods, and is accompanied by shortness of breath, nausea, vomiting, fatigue, and swelling; symptoms occur without clear triggers and interfere with daily activities. The patient also reports a history of atrial fibrillation and episodes of confusion but denies sweating or lightheadedness. The clinical impression is that these symptoms are concerning for possible cardiac or pulmonary causes, including potential heart dysfunction leading to fluid retention. No definitive diagnosis was documented during the encounter. The physician advised prompt in-person evaluation to rule out serious causes such as heart problems and emphasized seeking emergency care if symptoms worsen (e.g., severe chest pain, increased dyspnea, or confusion). The patient was instructed to rest, avoid strenuous activity, and monitor for new or worsening symptoms until further assessment.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.588
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

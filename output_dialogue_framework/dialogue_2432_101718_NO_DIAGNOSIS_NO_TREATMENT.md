@@ -89,16 +89,23 @@ Does this make sense, or is there anything else you’re concerned about right n
 
 ## EHR Summary
 
-The patient is a 40-year-old male presenting with occasional palpitations and no shortness of breath or dyspnea on exertion. He has a history of mitral regurgitation, first diagnosed by murmur at age 30, and has been followed with serial echocardiograms and exercise tolerance tests. Additional history includes hemorrhoids, an old left wrist fracture, and multiple past surgeries. He is currently taking Ultram 50 mg three times daily and has an allergy to aspirin causing airway problems requiring epinephrine. On physical examination, he was well-nourished and muscular, with a pulse of 57, blood pressure readings of 142/94 and 133/84, and a grade IV/VI systolic murmur with a palpable thrill at the PMI. Laboratory results were within normal limits. The clinical impression is ongoing mitral regurgitation with palpitations; the patient was monitored during admission, and no acute intervention was documented.
+The patient is a 40-year-old male presenting with occasional palpitations and no shortness of breath or dyspnea on exertion. He has a history of mitral regurgitation, previously diagnosed murmur, hemorrhoids, and an old left wrist fracture, and is allergic to aspirin (causing airway problems requiring epinephrine). On admission, physical examination revealed a grade IV/VI systolic murmur with a palpable thrill at the PMI, but otherwise unremarkable findings. The documented diagnosis was status post mitral valve repair for mitral regurgitation. The patient underwent successful mitral valve repair surgery and had an uncomplicated postoperative course except for a transient low-grade fever and mild right lower lobe atelectasis. At discharge, he was stable with clear lungs and no peripheral edema. Discharge medications included Percocet, acetaminophen, Lopressor, and Ultram. He was advised to use incentive spirometry, increase ambulation, cough to clear mucus, and follow up in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns of occasional palpitations and intermittent fevers following recent surgery. Palpitations were described as sudden in onset, lasting a few seconds to a minute, occurring randomly without identifiable triggers, and not associated with chest pain, cough, shortness of breath, or surgical site issues. Fevers began soon after surgery, initially reaching 103°F and now presenting as low grade (around 100.7°F), coming and going, with episodes typically lasting about a day; no chills were reported. The patient denied unusual fatigue or weakness and reported normal energy levels since surgery. No redness or discomfort was noted at the surgical site. The doctor assessed that postoperative fevers can be due to inflammation or healing, but persistent fever may indicate infection; palpitations without other symptoms are often benign in the context of recovery. The doctor recommended monitoring temperature and symptoms, staying hydrated, resting as needed, and contacting the surgical team if fever increases, new pain develops, weakness occurs, or palpitations worsen. The patient expressed understanding and had no additional concerns at this time.
+The patient is presenting with concerns of occasional palpitations and intermittent fevers following recent surgery. The palpitations are described as sudden in onset, lasting a few seconds to a minute, and occurring randomly without identifiable triggers; there are no associated symptoms such as chest pain, dyspnea, or fatigue. The fevers began soon after surgery, initially reaching 103°F and now presenting as low grade (around 100.7°F), coming and going, with each episode typically lasting about a day. The patient denies chills, cough, surgical site issues, or decreased energy.
+
+There is no specific diagnosis documented, but the clinician notes that postoperative fevers can be due to inflammation or the healing process, while brief, isolated palpitations are often benign in the absence of other symptoms. The treatment plan includes monitoring temperature and symptoms, maintaining hydration, resting as needed, and promptly reporting any escalation in fever, new pain at the surgical site, weakness, or increased frequency/duration of palpitations. No new medications or interventions were prescribed at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.937
-- **Similarity Label**: N/A
+- **STS Score**: 0.464
+- **Model Used**: general
+- **Text1 Length**: 146 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

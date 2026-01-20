@@ -95,16 +95,21 @@ I’ll make arrangements for you to be seen promptly so we can address this safe
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with presyncope. He reported a one-week history of fatigue, lightheadedness, and melena with occasional hematochezia, as well as band-like chest pain radiating from his back, worsened by deep breaths and movement but without dyspnea, nausea, vomiting, or diaphoresis. His history includes chronic lower back pain post-bicycle accident, hyperplastic colon polyp, rheumatic fever, obstructive sleep apnea, childhood polio, and sulfa allergy; he had been taking ibuprofen 400 mg every 4-6 hours for about a month. On examination, he was afebrile with a blood pressure of 105/66 mmHg, pulse 82, and dry mucous membranes noted. The documented diagnosis is not explicitly stated in the note. Treatment details are not specified in the provided text.
+The patient is a 58-year-old male presenting with presyncope. He reported a one-week history of fatigue, lightheadedness, melena, and occasional bright red blood per rectum, along with band-like chest pain and chronic back pain. His past medical history includes chronic lower back pain post-bicycle accident, hyperplastic colon polyp, rheumatic fever, obstructive sleep apnea, and childhood polio; he is allergic to sulfa. On admission, he was found to have anemia (hematocrit 24.3, nadir 13.9) and a brisk upper GI bleed, with EGD revealing a duodenal clot and subsequent embolization of a gastroduodenal artery pseudoaneurysm. The documented diagnoses were upper GI bleed, anemia secondary to blood loss, melena, and chest pain not otherwise specified. Treatment included six units of packed red blood cells, gastroduodenal artery embolization, initiation of Protonix, and discontinuation of NSAIDs and omega oils; Ultram was started for back pain. The patient was stable on discharge with hematocrit approximately 28, tolerating diet, and no ongoing bleeding or abdominal symptoms. He was advised to avoid NSAIDs, alcohol, and coffee, and to follow up with his primary care physician in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with lightheadedness, almost to the point of passing out, as the chief complaint. They reported increased fatigue, reduced energy despite adequate sleep, and worsening symptoms over several days, with lightheadedness exacerbated by standing but sometimes present even while sitting. Additional symptoms included dark, tar-like sticky stools, occasional bright red blood in the stool, mild upper stomach pain, and chest pain radiating in a band across the back; no nausea or vomiting was noted. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor expressed concern for ongoing gastrointestinal bleeding, likely from an upper source given the melena, with possible lower tract involvement due to the bright red blood. The doctor explained that these symptoms could lead to decreased oxygen delivery and worsening fatigue and lightheadedness. The treatment plan included urgent evaluation with blood count testing and further workup to identify the bleeding source, advice to avoid strenuous activity, stay hydrated, and seek emergency care if symptoms worsen (such as fainting or severe chest pain). Arrangements were made for prompt evaluation, and the patient agreed to follow these recommendations.
+The patient is an adult presenting with lightheadedness as the chief complaint. Over the past few days, they have experienced increasing episodes of lightheadedness (worse on standing), persistent fatigue despite adequate sleep, and reduced energy levels. Additional symptoms include dark, tar-like (melena) stools, occasional bright red blood per rectum, mild upper abdominal pain, and chest pain radiating in a band across the back; there is no nausea or vomiting. The physician noted concern for ongoing gastrointestinal bleeding, likely from an upper GI source (suggested by melena), with possible lower tract involvement (bright red blood). The clinical impression is blood loss leading to symptoms of anemia, such as lightheadedness and fatigue. The treatment plan includes urgent evaluation with blood count testing and further investigation to identify and treat the bleeding source. The patient was advised to rest, avoid strenuous activity, stay hydrated, and seek emergency care if symptoms worsen (e.g., fainting, severe weakness, or increased chest pain). Arrangements were made for prompt medical evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.637
+- **Model Used**: general
+- **Text1 Length**: 180 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

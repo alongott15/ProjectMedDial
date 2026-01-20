@@ -108,3 +108,21 @@ Staying comfortable and hydrated is good, but don’t force yourself to drink to
 ## Processing Information
 
 - **Processing Time**: 449.9s
+
+## EHR Summary
+
+The patient is an 82-year-old male admitted with altered neurologic status. He was noted by family to have changes in speech and behavior, and imaging revealed a bifrontal subdural hematoma with some shift and mass effect, but no invasive intervention was required. His hospital course was complicated by an incidental 4 x 5 cm abdominal aortic aneurysm (AAA), an episode of acute renal failure likely related to contrast dye and urinary retention, and a rash on his back diagnosed as heat rash. Relevant history includes no seizures, no need for intubation, and a resolving acute renal failure (creatinine decreased from 3.6 to 2.5). The documented diagnoses include bifrontal subdural hematoma, AAA, acute renal failure, and heat rash. Treatment included prophylactic Dilantin (later discontinued), blood pressure management with nitroprusside (weaned off), azithromycin, topical miconazole and hydrocortisone for rash, and supportive care for renal function. He was evaluated by rehabilitation services and will follow up with his primary care physician and neurologist for further management of his AAA and other conditions. At discharge, his condition was stable.
+
+
+## Dialogue Summary
+
+The patient is an older adult presenting with recent onset of changes in speech and behavior as the chief complaint. Symptoms have been present for several days, are persistent, and include difficulty with speech and behavior, inability to urinate, and a recent fever; there is no associated limb weakness, numbness, abdominal pain, or confusion. The patient's family has noticed behavioral changes, and the patient reports increased difficulty with daily activities. There is no history provided regarding medications, allergies, or other relevant medical conditions. The clinician’s assessment suggests possible urinary tract infection (UTI) or urinary retention as the underlying cause of the symptoms, noting that these conditions can affect behavior and cognition in older adults. The treatment plan includes urgent evaluation by a healthcare provider, urine testing, and possibly bladder assessment. The patient was advised to monitor for worsening symptoms such as confusion, severe abdominal pain, or vomiting, and to seek immediate care if these occur. Supportive recommendations included maintaining hydration without forcing fluids and reassurance that these issues are typically treatable once identified.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.468
+- **Model Used**: general
+- **Text1 Length**: 175 words
+- **Text2 Length**: 173 words
+

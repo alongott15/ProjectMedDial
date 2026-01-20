@@ -95,16 +95,21 @@ If you have any questions or notice anything new, feel free to bring it up. Your
 
 ## EHR Summary
 
-The patient is a 59-year-old female presenting with left lower extremity weakness. She reported progressive symptoms associated with a large metastatic lesion in the posterior elements overlying T12-L1, causing significant spinal cord compression. Her medical history includes renal cell carcinoma with adrenal recurrence, right nephrectomy, and adrenalectomy; she has a latex allergy and does not smoke or drink. On discharge, she remained neurologically intact except for persistent left quadriceps weakness, with an intact but slightly erythematous surgical incision and a small adjacent blister. Laboratory results showed anemia (Hgb 8.0, Hct 24.9) and otherwise stable values; imaging confirmed satisfactory placement of spinal instrumentation and decompression. The documented diagnosis was metastatic spinal cord compression secondary to renal cell carcinoma. Treatment included T11-L1 decompressive laminectomy, tumor resection, and T9-L2 instrumented fusion with neuromonitoring. She was not considered a candidate for radiation therapy and underwent surgical management for symptom relief.
+The patient is a 59-year-old female presenting with left lower extremity weakness. She has a history of renal cell carcinoma with progressive metastases to the lumbar spine, resulting in a large lesion at T12-L1 causing significant spinal cord compression and associated symptoms. Her past medical history includes right nephrectomy, adrenalectomy, and left knee surgery; she is allergic to latex. The documented diagnosis was thoracic tumor with spinal cord compression due to metastatic disease. She underwent T11-L1 decompressive laminectomy, tumor resection, and T9-L2 instrumented fusion. Postoperatively, she received blood transfusions for symptomatic hypovolemia, with subsequent improvement in motor strength and pain. At discharge, she remained neurologically intact except for persistent left quadriceps weakness and was transferred to extended care for rehabilitation. Discharge instructions included wound care, activity restrictions, pain management, and follow-up with neurosurgery in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with weakness in the left leg, which began a few days ago and has remained stable since onset. The weakness has made daily activities more difficult, requiring the patient to move more slowly and cautiously, but there has been no associated numbness, tingling, pain (current), swelling, redness, warmth, or balance problems. The patient reported prior pain in the same area before their last surgery, but currently only experiences weakness; the symptom developed a few days after surgery rather than immediately post-procedure. No history of new medications or allergies was mentioned. On examination, there were no signs of acute neurological or vascular compromise, and the patient denied any concerning symptoms such as loss of control, changes in sensation, or swelling. The doctor assessed that the weakness is likely related to muscle or nerve recovery following surgery and reduced activity, rather than an urgent issue like blood clot or severe nerve injury. The doctor recommended continuing gentle activity as tolerated, monitoring for new symptoms (such as sudden severe pain, loss of control, bladder/bowel changes, or swelling), and following up with the surgical team or physical therapist if weakness persists or worsens over the next week or two.
+The patient is an adult presenting with new-onset weakness in the left leg as the chief complaint. The weakness began a few days after a recent surgery and has remained stable without improvement or worsening. The patient reports no associated numbness, tingling, pain, swelling, redness, or balance difficulties, and is able to ambulate at home with increased caution. Prior to surgery, there was pain in the same leg, but currently only weakness is present. Relevant history includes recent surgery and prior left leg pain; no other medical history, medications, or allergies are specified. The clinical impression is that the weakness is likely related to postoperative muscle weakness or nerve recovery rather than an urgent complication such as a blood clot or severe nerve injury. The treatment plan includes continuing gentle activity as tolerated, monitoring for new symptoms (such as severe pain, loss of leg control, changes in bladder or bowel function, or swelling), and following up with the surgical team or a physical therapist if weakness persists or worsens over the next one to two weeks. The patient was advised to seek prompt medical attention if any concerning new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.532
+- **Model Used**: general
+- **Text1 Length**: 136 words
+- **Text2 Length**: 191 words
+
 
 ## Processing Information
 

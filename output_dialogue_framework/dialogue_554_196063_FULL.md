@@ -87,16 +87,21 @@ Let me know if you have any questions about what I've explained or if you'd like
 
 ## EHR Summary
 
-The patient is a 37-year-old man presenting with crushing substernal chest pain radiating to the left arm that began during exercise. Symptoms included chest pain and mild lightheadedness without associated nausea, vomiting, diaphoresis, or dizziness; a similar but less severe episode occurred five days prior. His medical history is notable for mild hypercholesterolemia managed with exercise, and he is not on medication. On arrival, ECG showed ST segment elevations in lateral limb leads (including AVL) and anterior leads V2–V5. Cardiac catheterization revealed a total occlusion of the proximal left anterior descending artery. The documented diagnosis was acute myocardial infarction. Treatment included oxygen, intravenous nitroglycerin, beta blocker (Lopressor 5 mg), Lipitor, heparin drip, emergency percutaneous transluminal coronary angioplasty with stent placement, and intra-aortic balloon pump due to elevated wedge pressure. He was transferred to the Coronary Care Unit for further management.
+The patient is a 37-year-old man presenting with crushing substernal chest pain radiating to the left arm that developed during exercise. Symptoms included chest pain and mild lightheadedness, without associated nausea, vomiting, diaphoresis, or dizziness; a similar but milder episode had occurred five days prior. His history is notable for mild hypercholesterolemia managed with exercise, and he was not on medication prior to admission. Electrocardiogram showed ST segment elevations in lateral leads, and cardiac catheterization revealed total occlusion of the proximal left anterior descending artery. The documented diagnosis was acute myocardial infarction, status post percutaneous transluminal coronary angioplasty with stent placement. Treatment included emergency angioplasty with stent, intra-aortic balloon pump, and medications such as aspirin, Plavix, Integrilin, heparin, metoprolol, Lipitor, lisinopril, pravastatin, folate, Colace, and warfarin. The patient remained chest pain free after intervention and was discharged home in good condition with instructions for follow-up and INR monitoring.
+
 
 ## Dialogue Summary
 
-The patient presented with heavy, crushing chest pain located in the middle of the chest and radiating to the left arm. The pain occurs both at rest and with activity, lasts 10–15 minutes per episode, is rated 7/10 in severity, and is partially relieved by resting but never fully resolves. Associated symptoms include lightheadedness during episodes and a recent low-grade temperature up to 100.4°F; the patient denied nausea, sweating, shortness of breath, palpitations, or irregular heartbeats. Relevant history includes mild high cholesterol, with no known hypertension, diabetes, or prior heart conditions. The patient reported a similar but less intense episode of chest tightness five days ago. The doctor noted the significant nature of the pain, its recurrence, radiation, and associated lightheadedness, raising concern for possible cardiac causes rather than musculoskeletal or gastrointestinal etiologies. The doctor recommended urgent medical evaluation today, including possible EKG and further tests to rule out heart-related issues, and advised seeking emergency care if symptoms worsen or new symptoms develop.
+The patient is an adult presenting with a chief complaint of heavy, crushing chest pain radiating to the left arm. The pain occurs both at rest and with activity, lasts 10–15 minutes per episode, is rated 7/10 in severity, and is partially relieved by rest but not completely resolved; episodes are associated with lightheadedness but not with dyspnea, palpitations, nausea, or diaphoresis. The patient reports a similar but less intense episode five days prior and notes a recent low-grade fever up to 100.4°F. Relevant history includes mild hypercholesterolemia without known hypertension, diabetes, or prior heart disease. The clinical impression is that the chest pain pattern is concerning for a possible cardiac etiology rather than musculoskeletal or gastrointestinal causes. The physician recommended urgent medical evaluation, including an EKG and further cardiac workup, and advised seeking immediate care if symptoms worsen or new symptoms develop. No specific diagnosis was documented during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
+- **STS Score**: 0.689
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

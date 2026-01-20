@@ -87,16 +87,21 @@ In the meantime, take it easy and avoid strenuous activity until you've been fur
 
 ## EHR Summary
 
-The patient is a 55-year-old man presenting with intermittent chest pain radiating to the right shoulder for two to three days prior to admission. The chest pain initially occurred with exertion and later woke him at night; he did not use nitroglycerin for relief. His history is significant for prior inferior wall myocardial infarction in 2108 with stenting, percutaneous transluminal coronary angioplasty, peripheral vascular disease, and bilateral femoral bypass. Cardiac risk factors include hypertension, family history, and borderline high cholesterol; he has no known drug allergies. An exercise stress test showed 3/10 chest pain after four minutes with ST depression in leads V4 and V5, resolving after ten minutes. On examination, he was neurologically intact and had clear lungs. The documented diagnosis was recurrent angina in the setting of known coronary artery disease. He underwent coronary artery bypass grafting (CABG) times three, was managed postoperatively with propofol, phenylephrine, and nitroglycerin, and had stable vital signs and satisfactory recovery.
+The patient is a 55-year-old man presenting with intermittent chest pain radiating to the right shoulder for two to three days prior to admission. The chest pain initially occurred with exertion and later woke him at night; he did not use nitroglycerin for relief. His history is significant for coronary artery disease, prior inferior wall myocardial infarction with stenting and angioplasty, peripheral vascular disease with bilateral femoral bypass, hypertension, family history of cardiac disease, and borderline high cholesterol; he has no known drug allergies. An exercise stress test showed chest pain and ST depression, and he subsequently underwent coronary artery bypass grafting (CABG) times three. The documented diagnosis was coronary artery disease. Postoperatively, he remained stable, afebrile, and was discharged on aspirin, Imdur, Lasix, Percocet as needed, potassium chloride, Lipitor, and atenolol. At discharge, his condition was stable and incisions were clean and dry.
+
 
 ## Dialogue Summary
 
-The patient presented with on-and-off chest pain that sometimes radiates to the right shoulder. The chest pain began a few days ago, occurs mainly after physical exertion, lasts a few minutes per episode, and is described as a pressure sensation rated at 6 out of 10 in intensity. The patient also reported occasional shortness of breath with exertion but denied sweating, nausea, or lightheadedness; these symptoms have limited daily activities such as walking and yard work. Relevant history includes coronary artery disease, angina, peripheral vascular disease, and prior bilateral femoral bypass surgery; no history of diabetes or lung conditions was mentioned. The doctor noted that the exertional chest discomfort and shortness of breath are concerning given the patient's cardiac history and suggested these symptoms likely represent angina due to limited coronary blood flow. The assessment was that the patient's existing heart condition may be worsening or changing. The doctor recommended prompt evaluation today to rule out worsening heart disease or blockage, advised avoiding strenuous activity until further assessment, and instructed the patient to seek emergency care if symptoms become more severe or new symptoms develop.
+The patient is an adult presenting with intermittent chest pain as the chief complaint. The chest pain began a few days ago, occurs mainly after physical exertion, lasts a few minutes per episode, is described as a pressure sensation (pain intensity rated 6/10), and sometimes radiates to the right shoulder; episodes are also associated with exertional shortness of breath but not with sweating or nausea. The symptoms have limited the patient's ability to perform usual activities such as walking and yard work. Relevant history includes coronary artery disease, angina, peripheral vascular disease, and prior bilateral femoral bypass surgery; there is no history of diabetes or lung conditions. The clinical impression is that the symptoms are likely angina due to underlying coronary artery disease, possibly indicating worsening or more active disease. The physician recommended prompt evaluation (ideally the same day) to rule out worsening heart disease or a new blockage. The patient was advised to avoid strenuous activity until further evaluation and to seek emergency care if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.977
-- **Similarity Label**: N/A
+- **STS Score**: 0.698
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

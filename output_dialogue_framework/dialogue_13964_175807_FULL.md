@@ -63,16 +63,21 @@
 
 ## EHR Summary
 
-The patient is an 88-year-old female presenting with right hand weakness, clumsiness, and shaking, which developed over the course of a week. Symptoms included inability to pick up objects or cut food with her right hand, following a minor head injury four weeks prior that initially caused a left-sided headache without loss of consciousness, nausea, or vomiting. Her medical history includes noninsulin dependent diabetes and congestive heart failure; current medications are Prevacid, atenolol, K-Ciel, Lasix, and aspirin. Physical examination revealed trace pronator drift and decreased strength in the right upper extremity, slowed coordination on the right, decreased palm sensation to temperature, and positive nystagmus. Laboratory results showed mild hyponatremia and elevated creatinine. Head CT demonstrated a subacute left subdural hematoma with no interval increase. The documented diagnosis was subacute left subdural hematoma. The patient was monitored during admission; specific treatments or interventions were not detailed in the note.
+The patient is an 88-year-old woman presenting with right hand clumsiness, weakness, and shaking, following a minor head injury four weeks prior. She initially experienced a week of left-sided headache that waxed and waned, with no loss of consciousness, nausea, or vomiting, and did not improve with Tylenol. Her past medical history includes noninsulin dependent diabetes and congestive heart failure; home medications included Prevacid, atenolol, K-Ciel, Lasix, and aspirin. Head CT revealed a subacute left subdural hematoma without interval increase. During hospitalization, she had one episode of acute confusion and combativeness, which resolved after Haldol administration. The documented diagnosis was subacute left subdural hematoma with transient delirium. Treatment included close neurological monitoring, Tylenol for pain, Dilantin for seizure prophylaxis, and supportive care; she was referred for short-term rehabilitation prior to discharge. The patient was discharged in stable condition with instructions for outpatient follow-up and repeat head CT in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with right hand clumsiness and shakiness, reporting difficulty performing tasks such as cutting. The patient described the symptoms as gradually worsening over time, without sudden onset, and denied any numbness or tingling in the affected hand. The patient also mentioned experiencing a left-sided headache but was unsure if it was related to the hand symptoms and noted no significant recent changes in the headache. No relevant medical history, medications, or allergies were discussed. There were no specific physical findings documented during this encounter. The doctor explored the characteristics of the hand symptoms and inquired about possible sensory changes and the relationship between the headache and hand issues. No formal assessment or working diagnosis was stated, and no treatment plan or recommendations were provided during the documented portion of the conversation.
+The patient is presenting with difficulty using their right hand, described as clumsiness and shakiness. The symptoms have developed gradually over time rather than suddenly, and the patient reports increasing difficulty with tasks such as cutting. There is no associated numbness or tingling in the right hand; symptoms are limited to shakiness and impaired function. The patient also reports a left-sided headache but does not believe it is related to the hand symptoms and notes no recent changes in the headache pattern. Relevant past medical history, medications, and allergies are not specified in the dialogue. No formal diagnosis or clinical impression is documented in this encounter. No specific treatment or recommendations have been provided at this stage.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.523
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 117 words
+
 
 ## Processing Information
 

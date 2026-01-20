@@ -85,16 +85,23 @@ If you notice your symptoms getting much worse, or if you develop chest pain or 
 
 ## EHR Summary
 
-The patient is a 77-year-old woman presenting with shortness of breath. She reports worsening orthopnea, paroxysmal nocturnal dyspnea, dyspnea on exertion, and increased lower extremity edema over several weeks, requiring her to sleep sitting upright to alleviate symptoms. Her past medical history includes type 2 diabetes, hypertension, degenerative joint disease, transient ischemic attack, depression, and likely congestive heart failure. She previously experienced peripheral edema that responded to medical therapy, but recent empirical diuretic treatment was unsuccessful. On admission, she denied chest pain, palpitations, fever, cough, or gastrointestinal bleeding, though she noted decreased appetite and chronic loose stools. The documented diagnosis was new congestive heart failure (CHF). The treatment plan included attempted outpatient diuretic therapy prior to admission; further inpatient management details are not specified in the note.
+The patient is a 77-year-old woman presenting with shortness of breath. She reported worsening orthopnea, paroxysmal nocturnal dyspnea, dyspnea on exertion, and increased lower extremity edema over several weeks, requiring her to sleep sitting upright; she also experienced brief chest pain and decreased appetite. Her relevant history includes type 2 diabetes, hypertension, degenerative joint disease, transient ischemic attack, depression, and likely congestive heart failure. On admission, physical exam revealed tachycardia, jugular venous distention, bilateral crackles, and 3+ pitting edema; echocardiogram showed an ejection fraction of 30% with multiple wall motion abnormalities consistent with multivessel coronary artery disease. The documented diagnoses were congestive heart failure (EF 30%), type 2 diabetes, hypertension, degenerative joint disease, transient ischemic attack, and depression. Initial treatment included medical management with diuretics, ACE inhibitor (later switched to lisinopril), beta blocker (Toprol XL), statin, digoxin, aspirin, and anticoagulation with Coumadin. Due to persistent symptoms and new rest angina, the patient underwent cardiac catheterization revealing three-vessel coronary artery disease and subsequently had CABG x3 with mitral valve annuloplasty. She was maintained on glipizide for diabetes (pioglitazone was discontinued during hospitalization) and managed with an insulin sliding scale while NPO. The patient was transferred to the cardiothoracic surgery team for further care.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath as the chief complaint. Symptoms included worsening dyspnea with activity (walking, climbing stairs), some shortness of breath at rest, significant swelling in the lower legs and feet, intermittent chest discomfort associated with dyspnea, orthopnea requiring extra pillows at night, and episodes of waking suddenly at night unable to catch breath. The patient reported gradual worsening of symptoms over several days, decreased appetite, and recent loose stools; no cough or wheezing was noted. No specific medical history, medications, or allergies were mentioned. The doctor noted increased lower extremity edema and suspected fluid retention, possibly related to decreased cardiac efficiency. The assessment was that the symptoms may be due to fluid overload from the heart not pumping efficiently, leading to fluid accumulation in the legs and lungs. The doctor advised elevating the legs when sitting, limiting dietary salt, monitoring daily weight for rapid increases, and seeking prompt medical attention for severe shortness of breath or chest pain; further evaluation was recommended.
+The patient presents with shortness of breath as the chief complaint. Symptoms include dyspnea that worsens with activity (such as walking or climbing stairs) and is partially relieved by rest, lower extremity edema, chest discomfort associated with dyspnea, orthopnea requiring extra pillows, paroxysmal nocturnal dyspnea, decreased appetite, and recent loose stools. The symptoms have been gradually worsening over several days and have impacted daily activities such as meal preparation and mobility. There is no cough or wheezing reported, but the patient notes increased swelling and possible fluid-related weight gain.
+
+Relevant history, medications, and allergies are not specified in the dialogue. The clinical impression documented by the physician is likely fluid overload due to possible heart dysfunction, as suggested by the combination of worsening edema, orthopnea, and paroxysmal nocturnal dyspnea. The treatment plan includes elevating the legs when sitting, limiting dietary salt intake, daily weight monitoring, and seeking prompt medical attention if symptoms acutely worsen or if chest pain develops. Further evaluation was recommended to clarify the diagnosis and guide management.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.974
-- **Similarity Label**: N/A
+- **STS Score**: 0.687
+- **Model Used**: general
+- **Text1 Length**: 202 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

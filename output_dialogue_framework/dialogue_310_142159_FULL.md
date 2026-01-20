@@ -89,16 +89,21 @@ Does that make sense, or is there anything else about your symptoms you’d like
 
 ## EHR Summary
 
-The patient is a 42-year-old male presenting with Chiari type II malformation with hydrocephalus. On admission, he was mildly anxious but well-appearing, with no rashes and normal vital signs. Physical examination revealed a large head, old scar at L2-L3, scoliosis, brisk reflexes (3+/4), bilaterally positive Babinski signs, mild end-target dysmetria on finger-to-nose testing, and difficulty with tandem gait and toe walking due to internal foot rotation. His cranial nerves, sensory, and motor exams were otherwise intact. The documented diagnosis was Chiari type II malformation with hydrocephalus. He underwent bilateral suboccipital craniotomy, Chiari decompression, C1 laminectomy, and duraplasty on the day of admission. Postoperatively, he recovered well in the surgical intensive care unit, and a CT scan showed expected postoperative changes.
+The patient is a 42-year-old male presenting with Chiari type II malformation with hydrocephalus. On admission, he was mildly anxious but well-appearing, with neurologic findings of brisk reflexes, bilateral positive Babinski signs, mild end-target dysmetria, and difficulty with tandem gait. His history includes major depression and generalized anxiety disorder; he is on lithium carbonate and duloxetine. The documented diagnoses were Chiari II malformation, major depression, generalized anxiety disorder, corneal abrasion, sinus bradycardia, and hyponatremia. He underwent bilateral suboccipital craniotomy, Chiari decompression, C1 laminectomy, and duraplasty without postoperative neural deficits. Postoperatively, he developed transient sinus bradycardia and mild hyponatremia, both of which resolved, and a right corneal abrasion treated with erythromycin ointment. He was started on cyclobenzaprine for back spasms and continued his psychiatric medications. The patient was discharged home in good condition with instructions to follow up in clinic in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with back pain as the chief complaint. The pain has been present for a while, tends to come and go, and has become more noticeable recently; it is aggravated by walking, standing for long periods, twisting, and bending, and is described as more of an annoyance than a disabling issue. The patient denied numbness, tingling, or weakness in the legs, and reported mild anxiety since the discomfort worsened. Relevant history includes scoliosis, which has become more noticeable over time, and an old scar at the L2-L3 level with no recent changes. The patient also mentioned difficulty with tandem gait and some unsteadiness during finger-to-nose movements. On assessment, the doctor noted no signs of nerve involvement or concerning changes in the scar, and attributed the back pain primarily to muscle strain or posture issues related to scoliosis, with mild anxiety possibly intensifying symptoms. The doctor recommended gentle stretching, regular low-impact exercise, attention to posture, avoidance of triggering movements, and relaxation techniques for anxiety. The patient was advised to monitor for new symptoms such as weakness, numbness, or changes in bowel/bladder control, and to seek further evaluation if pain worsens or daily activities become significantly affected.
+The patient is an adult presenting with back pain as the chief complaint. The back pain has been present for a while, is intermittent, and has recently become more noticeable; it is aggravated by walking, standing, twisting, or bending, but there is no associated numbness, tingling, or leg weakness. The patient has a history of scoliosis, which may be contributing to the discomfort, and reports mild anxiety that has increased with worsening pain; there are no changes in an old L2-L3 scar. The pain is described as an annoyance that slows the patient down but does not prevent daily activities. The clinical impression is that the back pain is likely related to muscle strain or posture issues, possibly influenced by underlying scoliosis, with no evidence of nerve involvement or concerning scar changes. Treatment recommendations include gentle stretching, regular low-impact exercise (such as walking or swimming), attention to posture, avoidance of triggering movements, and relaxation techniques for anxiety. The patient was advised to monitor for new symptoms such as weakness, numbness, or changes in bowel/bladder control and to seek further evaluation if the pain worsens or significantly interferes with daily life. The patient also reported difficulty with tandem gait and some unsteadiness on finger-to-nose testing, which was noted for further observation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.935
-- **Similarity Label**: N/A
+- **STS Score**: 0.370
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 210 words
+
 
 ## Processing Information
 

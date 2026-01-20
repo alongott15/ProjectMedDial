@@ -100,3 +100,23 @@ Does this sound manageable for you right now? And is the lump interfering with e
 ## Processing Information
 
 - **Processing Time**: 437.6s
+
+## EHR Summary
+
+The patient is a 54-year-old male presenting for surgical management of a mass in the floor of the mouth. He reported noticing the mass prior to admission, which was diagnosed as squamous cell carcinoma of the floor of the mouth. He has no other past medical history and no pertinent family history. The documented diagnosis was squamous cell carcinoma of the floor of the mouth. Treatment included resection of the floor of the mouth with mandibulectomy, bilateral neck dissection, tooth extraction, tracheostomy placement, and reconstruction with a free radial osseocutaneous flap. Postoperatively, he developed mild dysphagia and erythema around his incision, for which he was treated with tube feeds, then a puree diet, and a course of Keflex. At discharge, his nasogastric and tracheostomy tubes had been removed, and he was prescribed Keflex, Roxicet, Prilosec, and thickened meals. He was advised to follow up with surgery and plastic surgery, and to continue speech therapy and wound care at home.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with a chief complaint of a lump in the floor of the mouth. The lump has been present for several days without significant change in size or firmness and is associated with mild trouble swallowing and localized redness, but no pain, drainage, numbness, tingling, or difficulty moving the tongue. The patient denies fever, systemic symptoms, or interference with eating or speaking. Relevant medical history, medications, and allergies are not specified.
+
+The clinical impression is a possible minor salivary gland issue such as a blocked duct (ranula or mucocele) or localized irritation, with no signs of acute infection or systemic illness. The treatment plan includes monitoring for changes such as rapid growth, increasing redness, pain, fever, or new functional limitations, maintaining good oral hygiene, and avoiding oral irritation. The patient was advised to seek further evaluation if symptoms worsen or persist beyond a week.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.555
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 149 words
+

@@ -89,16 +89,23 @@ Let me know if you notice any
 
 ## EHR Summary
 
-The patient is a 47-year-old male presenting with hypotension (systolic blood pressures in the 60s) associated with light-headedness and dizziness. He also reported vomiting, diarrhea, and decreased oral intake for several days, with a history of heavy ethanol use (half a gallon of vodka per day) and last drink on the morning of admission. Relevant history includes HIV (long-term nonprogressor), hypertension, rheumatic fever, and prior cholecystectomy. On admission, he was noted to have high CIWA scores indicating significant ethanol withdrawal, acute hyponatremia (sodium 115, improved to 132), acute renal failure (creatinine 2.4, improved with fluids), macrocytic anemia (MCV >100), and positive blood cultures for gram positive cocci. Physical exam findings were notable for ethanol withdrawal symptoms managed per CIWA protocol. The documented diagnoses included ethanol withdrawal, acute renal failure, hyponatremia, and macrocytic anemia likely secondary to ethanol toxicity. Treatment included titrated diazepam (Valium) per CIWA protocol, intravenous fluids for renal failure and hyponatremia, and monitoring of laboratory parameters. The patient’s symptoms and laboratory abnormalities improved during hospitalization.
+The patient is a 47-year-old male presenting with hypotension (systolic blood pressures in the 60s) associated with light-headedness and dizziness. He also reported vomiting, diarrhea, and decreased oral intake for several days, with a history of heavy ethanol use (half a gallon of vodka per day for one week) and last drink on the morning of admission. Relevant history includes HIV (long-term nonprogressor), hypertension, prior rheumatic fever, and status post cholecystectomy. On admission, he was managed for alcohol withdrawal using the CIWA protocol with Diazepam, later transitioned to Klonopin as symptoms improved. Additional findings included hyponatremia (sodium 115, corrected to 132), acute renal failure (creatinine 2.4, improved to 0.9 with fluids), and macrocytic anemia likely due to ethanol toxicity, treated with folate and thiamine. Blood cultures were initially positive for coagulase-negative staph (likely contaminant), treated briefly with Vancomycin, which was discontinued after subsequent negative cultures. The documented diagnosis was alcohol withdrawal. At discharge, the patient was stable and improved, prescribed multivitamins, nicotine patch, propranolol, venlafaxine, Tylenol as needed, and Klonopin, with instructions to follow up with his primary care physician and attend rehab.
+
 
 ## Dialogue Summary
 
-The patient presented with light-headedness and dizziness, especially upon standing, and reported very low blood pressure readings (systolic in the 60s). Symptoms began suddenly a couple of days ago and included vomiting, diarrhea, decreased oral intake, jitteriness, tremor, and a transient fever (now resolved); the patient denied chest pain, shortness of breath, or new limb weakness. The patient has not fainted but feels close to it when standing, and has needed to rest more often due to dizziness interfering with daily activities. No significant difference in blood pressure between lying down and standing was noted, and there have been no recent changes in medications, salt, or fluid intake aside from reduced intake due to gastrointestinal symptoms. On assessment, the doctor attributed the dizziness and hypotension to dehydration from vomiting and diarrhea, with possible electrolyte loss contributing to jitteriness and tremor. The doctor advised frequent small sips of clear fluids (such as oral rehydration solutions or diluted juice), resting as much as possible, and avoiding rapid changes in position. The patient was instructed to seek medical attention if unable to keep fluids down, if symptoms worsen (such as confusion or fainting), or if persistent vomiting occurs.
+The patient is an adult presenting with light-headedness and dizziness, especially upon standing, as the chief complaint. Symptoms began suddenly a couple of days ago and include persistent low blood pressure (systolic in the 60s), increased need to rest, vomiting, diarrhea, decreased oral intake, jitteriness, and tremor; there has been no fainting, chest pain, shortness of breath, or new weakness. The patient reports a prior fever that has since resolved and has been able to keep down only small amounts of fluid. No recent medication changes or alterations in salt/fluid intake were noted.
+
+The documented clinical impression is dehydration secondary to vomiting and diarrhea, likely from a viral illness, resulting in hypotension and associated symptoms. The provider explained that ongoing fluid loss and inadequate intake are contributing to the low blood pressure and dizziness. The treatment plan includes oral rehydration with small, frequent sips of clear fluids (such as oral rehydration solutions, diluted juice, or broth), rest, and avoidance of rapid position changes. The patient was advised to seek medical attention if symptoms worsen, if unable to keep fluids down, or if new concerning symptoms such as confusion or fainting develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.940
-- **Similarity Label**: N/A
+- **STS Score**: 0.594
+- **Model Used**: general
+- **Text1 Length**: 183 words
+- **Text2 Length**: 191 words
+
 
 ## Processing Information
 

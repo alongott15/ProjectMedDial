@@ -186,3 +186,23 @@ For now, continue to pay attention to any changes and reach out to your care tea
 ## Processing Information
 
 - **Processing Time**: 415.1s
+
+## EHR Summary
+
+The patient is a 36-year-old male presenting with abdominal pain. He was found to be in end-stage liver failure, which was complicated by new onset renal failure during his hospital stay. His medical course included transfer from the Medical Intensive Care Unit to the floor after discussions with family regarding goals of care. The documented diagnosis was end-stage liver failure with renal failure. The treatment plan transitioned to do not resuscitate/do not intubate status and comfort measures only. The patient was observed for several days following this change in care approach. Ultimately, he passed away on [2158-10-28].
+
+
+## Dialogue Summary
+
+The patient is an adult with a history of end-stage liver and kidney failure presenting with new abdominal pain. The abdominal pain is currently the only symptom, with no reported fever, confusion, severe swelling, shortness of breath, or other acute changes. The physician explained that in the context of advanced liver and kidney disease, new abdominal pain could indicate complications such as ascites, peritonitis, or issues related to dialysis and fluid balance. No definitive diagnosis was documented, but the clinical impression was concern for possible infection, fluid overload, or other organ-related complications.
+
+The treatment plan included close monitoring for any worsening pain or new symptoms (such as fever, confusion, severe swelling, or dyspnea) and prompt follow-up with the nephrologist or hospital evaluation if symptoms change. The patient was advised to seek urgent care if rapid changes or severe symptoms develop. For mild discomfort, the physician suggested comfort measures such as gentle heat packs and resting in a comfortable position. The patient agreed to monitor symptoms closely and keep the care team updated on any changes.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.729
+- **Model Used**: general
+- **Text1 Length**: 97 words
+- **Text2 Length**: 175 words
+

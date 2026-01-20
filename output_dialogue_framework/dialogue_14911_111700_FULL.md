@@ -59,16 +59,21 @@
 
 ## EHR Summary
 
-The patient is an 87-year-old male admitted to the cardiothoracic surgery service. The chief complaint, specific symptoms, relevant medical history, physical exam findings, and diagnosis are not documented in the provided note. No details regarding the treatment plan or recommendations are included. Further information from the clinical record would be necessary to provide a complete summary.
+The patient is an 87-year-old male admitted to the cardiothoracic surgery service. The chief complaint, specific symptoms, relevant medical history, and clinical findings are not documented in the provided note. There is no explicit diagnosis or clinical impression stated. Details regarding treatment, medications, or recommendations are also not specified in the available text.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain that radiates to the throat and back. The pain has been described as constant and significant, with no clear onset time identified. The patient also reported experiencing diarrhea and recently noticed bright red blood in their stool, but denied any nausea. No relevant medical history, medications, or allergies were mentioned during the conversation. There were no physical findings documented in this dialogue. The doctor did not provide a specific assessment or working diagnosis during the exchange. No treatment plan or recommendations were given before the simulation ended.
+The patient presents with chest pain as the chief complaint. The pain is described as significant, constant, and radiating to the throat and back. The patient also reports diarrhea and recent observation of bright red blood in the stool, but denies nausea. The onset of chest pain is unclear, but it has been persistent. The frequency and quantity of blood in the stool are being further assessed by the physician. Relevant medical history, medications, allergies, and a documented diagnosis are not specified in the dialogue. No treatment plan or specific recommendations have been documented at this stage.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.929
-- **Similarity Label**: N/A
+- **STS Score**: 0.429
+- **Model Used**: general
+- **Text1 Length**: 53 words
+- **Text2 Length**: 97 words
+
 
 ## Processing Information
 

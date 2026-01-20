@@ -87,16 +87,21 @@ Does that sound reasonable to you?
 
 ## EHR Summary
 
-The patient is a 75-year-old male admitted for management of a right renal mass. He has a history of coronary artery disease with prior myocardial infarction, multiple malignancies (transition cell carcinoma of the left ureter, colon cancer, prostate cancer), chronic obstructive pulmonary disease, hypertension, diabetes, and peripheral vascular disease. The patient underwent a right nephrectoureterectomy without intraoperative complications and was initially transferred to the ICU due to significant comorbidities. Postoperatively, he developed acute agitation on day two, which improved with Haldol; no hypoxia or electrolyte abnormalities were noted at that time. On postoperative day three, he reported shortness of breath; cardiac enzymes were negative and ECG was unchanged from baseline, though CK was mildly elevated at 430. Cardiology recommended diuresis and medication adjustments. The patient’s condition stabilized with these interventions.
+The patient is a 75-year-old male presenting with a right renal mass. He has a history of coronary artery disease status post myocardial infarction, transitional cell carcinoma of the left ureter status post ureterectomy, colon cancer, prostate cancer, chronic obstructive pulmonary disease, hypertension, diabetes, and peripheral vascular disease. During hospitalization, he underwent a right nephrectoureterectomy and initially did well postoperatively, though he experienced acute agitation on postoperative day two requiring Haldol and reported some shortness of breath on postoperative day three; cardiac enzymes were negative and VQ scan was low probability for pulmonary embolism. The documented diagnosis was right renal mass requiring surgical removal. Treatment included surgery (right nephrectoureterectomy), postoperative monitoring, management of agitation with Haldol, diuresis as recommended by Cardiology, and continuation of chronic medications including insulin, Lipitor, Lasix, and antihypertensives. The patient was discharged in stable condition with a Foley catheter in place, instructions for wound and Foley care, and follow-up arranged in one to two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented for a general health check-in without any specific symptoms or complaints. They reported no changes in energy levels, sleep, appetite, physical activity, balance, memory, concentration, or mood, and denied experiencing shortness of breath, chest discomfort, swelling in the legs, or falls. The patient stated they have not had any recent check-ups, blood pressure checks, or routine screenings. No abnormal physical findings were described or noted during the conversation. The doctor assessed that the patient is currently stable with no new symptoms or concerns and is maintaining their usual routines. The doctor recommended scheduling a general wellness visit to update screenings such as blood pressure, cholesterol, and routine lab work. The patient was advised to continue their current activities and to report any new symptoms such as sudden weakness, chest pain, or changes in balance promptly. The patient agreed with the plan and showed understanding of the recommendations.
+The patient presented for a general health check-in without any specific chief complaint. They reported no new symptoms, including no changes in energy, sleep, appetite, physical activity, balance, memory, concentration, or mood. The patient denied experiencing dyspnea, chest discomfort, leg swelling, or falls, and has been able to maintain their usual routines. There is no relevant medical history, medications, or allergies documented in this encounter. No diagnosis was made, as the patient is currently asymptomatic and stable. The physician emphasized the importance of routine health maintenance and recommended scheduling a general wellness visit to update screenings such as blood pressure, cholesterol, and lab work. The patient was advised to continue their current activities and to report any new symptoms promptly.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.928
-- **Similarity Label**: N/A
+- **STS Score**: 0.428
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 120 words
+
 
 ## Processing Information
 

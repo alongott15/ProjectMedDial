@@ -101,3 +101,23 @@ Let me know if you have any questions or if there’s anything else you’ve not
 ## Processing Information
 
 - **Processing Time**: 453.2s
+
+## EHR Summary
+
+The patient is a 42-year-old woman presenting with acute shortness of breath after recent gastric bypass surgery. She reported mild cough, mild nausea, vomiting, and diffuse abdominal pain, but denied chest pain, polyuria, or polydipsia; her home blood glucose readings were over 300-400 mg/dL. Her medical history includes Type I diabetes mellitus, hypertension, morbid obesity, neuropathy, osteoarthritis/rheumatoid arthritis, and hypercholesterolemia; she is allergic to intravenous contrast and cephalosporins. On admission, she was found to be in diabetic ketoacidosis (DKA) with a blood glucose of 498 mg/dL, severe metabolic acidosis, and was also diagnosed with a non-ST elevation myocardial infarction (NSTEMI), likely secondary to demand during DKA. Treatment included intravenous insulin, aggressive fluid resuscitation, aspirin, a beta-blocker (metoprolol), an ACE inhibitor (lisinopril), and continuation of her diabetic and cardiac medications; she was not anticoagulated due to recent surgery. Cardiology consultation recommended an echocardiogram (which was normal) and outpatient stress testing. Her symptoms and laboratory abnormalities resolved with treatment, and she tolerated her post-gastric bypass diet well. She was discharged in good condition with follow-up appointments for diabetes management, cardiology, and bariatric surgery.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with acute onset dyspnea (shortness of breath) as the chief complaint. The breathing difficulty began suddenly earlier today, is present even at rest, and is described as an inability to catch their breath with increased effort required; it has not improved since onset. Associated symptoms include mild cough, mild nausea with a couple of episodes of vomiting, and two to three episodes of soft diarrhea; there is no chest pain, wheezing, lightheadedness, or dizziness, and positional changes do not affect symptoms. Relevant medical history, medications, and allergies are not specified.
+
+No definitive diagnosis was documented; the physician discussed possible causes such as respiratory infection, allergies, anxiety, or gastrointestinal issues but emphasized the need for caution due to the acute and persistent nature of symptoms. The treatment plan includes monitoring for worsening symptoms (such as severe chest pain, cyanosis, or confusion), resting in an upright position, sipping fluids as tolerated, and avoiding strenuous activity. The patient was advised to seek immediate medical attention if symptoms worsen or new severe symptoms develop, and to be evaluated in person if there is no improvement within a few hours.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.477
+- **Model Used**: general
+- **Text1 Length**: 181 words
+- **Text2 Length**: 191 words
+

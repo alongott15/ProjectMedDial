@@ -180,3 +180,23 @@ Does that make sense? Do you have any questions about what we've discussed?
 ## Processing Information
 
 - **Processing Time**: 437.7s
+
+## EHR Summary
+
+The patient is a 76-year-old woman presenting with lethargy following recent discharge after treatment for a subdural hematoma. She was readmitted from rehabilitation due to increased lethargy, and head CT revealed an increase in the left subdural hematoma with associated headache and confusion. Her past medical history includes hypertension, hypercholesterolemia, and bilateral subdural hematomas; she has allergies to erythromycin and penicillin (anaphylaxis). On examination, she was awake, alert, oriented, and neurologically intact. The documented diagnosis was left acute on chronic subdural hematoma with midline shift. She underwent burr hole drainage of the hematoma without complications and remained stable postoperatively. Discharge medications included Protonix, Captopril, Verapamil SR, Hydrochlorothiazide, Lipitor, and Percocet as needed; she was discharged to rehabilitation with plans for follow-up and repeat head CT in three to four weeks.
+
+
+## Dialogue Summary
+
+The patient presents with a chief complaint of lethargy, headache, and intermittent confusion. These symptoms have been ongoing for several days, with the headache and lethargy described as constant and the confusion occurring off and on. The patient reports that resting provides some relief, but the symptoms persist and have made daily tasks more difficult. There is no mention of new or worsening symptoms during the dialogue.
+
+The documented diagnosis is a left acute on chronic subdural hematoma. The physician explained that this condition involves blood collecting on the surface of the brain, often after a head injury, and can affect brain function. The treatment plan includes close monitoring for any new or worsening symptoms (such as weakness, numbness, trouble speaking, severe headache, confusion, or balance problems), avoiding activities that could lead to falls or head injury, resting as much as possible, and ensuring someone is nearby to help monitor the patient. Arrangements will be made for specialist evaluation and imaging to determine further management.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.750
+- **Model Used**: general
+- **Text1 Length**: 130 words
+- **Text2 Length**: 165 words
+

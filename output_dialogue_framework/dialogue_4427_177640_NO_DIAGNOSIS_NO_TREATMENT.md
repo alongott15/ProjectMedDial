@@ -87,16 +87,21 @@ Is there anything specific you’re worried about, or would you like advice on c
 
 ## EHR Summary
 
-The patient is a 55-year-old woman presenting for management of a nonruptured carotid ophthalmic aneurysm. She did not report acute symptoms at admission and was in no acute distress on examination. Her past medical history includes occipital neuralgia (status post TENS placement), low back pain, pernicious anemia, and multiple prior surgeries including appendectomy, gastric stapling, total abdominal hysterectomy, lumbosacral discectomies, left breast lumpectomy, and varicose vein stripping. She has documented allergies to steroids, Benadryl, codeine, and ibuprofen. Physical examination was unremarkable with stable vital signs and intact neurological function. The patient underwent a left pterional craniotomy for clipping of the ophthalmic artery aneurysm without intraoperative complications. Postoperative angiogram confirmed successful aneurysm clipping with no complications. She recovered well, remained neurologically intact, and was discharged after ambulating and tolerating a regular diet.
+The patient is a 55-year-old woman admitted for management of a nonruptured carotid ophthalmic aneurysm. She underwent a left pterional craniotomy for surgical clipping of the aneurysm without intraoperative complications. Postoperatively, she was monitored in the intensive care unit, remained neurologically intact, and had stable vital signs throughout her stay. A postoperative angiogram on day one confirmed successful aneurysm clipping with no complications. Her past medical history includes occipital neuralgia (status post TENS placement), low back pain, pernicious anemia, and several prior surgeries. She has documented allergies to steroids, Benadryl, codeine, and ibuprofen. The documented diagnosis was nonruptured carotid ophthalmic aneurysm. Treatment included surgical clipping of the aneurysm, postoperative monitoring, and discharge medications of Percocet as needed for pain, Celexa, and Premarin; she was advised to follow up for staple removal and with her neurosurgeon.
+
 
 ## Dialogue Summary
 
-The patient presented with low back pain that has been bothering them more than usual. The pain has been present off and on for quite a while, tends to come and go, and is worsened by bending, lifting, and prolonged sitting; severity reaches up to 7 out of 10 at its worst. Changing positions and using heat help relieve discomfort, and the pain has made daily activities involving bending or lifting more difficult, though sleep is not significantly affected. The patient denied any numbness, tingling, or weakness in the legs and mentioned an inability to take over-the-counter medications due to allergies. No abnormal physical findings were described during the visit. The doctor assessed the back pain as mechanical in nature, related to movement and position, with no signs of nerve involvement or underlying concerning conditions. The doctor recommended continuing activity pacing, avoiding heavy lifting, using heat, and considering gentle stretching or low-impact exercise, with instructions to monitor for new symptoms such as numbness, tingling, weakness, or changes in bladder/bowel control. The patient requested advice on safe stretches or exercises due to a history of back surgeries.
+The patient is an adult presenting with low back pain as the chief complaint. The pain has been present intermittently for an unspecified duration, is rated up to 7 out of 10 in severity at its worst, and is aggravated by bending, lifting, and prolonged sitting; changing positions and using heat provide some relief. There are no associated symptoms of numbness, tingling, or weakness in the legs, and sleep is not affected. The pain has made some daily activities more difficult, particularly those involving bending or lifting. The patient reports allergies that prevent use of over-the-counter medications but does not specify which allergies. The clinical impression is mechanical low back pain without evidence of nerve involvement or concerning underlying conditions. The treatment plan includes continuing activity modification (pacing, avoiding heavy lifting), using heat, and considering gentle stretching or low-impact exercise; the patient was also advised to monitor for new symptoms such as numbness, weakness, or changes in bladder/bowel control. The patient requested further advice on safe stretches or exercises due to a history of back surgeries.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.924
-- **Similarity Label**: N/A
+- **STS Score**: 0.383
+- **Model Used**: general
+- **Text1 Length**: 135 words
+- **Text2 Length**: 176 words
+
 
 ## Processing Information
 

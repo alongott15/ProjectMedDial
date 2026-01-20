@@ -85,16 +85,21 @@ If you notice additional symptoms like shortness of breath, sweating, or feeling
 
 ## EHR Summary
 
-The patient is a 39-year-old female presenting with chest pain and vomiting. She experienced several episodes of nausea and vomiting, followed by chest and left arm tightness, with blood glucose levels elevated and unresponsive to insulin for the preceding 24 hours. Her medical history includes type 1 diabetes mellitus for 9 years (on insulin pump, last HbA1c 8.4) and hypertension; she has no known drug allergies or prior coronary artery disease. On admission, she was found to be in diabetic ketoacidosis (HCO3 12, anion gap 20) and her EKG showed significant ST elevations in multiple leads. Cardiac catheterization revealed an ulcerated plaque with distal emboli in the proximal-mid LAD, for which a bare metal stent was placed; post-procedure hemodynamics were stable. The documented diagnoses were diabetic ketoacidosis and acute myocardial infarction due to LAD lesion. Treatment included insulin infusion, aspirin, clopidogrel, heparin, integrilin, sublingual nitroglycerin for left arm pain, and cardiac stenting. She was admitted to the CCU for monitoring, with improvement in symptoms and EKG changes.
+The patient is a 39-year-old female presenting with chest pain and vomiting. She experienced several episodes of nausea and vomiting, followed by chest and left arm tightness, with blood glucose levels elevated and unresponsive to insulin for 24 hours prior to admission. Her past medical history includes type 1 diabetes mellitus (9 years), hypertension, major depressive disorder, cervical disc herniation, and vitamin B12 deficiency; she has no known drug allergies. On admission, she was found to be in diabetic ketoacidosis (DKA) and suffered an ST elevation myocardial infarction (STEMI), confirmed by ECG and cardiac catheterization revealing an ulcerated plaque in the proximal-mid LAD, treated with bare metal stent placement. She was managed with insulin drip for DKA, antiplatelet therapy (aspirin, clopidogrel), heparin, integrilin, beta blocker, ACE inhibitor, statin, and supportive care. Her hospital course was notable for gradual resolution of DKA and improvement in ST elevations, with persistent mild ECG changes at discharge. She was discharged home in good condition with instructions to continue her medications and follow up with cardiology and primary care.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest discomfort began approximately two days ago, is rated as 7 out of 10 in severity at its worst, is worsened by physical activity and possibly stress, and has remained unchanged over the past couple of days. Associated symptoms include nausea, vomiting, and tightness radiating to the left arm with aching, all of which have significantly impacted the patient's ability to perform daily activities. No relevant past medical history, medications, or allergies were mentioned. The doctor noted that the combination of chest pain, nausea, vomiting, and left arm symptoms—especially when triggered by exertion—is concerning for possible heart-related problems, though less serious causes like muscle strain or acid reflux were also considered. The doctor recommended immediate further evaluation at an urgent care center or emergency department to rule out serious causes and advised the patient to avoid strenuous activity and rest. The patient understood and agreed to seek emergency care as advised.
+The patient is an adult presenting with chest pain as the chief complaint. The chest discomfort began approximately two days ago, is rated 7 out of 10 in severity at its worst, and is accompanied by nausea and vomiting. The pain radiates to the left arm with associated tightness and aching, is worsened by physical activity, possibly triggered by stress, and has remained unchanged over the past couple of days. The symptoms are significantly impacting the patient's ability to perform daily activities. Relevant medical history, medications, and allergies are not specified. The clinical impression is that the constellation of symptoms is concerning for a possible cardiac etiology, though other causes such as muscle strain or acid reflux were mentioned. The treatment plan includes immediate referral for further evaluation at an urgent care center or emergency department, advice to avoid strenuous activity, and instructions to seek help if additional symptoms such as dyspnea, diaphoresis, or presyncope occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.404
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

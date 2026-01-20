@@ -93,16 +93,23 @@ Otherwise, keep doing what you’re doing. It’s great to see you taking an act
 
 ## EHR Summary
 
-The patient is a 65-year-old female presenting after a fall at home, with a history of left lower lobe pneumonia, chronic hypoxemia, and hypercarbia on home oxygen. She was noted to be anxious, disoriented, and somnolent, with O2 saturations in the 70s-80s and a PCO2 of 120 on arterial blood gas; her family reported increased confusion, tremulousness, and frequent daytime napping over the past week. She denies cough, nausea, vomiting, or diaphoresis but reports baseline shortness of breath and occasional, poorly described chest pain. Her past medical history includes diabetes, paroxysmal atrial fibrillation (on amiodarone), anxiety disorder, DVT, GERD, and hypoxemia requiring home oxygen. On physical exam, she was alert and sitting up in bed with an O2 saturation of 81% on 3 liters by nasal cannula, heart rate in the 70s, and blood pressure 140/33. The documented clinical impression is acute-on-chronic hypercapnic respiratory failure likely related to underlying pulmonary disease. She was treated with biPAP, which improved her mental status, and continued supplemental oxygen.
+The patient is a 65-year-old female presenting after a fall at home, with confusion, anxiety, and hypoxemia. She was noted to have O2 saturations in the 70s-80s, mental status changes, and a history of chronic hypercarbia on home oxygen. Her symptoms included increased somnolence over the past week, baseline shortness of breath, occasional chest pain, and a resting tremor; she denied cough, nausea, vomiting, or diaphoresis. Relevant history includes diabetes, paroxysmal atrial fibrillation on amiodarone, prior DVT, GERD, and penicillin allergy. The documented diagnoses were hypercarbia, congestive heart failure, and vitamin B12 deficiency anemia. She was treated with BIPAP (with improvement in mental status and oxygenation), diuresis for fluid overload, and intramuscular B12 injections; a thick liquid diet was started after failing a swallow evaluation. Pulmonary rehabilitation was consulted for ongoing management of home oxygen and initiation of nocturnal BIPAP. She was discharged in stable condition with continued recommendations for pulmonary rehab and home BIPAP use.
+
 
 ## Dialogue Summary
 
-The patient presented for a general health check-in without a specific complaint. They reported no changes in energy, sleep, appetite, weight, or day-to-day activities, and denied any new aches, pains, mild issues (such as headaches, heartburn, or joint stiffness), or shortness of breath. The patient stated they are not on any medications and try to keep up with regular exercise and routine screenings. No abnormal clinical findings were described or noted during the visit. The doctor assessed that the patient is in good health with no concerning symptoms or limitations and found no indication of underlying issues requiring attention. The doctor recommended continuing healthy habits, maintaining regular exercise, and keeping up with preventive screenings such as blood pressure, cholesterol, and cancer checks as appropriate. The patient was advised to monitor for any new symptoms and to reach out if changes occur. Overall, the doctor emphasized the importance of regular check-ins and proactive health maintenance.
+The patient presented for a routine health check-in without a specific chief complaint. They reported no new symptoms, including no changes in energy, sleep, appetite, weight, or physical activity tolerance, and denied any recent aches, pains, or mild issues such as headaches, heartburn, or joint stiffness. The patient is not currently taking any medications and is keeping up with regular exercise and recommended screenings. There is no relevant medical history or allergies documented in this encounter.
+
+The clinical assessment was that the patient is in good health with no evidence of underlying medical issues requiring attention at this time. The treatment plan focused on maintaining healthy habits, continuing regular exercise, and staying up to date with preventive screenings such as blood pressure, cholesterol, and cancer screening as appropriate. The doctor advised the patient to monitor for any new or persistent symptoms and to reach out if concerns arise. Overall, the patient was encouraged to continue their current health maintenance routine.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.509
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

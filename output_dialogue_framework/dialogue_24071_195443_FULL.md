@@ -82,16 +82,23 @@ Let me know—
 
 ## EHR Summary
 
-The patient is a 41-year-old female presenting with vomiting as her chief complaint. She experienced two episodes of projectile vomiting after breakfast, without associated nausea, blood, or bile, and also reported intermittent, non-localized abdominal pain, diarrhea (attributed to Lactulose), increased abdominal girth, difficulty concentrating, recent weight loss, and blood-tinged yellow sputum with cough. She denied shortness of breath and urinary symptoms but described feeling generally winded and tired. Her relevant history includes end stage liver disease due to primary sclerosing cholangitis and autoimmune hepatitis overlap with cirrhosis, hypertension, recent hospitalization for hyponatremia, anemia from gastrointestinal bleeding, coagulopathy, and edema. No specific physical exam findings or test results are documented in this note. The documented diagnosis is end stage liver disease with multiple complications. The treatment plan is not specified in the provided note.
+The patient is a 41-year-old female presenting with vomiting that began the morning of admission. She reported two episodes of projectile emesis without nausea, blood, or bile, intermittent non-localized abdominal pain, diarrhea (attributed to Lactulose), abdominal distension, difficulty concentrating, recent weight loss, and blood-tinged sputum with cough; she denied shortness of breath and urinary symptoms. Her relevant history includes end stage liver disease due to primary sclerosing cholangitis and autoimmune hepatitis overlap with cirrhosis, hypertension, hypertrophic pulmonary osteoarthropathy, lower back disc herniation, duodenal ulcers, and a questionable sulfa allergy. On examination, she was jaundiced, ill-appearing, with abdominal distension, splenomegaly, and clubbing; labs showed elevated liver enzymes and bilirubin, thrombocytopenia, and coagulopathy. The assessment considered vomiting in the context of end stage liver disease, with differential diagnoses including gastric outlet obstruction, biliary obstruction, infection, GI bleed, portal vein thrombosis, ascites, and medication side effects. Workup including EGD and abdominal ultrasound was negative for new bleeding or obstruction; MRCP showed no obstructive strictures but worsening ductal changes. During hospitalization, she developed hepatic encephalopathy (lethargy, asterixis) which improved after increasing Lactulose dosing. She also developed hyponatremia likely related to diuretic use, managed with fluid restriction and holding diuretics.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent moderate abdominal pain and a general feeling of illness. Symptoms included moderate, non-constant abdominal pain, visible abdominal swelling that developed gradually, episodes of vomiting and diarrhea, low appetite, fatigue, recent weight loss, difficulty concentrating, and blood-tinged yellowish sputum with cough. The patient reported no fever and noted that symptoms appeared randomly without clear triggers; abdominal swelling was visibly apparent rather than just bloating. Relevant history, medications, and allergies were not specified. The doctor noted the combination of digestive symptoms, visible swelling, weight loss, and trouble concentrating as concerning for possible fluid buildup or metabolic/nutritional issues rather than a simple stomach bug. The doctor advised the patient to monitor for warning signs such as persistent vomiting, severe pain, jaundice, or fever, and to seek prompt care if these occur. Recommendations included staying hydrated, eating small bland meals if tolerated, and scheduling a thorough evaluation with possible lab tests or imaging; the patient was also advised to report any worsening symptoms.
+The patient presents with the chief complaint of intermittent moderate abdominal pain. Symptoms include visible abdominal swelling that has developed gradually, episodes of vomiting and diarrhea, low appetite, fatigue, recent weight loss, and difficulty concentrating; the abdominal pain has no clear triggers and is not constant. The patient also reports blood-tinged yellowish sputum with cough and ongoing fatigue. There is no reported fever, but the symptoms have significantly impacted daily activities and nutrition.
+
+No specific diagnosis was documented, but the physician expressed concern for possible digestive or metabolic causes, including potential fluid accumulation in the abdomen or impaired nutrient processing. The treatment plan includes monitoring for warning signs such as persistent vomiting, severe pain, jaundice, or fever, staying hydrated, eating small bland meals as tolerated, and seeking prompt medical care if symptoms worsen. The physician advised scheduling a thorough evaluation with possible lab tests or imaging to further investigate the cause of the symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.685
+- **Model Used**: general
+- **Text1 Length**: 195 words
+- **Text2 Length**: 154 words
+
 
 ## Processing Information
 

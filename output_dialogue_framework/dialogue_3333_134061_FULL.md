@@ -184,3 +184,23 @@ Please reach out if anything changes or if you have questions—it's always bett
 ## Processing Information
 
 - **Processing Time**: 436.0s
+
+## EHR Summary
+
+The patient is a 47-year-old male presenting with stage IIIB (T4) carcinoma of the right lung and symptoms of superior vena cava (SVC) syndrome, including facial swelling. He had a history of biopsy-proven non-small cell lung cancer, prior chemoradiotherapy, and was admitted for surgical management due to persistent mediastinal mass and SVC involvement. On examination, he appeared well but anxious, with facial swelling consistent with SVC syndrome; chest was clear to auscultation, and heart sounds were slightly distant. Imaging showed stable post-surgical changes, right-sided hydropneumothorax, and evidence of recent vascular reconstruction. The documented diagnosis was status post median sternotomy for mediastinal mass with Gore-Tex reconstruction of the SVC and brachiocephalic veins. His postoperative course was unremarkable, with good pain control and independent ambulation. Discharge medications included aspirin, metoprolol tartrate, and oxycodone-acetaminophen as needed for pain. He was discharged home in good condition with instructions to monitor for signs of infection or complications and to follow up with his physician.
+
+
+## Dialogue Summary
+
+The patient is an adult with a history of lung cancer and previous superior vena cava (SVC) syndrome presenting with new-onset facial swelling. The swelling has been present for approximately five days, is mostly around the face, and has remained fairly consistent without significant change. The patient denies associated symptoms such as chest pain, dyspnea (shortness of breath), headaches, vision changes, or feeling faint. Relevant history includes prior lung cancer and SVC syndrome, which increases concern for possible recurrence or progression of SVC syndrome as a cause of the swelling.
+
+The clinical impression is possible recurrence or progression of SVC syndrome due to the patient’s history and current symptoms. The treatment plan includes monitoring for new or worsening symptoms (such as dyspnea, chest pain, or rapid swelling), keeping the head elevated when resting, avoiding tight clothing around the neck, and seeking urgent medical attention if concerning symptoms develop. The doctor also plans to arrange prompt further evaluation, including imaging if needed. The patient was advised to stay alert for any changes and to contact the provider immediately if new symptoms arise.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.765
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 181 words
+

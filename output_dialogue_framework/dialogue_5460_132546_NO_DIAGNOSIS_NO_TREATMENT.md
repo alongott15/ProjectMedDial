@@ -87,16 +87,23 @@ Would you like advice on managing these symptoms at home while you arrange a che
 
 ## EHR Summary
 
-The patient is a 54-year-old male presenting with one week of mid-sternal discomfort as the chief complaint. Symptoms included daily episodes of chest discomfort at rest lasting 1–30 minutes, sometimes associated with left arm weakness and palpitations, but no shortness of breath or exertional pain. Relevant history includes Hodgkin's disease treated 30 years ago with chemotherapy, radiation, and splenectomy, as well as a history of smoking; allergies to codeine and penicillin are noted, and he is taking aspirin 325 mg daily. On examination, he was tachycardic but in no acute distress, with normal lung and abdominal findings and no edema. Laboratory findings showed elevated troponin (up to 8.2), sinus tachycardia on ECG with questionable ST elevations, and significant coronary artery stenoses on cardiac catheterization (left main 70%, LAD 90%, circumflex 80%, ramus 80–90%). The documented diagnosis was acute coronary syndrome with significant multi-vessel coronary artery disease. Treatment included cardiac catheterization and continuation of aspirin; further management details are not specified in the note.
+The patient is a 54-year-old male presenting with one week of mid-sternal discomfort occurring daily, mostly at rest, lasting 1–30 minutes, and occasionally associated with left arm weakness and palpitations. He denied shortness of breath, paroxysmal nocturnal dyspnea, lower extremity edema, and exertional pain. His history is notable for Hodgkin's disease treated 30 years ago with chemotherapy, radiation, and splenectomy; he is allergic to codeine and penicillin and was taking aspirin. On admission, elevated troponin levels and cardiac catheterization revealed significant multi-vessel coronary artery disease with reduced ejection fraction (35–40%) and multiple areas of akinesis/hypokinesis. The documented diagnosis was acute coronary syndrome with severe coronary artery disease. He underwent uncomplicated triple coronary artery bypass grafting with saphenous vein grafts. Postoperatively, he was stable except for transient hypotension and tachycardia, which led to discontinuation of Lopressor due to intolerance. Discharge medications included Zantac, aspirin, and Lopressor, and he was advised to follow up in two and six weeks; a biopsy of a left ear lobe mass was also planned.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent discomfort in the middle of the chest for about one week. Symptoms included intermittent, mild left arm weakness accompanying the chest discomfort, which both come and go throughout the day without clear triggers related to activity or meals. The patient also reported episodes of heart racing up to 110 beats per minute, occurring both at rest and during activity, with occasional lightheadedness but no fainting; no heartburn, sour taste, or stomach upset were noted. The patient denied shortness of breath, sweating, or significant impact on daily activities, and stated that symptoms have remained stable over the past week. No relevant medical history, medications, or allergies were mentioned. The doctor noted the combination of chest discomfort, arm weakness, and palpitations as potentially concerning for heart or circulation issues, despite their mild nature and lack of progression. The doctor recommended scheduling a physical exam and basic tests such as an ECG, and advised seeking immediate care if symptoms worsen or new severe symptoms develop. Home management tips were requested by the patient while arranging follow-up.
+The patient is an adult presenting with persistent chest discomfort as the chief complaint. The discomfort has been present for about one week, is not associated with pain, and occurs intermittently throughout the day without clear triggers related to activity or meals. Additional symptoms include intermittent mild weakness in the left arm, episodes of heart racing up to approximately 110 beats per minute, and occasional lightheadedness, but no shortness of breath, sweating, heartburn, or gastrointestinal symptoms. The symptoms have remained stable over the past week and have not interfered with daily activities.
+
+No relevant past medical history, medications, or allergies were specified. The clinical impression was that these symptoms could be related to heart or circulation issues, though no definitive diagnosis was documented. The treatment plan included a recommendation for a prompt check-up with a physical exam and basic tests such as an ECG to evaluate heart rhythm. The patient was also advised to seek immediate medical attention if symptoms worsen (e.g., increased discomfort, severe weakness, new sweating, nausea, or fainting) and was offered advice on managing symptoms at home while arranging follow-up care.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.972
-- **Similarity Label**: N/A
+- **STS Score**: 0.565
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 184 words
+
 
 ## Processing Information
 

@@ -85,16 +85,23 @@ If you notice any new symptoms like chest pain, confusion, or if you start to fe
 
 ## EHR Summary
 
-The patient is a 49-year-old male presenting with vomiting and melena. He reported lethargy, fatigue, and continued passage of melanotic stools over two days prior to admission. His medical history includes alcoholic cirrhosis, hepatitis C, gastritis, duodenitis, and multiple prior upper gastrointestinal bleeds. On presentation, vital signs were stable except for a heart rate of 100, and his hematocrit was decreased at 23.4. Physical exam findings included ongoing melena. The documented diagnosis was recurrent upper gastrointestinal bleeding in the setting of cirrhosis and portal hypertension. The patient was admitted to the Medical Intensive Care Unit for esophagogastroduodenoscopy and observation. Treatment included transfusion of packed red blood cells at an outside hospital prior to transfer.
+The patient is a 49-year-old male presenting with melena, lethargy, and fatigue. He reported melanotic stools and a drop in hematocrit to 23.4, with physical exam notable for icteric sclerae, ascites, lower extremity edema, slurred speech, and asterixis. His medical history includes alcoholic cirrhosis (hepatitis C-induced), portal hypertension, recurrent upper gastrointestinal bleeds, type 2 diabetes mellitus, and prior transjugular intrahepatic portosystemic shunt (TIPS) placement complicated by hepatic infarction. The documented diagnoses were gastrointestinal bleed, thrombocytopenia, alcoholic liver cirrhosis, portal hypertension, encephalopathy, anemia, and decreased patency of the original TIPS (status post revision with good flow). Treatment included TIPS revision with angioplasty and coiling of a spontaneous splenorenal shunt, heparin infusion for shunt patency, and supportive care with lactulose, spironolactone, pantoprazole, multivitamins, thiamine, and folic acid. The patient was also started on ciprofloxacin for spontaneous bacterial peritonitis prophylaxis and managed with fluid restriction and insulin sliding-scale for diabetes. He was discharged home in good condition with instructions to follow up in the Liver Clinic within one to two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with vomiting and dark, tarry stools. Symptoms began a couple of days ago and have included persistent black, sticky stools with every bowel movement, increased tiredness and weakness, reduced appetite, and difficulty keeping food down; the fatigue has made daily activities challenging. The patient denied lightheadedness or dizziness but reported feeling unusually tired and weak since symptom onset. No relevant medical history, medications, or allergies were mentioned. On clinical questioning, the doctor noted the consistent appearance of black, sticky stools and ongoing vomiting. The doctor assessed that these symptoms suggest possible bleeding in the upper digestive tract, which may be causing weakness due to blood loss. The doctor recommended prompt evaluation at an emergency department, advised avoiding aspirin or ibuprofen, and instructed the patient not to eat or drink until further testing is done. Additional advice included seeking immediate help if new symptoms such as chest pain, confusion, fainting, or slurred speech occur.
+The patient is an adult presenting with vomiting and black, tarry stools (melena) as the chief complaint. Symptoms began a couple of days ago and include persistent vomiting, consistently black and sticky stools, increased fatigue, weakness, reduced appetite, and difficulty maintaining daily activities; there is no reported dizziness or lightheadedness. The patient reports trouble keeping food down and that eating exacerbates fatigue. There is no mention of relevant past medical history, medications, or allergies in the dialogue.
+
+The clinical impression documented by the doctor is possible upper gastrointestinal bleeding, given the presence of melena and ongoing vomiting. The treatment plan includes prompt referral to the emergency department for further evaluation and management, with instructions to avoid eating, drinking, or taking medications such as aspirin or ibuprofen until assessed. The patient was also advised to seek immediate help if new symptoms such as chest pain, confusion, fainting, or slurred speech develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.565
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 150 words
+
 
 ## Processing Information
 

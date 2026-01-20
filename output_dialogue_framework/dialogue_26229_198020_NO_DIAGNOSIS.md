@@ -96,3 +96,21 @@ For now, stay well-hydrated, rest as much as possible, and try to eat small amou
 ## Processing Information
 
 - **Processing Time**: 431.1s
+
+## EHR Summary
+
+The patient is a 75-year-old male presenting with lethargy, fevers, and a ruptured abdominal aortic aneurysm. He reported increased weakness, inability to sleep, decreased appetite, intermittent fevers up to 103°F, intermittent low back pain lasting less than two hours, and abdominal pain. On admission, he was febrile and lethargic, with laboratory findings notable for leukocytosis (WBC 18.2) and mild hyponatremia (Na 130). Relevant history includes a recent hospitalization for similar symptoms with blood cultures positive for beta hemolytic streptococcus. Imaging revealed a large (7 cm) infrarenal abdominal aortic aneurysm with evidence of rupture and retroperitoneal extension. The documented diagnoses were bacteremia, pyelonephritis (based on physical exam), and ruptured abdominal aortic aneurysm. Initial treatment included intravenous antibiotics (Levaquin 500 mg daily). Further management details for the aneurysm are not specified in the note.
+
+
+## Dialogue Summary
+
+The patient presents with the chief complaint of persistent fatigue and fever. Symptoms began a few days ago and include severe tiredness, subjective weakness, fever up to 103°F, intermittent dull abdominal and flank pain (sometimes worse in the lower back), poor appetite, bloating, and trouble sleeping; there are no urinary symptoms, cough, or sore throat. The patient reports that symptoms have remained unchanged since onset and that the weakness is constant but not associated with specific triggers. No relevant past medical history, medications, or allergies were documented in this encounter. The clinical impression discussed includes possible infection (such as urinary tract infection or viral illness), though no definitive diagnosis was made. The physician advised close monitoring for new or worsening symptoms (such as confusion, increased pain, or dyspnea) and emphasized the importance of seeking prompt care if these develop. Supportive care was recommended, including rest, hydration, and eating small amounts despite low appetite. The patient was instructed to seek in-person evaluation if symptoms do not improve within the next 1–2 days or if they worsen.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.531
+- **Model Used**: general
+- **Text1 Length**: 132 words
+- **Text2 Length**: 175 words
+

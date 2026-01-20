@@ -87,16 +87,21 @@ If you notice any changes in your symptoms or develop new concerns before the st
 
 ## EHR Summary
 
-The patient is a 53-year-old man presenting for a scheduled admission for a sleep study. He reported no current symptoms, and review of systems was unremarkable. His medical history includes sleep apnea, type 2 diabetes mellitus (last A1c 7.1), dyslipidemia, hypertension, stage IV chronic kidney disease, morbid obesity, chronic systolic congestive heart failure (EF 40-50%), coronary artery disease, atrial fibrillation on warfarin, and gout. Physical examination revealed an obese man in no acute distress with normal cardiopulmonary and abdominal findings and no edema. Laboratory results showed mild anemia (HGB 11.8), elevated INR (2.0), elevated creatinine (3.0), and elevated urea nitrogen (78), consistent with his known comorbidities. The documented diagnosis was sleep apnea, for which the sleep study was performed. Treatment during admission included arterial line placement for monitoring; no acute interventions were required. The patient was discharged after completion of the scheduled study.
+The patient is a 53-year-old man admitted for a scheduled sleep study due to sleep apnea. He reported no acute symptoms and review of systems was unremarkable. His medical history includes diabetes mellitus type 2, dyslipidemia, hypertension, stage IV chronic kidney disease, morbid obesity, chronic systolic congestive heart failure (EF 40-50%), coronary artery disease, atrial fibrillation on warfarin, and gout; he has no known drug allergies. The primary diagnosis was sleep apnea, with secondary diagnoses including his chronic comorbidities. During admission, his BiPAP prescription was confirmed (14/9 cm H2O, 4 L oxygen, 150 cc dead space), and arrangements were made for this equipment at his nursing facility. He was discharged in stable condition with instructions to continue his home medications and follow up with his sleep doctor for equipment setup.
+
 
 ## Dialogue Summary
 
-The patient presented with longstanding loud snoring and requested information regarding an upcoming sleep study. They denied any recent changes in snoring, daytime sleepiness, unintended napping, morning headaches, dry mouth upon waking, or trouble concentrating. The patient reported usually sleeping on their back, which the doctor noted can contribute to snoring. No history of witnessed apneas, gasping, or pauses in breathing was reported. The doctor assessed that the primary concern is chronic loud snoring without other symptoms suggestive of sleep apnea or significant sleep disturbance. The doctor recommended maintaining the usual sleep routine before the study, avoiding caffeine and alcohol late in the day, and sleeping in the typical position during the study. The patient was advised to notify the care team if any new symptoms arise prior to the sleep study and expressed understanding of the plan.
+The patient presents for a pre-sleep study evaluation, with the main concern being longstanding loud snoring. The patient denies new or worsening sleep issues, daytime sleepiness, unintended napping, morning headaches, dry mouth upon waking, or trouble with concentration. There is no reported history of observed apneas, gasping, or pauses in breathing during sleep. The patient typically sleeps on their back, which the doctor notes may contribute to snoring. No formal diagnosis is documented at this visit; the sleep study is planned to evaluate for possible underlying sleep disorders such as sleep apnea. The doctor advises the patient to maintain their usual routine before the study, avoid caffeine and alcohol late in the day, and bring items for comfort. The patient is instructed to notify the care team if new symptoms arise prior to the study. Results of the sleep study will be reviewed together after completion.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.948
-- **Similarity Label**: N/A
+- **STS Score**: 0.620
+- **Model Used**: general
+- **Text1 Length**: 130 words
+- **Text2 Length**: 146 words
+
 
 ## Processing Information
 

@@ -97,16 +97,23 @@ Does that plan sound comfortable for you?
 
 ## EHR Summary
 
-The patient is a 54-year-old male presenting for elective surgical clipping of known left-sided cerebral aneurysms. He was asymptomatic at admission, with no acute neurological symptoms reported. Relevant history includes prior subarachnoid hemorrhage, right MCA aneurysm clipping in 2164, coronary artery disease, prior myocardial infarction (2173-6-10), LAD stents, angina, and GERD; home medication included Lopressor. On admission, physical examination was unremarkable with normal neurological findings. The documented diagnosis was left anterior temporal artery and left PComm wide-necked aneurysms. He underwent left craniotomy with successful clipping of the aneurysms, confirmed by postoperative angiogram showing no residual aneurysm. Discharge medications included dexamethasone, Lopressor, and Percocet as needed. The patient was neurologically stable at discharge, advised to follow up in one month and have staples removed in ten days, with a planned Decadron taper.
+The patient is a 54-year-old male presenting for elective surgical clipping of known left middle cerebral artery (MCA) and posterior communicating artery (PComm) aneurysms. He was asymptomatic on admission, with a normal neurological examination and no acute complaints documented. His relevant history includes prior subarachnoid hemorrhage (SAH) with right MCA aneurysm clipping in 2164, coronary artery disease, prior myocardial infarction (2173-6-10), two LAD stents, angina, and GERD; home medication included Lopressor. The clinical impression was unruptured wide-necked left MCA and PComm aneurysms not amenable to coil embolization. He underwent successful left craniotomy with aneurysm clipping, confirmed by postoperative angiogram to have no residual aneurysm. The patient remained neurologically stable postoperatively, ambulated well, and tolerated oral intake. Discharge medications included dexamethasone (with a tapering schedule), Lopressor, and Percocet as needed. He was discharged home in stable condition with instructions for staple removal in ten days and neurosurgical follow-up in one month.
+
 
 ## Dialogue Summary
 
-The patient presented for a routine check-in due to a history of heart issues, without any specific symptoms. The patient denied changes in energy levels, shortness of breath, chest discomfort, swelling in the legs or ankles, weight changes, unusual fatigue after activity, sleep disturbances, or changes in mood or stress. The patient reported being able to perform usual daily activities and exercise without new limitations or discomfort and had not experienced any recent medication changes or side effects. No recent blood pressure readings, cholesterol checks, or heart tests had been performed. On assessment, the doctor noted the absence of new symptoms and stable functional status as reassuring signs of well-managed heart health. The doctor recommended scheduling routine monitoring tests such as blood pressure and cholesterol checks to proactively track heart health. The patient was advised to continue current habits and promptly report any new symptoms like chest discomfort, shortness of breath, or swelling. The patient understood and agreed with the plan.
+The patient is an adult with a history of heart disease presenting for a routine check-in without specific symptoms. The patient reports no recent changes in energy levels, dyspnea, chest discomfort, weight, peripheral edema, fatigue, exercise tolerance, medication regimen, or sleep quality. There are also no reported changes in mood or stress levels. No recent blood pressure, cholesterol checks, or cardiac tests have been performed.
+
+The clinical impression is that the patient’s heart condition appears stable, as there are no new symptoms or limitations in daily activities. The physician emphasized the importance of routine monitoring for heart health, including periodic blood pressure and cholesterol checks, even in the absence of symptoms. The treatment plan includes scheduling a routine visit for these tests and continuing current habits. The patient was advised to monitor for new symptoms such as chest discomfort, shortness of breath, or swelling and to contact their healthcare provider if any arise.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.921
-- **Similarity Label**: N/A
+- **STS Score**: 0.236
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

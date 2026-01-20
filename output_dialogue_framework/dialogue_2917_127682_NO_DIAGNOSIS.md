@@ -87,16 +87,23 @@ Let me know if you have any questions or concerns about what we’ve discussed.
 
 ## EHR Summary
 
-The patient is a 54-year-old male presenting with chest pain. He initially experienced exertional chest pain, which progressed to rest angina requiring frequent sublingual nitroglycerin, and subsequently developed recurrent chest pain with ST elevations. His relevant history includes hypertension, hypercholesterolemia, prior myocardial infarction, unstable angina, and former tobacco use; he has no known drug allergies. Cardiac catheterization revealed significant coronary artery disease: 70% proximal left anterior descending, mid-90% left circumflex, and subtotal right coronary artery lesions, with stenting performed for the right coronary artery due to ST elevations. Laboratory data were notable for normal white cell count, hemoglobin, hematocrit, and electrolytes. The documented diagnosis was unstable angina with ongoing ischemia. Treatment included intravenous nitroglycerin, Aggrastat drip, aspirin, Plavix, Imdur, Lipitor, Lopressor, Zestril, and preoperative planning for coronary artery bypass grafting.
+The patient is a 54-year-old male presenting with chest pain, initially exertional and later occurring at rest. Symptoms included frequent episodes of angina requiring sublingual nitroglycerin and were associated with ST elevations on stress testing. Relevant history includes hypertension, hypercholesterolemia, prior myocardial infarction, unstable angina, and former tobacco use; there are no known drug allergies. Cardiac catheterization revealed three-vessel coronary artery disease with significant stenoses, and the clinical impression was coronary artery disease with unstable angina. The patient underwent coronary artery bypass grafting (CABG x3) and required two subsequent re-explorations for postoperative bleeding, as well as treatment for atrial flutter with amiodarone and Lopressor. Postoperatively, the patient developed a fever and was started on Bactrim (Septra) for seven days; physical therapy was advanced as tolerated. At discharge, the patient was stable and prescribed metoprolol, potassium supplements, lasix, aspirin, Bactrim, and amiodarone, with instructions for home care and follow-up in one month.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain, particularly during physical activity. The pain was rated as 7 out of 10 at its worst, described as a pressure or tightness in the center of the chest that sometimes spreads and occasionally occurs even at rest; it typically builds up gradually with exertion and is relieved by rest, though not always completely. The patient denied significant shortness of breath, sweating, or lightheadedness, but reported a recent fever of 101.3°F. No relevant medical history, medications, or allergies were mentioned. On clinical questioning, the doctor noted the pain’s central location, pressure-like quality, and activity-related onset, with occasional occurrence at rest. The doctor’s assessment was that the symptoms are consistent with angina, possibly indicating underlying heart disease. The doctor recommended prompt evaluation today to rule out heart-related causes, including an EKG and further cardiac testing, advised avoiding strenuous activity, and instructed the patient to seek immediate care if symptoms worsen or are accompanied by sweating, nausea, or fainting.
+The patient is an adult presenting with chest pain as the chief complaint. The pain is described as central, with a sensation of pressure or tightness rated up to 7/10 in severity, worse with physical activity such as walking or climbing stairs, but sometimes occurring at rest; resting provides some relief but does not always resolve the discomfort. The pain began a few days ago, is intermittent, and builds gradually with exertion; there is no associated shortness of breath, lightheadedness, or sweating. The patient also reported a fever of 101.3°F. Relevant history, medications, and allergies are not specified.
+
+The clinical impression documented by the doctor is angina, possibly due to underlying heart disease. The treatment plan includes prompt evaluation today to rule out cardiac causes, including an EKG and possibly other cardiac tests. The patient was advised to avoid strenuous activity and to seek immediate care if symptoms worsen or are accompanied by severe pain, sweating, nausea, or fainting.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.589
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 159 words
+
 
 ## Processing Information
 

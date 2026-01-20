@@ -63,16 +63,21 @@
 
 ## EHR Summary
 
-The patient is a 59-year-old female presenting with left facial pain consistent with trigeminal neuralgia. She reported chronic, severe facial pain and was evaluated preoperatively for a nucleus caudalis Drez procedure. Her relevant history includes multiple sclerosis with associated left arm tremors, difficulty writing, left leg dragging, a left corneal scar, and occasional constipation; she is allergic to penicillin (causing hives) and bee stings. On examination, she was well-appearing, ambulatory with a cane, and had normal motor strength in the lower extremities with brisk patellar reflexes. The documented diagnosis was chronic left facial pain secondary to trigeminal neuralgia. She underwent a suboccipital craniectomy and C1-C2 laminectomy with radiofrequency Drez lesioning of the left trigeminal nucleus caudalis. The treatment plan included surgical intervention to address her refractory facial pain.
+The patient is a 59-year-old female presenting with chronic left facial pain due to trigeminal neuralgia. Her symptoms included persistent left facial pain, with a history of multiple sclerosis manifesting as left arm tremors, inability to write, and left leg dragging; she also reported occasional constipation. She has a known allergy to penicillin (causing hives) and bee stings, and was taking Neurontin, amitriptyline, primidone, and Baclofen prior to admission. The documented diagnosis was chronic left facial pain status post Drez lesion. She underwent a suboccipital craniectomy and C1-C2 laminectomy with radiofrequency Drez lesioning of the left trigeminal nucleus caudalis, after which her facial pain resolved and neurological status remained stable. Postoperatively, she experienced nausea that improved with time, and was evaluated by Cardiology for abnormal preoperative ECG findings; her Lopressor dose was increased and aspirin was started. Discharge medications included aspirin, Lopressor, Tylenol, Percocet, Colace, Dulcolax, Baclofen, primidone, amitriptyline, and Neurontin. She was discharged in stable condition with follow-up appointments for neurosurgery, cardiology, staple removal, and therapy evaluation.
+
 
 ## Dialogue Summary
 
-The patient presented with pain on the left side of the face. The pain was described as sharp, noticeable, and intermittent, without associated numbness, tingling, or changes in facial movement. The patient also reported longstanding tremors in the left arm and difficulty writing, attributed to a history of multiple sclerosis; the facial pain was noted to be a more recent development, though the exact onset was not specified. No triggers or worsening factors for the facial pain were identified during the conversation. The doctor inquired about symptom characteristics and relevant neurological history but did not provide a specific assessment or diagnosis during the encounter. No treatment plan or recommendations were discussed in the available dialogue.
+The patient is an adult presenting with left-sided facial pain as the chief complaint. The pain is described as sharp, intermittent, and noticeable, without associated numbness, tingling, or facial movement changes. The patient also reports a history of left arm tremors and difficulty writing, attributed to multiple sclerosis, but notes that the facial pain is a new symptom. The onset of facial pain is recent, though the exact timing is unspecified. No specific triggers or exacerbating factors for the facial pain have been identified at this stage. Relevant medical history includes multiple sclerosis. No diagnosis or clinical impression was documented during this encounter. No treatment plan or recommendations were provided in the dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.678
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 113 words
+
 
 ## Processing Information
 

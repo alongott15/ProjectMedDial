@@ -85,16 +85,23 @@ For now, I’d suggest focusing on gentle neck stretches, staying hydrated, mana
 
 ## EHR Summary
 
-The patient is a 53-year-old man presenting for evaluation of a brain tumor. He reported a history of pulsatile tightness, poor balance, dizziness, and later developed mid-frontal headaches radiating to the back of his head, along with pressure in his right ear; these symptoms were not relieved by antibiotics or physical therapy. His relevant history includes insulin-dependent diabetes, angina, and prior angioplasty with three stent placements. Physical examination was notable for stable vital signs and an unremarkable neurologic exam, with intact cognition and cranial nerves. Imaging with gadolinium-enhanced MRI on 2114-11-17 revealed a mass in the right temporal brain. The assessment was a right temporal brain mass; lung biopsy was non-diagnostic and adrenal biopsy results were pending. The treatment plan included ongoing evaluation by neurosurgery and awaiting further biopsy results. No specific medications or interventions were documented during this admission.
+The patient is a 53-year-old man presenting for evaluation of a brain tumor. He initially experienced pulsatile tightness, poor balance, dizziness, and later developed mid-frontal headaches radiating to the back of his head, along with right ear pressure; these symptoms were not relieved by antibiotics or physical therapy. His past medical history includes insulin-dependent diabetes, angina, and prior angioplasty with three stent placements. MRI revealed a right temporal brain mass, and he subsequently underwent a right temporal craniotomy for tumor resection. The documented diagnosis is brain tumor (right temporal lobe). Postoperatively, his neurological exam was stable and unremarkable except for mild left iliopsoas weakness and absent ankle jerks. Treatment included Depakote 500 mg orally three times daily for one week, Decadron tapered to 2 mg twice daily over 1-2 weeks, Zantac, Percocet as needed, and continuation of his home medications. He was discharged home in stable condition with follow-up scheduled in the brain tumor clinic.
+
 
 ## Dialogue Summary
 
-The patient presented with headaches starting in the middle of the forehead and radiating to the back of the head. Symptoms included a tight, pulsing pressure sensation, difficulty focusing, increased effort with daily activities, a constant sense of unsteadiness, occasional dizziness (without vertigo), and a feeling of pressure in the right ear; symptoms had been present and stable for several weeks without clear triggers or associated vision changes, weakness, numbness, or speech difficulties. The patient denied congestion, sinus issues, or hearing changes. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of red-flag neurological symptoms and suggested that tension-type headaches with associated muscle tension and possible ear pressure were likely contributing to the patient’s symptoms. The doctor recommended gentle neck stretches, hydration, stress management, and regular sleep, and advised monitoring for any new or worsening symptoms such as double vision, sudden severe headache, or weakness. The patient agreed to this plan and will monitor symptoms over the next week or two.
+The patient presents with headaches that begin in the middle of the forehead and radiate to the back of the head as the chief complaint. The headaches have a tight, pulsing pressure quality and have persisted steadily for several weeks, accompanied by difficulty concentrating, a constant sense of unsteadiness, occasional dizziness (without vertigo), and a sensation of pressure in the right ear. There are no associated vision changes, weakness, numbness, speech difficulties, congestion, sinus issues, or hearing changes. Relevant history regarding past medical conditions, medications, or allergies is not specified.
+
+The clinical impression is tension-type headache with associated dizziness and imbalance, possibly exacerbated by ear pressure. The treatment plan includes gentle neck stretches, hydration, stress management, and regular sleep. The patient was advised to monitor for new or worsening symptoms such as double vision, severe or sudden headache, or neurological deficits, and to seek prompt care if these occur. Otherwise, symptoms will be monitored over the next week or two.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.507
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

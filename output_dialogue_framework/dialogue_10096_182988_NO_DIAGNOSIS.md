@@ -87,16 +87,21 @@ Let me ask—have you noticed any changes in your sleep patterns or appetite sin
 
 ## EHR Summary
 
-The patient is a 75-year-old male presenting with chest pain. He experienced nausea, fatigue, epigastric discomfort, and substernal chest pain lasting 15–30 minutes, followed by a near syncopal episode and diaphoresis; symptoms began three hours after a large meal. His past medical history includes GERD, and he has no known drug allergies. On EMS arrival, he was found to be hypotensive (SBP in the 50s), bradycardic (HR 20–30) in complete heart block, and EKG showed 3–4 mm ST elevation in II, III, AvF with 1–3 mm ST depressions anterolaterally. In the emergency department, his vital signs stabilized and EKG normalized after treatment with aspirin, atropine, and fluids. The documented diagnosis was ST-elevation myocardial infarction (STEMI) with complete heart block. He underwent cardiac catheterization and placement of a Cypher stent to the right coronary artery (RCA). Treatment included dual antiplatelet therapy (aspirin and clopidogrel), heparin infusion, and supportive care.
+The patient is a 75-year-old male presenting with chest pain. He experienced substernal chest pain lasting 15–30 minutes, accompanied by nausea, fatigue, epigastric discomfort, diaphoresis, and a near syncopal episode with bradycardia and hypotension approximately three hours after a large meal. His past medical history is notable for GERD, and he has no known drug allergies. The documented diagnosis was a small ST-elevation myocardial infarction (STEMI) status post Cypher stent placement to the right coronary artery (RCA). Treatment included aspirin, clopidogrel, high-dose atorvastatin, isosorbide mononitrate, and metoprolol succinate, with instructions to continue dual antiplatelet therapy for at least one year. He was discharged home in stable condition, chest pain free, and with follow-up arranged with his primary care physician and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The pain is located in the middle of the chest, does not radiate, and is rated 6 out of 10 in severity during episodes. Associated symptoms include nausea, sweating, fatigue with activity, and one episode of near-fainting with low blood pressure; symptoms typically occur after eating or with exertion, last a few minutes, and improve with rest. The patient denied shortness of breath and reported no changes in sleep or appetite. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the combination of chest discomfort, nausea, sweating, fatigue, and near-syncope raises concern for possible cardiac causes, though indigestion or reflux was also considered. The doctor recommended further evaluation with an EKG and blood tests to rule out heart-related causes and advised seeking immediate attention if symptoms worsen or recur. The patient demonstrated understanding of the plan.
+The patient is an adult presenting with chest pain as the chief complaint. The pain is described as central, non-radiating, and rated 6 out of 10 in severity, typically occurring after eating and sometimes with activity; episodes last a few minutes and improve with rest. Associated symptoms include nausea, sweating, fatigue, and one episode of near-syncope with low blood pressure, but no dyspnea or changes in sleep or appetite. Relevant history regarding chronic medical conditions, medications, or allergies is not specified. The clinical impression is that the symptoms could be cardiac in origin, though gastrointestinal causes like reflux are also considered; the combination of fatigue and presyncope raises concern for a possible heart-related issue. The physician recommends further evaluation with an EKG and blood tests to rule out cardiac causes. The patient is advised to seek immediate care if symptoms worsen, such as persistent pain, shortness of breath, or another fainting episode.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.619
+- **Model Used**: general
+- **Text1 Length**: 121 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

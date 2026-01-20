@@ -87,16 +87,21 @@ Let me know if you’ve noticed anything specific that seems to trigger or relie
 
 ## EHR Summary
 
-The patient is a 61-year-old female admitted for elective coiling of a 3.5 mm anterior communicating artery (ACOM) aneurysm. She has a history of significant right (75-80%) and left (65-70%) internal carotid artery stenosis, hypertension, coronary artery disease with prior CABG, COPD, reflux, and schizophrenia. On admission, she was in no acute distress, with a notable 3+ carotid bruit on the right and fine crackles at the lung bases, but otherwise stable exam findings. The patient underwent coil embolization of the ACOM aneurysm without procedural complications. Postoperatively, she remained awake, alert, and oriented, with intact pedal pulses and no evidence of hematoma or neurological deficit. The documented diagnosis was unruptured ACOM aneurysm status post coil embolization. She was monitored overnight and then transferred to the regular floor. Her ongoing medications included antihypertensives, antiplatelets, statin, psychiatric medications, and others as listed.
+The patient is a 61-year-old female admitted for elective coiling of a 3.5 mm anterior communicating artery (ACOM) aneurysm. She has a history of significant bilateral internal carotid artery stenosis (right 75-80%, left 65-70%), hypertension, coronary artery disease with prior CABG, COPD, reflux, and schizophrenia. On admission, she was in no acute distress, with stable vital signs and a notable right carotid bruit; neurological exam was largely unremarkable except for mild right lip asymmetry with smile. The documented diagnosis was an unruptured ACOM aneurysm, status post coil embolization without procedural complications. Postoperatively, she remained neurologically intact, tolerated diet, and was assessed as safe for discharge by Physical Therapy. Discharge medications included Haldol, Trazodone, Zantac, Lisinopril, Atorvastatin, Atenolol, Colace, Aspirin, Plavix, and Percocet as needed. She was discharged in stable condition with instructions to follow up in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble breathing as the chief complaint. Symptoms included shortness of breath for several weeks, worsening gradually, and becoming more pronounced with physical activity such as walking, climbing stairs, shopping, and doing chores; the patient reported needing to rest more often. The patient denied cough, leg swelling, or waking at night short of breath, but described occasional chest tightness that builds up gradually with exertion and improves with rest. No relevant medical history, medications, or allergies were mentioned. On review, the doctor noted absence of orthopnea, cough, or peripheral edema, and chest discomfort described as tightness with activity. The assessment was exertional dyspnea with gradual progression, possibly related to mild asthma, deconditioning, or underlying heart/lung conditions; lack of nighttime symptoms and swelling was considered reassuring. The doctor advised gentle pacing of activities, monitoring for new symptoms such as sudden chest pain at rest, fainting, or leg swelling, and recommended a routine evaluation including physical exam and basic tests to further assess heart and lung health.
+The patient presents with the chief complaint of progressive shortness of breath over the past few weeks. The dyspnea is exertional, worsening with activities such as walking, climbing stairs, and shopping, and is accompanied by a sensation of chest tightness that builds gradually with activity; symptoms improve with rest and are not present at night. The patient denies cough, orthopnea, paroxysmal nocturnal dyspnea, or peripheral edema. There is no mention of relevant past medical history, medications, or allergies in the dialogue. The clinical impression discussed includes possible mild asthma, deconditioning, or slowly progressive heart or lung conditions, but no definitive diagnosis is documented. The physician advised monitoring for new or worsening symptoms such as sudden chest pain at rest, fainting, or leg swelling, and recommended gentle pacing of activities. A routine evaluation including a physical exam and basic tests for heart and lung health was suggested. The patient was instructed to note any specific triggers or relieving factors for their symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.914
-- **Similarity Label**: N/A
+- **STS Score**: 0.316
+- **Model Used**: general
+- **Text1 Length**: 138 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

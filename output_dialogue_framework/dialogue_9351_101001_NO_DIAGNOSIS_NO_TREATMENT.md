@@ -101,16 +101,21 @@ Otherwise, monitoring your progress and focusing on self-care is a solid plan. I
 
 ## EHR Summary
 
-The patient is a 33-year-old male presenting with paresthesias of the left neck and shoulder, along with intermittent shooting pains down the left arm, which are exacerbated by sneezing and coughing. He also has a history of migraine headaches for several months. His past medical history includes psoriasis (treated with topical creams and ultraviolet radiation), migraines, and a paraspinal cyst from C2 through T2; he is allergic to ibuprofen (rash) and gluten (dermatitis). On admission, physical examination was largely unremarkable, with no sensory deficits or acute neurological findings. The documented diagnosis was Chiari malformation. The patient was admitted for and underwent surgical decompression for this condition.
+The patient is a 33-year-old male presenting with paresthesias of the left neck and shoulder, as well as intermittent shooting pains down the left arm, which were aggravated by sneezing and coughing. He also reported a history of migraine headaches for several months. His past medical history includes psoriasis (treated with topical creams and ultraviolet radiation), migraines, and a paraspinal cyst from C2 through T2; he has allergies to ibuprofen (rash) and gluten (dermatitis). The patient was diagnosed with a Chiari malformation based on outpatient workup. He underwent suboccipital craniectomy and C1 laminectomy with duraplasty for decompression of the Chiari malformation. Postoperative recovery was unremarkable, with normal neurological examination and clean, dry wounds at discharge. He was discharged in stable and improved condition with instructions for follow-up in approximately one and a half weeks for staple removal and further evaluation.
+
 
 ## Dialogue Summary
 
-The patient presented with tingling and odd sensations on the left side of the neck and shoulder. Symptoms included moderate discomfort, occasional shooting pains down the left arm, and worsening of sensations with sneezing or coughing; no numbness, weakness, headaches, vision changes, or speech issues were reported. The symptoms had been present for a couple of weeks, with no recent injuries, changes in routine, or new physical activities. On examination, there were no signs of weakness or changes in coordination. The doctor assessed the symptoms as likely due to mild nerve irritation or compression in the neck region, possibly related to posture, muscle tension, or minor disc bulging. The doctor recommended gentle stretching, attention to posture and ergonomics, use of heat or over-the-counter pain relief if needed, and avoiding positions that aggravate symptoms. The patient was advised to monitor for new symptoms such as weakness, persistent numbness, or worsening pain and to seek follow-up if these occur or if symptoms do not improve within a couple of weeks. The patient expressed understanding and agreed to follow the recommended comfort measures.
+The patient is an adult presenting with tingling and odd sensations on the left side of the neck and shoulder as the chief complaint. Symptoms have been present for a couple of weeks, are described as moderate at worst, and are aggravated by sneezing and coughing; occasional shooting pains down the left arm are also reported, but there is no numbness, weakness, or changes in arm or hand function. There is no history of recent injury, new physical activity, or changes in routine, and no associated headaches, vision changes, or speech issues. The clinical impression is mild nerve irritation likely originating from the neck region, possibly related to posture, muscle tension, or minor disc issues. The absence of weakness or coordination changes is noted as reassuring. The treatment plan includes gentle stretching, attention to posture and ergonomics, use of heat or over-the-counter pain relief as needed, and monitoring for new or worsening symptoms such as weakness or persistent numbness. The patient is advised to avoid aggravating positions and to follow up if symptoms do not improve or if concerning changes occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.531
+- **Model Used**: general
+- **Text1 Length**: 140 words
+- **Text2 Length**: 181 words
+
 
 ## Processing Information
 

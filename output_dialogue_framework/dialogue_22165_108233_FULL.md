@@ -87,16 +87,21 @@ Let me know if you have any questions about what we've discussed or if there's a
 
 ## EHR Summary
 
-The patient is an 80-year-old male presenting with extreme shortness of breath at rest and dull 7/10 chest pain radiating to the left shoulder for two days. Symptoms included paroxysmal nocturnal dyspnea, orthopnea requiring two pillows, and peripheral edema; there was no change in medications or diet. Relevant history includes coronary artery disease (status post coronary artery bypass graft), type 2 diabetes with nephropathy, chronic renal failure, peripheral vascular disease, hyperlipidemia, and spinal stenosis; no known drug allergies. On examination, he was hypoxic with evidence of congestive heart failure and acute renal failure (creatinine 3.2, baseline 2), and ST depressions in V2-V4 on ECG. The documented diagnoses were congestive heart failure and acute renal failure. Treatment included aspirin, a heparin drip, Plavix, nitroglycerin, morphine (with resolution of pain), and one dose of Lasix with minimal response.
+The patient is an 80-year-old male presenting with two days of extreme shortness of breath at rest and dull 7/10 chest pain radiating to the left shoulder. Symptoms included paroxysmal nocturnal dyspnea, orthopnea requiring two pillows, and bilateral peripheral edema; he was found to be hypoxic and had minimal response to initial diuresis. Relevant history includes coronary artery disease (status post coronary artery bypass graft), type 2 diabetes with nephropathy, chronic renal failure, peripheral vascular disease, and hyperlipidemia; there are no known drug allergies. On admission, laboratory and imaging findings were consistent with acute congestive heart failure, non-ST-elevation myocardial infarction (NSTEMI), acute renal failure, and pulmonary edema. The documented diagnoses were NSTEMI, acute exacerbation of congestive heart failure with hypoxia secondary to pulmonary edema, anemia, diabetes with acute hyperglycemia, chronic renal insufficiency, peripheral vascular disease, and delirium. Treatment included aspirin, Plavix, statin, heparin drip, nitroglycerin, morphine, diuretics (Lasix and spironolactone), beta blocker, ACE inhibitor, oxygen therapy, nebulizers, incentive spirometry, and reinitiation of diabetic medications as renal function improved. The patient’s cardiac and diabetic regimens were optimized during hospitalization; mental status improved with medication adjustment and family support. He was discharged home in stable condition with follow-up arranged for cardiology and diabetes management.
+
 
 ## Dialogue Summary
 
-The patient presented with progressive shortness of breath, even at rest, as the chief complaint. Symptoms included severe dyspnea rated 8/10 at worst, dull chest pain radiating to the left shoulder, swelling in the legs and ankles, orthopnea requiring two pillows to sleep, and episodes of agitation and mild confusion during severe breathing difficulty; no sweating, nausea, coughing, or wheezing were reported. The patient noted that symptoms have worsened over several days and are aggravated by physical activity but also occur at rest. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the combination of dyspnea, chest discomfort, peripheral edema, and orthopnea. The assessment was that these symptoms may be related to the heart not pumping effectively, possibly consistent with heart failure, though other causes were considered. The doctor recommended elevating the legs when sitting, limiting salt intake, monitoring daily weight, and seeking immediate medical attention for sudden worsening symptoms such as severe chest pain, fainting, or extreme difficulty breathing. The patient acknowledged understanding of the recommendations.
+The patient is an adult presenting with the chief complaint of progressive shortness of breath, even at rest. Symptoms include dyspnea rated 8/10 in severity, dull chest pain radiating to the left shoulder, bilateral leg and ankle swelling, orthopnea requiring two pillows to sleep, and occasional agitation and mild confusion during episodes of severe dyspnea. The symptoms have worsened over several days and are not associated with cough, wheezing, sweating, or nausea; physical activity exacerbates the dyspnea, but it also occurs at rest. There is no mention of relevant past medical history, medications, or allergies. The clinical impression discussed by the doctor is possible heart failure, given the constellation of symptoms, though other causes are also considered. The treatment plan includes elevating the legs when sitting, restricting dietary salt intake, daily weight monitoring, and instructions to seek immediate medical attention if symptoms acutely worsen (such as severe chest pain, fainting, or extreme difficulty breathing).
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.977
-- **Similarity Label**: N/A
+- **STS Score**: 0.719
+- **Model Used**: general
+- **Text1 Length**: 202 words
+- **Text2 Length**: 154 words
+
 
 ## Processing Information
 

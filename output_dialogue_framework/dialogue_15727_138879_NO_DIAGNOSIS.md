@@ -98,3 +98,21 @@ Has the distention gotten any better at all since it started, or is it continuin
 ## Processing Information
 
 - **Processing Time**: 365.0s
+
+## EHR Summary
+
+The patient is an 87-year-old male presenting for evaluation after a follow-up CT scan revealed a left subdural hematoma following a motor vehicle accident. He subsequently developed increasing nausea, vomiting, and abdominal distention, and imaging demonstrated a high-grade small bowel obstruction near the previous left nephrectomy surgical site. His relevant history includes left radical nephrectomy for renal oncocytoma, chronic constipation, and hyperthyroidism. The documented diagnoses were small bowel obstruction status post exploratory laparotomy and lysis of adhesions, left subdural hematoma, left renal oncocytoma status post nephrectomy, and hyperthyroidism. Treatment included exploratory laparotomy with lysis of adhesions, insertion and later removal of an enteric feeding tube, management of a urinary tract infection with Levaquin, and a rigorous bowel regimen for constipation. Discharge medications included simethicone, mineral oil, lactulose, Colace, Dulcolax, Lopressor, Protonix, Darvocet-N 100, epoetin alpha, albuterol-ipratropium, albuterol nebulizer solution, heparin, methimazole, and enemas as needed. The patient was discharged in stable condition with follow-up scheduled in two to three weeks.
+
+
+## Dialogue Summary
+
+The patient presents with abdominal bloating as the chief complaint. Over the past few days, they have experienced gradually worsening abdominal distention, poor appetite, nausea, and intermittent vomiting not specifically related to meals. The patient also reports constipation but denies abdominal pain or diarrhea. The bloating is visibly noticeable and worsens after eating, with no improvement since onset. Relevant history regarding other medical conditions, medications, or allergies is not specified. The clinical impression is a temporary slowdown in the digestive system, likely related to constipation, with no signs of acute obstruction or severe illness at this time. The treatment plan includes maintaining hydration with small sips of clear fluids, gentle movement as tolerated, and monitoring for warning signs such as severe pain, persistent vomiting, fever, or a very hard abdomen, which would warrant prompt medical attention.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.449
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 136 words
+

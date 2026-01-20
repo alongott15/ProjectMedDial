@@ -96,3 +96,21 @@ Let me ask—when did these symptoms first begin? This will help me understand i
 ## Processing Information
 
 - **Processing Time**: 457.8s
+
+## EHR Summary
+
+The patient is a 53-year-old male presenting with vertigo, ringing in his ears, and headache since early in the month. Symptoms included persistent headache, tinnitus, and vertigo without associated nausea, vomiting, visual disturbances, diplopia, seizures, weakness, or sensory changes. His past medical history includes coronary artery disease with prior stenting and angioplasty, hypertension, and diabetes mellitus managed with insulin; allergies to Lipitor, sulfa drugs, and a new allergy to Dilantin are documented. Imaging revealed a 3-cm x 3-cm right temporal intracranial mass with surrounding edema and hemorrhage, and further workup identified a left lung mass and adrenal mass, raising suspicion for metastatic carcinoma of the lung. The patient was admitted for blood pressure control, anti-seizure therapy, and close monitoring. He was started on high-dose Decadron for cerebral edema and discharged home with a tapering regimen of Decadron, Zantac, and Depakote. He is scheduled for a CT-guided lung biopsy and follow-up in the brain clinic; further treatment (surgery, chemotherapy, or radiotherapy) will be determined based on biopsy results. The patient was instructed to seek immediate care if his mental status or headache severity changes.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with episodes of dizziness described as vertigo. Symptoms include intermittent ringing in the ears (tinnitus) and headaches, which occur alongside the dizziness and last a few minutes per episode, recurring throughout the day for the past few days. The symptoms interfere with daily activities such as driving, working, and concentration but have not worsened over time. There are no clear triggers identified for the episodes, and the ringing is not constant. Relevant medical history, medications, and allergies are not specified. The clinical impression documented by the doctor suggests a possible inner ear issue, such as benign positional vertigo or vestibular migraine, as likely causes. The doctor reassured the patient that these symptoms are usually not dangerous but acknowledged their disruptive nature. No specific treatment or medication was documented in this encounter; reassurance and explanation were provided.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.585
+- **Model Used**: general
+- **Text1 Length**: 183 words
+- **Text2 Length**: 142 words
+

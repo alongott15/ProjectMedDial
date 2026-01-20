@@ -188,3 +188,23 @@ Let me know if anything else changes or if you have questions about managing the
 ## Processing Information
 
 - **Processing Time**: 456.1s
+
+## EHR Summary
+
+The patient is a 24-year-old woman presenting with diabetic ketoacidosis (DKA). She experienced malaise, multiple episodes of nausea and vomiting, and sharp, non-radiating abdominal pain beginning the previous evening, along with chills but no fever or diarrhea. Her history includes type 1 diabetes mellitus complicated by diabetic retinopathy and polycystic ovarian syndrome; she is allergic to erythromycin base. On admission, laboratory findings were consistent with DKA, including hyperglycemia, elevated anion gap, and positive urine ketones. The documented diagnosis was DKA. She was treated with intravenous insulin, aggressive fluid hydration, and electrolyte repletion, followed by resumption of her home insulin regimen (Levemir and Humalog) and supportive medications. At discharge, she was asymptomatic with normalized laboratory values and instructed to follow up in clinic within one week. No changes were made to her outpatient medications.
+
+
+## Dialogue Summary
+
+The patient is an individual with a history of diabetes and recent diabetic ketoacidosis (DKA) presenting with sharp, intermittent abdominal pain that switches from the right to the left side, accompanied by nausea and chills. The abdominal pain is described as coming and going, without associated fever, diarrhea, or sweating. The patient reports that drinking fluids and monitoring blood sugar levels provides some relief, though the pain persists intermittently. There is no report of vomiting, inability to keep fluids down, or confusion.
+
+Relevant history includes diabetes and a recent episode of DKA; the patient is compliant with insulin, blood glucose, and ketone monitoring. The clinical impression discussed is that the abdominal pain and associated symptoms are likely related to high blood sugars and recent DKA, with no evidence of acute complications at this time. The treatment plan emphasizes continued regular monitoring of blood glucose and ketones, maintaining hydration, and adherence to prescribed insulin. The patient is advised to seek urgent care if symptoms worsen (such as severe or constant pain, vomiting, inability to keep fluids down, fever, or confusion), and to continue current self-care measures while staying in contact with their healthcare provider for any changes.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.816
+- **Model Used**: general
+- **Text1 Length**: 133 words
+- **Text2 Length**: 196 words
+

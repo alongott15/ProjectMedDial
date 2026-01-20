@@ -85,16 +85,21 @@ Let me know if you have any specific concerns about her breathing or feeding rou
 
 ## EHR Summary
 
-The patient is a newborn female admitted on the day of birth for evaluation and management of a prenatal diagnosis of Dandy Walker variant. She was delivered at 36 and 6/7 weeks gestation via cesarean section due to prior cesarean and uterine anomaly, with Apgar scores of 7 and 8 at one and five minutes, respectively. Prenatal imaging revealed posterior fossa enlargement, fourth ventricle dilatation, absent corpus callosum, vermian hypoplasia, colpocephaly, and general growth restriction. Relevant maternal history includes thalassemia trait and uterine didelphys; prior pregnancies included one preterm infant with respiratory distress syndrome. On admission, the infant was active and alert, with physical findings of box-shaped head, slightly split sutures, high arched palate, low set ears, and normal breath sounds. The documented diagnosis was Dandy Walker variant with associated brain anomalies. The treatment plan included admission to the Intensive Care Nursery for monitoring and further management.
+The patient is a newborn female delivered at 36 and 6/7 weeks gestation, admitted for evaluation and management of a prenatal diagnosis of Dandy Walker variant. She exhibited mild respiratory distress with mouth breathing and nasal congestion on day one, feeding discoordination with poor pacing, and indirect hyperbilirubinemia requiring phototherapy. Relevant history includes maternal thalassemia trait, uterine didelphys, and prior preterm delivery; the infant had dysmorphic features and was found to have agenesis of the corpus callosum and cerebellar hypoplasia on imaging. Aicardi syndrome was ruled out by ophthalmology. The documented diagnoses were appropriate gestational age, mildly premature female, agenesis of corpus callosum, cerebellar hypoplasia, dysmorphic features, and indirect hyperbilirubinemia. Treatment included phototherapy for hyperbilirubinemia, Neo-Synephrine for nasal congestion, and nutritional support with Enfamil 20 ad lib. Discharge recommendations included continued formula feeding, follow-up with pediatrics, neurology, genetics, and early intervention services; no medications were prescribed at discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns regarding her baby’s Dandy Walker variant diagnosis and ongoing nasal blockage. The baby has primarily been mouth breathing, with apparent nasal congestion and difficulty breathing through the nose; a catheter could not be passed through her nostrils, suggesting possible structural blockage. Feeding has been challenging due to occasional discoordination of sucking, swallowing, and breathing, with some desaturation during feeds, though this has improved since hospital discharge. The baby does not exhibit increased breathing difficulty during sleep, has not turned blue around the lips or face, remains generally alert, and is feeding and gaining weight adequately. Relevant history includes prenatal diagnosis of Dandy Walker variant and recent hospitalization. On examination, there were no signs of severe respiratory distress or poor weight gain, and home management includes upright feeding and nasal suctioning as needed. The doctor’s assessment was that the baby is adapting well at home despite ongoing nasal blockage, possibly due to choanal atresia or stenosis. The doctor recommended continued monitoring for worsening breathing, color changes, or increased feeding difficulty, and to seek medical attention if these occur; current home strategies were endorsed as appropriate.
+The patient is a parent presenting concerns about their infant, who was prenatally diagnosed with Dandy Walker variant, and is experiencing ongoing nasal blockage and mouth breathing. The infant primarily breathes through the mouth due to apparent nasal obstruction, with feeding difficulties characterized by occasional discoordination of sucking, swallowing, and breathing, though this has improved since hospital discharge. There has been some desaturation during feedings but no observed cyanosis or significant respiratory distress; the infant remains generally alert and is feeding and gaining weight adequately. Relevant history includes failed passage of a nasal catheter, suggesting possible structural nasal blockage such as choanal atresia or stenosis. The clinical impression is that the infant is adapting well at home despite persistent nasal obstruction. The treatment plan includes continued use of upright positioning during feeds and suctioning for congestion as needed, with instructions to monitor for worsening respiratory symptoms or feeding difficulties. The parent was advised to seek medical attention if signs of increased work of breathing, color changes, or significant feeding problems occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.612
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 171 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ Often, these symptoms can be managed by pacing activities and taking breaks as n
 
 ## EHR Summary
 
-The patient is a 75-year-old male presenting with increased shortness of breath on exertion and occasional chest discomfort. Symptoms included progressive dyspnea and fatigue, with a history of congestive heart failure and paroxysmal atrial fibrillation. Relevant history includes coronary artery disease, rheumatic fever, emphysema (on Theophylline), hypertension, osteoarthritis, and prior failed cardioversions and ablation for atrial fibrillation. On admission, medications included Zestril, Atenolol, Maxzide, ASA, MVI, and Theophylline; Coumadin was discontinued. Physical findings during hospitalization included stable postoperative recovery after elective coronary artery bypass grafting (CABG x1), transient need for Neo-Synephrine for blood pressure support, and development of atrial fibrillation on postoperative day 3. The documented diagnosis was coronary artery disease with congestive heart failure and paroxysmal atrial fibrillation. Treatment included CABG surgery, IV Lopressor for postoperative atrial fibrillation, and supportive care. The patient reverted to sinus rhythm and was transferred in stable condition.
+The patient is a 75-year-old male presenting with increased shortness of breath on exertion and occasional chest discomfort. Symptoms included progressive dyspnea and fatigue, with a history of congestive heart failure and paroxysmal atrial fibrillation. Relevant history includes coronary artery disease, emphysema, hypertension, osteoarthritis, and prior failed cardioversions and ablation for atrial fibrillation; he has no known drug allergies. The documented diagnosis was coronary artery disease with worsening symptoms, status post elective coronary artery bypass graft (CABG) times one. During hospitalization, he developed postoperative atrial fibrillation, which reverted to sinus rhythm after IV Lopressor and was managed with oral Amiodarone. Discharge medications included Lopressor, Lasix, KCL, Aspirin, Plavix, Theodur, Amiodarone, Colace, and Percocet as needed. He was discharged home in stable condition with follow-up arranged with his primary care physician in two weeks and cardiology in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with increased shortness of breath during household activities over the past few weeks. Symptoms include exertional shortness of breath that builds up gradually with activity, occasional chest discomfort associated with being more out of breath, and increased fatigue; symptoms improve with rest and breaks. The patient denied wheezing, cough, leg swelling, lightheadedness, dizziness, sweating, and changes in weight, appetite, or sleep. No history of symptoms worsening when lying down was reported. On assessment, the doctor noted that the pattern of symptoms—gradual onset with activity and improvement with rest, absence of other concerning features—may be related to common heart or lung changes in older adults. The doctor advised pacing activities and taking breaks as needed, recommended further evaluation with a physical exam or basic tests to rule out serious causes, and instructed the patient to report any sudden worsening or new symptoms. The patient expressed understanding of the plan.
+The patient is an adult presenting with increased shortness of breath during activity as the chief complaint. Symptoms include exertional dyspnea that has gradually worsened over a few weeks, occasional chest discomfort associated with shortness of breath, and increased fatigue; symptoms improve with rest and are not accompanied by wheezing, cough, leg swelling, dizziness, lightheadedness, sweating, or changes in weight, appetite, or sleep. The patient denies orthopnea or paroxysmal nocturnal dyspnea. Relevant history, medications, and allergies are not specified. The clinical impression is that the symptoms are consistent with common cardiopulmonary conditions seen in older adults, possibly related to heart or lung changes affecting exercise tolerance. The treatment plan includes pacing activities, taking breaks as needed, and further evaluation with a physical exam or basic tests to rule out more serious causes. The patient was advised to monitor for any sudden worsening or new symptoms and to seek care if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.582
+- **Model Used**: general
+- **Text1 Length**: 138 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

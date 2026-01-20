@@ -87,16 +87,21 @@ Let me know if you notice any new symptoms or if things get worse. Does this sou
 
 ## EHR Summary
 
-The patient is an 81-year-old male presenting with shortness of breath after transfer from an outside hospital. Specific details regarding the severity, duration, or triggers of the dyspnea are not documented. Relevant past medical history, medications, and allergies are not specified in the note. Clinical findings, physical exam results, and diagnostic test outcomes are not provided. The diagnosis and clinical impression are not documented in this excerpt. There is no information regarding the treatment plan or recommendations in the provided text.
+The patient is an 81-year-old male presenting with shortness of breath after transfer from an outside hospital. The duration, severity, and specific characteristics of the dyspnea are not specified in the note. Relevant past medical history, current medications, and allergies are not documented. The clinical impression or diagnosis is not explicitly stated in the provided text. Details regarding treatment or recommendations during this admission are also not included.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening shortness of breath over several days. Symptoms included mild to moderate difficulty catching breath, primarily during physical activity (walking, climbing stairs), a worsening cough producing clear mucus, increased swelling in the ankles, and a scratchy (but not sore) throat for a few days. The patient denied wheezing or noisy breathing and reported that resting improved symptoms, with no worsening when lying flat. No specific past medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the symptoms could be related to a mild respiratory infection or possible fluid buildup, with reassurance given due to improvement at rest and absence of severe symptoms. The doctor advised monitoring for warning signs such as severe shortness of breath at rest, chest pain, or sudden worsening of swelling. Recommendations included elevating the legs to help with swelling and staying hydrated for throat irritation. The patient understood and agreed with the assessment and plan.
+The patient is an adult presenting with the chief complaint of gradually worsening shortness of breath over several days. Symptoms include exertional dyspnea that is mild to moderate in severity, a worsening cough productive of clear mucus, ankle swelling, and a scratchy (but not sore) throat. The dyspnea is primarily triggered by physical activity and improves with rest; lying flat does not worsen symptoms. There is no reported chest pain, wheezing, or severe respiratory distress. Relevant history, medications, and allergies are not specified. The clinical impression is that symptoms may be due to a mild respiratory infection or possible fluid buildup, potentially related to age or cardiac function. The treatment plan includes monitoring for warning signs such as severe shortness of breath at rest, chest pain, or sudden worsening of swelling, elevating the legs to reduce swelling, and staying hydrated for throat irritation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.727
+- **Model Used**: general
+- **Text1 Length**: 68 words
+- **Text2 Length**: 143 words
+
 
 ## Processing Information
 

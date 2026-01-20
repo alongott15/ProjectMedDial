@@ -87,16 +87,23 @@ Do you have any concerns about how the injury looks, or is there anything else y
 
 ## EHR Summary
 
-The patient is an 81-year-old female presenting after a fall onto her face, having tripped over a concrete slab. She denied chest pain, dizziness, or loss of consciousness, and recalled the event clearly; she experienced minor bleeding from her lower lip. Her medical history includes hypertension and anxiety, with no known drug allergies, and she takes lisinopril, hydrochlorothiazide, Zoloft, a multivitamin, Vitamin E, and aspirin. On examination, she was afebrile with stable vital signs and a nonfocal neurological exam; there was no cervical spine tenderness. Imaging revealed a small right subtemporal subdural hematoma on head CT and a nondisplaced nasal bone fracture. The documented diagnoses were subdural hematoma and nasal bone fracture. She was admitted to the ICU for hourly neurological checks and blood pressure monitoring but remained neurologically intact and did not require additional blood pressure medications. Neurosurgery was consulted for management assistance.
+The patient is an 81-year-old female presenting after a fall onto her face, with the main complaint of facial trauma. She reported no chest pain, dizziness, or loss of consciousness, and recalled the event clearly; she had minor bleeding from her lower lip. Her past medical history includes hypertension and anxiety, and she takes lisinopril, hydrochlorothiazide, Zoloft, a multivitamin, Vitamin E, and aspirin at home. On examination, she was afebrile with stable vital signs and a nonfocal neurological exam. Imaging revealed a small right subtemporal subdural hematoma and a nondisplaced nasal bone fracture. The documented diagnoses were fall with right subdural hematoma and nasal bone fracture. Treatment included ICU monitoring, neurosurgical consultation, blood pressure control, Tylenol for pain, and physical therapy for ambulation; aspirin and NSAIDs were held for one week to avoid bleeding risk. She was discharged in stable condition with plans for short-term infirmary care at her retirement home.
+
 
 ## Dialogue Summary
 
-The patient presented with ongoing bleeding from a small cut on the lower lip following a fall. The bleeding began immediately after the injury and has gradually slowed but is still present, worsening slightly with eating, drinking, or mouth movement. The patient denied any swelling, numbness, or changes in color around the lip and reported no difficulty managing daily activities aside from increased bleeding with movement. No relevant medical history, medications, or allergies were mentioned. On examination, the doctor noted the absence of swelling, numbness, or discoloration and confirmed the injury as a small cut likely involving surface blood vessels. The assessment was a minor lip injury with persistent but improving bleeding. The doctor recommended continued gentle pressure with a clean cloth or gauze for 10–15 minutes at a time, use of an ice pack wrapped in cloth to help constrict blood vessels, keeping the area clean, and avoiding spicy or acidic foods for a few days. The patient was advised to seek further care if bleeding worsened or new symptoms developed and asked about brushing teeth near the injury, showing understanding of the recommendations.
+The patient presented with ongoing bleeding from a small cut on the lower lip following a fall. The bleeding began immediately after the injury and, while it has slowed, it persists and worsens with eating or drinking. The patient denied swelling, numbness, or color changes, and described the wound as a small cut rather than a large wound. The patient has managed the bleeding at home by applying gentle pressure, which has helped reduce but not stop the bleeding; ice has not yet been tried.
+
+The clinical impression was a minor injury to the surface blood vessels of the lower lip, likely due to frequent movement of the area. The treatment plan included continued gentle pressure with a clean cloth or gauze for 10–15 minutes at a time, use of an ice pack wrapped in cloth for short periods, and keeping the area clean. The doctor advised avoiding spicy or acidic foods for a few days and monitoring for worsening symptoms such as increased bleeding, swelling, or difficulty moving the mouth, which would warrant further care. No relevant past medical history, medications, or allergies were specified.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.479
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 186 words
+
 
 ## Processing Information
 

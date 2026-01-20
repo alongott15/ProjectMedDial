@@ -87,16 +87,21 @@ Does that plan sound reasonable to you?
 
 ## EHR Summary
 
-The patient is an 84-year-old female presenting with presyncope and decreased hematocrit. She reported decreased appetite, fatigue, lethargy, and an 8-10 pound weight loss over several weeks, but denied gastrointestinal or cardiopulmonary symptoms such as nausea, vomiting, melena at home, chest pain, or shortness of breath. Her medical history includes hypertension, gastroesophageal reflux disease, Alzheimer's dementia, anemia, hypothyroidism, and neurogenic bladder; she has no known drug allergies and was taking aspirin, Aricept, and oxybutynin on admission. On evaluation in the Emergency Department, she was tachycardic and found to be guaiac-positive with melena and a hematocrit of 23.2. The documented diagnosis was anemia likely secondary to gastrointestinal blood loss. She was treated with transfusion of 3 units of packed red blood cells, which resolved her tachycardia and improved her hematocrit. Gastroenterology was consulted for further evaluation.
+The patient is an 84-year-old female presenting with presyncope and decreased hematocrit. She reported a three-week history of decreased appetite, fatigue, lethargy, and an 8–10 pound weight loss, but denied gastrointestinal or cardiorespiratory symptoms at home. On admission, she was found to be tachycardic with a hematocrit of 23.2, guaiac-positive stool, and melena in the Emergency Department. Her past medical history includes hypertension, gastroesophageal reflux disease, Alzheimer's dementia, anemia, hypothyroidism, and neurogenic bladder; she has no known drug allergies. The documented diagnosis was upper gastrointestinal bleed, likely secondary to either an infiltrating tumor or inflammatory changes related to an ulcer in the pylorus. Treatment included transfusion of 3 units of packed red blood cells, serial hematocrit monitoring, proton pump inhibitor therapy, and discontinuation of aspirin and Accupril. She underwent incomplete colonoscopy due to tortuosity and pain, and esophagogastroduodenoscopy revealed pyloric erythema and friability; a biopsy was taken for further evaluation. The patient was discharged in stable condition with instructions to follow up for biopsy results, hematocrit, and blood pressure assessment.
+
 
 ## Dialogue Summary
 
-The patient presented with lightheadedness, describing sensations of almost fainting but without actual loss of consciousness. Symptoms have persisted for at least a couple of weeks and include increased fatigue, reduced appetite, decreased food and fluid intake, gradual onset of lightheadedness worsened by standing or activity, and recent weight loss. The patient reported sitting down more often due to these symptoms and noted that things have been getting worse. Relevant history includes a prior episode of melena during an emergency department visit. No physical findings were discussed in detail during the encounter. The doctor assessed that the lightheadedness and fatigue may be related to decreased oral intake and possible dehydration or lower blood pressure, while also considering underlying medical issues such as infection or medication changes. The doctor recommended regular sipping of fluids, eating small frequent meals, monitoring for urgent symptoms (chest pain, severe shortness of breath, confusion, or actual fainting), and scheduling follow-up with possible basic tests to investigate treatable causes.
+The patient presents with lightheadedness as the chief complaint. Symptoms include a sensation of almost fainting (without actual syncope), gradual onset over at least two weeks, worsening fatigue, reduced appetite, decreased oral intake, and unintentional weight loss; symptoms are exacerbated by standing or activity and have led to increased sedentary behavior. The patient reports drinking less fluid than usual and has a history of melena noted during a prior emergency department visit. No specific diagnosis was documented, but the clinician suspects the symptoms may be related to decreased oral intake and possible dehydration or low blood pressure, with consideration for underlying medical issues such as infection or other health changes. The treatment plan includes increasing fluid intake, eating small frequent meals, monitoring for concerning symptoms (such as chest pain, severe dyspnea, confusion, or syncope), and scheduling follow-up for further evaluation and possible basic laboratory tests. The patient agreed to the plan and will attempt to improve hydration and nutrition as advised.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.503
+- **Model Used**: general
+- **Text1 Length**: 170 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

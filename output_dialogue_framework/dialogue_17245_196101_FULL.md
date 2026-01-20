@@ -85,16 +85,21 @@ I'd recommend taking it easy for now—try to keep your legs elevated when sitti
 
 ## EHR Summary
 
-The patient is a 66-year-old female presenting with congestive heart failure. She reports episodes of dyspnea with exertion, such as walking up an incline or talking, and occasional chest heaviness associated with shortness of breath, but denies angina, orthopnea, edema, paroxysmal nocturnal dyspnea, claudication, or lightheadedness. Her history is significant for severe mitral regurgitation treated with mitral valve repair (with a complicated postoperative course including atrial fibrillation managed with amiodarone), recurrent congestive heart failure, hypertension, hyperlipidemia, hiatal hernia/GERD, and prior atrial fibrillation. Recent echocardiograms revealed mitral stenosis. The documented diagnosis is mitral valve disease with recurrent congestive heart failure. She was referred for mitral valve replacement and has been managed with diuretics (lasix) for symptom control.
+The patient is a 66-year-old female presenting with congestive heart failure. She reported progressive dyspnea with exertion, such as walking up an incline or talking, and occasional chest heaviness when short of breath, but denied angina, orthopnea, edema, paroxysmal nocturnal dyspnea, or claudication. Her history includes mitral valve disease (status post prior repair), atrial fibrillation, hypertension, hyperlipidemia, and gastroesophageal reflux disease; she has no medication allergies. Echocardiogram and catheterization revealed severe mitral stenosis with a mitral valve area of 0.65 cm² and elevated pulmonary pressures. The documented diagnoses were mitral valve stenosis (now status post minimally-invasive mitral valve replacement), rapid atrial fibrillation (controlled), hypertension (controlled), hypercholesterolemia, and congestive heart failure. Treatment included minimally-invasive mitral valve replacement, postoperative management of atrial fibrillation with intravenous and oral amiodarone and Lopressor, diuresis with Lasix, and supportive care. At discharge, she was prescribed a regimen including amiodarone, Lopressor, Lasix, captopril, aspirin, Zocor, potassium chloride, and other supportive medications. She was advised to follow up with her primary care physician in two weeks and her cardiologist in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with increased tiredness and swelling in both lower legs. Symptoms have been present for several days, with fatigue severe enough to interfere with daily activities, constant bilateral leg swelling (previously described as "2+ edema"), some difficulty breathing especially with activity and when lying flat, poor sleep requiring extra pillows for easier breathing, and recent nausea with decreased appetite but no significant weight changes. The patient denied chest pain, lightheadedness, or unusual bruising. No relevant past medical history, medications, or allergies were specified in this encounter. On review, the doctor noted persistent lower extremity edema and symptoms suggestive of fluid retention. The assessment included possible causes such as heart not pumping efficiently (potential heart failure) or anemia contributing to the fatigue and swelling. The doctor recommended the patient take it easy, elevate legs when sitting, monitor for worsening symptoms (such as increased swelling, chest discomfort, or severe shortness of breath), and agreed to arrange a check-up with a physical exam and blood tests to evaluate heart function and anemia.
+The patient presents with increased fatigue and bilateral lower leg swelling as the chief complaint. Symptoms have persisted for several days, with swelling remaining constant and fatigue interfering with daily activities. The patient also reports exertional dyspnea, orthopnea requiring extra pillows, poor sleep, and decreased appetite with some nausea, but denies chest pain, lightheadedness, or unusual bruising. There is a history of "2+ edema" in both lower legs, with no recent weight changes noted. The clinical impression discussed includes possible heart failure leading to fluid retention or anemia as potential causes of the symptoms. The treatment plan includes recommendations to elevate the legs, monitor for worsening symptoms such as increased swelling or severe shortness of breath, and to seek care if these occur. The doctor also advised arranging a physical exam and blood tests to evaluate heart function and check for anemia. No specific medications or interventions were prescribed at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.465
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

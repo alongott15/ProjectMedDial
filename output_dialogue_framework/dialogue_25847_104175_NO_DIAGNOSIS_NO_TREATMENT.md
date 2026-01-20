@@ -87,16 +87,21 @@ Next, it would be a good idea to arrange a check-up where we can look at your ci
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with left groin wound dehiscence and bleeding following recent vascular surgery for bilateral claudication. He reported an unsteady gait for several days prior to the wound complication and was noted to be short of breath when supine. His medical history includes diabetes, hypertension, coronary artery disease, peripheral vascular disease, hyperlipidemia, and a history of MRSA infection; he is allergic to penicillin. On exam, he was afebrile with stable vital signs, had a 4 x 1.5 inch open left groin wound with serous drainage but no exposed graft, and maintained palpable pulses in all extremities. The clinical impression included wound dehiscence post-femoral popliteal bypass and a recent myocardial infarction. Treatment involved wound exploration and closure with a Prolene stitch, continuation of antibiotics (vancomycin, Tequin), cardiac medications (Lopressor, aspirin), and supportive care including thiamine, folate, and diazepam. He was transferred to cardiology for further management of his coronary artery disease.
+The patient is a 62-year-old male presenting with bilateral claudication and complications following recent right SFA angioplasty and left femoral popliteal bypass. He developed a left groin wound dehiscence with bleeding, followed by graft infection, arterial bleeding, and subsequent ischemia and necrosis of the left lower extremity. His history includes diabetes, hypertension, coronary artery disease, peripheral vascular disease, hyperlipidemia, and prior MRSA infection; he is allergic to penicillin. The clinical course was complicated by myocardial infarction, persistent wound infection with MRSA and yeast, and progressive limb ischemia requiring multiple surgeries including arterial debridement, bypass procedures, and ultimately left below-knee amputation. The documented diagnoses include infected vascular graft, limb ischemia, and postoperative wound infection. Treatment included multiple surgical interventions, long-term intravenous vancomycin, additional broad-spectrum antibiotics and antifungals, wound care, ventilatory support with tracheostomy, tube feeding via PEG/J-tube, and management of comorbidities. Discharge planning emphasized ongoing trach care, wound care for the groin and stump, physical therapy, and follow-up with vascular surgery.
+
 
 ## Dialogue Summary
 
-The patient presented with difficulty walking due to bilateral leg pain, tiredness, heaviness, and unsteadiness. Symptoms included legs feeling tired and heavy, cramping and tightness in the calves when walking, pain with exertion, improvement with rest or sitting, and no numbness reported. The patient noted gradual worsening over several weeks, increased fatigue during daily activities such as shopping and climbing stairs, and the need to stop and rest frequently. The left foot was described as mottled and cooler than usual at times, with transient ischemic appearance but remaining warm earlier; no falls occurred, though gait felt unsteady. Relevant history of heart tracing changes (slightly decreased T-waves) was mentioned by the patient, but no medications or allergies were discussed. The doctor assessed that the symptoms were consistent with reduced blood flow to the legs, likely peripheral artery disease, given the exertional calf cramping, improvement with rest, and changes in foot color and temperature. The doctor advised avoiding pushing through pain, taking breaks as needed, monitoring for new severe symptoms, staying active within limits, and not smoking if applicable. A follow-up was recommended to further evaluate circulation and discuss possible tests or treatments.
+The patient is an adult presenting with difficulty walking due to bilateral leg pain, tiredness, heaviness, and unsteadiness. Symptoms have gradually worsened over several weeks, with cramping and tightness in the calves during walking, improvement with rest, and increased fatigue during daily activities such as shopping and climbing stairs. The patient reports no numbness but does experience some pain with exertion, occasional mottling and coolness of the left foot, and unsteadiness without falls. Relevant history regarding medications or comorbidities is not specified. The clinical impression documented by the doctor is possible peripheral artery disease, suggested by exertional leg symptoms and changes in foot color and temperature. The treatment plan includes avoiding overexertion, taking breaks as needed, monitoring for new or worsening symptoms (such as severe pain at rest or persistent color changes), and arranging further evaluation of lower extremity circulation. The patient was also advised to stay active within limits and avoid smoking if applicable.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.502
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 155 words
+
 
 ## Processing Information
 

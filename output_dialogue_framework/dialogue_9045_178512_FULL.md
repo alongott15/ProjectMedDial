@@ -87,16 +87,21 @@ Let me know if you have any questions about what we've discussed or if you want 
 
 ## EHR Summary
 
-The patient is a 65-year-old man presenting with dyspnea on exertion. He reported a progressive decrease in activity tolerance over the past year, with worsening shortness of breath during exertion. His medical history includes myocardial infarction, coronary artery disease, moderate mitral regurgitation, possible chronic obstructive pulmonary disease, hypertension, hyperlipidemia, depression, and remote pleurisy; he has no known drug allergies and takes Vistaril, Lipitor, multivitamins, aspirin, and escitalopram. On admission, physical findings included a hematocrit of 21.2 and postoperative wheezing with a productive cough. The documented diagnoses were coronary artery disease with total right coronary occlusion (with collaterals) and moderate mitral regurgitation. The patient underwent coronary artery bypass grafting and mitral valve repair without surgical complications. Postoperatively, he required pacing for two days and received two units of packed red blood cells. He was successfully extubated on postoperative day one but continued to experience wheezing and a productive cough.
+The patient is a 65-year-old man presenting with dyspnea on exertion. He reported progressive decrease in activity tolerance over the past year, with a history of worsening exertional dyspnea and productive cough with wheezing during his hospital stay. Relevant history includes coronary artery disease with prior myocardial infarction, moderate mitral regurgitation, hypertension, hyperlipidemia, possible COPD, depression, and no known drug allergies. The documented diagnoses were coronary artery disease with totally occluded right coronary artery (with collaterals), moderate mitral regurgitation, and postoperative atrial fibrillation. He underwent coronary artery bypass grafting and mitral valve repair without surgical complications, but developed postoperative atrial fibrillation managed with Metoprolol and Amiodarone, and was anticoagulated with heparin and Coumadin. At discharge, he was stable and in sinus rhythm. Discharge medications included Metoprolol, Escitalopram, Atorvastatin, Percocet, aspirin, Potassium Chloride, Lasix (for 10 days), and a short course of Coumadin. Follow-up instructions included visiting nurse INR check, contacting his cardiologist for Coumadin dosing, and follow-up appointments with his cardiologist and primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath during activities such as walking up stairs and carrying groceries. Symptoms have gradually worsened over time and include exertional dyspnea, occasional wheezing, and a productive cough with clear or white, non-thick mucus; no chest discomfort or ankle swelling was reported. The patient finds it increasingly difficult to perform daily chores and has noticed the cough becoming more frequent, with symptoms primarily triggered by physical activity rather than environmental factors or time of day. No history of chest pain, swelling, or specific triggers like dust, cold air, or pets was noted; prior episodes of breathing trouble were mentioned but are now more persistent. The doctor assessed that the ongoing symptoms may be related to a chronic airway or lung condition such as chronic bronchitis or mild COPD, noting the absence of signs suggesting acute heart or lung issues. The doctor recommended spirometry to evaluate lung function, advised pacing activity and avoiding respiratory irritants, and instructed the patient to seek care if new symptoms such as fever, colored mucus, chest pain, or sudden worsening of breathing occur. The patient agreed to the proposed plan and expressed understanding.
+The patient presents with the chief complaint of progressive shortness of breath during activities such as walking up stairs and carrying groceries. Symptoms have gradually worsened over time and now include exertional dyspnea, occasional wheezing, and a productive cough with clear or white mucus; there is no chest discomfort or ankle swelling. The patient reports increased difficulty performing daily chores and notes that physical activity triggers symptoms, while dust, cold air, and pets do not. There is a history of intermittent breathing trouble in the past, but symptoms are now more frequent and persistent. The clinical impression is that the symptoms may be related to a chronic airway or lung condition, such as chronic bronchitis or mild COPD, though no definitive diagnosis is documented. The treatment plan includes obtaining spirometry to assess lung function, maintaining activity with pacing, avoiding respiratory irritants, and monitoring for new or worsening symptoms such as fever, colored sputum, chest pain, or acute worsening of dyspnea. The patient was advised to seek care promptly if these warning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.535
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

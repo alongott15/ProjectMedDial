@@ -87,16 +87,21 @@ Would you like some practical tips on managing these symptoms during activity, o
 
 ## EHR Summary
 
-The patient is a 33-year-old female admitted for management of paradoxical vocal cord motion with asthma. She has a long history of asthma with multiple prior hospital admissions for airway management. During this admission, she underwent an elective tracheostomy to address her airway issues related to paradoxical vocal cord motion and asthma. The procedure was performed without complications, and her postoperative course was stable, including early return to oral diet and successful tracheostomy training. On discharge, her condition was stable. The documented diagnosis was status post tracheostomy for paradoxical vocal cord motion with asthma. Discharge medications included fexofenadine, calcium carbonate, Percocet as needed for pain, lisinopril, and metformin. She was discharged home with routine tracheostomy care, physical therapy services, and instructions to follow up in clinic within one week.
+The patient is a 33-year-old woman presenting with paradoxical vocal cord motion and asthma. She has a long history of asthma with multiple hospital admissions for airway management. The patient underwent an elective tracheostomy to manage her airway, which was performed without complications. Postoperatively, she recovered well, resumed an oral diet by postoperative day one, and completed tracheostomy training by day six. The documented diagnosis was status post tracheostomy for paradoxical vocal cord motion with asthma. Discharge medications included fexofenadine, calcium carbonate, Percocet as needed for pain, lisinopril, and metformin. She was discharged home in stable condition with instructions for routine tracheostomy care and physical therapy for home safety, mobility, and strength. Follow-up with her physician was arranged within one week of discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble breathing, which has recently worsened and is interfering with daily activities, especially during exercise and chores. Symptoms include increased breathing difficulty with activity, occasional wheezing, changes in voice, and a sensation of throat tightness that typically improves quickly with rest and does not require use of an asthma inhaler. The patient has a history of asthma and reports that stress can also trigger symptoms, but cold air and allergies are not significant factors. No issues were noted with sleeping or talking, and the patient is able to manage chores by pacing themselves but has been avoiding exercise due to symptoms. On assessment, the doctor noted that the breathing difficulties appear to be a combination of asthma and possible paradoxical vocal fold motion, as throat tightness improves with rest and is not relieved by inhalers. The doctor recommended pacing activities, monitoring for symptoms at rest or those affecting speech or swallowing, and suggested that breathing techniques or speech therapy may help if symptoms persist. Practical tips for managing symptoms during activity were offered, and the patient expressed understanding of the explanation.
+The patient is an adult presenting with shortness of breath as the chief complaint. They report chronic dyspnea related to asthma, with recent worsening, particularly during physical activity such as walking, exercise, or chores. Symptoms include exertional throat tightness, occasional wheezing, and voice changes; the throat tightness typically resolves quickly with rest and does not usually require use of an asthma inhaler. The patient avoids exercise due to these symptoms but can manage chores by pacing themselves. Relevant history includes longstanding asthma. The clinical impression is that the patient’s exertional breathing difficulties are due to a combination of asthma and possible paradoxical vocal fold motion (vocal cord dysfunction), as suggested by the rapid improvement of throat tightness with rest and lack of response to inhalers. The treatment plan includes pacing activities, monitoring for symptoms at rest or with speech/swallowing difficulty, and considering breathing techniques or speech therapy if symptoms persist. The doctor also offered practical tips for managing symptoms during activity.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
+- **STS Score**: 0.663
+- **Model Used**: general
+- **Text1 Length**: 123 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

@@ -184,3 +184,21 @@ Getting a prompt evaluation is the safest step. If you have trouble getting to c
 ## Processing Information
 
 - **Processing Time**: 405.7s
+
+## EHR Summary
+
+The patient is a male over 90 years old presenting with weakness. He reported 2–3 weeks of diarrhea, vomiting, poor intake, and decreased appetite, but denied fever, chills, chest pain, dyspnea, palpitations, abdominal pain, rectal bleeding, muscle aches, or pain. His past medical history included congestive heart failure, atrial fibrillation (on amiodarone and warfarin), chronic kidney disease, gout, GERD, osteoarthritis, myelodysplastic syndrome, BPH, and hypertension; he had no known drug allergies. On admission, he was hypotensive (BP 75/45) with dry mucous membranes and decreased skin turgor; physical exam showed mild rales at lung bases but was otherwise unremarkable. The documented diagnosis was renal failure. Treatment included intravenous fluids (normal saline), potassium chloride, levofloxacin, and metronidazole. Despite supportive care, his renal function worsened with progressive renal failure and anuria. The patient and family elected for comfort-focused care; he expired during hospitalization.
+
+
+## Dialogue Summary
+
+The patient presented with new-onset anuria (absence of urination) and hypotension (low blood pressure) as the chief complaint. Additional symptoms included weakness and decreased appetite, which were making daily activities more difficult. The patient has a history of kidney and heart problems, but these current symptoms were reported as new compared to their baseline. The doctor expressed concern that these symptoms could indicate worsening kidney or heart function, possibly related to fluid imbalance or organ stress. No definitive diagnosis was documented, but the clinical impression was possible acute decompensation of cardiac or renal function. The treatment plan emphasized the need for prompt in-person evaluation to rule out serious complications and prevent further deterioration. The patient was advised to monitor for additional symptoms such as swelling, chest discomfort, or confusion, and to seek immediate care if these occurred or if symptoms worsened. Ongoing communication with the healthcare team was encouraged for any changes in condition.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.697
+- **Model Used**: general
+- **Text1 Length**: 140 words
+- **Text2 Length**: 154 words
+

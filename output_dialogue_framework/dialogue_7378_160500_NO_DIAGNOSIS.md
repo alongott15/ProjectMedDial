@@ -89,16 +89,21 @@ Does that all make sense? Is there anything else about these symptoms that's bee
 
 ## EHR Summary
 
-The patient is a 69-year-old male presenting with a one-month history of feeling poorly, headache, and diaphoresis. Symptoms began at the start of the month and prompted further cardiac evaluation. Relevant history includes hypertension, hypercholesterolemia, prior abdominal aortic aneurysm repair, aortobifemoral bypass, pulmonary embolus, mild thrombocytopenia, gout, benign prostatic hypertrophy, basal-cell carcinoma, and former tobacco use. Preoperative medications included aspirin, Zestril, doxazosin, Lipitor, allopurinol, vitamin E, fish oil, calcium, and multivitamins. On physical examination, vital signs were stable; notable findings included a regular heart rhythm with a 2/6 systolic murmur and positive S4, but no edema or jugular venous distension. Cardiac testing revealed significant coronary artery disease with multiple stenoses (up to 75%) and a positive stress test for inferolateral ST depression. The documented diagnosis was severe multi-vessel coronary artery disease. The patient was referred for coronary artery bypass surgery.
+The patient is a 69-year-old male presenting with a one-month history of feeling poorly, headache, and diaphoresis. He had a positive stress test for inferolateral ST depression and cardiac catheterization revealed significant multi-vessel coronary artery disease, including 40-60% left main stenosis and multiple other lesions. His past medical history includes hypertension, hypercholesterolemia, prior abdominal aortic aneurysm repair, aortobifemoral bypass, pulmonary embolus, mild thrombocytopenia, gout, benign prostatic hypertrophy, basal-cell carcinoma of the skin, and former tobacco use. The documented diagnosis was status post coronary artery bypass graft (CABG) for multi-vessel coronary artery disease. Treatment included CABG x4 (LIMA to LAD, SVG to OM1 and OM2, SVG to PDA), followed by postoperative care with medications such as Lopressor, Lasix, potassium supplement, aspirin, Percocet, ibuprofen, Lipitor, and allopurinol. The patient recovered well postoperatively, was able to ambulate independently by postoperative day 3, and was discharged home in stable condition. He was advised to follow up in two weeks for wound check and with his cardiologist in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with feeling "poorly" for about a month, primarily due to headaches. The headaches were described as coming and going rather than constant, and the patient also reported mild daytime sweating that occurs regardless of activity level. No fever, weight changes, appetite changes, or impact on daily activities were noted, and the patient denied any recent illness, medication changes, or routine changes. The sweating was characterized as mild, not soaking through clothes. On assessment, the doctor noted stable symptoms without concerning features such as fever, weight loss, or functional decline. The doctor suggested that intermittent headaches and mild sweating could be related to tension, dehydration, subtle sleep or stress changes, or mild anxiety, and did not find evidence of a serious underlying problem at this time. The patient was advised to track symptom patterns, stay hydrated, manage stress, and report any new or worsening symptoms such as severe headaches, vision changes, confusion, persistent fevers, or drenching night sweats; follow-up or basic tests may be considered if symptoms persist or worsen.
+The patient is an adult presenting with a chief complaint of feeling "poorly" for about one month. Key symptoms include intermittent headaches and mild daytime sweating, with no associated fever, weight loss, appetite changes, or significant impact on daily activities. The headaches are not constant and the sweating does not soak through clothing; symptoms have remained stable over the past month. There is no relevant recent illness, medication change, or alteration in routine. The clinical impression is that the symptoms are likely benign, possibly related to mild tension, dehydration, or subtle lifestyle factors, with no evidence of a serious underlying condition at this time. The patient was advised to track symptom patterns, maintain hydration, and manage stress. The doctor recommended monitoring for new or worsening symptoms such as severe headaches, vision changes, confusion, persistent fevers, or drenching night sweats, and to follow up if these occur or if symptoms persist beyond a few more weeks. No medications or diagnostic tests were initiated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.392
+- **Model Used**: general
+- **Text1 Length**: 167 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

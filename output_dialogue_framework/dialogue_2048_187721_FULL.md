@@ -85,16 +85,21 @@ Let me ask—have you had any recent changes in medications or diet that might e
 
 ## EHR Summary
 
-The patient is a 54-year-old female presenting with an acute psychotic episode after self-discontinuing her psychiatric medications. She was noncommunicative on admission and exhibited high fever (102.8°F), tachycardia (pulse 120), elevated systolic blood pressure (130–140 mmHg), tachypnea (respiratory rate 30), and gross tremors. Her medical history includes schizophrenia, bipolar disorder, and alcohol use. On admission, creatine kinase was elevated at 928 with no MB fraction and no significant ECG changes; chest x-ray was negative for infiltrate, and urinalysis and urine culture were negative for infection. Psychiatry was consulted to evaluate for neuroleptic malignant syndrome due to high fever and elevated CK. The patient was treated with Levofloxacin for presumed community-acquired pneumonia, Ativan for agitation, and D5 half normal saline for hypernatremia (sodium 160). She was admitted to the MICU for further observation, infectious workup, and stabilization.
+The patient is a 54-year-old female presenting with an acute psychotic episode after self-discontinuation of psychiatric medications, accompanied by fever, noncommunicativeness, gross tremors, and altered mental status. On admission, she exhibited a temperature of 102.8°F, pulse of 120, respiratory rate of 30, and systolic blood pressure of 130–140, along with significant extremity stiffness and a gross resting tremor. Her medical history includes schizophrenia, bipolar disorder, chronic alcohol use, and chronic diarrhea; she was not taking psychotropic medications during hospitalization. The documented diagnoses were neuroleptic malignant syndrome, delirium, hypernatremia, enterococcal urinary tract infection (UTI), chronic diarrhea, and chronic schizophrenia. Treatment included aggressive intravenous hydration with D5 half normal saline for hypernatremia, Levofloxacin initially for presumed pneumonia (later discontinued), amoxicillin for enterococcal UTI, Ativan for agitation and delirium, and Immodium for diarrhea. Psychiatry recommended withholding psychotropic medications during the acute phase. The patient’s sodium and creatine kinase levels normalized with supportive care, and her mental status gradually improved. She was discharged to an inpatient psychiatric unit with instructions to complete her antibiotic course and continue symptomatic management for agitation and diarrhea.
+
 
 ## Dialogue Summary
 
-The patient presented with confusion as the chief complaint. They reported several days of noticeable confusion, difficulty managing tasks, and trouble following conversations, along with frequent loose stools (diarrhea) and persistent skin irritation with redness but no open areas or blisters. The skin irritation and confusion began around the same time and have remained stable, without worsening at specific times or after activities. The patient denied signs of dehydration such as dry mouth or lightheadedness and noted no recent changes in medications or diet; they are currently taking Ativan. On examination, the doctor noted stable symptoms without severe findings. The assessment was that diarrhea may be contributing to mild dehydration or electrolyte changes, potentially causing confusion, and that skin irritation could result from moisture or friction due to frequent bowel movements. The doctor advised maintaining hydration, using a gentle barrier cream or moisturizer on irritated skin, and monitoring for worsening confusion, inability to keep fluids down, fever, or development of open sores or blisters. The patient acknowledged the recommendations and agreed to monitor symptoms.
+The patient is an adult presenting with confusion as the chief complaint. The confusion began a few days ago and has made it more difficult to manage tasks and follow conversations; it is accompanied by frequent loose stools (diarrhea) several times daily and persistent skin irritation with redness but no open areas or blisters. The skin irritation and confusion started around the same time, and neither symptom worsens at specific times or with activities. The patient denies recent changes in medications or diet and reports no signs of dehydration such as dry mouth or lightheadedness; current medications include Ativan. The clinical impression is that the confusion may be related to mild dehydration or electrolyte changes from diarrhea, and the skin irritation is likely due to moisture or friction from frequent bowel movements. The treatment plan includes maintaining hydration, using a gentle barrier cream or moisturizer on irritated skin, and monitoring for worsening symptoms such as increased confusion, inability to keep fluids down, fever, or development of open sores or blisters. The patient was advised to seek prompt care if any of these concerning symptoms occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.928
-- **Similarity Label**: N/A
+- **STS Score**: 0.434
+- **Model Used**: general
+- **Text1 Length**: 179 words
+- **Text2 Length**: 185 words
+
 
 ## Processing Information
 

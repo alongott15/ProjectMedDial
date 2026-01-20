@@ -87,16 +87,21 @@ Let me know—does anything in particular seem to make your discomfort better or
 
 ## EHR Summary
 
-The patient is a 48-year-old female presenting with sudden onset of left-sided pleuritic chest pain and shortness of breath one week after laparoscopic cholecystectomy for symptomatic cholelithiasis. She reported incisional pain for a few days postoperatively, followed by acute respiratory symptoms and mildly elevated liver function tests. Her past medical history includes hypothyroidism, cholelithiasis status post cholecystectomy, and cesarean section; current medications are Synthroid and oral contraceptive pills, with an allergy to ibuprofen. On examination, she was in mild distress with tachycardia (pulse 108) and oxygen saturation of 96% on room air. A VQ scan was positive with high probability for pulmonary embolism, and imaging revealed mild biliary duct dilation and right hydronephrosis. The documented diagnosis was pulmonary embolism. She was started on a Heparin drip and transferred for further evaluation and management.
+The patient is a 48-year-old female presenting with sudden onset of left-sided pleuritic chest pain and shortness of breath one week after laparoscopic cholecystectomy. She also experienced mild incisional pain postoperatively and was found to have elevated liver function tests. Her past medical history includes hypothyroidism and cholelithiasis, and she takes Synthroid and oral contraceptives; she reports an allergy to ibuprofen (causes heart racing) and probable allergy to Demerol (chills). Diagnostic workup revealed a pulmonary embolism (confirmed by VQ scan), right hepatic duct obstruction due to surgical clips (seen on ERCP/MRCP), and mildly dilated biliary ducts with right hydronephrosis. The documented diagnoses were pulmonary embolus and jaundice secondary to right hepatic duct obstruction. Treatment included anticoagulation with Heparin, transition to Lovenox and Coumadin, percutaneous biliary drainage with stent placement, antibiotics (Unasyn, then Levofloxacin and Flagyl), and colonoscopy for further evaluation. She was discharged in good condition with home Lovenox injections, T tube care instructions, and follow-up scheduled for biliary repair.
+
 
 ## Dialogue Summary
 
-The patient presented with sudden onset sharp left-sided chest pain and shortness of breath that began about a week after gallbladder surgery. The chest pain is rated 6 out of 10 in intensity, worsens with deep breathing and movement, and improves with shallow breaths or rest; the patient experiences shortness of breath even while sitting still. There is no associated wheezing, coughing, leg swelling, redness, or tenderness, and no fever or chills were reported. Mild incisional pain and mild upper stomach discomfort are present but differ from pre-surgical symptoms; the incision site appears to be healing normally without redness or swelling. The doctor noted that the symptoms started postoperatively and are pleuritic in nature, raising concern for possible pleuritic pain due to inflammation or, less likely, a small blood clot in the lung. The doctor advised monitoring for new symptoms such as increased pain, rapid heartbeat, dizziness, or fainting, and to seek medical attention if these occur or if shortness of breath worsens. The patient was instructed to rest, avoid strenuous activity, and continue to observe their recovery.
+The patient is an adult presenting with sudden-onset sharp left-sided chest pain and shortness of breath that began about one week after gallbladder surgery. The chest pain is rated 6 out of 10 in intensity, worsens with deep breathing and movement, and improves with shallow breaths and rest; the patient experiences dyspnea even while sitting still. There is no associated wheezing, coughing, leg swelling, redness, fever, or chills, and the surgical incision appears to be healing normally with only mild soreness. The patient also reports mild upper abdominal discomfort different from preoperative symptoms. The clinical impression discussed was possible pleuritic pain, potentially due to inflammation or, less likely, a small pulmonary embolism. The doctor advised monitoring for new or worsening symptoms such as increased pain, rapid heartbeat, dizziness, or fainting, and to seek prompt medical attention if these occur. The patient was also advised to rest, avoid strenuous activity, and continue observing their recovery.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.621
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 154 words
+
 
 ## Processing Information
 

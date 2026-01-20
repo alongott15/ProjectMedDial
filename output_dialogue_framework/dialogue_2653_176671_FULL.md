@@ -87,16 +87,21 @@ In the meantime, try to avoid strenuous activities and keep track of any new sym
 
 ## EHR Summary
 
-The patient is a 56-year-old male presenting with chest pain and positive cardiac enzymes consistent with myocardial infarction. He reported increasing chest pain episodes over the past three to four weeks, with pain initially occurring every few days for 20–40 seconds but increasing in frequency and intensity prior to admission. His past medical history includes gastroesophageal reflux disease, asthma, allergic rhinitis, and a history of colonic polyps, and he has no known drug allergies. On admission, his vital signs were stable and physical examination was unremarkable except for mild hypoxemia (oxygen saturation 95% on four liters). The documented diagnosis was myocardial infarction. Prior to admission, he was managed with Diltiazem and later sublingual Nitroglycerin as advised by his cardiologist. His home medications included Prilosec, Aspirin, Singulair, Albuterol as needed, Vitamin E, and Vitamin C.
+The patient is a 56-year-old male presenting with chest pain and positive cardiac enzymes consistent with myocardial infarction. He reported increasing chest pain episodes over the preceding three to four weeks, with worsening frequency and intensity, initially lasting 20–40 seconds and unrelieved by Diltiazem or sublingual Nitroglycerin. His past medical history includes gastroesophageal reflux disease, asthma, allergic rhinitis, and a history of colonic polyps; he has no known drug allergies. The documented diagnoses were unstable angina, acute myocardial infarction, and three-vessel coronary artery disease. He underwent coronary artery bypass grafting (CABG) times four with left internal mammary artery to the left anterior descending and vein grafts to OM1, OM2, and the right posterior descending artery. Postoperatively, he recovered well with no complications and required one unit of packed red blood cells for low hematocrit. Discharge medications included Lopressor, Lasix, K-Dur, Aspirin, Percocet, Singulair, Prilosec, Albuterol as needed, Vitamin E, and Vitamin C. The patient was discharged home in stable and good condition.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening chest pains as the chief complaint. The pain is located centrally in the chest, remains in one spot, and is aggravated by physical activity but can also occur at rest; episodes last five to ten minutes and resolve more quickly with rest. The patient reported increased heart rate during pain episodes but denied sweating, lightheadedness, or shortness of breath. Symptoms began a couple of weeks ago and have become more frequent and intense, now limiting daily activities such as walking and climbing stairs. Relevant history includes regular use of Prilosec, aspirin, Singulair, albuterol, vitamin E, and vitamin C, with no history of hypertension, diabetes, or high cholesterol. The doctor assessed that the pattern of exertional chest pain with improvement at rest may indicate angina due to reduced oxygen supply to the heart. The doctor recommended urgent further evaluation today and advised avoiding strenuous activity, monitoring for new symptoms, and seeking emergency care if severe discomfort or additional symptoms develop. The patient acknowledged understanding of the recommendations and agreed to follow up promptly.
+The patient is an adult presenting with worsening central chest pain as the chief complaint. The pain is described as non-radiating, primarily triggered by physical activity but can also occur at rest, lasts five to ten minutes per episode, and is relieved by rest. The patient reports associated palpitations during episodes but denies shortness of breath, diaphoresis, or lightheadedness. The symptoms began a couple of weeks ago and have increased in both frequency and intensity, now limiting daily activities such as walking and climbing stairs. Relevant history includes regular use of Prilosec, aspirin, Singulair, albuterol, vitamin E, and vitamin C, with no history of hypertension, diabetes, or hyperlipidemia. The clinical impression is possible angina due to exertional chest discomfort suggestive of myocardial ischemia. The physician advised urgent further evaluation today, avoidance of strenuous activity, and monitoring for new or worsening symptoms such as severe pain, sweating, nausea, or fainting. The patient was instructed to seek emergency care if these acute symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.976
-- **Similarity Label**: N/A
+- **STS Score**: 0.637
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

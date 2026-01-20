@@ -87,16 +87,21 @@ Would you like to discuss next steps for checking your heart health, or do you h
 
 ## EHR Summary
 
-The patient is an 83-year-old female presenting with chest pressure and shortness of breath at rest, accompanied by occasional palpitations. The chest pressure was substernal without radiation, and symptoms resolved after administration of sublingual nitroglycerin, aspirin, and a beta blocker in the Emergency Room. Her relevant history includes unstable angina, non-insulin dependent diabetes mellitus, hypertension, prior lumpectomy and radiation for breast carcinoma, and hypercholesterolemia; she takes atenolol, Glucotrol, aspirin, and Maxzide, with no known drug allergies. On examination, she had a regular heart rate with a III/VI systolic ejection murmur and bibasilar crackles in the lungs, but no edema or jugular venous distention. Laboratory results showed mild renal insufficiency (BUN 49, creatinine 1.6), elevated glucose (150), and normal troponin. Cardiac catheterization revealed significant coronary artery disease with multiple high-grade stenoses and an ejection fraction of 55%. The documented diagnosis was severe multivessel coronary artery disease. She underwent coronary artery bypass graft surgery as definitive treatment.
+The patient is an 83-year-old female presenting with chest pressure and shortness of breath at rest, along with occasional palpitations. The chest pressure was substernal without radiation, and symptoms resolved after administration of sublingual nitroglycerin, aspirin, and a beta blocker in the Emergency Room. Her relevant history includes unstable angina, non-insulin dependent diabetes mellitus, hypertension, prior breast cancer treated with lumpectomy and radiation, and elevated cholesterol; she has no known drug allergies. Cardiac catheterization revealed significant coronary artery disease, and she underwent coronary artery bypass grafting (CABG) times four. The documented diagnosis was status post coronary artery bypass graft times four. Postoperatively, she experienced labile blood pressure but stabilized and recovered well, progressing to ambulation and regular diet. Discharge medications included Lasix, KayCiel, aspirin, Lopressor, Glucotrol, Percocet, Colace, and Amiodarone. She was discharged in stable condition to a rehabilitation facility with instructions for activity restrictions and follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure as the chief complaint. They reported moderate chest pressure occurring for the past few weeks, which is associated with shortness of breath and occasional palpitations described as heart skipping or fluttering; these symptoms are triggered by activity such as walking or doing chores and improve with rest. The patient denied swelling in the ankles or feet and has not experienced waking up at night short of breath. No relevant medical history, medications, or allergies were mentioned. The doctor noted that the symptoms are exertional and resolve with rest, which can be related to cardiac function, and found the absence of swelling or nocturnal symptoms somewhat reassuring. The assessment was that the pattern of symptoms could indicate an issue with heart or circulation, warranting further evaluation. The doctor advised the patient to avoid overexertion and to seek immediate medical attention if severe chest pain, prolonged symptoms at rest, sweating, nausea, or fainting occur. The patient expressed interest in discussing further steps for heart evaluation and monitoring at home.
+The patient presents with chest pressure as the chief complaint. The chest pressure is described as moderate in severity, occurs primarily with activity (such as walking or doing chores), and is accompanied by shortness of breath and occasional palpitations; symptoms improve with rest and have been present intermittently for a few weeks. The patient denies swelling in the ankles or feet and has not experienced waking up at night short of breath. There is no mention of relevant past medical history, medications, or allergies in the dialogue. The clinical impression is that the symptoms may be related to cardiac function, given their exertional nature and associated palpitations, but no definitive diagnosis is documented. The physician advises the patient to avoid strenuous activity and to seek immediate medical attention if severe chest pain, prolonged symptoms at rest, or associated symptoms such as sweating, nausea, or fainting occur. Further evaluation of heart health is recommended, and the patient expresses interest in discussing appropriate next steps for cardiac assessment.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.562
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

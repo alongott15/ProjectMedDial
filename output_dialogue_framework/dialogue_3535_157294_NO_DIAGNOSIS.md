@@ -85,16 +85,21 @@ In the meantime, gentle warm-ups before exercise and avoiding cold air (like wea
 
 ## EHR Summary
 
-The patient is a 33-year-old female admitted for management of paradoxical vocal cord motion with asthma. She has a long history of asthma with multiple prior hospital admissions for airway management. During this admission, she underwent an elective tracheostomy to address her airway issues related to paradoxical vocal cord motion and asthma. The procedure was performed without complications, and her postoperative course was stable, with early return to oral diet and successful completion of tracheostomy training by postoperative day six. On discharge, her condition was stable. The documented diagnosis was status post tracheostomy for paradoxical vocal cord motion with asthma. Discharge medications included fexofenadine, calcium carbonate, Percocet as needed for pain, lisinopril, and metformin. She was discharged home with routine tracheostomy care, physical therapy services, and instructions to follow up in clinic within one week.
+The patient is a 33-year-old woman presenting for management of paradoxical vocal cord motion with asthma. She has a long history of asthma with multiple hospital admissions for airway management. The patient underwent an elective tracheostomy to address her airway issues, which was performed without complications. Postoperatively, she recovered well, resumed an oral diet by postoperative day one, and completed tracheostomy training by day six. The documented diagnosis at discharge was status post tracheostomy for paradoxical vocal cord motion with asthma. Discharge medications included fexofenadine, calcium carbonate, Percocet as needed for pain, lisinopril, and metformin. She was discharged home in stable condition with instructions for routine tracheostomy care and physical therapy for home safety, mobility, and strength. Follow-up with her physician was arranged within one week of discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble breathing. Symptoms included intermittent episodes of shortness of breath that have been coming and going for a little while, worsened by exercise and exposure to cold air, with associated throat tightness, mild hoarseness, and occasional wheezing; the symptoms resolve quickly with rest and do not occur at night or when lying down. The patient reported increased difficulty with daily activities such as walking and climbing stairs due to getting winded more easily, but denied coughing fits, dust or pet triggers, and nocturnal symptoms. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the absence of nighttime symptoms and rapid resolution of episodes with rest. The assessment included possible exercise-induced asthma or vocal cord dysfunction as explanations for the symptom pattern. The doctor recommended monitoring for warning signs such as persistent shortness of breath at rest, chest pain, or nighttime symptoms, and advised gentle warm-ups before exercise and avoiding cold air exposure (e.g., wearing a scarf). The patient was instructed to seek further evaluation if symptoms worsen or become more frequent.
+The patient is an adult presenting with intermittent shortness of breath as the chief complaint. Symptoms include episodes of dyspnea that are triggered by exercise and cold air, accompanied by wheezing, throat tightness, and occasional mild hoarseness; these episodes resolve quickly with rest and do not occur at night or when lying down. The patient reports increased exertional dyspnea impacting daily activities but denies nocturnal symptoms or orthopnea. Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression discussed includes possible exercise-induced asthma or vocal cord dysfunction, based on the symptom pattern. The physician recommended monitoring for warning signs such as persistent shortness of breath at rest, chest pain, or nocturnal symptoms, and advised gentle warm-ups before exercise and avoiding cold air exposure. The patient was instructed to seek further evaluation if symptoms worsen or do not resolve quickly with rest. No new medications or diagnostic tests were initiated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
+- **STS Score**: 0.593
+- **Model Used**: general
+- **Text1 Length**: 128 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

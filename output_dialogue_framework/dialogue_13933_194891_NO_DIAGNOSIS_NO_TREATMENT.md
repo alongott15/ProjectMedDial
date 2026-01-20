@@ -89,16 +89,21 @@ Let me know if you have any questions or concerns about what we've discussed.
 
 ## EHR Summary
 
-The patient is a 28-year-old female presenting with fever and left upper quadrant pain following a recent laparoscopic appendectomy. She reported that the pain began one to two days postoperatively, progressively worsened, radiated to the left shoulder and arm, and was exacerbated by deep breaths. Associated symptoms included nausea without emesis, anorexia, poor oral intake, chills, sweats, shortness of breath, one episode of vomiting, and loose stools; she also developed a diffuse maculopapular rash after taking Percocet. Her past medical history includes asthma and hypertension, and she is allergic to sulfa drugs. On examination, she was febrile (101.2°F), tachycardic (pulse 120), hypertensive (BP 180/95), tachypneic (RR 22), and had an oxygen saturation of 94% on room air. The documented diagnosis was pneumonia. She was advised to discontinue Percocet due to the rash and received treatment for pneumonia during her admission.
+The patient is a 28-year-old female presenting with fever and left upper quadrant pain following a laparoscopic appendectomy. She reported progressive pain starting one to two days postoperatively, worsened by deep breaths and radiating to the left shoulder and arm, along with nausea, anorexia, chills, sweats, shortness of breath, and a diffuse maculopapular rash. Her past medical history includes asthma and hypertension; she is allergic to sulfa drugs and was taking albuterol and Percocet. On admission, she was febrile (101.2°F), tachycardic (pulse 120), hypertensive (BP 180/95), and had decreased breath sounds with laboratory evidence of leukocytosis and hyponatremia; imaging showed left lower lobe consolidation and pleural effusion. The documented diagnosis was postoperative pneumonia. She was treated with Levofloxacin, initially Vancomycin (later discontinued), and Clindamycin, as well as Tylenol for fever; Triamcinolone cream and Sarna were used for the rash, which improved. The rash was attributed to a drug eruption, likely from Percocet, which was discontinued. She was discharged home in stable condition after clinical improvement and normalization of laboratory values.
+
 
 ## Dialogue Summary
 
-The patient presented with fever and pain on the left upper side of the abdomen. The pain was described as dull but sometimes sharp, radiating into the left shoulder and arm, and had worsened over several days; at its worst, the pain was rated 7 out of 10. Associated symptoms included nausea, decreased appetite, one episode of vomiting, loose stools, chills, and sweats. The patient denied recent injuries or travel. On examination, no specific physical findings were noted, but the doctor highlighted the significance of pain radiating to the shoulder and ongoing fever with chills. The doctor’s assessment was that the symptoms could indicate an issue affecting an organ in the left upper abdomen, such as the spleen or stomach, and that the combination of fever and worsening pain warranted close monitoring to rule out conditions more serious than a mild stomach virus. The doctor advised the patient to stay hydrated with water or oral rehydration solutions, rest, try small amounts of bland foods if tolerated, and to seek prompt medical care if symptoms worsen or new severe symptoms develop. The patient understood and agreed to monitor for warning signs as discussed.
+The patient is an adult presenting with fever and left upper abdominal pain as the chief complaint. The pain is described as dull, sometimes sharp, initially localized to the left upper side but now radiating to the left shoulder and arm, with a severity of 7 out of 10 at its worst. Associated symptoms include nausea, decreased appetite, one episode of vomiting, loose stools, chills, and sweats; symptoms have been worsening over several days. There is no history of recent injury or travel. The clinical impression is that the symptoms may be related to an organ in the left upper abdomen, such as the spleen or stomach, and are not typical for a simple stomach virus due to the pain's location and radiation. The physician advised close monitoring for warning signs such as increasing pain, persistent vomiting, dyspnea, or syncope. The treatment plan includes rest, maintaining hydration with water or oral rehydration solutions, and eating small amounts of bland foods as tolerated. The patient was instructed to seek prompt medical care if symptoms worsen or new severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.545
+- **Model Used**: general
+- **Text1 Length**: 170 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

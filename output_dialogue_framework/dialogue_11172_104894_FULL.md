@@ -98,3 +98,23 @@ Let me know if you have any questions or if anything changes—I want to make su
 ## Processing Information
 
 - **Processing Time**: 402.9s
+
+## EHR Summary
+
+The patient is a 21-year-old male presenting with diabetic ketoacidosis (DKA). He reported two days of nausea and vomiting, with laboratory findings significant for anion gap acidosis, elevated white blood cell count, and initial glucose in the 500s; no evidence of infection was found. His past medical history includes type I diabetes diagnosed at age 18, with no known drug allergies and usual NPH insulin use. The documented diagnosis was DKA. He was treated with intravenous fluids and an insulin drip, later transitioned to subcutaneous NPH insulin, resulting in resolution of symptoms and normalization of laboratory values. At discharge, he was eating normally, back on his outpatient insulin regimen, and received education on glucose monitoring. He was advised to test his glucose four times daily and follow up at the diabetes center. Discharge medications were unchanged.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with the chief complaint of persistent vomiting for the past couple of days. Symptoms include frequent vomiting (several times daily), constant nausea, diarrhea, dry mouth, reduced oral intake, fatigue, and lightheadedness upon standing; vomiting is typically triggered by attempts to eat or drink. The patient reports decreased urination with darker urine, indicating possible dehydration, but denies fever or abdominal pain. Relevant history regarding chronic illnesses, medications, or allergies is not specified.
+
+The documented clinical impression is viral gastroenteritis with associated dehydration. The treatment plan includes recommendations to sip small amounts of clear fluids (such as water, diluted juice, or oral rehydration solutions) frequently, avoid soda and dairy, and rest. The patient is advised to seek immediate medical attention if unable to keep fluids down, or if symptoms worsen (e.g., increased dizziness, weakness, confusion, or severe abdominal pain). Gradual reintroduction of bland foods is suggested once vomiting improves.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.426
+- **Model Used**: general
+- **Text1 Length**: 136 words
+- **Text2 Length**: 153 words
+

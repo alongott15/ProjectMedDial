@@ -105,16 +105,21 @@ Let me know if you have any questions about what we’ve discussed or if there�
 
 ## EHR Summary
 
-The patient is a 44-year-old male presenting with lower gastrointestinal bleeding (LGIB) as the chief complaint. He reported rectal bleeding for a few hours, with darker stools than usual and no associated dizziness or abdominal pain; he has a history of recurrent LGIB requiring multiple transfusions over the past few months. His medical history is significant for Ehlers-Danlos syndrome type IV with prior bowel bleeds, celiac and carotid artery aneurysms, bilateral club feet, GERD, hypertension, left inguinal hernia repair, left eye blindness, and an allergy to Mefoxin. On examination, he was alert and stable, with a soft, non-tender abdomen and no acute findings. Laboratory results showed a declining hematocrit from 43.0 to 31.8 during admission. Colonoscopy revealed multiple clots in the colon but no clear source of bleeding. The clinical impression was ongoing LGIB likely related to his underlying vascular disorder. Treatment included DDAVP administration, multiple units of packed red blood cells (PRBCs), intravenous fluids, NPO status, and GI consultation for further management.
+The patient is a 44-year-old male presenting with lower gastrointestinal bleeding (LGIB) as the chief complaint. He reported rectal bleeding for several hours, with darker stools than usual but denied dizziness or abdominal pain; he has a history of recurrent LGIB requiring transfusions. His medical history includes Ehlers-Danlos syndrome type IV with prior bowel bleeds, celiac and carotid artery aneurysms, GERD, hypertension, and multiple surgeries. On admission, his hematocrit was 43.0 and gradually decreased, prompting transfusions and further evaluation. Colonoscopy revealed multiple clots initially, and a repeat procedure identified an ulceration near a colonic anastomotic site. The documented diagnosis was lower GI bleed. Treatment included DDAVP, multiple units of PRBCs, parenteral nutrition, mesalamine enemas, ursodiol, and pantoprazole; he was discharged home in stable condition with instructions to continue these medications and follow up with gastroenterology and surgery.
+
 
 ## Dialogue Summary
 
-The patient presented with recent rectal bleeding. The bleeding was described as dark red in color, occurring with every bowel movement over the past few days, with no change in amount or color since onset. The patient denied associated symptoms such as abdominal discomfort, changes in stool consistency or shape, diarrhea, constipation, fatigue, lightheadedness, or weakness. Relevant history includes previous episodes of bowel bleeds. On clinical review, there were no signs of black or tarry stools, and no concerning systemic symptoms were noted. The doctor assessed that the bleeding is likely mild and possibly related to benign causes such as hemorrhoids or small blood vessel fragility, given the absence of alarming features and the patient’s history. The doctor recommended monitoring for any increase in bleeding, development of black/tarry stools, or new symptoms like weakness or dizziness, and advised seeking prompt care if these occur. Additional advice included maintaining hydration, adequate dietary fiber, avoiding straining during bowel movements, and contacting the doctor if bleeding persists beyond a couple of weeks or worsens.
+The patient presented with rectal bleeding as the chief complaint. The bleeding has been dark red in color, occurs with every bowel movement, and has persisted for several days without changes in amount or color. The patient denied associated symptoms such as abdominal pain, changes in stool consistency or frequency, fatigue, lightheadedness, or weakness. There is a relevant history of previous episodes of bowel bleeding. The clinical impression was that the bleeding is likely mild and possibly related to benign causes such as hemorrhoids or small blood vessel fragility, given the absence of alarming symptoms like black/tarry stools or systemic signs. The treatment plan included monitoring for any increase in bleeding, development of black/tarry stools, or new symptoms such as weakness or dizziness, with instructions to seek prompt care if these occur. The patient was advised to maintain hydration, consume adequate dietary fiber, avoid straining during bowel movements, and keep a record of bleeding episodes. If the bleeding persists beyond a couple of weeks or worsens, further evaluation was recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.638
+- **Model Used**: general
+- **Text1 Length**: 137 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

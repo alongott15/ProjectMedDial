@@ -87,16 +87,23 @@ Does that make sense, and is there anything else youâ€™ve noticed that we havenâ
 
 ## EHR Summary
 
-The patient is a 71-year-old female presenting with a chief complaint of aortic valve insufficiency. She reported recent onset of symptoms including increased weakness and fatigue. Her relevant medical history includes hypertension, non-sustained ventricular tachycardia (NSVT), atrial tachy-arrhythmias, sinusitis, and reflux; she has no known drug allergies and was taking aspirin, enalapril, norvasc, and prilosec prior to admission. On admission, she underwent preoperative evaluation and subsequently had an aortic valve repair without complications. Postoperatively, she required atrial pacing for one day and had her chest tube and pacer wires removed as per routine, with stable recovery and good pain control. The documented diagnosis was aortic valve insufficiency. At discharge, her condition was stable. She was prescribed a 7-day course of Lasix and potassium chloride, along with Percocet as needed for pain, Colace, and enteric-coated aspirin.
+The patient is a 71-year-old female presenting with a chief complaint of aortic valve insufficiency. She reported recent onset of symptoms including increased weakness and fatigue. Her relevant medical history includes hypertension, nonsustained ventricular tachycardia (NSVT), atrial tachy-arrhythmias, sinusitis, and reflux; she has no known drug allergies and was taking aspirin, enalapril, Norvasc, and Prilosec prior to admission. The documented diagnosis was aortic insufficiency. She underwent an uncomplicated aortic valve repair and recovered well postoperatively, requiring brief atrial pacing and chest tube placement, both discontinued early in her hospital course. At discharge, she was stable, ambulating well, and had well-controlled pain. Discharge medications included Lasix, potassium chloride, Percocet as needed for pain, Colace, and enteric-coated aspirin. She was advised to follow up with her surgeon in four weeks, her cardiologist in two to four weeks, and her primary care physician in two to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent weakness as the chief complaint. Symptoms included constant weakness over the past few weeks, with some days worse than others, and increased tiredness making daily activities like walking and cooking more difficult, but no changes in appetite, weight, or sleep. The patient denied recent illness, new medications, lightheadedness, dizziness, or shortness of breath, and reported that symptoms have remained stable without improvement or worsening. No relevant medical history, medications, or allergies were mentioned. The doctor noted gradual, persistent weakness and tiredness without other concerning symptoms, suggesting possible mild deconditioning, anemia, or effects of reduced activity. The doctor recommended tracking energy levels and trying gentle activity such as short walks or stretching over the next week or two. The patient was advised to report any new symptoms (such as swelling, chest discomfort, confusion, or sudden worsening) and to consider a check-in with their primary doctor for basic blood tests to rule out common causes. The patient expressed understanding and agreed to follow the recommendations.
+The patient is an adult presenting with the chief complaint of persistent weakness over the past few weeks. The weakness is described as fairly constant, with some day-to-day variation, and has made activities such as walking and cooking more tiring, though the patient remains able to perform daily tasks. There are no associated symptoms such as lightheadedness, dizziness, shortness of breath, appetite or weight changes, sleep disturbances, or recent illness. The onset was gradual and symptoms have remained stable without significant improvement or worsening.
+
+No relevant medical history, medication changes, or allergies were reported. The clinical impression was that the symptoms are likely due to mild or age-related causes such as temporary deconditioning, mild anemia, or decreased activity, with no evidence of acute illness. The treatment plan included monitoring energy levels, engaging in gentle activity like short walks or stretching, and following up with a primary doctor for basic blood tests to rule out common causes if symptoms persist or worsen. The patient was advised to report any new symptoms such as swelling, chest discomfort, confusion, or sudden worsening.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.934
-- **Similarity Label**: N/A
+- **STS Score**: 0.459
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

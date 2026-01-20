@@ -85,16 +85,21 @@ In the meantime, if you notice any sudden worsening—such as increased weakness
 
 ## EHR Summary
 
-The patient is an 85-year-old male presenting with a chief complaint of headache for ten to fourteen days and three days of vague mental status changes. Symptoms included persistent headache and recent onset of cognitive changes, as noted by his daughter. Past medical history is significant for coronary artery disease (status post CABG x3) and prior cholecystectomy; medications on admission included Coumadin, Zocor, Zestril, Isordil, and Ambien, with a documented allergy to phenobarbital. On physical exam, he was awake and oriented with mild right upper extremity weakness (4+/5), minimal slurred speech, and short-term memory impairment. A head CT scan revealed a large left acute versus subacute subdural hematoma (1.5–2 cm) with 9 mm midline shift. The documented diagnosis was left subdural hematoma with associated neurological deficits. The patient was transferred for neurosurgical management; specific treatments during this admission are not detailed in the provided note.
+The patient is an 85-year-old male presenting with a chief complaint of ten to fourteen days of headache and three days of vague mental status changes. Symptoms included persistent headache, short-term memory impairment, occasional slurred speech, and mild right upper extremity weakness (4+/5 strength). Past medical history is notable for coronary artery disease (status post CABG), cholecystectomy, and use of Coumadin, with a documented allergy to phenobarbital. Head CT revealed a large left acute versus subacute subdural hematoma with 9 mm midline shift. The documented diagnosis was left subdural hematoma. Treatment included left craniotomy for hematoma evacuation and placement of a subdural drain, followed by monitoring in the surgical ICU and subsequent transfer to the regular floor with physical and occupational therapy. Discharge medications included Percocet, Zantac, Zocor, Zestril, Tylenol, and Isordil. The patient was discharged in stable condition with instructions for follow-up, repeat head CT in two weeks, and staple removal on postoperative day ten.
+
 
 ## Dialogue Summary
 
-The patient presented with headaches persisting for about ten days. Symptoms included moderate, steady headache pain throughout the day, mild weakness in the right arm present most of the time (with preserved grip and use), occasional slurred speech, and some difficulty with memory and alertness that have remained stable over the past ten days. The patient reported no changes in vision or balance and has been able to perform most daily activities, though with increased need for breaks and some trouble focusing. No relevant medical history, medications, or allergies were mentioned. The doctor noted the presence of mild right arm weakness, occasional speech changes, and cognitive symptoms, advising that these findings are concerning for possible neurological changes or issues with blood flow in the brain. The doctor recommended contacting a healthcare provider soon for further evaluation, including neurological assessment and possible imaging. The patient was advised to seek immediate medical attention if symptoms worsen, such as increased weakness, new numbness, severe confusion, difficulty speaking, or trouble walking.
+The patient is an adult presenting with a chief complaint of headaches persisting for about ten days. The headaches are moderate in intensity, steady throughout the day, and somewhat alleviated by rest, but do not fully resolve. Associated symptoms include mild, persistent weakness in the right arm, occasional slurred speech, and recent difficulties with memory and alertness, all of which have remained stable over the ten-day period. The patient denies changes in vision or balance and reports only mild impact on daily activities. There is no documented relevant medical history, medications, or allergies in the dialogue. The clinical impression is that these neurological symptoms—particularly the weakness and speech changes—may indicate possible issues with cerebral blood flow or other neurological changes, and are not typical of benign conditions. The treatment plan includes a recommendation to seek prompt evaluation by a healthcare provider for neurological assessment and possible imaging. The patient was also advised to seek immediate medical attention if symptoms worsen or new neurological deficits develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.523
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

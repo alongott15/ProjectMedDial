@@ -87,16 +87,21 @@ In the meantime, try to rest as much as possible and avoid any more Advil or sim
 
 ## EHR Summary
 
-The patient is a 33-year-old male admitted for gastric bypass surgery due to morbid obesity. Postoperatively, he experienced increased blood from the nasogastric tube, diaphoresis, lightheadedness, and nausea without chest pain or dyspnea. His past medical history includes obesity, degenerative joint disease, heartburn, and headache; he has no known drug allergies and takes Advil at home. Physical examination was notable for stable vital signs and an obese, nontender abdomen; electrocardiogram showed normal sinus rhythm. The clinical course was complicated by postoperative bleeding with a hematocrit drop to 18%, requiring transfusion of 6 units of packed red blood cells and 2 units of fresh frozen platelets. The diagnosis was postoperative hemorrhage following Roux-en-Y gastric bypass. After stabilization and cessation of bleeding, his hematocrit remained stable at 28%. At discharge, he was tolerating a stage three diet and prescribed Roxicet for pain, ranitidine, Actigall 300 mg twice daily for six months, and vitamin B supplementation.
+The patient is a 33-year-old male admitted for gastric bypass surgery due to morbid obesity. Postoperatively, he developed increased blood output from the nasogastric tube, diaphoresis, lightheadedness, and nausea without chest pain or dyspnea. His hematocrit dropped to a low of 18% and he required transfusion of 6 units of packed red blood cells and 2 units of fresh frozen platelets. Past medical history includes obesity, degenerative joint disease, heartburn, and headache; he has no known drug allergies and was taking Advil at home. The clinical impression was postoperative gastrointestinal bleeding following Roux-en-Y gastric bypass. After transfusion, his hematocrit stabilized at 28% and there was no further evidence of bleeding. At discharge, he was tolerating a stage three diet and prescribed Roxicet for pain, ranitidine, Actigall for six months, and vitamin B-12 for two months. He was advised to follow up in the surgical nutrition clinic and with his surgeon in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with increased blood in their nasogastric tube output. They reported that the bleeding started a couple of days ago and has been steady, with the fluid appearing noticeably more red rather than just streaked. Associated symptoms included intermittent sweating, lightheadedness, increased tiredness, weakness, and difficulty performing daily activities; the patient also mentioned experiencing some nausea. There was no history of black or tarry material in the tube output, and no recent changes in tube care, medications (except ongoing Advil use), or diet were noted. On assessment, the doctor noted that the visible red blood and accompanying symptoms suggested ongoing active blood loss, possibly exacerbated by Advil (ibuprofen), which can increase bleeding risk. The doctor recommended urgent evaluation by the healthcare team or at an emergency department to check blood counts and determine if intervention is needed. The patient was advised to rest, avoid further Advil or similar medications, and seek immediate medical attention if symptoms worsen.
+The patient is an adult presenting with increased blood in their nasogastric tube as the chief complaint. Over the past couple of days, the patient has observed a steady increase in red-tinged tube output, rather than just streaks, with no black or tarry material noted. Associated symptoms include intermittent sweating, lightheadedness, increased fatigue, weakness, and difficulty performing daily activities; the patient also reports some nausea. There have been no recent changes in routine, tube care, or diet, but the patient continues to take Advil (ibuprofen). The clinical impression is ongoing blood loss likely related to upper gastrointestinal bleeding, possibly exacerbated by NSAID use. The physician advised urgent evaluation by the healthcare team or at an emergency department for further assessment and possible intervention, including checking blood counts. The patient was instructed to rest, avoid further Advil or similar medications, and seek immediate care if symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.583
+- **Model Used**: general
+- **Text1 Length**: 153 words
+- **Text2 Length**: 146 words
+
 
 ## Processing Information
 

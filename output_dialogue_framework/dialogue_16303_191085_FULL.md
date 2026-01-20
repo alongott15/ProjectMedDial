@@ -81,16 +81,21 @@ Does that explanation make sense? Is there anything else about these episodes yo
 
 ## EHR Summary
 
-The patient is a 68-year-old male presenting with recurrent right-sided facial pain. The pain characteristics, including severity and duration, are not specified. His past medical history includes hypercholesterolemia, and he has no known drug allergies. On physical and neurologic examination, cranial nerves II-XII were intact, and the only notable finding was a flushed face; postoperatively, he had some numbness behind the right ear but no facial numbness. The documented diagnosis was not explicitly stated, but the patient underwent a right suboccipital craniotomy with microvascular decompression of the fifth cranial nerve, suggesting trigeminal neuralgia. Postoperative recovery was stable with no complications, and he was discharged in good condition. Discharge medications included Percocet as needed for pain, Pravachol 20 mg daily, and carbamazepine 100 mg four times daily. He was advised to follow up for staple removal in ten days.
+The patient is a 68-year-old male presenting with recurrent right-sided facial pain. The pain was persistent and led to neurosurgical evaluation. His past medical history is notable for hypercholesterolemia, and he has no known drug allergies. On examination, cranial nerves II through XII were intact, and there were no focal neurological deficits. The documented diagnosis was presumed trigeminal neuralgia, for which he underwent a right suboccipital craniotomy with microvascular decompression of the fifth cranial nerve without complications. Postoperatively, he experienced some numbness behind the right ear but no facial numbness or headache, and he remained neurologically intact. He was discharged in stable condition with prescriptions for Percocet as needed for pain, Pravachol 20 mg daily, and carbamazepine 100 mg four times daily. Follow-up was arranged for staple removal in ten days.
+
 
 ## Dialogue Summary
 
-The patient presented with episodes of facial discomfort. Symptoms include sharp, electric shock-like pain in the right cheek lasting a few minutes, occurring over the past few weeks, with no clear triggers such as eating, touching the face, or temperature changes; the patient also reported numbness behind the right ear that has been present since surgery. The pain comes on suddenly and fades on its own. Relevant history includes post-surgical numbness behind the right ear. No additional physical findings were described by the doctor or patient. The doctor assessed that these brief, electric shock-like sensations without obvious triggers may be related to nerve irritation in the face, possibly associated with prior surgical changes. The doctor advised monitoring the frequency and characteristics of episodes, practicing gentle self-care by avoiding excessive pressure on the area, and seeking prompt medical attention if new symptoms such as persistent numbness, facial weakness, vision changes, or constant pain develop. The patient understood and agreed to monitor symptoms.
+The patient is an adult presenting with episodes of sharp, electric shock-like facial pain primarily in the right cheek. The discomfort began a few weeks ago, with each episode lasting a few minutes and resolving spontaneously; there are no clear triggers such as eating, touching the face, or temperature changes. The patient also reports persistent numbness behind the right ear since prior surgery. The physician notes that these brief, electric shock-like sensations without obvious triggers may be related to nerve irritation, possibly associated with postoperative changes. No formal diagnosis was documented, but the clinical impression is benign facial nerve discomfort. The treatment plan includes monitoring the frequency and characteristics of episodes, practicing gentle self-care to avoid irritation, and seeking prompt evaluation if new symptoms such as persistent numbness, facial weakness, vision changes, or constant pain develop. The patient was reassured and agreed to monitor symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.570
+- **Model Used**: general
+- **Text1 Length**: 131 words
+- **Text2 Length**: 145 words
+
 
 ## Processing Information
 

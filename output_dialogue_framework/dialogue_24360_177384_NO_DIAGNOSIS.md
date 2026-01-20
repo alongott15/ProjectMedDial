@@ -95,16 +95,21 @@ Otherwise, it should heal on its own over the next several days. If you have any
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with exertional shortness of breath and substernal chest pain. Symptoms were associated with a history of silent myocardial infarction at age 32 and a recent positive exercise treadmill test showing ST depression inferiorly and laterally. Relevant history includes hypertension, diabetes, hypercholesterolemia, GERD, and prior hernia repair; home medications included Aspirin, Lopressor, Avandia, Glucotrol, and Glucophage. Cardiac catheterization revealed significant coronary artery disease with multiple lesions and an LAD aneurysm; ejection fraction was 60%. On examination prior to discharge, the patient was stable, afebrile, with clear lungs, regular heart rhythm, and a clean, intact sternal incision. The documented diagnosis was multivessel coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) times five and recovered well postoperatively, achieving good functional status with physical therapy. Discharge medications included Glucotrol, Glucophage, Avandia, Lipitor, Aspirin, Lasix (for five days), potassium chloride (for five days), and Percocet as needed.
+The patient is a 58-year-old male presenting with exertional shortness of breath and substernal chest pain. Symptoms were associated with a history of silent myocardial infarction at age 32, and recent positive exercise treadmill test with evidence of ischemia. Cardiac catheterization revealed significant coronary artery disease, including 70% left circumflex, 80% proximal and mid RCA, and 50% mid LAD lesions, as well as an LAD aneurysm. Past medical history includes hypertension, diabetes, hypercholesterolemia, GERD, and prior hernia repair. The documented diagnosis was multivessel coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) times five without complications and recovered well postoperatively. Discharge medications included antiplatelet therapy, diabetes management, statin, diuretic with potassium supplementation, and pain control. The patient was discharged home in stable condition with home nursing care and instructions to follow up in 3–7 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with a small blister on the right lower leg, approximately one centimeter in diameter. The blister was first noticed a couple of days ago and has remained unchanged in size, with no associated pain, itching, discomfort, or interference with walking or wearing socks. The patient denied any redness, swelling, drainage, recent injuries, new shoes, insect bites, or unusual exposures, and reported no history of diabetes, circulation issues, or current medications. On examination, there were no signs of infection or abnormal skin changes around the blister. The doctor assessed the lesion as a minor, isolated blister likely due to mild friction or dry skin, without evidence of underlying health concerns. The patient was advised to keep the area clean and covered with a dry bandage, avoid popping the blister, and monitor for signs of infection such as redness, warmth, swelling, drainage, or systemic symptoms. If any changes occur or new symptoms develop, the patient was instructed to seek further medical attention; otherwise, the blister is expected to resolve on its own.
+The patient is an adult presenting with a small blister on the right lower leg as the chief complaint. The blister is approximately one centimeter in diameter, has been present for a couple of days, and has not changed in size. The patient reports no pain, itching, discomfort with walking or wearing socks, and no associated redness, swelling, or drainage; the surrounding skin appears normal. There is no history of recent injury, new shoes, insect bites, unusual exposures, or underlying medical conditions such as diabetes or circulation problems. The documented clinical impression is a minor, isolated blister without signs of infection or underlying health concerns. The treatment plan includes keeping the area clean and covered with a dry bandage, avoiding popping the blister, and monitoring for any signs of infection such as redness, warmth, swelling, drainage, or systemic symptoms. The patient was advised to seek further evaluation if any concerning changes occur; otherwise, the blister is expected to resolve on its own. No medications were prescribed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.930
-- **Similarity Label**: N/A
+- **STS Score**: 0.167
+- **Model Used**: general
+- **Text1 Length**: 137 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

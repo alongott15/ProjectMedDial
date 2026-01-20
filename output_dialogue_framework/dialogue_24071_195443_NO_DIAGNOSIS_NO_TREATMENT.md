@@ -186,3 +186,25 @@ For now, I'd recommend continuing to monitor how you feel and consider reaching 
 ## Processing Information
 
 - **Processing Time**: 385.3s
+
+## EHR Summary
+
+The patient is a 41-year-old female presenting with vomiting that began the morning of admission. She reported two episodes of projectile emesis after breakfast, intermittent non-localized abdominal pain, diarrhea (attributed to Lactulose), increased abdominal girth, difficulty concentrating, recent weight loss, and blood-tinged yellowish sputum with cough; she denied nausea, hematemesis, bile in emesis, shortness of breath, or urinary symptoms. Her relevant history includes end stage liver disease due to primary sclerosing cholangitis and autoimmune hepatitis overlap with cirrhosis, hypertension, hypertrophic pulmonary osteoarthropathy, lower back disc herniation, duodenal ulcers, and a questionable sulfa allergy. On examination, she was jaundiced, ill-appearing, with abdominal distension, splenomegaly, and clubbing; labs showed elevated liver enzymes and bilirubin, thrombocytopenia, and coagulopathy. The assessment considered vomiting in the context of end stage liver disease with possible etiologies including gastric outlet obstruction, biliary obstruction, infection, GI bleed, portal vein thrombosis, ascites, or medication side effects. Workup including EGD and abdominal ultrasound was negative for new bleeding or obstruction; MRCP showed no obstructive strictures but worsening ductal changes. During hospitalization, she developed hepatic encephalopathy (manifested by asterixis and mental status changes), which improved after increasing Lactulose dosing. Hyponatremia was managed with fluid restriction and holding diuretics.
+
+
+## Dialogue Summary
+
+The patient is an adult with a history of end stage liver disease and cirrhosis presenting with ongoing vomiting, intermittent abdominal (belly) pain, and persistent fatigue. Additional symptoms include difficulty concentrating, recent weight loss, exertional dyspnea (feeling winded with activity), nausea, and occasional blood-tinged yellowish sputum. The abdominal pain has been present for a while and has not significantly worsened; the vomiting and fatigue remain the most troublesome symptoms. There are no reported alarming features such as black stools, vomiting blood, severe confusion, or new jaundice.
+
+Relevant history includes advanced liver disease, which raises concern for complications such as hepatic encephalopathy (suggested by concentration difficulties) and possible nutritional deficiencies (suggested by weight loss). The clinical impression is that these symptoms may be related to changes in liver function and potential hepatic encephalopathy.
+
+The treatment plan includes monitoring for any sudden changes or new warning signs (e.g., confusion, gastrointestinal bleeding, jaundice), staying hydrated, eating small frequent meals, and keeping track of symptoms. The patient is advised to contact their liver specialist for further evaluation, especially regarding new or worsening symptoms such as concentration difficulties, weight loss, blood-tinged sputum, and exertional dyspnea.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.782
+- **Model Used**: general
+- **Text1 Length**: 197 words
+- **Text2 Length**: 190 words
+

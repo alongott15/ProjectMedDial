@@ -87,16 +87,21 @@ Does this explanation make sense? Is there anything else you’ve noticed or are
 
 ## EHR Summary
 
-The patient is a 77-year-old male presenting with four days of right upper quadrant abdominal pain, which worsened with eating. The pain persisted, prompting evaluation at an outside hospital where imaging revealed cholelithiasis and cholecystitis, with CT confirming an inflamed gallbladder and inflammatory changes. Relevant history includes coronary artery disease status post CABG, hypertension, Barrett's esophagus, prior prostatectomy, herniated lumbar disc, renal stone with prior stenting, and right inguinal hernia repair; medications include Lopressor, aspirin, Protonix, and Accupril, with an iodine allergy. On admission, he had a fever of 101.6°F, leukocytosis (WBC 13), elevated liver function tests, total bilirubin of 1.4, and a positive Murphy's sign. The documented diagnosis was acute cholecystitis with cholelithiasis. He underwent open cholecystectomy and concurrent umbilical hernia repair. Postoperatively, he recovered well with removal of nasogastric tube and Foley catheter by postoperative day two, tolerated a clear diet, and was deemed ready for discharge on postoperative day four.
+The patient is a 77-year-old male presenting with four days of right upper quadrant abdominal pain, which was worse with eating and persistent. He was found to have a fever of 101.6°F, elevated white blood cell count (13), elevated liver function tests, and a total bilirubin of 1.4; imaging revealed cholelithiasis and cholecystitis with an inflamed gallbladder. His past medical history includes coronary artery disease status post coronary artery bypass graft times two, hypertension, Barrett's esophagus, prostatectomy, herniated lumbar disc, renal stones status post bilateral stents, and right inguinal hernia repair; he is allergic to iodine. The documented diagnoses were cholelithiasis and cholecystitis status post open cholecystectomy and umbilical hernia repair, along with his chronic conditions. He underwent an open cholecystectomy and umbilical hernia repair without postoperative complications. Postoperatively, his pain was controlled with oral medication, he tolerated a regular diet, was passing flatus, and was ambulating prior to discharge. Discharge medications included Protonix, Lopressor, Percocet as needed, Levaquin, Flagyl for ten days, and Colace. He was instructed to follow up in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with pain in the upper right abdomen, especially after eating. The discomfort began a few days ago, is described as a dull ache that remains localized to the right side, and worsens with any food intake but does not interfere with daily activities outside of mealtimes. The patient rated the pain as a 6 out of 10 after eating and also reported having a fever, but denied chills, jaundice, nausea, vomiting, or appetite changes. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the absence of yellowing of the skin or eyes and no other systemic symptoms. The doctor assessed that the symptoms could be related to mild inflammation of the gallbladder or irritation of the digestive tract, given the pain pattern and associated fever. The treatment plan included advice to eat lighter, low-fat meals, maintain hydration, rest as needed, and monitor for worsening symptoms such as severe pain, vomiting, or jaundice, with instructions to seek medical attention if these occur. The patient understood and agreed to follow these recommendations.
+The patient is an adult presenting with upper right abdominal pain as the chief complaint. The pain is described as a dull ache, rated 6 out of 10 in severity after eating, and has been present for a few days; it is consistently triggered by eating and does not radiate or interfere with daily activities outside of mealtimes. The patient also reports fever but denies chills, jaundice, nausea, vomiting, or appetite changes. There is no mention of relevant past medical history, medications, or allergies. The clinical impression discussed was possible mild gallbladder inflammation or digestive tract irritation related to food intake. The treatment plan includes dietary modification to lighter, low-fat meals, maintaining hydration, and monitoring for worsening symptoms such as increased pain, vomiting, or jaundice. The patient was advised to seek prompt medical attention if new or severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.671
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 140 words
+
 
 ## Processing Information
 

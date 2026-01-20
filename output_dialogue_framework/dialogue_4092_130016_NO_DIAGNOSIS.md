@@ -87,16 +87,21 @@ Let me know if you’d like more information about what might be going on or how
 
 ## EHR Summary
 
-The patient is a 72-year-old woman presenting after a fall three to seven days prior, with subsequent change in mental status and right-sided weakness. She has a history of dementia. Initial evaluation at an outside hospital revealed a left subdural hematoma with a 2 cm midline shift on head CT. On admission, physical exam showed right-sided drift and right lower extremity weakness, but she was otherwise stable and oriented to self. Laboratory results were within normal limits, and repeat imaging confirmed the subdural hematoma. The documented diagnosis was a large left frontotemporoparietal subdural hematoma with midline shift. She underwent bedside drainage of the hematoma without complications, resulting in resolution of her neurological deficits. The patient was deemed safe for discharge home by physical therapy, though she continued to have poor short-term memory attributed to her underlying dementia.
+The patient is a 72-year-old woman presenting after a fall three to seven days prior, with subsequent change in mental status and right-sided weakness. She has a history of dementia. On evaluation, she was found to have a large left frontotemporoparietal subdural hematoma with a 2 cm midline shift on head CT, associated with right-sided drift and lower extremity weakness. Bedside drainage of the subdural hematoma was performed without complications, and follow-up imaging showed good evacuation. Her neurological deficits resolved post-procedure, though she continued to have poor short-term memory due to underlying dementia. The documented diagnosis was left subdural hematoma secondary to trauma. She was discharged in stable condition with instructions for 24-hour supervision at home, follow-up with neurosurgery in one month, and repeat head CT. Discharge medications included trazodone 25 mg as needed and famotidine 20 mg twice daily.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns following a recent fall, reporting feeling mentally "foggy" and experiencing new short-term memory difficulties and right-sided weakness, especially in the leg. The patient described immediate onset of right-sided weakness after the fall, which has persisted and made daily activities such as walking and chores more difficult; the weakness does not fluctuate with activity. The patient denied headaches, vision changes, dizziness, word-finding problems, or difficulty recognizing people. No relevant medical history, medications, or allergies were mentioned. On clinical questioning, the doctor noted persistent right-sided weakness and cognitive changes without other neurological deficits. The doctor assessed that these symptoms could be related to injury to the brain or nerves from the fall and emphasized the importance of evaluation to rule out serious problems. The doctor recommended a thorough assessment soon, advised rest and seeking help with difficult activities, and instructed the patient to watch for new symptoms such as worsening confusion, trouble speaking, severe headache, or loss of consciousness.
+The patient presents with concerns following a recent fall. Since the fall, they report persistent right-sided weakness—especially in the leg—making mobility and daily activities difficult, as well as new short-term memory problems and feeling less mentally sharp. The weakness began immediately after the fall and remains constant throughout the day; there are no associated headaches, vision changes, dizziness, speech difficulties, or problems recognizing people. Relevant history regarding prior medical conditions, medications, or allergies is not specified. The clinical impression is that these symptoms may be due to injury to the brain or nerves controlling movement and cognition as a result of the fall. The doctor recommends a thorough evaluation soon to rule out serious problems and guide recovery. The patient is advised to rest, seek help with difficult activities, and monitor for new symptoms such as worsening confusion, trouble speaking, severe headache, or loss of consciousness, which would warrant immediate medical attention.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.422
+- **Model Used**: general
+- **Text1 Length**: 140 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

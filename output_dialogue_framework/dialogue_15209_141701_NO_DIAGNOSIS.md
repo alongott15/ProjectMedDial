@@ -98,3 +98,21 @@ Let me ask—has this cough or shortness of breath affected your ability to do b
 ## Processing Information
 
 - **Processing Time**: 431.1s
+
+## EHR Summary
+
+The patient is a 58-year-old female presenting with fever, cough with yellow sputum, and shortness of breath at rest. Symptoms included periodic cough, fevers up to 102°F, and dyspnea, without chest pain or headaches; physical exam revealed decreased breath sounds and positive egophony at the right lower lobe. Her relevant history includes chronic obstructive pulmonary disease (COPD), hypertension, recent epidural abscess with paraplegia, prior MRSA bacteremia, mitral valve endocarditis, and a Foley catheter in place. The documented diagnoses were pneumonia due to hemophilus influenza, COPD, epidural abscess, endocarditis, hypertension, paraplegia, iron deficiency anemia, and a sacral decubitus ulcer. She was treated with levofloxacin for pneumonia, nebulizers and inhalers for COPD, vancomycin for epidural abscess, iron supplementation for anemia, and supportive care for paraplegia and ulcer prevention. Additional treatments included subcutaneous heparin for prophylaxis and antihypertensive management with fluids. At discharge, her condition was stable and she was instructed to continue medications and follow up with her primary care physician as needed.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with fever as the chief complaint. The fevers have reached up to 101–102°F, are intermittent, and have been present for a few days, often spiking in the evening. Associated symptoms include a cough producing yellow sputum and dyspnea at rest, without chest pain or limitation of basic activities. The patient reports that acetaminophen temporarily reduces the fever and improves comfort. Relevant history regarding chronic medical conditions, medications, or allergies is not specified. The clinical impression is a respiratory infection, possibly bronchitis or mild pneumonia, based on the combination of cough with colored sputum, fever, and shortness of breath. The treatment plan includes rest, hydration, and continued use of acetaminophen as needed for symptom relief. The patient was advised to seek prompt care if symptoms worsen or new warning signs develop, and to contact their provider if symptoms persist beyond a week.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.609
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 147 words
+

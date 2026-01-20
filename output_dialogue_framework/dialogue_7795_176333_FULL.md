@@ -104,3 +104,21 @@ Let me know if you have any questions or concerns about what we've talked throug
 ## Processing Information
 
 - **Processing Time**: 429.8s
+
+## EHR Summary
+
+The patient is an 86-year-old female presenting with nonspecific mental status changes, chest pain, right shoulder pain, right upper chest pain, and shortness of breath. Symptoms were associated with a recent history of transient ischemic attack and were found to be due to a type A ascending aortic dissection with pericardial effusion on CT scan. Past medical history includes hypothyroidism, depression, and hypertension; she has no known drug allergies and was taking Levoxyl, Depakote, and Zyprexa on admission. The documented diagnoses were ascending aorta dissection type A (status post aortic arch replacement and re-suspension of aortic valve), postoperative atrial fibrillation, hypothyroidism, depression, and hypertension. Treatment included emergent surgical repair of the ascending aorta and aortic valve, postoperative management of atrial fibrillation with Amiodarone and Lopressor, blood pressure control with nitroglycerin, Nipride, Hydralazine, and Captopril, as well as supportive care including transfusions and rehabilitation planning. The patient’s condition stabilized postoperatively, with improvement in mental status and hemodynamics. She was discharged in stable condition with a comprehensive medication regimen and instructions for follow-up with cardiology and primary care, as well as rehabilitation.
+
+
+## Dialogue Summary
+
+The patient is an older adult presenting with chest pain as the chief complaint. The chest pain has been intermittent over several days, lasting a few minutes at a time, and is described as mostly aching, sometimes sharp, with a severity up to 7 out of 10. Additional symptoms include right shoulder discomfort that comes on unexpectedly, occasional confusion that worsens with fatigue or activity, generalized weakness, and increased difficulty with daily activities. The confusion is intermittent and not tied to a specific time of day. There is no mention of relevant medical history, medications, or allergies. The clinical impression was that the symptoms could be related to common issues such as fatigue, mild infection, dehydration, or musculoskeletal strain, but more serious causes have not been ruled out. The treatment plan includes monitoring for new or worsening symptoms (such as increased pain, shortness of breath, fever, or persistent confusion), maintaining hydration, getting adequate rest, avoiding overexertion, and engaging in gentle movement as tolerated. The patient was advised to seek further evaluation if symptoms worsen.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.517
+- **Model Used**: general
+- **Text1 Length**: 180 words
+- **Text2 Length**: 174 words
+

@@ -89,16 +89,23 @@ Let me ask: How much are these feelings interfering with your ability to work, t
 
 ## EHR Summary
 
-The patient is a 39-year-old male presenting with chest pain, depression, and suicidal ideation. He reported recent cocaine use following discharge from a substance abuse treatment program, with subsequent onset of chest pain two to four hours after crack cocaine use. His history includes two prior cocaine-induced myocardial infarctions (with previously clean cardiac catheterizations), polysubstance abuse, and depression. On admission, ECG showed diffuse ST elevations in leads V3 to V6, and creatine kinase was elevated at 4348, but MB index and troponin were negative; cardiac catheterization again revealed clean coronary arteries. The clinical impression was pericarditis and cocaine-induced rhabdomyolysis. He was treated with diltiazem, morphine sulfate for pain relief, and ibuprofen for pericarditis; ACE inhibitor and heparin were discontinued after catheterization results. During admission, he experienced abdominal pain that resolved and was found to have no abdominal pathology on CT scan. The patient remained medically stable with decreasing creatine kinase levels and was transferred for further care.
+The patient is a 39-year-old male presenting with chest pain, depression, and suicidal ideation. He reported a recent cocaine binge, after which he developed chest pain two to four hours later, along with ongoing depression but denied active suicidal ideation after admission. His history includes HIV, hepatitis C, prior cocaine-induced myocardial infarctions with clean coronary arteries, polysubstance abuse, depression, and bipolar disorder. On evaluation, he had diffuse ST elevations on ECG, elevated creatine kinase (peaking at 4348), but negative troponin and CK/MB; cardiac catheterization showed clean arteries. The documented diagnoses were pericarditis and cocaine-induced rhabdomyolysis. He was treated with ibuprofen for pericarditis, continued on antiretroviral therapy and Dapsone, and all psychiatric medications were held for diagnostic clarification. The patient remained medically stable, denied further suicidal ideation, and was discharged in good condition with instructions to follow up with Psychiatry.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. Symptoms included a pressure-like chest pain occurring even at rest, abdominal pain, persistent cough, significant anxiety, depressed mood, and escalating thoughts of self-harm with a specific plan, particularly worsening at night and triggered by thoughts about health and past mistakes. The patient reported difficulty managing daily activities and social interactions due to these symptoms. No past medical history, medications, or allergies were mentioned. The doctor noted the combination of physical symptoms and significant emotional distress, emphasizing the urgent concern regarding suicidal ideation with a plan. The assessment was that the patient's depression and risk of self-harm required immediate attention and intervention. The doctor recommended connecting the patient with mental health care resources immediately, including counseling and crisis support, and advised seeking help urgently if thoughts of self-harm became overwhelming.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is described as a pressure sensation, not associated with physical activity, and occurs even at rest; the patient also reports abdominal pain and a bothersome cough. Additionally, the patient endorses significant depressive symptoms, including persistent low mood, thoughts of self-harm that have recently intensified, and the presence of a specific plan, though no steps have been taken. These thoughts are worse at night and are triggered by reflections on health and past experiences, leading to difficulty with daily functioning and self-care.
+
+There is no relevant past medical history, medications, or allergies specified. The clinical impression is significant emotional distress with active suicidal ideation and a specific plan, alongside physical symptoms that may be related to stress, anxiety, or depression but require further evaluation to rule out medical causes. The treatment plan prioritizes immediate safety, recommending urgent connection with mental health care (such as counseling or crisis support), and advises seeking help immediately if thoughts of self-harm become overwhelming. The provider emphasizes that effective treatments and supports are available and that the patient is not alone.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.581
+- **Model Used**: general
+- **Text1 Length**: 139 words
+- **Text2 Length**: 191 words
+
 
 ## Processing Information
 

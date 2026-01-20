@@ -89,16 +89,21 @@ Let me know if you have any questions or if there's anything else you'd like to 
 
 ## EHR Summary
 
-The patient is a 77-year-old man presenting with acute onset substernal chest pain, shortness of breath, nausea, and diaphoresis. Symptoms began on the day of admission and prompted evaluation at an outside hospital, where ST elevations were noted in leads V2-V6, I, II, and AVF on electrocardiogram. His medical history includes hypertension, prior cardiac catheterization complicated by intracranial bleed, and a 120 pack-year smoking history. On catheterization, he had elevated pulmonary artery pressures and was found to have a 100% mid-LAD stenosis, which was stented; other coronary lesions were less severe. Physical examination on admission revealed stable vital signs, clear lungs, regular heart rhythm with a soft systolic murmur, and no acute distress. The documented diagnosis was ST-elevation myocardial infarction (STEMI) due to mid-LAD occlusion. Treatment included primary angioplasty with stenting of the mid-LAD lesion and administration of Lasix 20 mg; Integrilin was withheld due to prior hemorrhagic cerebrovascular accident. He was admitted to the CCU in stable condition for continued management.
+The patient is a 77-year-old man presenting with acute onset substernal chest pain, shortness of breath, nausea, and diaphoresis. Symptoms began on the day of admission and were associated with ST elevations on ECG in leads V2-V6, I, II, and AVF. His medical history includes hypertension, prior catheterization complicated by intracranial bleed, and a 120 pack-year smoking history. He was diagnosed with acute myocardial infarction confirmed by cardiac enzymes and ECG findings, and underwent primary angioplasty with stenting of the mid LAD. During hospitalization, he developed hemoptysis and was found to have right middle lobe pneumonia and probable urinary tract infection. Treatment included stenting, diuresis with Lasix, antiplatelet therapy (Plavix, Aspirin), beta-blocker (Lopressor), ACE inhibitor (Captopril), antibiotics (Levaquin, Flagyl, Vancomycin), and supportive care. He was discharged in stable condition with plans for home nursing, possible home oxygen, and cardiac rehabilitation.
+
 
 ## Dialogue Summary
 
-The patient presented with sudden onset central chest pain described as pressure, which was the chief complaint. Symptoms included chest pressure rated 7/10 in intensity, difficulty breathing even at rest, increased sweating, nausea, and a cough producing brown, slightly blood-tinged sputum. The patient also reported recent high fevers of 104.2°F and 103.2°F, but denied chills, shaking, or swelling in the legs or ankles. No relevant medical history, medications, or allergies were mentioned. On clinical assessment, the doctor noted the combination of chest pressure, shortness of breath, high fever, and hemoptysis as concerning for a lung infection such as pneumonia. The doctor recommended prompt medical evaluation with a chest X-ray and blood tests to confirm the diagnosis and guide treatment, emphasizing the need for rest, hydration, and avoidance of exertion. The patient was advised to monitor for warning signs including worsening breathlessness, confusion, or severe pain, and to seek emergency care if symptoms acutely worsen.
+The patient presents with sudden-onset central chest pressure as the chief complaint. The chest pressure is described as a 7 out of 10 in intensity, pressure-like, and associated with shortness of breath even at rest. Additional symptoms include nausea, increased sweating, coughing up brown, slightly blood-tinged sputum, and recent high fevers up to 104.2°F and 103.2°F; there are no chills, shaking, or peripheral edema. Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression documented is concern for a lung infection, such as pneumonia, given the combination of chest discomfort, dyspnea, hemoptysis, and fever. The doctor recommends prompt medical evaluation with a chest X-ray and blood tests to confirm the diagnosis and guide treatment. Supportive advice includes resting, staying hydrated, avoiding exertion, and seeking emergency care if symptoms worsen (e.g., increased breathlessness, confusion, or severe pain).
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.528
+- **Model Used**: general
+- **Text1 Length**: 140 words
+- **Text2 Length**: 141 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ If your pain becomes severe, if you notice fever, spreading redness, weakness, o
 
 ## EHR Summary
 
-The patient is a 45-year-old female presenting with new onset back pain. She reported sudden back pain on April 2, and imaging at an outside hospital revealed a type A aortic dissection. Her past medical history includes mechanical mitral valve replacement in 2153, hypertension, degenerative joint disease with chronic low back pain, spontaneous pneumothorax, and cesarean section; she is allergic to penicillins. On physical exam, she was not in acute distress, had a well-healed sternal incision, regular heart rhythm with a systolic murmur, and equal blood pressures in both arms. Laboratory findings included elevated white blood cell count, thrombocytosis, anemia, and elevated INR. The documented diagnosis was type A aortic dissection. She underwent emergent surgical repair of the ascending aorta via redo sternotomy, followed by re-exploration for mediastinal hematoma evacuation. Postoperatively, she was managed in the cardiothoracic surgical recovery unit with supportive care.
+The patient is a 45-year-old female presenting with new onset back pain. She reported sudden back pain on April 2, and imaging revealed a type A aortic dissection. Her past medical history includes mechanical mitral valve replacement (MVR), hypertension, degenerative joint disease with chronic low back pain, and prior spontaneous pneumothorax. The documented diagnosis was acute type A aortic dissection, status post mechanical MVR, chronic low back pain, and hypertension. She underwent emergent surgical repair of the ascending aorta with subsequent re-exploration for hematoma, followed by a stable postoperative course. Discharge medications included furosemide, potassium chloride, docusate sodium, aspirin, ranitidine, atorvastatin, amiodarone, acetaminophen-codeine, metoprolol, levofloxacin, and coumadin with INR monitoring. She was advised to avoid driving for 4 weeks, not lift more than 10 lbs for 3 months, and to follow up with her physicians for INR management and surgical review. Discharge condition was documented as good.
+
 
 ## Dialogue Summary
 
-The patient presented with new back pain that has been worsening over the past few days. The pain is described as a dull ache, rated 6 out of 10 in intensity, and was not triggered by any recent injury, heavy lifting, or unusual physical activity. Additional symptoms include poor appetite since the onset of back pain and a small amount of clear, watery drainage from the sternum area, which began around the same time as the back pain; there is no associated redness, swelling, or tenderness. The patient denied numbness, tingling, weakness in the legs, and changes in urination or bowel movements. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of neurological symptoms and signs of infection, suggesting a likely musculoskeletal cause for the back pain and that the sternum drainage is less likely to be infectious or inflammatory. The doctor recommended rest, gentle movement, over-the-counter pain relief for the back pain, keeping the sternum area clean, monitoring for signs of infection, and seeking care if symptoms worsen; advice on stretches and comfort measures was offered.
+The patient is an adult presenting with new-onset back pain as the chief complaint. The back pain is described as a dull ache, rated 6 out of 10 in intensity, which developed gradually over a few days and has slightly worsened since onset. Associated symptoms include decreased appetite and a small amount of clear, watery drainage from the sternum area, which began around the same time as the back pain; there is no redness, swelling, or tenderness at the drainage site. The patient denies recent injuries, heavy lifting, unusual physical activity, numbness, tingling, weakness in the legs, or changes in urination or bowel movements. Relevant history, medications, and allergies are not specified. The clinical impression is likely musculoskeletal back pain without evidence of neurological involvement or infection. The treatment plan includes rest, gentle movement, over-the-counter pain relief, keeping the drainage site clean, monitoring for signs of infection, and performing gentle stretching as tolerated. The patient was advised to seek prompt care if symptoms worsen or new concerning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.535
+- **Model Used**: general
+- **Text1 Length**: 147 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

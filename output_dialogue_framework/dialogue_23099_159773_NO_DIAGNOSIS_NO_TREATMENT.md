@@ -71,16 +71,21 @@
 
 ## EHR Summary
 
-The patient is an 81-year-old female presenting after a fall onto her face, following tripping over a concrete slab. She denied chest pain, dizziness, or loss of consciousness, and reported only slight bleeding from her lower lip. Her medical history includes hypertension and anxiety; she takes lisinopril, hydrochlorothiazide, Zoloft, a multivitamin, Vitamin E, and aspirin, with no known drug allergies. On examination, she was afebrile with stable vital signs and a nonfocal neurological exam; there was no cervical spine tenderness. Imaging revealed a small right subtemporal subdural hematoma and a nondisplaced nasal bone fracture. The documented diagnoses were subdural hematoma and nasal bone fracture. She was admitted to the ICU for hourly neurological checks and blood pressure monitoring but did not require medication adjustments or show neurological deficits. Neurosurgery was consulted for management.
+The patient is an 81-year-old female presenting after a fall onto her face, having tripped over a concrete slab. She reported no chest pain, dizziness, or loss of consciousness, and recalled the event clearly; she sustained minor bleeding from her lower lip. Her past medical history includes hypertension and anxiety, with no known drug allergies, and she takes lisinopril, hydrochlorothiazide, Zoloft, multivitamin, Vitamin E, and aspirin at home. On examination, she was afebrile with stable vital signs and a nonfocal neurological exam. Imaging revealed a small right subtemporal subdural hematoma and a nondisplaced nasal bone fracture. The documented diagnoses were fall with right subdural hematoma and nasal bone fracture. She was managed with neurological monitoring, blood pressure control, neurosurgical consultation, and physical therapy; her condition remained stable with improvement on repeat imaging. Discharge medications included all home medications plus Tylenol as needed, with instructions to avoid aspirin and NSAIDs for one week due to the subdural hematoma.
+
 
 ## Dialogue Summary
 
-The patient presented with bleeding from the lower lip following a fall earlier today. The bleeding was initially significant but has slowed and is now minimal; swelling and soreness are present, but the patient can move their mouth normally. The patient denied numbness, difficulty eating or drinking, and trouble closing the mouth, reporting only mild annoyance with talking and smiling due to soreness. No relevant medical history, medications, or allergies were mentioned. On examination, the doctor noted mild swelling and soreness without functional impairment. The doctor assessed the injury as a mild soft tissue trauma to the lower lip with improving bleeding and no concerning symptoms. No specific treatment recommendations or advice were provided during the documented portion of the encounter.
+The patient presents with a chief complaint of lower lip bleeding following a fall earlier today. Initially, there was significant bleeding from the lower lip, which has since slowed and is now minimal. The patient reports mild swelling and soreness of the lower lip but denies numbness, difficulty moving the mouth, trouble eating or drinking, or inability to close the mouth. Talking and smiling are mildly uncomfortable but still possible. There is no documented relevant medical history, medications, or allergies in the dialogue. No formal diagnosis was explicitly stated by the physician. No specific treatment or recommendations were documented in this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.943
-- **Similarity Label**: N/A
+- **STS Score**: 0.436
+- **Model Used**: general
+- **Text1 Length**: 157 words
+- **Text2 Length**: 102 words
+
 
 ## Processing Information
 

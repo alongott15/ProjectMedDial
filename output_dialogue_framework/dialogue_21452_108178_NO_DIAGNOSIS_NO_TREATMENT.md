@@ -96,3 +96,21 @@ For now, focus on drinking clear fluids and try to eat only if you feel up to it
 ## Processing Information
 
 - **Processing Time**: 398.0s
+
+## EHR Summary
+
+The patient is a 57-year-old female presenting with crampy upper abdominal pain, nausea, and vomiting. Her symptoms began a few days prior to admission, were nonradiating, and were not associated with fevers, chills, or diarrhea initially; she later developed significant diarrhea during hospitalization. She has a history of insulin-dependent diabetes mellitus, morbid obesity (approximately 420 pounds), Meniere's disease, psoriasis, and a known ventral hernia, with no known drug allergies. Imaging studies were inconclusive due to body habitus, but clinical findings and consults suggested a high-grade partial small bowel obstruction likely related to her ventral hernia. The patient underwent exploratory laparotomy with lysis of adhesions and mesh repair of the umbilical hernia without complications. Postoperatively, she was managed with a nasogastric tube, gradual diet advancement, DVT prophylaxis (Lovenox), and prophylactic antibiotics (Kefzol). She was discharged home in good condition with visiting nurse services for drain care and instructed to follow up with her surgeon. Discharge medications included Protonix, Colace, Percocet as needed for pain, insulin per her regular regimen, and Lovenox for seven days.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with crampy upper abdominal pain as the chief complaint. The pain has been present for a couple of days, is moderate in intensity, comes and goes, and is described as a squeezing discomfort that worsens with eating but is not affected by movement or position. Associated symptoms include nausea, vomiting, reduced appetite, and diarrhea; there is no fever or chills. No relevant past medical history, medications, or allergies were documented. The clinical impression was upper digestive upset, possibly gastritis or a mild stomach infection. The treatment plan included supportive care with rest, maintaining hydration using clear fluids, and eating bland, easy-to-digest foods in small amounts. The patient was advised to monitor for warning signs such as persistent vomiting, blood in vomit or stool, severe or worsening pain, or signs of dehydration, and to seek care if these occur.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.569
+- **Model Used**: general
+- **Text1 Length**: 173 words
+- **Text2 Length**: 144 words
+

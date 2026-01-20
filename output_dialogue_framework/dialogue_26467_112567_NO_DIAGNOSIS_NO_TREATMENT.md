@@ -97,16 +97,21 @@ Would you like tips on how to get enough calcium and vitamin D, or suggestions f
 
 ## EHR Summary
 
-The patient is a 66-year-old female presenting with chest pain and shortness of breath. She reported a history of angina, but experienced worsening chest pain radiating to her neck and increased anginal symptoms with low exertion the day prior to admission. Her past medical history includes type 2 diabetes mellitus, peripheral vascular disease with bilateral lower limb amputations, chronic renal insufficiency, coronary artery disease status post stent, and gout. Initial evaluation showed EKG ST depression in leads I and AVL, elevated CK (1000), MB (89), and troponin (24.8). Cardiac catheterization revealed mild left main disease, diffuse left anterior descending disease, totally occluded non-dominant left circumflex, and dominant right coronary artery with mid-segment total occlusion; no interventions were performed. The findings were similar to a prior catheterization in 2190, after which she was deemed a poor surgical candidate for coronary artery bypass grafting due to comorbidities. Cardiothoracic surgery was consulted for further evaluation. No new interventions were initiated during this admission.
+The patient is a 66-year-old female presenting with chest pain and shortness of breath. She reported worsening anginal symptoms, with chest pain radiating to her neck and occurring with minimal exertion, as well as decreased ability to transfer from bed to wheelchair due to pain. Her past medical history includes type 2 diabetes mellitus, peripheral vascular disease with bilateral lower extremity amputations, chronic renal insufficiency, coronary artery disease with prior stent, and gout; she is allergic to ACE inhibitors. Cardiac catheterization revealed extensive coronary artery disease but no intervention was performed due to her comorbidities and poor surgical candidacy. During hospitalization, she developed a retroperitoneal bleed post-catheterization (treated with thrombin injection), and acute cholecystitis requiring percutaneous cholecystostomy and antibiotics for Klebsiella infection. The documented diagnoses were non-ST elevation myocardial infarction, type 2 diabetes mellitus, hypertension, and chronic renal insufficiency. Treatment included continuation and adjustment of cardiac medications (beta blocker, nitrates, hydralazine), blood transfusion, antibiotics (Levofloxacin, Vancomycin, Metronidazole), insulin for diabetes, and supportive care; anticoagulation was held due to bleeding risk. She was discharged in stable condition to a rehabilitation center for further intravenous antibiotics and physical therapy.
+
 
 ## Dialogue Summary
 
-The patient presented for a general health check-in without any specific symptoms. She reported no changes in energy, sleep, appetite, or activity level, and denied any new aches, pains, or unusual symptoms. No relevant medical history, medications, or allergies were mentioned; the patient was unsure if she was up to date on routine screenings or blood tests. The doctor found no concerning clinical findings based on the patient's responses and noted that her ability to perform daily routines without difficulty was reassuring. The assessment was that the patient is currently asymptomatic and maintaining good overall health. The doctor recommended scheduling routine screenings and blood tests appropriate for her age, including blood pressure, cholesterol, blood sugar, mammogram, colonoscopy or stool tests, and bone density testing (DEXA scan). The doctor explained the importance of these screenings and provided information about bone density testing frequency and preparation. Advice was given on maintaining bone health through adequate calcium and vitamin D intake, regular weight-bearing exercise, and healthy lifestyle habits, with further tips offered at the patient's request.
+The patient presented for a general health check-in without any specific chief complaint or symptoms. She reported no recent changes in energy, sleep, appetite, or activity level, and denied new aches, pains, or unusual symptoms. There is no relevant medical history, medications, or allergies documented in this encounter. No diagnosis was made, as the patient is asymptomatic and maintaining her usual routines. The doctor emphasized the importance of routine preventive screenings, including blood pressure, cholesterol, blood sugar, mammograms, colon cancer screening, and bone density testing (DEXA scan), as the patient was unsure if she was up to date. The patient expressed interest in learning more about bone density testing and ways to maintain bone health. The doctor provided education on bone health, recommending adequate calcium and vitamin D intake, regular weight-bearing exercise, and avoidance of smoking or excessive alcohol. Further guidance on meeting calcium and vitamin D needs was offered per the patient’s request.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.936
-- **Similarity Label**: N/A
+- **STS Score**: 0.333
+- **Model Used**: general
+- **Text1 Length**: 187 words
+- **Text2 Length**: 154 words
+
 
 ## Processing Information
 

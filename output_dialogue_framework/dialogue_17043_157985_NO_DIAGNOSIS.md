@@ -87,16 +87,21 @@ For now, try to avoid activities that could put you at risk of falling, and cons
 
 ## EHR Summary
 
-The patient is a 49-year-old woman presenting with acute onset left-sided numbness and tingling, progressing to right upper quadrant numbness, difficulty holding objects, and inability to walk. Symptoms began at 4:45 p.m. on the day of admission and worsened over the next 30 minutes, resulting in complete inability to ambulate upon arrival at the hospital. She has no significant past medical history, takes no regular medications, and reports a sulfa allergy causing rash. Physical examination revealed stable vital signs. A head CT demonstrated a 3.5-cm right-sided mass with hyperintense ring enhancement and mild edema. The documented diagnosis was not explicitly stated, but findings are consistent with a brain mass. Treatment details and specific recommendations were not documented in this note.
+The patient is a 49-year-old woman presenting with acute onset of left-sided numbness and tingling, followed by right upper quadrant numbness, difficulty holding objects, and progressive difficulty walking. Symptoms began at 4:45 p.m. on the day of admission and rapidly progressed to inability to walk. She has no significant past medical history, takes no regular medications, and reports a sulfa allergy causing rash. On admission, her vital signs were stable. Head CT revealed a 3.5-cm right-sided mass with hyperintense ring enhancement and mild edema. The documented diagnosis is not explicitly stated but findings are consistent with a brain mass. Treatment details are not specified in the note.
+
 
 ## Dialogue Summary
 
-The patient presented with numbness and tingling on the left side of the body, which has made it difficult to perform normal routines at home and work. The symptoms began a few days ago, have gradually worsened, and are now constant without any specific triggers or positions making them better or worse. The patient is unable to walk due to these sensations and reports decreased sensation in the left arm and hand, resulting in difficulty gripping objects and needing help with daily tasks such as dressing and bathing. No changes in vision, speech, or headaches were reported, and there is no history of recent injuries, illnesses, or new medications. On examination, the patient described significant functional impairment due to sensory changes and weakness on the left side. The doctor assessed that the gradual onset and worsening of these symptoms, along with impaired mobility and hand function, suggest a cause more serious than minor nerve irritation or muscle strain, possibly involving nerves in the spine or brain. The doctor recommended further evaluation soon, advised monitoring for new symptoms such as trouble speaking, vision changes, or severe headache, and suggested avoiding activities that could increase fall risk while ensuring assistance is available.
+The patient is an adult presenting with numbness and tingling on the left side of the body as the chief complaint. Symptoms began a few days ago, have gradually worsened, and now significantly impair mobility, making it difficult for the patient to walk or perform daily tasks such as dressing and bathing without assistance. The numbness and decreased sensation also affect the left arm and hand, resulting in difficulty gripping objects. The symptoms are constant, not triggered or alleviated by movement or position, and there are no associated changes in vision, speech, or headaches. The patient denies recent injuries, illnesses, or new medications. The clinical impression is that the symptoms are more serious than minor nerve irritation or muscle strain, possibly related to nerve issues in the spine or brain, though no definitive diagnosis was documented. The treatment plan includes recommending further evaluation soon, advising the patient to avoid fall risks, have assistance available, and seek immediate medical attention if new symptoms such as speech changes, vision changes, or severe headache develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
+- **STS Score**: 0.659
+- **Model Used**: general
+- **Text1 Length**: 107 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

@@ -98,3 +98,21 @@ Let me know if you have any concerns about circulation in your legs or feet—su
 ## Processing Information
 
 - **Processing Time**: 442.2s
+
+## EHR Summary
+
+The patient is a 56-year-old male admitted for management of coronary artery disease and preoperative cardiac clearance prior to vascular surgery for peripheral vascular disease with left foot gangrene. He reported no chest pain, shortness of breath, or other cardiac symptoms, but did have pain in his left foot and occasional claudication. His medical history includes insulin-dependent diabetes mellitus with retinopathy, multiple sclerosis, hypertension, hypercholesterolemia, and peripheral vascular disease. Cardiac catheterization revealed three-vessel coronary artery disease with normal ejection fraction, and echocardiogram showed infiltrative cardiomyopathy. The documented diagnoses were coronary artery disease, hypertension, hypercholesterolemia, status post coronary artery bypass graft, and peripheral vascular disease with left foot gangrene. He underwent coronary artery bypass grafting (CABG x5) and was managed postoperatively with medications including Lopressor, Lasix, antibiotics (Flagyl and levofloxacin), potassium chloride, Colace, Percocet, and aspirin. The patient was discharged home in good condition with follow-up arranged for vascular and cardiac care.
+
+
+## Dialogue Summary
+
+The patient presents with concerns about discoloration and redness at the base of the left toes. The symptoms developed gradually over several days and have remained stable, without associated pain, numbness, swelling, warmth, open sores, blisters, or drainage. The patient denies recent injuries, changes in footwear or activity, and has not experienced systemic symptoms such as fever or chills. There is a history of limited movement on the right side, but no other relevant medical history or medication use is specified. The clinical impression suggests possible circulation problems, skin irritation, or pressure effects, but no definitive diagnosis is documented. The physician notes the absence of severe pain, spreading redness, or signs of infection as reassuring. The treatment plan includes keeping the area clean and dry, avoiding tight footwear, and monitoring for new symptoms such as increasing redness, warmth, pain, swelling, or sores. The patient is advised to seek prompt medical care if these symptoms develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.414
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 155 words
+

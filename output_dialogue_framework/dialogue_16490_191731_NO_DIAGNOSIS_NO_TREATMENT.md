@@ -95,16 +95,21 @@ Let’s keep things simple and practical for now. Does this plan feel manageable
 
 ## EHR Summary
 
-The patient is a 70-year-old female who experienced episodes of hypoxia, which led to deferral of her transfer to rehabilitation. She had episodes of low oxygen saturation, and a chest x-ray was negative for infiltrates or pulmonic process. Blood gas analysis showed a PCO2 in the 80s, and a CTA was performed due to suspicion of pulmonary embolism, which was negative. The patient clinically improved with no further hypoxic episodes. At the time of transfer, she was stable and her wounds were clean, dry, and intact. No specific diagnosis was documented in this note. She was advised to follow up with Dr. [Last Name] in three weeks and to call for an appointment.
+The patient is a 70-year-old female who was admitted for vascular care. During her hospital stay, transfer to rehabilitation was deferred due to episodes of hypoxia. She experienced hypoxic episodes, with blood gas showing PCO2 in the 80s, but chest x-ray and CTA were negative for infiltrates, pulmonic process, or pulmonary embolism. The patient clinically improved and had no further hypoxic episodes prior to transfer. Her wounds were noted to be clean, dry, and intact. At the time of transfer, she was stable. The patient was advised to follow up with Dr. [Name] in three weeks and to call for an appointment.
+
 
 ## Dialogue Summary
 
-The patient presented with right foot pain that has made walking uncomfortable. The pain began a few days ago, is rated 6 out of 10 in severity, is worse with walking, and improves with rest; it is described as soreness and tenderness along the top and inner side of the arch. The patient also reported intermittent nausea that comes and goes but denied any swelling, redness, changes in temperature, recent changes in activity or footwear, fever, or feeling generally unwell. No relevant medical history, medications, or allergies were mentioned. On examination, there were no signs of swelling or redness, and the discomfort was localized to the top and inner arch of the right foot. The doctor assessed the symptoms as likely due to a mild strain or inflammation of the soft tissues in the foot, with the nausea considered unrelated and possibly due to a mild stomach upset. The doctor recommended rest, supportive footwear, use of ice for soreness, and elevating the foot when sitting. The patient was advised to monitor for worsening pain, swelling, redness, persistent or severe nausea, or new symptoms and to report these if they occur.
+The patient is an adult presenting with right foot pain as the chief complaint. The pain began a few days ago, is rated 6 out of 10 in severity, is localized to the top and inner arch of the foot, and is worsened by walking but improved with rest; there is no swelling, redness, or recent change in activity or footwear. The patient also reports intermittent nausea, which is not associated with fever or other systemic symptoms. Relevant history regarding chronic conditions, medications, or allergies is not specified. The clinical impression is a mild strain or inflammation of the soft tissues in the right foot, likely unrelated to the nausea. The treatment plan includes rest, use of comfortable supportive shoes, application of ice to the affected area, and elevation of the foot when sitting. The patient was advised to monitor for worsening pain, swelling, redness, difficulty moving toes, or persistent/severe nausea, and to report these if they occur. Most cases are expected to improve within one to two weeks with these conservative measures.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.919
-- **Similarity Label**: N/A
+- **STS Score**: 0.241
+- **Model Used**: general
+- **Text1 Length**: 102 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ Let me know if you've noticed anything that seems to trigger these episodes, or 
 
 ## EHR Summary
 
-The patient is a 74-year-old man presenting after a fall with urinary retention as the chief complaint. He reported decreased urine output, constipation, left leg weakness, dribbling, urgency without hematuria, and lack of balance since the fall; his last bowel movement was several days prior. Relevant history includes prior TURP in 2180, hypertension, polyneuropathy (Charcot-Marie-Tooth disease), status post volvulus, depression, and bilateral hernia repair; he has no known allergies and was taking Prilosec, Zoloft, and Wellbutrin on admission. Physical exam revealed elevated blood pressure (210/92), suprapubic tenderness, diminished rectal tone, absent lower extremity reflexes, but otherwise normal strength and sensation. A Foley catheter was placed with 700 cc of clear yellow urine drained, and an MRI showed an intradural epidural mass at L5-S1, possibly a hematoma. The documented plan included maintaining the Foley catheter for two weeks and further evaluation of the spinal mass.
+The patient is a 74-year-old man presenting after a fall with urinary retention, decreased urine output, constipation, left leg weakness, dribbling, and urgency without hematuria. He reported no prior chronic urinary or bowel issues and has a history of TURP, hypertension, Charcot-Marie-Tooth disease, depression, and prior volvulus. On admission, physical exam revealed suprapubic tenderness, diminished rectal tone, and absent lower extremity reflexes; MRI showed an intradural epidural mass at L5-S1, suspected to be a hematoma. The documented diagnosis was epidural hematoma causing neurologic symptoms. He underwent L4-L5 laminectomy and decompression of the hematoma with primary dural repair, followed by stable postoperative recovery. A Foley catheter was placed for urinary retention and will remain for two weeks, with urology follow-up planned for a voiding trial. The patient was discharged afebrile and stable to rehabilitation, with instructions for follow-up with neurosurgery in 2–3 weeks and urology in one week. Discharge medications included Zoloft, Zantac, Colace, Lopressor, Percocet as needed for pain, and Tylenol as needed.
+
 
 ## Dialogue Summary
 
-The patient presented with difficulty urinating and decreased urine output. Over the past few days, they have experienced urinary dribbling, increased urgency to urinate without relief, and constipation. The patient also reported gradually worsening weakness in the left leg and trouble with balance, but denied back pain, tingling, or numbness in the lower body. A fever of 102.3°F was noted, and symptoms occurred regardless of activity. No relevant medical history, medications, or allergies were mentioned. The doctor assessed that the combination of urinary changes and leg weakness could suggest nerve involvement affecting both bladder function and movement, despite the absence of back pain or sensory changes. The doctor recommended contacting a healthcare provider soon to rule out urgent causes such as nerve compression or neurological issues, advised fall precautions, and suggested monitoring for new symptoms like fever, severe pain, or changes in bowel control.
+The patient presents with decreased urine output as the chief complaint. Over the past few days, they have experienced gradually worsening urinary retention, urinary dribbling, increased urgency, and associated constipation. Additionally, the patient reports progressive weakness in the left leg and difficulty with balance, but denies back pain, tingling, or numbness in the lower body. The patient also notes a recent fever up to 102.3°F. There is no documented relevant medical history, medications, or allergies in the dialogue. The clinical impression is that the combination of urinary changes and left leg weakness may indicate a neurological issue affecting nerves controlling both bladder function and movement, such as possible nerve compression. The doctor advised the patient to contact their healthcare provider soon for further evaluation and to monitor for new symptoms such as fever, severe pain, or changes in bowel control. Fall precautions and symptom tracking were also recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.502
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 148 words
+
 
 ## Processing Information
 

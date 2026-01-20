@@ -87,16 +87,21 @@ Is there anything else about your health or your ESRD management that you’d li
 
 ## EHR Summary
 
-The patient is a 39-year-old male presenting with end-stage renal disease (ESRD) secondary to focal segmental glomerulosclerosis. He was admitted for a cadaveric kidney transplant. His past medical history includes hepatitis C on pegylated interferon, congenital single kidney, hypertension, heterozygous hemochromatosis, depression, and prior trauma with fractures. On physical exam, he was in no acute distress and had normal cardiopulmonary and abdominal findings. Laboratory results showed a progressive decrease in creatinine from 8.4 to 1.8 over the hospital course, and renal ultrasound was unremarkable with no evidence of acute rejection. The documented diagnosis was ESRD due to focal segmental glomerulosclerosis status post cadaveric renal transplant. Treatment included successful kidney transplantation, initiation of a study protocol (FTY720), pain management, and advancement of diet as tolerated. At discharge, the patient had good urine output and improving renal function.
+The patient is a 39-year-old male presenting with end-stage renal disease (ESRD) secondary to focal segmental glomerulosclerosis. He was admitted for a cadaveric kidney transplant and reported no acute symptoms at the time of admission; pain was well controlled postoperatively, and his urine output improved to 1.7L/day with decreasing creatinine levels from 8.4 to 1.8 mg/dL over the hospital course. Relevant history includes hepatitis C on peg-interferon, congenital single kidney, hypertension, heterozygous hemochromatosis, depression, and prior motor vehicle accident with fractures. The documented diagnoses were ESRD due to FSGS, hepatitis C, and hypertension. The treatment plan included successful kidney transplantation, initiation of a study protocol (FTY720), and discharge medications such as trimethoprim-sulfamethoxazole, pantoprazole, docusate, nystatin, valganciclovir, diphenhydramine, and acetaminophen. The patient was discharged home in stable condition with instructions to follow up in clinic and return if symptoms such as increased pain, swelling, fever, weight changes, shortness of breath, or gastrointestinal symptoms occur.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about managing end-stage renal disease (ESRD). They reported no changes in energy levels, swelling, appetite, urination patterns, muscle cramps, itching, or sleep, and described their symptoms as stable. The patient is not currently on dialysis and has been keeping up with medications and regular checkups, with no side effects or difficulties adhering to their medication schedule. Blood pressure readings at home have remained consistent, and the last lab work did not reveal any flagged concerns. On examination, there were no new physical findings or symptoms noted. The doctor assessed that the patient's ESRD is stable with good symptom control and blood pressure management. The doctor advised continued monitoring for changes in energy, swelling, blood pressure, or lab results, and emphasized the importance of regular checkups and labs. The patient was instructed to report any new symptoms such as persistent fatigue, swelling, unexpected weight gain, or difficulty breathing, but otherwise to continue their current management routine.
+The patient is an adult presenting for management of end-stage renal disease (ESRD). They report no new symptoms, including no changes in energy levels, swelling, appetite, urination, muscle cramps, itching, or sleep. The patient is not currently on dialysis and has been adherent to medications without side effects or difficulties. Home blood pressure readings have remained stable, and there have been no recent abnormal lab results or concerns raised at prior checkups. The documented clinical impression is stable ESRD without new complications. The treatment plan includes continuing current medications, regular monitoring of blood pressure, and maintaining routine follow-up appointments and laboratory assessments. The patient was advised to watch for new symptoms such as fatigue, swelling, weight gain, or dyspnea and to seek care if these arise. No additional interventions were recommended at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.561
+- **Model Used**: general
+- **Text1 Length**: 153 words
+- **Text2 Length**: 134 words
+
 
 ## Processing Information
 

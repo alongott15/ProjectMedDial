@@ -98,3 +98,21 @@ Otherwise, try to pace yourself, stay hydrated, and avoid strenuous activity unt
 ## Processing Information
 
 - **Processing Time**: 367.6s
+
+## EHR Summary
+
+The patient is a 46-year-old female presenting with recurrent shortness of breath. She has a five-year history of asthma-like symptoms that worsened until a benign supraglottic tracheal mass was identified by bronchoscopy and biopsy, with initial improvement after laser ablation in January 2104, but symptoms recurred. Her only medication on admission was Prozac, and she has no known drug allergies or other significant medical history. On admission, she was afebrile, in no acute distress, and had stable vital signs with clear chest and regular cardiac rhythm. The documented diagnosis was supraglottic tracheal mass stenosis with respiratory compromise. She underwent anterior cricoid reconstruction with rib cartilage graft and tracheostomy tube placement without complications. Postoperatively, she remained stable, tolerated a regular diet, and was discharged home in good condition. Discharge instructions included Roxicet elixir for pain, pediatric suction catheter, humidifier, portable suction, and follow-up in one week.
+
+
+## Dialogue Summary
+
+The patient presents with the chief complaint of shortness of breath. The dyspnea has been present for a few days, is worsened by physical activity, and is affecting daily activities such as climbing stairs and walking, but has not changed in severity since onset. The patient denies associated symptoms including cough, wheezing, chest discomfort, leg swelling, weight gain, lightheadedness, or syncope. No relevant past medical history, medications, or allergies are documented in this encounter. The clinical impression is mild breathing difficulty without acute concerning features. The doctor suspects possible causes such as temporary airway irritation, mild respiratory infection, or deconditioning but does not make a definitive diagnosis. The treatment plan includes monitoring symptoms closely, avoiding strenuous activity, staying hydrated, and seeking urgent care if severe symptoms develop (such as chest pressure, cyanosis, or inability to perform basic activities). The patient is advised to follow up with their primary care provider if symptoms do not improve after a week or worsen.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.533
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 160 words
+

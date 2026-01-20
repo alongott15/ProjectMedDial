@@ -87,16 +87,21 @@ Let me know if you have any questions about what’s going on or how to manage t
 
 ## EHR Summary
 
-The patient is a 69-year-old male presenting with left lower extremity cellulitis and hematoma. He developed a progressively enlarging hematoma on his left shin after bumping it with a suitcase six days prior to admission, followed by localized shin pain but no distal weakness, sensory deficits, fever, or chills. His past medical history includes congestive heart failure (CHF), atrial fibrillation on Coumadin, cardiomyopathy, coronary artery disease with prior CABG, pulmonary hypertension, obstructive sleep apnea, and aortic valve replacement. On presentation, he was afebrile with stable vital signs. The clinical impression was left lower extremity cellulitis with associated hematoma. He was started on intravenous Ancef after blood cultures were obtained. Prior to admission, he had been treated with oral Keflex and Vicodin for pain, and his Coumadin dose was recently decreased due to a supratherapeutic INR.
+The patient is a 69-year-old male presenting with left lower extremity cellulitis and hematoma following trauma to his left shin. He reported progressive swelling and pain at the hematoma site over six days, with surrounding erythema and edema but no fever, chills, weakness, or sensory deficits. His history is significant for congestive heart failure (EF 35%), atrial fibrillation on Coumadin, ischemic cardiomyopathy, coronary artery disease, prior aortic valve replacement, and multiple cardiac interventions; he is allergic to penicillin (rash) and morphine (paranoia). On admission, his INR was supratherapeutic (4.4), and he had failed outpatient oral antibiotics for cellulitis. The documented diagnoses were left lower extremity hematoma, left leg cellulitis, congestive heart failure, atrial fibrillation, and coronary artery disease. Treatment included holding and then restarting Coumadin, IV Ancef followed by oral Keflex for a total 7-day antibiotic course, surgical evacuation of the hematoma with wound care, and continuation of his cardiac medications. He was discharged home with plans for wound care follow-up and outpatient monitoring of his INR and cardiac status.
+
 
 ## Dialogue Summary
 
-The patient presented with pain and a bruise on the left leg, first noticed a few days ago. Symptoms included worsening pain (rated 6/10), increased redness, noticeable swelling, warmth, and tenderness at the site, with no history of trauma, fever, chills, or drainage. The pain and swelling made movement difficult, but resting and elevating the leg provided some relief. Relevant history includes use of Coumadin and aspirin, which increase bleeding and bruising risk. On examination, the doctor noted worsening bruise with swelling, redness, warmth, and tenderness, but no systemic signs of infection. The assessment was a likely hematoma or bruise with possible inflammation due to anticoagulation, with mild infection considered less likely given absence of fever. The doctor recommended continued leg elevation, rest, use of cold compresses for swelling, and monitoring for new symptoms such as fever, spreading redness, or drainage. The patient was advised to seek in-person evaluation if symptoms worsen or new warning signs develop.
+The patient is an adult presenting with left leg pain and bruising as the chief complaint. Symptoms began a few days ago without any recalled injury and have progressively worsened, now including increased redness, swelling, warmth, and tenderness at the site; pain is rated 6 out of 10 and worsens with movement. The patient denies fever, chills, or drainage from the area but reports difficulty moving due to discomfort. Relevant history includes use of Coumadin and aspirin, which increase the risk of bruising and bleeding. The clinical impression is a worsening bruise (hematoma) with associated swelling and inflammation, possibly mild infection, though absence of fever is reassuring. The treatment plan includes continued rest and elevation of the leg, use of cold compresses for swelling, and monitoring for new symptoms such as fever, spreading redness, or drainage. The patient was advised to seek in-person evaluation if symptoms worsen or warning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.573
+- **Model Used**: general
+- **Text1 Length**: 170 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

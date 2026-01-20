@@ -87,16 +87,21 @@ Let’s make sure you get the appropriate tests and follow-up. Do you have any q
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with chest pain. He reports several months of exertional axillary pain relieved by rest, without associated radiation, dyspnea, diaphoresis, nausea, or vomiting; symptoms have been stable in frequency and intensity. His medical history includes type 2 diabetes, hypertension, and hypercholesterolemia, and he was taking Avandia, Glucophage, Accupril, Pravachol, and aspirin on admission. Physical examination revealed normal vital signs and no acute distress, with unremarkable cardiac and pulmonary findings. An abnormal clinic electrocardiogram prompted a stress test, which showed ST changes in the anterior leads. The documented diagnosis is not explicitly stated in the note. The patient was admitted for further evaluation following the positive stress test. Specific treatments or recommendations during admission are not detailed in the provided text.
+The patient is a 58-year-old male presenting with chest pain. He reported several months of exertional axillary pain relieved by rest, without associated radiation, dyspnea, diaphoresis, nausea, or vomiting. His medical history includes type 2 diabetes, hypertension, and hypercholesterolemia, and he was taking Avandia, Glucophage, Accupril, Pravachol, and aspirin on admission. Workup revealed abnormal ECG and a positive stress test, and cardiac catheterization showed significant multi-vessel coronary artery disease with an ejection fraction of 37%. The documented diagnoses were coronary artery disease status post four-vessel coronary artery bypass graft, diabetes mellitus, atrial fibrillation, hypertension, and hypercholesterolemia. Treatment included coronary artery bypass grafting (CABG x4), management of postoperative atrial fibrillation with intravenous Lopressor and oral amiodarone, adjustment of potassium supplementation, and continuation of cardiac and diabetic medications. The patient was discharged in stable condition with instructions to continue medications including Glucophage, aspirin, Lopressor, Accupril, Pravachol, Lasix (for seven days), folate, amiodarone (with taper), Avandia, Percocet as needed, and Colace. He was advised to follow up with his physicians in two to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain and associated anxiety. Symptoms included central chest tightness or pressure (rated 6/10 at worst), onset a few days ago, worsened by exertion and relieved by rest, occasional axillary pain under the arm with activity, and episodes of heart racing; no shortness of breath, sweating, or lightheadedness were reported. Relevant history includes prior rapid atrial fibrillation and a previously elevated potassium level (up to 6), with no confirmation of ongoing hyperkalemia. No abnormal physical findings were described in the conversation. The doctor assessed that the exertional chest discomfort, relief with rest, and cardiac history raised concern for possible angina and emphasized the importance of further evaluation. The doctor advised limiting strenuous activity until further testing, monitoring for new symptoms (such as severe pain at rest, shortness of breath, or fainting), and following up on potassium levels and heart rhythm. The patient expressed understanding of the plan and asked about upcoming tests and medication adjustments.
+The patient is an adult presenting with chest pain as the chief complaint. The pain is described as a central chest tightness or pressure, rated 6/10 at worst, occurring mainly with exertion and relieved by rest; there is also axillary pain under the arm during activity and episodes of heart racing. The symptoms began a few days ago and have not worsened; there is no associated dyspnea, diaphoresis, or lightheadedness, and the pain does not occur at night. Relevant history includes rapid atrial fibrillation and a previously elevated potassium level (up to 6), though it is unclear if this is ongoing. The clinical impression discussed was possible angina, given exertional chest discomfort relieved by rest and the patient’s cardiac history. The treatment plan includes limiting strenuous activity until further evaluation, monitoring for new or worsening symptoms (such as severe pain at rest, shortness of breath, or syncope), and arranging follow-up testing for potassium levels and heart rhythm. The patient was advised to seek immediate care if acute symptoms develop. Specific tests and medication adjustments were to be discussed further.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.626
+- **Model Used**: general
+- **Text1 Length**: 172 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

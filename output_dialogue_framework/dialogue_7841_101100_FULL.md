@@ -87,16 +87,21 @@ Let me know if you have any questions or concerns about what we’ve discussed s
 
 ## EHR Summary
 
-The patient is a 78-year-old female presenting with increasing angina on exertion over the past six months, requiring her to reduce her activity level. She previously could walk one mile before experiencing chest pain, which is relieved by rest and has not required nitroglycerin use. Her medical history includes hypertension, type II diabetes mellitus with retinopathy for 25 years, and prior laser surgeries. Preoperative evaluation showed an ejection fraction of 60% and severe coronary artery disease with 90% occlusion of the LAD and left circumflex, and 95% occlusion of the RCA. On admission, physical examination was unremarkable with no respiratory or neurological deficits, and EKG showed normal sinus rhythm with a Q wave in lead III. The documented diagnosis was severe multi-vessel coronary artery disease. She underwent a coronary artery bypass graft (CABG) times three with LIMA to LAD, OM, and PDA grafts, and tolerated the procedure well. Postoperatively, she was transferred to the Intensive Care Unit for further management.
+The patient is a 78-year-old female admitted for coronary artery bypass grafting (CABG) due to increasing angina with exertion over the past six months, which required her to reduce her activity level; the pain was relieved by rest and she had not previously used nitroglycerin. Preoperative evaluation revealed severe coronary artery disease with 90% occlusion of the LAD and left circumflex arteries, and 95% occlusion of the RCA. Her past medical history includes hypertension and type II diabetes mellitus with retinopathy. On admission, her physical exam was unremarkable, and she had no acute cardiopulmonary findings. The documented diagnosis was severe coronary artery disease requiring surgical intervention. She underwent CABG x3 and had an uncomplicated postoperative course, recovering well with no signs of infection or acute distress at discharge. The treatment plan included discharge to rehabilitation, continuation of cardiac and diabetic medications, and follow-up with her cardiologist and primary care provider in four weeks. Upon discharge, she was in good condition with well-functioning bypass grafts and no acute cardiovascular issues.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain occurring during walking. The chest pain has been worsening over the past couple of weeks, is described as a tightness or pressure (intensity around 6/10), and is triggered by physical activity such as walking or climbing stairs; it resolves with rest and does not occur at rest or with emotional stress. The patient denied associated symptoms such as sweating, lightheadedness, or shortness of breath. Relevant history includes high blood pressure but no prior heart problems. The doctor noted that the chest discomfort is affecting the patient's ability to perform daily activities and is strictly exertional. The assessment was that the symptoms are consistent with angina, likely related to insufficient oxygen supply to the heart during exertion, especially given the patient's hypertension. The doctor advised the patient to avoid strenuous activity, monitor for new symptoms (such as chest pain not relieved by rest, shortness of breath, sweating, or faintness), and seek prompt medical attention if these occur.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is described as a tightness or pressure (intensity 6/10) that occurs during physical activity such as walking or climbing stairs and resolves with rest; it has been worsening and increasing in frequency over the past couple of weeks. The patient denies associated symptoms such as shortness of breath, sweating, or lightheadedness, and reports that the pain does not occur at rest. Relevant history includes high blood pressure but no prior heart problems. The clinical impression documented by the doctor is angina, likely due to insufficient oxygen supply to the heart during exertion, possibly related to narrowed blood vessels. The patient was advised to avoid strenuous activity and monitor for any new or worsening symptoms, such as chest discomfort that does not resolve with rest or the development of shortness of breath, sweating, or faintness, which would warrant prompt medical attention.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.481
+- **Model Used**: general
+- **Text1 Length**: 169 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

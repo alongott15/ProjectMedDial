@@ -89,16 +89,21 @@ Does that explanation make sense? Is there anything else about your energy level
 
 ## EHR Summary
 
-The patient is a 71-year-old female presenting with a chief complaint of aortic valve insufficiency. She reported recent onset of symptoms including increased weakness and fatigue. Her relevant medical history includes hypertension, non-sustained ventricular tachycardia (NSVT), atrial tachy-arrhythmias, sinusitis, and reflux; she has no known drug allergies and was taking aspirin, enalapril, norvasc, and prilosec prior to admission. On examination and during her hospital course, she remained stable postoperatively. The documented diagnosis was aortic valve insufficiency, for which she underwent successful aortic valve repair without complications. Postoperative recovery was uneventful, with chest tube and pacer wires removed as per routine, and she was ambulating well with controlled pain at discharge. The treatment plan at discharge included a 7-day course of Lasix and potassium chloride, as well as Percocet as needed for pain, Colace, and enteric-coated aspirin. She was discharged home in stable condition.
+The patient is a 71-year-old female presenting with a chief complaint of aortic valve insufficiency. She reported recent onset of symptoms including increased weakness and fatigue. Her relevant medical history includes hypertension, nonsustained ventricular tachycardia (NSVT), atrial tachy-arrhythmias, sinusitis, and reflux; she has no known drug allergies and was taking aspirin, enalapril, Norvasc, and Prilosec prior to admission. The documented diagnosis was aortic insufficiency. She underwent an aortic valve repair without complications and recovered well postoperatively. At discharge, she was stable and prescribed Lasix, potassium chloride, Percocet as needed for pain, Colace, and enteric coated aspirin. Follow-up was arranged with her surgeon in four weeks, her cardiologist in two to four weeks, and her primary care physician in two to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening weakness and increased tiredness. Symptoms included consistent fatigue throughout the day, making daily activities such as walking around the house and preparing meals more difficult, though the patient remains able to perform most tasks by pacing and taking breaks; resting provides some improvement in energy but does not fully resolve the tiredness. The patient denied changes in appetite, weight, or sleep, and reported no shortness of breath, chest discomfort, or lightheadedness. No relevant medical history, medications, or allergies were mentioned. On clinical review, there were no acute or severe findings, and the patient described mild functional limitation but no complete loss of activity. The doctor assessed the symptoms as mild, gradual weakness and fatigue without concerning features, possibly related to age-related changes, mild anemia, low thyroid function, or dehydration. The doctor recommended maintaining activity at a comfortable pace, eating well, staying hydrated, and monitoring for new or worsening symptoms; further evaluation such as blood tests may be considered if symptoms progress.
+The patient is an adult presenting with the chief complaint of gradually worsening weakness and increased tiredness. Symptoms have developed slowly over time, are consistent throughout the day, and are somewhat alleviated by rest; the patient remains able to perform most daily activities but at a slower pace and with more frequent breaks. There are no associated symptoms such as shortness of breath, chest discomfort, lightheadedness, or changes in appetite, weight, or sleep. Relevant medical history, medications, and allergies are not specified in the dialogue. The clinical impression is mild, gradual fatigue and weakness without acute or alarming features, possibly related to age-related changes, mild anemia, low thyroid function, or dehydration. The treatment plan includes maintaining activity at a comfortable pace, ensuring good nutrition and hydration, and monitoring for any new or worsening symptoms. The provider advised that if symptoms progress or new issues arise, further evaluation including basic blood tests may be considered. No immediate interventions or medications were prescribed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.936
-- **Similarity Label**: N/A
+- **STS Score**: 0.467
+- **Model Used**: general
+- **Text1 Length**: 122 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ Let me know if you’d like to talk about other options for managing the pain or
 
 ## EHR Summary
 
-The patient is a 46-year-old woman presenting after the discovery of cerebral aneurysms on head CT and MRI performed for evaluation of migraine headaches. She was found to have three aneurysms: one at the right internal carotid artery bifurcation, one at the right middle cerebral artery (MCA) bifurcation, and one at the left origin of the anterior choroidal artery. Her relevant history includes migraine headaches; no medication allergies are documented. On admission, she underwent surgical clipping of the right MCA and right ICA bifurcation aneurysms without intraoperative complications. Postoperatively, she remained neurologically intact, with muscle strength 4/5 in all groups and intact sensation, and was afebrile at discharge after a transient fever with negative cultures. The documented diagnosis was multiple cerebral aneurysms. She was discharged home in stable condition with instructions for follow-up in one week and prescribed Fioricet 1-2 tablets by mouth every 4 hours as needed.
+The patient is a 46-year-old woman presenting after the incidental discovery of cerebral aneurysms during imaging for migraine headaches. She was found to have three aneurysms: one at the right internal carotid artery bifurcation, one at the right middle cerebral artery (MCA) bifurcation, and one at the left origin of the anterior choroidal artery. Her past medical history is notable for migraine headaches; no medication allergies are documented. The patient underwent successful surgical clipping of the right MCA and right ICA bifurcation aneurysms without intraoperative complications. Postoperatively, she remained neurologically intact, with stable vital signs and no new deficits. She experienced a transient fever (T max 101.3°F) but all cultures were negative, and she was afebrile at discharge. The documented diagnosis was multiple cerebral aneurysms. She was discharged home in stable condition with instructions to take Fioricet as needed for headaches and to follow up with neurosurgery in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with recurring migraine headaches interfering with their usual routine. They reported experiencing migraines a few times a month, each lasting several hours with pain rated at 7 out of 10, often requiring them to stop activities and rest in a dark, quiet room. Symptoms during migraines included sensitivity to light and sound, but no nausea or vision changes; stress was noted as a possible trigger, while sleep patterns and quality appeared unchanged. The patient typically used over-the-counter pain relievers with variable effectiveness and denied lingering effects after migraines. No other relevant medical history, medications, or allergies were mentioned. The doctor assessed the condition as recurring migraines with moderate to severe pain and no alarming features such as visual disturbances or persistent after-effects. The treatment plan included recommendations to manage stress, rest in a quiet dark environment during attacks, keep a diary to track migraine patterns and potential triggers, maintain hydration and regular sleep, and seek further evaluation if symptoms worsen or new symptoms develop. The doctor also offered to discuss additional options for pain management or migraine prevention if needed.
+The patient is an adult presenting with recurrent migraine headaches as the chief complaint. Migraines occur a few times per month, with each episode lasting several hours and pain rated at 7 out of 10 in intensity; symptoms include sensitivity to light and sound, but no nausea or visual changes. Resting in a dark, quiet room provides some relief, and over-the-counter pain relievers are used with variable effectiveness; stress may act as a trigger, while sleep patterns do not appear to influence the migraines. The patient is able to return to normal activities after the headache resolves and does not experience lingering effects such as fatigue or difficulty concentrating. There is no mention of relevant past medical history, medications, or allergies beyond current migraine management. The clinical impression is recurrent migraine without aura or concerning features. The treatment plan includes continuing current symptomatic management, keeping a diary to track migraine patterns and potential triggers, and general advice on hydration, regular sleep, and stress management. The patient was advised to seek further evaluation if migraines become more frequent, severe, or are accompanied by new symptoms such as visual disturbances or persistent nausea.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.473
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 191 words
+
 
 ## Processing Information
 

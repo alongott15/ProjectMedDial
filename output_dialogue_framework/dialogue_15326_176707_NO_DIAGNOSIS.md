@@ -89,16 +89,23 @@ Let me know if you have any other questions or worries about your baby’s sympt
 
 ## EHR Summary
 
-The patient is a newborn male, born at 33 weeks gestation as part of a triplet pregnancy, presenting for routine care following preterm delivery. He experienced apnea of prematurity, with no episodes in the five days prior to discharge, and developed mild hyperbilirubinemia that did not require phototherapy. Relevant history includes maternal preterm labor, inpatient magnesium sulfate treatment, and no significant maternal infections. On physical exam, the infant appeared well, with stable vital signs and no abnormalities noted. The documented diagnosis was preterm birth with apnea of prematurity and mild hyperbilirubinemia. Treatment included initial IV fluids, transition to full ad lib feeds with Enfamil 24 calories/oz, empiric ilotycin ointment for eye drainage, and administration of the hepatitis B vaccine. The patient passed the car seat and hearing screens, and a newborn screen was sent. Follow-up with the pediatrician was arranged for two days after discharge.
+The patient is a newborn male, triplet #2, admitted after birth at 33+ weeks gestation due to prematurity. He was born via high-risk triplet pregnancy and initially presented as a well-appearing preterm infant with stable vital signs and no distress. During the hospital course, he experienced apnea of prematurity, which resolved with no episodes in the five days prior to discharge, and developed mild hyperbilirubinemia that did not require phototherapy. Relevant history includes maternal preterm labor treated with magnesium sulfate and no significant perinatal complications; initial labs were unremarkable, and blood cultures remained negative. The documented diagnoses were prematurity (33+ weeks), resolved apnea of prematurity, resolved hyperbilirubinemia, status post circumcision, and conjunctivitis versus dacryostenosis. Treatment included supportive care with IV fluids transitioning to full feeds (Enfamil 24 cal/oz), empiric ilotycin ointment for eye drainage, and routine newborn care including hepatitis B vaccination. The patient passed the car seat and hearing screens and was discharged in stable condition with follow-up arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about her baby having trouble breathing, specifically noting pauses in breathing during sleep. The breathing pauses have been present for a few days, occur only during sleep, are not associated with feeding or position, and have not changed in frequency; there have been no episodes of blueness around the lips, limpness, or difficulty waking. The patient also reported some eye drainage occurring alongside the breathing pauses, but denied any nasal congestion or stuffy nose. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that brief pauses in breathing during sleep without color changes or limpness are common in newborns due to immature breathing control, and that the eye drainage could be due to a blocked tear duct. The doctor advised monitoring for warning signs such as longer or more frequent pauses, color changes, limpness, difficulty waking, or trouble feeding, and to seek medical attention if these occur. For the eye drainage, the doctor recommended gentle cleaning with a warm, damp cloth and to reach out if concerns arise.
+The patient is a parent presenting concerns about their infant’s breathing, specifically noting brief pauses in breathing during sleep. The parent reports these episodes have been occurring for a few days, are not associated with feeding or position, and have remained stable in frequency. There have been no observed color changes (such as blueness around the lips or face), limpness, or difficulty waking during these episodes. Additionally, the parent has noticed some eye drainage but no nasal congestion or stuffy nose.
+
+The clinician explains that brief pauses in breathing during sleep are common in newborns due to immature breathing control and are typically not dangerous if there are no warning signs such as color change, limpness, or feeding difficulties. The eye drainage is likely due to a blocked tear duct, which is also common and usually resolves on its own. The treatment plan includes monitoring for any new or worsening symptoms and gently cleaning the baby’s eyes with a warm, damp cloth as needed. The parent is advised to seek medical attention if warning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.930
-- **Similarity Label**: N/A
+- **STS Score**: 0.500
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 176 words
+
 
 ## Processing Information
 

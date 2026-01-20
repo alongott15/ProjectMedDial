@@ -85,16 +85,21 @@ If you ever notice new or worsening symptoms, let your healthcare provider know 
 
 ## EHR Summary
 
-The patient is a male over 90 years old presenting with asymptomatic left carotid stenosis. He reported no symptoms at the time of admission. His relevant history includes type 2 diabetes for 30 years, hypertension, and prior appendectomy and bilateral cataract surgery; he has no known allergies. On examination, he was in good health with bilateral carotid bruits and mild right lower extremity weakness, but otherwise normal findings. The documented diagnosis was asymptomatic left carotid stenosis. An attempted carotid stenting was unsuccessful due to a calcified and tortuous aortic arch. He was restarted on Coumadin 4 mg daily with an INR of 2.1 and discharged on atorvastatin 20 mg daily. The patient was advised to follow up with his primary care doctor and have his INR checked after discharge; he was stable at discharge.
+The patient is a male over 90 years old presenting with asymptomatic left carotid stenosis. He did not report any symptoms, and physical examination revealed he was in good health with no acute distress, though bilateral carotid bruits and mild right lower extremity weakness were noted. His past medical history includes type 2 diabetes for 30 years and hypertension; he has no known allergies. The documented diagnosis was asymptomatic left carotid stenosis. He was admitted for attempted carotid stenting, which was unsuccessful due to a calcified and highly tortuous aortic arch. The patient tolerated the procedure well and was restarted on Coumadin 4 mg daily, with an INR of 2.1 at discharge, and continued atorvastatin 20 mg daily. He was advised to have his INR checked after discharge and to follow up with his primary care doctor. At discharge, he was in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about previously diagnosed left carotid stenosis, though reported no current symptoms related to this condition. The patient denied any trouble speaking or numbness but described mild weakness in the right lower leg, first noticed some time ago, which has remained stable and is only noticeable with close attention, not affecting daily activities or mobility. Additionally, the patient reported trace pedal edema (mild swelling in the feet) that has not worsened or impacted function. No history of changes in walking ability, triggers for weakness, or other neurological symptoms was noted. The doctor assessed that the carotid artery narrowing has not caused any clear symptoms and that both the mild right leg weakness and trace pedal edema are stable and not concerning at this time. The doctor advised the patient to monitor for any sudden changes such as difficulty speaking, new numbness, or vision changes, and to seek prompt evaluation if these occur. Ongoing management recommendations included regular check-ins with the healthcare provider and attention to general health factors like blood pressure, cholesterol, and physical activity.
+The patient is an adult presenting for follow-up regarding known left carotid stenosis. They report no symptoms attributable to carotid disease, such as speech difficulty or numbness, but do note mild, stable weakness in the right lower leg that is only noticeable with close attention and does not impact daily activities. The patient also describes trace pedal edema (mild swelling in the feet) that has not progressed or affected function. There is no history of symptom progression, triggers, or limitations in mobility. Relevant history includes left carotid artery narrowing; no other medical history, medications, or allergies are specified. The clinical impression is asymptomatic left carotid stenosis with mild, non-progressive right leg weakness and trace pedal edema. The treatment plan includes monitoring for new or worsening neurological symptoms (such as speech difficulty, numbness, or vision changes), maintaining regular follow-up, and managing general health factors like blood pressure, cholesterol, and physical activity. No immediate interventions are recommended at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.655
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 158 words
+
 
 ## Processing Information
 

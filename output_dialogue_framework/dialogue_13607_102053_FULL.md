@@ -85,16 +85,23 @@ Let me know if you have any questions about this or if you'd like advice on whic
 
 ## EHR Summary
 
-The patient is a 68-year-old male presenting with substernal chest pain and a history of coronary artery disease, hypertension, and prior cardiac catheterization. He reported chest pain and had a positive stress test; prior catheterization showed 50–55% stenosis of the left main and 80% of the LAD, with additional 60% RCA occlusion noted on review. His medications included atenolol, aspirin, and Lipitor, and he has a sulfa drug allergy. Echocardiogram showed preserved ejection fraction. The documented diagnosis was coronary artery disease, for which he underwent coronary artery bypass grafting (CABG) times four. Postoperatively, he developed atrial fibrillation and a light rash; he was treated with Lopressor, amiodarone, magnesium, and Benadryl. The patient's physical examination remained benign, and his rash was stable at last note.
+The patient is a 68-year-old male presenting with substernal chest pain and a history of coronary artery disease, hypertension, and prior cardiac catheterization. He was found to have significant coronary artery stenoses (50–55% left main, 80% LAD, 60% RCA) and a positive stress test. His past medical history includes hypertension, coronary artery disease, and salivary gland removal; medications on admission included atenolol, aspirin, and Lipitor, with a sulfa drug allergy. The documented diagnosis was coronary artery disease, for which he underwent a four-vessel coronary artery bypass graft (CABG). Postoperatively, he developed atrial fibrillation managed with Lopressor and Amiodarone, and a rash treated with Benadryl, Zyrtec, and topical steroids per dermatology recommendations. He also had a postoperative infection with Serratia identified in sputum cultures and was treated with antibiotics including Ancef and Augmentin (later discontinued due to suspected allergic reaction). The patient experienced leukocytosis (white count up to 32), but C. difficile testing was negative and his surgical wound remained stable. He was transferred back to the floor in stable condition, ambulating well, with ongoing management of his rash and fluid retention in his extremities.
+
 
 ## Dialogue Summary
 
-The patient presented with a persistent, itchy spot on the skin. The patient reported noticing the itchy area a few days ago, with the rash increasing slightly in size since onset; symptoms included itching (worsened by heat and sweat, mildly relieved by lotion) and peeling of the skin, without pain, bleeding, swelling, pus, or warmth. The itching was described as a mild annoyance that did not interfere with sleep or daily activities, and the rash was localized to one area with no similar spots elsewhere. The patient denied recent exposure to new soaps, detergents, plants, or materials. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted a localized patch of itchy, peeling skin without signs of infection or significant impact on daily life, likely due to mild irritation, dryness, or a common skin condition such as eczema or contact dermatitis. The doctor recommended continued use of a gentle, fragrance-free moisturizer, avoiding scratching, and keeping the area clean and dry; the patient was advised to seek further evaluation if the rash worsened or showed signs of infection. The patient expressed understanding and requested advice on specific moisturizers.
+The patient is an adult presenting with a chief complaint of a persistent, itchy spot on the skin. The symptom began a few days ago, with the rash increasing slightly in size and associated with peeling but no pain, bleeding, swelling, pus, or warmth. The itching is described as a mild annoyance that does not interfere with sleep or daily activities and is localized to one area without similar spots elsewhere. The patient reports that lotion provides some relief, while heat and sweat worsen the itching; no new soaps, detergents, or exposures were identified.
+
+There is no relevant past medical history, medications, or allergies documented. The clinical impression was a localized patch of skin irritation, possibly due to mild irritation, dryness, eczema, or contact dermatitis. The treatment plan included continued use of gentle, fragrance-free moisturizer, avoiding scratching, and keeping the area clean and dry. The patient was advised to seek further evaluation if the rash enlarges, becomes painful, or shows signs of infection.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.928
-- **Similarity Label**: N/A
+- **STS Score**: 0.322
+- **Model Used**: general
+- **Text1 Length**: 184 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

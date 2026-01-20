@@ -180,16 +180,21 @@ In the meantime, keep a note of any other new symptoms—such as headaches or ch
 
 ## EHR Summary
 
-The patient is a 26-year-old female presenting with symptoms related to a pituitary tumor. She reported polyuria, polydipsia, significant weight gain, galactorrhea, and cessation of menses beginning in July 2152. Her past medical history is notable for diabetes insipidus managed with nasal DDAVP, and she has no known drug allergies. Physical examination revealed stable vital signs and an unremarkable cardiac exam. MRI showed diffuse thickening and enhancement of the pituitary infundibulum with a partially empty sella turcica. The documented diagnosis was pituitary tumor. Treatment included continued use of DDAVP for diabetes insipidus, vitamin D supplementation, and a planned biopsy of the pituitary tumor.
+The patient is a 26-year-old female presenting with symptoms related to a pituitary tumor. She reported polyuria, polydipsia, significant weight gain, galactorrhea, and cessation of menses, with no headache, visual changes, or other neurological deficits. Her history is notable for diabetes insipidus managed with DDAVP, and she had no known drug allergies. MRI imaging showed progressive enlargement of a pituitary infundibular mass, and she underwent right frontal craniotomy with resection of the pituitary stalk lesion during this admission. The documented diagnosis was pituitary tumor. Postoperatively, she was treated with intravenous hydrocortisone, continued on DDAVP nasal spray, and later discharged on a prednisone taper. She was advised to monitor urine output and sodium levels and to follow up with neurosurgery and endocrinology for ongoing management and steroid adjustment.
+
 
 ## Dialogue Summary
 
-The patient presented with frequent urination, increased thirst, weight gain, galactorrhea (milk discharge from breasts), and missed periods. These symptoms have been ongoing for a while and have remained stable without new changes; the patient repeatedly confirmed no additional symptoms such as headaches or vision changes. The doctor noted that the history of pituitary tumor and diabetes insipidus is relevant, explaining that polyuria and polydipsia are typical when antidiuretic hormone is deficient, and that galactorrhea and amenorrhea may indicate pituitary hormonal imbalance. The patient denied any recent changes in symptoms and reported monitoring them closely. The doctor assessed that the current symptoms suggest possible hormonal imbalance related to pituitary dysfunction but are not an emergency at present. The doctor recommended tracking fluid intake and urine output, watching for new symptoms (especially headaches or vision changes), and scheduling a follow-up with endocrinology to review hormone levels and consider blood tests. The patient agreed to monitor symptoms and reach out if anything changes. No new medications or allergies were discussed.
+The patient is a female with a history of pituitary tumor and diabetes insipidus presenting with persistent polyuria (frequent urination), polydipsia (increased thirst), weight gain, galactorrhea (milk discharge from the breasts), and amenorrhea (missed periods). These symptoms have been ongoing for a while and have remained stable without recent changes. The increased thirst and urination are consistent with her known diabetes insipidus, likely due to insufficient antidiuretic hormone production from pituitary dysfunction. The new onset of galactorrhea and amenorrhea suggests possible additional pituitary hormone imbalance following her tumor or its treatment. The clinical impression is that these symptoms are not immediately dangerous but indicate a need for further evaluation of pituitary hormone levels. The doctor advised the patient to monitor for any new symptoms such as headaches or vision changes and to keep track of fluid intake and urine output. The patient was instructed to schedule a follow-up with her endocrinologist or primary doctor for hormone testing and possible adjustment of her treatment. No acute interventions were recommended at this time, and the patient was encouraged to reach out if symptoms worsen or new concerns arise.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.969
-- **Similarity Label**: N/A
+- **STS Score**: 0.695
+- **Model Used**: general
+- **Text1 Length**: 127 words
+- **Text2 Length**: 186 words
+
 
 ## Processing Information
 

@@ -91,16 +91,23 @@ Does anything seem
 
 ## EHR Summary
 
-The patient is a 65-year-old woman presenting for evaluation and management of coronary artery disease following a history of myocardial infarction and multiple percutaneous coronary interventions. She reported a positive stress test and underwent cardiac catheterization with PTCA and brachytherapy prior to admission. Her past medical history includes hypothyroidism (treated with radioactive iodine), hypertension, obesity, and several prior surgeries. On preoperative examination, she was found to have clear lungs, regular heart rhythm, benign skin findings except for cherry hemangiomas and right groin fungal growth, and intact neurological status. Laboratory results showed a hematocrit of 38.8, creatinine 1.0, BUN 18, and platelet count of 24,000. The documented diagnosis was severe coronary artery disease with a 90% left anterior descending artery lesion. She underwent coronary artery bypass grafting x2 as the primary treatment.
+The patient is a 65-year-old woman admitted for coronary artery bypass grafting (CABG) following a history of myocardial infarction and recurrent coronary artery disease. She presented after a positive stress test and cardiac catheterization revealed significant coronary lesions, with symptoms and findings consistent with ischemic heart disease. Her past medical history includes hypothyroidism, hypertension, obesity, and multiple prior surgeries. During her postoperative course, she experienced transient first-degree A-V block and brief nocturnal pauses, possibly related to enhanced vagal tone or obstructive sleep apnea, but remained hemodynamically stable and improved with physical therapy and diuresis. The documented diagnoses at discharge were status post CABG x2, status post myocardial infarction, and hypothyroidism. She was discharged on medications including Plavix, atorvastatin, methimazole, aspirin, and Dilaudid for pain, with instructions to follow up with her primary care physician and surgeon. No acute complications were noted at discharge, and her incisions were clean and intact.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble breathing described as "rough," which has gradually worsened over the past several days and is causing some anxiety. Symptoms include minimal swelling in the legs and feet, coarse breath sounds on both sides, and intermittent dull chest pain without a clear pattern or triggers; the breathing difficulty does not worsen with lying down or physical activity and is making daily activities more difficult. The patient denied coughing, wheezing, or changes in voice. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted gradually worsening breathing difficulty, minimal peripheral swelling, and coarse breath sounds, suggesting mild fluid retention possibly affecting lung function; absence of cough, wheezing, or voice changes makes infection or airway issues less likely. The doctor advised monitoring for increased swelling, worsening breathing, new symptoms such as sudden shortness of breath, severe chest pain, or confusion, and recommended elevating the legs when resting, reducing dietary salt, and daily weight monitoring for sudden increases. The patient expressed understanding of these recommendations.
+The patient is an adult presenting with difficulty breathing as the chief complaint. The breathing trouble has gradually worsened over several days and is described as "rough," accompanied by minimal swelling in the legs and feet and intermittent, dull chest pain not clearly related to activity or position. The patient reports increased effort with daily activities but denies cough, wheezing, or voice changes. Coarse breath sounds have been noted bilaterally.
+
+Relevant history, medications, and allergies are not specified. The clinical impression is mild fluid retention possibly affecting lung function, with consideration of mild heart or kidney issues, but no acute emergency is suspected. The treatment plan includes monitoring for worsening symptoms (such as increased swelling, sudden shortness of breath, severe chest pain, or confusion), elevating the legs when resting, reducing dietary salt, and daily weight monitoring if possible. The patient was advised to seek prompt medical care if warning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.918
-- **Similarity Label**: N/A
+- **STS Score**: 0.459
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

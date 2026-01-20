@@ -67,16 +67,21 @@
 
 ## EHR Summary
 
-The patient is a 39-year-old female presenting with bloody bowel movements. She reported ongoing bloody diarrhea, nausea, and vomiting beginning on [2141-9-29], following cessation of prednisone during pregnancy and recent normal delivery. Her medical history includes ulcerative colitis for seven years (last flare in 2138), asthma, hepatitis B carrier status, and prior cesarean section; she has no known drug allergies and is a Jehovah's Witness. On examination, she was lethargic but alert, tachycardic, and had left and right lower quadrant abdominal tenderness; rectal exam was guaiac positive. Laboratory findings included a hematocrit of 20.5. The documented diagnosis was an ulcerative colitis flare with significant gastrointestinal bleeding. Treatment included restarting corticosteroids (prednisone, Solu-Medrol, hydrocortisone), Asacol, antibiotics (Flagyl, Cipro), supportive care with TPN, proton pump inhibitors, and vitamin K; blood products were refused due to religious beliefs.
+The patient is a 39-year-old female presenting with a flare of ulcerative colitis characterized by bloody diarrhea, nausea, vomiting, and significant anemia (hematocrit 20.5). Symptoms began after discontinuing prednisone during pregnancy and persisted despite restarting steroids and Asacol, with ongoing bloody bowel movements and lethargy. Relevant history includes ulcerative colitis for seven years, asthma, hepatitis B carrier status, and recent cesarean section; she is a Jehovah's Witness and refused blood products. On admission, she was tachycardic and had left and right lower quadrant abdominal tenderness; labs showed leukocytosis, anemia, and thrombocytosis. The documented diagnoses were ulcerative colitis status post partial colectomy with diverting ileostomy, anemia, asthma, hepatitis B carrier, hypokalemia, and hypocalcemia. Treatment included subtotal colectomy with ileostomy, intravenous steroids transitioned to oral prednisone taper, electrolyte repletion, epoetin alpha injections, iron supplementation, multivitamins, and pain management; blood transfusions were not given due to religious beliefs. She was discharged in good condition with home health support for ostomy care and follow-up arranged in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with bloody bowel movements. They reported first noticing blood a few days ago, with regular occurrences since then, and described having bloody diarrhea accompanied by nausea and vomiting. The patient also noted increased fatigue and weakness since symptom onset, as well as experiencing a faster heart rate, but denied lightheadedness upon standing. No relevant medical history, medications, or allergies were mentioned. The doctor inquired about the severity and amount of bleeding to assess the seriousness of the situation. No physical examination findings were discussed. The assessment focused on possible blood loss and fluid depletion related to ongoing bloody diarrhea. No specific treatment plan or recommendations were provided during the conversation.
+The patient presents with the chief complaint of bloody bowel movements. The symptoms began a few days ago and have been occurring regularly, characterized by bloody diarrhea, nausea, vomiting, increased fatigue, weakness, and tachycardia; the patient denies lightheadedness upon standing. The severity and amount of blood in the stool were being assessed during the encounter. Relevant past medical history, medications, and allergies are not specified in the dialogue. No formal diagnosis was documented during this conversation. No specific treatment or recommendations were provided at this stage.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.491
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 86 words
+
 
 ## Processing Information
 

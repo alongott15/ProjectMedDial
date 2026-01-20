@@ -67,16 +67,21 @@
 
 ## EHR Summary
 
-The patient is a 63-year-old male presenting with recent onset of exertional chest pain. He reported chest pain triggered by physical activity, and cardiac catheterization revealed significant coronary artery disease, including 80% left main stenosis and 95% left circumflex occlusion, with an ejection fraction of 55%. His past medical history includes left rotator cuff repair and intermittent back pain; he has no known drug allergies and recently started atenolol, aspirin, lipitor, and ibuprofen. Laboratory results were within normal limits, and electrocardiogram showed normal sinus rhythm. Physical examination was notable for clear lungs, regular cardiac rhythm, and well-perfused extremities. The documented diagnosis was severe multivessel coronary artery disease. The treatment plan included transfer for coronary artery bypass graft surgery.
+The patient is a 63-year-old man presenting with recent onset of exertional chest pain. He reported chest pain with activity, and cardiac catheterization revealed significant coronary artery disease with 80% left main stenosis and 95% left circumflex occlusion; his ejection fraction was 55%. His past medical history includes left rotator cuff repair and intermittent back pain, and he has no known drug allergies. The documented diagnosis was coronary artery disease, status post coronary artery bypass grafting x2. During hospitalization, he underwent successful coronary artery bypass grafting and experienced postoperative anemia with dyspnea on exertion, which improved after transfusion of 2 units of packed red blood cells. At discharge, he was hemodynamically stable with a hematocrit of 22.5 and clear breath sounds. The treatment plan included discharge to home with medications such as Lasix, potassium chloride, Lopressor, Niferex, amiodarone, ibuprofen, Colace, aspirin, Lipitor, and Dilaudid, along with follow-up appointments with cardiology, primary care, and the wound clinic.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain occurring during physical activity. The pain is located in the middle of the chest, behind the breastbone, and typically resolves within a few minutes of rest. The patient also reported experiencing shortness of breath, particularly when walking upstairs, which has been worsening over the past couple of weeks; no sweating or lightheadedness was noted. No relevant medical history, medications, or allergies were mentioned during the encounter. The doctor inquired about the severity, duration, and associated symptoms of the chest pain but did not provide a specific assessment or diagnosis during the conversation. No treatment plan or recommendations were discussed in this dialogue.
+The patient presents with chest pain as the chief complaint. The pain is described as central, located behind the breastbone, and occurs during physical activity such as walking or climbing stairs; it resolves within a few minutes of rest. The patient also reports exertional shortness of breath, which has been worsening over the past couple of weeks, but denies associated sweating or lightheadedness. The onset of symptoms was approximately two weeks ago. No relevant medical history, medications, allergies, or prior diagnoses are documented in this dialogue. No formal diagnosis or clinical impression was provided during the conversation. No specific treatment or recommendations were documented at this stage.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.506
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 107 words
+
 
 ## Processing Information
 

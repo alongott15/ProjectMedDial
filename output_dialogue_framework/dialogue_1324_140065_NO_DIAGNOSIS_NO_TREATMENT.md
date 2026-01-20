@@ -87,16 +87,23 @@ Let me know if you have questions about this or if you'd like more details about
 
 ## EHR Summary
 
-The patient is a 41-year-old male presenting with recurrent pancreatic pseudocyst. He reported recurrent abdominal pain radiating to the back, with a history of acute pancreatitis in December 2099 complicated by a prior pseudocyst and gastrostomy in March 2100. Medications on admission included Prilosec and Aleve, with no known allergies. Imaging (CT) confirmed recurrent pseudocyst, and ERCP showed complete cut off of the pancreatic duct at the mid body and pancreas divisum. On admission, he underwent elective distal pancreatectomy and splenectomy, with intraoperative findings of a fibrotic pancreas and large cyst. Postoperative course was stable and uncomplicated; he tolerated advancement to a regular diet. Prior to discharge, his JP drain output had an amylase of 92,700, so he was discharged home with the drain in place and VNA care arranged. Discharge medications included Percocet as needed, and he was instructed to follow up with his surgeon in 2–11 weeks.
+The patient is a 41-year-old male presenting with recurrent pancreatic pseudocyst. He reported recurrent abdominal pain radiating to the back, with a history of acute pancreatitis in December 2099 complicated by a previous pseudocyst and gastrostomy in March 2100. A month prior to admission, abdominal pain recurred and imaging confirmed a recurrent pseudocyst; ERCP showed complete pancreatic duct cut-off at the mid body and pancreas divisum. On admission, he was taking Prilosec and Aleve, with no known allergies. The documented diagnosis was recurrent pancreatic pseudocyst with underlying pancreas divisum. He underwent elective distal pancreatectomy and splenectomy, with an uncomplicated postoperative course except for elevated JP drain amylase (92,700). At discharge, he was sent home with the JP drain, VNA care, and Percocet for pain, with follow-up arranged in clinic.
+
 
 ## Dialogue Summary
 
-The patient presented with abdominal pain that has recurred and become more bothersome over the past couple of weeks. The pain is described as constant, rated 6 out of 10 in severity, located in the upper mid-abdomen, and radiates to the back; it worsens after larger meals but is not relieved by any specific measures. The patient denied associated symptoms such as nausea, changes in appetite, digestive issues, changes in bowel movements or stool color, fever, weight loss, or fatigue. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of alarming symptoms and suggested the pattern was consistent with irritation of the upper digestive tract, possibly gastritis, indigestion, or mild inflammation of the pancreas or gallbladder. The doctor recommended tracking food triggers, eating smaller and more frequent meals, and avoiding fatty or rich foods. The patient was advised to seek care if symptoms worsen or if new symptoms such as jaundice, dark urine, fever, or vomiting develop.
+The patient is an adult presenting with abdominal pain as the chief complaint. The pain has recurred over the past couple of weeks, is located in the upper mid-abdomen, radiates to the back, and has become more constant, rated 6 out of 10 in severity. The discomfort worsens after larger meals but is not associated with nausea, appetite changes, altered bowel habits, fever, weight loss, or fatigue. Relevant history regarding prior episodes is implied but not specified in detail; no medication or allergy history is provided.
+
+The clinical impression is irritation of the upper digestive tract, possibly related to gastritis, indigestion, or mild inflammation of the pancreas or gallbladder. The physician recommended tracking food triggers, eating smaller and more frequent meals, and avoiding fatty or rich foods. The patient was advised to seek care promptly if symptoms worsen or if new symptoms such as jaundice, dark urine, fever, or vomiting develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.476
+- **Model Used**: general
+- **Text1 Length**: 129 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

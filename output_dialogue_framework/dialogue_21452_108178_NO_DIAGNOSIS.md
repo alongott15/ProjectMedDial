@@ -98,3 +98,21 @@ Let me know if you have any questions about what we've discussed or if you'd lik
 ## Processing Information
 
 - **Processing Time**: 336.5s
+
+## EHR Summary
+
+The patient is a 57-year-old female presenting with crampy upper abdominal pain, nausea, and vomiting of several days' duration. Her symptoms included nonradiating upper abdominal pain, intermittent nausea, vomiting, and initial absence of flatus and bowel movements, later followed by diarrhea; she denied fevers, chills, or shortness of breath. Relevant history includes insulin-dependent diabetes mellitus, morbid obesity (approximately 420 pounds), Meniere's disease, psoriasis, and a known ventral hernia; she has no known drug allergies and takes insulin. Imaging studies were inconclusive due to body habitus, but clinical findings and consults suggested a high-grade partial small bowel obstruction likely related to her ventral hernia. The documented diagnoses were high-grade partial small bowel obstruction, umbilical hernia, morbid obesity, insulin-dependent diabetes mellitus, and psoriasis. She underwent exploratory laparotomy with lysis of adhesions and mesh repair of the umbilical hernia without complications. Postoperatively, she received Lovenox for DVT prophylaxis, prophylactic Kefzol, and had her diet gradually advanced as tolerated. She was discharged home in good condition with visiting nurse services for drain care and instructed to follow up with her surgeon.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with crampy upper abdominal pain as the chief complaint. The pain is centered in the epigastric region, rated 6/10 in severity, comes and goes but is present most of the time, began a couple of days ago, and is worsened by eating. Associated symptoms include nausea, vomiting, diarrhea, and decreased energy, with no reported fever; the symptoms have made it difficult for the patient to tolerate meals or maintain normal activities. There is no mention of relevant past medical history, medications, or allergies. The clinical impression documented by the doctor is likely viral gastroenteritis or possible gastritis based on the symptom pattern. The treatment plan includes supportive care with a focus on maintaining hydration using clear fluids and avoiding heavy, fatty, or spicy foods until recovery. The patient was also advised to monitor for warning signs such as high fever, blood in vomit or stool, severe or worsening pain, persistent vomiting, or signs of dehydration, and to seek further care if these occur.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.552
+- **Model Used**: general
+- **Text1 Length**: 177 words
+- **Text2 Length**: 169 words
+

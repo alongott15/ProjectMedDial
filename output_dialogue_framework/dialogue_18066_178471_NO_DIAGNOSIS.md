@@ -87,16 +87,21 @@ Let me know if you have questions or concerns about what we've discussed.
 
 ## EHR Summary
 
-The patient is a 72-year-old female presenting with left-sided weakness and a right frontal lobe mass. She reported weakness on the left side, veering to the left, and slight dizziness. Her past medical history includes hypertension, and she has no known drug allergies. Neurological examination prior to admission showed normal gait but inability to lift or hold the left leg, weak left hand grip, and decreased strength in left dorsiflexion and plantarflexion. MRI revealed a right frontal lobe mass, and she underwent craniotomy with mass excision on [2143-5-7]. Postoperatively, she initially had antigravity strength only in the left upper extremity and no strength in the left lower extremity, but her motor function gradually improved during her hospital stay. The documented diagnosis was right frontal lobe mass with associated left-sided weakness. Treatment included surgical excision of the mass and postoperative steroids, with ongoing rehabilitation.
+The patient is a 72-year-old female presenting with left-sided weakness associated with a right frontal lobe mass. She reported veering to the left and experiencing slight dizziness, with neurological examination revealing weakness in the left leg and hand, and impaired dorsiflexion and plantarflexion on the left side. Her past medical history includes hypertension, and she has no known allergies; prior medications included HCTZ 25 mg daily. MRI confirmed a right frontal lobe mass, and she underwent craniotomy with mass excision. Postoperatively, she initially had antigravity strength only in the left upper extremity and no strength in the left lower extremity, but demonstrated gradual improvement in motor function during her hospital stay. The documented diagnosis is right frontal lobe mass with resultant left-sided weakness. Treatment included surgical excision of the mass, postoperative steroids (dexamethasone), anticonvulsants (Dilantin), pain management (Percocet), and continuation of antihypertensive therapy. She is being discharged to rehabilitation and will follow up in the Brain Clinic in ten days.
+
 
 ## Dialogue Summary
 
-The patient presented with left-sided weakness that began a few days ago. Symptoms include constant weakness on the left side, difficulty walking with a tendency to veer left, slight dizziness, and feeling unsteady when walking; there were no changes in speech, vision, swallowing, or recent falls, and holding objects was not significantly affected. The patient denied recent illnesses, injuries, medication changes, nausea, or vomiting, and reported taking HCTZ for blood pressure. On review, the doctor noted persistent left-sided weakness and unsteadiness impacting mobility but no acute neurological deficits such as speech or vision changes. The assessment included possible causes such as muscle strain, blood pressure changes, or nerve/circulation issues, with concern due to the persistence and impact on mobility in the context of hypertension. The doctor advised the patient to move carefully, use support when walking if needed, and monitor for new symptoms such as confusion, severe headache, trouble speaking, facial drooping, or loss of coordination. The patient was instructed to seek prompt medical attention if symptoms worsen or new symptoms develop and to follow up in person for further evaluation.
+The patient is an adult presenting with the chief complaint of left-sided weakness. The weakness began a few days ago and is described as constant, affecting mobility and causing the patient to veer to the left while walking; mild dizziness is also present, but there are no changes in speech, vision, swallowing, or recent falls. The patient reports feeling unsteady when walking but denies nausea, vomiting, or any triggers or alleviating factors. Relevant history includes hypertension managed with hydrochlorothiazide (HCTZ), with no recent illnesses, injuries, or medication changes. The clinical impression is that the persistent left-sided weakness and unsteadiness may be related to circulation or nerve function, particularly given the patient's history of high blood pressure, though no definitive diagnosis was documented. The treatment plan includes recommendations to move carefully, use support when walking if needed, and monitor for new symptoms such as confusion, severe headache, trouble speaking, facial drooping, or loss of coordination. The patient was advised to seek prompt medical attention if symptoms worsen or new neurological signs develop and to have an in-person evaluation to rule out more serious causes.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.680
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 183 words
+
 
 ## Processing Information
 

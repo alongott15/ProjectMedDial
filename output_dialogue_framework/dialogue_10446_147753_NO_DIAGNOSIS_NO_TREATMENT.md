@@ -90,16 +90,23 @@ Most cases like this turn out to be minor, but after heart surgery we don’t ta
 
 ## EHR Summary
 
-The patient is a 71-year-old male presenting with sternal wound drainage following a coronary artery bypass graft performed on 2158-2-10. He reported new onset of sternal wound drainage associated with coughing since 2158-3-18, but denied fevers, chills, sweats, anorexia, or dry heaves, although he had a recorded fever of 102°F at an outside hospital. His past medical history includes osteoarthritis, congestive heart failure, atrial fibrillation, hypercholesterolemia, peripheral vascular disease, transient ischemic attacks, hypothyroidism, and diabetes mellitus. Home medications include Celexa, captopril, Prilosec, aspirin, insulin, Lasix, and Coumadin; allergies to quinidine, shellfish, and intravenous contrast are noted. On examination, he was febrile (101.1°F), tachycardic (HR 102), hypertensive (BP 152/56), and had a draining sternal wound that probed to the bone with evidence of nonunion and purulence. The documented clinical impression is sternal wound infection with nonunion post-coronary artery bypass graft. Treatment details are not specified in the provided note.
+The patient is a 71-year-old male presenting with sternal wound drainage following a coronary artery bypass graft performed on 2158-2-10. He reported new onset of sternal wound drainage associated with cough beginning on 2158-3-18, and had a fever of 101.1°F at presentation, but denied chills, sweats, or gastrointestinal symptoms. Physical examination revealed a draining sternal wound with purulence and nonunion of the sternum, minimal erythema, and no evidence of sternal instability. Relevant history includes osteoarthritis, congestive heart failure, atrial fibrillation, hypercholesterolemia, peripheral vascular disease, transient ischemic attacks, hypothyroidism, and diabetes mellitus; home medications include insulin, captopril, aspirin, and coumadin. The documented diagnosis was sternal wound infection with Methicillin sensitive Staphylococcus aureus (MSSA) bacteremia. Treatment included intravenous vancomycin and levofloxacin, correction of coagulopathy with vitamin K and fresh frozen plasma, fluid restriction for hyponatremia, and infectious disease consultation.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about drainage from their chest incision following recent bypass surgery. They reported yellowish drainage without odor or blood, first noticed a few days ago, and denied any redness, warmth, swelling, or pain at the site. The patient also described a low-grade fever and cough that began around the same time as the drainage, with no chills, and noted that the amount of drainage has remained stable. Their daily activities have not been affected. Relevant history includes recent heart bypass surgery; no medications or allergies were mentioned. On assessment, the doctor noted yellowish drainage without local signs of infection and mild systemic symptoms, suggesting possible mild irritation or superficial infection but no evidence of deeper involvement. The doctor advised keeping the area clean and dry, monitoring for new or worsening symptoms (such as redness, swelling, increased drainage, chills, or higher fever), and contacting the surgical team or primary care provider soon for an in-person incision check. The patient understood and agreed to monitor the situation and seek further care if needed.
+The patient is an adult presenting with concern about yellowish drainage from their chest incision following recent bypass surgery. The drainage began a few days ago, has remained stable in amount, and is not associated with redness, warmth, swelling, or pain at the site. The patient also reports a low-grade fever and cough that started around the same time as the drainage, but denies chills and states that daily activities are unaffected. There is no documented history of medication use or allergies in this encounter.
+
+The clinical impression is possible mild irritation or superficial infection at the surgical site, with deeper infection considered less likely due to the absence of worsening symptoms or significant local findings. The treatment plan includes keeping the area clean and dry, monitoring for new or worsening symptoms (such as increased drainage, redness, swelling, warmth, chills, or higher fever), and seeking prompt medical attention if these occur. The patient is also advised to contact their surgical team or primary care provider soon for an in-person evaluation of the incision due to the recent heart surgery. Most cases like this are minor, but caution is emphasized given the postoperative context.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.599
+- **Model Used**: general
+- **Text1 Length**: 137 words
+- **Text2 Length**: 193 words
+
 
 ## Processing Information
 

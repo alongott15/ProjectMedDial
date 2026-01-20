@@ -87,16 +87,21 @@ For now, it sounds like things are reassuring. Often, these checks are just a pr
 
 ## EHR Summary
 
-The patient is a newborn female evaluated due to maternal intrapartum fever. She was delivered at 40-4/7 weeks by stat cesarean section for nonreassuring fetal heart pattern and 20% placental abruption, with Apgar scores of 8 and 9 at one and five minutes, respectively. The infant was noted to be somewhat pale on initial examination but otherwise had stable vital signs and a normal physical exam. Maternal history included no antibiotic prophylaxis during labor, and prenatal labs were unremarkable. Due to the risk of infection from maternal fever and initial pallor, empiric antibiotics (ampicillin and gentamicin) and a normal saline bolus were administered. On the second day, the infant’s blood culture was positive for group B beta streptococcus, prompting return to the NICU for further evaluation including repeat blood culture and lumbar puncture. The documented diagnosis was neonatal group B streptococcal bacteremia. Treatment included continuation of intravenous antibiotics and supportive care.
+The patient is a full-term newborn female presenting for evaluation due to maternal intrapartum fever. After birth, she was noted to be somewhat pale but otherwise had stable vital signs and a normal examination. Maternal history included a maximum temperature of 101°F an hour before delivery, stat cesarean section for nonreassuring fetal heart pattern, and a 20% placental abruption; the mother was GBS negative and had benign prenatal care. Initial management included empiric antibiotics (ampicillin and gentamicin) and a normal saline bolus; blood cultures later grew group B beta streptococcus. The documented diagnosis was beta streptococcus bacteremia. Antibiotics were changed to intravenous penicillin G (250,000 IU every eight hours) for a planned seven-day course. The infant remained stable throughout hospitalization and was discharged in stable condition to complete treatment at another hospital under the care of her primary pediatrician. At discharge, she was ad lib breast-feeding, with a Hep-Lock in place, and her newborn state screening had been sent.
+
 
 ## Dialogue Summary
 
-The patient presented with concern for possible infection risk due to maternal fever during labor and reported noticing mild, generalized paleness today. The paleness has not changed since onset and does not worsen with activity or feeding; there are no associated symptoms such as sleepiness, feeding difficulties, fussiness, trouble breathing, cold extremities, yellowing of the skin or eyes, bruising, or bleeding. The patient has remained alert, active, and feeding normally. Relevant history includes maternal fever during labor; no medications or allergies were mentioned. On clinical review, the doctor noted mild, generalized pallor without other concerning findings. The assessment was that there are no signs currently pointing toward serious infection or blood problems, and the paleness may be due to normal newborn variation. The doctor recommended continued monitoring for new symptoms such as trouble feeding, increased sleepiness, difficulty breathing, or worsening pallor, and advised notifying the care team if any of these develop; current findings are reassuring and checks are precautionary.
+The patient is being evaluated due to maternal fever during labor and reports noticing mild, generalized pallor since today. The pallor has not changed in severity and is not associated with other symptoms such as sleepiness, feeding difficulties, unusual fussiness, dyspnea (trouble breathing), cold extremities, jaundice, bruising, or bleeding. The patient remains alert, active, and feeds normally. Relevant history includes maternal fever during labor, prompting infection risk monitoring. The clinical impression is that the mild pallor is likely a normal variation in newborns and not currently indicative of serious infection or hematologic disorder, given the absence of concerning symptoms. The treatment plan is observation with instructions to monitor for new symptoms such as increased pallor, cyanosis (blue or gray color), feeding problems, lethargy, or respiratory distress, and to notify the care team if these develop. No specific medications or interventions were recommended at this time. The patient was reassured and offered further discussion about the expected duration of mild pallor.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.529
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

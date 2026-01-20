@@ -87,16 +87,21 @@ Does that make sense? Is there anything in particular you're worried about or wo
 
 ## EHR Summary
 
-The patient is an over 90-year-old female presenting with nausea, syncope, epigastric pain, and mental status changes. She experienced a syncopal episode after a hot shower, followed by incontinence, multiple episodes of nausea and vomiting, and worsening cognitive function and weakness. Her history includes coronary artery disease, aortic stenosis, atrial fibrillation, chronic gastrointestinal symptoms, frequent urinary tract infections, and multiple other chronic conditions; she is allergic to ciprofloxacin. On examination, she appeared cachectic, frail, uncomfortable, and toxic, with vital signs notable for hypotension (BP 99/70), tachycardia (P 110), and tachypnea (R 28). Laboratory findings revealed elevated amylase and lipase, and urinalysis showed cloudy urine with many bacteria; abdominal ultrasound demonstrated gallstones and dilated intrahepatic ducts. The clinical impression was likely acute biliary disease with possible infection and pancreatitis. She was started on levofloxacin and metronidazole and admitted for further management.
+The patient is an elderly female presenting with nausea, syncope, epigastric pain, and mental status changes. She experienced a syncopal episode after a hot shower, followed by incontinence, recurrent nausea and vomiting, cognitive decline, weakness, and epigastric pain radiating to her shoulders. Her history includes coronary artery disease, aortic stenosis, atrial fibrillation, chronic gastrointestinal symptoms, frequent urinary tract infections, and multiple other chronic conditions; she is allergic to ciprofloxacin. On evaluation, she was found to have elevated amylase and lipase, cloudy urine with many bacteria, and abdominal ultrasound findings suggestive of cholelithiasis with possible acute cholecystitis and pancreatitis. The documented diagnoses were cholecystitis, pancreatitis, atrial fibrillation, coronary artery disease, and urinary tract infection. She was started on levofloxacin and metronidazole for infection but, after discussion with her family and primary care physician regarding her wishes and prognosis, was transitioned to comfort measures only. The patient expired during the hospital admission.
+
 
 ## Dialogue Summary
 
-The patient presented with nausea as the chief complaint. Symptoms included intermittent nausea of unclear onset, sometimes severe enough to make eating difficult and accompanied by weakness; the patient also reported episodes of fainting or near-fainting, especially when nausea and upper abdominal pain (centered in the upper belly and sometimes radiating to the shoulders) were worse. No specific triggers for symptoms were identified, and the patient denied associated sweating, palpitations, or visual changes prior to fainting; episodes have remained stable over time without increasing frequency or severity. No relevant medical history, medications, or allergies were mentioned. The doctor noted the combination of nausea, upper abdominal discomfort radiating to the shoulders, and fainting episodes, and discussed possible causes including digestive issues (such as gastritis or acid reflux), dehydration, low blood pressure, or vasovagal response. The doctor recommended monitoring for changes in symptoms, staying hydrated, eating small meals, and keeping a record of episodes to identify patterns; the patient was advised to seek further evaluation if symptoms worsen or new concerning signs develop. The patient agreed to track episodes and was encouraged to note any confusion or changes in mental state during fainting events.
+The patient is an adult presenting with a chief complaint of recurrent nausea. The nausea has been intermittent for an unspecified duration, sometimes severe enough to impair eating and daily activities, and is accompanied by upper abdominal pain radiating to the shoulders, episodes of weakness, and occasional fainting without preceding sweating, palpitations, or visual changes. The patient reports no identifiable triggers and notes that the frequency and severity of episodes have remained stable over time. There is no mention of relevant past medical history, medications, or allergies. The clinical impression discussed includes possible digestive causes such as gastritis or acid reflux, with consideration of other factors like dehydration, low blood pressure, or vasovagal response contributing to the fainting episodes. The treatment plan includes recommendations to stay hydrated, eat small meals, monitor and record episodes for patterns, and seek further evaluation if symptoms worsen or new symptoms develop (such as persistent vomiting, chest pain, or dark stools). The patient was also advised to note any confusion or changes in mental state associated with fainting.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.464
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

@@ -108,3 +108,21 @@ Otherwise, continuing gentle self-care and monitoring is reasonable. If you're n
 ## Processing Information
 
 - **Processing Time**: 405.2s
+
+## EHR Summary
+
+The patient is an 83-year-old female presenting with long-standing alcohol-related pancreatitis complicated by a pancreatic pseudocyst. She experienced persistent abdominal pain and intermittent fevers, with imaging confirming recurrent pseudocyst collections and cultures growing Staphylococcus non-aureus. Her relevant history includes recent percutaneous drainage of the pseudocyst, total parenteral nutrition, and prior antibiotic therapy. The documented diagnosis was recurrent infected pancreatic pseudocyst. Treatment included percutaneous drainage, intravenous vancomycin, levofloxacin, and clindamycin, followed by discontinuation of antibiotics after clinical improvement and resolution of fever. She was transitioned from a clear to a low-fat diet, continued on total parenteral nutrition, and resumed home antihypertensive medications. At discharge, she was stable, afebrile, tolerating oral intake, and discharged to rehabilitation with follow-up arranged.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with abdominal pain as the chief complaint. The pain is described as dull, moderate in intensity (5/10), and has persisted for a couple of days without worsening; it is not affected by eating or movement. The patient also reports feeling warmer than usual, suggestive of a low-grade fever, but has not measured their temperature. There are no associated symptoms such as nausea, vomiting, diarrhea, constipation, bloating, chills, sweating, or fatigue. No relevant past medical history, medications, or allergies were discussed. The clinical impression is that the symptoms are consistent with a mild, self-limited abdominal issue, possibly due to a minor infection or irritation. The treatment plan includes rest, maintaining hydration, eating light foods, and monitoring for warning signs such as increasing pain, vomiting, jaundice, or difficulty with bowel movements or urination. The patient was advised to seek further evaluation if symptoms worsen or new concerning signs develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.429
+- **Model Used**: general
+- **Text1 Length**: 117 words
+- **Text2 Length**: 153 words
+

@@ -87,16 +87,21 @@ Would you like some practical tips for managing anxiety or muscle discomfort whi
 
 ## EHR Summary
 
-The patient is a 70-year-old female presenting with chest pain. She reported a 7/10 aching pain in the left chest radiating to the neck and left shoulder, which began while going to bed, persisted through the night, woke her from sleep, and resolved in the morning; there were no associated symptoms such as nausea, vomiting, dyspnea, or diaphoresis. She has a history of diabetes mellitus (noninsulin-dependent), coronary artery disease (prior PTCA of LAD in 2120 and stenting of the left circumflex in 2121), hypercholesterolemia, hypertension, and hiatal hernia. Notably, her recent chest pain episodes since 2127-1-2 have been less responsive to rest and sublingual nitroglycerin compared to prior angina. On presentation, her systolic blood pressure was in the 200s. In the Emergency Department, she was treated with three sublingual nitroglycerin tablets and aspirin, which relieved her pain, and received IV Lopressor for hypertension. The documented diagnosis is not explicitly stated in the note. The treatment plan included acute management of chest pain and hypertension with nitroglycerin, aspirin, and IV Lopressor.
+The patient is a 70-year-old female presenting with chest pain. She reported a 7/10 aching pain in the left chest radiating to the neck and left shoulder, which occurred at rest, lasted through the night, and was not associated with nausea, vomiting, dyspnea, or diaphoresis; recent episodes were less responsive to rest and nitroglycerin. Her history includes diabetes mellitus (noninsulin-dependent), coronary artery disease (prior PTCA and stenting), hypertension, hypercholesterolemia, and hiatal hernia; she has a questionable sulfa allergy. On admission, ECG showed normal sinus rhythm without acute changes, cardiac enzymes were not elevated, and cardiac catheterization revealed significant two-vessel coronary artery disease (95% mid RCA, 70% proximal LAD, 90% mid LAD). The documented diagnoses were two-vessel coronary artery disease (unstable angina), hypertension, diabetes mellitus, and gastroesophageal reflux disease. She was treated with heparin and nitroglycerin drips, aspirin, beta blocker, ACE inhibitor, statin, and later transitioned to oral Isordil; diabetes was managed with insulin sliding scale during hospitalization. The patient was transferred in stable condition to Cardiothoracic Surgery for planned coronary artery bypass grafting (CABG).
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain that radiates into the neck and left shoulder, causing anxiety. The pain was described as a pressure sensation starting in the center of the chest, rated 6–7 out of 10 at its worst, lasting several minutes per episode, and occurring over the past few days. The episodes occur randomly, are not triggered by activity, eating, or stress, and are somewhat relieved by rest but not by changing position; no medications have been tried. The patient denied associated symptoms such as shortness of breath, sweating, nausea, or lightheadedness, and reported that the discomfort does not wake them at night. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of alarming symptoms but expressed concern due to the location and radiation of the chest pressure, considering both musculoskeletal and cardiac causes. The doctor recommended prompt in-person evaluation to rule out heart-related issues and advised seeking immediate care if severe pain, trouble breathing, sweating, or nausea develop. The patient expressed understanding and interest in tips for managing anxiety while awaiting further evaluation.
+The patient is an adult presenting with chest pain as the chief complaint. The discomfort is described as a pressure starting in the center of the chest, radiating to the neck and left shoulder, rated 6–7/10 in severity, lasting several minutes per episode, and occurring over several days. There are no associated symptoms such as dyspnea, diaphoresis, nausea, or lightheadedness, and no clear triggers have been identified; resting provides some relief. The pain does not wake the patient at night and has not been treated with medication. Relevant history, medications, and allergies are not specified. The clinical impression includes possible muscle strain or anxiety but also notes concern for a cardiac source due to the nature and radiation of the discomfort. The treatment plan includes recommending prompt in-person evaluation to rule out cardiac causes and advising the patient to seek immediate care if severe symptoms develop; practical tips for managing anxiety were also offered.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.622
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 154 words
+
 
 ## Processing Information
 

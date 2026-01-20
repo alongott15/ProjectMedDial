@@ -89,16 +89,23 @@ Let me know if you have any questions about what we’ve discussed or if there�
 
 ## EHR Summary
 
-The patient is a 28-year-old female presenting with fever and left upper quadrant pain following a recent laparoscopic appendectomy. She reported that the pain began one to two days postoperatively, worsened over time, radiated to her left shoulder and arm, and was exacerbated by deep breaths. Associated symptoms included nausea without emesis, anorexia, poor oral intake, chills, sweats, shortness of breath, one episode of vomiting, loose stools, and a diffuse maculopapular rash after taking Percocet. Her past medical history includes asthma and hypertension, and she is allergic to sulfa drugs. On examination, she was febrile (101.2°F), tachycardic (pulse 120), hypertensive (BP 180/95), tachypneic (RR 22), and had an oxygen saturation of 94% on room air. The documented diagnosis was pneumonia. She was advised to stop Percocet due to the rash and received treatment for pneumonia during her admission.
+The patient is a 28-year-old female presenting with fever and left upper quadrant pain following a laparoscopic appendectomy. She reported progressively worsening pain radiating to the left shoulder and arm, exacerbated by deep breaths, along with nausea, anorexia, chills, sweats, shortness of breath, and a diffuse maculopapular rash. Her past medical history includes asthma and hypertension; she was taking albuterol and Percocet, and has a sulfa allergy. On admission, she was febrile (101.2°F), tachycardic (pulse 120), hypertensive (BP 180/95), tachypneic (RR 22), and had decreased breath sounds with a left pleural effusion and left lower lobe consolidation on imaging. The documented diagnosis was postoperative pneumonia. She was treated with Levofloxacin, initially Vancomycin (later discontinued), and Clindamycin for anaerobic coverage; Tylenol was given for fever, and topical steroids for the rash. The rash improved with cessation of Percocet and topical therapy, and her respiratory symptoms stabilized; she was discharged home in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with fever and pain under the left ribs. Symptoms included aching and sometimes sharp pain under the left ribs radiating to the left shoulder and arm (worse with deep breaths and movement, 7/10 at worst), chills, sweats, nausea, decreased appetite, one episode of vomiting, loose stools, and intermittent shortness of breath with a sensation of rapid breathing. The pain was not constant and was aggravated by activity and deep inspiration; chills made it difficult to get comfortable. The patient reported no changes in urine or blood in stool and had not tried medications for relief, only rest. No specific past medical history, medications, or allergies were mentioned. The doctor noted the constellation of symptoms could indicate inflammation or infection involving upper abdominal organs or the pleura, such as pleurisy or splenic involvement, possibly due to viral or bacterial infection. The doctor advised rest, hydration, monitoring temperature, and considering over-the-counter fever reducers like acetaminophen for comfort. The patient was instructed to seek prompt medical attention if symptoms worsened (severe shortness of breath, persistent vomiting, confusion, very high fever, or chest pain) and mentioned a rash on the face, arms, back, and legs at the end of the visit.
+The patient is an adult presenting with fever and left-sided pain under the ribs as the chief complaint. The pain is described as aching and sometimes sharp, radiating to the left shoulder and arm, with a severity up to 7 out of 10, and is worsened by deep breaths and movement; it is intermittent rather than constant. Associated symptoms include chills, sweats, nausea, decreased appetite, one episode of vomiting, loose stools, and intermittent shortness of breath that has slightly worsened over several days. The patient has not tried medications or other interventions except for rest, and reports a new rash on the face, arms, back, and legs. No changes in urine or blood in stool were noted.
+
+The clinical impression discussed by the doctor includes possible inflammation or infection involving upper abdominal organs or the pleural lining (pleurisy), with consideration of viral or bacterial causes affecting the respiratory or gastrointestinal systems. The treatment plan includes rest, gentle hydration, monitoring temperature, and considering over-the-counter fever reducers such as acetaminophen for comfort. The patient was advised to seek prompt medical attention if symptoms worsen, particularly severe shortness of breath, persistent vomiting, confusion, or very high fever.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.691
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 194 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ If you notice any new symptoms—such as pain at rest, changes in skin color or 
 
 ## EHR Summary
 
-The patient is a 62-year-old male admitted for evaluation of a cerebral aneurysm identified on MRI, with no reported history of headaches, paresthesias, weakness, or speech changes. He reported a history of dyspnea on exertion, claudication after walking 50 feet, and indigestion managed with Zantac; he denied fever, chills, cough, or bleeding problems. His medical history includes hypertension and hypercholesterolemia, and he was taking Wellbutrin, an unspecified antihypertensive, an anticholesterol medication, and aspirin (stopped five days prior to admission). On physical examination, his blood pressure was elevated at 191/94 mmHg, but he was in no acute distress and had generally normal findings except for slightly decreased neck extension. No acute neurological deficits were noted. The documented plan included admission for a diagnostic cerebral angiogram to further evaluate the aneurysm. No specific treatment or intervention beyond diagnostic evaluation was documented in this note.
+The patient is a 62-year-old male admitted for evaluation and management of a left internal carotid artery cavernous aneurysm identified on MRI. He reported no headaches, paresthesias, weakness, or speech changes, but has a history of dyspnea on exertion, claudication after walking 50 feet, hypertension, hypercholesterolemia, and indigestion. There were no known drug allergies, and his medications prior to admission included Wellbutrin, an unspecified antihypertensive, an anticholesterol agent, and aspirin (stopped five days before admission). On admission, his blood pressure was elevated at 191/94 mmHg, but he was otherwise stable and in no acute distress. The documented diagnosis was a bilobed left internal carotid artery cavernous aneurysm. He underwent a diagnostic cerebral angiogram followed by staged embolization procedures with stent placement; all procedures were tolerated well and his postoperative course was stable. At discharge, he was prescribed Zantac, Diovan, Lipitor, Plavix, and aspirin, and advised to follow up in clinic in three weeks. His condition at discharge was stable.
+
 
 ## Dialogue Summary
 
-The patient presented with difficulty catching their breath during activity. They reported shortness of breath and cramping in the legs after walking about 50 feet, with both symptoms resolving after resting for a minute or two; these symptoms have persisted for several weeks without improvement or worsening. The patient denied cough, chest discomfort, or leg swelling, but noted some indigestion. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted predictable exertional shortness of breath and leg cramping that improves with rest, impacting the patient's ability to perform daily activities and leading to avoidance of longer walks. The doctor assessed these symptoms as likely claudication related to circulation issues in the legs. The treatment plan included recommendations to pace activity, take breaks as needed, and monitor for new symptoms such as pain at rest, skin changes, or chest discomfort; the doctor also offered to discuss strategies for staying active safely.
+The patient is an adult presenting with the chief complaint of exertional shortness of breath. Symptoms include dyspnea and cramping in the legs that occur after walking approximately 50 feet, both of which resolve with rest; these symptoms have been present for several weeks and have remained stable. The patient denies cough, chest discomfort, or leg swelling, but reports some indigestion. The leg discomfort is described as cramping rather than pain or heaviness and is triggered by activity, alleviated by rest. The clinical impression documented is claudication, likely related to circulation issues in the legs. The treatment plan includes recommendations to remain active within tolerance, pace activities, take breaks as needed, and monitor for new symptoms such as pain at rest, skin changes, or chest discomfort. The patient was also offered further discussion on strategies for staying active safely.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
+- **STS Score**: 0.400
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 139 words
+
 
 ## Processing Information
 

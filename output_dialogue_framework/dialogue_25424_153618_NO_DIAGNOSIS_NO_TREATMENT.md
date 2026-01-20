@@ -87,16 +87,23 @@ For now, I’d like to arrange for further evaluation, such as an ECG and possib
 
 ## EHR Summary
 
-The patient is an over 90-year-old female presenting with acute onset shortness of breath, left arm pain, and chest discomfort. Symptoms began while lying in bed and were associated with diaphoresis, severe hypertension (BP 200/110), tachypnea (RR 40s), and hypoxemia (O2 saturation 92% on NRB). She has a history of diastolic dysfunction, congestive heart failure (CHF), sick sinus syndrome status post pacemaker, atrial tachycardia/flutter, hypertension, hypothyroidism, hypercholesterolemia, and gout; she recently stopped taking furosemide due to nocturia. On exam, she was in mild respiratory distress with elevated jugular venous pressure, crackles halfway up the lungs, and no peripheral edema. Laboratory findings included elevated glucose (193), urea nitrogen (31), and creatinine (1.2). The documented clinical impression is acute decompensated heart failure. Treatment included nitroglycerin (sprays and infusion), intravenous furosemide (total 80 mg), BIPAP support, and diuresis with a total output of 1100 cc in the emergency department. She was stabilized, weaned off BIPAP, and transferred to the CCU for further management.
+The patient is an elderly female presenting with acute onset shortness of breath and left arm/chest discomfort. Symptoms began while lying in bed and were associated with diaphoresis, severe hypertension (BP 200/110), tachypnea (RR 40), and hypoxemia (O2 sat 92% on NRB). She has a history of diastolic dysfunction, congestive heart failure (CHF), sick sinus syndrome status post pacemaker, atrial tachycardia/flutter, hypertension, and hypothyroidism, and had recently stopped taking furosemide due to nocturia. On admission, physical exam revealed mild respiratory distress, elevated jugular venous pressure, and crackles halfway up the lungs; labs showed mild renal impairment and leukocytosis. The documented diagnoses were decompensated CHF and atrial fibrillation. She was treated with intravenous furosemide, nitroglycerin infusion, BIPAP, and subsequently transitioned to oral diuretics, beta-blockers, anticoagulation, and other cardiac medications. At discharge, she was stable with no residual shortness of breath and was advised to continue her medications and follow up with cardiology.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble catching their breath, which has been causing anxiety. Symptoms include gradually worsening shortness of breath, chest discomfort, pain in the left arm and jaw, sweating during episodes (even when not overheated), and feelings of weakness, all primarily triggered by physical activity such as walking up stairs; symptoms typically improve with rest. The chest discomfort and arm pain have been present for a few months and are rated around 6 out of 10 in severity. The patient denied swelling in the ankles or feet and does not experience waking up at night short of breath. On assessment, the doctor noted that the pattern of exertional chest discomfort radiating to the arm and jaw, associated with sweating and weakness, is suggestive of angina. The doctor advised the patient to avoid strenuous activity, watch for warning signs such as chest pain unrelieved by rest, severe shortness of breath at rest, fainting, or significantly increased pain, and to seek emergency care if these occur. Further evaluation was recommended, including an ECG and blood tests, to clarify the diagnosis.
+The patient is an adult presenting with shortness of breath as the chief complaint. Symptoms include exertional dyspnea, chest discomfort, left arm pain, occasional jaw pain, sweating, and weakness, all of which have been present for several months and are triggered by physical activity such as climbing stairs. The discomfort and pain are rated at 6 out of 10 in severity, improve with rest, and are not associated with ankle swelling or nocturnal dyspnea. Relevant history regarding past medical conditions, medications, or allergies is not specified.
+
+The clinical impression documented by the doctor is possible angina, given the pattern of exertional symptoms that resolve with rest and radiate to the arm and jaw. The treatment plan includes advising the patient to avoid strenuous activity, monitoring for warning signs such as chest pain unrelieved by rest or severe shortness of breath at rest, and seeking emergency care if these occur. Further evaluation with an ECG and blood tests was recommended to clarify the diagnosis.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.530
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

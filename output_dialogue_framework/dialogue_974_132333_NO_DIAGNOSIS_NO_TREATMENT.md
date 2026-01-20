@@ -87,16 +87,21 @@ For now, I recommend prioritizing support for your mood and safety. We can also 
 
 ## EHR Summary
 
-The patient is a 39-year-old male presenting with chest pain, depression, and suicidal ideation. He reported recent cocaine use following discharge from a substance abuse treatment program, with subsequent onset of chest pain two to four hours after crack cocaine use. His history includes two prior cocaine-induced myocardial infarctions (with previously clean cardiac catheterizations), extensive polysubstance abuse, and depression. On evaluation, ECG showed diffuse ST elevations (V3–V6), creatine kinase was elevated at 4348, but MB index and troponin were negative; cardiac catheterization again revealed clean coronary arteries. The clinical impression was pericarditis and cocaine-induced rhabdomyolysis. He was treated with diltiazem, morphine sulfate (for pain), and ibuprofen, with initial ACE inhibitor and heparin discontinued after catheterization results. Abdominal pain during admission resolved spontaneously, with CT scan showing no pathology. The patient remained medically stable with decreasing creatine kinase levels and was transferred for further care.
+The patient is a 39-year-old male presenting with chest pain, depression, and suicidal ideation. He reported a recent cocaine binge, after which he developed chest pain two to four hours later, accompanied by diffuse ST elevations on ECG but with negative cardiac markers and clean coronary arteries on catheterization. His history is significant for HIV, hepatitis C, polysubstance abuse, depression, bipolar disorder, and prior cocaine-induced myocardial infarctions. The documented diagnoses were pericarditis and cocaine-induced rhabdomyolysis. He was treated with ibuprofen for pericarditis, continued on antiretroviral therapy and Dapsone, and all psychiatric medications were held during hospitalization for diagnostic clarification. The patient denied further suicidal ideation during his stay and was discharged in good condition. Discharge instructions included ibuprofen as needed for chest pain and follow-up with the Psychiatry Service.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest pain began a few days ago, has remained unchanged in severity, and was first noticed while at rest without any clear trigger; the patient also reported abdominal pain and a recent cough. No shortness of breath, sweating, or lightheadedness were noted. The patient described feeling depressed with suicidal thoughts that have affected daily routines, stating these thoughts are mostly passing but have previously felt more intense. No relevant medical history, medications, or allergies were mentioned. The doctor assessed that the chest pain is less likely cardiac in origin given its characteristics, and emphasized that the patient's mood symptoms and suicidal thoughts require immediate attention. The doctor recommended connecting with a mental health professional for support and coping strategies, advised monitoring for new or worsening physical symptoms, and stressed the importance of seeking urgent help if suicidal thoughts become overwhelming.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain began a few days ago while at rest, has remained unchanged in severity, and is not associated with exertion or specific triggers; the patient also reports concurrent abdominal pain and a recent cough. There are no associated symptoms of dyspnea, diaphoresis, or lightheadedness. The patient has a history of depressed mood and reports ongoing suicidal thoughts that have intermittently affected daily functioning, though current thoughts are described as mostly transient. The physician notes that emotional distress may be contributing to the physical symptoms and that the chest pain is less likely cardiac in origin given its characteristics. The assessment emphasizes the need for urgent attention to the patient's mental health due to the presence of suicidal ideation. The treatment plan includes referral to a mental health professional for further support and monitoring of physical symptoms, with instructions to seek immediate help if suicidal thoughts intensify or new concerning physical symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.614
+- **Model Used**: general
+- **Text1 Length**: 129 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

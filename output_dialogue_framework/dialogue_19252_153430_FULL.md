@@ -96,3 +96,21 @@ Let me know if you have any questions or if there’s anything else about your s
 ## Processing Information
 
 - **Processing Time**: 420.9s
+
+## EHR Summary
+
+The patient is a 77-year-old woman presenting with increased hoarseness and sore throat for the past week. She has a history of hypertension, insulin-dependent diabetes mellitus, chronic obstructive pulmonary disease, atrial fibrillation, deep venous thrombosis, and vocal cord polyps. Examination with fiberoptic scope revealed a 3 by 3 mm left vocal cord polyp prolapsing into the trachea, causing airway obstruction and edema. The documented diagnosis was airway obstruction secondary to vocal cord polyps and edema. She was started on Decadron and Unasyn, and her Coumadin was discontinued due to elevated INR and completed DVT treatment. The plan is for surgical removal of the polyp once her INR decreases, with preoperative labs scheduled for Monday and surgery planned for Tuesday. The patient’s throat swelling improved during admission, and she was discharged in stable condition.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with the chief complaint of progressive hoarseness. Symptoms include a hoarse voice and mild sore throat that have been worsening over several days, with discomfort increasing after prolonged speaking; there is no cough, fever, or complete loss of voice. The sore throat is described as mild and primarily uncomfortable during speech, and the patient reports some sensation of airway obstruction at times. The patient has been attempting voice rest and drinking warm fluids, which provide some relief. There is no history provided of relevant medical conditions, medications, or allergies. The clinical impression is likely mild laryngitis due to vocal cord overuse or irritation. The treatment plan includes continued voice rest, hydration with warm fluids, and avoidance of whispering or excessive speaking. The patient was advised to monitor for new or worsening symptoms such as difficulty breathing, rapidly worsening obstruction, trouble swallowing, or persistent hoarseness beyond 2-3 weeks, and to seek further evaluation if these occur.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.611
+- **Model Used**: general
+- **Text1 Length**: 133 words
+- **Text2 Length**: 161 words
+

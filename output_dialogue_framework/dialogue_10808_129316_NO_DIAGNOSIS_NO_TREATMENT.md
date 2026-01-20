@@ -89,16 +89,21 @@ Does that make sense? Is there anything else you’ve noticed that we haven’t 
 
 ## EHR Summary
 
-The patient is a 41-year-old man presenting with fever up to 102.8°F, coarse rhonchi, and a distended abdomen. He denied increased sputum production, chills, myalgias, or headache, but reported diarrhea the day prior to admission without nausea or vomiting. His medical history is significant for advanced multiple sclerosis with paraplegia, tracheostomy, PEG tube placement, repeated urinary tract infections, recurrent pneumonia, and prior MRSA infection. On admission, his respiratory status was unchanged from baseline (requiring 50% FIO2 at 10 liters). The clinical impression was a presumed bacterial infection primarily located in the abdomen. Treatment included Ceftriaxone, Vancomycin, and Flagyl initiated at the transferring facility, continuation of Ceftin for UTI, and ongoing prophylactic Tobramycin nebulizers. Additional medications included Lactulose as needed, subcutaneous Heparin, and Albuterol and Atrovent nebulizers.
+The patient is a 41-year-old man presenting with fever up to 102.8°F, coarse rhonchi, and abdominal distention. He reported diarrhea the day prior to admission but denied increased sputum, chills, myalgias, or headache. His medical history is significant for advanced multiple sclerosis with paraplegia, tracheostomy, PEG tube, recurrent urinary tract infections, and prior MRSA. On admission, physical exam showed diffuse rhonchi, a distended but non-tender abdomen, and stable respiratory status at his baseline oxygen requirements. The documented diagnoses included small bowel/colonic obstruction (resolved with conservative management), fever likely secondary to infection, and urinary tract infection. Treatment included bowel rest (NPO), G-tube to gravity, IV hydration, antibiotics (Ceftriaxone, Vancomycin—discontinued after one dose, and Flagyl), and continuation of prophylactic Tobramycin nebulizers. His condition improved with resolution of abdominal distention and defervescence of fever; tube feeds were restarted without issue. He was discharged in good condition on his baseline medications with Erythromycin for prophylaxis and instructed to follow up with his primary care and nursing home physicians.
+
 
 ## Dialogue Summary
 
-The patient presented with a persistent high fever as the chief complaint. Symptoms included a constant fever with a maximum recorded temperature of 102.8°F (axillary), rough and coarse-sounding breathing described as chest congestion with rhonchi, abdominal distention and bloating, and a single episode of diarrhea the day before presentation; the patient denied chills, sweating, or night sweats, and reported no worsening of breathing when lying down or with activity. No relevant past medical history, medications, or allergies were mentioned. On review, the doctor noted the combination of persistent fever, chest congestion with rough breathing, and abdominal bloating with recent diarrhea. The assessment was that these symptoms may indicate a viral or bacterial infection affecting both respiratory and gastrointestinal systems, such as bronchitis or mild pneumonia with GI involvement. The doctor advised monitoring for worsening symptoms (increased breathing difficulty, persistent vomiting, severe abdominal pain, or confusion), maintaining hydration, resting, and using acetaminophen or ibuprofen for fever management. The patient was instructed to seek further evaluation if symptoms persist for several more days or if warning signs develop.
+The patient presents with a chief complaint of persistent high fever, with a maximum recorded temperature of 102.8°F (axillary). Key symptoms include constant fever, chest congestion described as coarse rhonchi and rough breathing, abdominal distention, and a recent episode of diarrhea; there are no chills, sweating, or night sweats, and no worsening of dyspnea with activity or lying down. Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression is a possible viral or bacterial infection affecting both the respiratory and gastrointestinal systems, such as bronchitis or mild pneumonia with gastrointestinal involvement. The patient is advised to monitor for worsening symptoms (e.g., increased dyspnea, persistent vomiting, severe abdominal pain, confusion), maintain hydration, rest, and use acetaminophen or ibuprofen for fever management. If symptoms persist for more than a few days or worsen, in-person evaluation is recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.673
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 141 words
+
 
 ## Processing Information
 

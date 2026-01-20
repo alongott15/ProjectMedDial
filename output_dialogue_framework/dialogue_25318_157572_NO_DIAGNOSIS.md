@@ -87,16 +87,23 @@ If you notice any new symptoms—like shortness of breath, chest pain, sudden we
 
 ## EHR Summary
 
-The patient is a 75-year-old female admitted with a chief complaint of gastrointestinal bleed. She experienced nausea, vomiting, hematemesis, and had several days of melena as reported by her daughter. Her relevant medical history includes hepatocellular carcinoma with esophageal varices, status post radiofrequency ablation, diabetes mellitus type 2, recent open reduction and internal fixation of an intertrochanteric fracture, chronic pancreatitis, and prior breast carcinoma. She was recently treated for presumed aspiration pneumonia and Clostridium difficile colitis. On admission, she was taking multiple medications including Actigall, Aldactone, Axid, Glyburide, Metformin, and others; she has no known drug allergies. The clinical impression was gastrointestinal bleeding likely related to her history of esophageal varices. In the Emergency Department, the patient required intubation. Treatment details beyond intubation are not specified in the provided note.
+The patient is a 75-year-old female admitted with a gastrointestinal bleed. She presented with hematemesis, nausea, vomiting, and several days of melena, and was found to have blood oozing from her nose and mouth, abdominal distention, and elevated lactate. Her history includes hepatocellular carcinoma with esophageal varices, diabetes mellitus type 2, chronic pancreatitis, recent hip fracture repair, and prior breast carcinoma. On admission, imaging revealed ascites, portal and superior mesenteric vein thrombosis, and diffuse bowel wall thickening; laboratory studies showed elevated INR and creatinine. The documented diagnosis was gastrointestinal bleeding likely related to portal hypertension and coagulopathy in the setting of liver disease. Treatment included aggressive resuscitation with blood products, intravenous Protonix, Octreotide, empiric antibiotics (later discontinued), albumin, large volume paracentesis for ascites, insulin drip for glucose control, and supportive care including intubation and eventual extubation. No active bleeding source was found on endoscopy; a cherry red spot was ablated as a potential source. The patient stabilized and was transferred to the general medicine floor.
+
 
 ## Dialogue Summary
 
-The patient presented with increasing tiredness that has been building up over several weeks. They described feeling more drained than usual, with fatigue making daily activities such as shopping, preparing meals, and going out more difficult; however, they are still able to get out of bed and move around, though it requires more effort. Sleep quality and appetite have not changed significantly. The patient also reported progressively worsening abdominal swelling causing discomfort, but denied dizziness, lightheadedness, or shortness of breath. Relevant history includes episodes of bradycardia noted by others, though the patient did not experience symptoms during these episodes. On assessment, the doctor noted gradual worsening fatigue and abdominal swelling, with preserved mobility and stable sleep/appetite. The doctor explained that these symptoms could be related to fluid buildup from heart, liver, or kidney conditions and emphasized monitoring for new symptoms such as shortness of breath, chest pain, sudden weight gain, or leg swelling. The treatment plan included advice to rest as needed, track any changes in symptoms, and offered to discuss strategies for managing energy and comfort at home.
+The patient presents with the chief complaint of increasing tiredness (fatigue) that has been progressively worsening over several weeks. The fatigue is described as making daily activities such as shopping, meal preparation, and leaving the house more difficult, though the patient remains able to get out of bed and move around with increased effort. The patient denies dizziness, lightheadedness, or changes in sleep or appetite but reports gradually worsening abdominal swelling causing discomfort and a history of bradycardia episodes without associated symptoms. No other relevant medical history, medications, or allergies are specified.
+
+The clinical impression discussed includes possible fluid accumulation in the abdomen, with consideration of underlying heart, liver, or kidney conditions, and the importance of monitoring for related symptoms. The doctor provided education about potential causes such as anemia, low protein, or organ dysfunction and emphasized the need to monitor for new symptoms like dyspnea, chest pain, sudden weight gain, or peripheral edema. The treatment plan includes advice to rest as needed, monitor for changes, and strategies for managing energy at home. No specific diagnosis or medication was documented during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.937
-- **Similarity Label**: N/A
+- **STS Score**: 0.482
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 183 words
+
 
 ## Processing Information
 

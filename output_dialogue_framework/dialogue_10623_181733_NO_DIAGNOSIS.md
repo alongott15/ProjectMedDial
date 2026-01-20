@@ -98,3 +98,21 @@ Let me ask—have you had any recent illnesses, injuries, or changes in your usu
 ## Processing Information
 
 - **Processing Time**: 422.3s
+
+## EHR Summary
+
+The patient is a 45-year-old female presenting with abdominal pain as the chief complaint. She reported sudden onset sharp, stabbing abdominal pain since midnight, accompanied by vomiting for three days, chills (without fever), and a small, thin bowel movement the day prior; she denied diarrhea. Her past medical history is significant for Crohn's disease with large intestine fistulas and a prior sigmoid stricture. On examination, she was in distress with abdominal distension, diffuse tenderness, absent bowel sounds, and laboratory findings of leukocytosis and anemia. Imaging revealed free air and bowel perforation. The documented diagnoses were perforated viscus and perforated transverse colon in the setting of Crohn's disease. She underwent subtotal colectomy, Hartmann's procedure, end ileostomy, and take down of the splenic flexure, followed by supportive care including IV fluids, antibiotics, pain management, and gradual diet advancement. At discharge, she was stable and instructed to continue her medications, maintain a regular diet with supplements, and follow up for wound care.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with abdominal pain as the chief complaint. The pain began a few days ago, has been progressively worsening, is constant, and is aggravated by movement or palpation; no alleviating factors were identified. Associated symptoms include nausea, vomiting, chills, pale appearance, abdominal swelling and tenderness, difficulty eating or drinking, and a recent small, thin bowel movement without blood, diarrhea, or constipation. The patient reports significant impact on daily activities and has not had recent illnesses, injuries, or medication changes; current medications include Imuran and Prednisone. The clinical impression is that the symptoms may indicate a significant abdominal infection or inflammation rather than a simple stomach upset. The physician advised monitoring for warning signs such as severe pain, persistent vomiting, high fever, or inability to keep fluids down, and recommended seeking urgent care if these develop. Supportive advice included staying hydrated with small sips of water or clear fluids and resting as much as possible.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.638
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 159 words
+

@@ -87,16 +87,21 @@ Let me know if you've started any new medications recently, or if there's been a
 
 ## EHR Summary
 
-The patient is an 85-year-old female presenting with right upper quadrant pain and elevated liver function tests. She reported minimal postoperative pain following a laparoscopic cholecystectomy with cholangiogram performed on admission. Her past medical history includes cerebrovascular accident, coronary artery disease with prior myocardial infarction, hypertension, depression, hypothyroidism, myofascial pain syndrome, peripheral vascular disease, and previous fractures. Home medications included Tylenol, calcium carbonate, captopril, Premarin, Synthroid, Lopressor, Zocor, multivitamin, vitamin D, and Lactaid. During her hospital stay, she experienced mild confusion likely related to being in an unfamiliar environment but otherwise recovered well. Physical findings postoperatively included good pain control with Tylenol only, tolerance of diet, independent voiding and bowel movements, and return to baseline mental status. The documented diagnosis was symptomatic cholelithiasis requiring cholecystectomy. She was discharged in stable condition with continued supportive care and rehabilitation.
+The patient is an 85-year-old female presenting with right upper quadrant pain and elevated liver function tests. She reported minimal postoperative pain following a laparoscopic cholecystectomy with cholangiogram performed on admission. Her past medical history includes cerebrovascular accident, coronary artery disease, status post myocardial infarction, hypertension, depression, hypothyroidism, myofascial pain syndrome, peripheral vascular disease, and prior fractures. Home medications included Tylenol, calcium carbonate, captopril, Premarin, Synthroid, Lopressor, Zocor, multivitamin, vitamin D, and Lactaid. During her hospital course, she experienced mild confusion likely related to change in environment but otherwise recovered well, with good pain control and return to baseline function. The documented diagnosis was status post laparoscopic cholecystectomy with cholangiogram. She was discharged in stable condition to a rehabilitation facility with no new medications or interventions specified.
+
 
 ## Dialogue Summary
 
-The patient presented with moderate right-sided pain under the ribs, described as a dull ache persisting for at least a few days. The pain was rated 6 out of 10 in severity, did not change with activity or rest, and did not wake the patient at night. Associated symptoms included mild confusion that began around the same time as the ache, but no jaundice, changes in urine or stool color, swelling, nausea, vomiting, or loss of appetite were reported. The patient mentioned recent elevation in liver tests and denied any new medications or changes in routine. On examination, no physical findings such as jaundice or swelling were noted by the patient. The doctor assessed that the symptoms could be related to changes in liver function, possibly due to inflammation or congestion, and emphasized that confusion is a concerning sign. The treatment plan included monitoring for new symptoms such as jaundice, worsening confusion, severe abdominal pain, or vomiting, seeking prompt medical attention if these occur, and supporting liver health by staying hydrated and avoiding alcohol or unnecessary medications.
+The patient presents with right-sided subcostal pain as the chief complaint. The pain is described as a moderate, dull ache rated 6 out of 10, persistent for at least a few days, and not affected by activity, eating, or rest. Associated symptoms include mild confusion that began around the same time as the pain and a recent increase in liver test results; there is no jaundice, abnormal urine or stool color, swelling, nausea, vomiting, or appetite changes. No new medications or changes in routine were reported. The clinical impression is possible liver dysfunction, with concern for hepatic involvement given the combination of pain, confusion, and abnormal liver tests. The patient was advised to monitor for new symptoms such as jaundice, worsening confusion, severe abdominal pain, or vomiting and to seek prompt medical attention if these occur. Supportive recommendations included staying hydrated and avoiding alcohol or unnecessary medications.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.591
+- **Model Used**: general
+- **Text1 Length**: 127 words
+- **Text2 Length**: 147 words
+
 
 ## Processing Information
 

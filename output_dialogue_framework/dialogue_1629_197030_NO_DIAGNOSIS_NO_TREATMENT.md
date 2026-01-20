@@ -87,16 +87,21 @@ Would you like advice on specific wound care steps at home, or do you have quest
 
 ## EHR Summary
 
-The patient is a 41-year-old male presenting for management of a traumatic gunshot wound to the dorsal aspect of his right hand. He sustained the injury while game hunting and had previously undergone multiple debridements, resulting in significant loss of metacarpal bone and soft tissue. His past medical history includes borderline hypertension and multiple right hand surgeries; current medications include OxyContin, oxycodone, atenolol, and Keflex. On admission, physical findings included extensive bone and soft tissue deficits in the right hand. The documented clinical impression was severe traumatic injury to the right hand with composite tissue loss. Treatment included left radial forearm free tissue transfer to the dorsum of the right hand, split thickness skin graft from the left thigh to the left forearm, and placement of antibiotic-impregnated methacrylate spacers in the right hand. The patient was monitored postoperatively in the ICU and then transferred to the surgical floor for continued care.
+The patient is a 41-year-old male presenting for management of a severe right hand injury following an accidental gunshot wound sustained while hunting. He experienced extensive soft tissue, tendon, and bone loss in the right hand, with only partial metacarpal remnants remaining and significant carpal involvement. His past medical history includes borderline hypertension and multiple prior right hand surgeries. The clinical impression was complex traumatic injury to the right hand requiring reconstructive surgery. During this admission, he underwent left radial forearm free tissue transfer to the dorsum of the right hand, split thickness skin grafting from the left thigh, and placement of antibiotic-impregnated spacers. Postoperative recovery was uneventful, with pain well controlled on OxyContin and Oxycodone. He was discharged in stable condition with instructions for wound care, continued antibiotics (Keflex), aspirin, pain management, and follow-up for further surgical planning.
+
 
 ## Dialogue Summary
 
-The patient presented with a gunshot wound to the back of the right hand, seeking pain relief and reassurance about healing. The patient reported significant pain making it difficult to grip objects, write, or perform basic tasks such as eating and dressing, though finger movement was preserved but uncomfortable. There was no swelling, redness, warmth, discharge, numbness, or tingling noted, and the initial bleeding had stopped with the wound now appearing dry. No relevant medical history, medications, or allergies were mentioned; the patient was unsure of tetanus immunization status. On assessment, the doctor noted the absence of infection signs and preserved finger movement, suggesting no major nerve or tendon damage but emphasized the need for careful monitoring due to the nature of the injury. The doctor recommended a tetanus booster due to uncertain immunization status, advised keeping the wound clean and covered, and suggested over-the-counter pain relievers if tolerated. The patient was instructed to monitor for new swelling, redness, warmth, pus, increasing pain, or loss of movement and to seek prompt care if these occurred or if healing did not progress. The patient requested further advice on wound care at home and was receptive to the recommendations provided.
+The patient is an adult presenting with a gunshot wound to the back of the right hand as the chief complaint. The injury is recent, with significant pain that limits daily activities such as gripping objects, writing, eating, and dressing, though the patient retains finger movement. There are no reported signs of infection (no swelling, redness, warmth, or discharge) and no numbness or tingling; initial bleeding has stopped and the wound appears dry. Relevant history regarding tetanus immunization is uncertain. The clinical impression is a healing gunshot wound without evidence of infection or major nerve/tendon injury, but with ongoing pain and functional limitation. The treatment plan includes recommending a tetanus booster due to unclear immunization status, maintaining wound hygiene with gentle washing and sterile bandaging, and using over-the-counter pain relievers if there are no contraindications. The patient was advised to monitor for signs of infection or worsening symptoms and to seek further care if these develop or if healing does not progress. The doctor also offered to provide specific home wound care instructions.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.541
+- **Model Used**: general
+- **Text1 Length**: 139 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

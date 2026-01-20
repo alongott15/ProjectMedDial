@@ -89,16 +89,21 @@ If you have any other concerns or notice changes, I’m here to help answer your
 
 ## EHR Summary
 
-The patient is a newborn male, born at 33 weeks gestation as part of a triplet pregnancy, admitted for routine care following preterm delivery. He experienced apnea of prematurity, with no episodes in the five days prior to discharge, and developed mild hyperbilirubinemia that did not require phototherapy. Relevant history includes maternal preterm labor, inpatient magnesium sulfate treatment, and high-risk obstetric monitoring; prenatal labs were unremarkable. On physical exam, he was a well-appearing preterm infant with stable vital signs and no abnormalities. The patient remained on room air since birth and was cardiovascularly stable. He transitioned from IV fluids to full ad lib feeds with Enfamil 24 calories/oz, and his discharge weight was 2295 g. Blood cultures were negative, no antibiotics were given, and he received empiric ilotycin ointment for persistent eye drainage. Discharge diagnoses included apnea of prematurity and mild hyperbilirubinemia; recommendations included routine pediatric follow-up and standard newborn care.
+The patient is a newborn male, triplet #2, admitted after birth at 33+ weeks gestation due to prematurity. He was born via high-risk triplet pregnancy and initially presented as a well-appearing preterm infant with stable vital signs and no distress. During the hospital course, he experienced apnea of prematurity, which resolved with no episodes in the five days prior to discharge, and developed mild hyperbilirubinemia that did not require phototherapy. Relevant history includes maternal preterm labor treated with magnesium sulfate and no significant perinatal infections; blood cultures were negative and no antibiotics were given. The documented diagnoses were prematurity (33+ weeks), resolved apnea of prematurity, resolved hyperbilirubinemia, status post circumcision, and conjunctivitis versus dacryostenosis. Treatment included initial IV fluids, transition to full ad lib feeds with Enfamil 24 calories/oz, empiric ilotycin ointment for persistent eye drainage, and routine newborn care including hepatitis B vaccination. The patient passed the car seat and hearing screens and was discharged in stable condition with follow-up arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about breathing pauses in her baby. She reported that these breathing pauses have been occurring for a few days, mostly during sleep, typically lasting just a second or two, without any associated blue color around the lips or face, limpness, or difficulty feeding; the baby resumes breathing on his own. Additionally, she noted mild eye drainage present since birth. No specific triggers for the breathing pauses were identified, and they do not occur during feeding or when the baby is awake. The doctor assessed that the brief breathing pauses are likely “periodic breathing,” a common and usually harmless pattern in newborns if there are no color changes or limpness, and suggested the eye drainage may be due to a blocked tear duct. The doctor advised continued monitoring for warning signs such as persistent blue color, limpness, difficulty feeding, or pauses longer than 20 seconds, and to seek care if these occur. Otherwise, the current symptoms are expected to improve with age, and gentle cleaning was recommended for the eye drainage. The patient understood and agreed to monitor her baby and contact her healthcare provider if symptoms worsen or new concerns arise.
+The patient is a parent presenting concerns about their newborn's breathing pauses. The infant has experienced brief (1–2 second) episodes of breathing pauses primarily during sleep for several days, without associated cyanosis (blue color), limpness, or feeding difficulties; these episodes resolve spontaneously. Additionally, the parent reports mild eye drainage present since birth. There is no mention of relevant past medical history, medications, or allergies. The clinician assessed that the breathing pattern is consistent with periodic breathing of the newborn, which is typically benign in the absence of warning signs. The eye drainage was attributed to a likely blocked tear duct, a common and usually self-limited condition in newborns. The treatment plan includes continued monitoring for warning signs such as persistent cyanosis, limpness, difficulty feeding, or pauses longer than 20 seconds, with instructions to seek care if these occur. Otherwise, reassurance was provided and the parent was advised to continue gentle eye cleaning and routine observation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.932
-- **Similarity Label**: N/A
+- **STS Score**: 0.499
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 155 words
+
 
 ## Processing Information
 

@@ -87,16 +87,23 @@ If anything changes or you become concerned, please reach out. Does that help cl
 
 ## EHR Summary
 
-The patient is a 35-year-old male presenting for management of multiple intracranial aneurysms, including bilateral internal carotid bifurcation aneurysms and an anterior communicating aneurysm, previously surgically clipped. He also has a proximal right supraclinoid internal carotid artery aneurysm that was not amenable to prior clipping or endovascular coiling due to its wide neck, as well as an unclippable fusiform aneurysmal dilatation of the right ICA at the anterior choroidal artery origin. Relevant history includes hypertension, peptic ulcer disease, childhood asthma, Bell's palsy, and allergy to codeine; current medications are Tagamet and Tylenol. On admission, physical exam showed stable vital signs and a neurological exam notable for increased sensation in the left frontoparietal and temporal regions but otherwise intact cranial nerves and motor function. The documented diagnosis is multiple intracranial aneurysms with a focus on a right ICA aneurysm. The patient underwent surgical clipping of the right ICA aneurysm, complicated intraoperatively by aneurysmal rupture, which was controlled, and successful clip placement was achieved. Postoperatively, he was monitored in the Surgical Intensive Care Unit.
+The patient is a 35-year-old male presenting for management of multiple intracranial aneurysms, specifically a right internal carotid artery (ICA) aneurysm. He had a history of surgically clipped bilateral internal carotid bifurcation and anterior communicating aneurysms, with a prior unsuccessful attempt at endovascular coiling of the right ICA aneurysm due to its wide neck. Relevant history includes hypertension, peptic ulcer disease, childhood asthma, Bell's palsy, and allergy to codeine; current medications are Tagamet and Tylenol. On admission, neurological examination was notable for increased sensation in the left frontoparietal and temporal regions but otherwise intact cranial nerves and motor function. The documented diagnosis was right ICA aneurysm. He underwent successful surgical clipping of the right ICA aneurysm after intraoperative rupture was controlled. Postoperatively, he remained neurologically stable, was extubated on postoperative day one, and follow-up angiogram showed no residual aneurysm. The patient was discharged home in stable condition with instructions for neurosurgical follow-up and staple removal.
+
 
 ## Dialogue Summary
 
-The patient presented with increased sensation on the left side of the head, specifically in the frontoparietal and temporal areas. The sensation was described as heightened awareness rather than pain, tingling, or pressure, rated 4 out of 10 in severity, and had been steady for a few days without specific triggers or changes related to activity, stress, or time of day. The patient denied headaches, vision changes, weakness, numbness elsewhere, sleep disturbances, or interference with daily activities. No recent illnesses, injuries, medication changes, or lifestyle changes were reported. On examination, no additional neurological symptoms or concerning findings were noted. The doctor assessed the sensation as mild and likely related to heightened awareness of normal body sensations, minor nerve irritation, or mild muscle tension, with no evidence of serious underlying pathology. The doctor recommended monitoring for new symptoms such as persistent pain, weakness, numbness, or vision changes, and suggested gentle scalp massage or relaxation techniques; reassurance was provided that most mild sensations resolve on their own.
+The patient is an adult presenting with increased sensation on the left frontoparietal and temporal areas of the head as the chief complaint. The sensation is described as heightened awareness rather than pain, tingling, or pressure, rated 4 out of 10 in intensity, and has been steady for a few days without specific triggers or impact on daily activities, sleep, or concentration. There are no associated symptoms such as headache, vision changes, weakness, or numbness. The patient reports no recent illnesses, injuries, medication changes, or lifestyle changes.
+
+The clinical impression is that the sensation is mild and likely related to heightened awareness of normal body sensations, minor nerve irritation, or mild muscle tension. The doctor reassured the patient that the absence of other neurological symptoms and lack of functional impairment is reassuring. The treatment plan includes monitoring for new or worsening symptoms and considering gentle scalp massage or relaxation techniques if muscle tension is suspected. The patient was advised to seek further evaluation if additional symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.472
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

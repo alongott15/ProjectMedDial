@@ -85,16 +85,21 @@ Given your history of an aneurysm, it's also wise to mention these symptoms to y
 
 ## EHR Summary
 
-The patient is a 62-year-old male admitted for evaluation of a cerebral aneurysm identified on MRI, with no history of headaches, paresthesias, weakness, or speech changes. He reported a history of dyspnea on exertion, claudication after walking 50 feet, and indigestion managed with Zantac; he denied fever, chills, cough, or bleeding problems. His medical history includes hypertension and hypercholesterolemia, and he was taking Wellbutrin, an unspecified antihypertensive, an anticholesterol medication, and aspirin (stopped five days prior to admission). On examination, his blood pressure was elevated at 191/94 mmHg, but he was in no acute distress and had otherwise unremarkable physical findings. The documented diagnosis was cerebral aneurysm per MRI. The treatment plan included admission for a diagnostic cerebral angiogram. No drug allergies were reported.
+The patient is a 62-year-old male admitted for evaluation and management of a left internal carotid artery cavernous aneurysm identified on MRI, with no history of headaches, paresthesias, weakness, or speech changes. He reported a history of dyspnea on exertion, claudication after walking 50 feet, and indigestion, but denied fever, chills, cough, or bleeding problems. Relevant medical history includes hypertension, hypercholesterolemia, and use of Wellbutrin, Zantac, antihypertensive and anticholesterol medications, and aspirin (stopped five days prior to admission); he has no known drug allergies. On admission, his blood pressure was elevated at 191/94 mmHg, but he was otherwise stable and in no acute distress. The documented diagnosis was a bilobed left internal carotid artery cavernous aneurysm. Treatment included a diagnostic cerebral angiogram followed by staged embolization procedures and stent placement; the patient tolerated all procedures well and remained stable throughout his hospital course. He was discharged home in stable condition on Zantac, Diovan, Lipitor, Plavix, and aspirin, with follow-up scheduled in three weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath during activity and leg discomfort after walking approximately 50 feet. The shortness of breath has been ongoing for weeks, improves quickly with rest, and does not occur while sitting; the patient denied cough, swelling, or chest pain but reported occasional indigestion after eating. Leg cramping and discomfort also resolve within a couple of minutes of rest, but these symptoms have led the patient to cut back on walking and chores. Relevant history includes high blood pressure, increased cholesterol, and a previously identified aneurysm on MRI; no diabetes or other heart or vascular diagnoses were mentioned. On clinical review, no swelling, cough, or chest pain was noted, and the patient described symptoms as limiting daily activities. The doctor assessed that the leg discomfort improving with rest is suggestive of claudication, likely related to circulation issues in the legs, possibly due to vessel narrowing associated with hypertension and hypercholesterolemia; the shortness of breath is less likely to be due to heart failure given the absence of other concerning signs. The doctor recommended monitoring for worsening symptoms or new issues such as pain at rest, skin changes, or sores, advised staying active within limits, managing blood pressure and cholesterol, pacing activity, and reporting these symptoms to the regular doctor for further evaluation of circulation.
+The patient presents with exertional shortness of breath and leg discomfort as the main complaints. Symptoms include dyspnea and leg cramping after walking approximately 50 feet, both of which resolve within a few minutes of rest; these symptoms have persisted for several weeks and limit daily activities such as walking and chores. The patient denies chest pain, cough, or lower extremity swelling, but reports a history of high blood pressure, increased cholesterol, and a previously identified aneurysm on MRI. The clinical impression is claudication, likely due to peripheral vascular disease, with possible contribution to dyspnea from exertion but no evidence of heart failure or acute cardiac symptoms. The treatment plan includes monitoring for worsening symptoms (such as pain at rest, skin changes, or non-healing sores), staying active within tolerance, managing blood pressure and cholesterol, and avoiding overexertion. The patient is advised to inform their regular doctor about these symptoms for further evaluation of circulation. No new medications or interventions were initiated during this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.948
-- **Similarity Label**: N/A
+- **STS Score**: 0.572
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

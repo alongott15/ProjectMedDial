@@ -87,16 +87,21 @@ Let me know if you'd like suggestions for managing these symptoms at home, or if
 
 ## EHR Summary
 
-The patient is a 40-year-old male presenting with alcohol withdrawal. He experienced agitation, confusion, tremulousness, tachycardia (HR 106), and hypertension (BP 157/117), with a CIWA score of 30, and was noted to be sedated and unable to answer questions regarding his last alcohol intake. His history is significant for depression, suicidal ideation, alcohol abuse, hyperlipidemia, anxiety, obstructive sleep apnea, GERD, and possible NASH; he has no known drug allergies. On exam, he was afebrile (temp 98°F), tachycardic, hypertensive, and O2 saturation was 96% on room air. The documented diagnosis was alcohol withdrawal. Treatment included administration of 15 mg IV diazepam, 2 liters of normal saline, and 5 mg haloperidol for agitation.
+The patient is a 40-year-old male presenting with alcohol withdrawal. He experienced agitation, confusion, tremulousness, tachycardia (HR up to 109), hypertension (BP up to 157/117), and a high CIWA score of 30, requiring benzodiazepine treatment. His history includes depression, suicidal ideation, alcohol abuse, hyperlipidemia, obstructive sleep apnea, possible NASH, and GERD; he has no known drug allergies. On admission, laboratory studies showed elevated liver enzymes (ALT and AST), and he was noted to be sedated but arousable. The documented diagnoses were alcohol withdrawal, depression, transaminitis (likely due to alcohol use), and GERD. Treatment included IV diazepam, lorazepam (transitioned to oral dosing), supportive care with fluids, multivitamin, thiamine, folate, and continuation of home medications such as bupropion and pantoprazole. The patient’s withdrawal symptoms improved, and he was discharged in stable condition to an extended care psychiatric facility with instructions for follow-up and monitoring of liver function tests.
+
 
 ## Dialogue Summary
 
-The patient presented with shakiness and feeling "not myself," suspected to be related to stopping alcohol use. Symptoms included tremors, agitation, confusion described as difficulty focusing and processing information (without memory loss), feeling sedated at times, anxiety, and sleep disturbances such as trouble falling and staying asleep; these symptoms began a couple of days after stopping drinking and fluctuate in severity, sometimes improving with rest but without clear triggers. The patient denied fainting, hallucinations, or seizures, and reported that the symptoms were interfering with daily activities at home and work. No specific medical history, medications, or allergies were mentioned. On assessment, the doctor noted classic symptoms of mild to moderate alcohol withdrawal, including tremors, agitation, difficulty concentrating, and sleep problems, with reassurance that the absence of hallucinations or seizures was a positive sign. The doctor advised staying hydrated, eating regular meals, and getting adequate rest, and recommended seeking medical attention if more severe symptoms such as hallucinations or severe disorientation develop. The patient expressed understanding and requested further tips for managing anxiety and sleep issues during withdrawal.
+The patient is an adult presenting with shakiness and feeling unwell after stopping alcohol consumption. Key symptoms include tremors, agitation, anxiety, difficulty focusing, confusion (described as trouble processing rather than memory loss), and sleep disturbances such as trouble falling and staying asleep. These symptoms began a couple of days after cessation of drinking and fluctuate in severity, with no clear triggers except some relief with rest. The patient denies hallucinations, seizures, or fainting. Relevant history includes recent alcohol cessation; no other medical history, medications, or allergies are specified. The clinical impression is mild to moderate alcohol withdrawal syndrome, as indicated by the constellation of symptoms and timing after stopping drinking. The doctor advised supportive care measures including hydration, regular meals, rest, and monitoring for worsening symptoms such as hallucinations or severe disorientation. The patient was reassured that these symptoms are typical and should improve over several days to a week.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.632
+- **Model Used**: general
+- **Text1 Length**: 146 words
+- **Text2 Length**: 150 words
+
 
 ## Processing Information
 

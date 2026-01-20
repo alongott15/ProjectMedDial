@@ -93,16 +93,23 @@ For now, gentle movement, staying hydrated, and using warmth for comfort may hel
 
 ## EHR Summary
 
-The patient is an 82-year-old female presenting for evaluation of atrial flutter. She experienced increased dyspnea on exertion and a rapid, irregular heartbeat for one month, with fever and chills for the past week and a half, and was unable to get out of bed due to shortness of breath prior to admission. Her relevant history includes coronary artery disease (status post coronary artery bypass graft and mitral valve repair), hypercholesterolemia, diabetes mellitus, hypertension, and prior retroperitoneal liposarcoma resection. On review of systems, she denied chest pain, orthopnea, paroxysmal nocturnal dyspnea, and palpitations, but reported mild pedal edema and improving shortness of breath. At the outside hospital, she was diagnosed with congestive heart failure, right lower lobe pneumonia, and atrial flutter with 4:1 block. Treatment included Levaquin for pneumonia and a heparin drip for anticoagulation. She was also found to have a positive D-dimer (>1,000) and a low probability V/Q scan. Current medications include aspirin and NPH insulin.
+The patient is an 82-year-old female presenting for evaluation of atrial flutter. She reported increased dyspnea on exertion and a rapid, irregular heartbeat for one month, with fever and chills in the week and a half prior to admission; she also experienced mild pedal edema but denied chest pain, orthopnea, or palpitations. Her history includes coronary artery disease (status post CABG and mitral valve repair), hypercholesterolemia, diabetes mellitus, hypertension, and prior retroperitoneal liposarcoma resection. She was diagnosed with atrial flutter, congestive heart failure, and recent right lower lobe pneumonia. During hospitalization, she underwent atrial flutter ablation and DDD pacemaker placement, was treated with diuretics (Lasix), Captopril, Lopressor, Lipitor, aspirin, insulin, and antibiotics (Levaquin and Ancef), and was started on Coumadin. At discharge, her symptoms had resolved and she was asymptomatic with stable vital signs. She was advised to follow up in the Device Clinic and with her primary care physician, continue her medications including anticoagulation, and receive rehabilitation with regular INR monitoring.
+
 
 ## Dialogue Summary
 
-The patient presented with tenderness in both legs and the left shoulder. The tenderness had been building up over the past few days, was described as soreness (not sharp or intense), and was mainly noticeable when touching the affected areas; it made daily activities somewhat more difficult, especially when on their feet, but did not prevent most tasks. The patient denied any swelling, redness, or warmth in the legs, and reported that the tenderness had stayed about the same without improvement from rest; they also mentioned a low-grade fever of 100.7°F overnight. No specific medical history, medications, or allergies were discussed. On examination, there were no signs of swelling, redness, warmth, or significant weakness, and the discomfort was mild and steady. The doctor assessed that the symptoms were likely due to muscle strain, general achiness, or possibly a minor viral illness or fatigue, given the low-grade fever and absence of concerning signs. The doctor recommended gentle movement, stretching, use of warmth for comfort, staying hydrated, and considering over-the-counter pain relievers if there are no contraindications. The patient was advised to monitor for new symptoms such as swelling, redness, warmth, fever recurrence, or worsening condition, and to contact their healthcare provider if these occur.
+The patient is an adult presenting with tenderness in both legs and the left shoulder. The tenderness has developed gradually over the past few days, is mild, and is primarily noticeable when touching the affected areas; it is described as soreness rather than sharp pain and has not worsened. The patient reports no swelling, redness, or warmth, and daily activities are only mildly affected, though movement is somewhat slower. The patient also experienced a low-grade fever of 100.7°F overnight but denies other systemic symptoms.
+
+There is no relevant medical history, medication use, or allergies documented. The clinical impression is that the symptoms are most consistent with mild muscle strain, general achiness, or possibly a minor viral illness. The treatment plan includes gentle movement, stretching, use of warmth for comfort, staying hydrated, and considering over-the-counter pain relievers if there are no contraindications. The patient was advised to monitor for new or worsening symptoms such as swelling, redness, significant weakness, or persistent fever and to seek further evaluation if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.943
-- **Similarity Label**: N/A
+- **STS Score**: 0.355
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

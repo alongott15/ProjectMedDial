@@ -87,16 +87,21 @@ For now, let's arrange for you to have a check-up soon to look into this further
 
 ## EHR Summary
 
-The patient is a 70-year-old male presenting with several months of exertional dyspnea and chest pressure. Symptoms were associated with a positive stress thallium test and EKG changes. His relevant history includes hypertension, hypercholesterolemia, diabetes, remote tobacco use, silent myocardial infarction, and prior esophageal dilatation; home medications included Toprol XL, Prilosec, Captopril, Lipitor, and aspirin. On examination, he was in no acute distress with stable vital signs and normal peripheral pulses. Cardiac catheterization revealed 90% stenosis of the LAD and left circumflex arteries with preserved LVEF (65%). The documented diagnosis was severe coronary artery disease. He underwent coronary artery bypass grafting (CABG) and postoperatively experienced an episode of supraventricular tachycardia/rapid atrial fibrillation managed with diltiazem and fluid boluses after initial unsuccessful treatment with Lopressor.
+The patient is a 70-year-old male presenting with several months of exertional dyspnea and chest pressure. Symptoms included shortness of breath and chest discomfort on exertion, with a positive stress thallium test and EKG changes noted. His relevant history includes hypertension, hypercholesterolemia, diabetes, remote tobacco use, silent myocardial infarction (MI), and prior esophageal dilatation; home medications included Toprol XL, Prilosec, Captopril, Lipitor, and aspirin. Cardiac catheterization revealed significant coronary artery disease with 90% stenosis in both the LAD and left circumflex arteries. The documented diagnosis was severe coronary artery disease status post coronary artery bypass grafting (CABG), complicated by postoperative atrial fibrillation. Treatment included CABG surgery, management of atrial fibrillation with amiodarone and increased Lopressor, diuresis with Lasix for mild fluid overload, and discharge on a regimen including aspirin, Zantac, Colace, potassium chloride, Lasix, Lopressor, amiodarone, and Percocet as needed. The patient was discharged in good condition with a heart monitor for outpatient rhythm surveillance and follow-up arranged with cardiology and surgery.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath during activity and a sensation of chest pressure. Symptoms have been present for a few days, are triggered by physical exertion such as carrying groceries or climbing stairs, and improve quickly with rest; the chest pressure is described as moderate, with a heaviness or squeezing quality, and does not radiate to the neck, jaw, shoulder, or arm. The patient denied swelling in the legs, cough, lightheadedness, or symptoms at rest. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that exertional chest pressure and dyspnea without symptoms at rest or associated features can sometimes indicate heart or lung issues, such as narrowed heart arteries, but the absence of other symptoms is somewhat reassuring. The doctor advised the patient to avoid strenuous activity until further evaluation and to seek immediate care if symptoms worsen or new symptoms develop (such as fainting, severe pain, sweating, or nausea). A follow-up check-up with a physical exam and basic heart tests was recommended to investigate further. The patient understood and agreed with the plan.
+The patient presents with the chief complaint of exertional shortness of breath and chest pressure. Symptoms have been present for several days, are moderate in severity, described as a heaviness or squeezing (not sharp), and are triggered by physical activity such as carrying groceries or climbing stairs; they resolve quickly with rest and do not occur at rest. The patient denies associated symptoms such as leg swelling, cough, lightheadedness, or radiation of chest discomfort. Relevant history regarding past medical conditions, medications, or allergies is not specified in the dialogue. The clinical impression is that these symptoms may be related to cardiac or pulmonary causes, such as narrowed heart arteries or lung issues, but no definitive diagnosis is documented. The treatment plan includes advising the patient to avoid strenuous activity until further evaluation, monitoring for worsening or new symptoms (such as symptoms at rest, severe pain, fainting, sweating, or nausea), and scheduling a follow-up for a physical exam and basic heart tests. Immediate medical attention is recommended if symptoms worsen or new concerning features develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.528
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 174 words
+
 
 ## Processing Information
 

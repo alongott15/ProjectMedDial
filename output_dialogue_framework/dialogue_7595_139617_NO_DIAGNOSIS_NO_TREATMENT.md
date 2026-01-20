@@ -85,16 +85,21 @@ If you notice the pain coming on at rest, any wounds that aren’t healing, or c
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with right lower extremity (RLE) claudication. He reported symptoms consistent with claudication in the right leg, prompting surgical evaluation. His relevant history includes coronary artery disease status post myocardial infarction and coronary artery bypass grafting, moderate mitral regurgitation, moderate pulmonary hypertension, hypertension, hyperlipidemia, esophagitis, prior aortobifemoral bypass, carotid endarterectomies, and right radial artery thrombectomy; he has a remote smoking history and allergies to Percocet/Oxycontin. On physical exam, he was alert and oriented, in no acute distress, with palpable femoral and distal pulses in the right leg. Laboratory findings showed mild anemia (Hgb 9.4 g/dL, Hct 26.4%). The documented diagnosis was right lower extremity claudication due to peripheral arterial disease. Treatment included right femoral endarterectomy with patch angioplasty and right superficial femoral artery angioplasty and stenting, performed without complications. He was discharged on aspirin, clopidogrel, atorvastatin, lisinopril, metoprolol, and pantoprazole.
+The patient is a 58-year-old male presenting with right lower extremity (RLE) claudication. He reported pain in the right leg with walking, consistent with claudication symptoms. His medical history includes coronary artery disease status post myocardial infarction and coronary artery bypass grafting, moderate mitral regurgitation, moderate pulmonary hypertension, hypertension, hyperlipidemia, esophagitis, prior aortobifemoral bypass, carotid endarterectomies, and right radial artery thrombectomy; he is allergic to Percocet and Oxycontin. The documented diagnosis was right lower extremity claudication. During admission, he underwent right femoral endarterectomy with patch angioplasty and right superficial femoral artery angioplasty and stenting without complications. He was discharged in good condition on aspirin, atorvastatin, lisinopril, metoprolol, clopidogrel, pantoprazole, and oxycodone-acetaminophen as needed. Discharge instructions included taking all medications as prescribed, monitoring for concerning symptoms, walking several times daily, and scheduling a follow-up appointment.
+
 
 ## Dialogue Summary
 
-The patient presented with pain and tightness in the right leg during walking. Symptoms included discomfort that worsens with continued walking, improves quickly with rest, and has been present consistently for a few weeks; the patient denied numbness, tingling, or changes in color or temperature of the leg or foot. The discomfort has limited the patient's ability to walk long distances and perform usual activities, but does not occur at rest and has remained stable over the past few weeks. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor identified the symptoms as consistent with claudication, likely due to reduced blood flow from arterial narrowing. The doctor noted the absence of concerning features such as rest pain or skin changes, indicating a non-urgent situation. Recommendations included regular, moderate exercise (walking until discomfort, then resting and repeating), maintaining a healthy diet, and managing other health conditions, with advice to seek urgent care if new symptoms develop. The patient expressed understanding and interest in further tips for improving circulation.
+The patient is an adult presenting with right leg pain and tightness as the chief complaint. Symptoms include discomfort that begins after walking a certain distance, worsens with continued walking, and resolves quickly with rest; there is no numbness, tingling, or changes in color or temperature. The symptoms have been present for several weeks without significant change and have limited the patient’s ability to perform usual activities such as longer walks and errands. There is no mention of relevant medical history, medications, or allergies. The documented clinical impression is claudication, likely due to reduced blood flow from arterial narrowing. The physician notes that the absence of rest pain or sensory/skin changes is reassuring and suggests the condition is not urgent. The treatment plan includes lifestyle modifications such as regular, moderate exercise (walking until discomfort, then resting and repeating), maintaining a healthy diet, and managing other health conditions. The patient is advised to seek urgent care if symptoms occur at rest or if there are changes in skin color, temperature, or non-healing wounds.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.587
+- **Model Used**: general
+- **Text1 Length**: 134 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

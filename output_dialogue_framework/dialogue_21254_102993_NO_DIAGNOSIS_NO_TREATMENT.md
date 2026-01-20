@@ -87,16 +87,23 @@ If you have any concerns about these episodes getting worse or happening more of
 
 ## EHR Summary
 
-The patient is a newborn male delivered at 32 1/7 weeks gestation, admitted for management of prematurity. He presented with moderate nasal flaring and mild retractions shortly after birth but remained pink in room air. Apgar scores were 7 and 8 at one and five minutes, respectively. Relevant maternal history includes depression (not currently treated), hypothyroidism (treated with Armour), fibroids, and cervical shortening; the mother received antibiotics prior to delivery due to unknown Group B Streptococcus status and prematurity. On physical exam, the infant was non-dysmorphic with normal vital signs and growth parameters appropriate for gestational age. The clinical impression was prematurity with mild respiratory distress. The treatment plan included admission to the Intensive Care Nursery for supportive care and monitoring.
+The patient is a newborn male delivered at 32-1/7 weeks gestation, admitted for management of prematurity. He presented with respiratory distress at birth, including grunting, nasal flaring, and mild retractions, and required CPAP and supplemental oxygen initially; symptoms resolved within the first day. The infant experienced occasional apnea and bradycardia spells that did not require pharmacologic intervention, and developed indirect hyperbilirubinemia treated with phototherapy from day two to day six. Relevant maternal history includes hypothyroidism and depression, with pregnancy complicated by fibroids and cervical shortening. The documented diagnoses were appropriate for gestational age preterm male, transient tachypnea of the newborn (resolved), apnea of prematurity, indirect hyperbilirubinemia (resolving), and sepsis ruled out. Treatment included CPAP, phototherapy, a 48-hour course of ampicillin and gentamicin for rule-out sepsis, gradual advancement to full enteral feeds with fortified breast milk, and initiation of ferrous sulfate supplementation. At discharge, the infant was stable, tolerating feeds, and recommendations included advancing calories as needed for weight gain and completion of newborn screening. No immunizations had been given at the time of discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about episodes where her baby stops breathing and has a low heart rate. The episodes began a couple of days ago, occur mostly during sleep, last only a few seconds, and resolve with gentle stimulation; there have been no associated color changes (cyanosis or pallor) or abnormal movements, and the baby remains alert and feeds normally between episodes. Additionally, the patient reported a diaper rash characterized by redness, white patches, and increased fussiness during diaper changes. No relevant medical history, medications, or allergies were mentioned. On clinical assessment, the doctor noted brief pauses in breathing during sleep without color changes or abnormal movements, and a diaper rash with features suggestive of a yeast infection. The doctor assessed the breathing episodes as likely “apparent life-threatening events” or “brief resolved unexplained events,” which are usually not dangerous but require close monitoring; the diaper rash was assessed as likely a yeast infection. The doctor recommended monitoring the baby closely during sleep and seeking medical care if symptoms worsen or new concerning signs appear, and advised keeping the diaper area clean and dry while using an antifungal cream for the rash.
+The patient is a parent presenting concerns about their infant experiencing episodes of apnea (brief pauses in breathing) and apparent bradycardia (low heart rate). These episodes began approximately two days ago, occur mostly during sleep, last only a few seconds, and resolve with gentle stimulation; there have been no associated color changes (cyanosis or pallor) or abnormal movements. Between episodes, the infant is alert, feeds well, and wakes easily. Additionally, the parent reports a diaper rash characterized by redness, white patches, and increased fussiness during diaper changes.
+
+The clinical impression is that the infant is experiencing brief resolved unexplained events (BRUE), previously known as apparent life-threatening events (ALTE), and a likely yeast (candida) diaper rash. The physician reassured the parent that these episodes are often not dangerous when there are no color changes or persistent symptoms and advised close monitoring for any worsening or new concerning signs such as cyanosis, limpness, poor feeding, or fever. For the diaper rash, the recommendation was to keep the area clean and dry and to use an antifungal cream. The parent was instructed to seek medical care promptly if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.491
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 191 words
+
 
 ## Processing Information
 

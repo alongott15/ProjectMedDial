@@ -87,16 +87,21 @@ Do you have any questions or concerns about what we’ve talked about so far?
 
 ## EHR Summary
 
-The patient is a 78-year-old female presenting with exertional angina, shortness of breath (SOB), and dizziness. She has a history of aortic stenosis (AS) and now reports angina and dyspnea on exertion (DOE). Her past medical history includes hypertension, dyslipidemia, GERD, osteoporosis, and recent fall, among other conditions; she is allergic to Lisinopril, Diovan, and latex. On physical exam, she was not in acute distress, had a 3/6 systolic ejection murmur at the left sternal border, and positive carotid bruits; laboratory results showed mild anemia and thrombocytopenia. Cardiac catheterization revealed significant coronary artery disease and severe aortic stenosis with a valve area of 0.7 cm². The documented diagnosis was severe aortic stenosis with associated angina and exertional symptoms. She underwent aortic valve replacement (AVR) with a #19 CE Magna pericardial valve and repair of the coronary sinus. Postoperative care included monitoring labs and supportive management.
+The patient is a 78-year-old female presenting with exertional angina, shortness of breath (dyspnea on exertion), and dizziness. Symptoms were associated with known aortic stenosis (AS) and were significant enough to prompt referral for cardiac catheterization, which revealed moderate coronary artery disease and severe aortic valve narrowing. Her past medical history includes hypertension, dyslipidemia, GERD, osteoporosis, cataracts, bladder prolapse, and recent fall, with allergies to Lisinopril, Diovan, and latex. The documented diagnoses at discharge were aortic stenosis, hypertension, hyperlipidemia, GERD, osteoporosis, cataracts, bladder prolapse, left inguinal hernia, right adrenal cyst, prior abdominal resuspension, hemorrhoid repair, and breast implants. During admission, she underwent aortic valve replacement (AVR) and repair of the coronary sinus without major complications. Postoperatively, she was managed with beta-blockade, gentle diuresis, and supportive care; ACE inhibitors were discontinued due to possible allergy. She was discharged home in good condition with instructions for wound care, activity restrictions, and follow-up appointments. Discharge medications included atorvastatin, aspirin, metoprolol, omeprazole, furosemide (short course), potassium chloride (short course), docusate sodium, and acetaminophen-codeine as needed.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort during physical activity. Symptoms included chest tightness or pressure, shortness of breath, dizziness, and occasional mild nausea, all occurring with exertion and resolving within a few minutes of rest; the patient reported needing to slow down daily activities such as walking and climbing stairs due to these symptoms. No symptoms occurred at rest, and the discomfort did not linger after stopping activity. No relevant medical history, medications, or allergies were mentioned. On clinical questioning, the patient described the chest discomfort as tightness or pressure rather than sharp pain, with associated breathlessness and dizziness during exertion. The doctor assessed that these symptoms are consistent with angina, suggesting the heart may not be getting enough oxygen during activity. The doctor advised the patient to avoid activities that trigger symptoms, monitor for any changes such as symptoms at rest or increased severity, and seek immediate medical attention if new or worsening symptoms occur. A follow-up was recommended for further evaluation and discussion of potential treatments and tests.
+The patient presents with chest discomfort as the chief complaint. The chest pain is described as a tightness or pressure that occurs during physical activity and resolves within a few minutes of rest; it is accompanied by shortness of breath, occasional dizziness, and mild nausea, but does not occur at rest. The symptoms have been present for approximately two weeks and have led to significant limitation of daily activities such as walking and climbing stairs. There is no mention of relevant past medical history, medications, or allergies in the dialogue. The clinical impression documented by the doctor is angina, likely due to the heart not receiving enough oxygen during exertion. The patient was advised to avoid activities that provoke symptoms, monitor for any worsening or new symptoms (such as pain at rest, increased intensity, fainting, or cold sweats), and seek immediate medical attention if these occur. A follow-up appointment for further evaluation and possible diagnostic testing was recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.517
+- **Model Used**: general
+- **Text1 Length**: 171 words
+- **Text2 Length**: 158 words
+
 
 ## Processing Information
 

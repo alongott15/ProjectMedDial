@@ -87,16 +87,23 @@ Let’s also arrange for you to see your cardiologist or have further evaluation
 
 ## EHR Summary
 
-The patient is a 78-year-old female presenting with angina and dyspnea on exertion. She reports recent onset of chest pain associated with shortness of breath during activity. Her medical history is significant for coronary artery disease with prior coronary artery bypass grafting (CABG) in 2165, peripheral vascular disease with multiple interventions, aortic stenosis, chronic anemia, gastrointestinal bleeding, hemolytic anemia, homocystinemia, and carotid stenosis. Physical exam revealed a loud blowing systolic murmur, clear lungs, and well-healed surgical incisions. During this admission, she underwent endoscopic cauterization of angioectasia in the lesser curvature of the stomach for gastrointestinal bleeding. The documented diagnosis includes angina and dyspnea on exertion in the context of significant cardiovascular disease. Treatment included the endoscopic procedure for GI bleeding; further management details are not specified in the note.
+The patient is a 78-year-old female presenting with angina and dyspnea on exertion. She reported recent episodes of chest pain associated with shortness of breath during activity. Her medical history includes coronary artery disease with prior coronary artery bypass grafting, peripheral vascular disease, aortic stenosis, chronic anemia, gastrointestinal bleeding, and multiple vascular interventions; she has allergies to atorvastatin, clarithromycin, Biaxin, gemfibrozil, and influenza vaccine. During this admission, she was scheduled for aortic valve replacement and repeat coronary artery bypass grafting, but the procedure was cancelled due to an upper gastrointestinal bleed discovered after anesthesia induction. Gastroenterology identified and endoscopically cauterized an angiotasia in the lesser curvature of the stomach. The documented diagnoses were status post endoscopic cauterization of gastric angiotasia and preoperative evaluation for redo sternotomy with AVR/CABG. She was discharged in good condition with instructions for weekly hematocrit checks for two weeks, continuation of most home medications (excluding Plavix and digoxin), and plans to proceed with cardiac surgery if hematocrit remains stable.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. He reported experiencing chest pressure that comes and goes over the past few days, particularly during walking or physical activity, and associated shortness of breath that has made daily activities more difficult; symptoms have remained stable without improvement or worsening. He denied associated symptoms such as sweating, nausea, or lightheadedness. Relevant history includes prior coronary artery bypass surgery and previous episodes of similar chest discomfort and shortness of breath. The doctor noted that the chest pressure is exertional and relieved by rest, with no acute changes in severity. The assessment was that the symptoms are likely angina, given the patient’s cardiac history and exertional nature of the discomfort. The doctor advised avoiding strenuous activities, monitoring for worsening or new symptoms, and seeking immediate care if symptoms occur at rest or are accompanied by severe weakness, fainting, or pain radiating to the jaw or arm. Further evaluation with a cardiologist was recommended, and the patient reported that resting helps relieve the discomfort.
+The patient is an adult with a history of coronary artery bypass surgery presenting with chest pain as the chief complaint. The chest pain is described as a pressure sensation that comes and goes, typically triggered by physical activity and relieved by rest, and has been present for several days without significant change. The patient also reports exertional shortness of breath that has made daily activities more difficult, but denies associated symptoms such as sweating, nausea, or lightheadedness. Relevant history includes previous heart problems and similar episodes of chest discomfort and dyspnea in the past.
+
+The clinical impression documented is likely angina, given the patient’s cardiac history and exertional symptoms. The treatment plan includes avoiding strenuous activities, monitoring for worsening or new symptoms (such as pain at rest, fainting, or radiation of pain), and arranging follow-up with a cardiologist for further evaluation and possible adjustment of medications or additional testing. The patient notes that resting alleviates the chest pressure. No new medications or acute interventions were initiated during this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.642
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

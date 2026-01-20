@@ -99,16 +99,21 @@ If you have any other questions or concerns as you watch your baby, feel free to
 
 ## EHR Summary
 
-The patient is a newborn male delivered at 34 1/7 weeks gestation via cesarean section due to concerns about fetal growth. At birth, he was extremely pale, had no tone, and exhibited no respiratory effort, requiring bag and mask ventilation for approximately one and a half minutes; Apgar scores were 2 at 1 minute, 8 at 5 minutes, and 9 at 10 minutes. The infant's birth weight was 1440 g (10th to 25th percentile), and he was slightly pale but essentially pink, alert, and reactive on initial examination. Relevant maternal history includes a quadruplet pregnancy reduced to triplets, preterm labor treated with betamethasone, and normal prenatal screening. Physical exam revealed stable vital signs and no significant abnormalities aside from mild pallor. The clinical impression was a preterm male with initial respiratory depression at birth, likely related to prematurity. Treatment included immediate resuscitation with bag and mask ventilation and supportive care in the neonatal period. The patient was discharged in stable condition with a discharge weight of 1680 g.
+The patient is a newborn male, triplet #1, delivered at 34-1/7 weeks gestation by cesarean section due to concerns about fetal growth. At birth, he was extremely pale, had no tone or respiratory effort, and required bag and mask ventilation for approximately 1.5 minutes, with Apgar scores improving from 2 at 1 minute to 8 at 5 minutes and 9 at 10 minutes. He remained stable during his hospital course, with no respiratory distress, apnea, bradycardia, or desaturations, and advanced to full enteral feedings without issue. Relevant history includes prematurity and initial hypoglycemia that resolved with intravenous glucose. The documented diagnoses were prematurity (34-1/7 weeks) and status post physiologic hyperbilirubinemia. Treatment included phototherapy for hyperbilirubinemia, supplemental iron and vitamin E, and nutritional support with breast milk or E-26 formula. At discharge, the infant was stable and sent home with family, with recommendations to continue breastfeeding and formula supplementation, follow up with the pediatrician, and consider routine immunizations when appropriate.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about their baby’s pale appearance immediately after birth. The baby was noted to be very pale and had low muscle tone (“floppy”) right after delivery, with gradual improvement in both color and tone over the first few hours; currently, the baby remains slightly pale but is otherwise alert and responsive. No feeding difficulties, trouble sucking or swallowing, unusual sleepiness, yellowing of the skin or eyes, abnormal breathing, fussiness, bruising, or bleeding from the umbilical cord area were reported. The doctor observed that the baby’s pallor and low muscle tone improved within hours and that there are no ongoing issues with alertness, feeding, or breathing. The assessment was that these symptoms likely reflect a brief adjustment period after birth, possibly related to delivery stress or temporary changes in circulation or oxygen levels, with reassuring improvement. The doctor recommended gentle monitoring at home, watching for new symptoms such as worsening pallor, feeding difficulties, persistent sleepiness, rapid or labored breathing, or jaundice. If any of these symptoms develop or if the pallor worsens, the patient was advised to seek prompt evaluation; otherwise, continued observation is appropriate.
+The patient is concerned about their newborn’s pale color and low muscle tone observed immediately after birth. The baby was described as noticeably pale and floppy right after delivery, with gradual improvement in both color and muscle tone over the first few hours; mild pallor persists, but there are no ongoing issues with feeding, alertness, breathing, or bleeding. There have been no signs of jaundice, unusual sleepiness, or difficulty feeding. Relevant history regarding delivery complications, medications, or allergies was not specified. The clinical impression is that the initial pallor and hypotonia likely reflect a brief adjustment period after birth, possibly related to delivery stress or transient changes in oxygenation or circulation. No serious underlying condition is suspected given the improvement and absence of other symptoms. The treatment plan includes gentle monitoring at home, watching for any new symptoms such as worsening pallor, feeding difficulties, persistent sleepiness, breathing problems, or yellowing of the skin. The doctor advised prompt evaluation if any concerning symptoms develop and encouraged the parent to reach out with further questions.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.633
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

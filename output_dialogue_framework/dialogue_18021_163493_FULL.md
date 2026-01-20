@@ -89,16 +89,23 @@ Let me know if you have any questions or concerns about what I've explained, or 
 
 ## EHR Summary
 
-The patient is a 68-year-old male presenting with melena and lightheadedness. He reported awakening with lightheadedness and dyspnea, followed by a melanotic bowel movement; he denied chest pain, abdominal pain, nausea, vomiting, hemoptysis, hematemesis, or hematuria. His past medical history includes dyslipidemia and a previous gastric ulcer; he has also been taking naprosyn for shoulder pain. On examination, his vital signs were notable for blood pressure of 152/49 mmHg and heart rate of 96 bpm; abdominal exam was benign, and stools were trace hemoccult positive with a hematocrit of 30. Nasogastric lavage returned blood-tinged fluid that cleared after 750 cc. The documented diagnosis was gastrointestinal bleeding, likely related to peptic ulcer disease. Treatment included initiation of intravenous proton pump inhibitor (PPI) therapy and planning for esophagogastroduodenoscopy (EGD).
+The patient is a 68-year-old male presenting with melena, lightheadedness, and shortness of breath. He reported awakening with lightheadedness and dyspnea, followed by a melanotic bowel movement; he denied chest pain, abdominal pain, nausea, vomiting, hemoptysis, hematemesis, or hematuria. His past medical history includes dyslipidemia and a remote history of gastric ulcer, and he had been taking naprosyn for shoulder pain. On admission, laboratory studies showed anemia (hematocrit as low as 24.4), and nasogastric lavage returned blood-tinged fluid. The documented diagnoses were duodenal ulcer with bleeding and blood loss anemia. He was treated with intravenous proton pump inhibitor (PPI), received transfusions for anemia, and underwent EGD which revealed a non-bleeding duodenal ulcer and erosions. At discharge, his hematocrit was stable, he was tolerating food, and he was prescribed oral pantoprazole with instructions to avoid NSAIDs. He was advised to follow up with his physician and avoid medications containing ibuprofen or aspirin.
+
 
 ## Dialogue Summary
 
-The patient presented with dark stools as the chief complaint. They reported noticing almost black, sticky stools for a few days, along with feeling lightheaded (especially when standing), increased tiredness, and more shortness of breath than usual during daily activities. The patient denied any stomach pain, changes in appetite, unusual bruising, gum bleeding, or nosebleeds, but noted that these symptoms have made daily tasks and running errands more difficult. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the black, tar-like stools and associated symptoms could indicate slow bleeding in the upper digestive tract, possibly leading to anemia from ongoing blood loss. The doctor recommended prompt evaluation with blood tests to check for anemia and further investigation to identify the source of bleeding. The patient was advised to rest, avoid strenuous activity, and seek immediate help if symptoms worsen or if fresh red blood appears in stool or vomit. The patient expressed understanding of the explanation and plan.
+The patient is an adult presenting with the chief complaint of dark stools. Over the past few days, they have noticed black, sticky stools and report associated symptoms of lightheadedness (especially on standing), increased fatigue, and exertional shortness of breath, which have made daily activities more difficult. The patient denies abdominal pain, changes in appetite, unusual bruising, gum bleeding, or nosebleeds. There is no mention of relevant past medical history, medications, or allergies.
+
+The clinical impression is possible slow gastrointestinal bleeding from the upper digestive tract, leading to anemia. The physician explained that the combination of melena (black, tarry stools), lightheadedness, and dyspnea may indicate ongoing blood loss and reduced oxygen-carrying capacity. The recommended plan includes prompt evaluation with blood tests to assess blood count and further investigation to identify the bleeding source. The patient was advised to rest, avoid strenuous activity, and seek immediate care if symptoms worsen or if there is evidence of fresh bleeding.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.651
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ If you have another fainting episode or notice any new symptoms, please let your
 
 ## EHR Summary
 
-The patient is a 41-year-old woman presenting with a syncopal episode resulting in a fall. She was initially admitted after the event and found to have a right internal carotid artery bifurcation aneurysm on angiogram. Her relevant history includes this aneurysm and a recent surgical clipping procedure. On examination, she was consistently awake, alert, and neurologically intact, with minimal frontal and periorbital edema and no focal deficits. The documented diagnosis was a right internal carotid artery bifurcation aneurysm status post clipping. Postoperative imaging confirmed successful clipping of the aneurysm. The treatment plan included surgical clipping, postoperative monitoring, gradual weaning from intravenous medications, and supportive care; she was discharged home in stable condition.
+The patient is a 41-year-old woman presenting with a syncopal episode resulting in a fall. She was initially admitted and found to have a right internal carotid artery bifurcation aneurysm, for which she underwent surgical clipping. Postoperatively, she experienced minimal frontal and periorbital edema but remained neurologically intact, with no speech or motor deficits and stable laboratory studies. Her recovery was uneventful, and follow-up angiography confirmed successful aneurysm clipping. The documented diagnosis was right internal carotid artery bifurcation aneurysm status post clipping. She was discharged in stable condition with instructions for staple removal in two days and follow-up in 10–14 days. Discharge medications included Percocet as needed for pain and Colace for bowel regulation.
+
 
 ## Dialogue Summary
 
-The patient presented with a recent episode of fainting and a fall backward. They reported no warning signs prior to fainting, such as dizziness, lightheadedness, nausea, or sweating, and described the event as sudden. Since the episode, the patient has experienced mild swelling around the forehead and eyes, which is improving, without bruising, significant tenderness, headaches, vision changes, confusion, weakness, or difficulty with daily activities. No relevant medical history, medications, or allergies were mentioned. On examination, the doctor noted mild, resolving edema around the forehead and eyes and no ongoing neurological symptoms. The doctor assessed this as a single fainting episode likely due to vasovagal syncope or a brief drop in blood pressure, with reassuring recovery and no persistent symptoms. The treatment plan included monitoring for warning signs such as severe headache, repeated vomiting, worsening swelling, confusion, vision changes, or weakness; using gentle cold compresses for swelling; and seeking care if new symptoms develop. The patient expressed understanding and felt comfortable with the plan.
+The patient is an adult presenting with a chief complaint of a recent fainting episode followed by a fall. The episode occurred suddenly without preceding symptoms such as dizziness, lightheadedness, nausea, or sweating, and there was no prior history of fainting. After the event, the patient reported no confusion, weakness, or difficulty with daily activities, but did note mild swelling around the forehead and eyes without significant bruising or tenderness; the swelling has been improving. There were no headaches, vision changes, or other new symptoms following the fall. The documented clinical impression was a single episode of syncope, likely vasovagal in nature, with minor head trauma. The treatment plan included reassurance, advice to monitor for warning signs such as severe headache, worsening swelling, confusion, or neurological changes, and the use of gentle cold compresses for swelling. The patient was instructed to seek prompt care if concerning symptoms develop and to notify their provider if another fainting episode occurs. No ongoing concerns were expressed by the patient at the end of the visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.418
+- **Model Used**: general
+- **Text1 Length**: 114 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ Is the discomfort impacting your ability to enjoy your usual routines, or are yo
 
 ## EHR Summary
 
-The patient is an 85-year-old female presenting with nausea, vomiting, and chest pain. Her symptoms of chronic chest pain, along with worsening nausea and vomiting, had intensified over the two days prior to admission, and she had not eaten for 24 hours before presentation. Her past medical history includes temporal arteritis (previously treated with steroids), abdominal aortic aneurysm, dilated ascending aorta, congestive heart failure, osteoarthritis, depression, shingles, moderate symmetric left ventricular hypertrophy, severe global left ventricular hypokinesis, and moderate pulmonary artery hypertension. On admission, she was hypotensive en route to the hospital and was intubated; in the Emergency Department, CT imaging showed no change in her known aortic pathology and EKG was unchanged from baseline. She became normotensive after arrival. The documented clinical impression was management of chest pain and gastrointestinal symptoms in the context of significant cardiac history. She was admitted to the intensive care unit for further management and monitoring. Specific treatments or medications during this admission are not detailed in the provided note.
+The patient is an 85-year-old female presenting with nausea, vomiting, and chest pain. Symptoms included chronic chest pain with worsening nausea and vomiting over two days prior to admission, leading to poor oral intake and hypotension requiring intubation en route to the hospital. Her relevant history includes temporal arteritis, abdominal aortic aneurysm, dilated ascending aorta, congestive heart failure, osteoarthritis, anemia of chronic disease, and depression; she has no known drug allergies and was on multiple medications including atorvastatin, aspirin, sertraline, and others. The documented diagnoses were dehydration, diarrhea, osteoarthritis, giant-cell arteritis, depression, and anemia. Treatment included fluid resuscitation, transfusion of one unit of packed red blood cells for anemia, intravenous fluids for dehydration, and a seven-day course of Bactrim for urinary tract infection. Pain management was provided with acetaminophen and tramadol, while non-steroidal anti-inflammatory drugs were held due to concerns for gastritis. Cardiac medications were temporarily held due to hypotension. The patient was discharged in good condition with follow-up arranged with her primary care physician and likely transfer to a skilled nursing facility.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort as the chief complaint. Symptoms included mild to moderate chest pressure lasting a few days, which sometimes moved into the neck and was accompanied by pain around the head and neck; the discomfort was not associated with shortness of breath, lightheadedness, sweating, cough, fever, or cold symptoms, and did not worsen with activity, eating, or lying down. The patient reported being able to perform most daily activities but needed to slow down due to the discomfort, and also mentioned knee discomfort and arthritis. No acute physical findings were described during the visit. The doctor assessed that the chest and neck discomfort was mild to moderate, persistent for several days, and likely related to muscle strain, mild inflammation, tension, or stress, with no strong warning signs for serious conditions. The doctor recommended gentle movement, staying hydrated, and using a warm compress for muscle tension. The patient was advised to monitor for worsening symptoms or new concerning signs such as severe pain, difficulty breathing, or faintness, and to seek care promptly if these occurred.
+The patient presents with chest discomfort as the chief complaint. The discomfort has been present for a few days, is described as a pressure rather than sharp pain, and is mild to moderate in severity; it sometimes radiates to the neck and is associated with some head and neck pain. The symptoms are not triggered by activity, eating, or position, and are not accompanied by dyspnea, lightheadedness, sweating, cough, fever, or cold symptoms. The discomfort does not interfere with sleep but causes the patient to slow down during daily activities. Relevant history includes knee discomfort and arthritis. The clinical impression is that the symptoms are likely due to muscle strain, mild inflammation, or stress, with no strong warning signs of a serious condition documented. The treatment plan includes gentle movement, staying hydrated, and using a warm compress for muscle tension, with instructions to seek prompt care if symptoms worsen or new concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.463
+- **Model Used**: general
+- **Text1 Length**: 173 words
+- **Text2 Length**: 154 words
+
 
 ## Processing Information
 

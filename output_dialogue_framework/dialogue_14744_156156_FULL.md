@@ -87,16 +87,21 @@ Does that explanation make sense? Is there anything specific you'd like advice o
 
 ## EHR Summary
 
-The patient is an 85-year-old female being discharged to rehabilitation. She was admitted with a surgical wound, and her main issues included wound healing and post-surgical recovery. Her right leg harvest site, previously slightly cellulitic, is now resolving well, and pain has decreased; the incision is clean, dry, and without erythema or discharge. Relevant history includes recent surgery and use of multiple medications, including anticoagulants (Coumadin, Lovenox), antibiotics (vancomycin, levofloxacin), cardiac medications (aspirin, Lopressor, amiodarone, captopril, hydralazine, Lasix), and ophthalmic drops. On examination, there was no evidence of infection at the incision site. The clinical impression is good post-surgical recovery with resolving cellulitis at the leg harvest site. The treatment plan includes continuation of current medications, wound monitoring, cardiac diet, activity restrictions (no heavy lifting over 10 pounds), staple removal in one week, and follow-up with her primary care provider and surgeon. The patient's condition on discharge was documented as good.
+The patient is an 85-year-old female being discharged to rehabilitation. She was admitted with a surgical wound, with the incision now described as clean, dry, and without discharge, erythema, or clicking; her right leg harvest site, previously slightly cellulitic, is resolving well and pain has decreased. Relevant history includes recent surgery and use of multiple medications including anticoagulants (Coumadin, Lovenox), cardiac medications (Lopressor, Amiodarone, Captopril, Hydralazine, Lasix), antibiotics (Vancomycin, Levofloxacin), and ophthalmic solutions. The clinical impression is postoperative recovery with resolving cellulitis at the leg harvest site. The treatment plan includes continuation of her current medications, wound monitoring at rehabilitation, cardiac diet, activity restrictions (no heavy lifting over 10 pounds), staple removal in one week, and follow-up with her primary care provider and surgeon. Her condition on discharge is documented as good.
+
 
 ## Dialogue Summary
 
-The patient presented with lower back pain causing discomfort. The pain had been present for a few days (exact duration uncertain), was described as a dull ache rated 5–6/10 in severity, and was localized to the lower back without radiation. The discomfort made it harder for the patient to move around and sleep, was worsened by walking or standing for too long, and improved somewhat with rest or changing positions. The patient denied numbness, tingling, weakness in the legs, or changes in bladder or bowel habits, and reported no recent injuries, heavy lifting, or falls. No relevant medical history, medications, or allergies were mentioned. On examination, there were no concerning neurological symptoms reported. The doctor assessed the pain as likely musculoskeletal in origin, possibly due to muscle strain or age-related changes in the spine. The doctor recommended rest, gentle movement, warm compresses, stretching, pacing activities, and monitoring for new symptoms such as leg weakness or changes in bladder/bowel control; follow-up was advised if symptoms did not improve or worsened.
+The patient presented with lower back pain as the chief complaint. The discomfort has been present for several days (exact duration uncertain), is described as a dull ache rated 5–6 out of 10, and is localized to the lower back without radiation. The pain worsens with walking or standing for prolonged periods, improves somewhat with rest and changing positions, and has made mobility and sleep more difficult. The patient denied any recent trauma, heavy lifting, numbness, tingling, weakness in the legs, or changes in bladder or bowel habits. The clinical impression was that of a common musculoskeletal lower back issue, likely due to muscle strain or age-related changes, without evidence of neurological involvement. The treatment plan included rest, gentle movement, use of a warm compress, gentle stretching, pacing activities, and monitoring for new or worsening symptoms such as leg weakness or changes in bladder/bowel function. The patient was advised to report any concerning new symptoms and to follow up if the discomfort does not improve within a week.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.927
-- **Similarity Label**: N/A
+- **STS Score**: 0.448
+- **Model Used**: general
+- **Text1 Length**: 132 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

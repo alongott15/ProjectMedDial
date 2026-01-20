@@ -87,16 +87,21 @@ It would be a good idea to check in with your surgical team or primary care prov
 
 ## EHR Summary
 
-The patient is a 61-year-old female presenting for post-operative care following a right upper lobectomy performed on 2157-11-23. Prior to planned discharge, she developed sinus tachycardia with heart rates in the 130–140 range while ambulating, and reported pain at the incision site. Her incision was noted to be clean, dry, and intact. On evaluation, her heart rate had decreased to 100–110 in regular sinus rhythm, and her vital signs were stable with oxygen saturation at 95% and blood pressure at 120/75. The documented clinical impression was post-operative sinus tachycardia. She was started on low-dose Lopressor (metoprolol) 12.5 mg twice daily. The patient was otherwise stable at the time of assessment.
+The patient is a 61-year-old female who was admitted for a right upper lobectomy on 2157-11-23. Prior to planned discharge, she developed sinus tachycardia with heart rates in the 130–140 range while ambulating, and reported pain at the incision site. On evaluation, her heart rate had decreased to 100–110 and her incision was clean, dry, and intact. She was otherwise stable with oxygen saturation at 95% and blood pressure of 120/75. The documented clinical impression was postoperative sinus tachycardia. The treatment plan included starting Lopressor (metoprolol) 12.5 mg twice daily. No other complications or new symptoms were noted.
+
 
 ## Dialogue Summary
 
-The patient presented with pain at the incision site following surgery. The pain was described as dull and constant throughout the day, rated at 6/10 in intensity, and worsened by twisting or bending, though it persists even at rest; it is localized directly over the incision and does not spread. The patient denied redness, swelling, warmth, or drainage from the area. Additionally, the patient reported episodes of heart racing with a pulse of 130–140, occurring both at rest and during activity, first noticed a couple of days ago. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted persistent localized discomfort without signs of infection but expressed concern about the combination of surgical site pain and significantly elevated heart rate, considering possible causes such as pain response, dehydration, anemia, or medication reaction. The doctor advised close monitoring for new symptoms (fever, chills, swelling, redness, drainage, persistent tachycardia, faintness, shortness of breath, or chest pain) and recommended contacting the surgical team or primary care provider for an in-person evaluation. The patient was also advised to rest, stay hydrated, and avoid activities that worsen discomfort.
+The patient presents with pain localized to the surgical incision site as the chief complaint. The pain is rated at 6 out of 10 in intensity, described as mostly dull but occasionally sharper with movement, and is persistent throughout the day; it worsens with twisting or bending but is present even at rest. There are no associated signs of infection such as redness, swelling, warmth, or drainage. The patient also reports episodes of tachycardia, with pulse rates between 130 and 140, occurring both at rest and during activity for the past couple of days. Relevant medical history, medications, and allergies are not specified. The clinical impression is that infection is less likely given the absence of local inflammatory signs, but the combination of persistent incisional pain and significant tachycardia warrants further evaluation to rule out other causes such as dehydration, anemia, or medication effects. The treatment plan includes monitoring for new symptoms (fever, chills, swelling, redness, drainage, persistent tachycardia, faintness, shortness of breath, or chest pain) and seeking prompt medical attention if these occur. The patient is advised to rest, stay hydrated, avoid aggravating activities, and follow up soon with their surgical team or primary care provider for in-person evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.569
+- **Model Used**: general
+- **Text1 Length**: 98 words
+- **Text2 Length**: 200 words
+
 
 ## Processing Information
 

@@ -98,3 +98,23 @@ If you notice any further confusion, inability to wake up, or worsening breathin
 ## Processing Information
 
 - **Processing Time**: 458.4s
+
+## EHR Summary
+
+The patient is an 86-year-old woman presenting with minimal responsiveness, cyanosis, diaphoresis, tachypnea, and severe hypoxemia. She initially reported upper back pain and shortness of breath, with oxygen saturation between 34–54% on 6 L/min oxygen, improving to 93–100% on a nonrebreather mask. Her course was complicated by hypotension after intravenous Lasix, requiring vasopressor support, and later by aspiration of ice cream leading to a drop in O2 saturation and need for intubation. Relevant history includes congestive heart failure, acute renal failure, atrial fibrillation, coronary artery disease, hypertension, scoliosis, and kyphosis; she is intolerant of ACE inhibitors. The clinical impression included urinary tract infection, possible aspiration pneumonia, congestive heart failure exacerbation, and mechanical restrictive lung disease due to kyphosis/scoliosis. Treatment included antibiotics (Levofloxacin, Flagyl, Vancomycin), respiratory support (intubation, BiPAP, face mask), vasopressors (Dopamine, Neo), diuretics (Lasix), and comfort measures (morphine, fentanyl) after transition to DNR/DNI status. The patient became progressively unresponsive and expired on hospital day 12. Autopsy was declined per family wishes.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with the chief complaint of progressive shortness of breath. Symptoms include gradually worsening dyspnea over several days, cyanosis of the lips and fingertips, marked sleepiness, confusion, upper back pain, and increasing difficulty performing basic activities due to fatigue and breathlessness. The patient reports being unable to speak in full sentences and experiences these symptoms most of the time, without improvement. There is no relevant past medical history, medications, or allergies documented in the dialogue.
+
+The clinical impression is that the patient may be experiencing hypoxemia, possibly due to cardiac or pulmonary dysfunction such as infection, fluid overload, or heart failure. The doctor emphasized that these symptoms are potentially life-threatening and require urgent evaluation. The treatment plan is immediate referral for emergency medical care, with instructions to call emergency services or go to the hospital without delay. The patient was also advised to alert someone nearby and to seek help if symptoms worsen further.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.596
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 159 words
+

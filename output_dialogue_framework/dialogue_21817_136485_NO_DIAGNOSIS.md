@@ -89,16 +89,21 @@ I'd like to arrange for you to be seen soon for a physical exam and possibly som
 
 ## EHR Summary
 
-The patient is a 71-year-old female presenting with loose purple bowel movements accompanied by light-headedness and dizziness with each episode. Symptoms began on the day of admission, and she denies any loss of consciousness, chest pain, abdominal pain, nausea, vomiting, or prior episodes of purple stools. She reports a prodrome of several days of nonproductive cough for which she was taking Robitussin. Her medical history includes cerebrovascular accident, hypertension, and diabetes mellitus. No physical exam findings, diagnostic results, or explicit diagnosis are documented in the note. There is no treatment plan or specific recommendations mentioned in the provided text.
+The patient is a 71-year-old female presenting with loose purple bowel movements accompanied by light-headedness and dizziness with each episode. Symptoms began on the day of admission, and she denies any loss of consciousness, chest pain, abdominal pain, nausea, vomiting, or prior episodes of purple stools. She reports a prodrome of several days of nonproductive cough, for which she was taking Robitussin. Her medical history includes cerebrovascular accident, hypertension, and diabetes mellitus. No diagnosis is documented in the note. There is no specific treatment or advice mentioned in the provided text.
+
 
 ## Dialogue Summary
 
-The patient presented with increased difficulty catching their breath. Symptoms included shortness of breath worsening when lying down and during activity, improvement when sitting up, swelling in the lower legs and ankles that has progressively worsened over several weeks, coughing without wheezing or voice changes, sharp chest pain on deep inspiration, and waking at night short of breath requiring sitting up. No relevant medical history, medications, or allergies were mentioned. The doctor noted the combination of orthopnea, peripheral edema, nocturnal dyspnea, and cough, with sharp pleuritic chest pain. The assessment was concern for possible heart or lung issues leading to fluid buildup, with a need to rule out cardiac or pulmonary causes. The doctor recommended elevating the legs when sitting, reducing dietary salt, daily weight monitoring for sudden increases, and urgent evaluation if severe symptoms develop. Arrangements were made for a physical exam and basic tests to further investigate the cause of symptoms.
+The patient presents with worsening shortness of breath as the chief complaint. Symptoms include dyspnea that is more pronounced when lying down (orthopnea), lower leg and ankle swelling that has progressed over several weeks, exertional and occasional resting dyspnea, nocturnal episodes of shortness of breath requiring sitting up (paroxysmal nocturnal dyspnea), a cough, and sharp chest pain on deep inspiration. The symptoms have been present and worsening over a period of weeks. There is no mention of wheezing or voice changes. The clinical impression is concern for possible heart or lung issues leading to fluid overload, with the physician specifically noting the need to rule out cardiac causes such as heart failure, though no definitive diagnosis is documented. The treatment plan includes elevating the legs when sitting, reducing dietary salt, daily weight monitoring, and instructions to seek urgent care if severe symptoms develop. The physician also recommends prompt follow-up for a physical exam and basic diagnostic testing.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.936
-- **Similarity Label**: N/A
+- **STS Score**: 0.353
+- **Model Used**: general
+- **Text1 Length**: 91 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

@@ -89,16 +89,21 @@ Does that make sense? Are there any concerns you’d like to discuss further?
 
 ## EHR Summary
 
-The patient is a 75-year-old female presenting with upper respiratory symptoms and a fall with head injury. She developed moderate epigastric pain and chest pain on the day of admission, along with headaches, double vision in the mornings, nausea, and occasional chest pain over the past week. Her past medical history includes GERD, hypertension, osteoarthritis, type 2 diabetes, and hypercholesterolemia; she takes Avandia, folic acid, aspirin, Lipitor, Protonix, niacin, Cardizem CD, and Celebrex, with no known drug allergies. On examination, she had a right occipital hematoma, pinpoint pupils, a right-sided goiter, clear lungs, a regular heart rhythm with a 2/6 systolic murmur, and no extremity edema. Laboratory findings revealed hyponatremia with a serum sodium of 116 on admission, later increasing to 119 after ICU management. A CAT scan identified a suprasellar mass. The documented clinical impression was hyponatremia and a suprasellar mass; she was transferred for further care and sodium correction.
+The patient is a 75-year-old female presenting with upper respiratory symptoms, moderate epigastric and chest pain, and a recent fall with head injury. She reported headaches and double vision in the mornings for the past week, as well as nausea and occasional chest pain. Her past medical history includes GERD, hypertension, osteoarthritis, type 2 diabetes, and hypercholesterolemia; she has no known drug allergies. On admission, she was found to have hyponatremia (serum sodium 116), a right occipital hematoma, and a suprasellar mass on CT scan. The documented diagnoses were pituitary adenoma, urinary tract infection, and anemia. Treatment included salt tablets for hyponatremia, initiation of steroids, subcutaneous heparin for prophylaxis, and plans for elective transsphenoidal resection of the pituitary tumor. She was discharged home in stable condition with follow-up scheduled with Endocrinology and the clinic, and her discharge medications included folic acid, atorvastatin, famotidine, niacin, diltiazem, levothyroxine, Bactrim, ferrous sulfate, sodium chloride, and Percocet.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain and associated anxiety. Symptoms included a pressure-like chest pain, moderate ache in the upper stomach worsened by eating, upper respiratory congestion, sore throat, morning headaches, double vision that improves throughout the day, and occasional lightheadedness. The patient reported a recent fall with head impact but denied loss of consciousness or confusion; headaches and double vision began after the fall. No cough or shortness of breath were noted, and daily activities are somewhat affected, especially in the mornings due to visual changes and nausea. On assessment, the doctor considered acid reflux or irritation from congestion as possible causes for the chest and stomach discomfort, and noted that postnasal drip or mild viral illness could contribute. The doctor expressed concern about post-fall headaches and double vision, recommending vigilance for worsening symptoms such as persistent headaches, vomiting, confusion, weakness, or changes in alertness. Advice included eating smaller meals, avoiding spicy or acidic foods, staying hydrated, and using saline nasal sprays for congestion; prompt care was advised if chest pressure worsens or is accompanied by severe symptoms. The patient understood the recommendations and agreed to monitor symptoms closely.
+The patient is an adult presenting with chest pain described as a pressure sensation, accompanied by moderate upper stomach ache and recent upper respiratory symptoms including congestion and sore throat. The chest pressure is intermittent and not affected by activity or position, while the upper stomach pain worsens with eating. The patient also reports a recent fall with subsequent morning headaches, double vision, and occasional lightheadedness, though there was no loss of consciousness or confusion; these neurological symptoms improve as the day progresses. Relevant history includes the recent head injury and ongoing mild viral symptoms. The clinical impression is that the chest and upper stomach discomfort may be related to acid reflux or irritation from congestion, while the post-fall headaches and visual changes warrant caution for possible head injury complications. The treatment plan includes dietary modifications (smaller meals, avoiding spicy or acidic foods), hydration, and saline nasal sprays for congestion. The patient was advised to monitor for worsening symptoms such as persistent or severe headaches, vomiting, confusion, weakness, changes in alertness, or severe chest pressure, and to seek prompt medical attention if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.442
+- **Model Used**: general
+- **Text1 Length**: 153 words
+- **Text2 Length**: 184 words
+
 
 ## Processing Information
 

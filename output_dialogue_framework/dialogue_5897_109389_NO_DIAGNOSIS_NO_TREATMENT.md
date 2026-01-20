@@ -91,16 +91,21 @@ At this point, I’d recommend a few practical steps:
 
 ## EHR Summary
 
-The patient is a 31-year-old male presenting with a chief complaint of headache for 4 years, worsening over the last 3 months. His symptoms were associated with the discovery of an aneurysm of the left internal carotid artery (ICA). Relevant history includes no mention of prior medical conditions, medications, or allergies. On physical examination, he was in no acute distress, with a positive left carotid bruit but otherwise normal neurologic and systemic findings. The documented diagnosis was left ICA aneurysm. He underwent stenting of the left ICA and subsequent coiling of the aneurysm without complications, aside from a single episode of epistaxis and transient back pain thought to be due to a passed kidney stone. The patient was discharged home in stable condition. Discharge medications included aspirin 325 mg and Plavix.
+The patient is a 31-year-old male presenting with a chief complaint of headache for 4 years, worsening over the last 3 months. His symptoms were associated with the discovery of an aneurysm of the left internal carotid artery (ICA). Relevant history includes no acute distress on exam, a positive left carotid bruit, and no neurological deficits. The documented diagnosis was left ICA aneurysm. He underwent stenting of the left ICA and subsequent coiling of the aneurysm without complications, aside from one episode of epistaxis that resolved with conservative measures and transient back pain attributed to passing a kidney stone. Discharge medications included aspirin 325 mg, Plavix 75 mg, and Percocet 5-325 mg. The patient was discharged home in stable condition with instructions to follow up in 2 weeks and obtain an MRI of the neck prior to his appointment.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening headaches as the chief complaint. Headaches have been present for about four years but have intensified over the past three months, making it harder to focus though daily activities are still manageable. Additional symptoms include mild nosebleeds occurring a couple of times per week, mostly triggered by dry air or nose blowing, and intermittent lower back pain localized to the lower back, both starting in the past few months. The patient denied associated symptoms such as unusual fatigue, fevers, or bruising. On clinical assessment, the doctor noted that the headaches are long-standing but recently more distracting, nosebleeds are mild and likely related to nasal dryness, and lower back pain is intermittent and likely benign. The doctor assessed these symptoms as most likely due to benign causes such as dry air irritation, minor muscle strain, or posture issues, with no signs of serious underlying illness. Recommendations included using a humidifier or saline nasal spray, staying hydrated, avoiding forceful nose blowing, monitoring headache patterns with a diary, and gentle stretching for back discomfort. The patient understood and agreed to follow these suggestions, with instructions to return if symptoms do not improve or new concerns arise.
+The patient is an adult presenting with a chief complaint of worsening headaches. The headaches have been present for approximately four years but have become more severe and distracting over the past three months, though the patient remains able to perform daily activities. Additional symptoms include mild, intermittent nosebleeds (occurring a couple of times per week, mainly in dry air or after blowing the nose) and episodic lower back pain localized to the lower back. The nosebleeds and back pain began within the past few months. The patient denies associated symptoms such as fatigue, fever, or unexplained bruising. The clinical impression is that these symptoms are most likely due to benign causes, such as nasal irritation from dry air and minor musculoskeletal strain. The treatment plan includes using a humidifier or saline nasal spray, maintaining hydration, avoiding forceful nose blowing, monitoring headache patterns, and performing gentle stretching for back discomfort. The patient was advised to return if symptoms worsen or new concerning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
+- **STS Score**: 0.426
+- **Model Used**: general
+- **Text1 Length**: 139 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

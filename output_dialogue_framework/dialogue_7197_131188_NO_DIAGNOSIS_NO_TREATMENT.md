@@ -87,16 +87,21 @@ In the meantime, try to avoid strenuous activity and take it easy until you’ve
 
 ## EHR Summary
 
-The patient is a 40-year-old woman presenting with chest pressure as the chief complaint. She reports daily chest pressure for one week, primarily on exertion, associated with shortness of breath and occasional radiation to the left arm, with one episode at rest resolving after two sublingual nitroglycerin. She also experiences claudication after walking one block and denies paroxysmal nocturnal dyspnea or palpitations. Her relevant history includes longstanding diabetes mellitus, three vessel coronary artery disease, hypertension, hyperlipidemia, prior left femoral popliteal bypass, and remote tobacco use. On physical exam, she was pain free with stable vital signs, clear lungs, regular heart rhythm with a soft systolic ejection murmur, and positive bilateral pulses. The documented diagnosis is three vessel coronary artery disease with recent angina. The treatment plan included cardiac catheterization and continuation of medications such as aspirin, Lipitor, insulin, atenolol, Plavix, Zestril, and Nexium.
+The patient is a 40-year-old woman presenting with chest pressure occurring daily for one week, primarily on exertion and associated with shortness of breath and occasional radiation to the left arm. Symptoms escalated to include chest pain at rest the evening before admission, which resolved with sublingual nitroglycerin. She has a history of longstanding diabetes mellitus, hypertension, hyperlipidemia, three-vessel coronary artery disease, and prior myocardial infarction managed medically. Cardiac catheterization revealed significant multi-vessel coronary artery disease (50% left main, 80% LAD, 80–90% left circumflex, 90% left RCA) with an ejection fraction of 50%. The documented diagnosis was severe three-vessel coronary artery disease. She underwent successful coronary artery bypass grafting (CABG x3) and had an uncomplicated postoperative course aside from transient poor respiratory effort requiring intensive care monitoring. At discharge, she was stable and prescribed aspirin, Prilosec, Lasix, potassium chloride, metoprolol, Lipitor, Percocet as needed, and insulin. She was advised to follow up in the wound clinic in two weeks and with her cardiologist and primary care provider in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure as the chief complaint. The chest pressure worsens with physical activity and improves with rest, is rated at 6–7 out of 10 in intensity, and has been ongoing for weeks. Associated symptoms include shortness of breath during episodes, a dull ache radiating down the left arm that resolves with rest, and claudication in the legs after walking about a block, which also improves with rest; the patient denied leg or foot swelling. The patient described occasional poor breathing but did not mention any other medical history, medications, or allergies. No physical findings were reported in the conversation. The doctor assessed that the symptoms suggest possible angina or peripheral artery disease due to exertional chest pressure, arm discomfort, and leg claudication. The doctor recommended prompt evaluation of heart and circulation within the next day or two, advised avoiding strenuous activity, and instructed the patient to seek immediate care if severe chest pain at rest, fainting, sweating, or nausea occur.
+The patient is an adult presenting with chest pressure as the chief complaint. The chest pressure is rated 6–7/10 in intensity, worsens with physical activity, and improves with rest; episodes last a few minutes and are accompanied by shortness of breath and a dull ache radiating down the left arm, which also resolves with rest. The patient reports these symptoms have been ongoing for weeks and also describes claudication in the legs after walking about a block, which improves with rest; no leg swelling is noted. Relevant history, medications, and allergies are not specified in the dialogue. The clinical impression documented by the doctor is possible angina and peripheral artery disease, given exertional symptoms and improvement with rest. The treatment plan includes prompt evaluation of heart and circulation within the next day or two, instructions to avoid strenuous activity, and advice to seek immediate care if severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.974
-- **Similarity Label**: N/A
+- **STS Score**: 0.543
+- **Model Used**: general
+- **Text1 Length**: 170 words
+- **Text2 Length**: 149 words
+
 
 ## Processing Information
 

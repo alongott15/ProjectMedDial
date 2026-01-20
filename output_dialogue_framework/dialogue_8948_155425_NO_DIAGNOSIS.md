@@ -87,16 +87,21 @@ Does anything seem to trigger the nausea or vomiting, or is it constant regardle
 
 ## EHR Summary
 
-The patient is a 73-year-old female presenting with nausea, vomiting, diarrhea, and hyperglycemia. Symptoms began after dinner the previous evening and included persistent nausea, non-bloody emesis progressing to dry heaves, brown non-bloody diarrhea, and epigastric pain, with inability to tolerate oral intake. She has a history of type 1 diabetes mellitus (with prior DKA), hypertension, COPD, depression, liver hemangioma, and hyperthyroidism; she is allergic to ACE inhibitors. Home fingerstick glucose readings were in the 500s, which she reports is not unusual, but she did not take her usual Humalog due to inability to eat. In the emergency department, labs revealed serum glucose of 1142 mg/dL, bicarbonate 12 mmol/L, and anion gap 33; potassium was initially elevated at 6.7 mmol/L but normalized with treatment. The documented diagnosis was diabetic ketoacidosis (DKA) in the setting of poorly controlled diabetes. Treatment included intravenous fluids, an insulin drip, and calcium gluconate for hyperkalemia.
+The patient is a 73-year-old female presenting with nausea, vomiting, diarrhea, and hyperglycemia. Symptoms began after dinner the previous evening and included persistent nausea, dry heaves, brown non-bloody diarrhea, and epigastric pain, with inability to tolerate oral intake. She has a history of type 1 diabetes mellitus (with prior DKA), hypertension, COPD, depression, and osteoporosis, and is allergic to ACE inhibitors. On admission, her serum glucose was 1142 mg/dL with metabolic acidosis and acute renal failure; no infectious trigger was identified. The documented diagnoses were diabetic ketoacidosis, acute renal failure, hypokalemia, and osteoporosis. She was treated with intravenous fluids, insulin drip, electrolyte management, and restarted on glargine and sliding scale insulin; osteoporosis medications were also initiated. She was discharged home in stable condition with instructions to follow up with her endocrinologist and primary care provider.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent nausea and difficulty keeping food or fluids down. Symptoms included ongoing nausea, vomiting (initially with food, then dry heaves), diarrhea (brown, without blood or black stool), upper abdominal pain during vomiting, dry mouth, and decreased urination; the patient denied fever, chills, or dizziness on standing. These symptoms began a few days ago and have remained stable, with nausea worsening upon attempts to eat or drink. The patient reported high blood sugar readings but has continued taking insulin as prescribed, despite difficulty tolerating oral intake. Relevant history includes diabetes managed with insulin; no medication allergies were mentioned. Clinical findings included signs of mild dehydration and inability to tolerate much by mouth. The doctor assessed that the patient is experiencing several days of gastrointestinal symptoms with dehydration risk and elevated blood sugar, but absence of fever or chills makes infection less likely. The doctor recommended frequent sips of clear fluids to maintain hydration and advised monitoring for worsening symptoms or dehydration, with instructions to seek in-person care if unable to keep fluids down or if new concerning symptoms develop.
+The patient is an adult with diabetes presenting with a chief complaint of persistent nausea and difficulty keeping food or fluids down. Symptoms include several days of nausea, vomiting (initially with food, then progressing to dry heaves), and brown diarrhea without blood or melena. The patient reports upper abdominal pain associated with vomiting, inability to tolerate oral intake, dry mouth, decreased urination, and elevated blood glucose readings despite continued insulin use; no fever, chills, or orthostatic dizziness are present. The symptoms have remained stable since onset and are worsened by attempts to eat or drink. Relevant history includes diabetes managed with insulin; no medication changes or allergies are specified. The clinical impression is gastrointestinal illness with associated dehydration and hyperglycemia in the context of poor oral intake. The treatment plan focuses on maintaining hydration with frequent small sips of clear fluids and monitoring for warning signs such as worsening pain, confusion, or inability to tolerate any fluids, with advice to seek in-person care if symptoms progress.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.974
-- **Similarity Label**: N/A
+- **STS Score**: 0.736
+- **Model Used**: general
+- **Text1 Length**: 135 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

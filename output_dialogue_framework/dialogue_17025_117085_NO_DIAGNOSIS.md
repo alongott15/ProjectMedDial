@@ -59,16 +59,21 @@
 
 ## EHR Summary
 
-The patient is a 54-year-old male presenting for surgical management of a mass in the floor of the mouth. He reported noticing the mass prior to admission, which was determined to require resection and reconstruction. There is no other past medical or pertinent family history documented. On examination and during his hospital course, he underwent resection of the floor of the mouth with mandibulectomy, bilateral neck dissection, tooth extraction, tracheostomy placement, and free radial left osseocutaneous flap without operative complications. The documented diagnosis was squamous cell carcinoma of the floor of the mouth. Postoperatively, he developed mild erythema around his incision, for which he was started on Keflex. A speech and swallow study showed mild dysphagia, and he was transitioned from tube feeds to a puree diet, which he tolerated. At discharge, his nasogastric tube and tracheostomy were removed, and he was prescribed Keflex and Roxicet elixir, with plans for home wound care and speech therapy services.
+The patient is a 54-year-old male presenting for surgical management of a mass in the floor of the mouth. He reported noticing the mass prior to admission, which was diagnosed as squamous cell carcinoma of the floor of the mouth. He has no other past medical history and no pertinent family history. The documented diagnosis was squamous cell carcinoma of the floor of the mouth. He underwent resection of the floor of the mouth with mandibulectomy, bilateral neck dissection, tooth extraction, tracheostomy placement, and free radial left osseocutaneous flap without complications. Postoperatively, he developed mild dysphagia and erythema around his incision, for which he was treated with tube feeds, then a puree diet, and a course of Keflex. At discharge, his nasogastric tube and tracheostomy were removed, and he was prescribed Keflex, Roxicet elixir, Prilosec, and Thicket meal. He was advised to follow up with surgery, plastic surgery, and speech/swallow services, and to continue wound care and speech therapy at home.
+
 
 ## Dialogue Summary
 
-The patient presented with a lump in the floor of the mouth. The lump was first noticed a few days ago and feels somewhat different compared to when it was initially found; the patient is unsure if it has increased in size. The patient reported mild trouble swallowing and noted that the area around the lump appears slightly red, but denied any unusual taste or drainage. No additional medical history, medications, or allergies were mentioned. The doctor inquired about the lump’s consistency and tenderness, as well as associated symptoms such as pain and changes in swallowing. No physical examination findings or formal assessment were documented in the conversation. No specific treatment plan or recommendations were provided during this encounter.
+The patient is an adult presenting with a chief complaint of a lump in the floor of the mouth. The lump was first noticed a few days ago and has since felt somewhat different, though it is unclear if it has increased in size. The patient reports mild dysphagia (trouble swallowing) and observes redness around the area of the lump. There is no report of unusual taste or drainage. Relevant past medical history, medications, allergies, and a formal diagnosis are not specified in the dialogue. No specific treatment or recommendations were documented during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.933
-- **Similarity Label**: N/A
+- **STS Score**: 0.537
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 95 words
+
 
 ## Processing Information
 

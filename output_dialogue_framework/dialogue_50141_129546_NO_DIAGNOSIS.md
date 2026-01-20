@@ -85,16 +85,21 @@ Let me know if you have any questions or concerns about your daily routine or an
 
 ## EHR Summary
 
-The patient is a 39-year-old male presenting with end-stage renal disease (ESRD) secondary to focal segmental glomerulosclerosis. He was admitted for a cadaveric renal transplant and reported no acute symptoms at the time of admission. His medical history includes hepatitis C on pegylated interferon, congenital single kidney, hypertension, heterozygous hemochromatosis, depression, and prior traumatic injuries. Physical examination was unremarkable, and serial creatinine levels improved from 8.4 to 1.8 mg/dL post-transplant. Renal ultrasound showed an unremarkable transplanted kidney with no hydronephrosis or evidence of acute rejection. The documented diagnosis was ESRD due to focal segmental glomerulosclerosis, status post cadaveric renal transplant. Treatment included successful kidney transplantation, initiation of a study protocol with FTY720, pain management, and gradual diet advancement. At discharge, the patient was making 1.7L of urine daily and had stable, improving renal function.
+The patient is a 39-year-old male presenting with end-stage renal disease (ESRD) secondary to focal segmental glomerulosclerosis. He was admitted for a cadaveric kidney transplant and reported no acute symptoms at the time of admission; postoperatively, his pain was well controlled and he tolerated diet advancement. Relevant history includes hepatitis C on pegylated interferon, congenital single kidney, hypertension, heterozygous hemochromatosis, depression, and prior motor vehicle accident with fractures. The documented diagnoses were ESRD due to FSGS, hepatitis C, and hypertension. Post-transplant, his creatinine improved from 8.4 to 1.8 mg/dL, and renal ultrasound showed no evidence of acute rejection. Treatment included participation in a study protocol (FTY720), pain management, and discharge medications such as trimethoprim-sulfamethoxazole, valganciclovir, pantoprazole, docusate, nystatin, diphenhydramine, and acetaminophen. He was discharged home in stable condition with instructions for follow-up and to return if symptoms such as increased pain, swelling, fever, or shortness of breath occur.
+
 
 ## Dialogue Summary
 
-The patient presented with a routine check-in regarding ESRD secondary to FSGS. They reported no new symptoms, including no swelling, changes in energy levels, appetite, sleep, or dialysis routine, and noted stable weight and blood pressure without headaches or lightheadedness. The patient denied any recent changes to medications and confirmed continued use of Prozac, Ativan, and Nephrocaps, with no issues obtaining prescriptions. No changes in mental health or stress levels were reported. Physical findings were not described, as the patient denied all queried symptoms. The doctor assessed that the patient's kidney disease and dialysis routine appeared stable, with no new concerns identified. The doctor recommended maintaining the current routine, scheduling regular lab work as advised by the nephrologist, and promptly reporting any new symptoms such as swelling, blood pressure changes, or increased fatigue. The patient expressed understanding and had no further questions.
+The patient is an adult with end-stage renal disease (ESRD) secondary to focal segmental glomerulosclerosis (FSGS), presenting for a routine check-in regarding kidney health and dialysis management. The patient reports no new symptoms, including no swelling, changes in energy, appetite, sleep, or blood pressure, and has experienced stable weight and fluid balance. There have been no recent changes in medications, which include Prozac, Ativan, and Nephrocaps, and no issues with prescription access. The patient denies any changes in mental health or stress levels. The clinical impression is stable ESRD on dialysis without new concerns. The treatment plan is to continue the current routine and schedule regular laboratory monitoring as advised by the nephrologist. The patient was advised to report any new symptoms such as swelling, blood pressure changes, or increased fatigue promptly. No additional interventions were recommended at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.948
-- **Similarity Label**: N/A
+- **STS Score**: 0.628
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 140 words
+
 
 ## Processing Information
 

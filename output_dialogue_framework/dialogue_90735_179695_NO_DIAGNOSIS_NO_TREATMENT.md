@@ -85,16 +85,21 @@ Let me ask: How much is this impacting your ability to do things you enjoy or ma
 
 ## EHR Summary
 
-The patient is an 80-year-old male presenting with shortness of breath. He reported symptoms of dyspnea, abdominal bloating, leg swelling, vague chest pressure, orthopnea, productive cough, and chills, with symptoms worsening over the past three weeks after a reduction in diuretics. His medical history includes coronary artery disease status post CABG, congestive heart failure (EF 20-25%), atrial fibrillation on coumadin, diabetes mellitus, hypertension, and chronic kidney disease; he is allergic to Bactrim, penicillins, and Procardia. On admission, vital signs included blood pressure 93/53 and heart rate 86; cardiac enzymes were elevated (troponin increased from 0.9 to 7.9, CK peaked at 445), and chest X-ray showed moderate CHF and right middle lobe pneumonia. The documented diagnoses were non-ST elevation myocardial infarction (NSTEMI), right hilar pneumonia, acute on chronic systolic CHF, and CKD. Treatment included initiation of heparin infusion, aspirin, clopidogrel, intravenous lasix for diuresis, and levofloxacin for pneumonia, along with D5 with sodium bicarbonate for pre-catheterization hydration. Renal consultation recommended further laboratory evaluation and administration of mucomyst and IV bicarbonate.
+The patient is an 80-year-old male presenting with shortness of breath. He reported symptoms of dyspnea, abdominal bloating, leg swelling, vague chest pressure, orthopnea, productive cough, and chills, with symptoms worsening over three weeks after a reduction in diuretics. His medical history includes coronary artery disease status post CABG, congestive heart failure (EF 20-25%), atrial fibrillation on anticoagulation, diabetes, hypertension, dyslipidemia, chronic kidney disease, and anemia; he has allergies to Bactrim, penicillins, and Procardia. On admission, he was diagnosed with non-ST elevation myocardial infarction (NSTEMI), right hilar pneumonia, acute on chronic systolic heart failure exacerbation, and chronic kidney disease. Treatment included intravenous diuretics (furosemide), antibiotics (levofloxacin), anticoagulation (heparin), antiplatelet agents (aspirin, clopidogrel), insulin for hyperglycemia, and supportive care including sodium bicarbonate and acetylcysteine for renal protection. Despite these interventions, the patient suffered two episodes of pulseless electrical activity arrest and expired on hospital day two. The cause of death was likely hypoxic respiratory failure in the setting of decompensated congestive heart failure. No discharge medications or follow-up instructions were provided as the patient expired.
+
 
 ## Dialogue Summary
 
-The patient presented with difficulty catching their breath. They reported shortness of breath occurring even at rest and worsening with activity, along with progressive swelling in the legs and abdominal bloating over the past several days. The leg swelling is worse by evening and makes walking and daily activities more difficult; the bloating causes early satiety and discomfort after meals. No changes in urinary habits were noted. There was no mention of relevant medical history, medications, or allergies. On clinical review, the doctor noted gradually worsening shortness of breath, leg swelling, and abdominal bloating, impacting the patient's mobility and comfort. The doctor assessed these symptoms as possibly related to fluid buildup, which may be due to changes in heart or kidney function. The patient was advised to elevate their legs when sitting, avoid extra salt, monitor daily weight for sudden increases, and watch for warning signs such as sudden worsening of breath, chest pain, or confusion.
+The patient presents with difficulty breathing (dyspnea) as the chief complaint. Symptoms include shortness of breath at rest that worsens with activity, progressive bilateral leg swelling that is worse in the evening, and abdominal bloating leading to early satiety and postprandial discomfort; these symptoms have gradually worsened over several days. The patient reports no changes in urinary habits but notes that the swelling impairs mobility and daily activities. There is no documented relevant medical history, medications, or allergies in the dialogue. The clinical impression is that the symptoms are likely related to fluid buildup, possibly due to changes in heart or kidney function. The treatment plan includes elevating the legs when sitting, avoiding added salt, daily weight monitoring for sudden increases, and watching for warning signs such as sudden worsening of breath, chest pain, or confusion. The patient was advised to report any significant changes promptly.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.610
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 146 words
+
 
 ## Processing Information
 

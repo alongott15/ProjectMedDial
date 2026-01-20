@@ -87,16 +87,23 @@ Let me know if you have questions about managing these symptoms at home or if yo
 
 ## EHR Summary
 
-The patient is a 45-year-old female presenting with new onset back pain. She has a history of mechanical mitral valve replacement (MVR) in 2153, hypertension, degenerative joint disease with chronic low back pain, and spontaneous pneumothorax. On evaluation, imaging revealed a type A aortic dissection. Physical exam showed no acute distress, well-healed sternal incision, regular heart rhythm with a systolic murmur, and equal blood pressures in both arms. Laboratory findings included elevated white blood cell count, thrombocytosis, anemia, and elevated INR. The documented diagnosis was type A aortic dissection. She underwent emergent surgical repair of the ascending aorta and required re-exploration for mediastinal hematoma evacuation.
+The patient is a 45-year-old female presenting with new onset back pain. She developed acute back pain on April 2, and imaging revealed a type A aortic dissection. Her past medical history includes mechanical mitral valve replacement (MVR), hypertension, degenerative joint disease with chronic low back pain, and prior spontaneous pneumothorax. The documented diagnosis was acute type A aortic dissection, status post mechanical MVR, chronic low back pain, and hypertension. She underwent emergent surgical repair of the ascending aorta with subsequent re-exploration for hematoma, followed by a postoperative course including anticoagulation management, amiodarone for atrial fibrillation, and antibiotics for sternal drainage. At discharge, she was prescribed furosemide, potassium chloride, docusate sodium, aspirin, ranitidine, atorvastatin, amiodarone, acetaminophen-codeine, metoprolol, levofloxacin, and coumadin with INR monitoring. She was advised to avoid driving for 4 weeks, not lift more than 10 lbs for 3 months, and to follow up with her physicians for medication and INR management. Her discharge condition was documented as good.
+
 
 ## Dialogue Summary
 
-The patient presented with new lower back pain that has been bothering them more than usual. The pain is described as a dull ache in the lower back, rated 6 out of 10, and worsens with movement, especially bending or twisting. The patient denied numbness, tingling, weakness in the legs, and changes in bladder or bowel control, but reported poor appetite and recent onset of clear serous drainage near the sternum without redness, swelling, or tenderness. No fevers, chills, night sweats, changes in energy level, or new skin issues elsewhere were noted. There were no recent changes in physical activity, work habits, or posture. On assessment, the doctor noted the symptoms point toward a musculoskeletal cause for the back pain, likely muscle strain or minor joint irritation, and found the serous drainage near the sternum unusual but not currently concerning. The doctor recommended gentle stretching, avoiding heavy lifting, and using heat or ice for back discomfort, and advised monitoring the drainage for any changes such as redness, swelling, pain, or altered appearance. The patient was instructed to follow up if symptoms persist, worsen, or if new neurological symptoms develop.
+The patient is an adult presenting with a chief complaint of new lower back pain. The pain is described as a dull ache, rated 6 out of 10, localized to the lower back, and worsened by movement such as bending or twisting; there is no associated numbness, tingling, weakness, or changes in bladder/bowel control. Additional symptoms include poor appetite and recent onset of clear serous drainage near the sternum without redness, swelling, or tenderness. The patient denies fever, chills, night sweats, changes in energy level, or new skin issues elsewhere. There is no recent change in physical activity or routine.
+
+The clinical impression is that the lower back pain is likely musculoskeletal in origin (muscle strain or minor joint irritation), with the serous drainage being an unusual but currently non-alarming finding. The treatment plan includes gentle stretching, avoiding heavy lifting, and using heat or ice for back discomfort, with instructions to monitor the sternal drainage for any changes such as increased redness, swelling, pain, or altered drainage characteristics. The patient was advised to follow up if symptoms persist, worsen, or if new neurological symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.440
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 185 words
+
 
 ## Processing Information
 

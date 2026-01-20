@@ -85,16 +85,21 @@ For now, I recommend taking it easy and avoiding strenuous activity until we kno
 
 ## EHR Summary
 
-The patient is a 66-year-old female presenting with chest pain and shortness of breath. Symptoms prompted evaluation at an outside hospital, where cardiac workup revealed three-vessel coronary artery disease with a 99% ostial lesion on the right, 50% proximal circumflex, 60% OM1, and diffusely diseased LAD; her ejection fraction was noted to be 40%. Relevant history includes coronary artery disease with prior myocardial infarction, hypertension, noninsulin dependent diabetes, depression, anxiety, and questionable COPD; she is allergic to sulfa and oxycodone. On physical exam, she was afebrile with stable vital signs, regular heart rhythm with multiple PACs, clear lungs, and no peripheral edema. Laboratory findings included a hematocrit of 36 and white count of 7.7. The documented diagnosis was severe multivessel coronary artery disease. She underwent coronary artery bypass grafting x3 with left internal mammary artery to the LAD and saphenous vein grafts to the OM and right PDA. The patient tolerated the procedure well.
+The patient is a 66-year-old female presenting with chest pain and shortness of breath. Her symptoms led to a workup revealing three-vessel coronary artery disease with significant lesions, and an ejection fraction of 40%. Relevant history includes coronary artery disease status post myocardial infarction, hypertension, noninsulin dependent diabetes, depression, anxiety, and possible chronic obstructive pulmonary disease; she is allergic to sulfa and oxycodone. The documented diagnosis was coronary artery disease, status post coronary artery bypass graft x3. She underwent successful surgical revascularization with left internal mammary artery and saphenous vein grafts, tolerated the procedure well, and was stable postoperatively. Her hospital course was notable for mild postoperative hyponatremia that resolved, and some oxygen desaturations with ambulation. Treatment at discharge included Lopressor, Lasix, KCL, aspirin, Percocet, Colace, Prozac, and Glucotrol. She will be discharged to rehabilitation and instructed to follow up with her cardiologist and primary care physician in three weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest pain has been ongoing for a few days, is described as a pressure sensation (not sharp or stabbing), rated 6/10 at worst, and occurs even at rest but worsens somewhat with activity; resting may help alleviate it slightly. Associated symptoms include shortness of breath, which is more pronounced with exertion, but there is no sweating, lightheadedness, wheezing, or coughing, and the pain does not radiate to the arm, neck, or jaw. The patient reports some difficulty with daily activities due to these symptoms but is still able to perform most tasks. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the chest discomfort and shortness of breath could be related to common causes such as muscle strain, indigestion, or anxiety, but emphasized the need to rule out more serious cardiac or pulmonary issues given the duration and impact on daily activities. The doctor advised the patient to avoid strenuous activity, monitor for warning signs (such as sudden worsening of pain, pain radiating to arm/jaw, severe shortness of breath at rest, or feeling faint), and seek immediate care if these occur. A follow-up check-up was recommended to further evaluate the symptoms.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is described as a pressure sensation, rated 6 out of 10 at its worst, present even at rest but worsening with activity, and has persisted for several days. Associated symptoms include shortness of breath, which also worsens with exertion and makes daily activities more difficult; there is no associated sweating, lightheadedness, pain radiation, wheezing, or coughing. Relevant medical history, medications, and allergies are not specified in the dialogue. The clinical impression is that the symptoms could be related to common causes such as muscle strain, indigestion, or anxiety, but more serious cardiac or pulmonary causes need to be ruled out due to the duration and impact on activities. The patient was advised to avoid strenuous activity, monitor for warning signs (such as worsening pain, pain radiating to the arm or jaw, severe shortness of breath at rest, or feeling faint), and seek immediate care if these occur. A follow-up check-up was recommended to further evaluate the symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.438
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

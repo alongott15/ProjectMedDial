@@ -87,16 +87,21 @@ In the meantime, try to rest, stay well hydrated, and avoid being alone if possi
 
 ## EHR Summary
 
-The patient is a 45-year-old man presenting with fever and neutropenia. He reported fevers up to 104°F and increasing lower extremity weakness, but denied headache, neck stiffness, photophobia, cough, sore throat, gastrointestinal, or urinary symptoms. His history is significant for HIV, non-Hodgkin's lymphoma with renal and bone marrow involvement, Hodgkin's disease in remission, prior lymphomatous meningitis, and recent Omaya reservoir placement with intrathecal Ara-C administration. On examination, cerebrospinal fluid initially showed no white cells and normal protein/glucose, but a subsequent gram stain revealed gram-positive cocci. The documented clinical impression was fever and neutropenia in the context of immunosuppression and recent CNS involvement. Treatment included empiric antibiotics (Vancomycin, Ticarcillin, Ampicillin, Ceftriaxone) and Acyclovir. The patient was also maintained on antiretroviral therapy and Bactrim for prophylaxis.
+The patient is a 45-year-old man presenting with fever and neutropenia. He reported fevers up to 104°F and increasing lower extremity weakness, but denied headache, neck stiffness, photophobia, cough, sore throat, nausea, vomiting, diarrhea, abdominal pain, dysuria, and chest pain. His history is significant for HIV, non-Hodgkin's lymphoma with renal and bone marrow involvement, Hodgkin's disease in remission, prior lymphomatous meningitis, and recent placement of an Omaya reservoir. On admission, physical exam revealed right third nerve palsy, left facial weakness, decreased distal sensation in the lower extremities, and dysmetria; laboratory studies showed leukocytosis and hyponatremia. Cerebrospinal fluid analysis initially showed no infection but later revealed gram-positive cocci. The documented clinical impression was fever and neutropenia in the context of immunosuppression and lymphoma with CNS involvement. Treatment included broad-spectrum antibiotics (Acyclovir, Ampicillin, Vancomycin, Ceftriaxone), Decadron, intrathecal chemotherapy, and supportive care. Despite these interventions, the patient’s condition declined and he died during hospitalization after being made DNR/DNI.
+
 
 ## Dialogue Summary
 
-The patient presented with fever as the chief complaint. They reported feeling warmer and "off" for a few days, with persistent weakness in the legs that started around the same time as the fever and has made daily activities more difficult. The weakness has remained constant, and the patient also described some decline in mental status, such as difficulty staying focused. No cough, sore throat, trouble breathing, unusual bruising, bleeding, or increased infections were noted. Relevant history includes neutropenia and HIV, with prior episodes of low white blood cell counts. The doctor assessed that the symptoms could be related to an infection, given the patient's immunocompromised status and changes in mental functioning. The doctor recommended prompt evaluation by a healthcare provider or emergency department today, with possible blood count checks and infection workup. Additional advice included resting, staying hydrated, avoiding being alone, and seeking immediate care if confusion worsens or new symptoms develop.
+The patient is an adult with a history of neutropenia and HIV presenting with fever as the chief complaint. The fever began a few days ago and has been accompanied by persistent leg weakness and a general decline in daily functioning. The patient also reports some difficulty with mental focus and alertness, but denies cough, sore throat, dyspnea, unusual bruising, bleeding, or increased infections. Relevant medical history includes chronic immune suppression due to neutropenia and HIV. The clinical impression is that the symptoms may be related to an infection, with concern for a potentially serious infection given the patient’s immunocompromised status and changes in mental status. The doctor recommended prompt evaluation by a healthcare provider or emergency department, with possible blood count testing and infection workup. Additional advice included rest, hydration, avoiding being alone, and seeking immediate care if confusion, new rashes, or respiratory symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.605
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 146 words
+
 
 ## Processing Information
 

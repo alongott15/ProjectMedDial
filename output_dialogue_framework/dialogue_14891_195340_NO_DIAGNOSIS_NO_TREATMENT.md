@@ -87,16 +87,21 @@ For now, continue taking your medications as prescribed and avoid strenuous acti
 
 ## EHR Summary
 
-The patient is a 45-year-old male presenting with intermittent chest pain occurring both with exercise and at rest. Symptoms prompted evaluation by his pulmonologist, followed by referral to cardiology; a stress test was positive and cardiac catheterization revealed three-vessel coronary artery disease with normal ejection fraction. Relevant history includes asthma, hypertension, and hypercholesterolemia, with no known drug allergies and a remote history of smoking. On admission, the patient was alert, in no acute distress, with clear lungs and regular cardiac exam; vital signs were stable and laboratory results were within normal limits. The documented diagnosis was three-vessel coronary artery disease. The patient was transferred for coronary artery bypass grafting as definitive treatment.
+The patient is a 45-year-old male presenting with intermittent chest pain occurring both with exercise and at rest. He was referred to cardiology after a positive stress test and cardiac catheterization revealed three-vessel coronary artery disease with normal ejection fraction. His past medical history includes asthma, hypertension, and hypercholesterolemia; he has no known allergies and quit smoking in 2161. The documented diagnosis was coronary artery disease status post coronary artery bypass grafting (CABG) times three, along with hypertension, hypercholesterolemia, and asthma. The patient underwent successful CABG with LIMA to the LAD and saphenous vein grafts to the ramus and PDA2, tolerated the procedure well, and had an uncomplicated postoperative course. At discharge, he was hemodynamically stable with clear breath sounds and clean incisions. Discharge medications included antihypertensives, statins, asthma medications, aspirin, and short-term diuretics and pain control. He was advised to follow up with his primary care physician in two weeks and cardiologist in four to six weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent chest discomfort. The chest pain has been occurring for a few days, is rated as a 6 out of 10 in intensity when present, and is described as central, non-radiating, and lasting a few minutes before resolving, often with rest; it can be triggered by activity but also occurs at rest, and is not associated with sweating, shortness of breath, or lightheadedness. The patient denied nocturnal symptoms and reported no known heart conditions but has a history of high blood pressure and high cholesterol, for which they are taking medication. On examination, there were no additional physical findings described. The doctor assessed that the intermittent, moderate chest discomfort in the context of hypertension and hyperlipidemia warrants caution, though the absence of worsening symptoms or nocturnal episodes is reassuring. The doctor recommended that the patient closely monitor their symptoms and seek prompt medical attention if the pain becomes more frequent, lasts longer, occurs with less activity, or is associated with new symptoms such as shortness of breath, nausea, or sweating. The patient was advised to continue current medications and avoid strenuous activity until further evaluation by their primary care provider. The doctor also offered guidance on tracking symptoms and recognizing warning signs.
+The patient is an adult presenting with intermittent central chest discomfort as the chief complaint. The chest pain has been occurring for a few days, is moderate in intensity (rated 6/10), lasts a few minutes at a time, and is sometimes triggered by activity but can also occur at rest; it resolves with rest and is not associated with sweating, shortness of breath, or lightheadedness. The discomfort does not wake the patient from sleep and is not affected by eating, stress, or changes in position. Relevant history includes diagnosed hypertension and hyperlipidemia, for which the patient is taking medication; there are no known heart conditions. The clinical impression is that the symptoms may be related to decreased cardiac blood flow during exertion, but the brief duration and absence of alarming features are somewhat reassuring. The patient was advised to closely monitor symptoms and seek prompt medical attention if the pain becomes more frequent, lasts longer, occurs with less activity, or is associated with new symptoms such as dyspnea, nausea, or diaphoresis. The treatment plan includes continuing current medications, avoiding strenuous activity, and tracking symptoms to discuss with the primary care provider.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.517
+- **Model Used**: general
+- **Text1 Length**: 158 words
+- **Text2 Length**: 191 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ Let’s also arrange for a check-up with some basic blood tests to look for thin
 
 ## EHR Summary
 
-The patient is an 84-year-old female presenting with presyncope and decreased hematocrit. She reported decreased appetite, fatigue, lethargy, and an 8-10 pound weight loss over several weeks, but denied gastrointestinal or cardiorespiratory symptoms. Her medical history includes hypertension, gastroesophageal reflux disease, Alzheimer's dementia, anemia, hypothyroidism, and neurogenic bladder; she has no known drug allergies and was taking aspirin, Aricept, and oxybutynin on admission. On evaluation, she was tachycardic and found to have a hematocrit of 23.2, guaiac-positive stool, and melena in the Emergency Department. The documented diagnosis was anemia, likely secondary to gastrointestinal blood loss. Treatment included transfusion of 3 units of packed red blood cells, which resolved her tachycardia and improved her hematocrit. She was evaluated by Gastroenterology and admitted for further management.
+The patient is an 84-year-old female presenting with presyncope and decreased hematocrit. She reported a three-week history of decreased appetite, fatigue, lethargy, and an 8–10 pound weight loss, with no gastrointestinal or respiratory symptoms at home but was found to have melena and guaiac-positive stool in the Emergency Department. Her past medical history includes hypertension, gastroesophageal reflux disease, Alzheimer's dementia, anemia, hypothyroidism, and neurogenic bladder; she has no known drug allergies. On admission, her hematocrit was 23.2 and she was tachycardic; she received 3 units of packed red blood cells with stabilization of her hematocrit and resolution of tachycardia. Gastroenterology evaluation included an incomplete colonoscopy due to colon tortuosity and pain, and an esophagogastroduodenoscopy showing erythema and friability in the pyloric region with some outlet obstruction; biopsy was taken. The documented diagnosis was upper gastrointestinal bleed, likely secondary to infiltrating tumor versus inflammatory changes from an ulcer in the pylorus. Treatment included blood transfusions, initiation of a proton pump inhibitor (Protonix), and holding of aspirin and Accupril until follow-up. The patient was discharged in stable condition with instructions to follow up for biopsy results, hematocrit, and blood pressure monitoring.
+
 
 ## Dialogue Summary
 
-The patient presented with episodes of lightheadedness, almost fainting, as the chief complaint. Symptoms included sudden onset lightheadedness without actual fainting, gradual decrease in appetite, fatigue, lethargy, and an 8–10 pound weight loss over time; the patient denied nausea, headaches, or changes in vision and reported no specific triggers or timing for the episodes. The patient mentioned no recent changes in medications or new treatments and reported a history of melena (dark stools) during a prior emergency department visit. No physical findings were described during the visit. The doctor assessed that the symptoms could be related to dehydration, nutritional changes, underlying medical issues such as low blood pressure, mild infections, anemia, or medication effects. The doctor recommended increasing fluid intake, eating small frequent meals, monitoring for new symptoms (such as chest pain, palpitations, confusion, or actual fainting), and standing up slowly to reduce fall risk. Basic blood tests were advised to check for anemia and electrolyte imbalances, with instructions to seek prompt care if symptoms worsen or new concerning signs develop.
+The patient presents with episodes of sudden lightheadedness, fatigue, and a gradual decrease in appetite. Symptoms have been ongoing for an unspecified duration and include difficulty performing usual activities, significant fatigue, and an 8–10 pound weight loss. The lightheadedness occurs unpredictably and has not resulted in actual syncope; there are no associated symptoms such as nausea, headache, or visual changes. The patient denies recent medication changes and reports a history of melena (dark stools) during a prior emergency department visit. The clinical impression includes possible dehydration, nutritional changes, anemia, or other underlying medical issues such as low blood pressure. The treatment plan includes increasing fluid intake, eating small frequent meals, standing up slowly to prevent falls, and monitoring for new or worsening symptoms such as chest pain, palpitations, confusion, or syncope. Basic blood tests were recommended to evaluate for anemia and electrolyte imbalances. The patient was advised to seek prompt care if concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.607
+- **Model Used**: general
+- **Text1 Length**: 189 words
+- **Text2 Length**: 155 words
+
 
 ## Processing Information
 

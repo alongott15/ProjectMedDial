@@ -96,3 +96,23 @@ For now, continue to rest, stay well-hydrated, and try to pace yourself with act
 ## Processing Information
 
 - **Processing Time**: 457.6s
+
+## EHR Summary
+
+The patient is an 88-year-old female presenting with hypernatremia. She was noted to be febrile and lethargic three days prior to admission, with subsequent intermittent fevers, tachycardia, tachypnea, hypoxemia (oxygen saturation 91–92% on room air), and laboratory findings of severe hyperglycemia (glucose 645), elevated creatinine, and decreased platelets. Her past medical history includes dementia, bipolar disorder, Parkinson's disease, urinary and fecal incontinence, and gastroesophageal reflux disease; she has no known drug allergies. On admission, she was aphasic but responsive to questions by head shaking, and chest x-ray showed findings consistent with pneumonia. The documented diagnoses were type 2 diabetes, hypernatremia, pancreatitis, mild disseminated intravascular coagulation (DIC), and possible pneumonia. Treatment included intravenous fluids with careful correction of sodium, insulin drip for hyperglycemia, antibiotics (ceftriaxone followed by levofloxacin), supportive care for pancreatitis, discontinuation of subcutaneous heparin due to thrombocytopenia, and supplemental oxygen. At discharge, she was prescribed her home medications plus sliding scale insulin and levofloxacin, with recommendations for blood sugar monitoring and ongoing assessment of fluid status.
+
+
+## Dialogue Summary
+
+The patient is an older adult presenting with the chief complaint of persistent fatigue. Symptoms include several days of ongoing tiredness, intermittent low-grade fever, difficulty with word-finding (occasional, not constant), episodes of palpitations and tachypnea (fast heartbeat and breathing) especially with activity, and recent swelling in both legs; symptoms have partially improved after rehydration. The fatigue and word-finding difficulties have made daily activities such as dressing and moving around more difficult. The patient reports that resting helps alleviate the palpitations and tachypnea, though these sometimes persist briefly. There is also a history of lower-than-usual oxygen levels noted by the patient.
+
+Relevant medical history, medications, and allergies are not specified in the dialogue. The clinical impression discussed by the physician suggests possible causes such as dehydration, minor infection (e.g., urinary tract infection or mild respiratory illness), or physiological stress, but no definitive diagnosis is documented. The treatment plan includes recommendations to rest, maintain good hydration, pace activities, and monitor for worsening symptoms such as chest pain, persistent shortness of breath, or severe confusion. The patient was advised to seek prompt medical attention if new or severe symptoms develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.587
+- **Model Used**: general
+- **Text1 Length**: 167 words
+- **Text2 Length**: 187 words
+

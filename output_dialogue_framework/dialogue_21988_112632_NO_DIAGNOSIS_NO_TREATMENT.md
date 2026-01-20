@@ -85,16 +85,21 @@ Given your symptoms, I’d recommend checking in with your doctor for a physical
 
 ## EHR Summary
 
-The patient is a 53-year-old male presenting with increasing shortness of breath and fatigue over the past year. He denies chest pain or pressure, and his symptoms have progressively worsened. His medical history includes insulin-dependent diabetes mellitus (on an insulin pump), hypertension, hypercholesterolemia, gastroparesis, peripheral neuropathy, and macular degeneration; he is allergic to Dilantin (causes hives). On physical examination, vital signs showed elevated blood pressure, but cardiac and pulmonary exams were unremarkable except for cool but well-perfused extremities. Cardiac catheterization revealed significant coronary artery disease with a 50% left main lesion, 80% left anterior descending lesion, and 80% right coronary artery lesion, with an ejection fraction of 55%. The documented diagnosis is multivessel coronary artery disease. Medications on admission included aspirin, Toprol XL, Cozaar, Zocor, Reglan, a multivitamin, and insulin via pump. The treatment plan and further recommendations are not specified in the provided note.
+The patient is a 53-year-old male presenting with increasing shortness of breath and fatigue over the past year. He denied chest pain or pressure, and stress echocardiogram revealed multiple wall motion abnormalities; cardiac catheterization showed significant coronary artery disease with 50% left main, 80% left anterior descending, and 80% right coronary artery lesions, and an ejection fraction of 55%. His medical history includes insulin-dependent diabetes mellitus (on an insulin pump), hypertension, hypercholesterolemia, gastroparesis, peripheral neuropathy, and macular degeneration; he is allergic to Dilantin (hives). The documented diagnosis was status post coronary artery bypass grafting times three, along with his chronic conditions. He underwent a three-vessel coronary artery bypass graft and had an uncomplicated postoperative course, with stable vital signs and clean, intact incisions at discharge. Discharge medications included Imdur, aspirin, ranitidine, simvastatin, Lasix, potassium chloride, metoprolol, insulin via pump, and Percocet as needed. He was discharged home in stable condition with instructions for follow-up with his surgeon and primary physician.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening shortness of breath over the past year. Symptoms included exertional dyspnea that is less noticeable at rest, increased fatigue, and difficulty performing daily activities such as climbing stairs and chores; the patient also reported a mild weight gain of about three kilograms above preoperative weight, but denied cough, wheezing, chest tightness, dizziness, lightheadedness, or leg swelling. Relevant history included sinus tachycardia and no prior heart or lung diagnoses or surgeries related to breathing. The patient noted that lying down does not affect breathing and has not experienced waking up short of breath; decreased breath sounds at the bases were previously mentioned by another doctor. The doctor assessed that the symptoms are most consistent with slowly progressive exertional breathlessness and fatigue, possibly related to mild heart or lung problems, anemia, or thyroid issues, with infection considered less likely due to absence of cough or sore throat. The doctor recommended a physical exam and basic tests such as chest X-ray and blood work to further evaluate the cause. The patient was advised to pace activities and monitor for new symptoms including chest pain, severe shortness of breath at rest, fainting, or swelling, and to reach out sooner if fever or weight gain worsens.
+The patient is an adult presenting with gradually worsening shortness of breath as the chief complaint. The dyspnea has progressed over the past year, is most pronounced with physical activity, and is accompanied by increased fatigue and mild weight gain (about three kilograms above preoperative weight). The patient denies cough, wheezing, chest tightness, dizziness, or lower extremity swelling, and reports no history of heart or lung disease or related surgeries, though sinus tachycardia is noted. There is mention of a mild fever (up to 101.1°F) without other infectious symptoms. The clinical impression is exertional dyspnea with associated fatigue and mild weight gain, with possible causes including mild heart or lung problems, anemia, or thyroid dysfunction; asthma and infection are considered less likely. The treatment plan includes referral for a physical exam and basic tests such as chest X-ray and blood work. The patient is advised to pace activities and monitor for new symptoms such as chest pain, severe dyspnea at rest, fainting, or swelling, and to seek care if these develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.428
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 171 words
+
 
 ## Processing Information
 

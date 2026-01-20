@@ -85,16 +85,21 @@ Let me ask—does anything seem to trigger your symptoms, such as certain foods 
 
 ## EHR Summary
 
-The patient is a 73-year-old female presenting with nausea, vomiting, diarrhea, and hyperglycemia. Symptoms began after dinner the previous evening, with persistent nausea, non-bloody emesis progressing to dry heaves, brown non-bloody diarrhea, and associated epigastric pain; she was unable to tolerate oral intake. Her home fingerstick glucose readings were in the 500s, which she reports is not unusual, but she did not take her usual Humalog due to inability to eat. Relevant history includes type 1 diabetes mellitus with prior diabetic ketoacidosis (DKA), hypertension, COPD, depression, and an allergy to ACE inhibitors. On admission, laboratory findings showed serum glucose of 1142 mg/dL, bicarbonate 12 mmol/L, anion gap 33, and initial potassium of 6.7 mmol/L. The documented diagnosis was diabetic ketoacidosis. Treatment included intravenous fluids, an insulin drip, and calcium gluconate for hyperkalemia, with potassium levels subsequently improving.
+The patient is a 73-year-old female presenting with nausea, vomiting, diarrhea, and hyperglycemia. Symptoms began after dinner the previous evening and included persistent nausea, non-bloody emesis progressing to dry heaves, brown non-bloody diarrhea, and epigastric pain, with inability to tolerate oral intake. She has a history of type 1 diabetes mellitus (with prior DKA), hypertension, COPD, depression, and osteoporosis, and is allergic to ACE inhibitors. On admission, she was found to have severe hyperglycemia (serum glucose 1142 mg/dL), metabolic acidosis (bicarbonate 12, anion gap 33), and acute renal failure; no infectious trigger was identified. The documented diagnoses were diabetic ketoacidosis (DKA), acute renal failure, hypokalemia, and osteoporosis. Treatment included intravenous fluids, insulin drip, electrolyte management, and adjustment of her insulin regimen with diabetes education; she was also started on calcium carbonate, vitamin D, and Fosamax for osteoporosis. She was discharged home in stable condition with instructions to follow up with her primary care provider and endocrinologist within 1–2 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with nausea and inability to keep food down as the chief complaint. Symptoms included frequent episodes of vomiting (starting after supper and progressing to dry heaves without blood), brown diarrhea (not bloody or black), cramping pain in the upper stomach during vomiting, and difficulty keeping fluids down, all persisting for a couple of days without improvement. The patient reported that these symptoms have made it difficult to perform regular activities and occur several times daily; no fever, chills, or sweats were noted. Relevant history includes high blood sugar and recent trouble with kidney function. On clinical review, the doctor noted the cramping upper stomach pain associated with vomiting and the inability to tolerate fluids, raising concern for dehydration, especially given the patient's kidney issues. The assessment was that the symptoms are likely due to irritation of the stomach and digestive tract, possibly from a viral or mild food-related illness, with underlying health conditions potentially worsening the presentation. The doctor recommended trying small sips of clear fluids such as water or electrolyte drinks and resting, and advised monitoring for warning signs of dehydration (dizziness, low urine output, confusion) that would require urgent attention. No specific triggers for symptoms were identified.
+The patient is an adult presenting with the chief complaint of persistent nausea and inability to keep food or fluids down. Symptoms include frequent episodes of vomiting (progressing to dry heaves), brown non-bloody diarrhea, and cramping upper abdominal pain that occurs during vomiting but not between episodes; these symptoms have been present for approximately two days without improvement. The patient reports significant difficulty performing daily activities due to feeling sick and tired, and is unable to tolerate even small amounts of water. There is no history of fever, chills, or sweats. Relevant history includes high blood sugar and recent kidney problems. The clinical impression is likely gastrointestinal irritation, possibly due to a viral or mild food-related illness, with concern for dehydration given the inability to retain fluids and underlying kidney issues. The treatment plan includes attempting small sips of clear fluids (such as water or electrolyte drinks) and resting, with instructions to seek urgent care if warning signs of dehydration (dizziness, decreased urine output, confusion) develop. No specific medication or further diagnostic testing was documented in this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.615
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 178 words
+
 
 ## Processing Information
 

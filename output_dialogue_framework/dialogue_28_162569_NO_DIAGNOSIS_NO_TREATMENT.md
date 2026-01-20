@@ -87,16 +87,21 @@ It would also be helpful to check your weight regularly—sudden increases can i
 
 ## EHR Summary
 
-The patient is a 74-year-old male admitted postoperatively following direct admission to the operating room after recent cardiac catheterization. He reported several months of exertional dyspnea and leg cramps, without chest pain, nausea, vomiting, diuresis, or syncope. His history is significant for coronary artery disease (CAD) with prior myocardial infarction, percutaneous transluminal coronary angioplasty (PTCA), stenting, left bundle branch block, COPD, hyperlipidemia, and type 2 diabetes mellitus; he is allergic to the tetanus vaccine. Recent stress echocardiogram showed an ejection fraction (EF) of 25% with anterior septal akinesis and ischemia, and cardiac catheterization revealed three-vessel disease with complex lesions and an EF of 30%. On admission, vital signs were stable with a heart rate of 65 bpm, blood pressure 104/50 mmHg, respiratory rate 12, and oxygen saturation 96% on room air. The documented diagnosis is severe multivessel coronary artery disease with reduced ejection fraction. Treatment prior to admission included pravastatin, clopidogrel, isosorbide mononitrate, metoprolol, aspirin, tamsulosin, glimepiride, lisinopril, and Advair inhaler. The patient underwent surgical intervention for his cardiac condition during this admission.
+The patient is a 74-year-old man admitted postoperatively following coronary artery bypass grafting (CABG) for severe coronary artery disease (CAD). He reported several months of dyspnea on exertion and leg cramps prior to surgery, with no chest pain, nausea, vomiting, or syncope. His history includes CAD with prior myocardial infarction, left bundle branch block, COPD, hyperlipidemia, and type 2 diabetes mellitus; he is allergic to the tetanus vaccine. The documented diagnoses are CAD status post CABG times five, COPD, hypercholesterolemia, diabetes mellitus type 2, and left bundle branch block. Postoperative recovery was uneventful, with successful extubation, stable hemodynamics, and gradual advancement of activity. At discharge, his condition was good with stable vital signs and mild bilateral lower extremity edema. Treatment included continuation of cardiac and diabetes medications, addition of amiodarone, diuretics (Lasix), potassium supplementation, and pain management with Percocet. He was discharged home with visiting nurse support and follow-up appointments scheduled.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath during activity. Symptoms included progressive difficulty catching breath with exertion (worse with stairs or walking longer distances, improved with rest), bilateral leg swelling, leg cramps occurring mainly during movement, and recent bruising on the left leg; no chest pain, tightness, cough, or nighttime breathing issues were reported. The patient noted these symptoms have worsened over time and have limited daily activities and chores. No relevant medical history, medications, or allergies were mentioned in the conversation. Physical findings described by the patient included bilateral leg swelling and bruising on the left leg. The doctor assessed that the symptoms may be related to circulation and heart function, with fluid buildup and changes in circulation as possible contributors; absence of chest pain or nighttime symptoms was considered reassuring. The doctor recommended elevating the legs, monitoring for sudden changes (increased swelling, pain, redness, chest discomfort, or severe shortness of breath), and checking weight regularly for signs of fluid retention. Further evaluation was planned to determine the underlying cause and help improve the patient's activity tolerance.
+The patient presents with the chief complaint of exertional shortness of breath. Symptoms include progressive dyspnea during activities such as walking or climbing stairs, bilateral leg swelling, and leg cramps that occur with movement but resolve at rest; the patient also reports recent bruising on the left leg. There is no associated chest pain, cough, or orthopnea, and no nocturnal dyspnea. The symptoms have led to decreased activity tolerance and difficulty performing daily chores. Relevant history regarding past medical conditions, medications, or allergies is not specified in the dialogue. The clinical impression discussed by the doctor suggests possible circulatory or cardiac involvement contributing to fluid retention and exertional symptoms, though no definitive diagnosis is documented. The treatment plan includes elevating the legs, monitoring for changes such as increased swelling, pain, redness, chest discomfort, or severe shortness of breath, and checking weight regularly for signs of fluid accumulation. Further evaluation is planned to determine the underlying cause and guide management.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.503
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 159 words
+
 
 ## Processing Information
 

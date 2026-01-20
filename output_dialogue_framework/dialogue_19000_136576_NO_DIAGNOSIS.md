@@ -87,16 +87,23 @@ Let me know if you have any questions about what we’ve discussed or if there�
 
 ## EHR Summary
 
-The patient is an 85-year-old male presenting with a chief complaint of headache for ten to fourteen days and three days of vague mental status changes. Symptoms included persistent headache and recent onset of cognitive changes, as noted by his daughter. Past medical history is significant for coronary artery disease (status post CABG x3) and prior cholecystectomy; medications on admission included Coumadin, Zocor, Zestril, Isordil, and Ambien, with a documented allergy to phenobarbital. On physical examination, he was awake and oriented, with minimal speech slurring, mild right upper extremity weakness (4+/5), and short-term memory impairment. A head CT scan revealed a large left acute versus subacute subdural hematoma (1.5–2 cm) with 9 mm midline shift. The documented diagnosis was left subdural hematoma with associated neurological deficits. The patient was transferred for neurosurgical management; specific treatments during this admission are not detailed in the provided note.
+The patient is an 85-year-old male presenting with a chief complaint of ten to fourteen days of headache and three days of vague mental status changes. Symptoms included persistent headache, short-term memory impairment, occasional slurred speech, and mild right upper extremity weakness. Past medical history is notable for coronary artery disease (status post CABG), prior cholecystectomy, and use of Coumadin, Zocor, Zestril, Isordil, and Ambien; he is allergic to phenobarbital. Head CT revealed a large left acute versus subacute subdural hematoma with 9 mm midline shift. The documented diagnosis was subdural hematoma. Treatment included left craniotomy for hematoma evacuation and placement of a subdural drain, followed by postoperative monitoring and rehabilitation. Discharge medications included Percocet, Zantac, Zocor, Zestril, Tylenol, and Isordil. The patient was discharged in stable condition with instructions for follow-up, repeat head CT in two weeks, and staple removal on postoperative day ten.
+
 
 ## Dialogue Summary
 
-The patient presented with a persistent headache lasting approximately ten days. The headache was described as a dull ache, constant and in the background, and was followed by the onset of mild, mostly constant weakness in the right arm, occasional minimal slurring of speech, and steady short-term memory difficulties affecting daily tasks such as reading and remembering details. The patient reported no changes in vision or balance and noted that the mental changes and arm weakness began a few days after the headache started. No specific medical history, medications, or allergies were mentioned during the conversation. On examination, the doctor noted the combination of persistent headache with new neurological symptoms including cognitive changes and mild motor weakness. The assessment included consideration of possible causes such as migraines, tension headaches, small strokes, medication effects, or other brain changes, with emphasis on the need to rule out serious underlying conditions due to the progression and duration of symptoms. The doctor recommended that the patient contact their healthcare provider soon for further evaluation, including review of medications and possible basic tests, and advised monitoring for any new or worsening symptoms such as confusion, speech changes, or difficulty walking, with instructions to seek prompt medical attention if these occur.
+The patient is presenting with a chief complaint of a persistent headache lasting approximately ten days. The headache is described as a dull, constant ache, accompanied by mild cognitive changes such as forgetfulness and difficulty tracking details, which began a few days after the onset of the headache. The patient also reports mild, mostly constant weakness in the right arm and occasional minimal slurring of speech, without changes in vision or balance. These symptoms have made daily tasks and memory more challenging but have not prevented the patient from performing activities of daily living.
+
+There is no relevant medical history, medication use, or allergies specified in the dialogue. The clinical impression discussed includes consideration of possible causes such as migraine, tension headache, small strokes, medication effects, or other neurological changes, with emphasis on the significance of new neurological symptoms accompanying headache. The treatment plan includes a recommendation to contact the healthcare provider soon for further evaluation, including review of medications, medical history, and possible basic tests. The patient is advised to monitor for any new or worsening symptoms (such as confusion, speech changes, or gait disturbances) and to seek prompt medical attention if these occur; no medication adjustments are recommended without provider guidance.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.489
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 203 words
+
 
 ## Processing Information
 

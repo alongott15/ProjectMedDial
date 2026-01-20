@@ -98,3 +98,21 @@ Let me know if you have any questions or concerns about these suggestions, or if
 ## Processing Information
 
 - **Processing Time**: 464.8s
+
+## EHR Summary
+
+The patient is a 54-year-old male presenting with an episode of chest pain and shortness of breath. He experienced one episode of chest pain and one episode of dyspnea during hospitalization; the chest pain prompted cardiac catheterization, and the dyspnea was evaluated with chest x-rays, which ultimately showed clear lung fields and no pneumonia. Relevant history includes ambiguous cardiac enzyme results and significant coronary artery disease with multiple stenoses identified on catheterization. The documented diagnosis was congestive heart failure exacerbation. Treatment included placement of a new coronary artery stent, initiation of an Integrilin drip, and daily Plavix and aspirin (with instructions to hold aspirin prior to an upcoming arteriovenous fistula evaluation). The patient was discharged on multiple medications including Celexa, aspirin, Plavix, metoprolol, norvasc, imdur, tricor, procrit, actos, NPH insulin, regular insulin, and lasix. He was stable at discharge and scheduled for further evaluation for potential hemodialysis access.
+
+
+## Dialogue Summary
+
+The patient presents with a chief complaint of nausea and vomiting. Additional symptoms include left-sided chest discomfort with a burning sensation that worsens with belching, shortness of breath when lying flat (orthopnea) that improves upon sitting up, and reduced appetite due to difficulty keeping food down. The burning sensation sometimes radiates toward the throat and resembles acid regurgitation, especially after eating. There is no associated wheezing or coughing. The documented clinical impression is likely acid reflux or gastroesophageal reflux disease (GERD), as explained by the physician. The treatment plan includes lifestyle modifications such as avoiding large or late meals, remaining upright after eating, elevating the head of the bed, and using over-the-counter antacids for symptom relief. The patient was also advised to monitor for warning signs such as severe chest pain, persistent vomiting, difficulty swallowing, or black stools, and to seek further evaluation if these occur or if symptoms do not improve.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.408
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 152 words
+

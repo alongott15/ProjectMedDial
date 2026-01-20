@@ -87,16 +87,21 @@ If you're comfortable with it, we can arrange for those checks soon. Does that s
 
 ## EHR Summary
 
-The patient is a 67-year-old male presenting with right-sided heart failure and evaluation for possible mitral valve replacement. He reported nausea, vomiting, and increasing abdominal girth prior to admission, and was found to have hypotension, likely due to overdiuresis, requiring IV fluids, packed red blood cells, and brief vasopressor support. His cardiac history includes prior CABG x3, mitral valve repair, ejection fraction 30-40%, mitral and tricuspid regurgitation, atrial and ventricular dilation, ventricular tachycardia arrest (status post AICD), sick sinus syndrome (status post pacemaker), pulmonary and systemic hypertension, chronic atrial fibrillation, and chronic renal failure. Physical findings included abdominal ascites (750 cc transudative fluid removed by paracentesis) and imaging showed pooling of IV contrast in the right heart and IVC. Echocardiography revealed severe right atrial and ventricular dilation, severely depressed left ventricular function, 3+ mitral regurgitation, and 4+ tricuspid regurgitation on TTE; TEE confirmed these findings with a well-seated mitral valve. The documented assessment was right-sided heart failure with severe valvular disease. The treatment plan included paracentesis for ascites, hemodynamic support, negative liver workup for ascites etiology, and cardiac surgery consultation for possible mitral valve replacement; the patient was also cleared for surgery by Dental Service.
+The patient is a 67-year-old male transferred for evaluation of right-sided heart failure and possible mitral valve replacement. He presented with nausea, vomiting, and increasing abdominal girth, and was found to have hypotension (possibly due to overdiuresis), abdominal ascites, and marked lower extremity edema. His history is significant for extensive cardiac disease including prior CABG, mitral valve repair, chronic atrial fibrillation, pulmonary hypertension, chronic renal failure, and multiple device placements (AICD, pacemaker); he is allergic to quinidine. Echocardiography revealed severe mitral and tricuspid regurgitation, markedly dilated atria and right ventricle, and severely depressed left ventricular function. The clinical impression is decompensated right-sided heart failure with severe valvular disease. Treatment included aggressive diuresis (Lasix drip), milrinone infusion, continuation of beta blocker, ACE inhibitor, Aldactone, and Zaroxolyn, with anticoagulation held in anticipation of surgery. The patient’s surgical evaluation is ongoing and the final treatment plan has not yet been determined.
+
 
 ## Dialogue Summary
 
-The patient presented with ongoing abdominal discomfort and new swelling in the belly. The discomfort has been present most of the time, rated around 5/10 in severity, and does not fluctuate with eating or movement; vomiting has also occurred, but appetite and bowel habits remain unchanged. The patient noted that the swelling has increased over several days, with clothes fitting tighter around the waist. Relevant history includes coronary artery disease, heart failure, prior bypass surgery, and mitral valve repair; no known liver problems or recent changes in blood pressure medications were reported. On clinical review, the doctor noted gradual abdominal swelling and persistent discomfort with associated vomiting but no acute changes. The assessment included possible fluid buildup in the abdomen (ascites), digestive issues, or effects from underlying cardiac conditions. The doctor recommended a physical exam and basic blood tests or imaging to further evaluate the cause and advised monitoring for new symptoms such as severe pain, jaundice, shortness of breath, or confusion, which would require urgent attention. The patient agreed to proceed with the recommended checks.
+The patient is an adult presenting with abdominal discomfort as the chief complaint. The discomfort has been persistent (rated 5/10), not fluctuating, and is accompanied by vomiting but no changes in appetite or bowel habits. The patient also reports new abdominal swelling that has gradually increased over several days, with clothes fitting tighter around the waist. There are no reported triggers or alleviating factors for the discomfort. Relevant history includes coronary artery disease, heart failure, prior coronary artery bypass grafting, and mitral valve repair; no known liver disease or recent changes in blood pressure medications. The clinical impression discussed includes possible fluid accumulation in the abdomen (ascites), digestive issues, or effects from underlying cardiac or hepatic conditions. The treatment plan includes a physical exam and basic blood tests or imaging to further evaluate the symptoms, with instructions to monitor for urgent symptoms such as severe pain, jaundice, shortness of breath, or confusion.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.464
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

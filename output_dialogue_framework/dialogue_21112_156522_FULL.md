@@ -98,3 +98,21 @@ Let me know if you have any questions about what to expect or how to manage thin
 ## Processing Information
 
 - **Processing Time**: 387.3s
+
+## EHR Summary
+
+The patient is a 47-year-old man presenting with shortness of breath on exertion. He has a history of severe (4+) aortic regurgitation following strep viridans endocarditis, previously treated with 6 weeks of Penicillin, and reported prior symptoms of cough and fever. His past medical history includes alcohol abuse, elevated liver function tests, and depression; he is allergic to Penicillin (hives). On admission, he underwent preoperative cardiac catheterization (showing no coronary disease) and was cleared for surgery by psychiatry and pulmonary services. The documented diagnosis was severe aortic insufficiency secondary to prior endocarditis. He underwent successful minimally invasive aortic valve replacement with a #21 pericardial valve, tolerated the procedure well, and had an uncomplicated postoperative course. At discharge, he was stable with normal vital signs and physical exam, and his incision was clean and dry. Discharge medications included aspirin, Lopressor, Parnate, Valium, Colace, and Percocet as needed for pain; he was advised to follow up in wound clinic in two weeks and with his physicians in four and six weeks.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with the chief complaint of shortness of breath during activity. Symptoms include exertional dyspnea that has gradually worsened over several days, a mostly dry cough, mild fever, and increased fatigue with activity; symptoms resolve quickly with rest and there is no chest pain, wheezing, or leg swelling. The patient denies chills, night sweats, and productive cough. Relevant history, medications, and allergies are not specified. The clinical impression is that the symptoms are most likely due to a mild respiratory infection such as viral bronchitis or a lingering cold, with no evidence of serious heart or lung disease. The treatment plan includes rest, hydration, and use of acetaminophen or ibuprofen for fever or discomfort as needed. The patient was advised to monitor for new or worsening symptoms such as chest pain, dyspnea at rest, persistent high fever, or leg swelling, and to seek care if these develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.511
+- **Model Used**: general
+- **Text1 Length**: 169 words
+- **Text2 Length**: 152 words
+

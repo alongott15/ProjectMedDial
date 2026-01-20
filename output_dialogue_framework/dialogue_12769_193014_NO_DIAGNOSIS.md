@@ -63,16 +63,21 @@
 
 ## EHR Summary
 
-The patient is a 66-year-old male presenting with three episodes of chest pain over the past three days. The chest pain was described as diffuse sternal discomfort with a "smoky feeling in my lungs," each episode lasting 5–10 minutes, triggered by exertion (shoveling snow, lifting a toilet bowl) or occurring at rest (awoken from sleep), and associated with diaphoresis but without radiation, nausea, vomiting, shortness of breath, or palpitations; symptoms resolved with rest or antacids. Relevant history includes prior CABG x3, multiple coronary stents, hyperlipidemia, hypertension, osteoarthritis, GERD, anemia, and polymyalgia rheumatica; no known drug allergies. On admission, the patient was asymptomatic and vital signs were stable (BP 129/62, P 56, RR 14, O2 sat 99%). Cardiac catheterization was performed on hospital day 2, followed by redo CABG x4 and reexploration for bleeding. The documented diagnosis is not explicitly stated but the clinical course suggests recurrent angina with significant coronary artery disease requiring surgical intervention. Treatment included cardiac catheterization, redo coronary artery bypass grafting (CABG x4), and surgical management of postoperative bleeding.
+The patient is a 66-year-old male presenting with three episodes of chest pain over the past three days. The chest pain was described as diffuse sternal discomfort with a "smoky feeling in my lungs," each episode lasting 5–10 minutes, triggered by exertion or occurring at rest, and relieved by rest; there was associated diaphoresis but no radiation, nausea, vomiting, shortness of breath, or palpitations. Relevant history includes prior CABG, multiple stents, hyperlipidemia, hypertension, osteoarthritis, anemia, polymyalgia rheumatica, and GERD; there are no known drug allergies. The documented diagnoses were non-ST elevation myocardial infarction (NSTEMI), coronary artery disease, status post CABG, hyperlipidemia, hypertension, and GERD. The patient underwent cardiac catheterization revealing significant multi-vessel disease and subsequently had a redo CABG x4 with postoperative management for bleeding and atrial fibrillation/flutter. Discharge medications included amiodarone, metoprolol, lasix, potassium chloride, allopurinol, prilosec, docusate sodium, oxycodone-acetaminophen, and ibuprofen. Discharge instructions advised medication adherence, activity restrictions (no driving for 4 weeks, no lifting >10 lbs for 3 months), wound care, and follow-up appointments. The patient was discharged home in good condition with homecare services.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest pain began three days ago and is intermittent, coming and going rather than being constant. The patient also reported associated symptoms of sweating and described an odd, smoky sensation in the middle of the chest during episodes. The pain occurs both at rest and during activity, with no clear trigger identified. No relevant medical history, medications, or allergies were mentioned. No physical examination findings were discussed, and the doctor did not provide a specific assessment or working diagnosis during the conversation. No treatment plan or recommendations were given in the dialogue.
+The patient is presenting with chest pain as the chief complaint. The chest pain began approximately three days ago and is described as intermittent rather than constant. The patient reports associated symptoms of sweating and an unusual "smoky" sensation in the center of the chest during episodes. The pain occurs both at rest and during activity, with no clear trigger identified. No diagnosis or clinical impression was documented in the dialogue. No treatment plan or specific recommendations were provided during this encounter. Relevant medical history, medications, and allergies were not discussed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.678
+- **Model Used**: general
+- **Text1 Length**: 178 words
+- **Text2 Length**: 91 words
+
 
 ## Processing Information
 

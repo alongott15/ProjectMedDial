@@ -85,16 +85,21 @@ For now, continuing your usual activities and staying engaged with your routine 
 
 ## EHR Summary
 
-The patient is a 74-year-old male presenting for follow-up of a brain tumor. He has a history of a right frontal atypical meningioma, previously treated with multiple surgeries, chemotherapy (Temodar), radiation therapy, and stereotactic radiosurgery. The most recent MRI showed a recurrent, infiltrative meningioma in the right frontal area. He has undergone several neurosurgical procedures, including right redo craniotomy for mass excision, duraplasty, and cranioplasty. On review of systems, he is awake, alert, and oriented. The documented diagnosis is recurrent right frontal atypical meningioma. Treatment during this admission included elective surgical excision of the mass with duraplasty and cranioplasty. He has a documented allergy to phenytoin.
+The patient is a 74-year-old male presenting for management of a recurrent brain tumor (meningioma). He reported no headaches, nausea, vomiting, dizziness, seizures, visual disturbances, or gait abnormalities at the time of admission. His medical history includes prior craniotomies, radiation therapy, chemotherapy for meningioma, atrial fibrillation (on Coumadin), and GERD; he is allergic to phenytoin. On this admission, he underwent a right redo craniotomy with excision of the mass, duraplasty, and cranioplasty without intraoperative complications. Postoperatively, he experienced transient atrial fibrillation managed with metoprolol and diltiazem, and was continued on amiodarone per cardiology recommendations. The documented diagnosis was recurrent atypical meningioma. At discharge, he was neurologically stable and prescribed gabapentin, lisinopril, oxycodone-acetaminophen as needed, docusate sodium, famotidine, dexamethasone (taper), amiodarone, and metoprolol. He was advised to keep the incision site clean and dry, monitor for signs of infection or neurological changes, and follow up with neurosurgery and cardiology as scheduled.
+
 
 ## Dialogue Summary
 
-The patient presented with a history of brain tumor and requested a general check-in. They reported no new symptoms, including headaches, vision changes, weakness, falls, changes in coordination, energy level, memory, daily activities, or sleep patterns. The patient is not currently taking anti-seizure medications or steroids and has not experienced any side effects related to prior brain tumor treatment. They remain active and able to perform usual daily activities without limitation. The doctor noted the absence of concerning neurological symptoms and found this clinically reassuring. The assessment was stable status post brain tumor, with no evidence of recurrence or complications based on current symptoms. The doctor recommended confirming the timing of the next specialist follow-up and imaging, emphasizing the importance of regular monitoring even in the absence of symptoms. The patient agreed to check in with their specialist and expressed understanding of the plan.
+The patient is an adult with a history of brain tumor presenting for a routine check-in regarding their condition. They report no new symptoms, including no headaches, vision changes, weakness, falls, changes in coordination, memory, energy level, or sleep disturbances. The patient is not currently taking anti-seizure medications or steroids and has not experienced any side effects related to prior brain tumor treatment. They remain active and able to perform all usual daily activities without limitation. Relevant history includes prior brain tumor and ongoing specialist follow-up, with the last imaging performed several months ago. The clinical impression is stable status post brain tumor, with no evidence of recurrence or new neurological deficits based on the current history. The treatment plan includes continuing regular activities and confirming the timing of the next specialist follow-up and imaging. The patient was advised to promptly report any new neurological symptoms such as persistent headaches, vision changes, or movement difficulties.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.503
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 155 words
+
 
 ## Processing Information
 

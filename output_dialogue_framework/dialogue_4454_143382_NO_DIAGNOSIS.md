@@ -87,16 +87,21 @@ In the meantime, try to rest, avoid overexertion, and keep track of any new symp
 
 ## EHR Summary
 
-The patient is a 73-year-old male presenting with suspected aspiration pneumonia. On admission, he was found to be tachycardic (heart rate 120), tachypneic (respiratory rate 30–32), and hypoxic with oxygen saturation of 90–93% on five liters by face mask, improving to 99% on a 100% nonrebreather mask. He is nonverbal at baseline and fully dependent for care, with a history of multi-infarct dementia, diabetes mellitus, hypertension, benign prostatic hypertrophy with chronic suprapubic catheter, recurrent urinary tract infections, multiple prior aspiration pneumonias, and sacral decubitus ulcers. No drug allergies are documented. Physical exam in the Emergency Department revealed he was afebrile with elevated blood pressure (180/86). The clinical impression was likely aspiration pneumonia. Treatment included administration of vancomycin, ceftriaxone, and Flagyl, and transfer to the medical intensive care unit for further management.
+The patient is a 73-year-old male presenting with suspected aspiration pneumonia. On admission, he was tachycardic, tachypneic (respiratory rate 32), and had decreased oxygen saturation (90-93% on 5L by face mask), requiring escalation to a 100% nonrebreather mask. He is nonverbal at baseline with a history of multi-infarct dementia, diabetes mellitus, hypertension, benign prostatic hypertrophy, multiple prior aspiration pneumonias, and chronic suprapubic catheter placement; there are no known drug allergies. Physical exam revealed mild respiratory distress and rhonchorous breath sounds bilaterally, but he was afebrile. The documented diagnosis was aspiration pneumonia. Treatment included intravenous antibiotics (initially vancomycin, ceftriaxone, and Flagyl, then levofloxacin for three days, and ceftriaxone to complete a ten-day course), metoprolol for hypertension, hypotonic fluids for hypernatremia, and adjustment of tube feeds and free water boluses to reduce aspiration risk. The patient was discharged in stable condition back to his nursing home with instructions to complete the antibiotic course and continue prior medications.
+
 
 ## Dialogue Summary
 
-The patient presented with recent onset difficulty breathing. Symptoms include persistent shortness of breath that is present at rest and during activity, increased respiratory effort, faster breathing, and a sensation of heart beating faster than usual; the patient denied chest pain, lightheadedness, cough (including at night or lying down), and leg or ankle swelling. The patient reported no history of checking pulse or blood pressure at home and has not noticed any irregular heartbeat. No relevant past medical history, medications, or allergies were mentioned. The patient described mild respiratory distress and noted lower oxygen levels. On assessment, the doctor noted new and persistent dyspnea with tachycardia at rest, without associated swelling, cough, or chest pain, and discussed possible causes including mild lung issues, heart rhythm changes, or anxiety. The doctor recommended checking vital signs (pulse and oxygen level) and performing a physical exam of the heart and lungs in person, advised rest and avoidance of overexertion, and instructed the patient to monitor for worsening symptoms such as chest pain or fainting. An in-person checkup was advised to further evaluate the symptoms and rule out more serious conditions.
+The patient is an adult presenting with the chief complaint of recent-onset breathing difficulty (dyspnea). Symptoms include persistent shortness of breath that is present at rest and during activity, increased respiratory effort, and a sensation of a faster-than-normal heartbeat (tachycardia), without associated chest pain, lightheadedness, cough, or peripheral edema. The patient reports no known triggers or alleviating factors, and symptoms are steady throughout the day. Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression is that the symptoms could be due to a range of causes, including mild lung issues, heart rhythm changes, or anxiety, but no definitive diagnosis is documented. The physician advised checking vital signs (pulse and oxygen saturation) and performing a physical examination of the heart and lungs during an in-person visit. The patient was instructed to rest, avoid overexertion, monitor for worsening symptoms (such as chest pain or fainting), and seek prompt evaluation if these occur. An in-person checkup was recommended to further assess the cause of symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.609
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

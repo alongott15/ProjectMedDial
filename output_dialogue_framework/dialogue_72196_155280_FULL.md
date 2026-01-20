@@ -87,16 +87,21 @@ Let me ask: since these symptoms began, have they been getting better, staying a
 
 ## EHR Summary
 
-The patient is a 75-year-old female presenting with nausea, vomiting, and increased watery ostomy output. Symptoms began with intermittent nausea and vomiting on 2117-10-26, followed by decreased oral intake and an increase in ostomy output to 600-800cc daily of watery consistency since 2117-10-27; she denied fevers, chills, abdominal pain, chest pain, dyspnea, dysuria, or hematuria. Relevant history includes COPD on home oxygen and chronic prednisone, diabetes mellitus type 2, hypertension, recent ischemic colitis status post total colectomy with end ileostomy, chronic tracheostomy, and multiple recent antibiotic courses. She has allergies to cephalosporins, theophylline, and Prevacid. Clinical findings included stable creatinine (~0.7), progressive anemia (HCT 23-24, improved to 25 after transfusion), and negative guiac tests. The patient developed a resistant ESBL E. coli urinary tract infection at rehab that had not yet been treated due to allergy concerns. She was empirically started on IV flagyl for possible infection despite a negative C. difficile assay. The treatment plan included monitoring of ostomy output, management of UTI with consideration of antibiotic allergies, and supportive care for anemia.
+The patient is a 75-year-old female presenting with nausea, vomiting, and increased watery output from her ileostomy. Symptoms began several days prior to admission, with ostomy output increasing to 600-800cc daily and associated decreased oral intake; she denied abdominal pain, fever, chills, or shortness of breath. Her medical history includes COPD on home oxygen, chronic tracheostomy, diabetes mellitus type 2, hypertension, diastolic heart failure, and recent total colectomy for ischemic colitis. She was found to have a Clostridium difficile small bowel infection (confirmed by positive stool assay) and an ESBL E. coli urinary tract infection. Treatment included discontinuation of metronidazole due to side effects, initiation of oral vancomycin for C. difficile (to be continued until 11/16), and a 10-day course of intravenous meropenem for the UTI (to be completed by 11/9). Her nasogastric tube was removed at her request, with plans to monitor nutritional intake and consider replacement if needed. She was discharged to extended care with instructions for medication adherence and follow-up appointments with surgery and pulmonary specialists.
+
 
 ## Dialogue Summary
 
-The patient presented with nausea and vomiting as the chief complaint. Symptoms included intermittent nausea and vomiting over the past few days, reduced appetite, increased fatigue, and difficulty eating and drinking; the patient also reported increased watery ostomy output with higher volume than usual. No fever, abdominal pain, dizziness, or dry mouth were noted, and no specific triggers for symptoms were identified. The patient has found it challenging to maintain adequate fluid intake due to persistent nausea. On examination, there were no signs of severe dehydration or other acute findings. The doctor assessed that the symptoms may be related to a mild stomach bug or a change in routine, with dehydration as a primary concern given the increased ostomy output and reduced fluid intake. The doctor recommended sipping small amounts of fluids frequently, considering oral rehydration solutions or electrolyte drinks, and monitoring for warning signs such as increasing fatigue, dizziness, decreased urine output, or confusion. The patient reported that symptoms have remained stable since onset and expressed understanding of the advice provided.
+The patient is an adult presenting with nausea and vomiting as the chief complaint. Symptoms have been intermittent over the past few days, with associated decreased appetite, fatigue, and increased watery ostomy output; there are no reported triggers, fever, abdominal pain, dizziness, or dry mouth. The patient reports difficulty eating and drinking due to persistent nausea, leading to concerns about hydration status. Relevant history includes the presence of an ostomy. The clinical impression is that the symptoms may be due to a mild gastrointestinal disturbance or change in routine, without evidence of severe dehydration or infection. The treatment plan includes advice to sip small amounts of fluids frequently and consider oral rehydration solutions or electrolyte-containing drinks. The patient was instructed to monitor for warning signs such as worsening fatigue, dizziness, decreased urine output, or confusion, and to seek medical attention if these occur. No new medications or interventions were initiated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.973
-- **Similarity Label**: N/A
+- **STS Score**: 0.477
+- **Model Used**: general
+- **Text1 Length**: 169 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

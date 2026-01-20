@@ -87,16 +87,21 @@ Let me know if you have questions about these suggestions, or if there’s anyth
 
 ## EHR Summary
 
-The patient is a 33-year-old male presenting with paresthesias of the left neck and shoulder, along with intermittent shooting pains down the left arm, which are exacerbated by sneezing and coughing. He also reports a history of migraine headaches for several months. His past medical history includes psoriasis (treated with topical creams and ultraviolet radiation), migraines, and a paraspinal cyst from C2 through T2; he has allergies to ibuprofen (rash) and gluten (dermatitis). On admission, physical examination was largely unremarkable, with no sensory deficits or acute neurological findings. The patient was diagnosed with Chiari malformation based on outpatient workup. He was admitted for surgical decompression of the Chiari malformation.
+The patient is a 33-year-old male presenting with paresthesias of the left neck and shoulder, as well as intermittent shooting pains down the left arm, which were exacerbated by sneezing and coughing. He also reported a history of migraine headaches for several months. His past medical history includes psoriasis (treated with topical creams and ultraviolet radiation), migraines, and a paraspinal cyst from C2 through T2; he has allergies to ibuprofen (rash) and gluten (dermatitis). Outpatient workup revealed a Chiari malformation, for which he was admitted for surgical decompression. The documented diagnosis was Chiari malformation. He underwent a suboccipital craniectomy and C1 laminectomy with duraplasty. Postoperative recovery was unremarkable, and he was discharged in stable and improved condition with instructions for follow-up in approximately one and a half weeks for staple removal and further evaluation.
+
 
 ## Dialogue Summary
 
-The patient presented with tingling and numbness around the left neck and shoulder. Symptoms began a few days ago and have remained steady, with tingling rated 4/10 and occasional shooting pain down the left arm rated 6/10, which is worsened by sneezing and coughing; no weakness or trouble gripping was reported. The patient denied recent injuries, fever, or changes in sensation elsewhere, and stated that symptoms are distracting but not interfering with daily activities, sleep, or work. Relevant history includes a paraspinal cyst from C2 through T2, but no prior similar symptoms. On assessment, the doctor noted no weakness or loss of hand function and suggested the symptoms may be due to nerve irritation in the neck (radiculopathy), possibly related to the cyst. The doctor recommended avoiding heavy lifting or sudden neck movements, using over-the-counter pain relievers, and applying heat or ice. The patient was advised to seek urgent care if new symptoms such as significant weakness, coordination problems, or loss of bladder/bowel control develop.
+The patient is an adult presenting with tingling and numbness around the left neck and shoulder as the chief complaint. Symptoms began a few days ago and have remained stable, with tingling rated 4/10 and intermittent shooting pain down the left arm rated up to 6/10, worsened by sneezing and coughing. There is no associated weakness, grip difficulty, recent injury, fever, or sensory changes elsewhere, and daily activities are not significantly affected. The patient has a history of a paraspinal cyst from C2 through T2 but has not experienced these symptoms previously. The clinical impression is possible cervical radiculopathy related to nerve irritation, potentially influenced by the prior cyst. The treatment plan includes activity modification (avoiding heavy lifting and sudden neck movements), use of over-the-counter pain relievers, and application of heat or ice. The patient was advised to monitor for new symptoms such as significant weakness, coordination problems, or loss of bladder/bowel control, which would warrant urgent evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.545
+- **Model Used**: general
+- **Text1 Length**: 134 words
+- **Text2 Length**: 158 words
+
 
 ## Processing Information
 

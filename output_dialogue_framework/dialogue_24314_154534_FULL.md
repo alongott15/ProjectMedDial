@@ -98,3 +98,21 @@ Let me know if you have any questions about what weâ€™ve discussed or if thereâ€
 ## Processing Information
 
 - **Processing Time**: 277.9s
+
+## EHR Summary
+
+The patient is an elderly female presenting with abdominal pain and bloating that worsened over several days. She experienced increasing abdominal distention, nausea, and vomiting, but denied fevers or chills; initial management at an outside hospital included sigmoidoscopy with partial relief, but symptoms recurred, prompting transfer. Her past medical history includes hypertension and a prior upper gastrointestinal bleed after NSAID use, with no known drug allergies. On admission, examination revealed a distended, tympanitic, and diffusely tender abdomen; imaging confirmed a persistent sigmoid volvulus. The documented diagnosis was sigmoid volvulus, status post sigmoid colectomy and end colostomy. Treatment included emergent surgery, postoperative antibiotics (Ceftriaxone and Flagyl), fluid management, pain control (including a fentanyl patch and Percocet), and gradual advancement of diet. She was monitored for infection and pulmonary complications, both of which improved during her stay. The patient was discharged in stable condition to a rehabilitation facility with instructions for follow-up wound care and staple removal.
+
+
+## Dialogue Summary
+
+The patient presents with abdominal discomfort as the chief complaint. Symptoms began a few days ago and include persistent abdominal pain described as a dull ache (rated 4/10), bloating, abdominal fullness and distention, constant throughout the day, with associated nausea and occasional vomiting but no changes in bowel movements. The discomfort is mild and does not interfere with daily activities, and there are no identifiable food or activity triggers. No constipation, diarrhea, or loss of appetite was reported. Relevant medical history, medications, and allergies are not specified. The clinical impression is that the symptoms are likely due to common digestive issues such as temporary changes in gut function, mild irritation, or stress. The treatment plan includes staying hydrated, eating smaller meals, avoiding swallowing air, and keeping a food diary to identify possible patterns; the patient was advised to seek further evaluation if symptoms worsen or new symptoms develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.469
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 148 words
+

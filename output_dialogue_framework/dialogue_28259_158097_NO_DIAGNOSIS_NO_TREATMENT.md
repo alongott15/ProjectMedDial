@@ -87,16 +87,21 @@ Would you like help arranging a follow-up with your neurologist or specialist?
 
 ## EHR Summary
 
-The patient is a 74-year-old male presenting for follow-up of a brain tumor. He has a history of a right frontal atypical meningioma, previously treated with multiple surgeries, chemotherapy (Temodar), radiation therapy, and stereotactic radiosurgery. He recently underwent a right redo craniotomy with excision of mass, duraplasty, and cranioplasty due to recurrent, infiltrative meningioma identified on MRI. The patient is awake, alert, and oriented on review of systems. Pathology confirmed atypical meningioma. The treatment plan included elective surgical intervention with resection of the tumor, duraplasty, and methylmethacrylate cranioplasty. He has a documented allergy to phenytoin.
+The patient is a 74-year-old male presenting for management of a recurrent brain tumor (meningioma). He reported no headaches, nausea, vomiting, dizziness, seizures, visual disturbances, or gait abnormalities at the time of admission. His medical history includes prior craniotomies, radiation therapy, chemotherapy for meningioma, atrial fibrillation (on Coumadin), and GERD; he is allergic to phenytoin. On this admission, he underwent a right redo craniotomy with excision of the mass, duraplasty, and cranioplasty without intraoperative complications. Postoperatively, he experienced transient atrial fibrillation managed with metoprolol and diltiazem, and was continued on amiodarone per cardiology recommendations. The documented diagnosis was recurrent atypical meningioma. At discharge, he was neurologically stable and prescribed gabapentin, lisinopril, oxycodone-acetaminophen as needed, docusate sodium, famotidine, dexamethasone (taper), amiodarone, and metoprolol. He was advised to keep the incision site clean and dry, monitor for signs of infection or neurological changes, and follow up with neurosurgery and cardiology as scheduled.
+
 
 ## Dialogue Summary
 
-The patient presented with a history of brain tumor for a routine check-in. They reported no new symptoms, including headaches, vision problems, balance issues, changes in energy, memory, mood, appetite, weight, or sleep disturbances. The patient stated they are able to perform their usual daily activities without difficulty and are not currently on any treatments for their brain tumor, with no recent changes to prescriptions. No physical findings were described during the visit. The doctor assessed that there are no new or concerning symptoms related to the patient's brain tumor history and found the current status reassuring. The doctor recommended scheduling a routine follow-up with the patient's specialist and suggested updated imaging if appropriate for ongoing monitoring. The patient agreed to arrange a follow-up appointment and demonstrated understanding of the plan.
+The patient is an adult with a history of brain tumor presenting for a routine check-in regarding their tumor history. They report no new symptoms, including no headaches, vision changes, balance issues, changes in energy, memory, mood, appetite, weight, or sleep disturbances. The patient is able to perform usual daily activities without difficulty and is not currently on any treatments related to their brain tumor; there have been no recent changes to their prescriptions. There is no mention of recent follow-up imaging or specialist appointments. The clinical impression is that the patient is stable with no new or concerning symptoms related to their brain tumor history. The treatment plan includes recommending routine follow-up with their specialist and considering updated imaging as part of ongoing monitoring. The patient was advised to remain vigilant for new symptoms such as persistent headaches, vision changes, weakness, or confusion and to notify their healthcare team if these occur. Assistance with arranging a specialist follow-up was offered and accepted.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.469
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

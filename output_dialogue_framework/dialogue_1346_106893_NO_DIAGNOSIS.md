@@ -89,16 +89,21 @@ Does this explanation make sense to you, or is there anything you’d like me to
 
 ## EHR Summary
 
-The patient is a 59-year-old female presenting with increased exertional anginal symptoms. Over the past year, she reported progressive angina characterized by tightness on the left side of her chest, left arm and shoulder discomfort, sometimes accompanied by diaphoresis, nausea, and shortness of breath. Her medical history includes type 2 diabetes mellitus with neuropathy, hypertension, hypercholesterolemia, low TSH, obesity, claudication, and a bulging lumbar disk. She is a smoker and takes multiple medications including aspirin, Toprol XL, Imdur, Pletal, Univasc, Prozac, insulin, Neurontin, Zanaflex, and Lipitor. Cardiac catheterization revealed significant coronary artery disease with multiple vessel stenoses (left main 40%, right coronary artery 80%, posterior descending artery 80%, left anterior descending artery 70%, circumflex 80%) and an ejection fraction of 70%. The documented diagnosis was multivessel coronary artery disease. The patient underwent coronary artery bypass grafting x3 during this admission.
+The patient is a 59-year-old female presenting with increased exertional anginal symptoms. Over the past year, she reported progressive angina characterized by tightness on the left side of her chest, left arm and shoulder discomfort, sometimes accompanied by diaphoresis, nausea, and shortness of breath. Her medical history includes type 2 diabetes mellitus with neuropathy, hypertension, hypercholesterolemia, low TSH, obesity, claudication, and a bulging lumbar disk. Cardiac catheterization revealed significant multi-vessel coronary artery disease. The documented diagnosis was coronary artery disease status post coronary artery bypass grafting x3. She underwent successful triple coronary artery bypass grafting and had an uncomplicated postoperative course aside from mild edema and a transfusion for low hematocrit. At discharge, she was prescribed medications including Lopressor, Lasix, potassium chloride, aspirin, fluoxetine, Lipitor, Vicodin, and Neurontin, and was advised to follow up with her cardiologist and primary physician.
+
 
 ## Dialogue Summary
 
-The patient presented with increased chest tightness, particularly during walking or household activities, which has been causing anxiety. Symptoms include chest tightness that sometimes radiates to the left arm and shoulder, accompanied by sweating, nausea, and shortness of breath during episodes; the chest tightness is usually moderate but can become severe enough to require stopping activity. The patient also reported cramping and discomfort in both legs after walking about half a block (worse on the left), which improves with rest, as well as swelling in the lower legs and feet, leg numbness, and occasional low-grade temperature. There is no history of trouble lying flat or waking up short of breath at night. On assessment, the doctor noted that symptoms are exertional and worsening over time, with improvement at rest, suggesting possible angina and claudication due to arterial narrowing. The doctor recommended a thorough cardiovascular evaluation including EKG, blood tests, and possibly a stress test or imaging. The patient was advised to avoid strenuous activity that provokes symptoms and to seek immediate care if chest tightness occurs at rest, severe shortness of breath develops, or fainting occurs.
+The patient is an adult presenting with increased chest tightness, primarily during physical activity such as walking or doing chores. The chest tightness is sometimes moderate to severe, radiates to the left arm and shoulder, and is associated with diaphoresis, nausea, and exertional dyspnea. The patient also reports bilateral leg cramping and discomfort after walking about half a block—especially on the left side—which improves with rest, as well as swelling in the lower legs and feet. These symptoms have been progressively worsening over time but do not occur at rest, and there is no orthopnea or paroxysmal nocturnal dyspnea. Relevant history of leg numbness and occasional low-grade temperature was mentioned, but no specific past medical history, medications, or allergies were documented. The clinical impression is angina for the chest symptoms and claudication for the leg discomfort, likely due to arterial narrowing. The treatment plan includes a thorough cardiovascular evaluation (EKG, blood tests, possible stress test or imaging), advice to avoid strenuous activity that provokes symptoms, and instructions to seek immediate care if symptoms occur at rest or worsen significantly.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.507
+- **Model Used**: general
+- **Text1 Length**: 140 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

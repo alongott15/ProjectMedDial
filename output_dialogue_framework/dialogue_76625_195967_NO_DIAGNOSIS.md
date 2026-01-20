@@ -96,3 +96,21 @@ Does this explanation make sense, or is there anything else you’re concerned a
 ## Processing Information
 
 - **Processing Time**: 398.0s
+
+## EHR Summary
+
+The patient is a 44-year-old male presenting with chest pain and back pain. He reported a six-hour history of crushing chest pain radiating to his back, persistent and unrelieved by any factors, with initial improvement on labetalol but later refractory pain. His medical history includes hypertension and hypercholesterolemia, with allergies to aspirin and morphine, and a significant smoking and alcohol use history. Imaging revealed a type B aortic dissection extending from the left subclavian artery to the bilateral external iliac arteries, with maintained organ perfusion and no evidence of infarction. The documented diagnosis was type B aortic dissection. He was treated medically with blood pressure control using hydrochlorothiazide, amlodipine, and metoprolol tartrate, along with lifestyle modification advice including smoking cessation and activity restrictions. Pain was managed with Percocet as needed, and he was discharged home in stable condition with instructions for close follow-up and blood pressure monitoring.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with chest pain as the chief complaint. The pain is described as a pressure or tightness located in the mid-left chest, rated 5–6 out of 10 in intensity, and is accompanied by upper back pain between the shoulder blades. Symptoms have been present for a few days, are intermittent, and are not associated with exertion, eating, or specific triggers; stress may worsen the discomfort. The patient denies dyspnea, diaphoresis, nausea, or lightheadedness. Relevant history, medications, and allergies are not specified. The clinical impression was that the symptoms are most consistent with a musculoskeletal or stress-related cause rather than an urgent or dangerous condition. The treatment plan includes monitoring for new or worsening symptoms (such as shortness of breath or severe pain), gentle stretching, maintaining activity within comfort, and stress management; follow-up is advised if symptoms persist beyond one to two weeks or if new concerning signs develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.535
+- **Model Used**: general
+- **Text1 Length**: 147 words
+- **Text2 Length**: 153 words
+

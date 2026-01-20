@@ -67,16 +67,21 @@
 
 ## EHR Summary
 
-The patient is a 28-year-old female presenting for monitoring status post exploratory laparotomy. She reported mild lower abdominal cramping but denied vaginal bleeding, fever, or chills. Her relevant history includes Type I diabetes mellitus managed with an insulin pump and hypothyroidism; she has no known drug allergies. Imaging revealed a pregnancy in the left rudimentary horn of a bicornuate uterus at 9 weeks gestation, with high risk for rupture due to thinned myometrium. On exam, she was stable but had abdominal tenderness to palpation. The documented diagnosis was a rudimentary horn pregnancy in a bicornuate uterus. Treatment included urgent surgical excision of the left rudimentary horn and left salpingectomy, with postoperative pain management and insulin therapy adjustments. She was monitored postoperatively with stable vital signs and emotional support provided.
+The patient is a 28-year-old female presenting for monitoring status post exploratory laparotomy. She reported mild lower abdominal cramping without vaginal bleeding, fever, or chills, and was found to have abdominal tenderness on examination. Her history is significant for type I diabetes mellitus (on insulin pump), Hashimoto's thyroiditis, and hyperlipidemia, with no known drug allergies. Imaging revealed a pregnancy in the left rudimentary horn of a bicornuate uterus at 9 weeks gestation, with thinned myometrium and high risk for rupture. The documented diagnosis was pregnancy in a rudimentary uterine horn. She underwent surgical excision of the left rudimentary horn and left salpingectomy, with pain managed by Toradol and dilaudid postoperatively; her insulin regimen was adjusted perioperatively and her levothyroxine dose was returned to pre-pregnancy levels. She was discharged home in stable condition with instructions for pain management, wound care, and follow-up with gynecology and endocrinology.
+
 
 ## Dialogue Summary
 
-The patient presented with mild lower abdominal cramping causing discomfort. The cramping has been ongoing for a couple of days, is described as coming and going, and does not appear to be triggered or relieved by eating, activity, or specific times of day. The patient reported tenderness upon pressing the lower abdomen and denied changes in bowel movements, fever, or unusual vaginal discharge. The patient also mentioned feeling tearful at times. No relevant medical history, medications, or allergies were discussed. Physical findings included lower abdominal tenderness on palpation as described by the patient. The doctor did not provide a specific assessment or diagnosis during the conversation. No treatment plan or recommendations were given in this dialogue.
+The patient presents with mild lower abdominal cramping as the chief complaint. The cramping has been present for approximately two days, is described as uncomfortable, and is associated with tenderness on palpation of the lower abdomen. The discomfort is intermittent, with no clear triggers or alleviating factors, and is not related to eating or activity. The patient denies associated symptoms such as changes in bowel movements, fever, or unusual vaginal discharge, but reports feeling tearful at times. Relevant medical history, medications, and allergies are not specified in the dialogue. No formal diagnosis was documented during this encounter. No specific treatment or recommendations were provided in the documented conversation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.408
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 108 words
+
 
 ## Processing Information
 

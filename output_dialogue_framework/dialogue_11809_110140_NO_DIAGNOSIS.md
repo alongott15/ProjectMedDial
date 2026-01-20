@@ -96,3 +96,23 @@ Given how much this is impacting your day-to-day life and your difficulty with f
 ## Processing Information
 
 - **Processing Time**: 432.5s
+
+## EHR Summary
+
+The patient is a male over 90 years old presenting with weakness as the chief complaint. He reported 2–3 weeks of diarrhea, vomiting, poor intake, and decreased appetite, but denied fever, chills, chest pain, dyspnea, palpitations, abdominal pain, rectal bleeding, muscle aches, or pain. His past medical history included congestive heart failure, atrial fibrillation (on amiodarone and warfarin), chronic kidney disease, gout, GERD, osteoarthritis, myelodysplastic syndrome, BPH, and hypertension; he had no known drug allergies. On admission, he was hypotensive (BP 75/45), with dry mucous membranes and decreased skin turgor; laboratory and imaging findings were notable for unchanged cholelithiasis and unremarkable chest X-ray. The documented diagnosis was renal failure. Initial treatment included intravenous fluids, potassium chloride, levofloxacin, and metronidazole. During hospitalization, his renal failure progressed to anuria. The patient and family elected comfort-focused care with palliative consultation; he expired during the admission.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with the chief complaint of progressive weakness over the past few days. The weakness has worsened and is accompanied by diarrhea, vomiting, decreased appetite, and significant difficulty keeping fluids down, with no identifiable triggers for gastrointestinal symptoms. The patient reports inability to perform usual daily activities due to the severity of weakness but denies fever, chills, or temperature changes. Relevant medical history, medications, and allergies are not specified.
+
+The clinical impression is that the weakness is likely secondary to dehydration from ongoing diarrhea and vomiting. The treatment plan includes attempting small sips of clear liquids (such as water, oral rehydration solutions, or diluted juice) very slowly, allowing the stomach to rest between attempts, and monitoring for warning signs of severe dehydration (such as dizziness, confusion, or low urine output). The patient was advised to seek medical attention if symptoms worsen or do not improve within the next day or two, or if concerning signs develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.603
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 161 words
+

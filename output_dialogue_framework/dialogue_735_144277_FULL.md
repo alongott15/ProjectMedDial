@@ -182,3 +182,23 @@ Most often, these symptoms are not due to something urgent, but your history mea
 ## Processing Information
 
 - **Processing Time**: 439.4s
+
+## EHR Summary
+
+The patient is a 59-year-old female presenting with left lower extremity weakness. She has a history of renal cell carcinoma with progressive metastases to the lumbar spine, resulting in a large lesion at T12-L1 causing significant spinal cord compression and associated symptoms. Her past medical history includes right nephrectomy, adrenalectomy, and prior surgeries, and she has a latex allergy. The documented diagnosis was thoracic tumor with spinal cord compression due to metastatic disease. She underwent T11-L1 decompressive laminectomy, tumor resection, and T9-L2 instrumented fusion. Postoperatively, she received blood transfusions for symptomatic hypotension and low hematocrit, with subsequent improvement in motor strength and pain. Discharge instructions included wound care, activity restrictions, pain management, and monitoring for signs of infection or neurological changes. She was discharged in stable condition to an extended care facility with follow-up arranged.
+
+
+## Dialogue Summary
+
+The patient is an adult with a history of renal cell carcinoma with spinal involvement presenting with persistent left leg weakness and discomfort. The weakness has been present for a while and is most noticeable during walking, standing, or getting up from a chair, making daily activities more difficult. The patient denies any numbness, changes in sensation, balance problems, or issues with bladder or bowel control. Preoperative pain was previously an issue but has improved since surgery.
+
+Given the patient's oncologic and spinal history, the physician expressed concern that new or worsening weakness could indicate possible progression or recurrence affecting the spinal cord. No definitive diagnosis was documented in this conversation, but spinal cord compression or nerve involvement was discussed as a potential concern. The treatment plan included urgent in-person evaluation to rule out serious complications, with instructions to seek emergency care if new symptoms such as numbness, difficulty walking, or changes in bladder or bowel function develop. The patient was advised to remain vigilant for new symptoms and to reach out with any concerns.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.731
+- **Model Used**: general
+- **Text1 Length**: 135 words
+- **Text2 Length**: 175 words
+

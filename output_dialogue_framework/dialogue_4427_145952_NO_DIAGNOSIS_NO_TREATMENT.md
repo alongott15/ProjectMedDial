@@ -98,3 +98,21 @@ Otherwise, maintaining your current healthy habits and staying proactive, as you
 ## Processing Information
 
 - **Processing Time**: 387.9s
+
+## EHR Summary
+
+The patient is a 56-year-old female admitted for management of intracranial carotid stenosis and aneurysm. She underwent a left internal carotid artery (ICA) stent placement and coil embolization for an ICA aneurysm without complications. Post-procedure, she was monitored overnight, remained afebrile, and was awake, alert, and oriented with stable vital signs. Physical examination showed intact visual fields, full extraocular movements, clean groin sites post-sheath removal, and positive pedal pulses. Her relevant history includes prior intracranial aneurysms with unsuccessful coiling and clipping, gastric bypass, pernicious anemia, rheumatic arthritis versus fibromyalgia, multiple spinal surgeries, and a history of lumpectomy. The documented diagnosis was intracranial carotid stenosis with aneurysm. Treatment included stent and coil embolization, along with medications such as hydromorphone for headache, pantoprazole, Colace, venlafaxine XR, Plavix, and aspirin. She was discharged in stable condition with instructions to follow up in 8 weeks.
+
+
+## Dialogue Summary
+
+The patient presented for a routine check-in without specific complaints, primarily due to concerns related to a history of anemia and past surgeries. The patient denied any new or unusual symptoms, including fatigue, changes in appetite, weight, sleep, bruising, bleeding, or recent infections. Energy levels and daily functioning were reported as stable and unchanged. There is a relevant history of anemia and prior surgical interventions. No new clinical findings or diagnoses were documented during this visit; the overall impression was stable health status with well-managed chronic conditions. The physician advised continued self-monitoring for subtle changes such as fatigue, unexplained bruising, or shifts in daily functioning, given the patient’s medical history. The treatment plan included maintaining current healthy habits, adhering to routine bloodwork and follow-up appointments, and seeking medical attention if new symptoms arise. No additional interventions or medications were recommended at this time.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.382
+- **Model Used**: general
+- **Text1 Length**: 141 words
+- **Text2 Length**: 143 words
+

@@ -90,16 +90,21 @@ Let’s also make sure your medications and any underlying conditions are being 
 
 ## EHR Summary
 
-The patient is a 70-year-old male admitted for an elective coronary artery bypass graft (CABG) times two. He had no acute symptoms on admission and was in no distress, with a benign physical exam. His past medical history includes hypercholesterolemia, benign prostatic hyperplasia, rheumatic fever, renal stones, hiatal hernia, and rheumatoid arthritis; he has no known drug allergies and was taking multiple medications including Toprol, Plaquenil, Terazosin, iron, aspirin, simvastatin, and hydrochlorothiazide. On postoperative day three, he developed rapid atrial fibrillation, which was treated with Lopressor and Amiodarone, resulting in conversion to sinus rhythm after six hours. The documented diagnosis was postoperative atrial fibrillation following CABG. He continued to recover well with physical therapy and was ambulating at level V by discharge. The treatment plan included discharge to home in good condition with Lopressor and Amiodarone among his medications.
+The patient is a 70-year-old male admitted for an elective coronary artery bypass graft (CABG) times two. He had no acute symptoms on admission and was in no distress, with normal cardiovascular and respiratory findings. His past medical history includes hypercholesterolemia, benign prostatic hyperplasia, rheumatic fever, renal stones, hiatal hernia, and rheumatoid arthritis; he takes Toprol, Plaquenil, Terazosin, iron, aspirin, simvastatin, and hydrochlorothiazide, with no known drug allergies. During his hospital course, he underwent CABG with saphenous vein grafts to OM-I and PDA, and postoperatively developed rapid atrial fibrillation on day three, which was treated successfully with Lopressor and Amiodarone. The documented diagnosis was postoperative atrial fibrillation following CABG. He was discharged in good condition on a regimen including Lopressor, Amiodarone (taper), Simvastatin, Percocet as needed, Aspirin, potassium supplement, Lasix, and Colace. The patient was advised to follow up with his physician in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about rapid atrial fibrillation and irregular heart rhythm. Symptoms included episodes of rapid and irregular heartbeat, chest discomfort rated 5–6/10 in intensity, with no associated shortness of breath, lightheadedness, sweating, fatigue, or leg swelling; chest discomfort improved with rest and had no clear triggers. The patient reported that episodes lasted from a few minutes to up to an hour and was able to perform usual daily activities between episodes without difficulty. No relevant medical history, medications, or allergies were discussed in this encounter. On assessment, the doctor noted the symptoms were consistent with paroxysmal atrial fibrillation and found no evidence of severe or urgent complications. The doctor advised the patient to track episode timing, duration, and possible triggers, and to seek immediate care for severe chest pain, fainting, or breathing difficulties. Additional recommendations included staying hydrated, avoiding excessive caffeine or alcohol, managing stress, and ensuring appropriate management of medications and underlying conditions.
+The patient is an adult presenting with concerns about episodes of rapid and irregular heart rhythm, previously identified as rapid atrial fibrillation. Symptoms began a few days ago and are described as paroxysmal, with episodes coming and going; the patient experiences a rapid, irregular heartbeat accompanied by chest discomfort rated 5–6 out of 10, which improves with rest. There is no associated shortness of breath, lightheadedness, diaphoresis, fatigue, or peripheral edema, and the patient is able to perform usual activities between episodes without limitation. The documented clinical impression is paroxysmal atrial fibrillation. The physician advised the patient to monitor and record episode frequency, duration, and potential triggers, and to seek immediate care if severe chest pain, syncope, or dyspnea develop. Additional recommendations included maintaining hydration, avoiding excessive caffeine or alcohol, managing stress, and ensuring appropriate management of medications and underlying conditions. No new medications or urgent interventions were initiated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.551
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

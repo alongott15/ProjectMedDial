@@ -73,16 +73,21 @@
 
 ## EHR Summary
 
-The patient is a 73-year-old woman presenting with a thirty-minute seizure. She has a history of right frontal glioblastoma, previously resected and treated with chemotherapy and radiation, with recent tumor progression. On admission, she was intubated and monitored in the neurosurgical ICU, with head CT showing increased edema and mass effect from recurrent glioblastoma. She exhibited mild residual left-sided weakness but was otherwise awake, responsive, and denied pain. Laboratory results included a white blood cell count of 6.1, hematocrit 28.5, platelets 116, and a low Dilantin level of 1.4. The documented diagnosis was recurrent right frontal glioblastoma with seizure. Treatment included intubation, ICU monitoring, and ultimately a right frontal craniotomy for tumor excision without intraoperative complications. Postoperatively, her vital signs were stable.
+The patient is a 73-year-old woman presenting with a thirty-minute seizure. She has a history of right frontal glioblastoma multiforme (GBM), previously resected and treated with chemotherapy and radiation, with recent tumor progression and increased edema and mass effect noted on head CT. On admission, she was intubated and monitored in the neurosurgical ICU, then extubated without further seizures and transferred to the regular floor. She exhibited mild residual left-sided weakness and a mild left facial droop, but was otherwise awake, alert, and oriented. The documented diagnosis was recurrent right frontal GBM with associated seizure. She underwent right frontal craniotomy for excision of the recurrent tumor and implantation of Gliadel wafers without intraoperative complications. Discharge medications included Decadron, Dilantin, levetiracetam, heparin, and supportive therapies. She was discharged in stable condition with plans for rehabilitation and follow-up in the brain clinic in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with a recent seizure as the chief complaint. Since the seizure, the patient has experienced left-sided weakness that began immediately afterward and has persisted without improvement. The weakness has made daily activities such as getting dressed and carrying objects with the left hand more difficult, requiring the patient to take extra time with routine tasks. The patient denied any numbness, tingling, or changes in sensation, and reported no issues with speech, vision, or swallowing. No relevant past medical history, medications, or allergies were mentioned. The doctor noted the presence of left-sided weakness following the seizure and inquired about associated neurological symptoms. No formal assessment or working diagnosis was explicitly stated. No specific treatment plan or recommendations were provided during the conversation.
+The patient presents with concern following a recent seizure. Since the event, the patient has experienced persistent left-sided weakness that began immediately after the seizure and has not improved. The weakness affects daily activities such as dressing and carrying objects with the left hand, requiring the patient to move more slowly. The patient denies any numbness, tingling, or changes in sensation, as well as any difficulties with speech, vision, or swallowing. No relevant past medical history, medications, or allergies were discussed. A specific diagnosis was not documented in the dialogue. No treatment plan or recommendations were provided during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.926
-- **Similarity Label**: N/A
+- **STS Score**: 0.495
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 100 words
+
 
 ## Processing Information
 

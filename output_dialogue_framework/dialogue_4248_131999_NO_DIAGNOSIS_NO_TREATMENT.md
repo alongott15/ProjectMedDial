@@ -87,16 +87,21 @@ Let me know if you have any questions, or if you'd like advice on managing your 
 
 ## EHR Summary
 
-The patient is a 50-year-old male presenting with persistent fever as the chief complaint. He experienced two days of fever, chest pain, fatigue, and shortness of breath following a right coronary artery stent placement on 2107-7-20. Prior to the procedure, he reported low-grade fevers, cough, upper respiratory infection symptoms, dysuria, frequency, and increased fatigue. On admission, he had a temperature of 102.7°F, chest pain at rest, dyspnea, nausea, diaphoresis, hypoxia (O2 saturation maintained at 93% on 5L), and hypotension (systolic BP down to 70). Relevant history includes coronary artery disease with recent stent placement. Physical findings included hypoxia and hypotension requiring intravenous fluids and supplemental oxygen. The clinical impression was persistent fevers of unknown etiology with acute pulmonary changes; acute myocardial infarction was ruled out. Treatment included vancomycin, gentamicin, Ceptaz, intravenous fluids, and bronchoscopy.
+The patient is a 50-year-old male presenting with persistent fever, chest pain, and shortness of breath following recent right coronary artery stent placement. He reported two days of fever, chest pain at rest, fatigue, and shortness of breath, with temperatures up to 102.7°F and minimal relief from nitroglycerin paste. Symptoms included hypoxia (O2 saturation down to 93% on 5L), hypotension (systolic BP as low as 70), nausea, and diaphoresis. Relevant history includes coronary artery disease (status post myocardial infarction and recent stent), depression, prior bronchitis, hypercholesterolemia, and no known drug allergies. The clinical impression was fever of unknown etiology with acute pulmonary changes; CT angiogram showed no pulmonary embolism but revealed mediastinal lymphadenopathy and intra-alveolar opacities. The patient was treated with intravenous vancomycin, gentamicin, Ceptaz, oral Levaquin, aspirin, Plavix, Lipitor, fluoxetine, Zantac, and subcutaneous heparin. Supportive care included supplemental oxygen and intravenous fluids for hypotension. Further diagnostic workup included bronchoscopy and exclusion of acute myocardial infarction.
+
 
 ## Dialogue Summary
 
-The patient presented with fever as the chief complaint. Symptoms included a fever up to 100.5°F for a few days that comes and goes, constant shortness of breath that slows daily activities, and lower energy levels; the patient denied chills, sweating, cough, sore throat, chest pain, tightness, wheezing, rashes, or swelling. The patient reported a history of eosinophilia from a previous blood test; no other medical history, medications, or allergies were mentioned. On review, the doctor noted mild fever and ongoing shortness of breath without other respiratory or systemic findings. The assessment was that symptoms are consistent with a mild viral illness or mild respiratory issue, with reassuring absence of severe features. The doctor recommended rest, hydration, and monitoring for worsening symptoms such as increased breathing difficulty, chest pain, or fever above 102°F, advising medical attention if these occur. Most mild viral illnesses were expected to resolve within a week.
+The patient is an adult presenting with the chief complaint of fever. The fever has been present for a few days, with a maximum recorded temperature of 100.5°F, and tends to come and go throughout the day; there are no associated chills or sweating. The patient also reports constant shortness of breath that limits daily activities and fatigue, but denies cough, sore throat, chest pain, tightness, wheezing, rashes, or swelling. Relevant history includes a recent blood test showing eosinophilia. The clinical impression is that the symptoms are most consistent with a mild viral illness or mild respiratory issue, given the absence of more severe symptoms and only a low-grade fever. The treatment plan includes rest, maintaining hydration, and monitoring for worsening symptoms such as increased dyspnea, chest pain, or fever above 102°F, with instructions to seek medical attention if these occur. Most mild viral illnesses are expected to resolve within about a week. The impact of eosinophilia on the current assessment was not specifically addressed in the dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.649
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

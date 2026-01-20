@@ -87,16 +87,23 @@ Does that make sense? Is there anything else you’re concerned about right now?
 
 ## EHR Summary
 
-The patient is an 87-year-old female admitted for evaluation of fever of unknown origin persisting for almost two months despite multiple courses of antibiotics and prior extensive diagnostic workups. During hospitalization, she developed respiratory failure on [2183-9-22], requiring intubation and transfer to the Intensive Care Unit. She was started on antibiotics for presumed aspiration pneumonia. Her past medical history, specific medications, and allergies are not specified in the note. After discussions with her family and health care proxy, her code status was changed to comfort measures only on [2183-9-25], and she was subsequently extubated. The patient was managed with a morphine drip for comfort. She expired on [2183-9-27].
+The patient is an 87-year-old female admitted for evaluation of fever of unknown origin, persisting despite two months of antibiotics and prior unrevealing diagnostic workups. During hospitalization, she developed respiratory failure on [2183-9-22], necessitating intubation and transfer to the Intensive Care Unit. She was treated with antibiotics for presumed aspiration pneumonia. Her past medical history, specific medications, and allergies are not specified in the note. After discussions with her family and health care proxy, her code status was changed to comfort measures only on [2183-9-25], and she was extubated. The patient was managed with a morphine drip for comfort. She subsequently expired on [2183-9-27].
+
 
 ## Dialogue Summary
 
-The patient presented with a complaint of persistent fever of unclear origin. They described the fever as constant, without chills or sweating, and reported ongoing trouble breathing that has lasted for a few days and is present both at rest and with activity; they denied cough, sore throat, chest discomfort, or swelling in the legs or ankles. The patient has not measured their temperature with a thermometer and is unsure of the exact onset of symptoms. No relevant medical history, medications, or allergies were mentioned. On review, there were no physical findings described beyond the patient's reported symptoms. The doctor assessed that the symptoms could be due to a mild infection or viral illness but noted concern for possible chest infection or fluid on the lungs given the persistent shortness of breath. The doctor advised the patient to rest, stay hydrated, check their temperature if possible, and monitor for new or worsening symptoms such as chest pain, worsening breathing, confusion, or weakness. The patient was instructed to seek prompt medical attention if symptoms worsen or do not improve within a couple of days.
+The patient presents with a chief complaint of persistent fever of unspecified duration. They report constant dyspnea (shortness of breath) for several days, present both at rest and with activity, without associated cough, sore throat, chills, sweating, chest pain, or peripheral edema. The patient has not measured their temperature but feels subjectively warmer than usual. No relevant past medical history, medications, or allergies were documented in the dialogue.
+
+The clinical impression discussed includes possible mild infection or viral illness, with consideration to rule out chest infection or pulmonary edema due to the persistent dyspnea. The treatment plan includes recommendations for rest, hydration, and monitoring symptoms, as well as checking temperature with a thermometer if possible. The patient was advised to seek prompt medical attention if new symptoms such as chest pain, worsening dyspnea, confusion, or weakness develop, or if current symptoms do not improve within a few days.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.605
+- **Model Used**: general
+- **Text1 Length**: 104 words
+- **Text2 Length**: 148 words
+
 
 ## Processing Information
 

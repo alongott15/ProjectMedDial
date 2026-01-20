@@ -186,3 +186,21 @@ Overall, your current approach is appropriate. If you have any questions about y
 ## Processing Information
 
 - **Processing Time**: 432.7s
+
+## EHR Summary
+
+The patient is an 83-year-old female presenting with long-standing alcohol-related pancreatitis and a recurrent pancreatic pseudocyst. She experienced persistent abdominal pain and intermittent fevers, with imaging confirming a recurrent pseudocyst and cultures growing Staphylococcus non-aureus. Her relevant history includes prior percutaneous drainage of the pseudocyst, total parenteral nutrition, and recent antibiotic therapy. The documented diagnosis was recurrent pancreatic pseudocyst with secondary infection. Treatment included percutaneous drainage, intravenous vancomycin, levofloxacin, and clindamycin, followed by discontinuation of antibiotics after clinical improvement and resolution of fever. She was advanced from a clear to a low-fat diet, continued on total parenteral nutrition, and resumed home antihypertensive medications. At discharge, she was afebrile, tolerating oral intake, and stable for transfer to rehabilitation.
+
+
+## Dialogue Summary
+
+The patient is being seen for monitoring of abdominal pain and fever in the context of a history of pancreatitis and pancreatic pseudocyst. Current symptoms are described as mild, with no evidence of jaundice, severe pain, or changes in stool, and there are no acute warning signs at this time. The patient’s relevant history includes prior episodes of pancreatitis and the presence of a pancreatic pseudocyst. No new diagnosis was documented during this encounter; the clinical impression is stable symptoms without signs of complication. The treatment plan consists of ongoing home monitoring, with instructions to promptly report any new or worsening symptoms such as increased abdominal pain, fever, jaundice, unexplained weight loss, or changes in stool color. Supportive advice was given regarding hydration, eating smaller meals, and avoiding fatty or spicy foods to help manage mild digestive symptoms. The patient expressed understanding of the plan and agreed to contact the healthcare team if symptoms change. No additional tests or medications were recommended at this time.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.671
+- **Model Used**: general
+- **Text1 Length**: 117 words
+- **Text2 Length**: 165 words
+

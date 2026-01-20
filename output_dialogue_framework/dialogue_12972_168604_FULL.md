@@ -87,16 +87,21 @@ Would you say the feeling is more like you can't catch your breath, or is it mai
 
 ## EHR Summary
 
-The chief complaint is not specified in the note. Symptom details, relevant medical history, clinical findings, diagnosis, and treatment plan are not documented in the provided text. No information regarding the patient's symptoms, physical exam, or management is available. Therefore, a clinical summary cannot be generated based on the current documentation.
+The patient is an 82-year-old female presenting for evaluation. The clinical note does not specify the chief complaint or detail any symptoms, their characteristics, or duration. Relevant medical history, current medications, and allergies are not documented in the provided text. There is no documented diagnosis or clinical impression in this note. No treatment plan, medications, or specific recommendations are mentioned.
+
 
 ## Dialogue Summary
 
-The patient presented with a chief complaint of chest tightness. They reported experiencing a tight feeling in the chest for the past few days, rated as a 6 out of 10 in severity during activity, accompanied by increased shortness of breath and some discomfort, especially when walking or doing chores; these symptoms improve with rest and do not occur at night or while sleeping. The patient denied lightheadedness, cough, or swelling in the legs. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the chest tightness and shortness of breath are exertional and resolve with rest, without associated nighttime symptoms or peripheral edema, suggesting a mild issue possibly related to age-related changes in heart or lung function. The doctor recommended pacing activities, taking breaks as needed, and monitoring for worsening symptoms. The patient was advised to seek care if symptoms become more severe, occur at rest, or if new symptoms such as severe pain, fainting, or swelling develop.
+The patient presents with a chief complaint of chest tightness. The chest tightness has been present for a few days and is accompanied by increased shortness of breath, particularly during physical activity such as walking or doing chores; symptoms are rated as 6 out of 10 in severity when active and improve with rest. The patient denies associated symptoms such as lightheadedness, cough, leg swelling, or nighttime awakening due to symptoms. There is no relevant past medical history, medications, or allergies documented in the dialogue. The clinical impression is that the exertional chest tightness and dyspnea may be related to mild changes in heart or lung function, but there is no evidence of severe or urgent illness at this time. The treatment plan includes pacing activities, taking breaks as needed, and monitoring for worsening symptoms such as severe pain, symptoms at rest, fainting, or swelling, which would warrant earlier medical attention. The patient was also asked to clarify the nature of the symptoms to further guide assessment.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.915
-- **Similarity Label**: N/A
+- **STS Score**: 0.449
+- **Model Used**: general
+- **Text1 Length**: 60 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

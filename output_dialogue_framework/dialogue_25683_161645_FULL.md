@@ -85,16 +85,21 @@ In the meantime, try to avoid strenuous activity until you've been evaluated. Le
 
 ## EHR Summary
 
-The patient is a 67-year-old male presenting with chest pain and left arm pain. His symptoms were relieved with nitroglycerin, and he was found to have a myocardial infarction by enzyme testing, though his EKG was negative. He has a history of penicillin allergy and was taking Zestril, heparin, Lopressor, and aspirin upon transfer. Physical examination showed stable vital signs, clear lungs, regular heart rhythm, and no edema; laboratory results included hematocrit 44.6 and ejection fraction of 35%. Cardiac catheterization revealed disease in the obtuse marginal, left anterior descending, and right coronary arteries. The documented diagnosis was myocardial infarction with multivessel coronary artery disease. He underwent a three-vessel coronary artery bypass graft (CABG) with postoperative management including rapid extubation, weaning of Neo-Synephrine, and four doses of vancomycin. The patient was transferred to the floor after an uncomplicated postoperative course.
+The patient is a 67-year-old male presenting with chest pain and left arm pain. His symptoms were relieved with nitroglycerin, and he was found to have a myocardial infarction by enzyme testing, though his EKG was negative. Cardiac catheterization revealed multi-vessel coronary artery disease with an ejection fraction of 35%. Past medical and surgical history were noncontributory, and he has a penicillin allergy. The documented diagnosis was status post coronary artery bypass graft times three. Treatment included CABG with left internal mammary artery and saphenous vein grafts, postoperative management in the ICU, and medications such as aspirin, Lopressor, Lasix, and others at discharge. An incidental 8 cm abdominal aortic aneurysm was discovered, with outpatient vascular surgery follow-up planned. The patient was stable at discharge and instructed to follow up with his primary care physician, cardiologist, and vascular surgeon.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The pain had been present for a couple of days, rated at 5–6 out of 10 in intensity, and sometimes radiated to the left arm. The discomfort was worsened by physical activity and improved with rest, occurring during the day but not waking the patient at night; no associated symptoms such as shortness of breath, sweating, or nausea were reported. The patient denied any previous episodes of similar pain and reported no relevant medical history or allergies. On clinical review, the doctor noted that the pain was exertional and relieved by rest, with no severe or classic cardiac symptoms present. The assessment was that the chest pain could be heart-related and warranted prompt evaluation due to its new onset and activity-related nature. The doctor advised the patient to avoid strenuous activity until further evaluation and to seek immediate medical attention if symptoms worsen or new symptoms develop.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain has been present for a couple of days, is rated 5–6 out of 10 in intensity, radiates to the left arm, is worsened by physical activity, and improves with rest; there are no associated symptoms such as dyspnea, sweating, or nausea. The discomfort does not occur at night and has not happened before. No relevant past medical history, medications, or allergies were documented. The clinical impression was that the symptoms could be cardiac in origin, given the exertional nature and radiation to the arm, though less serious causes were also considered. The doctor recommended prompt evaluation to rule out heart-related issues and advised the patient to avoid strenuous activity until further assessment. The patient was instructed to seek immediate medical attention if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.468
+- **Model Used**: general
+- **Text1 Length**: 138 words
+- **Text2 Length**: 144 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ If you’d like, we can review which screenings might be relevant for you based 
 
 ## EHR Summary
 
-The patient is a 300-year-old female presenting with a left hip fracture. She underwent open reduction and internal fixation during her hospital stay. Her medical history includes coronary artery disease with angina, chronic obstructive pulmonary disease, dementia, hypertension, depression, history of gastrointestinal bleed, history of falls, interstitial lung disease, and anemia. During admission, she was transfused two units of packed red blood cells, increasing her hematocrit from 27 to 37.5. On discharge, she was advised to continue partial weightbearing exercise, use dry sterile dressings daily and as needed, and maintain oxygen saturation between 90% and 94%. Discharge medications included Percocet for pain, Lovenox for anticoagulation, Lopressor for blood pressure, Levofloxacin for infection, Lasix for fluid management, and several supportive medications. The patient was scheduled for orthopedic follow-up after discharge.
+The patient is a 300-year-old female admitted for management of a left hip fracture. She underwent open reduction and internal fixation for the fracture and received two units of packed red blood cells, resulting in an increase in hematocrit from 27 to 37.5. Her medical history includes coronary artery disease with angina, chronic obstructive pulmonary disease, dementia, hypertension, depression, history of gastrointestinal bleed, history of falls, interstitial lung disease, and anemia. The documented diagnoses were left hip fracture status post open reduction and internal fixation, along with her chronic comorbidities. Discharge medications included pain management (Percocet), anticoagulation (Lovenox), antibiotics (Levofloxacin), antihypertensives (Lopressor), diuretics (Lasix), bronchodilators (Albuterol and Atrovent), and supportive medications for constipation and agitation. She was advised to continue partial weightbearing exercise, use dry sterile dressings daily and as needed, and maintain oxygen saturation between 90% and 94%. Follow-up was arranged in the orthopedic clinic.
+
 
 ## Dialogue Summary
 
-The patient presented for a general check-in without any specific symptoms. They reported no changes in energy, sleep, appetite, headaches, cough, digestive issues, mood, stress, activity level, environment, diet, or minor aches and pains; all aspects of their wellbeing and daily routines have remained steady. No relevant medical history, medications, or allergies were mentioned during the visit. The doctor found no concerning clinical findings based on the patient's responses. The assessment was that there are no indications of underlying health concerns at this time. The doctor recommended continuing preventive care measures, including regular physical activity, balanced nutrition, adequate sleep, and keeping up with recommended screenings. The patient expressed interest in reviewing which screenings are appropriate for them to ensure they remain up to date. Regular check-ins and early reporting of any new symptoms were also advised.
+The patient presented for a general check-up without any specific chief complaint. They reported no new or ongoing symptoms, including changes in energy, sleep, appetite, mood, stress, activity level, environment, diet, or minor discomforts such as headaches, cough, digestive changes, muscle soreness, or joint stiffness. There is no relevant medical history, medications, or allergies documented in this encounter. The clinical impression was that the patient is currently healthy and symptom-free, with no indication of underlying health concerns. The treatment plan focused on preventive care, including maintaining healthy habits (regular physical activity, balanced nutrition, adequate sleep), staying up to date with recommended screenings, and monitoring for any new symptoms. The doctor offered to review appropriate screenings based on the patient's age and history. No new diagnoses or medications were made during this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.921
-- **Similarity Label**: N/A
+- **STS Score**: 0.418
+- **Model Used**: general
+- **Text1 Length**: 146 words
+- **Text2 Length**: 132 words
+
 
 ## Processing Information
 

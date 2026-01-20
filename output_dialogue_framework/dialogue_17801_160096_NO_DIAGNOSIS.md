@@ -85,16 +85,21 @@ Does that plan sound reasonable to you, or is there anything else you’d like t
 
 ## EHR Summary
 
-The patient is a 71-year-old female presenting with a chief complaint of a gastric mass. She initially presented with anemia and congestive heart failure, which were managed medically, and subsequent endoscopy revealed a distal gastric mass; biopsies showed hyperplasia. Her past medical history includes congestive heart failure (ejection fraction 60%), mild pulmonary hypertension, hypertension, diabetes mellitus, anemia, obstructive sleep apnea, hemorrhoids, and obesity. On admission, physical examination showed an obese woman in no distress with clear lungs, regular heart rhythm, and a soft, nontender abdomen. The documented diagnosis was a gastric mass. She underwent an uncomplicated subtotal gastrectomy for excision of the mass. Postoperatively, she was managed with an epidural for pain control, continued nasogastric tube, and was ambulated with adequate urine output. There are no known drug allergies, and her home medications include metoprolol, lisinopril, verapamil, glipizide, Lasix, potassium, Protonix, folate, and iron sulfate.
+The patient is a 71-year-old female presenting with a gastric mass. She initially had anemia and congestive heart failure, with endoscopy revealing a distal gastric mass confirmed as hyperplasia on biopsy. Her past medical history includes congestive heart failure (ejection fraction 60%), mild pulmonary hypertension, hypertension, diabetes mellitus, anemia, obstructive sleep apnea, hemorrhoids, and obesity; she has no known drug allergies and takes multiple medications including metoprolol, lisinopril, verapamil, glipizide, and others. The documented diagnosis was gastric mass. She underwent an uncomplicated subtotal gastrectomy and postoperatively experienced transient tachycardia, hypertension, and altered mental status, managed with ICU monitoring, diuresis, CIWA protocol for possible alcohol withdrawal, and antibiotics for wound erythema. She also developed polyarthralgia treated effectively with colchicine. At discharge, she was stable, tolerating a postgastrectomy diet, and was sent home with home VNA for wound monitoring, home physical therapy, and assistance with activities of daily living. Discharge medications included Lopressor, Verapamil, Protonix, Lisinopril, Glipizide, Percocet as needed, Colace, and colchicine as needed.
+
 
 ## Dialogue Summary
 
-The patient presented with increased tiredness, suspecting a recurrence of anemia. Symptoms included gradually worsening fatigue, joint pains affecting several joints (worse in the morning and after activity), intermittent episodes of a faster heartbeat, and mild cognitive fogginess; there was no shortness of breath, leg swelling, or joint redness/warmth/swelling. The patient reported having to slow down with chores due to tiredness and joint aches but could still perform most activities. Relevant history includes prior anemia and recent higher blood pressure; no medications or allergies were mentioned. On review, there were no visible joint changes or signs of acute decompensation. The doctor assessed that the symptoms were consistent with possible anemia recurrence and noted that joint stiffness and aches can be associated with certain types of anemia or related conditions. The doctor recommended checking blood counts and inflammation markers, advised pacing activities and resting as needed, and instructed the patient to report any new symptoms such as chest pain, severe shortness of breath, or swelling. The patient was encouraged to mention the cognitive symptoms and elevated blood pressure when getting blood work done.
+The patient is an adult presenting with increased fatigue, suspected to be related to anemia. Symptoms have developed gradually and include generalized tiredness, joint pains affecting several joints (worse in the morning and after activity), occasional palpitations, and mild cognitive fogginess; there is no reported shortness of breath, leg swelling, or joint redness/warmth. The patient reports having to slow down with daily activities due to these symptoms but can still perform most tasks. Relevant history includes prior anemia, with no mention of other medical conditions, medications, or allergies. The clinical impression is that the symptoms may be due to anemia, possibly with a component of inflammatory joint disease. The treatment plan includes ordering blood counts to assess anemia status and inflammation markers for joint symptoms, advising the patient to pace activities and rest as needed, and to report any new severe symptoms such as chest pain, significant shortness of breath, or swelling. The patient was also advised to mention elevated blood pressure and cognitive symptoms during follow-up testing.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.935
-- **Similarity Label**: N/A
+- **STS Score**: 0.450
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

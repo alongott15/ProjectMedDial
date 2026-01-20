@@ -87,16 +87,23 @@ Would you like some advice on simple stretches or ways to modify your activities
 
 ## EHR Summary
 
-The patient is a male over 90 years old presenting with a three-day history of nausea, coffee ground emesis, an episode of dark tarry stools, decreased oral intake, and mild confusion. Symptoms included gastrointestinal bleeding evidenced by coffee ground emesis and melena, with associated mild confusion and reduced intake. Relevant history includes coronary artery disease (status post myocardial infarction and coronary artery bypass graft), recent left hip revision, pacemaker placement, colectomy for diverticulitis, and sulfa allergy; current medications include aspirin for DVT prophylaxis. On admission, hematocrit was 31.2 and nasogastric lavage was positive for coffee ground material that did not clear after two liters; the patient remained hemodynamically stable in the Emergency Department. Gastroenterology was consulted, but EGD was deferred at the request of the patient and family. The clinical impression was upper gastrointestinal bleeding. Treatment included intravenous fluids (three liters total) and supportive care.
+The patient is a male over 90 years old presenting with a three-day history of nausea, coffee ground emesis, dark tarry stools, decreased oral intake, and mild confusion. On admission, he was found to have a hematocrit of 31.2 and a positive nasogastric lavage for coffee ground material that did not clear after two liters. His past medical history includes coronary artery disease (status post myocardial infarction and CABG), recent left hip revision, pacemaker placement, and colectomy for diverticulitis; he is allergic to sulfa. The documented diagnosis was gastrointestinal bleed, likely upper GI source, with associated anemia. Treatment included transfusion of one unit of packed red blood cells, holding all anticoagulation and aspirin, initiation of Protonix twice daily, and supportive care with intravenous fluids; invasive endoscopy was deferred by the patient and family. An upper GI series was negative for ulcers or tumors, and serial hematocrits remained stable after transfusion. Lovenox was started for DVT prophylaxis prior to discharge, and pulmonary medications were adjusted as needed. The patient was discharged in good condition with instructions for DVT prophylaxis, continued Protonix, and follow-up with his primary care provider.
+
 
 ## Dialogue Summary
 
-The patient presented with right shoulder pain. The pain has been present for a few days, is described as a dull ache that becomes sharper with certain movements (especially reaching up or lifting), and is rated 6 out of 10 in severity. Movement worsens the pain, while no specific activity relieves it; the discomfort makes daily activities like getting dressed and sleeping more difficult. The patient denied any swelling, redness, warmth, recent injuries, or overuse of the shoulder. On examination, there were no signs of swelling, redness, or warmth reported. The doctor assessed the symptoms as likely due to irritation or mild strain of the muscles or tendons around the joint, possibly from minor repetitive motions or awkward positioning, with no evidence of serious injury. The doctor recommended rest, gentle stretching, over-the-counter pain relievers, and ice packs after activity, and advised monitoring for new symptoms such as weakness, numbness, or inability to move the shoulder. The patient requested advice on stretches and activity modification to avoid worsening the condition.
+The patient is an adult presenting with right shoulder pain as the chief complaint. The pain has been present for a few days, is described as a dull ache that becomes sharper with certain movements (especially reaching or lifting), and is rated 6 out of 10 in severity. The discomfort worsens with arm movement and interferes with activities such as dressing and sleeping; there is no associated swelling, redness, warmth, or history of recent injury or overuse. The patient denies any trauma or identifiable trigger.
+
+The clinical impression is mild irritation or strain of the muscles or tendons around the shoulder joint, likely due to minor repetitive motion or awkward positioning. The treatment plan includes rest, gentle stretching, over-the-counter pain relievers, and use of ice packs after activity. The doctor advised monitoring for new symptoms such as weakness, numbness, or inability to move the shoulder, which would warrant further evaluation. The patient requested advice on stretches and activity modification to support recovery.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.914
-- **Similarity Label**: N/A
+- **STS Score**: 0.248
+- **Model Used**: general
+- **Text1 Length**: 187 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

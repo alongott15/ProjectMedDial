@@ -190,3 +190,21 @@ If you notice any new or worsening symptoms—like trouble breathing, sweating, 
 ## Processing Information
 
 - **Processing Time**: 421.5s
+
+## EHR Summary
+
+The patient is a 65-year-old male presenting with crushing chest and back pain that awoke him from sleep. The pain began at 4:00 a.m. on the day of admission and prompted evaluation at a local emergency room, followed by transfer for further care. A CT scan revealed an aortic dissection extending from the aortic valve annulus to the iliac bifurcation. There is no relevant past medical history, medications, or allergies documented. The clinical diagnosis was aortic dissection. The patient underwent emergent surgical repair, including aortic valve replacement and ascending aorta replacement with a tube graft. Postoperatively, he suffered primary cardiac failure and was unable to be weaned from cardiopulmonary bypass, resulting in death in the operating room.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with a chief complaint of crushing chest and back pain that has been present for a little while and is described as steady and uncomfortable. The pain is characterized as severe and crushing, localized to the chest and back, with no associated symptoms such as shortness of breath, sweating, nausea, or weakness reported at this time. No additional relevant medical history, medications, or allergies were specified in the dialogue. The clinical impression communicated by the doctor is concern for potentially serious causes such as cardiac or major vascular conditions (e.g., myocardial infarction or aortic dissection), given the nature and location of the pain. No definitive diagnosis was made during the conversation. The treatment plan consists of urgent recommendation for emergency medical evaluation, with instructions to seek immediate care at the nearest emergency department and to report any new symptoms such as dyspnea, sweating, or weakness. The patient was advised to keep the medical team updated if any additional symptoms develop. The patient expressed understanding and agreed to follow the recommended course of action.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.584
+- **Model Used**: general
+- **Text1 Length**: 117 words
+- **Text2 Length**: 179 words
+

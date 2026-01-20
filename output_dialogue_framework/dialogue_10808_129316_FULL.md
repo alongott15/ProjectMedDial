@@ -96,3 +96,21 @@ Let me know if you have any questions about home care or if anything else has ch
 ## Processing Information
 
 - **Processing Time**: 464.8s
+
+## EHR Summary
+
+The patient is a 41-year-old man with advanced multiple sclerosis presenting with fever up to 102.8°F, coarse rhonchi, and abdominal distention. He reported no increased sputum production, chills, myalgias, or headache, but did have diarrhea the day prior to admission; his respiratory status remained at baseline (50% FIO2 at 10 liters). His history is significant for paraplegia secondary to multiple sclerosis, tracheostomy and PEG tube placement, recurrent urinary tract infections, repeated pneumonia, and prior MRSA infection; he has no known drug allergies. On admission, physical exam revealed diffuse rhonchi, a distended but non-tender abdomen, and stable vital signs; labs and imaging suggested possible small bowel or colonic obstruction and lower lobe consolidation versus atelectasis. The documented diagnoses included small bowel/colonic obstruction (resolved with conservative management), fever likely secondary to infection, urinary tract infection, and advanced multiple sclerosis at baseline. Treatment included bowel rest (NPO), G-tube to gravity, IV hydration, antibiotics (Ceftriaxone, Vancomycin—discontinued after one dose, and Flagyl), and continuation of prophylactic Tobramycin nebulizers; tube feeds were restarted after improvement. At discharge, the patient was stable and returned to his nursing home on his baseline medications with Erythromycin for prophylaxis. Follow-up was arranged with his primary care physician and nursing home physician.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with a chief complaint of persistent fever, measured up to 102.8°F axillary, ongoing for a couple of days. Key symptoms include steady fever, coarse rhonchi in the chest, abdominal distention without pain or tenderness, and a single episode of diarrhea; there are no chills, sweating, body aches, congestion, shortness of breath, or peripheral swelling. The patient denies changes in urination and has not taken any antipyretics yet. Relevant medical history and current medications are not specified. The clinical impression is that the symptoms are most consistent with a self-limited viral illness or mild gastrointestinal irritation. The treatment plan includes supportive care with hydration and consideration of over-the-counter acetaminophen for fever reduction. The patient was advised to monitor for new or worsening symptoms such as severe abdominal pain, persistent vomiting, blood in stool, or fever lasting more than 3–4 days, and to seek further evaluation if these occur.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.593
+- **Model Used**: general
+- **Text1 Length**: 201 words
+- **Text2 Length**: 153 words
+

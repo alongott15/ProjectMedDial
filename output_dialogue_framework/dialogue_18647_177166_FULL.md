@@ -87,16 +87,21 @@ Let me know if you have any questions about this or if there’s anything else y
 
 ## EHR Summary
 
-The patient is a 41-year-old female presenting after an abnormal electrocardiogram was found during a routine physical examination. She was asymptomatic at presentation, with no acute distress or cardiopulmonary complaints documented. Her past medical history is notable for a recently diagnosed atrial septal defect (ASD) on echocardiogram, and she has mild bilateral lower extremity edema and mild lordosis due to fallen arches. Physical examination revealed normal vital signs, clear lungs, regular heart rhythm without murmurs, and no acute findings except for the edema and lordosis. Electrocardiogram showed normal sinus rhythm. Echocardiography confirmed a large ASD with right atrial and ventricular dilation and significant left-to-right shunt. The documented diagnosis was atrial septal defect. She underwent minimally invasive surgical repair of the ASD during this admission.
+The patient is a 41-year-old female presenting after an abnormal electrocardiogram was found on routine physical examination. She was asymptomatic but further workup with echocardiogram revealed a large atrial septal defect (ASD) with right atrial and ventricular dilation and significant left-to-right shunt. Her relevant history includes mild bilateral lower extremity edema and mild lordosis due to fallen arches; no acute distress or other significant findings were noted on exam. The documented diagnosis was a large atrial septal defect. She underwent minimally invasive ASD repair without complications, followed by an uneventful postoperative course. Treatment included perioperative Kefzol, postoperative Lopressor, aspirin, pain management with Percocet, and other supportive medications. She was discharged home in good condition with instructions regarding potential complications and no need for further physical therapy at this time.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about an abnormal EKG found during a routine checkup. She reported mild swelling in both lower legs for the past couple of weeks, which worsens after being on her feet and is otherwise stable; she denied chest pain, shortness of breath, rapid heartbeat, lightheadedness, or changes in urination. The swelling is mostly noticeable by appearance and does not cause pain, though she experiences some pain when walking due to fallen arches. She has tried elevating her legs, which helps somewhat, but has not used compression socks. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the mild lower leg swelling is likely related to gravity and decreased arch support rather than a serious cardiac or renal issue, given the absence of concerning symptoms. The doctor recommended continuing to elevate her legs, considering compression socks, maintaining foot support, and staying active. She was advised to seek care promptly if she develops new symptoms such as sudden or severe swelling, difficulty breathing, or chest discomfort.
+The patient is an adult presenting with concern about an abnormal EKG found during a routine checkup. They report mild, persistent swelling in both lower legs for the past couple of weeks, which worsens after prolonged standing or walking and improves with leg elevation; there is no associated chest pain, dyspnea, palpitations, or changes in urination. The patient notes some leg pain when walking, attributed to fallen arches, but the swelling itself is not painful. No other systemic symptoms were reported. The clinical impression is that the lower leg swelling is likely due to dependent edema related to gravity and decreased foot arch support, rather than a cardiac or renal cause, given the absence of concerning symptoms. The abnormal EKG was discussed as potentially benign in the absence of symptoms. The treatment plan includes continued leg elevation, consideration of compression socks, and maintaining foot support with arch supports. The patient was advised to monitor for new symptoms such as sudden or severe swelling, chest discomfort, or shortness of breath and to seek care if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.430
+- **Model Used**: general
+- **Text1 Length**: 129 words
+- **Text2 Length**: 176 words
+
 
 ## Processing Information
 

@@ -96,3 +96,23 @@ For now, making sure you have help at home and support for daily activities is i
 ## Processing Information
 
 - **Processing Time**: 362.4s
+
+## EHR Summary
+
+The patient is an 84-year-old woman presenting with a chief complaint of subdural hematoma requiring transfer for specialized management. She initially experienced a chronic obstructive pulmonary disease exacerbation, followed by a fall and subsequent decreased mental status; imaging revealed a left subdural hematoma with midline shift. Her medical history includes atrial fibrillation on Coumadin. On admission, she exhibited left-sided responsiveness but complete right-sided paralysis, progressing to increasing somnolence and poor neurologic function. The documented diagnosis was left subdural hematoma with midline shift and poor neurologic recovery post-craniotomy. Treatment included surgical evacuation of the hematoma, ventilatory support with tracheostomy, and repeated infection workup for recurrent fevers of unclear source. Despite interventions, her mental status remained poor and she failed to wean from the ventilator. Given her poor prognosis and lack of neurologic improvement, the family elected to withdraw care.
+
+
+## Dialogue Summary
+
+The patient presents with concerns about changes in mental status and difficulty thinking clearly. Over the past several days, the patient has experienced progressive fatigue, inability to move or feel sensation on the right side of the body, loss of speech (expressive aphasia) with preserved comprehension, and increasing difficulty performing activities of daily living due to poor mental state and sleepiness. The patient reports recent fevers up to 101–102°F and inability to make purposeful movements with both arms and legs. There is no pain associated with the weakness, and sensation is diminished on the right side.
+
+Relevant medical history, medications, and allergies are not specified. The clinical impression discussed by the doctor is that these symptoms may be related to changes in the brain, possibly due to problems with blood flow such as a stroke, though gradual onset suggests other possible causes as well. The doctor advised monitoring for new symptoms such as worsening confusion, sudden severe headache, or vision changes that would require prompt medical attention. Support at home for daily activities and ensuring adequate hydration and nutrition were recommended.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.480
+- **Model Used**: general
+- **Text1 Length**: 138 words
+- **Text2 Length**: 181 words
+

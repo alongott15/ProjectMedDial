@@ -87,16 +87,21 @@ Let me ask—does anything specific seem to make the pain better or worse beside
 
 ## EHR Summary
 
-The patient is a 78-year-old male presenting with unstable angina. He reported increased chest pain and shortness of breath with exertion, with recurrent episodes of left-sided chest pain lasting about 20 minutes, associated with shortness of breath and nausea, but no diaphoresis; symptoms were relieved by sublingual nitroglycerin. His medical history includes coronary artery disease status post CABG (2116, 2126), COPD, obstructive sleep apnea, hypertension, and hypercholesterolemia. On examination, he was alert, in no acute distress, with stable vital signs and a holosystolic murmur at the apex; lungs were clear to auscultation. Cardiac enzymes were negative and there were no EKG changes during pain episodes. He was diagnosed with unstable angina and secondary A-V block (Wenckebach) with left bundle branch block. Treatment included percutaneous coronary intervention with stent placement to the SVG to the posterolateral branch and subsequent pacemaker ICD placement. He was monitored post-procedure and remained stable on discharge.
+The patient is a 78-year-old male presenting with unstable angina, characterized by increased chest pain and shortness of breath with exertion. His chest pain episodes were left-sided, lasted about 20 minutes, associated with dyspnea and nausea, and were relieved by sublingual nitroglycerin; there was no diaphoresis, and no EKG changes or positive cardiac enzymes initially. Relevant history includes coronary artery disease status post CABG and PTCA, COPD, obstructive sleep apnea, hypertension, hypercholesterolemia, and chronic lower extremity edema. During hospitalization, he developed new second-degree A-V block (Wenckebach) and left bundle branch block, requiring ICD pacemaker placement. He experienced recurrent anginal chest pain post-catheterization, with subsequent rise in cardiac enzymes and was diagnosed with periprocedural myocardial infarction, managed with repeat PTCA and stent placement. Additional findings included a left groin A-V fistula post-catheterization (managed conservatively), acute renal failure (resolved), and stable COPD. The patient was discharged on aspirin, Plavix, beta-blocker, Imdur, ACE inhibitor, statin, and inhaled fluticasone, with instructions for close outpatient follow-up and monitoring of his vascular access site.
+
 
 ## Dialogue Summary
 
-The patient presented with increased chest pain, especially during activity. Symptoms included central chest pressure or tightness rated up to 7/10 in severity, worsened by walking or exertion and improved with rest, with one episode severe enough to wake the patient from sleep. Associated symptoms were shortness of breath during activity, occasional pain at rest, nausea, and recent bruising in the groin area; the patient denied sweating or lightheadedness. Relevant history includes coronary artery disease, high blood pressure, use of a statin, and an inhaler for breathing; no diabetes was reported. On assessment, the doctor noted concern for angina due to the pattern of exertional chest pressure, history of coronary artery disease, and recent increase in symptom frequency and intensity. The doctor advised the patient to avoid strenuous activity, monitor for new symptoms such as pain unrelieved by rest, severe shortness of breath, or sweating, and to seek immediate medical attention if these occur. Rest was identified as the only factor that relieved the pain. The patient demonstrated understanding of the doctor's explanation and recommendations.
+The patient is an adult with a history of coronary artery disease and hypertension presenting with increased chest pain as the chief complaint. The chest pain is described as central pressure or tightness, rated up to 7 out of 10 in severity, triggered by activity such as walking and relieved by rest; it has recently become more frequent and intense, even waking the patient from sleep and occasionally accompanied by nausea. The patient also reports exertional shortness of breath but denies associated sweating or lightheadedness. Relevant history includes coronary artery disease, hypertension, current statin use, and inhaler use for breathing; no diabetes is reported. The clinical impression documented is concern for angina due to possible myocardial ischemia, given the pattern of symptoms and cardiac history. The physician advised the patient to avoid strenuous activity, monitor for worsening symptoms (such as pain unrelieved by rest, severe dyspnea, or sweating), and seek immediate medical attention if these occur. The patient also mentioned recent bruising in the groin area, though its relevance was not determined in this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.711
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

@@ -89,16 +89,23 @@ Does this summary make sense to you, and is there anything else you’d like to 
 
 ## EHR Summary
 
-The patient is a 63-year-old female presenting with respiratory failure. She experienced increasing respiratory distress, intermittent fevers, thick greenish sputum, bowel distention, and vomiting following a recent tracheostomy tube change, during which food was found in the trachea and air was noted in the stomach. Her history is significant for chronic obstructive pulmonary disease (COPD) requiring chronic ventilator support via tracheostomy, hypertension, depression, hypercholesterolemia, anxiety, coronary artery disease, and prior non-Q wave myocardial infarction. Allergies include sulfa, codeine, Augmentin, and shellfish. Bronchoscopy revealed a posterior tracheal ulcer near the tracheostomy site, and a tracheoesophageal fistula could not be ruled out. Sputum cultures grew Proteus, Serratia, and Methicillin-resistant Staphylococcus aureus (MRSA). The documented clinical impression was respiratory failure with possible tracheoesophageal fistula and infection. Treatment included initiation of Vancomycin for MRSA and Ceftazidime for Proteus.
+The patient is a 63-year-old female presenting with respiratory failure. She experienced increasing respiratory distress, intermittent fevers, thick greenish sputum, bowel distention, and vomiting following a tracheostomy tube change, with food discovered in the trachea and evidence of air entering the stomach. Her history includes chronic obstructive pulmonary disease (COPD) requiring chronic ventilator support via tracheostomy, hypertension, depression, hypercholesterolemia, anxiety, coronary artery disease, and prior MRSA infection; allergies include sulfa, codeine, Augmentin, and shellfish. On admission, she was found to have aspiration pneumonia (bilateral basilar infiltrates on chest x-ray), a suspected and later confirmed 1 cm tracheoesophageal fistula, and partial small bowel obstruction. The documented diagnoses were aspiration pneumonia, tracheoesophageal fistula, and partial small bowel obstruction. Treatment included intravenous antibiotics (Clindamycin, Ceftazidime, Vancomycin), surgical repair of the tracheoesophageal fistula, placement of a gastrostomy tube for decompression and a jejunostomy tube for feeding, ventilator support, bronchodilators for COPD, management of hypertension and pain with Fentanyl and Ativan, and bowel rest with total parenteral nutrition. She also received treatment for a postoperative urinary tract infection with Gentamicin. The patient’s respiratory status improved with these interventions, and she was discharged on ventilator support.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening difficulty breathing. Symptoms included progressive shortness of breath with minimal activity (such as walking around the house), increased breathing effort, pain with breathing after a prior surgery, episodes of food entering the airway, coughing, thick greenish sputum production, intermittent fevers, increased fatigue, more air in the stomach, bowel distention, and vomiting. The patient reported that symptoms began after an aspiration event (food going into the airway) and have not improved since, with breathing becoming more labored over time; no wheezing or high-pitched breathing was noted. Relevant history includes a recent surgery and an aspiration event. The doctor noted concern for ongoing lung irritation or infection, possibly aspiration pneumonia, based on the described symptoms and timeline. The assessment was that the patient may have developed a lung infection or persistent inflammation following aspiration. The doctor advised the patient to stay hydrated, monitor for worsening symptoms (such as increased shortness of breath, chest pain, or confusion), and seek prompt medical attention if these occur. The patient was also instructed to follow up with their healthcare provider for further evaluation, which may include a chest X-ray or additional tests.
+The patient is an adult presenting with worsening shortness of breath as the chief complaint. The dyspnea has progressively increased over time, now occurring even with minimal activity such as walking around the house, and is associated with increased breathing effort and occasional pain since a recent surgery. The patient reports a history of food entering the airway, followed by episodes of coughing, thick greenish sputum production, intermittent fevers, fatigue, and recent onset of bowel distention and vomiting. There is no report of wheezing or high-pitched breath sounds.
+
+Relevant history includes a recent aspiration event (food entering the airway) and post-surgical status; no medication or allergy information is specified. The clinical impression is possible lung infection or persistent inflammation secondary to aspiration. The treatment plan includes recommendations for hydration, symptom monitoring, and prompt medical attention if symptoms worsen (such as increased dyspnea, chest pain, or confusion), with follow-up for further evaluation (potentially including chest imaging).
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.568
+- **Model Used**: general
+- **Text1 Length**: 190 words
+- **Text2 Length**: 155 words
+
 
 ## Processing Information
 

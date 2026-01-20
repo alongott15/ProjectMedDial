@@ -86,3 +86,21 @@ If you notice any new symptoms, such as difficulty breathing or chest tightness,
 ## Processing Information
 
 - **Processing Time**: 54.9s
+
+## EHR Summary
+
+The patient is a 60-year-old man presenting with a history of chest pain since July 2188. He previously underwent cardiac catheterization, which revealed a high-grade LAD lesion. His past medical history includes abdominal aortic aneurysm (2.9 cm), hypertension, gastroesophageal reflux disease, and hypercholesterolemia; he is allergic to amoxicillin (rash). On admission, physical examination was notable for mild bilateral lower extremity edema but otherwise unremarkable findings. The documented diagnosis was status post coronary artery bypass grafting (CABG) times one. He underwent an off-pump CABG with LIMA to LAD and had an uncomplicated postoperative course, including early ambulation and removal of chest tube and wires. At discharge, he was in good condition and prescribed Lopressor, Percocet, Colace, Plavix (for three months), aspirin, Lasix (for seven days), potassium supplement (for seven days), and Zantac. He was advised to follow up with his physician in four weeks.
+
+
+## Dialogue Summary
+
+The patient presents with moderate chest pain as the chief complaint. The discomfort has been consistent for a few days, is relieved somewhat by rest, and does not appear to be triggered or worsened by specific activities; it occasionally interferes with daily tasks such as walking or household chores. There are no associated symptoms of swelling, redness, warmth, fever, or dyspnea. Relevant medical history, medications, and allergies are not specified in the dialogue. The clinical impression is that the pain is likely due to a common musculoskeletal issue, such as a mild strain or tension in the chest area. The treatment plan includes gentle activity, avoiding aggravating movements, use of heat packs or over-the-counter pain relievers if tolerated, and monitoring for any worsening or new symptoms. The patient is advised to continue usual walks if tolerated but to reduce activity if discomfort increases. Follow-up is recommended if symptoms worsen, new symptoms develop, or there is no improvement after about a week.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.507
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 161 words
+

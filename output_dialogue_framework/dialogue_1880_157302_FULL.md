@@ -87,16 +87,21 @@ Let me know if you have any questions or concerns about these suggestions, or if
 
 ## EHR Summary
 
-The patient is an 81-year-old female presenting with progressive shortness of breath and fatigue on exertion, as well as dizziness and postural orthostatic hypotension. She denies orthopnea or paroxysmal nocturnal dyspnea. Her past medical history includes hypertension and hyperlipidemia, and she is taking verapamil, xipamide, potassium chloride, Lipitor, and aspirin; she has no known drug allergies. On physical examination, she was well-appearing with bilateral basal crackles in the chest, a grade IV systolic murmur, and slight lower extremity varicosities. Echocardiogram revealed moderate mitral stenosis with a mean diastolic gradient of 7 mmHg, mitral valve area of 1.4 cm², thickened mitral leaflets, at least 2+ mitral regurgitation, mild aortic sclerosis, mild tricuspid regurgitation, mild to moderate pulmonary hypertension, and moderate left atrial dilation. The documented diagnosis was moderate mitral stenosis with associated mitral regurgitation and pulmonary hypertension. The patient underwent a mitral valve repair with a #27 Mosaic valve during this admission and did well postoperatively.
+The patient is an 81-year-old female presenting with progressive shortness of breath and fatigue on exertion, as well as dizziness and postural orthostatic hypotension. She denied orthopnea or paroxysmal nocturnal dyspnea. Her medical history includes hypertension and hyperlipidemia, and she has no known drug allergies. Echocardiogram revealed moderate mitral stenosis with a mean diastolic gradient of 7 mm, mitral valve area of 1.4 cm², thickened mitral leaflets, at least 2+ mitral regurgitation, mild aortic sclerosis, mild tricuspid regurgitation, mild to moderate pulmonary hypertension, and moderate left atrial dilation. The documented diagnosis was moderate mitral stenosis with associated symptoms. She underwent successful mitral valve repair with a #27 Mosaic valve and had an uncomplicated postoperative course, except for transient atrial fibrillation/flutter managed with amiodarone. At discharge, her condition was good, and she was prescribed amiodarone, Lasix, Lopressor, Percocet, Colace, Lipitor, aspirin, potassium chloride, and Zantac, with instructions to follow up in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with increased shortness of breath during household activities. Symptoms included exertional dyspnea that improves with rest or sitting, increased fatigue with activity, and occasional dizziness or lightheadedness when standing up quickly; no chest discomfort, cough, wheezing, noisy breathing, leg swelling, or nighttime breathing issues were reported. The patient noted these symptoms have been present for a few weeks and are triggered by climbing stairs and carrying groceries, sometimes requiring breaks or slowing down to complete tasks. No relevant medical history, medications, or allergies were mentioned in the conversation. On clinical review, the doctor noted the absence of chest pain, swelling, or orthopnea, and that symptoms are activity-related and improve with rest. The assessment was that mild shortness of breath and fatigue with exertion could be related to changes in fitness, mild anemia, or age-related heart or lung function changes; dizziness on standing may be due to positional changes or mild dehydration. The doctor recommended pacing activities, staying hydrated, and taking breaks as needed, with instructions to seek prompt evaluation if symptoms worsen or new warning signs develop. The patient expressed understanding of these recommendations.
+The patient is an adult presenting with the chief complaint of increased shortness of breath during physical activity. Symptoms include exertional dyspnea and fatigue that have been present for several weeks, are triggered by activities such as climbing stairs and carrying groceries, and improve with rest or sitting; the patient also reports occasional dizziness or lightheadedness when standing up quickly. There is no associated chest discomfort, cough, wheezing, leg swelling, or orthopnea. The patient denies nocturnal dyspnea and does not require extra pillows to sleep comfortably. Relevant history, medications, and allergies are not specified in the dialogue. The clinical impression is that the symptoms are likely related to changes in fitness, mild anemia, or age-related changes in heart or lung function, with reassurance provided since the patient can complete most tasks with pacing. The treatment plan includes advice to pace activities, stay hydrated, and monitor for warning signs such as worsening dyspnea at rest, chest pain, or leg swelling, with instructions to seek prompt evaluation if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.539
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

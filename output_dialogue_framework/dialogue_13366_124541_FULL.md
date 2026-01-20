@@ -95,16 +95,21 @@ By staying proactive with these preventive steps, we can catch any potential con
 
 ## EHR Summary
 
-The patient is a 59-year-old female presenting with chest pain and increased weakness. She denied orthopnea and palpitations but reported dyspnea; review of systems was otherwise negative for significant cardiopulmonary or gastrointestinal symptoms. Her medical history includes type 2 diabetes, hypertension, hypercholesterolemia, depression, two prior cerebrovascular accidents with right-sided hemiparesis, and spinal stenosis. On cardiac catheterization, findings included an ejection fraction of 59%, 50% ostial and mid stenosis of the left anterior descending artery, 80% mid diagonal stenosis, and 50–60% diffuse distal stenosis, as well as 60% proximal stenosis of the left circumflex artery. The documented diagnosis was coronary artery disease with multiple areas of moderate to severe stenosis. Home medications included Plavix, aspirin, Lipitor, atenolol, trazodone, and Lantus. No known drug allergies were reported. The treatment plan included outpatient cardiac catheterization and ongoing management of her chronic conditions.
+The patient is a 59-year-old female presenting with chest pain and increased weakness. She denied orthopnea and palpitations but reported dyspnea; initial workup ruled out myocardial infarction and epidural abscess, and subsequent cardiac catheterization revealed three-vessel coronary artery disease with preserved ejection fraction. Her medical history includes type 2 diabetes, hypertension, hypercholesterolemia, depression, prior cerebrovascular accidents with right-sided hemiparesis, and spinal stenosis. During this admission, she underwent elective coronary artery bypass grafting (CABG) times four and atrioseptal defect repair, which she tolerated well. Postoperatively, she experienced a small area of wound necrosis at the vein harvest site, managed with mild debridement and wet-to-dry dressings, without signs of infection. The documented diagnoses include status post catheterization, status post CABG and atrioseptal defect repair, depression, history of cerebrovascular accident, hypertension, hypercholesterolemia, and diabetes type 2. At discharge, she was stable, ambulating independently, tolerating a regular diet, and prescribed medications including aspirin, Plavix, Lipitor, Lantus, trazodone, Colace, and Percocet as needed for pain. She was discharged home with follow-up arranged with her cardiologist and primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented for a general health check-in without a specific chief complaint. They reported no changes in energy, sleep, or appetite, and denied any new symptoms such as headaches, cough, joint pain, shortness of breath, or weight changes. The patient is not taking any medications and has no known ongoing medical conditions or allergies. On review of activity level, the patient stated they are able to perform daily routines and exercise without unusual discomfort or shortness of breath. The doctor assessed that the patient is in good overall health with no current symptoms or limitations. The treatment plan includes ordering routine preventive screenings, specifically blood pressure measurement and basic laboratory tests, to monitor for silent conditions such as high cholesterol or early diabetes. The doctor advised the patient to continue current routines and to report any new symptoms or concerns promptly. The importance of proactive preventive care was emphasized, and results will be reviewed together after testing.
+The patient presented for a general health check-in without a specific chief complaint. They reported no new symptoms, including no changes in energy, sleep, appetite, headaches, cough, joint pain, or weight, and confirmed the ability to perform daily routines and exercise without dyspnea or discomfort. The patient has no known ongoing medical conditions and is not taking any medications. There were no documented diagnoses or abnormal findings during the visit. The clinical impression was that the patient is in good overall health based on the absence of symptoms and maintained activity level. The treatment plan focused on preventive care, including ordering routine laboratory tests and blood pressure measurement to screen for silent conditions such as high cholesterol or early diabetes. The patient was advised to continue current routines and to report any new symptoms or concerns promptly. Follow-up was planned to review screening results and address any findings as needed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.948
-- **Similarity Label**: N/A
+- **STS Score**: 0.350
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 150 words
+
 
 ## Processing Information
 

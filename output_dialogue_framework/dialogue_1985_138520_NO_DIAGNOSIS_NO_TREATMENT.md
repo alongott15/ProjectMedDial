@@ -67,16 +67,21 @@
 
 ## EHR Summary
 
-The patient is a 74-year-old female presenting with chest pain. She experienced three days of chest pain upon awakening, radiating across her shoulder blades and down her arms, lasting one to one and a half hours, and worsening at night when lying down. Her history is significant for coronary artery disease (CAD) status post myocardial infarction (MI) and prior LAD stent placement, as well as COPD, hypertension, hyperlipidemia, and osteoporosis; she has no known allergies. On admission, her troponin was mildly elevated at 0.12, and she had breakthrough pain despite heparin and nitroglycerin drip. The clinical impression was strong suspicion for acute coronary syndrome in the context of known CAD. Treatment included transfer for further management, continuation of antiplatelet therapy (aspirin), statin (Pravachol), antihypertensives (Vasotec, Lopressor), nitroglycerin drip, heparin drip, and Aggrastat drip.
+The patient is a 74-year-old woman presenting with chest pain. She experienced three days of chest pain upon awakening, radiating across her shoulder blades and down her arms, lasting one to 1.5 hours and worsening at night when lying down; the pain persisted despite heparin and nitroglycerin. Her history is significant for coronary artery disease (CAD) status post myocardial infarction and LAD stent, COPD, hypertension, hyperlipidemia, osteoporosis, and prior right carotid endarterectomy; she has no known allergies. Cardiac catheterization revealed severe multivessel CAD, and she underwent coronary artery bypass grafting (CABG) times four. The documented diagnoses include CAD status post CABG x4, COPD, hypertension, hypercholesterolemia, osteoporosis, and left bundle branch block. Postoperatively, she was managed with temporary pacing for heart block, weaned from ventilatory and inotropic support, and started on cardiac rehabilitation. Discharge medications included Lasix, potassium chloride, aspirin, Plavix, pravastatin, metoprolol, enalapril, Percocet, and albuterol. She was discharged to rehabilitation with follow-up arranged with her primary care provider and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The pain was described as a pressure across the chest, sometimes radiating to the shoulder blades and down the arms, with a sudden onset. The patient rated the pain as moderate most of the time, noting that lying down and resting provided partial relief but did not resolve it completely. There was no associated sweating or lightheadedness, and shortness of breath was only noted immediately after recent surgery but had since improved. No specific medical history, medications, or allergies were mentioned beyond reference to recent surgery. No physical findings were documented in this encounter. The doctor did not provide a formal assessment or working diagnosis during the conversation. No specific treatment plan or recommendations were given at this stage.
+The patient presents with chest pain as the chief complaint. The pain is described as a pressure across the chest that sometimes radiates to the shoulder blades and down the arms, with a sudden onset. The patient rates the pain as moderate in severity, notes that it is partially relieved by lying down and resting, and reports no associated sweating or lightheadedness. There was some shortness of breath after recent surgery, but this has improved. Relevant medical history includes recent surgery, though specific details are not provided. No diagnosis was documented during this portion of the dialogue. No specific treatment or advice was given in the documented conversation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.501
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 108 words
+
 
 ## Processing Information
 

@@ -184,16 +184,23 @@ If your swelling stays about the same or slowly improves, that’s expected with
 
 ## EHR Summary
 
-The patient is an 81-year-old female presenting with left upper extremity deep vein thrombosis (LUE DVT) involving the entire subclavian vein after recent aortic root replacement surgery. She reported left arm swelling, and physical exam revealed 1+ edema of the left upper extremity, with no pedal edema. Her medical history includes hypertension, hypercholesterolemia, right femoral AV fistula, anxiety/depression, osteoporosis, varicose veins, and a history of right ankle fracture; she is also hard-of-hearing and has allergies to iodine-containing agents and heparin. She was found to be heparin-induced thrombocytopenia (HIT) positive, necessitating anticoagulation with Argatroban and transition to Warfarin (Coumadin). Laboratory results showed mild anemia and therapeutic INR at discharge. The documented diagnosis was LUE DVT in the setting of HIT. Treatment included Argatroban anticoagulation with transition to Warfarin, and she was monitored for resolution of symptoms prior to discharge.
+The patient is an 81-year-old female presenting with left upper extremity deep vein thrombosis (LUE DVT) after recent ascending aortic aneurysm repair. She experienced left arm edema and was found to be heparin-induced thrombocytopenia (HIT) positive, requiring anticoagulation with Argatroban and transition to Warfarin. Her past medical history includes hypertension, hypercholesterolemia, anxiety/depression, osteoporosis, varicose veins, and prior right ankle fracture. The documented diagnoses were status post ascending aortic aneurysm repair, cerebrovascular accident (CVA), LUE DVT treated with Argatroban and Coumadin, HIT+, retroperitoneal bleed, and status post tracheostomy and PEG placement. Treatment included Argatroban infusion titrated to therapeutic levels, initiation and titration of Warfarin to maintain INR 2-2.5, and addition of Glyburide for elevated blood glucose. Discharge medications included anticoagulants, antihypertensives, statins, antiepileptics, and other supportive therapies. The patient was discharged in good condition to extended care with instructions for wound care, medication adherence, and follow-up with her physicians.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent left arm swelling and a productive cough, with a history of deep vein thrombosis (DVT), heparin-induced thrombocytopenia (HIT), and current anticoagulation therapy. The left arm swelling was described as ongoing and uncomfortable, especially with increased use, and the patient was advised to monitor for increased pain, redness, warmth, or changes in skin color. The productive cough was noted as a potential concern given the clotting history, with instructions to watch for sudden shortness of breath, chest pain, or hemoptysis. Relevant history includes recent DVT, HIT, and use of anticoagulants; no allergies or other medications were mentioned. The doctor assessed that the arm swelling is most likely due to the DVT itself rather than the anticoagulant medication, and emphasized monitoring for signs of bleeding or infection. Physical findings were not directly observed but discussed based on patient report. The treatment plan included continuing anticoagulation as prescribed, regular follow-up appointments and imaging, monitoring platelet levels, and coordinating with hematology. Additional advice included elevating the arm, gentle movement, considering a compression sleeve after consulting the care team, and prompt reporting of any new or worsening symptoms.
+The patient is an adult with a recent history of deep vein thrombosis (DVT) and heparin-induced thrombocytopenia (HIT), currently on anticoagulation therapy, presenting with persistent left arm swelling and a productive cough. The left arm swelling is described as ongoing and uncomfortable, especially with increased use, and is most likely attributed to the DVT, as anticoagulants do not typically cause swelling directly. The patient is advised to monitor for any sudden increase in swelling, new pain, changes in skin color, signs of infection, or symptoms of bleeding such as unusual bruising, nosebleeds, or blood in urine or stool. The cough is noted as a potential concern given the clotting history, with instructions to seek urgent care if sudden shortness of breath, chest pain, or hemoptysis occurs.
+
+The documented clinical impression is that the persistent swelling is most commonly due to the DVT itself. The treatment plan includes continuing anticoagulation as prescribed, regular follow-up appointments and imaging, and blood tests to monitor medication effects and platelet levels due to HIT history. Supportive measures recommended are arm elevation, gentle movement, and consideration of a compression sleeve after consulting the care team. The patient is instructed to promptly report any new or worsening symptoms and to maintain close communication with the healthcare team.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.667
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 210 words
+
 
 ## Processing Information
 

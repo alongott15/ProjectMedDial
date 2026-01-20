@@ -98,3 +98,21 @@ Let’s arrange for a basic evaluation—possibly an EKG and some blood work—t
 ## Processing Information
 
 - **Processing Time**: 421.0s
+
+## EHR Summary
+
+The patient is a 44-year-old male presenting with recurrent chest discomfort during exertion. Symptoms included exertional chest pain, with prior nuclear stress testing revealing inferior lateral wall ischemia and a probable small fixed infarct, and an ejection fraction of 40%. His relevant history includes a non-Q wave myocardial infarction and prior percutaneous transluminal coronary angioplasty with stenting. Cardiac catheterization showed severe proximal and distal right coronary artery lesions and significant stenosis in the left circumflex artery. The documented diagnosis was status post coronary artery bypass graft times two. Treatment included an uncomplicated coronary artery bypass graft (right radial to obtuse marginal, saphenous vein graft to posterior descending artery), postoperative monitoring, and initiation of medications such as aspirin, Plavix, Lopressor, atorvastatin, and isosorbide mononitrate. The patient recovered well postoperatively, achieved physical therapy goals, and was discharged home in good condition. Follow-up with cardiology and for medication titration was arranged.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with chest discomfort during physical activity as the chief complaint. The discomfort is described as a pressure sensation, rated 5–6 out of 10 in intensity, occurring with most forms of exertion (such as walking quickly or climbing stairs) and resolving promptly with rest. There are no associated symptoms such as dyspnea, diaphoresis, or lightheadedness. The symptoms have been present for a few days without progression in frequency or severity. The patient denies a personal history of hypertension, hyperlipidemia, diabetes, and is unsure about family history of heart disease. The clinical impression includes possible musculoskeletal or anxiety-related causes, but exertional chest discomfort may also indicate a cardiac etiology. The treatment plan includes avoiding strenuous activity until further evaluation and arranging for an EKG and blood work to rule out serious causes. The patient was advised to seek immediate care if symptoms worsen or new concerning symptoms develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.470
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 152 words
+

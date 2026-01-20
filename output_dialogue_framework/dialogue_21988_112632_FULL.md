@@ -85,16 +85,21 @@ You haven't had a cough or swelling, which makes certain lung or fluid-related i
 
 ## EHR Summary
 
-The patient is a 53-year-old male presenting with increasing shortness of breath and fatigue over the past year. He denies chest pain or pressure, and his symptoms have progressively worsened. His medical history includes insulin-dependent diabetes mellitus (managed with an insulin pump), hypertension, hypercholesterolemia, gastroparesis, peripheral neuropathy, and macular degeneration; he is allergic to Dilantin (causes hives). On examination, vital signs showed elevated blood pressure and regular heart rhythm, with clear lungs and no edema or jugular venous distention. Cardiac catheterization revealed significant coronary artery disease with a 50% left main lesion, 80% left anterior descending lesion, and 80% right coronary artery lesion; ejection fraction was 55%. The documented diagnosis is multivessel coronary artery disease. Medications on admission included aspirin, Toprol XL, Cozaar, Zocor, Reglan, multivitamin, and insulin via pump. Further management and specific interventions during this admission are not detailed in the provided note.
+The patient is a 53-year-old male presenting with increasing shortness of breath and fatigue over the past year. He denied chest pain or pressure, and cardiac evaluation revealed multiple wall motion abnormalities and significant coronary artery disease (50% left main, 80% LAD, 80% RCA lesions) with an ejection fraction of 55%. His medical history includes insulin-dependent diabetes mellitus (on an insulin pump), hypertension, hypercholesterolemia, gastroparesis, peripheral neuropathy, and macular degeneration; he is allergic to Dilantin. The documented diagnosis was status post coronary artery bypass grafting times three, along with his chronic conditions. He underwent CABG x3 using left internal mammary artery, left radial artery, and vein grafts, and his postoperative course was stable with minor issues such as decreased breath sounds at the bases and transient low-grade fever. At discharge, he was alert, hemodynamically stable, with clean and intact incisions, and instructed to follow up with his physicians. Discharge medications included Imdur, aspirin, ranitidine, simvastatin, Lasix, potassium chloride, metoprolol, insulin via pump, and Percocet as needed.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening shortness of breath over the past year. Symptoms include increased difficulty catching breath, especially with physical activity, persistent fatigue that does not improve with rest, and a faster heart rate during exertion; no cough or leg/ankle swelling was reported. The patient noted an unintentional weight gain of about three kilograms since surgery and a single episode of elevated temperature (101.1°F) without chills. No other medical history, medications, or allergies were discussed. On review, the doctor noted the absence of cough and swelling, and confirmed sinus tachycardia with exertion. The assessment focused on possible heart and lung inefficiency post-surgery, with infection or inflammation considered less likely due to minimal fever and lack of chills. The doctor explained the relationship between symptoms and heart/lung function, and discussed ruling out certain fluid-related or pulmonary issues based on the patient's responses.
+The patient is presenting with gradually worsening shortness of breath (dyspnea) over the past year, which is most noticeable with physical activity and not at rest. Associated symptoms include persistent fatigue that does not improve with rest and an increased heart rate (sinus tachycardia) during exertion. The patient reports a weight gain of approximately three kilograms since surgery but denies any leg or ankle swelling and has not experienced any cough. Both the dyspnea and fatigue began around the same time, about one year ago. The patient also noted a single episode of elevated temperature (101.1°F) without chills. Relevant history includes recent surgery, but no further medical history, medications, or allergies are specified. The clinical impression discussed by the doctor is that the symptoms may be related to cardiac or pulmonary function, possibly influenced by changes after surgery, but no definitive diagnosis was documented. The doctor explained possible causes and asked additional questions to further clarify the underlying issue; no specific treatment or recommendations were provided in this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.464
+- **Model Used**: general
+- **Text1 Length**: 166 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

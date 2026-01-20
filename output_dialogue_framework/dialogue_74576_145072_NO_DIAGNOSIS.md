@@ -87,16 +87,23 @@ Before we wrap up, is there any discomfort—like a sensation under your ribs or
 
 ## EHR Summary
 
-The patient is an 84-year-old female presenting with shortness of breath. She experienced a gradual worsening of her baseline dyspnea over the past week, accompanied by a nonproductive cough and left-sided rib discomfort, but denied fever, chills, myalgias, rhinorrhea, chest pain, or paroxysmal nocturnal dyspnea. Her history is significant for emphysema with rare home oxygen use and a 40 pack-year smoking history, having quit 13 years ago; she has no known drug allergies. On examination in the emergency department, her oxygen saturation was 85% on room air, improving with supplemental oxygen; chest X-ray showed no acute cardiopulmonary process and ECG was normal sinus rhythm without ischemic changes. The documented diagnosis is not explicitly stated, but her presentation is consistent with an exacerbation of emphysema. Treatment included albuterol and ipratropium nebulizers, intravenous methylprednisolone, and levofloxacin. She had previously received azithromycin, prednisone, and bactrim prior to admission without significant improvement.
+The patient is an 84-year-old female presenting with shortness of breath. She experienced a gradual worsening of her baseline dyspnea over one week, accompanied by a nonproductive cough and increased oxygen requirements, but denied fever, chills, chest pain, or myalgias. Her past medical history is significant for emphysema (COPD) with rare home oxygen use, hypertension, and hyperlipidemia; she has no known drug allergies and a 40 pack-year smoking history (quit 13 years ago). On admission, she was hypoxic (O2 sat 85% on room air), tachycardic, and had diffuse expiratory wheezes on exam; imaging showed hyperinflated lungs consistent with COPD but no evidence of pneumonia. The documented diagnosis was acute exacerbation of chronic obstructive pulmonary disease. She was treated with nebulized bronchodilators (albuterol and ipratropium), intravenous then oral steroids (methylprednisolone/prednisone taper), antibiotics (levofloxacin), and supplemental oxygen, with rapid clinical improvement. At discharge, she was advised to continue a prednisone taper, inhaled medications (Advair, Combivent), home oxygen as needed, and to avoid air travel until her respiratory status improves. She was also started on calcium and vitamin D supplementation and instructed to follow up with her primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with difficulty catching their breath. They reported shortness of breath that is worse with activity and improves with rest, a dry cough without sputum, and mild discomfort under the left ribs. Symptoms began a few days ago and have remained stable, with no dizziness, lightheadedness, swelling in the ankles or feet, weight changes, or worsening at night. No history of chest pain, fever, or hemoptysis was mentioned. On assessment, the doctor noted that the symptoms are likely due to mild airway irritation, possibly from a recent viral infection or environmental factors, and that serious heart or lung issues are less likely given the absence of concerning signs. The doctor recommended staying hydrated, avoiding irritants such as smoke or strong odors, and resting as needed. The patient was advised to seek prompt medical attention if new symptoms such as chest pain, high fever, severe difficulty breathing, or leg swelling develop.
+The patient is an adult presenting with the chief complaint of shortness of breath. The dyspnea is exertional, improving with rest, and has been present for a few days without significant change; it is accompanied by a dry cough that is consistent throughout the day and mild discomfort under the left ribs. The patient denies orthopnea, paroxysmal nocturnal dyspnea, peripheral edema, dizziness, or weight gain. There is no report of chest pain, fever, hemoptysis, or other concerning symptoms. Relevant history, medications, and allergies are not specified.
+
+The clinical impression was mild airway irritation, possibly due to a recent viral infection or environmental factors, with serious cardiac or pulmonary causes considered less likely. The treatment plan includes supportive care: staying hydrated, avoiding irritants such as smoke or strong odors, and resting as needed. The patient was advised to seek prompt medical attention if new symptoms such as chest pain, high fever, severe dyspnea, or leg swelling develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.649
+- **Model Used**: general
+- **Text1 Length**: 187 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

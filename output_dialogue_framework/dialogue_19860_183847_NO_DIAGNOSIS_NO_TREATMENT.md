@@ -87,16 +87,23 @@ Let me ask—does anything seem to trigger more pain or make the sore worse duri
 
 ## EHR Summary
 
-The patient is an 84-year-old female presenting with a nonhealing left heel ulcer and cellulitis. She was unable to report pain or fevers due to baseline dementia. Her past medical history includes seizure disorder, multiple bypass grafts, peripheral vascular disease, and dementia. On examination, she was afebrile with stable vitals, and her left lower extremity showed cellulitis extending from the heel up to a quarter of the shin with a heel ulcer. The clinical impression was left lower extremity cellulitis and nonhealing ulcer, likely related to poor vascular supply. She was treated with broad-spectrum antibiotics, and an angiogram revealed no targets for bypass and minimal blood flow to the heel. After discussion with her family, the decision was made to defer above-the-knee amputation and continue conservative management with antibiotics, which led to improvement and resolution of erythema. Plans were made for discharge back to her nursing home after stabilization; a GI consult and colonoscopy were planned following an episode of bright red blood per rectum.
+The patient is an 84-year-old female presenting with a nonhealing left heel ulcer and cellulitis. She was unable to report pain or fevers due to baseline dementia. Her past medical history includes seizure disorder, multiple bypass grafts, peripheral vascular disease, and dementia. On admission, she was afebrile with stable vitals, and physical exam revealed cellulitis extending from the left heel up the shin with an ulcer. The documented clinical impression was left lower extremity cellulitis with underlying severe peripheral vascular disease and nonhealing ulcer. She was treated with broad-spectrum antibiotics, and surgical intervention (above knee amputation) was considered but deferred in favor of conservative management after family discussion. During hospitalization, she developed blood loss anemia requiring transfusion, experienced a seizure-like episode, and later became unresponsive with hypoxemia, leading to ICU transfer and comfort measures. The patient expired on [2152-9-7].
+
 
 ## Dialogue Summary
 
-The patient presented with a non-healing sore on the left heel. Symptoms included redness, swelling, warmth, pain with walking or weight-bearing, and some drainage from the sore; the sore had been present for approximately two weeks, though the exact onset was uncertain. The patient denied fever or chills and reported that keeping the area clean helped slightly, but overall mobility at home was reduced due to heel pain. Relevant history regarding medications or allergies was not specified. On examination, the doctor noted signs suggestive of possible infection, including persistent redness, swelling, warmth, drainage, and pain. The assessment was that the sore may be infected, especially given the lack of healing and increased discomfort. The doctor recommended continuing to keep the area clean and protected, avoiding pressure on the heel, and monitoring for worsening symptoms such as spreading redness, increased swelling, or new fever; these would warrant prompt medical attention. The patient reported that pain worsened with weight-bearing and improved with elevation and rest.
+The patient presents with a non-healing sore on the left heel as the chief complaint. The sore has been present for approximately two weeks and is associated with redness, swelling, warmth, pain on weight-bearing, and some drainage; there is no history of fever or chills. The patient reports that the pain significantly limits mobility around the house, and keeping the area clean provides only minimal relief. Relevant history regarding underlying medical conditions, medications, or allergies is not specified.
+
+The clinical impression documented by the doctor is a possible localized infection of the heel wound, given the symptoms of redness, swelling, warmth, drainage, and pain. The doctor advised continued cleaning and protection of the area, minimizing pressure on the heel, and monitoring for worsening symptoms such as spreading redness, increased swelling, or new fever. The patient was instructed to seek prompt medical attention if these concerning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.603
+- **Model Used**: general
+- **Text1 Length**: 139 words
+- **Text2 Length**: 147 words
+
 
 ## Processing Information
 

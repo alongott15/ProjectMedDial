@@ -87,16 +87,23 @@ For now, try to track when these episodes happen and if anything specific seems 
 
 ## EHR Summary
 
-The patient is a 42-year-old male presenting for ethanol (EtOH) ablation due to hypertrophic cardiomyopathy with increasing shortness of breath (SOB). His dyspnea had worsened, particularly on inclines and stairs, though he could walk long distances on flat surfaces; there was no paroxysmal nocturnal dyspnea, orthopnea, or edema. Relevant history includes hypertrophic cardiomyopathy (LVOT rest 65 mm, EF 75%), significant family history of sudden cardiac death, prior ICD and pacemaker placement for nonsustained ventricular tachycardia, and intolerance to Toprol, atenolol, and verapamil. Physical exam revealed a III/VI systolic murmur at the right upper sternal border, but no signs of heart failure. Cardiac catheterization showed normal coronary arteries and successful ethanol ablation of the first two septa with marked reduction of the outflow gradient. The documented diagnosis is hypertrophic cardiomyopathy with symptomatic LVOT obstruction. Treatment included ethanol ablation and continued monitoring post-procedure. The patient has a vancomycin allergy.
+The patient is a 42-year-old male presenting for ethanol (EtOH) ablation due to hypertrophic cardiomyopathy (HOCM) with increasing shortness of breath (SOB). His dyspnea had worsened, particularly with exertion such as climbing stairs or walking on inclines, though he could walk long distances on flat surfaces; there was no paroxysmal nocturnal dyspnea, orthopnea, or edema. Relevant history includes HOCM with left ventricular outflow tract obstruction, prior ICD and pacemaker placement for non-sustained ventricular tachycardia, intolerance to beta-blockers and verapamil, and an allergy to vancomycin. The documented diagnosis was HOCM status post ethanol septal ablation. Treatment included successful EtOH ablation with marked reduction in gradient, initiation of aspirin 325 mg daily for at least 6 months post-procedure, and resumption of Cardizem SR 120 mg twice daily due to prior intolerance of beta-blockers. The patient was discharged home in stable condition with instructions to monitor for worsening symptoms and follow up with cardiac services.
+
 
 ## Dialogue Summary
 
-The patient presented with difficulty catching their breath, especially during exertion such as walking up hills or climbing stairs. Symptoms included exertional shortness of breath persisting for several weeks without improvement, occasional lightheadedness during episodes, and chest pain described as pressure accompanied by nausea, both of which are more noticeable with activity and improve with rest. The patient denied wheezing, coughing, palpitations, heart racing, or swelling in the legs or ankles. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted exertional breathlessness, chest pressure, and nausea, with symptoms alleviated by rest. The assessment was that these symptoms could be related to cardiac or pulmonary issues, deconditioning, or anxiety, but chest pressure with exertion warranted caution for possible heart-related concerns. The doctor advised the patient to avoid strenuous activity, monitor and record symptom episodes and triggers, arrange a check-up with physical exam and heart/lung tests, and seek immediate care if symptoms worsen or severe chest pain or fainting occurs.
+The patient presents with the chief complaint of exertional shortness of breath, primarily occurring during activities such as walking uphill, climbing stairs, or performing household chores. Symptoms have been present for several weeks without significant change and are characterized by dyspnea, chest pressure (described as non-sharp), and occasional nausea, all of which are more pronounced with activity and improve with rest. The patient denies associated wheezing, coughing, palpitations, or lower extremity swelling but reports occasional lightheadedness during episodes. Relevant history regarding past medical conditions, medications, or allergies is not specified in the dialogue.
+
+The clinical impression discussed by the doctor includes possible cardiac or pulmonary causes, with consideration also given to less serious etiologies such as deconditioning or anxiety; however, no definitive diagnosis is documented. The treatment plan includes advising the patient to avoid strenuous activity until further evaluation, to monitor and record symptom episodes (including timing and triggers), and to seek immediate medical attention if severe chest pain, fainting, or worsening symptoms occur. The doctor recommends scheduling a check-up for a physical exam and basic heart and lung tests.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.933
-- **Similarity Label**: N/A
+- **STS Score**: 0.543
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 180 words
+
 
 ## Processing Information
 

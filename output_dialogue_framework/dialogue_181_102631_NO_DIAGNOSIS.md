@@ -106,3 +106,21 @@ If you have any questions about what to expect or what happens next, I’m here 
 ## Processing Information
 
 - **Processing Time**: 366.6s
+
+## EHR Summary
+
+The patient is a 65-year-old male presenting with crushing chest and back pain that awoke him from sleep. The pain began at 4:00 a.m. on the day of admission and prompted evaluation at a local emergency room, followed by transfer for further care. A CT scan revealed an aortic dissection extending from the aortic valve annulus to the iliac bifurcation. There is no relevant past medical history, medications, or allergies documented. The clinical diagnosis was aortic dissection. The patient underwent emergent surgical repair, including replacement of the aortic valve and ascending aorta with a tube graft. Postoperatively, he suffered primary cardiac failure and was unable to be weaned from cardiopulmonary bypass, resulting in death in the operating room.
+
+
+## Dialogue Summary
+
+The patient presents with a chief complaint of steady, crushing pain in the center of the chest and across the back. The pain began a few days ago, is rated 6 out of 10 in severity, lasts for prolonged periods, and is not affected by activity, deep breathing, rest, or changes in position. There are no associated symptoms such as sweating, nausea, dyspnea (shortness of breath), or lightheadedness. The patient denies recent injuries, heavy lifting, or new activities. No relevant past medical history, medications, or allergies were specified. The clinical impression is that while musculoskeletal causes are possible, the central, crushing quality of the pain raises concern for potential heart-related etiologies. The doctor recommended prompt medical evaluation to rule out cardiac causes and advised the patient to avoid strenuous activity and monitor for new symptoms such as sweating, faintness, or dyspnea. The patient was instructed to seek emergency care if any new concerning symptoms develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.521
+- **Model Used**: general
+- **Text1 Length**: 118 words
+- **Text2 Length**: 155 words
+

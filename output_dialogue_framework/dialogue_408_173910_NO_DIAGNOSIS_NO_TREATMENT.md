@@ -87,16 +87,21 @@ Let me know if you notice anything new or if you have questions about what to wa
 
 ## EHR Summary
 
-The patient is a 79-year-old male presenting with left upper quadrant abdominal pain, fever, and leukocytosis. Symptoms developed after previous admissions for repair of an incarcerated paraileostomal hernia and a panproctocolectomy for Crohn's disease. Relevant history includes Crohn's disease and multiple recent abdominal surgeries. Physical examination revealed a well-healed midline incision, an ostomy in the left lower quadrant, and a drain site in the right upper quadrant. Imaging identified a new fluid collection, which was drained. During this admission, the patient developed an enterocutaneous fistula at the midline incision site. The documented diagnosis was enterocutaneous fistula. Treatment included intravenous nutritional support (elementation) and surgical consultations, with ongoing monitoring for fistula management.
+The patient is a 79-year-old male presenting with persistent left upper quadrant abdominal pain, fever, and leukocytosis. Symptoms developed after prior surgical interventions, including panproctocolectomy for Crohn's disease and repair of an incarcerated paraileostomal hernia. On this admission, imaging revealed a new fluid collection, which was drained, but the patient subsequently developed an enterocutaneous fistula at the midline incision site. Relevant history includes Crohn's disease and multiple recent abdominal surgeries. The documented diagnosis was enterocutaneous fistula. Treatment included intravenous nutrition (elementation), antibiotics, supportive care, and an attempted exploratory laparotomy, which was unsuccessful due to dense adhesions. Despite these interventions, the patient's condition deteriorated, and he died during the hospital stay.
+
 
 ## Dialogue Summary
 
-The patient presented with pain on the left side near the ribs. The pain had been present for a few days, developed gradually, and was described as a dull ache rated 6 out of 10 at its worst. The patient reported intermittent fever but no chills, nausea, appetite changes, digestive issues, cough, or respiratory symptoms; movement, eating, and deep breathing did not affect the pain. The patient mentioned a recent elevated white cell count. On examination, no physical findings were noted beyond the described symptoms. The doctor assessed that the symptoms and elevated white cell count suggest inflammation or mild infection, possibly involving an organ near the ribs, but less likely related to muscle strain or digestive problems given the lack of other symptoms. The doctor recommended monitoring temperature and symptoms, resting, staying hydrated, and following up if pain worsens or new symptoms develop; gentle movement was considered acceptable since activity did not exacerbate discomfort.
+The patient is an adult presenting with left-sided pain near the ribs as the chief complaint. The pain has been present for a few days, developed gradually, is described as a dull ache rated 6 out of 10 at its worst, and is not affected by movement, eating, or deep breathing. The patient reports intermittent fever but no chills, nausea, appetite changes, digestive issues, cough, or respiratory symptoms. The patient also notes a recent elevated white cell count. The clinical impression is that the symptoms suggest an underlying inflammation or mild infection, possibly involving an organ near the ribs, but without evidence of respiratory or digestive involvement. The treatment plan includes monitoring temperature and symptoms, staying hydrated, resting, and following up if pain worsens or new symptoms develop. No specific medications or interventions were prescribed at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.940
-- **Similarity Label**: N/A
+- **STS Score**: 0.361
+- **Model Used**: general
+- **Text1 Length**: 110 words
+- **Text2 Length**: 138 words
+
 
 ## Processing Information
 

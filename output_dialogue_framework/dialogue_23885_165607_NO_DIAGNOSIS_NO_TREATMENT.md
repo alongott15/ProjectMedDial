@@ -87,16 +87,23 @@ Let me know if you have questions about what I’ve explained or need help decid
 
 ## EHR Summary
 
-The patient is a 50-year-old male presenting with acute dysarthria and chest pain at rest. He has a history of hepatitis B, hepatitis C, intravenous drug abuse, recurrent aspiration pneumonia, schizoaffective disorder, peripheral neuropathy, chronic obstructive pulmonary disease, and hypertension. On hospital day four, an abdominal CT scan revealed portal vein air. During emergent exploratory laparotomy, he was found to have total toxic megacolon and underwent total colectomy with ileostomy at the mucous fistula. Postoperatively, he developed high ostomy output (4–5 liters/day), leading to dehydration and an increase in creatinine to 3.5, which improved to 1 after aggressive hydration. Clostridium difficile culture from the ostomy output was sent for analysis. The documented diagnosis was total toxic megacolon. Treatment included surgical intervention (total colectomy and ileostomy) and postoperative management with aggressive hydration.
+The patient is a 50-year-old male presenting with acute dysarthria and chest pain at rest. He has a history of hepatitis B, hepatitis C, intravenous drug abuse, recurrent aspiration pneumonia, schizoaffective disorder, peripheral neuropathy, chronic obstructive pulmonary disease, and hypertension. During hospitalization, an abdominal CT scan revealed portal vein air, and emergent exploratory laparotomy identified total toxic megacolon. The patient underwent total colectomy and ileostomy at the mucous fistula. Postoperatively, he developed high ostomy output (4–5 liters/day) leading to dehydration and acute kidney injury (creatinine increased to 3.5), which improved with aggressive hydration. Clostridium difficile culture was sent from the ostomy output. The patient’s renal function returned to baseline, and his recovery was otherwise unremarkable. He began tolerating oral diet by postoperative day 11, and follow-up CT scan showed no complications.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain described as a pressure sensation occurring at rest, accompanied by new-onset slurred speech. The chest discomfort was noted to be mild, persistent, and unaffected by changes in position, breathing, or activity; the patient was able to perform usual activities despite the discomfort. The slurred speech began earlier the same day and remained unchanged, with no associated changes in voice quality or difficulty forming specific words. The patient denied shortness of breath, sweating, lightheadedness, weakness, numbness, or difficulty moving the face, arms, or legs. No relevant medical history, medications, or allergies were mentioned. The doctor assessed that the combination of pressure-like chest pain at rest and new slurred speech could indicate potentially serious cardiac or neurological conditions requiring prompt evaluation. The doctor recommended that the patient seek in-person medical attention today to rule out urgent causes and advised immediate emergency care if symptoms worsen or new neurological deficits develop.
+The patient is an adult presenting with chest pressure at rest as the chief complaint. The chest discomfort is described as a pressure sensation, not sharp or stabbing, and is not affected by position changes, deep breathing, or activity; it remains a background discomfort without limiting daily activities. The patient also reports new-onset slurred speech that began earlier the same day and has remained unchanged, without associated weakness, numbness, facial droop, or other neurological symptoms. There is no reported shortness of breath, sweating, or lightheadedness.
+
+Relevant medical history, medications, and allergies are not specified. The clinical impression is that the combination of chest pressure and new speech changes could indicate potentially serious cardiac or neurological conditions. The doctor advised prompt in-person medical evaluation today to rule out urgent causes such as heart or circulation issues. The patient was instructed to seek emergency care if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.911
-- **Similarity Label**: N/A
+- **STS Score**: 0.251
+- **Model Used**: general
+- **Text1 Length**: 131 words
+- **Text2 Length**: 150 words
+
 
 ## Processing Information
 

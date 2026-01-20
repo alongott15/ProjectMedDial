@@ -87,16 +87,21 @@ Let me ask—have you had any recent changes in your medications or any new diag
 
 ## EHR Summary
 
-The patient is a 78-year-old female presenting with increasing shortness of breath and chest pain with activity. The symptoms are described as worsening with exertion, but no further details regarding severity, duration, or alleviating factors are provided. Relevant medical history, medications, and allergies are not specified in the note. Clinical findings, physical exam results, and diagnostic test outcomes are not documented. No explicit diagnosis is stated in the provided text. The treatment plan, including specific therapies or recommendations, is not mentioned.
+The patient is a 78-year-old female presenting with increasing shortness of breath and chest pain with activity. The symptoms have been worsening, particularly with exertion, but specific duration, severity, or alleviating factors are not documented. Relevant past medical history, current medications, and allergies are not specified in the note. The clinical impression or diagnosis is not explicitly stated in the provided text. Details regarding treatment, medications, or discharge recommendations are also not documented in this excerpt.
+
 
 ## Dialogue Summary
 
-The patient presented with increased chest pain, particularly during physical activity around the house. Symptoms included central chest pressure or tightness rated at 6–7/10 severity, shortness of breath with exertion, and associated anxiety; the discomfort builds gradually with activity, worsens when walking or doing chores, and eases with rest, without lingering after stopping. The patient reported these symptoms have been present for a while but have recently worsened, and similar episodes occurred during an echocardiogram and catheterization, with brief junctional rhythm noted. No recent changes in medications or new diagnoses were mentioned. On examination, no sweating or lightheadedness was reported, and pain was not localized to one side. The doctor assessed that the pattern of exertional chest discomfort relieved by rest may indicate the heart is not getting enough oxygen during activity, possibly related to underlying cardiac conditions. The doctor advised pacing activities, taking breaks as needed, avoiding triggers, and keeping a log of episodes and activities. The patient was instructed to seek immediate care if symptoms occur at rest, last longer than usual, or are accompanied by nausea or lightheadedness.
+The patient is an adult presenting with increased chest pain as the chief complaint. The chest pain is described as central pressure or tightness, rated 6–7/10 in severity, which builds up gradually with activity (such as walking or doing chores) and is accompanied by exertional shortness of breath; both symptoms improve with rest and do not persist after stopping activity. The patient denies associated sweating or lightheadedness and reports no recent medication changes or new diagnoses. Relevant history includes similar symptoms during a prior echocardiogram and catheterization, with brief episodes of junctional rhythm noted. The clinical impression discussed is possible exertional cardiac ischemia, given the activity-related pattern and cardiac history. The patient was advised to pace activities, avoid triggers, take breaks as needed, and keep a log of symptom episodes. Additional warning signs (pain at rest, prolonged discomfort, new symptoms such as nausea or lightheadedness) were reviewed as reasons to seek immediate care.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.726
+- **Model Used**: general
+- **Text1 Length**: 76 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

@@ -89,16 +89,21 @@ Let me know if you have any questions about what might be causing this or what s
 
 ## EHR Summary
 
-The patient is a 57-year-old male presenting with diarrhea as the chief complaint. He reported a 6-week history of bloody, maroon-colored watery diarrhea, with bowel movements increasing from 15 to 30 per day in the last week and no relief from prior courses of ciprofloxacin, steroid enemas, or vancomycin. His medical history includes Crohn's disease/ulcerative colitis diagnosed in 2100 and partial colectomy. On examination, he was well-appearing, obese, and in no acute distress, with a soft, nontender abdomen and hernias noted in the right upper and lower quadrants; a fistula was present at the 12 o'clock position. Laboratory data showed a white blood cell count of 5.5, hematocrit of 38.8, and platelets of 193. In the Emergency Department, he was found to have guaiac-positive stools and received 40 mg of intravenous Solu-Medrol, which provided some relief. The documented diagnosis was not explicitly stated but is consistent with a flare of inflammatory bowel disease. Treatment included intravenous steroids and supportive care.
+The patient is a 57-year-old male presenting with diarrhea. He reported a 6-week history of bloody, maroon-colored watery diarrhea, with bowel movements increasing from 15 to 30 per day in the week prior to admission, and associated cramping and tenesmus. His medical history includes Crohn's disease/ulcerative colitis diagnosed in 2100 and partial colectomy; he had previously tried ciprofloxacin, steroid enemas, and vancomycin without relief. On admission, physical exam was notable for a well-appearing man with abdominal hernias and a fistula, and labs showed stable hematocrit and negative Clostridium difficile. The documented diagnosis was an inflammatory bowel disease flare. Treatment included intravenous Solu-Medrol for six days, a clear liquid diet advancing to BRAT diet, and ciprofloxacin 500 mg orally twice daily. At discharge, he was improved with formed brown stools and no further bloody diarrhea or cramping. He was discharged home in stable condition with prednisone (with taper instructions) and ciprofloxacin, and advised to follow up with his gastroenterologist in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with diarrhea as the chief complaint. Symptoms included frequent watery stools with maroon-colored blood, abdominal cramping, and tenesmus (feeling of needing to go even after having diarrhea), occurring about five to six times per day for several days without improvement. The patient denied fever, chills, unusual tiredness, dehydration symptoms, and did not note any food or drink triggers. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the symptoms could be related to inflammation or irritation in the colon, with tenesmus suggesting lower bowel involvement; causes discussed included infection, inflammation (such as colitis), or hemorrhoids. The doctor advised avoiding gut-irritating foods (dairy, spicy, high-fat), maintaining hydration, and monitoring for worsening symptoms such as increased blood, severe pain, fever, or weakness. The patient was recommended to schedule a follow-up with their primary care provider for further evaluation, including possible stool tests to rule out infection or inflammation.
+The patient is an adult presenting with diarrhea as the chief complaint. Symptoms include frequent (five to six times daily) watery stools with maroon-colored blood, abdominal cramping, and tenesmus (persistent urge to defecate), ongoing for several days without improvement. The patient denies fever, chills, unusual fatigue, dehydration symptoms, or dietary triggers. Relevant history, medications, and allergies are not specified. The clinical impression is possible colonic inflammation or irritation, with differential considerations including infection, colitis, or hemorrhoids. The patient was advised to avoid gut-irritating foods (such as dairy, spicy, or high-fat meals), maintain hydration, and monitor for warning signs like increased bleeding, severe pain, fever, or weakness. Follow-up with a primary care provider was recommended for further evaluation, including possible stool tests. No medications were prescribed during this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.655
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 128 words
+
 
 ## Processing Information
 

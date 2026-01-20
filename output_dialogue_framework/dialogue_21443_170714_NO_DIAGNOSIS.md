@@ -91,16 +91,23 @@ Would you like advice on what to expect during an in-person visit?
 
 ## EHR Summary
 
-The patient is a 29-year-old female presenting with sore throat and odynophagia that worsened over two days, leading to inability to swallow solids or liquids and drooling. She developed vomiting and a hoarse voice, but denied cough, coryza, headache, or respiratory compromise. Her past medical history includes anxiety and eczema, and she takes Aldactone for acne and Celexa for anxiety, with no known drug allergies. On examination, she had a high-grade fever, dry mucous membranes, and was found by ENT to have massive edematous, red, inflamed epiglottis with bilateral adenoid swelling and airway compromise. The documented diagnosis was acute epiglottitis. Treatment included Unasyn (ampicillin/sulbactam) and Decadron (dexamethasone), with improvement in her ability to swallow secretions and resolution of systemic symptoms. She was monitored for airway stability and showed clinical improvement prior to discharge.
+The patient is a 29-year-old female presenting with sore throat and odynophagia that worsened over two days, leading to inability to swallow solids or liquids and drooling. She developed vomiting and a hoarse voice, but denied cough, coryza, headache, or respiratory compromise. On examination, she had a high-grade fever, massive edematous inflamed epiglottis with airway compromise, and bilateral adenoid swelling; laboratory studies showed leukocytosis (WBC 18.2, 81% neutrophils). Her past medical history includes anxiety and eczema, and she was taking Aldactone and Celexa on admission. The documented diagnosis was epiglottitis. She was treated with intravenous Unasyn and Decadron, humidified air, and close airway monitoring, later transitioning to oral Augmentin and symptomatic lidocaine solution. The patient improved clinically, was able to tolerate oral intake, and was discharged home in good condition with instructions for follow-up.
+
 
 ## Dialogue Summary
 
-The patient presented with severe sore throat and pain on swallowing as the chief complaint. Symptoms included high fever (not measured but described as feeling very hot and sweating), hoarse voice, inability to swallow solids or liquids, worsening pain over the past couple of days, vomiting, difficulty eating and drinking, trouble sleeping due to throat pain, and drooling because swallowing saliva was too painful. The patient denied cough, neck swelling, or tender lumps under the jaw. No relevant medical history, medications, or allergies were mentioned. The doctor noted the absence of neck swelling and the presence of severe throat pain, hoarseness, drooling, and inability to swallow as concerning clinical findings. Assessment was that the symptoms suggested a significant throat infection or inflammation, possibly tonsillitis or a peritonsillar abscess. The doctor recommended urgent in-person evaluation due to risk of dehydration and severity of symptoms, advised sipping small amounts of water if possible, resting, and avoiding irritants, and warned to seek immediate care if breathing difficulty, severe neck swelling, or faintness occurred.
+The patient is an adult presenting with a chief complaint of severe sore throat and pain with swallowing. Symptoms began approximately two days ago and have progressively worsened, now including inability to swallow solids or liquids, drooling due to pain, hoarse voice, high fever (subjectively reported), vomiting, and significant difficulty eating, drinking, and sleeping. The patient denies neck swelling or palpable lumps. Relevant history of medication use, allergies, or chronic conditions was not specified.
+
+The clinical impression documented by the doctor is a significant throat infection or inflammation, with possible considerations of tonsillitis or peritonsillar abscess. The patient was advised that the severity of symptoms and inability to tolerate fluids pose a risk for dehydration and warrant urgent in-person evaluation. Recommendations included attempting to sip small amounts of water if possible, resting, avoiding irritants, and seeking immediate care if warning signs such as difficulty breathing or severe neck swelling occur. The doctor emphasized the need for prompt assessment and possible prescription treatment.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.647
+- **Model Used**: general
+- **Text1 Length**: 134 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

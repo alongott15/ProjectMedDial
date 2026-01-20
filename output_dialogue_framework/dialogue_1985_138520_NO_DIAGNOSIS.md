@@ -87,16 +87,23 @@ In the meantime, try to rest and avoid strenuous activity. If you have a way to 
 
 ## EHR Summary
 
-The patient is a 74-year-old female presenting with chest pain as the chief complaint. She experienced three days of chest pain upon awakening, radiating across her shoulder blades and down her arms, lasting one to one and a half hours, and worsening at night when lying down. Her history is significant for coronary artery disease (CAD) status post myocardial infarction (MI) and LAD stent placement, as well as COPD, hypertension, hyperlipidemia, and osteoporosis. On presentation, her troponin was mildly elevated at 0.12, and she had breakthrough pain despite heparin and nitroglycerin drip. The clinical impression was strong suspicion for acute coronary syndrome in the context of known CAD. Treatment included transfer for further management, continuation of antiplatelet therapy (aspirin), statin (Pravachol), antihypertensives (Vasotec, Lopressor), nitroglycerin drip, heparin drip, and Aggrastat drip. No known drug allergies were documented.
+The patient is a 74-year-old woman presenting with chest pain. She experienced three days of chest pain radiating across her shoulder blades and down her arms, lasting one to 1.5 hours, worse at night when lying down, and not fully relieved by heparin or nitroglycerin. Her history is significant for coronary artery disease (CAD) with prior myocardial infarction, LAD stent placement, COPD, hypertension, hyperlipidemia, osteoporosis, and left bundle branch block; she has no known allergies. On admission, troponin was mildly elevated (0.12), and cardiac catheterization revealed severe multi-vessel CAD. The documented diagnosis was CAD, status post coronary artery bypass grafting (CABG) times four, along with COPD, hypertension, hypercholesterolemia, osteoporosis, and left bundle branch block. Treatment included CABG x4 with LIMA to LAD and saphenous vein grafts to OM2, diag, and OM1, followed by postoperative management with Lasix, potassium chloride, aspirin, Plavix, pravastatin, metoprolol, enalapril, Percocet, and albuterol. She was discharged to rehabilitation with instructions for follow-up with her primary care provider in two weeks and her cardiologist in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The discomfort was rated 6 out of 10 in intensity, spread across the shoulder blades and down both arms, and had a gradual onset over several days. Physical activity worsened the pain, though it was also present at rest; the patient reported occasional racing heart and swelling in both legs, which was consistent throughout the day and not accompanied by redness or warmth. The patient has a history of coronary artery disease, a silent heart attack, and high blood pressure, and noted a small amount of fluid draining from the top part of a left leg incision. On assessment, the doctor expressed concern about possible angina or heart failure due to the symptom pattern and relevant cardiac history. The doctor advised prompt medical evaluation, especially if symptoms worsen or new ones develop, and recommended rest and monitoring of blood pressure and heart rate at home. The patient acknowledged understanding of these recommendations.
+The patient is an adult with a history of coronary artery disease, prior silent myocardial infarction, and hypertension presenting with chest pain as the chief complaint. The chest discomfort is rated 6/10 in intensity, radiates across the shoulder blades and down both arms, and has developed gradually over several days. The pain is worsened by physical activity but can also occur at rest; the patient also reports intermittent palpitations and bilateral leg swelling without redness or warmth, as well as a small amount of fluid draining from a left leg incision. There is no reported shortness of breath, diaphoresis, or lightheadedness.
+
+The clinical impression is possible angina or heart failure symptoms related to reduced cardiac function. The physician advised prompt medical evaluation due to the concerning nature of the symptoms and the patient’s cardiac history. Recommendations included resting, avoiding strenuous activity, monitoring blood pressure and heart rate if possible, and seeking emergency care if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.606
+- **Model Used**: general
+- **Text1 Length**: 170 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

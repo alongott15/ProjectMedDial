@@ -95,16 +95,21 @@ Does the chest pressure seem to be getting better, worse, or staying about the s
 
 ## EHR Summary
 
-The clinical note does not specify the chief complaint or presenting symptoms for this 79-year-old male patient. No details regarding symptom characteristics, relevant medical history, physical exam findings, or test results are documented. There is no explicit diagnosis or clinical impression provided in the note. The discharge summary states that discharge medications are the same as on admission, but specific medications are not listed. No additional treatment or recommendations are documented.
+The clinical note does not specify the chief complaint or presenting symptoms for this 79-year-old male patient. There are no details provided regarding symptom characteristics, relevant medical history, or allergies. The diagnosis or clinical impression is not documented in the note. The treatment plan indicates that discharge medications remained unchanged from admission. No additional treatments or recommendations are specified.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest pain began a few days ago, is moderate in intensity, comes and goes, and is triggered by physical activity such as walking but not present at rest. The patient also reported associated chest pressure and shortness of breath during these episodes, which improve with rest but do not resolve if activity continues; these symptoms have led the patient to avoid normal activities and chores. No unusual events preceded the first episode, and the symptoms have remained stable over the past few days. No relevant past medical history, medications, or allergies were mentioned. The doctor noted that the pattern of exertional chest pressure and shortness of breath improving with rest could indicate the heart is not getting enough oxygen during activity, and that this is more concerning than muscle strain or indigestion. The doctor recommended avoiding strenuous activity, monitoring for worsening symptoms or new signs such as severe pain, sweating, or nausea, and seeking prompt medical attention if these occur. A thorough evaluation, including possible ECG and further tests, was advised to determine the cause and guide treatment.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain began a few days ago, is moderate in intensity, comes and goes, and is triggered by physical activity such as walking; it is accompanied by a sensation of chest pressure and shortness of breath. These symptoms improve with rest and have not changed in severity over the past few days but are significant enough to interfere with daily activities. There is no mention of relevant past medical history, medications, or allergies in the dialogue. The clinical impression is that the pattern of exertional chest pressure and dyspnea may be related to cardiac causes, as the symptoms are brought on by activity and relieved by rest. The doctor advised the patient to avoid strenuous activity until further evaluation can be completed and to seek immediate medical attention if symptoms worsen, become severe, or are accompanied by new symptoms such as sweating or nausea. A thorough evaluation, including possible ECG and additional tests, was recommended to determine the underlying cause. The patient was instructed to monitor symptoms and rest as needed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.928
-- **Similarity Label**: N/A
+- **STS Score**: 0.383
+- **Model Used**: general
+- **Text1 Length**: 59 words
+- **Text2 Length**: 185 words
+
 
 ## Processing Information
 

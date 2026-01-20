@@ -87,16 +87,21 @@ Let me know if anything specific seems to trigger these episodes, or if you’ve
 
 ## EHR Summary
 
-The patient is a 66-year-old male admitted for coronary artery bypass grafting (CABG) due to a history of chest pain and coronary artery disease. He underwent CABG x3 with LIMA to LAD and saphenous vein grafts to OM and right posterior descending artery, with a preoperative ejection fraction of 50-55%. His past medical history includes vertigo, claudication, peripheral vascular disease with prior bilateral iliac stents, and hypercholesterolemia. Postoperatively, he developed serosanguinous sternal drainage, which was treated with Keflex. On discharge, his condition was stable, lungs were clear, and the incision was clean with no drainage. The documented diagnosis was postoperative status following CABG complicated by sternal wound drainage. Discharge medications included aspirin, ranitidine, Lipitor, Keflex (for 7 more days), Lopressor, and Percocet as needed. He was arranged to have home nursing care for wound care and vital sign monitoring, with follow-up scheduled with his physician.
+The patient is a 66-year-old male admitted for coronary artery bypass grafting (CABG) times three due to a history of chest pain and coronary artery disease. Postoperatively, he developed serosanguinous sternal drainage, which was treated with Keflex. His past medical history includes vertigo, claudication, peripheral vascular disease with prior bilateral iliac stents, and hypercholesterolemia. On discharge, his condition was stable with clear lungs and a clean, dry incision. The documented diagnosis was postoperative status following CABG complicated by sternal wound drainage. Treatment included Keflex for 7 more days, aspirin, ranitidine, Lipitor, Lopressor, and Percocet as needed. The patient was arranged to have home nursing care for wound care and vital sign monitoring. He will follow up with his physician in several weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. Symptoms included chest pain that worsens with activity and improves with rest, anxiety related to the pain, dizziness (sometimes described as a spinning sensation) especially when standing or moving, and pain and heaviness in the calves during walking that requires stopping to rest. These symptoms have persisted for at least a few weeks and have remained stable without improvement or worsening. No additional medical history, medications, or allergies were mentioned. The doctor noted that the symptoms appear with exertion and ease with rest, and suggested they may indicate the heart or circulation is not keeping up with increased demands during activity. The doctor advised the patient to limit activities that provoke symptoms, stay hydrated, and rise slowly from sitting or lying down to help with dizziness, and to monitor for any new or worsening symptoms such as persistent chest pressure or new shortness of breath. The patient reported no new triggers or changes in health and expressed understanding of the recommendations.
+The patient presents with chest pain as the main complaint. The chest pain worsens with physical activity and improves with rest, and has been present for at least several weeks without significant change. Additional symptoms include dizziness, described as a spinning sensation (vertigo), particularly when standing or moving, and heaviness and pain in the calves during walking that requires stopping to rest. These symptoms have led the patient to limit activity and avoid walking long distances. There is no mention of relevant medical history, medications, or allergies. The clinical impression discussed by the doctor is that the symptoms may suggest a cardiac or circulatory issue related to exertion. The treatment plan includes limiting activities that provoke symptoms, staying hydrated, rising slowly from sitting or lying positions to help with dizziness, and monitoring for any new or worsening symptoms that would require urgent evaluation. No new triggers or changes in health were reported by the patient.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.924
-- **Similarity Label**: N/A
+- **STS Score**: 0.353
+- **Model Used**: general
+- **Text1 Length**: 122 words
+- **Text2 Length**: 155 words
+
 
 ## Processing Information
 

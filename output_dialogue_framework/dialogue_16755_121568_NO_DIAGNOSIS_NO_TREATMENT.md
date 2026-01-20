@@ -89,16 +89,21 @@ Let’s make sure we arrange for you to have further testing, such as a chest X-
 
 ## EHR Summary
 
-The patient is a 58-year-old female presenting with dyspnea. She reports a 2-month history of malaise, increased shortness of breath, productive cough with brown and blood-tinged sputum, pleuritic chest pain with cough, and recent fevers and chills for two days. Her relevant history includes poorly controlled type 2 diabetes with nephropathy, hypertension, coronary artery disease status post 5-vessel CABG, hypercholesterolemia, prior hip fracture, and depression; she has no known drug allergies and was taking multiple medications including Toprol-XL, Paxil, Evista, Procardia, lisinopril, aspirin, Lasix, Colace, and insulin. On presentation to the Emergency Department, she was ill-appearing with an arterial blood gas of 7.44/39/68. The documented clinical impression suggests an acute respiratory illness on a background of significant comorbidities. She was treated with ceftriaxone, azithromycin, Lasix, and a nitroglycerin drip for hypertension.
+The patient is a 58-year-old female presenting with dyspnea. She reported a 2-month history of malaise, increased shortness of breath, productive cough with brown and blood-tinged sputum, pleuritic chest pain, and recent fevers and chills. Her medical history includes poorly controlled type 2 diabetes with nephropathy, hypertension, coronary artery disease (status post 5-vessel CABG), hypercholesterolemia, prior hip fracture, and depression; she has no known drug allergies. On admission, she was febrile, tachypneic, hypoxic, and had decreased breath sounds at the left lung base; labs showed leukocytosis, elevated creatinine, and hyperglycemia, while chest x-ray revealed a left lower lobe infiltrate. The documented diagnoses were pneumonia (requiring ICU care), cardiac ischemia, acute renal failure secondary to dehydration, and anemia. She was treated with ceftriaxone and levofloxacin (renally dosed), aggressive diuresis with Lasix, insulin for glycemic control, and received a blood transfusion for anemia. At discharge, her condition was stable; she was prescribed a 14-day course of levofloxacin (5 days remaining), Lasix 80 mg twice daily, lisinopril 20 mg daily, and her insulin regimen, with instructions for close outpatient follow-up for renal function and cardiology evaluation.
+
 
 ## Dialogue Summary
 
-The patient presented with progressive shortness of breath that has worsened over several days. Symptoms include difficulty breathing that is aggravated by physical activity and now occurs even at rest, a persistent cough, sharp chest pain especially with coughing, swelling in the legs and feet, significant fatigue that began with the breathing issues, and fevers and chills. The patient reports these symptoms are limiting daily activities, causing frequent nighttime awakenings due to shortness of breath, and requiring extra pillows to sleep comfortably; fatigue and chills are also worse at night. Relevant history includes no specific past medical history, medications, or allergies mentioned. On review, the doctor noted the combination of worsening dyspnea, orthopnea, leg swelling, cough, fever, and chills, as well as pallor and increased swelling described by the patient. The doctor’s assessment was that these symptoms could indicate heart or lung dysfunction with possible fluid buildup and a potential lung infection. The doctor advised rest, elevating the legs when sitting, and seeking immediate medical attention if symptoms acutely worsen (such as severe chest pain, fainting, or rapid breathing). Further evaluation was recommended, including a chest X-ray and blood work, to determine the underlying cause.
+The patient is an adult presenting with the chief complaint of progressive shortness of breath. Symptoms have worsened over several days and now occur both with physical activity and at rest, including when lying down; the patient also reports a cough, sharp chest pain (especially with coughing), leg and foot swelling, significant fatigue, fever, chills, and waking up short of breath at night requiring extra pillows. These symptoms are now limiting daily activities such as walking and dressing. Relevant history regarding past medical conditions, medications, or allergies is not specified in the dialogue. The clinical impression discussed by the doctor includes possible heart or lung dysfunction leading to fluid buildup, with a potential lung infection suggested by fever and chills. The treatment plan includes resting, elevating the legs when sitting, and seeking immediate medical attention if symptoms acutely worsen (such as severe chest pain, fainting, or rapid breathing). Further evaluation with a chest X-ray and blood work was recommended to determine the underlying cause. The patient was advised to monitor for any sudden changes and to follow up for additional testing.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.647
+- **Model Used**: general
+- **Text1 Length**: 183 words
+- **Text2 Length**: 181 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ For now, try to rest and avoid any strenuous activity. Keep track of any changes
 
 ## EHR Summary
 
-The patient is a 77-year-old female presenting with substernal chest pain and pressure for four days, ultimately diagnosed as a new myocardial infarction. Symptoms included persistent chest discomfort without mention of associated dyspnea or other features. Her past medical history is significant for coronary artery disease, hypertension, hypercholesterolemia, gastroesophageal reflux disease, and a recent PTCA to the right coronary artery three weeks prior to admission. Cardiac catheterization revealed an ejection fraction of 50% and significant occlusions in multiple coronary arteries. The documented diagnosis was unstable angina requiring surgical intervention. She underwent coronary artery bypass grafting x3 and had an uncomplicated postoperative course aside from transient sternal drainage and a drop in hematocrit requiring transfusions. Treatment included CABG, perioperative antibiotics (Kefzol), blood transfusions, diuresis, and physical therapy. She was discharged to a rehabilitation facility in stable condition.
+The patient is a 77-year-old female presenting with substernal chest pain and pressure for four days, found to have a new myocardial infarction. She has a history of coronary artery disease, hypertension, hypercholesterolemia, gastroesophageal reflux disease, and recent PTCA to the right coronary artery. Cardiac catheterization revealed significant multi-vessel coronary artery disease with an ejection fraction of 50%. The documented diagnosis was unstable angina, for which she underwent coronary artery bypass grafting x3. Postoperatively, she experienced sternal drainage treated briefly with Kefzol, required transfusions for low hematocrit, and was diuresed; her chest tube was removed after persistent high output, and chest x-rays showed stable hydropneumothorax. She was discharged in good condition to a rehabilitation facility. Discharge medications included Captopril, Niferex, Lopressor, Protonix, Lipitor, Klonopin, Xalatan, Plavix (for three months), Percocet as needed for pain, Aspirin, Lasix with potassium chloride (for one week), and Colace.
+
 
 ## Dialogue Summary
 
-The patient presented with central chest discomfort described as pressure and squeezing, which began earlier in the week and has persisted for several days. The discomfort is located behind the breastbone, does not radiate, and is rated as a 6 out of 10 at its worst; resting provides some relief, while eating and activity do not appear to affect it. The patient denied associated symptoms such as shortness of breath, sweating, nausea, lightheadedness, cough, fever, or cold symptoms. There is a history of reflux disease and occasional heartburn, but the current chest pressure feels different from previous heartburn episodes. On examination, no physical findings were reported by the doctor or patient. The doctor assessed that while benign causes like muscle strain or reflux are possible given the history, the new and steady nature of the chest pressure warrants caution for potential cardiac causes. The doctor advised rest, avoidance of strenuous activity, monitoring for new symptoms, and seeking prompt medical attention if the discomfort worsens or additional symptoms develop. The patient expressed understanding of these recommendations.
+The patient is an adult presenting with a chief complaint of central chest discomfort described as a steady pressure or squeezing sensation, rated 6 out of 10 in severity, persisting for several days. The discomfort is located behind the breastbone, does not radiate, and is fairly constant throughout the day; resting provides some relief. The patient denies associated symptoms such as dyspnea, diaphoresis, nausea, or lightheadedness, and reports no recent cough, fever, or cold symptoms. There is a history of reflux disease with occasional heartburn, but the current chest pressure is noted to be different from previous heartburn episodes. No definitive diagnosis was documented during the encounter. The physician expressed concern due to the new and persistent nature of the symptoms and advised caution. The treatment plan includes rest, avoidance of strenuous activity, monitoring for new or worsening symptoms, and seeking prompt medical attention if symptoms intensify or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.490
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

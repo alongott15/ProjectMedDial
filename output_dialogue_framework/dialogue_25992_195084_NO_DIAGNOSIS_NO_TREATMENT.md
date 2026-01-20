@@ -98,3 +98,23 @@ Does that sound reasonable, or is there anything else about your breathing you'd
 ## Processing Information
 
 - **Processing Time**: 441.4s
+
+## EHR Summary
+
+The patient is a 71-year-old male presenting after routine electrocardiogram showed T wave inversions in V5 through V6. He was asymptomatic but developed shortness of breath during a positive exercise tolerance test; no chest pain was reported. Relevant history includes hypercholesterolemia and smoking, with home medications of Lipitor, aspirin, and atenolol. Cardiac catheterization revealed significant coronary artery disease with left main coronary artery stenosis and LAD occlusion. The documented diagnosis was multivessel coronary artery disease. The patient underwent coronary artery bypass grafting (LIMA to LAD and SVG to PDA) without complications. Postoperatively, he recovered well, was ambulatory, and had stable vital signs at discharge. Discharge plan included medications (Lopressor, Lasix, potassium chloride, aspirin, Lipitor, Percocet, Colace), follow-up with cardiology in 3–4 weeks, and home nursing care for wound monitoring and physical therapy.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with the chief complaint of shortness of breath (dyspnea) during exercise. Symptoms began within the past week, are specifically triggered by physical activity, and resolve with rest; there is no associated cough, wheezing, chest pain (only mild discomfort), dizziness, swelling, or increased fatigue at rest. The patient denies recent illness or exposure to respiratory irritants and reports no change in energy levels outside of exercise. Relevant history of chronic medical conditions, medications, or allergies is not specified.
+
+The clinical impression is that the dyspnea is likely a mild, exercise-induced issue, possibly related to changes in fitness, age-related shifts in cardiopulmonary function, or environmental factors. The doctor advised gradual pacing during exercise, longer warm-ups, staying hydrated, and avoiding strenuous activity in hot or humid conditions. The patient was instructed to monitor for worsening symptoms or new warning signs such as chest pain, fainting, or swelling, and to seek further evaluation if symptoms persist beyond a few weeks or interfere with daily life.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.440
+- **Model Used**: general
+- **Text1 Length**: 132 words
+- **Text2 Length**: 167 words
+

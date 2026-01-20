@@ -98,3 +98,21 @@ Let me know if you have any questions or need advice on what to do next while wa
 ## Processing Information
 
 - **Processing Time**: 381.5s
+
+## EHR Summary
+
+The patient is a 34-year-old male presenting with a crush injury to the left lower extremity after being pinned between vehicles. He experienced a large degloving injury with exposed muscle and bone, a displaced open tibia and fibula fracture, moderate discomfort, loss of active dorsiflexion, and partial sensory loss in the superficial peroneal nerve distribution. His past medical history includes anxiety, and he takes Paxil; he has no known drug allergies and uses tobacco. The documented diagnosis was crush injury to the left lower extremity. Treatment included multiple surgical interventions: open reduction with external fixation, vascular bypass grafting, internal plate placement, myocutaneous free flap, and split-thickness skin grafts. He received pain management, antibiotics, anticoagulation, and psychiatric support during his hospital stay. At discharge, he was advised to bear weight as tolerated, perform range of motion exercises, keep his foot in a boot at 90 degrees while in bed, and continue daily wound care and flap checks; he was discharged to rehabilitation with follow-up arranged.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with a chief complaint of left leg injury following a crush incident earlier the same day. Key symptoms include severe pain rated 8 out of 10, exposed bone at the injury site, significant swelling and tightness of the lower leg, persistent oozing, coolness of the affected foot compared to the other side, loss of sensation on the top of the foot, and marked weakness with inability to lift the foot or wiggle toes. The patient denies lightheadedness, fainting, sweating, or palpitations. Relevant history regarding prior medical conditions, medications, or allergies is not specified. The clinical impression is a severe open fracture with possible vascular and nerve compromise. The treatment plan includes immobilizing the leg, keeping weight off the limb, covering the wound with a clean cloth, and seeking emergency medical attention immediately. The doctor emphasized that early intervention is critical to prevent long-term complications and advised monitoring for worsening symptoms such as increased pain, further color changes, or systemic symptoms.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.746
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 166 words
+

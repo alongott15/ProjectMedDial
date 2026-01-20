@@ -98,3 +98,23 @@ If things stay the same or start to improve over the next few days, it’s likel
 ## Processing Information
 
 - **Processing Time**: 388.2s
+
+## EHR Summary
+
+The patient is a 19-year-old female admitted for neurosurgical care. Her discharge was delayed due to fever spikes, but extensive cultures including lumbar puncture showed no evidence of infection. She remains neurologically unchanged, opening her eyes, nonattending, and flexing to pain in all four extremities. Vital signs have been stable except for persistent tachycardia, which was attributed to possible autonomic dysfunction. Cardiology consultation noted tachycardia and a low ejection fraction on echocardiogram. She is being treated with large doses of Lopressor to control her heart rate, with limited effect. The plan includes a repeat echocardiogram in two weeks to reassess cardiac function. At discharge, she was stable and ready for transfer to rehabilitation.
+
+
+## Dialogue Summary
+
+The patient is a young adult presenting with episodes of fever and tachycardia. The symptoms began approximately two days ago and are characterized by sudden-onset feelings of being very hot and sweaty, with heart racing episodes lasting a few minutes and occurring without identifiable triggers. The patient reports increased fatigue during these episodes, which has made daily activities more difficult, but is still able to perform basic self-care tasks; there are no associated changes in cognition or motor function. Relevant history, medications, and allergies are not specified.
+
+The clinical impression is that these symptoms are likely related to a mild viral infection or dehydration, given the absence of more severe neurological or cardiac symptoms. The treatment plan includes recommendations for rest, maintaining adequate hydration, monitoring temperature, and observing for any worsening or new symptoms such as chest pain, fainting, confusion, or weakness. The patient was advised to seek further care if symptoms worsen or new concerning signs develop. Home management tips for fever and tachycardia were offered.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.623
+- **Model Used**: general
+- **Text1 Length**: 113 words
+- **Text2 Length**: 167 words
+

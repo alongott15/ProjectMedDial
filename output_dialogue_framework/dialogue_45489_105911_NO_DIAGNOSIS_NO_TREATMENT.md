@@ -85,16 +85,23 @@ If your symptoms persist beyond a few days, worsen, or you develop new symptoms 
 
 ## EHR Summary
 
-The patient is a 44-year-old female presenting with abdominal pain accompanied by nausea and vomiting. Symptoms began the day prior to admission, with intermittent upper abdominal pain progressing to the lower abdomen, reaching an intensity of 8/10 at worst, and associated with at least 10 episodes of vomiting (initially clear, then bilious), but no blood. Her relevant history includes ulcerative colitis status post proctocolectomy and ileostomy, multiple prior episodes of small bowel obstruction due to adhesions, GERD, depression, seasonal allergies, frequent UTIs (on nitrofurantoin), and a reducible incisional hernia; she is allergic to Flagyl, Bactrim, and Reglan. On admission, she was still passing gas from her ileostomy. The documented diagnosis was small bowel obstruction secondary to adhesions. She underwent exploratory laparotomy with lysis of adhesions, small bowel resection with primary anastomosis, and two small bowel repairs. Postoperative management included pain control and supportive care.
+The patient is a 44-year-old female presenting with abdominal pain, nausea, and vomiting. She reported intermittent upper then lower abdominal pain (worst intensity 8/10), associated with at least 10 episodes of vomiting (initially clear, then bilious) and no blood, beginning the day prior to admission. Her history is significant for ulcerative colitis status post proctocolectomy with ileostomy, multiple prior small bowel obstructions, GERD, depression, and frequent UTIs; she has allergies to Flagyl, Bactrim, and Reglan. Imaging and clinical evaluation revealed a small bowel obstruction likely due to adhesions. She initially underwent conservative management but required exploratory laparotomy with lysis of adhesions, small bowel resection with primary anastomosis, and small bowel repairs after symptom recurrence. Postoperatively, she was managed with TPN, IV fluids, loperamide for ostomy output, wound care for a surgical site infection, and gradual diet advancement. At discharge, her condition was stable, pain was controlled, and she was tolerating a low-residue diet with instructions for wound and ostomy care and follow-up arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with increased ostomy output. They reported that the consistency of their output had changed from mashed potatoes to liquid over the past few days, accompanied by nausea and one episode of vomiting; no fever, unusual tiredness, or abdominal pain were noted. The patient has been able to drink fluids but less than usual due to nausea, and has noticed slightly reduced urine output without other signs of dehydration. They have had to empty their pouch more frequently, which has impacted their daily routine but remains manageable. No recent changes in diet, medications, or illnesses were reported. On examination, there were no severe symptoms such as fever, pain, or significant dehydration. The doctor assessed that the increased liquid output and mild gastrointestinal symptoms could be due to mild gut irritation or subtle factors, with no clear trigger identified. The treatment plan included advice to maintain hydration by sipping fluids regularly and considering oral rehydration solutions, monitoring for warning signs of dehydration or worsening symptoms, and seeking prompt care if severe symptoms develop.
+The patient is an adult presenting with increased ostomy output as the chief complaint. Over the past few days, the patient has experienced a change in ostomy output consistency from mashed potatoes to liquid, along with increased frequency, nausea, and one episode of vomiting. There is no reported abdominal pain, fever, or significant dehydration, though the patient notes slightly decreased urine output and some difficulty maintaining usual fluid intake. No recent dietary changes, new medications, or illnesses were identified as potential triggers.
+
+The clinical impression is increased and more liquid ostomy output with mild associated gastrointestinal symptoms, without evidence of severe dehydration or infection. The treatment plan focuses on preventing dehydration by encouraging regular fluid intake and considering oral rehydration solutions if needed. The patient was advised to monitor for warning signs such as persistent vomiting, inability to keep fluids down, dizziness, or a dramatic drop in urine output, and to seek prompt care if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.486
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

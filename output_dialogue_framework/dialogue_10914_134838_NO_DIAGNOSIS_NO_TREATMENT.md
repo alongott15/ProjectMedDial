@@ -87,16 +87,21 @@ Does that sound reasonable? And do you have any questions or concerns about mana
 
 ## EHR Summary
 
-The patient is a 35-year-old male admitted for residual endovascular treatment of a vertebral basilar fenestration aneurysm. He has a history of vertebral basilar junction fenestration aneurysm coiling in 2118, intracranial stent placement three weeks prior, craniotomy for an ACom aneurysm in 2119, and occasional reflux disease. On admission, he was awake, alert, and in no acute distress; physical examination revealed clear lungs and regular cardiovascular findings. Postoperatively, he reported some right groin pain, but the site was clean, dry, and intact with positive pedal pulses and no hematoma. He remained neurologically stable with stable vital signs throughout his hospital stay. The documented diagnosis was residual vertebral basilar fenestration aneurysm status post coiling and stent placement. Treatment included Plavix 75 mg daily, aspirin 325 mg daily, and Percocet as needed for pain; he was discharged home in stable condition with follow-up arranged in two weeks.
+The patient is a 35-year-old male admitted for residual endovascular treatment of a vertebral basilar fenestration aneurysm. He has a history of vertebral basilar junction fenestration aneurysm coiling in 2118, intracranial stent placement three weeks prior, craniotomy for an ACom aneurysm in 2119, and occasional reflux disease. During admission, he underwent coiling and stent placement without complication and was monitored postoperatively in the ICU. He reported some right groin pain post-procedure, but examination showed the groin site was clean, dry, and intact with positive pedal pulses and no hematoma. He remained neurologically stable with stable vital signs, was able to ambulate, tolerate a regular diet, and void spontaneously. The documented diagnosis was residual vertebral basilar fenestration aneurysm status post endovascular treatment. At discharge, he was prescribed Plavix 75 mg daily, aspirin 325 mg daily, and Percocet as needed for pain, with follow-up scheduled in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with right groin pain. The discomfort was described as a mild, dull ache located mostly near the inner thigh, noticed a few days ago, and has remained unchanged in intensity. The ache is more noticeable with walking or movement and less bothersome at rest; there is no associated swelling, lump, visible changes, fever, urinary symptoms, or radiation of pain down the leg. The patient denied any recent injuries, heavy lifting, or unusual activities. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of concerning symptoms and suggested the pain was likely due to mild muscle strain or overuse. The doctor recommended rest, avoiding aggravating activities, gentle stretching, and using a warm compress; follow-up was advised if symptoms worsen or new symptoms develop. The patient understood and agreed with the plan.
+The patient is an adult presenting with right groin pain as the chief complaint. The discomfort has been present for a few days, is described as a mild, dull ache located near the inner thigh, and is more noticeable with movement but less bothersome at rest. There is no associated swelling, lump, visible changes, fever, urinary symptoms, or radiation of pain down the leg. The patient denies any recent injuries, heavy lifting, or unusual physical activity. The clinical impression is that the groin pain is likely due to a mild muscle strain or overuse, despite no clear inciting event. The treatment plan includes rest, avoidance of aggravating activities, and use of warm compresses to relax the muscles. The patient was advised to monitor for improvement over the next week and to seek follow-up if symptoms worsen or new symptoms such as swelling, lump, severe pain, or fever develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.913
-- **Similarity Label**: N/A
+- **STS Score**: 0.317
+- **Model Used**: general
+- **Text1 Length**: 146 words
+- **Text2 Length**: 148 words
+
 
 ## Processing Information
 

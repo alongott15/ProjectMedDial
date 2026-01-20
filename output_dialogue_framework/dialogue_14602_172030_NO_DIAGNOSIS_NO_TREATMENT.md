@@ -87,16 +87,23 @@ Let me know if you have any questions about what we've discussed or if there are
 
 ## EHR Summary
 
-The patient is a 62-year-old man presenting with nausea, vomiting, and abdominal pain for one day, as well as an episode of hematemesis in the Emergency Department. Symptoms included gastrointestinal distress and evidence of upper gastrointestinal bleeding, with occult blood detected. Relevant history includes type 2 diabetes managed with Metformin, which was discontinued during admission due to concern for acidosis. On examination and testing, he was found to have diabetic ketoacidosis and a nonbleeding Mallory-Weiss tear at the gastroesophageal junction on esophagogastroduodenoscopy; hematocrit remained stable and no further hematemesis occurred. The documented diagnoses were upper gastrointestinal bleed secondary to a Mallory-Weiss tear and diabetic ketoacidosis. Treatment included intravenous insulin drip for ketoacidosis (with transition to subcutaneous heparin and resumption of Metformin at 500 mg twice daily after stabilization), and empiric intravenous Protonix 40 mg twice daily for gastrointestinal protection, later transitioned to oral Protonix. The patient was discharged home in stable condition.
+The patient is a 62-year-old man presenting with nausea, vomiting, and abdominal pain for one day. He experienced an episode of hematemesis in the Emergency Department, which was positive for occult blood, prompting admission for evaluation of an upper gastrointestinal bleed. His medical history includes type 2 diabetes, and he was found to be in diabetic ketoacidosis on admission. Esophagogastroduodenoscopy revealed a nonbleeding tear at the gastroesophageal junction. The documented diagnoses were upper gastrointestinal bleed secondary to a nonbleeding tear and diabetic ketoacidosis. Treatment included intravenous Protonix 40 mg twice daily (transitioned to oral Protonix), insulin drip for ketoacidosis, discontinuation of Metformin, and subcutaneous heparin. The patient's anion gap closed, hematocrit remained stable, and there were no further episodes of hematemesis during hospitalization. He was discharged home in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent nausea as the chief complaint. They reported that the nausea had lasted for a couple of days, was making daily activities difficult, and was accompanied by vomiting and a dull ache in the middle of the stomach. The patient noted small streaks or spots of blood in their vomit but denied any blood in their stool; eating or drinking worsened both the nausea and stomach pain, with no specific food triggers identified. No additional medical history, medications, or allergies were mentioned. On assessment, the doctor noted the presence of persistent nausea, vomiting, mid-epigastric dull pain, and minor hematemesis, suggesting possible gastritis, mild ulcer, or irritation from vomiting as potential causes. The doctor advised monitoring for warning signs such as increased blood in vomit, black or tarry stools, severe pain, dizziness, or faintness. The patient was instructed to stick with clear fluids and avoid foods or drinks that worsen symptoms, and to seek prompt medical attention if symptoms worsen or new concerning signs develop. The patient expressed understanding of the recommendations.
+The patient is an adult presenting with persistent nausea as the chief complaint. Symptoms have been ongoing for a couple of days and include nausea that worsens with eating or drinking, vomiting with small streaks of blood, and a dull ache in the mid-abdominal region. The patient denies blood in the stool and reports no specific food triggers. Relevant history, medications, and allergies are not specified.
+
+The clinical impression is possible gastritis or a mild ulcer, with consideration that repeated vomiting may have caused minor bleeding from esophageal blood vessels. The physician advised monitoring for warning signs such as increased blood in vomit, black or tarry stools, severe pain, dizziness, or faintness. The treatment plan includes sticking to clear fluids and avoiding foods or drinks that worsen symptoms, with instructions to seek medical attention if symptoms worsen or new concerning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.578
+- **Model Used**: general
+- **Text1 Length**: 130 words
+- **Text2 Length**: 142 words
+
 
 ## Processing Information
 

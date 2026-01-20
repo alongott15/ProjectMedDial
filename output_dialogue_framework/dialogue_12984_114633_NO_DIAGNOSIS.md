@@ -96,3 +96,21 @@ However, because abdominal pain and bloating can have different causes, it helps
 ## Processing Information
 
 - **Processing Time**: 460.6s
+
+## EHR Summary
+
+The patient is a 74-year-old female presenting with abdominal pain, vomiting, and abdominal distention. She reported four days of abdominal pain, one day of vomiting, and increasing abdominal distention; chest x-ray revealed free air under the diaphragm. Her history includes ovarian carcinoma status post radical hysterectomy, omentectomy, ileocecectomy, cholecystectomy, depression, and a penicillin allergy. On admission, laboratory findings showed electrolyte abnormalities, acute renal dysfunction, and leukocytosis. The documented diagnosis was status post exploratory laparotomy with lysis of adhesions, resection of leaking anastomosis of the distal ileum and hepatic flexure, ileostomy, and mucofistula. Treatment included surgery, intensive care support for complications (acidosis, renal failure, prolonged intubation), stoma therapy, insulin sliding scale, anticoagulation, blood pressure management, and nutritional support via NG tube. She was stable at discharge and awaiting transfer to rehabilitation. Follow-up with her physician was recommended in one to two weeks.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with abdominal pain as the chief complaint. The pain is described as a dull ache, sometimes crampy, rated 6 out of 10 in severity, and has been present for a few days. Associated symptoms include abdominal bloating and intermittent vomiting, with the discomfort worsening after eating and improving with rest; there are no changes in bowel movements, fever, or chills. The discomfort is localized to the periumbilical (middle abdominal) area. Relevant history regarding past medical conditions, medications, or allergies was not specified. The clinical impression discussed by the doctor includes possible common digestive issues such as indigestion, mild gastritis, or temporary food intolerance, with more serious causes considered less likely due to the absence of fever and normal bowel habits. No definitive diagnosis was documented. The doctor provided reassurance and explained that further localization of the pain would help narrow down the cause; no specific treatment or medication was recommended at this stage.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.466
+- **Model Used**: general
+- **Text1 Length**: 141 words
+- **Text2 Length**: 159 words
+

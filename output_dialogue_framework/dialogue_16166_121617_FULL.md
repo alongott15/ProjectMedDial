@@ -99,16 +99,23 @@ Does this explanation help clarify things for you?
 
 ## EHR Summary
 
-The patient is an 83-year-old female presenting with chest pressure and shortness of breath at rest, along with occasional palpitations. The chest pressure was substernal without radiation, and symptoms resolved after administration of sublingual nitroglycerin, aspirin, and a beta blocker in the Emergency Room. Her relevant history includes unstable angina, non-insulin dependent diabetes mellitus, hypertension, prior lumpectomy and radiation for breast carcinoma, and hypercholesterolemia; she has no known drug allergies. On examination, she had a regular heart rate and rhythm with a III/VI systolic ejection murmur and bibasilar crackles in the lungs, but no edema. Laboratory results showed mild renal insufficiency (creatinine 1.6), elevated BUN (49), and normal troponin (<0.01). Cardiac catheterization revealed significant coronary artery disease with multiple high-grade stenoses and an ejection fraction of 55%. The documented diagnosis was severe multivessel coronary artery disease. She underwent coronary artery bypass graft surgery as definitive treatment.
+The patient is an 83-year-old female presenting with chest pressure and shortness of breath at rest, along with occasional palpitations. The chest pressure was substernal without radiation, and symptoms resolved after administration of sublingual nitroglycerin, aspirin, and a beta blocker in the Emergency Room. Her past medical history includes unstable angina, non-insulin dependent diabetes mellitus, hypertension, prior breast cancer treated with lumpectomy and radiation, and hypercholesterolemia; she has no known drug allergies. Cardiac catheterization revealed significant coronary artery disease, and she underwent coronary artery bypass grafting (CABG) times four. The documented diagnosis was status post coronary artery bypass graft times four. Postoperatively, she experienced labile blood pressure but stabilized and recovered well, progressing to ambulation and regular diet. Discharge medications included Lasix, KayCiel, aspirin, Lopressor, Glucotrol, Percocet, Colace, and Amiodarone. She was discharged in stable condition to a rehabilitation facility with instructions for activity restrictions and follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure as the chief complaint. They described the chest pressure as making daily activities like walking and light chores more tiring, with associated shortness of breath that builds up during activity but not at rest, and occasional brief palpitations (heart fluttering or beating fast) lasting only a few seconds without lightheadedness or fainting. The symptoms have been present for at least a couple of weeks, with no clear triggers such as eating, cold air, or stress, and tend to improve with rest. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the symptoms mainly occur with exertion and resolve with rest, which is somewhat reassuring and may suggest mild heart strain, age-related changes, or deconditioning; there were no severe symptoms at rest. The doctor advised the patient to monitor their symptoms, take breaks during activities, avoid overexertion, and report any new or worsening symptoms such as chest pain at rest, severe breathlessness, fainting, sweating, swelling in the legs, or waking up short of breath at night. The patient understood and agreed to monitor for changes and seek help if needed.
+The patient is an adult presenting with chest pressure as the chief complaint. The chest pressure has been present for at least a couple of weeks, is associated with exertion (such as walking or doing light chores), and is accompanied by exertional shortness of breath and occasional brief palpitations; symptoms improve with rest and are not triggered by eating, cold air, or stress. The patient denies lightheadedness, fainting, or severe discomfort, and has not experienced symptoms at rest. Relevant medical history, medications, and allergies are not specified in the dialogue.
+
+The clinical impression is that the symptoms are likely due to mild heart strain, age-related changes, or minor circulatory issues, with no evidence of acute or severe pathology at this time. The treatment plan includes monitoring symptoms, taking breaks during activities, avoiding overexertion, and promptly reporting any new or worsening symptoms such as chest pain at rest, severe breathlessness, fainting, sweating, leg swelling, or waking up short of breath. The patient was reassured and instructed to seek medical attention if warning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.570
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

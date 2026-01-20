@@ -85,16 +85,21 @@ Let me ask—have you noticed any particular triggers or patterns, such as after
 
 ## EHR Summary
 
-The patient is a 69-year-old male presenting with chest pain. He reports episodes of angina with exertion worsening over the past three weeks, and most recently experienced angina at rest, described as a ten out of ten ache in the shoulder and left substernal area, accompanied by nausea and transient right ankle edema. His history includes mild aortic stenosis, coronary artery disease, and multiple prior coronary stents. On examination, he was alert and oriented, with a heart murmur consistent with aortic stenosis, clear lungs, and no current edema. Laboratory results showed mild anemia and stable renal function; cardiac enzymes were not markedly elevated. Cardiac catheterization revealed 80–90% in-stent restenosis of the proximal left coronary artery. The documented diagnosis is in-stent restenosis with recurrent angina. Treatment details are not specified in the note.
+The patient is a 69-year-old male presenting with chest pain as the chief complaint. He reported episodes of angina with exertion worsening over the past three weeks, culminating in severe (10/10) chest pain at rest on the day of admission, described as an ache in the shoulder and left substernal area, accompanied by nausea and transient right ankle edema. His medical history includes mild aortic stenosis and extensive coronary artery disease with multiple prior stents. On examination, he was stable with a notable III/VI aortic stenosis murmur and no current edema. Cardiac catheterization revealed significant in-stent restenosis and multi-vessel coronary artery disease. The documented diagnosis was two-vessel coronary artery disease with in-stent restenosis. The patient underwent coronary artery bypass graft surgery and was transferred to the surgical service in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain occurring even at rest. The pain was described as an ache, mostly on the left side under the breastbone, with episodes reaching a severity of ten out of ten and increasing in frequency, especially with activity but sometimes unpredictably at rest. Associated symptoms included occasional nausea, but no sweating, shortness of breath, palpitations, or irregular heartbeats; the pain sometimes improved with rest but could persist. Relevant history included coronary artery disease with prior angioplasty and stent placement, mild aortic stenosis, and a recently resolved episode of right ankle swelling; no history of hypertension or diabetes was reported. No physical findings were noted during the conversation. The doctor’s assessment was concern for angina, given the patient’s cardiac history and symptom pattern. The doctor advised avoiding strenuous activities until further evaluation and recommended seeking immediate medical attention if severe pain, prolonged episodes, or new warning signs (shortness of breath, sweating, pain radiating to jaw or arm) occur. No specific triggers were identified by the patient.
+The patient is an adult with a history of coronary artery disease, prior angioplasty with stent placement, and mild aortic stenosis, presenting with chest pain. The pain is described as an aching sensation on the left side under the breastbone, sometimes reaching 10/10 in intensity, occurring both with activity and at rest, and occasionally associated with nausea. The episodes have increased in frequency and interfere with daily activities, leading the patient to avoid exertion; resting sometimes alleviates the pain, but not always. There is no associated shortness of breath, sweating, palpitations, or irregular heartbeats reported. The patient denies clear triggers such as eating, emotional stress, or cold exposure. The clinical impression is concern for angina in the context of known coronary artery disease, with possible unstable features given pain at rest. The treatment plan includes avoiding strenuous activities until further evaluation and instructions to seek immediate medical attention if severe or prolonged pain occurs, or if warning signs such as shortness of breath, sweating, or radiating pain develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.977
-- **Similarity Label**: N/A
+- **STS Score**: 0.732
+- **Model Used**: general
+- **Text1 Length**: 131 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

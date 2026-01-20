@@ -101,16 +101,23 @@ My main recommendation is to continue your current routines, stay alert for any 
 
 ## EHR Summary
 
-The patient is an 82-year-old female presenting with chest pain and epigastric pain that began early on the 3rd and radiated to her back. She reported no nausea, vomiting, appetite changes, or bloody stools, but described ongoing epigastric discomfort with slight right upper quadrant tenderness on deep palpation. Her past medical history includes atrial fibrillation, hypothyroidism, cataracts, glaucoma, legal blindness, prior mitral valve replacement, and recent C. difficile infection treated with Flagyl; current medications are Coumadin, Digoxin, and Synthroid. On admission, she was afebrile, alert, and oriented with stable vital signs; laboratory results showed a white blood cell count of 12.8 and normal liver function tests. The documented diagnosis was cholecystitis, complicated by her history of mitral valve replacement and elevated INR of 3.2. She was admitted to the hospital, monitored closely, and evaluated by cardiology. Her pain improved with supportive care, and further management was coordinated due to her complex medical background.
+The patient is an 82-year-old female presenting with chest and epigastric pain that began on the 3rd and radiated to her back. She reported no nausea, vomiting, appetite changes, or bloody stools, but had slight right upper quadrant tenderness on exam. Her relevant history includes atrial fibrillation (on Coumadin and Digoxin), hypothyroidism (on Synthroid), prior C. diff infection recently treated with Flagyl, mitral valve replacement, cataracts, glaucoma, and legal blindness. The documented diagnosis was acute cholecystitis. Initial management included percutaneous drainage by interventional radiology, followed by laparoscopic cholecystectomy after appropriate perioperative anticoagulation management. Postoperatively, she developed an ileus that resolved with conservative management, and she was able to tolerate a regular diet without nausea. She was discharged in stable condition with well-controlled pain and therapeutic INR, and instructed to follow up with her primary care provider regarding anticoagulation.
+
 
 ## Dialogue Summary
 
-The patient presented for a general check-in without any specific symptoms or concerns. They reported no changes in energy, sleep, appetite, balance, memory, mood, or ability to perform daily activities such as walking, dressing, or preparing meals. The patient stated they have had no recent slips or near-falls and remain socially active, staying connected with friends and family and enjoying hobbies. No relevant medical history, medications, or allergies were mentioned during the visit. The doctor noted that the patient is maintaining independence and usual routines, with no new physical or mental health concerns identified on review. The assessment was that the patient is doing well overall, with no current issues requiring intervention. The doctor recommended continuing current habits, monitoring for any gradual changes in mobility, memory, or mood, and ensuring preventive care (such as vaccinations and screenings) is up to date. The patient was advised to reach out if any new symptoms arise and to continue regular check-ins for proactive health maintenance.
+The patient presented for a general check-in without any specific chief complaint. They reported no new symptoms or changes in energy, sleep, appetite, balance, memory, mood, or ability to perform daily activities, and denied any recent slips or near-falls. The patient is able to maintain usual routines, stay physically active, and remain socially engaged with friends, family, and hobbies. There were no concerns regarding medication management or preventive care, though the patient agreed to double-check their status on vaccinations and screenings.
+
+No acute medical issues or new diagnoses were documented during the visit. The clinical impression was that the patient is maintaining good overall health and independence without evidence of decline. The treatment plan included advice to continue current habits, remain attentive to any gradual changes in physical or mental health, and ensure preventive care is up to date. The patient was encouraged to reach out promptly if any new symptoms arise and to continue regular check-ins.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.925
-- **Similarity Label**: N/A
+- **STS Score**: 0.388
+- **Model Used**: general
+- **Text1 Length**: 138 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

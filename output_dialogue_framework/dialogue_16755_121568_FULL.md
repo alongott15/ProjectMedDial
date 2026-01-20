@@ -87,16 +87,23 @@ Does that plan make sense to you, or do you have any questions about what we've 
 
 ## EHR Summary
 
-The patient is a 58-year-old female presenting with dyspnea. She reports a 2-month history of malaise, increased shortness of breath, productive cough with brown and blood-tinged sputum, pleuritic chest pain with cough, and recent onset of fevers and chills over the past two days. Her medical history includes poorly controlled type 2 diabetes with nephropathy, hypertension, coronary artery disease status post 5-vessel CABG, hypercholesterolemia, prior hip fracture, and depression; she has no known drug allergies. On admission, she was ill-appearing with an arterial blood gas of 7.44/39/68. The documented diagnosis is not explicitly stated in the note. In the Emergency Department, she was treated with ceftriaxone, azithromycin, Lasix, and a nitroglycerin drip for hypertension. Her home medications included Toprol-XL, Paxil, Evista, Procardia, lisinopril, aspirin, Lasix, Colace, and insulin.
+The patient is a 58-year-old female presenting with dyspnea. She reported a two-month history of malaise, increased shortness of breath, productive cough with brown and blood-tinged sputum, pleuritic chest pain, and recent fevers and chills. Her medical history includes poorly controlled type 2 diabetes with nephropathy, hypertension, coronary artery disease (status post 5-vessel CABG), hypercholesterolemia, prior hip fracture, and depression; she has no known drug allergies. On admission, she was found to have a left lower lobe pneumonia, cardiac ischemia (elevated troponin attributed to hypoxia and tachycardia), acute renal failure secondary to dehydration, and anemia. Treatment included ceftriaxone and levofloxacin for pneumonia (with a planned 14-day course), aggressive diuresis and ACE inhibitor management for edema and renal function, insulin regimen adjustment for diabetes, and transfusion for anemia. She was discharged in stable condition with instructions to follow up with her primary care physician for renal function and edema monitoring, and with cardiology for further evaluation of her troponin leak. Discharge medications included levofloxacin, Lasix, lisinopril, insulin, and her chronic medications.
+
 
 ## Dialogue Summary
 
-The patient presented with difficulty breathing that has worsened over the past few days. Symptoms include shortness of breath, which is aggravated by physical activity and daily tasks such as showering or climbing stairs, increased fatigue, a persistent cough, chest pain especially when coughing, swelling in the legs, and orthopnea requiring extra pillows at night. The patient reported that these symptoms have progressively worsened and are now interfering with daily activities. No specific medical history, medications, or allergies were mentioned. The doctor noted the combination of worsening shortness of breath, fatigue, leg swelling, and orthopnea, and explained these may be related to fluid buildup due to the heart not pumping efficiently. The assessment was that the symptoms could be due to heart-related fluid overload but further evaluation is needed. The doctor recommended a focused physical exam and basic tests, advised resting with the head elevated, limiting salty foods, monitoring for any sudden worsening, and seeking immediate care if severe symptoms develop. The patient understood and agreed with the plan.
+The patient is an adult presenting with shortness of breath as the chief complaint. The dyspnea has been progressively worsening over several days and is exacerbated by physical activity and lying flat; the patient now requires extra pillows at night for comfort. Associated symptoms include cough, chest pain (especially with coughing), increased leg swelling, fatigue, and reduced ability to perform daily activities such as showering or climbing stairs. The patient reports increased tiredness and general malaise.
+
+Relevant history, medications, and allergies are not specified in the dialogue. The clinical impression discussed by the doctor is possible fluid buildup related to decreased cardiac efficiency, potentially leading to the observed symptoms of dyspnea, orthopnea, edema, and fatigue. The treatment plan includes a focused physical exam and basic tests to further evaluate the cause, recommendations to rest with the head elevated, limit salty foods, and monitor for any acute worsening of symptoms. The patient was advised to seek immediate care if severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.593
+- **Model Used**: general
+- **Text1 Length**: 170 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ If you notice any changes—like feeling unusually tired, pale, or lightheaded�
 
 ## EHR Summary
 
-The patient is a 20-year-old female presenting with an L2 burst fracture. She was neurologically intact on admission despite significant canal compromise. Her relevant history includes no documented comorbidities, allergies, or chronic medications. Imaging with CT and MRI confirmed the unstable fracture pattern. The documented diagnosis was unstable L2 burst fracture with canal compromise. Treatment included anterior and posterior spinal reconstructive surgery with corpectomy, anterior spinal fusion (L1-L3), posterior spinal fusion (T10-L4), instrumentation, and iliac crest bone graft, followed by homologous blood transfusion for postoperative anemia. Her postoperative course was unremarkable, wounds are healing well, pain is controlled with oral medications, and she is immobilized in a TLSO brace. She is discharged for continued psychiatric and physical rehabilitation, with plans for brace wear for three months and physical therapy for up to six months.
+The patient is a 20-year-old female presenting with an L2 burst fracture. She was neurologically intact despite significant canal compromise and was medically stabilized on admission. Her relevant history includes no documented comorbidities, medications, or allergies. The clinical impression was an unstable spinal fracture with canal compromise. Treatment included anterior and posterior spinal reconstructive surgery with corpectomy at L2, anterior spinal fusion from L1-L3, and posterior spinal fusion from T10-L4 with instrumentation and iliac crest bone graft. Postoperatively, she received homologous blood transfusion for residual anemia, which stabilized without symptoms, and her pain was managed with oral medications. She is immobilized in a TLSO brace, has resumed normal bowel and bladder function, and is healing well postoperatively. Discharge plans include continued psychiatric and physical rehabilitation, follow-up in 10–11 days for wound and construct assessment, brace wear for three months, and physical therapy for up to six months.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns related to recovery from an L2 burst fracture. They reported no numbness or weakness, only difficulty with some activities due to the fracture, and stated they were being careful not to overexert themselves. The patient also noted a history of residual anemia diagnosed after their injury but denied any symptoms such as tiredness, shortness of breath, paleness, or lightheadedness, and had not noticed any worsening with exercise or menstruation. No supplements or dietary changes were currently being used, and it was unclear if anemia had been rechecked since the initial diagnosis. On assessment, the doctor noted the absence of neurological symptoms and that the anemia was asymptomatic and not affecting daily life. The doctor recommended maintaining a balanced diet with iron-rich foods (such as lean meats, beans, lentils, spinach, and fortified cereals) and pairing these with vitamin C-rich foods to support iron absorption. No supplements were advised unless future blood tests indicated a need. The patient was instructed to monitor for new symptoms and to seek follow-up if they developed unusual fatigue, paleness, or feeling faint.
+The patient is a female presenting for follow-up regarding an L2 burst fracture. She reports no numbness or weakness, but notes that the fracture makes some activities more difficult, though she remains able to get around. She also has a history of residual anemia diagnosed after her injury, but denies any symptoms such as fatigue, paleness, or shortness of breath, and has not noticed any worsening with activity or during her period. There is no documentation of current supplement use or dietary changes for anemia. The clinical impression is an L2 burst fracture with asymptomatic, likely mild anemia. The treatment plan includes monitoring for new symptoms of anemia and supporting recovery with a balanced diet rich in iron-containing foods (such as lean meats, beans, lentils, spinach, and fortified cereals), paired with vitamin C-rich foods to enhance absorption. No supplements are recommended at this time unless future blood tests indicate a need. The patient is advised to report any new symptoms or changes in her condition.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.530
+- **Model Used**: general
+- **Text1 Length**: 147 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

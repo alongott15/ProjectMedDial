@@ -87,16 +87,23 @@ For now, focus on staying hydrated, resting, and keeping track of your temperatu
 
 ## EHR Summary
 
-The patient is a 47-year-old male presenting with a chief complaint of three days of fever up to 103°F and nocturia. He has a history of HIV, disseminated tuberculosis (including miliary TB pancreatitis), and left iliac deep vein thrombosis, and was recently discharged on a four-drug TB regimen, HAART (Trizivir, Abacavir, Nevirapine), Coumadin, prednisone, and Bactrim DS. On admission, he was febrile to 101.3°F, tachycardic (heart rate 108), and cachectic but in no acute distress; physical exam revealed a 2/6 systolic murmur and possible mild left CVA tenderness. Laboratory findings included a white blood cell count of 5.2, hematocrit 26.4, platelets 219,000, urinalysis positive for nitrites with moderate bacteria and 3-5 WBCs, and an absolute CD4 count of 57. The documented diagnosis is not explicitly stated in the note. Treatment on admission continued his prior medications for TB, HIV, DVT, and prophylaxis. No new specific treatments or recommendations are documented in this excerpt.
+The patient is a 47-year-old male presenting with a three-day history of fevers up to 103°F and nocturia. He has a history of HIV, disseminated tuberculosis (TB), recent miliary TB pancreatitis, and left iliac deep vein thrombosis, and was recently discharged on a four-drug TB regimen, HAART, and anticoagulation. On admission, he was febrile (101.3°F), tachycardic, and cachectic but in no acute distress; laboratory findings included a CD4 count of 57, anemia, hyponatremia, and urinalysis suggestive of urinary tract infection (UTI). The clinical course was notable for possible abacavir sensitivity (abacavir discontinued), a brief UTI treated with levofloxacin, gastrointestinal bleeding requiring transfusion (with subsequent stabilization), transient renal dysfunction likely due to tenofovir or Bactrim, and drug-induced leukopenia attributed to AZT. No definitive infectious source for the fever was identified despite extensive workup. The documented diagnoses included HIV/AIDS with immunosuppression, disseminated TB, drug-induced cytopenias, and UTI. Treatment included adjustment of antiretroviral and TB regimens, prednisone taper, anticoagulation, G-CSF for leukopenia, and supportive care for GI bleeding and hyponatremia. The patient was discharged in stable condition with follow-up arranged in Infectious Disease Clinic.
+
 
 ## Dialogue Summary
 
-The patient presented with fever up to 103°F for the past three days. Symptoms included sustained high temperature measured by thermometer, intermittent aches and pains in the legs, some back pain, and increased nighttime urination (nocturia) without discomfort, changes in urine color or smell, or blood. The patient denied chills, sweating, cough, sore throat, congestion, nausea, vomiting, and appetite changes. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of respiratory and digestive symptoms makes common viral infections less likely, and the lack of urinary discomfort or changes reduces the likelihood of a straightforward urinary tract infection; other viral illnesses or effects of fever on urination were considered. The doctor recommended monitoring for new symptoms such as pain with urination, abdominal pain, rash, or blood in urine, and advised basic tests if fever persists or new symptoms develop. The patient was advised to stay hydrated, rest, track temperature and symptoms, and to reach out if symptoms worsen or change.
+The patient is an adult presenting with a chief complaint of fever up to 103°F for the past three days. The fever has been measured with a thermometer and is sustained daily rather than intermittent. Associated symptoms include intermittent aches and pains in the legs and back, as well as increased nighttime urination (nocturia) without pain, changes in urine color or smell, or hematuria. The patient denies chills, sweating, cough, sore throat, congestion, nausea, vomiting, or appetite changes.
+
+There is no documented relevant medical history, medications, or allergies. The clinical impression is that the symptoms are less likely due to a common viral respiratory infection or straightforward urinary tract infection; other viral illnesses or effects of fever on urination are considered possible. The treatment plan includes monitoring for new symptoms such as pain with urination, abdominal pain, rash, or blood in the urine, and seeking further evaluation if the fever persists beyond a few more days or if new symptoms develop. Supportive care with hydration, rest, and temperature monitoring was advised.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.581
+- **Model Used**: general
+- **Text1 Length**: 181 words
+- **Text2 Length**: 171 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ Let's arrange for you to have an evaluation soon—this may include an EKG and p
 
 ## EHR Summary
 
-The patient is a 67-year-old male presenting with chest pain. He was found to have multivessel coronary artery disease on cardiac catheterization. His past medical history, allergies, and prior medications are not specified. He underwent a coronary artery bypass graft (CABG) times two and had an uneventful postoperative course, including successful weaning from the ventilator, removal of Foley catheter and chest tubes, and progressive ambulation with Physical Therapy. Physical exam findings and specific test results are not detailed. The documented diagnosis was multivessel coronary artery disease requiring surgical intervention. Treatment included CABG x2, postoperative management with medications such as Lopressor, Lasix, Lipitor, aspirin, albuterol and atropine inhalers, Percocet, and potassium supplementation. He was discharged home in stable condition with instructions to follow up with his primary care physician in 1–2 weeks and with his cardiologist in four weeks.
+The patient is a 67-year-old male presenting with chest pain. He was found to have multivessel coronary artery disease on cardiac catheterization. His past medical history, allergies, and other medications are not specified in the note. The documented diagnosis was multivessel coronary artery disease. He underwent a coronary artery bypass graft (CABG) times two and had an uneventful postoperative course, including successful weaning from the ventilator, removal of Foley and chest tubes, and participation in physical therapy. His Lopressor dose was increased for better heart rate control. He was discharged home in stable condition with instructions to follow up with his primary care physician in one to two weeks and with his cardiologist in four weeks. Discharge medications included albuterol and atropine inhalers, Lipitor, Percocet, aspirin, Lopressor, Lasix, and potassium.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The patient described a pressure-like sensation in the center of the chest, rated 5–6 out of 10 in intensity, which has persisted for a few days. The discomfort is worsened by physical activity such as walking or moving around and improves with rest; it is not affected by changes in position or deep breaths. The patient denied associated symptoms such as shortness of breath, sweating, or lightheadedness. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the symptoms are consistent with exertional chest pressure, raising concern for possible angina but acknowledged that other less serious causes are possible. The doctor advised the patient to avoid strenuous activity until further evaluation and to seek immediate medical attention if symptoms worsen or new symptoms develop. An evaluation including an EKG and possible blood work was recommended.
+The patient presents with chest pain as the chief complaint. The pain is described as a central chest pressure, rated 5–6 out of 10 in intensity, which has persisted for several days. The discomfort is worsened by physical activity and relieved by rest, with no associated dyspnea, diaphoresis, or lightheadedness; changing positions or deep breaths do not affect the pain. Relevant medical history, medications, and allergies are not specified in the dialogue. The clinical impression discussed is possible angina, given the exertional nature of the chest pressure and its relief with rest. The physician advised the patient to avoid strenuous activity until further evaluation and emphasized seeking immediate care if symptoms worsen or new symptoms develop (such as shortness of breath, sweating, nausea, or radiating pain). The plan includes arranging an EKG and possibly blood work to further assess cardiac causes.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.599
+- **Model Used**: general
+- **Text1 Length**: 130 words
+- **Text2 Length**: 141 words
+
 
 ## Processing Information
 

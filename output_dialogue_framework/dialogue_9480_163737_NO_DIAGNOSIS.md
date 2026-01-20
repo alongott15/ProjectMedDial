@@ -87,16 +87,21 @@ Does that make sense? Let me know if you have any questions or concerns about th
 
 ## EHR Summary
 
-The patient is a 64-year-old male presenting with chest pain and unstable angina. He was found to have three-vessel coronary artery disease on cardiac catheterization. His past medical history, medication allergies, and other comorbidities are not specified. Physical findings included successful postoperative recovery after undergoing coronary artery bypass grafting (CABG) times two, with extubation, removal of chest tubes and Foley catheter, and progressive improvement in mobility. The documented diagnosis was three-vessel coronary artery disease with unstable angina. Treatment included CABG x2, postoperative care, and discharge medications: atorvastatin, Protonix, Percocet as needed, enteric-coated aspirin, potassium supplement, Lopressor, Lasix, and Tylenol as needed. The patient was discharged home in stable condition with instructions to follow up with his primary care physician in 1–2 weeks and with his cardiologist in 4 weeks.
+The patient is a 64-year-old male presenting with chest pain and unstable angina. He underwent cardiac catheterization, which revealed three-vessel coronary artery disease. His past medical history, medication allergies, and other comorbidities are not specified. The documented diagnosis was three-vessel coronary artery disease with unstable angina. He underwent coronary artery bypass grafting (CABG) times two on hospital day 7. Postoperatively, he recovered well, was weaned from the ventilator, had his chest tubes and Foley catheter removed, and was able to ambulate and perform stairs prior to discharge. Discharge medications included atorvastatin, Protonix, Percocet as needed, aspirin, potassium supplement, Lopressor, Lasix, and Tylenol as needed. He was discharged home in stable condition with instructions to follow up with his primary care physician in 1–2 weeks and with his cardiologist in 4 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain that has been occurring for the past couple of days. The pain is described as a pressure-like sensation, rated 4–5 out of 10 in intensity, lasting a few minutes at a time and typically brought on by walking or physical activity; it resolves more quickly with rest. The patient denied associated symptoms such as shortness of breath, sweating, or lightheadedness, and reported no impact on daily routines. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the chest pressure occurs with exertion and improves with rest, without worsening from eating or emotional stress. The doctor assessed that while there are various causes for chest discomfort, exertional chest pressure may be related to cardiac issues and should be evaluated further. The doctor advised the patient to avoid strenuous activity, schedule a check-up for further evaluation (including possible EKG), and seek immediate care if symptoms worsen or new symptoms develop.
+The patient presents with chest pain as the chief complaint. The chest pain is described as a pressure-like sensation, rated 4–5 out of 10 in intensity, first noticed a couple of days ago, lasting a few minutes at a time, and typically brought on by physical activity but relieved by rest. The patient denies associated symptoms such as dyspnea, diaphoresis, or lightheadedness and reports no impact on daily routines. Relevant history, medications, and allergies are not specified. The clinical impression is that the chest pressure with exertion and relief with rest could be cardiac in origin, though other causes such as muscle strain, heartburn, or anxiety are also considered. The physician does not document a definitive diagnosis but expresses concern for possible underlying heart issues. The treatment plan includes avoiding strenuous activity, scheduling a check-up with possible basic tests (such as an EKG), and instructions to seek immediate care if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.948
-- **Similarity Label**: N/A
+- **STS Score**: 0.510
+- **Model Used**: general
+- **Text1 Length**: 131 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

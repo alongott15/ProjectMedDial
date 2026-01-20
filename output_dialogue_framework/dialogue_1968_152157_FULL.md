@@ -87,16 +87,23 @@ Would you like more information about what might be causing these symptoms or wh
 
 ## EHR Summary
 
-The patient is a 44-year-old male presenting with chest pain, nausea, and vomiting. Symptoms began the previous evening with persistent nausea, vomiting, sweats, chills, and substernal chest pain described as pressure with tingling down the left upper extremity; symptoms were not relieved by water, aspirin, or Rolaids. Relevant history includes hypercholesterolemia, gastroesophageal reflux disease, borderline hypertension, tobacco abuse (20 pack-year history), and a family history of cardiac disease. On arrival at the outside hospital, his blood pressure was 200/100 mmHg. The documented clinical impression was acute chest pain in a patient with multiple cardiac risk factors. Treatment included initiation of nitroglycerin drip, IV Lopressor, aspirin, Aggrastat drip, Heparin drip, and supplemental oxygen. Outpatient medications prior to admission included aspirin and Rolaids.
+The patient is a 44-year-old male presenting with chest pain, nausea, and vomiting. Symptoms began the night prior to admission, with substernal, nonradiating chest pain described as pressure and "stiff," accompanied by tingling down the left upper extremity, sweats, and chills; symptoms were not relieved by water, aspirin, or Rolaids. Relevant history includes hypercholesterolemia, gastroesophageal reflux disease, borderline hypertension, tobacco abuse (20 pack-year history), and a family history of cardiac disease. On admission, blood pressure was elevated at 164/117 mmHg, and laboratory values were notable for a white count of 12.6. The documented diagnosis was inferior wall myocardial infarction. The patient underwent cardiac catheterization with stenting of the right circumflex artery and received medications including heparin, nitroglycerin, Aggrastat, aspirin, and Lopressor during hospitalization. At discharge, he was stable and prescribed aspirin, Plavix, Lipitor, Lisinopril, Toprol XL, and Lasix, and was counseled to quit smoking. Follow-up with cardiology and primary care was recommended, including a repeat stress test in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The pain was described as a pressure sensation located in the middle of the chest behind the breastbone, rated 6 out of 10 in severity, and had been present for a couple of days. Associated symptoms included nausea with actual vomiting, sweats and chills during episodes, and tingling down the left arm; the pain occurred both at rest and with activity, with no shortness of breath or pain radiating to the neck or jaw. No relevant medical history, medications, or allergies were mentioned. The doctor noted the combination of chest pressure, nausea/vomiting, sweating, and left arm tingling could be due to digestive issues such as acid reflux or gastritis, but also raised concern for possible heart-related problems. The doctor recommended immediate medical evaluation at an urgent care or emergency room for further testing, including an ECG to assess heart function. The patient was advised to avoid strenuous activity and to seek emergency services if symptoms worsened or new severe symptoms developed.
+The patient is an adult presenting with chest pain as the chief complaint. The pain is described as a pressure sensation located retrosternally, rated 6 out of 10 in severity, and has been present for a couple of days. Associated symptoms include nausea with multiple episodes of vomiting, sweating, chills, and tingling radiating down the left arm; the pain occurs both at rest and with activity and is not worsened by exertion. The patient denies dyspnea and pain radiating to the neck or jaw.
+
+Relevant medical history, medications, and allergies are not specified. The clinical impression is that the symptoms could be due to either gastrointestinal causes (such as acid reflux or gastritis) or cardiac causes, but the presence of arm tingling and sweating raises concern for a possible cardiac event. The physician advised immediate medical evaluation at an urgent care or emergency room for further assessment, including tests such as an ECG. The patient was instructed to avoid strenuous activity and seek emergency care if symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
+- **STS Score**: 0.616
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

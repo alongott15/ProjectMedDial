@@ -87,16 +87,23 @@ Let me know if you have questions about any of this, or if you'd like advice on 
 
 ## EHR Summary
 
-The patient is a 50-year-old male presenting with mechanical lower back pain secondary to a pathologic fracture of L3 in the setting of multiple myeloma and multiple compression fractures of the lower spine. He reported weakness, with strength graded four plus in the right IPs, three in the left, and absent knee reflexes. Relevant history includes multiple myeloma and a left hip lesion. On physical exam, sensation was intact to light touch, and postoperative neurologic status remained stable. MRI confirmed a pathologic fracture at L3. The patient underwent preoperative embolization of the L3 vertebral body tumor followed by L2 to L5 fusion with L3 vertebrectomy without complications; he received four units of packed red blood cells intraoperatively. Postoperatively, he was stable, afebrile, and his surgical dressing was clean and intact. He was started on radiation therapy and received physical and occupational therapy during his hospital stay.
+The patient is a 50-year-old male presenting with mechanical lower back pain due to a pathologic fracture of L3 in the setting of multiple myeloma and multiple compression fractures of the lower spine, as well as a left hip lesion. He reported lower back pain and demonstrated lower extremity weakness (strength ranging from two to five out of five in various muscle groups), absent knee reflexes, and mild ankle reflexes on exam. His relevant history includes multiple myeloma and prior embolization of the L3 vertebral body tumor. The documented diagnosis was pathologic L3 fracture with associated mechanical back pain. He underwent successful embolization followed by L2 to L5 spinal fusion with L3 vertebrectomy, and received intraoperative blood transfusions. Postoperatively, he developed left leg swelling and was evaluated for DVT, which was ruled out; imaging revealed a retroperitoneal hematoma that led to minor bleeding from his drain site, managed with local stitches and observation. He also began radiation therapy to his left hip during hospitalization. At discharge, he was stable and prescribed Colace, ferrous sulfate, Tylenol, Percocet, and Senna, with follow-up arranged for staple removal and further orthopedic and oncology care.
+
 
 ## Dialogue Summary
 
-The patient presented with lower back pain as the chief complaint. The pain was described as 6 out of 10 in severity, worse with bending or movement, and localized to the area of previous compression fractures; it was less severe when sitting still. The patient also reported swelling in the left ankle and lower leg, first noticed a few days ago, with pitting on pressure but denied numbness, tingling, weakness, recent injuries, or changes in activity. Relevant history includes prior compression fractures in the lower back. On examination, the doctor noted mechanical characteristics of the back pain and pitting edema in the left lower extremity. The assessment included mechanical lower back pain related to prior fractures and new pitting edema, with consideration of possible venous insufficiency or inflammation, and a warning to rule out more serious causes such as blood clot. The doctor advised gentle movement, avoiding prolonged sitting or standing, elevating the affected leg, and monitoring for warning signs like increasing pain, redness, warmth, or shortness of breath; further care was recommended if symptoms worsen. The patient requested advice on safe exercises or stretches for their back.
+The patient is an adult presenting with lower back pain as the chief complaint. The pain is rated 6 out of 10 in severity, is localized to the area of prior compression fractures, and worsens with movement such as bending, but improves with rest. The patient also reports new swelling in the left ankle and lower leg for several days, described as pitting edema without associated numbness, tingling, or weakness. There is no history of recent injury, changes in activity, or prolonged immobility.
+
+The clinical impression is mechanical lower back pain related to previous compression fractures, with new-onset unilateral lower extremity pitting edema; possible causes discussed include mild venous insufficiency or inflammation, but more serious etiologies such as blood clot were considered. The treatment plan includes gentle movement, avoiding prolonged sitting or standing, and elevating the affected leg to reduce swelling. The patient was advised to monitor for warning signs such as increasing pain, redness, warmth, or sudden shortness of breath and to seek prompt care if these occur. The doctor offered to provide further advice on safe exercises or stretches for back management.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.559
+- **Model Used**: general
+- **Text1 Length**: 190 words
+- **Text2 Length**: 184 words
+
 
 ## Processing Information
 

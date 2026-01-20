@@ -87,16 +87,21 @@ Would you like me to help arrange this, or do you have any questions about what 
 
 ## EHR Summary
 
-The patient is a 51-year-old male presenting with diffuse aches and stabbing chest pain radiating to the back and down the right arm. He also reported palpitations, nausea, and diaphoresis, with similar symptoms occurring one to two weeks prior to admission. His past medical history includes hypercholesterolemia and hypertension, and he has a significant tobacco use history (one pack per day for forty years). On examination, he was hemodynamically stable with mild lower extremity edema; laboratory results showed elevated troponin (81), CK (532), and ST elevations with T wave inversions in V1–V4 on ECG. Cardiac catheterization revealed significant left anterior descending artery stenosis not amenable to stenting. The documented diagnosis was acute coronary syndrome due to severe coronary artery disease. The patient underwent a two-vessel coronary artery bypass graft (CABG) using the left internal mammary artery and saphenous vein grafts. Postoperatively, he was extubated rapidly and transferred to the intensive care unit for monitoring.
+The patient is a 51-year-old male presenting with diffuse aches and stabbing chest pain radiating to the back and down the right arm, accompanied by palpitations, nausea, and diaphoresis. Symptoms had occurred one to two weeks prior but were not previously evaluated. Past medical history includes hypercholesterolemia and hypertension; the patient has a significant tobacco use history and was taking vitamin E. Cardiac catheterization revealed significant left anterior descending stenosis, and electrocardiogram showed ST elevations with T wave inversions in V1–V4; troponin was markedly elevated at 81. The documented diagnosis was status post coronary artery bypass graft times two. Treatment included coronary artery bypass grafting (CABG) with left internal mammary artery to the LAD and saphenous vein graft to the diagonal, followed by postoperative management with Coumadin, Vancomycin for sternal wound drainage, and oral antibiotics at discharge. The patient was discharged in stable condition with medications including Lopressor, Coumadin, Keflex, aspirin, Percocet, and Colace. Follow-up with cardiology for INR checks and wound monitoring was advised.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain described as an ache that sometimes feels sharp. The pain was rated 6 out of 10 in severity, comes and goes in episodes lasting a few minutes, and spreads across the chest, into the back, and down the right arm. Associated symptoms included palpitations, nausea (without vomiting), and sweating; no lightheadedness or shortness of breath were reported. The patient noted that symptoms began earlier today and occur randomly without identifiable triggers. No relevant medical history, medications, or allergies were mentioned. The doctor noted the concerning combination of chest pain radiating to the back and arm, palpitations, nausea, and sweating, and explained that these could indicate a cardiac issue or a more benign cause such as muscle strain or acid reflux. The doctor recommended urgent evaluation at an emergency department or urgent care to rule out heart-related causes and advised immediate emergency services if symptoms worsen (constant pain, severe shortness of breath, fainting, or sudden weakness). The patient understood and agreed to seek urgent care as advised.
+The patient is an adult presenting with chest pain as the chief complaint. The pain is described as an ache that can become sharp, rated 6 out of 10 in severity, and has been present since earlier today. Symptoms include intermittent episodes of chest pain radiating to the back and right arm, palpitations, nausea without vomiting, and sweating; there are no reports of dyspnea or lightheadedness. The episodes last a few minutes and occur randomly, without clear triggers. Relevant history, medications, and allergies are not specified. The clinical impression is concern for possible cardiac etiology given the nature and distribution of symptoms, though benign causes such as muscle strain or acid reflux are also considered. The doctor advised urgent evaluation at an emergency department or urgent care to rule out heart-related causes and provided instructions to seek emergency services if symptoms worsen. No specific diagnosis or medication was documented during the encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.973
-- **Similarity Label**: N/A
+- **STS Score**: 0.502
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

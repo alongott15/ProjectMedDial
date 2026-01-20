@@ -87,16 +87,23 @@ If you have questions about what could be causing this or want advice on managin
 
 ## EHR Summary
 
-The patient is a 74-year-old male admitted postoperatively following direct admission to the operating room after preoperative evaluation for coronary artery disease (CAD). He reported several months of exertional dyspnea and leg cramps, without chest pain, nausea, vomiting, diuresis, or syncope. His history includes CAD with prior myocardial infarction, PTCA, stent placement, left bundle branch block, COPD, hyperlipidemia, and type 2 diabetes mellitus; he is allergic to the tetanus vaccine (causes hives). Recent stress echocardiogram showed an ejection fraction (EF) of 25% with anterior septal akinesis and ischemia; cardiac catheterization revealed three-vessel disease and complex coronary lesions. On admission, vital signs were stable with O2 saturation of 96% on room air. The documented diagnosis is severe multi-vessel coronary artery disease with reduced ejection fraction. Treatment included continuation of cardiac medications (Pravachol, Plavix, Imdur, Lopressor, Ecotrin, Lisinopril), diabetes management (Amaryl), COPD therapy (Advair), and Flomax.
+The patient is a 74-year-old man admitted postoperatively following coronary artery bypass grafting (CABG) for severe coronary artery disease (CAD). He previously reported several months of exertional dyspnea and leg cramps, with no chest pain, nausea, vomiting, or syncope. His cardiac history includes prior myocardial infarction, percutaneous interventions, and recent findings of three-vessel disease with reduced ejection fraction (25–30%) and anterior wall ischemia. Relevant history includes COPD, hyperlipidemia, diabetes mellitus type 2, and left bundle branch block; he is allergic to tetanus vaccine. The documented diagnoses are CAD status post CABG times five, COPD, hypercholesterolemia, diabetes mellitus type 2, and left bundle branch block. Postoperative recovery was uneventful, with stable hemodynamics and gradual advancement of activity. Treatment at discharge included aspirin, pravastatin, lisinopril, metoprolol, amiodarone, Advair inhaler, Amaryl, potassium chloride, Lasix, Flomax, and Colace, along with instructions for home care and follow-up appointments. The patient was discharged home in good condition with visiting nurse support.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble catching their breath during physical activity. They reported experiencing shortness of breath for a couple of weeks, which worsens with exertion but is absent at rest, as well as swelling in both legs that improves with elevation and overnight, leg cramps that build gradually during walking and resolve with rest, and some bruising on the left leg. The patient noted these symptoms have made daily activities more difficult and have remained stable without improvement or worsening. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted bilateral leg swelling, exertional dyspnea, leg cramps relieved by rest, and bruising on the left leg. The doctor assessed that these symptoms may be related to circulation or heart issues, with fluid buildup and reduced blood flow as possible contributors. The treatment plan included advice to keep legs elevated when possible, remain active within comfort limits, monitor for new symptoms such as chest pain or sudden worsening, and follow up with the regular doctor for further evaluation of circulation and heart health; the patient was also advised to monitor the bruising.
+The patient is an adult presenting with the chief complaint of shortness of breath during exertion. Over the past couple of weeks, they have experienced dyspnea on exertion, bilateral leg swelling that improves with elevation, and leg cramps that build gradually with walking and resolve with rest; they also report some bruising on the left leg. The symptoms have remained stable without significant improvement or worsening, and the patient notes difficulty performing usual daily activities due to these issues. There is no mention of shortness of breath at rest, and the swelling partially improves overnight.
+
+Relevant medical history, medications, and allergies are not specified in the dialogue. The clinical impression discussed by the doctor is that these symptoms may be related to common circulatory or cardiac conditions, possibly involving fluid retention and reduced blood flow to the legs during activity. The treatment plan includes elevating the legs when possible, remaining active within comfort limits, monitoring for new or worsening symptoms (such as chest pain or sudden dyspnea at rest), and following up with the regular doctor for further evaluation of circulation and heart health. The patient is also advised to monitor the bruising on the left leg.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.406
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 197 words
+
 
 ## Processing Information
 

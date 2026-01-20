@@ -95,16 +95,21 @@ If anything changes—like a big increase in sleepiness or other new symptoms—
 
 ## EHR Summary
 
-The patient is a 53-year-old man presenting for a scheduled admission for a sleep study. He reported no current symptoms and his review of systems was unremarkable. His medical history includes sleep apnea, type 2 diabetes mellitus (last A1c 7.1), dyslipidemia, hypertension, stage IV chronic kidney disease, morbid obesity, chronic systolic congestive heart failure (EF 40-50%), coronary artery disease, atrial fibrillation on warfarin, and gout. Physical examination revealed an obese man in no acute distress with normal cardiopulmonary and abdominal findings and no edema. Laboratory results showed mild anemia (HGB 11.8), elevated INR (2.0), elevated creatinine (3.0), and elevated urea nitrogen (78), consistent with his known comorbidities. The documented diagnosis was sleep apnea, for which the sleep study was performed. The treatment plan included monitoring during the sleep study and continuation of his chronic medications. No acute interventions were required during this admission.
+The patient is a 53-year-old man admitted for a scheduled sleep study due to sleep apnea. He reported no acute symptoms and review of systems was unremarkable. His medical history includes diabetes mellitus type 2, dyslipidemia, hypertension, stage IV chronic kidney disease, morbid obesity, chronic systolic congestive heart failure (EF 40-50%), coronary artery disease, atrial fibrillation on warfarin, and gout. The documented primary diagnosis was sleep apnea, with secondary diagnoses as listed above. During admission, his home medications were continued and an arterial line was placed. The treatment plan included arranging BiPAP therapy (14/9 cm H2O with 4 liters oxygen and 150 cc dead space) to be set up at his nursing home. He was discharged in stable condition to extended care, with instructions for follow-up and equipment arrangement by his sleep doctor. No medication allergies were reported.
+
 
 ## Dialogue Summary
 
-The patient presented for a scheduled sleep study follow-up, with no new complaints. They reported stable sleep quality, ongoing use of a CPAP machine at night with consistent effectiveness, and no issues with mask fit or leaks. Symptoms included persistent morning tiredness and some daytime sleepiness, which worsens when sleep duration is reduced; no headaches or dry mouth were noted, and nighttime awakenings were described as typical for the patient. The patient’s sleep schedule is generally consistent but occasionally varies. No relevant medical history, medications, or allergies beyond CPAP use were discussed. The doctor assessed that the patient’s CPAP therapy is working consistently, with mild residual symptoms likely related to occasional disruptions in sleep routine. The treatment plan is to continue the current routine and CPAP use, maintain a regular sleep schedule, and follow up after the sleep study; the doctor advised reporting any new or worsening symptoms such as increased sleepiness, loud snoring, choking at night, or mood changes.
+The patient is an adult presenting for a scheduled sleep study follow-up, with no new complaints. The patient reports ongoing morning tiredness and some daytime sleepiness, which remain unchanged from previous visits; these symptoms worsen when sleep duration is reduced due to schedule variability but are otherwise stable. The patient uses a CPAP machine nightly without issues related to mask fit, leaks, headaches, or dry mouth, and reports no significant nocturnal symptoms aside from occasional normal awakenings. Relevant history includes established CPAP use for a sleep disorder (specific diagnosis not stated in this encounter). The clinical impression is stable residual tiredness and daytime sleepiness in the context of consistent CPAP therapy, with no new or worsening symptoms. The treatment plan is to continue current CPAP use and maintain as regular a sleep schedule as possible. The doctor advises monitoring for any new or worsening symptoms, such as increased sleepiness, loud snoring, or mood changes, and to follow up after the upcoming sleep study. No changes to therapy are recommended at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.943
-- **Similarity Label**: N/A
+- **STS Score**: 0.546
+- **Model Used**: general
+- **Text1 Length**: 138 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

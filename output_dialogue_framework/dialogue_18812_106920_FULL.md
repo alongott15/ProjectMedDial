@@ -186,3 +186,21 @@ Would you be able to arrange for someone to help you get evaluated soon?
 ## Processing Information
 
 - **Processing Time**: 395.6s
+
+## EHR Summary
+
+The patient is a 19-year-old female presenting with emboli as the chief complaint. She experienced chest pain, shortness of breath, pleuritic chest pain, syncope, and a recent history of left lower extremity pain and swelling; symptoms included tachycardia, hypotension, and mild respiratory distress. Her past medical history is notable for asthma diagnosed one month prior, and she was taking ibuprofen, azithromycin, Diflucan, Heparin, and oral contraceptives; there are no known drug allergies. Family history is significant for deep venous thrombosis in her father and grandmother. Imaging revealed large pulmonary emboli extending to the left pulmonary artery, and laboratory workup was initiated for hypercoagulability. The documented diagnosis was pulmonary embolism, likely related to genetic predisposition and oral contraceptive use. Treatment included Heparin infusion, thrombolysis with TPA, transition to Coumadin with INR monitoring, and initiation of calcium carbonate and vitamin D. She was advised to avoid oral contraceptives and follow up with Hematology for further evaluation.
+
+
+## Dialogue Summary
+
+The patient is an adult with a history of pulmonary embolism and deep vein thrombosis (DVT) presenting with chest pain, shortness of breath (dyspnea), lightheadedness, and fatigue. These symptoms have occurred recently and are concerning given the patient’s background of blood clots. The patient is currently taking Heparin for anticoagulation. The doctor explained that while Heparin reduces the risk of new clots, it does not eliminate it, and the current symptoms could indicate a recurrence or other serious condition. No definitive diagnosis was documented during the conversation; however, the clinical impression was concern for possible recurrent thromboembolism. The doctor recommended urgent medical evaluation, including possible diagnostic imaging such as a leg ultrasound or chest CT scan, to rule out new blood clots. The patient was advised to seek immediate care if symptoms worsen (e.g., severe chest pain, increased dyspnea, leg swelling, or calf pain) and agreed to get evaluated the same day. Ongoing communication and prompt reporting of any new or worsening symptoms were emphasized.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.690
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 165 words
+

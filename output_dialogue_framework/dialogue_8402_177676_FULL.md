@@ -87,16 +87,21 @@ Would you like to talk more about what steps you can take next, or do you have a
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with chest pain as the chief complaint. He reported a history of angina symptoms for many years, with increased frequency and associated shortness of breath over the past year; four days prior to admission, he experienced left-sided chest pain radiating to the shoulder and arm while golfing, and again during exercise the following day, with pain lasting approximately seven minutes and resolving spontaneously. Relevant history includes coronary artery disease status post myocardial infarction and angioplasty in 2155, hypertension, hypercholesterolemia, gastroesophageal reflux disease, benign prostatic hypertrophy, and Dupuytren contractures; medications include Lipitor, Cardizem, aspirin, Flomax, Ambien, and Ativan, with a documented allergy to contrast dye. On physical examination, vital signs showed blood pressure 150/90 mmHg and heart rate 50 bpm; cardiac and pulmonary exams were unremarkable. Myocardial infarction was ruled out by cardiac enzymes and electrocardiogram. The clinical impression was recurrent angina without evidence of acute myocardial infarction. The patient was transferred to the Catheterization Lab for further evaluation and possible angioplasty.
+The patient is a 62-year-old male presenting with increased angina symptoms and shortness of breath over the past year, with recent episodes of left-sided chest pain radiating to the shoulder and arm during physical activity. Symptoms were triggered by exertion, lasted several minutes, and resolved with rest. Relevant history includes coronary artery disease status post myocardial infarction and angioplasty in 2155, hypertension, hypercholesterolemia, gastroesophageal reflux disease, benign prostatic hypertrophy, and Dupuytren contractures; he is allergic to contrast dye and was taking Lipitor, Cardizem, aspirin, Flomax, Ambien, and Ativan on admission. The documented diagnosis was significant three-vessel coronary artery disease. The patient underwent cardiac catheterization followed by a four-vessel coronary artery bypass graft (CABG), which he tolerated well without complications. Postoperatively, he progressed steadily through physical therapy and was discharged home in good and stable condition. Discharge medications included Lasix, potassium chloride, aspirin, Lipitor, Flomax, Lopressor, Niferex, and Percocet as needed. He was advised to follow up with his physician in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest pain worsens with activity such as walking up stairs or exercising, and is accompanied by shortness of breath; the pain sometimes radiates to the left shoulder and arm. Episodes have been occurring for a few weeks, typically lasting a few minutes and resolving with rest or sitting down; severity is rated at 5–6 out of 10. The patient has had to slow down with household chores and walking due to these symptoms, but reports that the episodes have remained stable in frequency and intensity. No history of sweating, lightheadedness, or other symptoms was mentioned, and no relevant medical history, medications, or allergies were discussed. The doctor noted that the pattern of exertional chest pain relieved by rest, with radiation to the shoulder/arm, is commonly seen with angina due to reduced blood flow to the heart muscle. The doctor recommended further evaluation including a physical exam and heart tests such as an EKG or stress test, advised avoiding strenuous activity, and instructed the patient to seek immediate care for any new or worsening symptoms such as pain at rest, severe discomfort, fainting, or sudden shortness of breath.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is described as moderate in severity (rated 5–6/10), worsens with physical activity such as walking or climbing stairs, and improves with rest; it has been occurring for several weeks without increasing in frequency or intensity. Associated symptoms include exertional shortness of breath and occasional radiation of pain to the left shoulder and arm; there is no reported diaphoresis or lightheadedness. The symptoms have led the patient to limit daily activities. Relevant medical history, medications, and allergies are not specified in the dialogue. The clinical impression documented by the doctor is angina, likely due to reduced blood flow to the heart muscle during exertion. The treatment plan includes further evaluation with a healthcare provider, possible heart tests such as an EKG or stress test, and advice to avoid strenuous activity while monitoring for any worsening or new symptoms that would require immediate attention.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.672
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 158 words
+
 
 ## Processing Information
 

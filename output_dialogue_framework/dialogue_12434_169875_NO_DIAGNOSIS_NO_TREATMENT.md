@@ -87,16 +87,23 @@ Does anything seem to trigger your unsteadiness, or is it truly constant regardl
 
 ## EHR Summary
 
-The patient is a 65-year-old female presenting with a cerebral aneurysm. She reported no headache, vision problems, weakness, or paresthesias, but did note changes in her gait. Her past medical history includes type 2 diabetes, hypertension, and chronic obstructive pulmonary disease; she is allergic to penicillin, Keflex, and Bactrim. On examination, she was frail but in no acute distress, with blood pressure 142/90, positive rales on chest exam, 1+ edema in the left foot, and an ataxic gait. The documented diagnosis was cerebral aneurysm. She underwent successful coiling of the aneurysm and remained neurologically stable postoperatively. Post-procedure care included hourly neurological checks and heparin to maintain PTT in the 50-60 range. She was discharged in stable condition with no new neurological deficits.
+The patient is a 65-year-old woman presenting with a cerebral aneurysm. She reported no headache, vision problems, weakness, or paresthesias, but did note changes in her gait. Her relevant history includes type 2 diabetes, hypertension, and chronic obstructive pulmonary disease; she is allergic to penicillin, Keflex, and Bactrim. The documented diagnosis was cerebral aneurysm, for which she underwent coiling on hospital day two. Postoperatively, she remained neurologically stable with no new deficits and was managed with Heparin to maintain PTT in the 50-60 range and blood pressure control using Nipride and oral antihypertensives. She was discharged home in stable condition on Plavix, aspirin, metoprolol (increased dose), glyburide, neurontin, amitriptyline, estradiol, and trandolapril. Follow-up was arranged with her physician in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about a known cerebral aneurysm and recent changes in gait. They reported feeling unsteady while walking for at least a couple of weeks, with the unsteadiness being constant throughout the day and making daily activities such as getting around the house and doing chores more challenging. The patient denied dizziness, headaches, vision changes, falls, or near-falls, and noted no leg weakness but did mention occasional swelling in the left foot. Relevant history includes a diagnosis of cerebral aneurysm; no medications or allergies were discussed. On assessment, the doctor noted the absence of acute neurological symptoms but highlighted the importance of monitoring for new symptoms given the aneurysm history. The doctor advised continued caution at home to prevent falls, recommended gentle exercise and use of support (such as a cane or handrails) for stability, and instructed the patient to report any new symptoms like weakness, numbness, sudden severe headache, vision changes, or trouble speaking immediately.
+The patient is an adult presenting with concern about a cerebral aneurysm and reporting recent changes in gait. Over the past couple of weeks, the patient has experienced persistent unsteadiness while walking, which has made daily activities such as moving around the house and doing chores more challenging. The unsteadiness is constant throughout the day and is not associated with dizziness, headaches, vision changes, or falls; there is no reported leg weakness, though mild swelling in the left foot is noted. The patient denies any episodes of falls or near-falls and has been extra cautious at home.
+
+Relevant history includes a known cerebral aneurysm. The clinical impression is gait disturbance with unsteadiness, possibly multifactorial, with consideration of neurological and circulatory factors given the aneurysm history and foot swelling. The treatment plan includes recommendations for continued caution at home to prevent falls, gentle exercise, and use of support devices such as a cane or handrails. The patient was advised to promptly report any new neurological symptoms such as weakness, numbness, sudden severe headache, vision changes, or trouble speaking.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.972
-- **Similarity Label**: N/A
+- **STS Score**: 0.547
+- **Model Used**: general
+- **Text1 Length**: 121 words
+- **Text2 Length**: 177 words
+
 
 ## Processing Information
 

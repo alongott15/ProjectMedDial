@@ -87,16 +87,21 @@ Let me know if you have any questions about these recommendations or if there's 
 
 ## EHR Summary
 
-The patient is a 68-year-old male presenting with substernal chest pain and a history of coronary artery disease, hypertension, and prior cardiac catheterization showing significant coronary stenoses. He reported no cigarette smoking or ethanol abuse and is allergic to sulfa drugs. On admission, further imaging revealed 60% occlusion of the right coronary artery and preserved ejection fraction by echocardiogram. The documented diagnosis was coronary artery disease, for which he underwent coronary artery bypass grafting (CABG) times four. Postoperatively, he developed atrial fibrillation and a light rash; he was treated with Lopressor, Amiodarone, and Benadryl. The rash remained stable, and his physical examination was otherwise benign. His medications on admission included atenolol, aspirin, and Lipitor.
+The patient is a 68-year-old male presenting with substernal chest pain and a history of coronary artery disease, hypertension, and prior cardiac catheterization. He had significant coronary stenoses (50–55% left main, 80% LAD, 60% RCA) and a positive stress test, leading to transfer for further management. The patient underwent coronary artery bypass grafting (CABG) times four. Postoperatively, he developed atrial fibrillation, a light rash, and leukocytosis (white count up to 32), with sputum cultures growing Serratia. He was treated with Amiodarone, Lopressor, magnesium, topical steroids (Lidex), Zyrtec, Benadryl, Ancef, and briefly Augmentin (discontinued due to suspected allergic reaction). Dermatology and Infectious Disease were consulted; unnecessary medications were stopped and supportive care was provided. The patient remained hemodynamically stable, his surgical wound was stable, and he was ambulating well at the time of this note.
+
 
 ## Dialogue Summary
 
-The patient presented with an itchy spot on the skin. The patient reported that the area started a few days ago, has become larger, is red with a rash, and the skin is peeling; there is no blistering, oozing, swelling, warmth, or pain. The itchiness persists regardless of activity or products used and sometimes makes it harder to focus, but does not interfere with sleep or daily activities. The patient denied recent illnesses, medication changes, or new skin products. On examination, the doctor noted a localized, spreading rash with peeling but no signs of infection or systemic symptoms. The assessment was a likely benign skin condition such as mild eczema or contact dermatitis. The doctor recommended keeping the area clean and moisturized with a gentle, fragrance-free lotion, avoiding scratching, and monitoring for worsening symptoms such as rapid spreading, pain, or fever. The patient understood and agreed to follow these recommendations.
+The patient presents with an itchy spot on the skin as the chief complaint. The rash began a few days ago, has increased in size, is red, and is associated with peeling but no blisters, oozing, swelling, warmth, or pain. The itchiness sometimes affects concentration but does not interfere with sleep or daily activities. There are no identified triggers, recent illnesses, medication changes, or new skin products. The clinical impression is a localized rash likely due to mild eczema, contact dermatitis, or environmental irritation. No signs of infection or systemic involvement were noted. The treatment plan includes keeping the area clean, using a gentle fragrance-free moisturizer, and avoiding scratching. The patient was advised to seek further evaluation if the rash spreads rapidly, becomes painful, or if systemic symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.928
-- **Similarity Label**: N/A
+- **STS Score**: 0.341
+- **Model Used**: general
+- **Text1 Length**: 134 words
+- **Text2 Length**: 129 words
+
 
 ## Processing Information
 

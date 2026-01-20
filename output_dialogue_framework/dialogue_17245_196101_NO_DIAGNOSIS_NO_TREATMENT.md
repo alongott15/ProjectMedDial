@@ -85,16 +85,21 @@ Let me know if you've recently changed any medications or noticed anything else 
 
 ## EHR Summary
 
-The patient is a 66-year-old female presenting with congestive heart failure. She reports progressive dyspnea with exertion, such as walking up an incline or talking, and occasional chest heaviness associated with shortness of breath; she denies angina, orthopnea, edema, paroxysmal nocturnal dyspnea, claudication, or lightheadedness. Her history is significant for severe mitral regurgitation treated with mitral valve repair (with a complicated postoperative course including atrial fibrillation managed with amiodarone), recurrent episodes of heart failure, hypertension, hyperlipidemia, hiatal hernia/GERD, and prior atrial fibrillation. Recent echocardiograms revealed mitral stenosis. The documented diagnosis is mitral valve disease with recurrent congestive heart failure. She was referred for mitral valve replacement and has been managed with diuretics (lasix) for symptom control.
+The patient is a 66-year-old female presenting with congestive heart failure. She reported progressive dyspnea with exertion, such as walking up an incline or talking, and occasional chest heaviness when short of breath, but denied angina, orthopnea, edema, paroxysmal nocturnal dyspnea, or claudication. Her history includes severe mitral regurgitation status post mitral valve repair, recurrent episodes of heart failure, prior atrial fibrillation, hypertension, hyperlipidemia, and gastroesophageal reflux disease; she has no medication allergies. Echocardiogram and cardiac catheterization revealed severe mitral stenosis with a mitral valve area of 0.65 cm² and a gradient of 19 mmHg. The documented diagnoses were mitral valve stenosis (now status post minimally-invasive mitral valve replacement), rapid atrial fibrillation (controlled), hypertension (controlled), hypercholesterolemia, and congestive heart failure. Treatment included minimally-invasive mitral valve replacement, perioperative management of atrial fibrillation with intravenous and oral amiodarone and Lopressor, diuresis with Lasix, and supportive care. At discharge, she was prescribed a regimen including amiodarone, Lopressor, Lasix, captopril, potassium chloride, aspirin, Zocor, Premarin, and supportive medications. She was advised to follow up with her primary care physician in two weeks and her cardiac surgeon in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with increased shortness of breath. Symptoms included progressive shortness of breath over several days, worse with activity and improved at rest, bilateral lower leg swelling (edema) especially around the ankles, increased fatigue, mild nausea, decreased appetite, and the need for extra pillows at night to breathe comfortably (orthopnea); the patient denied lightheadedness and unusual bruising. The patient reported a history of heart failure with similar symptoms previously, but noted that swelling and tiredness were worse this time; a recent fever up to 101.3°F was also mentioned. No recent medication changes or new triggers were identified. On assessment, the doctor noted that the patient’s heart failure symptoms appeared to be flaring up, likely due to fluid retention. The doctor advised monitoring for warning signs such as sudden weight gain, worsening shortness of breath at rest, or chest pain. Recommendations included limiting salty foods, tracking daily weight, and contacting the care team if symptoms worsen or new symptoms develop.
+The patient is presenting with increased shortness of breath as the chief complaint. Symptoms have worsened over several days and include exertional dyspnea, bilateral lower extremity edema (especially around the ankles), increased fatigue, nausea, decreased appetite, and orthopnea requiring extra pillows at night; there is no reported lightheadedness or unusual bruising. The patient has a history of heart failure and reports these symptoms are more pronounced than previous episodes. The clinical impression documented by the doctor is a flare-up of heart failure symptoms, likely related to fluid retention. The patient also reported a recent fever up to 101.3°F and increased nausea, but no recent medication changes. The treatment plan includes dietary sodium restriction, daily weight monitoring, and instructions to contact the care team if symptoms worsen or new symptoms develop. No new medications or interventions were initiated during this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.521
+- **Model Used**: general
+- **Text1 Length**: 185 words
+- **Text2 Length**: 140 words
+
 
 ## Processing Information
 

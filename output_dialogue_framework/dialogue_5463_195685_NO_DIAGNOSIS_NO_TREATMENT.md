@@ -85,16 +85,21 @@ For now, I recommend making sure you're staying hydrated and keeping track of yo
 
 ## EHR Summary
 
-The patient is a 49-year-old woman presenting after episodes of lethargy and psychosis following recent management of chronic back pain with an intrathecal baclofen pump. She experienced an overdose of intrathecal baclofen on 3/10, became unresponsive on 3/13, and was hospitalized; the pump was shut off and later flushed with the correct dose administered. Over the subsequent weekend, she developed hallucinations and bizarre behavior, leading to readmission on 3/17. On 3/18, she became lethargic and was transferred to the Neurologic Intensive Care Unit. Her physical exam on presentation showed she was awake, alert, oriented, with normal neurological and cardiac findings, and no meningeal signs. Pertinent history includes chronic back pain, arachnoiditis from myelogram dye, and an implanted intrathecal drug pump. Laboratory data revealed a urine culture with >100,000 white blood cells on 3/12, for which she was started on ciprofloxacin. The documented clinical impression is baclofen overdose with subsequent neuropsychiatric symptoms; treatment included cessation and correction of baclofen dosing and antibiotic therapy for urinary tract infection.
+The patient is a 49-year-old woman presenting with altered mental status, including episodes of hallucinations and bizarre behavior, following recent adjustment of her intrathecal baclofen pump. She initially became unresponsive after an overdose of intrathecal baclofen, then developed psychosis and lethargy after the pump was flushed and restarted at a lower dose. Her past medical history includes chronic back pain, arachnoiditis, and use of an intrathecal drug pump; she was also treated for a urinary tract infection with ciprofloxacin. On examination, she was alert, oriented, and had stable vital signs with no focal neurological deficits. The clinical impression included baclofen overdose and withdrawal with subsequent neuropsychiatric symptoms. Treatment involved supportive care, reduction of the baclofen pump rate, initiation of Risperdal 0.25 mg twice daily for hallucinations, and continuation of antibiotics for urinary tract infection. She was discharged in stable condition with instructions to follow up for pump adjustment and outpatient care.
+
 
 ## Dialogue Summary
 
-The patient presented with hallucinations and unusual behavior that began over the weekend. Symptoms included persistent hallucinations, episodes of confusion, acting strangely (such as talking to people who weren’t there and misplacing objects), increased lethargy especially in the morning, difficulty maintaining daily routines, and poor sleep quality exacerbated by back pain and hallucinations. The patient reported no recent changes in medications and continues to take baclofen for chronic back pain; no other health conditions or allergies were mentioned. The doctor noted altered awareness during episodes and that symptoms have not improved since onset. The assessment was that the patient is experiencing episodes of confusion, hallucinations, and behavioral changes possibly related to factors affecting brain function, such as infection, medication side effects, metabolic changes, or sleep disruption. The doctor advised the patient to stay hydrated, monitor symptoms, and seek urgent care if new symptoms like fever, severe headache, weakness, or difficulty speaking develop. No immediate changes to medication or treatment were recommended at this time.
+The patient is an adult presenting with new-onset hallucinations and behavioral changes since the weekend. Symptoms include episodes of altered awareness, confusion, talking to people who are not present, placing objects in unusual locations, increased lethargy (especially in the morning), and disrupted sleep with increased duration and poor quality. The patient reports difficulty maintaining usual daily activities and has chronic back pain treated with baclofen; no recent medication changes or other health condition changes were noted. The clinical impression discussed was acute onset of confusion, hallucinations, and behavioral changes possibly related to factors affecting brain function, such as infection, medication side effects, metabolic disturbances, or sleep disruption. The physician advised monitoring for warning signs such as fever, severe headache, weakness, or speech difficulties and recommended seeking urgent care if these develop. Current recommendations include maintaining hydration and tracking symptoms. No new medications or specific treatments were initiated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.972
-- **Similarity Label**: N/A
+- **STS Score**: 0.669
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 150 words
+
 
 ## Processing Information
 

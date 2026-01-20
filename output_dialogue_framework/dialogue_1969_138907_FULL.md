@@ -87,16 +87,21 @@ For now, try to keep track of when the discomfort happens and what activities br
 
 ## EHR Summary
 
-The patient is a 68-year-old male presenting with progressive exertional angina. He reported a three to four month history of mild back and substernal chest discomfort radiating down both arms during running or brisk walking, which resolved with rest, as well as frequent belching; he denied symptoms at rest, orthopnea, edema, paroxysmal nocturnal dyspnea, claudication, or lightheadedness. Relevant history includes hypertension, hypercholesterolemia, and coronary artery disease, with no known drug allergies and current medications including aspirin, Lipitor, Cozaar, and atenolol. Cardiac MRI on 8-1 showed mild left ventricular enlargement with an ejection fraction of 43% and multiple wall motion abnormalities consistent with multivessel disease. Cardiac catheterization on 8-15 demonstrated an ejection fraction of 40% and apical akinesis. The documented diagnosis was coronary artery disease. The patient was managed medically prior to admission and continued on his cardiac medications. Further treatment recommendations following the catheterization are not specified in the note.
+The patient is a 68-year-old male presenting with progressive exertional angina. Over the past three to four months, he experienced mild back and substernal chest discomfort radiating down both arms during running or brisk walking, which resolved with rest, and reported frequent belching; he denied symptoms at rest, orthopnea, edema, or paroxysmal nocturnal dyspnea. His history includes hypertension, hypercholesterolemia, and coronary artery disease, with no known drug allergies. Cardiac catheterization revealed multivessel coronary artery disease with significant left main and LAD involvement, and a cardiac MRI showed mild LV enlargement with an ejection fraction of 43%. The documented diagnosis was coronary artery disease with angina, status post coronary artery bypass grafting x4. During hospitalization, he underwent successful CABG x4 and was treated for postoperative pericarditis and atrial fibrillation with amiodarone. At discharge, he was stable, ambulating well, and prescribed medications including Lopressor, Lasix (for 7 days), potassium chloride (for 7 days), aspirin, amiodarone, and others as needed. He was instructed to follow up with his surgeon in two to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort during exertion that has progressively worsened over the past few weeks. The discomfort is primarily in the chest but sometimes radiates to the back and both arms during physical activity; it is described as mild but increases with continued exertion, prompting the patient to slow down or rest. The patient reports needing to belch during episodes but denies shortness of breath, lightheadedness, or sweating, and notes that the discomfort resolves quickly with rest and does not linger. The patient has had to avoid or modify daily activities due to these symptoms and mentioned a history of atrial fibrillation. On assessment, the doctor noted exertional chest discomfort with radiation and progressive worsening, raising concern for possible angina related to coronary artery narrowing, while also considering acid reflux due to associated belching. The doctor advised the patient to avoid strenuous activities, keep track of symptom patterns, and schedule a visit with their primary care provider for further evaluation, possibly including ECG or stress testing. The patient was instructed to seek immediate medical attention if severe chest pain at rest, trouble breathing, or faintness occurs.
+The patient is an adult presenting with exertional chest discomfort as the chief complaint. The discomfort has been progressively worsening over several weeks, occurs primarily during physical activity, and resolves quickly with rest; it sometimes radiates to the back and both arms. The patient describes the discomfort as mild but worsening with continued activity, leading to avoidance of usual activities, and reports associated belching but denies dyspnea, lightheadedness, or diaphoresis. Relevant history includes prior episodes of atrial fibrillation. The clinical impression is possible angina due to exertional symptoms suggestive of reduced coronary blood flow, though gastroesophageal reflux is also considered given the belching. The treatment plan includes avoiding strenuous activities, scheduling prompt follow-up with the primary care provider for further evaluation (such as ECG or stress testing), and monitoring for any new or worsening symptoms that would require urgent attention. The patient was also advised to track symptom patterns and report their history of atrial fibrillation at the next visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.969
-- **Similarity Label**: N/A
+- **STS Score**: 0.633
+- **Model Used**: general
+- **Text1 Length**: 171 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

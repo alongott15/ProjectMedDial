@@ -96,3 +96,23 @@ For now, I’d recommend eating smaller, bland meals and staying well hydrated. 
 ## Processing Information
 
 - **Processing Time**: 411.5s
+
+## EHR Summary
+
+The patient is a 74-year-old female presenting with abdominal pain, vomiting, and abdominal distention. She reported four days of abdominal pain, one day of vomiting, and increased abdominal distention prior to admission; chest x-ray revealed free air under the diaphragm. Her medical history includes ovarian carcinoma status post radical hysterectomy, omentectomy, ileocecectomy, cholecystectomy, depression, and an allergy to penicillin. On admission, laboratory findings showed hyponatremia, hypokalemia, elevated BUN and creatinine, hyperglycemia, and leukocytosis. The documented diagnosis was status post exploratory laparotomy with lysis of adhesions, resection of leaking anastomosis of the distal ileum and hepatic flexure, ileostomy, and mucofistula. Treatment included surgery, intensive care support for complications (acidosis, acute renal failure, prolonged intubation), stoma therapy, insulin sliding scale, anticoagulation, antihypertensives, and nutritional support via NG tube. She was stable at discharge and awaiting transfer to rehabilitation with follow-up arranged.
+
+
+## Dialogue Summary
+
+The patient presents with abdominal pain as the chief complaint. Symptoms have persisted for several days and include persistent abdominal discomfort, visible abdominal distension, vomiting, and reduced appetite, without associated fever, jaundice, constipation, or diarrhea. The patient reports that the pain and bloating have remained stable and are not triggered by specific foods or activities; eating and movement are somewhat limited but daily activities are still manageable. There is no relevant past medical history, medications, or allergies documented in the dialogue.
+
+The clinical impression discussed includes possible indigestion, mild gastritis, or fluid accumulation in the abdomen, with reassurance that symptoms are currently stable and not suggestive of an emergency. The treatment plan consists of dietary modifications—specifically, eating smaller, bland meals and maintaining hydration—and monitoring for any worsening symptoms or new warning signs such as fever, inability to tolerate food or fluids, or jaundice. The patient requested additional suggestions for gentle foods to help manage symptoms at home.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.477
+- **Model Used**: general
+- **Text1 Length**: 139 words
+- **Text2 Length**: 157 words
+

@@ -98,3 +98,21 @@ Does that make sense? Any specific concerns you want to discuss further?
 ## Processing Information
 
 - **Processing Time**: 285.3s
+
+## EHR Summary
+
+The patient is a 36-year-old male presenting with abdominal pain. He was found to be in end-stage liver failure, which was complicated by new onset renal failure during his hospital stay. His medical course included transfer from the Medical Intensive Care Unit to the floor after discussions with family regarding goals of care. The documented diagnosis was end-stage liver failure with renal failure. The treatment plan transitioned to do not resuscitate/do not intubate status and comfort measures only. The patient was observed for several days on the floor but ultimately passed away due to his illness. No specific medications or additional interventions were documented.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with abdominal pain as the chief complaint. The pain has been present for a few days, is described as a dull ache located mainly in the middle of the abdomen, comes and goes, and is rated 5 out of 10 at its worst. There are no associated symptoms such as changes in appetite, bowel movements, nausea, bloating, fever, or fatigue, and the pain does not interfere with daily activities or sleep. No specific triggers were identified, and resting sometimes provides mild relief. Relevant history regarding past medical conditions, medications, or allergies was not specified. The clinical impression was mild, non-specific abdominal ache without concerning features. The treatment plan included reassurance, advice to stay hydrated, gentle movement, and monitoring for any new or worsening symptoms, with instructions to seek care if red flag symptoms develop or if the pain persists beyond a week.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.495
+- **Model Used**: general
+- **Text1 Length**: 104 words
+- **Text2 Length**: 148 words
+

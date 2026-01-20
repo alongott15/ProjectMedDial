@@ -96,3 +96,23 @@ For now, I’d recommend pacing yourself with activities and staying well hydrat
 ## Processing Information
 
 - **Processing Time**: 390.7s
+
+## EHR Summary
+
+The patient is a 46-year-old female presenting with recurrent shortness of breath. She has a five-year history of asthma-like symptoms that worsened until a benign supraglottic tracheal mass was identified by bronchoscopy and biopsy, with initial improvement after laser ablation in January 2104, but symptoms recurred. Her only medication on admission was Prozac, and she has no known drug allergies or other significant medical history. On admission, she was afebrile, in no acute distress, and had stable vital signs with clear chest and regular cardiac rhythm. The documented diagnosis was supraglottic tracheal mass stenosis with respiratory compromise. She underwent anterior cricoid surgery with rib cartilage graft and tracheostomy tube placement without complications. Postoperatively, she remained stable, tolerated a regular diet, and was discharged home in good condition. Discharge instructions included Roxicet elixir for pain, pediatric suction catheter, humidifier, portable suction, and follow-up in one week.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with the chief complaint of shortness of breath. The dyspnea has been present for a few days, is primarily exertional (occurring with activity), and is not associated with cough, wheezing, chest discomfort, dizziness, or fainting. The patient reports increased difficulty with daily activities such as climbing stairs and carrying groceries but denies recent illness, allergies, or exposures. There is no history of recent respiratory infection or other relevant medical history documented.
+
+The clinical impression is that the exertional dyspnea may be due to mild respiratory infection, temporary deconditioning, or anxiety, given the absence of severe or concerning symptoms. The patient was advised to pace activities, stay hydrated, and monitor for new or worsening symptoms such as leg swelling, chest discomfort, or dyspnea at rest. If symptoms persist beyond a week or worsen, the patient should seek in-person evaluation. No medications or specific treatments were prescribed at this time.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.505
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 154 words
+

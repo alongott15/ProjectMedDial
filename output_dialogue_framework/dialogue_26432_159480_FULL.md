@@ -87,16 +87,21 @@ Does anything seem to make your leg discomfort better or worse? For example, doe
 
 ## EHR Summary
 
-The patient is a 68-year-old female presenting with chest pain and a history of anterolateral myocardial infarction in March 2112, previously treated with two stents to the left anterior descending artery. She experienced recurrent symptoms and had an ejection fraction of 49%. Her past medical history includes hypertension, hypercholesterolemia, hemolytic uremia, bleeding from Plavix, and lichen sclerosus. On admission, medications included aspirin, Atenolol, Avapro, Lipitor, and Zestril. Physical findings included three-vessel coronary artery disease with significant occlusions. The documented diagnosis was multi-vessel coronary artery disease requiring surgical intervention. She underwent elective coronary artery bypass grafting times three without major intraoperative complications; postoperative recovery was notable for transient confusion and right calf pain, but carotid and venous doppler studies were negative for acute events. Treatment included surgical revascularization, postoperative monitoring, and continuation of cardiac medications.
+The patient is a 68-year-old female presenting with recurrent chest pain and a history of anterolateral myocardial infarction in March 2112, previously treated with two stents to the left anterior descending artery. She experienced recurrent symptoms and was found to have three-vessel coronary artery disease with significant occlusions (LAD 95%, LCx 68-70%, obtuse marginal 80%, RCA 50-60%) and an ejection fraction of 49%. Her past medical history includes hypertension, hypercholesterolemia, hemolytic uremia, bleeding from Plavix, and lichen sclerosus. The documented diagnosis was three-vessel coronary artery disease requiring surgical intervention. She underwent elective coronary artery bypass grafting (CABG) times three without major intraoperative complications. Postoperative recovery was notable for transient confusion and right calf pain, but workup for deep venous thrombosis was negative and carotid doppler showed 40% left carotid stenosis. At discharge, she was afebrile, hemodynamically stable, ambulatory, and prescribed Lopressor, Lasix, Lipitor, KCL, and ciprofloxacin. She was advised to follow up with her cardiologist and primary care physician in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent central chest pain and associated anxiety. The chest discomfort had been ongoing for several days, was located behind the breastbone, and did not worsen with activity or deep breathing. Additional symptoms included confusion, short-term memory loss, and right calf pain rated 5/10, with no redness or warmth noted; both chest and calf pain had impacted daily activities. The patient reported that resting and elevating the leg provided some relief, though discomfort returned with movement. No history of shortness of breath, sweating, or lightheadedness was mentioned. On assessment, the doctor expressed concern for possible circulation issues such as a blood clot, given the combination of chest pain, calf discomfort, and confusion. The doctor recommended further evaluation the same day, advised leg elevation when sitting, and cautioned against massaging the leg. The patient was instructed to seek immediate help if symptoms worsened, including sudden breathing difficulty, severe confusion, or significant leg swelling.
+The patient presents with chest pain as the chief complaint. The chest discomfort is located centrally behind the breastbone, has persisted for a few days, and does not change with activity or deep breathing. The patient denies dyspnea, diaphoresis, or lightheadedness but reports recent confusion, short-term memory loss, and new right calf pain rated 5/10 without redness or warmth. Both the chest and calf pain have impaired the patient’s ability to perform daily activities. Rest and leg elevation provide some relief for the calf discomfort, which returns with activity. The physician’s assessment considers possible causes including muscle strain or digestive issues but expresses concern for a circulation issue such as a blood clot due to the combination of symptoms. The treatment plan includes further evaluation today to rule out a blood clot, advice to keep the leg elevated when sitting, avoid massaging it, and instructions to seek immediate help if symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.563
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

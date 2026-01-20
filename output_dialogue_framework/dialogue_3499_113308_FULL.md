@@ -98,3 +98,21 @@ Would you like me to help arrange for you to be seen right away?
 ## Processing Information
 
 - **Processing Time**: 401.1s
+
+## EHR Summary
+
+The patient is a 51-year-old male presenting with diffuse aches and stabbing chest pain radiating to the back and down the right arm, accompanied by palpitations, nausea, and diaphoresis. Symptoms had occurred one to two weeks prior but were not previously evaluated. Past medical history includes hypercholesterolemia and hypertension; the patient has a significant tobacco use history and was taking vitamin E. Cardiac catheterization revealed significant left anterior descending stenosis, and electrocardiogram showed ST elevations with T wave inversions in V1-V4; troponin was markedly elevated at 81. The documented diagnosis was status post coronary artery bypass graft times two. Treatment included coronary artery bypass grafting with left internal mammary artery to the left anterior descending artery and saphenous vein graft to the diagonal, followed by postoperative management with Coumadin, Vancomycin (for sternal wound drainage), and oral antibiotics on discharge. Discharge medications included Lopressor, Coumadin, Keflex, aspirin, Percocet, and Colace. The patient was discharged in stable condition with follow-up arranged with cardiology and surgery.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with chest pain as the chief complaint. The pain is described as a diffuse ache with intermittent stabbing sensations radiating across the chest, into the back, and down the right arm, with episodes lasting a few minutes and rated 6 out of 10 in intensity. Associated symptoms include sweating, palpitations, and mild nausea, without shortness of breath or lightheadedness; there are no clear triggers, and the pain occurs both at rest and with activity. Relevant history includes hypertension and hyperlipidemia, but no prior heart problems or diabetes. This is the first occurrence of these symptoms for the patient. The clinical impression was concern for a possible heart-related cause given the symptom profile and risk factors. The doctor recommended prompt evaluation in an emergency setting to rule out cardiac causes, including ECG and blood tests, and advised seeking immediate care if symptoms worsen. The patient agreed to arrange for urgent assessment.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.498
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 156 words
+

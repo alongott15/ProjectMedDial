@@ -87,16 +87,21 @@ Let me know if you have any questions about what weâ€™ve discussed or if thereâ€
 
 ## EHR Summary
 
-The patient is a 54-year-old female presenting with headache. She reported extensive headaches associated with a right-sided sphenoid meningioma, which had been stable on imaging but refractory to medical management. Her past medical history includes valvular heart disease and occasional heartburn, and she has no known drug allergies. On physical exam, she was alert and oriented, with normal neurological findings and a well-healing surgical incision; headaches persisted but were better controlled with revised medications. Laboratory results were notable for a glucose of 163 mg/dL and otherwise unremarkable basic labs. The documented diagnosis was right-sided sphenoid meningioma. She underwent elective right craniotomy for mass resection without perioperative complications. Postoperative pain was effectively managed with oral medications, and she progressed well during her hospital stay.
+The patient is a 54-year-old female presenting with headache. She had a history of extensive headaches and was found to have a right-sided sphenoid meningioma, which was stable on imaging but refractory to medical management. Her past medical history includes valvular heart disease and occasional heartburn, and she has no known drug allergies. The documented diagnosis was right-sided brain mass. She underwent an elective right craniotomy for mass resection without perioperative complications, and her postoperative pain was effectively managed with oral medications. At discharge, she was neurologically stable, with headaches controlled to some degree on a revised medication regimen. The treatment plan included lamotrigine, quetiapine, docusate sodium, butalbital-acetaminophen-caffeine, ibuprofen, and hydromorphone as needed for pain, along with instructions for activity limitation, wound care, and follow-up for suture/staple removal. She was discharged home with visiting nurse services and advised to monitor for signs of infection or neurological changes.
+
 
 ## Dialogue Summary
 
-The patient presented with headaches as the chief complaint. The headaches began a few days ago, are steady in nature, and rated at 6 out of 10 in intensity; no specific triggers or time patterns were identified. The patient also reported increased fatigue since cranial surgery, with extra rest providing only partial relief, and noted that tiredness has made it harder to keep up with usual activities. No changes in vision, balance, speech, appetite, sleep patterns, or sensitivity to light or sound were reported. Relevant history includes recent cranial surgery. On assessment, the doctor noted the absence of concerning neurological symptoms and classic migraine features, attributing the fatigue to post-surgical recovery. The doctor recommended pacing activities, allowing extra rest, staying hydrated, gentle movement as tolerated, and maintaining a regular sleep schedule. The patient was advised to monitor for any new or worsening symptoms and seek prompt medical attention if they occur.
+The patient is an adult presenting with headaches as the chief complaint. The headaches began a few days ago, are steady in nature, and rated at 6 out of 10 in intensity; there is no clear trigger or association with specific activities, and no sensitivity to light or sound. The patient also reports increased fatigue since recent cranial surgery, which is only partially relieved by rest and has impacted daily activities, though there are no changes in vision, balance, speech, appetite, or sleep patterns. Relevant history includes recent cranial surgery. The clinical impression is that the headaches and ongoing fatigue are likely related to post-surgical recovery, with no evidence of migraine or new neurological deficits. The treatment plan includes pacing activities, allowing extra rest, staying hydrated, engaging in gentle movement as tolerated, and maintaining a regular sleep schedule. The patient was advised to monitor for any worsening headaches or new neurological symptoms and to seek prompt medical attention if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.648
+- **Model Used**: general
+- **Text1 Length**: 147 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

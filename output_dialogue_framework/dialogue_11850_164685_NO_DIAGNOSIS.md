@@ -99,16 +99,21 @@ Would you like more detail on any of these stretches or tips?
 
 ## EHR Summary
 
-The patient is a 52-year-old male admitted for management of pulmonary infection and pain. He was found to have Methicillin-resistant Staphylococcus aureus (MRSA) on bronchoalveolar lavage following bronchoscopy, and was treated with vancomycin for six weeks and metronidazole for two weeks for aspiration coverage. The patient experienced hip and back pain, which improved significantly with a regimen of Neurontin, Celebrex, Tylenol, and oxycodone. A video swallowing study indicated persistent high aspiration risk, and tube feeding was recommended, but the patient chose to continue oral intake of thickened liquids with close monitoring. Hematology evaluation revealed a slowly decreasing hematocrit to 24.7 without an identified bleeding source; he received two units of packed red blood cells. At discharge, his pulmonary status had returned to baseline. The plan included continued antibiotics, pain management, careful monitoring of oral intake, and follow-up swallowing studies.
+The patient is a 52-year-old male admitted primarily for management of pneumonia and aspiration risk. He experienced pulmonary symptoms related to pneumonia, with bronchoscopy revealing Methicillin-resistant Staphylococcus aureus, and was noted to be at high risk for aspiration based on a video swallowing study; he elected to continue oral intake of thickened liquids despite recommendations for tube feeding. His medical history includes status post cerebrovascular accident with left-sided hemiparesis, seizure disorder, congestive heart failure, coronary artery disease, depression, bilateral hip fractures, and paroxysmal atrial fibrillation status post cardioversion. During hospitalization, he also reported significant hip and back pain, which improved with a regimen of Neurontin, Celebrex, Tylenol, and oxycodone. The documented diagnoses were pneumonia, aspiration risk, and multiple chronic conditions as listed above. Treatment included intravenous vancomycin for six weeks, metronidazole for aspiration coverage, pain management medications, transfusion for anemia, and adjustment of anticoagulation therapy due to a supertherapeutic INR. He was advised to have his oral intake monitored by speech and swallow specialists and to undergo a repeat swallowing study in one to two months. At discharge, his condition was improved and he was transferred to another facility for continued care.
+
 
 ## Dialogue Summary
 
-The patient presented with hip and back pain that began a few days ago and has remained about the same in severity. The pain is rated as 6 out of 10, is worsened by changing positions or movement, and is relieved somewhat by sitting still; it also disrupts sleep and makes daily activities more difficult. The patient denied any new numbness, tingling, or weakness in the legs, though noted pre-existing left-sided weakness from a prior stroke, and reported no recent changes in physical activity or lifting. On review, there were no new neurological symptoms or other concerning features described. The doctor assessed the discomfort as most likely due to muscle or joint strain, given the absence of new nerve symptoms and lack of recent physical changes. The treatment plan included recommendations for gentle stretching (such as knee-to-chest and hip rotations), heat therapy, pacing activities, supportive seating, and monitoring for any new or worsening symptoms such as weakness, numbness, fever, or loss of bladder/bowel control. The patient requested further detail on stretches and demonstrated understanding of the plan.
+The patient is an adult presenting with hip and back pain as the chief complaint. The pain began a few days ago, has remained stable at 6 out of 10 in severity, is worsened by changing positions or movement, and is alleviated by sitting still; it also disrupts sleep. There are no new symptoms of numbness, tingling, or weakness, though the patient has pre-existing left-sided weakness from a prior stroke. The discomfort has made daily activities and getting up from a chair more difficult but is not associated with any recent changes in physical activity or trauma. The clinical impression is that the pain is most likely due to muscle or joint strain rather than a serious underlying condition. The treatment plan includes gentle stretching exercises, application of heat, pacing activities, supportive seating, and monitoring for any new or worsening symptoms such as weakness, numbness, fever, or loss of bladder/bowel control. The patient was provided with specific advice on stretches and self-care measures to manage the pain at home.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.443
+- **Model Used**: general
+- **Text1 Length**: 192 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

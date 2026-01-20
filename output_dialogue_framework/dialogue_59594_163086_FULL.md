@@ -89,16 +89,21 @@ Do you have any questions or concerns about what we’ve discussed so far?
 
 ## EHR Summary
 
-The patient is a 63-year-old male presenting with lower abdominal pain. The pain had been present since Tuesday, was relieved by lying supine and taking muscle relaxants, and was associated with decreased volume of green pea stools and passage of flatus; there were no fevers, chills, nausea, or vomiting. His medical history includes Crohn's colitis, multiple sclerosis with quadriplegia and neurogenic bladder, type 2 diabetes mellitus, prior DVT, BPH status post TURP, depression, and a sacral decubitus ulcer colonized with VRE. On physical exam, he was alert and oriented, vital signs were stable, lungs were clear, and the abdomen was soft and non-tender with a functioning ostomy. Laboratory results showed mild anemia but no leukocytosis. The documented diagnosis was lower abdominal pain in the setting of Crohn's colitis. He underwent a sigmoid colectomy with Hartmann's procedure and end colostomy. Postoperative care included monitoring and supportive management.
+The patient is a 63-year-old male presenting with lower abdominal pain. His pain had persisted for several days, was relieved by lying supine and muscle relaxants, and was associated with decreased stool volume but continued passage of flatus; he denied fever, chills, nausea, or vomiting. Relevant history includes multiple comorbidities such as Crohn's colitis, diabetes mellitus type 2, multiple sclerosis with quadriplegia and neurogenic bladder, prior DVT, and no known drug allergies. Imaging revealed a distended colon with mesocolonic twist consistent with early sigmoid volvulus. The documented diagnosis was sigmoid volvulus. Initial colonoscopic decompression was unsuccessful, so he underwent sigmoid colectomy with Hartmann's procedure and end colostomy. Postoperatively, he recovered well with stable vital signs, tolerated a regular diet, and received ostomy care education; his pain was controlled with oral medications. Discharge instructions included wound care, activity restrictions, INR monitoring for anticoagulation, and follow-up with surgery and urology.
+
 
 ## Dialogue Summary
 
-The patient presented with visible blood in the urine. Hematuria occurred a couple of times, with bright red blood noted and no clots; there was no associated pain, discomfort with urination, changes in frequency, or abdominal/back pain. The patient reported feeling anxious about the symptom but had no impact on daily activities and did not observe any pattern related to time of day or diet. Relevant history included no prior kidney, bladder, or prostate issues, no recent urinary tract injuries or procedures, and episodes of oxygen saturation dropping into the high 80s, frequent secretions, poor cough, and hoarse voice; no faintness was reported. No physical findings were described during the visit. The doctor assessed that painless hematuria could be due to causes such as an enlarged prostate, small blood vessels, or mild irritation, and noted that respiratory symptoms may be unrelated but also require attention. The doctor recommended a urine test and possible imaging for the hematuria if it persists, and advised discussing respiratory symptoms and oxygen drops with the patient’s regular doctor. The patient was instructed to seek prompt care if symptoms worsen (weakness, large amounts of blood or clots, pain, fever, or shortness of breath) and to follow up for basic tests.
+The patient presents with visible blood in the urine (hematuria) as the chief complaint. The hematuria has occurred more than once, is described as bright red, and is not associated with pain, dysuria, changes in urinary frequency, or abdominal/back pain; no clots were noted. The patient denies any prior history of kidney, bladder, or prostate issues and reports no recent urinary tract injuries or procedures. Additional symptoms include episodes of oxygen desaturation into the high 80s, frequent secretions with a poor cough, and hoarseness, but no fainting or significant functional impairment. The clinical impression is that the hematuria may be due to benign causes such as mild irritation or vascular issues, but further evaluation is warranted; the respiratory symptoms are considered a separate concern. The treatment plan includes obtaining a urine test to check for infection or other causes and considering urinary tract imaging if hematuria persists. The patient is advised to follow up with their regular doctor regarding the respiratory symptoms and to seek prompt care if symptoms worsen (e.g., increased bleeding, pain, fever, or shortness of breath). No specific diagnosis was documented during this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.282
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 187 words
+
 
 ## Processing Information
 

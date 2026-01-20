@@ -87,16 +87,21 @@ Let me know if you've ever had similar symptoms before, or if you have any chron
 
 ## EHR Summary
 
-The patient is a 52-year-old female presenting with abdominal distention. She reports a 3-month history of increasing abdominal girth, acutely worsening over the past three weeks, accompanied by dyspnea and lower extremity edema. Additional symptoms include mild periumbilical pain, possible chills, nausea, vomiting, yellowing of the eyes, dark urine, and tarry stools; she denies fever, headache, and chest pain. Her medical history includes hypertension, hypercholesterolemia, alcohol dependence, and a 40-pack-year smoking history; she has no known drug allergies and was not on medications at admission. On examination, she was anxious but in no acute distress, with a distended and taut abdomen, periumbilical tenderness, tachycardia (heart rate 125), and clear lungs. No explicit diagnosis or treatment plan is documented in the provided note.
+The patient is a 52-year-old female presenting with abdominal distention. She reported a 3-month history of increasing abdominal girth, acutely worsening over the last three weeks, accompanied by dyspnea, lower extremity edema, mild periumbilical pain, possible chills, nausea, vomiting, jaundice, dark urine, and melena. Her relevant history includes hypertension, hypercholesterolemia, alcohol dependence, and a 40-pack-year smoking history; she has no known drug allergies and was not on medications at admission. Physical exam revealed a distended, tender abdomen, bilateral lower extremity edema, spider angiomata, and palmar erythema. Imaging and biopsy confirmed ascites due to chronic liver disease with toxic metabolic injury and fibrosis, likely related to alcohol use; portal hypertension was also documented. The treatment plan included aggressive diuresis with furosemide and spironolactone, pentoxifylline, vitamin supplementation (folic acid, thiamine), pantoprazole, and supportive care; antibiotics were given prophylactically and discontinued when infection was ruled out. The patient received blood transfusions for a drop in hematocrit but no source of gastrointestinal bleeding was found. She was discharged home in stable condition with follow-up arranged in the Liver Clinic and primary care.
+
 
 ## Dialogue Summary
 
-The patient presented with abdominal distention that has been progressively worsening over several days. Additional symptoms include constant bilateral leg swelling (worse by evening), persistent shortness of breath (unrelated to position or activity), decreased appetite, nausea, vomiting related to abdominal fullness, darker urine, and recent yellowing of the eyes. The patient denied chest discomfort, heart palpitations, and recent travel or dietary changes. Relevant history includes hypertension and high cholesterol, with no prior heart or kidney problems reported; no medication or allergy information was provided. On review, the doctor noted the combination of abdominal fullness, dyspnea, leg edema, darker urine, and jaundice. The assessment was that these symptoms may indicate fluid retention possibly related to heart, liver, or kidney dysfunction. The doctor recommended daily weight monitoring, reducing salt intake, and watching for new symptoms such as chest pain or rapid weight gain, and advised seeking prompt care if breathing worsens or faintness occurs. The patient was asked about any similar prior episodes or chronic conditions to help guide further evaluation.
+The patient is an adult presenting with abdominal distention as the chief complaint. Symptoms have been present for several days and include progressive abdominal fullness, constant lower extremity edema (worse by evening), persistent dyspnea (not position-dependent), decreased appetite, nausea, vomiting, and recent onset of darker urine; the patient also reports yellowing of the eyes. There is no history of recent travel, dietary, or activity changes, and no chest discomfort or palpitations. Relevant history includes hypertension and hyperlipidemia, but no known heart or kidney disease. The clinical impression discussed by the physician is possible fluid retention related to underlying heart, liver, or kidney dysfunction. The patient was advised to monitor daily weight, limit salt intake, and observe for worsening symptoms such as chest pain or rapid weight gain; urgent care was recommended if severe dyspnea or faintness occurs. No specific diagnosis or medication changes were documented during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.978
-- **Similarity Label**: N/A
+- **STS Score**: 0.638
+- **Model Used**: general
+- **Text1 Length**: 178 words
+- **Text2 Length**: 148 words
+
 
 ## Processing Information
 

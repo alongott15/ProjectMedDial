@@ -87,16 +87,21 @@ Is there anything else you've noticed—such as swelling in your legs or trouble
 
 ## EHR Summary
 
-The patient is a 42-year-old male presenting for ethanol (EtOH) ablation due to hypertrophic cardiomyopathy with increasing shortness of breath (SOB). His symptoms included progressive dyspnea, particularly on inclines and stairs, without paroxysmal nocturnal dyspnea, orthopnea, or edema. Relevant history includes hypertrophic cardiomyopathy (LVOT rest 65 mm, EF 75%), significant family history of sudden cardiac death, prior ICD and pacemaker placement for nonsustained ventricular tachycardia, and intolerance to beta-blockers and verapamil. Physical exam revealed a III/VI systolic murmur at the right upper sternal border, clear lungs, and no edema. Cardiac catheterization showed normal coronary arteries and successful ethanol ablation of the first two septa with marked reduction of the outflow gradient. The documented diagnosis was hypertrophic cardiomyopathy with left ventricular outflow tract obstruction. Treatment included ethanol ablation and continued monitoring post-procedure. The patient is allergic to vancomycin.
+The patient is a 42-year-old male presenting for ethanol (EtOH) ablation due to hypertrophic obstructive cardiomyopathy (HOCM) with increasing shortness of breath (SOB). His dyspnea had worsened, particularly with exertion such as climbing stairs or walking on inclines, though he could walk long distances on flat surfaces; there was no paroxysmal nocturnal dyspnea, orthopnea, or edema. Relevant history includes HOCM with left ventricular outflow tract obstruction, prior ICD and pacemaker placement for non-sustained ventricular tachycardia, intolerance to beta-blockers and verapamil, and a family history of sudden cardiac death. The documented diagnosis was HOCM status post ethanol septal ablation. Treatment included successful EtOH ablation with marked reduction in gradient, initiation of aspirin 325 mg daily for at least 6 months, and resumption of Cardizem SR 120 mg twice daily. The patient was discharged home in stable condition with instructions to monitor for worsening symptoms and follow up with cardiology.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath, particularly during exertion such as climbing stairs or walking uphill, and requested evaluation prior to alcohol ablation. Symptoms included exertional shortness of breath, pressure-like chest pain lasting a few minutes and resolving with rest, and associated nausea; the patient denied lightheadedness, sweating, wheezing, cough, leg swelling, or orthopnea. The patient reported that symptoms have gradually worsened over time and have begun to limit daily activities. Relevant history includes planned alcohol ablation, suggesting underlying cardiac disease; no medications or allergies were mentioned. On review, the doctor noted absence of respiratory symptoms such as wheezing or cough and no peripheral edema. The assessment was that symptoms could be cardiac or pulmonary in origin, but the lack of respiratory findings made a lung cause less likely; exertional symptoms may indicate underlying cardiac ischemia. The doctor advised the patient to pace activities, avoid pushing through symptoms, and seek urgent care if symptoms occur at rest or are accompanied by severe pain, fainting, or sweating.
+The patient presents for alcohol ablation with a chief complaint of exertional shortness of breath. Symptoms include dyspnea and pressure-like chest pain that occur during physical activity (such as climbing stairs or walking uphill) and improve with rest; these episodes are sometimes accompanied by nausea but not by wheezing, cough, lightheadedness, or sweating. The patient reports that symptoms have been worsening over time and have begun to limit daily activities. There is no history of leg swelling or orthopnea. Relevant history of cardiac disease is implied by the planned alcohol ablation, though specific diagnoses and medications are not specified. The clinical impression is that symptoms may be cardiac in origin, given the exertional nature and associated chest pressure, with pulmonary causes considered less likely due to the absence of respiratory symptoms. The patient was advised to pace activities, avoid pushing through symptoms, and seek urgent care if symptoms occur at rest or are accompanied by severe pain, fainting, or sweating. No new medications or interventions were initiated during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.709
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

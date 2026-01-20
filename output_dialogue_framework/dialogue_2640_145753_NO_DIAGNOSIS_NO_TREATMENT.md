@@ -106,3 +106,21 @@ Otherwise, it’s reasonable to monitor things for a few more days. Most of the 
 ## Processing Information
 
 - **Processing Time**: 336.0s
+
+## EHR Summary
+
+The patient is an 80-year-old female who presented after a mechanical fall in the bathroom. She reported left leg pain following the fall but denied prodromal symptoms, loss of consciousness, head trauma, shortness of breath, or chest pain. Her history is notable for a recent pulmonary embolism on Coumadin therapy and baseline chronic kidney disease. Imaging revealed a displaced spiral fracture of the left tibia and fibula, and she subsequently underwent open reduction and internal fixation after INR normalization. Postoperatively, she developed hypoxemic and hypercarbic respiratory failure likely due to congestive heart failure from aggressive fluid resuscitation, as well as a left lower lobe pneumonia treated with ceftriaxone and azithromycin. She also experienced transient acute renal failure that improved to baseline. The documented diagnoses included left tibia/fibula fracture, postoperative respiratory failure, pneumonia, congestive heart failure, and acute renal failure. At discharge, she was stable and transferred to a rehabilitation facility with instructions for nonweightbearing status on the left lower extremity, continued anticoagulation, antibiotics, and follow-up with orthopedics and her primary care provider.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with decreased appetite as the chief complaint. Over the past few days, they have experienced reduced eating, intermittent low-grade fevers without chills or sweating, and mild, occasional diarrhea. There has been no reported weight loss, dehydration, changes in taste, dry mouth, or difficulty swallowing. No specific pattern to the symptoms was identified. Relevant medical history, medications, and allergies were not specified. The clinical impression was a mild, self-limited illness likely due to a minor viral infection or stomach bug. The treatment plan included supportive care with a focus on maintaining hydration, eating small bland meals as tolerated, and monitoring for new or worsening symptoms such as persistent high fever, significant weakness, confusion, or signs of dehydration. The patient was advised to seek further evaluation if concerning symptoms develop but otherwise to expect gradual improvement over the next few days.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.351
+- **Model Used**: general
+- **Text1 Length**: 172 words
+- **Text2 Length**: 145 words
+

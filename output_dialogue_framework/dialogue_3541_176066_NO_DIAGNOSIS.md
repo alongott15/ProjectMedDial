@@ -87,16 +87,21 @@ Would you like guidance on how to arrange a prompt evaluation, or do you have an
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with chronic left infraorbital and cheek pain, described as facial pain persisting for 3-4 years, partially relieved by Tegretol. Imaging revealed a left petrous sphenoid meningioma compressing the brainstem, but he had no neurological deficits, seizures, incontinence, or falls prior to surgery. Relevant history includes long-standing facial pain and use of Tegretol for symptom management; no medication allergies are specified. Preoperative laboratory values were within normal limits, and intraoperative and postoperative courses were stable except for a transient drop in platelet count, managed with a transfusion. The documented diagnosis was status post craniotomy for excision of meningioma. Postoperatively, he experienced diplopia that resolved before discharge and had a slightly unsteady gait, for which he was provided a cane. Physical and occupational therapy evaluations were performed, and follow-up therapy was arranged for home. He was advised not to walk unassisted due to his gait instability.
+The patient is a 58-year-old male presenting with chronic left infraorbital and cheek pain, described as facial pain persisting for 3-4 years, partially relieved by Tegretol. He had no neurological deficits, seizures, incontinence, or falls prior to admission. Imaging revealed a left petrous sphenoid meningioma compressing the brain stem. The documented diagnosis was status post craniotomy for excision of meningioma. He underwent a left presigmoid occipital craniotomy for tumor removal, with an unremarkable intraoperative course and stable pre- and postoperative condition. Postoperatively, he experienced transient diplopia that resolved before discharge and had a slightly unsteady gait, for which he was provided a cane and referred for physical and occupational therapy follow-up. He received one unit of platelets postoperatively due to a transient drop in platelet count. Discharge instructions included assisted ambulation at home, staple removal prior to follow-up, and continued therapy, with his wife available for support.
+
 
 ## Dialogue Summary
 
-The patient presented with pain on the left side of the face, specifically around the cheek and under the eye. The pain has been present for a while, comes and goes, is described as sharp, and is rated 6 out of 10 in severity; no specific triggers were identified. Additional symptoms include intermittent double vision, which is more noticeable when looking in certain directions and resolves when one eye is closed, as well as feeling off-balance when walking; no congestion, numbness, recent injuries, dental work, or infections were reported. The patient denied any history of facial trauma or dental procedures. On clinical assessment, the doctor noted the combination of sharp facial pain, binocular double vision, and unsteadiness, suggesting possible nerve or muscle involvement around the left eye rather than sinus or dental causes. The doctor recommended a prompt and thorough evaluation within the next day or two due to concern for a nerve issue. The patient was advised to seek immediate medical attention if new symptoms such as limb weakness, trouble speaking or swallowing, severe headache, or vision loss develop. Guidance on arranging an evaluation was offered.
+The patient is an adult presenting with left-sided facial pain as the chief complaint. The pain is described as sharp, rated 6 out of 10 in severity, located around the left cheek and under the eye, and has been present for an unspecified duration with intermittent episodes. Additional symptoms include intermittent double vision that resolves when one eye is closed and a sensation of being off-balance when walking; there is no associated congestion, numbness, recent injury, dental work, or infection. The double vision occurs primarily in certain directions of gaze and suggests involvement of both eyes. The clinical impression is that these symptoms may indicate a problem affecting the nerves or muscles controlling eye movement, rather than a minor issue such as sinusitis or dental pathology. No formal diagnosis was documented, but possible nerve involvement was discussed. The treatment plan includes arranging a prompt evaluation within the next day or two and instructions to seek immediate medical attention if new neurological symptoms develop. Guidance on arranging further evaluation was offered.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.413
+- **Model Used**: general
+- **Text1 Length**: 147 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

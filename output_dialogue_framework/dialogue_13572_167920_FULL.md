@@ -69,16 +69,21 @@
 
 ## EHR Summary
 
-The patient is a 59-year-old male presenting with chest pain as the chief complaint. Three days prior to admission, he experienced throat pain radiating to his sternum and left arm during exercise, which resolved with rest and aspirin; symptoms later progressed to 8/10 chest pain. He has no significant past medical history or cardiac risk factors but has a family history of coronary artery disease. On admission, physical exam was notable for normal vital signs and no acute distress. EKG revealed anterior ST elevations and reciprocal inferior depressions, and cardiac enzymes were positive. The documented diagnosis was acute coronary syndrome with anterior ST-elevation myocardial infarction (STEMI). He was treated with aspirin, Heparin, Integrilin, nitroglycerin, and underwent percutaneous transluminal coronary angioplasty (PTCA) to the left anterior descending artery (LAD). Cardiac function was preserved with a cardiac index of 2.5 and normal hemodynamics.
+The patient is a 59-year-old male presenting with chest pain that began as throat pain radiating to the sternum and left arm during exercise, resolving with rest and aspirin. Three days later, he developed severe (8/10) chest pain and was found to have anterior ST elevations and reciprocal inferior depressions on ECG, with positive cardiac enzymes. His past medical history includes actinic keratosis and superficial basal cell carcinoma, with no known drug allergies and no significant cardiac risk factors, though there is a strong family history of coronary artery disease. The documented diagnosis was an acute anterior ST-elevation myocardial infarction (STEMI) due to total occlusion of the LAD, for which he underwent percutaneous transluminal coronary angioplasty (PTCA). Hospital course included initiation of aspirin, statin, beta blocker, ACE inhibitor, and Plavix, with monitoring in the CCU and subsequent transfer to the floor. Echocardiogram showed an ejection fraction of 40–45% with anterior septal apical hypokinesis to akinesis. Discharge recommendations included continuation of cardiac medications, outpatient cardiac rehabilitation, and follow-up cholesterol panel and echocardiogram.
+
 
 ## Dialogue Summary
 
-The patient presented with throat pain that radiates to the chest and sometimes down the left arm, primarily during exercise. The pain is rated as a 6 out of 10 in intensity during exercise, has been occurring for a couple of weeks, and is triggered by more strenuous activity such as brisk walking or treadmill use; it does not occur at rest or with light activity. The discomfort resolves quickly after stopping exercise. The patient also reported feeling anxious during these episodes but denied associated shortness of breath, sweating, or lightheadedness. No relevant medical history, medications, or allergies were mentioned. No physical findings were described in the conversation. The doctor did not provide a specific assessment or working diagnosis during the dialogue. No treatment plan or recommendations were given before the simulation ended.
+The patient presents with throat pain radiating to the chest and left arm as the chief complaint. The pain is rated 6 out of 10 in intensity, occurs exclusively during exercise (such as brisk walking or treadmill use), and resolves quickly with rest; it has been present for approximately two weeks. The patient denies associated symptoms of dyspnea, diaphoresis, or lightheadedness but reports anxiety during episodes. The discomfort does not occur at rest or with light activity. Relevant medical history, medications, and allergies are not specified. No formal diagnosis was documented during the encounter. No specific treatment or recommendations were provided in the dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.431
+- **Model Used**: general
+- **Text1 Length**: 171 words
+- **Text2 Length**: 104 words
+
 
 ## Processing Information
 

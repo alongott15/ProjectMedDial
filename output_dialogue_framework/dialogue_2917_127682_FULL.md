@@ -97,16 +97,21 @@ Let me know if you have any questions about what to expect or what to watch for 
 
 ## EHR Summary
 
-The patient is a 54-year-old male presenting with chest pain as the chief complaint. He initially experienced exertional chest pain, which progressed to rest angina requiring frequent sublingual nitroglycerin, and subsequently developed recurrent chest pain with ST elevations. His relevant history includes hypertension, hypercholesterolemia, prior myocardial infarction, unstable angina, and former tobacco use; he has no known drug allergies. Cardiac catheterization revealed significant coronary artery disease: 70% proximal left anterior descending, mid-90% left circumflex, and subtotal right coronary artery lesions, with the right coronary artery stented due to ST elevations. Laboratory data were notable for normal white cell count, hemoglobin, hematocrit, and electrolytes. The documented diagnosis was unstable angina with ongoing ischemia. Treatment included intravenous nitroglycerin, Aggrastat drip, aspirin, Plavix, Imdur, and other cardiac medications, with plans for preoperative coronary artery bypass grafting and close monitoring in the Coronary Care Unit.
+The patient is a 54-year-old male presenting with chest pain, initially exertional and progressing to rest angina requiring frequent sublingual nitroglycerin. Symptoms included persistent chest pain with ST elevations, both at rest and during a stress test, leading to hospital admission and further intervention. Relevant history includes hypertension, hypercholesterolemia, prior myocardial infarction, unstable angina, and former tobacco use; there are no known drug allergies. Cardiac catheterization revealed three-vessel coronary artery disease with significant stenoses, and the documented diagnosis was coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) x3, followed by two re-explorations for postoperative bleeding and treatment for atrial flutter with amiodarone and Lopressor. Postoperative recovery included ambulation, stable vital signs, and a short course of Bactrim for a postoperative fever. At discharge, the patient was stable and prescribed metoprolol, potassium supplements, lasix, aspirin, Bactrim DS, and amiodarone, with instructions for home care and follow-up in one month.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain, which has recently become less predictable, now occurring both with activity (such as walking or climbing stairs) and at rest. The pain is described as central, lasting a few minutes per episode, rated 6–7 out of 10 in intensity, and sometimes relieved by nitroglycerin or rest. Additional symptoms and history include postoperative bleeding, a recent episode of atrial flutter accompanied by heart racing but no unusual fatigue, and a fever of 101.3°F; the patient denied significant sweating or lightheadedness. The doctor noted the shift in chest pain pattern from exertional to also occurring at rest, and highlighted the recent fever and arrhythmia as concerning changes. The assessment was that these developments may indicate increased cardiac stress or a change in the underlying heart condition, possibly related to oxygen supply. The doctor recommended prompt evaluation in an emergency or urgent care setting to rule out serious heart-related complications, and advised immediate attention if severe pain, shortness of breath, or faintness occur. The patient agreed to arrange for evaluation the same day and demonstrated understanding of the recommendations.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is described as central, moderate to severe (rated 6–7/10), lasting a few minutes per episode, and initially triggered by exertion but now also occurring unpredictably at rest. Some episodes are relieved by nitroglycerin or rest, while others resolve spontaneously; there is no associated diaphoresis or lightheadedness, but the patient reports recent postoperative bleeding, a documented episode of atrial flutter with palpitations, and a fever of 101.3°F. Relevant history includes prior mention of ST elevation and use of nitroglycerin. The clinical impression is that the chest pain pattern has changed from exertional to include rest pain, raising concern for possible unstable angina or other acute cardiac complication, especially in the context of recent arrhythmia, fever, and postoperative bleeding. The physician recommends prompt evaluation in an emergency or urgent care setting to rule out serious cardiac issues. The patient is advised to seek immediate care if symptoms worsen or if severe pain, dyspnea, or syncope develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.617
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

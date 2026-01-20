@@ -89,16 +89,23 @@ Does that make sense? Do you have any questions or concerns about what we've dis
 
 ## EHR Summary
 
-The patient is a 64-year-old female presenting with recent onset of exertional chest discomfort radiating to her shoulders. Symptoms began shortly before admission and prompted cardiac catheterization, which revealed 80-90% stenosis of the left main coronary artery, with lesser involvement of the circumflex and right coronary arteries, and a preserved ejection fraction of 70%. Her past medical history includes coronary artery disease, asthma (with prior intubation), hypertension, gastroesophageal reflux disease, oophorectomy, and hypercholesterolemia; she is allergic to sulfa drugs. On examination, she was hemodynamically stable with a systolic ejection murmur and clear lungs. The documented diagnosis was severe left main coronary artery disease. She was transferred for coronary artery bypass grafting. Her medication regimen included theophylline, Singulair, Advair, Lipitor, Prilosec, aspirin, Imdur, and Lopressor.
+The patient is a 64-year-old woman presenting with recent onset of exertional chest discomfort radiating to her shoulders. Symptoms prompted cardiac catheterization, which revealed significant left main coronary artery disease (80-90% stenosis) with preserved ejection fraction. Her past medical history includes coronary artery disease, asthma (with prior intubation), hypertension, gastroesophageal reflux disease, hypercholesterolemia, and prior oophorectomy; she is allergic to sulfa. The documented diagnosis was coronary artery disease status post coronary artery bypass grafting (CABG) x2, along with asthma, hypertension, GERD, and hypercholesterolemia. She underwent successful CABG with a left internal mammary artery graft to the LAD and a saphenous vein graft to the obtuse marginal, followed by an uneventful postoperative recovery. At discharge, her condition was good, and she was prescribed medications including furosemide, potassium chloride, aspirin, theophylline, Singulair, inhaled corticosteroids and bronchodilators, atorvastatin, metoprolol, and Percocet as needed. She was advised to follow up in the clinic in two weeks and with her physicians at four and six weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort during exertion, which radiates to the shoulders. The discomfort occurs specifically with physical activity such as walking and does not appear at rest; it has been present for a few days and is described as moderate in severity, causing the patient to slow down or stop activity until it resolves. The patient also experiences mild shortness of breath with the discomfort but denies lightheadedness or sweating, and reports that symptoms resolve within minutes of resting. No prior history of similar symptoms was noted, and no medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the exertional nature of the chest discomfort, its resolution with rest, and associated shortness of breath. The assessment was that the symptoms could suggest angina due to possible insufficient cardiac oxygenation during exertion, though other causes like muscle strain or acid reflux were also considered. The doctor recommended further evaluation including an EKG and possibly blood tests or a stress test, advised the patient to avoid strenuous activity until workup is complete, and instructed to seek immediate care if symptoms worsen or new concerning features develop.
+The patient is an adult presenting with exertional chest discomfort as the chief complaint. The discomfort is described as moderate in severity, radiates to the shoulders, occurs specifically during physical activity such as walking, and resolves within a few minutes of rest; it has been present for a few days without significant change. The patient also reports associated shortness of breath during episodes but denies lightheadedness or sweating, and has not experienced similar symptoms previously. Relevant medical history, medications, and allergies are not specified.
+
+The clinical impression documented by the physician is possible angina, given the exertional nature, radiation of discomfort, and prompt relief with rest. Other potential causes such as musculoskeletal pain or acid reflux were considered less likely based on the symptom pattern. The treatment plan includes arranging further evaluation with an EKG and possibly blood tests or a stress test, and advising the patient to avoid strenuous activity until assessment is complete. The patient was also instructed to seek immediate medical attention if symptoms worsen, occur at rest, or are accompanied by sweating, nausea, or fainting.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.525
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

@@ -93,16 +93,21 @@ If you notice sudden worsening—like severe chest pain, very rapid breathing at
 
 ## EHR Summary
 
-The patient is a 58-year-old female presenting with dyspnea. She reports a 2-month history of malaise, increased shortness of breath, fatigue, mild cough productive of brown sputum, pleuritic chest pain with cough, and recent fevers and chills for two days. Her past medical history includes poorly controlled type 2 diabetes with nephropathy, hypertension, coronary artery disease status post 5-vessel CABG, hypercholesterolemia, prior hip fracture, and depression; she has no known drug allergies. On admission, she was ill-appearing with a blood gas of 7.44/39/68 and was taking multiple medications including Toprol-XL, Paxil, Evista, Procardia, lisinopril, aspirin, Lasix, Colace, and insulin. In the Emergency Department, she received ceftriaxone, azithromycin, Lasix, and a nitroglycerin drip for hypertension. The documented diagnosis is not explicitly stated in the note. The treatment plan included antibiotics for presumed infection and management of hypertension and fluid status.
+The patient is a 58-year-old female presenting with dyspnea. She reported a 2-month history of malaise, increased shortness of breath, productive cough with brown and blood-tinged sputum, pleuritic chest pain, and recent fevers and chills. Her medical history includes poorly controlled type 2 diabetes with nephropathy, hypertension, coronary artery disease status post 5-vessel CABG, hypercholesterolemia, prior hip fracture, and depression; she has no known drug allergies. On admission, she was found to have a left lower lobe pneumonia, cardiac ischemia (elevated troponin in the setting of hypoxia), acute renal failure secondary to dehydration, and anemia. Treatment included ceftriaxone and levofloxacin for pneumonia, aggressive diuresis and ACE inhibitor adjustment for renal function and edema, insulin regimen optimization for diabetes, and transfusion for anemia. She was discharged in stable condition on a regimen including Lasix, lisinopril, insulin, and a 14-day course of levofloxacin, with instructions for close follow-up with her primary care physician and cardiology evaluation.
+
 
 ## Dialogue Summary
 
-The patient presented with difficulty catching their breath. They reported several days of gradually worsening shortness of breath, which is aggravated by activity and now occurs even at rest, along with chest pain when coughing, swelling in the legs and ankles, increased fatigue, fevers, chills, and feeling generally unwell. The patient denied waking at night due to shortness of breath or needing extra pillows to sleep but noted that daily activities like walking or climbing stairs have become more difficult. Additional symptoms mentioned included pale hands and feet and occasional episodes of a racing heart. No relevant past medical history, medications, or allergies were discussed. On assessment, the doctor noted the combination of worsening breathlessness, peripheral swelling, fatigue, and constitutional symptoms, suggesting possible fluid retention related to cardiac or infectious causes. The doctor recommended checking vital signs, performing a physical exam, and possibly ordering blood tests or a chest X-ray to evaluate heart and lung function and rule out infection. The patient was advised to keep their legs elevated, monitor for new or worsening symptoms such as sudden chest pain or severe shortness of breath, and seek immediate care if these occur.
+The patient presents with the chief complaint of difficulty breathing (shortness of breath). Symptoms began a few days ago and include gradually worsening dyspnea, chest discomfort with coughing, swelling in the legs and ankles, fatigue, fevers, chills, and occasional paleness of hands and feet; symptoms are exacerbated by activity and now occur even at rest. The patient denies waking at night due to shortness of breath or needing extra pillows to sleep. Relevant history, medications, and allergies are not specified. The clinical impression is that the symptoms are likely due to fluid retention, possibly related to cardiac issues or infection. The treatment plan includes performing a physical exam, checking vital signs, and possibly ordering blood tests or a chest X-ray to evaluate heart and lung function and check for infection. The patient is advised to keep their legs elevated when sitting and to monitor for new or worsening symptoms such as sudden chest pain, severe shortness of breath at rest, or hemoptysis, which would require immediate medical attention.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.597
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

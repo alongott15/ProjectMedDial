@@ -85,16 +85,21 @@ Let me ask—have you noticed any swelling in your legs or ankles, or any coughi
 
 ## EHR Summary
 
-The patient is an 83-year-old male presenting with unsteadiness and fever at home, initially suspected to be due to a urinary tract infection. He has a history of Alzheimer's dementia, chronic urinary tract infections, chronic obstructive pulmonary disease, hypercholesterolemia, and gallstones. The patient's wife reported no abdominal pain. Laboratory findings at the outside hospital revealed an elevated lipase of 1,154, mildly elevated total bilirubin, and normal urinalysis; physical exam showed dry crackles at bilateral lung bases but no acute distress. The documented diagnosis was pancreatitis, with possible need for endoscopic retrograde cholangiopancreatography. Treatment included intravenous antibiotics (Rocephin, Flagyl, Zosyn), Tylenol, and intravenous fluids. The patient was transferred for further evaluation and management. No drug allergies were reported.
+The patient is an 83-year-old male presenting for management of pancreatitis and possible need for endoscopic retrograde cholangiopancreatography. He was transferred after experiencing unsteadiness and fever at home, with no abdominal pain reported; laboratory findings included elevated lipase (1,154) and mildly elevated total bilirubin (1.64). His past medical history includes Alzheimer's dementia, chronic urinary tract infections, chronic obstructive pulmonary disease, hypercholesterolemia, and a history of gallstones; he has no known drug allergies. Imaging revealed gallstones without gallbladder dilatation and possible gallbladder wall edema, and MRCP showed multiple small stones in the common bile duct and cystic duct. The documented diagnosis was gallstone pancreatitis. Treatment included aggressive intravenous fluid hydration, bowel rest (nothing by mouth), nutritional support with Quick Mix, and antibiotics (Rocephin, Flagyl, Zosyn); he was scheduled for endoscopic retrograde cholangiopancreatography for stone removal and outpatient cholecystectomy. His chronic obstructive pulmonary disease remained stable on home therapy during hospitalization.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble catching their breath. They reported shortness of breath that is worse with activity, such as walking or doing daily tasks, and improves when sitting still. Additional symptoms included episodes of sudden fast heartbeat, nausea occurring at the same time as the heart racing, and two episodes of vomiting over the past few days; symptoms have remained stable without improvement or worsening. The patient noted difficulty performing usual activities due to these symptoms and stated it takes a while to recover after episodes. No history of leg or ankle swelling, new cough, or other relevant medical history was mentioned. The doctor assessed that the symptoms may be related to changes in heart rhythm, blood pressure, dehydration, or infection. The doctor advised the patient to rest, avoid overexertion, stay hydrated, eat small light meals, and monitor for new symptoms such as chest pain, fainting, or worsening nausea, recommending prompt care if these occur.
+The patient presents with the chief complaint of shortness of breath. The dyspnea is exertional, occurring primarily during activities such as walking or getting dressed, and is accompanied by episodes of sudden-onset tachycardia and nausea, with two episodes of vomiting reported. These symptoms have persisted for a few days, are not improving or worsening, and are making daily activities more difficult; recovery after episodes is prolonged. The patient denies leg or ankle swelling and new cough. No specific past medical history, medications, or allergies were discussed in the dialogue. The clinical impression suggests possible changes in heart rhythm, blood pressure, dehydration, or infection as potential contributors, but no definitive diagnosis was documented. The treatment plan includes monitoring for new or worsening symptoms (such as chest pain or fainting), resting, avoiding overexertion, staying hydrated, and eating small, light meals to help with nausea.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.929
-- **Similarity Label**: N/A
+- **STS Score**: 0.334
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 142 words
+
 
 ## Processing Information
 

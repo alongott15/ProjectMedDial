@@ -89,16 +89,21 @@ Does that explanation make sense? Is there anything else you’re worried about 
 
 ## EHR Summary
 
-The patient is a 24-year-old female presenting with shortness of breath and a feeling of suffocation. Symptoms had been present for approximately one year prior to admission. Her past medical history includes borderline high cholesterol, gastroesophageal reflux disease, heartburn, abnormal menses, and a sensation of suffocation; she takes Celexa as needed and is allergic to Sudafed. On physical exam, she was afebrile, stable, and in no acute distress, with a 3/6 murmur at the left lower sternal border and otherwise unremarkable findings. The documented diagnosis was atrial septal defect (ASD). She underwent minimally invasive ASD repair surgery. Postoperatively, she required increased oxygen and was found to have a large pleural effusion but no pulmonary embolism; she was treated with diuretics, chest physical therapy, Percocet for pain, and low-dose beta blockers, resulting in improved oxygen saturation.
+The patient is a 24-year-old female presenting with a history of shortness of breath and a feeling of suffocation. Her symptoms led to the diagnosis of atrial septal defect (ASD) one year prior, with recent worsening requiring surgical intervention. Past medical history includes borderline high cholesterol, heartburn, gastroesophageal reflux disease, and abnormal menses; she takes Celexa as needed and is allergic to Sudafed. On admission, physical exam revealed a 3/6 murmur at the left lower sternal border but otherwise stable vital signs and no acute distress. The documented diagnosis was ASD status post minimally invasive closure, along with her other chronic conditions. She underwent minimally invasive ASD closure, received postoperative pain management (Percocet, Motrin), diuresis for pleural effusion, and aggressive pulmonary therapy. Her oxygenation and mobility improved, and she was discharged home in stable condition. Discharge instructions included follow-up with her surgeon and primary care physician, and medications for pain control, anticoagulation, gastric protection, stool softening, potassium supplementation, and diuresis.
+
 
 ## Dialogue Summary
 
-The patient presented with ongoing episodes of shortness of breath and a sensation of not getting enough air. Symptoms have persisted for a couple of weeks, occur randomly without clear triggers, and are sometimes worsened by stress; there is no associated wheezing, coughing, chest tightness, lightheadedness, tingling, or racing heartbeat. The patient reports that the symptoms are distracting and occasionally require stopping activities to catch their breath, but most daily routines can still be completed. Additionally, the patient noted recent irregularities in their menstrual cycle. No relevant medical history, medications, or allergies were mentioned. The doctor assessed that the breathing difficulties and menstrual changes may be related to anxiety, stress, or hormonal shifts, and found no evidence of more serious conditions based on the absence of alarming symptoms. The doctor recommended monitoring for new symptoms such as chest pain, fainting, or leg swelling, and suggested gentle activities, slow deep breathing, and stress management; further evaluation may be considered if symptoms persist or worsen.
+The patient is a female presenting with the chief complaint of shortness of breath and a sensation of not getting enough air. Symptoms have been ongoing for a couple of weeks, occur without clear triggers, and are sometimes worsened by stress; there is no associated wheezing, coughing, chest pain, lightheadedness, tingling, or palpitations. The patient reports that the symptoms are distracting and occasionally require her to pause activities but do not prevent her from completing daily tasks. She also notes recent irregularities in her menstrual cycle. Relevant history of other medical conditions, medications, or allergies is not specified. The clinician’s assessment suggests that the symptoms may be related to anxiety, stress, or hormonal changes, given the absence of more serious warning signs. The treatment plan includes monitoring for new or worsening symptoms (such as chest pain, fainting, or leg swelling), engaging in gentle activities, practicing slow deep breathing, and managing stress. Further evaluation with laboratory tests may be considered if symptoms persist or menstrual irregularities continue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.503
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

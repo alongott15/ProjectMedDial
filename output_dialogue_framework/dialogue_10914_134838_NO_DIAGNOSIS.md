@@ -87,16 +87,21 @@ Let me know if you have any questions about what we’ve discussed or want advic
 
 ## EHR Summary
 
-The patient is a 35-year-old male admitted for residual endovascular treatment of a vertebral basilar fenestration aneurysm. He has a history of vertebral basilar junction fenestration aneurysm coiling in 2118, intracranial stent placement three weeks prior, craniotomy for an anterior communicating artery aneurysm in 2119, and occasional reflux disease. On admission, he was awake, alert, oriented, and in no acute distress; physical exam showed clear lungs and regular cardiovascular findings. Postoperatively, he reported some right groin pain, but the site was clean, dry, intact, with positive pedal pulses and no hematoma. He remained neurologically stable with stable vital signs throughout his hospital stay. The documented diagnosis was residual vertebral basilar fenestration aneurysm status post coiling and stent placement. Treatment included monitoring in the ICU, transition to the regular floor, and discharge on Plavix 75 mg daily, aspirin 325 mg daily, and Percocet as needed for pain. He was discharged home in stable condition with follow-up arranged in two weeks.
+The patient is a 35-year-old male admitted for residual endovascular treatment of a vertebral basilar fenestration aneurysm. He has a history of vertebral basilar junction fenestration aneurysm coiling in 2118, intracranial stent placement three weeks prior, craniotomy for an anterior communicating artery aneurysm in 2119, and occasional reflux disease. On admission, he was awake, alert, and in no acute distress; physical exam was unremarkable. Postoperatively, he experienced some right groin pain, but the site was clean, dry, and intact with positive pedal pulses and no hematoma. He remained neurologically stable with stable vital signs throughout his hospital stay. The documented diagnosis was residual vertebral basilar fenestration aneurysm status post coiling and stent placement. Treatment included monitoring in the ICU, ambulation, and discharge medications of Plavix 75 mg daily, aspirin 325 mg daily, and Percocet as needed for pain. He was discharged home in stable condition with follow-up scheduled in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with right groin pain. The discomfort began a few days ago, is intermittent, and worsens with physical activity but is not affected by sitting; the patient rates the pain as 5 out of 10 at its worst and can localize it to a specific spot in the right groin without radiation. There are no associated symptoms such as swelling, lumps, fever, or limitation of movement, and the patient denied recent injuries, heavy lifting, or strenuous exercise. The patient has not tried ice or heat but reported mild relief with over-the-counter pain medicine. On examination, there were no physical findings such as swelling or bulge described. The doctor assessed that the symptoms are likely due to mild muscle or tendon strain from everyday movements or minor tweaks, rather than a hernia or infection. The doctor recommended rest, use of ice or heat, gentle stretching, and avoiding aggravating activities, and advised follow-up if new symptoms develop or if there is no improvement within a week.
+The patient is an adult presenting with right groin pain as the chief complaint. The discomfort began a few days ago, is intermittent, localized to a specific spot in the right groin, and is rated 5 out of 10 at its worst; it is aggravated by physical activity but not by sitting, and does not radiate or limit daily activities. There are no associated symptoms such as swelling, lumps, fever, or recent injury, and over-the-counter pain medication provided mild relief. The patient has no relevant recent trauma or strenuous activity. The clinical impression is likely a mild muscle or tendon strain in the groin area, with no evidence of hernia or infection. The treatment plan includes rest, use of ice or heat, gentle stretching, and avoidance of aggravating activities. The patient was advised to monitor for new symptoms (such as bulge, increasing pain, fever, or radiation of pain) and to follow up if symptoms do not improve within a week.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.920
-- **Similarity Label**: N/A
+- **STS Score**: 0.307
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

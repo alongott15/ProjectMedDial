@@ -87,16 +87,21 @@ Let me know about any changes around the scar, and I can offer more tailored adv
 
 ## EHR Summary
 
-The patient is a 42-year-old male presenting with Chiari type II malformation with hydrocephalus. On admission, he was mildly anxious but well appearing, with no rashes and normal vital signs. Physical examination revealed a large head, scoliosis, an old scar at L2-L3, brisk reflexes (3+/4), bilaterally positive Babinski signs, mild end-target dysmetria on finger-to-nose testing, and difficulty with tandem gait. His cranial nerves, sensory, and motor exams were otherwise intact. The documented diagnosis was Chiari type II malformation with hydrocephalus. He underwent a bilateral suboccipital craniotomy, Chiari decompression, C1 laminectomy, and duraplasty on the day of admission. Postoperatively, he recovered well in the surgical intensive care unit and a CT scan showed expected postoperative changes.
+The patient is a 42-year-old male presenting with Chiari type II malformation with hydrocephalus. On admission, he was mildly anxious but well-appearing, with neurologic findings including brisk reflexes, bilateral positive Babinski signs, mild end-target dysmetria, and difficulty with tandem gait. His history is notable for major depression and generalized anxiety disorder, and he is on lithium carbonate and duloxetine. During hospitalization, he underwent bilateral suboccipital craniotomy, Chiari decompression, C1 laminectomy, and duraplasty, with an uncomplicated postoperative course except for transient sinus bradycardia, mild hyponatremia, and a right corneal abrasion. The documented diagnoses were Chiari II malformation, major depression, generalized anxiety disorder, corneal abrasion, sinus bradycardia, and hyponatremia. Treatment included erythromycin ophthalmic ointment for the corneal abrasion, cyclobenzaprine for back spasms, continuation of psychiatric medications, docusate sodium for constipation prevention, and Percocet as needed for pain. He was discharged home in good condition with instructions to follow up in clinic in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with increased back pain and discomfort. The pain has been ongoing for quite a while, worsens with certain movements such as twisting or bending, and is aggravated by prolonged sitting or standing; it also interferes with sleep and daily routine. The patient reported mild anxiety related to chronic pain, which improves with breaks and distraction but worsens during pain flares. Relevant history includes a diagnosis of scoliosis and an old scar at the L2-L3 level, with no reported numbness, tingling, or weakness in the legs, and no changes or sensitivity around the scar. On examination, the patient described no tenderness or skin changes at the scar site. The doctor assessed that scoliosis is likely contributing to the chronic back pain and noted the interplay between physical discomfort and mood. Recommendations included gentle stretching, regular breaks from sitting or standing, supportive seating, and monitoring for new symptoms such as numbness or weakness. The patient was advised to report any changes around the scar for further evaluation.
+The patient is an adult with a chief complaint of increased back pain. The back pain is chronic, worsened by certain movements such as twisting or bending, and aggravated by prolonged sitting or standing; it also interferes with sleep and daily activities. The patient reports associated mild anxiety, which is exacerbated when back pain flares up, but denies any numbness, tingling, or weakness in the legs. Relevant history includes a diagnosis of scoliosis and an old scar at the L2-L3 level, with no current changes or sensitivity noted around the scar. The clinical impression is that scoliosis is likely contributing to the ongoing back discomfort and associated mood changes. The treatment plan includes recommendations for gentle stretching, regular breaks from sitting or standing, supportive seating, and monitoring for new symptoms such as numbness or weakness. The patient was advised to report any changes around the scar or new neurological symptoms promptly.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.926
-- **Similarity Label**: N/A
+- **STS Score**: 0.354
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

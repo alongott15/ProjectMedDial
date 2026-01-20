@@ -184,3 +184,21 @@ I know this is alarming, but getting prompt care gives you the best chance for a
 ## Processing Information
 
 - **Processing Time**: 425.7s
+
+## EHR Summary
+
+The patient is a 66-year-old man presenting with substernal chest pain. He experienced chest pain at his rehabilitation facility, was given three sublingual nitroglycerins, and was found to have ST elevations on ECG with hypotension (BP in the 80s/50s). His history includes multiple sclerosis, deep venous thromboses status post inferior vena cava filter, hypertension, and chronic gastrointestinal bleeding; he reports no known drug allergies and was taking Coumadin, Diltiazem, and other medications on admission. Cardiac catheterization revealed severe multivessel coronary artery disease with a 99% LAD stenosis, 95% distal circumflex stenosis, and 90% mid-right coronary artery lesion; the LAD and circumflex were stented initially, complicated by ventricular fibrillation and distal aortic dissection, and the right coronary artery was stented during a second procedure. The documented diagnoses were myocardial infarction, coronary artery disease, hypercholesterolemia, hypertension, multiple sclerosis, and deep venous thrombosis. Treatment included aspirin, beta blocker, ACE inhibitor, Lipitor, Plavix, Coumadin, Lovenox bridging until therapeutic INR, blood transfusions for anemia, and continuation of Antivert for multiple sclerosis. The patient was discharged in improved condition to a rehabilitation facility with instructions for daily INR checks and follow-up care.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with acute shortness of breath, low oxygen saturation despite supplemental oxygen (two liters), and coughing up pink, frothy sputum. Symptoms have been worsening, with the patient also reporting persistent crackles on lung examination and no prior history of heart or lung disease. The patient denies other symptoms outside of those described. The clinical impression is possible acute pulmonary edema or fluid accumulation in the lungs, potentially related to a new cardiac or pulmonary issue. The physician notes that the combination of hypoxemia, worsening dyspnea, and pink frothy sputum is concerning for a serious and acute process requiring urgent evaluation. Home management was deemed inappropriate due to the severity of symptoms and risk of complications. The patient was strongly advised to seek immediate assessment and treatment in the emergency department. Instructions included bringing a medication list, noting symptom onset and progression, and seeking help for any new symptoms such as chest pain or confusion.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.390
+- **Model Used**: general
+- **Text1 Length**: 186 words
+- **Text2 Length**: 159 words
+

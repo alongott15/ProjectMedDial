@@ -87,16 +87,21 @@ Would you like some specific advice on exercises, or have you tried anything alr
 
 ## EHR Summary
 
-The patient is a 69-year-old male presenting with bilateral knee pain. He has a history of end-stage degenerative joint disease (osteoarthritis) in both knees. There are no known drug allergies. On physical exam, bilateral knee incisions were clean, dry, and intact without evidence of infection, and sensation was intact bilaterally. The documented diagnosis was end-stage degenerative joint disease of both knees. He underwent elective bilateral total knee arthroplasty without intraoperative complications. Postoperatively, he experienced hypotension and a drop in hematocrit, requiring transfusion, but was stabilized and transferred to the orthopedic floor. Pain was managed with oral medications, and anticoagulation with Lovenox was initiated; low-grade fever and further hematocrit drop were monitored but no infection was found.
+The patient is a 69-year-old male presenting with bilateral knee pain. He has a history of end-stage degenerative joint disease (osteoarthritis) in both knees, with chronic pain leading to elective admission for definitive treatment. There is no history of drug allergies. The documented diagnosis was bilateral knee osteoarthritis. The patient underwent bilateral total knee arthroplasty without intraoperative complications, though he experienced postoperative hypotension and a drop in hematocrit, requiring transfusion of 2 units of PRBCs on two occasions; he remained stable and asymptomatic thereafter. Postoperative care included epidural analgesia, transition to oral pain medications, and initiation of Lovenox for anticoagulation. Discharge instructions emphasized weight-bearing as tolerated, range of motion exercises, continued physical therapy, wound care, and completion of a 2-week course of Lovenox. The patient was discharged in stable condition to an extended care facility.
+
 
 ## Dialogue Summary
 
-The patient presented with bilateral knee pain, primarily in the front of both knees, described as aching and progressively worsening over several months. The discomfort is aggravated by walking and climbing stairs, while resting provides some relief; no swelling, warmth, or redness has been noted. The patient reported increased difficulty with daily activities such as walking around the house and getting up from a chair but denied any recent changes in activity level. No relevant medical history, medications, or allergies were mentioned. On examination, there were no visible abnormalities of the knees. The doctor assessed the symptoms as consistent with osteoarthritis, likely due to wear-and-tear changes in the knee joint. Recommendations included gentle activity, weight management if needed, acetaminophen for pain relief, and strengthening exercises for knee support; physical therapy was also suggested. The doctor advised monitoring for new symptoms such as swelling, locking, instability, or severe pain and offered to provide specific exercise guidance.
+The patient is an adult presenting with bilateral knee pain as the chief complaint. The discomfort is described as aching and localized to the front of both knees, has persisted for several months, and has gradually worsened over time. Symptoms are exacerbated by walking and climbing stairs and are partially relieved by rest; there is no associated swelling, warmth, or redness. The pain makes daily activities such as walking around the house and getting up from a chair more difficult, though the patient remains able to perform these tasks. There is no recent increase in activity level or new exercise regimen. The documented clinical impression is osteoarthritis of the knees, attributed to wear-and-tear changes in the joint cartilage. The treatment plan includes gentle activity (rather than complete rest), weight management if indicated, simple analgesia such as acetaminophen, and strengthening exercises for the muscles around the knees. The patient was also advised to monitor for new symptoms such as swelling, locking, instability, or severe pain, and expressed interest in receiving specific exercise recommendations.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.647
+- **Model Used**: general
+- **Text1 Length**: 135 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

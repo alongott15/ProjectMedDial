@@ -85,16 +85,21 @@ Would you say this is making it difficult to do basic tasks around the house, or
 
 ## EHR Summary
 
-The patient is a 74-year-old female presenting with abdominal pain, vomiting, and abdominal distention. She reported four days of abdominal pain, one day of vomiting, and increasing abdominal distention prior to admission. Her history is significant for ovarian carcinoma status post radical hysterectomy, omentectomy, and ileocecectomy, as well as cholecystectomy and other surgeries; she is allergic to penicillin and takes risperdal and glyburide. On admission, laboratory findings included hyponatremia (Na 124), hypokalemia (K 2.3), elevated BUN (44), creatinine (2.4), and leukocytosis (white count 30); chest x-ray showed free air under the diaphragm. The documented diagnosis was gastrointestinal perforation with peritonitis, suggested by free air on imaging and clinical presentation. She underwent exploratory laparotomy with lysis of adhesions, resection of leaking anastomosis, distal ileum and hepatic flexure of colon, ileostomy, and mucofistula creation. Postoperatively, she required intensive care due to complications including persistent acidosis and acute renal failure.
+The patient is a 74-year-old female presenting with abdominal pain, vomiting, and abdominal distention. She reported four days of abdominal pain, one day of vomiting, and increasing abdominal distention; chest x-ray revealed free air under the diaphragm. Her history includes ovarian carcinoma status post radical hysterectomy, omentectomy, ileocecectomy, cholecystectomy, depression, and an allergy to penicillin. On admission, laboratory findings showed hyponatremia, hypokalemia, elevated BUN and creatinine, hyperglycemia, and leukocytosis. The documented diagnosis was status post exploratory laparotomy with lysis of adhesions, resection of leaking anastomosis of the distal ileum and hepatic flexure, ileostomy, and mucofistula. Treatment included surgery, postoperative intensive care with vasopressors and ventilatory support, stoma therapy, insulin sliding scale, anticoagulation, antihypertensives, and nutritional support via NG tube. She was stable at discharge and awaiting transfer to rehabilitation. Follow-up with her physician was recommended in one to two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with abdominal pain that has been persistent for several days. Symptoms include constant abdominal pain rated 6 out of 10 in severity, associated with vomiting, abdominal fullness, visible swelling, and a sensation of increased abdominal distension; the fullness worsens with movement and does not improve with lying down. The patient reported difficulty eating due to the fullness and noted that daily activities have become harder, requiring more frequent breaks, but denied any constipation or diarrhea. No relevant past medical history, medications, or allergies were mentioned. On examination, the patient described a visibly swollen abdomen and tighter waistband. The doctor assessed that the symptoms—persistent pain, visible swelling, and difficulty eating—are likely due to slowed digestion or mild inflammation, possibly related to fluid buildup or a mild blockage. The doctor advised monitoring for new symptoms such as fever, jaundice, or worsening pain, and recommended eating small, light meals and maintaining hydration. The patient was instructed to contact their healthcare team if swelling increases significantly or if unable to keep fluids down.
+The patient is an adult presenting with abdominal pain as the chief complaint. The pain has been persistent for several days, rated 6 out of 10 in severity, and is accompanied by vomiting, abdominal distension, visible swelling, and a sensation of fullness that worsens with movement and impacts eating and daily activities. There are no associated changes in bowel movements such as constipation or diarrhea. The patient reports tighter clothing around the waist and difficulty performing household tasks due to discomfort. Relevant history, medications, and allergies are not specified. The clinical impression is that the symptoms may be due to slowed digestion or mild inflammation, with possible causes including fluid buildup or mild blockage. The treatment plan includes monitoring for new or worsening symptoms (such as fever, jaundice, or severe pain), eating small light meals, staying hydrated, and notifying the healthcare team if symptoms worsen or oral intake becomes difficult.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.520
+- **Model Used**: general
+- **Text1 Length**: 140 words
+- **Text2 Length**: 150 words
+
 
 ## Processing Information
 

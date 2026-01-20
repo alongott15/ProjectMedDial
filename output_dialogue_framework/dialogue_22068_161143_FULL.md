@@ -89,16 +89,23 @@ For now, gentle activity and monitoring your symptoms is reasonable. Applying ge
 
 ## EHR Summary
 
-The patient is a 71-year-old woman presenting with abrupt onset chest pain. Her symptoms began the night prior to admission and were associated with persistent ST segment elevations in V5, V6, and AVL, despite initial treatment with aspirin, nitroglycerin, and a beta-blocker. She has a history of hypertension and takes amlodipine and aspirin; she has no known drug allergies. On arrival, physical exam was notable for stable vital signs and no acute distress, with clear lungs and no peripheral edema. Laboratory findings included elevated troponin (>50), CK (390), and white blood cell count (15.8). The documented diagnosis was acute coronary syndrome with ongoing ischemia. She underwent rescue angioplasty with stenting of a 60% OM1 lesion after failed thrombolysis. The treatment plan included continued monitoring in the CCU and supportive care following percutaneous intervention.
+The patient is a 71-year-old woman presenting with abrupt onset of chest pain. Her symptoms included persistent chest pain with ST segment elevations in leads V5, V6, I, and AVL, which did not resolve with initial medical therapy and required rescue angioplasty. She has a history of hypertension and was taking amlodipine and aspirin prior to admission, with no known drug allergies. The documented diagnosis was single-vessel (OM1) coronary artery disease status post stent placement. During her hospital course, she developed a groin hematoma post-catheterization, which was managed conservatively without further complication. She was treated with Captopril, Metoprolol, Lipitor, Aspirin, Plavix, and Nitroglycerin, and placed on a bowel regimen for constipation. Physical therapy recommended rehabilitation for optimization of ambulation and strength. She was discharged in fair condition to a rehabilitation facility with follow-up arranged in the cardiology clinic.
+
 
 ## Dialogue Summary
 
-The patient presented with sudden onset chest pain as the chief complaint. The chest pain was described as a pressure sensation located centrally, coming and going in episodes lasting a few minutes, rated 6/10 in severity, and significant enough to interrupt activity; it was not associated with shortness of breath, sweating, or feeling faint, and did not worsen with movement or deep breaths. Additional symptoms included groin tenderness, a hematoma at the catheter insertion site, constipation, and decreased appetite with reduced eating and drinking. Relevant history includes recent cardiac catheterization. On examination, the patient reported localized groin tenderness and hematoma but no other acute findings. The doctor assessed that the chest pressure may be related to post-procedural changes rather than classic cardiac ischemia, and noted local trauma at the catheter site as a likely cause for groin symptoms. The doctor recommended monitoring symptoms closely, advised gentle activity, and instructed the patient to seek immediate care if new or worsening symptoms such as constant pain, shortness of breath, or fainting develop.
+The patient is an adult presenting with sudden-onset central chest pressure as the chief complaint. The chest discomfort is described as moderate (rated 6/10), pressure-like, episodic (lasting a few minutes per episode), not associated with exertion, deep breathing, or specific activities, and not accompanied by dyspnea, diaphoresis, or presyncope. The symptoms began after a recent cardiac catheterization, and the patient also reports groin tenderness, a hematoma at the catheter insertion site, constipation, and decreased appetite. Relevant history includes recent cardiac catheterization; no medication or allergy information is specified.
+
+The clinical impression is that the chest pain may be related to post-procedural effects rather than acute cardiac ischemia, given the absence of classic warning signs and temporal association with the procedure. The groin symptoms are attributed to local trauma from the catheterization. The treatment plan includes monitoring symptoms closely, engaging in gentle activity, and seeking immediate care if new or worsening symptoms such as constant or severe pain, shortness of breath, or fainting develop. The patient was advised to continue observation and report any concerning changes.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.647
+- **Model Used**: general
+- **Text1 Length**: 138 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

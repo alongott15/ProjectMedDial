@@ -87,16 +87,23 @@ Let me know if you have any questions about what we've discussed or if anything 
 
 ## EHR Summary
 
-The patient is an 80-year-old female presenting after a mechanical fall in the bathroom. She reported left leg pain following the fall but denied prodromal symptoms, diaphoresis, shortness of breath, chest pain, head trauma, or loss of consciousness. Her medical history is notable for a recent pulmonary embolism for which she is anticoagulated with Coumadin. On examination, she was hemodynamically stable and in no acute distress, with decreased breath sounds at the lung bases and trace edema in the lower extremities; her left lower extremity was immobilized. Laboratory studies showed a white blood cell count of 14.8, hematocrit of 35.2, platelets of 325, and an INR of 4.7. Imaging revealed a displaced fracture of the left tibia and fibula. The documented diagnosis was left tibia and fibula fracture secondary to mechanical fall. The treatment plan included orthopedic evaluation and planned open reduction/internal fixation after normalization of her INR.
+The patient is an 80-year-old female who presented after a mechanical fall in the bathroom. She reported left leg pain following the fall but denied prodromal symptoms, loss of consciousness, head trauma, shortness of breath, or chest pain. Her history is notable for a recent pulmonary embolism on Coumadin therapy. Imaging revealed a displaced spiral fracture of the left tibia and fibula, and she underwent open reduction/internal fixation after INR normalization. Postoperatively, she developed hypoxemic and hypercarbic respiratory failure likely due to congestive heart failure from aggressive fluid resuscitation, as well as a left lower lobe pneumonia treated with ceftriaxone and azithromycin. She also experienced transient acute renal failure, which improved with supportive care. At discharge, her condition was stable, and she was transferred to a rehabilitation facility with instructions for nonweightbearing status on the left lower extremity, continuation of anticoagulation, antibiotics, and follow-up with orthopaedics and primary care.
+
 
 ## Dialogue Summary
 
-The patient presented with poor appetite as the chief complaint. Symptoms included reduced appetite for the past three to four days, increased fatigue and need for rest, intermittent low-grade fevers, and diarrhea; the patient denied nausea, vomiting, and weight loss, and reported some difficulty maintaining usual fluid intake. No relevant medical history, medications, or allergies were mentioned. The patient described being able to move around the house but with decreased energy and activity due to symptoms. The doctor assessed this as a mild illness likely related to a viral or gastrointestinal infection, noting that such symptoms can cause more fatigue in older adults. The doctor emphasized the importance of staying hydrated by sipping clear fluids like water, broth, or electrolyte drinks regularly. The patient was advised to monitor for worsening weakness, confusion, inability to keep fluids down, or signs of dehydration, and to seek medical attention if these occurred. The patient expressed understanding of the recommendations.
+The patient is an older adult presenting with decreased appetite as the chief complaint. Over the past three to four days, they have experienced poor appetite, intermittent low-grade fevers, increased fatigue, and diarrhea, with some difficulty maintaining adequate fluid intake but no nausea, vomiting, or weight loss. The patient reports needing to rest more but remains able to move around the house. There is no mention of significant unintentional weight loss or severe dehydration symptoms.
+
+Relevant medical history, medications, and allergies are not specified. The clinical impression is a mild acute illness, possibly viral or gastrointestinal in nature, leading to reduced intake, diarrhea, and fatigue. The treatment plan focuses on supportive care: the patient is advised to sip fluids regularly (such as water, broth, or electrolyte drinks) to maintain hydration and monitor for worsening symptoms. The doctor instructs the patient to seek medical attention if signs of dehydration, worsening weakness, confusion, or inability to keep fluids down develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.930
-- **Similarity Label**: N/A
+- **STS Score**: 0.456
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 158 words
+
 
 ## Processing Information
 

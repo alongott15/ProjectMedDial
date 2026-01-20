@@ -87,16 +87,21 @@ If you notice any new symptoms—such as pain at rest, pain spreading to your ar
 
 ## EHR Summary
 
-The patient is a 54-year-old male presenting with exertional substernal chest pain. His symptoms included angina on exertion, which was relieved by nitroglycerin, and he had a recent positive stress test. Relevant history includes coronary artery disease with 3-vessel involvement, prior non-Q-wave myocardial infarction, hypercholesterolemia, hypertension, positive family history, and chronic low back pain. On admission, his medications included atenolol, aspirin, Lipitor, and nitroglycerin; he has no known drug allergies. Physical examination showed a blood pressure of 100/70 mmHg and heart rate of 60 bpm, with no acute distress and otherwise unremarkable findings. The documented diagnosis was 3-vessel coronary artery disease with persistent angina. The treatment plan included proceeding with coronary artery bypass graft surgery following transfer from another hospital.
+The patient is a 54-year-old male presenting with exertional substernal chest pain (angina) as the chief complaint. His symptoms included chest pain on exertion relieved by nitroglycerin, with a recent positive stress test and prior admission for chest pressure to rule out myocardial infarction. Relevant history includes coronary artery disease with prior non-Q-wave myocardial infarction, hypercholesterolemia, hypertension, and chronic low back pain; he was taking atenolol, aspirin, Lipitor, and nitroglycerin on admission and has no known drug allergies. The documented diagnosis was unstable angina requiring surgical intervention. He underwent a 4-vessel coronary artery bypass graft without major intraoperative complications. Postoperatively, he developed a fever and new left retrocardiac density on chest x-ray, suspicious for pneumonia, and was treated empirically with Levaquin and Flagyl with resolution of fever. At discharge, his condition was stable and afebrile, and he was prescribed medications including Lopressor, Lasix, K-Dur, Colace, oxycodone, Zantac, aspirin, Tylenol, Levaquin, and Flagyl. Follow-up was arranged with his surgeon in one month and wound care clinic in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain occurring during exertion. The pain is described as pressure or tightness in the center of the chest, rated as a 7 out of 10 in severity, and is triggered by activities such as walking up stairs or walking fast; it is relieved by rest and has been present for a few days without change in intensity. The patient denied associated symptoms such as shortness of breath, sweating, lightheadedness, cough, chills, or pain radiating to the arm, neck, jaw, or back, but reported a recent fever of 101.5°F. Relevant history includes high blood pressure and high cholesterol; no diabetes or smoking history was noted. No abnormal physical findings were described in the conversation. The doctor assessed that the exertional chest discomfort, especially with the patient's cardiovascular risk factors, could indicate angina due to possible heart artery narrowing. The doctor recommended prompt evaluation with an EKG and possibly further cardiac testing today, advised avoiding strenuous activity and resting, and instructed the patient to seek emergency care if new symptoms such as pain at rest, pain radiating, severe shortness of breath, sweating, or faintness develop.
+The patient is an adult presenting with exertional chest pain as the chief complaint. The chest pain is described as central pressure or tightness, rated 7/10 in severity, brought on by activities such as walking fast or climbing stairs, and relieved by rest; it has been present for several days without significant change. The patient denies associated symptoms such as dyspnea, diaphoresis, lightheadedness, pain radiation, cough, or chills, but reports a recent fever of 101.5°F. Relevant history includes hypertension and hypercholesterolemia; the patient does not have diabetes and does not smoke. The clinical impression discussed is possible angina due to underlying coronary artery disease, given the exertional nature of the pain and cardiovascular risk factors. The physician recommended prompt evaluation, including an EKG and possibly further cardiac testing, to rule out significant heart issues. The patient was advised to avoid strenuous activity and seek emergency care if symptoms worsen or new symptoms develop. Arrangements for same-day evaluation were offered.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.683
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 159 words
+
 
 ## Processing Information
 

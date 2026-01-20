@@ -99,16 +99,21 @@ Let me know if you have any other questions or concerns about next steps.
 
 ## EHR Summary
 
-The patient is a 53-year-old male presenting with chest pain. He initially experienced chest pain treated with beta blockers, nitrates, and aspirin, followed by a negative stress test, but returned the same day with increased diaphoresis. His past medical history includes type 2 diabetes, hypertension, hypercholesterolemia, and a one pack per day smoking habit; he has no known drug allergies. On re-presentation, ECG showed ST elevations and depressions in the anterolateral leads, and cardiac catheterization revealed multivessel coronary artery disease. Physical examination was notable for stable vital signs and no acute findings. The documented diagnosis was multivessel coronary artery disease with acute coronary syndrome. The patient underwent coronary artery bypass grafting (CABG) times three as definitive treatment.
+The patient is a 53-year-old male presenting with chest pain. He initially experienced chest pain and diaphoresis, with ECG findings of ST elevations and depressions in the anterolateral leads, prompting cardiac catheterization that revealed multivessel coronary artery disease. His past medical history includes type 2 diabetes, hypertension, hypercholesterolemia, and a history of smoking; he has no known drug allergies. The documented diagnoses were coronary artery disease status post coronary artery bypass grafting times three, hypertension, hypercholesterolemia, and diabetes. Postoperatively, he developed mild tachycardia and tachypnea with ambulation, associated with a drop in hematocrit, for which he received a blood transfusion. He was discharged in stable condition on postoperative day three with home oxygen due to desaturation below 88% on room air, despite being comfortable and nondyspneic. Discharge medications included Lopressor, Lasix, potassium, aspirin, Glyburide, Lipitor, Percocet, Colace, and home oxygen as needed to maintain saturations above 93%. He was advised to follow up with his cardiothoracic surgeon in two weeks and his primary care physician in three weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. Symptoms included a pressure-like sensation in the center of the chest rated 6–7/10 in intensity, episodes lasting a few minutes and brought on by physical activity, increased sweating, shortness of breath, and a faster heart rate during exertion; symptoms improved with rest and were not associated with nausea, lightheadedness, or pain radiating to the arm, neck, or jaw. The patient reported recent onset of symptoms over the past few days and noted oxygen saturation dropping below 88% during activity. No relevant past medical history, medications, or allergies were mentioned. Clinical findings included exertional chest pressure, tachycardia, diaphoresis, dyspnea, and exertional hypoxemia as described by the patient. The doctor’s assessment was that the pattern of exertional chest pressure, sweating, shortness of breath, and oxygen desaturation could indicate angina or another heart-related issue, though other causes were possible. The doctor advised the patient to avoid strenuous activity, seek further evaluation today with an EKG and blood tests, and to seek emergency care if symptoms worsen or new concerning features develop. The patient expressed understanding and agreed to follow these recommendations.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is described as a central, pressure-like sensation rated 6–7/10 in intensity, brought on by physical activity and relieved by rest; episodes last a few minutes and are accompanied by increased sweating, exertional dyspnea, and tachycardia. The patient reports no associated nausea, pain radiating to the arm, neck, or jaw, or lightheadedness. Notably, the patient experienced oxygen saturation dropping below 88% during activity. There is no relevant past medical history, medications, or allergies specified. The clinical impression is possible angina or another heart-related issue, with exertional hypoxemia raising concern for cardiac or pulmonary pathology. The treatment plan includes immediate evaluation with EKG and blood tests, avoidance of strenuous activity, and instructions to seek emergency care if symptoms worsen or new symptoms develop. The patient was advised to limit activity and proceed with urgent diagnostic testing.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.664
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 150 words
+
 
 ## Processing Information
 

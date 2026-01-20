@@ -91,16 +91,21 @@ Let me know if you have any questions about what I've explained or need help wit
 
 ## EHR Summary
 
-The patient is a 73-year-old female presenting with claudication as the chief complaint. She reported several weeks of worsening pain with walking, progressing to significant claudication, prompting hospital evaluation and surgical intervention. Her relevant medical history includes type 2 diabetes mellitus, hypercholesterolemia, hypertension, pancytopenia of unclear etiology, and bilateral carotid endarterectomy; she has allergies to Glucophage, morphine, and codeine. On physical exam, there was +2 edema in the right lower extremity and surgical changes consistent with recent bypass grafting, with palpable distal pulses and serous drainage from the wound; laboratory findings showed pancytopenia and mild anemia. The documented diagnosis is peripheral vascular disease with claudication. She underwent a femoral/popliteal PTFE graft with distal PTFE to posterior tibial bypass vein graft. The treatment plan included surgical revascularization and post-operative wound care.
+The patient is a 73-year-old female presenting with claudication as the chief complaint. She reported several weeks of worsening pain with walking, progressing to significant claudication. Her relevant history includes diabetes mellitus type II, hypercholesterolemia, hypertension, pancytopenia of unclear etiology, and a history of bilateral carotid endarterectomy; she has allergies to Glucophage, morphine, and codeine. The documented diagnosis was peripheral vascular disease with lower extremity stenosis. She underwent a femoral to popliteal PTFE graft with distal PTFE to posterior tibial vein bypass. Postoperatively, she developed left parotitis treated with antibiotics and had serous wound drainage managed with dressing changes; the graft remained functional. At discharge, she was stable and transferred to extended care with instructions for wound care, activity progression, and follow-up in 1–2 weeks. Discharge medications included antihypertensives, diabetes medications, aspirin, antibiotics, and pain management.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening leg pain during walking, requiring frequent stops due to increased discomfort. Symptoms included sharp pain in the thigh that intensifies with activity, progressive swelling, redness, and warmth around a surgical incision, and a fever over 100.5°F for about a day; the pain and swelling have worsened rapidly over several days. The patient also reported tenderness and swelling near the left parotid gland and noted increased clear drainage from the thigh wound. Relevant history includes recent leg surgery, but no medications or allergies were specified. On examination, the doctor noted increasing redness, warmth, and swelling at the surgical site, as well as new facial swelling. The assessment was concern for infection at the incision site and possible broader infection or inflammation, given the constellation of symptoms. The doctor advised prompt contact with the surgical team or primary care provider for in-person evaluation, recommended leg elevation and minimizing walking, and instructed the patient to seek immediate care if symptoms worsen or new warning signs develop.
+The patient is an adult presenting with worsening leg pain during walking, primarily in the thigh, severe enough to require stopping activity. The pain has increased over several days, is described as sharp with ambulation, and is now less responsive to pain medication; it improves with rest. Additional symptoms include swelling, redness, and warmth at a prior surgical incision on the affected leg, with these findings spreading and worsening rapidly, as well as a fever over 100.5°F for one day. The patient also reports new swelling and tenderness near the left parotid gland and increased clear drainage from the thigh wound. Relevant history includes recent leg surgery (exact timing not specified). The clinical impression is possible infection at the surgical site, with concern for spreading or systemic involvement. The treatment plan includes urgent evaluation by the surgical team or primary care provider, leg elevation, minimizing walking, and monitoring for worsening symptoms such as spreading redness, increased swelling, or systemic signs like confusion or higher fever.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.557
+- **Model Used**: general
+- **Text1 Length**: 136 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

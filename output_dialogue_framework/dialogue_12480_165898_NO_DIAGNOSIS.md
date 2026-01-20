@@ -87,16 +87,21 @@ Next steps would typically include a check-up to assess your heart and circulati
 
 ## EHR Summary
 
-The patient is a 60-year-old male presenting with chest tightness, fatigue, and leg tightness with exertion for several months. Symptoms were chronic and exertional in nature. Relevant history includes right-sided heart failure, mitral regurgitation, diabetes, hyperlipidemia, hypertension, cardiomyopathy, and a significant smoking history (60 pack-years, quit 4 years ago); he is allergic to procaine. Cardiac catheterization revealed three-vessel coronary artery disease with an ejection fraction of 50% and mild mitral regurgitation. Laboratory findings showed mild anemia (Hgb 10.6), elevated WBC (12.7), and elevated platelet count (479). The documented diagnosis was three-vessel coronary artery disease with associated heart failure and mitral regurgitation. Treatment included coronary artery bypass grafting (CABG) x3 and subsequent sternal wound debridement. Recommendations and further management details are not specified in the note.
+The patient is a 60-year-old male presenting with chest tightness, fatigue, and leg tightness with exertion for several months. Symptoms were chronic and associated with underlying right-sided heart failure and mitral regurgitation. Relevant history includes diabetes, hypertension, hyperlipidemia, cardiomyopathy, prior left femoral bypass, and a significant smoking history; the patient is allergic to procaine. Cardiac catheterization revealed multivessel coronary artery disease, leading to a diagnosis of severe coronary artery disease requiring surgical intervention. The patient underwent coronary artery bypass grafting (CABG) x3 and later required sternal wound debridement for a superficial wound infection. Hospital course was complicated by transient acute kidney injury, atrial fibrillation managed with amiodarone and anticoagulation, and sternal wound infection treated with vancomycin followed by cephalexin. At discharge, the patient was stable, in normal sinus rhythm, and prescribed medications including aspirin, metoprolol, amiodarone, cephalexin, diabetes medications, and diuretics. Discharge instructions included wound care, activity restrictions, and follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with chest tightness during activity as the chief complaint. Symptoms included moderate chest tightness and leg tightness that consistently occur with exertion (such as walking or climbing stairs), both of which resolve with rest, along with increased fatigue during activity; these symptoms have gradually worsened over several months. The patient denied shortness of breath, sweating, or lightheadedness, and reported no other triggers besides physical activity. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the exertional chest and leg tightness with improvement at rest suggests the body may not be getting enough oxygen during activity, possibly due to heart, circulation, or conditioning factors, but no immediate emergency was identified. The doctor advised the patient to limit physical activity until further evaluation and emphasized seeking immediate care if symptoms such as persistent chest pain, severe shortness of breath, or faintness develop. The plan includes a follow-up check-up to assess heart and circulation more closely. The patient expressed understanding of the recommendations.
+The patient presents with chest tightness during physical activity as the chief complaint. Symptoms include moderate chest tightness and leg tightness that consistently occur with exertion (such as walking or climbing stairs), both of which resolve with rest; the patient also reports increased fatigue with activity. These symptoms have gradually worsened over several months and are not accompanied by dyspnea, sweating, or lightheadedness. There is no mention of relevant medical history, medications, or allergies. The clinical impression is that the exertional symptoms may be due to reduced oxygen delivery during activity, possibly related to cardiovascular or conditioning factors, but no definitive diagnosis is documented. The treatment plan includes advising the patient to limit physical activity until further evaluation and to seek immediate care if new symptoms such as persistent chest pain, severe shortness of breath, or syncope occur. Further assessment of cardiac and circulatory function is recommended as the next step. No medications or specific interventions were prescribed at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.417
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

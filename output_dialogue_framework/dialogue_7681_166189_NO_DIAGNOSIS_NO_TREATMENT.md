@@ -87,16 +87,23 @@ If you feel dizzy when standing, have chest pain, or your symptoms get much wors
 
 ## EHR Summary
 
-The patient is a 49-year-old male presenting with hypertension, anemia, and hematemesis. He experienced an episode of hematemesis with associated faintness, and reported weakness, fatigue, and mild abdominal pain, but denied chest pain, dyspnea, nausea, vomiting, melena, or bright red blood per rectum at the time of transfer. His past medical history includes hepatitis B, alcohol-induced cirrhosis with prior upper GI bleeds, hepatitis C (treated), erosive gastritis, duodenitis, type 2 diabetes mellitus, and lumbar disk herniation. No drug allergies were documented. On admission, his hematocrit was 35. The clinical impression was upper gastrointestinal bleeding in the setting of cirrhosis and portal hypertension. He underwent an emergent TIPS procedure and was stable post-procedure. Treatment included Levaquin, Protonix, insulin (NPH and sliding scale regular), lactulose, and a multivitamin.
+The patient is a 49-year-old male presenting with hematemesis, hypertension, and anemia. He experienced an episode of hematemesis with faintness, leading to ICU admission and an emergent TIPS procedure for upper gastrointestinal bleeding. Symptoms included weakness, fatigue, mild abdominal pain, and later referred shoulder pain and hiccups; he denied chest pain, dyspnea, nausea, vomiting, melena, or bright red blood per rectum. Relevant history includes hepatitis B, alcohol-induced cirrhosis, hepatitis C (treated), erosive gastritis, duodenitis, diabetes mellitus type 2, and prior episodes of GI bleeding; there are no known drug allergies. The documented diagnosis was upper gastrointestinal bleed status post TIPS. Treatment included TIPS procedure, Levaquin for SBP prophylaxis, Protonix, lactulose, insulin sliding scale for diabetes, Thorazine for hiccups, oxycodone for shoulder pain, and Tylenol as needed. The patient’s liver function tests and hematocrit were monitored closely; his fevers were attributed to focal hepatic ischemia rather than infection. He was discharged with instructions to follow up with the liver clinic and his primary care provider for diabetes management.
+
 
 ## Dialogue Summary
 
-The patient presented with hematemesis (vomiting blood). Symptoms included vomiting a moderate amount of dark blood, sometimes resembling coffee grounds, dark tarry stools for several days, increasing weakness and fatigue, mild abdominal pain, pain in the shoulder, and a recent mild fever. The patient denied shortness of breath but reported worsening symptoms over the past few days. No relevant medical history, medications, or allergies were mentioned. Clinical findings were based on the patient's description of ongoing gastrointestinal bleeding and associated symptoms. The doctor assessed that the patient is likely experiencing active upper gastrointestinal bleeding, possibly from an ulcer or gastric irritation, with signs of blood loss. The doctor advised immediate evaluation at an emergency department, recommended avoiding food and drink, and instructed the patient to seek emergency services if symptoms worsen or new severe symptoms develop.
+The patient is an adult presenting with hematemesis (vomiting blood) as the chief complaint. Symptoms include vomiting a moderate amount of dark blood with a coffee-ground appearance, dark tarry stools (melena) for several days, increasing weakness and fatigue, mild abdominal pain, and recent onset of shoulder pain; the symptoms have been worsening over the past few days. The patient denies shortness of breath but reports feeling wiped out and having a mild fever. Relevant history of prior similar episodes is noted, but no specific medical history, medications, or allergies are documented.
+
+The clinical impression is ongoing upper gastrointestinal bleeding, likely from the stomach or proximal GI tract, possibly due to ulceration or gastric irritation. The physician emphasized the seriousness of the situation due to ongoing blood loss and worsening symptoms. Immediate medical attention at an emergency department was strongly recommended, with instructions to avoid eating or drinking and to seek emergency services if symptoms worsen (e.g., dizziness, chest pain).
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.764
+- **Model Used**: general
+- **Text1 Length**: 167 words
+- **Text2 Length**: 159 words
+
 
 ## Processing Information
 

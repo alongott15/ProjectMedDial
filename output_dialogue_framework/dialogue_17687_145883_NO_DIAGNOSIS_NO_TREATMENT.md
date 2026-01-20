@@ -87,16 +87,23 @@ For now, try to avoid strenuous activity until we know more, and make sure your 
 
 ## EHR Summary
 
-The patient is a 60-year-old man presenting with a history of chest pain since July 2188. He previously underwent cardiac catheterization, which revealed a high-grade lesion in the left anterior descending (LAD) artery. His past medical history includes abdominal aortic aneurysm (2.9 cm), hypertension, gastroesophageal reflux disease, and hypercholesterolemia; he is allergic to amoxicillin (rash). On admission, vital signs showed a heart rate of 94 and blood pressure of 157/91, with physical exam notable for 1+ bilateral lower extremity edema but otherwise unremarkable findings. The documented diagnosis was coronary artery disease with a high-grade LAD lesion. He underwent an off-pump coronary artery bypass graft (CABG) with LIMA to LAD and had an uncomplicated postoperative course. At discharge, he was prescribed Lopressor, Percocet as needed, Colace, Plavix for three months, Aspirin, and Lasix. The patient was discharged home in good condition with no acute complications noted.
+The patient is a 60-year-old man presenting with a history of chest pain since July 2188. He previously underwent cardiac catheterization, which revealed a high-grade LAD lesion. His past medical history includes abdominal aortic aneurysm (2.9 cm), hypertension, gastroesophageal reflux disease, and hypercholesterolemia; he is allergic to amoxicillin (rash). On admission, vital signs showed heart rate 94 and blood pressure 157/91, with physical exam notable for 1+ bilateral lower extremity edema but otherwise unremarkable findings. The documented diagnosis was status post coronary artery bypass grafting (CABG) times one. He underwent off-pump CABG (LIMA to LAD) without complications and recovered well postoperatively. Discharge medications included Lopressor, Percocet, Colace, Plavix (for three months), aspirin, Lasix (for seven days), potassium supplement (for seven days), and Zantac. The patient was discharged home in good condition with instructions to follow up in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent chest pain as the chief complaint. The chest pain began a few days ago, is described as a mild to sometimes moderate pressure sensation that comes on with activity (such as walking or being active) and improves with rest; it does not occur at rest, does not radiate, and is not associated with shortness of breath, sweating, or lightheadedness. The patient has a history of high blood pressure but no known heart problems. On further questioning, the patient reported that the discomfort does not force them to stop activity but may cause them to slow down. The doctor assessed that the symptoms are mild chest pressure with exertion, without concerning features such as severe pain, fainting, or associated symptoms, and noted that while this can sometimes be due to muscle strain, it may also indicate reduced oxygen to the heart during activity. The doctor recommended monitoring symptoms closely, avoiding strenuous activity for now, and ensuring blood pressure is well controlled. The patient was advised to seek prompt care if symptoms worsen, occur at rest, or new symptoms develop, and was offered guidance on symptom monitoring and next steps for evaluation.
+The patient is an adult with a history of high blood pressure presenting with chest pain as the chief complaint. The chest pain has been present for a few days, is described as a mild to moderate pressure sensation, and occurs intermittently, primarily during physical activity; it improves with rest and does not radiate. The patient denies associated symptoms such as dyspnea (shortness of breath), diaphoresis (sweating), or lightheadedness. There is no history of heart problems reported.
+
+The clinical impression is that the symptoms are mild and exertional, without concerning features, but may warrant further evaluation due to the patient's hypertension. The physician advised monitoring symptoms closely, avoiding strenuous activity, and ensuring good blood pressure control. The patient was instructed to seek prompt care if symptoms worsen, occur at rest, or are accompanied by new signs such as shortness of breath or pain radiating to other areas. Next steps include tracking symptom occurrence and discussing further evaluation if needed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.948
-- **Similarity Label**: N/A
+- **STS Score**: 0.534
+- **Model Used**: general
+- **Text1 Length**: 139 words
+- **Text2 Length**: 159 words
+
 
 ## Processing Information
 

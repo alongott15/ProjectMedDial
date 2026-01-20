@@ -87,16 +87,23 @@ Let me know if you have any questions about what we've discussed or if there’s
 
 ## EHR Summary
 
-The patient is a 59-year-old male presenting with an episode of choking sensation and discomfort radiating from the stomach to the chest, worse with exertion. Symptoms began the evening prior to admission and were relieved by sublingual nitroglycerin, but recurred with nausea, diaphoresis, and mild headache; chest discomfort returned the following morning. Relevant history includes coronary artery disease with multiple stents, hypertension, hyperlipidemia, and type 2 diabetes mellitus; he has no known drug allergies and takes aspirin, beta blocker, Plavix, Cozaar, Glucotrol, Prilosec, Lipitor, and Flogard at home. On presentation, chest pain was again relieved by sublingual nitroglycerin. The documented diagnosis is not explicitly stated in the provided text. Treatment included initiation of a heparin drip in the hospital and continuation of home medications. The patient denied prior episodes exactly like this one.
+The patient is a 59-year-old male presenting with an episode of choking sensation and chest discomfort radiating from the stomach to the chest, worse with exertion, which began the evening prior to admission. The discomfort was initially relieved by sublingual nitroglycerin but recurred with associated nausea, diaphoresis, and mild headache; symptoms resolved temporarily with aspirin and nitroglycerin. He has a history of coronary artery disease with multiple prior stents, hypertension, hyperlipidemia, and type 2 diabetes mellitus, and takes several cardiac and diabetic medications at home. On admission, laboratory values were unremarkable and cardiac enzymes were not elevated; chest x-ray was normal. Cardiac catheterization revealed severe multi-vessel coronary artery disease. The documented diagnosis was status post coronary artery bypass graft times four. Treatment included coronary artery bypass grafting (CABG x4) without complications, followed by a stable postoperative course and discharge on a regimen including beta blocker, antiplatelet agents, statin, diabetic medications, pain control, and short-term diuretics and potassium. The patient was discharged in good condition with instructions for wound care and follow-up with cardiology and primary care.
+
 
 ## Dialogue Summary
 
-The patient presented with a choking sensation and discomfort that starts around the stomach and moves up into the chest, particularly during physical activity. Symptoms are worse with exertion and improve when the patient slows down or stops; the patient has had to avoid activities like walking up stairs quickly. Associated symptoms include nausea, sweating, mild headache, and a small amount of sternal drainage, but no lightheadedness, fever, cough, or sore throat. The symptoms have been present for a few days to a week without significant change in intensity or frequency. On examination, there were no signs of infection or respiratory involvement reported by the patient. The doctor assessed that exertional chest discomfort with associated nausea and sweating could be due to digestive issues such as reflux, but also raised concern for possible cardiac causes given the symptom profile. The doctor advised the patient to continue taking it easy, avoid strenuous activity, and seek prompt medical attention if symptoms worsen or new severe symptoms develop. The patient acknowledged understanding of the recommendations and agreed to monitor for changes.
+The patient presents with a chief complaint of a choking sensation and discomfort that begins in the stomach and moves up into the chest, primarily during physical activity. Symptoms are exacerbated by exertion and relieved by slowing down or resting; associated features include nausea, sweating, mild headache, and minimal sternal drainage. The symptoms have been present for several days to a week without progression in intensity, and there are no accompanying fever, cough, sore throat, or other signs of infection. The patient reports modifying daily activities to avoid symptom triggers.
+
+Relevant medical history, medications, and allergies are not specified. The clinical impression discussed includes consideration of exertional chest discomfort possibly related to digestive issues such as reflux, but with concern for potential cardiac causes due to associated symptoms like sweating and nausea. The treatment plan includes advising the patient to avoid strenuous activity and monitor for worsening symptoms such as persistent chest pain or shortness of breath, with instructions to seek prompt medical attention if these occur. No medications or further diagnostic tests were documented at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.569
+- **Model Used**: general
+- **Text1 Length**: 176 words
+- **Text2 Length**: 178 words
+
 
 ## Processing Information
 

@@ -84,16 +84,21 @@ Let me know if you have any questions or if anything changes with your symptoms.
 
 ## EHR Summary
 
-The patient is a 55-year-old male presenting with chest discomfort. He reports right-sided pleuritic chest pain, similar to previous symptoms experienced during a prior pulmonary embolism, and had increased bowel movements consistent with an ulcerative colitis flare three days prior to admission, which have since been improving. His medical history includes pulmonary embolism (currently on Coumadin), ulcerative colitis, lower back pain post-laminectomy, appendectomy, cervical spondylosis, and sleep apnea post-uvuloplasty; he has no known drug allergies. On examination, he was febrile (100.4°F), tachycardic (pulse 101), hypertensive (BP 145/76), and hypoxic (oxygen saturation 90% on room air, improving to 95% on 3L oxygen); lung exam revealed decreased breath sounds and increased dullness to percussion at the right base. No explicit diagnosis was documented in this note. The patient’s medications on admission included Asacol, Coumadin, Paxil, Diazepam, and Lomotil. Treatment recommendations or changes were not specified in the provided text.
+The patient is a 55-year-old male presenting with chest discomfort. He reported right-sided pleuritic chest pain similar to previous pulmonary embolism symptoms, increased shortness of breath, cough, fever, chills, and a recent flare of ulcerative colitis with increased bowel movements that had begun to improve prior to admission. His medical history includes pulmonary embolism (on Coumadin), ulcerative colitis, lower back pain post-laminectomy, appendectomy, cervical spondylosis, and sleep apnea post-uvuloplasty; he has no known drug allergies. On examination, he was mildly tachycardic, febrile, hypoxic on room air, with decreased breath sounds and dullness at the right lung base; imaging revealed a new right pleural effusion and old bilateral pulmonary emboli without new embolic events. The documented clinical impression was new right pleural effusion without evidence of new pulmonary embolus, possibly related to necrotic lung tissue or superinfection, in the context of a hypercoagulable state from ulcerative colitis. Treatment included video-assisted thoracoscopic surgery (VATS) with wedge resection and removal of infarcted lung, chest tube placement, antibiotics (Levofloxacin and Flagyl), oxygen therapy, and anticoagulation (initially Lovenox, transitioned to Coumadin). Asacol was discontinued due to possible exacerbation of ulcerative colitis, with steroids planned if symptoms reflare; Paxil was continued for depression.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort as the chief complaint. Symptoms included sharp right-sided chest pain rated 6/10 in severity, worsening with deep breaths but not affected by movement, persistent over several days, along with cough, shortness of breath, fever, chills, and increased bowel movements typical of ulcerative colitis flares. The patient has a history of ulcerative colitis and reported no changes in pain intensity or frequency since onset. No physical findings were described in the dialogue. The doctor assessed that the symptoms could suggest pleurisy or extraintestinal manifestations of ulcerative colitis, especially given the recent flare and new respiratory symptoms. The doctor advised rest, hydration, monitoring for warning signs (severe shortness of breath, worsening chest pain, hemoptysis, or syncope), and prompt medical attention if these occur. The patient was also advised to follow up soon with their regular doctor for possible further evaluation, such as a chest X-ray.
+The patient is an adult presenting with chest discomfort as the chief complaint. The pain is described as sharp, primarily on the right side, worsened by deep inspiration, and rated 6 out of 10 in severity; it has persisted steadily for several days. Associated symptoms include cough, shortness of breath (dyspnea), fever, chills, and increased bowel movements, the latter consistent with a flare of known ulcerative colitis. The patient denies that movement affects the pain and reports no recent changes in bowel habits beyond what is typical for their condition. The clinical impression discussed was possible pleurisy or extraintestinal manifestation of ulcerative colitis affecting the lungs. The treatment plan included advice to rest, maintain hydration, monitor for warning signs (such as severe dyspnea, worsening chest pain, hemoptysis, or syncope), and seek prompt medical attention if these occur. The patient was also advised to follow up with their regular doctor for further evaluation, which may include imaging such as a chest X-ray. No new medications or interventions were initiated during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.699
+- **Model Used**: general
+- **Text1 Length**: 197 words
+- **Text2 Length**: 171 words
+
 
 ## Processing Information
 

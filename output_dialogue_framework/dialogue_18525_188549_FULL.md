@@ -96,3 +96,21 @@ Let me know if you'd like advice on self-care techniques, or if you have questio
 ## Processing Information
 
 - **Processing Time**: 395.1s
+
+## EHR Summary
+
+The patient is a 41-year-old female presenting for evaluation of headaches. She reported a history of headaches but had no other complaints at the time of admission. Her past medical history includes spastic bowel disease, spastic esophagus disease, anxiety and panic disorder, hypothyroidism, and prior substance use, with allergies to ciprofloxacin (rash) and vomiting with Percocet. On workup, she was found to have a right ophthalmic artery aneurysm. The documented diagnosis was right ophthalmic artery aneurysm. She underwent a right coronal craniotomy with clipping of the aneurysm, which she tolerated well, and her postoperative course was unremarkable. She was discharged in stable and improved condition after a brief hospital stay.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with headaches as the chief complaint. The headaches began a few days ago, occur daily, and are rated 6 out of 10 in intensity; they are somewhat relieved by rest and ibuprofen, with no clear triggers identified. The patient denies associated symptoms such as photophobia, phonophobia, visual changes, or nausea, and reports no changes in sleep or stress levels. The headaches make it harder to concentrate but do not prevent completion of daily activities. Relevant medical history, medications, and allergies are not specified. The clinical impression is that these are likely tension-type headaches. The treatment plan includes reassurance, continued use of over-the-counter analgesics as needed, and recommendations for self-care strategies such as hydration, regular breaks from screens, gentle neck and shoulder stretching, and stress management. The patient was advised to seek further evaluation if new or severe symptoms develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.496
+- **Model Used**: general
+- **Text1 Length**: 110 words
+- **Text2 Length**: 145 words
+

@@ -89,16 +89,21 @@ Let me know if you have any questions or if you'd like to discuss ways to make e
 
 ## EHR Summary
 
-The patient is a 79-year-old female presenting with a chief complaint of tongue swelling that began earlier in the evening. She reported waking up with a strange sensation in her neck and a swollen tongue, but denied chest pain, dyspnea, dizziness, rash, itching, recent medication changes, or exposure to new foods or travel. Her medical history includes atrial fibrillation, hypertension, questionable chronic obstructive pulmonary disease, hypercholesterolemia, depression, osteoarthritis (status post bilateral total knee replacement), and spinal stenosis; she is allergic to Bactrim and has been taking lisinopril since August of the previous year. On admission, she was treated in the Emergency Department with intravenous Solu-Medrol 150 mg and an H2 blocker, and was evaluated by Anesthesia before being admitted to the Medical Intensive Care Unit for observation. The clinical impression suggests angioedema, likely related to ACE inhibitor use (lisinopril), though this is not explicitly stated in the note. The treatment plan included continued observation in the ICU and discontinuation of the suspected offending agent. No airway compromise or other acute complications were documented during her stay.
+The patient is a 79-year-old female presenting with acute tongue swelling that began earlier in the evening. She reported waking up with a strange neck sensation and a swollen tongue, but denied chest pain, dyspnea, dizziness, rash, or recent medication changes; her speech was slurred due to the swelling. Her medical history includes atrial fibrillation, hypertension, depression, osteoarthritis, questionable chronic obstructive pulmonary disease (COPD), and hypercholesterolemia; she has been taking lisinopril since August 2181 and is allergic to Bactrim. On examination, she was stable with visible tongue swelling but no stridor or respiratory distress. The documented diagnosis was angioedema, most likely secondary to ACE inhibitor (lisinopril) use. Treatment included discontinuation of the ACE inhibitor, administration of intravenous steroids and H2 blockers, observation in the ICU, and continuation of Benadryl and famotidine; she was discharged with an EpiPen for emergency use. Her antihypertensive regimen was adjusted by starting amlodipine and continuing atenolol, and her COPD and atrial fibrillation medications were maintained. She was advised to follow up with her primary care physician and allergy clinic, and to seek emergency care if tongue swelling recurred.
+
 
 ## Dialogue Summary
 
-The patient presented with tongue swelling that has persisted for a couple of days. Symptoms include persistent tongue swelling, mild slurred speech, discomfort while eating, a strange sensation in the neck, and some wheezing; swallowing is not significantly affected, and there are no changes in taste, tingling, or numbness. The patient reported no recent fevers, rashes, new allergies, or changes in medications, and is able to manage daily activities despite the discomfort. On examination, the doctor noted no signs of infection or rapid progression of symptoms. The assessment was that the symptoms may be related to a mild allergic reaction, irritation, or minor infection, but the lack of escalation and severe airway symptoms suggests a benign process. The doctor advised staying hydrated, avoiding foods or products that might irritate the mouth, and monitoring for any sudden increase in swelling, difficulty breathing, or trouble swallowing. The patient was instructed to seek prompt medical attention if symptoms worsen and was offered further discussion on strategies to make eating and speaking more comfortable.
+The patient is an adult presenting with the chief complaint of tongue swelling persisting for a couple of days. Symptoms include persistent tongue swelling, mild slurred speech, a strange sensation in the neck, and some wheezing; swallowing is not significantly affected, but eating and speaking are uncomfortable. The patient denies fever, rash, new allergies, or recent medication changes, and reports no triggers or alleviating factors. There is no documented history of severe allergic reactions or other relevant medical conditions in the dialogue. The clinical impression is that the symptoms may be due to a mild allergic reaction, irritation, or minor infection, but there are no signs of rapid progression or severe airway compromise. The patient was advised to stay hydrated, avoid potential irritants, and monitor for any worsening symptoms such as increased swelling, difficulty breathing, or trouble swallowing. The doctor emphasized the importance of seeking prompt medical attention if these warning signs develop. Supportive measures for comfort while eating and speaking were offered.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.598
+- **Model Used**: general
+- **Text1 Length**: 183 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

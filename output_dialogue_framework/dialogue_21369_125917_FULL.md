@@ -85,16 +85,23 @@ For now, monitoring your temperature and watching for any changes is a good appr
 
 ## EHR Summary
 
-The patient is a 49-year-old woman admitted for surgical management of a left posterior communicating artery (PCOM) aneurysm. She has a history of multiple intracranial aneurysms, including a prior basilar tip aneurysm rupture treated with coil embolization and previous surgical clipping of right ICA bifurcation and ACOM aneurysms. On admission, she underwent successful left PCOM aneurysm clipping without intraoperative complications. Physical examination revealed stable vital signs, intact cranial nerves, full muscle strength, and no focal deficits. Postoperatively, she developed a fever up to 102.3°F; one blood culture grew Gram positive cocci, but this was considered a contaminant. She was briefly started on vancomycin, which was discontinued after further assessment. The patient remained afebrile for 48 hours prior to discharge and was discharged home in stable condition. She has an allergy to Fiorinal.
+The patient is a 49-year-old woman admitted for surgical management of a left posterior communicating artery (PCOM) aneurysm. She has a history of basilar tip aneurysm rupture treated with coil embolization and prior surgical clipping of right internal carotid artery (ICA) bifurcation and anterior communicating artery (ACOM) aneurysms. On admission, she underwent successful left PCOM aneurysm clipping without intraoperative complications. Postoperatively, she was neurologically intact, afebrile, and hemodynamically stable, but developed a transient fever to 102.3°F; blood cultures grew Gram positive cocci, thought to be a contaminant. She was briefly treated with vancomycin, which was discontinued after contamination was suspected. At discharge, she was afebrile for 48 hours, stable, and neurologically intact. The documented diagnosis was left PCOM aneurysm status post clipping. She was discharged home with instructions for follow-up and prescriptions for oxycodone as needed for pain and Lopressor 50 mg twice daily.
+
 
 ## Dialogue Summary
 
-The patient presented with fever as the chief complaint, reporting a temperature up to 102.3°F. The fever was described as intermittent, with temperature spikes and drops, and had been ongoing for an unspecified duration. No other symptoms were noted—specifically, the patient denied cough, sore throat, body aches, chills, sweating, fatigue, rashes, headaches, or changes in appetite, urine, or bowel habits. The patient reported no recent travel, sick contacts, or changes in routine, and was able to perform normal daily activities without difficulty. On assessment, the doctor noted an isolated fever without associated symptoms or functional impairment, suggesting a mild viral infection or minor immune response as the likely cause. The doctor recommended monitoring temperature, staying hydrated, and resting as needed. The patient was advised to seek further evaluation if the fever persisted for more than a week, increased in severity, or if new symptoms developed.
+The patient presents with the chief complaint of fever, with a recorded temperature up to 102.3°F. The fever is intermittent, with episodes of temperature spikes followed by periods of lower temperature, and has been present for an unspecified duration. The patient denies associated symptoms such as cough, sore throat, body aches, chills, sweating, fatigue, rash, headache, or changes in appetite, urine, or bowel habits, and reports no recent travel or sick contacts. There is no impact on daily activities aside from monitoring the fever.
+
+The clinical impression is an isolated fever without other symptoms, likely due to a mild viral infection or a minor cause. The treatment plan includes supportive care: maintaining hydration, resting as needed, and monitoring for new or worsening symptoms. The patient was advised to seek further evaluation if the fever persists for more than a week, increases in severity, or if additional symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.929
-- **Similarity Label**: N/A
+- **STS Score**: 0.404
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 148 words
+
 
 ## Processing Information
 

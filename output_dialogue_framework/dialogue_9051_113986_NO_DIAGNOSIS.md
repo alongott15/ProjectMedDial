@@ -87,16 +87,23 @@ Does this approach make sense to you, or is there anything else you’re concern
 
 ## EHR Summary
 
-The patient is an 88-year-old female presenting with unstable angina and substernal chest pain relieved by nitroglycerin. Her symptoms included chest pain, elevated troponin (2.0), and EKG changes with anterolateral T wave inversions; she became pain-free after initial medical management. Relevant history includes hypertension, recurrent C. difficile infection, prior GI bleed, right hip surgery, DVT, and appendectomy; medications on transfer included enoxaparin, Lopressor, atorvastatin, Ativan, Plavix, aspirin, Avapro, and prednisone. On admission, she complained of significant right groin pain following cardiac catheterization, with physical exam notable for stable vital signs and pain on examination. Echocardiogram showed septal apical and anterior hypokinesis with an ejection fraction of 35%, and cardiac catheterization revealed clean coronaries. The documented diagnosis was unstable angina with post-catheterization right groin hematoma. Treatment included medical management with antiplatelet agents and anticoagulation, and symptom control for agitation and pain. No coronary intervention was performed.
+The patient is an 88-year-old woman admitted for cardiac catheterization following unstable angina with substernal chest pain relieved by nitroglycerin. She experienced chest pain, elevated troponin (2.0), and EKG changes, but coronary angiography revealed no significant coronary artery disease. Her hospital course was complicated by a large right groin hematoma post-catheterization, associated with significant pain, a drop in hematocrit to 24, and transient hypotension and lethargy after morphine administration, which resolved with Narcan and fluids. Relevant history includes hypertension, recurrent C. difficile infection, prior GI bleed, DVT, and right hip surgery. The documented diagnoses were noncardiac chest pain, status post cardiac catheterization with large groin hematoma, and hypertension. Treatment included transfusion of 3 units of packed red blood cells, pain management, discontinuation of aspirin, Plavix, and heparin, and continuation of antihypertensive therapy. She was discharged in good condition to a rehabilitation facility with instructions for hematocrit monitoring and follow-up.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain that began earlier today and occurs intermittently, lasting several minutes per episode and improving with nitroglycerin. The chest pain reaches a severity of 7 out of 10 during episodes, occurs both at rest and with activity, and is not accompanied by sweating, nausea, lightheadedness, or fainting. The patient also reported right groin pain that worsens with movement or walking, but denied swelling, redness, warmth, lumps, or bulges in the area. Additional symptoms include increased lethargy, low blood pressure, agitation, anxiety, and difficulty performing daily activities such as walking and dressing. No relevant medical history, medications, or allergies were specified in this conversation. The doctor assessed that the chest pain may be cardiac in origin given its response to nitroglycerin and associated changes in energy and blood pressure, while the groin discomfort is likely due to muscle strain or arthritis rather than hernia. The doctor advised monitoring for new symptoms such as swelling, redness, worsening groin pain, shortness of breath, or fainting, and recommended rest and avoidance of aggravating activities; the patient was instructed to seek care if symptoms worsen or usual medications become less effective.
+The patient presents with intermittent chest pain that began earlier the same day and lasts several minutes per episode, reaching a severity of 7 out of 10, which improves with nitroglycerin. The chest pain occurs both at rest and with activity and is not associated with sweating, nausea, lightheadedness, or fainting, but the patient reports increased lethargy and recent low blood pressure. Additionally, the patient describes right groin pain that worsens with movement but is not accompanied by swelling, redness, warmth, or a palpable lump. These symptoms have made daily activities such as walking and dressing more difficult and have caused increased agitation and anxiety.
+
+The clinical impression is that the chest pain may be cardiac in origin given the response to nitroglycerin, while the right groin discomfort is likely due to muscle strain or possibly arthritis, as there are no findings suggestive of a hernia. The treatment plan includes monitoring for new symptoms such as swelling, redness, worsening groin pain, shortness of breath, or fainting, and seeking prompt care if these occur. The patient is advised to rest, avoid aggravating activities, and report if usual medications become less effective or symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.648
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 193 words
+
 
 ## Processing Information
 

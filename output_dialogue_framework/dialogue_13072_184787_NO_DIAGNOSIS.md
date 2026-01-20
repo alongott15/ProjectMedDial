@@ -85,16 +85,21 @@ Let me know if you have any questions about what to expect at an eye exam, or if
 
 ## EHR Summary
 
-The patient is a 37-year-old female presenting with decreased vision in the left eye over the past five months. She denied associated symptoms such as fever, chills, sweats, chest pain, shortness of breath, or palpitations. Her medical history includes depression, allergic rhinitis, and eczema, for which she takes Zoloft, Flonase, and Hydrocortisone Cream; she has a penicillin allergy. Physical examination was notable only for visual changes in the left eye; other systems were unremarkable. Imaging and work-up revealed a tuberculum sella meningioma. She underwent a left frontal craniotomy with removal of the meningioma. The postoperative course was unremarkable, and she was discharged home in stable condition.
+The patient is a 37-year-old female presenting with decreased vision in the left eye over the past five months. She denied associated symptoms such as fever, chills, sweats, chest pain, dyspnea, or palpitations. Her medical history includes depression, allergic rhinitis, eczema, and a penicillin allergy; current medications are Zoloft, Flonase, and Hydrocortisone Cream. On work-up, she was diagnosed with a tuberculum sella meningioma. She underwent a left frontal craniotomy for tumor removal, which she tolerated well, and her postoperative course was unremarkable. At discharge, her vision was slightly improved and she was stable. Discharge medications included Dilantin for one week postoperatively, a tapering course of Decadron, Zantac, and Percocet as needed for pain. She was discharged home in stable condition with her family.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening blurry vision in the left eye. The blurriness developed slowly over time and has made reading and computer use more difficult, with the patient squinting more with the left eye; there has been no pain, redness, discharge, sensitivity to light, double vision, or trouble focusing at certain distances, and no missing spots or shadows in the visual field. The patient does not wear corrective lenses and has not noticed any recent worsening of symptoms. No relevant medical history, medications, or allergies were mentioned. On review, there were no acute or alarming symptoms described by the patient. The doctor assessed that the gradual, steady decrease in sharpness without other symptoms is likely related to common causes such as refractive changes or early cataracts, but emphasized the need for a proper eye exam to determine the exact cause. The doctor recommended scheduling a routine eye exam with an optometrist or ophthalmologist and advised seeking urgent care if new symptoms such as sudden vision loss, flashes of light, or a curtain over vision occur. The patient understood and agreed to follow these recommendations.
+The patient is an adult presenting with decreased visual acuity in the left eye as the chief complaint. The patient reports a gradual onset of blurred vision in the left eye, which has slowly worsened but has remained stable recently. The visual changes have made activities such as reading and using a computer more difficult, and the patient does not wear corrective lenses. There are no associated symptoms of pain, redness, discharge, photophobia, double vision, or visual field defects. Relevant history of eye disease, trauma, or systemic illness is not specified. The clinical impression is a gradual, steady decrease in vision likely related to refractive changes or early cataract, with no acute concerning features. The treatment plan includes referral for a routine eye exam with an optometrist or ophthalmologist to determine the cause and consider corrective lenses or further treatment. The patient was advised to seek urgent care if new symptoms such as sudden vision loss, flashes of light, or a curtain over vision develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.532
+- **Model Used**: general
+- **Text1 Length**: 123 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

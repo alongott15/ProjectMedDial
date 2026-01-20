@@ -87,16 +87,23 @@ For now, focusing on energy conservation, gentle physical therapy exercises, and
 
 ## EHR Summary
 
-The patient is a 53-year-old female presenting for evaluation of a flow void on her internal communicating artery identified during MRI follow-up for multiple sclerosis. She is asymptomatic from the aneurysms but has a history of multiple sclerosis affecting her left leg and arm, migraine headaches, borderline hypertension, increased cholesterol, and frequent bronchitis. She has allergies to Decadron, tetracycline, penicillin, and Keflex, and a significant 60-pack-year smoking history. On admission, physical examination revealed normal vital signs, clear lungs, regular cardiac rhythm, and no abdominal or extremity abnormalities; neurologically, she was alert and oriented with cranial nerves II-XII intact, but had significant left-sided weakness (left upper extremity strength [**2-20**], left lower extremity 0/5). Imaging revealed 8-mm and 4.5-mm aneurysms at the internal communicating artery and left middle cerebral artery bifurcation. The documented diagnosis was cerebral aneurysms discovered during workup for multiple sclerosis. Treatment plan details are not specified in the note.
+The patient is a 53-year-old female presenting for evaluation and management of cerebral aneurysms discovered during follow-up imaging for multiple sclerosis. She was found to have an 8-mm aneurysm at the internal communicating artery and a 4.5-mm aneurysm at the left middle cerebral artery bifurcation, with no acute neurological symptoms documented at admission. Her medical history includes multiple sclerosis affecting the left leg and arm, migraine headaches, borderline hypertension, increased cholesterol, and frequent bronchitis; she is allergic to Decadron, tetracycline, penicillin, and Keflex. The documented diagnoses were aneurysm of the internal communicating artery and aneurysm of the bifurcation of the left middle cerebral artery. She underwent craniotomy with clipping of both aneurysms, followed by postoperative monitoring and correction of low potassium and magnesium levels. Postoperative angiogram confirmed successful clipping with no residual aneurysmal filling. At discharge on postoperative day four, she was stable and sent home with instructions to follow up in one month and prescriptions for Percocet as needed for pain and Colace as needed for constipation.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about a flow void found on MRI during follow-up for multiple sclerosis, as well as weakness in the left arm. The patient described persistent weakness in the left arm and leg, with difficulty buttoning shirts, holding objects, reduced grip strength, and trouble lifting, which worsens with fatigue but is otherwise steady throughout the day; no numbness, tingling, or changes in vision, speech, or balance were reported. The patient noted needing extra help at home and having to stop some activities due to weakness, and also mentioned limited movement in the right upper extremity and restricted abduction of the right pupil. Relevant history includes multiple sclerosis; no medications or allergies were discussed. On examination, the doctor noted steady left-sided weakness without sensory changes or new neurological deficits. The assessment was that the symptoms likely reflect ongoing effects from previous MS activity, with fatigue-related worsening, and that the flow void on MRI is likely a normal finding in the absence of acute symptoms. The doctor recommended energy conservation, gentle physical therapy exercises, pacing activities, and advised prompt evaluation if new or rapidly worsening symptoms develop. The patient expressed understanding of the explanation and asked about monitoring right-sided symptoms as well.
+The patient is an adult with a history of multiple sclerosis presenting for evaluation after a flow void was noted on MRI and reporting persistent weakness in the left arm and leg. The weakness has been present for an unspecified duration, is steady throughout the day, and worsens with fatigue; there is no associated numbness, tingling, vision, speech, or balance changes. The patient reports difficulty with tasks requiring grip or lifting and needs extra help at home, with similar weakness affecting the left leg and some difficulty in the right upper extremity (can only move against gravity), as well as limited abduction of the right pupil. There is no history of new or sudden neurological symptoms.
+
+The clinical impression is that the steady left-sided weakness is likely related to prior MS activity, with fatigue-related worsening being common in this condition. The flow void seen on MRI is explained as usually benign and not urgent in the absence of acute symptoms. The treatment plan includes energy conservation, gentle physical therapy exercises, and pacing activities. The patient was advised to seek prompt evaluation if new or rapidly worsening symptoms such as numbness, vision loss, or speech difficulties develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.553
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 196 words
+
 
 ## Processing Information
 

@@ -87,16 +87,23 @@ Let me know if you have any questions or if you'd like advice on managing the di
 
 ## EHR Summary
 
-The patient is a 72-year-old male presenting with left leg pain following a fall approximately 24 hours prior to admission. He reports lying on the floor for about 24 hours after attempting to get up from a chair, with unclear precipitating factors and no witnessed loss of consciousness or seizure activity. Additional symptoms included vomiting coffee ground material two to three days before admission, and ongoing coffee ground emesis in the Emergency Department. Relevant history includes untreated diabetes mellitus for three years and a dysfunctional right lower extremity prosthesis; past medical history otherwise unknown. On examination, he was found to have a left subtrochanteric comminuted femur fracture, diabetic ketoacidosis (anion gap 28, blood glucose 689), and an upper gastrointestinal bleed. Laboratory findings included elevated creatine kinase (CK up to 3523), MB index (up to 26), and troponin (>50). The documented diagnoses were left femur fracture, diabetic ketoacidosis, and upper GI bleed. Treatment included nasogastric tube lavage for GI bleed and supportive care for diabetic ketoacidosis; further management details are not specified.
+The patient is a 72-year-old male presenting with left leg pain following a fall approximately 24 hours prior to admission. He reported lying on the floor for about a day after the fall and also noted vomiting coffee ground material two to three days before admission; in the Emergency Department, he had further coffee ground emesis. His past medical history includes diabetes mellitus (untreated for three years), coronary artery disease, hypercholesterolemia, peripheral vascular disease, right below-knee amputation, and urinary incontinence; he has no known drug allergies and had not been on medications for several years. On evaluation, he was found to have a left subtrochanteric comminuted femur fracture, diabetic ketoacidosis (anion gap 28, glucose 689), an upper gastrointestinal bleed, and an acute myocardial infarction (with new ECG changes and elevated troponin). Treatment included insulin drip and fluids for diabetic ketoacidosis, aspirin, beta blocker, ACE inhibitor, and heparin for myocardial infarction, and later cardiac catheterization with stent placement. The upper GI bleed was managed conservatively with nasogastric lavage and monitoring. Orthopedic management involved initial Buck's traction followed by open reduction internal fixation of the femur fracture. The patient received physical therapy and was planned for rehabilitation and prosthesis fitting for his right below-knee amputation.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about bleeding into the left thigh following a femur fracture. Symptoms included persistent bleeding and swelling in the left thigh, bruising around the scrotum that appeared after the initial bleeding, pain in the affected area without warmth, and increased difficulty with walking and basic activities such as dressing and using the bathroom. The patient denied weakness, lightheadedness, or shortness of breath, and reported that swelling and bruising have remained stable since onset. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted stable symptoms without signs of spreading or worsening, and explained that scrotal bruising can occur due to blood tracking through soft tissue after a thigh fracture; absence of warmth and manageable pain suggested typical healing rather than infection or new bleeding. The doctor recommended monitoring for increased swelling, pain, warmth, numbness, or difficulty moving the leg, and advised gentle movement, leg elevation, and maintaining light activity as tolerated. The patient was instructed to seek medical attention if concerning symptoms develop and expressed understanding of the plan.
+The patient is an adult presenting with concern about bleeding into the left thigh following a femur fracture. Symptoms include stable bleeding and swelling in the left thigh, with associated bruising extending to the scrotum area; these symptoms began immediately after the fracture and have not worsened. The patient reports pain and discomfort, which have made walking and basic activities such as dressing and toileting more challenging, but denies weakness, lightheadedness, or dyspnea. There is no reported warmth in the affected areas, and swelling has remained stable.
+
+The clinical impression is that the bruising and swelling are consistent with expected blood tracking through soft tissue after a femur fracture, without evidence of ongoing significant blood loss or infection. The treatment plan includes monitoring for increased swelling, pain, warmth, numbness, or difficulty moving the leg, and seeking medical attention if these develop. Recommendations include gentle movement, elevating the leg when possible, maintaining light activity as tolerated, and monitoring overall energy level. No new medications or interventions were prescribed during this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
+- **STS Score**: 0.449
+- **Model Used**: general
+- **Text1 Length**: 203 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

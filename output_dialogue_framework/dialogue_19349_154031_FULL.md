@@ -87,16 +87,23 @@ You're doing a great job keeping track of these details—let me know if you hav
 
 ## EHR Summary
 
-The patient is a male newborn delivered at 34 and 4/7 weeks gestational age, admitted for management of prematurity. He was born via cesarean section after induction of labor due to fetal intolerance, with rupture of membranes 14 hours prior to delivery and clear amniotic fluid. The infant emerged with good tone and cry, required brief free-flow oxygen for two minutes, and was then stable and pink. Maternal history was notable for gestational diabetes requiring insulin. On physical examination, the infant appeared well, with stable vital signs on room air, minimal intercostal retractions, and findings consistent with prematurity but no dysmorphic features or major abnormalities. The documented diagnosis was prematurity. The treatment plan included admission to the Neonatal Intensive Care Unit for monitoring and supportive care.
+The patient is a male newborn admitted to the Neonatal Intensive Care Unit for management of prematurity at 34 and 4/7 weeks gestational age. He was born via cesarean section after induction of labor due to fetal intolerance, with initial good tone and cry, and required brief free-flow oxygen for two minutes. On examination, he was a well-appearing preterm infant with minimal intercostal retractions but otherwise stable vital signs and normal newborn findings. The hospital course was notable for stable respiratory and cardiovascular status, successful transition from IV fluids to full oral feeds, and two days of phototherapy for hyperbilirubinemia (maximum bilirubin 10.3, resolved to 5.3). Initial labs showed normal glucose and hematocrit, and iron supplementation was started. The documented diagnoses were prematurity (34 and 4/7 weeks) and resolved hyperbilirubinemia of prematurity. At discharge, the infant was feeding well on enriched breast milk and prescribed elemental iron supplementation. Follow-up with the primary care physician was recommended, and immunizations were deferred until the patient reaches 2 kg or two months of age.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns regarding her baby's prematurity. She reported observing minimal intercostal retractions, primarily when the baby is awake and active, but denied any major changes in breathing, feeding difficulties, color changes, grunting, wheezing, irritability, or unusual tiredness. The baby's feeding was described as normal, and he appeared generally calm and content. No relevant past medical history, medications, or allergies were mentioned. On clinical assessment, the doctor noted that the minimal retractions were not persistent and did not worsen with activity or feeding, and there were no other concerning signs. The doctor assessed that these mild retractions are common in premature infants due to less developed chest wall muscles and are not worrisome in the absence of other symptoms. The treatment plan included continued gentle observation, regular check-ups, and instructions to monitor for new symptoms such as increased work of breathing, color changes, poor feeding, or unusual sleepiness, with advice to seek medical attention if any of these arise. The patient understood and agreed to monitor for changes.
+The patient is a parent concerned about their premature infant’s breathing. The main symptom reported is minimal intercostal retractions, primarily observed when the baby is awake and active, with no associated feeding difficulties, color changes, noisy breathing (such as grunting or wheezing), or unusual tiredness. The retractions have been present but minimal since birth and do not worsen with crying or after feeding. The infant is described as generally calm and content, with no irritability or trouble settling.
+
+There is no documented history of other medical issues, medications, or allergies. The clinical impression is that the infant is doing well overall for a premature baby, and the minimal retractions are likely due to less developed chest wall muscles, which is common in prematurity. The doctor advised continued observation for any new symptoms such as increased work of breathing, color changes, poor feeding, or unusual sleepiness. No specific treatment was prescribed; regular monitoring and routine check-ups were recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.522
+- **Model Used**: general
+- **Text1 Length**: 171 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

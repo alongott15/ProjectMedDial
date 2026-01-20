@@ -63,16 +63,21 @@
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with chest pain. He reported several months of exertional axillary pain relieved by rest, without associated radiation, dyspnea, diaphoresis, nausea, or vomiting, and noted no increase in frequency or intensity of symptoms. His medical history includes type 2 diabetes, hypertension, and hypercholesterolemia; admission medications included Avandia, Glucophage, Accupril, Pravachol, and aspirin. Physical examination revealed stable vital signs and was unremarkable. An abnormal electrocardiogram and a positive stress test with ST changes in the anterior leads prompted hospital admission for further evaluation. The documented diagnosis is not explicitly stated in the note. The treatment plan during admission is not specified in the provided text.
+The patient is a 58-year-old male presenting with chest pain. He reported several months of exertional axillary pain relieved by rest, without associated radiation, dyspnea, diaphoresis, nausea, or vomiting. His history is significant for type 2 diabetes, hypertension, and hypercholesterolemia, and he was taking Avandia, Glucophage, Accupril, Pravachol, and aspirin on admission. Workup revealed abnormal ECG and a positive stress test, and cardiac catheterization showed significant multi-vessel coronary artery disease with an ejection fraction of 37%. The documented diagnoses were coronary artery disease status post four-vessel coronary artery bypass graft, diabetes mellitus, atrial fibrillation, hypertension, and hypercholesterolemia. Treatment included coronary artery bypass grafting (CABG x4), management of postoperative atrial fibrillation with intravenous Lopressor and oral amiodarone, adjustment of potassium supplementation, and continuation of cardiac and diabetic medications. The patient was discharged in stable condition with instructions to continue his medications and follow up with his physicians in two to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The pain is mainly located in the center of the chest and sometimes radiates under the arm, particularly with exertion, and resolves with rest. The patient denied associated symptoms such as shortness of breath, sweating, or lightheadedness. The discomfort began a few days ago and is triggered by physical activity, improving upon rest. No relevant medical history, medications, or allergies were mentioned. No physical findings were described in the conversation. The doctor did not provide a specific assessment or working diagnosis during the dialogue. No treatment plan or recommendations were given in the portion of the conversation provided.
+The patient is presenting with chest pain as the chief complaint. The pain is described as being located centrally in the chest, sometimes radiating under the arm, and is triggered by exertion but resolves with rest. The patient denies associated symptoms such as dyspnea, diaphoresis, or lightheadedness. The discomfort began a few days ago and occurs with physical activity. Relevant medical history, medications, allergies, and a documented diagnosis are not specified in the dialogue. No specific treatment or recommendations were documented during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.428
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 84 words
+
 
 ## Processing Information
 

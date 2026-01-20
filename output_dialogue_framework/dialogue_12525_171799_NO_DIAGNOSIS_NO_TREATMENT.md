@@ -89,16 +89,21 @@ Has the double vision or vertigo been getting better, worse, or staying about th
 
 ## EHR Summary
 
-The patient is a 61-year-old female presenting for an elective cerebral angiogram. She previously experienced an episode of diplopia on 2117-10-21, with no further symptoms and mild vertigo that resolved at that time. Her past medical history is negative for diabetes, heart, or lung disease, and she has no known drug allergies; current medications include multivitamins, aspirin, and Lipitor. On admission, her vital signs were stable and physical examination was unremarkable. She underwent diagnostic cerebral angiogram followed by embolization and coiling of a known right internal carotid aneurysm. The procedure was tolerated well, and her postoperative course was unremarkable. She was discharged home on 2118-8-7 with instructions to resume her preoperative medications.
+The patient is a 61-year-old female presenting for an elective cerebral angiogram following a prior episode of diplopia and mild vertigo in October 2117, both of which resolved without recurrence. She reported no ongoing neurological symptoms at the time of admission. Her past medical history is negative for diabetes, heart, or lung disease, and she has no known drug allergies; current medications include multivitamins, aspirin, and Lipitor. On examination, her vital signs were stable and the physical exam was unremarkable. The documented diagnosis was a right internal carotid aneurysm. She underwent diagnostic cerebral angiogram followed by embolization and coiling of the aneurysm, with an unremarkable postoperative course. She was discharged home in stable and improved condition with instructions to resume her preoperative medications and arrange a follow-up appointment.
+
 
 ## Dialogue Summary
 
-The patient presented with new-onset double vision as the chief complaint. The double vision began a few days ago, occurs mainly when looking to the side or focusing, and resolves when one eye is closed; it is described as side-by-side images. The patient also reported mild vertigo, described as a spinning sensation that is not constant and is worsened by quick head movements; both symptoms have made reading and walking more difficult but have not changed in severity since onset. No headaches, weakness, numbness, or speech changes were reported, and there was no mention of relevant medical history, medications, or allergies. On clinical questioning, the doctor noted that the double vision is binocular and likely related to eye muscle coordination rather than an intrinsic eye problem. The assessment was possible temporary dysfunction of the nerves or muscles controlling eye movement, with mild vertigo possibly due to an inner ear issue such as benign positional vertigo, but with caution advised due to the combination of symptoms. The doctor recommended an in-person evaluation of the eyes and nervous system soon, advised avoiding sudden head movements and being careful with activities like driving or using stairs, and instructed the patient to seek immediate care if new neurological symptoms develop.
+The patient is an adult presenting with double vision as the chief complaint. The double vision began a few days ago, occurs mainly when looking to the side or focusing, and resolves when one eye is closed; it is described as side-by-side images. The patient also reports mild vertigo, which is intermittent and worsened by quick head movements, but denies headaches, weakness, numbness, or speech changes. The symptoms have made reading and walking more difficult, though there has been no progression since onset. Relevant history, medications, and allergies are not specified. The clinical impression is that the double vision is likely due to a problem with eye muscle coordination (possibly related to cranial nerves or extraocular muscles), and the vertigo may be due to a benign inner ear issue, but further evaluation is recommended to rule out more serious causes. The treatment plan includes avoiding sudden head movements, being cautious with activities like driving or using stairs, and seeking prompt in-person evaluation; urgent care is advised if new neurological symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
+- **STS Score**: 0.460
+- **Model Used**: general
+- **Text1 Length**: 128 words
+- **Text2 Length**: 171 words
+
 
 ## Processing Information
 

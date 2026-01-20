@@ -87,16 +87,21 @@ Does that plan sound reasonable to you? And is there anything else about your he
 
 ## EHR Summary
 
-The patient is a 64-year-old male presenting with chest pain and unstable angina. He underwent cardiac catheterization, which revealed three-vessel coronary artery disease. His past medical history, allergies, and prior medications are not specified. On [2133-9-21], he underwent coronary artery bypass grafting (CABG) times two. Postoperatively, he was extubated, chest tubes and Foley catheter were removed, and he was able to ambulate and perform stairs with physical therapy evaluation. The documented diagnosis was three-vessel coronary artery disease with unstable angina. He was discharged home in stable condition. Discharge medications included atorvastatin, Protonix, Percocet as needed, enteric-coated aspirin, potassium supplement, Lopressor, Lasix, and Tylenol as needed, with instructions to follow up with his primary care physician in 1–2 weeks and cardiologist in 4 weeks.
+The patient is a 64-year-old male presenting with chest pain and unstable angina. He underwent cardiac catheterization, which revealed three-vessel coronary artery disease. His past medical history, medication allergies, and other comorbidities are not specified. The documented diagnosis was three-vessel coronary artery disease with unstable angina. He was treated with coronary artery bypass grafting (CABG) times two on hospital day 7. Postoperatively, he recovered well, was weaned from the ventilator, extubated, and able to ambulate and perform stairs prior to discharge. Discharge medications included atorvastatin, Protonix, Percocet as needed, enteric-coated aspirin, potassium supplement, Lopressor, Lasix, and Tylenol as needed. He was discharged home in stable condition with instructions to follow up with his primary care physician in 1–2 weeks and with his cardiologist in 4 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. He described the discomfort as a pressure located centrally in his chest, rated at 5–6 out of 10 in severity, which began a few days ago. The pressure worsens with physical activity and improves somewhat with rest; changing position or deep breaths do not affect it. He denied associated symptoms such as sweating, lightheadedness, shortness of breath, or nausea. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that chest pressure worsening with exertion and improving with rest could be cardiac in origin but also considered other causes such as muscle strain or acid reflux. The doctor recommended further evaluation with an EKG and basic lab tests to determine the cause and advised the patient to seek immediate care if symptoms worsen or new symptoms develop. The patient expressed understanding and had no additional health concerns.
+The patient is an adult male presenting with chest pressure as the chief complaint. He describes the discomfort as a central, pressure-like sensation rated 5–6 out of 10 in severity, persisting for several days and worsened by physical activity but improved with rest. He denies associated symptoms such as shortness of breath, sweating, or lightheadedness. No relevant past medical history, medications, or allergies were discussed in this encounter. The clinical impression is that the chest pressure with exertion may be cardiac in origin, though other causes such as muscle strain or acid reflux were also considered. The physician recommended further evaluation, including an EKG and basic laboratory tests, to assess for possible cardiac causes. The patient was advised to seek immediate medical attention if symptoms worsen, occur at rest, or are accompanied by severe shortness of breath, sweating, nausea, or fainting. No additional health concerns were reported by the patient.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.943
-- **Similarity Label**: N/A
+- **STS Score**: 0.461
+- **Model Used**: general
+- **Text1 Length**: 126 words
+- **Text2 Length**: 150 words
+
 
 ## Processing Information
 

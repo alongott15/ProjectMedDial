@@ -85,16 +85,23 @@ If you notice any new symptoms like spreading redness, fever, or increasing pain
 
 ## EHR Summary
 
-The patient is a 56-year-old male presenting for cardiac clearance prior to planned popliteal bypass surgery for peripheral vascular disease with left third toe gangrene. He denied chest pain, shortness of breath, nausea, vomiting, or diaphoresis. His medical history includes insulin-dependent diabetes mellitus with retinopathy, multiple sclerosis with right-sided weakness, hypertension, hypercholesterolemia, and cardiomyopathy. Cardiac evaluation revealed infiltrative cardiomyopathy, a reversible anterior apical defect on Persantine MIBI, and cardiac catheterization showed left main and three-vessel coronary artery disease with normal ejection fraction. The documented diagnosis was significant coronary artery disease requiring surgical intervention. The treatment plan included referral to Cardiothoracic Surgery for coronary artery bypass grafting. He has no known drug allergies and continues on insulin and Avonex for his chronic conditions.
+The patient is a 56-year-old male admitted for management of coronary artery disease and preoperative cardiac clearance prior to vascular surgery for peripheral vascular disease with left foot gangrene. He reported no chest pain, shortness of breath, or other cardiac symptoms, but did have pain in his left foot and recent worsening of gangrene involving toes two to four. His medical history includes insulin-dependent diabetes mellitus with retinopathy, multiple sclerosis, hypertension, hypercholesterolemia, and prior cataract and retinal surgeries; he has no known drug allergies. Cardiac catheterization revealed three-vessel coronary artery disease with normal ejection fraction, and echocardiogram showed infiltrative cardiomyopathy. The documented diagnoses were coronary artery disease, hypertension, hypercholesterolemia, status post coronary artery bypass graft, and peripheral vascular disease with left foot gangrene. He underwent coronary artery bypass grafting (CABG x5) and was managed postoperatively with medications including Lopressor, Lasix, antibiotics (Flagyl and levofloxacin), potassium chloride, Colace, Percocet, and aspirin. The patient was discharged home in good condition with instructions for follow-up with vascular surgery, primary care, and cardiology.
+
 
 ## Dialogue Summary
 
-The patient presented with changes in the appearance of their left toes noticed a few days ago. Symptoms included discomfort localized to the left toes, worsening dark, blackish discoloration, redness at the base, and increased warmth in the affected area; the discomfort made walking less comfortable but did not prevent ambulation. The patient denied numbness, swelling, open sores, drainage, fever, chills, or feeling generally unwell. No relevant medical history, medications, or allergies were mentioned. On examination, the doctor noted concerning findings of dark discoloration and warmth with redness at the base, suggesting possible poor blood flow or tissue injury. The doctor assessed these changes as warning signs that could indicate compromised circulation and recommended prompt in-person evaluation, ideally the same day. The patient was advised to keep weight off the affected foot, maintain cleanliness and dryness of the area, and seek immediate care if new symptoms such as spreading redness, fever, or increasing pain develop.
+The patient presents with concerns about changes in the appearance of their left toes. Over the past few days, they have noticed dark, blackish discoloration and redness at the base of the toes, accompanied by discomfort and increased warmth in the affected area. The discomfort has remained stable, but the discoloration and redness have worsened; there is no numbness, swelling, open sores, or drainage, and the patient denies systemic symptoms such as fever or chills. The patient is able to walk but experiences discomfort when putting weight on the foot.
+
+The clinical impression is possible poor blood flow or tissue injury to the toes, with concern for compromised circulation. The physician advised prompt in-person evaluation, ideally the same day, to assess the foot and determine appropriate treatment. Recommendations included minimizing weight-bearing on the affected foot, keeping the area clean and dry, and seeking immediate care if new symptoms such as spreading redness, fever, or increasing pain develop. No specific diagnosis or medication was documented.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.455
+- **Model Used**: general
+- **Text1 Length**: 169 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

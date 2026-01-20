@@ -87,16 +87,23 @@ Let me know if you have any questions about what we've talked through, or if you
 
 ## EHR Summary
 
-The patient is a 72-year-old male presenting with respiratory distress. He was transferred from a rehabilitation facility due to respiratory distress and possible pneumonia, as well as for management of volume overload. His medical history includes coronary artery disease (status post stents and PTCA), type 2 diabetes mellitus, hypertension, peripheral vascular disease (status post bilateral lower extremity bypass), chronic renal insufficiency, gout, benign prostatic hyperplasia, abdominal hernia, and prior small bowel resections with tracheostomy placement. On physical exam, he was alert and in no apparent distress, with coarse breath sounds bilaterally and an intact tracheostomy with air leak; he also had significant upper and lower extremity edema. Laboratory results showed leukocytosis (WBC 13.3). No explicit diagnosis was documented in the note. No specific treatments or recommendations were detailed in this excerpt.
+The patient is a 72-year-old male presenting with respiratory distress. He experienced shortness of breath and was found to have a large cuff air leak from his tracheostomy, fever, and elevated white blood cell count; cultures revealed Staphylococcus aureus in sputum and blood, and Pseudomonas in urine. His medical history includes coronary artery disease (status post stents and PTCA), diabetes mellitus type 2, hypertension, peripheral vascular disease, chronic renal insufficiency, and prior abdominal surgeries for incarcerated ventral hernia with small bowel resection. The documented diagnoses were respiratory distress, congestive heart failure, air leak from tracheostomy, pancreatitis, and pneumonia. Treatment included diuresis for volume overload, replacement of the tracheostomy tube to resolve the air leak, and initiation of antibiotics (linezolid and cefepime) targeting the identified organisms. The patient improved clinically, was weaned from the ventilator, and was discharged in stable condition to an extended care facility. Discharge medications included heparin, albuterol, epoetin alfa, linezolid, cefepime, furosemide, insulin, and supportive therapies. He was advised to follow up with his physicians, repeat echocardiogram in two months, and seek medical attention for chest pain, shortness of breath, fever over 102°F, or significant wound drainage.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble breathing and increased shortness of breath. Symptoms included difficulty catching breath during daily activities such as walking around the house and climbing stairs, worsening over several days, swelling in both legs and arms suggestive of fluid buildup, shortness of breath even at rest (sitting or lying down), nighttime breathlessness requiring extra pillows, and a mild fever; no chest discomfort or coughing was reported. The patient denied specific triggers other than physical activity worsening symptoms and did not note any connection with foods or weather changes. No relevant medical history, medications, or allergies were mentioned. The doctor noted the presence of tachypnea, peripheral swelling, and mild fever, with shortness of breath at rest and on exertion. The assessment was possible fluid retention affecting lung function, potentially related to heart or lung inefficiency, with fever suggesting possible infection or inflammation. The doctor recommended daily weight monitoring for sudden increases, elevating legs when sitting, and limiting dietary salt to help reduce swelling, and advised seeking prompt medical attention if symptoms rapidly worsen or new symptoms such as chest pain or confusion develop.
+The patient is an adult presenting with shortness of breath as the chief complaint. The dyspnea has been present for several days, is worsening, and occurs both with activity (such as walking or climbing stairs) and at rest, though it is more severe with exertion. Associated symptoms include swelling in both legs and arms, a sensation of fluid retention (noted by tighter shoes and sleeves), mild fever, and nocturnal symptoms requiring extra pillows for sleep and occasional awakening due to breathlessness. There is no chest discomfort or cough, and no clear triggers apart from physical activity.
+
+The clinical impression discussed by the doctor is possible fluid overload affecting the heart or lungs, with a mild fever suggesting a potential infection or inflammation contributing to the symptoms. The treatment plan includes daily weight monitoring, elevating the legs when sitting, and limiting dietary salt to help reduce swelling. The patient was also advised to seek prompt medical attention if symptoms rapidly worsen, such as severe dyspnea or confusion.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.428
+- **Model Used**: general
+- **Text1 Length**: 190 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

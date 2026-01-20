@@ -98,3 +98,21 @@ Have you ever had headaches or vision changes like this before? That can help us
 ## Processing Information
 
 - **Processing Time**: 330.7s
+
+## EHR Summary
+
+The patient is a 55-year-old woman presenting with right supraorbital headaches and diplopia since December 30, 2170. Headaches prompted an MRI, which revealed an aneurysm, and subsequent angiography identified a dysplastic left MCA trunk with two micro-aneurysms and a large right cavernous ICA aneurysm. Her past medical history includes hypertension, and she is taking Lopressor 50 mg daily. The documented diagnosis was a large right cavernous internal carotid artery (ICA) aneurysm. She underwent successful GDC coil embolization of the cavernous ICA aneurysm without complications. Postoperatively, she remained stable, alert, and oriented, with normal neurological and physical examination findings. The patient was discharged home in stable condition with instructions to follow up in two to three weeks.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with headache as the chief complaint, specifically a dull ache above the right eyebrow. The headache began a few days ago, occurs regularly, and is rated 6 out of 10 in severity at its worst. Associated symptoms include episodes of double vision that are more noticeable when focusing on tasks such as reading; the double vision resolves when one eye is closed, indicating involvement of both eyes. There is no history of similar headaches, vision changes, sinus issues, or prior eye problems. The clinical impression is that the symptoms may be related to tension, eye strain, or minor nerve irritation, with the double vision possibly due to an issue with eye alignment or extraocular muscles rather than intraocular pathology. The patient was advised to rest their eyes during close-up work, stay hydrated, and monitor for any changes. They were instructed to seek prompt evaluation if symptoms worsen or new symptoms such as persistent double vision, drooping eyelid, or difficulty moving the eye develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.364
+- **Model Used**: general
+- **Text1 Length**: 116 words
+- **Text2 Length**: 169 words
+

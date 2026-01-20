@@ -96,3 +96,23 @@ For now, try to avoid heavy lifting or repetitive activities with your right arm
 ## Processing Information
 
 - **Processing Time**: 367.2s
+
+## EHR Summary
+
+The patient is a 55-year-old male presenting with upper extremity weakness for the past two to three months. Examination revealed decreased muscle strength (3+) and sensation in the right upper extremity, decreased reflexes in the right upper extremity and left ankle, and mild weakness (4+) in the right leg. His past medical history includes reflux disease and prior appendectomy, with no known allergies. The patient underwent C6-C7 laminectomies with resection of an intramedullary lesion; there were no intraoperative complications. Postoperatively, he received a Solu-Medrol drip for 24 hours and showed improvement in motor strength and intact sensation. The documented plan included discharge to rehabilitation, staple removal on postoperative day 10, and follow-up in the Brain Clinic in three to four weeks. Discharge medications included Zantac, Percocet, Tylenol, Colace, Milk of Magnesia, and Dulcolax suppository as needed.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with right arm weakness as the chief complaint. The weakness has been present for a few days and is associated with difficulty gripping objects and buttoning shirts, as well as decreased sensation to sharp stimuli in the right arm. There is no reported pain, numbness, neck pain, or recent injury, and the symptoms have remained stable without improvement or worsening. The patient can still perform most daily activities but finds some tasks more difficult.
+
+Relevant history, medications, and allergies are not specified. The clinical impression is that the symptoms may be due to a nerve-related issue such as nerve compression or irritation at the wrist, elbow, or shoulder. The patient was advised to avoid heavy lifting or repetitive activities with the right arm and to monitor for any new or worsening symptoms, including sudden weakness, speech difficulty, facial drooping, or trouble walking. Follow-up was recommended if symptoms do not improve within one to two weeks or if they worsen.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.462
+- **Model Used**: general
+- **Text1 Length**: 136 words
+- **Text2 Length**: 165 words
+

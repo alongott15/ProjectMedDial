@@ -89,16 +89,23 @@ Does that make sense? Is there anything else about your symptoms or your health 
 
 ## EHR Summary
 
-The patient is a 73-year-old male presenting with suspected aspiration pneumonia. On admission, he was found to be tachycardic (heart rate 120), tachypneic (respiratory rate 30–32), and hypoxic with oxygen saturation of 90–93% on five liters by face mask, improving to 99% on a 100% nonrebreather mask. He is nonverbal at baseline and fully dependent for care, with a history of multi-infarct dementia, diabetes mellitus, hypertension, benign prostatic hypertrophy with chronic suprapubic catheter, recurrent urinary tract infections, prior aspiration pneumonias, and sacral decubitus ulcers. Physical exam in the Emergency Department showed he was afebrile with elevated blood pressure (180/86). The clinical impression was likely aspiration pneumonia. He was treated with vancomycin, ceftriaxone, and metronidazole (Flagyl) and transferred to the medical intensive care unit for further management. No drug allergies were reported.
+The patient is a 73-year-old male presenting after a likely aspiration event with tachycardia, tachypnea (respiratory rate of 32), and decreased oxygen saturation requiring supplemental oxygen. On admission, he was afebrile but in mild respiratory distress, with rhonchorous breath sounds bilaterally and an oxygen saturation of 90-93% on five liters by face mask, improving to 97% on a nonrebreather. His past medical history includes multi-infarct dementia (nonverbal at baseline), multiple prior aspiration pneumonias, diabetes mellitus, hypertension, benign prostatic hypertrophy with chronic suprapubic catheter, and a history of recurrent urinary tract infections. The documented diagnosis was aspiration pneumonia. He was treated initially with vancomycin, ceftriaxone, and metronidazole, then transitioned to levofloxacin for three days and continued on ceftriaxone to complete a ten-day course. Additional management included metoprolol for hypertension, hypotonic fluids for hypernatremia, and adjustment of tube feeds and free water boluses to reduce aspiration risk. The patient was discharged in stable condition back to his nursing home with instructions to complete the antibiotic course and continue prior medications.
+
 
 ## Dialogue Summary
 
-The patient presented with difficulty breathing and a sensation of a racing heart. Symptoms included increased shortness of breath, which occurs even at rest and has gradually worsened over the past several days, making daily activities and movement more challenging; the patient can usually speak in full sentences but sometimes needs to pause for air, and also reports dry mouth, fewer secretions, and higher than normal blood pressure. No swelling in the legs, chest pain, or lightheadedness was reported, and the patient has not checked their pulse during episodes. Relevant history, medications, and allergies were not specified. The doctor noted that the patient’s symptoms are worsening and impacting daily function, with occasional need to pause for breath. The assessment was that the breathing difficulties and awareness of a faster heartbeat may be due to stress on the heart or lungs, possibly from mild respiratory infection, changes in heart rhythm, or fluid buildup. The doctor advised rest, hydration, avoidance of strenuous activity, monitoring heart rate and oxygen levels if possible, and watching for warning signs such as severe shortness of breath, chest pain, fainting, or leg swelling; urgent care was recommended if these warning signs develop. The patient was also advised to monitor blood pressure along with other symptoms.
+The patient presents with the chief complaint of increased difficulty breathing (dyspnea) and a sensation of a racing heartbeat (palpitations). Symptoms have gradually worsened over the past several days, now occurring even at rest and making daily activities more challenging; the patient reports shortness of breath both with activity and while sitting, occasional need to pause for air while speaking, and associated dry mouth. There is no reported chest pain, lower extremity swelling, or lightheadedness. The patient also notes higher than usual blood pressure and decreased oral secretions. Relevant medical history, medications, and allergies are not specified in the dialogue.
+
+The clinical impression is that the symptoms may be due to stress on the heart or lungs, with possible causes including mild respiratory infection, changes in heart rhythm, or fluid buildup, though no definitive diagnosis is documented. The treatment plan includes advice to rest, maintain hydration, avoid strenuous activity, and monitor for warning signs such as severe dyspnea, chest pain, fainting, or leg swelling. The patient is also advised to track heart rate, oxygen levels, and blood pressure if possible, and to seek urgent care if symptoms worsen or new warning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.538
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 193 words
+
 
 ## Processing Information
 

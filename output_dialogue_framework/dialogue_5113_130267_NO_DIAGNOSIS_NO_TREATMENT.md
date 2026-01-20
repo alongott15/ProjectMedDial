@@ -89,16 +89,23 @@ Does that make sense? Is there anything else you’re worried about or would lik
 
 ## EHR Summary
 
-The patient is a 50-year-old male presenting with persistent lightheadedness and fatigue. He reported chronic lightheadedness and flu-like symptoms since 2186, without chest discomfort or shortness of breath. Relevant history includes sarcoidosis (diagnosed in 2180), benign prostatic hypertrophy, restless leg syndrome, hypertension, hyperlipidemia, and prior surgeries for TMJ, tonsillectomy, adenoidectomy, and lipoma dissection; he is allergic to penicillin. Cardiolite ETT revealed a moderate fixed inferior defect and a moderately reversible anterior apical and septal defect, with an ejection fraction of 43%. Cardiac catheterization demonstrated significant stenosis of the right coronary artery, left anterior descending artery, and obtuse marginal artery, confirming coronary artery disease. The patient was ruled out for myocardial infarction by ECG and enzymes. The documented diagnosis was coronary artery disease requiring surgical intervention. He underwent coronary artery bypass grafting on 2196-6-27.
+The patient is a 50-year-old male presenting with persistent lightheadedness and fatigue. He reported chronic lightheadedness and flu-like symptoms since 2186, without chest discomfort or shortness of breath. His history is notable for sarcoid (2180), benign prostatic hypertrophy, restless leg syndrome, hypertension, hyperlipidemia, and a penicillin allergy. Cardiac evaluation revealed coronary artery disease with significant stenosis in multiple vessels and a reduced ejection fraction (43%), leading to the diagnosis of multivessel coronary artery disease. He underwent coronary artery bypass grafting (CABG) times three on 2196-6-27. Postoperative recovery was uneventful, with pain managed by Tylenol, Dilaudid, and Motrin, and he was weaned off pressors and transitioned to oral ISDN. Discharge medications included aspirin, ISDN, Flomax, Proscar, potassium chloride, Lasix, Colace, Lopressor, Dilaudid as needed, and Protonix. The patient was stable and doing well at discharge, with follow-up arranged with his surgical and cardiology teams.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent lightheadedness and fatigue as the chief complaint. Symptoms have been ongoing for at least a few days, are constant throughout the day, and have made daily activities more difficult; the patient also reported feeling generally unwell, similar to having the flu, and noted a fever spike up to 101.5°F. No headaches, vision changes, shortness of breath, nausea, or vomiting were reported, and the patient has been able to maintain normal fluid intake. No relevant medical history, medications, or allergies were mentioned. The doctor assessed that the symptoms are most consistent with a mild viral illness, such as the flu or another respiratory virus, given the moderate fever and absence of severe symptoms. The doctor recommended continued rest, adequate hydration, and use of over-the-counter medications for fever or discomfort as needed. The patient was advised to monitor for new or worsening symptoms—such as difficulty breathing, chest pain, confusion, or persistent/high fever—and to seek care if these occur; otherwise, home monitoring is appropriate. The patient expressed understanding and agreed to follow the recommendations.
+The patient is an adult presenting with persistent lightheadedness and fatigue as the chief complaint. Symptoms have been constant for several days, accompanied by a subjective fever up to 101.5°F and a general feeling of malaise similar to the flu, but without headache, vision changes, dyspnea, nausea, or vomiting. The fatigue and lightheadedness have made daily activities more difficult, though the patient has been able to maintain normal hydration. There is no mention of relevant past medical history, medications, or allergies.
+
+The clinical impression was a mild viral illness, possibly influenza or another respiratory virus, despite the absence of classic respiratory symptoms. The treatment plan includes rest, maintaining adequate hydration, and using over-the-counter medications for fever or discomfort as needed. The patient was advised to monitor for worsening symptoms such as dyspnea, chest pain, confusion, or persistent/high fever, and to seek care if these occur. Otherwise, home monitoring and supportive care were recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.473
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

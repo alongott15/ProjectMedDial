@@ -59,16 +59,21 @@
 
 ## EHR Summary
 
-The patient is an 85-year-old male admitted with lower gastrointestinal bleeding. He experienced intermittent episodes of bright red blood per rectum (BRBPR) over four days, requiring transfusion of 13 units of blood, but remained hemodynamically stable without abdominal pain, chest pain, shortness of breath, fever, chills, nausea, or vomiting. His past medical history includes two prior myocardial infarctions, dual chamber pacemaker, small cerebrovascular accident in 2113 with mild left facial droop, hypertension, hyperlipidemia, and prostate cancer status post surgery with stress incontinence. Physical exam revealed a soft, non-tender abdomen and positive guaiac test for blood. Laboratory results showed anemia with hemoglobin dropping from 11.7 to 8.8 and thrombocytopenia. The clinical impression was ongoing lower GI bleeding, likely from the right colon as suggested by tagged RBC scan. Treatment included subtotal colectomy with ileal rectal anastomosis and rigid proctoscopy. The patient was monitored closely and remained stable throughout his hospital course.
+The patient is an 85-year-old male admitted with lower gastrointestinal bleeding. He experienced intermittent episodes of bright red blood per rectum over four days, requiring transfusion of 13 units of blood, but remained hemodynamically stable without abdominal pain, chest pain, shortness of breath, fever, chills, nausea, or vomiting. His past medical history includes two prior myocardial infarctions, dual chamber pacemaker, cerebrovascular accident with mild residual facial droop, hypertension, hyperlipidemia, and prostate cancer status post-surgery. The documented diagnoses were lower GI bleed and postoperative myocardial infarction following subtotal colectomy with ileal rectal anastomosis. Treatment included subtotal colectomy, blood transfusions, and postoperative management of myocardial infarction with cardiology consultation and medication adjustments. At discharge, he was stable and prescribed aspirin, dipyridamole-aspirin, albuterol as needed, heparin, atorvastatin, metoprolol, isosorbide mononitrate, furosemide, ezetimibe, docusate sodium as needed, and pantoprazole. He was discharged to an extended care facility with instructions for follow-up with his primary care provider and surgeon.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about noticing bright red blood during bowel movements. The bleeding started a couple of days ago and has occurred each time the patient uses the restroom since onset. The patient denied any pain, discomfort, or changes in bowel habits associated with the bleeding. No relevant medical history, medications, or allergies were mentioned during the conversation. There were no physical findings described, as the doctor did not perform an examination during the dialogue. The doctor inquired about the duration, associated symptoms, and amount of blood but did not provide an explicit assessment or working diagnosis. No specific advice, recommendations, or treatment plan were given in the portion of the conversation provided.
+The patient is an adult presenting with rectal bleeding as the chief complaint. They report noticing bright red blood during bowel movements for the past few days, with bleeding occurring each time they use the restroom. The patient denies any associated pain, discomfort, or changes in bowel habits. The amount of blood and further details are being clarified by the physician. Relevant medical history, medications, allergies, and a documented diagnosis are not specified in the dialogue. No treatment plan or specific recommendations have been documented at this stage.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.948
-- **Similarity Label**: N/A
+- **STS Score**: 0.593
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 88 words
+
 
 ## Processing Information
 

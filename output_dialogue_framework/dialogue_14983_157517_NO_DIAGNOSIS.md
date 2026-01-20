@@ -87,16 +87,23 @@ Does that all make sense? Is there anything else about this that’s worrying yo
 
 ## EHR Summary
 
-The patient is a 58-year-old male admitted for elective clipping of an anterior communicating artery (ACOM) aneurysm. He reported no acute symptoms at presentation and was admitted for a planned neurosurgical procedure. His relevant history includes hypertension, coronary artery disease, and prior coronary artery bypass grafting in 2147. On physical examination, he was awake, alert, and oriented, with intact cranial nerves and no focal neurological deficits; vital signs were stable except for elevated blood pressure postoperatively. The documented diagnosis was ACOM aneurysm. He underwent elective craniotomy and aneurysm clipping without intraoperative or postoperative complications. Postoperatively, his blood pressure was monitored and stabilized with medications, and he participated in physical and occupational therapy. The patient was discharged home in stable condition with instructions for close follow-up by his primary care physician.
+The patient is a 58-year-old male admitted for elective clipping of an anterior communicating artery (ACOM) aneurysm. He reported no acute symptoms on admission and was described as awake, alert, oriented, slightly nervous, and agitated, with no focal neurological deficits on examination. His relevant history includes hypertension, coronary artery disease, and prior coronary artery bypass grafting in 2147. The documented diagnosis was ACOM aneurysm. He underwent elective craniotomy for aneurysm clipping without intraoperative or postoperative complications, aside from the need for close blood pressure monitoring to maintain systolic pressure below 150 mmHg. Blood pressure was stabilized with medications, and he was mobilized without difficulty during his hospital stay. Discharge medications included antihypertensives, lipid-lowering agents, antidepressants, analgesics, and gastrointestinal prophylaxis. He was advised to follow up in two weeks for staple removal and to monitor for symptoms such as headache, vision changes, altered mental status, fever, or increased incision pain, with ongoing primary care follow-up for blood pressure control.
+
 
 ## Dialogue Summary
 
-The patient presented with new-onset feelings of nervousness and agitation. Symptoms have been present for a few days, are mild, have not worsened or improved, and are not associated with any identifiable triggers such as time of day, caffeine, or changes in sleep. The patient denied additional symptoms including trouble sleeping, appetite changes, headaches, fatigue, or physical symptoms like heart racing, sweating, shaking, or shortness of breath. There is no relevant medical history, medication changes, recent illness, or environmental stressors reported. On assessment, the doctor noted mild but persistent nervousness and restlessness without physical symptoms or significant impact on daily activities. The doctor reassured the patient that more serious causes are less likely given the absence of other symptoms and suggested the feelings may be temporary or related to subtle factors. The treatment plan included monitoring symptoms, maintaining a normal routine, engaging in regular exercise and relaxation activities, and returning if symptoms worsen, persist beyond a couple of weeks, interfere with life or sleep, or if new symptoms develop. The patient understood and agreed with the plan.
+The patient is an adult presenting with a chief complaint of new-onset nervousness and agitation. Symptoms have been present for a few days, are mild, persistent, and not worsening, with no identifiable triggers or associated physical symptoms such as palpitations, sweating, shaking, or shortness of breath. The patient denies changes in sleep, appetite, energy, or recent stressors, and reports no impact on the ability to perform daily activities aside from mild distraction. There is no relevant medical history, medication changes, or recent illness reported.
+
+The clinical impression is mild anxiety without significant impairment or concerning features. The treatment plan includes monitoring symptoms, maintaining a regular routine, engaging in relaxation activities and exercise, and seeking further evaluation if symptoms worsen, persist beyond a couple of weeks, interfere with daily life or sleep, or if new symptoms develop. No medications or further investigations were recommended at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.918
-- **Similarity Label**: N/A
+- **STS Score**: 0.328
+- **Model Used**: general
+- **Text1 Length**: 158 words
+- **Text2 Length**: 146 words
+
 
 ## Processing Information
 

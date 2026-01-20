@@ -89,16 +89,21 @@ Let me know if you have any questions or if there's anything else you'd like to 
 
 ## EHR Summary
 
-The patient is a 68-year-old male admitted for observation following nephroureteral stent placement due to distal left ureteral obstruction with hydronephrosis and a minimally functioning right kidney. After the procedure, he experienced chills, hypotension (blood pressure dropped to 82/45), and tachycardia, but was initially afebrile; later, his temperature rose to a maximum of 100.3°F. Relevant history includes bladder cancer with positive lymph nodes, hypertension, radical cystectomy, and ileal loop diversion; allergies to Haldol and Ambien are noted. Physical examination was unremarkable except for a bloody urostomy post-stent placement. Laboratory findings showed an initial white blood cell count of 11.4, rising to 23.8 during hypotensive episodes. The clinical impression was post-procedural sepsis or infection following stent placement. The patient was treated with intravenous fluids for hypotension and started on ceftazidime and vancomycin as per Infectious Disease recommendations. He was transferred to the Medical Intensive Care Unit for close monitoring, where his blood pressure and heart rate stabilized.
+The patient is a 68-year-old male admitted for observation following nephroureteral stent placement, after experiencing hypotension post-procedure. He developed chills, hypotension (blood pressure as low as 82/45), and tachycardia, but was initially afebrile; later, his temperature rose to a maximum of 100.3°F and his white blood cell count increased to 23.8. Relevant history includes bladder cancer with positive lymph nodes, hypertension, radical cystectomy with ileal loop diversion, and allergies to Haldol and Ambien. Physical exam was notable for a bloody urostomy post-stent placement. The clinical impression was post-procedural sepsis or systemic inflammatory response, likely related to the urinary intervention. He was treated with intravenous fluids, ceftazidime, and vancomycin, and monitored in the Medical Intensive Care Unit until stabilization. The patient was discharged home on oral antibiotics with instructions for follow-up.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about a recent episode of low blood pressure following nephroureteral stent placement. Symptoms discussed included chills during and after the episode, a fast heart rate at the time, ongoing intermittent chills since the procedure, and increased need for rest with difficulty performing normal activities; the patient denied dizziness or lightheadedness and was unsure about fever. Relevant history included recent nephroureteral stent placement and mention of blood in the urostomy. The doctor noted the episode occurred soon after the procedure and that persistent chills could indicate possible infection, especially given the urinary tract involvement. Assessment focused on ruling out infection related to the stent, with attention to ongoing chills and weakness. The doctor recommended monitoring temperature regularly, staying hydrated, and watching for warning signs such as fever, worsening weakness, confusion, or pain around the back or sides. The patient was advised to notify the care team promptly if symptoms worsen or new symptoms develop.
+The patient is a [age not specified]-year-old [sex not specified] presenting with concerns following a recent nephroureteral stent placement, specifically an episode of hypotension (low blood pressure) accompanied by tachycardia (fast heart rate) and chills. The patient reports that the episode occurred soon after the stent procedure and was associated with chills but no dizziness or lightheadedness; the chills have been intermittent and ongoing since the event. The patient denies checking for fever and notes increased fatigue and reduced ability to perform normal activities, requiring more rest than usual. Relevant history includes recent nephroureteral stent placement; no other medical history, medications, or allergies are specified. The clinical impression is concern for possible infection related to the urinary tract stent, given the persistent chills and recent procedure. The treatment plan includes monitoring temperature regularly, maintaining hydration, and promptly reporting any new or worsening symptoms such as fever, pain, confusion, or increased weakness. The patient was also advised to watch for warning signs and to communicate any changes to the care team.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.972
-- **Similarity Label**: N/A
+- **STS Score**: 0.735
+- **Model Used**: general
+- **Text1 Length**: 130 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

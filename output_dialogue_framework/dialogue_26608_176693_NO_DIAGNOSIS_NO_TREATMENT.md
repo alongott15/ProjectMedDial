@@ -87,16 +87,21 @@ Let me know if you have any questions about what I’ve explained or if there’
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with substernal chest pain and a positive stress test. He reported chest pain prior to admission, and cardiac catheterization revealed significant coronary artery disease with 70% occlusion of the left main LAD, 80% occlusion of the left circumflex, and 80% occlusion of the RCA. His history includes prior myocardial infarction (MI) in 2126, percutaneous transluminal coronary angioplasty (PTCA) in 2124, hypercholesterolemia, and tobacco use. On physical exam prior to discharge, his heart was regular rate and rhythm with normal sinus, lungs were clear, and his surgical incision was clean and intact. The documented diagnosis was severe multivessel coronary artery disease. He underwent coronary artery bypass grafting (CABG) times three with an uneventful postoperative course aside from a transient low hematocrit requiring transfusion. Discharge medications included Lopressor, Lasix, potassium chloride, aspirin, and Percocet as needed; he was advised to follow up in 3-5 weeks and receive visiting nurse assistance for wound care and monitoring.
+The patient is a 62-year-old male presenting with substernal chest pain and a positive stress test. He reported chest pain prior to admission, and cardiac catheterization revealed significant coronary artery disease with 70% occlusion of the left main LAD, 80% occlusion of the left circumflex, and 80% occlusion of the RCA. His history is notable for prior myocardial infarction (MI) in 2126, percutaneous transluminal coronary angioplasty (PTCA) in 2124, hypercholesterolemia, and tobacco use; he was taking aspirin 81 mg daily at home. The documented diagnosis was severe multivessel coronary artery disease. He underwent coronary artery bypass grafting (CABG) times three (LIMA to LAD, SVG to RPDA and OM1) without complications; his postoperative course was uneventful except for a transient low hematocrit managed with one unit of blood transfusion. At discharge, his condition was stable with clear lungs, regular heart rhythm, and a clean, intact incision. Discharge medications included Lopressor, Lasix, potassium chloride, aspirin, and Percocet as needed. He was advised to follow up with his surgeon in 3-5 weeks and arranged for visiting nurse assessment for wound and vital sign monitoring.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain described as a pressure sensation in the middle of the chest. The pain began a few days ago, occurs mostly during physical activity such as walking, lasts a few minutes per episode, and is rated as moderate (5–6/10) in intensity. The discomfort is relieved by resting and is not affected by changes in position or deep breathing; the patient denied associated symptoms such as shortness of breath, sweating, or nausea. Relevant history includes coronary artery disease, high cholesterol, and a previous heart attack in 2126; no history of diabetes or hypertension was reported. The doctor noted that the chest pressure is exertional and relieved by rest, consistent with angina in the context of the patient’s cardiac history. The assessment was that these symptoms may indicate insufficient oxygen supply to the heart muscle during activity. The doctor advised the patient to avoid strenuous activity, recommended prompt follow-up for further evaluation (including possible EKG or stress testing), and instructed the patient to seek immediate medical attention if symptoms worsen or new severe symptoms develop.
+The patient is an adult with a history of coronary artery disease, high cholesterol, and a prior heart attack (in 2126) presenting with chest pain as the chief complaint. The pain is described as a moderate (5–6/10) pressure sensation located in the center of the chest, occurring primarily during physical activity and relieved by rest; it does not worsen with position changes or deep breaths. The episodes have been present for several days, each lasting a few minutes, and are not associated with dyspnea, diaphoresis, or nausea. Relevant medical history includes coronary artery disease and hyperlipidemia; there is no history of diabetes or hypertension. The clinical impression documented by the physician is angina, given the exertional chest pressure relieved by rest in the context of known cardiac disease. The treatment plan includes avoiding strenuous activity, scheduling prompt follow-up for further cardiac evaluation (such as EKG or stress testing), and instructions to seek immediate care if symptoms worsen or new symptoms develop (such as prolonged pain, pain at rest, severe shortness of breath, sweating, or fainting).
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.578
+- **Model Used**: general
+- **Text1 Length**: 181 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

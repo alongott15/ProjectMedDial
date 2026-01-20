@@ -192,3 +192,23 @@ You're doing the right things for your recovery. Staying aware of changes and co
 ## Processing Information
 
 - **Processing Time**: 262.8s
+
+## EHR Summary
+
+The patient is a 79-year-old male presenting with chest pain and acute myocardial infarction (MI). He reported a nine-month history of daily right-sided stabbing chest pain, which acutely worsened with radiation to his right shoulder while at rest, without associated diaphoresis, nausea, vomiting, shortness of breath, or palpitations. His medical history includes diabetes mellitus, hypertension, prior pulmonary embolism and IVC filter placement, benign prostatic hyperplasia, and a syncopal episode. The documented diagnosis was inferior myocardial infarction status post cardiac catheterization and stenting of the right coronary artery. Treatment included emergent percutaneous coronary intervention with stent placement, antiplatelet therapy (aspirin, clopidogrel), statin, beta-blocker (lopressor), losartan, and adjustment of warfarin dosing. Diabetes medications were held during admission and later resumed. The patient was discharged in good condition with instructions to continue all prescribed medications and follow up in the coumadin clinic and cardiac clinic.
+
+
+## Dialogue Summary
+
+The patient is an adult with a recent history of myocardial infarction and coronary stent placement, presenting with persistent daily chest pain that recently radiated to the right shoulder. The chest pain increases with mild exertion and occasionally radiates, but has not been accompanied by severe shortness of breath, fainting, or other acute symptoms. The patient is concerned about whether the chest pain indicates inadequate cardiac recovery and is diligent with medication adherence and symptom tracking. Relevant history includes recent heart attack and stenting; current medications are being taken as prescribed.
+
+The clinical impression is that while some post-procedural chest discomfort can be musculoskeletal or related to healing, persistent or changing pain—especially with exertion or radiation—requires careful monitoring to rule out recurrent cardiac ischemia. No new diagnosis was documented during this encounter. The treatment plan includes continued symptom monitoring, adherence to prescribed medications, and regular follow-up with the cardiologist. The patient was instructed to seek urgent care if chest pain becomes severe, lasts more than a few minutes, or is associated with symptoms such as heavy sweating, shortness of breath, nausea, or syncope.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.689
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 183 words
+

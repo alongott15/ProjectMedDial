@@ -89,16 +89,21 @@ Does that make sense? Any questions or concerns about what to watch for?
 
 ## EHR Summary
 
-The patient is a 32-year-old female presenting with nausea, diarrhea, and vomiting for 24 hours. She was unable to take her usual insulin regimen due to vomiting and reported her usual migraine headache the night prior to admission, but denied fevers, chills, chest pain, shortness of breath, or dysuria. Her medical history includes type 1 diabetes (diagnosed at age 14), multiple prior episodes of diabetic ketoacidosis, migraine headaches, and attention deficit disorder; home medications include Wellbutrin, Imitrex, Tylenol, Humalog sliding scale, and NPH insulin. Allergies include penicillin, Bactrim, Keflex (hives), and Percocet and erythromycin (gastrointestinal upset). On admission, arterial blood gases showed acidosis (pH 7.19), low bicarbonate (9), and fingerstick glucose >500. The documented diagnosis was diabetic ketoacidosis. Treatment included intravenous insulin boluses and drip, five liters of normal saline, and transition to subcutaneous insulin once stable; her anion gap closed and blood glucose normalized before discharge.
+The patient is a 32-year-old female presenting with nausea, diarrhea, and vomiting for 24 hours. She was unable to take her usual insulin regimen due to vomiting and reported her usual migraine headache the night prior to admission; she denied fevers, chills, chest pain, shortness of breath, or dysuria. Her medical history includes type 1 diabetes (diagnosed at age 14), multiple prior episodes of diabetic ketoacidosis, migraines, and attention deficit disorder; she has allergies to penicillin, Bactrim, Keflex (hives), and Percocet and erythromycin (gastrointestinal upset). On admission, laboratory findings showed severe hyperglycemia (glucose 720), metabolic acidosis (pH 7.19, bicarbonate 8), and an elevated white blood cell count. The documented diagnoses were diabetic ketoacidosis and viral gastroenteritis. Treatment included intravenous fluids, insulin boluses and drip, electrolyte repletion, and transition back to her home insulin regimen as her condition improved. She was discharged in good condition with instructions to continue her regular insulin sliding scale and NPH regimen, Wellbutrin, and Imitrex as needed, with follow-up arranged with her endocrinologist and primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with nausea as the chief complaint, ongoing for the past day. She reported associated vomiting and diarrhea, with difficulty keeping fluids or food down, and noted that her urine output was reduced and darker than usual. She also described a migraine headache with throbbing pain on one side, rated 7 out of 10 in severity, which is typical for her but accompanied by much worse vomiting and diarrhea than usual; Tylenol and resting in a dark room provided little relief. She denied fever, chills, or body aches. The doctor assessed that she is experiencing her usual migraine with unusually severe gastrointestinal symptoms, likely due to a stomach virus or dietary trigger, and noted signs of mild dehydration. The doctor recommended frequent small sips of clear fluids, avoiding solid foods until liquids are tolerated, and resting in a quiet, dark room. The patient was advised to seek medical care if she becomes extremely weak, confused, dizzy when standing, or unable to keep fluids down for more than 12 hours, and to contact her provider if symptoms do not improve.
+The patient is an adult presenting with nausea as the chief complaint. Symptoms include one day of nausea, vomiting, and diarrhea, with difficulty keeping fluids or food down; the patient reports reduced and darker urine output, indicating possible dehydration. The patient also has a migraine headache, described as throbbing and unilateral, rated 7/10 in severity, which is typical for their migraines, but the associated gastrointestinal symptoms are more severe than usual. There is no reported fever, chills, or body aches. The patient has a history of migraines, usually accompanied by some nausea but not to this extent. The clinical impression is a combination of the patient's usual migraine with more severe gastrointestinal upset, possibly due to a stomach virus or dietary trigger, with concern for early dehydration. The treatment plan includes taking small sips of clear fluids every 10–15 minutes, avoiding solid foods until liquids are tolerated, resting in a dark room, and monitoring for signs of worsening dehydration or inability to keep fluids down, with instructions to seek medical care if symptoms worsen or persist. Over-the-counter medication (Tylenol) was tried without significant relief; prescription migraine medication may be considered if symptoms do not improve.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.602
+- **Model Used**: general
+- **Text1 Length**: 171 words
+- **Text2 Length**: 195 words
+
 
 ## Processing Information
 

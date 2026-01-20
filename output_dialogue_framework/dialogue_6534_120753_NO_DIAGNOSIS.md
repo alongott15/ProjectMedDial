@@ -96,3 +96,21 @@ For now, I recommend avoiding strenuous activity until we can get this checked f
 ## Processing Information
 
 - **Processing Time**: 422.8s
+
+## EHR Summary
+
+The patient is a 68-year-old female presenting with an episode of chest pressure and recurrent chest pain since 2122, relieved by rest, with recent worsening of symptoms. She has a history of diabetes mellitus, IgG monoclonal gammopathy, osteoporosis, and a prior silent myocardial infarction. On admission, her vital signs were stable and cardiac enzymes were negative; however, cardiac catheterization revealed three-vessel coronary artery disease with heavily calcified, diffusely diseased vessels. The documented diagnosis was status post coronary artery bypass graft x 4. She underwent coronary artery bypass grafting (CABG) with four grafts and tolerated the procedure without complications. Postoperatively, she experienced some shortness of breath and crackles at the lung bases on day five, which improved with intravenous Lasix. At discharge, her condition was good and she was sent home with a regimen including Lasix, Lopressor, aspirin, insulin, and other supportive medications. She was advised to follow up with her surgeon in four weeks, her primary care physician in one to two weeks, and her cardiologist in two to three weeks.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with chest pressure as the chief complaint. The chest pressure is described as a squeezing or tight sensation in the middle of the chest, triggered by activity and relieved by rest, with each episode lasting a few minutes. The discomfort has been present for a few days, is worsening, and is now limiting daily activities; it is accompanied by shortness of breath but not by sweating, lightheadedness, or radiation of pain. The patient has a recent history of total abdominal hysterectomy for fibroids and heavy bleeding and is currently taking insulin, aspirin, and vitamins, with no recent medication changes. The clinical impression documented by the doctor is angina, likely due to reduced oxygen supply to the heart during exertion. The doctor advised the patient to avoid strenuous activity and to monitor for warning signs such as pain at rest, prolonged episodes, nausea, sweating, or fainting, which would require urgent medical attention. Further evaluation was recommended to assess the symptoms and their relation to recent surgery and medications.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.530
+- **Model Used**: general
+- **Text1 Length**: 171 words
+- **Text2 Length**: 173 words
+

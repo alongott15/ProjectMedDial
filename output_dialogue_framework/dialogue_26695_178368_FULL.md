@@ -87,16 +87,23 @@ If you’re open to it, I’d like to know if you’ve started any new medicatio
 
 ## EHR Summary
 
-The patient is a 61-year-old female presenting with nausea and vomiting. She reported a one-week history of nausea, vomiting, weakness, constipation, lightheadedness, tachypnea, and chills. Her past medical history includes insulin-dependent diabetes mellitus (with neuropathy, retinopathy, nephropathy), bipolar disorder, and multiple prior diabetic ketoacidosis (DKA) admissions. On admission, her blood glucose was in the low 400s and anion gap was 42; she was diagnosed with diabetic ketoacidosis. Physical findings included stable vital signs and improvement in symptoms after initial treatment. She was treated with an insulin drip, intravenous potassium chloride, and over three liters of intravenous fluids, then transitioned to her usual subcutaneous insulin regimen as her condition stabilized. At discharge, her blood sugars were stable in the low 100s and she reported only mild stomach sensitivity without other complaints. The treatment plan included resuming her home insulin regimen and monitoring for symptom recurrence.
+The patient is a 61-year-old female presenting with nausea and vomiting. She reported a one-week history of nausea, vomiting, weakness, constipation, lightheadedness, tachypnea, and chills. Her past medical history includes insulin dependent diabetes mellitus (with neuropathy, retinopathy, nephropathy), bipolar disorder, and multiple prior diabetic ketoacidosis admissions; she is allergic to penicillin and sulfa. On admission, she was found to be in diabetic ketoacidosis with blood glucose in the low 400s and an anion gap of 42. She was treated with an insulin drip, intravenous potassium chloride, and fluids, then transitioned to her usual Lantus and regular insulin sliding scale as her condition improved. During her stay, she was also diagnosed with a urinary tract infection (urine culture positive for gram negative rods) and started on levofloxacin for one week. The documented diagnoses were diabetic ketoacidosis and insulin dependent diabetes mellitus. She was discharged in good condition with instructions to continue her home medications and complete the antibiotic course, and to follow up with her endocrinologist.
+
 
 ## Dialogue Summary
 
-The patient presented with nausea and vomiting as the chief complaint. Symptoms began a few days ago and have persisted without improvement; the patient also reported increased stomach sensitivity, reduced appetite, weakness, fatigue, lightheadedness, and constipation with less frequent bowel movements. No fever or significant abdominal pain was noted, and the patient has been able to keep some fluids down but feels inadequately hydrated. The patient has needed to rest more than usual due to weakness and lightheadedness, and there were no clear triggers or patterns identified for the symptoms. No new medications have been started recently, and no allergies were mentioned. On assessment, the doctor noted ongoing nausea, vomiting, and constipation likely contributing to the patient's overall sense of malaise and weakness, possibly related to mild digestive upset or a viral illness. The doctor advised frequent small sips of clear fluids to prevent dehydration, gentle movement, bland foods as tolerated, and possibly an over-the-counter stool softener if not contraindicated. The patient was instructed to monitor for worsening symptoms such as inability to keep fluids down, severe abdominal pain, or confusion, and to seek care if these occur.
+The patient is an adult presenting with nausea and vomiting as the chief complaint. Symptoms began a few days ago and have persisted without improvement, accompanied by increased weakness, fatigue, lightheadedness, decreased appetite, and new-onset constipation; no fever or significant abdominal pain was reported. The patient is able to keep some fluids down but is concerned about possible dehydration due to reduced intake and lightheadedness. There are no clear triggers for the symptoms, and no recent medication changes were reported.
+
+The clinical impression is that the symptoms may be related to mild and temporary causes such as a viral illness, dietary changes, or constipation, with constipation possibly contributing to the nausea. The treatment plan includes maintaining hydration with frequent small sips of clear fluids, eating bland foods as tolerated, gentle movement, and considering an over-the-counter stool softener if not contraindicated. The patient was advised to monitor for worsening symptoms such as inability to keep fluids down, severe abdominal pain, or confusion, which would warrant earlier medical attention. No new medications or allergies were identified.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.431
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 174 words
+
 
 ## Processing Information
 

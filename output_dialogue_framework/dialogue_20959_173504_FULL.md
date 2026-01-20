@@ -93,16 +93,21 @@ For now, it’s reasonable to monitor how you’re feeling and see if the sympto
 
 ## EHR Summary
 
-The patient is a 61-year-old female presenting with lightheadedness, dizziness, and an episode of vertigo that awakened her from sleep and lasted less than one minute. She denied numbness, palpitations, chest pain, or visual changes. Further workup revealed a 5 mm aneurysm of the left posterior communicating artery on MRI. Her past medical history, medications, and allergies are not specified. On admission, she underwent elective cerebral angiogram and coiling of the aneurysm under general anesthesia, which she tolerated well. Postoperatively, she was monitored in the Neurosurgical ICU with blood pressure control using Nipride infusion and received heparin for six hours; her coagulation and chem 7 profiles were normal. On examination, she was neurologically intact with stable vital signs and no deficits. The documented diagnosis was a left posterior communicating artery aneurysm, and treatment included endovascular coiling, blood pressure management, and postoperative monitoring.
+The patient is a 61-year-old female presenting with lightheadedness, dizziness, and an episode of vertigo that awakened her from sleep and lasted less than one minute. She denied numbness, palpitations, chest pain, or visual changes. Further workup revealed a 5 mm unruptured aneurysm of the left posterior communicating artery. Her relevant history includes preoperative use of hydrochlorothiazide, which she is to continue. The documented diagnosis was unruptured left posterior communicating artery aneurysm. She underwent elective angiogram and coiling of the aneurysm under general anesthesia without complications. Postoperatively, she was monitored in the Neurosurgical ICU with blood pressure control and heparin infusion, and her neurological examination remained intact throughout her stay. She was discharged in stable condition with instructions to follow up in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with lightheadedness as the chief complaint. Symptoms included several days of lightheadedness and dizziness, with one brief episode of vertigo described as a sudden spinning sensation lasting a few minutes, triggered by turning the head; no vision changes, nausea, vomiting, or ringing in the ears were reported. The patient noted that symptoms occurred mostly when moving around, such as getting up from a chair or walking, but had not interfered with daily activities. No relevant medical history, medications, or allergies were mentioned. The doctor assessed that the symptoms were likely related to benign paroxysmal positional vertigo (BPPV), given their positional nature and lack of concerning features. Physical findings were limited to the patient's descriptions, with no additional abnormalities noted. The doctor recommended being cautious with sudden movements to prevent falls and advised monitoring for new or worsening symptoms such as double vision, weakness, difficulty speaking, or trouble walking. The doctor also mentioned that symptoms often improve on their own and offered to discuss specific head exercises if symptoms persist or worsen.
+The patient is an adult presenting with lightheadedness as the chief complaint. Symptoms have been present for a few days and include dizziness, primarily when moving around or changing positions, and one brief episode of vertigo (room spinning) triggered by turning the head; there have been no vision changes, nausea, vomiting, or hearing symptoms. The patient reports no significant impact on daily activities and has not experienced fainting. Relevant history, medications, and allergies are not specified. The clinical impression is benign paroxysmal positional vertigo (BPPV), likely related to inner ear positional changes. The treatment plan includes monitoring symptoms, moving slowly to avoid falls, and considering specific head exercises if symptoms persist or worsen. The patient was advised to seek prompt care if new neurological symptoms develop or if dizziness becomes more severe or frequent.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
+- **STS Score**: 0.462
+- **Model Used**: general
+- **Text1 Length**: 124 words
+- **Text2 Length**: 134 words
+
 
 ## Processing Information
 

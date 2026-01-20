@@ -87,16 +87,21 @@ Let me know if you have questions about what might help with comfort at home, or
 
 ## EHR Summary
 
-The patient is a 48-year-old female presenting with sudden onset of left-sided pleuritic chest pain and shortness of breath one week after laparoscopic cholecystectomy for symptomatic cholelithiasis. She reported incisional pain for a few days postoperatively, followed by acute respiratory symptoms and mildly elevated liver function tests. Her past medical history includes hypothyroidism, cholelithiasis (status post cholecystectomy), and prior cesarean section; current medications are Synthroid and oral contraceptive pills, with an allergy to ibuprofen. On physical exam, she was in mild distress with tachycardia (pulse 108) and oxygen saturation of 96% on room air. A VQ scan was positive with high probability for pulmonary embolism, and imaging revealed mild biliary duct dilation and right hydronephrosis. The documented diagnosis was pulmonary embolism. She was started on a Heparin drip for anticoagulation and transferred for further management.
+The patient is a 48-year-old female presenting with sudden onset of left-sided pleuritic chest pain and shortness of breath one week after laparoscopic cholecystectomy. She also experienced mild incisional pain postoperatively and was found to have elevated liver function tests. Her past medical history includes hypothyroidism, cholelithiasis (status post cholecystectomy), and cesarean section; she takes Synthroid and oral contraceptives and reports an allergy to ibuprofen. Diagnostic workup revealed a pulmonary embolism (confirmed by VQ scan), right hepatic duct obstruction due to surgical clips (seen on ERCP/MRCP), and mildly dilated biliary ducts with right hydronephrosis. The documented diagnoses were pulmonary embolus and jaundice secondary to right hepatic duct obstruction. Treatment included anticoagulation with Heparin, transition to Lovenox and Coumadin, percutaneous biliary drainage with stent placement, antibiotics (Unasyn, then Levofloxacin and Flagyl), and colonoscopy for further evaluation. She was discharged in good condition with home Lovenox injections, T tube care, and follow-up arranged for biliary repair.
+
 
 ## Dialogue Summary
 
-The patient presented with sudden onset left-sided chest pain that is worse with deep breaths. The pain began about a week ago, is sharp in quality, localized to the left lateral chest (not radiating), and has remained unchanged in intensity; it is aggravated by deep inspiration but not by changes in position or rest. The patient also reported associated shortness of breath and ongoing mild epigastric and incisional pain since recent surgery, but denied fever, chills, recent illness, injury, heavy lifting, or coughing fits. No medication allergies were specified in this encounter. On assessment, the doctor noted the absence of systemic symptoms or trauma and described the presentation as most consistent with pleuritic chest pain, likely due to irritation or inflammation of the pleural lining, with possible contribution from post-operative healing. The doctor advised rest, gentle movement, slow steady breathing, and avoidance of strenuous activity, and recommended monitoring for worsening shortness of breath, rapid heartbeat, persistent cough, or sudden severe pain. The patient was instructed to seek prompt medical attention if any new or worsening symptoms develop.
+The patient is an adult presenting with sudden onset left-sided chest pain as the chief complaint. The pain is sharp, localized to the left lateral chest, and worsens with deep inspiration; it has persisted for about one week without significant change. The patient also reports associated shortness of breath and mild epigastric pain following recent surgery but denies fever, chills, recent illness, injury, or heavy lifting. There is no radiation of pain and no positional changes affecting the discomfort. The documented clinical impression is pleuritic chest pain, likely due to mild inflammation of the pleural lining. The treatment plan includes rest, gentle movement, slow steady breathing, and avoidance of strenuous activity, with instructions to monitor for worsening symptoms such as increased dyspnea, persistent cough, or sudden severe pain. The patient was advised to seek prompt medical attention if new or worsening symptoms develop. Use of Tylenol for pain was discussed in the context of medication allergies, though specific recommendations were not documented.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
+- **STS Score**: 0.504
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

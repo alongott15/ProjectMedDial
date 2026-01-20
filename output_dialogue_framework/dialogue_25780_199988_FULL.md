@@ -87,16 +87,23 @@ For now, keep an eye on your output and how you’re feeling overall. If the hig
 
 ## EHR Summary
 
-The patient is a 74-year-old male presenting for curative resection of rectal adenocarcinoma following a history of rectal bleeding and biopsy-proven moderately differentiated adenocarcinoma. He reported rectal bleeding beginning in the previous year, with no additional acute symptoms documented at admission. Relevant history includes prostate cancer treated with radiation, hypercholesterolemia, and peptic ulcer disease; he takes Cardura and Lipitor and has no known drug allergies. On initial examination, he was afebrile, vital signs were normal, and no acute findings were noted on physical exam; preoperative hematocrit was 40.4. The documented diagnosis was rectal adenocarcinoma. He underwent a proctocolectomy with coloanal anastomosis and loop ileostomy without intraoperative complications. Postoperatively, he was stable and comfortable with epidural pain control, started on clear liquids by postoperative day 2, and his home medications were resumed.
+The patient is a 74-year-old male presenting for curative resection of rectal cancer after evaluation for rectal bleeding revealed a moderately differentiated adenocarcinoma. He underwent a proctocolectomy with coloanal anastomosis and loop ileostomy, with an initially stable postoperative course complicated by high ileostomy output, partial small bowel obstruction, abdominal distension, and an episode of emesis. Relevant history includes prostate cancer (treated with radiation), hypercholesterolemia, and peptic ulcer disease; medications on admission included Cardura and Lipitor, with no known drug allergies. Postoperatively, he developed a partial small bowel obstruction, a postoperative leak at the anastomosis, sepsis with elevated white blood cell count, and required percutaneous drainage of intra-abdominal fluid collections. Management included intravenous fluids, broad-spectrum antibiotics, total parenteral nutrition (TPN), tube feeds, and percutaneous drainage, with gradual resolution of his complications. The documented diagnoses were rectal cancer, status post proctocolectomy with coloanal anastomosis and loop ileostomy, resolved partial small bowel obstruction, resolved postoperative leak, hyperlipidemia, and history of prostate cancer. At discharge, he was afebrile, hemodynamically stable, tolerating oral intake, and meeting nutritional needs. He was discharged to a rehabilitation facility with instructions for follow-up with colorectal surgery and urology, and prescribed medications including Lipitor, Heparin, Vitamin D, Zinc Sulfate, Protonix, Lopressor, Calcium Carbonate, and Imodium.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about increased ileostomy output. Over the past few days, the patient has noticed the output is higher and more watery than usual, requiring more frequent emptying of the bag, though energy levels have remained stable. The patient reported occasional formed stool but mostly liquid output, with no associated abdominal pain, cramping, fever, or signs of dehydration such as dry mouth or dizziness. Fluid intake has been unchanged, and no specific foods or drinks were identified as triggers for the change in output. No relevant medical history, medications, or allergies were mentioned during the visit. On assessment, the doctor noted the increased and more watery ileostomy output without other concerning symptoms, which was considered reassuring. The doctor advised monitoring for signs of dehydration (increased thirst, dry mouth, dizziness, unusual fatigue) and recommended increasing fluid intake and considering electrolyte-containing drinks if such symptoms develop. The patient was instructed to continue monitoring output and to seek further evaluation if symptoms worsen or persist beyond a few more days.
+The patient presents with increased ileostomy output as the chief complaint. Over the past few days, the output has become more watery than usual, requiring more frequent emptying of the ostomy bag, though the patient denies changes in energy level, abdominal pain, cramping, fever, or signs of dehydration such as dry mouth or dizziness. The patient reports no clear dietary triggers and fluid intake has remained stable. Relevant medical history, medications, and allergies are not specified.
+
+The clinical impression is increased, watery ileostomy output without evidence of acute illness or dehydration. The doctor advised monitoring for symptoms of dehydration (such as increased thirst, dry mouth, dizziness, or unusual fatigue) and recommended increasing fluid and electrolyte intake if these symptoms develop. The patient was instructed to continue monitoring output and to seek further evaluation if high output persists for more than a few days or if new symptoms arise.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.932
-- **Similarity Label**: N/A
+- **STS Score**: 0.488
+- **Model Used**: general
+- **Text1 Length**: 205 words
+- **Text2 Length**: 148 words
+
 
 ## Processing Information
 

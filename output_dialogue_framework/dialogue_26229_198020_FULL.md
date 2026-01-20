@@ -116,3 +116,23 @@ Making sure you stay well hydrated and rest is still important. If you find the 
 ## Processing Information
 
 - **Processing Time**: 413.6s
+
+## EHR Summary
+
+The patient is a 75-year-old male presenting with lethargy, fevers, and a ruptured abdominal aortic aneurysm. He reported increased weakness, inability to sleep, decreased appetite, intermittent fevers up to 103°F, intermittent low back pain lasting less than two hours, and abdominal pain. On admission, he was febrile and lethargic, with laboratory findings notable for leukocytosis (WBC 18.2) and mild hyponatremia (Na 130). His past history includes a recent hospitalization for similar symptoms, with blood cultures previously positive for beta hemolytic streptococcus. Imaging revealed a large (7 cm) infrarenal abdominal aortic aneurysm with evidence of rupture and retroperitoneal extension. The documented diagnoses were bacteremia, pyelonephritis (based on physical exam), and ruptured abdominal aortic aneurysm. Initial treatment included intravenous antibiotics (Levaquin 500 mg daily). Further management details for the aneurysm are not specified in the note.
+
+
+## Dialogue Summary
+
+The patient is an older adult presenting with the chief complaint of increasing fatigue and intermittent fevers. Key symptoms include worsening tiredness, fevers up to 103°F without chills or sweating, decreased appetite, intermittent dull aches in the lower back and side, generalized weakness (especially during fevers), trouble sleeping, and new abdominal swelling. The patient denies urinary or bowel changes and reports that symptoms have persisted for at least several days, with no recent illness or travel. Relevant history regarding chronic medical conditions, medications, or allergies is not specified.
+
+The clinical impression is that the constellation of persistent fever, fatigue, aches, low appetite, and abdominal swelling may indicate an underlying infection, inflammatory process, or possible intra-abdominal pathology; however, no definitive diagnosis is documented. The treatment plan includes monitoring temperature and symptoms closely, maintaining hydration, resting, and eating small frequent meals as tolerated. The patient is advised to seek prompt medical attention if symptoms worsen (such as increased swelling, pain, confusion, shortness of breath, or inability to eat/drink), and to consider in-person evaluation with basic blood or urine tests if symptoms persist beyond a few more days.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.534
+- **Model Used**: general
+- **Text1 Length**: 134 words
+- **Text2 Length**: 185 words
+

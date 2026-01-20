@@ -91,16 +91,21 @@ Let me know if you have any questions or if there's anything else you'd like to 
 
 ## EHR Summary
 
-The patient is a 70-year-old male presenting with hypertensive emergency following esophageal stent placement. He experienced severe hypertension (blood pressures in the 220s/110s), 150 cc bilious emesis, umbilical pain, and a frontal headache post-procedure; overnight, he had mild umbilical cramping pain with nausea and three episodes of vomiting, but no gastrointestinal bleeding. His past medical history includes distal esophageal stricture, colon cancer status post hemicolectomy, coronary artery disease with prior MI and stent, hypertension, ventral hernia, cerebrovascular accident, peripheral vascular disease, COPD, and peptic ulcer disease; he is allergic to penicillins. On exam, he was alert and oriented, breathing rapidly and deeply, with blood pressure 150/70 mmHg and minimal umbilical tenderness. The documented diagnosis was hypertensive emergency. Treatment included intravenous lopressor (2.5 mg) and hydralazine (total 20 mg IV) for blood pressure control. He was admitted for further evaluation and management of his symptoms.
+The patient is a 70-year-old male presenting with hypertensive emergency following esophageal stent placement. He experienced severe hypertension (BP in the 220s/110s), bilious vomiting, umbilical pain, and frontal headache post-procedure, with mild persistent abdominal pain and nausea overnight. His past medical history includes distal esophageal stricture, colonic adenocarcinoma status post hemicolectomy, coronary artery disease, hypertension, COPD, peripheral vascular disease, and a history of CVA. During admission, he was found to have diabetic ketoacidosis (DKA) with hyperglycemia (glucose >400 mg/dL), anion gap acidosis, and positive urine ketones, despite no prior diabetes diagnosis; his HbA1c was 15.2%. The documented diagnoses were DKA (primary), with secondary diagnoses of COPD, colonic adenocarcinoma, distal esophageal stricture, and peripheral vascular disease. Treatment included IV antihypertensives for blood pressure control, insulin therapy (glargine and sliding scale Humalog), electrolyte repletion, continuation of home medications for CAD and COPD, and dietary modifications for diabetes and cardiac health. He was discharged in good condition with instructions for home glucose monitoring, insulin administration, and follow-up with primary care and ophthalmology.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about consistently high blood pressure. They reported persistent elevated readings, a strong frontal headache, nausea, and several episodes of yellowish vomiting overnight, as well as worsened vision; vomiting had stopped by the time of the visit but mild nausea persisted. No chest pain was noted, and symptoms of headache, vomiting, and vision changes began overnight, while high blood pressure had been ongoing for a longer period. The patient denied any recent changes in medications, diet, or daily routine, and stated that nothing seemed to lower their blood pressure. The doctor noted the combination of high blood pressure with new onset headache, nausea, vomiting, and visual changes, and explained these may indicate the blood pressure is affecting organs such as the brain or eyes. The assessment was that these symptoms are concerning for possible end-organ effects from uncontrolled hypertension. The doctor recommended prompt medical attention—contacting the regular provider or seeking urgent/emergency care if symptoms worsen—and advised the patient to rest, avoid strenuous activity, continue prescribed medication, and monitor for warning signs such as confusion, weakness, speech difficulty, or chest pain.
+The patient is an adult presenting with concerns about consistently high blood pressure. Key symptoms include a strong frontal headache, nausea with several episodes of yellowish vomiting overnight, and recent visual changes; these symptoms began overnight, while hypertension has been present for a longer period. The patient denies chest pain and reports no recent changes in medications, diet, or routine. The clinical impression is that the combination of persistent hypertension with new-onset headache, vomiting, and visual changes may indicate end-organ effects of elevated blood pressure, potentially affecting the brain or eyes. The physician emphasized that these symptoms are more serious than routine fluctuations and warrant prompt medical evaluation. The treatment plan includes seeking medical attention soon—either by contacting the regular provider or visiting urgent care/emergency services if symptoms worsen—and continuing current antihypertensive medications. The patient was also advised to rest, avoid strenuous activity, and watch for warning signs such as confusion, weakness, speech difficulty, or chest pain that would require immediate care.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.479
+- **Model Used**: general
+- **Text1 Length**: 169 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

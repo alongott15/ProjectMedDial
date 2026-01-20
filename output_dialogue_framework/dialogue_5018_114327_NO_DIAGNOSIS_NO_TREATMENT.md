@@ -89,16 +89,21 @@ Let me know about your temperature readings, and if there's anything else unusua
 
 ## EHR Summary
 
-The patient is a 47-year-old male presenting with a chief complaint of three days of fever up to 103°F and nocturia. He has a history of HIV, disseminated tuberculosis (including miliary TB pancreatitis), and left iliac deep vein thrombosis, and is currently on a four-drug TB regimen, HAART (Trizivir, Abacavir, Nevirapine), Coumadin, prednisone, and Bactrim. On admission, he was febrile to 101.3°F, tachycardic (heart rate 108), and cachectic but in no acute distress; physical exam revealed a 2/6 systolic murmur and possible mild left CVA tenderness. Laboratory findings included a white blood cell count of 5.2, hematocrit 26.4, platelets 219,000, urinalysis positive for nitrites with moderate bacteria and 3-5 WBCs, and an absolute CD4 count of 57. The documented diagnosis is not explicitly stated in the note. Treatment on admission continued his prior medications for TB, HIV, DVT, and included Bactrim for prophylaxis. No new specific treatments or recommendations are documented in this excerpt.
+The patient is a 47-year-old male presenting with a three-day history of fevers up to 103°F and nocturia. He has a history of HIV, disseminated tuberculosis (TB), recent miliary TB pancreatitis, and left iliac deep vein thrombosis, and was recently discharged on a four-drug TB regimen, HAART, Coumadin, and prednisone. On admission, he was febrile (101.3°F), tachycardic, and cachectic but in no acute distress; laboratory findings included a CD4 count of 57 and urinalysis positive for moderate bacteria. Work-up revealed no clear infectious source, though imaging suggested possible neck abscess and multiple abdominal fluid collections; he was treated empirically for urinary tract infection with levofloxacin. During hospitalization, he developed gastrointestinal bleeding (treated with blood transfusions and Protonix), acute kidney injury likely due to Tenofovir and Bactrim (both discontinued), and leukopenia attributed to AZT (switched to stavudine with G-CSF support). The clinical impression was fever of unclear origin in the setting of advanced HIV and recent TB, complicated by drug reactions and GI bleeding. At discharge, he was stable and continued on a modified antiretroviral and TB regimen, with a prednisone taper, anticoagulation, and supportive medications. He was instructed to follow up in the Infectious Disease Clinic and at the hospital for ongoing care.
+
 
 ## Dialogue Summary
 
-The patient presented with high fevers for the past three days, reaching up to 103°F. The fever tends to come and go throughout the day, sometimes subsiding before spiking again. Associated symptoms include muscular aches in the legs and increased nighttime urination (nocturia), but no cough, sore throat, chills, headaches, urinary discomfort, or changes in urine color; the patient also denied increased thirst or appetite changes. No recent travel, routine changes, or sick contacts were reported. On assessment, the doctor noted the absence of localized infection signs and suggested that the pattern of intermittent high fever and muscle aches is most consistent with a viral infection, with nocturia possibly related to fluid shifts from fever and sweating. The patient has been monitoring their temperature at home, with readings typically between 102–103°F during fever episodes. The doctor recommended supportive care including hydration, rest, and use of acetaminophen or ibuprofen for fever, and advised monitoring for persistent fever beyond 5–7 days or new severe symptoms.
+The patient is an adult presenting with high fevers up to 103°F for the past three days as the chief complaint. The fever is intermittent, with episodes of sweating during spikes, and is accompanied by muscle aches in the legs and increased nighttime urination (nocturia). There are no associated symptoms of cough, sore throat, chills, headache, urinary discomfort, or changes in urine color, and no recent travel or sick contacts were reported. The patient denies increased thirst or appetite changes. Relevant history, medications, and allergies are not specified. The clinical impression is a likely viral infection, given the pattern of fever and absence of localized symptoms. The treatment plan includes supportive care with hydration, rest, and use of acetaminophen or ibuprofen for fever. The patient was advised to monitor for persistent fever beyond 5-7 days or development of new symptoms such as chest pain or shortness of breath.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.537
+- **Model Used**: general
+- **Text1 Length**: 203 words
+- **Text2 Length**: 148 words
+
 
 ## Processing Information
 

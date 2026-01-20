@@ -67,16 +67,21 @@
 
 ## EHR Summary
 
-The patient is a 46-year-old woman presenting after the incidental discovery of cerebral aneurysms during imaging for migraine headaches. She was found to have three aneurysms: one at the right internal carotid artery bifurcation, one at the right middle cerebral artery (MCA) bifurcation, and one at the left origin of the anterior choroidal artery. Her relevant history includes migraine headaches; no medication allergies are documented. On admission, she underwent successful surgical clipping of the right MCA and right ICA bifurcation aneurysms without intraoperative complications. Postoperatively, she remained neurologically intact, afebrile at discharge, and had stable vital signs and physical exam findings. The documented diagnosis was multiple cerebral aneurysms. She was discharged home in stable condition with instructions to follow up in one week and prescribed Fioricet 1-2 tablets by mouth every 4 hours as needed.
+The patient is a 46-year-old woman presenting after the incidental discovery of cerebral aneurysms during imaging for migraine headaches. She was found to have three aneurysms: one at the right internal carotid artery bifurcation, one at the right middle cerebral artery (MCA) bifurcation, and one at the left origin of the anterior choroidal artery. Her relevant history includes migraine headaches; no medication allergies are documented. The clinical impression was multiple cerebral aneurysms. She underwent surgical clipping of the right MCA and right ICA bifurcation aneurysms without intraoperative complications. Postoperatively, she remained neurologically intact and stable, with a brief episode of fever (T max 101.3°F) but negative cultures. She was discharged home in stable condition with instructions for follow-up and prescribed Fioricet 1-2 tablets by mouth every 4 hours as needed.
+
 
 ## Dialogue Summary
 
-The patient presented with recurrent migraine headaches that have been increasing in frequency. The headaches typically last several hours to most of the day and are worsened by bright lights and loud noises; the patient is unsure of consistent specific triggers. During migraine episodes, the patient experiences sensitivity to light and sound but denies nausea or visual changes. The migraines significantly impact daily activities, requiring the patient to rest until the episode passes. Resting in a dark, quiet room provides some relief, and the patient is not currently taking any medication specifically for migraines. No relevant medical history, medications, or allergies were mentioned. The doctor inquired about symptom characteristics, associated features, and current management strategies but did not provide a formal assessment or diagnosis during the conversation. No specific treatment plan or recommendations were given in this dialogue.
+The patient presents with recurrent migraine headaches as the chief complaint. The migraines occur more frequently, typically last several hours to most of the day, and are worsened by bright lights and loud noises; there is no consistent trigger identified. Associated symptoms include sensitivity to light and sound, without nausea or visual changes. The migraines significantly impact daily activities, requiring the patient to rest until the episode resolves. Resting in a dark, quiet room provides some relief, and the patient is not currently taking any medication for migraines. No specific diagnosis beyond migraine was documented. No new medications or treatments were prescribed during this visit; the patient was advised to continue resting in a dark, quiet environment during episodes.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.431
+- **Model Used**: general
+- **Text1 Length**: 130 words
+- **Text2 Length**: 119 words
+
 
 ## Processing Information
 

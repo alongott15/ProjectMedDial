@@ -89,16 +89,23 @@ Let me ask—where exactly is the dull headache located? Is it around your templ
 
 ## EHR Summary
 
-The patient is a 63-year-old male presenting for evaluation of silent ischemia, referred for outpatient cardiac catheterization. He reports no recent chest pain, with only a remote episode of chest and epigastric discomfort in 2183, previously diagnosed as angina. His history is significant for hypertension, diabetes, peripheral vascular disease, prior silent myocardial infarction, and cerebrovascular accident (CVA) with right eye blindness and right-sided headache in 2197. Recent stress testing revealed a fixed inferior defect, small anterior defect, diffuse ST-T wave changes at low workload, and shortness of breath during exercise; echocardiogram showed inferior hypokinesis and an ejection fraction of 35–40%. Cardiac catheterization demonstrated an ejection fraction of 40%, fixed inferior akinesis, severe multi-vessel coronary artery disease (90% left vein, 60% LAD, 80% left circumflex, 90% proximal right coronary artery occlusion), and trace mitral regurgitation. The documented diagnosis is silent ischemia with severe multi-vessel coronary artery disease. Treatment details are not specified in the note.
+The patient is a 63-year-old male presenting with silent ischemia, referred for outpatient cardiac catheterization. He reported no recent chest pain but had a remote history of chest and epigastric discomfort in 2183, and recently experienced shortness of breath and EKG changes during stress testing. His medical history includes hypertension, diabetes, prior silent myocardial infarction, cerebrovascular accident (CVA), peripheral vascular disease, and right-sided hernia; he has no known drug allergies. Cardiac catheterization revealed severe multivessel coronary artery disease with an ejection fraction of 40%. The documented diagnoses were coronary artery disease status post coronary artery bypass grafting (CABG) times four, postoperative atrial fibrillation, diabetes, CVA, and hernia. Treatment included CABG x4 with intra-aortic balloon pump support, management of postoperative bleeding, and initiation of medications such as Lasix, potassium chloride, amiodarone, insulin, Lopressor, and aspirin. The patient was discharged in stable condition with instructions to follow up with cardiology and primary care in one month.
+
 
 ## Dialogue Summary
 
-The patient presented with heart issues, specifically reporting shortness of breath that worsens with activity and difficulty during exercise tests. Symptoms include exertional dyspnea that improves with rest, persistent right eye blindness (noted as constant and not intermittent), right-sided weakness, and a dull headache rated 6 out of 10, localized around the right temple. The patient denied jaw pain, scalp tenderness, or weight loss, and stated these symptoms have not occurred together before. No specific past medical history, medications, or allergies were mentioned. The doctor noted the combination of exertional shortness of breath and new, persistent vision loss with weakness, suggesting a possible vascular cause affecting blood flow to the brain or eye. The doctor recommended further evaluation of these symptoms and advised the patient to avoid strenuous activity until more is known. The patient was instructed to seek immediate care if new symptoms such as severe headache, sudden weakness, speech changes, or chest pain develop.
+The patient presents with difficulty breathing during activity and persistent vision loss in the right eye as the chief complaints. The shortness of breath (dyspnea) worsens with exertion, improves with rest, and has recently begun to interfere with daily activities such as household chores; it builds up gradually rather than coming on suddenly. The patient also reports constant right eye blindness, right-sided weakness, and a dull headache rated 6 out of 10, primarily around the right temple, but denies jaw pain, scalp tenderness, or weight loss. There is no history of similar combined symptoms in the past.
+
+The clinical impression is that these symptoms may be related to a vascular or cardiac issue affecting blood flow to the brain or eye. The physician recommends further evaluation to investigate possible vascular causes and advises the patient to avoid strenuous activity until more information is available. The patient is instructed to seek immediate care if new symptoms such as severe headache, sudden weakness, speech changes, or chest pain develop. No specific diagnosis or medication was documented at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.439
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 177 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ Would you like advice on comfortable positions or gentle activities that might h
 
 ## EHR Summary
 
-The patient is an 85-year-old female presenting with right upper quadrant pain and elevated liver function tests. She reported minimal postoperative pain following a laparoscopic cholecystectomy with cholangiogram performed on admission. Her past medical history includes cerebrovascular accident, coronary artery disease with prior myocardial infarction, hypertension, depression, hypothyroidism, myofascial pain syndrome, peripheral vascular disease, and previous fractures. Home medications included Tylenol, calcium carbonate, captopril, Premarin, Synthroid, Lopressor, Zocor, multivitamin, vitamin D, and Lactaid. During her hospital course, she experienced mild confusion likely related to being in an unfamiliar environment but otherwise recovered well. Physical findings postoperatively included good pain control with Tylenol only, tolerance of diet, independent voiding and bowel movements, and return to baseline mental status. The documented diagnosis was symptomatic cholelithiasis requiring cholecystectomy. She was discharged in stable condition with continued supportive care and rehabilitation.
+The patient is an 85-year-old female presenting with right upper quadrant pain and elevated liver function tests. She reported minimal postoperative pain following a laparoscopic cholecystectomy with cholangiogram performed on admission. Her past medical history includes cerebrovascular accident, coronary artery disease, prior myocardial infarction, hypertension, depression, hypothyroidism, myofascial pain syndrome, peripheral vascular disease, and previous fractures. Home medications included Tylenol, calcium carbonate, captopril, Premarin, Synthroid, Lopressor, Zocor, multivitamin, vitamin D, and Lactaid. During her hospital stay, she experienced mild confusion likely related to being in an unfamiliar environment but otherwise recovered well. The documented diagnosis was status post laparoscopic cholecystectomy with cholangiogram. She was treated with Tylenol for pain and advanced to a clear diet as tolerated. The patient was discharged in stable condition to a rehabilitation facility.
+
 
 ## Dialogue Summary
 
-The patient presented with steady pain in the upper abdomen under the right ribs. The pain has been present for a few days, is dull and achy in nature, rated 5 out of 10 in severity, and does not change with movement, breathing, or pressure. The patient denied nausea, loss of appetite, jaundice, or changes in energy, but reported mild confusion and some difficulty focusing and remembering things over the past couple of days. No history of fatigue, weakness, or digestive changes was mentioned. On examination, the pain was localized to the front under the right ribs without aggravating factors. The doctor assessed that the symptoms could be related to mild inflammation or irritation of the liver or gallbladder, but severe problems seemed less likely due to the absence of digestive symptoms or jaundice. The doctor advised monitoring for new symptoms such as worsening pain, fever, jaundice, or dark urine, and recommended staying hydrated and resting; if confusion worsens or other concerning symptoms develop, prompt medical attention should be sought. The patient requested advice on comfortable positions and gentle activities for pain relief and agreed to watch for new symptoms.
+The patient is an adult presenting with right upper abdominal pain near the ribs as the chief complaint. The pain began a few days ago, is steady, dull, and achy, rated 5 out of 10 in severity, and is not affected by movement or breathing. The patient denies nausea, jaundice, appetite changes, or fatigue but reports mild confusion and some difficulty with focus and memory over the past couple of days. The pain is localized to the upper abdomen under the right ribs, more toward the front. Relevant history, medications, and allergies are not specified. The clinical impression was possible mild inflammation or irritation involving the liver or gallbladder, with consideration of mild liver changes or minor infection due to the combination of abdominal pain and confusion. The treatment plan included monitoring for new symptoms such as worsening pain, fever, jaundice, or dark urine, staying hydrated, resting, and seeking prompt medical attention if symptoms worsen. The doctor also offered advice on comfortable positions and gentle activities to help manage the discomfort.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.521
+- **Model Used**: general
+- **Text1 Length**: 128 words
+- **Text2 Length**: 171 words
+
 
 ## Processing Information
 

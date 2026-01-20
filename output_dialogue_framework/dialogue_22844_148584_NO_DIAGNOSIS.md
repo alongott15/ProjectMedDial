@@ -87,16 +87,23 @@ If things don’t improve in the next few days or if anything gets worse, let’
 
 ## EHR Summary
 
-The patient is a 26-year-old male presenting with persistent fever during hospitalization following treatment for acute myeloid leukemia (AML) and acute lymphoblastic leukemia (ALL). He experienced daily fevers up to 102–103°F with no initially identified source, and cultures of blood, urine, and stool were negative except for a positive Clostridioides difficile toxin. Relevant history includes recent chemotherapy for AML and ALL, and ongoing prophylactic medications such as acyclovir and Nystatin. Physical findings included persistent fever despite broad-spectrum antibiotics. The documented clinical impression was fever of unknown origin in the context of immunosuppression, with confirmed C. difficile infection. Treatment included empiric antibiotics (Levaquin, cefepime, vancomycin), antifungal therapy (AmBisome), oral Flagyl for C. difficile, and initiation of high-dose Ara-C chemotherapy. The patient became afebrile after these interventions, though the specific cause of improvement was unclear. Infectious Disease consultation recommended HSV antibody titers to guide acyclovir use, which were pending at discharge.
+The patient is a 26-year-old male presenting with persistent fever during hospitalization following treatment for acute myeloid leukemia (AML) and acute lymphoblastic leukemia (ALL). He experienced daily fevers up to 102–103°F, associated headaches that worsened with fever spikes, and occasional left ear fullness; a single erythematous scalp lesion was also noted and resolved spontaneously. Relevant history includes recent chemotherapy, neutropenia, and use of prophylactic acyclovir and Nystatin. Workup revealed negative blood and urine cultures, but a positive Clostridium difficile toxin, and MRI showed possible left-sided sinusitis or mastoiditis. The clinical impression was fever of unknown origin in an immunocompromised host, with possible contributions from C. difficile infection and sinusitis. Treatment included empiric broad-spectrum antibiotics (Levaquin, cefepime, vancomycin), antifungal therapy (AmBisome), oral Flagyl for C. difficile, high-dose Ara-C chemotherapy, and supportive transfusions. The patient became afebrile after these interventions, tolerated chemotherapy well, and remained stable under neutropenic precautions.
+
 
 ## Dialogue Summary
 
-The patient presented with a persistent fever. Symptoms included fever (recorded at 101–102°F), headaches worsening with fever spikes (rated up to 7/10 in severity and interfering with concentration), and occasional fullness in the left ear without pain, discharge, or hearing changes; the ear fullness was intermittent and not triggered or relieved by specific factors. The patient denied chills, sweating, increased fatigue, weakness, or appetite changes. No relevant medical history, medications, or allergies were mentioned. On clinical assessment, the doctor noted moderate fever, headache, and intermittent ear fullness without severe ear symptoms, and explained these findings were consistent with a common viral infection or mild sinus issue. The doctor recommended supportive care including hydration, rest, and over-the-counter medications such as acetaminophen or ibuprofen for fever and headache. The patient was advised to monitor for new or worsening symptoms (persistent ear pain, hearing loss, severe headache, neck stiffness, or prolonged fever) and to follow up if symptoms did not improve within a few days.
+The patient is an adult presenting with a persistent fever as the chief complaint. The fever has been measured at 101–102°F and is accompanied by headaches (rated up to 7/10 in severity, worsening with fever spikes) and intermittent fullness in the left ear without pain, discharge, or hearing changes. These symptoms have been present for several days, though the exact onset is unclear. The patient denies chills, sweating, fatigue, or appetite changes.
+
+There is no significant past medical history, medication use, or allergies documented. The clinical impression is that these symptoms are most consistent with a common viral infection, such as a cold or mild sinus issue, given the absence of severe or progressive symptoms. The treatment plan includes supportive care: maintaining hydration, rest, and using over-the-counter medications like acetaminophen or ibuprofen for fever and headache. The patient was advised to monitor for new or worsening symptoms (such as persistent ear pain, hearing loss, severe headache, neck stiffness, or prolonged fever) and to seek further evaluation if these occur or if symptoms do not improve within a few days.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.515
+- **Model Used**: general
+- **Text1 Length**: 147 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

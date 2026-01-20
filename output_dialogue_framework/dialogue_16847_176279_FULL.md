@@ -100,3 +100,23 @@ Let me know if you have any questions about what weâ€™ve discussed or if thereâ€
 ## Processing Information
 
 - **Processing Time**: 478.9s
+
+## EHR Summary
+
+The patient is a 40-year-old female presenting with acute on chronic liver failure. She reported a three-week history of sore throat, odynophagia, nasal congestion, productive cough, nausea, vomiting, and painful swelling of the left lower extremity, and had been taking frequent acetaminophen for symptom relief. Her past medical history includes HIV, hepatitis C, anemia, depression, and hypercholesterolemia; she was on antiretroviral therapy and hepatitis C treatment prior to admission. On admission, she was found to have markedly elevated liver enzymes, hyperbilirubinemia, coagulopathy, and pancreatitis, with subsequent complications including hepatic encephalopathy, GI bleeding, thrombocytopenia, ascites, and cellulitis of the left lower extremity. The documented diagnoses were acute on chronic liver failure secondary to acetaminophen toxicity, hepatitis C virus infection, HIV infection, left lower extremity cellulitis with a ruptured cystic structure, esophageal ulcer, laryngeal candidiasis, bullous impetigo, anemia due to blood loss, thrombocytopenia, and coagulopathy of undetermined etiology. Treatment included intravenous N-acetylcysteine for liver failure, holding antiretroviral therapy, diuretics (Lasix and spironolactone), vitamin K, antibiotics (Unasyn then Augmentin), topical mupirocin for impetigo, lactulose for encephalopathy, fluconazole and nystatin for candidiasis, proton-pump inhibitor for reflux, and valaciclovir for esophageal ulcer. She received blood product transfusions for GI bleeding and was transitioned to oral medications at discharge. The patient was discharged home in fair condition with follow-up arranged and instructions to complete two weeks of antibiotics and antifungals.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with left leg pain and swelling as the chief complaint. Symptoms include gradually worsening pain (rated 7/10), swelling, redness, warmth, and tenderness of the left calf over several days, with associated difficulty walking and reduced activity. The patient denies recent injury, immobility, or travel, and reports no fever or chills but does feel generally unwell with confusion and asterixis. Additional findings include bullous skin lesions on the back and jaundice (yellowing of the eyes). There is no prior history of similar symptoms.
+
+The clinical impression discussed includes possible cellulitis (skin infection) or, less likely given the absence of risk factors, a venous blood clot. The physician recommends in-person medical evaluation soon for further assessment, including possible physical exam, ultrasound, or blood work. Interim advice includes leg elevation, avoiding prolonged standing, and monitoring for new symptoms such as increased redness, shortness of breath, or chest pain, with instructions to seek immediate care if these occur.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.471
+- **Model Used**: general
+- **Text1 Length**: 224 words
+- **Text2 Length**: 160 words
+

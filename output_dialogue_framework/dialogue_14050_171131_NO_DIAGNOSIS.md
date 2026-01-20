@@ -90,16 +90,23 @@ For now, try to rest as much as possible, stay hydrated, and avoid any over-the-
 
 ## EHR Summary
 
-The patient is an 83-year-old female presenting with hematemesis and melanotic stools. She experienced two episodes of hematemesis and multiple episodes of melena, with one episode of hypotension in the Emergency Department. Her past medical history includes cerebrovascular accident, congestive heart failure, hypertension, and a prior seizure disorder; she was treated for a congestive heart failure flare one month prior. On examination, she was hemodynamically stable after receiving fluids, with clear lungs, regular heart rhythm, right upper quadrant abdominal tenderness, and mild bilateral lower extremity edema. Laboratory results showed a hematocrit of 31.6 and an INR of 4.2. The clinical impression is gastrointestinal bleeding, likely upper GI source given hematemesis and bloody nasogastric lavage. Treatment included intravenous fluids, two units of fresh frozen plasma, and 5 mg subcutaneous Vitamin K. The patient was designated Do-Not-Resuscitate and Do-Not-Intubate, and did not report shortness of breath or chest pain.
+The patient is an 83-year-old female presenting with hematemesis and melanotic stools. She experienced two episodes of hematemesis and multiple episodes of melena, with one episode of hypotension in the Emergency Department but no shortness of breath or chest pain. Her past medical history includes cerebrovascular accident, congestive heart failure, hypertension, and seizure disorder; she is also Do-Not-Resuscitate and Do-Not-Intubate. On admission, her hematocrit was 31.6 and INR was 4.2. The documented diagnosis was upper gastrointestinal bleed due to duodenal bulb ulcers. Treatment included intravenous fluids, blood transfusions (2 units packed red blood cells), 4 units of fresh frozen plasma, Vitamin K, and intravenous Protonix; her INR was reduced to 1.3. An upper endoscopy revealed gastritis and two duodenal bulb ulcers that stabilized without intervention. She was discharged in stable condition with medications including pantoprazole, phenobarbital, fluoxetine, and Colace, and advised to avoid anticoagulation due to bleeding risk.
+
 
 ## Dialogue Summary
 
-The patient presented with vomiting dark blood and black, tarry stools. Symptoms began a couple of days ago and included one episode of feeling faint (with low blood pressure noted in the emergency room), ongoing tiredness, decreased appetite (but able to eat and drink a little), right upper abdominal discomfort, and increased weakness requiring more help with daily activities. The patient denied recent use of aspirin or ibuprofen and reported taking only usual medications; no medication allergies were mentioned. On review, the doctor noted the presence of melena (black, tarry stools), hematemesis (vomiting dark blood), right upper abdominal discomfort, and generalized weakness. The doctor assessed that these findings suggest upper gastrointestinal bleeding, possibly from the stomach or first part of the small intestine, and noted that ongoing blood loss may be contributing to weakness and low blood pressure. The doctor advised the patient to rest, stay hydrated, avoid over-the-counter pain medications unless directed otherwise, and monitor for worsening symptoms such as persistent vomiting, passing out, severe abdominal pain, or continued black stools. The patient was instructed to seek urgent care if these warning signs occur.
+The patient presents with the chief complaint of vomiting blood (hematemesis), which appeared dark in color. Additional symptoms include black, tarry stools (melena) for the past few days, right upper abdominal discomfort, one episode of feeling faint with documented low blood pressure in the emergency room, and increased weakness and fatigue impacting daily activities. The patient reports decreased appetite but is able to eat and drink small amounts, with minimal nausea, and denies recent use of aspirin or ibuprofen. Relevant history includes ongoing leg swelling and right-sided weakness, though further details are not specified.
+
+The clinical impression is upper gastrointestinal bleeding, possibly originating from the stomach or proximal small intestine, as suggested by the combination of dark hematemesis and melena. The doctor notes that ongoing blood loss may be contributing to the patient’s weakness, dizziness, and low blood pressure. The treatment plan includes monitoring for worsening symptoms (such as persistent vomiting, syncope, severe abdominal pain, or continued melena), resting, maintaining hydration, and avoiding over-the-counter pain medications unless directed otherwise. The patient is advised to seek urgent care if symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.763
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 180 words
+
 
 ## Processing Information
 

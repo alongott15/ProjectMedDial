@@ -87,16 +87,21 @@ Let me ask one more thing: where exactly do you feel the pressure in your chestâ
 
 ## EHR Summary
 
-The patient is a 40-year-old woman presenting with chest pressure as the chief complaint. She experienced daily chest pressure for one week, primarily on exertion, associated with shortness of breath and occasional radiation to the left arm; symptoms resolved with sublingual nitroglycerin. The chest pain occurred at rest the evening before admission and again on the day of admission while walking, both relieved by nitroglycerin. Her relevant history includes longstanding diabetes mellitus, three vessel coronary artery disease, prior myocardial infarction with catheterization, hypertension, hyperlipidemia, left femoral popliteal bypass, and remote tobacco use. On physical exam, she was stable with regular heart rhythm, a soft systolic ejection murmur, clear lungs, and positive bilateral pulses. The documented diagnosis is three vessel coronary artery disease with recent angina. The treatment plan included cardiac catheterization and continuation of medications such as aspirin, Plavix, atenolol, Zestril, Lipitor, insulin, and Nexium.
+The patient is a 40-year-old woman presenting with chest pressure occurring daily for one week, primarily on exertion and occasionally radiating to the left arm, sometimes associated with shortness of breath. The chest discomfort was relieved by sublingual nitroglycerin and occurred both at rest and with activity prior to admission. Her relevant history includes longstanding diabetes mellitus, hypertension, hyperlipidemia, three-vessel coronary artery disease, prior myocardial infarction, and left femoral popliteal bypass. Cardiac catheterization revealed significant multi-vessel coronary artery disease (50% left main, 80% LAD, 80â€“90% left circumflex, 90% RCA) with an ejection fraction of 50%. The documented diagnosis was severe multi-vessel coronary artery disease. She underwent coronary artery bypass grafting (CABG x3) and had an uncomplicated postoperative course aside from transient poor respiratory effort requiring pulmonary toilet. At discharge, she was stable and prescribed aspirin, Prilosec, Lasix, potassium chloride, metoprolol, Lipitor, Percocet as needed, and insulin, with instructions for follow-up in the wound clinic and with her physicians.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure as the chief complaint. The pressure is described as moderate in intensity, located centrally in the chest, worsened by activity such as walking or climbing stairs, and sometimes radiates down the left arm; it is accompanied by shortness of breath but not by lightheadedness or sweating. Symptoms have been present for several weeks and have become more noticeable, now interfering with daily activities like walking up stairs and carrying groceries; resting alleviates both the chest pressure and shortness of breath. No relevant medical history, medications, or allergies were mentioned. On clinical questioning, the patient denied pain spreading to the neck or jaw and reported no symptoms at rest. The doctor assessed that the symptom pattern is classic for heart-related issues such as angina, given the exertional nature and associated features. The doctor recommended prompt medical evaluation within the next day or two, including an exam, EKG, and possible blood work, advised avoiding strenuous activity, and instructed the patient to seek immediate care if symptoms worsen or new symptoms develop.
+The patient presents with chest pressure as the chief complaint. The pressure is described as moderate in intensity, located centrally in the chest, worsened by activity (such as walking or climbing stairs), sometimes radiating down the left arm, and accompanied by shortness of breath; symptoms improve with rest and have been progressively more noticeable over several weeks. The patient denies associated lightheadedness, sweating, or pain radiating to the neck or jaw, and reports increased difficulty with daily activities due to these symptoms. No relevant past medical history, medications, or allergies are specified. The clinical impression documented by the doctor is that the symptom pattern is classic for angina, suggesting possible decreased oxygen supply to the heart muscle during exertion. The doctor recommends prompt medical evaluation within the next day or two, including an exam, EKG, and possibly blood work to rule out significant heart issues. The patient is advised to avoid strenuous activity and seek immediate care if symptoms occur at rest, last longer than usual, or are accompanied by new symptoms such as nausea, sweating, or fainting.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.973
-- **Similarity Label**: N/A
+- **STS Score**: 0.573
+- **Model Used**: general
+- **Text1 Length**: 158 words
+- **Text2 Length**: 178 words
+
 
 ## Processing Information
 

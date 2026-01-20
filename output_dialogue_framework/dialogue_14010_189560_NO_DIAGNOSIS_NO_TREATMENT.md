@@ -95,16 +95,23 @@ If your energy level doesn’t start to improve or if the swelling becomes more 
 
 ## EHR Summary
 
-The patient is a 50-year-old male presenting with decreased energy level and increased mid-chest discomfort. He has a longstanding history of esophagitis and years of chest discomfort, with recent worsening symptoms. Relevant history includes hypertension, hypercholesterolemia, cigarette smoking, esophagitis, obesity, and a penicillin allergy. Cardiac catheterization revealed left main and three-vessel coronary artery disease. The documented diagnosis was severe coronary artery disease. He underwent a four-vessel coronary artery bypass graft with left radial artery harvest. Postoperatively, he required IV nitroglycerin for hypertension, was extubated promptly, transferred to the telemetry floor, and started on Lopressor with dose adjustment. The patient progressed well with cardiac rehabilitation and physical therapy, remained hemodynamically stable, and had chest tubes and pacing wires removed without complications.
+The patient is a 50-year-old male presenting with decreased energy level and increased mid-chest discomfort. He has a longstanding history of esophagitis and years of chest discomfort, with recent worsening symptoms prompting evaluation. Past medical history includes hypertension, hypercholesterolemia, cigarette smoking, esophagitis, obesity, and a penicillin allergy. Cardiac catheterization revealed left main and three-vessel coronary artery disease, leading to a diagnosis of coronary artery disease. He underwent a four-vessel coronary artery bypass graft with left radial artery harvest. Postoperatively, he was managed with IV nitroglycerin for hypertension, weaned from mechanical ventilation, and started on cardiac rehabilitation and Lopressor. At discharge, he was stable, ambulating well without oxygen, and prescribed medications including aspirin, Lasix, potassium chloride, Imdur, Prevacid, Lopressor, Percocet, and ibuprofen. Follow-up with cardiothoracic surgery, primary care, and cardiology was recommended in one month.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort as the chief complaint. They reported feeling more tired than usual, experiencing mild chest discomfort, and noticing minimal swelling in their feet, which is more noticeable at the end of the day or after standing for a while; these symptoms have been present for at least a few days to a week and have remained stable without significant worsening. The patient denied any shortness of breath and stated that the symptoms do not have specific triggers and do not interfere significantly with daily activities, though they have had to take it easier. No relevant medical history, medications, or allergies were mentioned. On clinical review, there was mild, activity-related swelling in the feet and no respiratory symptoms. The doctor assessed that these symptoms could be related to mild circulation or fluid retention issues, which are often not dangerous, and found the absence of shortness of breath or rapid worsening reassuring. The doctor recommended elevating the feet when possible, staying hydrated, pacing activity, and monitoring for any new symptoms such as increased swelling, shortness of breath, or worsening chest pain. The patient was advised to seek medical attention if any concerning symptoms develop and to continue monitoring their condition over the next week.
+The patient presents with chest discomfort as the chief complaint. Key symptoms include mild, intermittent chest discomfort, increased fatigue, and minimal swelling in the feet that is more noticeable at the end of the day or after prolonged standing; these symptoms have been present for at least several days to a week and have remained stable without significant worsening. The patient denies any dyspnea or shortness of breath and reports no specific triggers for the symptoms. There is no documented relevant medical history, medications, or allergies in the dialogue.
+
+The clinical impression discussed by the doctor is mild circulation or fluid balance issues, possibly related to fluid retention or decreased activity, but no definitive diagnosis is documented. The treatment plan includes elevating the feet when possible, staying hydrated, monitoring for new symptoms (such as increased swelling, shortness of breath, or worsening chest pain), and pacing activity levels. The patient is advised to seek medical attention if symptoms worsen or new concerning signs develop. Ongoing monitoring and conservative management are recommended at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.937
-- **Similarity Label**: N/A
+- **STS Score**: 0.474
+- **Model Used**: general
+- **Text1 Length**: 134 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

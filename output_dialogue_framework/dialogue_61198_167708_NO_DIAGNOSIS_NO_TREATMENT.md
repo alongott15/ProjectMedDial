@@ -85,16 +85,21 @@ Let me know if you have any questions or concerns about these recommendations, o
 
 ## EHR Summary
 
-The patient is a 60-year-old male presenting with a chief complaint of black stool (melena) for one day. He reported a single episode of black, tarry stool without associated abdominal pain, reflux, nausea, vomiting, diarrhea, shortness of breath, chest pain, or lightheadedness. His history is significant for NSTEMI status post stent placement, hyperlipidemia, and chronic use of aspirin and clopidogrel; he also reported increased alcohol intake recently and took ibuprofen a week prior. On examination, he was stable and in no acute distress, with normal vital signs and an unremarkable abdominal exam. An endoscopy was performed during admission. The clinical impression was gastrointestinal bleeding, likely related to medication use and recent alcohol intake. He was treated with intravenous protonix and underwent nasogastric lavage, which was negative for active bleeding; no further episodes of melena occurred during hospitalization. The patient was stable throughout his stay and had no additional complaints.
+The patient is a 60-year-old male presenting with a chief complaint of black stool (melena) for one day. He reported a single episode of black, tarry stool without associated abdominal pain, nausea, vomiting, diarrhea, shortness of breath, chest pain, or lightheadedness; he did note mild fatigue. His history is significant for NSTEMI status post stent placement, and he has been taking aspirin and clopidogrel for over five years, with recent increased alcohol intake and use of Advil. On admission, he was hemodynamically stable and had no further episodes of melena during hospitalization. Endoscopy revealed a 1 cm cratered but clean-based gastric ulcer in the antrum without active bleeding. The documented diagnosis was gastric ulcer/upper GI bleed. Treatment included IV pantoprazole followed by discharge on oral omeprazole 40 mg twice daily, continuation of home cardiac medications, and instructions to follow up with his PCP and return if symptoms worsened.
+
 
 ## Dialogue Summary
 
-The patient presented with black stool noticed yesterday. They denied stomach pain, nausea, shortness of breath, bleeding when brushing teeth, easy bruising, red blood in the stool, and changes in appetite, but reported feeling a bit more tired than usual. The patient is currently taking aspirin and Advil, with no use of iron supplements or Pepto-Bismol. Physical findings were limited to patient-reported symptoms; no additional findings were described. The doctor assessed that the black stool could be related to irritation or minor bleeding in the stomach from regular use of aspirin and Advil, with mild fatigue possibly connected. The doctor recommended monitoring for further episodes of black stool or new symptoms such as weakness, dizziness, or stomach pain, and advised avoiding Advil and limiting aspirin unless medically necessary. The patient was encouraged to reach out for further evaluation if symptoms persist or worsen and to discuss safer pain relief options if needed.
+The patient presented with a chief complaint of black stool first noticed yesterday, which was an isolated episode. The patient denied abdominal pain, nausea, red blood in the stool, changes in appetite, or shortness of breath, but reported mild fatigue. Relevant history includes regular use of aspirin and Advil; the patient is not taking iron supplements or Pepto-Bismol and has no recent bleeding or easy bruising. The clinical impression was that the black stool may be related to irritation or minor gastrointestinal bleeding from aspirin and Advil use. The physician advised monitoring for recurrent black stool, increased fatigue, dizziness, stomach pain, or other new symptoms, and recommended avoiding Advil and limiting aspirin if possible unless medically necessary. The patient was encouraged to discuss safer pain relief options if needed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.609
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 129 words
+
 
 ## Processing Information
 

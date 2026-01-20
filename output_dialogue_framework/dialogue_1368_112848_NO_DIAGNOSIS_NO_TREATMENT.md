@@ -87,16 +87,23 @@ Let me know if you have any questions or if you'd like to talk more about what m
 
 ## EHR Summary
 
-The patient is a 51-year-old male presenting with a one-year history of chest pain. He reported multiple episodes of palpitations, heart racing, shortness of breath, dizziness, and syncope. His medical history is significant for cardiomyopathy, dilated ascending aorta, hypertension, heavy tobacco and alcohol use, depression with prior admissions for suicidal ideation, and panic disorder. Cardiac catheterization revealed a pulmonary capillary wedge pressure of 23 mmHg, LVEDP of 28 mmHg, ejection fraction of 24%, 1+ mitral regurgitation, and no coronary artery disease. On physical exam, he was in no acute distress with stable vital signs but had scattered rales at the lung bases and a palpable liver. The documented diagnosis was ascending aortic aneurysm with severe cardiomyopathy. The patient underwent surgical repair of the ascending aortic aneurysm and aortic valve replacement with dacron grafts.
+The patient is a 51-year-old male presenting with a one-year history of chest pain, palpitations, heart racing, shortness of breath, dizziness, and episodes of syncope. Symptoms were associated with known cardiomyopathy and a dilated ascending aorta, with recent catheterization revealing severely reduced ejection fraction (24%), elevated filling pressures, and mild mitral regurgitation. Relevant history includes hypertension, significant tobacco and alcohol use, depression with prior suicide attempts, and panic disorder. The patient was admitted for further imaging and subsequently underwent surgical repair of an ascending aortic aneurysm and aortic valve replacement. Postoperatively, he developed delirium and transient atrial fibrillation with first-degree AV block, which resolved with amiodarone. The documented diagnoses at discharge were status post aortic dissection repair and delirium. Treatment included haloperidol for agitation/delirium, clonazepam for withdrawal prophylaxis, amiodarone, metoprolol, furosemide, aspirin, and supportive medications. The patient was discharged in good condition to rehabilitation with follow-up arranged with primary care and cardiology.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. Symptoms included moderate chest pain, episodes of palpitations (racing heartbeat), shortness of breath even at rest, dizziness, fainting (once or twice), anxiety, and occasional agitation or confusion during episodes; these episodes last a few minutes, occur both at rest and with activity, and resolve on their own without clear triggers. The patient denied associated sweating, nausea, or pain radiating to the arm, neck, or jaw. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted that while the symptoms are not classic for myocardial infarction, the combination of chest discomfort, palpitations, fainting, and shortness of breath at rest raises concern for possible arrhythmia or other cardiac causes. The doctor recommended an ECG and blood work to evaluate for heart-related issues and advised the patient to monitor for triggers and avoid them if possible. The patient was instructed to seek immediate care if severe chest pain, persistent shortness of breath, or further fainting occurs. The patient expressed understanding and concern about their fluctuating mental status during episodes.
+The patient is an adult presenting with chest pain as the chief complaint. Symptoms include moderate chest discomfort, palpitations, dyspnea (shortness of breath) at rest and with activity, dizziness, and episodes of fainting; these episodes last a few minutes, occur both at rest and with exertion, and have been ongoing for several weeks. The patient reports no associated sweating, nausea, or pain radiating to the arm, neck, or jaw, but does experience anxiety, agitation, and occasional confusion during episodes. Relevant history regarding past medical conditions, medications, or allergies is not specified.
+
+The clinical impression is that while the symptoms are not classic for myocardial infarction, they may be related to arrhythmia or another cardiac issue, particularly given the history of syncope. The treatment plan includes performing an ECG and blood work to evaluate for cardiac causes. The patient is advised to monitor for triggers and avoid them if possible, and to seek immediate care if severe chest pain, persistent shortness of breath, or further fainting occurs.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.573
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

@@ -96,3 +96,21 @@ For now, pacing yourself during activities, using your nitro as directed, and ke
 ## Processing Information
 
 - **Processing Time**: 458.9s
+
+## EHR Summary
+
+The patient is a 71-year-old man presenting with unstable angina. He reported a 15-year history of exertional angina characterized by bilateral shoulder and neck discomfort relieved by nitroglycerin, with recent episodes of nocturnal angina and new-onset lightheadedness. He denied any dyspnea. His medical history includes hypertension, hypercholesterolemia, benign prostatic hypertrophy, arthritis, and a prior left carotid endarterectomy; he has no known drug allergies. Cardiac catheterization revealed three-vessel coronary artery disease with significant occlusions and an ejection fraction of 51%. The documented diagnoses were three-vessel coronary artery disease status post coronary artery bypass grafting (CABG) times three, hypertension, hypercholesterolemia, benign prostatic hypertrophy, and arthritis. Treatment included CABG (LIMA to LAD, SVG to OM, SVG to diagonal), postoperative management, and discharge medications such as Pravachol, Lopressor, Prilosec, Ibuprofen, Percocet as needed, Colace, Lasix for 7 days, KCL for 7 days, and ASA. The patient was stable at discharge and instructed to follow up with his cardiologist in 6 weeks and his primary care provider within 1–7 weeks.
+
+
+## Dialogue Summary
+
+The patient is an adult with a history of angina presenting with chest pain as the chief complaint. The chest pain is described as moderate in intensity, triggered by exertion (such as walking up stairs), sometimes waking the patient at night, and is accompanied by discomfort in both shoulders and the neck, as well as occasional lightheadedness; symptoms are relieved by rest and use of a nitroglycerin patch. The episodes have been occurring for approximately 15 years and have not increased in frequency or severity recently. The patient denies associated shortness of breath or sweating during these episodes. Relevant history includes longstanding angina managed with a nitro patch. The clinical impression is stable angina, as symptoms are predictable, moderate, and responsive to usual management. The treatment plan includes continued use of nitroglycerin as directed, pacing activity, and regular follow-up with cardiology, with instructions to seek prompt care if symptoms change or worsen.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.633
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 152 words
+

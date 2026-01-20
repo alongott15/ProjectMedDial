@@ -89,16 +89,21 @@ If you have any questions about what to expect or how to care for it at
 
 ## EHR Summary
 
-The patient is a 67-year-old female presenting with ongoing drainage from her sternum. She has a history of aortic valve replacement and coronary artery bypass grafting with prior sternal dehiscence and bilateral pectoral flap repair, and previously required removal of an extruding suture and superficial pledgets for sternal wound drainage. Her past medical history includes congestive heart failure, cholelithiasis, headaches, osteoarthritis, uterine fibroids, psoriasis, and obesity; current medications are metoprolol, aspirin, lisinopril, furosemide, and Lipitor. On physical examination, she was obese with a well-healed sternum except for a 1 cm opening at the superior aspect, slight oropharyngeal erythema, clear lungs, regular heart rhythm, and mild bilateral pedal edema. The documented clinical impression is persistent sternal wound drainage following cardiac surgery. Treatment during this admission included wound evaluation and monitoring; specific interventions or procedures during this stay are not detailed in the note. She has no known drug or dietary allergies.
+The patient is a 67-year-old female presenting with ongoing drainage from her sternum. She reported persistent sternal wound drainage following prior aortic valve replacement, coronary artery bypass grafting, and pectoral flap repair, with a 1 cm opening at the superior aspect of the sternum and scant serosanguinous drainage noted on exam. Her past medical history includes congestive heart failure, obesity, cholelithiasis, osteoarthritis, uterine fibroids, psoriasis, and headaches; she takes metoprolol, aspirin, lisinopril, furosemide, and Lipitor, with no known drug allergies. The documented diagnosis was draining sinus status post cardiac surgery with sternal wound infection (Staphylococcus aureus identified). She underwent deep sternal exploration with removal of infected pledgets and was treated postoperatively with intravenous medications, then transitioned to oral Linezolid for two weeks. On discharge, her condition was stable with a JP drain in place and instructions for home nursing care. Follow-up was arranged with her surgeons for wound assessment and drain removal, as well as regular laboratory monitoring.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent drainage from the sternum area. The drainage was described as usually clear, occasionally yellow, and has been present for quite a while without significant change; there was no associated pain, tenderness, redness, swelling, fever, chills, or increased fatigue. The patient reported a history of heart surgery with valve replacement and bypass, and noted prior trouble healing in the sternum region, but denied any recent injuries. The drainage was mild, typically resulting in only a small spot on clothing and not interfering with daily activities. On assessment, the doctor noted the absence of systemic symptoms or local signs of infection and considered the possibility of a chronic sinus tract or non-healing wound related to the previous surgical site. The doctor recommended that the area be examined in person by a healthcare provider and suggested possible swab or imaging if indicated. Advice included keeping the area clean and dry, monitoring for new symptoms such as redness, swelling, pain, or fever, and reporting any changes.
+The patient is an adult presenting with persistent drainage from the sternum. The drainage is described as clear to slightly yellow, has been present for an extended period, and remains stable without associated pain, redness, swelling, or systemic symptoms such as fever or fatigue. The patient reports a history of heart surgery with valve replacement and bypass, as well as prior difficulty healing at the surgical site; there are no recent injuries. The drainage is mild, only causing a small spot on clothing and not interfering with daily activities. The clinical impression is that the drainage may be due to a chronic opening or sinus tract at the old surgical site, with no signs of active infection. The physician recommends in-person evaluation by a healthcare provider to rule out underlying issues such as a non-healing wound or localized infection. The patient is advised to keep the area clean and dry, monitor for new symptoms (such as redness, swelling, pain, or fever), and seek further care if changes occur. No medications or specific interventions were prescribed at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.702
+- **Model Used**: general
+- **Text1 Length**: 158 words
+- **Text2 Length**: 178 words
+
 
 ## Processing Information
 

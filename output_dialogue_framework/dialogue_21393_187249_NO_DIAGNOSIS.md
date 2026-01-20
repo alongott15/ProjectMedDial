@@ -83,16 +83,21 @@ If you're unsure about your screening schedule, we can review what you've had re
 
 ## EHR Summary
 
-The patient is a 71-year-old man presenting with a chief complaint of two weeks of weakness, decreased appetite, and nausea and vomiting. Symptoms were accompanied by severe dehydration and evidence of partial small bowel obstruction, as demonstrated by CT scan and barium study. Relevant history includes bladder cancer status post resection with ileal conduit, gout, chronic renal insufficiency (baseline creatinine 2.5), hypertension, alcohol abuse, psoriasis, a large parastomal hernia, and obesity. On admission, physical exam revealed fever (temperature 102.8°F), tachycardia with atrial fibrillation (heart rate 135), hypotension (blood pressure 97/49), and mild hypoxia (O2 saturation 96% on 2L nasal cannula). The documented diagnoses included acute renal failure (creatinine 4.8), atrial fibrillation with rapid ventricular response, small bowel obstruction, and possible ischemic or infarcted bowel related to the parastomal hernia. Treatment included intravenous antibiotics (Unasyn, Ceftriaxone, Flagyl), dopamine drip for blood pressure support, Digoxin for arrhythmia, thiamine supplementation, and continuation of antihypertensive medications. The patient was admitted to the ICU for further management of these acute issues.
+The patient is a 71-year-old man presenting with a two-week history of weakness, decreased appetite, and nausea and vomiting. He was found to have severe dehydration, acute renal failure (creatinine up to 4.8), paroxysmal atrial fibrillation with rapid ventricular response, and a partial small bowel obstruction related to an incarcerated parastomal hernia. His past medical history includes bladder cancer (status post ileal conduit), gout, chronic renal insufficiency, hypertension, alcohol abuse, psoriasis, and obesity. On admission, he was febrile (102.8°F), tachycardic (HR 135), hypotensive (BP 97/49), and ill-appearing; laboratory findings showed leukocytosis and electrolyte abnormalities. The documented diagnoses were status post parastomal hernia repair, partial small bowel obstruction, acute renal failure, paroxysmal atrial fibrillation, adrenal insufficiency, extreme weakness, and deconditioning. Treatment included exploratory laparotomy with hernia repair, ICU care with vasopressors and intubation, antibiotics (Levaquin, Flagyl, Vancomycin), amiodarone for atrial fibrillation, steroid taper for adrenal insufficiency, nutritional support, and intensive physical rehabilitation. At discharge, the patient was stable on oral medications and scheduled for follow-up with primary care and endocrinology.
+
 
 ## Dialogue Summary
 
-The patient presented for a routine check-in without any specific chief complaint. They reported no symptoms, including no changes in energy, sleep, appetite, physical activity, diet, or daily habits, and denied recent minor issues such as cough, sore throat, headaches, mild aches, stiffness, tingling, changes in balance, or skin changes like rashes, dryness, or itching. No relevant medical history, medications, or allergies were discussed during the visit. The doctor noted that the patient appeared stable with no new symptoms or physical findings described. The assessment was that the patient’s overall health appears positive and stable, with no current concerns identified. The doctor recommended maintaining regular check-ups and emphasized the importance of routine screenings (blood pressure, cholesterol, diabetes screening) and vaccinations for preventive care. The doctor offered to review the patient’s screening and vaccination status and advised reporting any new symptoms or concerns promptly. The patient expressed understanding and interest in reviewing recommended screenings and vaccines.
+The patient presented for a routine check-up without any specific chief complaint. They denied experiencing any symptoms, including changes in energy, sleep, appetite, physical activity, diet, minor illnesses (such as cough, sore throat, headaches, or aches), new sensations (such as stiffness or tingling), or skin changes. No relevant medical history, medication concerns, or allergies were discussed during the visit. The clinical impression was that the patient is currently asymptomatic and stable. No new diagnosis was documented. The treatment plan focused on preventive care, with the doctor recommending review and possible updating of routine screenings (such as blood pressure, cholesterol, diabetes screening) and vaccinations. The patient expressed interest in discussing which screenings or vaccines might be needed. The doctor advised maintaining regular check-ups and to report any new symptoms if they arise.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.935
-- **Similarity Label**: N/A
+- **STS Score**: 0.458
+- **Model Used**: general
+- **Text1 Length**: 169 words
+- **Text2 Length**: 131 words
+
 
 ## Processing Information
 

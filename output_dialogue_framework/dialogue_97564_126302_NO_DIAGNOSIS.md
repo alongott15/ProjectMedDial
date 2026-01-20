@@ -99,16 +99,21 @@ Let me know if you have any questions about the process or if there's anything e
 
 ## EHR Summary
 
-The patient is a 78-year-old female presenting with angina and dyspnea on exertion. She reports recent onset of chest pain associated with shortness of breath during activity. Her medical history is significant for coronary artery disease with prior coronary artery bypass grafting (CABG) in 2165, peripheral vascular disease with multiple interventions, aortic stenosis, chronic anemia, gastrointestinal bleeding, hemolytic anemia, homocystinemia, and carotid stenosis. Physical exam revealed a loud blowing systolic murmur, clear lungs, and well-healed surgical incisions. During this admission, she underwent endoscopic cauterization of angioectasia in the lesser curvature of the stomach for gastrointestinal bleeding. The documented diagnosis includes angina and dyspnea on exertion in the context of significant cardiovascular disease. Treatment included the endoscopic procedure and ongoing monitoring; specific medication changes or additional recommendations are not detailed in the note.
+The patient is a 78-year-old female presenting with angina and dyspnea on exertion. She reported recent chest pain associated with shortness of breath during activity. Her medical history is significant for coronary artery disease with prior coronary artery bypass grafting, peripheral vascular disease, aortic stenosis, chronic anemia, and gastrointestinal bleeding. During this admission, she was scheduled for aortic valve replacement and repeat coronary artery bypass grafting, but the procedure was cancelled after induction of anesthesia due to an upper gastrointestinal bleed; endoscopy revealed angiotasia in the lesser curvature of the stomach, which was successfully cauterized. The documented diagnoses were status post endoscopic cauterization of gastric angiotasia and preoperative status for redo sternotomy with AVR/CABG. She was discharged in good condition with instructions for weekly hematocrit checks for two weeks and to withhold Plavix and digoxin. If hematocrit remains stable, surgery is planned for a later date. Discharge medications included amlodipine, aspirin, isosorbide mononitrate, pantoprazole, ferrous sulfate, simvastatin, metoprolol, and insulin.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest discomfort was described as a pressure or tightness that occurs mainly with exertion, such as walking, climbing stairs, doing chores, or shopping, and is accompanied by shortness of breath during these activities; symptoms have gradually worsened over time and improve with rest. The patient denied swelling in the legs or ankles, difficulty lying flat at night, lightheadedness, sweating, or palpitations. No relevant medical history, medications, or allergies were mentioned. On clinical review, there were no signs of acute distress or concerning associated symptoms. The doctor assessed the symptoms as consistent with exertional angina, likely due to reduced oxygen supply to the heart during activity, and noted the absence of emergency features. The treatment plan included arranging an EKG and possibly a stress test within one to two weeks to further evaluate cardiac function, advising the patient to pace activities and avoid exertion that provokes symptoms, and to seek urgent care if chest pain occurs at rest or if new symptoms develop.
+The patient presents with chest pain as the chief complaint. The chest discomfort is described as a pressure or tightness that occurs primarily with exertion (such as walking, climbing stairs, or doing chores), lasts a few minutes, and resolves with rest; it is accompanied by exertional shortness of breath but not by lightheadedness, sweating, palpitations, or symptoms at rest. The symptoms have been gradually worsening over time and are now limiting daily activities. There is no reported leg swelling or orthopnea. The documented clinical impression is exertional angina, likely due to insufficient oxygen supply to the heart muscle during activity, possibly from narrowed coronary arteries. The treatment plan includes arranging further cardiac evaluation with an EKG and possibly a stress test within one to two weeks. The patient was advised to avoid overexertion, take breaks as needed, and seek urgent care if symptoms occur at rest or if new concerning symptoms develop. No acute intervention was deemed necessary at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.582
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

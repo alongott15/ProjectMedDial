@@ -87,16 +87,21 @@ Is there anything else on your mind about your health that you’d like to discu
 
 ## EHR Summary
 
-The patient is a 71-year-old man presenting for carotid catheterization due to severe right internal carotid artery (ICA) stenosis. He reported no vision changes, paresthesias, chest pain, shortness of breath, dizziness, nausea, vomiting, pain, or focal neurological symptoms. His medical history includes hypercholesterolemia, peripheral vascular disease, and prior mastoid surgery; he denied hypertension, coronary artery disease, transient ischemic attack, or cerebrovascular accident. Recent imaging showed a 95% right ICA lesion with no significant left-sided stenosis. On examination, there were no documented abnormal clinical findings or neurological deficits. The documented diagnosis was severe right ICA stenosis (95%). Treatment included placement of a stent in the right internal carotid artery with 20% residual stenosis and transfer to the coronary care unit for monitoring. Home medications included aspirin, Plavix, lorazepam, Lipitor, vitamin C, vitamin E, and DHEA.
+The patient is a 71-year-old man presenting for elective right internal carotid artery stent placement due to severe carotid artery disease. He reported no symptoms such as vision changes, paresthesias, chest pain, shortness of breath, dizziness, or neurological deficits prior to or during admission. His relevant history includes hypercholesterolemia, peripheral vascular disease, and a remote history of mastoid surgery; he is on aspirin, Plavix, and Lipitor at home. Physical examination was notable for a right carotid bruit but otherwise unremarkable, and laboratory data were within normal limits. The documented diagnosis was severe right internal carotid artery stenosis (95%) status post stent placement with 20% residual stenosis. Treatment included continuation of aspirin and Plavix for nine months, Lipitor, blood pressure monitoring, and neurological checks every four hours post-procedure. He was monitored on telemetry without complications and discharged in stable condition. Follow-up was arranged for blood pressure monitoring and stent assessment in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented for a general health check-in without any specific complaints. They reported no changes in energy levels, sleep, appetite, or mood, and denied recent colds, coughs, headaches, chest discomfort, palpitations, shortness of breath, joint or muscle aches, stiffness, or swelling. The patient stated they have been able to maintain their usual physical activities and routines without difficulty and have not experienced any changes in balance, falls, or stumbles. They confirmed staying up to date with routine screenings such as blood pressure and cholesterol checks. No relevant medical history, medications, or allergies were mentioned during the visit. The doctor found no concerning clinical findings based on the patient's responses. The assessment was that the patient is in good health overall with no new symptoms or warning signs at this time. The doctor recommended continuing regular preventive screenings, maintaining activity levels, and monitoring for any new symptoms, advising the patient to check in if any changes occur.
+The patient presented for a routine health check without any specific chief complaint. They reported no recent changes in energy, sleep, appetite, or mood, and denied symptoms such as colds, coughs, headaches, chest discomfort, palpitations, shortness of breath, joint or muscle aches, stiffness, or swelling. The patient has maintained their usual physical activities without difficulty and is up to date with routine preventive screenings such as blood pressure and cholesterol checks. There is no relevant medical history, medication use, or allergies documented in this encounter. The clinical assessment was that the patient is in good health with no new symptoms or concerning findings. The physician did not document a specific diagnosis. The treatment plan included continuing regular preventive screenings, maintaining current activity levels, and monitoring for any new symptoms. The patient was advised to report any changes in health promptly.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.932
-- **Similarity Label**: N/A
+- **STS Score**: 0.407
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 140 words
+
 
 ## Processing Information
 

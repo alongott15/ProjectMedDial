@@ -87,16 +87,23 @@ For now, try to keep track of when these episodes happen and any patterns you no
 
 ## EHR Summary
 
-The clinical note does not specify a chief complaint or presenting symptoms. There are no documented details regarding the patient's symptoms, relevant medical history, physical exam findings, or test results. No diagnosis is provided in the available text. The treatment plan and any recommendations are also not specified. Therefore, no further summary can be provided based on the information given.
+The clinical note does not specify a chief complaint or describe any symptoms. There is no documentation of relevant medical history, diagnosis, or assessment in the provided text. No treatment plan, medications, or recommendations are mentioned. Therefore, key clinical details for summary are not available in this note.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble breathing and intermittent chest pressure. Symptoms included shortness of breath both at rest and with activity (worse on exertion), chest pressure that comes and goes throughout the day, episodes sometimes intense enough to require stopping activity, associated sweating during chest tightness, and occasional agitation; the patient denied fainting, lightheadedness, or nighttime symptoms, and noted no clear triggers related to meals, position, or weather. The patient also mentioned sometimes coughing up sputum. No relevant medical history, medications, or allergies were discussed. On review, there were no positional changes in symptoms and no reports of pain radiating to the arm or jaw. The doctor assessed that the symptoms could be cardiac (such as angina), pulmonary, or possibly stress-related, but emphasized the need for further evaluation due to their intensity and impact on daily activities. The doctor recommended prompt follow-up with a healthcare provider for thorough assessment and advised monitoring for warning signs such as severe or persistent chest pressure, fainting, nausea, or radiating pain. The patient was instructed to keep track of symptom episodes and avoid strenuous activity until evaluated further.
+The patient presents with the chief complaint of chest pressure and difficulty breathing. Symptoms include intermittent chest pressure described as a non-sharp sensation that comes and goes throughout the day, shortness of breath that is worse with exertion but also present at rest, and episodes sometimes associated with sweating; symptoms are not affected by position or meals and can become intense enough to require stopping activity. The patient denies fainting or lightheadedness and reports no nighttime symptoms; stress may be a possible contributing factor, and occasional cough with sputum was mentioned. Relevant medical history, medications, and allergies are not specified.
+
+The clinical impression is that the symptoms could be related to cardiac causes such as angina, pulmonary issues, or possibly stress, but no definitive diagnosis is documented. The treatment plan includes a recommendation for prompt evaluation by a healthcare provider for further assessment. The patient was advised to monitor symptom patterns, avoid strenuous activity until evaluated, and seek urgent care if severe or new symptoms develop (such as prolonged chest pressure at rest, fainting, nausea, or radiating pain). Stress management was also discussed as a consideration while awaiting follow-up.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.912
-- **Similarity Label**: N/A
+- **STS Score**: 0.463
+- **Model Used**: general
+- **Text1 Length**: 48 words
+- **Text2 Length**: 189 words
+
 
 ## Processing Information
 

@@ -67,16 +67,21 @@
 
 ## EHR Summary
 
-The patient is a 71-year-old man presenting with unstable angina. He reports a 15-year history of exertional angina characterized by bilateral shoulder and neck discomfort relieved by nitroglycerin, with recent episodes of nocturnal angina and new-onset lightheadedness. He denies dyspnea. His history is significant for hypertension, hypercholesterolemia, arthritis, BPH, and a family history of coronary artery disease; prior cardiac catheterization showed OM1 80% occlusion, total RCA occlusion, EF 45-50%, and inferior wall hypokinesis. Physical examination revealed stable vital signs, a left carotid endarterectomy scar, regular heart rhythm without murmurs, clear lungs, and no edema. The documented diagnosis is unstable angina. On admission, his medications included Pravachol, Atenolol, Prilosec, Nitro patch, and Ibuprofen. The treatment plan is not specified in the note.
+The patient is a 71-year-old man presenting with unstable angina. He reported a 15-year history of exertional angina characterized by bilateral shoulder and neck discomfort relieved by nitroglycerin, with recent episodes of nocturnal angina and new-onset lightheadedness. He denied any dyspnea. His medical history includes hypertension, hypercholesterolemia, benign prostatic hypertrophy, arthritis, and a prior left carotid endarterectomy; he has no known drug allergies. Cardiac catheterization revealed three-vessel coronary artery disease with significant occlusions and an ejection fraction of 51%. The documented diagnoses were three-vessel coronary artery disease status post coronary artery bypass grafting (CABG) times three, hypertension, hypercholesterolemia, benign prostatic hypertrophy, and arthritis. Treatment included CABG (LIMA to LAD, SVG to OM, SVG to diagonal), postoperative management, and discharge medications such as Pravachol, Lopressor, Prilosec, Ibuprofen, Percocet, Colace, Lasix, KCL, and ASA. The patient was stable at discharge and advised to follow up with his cardiologist in six weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain occurring during physical activity such as walking, climbing stairs, and during an exercise stress test. The chest pain has been associated with increased frequency recently, though the patient has a 15-year history of angina. Additional symptoms include discomfort in both shoulders and neck during exertion, as well as lightheadedness during angina episodes; the patient denied significant sweating or shortness of breath. The patient reported that resting helps alleviate symptoms, but sometimes requires use of a nitro patch for additional relief, particularly when symptoms occur at night. No new medications, allergies, or other medical history were discussed beyond angina and nitro patch use. The doctor acknowledged the increased frequency of angina and associated symptoms. No specific new assessment or diagnosis was stated, and no additional treatment recommendations were provided during the conversation.
+The patient is an adult with a longstanding history of angina presenting with increased chest pain during physical activity. The chest pain occurs with exertion such as walking, climbing stairs, and during an exercise stress test, and is now more frequent than in the past. Associated symptoms include discomfort in both shoulders and neck during exertion, as well as lightheadedness during angina episodes; the patient denies significant sweating or dyspnea. The symptoms are typically relieved by rest, but sometimes require the use of a nitroglycerin patch, especially if the pain occurs at night. The patient reports anxiety related to these symptoms. The clinical impression is consistent with worsening angina. The current management includes rest and nitroglycerin patch for symptom relief. No new medications or interventions were documented in this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.600
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 130 words
+
 
 ## Processing Information
 

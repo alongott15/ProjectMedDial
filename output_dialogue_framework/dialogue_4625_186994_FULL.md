@@ -85,16 +85,23 @@ Does that plan sound reasonable to you? Is there anything else about your energy
 
 ## EHR Summary
 
-The patient is a 66-year-old male presenting with increased fatigue over the past two years. He also reported weight gain during this period. His medical history is significant for cardiomyopathy, ascending aortic aneurysm, coronary artery disease, prior LAD stent placement, acute myocardial infarction, hypertension, elevated cholesterol, and atrial fibrillation status post cardioversion. Physical exam on admission was notable for a protuberant but non-tender abdomen and an oxygen saturation of 93% on room air; laboratory results showed mild anemia and elevated creatinine and BUN. Imaging revealed progressive enlargement of the ascending aorta to 5.7 cm at the level of the coronary ostia. The documented diagnosis was ascending aortic aneurysm with underlying cardiomyopathy and coronary artery disease. The patient underwent a Bentall procedure for surgical repair of the aorta. Postoperative care and monitoring were provided during the hospital stay.
+The patient is a 66-year-old male presenting with increased fatigue over the past two years. He reported associated weight gain and has a history of cardiomyopathy, ascending aortic aneurysm, coronary artery disease with prior LAD stent, hypertension, atrial fibrillation, and prior myocardial infarction. Imaging revealed progressive enlargement of the ascending aorta to 5.7 cm, prompting referral for surgical intervention. The documented diagnosis includes status post Bentall procedure, CAD with LAD stent, obesity, prior AMI, elevated cholesterol, hypertension, cardiomyopathy, and atrial fibrillation. During hospitalization, he underwent a Bentall procedure and experienced postoperative atrial fibrillation managed with anticoagulation (heparin bridge to coumadin), beta-blockade, diltiazem, and amiodarone. He also developed transient renal dysfunction and fluid overload, managed with diuretics and natrecor. At discharge, he was stable and transferred to extended care with instructions for wound care, activity restrictions, and follow-up for INR monitoring and surgical review.
+
 
 ## Dialogue Summary
 
-The patient presented with increased tiredness persisting for at least a couple of years. Symptoms include fatigue that makes daily activities more difficult, gradual weight gain over the same period, and wheezing when breathing out, primarily during activity; the tiredness does not improve with rest or sleep, and appetite has remained unchanged. The patient denied swelling in the legs or ankles, new aches or pains, and noted no shortness of breath at rest. No relevant medical history, medications, or allergies were mentioned. On review, the doctor noted the absence of swelling and new pain as reassuring signs against serious heart or kidney issues. The assessment included possible connections between fatigue, weight gain, and activity-related wheezing, with consideration of sleep quality, lung function, metabolism, thyroid function, and mild sleep issues as potential contributors. The doctor recommended basic investigations including thyroid function tests, blood count, and possibly lung function testing, advised pacing activities, monitoring for new symptoms, and seeking prompt care if chest pain, significant shortness of breath at rest, or swelling develops.
+The patient is an adult presenting with the chief complaint of persistent fatigue. The tiredness has been ongoing for at least a couple of years, is not relieved by rest or sleep, and has progressively made daily activities more difficult. Additional symptoms include gradual weight gain over this period and exertional wheezing, particularly on exhalation, without associated swelling, new aches, or pains. The patient's appetite has remained stable.
+
+There is no documented history of other medical conditions, medications, or allergies in the dialogue. The clinical impression is that the combination of persistent fatigue, weight gain, and exertional wheezing may be related to sleep quality, lung function, metabolic issues (such as thyroid dysfunction), or less likely, cardiac causes. The treatment plan includes ordering basic laboratory tests (thyroid function and blood count) and possibly lung function testing to further evaluate the symptoms. The patient was advised to pace activities, monitor for new or worsening symptoms (such as chest pain, significant dyspnea at rest, or swelling), and report any concerning changes promptly.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.943
-- **Similarity Label**: N/A
+- **STS Score**: 0.408
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

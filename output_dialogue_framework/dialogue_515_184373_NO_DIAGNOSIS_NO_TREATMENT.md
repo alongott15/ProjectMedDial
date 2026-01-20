@@ -87,16 +87,21 @@ Let me know if you’ve noticed any changes in your bowel habits—like constipa
 
 ## EHR Summary
 
-The patient is a 67-year-old male presenting with right-sided heart failure and evaluation for possible mitral valve replacement. He reported nausea, vomiting, and increasing abdominal girth prior to admission, and was found to have hypotension, likely due to overdiuresis. His medical history is significant for prior CABG x3, mitral valve repair, reduced ejection fraction (30-40%), mitral and tricuspid regurgitation, atrial and ventricular dilation, ventricular tachycardia arrest with AICD placement, sick sinus syndrome with pacemaker, pulmonary and systemic hypertension, chronic atrial fibrillation, and chronic renal failure. On exam and imaging, he had abdominal ascites (750 cc transudative fluid removed by paracentesis), markedly dilated right atrium and ventricle, severely depressed left ventricular function, and significant mitral (3+) and tricuspid (4+) regurgitation on echocardiography. Workup for hepatic causes of ascites was negative. The documented assessment was right-sided heart failure with severe valvular disease. Treatment included IV fluids, blood transfusion, brief vasopressor support, paracentesis, and cardiac surgery consultation for possible mitral valve replacement; he was also cleared for surgery by dental evaluation.
+The patient is a 67-year-old male presenting with right-sided heart failure and evaluation for possible mitral valve replacement. He reported nausea, vomiting, and increasing abdominal girth, with findings of hypotension (possibly due to overdiuresis), marked lower extremity edema, jugular venous distension, and crackles in the lower lung fields. His history is significant for multiple cardiac surgeries (CABG x3, mitral valve repair), chronic atrial fibrillation, pulmonary hypertension, chronic renal failure, and prior pacemaker and AICD placement; he is allergic to quinidine. Imaging and cardiac catheterization revealed severe mitral and tricuspid regurgitation, markedly dilated right and left atria and right ventricle, severely depressed left ventricular function, elevated filling pressures, and ascites with negative liver workup. The documented clinical impression is decompensated right-sided heart failure with severe valvular disease. Treatment included aggressive diuresis (Lasix drip), milrinone infusion, continuation of beta blocker, ACE inhibitor, Aldactone, and Zaroxolyn, with anticoagulation held in anticipation of surgery. The patient was being optimized for potential mitral valve replacement, with surgical evaluation ongoing at the time of dictation.
+
 
 ## Dialogue Summary
 
-The patient presented with abdominal discomfort as the chief complaint. Symptoms included a dull ache in the abdomen for several days, associated with vomiting, new abdominal fullness and bloating, and a noticeable increase in abdominal size causing tighter clothes; the discomfort was described as a mild annoyance without cramping, stabbing pain, or significant impact on daily activities. The patient denied changes in appetite, bowel habits, leg swelling, or unintentional weight loss. Relevant history included high blood pressure, with no known liver problems. On clinical review, the doctor noted abdominal swelling and fullness with mild symptoms but no severe pain or alarming features. The assessment included consideration of possible fluid buildup in the abdomen due to various causes, with reassurance given based on the absence of severe symptoms. The doctor advised monitoring for worsening symptoms such as jaundice, persistent vomiting, fever, or shortness of breath, and recommended gentle movement, hydration, and ongoing observation for any new changes.
+The patient is an adult presenting with abdominal discomfort as the chief complaint. The discomfort has been present for several days, described as a dull ache with associated vomiting and new abdominal fullness or bloating; the patient also reports that their clothes feel tighter around the waist and that their abdominal size appears increased. There is no history of liver disease, but the patient does have a history of high blood pressure. The patient denies changes in bowel habits or unintentional weight loss and reports no leg swelling. The clinical impression is that the symptoms may be due to fluid accumulation or digestive changes, with consideration of possible liver or cardiac causes given the history and presentation. No definitive diagnosis was documented during the encounter. The treatment plan includes monitoring for worsening symptoms (such as jaundice, severe pain, persistent vomiting, fever, or shortness of breath), maintaining hydration, gentle activity, and seeking care if concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.934
-- **Similarity Label**: N/A
+- **STS Score**: 0.422
+- **Model Used**: general
+- **Text1 Length**: 169 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

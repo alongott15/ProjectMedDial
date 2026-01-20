@@ -87,16 +87,23 @@ If you experience any worsening symptoms—like severe confusion, loss of consci
 
 ## EHR Summary
 
-The patient is a 76-year-old female presenting with decreased mental status, decreased motor skills, and decreased communication following a recent history of subdural hematoma. She experienced worsening mental status and headache after initial management, requiring operative drainage of the hematoma. Her past medical history includes hypertension, and she has allergies to erythromycin and penicillin. On examination, she was afebrile, hypertensive, slow to respond, and had right-sided weakness. The documented diagnosis was recurrent subdural hematoma with associated neurological deficits. Treatment included bedside drainage of the subdural hematoma via frontal burr hole, followed by monitoring and supportive care. After complete evacuation of the hematoma was confirmed by head CT, she improved clinically and was discharged home with medications including verapamil, hydrochlorothiazide, Lipitor, Percocet as needed, and Colace. She was found to be safe for discharge after evaluation by physical and occupational therapy.
+The patient is a 76-year-old woman presenting with decreased mental status, decreased motor skills, and decreased communication following a recent history of subdural hematoma. She experienced mental status changes and headache after an initial subdural hematoma drainage, prompting readmission. Her past medical history includes hypertension, and she has allergies to erythromycin and penicillin. On examination, she was awake but slow to respond, with right-sided weakness. The documented diagnosis was recurrent subdural hematoma. Treatment included bedside drainage of the subdural hematoma via frontal burr hole, which resulted in complete evacuation as confirmed by repeat head CT. She was discharged in stable condition with instructions to follow up in one month with a repeat head CT scan. Discharge medications included verapamil, hydrochlorothiazide, Lipitor, Percocet as needed, and Colace.
+
 
 ## Dialogue Summary
 
-The patient presented with changes in mental state and headache. Symptoms included increased forgetfulness, feeling "not quite myself" for a few days, right-sided weakness making dressing and moving around more difficult, trouble communicating, a headache rated 6/10 that improves somewhat with rest but does not fully resolve, increased confusion and decreased alertness, and greater difficulty managing daily activities. The patient denied vision changes but reported that family members have noticed these changes and are concerned about safety at home. No specific past medical history, medications, or allergies were mentioned. On assessment, the doctor noted new memory difficulties, communication problems, and right-sided weakness affecting independence, with family corroboration of these changes. The doctor explained that while some symptoms could have benign causes, the combination of new neurological deficits raises concern for serious conditions such as stroke, medication effects, infection, or metabolic changes. The doctor strongly recommended prompt evaluation in an urgent care or emergency setting for further testing and advised the patient not to be alone at home and to avoid fall risks. The patient agreed to seek immediate evaluation with family assistance.
+The patient presents with changes in mental state and headache as the chief complaint. Over the past few days, they have experienced increased forgetfulness, difficulty with communication, and new right-sided weakness, making daily activities such as dressing and moving around more challenging. The headache is rated 6 out of 10 in severity and is partially relieved by rest but persists. The patient also reports increased confusion and decreased alertness, with family members expressing concern for their safety at home. There is no mention of visual changes, but the patient requires more assistance with daily tasks.
+
+No specific diagnosis was documented, but the physician expressed concern for possible serious causes such as stroke, medication effects, infection, or metabolic changes. The treatment plan includes urgent evaluation in an emergency or urgent care setting for further testing to rule out acute causes, with instructions to avoid being alone and to seek immediate help if symptoms worsen. The patient agreed to seek prompt medical attention with family support.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.526
+- **Model Used**: general
+- **Text1 Length**: 126 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

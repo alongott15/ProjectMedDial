@@ -98,3 +98,23 @@ Let me know if you have any questions or if anything changes.
 ## Processing Information
 
 - **Processing Time**: 248.7s
+
+## EHR Summary
+
+The patient is a 40-year-old male presenting with an anaphylactic reaction. He developed a pruritic rash after starting Bactrim prophylaxis, followed by nausea, myalgias, palpitations, and headache after taking an additional dose. His past medical history includes HIV (diagnosed in 2146, last CD4 164, viral load >100,000, no history of opportunistic infections), nephrolithiasis, and Crohn's disease; he is allergic to Bactrim. In the emergency department, he was hypotensive and treated with diphenhydramine, ranitidine, steroids, fluids, and phenylephrine, with rapid improvement. The documented diagnosis was Bactrim anaphylaxis. He was discharged home on a 5-day prednisone taper, with prescriptions for diphenhydramine and an epinephrine pen as needed, and started on dapsone for PCP prophylaxis. He was advised to follow up with his physician within one week and to use diphenhydramine and epinephrine if symptoms recur.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with a chief complaint of a severe, itchy rash. The rash began on the face earlier today and quickly spread to the chest, accompanied by severe itchiness, muscle aches, nausea, mild breathing difficulty, and recent onset of palpitations and headaches. The patient denies any swelling of the lips, tongue, or periorbital area and has not identified any specific triggers or tried any treatments prior to the visit. The symptoms have significantly impacted daily activities and concentration.
+
+The clinical impression was that the patient is experiencing a sudden, severe rash with associated systemic symptoms, possibly related to an allergic reaction or another common skin condition. The absence of angioedema is reassuring, but the presence of breathing difficulty is noted as a concern. The treatment plan includes use of an over-the-counter antihistamine for itching and cool compresses for relief, with instructions to monitor for worsening symptoms—especially increased breathing difficulty or swelling—and to seek prompt medical attention if these occur. The patient was advised to avoid potential triggers and report any changes in symptoms.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.490
+- **Model Used**: general
+- **Text1 Length**: 133 words
+- **Text2 Length**: 177 words
+

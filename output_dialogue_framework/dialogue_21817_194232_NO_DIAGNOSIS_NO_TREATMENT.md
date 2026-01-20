@@ -87,16 +87,21 @@ If you have questions about managing this or want to discuss it further, I'm hap
 
 ## EHR Summary
 
-The patient is a 71-year-old female presenting with dyspnea on exertion and shortness of breath. She reported increased lower extremity swelling and orthopnea since 10-15, and was found to be hypoxic in the Emergency Department with an oxygen saturation of 87% on 6 liters of oxygen. She denied fevers, chills, chest pain, or gastrointestinal bleeding. Her relevant history includes methicillin-resistant Staphylococcus aureus pneumonia, bilateral pneumonia with chest tube placement and decortication, congestive heart failure with an ejection fraction of 40% and wall motion abnormalities, chronic obstructive pulmonary disease, C. difficile infection, gastrointestinal bleed, and acute renal failure. On exam, she was hypoxic and had lower extremity edema. The documented clinical impression suggests an exacerbation of heart failure and/or underlying pulmonary disease contributing to her symptoms. Treatment details are not specified in the provided note.
+The patient is a 71-year-old female presenting with dyspnea on exertion, shortness of breath, hypoxia, and lower extremity swelling. Symptoms began on 10-15 and included orthopnea, with no fevers, chills, chest pain, or gastrointestinal bleeding; oxygen saturation was 87% on 6 liters of oxygen upon arrival. Her history is significant for congestive heart failure (ejection fraction 40%), chronic obstructive pulmonary disease, prior MRSA pneumonia, bilateral pneumonia with chest tube placement, C. difficile infection, peptic ulcer disease, and acute renal failure. On admission, she was found to have volume overload/congestive heart failure with a large left pleural effusion (transudative) and a small left apical pneumothorax; there was no evidence of pneumonia. The documented diagnoses were acute decompensated congestive heart failure with pleural effusion and acute on chronic renal failure. Treatment included thoracentesis, BiPAP, intravenous then oral diuresis (Lasix), continuation of ACE inhibitor and aspirin, adjustment of insulin regimen for diabetes, and thyroid hormone titration. She was discharged on a low sodium, low fat, low sugar diet with fluid restriction, daily weights, and instructions for outpatient follow-up of TSH and adrenal masses.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent mild mouth dryness as the chief complaint. The dryness has been ongoing for at least a couple of weeks, is present most of the time throughout the day, and causes the patient to sip water more often, though it does not interfere with eating or speaking and is not accompanied by soreness, changes in taste, or difficulty swallowing. The patient denied starting any new medications, recent changes in medical conditions, shortness of breath, cough, chest discomfort, or increased fatigue. The patient reported that during their last check-up, a doctor noted decreased breath sounds at the bases, but they have not noticed any related symptoms. On assessment, the doctor noted that mild, persistent mouth dryness without other major symptoms is often seen with normal aging or may be related to hydration needs, and that the decreased breath sounds do not appear related to the current complaint. The doctor recommended continuing regular water intake and trying sugar-free lozenges to stimulate saliva. The patient was advised to monitor for worsening dryness or new symptoms such as mouth sores or persistent cough and to contact their healthcare provider if these occur.
+The patient is an adult presenting with the chief complaint of mild, persistent mouth dryness (xerostomia) for at least a couple of weeks. The dryness is present most of the time, does not worsen at specific times of day, and is not associated with changes in taste, difficulty swallowing, or oral soreness. The patient reports increased water intake but no interference with eating or speaking. There have been no recent changes in medications or medical conditions, and no associated respiratory symptoms such as dyspnea, cough, or chest discomfort. Relevant history includes decreased breath sounds at the lung bases noted during a previous check-up, but the patient denies fatigue or reduced activity tolerance. The clinical impression is that the mild mouth dryness is likely benign and not related to the prior finding of decreased breath sounds. The treatment plan includes regular sipping of water and use of sugar-free lozenges to stimulate saliva, with instructions to monitor for worsening symptoms or new issues such as mouth sores or persistent cough. The patient was reassured and advised to maintain good oral hydration.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.932
-- **Similarity Label**: N/A
+- **STS Score**: 0.299
+- **Model Used**: general
+- **Text1 Length**: 180 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

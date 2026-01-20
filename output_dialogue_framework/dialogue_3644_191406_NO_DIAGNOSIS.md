@@ -91,16 +91,23 @@ For now, focusing on gentle activity and regular rest is wise. If this continues
 
 ## EHR Summary
 
-The patient is a 54-year-old female presenting with hypercarbia. She experienced hypercarbic respiratory failure of unknown etiology, with an arterial blood gas prior to intubation showing pH 7.25, PCO2 72, and PO2 53. She has a history of congestive heart failure, coronary artery disease status post CABG, chronic low back pain, myoclonus, hyperlipidemia, GERD, anxiety disorder, depression, and COPD, and is a chronic smoker. The patient has had more than five similar episodes in the past year, often associated with chronic use of narcotics and benzodiazepines for pain and anxiety. On exam, she was noted to have decreased respiratory rate and oxygen saturation in the context of her medication use. The documented clinical impression was hypercarbic respiratory failure likely secondary to overmedication with narcotics and benzodiazepines. She was closely monitored in the ICU and successfully extubated the day after admission. The treatment plan included discontinuation or adjustment of sedating medications and supportive care.
+The patient is a 54-year-old female presenting with hypercarbia. She experienced hypercarbic respiratory failure, with an arterial blood gas showing pH 7.25, PCO2 72, and PO2 53 prior to intubation, and had a decreased respiratory rate and oxygen saturation associated with chronic use of narcotics and benzodiazepines for pain management. Her medical history includes congestive heart failure, coronary artery disease status post CABG, chronic low back pain, myoclonus, hyperlipidemia, GERD, anxiety disorder, depression, and COPD; she is also an avid smoker and allergic to tape. The documented diagnosis was hypercarbic respiratory failure of unknown etiology, suspected to be secondary to overmedication with sedating pain medications. She was monitored in the ICU, extubated the day after admission, and counseled extensively regarding medication risks. The patient left the hospital against medical advice without changes to her medication regimen and was advised to follow up urgently with her primary care and pain management physicians. Outpatient pulmonary function testing was offered if she wished.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about elevated carbon dioxide levels. They reported slowed breathing, occasional feelings of not getting enough air, increased anxiety and agitation with activity, and lower energy throughout the day; these symptoms have been stable without improvement or worsening. The patient denied morning headaches, waking up gasping for air, snoring, or episodes of lightheadedness and trouble concentrating. No specific triggers were identified, and the patient has had to slow down daily activities and rest more often. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted slowed breathing and reduced energy without severe symptoms such as confusion or morning headaches, suggesting mild carbon dioxide retention possibly related to breathing changes, medications, underlying conditions, or anxiety. The doctor advised pacing activities, taking breaks, gentle movement, and staying hydrated, with instructions to seek medical attention if new symptoms like confusion, severe drowsiness, or worsening shortness of breath develop. The doctor recommended reviewing medications and discussing possible causes with a healthcare provider if symptoms persist or worsen.
+The patient is an adult presenting with concern about elevated carbon dioxide levels. They report slowed breathing (hypoventilation), intermittent dyspnea (feeling of not getting enough air), increased anxiety, and reduced energy, with symptoms persisting for an unspecified duration and no clear triggers. The patient denies morning headaches, nocturnal dyspnea, snoring, or episodes of confusion or lightheadedness, but notes increased daytime fatigue and difficulty performing daily activities. There is no mention of relevant medical history, medications, or allergies in the dialogue.
+
+The clinical impression is that slowed breathing may be leading to carbon dioxide retention, contributing to fatigue and anxiety; possible causes discussed include medications, underlying health conditions, or anxiety. No acute or severe symptoms were identified, and the situation appears stable without recent worsening. The treatment plan includes pacing activities, taking regular rest, staying hydrated, and monitoring for new or worsening symptoms such as confusion, severe drowsiness, or increased shortness of breath. The patient is advised to seek further evaluation if symptoms progress and to consider reviewing medications and potential causes with their healthcare provider if the issue persists.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.595
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

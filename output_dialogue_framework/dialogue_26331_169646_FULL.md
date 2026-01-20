@@ -87,16 +87,21 @@ If you notice any new symptoms—like trouble speaking, severe headache, sudden 
 
 ## EHR Summary
 
-The patient is a 51-year-old male presenting with persistent drainage from a scalp incision and increasing headache following resection of a frontal astrocytoma with Gliadel placement. He reported ongoing drainage from the surgical site, worsening headaches (sometimes relieved by Percocet), and episodes of nausea. His past medical history includes steroid-induced diabetes, prior tumor resections, radiation therapy, tracheostomy removal, tonsillectomy, and adenoidectomy. On evaluation, wound cultures grew gram-positive cocci, and he was neurologically intact with full muscle strength. The documented diagnosis was wound infection at the surgical site with associated increased intracranial pressure due to cerebrospinal fluid accumulation. Treatment included surgical incision and drainage with removal of the cranial bone flap, placement of a vent drain for decompression, and intravenous Vancomycin for infection. The patient’s wound remained full but without leakage after drain clamping; subsequent mental status changes were noted later in the course.
+The patient is a 51-year-old male presenting with persistent drainage from a cranial incision site and increasing headache following prior resection of a frontal astrocytoma with Gliadel placement. He reported ongoing nausea and headaches, which were partially relieved by Percocet, as well as continued wound drainage despite previous suture placement. His past medical history includes steroid-induced diabetes, prior tumor resections, radiation therapy, and tracheostomy removal. The clinical course was complicated by a wound infection with gram-positive cocci, requiring incision and drainage, removal of the cranial bone flap, and treatment with intravenous Vancomycin. He subsequently underwent a right temporal craniotomy for excision of a right temporal lobe tumor without intraoperative complications. Postoperatively, he remained neurologically stable and required physical and occupational therapy assessment, with plans for rehabilitation prior to discharge. The documented diagnoses include wound infection and recurrent brain tumor. The treatment plan included completion of intravenous Vancomycin, continuation of other medications (Glyburide, Zantac, insulin, Colace, Zyban, Decadron), follow-up in the brain clinic in two weeks, and anticipated radiation therapy and likely chemotherapy after surgical recovery.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening weakness in the left arm. The weakness has been progressive over time and is exacerbated by physical activity; there is no associated numbness or tingling. The patient also reported increased daytime sleepiness, difficulty staying alert, and feeling unusually groggy most mornings, though without confusion. These symptoms have made everyday tasks such as dressing and eating more difficult. The patient disclosed a recent generalized tonic clonic seizure but denied headaches, vision changes, or speech difficulties. No relevant medical history, medications, or allergies were mentioned. The doctor assessed that the combination of worsening arm weakness, increased sleepiness, and recent seizure may indicate a neurological issue affecting brain function, such as a growth, inflammation, or other problem. The doctor recommended prompt further evaluation with brain imaging (MRI or CT scan) and neurological assessment, advised having support available in case of another seizure or increased sleepiness, and instructed the patient to seek urgent care if new symptoms like speech trouble, severe headache, sudden confusion, or spreading weakness occur.
+The patient is an adult presenting with the chief complaint of progressive left arm weakness. The weakness has been worsening over time and is accompanied by increased daytime sleepiness, difficulty staying alert, and morning grogginess, but without confusion. The patient reports that physical activity exacerbates the weakness, and that simple daily tasks have become more difficult; there is no associated numbness, tingling, headaches, vision changes, or speech difficulties. Notably, the patient recently experienced a generalized tonic clonic seizure. Relevant history of other medical conditions, medications, or allergies is not specified. The clinical impression is that these symptoms may be due to a neurological process affecting brain function, such as a growth, inflammation, or other disorder. The treatment plan includes urgent further evaluation with brain imaging (MRI or CT scan) and neurological assessment, advice to have support available in case of another seizure or worsening symptoms, and instructions to seek urgent care if new neurological symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.928
-- **Similarity Label**: N/A
+- **STS Score**: 0.358
+- **Model Used**: general
+- **Text1 Length**: 175 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

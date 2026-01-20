@@ -85,16 +85,21 @@ For now, make sure you stay well-hydrated and get plenty of rest. If your sympto
 
 ## EHR Summary
 
-The patient is an 84-year-old male presenting with substernal chest pain radiating to the left shoulder. He denied palpitations or shortness of breath. His medical history includes hypertension, hypercholesterolemia, angina for six years, and glaucoma, and he was taking multiple cardiovascular and ophthalmic medications on admission. Electrocardiogram showed diffuse ST depression in the precordial leads, and cardiac enzymes (CK, MB, troponin) were elevated; cardiac catheterization revealed significant left main and right coronary artery disease with an ejection fraction of 40%. The documented diagnosis was acute coronary syndrome due to severe multivessel coronary artery disease. He underwent coronary artery bypass grafting (CABG) times three with intra-aortic balloon pump support. Postoperatively, his course was complicated by respiratory issues requiring prolonged intubation and episodes of confusion after extubation. The treatment plan included surgical revascularization, supportive care, and management of postoperative complications.
+The patient is an 84-year-old male presenting with substernal chest pain radiating to the left shoulder. He denied palpitations or dyspnea at onset. His history includes hypertension, hypercholesterolemia, angina, and glaucoma, and he was taking multiple cardiac and ocular medications on admission. Workup revealed ECG changes, elevated cardiac enzymes, and significant coronary artery disease with reduced ejection fraction. The documented diagnosis was acute coronary syndrome due to severe multivessel coronary artery disease. He underwent coronary artery bypass grafting (CABG) times three, with postoperative complications including respiratory failure requiring prolonged intubation, delirium with an unwitnessed fall, Clostridium difficile infection, and new-onset atrial fibrillation. Treatments included intra-aortic balloon pump support, CABG, Flagyl for C. difficile, amiodarone for atrial fibrillation, and supportive care with Foley catheter management. Upon discharge, he was stable, in normal sinus rhythm, and given instructions for medication continuation and follow-up care.
+
 
 ## Dialogue Summary
 
-The patient presented with a fever up to 101°F as the main complaint. Symptoms included a fever for a few days that comes and goes, dull discomfort in the left chest that worsens with deep breaths, mild increased effort with breathing, and no cough, chills, night sweats, weight loss, leg swelling, or difficulty lying flat. The patient measured the fever with a thermometer and described the chest discomfort as dull, non-radiating, and intermittent. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted mild fever and left-sided chest discomfort likely related to a mild infection or inflammation around the lungs, given the pleuritic nature of the pain and absence of severe symptoms. The doctor found the lack of severe shortness of breath or other concerning signs reassuring. The treatment plan included monitoring for worsening symptoms (such as increasing shortness of breath, persistent chest pain, confusion, or high fevers), staying well-hydrated, and getting plenty of rest. The patient was advised to seek further evaluation if any warning signs develop and expressed understanding of the plan.
+The patient is an adult presenting with fever as the chief complaint. The fever has reached up to 101°F, has been present for a few days, and is intermittent. The patient also reports dull discomfort localized to the left chest, which worsens with deep inspiration but is not constant and does not radiate; there is mild dyspnea but no cough, chills, night sweats, weight loss, peripheral edema, or orthopnea. The fever was measured with a thermometer. Relevant history, medications, and allergies are not specified. The clinical impression is that the symptoms may be due to a mild infection or inflammation in the pleural lining (pleuritis), given the pleuritic nature of the chest discomfort and associated fever. The treatment plan includes supportive care with hydration and rest, along with instructions to monitor for worsening symptoms such as increased shortness of breath, persistent chest pain, confusion, or higher fevers, and to seek further evaluation if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.399
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 155 words
+
 
 ## Processing Information
 

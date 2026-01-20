@@ -85,16 +85,21 @@ Has it been getting better, worse, or staying about the same over the past few d
 
 ## EHR Summary
 
-The patient is an over 90-year-old female presenting with nausea, syncope, epigastric pain, and mental status changes. She experienced a syncopal episode after a hot shower, followed by incontinence, recurrent nausea and vomiting, cognitive decline, and weakness, with epigastric pain radiating to her shoulders. Her history is significant for coronary artery disease, aortic stenosis, atrial fibrillation (off Norpace and coumadin), frequent urinary tract infections, chronic gastrointestinal symptoms, and multiple other chronic conditions; she is allergic to ciprofloxacin. On examination, she was cachectic, frail, uncomfortable, and appeared toxic, with vital signs showing hypotension (BP 99/70), tachycardia (P 110), and tachypnea (R 28). Laboratory findings included elevated amylase and lipase, and urinalysis showed cloudy urine with many bacteria; abdominal ultrasound revealed gallstones and dilated intrahepatic ducts. The documented clinical impression suggests acute biliary pathology with possible infection and pancreatitis. She was started on levofloxacin and metronidazole and admitted for further management.
+The patient is a female over 90 years old presenting with nausea, syncope, epigastric pain, and mental status changes. She experienced a syncopal episode after a hot shower, followed by incontinence, recurrent nausea and vomiting, worsening cognitive status, weakness, and epigastric pain radiating to her shoulders. Her history includes coronary artery disease, aortic stenosis, atrial fibrillation, chronic gastrointestinal symptoms, frequent urinary tract infections, and multiple other chronic conditions; she is allergic to ciprofloxacin. On evaluation, she was found to have elevated amylase and lipase, cloudy urine with many bacteria, and abdominal ultrasound showed gallstones with gallbladder wall thickening and dilated intrahepatic ducts. The documented diagnoses were cholecystitis, pancreatitis, atrial fibrillation, coronary artery disease, and urinary tract infection. She was started on levofloxacin and metronidazole for infection. After discussion with her primary care provider and family regarding her wishes and prognosis, the patient was transitioned to comfort measures only and subsequently expired on the day of admission.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent nausea as the chief complaint. They reported nausea of unclear onset, moderate upper stomach pain radiating to the shoulders (sometimes severe), fainting spells without warning or prodrome, vomiting, weakness, poor appetite, and difficulty keeping food down; lying down sometimes helps the pain, but nothing fully relieves it. The patient noted these symptoms have been present for a while and are interfering with daily activities, requiring more rest than usual. No relevant medical history, medications, or allergies were mentioned. The doctor observed that the combination of nausea, vomiting, upper abdominal pain radiating to the shoulders, weakness, and sudden fainting spells may indicate issues with the digestive system and possibly blood pressure or hydration status, with dehydration as a possible contributor to fainting and weakness. The doctor advised monitoring for worsening symptoms such as severe pain, persistent confusion, or inability to keep fluids down, which would require urgent evaluation. The patient was instructed to sip small amounts of clear fluids frequently to prevent dehydration and rest as needed, and to seek prompt medical attention if symptoms worsen or new concerning signs develop.
+The patient presents with persistent nausea as the chief complaint. Key symptoms include ongoing nausea and vomiting, moderate upper abdominal pain radiating to the shoulders (sometimes severe), weakness, poor appetite, difficulty keeping food down, and several sudden-onset fainting spells without warning signs; confusion occurs when pain is severe. The symptoms have been present for an unspecified duration and are significantly impacting daily activities, requiring increased rest. No specific triggers or alleviating factors were identified, though lying down provides some relief for the pain. Relevant history, medications, and allergies are not specified in the dialogue. The clinical impression is that the symptoms may be related to a digestive system issue and possible dehydration, which could explain the fainting and weakness; irritation or inflammation of the stomach or nearby organs is also considered. The treatment plan includes sipping small amounts of clear fluids frequently to prevent dehydration, resting as needed, and monitoring for worsening symptoms such as severe pain, persistent confusion, or inability to keep fluids down. The patient is advised to seek urgent medical attention if these concerning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.467
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

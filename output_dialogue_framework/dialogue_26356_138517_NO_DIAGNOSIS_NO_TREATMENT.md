@@ -98,3 +98,21 @@ Does that all make sense, or is there anything else you're concerned about?
 ## Processing Information
 
 - **Processing Time**: 331.8s
+
+## EHR Summary
+
+The patient is a 75-year-old male presenting with bowel obstruction. He was transferred from an outside hospital after a CT scan revealed distended loops of small and large bowel and an apple core lesion at the splenic flexure, resulting in near complete obstruction. The patient underwent a subtotal colectomy with ileostomy formation on 6-19. Intraoperative findings included a markedly dilated right transverse colon and small bowel, with no palpable liver mass. The pre-operative and post-operative diagnosis was chronic obstruction.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with crampy abdominal pain as the chief complaint. The pain has been present for a few days, is rated 4 out of 10 in severity, is mostly located in the mid-abdomen with some migration, and is sometimes worsened by eating but can also occur randomly. There are no associated symptoms such as changes in bowel habits, increased gas, nausea, vomiting, fever, blood in stool, appetite changes, or weight loss. Relevant medical history, medications, and allergies are not specified. The clinical impression was that the symptoms are consistent with a mild, common digestive issue such as functional bloating or indigestion. The treatment plan includes dietary tracking to identify potential triggers, eating smaller and more frequent meals, staying hydrated, and monitoring for any new or worsening symptoms such as severe pain, vomiting, fever, or blood in stool. The patient was advised to seek further evaluation if symptoms persist beyond a couple of weeks or worsen.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.424
+- **Model Used**: general
+- **Text1 Length**: 79 words
+- **Text2 Length**: 159 words
+

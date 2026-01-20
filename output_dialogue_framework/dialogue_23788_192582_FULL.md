@@ -87,16 +87,21 @@ For now, try to rest, avoid extra exertion, and keep track of your readings. Wou
 
 ## EHR Summary
 
-The patient is a 76-year-old male presenting with dyspnea and chest tightness on exertion. Symptoms began in early September and led to an admission for congestive heart failure, with a troponin of 0.22. Relevant history includes prior mild aortic stenosis and a previously normal ejection fraction of 70% in 2115. Recent echocardiogram on 2117-10-21 showed critical aortic stenosis (valve area 0.9 cm²), mild mitral regurgitation, inferior wall hypokinesis, and a reduced ejection fraction of 27%. Stress testing revealed large areas of ischemia and persistent low ejection fraction. The documented diagnosis is critical aortic stenosis with heart failure and ischemia. Laboratory findings included BUN 38 and creatinine 1.7, indicating some renal impairment. The patient was referred for cardiac catheterization for further evaluation and management.
+The patient is a 76-year-old male presenting with dyspnea and chest tightness on exertion. Symptoms began in early September and led to an admission for congestive heart failure, with subsequent findings of critical aortic stenosis (aortic valve area 0.9 cm², ejection fraction 27%) and significant coronary artery disease. Relevant history includes prior mild aortic stenosis (ejection fraction 70% in 2115) and known carotid artery stenosis (100% right, 70% left). Cardiac catheterization revealed 70% left main ostial stenosis and a 95% proximal right coronary artery lesion. The documented diagnoses were critical aortic stenosis and multivessel coronary artery disease. The patient underwent coronary artery bypass grafting (three vessels) and aortic valve replacement with a #23 mm CE-pericardial valve. Postoperatively, he experienced brief atrial flutter/fibrillation managed with amiodarone and cardioversion, and was otherwise stable after surgery.
+
 
 ## Dialogue Summary
 
-The patient presented with episodes of heart racing that have occurred intermittently over the past few days, primarily while at rest. Symptoms included sustained tachycardia lasting several minutes, elevated blood pressure readings around 180 systolic even at rest, and mildly decreased oxygen saturation at 92% despite continued use of 1 liter of supplemental oxygen. The patient denied chest discomfort and significant lightheadedness but reported mild shortness of breath and reduced activity tolerance, requiring more frequent breaks. No changes in oxygen requirements were noted, though oxygen saturation was lower than usual. The doctor assessed that these symptoms may be related to poorly controlled hypertension and possible heart rhythm issues, with slightly decreased oxygen contributing to increased cardiac workload. The doctor recommended regular monitoring of blood pressure, contacting the healthcare provider soon to discuss medication adjustments, and seeking immediate care for new symptoms such as chest pain, severe shortness of breath, or faintness. The patient was advised to rest, avoid exertion, and track blood pressure and symptoms at home, with additional guidance offered for home monitoring.
+The patient is an adult presenting with episodes of heart racing (palpitations) as the chief complaint. The palpitations have occurred intermittently over the past few days, mostly while at rest, lasting several minutes per episode, and are associated with persistent elevated blood pressure readings around 180 mmHg systolic. The patient denies chest discomfort or significant lightheadedness but reports mild dyspnea and a decrease in oxygen saturation to 92% on their usual 1 liter of supplemental oxygen, without an increase in oxygen requirement. These symptoms have led to decreased activity tolerance and increased fatigue. Relevant history includes chronic oxygen use; no medication or allergy details are specified. The clinical impression discussed is possible heart rhythm disturbance or effects of uncontrolled hypertension, with reassurance provided due to the absence of severe symptoms. The treatment plan includes regular blood pressure monitoring, contacting the healthcare provider for possible medication adjustments, and seeking immediate care if new symptoms such as chest pain, severe shortness of breath, or syncope develop; the patient was also offered guidance on tracking blood pressure and symptoms at home.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.551
+- **Model Used**: general
+- **Text1 Length**: 133 words
+- **Text2 Length**: 178 words
+
 
 ## Processing Information
 

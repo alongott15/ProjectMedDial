@@ -87,16 +87,21 @@ Let me know if you have any questions or concerns about your healing process, or
 
 ## EHR Summary
 
-The patient is a 28-year-old female presenting for monitoring status post exploratory laparotomy. She reported mild lower abdominal cramping without vaginal bleeding, fever, or chills; imaging revealed a pregnancy in the left rudimentary horn of a bicornuate uterus at 9 weeks gestation, with high risk for rupture due to thinned myometrium. Her relevant history includes Type I diabetes mellitus managed with an insulin pump and hypothyroidism, with no known drug allergies. On exam, she was stable postoperatively but had abdominal tenderness to palpation and was emotionally distressed. The documented diagnosis was a rudimentary horn pregnancy in a bicornuate uterus. She underwent excision of the left rudimentary horn and left salpingectomy, with pain managed by Toradol and dilaudid, and insulin therapy adjusted perioperatively. Postoperative care included monitoring, fluid management, and emotional support.
+The patient is a 28-year-old female presenting for monitoring status post exploratory laparotomy. She reported mild lower abdominal cramping without vaginal bleeding, fever, or chills, and was found to have abdominal tenderness on exam. Her history is significant for type I diabetes mellitus (on insulin pump), Hashimoto's thyroiditis, and hyperlipidemia. Imaging revealed a pregnancy in the left rudimentary horn of a bicornuate uterus with thinned myometrium, placing her at high risk for uterine rupture. The documented diagnosis was pregnancy in a rudimentary uterine horn. She underwent surgical excision of the left rudimentary horn and left salpingectomy, with pain managed by Toradol and dilaudid initially, and transitioned to ibuprofen and Percocet on discharge. Her insulin regimen was managed perioperatively, and her levothyroxine dose was adjusted to pre-pregnancy levels. She was discharged home in stable condition with instructions for follow-up with gynecology and endocrinology.
+
 
 ## Dialogue Summary
 
-The patient presented with lower abdominal cramping following recent surgery. The cramping has been steady since the procedure, is uncomfortable but not severe, and is more tender to the touch; no specific activities or meals worsen the symptoms. The patient denied fever, changes in bowel movements, or abnormal discharge, and reported normal eating, drinking, and digestion postoperatively. Pain medication provides partial relief, but discomfort persists and affects daily activities and concentration; the patient also noted increased tearfulness. On examination, abdominal tenderness was described when pressing on the area. The doctor assessed that recovery is generally on track, with mild abdominal discomfort and emotional changes considered common during healing in the absence of infection signs. The doctor recommended gentle movement, hydration, and continued use of pain medication as advised, with instructions to seek care if symptoms worsen or new issues arise. Emotional ups and downs were acknowledged as part of the healing process, and the doctor offered further support for managing soreness and emotional symptoms at home.
+The patient is an adult presenting with lower abdominal cramping following recent surgery. The cramping has been steady since the procedure, is described as uncomfortable but not severe, and is associated with localized tenderness to palpation. There are no accompanying symptoms such as fever, changes in bowel movements, or abnormal discharge; the patient reports normal eating, drinking, and digestion. The discomfort affects daily activities somewhat and has led to increased tearfulness, but the patient remains able to function. Pain medication provides partial relief. The clinical impression is that the patient’s recovery is generally on track, with mild abdominal discomfort and emotional changes considered common during postoperative healing. The treatment plan includes continued gentle movement, hydration, and use of pain medication as needed, with instructions to seek care if symptoms worsen or new signs of infection develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
+- **STS Score**: 0.393
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 136 words
+
 
 ## Processing Information
 

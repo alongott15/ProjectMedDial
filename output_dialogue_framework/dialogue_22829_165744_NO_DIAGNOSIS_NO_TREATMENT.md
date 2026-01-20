@@ -98,3 +98,21 @@ Does this plan make sense to you, or is there anything else about your symptoms 
 ## Processing Information
 
 - **Processing Time**: 299.1s
+
+## EHR Summary
+
+The patient is a 19-year-old female admitted for neurosurgical care. Her discharge was delayed due to fever spikes, but extensive cultures including lumbar puncture showed no evidence of infection. She remains neurologically unchanged, opening her eyes, nonattending, and flexing to pain in all four extremities. Vital signs have been stable except for persistent tachycardia, which was attributed to possible autonomic dysfunction. Cardiology consultation was obtained for the tachycardia, and echocardiogram revealed a low ejection fraction. She is being treated with large doses of Lopressor to control her heart rate, though with limited effect. The plan includes a repeat echocardiogram in two weeks to reassess cardiac function. At discharge, she was stable and ready for transfer to rehabilitation.
+
+
+## Dialogue Summary
+
+The patient presents with the chief complaint of fever spikes causing significant discomfort. The fever episodes began a few days ago, with the patient unable to specify the exact onset or measured temperature, but reporting sudden sensations of feeling very hot. Associated symptoms include episodes of tachycardia (fast heartbeat) during fever spikes, persistent fatigue even between episodes, and a negative impact on daily activities; there is no reported confusion, dyspnea (shortness of breath), lightheadedness, or motor changes. No clear triggers or patterns for the episodes have been identified, and symptoms have remained stable without improvement or worsening. Relevant medical history, medications, and allergies are not specified in the dialogue. The clinical impression is that the fever is likely due to an underlying infection (viral or bacterial), with tachycardia attributed to the body’s response to elevated temperature. The treatment plan includes supportive care: monitoring temperature, maintaining hydration, rest, and using over-the-counter fever reducers as needed. The patient was advised to seek further evaluation if new symptoms develop or if the fever persists beyond a few more days.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.601
+- **Model Used**: general
+- **Text1 Length**: 117 words
+- **Text2 Length**: 176 words
+

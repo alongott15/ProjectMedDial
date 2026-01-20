@@ -87,16 +87,21 @@ In the meantime, try to rest and avoid exertion until you’ve been checked. Wou
 
 ## EHR Summary
 
-The patient is a 66-year-old male presenting with three episodes of chest pain over the past three days. The chest pain was described as diffuse sternal discomfort with a "smoky feeling in my lungs," each episode lasting 5–10 minutes, triggered by exertion (shoveling snow, lifting a toilet bowl) or occurring at rest (awoken from sleep), and relieved by rest; associated diaphoresis was noted, but there was no radiation, nausea, vomiting, shortness of breath, or palpitations. Relevant history includes prior CABG x3, multiple coronary stents, hyperlipidemia, hypertension, osteoarthritis, GERD, anemia, and polymyalgia rheumatica; the patient has no known drug allergies. On admission, the patient was asymptomatic and vital signs were stable (BP 129/62, P 56, RR 14, O2 sat 99%). Cardiac catheterization was performed on admission, followed by redo CABG x4 and reexploration for bleeding. The documented diagnosis is not explicitly stated but the clinical course suggests recurrent angina with significant coronary artery disease requiring surgical intervention. Treatment included redo coronary artery bypass grafting and post-operative management.
+The patient is a 66-year-old male presenting with three episodes of chest pain over the past three days. The chest pain was described as diffuse sternal discomfort with a "smoky feeling in my lungs," each episode lasting 5–10 minutes, triggered by exertion or occurring at rest, and relieved by rest; there was associated diaphoresis but no radiation, nausea, vomiting, shortness of breath, or palpitations. Relevant history includes prior CABG, multiple stents, hyperlipidemia, hypertension, osteoarthritis, anemia, and polymyalgia rheumatica; he has no known drug allergies. The documented diagnoses were non-ST elevation myocardial infarction (NSTEMI), coronary artery disease, status post CABG, hyperlipidemia, hypertension, and GERD. The patient underwent cardiac catheterization revealing significant multi-vessel disease and subsequently had a redo CABG x4 with additional surgical interventions for bleeding and a wedge resection of the right middle lobe. He developed atrial fibrillation/flutter postoperatively, which was managed with amiodarone and diuresis. Discharge medications included amiodarone, metoprolol, lasix, potassium chloride, allopurinol, prilosec, docusate sodium, oxycodone-acetaminophen, and ibuprofen. He was discharged home in good condition with instructions to avoid driving for 4 weeks and lifting more than 10 lbs for 3 months, and to follow up with his physicians within 1–4 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain experienced over the past few days. He described the pain as a pressure sensation, rated 6 out of 10 in severity, located in the center of his chest, occurring at rest and not associated with exertion. Each episode lasted a few minutes, was accompanied by sweating and an unusual "smoky" sensation in his lungs, and resolved completely between episodes without affecting his daily activities; he reported three similar episodes over three days with no change in character. No relevant medical history, medications, or allergies were mentioned. On review, there were no reports of constant pain, pain radiating to the arm or jaw, severe shortness of breath, or nausea. The doctor assessed that intermittent chest pressure at rest with associated sweating and unusual lung sensation could indicate a potentially significant cardiac or pulmonary issue, though benign causes are also possible. The doctor recommended prompt evaluation today to rule out heart-related problems, advised rest and avoidance of exertion until further assessment, and provided guidance on where to seek further evaluation. The patient understood and requested assistance with next steps.
+The patient is an adult male presenting with chest pain as the chief complaint. He describes the pain as a pressure sensation, rated 6 out of 10 in severity, located centrally in the chest, occurring at rest, and not associated with exertion. The episodes last a few minutes, are intermittent (three episodes over three days), and are accompanied by sweating and an unusual "smoky" sensation in the lungs; he returns to baseline between episodes. There is no report of the pain affecting daily activities outside of the episodes. Relevant medical history, medications, and allergies are not specified. The clinical impression is that the symptoms could be related to cardiac or pulmonary causes, but no definitive diagnosis is documented. The treatment plan includes prompt evaluation today to rule out heart-related problems, advice to rest and avoid exertion, and instructions to seek emergency care if symptoms worsen or new symptoms develop. The patient requested guidance on where to seek further evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.974
-- **Similarity Label**: N/A
+- **STS Score**: 0.732
+- **Model Used**: general
+- **Text1 Length**: 195 words
+- **Text2 Length**: 159 words
+
 
 ## Processing Information
 

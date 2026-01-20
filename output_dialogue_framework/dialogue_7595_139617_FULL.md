@@ -87,16 +87,21 @@ We can discuss ways to help improve your walking distance and manage your circul
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with right lower extremity (RLE) claudication. He reported symptoms consistent with claudication of the RLE, prompting surgical evaluation. His relevant history includes coronary artery disease status post myocardial infarction and coronary artery bypass grafting, moderate mitral regurgitation, moderate pulmonary hypertension, hypertension, hyperlipidemia, esophagitis, prior aortobifemoral bypass, carotid endarterectomies, and right radial artery thrombectomy; he has a remote smoking history and allergies to Percocet/Oxycontin. On physical exam, he was alert and oriented with palpable femoral and distal pulses in the right leg; laboratory results showed mild anemia (Hgb 9.4 g/dL, Hct 26.4%). The documented diagnosis was RLE claudication due to peripheral arterial disease. He underwent right femoral endarterectomy with patch angioplasty and right superficial femoral artery angioplasty and stenting without complications. The treatment plan included continuation of antiplatelet therapy (aspirin, clopidogrel), statin, antihypertensives (lisinopril, metoprolol), and proton pump inhibitor, with discharge in stable condition.
+The patient is a 58-year-old male presenting with right lower extremity (RLE) claudication. He reported pain in the right leg with walking, consistent with claudication symptoms. His relevant medical history includes coronary artery disease status post myocardial infarction and coronary artery bypass grafting, moderate mitral regurgitation, moderate pulmonary hypertension, hypertension, hyperlipidemia, esophagitis, prior aortobifemoral bypass, and multiple vascular interventions. The documented diagnosis was right lower extremity claudication. During admission, he underwent right femoral endarterectomy with patch angioplasty and right superficial femoral artery angioplasty and stenting without complications. He was discharged in good condition on medications including aspirin, atorvastatin, lisinopril, metoprolol, clopidogrel, pantoprazole, and oxycodone-acetaminophen as needed. Discharge instructions included taking medications as prescribed, monitoring for concerning symptoms, walking several times daily, and scheduling follow-up with his physician.
+
 
 ## Dialogue Summary
 
-The patient presented with right leg pain occurring during walking. The pain has been present for a while, is worsening over time, and comes on sooner with activity; it is described as cramping and always occurs in the same spot in the right leg. The discomfort resolves completely with rest and does not occur when sitting or lying down; the patient denied numbness, tingling, or changes in color or temperature. The pain is limiting walking distance and daily activities. Relevant history includes heart disease, prior heart attack, bypass surgery, and arterial procedures; no history of diabetes was reported. On assessment, the doctor identified the symptoms as claudication likely due to reduced blood flow from arterial narrowing, consistent with the patient’s vascular history. The doctor recommended tracking walking distance before symptoms start, staying physically active within limits, and avoiding walking through severe discomfort; urgent evaluation was advised if pain occurs at rest or if the foot becomes cold or pale. Strategies for maintaining activity and managing circulation were offered for further discussion.
+The patient is an adult with a history of heart disease and circulation issues presenting with right leg pain during walking. The pain is described as cramping, occurs consistently in the same spot, and has been worsening over time, now limiting the patient's walking distance and requiring more frequent rest. The discomfort reliably resolves with rest and does not occur at rest; there are no associated symptoms such as numbness, tingling, or changes in color or temperature. Relevant history includes prior heart attack, bypass surgery, and arterial procedures; the patient denies diabetes. The clinical impression documented is claudication, likely due to reduced blood flow from arterial narrowing. The physician reassured the patient that the absence of pain at rest or other concerning symptoms is a positive sign. The treatment plan includes monitoring walking distance, staying physically active within limits, avoiding severe discomfort, and seeking prompt care if symptoms worsen or new signs (such as pain at rest or limb color changes) develop. Advice was also offered regarding strategies for safe activity and home management.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.644
+- **Model Used**: general
+- **Text1 Length**: 127 words
+- **Text2 Length**: 174 words
+
 
 ## Processing Information
 

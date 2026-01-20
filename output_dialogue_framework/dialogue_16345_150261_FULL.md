@@ -89,16 +89,23 @@ Does that make sense? Is there anything
 
 ## EHR Summary
 
-The patient is a 53-year-old man presenting with fever and night sweats. Symptoms began on [2193-10-21] and were associated with mitral valve regurgitation and endocarditis, as confirmed by echocardiogram showing vegetation of the mitral valve. Relevant history includes prior aortic valve replacement, abdominal aortic aneurysm repair, alcoholic cardiomyopathy, pseudogout, and abdominal mass removal. Medications prior to admission included Toprol XL, Lisinopril, multivitamins, and aspirin; he reports no known drug allergies but has an adverse reaction to Ativan. On physical exam, he was afebrile, in no acute distress, with stable vital signs. The documented diagnosis was mitral valve endocarditis with regurgitation. He was referred for mitral valve surgery as part of his treatment plan.
+The patient is a 54-year-old man presenting with fever and night sweats. He reported the onset of these symptoms in October 2193, at which time an echocardiogram revealed mitral valve regurgitation with endocarditis and vegetation of the mitral valve. His relevant history includes prior aortic valve replacement, abdominal aortic aneurysm repair, abdominal mass removal, alcoholic cardiomyopathy, and pseudogout of the left knee; he has no known drug allergies but reacts to Ativan with extreme combativeness. The documented diagnosis was mitral valve endocarditis with regurgitation and vegetation. He underwent mitral valve repair with a pericardial patch and annuloplasty, tolerated the procedure well, and had an uneventful postoperative course. Discharge medications included metoprolol, aspirin, Lasix, potassium chloride, and Percocet as needed. He was discharged home in good condition with visiting nurse assistance and follow-up appointments scheduled with his providers.
+
 
 ## Dialogue Summary
 
-The patient presented with a persistent fever as the chief complaint. They reported the fever had lasted several days, was worse at night but present during the day, and was accompanied by night sweats and visible swelling (edema) in both legs and feet for a few days, with the swelling remaining stable and not causing discomfort or difficulty walking. The patient denied recent infections (no cough, sore throat, or urinary symptoms), medication changes, or alterations in diet or activity, and noted their energy level was unchanged. No additional medical history, medications, or allergies were mentioned. On review, the doctor noted persistent fever, night sweats, and bilateral leg and foot edema without associated pain or functional limitation. The assessment included consideration of infection and other causes such as cardiac, hepatic, or renal issues, given the combination of symptoms and absence of typical infection signs. The doctor recommended basic blood work and a urine test to evaluate for infection, inflammation, or organ dysfunction. Additional advice included elevating the legs when sitting, avoiding prolonged standing, monitoring temperature and symptoms, and seeking urgent care if chest pain, difficulty breathing, or worsening swelling occurred.
+The patient presents with a chief complaint of persistent fever lasting several days. Key symptoms include fever that is worse at night, associated night sweats, and visible swelling (edema) in both legs and feet that began a few days ago and has remained stable without pain or functional limitation. The patient denies recent infections (such as cough, sore throat, or urinary symptoms), medication changes, dietary or activity changes, and reports no increase in fatigue or weakness. Relevant history regarding chronic medical conditions, medications, or allergies is not specified.
+
+The clinical impression is that the constellation of persistent fever, night sweats, and bilateral leg edema may be due to infection or possibly issues related to heart, liver, or kidney function, though no definitive diagnosis is documented. The treatment plan includes ordering basic blood work and possibly a urine test to evaluate for infection, inflammation, or organ dysfunction. The patient is advised to elevate their legs when sitting, avoid prolonged standing, monitor their temperature and symptoms, and seek urgent care if chest pain, dyspnea, or worsening swelling occurs.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.948
-- **Similarity Label**: N/A
+- **STS Score**: 0.416
+- **Model Used**: general
+- **Text1 Length**: 137 words
+- **Text2 Length**: 176 words
+
 
 ## Processing Information
 

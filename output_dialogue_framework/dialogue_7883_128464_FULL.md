@@ -87,16 +87,23 @@ If you notice new symptoms such as severe shortness of breath, sweating, or fain
 
 ## EHR Summary
 
-The patient is a 69-year-old male presenting with chest pain as the chief complaint. He reported episodes of angina with exertion worsening over the past three weeks, culminating in severe (10/10) chest pain at rest, described as an ache in the shoulder and left substernal area, accompanied by nausea and transient right ankle edema. His relevant history includes mild aortic stenosis, coronary artery disease, and multiple prior coronary stents. On examination, he was alert and oriented, with a heart murmur consistent with aortic stenosis and no current edema; vital signs were stable on supplemental oxygen. Laboratory results showed mild anemia and normal cardiac enzymes. Cardiac catheterization revealed 80–90% in-stent restenosis of the proximal left coronary artery. The documented diagnosis was in-stent restenosis with recurrent angina. Treatment details are not specified in the note.
+The patient is a 69-year-old male presenting with chest pain as the chief complaint. He reported episodes of angina with exertion worsening over the past three weeks, culminating in severe (10/10) chest pain at rest, described as an ache in the shoulder and left substernal area, accompanied by nausea and transient right ankle edema. His medical history includes mild aortic stenosis and significant coronary artery disease with multiple prior stents. Cardiac catheterization revealed 80–90% in-stent restenosis of the proximal left anterior descending artery and significant multi-vessel coronary artery disease. The documented diagnosis was two-vessel coronary artery disease with in-stent restenosis. The treatment plan included scheduling and completion of coronary artery bypass graft surgery. The patient was transferred to the surgical service in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain that has become more frequent and intense, now occurring both with exertion and at rest. The pain is sometimes rated as ten out of ten in severity, lasts several minutes or longer, and occasionally radiates to the left shoulder and under the breastbone; episodes are accompanied by occasional nausea but not by shortness of breath, sweating, palpitations, or irregular heartbeat. Resting sometimes helps alleviate the discomfort, but the pain often lingers even when inactive. The patient reported that these symptoms have significantly impacted daily activities, requiring them to stop or change their routine. No relevant medical history, medications, or allergies were mentioned during the conversation. The doctor noted the progression of chest pain from exertional to occurring at rest and explained that this pattern may indicate the heart is not getting enough blood flow, warranting prompt evaluation for possible cardiac causes. The doctor recommended the patient get checked today to rule out serious heart-related issues, advised avoiding strenuous activity and resting as much as possible, and instructed to seek emergency care if new symptoms such as severe shortness of breath, sweating, or fainting develop. The patient expressed understanding and agreed to discuss next steps for evaluation.
+The patient presents with chest pain as the chief complaint. The chest pain has increased in frequency and intensity, now occurring both with exertion and at rest, and is described as sometimes radiating to the left shoulder and under the breastbone, with occasional nausea but without associated dyspnea, palpitations, or diaphoresis. Episodes last several minutes or longer and are not relieved completely by rest, significantly impacting daily activities. Relevant medical history, medications, and allergies are not specified in the dialogue.
+
+The clinical impression is that the chest pain pattern is concerning for possible cardiac ischemia due to its occurrence at rest and associated symptoms. The doctor recommends prompt evaluation—ideally the same day—to rule out serious heart-related causes. The patient is advised to avoid strenuous activity, rest as much as possible, and seek emergency care if new symptoms such as severe shortness of breath, sweating, or fainting develop. Next steps for immediate evaluation are to be discussed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.602
+- **Model Used**: general
+- **Text1 Length**: 124 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

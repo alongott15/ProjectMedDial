@@ -107,16 +107,23 @@ If everything stays the same or improves, you can expect a gradual recovery. If 
 
 ## EHR Summary
 
-The patient is an 86-year-old male presenting after being struck by a car traveling at approximately 20–25 mph. He reports mild right orbital pain and denies loss of consciousness, though he cannot recall all details of the incident. His past medical history is significant for hypertension, and he has no known drug allergies. On examination, he was alert with stable vital signs, a right supraorbital laceration (3–3.5 cm), blood from the right nare, and a small left thumb laceration; no other acute injuries or neurologic deficits were noted. Laboratory studies were notable for mild leukocytosis (WBC 12.5) and slightly elevated creatinine (1.4), with otherwise unremarkable findings. Chest X-ray and pelvic imaging showed no acute fractures or pneumothorax. The clinical impression is minor trauma with soft tissue injuries following a pedestrian-vehicle accident. Treatment included wound care for lacerations and observation.
+The patient is an 86-year-old male presenting after being struck by a car traveling at approximately 20–25 mph, with the main complaint of mild right orbital pain. He denied loss of consciousness but could not recall all events surrounding the impact; he was alert and responsive at the scene with a Glasgow Coma Scale of 15. On examination, he had a right supraorbital laceration (3–3.5 cm), blood from the right nare, and a small left thumb laceration, but was otherwise in no apparent distress with stable vital signs. Past medical history is significant for hypertension; there are no known drug allergies. Imaging revealed a left temporoparietal epidural versus subdural bleed and a left occipital parenchymal bleed, with no fractures identified on chest, pelvis, or cervical spine imaging. The documented clinical impression was acute head injury with associated minor soft tissue injuries. He was admitted to the ICU for close neurological monitoring, evaluated by Neurosurgery and Ophthalmology, and subsequently deemed stable for discharge. Discharge recommendations included outpatient follow-up with Neurosurgery, Ophthalmology, and his primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with mild soreness under the right eye following a pedestrian accident in which they were hit by a car. The soreness began immediately after the incident and has remained mild and stable, localized to the bone just below the right eye, without involvement of the eyelid. The patient denied any changes in vision, numbness, or tingling in the cheek or upper lip, and reported a small amount of blood from the right nostril that resolved quickly. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted no signs of serious injury such as fracture, nerve involvement, or ongoing bleeding, and described the findings as consistent with a minor bruise to the bone under the right eye. The doctor recommended gentle home care including cool compresses for swelling and over-the-counter pain relief if needed, with close monitoring for new symptoms such as increased pain, swelling, vision changes, or numbness. The patient was advised that most minor bruises resolve within one to two weeks and to seek further evaluation if symptoms worsen or new concerns arise.
+The patient is an adult presenting with soreness under the right eye following a pedestrian-versus-car accident. The pain began immediately after the incident, is localized to the bone just below the right eye, and is described as mild and stable without progression. The patient denies vision changes, numbness, tingling, or significant swelling, and reports only a small amount of self-limited right-sided nasal bleeding after the accident. There is no history of ongoing bleeding or neurological symptoms.
+
+The documented clinical impression is a mild bruise (contusion) to the bone under the right eye, with no evidence of fracture, nerve injury, or ocular involvement. The treatment plan includes gentle home care with cool compresses for swelling and over-the-counter pain relievers such as acetaminophen if needed. The patient was advised to monitor for new symptoms including increased pain, swelling, vision changes, or numbness, which would warrant urgent reassessment. Most minor bruises are expected to resolve within one to two weeks with conservative management.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.696
+- **Model Used**: general
+- **Text1 Length**: 175 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

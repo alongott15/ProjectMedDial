@@ -98,3 +98,21 @@ Let me know if you have any questions or if you'd like tips on what to eat as yo
 ## Processing Information
 
 - **Processing Time**: 377.8s
+
+## EHR Summary
+
+The patient is a 21-year-old male presenting with diabetic ketoacidosis (DKA). He reported two days of nausea and vomiting, with laboratory findings showing an anion gap acidosis, elevated white blood cell count, and initial glucose in the 500s; he denied fever, chest pain, or respiratory symptoms. His medical history includes type I diabetes diagnosed at age 18, with no known drug allergies and usual NPH insulin use. The documented diagnosis was DKA. Treatment included intravenous fluids and an insulin drip, later transitioned to subcutaneous NPH insulin, with resolution of acidosis and normalization of laboratory values. At discharge, his nausea and vomiting had resolved, and he was eating a regular diet. He was instructed to continue NPH insulin 40 units twice daily, monitor glucose four times daily, and follow up at the diabetes center for further management.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with a chief complaint of persistent nausea for the past couple of days. Symptoms include ongoing nausea, multiple episodes of vomiting, diarrhea, difficulty eating and drinking, dry mouth and lips, and decreased urination, but no fever, chills, or body aches. The patient reports signs of dehydration such as dry mouth and reduced urine output. Relevant history regarding medications or chronic conditions is not specified in the dialogue provided. The clinical impression documented by the doctor is a likely mild gastrointestinal infection (stomach virus). The treatment plan focuses on preventing dehydration by recommending frequent small sips of clear fluids such as water, oral rehydration solutions, or clear broths, while avoiding sugary drinks and caffeine. The doctor advises seeking care if symptoms worsen (e.g., dizziness, inability to keep fluids down for more than 12 hours, blood in vomit or stool, or fever). No specific medication was prescribed during this visit.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.468
+- **Model Used**: general
+- **Text1 Length**: 136 words
+- **Text2 Length**: 154 words
+

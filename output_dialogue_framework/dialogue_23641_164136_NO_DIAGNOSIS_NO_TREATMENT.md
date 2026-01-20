@@ -98,3 +98,23 @@ For now, focusing on self-care—like getting enough rest, managing stress, and 
 ## Processing Information
 
 - **Processing Time**: 407.1s
+
+## EHR Summary
+
+The patient is an 89-year-old male presenting with sudden onset chest pain, nausea, diaphoresis, and a syncopal episode. Symptoms began while watching television and were associated with hypotension (BP 62/32), ST elevations in inferior leads, ST depressions in anterior/lateral leads, and third-degree heart block on ECG. Relevant history includes hypertension, obsessive compulsive disorder, depression, agoraphobia, peptic ulcer disease, and prostate cancer; he has no medication allergies. The documented diagnosis was acute inferior myocardial infarction with complete heart block and subsequent aspiration pneumonia and severe dysphagia. Treatment included thrombolysis, intubation, cardiac catheterization with stenting of the left circumflex artery, antiarrhythmic therapy (Amiodarone), antibiotics for pneumonia, aggressive diuresis, and tube feeding via nasogastric and later percutaneous endoscopic gastrostomy tube due to severe pharyngeal dysphagia. The patient’s cardiac status improved during hospitalization, but dysphagia remained a significant issue, prompting neurology consultation and ongoing NPO status. He was discharged in good condition on a gastrostomy tube diet with multiple medications including Captopril, Lasix, Metoprolol, Aspirin, Plavix (for 15 days), and Levofloxacin. Follow-up with his primary care physician was arranged through rehabilitation staff.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with the chief complaint of persistent speech difficulty. Symptoms include trouble getting words out, requiring pauses to think before speaking, and frustration during conversations, especially in group settings; these symptoms have been present for approximately two weeks without improvement or fluctuation throughout the day. The patient reports associated low mood since the onset of speech issues but denies other physical or cognitive changes. There is no mention of relevant past medical history, medications, or allergies.
+
+The clinical impression is mild speech difficulty, possibly related to language processing or articulation, with stress or low mood considered as contributing factors; neurological or psychological causes are also noted as considerations. The treatment plan includes monitoring for new symptoms (such as weakness or changes in understanding language), practicing self-care (adequate rest, stress management, and speaking slowly), and seeking further evaluation if symptoms worsen or new issues arise. The patient was advised to reach out for additional support if low mood persists or speech difficulties increase.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.388
+- **Model Used**: general
+- **Text1 Length**: 178 words
+- **Text2 Length**: 167 words
+

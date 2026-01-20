@@ -85,16 +85,21 @@ For now, continue drinking fluids—water or oral rehydration solutions are best
 
 ## EHR Summary
 
-The patient is a 58-year-old male who was found to be positive for Clostridioides difficile (C. difficile) toxin at the time of discharge. Symptom details related to the C. difficile infection are not specified in the note. Relevant history includes diabetes, as the patient received instructions from the diabetes team regarding insulin management. Clinical findings specifically mention the positive C. difficile toxin result. The documented diagnosis is C. difficile infection. Treatment included a 14-day course of oral Flagyl (metronidazole) and instructions to follow up with the primary care physician and specialists for infection management and suture removal. The patient was also instructed to use a carbohydrate-count-based sliding scale of insulin, take 18 units of Lantus nightly, monitor blood sugars closely, and report any significant abnormalities.
+The patient is a 58-year-old male who was found to be positive for Clostridioides difficile (C. difficile) toxin at the time of discharge. No specific symptoms related to the C. difficile infection are documented in this note. Relevant history includes diabetes, as the patient received instructions on insulin management and blood glucose monitoring. The documented diagnosis is C. difficile infection. Treatment included a 14-day course of oral Flagyl (metronidazole) and instructions to follow up with the primary care physician regarding the infection. The patient was also advised to follow up with ENT and endocrinology for suture removal and diabetes management, respectively. He was instructed to use a carbohydrate-count-based sliding scale for insulin, take 18 units of Lantus nightly, and monitor blood sugars closely.
+
 
 ## Dialogue Summary
 
-The patient presented with mild diarrhea as the chief complaint. They reported experiencing loose, watery stools three to four times per day for the past few days, with no blood in the stool, no fever, abdominal pain, or nausea, and no identifiable triggers related to food or drink. The diarrhea had remained stable without improvement or worsening, and the patient was able to maintain normal fluid and food intake without signs of dehydration such as thirst, lightheadedness, or dark urine. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted mild, short-term diarrhea without concerning features and suggested a likely benign cause such as a mild viral infection or minor dietary issue. The doctor advised maintaining hydration with water or oral rehydration solutions, eating light and bland foods, and avoiding dairy, caffeine, and greasy foods until symptoms resolve. The patient was instructed to monitor for warning signs including blood in stool, high fever, severe abdominal pain, or dehydration, and to seek further care if symptoms persist beyond a week or worsen. The patient understood and agreed with the recommendations.
+The patient is an adult presenting with mild diarrhea as the chief complaint. The diarrhea has been ongoing for a few days, with loose, watery stools occurring three to four times daily, without blood, fever, abdominal pain, or nausea. The patient reports no identifiable triggers and has maintained normal hydration and diet without signs of dehydration. There is no relevant past medical history, medications, or allergies documented. The clinical impression was mild, acute diarrhea without concerning features. The physician advised supportive care: maintaining hydration with water or oral rehydration solutions, eating light and bland foods, and avoiding dairy, caffeine, and greasy foods until symptoms resolve. The patient was instructed to monitor for warning signs such as blood in stool, high fever, severe pain, or dehydration, and to seek further evaluation if symptoms persist beyond one week or worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.940
-- **Similarity Label**: N/A
+- **STS Score**: 0.366
+- **Model Used**: general
+- **Text1 Length**: 123 words
+- **Text2 Length**: 138 words
+
 
 ## Processing Information
 

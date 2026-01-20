@@ -87,16 +87,23 @@ Let me know if you have any questions about what I’ve shared or if there’s a
 
 ## EHR Summary
 
-The patient is a 65-year-old man presenting with chest pain and shortness of breath. He reported these symptoms two days after discharge following aortic valve replacement and coronary artery bypass graft surgery, which were preceded by an admission for lethargy and headaches. His past medical history includes noninsulin dependent diabetes mellitus, hypertension, paroxysmal atrial fibrillation, left atrial thrombus, congestive heart failure with an ejection fraction less than 20%, right lower lobe mass, remote cerebrovascular accident, coronary artery disease, and cervical spinal stenosis. On readmission, he was found to be in congestive heart failure. Medications on admission included amiodarone, Lopressor, Glucotrol, Protonix, Neurontin, Lasix, and Coumadin. The documented diagnosis was congestive heart failure. Treatment included continuation of heart failure management and anticoagulation. The patient has no known drug allergies.
+The patient is a 65-year-old man presenting with chest pain and shortness of breath following recent cardiac surgery. He experienced symptoms of lethargy, headaches, and later developed dyspnea, abdominal distention, pain, and intermittent mental status changes during his hospital course. His history is significant for noninsulin dependent diabetes mellitus, hypertension, paroxysmal atrial fibrillation, left atrial thrombus, congestive heart failure (EF <20%), right lower lobe mass, prior cerebrovascular accident, coronary artery disease (status post CABG), and permanent pacemaker placement. On this admission, he was diagnosed with congestive heart failure and subsequently developed sternal wound infection (MRSA), urinary tract infection (Pseudomonas), and candidal infections. Treatment included intravenous diuretics, beta blockers, ACE inhibitors, antibiotics (Vancomycin, gentamicin, Cipro), antifungals (Fluconazole, Nystatin), wound debridement and closure with bilateral pectoral flaps, and supportive care for gastrointestinal symptoms. He also received insulin for glycemic control and other supportive medications. The patient’s condition improved with these interventions, and he was transferred for ongoing medical management.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain and difficulty catching breath. Symptoms included chest discomfort noticed a few days ago (stable, not improving or worsening), shortness of breath that worsens with activity and when lying flat, increased tiredness, headaches, swelling in both legs and ankles, abdominal pain, abdominal distention, and nausea. The patient reported needing extra pillows to sleep due to breathlessness, gradual onset of tiredness and breathlessness with activity, and difficulty performing daily activities due to fatigue and swelling. No relevant medical history, medications, or allergies were mentioned. Physical findings described by the patient included leg and ankle swelling and abdominal distention. The doctor assessed that these symptoms may be related to the heart struggling to keep up with the body's needs, possibly leading to fluid buildup. The doctor recommended prompt evaluation by the patient's primary care provider, monitoring weight daily, resting with feet elevated, and watching for worsening symptoms such as chest pain at rest, fainting, or severe shortness of breath; immediate care was advised if these occur.
+The patient presents with chest pain and shortness of breath as the main complaints. Symptoms began a few days ago and include chest discomfort, dyspnea that worsens with activity and when lying flat (orthopnea), increased fatigue, headaches, bilateral leg and ankle swelling, abdominal pain and distention, and nausea. The patient reports that these symptoms started simultaneously and have made daily activities more difficult, requiring frequent rest. There is no mention of prior medical history, medications, or allergies in the dialogue.
+
+The clinician’s assessment suggests possible heart dysfunction leading to fluid buildup as a likely cause of the symptoms, though no definitive diagnosis is documented. The treatment plan includes prompt follow-up with the patient’s primary care provider for further evaluation, possible testing, and medication review. The patient is advised to rest with feet elevated, monitor daily weight for fluid retention, and seek immediate care if severe symptoms develop. The patient is also encouraged to report abdominal symptoms to their primary doctor.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.546
+- **Model Used**: general
+- **Text1 Length**: 157 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

@@ -87,16 +87,23 @@ Let me know if you’d like to talk about other management options or ways to ma
 
 ## EHR Summary
 
-The patient is a 48-year-old female presenting with chronic discomfort and pain due to very enlarged uterine fibroids extending up to the umbilical level. She reported significant pain with bending and movement, and had begun experiencing hot flashes; her FSH level of 39 units indicated perimenopausal status. Her past medical history includes a seizure disorder (last seizure in 2106, on Dilantin 100 mg PO BID) and environmental allergies treated with daily Zyrtec. On physical examination and imaging, the uterus was noted to be significantly enlarged. The documented diagnosis was symptomatic uterine fibroids with perimenopausal symptoms. She underwent a supracervical hysterectomy, bilateral salpingo-oophorectomy, and evaluation of the left ureter to confirm patency, with a JP drain placed postoperatively. Final pathology results were pending at the time of discharge.
+The patient is a 48-year-old female presenting with chronic discomfort and pain due to very large uterine fibroids extending to the umbilical level. She reported significant pain with bending and movement, and had begun experiencing hot flashes; her FSH level of 39 units indicated perimenopausal status. Her past medical history includes a seizure disorder (last seizure in 2106) managed with Dilantin, and environmental allergies treated with Zyrtec. The documented diagnosis was symptomatic uterine fibroids, status post supracervical hysterectomy, bilateral salpingo-oophorectomy, and evaluation/repair of the left ureter. Postoperatively, she experienced mild ileus that resolved by day four, and her pain was managed initially with Dilaudid PCA, then Motrin and occasional Percocet. She received perioperative antibiotics, blood transfusion, DVT prophylaxis, and adjustments to her Dilantin dosing. At discharge, her bowel and bladder function had returned to normal, and she was prescribed Protonix, Dilantin, Zyrtec, Motrin, Percocet, Niferex, and a multivitamin with iron (to be started after bowel function fully returns). Follow-up appointments were arranged for staple removal, urology evaluation, Dilantin management, and primary care.
+
 
 ## Dialogue Summary
 
-The patient presented with discomfort and pain from an enlarged uterus due to fibroids. She described the pain as a constant low abdominal ache that worsens with bending or increased movement, and noted that resting provides some relief; the discomfort has persisted steadily for several months and interferes with daily activities at a level of 6 out of 10. She denied changes in menstrual bleeding, bowel or bladder habits, and additional pelvic pressure, but reported experiencing hot flashes without night sweats or changes in energy levels. No other relevant medical history, medications, or allergies were specified during the encounter. On examination, no new physical findings were described beyond the patient's reported symptoms. The doctor assessed that her steady low abdominal ache is likely due to the enlarged uterus from fibroids, with stable symptoms and possible hormonal changes indicated by hot flashes. The doctor recommended gentle physical activity, heat packs, and over-the-counter pain relief such as acetaminophen or ibuprofen if not contraindicated, and advised monitoring for new or worsening symptoms; further discussion of non-medication management options was offered at the patient's request.
+The patient is a woman presenting with discomfort and pain from an enlarged uterus due to fibroids as her chief complaint. She describes a constant, low abdominal ache that worsens with movement or bending and improves somewhat with rest; the discomfort has been steady for several months and rates as a 6 out of 10 in terms of interference with daily activities. She denies changes in menstrual bleeding, bowel or bladder habits, and pelvic pressure, but reports experiencing hot flashes without night sweats or changes in energy levels. Relevant history includes the presence of uterine fibroids and current use of unspecified medications.
+
+The clinical impression is that her symptoms are due to the enlarged uterus from fibroids, with possible hormonal changes suggested by hot flashes. The doctor advised conservative management including gentle physical activity, heat packs, and over-the-counter pain relief such as acetaminophen or ibuprofen if there are no contraindications. The patient was also counseled to monitor for new symptoms like sudden worsening pain, heavy bleeding, or urinary difficulties, which would require prompt attention. Further discussion about non-medication management options was offered at the patient’s request.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.602
+- **Model Used**: general
+- **Text1 Length**: 172 words
+- **Text2 Length**: 186 words
+
 
 ## Processing Information
 

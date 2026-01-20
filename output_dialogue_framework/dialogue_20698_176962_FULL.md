@@ -87,16 +87,21 @@ If the change persists or worsens, it may be helpful to have an in-person evalua
 
 ## EHR Summary
 
-The patient is a 61-year-old woman presenting for elective left internal carotid artery stent placement due to significant carotid artery stenosis. She has a history of right internal carotid artery stenosis (75–80%), left internal carotid artery stenosis (65–70%), and a previously coiled anterior communicating artery aneurysm. On examination, she was in no acute distress, with a right carotid bruit and mild right lip asymmetry with smile; other findings were unremarkable. The documented diagnosis was left internal carotid artery stenosis. She underwent successful left carotid artery stenting without intraoperative complications and was monitored postoperatively in the ICU. Her recovery was stable, with no changes in mental status and no groin hematoma after sheath removal. She was discharged home in stable condition with prescriptions for Plavix and aspirin, and instructed to follow up in two weeks.
+The patient is a 61-year-old woman presenting for left internal carotid artery stent placement due to significant carotid artery stenosis. She has a history of right internal carotid artery stenosis (75–80%), left internal carotid artery stenosis (65–70%), and a previously coiled anterior communicating artery aneurysm. On examination, she was in no acute distress, with a right carotid bruit and fine crackles at the lung bases that cleared with cough; neurologically, she had a decreased right lip movement with smile but otherwise normal findings. The documented diagnosis was left internal carotid artery stenosis. She underwent successful left carotid artery stent placement without intraoperative complications and was monitored postoperatively with stable vital signs and no mental status changes. At discharge, her condition was stable and her groin site was clean and intact. She was prescribed Plavix and aspirin and advised to follow up in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about decreased movement of the right side of their lip when smiling. They reported the change came on suddenly, has remained stable since onset, and denied any numbness, tingling, weakness elsewhere, trouble with speech, eating, drooling, or changes in eye closure or tearing. No history of recent infections, dental work, facial or head injury, or unusual sensations such as tightness or twitching was noted. The patient has no relevant medical history, medications, or allergies mentioned. On clinical review, the doctor noted isolated subtle asymmetry of the smile without other neurological deficits or functional impairment. The assessment was mild facial movement change without concerning features for more serious nerve involvement. The doctor recommended monitoring for new symptoms such as facial drooping, speech or swallowing difficulty, or limb weakness, and advised that no activity restrictions are needed at this time. If symptoms persist or worsen, an in-person evaluation was suggested.
+The patient is an adult presenting with concern about decreased movement of the right side of the lip when smiling. The symptom had a sudden onset and has remained stable without improvement or worsening. There are no associated symptoms such as numbness, tingling, weakness elsewhere, speech or eating difficulties, drooling, or changes in eye closure or tearing. The patient denies recent infections, dental work, facial or head injuries, and reports no abnormal sensations in the face. Relevant medical history, medications, and allergies are not specified. The clinical impression is a subtle change in unilateral facial movement without other neurological deficits, which is reassuring and less likely to represent a serious nerve issue. The treatment plan includes monitoring for new symptoms such as facial drooping, speech or swallowing difficulties, or limb weakness, with advice to seek urgent care if these develop. The patient was reassured and advised that no activity restrictions are necessary at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.909
-- **Similarity Label**: N/A
+- **STS Score**: 0.436
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 155 words
+
 
 ## Processing Information
 

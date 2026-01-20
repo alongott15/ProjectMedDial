@@ -98,3 +98,21 @@ For now, focus on sipping fluids like water or clear broth and avoid heavy meals
 ## Processing Information
 
 - **Processing Time**: 348.9s
+
+## EHR Summary
+
+The patient is a 57-year-old female presenting with crampy upper abdominal pain, nausea, and vomiting of several days' duration. Her symptoms included nonradiating upper abdominal pain, intermittent nausea, vomiting, and initial absence of flatus and bowel movements, later followed by diarrhea; she denied fevers, chills, or shortness of breath. Her past medical history is significant for insulin-dependent diabetes mellitus, morbid obesity (approximately 420 pounds), Meniere's disease, psoriasis, and a known ventral hernia; she has no known drug allergies and takes insulin. Imaging studies were inconclusive due to body habitus, but clinical findings and consults suggested a high-grade partial small bowel obstruction likely related to her ventral hernia. The documented diagnoses were high-grade partial small bowel obstruction, umbilical hernia, morbid obesity, insulin-dependent diabetes mellitus, and psoriasis. She underwent exploratory laparotomy with lysis of adhesions and mesh repair of the umbilical hernia without complications. Postoperatively, she received Lovenox for DVT prophylaxis, prophylactic Kefzol, and her diet was gradually advanced as tolerated. At discharge, she was in good condition, sent home with visiting nurse services for drain care, and prescribed Protonix, Colace, Percocet as needed for pain, continued insulin, and a seven-day course of Lovenox.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with crampy upper abdominal pain as the chief complaint. The pain is rated 6 out of 10 in severity, began suddenly a couple of days ago, and is accompanied by nausea, reduced appetite, vomiting, and diarrhea. The symptoms are not triggered by specific activities but are worsened by eating full meals; resting provides some relief. There is no reported blood in vomit or stool, and no alarming color changes were noted. Relevant medical history, medications, and allergies are not specified. The clinical impression is likely viral gastroenteritis or another acute irritant of the digestive tract, given the sudden onset and associated gastrointestinal symptoms without red-flag findings. The treatment plan includes rest, maintaining hydration with fluids like water or clear broth, and consuming bland foods as tolerated. The patient was advised to seek further care if symptoms worsen, new severe symptoms develop, or there is no improvement within another day or two.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.580
+- **Model Used**: general
+- **Text1 Length**: 192 words
+- **Text2 Length**: 157 words
+

@@ -89,16 +89,21 @@ Does that make sense? Is there anything else you’d like to clarify or talk thr
 
 ## EHR Summary
 
-The patient is a 73-year-old male presenting with worsening shortness of breath and cough. He developed an upper respiratory tract infection with progressive tachypnea and production of white sputum over two days, without fever, chills, or chest pain. His medical history includes chronic obstructive pulmonary disease (COPD) and chronic atrial fibrillation, with no prior intubation or BiPAP use. On admission, he was tachypneic (respiratory rate 40), tachycardic (heart rate 128), hypertensive (BP 146/86), and required high-flow oxygen to maintain saturation. Physical exam revealed use of accessory muscles, diffuse bilateral wheezing, dry mucous membranes, and irregular tachycardia. Chest x-ray showed evidence of pneumonia, and arterial blood gas demonstrated acidosis (pH 7.20), hypercapnia (CO2 67), and adequate oxygenation (PaO2 93). The documented diagnosis was COPD exacerbation with pneumonia. Treatment included Solu-Medrol, levofloxacin, albuterol nebulizers, fluids, and initiation of BiPAP, resulting in some improvement before transfer to the medical intensive care unit.
+The patient is a 73-year-old male presenting with worsening shortness of breath and cough associated with an upper respiratory tract infection. He experienced progressive tachypnea over several days, produced white sputum, and denied fevers, chills, or chest pain. His medical history includes chronic obstructive pulmonary disease (COPD) and chronic atrial fibrillation. On admission, he was tachypneic, tachycardic, and required supplemental oxygen; chest x-ray showed hyperinflated lungs without infiltrates or heart failure. The documented diagnosis was COPD exacerbation. Treatment included BiPAP ventilation, levofloxacin, Solu-Medrol, albuterol nebulizers, and supportive care; he also received management for alcohol withdrawal and atrial fibrillation. The patient improved with therapy, was weaned to nasal cannula oxygen, and remained stable on discharge. He was discharged on a regimen including prednisone, bronchodilators, metoprolol, warfarin, and other supportive medications, with plans for rehabilitation and primary care follow-up.
+
 
 ## Dialogue Summary
 
-The patient presented with cough and increasing difficulty breathing. Symptoms included a cough producing white sputum, progressive shortness of breath over several days, wheezing on inspiration and expiration, increased work of breathing with use of chest muscles, and swelling in the legs and ankles; these symptoms occurred even at rest and were worsening, impacting daily activities such as walking around the house and performing routine tasks. The patient denied fever, chest pain, runny or stuffy nose, sore throat, or waking up at night short of breath. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted worsening respiratory symptoms, wheezing, and peripheral edema. The assessment included possible causes such as asthma, chronic bronchitis, or heart-related fluid buildup, with concern for more than a simple upper respiratory infection due to the combination and progression of symptoms. The doctor recommended prompt in-person evaluation by a primary care provider or urgent care clinic for further assessment, advised rest and leg elevation, and instructed the patient to monitor for new symptoms such as chest pain, confusion, or severe shortness of breath and seek immediate attention if these occur.
+The patient is an adult presenting with the chief complaint of cough and increasing shortness of breath. Symptoms began a few days ago and have progressively worsened, with dyspnea occurring even at rest, increased effort of breathing, wheezing, production of white sputum, and new swelling in the legs and ankles; there is no fever, chest pain, or upper respiratory symptoms. The patient reports that these symptoms are significantly impacting daily activities such as walking and routine tasks. Relevant history regarding chronic conditions, medications, or allergies is not specified in the dialogue. The clinical impression discussed includes possible asthma or chronic bronchitis, but the presence of leg swelling and increased work of breathing raises concern for fluid overload potentially related to cardiac causes. No definitive diagnosis was documented. The treatment plan includes urgent in-person evaluation by a primary care provider or at an urgent care clinic for further assessment, including lung examination and oxygen level measurement. The patient was also advised to rest, elevate the legs when sitting, monitor for new symptoms such as chest pain, confusion, or severe shortness of breath, and seek immediate medical attention if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.655
+- **Model Used**: general
+- **Text1 Length**: 137 words
+- **Text2 Length**: 189 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ Let me ask—over the past day or two, has the output been trending back toward 
 
 ## EHR Summary
 
-The patient is a 74-year-old male presenting for curative resection of rectal adenocarcinoma following a history of rectal bleeding and biopsy-proven moderately differentiated adenocarcinoma. He reported rectal bleeding beginning in the previous year, with no additional acute symptoms documented at admission. Relevant history includes prostate cancer treated with radiation, hypercholesterolemia, and peptic ulcer disease; he takes Cardura and Lipitor and has no known drug allergies. On initial examination, he was afebrile, vital signs were normal, and no acute distress or abnormal findings were noted. Preoperative labs showed a hematocrit of 40.4. The documented diagnosis was rectal adenocarcinoma. He underwent a proctocolectomy with coloanal anastomosis and loop ileostomy without intraoperative complications, and postoperative care included pain control with an epidural catheter and gradual advancement of diet.
+The patient is a 74-year-old male presenting for curative resection of rectal cancer after evaluation for rectal bleeding revealed a moderately differentiated adenocarcinoma. He underwent a proctocolectomy with coloanal anastomosis and loop ileostomy, complicated postoperatively by high ostomy output, partial small bowel obstruction, abdominal pain, distension, emesis, and an anastomotic leak. His course included hypotension, sepsis with elevated white blood cell count, and decreased oxygen saturation, but no evidence of pulmonary embolism or intra-abdominal leak on imaging. Relevant history includes prostate cancer (treated with radiation), hypercholesterolemia, and peptic ulcer disease; medications at discharge included Lipitor, Heparin, Vitamin D, Zinc Sulfate, Protonix, Lopressor, Calcium Carbonate, and Imodium. The documented diagnoses were rectal cancer status post proctocolectomy with coloanal anastomosis and loop ileostomy, resolved partial small bowel obstruction, resolved postoperative leak, hyperlipidemia, and history of prostate cancer. Treatment involved surgical intervention, intravenous fluids, broad-spectrum antibiotics, nutritional support (TPN and tube feeds), percutaneous drainage of intra-abdominal fluid collections, and supportive care. At discharge, the patient was stable, afebrile, tolerating oral intake, and meeting nutritional needs. He was discharged in good condition to a rehabilitation facility for further recovery and instructed to follow up with colorectal surgery and urology.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about increased ileostomy output. They reported that the output has been more liquid than usual for several days, with no associated abdominal pain, cramping, fever, dizziness, dehydration symptoms, or skin irritation around the stoma site. The patient estimated the output was a bit higher than normal but not double, and noted no dietary triggers or changes in stoma appearance. Medical history, medications, and allergies were not discussed. On examination, the doctor noted the absence of warning signs and a healthy stoma site. The assessment was a mild increase in ileostomy output with more liquid consistency, likely due to minor gut changes or subtle hydration shifts, without evidence of infection or other complications. The doctor advised monitoring fluid intake closely and recommended oral rehydration solutions or drinks with salt and sugar if output remains high. The patient reported some formed stool mixed with liquid output over the past day, with no worsening of symptoms.
+The patient is an adult presenting with increased ileostomy output as the chief complaint. Over the past several days, the patient has experienced a noticeable but not doubled increase in ileostomy output, with the consistency being more liquid than usual; there is no associated abdominal pain, fever, dizziness, dehydration symptoms, or skin irritation around the stoma. The patient reports no dietary triggers and has not had difficulty maintaining normal activities, though is concerned about hydration. The stoma site appears healthy and unchanged. The clinical impression is a mild increase in ileostomy output, likely due to minor gut changes without evidence of infection or other acute illness. The physician advised monitoring fluid intake closely and recommended oral rehydration solutions or drinks with salt and sugar to help replace lost fluids and electrolytes if the output remains high. The patient was also advised to continue monitoring for any worsening symptoms or signs of dehydration.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.935
-- **Similarity Label**: N/A
+- **STS Score**: 0.417
+- **Model Used**: general
+- **Text1 Length**: 195 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

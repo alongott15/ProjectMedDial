@@ -98,3 +98,23 @@ Let me know if you have any questions about this or if there’s anything else y
 ## Processing Information
 
 - **Processing Time**: 399.3s
+
+## EHR Summary
+
+The patient is a 39-year-old female presenting one day after a normal vaginal delivery with lethargy, abnormal liver and kidney function, decreased urine output, fatigue, dizziness, and dull periumbilical epigastric pain over the preceding three to four days. She also reported bouts of nausea and vomiting during pregnancy, as well as vaginal discharge and constipation on review of systems. Her past medical history includes high cholesterol, and she has no known drug allergies. Laboratory findings revealed elevated liver enzymes, hyperbilirubinemia, coagulopathy, and acute kidney injury; physical exam showed mild scleral icterus and mild asterixis. The documented diagnosis was acute liver failure. Treatment included intensive care monitoring, frequent laboratory assessments, transfusions of fresh frozen plasma, packed red blood cells, cryoprecipitate, broad-spectrum antibiotics for prophylaxis, and lactulose. Extensive infectious workup was negative, and her liver function improved during hospitalization. She was discharged in good condition with no new medications and advised to follow up in one to two weeks.
+
+
+## Dialogue Summary
+
+The patient presents with a chief complaint of persistent fatigue. Over the past several days, they have experienced significant low energy impacting daily activities, accompanied by nausea, multiple episodes of vomiting, dizziness, and a constant dull soreness in the upper abdomen near the belly button. Rest provides some relief for the abdominal soreness, while eating and activity do not affect it; symptoms have remained stable without improvement or worsening. There is no mention of high fever, severe pain, or signs of dehydration at this time.
+
+The clinical impression is possible mild viral gastroenteritis or another mild cause of stomach upset, with no evidence of a severe underlying condition based on current symptoms. The treatment plan includes maintaining hydration with small sips of water or electrolyte drinks, resting, and trying bland foods as tolerated. The patient was advised to monitor for worsening symptoms, inability to keep fluids down for more than a day, or development of new concerning signs such as confusion or severe pain, and to seek urgent care if these occur.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.482
+- **Model Used**: general
+- **Text1 Length**: 157 words
+- **Text2 Length**: 172 words
+

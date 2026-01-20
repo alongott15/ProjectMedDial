@@ -87,16 +87,21 @@ Would you like help understanding what might happen during your evaluation, or d
 
 ## EHR Summary
 
-The patient is an 84-year-old female presenting with gastrointestinal bleeding. She reported maroon-colored stools for six days, fatigue, and shortness of breath, with blood mixed in the stool but no abdominal pain, nausea, vomiting, or hematemesis. Her medical history includes recently diagnosed acute myeloid leukemia (AML) on supportive care, atrial fibrillation with prior TIA on chronic Coumadin, polymyalgia rheumatica, osteoporosis, prior hip replacement, and mild-to-moderate Alzheimer dementia; she is allergic to amoxicillin. On admission, laboratory findings showed a hematocrit of 15.8, WBC of 45.8, and INR of 7.7; physical exam revealed maroon, guiac-positive stool but negative NG lavage, and she remained hemodynamically stable. A tagged RBC scan demonstrated brisk bleeding from the cecum. The clinical impression was lower gastrointestinal bleeding, possibly from the cecum. Treatment included transfusion of 1 unit PRBC, 2 units FFP, and 5 mg subcutaneous vitamin K; invasive procedures were avoided due to comorbidities.
+The patient is an 84-year-old female presenting with gastrointestinal bleeding, specifically maroon-colored stools for six days and associated fatigue and shortness of breath. She reported blood mixed in stool but denied abdominal pain, nausea, vomiting, hematemesis, or changes in bowel habits. Her history is significant for acute myeloid leukemia (AML) on supportive care, atrial fibrillation on chronic anticoagulation with coumadin, prior TIA, polymyalgia rheumatica, osteoporosis, and mild-to-moderate Alzheimer’s dementia; she is allergic to amoxicillin. On admission, laboratory studies revealed severe anemia (Hct 15.8), leukocytosis (WBC 45.8), and supratherapeutic INR (7.7); a tagged RBC scan localized brisk bleeding to the cecum. The documented diagnosis was lower gastrointestinal bleed, likely related to coagulopathy from anticoagulation and AML. She was treated conservatively with transfusions (PRBCs, FFP), vitamin K, and supportive care, with stabilization of hematocrit prior to discharge. She was also started on a 7-day course of oral levofloxacin for neutropenia and continued her home medications for atrial fibrillation and dementia. The patient was discharged in stable condition to an extended care facility with comfort-directed goals.
+
 
 ## Dialogue Summary
 
-The patient presented with maroon-colored stools and increased tiredness. Symptoms included maroon stool for the past few days (unchanged in color), fatigue severe enough to make daily activities difficult, and shortness of breath with exertion; the patient denied dizziness, lightheadedness, stomach pain, cramping, appetite changes, weight loss, fevers, or chills. Relevant history includes current use of Coumadin, Aricept, Detrol, Digoxin, Fosamax, Namenda, a multivitamin, and calcium with vitamin D, with no recent medication changes. No physical findings were described in the conversation. The doctor assessed that the maroon stool may indicate gastrointestinal bleeding, possibly from the lower intestines, and that the patient’s use of Coumadin increases the risk and severity of bleeding, which could explain the fatigue and shortness of breath due to possible anemia. The doctor recommended prompt evaluation—ideally today—by contacting a healthcare provider or going to urgent care or the emergency department for blood tests to assess for blood loss. The patient was also advised to seek immediate help if symptoms worsen (such as black, tarry stools, dizziness, fainting, or increased shortness of breath), and to rest and avoid strenuous activity in the meantime.
+The patient is an adult presenting with maroon-colored stools as the chief complaint. Over the past few days, the patient has also experienced increased fatigue that interferes with daily activities and new-onset shortness of breath with exertion. The patient denies abdominal pain, cramping, appetite changes, weight loss, fever, or chills. Relevant history includes use of Coumadin, Aricept, Detrol, Digoxin, Fosamax, Namenda, a multivitamin, and calcium with vitamin D, with no recent medication changes. The clinical impression is possible gastrointestinal bleeding leading to anemia, likely exacerbated by anticoagulation therapy (Coumadin). The physician advised urgent evaluation at an emergency department or urgent care to assess for ongoing blood loss and anemia. The patient was instructed to seek immediate care if symptoms worsen (such as black, tarry stools, dizziness, fainting, or increased shortness of breath) and to avoid strenuous activity until evaluated.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.973
-- **Similarity Label**: N/A
+- **STS Score**: 0.658
+- **Model Used**: general
+- **Text1 Length**: 173 words
+- **Text2 Length**: 139 words
+
 
 ## Processing Information
 

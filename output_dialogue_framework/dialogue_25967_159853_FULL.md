@@ -85,16 +85,21 @@ Let me know if you have any questions about this plan or want to discuss any oth
 
 ## EHR Summary
 
-The patient is a 72-year-old female presenting for management of an ascending thoracic aneurysm. She was found to have mild aortic insufficiency during outpatient cardiac catheterization prior to admission. Her past medical history includes sinus infections and aortic aneurysm, with prior pericardectomy and cesarean section; home medications included hydrochlorothiazide, atenolol, and Ecotrin. On admission, urinalysis revealed a urinary tract infection, for which she received three days of ciprofloxacin. Preoperative labs were within normal limits. The documented diagnosis was ascending thoracic aneurysm. She underwent surgical repair and replacement of the ascending aorta under general anesthesia on hospital day two. Postoperatively, she was managed with a Nipride drip and hydralazine for blood pressure control, transferred to the floor after stabilization, and participated in physical therapy; her hospital course was uncomplicated.
+The patient is a 72-year-old female presenting for management of an ascending thoracic aneurysm. She was found to have mild aortic insufficiency on outpatient cardiac catheterization prior to admission. Her past medical history includes sinus infections and aortic aneurysm, with prior pericardectomy and cesarean section; she is a former smoker with a family history of myocardial infarction. The documented diagnosis was ascending thoracic aneurysm. She underwent surgical repair and replacement of the ascending aorta under general anesthesia on hospital day two. During her hospital course, she was treated for a urinary tract infection with ciprofloxacin and managed postoperatively with blood pressure control and diuretics; her recovery was uncomplicated, and her sternal wound remained clean. At discharge, she was prescribed Motrin for pain (due to opioid allergy), Captopril, Atenolol, Aspirin, Lasix (for five days), Colace, and Protonix, with instructions to follow up with her primary care physician or cardiologist. The patient was discharged in good condition with no acute surgical issues.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about a urinary tract infection. She reported burning with urination and increased urinary frequency, as well as gradual swelling in her legs that worsens throughout the day, and loose stools for several days. She denied any shortness of breath, recent changes in diet, medications, or increased salt intake. No acute physical findings were described beyond the patient's reported symptoms. The doctor assessed that the urinary symptoms are consistent with a urinary tract infection, while the leg swelling is likely related to fluid retention or circulation, and the loose stools may be due to mild gut irritation or infection. The doctor recommended elevating her legs, staying hydrated, and monitoring for worsening swelling or new symptoms such as shortness of breath or chest discomfort. For the urinary symptoms, she was advised to drink fluids and empty her bladder regularly, and to seek care if symptoms worsen or new concerning signs develop.
+The patient presents with concerns about a urinary tract infection. She reports dysuria (burning with urination) and increased urinary frequency, as well as gradual-onset bilateral leg swelling that worsens throughout the day, and several days of loose stools. She denies shortness of breath, recent dietary or medication changes, or increased salt intake. The clinical impression is a urinary tract infection, with leg swelling likely related to fluid retention and loose stools possibly due to mild gut irritation or infection. The treatment plan includes recommendations to keep her legs elevated, stay hydrated, and monitor for worsening swelling or new symptoms such as shortness of breath or chest discomfort. She is also advised to drink plenty of fluids and empty her bladder regularly for the urinary symptoms, and to seek care if symptoms worsen or new concerning signs develop. No new medications or interventions were prescribed at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.925
-- **Similarity Label**: N/A
+- **STS Score**: 0.363
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 147 words
+
 
 ## Processing Information
 

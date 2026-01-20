@@ -85,16 +85,23 @@ If anything comes up again or if you have questions in the future, feel free to 
 
 ## EHR Summary
 
-The patient is a 36-year-old male presenting with acute onset of sharp, non-radiating chest pain, chills, weakness, and headache. Symptoms began four days prior to admission and were accompanied by laboratory findings of neutropenia (WBC 1,800), anemia (hematocrit 35.2), thrombocytopenia (platelets 134,000), elevated creatinine (1.1), and transaminitis (alkaline phosphatase 153, AST 83). He has a newly diagnosed HIV infection with a CD4 count of 15 and was placed on respiratory precautions. EKG showed T wave inversion in V1-V6 and RSR prime in V1; echocardiogram was normal. The documented diagnoses include newly diagnosed HIV, acute renal failure, hemolytic anemia, thrombocytopenia, and transaminitis. Treatment included initiation of highly active antiretroviral therapy, Bactrim prophylaxis, Neupogen for neutropenia, and empiric Ceftazidime (later discontinued). Further workup included lumbar puncture and bone marrow biopsy.
+The patient is a 36-year-old male presenting with acute renal failure, hemolytic anemia, thrombocytopenia, and transaminitis in the setting of newly diagnosed HIV. He reported four days of sharp, non-radiating chest pain, chills, weakness, headache, and later developed fevers up to 104°F, mild respiratory distress, and back pain. His medical history is notable for newly diagnosed HIV (CD4 count 15, viral load 50,000), no known drug allergies, and no prior outpatient medications. The documented diagnoses include disseminated histoplasmosis (Histoplasma duboisii), HIV with severe immunosuppression, idiopathic thrombocytopenic purpura, and chronic renal insufficiency; Kaposi's sarcoma was also identified on lymph node biopsy. Treatment included discontinuation of HAART and anti-tuberculous medications due to organ dysfunction, initiation of intravenous Ambazone for histoplasmosis, supportive transfusions (packed red blood cells, platelets, fresh frozen plasma), GCSF for leukopenia, and total parenteral nutrition. The patient’s condition improved after starting Ambazone, with resolution of fever and stabilization of laboratory parameters. Plans included continuation of Ambazone with possible transition to oral itraconazole upon discharge and close follow-up for HIV management and Kaposi's sarcoma.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about a fever that reached 101.3°F. The fever lasted for about a day and was the highest temperature recorded; the patient did not experience chills, sweating, sore throat, cough, body aches, or changes in appetite. A single lip ulcer was noted but has since healed, and the patient reported no prior history of similar ulcers. No lingering symptoms were present at the time of the visit, and the patient felt back to normal. On examination, no abnormal physical findings were described. The doctor assessed that the brief fever and lip ulcer were likely due to a mild viral infection or local irritation, and that the episode appeared benign given resolution of symptoms. The doctor recommended monitoring for any new or persistent symptoms, maintaining hydration and good oral hygiene, and advised reaching out if fevers recur or are accompanied by additional concerning signs. No further intervention was deemed necessary at this time.
+The patient is an adult presenting with the chief complaint of a recent fever, which reached 101.3°F and lasted for approximately one day. The patient denied associated symptoms such as sore throat, cough, body aches, chills, sweating, or appetite changes. A single lip ulcer was also reported but had healed by the time of the visit, and there was no prior history of similar ulcers. The patient reported feeling back to normal with no lingering symptoms.
+
+The clinical impression was that the brief fever and lip ulcer were likely due to a mild viral infection or local irritation, and the episode was considered benign. No specific treatment was prescribed. The patient was advised to stay hydrated, maintain good oral hygiene, and monitor for any new or persistent symptoms. The doctor recommended seeking further evaluation if fevers recur, last longer, or are accompanied by additional concerning symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.935
-- **Similarity Label**: N/A
+- **STS Score**: 0.382
+- **Model Used**: general
+- **Text1 Length**: 173 words
+- **Text2 Length**: 146 words
+
 
 ## Processing Information
 

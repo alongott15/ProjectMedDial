@@ -87,16 +87,21 @@ Would you like to talk more about ways to manage daily activities, or do you hav
 
 ## EHR Summary
 
-The patient is a female over 90 years old presenting with black stools. She reported two days of melena, associated with nausea and several days of epigastric/sternal pain, but denied vomiting, chest pain, shortness of breath, lightheadedness, or dizziness. Her medical history includes gastroesophageal reflux disease, peptic ulcer disease, hypertension, benign positional vertigo, dementia, depression, and normal pressure hydrocephalus; she takes Norvasc, Zoloft, aspirin, Os-Cal, Pepcid, Vioxx, and Miacalcin. On examination, she was in no apparent distress with stable vital signs and a soft, nontender abdomen; a II/VI systolic ejection murmur was noted. The electrocardiogram was normal. The clinical impression is gastrointestinal bleeding likely secondary to peptic ulcer disease. The treatment plan is not specified in the note.
+The patient is an elderly female presenting with black stools. She reported two days of melena, associated with nausea and several days of epigastric/sternal pain, but denied vomiting, chest pain, shortness of breath, lightheadedness, or dizziness. Her history includes gastroesophageal reflux disease, peptic ulcer disease, hypertension, multiple falls, benign positional vertigo, dementia, and depression; she has no known drug allergies and was taking Norvasc, Zoloft, aspirin, Os-Cal, Pepcid, Vioxx, and Miacalcin on admission. The documented diagnoses were upper gastrointestinal bleed (likely upper GI source), gastroesophageal reflux disease, hypertension, and urinary tract infection. She was treated with intravenous Protonix, held aspirin and Vioxx, received 4 units of packed red blood cells for anemia (hematocrit dropped to 27.4% then stabilized above 41%), and was managed with NPO status initially before advancing her diet. A urinary tract infection was treated with a three-day course of ciprofloxacin. Gastroenterology was consulted but endoscopy was deferred due to her advanced age and DNR/DNI status. She remained hemodynamically stable and was discharged back to her care facility with follow-up arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about trouble with memory and thinking. Symptoms included gradually worsening memory problems, difficulty managing daily tasks and remembering appointments, slowly progressing right-sided weakness, episodes of confusion about location or time, and occasional difficulty recognizing familiar people; the patient denied changes in mood or speech. No relevant medical history, medications, or allergies were mentioned. The patient described physical findings of right-sided weakness that has progressively worsened, without fluctuation. The doctor assessed that the patient is experiencing gradually worsening cognitive and physical symptoms affecting daily function, possibly related to changes in the brain such as small strokes, dementia, or other neurological conditions. The doctor recommended arranging basic tests including blood work and a possible brain scan to clarify the cause. Advice included maintaining routines, using reminders for important tasks, seeking help from family or friends, and monitoring for sudden worsening or new symptoms such as trouble speaking or severe confusion.
+The patient is an adult presenting with concerns about memory and thinking difficulties. Symptoms have gradually worsened over time and include impaired memory, episodes of confusion, difficulty recognizing familiar people, and increasing trouble managing daily tasks such as appointments and finances. The patient also reports slowly progressive right-sided weakness, but denies changes in mood or speech. There is no mention of relevant medical history, medications, or allergies. The clinical impression is that these symptoms may be related to brain changes affecting both movement and cognition, with possible causes including small strokes, dementia, or other neurological conditions. The doctor recommended basic tests, including blood work and a possible brain scan, to further evaluate the cause. Advice was given to maintain routines, use reminders for daily tasks, seek support from family or friends, and to seek immediate care if symptoms suddenly worsen or new severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.917
-- **Similarity Label**: N/A
+- **STS Score**: 0.420
+- **Model Used**: general
+- **Text1 Length**: 173 words
+- **Text2 Length**: 145 words
+
 
 ## Processing Information
 

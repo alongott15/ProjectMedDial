@@ -87,16 +87,21 @@ We should also check your prostate and possibly do a urine test to rule out any 
 
 ## EHR Summary
 
-The patient is a 74-year-old man presenting after a fall with urinary retention as the chief complaint. He reported decreased urine output, constipation, left leg weakness, dribbling, urgency without hematuria, and lack of balance since the fall; last bowel movement was several days prior. Relevant history includes prior TURP (2180), hypertension, polyneuropathy, status post volvulus, depression, bilateral hernia repair, and Charcot-Marie-Tooth disease. On exam, he had elevated blood pressure (210/92), suprapubic tenderness, diminished rectal tone, absent lower extremity reflexes, but intact motor strength and sensation. MRI revealed an intradural epidural mass at L5-S1, possibly a hematoma. The clinical impression was acute urinary retention likely related to the mass and/or neurological impairment. Treatment included placement of a Foley catheter (draining 700 cc clear yellow urine) to remain in place for two weeks and genitourinary consultation. No known allergies were documented; admission medications included Prilosec, Zoloft, and Wellbutrin.
+The patient is a 74-year-old man presenting after a fall with urinary retention, decreased urine output, constipation, left leg weakness, dribbling, and urgency without hematuria. Symptoms began two days prior to admission and included diminished rectal tone, suprapubic tenderness, and polyneuropathy with lack of balance; there was no chronic urinary retention or constipation prior to this episode. Relevant history includes prior TURP (2180), hypertension, depression, bilateral hernia repair, volvulus, and Charcot-Marie-Tooth disease. On admission, MRI revealed an intradural epidural mass at L5-S1, suspected to be a hematoma. The documented diagnosis was epidural hematoma causing neurologic symptoms and urinary retention. Treatment included L4-L5 laminectomy with decompression of the hematoma and primary dural repair, Foley catheter placement for urinary retention, and postoperative monitoring. The patient remained stable postoperatively, required rehabilitation prior to discharge, and was discharged with a Foley catheter in place, follow-up with urology for a voiding trial in one week, and neurosurgical follow-up in two to three weeks. Discharge medications included Zoloft, Zantac, Colace, Lopressor, Percocet as needed for pain, and Tylenol as needed.
+
 
 ## Dialogue Summary
 
-The patient presented with decreased urine output as the chief complaint. He reported a gradual reduction in urine volume over several days, with associated urinary urgency, dribbling, and difficulty passing urine, but denied any pain, burning, or swelling. He also noted constipation for a few days with less frequent bowel movements, but no bloating, abdominal discomfort, or changes in appetite. The patient mentioned longstanding left leg weakness and occasional imbalance, which has remained stable, and recently experienced a fever up to 102.3°F. On examination, there were no signs of leg swelling or shortness of breath. The doctor assessed that the urinary symptoms likely point toward a mechanical issue such as prostate enlargement rather than infection or kidney disease, with constipation possibly exacerbating symptoms. The doctor recommended increased hydration and dietary fiber for constipation, advised monitoring for new symptoms such as fever, severe pain, inability to urinate, or swelling, and suggested further evaluation including a prostate check and urine test if symptoms persist or worsen.
+The patient is an adult male presenting with decreased urine output as the chief complaint. He reports a gradual reduction in urine volume over several days, accompanied by urinary urgency, dribbling, and a sensation of incomplete bladder emptying, but denies dysuria, hematuria, abdominal pain, or swelling. He also notes recent constipation with less frequent bowel movements and longstanding left leg weakness that has not changed. There is no reported shortness of breath, appetite change, or peripheral edema. The patient mentions a recent fever up to 102.3°F and feeling off balance. The clinical impression is that his urinary symptoms are likely due to mechanical obstruction, possibly related to prostatic enlargement, rather than infection or renal pathology. The treatment plan includes maintaining hydration, increasing dietary fiber to address constipation, and monitoring for new symptoms such as fever, severe pain, urinary retention, or swelling. Further evaluation with a prostate exam and urinalysis was recommended if symptoms persist or worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.390
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ Does this plan make sense, and do you have any questions or concerns about what 
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with chest pain. He has a history of hypertension, hyperlipidemia, and heavy tobacco use. On admission, he was afebrile with stable vital signs, clear lungs, and a regular heart rhythm; there was a question of a right bruit but no other significant findings. Cardiac catheterization was positive, leading to the diagnosis of coronary artery disease requiring intervention. He underwent coronary artery bypass grafting (CABG) times five, including LIMA to LAD and multiple saphenous vein grafts. Postoperatively, he recovered well, was extubated, had his chest tube and Foley catheter removed, and was advanced to a regular diet. Physical therapy evaluated him for mobility, and he was cleared for stairs and discharge. He was discharged home in stable condition with instructions to follow up with his primary care physician and cardiologist within one to two weeks.
+The patient is a 61-year-old male presenting with chest pain in the cardiac catheterization lab. He reported no fever, had stable vital signs, and physical examination revealed clear lungs and a regular heart rate without murmurs; there was a question of a right bruit. His medical history includes hypertension, hyperlipidemia, and heavy tobacco use, and he was taking aspirin, Lipitor, Lopressor, and Plavix on admission. Cardiac catheterization was positive for coronary artery disease. The documented diagnosis was coronary artery disease requiring surgical intervention. He underwent coronary artery bypass grafting (CABG) times five, including LIMA to LAD and multiple saphenous vein grafts. Postoperatively, he recovered well, was extubated, had tubes removed, advanced to a regular diet, and cleared for mobility. He was discharged home in stable condition with instructions to follow up with his primary care physician and cardiologist in one to two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest discomfort had been present for a few days, came on gradually, and was described as a pressure-like sensation rated 6 out of 10 in severity, which worsened with physical activity (such as walking or climbing stairs) and improved with rest; it sometimes occurred even at rest. The patient also reported mild shortness of breath accompanying the chest pressure but denied sweating, lightheadedness, leg swelling, or difficulty lying flat at night. No relevant medical history, medications, or allergies were mentioned. On clinical questioning, the doctor noted the absence of additional concerning symptoms such as swelling or orthopnea. The doctor assessed that the pattern of chest pressure worsening with exertion and improving with rest could indicate angina, likely related to the heart not getting enough oxygen during activity. The doctor recommended avoiding strenuous activity and arranging prompt evaluation with tests such as an EKG and blood work to rule out heart-related issues, and advised seeking immediate care if symptoms worsen or new symptoms develop. The patient understood and agreed to follow these recommendations.
+The patient presents with chest pain as the chief complaint. The discomfort has been present for several days, described as a pressure-like sensation rated 6 out of 10 in intensity, which worsens with physical activity (such as walking or climbing stairs) and improves with rest; it sometimes occurs even at rest. Associated symptoms include mild shortness of breath during episodes of chest pressure, but no sweating, lightheadedness, leg swelling, or orthopnea were reported. There is no mention of relevant past medical history, medications, or allergies. The clinical impression documented is possible angina, with concern for cardiac ischemia given the exertional nature of symptoms. The treatment plan includes avoiding strenuous activity and arranging prompt evaluation with an EKG and blood work to rule out heart-related causes. The patient was also advised to seek immediate medical attention if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.597
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 142 words
+
 
 ## Processing Information
 

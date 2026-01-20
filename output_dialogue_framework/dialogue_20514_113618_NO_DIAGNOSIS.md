@@ -87,16 +87,21 @@ For the discomfort in your upper stomach, try eating smaller meals and avoid foo
 
 ## EHR Summary
 
-The patient is a 75-year-old female presenting with upper respiratory symptoms and a fall with head injury. She developed moderate epigastric pain and chest pain on the day of admission, along with headaches, double vision in the morning, nausea, and occasional chest pain over the past week. Her past medical history includes GERD, hypertension, osteoarthritis, type 2 diabetes, and hypercholesterolemia; she takes multiple medications and has no known drug allergies. On admission, her serum sodium was 116, and her mental status deteriorated, prompting transfer to the ICU for sodium correction (increased to 119), after which she became more alert. Physical exam revealed a right occipital hematoma, pinpoint pupils, a right-sided goiter, clear lungs, regular heart rhythm with a 2/6 systolic murmur, and no edema. A CT scan showed a suprasellar mass. The documented clinical impression included severe hyponatremia and a suprasellar mass. Treatment involved ICU monitoring and correction of hyponatremia, with transfer for further evaluation of the mass.
+The patient is a 75-year-old female presenting with upper respiratory symptoms, moderate epigastric and chest pain, and a recent fall with head injury. She reported headaches and double vision in the mornings for the past week, as well as nausea and occasional chest pain. Her past medical history includes GERD, hypertension, osteoarthritis, type 2 diabetes, and hypercholesterolemia; she has no known drug allergies. On admission, she was found to have hyponatremia (serum sodium 116), a right occipital hematoma, and a suprasellar mass on CT scan. The documented diagnoses were pituitary adenoma, urinary tract infection, and anemia. Treatment included salt tablets for hyponatremia, initiation of steroids, subcutaneous heparin for prophylaxis, and plans for elective transsphenoidal resection of the pituitary tumor. She was discharged home in stable condition with follow-up arranged with Endocrine and the clinic, and her discharge medications included folic acid, atorvastatin, famotidine, niacin, diltiazem, levothyroxine, Bactrim, ferrous sulfate, sodium chloride, and Percocet.
+
 
 ## Dialogue Summary
 
-The patient presented with pain in the chest and upper stomach area. The pain began a couple of days ago, has remained steady (not sudden or severe), and worsens with eating; it has made daily activities like walking and eating more difficult. The patient also reported recent upper respiratory symptoms without fever or shortness of breath, as well as nausea without vomiting. Relevant history includes a recent fall with head injury, followed by headaches and morning double vision, but no confusion or balance problems. On assessment, the doctor noted the steady discomfort could be related to indigestion or a mild infection, but emphasized concern for possible mild concussion or intracranial bleeding due to post-fall headaches and double vision. The doctor recommended an in-person evaluation as soon as possible, ideally today, and advised seeking immediate care if new symptoms such as confusion, weakness, trouble speaking, or worsening vision develop. For upper stomach discomfort, the doctor suggested eating smaller meals and avoiding aggravating foods until further evaluation.
+The patient presents with chest and upper abdominal pain as the chief complaint. The pain began a couple of days ago, has remained steady, and is worsened by eating; it is accompanied by some nausea but no vomiting. The patient also reports recent upper respiratory symptoms without fever or dyspnea. Notably, the patient had a recent fall with head injury, followed by persistent headaches and new-onset double vision, though there is no confusion or balance difficulty. The clinical impression includes possible indigestion or mild infection for the abdominal symptoms, but there is concern for mild concussion or intracranial bleeding due to post-fall headaches and double vision. The doctor recommends urgent in-person evaluation to rule out serious complications from the head injury. Additional advice includes eating smaller meals and avoiding aggravating foods until further assessment. The patient was instructed to seek immediate care if new neurological symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.400
+- **Model Used**: general
+- **Text1 Length**: 153 words
+- **Text2 Length**: 147 words
+
 
 ## Processing Information
 

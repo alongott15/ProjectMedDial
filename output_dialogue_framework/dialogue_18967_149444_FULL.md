@@ -85,16 +85,21 @@ Let me ask—do you recall about when these symptoms first started, even if it�
 
 ## EHR Summary
 
-The patient is a 72-year-old female presenting with progressive chest discomfort and shortness of breath. She reports right-sided chest pressure occurring daily for the past two years, both at rest and with exertion, consistently relieved by sublingual nitroglycerin. She also experiences worsening dyspnea on exertion, now triggered by walking as little as thirty feet on a flat surface. Her medical history includes coronary artery disease with a totally occluded right coronary artery, a 50–60% left circumflex lesion, and bilateral carotid stenosis (70–79%). On physical exam, she was alert and oriented, with a 2/6 holosystolic murmur at the left sternal border and bilateral carotid bruits; lungs were clear and peripheral pulses were intact. The most recent exercise treadmill test showed mild fixed anterior septal defect without ischemia and an ejection fraction of 57%. The documented clinical impression is progressive angina and dyspnea likely secondary to coronary artery disease. She continues on medical management and is scheduled for further carotid testing and radiology.
+The patient is a 72-year-old woman presenting with progressive chest discomfort and shortness of breath. Her chest discomfort, described as right-sided chest pressure, has been present for two years and now occurs daily at rest and with exertion, always relieved by sublingual nitroglycerin. She also reports worsening dyspnea on exertion, triggered by minimal activity such as walking thirty feet on a flat surface. Relevant history includes coronary artery disease (with prior angiography showing total right coronary artery occlusion and significant left circumflex lesion), carotid artery disease (bilateral 70–79% stenosis), hypertension, hyperlipidemia, diabetes with neuropathy, and hypothyroidism. Cardiac catheterization revealed 50% left main stenosis, 80% mid left circumflex stenosis, and proximal right coronary artery occlusion. The documented plan was to proceed with carotid endarterectomy (CEA) prior to coronary artery bypass grafting (CABG) as coordinated between cardiothoracic and vascular surgery teams. She was scheduled for further carotid testing and radiology evaluation. No new medications or acute interventions were documented during this admission.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort that has been worsening over the past few weeks. Symptoms include a pressure sensation mainly on the right side of the chest, which builds up gradually with physical activity and is accompanied by shortness of breath and increased fatigue during exertion; symptoms improve with rest and have not been associated with sweating or radiation to the arm, neck, or jaw. The patient reported needing to slow down daily activities due to these symptoms. No relevant medical history, medications, or allergies were mentioned. On clinical assessment, the doctor noted that the symptoms—gradually worsening chest pressure with activity and improvement with rest—may indicate cardiac or pulmonary strain, such as angina or other cardiac concerns, despite the atypical right-sided presentation. The doctor advised the patient to avoid strenuous activities until further evaluation and recommended seeking urgent care if sudden severe chest pain, fainting, new sweating, or nausea occur. The patient understood the assessment and was instructed to monitor for warning signs while awaiting further tests.
+The patient is an adult presenting with chest discomfort as the chief complaint. The discomfort is described as a pressure sensation, primarily on the right side of the chest, that worsens with physical activity and improves with rest. Associated symptoms include exertional shortness of breath and increased fatigue during daily activities, with no radiation of pain or associated sweating. The symptoms have been present for several weeks and are progressively worsening, now limiting the patient's ability to perform household chores and climb stairs. Relevant history regarding past medical conditions, medications, or allergies was not specified. The clinical impression documented by the physician is that the symptoms are concerning for possible angina or other cardiac concerns, despite the atypical right-sided location. The treatment plan includes avoiding strenuous activities until further evaluation and instructions to seek urgent care if severe chest pain, fainting, sweating, or nausea occur. The physician also recommended further diagnostic evaluation to clarify the underlying cause.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.556
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

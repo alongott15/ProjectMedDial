@@ -186,3 +186,23 @@ If anything changes before your appointment, please seek care quickly. Otherwise
 ## Processing Information
 
 - **Processing Time**: 423.9s
+
+## EHR Summary
+
+The patient is a 79-year-old male presenting with chest pain and acute myocardial infarction (MI). He reported a nine-month history of daily right-sided, non-radiating stabbing chest pain that acutely worsened with radiation to his right shoulder while at rest, without associated diaphoresis, nausea, vomiting, shortness of breath, or palpitations. His medical history includes diabetes mellitus, hypertension, prior pulmonary embolism and IVC filter placement, benign prostatic hyperplasia, and a syncopal episode. The documented diagnosis was inferior myocardial infarction status post cardiac catheterization and stenting of the right coronary artery. Treatment included emergent percutaneous coronary intervention with stent placement, antiplatelet therapy (aspirin, clopidogrel), statin, beta-blocker (lopressor), losartan, and adjustment of warfarin dosing. Diabetes medications were temporarily held and managed with insulin sliding scale during admission. The patient was discharged in good condition with instructions to resume outpatient diabetes medications and follow up for coumadin management and cardiology care.
+
+
+## Dialogue Summary
+
+The patient is an adult with a history of cardiac disease and prior stent placement presenting with several months of right-sided chest pain, occasionally radiating to the right shoulder. The chest discomfort is chronic, sometimes worsens with exertion, and has occasional acute episodes; there are no associated symptoms such as dyspnea, palpitations, or diaphoresis. The physician notes that while some features suggest a musculoskeletal or non-cardiac cause, the patient’s cardiac history and exertional nature of the pain raise concern for possible cardiac involvement. No definitive diagnosis is documented at this time.
+
+The treatment plan includes prompt evaluation with an EKG and blood tests to assess for cardiac causes. The patient is advised to monitor for new or worsening symptoms such as severe chest pressure, sudden shortness of breath, or syncope, and to seek immediate medical attention if these occur. Until further evaluation, the patient should avoid activities that trigger the pain and remain active within their comfort level. Ongoing communication is encouraged if symptoms change or questions arise.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.653
+- **Model Used**: general
+- **Text1 Length**: 146 words
+- **Text2 Length**: 168 words
+

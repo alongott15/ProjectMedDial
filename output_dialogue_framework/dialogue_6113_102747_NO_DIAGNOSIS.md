@@ -87,16 +87,21 @@ Let me know if you have any questions about managing the site or what to watch f
 
 ## EHR Summary
 
-The patient is a 67-year-old female presenting with ongoing drainage from her sternum. She has a history of aortic valve replacement and coronary artery bypass grafting with prior sternal dehiscence and bilateral pectoral flap repair, and previously required removal of an extruding suture and superficial pledgets for sternal wound drainage. Her past medical history includes congestive heart failure, cholelithiasis, headaches, osteoarthritis, uterine fibroids, psoriasis, and obesity. On examination, she was obese with a well-healed sternum except for a 1 cm opening at the superior aspect, slight oropharyngeal erythema, and mild bilateral pedal edema; vital signs were stable. The clinical impression was persistent sternal wound drainage following prior cardiac surgery and wound complications. Her medications included metoprolol, aspirin, lisinopril, furosemide, and Lipitor. No known drug or dietary allergies were documented. The treatment plan during this admission is not specified in the note.
+The patient is a 67-year-old female presenting with ongoing drainage from her sternum. She reported persistent sternal wound drainage following prior aortic valve replacement, coronary artery bypass grafting, and pectoral flap repair, with a history of sternal dehiscence and previous wound interventions. On examination, there was a 1 cm opening at the superior aspect of the healed sternum with scant serosanguinous drainage, and mild bilateral pedal edema was noted. Her past medical history includes congestive heart failure, obesity, cholelithiasis, osteoarthritis, uterine fibroids, psoriasis, and headaches; she takes metoprolol, aspirin, lisinopril, furosemide, and Lipitor, with no known drug or dietary allergies. The documented diagnosis was draining sinus of the sternum status post cardiac surgery with staph aureus infection. She underwent deep sternal exploration with removal of infected pledgets and was treated postoperatively with vancomycin followed by a planned two-week course of oral linezolid. At discharge, she was stable and alert, with a JP drain in place and follow-up arranged for wound care and laboratory monitoring.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent drainage from the sternum area following previous heart surgery and a pectoral flap procedure. The drainage has been ongoing since the site reopened after initially healing, and is described as clear, watery, odorless, and not associated with redness, swelling, warmth, tenderness, thickening, or crust formation. The patient denied any interference with daily activities, recent injuries or surgeries, systemic symptoms such as fever or fatigue, and new discomfort elsewhere. Relevant history includes heart surgery and pectoral flap with prior healing difficulties in the affected area; no new procedures or injuries were reported. On examination, there were no signs of infection or inflammation at the site. The doctor assessed the drainage as likely chronic serous drainage related to incomplete tissue sealing post-surgery, with no current evidence of infection. The treatment plan included advice to keep the area clean and dry, monitor for changes such as increased redness, swelling, pain, or changes in drainage characteristics, and to contact the healthcare team if any concerning symptoms develop. The patient expressed understanding of the recommendations and agreed to follow up if needed.
+The patient is an adult with a history of heart surgery and pectoral flap presenting with persistent drainage from the sternum area. The drainage began after the surgical site reopened following initial closure and has been ongoing without significant change in amount. The patient reports the drainage is clear, watery, odorless, and not associated with redness, swelling, warmth, tenderness, fever, fatigue, or interference with daily activities. There is no history of recent injuries or new procedures in the area. The clinical impression is chronic serous drainage from the surgical site without current signs of infection. The treatment plan includes gentle cleansing of the area, keeping it dry, and monitoring for any changes such as increased redness, swelling, pain, or changes in the drainage’s color or odor. The patient was advised to contact the healthcare team promptly if any concerning symptoms develop. No new medications or interventions were initiated at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.975
-- **Similarity Label**: N/A
+- **STS Score**: 0.679
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

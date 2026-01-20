@@ -93,16 +93,21 @@ Does that sound reasonable to you? And do you have any questions about what weâ€
 
 ## EHR Summary
 
-The patient is a 74-year-old male presenting with nocturnal dyspnea and minimal chest discomfort. Symptoms included shortness of breath at night and mild chest pain, without associated nausea, vomiting, or diaphoresis; oxygen saturation dropped to 88% on three liters. Relevant history includes type 2 diabetes mellitus, hypertension, hyperlipidemia, mild COPD, and a positive smoking history; no known drug allergies. On examination, he was afebrile with stable vital signs, rhonchorous breath sounds, and a cardiac murmur at the apex. Laboratory findings showed elevated white blood cell count (13.0), troponin of 0.4, and EKG with sinus tachycardia and flipped T waves in V3â€“V6; chest x-ray revealed left atrial enlargement. The documented diagnosis was congestive heart failure and acute myocardial infarction due to multi-vessel coronary artery disease. Treatment included diuretics (Lasix), heparin, nitroglycerin, Lopressor, and ultimately coronary artery bypass grafting (CABG x3) with aortic valve replacement. The patient was monitored on telemetry throughout his hospital course.
+The patient is a 74-year-old male presenting with nocturnal dyspnea and minimal chest discomfort. Symptoms included shortness of breath at night, mild chest pain, and oxygen desaturation to 88% on three liters, without associated nausea, vomiting, or diaphoresis. Relevant history includes type 2 diabetes mellitus, hypertension, high cholesterol, mild COPD, and a positive smoking history; there are no known drug allergies. On admission, he was found to be in congestive heart failure and subsequently ruled in for a myocardial infarction with multi-vessel coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) times three and aortic valve replacement, followed by an uncomplicated postoperative recovery except for a slow air leak requiring prolonged chest tube suction. He was discharged in stable condition to a rehabilitation facility. Discharge medications included Lopressor, Metformin, Protonix, Lipitor, Glyburide, Vicodin as needed, aspirin, Lasix, and potassium. Follow-up with primary care and cardiology was advised within one to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with nighttime breathing trouble that has been occurring for several nights and causing discomfort. Symptoms include difficulty breathing at night that wakes the patient from sleep, mild and dull chest discomfort that comes and goes, and increased daytime tiredness; the breathing trouble improves when sitting up with pillows and occurs regardless of activity or position. The patient denied swelling in the legs, cough when lying down, or significant daytime shortness of breath. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the symptoms could be related to fluid shifts when lying flat, airway changes during sleep, mild nasal congestion, reflux, or age-related heart or lung changes, but found it reassuring that there was no swelling, cough, or worsening symptoms. The doctor recommended monitoring symptoms, sleeping with extra pillows, and avoiding eating before bed. The patient was advised to seek medical attention if new or worsening symptoms develop, and to consider further evaluation if symptoms persist beyond one to two weeks or interfere more with daily life.
+The patient presents with nighttime shortness of breath as the chief complaint. Symptoms include several nights of difficulty breathing while lying flat, mild and intermittent dull chest discomfort, and increased daytime tiredness; the breathing trouble improves when sitting up with pillows and is not associated with leg swelling, cough, or significant daytime dyspnea. No specific triggers for the symptoms were identified, and the symptoms have remained stable over the past few nights. Relevant history, medications, and allergies are not specified in the dialogue. The clinical impression is that the symptoms may be related to mild fluid shifts, airway changes during sleep, nasal congestion, mild reflux, or age-related heart or lung changes, but no urgent or serious condition is suspected based on the current presentation. The treatment plan includes monitoring symptoms, sleeping with extra pillows, avoiding eating before bed, and seeking medical attention if more severe symptoms develop (such as persistent chest pain, leg swelling, worsening breathlessness, or faintness). The patient is advised to follow up if symptoms persist beyond one to two weeks or worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.497
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

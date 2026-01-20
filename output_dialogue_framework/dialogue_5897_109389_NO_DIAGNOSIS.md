@@ -93,16 +93,21 @@ Let me know if you’d like more details on any of these strategies or have othe
 
 ## EHR Summary
 
-The patient is a 31-year-old male presenting with a chief complaint of headache for 4 years, worsening over the last 3 months. His symptoms led to the discovery of an aneurysm of the left internal carotid artery (ICA). Relevant history includes no mention of prior medical conditions, medications, or allergies. On physical examination, he was in no acute distress, with a positive left carotid bruit but otherwise normal neurologic and systemic findings. The documented diagnosis was left ICA aneurysm. He underwent stenting of the left ICA and subsequent coiling of the aneurysm without complications, aside from a single episode of epistaxis and transient back pain. The patient was discharged home in stable condition. Discharge medications included aspirin 325 mg and Plavix.
+The patient is a 31-year-old male presenting with a chief complaint of headache for 4 years, worsening over the last 3 months. His symptoms were associated with the discovery of an aneurysm of the left internal carotid artery (ICA). Relevant history includes no acute distress on exam, a positive left carotid bruit, and no neurologic deficits. The documented diagnosis was left ICA aneurysm. He underwent stenting of the left ICA and subsequent coiling of the aneurysm without complications, aside from one episode of epistaxis that resolved with conservative measures and transient back pain thought to be due to a passed kidney stone. Discharge medications included aspirin 325 mg, Plavix 75 mg, and Percocet 5-325 mg. The patient was discharged home in stable condition with instructions to follow up in 2 weeks and obtain an MRI of the neck prior to his appointment.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening headaches over the past few months. Symptoms included difficulty focusing at work due to headaches, occasional nosebleeds (a couple times a week, small amount of blood, no clear triggers), and intermittent dull lower back pain. The nosebleeds began after the onset of headaches and back pain, and the patient denied any vision changes during headaches. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the gradual development of symptoms and considered possible causes such as changes in blood pressure, dry nasal passages, minor blood vessel irritation, or stress, with reassurance given regarding the mild nature of nosebleeds. The doctor recommended monitoring for new or worsening symptoms (such as severe bleeding, vision changes, weakness, or chest pain), keeping nasal passages moist with saline spray, staying hydrated, and using over-the-counter pain relievers like acetaminophen for headache management. Additional advice included taking breaks in quiet environments, maintaining regular sleep, gentle stretching, and stress reduction techniques.
+The patient is an adult presenting with worsening headaches over the past few months as the chief complaint. The headaches have increasingly affected concentration and work performance, and are accompanied by intermittent lower back pain (described as a dull ache that comes and goes) and mild, infrequent nosebleeds (a couple of times per week, small amount, no clear triggers). The nosebleeds began after the onset of headaches and back pain. There are no associated vision changes. Relevant medical history, medications, and allergies are not specified. The clinical impression suggests possible causes such as dry nasal passages, minor blood vessel irritation, blood pressure changes, or stress, but no definitive diagnosis is documented. The treatment plan includes monitoring for new or worsening symptoms (such as severe bleeding, vision changes, weakness, or chest pain), using saline nasal sprays and hydration to reduce nosebleeds, and managing headaches with over-the-counter acetaminophen, rest in a quiet environment, regular sleep, gentle stretching, and stress reduction techniques. The patient was advised to seek prompt care if symptoms worsen or new concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
+- **STS Score**: 0.480
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

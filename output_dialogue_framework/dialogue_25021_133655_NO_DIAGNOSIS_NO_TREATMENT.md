@@ -191,3 +191,21 @@ Is there anything about your daily routine or activities that you'd like advice 
 ## Processing Information
 
 - **Processing Time**: 431.3s
+
+## EHR Summary
+
+The patient is a 79-year-old male presenting with chest pain and acute myocardial infarction (MI). He reported nine months of daily right-sided stabbing chest pain, which acutely worsened with radiation to his right shoulder while at rest, without associated diaphoresis, nausea, vomiting, shortness of breath, or palpitations. His medical history includes diabetes mellitus, hypertension, prior pulmonary embolism and IVC filter placement, benign prostatic hyperplasia, and a syncopal episode. Electrocardiogram in the emergency department showed ST-elevations in leads III>II, aVF, and ST-depressions in aVL; cardiac catheterization revealed significant coronary artery disease with a fresh distal occlusion of the right coronary artery, which was treated with stenting. The documented diagnosis was inferior myocardial infarction status post cardiac catheterization and stenting. Treatment included aspirin, clopidogrel, losartan, metoprolol, statin, and adjustment of warfarin dosing; diabetes medications were held during admission and later resumed. The patient was observed in the CCU due to elevated INR and had an uneventful recovery, remaining pain-free for the rest of the hospital stay. He was discharged home in good condition with instructions to continue medications as advised and follow up in the coumadin clinic and cardiac clinic.
+
+
+## Dialogue Summary
+
+The patient is an adult with a history of coronary artery disease, prior myocardial infarction, and recent stent placement, presenting with concerns about chest discomfort. The chest pain is described as exertional, sometimes radiating to the shoulder, and occasionally stabbing in nature; the patient reports anxiety related to these symptoms but notes that the pain is less severe than before and has not worsened recently. There are no new symptoms such as shortness of breath, palpitations, or lightheadedness reported, and the patient is adherent to prescribed cardiac medications. The clinical impression is that the symptoms may represent angina or reduced cardiac blood flow, given the exertional nature and cardiac history, though atypical features are noted. The treatment plan includes continued adherence to heart medications, regular follow-up with cardiology, monitoring for warning signs (such as worsening pain, pain at rest, fainting, or new dyspnea), and maintaining a heart-healthy lifestyle with appropriate physical activity. The doctor also emphasizes the importance of stress management and routine symptom monitoring. The patient is advised to seek prompt medical attention if symptoms change or worsen. No medication changes or new interventions are documented at this time.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.681
+- **Model Used**: general
+- **Text1 Length**: 188 words
+- **Text2 Length**: 190 words
+

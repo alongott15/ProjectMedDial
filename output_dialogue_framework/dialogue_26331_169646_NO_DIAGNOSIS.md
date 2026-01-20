@@ -96,3 +96,21 @@ For now, try to get plenty of rest and avoid activities that could put you at ri
 ## Processing Information
 
 - **Processing Time**: 400.9s
+
+## EHR Summary
+
+The patient is a 51-year-old male presenting with persistent drainage from a cranial incision, increasing headache, and nausea following prior resection of a frontal astrocytoma with Gliadel placement. His symptoms included ongoing wound drainage, headaches relieved by Percocet, and a subsequent deterioration in mental status characterized by sleepiness but maintained arousability. Relevant history includes steroid-induced diabetes, prior tumor resections, radiation therapy, and tracheostomy removal. The clinical course was complicated by a wound infection with gram-positive cocci and increased intracranial pressure due to cerebrospinal fluid accumulation under the incision. The documented diagnoses were wound infection and recurrent brain tumor. Treatment included incision and drainage with removal of the cranial bone flap, vent drain placement, right temporal craniotomy for tumor excision, intravenous Vancomycin, and supportive therapies including physical and occupational therapy. The patient was stable at discharge, with plans for continued intravenous antibiotics, rehabilitation, and follow-up for further radiation and likely chemotherapy.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with progressive weakness in the left arm as the chief complaint. The weakness has developed gradually over time and is worsening, without associated numbness, tingling, or changes in coordination, speech, vision, or swallowing. The patient also reports increased daytime sleepiness that is interfering with daily activities, with no identifiable triggers or alleviating factors. There is no history of recent infections or changes in medical history; the only current medication is Dilantin. No side effects such as balance problems, vision changes, or unusual movements were reported. The clinical impression includes possible Dilantin level abnormalities or other neurological causes for the symptoms. The treatment plan includes ordering a Dilantin blood level and performing a neurological examination, with instructions to seek urgent care if new symptoms such as speech difficulty, severe headache, confusion, or spreading weakness occur. The patient was also advised to rest and avoid activities that could be unsafe due to arm weakness.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.255
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 158 words
+

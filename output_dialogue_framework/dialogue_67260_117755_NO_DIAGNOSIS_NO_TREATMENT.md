@@ -89,16 +89,23 @@ Let me know if you have any questions about what I’ve explained or if there’
 
 ## EHR Summary
 
-The patient is a 44-year-old male presenting with bright red blood per rectum and dizziness. He reported maroon stools for three days, a recent syncopal episode at home, and had started taking aspirin in the past month. His medical history includes hypertension, dyslipidemia, and obstructive sleep apnea on CPAP; he has no known drug allergies. On admission, he was diaphoretic, very pale, and hypotensive (systolic BP in the 80s), with improvement after transfusion of two units of PRBCs (BP increased to 100s, improved color and diaphoresis). Physical exam revealed grossly positive blood on rectal exam without masses or hemorrhoids, and mildly positive nasogastric lavage. The documented diagnosis was gastrointestinal bleeding status post open gastric bypass with recent aspirin use. Treatment included transfusion of PRBCs and supportive care.
+The patient is a 44-year-old male presenting with bright red blood per rectum and dizziness. He reported maroon stools for three days, a recent syncopal episode at home, and had started taking aspirin in the past month; on admission, he was diaphoretic, pale, and hypotensive, with a hematocrit of 23.8. His past medical history includes hypertension, dyslipidemia, and obstructive sleep apnea on CPAP, with no known drug allergies. On examination, rectal exam revealed grossly positive blood without masses or hemorrhoids, and laboratory studies showed anemia. The documented diagnosis was gastrointestinal bleed, attributed to an ulcer at the gastrojejunal anastomosis found on EGD. Treatment included transfusion of packed red blood cells, nasogastric lavage, and initiation of sucralfate and pantoprazole. He was advanced through bariatric diet stages with stable hematocrit and discharged home in stable condition. Follow-up with his physician and a repeat endoscopy were arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with bright red blood during bowel movements, which was the main reason for the visit. The bleeding was noted in the toilet bowl and sometimes mixed with stool, and had been occurring for a couple of days. The patient also reported dizziness since the onset of bleeding, including a brief loss of consciousness accompanied by sweating and appearing pale, but denied constipation, diarrhea, or pain with defecation. No black or tarry stools were reported, and both the amount of blood and dizziness had remained stable. The doctor assessed that the bleeding was likely from the lower digestive tract, possibly due to hemorrhoids or a small tear, but expressed concern due to the episode of fainting, which could indicate a reaction to blood loss or low blood pressure. The doctor recommended prompt medical evaluation today to check blood count and assess for ongoing bleeding, advising rest, hydration, and avoidance of strenuous activity in the meantime. The patient was instructed to seek emergency care if symptoms worsened or new concerning signs developed.
+The patient is an adult presenting with bright red blood per rectum as the chief complaint. The bleeding has been present for a couple of days, appears in the toilet bowl and sometimes mixed with stool, and is not associated with pain, constipation, or diarrhea. The patient reports associated dizziness and experienced a brief loss of consciousness with sweating, but has not noticed black or tarry stools. There is no mention of relevant past medical history, medications, or allergies.
+
+The clinical impression is lower gastrointestinal bleeding, likely from a benign cause such as hemorrhoids or a small tear, given the absence of pain or bowel habit changes; however, the episode of syncope raises concern for significant blood loss or hypotension. The physician advised prompt medical evaluation today for blood count assessment and to rule out ongoing bleeding. Supportive recommendations included rest, avoiding strenuous activity, maintaining hydration, and seeking emergency care if symptoms worsen (e.g., increased bleeding, weakness, chest pain, or dyspnea).
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.680
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

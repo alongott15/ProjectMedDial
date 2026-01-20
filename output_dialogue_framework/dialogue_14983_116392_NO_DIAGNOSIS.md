@@ -98,3 +98,21 @@ Does that sound reasonable? Any questions about what we’ve discussed?
 ## Processing Information
 
 - **Processing Time**: 414.6s
+
+## EHR Summary
+
+The patient is a 59-year-old male presenting with left ankle pain following an ankle fracture. On admission, the left ankle was swollen but neurovascularly intact. His relevant history includes a 60 pack-year tobacco history (quit 15 years ago), past alcohol abuse, and family history of hypertension and coronary artery disease. The documented diagnosis was right ankle fracture. He underwent open reduction and internal fixation (ORIF) of the left ankle and had an uncomplicated postoperative course. Discharge medications included oxycodone-acetaminophen for pain, enoxaparin for thromboprophylaxis, colace for constipation, and several chronic medications (quinapril, isosorbide mononitrate, atorvastatin, metoprolol succinate, citalopram). He was advised to keep incisions clean and dry, avoid weight-bearing on the right leg, elevate the leg, and follow up in two weeks for suture removal. Home care services and physical therapy were arranged, with instructions for daily dressing changes and monitoring for signs of infection or complications.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with left ankle pain as the chief complaint. The discomfort began gradually without a remembered injury and has persisted for a few days. Symptoms include noticeable swelling around the ankle joint, aching pain rated 6 out of 10, and worsening with weight-bearing activities such as walking or standing, but improving with rest; there is no radiation of pain into the foot or leg. There is no mention of relevant medical history, medications, or allergies. The clinical impression is new-onset ankle discomfort and swelling likely due to mild inflammation, possibly from overuse, a minor unrecognized sprain, mild arthritis, or fluid retention. The treatment plan includes rest, ankle elevation, application of ice packs for 15–20 minutes at a time, and use of over-the-counter pain relievers such as acetaminophen or ibuprofen if not contraindicated. The patient was advised to seek prompt evaluation if symptoms worsen (increased swelling, redness, fever, inability to walk) and to follow up if there is no improvement after one week.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.699
+- **Model Used**: general
+- **Text1 Length**: 147 words
+- **Text2 Length**: 167 words
+

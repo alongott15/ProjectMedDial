@@ -98,3 +98,23 @@ Does that make sense? Is there anything else you’re concerned about that we ha
 ## Processing Information
 
 - **Processing Time**: 443.7s
+
+## EHR Summary
+
+The patient is an 88-year-old female presenting with hypernatremia. She was noted to be febrile and lethargic three days prior to admission, with subsequent intermittent fevers, tachycardia, tachypnea, hypoxemia (oxygen saturation 91–92% on room air), and laboratory findings of severe hyperglycemia (glucose 645), elevated creatinine, and decreased platelets. Her past medical history includes dementia, bipolar disorder, Parkinson's disease, urinary and fecal incontinence, and gastroesophageal reflux disease; she has no known drug allergies. On admission, she was aphasic but responsive to questions by head shaking, and chest x-ray showed findings consistent with pneumonia. The documented diagnoses were type 2 diabetes, hypernatremia, pancreatitis, mild disseminated intravascular coagulation (DIC), and possible pneumonia. Treatment included careful correction of hypernatremia with intravenous fluids, insulin drip for hyperglycemia, antibiotics (ceftriaxone followed by levofloxacin), supportive care for pancreatitis, discontinuation of subcutaneous heparin due to thrombocytopenia, and supplemental oxygen. At discharge, her sodium and mental status had improved, and she was continued on sliding scale insulin and levofloxacin, with recommendations for ongoing blood sugar monitoring and fluid status assessment.
+
+
+## Dialogue Summary
+
+The patient presents with the chief complaint of significant fatigue and feeling "out of it." Symptoms include at least several days of tiredness, subjective fever (without measured temperature), decreased appetite, intermittent difficulty with word-finding (expressive language), and increased need for assistance with daily activities. The patient also reports occasional shortness of breath and episodes of palpitations or faster heart rate, but denies weakness, numbness, facial changes, or visual disturbances. There is no cough or sore throat. Relevant history, medications, and allergies are not specified.
+
+The clinical impression discussed by the doctor is that these symptoms could be due to a mild infection (such as respiratory or urinary), dehydration, or other common causes in older adults, but the intermittent speech difficulty and increased dependence are concerning features. No definitive diagnosis was documented. The treatment plan includes monitoring for worsening symptoms (such as persistent confusion, chest pain, severe dyspnea, or focal weakness), tracking temperature, maintaining hydration, resting, and seeking prompt evaluation if appetite or speech further decline. The patient was advised to report any new or worsening symptoms immediately.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.644
+- **Model Used**: general
+- **Text1 Length**: 171 words
+- **Text2 Length**: 177 words
+

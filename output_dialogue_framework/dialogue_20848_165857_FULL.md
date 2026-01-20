@@ -87,16 +87,23 @@ Let me know if you have any questions about what I've explained or if you need h
 
 ## EHR Summary
 
-The patient is a 77-year-old man presenting with acute onset substernal chest pain, shortness of breath, nausea, and diaphoresis. Symptoms began on the day of admission and prompted evaluation at an outside hospital, where ST elevations were noted in leads V2-V6, I, II, and AVF on electrocardiogram. His medical history includes hypertension, prior cardiac catheterization complicated by intracranial bleed, and a 120 pack-year smoking history. On catheterization, he was found to have a 100% mid LAD stenosis, with additional non-critical lesions in other coronary arteries; pulmonary artery pressures were elevated. Physical examination on admission revealed stable vital signs, clear lungs, regular heart rhythm with a soft systolic murmur, and no acute distress. The documented diagnosis was ST-elevation myocardial infarction (STEMI) due to mid LAD occlusion. Treatment included primary angioplasty with stenting of the mid LAD lesion, administration of Lasix 20 mg, and avoidance of Integrilin due to prior hemorrhagic cerebrovascular accident. He was admitted to the CCU in stable condition for continued management.
+The patient is a 77-year-old man presenting with acute onset substernal chest pain, shortness of breath, nausea, and diaphoresis. Symptoms began on the day of admission and were associated with ST elevations on electrocardiogram and elevated cardiac enzymes. His history includes hypertension, prior catheterization complicated by intracranial bleed, and a significant smoking history. He was diagnosed with acute myocardial infarction and underwent primary angioplasty with stenting of the mid LAD. During hospitalization, he developed hemoptysis and was found to have right middle lobe pneumonia, treated with antibiotics including Levaquin, Flagyl, and a dose of Vancomycin. Additional management included Lasix for diuresis, Captopril (later switched to Univasc), Plavix, Aspirin, beta-blocker therapy (Lopressor switched to Atenolol), and Lipitor. He was discharged in stable condition with plans for home nursing, possible home oxygen, and cardiac rehabilitation.
+
 
 ## Dialogue Summary
 
-The patient presented with sudden onset central chest pressure. The pressure was described as persistent since earlier today, rated 7 out of 10 in severity, and associated with difficulty breathing deeply, sweating, and nausea; movement and deep breaths did not affect the symptoms. The patient reported this was the first episode of such symptoms and also mentioned coughing up brown, slightly blood-tinged sputum and having a fever up to 104.2°F and 103.2°F earlier. No history of similar episodes was noted, and no lightheadedness was reported. On examination, the doctor noted the combination of chest pressure, trouble breathing, sweating, nausea, cough with blood-tinged sputum, and high fever. The doctor assessed that while some causes could be benign (such as acid reflux or anxiety), these symptoms could also indicate serious heart or lung conditions and require prompt evaluation. The doctor recommended immediate medical attention at an emergency department to rule out dangerous causes and advised the patient to avoid exertion and seek emergency services if symptoms worsen.
+The patient is an adult presenting with sudden-onset central chest pressure as the chief complaint. The chest pressure began earlier today, is rated 7 out of 10 in severity, has been persistent, and is described as a pressure-like sensation that makes it difficult to breathe deeply. Associated symptoms include sweating, nausea, and recent episodes of coughing up brown, slightly blood-tinged sputum, as well as fevers up to 104.2°F and 103.2°F. The patient denies lightheadedness and reports no prior similar episodes.
+
+Relevant medical history, medications, and allergies are not specified. The clinical impression is that the symptoms could be due to benign causes such as acid reflux or anxiety but may also indicate a more serious condition, including possible heart-related issues. The doctor advised immediate medical evaluation at an emergency department to rule out dangerous causes and recommended avoiding physical exertion and seeking emergency services if symptoms worsen. The patient was also instructed to mention the cough with blood-tinged sputum and high fever during their evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.523
+- **Model Used**: general
+- **Text1 Length**: 133 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

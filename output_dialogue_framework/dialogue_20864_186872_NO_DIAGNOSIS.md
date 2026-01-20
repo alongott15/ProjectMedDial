@@ -87,16 +87,21 @@ Has the confusion been getting better, worse, or staying about the same over the
 
 ## EHR Summary
 
-The patient is an 81-year-old female admitted for surgical management of a gastrointestinal condition. She underwent exploratory laparotomy, fistula takedown, small bowel resection with ileocolic anastomosis, and lysis of adhesions on hospital day five. Postoperatively, she experienced sun-downing associated with narcotic use, which resolved after discontinuation of narcotics and the presence of an overnight sitter; her pain was managed with a patient-controlled analgesia pump and then oral medications. Her diet was advanced to regular, bowel function returned, and tube feeds were started. Relevant history includes past urological procedures and ongoing urology consultation. She was maintained postoperatively on ceftriaxone and Diflucan, and at discharge, her medications included vancomycin, Diflucan, ceftriaxone, Elavil, insulin sliding scale, heparin, Synthroid, Protonix, Lopressor, and Tylenol as needed. The patient was discharged in stable condition to a rehabilitation center with follow-up appointments scheduled. No specific diagnosis beyond the surgical findings is documented in the note.
+The patient is an 81-year-old female admitted for surgical management of a gastrointestinal issue. She underwent exploratory laparotomy, fistula takedown, small bowel resection with ileocolic anastomosis, and lysis of adhesions on hospital day five. Postoperatively, she experienced sun-downing associated with narcotic use, which resolved after discontinuation of narcotics and the presence of an overnight sitter; her pain was managed with a patient-controlled analgesia pump and then oral medications. Her diet was advanced to regular, bowel function returned, and tube feeds were started. Relevant history includes past urological procedures and ongoing urology consultation. The documented postoperative complications were sun-downing with narcotics. She was maintained on ceftriaxone and Diflucan postoperatively, and discharge medications included vancomycin, Diflucan, ceftriaxone, Elavil, insulin sliding scale, heparin, Synthroid, Protonix, Lopressor, and Tylenol as needed. The patient was discharged in stable condition to a rehabilitation center with follow-up appointments arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with increased pain and evening confusion, which they believe may be related to their pain medications. The confusion typically worsens after taking pain medication, especially later in the day, and has been present for several days; it affects the patient's ability to keep track of conversations and has been noticed by family members. The pain also intensifies in the evenings, particularly after medication, but changing the timing or dose has not altered the confusion. The patient denied associated symptoms such as anxiety, restlessness, sleep disturbances, disorientation, or difficulty recognizing people or places. No specific medical history, medication names, or allergies were mentioned. The doctor noted that the pattern of evening confusion following pain medication may be due to sensitivity to certain medications, possibly narcotics, and referenced “sundowning” as a potential contributing factor. The doctor recommended monitoring symptoms by keeping a log of medication timing and confusion episodes, advised watching for any sudden changes such as severe confusion or trouble breathing, and suggested discussing alternative pain management options if symptoms persist or worsen.
+The patient is an adult presenting with increased pain and new-onset evening confusion, suspected to be related to pain medication use. The confusion occurs primarily in the evenings after taking pain medication and has been present for several days, making it difficult for the patient to keep track of conversations; family members have also noticed these changes. The pain also worsens in the evenings, particularly after medication administration. The patient denies associated symptoms such as anxiety, restlessness, sleep disturbances, disorientation, or difficulty recognizing people or places. There is no documented relevant medical history, medication names, or allergies in the dialogue. The clinical impression is that the confusion may be due to medication effects, possibly narcotics, with a pattern resembling “sundowning,” though the patient does not have classic features of delirium. The treatment plan includes monitoring symptoms, keeping a log of medication timing and confusion episodes, and seeking immediate care if severe confusion, difficulty waking, or trouble breathing occur; future adjustments to the pain management plan may be considered if symptoms persist or worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.924
-- **Similarity Label**: N/A
+- **STS Score**: 0.521
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

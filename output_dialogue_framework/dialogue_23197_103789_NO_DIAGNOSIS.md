@@ -85,16 +85,21 @@ Let me know if you have any questions about what we've discussed or if you’d l
 
 ## EHR Summary
 
-The patient is a 65-year-old female presenting with nausea, vomiting, and hypertension. Symptoms began the night before admission with persistent nausea and inability to tolerate oral intake, progressing to vomiting (non-bloody, non-bilious) and elevated blood glucose levels (up to 440 mg/dL). She has a history of type 1 diabetes mellitus on an insulin pump, hypertension, hypercholesterolemia, hiatal hernia, and prior episodes of similar symptoms attributed to gastroparesis versus gastritis and esophagitis. On arrival, her blood pressure was 190/72 mmHg and blood glucose was 381 mg/dL; she was alert, oriented, and afebrile but had dry mucous membranes. Physical exam revealed stable vital signs and no acute distress. The documented clinical impression was recurrent nausea and vomiting in the setting of diabetes and hypertension, likely related to gastroparesis. Treatment included intravenous fluids, anti-emetics, labetalol for blood pressure control, and aspirin. No major surgical or invasive procedures were performed during admission.
+The patient is a 65-year-old female presenting with nausea, vomiting, and hypertension. Symptoms began the night before admission with persistent nausea, inability to tolerate oral intake, and blood glucose levels rising from the 120s to 440 mg/dL, accompanied by systolic blood pressure up to 200 mmHg. She has a history of type 1 diabetes mellitus (on an insulin pump), hypertension, hypercholesterolemia, and prior episodes of gastroparesis. On admission, she was found to have hyperglycemia with mild diabetic ketoacidosis (DKA) and hypertensive crisis, but no evidence of end organ damage. The documented diagnoses were hyperglycemia and hypertensive crisis. Treatment included intravenous fluids, insulin, antiemetics (IV and then oral metoclopramide), and antihypertensives (IV labetalol transitioned to oral agents including labetalol, lisinopril, and clonidine patch). Her insulin pump was discontinued during hospitalization, and she was transitioned to insulin glargine and lispro. She was discharged home in stable condition with instructions to continue her medications as prescribed and to return if symptoms recur.
+
 
 ## Dialogue Summary
 
-The patient presented with nausea, vomiting, and elevated blood pressure. The nausea had been intermittent for a couple of days, with several episodes of vomiting; no specific triggers or timing were identified. The patient also reported mild trouble concentrating and feeling "off," but denied headaches, vision changes, or difficulty with daily activities. Home blood pressure readings were noted to be higher than usual, though exact values were not recalled; the patient has been taking lisinopril regularly without missed doses or changes. Physical findings were limited to the patient's ability to keep fluids down and maintain hydration. The doctor assessed that the symptoms could be due to a mild illness such as viral gastroenteritis, with temporary elevation in blood pressure possibly related to feeling unwell or mild dehydration. The doctor recommended continued home monitoring of blood pressure, rest, bland foods, and sipping fluids, with instructions to seek care if confusion worsens, vomiting persists, or new symptoms develop. The patient understood and agreed to follow these recommendations.
+The patient is an adult presenting with nausea, vomiting, and elevated blood pressure as the chief complaint. Symptoms include intermittent nausea and several episodes of vomiting over the past few days, with associated mild difficulty concentrating but no headaches, vision changes, or significant impairment of daily activities. The patient reports home blood pressure readings higher than usual but does not recall specific values and has not missed any doses of lisinopril. The patient is able to tolerate fluids and has not identified any specific triggers for the symptoms. The clinical impression is that these symptoms may be due to a mild, common illness such as viral gastroenteritis, with transient elevation in blood pressure possibly related to feeling unwell or mild dehydration. The treatment plan includes continued home monitoring of blood pressure, rest, bland diet, and maintaining hydration. The patient was advised to seek prompt care if confusion worsens, vomiting becomes persistent, or new symptoms such as chest pain or neurological changes develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
+- **STS Score**: 0.448
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

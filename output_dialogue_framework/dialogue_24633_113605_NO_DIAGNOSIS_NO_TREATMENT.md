@@ -87,16 +87,23 @@ Let me know if you have any questions or if there's anything else that's been wo
 
 ## EHR Summary
 
-The patient is an 80-year-old female presenting for coronary artery bypass graft following a recent myocardial infarction on [2172-11-14]. She initially experienced anginal equivalent symptoms, including diaphoresis and increased shortness of breath, which led to her evaluation and transfer for further management. Her past medical history includes myocardial infarction, congestive heart failure, hypertension, nephrolithiasis, tuberculosis (Pott's disease), anemia, and coronary artery disease. Allergies to intravenous contrast, morphine, and possibly Lasix are noted. On admission, she was taking labetalol, Lipitor, Celebrex, Prilosec, Tegretol, Oxycontin, Lisinopril, Ecotrin, a multivitamin, and glucosamine chondroitin. Physical findings and test results are not specified in the note. The documented diagnosis was coronary artery disease requiring surgical intervention. Treatment included a four-vessel coronary artery bypass graft performed without complications, followed by an uneventful postoperative course in the CSRU.
+The patient is an 80-year-old female presenting for elective coronary artery bypass graft (CABG) following a recent myocardial infarction on 2172-11-14. She initially experienced anginal equivalent symptoms, including diaphoresis and increased shortness of breath, leading to her initial hospitalization. Her past medical history includes myocardial infarction, congestive heart failure, hypertension, nephrolithiasis, tuberculosis (Pott's disease), anemia, and coronary artery disease. During this admission, she underwent a four-vessel CABG without intraoperative complications but required frequent chest tube dressing changes for persistent drainage and experienced transient bradycardia after beta-blocker administration, which resolved after discontinuation of the medication. She also developed a mild rash suspected to be an allergic reaction to linen and erythema at the endotracheal tube site. The documented diagnosis was coronary artery disease status post myocardial infarction, status post CABG. Treatment included surgical revascularization, adjustment of antihypertensive medications, symptomatic management of postoperative issues, and initiation of physical therapy with gait support. She was discharged in stable condition with instructions for medication titration and follow-up with her cardiologist and primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening shortness of breath, which has been making daily activities around the house more difficult. Symptoms include increased breathlessness with exertion (such as walking or moving between rooms), sweating and feeling clammy during episodes of shortness of breath, and a recent sense of being unsteady on their feet. The patient denied chest pain, leg or ankle swelling, and recent weight changes. No relevant medical history, medications, or allergies were mentioned in the conversation. On clinical review, the doctor noted the absence of chest pain and peripheral edema, and acknowledged the patient's report of redness on both sides of the mouth. The doctor assessed that the gradual increase in breathlessness with activity could be related to changes in the heart or lungs, lower fitness, or anemia, and that the lack of acute symptoms made a serious emergency less likely at present. The doctor advised the patient to pace activities, take breaks as needed, and to seek prompt medical attention if new symptoms such as chest pain, severe dizziness, fainting, swelling in the legs, or worsening breathlessness at rest develop.
+The patient presents with the chief complaint of gradually worsening shortness of breath, which is now limiting daily activities around the house. The dyspnea has developed progressively rather than suddenly and is notably worse with exertion, such as walking or moving between rooms, but improves at rest. Associated symptoms include increased sweating and a clammy sensation during episodes of breathlessness, as well as a recent feeling of unsteadiness; there is no chest pain, leg swelling, or recent weight change. The patient reports having to slow down daily activities due to these symptoms.
+
+Relevant medical history, medications, and allergies are not specified in the dialogue. The clinical impression discussed by the doctor suggests that the symptoms may be related to age-associated changes in the heart or lungs, decreased fitness, or anemia, but no definitive diagnosis is documented. The treatment plan includes advice to pace activities and take breaks as needed, with instructions to seek prompt medical attention if new symptoms such as chest pain, severe dizziness, fainting, leg swelling, or worsening dyspnea at rest develop. The patient also mentioned noticing redness on both sides of the mouth, but further assessment of this concern was not documented in the dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.938
-- **Similarity Label**: N/A
+- **STS Score**: 0.426
+- **Model Used**: general
+- **Text1 Length**: 170 words
+- **Text2 Length**: 198 words
+
 
 ## Processing Information
 

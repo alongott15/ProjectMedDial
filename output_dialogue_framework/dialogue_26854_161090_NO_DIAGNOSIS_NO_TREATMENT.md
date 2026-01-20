@@ -97,16 +97,21 @@ Let me know if you have any questions about this plan or if there's anything spe
 
 ## EHR Summary
 
-The patient is a 54-year-old female presenting with headache. She reported extensive headaches associated with a right-sided sphenoid meningioma, which was stable on imaging but refractory to medical management. Her past medical history includes valvular heart disease and occasional heartburn, and she has no known drug allergies. On physical exam, she was alert and oriented, with normal neurological findings and a well-healing surgical incision; headaches persisted but were better controlled with revised medications. Laboratory results were notable for a glucose of 163 mg/dL and otherwise unremarkable basic labs. The documented diagnosis was right-sided sphenoid meningioma. She underwent elective right craniotomy for mass resection without perioperative complications. Postoperative pain was effectively managed with oral medications, and she progressed well during her hospital stay.
+The patient is a 54-year-old female presenting with headache. She had a history of extensive headaches and was found to have a right-sided sphenoid meningioma, which was stable on imaging but refractory to medical management. Her past medical history includes valvular heart disease and occasional heartburn, and she has no known drug allergies. The documented diagnosis was right-sided brain mass. She underwent elective right craniotomy for mass resection without perioperative complications, and her postoperative pain was effectively managed with oral medications. At discharge, she was neurologically stable and continued to experience controlled headaches. The treatment plan included lamotrigine, quetiapine, docusate sodium, butalbital-acetaminophen-caffeine, ibuprofen, and hydromorphone as needed, along with instructions for activity limitation, wound care, and follow-up for suture/staple removal. She was discharged home with visiting nurse services and advised to monitor for signs of infection or neurological changes.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent headaches following cranial surgery. Headaches have been present most of the day, occasionally easing but generally constant, and are worsened by physical activity and stress. The patient also reported increased fatigue since surgery, which began during recovery and has persisted; rest and sleep provide only partial relief, and daily activities require more effort but remain manageable. No nausea, vision changes, or sensitivity to light or sound were reported. The patient’s medical history includes recent cranial surgery; no medications or allergies were mentioned. On assessment, the doctor attributed the headaches and fatigue to post-surgical healing, noting that these symptoms are common during recovery and are exacerbated by exertion. The doctor recommended pacing activities, taking breaks, maintaining hydration and a regular sleep schedule, and engaging in gentle activity to support recovery. The patient was advised to report any new symptoms such as sudden worsening headaches, confusion, weakness, or changes in speech or vision.
+The patient is recovering from recent cranial surgery and presents with persistent headaches and increased fatigue as the main complaints. The headaches are present most of the day, sometimes easing but generally constant, and both headaches and fatigue have been ongoing since surgery. Fatigue is not fully relieved by rest or sleep and is exacerbated by physical activity and stress; however, the patient remains able to perform daily activities, albeit with more effort. There are no associated symptoms such as nausea, vision changes, or sensitivity to light or sound. Relevant history includes recent cranial surgery; no other medical history, medications, or allergies are specified. The clinical impression is that these symptoms are consistent with typical post-surgical healing and recovery. The treatment plan includes pacing activities, taking breaks, maintaining hydration and a regular sleep schedule, and engaging in gentle activity. The patient was advised to monitor for new or worsening symptoms (such as confusion, weakness, or changes in speech or vision) and to report them promptly if they occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.644
+- **Model Used**: general
+- **Text1 Length**: 139 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

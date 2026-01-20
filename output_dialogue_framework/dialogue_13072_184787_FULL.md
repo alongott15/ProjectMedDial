@@ -87,16 +87,21 @@ In the meantime, try to avoid eye strain by taking breaks from screens, and if y
 
 ## EHR Summary
 
-The patient is a 37-year-old female presenting with decreased vision in the left eye over the past five months. She denied associated symptoms such as fevers, chills, sweats, chest pain, shortness of breath, or palpitations. Her medical history includes depression, allergic rhinitis, and eczema, for which she takes Zoloft, Flonase, and Hydrocortisone Cream; she has a penicillin allergy. Physical examination was notable only for visual changes in the left eye, with otherwise unremarkable findings. Imaging revealed a tuberculum sella meningioma. She underwent a left frontal craniotomy and removal of the meningioma without complications. The postoperative course was stable and unremarkable. She was discharged home in stable condition with no additional recommendations documented.
+The patient is a 37-year-old female presenting with decreased vision in the left eye over the past five months. She denied associated symptoms such as fever, chills, sweats, chest pain, dyspnea, or palpitations. Her relevant history includes depression (on Zoloft), allergic rhinitis (on Flonase), eczema (on Hydrocortisone Cream), and a penicillin allergy. On work-up, she was found to have a tuberculum sella meningioma, which was confirmed as the diagnosis. She underwent a left frontal craniotomy for removal of the meningioma and tolerated the procedure well. Postoperatively, her course was unremarkable and her vision was slightly improved at discharge. She was discharged home in stable condition with prescriptions for Dilantin, Decadron (tapering), Zantac, and Percocet as needed for pain.
+
 
 ## Dialogue Summary
 
-The patient presented with decreased vision in the left eye. Symptoms included gradual onset of persistent blurriness in the left eye, described as things not being as sharp as usual, with no associated pain, flashes of light, floaters, dark spots, or shadows. The patient reported difficulty with reading and computer use due to the vision changes, but no issues with driving, and noted that symptoms were constant throughout the day. There was no history of previous vision problems, eye conditions, recent illnesses, head injuries, or new medications, and the patient does not wear glasses or contacts. On assessment, the doctor noted gradual, persistent blurriness without other visual disturbances or pain, and discussed possible causes such as refractive errors or early cataracts. The doctor recommended a comprehensive eye exam with an optometrist or ophthalmologist to determine the cause and advised monitoring for any new or sudden symptoms such as rapid vision loss, flashes, or a curtain over vision. The patient was also advised to avoid eye strain by taking breaks from screens and to report any new symptoms promptly.
+The patient is an adult presenting with decreased vision in the left eye as the chief complaint. The visual changes have developed gradually and are persistent, described as general blurriness without pain, flashes of light, floaters, or dark spots. The decreased vision has made reading and computer use more difficult but has not significantly affected driving. There is no history of similar symptoms, eye conditions, recent illness, head injury, or new medications. The clinical impression is gradual, painless blurriness in the left eye, possibly related to refractive changes or early cataract, though no definitive diagnosis was made. The doctor recommended a comprehensive eye exam with an optometrist or ophthalmologist to determine the cause. The patient was advised to monitor for any sudden changes such as rapid vision loss or new visual disturbances and to avoid eye strain by taking breaks from screens. No medications or urgent interventions were prescribed at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.462
+- **Model Used**: general
+- **Text1 Length**: 118 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

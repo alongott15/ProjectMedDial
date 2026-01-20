@@ -87,16 +87,21 @@ In the meantime, try to avoid any strenuous activity and keep track of your symp
 
 ## EHR Summary
 
-The patient is a 78-year-old female presenting with chest pain. She reported chest pain described as pressure radiating across her chest, minimally relieved by three doses of sublingual nitroglycerin, with a prior episode relieved by one dose; she denied dyspnea, weakness, or vision changes. She also experienced worsening right neck pain over several days and numbness and tingling in her left hand for several weeks. Her medical history includes coronary artery disease status post stenting, hypertension, hyperlipidemia, and anxiety; she has a documented allergy to penicillins. On physical exam, she was afebrile and hemodynamically stable, with a supple neck and clear lungs. Admission labs showed mild anemia and elevated PTT. The documented clinical finding was a focal right carotid dissection on CT scan. No major surgical or invasive procedures were performed during this admission.
+The patient is a 78-year-old female presenting with chest pain. She described the pain as pressure radiating across her chest, minimally relieved by three doses of sublingual nitroglycerin, with a prior episode relieved by one dose; she denied shortness of breath but reported recent worsening right neck pain and intermittent numbness and tingling in her left hand. Her medical history includes coronary artery disease status post stenting, hypertension, hyperlipidemia, and anxiety, and she has a documented allergy to penicillins. Imaging revealed no evidence of carotid dissection and only mild bilateral carotid stenosis (<40%). The clinical impression was that her symptoms were most consistent with typical angina rather than carotid dissection. She remained asymptomatic during her hospital stay and was discharged in good condition. Treatment included continuation of aspirin 81 mg daily and Zetia 10 mg daily, with instructions for outpatient stress testing and follow-up with her primary care physician and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with recent onset chest pain, described as a pressure sensation, which prompted the visit. Symptoms included chest pressure, pain in the right side of the neck (rated 6/10 at worst), and numbness and tingling extending into the fingers of the left hand; these symptoms began a few days ago, last several minutes at a time, and typically occur while sitting or resting without clear triggers. The patient denied shortness of breath, sweating, or feeling faint. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the combination of chest pressure, neck pain, and left hand numbness/tingling—especially occurring at rest—warrants further evaluation to rule out serious causes, including cardiac or neurological issues. The doctor recommended prompt in-person evaluation today and advised the patient to seek emergency care if symptoms worsen or new concerning signs develop. The patient agreed to arrange a same-day appointment and was advised to avoid strenuous activity and monitor symptoms.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is described as a pressure sensation, accompanied by right-sided neck pain (rated 6/10 at worst) and intermittent numbness and tingling extending into the fingers of the left hand. These symptoms began a few days ago, last several minutes at a time, and typically occur at rest without identifiable triggers; there is no associated dyspnea, diaphoresis, or presyncope. Relevant medical history, medications, and allergies are not specified in the dialogue. The clinical impression is that the symptoms could be due to nerve or musculoskeletal issues but may also indicate a more serious condition, such as a cardiac problem, given the symptom pattern and onset at rest. No definitive diagnosis was documented. The treatment plan includes prompt in-person evaluation on the same day, monitoring for worsening symptoms (such as severe shortness of breath or neurological deficits), and avoiding strenuous activity until further assessment. The patient agreed to arrange a same-day appointment and was provided with guidance on warning signs.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.973
-- **Similarity Label**: N/A
+- **STS Score**: 0.589
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

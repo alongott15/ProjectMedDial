@@ -98,3 +98,21 @@ Let me know if you have any questions or concerns about what we've discussed, or
 ## Processing Information
 
 - **Processing Time**: 438.3s
+
+## EHR Summary
+
+The patient is a 65-year-old female presenting with abdominal pain. She has a history of chronic thoracoabdominal aneurysm diagnosed three years prior, hypertension, and obesity, and was taking hydrochlorothiazide and labetalol; she has no known allergies. On admission, she was found to have an extensive thoracoabdominal aneurysm with acute dissection, confirmed by CT scan showing a false lumen. Her hospital course included blood pressure management with labetalol and IV Nipride, transfusion to raise hematocrit, and cardiac catheterization revealing normal coronaries but persistent aortic disease. Echocardiogram showed normal ventricular function, 2+ aortic insufficiency, and a dilated aortic root (>4 cm). The documented diagnoses were status post thoracoabdominal aneurysm repair, chronic aneurysm with acute dissection, hypertension, and obesity. She underwent thoracoabdominal aneurysm repair with partial bypass but unfortunately did not survive the operation and expired in the operating room.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with abdominal pain as the chief complaint. The discomfort has been present for a few days, is described as a steady, dull ache of moderate intensity, and is not associated with changes in appetite, bowel habits, nausea, fever, chills, bloating, or swelling. Resting provides some relief, while eating and movement do not significantly affect the pain; the discomfort has made daily activities and sleep more difficult. The patient has no prior history of similar abdominal discomfort or known digestive issues. The clinical impression is that the symptoms are likely due to a mild cause such as muscle strain or minor digestive upset, with no signs of a more serious condition at this time. The treatment plan includes monitoring for new or worsening symptoms (such as fever, vomiting, or changes in bowel habits), staying hydrated, gentle movement, and using a warm compress for relief. Further evaluation is recommended if the pain persists beyond another week or worsens.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.315
+- **Model Used**: general
+- **Text1 Length**: 137 words
+- **Text2 Length**: 162 words
+

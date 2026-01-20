@@ -85,16 +85,23 @@ Would you like advice on how to manage your activities safely until you can foll
 
 ## EHR Summary
 
-The patient is a 78-year-old female presenting with increasing angina on exertion over the past six months, requiring her to reduce her activity level. She previously could walk one mile before experiencing chest pain, which is relieved by rest and has not required nitroglycerin use. Her medical history includes hypertension, type II diabetes mellitus with retinopathy for 25 years, and prior laser surgeries. Preoperative evaluation revealed an ejection fraction of 60% and severe coronary artery disease with 90% occlusion of the LAD and left circumflex arteries, and 95% occlusion of the RCA. Physical examination on admission was unremarkable, with no respiratory or neurological deficits. The documented diagnosis was severe multivessel coronary artery disease. She underwent a coronary artery bypass graft (CABG) times three with LIMA to LAD, OM, and PDA grafts, and tolerated the procedure well. Postoperatively, she was transferred to the Intensive Care Unit for monitoring.
+The patient is a 78-year-old female admitted for coronary artery bypass grafting (CABG) due to increasing angina with exertion over the past six months, requiring reduced activity and relieved by rest. She previously could walk one mile before experiencing chest pain and had not used nitroglycerin prior to admission. Her medical history includes hypertension, type II diabetes with retinopathy, and prior surgeries. Preoperative evaluation revealed severe multi-vessel coronary artery disease with 90% occlusion of the LAD and left circumflex arteries, and 95% RCA occlusion. The documented diagnosis was multi-vessel coronary artery disease with symptomatic angina. She underwent CABG x3 and had an uncomplicated postoperative course, recovering well and advancing her diet and activity. At discharge, she was in good condition with intact surgical sites and no acute cardiovascular issues. The treatment plan included discharge to rehabilitation, continuation of cardiac and diabetic medications, and follow-up with her cardiologist and primary care provider in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain occurring during walking, which has become more frequent over the past few weeks. The chest pain is described as a tightness that worsens with continued activity, particularly when walking, climbing stairs, or carrying objects, and resolves within a few minutes of rest. The patient denied associated symptoms such as sweating, lightheadedness, or shortness of breath, but noted that the tightness can be intense enough to require stopping activity. The symptoms have begun to interfere with daily activities, including walking around the house and running errands. No relevant medical history, medications, or allergies were mentioned. The doctor assessed that the pattern of exertional chest tightness relieved by rest is consistent with angina, likely due to the heart not receiving enough oxygen during exertion. The doctor advised the patient to avoid strenuous activity until further evaluation by their healthcare provider and to seek prompt medical attention if symptoms occur at rest, last longer than usual, or are accompanied by new symptoms such as shortness of breath, sweating, nausea, or feeling faint. The patient requested advice on safely managing activities until follow-up.
+The patient is an adult presenting with chest tightness during physical activity as the chief complaint. The chest tightness is described as a sensation of pressure that occurs with walking, climbing stairs, or carrying objects, and has become more frequent and noticeable over the past few weeks. The discomfort is significant enough to require the patient to stop activity, but it resolves within a few minutes of rest and is not associated with shortness of breath, sweating, or lightheadedness. The symptoms are now affecting daily activities, including walking around the house and running errands.
+
+There is no relevant medical history, medications, or allergies documented in the dialogue. The clinical impression provided by the doctor is that the pattern of exertional chest tightness relieved by rest is consistent with angina. The treatment plan includes advising the patient to avoid strenuous activity until further evaluation by their healthcare provider and to seek prompt medical attention if symptoms occur at rest, last longer than usual, or are accompanied by new symptoms such as dyspnea, diaphoresis, nausea, or presyncope. The patient requested additional advice on safely managing activities until follow-up.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.391
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 186 words
+
 
 ## Processing Information
 

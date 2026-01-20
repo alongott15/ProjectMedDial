@@ -118,3 +118,21 @@ You're making the right decision by seeking prompt medical attention. If you hav
 ## Processing Information
 
 - **Processing Time**: 296.2s
+
+## EHR Summary
+
+The patient is a 45-year-old female presenting with abdominal pain as the chief complaint. She reported sudden onset sharp, stabbing abdominal pain since midnight, daily vomiting for three days, chills without fever, and a small, thin bowel movement the day before admission; she denied diarrhea. Her past medical history is significant for Crohn's disease with large intestine fistulas and a prior sigmoid stricture. On examination, she was in distress with abdominal distension, diffuse tenderness, absent bowel sounds, and laboratory findings of leukocytosis and anemia. Imaging revealed free air and bowel perforation. The documented diagnoses were perforated viscus and perforated transverse colon in the setting of Crohn's disease. She underwent subtotal colectomy, Hartmann's procedure, end ileostomy, and take down of the splenic flexure, followed by postoperative care including IV fluids, antibiotics, pain management, and gradual diet advancement. At discharge, she was stable and instructed to continue medications (including prednisone and Tylenol), maintain a regular diet with supplements, use ostomy supplies as needed, and follow up for wound care.
+
+
+## Dialogue Summary
+
+The patient is an individual with a history of complex abdominal surgery and a stoma presenting with new onset of pale appearance, abdominal distension, and diffuse abdominal tenderness. Additional symptoms include vomiting, chills, and changes in bowel movements. The patient's relevant history includes prior abdominal surgery and Crohn’s disease. The clinical impression is concern for a serious underlying issue such as bowel obstruction, infection, or compromised intestinal blood flow, with possible surgical emergency considered. No definitive diagnosis was made during the dialogue. The treatment plan is urgent in-person evaluation at the emergency department for thorough assessment, including imaging and laboratory tests to rule out life-threatening complications. The patient was advised to bring a list of current medications, allergies, and surgical history, and to inform the medical team of any changes in symptoms. The importance of prompt medical attention and clear communication with the emergency team was emphasized.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.720
+- **Model Used**: general
+- **Text1 Length**: 167 words
+- **Text2 Length**: 147 words
+

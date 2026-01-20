@@ -83,16 +83,21 @@ Let me ask—over the past day, have you noticed the chest pain getting better, 
 
 ## EHR Summary
 
-The patient is a 39-year-old female presenting with chest pain and vomiting. She experienced several episodes of nausea and vomiting, followed by chest and left arm tightness, with blood glucose levels remaining very high and unresponsive to insulin for the past 24 hours. Her medical history includes type 1 diabetes mellitus for 9 years (on insulin pump, last HbA1c 8.4) and hypertension, with no known drug allergies or prior coronary artery disease. On arrival, she was found to be in diabetic ketoacidosis (HCO3 12, AG 20) and had EKG findings of large ST elevations in V4-V6, consistent with acute myocardial infarction. Cardiac catheterization revealed an ulcerated plaque in the proximal to mid left anterior descending artery with distal emboli, and a bare metal stent was placed. Post-procedure, she was monitored in the CCU, continued on insulin infusion, and her left arm ache resolved with sublingual nitroglycerin. The documented diagnoses were diabetic ketoacidosis and acute myocardial infarction. Treatment included insulin infusion, antiplatelet therapy (ASA, Plavix), heparin, integrilin, and cardiac stenting.
+The patient is a 39-year-old female presenting with chest pain and vomiting. She experienced several episodes of nausea and vomiting, followed by chest and left arm tightness, with blood glucose levels elevated and unresponsive to insulin for 24 hours prior to admission. Her past medical history includes type 1 diabetes mellitus (9 years), hypertension, major depressive disorder, cervical disc herniation, and vitamin B12 deficiency; she has no known drug allergies. On admission, she was found to be in diabetic ketoacidosis (DKA) and had ST elevation myocardial infarction (STEMI) with large ST elevations on ECG. She underwent emergent cardiac catheterization with bare metal stent placement to the mid-left anterior descending artery and was treated with insulin drip, antiplatelet agents, statin, beta blocker, ACE inhibitor, and supportive care for DKA. Her hospital course was notable for resolution of DKA and improvement in cardiac symptoms, with persistent but improving ST elevations on ECG. At discharge, her diagnoses were ST elevation MI, diabetic ketoacidosis, and hypertension; she was discharged home in good condition with instructions to continue her medications and follow up with cardiology and primary care.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. Symptoms included chest discomfort of 7/10 severity that began about a day ago, occurring randomly without clear triggers, and lasting for over an hour per episode; the pain radiates to the left arm as an ache (not numbness or tingling), and is accompanied by nausea and vomiting. The patient denied associated shortness of breath, sweating, or lightheadedness, and reported that symptoms interfere with daily activities such as work and exercise but do not wake them at night. No relevant medical history, medications, or allergies were mentioned. On review, the doctor noted the absence of certain cardiac warning signs but acknowledged the concerning nature of chest pain radiating to the left arm with prolonged duration. The assessment included consideration of cardiac causes, as well as digestive or musculoskeletal etiologies, with reassurance provided by the lack of additional cardiac symptoms. The doctor emphasized caution due to the symptom profile and continued monitoring, but no specific treatment plan or further recommendations were stated in this portion of the dialogue.
+The patient presents with chest pain as the chief complaint, which began approximately one day ago. The chest discomfort is described as moderate to severe (7/10), lasting for over an hour per episode, and is associated with nausea, vomiting, and an aching sensation radiating to the left arm; there is no clear trigger, and symptoms occur randomly. The patient denies dyspnea, diaphoresis, or lightheadedness. The symptoms significantly interfere with daily activities, including work and exercise. The clinical impression discussed includes possible cardiac, gastrointestinal, or musculoskeletal etiologies, with the absence of certain cardiac warning signs noted as somewhat reassuring. No definitive diagnosis was documented during the encounter. The physician emphasized caution due to the nature of the symptoms but did not specify a treatment plan or recommendations in this dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.445
+- **Model Used**: general
+- **Text1 Length**: 183 words
+- **Text2 Length**: 129 words
+
 
 ## Processing Information
 

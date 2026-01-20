@@ -98,3 +98,21 @@ Let me ask—does anything seem to relieve or ease the pressure when it occurs, 
 ## Processing Information
 
 - **Processing Time**: 386.3s
+
+## EHR Summary
+
+The patient is a 68-year-old female presenting with chest pain and a history of anterolateral myocardial infarction in March 2112, previously treated with two stents to the left anterior descending artery. She experienced recurrent symptoms and was found to have three-vessel coronary artery disease with an ejection fraction of 49%. Her past medical history includes hypertension, hypercholesterolemia, hemolytic uremia, bleeding from Plavix, and lichen sclerosus. The documented diagnosis was three-vessel coronary artery disease requiring surgical intervention. She underwent elective coronary artery bypass grafting (CABG) times three, with postoperative recovery complicated by transient confusion and right calf pain; workup for deep venous thrombosis was negative. At discharge, she was afebrile, hemodynamically stable, and ambulatory. Discharge medications included Lopressor, Lasix, Lipitor, potassium chloride, and ciprofloxacin, with instructions to follow up with her cardiologist and primary care physician in three to four weeks.
+
+
+## Dialogue Summary
+
+The patient presents with chest pain as the chief complaint. The chest discomfort is described as a pressure sensation, rated 6 out of 10 in severity, located centrally, coming and going over the past few days, and not associated with physical activity, meals, or stress; it is somewhat relieved by rest but does not resolve completely. The patient denies associated symptoms such as dyspnea, diaphoresis, or lightheadedness, and reports no radiation of pain. Additional symptoms include right calf pain without swelling, redness, or warmth, and recent onset of confusion and short-term memory difficulties. Relevant history, medications, and allergies are not specified. The clinical impression is that the symptoms do not strongly indicate an urgent problem but warrant close monitoring due to their new onset and the patient's anxiety. The physician advised the patient to monitor for worsening symptoms or new signs such as increased intensity, prolonged duration, dyspnea, nausea, or pain radiating to other areas, and to seek immediate care if these occur.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.456
+- **Model Used**: general
+- **Text1 Length**: 140 words
+- **Text2 Length**: 163 words
+

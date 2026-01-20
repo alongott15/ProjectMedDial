@@ -87,16 +87,23 @@ In the meantime, try to rest as much as possible and avoid strenuous activity. I
 
 ## EHR Summary
 
-The patient is a female over 90 years old presenting with upper gastrointestinal bleed. She experienced ongoing melena (black stools) and a decrease in hematocrit from 35.0% to 30.0% over several days, with an episode of hypotension (blood pressure 70/60) prompting admission. She denied associated symptoms such as fever, chills, nausea, vomiting, chest pain, or dyspnea. Her medical history includes peptic ulcer disease, gastroesophageal reflux disease, dementia, depression, osteoporosis, vertigo, cataracts, gait disorder, hypertension, coronary artery disease, and hematuria. On physical examination, her vital signs were stable except for the prior hypotensive episode; she was afebrile and on supplemental oxygen. The documented diagnosis was recurrent upper gastrointestinal bleeding likely related to peptic ulcer disease. Given her DNR/DNI status and risks associated with endoscopy, the plan was conservative management without endoscopic intervention. She was maintained on medications including proton pump inhibitor therapy and supportive care.
+The patient is a female over 90 years old presenting with an upper gastrointestinal bleed. She experienced ongoing melena (black stools), a drop in hematocrit from 35.0% to 30.0%, and hypotension (blood pressure 70/60), but denied fevers, chills, nausea, vomiting, chest pain, or dyspnea. Her history includes peptic ulcer disease, gastroesophageal reflux disease, dementia, depression, osteoporosis, coronary artery disease, and hypertension; she has no known drug allergies and is DNR/DNI. On admission, her hematocrit was 24.1%, and endoscopy revealed a Mallory-Weiss tear and a gastric ulcer with a visible vessel, which was cauterized; she received one unit of packed red blood cells. The documented diagnoses were upper gastrointestinal bleed (status post cauterization), peptic ulcer disease, and other chronic conditions. Treatment included continuation of Protonix 40 mg twice daily (to be reduced after stabilization), antibiotics (amoxicillin and clarithromycin) for sinusitis seen on head CT, and supportive care with transfusion and regular diet after stabilization. She was advised to follow up with her primary care physician within one week and with gastroenterology as needed.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about consistently dark stools over the past few days. They reported increased tiredness and occasional lightheadedness, with no changes in appetite, stomach pain, vomiting, or recent dietary or medication changes. The patient noted their blood pressure was recently measured at 70/60 and that these symptoms were making daily activities more difficult due to fatigue and feeling faint. No signs of bleeding from gums, unusual bruising, or nosebleeds were reported. The doctor assessed that the combination of dark stools, low blood pressure, tiredness, and lightheadedness could indicate possible blood loss from the digestive tract, despite the absence of obvious bleeding or pain. The doctor recommended seeking medical attention within the next day for blood tests and evaluation of possible gastrointestinal bleeding, and advised immediate care if symptoms worsen (such as severe weakness, chest pain, or vomiting blood). The patient was advised to rest and avoid strenuous activity until evaluation.
+The patient presents with the chief complaint of consistently dark stools over the past few days. Associated symptoms include increased tiredness, intermittent lightheadedness, and difficulty performing usual daily activities due to fatigue and feeling faint. The patient denies abdominal pain, vomiting, dietary changes, new medications or supplements, and has not noticed any bleeding from other sites such as gums or nose. Notably, the patient reports a recent low blood pressure reading of 70/60 mmHg. 
+
+The clinical impression is possible gastrointestinal blood loss leading to dark stools (melena), low blood pressure, and symptoms suggestive of anemia, despite the absence of overt bleeding or pain. The physician recommends prompt medical evaluation within the next day for blood tests and further investigation to determine the source of bleeding. The patient is advised to rest, avoid strenuous activity, and seek immediate care if symptoms worsen (e.g., severe weakness, chest pain, vomiting blood). No specific medications or interventions were initiated during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.969
-- **Similarity Label**: N/A
+- **STS Score**: 0.632
+- **Model Used**: general
+- **Text1 Length**: 172 words
+- **Text2 Length**: 158 words
+
 
 ## Processing Information
 

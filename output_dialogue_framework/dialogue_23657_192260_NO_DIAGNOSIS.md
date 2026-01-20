@@ -87,16 +87,23 @@ If you notice black stools, severe abdominal pain, or feel faint when standing u
 
 ## EHR Summary
 
-The patient is a 25-year-old male presenting with two days of nausea and one day of vomiting. Symptoms included vomiting described as initially yellowish green, later brown, with no frank blood and uncertain coffee-ground appearance; he also reported coughing but denied fever, chills, chest pain, or gastrointestinal bleeding. He has a history of type 1 diabetes mellitus for eight years with multiple prior diabetic ketoacidosis (DKA) admissions, gastroparesis, gastroesophageal reflux disease, and depression; his last hemoglobin A1c was 10.1. Home medications included insulin 75/25, and he has allergies to penicillin and amoxicillin. On admission, his glucose was in the 400s with an elevated anion gap, and vital signs showed mild tachycardia (heart rate 105) and low-grade fever (99.5°F). The documented diagnosis was diabetic ketoacidosis. Treatment included hospitalization for DKA management, likely involving intravenous fluids, insulin therapy, and monitoring, though specific interventions are not detailed in the note.
+The patient is a 25-year-old male presenting with two days of nausea and one day of vomiting, along with hyperglycemia (glucose in the 400s) and an elevated anion gap. He reported decreased oral intake and delayed insulin administration prior to admission, with vomiting described as initially yellowish-green then brown, but denied frank blood or melena. His medical history includes type 1 diabetes mellitus (with multiple prior diabetic ketoacidosis admissions), gastroparesis, gastroesophageal reflux disease, and depression; he is allergic to penicillin and amoxicillin. On admission, laboratory findings were notable for diabetic ketoacidosis, acute renal insufficiency, and evidence of upper gastrointestinal bleeding (maroon emesis, occult positive). The documented diagnoses were diabetic ketoacidosis, upper gastrointestinal bleed (possibly due to a Mallory-Weiss tear), gastroenteritis, gastroesophageal reflux disease, and depression. Treatment included intravenous insulin, aggressive intravenous fluids, antiemetics (Zofran), intravenous Pepcid, and a trial of Reglan for motility. The patient’s anion gap closed, renal function improved, and gastrointestinal bleeding resolved without endoscopy; he was discharged home on his usual insulin regimen and Protonix with follow-up arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with nausea and frequent vomiting as the chief complaint. Symptoms included persistent nausea and vomiting occurring several times daily, inability to keep down food or fluids, maroon-colored vomit that tested positive for blood, some coughing, and feeling weak and unable to perform usual activities; symptoms had remained stable without improvement or worsening. The patient denied fever, chills, unusual bruising, or bleeding elsewhere. No specific physical findings were noted beyond the patient's descriptions. The doctor assessed that ongoing nausea and vomiting with blood in the vomit suggested possible irritation or bleeding in the upper digestive tract, such as gastritis or, less commonly, an ulcer, and noted concern for dehydration and electrolyte imbalance due to inability to retain fluids. The doctor recommended urgent evaluation today for blood counts, hydration status, and further testing to identify the source of bleeding, advised sipping small amounts of clear fluids if tolerated, and avoiding solid foods until evaluated. The patient was instructed to seek immediate attention if black stools, severe abdominal pain, or faintness occurred.
+The patient presents with persistent nausea and frequent vomiting as the chief complaint. Symptoms include vomiting several times daily with associated nausea, inability to keep down food or fluids, and recent onset of maroon-colored emesis that tested positive for blood. The patient reports associated weakness and difficulty performing daily activities but denies fever, chills, or unusual bruising or bleeding elsewhere. There is a history of recent coughing but no throat or chest pain.
+
+The clinical impression is possible upper gastrointestinal bleeding, potentially due to irritation from repeated vomiting, gastritis, or less commonly, an ulcer. The treatment plan includes urgent evaluation for assessment of blood counts, hydration status, and further investigation of the bleeding source. The patient was advised to attempt small sips of clear fluids, avoid solid foods, and seek immediate care if warning signs such as black stools, severe abdominal pain, or presyncope occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.591
+- **Model Used**: general
+- **Text1 Length**: 171 words
+- **Text2 Length**: 145 words
+
 
 ## Processing Information
 

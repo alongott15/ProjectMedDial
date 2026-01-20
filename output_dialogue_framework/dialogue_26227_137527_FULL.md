@@ -87,16 +87,21 @@ Let me ask—on a scale from 1 to 10, how would you rate the intensity of this c
 
 ## EHR Summary
 
-The patient is a 63-year-old man presenting with recent onset of exertional chest pain. His symptoms began recently and were associated with physical activity; no additional symptom characteristics are documented. Relevant history includes a past left rotator cuff repair, intermittent back pain, recent initiation of atenolol, aspirin, lipitor, and ibuprofen, and a 40 pack-year smoking history (quit two months ago); he has no known drug allergies. Cardiac catheterization revealed 80% left main stenosis and 95% left circumflex occlusion with an ejection fraction of 55%; laboratory values and physical exam were unremarkable except for a band-aid at the right groin from catheterization. Electrocardiogram showed normal sinus rhythm with normal intervals. The documented diagnosis was severe coronary artery disease. He was transferred for coronary artery bypass graft surgery.
+The patient is a 63-year-old man presenting with recent onset of exertional chest pain. He experienced chest pain with activity, and cardiac catheterization revealed significant coronary artery disease with 80% left main stenosis and 95% left circumflex occlusion; his ejection fraction was 55%. His past medical history includes left rotator cuff repair and intermittent back pain, and he has no known drug allergies. The documented diagnosis was coronary artery disease, status post coronary artery bypass grafting x2. During hospitalization, he underwent successful coronary artery bypass grafting and had an uneventful postoperative course except for anemia (hematocrit as low as 19.7) and transient dyspnea on exertion, which improved after transfusion of 2 units of packed red blood cells. At discharge, he was stable with a hematocrit of 22.5 and no significant symptoms. The treatment plan included discharge to home with medications such as Lasix, potassium chloride, Lopressor, Niferex, amiodarone, ibuprofen, Colace, aspirin, Lipitor, and Dilaudid, along with follow-up appointments with cardiology, primary care, and wound clinic.
+
 
 ## Dialogue Summary
 
-The patient presented with new-onset chest pain described as pressure or tightness in the center of the chest, occurring over the past few days and triggered by exertion such as walking or climbing stairs. The discomfort lasts a few minutes, resolves with rest, and is accompanied by mild shortness of breath during activity; the patient denied sweating, lightheadedness, or pain radiating to other areas. The patient rated the chest tightness as 6 out of 10 in intensity and reported no prior episodes of similar symptoms. Relevant history includes high cholesterol (on Lipitor) and hypertension (on atenolol); no diabetes, smoking history, recent illness, or new stressors were noted. On examination, no acute physical findings were described, but the patient was able to localize the discomfort to the center of the chest. The doctor assessed that the pattern of exertional chest tightness and shortness of breath may suggest angina, possibly related to coronary artery narrowing from cholesterol buildup. The doctor recommended limiting physical activity to avoid triggering symptoms, advised urgent medical attention if symptoms worsen or new concerning features develop, and planned further evaluation with EKG and blood tests.
+The patient is an adult presenting with chest pain as the chief complaint. The chest discomfort is described as a central pressure or tightness, rated 6 out of 10 in intensity, occurring with exertion (such as walking or climbing stairs) and resolving within a few minutes of rest. Associated symptoms include exertional shortness of breath, but no sweating, lightheadedness, or radiation of pain; these symptoms are new for the patient. Relevant history includes high cholesterol (on Lipitor) and hypertension (on atenolol); the patient denies diabetes, smoking, recent illness, or increased stress. The clinical impression documented by the physician is angina, likely due to reduced oxygen supply to the heart muscle during activity, possibly from coronary artery narrowing. The treatment plan includes further evaluation with an EKG and blood tests, with instructions to avoid activities that provoke symptoms and to seek immediate care if symptoms worsen or new concerning features develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.586
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 150 words
+
 
 ## Processing Information
 

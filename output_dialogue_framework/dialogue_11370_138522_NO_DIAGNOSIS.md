@@ -87,16 +87,21 @@ Do you have any questions about what might be causing this or how to manage the 
 
 ## EHR Summary
 
-The patient is an 82-year-old female presenting for evaluation of atrial flutter. She experienced increased dyspnea on exertion and a rapid, irregular heartbeat for one month, with fever and chills over the past week and a half, and was unable to get out of bed due to shortness of breath prior to admission. Her relevant history includes coronary artery disease (status post coronary artery bypass graft and mitral valve repair), hypercholesterolemia, diabetes mellitus, hypertension, and prior retroperitoneal liposarcoma resection. On review of systems, she denied chest pain, orthopnea, paroxysmal nocturnal dyspnea, and palpitations but reported mild pedal edema and improving shortness of breath. At the outside hospital, she was diagnosed with congestive heart failure, right lower lobe pneumonia, and atrial flutter with 4:1 block. She was treated with Levaquin and a heparin drip, and had a positive D-dimer (>1,000) with a low probability V/Q scan. Admitting medications included aspirin and NPH insulin. She is currently stable and comfortable, admitted for further evaluation of atrial flutter.
+The patient is an 82-year-old female presenting for evaluation of atrial flutter. She reported one month of increased dyspnea on exertion and a rapid, irregular heartbeat, with recent fever, chills, and inability to get out of bed due to shortness of breath; she also noted mild pedal edema but denied chest pain or palpitations. Her history includes coronary artery disease (status post CABG and mitral valve repair), hypercholesterolemia, diabetes mellitus, hypertension, and prior retroperitoneal liposarcoma resection. She was diagnosed with atrial flutter, congestive heart failure, and right lower lobe pneumonia, with documented bilateral lower extremity edema and rales on exam. During admission, she underwent atrial flutter ablation and DDD pacemaker placement, was treated with diuretics (Lasix), Captopril, beta-blockers (Lopressor), antibiotics (Levaquin and Ancef), and anticoagulation (heparin drip, later Coumadin). Her symptoms resolved by discharge, and she was stable with no ongoing complaints of chest pain or shortness of breath. She was discharged on a regimen including Lopressor, Imdur, Lasix, Captopril, Lipitor, aspirin, NPH insulin, sliding scale regular insulin, and Coumadin. Follow-up was arranged with the Device Clinic and her primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with tenderness in the legs, primarily when touched. Symptoms included leg tenderness for the past couple of days, soreness in the left shoulder when pressed, a dull ache (not sharp pain) on palpation, mild discomfort with movement (especially when standing up or touching the legs), and a low-grade fever overnight (100.7°F). The patient denied redness, swelling, or skin changes over the tender areas and reported that regular movement did not worsen symptoms. No significant difficulty with sleep was noted, though finding a comfortable position was harder. There was no relevant medical history, medications, or allergies mentioned. On assessment, the doctor noted the absence of redness or swelling and that movement was not a trigger, suggesting the tenderness was likely due to mild muscle strain or a viral illness causing generalized aches and low-grade fever. The doctor recommended gentle movement, staying hydrated, and using a heating pad or warm compress for comfort, and advised monitoring for new symptoms such as increasing pain, swelling, redness, difficulty moving, or persistent/high fever.
+The patient is an adult presenting with tenderness in the legs and left shoulder as the chief complaint. The tenderness began approximately two days ago and is described as a dull ache when pressing on the affected areas, without associated redness, swelling, or worsening with movement; a low-grade fever of 100.7°F was also reported overnight. The discomfort has made movement and sleep slightly more difficult but has not prevented usual activities. There is no history provided of relevant medical conditions, medications, or allergies. The clinical impression was that the symptoms are likely due to mild muscle strain or a viral illness, given the generalized aches and low-grade fever without alarming features. The treatment plan includes gentle movement, hydration, and use of a heating pad or warm compress for comfort. The patient was advised to monitor for new symptoms such as increasing pain, swelling, redness, difficulty moving, or persistent/worsening fever, and to seek further evaluation if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.940
-- **Similarity Label**: N/A
+- **STS Score**: 0.338
+- **Model Used**: general
+- **Text1 Length**: 182 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

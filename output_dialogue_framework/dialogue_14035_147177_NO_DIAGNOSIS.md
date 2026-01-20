@@ -85,16 +85,21 @@ Let me ask: does lying down flat make your breathing any better or worse? Someti
 
 ## EHR Summary
 
-The patient is a 75-year-old male presenting with acute shortness of breath for five hours. He experienced tachypnea, hypoxemia with room air saturation in the 70s, a temperature of 102.2°F, and was noted to be coughing while swallowing, suggesting possible aspiration. His past medical history includes hypertension, dementia, benign prostatic hypertrophy, hyperlipidemia, gastritis, gastroesophageal reflux disease, and a history of multiple falls. In the Emergency Department, his oxygen saturation improved from 87% on a non-rebreather to 97% on BiPAP; he also received Levofloxacin, Flagyl, and 1500 cc of intravenous fluids. Physical exam revealed fever (102.0°F), respiratory rate of 24, and oxygen saturation of 96% on non-rebreather. The clinical impression was presumed aspiration. Treatment included antibiotics (Levofloxacin and Flagyl), supplemental oxygen via BiPAP, and intravenous fluids. The patient also received a pneumococcal vaccine during admission.
+The patient is a 75-year-old male presenting with acute shortness of breath for five hours, tachypnea, hypoxemia (room air saturation in the 70s), and fever (102.2°F), with presumed aspiration. He was noted to be coughing while swallowing on the morning of admission and had crackles at the lung bases on exam; chest x-ray showed left base consolidation. Past medical history includes hypertension, dementia (presumed Lewy body), benign prostatic hypertrophy, multiple falls, incontinence, hyperlipidemia, gastritis, GERD, and possible normal pressure hydrocephalus; medications and allergies are documented. The clinical assessment was aspiration pneumonia with respiratory failure, and a differential including over-sedation from psychiatric medications. Treatment included BiPAP, oxygen therapy, intravenous Levofloxacin and Flagyl, later Vancomycin for gram positive cocci in sputum, intravenous fluids, and total parenteral nutrition after failing a bedside swallowing study. Oral medications were held; intravenous Lopressor was used for hypertension. The patient improved clinically with weaning of oxygen and increased alertness, and was scheduled for PICC line placement for ongoing IV antibiotics prior to discharge. Droplet precautions were maintained pending final viral culture results.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening shortness of breath. Symptoms include increased difficulty breathing that occurs even at rest and is exacerbated by activity, a sensation of breathing faster than usual, occasional coughing especially when swallowing, and increased fatigue with daily activities such as getting dressed or moving around the house. The patient reported a recent fever and unintentional weight loss over the past couple of years, but denied wheezing, chest tightness, swelling in the legs or ankles, lightheadedness, dizziness, or changes in appetite. The patient noted that lying flat worsens breathing while sitting up provides some relief. No specific medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of wheezing and chest tightness, and explained that possible causes could include lung, heart, or anemia-related issues; the cough with swallowing may indicate throat or airway irritation. The doctor recommended further evaluation to determine the underlying cause and discussed the importance of monitoring these symptoms given their impact on daily activities.
+The patient presents with the chief complaint of progressively worsening shortness of breath (dyspnea). Symptoms include increased respiratory rate, sensation of not getting enough air, and cough associated with swallowing; these symptoms occur both at rest and with activity, and are exacerbated by exertion and lying flat (orthopnea), but improved by sitting up. The patient denies wheezing, chest tightness, leg or ankle swelling, and dizziness. The dyspnea has begun to interfere with daily activities such as dressing and moving around the home. Relevant history includes a recent fever and unintentional weight loss over the past couple of years, with no change in appetite. No specific diagnosis was documented during the encounter. The physician discussed possible causes (pulmonary, cardiac, or anemia-related) and noted that the absence of wheezing and chest tightness makes some conditions less likely. No specific treatment or medication was prescribed at this visit; further evaluation was implied but not detailed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.573
+- **Model Used**: general
+- **Text1 Length**: 175 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

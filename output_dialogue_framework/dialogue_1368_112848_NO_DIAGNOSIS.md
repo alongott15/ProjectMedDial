@@ -95,16 +95,23 @@ Let’s make sure we don’t miss anything important. Would you be comfortable s
 
 ## EHR Summary
 
-The patient is a 51-year-old male presenting with a one-year history of chest pain. He reported multiple episodes of palpitations, heart racing, shortness of breath, dizziness, and syncope. His medical history includes cardiomyopathy, dilated ascending aorta, hypertension, significant tobacco and alcohol use, depression with prior admissions for suicidal ideation, and panic disorder. Cardiac catheterization revealed a pulmonary capillary wedge pressure of 23 mmHg, LVEDP of 28 mmHg, ejection fraction of 24%, 1+ mitral regurgitation, and no coronary artery disease. On physical exam, he was in no acute distress with stable vital signs but had scattered rales at the lung bases and a palpable liver. The documented diagnosis was ascending aortic aneurysm with severe cardiomyopathy. He underwent surgical repair of the ascending aortic aneurysm and aortic valve replacement with dacron grafts.
+The patient is a 51-year-old male presenting with a one-year history of chest pain, palpitations, heart racing, shortness of breath, dizziness, and syncope. Symptoms were associated with known cardiomyopathy and a dilated ascending aorta, with recent concern for aortic dissection based on catheterization findings. Relevant history includes hypertension, significant tobacco and alcohol use, depression with prior suicidal ideation, and panic disorder. Catheterization revealed elevated pulmonary capillary wedge pressure (23), LVEDP (28), ejection fraction of 24%, and mild mitral regurgitation. The documented diagnoses were status post aortic dissection repair and delirium. The patient underwent surgical repair of the ascending aortic aneurysm and aortic valve replacement, followed by postoperative management for atrial fibrillation and delirium. Discharge medications included haloperidol, clonazepam, amiodarone, metoprolol, furosemide, and supportive supplements. The patient was discharged in good condition to rehabilitation with follow-up arranged with primary care and cardiology.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain that has been occurring intermittently over the past few days, leading to significant anxiety. Symptoms include moderate, episodic chest pain lasting a few minutes (up to ten), heart racing, palpitations, shortness of breath, dizziness, blacking out (loss of consciousness), and transient confusion or altered mental status during episodes. The episodes are often triggered or worsened by stress but can also occur without clear triggers; they do not occur with physical activity or food and have not woken the patient from sleep. The patient is able to perform usual activities but feels anxious and distracted during episodes. There is no relevant past medical history, medications, or allergies mentioned. On assessment, the doctor noted that while the symptoms could be consistent with anxiety or panic attacks, the presence of fainting and confusion raises concern for a possible underlying heart rhythm issue or other medical problem. The doctor recommended further evaluation with an ECG and possible monitoring to rule out cardiac causes and advised seeking immediate medical attention if severe symptoms recur. Stress management techniques were also suggested for symptom relief, and the patient agreed to schedule a more thorough evaluation.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain began a few days ago, occurs intermittently throughout the day, and is described as moderate in severity, lasting a few minutes up to ten minutes per episode. Associated symptoms include palpitations, heart racing, shortness of breath, anxiety, dizziness, occasional blacking out (loss of consciousness), and transient confusion or altered mental status during episodes; stress is a noted trigger, but episodes can also occur spontaneously. The patient reports that symptoms do not wake them from sleep and do not prevent daily activities, though they cause significant discomfort and anxiety.
+
+Relevant history of medications or allergies is not specified. The clinical impression initially considered anxiety or panic episodes as a likely cause due to the stress association and symptom pattern, but the presence of fainting and altered mental status raised concern for a possible underlying cardiac arrhythmia or other medical issue. The treatment plan includes recommending further evaluation with ECG and possible cardiac monitoring to rule out heart rhythm problems, and advising the patient to seek immediate medical attention if severe symptoms or exertional chest pain occur. Stress management techniques were suggested for symptom relief, but further workup was prioritized due to concerning features.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.531
+- **Model Used**: general
+- **Text1 Length**: 141 words
+- **Text2 Length**: 208 words
+
 
 ## Processing Information
 

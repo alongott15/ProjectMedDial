@@ -87,16 +87,21 @@ If you have any questions or notice any changes, please let me know. Otherwise, 
 
 ## EHR Summary
 
-The patient is a 74-year-old man presenting after a fall with urinary retention as the chief complaint. He reported decreased urine output, constipation, left leg weakness, dribbling, urgency without hematuria, and lack of balance since the fall; last bowel movement was several days prior. Relevant history includes prior TURP (2180), hypertension, polyneuropathy (Charcot-Marie-Tooth disease), status post volvulus, depression, and bilateral hernia repair; he has no known allergies and was taking Prilosec, Zoloft, and Wellbutrin on admission. Physical exam revealed elevated blood pressure (210/92), suprapubic tenderness, diminished rectal tone, absent lower extremity reflexes, but otherwise normal strength and sensation. A Foley catheter was placed with 700 cc of clear yellow urine drained, and MRI showed an intradural epidural mass at L5-S1, possibly a hematoma. The documented diagnosis was urinary retention likely secondary to the spinal mass. Treatment included Foley catheter placement for two weeks and genitourinary consultation.
+The patient is a 74-year-old man presenting after a fall with urinary retention, decreased urine output, constipation, left leg weakness, dribbling, and urgency without hematuria. Symptoms began following the fall two days prior to admission, with associated polyneuropathy and lack of balance; there was no prior history of chronic urinary retention or constipation. Relevant history includes prior TURP, hypertension, depression, Charcot-Marie-Tooth disease, and status post volvulus and bilateral hernia repair; he has no known allergies and was taking Prilosec, Zoloft, and Wellbutrin on admission. On examination, he had suprapubic tenderness, diminished rectal tone, absent lower extremity reflexes, but intact motor strength and sensation. MRI revealed an intradural epidural mass at L5-S1, suspected to be a hematoma. The documented diagnosis was epidural hematoma at L5-S1 with associated urinary retention and neurologic symptoms. Treatment included L4-L5 laminectomy with decompression of the hematoma and primary dural repair, Foley catheter placement (to remain for two weeks), and postoperative monitoring; he was started on Zoloft, Zantac, Colace, Lopressor, Percocet as needed for pain, and Tylenol as needed. The patient was discharged in stable condition to rehabilitation with follow-up arranged for neurosurgery in 2–3 weeks and urology in one week for a voiding trial.
+
 
 ## Dialogue Summary
 
-The patient presented with difficulty passing urine. Symptoms included decreased urine output, increased urgency, dribbling rather than a steady stream, and no pain or discomfort in the lower abdomen; these changes had been present for a few days and were worsening. The patient also reported constipation and new weakness in the left leg, which affected walking and balance, but denied numbness or tingling. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the combination of urinary changes, constipation, and unilateral leg weakness without abdominal pain. The assessment was that these symptoms could be related to nerve signal disruption in the lower back or pelvis, possibly from pressure on nerves or a blockage. The doctor recommended prompt evaluation by the patient's healthcare provider and advised monitoring for new symptoms such as increasing weakness, numbness, loss of bladder or bowel control, or severe back pain, which would require urgent attention. The patient understood and agreed to follow up as advised.
+The patient presents with difficulty urinating as the chief complaint. Over the past few days, they have experienced decreased urine output, increased urgency, and dribbling rather than a steady stream, without associated pain or lower abdominal discomfort. The patient also reports recent constipation and new-onset left leg weakness, which has made walking and maintaining balance more difficult; there is no numbness or tingling. Relevant history regarding prior medical conditions, medications, or allergies is not specified. The clinical impression is that these symptoms may be related to nerve dysfunction affecting the bladder, bowels, and left leg, possibly due to nerve compression or a blockage. No definitive diagnosis was documented. The treatment plan includes prompt evaluation by a healthcare provider and monitoring for worsening symptoms such as increasing weakness, numbness, loss of bladder or bowel control, or severe back pain, which would require urgent attention. The patient was advised to seek further assessment and to report any new or worsening symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.545
+- **Model Used**: general
+- **Text1 Length**: 198 words
+- **Text2 Length**: 159 words
+
 
 ## Processing Information
 

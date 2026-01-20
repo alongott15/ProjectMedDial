@@ -95,16 +95,23 @@ Otherwise, it’s reasonable to monitor for now. If you have any new concerns or
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with exertional shortness of breath and substernal chest pain. Symptoms were associated with a history of silent myocardial infarction at age 32 and a recent positive exercise treadmill test showing ST depression. Relevant history includes hypertension, diabetes, hypercholesterolemia, GERD, and prior hernia repair; home medications included Aspirin, Lopressor, Avandia, Glucotrol, and Glucophage. Cardiac catheterization revealed significant coronary artery disease with multiple lesions and an aneurysm in the LAD. On physical exam at discharge, the patient was stable, afebrile, with clear lungs, regular heart rhythm, and a clean, intact sternal incision. The documented diagnosis was multivessel coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) times five and had an uncomplicated postoperative course. Discharge medications included Glucotrol, Glucophage, Avandia, Lipitor, Aspirin, Lasix (for five days), potassium chloride (for five days), and Percocet as needed.
+The patient is a 58-year-old male presenting with exertional shortness of breath and substernal chest pain. Symptoms were associated with a history of silent myocardial infarction at age 32 and recent positive exercise treadmill test with ST depression. Cardiac catheterization revealed significant coronary artery disease, including 70% left circumflex, 80% proximal and mid RCA, 50% mid LAD lesions, and an LAD aneurysm. Relevant history includes hypertension, diabetes, hypercholesterolemia, GERD, and prior hernia repair; home medications included Aspirin, Lopressor, Avandia, Glucotrol, and Glucophage. The documented diagnosis was multi-vessel coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) times five without complications and recovered well postoperatively. Discharge medications included Glucotrol, Glucophage, Avandia, Lipitor, Aspirin, Lasix (short course), potassium chloride (short course), Percocet as needed, and Colace. He was discharged home in stable condition with home nursing care and follow-up arranged in 3–7 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about a small blister on the right lower leg. The blister is approximately one centimeter across, has been present for a couple of days, and contains clear fluid; the patient reported no pain, itching, swelling, redness, fever, or changes in size or appearance. There was no history of injury, insect bite, new shoes, chemical or plant exposure, and the blister is not affecting daily activities. The skin around the blister appears normal, and there are no signs of infection or systemic symptoms. On examination and history, the doctor assessed this as an isolated, simple blister likely due to mild friction or minor, unnoticed trauma, with no evidence of infection or serious underlying cause. The doctor advised keeping the area clean and dry, avoiding popping the blister, and covering it loosely if needed. The patient was instructed to monitor for changes such as redness, pain, warmth, cloudy fluid, or feeling unwell, and to seek further evaluation if these occur; otherwise, the blister is expected to resolve without intervention.
+The patient is an adult presenting with a chief complaint of a small blister on the right lower leg. The blister is approximately one centimeter in diameter, has been present for a couple of days, and contains clear fluid. There is no associated pain, itching, redness, swelling, fever, or impact on daily activities, and the appearance of the blister has remained stable. The patient denies any recent injuries, insect bites, new shoes, or exposure to chemicals or plants.
+
+There is no relevant past medical history, medications, or allergies documented. The clinical impression is that this is a simple, isolated blister likely due to minor friction or unrecognized mild trauma, with no signs of infection or serious underlying cause. The treatment plan includes keeping the area clean and dry, avoiding popping the blister, and covering it loosely if needed. The patient was advised to monitor for any changes such as redness, pain, warmth, cloudy fluid, or systemic symptoms and to seek further evaluation if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.924
-- **Similarity Label**: N/A
+- **STS Score**: 0.167
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

@@ -93,16 +93,23 @@ For now, I encourage you to continue your normal routine, stay hydrated, and get
 
 ## EHR Summary
 
-The patient is an 82-year-old female presenting with chest pain and epigastric pain that began early on the 3rd and radiated to her back. She reported no nausea, vomiting, appetite changes, or bloody stools. Her relevant history includes atrial fibrillation, hypothyroidism, cataracts, glaucoma, legal blindness, prior mitral valve replacement, and recent C. difficile infection treated with Flagyl; current medications are Coumadin, Digoxin, and Synthroid. On admission, she was afebrile, alert, and oriented, with an irregular heart rhythm, slight right upper quadrant abdominal tenderness, and dry mucous membranes; laboratory findings included a white count of 12.8 and INR of 3.2. The documented diagnosis was cholecystitis. Her pain improved with initial management, but due to her cardiac history and anticoagulation status, she was transferred to a higher level of care for further evaluation by cardiology.
+The patient is an 82-year-old female presenting with chest and epigastric pain that began on the 3rd and radiated to her back. She reported no nausea, vomiting, appetite changes, or bloody stools, but had slight right upper quadrant tenderness on examination. Her relevant history includes atrial fibrillation (on Coumadin and Digoxin), hypothyroidism (on Synthroid), prior mitral valve replacement, C. difficile infection recently treated with Flagyl, cataracts, glaucoma, and legal blindness. The documented diagnosis was acute cholecystitis. Initial management included percutaneous drainage by interventional radiology, followed by laparoscopic cholecystectomy after careful perioperative anticoagulation management. Postoperatively, she developed an ileus that resolved with conservative management, and her pain was well-controlled. She was discharged in stable condition on her regular Coumadin regimen with instructions for follow-up regarding anticoagulation.
+
 
 ## Dialogue Summary
 
-The patient presented with a general sense of not feeling quite like themselves for the past couple of weeks. They denied any specific physical symptoms, changes in mood or energy, alterations in sleep, appetite, or ability to perform usual activities, and reported no headaches, aches, fatigue, or changes in hydration or bathroom habits. No recent changes in environment, medications, or daily routine were noted. The patient’s medical history, current medications, and allergies were not specified. On clinical review, there were no abnormal findings or concerning symptoms identified. The doctor assessed that there were no clear warning signs or specific symptoms pointing to a particular medical issue and that the feeling was likely mild and self-limited. The doctor recommended continuing the usual routine, staying well-hydrated, monitoring for any new symptoms such as unexplained weight loss, confusion, or changes in daily function, and to follow up if the feeling persists or worsens. The patient agreed with the plan and showed understanding.
+The patient presented with a chief complaint of a general sense of not feeling quite like themselves for the past couple of weeks. They denied any specific physical symptoms such as headaches, aches, fatigue, changes in sleep, appetite, or bathroom habits, and reported no changes in mood, daily routine, environment, or medications. The patient remains able to perform usual activities and has not noticed any new or concerning symptoms. Relevant history regarding chronic medical conditions, medications, or allergies was not specified.
+
+The clinical impression was that there are no specific symptoms or findings to suggest a particular medical issue at this time. The physician reassured the patient that mild, nonspecific fluctuations in well-being can occur and are often self-limited. The treatment plan included continuing usual activities, maintaining hydration, monitoring for any new or worsening symptoms (such as unexplained weight changes, confusion, or difficulty with daily tasks), and following up if concerns arise. No medications or further diagnostic workup were recommended at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.935
-- **Similarity Label**: N/A
+- **STS Score**: 0.398
+- **Model Used**: general
+- **Text1 Length**: 125 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

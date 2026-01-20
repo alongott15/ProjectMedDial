@@ -85,16 +85,21 @@ If anything new does come up—like persistent cough, chest discomfort, or sudde
 
 ## EHR Summary
 
-The patient is a 64-year-old male presenting with a history of hypertension, high cholesterol, diabetes, and prior aortic arch dissection. He was found to have multivessel coronary artery disease and aortic arch pathology. On admission, he was afebrile with stable vital signs; physical exam revealed a 4/6 systolic ejection murmur but was otherwise unremarkable. The documented diagnoses included multivessel coronary artery disease and aortic arch dissection. He underwent coronary artery bypass grafting (LIMA to LAD), aortic valve replacement with a pericardial valve, and resection/replacement of the ascending aortic arch. Postoperatively, he experienced transient hyperglycemia managed with his preoperative medications, required ventilatory support with subsequent successful weaning and extubation, and received aggressive diuresis. Physical therapy assessed him for ambulation, and he was deemed suitable for discharge after medical clearance. His chest tubes, wires, and Foley catheter were removed prior to discharge planning.
+The patient is a 64-year-old male presenting with a history of hypertension, high cholesterol, diabetes, and prior aortic arch dissection, found to have multivessel coronary artery disease. He did not report acute symptoms at admission; the note focuses on his surgical management and postoperative course. Relevant history includes hypertension, high cholesterol, diabetes, prior aortic arch dissection with loss of the right kidney, and current medications (Zestril, aspirin, labetalol, Norvasc). On examination, he was afebrile and stable with a 4/6 systolic ejection murmur. The documented diagnoses were hypertension, coronary artery disease status post CABG x1, aortic valve replacement and arch repair, history of aortic dissection with loss of right kidney, and high cholesterol. Treatment included coronary artery bypass grafting (LIMA to LAD), aortic valve replacement with pericardial valve, and resection/replacement of the ascending aortic arch. Postoperatively, he was managed with diuresis, pain control, gradual weaning from ventilator and oxygen, and physical therapy. He was discharged home in stable condition on aspirin, amlodipine, labetalol, Percocet as needed, Zantac, Colace, Lasix, and potassium chloride, with follow-up arranged with his physicians.
+
 
 ## Dialogue Summary
 
-The patient presented for a routine check with no new symptoms. They reported stable energy levels, sleep, appetite, weight, and daily routine, with no discomfort or limitations during physical activity. The patient denied recent cough, cold symptoms, fevers, mood changes, anxiety, or trouble concentrating. Medical history included regular use of Zestril, aspirin, labetalol, and Norvasc, with no recent changes to medications or supplements; the patient is up to date on blood pressure and cholesterol screenings. No abnormal clinical findings were described during the visit. The doctor assessed that the patient's health is stable and well-managed, especially regarding blood pressure and cholesterol. The doctor advised continued monitoring for subtle changes such as dizziness, swelling, or unusual tiredness, and recommended staying active and maintaining regular check-ups. The patient was instructed to report any new symptoms like persistent cough, chest discomfort, or sudden changes in energy.
+The patient presented for a routine check-up without any specific chief complaint. They reported no new symptoms, including no changes in energy, sleep, appetite, weight, or daily activities, and denied recent cough, cold symptoms, or fever. The patient is able to maintain usual physical activity without discomfort or limitations and has not experienced any mood changes or cognitive difficulties. Relevant history includes regular use of Zestril, aspirin, labetalol, and Norvasc, with no recent changes in medications or supplements. Routine screenings for blood pressure and cholesterol are up to date. No new diagnosis was documented during this visit. The treatment plan focused on continued monitoring for subtle symptoms such as dizziness, swelling, or unusual tiredness, and maintaining regular preventive care and activity. The patient was advised to report any new or concerning symptoms promptly.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.933
-- **Similarity Label**: N/A
+- **STS Score**: 0.505
+- **Model Used**: general
+- **Text1 Length**: 177 words
+- **Text2 Length**: 133 words
+
 
 ## Processing Information
 

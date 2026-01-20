@@ -85,16 +85,23 @@ If your symptoms suddenly get worse or you notice any new chest pain or fainting
 
 ## EHR Summary
 
-The patient is an 80-year-old male presenting with shortness of breath. He reported symptoms of dyspnea, abdominal bloating, leg swelling, vague chest pressure, orthopnea, productive cough, and chills, with symptoms worsening over the past three weeks after a reduction in diuretics. His medical history includes coronary artery disease status post CABG, congestive heart failure (EF 20-25%), atrial fibrillation on coumadin, diabetes mellitus, hypertension, hyperlipidemia, and chronic kidney disease; allergies include Bactrim, penicillins, and Procardia. On admission, vital signs included blood pressure 93/53 and heart rate 86; cardiac enzymes were elevated (troponin increased from 0.9 to 7.9, CK peaked at 445), and chest X-ray showed moderate CHF and right middle lobe pneumonia. The documented diagnoses were NSTEMI, right hilar pneumonia, acute on chronic systolic CHF, and CKD. Treatment included initiation of heparin infusion, aspirin, clopidogrel, intravenous lasix for diuresis, and a 10-day course of levofloxacin for pneumonia; he also received D5 with sodium bicarbonate for pre-cath hydration and was advised renal monitoring and supportive care.
+The patient is an 80-year-old male presenting with shortness of breath. He reported symptoms of dyspnea, abdominal bloating, leg swelling, vague chest pressure, orthopnea, productive cough, and chills, with symptoms worsening over three weeks after a reduction in diuretics. His medical history includes coronary artery disease status post CABG, congestive heart failure (EF 20-25%), atrial fibrillation on anticoagulation, diabetes, hypertension, dyslipidemia, chronic kidney disease, and peripheral vascular disease; he has allergies to Bactrim, penicillins, and Procardia. On admission, he was diagnosed with non-ST elevation myocardial infarction (NSTEMI), right middle lobe pneumonia, acute on chronic systolic heart failure exacerbation, and chronic kidney disease. Treatment included intravenous diuretics (furosemide), antibiotics (levofloxacin), anticoagulation (heparin), antiplatelet therapy (aspirin and clopidogrel), insulin for hyperglycemia, and supportive care including pre-cath hydration and electrolyte management. Despite these interventions, the patient developed pulseless electrical activity arrest and died during hospitalization.
+
 
 ## Dialogue Summary
 
-The patient presented with difficulty catching their breath. They reported that shortness of breath worsens with activity but is also present at rest, and is aggravated by lying down, requiring them to sleep upright in chairs or on the couch. Additional symptoms include swelling in the legs and a feeling of abdominal bloating/fullness, which is uncomfortable but not painful, as well as a productive cough without wheezing and vague chest pressure without palpitations or heart racing. The patient stated these symptoms have been present for several days or longer and began around the same time. No relevant medical history, medications, or allergies were mentioned. The doctor noted the combination of breathing difficulties, leg swelling, and abdominal fullness, and assessed that these may be related to fluid buildup possibly due to the heart not pumping efficiently, leading to congestion and swelling. The doctor advised sitting upright to ease breathing, limiting salty foods to help with swelling, monitoring for warning signs such as sudden worsening of symptoms or new chest pain, and scheduling a check-up for further evaluation.
+The patient is an adult presenting with shortness of breath as the chief complaint. The dyspnea is worse with exertion but also occurs at rest and is exacerbated by lying down; the patient has been sleeping upright due to discomfort. Associated symptoms include lower extremity swelling and abdominal bloating described as fullness without significant pain, both of which began around the same time as the breathing difficulties and have persisted for several days or longer. The patient also reports a productive cough and vague chest pressure, but denies palpitations or heart racing.
+
+Relevant history, medications, and allergies are not specified. The clinical impression discussed by the doctor is possible fluid retention related to inefficient cardiac function, leading to congestion in the lungs and peripheral edema. The treatment plan includes recommendations to remain upright to ease breathing, limit salty foods to help reduce swelling, monitor for worsening symptoms, and schedule a follow-up evaluation. The patient was advised to seek prompt medical attention if symptoms acutely worsen or if new severe chest pain or fainting occurs.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.666
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 174 words
+
 
 ## Processing Information
 

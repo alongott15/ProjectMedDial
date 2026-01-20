@@ -69,16 +69,21 @@
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with several days of progressive substernal chest pressure radiating to his left arm. The chest pain worsened over five days but responded to Pepcid and had no exertional component; he denied shortness of breath, lightheadedness, dizziness, palpitations, nausea, or vomiting. His past medical history includes coronary artery disease status post right coronary artery stent (August 2121), type 2 diabetes mellitus on oral hypoglycemics, and hypercholesterolemia. On admission, blood pressure was 150/90 mmHg, heart rate in the 60s, and EKG showed ST elevations in V1–V4 with inferior reciprocal changes. Cardiac catheterization revealed a 100% ostial lesion of the left anterior descending artery, and two Taxus stents were placed. The documented diagnosis was acute coronary syndrome with anterior ST elevation myocardial infarction. Treatment included heparin, aspirin, Tirofiban, Lopressor, and percutaneous coronary intervention with stent placement. The patient was monitored in the Coronary Care Unit following the procedure.
+The patient is a 61-year-old male presenting with several days of progressive substernal chest pressure radiating to his left arm. The chest pain worsened over five days but responded to Pepcid, with no associated shortness of breath, lightheadedness, dizziness, palpitations, nausea, or vomiting. His past medical history includes coronary artery disease status post right coronary artery stent (2121), type 2 diabetes mellitus, and hypercholesterolemia; he has no known drug allergies. On admission, EKG showed anterior ST elevations and inferior ST depressions, and cardiac catheterization revealed a 100% ostial left anterior descending lesion. The documented diagnoses were myocardial infarction status post PTCA/stent to the left anterior descending artery, type 2 diabetes mellitus, and hypercholesterolemia. Treatment included placement of two Taxus stents, initiation of dual antiplatelet therapy (aspirin and Plavix), atorvastatin, beta blocker (metoprolol XL), ACE inhibitor (lisinopril), anticoagulation with Coumadin and Lovenox, and continuation of diabetes medications. The patient was discharged home in good condition, chest pain free, with follow-up arranged for echocardiogram, electrophysiology, and primary care.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure that has been worsening over time and occasionally radiates down the left arm. The chest pressure occurs both with activity and at rest, has been present for a few days, and is described as moderate in intensity with occasional stronger episodes; it tends to come and go in a "stuttering" pattern. The patient denied associated symptoms of sweating or lightheadedness and did not report shortness of breath. The chest pressure has made daily activities such as walking and climbing stairs more difficult, requiring the patient to slow down and take breaks. No relevant medical history, medications, or allergies were mentioned. No physical examination findings were discussed. The doctor did not provide a specific assessment or diagnosis during the conversation. No treatment plan or recommendations were given in the dialogue.
+The patient presents with chest pressure as the chief complaint. The chest pressure has been worsening over several days, sometimes radiating down the left arm, and is described as moderate in intensity with occasional stronger episodes. The symptom is triggered by physical activity but can also occur at rest, and it has made daily activities such as walking and climbing stairs more difficult, requiring the patient to slow down and take breaks. The pressure is intermittent and not associated with sweating, lightheadedness, or shortness of breath. Relevant medical history, medications, and allergies are not specified. No diagnosis was documented during the encounter. No specific treatment or advice was provided in the documented dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.520
+- **Model Used**: general
+- **Text1 Length**: 166 words
+- **Text2 Length**: 113 words
+
 
 ## Processing Information
 

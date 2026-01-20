@@ -186,3 +186,21 @@ The emergency team will prioritize your safety and run tests to figure out what'
 ## Processing Information
 
 - **Processing Time**: 416.6s
+
+## EHR Summary
+
+The patient is a 19-year-old female presenting with emboli. She experienced chest pain, shortness of breath, pleuritic chest pain, syncope, and a recent history of left lower extremity pain and swelling; symptoms included tachycardia, hypotension, and mild respiratory distress. She has a past medical history of asthma and a significant family history of deep venous thrombosis. Imaging revealed large pulmonary emboli extending to the left pulmonary artery. The documented diagnosis was pulmonary embolism, likely related to a genetic predisposition and possibly oral contraceptive use. Treatment included Heparin, thrombolysis with TPA, and transition to Coumadin with INR monitoring; she was also started on calcium carbonate and vitamin D. The patient was advised to avoid oral contraceptives and follow up with Hematology for a hypercoagulability workup. She was discharged in stable condition with instructions for anticoagulation management and further evaluation.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with chest pain as the chief complaint. Key symptoms include shortness of breath (worsening when sitting up), left leg pain and swelling, fatigue, lightheadedness, pleuritic chest pain, cough, and upper respiratory symptoms, all of which have been progressively worsening over several days. The patient also reported an episode of fainting. The physician expressed concern for possible pulmonary embolism due to the combination of chest pain, dyspnea, and unilateral leg symptoms, noting this as a potential medical emergency. The patient was advised to seek urgent evaluation in the emergency department for further diagnostic testing, including imaging and blood work, to confirm or rule out pulmonary embolism. The doctor emphasized the importance of bringing a list of current medications, allergies, and a summary of recent symptoms to the hospital. The patient was instructed to report any worsening symptoms such as severe chest pain, increased shortness of breath, fainting, or hemoptysis immediately. No specific medications or allergies were documented in the dialogue.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.704
+- **Model Used**: general
+- **Text1 Length**: 138 words
+- **Text2 Length**: 165 words
+

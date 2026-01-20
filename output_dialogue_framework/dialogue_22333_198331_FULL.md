@@ -98,3 +98,21 @@ If you’d like, we can discuss some simple exercises and lifestyle changes that
 ## Processing Information
 
 - **Processing Time**: 443.9s
+
+## EHR Summary
+
+The patient is a 65-year-old male presenting with back and leg pain. He reported crescendo leg pain and claudication over the last six months, along with longstanding low back pain. His medical history includes hypertension, Parkinson's disease, and diabetes, and he has allergies to penicillins, sulfa drugs, and Stelazine. The documented diagnosis was herniated disk and spinal stenosis. He underwent posterior spinal decompression and discectomy with repair of a dural tear; the cerebrospinal fluid leak was controlled, and the wound healed primarily with intact motor and sensory function. At discharge, he was stable, neurologically intact, ambulatory, and his wound was sealed. Discharge medications included antihypertensives, antidiabetics, atorvastatin, bicalutamide, perphenazine, folic acid, and codeine as needed for pain. He was advised to keep the wound clean and dry, avoid immersion, and follow up as planned.
+
+
+## Dialogue Summary
+
+The patient is an adult with a chief complaint of worsening leg pain that is aggravated by walking and relieved by rest. The pain originates in the back, radiates down both legs, and is described as moving rather than localized, with a severity of 7 out of 10 during walking. The discomfort has led to difficulty with daily activities such as shopping, climbing stairs, and walking around the house, but there is no associated numbness, tingling, or weakness. Relevant history includes diabetes and high blood pressure; no known circulation problems were previously reported. The clinical impression is claudication, likely due to peripheral artery disease, given the symptom pattern and risk factors. The doctor recommended pacing activities, taking breaks as needed, and maintaining good control of blood sugar and blood pressure. The patient was also offered information about exercises and lifestyle changes to improve circulation. The patient expressed interest in learning more about these interventions.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.549
+- **Model Used**: general
+- **Text1 Length**: 134 words
+- **Text2 Length**: 154 words
+

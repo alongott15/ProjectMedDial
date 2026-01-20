@@ -85,16 +85,21 @@ In the meantime, try to avoid activities that put you at risk for falls, and ask
 
 ## EHR Summary
 
-The patient is a 59-year-old male presenting with left arm and leg weakness. MRI revealed a right posterior communicating artery aneurysm. His past medical history includes hypertension, right leg fracture, deep venous thrombosis, hypercholesterolemia, and colon polyps; he is allergic to ampicillin, iodine, and shellfish. On physical exam, he was well-appearing with stable vital signs and motor strength noted in all muscle groups. The documented diagnosis was a right fetal posterior cerebral artery origin aneurysm. He underwent a right pterional craniotomy for aneurysm clipping without intraoperative complications. Postoperatively, he was alert, oriented, moving all extremities strongly, and ambulating without difficulty. The treatment plan included surgical clipping of the aneurysm and postoperative monitoring in the Surgical Intensive Care Unit followed by transfer to the regular floor.
+The patient is a 59-year-old male presenting with left arm and leg weakness. MRI revealed a right posterior communicating artery aneurysm, and he was admitted for possible coiling, which was unsuccessful due to a wide aneurysm neck. His past medical history includes hypertension, right leg fracture, deep venous thrombosis, hypercholesterolemia, and colon polyps; allergies include ampicillin, iodine, and shellfish. He subsequently underwent a right craniotomy for clipping of the aneurysm without intraoperative complications. Postoperatively, he was alert, oriented, moving all extremities well, and had stable vital signs. A repeat angiogram on postoperative day 3 showed no residual aneurysm and good clip position. The documented diagnosis was right fetal posterior cerebral artery origin aneurysm. He was discharged home in stable condition with medications including Lipitor, hydrochlorothiazide, Percocet as needed, Decadron for a short course, and Benadryl, and advised to follow up in one month.
+
 
 ## Dialogue Summary
 
-The patient presented with weakness in the left arm and leg. The weakness had been present for a few days, was constant throughout the day, and made tasks like holding objects and walking more difficult; activity made the weakness more noticeable, while rest did not resolve it, and changing positions had no effect. The patient denied any changes in speech, vision, facial drooping, numbness, recent injuries, illnesses, or new medications. No additional symptoms such as confusion, severe headache, or trouble speaking were reported. The doctor noted that the steady, isolated weakness without other neurological symptoms suggested it was not an emergency but warranted further evaluation. The assessment included possible causes such as nerve, muscle, or circulation issues affecting signal transmission from the brain to the muscles. The doctor recommended arranging a thorough neurological exam with a healthcare provider within the next few days and advised seeking immediate care if new symptoms developed. The patient was also advised to avoid activities that could lead to falls and to ask for help at home as needed.
+The patient presents with the chief complaint of weakness in the left arm and leg. The weakness has been constant for several days, is not improving or worsening, and is more noticeable with activity but present at rest; it has caused difficulty with tasks such as holding objects and walking. The patient denies associated symptoms such as numbness, speech or vision changes, facial drooping, recent injuries, illnesses, or new medications. There is no documented relevant medical history, medications, or allergies. The clinical impression is that the steady unilateral weakness without other neurological symptoms is not an emergency but warrants further evaluation. The doctor recommends arranging a thorough neurological exam with a healthcare provider within the next few days. The patient is advised to avoid activities that could lead to falls and to seek immediate care if new symptoms such as confusion, severe headache, sudden vision changes, or trouble speaking develop. No specific diagnosis or medication was documented during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.455
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

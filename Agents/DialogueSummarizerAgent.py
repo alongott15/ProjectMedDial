@@ -56,10 +56,11 @@ class DialogueSummarizerAgent:
 
 {transcript}
 
-Provide a concise summary (5-8 sentences) reporting only what was said:
-- Symptoms discussed
-- Doctor's questions and assessments
-- Advice or recommendations given
+Provide a concise summary (5-8 sentences) covering:
+- Main complaint
+- Key symptoms
+- Diagnosis (if documented)
+- Basic treatment/advice
 
 Summary:"""}
         ]

@@ -75,16 +75,21 @@
 
 ## EHR Summary
 
-The patient is an elderly female presenting with acute onset shortness of breath and left arm pain/chest discomfort. Symptoms began while lying in bed and were associated with diaphoresis, severe hypertension (BP 200/110), tachypnea (RR 40s), and hypoxemia (O2 saturation 92% on non-rebreather). She has a history of diastolic dysfunction, congestive heart failure, sick sinus syndrome status post pacemaker, atrial tachycardia/flutter, hypertension, hypothyroidism, hypercholesterolemia, and gout; she recently stopped taking her prescribed furosemide due to nocturia. On exam, she was in mild respiratory distress with elevated jugular venous pressure and crackles halfway up the lungs, but no peripheral edema. Laboratory findings included elevated glucose (193 mg/dL), urea nitrogen (31 mg/dL), and creatinine (1.2 mg/dL). The clinical impression was acute decompensated heart failure. Treatment included nitroglycerin (sprays and infusion), intravenous furosemide (total 80 mg), BIPAP support, and diuresis with a total output of 1100 cc in the emergency department.
+The patient is a female over 90 years old presenting with acute onset shortness of breath and left arm pain/chest discomfort. Symptoms began while lying in bed and were associated with diaphoresis, severe hypertension (BP 200/110), tachypnea (RR 40), and hypoxemia (O2 sat 92% on NRB). She has a history of diastolic dysfunction, congestive heart failure (CHF), sick sinus syndrome status post pacemaker, atrial tachycardia/flutter, hypertension, hypothyroidism, and hypercholesterolemia. The documented diagnosis was decompensated CHF and atrial fibrillation, likely precipitated by recent discontinuation of furosemide. She was treated with IV furosemide, nitroglycerin infusion, BIPAP, and later transitioned to oral diuretics, beta-blockers, anticoagulation, and other supportive medications. At discharge, she was stable with no residual shortness of breath and was advised to continue her medication regimen and follow up with cardiology. Discharge disposition was to an extended care facility.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble catching their breath, which has been causing anxiety. The shortness of breath worsens with exertion, such as climbing stairs, but is less noticeable at rest. Associated symptoms include chest discomfort during episodes, which occasionally radiates to the left arm and jaw, sweating, and a feeling of weakness, though there has been no fainting or loss of consciousness. The episodes typically last a few minutes and improve with rest. The patient denied wheezing or coughing. No past medical history, medications, or allergies were mentioned. The doctor inquired about the characteristics and triggers of the symptoms but did not provide a specific assessment or diagnosis during the conversation. No treatment plan or recommendations were discussed in this dialogue.
+The patient is presenting with shortness of breath as the chief complaint. The dyspnea is exertional, worsening with activities such as climbing stairs, and is accompanied by chest discomfort that sometimes radiates to the left arm and jaw. The patient denies wheezing or coughing but reports sweating and weakness during episodes, which last a few minutes and improve with rest; there is no history of syncope. No relevant past medical history, medications, or allergies are documented in this dialogue. No formal diagnosis has been documented at this stage of the encounter. No specific treatment or recommendations have been provided yet.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.576
+- **Model Used**: general
+- **Text1 Length**: 138 words
+- **Text2 Length**: 100 words
+
 
 ## Processing Information
 

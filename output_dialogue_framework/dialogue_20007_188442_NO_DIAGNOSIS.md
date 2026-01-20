@@ -85,16 +85,21 @@ Let me know if you have any new symptoms like confusion, severe chest pain, or i
 
 ## EHR Summary
 
-The patient is a 79-year-old female presenting with respiratory distress and reported granulation tissue at her tracheal site. She denied shortness of breath, chest pain, or cough at the time of admission. Her history is significant for recent gallstone pancreatitis requiring open cholecystectomy, congestive heart failure, atrial fibrillation, C. difficile infection, respiratory failure with failure to wean, tracheostomy complicated by tracheal tear, and a myopathic/neuropathic process causing generalized weakness. Allergies include aspirin, levofloxacin, vancomycin, and gentamicin. On examination, she was in no acute distress with stable vital signs (pulse 100, BP 109/65, oxygen saturation 99% on room air). The clinical impression included respiratory distress with granulation tissue at the tracheal site. Plans included bronchoscopy for further evaluation. Her medications on admission included Synthroid, Metoprolol, Prilosec, Flagyl, Paxil, Vitamin C, Zinc, Trazodone, Zofran as needed, Coumadin, Lasix, and Promote tube feeds.
+The patient is a 79-year-old female presenting with respiratory distress and a history of prolonged ICU stay. She experienced worsening respiratory status with ventilator dependence, believed to be secondary to a myopathic/neuropathic process, and had granulation tissue at her tracheal site but denied shortness of breath, chest pain, or cough. Her past medical history includes hypertension, atrial fibrillation, congestive heart failure, C. difficile infection, malnutrition, hypothyroidism, and recent tracheal perforation. The documented clinical impression was respiratory failure due to generalized muscle weakness, with additional complications including atrial fibrillation and mild ileus. Treatment included bronchoscopy (negative for obstruction), tracheostomy change to facilitate speech, pressure support ventilation with weaning trials, continuation of tube feeds, a four-week course of Prednisone 60 mg daily, Bactrim for urinary tract infection, insulin sliding scale for steroid-induced hyperglycemia, and diuretics for fluid overload. She was discharged on pressure support ventilation with trache mask trials as tolerated and scheduled for neurology follow-up regarding her myopathy. At discharge, she was stable on IMV mode with pressure support and had improved edema. Recommendations included continuing current therapies and monitoring at the rehabilitation facility.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent nausea as the chief complaint. Symptoms included ongoing nausea, multiple episodes of vomiting over the past few days, abdominal pain described as a dull ache that is mostly constant, extreme weakness, difficulty eating, sleeping, and moving around, trouble keeping fluids down, and new onset of shortness of breath even at rest with coughing up thick, dark secretions. The patient reported that symptoms were not triggered by specific foods or activities and have significantly impacted daily functioning. No relevant medical history, medications, or allergies were mentioned during the encounter. The doctor noted concern for possible dehydration and infection, potentially involving both the lungs and digestive system, given the combination of gastrointestinal and respiratory symptoms. The assessment was that these symptoms may indicate a chest infection or another serious condition rather than simple stomach upset. The doctor recommended seeking medical attention as soon as possible for examination, oxygen level assessment, and further testing, and advised the patient to continue sipping small amounts of clear fluids if able. Additional instructions included monitoring for new symptoms such as confusion, severe chest pain, or inability to keep fluids down, which would warrant immediate medical attention.
+The patient is an older adult presenting with persistent nausea as the chief complaint. Over the past few days, they have experienced ongoing nausea, multiple episodes of vomiting, and a constant dull abdominal ache, with symptoms not related to food or activity. The patient reports significant weakness, difficulty eating, trouble sleeping, and has had difficulty keeping fluids down. Additionally, they describe new-onset dyspnea at rest and a cough producing thick, dark secretions. No specific past medical history, medications, or allergies were documented. The clinical impression was concern for possible chest infection or a process affecting both the lungs and digestive system, with dehydration also considered. The treatment plan included urgent medical evaluation for examination, oxygen assessment, and possible testing, with advice to continue sipping clear fluids and to seek immediate care if symptoms worsen (e.g., confusion, severe chest pain, inability to keep fluids down).
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
+- **STS Score**: 0.613
+- **Model Used**: general
+- **Text1 Length**: 183 words
+- **Text2 Length**: 144 words
+
 
 ## Processing Information
 

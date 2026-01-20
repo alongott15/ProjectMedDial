@@ -100,3 +100,21 @@ Does this explanation make sense, or is there anything else about your symptoms 
 ## Processing Information
 
 - **Processing Time**: 450.4s
+
+## EHR Summary
+
+The patient is a 56-year-old female presenting with left scapular pain radiating to the left shoulder and arm, with recurrence of pain and an episode of syncope after taking sublingual nitroglycerin. The pain was described as dull and steady, lasting two days initially, with partial relief from nitroglycerin and no associated dyspnea, nausea, or diaphoresis; a second episode occurred after dinner, again partially relieved by nitroglycerin but followed by lightheadedness and syncope. Her relevant history includes known coronary artery disease with recent right coronary artery stenting, hypercholesterolemia, peripheral vascular disease, chronic obstructive pulmonary disease, and right knee surgery; she takes Lopressor, Lipitor, Lisinopril, Plavix, Aspirin, and sublingual nitroglycerin as needed. Cardiac catheterization during this admission showed patent right coronary artery stents and no significant change in coronary anatomy compared to four days prior. The documented diagnoses were left shoulder pain (with acute stent thrombosis ruled out), known coronary artery disease with patent stent, hypercholesterolemia, peripheral vascular disease, questionable COPD, and history of right knee surgery. Treatment included continuation of her cardiac medications, intravenous fluids, anticoagulation during evaluation, and Tylenol #3 for musculoskeletal shoulder pain. She was advised to lay down before taking sublingual nitroglycerin in the future. The patient was discharged in stable condition with follow-up arranged with her cardiologist.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with a chief complaint of steady, dull pain behind the left shoulder blade, radiating to the left shoulder and arm. The pain has been constant since onset, rated 6 out of 10 in intensity, and is not affected by movement, position, or activity. There are no associated neurological symptoms (numbness, tingling, weakness) or cardiopulmonary symptoms (shortness of breath, chest discomfort, sweating). The discomfort has made reaching, lifting, and sleeping more difficult, but there is no history of recent injury or unusual physical activity. The clinical impression documented by the doctor is a musculoskeletal issue, likely muscle strain or irritation around the shoulder blade. The treatment plan includes gentle stretching, warm compresses, avoiding aggravating activities, and over-the-counter pain relief such as acetaminophen or ibuprofen if there are no contraindications. The patient was advised to seek prompt evaluation if severe pain, neurological symptoms, or chest symptoms develop. Additionally, the patient reported recent lightheadedness and a syncopal episode (fainting while sitting), which was raised as a new concern at the end of the visit.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.601
+- **Model Used**: general
+- **Text1 Length**: 210 words
+- **Text2 Length**: 177 words
+

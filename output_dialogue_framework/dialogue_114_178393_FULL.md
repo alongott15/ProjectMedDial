@@ -85,16 +85,21 @@ For now, I recommend taking it easy with physical activity until we know more. I
 
 ## EHR Summary
 
-The patient is a 48-year-old man presenting with new onset dyspnea on exertion and angina. Symptoms included shortness of breath and chest pain with activity, prompting cardiac catheterization, which revealed two-vessel coronary artery disease with an ejection fraction of 40%. Relevant history includes hypercholesterolemia and prior appendectomy; medications on admission were Gemfibrozil, Atenolol, and Aspirin. Cardiac catheterization showed significant stenoses in the LAD and RCA, and the patient was referred for coronary artery bypass grafting (CABG). Physical findings included a postoperative ejection fraction of 50-55% and a postoperative fever with sputum cultures positive for gram negative rods. The documented diagnosis was coronary artery disease requiring revascularization. Treatment included CABG x3 (LIMA to LAD, left radial to D1, saphenous vein graft to PDA), postoperative management with Nitroglycerin and Neo-Synephrine, and Levofloxacin for gram negative rod infection. The patient experienced one episode of epigastric pain with right bundle branch block on EKG but otherwise recovered well.
+The patient is a 48-year-old man presenting with new onset dyspnea on exertion and angina. Symptoms included shortness of breath and chest pain with activity, prompting cardiac catheterization that revealed two-vessel coronary artery disease and an ejection fraction of 40%. Relevant history includes hypercholesterolemia and prior appendectomy; home medications included Gemfibrozil, Atenolol, and Aspirin. The documented diagnoses were coronary artery disease status post coronary artery bypass grafting (CABG) times three and hypercholesterolemia. During hospitalization, he underwent CABG with postoperative improvement in ejection fraction to 50-55%. Postoperative complications included fever with gram negative rods in sputum (treated with Levofloxacin), one episode of epigastric pain with right bundle branch block on EKG, and a blood transfusion for low hematocrit and tachycardia. At discharge, he was stable and ambulatory, prescribed Lopressor, potassium chloride, Lasix, Colace, Zantac, Aspirin, Motrin as needed, Imdur, Niferex, Levofloxacin for 7 days, and Percocet. He was advised to follow up with his cardiothoracic surgeon and primary care provider within 1–9 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with exertional shortness of breath as the chief complaint. They reported several days of increased difficulty breathing during activities such as walking up stairs, doing household chores, and walking at their usual pace, with symptoms including chest pain described as angina and upper stomach discomfort that occur together during exertion. The symptoms improve within a few minutes of rest and do not persist, and the patient also noted a fever but denied cough, chills, or recent illness. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the symptoms are exertional, improve with rest, and are not completely limiting activity, which is somewhat reassuring; possible causes discussed included cardiac, pulmonary, gastrointestinal, or deconditioning factors. The doctor advised the patient to limit physical activity for now, monitor for any worsening symptoms such as severe chest pain or fainting, and seek prompt medical attention if these occur. The patient was also instructed to keep track of symptom timing and to arrange for basic tests to clarify the cause.
+The patient presents with exertional dyspnea as the chief complaint. Symptoms began a few days ago and include shortness of breath during activities such as walking up stairs or doing household chores, accompanied by chest pain (described as angina) and upper abdominal discomfort; all symptoms occur together during exertion and resolve with rest within a few minutes. The patient also reports a fever but denies cough, chills, or recent illness aside from the fever. The symptoms make daily activities more difficult but do not prevent completion of tasks, though the patient must slow down and take breaks. Relevant medical history, medications, and allergies are not specified in the dialogue. The clinical impression is that the symptoms may be related to cardiac, pulmonary, gastrointestinal, or deconditioning causes, but no definitive diagnosis is documented. The treatment plan includes advising the patient to limit physical activity, monitor for worsening symptoms (such as severe chest pain or fainting), and arrange for basic diagnostic tests to clarify the cause. The patient was instructed to seek prompt medical attention if warning signs develop and to keep a record of symptom occurrences.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.444
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 185 words
+
 
 ## Processing Information
 

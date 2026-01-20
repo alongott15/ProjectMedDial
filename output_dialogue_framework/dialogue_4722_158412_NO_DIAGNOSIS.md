@@ -89,16 +89,23 @@ Do you have any questions about what I’ve explained or concerns about what to 
 
 ## EHR Summary
 
-The patient is a 59-year-old woman presenting with a history of headaches. She has a past medical history of hypertension and hypercholesterolemia and is allergic to penicillin. On admission, her physical exam was notable for mild anxiety but no acute distress, with stable vital signs and intact cranial nerves; muscle strength was slightly reduced (4-5/5), and ankle reflexes were 1+. She underwent a left pterional craniotomy for clipping of a right A1 to A2 aneurysm without intraoperative complications. Postoperatively, she was awake and alert, with mild right-sided weakness, slight right facial droop, and a slight pronator drift on the right side. An arteriogram confirmed good placement of the aneurysm clip. The documented diagnosis was a right A1 to A2 aneurysm. She is being discharged to rehabilitation with stable vital signs and follow-up arranged.
+The patient is a 59-year-old woman presenting with a history of headaches. She was admitted following a left pterional craniotomy for clipping of a right A1 to A2 cerebral aneurysm, with no intraoperative complications. Postoperatively, she was awake and alert, with mild right-sided weakness, slight right facial droop, and a slight pronator drift on the right side; extraocular movements and pupils were normal. Her past medical history includes hypertension and hypercholesterolemia, and she has a penicillin allergy. The documented diagnosis was a right A1 to A2 cerebral aneurysm, status post surgical clipping. Treatment included surgical aneurysm clipping, postoperative monitoring, and initiation of medications such as atenolol, Dilantin, famotidine, Lipitor, hydrochlorothiazide, valsartan, Percocet as needed, heparin, and Colace. She was stable on discharge and referred for short-term rehabilitation. Follow-up with her neurosurgeon was arranged in 9–14 days, with staple removal planned for postoperative day ten.
+
 
 ## Dialogue Summary
 
-The patient presented with headaches that have been ongoing for a few days. They reported gradual onset of right-sided facial droop and mild right-sided weakness, which began around the same time as the headaches. The patient stated these symptoms make daily activities slightly harder but is still able to eat and dress as usual; the facial droop has remained unchanged since onset. Mild anxiety developed after noticing these symptoms, but it has not affected sleep, appetite, or ability to relax. No changes in vision, speech, or sudden worsening of symptoms were noted. The doctor assessed that new neurological changes, even if mild and gradual, could indicate an issue with nerves or blood flow to the brain and warrant prompt evaluation. The doctor recommended seeking an in-person evaluation today to rule out serious causes and advised immediate emergency care if symptoms worsen suddenly. The patient understood the recommendations and agreed to follow up as advised.
+The patient is an adult presenting with headaches as the chief complaint. The headaches began a few days ago and were followed by gradual onset of mild right-sided facial droop and weakness, without changes in speech or vision. The patient reports that these symptoms have remained stable and are mildly impacting daily activities, but they are still able to eat and dress independently. Mild anxiety developed after the onset of neurological symptoms but has not affected sleep or appetite.
+
+There is no documented relevant medical history, medications, or allergies in the dialogue. The clinical impression is that the new-onset right-sided weakness and facial droop, even if mild and gradual, may indicate a neurological issue requiring prompt evaluation. The doctor advised the patient to seek in-person assessment as soon as possible, ideally the same day, to rule out serious causes. Additional recommendations included resting, avoiding activities requiring coordination, and seeking emergency care if symptoms worsen (such as increased weakness, trouble speaking, or severe headache).
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.411
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

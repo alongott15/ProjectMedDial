@@ -67,16 +67,21 @@
 
 ## EHR Summary
 
-The patient is a 65-year-old male presenting with bilateral ischemic Achilles heel ulcers. He reports ulcerations in the Achilles tendon area of both feet, attributed to dry skin and abrasions from scratching, with associated rest pain and inability to ambulate due to pain; he is currently wheelchair bound. His medical history includes coronary artery disease (status post coronary artery bypass graft), diabetes, hypertension, hypercholesterolemia, gastroesophageal reflux disease, and rheumatoid arthritis. On physical exam, he was alert and cooperative, with stable vital signs and clear lungs; no acute distress was noted. The documented diagnosis is bilateral ischemic Achilles heel ulcers. Prior treatment included intravenous antibiotics at another hospital without improvement, and he underwent an angiogram before referral for further evaluation. Admission medications included insulin (Humulin NPH), Lopressor, Tricor, Mavik, Zocor, and sublingual nitroglycerin as needed. Further management details are not specified in the provided note.
+The patient is a 65-year-old male presenting with bilateral ischemic Achilles heel ulcers. He reported rest pain and inability to ambulate due to pain, with a history of diabetes, coronary artery disease, hypertension, hypercholesterolemia, and prior coronary artery bypass graft. Examination revealed cool, pale feet with draining Achilles ulcers and non-palpable distal pulses. The documented diagnoses included bilateral ischemic Achilles ulcers, pulmonary edema requiring intubation, and myocardial infarction confirmed by positive troponin and cardiac catheterization. Treatment involved right axillo-femoral and left femoral-anterior tibial bypass grafts with heel debridement, intravenous antibiotics (Kefzol, ciprofloxacin), anticoagulation (heparin, Coumadin), diuresis with Lasix, and management of yeast bacteremia with fluconazole. Postoperative care included wet-to-dry saline dressings for the ulcers, continuation of ciprofloxacin, and adjustment of insulin therapy due to poor appetite. The patient was discharged in satisfactory condition to a rehabilitation facility with follow-up planned.
+
 
 ## Dialogue Summary
 
-The patient presented with sores on the back of their heels, which have been significantly impacting mobility. The sores have been present for approximately two weeks and are worsening, with increased pain and the skin appearing more raw. The patient reports being unable to walk much due to severe foot pain and has been staying off their feet as much as possible. There is no reported swelling, redness, or drainage from the sores, and no history of new footwear, socks, or increased friction on the heels. No relevant medical history, medications, or allergies were mentioned. On examination, the doctor noted the absence of infection signs such as drainage or redness based on the patient's report. The assessment focused on painful, worsening heel sores without clear evidence of infection or friction-related cause. No specific treatment plan or recommendations were provided during the documented portion of the conversation.
+The patient is presenting with painful sores on the back of both heels as the chief complaint. The sores have been present for approximately two weeks and are worsening, with increased pain and the skin appearing more raw. The pain is severe enough to significantly limit mobility, making walking difficult and leading the patient to stay off their feet. The patient denies swelling, redness, or drainage from the sores and has not noticed any new footwear, rubbing, or pressure contributing to the problem. No relevant medical history, medications, or allergies were discussed in this encounter. No formal diagnosis was documented during the dialogue. No specific treatment or recommendations were provided in the conversation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.460
+- **Model Used**: general
+- **Text1 Length**: 140 words
+- **Text2 Length**: 113 words
+
 
 ## Processing Information
 

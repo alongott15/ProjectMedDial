@@ -85,16 +85,21 @@ Let me know if you have any questions or concerns about what we've discussed.
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with recent onset of substernal chest pain and dyspnea on exertion. Symptoms were associated with electrocardiogram changes and led to further evaluation. Relevant history includes insulin-dependent diabetes mellitus, hypertension, and prior appendectomy; admission medications included NPH insulin, Glucophage, glyburide, Levatol, and Mavik. Cardiac catheterization revealed 3-vessel coronary artery disease and a large pericardial effusion with a thrombin fibrin mass, but no tamponade; echocardiogram confirmed the effusion. Physical examination was unremarkable except for findings related to the cardiac workup. The documented diagnosis was 3-vessel coronary artery disease with pericardial effusion. The patient underwent coronary artery bypass graft surgery (CABG x2) and pericardial peel, tolerated the procedure well, and was transferred postoperatively in stable condition. Postoperative recovery included extubation and removal of chest tubes.
+The patient is a 62-year-old male presenting with recent onset of substernal chest pain and dyspnea on exertion. Symptoms were associated with electrocardiogram changes and were further evaluated by cardiac catheterization, which revealed 3-vessel coronary artery disease and a pericardial effusion with a large thrombin fibrin mass. Relevant history includes insulin-dependent diabetes mellitus and hypertension; medications on admission included NPH insulin, Glucophage, glyburide, Levatol, and Mavik. The documented diagnoses were status post coronary artery bypass graft surgery, status post cardiac catheterization, and history of insulin-dependent diabetes mellitus. The patient underwent coronary artery bypass graft surgery times two with a pericardial peel and tolerated the procedure well. Postoperatively, he recovered without complications, was ambulatory with physical therapy, and was discharged home in good condition.
+
 
 ## Dialogue Summary
 
-The patient presented with central chest pain. The pain was described as a pressure sensation in the middle of the chest, rated 5–6 out of 10 in severity, and had been present for a few days, coming and going, especially with physical activity such as walking or climbing stairs; it improved with rest or sitting down. The patient also reported shortness of breath during activity but denied associated symptoms such as sweating, lightheadedness, nausea, or radiation of pain to other areas. No relevant medical history, medications, or allergies were mentioned during the encounter. On clinical questioning, the doctor noted that the chest discomfort was exertional and relieved by rest, with no other concerning features present. The doctor’s assessment was that the symptoms could be consistent with angina due to possible narrowed blood vessels and recommended further evaluation to rule out underlying heart issues. The treatment plan included avoiding strenuous activity, arranging for an EKG and heart tests, and instructions to seek emergency care if symptoms worsen or new severe symptoms develop.
+The patient presents with central chest pain as the chief complaint. The pain is described as a pressure sensation, rated 5–6 out of 10, that began a few days ago and is intermittent, worsening with physical activity and improving with rest. The patient also reports exertional dyspnea (shortness of breath during activity) but denies associated symptoms such as sweating, lightheadedness, nausea, or radiation of pain. There is no mention of relevant past medical history, medications, or allergies in the dialogue. The clinical impression documented by the doctor is possible angina, likely due to reduced oxygen supply to the heart during exertion. The treatment plan includes avoiding strenuous activity and arranging for further evaluation with an EKG and additional cardiac testing. The patient was also advised to seek emergency care if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.526
+- **Model Used**: general
+- **Text1 Length**: 123 words
+- **Text2 Length**: 136 words
+
 
 ## Processing Information
 

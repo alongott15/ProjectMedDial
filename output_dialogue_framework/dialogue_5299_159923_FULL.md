@@ -85,16 +85,21 @@ For now, try to stay well-hydrated, rise slowly from sitting or lying positions,
 
 ## EHR Summary
 
-The patient is a 41-year-old woman presenting with a syncopal episode that led to her initial admission. She experienced a sudden loss of consciousness and fell backward, with no preceding symptoms documented. Her medical evaluation revealed a right internal carotid artery bifurcation aneurysm, for which she underwent surgical clipping. Postoperatively, she was neurologically intact, with minimal frontal and periorbital edema, symmetric facial movements, full strength in all extremities, and stable laboratory studies. Follow-up angiography confirmed successful clipping of the aneurysm. The documented diagnosis was a right internal carotid artery bifurcation aneurysm status post clipping. She was monitored in the surgical intensive care unit, weaned off intravenous antihypertensives, transitioned to a regular diet, and ambulated without difficulty. The patient was discharged home in stable condition with no neurological deficits.
+The patient is a 41-year-old woman presenting with a syncopal episode resulting in a fall. She was initially admitted and found to have a right internal carotid artery bifurcation aneurysm, for which she underwent surgical clipping. Postoperatively, she experienced minimal frontal and periorbital edema but remained neurologically intact, awake, alert, and able to move all extremities with good strength. Her hospital course was stable, with no intraoperative complications and stable laboratory studies. The diagnosis was a right internal carotid artery bifurcation aneurysm status post clipping. She was treated with surgical aneurysm clipping, monitored in the ICU, and transitioned to regular floor care before discharge. Discharge medications included Percocet for pain as needed and Colace for bowel management. She was discharged home in stable condition with follow-up arranged and instructions to return for staple removal in two days.
+
 
 ## Dialogue Summary
 
-The patient presented with a recent fainting spell, describing a sudden loss of consciousness and a fall backward. There were no warning signs such as lightheadedness, dizziness, or nausea prior to the episode, and recovery was rapid with no confusion or weakness afterward. The patient reported swelling around the forehead and near the eye from the fall, which has been slowly improving, and denied headaches, vision changes, or trouble concentrating since the incident. No recent illnesses, fevers, or changes in energy levels were noted, and the patient was alone during the episode. On assessment, the doctor noted this was a single fainting episode without warning signs or ongoing symptoms, with recovery proceeding smoothly aside from localized swelling. The doctor explained that brief fainting spells in otherwise healthy adults are often due to temporary drops in blood pressure or blood flow, sometimes triggered by standing. The patient was advised to stay well-hydrated, rise slowly from sitting or lying positions, avoid prolonged standing, and monitor for new symptoms such as repeated episodes, chest pain, palpitations, confusion, worsening swelling, or severe headaches. The patient understood the recommendations and agreed to seek medical attention if any concerning symptoms develop.
+The patient is an adult presenting with a chief complaint of a recent fainting episode (syncope) resulting in a fall. The episode was sudden, without warning signs such as lightheadedness, dizziness, or nausea, and occurred while the patient was standing; there were no preceding or subsequent symptoms like confusion, weakness, headache, vision changes, or trouble concentrating. The only injury noted was swelling around the forehead and near the eye from the fall, which has been gradually improving. There is no history of recent illness, fever, or changes in energy levels. No witnesses were present during the episode. The clinical impression was a single, unexplained fainting spell likely due to a temporary drop in blood pressure or blood flow to the brain. The treatment plan included reassurance, monitoring for new symptoms (such as repeated episodes, chest pain, palpitations, or confusion), and advice to stay hydrated, rise slowly from sitting or lying positions, and avoid prolonged standing. The patient was instructed to seek prompt medical attention if concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.402
+- **Model Used**: general
+- **Text1 Length**: 137 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

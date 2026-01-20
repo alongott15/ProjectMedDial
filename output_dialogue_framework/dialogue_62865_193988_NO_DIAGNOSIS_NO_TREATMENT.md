@@ -87,16 +87,21 @@ Let me know if you notice any changes or if you have questions about what to wat
 
 ## EHR Summary
 
-The patient is a 48-year-old female presenting with fever following a right free TRAM flap procedure performed on 2145-5-3. She reported a fever up to 101°F and generalized aches for one day, along with increased soreness and pressure in the lower aspect of her breast and abdomen; she denied chest pain, dyspnea, urinary symptoms, leg swelling, or cough. Her past medical history includes breast cancer status post mastectomy and right free TRAM flap reconstruction. Physical exam revealed a clean, intact right breast flap with normal capillary refill and minimal drainage, and an abdominal incision with minimal tenderness. Laboratory findings showed leukocytosis (WBC 22.9) and moderate leukocytes in urine, but no evidence of urinary tract infection. The documented diagnosis was infected hematoma/seroma at the surgical site. Treatment included wound washout of the right breast and administration of intravenous vancomycin, ceftriaxone, and metronidazole. She has allergies to morphine, gadolinium-containing agents, and vancomycin.
+The patient is a 48-year-old female presenting with fever following a right free TRAM flap breast reconstruction. She reported a temperature up to 101°F, generalized aches, and increasing soreness and pressure in the lower aspect of her right breast and abdomen, but denied chest pain, dyspnea, urinary symptoms, or cough. Her medical history includes breast cancer status post mastectomy and right free TRAM flap reconstruction; she has allergies to morphine, gadolinium-containing agents, and vancomycin. On admission, she was found to have an elevated white blood cell count and hypotension, with physical exam revealing drainage from the surgical site but no erythema. The documented diagnosis was infected hematoma/seroma of the right breast reconstruction site. Treatment included aspiration and culture of the fluid, broad-spectrum intravenous antibiotics, surgical washout of the infected cavity, wound packing, and subsequent closure over a drain. She was discharged in stable condition on oral dicloxacillin and acetaminophen for pain, with instructions for wound care and follow-up within one week.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent fever following TRAM flap surgery. She reported the fever began a couple of days postoperatively, reaching up to 101°F, and described associated body aches, increased soreness, and pressure localized to the lower part of her breast and abdomen; she denied chills, redness, drainage, nausea, or appetite changes. The soreness and pressure have worsened over the past day and are accompanied by increased tenderness and firmness in the same area, without spreading. She has been able to eat and move around, albeit more slowly due to discomfort. The doctor noted the combination of constant fever and increasing localized tenderness and firmness may indicate a possible infection or fluid collection at the surgical site, although some postoperative discomfort is expected. The doctor advised the patient to promptly contact her surgical team for further evaluation and to continue monitoring her temperature and watch for new symptoms such as spreading redness, drainage, chills, or feeling generally unwell. No medication allergies or other relevant medical history were mentioned.
+The patient is a post-operative female presenting with persistent fever following TRAM flap surgery. She reports the fever began a couple of days after surgery, reaching up to 101°F, and is accompanied by increasing body aches, localized soreness, pressure, tenderness, and firmness in the lower part of her breast and abdomen. She denies chills, redness, drainage, nausea, or appetite changes, and notes that the discomfort has worsened over the past day but remains localized. Relevant history includes recent TRAM flap surgery; no medication or allergy information is specified. The clinical impression is concern for a possible localized infection or fluid collection at the surgical site, given the combination of persistent fever and increasing localized tenderness and firmness. The doctor advised prompt contact with her surgical team for further evaluation and monitoring for new symptoms such as spreading redness, drainage, chills, or systemic illness. No specific medications or interventions were initiated during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.979
-- **Similarity Label**: N/A
+- **STS Score**: 0.649
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

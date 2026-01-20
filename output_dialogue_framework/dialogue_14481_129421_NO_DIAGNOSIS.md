@@ -85,16 +85,23 @@ If you ever notice the swelling getting much worse, or if you develop sudden wea
 
 ## EHR Summary
 
-The patient is a male over 90 years old presenting with asymptomatic left carotid stenosis. He did not report any symptoms related to the stenosis. His past medical history includes type 2 diabetes for 30 years and hypertension; he has no known allergies. On physical exam, he was in good health with bilateral carotid bruits and mild right lower extremity weakness, but otherwise normal findings. The documented diagnosis was asymptomatic left carotid stenosis. He was admitted for attempted carotid stenting, which was unsuccessful due to a calcified and tortuous aortic arch. He was restarted on Coumadin 4 mg daily, with an INR of 2.1, and atorvastatin 20 mg daily at discharge. The patient was advised to have his INR checked after discharge and to follow up with his primary care doctor; he was discharged in stable condition.
+The patient is a male over 90 years old presenting with asymptomatic left carotid stenosis. He did not report any symptoms, and physical examination revealed good general health, bilateral carotid bruits, and mild right lower extremity weakness. His past medical history includes type 2 diabetes for 30 years and hypertension; he has no known allergies. The documented diagnosis was asymptomatic left carotid stenosis. He was admitted for attempted carotid stenting, which was unsuccessful due to a calcified and tortuous aortic arch. The patient tolerated the procedure well and was restarted on Coumadin 4 mg daily, with an INR of 2.1 at discharge. Discharge medications also included atorvastatin 20 mg daily. He was advised to have his INR checked after discharge and to follow up with his primary care doctor; he was discharged in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about previously identified narrowing in the left carotid artery, without current symptoms. They reported mild, stable weakness in the right leg that has not changed over time and trace swelling in the feet present for a few months, with no clear triggers or worsening pattern. The swelling does not interfere with daily activities, and there have been no changes in weight, appetite, or energy. No history of vision changes, speech difficulties, or other neurological symptoms was noted. On assessment, the doctor found the mild, stable leg weakness and trace swelling to be reassuring in the absence of acute neurological symptoms. The doctor recommended ongoing monitoring of the carotid narrowing and emphasized managing risk factors such as blood pressure and cholesterol. For the swelling, the patient was advised to stay active and elevate their legs when sitting, and to seek care if symptoms worsen or new neurological symptoms develop. The plan is to continue monitoring and address any changes as needed.
+The patient is an adult presenting for evaluation of recently discovered left carotid artery narrowing, without associated symptoms. Key symptoms include mild, stable right leg weakness and trace bilateral foot swelling present for several months, with no clear triggers or worsening over time. The patient denies vision changes, speech difficulties, numbness, or significant impact on daily activities, and reports stable weight, appetite, and energy levels. Relevant medical history includes asymptomatic carotid artery stenosis; no medications or allergies are specified.
+
+The clinical impression is asymptomatic left carotid artery stenosis with mild, stable lower extremity edema and right leg weakness. The treatment plan includes close monitoring of the carotid narrowing, management of vascular risk factors (such as blood pressure and cholesterol), and conservative measures for swelling (staying active and elevating legs when sitting). The patient was advised to seek immediate care if new or worsening neurological symptoms or significant swelling occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.745
+- **Model Used**: general
+- **Text1 Length**: 135 words
+- **Text2 Length**: 149 words
+
 
 ## Processing Information
 

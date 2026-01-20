@@ -59,16 +59,21 @@
 
 ## EHR Summary
 
-The patient is a 44-year-old female presenting with chronic pelvic pain and abnormal uterine bleeding. She reported persistent abnormal bleeding and increasing pelvic pain, with a history of irregular menses, endometriosis, and prior C-section. Pelvic ultrasound showed a normal-sized uterus and a left ovarian cyst consistent with endometrioma. Her medical history includes multiple sclerosis with voiding dysfunction and endometriosis, and she has allergies to penicillins and codeine. Physical exam was notable for possible left adnexal fullness, but was limited by voluntary guarding; laboratory results showed anemia (hemoglobin 9.0–9.8 g/dL) and leukocytosis initially. The documented diagnosis was endometriosis with associated left ovarian endometrioma. Treatment included diagnostic hysteroscopy, dilation and curettage, diagnostic laparoscopy, exploratory laparotomy, lysis of adhesions, left oophorectomy, and left ureterolysis.
+The patient is a 44-year-old female presenting with chronic pelvic pain and abnormal uterine bleeding. She reported persistent abnormal bleeding and increasing pelvic pain, with a history of irregular menses, endometriosis, and a left ovarian cyst consistent with endometrioma. Her past medical history includes multiple sclerosis with voiding dysfunction, endometriosis, and prior C-section; she is allergic to penicillins and codeine. The documented diagnoses were endometriosis, left endometrioma, chronic pelvic pain, abnormal uterine bleeding, postoperative narcosis, and postoperative fever. She underwent diagnostic hysteroscopy, dilation and curettage, diagnostic laparoscopy (converted to exploratory laparotomy), lysis of adhesions, left oophorectomy, and left ureterolysis. Postoperatively, she experienced transient apnea related to narcotics, low-grade fevers likely due to atelectasis, and abdominal pain managed with bowel rest and analgesics. At discharge, her pain was controlled with oxycodone-acetaminophen and ibuprofen, and she was advised to avoid heavy lifting for 6 weeks and vaginal insertion for 2 weeks. She was discharged home in stable condition with follow-up scheduled with her OB/GYN.
+
 
 ## Dialogue Summary
 
-The patient presented with chronic pelvic pain that has been worsening. She reported abnormal uterine bleeding that is persistent and differs from her usual menstrual pattern. She also noted the presence of fever but denied unusual discharge, and reported no changes in urination or bowel movements. No additional medical history, medications, or allergies were mentioned. The doctor inquired about the characteristics of the abnormal bleeding and associated symptoms to help narrow down the cause. No physical examination findings were discussed. The doctor did not provide a specific assessment or working diagnosis during this encounter. No treatment plan or recommendations were given in the conversation provided.
+The patient presents with chronic pelvic pain as the chief complaint. She reports that the pain has been worsening recently and is accompanied by abnormal uterine bleeding, which is persistent and differs from her usual menstrual pattern. She also notes the presence of fever but denies unusual vaginal discharge, urinary symptoms, or changes in bowel movements. The duration and specific changes in the abnormal bleeding are being further assessed. Relevant past medical history, medications, and allergies are not specified in the dialogue. No documented diagnosis or clinical impression is provided at this stage. No specific treatment or recommendations have been documented in the conversation so far.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.654
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 106 words
+
 
 ## Processing Information
 

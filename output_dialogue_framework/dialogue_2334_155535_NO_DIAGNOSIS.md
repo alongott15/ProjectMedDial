@@ -87,16 +87,21 @@ Let me ask—when did you first notice these episodes starting?
 
 ## EHR Summary
 
-The patient is a 55-year-old man presenting with intermittent chest pain radiating to the right shoulder for two to three days prior to admission. The chest pain initially occurred with exertion and later woke him at night; he did not use nitroglycerin for relief. His history is significant for prior inferior wall myocardial infarction in 2108 with stenting, coronary artery disease, angina, peripheral vascular disease, and bilateral femoral bypass. Cardiac risk factors include hypertension, family history, and borderline high cholesterol; he has no known drug allergies. An exercise stress test showed 3/10 chest pain after four minutes with ST depression in leads V4 and V5, resolving after ten minutes. On examination, he was neurologically intact and had clear lungs. The documented diagnosis was recurrent angina in the setting of significant coronary artery disease. He underwent coronary artery bypass grafting (CABG) times three, was managed postoperatively with propofol, phenylephrine, and nitroglycerin, and had stable vital signs and satisfactory recovery.
+The patient is a 55-year-old man presenting with intermittent chest pain radiating to the right shoulder for two to three days prior to admission. The chest pain initially occurred with exertion and later woke him at night; he did not use nitroglycerin for relief. His history is significant for coronary artery disease, prior inferior wall myocardial infarction with stenting and angioplasty, peripheral vascular disease with bilateral femoral bypass, hypertension, family history of cardiac disease, and borderline high cholesterol; he has no known drug allergies. An exercise stress test showed chest pain and ST depression, and he subsequently underwent coronary artery bypass grafting (CABG) times three. The documented diagnosis was coronary artery disease. Postoperatively, he remained stable, afebrile, and was discharged on aspirin, Imdur, Lasix, Percocet as needed, potassium chloride, Lipitor, and atenolol. At discharge, his condition was stable and his incisions were clean and dry.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent chest pain that sometimes radiates to the right shoulder. The pain is described as pressure-like, primarily occurring after physical activity, rated at 6/10 in intensity, lasting five to ten minutes per episode, and improving with rest; deep breaths do not affect the pain. The patient denied associated symptoms such as sweating, lightheadedness, or shortness of breath, and reported swelling in the left forearm following a recent radial artery procedure. The pressure is mostly central in the chest but can spread toward the right shoulder, and episodes have occurred three to four times in the past week, starting just over a week ago. On examination, the doctor noted the pattern of exertional chest pressure relieved by rest, which may indicate angina due to insufficient oxygen supply to the heart during activity. The doctor advised the patient to avoid strenuous activity, monitor the frequency and characteristics of episodes, and seek immediate medical attention if symptoms worsen or new warning signs develop (such as pain at rest, prolonged episodes, shortness of breath, sweating, nausea, or faintness). The patient demonstrated understanding of these recommendations.
+The patient is an adult presenting with intermittent chest pain as the chief complaint. The pain is described as a pressure-like sensation, rated 6/10 in intensity, primarily located in the center of the chest and sometimes radiating to the right shoulder; it is triggered by physical activity and relieved by rest, with each episode lasting five to ten minutes and occurring three to four times in the past week. The patient denies associated symptoms such as dyspnea, diaphoresis, or lightheadedness. Relevant history includes recent swelling in the left forearm following a radial artery procedure. The clinical impression discussed was possible angina, given the exertional nature of the chest pressure and its relief with rest. The treatment plan included advising the patient to avoid strenuous activity, monitor for changes in symptoms, and seek immediate medical attention if pain occurs at rest, lasts longer than usual, or is accompanied by new symptoms such as shortness of breath, sweating, nausea, or syncope.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.973
-- **Similarity Label**: N/A
+- **STS Score**: 0.614
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 159 words
+
 
 ## Processing Information
 

@@ -96,3 +96,23 @@ For now, focus on hydration with frequent small sips. If you feel your condition
 ## Processing Information
 
 - **Processing Time**: 417.5s
+
+## EHR Summary
+
+The patient is an over 90-year-old male presenting with weakness. He reported 2-3 weeks of diarrhea, vomiting, poor intake, and decreased appetite, but denied fever, chills, chest pain, dyspnea, palpitations, or abdominal pain. His past medical history includes congestive heart failure, atrial fibrillation, chronic kidney disease, gout, GERD, osteoarthritis, myelodysplastic syndrome, BPH, and hypertension; he had no known drug allergies. On admission, he was hypotensive (BP 75/45), with dry mucous membranes and decreased skin turgor, and was treated with intravenous fluids, potassium chloride, levofloxacin, and metronidazole. The documented diagnosis was renal failure. During hospitalization, his condition worsened with progressive renal failure and anuria. The patient and family chose comfort-focused care with palliative support. He expired during the hospital stay.
+
+
+## Dialogue Summary
+
+The patient presents with the chief complaint of progressive weakness. Over the past few days, the patient has experienced worsening weakness accompanied by diarrhea and vomiting, with an inability to keep down fluids or food and a marked decrease in appetite. The patient reports only being able to take a few sips of water in the last day and has not been urinating, indicating significant difficulty with oral intake and possible dehydration. These symptoms have severely impacted the patient's ability to perform daily activities.
+
+There is no relevant past medical history, medications, or allergies documented. The clinical impression is that the patient's weakness is likely due to dehydration secondary to ongoing diarrhea and vomiting. The treatment plan includes advice to take frequent small sips of water or oral rehydration solution and to monitor for warning signs such as dizziness, very dark urine, or inability to urinate. The patient was instructed to seek prompt medical attention if symptoms worsen or do not improve.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.580
+- **Model Used**: general
+- **Text1 Length**: 119 words
+- **Text2 Length**: 162 words
+

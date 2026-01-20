@@ -85,16 +85,23 @@ Next steps would typically involve some tests to check your heart—like an ECG 
 
 ## EHR Summary
 
-The patient is a 68-year-old male presenting with progressive exertional angina. He reported a three to four month history of mild back and substernal chest discomfort radiating down both arms during running or brisk walking, which resolved with rest, as well as frequent belching; he denied symptoms at rest, orthopnea, edema, paroxysmal nocturnal dyspnea, claudication, or lightheadedness. Relevant history includes hypertension, hypercholesterolemia, coronary artery disease, prior cardiac catheterization in 2177, and no known drug allergies. Cardiac MRI on 2182-8-1 showed mild left ventricular enlargement with an ejection fraction of 43% and multiple wall motion abnormalities consistent with multivessel disease. On admission, cardiac catheterization demonstrated an ejection fraction of 40% and apical akinesis. The documented diagnosis was coronary artery disease. The patient’s medications included aspirin, Lipitor, Cozaar, atenolol, and a multivitamin. Treatment involved outpatient cardiac catheterization and continuation of medical management for coronary artery disease.
+The patient is a 68-year-old male presenting with progressive exertional angina. Over the past three to four months, he experienced mild back and substernal chest discomfort radiating down both arms during running or brisk walking, which resolved with rest, and reported frequent belching; he denied symptoms at rest, orthopnea, edema, or paroxysmal nocturnal dyspnea. His history includes hypertension, hypercholesterolemia, and coronary artery disease, with no known drug allergies. Cardiac catheterization revealed multivessel coronary artery disease with significant left main and LAD involvement, and a cardiac MRI showed mild LV enlargement with an ejection fraction of 43%. The documented diagnosis was coronary artery disease with angina, status post coronary artery bypass grafting x4. During hospitalization, he underwent successful CABG x4 and was treated for postoperative pericarditis and episodes of atrial fibrillation with amiodarone. At discharge, he was stable, ambulatory, and afebrile, with minimal edema and a regular rhythm. Discharge medications included Lopressor, Lasix (for 7 days), potassium chloride (for 7 days), Colace, Protonix, aspirin, Motrin as needed, amiodarone (tapering dose), and Percocet as needed; he was instructed to follow up in two to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort that has been worsening over the past few weeks, particularly during physical activity. Symptoms include mild pressure or tightness in the center of the chest, sometimes radiating to the back and down both arms during exertion, rated as 6 out of 10 in severity; the discomfort resolves with rest and does not occur at rest. The patient denied associated shortness of breath, sweating, or lightheadedness, but reported needing to slow down daily activities due to symptoms. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted exertional chest discomfort consistent with "exertional angina," likely due to reduced oxygen supply to the heart during activity. The doctor advised the patient to avoid strenuous activity and to seek urgent care if symptoms occur at rest or are accompanied by severe pain, sweating, nausea, or trouble breathing. Further evaluation with tests such as ECG and a stress test was recommended to clarify the diagnosis.
+The patient is an adult presenting with chest discomfort as the chief complaint. The discomfort is described as mild, central chest pressure or tightness that sometimes radiates to the back and down both arms, occurring exclusively with physical activity and resolving with rest; severity is rated 6 out of 10. Symptoms have been progressively worsening over several weeks, now limiting the patient's ability to perform strenuous activities, but are not associated with dyspnea, diaphoresis, or lightheadedness. Relevant medical history, medications, and allergies are not specified.
+
+The documented clinical impression is exertional angina, attributed to possible reduced oxygen supply to the heart during exertion. The treatment plan includes avoiding strenuous activity until further evaluation and instructions to seek urgent care if symptoms occur at rest or are accompanied by warning signs such as severe pain, sweating, nausea, or shortness of breath. The physician recommends further cardiac evaluation with tests such as ECG and possibly a stress test. The relationship between belching and angina was not addressed in the documented advice.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.637
+- **Model Used**: general
+- **Text1 Length**: 184 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

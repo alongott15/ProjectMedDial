@@ -87,16 +87,23 @@ For now, try to take it easy and avoid strenuous activity. If you have access to
 
 ## EHR Summary
 
-The patient is a 54-year-old male presenting with dyspnea and mental status changes after being referred to the ER during a routine follow-up for right upper extremity deep vein thrombosis (DVT). He reported shortness of breath and was noted to be slightly confused on admission. His history is significant for recent aortic valve replacement (AVR) on 3-30, postoperative atrial fibrillation, hypertension, renal calculi, possible sleep apnea, and allergies to Keflex and heparin agents. Physical exam on admission showed mild hypoxia (O2 sat 92% on room air), tachycardia (HR 103), elevated blood pressure (BP 162/69), and slight confusion; discharge exam showed normalization of vital signs and mental status. Laboratory findings included elevated glucose, mild anemia, and abnormal coagulation studies. The documented diagnosis was right upper extremity DVT involving the internal jugular, axillary, subclavian, brachial, and basilic veins. Treatment included referral to the ER for management of DVT; specific therapies during admission are not detailed in the note. The patient was discharged in stable condition with improved symptoms.
+The patient is a 54-year-old male presenting with dyspnea and mental status changes after being referred to the emergency room for evaluation of a right upper extremity deep vein thrombosis (DVT) found on routine follow-up. Symptoms included shortness of breath and confusion, with a brief unresponsive episode following administration of IV Benadryl and steroids. Relevant history includes recent aortic valve replacement (AVR), postoperative atrial fibrillation, hypertension, renal calculi, possible sleep apnea, and allergies to Keflex and heparin agents. On admission, physical exam showed mild hypoxia (Sat 92% on room air) and slight confusion; imaging confirmed pulmonary embolism, and laboratory testing revealed heparin-induced thrombocytopenia (HIT) after heparin infusion. The documented diagnoses were recent AVR, pulmonary embolism, right upper extremity DVT, and HIT. Treatment included discontinuation of heparin, initiation of argatroban, transition to warfarin, and supportive care; the patient was discharged in good condition on warfarin, aspirin, atorvastatin, metoprolol, amiodarone, and a short course of amoxicillin-clavulanate. Follow-up instructions included INR monitoring and outpatient visits with hematology and cardiology.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble breathing as the chief complaint. Symptoms included several days of breathing difficulty that has remained stable, occurring both at rest and with activity, and making daily activities more difficult due to getting winded easily. The patient also reported intermittent episodes of confusion and short-term memory problems since the onset of breathing trouble, without associated chest pain, cough, fever, dizziness, headaches, or vision changes. Relevant history included a brief episode of unresponsiveness after receiving IV Benadryl and steroids; no other medical history, medications, or allergies were mentioned. The doctor noted the absence of chest pain, cough, fever, and dizziness as reassuring but expressed concern about the combination of breathing difficulty and mental changes, which may be related to oxygenation issues. The assessment was that mild breathing issues could be affecting both physical and mental status, possibly due to reduced oxygen levels or circulation. The doctor advised the patient to monitor for worsening symptoms such as increased shortness of breath at rest, new chest pain, or more severe confusion, and to seek care promptly if these occur. Additional recommendations included taking it easy, avoiding strenuous activity, and checking oxygen levels at home if possible.
+The patient presents with the chief complaint of breathing difficulty. The dyspnea began a few days ago, has remained stable, and occurs both at rest and with activity, making daily activities more difficult. The patient also reports intermittent episodes of confusion and short-term memory problems since the onset of breathing trouble, without associated chest pain, cough, fever, dizziness, headache, or vision changes. There is a history of a brief episode of unresponsiveness after receiving IV Benadryl and steroids, but no other significant symptoms were noted.
+
+No specific diagnosis was documented; however, the physician expressed concern about possible underlying issues affecting oxygenation or circulation. The treatment plan includes monitoring for worsening symptoms (such as increased dyspnea at rest, new chest pain, or persistent confusion), taking it easy, avoiding strenuous activity, and checking oxygen levels at home if possible. The patient was advised to seek prompt care if symptoms worsen or new concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.528
+- **Model Used**: general
+- **Text1 Length**: 166 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

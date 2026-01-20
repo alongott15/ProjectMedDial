@@ -87,16 +87,21 @@ Let me know if you have any questions about this or if you’d like tips on spec
 
 ## EHR Summary
 
-The patient is a male over 90 years old presenting with a three-day history of nausea, coffee ground emesis, an episode of dark tarry stools, decreased oral intake, and mild confusion. Symptoms included gastrointestinal bleeding evidenced by coffee ground emesis and melena, with associated mild confusion and poor oral intake. His relevant history includes coronary artery disease (status post myocardial infarction and coronary artery bypass graft), recent left hip revision, pacemaker placement, colectomy for diverticulitis, and a sulfa allergy; he was taking aspirin for DVT prophylaxis. On admission, his hematocrit was 31.2, and nasogastric lavage was positive for coffee ground material that did not clear after two liters; he remained hemodynamically stable. The documented clinical impression was upper gastrointestinal bleeding. Treatment included intravenous fluids (three liters total) and gastroenterology consultation; EGD was deferred at the request of the patient and family.
+The patient is a male over 90 years old presenting with a three-day history of nausea, coffee ground emesis, dark tarry stools, decreased oral intake, and mild confusion. Symptoms were associated with a drop in hematocrit to 31.2 and positive nasogastric lavage for coffee ground material, indicating upper gastrointestinal bleeding; he remained hemodynamically stable. Past medical history includes coronary artery disease (status post MI and CABG), recent left hip revision, pacemaker placement, and colectomy for diverticulitis; he is allergic to sulfa. The documented diagnosis was upper gastrointestinal bleed. Treatment included intravenous fluids, transfusion of one unit of packed red blood cells, holding all anticoagulation and aspirin, initiation of Protonix twice daily, and later starting Lovenox for DVT prophylaxis once stable. An upper GI series was negative for ulcers or tumors, and EGD was deferred per family wishes. The patient’s pulmonary medications were adjusted, and he received an influenza vaccine prior to discharge. He was discharged in good condition with instructions to continue Protonix, pulmonary medications, Lovenox until fully weight bearing, captopril, use pneumonic boots overnight, and ambulate frequently.
+
 
 ## Dialogue Summary
 
-The patient presented with right shoulder pain. The discomfort was rated as 5–6 out of 10 in severity, developed gradually, is mainly located on the top of the right shoulder, and worsens with reaching overhead or getting dressed, though daily tasks are still manageable. The patient denied any recent injury, heavy lifting, sports activity, or unusual sleeping positions, and reported no weakness, numbness, or tingling in the arm or hand. Resting the shoulder provided some relief; no ice or medications had been used yet. On assessment, the doctor noted the absence of neurological symptoms and suggested the pain was likely due to irritation or inflammation of the shoulder tissues, such as a mild strain or tendon involvement. The doctor recommended continued rest, applying ice for 15–20 minutes several times a day, avoiding aggravating activities, and considering over-the-counter pain medications if appropriate. The patient was advised to monitor for new symptoms like significant weakness or persistent numbness and to try gentle stretching and gradual return to activity as tolerated.
+The patient is an adult presenting with right shoulder pain as the chief complaint. The pain is rated 5–6 out of 10, has developed gradually, is localized to the top of the right shoulder, and worsens with overhead reaching and certain activities such as getting dressed; it improves with rest. The patient denies any weakness, numbness, or tingling in the arm or hand and reports no recent injuries or unusual activities. There is no documented relevant medical history, medications, or allergies. The clinical impression is likely irritation or inflammation of the shoulder tissues, such as a mild strain or possible tendon involvement, without signs of severe pathology. The treatment plan includes resting the shoulder, applying ice for 15–20 minutes several times daily, avoiding aggravating activities, and considering over-the-counter pain medications like acetaminophen or ibuprofen if not contraindicated. The patient was also advised to monitor for new symptoms (such as significant weakness, persistent numbness, or severe pain) and to perform gentle stretching and gradual return to activity as tolerated.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.913
-- **Similarity Label**: N/A
+- **STS Score**: 0.333
+- **Model Used**: general
+- **Text1 Length**: 178 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

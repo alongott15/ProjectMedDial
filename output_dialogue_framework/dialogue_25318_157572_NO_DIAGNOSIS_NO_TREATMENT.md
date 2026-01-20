@@ -85,16 +85,21 @@ Does anything seem to trigger your tiredness during the day, or is it present al
 
 ## EHR Summary
 
-The patient is a 75-year-old female admitted with a chief complaint of gastrointestinal bleed. She experienced nausea, vomiting, hematemesis, and had a history of melena for several days prior to admission. Her relevant medical history includes hepatocellular carcinoma with esophageal varices, status post radiofrequency ablation, diabetes mellitus type 2, recent open reduction and internal fixation of an intertrochanteric fracture, chronic pancreatitis, and prior breast carcinoma. She was recently treated for presumed aspiration pneumonia and Clostridium difficile colitis. On admission, she was taking multiple medications including Actigall, Aldactone, Axid, Glyburide, Metformin, and others; she has no known drug allergies. In the Emergency Department, the patient was intubated. The documented diagnosis was gastrointestinal bleeding likely related to her history of esophageal varices. Treatment details beyond intubation are not specified in the note.
+The patient is a 75-year-old woman admitted with a gastrointestinal bleed. She presented with nausea, vomiting, hematemesis, and had a history of melena for several days prior to admission. Her relevant medical history includes hepatocellular carcinoma with esophageal varices, status post radiofrequency ablation, diabetes mellitus type 2, chronic pancreatitis, and recent open reduction and internal fixation of a hip fracture. On admission, she was intubated for airway protection and found to have ascites, portal and superior mesenteric vein thrombosis, and diffuse bowel wall thickening on CT. The documented diagnosis was gastrointestinal bleeding, likely secondary to portal hypertension and coagulopathy from liver disease. Treatment included aggressive resuscitation with blood products, intravenous Protonix, Octreotide, empiric antibiotics (later discontinued), albumin, large volume paracentesis for ascites, insulin drip for glucose control, and supportive care including tube feeds while intubated. The patient was successfully extubated and stabilized before transfer to the general medicine floor.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent tiredness as the chief complaint. They reported feeling worn out quickly, especially during simple chores, and described the fatigue as present most of the time but more noticeable with activity. Sleep quality was described as adequate, with no trouble sleeping through the night, and there were no associated symptoms such as lightheadedness, shortness of breath, changes in appetite or weight, pallor, feeling cold, or headaches. The patient mentioned a prior episode of upper stomach bleeding that resolved after hospital admission, with the onset of tiredness coinciding with that event; energy levels have not improved since discharge. No other relevant medical history, medications, or allergies were discussed. The doctor assessed that the ongoing fatigue is likely related to recovery from blood loss due to the previous bleeding episode, possibly involving low iron levels. The doctor recommended a diet rich in iron and staying hydrated, and advised seeking medical attention if fatigue worsens or if new symptoms such as bleeding, shortness of breath, or chest pain occur.
+The patient is an adult presenting with persistent fatigue as the chief complaint. The tiredness began around the time of a recent hospital admission for upper stomach bleeding and has not improved since discharge. The fatigue is present throughout the day and worsens with physical activity, making daily chores more difficult, but is not associated with sleep disturbances, lightheadedness, shortness of breath, appetite or weight changes, pallor, cold intolerance, or headaches. The patient reports no ongoing bleeding and no other new symptoms. Relevant history includes a prior episode of upper gastrointestinal bleeding that resolved during hospitalization. The clinical impression is that the ongoing fatigue is likely related to recovery from blood loss during the bleeding episode, possibly due to decreased blood cell or iron levels. The treatment plan includes reassurance that recovery may take several weeks, advice to consume iron-rich foods and stay hydrated unless otherwise directed, and instructions to seek medical attention if symptoms worsen or new concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.522
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ Let me know if you've noticed anything specific that seems to trigger or worsen 
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with left groin wound dehiscence and bleeding following recent vascular procedures for bilateral claudication. He reported an unsteady gait over several days prior to the wound complication and was noted to be short of breath when supine. His medical history includes diabetes, hypertension, hyperlipidemia, coronary artery disease, peripheral vascular disease, and a history of MRSA infection; he is allergic to penicillin. On examination, he was afebrile with stable vital signs, had a 4 x 1.5 inch open left groin wound with serous drainage but no exposed graft, and palpable pulses in all extremities. The patient experienced a myocardial infarction at an outside hospital and was transferred for further cardiac care. The documented diagnosis includes left groin wound dehiscence post-femoral popliteal bypass and myocardial infarction. Treatment included wound exploration and closure with a Prolene stitch, as well as ongoing management with vancomycin, Tequin, Lopressor, aspirin, thiamine, folate, and diazepam. He was transferred to cardiology for continued management of his coronary artery disease.
+The patient is a 62-year-old male presenting with bilateral claudication and complications following recent right SFA angioplasty and left femoral popliteal bypass. He developed a left groin wound dehiscence with bleeding, followed by graft infection, arterial bleeding, and subsequent ischemia and necrosis of the left lower extremity. His history includes diabetes, hypertension, coronary artery disease, peripheral vascular disease, hyperlipidemia, and prior MRSA infection; he is allergic to penicillin. The clinical course was complicated by myocardial infarction, persistent wound infection with MRSA and yeast, and progressive limb ischemia requiring left guillotine and subsequent below-knee amputation. Treatment included multiple vascular surgeries (graft removal, bypass, amputations), broad-spectrum antibiotics (vancomycin, Zosyn, Flagyl, fluconazole), wound care, ventilatory support with tracheostomy, and management of cardiac and renal function. At discharge, he required ongoing vancomycin via PICC for six weeks, trach care, tube feeds via PEG/J-tube, physical therapy, and wound care for his groin and stump. He was stable on trach mask oxygen and scheduled for follow-up with vascular surgery.
+
 
 ## Dialogue Summary
 
-The patient presented with increasing difficulty walking due to tiredness and pain in both legs. Symptoms included bilateral leg pain and fatigue that develop gradually with walking, worsen with greater distances or activities like climbing stairs, and improve quickly with rest; the patient also reported feeling unsteady while walking but denied numbness, tingling, or weakness. The patient noted these symptoms have progressively worsened over time and now limit daily activities such as shopping, running errands, and walking outside. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the absence of sensory changes and observed that discomfort is activity-related and relieved by rest. The assessment included possible circulation issues in the legs, muscle deconditioning, and changes in balance as contributing factors. The doctor recommended monitoring for new symptoms (numbness, persistent weakness, pain not relieved by rest), maintaining gentle activity such as short walks or balance exercises, and considering further evaluation of circulation and muscle strength if symptoms persist or worsen. The patient denied specific triggers such as cold weather or footwear and agreed to monitor for changes.
+The patient presents with progressive difficulty walking due to bilateral leg pain and tiredness, primarily after walking moderate distances. Symptoms have developed gradually over time and are exacerbated by activities such as shopping, climbing stairs, and walking around the house; the discomfort improves quickly with rest and is not present at rest. The patient reports feeling unsteady while walking but denies numbness, tingling, or weakness in the legs. These symptoms have led to significant limitations in daily activities, including avoidance of errands and outdoor walking. Relevant history, medications, and allergies are not specified. The clinical impression is that the symptoms may be related to circulation issues (such as intermittent claudication), muscle deconditioning, or changes in balance, though no definitive diagnosis is documented. The treatment plan includes monitoring for new symptoms (such as numbness or persistent weakness), engaging in gentle activity like short walks or balance exercises, and considering further evaluation of circulation and muscle strength if symptoms persist or worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.936
-- **Similarity Label**: N/A
+- **STS Score**: 0.340
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

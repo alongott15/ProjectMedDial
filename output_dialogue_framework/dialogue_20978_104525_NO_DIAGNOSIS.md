@@ -87,16 +87,21 @@ Let me know if you have any questions about what we've talked about or if there'
 
 ## EHR Summary
 
-The patient is an 81-year-old male presenting with exertional angina and non-ST elevation myocardial infarction (NSTEMI). He reported exertional chest pain and had elevated troponin levels on admission. His past medical history includes asthma, transient ischemic attack, hypercholesterolemia, ulcerative colitis, hypertension, osteoarthritis, GERD, and prior esophageal dilation and hiatal hernia repair. Physical exam was notable for bilateral lower extremity varicosities (left greater than right) but was otherwise unremarkable; vital signs were stable. Cardiac catheterization revealed severe multivessel coronary artery disease with significant stenoses and an aneurysmal LAD. The documented diagnosis was NSTEMI with severe coronary artery disease. He underwent coronary artery bypass grafting (CABG x3: LIMA to LAD, SVG to OM, SVG to RCA) on hospital day 5. Treatment included preoperative antiplatelet therapy with clopidogrel (Plavix) and surgical revascularization.
+The patient is an 81-year-old male presenting with exertional angina and non-ST elevation myocardial infarction (NSTEMI). He reported exertional chest pain and was found to have elevated troponin levels; cardiac catheterization revealed severe multivessel coronary artery disease. His past medical history includes hypertension, hypercholesterolemia, asthma, transient ischemic attack, ulcerative colitis, osteoarthritis, GERD, and remote esophageal dilation. The documented diagnoses at discharge were status post coronary artery bypass grafting (CABG) x3, hypertension, hypercholesterolemia, left carotid disease, TIA, osteoarthritis, myocardial infarction, asthma, GERD, ulcerative colitis, remote esophageal dilation, and phlebitis. He underwent CABG x3 on hospital day 5 and had a postoperative course complicated by rapid atrial fibrillation (managed with amiodarone), anemia requiring transfusion, and left forearm phlebitis treated with antibiotics. Discharge medications included aspirin, atorvastatin, clopidogrel, amiodarone, metoprolol, furosemide, potassium chloride, keflex, albuterol, pantoprazole, and docusate sodium. He was discharged home in good condition with instructions for wound care, activity restrictions, and follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain occurring during physical activity such as walking or climbing stairs. The chest pain was described as a pressure sensation, located centrally in the chest, and typically rated as moderate in severity; it comes on with exertion and resolves quickly with rest. The patient reported occasional mild shortness of breath accompanying the chest pressure but denied sweating, lightheadedness, or changes with deep breathing, eating, or position. The symptoms have been present intermittently for the past couple of weeks and sometimes require the patient to stop activity until the pressure subsides. No relevant medical history, medications, or allergies were mentioned. The doctor assessed that the exertional chest pressure could be related to the heart not getting enough oxygen during activity and suggested it may be angina. The doctor recommended limiting physical activity until further evaluation by a healthcare provider and advised seeking prompt medical attention if symptoms worsen or new symptoms such as sweating, nausea, or severe shortness of breath develop. The patient expressed understanding of the recommendations.
+The patient presents with chest pain as the chief complaint. The chest pain is described as a pressure sensation located centrally in the chest, occurring with exertion such as walking or climbing stairs, and resolving quickly with rest. The pain is moderate in severity, sometimes requiring the patient to stop activity, and has been present intermittently for a couple of weeks. The patient reports occasional mild shortness of breath with the episodes but denies associated sweating, lightheadedness, or influence from position, breathing, or eating. Relevant medical history, medications, and allergies are not specified. The clinical impression discussed is that the symptoms may represent angina due to the heart not getting enough oxygen during exertion. The treatment plan includes advising the patient to limit physical activity until further evaluation and to seek prompt medical attention if symptoms worsen or new symptoms such as chest pain at rest, prolonged pain, sweating, nausea, or severe shortness of breath occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.426
+- **Model Used**: general
+- **Text1 Length**: 153 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

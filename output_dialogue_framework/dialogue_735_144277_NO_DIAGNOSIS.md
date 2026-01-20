@@ -87,16 +87,21 @@ Let me know if you have any questions about what to expect during recovery, or i
 
 ## EHR Summary
 
-The patient is a 59-year-old female presenting with left lower extremity weakness. She reported progressive symptoms associated with a large metastatic lesion in the posterior elements overlying T12-L1, causing significant spinal cord compression. Her medical history includes renal cell carcinoma with adrenal recurrence, right nephrectomy, and adrenalectomy; she has a latex allergy and does not smoke or drink. On discharge, she remained neurologically intact except for persistent left quadriceps weakness, with an intact but slightly erythematous surgical incision and a small adjacent blister. Laboratory results showed anemia (Hgb 8.0, Hct 24.9) and otherwise stable values. The documented diagnosis was metastatic renal cell carcinoma to the lumbar spine with spinal cord compression. She underwent T11-L1 decompressive laminectomy, tumor resection, and T9-L2 instrumented fusion with neuromonitoring. Postoperative care included monitoring of neurological status and wound healing.
+The patient is a 59-year-old female presenting with left lower extremity weakness. She has a history of renal cell carcinoma with progressive metastases to the lumbar spine, resulting in a large lesion at T12-L1 causing significant spinal cord compression and associated symptoms. Her past medical history includes right nephrectomy, adrenalectomy, and prior surgeries, and she has a latex allergy. The documented diagnosis was thoracic tumor with spinal cord compression due to metastatic disease. She underwent T11-L1 decompressive laminectomy, tumor resection, and T9-L2 instrumented fusion. Postoperatively, she received blood transfusions for symptomatic hypovolemia and showed improvement in lower extremity strength and pain. Discharge instructions included wound care, activity restrictions, pain management, and signs of infection or neurological changes to monitor. She was discharged in stable condition to an extended care facility with follow-up arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with recent weakness in the left leg, which has made daily activities more difficult. The weakness developed gradually over several days and is associated with increased difficulty walking, standing up from a chair, and climbing stairs. The patient reported pain in the leg prior to surgery, which has eased since the operation, but the weakness persists; no numbness, tingling, or trouble moving the foot and toes was noted. The patient has a history of recent surgery related to the affected leg. On examination, there were no sensory deficits or motor impairment of the foot and toes, but ongoing weakness is interfering with mobility and chores. The doctor assessed the symptoms as consistent with post-surgical weakness, likely due to reduced muscle use before and after surgery, and noted that sensation appears intact. The doctor recommended gentle activity and physical therapy to rebuild strength, advised pacing and avoiding overexertion, and instructed the patient to report any new symptoms such as increasing weakness, loss of foot control, or changes in bladder or bowel habits.
+The patient is an adult presenting with weakness in the left leg as the chief complaint. The weakness developed gradually over several days and is making walking, standing from a chair, and climbing stairs more difficult; there is no associated numbness, tingling, or loss of foot/toe movement. The patient reports prior pain in the leg, which has improved since recent surgery, but the weakness persists and interferes with daily activities. Relevant history includes recent surgery and preoperative leg pain. The clinical impression is post-surgical left leg weakness, likely related to disuse and recovery following the operation. The physician advised that this pattern is common after surgery, especially when there was preoperative pain and limited movement. The treatment plan includes gentle activity and physical therapy to rebuild strength, with instructions to pace activity and monitor for new or worsening symptoms. The patient was encouraged to report any new neurological changes and offered further guidance on exercises or support if needed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.464
+- **Model Used**: general
+- **Text1 Length**: 133 words
+- **Text2 Length**: 159 words
+
 
 ## Processing Information
 

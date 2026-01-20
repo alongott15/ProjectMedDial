@@ -87,16 +87,21 @@ Let me know if you have any questions about this approach or if any new symptoms
 
 ## EHR Summary
 
-The patient is a 32-year-old female presenting with nausea, diarrhea, and vomiting for 24 hours. She was unable to take her usual insulin regimen due to vomiting and reported her usual migraine headache the night prior to admission, but denied fevers, chills, chest pain, shortness of breath, or dysuria. Her medical history includes type 1 diabetes (diagnosed at age 14), multiple prior episodes of diabetic ketoacidosis, migraine headaches, and attention deficit disorder; home medications include Wellbutrin, Imitrex, Tylenol, Humalog sliding scale, and NPH insulin. Allergies include penicillin, Bactrim, Keflex (hives), and Percocet and erythromycin (gastrointestinal upset). On admission, arterial blood gases showed acidosis (pH 7.19, bicarbonate 9) and fingerstick glucose was greater than 500. The documented diagnosis was diabetic ketoacidosis. Treatment included intravenous insulin boluses and drip, five liters of normal saline, and transition back to subcutaneous insulin once her anion gap closed and blood glucose normalized; gastrointestinal symptoms resolved during hospitalization.
+The patient is a 32-year-old female presenting with nausea, diarrhea, and vomiting for 24 hours. She was unable to take her usual insulin regimen due to vomiting and reported her usual migraine headache the night prior to admission; she denied fevers, chills, chest pain, shortness of breath, or dysuria. Her past medical history includes type 1 diabetes (diagnosed at age 14), multiple prior episodes of diabetic ketoacidosis, migraine headaches, and attention deficit disorder; she has allergies to penicillin, Bactrim, Keflex (hives), and Percocet and erythromycin (gastrointestinal upset). On admission, laboratory findings showed severe hyperglycemia (glucose 720), metabolic acidosis (pH 7.19, bicarbonate 8), and an elevated white blood cell count. The documented diagnoses were diabetic ketoacidosis and viral gastroenteritis. Treatment included intravenous fluids, insulin boluses and drip, electrolyte repletion, and transition back to her home insulin regimen as her condition stabilized. She was discharged in good condition with instructions to continue her regular insulin sliding scale and NPH regimen, Wellbutrin, and Imitrex as needed, with follow-up arranged with her endocrinologist and primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent nausea for the past day. They reported associated symptoms of diarrhea, vomiting, and a migraine headache described as throbbing pain on one side of the head, rated 7 out of 10 in severity. The patient noted that taking Imitrex and resting in a dark room provided partial relief for the headache. No fever or chills were reported, but the patient has had difficulty keeping fluids down due to worsening nausea and vomiting with even small sips of water, leading to feelings of dehydration, weakness, lightheadedness upon standing, and dry mouth. The doctor assessed this as a combination of gastrointestinal upset and migraine, with signs of dehydration. The doctor advised trying tiny sips of clear liquids (such as electrolyte solutions or diluted juice) every few minutes and resting in a cool, quiet space for migraine relief. The patient was instructed to seek urgent care if unable to keep fluids down, or if symptoms such as extreme weakness, near-fainting, minimal urine output, or confusion develop.
+The patient is an adult presenting with persistent nausea as the chief complaint. Over the past day, they have experienced nausea, vomiting, diarrhea, and a migraine headache described as throbbing pain on one side of the head, rated 7 out of 10 in severity. The patient reports that Imitrex and resting in a dark room provide some relief for the headache, but symptoms persist. They deny fever or chills but are having significant difficulty keeping fluids down, with worsening nausea and occasional vomiting even with small sips of water. Associated symptoms include weakness, lightheadedness upon standing, and dry mouth, suggesting possible dehydration. Relevant history includes use of Imitrex for migraines; no other medical history or allergies are specified. The clinical impression is a combination of gastrointestinal upset and migraine, with concern for dehydration. The treatment plan includes attempting small sips of clear liquids (such as electrolyte solutions), resting in a cool, quiet space, and instructions to seek urgent care if symptoms worsen or if signs of severe dehydration develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.498
+- **Model Used**: general
+- **Text1 Length**: 173 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

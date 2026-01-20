@@ -96,3 +96,23 @@ In the meantime, try to rest and avoid falls or injury. If you notice any new sy
 ## Processing Information
 
 - **Processing Time**: 422.4s
+
+## EHR Summary
+
+The patient is an 89-year-old male presenting with generalized weakness, malaise, and progressive inability to walk over one week, culminating in a fall and acute right leg paralysis. He reported right upper chest wall pain worsened by movement, shortness of breath, and was on home oxygen for the past month; there was no back pain or bowel/bladder dysfunction, but he was constipated and diapered. His history includes chronic obstructive pulmonary disease (COPD) exacerbation treated with Levaquin, and osteoporosis-related pain. Neurologic evaluation revealed paraplegia with flaccid tone, decreased lower extremity strength (worse on the right), absent lower extremity reflexes, and decreased rectal tone; MRI showed thoracic cord impingement from a T4 compression deformity and old compression fractures. The documented diagnosis was thoracic spinal cord compression with paraplegia, likely secondary to epidural hematoma and vertebral compression fractures, along with COPD exacerbation. He underwent T3-T7 laminectomy and T4 epidural hematoma evacuation without intraoperative complications, but lower extremity paralysis persisted postoperatively. The treatment plan included postoperative rehabilitation, TLSO brace fitting, pulmonary optimization, and a medication regimen for pain, COPD, anticoagulation, and bowel management. The patient was discharged in stable condition to rehabilitation with instructions for staple removal, follow-up appointments, and steroid tapering as pulmonary status improved.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with the chief complaint of sudden onset lower extremity weakness, primarily affecting ambulation. The weakness began abruptly when the right leg gave out, followed by inability to move it and subsequent weakness in the left leg; the arms and hands are unaffected. Associated symptoms include intermittent fever for several days, tingling sensations on the soles of the feet, constipation, and generalized fatigue and malaise. There is no report of bladder incontinence, but constipation is noted. Relevant medical history, medications, and allergies are not specified.
+
+The clinical impression documented by the doctor is a possible issue affecting the nerves or spinal cord controlling the legs, potentially due to infection or inflammation. The treatment plan includes recommending urgent further evaluation to rule out serious neurological conditions, advising rest and fall prevention, and instructing the patient to monitor for new symptoms such as bladder dysfunction or spreading weakness. The doctor also offers advice on home safety while arranging follow-up care.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.526
+- **Model Used**: general
+- **Text1 Length**: 202 words
+- **Text2 Length**: 163 words
+

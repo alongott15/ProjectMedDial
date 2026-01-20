@@ -97,16 +97,21 @@ If anything changes—such as new swelling, fever, or difficulty moving your fin
 
 ## EHR Summary
 
-The patient is a 41-year-old male presenting for management of a complex right hand injury following an accidental gunshot wound sustained while hunting. He experienced extensive soft tissue, tendon, and bone loss in the right hand, with only partial remnants of the index and fifth metacarpal bones and loss of all metacarpals at the carpal metacarpal level. His past medical history includes borderline hypertension and multiple prior right hand surgeries. On admission, physical findings included significant deficits in the right hand requiring reconstructive intervention. The documented clinical impression was severe traumatic injury to the right hand with composite tissue loss. Treatment included left radial forearm free tissue transfer to the dorsum of the right hand, split thickness skin graft from the left thigh to the left forearm, and placement of antibiotic-impregnated methacrylate spacers in the right hand. Postoperatively, he was monitored in the ICU for flap viability and then transferred to the surgical floor for continued care.
+The patient is a 41-year-old male presenting for management of a severe right hand injury following an accidental gunshot wound sustained while hunting. He experienced extensive soft tissue, tendon, and bone loss in the right hand, with only partial metacarpal remnants remaining and significant carpal involvement. His past medical history includes borderline hypertension and multiple prior right hand surgeries. The documented clinical impression was complex traumatic injury to the right hand requiring reconstruction. During this admission, he underwent left radial forearm free tissue transfer to the dorsum of the right hand, split thickness skin grafting, and placement of antibiotic-impregnated spacers. Postoperatively, his pain was well controlled, and his recovery was uneventful; he was discharged in stable condition on postoperative day eight. Discharge medications included Keflex, aspirin, OxyContin, and oxycodone, and he was advised to continue wound care with visiting nurse assistance. Follow-up with his surgical team was arranged for further reconstructive planning.
+
 
 ## Dialogue Summary
 
-The patient presented with a gunshot wound to the back of the right hand and reported persistent pain as the main concern. The pain was rated as 6 out of 10, interfered with daily activities such as gripping and lifting, and had not improved since the injury. The patient denied numbness, swelling, redness, warmth, discharge, changes in grip strength, or difficulty moving fingers. The patient has been taking prescribed medications and keeping the wound clean; no allergies were mentioned. On assessment, the doctor noted no signs of infection or nerve damage and found that movement and grip strength were intact, suggesting deeper structures were likely not involved. The doctor advised continued wound care, adherence to prescribed medications, and monitoring for new symptoms such as swelling, redness, pus, fever, or loss of movement. Recommendations included using the non-dominant hand for heavier tasks, breaking up activities into smaller steps, elevating the hand to minimize swelling, and considering a soft wrap or splint for support if needed. The patient was instructed to seek further care if symptoms worsened or new issues developed.
+The patient is an adult presenting with a recent gunshot wound to the back of the right hand as the chief complaint. The primary symptom is pain rated at 6 out of 10, which interferes with daily activities such as gripping and lifting; there is no reported numbness, swelling, redness, warmth, discharge, or changes in movement or grip strength. The patient has been taking prescribed medications and keeping the wound clean, with no signs of infection or nerve damage noted. The clinical impression is that the wound is healing without obvious complications, and deeper structures of the hand appear intact. The treatment plan includes continuing wound care, taking prescribed medications as directed, avoiding activities that strain the hand, and monitoring for new symptoms such as increased swelling, redness, pus, fever, or difficulty moving fingers. Additional advice includes using the non-dominant hand for heavier tasks, breaking up activities into smaller steps, elevating the hand to minimize swelling, and considering a soft wrap or splint for support if recommended. The patient was instructed to seek further care if symptoms worsen or new issues arise.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.725
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 182 words
+
 
 ## Processing Information
 

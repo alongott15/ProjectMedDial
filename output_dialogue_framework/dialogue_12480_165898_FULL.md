@@ -65,16 +65,21 @@
 
 ## EHR Summary
 
-The patient is a 60-year-old male presenting with chest tightness, fatigue, and leg tightness with exertion for several months. Symptoms were chronic and exertional in nature. Relevant history includes right-sided heart failure, mitral regurgitation, diabetes, hyperlipidemia, hypertension, cardiomyopathy, and a significant smoking history (60 pack-years, quit 4 years ago); he is allergic to procaine. Cardiac catheterization revealed three-vessel coronary artery disease with an ejection fraction of 50% and mild mitral regurgitation. Laboratory findings showed mild anemia (Hgb 10.6), elevated WBC (12.7), and elevated platelet count (479). The documented diagnosis was three-vessel coronary artery disease with associated heart failure and mitral regurgitation. Treatment included coronary artery bypass grafting (CABG) x3 and subsequent sternal wound debridement. Recommendations and further management details are not specified in the note.
+The patient is a 60-year-old male presenting with chest tightness, fatigue, and leg tightness with exertion for several months. Symptoms were chronic and associated with underlying right-sided heart failure and mitral regurgitation. Relevant history includes diabetes, hypertension, hyperlipidemia, cardiomyopathy, prior left femoral bypass, and a significant smoking history; he is allergic to procaine. Cardiac catheterization revealed significant multi-vessel coronary artery disease, leading to a diagnosis of coronary artery disease and subsequent coronary artery bypass grafting (CABG) x3, complicated by post-operative atrial fibrillation and a sternal wound infection requiring debridement. The patient was treated with CABG, sternal wound debridement, IV and oral antibiotics (vancomycin, then cephalexin), amiodarone for atrial fibrillation, and adjustments in diabetic management. At discharge, he was stable in normal sinus rhythm, with instructions for wound care, activity restrictions, and follow-up appointments. Discharge medications included aspirin, metoprolol, amiodarone, cephalexin, diabetes medications, lasix, potassium chloride, and docusate sodium.
+
 
 ## Dialogue Summary
 
-The patient presented with a chief complaint of chest tightness during physical activity. The chest tightness occurs with exertion such as walking or climbing stairs and has been present for several months without significant change. The symptom resolves with rest and does not persist afterward. The patient denied associated shortness of breath, lightheadedness, or sweating, but reported increased fatigue during activity. No specific triggers other than physical activity were identified, and the patient did not note any worsening with cold weather, large meals, or emotional stress. No relevant medical history, medications, or allergies were mentioned. There were no physical findings described in the conversation. The doctor did not provide an explicit assessment or treatment plan during the dialogue.
+The patient presents with chest tightness as the chief complaint. The tightness occurs primarily during physical activity such as walking or climbing stairs and has been present without significant change for several months. The symptom resolves with rest and is not associated with dyspnea, lightheadedness, or diaphoresis, though the patient reports increased fatigue during exertion. No specific triggers other than physical activity are identified, and there is no mention of cold weather, meals, or emotional stress as contributing factors. Relevant medical history, medications, allergies, and a formal diagnosis are not documented in the dialogue. No specific treatment plan or recommendations are provided in the conversation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.402
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 105 words
+
 
 ## Processing Information
 

@@ -97,16 +97,23 @@ Does that sound reasonable to you? Would you like advice on managing anxiety whe
 
 ## EHR Summary
 
-The patient is a 79-year-old male presenting with chest pain. The chest discomfort began after the patient underwent an arteriogram for symptomatic carotid stenosis. Initial cardiac enzyme results showed a CK of 179, MB 3.1, index 1.7, and troponin I less than 0.05. The patient was transferred from another hospital for further evaluation and underwent cardiac catheterization. Relevant medical history includes symptomatic carotid stenosis. The documented diagnosis and specific treatment plan are not specified in the note due to incomplete dictation.
+The patient is a 79-year-old male presenting with chest pain. The chest discomfort began after the patient underwent an arteriogram for symptomatic carotid stenosis. Initial cardiac enzyme tests showed a CK of 179, MB 3.1, index 1.7, and troponin I less than 0.05. The patient was transferred from another hospital for further evaluation and underwent cardiac catheterization. Relevant medical history includes symptomatic carotid stenosis. The documented diagnosis is not specified in the note. Treatment included cardiac catheterization for evaluation of the chest pain. Further details regarding the final diagnosis and additional treatment recommendations are not provided due to incomplete documentation.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent chest pain as the chief complaint. The pain was described as moderate in intensity (5–6/10), with a dull ache or pressure quality, lasting several minutes, and occurring both at rest and with activity without a clear pattern or triggers. The patient denied associated symptoms such as shortness of breath, sweating, lightheadedness, or radiation of pain to the arm, neck, or jaw, and reported that the discomfort has remained stable over time and does not limit daily activities, though it causes some anxiety. Relevant history includes symptomatic carotid stenosis; no history of heart disease, hypertension, or diabetes was reported. On clinical review, no physical findings were noted beyond the described chest discomfort. The doctor assessed that the symptoms are less likely to be cardiac in origin and may be related to musculoskeletal or digestive causes, given the absence of concerning features and stable course. The treatment plan included monitoring symptoms, tracking possible triggers, avoiding heavy lifting, and seeking prompt medical attention if severe pain, shortness of breath, sweating, nausea, or radiating pain develops. The doctor also offered advice on managing anxiety related to the discomfort.
+The patient is an adult with a history of symptomatic carotid stenosis presenting with intermittent chest pain as the chief complaint. The chest discomfort is described as a moderate (5–6/10), dull ache or pressure that lasts several minutes, occurs both at rest and with activity, and does not radiate to the arm, neck, or jaw. The patient denies associated symptoms such as dyspnea, diaphoresis, or lightheadedness, and reports no clear triggers or alleviating factors; the discomfort has remained stable over time and does not limit daily activities, though it causes some anxiety. There is no personal history of heart disease, hypertension, or diabetes.
+
+The clinical impression is that the chest discomfort is less likely to be cardiac in origin and may be related to musculoskeletal or gastrointestinal causes such as muscle strain or acid reflux. The treatment plan includes monitoring symptoms, avoiding heavy lifting, and seeking prompt medical attention if severe pain, shortness of breath, sweating, nausea, or pain radiating to the arm or jaw develops. The patient is also encouraged to track symptom patterns to help identify potential triggers. No new medications or diagnostic tests were prescribed at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.687
+- **Model Used**: general
+- **Text1 Length**: 100 words
+- **Text2 Length**: 191 words
+
 
 ## Processing Information
 

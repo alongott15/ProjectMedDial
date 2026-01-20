@@ -96,3 +96,23 @@ If you notice any new symptoms—like sudden weakness, numbness, confusion, or w
 ## Processing Information
 
 - **Processing Time**: 428.4s
+
+## EHR Summary
+
+The patient is an 89-year-old male presenting with sudden onset chest pain, nausea, diaphoresis, and a syncopal episode. Symptoms began while watching television and were associated with hypotension (BP 62/32), ST elevations in inferior leads, ST depressions in anterior/lateral leads, and third-degree heart block on ECG. His medical history includes hypertension, obsessive compulsive disorder, depression, agoraphobia, peptic ulcer disease, and prostate cancer; he has no medication allergies. The documented diagnosis was acute inferior myocardial infarction with third-degree heart block and subsequent aspiration pneumonia and severe dysphagia. Treatment included thrombolysis, intubation, cardiac catheterization with stenting of the left circumflex artery, antiarrhythmic therapy (amiodarone), antibiotics for pneumonia, aggressive diuresis, and tube feeding via nasogastric and later percutaneous endoscopic gastrostomy tube due to severe pharyngeal dysphagia. The patient’s cardiac status improved during hospitalization, but dysphagia remained a significant issue, prompting neurology consultation and ongoing NPO status. At discharge, he was in good condition on a gastrostomy tube diet and prescribed multiple medications including Captopril, Lasix, Metoprolol, Aspirin, Plavix (for 15 days), and Levofloxacin. Follow-up with his primary care physician was arranged through rehabilitation staff.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with difficulty with speech, specifically trouble finding words and expressing themselves during conversations. These symptoms have been present for approximately two weeks, are consistent throughout the day, and are not triggered or alleviated by fatigue or stress. The patient denies difficulty understanding others but reports a concurrent low mood and decreased interest in previously enjoyed activities, with both symptoms remaining stable over the past two weeks. The speech difficulties and mood changes have impacted social interactions and activity levels at home.
+
+There is no documented relevant medical history, medications, or allergies. The clinical impression is that the patient's symptoms are consistent with mild depression, which can affect both motivation and communication, though no formal diagnosis was made. The doctor advised self-care strategies such as regular physical activity, maintaining a daily routine, and seeking support from friends or family. The patient was instructed to monitor for new or worsening symptoms and to consider further evaluation if there is no improvement.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.398
+- **Model Used**: general
+- **Text1 Length**: 181 words
+- **Text2 Length**: 165 words
+

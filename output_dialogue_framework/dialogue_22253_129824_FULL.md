@@ -67,16 +67,21 @@
 
 ## EHR Summary
 
-The patient is a 66-year-old male presenting with exertional heartburn and fatigue. He was found to have a low hematocrit and an upper GI bleed due to a polyp, which was treated with polypectomy, resulting in stabilization. His past medical history includes paroxysmal atrial fibrillation, peripheral vascular disease, parotid disease, prior GI bleed, transient ischemic attacks, and renal calculi; he has no known drug allergies. On admission, his medications included Lipitor, digoxin, and Protonix, with Coumadin stopped prior to admission. A positive stress test led to cardiac catheterization, revealing multi-vessel coronary artery disease. The documented diagnosis was multi-vessel coronary artery disease. He underwent a four-vessel coronary artery bypass graft (CABG) and had an uncomplicated postoperative course, including successful ventilator weaning and physical therapy assessment. He was discharged home in stable condition with recommendations for continued recovery and ambulation.
+The patient is a 66-year-old male presenting with exertional heartburn and fatigue. He was found to have a low hematocrit and an upper gastrointestinal bleed due to a polyp, which was treated with polypectomy. He subsequently had a positive stress test and was diagnosed with multi-vessel coronary artery disease. His past medical history includes paroxysmal atrial fibrillation, peripheral vascular disease, carotid disease status post endarterectomy, GI bleed, transient ischemic attacks, and renal calculi. During this admission, he underwent a coronary artery bypass graft x4 and recovered well postoperatively. The documented diagnoses at discharge were paroxysmal atrial fibrillation, peripheral vascular disease, carotid disease status post carotid endarterectomy, gastrointestinal bleed, questionable history of transient ischemic attacks, renal calculi, and coronary artery disease status post CABG x4. Discharge medications included Lasix, Lopressor, glipizide, Lipitor, potassium chloride, Colace, EC-ASA, Zantac, and Percocet as needed. He was advised to follow up with his primary care physician and cardiologist and was discharged home in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with heartburn occurring during physical activity such as walking or climbing stairs. The heartburn has been present for a couple of weeks and is accompanied by increased tiredness during activity, but no shortness of breath. The patient reported that symptoms do not occur at rest and are specifically triggered by exertion. These symptoms have led the patient to slow down daily routines, making activities like walking to the store or doing chores more difficult. No relevant medical history, medications, or allergies were mentioned. The doctor inquired about the timing, triggers, and impact of symptoms, as well as associated features like fatigue and shortness of breath. No physical findings or formal assessment were documented, and no specific treatment plan or recommendations were provided during the encounter.
+The patient presents with heartburn occurring during physical activity such as walking or climbing stairs. The symptoms have been present for approximately two weeks and are characterized by a burning sensation and increased fatigue during exertion, without associated dyspnea. The heartburn does not occur at rest and is specifically triggered by activity. The patient reports that these symptoms have led to slowing down daily routines and making activities like walking to the store or doing chores more difficult. Relevant medical history, medications, allergies, and a formal diagnosis are not specified in the dialogue. No treatment plan or specific medical advice was documented during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.322
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 105 words
+
 
 ## Processing Information
 

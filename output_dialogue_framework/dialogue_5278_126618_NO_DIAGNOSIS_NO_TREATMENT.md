@@ -89,16 +89,21 @@ Does that make sense? Is there anything else you’ve noticed or are worried abo
 
 ## EHR Summary
 
-The patient is a 49-year-old male presenting with mental status changes and unresponsiveness. He was found minimally responsive, diaphoretic, and cyanotic at his nursing home, with vital signs showing hypotension (BP 90/60), tachycardia (HR 113), tachypnea (RR 28), and oxygen saturation of 95% on room air. His history includes developmental delay, recent hospitalization for mental status decline, hypernatremia (sodium 159), and treatment for urinary tract infection and community-acquired pneumonia. On this admission, he had been eating less than 25% of meals for three days prior and was unintelligible on questioning. Physical exam findings included altered mental status and abnormal vital signs as above. The documented diagnosis was severe hypernatremia with associated toxic metabolic encephalopathy. Treatment included aggressive intravenous hydration in the Emergency Department.
+The patient is a 49-year-old male presenting with mental status changes and unresponsiveness. He was found minimally responsive, diaphoretic, and cyanotic at his nursing home, with hypotension (BP 90/60), tachycardia (HR 113), tachypnea (RR 28), and oxygen saturation of 95% on room air. On admission, laboratory studies revealed severe hypernatremia (sodium 171), acute renal failure (creatinine 4.3), leukocytosis (WBC 15.9), and evidence of dehydration (dry mucous membranes, poor skin turgor). Relevant history includes developmental delay, juvenile rheumatoid arthritis, possible psychiatric disorder, and an allergy to aspirin. The documented diagnoses were developmental delay, possible schizoaffective or schizophrenic disorder, altered mental status due to toxic metabolic syndrome, hypernatremia, acute renal failure, and sacral decubitus ulcers. Treatment included aggressive intravenous hydration to correct hypernatremia and renal failure, vitamin K for elevated INR, wound care for sacral ulcers (Dakin's dressings, miconazole powder), nutritional support with total parenteral nutrition and supplements, and discontinuation of Haldol due to somnolence. At discharge, the patient was stable and returned to rehabilitation with instructions for continued wound care, nutritional support, and psychiatric follow-up.
+
 
 ## Dialogue Summary
 
-The patient presented with fever as the chief complaint. The fever began a few days ago and has not improved; the patient also reported waxing and waning changes in mental status, including episodes of confusion and trouble focusing that last for a few hours and occur at random times. During these episodes, the patient finds it difficult to eat due to confusion but maintains regular fluid intake and does not lose appetite otherwise. No headaches, chills, or other symptoms were noted, and no relevant medical history, medications, or allergies were mentioned. The doctor noted the episodic confusion and difficulty eating during fever, emphasizing that waxing and waning mental status is not typical for mild illnesses and may indicate systemic infection or increased bodily stress. The assessment focused on monitoring for worsening confusion or additional symptoms such as severe headache, stiff neck, new weakness, or difficulty waking. The doctor advised the patient to continue drinking fluids, rest, and seek prompt medical care if mental status changes become more pronounced or if any warning signs develop.
+The patient is an adult presenting with fever as the chief complaint. The fever began a few days ago and has not improved; the patient reports associated episodes of waxing and waning mental status, characterized by intermittent confusion and trouble focusing, each lasting a few hours and occurring at random times. During these episodes, the patient finds it difficult to eat due to confusion but maintains adequate hydration by drinking fluids regularly. There are no associated headaches, chills, or loss of appetite outside these episodes. Relevant medical history, medications, and allergies are not specified. The clinical impression is that the waxing and waning mental status during fever may indicate systemic infection or another underlying cause requiring close monitoring. The treatment plan includes continued hydration, rest, and instructions to seek urgent medical care if mental status changes worsen or become persistent, or if warning signs such as severe headache, stiff neck, or new weakness develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
+- **STS Score**: 0.432
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 154 words
+
 
 ## Processing Information
 

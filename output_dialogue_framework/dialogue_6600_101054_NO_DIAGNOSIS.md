@@ -85,16 +85,23 @@ For now, I recommend you watch for any new symptoms, such as increasing confusio
 
 ## EHR Summary
 
-The patient is an 82-year-old male presenting with altered neurologic status. He was noted by family to have changes in speech and behavior, and a head CT revealed bifrontal subdural hematoma with some shift and mass effect, but no invasive intervention was required. Relevant history includes an incidental finding of a 4 by 5 cm abdominal aortic aneurysm (AAA) on attempted arteriogram, and an episode of acute renal failure likely related to CT contrast dye and post-obstructive urinary retention; BUN peaked at 60 and creatinine at 3.6, now improving. The patient did not require intubation, had no seizures, and was placed on prophylactic Dilantin, which was later discontinued after development of a back rash (diagnosed as heat rash) and fever. Clinical findings included stable neurological status, ability to tolerate a regular diet, and negative chest x-ray and fever workup. The documented diagnoses were bifrontal subdural hematoma, incidental AAA, and resolving acute renal failure. Treatment included blood pressure management with intravenous nitroprusside (weaned off by hospital day 3), discontinuation of Dilantin, supportive care for renal function, and outpatient vascular surgery follow-up for the AAA. The patient’s renal function is improving and he is being referred for further AAA management.
+The patient is an 82-year-old male presenting with altered neurologic status. He was noted by family to have changes in speech and behavior, and imaging revealed a bifrontal subdural hematoma with some shift and mass effect, but no invasive intervention was required. His hospital course was complicated by an episode of acute renal failure, likely related to contrast dye and post-obstructive etiology, as well as the incidental finding of a 4 x 5 cm abdominal aortic aneurysm (AAA). He also developed a rash on his back, thought to be heat rash, and experienced fever with a negative infectious workup to date. Relevant history includes no seizures, no need for intubation, and inability to void during admission. The documented diagnoses were bifrontal subdural hematoma, acute renal failure (resolving), and incidental AAA. Treatment included prophylactic Dilantin (later discontinued), blood pressure management with nitroprusside (weaned off), azithromycin, topical miconazole and hydrocortisone for rash, supportive care for renal function, and referral for outpatient vascular surgery evaluation. The patient was discharged in stable condition with follow-up arranged with his primary care physician and neurologist.
+
 
 ## Dialogue Summary
 
-The patient presented with recent changes in speech and behavior. Symptoms included difficulty keeping track of what they want to say (without slurring or word-finding problems), increased challenges with conversations, reading, and managing tasks around the house, all beginning a few days ago and remaining stable since onset. The patient also reported trouble passing urine without associated pain or pressure, and denied weakness, difficulty walking, or balance problems. No relevant medical history, medications, or allergies were mentioned. The doctor noted the absence of neurological deficits and assessed that the combination of speech/behavior changes and urinary retention could be related to urinary retention, which may cause confusion or cognitive changes in older adults. The doctor recommended monitoring for new symptoms such as increasing confusion, abdominal discomfort, fever, or sudden weakness, and advised prompt medical care if these occur; otherwise, a timely check-up for the urinary issue was advised. The patient additionally mentioned having a rash on their back and a bit of a fever at the end of the visit, which may affect further assessment.
+The patient is an adult presenting with recent changes in speech and behavior as the chief complaint. Symptoms began a few days ago and include difficulty maintaining conversations, managing household tasks, and reading, with no slurred speech or word-finding difficulty. The patient also reports new-onset urinary retention without associated pain or lower abdominal pressure, and denies weakness, gait disturbance, or balance problems. Additional symptoms mentioned at the end of the visit include a rash on the back and a mild fever.
+
+There is no relevant past medical history, medication use, or allergies documented. The clinical impression discussed was urinary retention potentially contributing to cognitive and behavioral changes, a phenomenon sometimes seen in older adults. The physician noted that the absence of pain or neurological deficits makes serious neurological causes less likely at this time. The treatment plan includes monitoring for new symptoms such as increasing confusion, abdominal discomfort, fever, or sudden weakness, and seeking prompt medical care if these occur, with a recommendation for timely evaluation of the urinary issue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.930
-- **Similarity Label**: N/A
+- **STS Score**: 0.470
+- **Model Used**: general
+- **Text1 Length**: 179 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

@@ -89,16 +89,21 @@ Let me know if you have any questions about this or if there’s anything else y
 
 ## EHR Summary
 
-The patient is a 47-year-old male presenting with left groin pain extending over the perineum and scrotum following a recent incision and drainage procedure. He reports dissatisfaction with prior care and has a history of spina bifida, recurrent urinary tract infections, urostomy, intestinal resection, Bell's palsy, psychiatric disorders, and substance use. The patient also has documented HIV and hepatitis C. On admission, he was refusing IVs and required psychiatric evaluation, which determined he was not competent to refuse care. Physical examination findings are not specified in the note. Fournier's gangrene was ruled out by the surgical team. The patient was started on vancomycin, Zosyn, and clindamycin after blood cultures were drawn. His allergies include latex, morphine, and codeine.
+The patient is a 47-year-old male presenting with left groin pain extending over the perineum and scrotum following a recent incision and drainage procedure for a left subgluteal wound infection. Symptoms included fever (temperature 102.9°F), agitation, and a full-thickness 8 cm wound with purulence and surrounding erythema, but no crepitus. Relevant history includes spina bifida, chronic urinary tract infections, urostomy, antisocial personality disorder, polysubstance abuse, prior positive HIV test, and allergies to latex, morphine, and codeine. On admission, the patient was agitated, refusing IV access, and required psychiatric stabilization due to severe agitation and narcotic withdrawal. The documented diagnosis was left perirectal and gluteal abscess with ongoing infection. Treatment included broad-spectrum antibiotics (initially vancomycin, Zosyn, clindamycin; later switched to vancomycin, levofloxacin, and Flagyl), aggressive pain management with oxycodone and hydromorphone, wound care with dressing changes and hydrogen peroxide cleaning, and psychiatric medications (Risperidone, Klonopin, Haldol, Ativan). The patient was planned for PICC line placement and transfer to a medical/psychiatric facility for further treatment.
+
 
 ## Dialogue Summary
 
-The patient presented with aching pain in the right buttock following recent surgery to close a decubital ulcer. The pain has been present since the procedure, rated as 6 out of 10 in severity, and is localized to the surgical site without spreading. The discomfort is most noticeable when sitting or resting and interferes with daily activities, but walking is less affected. The patient denied any redness, swelling, warmth, or drainage from the area. No relevant allergies or medications were mentioned. On examination, there were no signs of infection, and the doctor assessed the pain as likely related to normal post-surgical healing. The doctor recommended using a pressure-relieving cushion when sitting, changing positions frequently, avoiding prolonged sitting, and monitoring for new symptoms such as increased pain, redness, swelling, warmth, fever, or drainage.
+The patient presents with aching pain localized to the right buttock, which is the main reason for the visit. The discomfort began after recent surgery to close a decubital ulcer on the right buttock and has persisted without significant change; the patient rates the pain as 6 out of 10. The pain is most noticeable when sitting and interferes with daily activities, but walking is less affected. There are no associated symptoms of redness, swelling, warmth, or drainage from the surgical site. Relevant history includes recent surgical closure of a decubital ulcer. The clinical impression is that the pain is likely related to normal healing after surgery, with no signs of infection. The treatment plan includes using a pressure-relieving cushion when sitting, changing positions frequently, avoiding prolonged sitting, and monitoring for any new symptoms such as increased pain, redness, swelling, warmth, fever, or drainage. The patient was reassured that this discomfort is common during the healing process and advised to seek care if concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.420
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

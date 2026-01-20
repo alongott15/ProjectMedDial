@@ -55,16 +55,21 @@
 
 ## EHR Summary
 
-The patient is an 87-year-old male admitted to the Cardiothoracic Surgery service. The chief complaint, specific symptoms, relevant medical history, physical exam findings, diagnosis, and treatment plan are not specified in the provided note. No further clinical details are documented in this excerpt.
+The patient is an 87-year-old male admitted to the Cardiothoracic Surgery service. The chief complaint, specific symptoms, and their characteristics are not documented in the provided note. Relevant medical history, current medications, allergies, and clinical findings are also not specified. The diagnosis and assessment are not included in the available text. No details regarding treatment, medications, or recommendations are documented.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent chest pain as the chief complaint. The pain is described as being mostly in the center of the chest, with occasional radiation up towards the throat and back, and has been occurring "pretty much all the time lately." No further details about the quality or triggers of the pain were provided due to the simulation ending early. No relevant medical history, medications, or allergies were mentioned. There were no clinical findings documented, as the physical examination was not performed or described. The doctor did not provide an assessment or working diagnosis during the conversation. No treatment plan, advice, or recommendations were given in this dialogue.
+The patient is presenting with persistent chest pain as the chief complaint. The pain is described as being located primarily in the center of the chest, with occasional radiation toward the throat and back. The patient reports that the pain has been present "pretty much all the time lately." Details regarding the quality (sharp, dull, pressure-like) and any associated triggers or alleviating factors have not yet been specified. Relevant medical history, medications, allergies, and risk factors are not documented in this dialogue. No diagnosis or clinical impression has been provided at this stage. No treatment plan or recommendations have been documented.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.928
-- **Similarity Label**: N/A
+- **STS Score**: 0.540
+- **Model Used**: general
+- **Text1 Length**: 60 words
+- **Text2 Length**: 101 words
+
 
 ## Processing Information
 

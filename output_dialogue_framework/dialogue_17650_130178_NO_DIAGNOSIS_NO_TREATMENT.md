@@ -87,16 +87,21 @@ For now, it’s wise to pace yourself with activities and avoid pushing through 
 
 ## EHR Summary
 
-The patient is a 69-year-old male presenting for cardiac catheterization due to a history of exertional chest tightness. He reported no acute symptoms at presentation but had prior episodes of chest discomfort with exertion. His medical history includes bipolar disorder, possible silent anterior myocardial infarction, heavy alcohol use, chronic back pain, and coronary artery disease with a previous right coronary artery stent; he takes aspirin and has no known drug allergies. Physical examination revealed clear lungs, regular heart rhythm without murmurs, and well-perfused extremities. Cardiac catheterization was positive for significant coronary disease, and he was referred for coronary artery bypass grafting (CABG). He underwent CABG with grafts to the LAD, ramus, and OM arteries and had an uncomplicated postoperative course except for a persistent chest tube air leak and a small, stable pneumothorax after chest tube removal. The pneumothorax improved with supplemental oxygen, and the patient was advanced to a regular diet and followed by physical therapy.
+The patient is a 69-year-old male presenting for cardiac catheterization due to a history of exertional chest tightness. He denied other acute symptoms at presentation. His relevant medical history includes bipolar disorder, possible silent anterior myocardial infarction, heavy alcohol use, chronic back pain, and coronary artery disease with a prior right coronary artery stent; he has no known drug allergies and was taking aspirin. Cardiac catheterization was positive, leading to referral for coronary artery bypass grafting (CABG). He underwent CABG with grafts to the LAD, ramus, and OM arteries, and had an uncomplicated postoperative course except for a persistent air leak and a small, stable pneumothorax after chest tube removal. The pneumothorax improved with oxygen therapy, and he was evaluated by physical therapy for rehabilitation needs. The patient was discharged in stable condition to an acute rehabilitation facility with instructions for follow-up and prescribed Percocet, Lasix, and Lopressor.
+
 
 ## Dialogue Summary
 
-The patient presented with chest tightness during physical activity. The chest tightness builds up gradually with exertion such as walking up stairs or doing chores, is described as moderate in intensity, and has been present for a few months without significant change. The patient denied associated symptoms such as shortness of breath, jaw or arm pain, sweating, or discomfort at rest, and noted that the tightness does not worsen with cold weather, large meals, or emotional stress. The symptom has led the patient to slow down with daily activities like yard work and carrying groceries, typically requiring rest when the tightness occurs. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the pattern of chest tightness reliably triggered by activity could be related to cardiac causes such as stable angina, though musculoskeletal or mild lung issues were also considered. The doctor advised the patient to pace activities, avoid pushing through discomfort, and monitor for any changes or new symptoms such as chest tightness at rest, increased intensity, dizziness, nausea, or sweating, which would warrant prompt medical attention.
+The patient is an adult presenting with chest tightness as the chief complaint. The chest tightness develops gradually with physical activity such as walking up stairs or doing chores, has been present for a few months, and is described as moderate in intensity—requiring the patient to stop and rest but not associated with dyspnea, jaw or arm pain, or other symptoms. The symptom has remained steady over time and is not triggered by cold weather, large meals, or emotional stress. The tightness limits the patient’s ability to perform daily activities like yard work and carrying groceries. Relevant medical history, medications, and allergies are not specified in the dialogue. The clinical impression discussed is that the pattern may be related to cardiac causes such as stable angina, though musculoskeletal or mild pulmonary etiologies are also considered. The treatment plan includes monitoring symptoms for any changes or warning signs (such as onset at rest, increased intensity, or new associated symptoms), pacing activities, and seeking prompt medical attention if concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.435
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

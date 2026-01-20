@@ -89,16 +89,21 @@ Does anything seem to trigger your symptoms or make them better or worse through
 
 ## EHR Summary
 
-The patient is a 68-year-old female presenting with shortness of breath. She reported a history of hypertension, hypercholesterolemia, diabetes mellitus, congestive heart failure, and recent positive exercise treadmill test; she denied alcohol or tobacco use. On admission, she underwent a coronary artery bypass graft x2 (LIMA to LAD, SVG to Ramus) for documented two-vessel coronary artery disease. Physical examination was notable for stable vital signs, no acute distress, and a well-healed midline incision postoperatively. Laboratory findings showed initial anemia (Hgb 7.4 g/dL) and thrombocytopenia, which improved by discharge (Hgb 11.0 g/dL, Plt 284). The clinical impression was coronary artery disease with symptomatic shortness of breath, status post successful CABG. The treatment plan included surgical revascularization and postoperative monitoring. No drug allergies were reported.
+The patient is a 68-year-old female presenting with shortness of breath. She reported dyspnea and had a recent positive exercise treadmill test; cardiac catheterization revealed two-vessel coronary artery disease (80% stenosis in LAD and LCx). Her medical history includes hypertension, hypercholesterolemia, diabetes mellitus, congestive heart failure, GERD, colon cancer status post-colectomy, anemia, degenerative joint disease of the neck, prior GI bleed, thrombophlebitis, and anxiety. The documented diagnosis was coronary artery disease status post coronary artery bypass graft x2, along with her chronic conditions. She underwent successful CABG x2 (LIMA to LAD, SVG to Ramus) and had an uncomplicated postoperative course aside from transient hypotension and mild pedal edema. Treatment included perioperative blood pressure support, diuretics, blood transfusions, and adjustment of her chronic medications. At discharge, she was prescribed metoprolol, aspirin, pantoprazole, furosemide, atorvastatin, docusate, oxycodone-acetaminophen as needed, potassium chloride, and insulin. She was discharged home in good condition with instructions for wound care, activity restrictions, and follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble catching their breath. They reported shortness of breath for a few days, which is more noticeable during activity such as walking or doing chores, and is only mildly present at rest; lying down does not affect the symptom. The patient denied wheezing, cough, or chest discomfort but noted swelling in the feet that has worsened over the past few days and occasional lightheadedness when standing up from sitting. No specific medical history, medications, or allergies were mentioned. On review, the doctor noted the presence of shortness of breath with exertion, peripheral edema, and intermittent lightheadedness. The assessment was that these symptoms may be related to fluid retention or changes in heart or circulatory function. The doctor recommended monitoring for new symptoms such as chest pain, severe shortness of breath at rest, or sudden worsening of swelling, elevating the feet when sitting, avoiding salty foods, and tracking any changes in symptoms; home blood pressure readings were also suggested if available. The patient reported that elevating their feet helps with swelling and confirmed understanding of the plan.
+The patient is an adult presenting with shortness of breath as the chief complaint. The dyspnea began a few days ago, has remained unchanged, and is more pronounced with activity but also present at rest; it is not affected by position changes. The patient denies wheezing, cough, or chest discomfort but reports new or worsening swelling in the feet over the same period and occasional lightheadedness when standing up. There is no mention of relevant past medical history, medications, or allergies. The clinical impression discussed is possible fluid retention or circulatory changes contributing to both the dyspnea and peripheral edema. The doctor advised monitoring for new symptoms such as chest pain or severe shortness of breath, elevating the feet when sitting, avoiding salty foods, and tracking any changes in symptoms. The patient was also encouraged to provide home blood pressure readings if available. No medications or further diagnostic tests were prescribed at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.940
-- **Similarity Label**: N/A
+- **STS Score**: 0.461
+- **Model Used**: general
+- **Text1 Length**: 158 words
+- **Text2 Length**: 154 words
+
 
 ## Processing Information
 

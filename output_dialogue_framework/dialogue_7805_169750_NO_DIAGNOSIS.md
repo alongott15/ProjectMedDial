@@ -87,16 +87,21 @@ I’d recommend seeing an ear, nose, and throat specialist soon for further eval
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with long-standing right-sided hearing loss. Evaluation revealed a right-sided 1.6 cm acoustic neuroma, for which he underwent a trans-labyrinthine excision. His past medical history includes hypertension and hypercholesterolemia, and he takes Cardizem CD, Lipitor, and Hydrochlorothiazide; he has no known drug allergies. Postoperatively, he experienced mild nystagmus, dizziness, and mild nausea, which resolved over several days. Physical therapy was consulted for ambulation support. The documented diagnosis was right-sided acoustic neuroma. He was discharged in stable condition with Percocet prescribed for pain as needed and instructions for outpatient follow-up.
+The patient is a 61-year-old male presenting with long-standing right-sided hearing loss. Evaluation revealed a right-sided 1.6 cm acoustic neuroma, and he subsequently underwent an uncomplicated right trans-labyrinthine excision of the tumor. Postoperatively, he experienced mild nystagmus, dizziness, and mild nausea, which improved over several days. His past medical history includes hypertension and hypercholesterolemia, and he takes Cardizem CD, Lipitor, and Hydrochlorothiazide; he has no known drug allergies. The documented diagnosis was right acoustic neuroma status post trans-labyrinthine resection. Treatment included surgical excision of the tumor, postoperative monitoring, physical therapy for ambulation, and discharge medications including Percocet for pain and Colace for bowel regimen. At discharge, the patient was stable, afebrile, had adequate oral intake, and no dizziness. He was advised to follow up with his physician after discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with sudden hearing loss on the right side. Symptoms included hearing loss for a few days with sudden onset, associated dizziness, mild nausea, and mild nystagmus; no ringing, ear fullness, pain, drainage, or history of ear infections were reported. The patient denied recent colds, sinus issues, or upper respiratory symptoms and noted that movement may worsen dizziness but no specific triggers for hearing loss. The hearing loss has made conversations more difficult and caused some unsteadiness, but the patient remains able to manage daily activities. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted sudden unilateral hearing loss with dizziness and mild nystagmus, without other neurological symptoms or ear complaints, suggesting possible inner ear involvement such as vestibular neuritis or sudden sensorineural hearing loss. The doctor advised prompt evaluation by an ear, nose, and throat specialist and recommended a hearing test. Additional advice included avoiding sudden movements, being cautious with balance-related activities, and seeking immediate care if new severe symptoms arise.
+The patient is an adult presenting with sudden right-sided hearing loss as the chief complaint. The hearing loss began a few days ago and was accompanied by dizziness, mild nausea, and mild nystagmus, but without ear pain, drainage, ringing, fullness, or recent upper respiratory symptoms. The symptoms have made conversations more difficult and caused some unsteadiness, though the patient remains able to perform daily activities. There is no history of ear infections or specific triggers for symptom changes, though movement can worsen dizziness slightly. The documented clinical impression is possible vestibular neuritis or sudden sensorineural hearing loss affecting the inner ear. The treatment plan includes advising the patient to avoid sudden movements, be cautious with activities requiring balance, and seek immediate care if severe symptoms develop. The doctor recommended prompt evaluation by an ear, nose, and throat specialist and a hearing test for further assessment. No medications or additional interventions were documented at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.692
+- **Model Used**: general
+- **Text1 Length**: 129 words
+- **Text2 Length**: 155 words
+
 
 ## Processing Information
 

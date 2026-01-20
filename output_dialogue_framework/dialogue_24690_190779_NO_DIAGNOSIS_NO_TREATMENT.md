@@ -87,16 +87,23 @@ Would you like more information about what might be causing this, or do you have
 
 ## EHR Summary
 
-The patient is a 44-year-old male presenting with recurrent chest discomfort during exertion. Symptoms included exertional chest pain, with prior nuclear stress testing revealing lateral lead depression and evidence of inferior lateral wall ischemia, as well as a probable small fixed infarct and an ejection fraction of 40%. His relevant history includes a non-Q wave myocardial infarction and prior percutaneous transluminal coronary angioplasty with stenting. On admission, physical examination was unremarkable, with stable vital signs and no distress. Cardiac catheterization demonstrated severe coronary artery disease, including 95% proximal and 99% distal stenosis of the RCA stent, and 50-80% stenosis in the left circumflex artery. The documented clinical impression was significant multivessel coronary artery disease with ischemia. The patient was referred to Cardiothoracic Surgery for coronary artery bypass graft evaluation.
+The patient is a 44-year-old male presenting with recurrent chest discomfort during exertion. Symptoms were associated with exertional chest pain, and prior testing revealed inferior lateral wall ischemia with a probable small fixed infarct and an ejection fraction of 40%. His relevant history includes a non-Q wave myocardial infarction and prior percutaneous transluminal coronary angioplasty with stenting. Cardiac catheterization showed severe proximal and distal right coronary artery lesions and significant stenosis in the left circumflex artery. The documented diagnosis was status post coronary artery bypass graft times two. Treatment included an uncomplicated coronary artery bypass graft (right radial to obtuse marginal, saphenous vein graft to posterior descending artery), postoperative monitoring, and initiation of medications such as aspirin, Plavix, Lopressor, atorvastatin, and isosorbide mononitrate. The patient was discharged home in good condition with instructions for follow-up with cardiology and cardiac surgery.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort occurring during physical exertion, such as climbing stairs or carrying groceries. The chest discomfort has been present for approximately two weeks, described as a pressure or tightness that is moderate in intensity and resolves with rest. The patient reported occasional shortness of breath accompanying the discomfort but denied sweating, lightheadedness, or burning sensations. The symptoms have remained stable over the past two weeks and have limited the patient's ability to perform usual activities. No relevant medical history, medications, or allergies were mentioned. The doctor noted that the exertional chest discomfort relieved by rest could indicate reduced blood flow to the heart and recommended an in-person evaluation with a physical exam and possible tests such as an EKG or stress test. The patient was advised to avoid strenuous physical activity and to seek immediate medical attention if symptoms worsen or new symptoms develop, such as pain at rest, severe shortness of breath, fainting, or pain radiating to the arm or jaw.
+The patient is an adult presenting with chest discomfort on exertion as the chief complaint. The discomfort has been present for approximately two weeks, described as a pressure or tightness in the chest that occurs during physical activity (such as climbing stairs or carrying groceries) and resolves with rest. The intensity is moderate and has limited the patient's usual activities, with associated mild shortness of breath but no sweating or lightheadedness. The symptoms have remained stable over the past two weeks.
+
+No relevant past medical history, medications, or allergies were documented. The clinical impression was that the exertional chest discomfort may be related to cardiac or pulmonary causes, such as reduced blood flow to the heart, and warrants further evaluation. The treatment plan included recommending an in-person evaluation with a physical exam and possible tests (EKG or stress test) to assess heart health. The patient was advised to avoid strenuous physical activity and to seek immediate medical attention if symptoms worsen or new concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.493
+- **Model Used**: general
+- **Text1 Length**: 140 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

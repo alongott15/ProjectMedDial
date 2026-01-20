@@ -87,16 +87,21 @@ Let me know how much this is affecting your day-to-day life right now—are you 
 
 ## EHR Summary
 
-The patient is a newborn female admitted on the day of birth for evaluation and management of a prenatal diagnosis of Dandy Walker variant. She was delivered at 36 and 6/7 weeks gestation via cesarean section due to prior cesarean and uterine anomaly, with Apgar scores of 7 and 8 at one and five minutes, respectively. Prenatal imaging revealed posterior fossa enlargement, fourth ventricle dilatation, absent corpus callosum, vermian hypoplasia, colpocephaly, and general growth restriction. Relevant maternal history includes thalassemia trait and uterine didelphys; prior pregnancies included one preterm infant with respiratory distress syndrome. On admission, the infant was active and alert, with physical findings of a box-shaped head, slightly split sutures, high arched palate, low set ears, and measurements at the 10th to 25th percentiles for weight, length, and head circumference. The documented diagnosis was Dandy Walker variant with associated brain anomalies. The treatment plan included admission to the Intensive Care Nursery for further evaluation and management.
+The patient is a newborn female admitted for evaluation and management of a prenatal diagnosis of Dandy Walker variant. She was delivered at 36 and 6/7 weeks gestation by cesarean section and initially presented with nasal congestion, feeding discoordination, mild respiratory distress, and indirect hyperbilirubinemia. Physical exam revealed dysmorphic features including low set ears, high arched palate, and box-shaped head, but she remained active and alert with stable vital signs. Relevant history includes maternal thalassemia trait, uterine didelphys, and prior preterm delivery. The documented diagnoses were agenesis of the corpus callosum, cerebellar hypoplasia, dysmorphic features, and indirect hyperbilirubinemia; Aicardi syndrome was ruled out. Treatment included phototherapy for hyperbilirubinemia, Neo-Synephrine for nasal congestion, and supportive care with Enfamil 20 formula. At discharge, the infant was stable, feeding well, and breathing comfortably, with recommendations for follow-up with pediatrics, neurology, genetics, and early intervention services. No medications were prescribed at discharge, and a car bed was used due to failed car seat screening.
+
 
 ## Dialogue Summary
 
-The patient presented with concern that her baby is breathing through her mouth frequently. The baby has ongoing nasal congestion, with the parent unable to pass a catheter through her nostrils and reports of difficulty breathing through the nose. Feeding is affected, as the baby sometimes gets out of breath, loses rhythm with sucking and swallowing, and occasionally develops bluish lips during feeds; these symptoms have been present for a while and did not start suddenly. There is no history of coughing or trouble gaining weight, but mild noisy breathing occurs when the nose is more blocked. Attempts to clear the nose with saline drops or a bulb syringe have not improved the blockage, and symptoms do not change with different feeding positions or times of day. The doctor assessed that persistent nasal blockage unresponsive to usual care, especially with color changes during feeding, may indicate a structural nasal issue rather than typical mucus congestion. The doctor recommended prompt evaluation by a healthcare provider to check for anatomical causes and ensure adequate oxygenation, advising immediate care if breathing worsens, blue coloring increases, or the baby becomes difficult to wake for feeds. The parent expressed stress and worry due to prolonged feeding times and close monitoring required.
+The patient is a parent presenting with concerns about their infant’s persistent mouth breathing. The infant has ongoing nasal congestion, inability to pass a catheter through the nostrils, and difficulty breathing through the nose, with symptoms present for an unspecified but non-acute duration. Feeding is affected, with episodes of dyspnea and perioral cyanosis (blue lips) during feeds, though there is no reported coughing or difficulty gaining weight; mild noisy breathing is noted when nasal blockage is worse. Attempts to relieve the congestion with saline drops and bulb suction have not improved the blockage. The clinical impression is that the persistent nasal obstruction and feeding difficulties, especially with color changes and failed attempts at clearing the nose, may indicate a structural nasal issue rather than simple mucus congestion. The doctor recommends prompt evaluation by a healthcare provider to assess for anatomical causes and ensure adequate oxygenation. Caregivers are advised to seek immediate care if breathing worsens, cyanosis increases, or the infant becomes difficult to arouse for feeds.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.908
-- **Similarity Label**: N/A
+- **STS Score**: 0.433
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

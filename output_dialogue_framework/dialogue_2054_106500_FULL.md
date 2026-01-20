@@ -59,16 +59,21 @@
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with chest pain and congestive heart failure. He reported several weeks of chest pain and dyspnea on exertion prior to admission. His history is significant for coronary artery disease status post angioplasty, stenting, and brachytherapy, as well as high cholesterol and borderline diabetes; he has no known drug allergies and was taking Lipitor, Plavix, atenolol, and aspirin on admission. Cardiac catheterization revealed a 90% left anterior descending stenosis, 80% diagonal stenosis, and an ejection fraction of 65%. Electrocardiogram showed sinus bradycardia at 50 beats per minute with stable lateral ST/T wave changes. The documented diagnosis was progression of coronary artery disease with symptomatic heart failure. The patient was transferred for evaluation and planned coronary artery bypass graft surgery.
+The patient is a 58-year-old male presenting with chest pain and congestive heart failure. Several weeks prior to admission, he developed chest pain and dyspnea on exertion, with cardiac catheterization revealing a 90% left anterior descending stenosis and 80% diagonal stenosis; his ejection fraction was 65%. His past medical history includes coronary artery disease status post angioplasty, stenting, and brachytherapy, high cholesterol, and borderline diabetes; he has no known drug allergies. The documented diagnoses were coronary artery disease status post coronary artery bypass graft (CABG), high cholesterol, and borderline diabetes. He underwent a successful two-vessel CABG and was managed postoperatively with beta blockers, Lasix, Plavix, aspirin, and supportive care including an alcohol drip to prevent delirium tremens due to significant alcohol use history. Physical therapy was initiated for ambulation and endurance, and he achieved Level V prior to discharge. The patient was discharged home in stable condition with instructions for follow-up with cardiology and primary care.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. They reported experiencing chest pain and increased shortness of breath, particularly during physical activity such as walking or doing tasks around the house, describing that they get winded more easily than before. The onset of symptoms was a few days ago, with both chest pain and shortness of breath becoming more noticeable recently. No relevant medical history, medications, or allergies were mentioned during the conversation. There were no physical findings documented, as the doctor did not perform an examination during the dialogue. The doctor inquired about the characteristics and timing of the symptoms but did not provide a specific assessment or diagnosis. No treatment plan, advice, or recommendations were given in the portion of the conversation provided.
+The patient is presenting with chest pain as the chief complaint. The chest pain has been present for a few days and has become more noticeable recently. The patient also reports dyspnea, specifically shortness of breath with exertion, such as walking or doing household activities, and describes getting winded more easily than before. The onset of both symptoms was a few days ago, but the exact timing is unclear. Details regarding the quality and duration of the chest pain episodes were being elicited but are not specified in the dialogue. Relevant medical history, diagnosis, and treatment plan are not documented in the provided conversation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.455
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 104 words
+
 
 ## Processing Information
 

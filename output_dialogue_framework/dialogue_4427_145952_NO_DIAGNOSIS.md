@@ -87,16 +87,21 @@ Do you have any specific questions or concerns about your health or medications 
 
 ## EHR Summary
 
-The patient is a 56-year-old female presenting for management of intracranial carotid stenosis and a history of multiple intracranial aneurysms. She underwent a left internal carotid artery (ICA) stent placement and coil embolization for an ICA aneurysm without complications. Her past medical history includes prior gastric bypass, pernicious anemia, rheumatic arthritis versus fibromyalgia, multiple spinal surgeries, and a prior lumpectomy. On examination post-procedure, she was awake, alert, afebrile, with stable vital signs, intact visual fields, and clean groin sites without hematoma. The documented diagnosis was intracranial carotid stenosis with aneurysm. Treatment included stent and coil embolization, pain management with hydromorphone as needed, and secondary prevention with aspirin and Plavix. She was discharged in stable condition with instructions to follow up in 8–12 weeks.
+The patient is a 56-year-old female admitted for management of intracranial carotid stenosis and aneurysm. She presented with a history of multiple intracranial aneurysms, prior unsuccessful coiling, and recent issues with right-sided intracranial carotid stenosis. Her past medical history includes prior gastric bypass, pernicious anemia, rheumatic arthritis versus fibromyalgia, multiple spinal surgeries, and a prior lumpectomy. She underwent left internal carotid artery (ICA) stent placement and coil embolization without complications. Post-procedure, she was stable, afebrile, alert, and had intact neurological and vascular examinations; no hematoma was noted at groin sites. The documented diagnosis was intracranial carotid stenosis with aneurysm. Treatment included stent and coil embolization, pain management with hydromorphone as needed, and secondary prevention with aspirin and Plavix. She was discharged in stable condition with instructions to follow up in 8–12 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented for a general health check-in, with no specific complaints. They denied experiencing any new symptoms, including fatigue, cough, headaches, joint stiffness, swelling, pain, changes in mood or energy, unusual tiredness, shortness of breath, tingling, sleep disturbances, appetite changes, or medication side effects such as stomach upset, bruising, or constipation. The patient’s medical history includes pernicious anemia and joint issues (rheumatic arthritis or possibly fibromyalgia), and they are currently taking hydromorphone, pantoprazole, Colace, venlafaxine XR, Plavix, and aspirin. No abnormal physical findings were reported or described during the visit. The doctor assessed that the patient’s health has been stable with no concerning changes and that their current management plan is effective. The doctor recommended ongoing regular monitoring of symptoms and routine lab work for anemia, as well as continued check-ins for joint health. The patient was advised to continue current medications as prescribed and to report any new or unusual symptoms promptly. The patient expressed understanding and had no further questions at this time.
+The patient is an adult presenting for a routine health check-in without specific complaints. They report no new symptoms, including fatigue, cough, headaches, joint pain, stiffness, swelling, mood changes, sleep or appetite disturbances, or medication side effects. The patient’s relevant history includes pernicious anemia, joint issues (rheumatic arthritis or possible fibromyalgia), and current medications: hydromorphone, pantoprazole, Colace, venlafaxine XR, Plavix, and aspirin. No acute symptoms or exacerbations of chronic conditions are noted. The clinical impression is stable management of chronic conditions without new concerns. The treatment plan is to continue current medications as prescribed, maintain healthy habits, and monitor for any new or changing symptoms. Routine lab work for anemia and regular follow-up for joint health are recommended. The patient is advised to report any unusual fatigue, changes in strength or coordination, or new joint discomfort promptly.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.938
-- **Similarity Label**: N/A
+- **STS Score**: 0.226
+- **Model Used**: general
+- **Text1 Length**: 132 words
+- **Text2 Length**: 137 words
+
 
 ## Processing Information
 

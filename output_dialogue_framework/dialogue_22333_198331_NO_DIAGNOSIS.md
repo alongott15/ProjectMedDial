@@ -96,3 +96,21 @@ If this continues to limit your daily life or gets worse, let’s talk about fur
 ## Processing Information
 
 - **Processing Time**: 318.3s
+
+## EHR Summary
+
+The patient is a 65-year-old male presenting with back and leg pain. He reported crescendo leg pain and claudication over the last six months, along with longstanding low back pain. His medical history includes hypertension, Parkinson's disease, and diabetes, and he has allergies to penicillins, sulfa drugs, and Stelazine. The documented diagnosis was herniated disk and spinal stenosis. He underwent posterior spinal decompression and discectomy, with repair of a dural tear; the CSF leak was controlled, and he was mobilized after 48 hours of bed rest. On discharge, he was stable, neurologically intact, and primarily ambulatory, with a well-healing wound. Discharge medications included antihypertensives, antidiabetics, atorvastatin, bicalutamide, perphenazine, folic acid, and codeine as needed for pain. He was advised to keep the wound clean and dry, avoid immersion, and follow up as planned.
+
+
+## Dialogue Summary
+
+The patient presents with back and leg pain, with increasing discomfort prompting the visit. The leg pain is primarily located in the calves, worsens with walking and prolonged sitting, and improves fairly quickly with rest; there is no associated numbness or tingling. The symptoms have gradually worsened over time and now significantly impact daily activities such as chores and shopping. The patient has a history of longstanding low back pain and has tried heat packs, stretching, and regular pain medication with little relief for the leg pain. The clinical impression documented by the doctor is claudication, likely related to vascular insufficiency rather than neuropathic causes. The doctor advised gentle walking as tolerated, monitoring for new symptoms such as numbness or pain at rest, and managing vascular risk factors. The patient was also offered tips on gentle exercises and strategies to adapt daily activities for comfort. No new medications or interventions were initiated at this visit.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.567
+- **Model Used**: general
+- **Text1 Length**: 133 words
+- **Text2 Length**: 155 words
+

@@ -87,16 +87,21 @@ Does that make sense? Is there anything else you'd like to discuss or clarify ab
 
 ## EHR Summary
 
-The patient is a 70-year-old female presenting with progressive lower extremity weakness and increasing anginal symptoms. She reported worsening weakness in her legs and chest pain, with imaging revealing chronic white matter ischemic changes and possible new small lesion at the right semiovale. Her medical history includes insulin-dependent diabetes mellitus, coronary artery disease, Parkinson's disease, prior CVA, spinal stenosis, and subclavian steal syndrome. On admission, she was afebrile, in no acute distress, with stable vital signs, clear lungs, and a regular heart rate and rhythm. Cardiac catheterization showed significant coronary artery disease (LAD 90% ostial lesion, LCX 90-95% lesion, RCA 80% lesion), moderate mitral insufficiency, and low to normal left ventricular ejection fraction. The documented clinical impression was severe multivessel coronary artery disease with mitral insufficiency. Her treatment included medications such as Ecotrin, Lopressor, nitroglycerin patches, Prevacid, Avapro, Norvasc, Plavix, and Lantus insulin with a sliding scale.
+The patient is a 70-year-old female presenting with progressive lower extremity weakness and increasing anginal symptoms. She reported worsening weakness in her legs and chest pain, with imaging revealing chronic white matter ischemic changes and possible new small lesion at the right semiovale. Carotid Dopplers showed obstructive disease, and echocardiogram demonstrated moderate mitral insufficiency. Myoview imaging indicated anterior and lateral ischemia, and cardiac catheterization revealed significant coronary artery disease (LAD 90% ostial lesion, LCX 90-95% lesion, RCA 80% lesion) with low to normal ejection fraction and 3+ mitral insufficiency. Her medical history includes diabetes mellitus (insulin-dependent), coronary artery disease, Parkinson's disease, prior CVA, spinal stenosis, and subclavian steel syndrome. Admission medications included Ecotrin, Lopressor, nitroglycerin patches, Prevacid, Avapro, Norvasc, Plavix, and Lantus insulin. The documented clinical impression was significant multi-vessel coronary artery disease with mitral insufficiency and neurological findings. Treatment included continuation of cardiac and diabetic medications; further management details are not specified in this note.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening weakness in the legs and increased frequency of chest discomfort. The weakness and chest pain are exacerbated by exertion, such as walking or climbing stairs, and improve with rest; the chest discomfort is typically moderate and does not occur at night. The patient denied associated symptoms such as shortness of breath, sweating, lightheadedness, numbness, tingling, or swelling in the feet or ankles, but noted some difficulty with daily activities due to these symptoms. Relevant history includes prior heart problems, cardiac catheterization with PTCA of the diagonal, and subclavian steel syndrome. On assessment, the doctor noted that the exertional nature and gradual worsening of symptoms may indicate progression of underlying cardiac or vascular disease, though no severe symptoms were present. The doctor recommended contacting the patient’s cardiologist for further review and advised pacing activities with rest as needed. The patient was instructed to seek prompt medical attention if new symptoms such as pain at rest, severe shortness of breath, fainting, or swelling develop.
+The patient is an adult presenting with worsening weakness in the legs and increased chest discomfort. The symptoms have gradually progressed over time and are primarily triggered by exertion, such as walking or climbing stairs, and improve with rest. The chest discomfort is described as moderate and does not occur at night; there are no associated symptoms such as shortness of breath, sweating, lightheadedness, numbness, or tingling. The patient denies swelling in the feet or ankles but reports some limitation in daily activities due to these symptoms. Relevant history includes prior heart problems, a cardiac catheterization with PTCA of the diagonal five years ago, and a diagnosis of subclavian steel syndrome. The clinical impression is that the symptoms may be related to reduced blood flow during activity, possibly due to progression of underlying cardiac or vascular disease. The treatment plan includes advising the patient to contact their cardiologist for further evaluation, pace activities, rest as needed, and seek prompt medical attention if new or severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.626
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

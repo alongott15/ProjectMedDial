@@ -87,16 +87,21 @@ Let me ask—have you noticed if your symptoms are getting better, staying about
 
 ## EHR Summary
 
-The patient is a 65-year-old man presenting with dyspnea on exertion. He reported a progressive decrease in activity tolerance over the past year, with worsening shortness of breath during exertion. His medical history includes myocardial infarction, coronary artery disease, moderate mitral regurgitation, possible chronic obstructive pulmonary disease, hypertension, hyperlipidemia, depression, and remote pleurisy; he has no known drug allergies and takes Vistaril, Lipitor, multivitamins, aspirin, and escitalopram. On admission, physical findings included a hematocrit of 21.2 requiring transfusion and postoperative wheezing with a productive cough. The documented diagnoses were coronary artery disease with right coronary artery occlusion and moderate mitral regurgitation. He underwent coronary artery bypass grafting and mitral valve repair without surgical complications. Postoperatively, he required temporary pacing for two days and was successfully extubated on postoperative day one.
+The patient is a 65-year-old man presenting with dyspnea on exertion. He reported progressive decrease in activity tolerance over the past year, with a history of worsening exertional dyspnea and productive cough with wheezing during his hospital stay. Relevant history includes myocardial infarction, coronary artery disease, moderate mitral regurgitation, hypertension, hyperlipidemia, possible COPD, and no known drug allergies. The documented diagnoses were coronary artery disease with totally occluded right coronary artery (with collaterals), moderate mitral regurgitation, and postoperative atrial fibrillation. He underwent coronary artery bypass grafting and mitral valve repair without surgical complications, but developed postoperative atrial fibrillation managed with Metoprolol and Amiodarone, and was started on anticoagulation with heparin and Coumadin. At discharge, he was stable, in sinus rhythm, and prescribed Metoprolol, Escitalopram, Atorvastatin, Percocet, aspirin, potassium chloride, Lasix, and a short course of Coumadin. Follow-up included visiting nurse INR check two days post-discharge, cardiology follow-up for Coumadin dosing, and clinic visits with his cardiologist and primary care physician within four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath during activities such as walking up stairs and carrying groceries. Symptoms have been worsening over the past few weeks and include exertional shortness of breath, wheezing (especially with activity), and a cough producing mostly clear phlegm. The patient reported that symptoms resolve quickly with rest, do not occur at night or while lying flat, and have made daily chores more difficult. No history of sleep disturbance, orthopnea, or nocturnal dyspnea was noted; no mention of medical history, medications, or allergies was made. On assessment, the doctor noted that the symptoms are consistent with airway-related issues such as a mild flare of chronic bronchitis or asthma, rather than heart failure, given the absence of nocturnal symptoms or peripheral edema. The doctor recommended avoiding symptom triggers (such as dust or strong odors), staying hydrated, and monitoring for new or worsening symptoms including colored phlegm, fever, chest pain, or swelling. The patient reported that symptoms have remained stable over the past week.
+The patient is an adult presenting with shortness of breath during exertion as the chief complaint. Symptoms include progressive dyspnea over several weeks, wheezing with activity, and a productive cough with clear phlegm; symptoms are triggered by physical activity and resolve quickly with rest. The patient denies orthopnea, paroxysmal nocturnal dyspnea, or nocturnal symptoms, and reports no difficulty sleeping flat. There is no mention of fever, chest pain, or leg swelling. Relevant medical history, medications, allergies, and smoking status are not specified. The clinical impression is that the symptoms may be due to airway-related conditions such as a mild flare of chronic bronchitis or asthma, with no evidence of heart failure. The treatment plan includes avoiding triggers (such as dust or strong odors), maintaining hydration, monitoring for new or worsening symptoms (including colored phlegm, fever, chest pain, or swelling), and seeking further evaluation if these occur. The patient’s symptoms have remained stable over the past week.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.590
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

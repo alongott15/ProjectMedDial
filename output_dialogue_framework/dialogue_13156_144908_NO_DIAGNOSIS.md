@@ -98,3 +98,21 @@ Does that plan sound reasonable to you? And do you have any concerns or question
 ## Processing Information
 
 - **Processing Time**: 421.2s
+
+## EHR Summary
+
+The patient is a 64-year-old male presenting with nausea and epigastric pressure. Symptoms prompted evaluation, during which he was found to have a non-Q-wave myocardial infarction. Cardiac catheterization revealed 3-vessel coronary artery disease. There is no additional symptom detail or information on severity, duration, or alleviating factors documented. Relevant history, medications, and allergies are not specified. The documented diagnosis was non-Q-wave myocardial infarction with significant coronary artery disease. He was transferred for coronary artery bypass graft surgery. Further details of the treatment plan or hospital course are not provided in this note.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with the chief complaint of nausea and upper abdominal pressure. The symptoms have been present for at least a few days, are described as uncomfortable but not painful, and have remained steady without worsening. The discomfort is not affected by eating or drinking and is not associated with vomiting, changes in bowel movements, jaundice, fever, weight loss, or new medications. The patient is able to continue daily activities, though the symptoms are distracting. There is no prior history of similar symptoms. The documented clinical impression is mild irritation of the upper stomach, consistent with dyspepsia or indigestion. The treatment plan includes dietary modifications (smaller meals, avoiding spicy or fatty foods), maintaining hydration, and considering over-the-counter antacids, with instructions to seek further care if new or worsening symptoms develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.421
+- **Model Used**: general
+- **Text1 Length**: 92 words
+- **Text2 Length**: 134 words
+

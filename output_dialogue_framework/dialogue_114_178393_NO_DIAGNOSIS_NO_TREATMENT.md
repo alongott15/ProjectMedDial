@@ -87,16 +87,21 @@ Let me know if you have questions about what I’ve explained or if there’s an
 
 ## EHR Summary
 
-The patient is a 48-year-old man presenting with new onset dyspnea on exertion and angina. Symptoms included shortness of breath and chest pain with activity, prompting cardiac catheterization which revealed two-vessel coronary artery disease and an ejection fraction of 40%. Relevant history includes hypercholesterolemia and prior appendectomy; medications on admission were Gemfibrozil, Atenolol, and Aspirin. Cardiac catheterization showed significant stenoses in the LAD and RCA, with occluded PDA and mild PVB disease. The documented diagnosis was coronary artery disease requiring revascularization. He underwent coronary artery bypass grafting (CABG) times three, with postoperative ejection fraction improving to 50-55%. Postoperatively, he developed a fever and sputum cultures grew gram negative rods, for which Levofloxacin was started; he also experienced one episode of epigastric pain with EKG showing right bundle branch block but cardiac enzymes trended downward. The patient otherwise recovered well and was transferred to the floor by postoperative day three.
+The patient is a 48-year-old man presenting with new onset dyspnea on exertion and angina. Symptoms included exertional shortness of breath and chest pain, with cardiac catheterization revealing two-vessel coronary artery disease and an ejection fraction of 40%. His past medical history is significant for hypercholesterolemia, and he was taking Gemfibrozil, Atenolol, and Aspirin prior to admission. The documented diagnoses were hypercholesterolemia and coronary artery disease, status post coronary artery bypass grafting (CABG) times three. During hospitalization, he developed postoperative fever with sputum cultures positive for gram negative rods, treated with Levofloxacin, and experienced one episode of epigastric pain with right bundle branch block on EKG and a transient drop in hematocrit requiring transfusion. Postoperative recovery was otherwise uneventful, with improvement in ejection fraction to 50-55%. At discharge, he was stable and prescribed Lopressor, potassium chloride, Lasix, Colace, Zantac, Aspirin, Motrin as needed, Imdur, Niferex, Levofloxacin for 7 days, and Percocet. He was advised to follow up with his cardiothoracic surgeon and primary care provider within 1–9 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath during activity and intermittent chest pressure. Symptoms included exertional dyspnea, chest pressure (not sharp), and recent upper abdominal discomfort, all of which began a few days ago and have been worsening with activity; the chest pressure resolves quickly with rest and does not occur at night or at rest. The patient also reported fever but denied cough, sore throat, cold symptoms, sweating, nausea, lightheadedness, or palpitations. No relevant past medical history, medications, or allergies were mentioned. On review, there were no physical findings described beyond the patient’s symptom report. The doctor assessed that the exertional nature and progression of symptoms could indicate a cardiac or pulmonary issue, though other causes like acid reflux or musculoskeletal strain were considered less likely. The doctor recommended avoiding strenuous activities until further evaluation and advised seeking immediate medical attention if new symptoms such as pain at rest, severe shortness of breath, fainting, or palpitations develop. The patient understood and agreed to these recommendations.
+The patient is an adult presenting with exertional shortness of breath and chest pressure as the chief complaint. Symptoms began a few days ago, are worsening with activity, and improve quickly with rest; the patient also reports recent fever and mild upper abdominal discomfort but denies cough, sore throat, cold symptoms, nocturnal symptoms, or associated sweating, nausea, lightheadedness, or palpitations. The shortness of breath limits activities such as climbing stairs but not walking around the house. Relevant history, medications, and allergies are not specified in the dialogue. The clinical impression is that the exertional chest pressure and dyspnea could be related to cardiac or pulmonary causes, with less likelihood of infection or musculoskeletal/acid reflux etiology given the absence of other symptoms and the exertional pattern. No definitive diagnosis is documented at this visit. The treatment plan includes avoiding strenuous activities until further evaluation and instructions to seek immediate medical attention if new symptoms such as pain at rest, severe shortness of breath, fainting, or palpitations develop. The patient was encouraged to monitor for any changes and to ask questions as needed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.416
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 181 words
+
 
 ## Processing Information
 

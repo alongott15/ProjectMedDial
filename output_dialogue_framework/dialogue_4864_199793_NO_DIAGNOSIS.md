@@ -89,16 +89,23 @@ For now, maintaining your routine and using these relaxation techniques should b
 
 ## EHR Summary
 
-The patient is a 53-year-old male presenting for evaluation and management of multivessel coronary artery disease identified on routine cardiac testing. He denied chest pain, shortness of breath, paroxysmal nocturnal dyspnea, or dyspnea, and his positive stress test was followed by echocardiogram and cardiac catheterization confirming multivessel disease. His past medical history includes non-insulin dependent diabetes, hypercholesterolemia, mild hypertension, and glaucoma; he takes aspirin, lisinopril, lipitor, atenolol, glyburide, and lumigan eye drops. On admission, physical examination was unremarkable with stable vital signs and no acute findings; EKG showed no acute ST-T changes. The documented diagnosis was multivessel coronary artery disease. He underwent coronary artery bypass grafting (CABG) times five. Postoperatively, he experienced labile blood pressure managed with fluids and medications, required an insulin drip for blood sugar control, and was started on Lasix and beta blockade; pain was managed with Percocet. He was successfully weaned from the ventilator and extubated without complications.
+The patient is a 53-year-old male presenting after a routine stress test was found to be positive, leading to further cardiac evaluation. He denied chest pain, shortness of breath, paroxysmal nocturnal dyspnea, or dyspnea. Cardiac catheterization revealed multivessel coronary artery disease. His past medical history includes non-insulin dependent diabetes, high cholesterol, mild hypertension, and glaucoma; he has no known drug allergies. The documented diagnosis was coronary artery disease status post coronary artery bypass grafting (CABG) times five, along with diabetes, high cholesterol, hypertension, and glaucoma. Treatment included CABG x5, postoperative diuresis with Lasix, insulin drip for blood sugar control, transfusion for low hematocrit, pain management with Percocet, and continuation of home medications. He was discharged home in stable condition with instructions for follow-up with his physicians and home physical therapy. Discharge medications included Lasix, Lumigan eye drops, glyburide, Percocet, aspirin, Zantac, Colace, potassium supplement, and Lopressor.
+
 
 ## Dialogue Summary
 
-The patient presented with mild, background anxiety related to managing diabetes and general health concerns. Symptoms included a general feeling of worry without specific triggers, no chest pain, no trouble breathing, and no interference with daily activities; the anxiety was noted to improve with staying busy and worsen when idle or focused on health. The patient reported stable diabetes management, no unusual blood sugar readings, no increased thirst or urination, and no changes in sleep, appetite, or energy levels. No physical findings or concerning symptoms were described during the visit. The doctor assessed the anxiety as mild and situational, common among individuals with chronic conditions like diabetes, and not associated with underlying physical problems. The doctor recommended continuing to stay active and engaged, provided reassurance, and suggested relaxation techniques such as deep breathing and progressive muscle relaxation. The patient was advised to monitor for any worsening symptoms, changes in sleep or mood, or new physical complaints, and to reach out if these occur. No additional concerns were raised by the patient at this time.
+The patient is an adult with a history of diabetes presenting for a check-in due to recent feelings of anxiety. The anxiety is described as a general, background worry without specific triggers, and does not interfere with daily activities; it is alleviated by staying busy and worsened by inactivity or focusing on health concerns. The patient denies chest pain, dyspnea, changes in sleep, appetite, energy, or abnormal blood sugar readings, and reports stable diabetes management with no new physical symptoms. Relevant history includes diabetes; no medication changes or allergies were discussed.
+
+The clinical impression was mild, situational anxiety related to managing chronic health conditions, with no evidence of underlying physical illness or significant functional impairment. The treatment plan included reassurance, education about the commonality of such worries in chronic illness, and instruction in relaxation techniques such as deep breathing and progressive muscle relaxation. The patient was advised to monitor for any worsening symptoms or changes in sleep, mood, or physical health and to reach out if these occur. No new medications or interventions were initiated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.940
-- **Similarity Label**: N/A
+- **STS Score**: 0.471
+- **Model Used**: general
+- **Text1 Length**: 146 words
+- **Text2 Length**: 178 words
+
 
 ## Processing Information
 

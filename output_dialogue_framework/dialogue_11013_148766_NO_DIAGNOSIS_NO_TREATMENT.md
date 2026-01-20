@@ -85,16 +85,23 @@ If you notice the drainage increasing, any new redness, warmth, or swelling, or 
 
 ## EHR Summary
 
-The patient is a 76-year-old female presenting with worsening symptoms of coronary artery disease. She recently had a positive stress test and underwent cardiac catheterization, which revealed 90% left main and three-vessel coronary artery disease with an ejection fraction of 63%. Her past medical history includes coronary artery disease, hypercholesterolemia, questionable transient ischemic attack, gastroesophageal reflux disease, prior endocarditis, upper gastrointestinal bleed due to aspirin, diverticulosis, and several surgical histories. Preoperative medications included aspirin, atenolol, Zantac, Prevacid, Lipitor, Colace, Integrilin, and heparin. She has documented allergies to prednisone (rash), Vioxx, Robaxin, Celebrex, and amlodipine. On admission, carotid ultrasound showed no significant stenosis. The documented diagnosis was severe left main and three-vessel coronary artery disease. The treatment plan was transfer for coronary artery bypass grafting.
+The patient is a 76-year-old female presenting with worsening symptoms of coronary artery disease. She experienced increased cardiac symptoms, had a positive stress test, and was found to have 90% left main and three-vessel coronary artery disease on cardiac catheterization, with an ejection fraction of 63%. Her past medical history includes coronary artery disease, hypercholesterolemia, gastroesophageal reflux disease, prior endocarditis, and a history of upper gastrointestinal bleed due to aspirin, among others. The documented diagnoses were coronary artery disease, status post coronary artery bypass graft times three, and right thigh wound dehiscence. She underwent urgent coronary artery bypass grafting with postoperative complications including hypotension, right ventricular dysfunction, hyponatremia, atrial fibrillation, and wound dehiscence at the vein harvest site. Treatment included inotropic and vasopressor support, intra-aortic balloon pump, Milrinone for right ventricular dysfunction, correction of hyponatremia, wound care with VAC dressing, and a regimen of medications at discharge including aspirin, Amiodarone, Lasix, potassium chloride, Lopressor, and Tylenol with codeine. The patient was discharged in stable condition to a rehabilitation facility with follow-up arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with loose stools and continued drainage around the right ankle and calf. The loose stools have been ongoing for a few days, and the drainage has remained unchanged during this time; neither symptom has interfered with daily activities. The patient denied any redness, warmth, swelling, pain, or recent injuries to the affected area, and reported no triggers that worsen the drainage. No relevant medical history, medications, or allergies were mentioned. On examination, there were no signs of infection such as redness, warmth, or swelling, and the drainage was not painful. The doctor assessed that the loose stools are likely due to mild stomach upset or dietary changes and that the stable, non-infected drainage is somewhat reassuring. The doctor recommended staying hydrated, gently cleansing and keeping the affected area dry, and monitoring for any increase in drainage, new redness, warmth, swelling, or systemic symptoms such as fever or chills. The patient was advised to seek further evaluation if symptoms worsen or new concerns arise.
+The patient presents with the chief complaint of loose stools and continued drainage around the right ankle and calf. The loose stools have been present for a few days, and the drainage has remained unchanged during this period. The patient denies any redness, warmth, swelling, pain, or recent injuries to the affected area and reports no impact on daily activities. There are no identified triggers for the drainage, and it is not worsened by activity.
+
+The clinical impression is that the loose stools are likely due to mild stomach upset or dietary changes, and the persistent drainage may be related to chronic skin changes without signs of acute infection. The patient was advised to stay hydrated due to fluid loss from loose stools and to gently cleanse and keep the affected area dry. The doctor recommended monitoring for increased drainage, new redness, warmth, swelling, or systemic symptoms such as fever or chills, which would warrant earlier evaluation. No medications or further interventions were prescribed at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.919
-- **Similarity Label**: N/A
+- **STS Score**: 0.244
+- **Model Used**: general
+- **Text1 Length**: 172 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

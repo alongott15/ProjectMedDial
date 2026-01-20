@@ -87,16 +87,21 @@ Let me know if you have any questions or concerns about what we've discussed.
 
 ## EHR Summary
 
-The patient is an 84-year-old female presenting with shortness of breath, angina at rest, and nausea. Symptoms began on [10-28] and led to ER evaluation, where she was found to have elevated CK and MB, confirming myocardial infarction (MI) on [2184-11-1]. Her history includes hypertension, hypercholesterolemia, depression, gastroesophageal reflux disease, and arthritis. Cardiac catheterization revealed significant coronary artery disease: LAD 40% occlusion, left circumflex 80%, and RCA 100%, with an ejection fraction of 45%. She underwent coronary artery bypass grafting (CABG) with LIMA to LAD, SVG to RCA, and SVG to OM. Postoperatively, she developed atrial fibrillation on day 3, which was controlled with IV Lopressor and subsequently managed with Amiodarone. On discharge, her vital signs were stable, she was in sinus rhythm, and her incisions were healing well. Discharge medications included Lopressor, Aspirin, Lasix (for five days), potassium supplement (for five days), Paxil, and Amiodarone.
+The patient is an 84-year-old female presenting with shortness of breath, angina at rest, and nausea. Symptoms began on 10-28 and led to ER evaluation, where she was found to have elevated CK and MB, confirming myocardial infarction (MI) on 11-1. Her history includes exertional angina, hypertension, hypercholesterolemia, depression, gastroesophageal reflux disease, and arthritis. Cardiac catheterization revealed significant coronary artery disease with 40% LAD, 80% left circumflex, and 100% RCA occlusion; ejection fraction was 45%. The documented diagnosis was acute MI with multivessel coronary artery disease. She underwent coronary artery bypass grafting (CABG) with LIMA to LAD and saphenous vein grafts to RCA and OM. Postoperatively, she developed atrial fibrillation, which was controlled with IV Lopressor and Amiodarone. At discharge, she was stable on Lopressor, Aspirin, Lasix (short course), potassium supplement, Paxil, and Amiodarone, and advised to follow up with her cardiologist and primary care physician in 3–4 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain at rest, described as a pressure sensation, accompanied by anxiety. Symptoms included chest pressure not relieved by changing position, episodes of shortness of breath occurring simultaneously with the discomfort, and occasional nausea that only appears during these episodes; no wheezing, coughing, or leg/ankle swelling were reported. The episodes typically last a few minutes, are intense enough to require the patient to stop activity and sit quietly, and have been consistent in frequency and severity over time. The patient has a history of angina at rest and does not use any medications for these episodes. On examination, no new physical findings such as edema or respiratory symptoms were noted. The doctor assessed that the symptoms are likely related to angina at rest, possibly due to transient myocardial ischemia, and found the absence of new or worsening symptoms reassuring. The doctor advised the patient to rest during episodes, monitor for any changes in symptom pattern or severity, use nitroglycerin if prescribed, and seek immediate medical attention if symptoms worsen or new warning signs develop.
+The patient presents with chest pain at rest as the chief complaint. The chest pain is described as a pressure sensation, not sharp or stabbing, and is accompanied by shortness of breath and occasional nausea; these symptoms occur together, last a few minutes, are relieved somewhat by resting quietly, and are not triggered by position changes, eating, or activity. The patient denies associated symptoms such as wheezing, cough, or peripheral edema and reports no recent increase in frequency or intensity of episodes. There is a history of angina at rest. The clinical impression is that these episodes are likely related to myocardial ischemia (angina) occurring even without exertion. The patient was advised to continue resting during episodes, monitor for any changes in symptom pattern or severity, and seek immediate medical attention if symptoms worsen or new warning signs develop (such as prolonged pain, severe intensity, sweating, fainting, or radiation of pain). The doctor also recommended using nitroglycerin if prescribed and keeping track of symptoms for further evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.948
-- **Similarity Label**: N/A
+- **STS Score**: 0.500
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

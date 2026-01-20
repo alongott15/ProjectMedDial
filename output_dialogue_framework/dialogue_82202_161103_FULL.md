@@ -85,16 +85,21 @@ For now, staying hydrated and resting as needed are helpful. You can use over-th
 
 ## EHR Summary
 
-The patient is a 36-year-old male presenting with acute onset of sharp, non-radiating chest pain, chills, weakness, and headache. Symptoms began four days prior to admission and were accompanied by laboratory findings of neutropenia (WBC 1,800), anemia (hematocrit 35.2), thrombocytopenia (platelets 134,000), elevated creatinine (1.1), and transaminitis (alkaline phosphatase 153, AST 83). He has a newly diagnosed HIV infection with a CD4 count of 15 and was placed on respiratory precautions. EKG showed T wave inversion in V1-V6 and RSR prime in V1; echocardiogram was normal. The documented diagnoses include newly diagnosed HIV, acute renal failure, hemolytic anemia, thrombocytopenia, and transaminitis. Treatment included initiation of highly active antiretroviral therapy, Bactrim prophylaxis, Neupogen for neutropenia, and empiric Ceftazidime (later discontinued). Further workup included lumbar puncture and bone marrow biopsy.
+The patient is a 36-year-old male presenting with acute renal failure, hemolytic anemia, thrombocytopenia, and transaminitis in the setting of newly diagnosed HIV. He reported four days of sharp, non-radiating chest pain, chills, weakness, headache, and later developed fevers up to 104°F, mild respiratory distress, and back pain. His medical history is notable for newly diagnosed HIV (CD4 count 15, viral load 50,000), no known drug allergies, and no prior outpatient medications. The documented diagnoses include disseminated histoplasmosis (Histoplasma duboisii), HIV/AIDS with severe immunosuppression, idiopathic thrombocytopenic purpura likely related to HIV, and chronic renal insufficiency. Treatment included discontinuation of HAART and anti-tuberculous medications due to organ dysfunction, initiation of intravenous Ambazone for histoplasmosis, supportive transfusions (packed red blood cells, platelets, fresh frozen plasma), GCSF for leukopenia, and total parenteral nutrition. The patient was monitored for cardiac tamponade physiology and managed conservatively as he remained hemodynamically stable. Plans included continuation of Ambazone with possible transition to oral itraconazole upon discharge and delayed re-initiation of HAART until cytopenias improved.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent fever spikes, with temperatures reaching up to 101.3°F over the past few days. The fever was measured with a thermometer and occurred at certain times rather than being constant; no chills, sweating, cough, sore throat, or body aches were reported. The patient noted a healed lip ulcer but denied any changes in energy level or appetite, recent travel, sick contacts, or new medications or supplements. No other symptoms or physical findings were described. The doctor assessed this as a mild, self-limited process, possibly related to a minor viral infection or transient cause, given the absence of concerning symptoms and exposures. The doctor recommended monitoring for persistent fever beyond a week, higher temperatures, or new symptoms such as rash, trouble breathing, or significant fatigue. Supportive care was advised, including hydration, rest, and use of acetaminophen for discomfort. The patient understood the recommendations and agreed to monitor for changes.
+The patient is an adult presenting with fever spikes up to 101.3°F as the chief complaint. The fever has been intermittent over the past few days and is measured with a thermometer; there are no associated symptoms such as cough, sore throat, body aches, chills, or sweating. The patient reports normal energy and appetite and mentions a recently healed lip ulcer. There is no recent travel, sick contacts, or new medications. The clinical impression is that this is likely a mild, self-limited process, possibly a minor viral infection or a transient response. The physician advised supportive care, including staying hydrated, resting as needed, and using acetaminophen for discomfort. The patient was instructed to monitor for persistent fever beyond a week, higher fevers, or new symptoms such as rash, dyspnea, or significant fatigue, and to seek further evaluation if these occur. No new medications or diagnostic tests were initiated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.429
+- **Model Used**: general
+- **Text1 Length**: 167 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

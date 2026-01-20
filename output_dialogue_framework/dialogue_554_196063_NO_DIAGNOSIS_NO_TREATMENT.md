@@ -87,16 +87,23 @@ Let me know if you have any questions about what I've explained or about next st
 
 ## EHR Summary
 
-The patient is a 37-year-old man presenting with crushing substernal chest pain radiating to the left arm during exercise. Symptoms began after running a quarter mile and included chest pain and mild lightheadedness, without associated nausea, vomiting, diaphoresis, or dizziness. He has a history of mild hypercholesterolemia managed with exercise and reported a similar episode of chest tightness five days prior. On arrival, ECG showed ST segment elevations in lateral limb and anterior leads (AVL, V2–V5). Cardiac catheterization revealed total occlusion of the proximal left anterior descending artery. The documented diagnosis was acute myocardial infarction. Treatment included emergency percutaneous transluminal coronary angioplasty with stent placement, intra-aortic balloon pump due to elevated wedge pressure (26 mmHg), and administration of oxygen, intravenous nitroglycerin, beta blocker (Lopressor), Lipitor, and heparin drip. He was admitted to the Coronary Care Unit for further management.
+The patient is a 37-year-old man presenting with crushing substernal chest pain radiating to the left arm that began during exercise. Symptoms included chest pain and mild lightheadedness, without associated nausea, vomiting, diaphoresis, or dizziness; a similar but milder episode had occurred five days prior. His history is notable for mild hypercholesterolemia managed with exercise, and he was not on medication prior to admission. Electrocardiogram showed ST segment elevations in lateral leads, and cardiac catheterization revealed total occlusion of the proximal left anterior descending artery. The documented diagnosis was acute myocardial infarction, status post percutaneous transluminal coronary angioplasty with stent placement. Treatment included emergency angioplasty with stenting, intra-aortic balloon pump, and medications such as aspirin, Plavix, Integrilin, heparin, metoprolol, Lipitor, lisinopril, pravastatin, folate, Colace, and warfarin. The patient remained chest pain free after intervention and was discharged home in good condition with instructions for follow-up and INR monitoring.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The pain began five days ago, with episodes lasting 10–15 minutes, and today it is more intense, radiating to the left arm; the patient rated the pain as 7 out of 10 in severity. Associated symptoms include lightheadedness during episodes and a low-grade fever, but no sweating, shortness of breath, nausea, vomiting, cough, or sore throat were reported. The discomfort occurs at rest, is not affected by position or deep breaths, and is strongest in the center of the chest behind the breastbone. No relevant medical history, medications, or allergies were mentioned. The doctor noted that the chest pain’s characteristics—central location, radiation to the arm, moderate to severe intensity, and accompanying lightheadedness and fever—could indicate a heart-related problem or possible inflammation such as pericarditis, though further assessment is needed. The doctor recommended prompt in-person evaluation today, including an EKG and blood tests to rule out cardiac causes, and advised seeking emergency care if symptoms worsen or new severe symptoms develop. The patient acknowledged understanding and agreed to follow the recommendations.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain began five days ago, occurs at rest, lasts 10–15 minutes per episode, is rated 7 out of 10 in intensity, radiates to the left arm, and is accompanied by lightheadedness and a low-grade fever. The pain is central (behind the breastbone), not affected by position or breathing, and is not associated with exertion, shortness of breath, sweating, nausea, or vomiting. There is no recent cough, sore throat, or other signs of infection.
+
+Relevant medical history, medications, and allergies are not specified. The clinical impression included concern for possible cardiac causes (such as angina or other heart-related conditions) and consideration of pericarditis due to the presence of fever, but no definitive diagnosis was documented. The physician advised prompt in-person evaluation, including possible EKG and blood tests to rule out cardiac causes. The patient was instructed to seek emergency care if symptoms worsen or new severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.568
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

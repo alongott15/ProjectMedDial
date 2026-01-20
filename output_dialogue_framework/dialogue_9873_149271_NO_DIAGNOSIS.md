@@ -87,16 +87,23 @@ Do you have any questions about what to watch for or how to care for the area at
 
 ## EHR Summary
 
-The patient is a 43-year-old female presenting with recurrent inflammation and drainage of the right axilla. She reported a cystic lesion in the right axilla for seven days, with increasing pain and a cyst rupture three days prior to admission, followed by brownish, foul-smelling drainage. Associated symptoms included two episodes of nausea and vomiting one day before admission, but no fever, chills, sweats, diarrhea, constipation, or urinary symptoms. Her medical history includes HIV, hepatitis C, noninsulin dependent diabetes mellitus, gastritis, and hyperlipidemia; she has had previous lancing procedures for hidradenitis suppurativa in the right axilla and anogenital area. On examination, she was afebrile with slight tachycardia and otherwise stable vital signs. The clinical impression is recurrent hidradenitis suppurativa of the right axilla. Treatment included continuation of antiretroviral therapy, diabetes management with insulin, and symptomatic management with Tylenol. No known drug allergies were reported.
+The patient is a 43-year-old female presenting with recurrent inflammation and drainage of the right axilla, consistent with hidradenitis suppurativa. She reported a cystic lesion in the right axilla for seven days prior to admission, which burst three days before admission, resulting in increasing pain and foul-smelling, brownish drainage; she also experienced two episodes of nausea and vomiting one day prior to admission. Her relevant medical history includes HIV, hepatitis C, insulin-dependent diabetes mellitus, gastritis, and dyslipidemia, with prior surgical interventions for hidradenitis suppurativa. On examination, there was indurated skin with copious purulent drainage in the right axilla, though a full assessment was limited by pain. The documented diagnosis was recurrent hidradenitis suppurativa of the right axilla, status post multiple incision and drainage procedures with VAC (vacuum-assisted closure) placement. Treatment included multiple surgical debridements, ongoing intravenous and oral antibiotics (Levofloxacin, Flagyl, Vancomycin), pain management with Percocet, continued diabetes management, and wound care with VAC dressing. The patient was discharged in good condition to a rehabilitation facility for further wound care and follow-up with infectious disease and plastic surgery for possible reconstruction.
+
 
 ## Dialogue Summary
 
-The patient presented with pain and swelling in the right underarm. Symptoms included severe pain (rated 8/10 at worst), swelling that developed over a few days and worsened quickly, spontaneous drainage of brownish, foul-smelling fluid, redness and warmth localized to the area, tenderness, and a reduction in size after drainage; the patient also reported nausea and vomiting but denied fever or chills. Keeping the area clean and using Tylenol provided some relief, while movement and contact worsened discomfort. No new lumps or spreading of swelling were noted. The doctor assessed this as a recurring cyst that became inflamed and drained spontaneously, likely with localized infection, noting improvement since drainage and no signs of spreading. The doctor recommended continuing to keep the area clean, minimizing friction, and monitoring for worsening symptoms such as increased redness, swelling, fever, or feeling more unwell. If symptoms persist or worsen, in-person evaluation and possible antibiotics may be needed.
+The patient is an adult presenting with pain and swelling in the right underarm as the chief complaint. Symptoms began a few days prior, worsened quickly, and included severe pain (rated 8/10 at worst), redness, warmth, and spontaneous drainage of brownish, foul-smelling fluid from a cyst. The patient reported some nausea and vomiting but denied fever or chills; keeping the area clean and using Tylenol provided partial relief, while movement and contact exacerbated discomfort. The area became smaller and less painful after drainage but remained red and tender, with no new lumps or spreading of swelling.
+
+The documented clinical impression was a recurrent inflamed cyst with localized infection. The physician advised continued local hygiene, minimizing friction, and monitoring for worsening symptoms such as increased redness, swelling, fever, or systemic illness. The patient was instructed to seek further evaluation if symptoms do not improve or worsen, as additional treatment or antibiotics may be necessary. Tylenol was noted to help with pain, and the patient was encouraged to continue monitoring for any concerning changes.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.477
+- **Model Used**: general
+- **Text1 Length**: 181 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

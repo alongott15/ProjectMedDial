@@ -59,16 +59,21 @@
 
 ## EHR Summary
 
-The patient is an 81-year-old man presenting with acute chest pain. He experienced a sharp, band-like pain across his chest at rest during church, rated 6/10, radiating from right to left, similar to previous angina episodes but refractory to sublingual nitroglycerin; he also reported diaphoresis but denied nausea, vomiting, or dyspnea. His history includes coronary artery disease, prior CABG (LIMA to LAD, SVG to PDA and diag-1), PCI with stent placement, and hypertension. On arrival at the outside hospital, ECG showed ST elevations in the inferior leads and ST depressions in the precordial leads. Cardiac catheterization revealed 100% occlusion of the native RCA and SVG to PDA graft, with an OM-2 lesion that was successfully ballooned and stented. The documented diagnosis was acute coronary syndrome due to graft and native vessel occlusion. Treatment included aspirin, beta blocker, IV nitroglycerin, heparin, Aggrestat, and percutaneous coronary intervention with stenting of the OM-2 lesion. The patient was admitted to the CCU for further observation.
+The patient is an 81-year-old man presenting with acute chest pain at rest during church. The pain was described as sharp, band-like, radiating across the chest from right to left, rated 6/10, similar to prior angina but refractory to sublingual Nitroglycerin; he also experienced diaphoresis but denied nausea, vomiting, dyspnea, or palpitations. His past medical history includes coronary artery disease with prior CABG and PCI, hypertension, hyperlipidemia, and obesity; he takes sublingual Nitroglycerin, Imdur, Toprol XL, Lescol, Aspirin, and Nifedipine. On admission, ECG showed ST elevations in the inferior leads and ST depressions in precordial leads. Cardiac catheterization revealed a 100% occluded native RCA and SVG to PDA graft, with successful stenting of an OM-2 lesion. The documented diagnosis was acute coronary syndrome due to coronary artery disease. Treatment included aspirin, beta blocker, IV Nitroglycerin, heparin, Aggrestat, and percutaneous coronary intervention with stent placement. The patient was monitored in the CCU following the procedure.
+
 
 ## Dialogue Summary
 
-The patient presented with episodes of chest pain. The pain is described as a sharp, band-like pressure across the chest, moving from the right to the left side, and each episode lasts for a few minutes. The pain most often occurs while the patient is sitting or resting, though no clear pattern has been identified; the patient also experiences sweating during these episodes but denies nausea or lightheadedness. No relevant medical history, medications, or allergies were mentioned. No physical findings were documented in this conversation. The doctor did not provide a specific assessment or working diagnosis during the dialogue. No treatment plan or recommendations were given in the portion of the conversation provided.
+The patient presents with episodes of chest pain as the chief complaint. The pain is described as a sharp, band-like pressure across the chest, moving from the right to the left side, and each episode lasts for a few minutes. The episodes primarily occur while the patient is sitting or resting, without a clear pattern, and are associated with sweating but not with nausea or lightheadedness. There is no mention of alleviating factors, relevant medical history, medications, or allergies in the dialogue. No diagnosis or clinical impression was documented during this encounter. No specific treatment or recommendations were provided in the conversation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.476
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 102 words
+
 
 ## Processing Information
 

@@ -87,16 +87,23 @@ If you notice new symptoms like confusion, severe weakness, chest pain, or worse
 
 ## EHR Summary
 
-The patient is a 49-year-old male presenting with vomiting and melena. He reported lethargy, fatigue, and continued passage of melanotic stools over two days prior to admission. His medical history includes alcoholic cirrhosis, hepatitis C, gastritis, duodenitis, and multiple prior upper gastrointestinal bleeds. On examination in the Emergency Department, his vital signs were stable but his hematocrit had dropped to 23.4%. The clinical impression was recurrent upper gastrointestinal bleeding in the setting of chronic liver disease. The patient was admitted to the Medical Intensive Care Unit for esophagogastroduodenoscopy and observation. Treatment included transfusion of packed red blood cells at an outside hospital prior to transfer.
+The patient is a 49-year-old male presenting with melena, lethargy, and fatigue. He reported melanotic stools and a drop in hematocrit to 23.4, with physical exam notable for icteric sclerae, abdominal distension, lower extremity edema, slurred speech, and asterixis. His medical history includes alcoholic cirrhosis (hepatitis C-induced), portal hypertension, recurrent upper gastrointestinal bleeds, type 2 diabetes mellitus, and prior transjugular intrahepatic portosystemic shunt (TIPS) placement complicated by hepatic infarction. The documented diagnoses were gastrointestinal bleed, thrombocytopenia, alcoholic liver cirrhosis, portal hypertension, encephalopathy, anemia, and decreased patency of the original TIPS. During admission, he underwent TIPS revision with angioplasty and coiling of a spontaneous splenorenal shunt, followed by heparin therapy for shunt patency. He was treated with lactulose, spironolactone, pantoprazole, multivitamins, thiamine, folic acid, and ciprofloxacin for spontaneous bacterial peritonitis prophylaxis. The patient was discharged in good condition with instructions to follow up in the Liver Clinic within one to two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with vomiting and black, tarry stools (melena). Symptoms have persisted for a few days and include worsening fatigue, intermittent slurred speech, and difficulty maintaining normal daily activities; the patient denied abdominal or chest pain, lightheadedness, or blood in vomit. The patient described the stools as sticky and tar-like, with slurred speech beginning around the same time as other symptoms and occurring intermittently. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the absence of abdominal pain and chest discomfort but highlighted the concerning combination of melena, vomiting, fatigue, and slurred speech. The assessment was possible gastrointestinal bleeding with additional neurological symptoms (slurred speech) requiring urgent evaluation. The doctor recommended immediate medical attention at an emergency department or urgent care for further testing and monitoring, and advised the patient to seek help immediately if new symptoms such as confusion, severe weakness, chest pain, or worsening speech changes develop. The patient acknowledged understanding of the plan.
+The patient is an adult presenting with vomiting and black, tarry stools (melena) as the chief complaint. Symptoms have been ongoing for a few days and include fatigue that has worsened since onset, persistent melena, and intermittent slurred speech; there is no abdominal or chest pain, lightheadedness, or blood in the vomit. The patient reports significant interference with daily activities due to fatigue and weakness. Relevant history, medications, and allergies are not specified in the dialogue.
+
+The clinical impression is possible upper gastrointestinal bleeding, given the melena and associated symptoms, with additional concern for neurological involvement due to slurred speech. The physician emphasized that these findings are not consistent with routine stomach upset and may indicate a serious underlying condition. The treatment plan includes urgent evaluation at an emergency department or urgent care for further testing and stabilization. The patient was also advised to seek immediate help if new symptoms such as confusion, severe weakness, chest pain, or worsening speech occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.538
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

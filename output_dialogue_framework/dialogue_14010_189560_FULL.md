@@ -97,16 +97,23 @@ Does that plan sound reasonable to you? And is there anything else about your he
 
 ## EHR Summary
 
-The patient is a 50-year-old male presenting with decreased energy level and increased mid-chest discomfort. He has a longstanding history of esophagitis and years of chest discomfort, with recent worsening of symptoms. Relevant history includes hypertension, hypercholesterolemia, cigarette smoking, esophagitis, obesity, and a penicillin allergy. Cardiac catheterization revealed left main and three-vessel coronary artery disease. The documented diagnosis was severe coronary artery disease. He underwent a four-vessel coronary artery bypass graft with left radial artery harvest. Postoperatively, he required IV nitroglycerin for hypertension, was extubated promptly, transferred to the telemetry floor, and started on Lopressor with dose adjustment. The patient progressed well with cardiac rehabilitation and physical therapy, remained hemodynamically stable, and had chest tubes and pacing wires removed without complications.
+The patient is a 50-year-old male presenting with decreased energy level and increased mid-chest discomfort, with a longstanding history of esophagitis and years of chest discomfort. Recently, his symptoms worsened, prompting referral for cardiac catheterization, which revealed left main and three-vessel coronary artery disease. Past medical history includes hypertension, hypercholesterolemia, cigarette smoking, esophagitis, and obesity; he reports a penicillin allergy. The documented diagnosis was coronary artery disease, status post coronary artery bypass graft. He underwent a four-vessel coronary artery bypass graft with left radial artery harvest. Postoperatively, he was managed with IV nitroglycerin for hypertension, weaned from the ventilator, and progressed well with cardiac rehabilitation and physical therapy. At discharge, he was stable, ambulating without oxygen, and his incisions were clean and intact. Discharge medications included aspirin, Lasix, potassium chloride, Colace, Imdur, Prevacid, Lopressor, Percocet, and ibuprofen, with follow-up arranged with his surgical, primary care, and cardiology teams.
+
 
 ## Dialogue Summary
 
-The patient presented with ongoing chest discomfort described as uneasiness rather than pain. Symptoms included persistent chest discomfort, decreased energy lasting all day, mild swelling in the feet, and some difficulty keeping up with usual activities, though no shortness of breath, trouble sleeping, or need for extra pillows was reported. The symptoms have been present for at least a few weeks without significant change or specific triggers, and the patient can still perform most daily activities. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the symptoms are mild, persistent, and not worsening, with no signs of serious heart or lung conditions given the absence of chest pain, shortness of breath, or orthopnea. The doctor suggested that the symptoms could be related to decreased activity, dietary changes (such as increased salt intake), or mild circulation issues. The treatment plan included monitoring symptoms for any changes (such as worsening swelling, new chest pain, or sudden drop in energy), staying as active as comfortably possible, and reducing salt intake. The patient was advised to seek care if symptoms worsen or new concerning signs develop.
+The patient presents with ongoing chest discomfort (not pain) and decreased energy as the chief complaint. Symptoms have persisted for at least several weeks, are mild, steady throughout the day, and have not worsened; the patient also reports minimal swelling in the feet but denies dyspnea, orthopnea, or chest pain. The symptoms make physical activity more difficult but do not significantly interfere with daily life, and there are no identifiable triggers or patterns. Relevant history, medications, and allergies are not specified.
+
+The clinical impression is that the symptoms are mild and likely related to decreased activity, dietary changes (such as increased salt intake), or mild circulation issues, with serious cardiac or pulmonary conditions considered less likely. The treatment plan includes monitoring symptoms for any changes (such as worsening swelling, new chest pain, or significant shortness of breath), staying as active as comfortably possible, and reducing salt intake. The patient was advised to seek care if symptoms worsen or new concerning features develop. No additional interventions were recommended at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.442
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

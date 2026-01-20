@@ -87,16 +87,21 @@ In the meantime, try to avoid strenuous activity and keep track of your symptoms
 
 ## EHR Summary
 
-The patient is a 64-year-old male presenting with a chief complaint of intermittent chest pain for one month, described as heaviness associated with shortness of breath and diaphoresis. The chest pain was most prominent with exertion and did not radiate to the arm, neck, or jaw. Relevant history includes hypertension, diabetes, hypercholesterolemia, neck adenoma, prostate enlargement, hemorrhoids, and prior removal of a colonic polyp; medications include Toprol, Lipitor, Aspirin, Altace, Glyburide, and sublingual nitroglycerin, with allergies to penicillin (angioedema) and streptomycin. Cardiac catheterization revealed severe multi-vessel coronary artery disease with 99% stenosis in the mid-LAD and 100% in the distal LAD, among other significant lesions; ejection fraction was 46%. Laboratory results were within normal limits except for a mildly decreased hematocrit (33.8), and chest x-ray showed no acute findings. The documented diagnosis is severe coronary artery disease. The treatment plan included cardiac catheterization and ongoing management with anti-anginal and cardiac medications. Further recommendations or interventions are not specified in the note.
+The patient is a 64-year-old male presenting with a one-month history of intermittent chest pain, described as heaviness, most associated with shortness of breath and diaphoresis, without radiation to the arm, neck, or jaw. He reported ongoing episodes of exertional chest pain over the past couple of weeks, leading to admission after a positive stress test. Relevant history includes hypertension, diabetes, hypercholesterolemia, neck adenoma, prostate enlargement, hemorrhoids, and prior colonic polyp removal; medications on admission included Toprol, Lipitor, aspirin, Altace, glyburide, and sublingual nitroglycerin. Cardiac catheterization revealed severe multi-vessel coronary artery disease with significant stenoses in the LAD, circumflex, and RCA. The documented diagnoses were status post coronary artery bypass graft x4 (CABG), coronary artery disease, hypertension, hypercholesterolemia, non-insulin dependent diabetes mellitus, unstable angina, colonic adenoma, prostate enlargement, status post colonic polyp removal, and hemorrhoids. Treatment included CABG x4 with postoperative management involving metoprolol, Lasix, aspirin, Plavix, atorvastatin, glyburide, potassium chloride, Colace, Zantac, and Percocet as needed for pain. The patient was discharged home in good condition with follow-up arranged in 4-6 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain described as heaviness or pressure, which has been occurring intermittently for the past few days. The chest heaviness is moderate in severity, lasts up to half an hour, is sometimes triggered by physical activity such as climbing stairs, but can also occur at rest, and has not changed in intensity since onset. Associated symptoms include shortness of breath and increased sweating during episodes, with no nighttime symptoms or sleep disturbance; the patient also reported a low-grade temperature. Relevant history includes high blood pressure, diabetes, and high cholesterol; no other medical history, medications, or allergies were mentioned. On review, the doctor noted the combination of chest heaviness worsened by exertion, shortness of breath, sweating, and the patient’s cardiovascular risk factors. The assessment was concern for a possible heart-related cause such as angina due to reduced oxygen to the heart muscle during exertion. The doctor recommended the patient seek further evaluation today to rule out underlying heart issues, avoid strenuous activity, monitor for worsening or new symptoms (such as nausea, severe shortness of breath, or pain radiating to the arm or jaw), and seek emergency care if these occur. The patient understood and agreed with the plan.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is described as a moderate heaviness or pressure that began a few days ago, is intermittent, lasts up to half an hour, and is worse with physical activity but can also occur at rest. Associated symptoms include shortness of breath and increased sweating during episodes; the patient also reports a low-grade temperature. The patient has a relevant history of high blood pressure, diabetes, and high cholesterol. The clinical impression documented is possible angina due to concern for heart-related causes given the symptom pattern and risk factors. The treatment plan includes recommending prompt further evaluation today to rule out underlying heart issues, advising the patient to avoid strenuous activity, and instructing them to seek emergency care if symptoms worsen or new symptoms develop. The patient was also advised to monitor and keep track of their symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.675
+- **Model Used**: general
+- **Text1 Length**: 173 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

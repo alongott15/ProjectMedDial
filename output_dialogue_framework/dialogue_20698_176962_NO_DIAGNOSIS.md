@@ -99,16 +99,23 @@ Otherwise, staying socially active and focusing on what you enjoy is the best ap
 
 ## EHR Summary
 
-The patient is a 61-year-old woman presenting for elective left internal carotid artery stent placement due to significant carotid artery stenosis. She has a history of right internal carotid artery stenosis (75–80%), left internal carotid artery stenosis (65–70%), and a previously coiled anterior communicating artery aneurysm. On examination, she was in no acute distress, with a right carotid bruit and mild right lip asymmetry with smile; other findings were unremarkable. She underwent left carotid artery stenting without intraoperative complications and was monitored postoperatively in the ICU. There were no changes in mental status or evidence of groin hematoma, and her vital signs remained stable throughout hospitalization. The documented diagnosis was left internal carotid artery stenosis, status post stent placement. She was discharged home in stable condition with prescriptions for Plavix and aspirin, and instructed to follow up in two weeks.
+The patient is a 61-year-old woman presenting for left internal carotid artery stent placement due to significant carotid artery stenosis. She has a history of right internal carotid artery stenosis (75–80%), left internal carotid artery stenosis (65–70%), and a previously coiled anterior communicating artery aneurysm. On examination, she was in no acute distress, with a right carotid bruit and fine crackles at the lung bases that cleared with cough; neurologically, she had a symmetric face except for decreased right lip movement with smile. The documented diagnosis was left internal carotid artery stenosis. She underwent successful left carotid artery stenting without intraoperative complications and was monitored postoperatively in the ICU. Her recovery was stable, with no changes in mental status and no groin hematoma after sheath removal. At discharge, she was stable and prescribed Plavix and aspirin, with follow-up arranged in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with decreased movement of the right side of the lip when smiling, first noticed sometime after a stent procedure. The patient denied difficulty speaking, eating, numbness, tingling, recent dental work, facial injuries, infections, or new weakness or coordination changes elsewhere in the body. The symptom has remained stable over time, with no improvement or worsening, and is not affected by fatigue, stress, or specific facial movements; the patient can raise both eyebrows and close both eyes evenly. The patient reported mild embarrassment and self-consciousness in social situations but no impact on daily activities. Relevant history includes a prior stent procedure; no medications or allergies were mentioned. On examination, facial movement was normal except for limited right lip movement during smiling. The doctor assessed this as a mild, localized issue likely related to a minor nerve effect, possibly post-procedural and not indicative of a serious condition. The doctor recommended monitoring for new symptoms and suggested gentle facial exercises at home to keep muscles active, with reassurance that no specific treatment is needed unless new symptoms develop.
+The patient is an adult presenting with decreased movement of the right side of the lip when smiling, first noticed sometime after a stent procedure. The symptom is isolated to the right lip, with no associated numbness, tingling, difficulty speaking, eating, or weakness elsewhere; it has remained stable over time without improvement or worsening. The patient denies any recent dental work, facial injuries, or infections, and reports no other neurological symptoms. Relevant history includes a prior stent procedure; no other pertinent medical history, medications, or allergies are specified.
+
+On examination, movement of the rest of the face (eyebrows, eyelids) is normal, and there are no functional impairments in daily activities. The clinical impression is a mild, localized facial nerve effect, likely benign and possibly related to a minor nerve branch affected after the procedure. No specific medical treatment is recommended; reassurance is provided, and the patient is advised to monitor for any new or worsening symptoms such as spreading weakness, numbness, or speech/swallowing difficulties. Gentle facial exercises are suggested to help maintain muscle activity, and the patient is encouraged to remain socially active and seek further evaluation if new symptoms arise.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.932
-- **Similarity Label**: N/A
+- **STS Score**: 0.465
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 191 words
+
 
 ## Processing Information
 

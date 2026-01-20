@@ -87,16 +87,21 @@ In the meantime, try to rest and avoid any strenuous activity until you’ve bee
 
 ## EHR Summary
 
-The patient is a 75-year-old male presenting with chest pain. He experienced nausea, fatigue, epigastric discomfort, and substernal chest pain lasting 15–30 minutes, followed by a near syncopal episode and diaphoresis; symptoms began three hours after a large meal. His past medical history includes GERD, and he has no known drug allergies. On EMS arrival, he was found to be hypotensive (SBP in the 50s), bradycardic (HR 20–30) in complete heart block, and EKG showed ST elevations in II, III, AvF with anterolateral depressions; his heart rate improved and EKG normalized after ASA, atropine, and fluids. In the emergency department, he was hemodynamically stable and started on clopidogrel and heparin. Cardiac catheterization revealed a 60% lesion in the right coronary artery, which was treated with Cypher stent placement. The documented diagnosis was ST-elevation myocardial infarction (STEMI) with complete heart block. Treatment included dual antiplatelet therapy, heparin infusion, and percutaneous coronary intervention with stent placement.
+The patient is a 75-year-old male presenting with chest pain. He experienced substernal chest pain lasting 15–30 minutes, accompanied by nausea, fatigue, epigastric discomfort, diaphoresis, and a near syncopal episode with bradycardia and hypotension, three hours after a large meal. His past medical history includes GERD, and he has no known drug allergies. The documented diagnosis was a small ST-elevation myocardial infarction (STEMI) status post Cypher stent placement to the right coronary artery (RCA). Treatment included aspirin, clopidogrel, high-dose atorvastatin, isosorbide mononitrate, and metoprolol succinate, with instructions to continue dual antiplatelet therapy for at least one year. He was discharged home in stable condition, chest pain free, and was advised to follow up with his primary care physician and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain that began gradually over the past few days. Symptoms included intermittent nausea, increased fatigue impacting daily activities, chest and upper stomach pressure (not burning), episodes of sweating, and a near-fainting spell; the discomfort occurred even at rest without clear triggers and has been persistent, sometimes worsening. The patient denied vomiting but reported that nausea comes and goes, and also noted low blood pressure and heart rate at times. No specific past medical history, medications, or allergies were mentioned. The doctor noted the combination of gradual chest and upper stomach pressure, nausea, fatigue, sweating, and near-syncope as concerning for possible cardiac causes, though digestive issues were also considered. The assessment emphasized the need to rule out serious conditions such as reduced blood flow to the heart. The doctor recommended the patient seek medical attention the same day for further evaluation, including an ECG and blood tests, and advised calling emergency services if symptoms worsen (severe chest pain, trouble breathing, or loss of consciousness). The patient was also advised to rest and avoid strenuous activity until evaluated.
+The patient is an adult presenting with chest pain as the chief complaint. Symptoms began gradually over the past few days and include chest and upper abdominal pressure, intermittent nausea without vomiting, increased fatigue impacting daily activities, episodes of sweating, and a near-fainting spell. The discomfort occurs even at rest and has been persistent, with occasional worsening. The patient also reports noticing low blood pressure and heart rate at times. There is no documented relevant medical history, medications, or allergies in the dialogue. The clinical impression is concern for possible cardiac etiology, such as reduced blood flow to the heart, though digestive causes are also considered. The doctor recommends urgent medical evaluation today, including ECG and blood tests, and advises seeking emergency care if symptoms worsen (e.g., severe chest pain, dyspnea, or syncope). The patient is advised to rest and avoid strenuous activity until further evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.614
+- **Model Used**: general
+- **Text1 Length**: 120 words
+- **Text2 Length**: 146 words
+
 
 ## Processing Information
 

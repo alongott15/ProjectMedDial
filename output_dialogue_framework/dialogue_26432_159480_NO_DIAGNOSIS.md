@@ -87,16 +87,23 @@ Would you like me to help explain what might happen during your evaluation, or d
 
 ## EHR Summary
 
-The patient is a 68-year-old female presenting with chest pain and a history of anterolateral myocardial infarction in March 2112, previously treated with two stents to the left anterior descending artery. She experienced recurrent symptoms and had an ejection fraction of 49%. Her past medical history includes hypertension, hypercholesterolemia, hemolytic uremia, bleeding from Plavix, and lichen sclerosus. On admission, medications included aspirin, Atenolol, Avapro, Lipitor, and Zestril. Physical findings included three-vessel coronary artery disease with significant occlusions. The documented diagnosis was multivessel coronary artery disease requiring surgical intervention. She underwent elective coronary artery bypass grafting (CABG) times three without major intraoperative complications; postoperative recovery was notable for transient confusion and right calf pain, but studies ruled out deep venous thrombosis and showed only mild carotid stenosis. Treatment included CABG, supportive postoperative care, and continued medical management of her cardiovascular risk factors.
+The patient is a 68-year-old female presenting with chest pain and a history of anterolateral myocardial infarction in March 2112, previously treated with two stents to the left anterior descending artery. She experienced recurrent symptoms and was found to have three-vessel coronary artery disease with significant occlusions. Her past medical history includes hypertension, hypercholesterolemia, hemolytic uremia, bleeding from Plavix, and lichen sclerosus. The documented diagnosis was three-vessel coronary artery disease requiring surgical intervention. She underwent elective coronary artery bypass grafting times three without major intraoperative complications. Postoperative recovery was notable for transient confusion and right calf pain, but workup for deep venous thrombosis was negative and carotid doppler showed 40% left carotid stenosis. At discharge, she was afebrile, hemodynamically stable, ambulatory, and prescribed Lopressor, Lasix, Lipitor, KCL, and ciprofloxacin. She was advised to follow up with her cardiologist and primary care physician in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. Symptoms included intermittent chest pain for a few days, new-onset confusion and short-term memory difficulties (such as misplacing items and losing train of thought), and right calf pain without associated swelling, redness, or warmth. The patient denied fever, cough, or other signs of infection. No relevant medical history, medications, or allergies were mentioned. The doctor noted the combination of chest pain, cognitive changes, and right calf discomfort, and discussed possible concerns related to blood flow or circulation, including the possibility of a clot or blockage, while emphasizing that many causes are less serious. The doctor recommended prompt in-person evaluation, ideally the same day, to rule out urgent causes, and advised seeking emergency care if new symptoms such as sudden weakness, trouble speaking, severe headache, chest tightness, or leg swelling/discoloration develop. The patient expressed understanding and requested further information about the evaluation process.
+The patient presents with the chief complaint of chest pain. The chest pain began a few days ago and has been intermittent; it is accompanied by new-onset confusion and short-term memory difficulties, which started around the same time and have affected daily functioning (e.g., misplacing items, losing train of thought). The patient also reports right calf pain without associated swelling, redness, or warmth, and denies fever, cough, or other signs of infection. Relevant history regarding past medical conditions, medications, or allergies is not specified in the dialogue.
+
+The clinical impression discussed by the doctor includes possible issues with blood flow or circulation, such as a clot or blockage, but no definitive diagnosis is documented. The doctor emphasizes the importance of prompt in-person evaluation to rule out urgent causes for the combination of symptoms. The patient is advised to seek emergency care if new symptoms such as sudden weakness, trouble speaking, severe headache, chest tightness, or leg swelling/discoloration develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.545
+- **Model Used**: general
+- **Text1 Length**: 147 words
+- **Text2 Length**: 158 words
+
 
 ## Processing Information
 

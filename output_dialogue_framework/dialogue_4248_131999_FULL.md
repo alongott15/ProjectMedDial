@@ -87,16 +87,21 @@ Does that make sense? Is there anything else about your symptoms or history you'
 
 ## EHR Summary
 
-The patient is a 50-year-old male presenting with persistent fever as the chief complaint. He experienced two days of fever, chest pain at rest, shortness of breath, fatigue, and diaphoresis following a right coronary artery stent placement on 2107-7-20. Prior to the procedure, he reported low-grade fevers, cough, upper respiratory symptoms, dysuria, frequency, and increased fatigue. His past medical history includes coronary artery disease and recent stent placement. On admission, he was febrile (up to 102.7°F), hypoxic, hypotensive (systolic BP down to 70), and required increased oxygen supplementation to maintain saturation at 93%. Bronchoscopy was performed and acute myocardial infarction was ruled out. The documented diagnosis was persistent fevers of unknown etiology with acute pulmonary changes. Treatment included intravenous vancomycin, gentamicin, Ceptaz, and fluid resuscitation with 2.5 liters of normal saline.
+The patient is a 50-year-old male presenting with persistent fevers of unknown etiology and acute pulmonary changes following recent right coronary artery stent placement. He reported two days of fever, chest pain at rest, shortness of breath, fatigue, nausea, diaphoresis, and minimal relief with nitroglycerin paste, with fevers up to 102.7°F and hypoxia requiring increased oxygen supplementation. His past medical history includes coronary artery disease (status post myocardial infarction and recent stent), depression, prior alcohol and drug abuse (sober for twelve years), bronchitis, and hypercholesterolemia; he has no known drug allergies. On admission, he was hypoxic and hypotensive, with laboratory findings notable for mild anemia and normal white count. Imaging showed no pulmonary embolism but revealed mediastinal lymphadenopathy and extensive intra-alveolar thickening with opacities. The clinical impression was fever of unknown origin with acute pulmonary changes following cardiac intervention. Treatment included intravenous antibiotics (vancomycin, gentamicin, Ceptaz), supplemental oxygen, intravenous fluids for hypotension, and continuation of cardiac medications.
+
 
 ## Dialogue Summary
 
-The patient presented with fevers of unclear origin. They reported mild chills rather than high temperatures, and described shortness of breath that is worse with activity, making it harder to walk up stairs or carry groceries; resting alleviates the shortness of breath. The patient denied chest discomfort, cough, leg or ankle swelling, and recent weight changes, and noted that symptoms have been present for several days, coming and going most days. Relevant history includes a prior diagnosis of eosinophilia and mention of elevated white blood cell counts. On review, the doctor found no signs of chest pain, swelling, or severe symptoms, and noted that the symptoms are mild and intermittent. The assessment was that mild airway inflammation related to eosinophilia or immune response could be contributing to the breathing difficulties, with no evidence of heart or severe lung problems at this time. The doctor advised monitoring for worsening symptoms, staying hydrated, pacing activities, tracking temperature, and following up if symptoms persist beyond another week or worsen.
+The patient is an adult presenting with the chief complaint of recurrent fevers. They report several days of intermittent mild chills (without measured temperature) and exertional dyspnea, describing increased shortness of breath with activity such as walking up stairs or carrying groceries, which improves with rest. There is no associated chest discomfort, cough, peripheral edema, or weight change. The patient has a known history of eosinophilia, with prior blood tests indicating elevated eosinophil counts. The clinical impression discussed is that the symptoms may be related to mild airway inflammation or an immune response associated with eosinophilia, rather than cardiac or severe pulmonary pathology. No formal diagnosis was documented. The treatment plan includes monitoring symptoms, staying hydrated, pacing activities, tracking temperature, and seeking prompt medical attention if symptoms worsen or new symptoms develop. The patient was advised to follow up if symptoms persist beyond another week or deteriorate.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.553
+- **Model Used**: general
+- **Text1 Length**: 157 words
+- **Text2 Length**: 147 words
+
 
 ## Processing Information
 

@@ -98,3 +98,23 @@ Let me know if you have any questions or if anything changes—otherwise, rest a
 ## Processing Information
 
 - **Processing Time**: 475.7s
+
+## EHR Summary
+
+The patient is a 60-year-old female presenting with 24 hours of nausea, vomiting, chills, and diarrhea. Symptoms began after eating egg salad from a vending machine, with subsequent nonbloody vomiting, watery diarrhea, lower abdominal pain, increased thirst, polyuria, and subjective confusion; she denied chest pain or dyspnea. Her medical history includes insulin-dependent diabetes mellitus (with nephropathy, neuropathy, retinopathy, and autonomic dysfunction), coronary artery disease, chronic renal insufficiency, hypertension, and other comorbidities; she has no known drug allergies and takes multiple medications including insulin. On admission, laboratory studies revealed severe hyperglycemia (glucose 961), high anion gap metabolic acidosis (anion gap 39, bicarbonate 11), acute renal failure (creatinine 3.0), and leukocytosis. The documented diagnoses were diabetic ketoacidosis and gastroenteritis, likely secondary to food poisoning. Treatment included intravenous fluids, insulin drip, correction of electrolyte abnormalities, blood transfusion for anemia, and adjustment of antihypertensive therapy. She was transitioned back to her home insulin regimen and discharged in stable condition with follow-up arranged with primary care, endocrinology, and gynecology.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with acute onset nausea, vomiting (three to four episodes), and constant dull lower abdominal pain since yesterday. Additional symptoms include watery, non-bloody diarrhea, chills, increased thirst, and frequent urination without dysuria; the patient reports difficulty keeping fluids down, with nausea worsening after sipping water. The symptoms have remained about the same or slightly worsened since onset, and the patient feels weak. There is no mention of fever, sweats, or blood in stool or vomit. Relevant history, medications, and allergies are not specified.
+
+The documented clinical impression is likely viral gastroenteritis, based on the sudden onset of gastrointestinal symptoms and associated chills. The treatment plan focuses on preventing dehydration: the patient is advised to take very small sips of clear fluids or suck on ice chips, and to use oral rehydration solutions if possible. The doctor also provided education on warning signs that would warrant earlier medical attention, such as inability to keep fluids down for more than 12–24 hours, dizziness, blood in stool or vomit, or worsening abdominal pain. The patient also mentioned chest pain with movement at the end of the visit; further assessment of this symptom is not documented in the dialogue.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.632
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 200 words
+

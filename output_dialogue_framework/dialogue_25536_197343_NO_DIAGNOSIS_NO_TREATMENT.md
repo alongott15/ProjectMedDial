@@ -87,16 +87,21 @@ Let me know if you have any concerns or if you’d like to discuss ways to suppo
 
 ## EHR Summary
 
-The patient is a 70-year-old man presenting for evaluation of coronary artery disease (CAD) after a positive exercise tolerance test (ETT) revealed ischemia of the lateral and inferior walls with an ejection fraction (EF) of 35 percent. He denied chest pain or shortness of breath at the time of testing. His medical history is significant for hyperlipidemia, hypertension, and seizure disorder, with no known drug allergies; current medications include Dilantin, Lipitor, aspirin, vitamin E, atenolol, Altace, and a multivitamin. Cardiac catheterization demonstrated three-vessel disease with significant stenoses and an EF of 29 percent, as well as inferoapical hypokinesis. On physical exam, vital signs were stable with a heart rate of 60 bpm (sinus rhythm), blood pressure 165/81 mmHg, respiratory rate 12, and O2 saturation 99% on room air. The documented diagnosis is three-vessel coronary artery disease with reduced ejection fraction. The patient was referred for coronary artery bypass grafting (CABG) as the treatment plan.
+The patient is a 70-year-old man admitted for management of coronary artery disease (CAD) following a positive exercise tolerance test and cardiac catheterization revealing three-vessel disease. He denied chest pain or shortness of breath at the time of testing. His medical history includes hyperlipidemia, hypertension, and seizure disorder, with no known drug allergies; current medications include Dilantin, Lipitor (atorvastatin), aspirin, vitamin E, atenolol, Altace, and a multivitamin. The documented diagnosis was CAD status post coronary artery bypass grafting (CABG) x3, hypercholesterolemia, hypertension, and seizure disorder. He underwent CABG with LIMA to the diagonal, saphenous vein graft to the obtuse marginal, and saphenous vein graft to the distal LAD, and had an uneventful postoperative course except for mild, transient confusion that resolved without intervention. At discharge, he was hemodynamically stable with good wound healing and only minor short-term memory deficit. The treatment plan included continuation of aspirin, atorvastatin, Altace, atenolol, Dilantin, and Colace, with home health nursing and scheduled follow-up appointments. The patient was discharged home in good condition.
+
 
 ## Dialogue Summary
 
-The patient presented with mild short-term memory issues and occasional mild confusion. Symptoms have been present for at least a couple of weeks, primarily affecting the ability to remember recent events such as where items were placed or what tasks were next, without a specific time of day when symptoms worsen. The patient denied difficulty following conversations, getting lost in familiar places, managing daily activities, changes in mood or sleep, trouble with word-finding or speech, recent illnesses, medication changes, or new medical problems. No physical findings were described during the visit. The doctor assessed that the memory changes are mild and likely related to normal aging, stress, or distraction, and are not currently concerning for serious underlying conditions. The doctor advised monitoring for worsening symptoms or new difficulties in daily functioning and recommended staying mentally active, maintaining a routine, and using reminders or notes to support memory. The patient understood and agreed to follow these recommendations.
+The patient is an adult presenting with concerns about mild memory trouble and occasional mild confusion. Symptoms have been present for at least a couple of weeks, primarily affecting short-term memory such as recalling recent actions (e.g., where items were placed), without a specific time of day or clear triggers. The patient denies difficulties with following conversations, getting lost, managing daily activities, changes in mood or sleep, recent illnesses, medication changes, or new medical problems. There are no issues with language or speech noted. The clinical impression is mild short-term memory lapses, likely related to normal aging, stress, or distraction, without evidence of a serious underlying condition at this time. The treatment plan includes reassurance, monitoring for worsening symptoms, and recommendations to stay mentally active, maintain routines, and use reminders or notes. The patient was advised to seek further evaluation if confusion worsens or if there is difficulty managing daily tasks.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.924
-- **Similarity Label**: N/A
+- **STS Score**: 0.294
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

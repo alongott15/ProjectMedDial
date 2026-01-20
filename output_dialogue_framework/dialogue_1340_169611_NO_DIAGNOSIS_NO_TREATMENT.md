@@ -120,3 +120,23 @@ Does that help clarify things? Let me know if you have any other questions or co
 ## Processing Information
 
 - **Processing Time**: 319.5s
+
+## EHR Summary
+
+The patient is a 78-year-old woman presenting with a right groin hematoma and hypotension following a diagnostic cardiac catheterization. She reported a history of increasing chest discomfort lasting about 10 minutes weekly, occasional episodes at rest, and mild dyspnea on exertion; she also sleeps on two to three pillows, though the relationship to her dyspnea is unclear. Her relevant history includes coronary artery disease, prior PTCA, type 2 diabetes, COPD, hypertension, hypercholesterolemia, and a penicillin allergy. The documented diagnoses were coronary artery disease status post cardiac catheterization without intervention, complicated by right groin hematoma, as well as hypertension, hypercholesterolemia, diabetes, and COPD. Treatment included manual pressure and a fem-stat device for hemostasis, transfusion of one unit of packed red blood cells and one bag of platelets (due to suspected aspirin-induced platelet dysfunction), and observation in the CCU. Her home medications were continued without change. She was discharged in improved condition with instructions to follow up with her primary cardiologist in one to two weeks.
+
+
+## Dialogue Summary
+
+The patient is recovering after a recent procedure and presents with concerns about ongoing oozing at the groin site and spreading bruising (hematoma). Symptoms include mild oozing and bruising at the procedural site, with no severe pain, significant swelling, fever, chills, redness, or shortness of breath reported. The patient notes that the bruise appears to be spreading but has not observed signs of infection or other alarming symptoms. Relevant history of the specific procedure is implied but not detailed; no medication or allergy information is provided.
+
+The clinical impression is that these symptoms are mild and typical for early post-procedural recovery, with no evidence of immediate complications. The doctor advises monitoring for any new or worsening symptoms such as rapidly enlarging swelling, continuous or heavy bleeding, increasing pain, redness, warmth, or signs of infection. The treatment plan includes gentle activity, keeping the area clean and dry, applying gentle pressure if needed, staying hydrated, and using over-the-counter pain relief as appropriate. The patient is instructed to seek care if concerning symptoms develop or if current symptoms worsen or persist beyond a week.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.461
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 181 words
+

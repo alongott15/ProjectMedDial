@@ -87,16 +87,21 @@ Does that make sense, or is there anything else about your symptoms you’re con
 
 ## EHR Summary
 
-The patient is a 70-year-old female who experienced episodes of hypoxia, which led to deferral of her transfer to rehabilitation. She had episodes of low oxygen saturation, with blood gas showing a PCO2 in the 80s. A chest x-ray was negative for infiltrates or pulmonary process, and a CTA ruled out pulmonary embolism. The patient has a history of vascular issues, as indicated by her admission to the vascular service. On examination, her wounds were noted to be clean, dry, and intact. The documented clinical impression was hypoxia without evidence of pulmonary embolism or infection. She improved clinically with no further hypoxic episodes and was stable at the time of transfer. The treatment plan included follow-up with Dr. [Last Name] in three weeks and instructions to call for an appointment.
+The patient is a 70-year-old female who was admitted for vascular care. During her hospital stay, transfer to rehabilitation was deferred due to episodes of hypoxia. She experienced hypoxic episodes with blood gas showing PCO2 in the 80s, but chest x-ray and CTA were negative for infiltrates, pulmonic process, or pulmonary embolism. The patient clinically improved and had no further hypoxic episodes prior to transfer. Her wounds were noted to be clean, dry, and intact. At the time of transfer, she was stable. She was advised to follow up with Dr. [Name] in three weeks and to call for an appointment.
+
 
 ## Dialogue Summary
 
-The patient presented with right foot pain causing discomfort while walking. The pain began a few days ago, has remained unchanged, is described as tender and achy (especially along the top and inside of the foot’s arch), is rated 5 out of 10 in severity, worsens with walking, and improves with rest. The patient also reported some nausea but denied swelling, color changes, fever, chills, recent illness, or changes in activity or footwear; daily activities are still possible but slower due to discomfort. No relevant medical history, medications, or allergies were mentioned. On examination, there were no signs of swelling or color change. The doctor assessed the symptoms as likely due to overuse, minor strain, or irritation of the soft tissues in the foot, noting that the nausea is less typical but may be unrelated or secondary to the pain. The doctor recommended rest, supportive shoes, ice application for irritation, gentle stretching, and monitoring for changes. The patient was advised to seek care if pain worsens, swelling or redness develops, or if unable to bear weight.
+The patient presents with right foot pain as the chief complaint. The discomfort has been present for a few days, is described as tender and achy (rated 5/10), and is most noticeable along the top and inside of the foot’s arch; walking worsens the pain, while rest provides some relief. The patient also reports associated nausea but denies swelling, color changes, fever, chills, or recent illness. There is no history of recent injury, changes in activity, or footwear. The clinical impression is mild, persistent foot discomfort likely due to overuse, minor strain, or soft tissue irritation; the nausea is considered possibly unrelated or secondary to the pain. The treatment plan includes rest, supportive footwear, intermittent ice application, and gentle stretching. The patient was advised to monitor for worsening symptoms such as increased pain, swelling, redness, or inability to bear weight, and to seek care if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.926
-- **Similarity Label**: N/A
+- **STS Score**: 0.232
+- **Model Used**: general
+- **Text1 Length**: 101 words
+- **Text2 Length**: 147 words
+
 
 ## Processing Information
 

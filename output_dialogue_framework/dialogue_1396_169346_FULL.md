@@ -87,16 +87,23 @@ Let me ask—have you recently started any new medications or treatments that mi
 
 ## EHR Summary
 
-The patient is an 84-year-old male presenting with substernal chest pain radiating to the left shoulder. He denied palpitations or shortness of breath. His medical history includes hypertension, hypercholesterolemia, angina for six years, and glaucoma, and he was taking multiple cardiac and ocular medications on admission. Electrocardiogram showed diffuse ST depression in the precordial leads, and cardiac enzymes (CK, MB, troponin) were elevated; cardiac catheterization revealed significant left main and right coronary artery disease with an ejection fraction of 40%. The documented diagnosis was acute coronary syndrome due to severe multivessel coronary artery disease. He underwent coronary artery bypass grafting (CABG) times three with intra-aortic balloon pump support. Postoperatively, his course was complicated by respiratory failure requiring prolonged intubation and episodes of confusion, including self-removal of a Foley catheter. He was eventually extubated and transferred to the floor for further recovery.
+The patient is an 84-year-old male presenting with substernal chest pain radiating to the left shoulder. He denied palpitations or dyspnea at onset. His history includes hypertension, hypercholesterolemia, angina, and glaucoma, and he was taking multiple cardiac and ocular medications on admission. Workup revealed ECG changes, elevated cardiac enzymes, and significant coronary artery disease with reduced ejection fraction (40%). The documented diagnosis was acute coronary syndrome due to severe multivessel coronary artery disease. He underwent coronary artery bypass grafting (CABG) times three, with postoperative complications including respiratory failure requiring prolonged intubation, delirium with an unwitnessed fall, Clostridium difficile infection, and new-onset atrial fibrillation. Treatment included intra-aortic balloon pump support, CABG, Foley catheter management, Flagyl for C. difficile, and amiodarone for atrial fibrillation. At discharge, he was stable on medications including Flagyl, amiodarone, Lopressor, Lasix, potassium supplement, and Lipitor, with instructions for follow-up and planned Foley catheter removal at a rehabilitation center.
+
 
 ## Dialogue Summary
 
-The patient presented with fever up to 101°F and feeling generally unwell. Symptoms included a persistent fever for the past couple of days, constant left chest discomfort (slightly worse with deep breaths), and increased fatigue making daily activities more difficult; the patient denied cough, shortness of breath, chills, sweating, leg or ankle swelling, and urinary changes. Relevant history includes a known pleural effusion in the left chest and no recent changes in medications or treatments. On review, the patient reported no new physical findings such as swelling or respiratory distress. The doctor assessed that the persistent fever and chest discomfort, in the context of a pleural effusion, could be related to infection or inflammation around the lung, but absence of chills, sweating, or swelling was somewhat reassuring. The doctor advised monitoring for new symptoms such as increasing shortness of breath, higher fever, confusion, or worsening chest pain, which would warrant prompt medical attention. The patient was instructed to stay well hydrated, rest, and continue tracking temperature and symptoms daily.
+The patient is an adult presenting with a chief complaint of fever up to 101°F over the past couple of days. The fever developed gradually and has been persistent without significant spikes or drops, and is accompanied by increased fatigue and mild difficulty maintaining daily activities. The patient reports constant left-sided chest discomfort, which is slightly worse with deep inspiration, in the context of a known pleural effusion; there is no cough, dyspnea, chills, sweating, peripheral edema, or urinary changes. No new medications or treatments have been started recently.
+
+The clinical impression is that the fever and chest discomfort may be related to infection or inflammation associated with the pleural effusion, though no definitive diagnosis was documented. The physician advised monitoring for new or worsening symptoms such as increasing shortness of breath, higher fever, confusion, or severe chest pain. Supportive care recommendations included maintaining hydration, getting adequate rest, and tracking temperature and symptoms daily. No specific medications or interventions were initiated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.356
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

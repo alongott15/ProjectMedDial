@@ -83,16 +83,21 @@ I'd like to get a sense of when this all began—can you tell me how long you've
 
 ## EHR Summary
 
-The patient is a 19-year-old female admitted for neurosurgical care. Her discharge was delayed due to intermittent fever, but extensive cultures including lumbar puncture showed no evidence of infection. She remains neurologically unchanged, opening her eyes, nonattending, and flexing to pain in all extremities. Vital signs have been stable except for persistent tachycardia, which was attributed to possible autonomic dysfunction. Cardiology consultation noted tachycardia and an echocardiogram revealed a low ejection fraction. She is being treated with high doses of Lopressor for heart rate control, though with limited effect. The plan includes a repeat echocardiogram in two weeks and transfer to rehabilitation, as she is currently stable.
+The patient is a 19-year-old female admitted for neurosurgical care. Her discharge was delayed due to fever spikes, but extensive cultures including lumbar puncture showed no evidence of infection. She remains neurologically unchanged, opening her eyes, nonattending, and flexing to pain in all four extremities. Vital signs have been stable except for persistent tachycardia, which was attributed to possible autonomic dysfunction. Cardiology consultation was obtained for tachycardia, and echocardiogram revealed a low ejection fraction. She is being treated with large doses of Lopressor to control her heart rate, though with limited effect. The plan includes a repeat echocardiogram in two weeks to reassess cardiac function. At discharge, she was stable and ready for transfer to rehabilitation.
+
 
 ## Dialogue Summary
 
-The patient presented with random fever spikes causing discomfort. Symptoms included episodic fever accompanied by a racing heart, occurring once or twice daily over the past few days, with each episode lasting a couple of hours and sometimes lingering longer. The patient denied chills, sweating, lightheadedness, dizziness, stiffness, or weakness, but reported decreased ability to focus and a tendency to flex arms and legs in response to pain during episodes; alertness was maintained, though attention was reduced. No specific triggers were identified, and the episodes required the patient to stop normal activities temporarily. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that fever can commonly cause increased heart rate and reduced alertness, and that flexing limbs in response to pain is a normal reaction; physical movement remained intact. The doctor reassured the patient that these symptoms are not unusual with fever and gathered further details about onset and frequency to better understand the issue. No specific treatment or medication was recommended at this time.
+The patient is an adult presenting with episodes of fever as the chief complaint. The fever spikes are described as random, occurring once or twice daily for the past few days, and are accompanied by tachycardia (heart racing) that begins with the fever but not at other times. The patient denies chills, sweating, lightheadedness, dizziness, stiffness, or weakness, but reports decreased ability to focus and the need to stop normal activities during episodes; alertness is maintained, and limb movement is normal except for flexing in response to pain. No specific triggers have been identified. Relevant medical history, medications, and allergies are not specified. The clinical impression provided is that the symptoms are likely related to fever itself, which can cause tachycardia and decreased alertness. The doctor reassured the patient that these symptoms are common with fever and explained that flexing limbs in response to pain is a normal reaction; no specific treatment or further recommendations were documented in this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.938
-- **Similarity Label**: N/A
+- **STS Score**: 0.656
+- **Model Used**: general
+- **Text1 Length**: 116 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

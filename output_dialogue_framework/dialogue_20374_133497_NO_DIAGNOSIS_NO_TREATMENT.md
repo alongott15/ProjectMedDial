@@ -89,16 +89,21 @@ If you notice new pain, spreading redness, fever, or if your toes become cold or
 
 ## EHR Summary
 
-The patient is a 56-year-old male presenting for cardiac clearance prior to planned popliteal bypass surgery due to peripheral vascular disease with gangrenous left third toe. He denied chest pain, shortness of breath, nausea, vomiting, or diaphoresis. His medical history includes insulin-dependent diabetes mellitus with retinopathy, hypertension, multiple sclerosis with right-sided weakness, hypercholesterolemia, and cardiomyopathy. Cardiac workup revealed infiltrative cardiomyopathy on echocardiogram, a reversible anterior apical defect on Persantine MIBI, and left main coronary artery disease with three-vessel involvement but normal ejection fraction on cardiac catheterization. The documented diagnosis was three-vessel coronary artery disease and infiltrative cardiomyopathy. The patient was referred for coronary artery bypass grafting. No drug allergies were reported, and current medications include insulin and Avonex for multiple sclerosis.
+The patient is a 56-year-old male admitted for management of coronary artery disease and preoperative cardiac clearance prior to vascular surgery for peripheral vascular disease with left foot gangrene. He reported no chest pain, shortness of breath, or other cardiac symptoms, but did have pain in his left foot and occasional claudication. His medical history includes insulin-dependent diabetes mellitus with retinopathy, multiple sclerosis, hypertension, hypercholesterolemia, and peripheral vascular disease. Cardiac catheterization revealed three-vessel coronary artery disease with normal ejection fraction, and echocardiogram showed infiltrative cardiomyopathy. The documented diagnoses were coronary artery disease, hypertension, hypercholesterolemia, status post coronary artery bypass graft, and peripheral vascular disease with left foot gangrene. He underwent coronary artery bypass grafting (CABG x5) and was managed postoperatively with medications including Lopressor, Lasix, antibiotics (Flagyl and levofloxacin), potassium chloride, Colace, Percocet, and aspirin. The patient was discharged home in good condition with instructions for follow-up with vascular surgery, primary care, and cardiology.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about dark discoloration of the left toes, suspecting possible gangrene. Symptoms included progressive darkening over several days, worsening discoloration, and redness at the base of the toes, with no pain, numbness, tingling, blisters, open sores, or drainage reported. The patient noted increased difficulty walking and performing daily activities due to the toe changes, but denied recent injuries, new shoes, extra pressure, fever, chills, or feeling generally unwell. Relevant history included limited movement on the right side; no other medical history, medications, or allergies were mentioned. On examination, the doctor noted dark discoloration and redness at the base of the left toes without signs of severe infection. The assessment was possible compromised blood flow to the foot, raising concern for tissue damage and potential progression if untreated. The doctor recommended urgent in-person evaluation by a specialist today to assess circulation and determine if immediate treatment is needed, advised keeping the foot clean and protected from pressure or injury, and instructed the patient to seek immediate care if new pain, spreading redness, fever, or cold/numb toes develop. The patient agreed to arrange a clinic visit as advised.
+The patient is concerned about dark discoloration of the left toes, suspecting possible gangrene. The discoloration began a few days ago and has progressively worsened, with associated redness at the base of the toes but no pain, numbness, blisters, open sores, or drainage. The patient reports increased difficulty walking and performing daily activities due to the toe changes. There is no history of recent injury, new footwear, fever, chills, or systemic symptoms. Relevant history includes limited movement on the right side; other medical history is not specified. The clinical impression is possible compromised blood flow to the left foot, raising concern for tissue damage but without signs of severe infection at this time. The doctor advised urgent in-person evaluation by a specialist to assess circulation and determine if immediate treatment is needed. The patient was instructed to keep the foot clean, avoid pressure, and seek immediate care if symptoms worsen, and assistance with arranging a clinic visit was offered.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.943
-- **Similarity Label**: N/A
+- **STS Score**: 0.475
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 159 words
+
 
 ## Processing Information
 

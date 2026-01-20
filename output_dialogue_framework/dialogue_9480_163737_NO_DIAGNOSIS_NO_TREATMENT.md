@@ -98,3 +98,21 @@ Does that make sense? Are there any specific concerns or questions you have abou
 ## Processing Information
 
 - **Processing Time**: 323.9s
+
+## EHR Summary
+
+The patient is a 64-year-old male presenting with chest pain and unstable angina. He underwent cardiac catheterization, which revealed three-vessel coronary artery disease. The patient subsequently had a coronary artery bypass graft (CABG) times two on hospital day 7. Postoperatively, he was weaned from the ventilator, extubated, and gradually resumed mobility, including ambulation and stair climbing. His recovery was uncomplicated, with removal of chest tubes and Foley catheter, and he was evaluated by physical therapy for mobility. The documented diagnosis was three-vessel coronary artery disease with unstable angina. At discharge, he was prescribed atorvastatin, Protonix, Percocet as needed, enteric-coated aspirin, potassium supplement, Lopressor, Lasix, and Tylenol as needed. He was discharged home in stable condition with instructions to follow up with his primary care physician in 1–2 weeks and with his cardiologist in 4 weeks.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with chest pain as the chief complaint. The pain began a few days ago, occurs in brief episodes lasting a few minutes, and is rated 5–6 out of 10 in intensity. There are no associated symptoms such as dyspnea, diaphoresis, lightheadedness, pain radiation, or lingering discomfort after episodes. The pain does not appear to be triggered by activity, eating, or stress, and there is no recent history of illness, heartburn, or digestive issues. Relevant medical history, medications, and allergies are not specified. The clinical impression is that the chest pain is mild and not typical of a cardiac etiology; possible causes discussed include musculoskeletal pain or anxiety. The treatment plan includes monitoring symptoms, avoiding strenuous activity, and seeking prompt medical attention if symptoms worsen or new warning signs develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.423
+- **Model Used**: general
+- **Text1 Length**: 135 words
+- **Text2 Length**: 135 words
+

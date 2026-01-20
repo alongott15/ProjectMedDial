@@ -98,3 +98,21 @@ Before we wrap up, could you describe what the pain actually feels like? For exa
 ## Processing Information
 
 - **Processing Time**: 374.8s
+
+## EHR Summary
+
+The patient is an 83-year-old female presenting with persistent abdominal pain and intermittent fevers related to long-standing alcohol-induced pancreatitis. Her symptoms included ongoing abdominal discomfort and recurrent fever despite prior percutaneous drainage of a pancreatic pseudocyst and antibiotic therapy. Relevant history includes chronic pancreatitis, recent pseudocyst drainage, and use of total parenteral nutrition; she was also on antihypertensive medications. Imaging confirmed a recurrent pancreatic pseudocyst with infection, as cultures grew gram-positive cocci. The documented diagnosis was infected pancreatic pseudocyst secondary to chronic pancreatitis. Treatment involved repeat percutaneous drainage, intravenous vancomycin, levofloxacin, and clindamycin, followed by discontinuation of antibiotics after clinical improvement and resolution of fever. She was transitioned from a clear to a low-fat diet, continued on total parenteral nutrition, and resumed home blood pressure medications. At discharge, she was stable, afebrile, tolerating oral intake, and referred to rehabilitation with follow-up arranged.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with abdominal pain as the chief complaint. The pain is described as a dull ache, rated 6 out of 10 in severity, located in the middle of the abdomen, and has been present for a couple of days. Associated symptoms include a mild fever, but there are no changes in appetite, bowel movements, or presence of nausea. Rest provides some relief, while eating and movement do not significantly affect the discomfort. Relevant history regarding past medical conditions, medications, or allergies was not specified. The clinical impression was possible mild viral gastroenteritis or gastritis, given the symptom pattern and absence of alarming features. The treatment plan included supportive care with rest, hydration, and light meals, along with instructions to seek medical attention if severe pain, persistent vomiting, blood in stool, or higher fever develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.447
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 139 words
+

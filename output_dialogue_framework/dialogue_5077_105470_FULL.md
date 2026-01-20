@@ -87,16 +87,21 @@ Do you have any questions about what we've talked about or about what to watch f
 
 ## EHR Summary
 
-The patient is a 72-year-old female presenting with sudden onset upper abdominal pain and limited emesis at home. She reported associated symptoms of nausea, vomiting, fever or chills, sweats, and diarrhea, with pain exacerbated by food ingestion and no relieving factors. Her relevant medical history includes coronary artery disease with prior myocardial infarction and stent placement, congestive heart failure, Helicobacter pylori positive upper gastrointestinal bleed, cerebrovascular accident with right-sided hemiparesis, chronic obstructive pulmonary disease, a 30 pack-year smoking history, and possible chronic renal failure; she is allergic to Levaquin and penicillin (rash). She recently underwent a left carotid endarterectomy. On admission, her temperature was 98.1°F and she was afebrile without chills. The documented diagnosis was probable gallstone pancreatitis. Admitting medications included Lasix, Prevacid, lisinopril, Albuterol, Atrovent, Flovent, aspirin, Paxil, and Diltiazem.
+The patient is a 72-year-old female presenting with sudden onset upper abdominal pain and limited emesis at home, leading to hospital admission. She reported associated symptoms of nausea, vomiting, fever or chills, sweats, and diarrhea, with pain exacerbated by food ingestion and no relieving factors. Her relevant history includes coronary artery disease with prior myocardial infarction and stent placement, congestive heart failure, cerebrovascular accident with right-sided hemiparesis, chronic obstructive pulmonary disease, chronic renal failure, and recent left carotid endarterectomy; she is allergic to Levaquin and penicillin. On admission, laboratory findings showed leukocytosis (WBC 20.2), elevated amylase (571) and lipase (1,365), and mild renal dysfunction (creatinine 1.7). The documented diagnosis was presumed gallstone pancreatitis, status post right carotid endarterectomy. She was treated with IV hydration, antibiotics (Flagyl and ceftriaxone), and underwent an uneventful laparoscopic cholecystectomy. Her postoperative course was stable, antibiotics were discontinued prior to discharge, and her diet was advanced as tolerated. She was discharged home in stable condition with nursing care and follow-up arranged with her surgical and vascular teams.
+
 
 ## Dialogue Summary
 
-The patient presented with sudden onset pain in the upper right abdomen. Symptoms included sharp pain rated 6/10, mild vomiting (a couple of episodes), fever, chills, increased sweating, and diarrhea; pain was worsened by pressing on the right upper abdomen but not by eating, and the discomfort was constant since onset. The patient reported a history of stomach issues, specifically a previous bleed from Helicobacter pylori, but denied prior liver or gallbladder problems. No yellowing of the skin or eyes, and no changes in urine or bowel movements were noted. On assessment, the doctor considered possible infection or inflammation of abdominal organs such as the gallbladder or stomach lining, noting that the ability to keep fluids down and absence of jaundice were reassuring. The doctor advised rest, maintaining hydration, and avoiding heavy or fatty foods. The patient was instructed to monitor for worsening pain, persistent vomiting, confusion, or new jaundice, and to seek prompt medical care if these occurred or if symptoms did not improve within a couple of days.
+The patient is an adult presenting with sudden onset right upper abdominal pain as the chief complaint. The pain is described as sharp, rated 6 out of 10, worsened by palpation, and has been constant since onset earlier today. Associated symptoms include mild vomiting (a couple of episodes, able to tolerate fluids), fever, chills, increased sweating, and recent diarrhea; there is no jaundice or change in urine or stool color. Relevant history includes a prior stomach bleed due to Helicobacter pylori, with no known liver or gallbladder disease. The clinical impression is possible infection or inflammation involving the gallbladder or gastric lining, with certain liver problems considered less likely due to the absence of jaundice. The patient was advised to rest, maintain hydration, and avoid heavy or fatty foods. Warning signs such as worsening pain, persistent vomiting, confusion, or new jaundice were discussed as reasons to seek prompt medical attention. If symptoms do not improve within 1–2 days or worsen, in-person evaluation was recommended to rule out conditions such as gallbladder infection.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.526
+- **Model Used**: general
+- **Text1 Length**: 171 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

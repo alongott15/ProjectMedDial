@@ -87,16 +87,21 @@ Let me know if you have any questions about what we've discussed or if you'd lik
 
 ## EHR Summary
 
-The patient is a 36-year-old male presenting with fevers and cough. He experienced fevers up to 101°F and a productive cough, with unclear sputum color, and was found to be febrile in the emergency department with a white blood cell count of 18.8. His relevant history includes cerebral palsy, epilepsy, recurrent aspiration, and aphasia; he has no known drug allergies. Physical exam revealed decreased breath sounds at the right lung base with crackles in the mid-right lung and bibasilar regions. Chest X-ray showed persistent right lung opacification with pleural effusion and cavitation, and CT chest confirmed necrotizing pneumonia in the right middle and lower lobes with a lung abscess. The documented diagnosis was aspiration pneumonia complicated by a right lower lobe lung abscess. Treatment included intravenous levofloxacin and clindamycin.
+The patient is a 36-year-old male presenting with fevers and productive cough. He experienced fevers up to 101°F and a productive cough, with a history of recurrent aspiration and prior right lower lobe pneumonia treated one month earlier. His medical history includes cerebral palsy, epilepsy, and recurrent aspiration, with no known drug allergies. Imaging revealed persistent right lower lobe pneumonia with cavitation and effusion, and a CT scan confirmed necrotizing pneumonia and a lung abscess. The documented diagnoses were lung abscess, epilepsy, and aspiration. Treatment included a 4-week course of levofloxacin and clindamycin (with clindamycin to continue as needed), adjustment of phenytoin dosing for epilepsy, ground diet with thickened liquids for dysphagia, and Remeron for depression. A PICC line was placed for IV antibiotics due to difficulty with oral intake, and the patient was discharged in stable condition to an extended care facility. Follow-up with primary care and neurology was recommended, with instructions to seek care if shortness of breath or persistent fevers occur.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent fevers and a cough that has lasted at least several days. The cough is productive with mucus, which has not changed in color or thickness, and occurs consistently throughout the day; the patient also reports fatigue and difficulty swallowing that sometimes leads to aspiration, especially after meals. The patient experiences increased coughing after eating or drinking, occasional sensation of food or liquids going down the wrong way, and finds it difficult to fully clear mucus from the throat. These swallowing difficulties have made eating and drinking harder, resulting in noticeable weight loss over the past few weeks and challenges with hydration. No shortness of breath, chest discomfort, or major choking episodes were reported; the patient also mentioned occasional heart racing and feeling down. On assessment, the doctor noted that recurrent aspiration and persistent productive cough may be contributing to fatigue and weight loss, and that repeated aspiration could lead to airway irritation, inflammation, or infection explaining the fever and mucus production. The doctor recommended strategies to make swallowing safer, such as taking smaller bites, sitting upright during meals, and sipping liquids slowly, and advised seeking further evaluation if symptoms worsen or new symptoms develop; referral to a speech therapist or swallowing specialist was suggested if difficulties persist.
+The patient presents with persistent fever and productive cough as the chief complaint. Symptoms have been ongoing for at least several days and include coughing up mucus, fatigue, and difficulty swallowing that leads to occasional aspiration, particularly after meals; the patient reports that these issues have made eating and drinking more difficult, resulting in noticeable weight loss over the past few weeks. The patient denies shortness of breath or chest discomfort but notes that mucus can be difficult to clear and that hydration is challenging. Relevant history includes recurrent aspiration associated with swallowing difficulties, though no specific past medical history, medications, or allergies are documented. The clinical impression is that the persistent cough, fever, and fatigue are likely related to recurrent aspiration causing airway irritation and possible infection. The treatment plan includes recommendations for safer swallowing strategies such as taking smaller bites, sitting upright during meals, and sipping liquids slowly, with advice to seek further evaluation if symptoms worsen or new symptoms develop. Referral to a speech therapist or swallowing specialist was suggested if difficulties persist. The patient also mentioned experiencing occasional heart racing and feeling down due to these ongoing issues.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.614
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 192 words
+
 
 ## Processing Information
 

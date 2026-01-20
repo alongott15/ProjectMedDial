@@ -87,16 +87,21 @@ Would you like more information about what might cause this, or do you have any 
 
 ## EHR Summary
 
-The patient is a 40-year-old female presenting with recurrent aspiration pneumonia and hypotension. She was found unresponsive with agonal respirations and hypoxia (oxygen saturation in the 80s) after eating popcorn, which led to airway obstruction by corn kernels. Her past medical history includes C3-C4 quadriplegia, recurrent aspiration pneumonias (including MRSA-positive sputum), chronic pain, anxiety/depression, adrenal insufficiency, and decubitus ulcers colonized by Pseudomonas. On examination, she required intubation and rigid bronchoscopy, during which popcorn fragments were removed from the left lower lobe and copious white secretions were noted bilaterally in the lungs. The documented diagnosis was recurrent aspiration pneumonia secondary to foreign body aspiration. Treatment included intubation, bronchoscopy for foreign body removal, and supportive care. She was recently treated with a fourteen-day course of Vancomycin for a previous episode of aspiration pneumonia.
+The patient is a 40-year-old female presenting with recurrent aspiration pneumonia and hypotension. She was found unresponsive with agonal respirations and hypoxia (oxygen saturation in the 80s) after eating popcorn, requiring suctioning and removal of corn kernels from her airway. She subsequently underwent intubation and rigid bronchoscopy, during which popcorn fragments and copious secretions were removed from the lungs. Her past medical history includes C3-C4 quadriplegia, chronic pain, anxiety/depression, adrenal insufficiency, recurrent aspiration pneumonias (including MRSA), and decubitus ulcers colonized by Pseudomonas. She has documented allergies to penicillin and sulfa drugs. The clinical impression was recurrent aspiration pneumonia with airway obstruction due to foreign body (popcorn). Treatment included intubation, bronchoscopy for foreign body removal, and supportive care; she had recently completed a 14-day course of vancomycin for prior pneumonia. Recommendations likely included ongoing respiratory support, infection monitoring, and management of underlying conditions.
+
 
 ## Dialogue Summary
 
-The patient presented with generalized deep aching pain and discomfort. Symptoms included a persistent, non-sharp ache affecting the whole body for several days, feeling unusually cold, a measured low temperature of 91°F, and changes in mental status such as decreased alertness and altered thinking. The patient denied shivering, pallor, or cyanosis of lips and fingers, and reported difficulty performing daily activities, including work and social interactions. No recent illnesses, injuries, new medications, or allergies were mentioned. The doctor noted the combination of hypothermia (temperature 91°F) and mental status changes as significant clinical findings. The assessment was significant hypothermia with altered mental status, requiring prompt medical evaluation. The doctor advised immediate medical attention at an urgent care or emergency department, recommended keeping warm with blankets and warm drinks in the meantime, and emphasized seeking help if confusion or decreased responsiveness worsened.
+The patient is an adult presenting with generalized deep aching pain and discomfort as the chief complaint. Symptoms have been present for a few days and include a persistent, deep ache, feeling unusually cold, a documented low body temperature of 91°F, and changes in mental status such as decreased alertness and impaired thinking. The patient denies shivering, pallor, cyanosis, recent illnesses, injuries, or new medications. These symptoms have significantly impacted daily functioning, including work, home responsibilities, and social interactions. The clinical impression documented by the physician is significant hypothermia with associated mental status changes. The physician advised urgent medical evaluation at an emergency department or urgent care due to the seriousness of the hypothermia and mental changes. Supportive measures recommended include keeping warm with blankets and warm (not hot) drinks while seeking prompt medical attention. The patient was also instructed to seek immediate help if confusion or decreased responsiveness worsens.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.924
-- **Similarity Label**: N/A
+- **STS Score**: 0.285
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 150 words
+
 
 ## Processing Information
 

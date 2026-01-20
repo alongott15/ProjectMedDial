@@ -104,16 +104,23 @@ Let me know if you have any questions or need help with next steps—I'm here to
 
 ## EHR Summary
 
-The patient is a 78-year-old female presenting with angina and dyspnea on exertion. She reports recent onset of chest pain associated with shortness of breath during activity. Her medical history is significant for coronary artery disease with prior coronary artery bypass grafting (CABG) in 2165, peripheral vascular disease with multiple interventions, aortic stenosis, chronic anemia, gastrointestinal bleeding, hemolytic anemia, homocystinemia, and carotid stenosis. Physical examination revealed a loud blowing systolic murmur, clear lungs, and no edema. During this admission, she underwent endoscopic cauterization of angiotasia in the lesser curvature of the stomach for gastrointestinal bleeding. The documented diagnosis includes angina and dyspnea on exertion in the context of significant cardiovascular disease. Treatment included the surgical procedure for GI bleeding and ongoing cardiothoracic evaluation.
+The patient is a 78-year-old female presenting with angina and dyspnea on exertion. She reported recent chest pain associated with shortness of breath during activity. Her medical history includes coronary artery disease with prior coronary artery bypass grafting, peripheral vascular disease, aortic stenosis, chronic anemia, gastrointestinal bleeding, and multiple vascular interventions; she has allergies to atorvastatin, clarithromycin, Biaxin, gemfibrozil, and influenza vaccine. During this admission, she was scheduled for aortic valve replacement and repeat coronary artery bypass grafting, but the procedure was cancelled due to an upper gastrointestinal bleed discovered after anesthesia induction. Gastroenterology identified and endoscopically cauterized an angiotasia in the lesser curvature of the stomach. The documented diagnoses were status post endoscopic cauterization of gastric angiotasia and preoperative evaluation for redo sternotomy with AVR/CABG. She was discharged in good condition with instructions for weekly hematocrit checks for two weeks, discontinuation of Plavix and digoxin, and plans to proceed with cardiac surgery if hematocrit remains stable. Discharge medications included amlodipine, aspirin, isosorbide mononitrate, pantoprazole, ferrous sulfate, simvastatin, metoprolol, and insulin.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain and associated anxiety. Symptoms included a pressure-like chest pain that has persisted for several days, is localized, and worsens with exertion, along with gradually increasing shortness of breath during activity that now affects daily tasks such as dressing and meal preparation. The patient denied sweating, lightheadedness, or nausea, and reported that symptoms have remained stable over the past few days. No relevant medical history, medications, or allergies were mentioned. The doctor noted the exertional nature and steady course of the chest pressure and shortness of breath, and discussed possible cardiac or pulmonary causes such as angina. The doctor recommended the patient arrange to be seen in person soon, ideally within the next day or two, and advised rest and avoidance of strenuous activities. Specific instructions were given to seek emergency care if symptoms worsen or new concerning signs develop, and to monitor and record symptom patterns at home until evaluation.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain has been present for several days, described as a pressure sensation that remains localized and is triggered by exertion; it is accompanied by exertional dyspnea that gradually worsens with activity and limits daily tasks such as dressing and meal preparation. The patient denies associated symptoms such as sweating, lightheadedness, or nausea, and reports that the symptoms have remained stable over the past few days. No relevant past medical history, medications, or allergies were specified.
+
+The clinical impression discussed includes possible cardiac (such as angina) or pulmonary causes for the exertional chest pressure and shortness of breath. The physician recommended prompt in-person evaluation within the next day or two to rule out serious conditions. The patient was advised to rest, avoid strenuous activities, and monitor for worsening symptoms such as chest pain at rest, fainting, severe weakness, confusion, new swelling, or persistent/intense pain. Instructions were given to seek emergency care if any of these warning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.542
+- **Model Used**: general
+- **Text1 Length**: 171 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

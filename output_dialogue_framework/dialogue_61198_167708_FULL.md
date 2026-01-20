@@ -87,16 +87,21 @@ Let me know if you notice anything that seems to trigger the change, or if you h
 
 ## EHR Summary
 
-The patient is a 60-year-old male presenting with a chief complaint of black stool (melena) for one day. He reported a single episode of black, tarry stool without associated abdominal pain, reflux, nausea, vomiting, diarrhea, shortness of breath, chest pain, or lightheadedness. His history is significant for NSTEMI status post stent placement and long-term use of aspirin and clopidogrel; he also reported recent increased alcohol intake and use of Advil. On examination, he was stable and in no acute distress, with normal vital signs and an unremarkable abdominal exam. In the emergency department, he received IV protonix and underwent NG lavage, which was negative for active bleeding. No further episodes of melena occurred during hospitalization. The documented clinical impression was melena, likely related to gastrointestinal bleeding. The treatment plan included IV protonix and observation, with endoscopy performed during admission.
+The patient is a 60-year-old male presenting with one day of black, tarry stool (melena). He reported no abdominal pain, nausea, vomiting, diarrhea, shortness of breath, chest pain, or lightheadedness, but did note mild fatigue and recent increased alcohol intake. His medical history includes non-ST elevation myocardial infarction (NSTEMI) with prior stent placement, and he has been taking aspirin and clopidogrel for over five years without previous issues; he has no known drug allergies. On admission, he was hemodynamically stable and initial labs showed a drop in hematocrit overnight, but no further episodes of melena occurred. Endoscopy revealed a 1 cm cratered but clean-based gastric ulcer in the antrum without active bleeding. The documented diagnosis was gastric ulcer/upper GI bleed. Treatment included IV pantoprazole followed by discharge on oral omeprazole 40 mg twice daily, continuation of home cardiac medications, and instructions to follow up with his primary care provider and return if symptoms worsened.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about a single episode of black, tarry stool noticed yesterday. They reported mild fatigue and lower energy levels but denied lightheadedness, weakness, stomach pain, changes in appetite or sleep, blood when wiping, unusual bruising, or difficulty maintaining daily activities. The stool was described as formed and normal in shape, with no recent changes in medications or supplements and no use of iron pills. No relevant medical history, medication changes, or allergies were mentioned. On assessment, the doctor noted that a single episode of black stool with mild fatigue and no other symptoms could suggest possible upper gastrointestinal bleeding, such as from gastritis or a small ulcer, but also considered that food or supplements could be a cause (though these were not present). The doctor advised close monitoring for new symptoms such as weakness, dizziness, shortness of breath, or recurrent dark stool, and recommended seeking medical attention promptly if these occur. For now, the patient was instructed to observe for further episodes or worsening fatigue and to reach out if symptoms change.
+The patient is an adult presenting with a chief complaint of a single episode of black, tarry stool (melena) noticed yesterday. Associated symptoms include mild fatigue and decreased energy, but no lightheadedness, weakness, abdominal pain, appetite or sleep changes, or new medications or supplements. The patient denies blood on wiping, unusual bruising, or difficulty maintaining daily activities aside from feeling more tired. The stool was described as formed and normal in consistency, with only the color being abnormal. Relevant history of medication or supplement changes was denied. The clinical impression was possible upper gastrointestinal bleeding, with consideration of causes such as gastritis or ulcer, though no definitive diagnosis was documented. The treatment plan included close monitoring for recurrent melena, worsening fatigue, or new symptoms such as dizziness or shortness of breath, with instructions to seek prompt medical attention if these occur. The patient was advised to report any further episodes or concerning changes.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.733
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

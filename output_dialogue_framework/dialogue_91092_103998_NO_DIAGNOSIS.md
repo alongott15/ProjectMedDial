@@ -91,16 +91,23 @@ Would you like to talk about what support or resources might help you get throug
 
 ## EHR Summary
 
-The patient is a 45-year-old male presenting with alcohol and opioid withdrawal. He reported full body pain, visual hallucinations, agitation, goosebumps, diarrhea, and abdominal pain, but denied chest pain, shortness of breath, nausea, or vomiting. His past medical history includes alcoholism, intravenous drug use, GERD, hiatal hernia, and hemorrhoids; he has no known drug allergies. On admission, he was tachycardic (P 116), hypertensive (BP 161/102), and agitated with visual hallucinations; physical exam later showed somnolence after diazepam administration and clear lungs. The documented diagnosis was alcohol and opioid withdrawal. Treatment included administration of diazepam (valium) both orally and intravenously, methadone, and intravenous normal saline.
+The patient is a 45-year-old male presenting with alcohol and opioid withdrawal. He experienced agitation, visual hallucinations, tachycardia (heart rate up to 120s), hypertension (systolic up to 200), mild fever (99.2°F), full body pain, diarrhea, abdominal pain, and goosebumps; he denied chest pain, shortness of breath, nausea, or vomiting. His past medical history includes GERD, hiatal hernia, hemorrhoids, intravenous drug use, and alcoholism, with no known drug allergies. The documented diagnoses were alcohol withdrawal (including delirium tremens and alcoholic hallucinosis), opioid withdrawal, and likely obstructive sleep apnea. Treatment included diazepam per CIWA protocol (total 230 mg in the first 24 hours), methadone taper for opioid withdrawal, clonidine for withdrawal symptoms, supportive medications (thiamine, folate, multivitamin, ibuprofen, hydroxyzine, dicyclomine, loperamide, methocarbamol), nicotine patch for tobacco cessation, and continuation of pantoprazole for GERD. The patient was stabilized and discharged to an extended care facility to continue detox treatment. He was instructed to follow up with his primary care provider after completing detox.
+
 
 ## Dialogue Summary
 
-The patient presented with discomfort due to alcohol and opioid withdrawal. Symptoms discussed included agitation, visual hallucinations, full body pain, abdominal pain, low back pain, fast and pounding heartbeat, elevated blood pressure, goosebumps, sleep disruption, diarrhea, and mild fever; these symptoms had been building up over several days and were making daily activities much harder. The patient denied headaches, blurred vision, or feeling unsteady, and had not checked blood pressure at home. No specific past medical history, medications, or allergies were mentioned. The doctor noted the presence of significant withdrawal symptoms affecting daily function, including persistent agitation, hallucinations, tachycardia, and elevated blood pressure. The assessment was that the patient is experiencing serious withdrawal symptoms with risk for complications, especially given the hallucinations and vital sign changes. The doctor recommended seeking medical care in a supervised setting for close monitoring and management of withdrawal symptoms, advised staying hydrated and not being alone, and provided warning signs for when to seek immediate medical attention. The doctor also offered to discuss support or resources for safe withdrawal management.
+The patient is an adult presenting with significant discomfort due to alcohol and opioid withdrawal. Key symptoms include agitation, visual hallucinations, full body and abdominal pain, persistent low back pain, tachycardia (fast heart rate with pounding), elevated blood pressure, goosebumps, sleep disruption, diarrhea, and a mild fever. These symptoms have been present for several days and have progressively worsened, significantly impacting daily functioning. The patient denies headaches, blurred vision, or unsteadiness.
+
+Relevant history includes recent cessation of both alcohol and opioid use; no other medical history, medications, or allergies are specified. The clinical impression is acute withdrawal from alcohol and opioids with concerning features such as hallucinations and autonomic instability (tachycardia, hypertension). The doctor advised that withdrawal in this context can be dangerous and recommended seeking medical care in a supervised setting for close monitoring and symptom management. Additional advice included staying hydrated, not being alone, and seeking immediate medical attention if severe symptoms such as confusion, chest pain, or worsening condition occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.980
-- **Similarity Label**: N/A
+- **STS Score**: 0.793
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

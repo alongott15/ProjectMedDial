@@ -87,16 +87,21 @@ Let me know if you have questions about managing this at home, or if you’d lik
 
 ## EHR Summary
 
-The patient is a 29-year-old male admitted for management of pancreatitis. During his hospital stay, he experienced sinus pain secondary to feeding tube placement, which resolved without fever or worsening pain. He has a history of poor mobility requiring a Foley catheter and subcutaneous heparin for prophylaxis, both of which are planned to be discontinued as mobility improves. On examination at discharge, he had stable vital signs and was noted to be increasing in strength and mobility per physical therapy. The documented diagnosis is pancreatitis. Discharge medications include heparin, Topamax, fentanyl patch, Haldol, Valium, Motrin, Tylenol, Dulcolax as needed, and tube feeds (Peptamen at 70 cc/hour). The treatment plan includes tapering off Haldol and Valium over the next one to two weeks and discontinuing the Foley catheter and heparin as mobility improves. Follow-up with gastroenterology was recommended regarding pancreatitis.
+The patient is a 29-year-old male admitted for management of pancreatitis. During his hospital stay, he experienced sinus pain related to feeding tube placement, which resolved without fever or worsening pain. He had poor mobility requiring a Foley catheter and subcutaneous heparin for prophylaxis, but both are expected to be discontinued as his mobility improves. His strength and mobility have been increasing with physical therapy, and he is tolerating tube feeds at 70 cc/hour. The documented diagnosis is pancreatitis. Discharge medications include heparin, Topamax, fentanyl patch, Haldol, Valium, Motrin, Tylenol, Dulcolax as needed, and tube feeds (Peptamen). The treatment plan involves tapering off Haldol and Valium over the next one to two weeks and discontinuing the Foley catheter and heparin as mobility improves. Follow-up with gastroenterology is recommended regarding pancreatitis.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent sinus pain described as pressure, mainly around the cheeks and under the eyes. The discomfort has been ongoing for an unspecified duration and is rated as 6 out of 10 in severity; it does not improve or worsen with changes in position, temperature, or activity. The patient reported no increased congestion or drainage since recent feeding tube placements and noted that the sinus pressure has made mobility more difficult. No history of severe pain, fever, or worsening symptoms was mentioned. On examination, there were no signs of acute infection or blockage, and the doctor assessed the sinus pressure as likely related to irritation or inflammation following tube placement. The doctor recommended supportive measures including use of a humidifier, gentle saline nasal rinses if safe, and maintaining hydration. The patient was advised to seek urgent care if new symptoms such as high fever, swelling around the eyes, vision changes, or severe headache develop.
+The patient is an adult presenting with phone sinus pain as the chief complaint. The discomfort is described as persistent pressure, rated 6 out of 10 in severity, mainly localized to the cheeks and under the eyes, without associated congestion or drainage. The symptoms began after feeding tube placements and have been present for an extended period, affecting the patient's mobility and daily activities. There is no report of fever, severe pain, or worsening symptoms. Relevant history includes recent feeding tube placements but no mention of other medical conditions, medications, or allergies. The clinical impression is likely sinus irritation or inflammation following nasal procedures, without evidence of acute infection. The treatment plan includes supportive measures such as using a humidifier, gentle saline nasal rinses if safe, and maintaining hydration. The patient was advised to seek urgent care if new symptoms like high fever, swelling around the eyes, vision changes, or severe headache develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
+- **STS Score**: 0.405
+- **Model Used**: general
+- **Text1 Length**: 130 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

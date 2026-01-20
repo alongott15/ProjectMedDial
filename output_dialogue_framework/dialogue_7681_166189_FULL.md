@@ -87,16 +87,21 @@ If you develop new symptoms like feeling faint, chest pain, or a rapid heartbeat
 
 ## EHR Summary
 
-The patient is a 49-year-old male presenting with hypertension, anemia, and hematemesis. He experienced an episode of hematemesis with associated faintness, as well as weakness, fatigue, and mild abdominal pain; he denied chest pain, dyspnea, nausea, vomiting, melena, or bright red blood per rectum at the time of transfer. His history includes hepatitis B, alcohol-induced cirrhosis with prior upper GI bleeds, hepatitis C (treated), erosive gastritis, duodenitis, type 2 diabetes mellitus, and lumbar disk herniation. No drug allergies were reported. On admission, his hematocrit was 35 and he was hemodynamically stable following a transjugular intrahepatic portosystemic shunt (TIPS) procedure performed emergently for his GI bleed. The documented diagnosis was upper gastrointestinal bleeding in the setting of cirrhosis and portal hypertension. Treatment included TIPS procedure, Levaquin 500 mg daily, Protonix 40 mg daily, insulin therapy, lactulose titrated to bowel movements, and a multivitamin. The patient was stable for transfer from the ICU to the general medicine floor.
+The patient is a 49-year-old male presenting with hematemesis, hypertension, and anemia. He experienced an episode of hematemesis with faintness, leading to ICU admission and an emergent TIPS procedure for upper gastrointestinal bleeding. Symptoms included weakness, fatigue, mild abdominal pain, and later referred shoulder pain and hiccups; he denied chest pain, dyspnea, nausea, vomiting, melena, or bright red blood per rectum. Relevant history includes hepatitis B, alcohol-induced cirrhosis, hepatitis C (treated), erosive gastritis, duodenitis, diabetes mellitus type 2, and prior GI bleeds; no known drug allergies. The documented diagnosis was upper gastrointestinal bleed status post TIPS. Treatment included TIPS procedure, Levaquin for SBP prophylaxis, Protonix, lactulose, insulin sliding scale for diabetes, Thorazine for hiccups, oxycodone for shoulder pain, and Tylenol as needed. The patient’s liver function tests and hematocrit were monitored closely; fevers were attributed to focal hepatic ischemia rather than infection. He was discharged with instructions to follow up at the liver clinic and with his primary care provider for diabetes management.
+
 
 ## Dialogue Summary
 
-The patient presented with hematemesis (vomiting blood) causing discomfort. They reported several episodes with a noticeable amount of blood, persistent weakness, increased fatigue, and difficulty maintaining their usual routine. Additional symptoms included black, tarry stools and mild abdominal pain around the time of vomiting, as well as occasional shoulder pain; no dizziness or fainting was noted. The patient stated that the severity of symptoms and amount of blood had remained stable, and denied recent use of aspirin, ibuprofen, or other pain relievers, mentioning only their usual medications (not specified). The doctor noted the presence of upper gastrointestinal bleeding symptoms, possibly from the stomach or esophagus, and explained that the findings could be related to ulcers or irritation despite no NSAID use. The doctor recommended prompt in-person evaluation to determine the cause and assess for blood loss, advised avoiding pain relievers and refraining from eating or drinking until assessed, and instructed the patient to seek emergency care if new symptoms such as faintness, chest pain, or rapid heartbeat develop. The patient expressed understanding of the recommendations and asked about the relevance of shoulder pain.
+The patient is an adult presenting with hematemesis (vomiting blood) as the chief complaint. Symptoms include multiple episodes of vomiting a noticeable amount of blood, black and tarry stools (melena), mild abdominal pain around the time of vomiting, occasional shoulder pain, and associated weakness and fatigue without dizziness or syncope. The symptoms have remained stable without improvement or worsening. The patient denies recent use of aspirin, ibuprofen, or other pain relievers and is on usual medications (not specified). The clinical impression documented by the doctor is upper gastrointestinal bleeding, possibly from the stomach or esophagus, with potential causes including ulcers or irritation. The doctor emphasized that the presence of hematemesis and melena requires prompt in-person evaluation to determine the cause and assess for ongoing blood loss. The patient was advised to avoid pain relievers such as aspirin or ibuprofen, refrain from eating or drinking until evaluated, and seek emergency care if new symptoms like faintness, chest pain, or rapid heartbeat develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.716
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

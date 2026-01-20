@@ -100,3 +100,23 @@ Let me know if you’d like more ideas for managing stress or sleep, or if you h
 ## Processing Information
 
 - **Processing Time**: 338.3s
+
+## EHR Summary
+
+The patient is an 89-year-old male presenting with sudden onset chest pain, nausea, diaphoresis, and a syncopal episode. Symptoms began while watching television and were associated with hypotension (BP 62/32), ST elevations in inferior leads, ST depressions in anterior/lateral leads, and third-degree heart block on ECG. His history includes hypertension, obsessive compulsive disorder, depression, agoraphobia, peptic ulcer disease, and prostate cancer; he has no medication allergies. Cardiac catheterization revealed 100% proximal left circumflex artery occlusion, which was stented, and he experienced multiple episodes of ventricular tachycardia requiring amiodarone and cardioversion. The clinical impression was acute myocardial infarction with complications of heart block, ventricular arrhythmias, and subsequent dysphagia likely due to bulbar dysfunction. Treatment included thrombolysis, antiplatelet therapy (Aspirin, Plavix), anticoagulation (Heparin), antiarrhythmics (Amiodarone), diuretics (Lasix), antibiotics for aspiration pneumonia, intubation, tube feeding, and eventual percutaneous endoscopic gastrostomy tube placement. At discharge, the patient was stable on a gastrostomy tube diet with plans for follow-up care.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with difficulty finding the right words during conversation as the chief complaint. This symptom has been present for several weeks, is most noticeable when the patient is tired or stressed, and has remained stable without worsening. The patient also reports feeling down, decreased interest in activities, reduced involvement in usual activities, and disrupted sleep, but denies changes in appetite, comprehension, reading, or writing. Relevant history of other medical conditions, medications, or allergies was not specified.
+
+The clinical impression is that the word-finding difficulty is likely related to low mood and poor sleep, sometimes described as "brain fog," rather than a primary language or neurological disorder. The treatment plan includes recommendations for improving sleep hygiene (regular bedtime, limiting screens before bed), managing stress, staying socially connected, and maintaining enjoyable activities. The patient was advised to seek prompt care if new symptoms such as confusion, trouble understanding speech, weakness, or vision changes develop. The patient expressed interest in additional strategies for managing stress and improving sleep.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.347
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 170 words
+

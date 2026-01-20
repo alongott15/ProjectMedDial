@@ -85,16 +85,21 @@ Let me know if you have any questions about what we've talked about or if there'
 
 ## EHR Summary
 
-The patient is a 79-year-old male presenting with chest pain. The chest discomfort began after undergoing an arteriogram for symptomatic carotid stenosis. Relevant history includes recent evaluation and transfer from another hospital for further cardiac assessment. Initial cardiac enzymes showed a CK of 179, MB 3.1, index 1.7, and troponin I less than 0.05. The patient underwent cardiac catheterization during this admission. The documented diagnosis and specific treatment plan are not specified in the provided note due to incomplete dictation.
+The patient is a 79-year-old male presenting with chest pain. The chest discomfort began after the patient underwent an arteriogram for symptomatic carotid stenosis. Initial cardiac enzyme tests showed a CK of 179, MB 3.1, index 1.7, and troponin I less than 0.05. The patient was transferred from another hospital for further evaluation and underwent cardiac catheterization. Relevant medical history includes symptomatic carotid stenosis. The documented diagnosis is not specified in the note. Treatment included cardiac catheterization; additional treatments or recommendations are not detailed in the provided text.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest discomfort began a few days ago, is intermittent throughout the day, and is described as mild to moderate, mostly in the center of the chest, coming on with activity such as walking and easing with rest; it does not occur at rest and has remained unchanged since onset. The patient denied associated symptoms such as shortness of breath, sweating, or lightheadedness, and reported being able to maintain usual activities, though sometimes needing to slow down or take breaks. No relevant medical history, medications, or allergies were mentioned. On clinical review, there were no alarming features or additional physical findings reported. The doctor assessed that the pattern of chest discomfort is most consistent with a common cause such as muscle strain or mild heart-related issues like angina, noting the absence of concerning symptoms. The doctor advised the patient to monitor for any changes, seek prompt medical attention if symptoms worsen or new symptoms develop, and to pace activities with breaks as needed; follow-up was recommended if discomfort persists beyond a week or worsens.
+The patient is an adult presenting with chest pain as the chief complaint. The chest discomfort began a few days ago, is intermittent, mild to moderate in severity, and is primarily located in the center of the chest; it is triggered by activity such as walking and relieved by rest. The patient denies associated symptoms such as dyspnea, diaphoresis, or lightheadedness, and reports that the discomfort has remained stable without worsening. There is no mention of relevant past medical history, medications, or allergies. The clinical impression discussed includes possible muscle strain or mild heart-related issues such as angina, with reassurance provided due to the absence of concerning symptoms. The treatment plan includes pacing activities, taking breaks as needed, and instructions to seek prompt medical attention if symptoms worsen, become severe, or occur at rest, or if new symptoms develop. The patient was advised to follow up if the discomfort persists for more than a week or worsens.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.511
+- **Model Used**: general
+- **Text1 Length**: 88 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

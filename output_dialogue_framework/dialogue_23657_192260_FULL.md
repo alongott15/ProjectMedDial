@@ -87,16 +87,23 @@ Let me know if you've noticed any abdominal pain or if you've had black stools, 
 
 ## EHR Summary
 
-The patient is a 25-year-old male presenting with two days of nausea and one day of vomiting. His symptoms included vomiting that was initially yellowish-green and later brown, with uncertainty about the presence of coffee-ground material; he denied hematemesis, melena, diarrhea, or urinary symptoms. He has a history of type 1 diabetes mellitus for eight years with multiple prior admissions for diabetic ketoacidosis, gastroparesis, gastroesophageal reflux disease, and depression, and is allergic to penicillin and amoxicillin. On admission, his blood glucose was in the 400s with an elevated anion gap, and vital signs showed mild tachycardia (heart rate 105) and low-grade fever (temperature 99.5°F). The documented diagnosis was diabetic ketoacidosis. Treatment details are not specified in the provided note.
+The patient is a 25-year-old male presenting with two days of nausea and one day of vomiting, accompanied by hyperglycemia (glucose in the 400s) and an elevated anion gap. He reported decreased oral intake, delayed insulin administration, and episodes of maroon-colored emesis, but denied fever, chills, chest pain, or gastrointestinal bleeding per rectum. His medical history includes type 1 diabetes mellitus (with multiple prior diabetic ketoacidosis admissions), gastroparesis, gastroesophageal reflux disease, and depression; he is allergic to penicillin and amoxicillin. On admission, laboratory findings were notable for diabetic ketoacidosis (anion gap up to 29, pH 7.29, glucose 413), acute renal insufficiency (creatinine 1.6), and significant ketonuria. The documented diagnoses were diabetic ketoacidosis, upper gastrointestinal bleed (possibly due to a Mallory-Weiss tear), gastroenteritis, gastroesophageal reflux disease, and depression. Treatment included intravenous insulin, aggressive intravenous fluids, antiemetics (Zofran, Reglan), and intravenous Pepcid; his insulin regimen was continued. The patient’s symptoms and laboratory abnormalities improved with treatment, and he was discharged home on his usual insulin and Protonix with instructions for outpatient follow-up.
+
 
 ## Dialogue Summary
 
-The patient presented with nausea and frequent vomiting over the past few days. Symptoms included persistent nausea, vomiting of maroon-colored material positive for occult blood, inability to keep food or fluids down, coughing, rapid heartbeat, and suspected dehydration; no abdominal pain or black stools were reported. Relevant history includes gastroparesis, acid reflux, diabetes managed with insulin 75/25, and allergies to penicillin and amoxicillin. The patient described sudden onset of vomiting without identifiable triggers and significant interference with daily activities, including missed work. The doctor noted concern for possible gastric irritation or bleeding, likely related to the patient's underlying gastroparesis and reflux. Assessment was that the dark color in vomit suggests stomach-origin bleeding, and inability to tolerate oral intake raises risk for dehydration. The doctor recommended attempting small sips of clear fluids or oral rehydration solutions, monitoring for warning signs such as faintness, confusion, persistent rapid heartbeat, or bright red vomit, and seeking medical attention if symptoms worsen. The patient denied abdominal pain and black stools and agreed to follow the advice provided.
+The patient is an adult presenting with persistent nausea and frequent vomiting as the chief complaint. Symptoms began a few days ago and have worsened, with the patient unable to keep down food or fluids and experiencing maroon-colored vomit that tested positive for occult blood. The patient also reports associated cough, episodes of rapid heartbeat, and signs of dehydration, but denies abdominal pain or black stools. There are no clear triggers for the vomiting, and symptoms have significantly interfered with daily activities, causing missed work.
+
+Relevant history includes gastroparesis, acid reflux, diabetes managed with insulin 75/25, and allergies to penicillin and amoxicillin. The clinical impression is possible gastric irritation or bleeding, likely related to underlying gastroparesis or reflux, as indicated by the dark, blood-positive vomit. The treatment plan includes attempting small sips of clear fluids for hydration and monitoring for warning signs such as faintness, confusion, persistent tachycardia, or bright red vomit. The patient was advised to seek immediate medical attention if symptoms worsen or if warning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
+- **STS Score**: 0.670
+- **Model Used**: general
+- **Text1 Length**: 170 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

@@ -96,3 +96,21 @@ For now, I’d suggest monitoring the ache, avoiding heavy lifting or strenuous 
 ## Processing Information
 
 - **Processing Time**: 396.8s
+
+## EHR Summary
+
+The patient is a 53-year-old male presenting with right upper quadrant pain. On admission, he had elevated liver function tests, with total bilirubin rising to 4.4, and an ultrasound showed gallstones with a mildly elevated common bile duct. Relevant history includes no documented chronic illnesses, medications, or allergies. The clinical assessment identified common bile duct obstruction secondary to choledocholithiasis and probable acute cholecystitis. He underwent ERCP with sphincterotomy and stone extraction, followed by broad spectrum antibiotics. Post-procedure, he experienced bleeding from the sphincterotomy site, resulting in a hematocrit drop from 40 to 25 and requiring transfusion of 2 units of blood; he stabilized afterward and his pain resolved. The plan was for discharge home with a scheduled elective cholecystectomy in the coming weeks. His condition on discharge was improved.
+
+
+## Dialogue Summary
+
+The patient presents with right upper quadrant pain as the chief complaint. The pain began a few days ago, is described as a dull ache rated 4–5 out of 10 in severity, is steady (not intermittent), and is localized under the right ribs without radiation. Rest appears to provide some relief, while eating and movement do not significantly affect the pain. The patient denies associated symptoms such as nausea, fever, jaundice, appetite changes, or recent injuries. The clinical impression is that the symptoms are most likely due to muscle strain, mild inflammation, or minor digestive issues, with no evidence of more serious pathology. The treatment plan includes monitoring symptoms, avoiding heavy lifting or strenuous activity, and using over-the-counter pain relief if needed. The patient was advised to seek prompt care if new or worsening symptoms develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.409
+- **Model Used**: general
+- **Text1 Length**: 129 words
+- **Text2 Length**: 136 words
+

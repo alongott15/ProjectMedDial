@@ -85,16 +85,21 @@ If you have any concerns about your dressings or wound care supplies, or if anyt
 
 ## EHR Summary
 
-The patient is a 56-year-old male presenting with discharge from his abdominal wound and redness around his stoma site. He denied fevers, chills, nausea, or vomiting. His history is significant for inflammatory bowel disease, prior sigmoid perforation with sigmoid colectomy and colostomy, and deep vein thrombosis; current medications include Levaquin, Prednisone, Folate, Asacol, Coumadin, and a multivitamin. Allergies include Naprosyn (rash) and Augmentin (diarrhea). On examination, he was afebrile with stable vital signs; his abdomen was soft and nontender, the ostomy was intact, but there was stool drainage from the inferior edge of the midline wound. The clinical impression suggests wound drainage likely related to his recent abdominal surgery and colostomy. Treatment details are not specified in the note.
+The patient is a 56-year-old male presenting with discharge from his abdominal wound and redness around his stoma site. He denied fevers, chills, nausea, or vomiting, and physical exam revealed stool drainage from the inferior edge of his midline wound but an otherwise soft, nontender abdomen. His history is significant for inflammatory bowel disease, prior sigmoid perforation with colostomy, and deep vein thrombosis; medications include prednisone, Levaquin, Asacol, Coumadin, and folate. Colonoscopy demonstrated Crohn's disease with skip lesions, and imaging raised concern for an internal cutaneous fistula and possible abscess. The documented diagnoses were Crohn's disease with suspected internal cutaneous fistula and an intraoperative inferior wall myocardial infarction. Treatment included sigmoid colectomy, right coronary artery stenting for a 90% stenosis, intravenous fluids, antibiotics (Levaquin and Flagyl), steroids (prednisone), antiplatelet therapy (aspirin and Plavix), and metoprolol. The patient was stabilized postoperatively, transitioned to oral medications, and discharged with instructions for follow-up with surgery and cardiology.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about discharge from an abdominal wound and redness around the stoma site. Symptoms included yellowish discharge without odor, persistent redness, and no associated swelling, increased pain, fever, warmth, or tenderness; symptoms had been present for a few days and remained unchanged. The patient reported no impact on stoma care or daily activities and noted that movement, cleaning, or eating did not affect the symptoms. The patient cleans the area once daily with mild soap and water and uses nurse-recommended dressings. On examination, there were no signs of spreading infection such as pain, warmth, fever, or functional impairment. The doctor assessed the findings as likely due to mild irritation or a minor infection around the stoma site. The treatment plan included continuing the current wound care routine, monitoring for any changes (such as increased redness, discharge, fever, or pain), and seeking care if these occurred. The doctor emphasized the importance of gentle hygiene and staying alert for worsening symptoms.
+The patient presents with concerns about discharge and redness around their abdominal wound and stoma site. The symptoms began a few days ago and have remained stable, with yellowish discharge and localized redness but no swelling, increased pain, fever, warmth, tenderness, or odor. The patient reports no impact on stoma care or daily activities and has been cleaning the area daily with mild soap and water, using nurse-recommended dressings. There is no mention of relevant medical history, medications, or allergies in the dialogue. The clinical impression is mild irritation or a minor infection at the wound/stoma site, without evidence of spreading infection. The treatment plan includes continuing the current wound care routine, monitoring for changes such as increased redness, discharge, fever, or pain, and seeking medical attention if these occur. The patient was advised that most cases resolve with good self-care but to remain vigilant for any worsening symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.518
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 149 words
+
 
 ## Processing Information
 

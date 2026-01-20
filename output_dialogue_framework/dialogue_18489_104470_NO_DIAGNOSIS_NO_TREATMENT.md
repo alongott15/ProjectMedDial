@@ -95,16 +95,23 @@ At this point, my recommendation is to continue your current routine and stay al
 
 ## EHR Summary
 
-The patient is a 60-year-old male presenting with three days of swelling and pain in the scrotal perineal region. Symptoms included acute onset of scrotal and perineal swelling and pain, leading to a diagnosis of Fournier's gangrene on [2193-8-20]. Relevant history includes prior myocardial infarction (2187), noninsulin dependent diabetes, hypertension, and hypercholesterolemia; the patient was noncompliant with all home medications and had no known drug allergies. Laboratory findings on admission showed hyponatremia (sodium 128), hyperglycemia (glucose 525), mild leukocytosis (WBC 11,200), and otherwise unremarkable liver function and coagulation studies. The documented diagnosis was Fournier's gangrene. Treatment included emergent scrotal debridement in the operating room, postoperative admission to the surgical intensive care unit, central venous line placement, and transfusion of one unit of blood. The patient was kept NPO postoperatively.
+The patient is a 60-year-old male presenting with three days of swelling and pain in the scrotal and perineal region. He was diagnosed with Fournier's gangrene and transferred via Medivac for urgent care. His past medical history includes myocardial infarction, noninsulin dependent diabetes, hypertension, and hypercholesterolemia; he was noncompliant with home medications and had no known drug allergies. On admission, laboratory studies showed hyponatremia, hyperglycemia (glucose 525), and mild renal impairment. The documented diagnosis was Fournier's gangrene with subsequent postoperative respiratory distress and yeast infection. Treatment included emergent scrotal debridement, further surgical debridement with diverting colostomy, ventilatory support, electrolyte correction, broad-spectrum antibiotics (initially ampicillin, gentamicin, Flagyl; later changed to vancomycin, levofloxacin, and fluconazole), and glyburide for blood glucose control. The patient stabilized on these therapies and was discharged in stable condition with plans to complete a two-week course of antibiotics and antifungal therapy, and follow-up appointments with plastic and general surgery.
+
 
 ## Dialogue Summary
 
-The patient presented for a medication review without any specific symptoms. They reported no stomach upset, rashes, changes in blood sugar, fatigue, weakness, vision or hearing changes, or swelling in the legs or feet since starting NPH insulin, fluconazole, vancomycin, and levofloxacin. The patient has been checking blood sugar regularly with stable readings and has maintained their medication schedule using phone reminders. No recent changes to other medications or supplements were noted. On examination, there were no new symptoms or side effects described by the patient. The doctor assessed that the patient is tolerating their medications well and managing their regimen effectively, with no concerning interactions or adverse effects observed. The doctor recommended continuing the current routine, maintaining regular blood sugar checks, and staying alert for any new symptoms such as fatigue, digestive issues, or changes in health. The patient was advised to report any new concerns promptly and expressed understanding of the plan.
+The patient presented for a medication review without any specific symptoms or acute complaints. They reported taking NPH insulin, fluconazole, vancomycin, and levofloxacin, and denied experiencing side effects such as gastrointestinal upset, rash, changes in blood sugar, fatigue, weakness, vision or hearing changes, or peripheral edema. The patient confirmed regular blood glucose monitoring with stable readings and adherence to their medication schedule, using reminders to avoid missed doses. There is no recent history of starting or stopping other medications or supplements.
+
+No new symptoms or adverse effects were identified during the visit. The clinical impression was that the patient is tolerating their current medications well without evidence of drug interactions or complications. The treatment plan is to continue the current medication regimen and regular blood sugar checks, with instructions to report any new symptoms such as fatigue, digestive issues, or changes in blood sugar. The patient was advised to remain vigilant for side effects and to contact the provider if concerns arise.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.927
-- **Similarity Label**: N/A
+- **STS Score**: 0.506
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

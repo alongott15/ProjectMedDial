@@ -87,16 +87,23 @@ Let me ask: When did you first notice the vomiting and abdominal symptoms—was 
 
 ## EHR Summary
 
-The patient is a 70-year-old male presenting with hypertensive emergency following esophageal stent placement. He experienced severe hypertension (blood pressures in the 220s/110s), 150 cc bilious emesis, umbilical pain, and a frontal headache post-procedure; overnight, he had mild umbilical cramping pain, nausea, and three episodes of vomiting, but no gastrointestinal bleeding. His past medical history includes distal esophageal stricture, colon cancer status post hemicolectomy, coronary artery disease with prior MI and stent placement, hypertension, ventral hernia, cerebrovascular accident, peripheral vascular disease, COPD, and peptic ulcer disease; he is allergic to penicillins. On exam, he was alert and oriented, breathing rapidly and deeply, with blood pressure 150/70 mmHg and minimal umbilical tenderness. The documented diagnosis was hypertensive emergency. Treatment included intravenous lopressor (2.5 mg) and hydralazine (total 20 mg IV) for blood pressure control.
+The patient is a 70-year-old male presenting with hypertensive emergency following esophageal stent placement. He experienced severe hypertension (220s/110s), bilious vomiting, umbilical pain, and frontal headache post-procedure, with subsequent development of hyperglycemia, anion gap metabolic acidosis, and leukocytosis. His past medical history includes distal esophageal stricture, colonic adenocarcinoma status post hemicolectomy, coronary artery disease, hypertension, peripheral vascular disease, COPD, peptic ulcer disease, and a history of CVA. The documented diagnosis was diabetic ketoacidosis (DKA), with secondary diagnoses of COPD, colonic adenocarcinoma, distal esophageal stricture, and peripheral vascular disease. Treatment included intravenous antihypertensives for blood pressure control, insulin therapy (glargine and Humalog sliding scale), electrolyte repletion, and continuation of home medications for CAD and COPD; he was also started on Advair. He was discharged on a diabetic diet with instructions for home glucose monitoring and insulin administration, and follow-up appointments were arranged with primary care and ophthalmology. The patient’s abdominal pain and headache resolved prior to discharge, and his condition was stable at discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about persistently high blood pressure. Symptoms discussed included headaches, blurred vision, mild cramping abdominal pain around the belly button, yellowish bitter vomiting that began overnight before the elevated blood pressure was noted, and some nausea; the patient denied lightheadedness, chest discomfort, or leg swelling. The headaches and vision changes have caused the patient to slow down daily activities such as reading and watching TV, while the abdominal pain has remained steady and mild. The patient reported home blood pressure readings in the 220s/110s and stated no missed medication doses or routine changes. No relevant allergies or additional medical history were mentioned, though the patient noted that mild breathing issues are typical for them. The doctor’s assessment was that the patient’s blood pressure is severely elevated, with associated symptoms of headache and vision changes likely related, while the vomiting and abdominal pain may or may not be connected. The doctor advised the patient to rest, continue prescribed blood pressure medications, avoid over-the-counter drugs that could raise blood pressure (such as decongestants or NSAIDs), and seek immediate care if new symptoms such as chest pain, weakness, speech trouble, or confusion develop.
+The patient is an adult presenting with concerns about persistently elevated blood pressure readings at home, with values in the 220s/110s. They report associated symptoms of headaches, blurred vision, mild cramping abdominal pain around the umbilicus, and episodes of yellowish, bitter vomiting that began overnight prior to noticing the high blood pressure. The headaches and vision changes have led to decreased activity, particularly with reading and watching TV, though there is no chest discomfort, lower extremity swelling, or neurological deficits. The patient denies missed medication doses or recent changes in routine.
+
+Relevant history includes ongoing antihypertensive medication use and baseline mild dyspnea. The clinical impression is severe hypertension with possible hypertensive symptoms (headache, vision changes), and associated gastrointestinal symptoms of unclear relation. The treatment plan includes continuing prescribed antihypertensive medications, resting, avoiding over-the-counter agents that may raise blood pressure (such as decongestants or NSAIDs), and monitoring for any new warning symptoms (chest pain, focal weakness, speech changes, or confusion) that would warrant immediate medical attention. The patient was advised to track symptom progression and seek care if their condition worsens.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.940
-- **Similarity Label**: N/A
+- **STS Score**: 0.475
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 180 words
+
 
 ## Processing Information
 

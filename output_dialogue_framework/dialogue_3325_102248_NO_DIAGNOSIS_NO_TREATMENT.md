@@ -89,16 +89,21 @@ Let me know if you have any questions about what we've discussed or if there’s
 
 ## EHR Summary
 
-The patient is a 60-year-old man presenting with a two-year history of chest discomfort and chest burning, accompanied by shortness of breath on exertion, which worsened over the past month. Symptoms were persistent and progressive, prompting evaluation by a cardiologist. His relevant medical history includes hyperlipidemia, irritable bowel syndrome, benign prostatic hypertrophy, fibromyalgia, and a drug allergy to aspirin. Cardiac catheterization revealed one-vessel coronary artery disease, specifically involving the left anterior descending artery, and an unsuccessful intervention led to referral for surgical management. On admission, he underwent off-pump coronary artery bypass grafting using the left internal mammary artery to the left anterior descending artery. Postoperatively, he was stable, extubated on the evening of surgery, and remained afebrile with stable vital signs and a benign physical exam. The documented diagnosis was coronary artery disease requiring surgical revascularization. The treatment plan included surgical bypass and postoperative monitoring, with transfer from the recovery unit to the floor as his condition remained stable.
+The patient is a 60-year-old man presenting with a two-year history of chest discomfort and chest burning, accompanied by shortness of breath on exertion, which had worsened over the past month. His symptoms prompted evaluation by a cardiologist, leading to a stress test and cardiac catheterization that revealed one-vessel coronary artery disease. Past medical history includes hyperlipidemia, irritable bowel syndrome, benign prostatic hypertrophy, fibromyalgia, and a drug allergy to aspirin. The documented diagnosis was coronary artery disease, along with fibromyalgia, hypercholesterolemia, benign prostatic hypertrophy, and irritable bowel syndrome. He underwent off-pump coronary artery bypass grafting using the left internal mammary artery to the left anterior descending artery. Postoperative recovery was stable, with only a transient low-grade fever and no significant complications. At discharge, his condition was stable, and he was prescribed Plavix, atorvastatin, aspirin, Zantac, Lopressor, Lasix (for seven days), potassium chloride (for seven days), Percocet as needed for pain, Librax, and Imodium.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort as the chief complaint. Symptoms included moderate, dull pressure in the chest that sometimes spreads to the back, accompanied by shortness of breath described as not getting enough air even with normal breathing; these symptoms occur both at rest and during activity, have persisted for a few days, and have not woken the patient at night or caused coughing, sweating, or lightheadedness. The patient also noted occasional episodes of faster-than-usual heartbeats. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the absence of severe pain, nocturnal symptoms, or changes in breathing pattern, and characterized the discomfort as moderate and not worsened by exertion. The assessment was that while the symptoms are somewhat reassuring due to their moderate nature and lack of activity-related worsening, chest discomfort with shortness of breath can sometimes signal heart problems and should not be ignored. The doctor advised monitoring for new symptoms such as severe pain, sweating, nausea, or worsening discomfort, and recommended seeking prompt medical care if these occur; otherwise, gentle activity, hydration, and avoiding heavy exertion were suggested, with a physical evaluation advised if symptoms persist or worsen.
+The patient presents with chest discomfort as the chief complaint. The discomfort began a few days ago, is moderate in intensity, described as a dull pressure, and sometimes radiates to the back; it occurs both at rest and during activity and is accompanied by a sensation of not getting enough air (dyspnea), but not by sweating, lightheadedness, coughing, or nocturnal symptoms. The patient also reported occasional episodes of increased heart rate. There is no mention of relevant past medical history, medications, or allergies. The clinical impression is that the symptoms could be due to a range of causes, including muscular strain, anxiety, or possible cardiac or pulmonary issues; the absence of worsening with activity and severe features is noted as somewhat reassuring. No definitive diagnosis was documented. The treatment plan includes monitoring for new or worsening symptoms such as severe pain, sweating, nausea, or increased severity, with instructions to seek prompt medical care if these occur. Additional recommendations are to avoid heavy exertion, stay hydrated, and seek a physical evaluation if symptoms persist or worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.531
+- **Model Used**: general
+- **Text1 Length**: 153 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

@@ -98,3 +98,23 @@ For now, take it easy, stay hydrated, and monitor your symptoms. If you have any
 ## Processing Information
 
 - **Processing Time**: 436.3s
+
+## EHR Summary
+
+The patient is a 55-year-old male admitted for management of coronary artery disease and scheduled coronary artery bypass graft (CABG). He had a history of silent myocardial infarction, hypertension, and prior gastrointestinal bleed, and presented with significant coronary artery stenoses on recent catheterization. During his hospital course, he developed postoperative atrial fibrillation, which was managed with amiodarone and Lopressor, resulting in return to normal sinus rhythm. He also experienced a transient fever postoperatively, but infectious workup was negative except for a sputum culture positive for Haemophilus influenzae without respiratory symptoms, so no antibiotics were started. The documented diagnoses were coronary artery disease and atrial fibrillation. Treatment included CABG, rate and rhythm control for atrial fibrillation, initiation of anticoagulation with Coumadin (with careful dosing due to liver history), and discharge medications including Imdur, Plavix, Coumadin, Percocet, Colace, Lasix, potassium chloride, metoprolol, and amiodarone. The patient was discharged in stable condition with instructions for close INR monitoring and follow-up with cardiology and primary care.
+
+
+## Dialogue Summary
+
+The patient presents with the chief complaint of shortness of breath. The dyspnea has been gradually worsening over the past few days and is more pronounced with exertion, such as walking or climbing stairs, but improves at rest and is not affected by lying down. The patient also reports an intermittent fever up to 101.8°F over the same period, without associated cough, chills, chest pain, tightness, or unusual sweating. Relevant history regarding chronic medical conditions, medications, or allergies is not specified.
+
+The clinical impression is that the symptoms are most likely due to a mild respiratory infection or viral illness, given the absence of more concerning features such as chest pain or persistent dyspnea at rest. The treatment plan includes supportive care with rest, hydration, and fever control using acetaminophen or ibuprofen if there are no allergies. The patient was advised to monitor for new or worsening symptoms (such as chest pain, persistent shortness of breath at rest, confusion, or prolonged fever) and to seek medical attention if these occur. No specific activity restrictions were documented beyond general advice to take it easy during recovery.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.513
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 185 words
+

@@ -87,16 +87,21 @@ Let me know if you have any questions about what this could mean or how to manag
 
 ## EHR Summary
 
-The patient is a 72-year-old male presenting with exertional angina and known coronary artery disease (CAD). He reported the onset of exertional chest pain earlier in the year, with a positive exercise treadmill test for ischemia. His history includes prior inferior myocardial infarction, percutaneous transluminal coronary angioplasty, iron deficiency anemia, hypercholesterolemia, hypertension, diabetes mellitus, gastrointestinal bleed, colon polyps, erectile dysfunction, and implantable cardioverter-defibrillator placement; he is allergic to lisinopril. Cardiac catheterization revealed three-vessel disease with significant stenoses, and he underwent coronary artery bypass grafting (CABGx3) during this admission. Physical exam was notable for bilateral lower extremity edema with skin changes and bilateral upper extremity edema; his surgical sites were clean and intact. Laboratory findings included anemia (Hgb 8.6), elevated white blood cell count (16.4), and mildly elevated creatinine (1.4). The documented diagnosis was three-vessel coronary artery disease status post CABG. Postoperative care included extubation on day one and monitoring for mild renal impairment and decreased urine output; he was discharged in stable condition.
+The patient is a 72-year-old male presenting with exertional angina in the setting of known coronary artery disease (CAD). He reported worsening chest pain with exertion earlier in the year, and testing revealed significant multi-vessel coronary disease (LAD 80–90%, LCx 70%, RCA 100% in-stent restenosis). His past medical history includes prior myocardial infarction, percutaneous coronary intervention, iron deficiency anemia, hypercholesterolemia, hypertension, diabetes mellitus, gastrointestinal bleed, colon polyps, erectile dysfunction, and implantable cardioverter-defibrillator placement; he is allergic to lisinopril. The documented diagnosis was coronary artery disease with recent angina. He underwent coronary artery bypass grafting (CABGx3) without major complications and was discharged in good condition. Discharge medications included metoprolol, docusate sodium, aspirin, atorvastatin, pantoprazole, and iron supplementation. He was advised on wound care, activity restrictions, and to monitor for signs of infection or fluid overload, with follow-up appointments scheduled.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain occurring during physical activity such as walking or climbing stairs. The chest discomfort was described as a tightness or pressure, not a sharp pain, and resolved quickly with rest; these symptoms have been present for several weeks and are limiting daily activities. The patient also reported swelling in the lower legs, worsening later in the day especially after prolonged standing, along with blotchy red and brown skin spots and lack of hair growth. No lightheadedness, palpitations, or nocturnal shortness of breath were noted, and sleep has been normal. There was no mention of relevant medical history, medications, or allergies. On assessment, the doctor noted that the symptoms could be related to heart and circulation issues, possibly angina and fluid buildup in the legs. The doctor recommended scheduling a full evaluation of heart and circulation, advised pacing activities, elevating legs when sitting, and monitoring for new symptoms such as sudden shortness of breath or chest pain at rest. The patient acknowledged understanding and agreed to follow the recommendations.
+The patient presents with chest pain as the main complaint. The chest discomfort is described as a tightness or pressure that occurs with activity (such as walking or climbing stairs), has been present for several weeks, and resolves quickly with rest; there is no associated lightheadedness or palpitations. The patient also reports bilateral lower leg swelling that worsens later in the day, with associated blotchy red and brown skin changes and loss of hair growth; the swelling improves overnight. There is no history of waking up short of breath or needing extra pillows to breathe comfortably. The symptoms have led to reduced activity and avoidance of exertion. The clinical impression documented by the doctor is possible angina due to reduced blood flow to the heart, with additional concern for impaired circulation and fluid buildup in the lower extremities. The treatment plan includes scheduling a full evaluation of heart and circulation, pacing activities, elevating the legs when sitting, and monitoring for new symptoms such as sudden shortness of breath or chest pain at rest. The patient was advised to seek prompt attention if new concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.557
+- **Model Used**: general
+- **Text1 Length**: 138 words
+- **Text2 Length**: 186 words
+
 
 ## Processing Information
 

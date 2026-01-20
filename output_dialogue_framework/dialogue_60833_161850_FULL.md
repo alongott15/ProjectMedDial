@@ -87,16 +87,23 @@ Do you have any questions about what might be causing this or how to manage it a
 
 ## EHR Summary
 
-The patient is a 78-year-old female presenting with chest pain. She reported episodes of chest pain described as pressure radiating across her chest, minimally relieved by three doses of sublingual nitroglycerin, and denied associated shortness of breath. She also experienced worsening right neck pain over the past few days, chronic since a prior tooth abscess, and numbness and tingling in her left hand for several weeks, without focal weakness or vision changes. Her medical history includes coronary artery disease status post stenting, hypertension, hyperlipidemia, and anxiety; she has a documented allergy to penicillins. Physical examination was notable for hypertension (BP 162/65) but otherwise unremarkable findings. Laboratory results showed mild anemia and elevated PT/PTT/INR. The clinical impression included a focal right carotid dissection identified on CT scan. No major surgical or invasive procedures were performed during admission, and specific treatments or recommendations were not documented in the note.
+The patient is a 78-year-old female presenting with chest pain. She described the pain as pressure radiating across her chest, minimally relieved by three doses of sublingual nitroglycerin, and also reported right neck pain and intermittent numbness and tingling in her left hand, but denied shortness of breath, focal weakness, or vision changes. Her history includes coronary artery disease status post stenting, hypertension, hyperlipidemia, anxiety, and an allergy to penicillins. Imaging and evaluation ruled out carotid dissection, and her symptoms were determined to be most consistent with typical angina. The documented diagnosis was chest pain. She was discharged in good condition with instructions to continue aspirin 81 mg daily and Zetia 10 mg daily, and to follow up with her primary care physician and cardiologist, as well as to complete an outpatient stress test. She was advised to seek medical attention for any new or worsening symptoms.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint, which has been occurring for a few days and lasts only a few minutes at a time. Additional symptoms discussed included mild right-sided neck pain located just above the shoulder, and intermittent numbness and tingling in the fingertips of the left hand; these sensory symptoms are more bothersome than the neck pain but do not interfere with daily activities. The patient reported no weakness, no difficulty with routine tasks, and no clear triggers for the numbness or tingling, which occur randomly. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted mild neck discomfort and intermittent tingling in the left fingertips without weakness or functional impairment, suggesting possible involvement of a pinched nerve in the neck, potentially related to posture or age-related spinal changes. The doctor advised gentle neck stretches, attention to posture, and avoiding prolonged positions, while monitoring for new symptoms such as worsening pain, persistent numbness, weakness, or balance issues. The patient was reassured and encouraged to continue usual walks and light activities unless symptoms worsen.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain began a few days ago, lasts only a few minutes at a time, and is accompanied by mild right-sided neck discomfort and intermittent numbness and tingling in the left fingertips. The neck pain is mild and localized above the right shoulder without radiation, while the numbness and tingling are more bothersome but do not interfere with daily activities and occur randomly without clear triggers. There is no reported weakness, loss of function, or difficulty performing usual activities such as dressing or cooking.
+
+Relevant medical history, medications, and allergies are not specified. The clinical impression is that the symptoms may be related to a pinched nerve in the neck, possibly due to age-related spinal changes or posture. The treatment plan includes gentle neck stretches, attention to posture, avoiding prolonged positions, and monitoring for any new or worsening symptoms such as persistent numbness, weakness, or balance issues. The patient was advised to contact their healthcare provider if symptoms worsen or new neurological deficits develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.472
+- **Model Used**: general
+- **Text1 Length**: 147 words
+- **Text2 Length**: 178 words
+
 
 ## Processing Information
 

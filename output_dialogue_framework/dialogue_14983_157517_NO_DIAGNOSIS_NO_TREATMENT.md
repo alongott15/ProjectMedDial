@@ -91,16 +91,23 @@ My recommendation is to continue monitoring how you feel, try some relaxation te
 
 ## EHR Summary
 
-The patient is a 58-year-old male admitted for elective clipping of an anterior communicating artery (ACOM) aneurysm. He reported no acute symptoms at presentation and was admitted specifically for the planned neurosurgical procedure. His relevant history includes hypertension, coronary artery disease, and a prior coronary artery bypass graft in 2147. On physical examination, he was awake, alert, oriented, and neurologically intact with stable vital signs. The documented diagnosis was ACOM aneurysm. He underwent elective craniotomy and aneurysm clipping without intraoperative or postoperative complications. Blood pressure was closely monitored postoperatively and stabilized with medications. The patient was discharged home in stable condition with instructions for close follow-up by his primary care physician.
+The patient is a 58-year-old male admitted for elective clipping of an anterior communicating (ACOM) aneurysm. He reported no acute symptoms on presentation and was described as awake, alert, and oriented, though slightly nervous and agitated. His past medical history includes hypertension, coronary artery disease, and prior coronary artery bypass grafting in 2147. The documented diagnosis was ACOM aneurysm. He underwent elective craniotomy for aneurysm clipping without intraoperative or postoperative complications; blood pressure was closely monitored and stabilized with medications. An angiogram confirmed intact aneurysm clipping. Discharge medications included antihypertensives, lipid-lowering agents, antidepressants, analgesics, and gastrointestinal prophylaxis. He was advised to follow up in two weeks for staple removal and to monitor for symptoms such as headache, vision changes, altered mental status, fever, or increased incision pain, with ongoing primary care follow-up for blood pressure control.
+
 
 ## Dialogue Summary
 
-The patient presented with increased feelings of nervousness and agitation over the past few days. Symptoms included intermittent episodes of nervousness and agitation, described as mild and manageable, with some difficulty concentrating but no impact on sleep or enjoyment of activities; no physical symptoms such as racing heartbeat, sweating, or upset stomach were reported. The patient denied noticing any specific triggers, and symptoms occurred randomly throughout the day. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the symptoms were mild, transient, and not interfering significantly with daily life, suggesting a temporary reaction possibly related to stress or minor changes, despite no clear trigger. The doctor recommended monitoring symptoms for any patterns or worsening, practicing relaxation techniques (such as deep breathing), maintaining a regular routine, and engaging in regular exercise. The patient was advised to reach out if symptoms persist beyond a couple of weeks, become stronger, or begin to interfere with daily functioning. For now, self-care strategies and observation were considered appropriate.
+The patient is an adult presenting with increased nervousness and agitation as the chief complaint. These symptoms have been present for a few days, are mild and manageable, come and go throughout the day without clear triggers, and have made it somewhat harder to concentrate but have not affected sleep or enjoyment of activities. The patient denies associated physical symptoms such as palpitations, sweating, or gastrointestinal upset. There is no relevant medical history, medications, or allergies documented.
+
+The clinical impression is that these symptoms likely represent a temporary and common reaction, possibly related to stress or minor changes, though no specific trigger is identified. The physician recommends monitoring symptoms, practicing relaxation techniques (such as deep breathing), maintaining a regular routine, and keeping track of any patterns. The patient is advised to follow up if symptoms worsen, persist beyond a couple of weeks, or begin to interfere with daily functioning.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.912
-- **Similarity Label**: N/A
+- **STS Score**: 0.266
+- **Model Used**: general
+- **Text1 Length**: 136 words
+- **Text2 Length**: 149 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ Does this explanation make sense, and is there anything else about your symptoms
 
 ## EHR Summary
 
-The patient is a 73-year-old woman presenting with shortness of breath following a fall several days prior. She reported right-sided rib pain and had ecchymosis over the right face, orbit, and hip, with decreased breath sounds at the right lung base. Her past medical history includes coronary artery disease, peripheral vascular disease, breast and colon cancer (both status post surgery), asthma, hypothyroidism, hyperlipidemia, osteoporosis, and recurrent urinary tract infections. Physical exam confirmed right-sided findings consistent with trauma, and laboratory results showed anemia (hemoglobin 8.4 g/dL, hematocrit 23.8%). Chest CT revealed a large right hemothorax, and chest X-ray showed persistent right pleural effusion/atelectasis without pneumothorax. The documented diagnosis was right hemothorax secondary to trauma. She underwent right video-assisted thoracoscopic surgery (VATS) evacuation of hematoma as treatment.
+The patient is a 73-year-old woman presenting with shortness of breath following a fall several days prior, which resulted in a right-sided hemothorax. She reported right rib pain, right lower leg swelling, right knee pain, and ecchymosis over the right face and orbit, with oxygen desaturation to 85% on 6 liters during ambulation and decreased breath sounds at the right lung base. Her past medical history includes coronary artery disease (CAD) with prior myocardial infarctions, peripheral vascular disease, breast and colon cancer, asthma, hypothyroidism, hyperlipidemia, osteoporosis, and atrial fibrillation; she is allergic to Metrogel and Desipramine. Imaging revealed a large right hemothorax with associated rib fractures and collapse of the right middle and lower lung lobes. The documented diagnosis was right hemothorax status post fall, requiring right video-assisted thoracoscopic surgery (VATS) evacuation of hematoma. Postoperatively, her main issue was persistent oxygen requirement with exertion due to respiratory deconditioning. She was discharged to extended care on supplemental oxygen and instructed to follow a low-sodium diet, monitor weight daily, care for her surgical site, and follow up with her physician after rehabilitation. Medications at discharge included amiodarone, aspirin, clopidogrel, furosemide, levothyroxine, simvastatin, metoprolol, montelukast, and supplemental oxygen among others.
+
 
 ## Dialogue Summary
 
-The patient presented with difficulty catching their breath following a fall a few days ago. Symptoms included constant shortness of breath that worsens with movement, right rib pain rated 6/10 that becomes sharper with deep breaths and movement, and increased fatigue and unsteadiness during activity; lying down does not affect symptoms, and there is no cough, fever, wheezing, or bruising noted. The patient reported no lightheadedness or fainting but finds it harder to do usual activities and mentioned oxygen saturation dropping to 85% with exertion. No relevant medical history, medications, or allergies were specified. On clinical assessment, the doctor noted rib pain likely contributing to shallow breathing and exertional dyspnea, with no signs of infection or lung injury based on the absence of cough, fever, or wheezing. The working diagnosis was rib injury (possible bruise or fracture) causing pain and secondary shortness of breath. The doctor advised gentle movement, avoiding heavy activity, using ice packs, and taking over-the-counter pain relief if appropriate, and emphasized monitoring for worsening symptoms such as severe shortness of breath, chest pain, or confusion, recommending prompt medical attention if these occur.
+The patient is an adult presenting with shortness of breath following a fall a few days ago. The dyspnea is constant but worsens with exertion and is accompanied by right rib pain rated 6/10, which intensifies with movement and deep breaths; lying down does not affect symptoms. The patient denies cough, fever, wheezing, lightheadedness, or bruising, but reports difficulty performing usual activities and oxygen saturation dropping to 85% with ambulation. There is no documented history of other medical conditions, medications, or allergies in the dialogue. The clinical impression is that the shortness of breath is likely secondary to rib pain from possible bruised or fractured ribs after the fall, with no evidence of infection or direct lung injury at this time. The treatment plan includes gentle movement, avoiding heavy activity, using ice packs on the affected area, and taking over-the-counter pain relief if there are no contraindications. The patient was advised to monitor for new or worsening symptoms such as increased shortness of breath at rest, cough, fever, or spreading chest pain and to seek prompt medical attention if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.666
+- **Model Used**: general
+- **Text1 Length**: 197 words
+- **Text2 Length**: 181 words
+
 
 ## Processing Information
 

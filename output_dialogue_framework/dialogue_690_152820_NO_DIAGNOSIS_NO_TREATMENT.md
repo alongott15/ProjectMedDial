@@ -98,3 +98,21 @@ Let me ask: Can you describe what the pain feels like—sharp, burning, or more 
 ## Processing Information
 
 - **Processing Time**: 473.1s
+
+## EHR Summary
+
+The patient is a 72-year-old male presenting with a three-week history of odynophagia (pain on swallowing), dysphagia for solids and liquids, and increased hoarseness, with worsening secretions and an episode of choking in the days prior to admission. Symptoms were accompanied by slight erythema and ecchymosis in the right oropharynx, swelling at the base of the tongue, marked edema of the false cords and arytenoids, and a narrowed airway on examination. Relevant history includes noninsulin dependent diabetes mellitus with neuropathy, chronic renal insufficiency, coronary artery disease, peripheral vascular disease, hyperlipidemia, bilateral cataracts, esophageal ring, and hiatal hernia; he is allergic to codeine and morphine sulfate. The documented diagnosis was supraglottitis. Treatment included intravenous Decadron, clindamycin, levofloxacin, NPO status initially, and close monitoring in the ICU. The patient improved symptomatically, tolerated oral intake by hospital day two, and was discharged home in stable condition. He was prescribed a 14-day course of clindamycin and instructed to follow up in two to three days.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with painful swallowing (odynophagia) as the chief complaint. The pain is rated 6/10, has been present for a few days, and is worsening, especially with both solids and liquids; it is described as burning and pressure localized to the throat. Associated symptoms include throat swelling, hoarseness, increased secretions, and a single episode of choking, but there is no fever, cough, recent infection, or allergy exposure. The patient reports no visible redness or white patches in the throat. Relevant history of medications, chronic illnesses, or allergies is not specified. The clinical impression is likely mild pharyngitis, irritation, or possible acid reflux, with less likelihood of a viral infection given the absence of systemic symptoms. The treatment plan includes supportive care: drinking fluids, avoiding hot or spicy foods, resting the voice, and monitoring for warning signs such as difficulty breathing, severe pain, inability to swallow, or blood with swallowing.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.733
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 153 words
+

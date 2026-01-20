@@ -104,3 +104,21 @@ Does that plan make sense, or is there anything else you’d like to discuss tod
 ## Processing Information
 
 - **Processing Time**: 411.8s
+
+## EHR Summary
+
+The patient is a 54-year-old man presenting with fever and night sweats. He reported the onset of these symptoms several months prior, and an echocardiogram at that time revealed mitral valve regurgitation with endocarditis and vegetation of the mitral valve. His relevant history includes prior aortic valve replacement, abdominal aortic aneurysm repair, abdominal mass removal, alcoholic cardiomyopathy, and pseudogout of the left knee; he has no known drug allergies but reacts to Ativan with extreme combativeness. The documented diagnosis was mitral valve endocarditis with regurgitation. He underwent mitral valve repair with a pericardial patch and annuloplasty, tolerated the procedure well, and had an uneventful postoperative course. Discharge medications included metoprolol, aspirin, Lasix, potassium chloride, and Percocet as needed. He was discharged home in good condition with visiting nurse assistance and follow-up appointments scheduled.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with concern about a recent fever. The fever has been present for a few days, accompanied by night sweats and bilateral leg swelling. The swelling in both legs began before the onset of fever, has remained stable, is not associated with redness, warmth, tenderness, or worsening throughout the day, and does not interfere significantly with daily activities. The patient denies dyspnea or shortness of breath. There is no documented relevant medical history, medications, or allergies in the dialogue. The clinical impression is that the stable, non-painful bilateral leg swelling may be related to fluid retention, circulation issues, medications, or underlying medical conditions, while the fever and night sweats could be due to a mild viral illness but warrant monitoring given their combination with swelling. The treatment plan includes monitoring symptoms, elevating the legs when sitting, staying active, and seeking care if symptoms worsen (such as increased swelling, new shortness of breath, chest pain, or signs of infection), with follow-up recommended if symptoms persist or new issues arise.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.365
+- **Model Used**: general
+- **Text1 Length**: 133 words
+- **Text2 Length**: 173 words
+

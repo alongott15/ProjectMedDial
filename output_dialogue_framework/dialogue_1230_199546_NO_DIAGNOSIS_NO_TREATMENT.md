@@ -87,16 +87,23 @@ Let me know if you'd like more details about any specific preventive screenings 
 
 ## EHR Summary
 
-The patient is a 72-year-old male presenting for catheterization with a history of coronary artery disease (status post CABG and stenting), diabetes mellitus, cervical disease, and chronic narcotic use. He was admitted with decreased mental status, acute renal failure (creatinine 1.8), shortness of breath, and dyspnea on exertion. Relevant history includes chronic OxyContin use for cervical pain and prior Narcan administration. Physical findings included oxygen desaturation to 82%, mild congestive heart failure on chest x-ray, elevated troponin (0.26), and severe pulmonary hypertension on catheterization (mean PA pressure 58/26, wedge 37%). The documented diagnosis was congestive heart failure with severe pulmonary hypertension. Treatment included diuresis with IV Lasix (total 100 mg, 2 L negative balance), Nitroglycerin drip, Nutracort, empiric antibiotics (Ceftriaxone), and supportive care. Oxygenation and hemodynamics improved with therapy.
+The patient is a 72-year-old male presenting for catheterization and management of congestive heart failure. He reported decreased mental status, shortness of breath, dyspnea on exertion, paroxysmal nocturnal dyspnea, and back pain; he also experienced an episode of oxygen desaturation to 82% and had acute renal failure with a creatinine of 1.8. His past medical history includes coronary artery disease (status post CABG and PTCA), diabetes mellitus, chronic cervical stenosis (status post fusion), chronic narcotic dependence, depression, glaucoma, and congestive heart failure. The documented diagnoses were congestive heart failure, coronary artery disease (status post CABG and PTCA), diabetes mellitus, chronic cervical stenosis, chronic narcotic dependence, depression, and glaucoma. Treatment included diuresis with IV Lasix and Bumex, initiation and titration of Captopril, Imdur, metoprolol, sliding scale insulin for glucose control, continuation of methadone for pain, inhaled Solu-Medrol and albuterol for pulmonary symptoms, and bowel regimen for constipation. The patient was also placed on a cardiac-diabetic diet and received physical therapy evaluation. He was discharged in good condition with follow-up arranged for medication optimization and further evaluation of mediastinal lymph nodes seen on CT.
+
 
 ## Dialogue Summary
 
-The patient presented with no specific chief complaint and reported no current symptoms. The patient denied any recent changes in general health, energy levels, sleep, appetite, weight, or mood, and stated that daily activities such as shopping, cooking, and personal care were being managed without new difficulties. The patient also reported staying physically active with regular walks and light exercise, without experiencing shortness of breath, unusual fatigue, or chest discomfort during these activities. No relevant medical history, medications, or allergies were mentioned in this visit. On assessment, the doctor noted that the patient's overall health and daily function appeared stable, with no new symptoms or functional decline reported. The doctor recommended scheduling routine preventive care, including blood pressure and cholesterol checks and staying up to date on vaccinations such as the annual flu shot and pneumonia vaccine. The patient expressed interest in receiving more information about scheduling these preventive screenings and vaccinations.
+The patient presented for a routine visit without any specific chief complaint or symptoms. They reported no recent changes in general health, energy levels, sleep, appetite, weight, or mood, and denied experiencing dyspnea, unusual fatigue, or chest discomfort during physical activity. The patient is able to manage daily activities such as shopping, cooking, and personal care without difficulty and maintains an active lifestyle with regular walking and light exercise. There is no documented relevant medical history, medications, or allergies in the dialogue.
+
+No diagnosis was made, as the clinical impression was stable overall health with no new concerns. The treatment plan focused on preventive care: the doctor recommended scheduling routine screenings including blood pressure and cholesterol checks, and staying up to date on vaccinations such as the annual influenza and pneumonia vaccines. The patient expressed interest in receiving more information about scheduling these preventive screenings and vaccinations. Continuing regular physical activity was encouraged for ongoing health maintenance.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.929
-- **Similarity Label**: N/A
+- **STS Score**: 0.431
+- **Model Used**: general
+- **Text1 Length**: 182 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

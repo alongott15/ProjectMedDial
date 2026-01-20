@@ -85,16 +85,21 @@ If your symptoms get much worse, if you notice swelling, redness, or if you canâ
 
 ## EHR Summary
 
-The patient is a 69-year-old male presenting with bilateral knee pain. He has a history of end-stage degenerative joint disease (osteoarthritis) in both knees, with chronic pain prompting definitive treatment. Past medical history is significant for osteoarthritis, and he has no known drug allergies. On physical exam, he was alert and oriented, with clean, dry, and intact bilateral knee incisions postoperatively and no evidence of infection. The documented diagnosis was end-stage degenerative joint disease of both knees. He underwent elective bilateral total knee arthroplasty without intraoperative complications. Postoperatively, he experienced hypotension and a drop in hematocrit, requiring transfusion, but was stabilized and progressed well with controlled pain on oral medications. The treatment plan included epidural anesthesia for pain control, postoperative anticoagulation with Lovenox, transfusions as needed, and routine monitoring for infection and wound healing.
+The patient is a 69-year-old male presenting with bilateral knee pain. He has a history of end-stage degenerative joint disease (osteoarthritis) in both knees, with chronic pain leading to elective admission for definitive treatment. There is no history of drug allergies. The documented diagnosis was bilateral knee osteoarthritis. The patient underwent bilateral total knee arthroplasty without surgical complications, though he experienced postoperative hypotension and a drop in hematocrit, requiring transfusion of 2 units of PRBCs on two occasions; he remained stable and asymptomatic thereafter. Postoperative management included epidural analgesia, transition to oral pain medications, and initiation of Lovenox for anticoagulation. Discharge instructions emphasized weight-bearing as tolerated, range of motion exercises, continued physical therapy, wound care, and a two-week course of Lovenox. The patient was discharged in stable condition to an extended care facility.
+
 
 ## Dialogue Summary
 
-The patient presented with bilateral knee pain making mobility difficult. Symptoms included general discomfort and stiffness in both knees, with pain worsening after activity and stiffness noted in the mornings; no swelling, clicking, or locking was reported. The patient stated that climbing stairs and getting out of a chair have become more challenging, but daily activities are still possible with increased effort. No recent injuries, changes in activity level, medications, or use of ice/heat were reported, and the discomfort was described as affecting the whole joint. On assessment, the doctor noted ongoing, general knee discomfort and stiffness exacerbated by activity, consistent with wear-and-tear changes such as osteoarthritis. The doctor recommended gentle activity (walking or swimming), use of heat or ice for symptom relief, and over-the-counter pain relievers if appropriate. Additional advice included gradual strengthening exercises and strategies to make daily activities easier, with instructions to seek urgent care if symptoms worsen or new signs such as swelling or inability to move the knee develop. The patient requested suggestions for exercises and ways to ease daily movements.
+The patient presents with bilateral knee pain as the chief complaint. The discomfort has been present for an unspecified duration, is described as general throughout both knees, and is associated with stiffness, particularly in the morning, and worsening pain with activity. The patient reports increased difficulty with activities such as climbing stairs and rising from a chair but denies swelling, clicking, locking, or recent injury. Rest provides some relief, while ice, heat, and pain medications have not yet been tried. There is no relevant history of recent trauma or significant changes in activity level. The clinical impression is consistent with osteoarthritis, characterized by joint stiffness after rest and pain that increases with use. The treatment plan includes recommendations for gentle activity (such as walking or swimming), use of heat or ice for symptom relief, consideration of over-the-counter pain relievers if appropriate, and gradual strengthening exercises. The patient was also advised to seek urgent care if symptoms worsen or if new signs such as swelling or inability to move the knee develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.569
+- **Model Used**: general
+- **Text1 Length**: 133 words
+- **Text2 Length**: 171 words
+
 
 ## Processing Information
 

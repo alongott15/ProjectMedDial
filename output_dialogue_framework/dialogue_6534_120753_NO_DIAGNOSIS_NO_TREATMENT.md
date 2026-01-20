@@ -85,16 +85,21 @@ In the meantime, try to avoid strenuous activity and rest as much as possible. L
 
 ## EHR Summary
 
-The patient is a 68-year-old female presenting with an episode of chest pressure and recurrent episodes of chest pain since 2122, which were relieved by rest. She reported worsening symptoms to her primary care physician. Her relevant history includes diabetes mellitus, IgG monoclonal gammopathy, osteoporosis, and a prior silent myocardial infarction. On admission, she was afebrile with stable vital signs, a regular heart rhythm, clear lungs, and normal laboratory values; cardiac enzymes were negative and chest x-ray showed no acute disease. Cardiac catheterization revealed three-vessel coronary artery disease with heavily calcified, diffusely diseased vessels. The documented diagnosis was three-vessel coronary artery disease. She underwent coronary artery bypass grafting x4 on 2124-2-8. Treatment included surgical revascularization with left internal mammary artery and saphenous vein grafts to multiple coronary arteries.
+The patient is a 68-year-old female presenting with an episode of chest pressure and recurrent chest pain since 2122, relieved by rest. She reported worsening symptoms to her primary care physician, with a history of a silent myocardial infarction in 2120. Her past medical history includes diabetes mellitus, IgG monoclonal gammopathy, osteoporosis, and prior total abdominal hysterectomy. On admission, vital signs were stable and cardiac enzymes were negative; cardiac catheterization revealed three-vessel coronary artery disease with heavily calcified vessels. The documented diagnosis was status post coronary artery bypass graft x 4. She underwent successful coronary artery bypass grafting without complications, experienced mild postoperative shortness of breath that improved with intravenous Lasix, and continued to improve steadily. Discharge medications included Lasix, Lopressor, aspirin, insulin, and other supportive medications. She was discharged home in good condition with follow-up arranged with her surgeon, primary care physician, and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure as the chief complaint. She described the sensation as a moderate (6/10) heaviness in the center of her chest, which occurs with activity and resolves within a few minutes of rest. She reported that the episodes have been getting worse and are now accompanied by shortness of breath, particularly since her surgery five days ago. No other medical history, medications, or allergies were mentioned. The doctor noted the exertional nature of the chest heaviness and its improvement with rest, as well as the recent worsening of symptoms post-surgery. The assessment was that these symptoms could be cardiac in origin or related to a blood clot, given the timing after surgery and progression. The doctor recommended prompt medical evaluation today and advised the patient to seek emergency care if she develops new symptoms such as pain radiating to the arm or jaw, sweating, or feeling faint. The patient was also advised to avoid strenuous activity and rest until further evaluation.
+The patient presents with chest pressure as the chief complaint. The chest heaviness is described as moderate (6/10), central, and triggered by activity, resolving within a few minutes of rest; symptoms have worsened since surgery five days ago. The patient also reports associated shortness of breath that occurs concurrently with the chest pressure and has become more noticeable postoperatively. Relevant history includes recent surgery five days prior; no other medical history, medications, or allergies are specified. The clinical impression is that the symptoms may be cardiac in origin or possibly related to a postoperative complication such as a blood clot, given the timing and worsening nature. The doctor recommends prompt medical evaluation today to rule out serious causes and advises the patient to seek emergency care if new symptoms such as radiating pain, sweating, or faintness develop. The patient is also advised to avoid strenuous activity and rest until further evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.519
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

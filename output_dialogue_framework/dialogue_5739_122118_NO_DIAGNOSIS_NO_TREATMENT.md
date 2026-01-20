@@ -87,16 +87,21 @@ Let me know if you have any questions or concerns about this plan.
 
 ## EHR Summary
 
-The patient is a 34-year-old male presenting with acute epigastric pain, nausea, vomiting, and inability to tolerate oral intake. Symptoms began one day prior to admission and are accompanied by thirst, sweats, chills, and shortness of breath, but no chest pain or gastrointestinal bleeding. He has a history of multiple episodes of pancreatitis attributed to alcohol abuse, hypertension, and prior seizures following a motor vehicle accident. On admission, he appeared acutely ill, diaphoretic, vomiting, and tremulous, with vital signs notable for blood pressure of 160/100 mmHg and heart rate of 92 bpm. The documented diagnosis was acute pancreatitis. Medications on admission included Advil and Tylenol as needed. No known drug allergies were reported. Treatment details were not specified in the note.
+The patient is a 34-year-old man presenting with acute epigastric pain, nausea, vomiting, and inability to tolerate oral intake for one day. Additional symptoms included thirst, sweats, chills, shortness of breath, and tremulousness, with a history of increased alcohol consumption prior to admission. His past medical history is notable for multiple episodes of pancreatitis secondary to alcohol abuse, hypertension, and a history of seizures. On admission, he was diagnosed with acute pancreatitis, likely due to alcohol abuse, and was also found to be in alcohol withdrawal. Treatment included making the patient NPO, aggressive intravenous fluid rehydration, electrolyte monitoring and repletion, intravenous Dilaudid for pain, Zofran for nausea, antibiotics (Unasyn) for suspected necrotic pancreatitis, and benzodiazepines (Valium and Ativan) for withdrawal symptoms. His diet was gradually advanced from NPO to clear liquids as symptoms improved. Social work consultation and community resources were provided for alcohol abuse and depression. The patient was also treated transiently for hypertension with hydralazine.
+
 
 ## Dialogue Summary
 
-The patient presented with upper abdominal pain located in the mid-epigastric region. The pain had been ongoing for a couple of days, rated as 7 out of 10 in severity, and was not affected by eating or movement. Associated symptoms included significant nausea, vomiting with inability to tolerate even small sips of water, reduced appetite, thirst, fever, chills, and sweats; the patient also reported some shortness of breath but denied chest pain, pain radiating to the back or shoulders, jaundice, or dark urine. No relevant medical history, medications, or allergies were mentioned. On clinical assessment, the doctor noted concern for dehydration and possible underlying causes such as stomach infection, gastritis, or inflammation of nearby organs like the pancreas. The doctor recommended urgent evaluation at an urgent care clinic or emergency department for further testing and intravenous fluids, emphasizing the need for prompt care due to the risk of worsening dehydration and other complications. The patient expressed understanding and agreed to follow the plan.
+The patient is an adult presenting with upper abdominal pain as the chief complaint. The pain is located in the epigastric region, rated 7 out of 10 in severity, has persisted for a couple of days, and is not relieved by eating or movement. Associated symptoms include significant nausea, repeated vomiting (even with small sips of water), inability to tolerate oral intake, fever, chills, sweats, and shortness of breath; there is no chest pain, pain radiating to the back or shoulders, jaundice, or dark urine. Relevant medical history, medications, and allergies are not specified. The clinical impression is that the symptoms are concerning for more than simple gastritis or stomach upset, with possible causes including stomach infection, gastritis, or inflammation of nearby organs such as the pancreas; dehydration is also a concern due to inability to keep down fluids. The treatment plan is immediate referral to an urgent care clinic or emergency department for further evaluation, intravenous fluids, and symptom management. The patient was advised to seek care immediately if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
+- **STS Score**: 0.611
+- **Model Used**: general
+- **Text1 Length**: 157 words
+- **Text2 Length**: 176 words
+
 
 ## Processing Information
 

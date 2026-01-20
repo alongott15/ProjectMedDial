@@ -85,16 +85,21 @@ Let me ask—when did you first notice the swelling and tenderness on your face?
 
 ## EHR Summary
 
-The patient is a 76-year-old female presenting with nausea, which serves as her anginal equivalent. She reported chest pain, shortness of breath, and nausea upon arrival to the emergency room. Her medical history is significant for coronary artery disease with prior mid-LAD stenosis, diffuse left circumflex and RCA disease, hypertension, GERD, Billroth II surgery, anemia, hyperlipidemia, ischemic cardiomyopathy, and prior hysterectomy and appendectomy. Cardiac catheterization revealed significant multi-vessel coronary artery disease, including a 60% distal LAD lesion, 90% OM1 lesion, 70% OM2 lesion, and 80% mid-RCA lesion. She was diagnosed with a non-Q wave myocardial infarction. During the procedure, she continued to experience angina, which resolved after placement of an intra-aortic balloon pump. Cardiothoracic surgery was consulted and she was accepted for coronary artery bypass grafting. Prior to admission, her medications included Lipitor, pantoprazole, Creon, metoprolol, folic acid, nitroglycerin drip, Isordil, hydrochlorothiazide, Nexium, Altace, Coreg, and Plavix.
+The patient is a 76-year-old woman presenting with nausea, which serves as her anginal equivalent. She also reported chest pain and shortness of breath at presentation. Her history is significant for coronary artery disease with prior mid-LAD stenosis, diffuse left circumflex and RCA disease, hypertension, GERD, Billroth II, anemia, hyperlipidemia, ischemic cardiomyopathy, and prior surgeries (hysterectomy, appendectomy). She was found to have a non-Q wave myocardial infarction and underwent cardiac catheterization revealing multivessel coronary artery disease. The documented diagnosis was CAD status post coronary artery bypass grafting times three. Treatment included intra-aortic balloon pump placement followed by CABG x3 with saphenous vein grafts; postoperative care involved weaning from ventilator and balloon pump, antibiotics and warm packs for parotitis, and cardiac rehabilitation. At discharge, she was stable and prescribed medications including Plavix, aspirin, Lipitor, Protonix, Creon, metoprolol, furosemide, potassium chloride, and Percocet as needed. She was discharged to a rehabilitation facility with follow-up arranged in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with nausea as the chief complaint. She reported intermittent nausea that has become more noticeable recently, along with chest pain described as pressure and occasional shortness of breath, especially when the nausea is worse. The chest pressure and breathing difficulty are aggravated by physical activity such as walking or climbing stairs, but can also occur at rest and improve somewhat with lying down; she denied associated sweating, lightheadedness, or feeling faint. Additionally, she noted swelling and tenderness on the left side of her face near the parotid gland, which started a few days ago and has remained unchanged. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the facial swelling and tenderness may indicate a salivary gland issue (such as inflammation or infection), while the chest pressure and exertional shortness of breath could suggest angina or another condition, though absence of other symptoms was reassuring. The doctor emphasized the importance of monitoring these symptoms and explained possible causes to the patient.
+The patient presents with a chief complaint of intermittent nausea that has become more noticeable recently. Additional symptoms include chest pressure and shortness of breath, which are exacerbated by physical activity such as walking or climbing stairs, but can also occur at rest; these symptoms improve somewhat with rest and lying down. The patient denies associated sweating, lightheadedness, or feeling faint during these episodes. There is also new swelling and tenderness on the left side of the face, particularly around the parotid gland, which has been present for a few days without significant change. Relevant history, medications, and allergies are not specified in the dialogue. The physician notes that the facial swelling and tenderness may indicate a salivary gland issue such as inflammation or infection, and that the chest symptoms could be related to angina or other causes. No definitive diagnosis is documented. The physician advises monitoring symptoms closely and discusses possible causes for the patient’s complaints.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.339
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

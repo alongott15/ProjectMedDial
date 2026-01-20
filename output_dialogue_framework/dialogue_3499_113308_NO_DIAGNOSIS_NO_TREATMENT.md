@@ -100,3 +100,21 @@ Would you like me to explain more about what might cause these symptoms, or do y
 ## Processing Information
 
 - **Processing Time**: 410.1s
+
+## EHR Summary
+
+The patient is a 51-year-old male presenting with diffuse aches and stabbing chest pain radiating to the back and down the right arm, accompanied by palpitations, nausea, and diaphoresis. Symptoms had occurred one to two weeks prior but were not previously evaluated. Past medical history includes hypercholesterolemia and hypertension; he has a significant tobacco use history and takes vitamin E, with no known drug allergies. Cardiac catheterization revealed significant left anterior descending stenosis, and ECG showed ST elevations with T wave inversions in V1–V4; laboratory findings included elevated troponin and CK. The documented diagnosis was status post coronary artery bypass graft times two. Treatment included coronary artery bypass grafting (CABG) with left internal mammary and saphenous vein grafts, postoperative management with Coumadin for possible inferior wall hypokinesis, and antibiotics (Vancomycin, then oral Keflex) for minor sternal wound drainage. The patient was discharged in stable condition with instructions for follow-up with his cardiologist for INR checks and continued outpatient care.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with chest pain as the chief complaint. The pain is described as aching and stabbing, radiating to the back and down the right arm, with associated palpitations, nausea, and sweating; episodes are moderate in intensity, come and go, and are not triggered by exertion or activity, occurring even at rest. The patient denies shortness of breath, fatigue, or prior similar episodes. Relevant history includes high blood pressure and high cholesterol, but no known heart conditions. The clinical impression is that the symptoms could be related to cardiac, musculoskeletal, or digestive causes, but the combination of features and risk factors raises concern for possible heart-related issues. No definitive diagnosis was made during the visit. The treatment plan is prompt evaluation in an urgent care or emergency setting to rule out serious cardiac causes, with instructions to avoid exertion and seek immediate care if symptoms worsen or new symptoms develop. The patient was advised to communicate all symptoms and relevant history to the urgent care team.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.588
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 170 words
+

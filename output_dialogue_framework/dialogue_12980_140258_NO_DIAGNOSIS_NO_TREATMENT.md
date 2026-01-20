@@ -98,3 +98,23 @@ If you notice any new symptoms like vomiting blood, feeling extremely short of b
 ## Processing Information
 
 - **Processing Time**: 327.0s
+
+## EHR Summary
+
+The patient is a 300-year-old female presenting with melena and a syncopal episode. She was found to have tachycardia, hypotension, decreased hematocrit, and strongly guaiac-positive melanotic stool, with a history of recent hip fracture, congestive heart failure (EF 45%), and dementia. On admission, her INR was elevated at 5.6, and she was taking Coumadin and aspirin. The clinical assessment was significant upper gastrointestinal bleeding, complicated by coagulopathy, aspiration pneumonia, and acute myocardial infarction (evidenced by troponin elevation and T wave inversions). Initial treatment included transfusions of fresh frozen plasma and packed red blood cells, intravenous vitamin K, fluids, furosemide, and a proton pump inhibitor; empiric antibiotics (clindamycin and ceftriaxone) were started for possible aspiration pneumonia. Due to worsening respiratory status, pulmonary edema, and declining cardiac function (EF dropped to 25%), the patient was transitioned to comfort measures only after discussion with her family and primary care physician. She received morphine for pain and Ativan for agitation. The patient expired on [2104-6-8] with family present.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with the chief complaint of dark, almost black stools (melena) persisting for several days. Associated symptoms include intermittent chest pain, increasing weakness, fatigue, a recent episode of syncope (passing out), and difficulty performing basic daily activities. The patient reports that the weakness and hematocrit have worsened over the past few days, and requires assistance with self-care. There is no mention of changes in appetite.
+
+The clinical impression documented by the doctor is possible gastrointestinal bleeding leading to anemia, as evidenced by melena, dropping hematocrit, and associated symptoms. The chest pain is noted as potentially related to decreased oxygen delivery from anemia. The treatment plan includes advising the patient to seek prompt medical attention to identify and stop the source of bleeding, rest, avoid strenuous activity, and monitor for worsening symptoms such as vomiting blood or severe shortness of breath, which would warrant emergency care.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.659
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 150 words
+

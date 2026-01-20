@@ -96,3 +96,23 @@ Would you like help arranging a more urgent evaluation, or do you have questions
 ## Processing Information
 
 - **Processing Time**: 393.2s
+
+## EHR Summary
+
+The patient is a 51-year-old male presenting with shoulder pain. He experienced constant, non-radiating right shoulder pain, extreme fatigue, nausea, and diaphoresis while playing ice hockey, with symptoms not relieved by rest and worsening on his way home. His past medical history includes coronary artery disease (CAD), hypertension, prior anterior STEMI with stent placement, and syncope; he had stopped all cardiac medications two years prior. On admission, EKG showed ST elevations and echocardiography revealed an ejection fraction of 40% with regional wall motion abnormalities. The documented diagnoses were coronary artery disease and myocardial infarction. He underwent cardiac catheterization with drug-eluting stent placement to the left circumflex artery and was managed with aspirin, clopidogrel, beta blocker, statin, nitroglycerin, and valsartan. The patient was discharged in stable condition with instructions to resume medical therapy, follow up with cardiology, and undergo further cardiac testing.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with shoulder pain as the chief complaint. The pain is described as dull and aching, rated 6 out of 10 in severity, and has been present for a couple of days; it is worsened by arm movement and not associated with swelling, redness, or warmth. The patient also reports significant fatigue, nausea, and sweating accompanying the shoulder discomfort. There is no mention of chest pain or shortness of breath.
+
+Relevant medical history, medications, and allergies are not specified. The clinician notes that while musculoskeletal causes are possible, the combination of symptoms raises concern for potential cardiac or internal organ involvement. No definitive diagnosis is documented in the dialogue. The treatment plan includes recommending prompt evaluation to rule out urgent causes, advising rest and avoidance of strenuous activity, and instructing the patient to seek immediate medical attention if symptoms worsen or new symptoms develop. The patient agrees to arrange a prompt evaluation.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.602
+- **Model Used**: general
+- **Text1 Length**: 141 words
+- **Text2 Length**: 157 words
+

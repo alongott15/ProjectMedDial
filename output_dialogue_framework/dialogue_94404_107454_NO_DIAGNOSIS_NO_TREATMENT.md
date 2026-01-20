@@ -85,16 +85,21 @@ How have you been managing your mood and sleep so far—are there any strategies
 
 ## EHR Summary
 
-The patient is a 40-year-old male presenting with alcohol withdrawal. He experienced agitation, confusion, tremors, tachycardia (HR 106), hypertension (BP 157/117), and a high CIWA score of 30, with symptoms escalating prior to admission and requiring increasing doses of lorazepam. His relevant history includes depression, suicidal ideation, alcohol abuse, hyperlipidemia, anxiety, obstructive sleep apnea, GERD, and a history of positive PPD treated with INH. On exam, he was tremulous, tachycardic, hypertensive, and sedated upon arrival to the unit. The documented diagnosis was alcohol withdrawal. Treatment included administration of 15mg IV diazepam, 2 liters of normal saline, and 5mg haloperidol for agitation. The patient was monitored and sedated during his hospital stay.
+The patient is a 40-year-old male presenting with alcohol withdrawal. He experienced agitation, confusion, tremulousness, tachycardia (HR up to 109), and hypertension (BP up to 157/117), with a CIWA score of 30 and recent increased benzodiazepine requirements. His history includes depression, suicidal ideation, alcohol abuse, hyperlipidemia, obstructive sleep apnea, GERD, and possible NASH; he has no known drug allergies. The documented diagnoses were alcohol withdrawal, depression, transaminitis (elevated liver enzymes likely due to alcohol use), and GERD. Treatment included IV diazepam, lorazepam (transitioned to oral), supportive care with IV fluids, multivitamin, thiamine, folate, and continuation of home medications such as bupropion and pantoprazole. Psychiatry was consulted for ongoing management of depression and placement, and the patient was discharged in stable condition to an extended care psychiatric facility. He was advised to follow up with his primary care provider within 1-2 weeks for repeat liver function tests and to seek immediate help if concerning symptoms arise.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns related to alcohol withdrawal. Symptoms discussed included persistent shakiness, agitation, difficulty focusing, confusion, feeling sedated, trouble thinking clearly, foggy memory, constant hand trembling, trouble sleeping, and worsening depression; these symptoms began within a day of stopping alcohol and have remained steady throughout the day without notable improvement or worsening. The patient denied heart racing, excessive sweating, or disorientation regarding location. Relevant history includes recent cessation of alcohol and use of prescribed medications for withdrawal; no allergies were mentioned. Clinical findings were based on patient report, with no physical examination findings described. The doctor assessed the symptoms as consistent with common alcohol withdrawal and noted that the steady nature of symptoms is somewhat reassuring, but emphasized monitoring for severe confusion or hallucinations. The treatment plan included advice to stay hydrated, eat regular meals, maintain a sleep routine, and seek medical attention if symptoms worsen or new severe symptoms develop. The patient reported some benefit from maintaining structure and using prescribed medications, though sleep and mood remain challenging.
+The patient presents with symptoms related to alcohol withdrawal. Key symptoms include persistent hand tremors, agitation, difficulty focusing, confusion, foggy thinking, trouble remembering recent events, insomnia, and worsening depression; these symptoms began within a day of stopping alcohol and have remained steady without significant fluctuation throughout the day. The patient denies palpitations, excessive sweating, or severe disorientation but reports constant shakiness and cognitive difficulties. There is no mention of hallucinations or severe changes in alertness. Relevant history includes recent cessation of alcohol use and current use of prescribed medications for withdrawal (specific medications not detailed). The clinical impression is alcohol withdrawal syndrome with associated mood disturbance and sleep disruption. The treatment plan includes supportive measures such as maintaining hydration, eating regular meals, and establishing a sleep routine, with instructions to seek medical attention if symptoms worsen or new severe symptoms develop. The patient has been attempting to manage symptoms with structure and prescribed medications but continues to experience difficulty with sleep and mood.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.637
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

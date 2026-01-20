@@ -166,3 +166,21 @@ If you're able, please arrange to go to the nearest emergency department or call
 ## Processing Information
 
 - **Processing Time**: 321.7s
+
+## EHR Summary
+
+The patient is a 74-year-old female presenting with a large black stool and abdominal pain. She was found to be hypotensive (blood pressure 82/50), tachycardic, and had a decreased hematocrit from 32 to 28.1, with coffee ground emesis on nasogastric lavage. Her past medical history includes hypertension, diabetes mellitus, aortic valve replacement on Coumadin, depression, and chronic right foot ulcer. The documented diagnoses were upper gastrointestinal bleed due to esophageal ulcers and a urinary tract infection (Klebsiella). Treatment included high-dose intravenous pantoprazole, two units of packed red blood cells, four units of fresh frozen plasma, vitamin K, and a five-day course of levofloxacin for the UTI. Her antihypertensive and diabetic regimens were adjusted, and her chronic foot ulcer received wet-to-dry dressing changes. She was discharged in stable condition with follow-up planned for repeat endoscopy and ongoing care at a rehabilitation facility.
+
+
+## Dialogue Summary
+
+The patient is an older adult presenting with abdominal discomfort and low blood pressure (82/50). Key symptoms include a dull, deep, steady abdominal ache, weakness, shortness of breath, vomiting, and black stool (melena), with recent onset of these symptoms. The patient also has a chronic ulcer on the right foot and heel. The physician expressed concern that the combination of hypotension, melena, vomiting, weakness, and dyspnea may indicate possible internal gastrointestinal bleeding. The documented clinical impression was a potentially serious underlying cause for these symptoms, likely gastrointestinal bleeding. The treatment plan included urgent recommendation to seek immediate medical attention at the emergency department rather than attempting further oral hydration at home. The patient was advised to inform the hospital team of all symptoms and relevant medical history and to seek help promptly if symptoms worsen.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.655
+- **Model Used**: general
+- **Text1 Length**: 141 words
+- **Text2 Length**: 135 words
+

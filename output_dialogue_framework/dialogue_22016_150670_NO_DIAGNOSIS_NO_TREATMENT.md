@@ -63,16 +63,21 @@
 
 ## EHR Summary
 
-The patient is a 44-year-old female presenting with persistent postoperative headache localized to the left side of the head following a hysterectomy. The headache prompted outpatient evaluation and subsequent admission for further work-up. Past medical history includes fibroids (status post hysterectomy), prior appendectomy, and benign breast cyst removal; she takes Lipitor and Fioricet and has no medication allergies. Physical examination was unremarkable, with normal vision and facial function. MRI revealed an enhancing mass in the sella, consistent with an adenoma. The documented diagnosis was sellar adenoma. She underwent transnasal, trans-sphenoidal surgical removal of the lesion, which she tolerated well. Postoperative recovery was stable.
+The patient is a 44-year-old female presenting with a persistent postoperative headache localized to the left side of the head following a hysterectomy. The headache prompted outpatient evaluation and subsequent admission for further work-up. MRI revealed an enhancing mass in the sella, consistent with an adenoma. Her past medical history includes fibroids (status post hysterectomy), prior appendectomy, and benign breast cyst removal; she has no medication allergies and was taking Lipitor and Fioricet. On examination, she was well-appearing with unremarkable general and neurological findings, including full visual fields and normal facial function. The documented diagnosis was a sellar mass consistent with an adenoma. She underwent transnasal, transsphenoidal surgical removal of the lesion, tolerated the procedure well, and had an unremarkable postoperative course. At discharge, her condition was stable and improved, with follow-up arranged for neurosurgery, ENT, and endocrine services; pathology results were pending.
+
 
 ## Dialogue Summary
 
-The patient presented with a steady, persistent headache on the left side of the head following recent surgery. The headache is described as a constant ache rather than throbbing and has been present since the surgery, with no prior history of similar headaches. The patient denied associated symptoms such as vision problems, nausea, or sensitivity to light or sound. Taking Fioricet provides partial relief, but the headache does not resolve completely; no specific activities or positions affect the discomfort. No additional medical history, allergies, or other medications were mentioned. The doctor inquired about pain severity and changes in intensity but did not provide a formal assessment or diagnosis during the encounter. No specific treatment plan or recommendations were given at this time.
+The patient is presenting with a chief complaint of a steady, persistent headache localized to the left side of the head since undergoing surgery. The headache is described as a constant ache rather than throbbing, and it has not resolved since onset. The patient reports no prior history of similar headaches before surgery and denies associated symptoms such as vision changes, nausea, or sensitivity to light or sound. Taking Fioricet provides partial relief, but the headache does not completely resolve; no specific activities or positions affect the pain. Relevant medical history includes recent surgery and current use of Fioricet for symptom management. No formal diagnosis was documented in the dialogue. The treatment plan so far includes continued use of Fioricet for symptomatic relief. Further assessment regarding pain severity and changes over time was initiated by the physician.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.532
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 137 words
+
 
 ## Processing Information
 

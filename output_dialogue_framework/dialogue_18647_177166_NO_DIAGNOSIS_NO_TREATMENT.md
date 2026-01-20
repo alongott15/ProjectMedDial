@@ -87,16 +87,21 @@ Let me know if you have questions about what we’ve discussed, or if there’s 
 
 ## EHR Summary
 
-The patient is a 41-year-old female presenting after an abnormal electrocardiogram was found during a routine physical examination. She was asymptomatic, with no acute distress or cardiopulmonary complaints documented. Her relevant history includes a recent echocardiogram revealing a large atrial septal defect (ASD) with right atrial and ventricular dilation and significant left-to-right shunt. Physical examination was notable for mild bilateral lower extremity edema and mild lordosis due to fallen arches, but otherwise unremarkable. Electrocardiogram showed normal sinus rhythm. The documented diagnosis was a large atrial septal defect. The patient underwent minimally invasive surgical repair of the ASD during this admission. No additional treatments or recommendations were specified in the note.
+The patient is a 41-year-old female presenting after an abnormal electrocardiogram was found on routine physical examination. She was asymptomatic but referred for further workup, which revealed a large atrial septal defect (ASD) with right atrial and ventricular dilation and significant left-to-right shunt on echocardiogram. Her relevant history includes mild bilateral lower extremity edema and mild lordosis due to fallen arches; no acute distress or cardiopulmonary symptoms were documented. The documented diagnosis was a large atrial septal defect. She underwent minimally invasive ASD repair without complications and had an uneventful postoperative course. Treatment included perioperative Kefzol, postoperative Lopressor, aspirin, pain management with Percocet, and other supportive medications. She was discharged in good condition with instructions regarding potential complications and no need for further physical therapy.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about an abnormal EKG found during a routine checkup. They reported no chest pain or shortness of breath, but described pain with walking attributed to fallen arches and mild swelling in both lower legs, which worsens after prolonged standing or walking and has persisted for several days. The patient denied redness, warmth, or changes in skin color, and noted that elevating their legs and wearing supportive shoes helps alleviate symptoms. No history of heart symptoms, major functional limitations, or acute changes was mentioned. On assessment, the doctor noted mild bilateral leg swelling likely related to gravity, footwear, or circulation, and found no warning signs for urgent cardiac or vascular issues. The doctor advised continuing supportive footwear and regular leg elevation, and recommended monitoring for worsening swelling, pain, chest discomfort, or sudden shortness of breath. The patient understood the plan and agreed to follow these recommendations.
+The patient is an adult presenting with concern about an abnormal EKG noted during a routine checkup. They report no chest pain, dyspnea, or fatigue, but describe bilateral lower leg swelling for several days, which worsens after prolonged standing or walking and improves with leg elevation. The patient also experiences pain with walking attributed to fallen arches, which is alleviated by supportive footwear. There is no associated redness, warmth, or skin color change in the legs, and daily activities are only mildly limited by discomfort. Relevant history includes fallen arches; no other medical history, medications, or allergies are specified. The clinical impression is that the lower extremity swelling is likely related to gravity, footwear, or circulation issues, and the abnormal EKG is not considered urgent in the absence of cardiac symptoms. The treatment plan includes continued use of supportive shoes, regular leg elevation, and monitoring for worsening swelling or new symptoms such as chest discomfort or sudden shortness of breath. The patient was advised to seek care if symptoms worsen or new concerning features develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
+- **STS Score**: 0.440
+- **Model Used**: general
+- **Text1 Length**: 125 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

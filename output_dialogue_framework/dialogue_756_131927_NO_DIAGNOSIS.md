@@ -107,16 +107,21 @@ It’s always better to catch and address these issues early, and you’re doing
 
 ## EHR Summary
 
-The patient is a 72-year-old female presenting for a diagnostic cardiac catheterization due to reversible ischemia identified on stress testing. She has a past medical history of coronary artery bypass grafting (CABG). No acute symptoms were documented on admission, and her physical exam was unremarkable, with normal vital signs and no distress. Laboratory results showed elevated glucose (252 mg/dL), urea nitrogen (28 mg/dL), and creatinine (1.5 mg/dL), with otherwise stable hematologic and electrolyte values. The patient underwent aspirin desensitization in the CCU, which she tolerated well, and was subsequently transferred for her procedure. The documented diagnosis was reversible ischemia on stress testing in the context of prior CABG. Treatment included aspirin desensitization and continuation of her home medications, including clopidogrel, amlodipine, atenolol, atorvastatin, levothyroxine, furosemide, pantoprazole, conjugated estrogens, multivitamin, and olmesartan.
+The patient is a 72-year-old female presenting for a diagnostic catheterization due to reversible ischemia noted on stress testing. She did not report acute symptoms during admission and was described as comfortable and in no apparent distress on physical exam. Her relevant history includes prior coronary artery bypass grafting (CABG) and allergies to penicillins, codeine, aspirin, and epinephrine. The documented diagnoses were angina and coronary artery disease (CAD). During hospitalization, she underwent aspirin desensitization, which she tolerated well, and was subsequently started on daily aspirin therapy. Discharge medications included aspirin 325 mg daily in addition to her prior regimen. She was discharged home in stable condition with instructions to continue all medications and to contact her doctor if she experiences chest pain or shortness of breath. Follow-up with her cardiologist was advised within one month.
+
 
 ## Dialogue Summary
 
-The patient presented for evaluation prior to a diagnostic cardiac catheterization due to reversible ischemia found on a recent stress test. The patient denied any current symptoms, including chest tightness, discomfort, shortness of breath, palpitations, lightheadedness, or changes in activity tolerance; no symptoms were reported with exertion, after eating, or in cold weather. Relevant history includes high blood pressure, high cholesterol, and a strong family history of heart disease (father with heart attack, brother with stent placement); no diabetes was reported. The patient described stable health with no recent medication changes or new side effects such as swelling or sleep disturbances. On assessment, the doctor noted the absence of symptoms and stable activity level but emphasized the significance of reversible ischemia on stress testing and the patient’s cardiac risk factors. The doctor recommended proceeding with the diagnostic cath to evaluate for possible coronary blockages and advised continuing usual activities and medications until the procedure. The patient was instructed to promptly report any new symptoms such as chest pain, sudden shortness of breath, or fatigue. The doctor encouraged ongoing communication and reassured the patient about the proactive approach to care.
+The patient is an adult presenting for evaluation following a stress test that showed reversible ischemia, as referred by their primary doctor. The patient reports no current symptoms, including no chest discomfort, dyspnea (shortness of breath), palpitations, lightheadedness, or changes in activity tolerance; they are able to perform usual activities without limitation. Relevant history includes hypertension, hyperlipidemia, and a strong family history of heart disease (father with myocardial infarction, brother with stent placement); there is no history of diabetes. The clinical impression is possible silent coronary artery disease suggested by reversible ischemia on stress testing, despite the absence of symptoms. The treatment plan is to proceed with a diagnostic cardiac catheterization to assess for significant coronary artery blockages. The patient is advised to continue current medications and activities and to promptly report any new symptoms such as chest pain, sudden shortness of breath, or fatigue. The importance of early detection and proactive management is emphasized. No medication changes or acute interventions are planned prior to the procedure.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.658
+- **Model Used**: general
+- **Text1 Length**: 135 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

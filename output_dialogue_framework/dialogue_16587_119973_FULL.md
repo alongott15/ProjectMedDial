@@ -87,16 +87,21 @@ Would you like help arranging a follow-up with your heart doctor or have any que
 
 ## EHR Summary
 
-The patient is a 76-year-old female presenting with worsening chest pain. She reports a history of stable angina since 2130, previously infrequent and exertional, but now occurring at rest at least twice weekly, sometimes during sleep, described as chest pressure relieved by sublingual nitroglycerin and rest. Her medical history includes angina, hypertension, hyperlipidemia, gastroesophageal reflux disease, recurrent biliary stones, osteopenia, arthritis, and a shellfish allergy. Outpatient cardiac testing showed moderate inferolateral ischemia on Myoview study and an echocardiogram with 50% ejection fraction, mild aortic insufficiency, and mild-to-moderate mitral regurgitation. On physical exam, she was afebrile with blood pressure 130/80 mmHg and heart rate 70 bpm in sinus rhythm; her cardiovascular and respiratory exams were unremarkable. The documented diagnosis is progressive angina. Treatment on admission included aspirin, Actigall, Cardizem, Protonix, Lipitor, Vioxx, nitroglycerin patch, Lamisil, and atenolol.
+The patient is a 76-year-old female presenting with worsening chest pressure consistent with angina. Over the past six months, her angina symptoms increased in frequency and intensity, now occurring at rest at least twice weekly and sometimes during sleep, with relief from sublingual nitroglycerin and rest. She has a history of angina, hypertension, hyperlipidemia, gastroesophageal reflux disease, recurrent biliary stones, osteopenia, arthritis, and a shellfish allergy. Cardiac catheterization revealed significant multi-vessel coronary artery disease, and she underwent coronary artery bypass grafting (CABG) without complications. The documented diagnoses include coronary artery disease status post CABG, gastroesophageal reflux disease, recurrent biliary stones, hypertension, hyperlipidemia, and arthritis. On discharge, her condition was stable. She was prescribed medications including Lopressor, aspirin, Lipitor, Lasix (for seven days), potassium chloride (for seven days), and pain management agents, and was advised to follow up with her cardiologist in four weeks and her primary care physician in two to three weeks for blood pressure monitoring.
+
 
 ## Dialogue Summary
 
-The patient presented with increased chest pressure that is now stronger and more frequent than before, occurring even at rest. The chest pressure is described as moderate to strong, comes and goes in episodes lasting a few minutes, and previously was triggered by activity but now occurs randomly, including during simple activities around the house. The patient denied associated symptoms such as shortness of breath, sweating, or lightheadedness, and reported that the pressure is sometimes relieved within 10–15 minutes by using a nitroglycerin patch or by resting. The patient’s history includes use of nitroglycerin patches for chest pressure; no other medical history, medications, or allergies were specified. No abnormal physical findings were described in the conversation. The doctor assessed that the symptoms are consistent with unstable angina, given their increased frequency, intensity, occurrence at rest, and response to nitroglycerin. The doctor recommended contacting the patient’s cardiologist or seeking medical attention soon, continuing nitroglycerin as prescribed, avoiding overexertion, and seeking emergency care if new severe symptoms develop. The patient requested assistance arranging a cardiology follow-up and asked about continuing other medications.
+The patient is an adult presenting with increased chest pressure as the chief complaint. The chest pressure is described as moderate to strong, occurs more frequently, lasts a few minutes per episode, and now happens even at rest without clear triggers; previously, it was associated with activity. The patient denies associated symptoms such as shortness of breath, sweating, or lightheadedness, and reports that nitroglycerin patches usually provide relief within 10–15 minutes, though resting is less consistently effective. The increased frequency and intensity of symptoms have begun to limit daily activities. Relevant history includes the use of nitroglycerin patches for symptom relief; other medical history and medications are not specified. The clinical impression documented by the doctor is unstable angina, given the change in symptom pattern and response to nitroglycerin. The treatment plan includes continuing nitroglycerin as prescribed, avoiding overexertion, and seeking prompt follow-up with a cardiologist; the patient was also advised to seek emergency care if severe symptoms develop. The doctor offered assistance in arranging a cardiology appointment and advised the patient to continue other medications as usual.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
+- **STS Score**: 0.570
+- **Model Used**: general
+- **Text1 Length**: 157 words
+- **Text2 Length**: 178 words
+
 
 ## Processing Information
 

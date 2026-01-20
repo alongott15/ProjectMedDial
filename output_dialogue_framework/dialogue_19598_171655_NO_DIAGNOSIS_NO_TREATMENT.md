@@ -91,16 +91,21 @@ Let me know if you have any questions about what to expect or what to watch for.
 
 ## EHR Summary
 
-The patient is a 39-year-old female presenting with bloody bowel movements. She reported ongoing bloody diarrhea, nausea, and vomiting beginning on [2141-9-29], with a documented hematocrit of 20.5. Her medical history includes ulcerative colitis for seven years (last flare in 2138), asthma, hepatitis B carrier status, and recent cesarean section; she is a Jehovah's Witness and refuses blood products. On exam, she was lethargic but alert and oriented, tachycardic, with abdominal tenderness in the left and right lower quadrants and a positive guaiac test on rectal exam. The documented diagnosis is an ulcerative colitis flare. Treatment included intravenous Solu-Medrol and hydrocortisone, oral and intravenous medications (Asacol, Zantac, Carafate, Flagyl, Protonix, Mylanta, Ativan, Cipro), insulin sliding scale, total parenteral nutrition, and vitamin K. She was managed without blood transfusions due to religious beliefs.
+The patient is a 39-year-old female presenting with a flare of ulcerative colitis characterized by bloody diarrhea, nausea, vomiting, and significant anemia (hematocrit 20.5). Symptoms began after discontinuing prednisone postpartum, with ongoing bloody bowel movements despite restarting steroids and Asacol. Her medical history includes ulcerative colitis, asthma, hepatitis B carrier status, and recent cesarean section; she is a Jehovah's Witness and declined blood products. On admission, she was tachycardic and lethargic, with left and right lower quadrant abdominal tenderness and guaiac-positive stool. The documented diagnoses were ulcerative colitis status post partial colectomy with diverting ileostomy, anemia, asthma, hepatitis B carrier, hypokalemia, and hypocalcemia. Treatment included subtotal colectomy with ileostomy, intravenous steroids transitioned to oral prednisone, electrolyte repletion, epoetin alpha injections, iron supplementation, multivitamins, and pain management; no blood transfusions were given due to religious beliefs. She was discharged in good condition with home nursing for ostomy care and follow-up arranged in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with bloody bowel movements as the chief complaint. They reported having bloody diarrhea for a few days, accompanied by nausea, vomiting, and significant fatigue that has made daily activities difficult. Additional symptoms included weakness and heart racing, particularly when standing, which improved with rest; the patient also noted green stool output from their ostomy and was informed of a low blood count. No specific past medical history, medications, or allergies were mentioned in the conversation. The doctor noted worsening symptoms over the past few days and highlighted clinical concerns for significant blood loss and dehydration, with compensatory tachycardia and orthostatic weakness. The assessment was gastrointestinal bleeding, possibly due to infection, inflammation, or other gut pathology, with rapid intestinal transit suggested by green ostomy output. The doctor recommended prompt medical evaluation, advising the patient to seek urgent care or emergency attention if symptoms worsen, especially if weakness, dizziness, inability to keep fluids down, or increased bleeding occur. The patient expressed understanding of the recommendations.
+The patient presents with the chief complaint of bloody bowel movements. They report several days of bloody diarrhea accompanied by nausea, vomiting, worsening fatigue, weakness, and episodes of heart racing (palpitations), particularly when standing, which improve with rest. The patient notes increased difficulty performing daily activities due to fatigue and mentions that symptoms have been worsening. Additional findings include green output from an ostomy and a recent report of low blood count. The clinical impression is significant blood loss and dehydration, likely due to gastrointestinal bleeding, with possible causes including infection or inflammation. The physician advises prompt medical evaluation due to the severity and progression of symptoms, recommending urgent care or emergency assessment if weakness, dizziness, inability to keep fluids down, or increased bleeding occur. No specific medications or interventions were initiated during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.522
+- **Model Used**: general
+- **Text1 Length**: 153 words
+- **Text2 Length**: 135 words
+
 
 ## Processing Information
 

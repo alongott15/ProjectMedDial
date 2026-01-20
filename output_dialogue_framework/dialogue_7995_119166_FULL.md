@@ -85,16 +85,21 @@ If you notice new symptoms like increasing pain, inability to bear any weight, c
 
 ## EHR Summary
 
-The patient is a 74-year-old female presenting with right hip pain following a fall. She reports no loss of consciousness, preceding symptoms, head injury, chest pain, dizziness, abdominal pain, or hemoptysis, and specifically notes right hip pain after the incident. Her relevant medical history includes chronic obstructive pulmonary disease, glaucoma, rheumatoid arthritis, osteoarthritis, hypertension, osteopenia, peripheral vascular disease status post right femoral bypass, and a remote history of deep venous thrombosis. Outpatient medications include Atrovent, Lasix, Colace, Plavix, Metoprolol, Prednisone, glaucoma eye drops, Lisinopril, Protonix, nicotine patch, subcutaneous heparin (in rehabilitation), and she was on day 8 of 10 of Keflex for cellulitis. On physical examination, she was afebrile with stable vital signs and oxygen saturation of 95% on room air. The documented diagnosis is not explicitly stated in the note. Treatment details are not specified in the provided text.
+The patient is a 74-year-old woman presenting with a fall and right hip pain. She reported falling while standing at a bathroom sink, with no loss of consciousness or preceding symptoms, and subsequently developed right hip pain. Her medical history includes chronic obstructive pulmonary disease, glaucoma, rheumatoid arthritis, osteoarthritis, hypertension, osteopenia, peripheral vascular disease (status post right femoral bypass), and a remote deep venous thrombosis. On examination, her right leg was shortened and externally rotated; imaging revealed a nondisplaced intertrochanteric femur fracture. The documented diagnosis was right hip fracture. She underwent open reduction and internal fixation surgery, received blood transfusions for anemia, IV hydration for acute renal failure (which resolved), and was treated with ciprofloxacin for an asymptomatic urinary tract infection. Discharge medications included pain management (OxyContin, oxycodone), anticoagulation (Coumadin, Lovenox), and her chronic medications; she was advised to wean off OxyContin and continue Lovenox until INR is therapeutic on Coumadin. Staples are to be removed on 8/12, and she is to follow up with orthopedics on 8/24.
+
 
 ## Dialogue Summary
 
-The patient presented with right hip pain following a fall that occurred a couple of days ago. The pain is localized to the side of the right hip, rated as 6 out of 10 in severity, and worsens with walking or standing but improves with sitting or lying down; mobility has been significantly affected. The patient also reported that the right foot feels colder than the left since the fall, though there is no numbness, tingling, or color change noted. No relevant medical history, medications, or allergies were mentioned. On clinical assessment, the doctor noted soreness on the lateral right hip and difficulty with ambulation, with attention to the colder right foot but reassurance due to absence of sensory or color changes. The doctor’s assessment included possible bruising, muscle strain, or hip contusion following the fall, with concern for vascular changes if new symptoms arise. The treatment plan included rest, use of a cane or walker for support, and application of ice to the affected area; the patient was advised to monitor for worsening pain, inability to bear weight, skin color changes, numbness, or swelling and seek prompt medical attention if these occur.
+The patient is an adult presenting with right hip pain following a fall that occurred approximately two days ago. The pain is localized to the lateral aspect of the right hip, is rated 6 out of 10 in severity, worsens with walking or standing, and improves with sitting or lying down. The patient reports difficulty with mobility and notes that the right foot feels colder than the left since the fall, but denies numbness, tingling, or color changes. There is no mention of prior relevant medical history, medications, or allergies. The clinical impression is likely a hip contusion or muscle strain secondary to trauma, with attention to possible vascular changes due to the cold sensation in the foot. The treatment plan includes rest, use of a cane or walker for support, and application of ice to the affected area for short intervals. The patient was advised to monitor for new symptoms such as increasing pain, inability to bear weight, skin color changes, numbness, or swelling, and to seek prompt medical attention if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.570
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 174 words
+
 
 ## Processing Information
 

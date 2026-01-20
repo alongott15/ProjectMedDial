@@ -68,16 +68,21 @@
 
 ## EHR Summary
 
-The patient is an 85-year-old male admitted with lower gastrointestinal bleeding. He experienced intermittent episodes of bright red blood per rectum (BRBPR) over four days, requiring transfusion of 13 units of blood, but remained hemodynamically stable without abdominal pain, chest pain, shortness of breath, fever, chills, nausea, or vomiting. His past medical history includes two prior myocardial infarctions, dual chamber pacemaker, small cerebrovascular accident with mild left facial droop, hypertension, hyperlipidemia, and prostate cancer status post-surgery with stress incontinence. Physical exam revealed a soft, non-tender abdomen and positive guaiac test for blood. Laboratory results showed anemia with hemoglobin dropping from 11.7 to 8.8 and thrombocytopenia. The clinical impression was ongoing lower GI bleeding, likely from the right colon based on tagged RBC scan findings. Treatment included subtotal colectomy with ileal rectal anastomosis and rigid proctoscopy. The patient was monitored for hemodynamic stability and received blood transfusions as needed.
+The patient is an 85-year-old male admitted with lower gastrointestinal bleeding. He experienced intermittent episodes of bright red blood per rectum over four days, requiring transfusion of 13 units of blood, but remained hemodynamically stable without abdominal pain, chest pain, shortness of breath, fever, chills, nausea, or vomiting. His past medical history includes two prior myocardial infarctions, dual chamber pacemaker, small cerebrovascular accident with mild facial droop, hypertension, hyperlipidemia, and prostate cancer status post-surgery. During hospitalization, he underwent a subtotal colectomy with ileal rectal anastomosis and rigid proctoscopy; postoperatively, he developed a myocardial infarction confirmed by positive troponins and echocardiogram findings. The documented diagnoses were lower GI bleed and postoperative myocardial infarction. Treatment included surgery, blood transfusions, initiation of aspirin and beta blocker, and transfer to a rehabilitation facility. Discharge medications included aspirin, dipyridamole-aspirin, atorvastatin, metoprolol, isosorbide mononitrate, furosemide, ezetimibe, docusate sodium, pantoprazole, albuterol as needed, and heparin. The patient was discharged in stable condition with instructions for follow-up with his primary care provider and surgeon.
+
 
 ## Dialogue Summary
 
-The patient presented with rectal bleeding, specifically noticing bright red blood during bowel movements. The bleeding began a couple of days ago and has occurred more than once, with the blood appearing on the surface of the stool and toilet paper but not mixed in with the stool; the amount has remained consistent and is described as noticeable but not a lot. The patient denied any pain, lightheadedness, or changes in bowel movements, though he reported stress incontinence related to prior prostate surgery. No recent constipation, straining, or dietary changes were discussed before the simulation ended. On examination, no physical findings were noted, as only patient-reported symptoms were available. The doctor assessed that the location of the blood (on the surface of stool and toilet paper) may help determine the source of bleeding. No specific treatment plan or recommendations were provided during the conversation.
+The patient is an adult male presenting with rectal bleeding as the chief complaint. He reports noticing bright red blood on the surface of the stool and on toilet paper for the past couple of days, with multiple episodes and a consistent amount each time. He denies associated pain, lightheadedness, or changes in bowel movements, and has a history of stress incontinence following prostate surgery. There is no mention of recent constipation, straining, or dietary changes. The location of the blood suggests a distal source, but no definitive diagnosis was documented in the dialogue. No specific treatment or recommendations were provided during this exchange.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.622
+- **Model Used**: general
+- **Text1 Length**: 166 words
+- **Text2 Length**: 104 words
+
 
 ## Processing Information
 

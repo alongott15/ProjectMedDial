@@ -78,16 +78,23 @@ In the meantime, watch for symptoms like feeling faint, rapid heartbeat, or wors
 
 ## EHR Summary
 
-The patient is a 60-year-old female presenting with bright red blood per rectum and coffee ground hematemesis. She reported episodes of tarry stools over the past two days, with associated hypotension (blood pressure 90–100/60 mmHg) and tachycardia (heart rate 101–103 bpm) on admission. Her past medical history is significant for congestive heart failure, coronary artery disease (status post CABG), diabetes mellitus with complications, hypertension, peripheral vascular disease, chronic renal insufficiency, and prior mitral valve replacement. On examination, stool was dark and heme positive, and her hematocrit was found to be 16.6%. The clinical impression was gastrointestinal bleeding with symptomatic anemia. Treatment included transfusion of two units of packed red blood cells, intravenous fluids, and placement of a left femoral central line. She was monitored for hemodynamic stability and further management of her underlying conditions.
+The patient is a 60-year-old female presenting with bright red blood per rectum and coffee ground hematemesis. She experienced episodes of tarry stools over the past two days, with associated hypotension (blood pressure as low as 90/60) and tachycardia (heart rate up to 103), and was found to have a hematocrit of 16.6 on admission. There was no report of fever, chills, vomiting, abdominal pain, or hematochezia. Her medical history includes congestive heart failure, coronary artery disease (status post CABG), diabetes with neuropathy and nephropathy, hypertension, peripheral vascular disease, chronic renal insufficiency, and prior mitral valve replacement. She is on multiple medications including anticoagulants (heparin), antiplatelet therapy (aspirin), and diuretics. The clinical impression is gastrointestinal bleeding with significant anemia. Treatment included transfusion of packed red blood cells, intravenous fluids, and ongoing monitoring; she was also receiving ceftriaxone for pneumonia.
+
 
 ## Dialogue Summary
 
-The patient presented with bright red blood in the toilet bowl after bowel movements. Symptoms included recurrent episodes of bright red blood over the past few days (not every bowel movement), absence of pain during defecation, recent onset of darker, almost tarry stools, and vomiting with a coffee ground appearance; the patient denied lightheadedness, weakness, appetite or weight changes, and reported stable energy levels. No relevant medical history, medications, or allergies were mentioned. On review, there were no physical findings described beyond the patient's reported symptoms. The doctor assessed that the combination of bright red blood per rectum, coffee ground vomiting, and dark/tarry stools suggests possible gastrointestinal bleeding from both upper and lower sources. The doctor recommended prompt evaluation by a healthcare provider or at an urgent care/emergency department for further assessment, including possible blood tests to determine the source of bleeding. The patient was advised to monitor for new symptoms such as faintness, rapid heartbeat, or worsening weakness and to seek immediate attention if these occur. The patient demonstrated understanding of the recommendations.
+The patient presents with the chief complaint of rectal bleeding, specifically noticing bright red blood in the toilet bowl over the past few days, occurring more than once but not with every bowel movement. The patient reports no pain during bowel movements, but notes recent episodes of vomiting with a coffee ground appearance and darker, almost tarry stools. There are no associated symptoms of lightheadedness, weakness, changes in appetite, weight, or energy levels. Relevant history regarding medications or prior gastrointestinal issues is not specified.
+
+The clinical impression is possible gastrointestinal bleeding from both upper (suggested by coffee ground emesis and melena) and lower (suggested by bright red blood per rectum) sources. The doctor recommends prompt evaluation by a healthcare provider or at an urgent care/emergency department for further assessment, including possible blood tests to determine the source and severity of bleeding. The patient is advised to monitor for new symptoms such as faintness, rapid heartbeat, or worsening weakness and to seek immediate care if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.683
+- **Model Used**: general
+- **Text1 Length**: 139 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

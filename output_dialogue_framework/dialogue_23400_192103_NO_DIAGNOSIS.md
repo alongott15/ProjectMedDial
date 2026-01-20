@@ -87,16 +87,23 @@ Most sore throats improve on their own within a week. However, if your symptoms 
 
 ## EHR Summary
 
-The patient is a 59-year-old man presenting with a chief complaint of sore throat, malaise, and odynophagia for two days. He also reported left neck swelling and tenderness over the preceding 24 hours, subjective fevers, hoarseness, and recent sick contact (his wife with an upper respiratory infection). His past medical history includes non-insulin dependent diabetes mellitus, hypertension, and hypercholesterolemia; he takes multiple medications including atenolol, Lipitor, Diovan, Norvasc, Vioxx, albuterol, Viagra, and niacin. On physical examination, he appeared tired but was not in respiratory distress; notable findings included left soft palate swelling and uvular deviation to the right, with tenderness of the left floor of the mouth. No pus was expressed from the ducts. The diagnosis is not explicitly documented in the note. Treatment plan and specific recommendations are not specified in the provided text.
+The patient is a 59-year-old man presenting with a two-day history of sore throat, malaise, odynophagia, and left neck swelling with tenderness. He reported subjective fevers, hoarseness, and recent sick contact (his wife with an upper respiratory infection), but denied recent dental work or prior neck swelling. His past medical history includes non-insulin dependent diabetes mellitus, hypertension, and hypercholesterolemia; he has no known drug allergies. Physical examination revealed left soft palate swelling with uvular deviation, left submandibular gland enlargement, and airway compromise due to lateral pharyngeal wall swelling. Imaging and endoscopy confirmed a left parapharyngeal and retropharyngeal space phlegmon/cellulitis without abscess formation. The documented diagnosis was left parapharyngeal and retropharyngeal phlegmon/cellulitis. Treatment included intravenous Unasyn, intravenous decadron, humidified oxygen, NPO status initially, and later discharge on a ten-day course of Augmentin XR. The patient’s condition improved with no progression to airway compromise, and he was advised to follow up after discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with a persistent sore throat as the chief complaint. Symptoms included throat pain lasting several days, worsened by swallowing, constant soreness, increased difficulty eating and drinking, hoarse voice, fatigue, subjective fevers (not measured), and swelling and tenderness on the left side of the neck; no congestion, cough, or white patches in the throat were reported. No relevant medical history, medications, or allergies were mentioned. Clinical findings described by the patient included swollen and tender neck glands and hoarseness. The doctor assessed that the symptoms were most consistent with a throat infection, likely viral or possibly bacterial, given the absence of cough and congestion and the presence of neck swelling and hoarseness. The doctor advised the patient to stay hydrated by taking small sips frequently, use soothing options like warm tea or throat lozenges if comfortable, and monitor for worsening symptoms such as increased difficulty swallowing fluids, trouble breathing, severe neck swelling, high fever, rash, or difficulty opening the mouth. Most sore throats resolve within a week, but the patient was instructed to seek prompt medical attention if symptoms worsen or new concerning signs develop.
+The patient is an adult presenting with a chief complaint of persistent sore throat. The sore throat has lasted for several days, is present constantly, and is significantly worse with swallowing, making eating and drinking difficult. Associated symptoms include increased fatigue, subjective fevers (not measured), hoarse voice, and swelling and tenderness on the left side of the neck; there is no cough, congestion, or visible white patches in the throat. The patient reports that their energy level remains low and unchanged since symptom onset.
+
+Relevant history, medications, and allergies are not specified. The clinical impression is that the patient likely has a throat infection, most likely viral or possibly bacterial in origin. The treatment plan includes supportive care: maintaining hydration (with small sips if needed), using soothing measures such as warm tea or throat lozenges, and monitoring for worsening symptoms such as increased difficulty swallowing, trouble breathing, severe neck swelling, high fever, rash, or difficulty opening the mouth. The patient was advised to seek further medical attention if symptoms worsen or new concerning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.969
-- **Similarity Label**: N/A
+- **STS Score**: 0.622
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

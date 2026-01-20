@@ -98,3 +98,21 @@ Let me know if you have any questions or concerns about what we've discussed, or
 ## Processing Information
 
 - **Processing Time**: 429.1s
+
+## EHR Summary
+
+The patient is a 45-year-old female presenting at 37 weeks and 5 days gestation with elevated blood pressures. She reported no headaches, visual changes, or right upper quadrant pain, but was found to have proteinuria and elevated liver function tests on admission; she also had a history of hypertension during pregnancy managed with labetalol. Her prenatal course was notable for advanced maternal age, prior admissions for elevated blood pressure and preterm contractions, and a fetal abdominal cyst. The documented diagnoses were delivery of a live born female via cesarean section, aspiration pneumonia of bacterial origin, and HELLP syndrome (hemolysis, elevated liver function, and low platelets). Treatment included induction of labor, magnesium sulfate for seizure prophylaxis, cesarean section due to arrest of labor, antibiotics (ceftriaxone, clindamycin, azithromycin, later Zosyn and vancomycin) for pneumonia, anticoagulation withheld due to hematemesis, and antihypertensive therapy switched to nifedipine. She also received Protonix for gastrointestinal prophylaxis and one dose of Diflucan for probable yeast infection. At discharge, her vital signs and laboratory values had stabilized, and she was instructed to follow up with her obstetrician in two weeks and her primary care physician for thrombophilia workup and outpatient EGD.
+
+
+## Dialogue Summary
+
+The patient is a pregnant woman presenting with concerns about elevated blood pressure during her current pregnancy. She reports consistently high home blood pressure readings over the past few days, trace bilateral lower extremity edema that worsens later in the day but improves with rest and leg elevation, and a recent history of proteinuria noted at her last urine test. She denies headaches or vision changes and remains able to perform daily activities. Additional symptoms mentioned include decreased urine output and a recent episode of coffee-ground emesis. The clinical impression discussed is possible early preeclampsia, given the combination of hypertension, proteinuria, and mild edema. The treatment plan includes continued home blood pressure monitoring, tracking of symptoms (especially headaches, vision changes, or increased swelling), and prompt contact with her healthcare provider if symptoms worsen or blood pressure rises further. Resting and elevating her legs is advised for swelling, and maintaining a log of blood pressure readings is recommended for her next appointment.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.568
+- **Model Used**: general
+- **Text1 Length**: 193 words
+- **Text2 Length**: 161 words
+

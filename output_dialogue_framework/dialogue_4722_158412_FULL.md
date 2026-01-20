@@ -89,16 +89,21 @@ Would you like to talk about practical steps for getting seen today, or do you h
 
 ## EHR Summary
 
-The patient is a 59-year-old woman presenting with a history of headaches. She has a past medical history of hypertension and hypercholesterolemia and is allergic to penicillin. On admission, her physical exam was notable for mild anxiety but no acute distress, with stable vital signs and intact cranial nerves; muscle strength was 4-5/5 in all groups, and reflexes were 2+ except for 1+ at the ankles. She was admitted following a left pterional craniotomy for clipping of a right A1 to A2 aneurysm, performed without intraoperative complications. Postoperatively, she was awake and alert, with mild right-sided weakness, slight right facial droop, and a slight pronator drift on the right side. An arteriogram confirmed good placement of the aneurysm clip. The patient remained afebrile and hemodynamically stable throughout her hospital stay. She was discharged to a short rehabilitation stay with follow-up arranged.
+The patient is a 59-year-old woman presenting with a history of headaches. She was admitted following a left pterional craniotomy for clipping of a right A1 to A2 aneurysm, with no intraoperative complications. Postoperatively, she was awake and alert, with mild right-sided weakness, slight right facial droop, and a slight pronator drift on the right side; extraocular movements and pupils were normal. Her past medical history includes hypertension and hypercholesterolemia, and she has a penicillin allergy. The documented diagnosis was a right A1 to A2 cerebral aneurysm. Treatment included surgical clipping of the aneurysm, postoperative monitoring, physical and occupational therapy, and discharge medications such as atenolol, Dilantin, Lipitor, valsartan, hydrochlorothiazide, famotidine, Percocet as needed, heparin, and Colace. She was discharged in stable condition and will follow up with her neurosurgeon in 9–14 days, with staple removal planned for postoperative day ten.
+
 
 ## Dialogue Summary
 
-The patient presented with headaches that have been occurring for a few days and are causing some difficulty with daytime focus but not affecting sleep. The headaches have remained unchanged since onset and are accompanied by subtle right-sided weakness, a slight facial droop noticed by the patient in the mirror, and a mild pronator drift on the right side; these neurological symptoms developed gradually and do not fluctuate during the day. The patient denied any speech difficulties, slurring, or trouble expressing themselves, and reported feeling more anxious than usual. No relevant past medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the combination of headache with mild right-sided weakness and facial asymmetry, without speech changes. The doctor’s assessment included possible causes such as migraine with aura, minor nerve irritation, anxiety, or less common conditions affecting cerebral blood flow, emphasizing the need to rule out serious neurological issues. The doctor recommended prompt in-person evaluation today for further examination and possible imaging, and advised seeking immediate care if symptoms worsen or new neurological signs develop.
+The patient is an adult presenting with headaches as the chief complaint. The headaches have been present for a few days, are mild to moderate in severity, and have made it somewhat harder to focus during the day but have not affected sleep. The patient also reports gradually developing right-sided weakness, a subtle right facial droop, and a slight pronator drift on the right side, with no speech difficulties or significant fluctuation in symptoms throughout the day. Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression is that the combination of headache and new neurological findings (right-sided weakness and facial asymmetry) may be due to causes such as migraine with aura, minor nerve irritation, or less common neurological conditions, though anxiety is also considered. The doctor recommends prompt in-person evaluation today to assess for possible nervous system involvement and determine if imaging or further tests are needed. The patient is advised to seek immediate medical attention if symptoms worsen or new symptoms such as confusion, vision changes, or severe headache develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.435
+- **Model Used**: general
+- **Text1 Length**: 141 words
+- **Text2 Length**: 177 words
+
 
 ## Processing Information
 

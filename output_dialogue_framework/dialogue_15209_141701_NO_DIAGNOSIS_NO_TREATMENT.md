@@ -188,3 +188,21 @@ For now, you can focus on recovery at home. If anything changes or new symptoms 
 ## Processing Information
 
 - **Processing Time**: 446.7s
+
+## EHR Summary
+
+The patient is a 58-year-old female presenting with fever, cough with yellow sputum, and shortness of breath at rest. Symptoms included intermittent fevers up to 102°F, productive cough, and dyspnea, without chest pain or headaches; she also reported occasional diarrhea but no abdominal pain or gastrointestinal bleeding. Her relevant history includes chronic obstructive pulmonary disease (COPD), hypertension, recent methicillin-resistant Staphylococcus aureus bacteremia, T6-T7 vertebral osteomyelitis with epidural abscess, paraplegia, mitral valve endocarditis, and a Foley catheter in place. On admission, physical exam showed decreased breath sounds and positive egophony at the right lower lobe, and imaging revealed a right lower lobe infiltrate and consolidation. The documented diagnoses were pneumonia due to hemophilus influenza, COPD, epidural abscess, endocarditis, hypertension, paraplegia, iron deficiency anemia, and sacral decubitus ulcer. Treatment included levofloxacin for pneumonia, nebulizers and inhalers for COPD, vancomycin for epidural abscess, iron supplementation for anemia, supportive care for paraplegia and ulcer prevention, and subcutaneous heparin for prophylaxis. The patient was discharged in stable condition with instructions to continue medications and follow up with her primary care physician.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with fever up to 102°F and cough producing yellow sputum as the chief complaint. Symptoms included fever, productive cough, occasional diarrhea, and a history of back pain and lower extremity neuropathy, with no recent hospitalizations or antibiotic use. The patient reported that symptoms were improving over the course of the dialogue, with no new or worsening issues such as dyspnea, chest pain, confusion, or severe weakness. The physician’s clinical impression was a mild respiratory infection, possibly bronchitis or pneumonia, likely viral or bacterial in origin. Occasional diarrhea was noted but not considered a primary concern unless it worsened. The treatment plan emphasized supportive care: rest, hydration, and close monitoring for any warning signs (e.g., shortness of breath, persistent high fever, confusion, severe weakness, or worsening diarrhea). The patient was advised to seek medical attention if any concerning symptoms developed or if current symptoms failed to improve. No antibiotics or additional interventions were recommended at this time due to the mild and improving nature of the illness.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.697
+- **Model Used**: general
+- **Text1 Length**: 176 words
+- **Text2 Length**: 172 words
+

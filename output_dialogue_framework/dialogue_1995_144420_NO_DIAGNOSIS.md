@@ -87,16 +87,21 @@ If you notice increasing fever, confusion, difficulty breathing, or spreading re
 
 ## EHR Summary
 
-The patient is a 73-year-old female presenting with claudication as the chief complaint. She reported several weeks of worsening pain with walking, progressing to significant claudication. Her relevant history includes type 2 diabetes mellitus, hypercholesterolemia, pancytopenia of unclear etiology, hypertension, and bilateral carotid endarterectomy; she also has allergies to Glucophage, morphine, and codeine. On physical exam, there was +2 edema in the right lower extremity and surgical changes consistent with recent bypass grafting, as well as a left swollen parotid gland consistent with parotitis. Laboratory findings showed pancytopenia (WBC 5.8, Hgb 10.1, Hct 29.9, Plt 61), mild renal insufficiency (UreaN 37), and elevated AST and total bilirubin. The documented diagnosis was peripheral vascular disease with claudication. She underwent a femoral/popliteal PTFE graft with distal PTFE to posterior tibial bypass vein graft. The treatment plan included surgical intervention and post-operative wound care.
+The patient is a 73-year-old female presenting with claudication as the chief complaint. She reported several weeks of worsening pain with walking, progressing to significant claudication. Her relevant medical history includes type 2 diabetes mellitus, hypercholesterolemia, hypertension, pancytopenia of unclear etiology, and a history of bilateral carotid endarterectomy; allergies to Glucophage, morphine, and codeine are noted. The documented diagnosis was peripheral vascular disease with lower extremity stenosis. She underwent a femoral to popliteal PTFE graft with distal PTFE to posterior tibial vein bypass. Postoperatively, she developed left parotitis treated with antibiotics and experienced serous drainage from her surgical wound, managed with dressing changes. At discharge, she was stable and transferred to an extended care facility with instructions for wound care, activity progression, and a two-week course of Augmentin. Follow-up with her physician was recommended in 1–2 weeks for staple or suture removal.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening leg pain during walking, making mobility difficult. Symptoms included cramping and aching pain in the operated leg, rated 8/10 in severity, with rapid onset of swelling, redness spreading from the incision, increased warmth, and a fever over 100.5°F for about a day; pain was not relieved by usual medication and improved only slightly with rest and elevation. The patient also reported new swelling and tenderness of the left parotid gland, wound drainage from the thigh, and increased fatigue. Relevant history includes recent leg surgery; no medication names or allergies were specified. On examination, the doctor noted rapidly worsening discomfort, severe pain, swelling, redness, warmth, fever, and parotid gland involvement. The assessment was possible infection related to the surgical site with systemic involvement. The doctor advised urgent contact with the surgical team or primary care provider for in-person evaluation, possible testing, and antibiotics if infection is confirmed, and emphasized seeking immediate care for worsening symptoms such as increasing fever, confusion, difficulty breathing, or spreading redness.
+The patient is an adult presenting with worsening leg pain during ambulation as the chief complaint. The pain is described as cramping and aching, rated 8/10 in severity, and has become more intense and unresponsive to usual pain medication; it is accompanied by swelling, redness, warmth, and recent onset of fever (>100.5°F) following leg surgery. The patient also reports swelling and tenderness of the left parotid gland, wound drainage from the thigh incision, and increased fatigue. Rest and leg elevation provide some relief for swelling but not for pain. There is no report of chills, but the symptoms have progressed rapidly over a few days. The clinical impression is possible post-surgical infection involving the operative site, with potential systemic involvement suggested by parotid gland swelling. The treatment plan includes urgent contact with the surgical team or primary care provider for in-person evaluation, possible diagnostic testing, and initiation of antibiotics if infection is confirmed. The patient was also advised to seek immediate care if symptoms worsen or new severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.566
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

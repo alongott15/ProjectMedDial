@@ -85,16 +85,21 @@ How much is this affecting your day-to-day life—are you able to eat and drink 
 
 ## EHR Summary
 
-The patient is an 81-year-old female presenting after a fall onto her face following tripping over a concrete slab. She denied chest pain, dizziness, or loss of consciousness, and recalled the event clearly; she experienced minor bleeding from her lower lip. Her medical history includes hypertension and anxiety, with no known drug allergies, and she takes lisinopril, hydrochlorothiazide, Zoloft, multivitamin, Vitamin E, and aspirin. On examination, she was afebrile with stable vital signs and a nonfocal neurological exam; there was no cervical spine tenderness. Imaging revealed a small right subtemporal subdural hematoma on head CT and a nondisplaced nasal bone fracture. The documented diagnoses were subdural hematoma and nasal bone fracture. She was admitted to the ICU for hourly neurological checks and blood pressure monitoring but did not require medication adjustments or develop neurological deficits. Neurosurgery was consulted for management.
+The patient is an 81-year-old female presenting after a fall onto her face, with the main complaint of facial injury following tripping over a concrete slab. She reported no chest pain, dizziness, or loss of consciousness, and recalled the event clearly; she had minor bleeding from her lower lip. Her past medical history includes hypertension and anxiety, with no known drug allergies, and she takes lisinopril, hydrochlorothiazide, Zoloft, a multivitamin, Vitamin E, and aspirin. On examination, she was afebrile with stable vital signs and a nonfocal neurological exam. Imaging revealed a small right subtemporal subdural hematoma and a nondisplaced nasal bone fracture. The documented diagnoses were fall with right subdural hematoma and nasal bone fracture. Treatment included ICU monitoring, neurosurgical consultation, repeat head CT showing stable hematoma, physical therapy for ambulation, and Tylenol for pain; aspirin and NSAIDs were held for one week to avoid bleeding risk. She was discharged in stable condition with plans for short-term infirmary care at her retirement home.
+
 
 ## Dialogue Summary
 
-The patient presented with bleeding from the lower lip following a fall. Symptoms included intermittent bleeding triggered by touching the lip or eating, mild pain and swelling around the lip, and increased bleeding with hot or crunchy foods; spicy foods caused stinging but were avoided. The patient reported gradual improvement in swelling and pain, with less bleeding than initially, and denied loose teeth, changes inside the mouth, or unusual bruising elsewhere. Relevant history included regular aspirin use but no prior problems with healing from cuts or bruises. On examination, the bleeding was described as a small spot that did not soak through tissue quickly, and the patient was able to eat and drink with mild discomfort. The doctor assessed the injury as a minor soft tissue injury with mild bleeding likely prolonged by aspirin use, but overall healing was progressing. The doctor recommended avoiding hot, spicy, and crunchy foods, applying a clean cold compress to reduce swelling, and monitoring for worsening symptoms or signs of infection.
+The patient is an adult presenting with lower lip bleeding following a fall. The bleeding is mild, occurs intermittently—especially when the lip is touched or irritated by eating hot or crunchy foods—and is described as a small spot that does not soak through tissue quickly. Associated symptoms include localized pain and mild swelling, both of which have shown some improvement since the injury; there are no loose teeth or other intraoral changes. The patient has a history of aspirin use but reports no prior problems with healing or abnormal bleeding elsewhere. The clinical impression is a minor soft tissue injury to the lower lip, with delayed clotting likely related to aspirin use. The treatment plan includes avoiding hot, spicy, and crunchy foods, applying a cold compress to reduce swelling, and monitoring for signs of worsening bleeding or infection. The patient is able to eat softer foods and drink without significant difficulty.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.497
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

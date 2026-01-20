@@ -87,16 +87,21 @@ Let me know if you have any questions about what we’ve discussed so far, or if
 
 ## EHR Summary
 
-The clinical note does not specify the chief complaint or presenting symptoms for this 65-year-old male admitted to the cardiothoracic surgery service. No details regarding symptom characteristics, relevant medical history, physical exam findings, or test results are documented. There is no explicit diagnosis or clinical impression provided in the note. The treatment plan, including any specific interventions or recommendations, is not described. Therefore, key clinical information is not available in this documentation.
+The clinical note does not specify a chief complaint or describe any symptoms. There is no documentation of relevant medical history, diagnosis, or assessment in the provided text. No treatment plan, medications, or recommendations are mentioned. Therefore, key clinical details are not available in this note.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble breathing and chest pain. Symptoms included gradually worsening shortness of breath, chest pressure described as a pressure-like discomfort (not sharp) that comes and goes, increased with activity but not notably worse when lying down, associated with sweating during episodes, and a cough producing sputum; no wheezing, lightheadedness, or fainting were reported. The patient noted that these symptoms have made daily activities such as walking around the house and climbing stairs more difficult, and that the symptoms have been getting worse over the past few days. No relevant medical history, medications, or allergies were mentioned in this encounter. The doctor noted the absence of fainting or severe lightheadedness as somewhat reassuring but emphasized the significance of exertional chest pressure and sweating. The assessment included possible causes such as reduced blood flow to the heart or a lung issue like infection or fluid buildup. The doctor advised the patient to avoid strenuous activity, monitor for worsening symptoms (such as severe chest pressure, new severe shortness of breath at rest, fainting, or pain radiating to the arm or jaw), and seek urgent care if these occur. The patient expressed understanding and concern about sweating and agitation during episodes.
+The patient presents with the chief complaint of shortness of breath and chest pressure. Symptoms include gradually worsening dyspnea and chest pressure over the past few days, which are exacerbated by physical activity and accompanied by sweating; the chest discomfort is described as a pressure sensation that comes and goes, typically lasting a few minutes during exertion. The patient also reports a productive cough but denies wheezing, lightheadedness, or fainting. These symptoms have made daily activities such as walking and climbing stairs significantly more difficult. Relevant history includes mention of leg swelling, though details are limited. The clinical impression discussed by the doctor is that the symptoms may be related to cardiac causes (such as reduced blood flow to the heart) or pulmonary issues (such as infection or fluid buildup), but no definitive diagnosis is documented. The treatment plan includes advising the patient to avoid strenuous activity and to seek urgent care if symptoms worsen (such as severe chest pressure, prolonged symptoms, new severe dyspnea at rest, fainting, or pain radiating to the arm or jaw). The doctor also encourages the patient to monitor for additional symptoms and to ask questions as needed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.922
-- **Similarity Label**: N/A
+- **STS Score**: 0.449
+- **Model Used**: general
+- **Text1 Length**: 46 words
+- **Text2 Length**: 193 words
+
 
 ## Processing Information
 

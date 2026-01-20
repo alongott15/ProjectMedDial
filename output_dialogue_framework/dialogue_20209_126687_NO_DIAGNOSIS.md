@@ -93,16 +93,23 @@ Let me ask—has the nausea and vomiting improved since it started, or is it sti
 
 ## EHR Summary
 
-The patient is an 83-year-old male presenting with unsteadiness and fever at home, brought in for evaluation of a possible urinary tract infection. His wife reported chronic urinary tract infections but no abdominal pain. Past medical history includes Alzheimer's dementia, chronic urinary tract infections, chronic obstructive pulmonary disease, hypercholesterolemia, and a history of gallstones; he has no known drug allergies. On admission, laboratory findings revealed elevated lipase (1,154), mildly elevated total bilirubin (1.64), and normal urinalysis; physical exam showed dry crackles at bilateral lung bases but no acute distress. The documented clinical impression was pancreatitis, with consideration for endoscopic retrograde cholangiopancreatography. Treatment included intravenous antibiotics (Rocephin, Flagyl, Zosyn), Tylenol, and intravenous fluids. Home medications included Aricept, salmeterol, albuterol, simvastatin, pantoprazole, and additional antibiotics. The patient was transferred for further evaluation and management of pancreatitis.
+The patient is an 83-year-old male presenting for management of pancreatitis, with a history of unsteadiness and fever at home. He was initially evaluated for a suspected urinary tract infection, but had no abdominal pain; laboratory findings included elevated lipase (1,154) and mildly elevated total bilirubin (1.64), with imaging revealing gallstones and possible gallbladder wall edema. His past medical history includes Alzheimer's dementia, chronic urinary tract infections, chronic obstructive pulmonary disease, hypercholesterolemia, and a history of gallstones; he has no known drug allergies. The documented diagnosis was gallstone pancreatitis. Treatment included intravenous antibiotics (Rocephin, Flagyl, Zosyn), aggressive fluid hydration, nothing by mouth, and nutritional support with Quick Mix. He underwent further evaluation with MRCP, which showed multiple small stones in the common bile duct and cystic duct, and was scheduled for endoscopic retrograde cholangiopancreatography for stone removal during hospitalization, with outpatient cholecystectomy planned. His COPD remained stable on home therapy throughout the hospital course.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble catching their breath. Symptoms included shortness of breath that worsens with movement but improves at rest, a faster heart rate during episodes, increased fatigue with daily activities, recent nausea with two episodes of vomiting, and increased sweating; lying down does not affect breathing, and there is no wheezing, coughing, chest discomfort, leg swelling, weight gain, fever, chills, or recent illness. No relevant medical history, medications, or allergies were mentioned. The patient denied any change in symptoms over the past few days except for the new onset of nausea and vomiting. The doctor noted the absence of swelling and fever as reassuring and considered possible causes such as deconditioning, mild anemia, dehydration, or changes in heart rhythm. The assessment was that the symptoms could be related to heart or lung function changes, mild dehydration, or low blood counts, but infection or fluid overload seemed less likely. The doctor recommended taking it easy, staying hydrated, monitoring symptoms closely, and seeking prompt medical attention if chest pain, fainting, severe shortness of breath at rest, or sudden worsening occurs.
+The patient presents with the chief complaint of shortness of breath that has been ongoing for a few days. The dyspnea is described as worse with exertion and accompanied by a sensation of not getting enough air, increased fatigue, and episodes of tachycardia; symptoms are not affected by position and there is no associated wheezing, cough, chest discomfort, peripheral edema, fever, or recent illness. The patient also reports recent onset of nausea, two episodes of vomiting, and increased sweating, but denies leg swelling or weight gain. There is no documented relevant medical history, medications, or allergies in the dialogue.
+
+The clinical impression discussed includes possible causes such as deconditioning, mild anemia, dehydration, or changes in heart rhythm, with infection and fluid overload considered less likely. The provider notes that the absence of worsening symptoms over the past few days is somewhat reassuring. The treatment plan includes recommendations to rest, maintain hydration, and monitor symptoms closely. The patient is advised to seek prompt medical attention if new symptoms such as chest pain, fainting, severe shortness of breath at rest, or sudden worsening occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.934
-- **Similarity Label**: N/A
+- **STS Score**: 0.350
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 182 words
+
 
 ## Processing Information
 

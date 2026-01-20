@@ -85,16 +85,21 @@ Let me ask—over the past few days, would you say your symptoms are staying abo
 
 ## EHR Summary
 
-The patient is an 85-year-old woman presenting with painless jaundice, dark urine, pruritus, constipation, decreased appetite, early satiety, and a 10-pound weight loss. These symptoms led to the discovery of an ampullary mass during ERCP with biopsy. Her past medical history includes two breast lumps, varicose veins, and prior tonsillectomy and adenoidectomy; she has no known drug allergies and takes only a multivitamin and Tums. On admission, she underwent a pylorus-preserving pancreaticoduodenectomy (Whipple procedure) and open cholecystectomy. Postoperatively, she developed slow oozing requiring multiple blood transfusions, a falling hematocrit, and abdominal tenderness, prompting a return to the operating room where hemoperitoneum was found but no active bleeding source was identified. All surgical anastomoses were intact. She was managed postoperatively in the ICU, remained intubated, and was treated with Levofloxacin and Flagyl for suspected aspiration pneumonia. The documented diagnosis was ampullary mass with postoperative hemoperitoneum and suspected aspiration pneumonia.
+The patient is an 85-year-old woman presenting with painless jaundice, dark urine, pruritus, constipation, decreased appetite, early satiety, and a 10-pound weight loss. Symptoms developed prior to referral and were associated with the discovery of an ampullary mass during ERCP with biopsy. Her past medical history includes two breast lumps, varicose veins, and prior tonsillectomy and adenoidectomy; she has no known drug allergies and takes only a multivitamin and Tums. The documented diagnosis was ampullary mass with obstructive jaundice. She underwent a pylorus-preserving pancreaticoduodenectomy (Whipple procedure) and open cholecystectomy, complicated postoperatively by hemoperitoneum requiring reoperation, prolonged intubation, and suspected aspiration pneumonia. Management included blood transfusions, antibiotics (Levo, Flagyl, Zosyn), TPN, octreotide, Reglan, diuretics (Lasix), pain control (morphine), and supportive care in the ICU. Her condition stabilized with decreasing white count and adequate urine output. She is scheduled for transfer to the floor and will be prepared for rehabilitation.
+
 
 ## Dialogue Summary
 
-The patient presented with weakness and low energy impacting daily activities. Symptoms included gradually worsening generalized tiredness and difficulty with mobility (getting up from a chair, walking, and performing simple tasks), decreased appetite, and reduced fluid intake over the past several days; no muscle pain, soreness, or cramping were reported, and sleep patterns remained unchanged. The patient denied any recent illnesses, medication changes, or stressful events. On examination, the doctor noted the absence of focal muscle symptoms and confirmed the gradual onset of weakness and poor intake. The doctor assessed that the symptoms were consistent with deconditioning due to reduced nutrition and activity, rather than an acute illness or medication effect. The patient reported that symptoms had remained stable over the last few days. The doctor explained the concept of deconditioning and discussed its common occurrence in older adults with decreased appetite and fluid intake, recommending attention to nutrition and activity to help improve strength.
+The patient is an adult presenting with the chief complaint of generalized weakness and low energy. Symptoms include gradually worsening weakness over several days, decreased appetite, and reduced fluid intake, leading to difficulty performing daily activities such as walking and standing up from a chair; there is no associated muscle pain, soreness, or cramping. The patient denies recent illness, medication changes, or stressful events, and reports no significant changes in sleep patterns. Relevant history includes no recent acute medical events or medication adjustments. The clinical impression documented by the doctor is likely "deconditioning" related to reduced nutrition and activity. The doctor explained that deconditioning can cause generalized tiredness and weakness, especially in the absence of other acute factors. The patient’s symptoms have remained stable over the past few days. Treatment advice was not explicitly documented in this portion of the dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.929
-- **Similarity Label**: N/A
+- **STS Score**: 0.436
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 141 words
+
 
 ## Processing Information
 

@@ -186,3 +186,23 @@ Let me know if you have any questions about what to watch for or how to manage t
 ## Processing Information
 
 - **Processing Time**: 248.7s
+
+## EHR Summary
+
+The patient is a 51-year-old male presenting with chest pain. He was found to be in acute myocardial infarction and transferred for emergent cardiac catheterization, which revealed multivessel coronary artery disease. His past medical history is significant for diabetes, managed with glyburide, and he was on atenolol, aspirin, and nitroglycerin upon admission. The documented diagnoses were diabetes, coronary artery disease, status post myocardial infarction, and status post emergent six-vessel coronary artery bypass grafting. Treatment included emergent CABG x6, perioperative support with intra-aortic balloon pump (IABP), milrinone, beta blockade, diuresis with Lasix, and postoperative physical therapy. The patient recovered well postoperatively, was weaned off supportive medications and devices, and was discharged home in stable condition. Discharge medications included Lopressor, glyburide, Percocet as needed, aspirin, Colace, Zantac, potassium chloride, and Lasix. He was advised to follow up with his surgeons in four weeks, primary care in one to two weeks, and cardiology in two to four weeks.
+
+
+## Dialogue Summary
+
+The patient is an adult with a history of cardiac issues presenting with mild chest pain as the chief complaint. The chest pain has been present for a couple of days, is described as a dull ache, and is not associated with other symptoms such as shortness of breath, palpitations, sweating, nausea, or pain radiating to the arm or jaw. Resting and avoiding strenuous activity appear to alleviate the discomfort. The patient denies any worsening of pain or development of new symptoms during the discussion.
+
+Relevant history includes a background of heart problems, but no specific medications or allergies are mentioned. The clinical impression is that the current presentation is reassuring given the absence of concerning symptoms, though caution is advised due to the cardiac history. The treatment plan includes monitoring for any changes in symptoms, seeking urgent evaluation if warning signs develop (such as worsening pain, new associated symptoms, or pain similar to previous heart events), resting, and avoiding heavy exertion. The patient is advised to keep track of symptoms and follow up if anything changes.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.456
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 177 words
+

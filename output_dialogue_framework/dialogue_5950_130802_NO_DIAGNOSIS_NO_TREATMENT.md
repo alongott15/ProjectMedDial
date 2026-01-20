@@ -85,16 +85,21 @@ Let me know if you have any questions about what we've discussed or if there's a
 
 ## EHR Summary
 
-The patient is a 42-year-old male presenting for ethanol (EtOH) ablation due to hypertrophic cardiomyopathy with increasing shortness of breath (SOB). His SOB had worsened, particularly with exertion such as climbing stairs or walking on inclines, though he denied paroxysmal nocturnal dyspnea, orthopnea, or edema. Relevant history includes hypertrophic cardiomyopathy (LVOT rest 65 mm, EF 75%), significant family history of sudden cardiac death, prior ICD and pacemaker placement for non-sustained ventricular tachycardia, and intolerance to beta-blockers and verapamil. Physical exam revealed a III/VI systolic murmur at the right upper sternal border but was otherwise unremarkable. Cardiac catheterization showed normal coronary arteries and successful ethanol ablation of the first two septa with marked reduction of the LVOT gradient. The documented diagnosis is hypertrophic cardiomyopathy with symptomatic LVOT obstruction. Treatment included ethanol ablation and continued monitoring; no new medications or additional interventions were documented. The patient has a known allergy to vancomycin.
+The patient is a 42-year-old male presenting for ethanol (EtOH) ablation due to hypertrophic obstructive cardiomyopathy (HOCM) with increasing shortness of breath (SOB). His SOB had worsened, particularly with exertion such as climbing stairs or walking on inclines, though he denied paroxysmal nocturnal dyspnea, orthopnea, or edema. Relevant history includes HOCM with significant family history, prior ICD and pacemaker placement for nonsustained ventricular tachycardia, and intolerance to beta-blockers and verapamil due to symptom exacerbation; he is allergic to vancomycin. The documented diagnosis was HOCM status post EtOH septal ablation. Treatment included successful EtOH ablation with marked reduction in left ventricular outflow tract gradient, initiation of aspirin 325 mg daily for at least 6 months, and resumption of Cardizem SR 120 mg twice daily. The patient was discharged home in stable condition with instructions to monitor for worsening symptoms and follow up with cardiology.
+
 
 ## Dialogue Summary
 
-The patient presented with a request for alcohol ablation and reported shortness of breath during physical activity, particularly when climbing stairs or walking uphill. Symptoms included exertional shortness of breath and moderate chest pain that occurs with activity and sometimes requires the patient to stop and rest; the patient also noted associated nausea during these episodes but denied wheezing, lightheadedness, sweating, or chest tightness. The patient stated these symptoms began a few weeks ago and have gradually worsened, but denied any swelling in the legs or ankles and no difficulty lying flat at night; symptoms do not occur at rest. No relevant medical history, medications, or allergies were discussed in this encounter. On review, the doctor noted the absence of swelling and orthopnea as reassuring, but highlighted the importance of monitoring exertional chest discomfort and nausea. The assessment was that symptoms may be related to cardiac or pulmonary response to exertion, with a need to rule out more serious causes such as reduced blood flow to the heart. The doctor advised the patient to avoid strenuous activities until further evaluation, monitor for changes or new symptoms, and seek immediate care if pain occurs at rest, severe discomfort develops, fainting occurs, or symptoms worsen.
+The patient presents for alcohol ablation and reports a chief complaint of exertional shortness of breath and chest pain. Symptoms include moderate chest pain and dyspnea occurring during physical activity such as climbing stairs or walking uphill, with associated nausea but no wheezing, lightheadedness, sweating, or lower extremity swelling. The symptoms began a few weeks ago and have gradually worsened, but do not occur at rest. There is no history of orthopnea or peripheral edema. The clinical impression is that the symptoms may be related to cardiac or pulmonary response to exertion, with concern for possible reduced blood flow to the heart or other common conditions; no definitive diagnosis was documented. The treatment plan includes avoiding strenuous activities until further evaluation and monitoring for any changes or new symptoms. The patient was advised to seek immediate care if pain occurs at rest, symptoms become severe, or if fainting occurs.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.652
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 149 words
+
 
 ## Processing Information
 

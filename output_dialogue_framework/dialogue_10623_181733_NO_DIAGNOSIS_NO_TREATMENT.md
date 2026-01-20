@@ -89,16 +89,21 @@ Does that sound reasonable to you, or is there anything else specific you're con
 
 ## EHR Summary
 
-The patient is a 45-year-old female presenting with abdominal pain as the chief complaint. She reported sudden onset, sharp, stabbing abdominal pain since midnight, accompanied by vomiting for three days, chills (without fever), and a recent small, thin bowel movement; she denied diarrhea. Her past medical history is significant for Crohn's disease with large intestine fistulas and a prior sigmoid stricture found on colonoscopy. On examination, she appeared pale and in distress, with tachycardia (heart rate 129), abdominal distension, diffuse tenderness, and absent bowel sounds. Laboratory studies revealed leukocytosis (WBC 16.3) and anemia (hematocrit 15.8). Imaging (KUB) suggested possible pneumatosis coli and free air around the liver. The documented diagnosis is not explicitly stated in the note. Treatment details are not specified in the provided text.
+The patient is a 45-year-old female presenting with abdominal pain as the chief complaint. She reported sudden onset sharp, stabbing abdominal pain since midnight, accompanied by vomiting for three days, chills without fever, and a recent small, thin bowel movement; she denied diarrhea. Her past medical history is significant for Crohn's disease with large intestine fistulas and a prior sigmoid stricture. On examination, she was tachycardic, pale, in distress, with a distended and diffusely tender abdomen and absent bowel sounds. Imaging revealed bowel perforation with free air, and laboratory studies showed leukocytosis and anemia. The documented diagnoses were perforated viscus and perforated transverse colon in the setting of Crohn's disease. She underwent subtotal colectomy, Hartmann's procedure, end ileostomy, and take down of the splenic flexure, followed by supportive care including IV fluids, antibiotics, pain management, steroids, and gradual diet advancement. The patient was discharged home in good condition with instructions for wound care, regular diet with supplements, and follow-up for staple removal.
+
 
 ## Dialogue Summary
 
-The patient presented with abdominal pain as the chief complaint. The pain has been present for an uncertain duration, has gradually worsened, is constant (rated 7/10), and is not relieved or triggered by eating, movement, or rest. Associated symptoms include difficulty sleeping, trouble focusing at work, nausea, vomiting, chills, paleness, a swollen and tender abdomen, and a recent small, thin bowel movement without blood, diarrhea, or constipation. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the combination of persistent abdominal pain, swelling, paleness, and changes in bowel movements may suggest digestive tract inflammation or blockage rather than a simple stomach bug. The doctor advised the patient to monitor for warning signs such as severe pain, inability to keep fluids down, persistent vomiting, high fever, severe weakness, or blood in stool or vomit, and to seek prompt care if these occur. The patient was advised to stay hydrated and rest, and a physical exam was recommended for further evaluation.
+The patient presents with abdominal pain as the chief complaint. The pain has been gradually worsening, is constant (rated 7 out of 10), and is not relieved or triggered by activity, eating, or rest. Associated symptoms include nausea, vomiting, chills, pallor, abdominal swelling and tenderness, and a recent small, thin bowel movement without blood, diarrhea, or constipation; these symptoms are interfering with sleep and work. Relevant history regarding past medical conditions, medications, or allergies was not specified. The clinical impression discussed by the doctor includes possible digestive tract issues such as inflammation or blockage, but no definitive diagnosis was documented. The treatment plan includes advice to stay hydrated and rest, monitoring for warning signs such as severe pain, inability to keep fluids down, persistent vomiting, high fever, severe weakness, or blood in stool/vomit, and arranging a physical exam for further evaluation. The patient was instructed to seek prompt medical attention if symptoms worsen or new concerning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.972
-- **Similarity Label**: N/A
+- **STS Score**: 0.633
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 158 words
+
 
 ## Processing Information
 

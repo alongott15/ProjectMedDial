@@ -85,16 +85,21 @@ Let me ask: On a scale of 1 to 10, how would you rate the chest pain right now? 
 
 ## EHR Summary
 
-The patient is an 87-year-old male admitted to the cardiothoracic surgery service. The chief complaint, specific symptoms, relevant medical history, physical exam findings, and diagnosis are not specified in the provided note. No details regarding the treatment plan or recommendations are documented. Further information from the clinical record would be needed to provide a comprehensive summary.
+The patient is an 87-year-old male admitted to the Cardiothoracic Surgery service. The chief complaint, specific symptoms, relevant medical history, and clinical findings are not specified in the provided note. There is no documented diagnosis or assessment included in this excerpt. Details regarding treatment, medications, or recommendations are also not present. No further information is available to summarize this case.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent chest pain as the chief complaint. The chest pain was described as a dull, squeezing sensation rated 6 out of 10, constant in nature, and radiating to the throat and back without change in character; it began a few days ago. Associated symptoms included anxiety, diarrhea with bright red blood in the stool (also starting a few days ago), abdominal discomfort, and new bilateral leg swelling that has worsened and made mobility and daily activities more difficult. The patient denied shortness of breath, sweating, faintness, or recent changes in appetite or weight, and reported a history of low hematocrit. On examination, no acute physical findings were described, but the patient noted increased difficulty with walking and getting out of bed due to leg swelling. The doctor assessed that the chest pain was less likely to be a classic heart attack but could still be related to cardiac or circulatory issues, especially given the new leg swelling and low hematocrit; the bright red blood in stool was thought to likely originate from the lower digestive tract but could indicate a more serious issue in combination with other symptoms. The doctor recommended further evaluation to clarify the cause of these symptoms and discussed the importance of monitoring severity while sorting out the diagnosis.
+The patient is an adult presenting with persistent chest pain as the chief complaint. The chest pain is described as dull and squeezing, radiating to the throat and back, rated 6 out of 10 in severity, and has been present for a few days without clear triggers or alleviating factors. Associated symptoms include new-onset bilateral leg swelling that is worsening, bright red blood in the stool, diarrhea, abdominal discomfort, and a history of low hematocrit; there is no shortness of breath, sweating, faintness, or recent changes in appetite or weight. The leg swelling has made ambulation and daily activities more difficult. The clinical impression is that the chest pain is less likely to be a classic myocardial infarction due to the absence of shortness of breath or diaphoresis, but cardiac or circulatory causes remain possible given the new leg swelling and anemia. The presence of bright red blood per rectum suggests lower gastrointestinal bleeding, possibly from hemorrhoids or a small tear, but more serious causes are also considered due to concurrent low hematocrit and leg swelling. No specific diagnosis or treatment plan was documented during the encounter. The patient was advised that further evaluation is needed to clarify the underlying causes and was asked about pain severity to guide next steps.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.928
-- **Similarity Label**: N/A
+- **STS Score**: 0.415
+- **Model Used**: general
+- **Text1 Length**: 60 words
+- **Text2 Length**: 211 words
+
 
 ## Processing Information
 

@@ -87,16 +87,23 @@ If anything changes or you feel worse, don’t hesitate to reach out sooner. Doe
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with recurrent common bile duct stricture, initially suspected to be cholangiocarcinoma. He previously underwent exploratory laparotomy and cholecystectomy, with negative biopsies and resolution of symptoms, later attributed to Mirizzi syndrome. After recurrence of the stricture, he required percutaneous transhepatic cholangiography (PTC) and balloon dilatation, but symptoms recurred following catheter removal. Relevant history includes coronary artery disease (status post stent and CABG), type 2 diabetes mellitus, hypertension, chronic renal failure, and prior Mirizzi syndrome. On admission, he denied fever, chills, nausea, or vomiting. Physical findings postoperatively included a low-grade fever and hypotension (BP 90/40) on day one. The documented diagnosis was recurrent common bile duct stricture at the CHD bifurcation and distal RHD. Treatment included common bile duct resection with Roux-en-Y hepatojejunostomy, intraoperative transfusion of four units of red blood cells, and postoperative management with fluid boluses and adjustment of epidural dosing.
+The patient is a 62-year-old male presenting with a history of common bile duct stricture and suspected cholangiocarcinoma, now thought to be Mirizzi syndrome, who underwent exploratory laparotomy and cholecystectomy. He developed recurrent biliary stricture requiring percutaneous interventions, and ultimately presented for surgical management. Symptoms prior to surgery included biliary obstruction without fever, chills, nausea, or vomiting; postoperatively, he experienced hypotension, low-grade fever, and high serous drain output, but no ongoing infection was documented. Relevant history includes coronary artery disease (status post stent and CABG), type 2 diabetes mellitus, hypertension, chronic renal failure, and prior abdominal surgery. The documented diagnoses were common bile duct stricture (status post Roux-en-Y hepatojejunostomy), hypertension, diabetes mellitus type 2, chronic and acute renal failure, postoperative coagulopathy, and anemia. Treatment included surgical resection with Roux-en-Y hepatojejunostomy, intraoperative transfusions, postoperative antibiotics (Zosyn then Ciprofloxacin), diuretics for edema, vitamin K for coagulopathy, and supportive care for renal insufficiency. At discharge, the patient was stable, afebrile, ambulating with assistance, and tolerating a diabetic diet. Discharge instructions included wound care, drain management, continued medications (including antibiotics and diuretics), and home nursing support.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about a possible bile duct issue following recent surgery, specifically mentioning worry about a stricture or cholangiocarcinoma. Symptoms discussed included a low grade fever since the day after surgery, mild tiredness, and a brief episode of low blood pressure in the first couple days postoperatively, which has since resolved. The patient denied chills, changes in appetite, nausea, jaundice, abdominal pain, bloating, changes in bowel movements, or urine color. No allergies or chronic medications were mentioned; relevant history includes recent surgery and possible bile duct stricture. On review, the doctor noted the absence of concerning symptoms such as jaundice, digestive issues, pain, or abnormal stool/urine color. The assessment was that recovery is proceeding smoothly, with the low grade fever and mild tiredness considered typical post-surgical findings and no evidence of significant bile duct blockage or infection at this time. The doctor advised monitoring for new symptoms including jaundice, worsening pain, dark urine, pale stools, or persistent fever, and recommended gentle activity, hydration, and routine follow-up with the surgical team. The patient expressed understanding and agreed to watch for any concerning changes.
+The patient is a post-surgical individual presenting with concerns about a possible bile duct stricture and the risk of cholangiocarcinoma. Since surgery, the patient has experienced a persistent low grade fever (onset the day after surgery) and mild fatigue, but denies chills, abdominal pain, bloating, nausea, appetite changes, jaundice, or changes in bowel movements or urine color. The patient reports being able to maintain most daily activities despite feeling slightly more tired. Relevant history includes recent surgery and a brief episode of low blood pressure postoperatively, which has since resolved.
+
+The clinical impression is that recovery is proceeding smoothly, with the low grade fever considered common in the early postoperative period and no current evidence of significant bile duct obstruction or infection. The treatment plan includes monitoring for new or worsening symptoms such as jaundice, abdominal pain, dark urine, pale stools, or persistent/worsening fever, and maintaining gentle activity and hydration. The patient is advised to follow up with the surgical team as planned and to seek prompt attention if concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.737
+- **Model Used**: general
+- **Text1 Length**: 182 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

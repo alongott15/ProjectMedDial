@@ -83,16 +83,21 @@ Let me share why I'm asking about your symptoms and history: understanding wheth
 
 ## EHR Summary
 
-The patient is a 49-year-old woman presenting after episodes of unresponsiveness and psychosis following an intrathecal baclofen overdose. She initially became unresponsive on 3/13 after receiving an overdose through her intrathecal drug pump, which was subsequently shut off, and she gradually regained consciousness. After discharge and correction of her baclofen dose, she developed hallucinations and bizarre behavior over the weekend, leading to readmission. On 3/18, she became lethargic and was transferred to the Neurologic Intensive Care Unit. Her medical history includes chronic back pain, arachnoiditis from myelogram dye, and an intrathecal drug pump placed four years prior. On physical exam, she was awake, alert, oriented, with strong movement in all extremities and no meningeal signs. A urine culture showed >100,000 white blood cells on 3/12, and she was started on ciprofloxacin. The clinical impression is baclofen overdose with subsequent neuropsychiatric symptoms; treatment included cessation of the pump, correction of baclofen dosing, and antibiotic therapy for urinary findings.
+The patient is a 49-year-old woman presenting with altered mental status, including episodes of hallucinations and bizarre behavior, following recent adjustments to her intrathecal baclofen pump. She initially became unresponsive after an overdose of intrathecal baclofen, which was subsequently corrected, but later developed psychosis and lethargy. Her past medical history includes chronic back pain, arachnoiditis from myelogram dye, and use of an intrathecal drug pump for pain management. On admission, she was awake, alert, and oriented, with stable vital signs and no focal neurological deficits; a head CT was negative. The clinical impression included baclofen overdose and subsequent withdrawal or medication adjustment effects, with secondary psychotic symptoms. Treatment involved supportive care, adjustment of the baclofen pump to 50% of its normal rate, initiation of Risperdal 0.25 mg orally twice daily for hallucinations, and antibiotics (ciprofloxacin and Macrodantin) for a urinary tract infection. She was evaluated by Physical and Occupational Therapy and deemed safe for discharge home with a cane. Follow-up with her physician was arranged in one week to reassess her intrathecal pump settings.
+
 
 ## Dialogue Summary
 
-The patient presented with visual disturbances and unusual behavior that began over the weekend. Symptoms included seeing shapes and things moving that are not present (without seeing people), feeling "foggy" and lethargic, difficulty maintaining normal routines, and needing help from family during episodes; the patient also described saying odd things and acting strangely, as noted by family members. The patient reported no recent illnesses, medication changes, or new substances, and is currently taking baclofen as usual. There were no significant changes in mood or sleep, but thinking felt clouded and energy was low. On examination, the patient described episodes where the experiences felt real at the time and awareness of their unusual nature came only afterward. The doctor assessed that these symptoms could be related to medication side effects, metabolic imbalances, or temporary confusion (delirium), especially in the absence of other triggers. The doctor explained the importance of monitoring symptom progression and discussed possible causes, noting some improvement since onset; further evaluation may be needed if symptoms persist.
+The patient presents with new-onset visual hallucinations and behavioral changes as the chief complaint. Symptoms began over the weekend, with the patient seeing shapes and movement that are not present (no people), experiencing increased lethargy, and feeling mentally "foggy." The episodes have made it difficult for the patient to maintain normal routines and have required family assistance; the patient is sometimes unaware of the abnormality during episodes. There have been no recent illnesses, medication changes, or new substance use; the patient continues on baclofen as usual. The patient's mood and sleep have not changed significantly. The clinician notes possible causes such as medication side effects, metabolic imbalances, or delirium, but no definitive diagnosis is documented. The patient reports slight improvement since symptom onset. The treatment plan or specific recommendations are not documented in the dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.674
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 135 words
+
 
 ## Processing Information
 

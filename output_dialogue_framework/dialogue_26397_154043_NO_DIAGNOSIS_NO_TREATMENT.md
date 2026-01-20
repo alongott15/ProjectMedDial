@@ -85,16 +85,21 @@ For now, I'd suggest avoiding pushing yourself too hard during exercise until we
 
 ## EHR Summary
 
-The patient is a 54-year-old male presenting with chest pain. He describes his chest pain as "cold tight air in chest," but recently denies any symptoms, including nausea, vomiting, or dyspnea on exertion. His history is significant for coronary artery disease with prior stenting of the left circumflex artery (twice in 2107), hypercholesterolemia, obesity, cholelithiasis, and anemia (thalassemia), and he has no known drug allergies. He had a markedly positive stress test prior to admission and reports a recent 10–15 pound weight loss related to exercise and shortness of breath with two flights of stairs. On physical exam, his heart rate was 68. The documented diagnosis is not explicitly stated in the note. Medications on admission included pravachol, lopressor, and aspirin; further workup was planned due to the positive stress test.
+The patient is a 54-year-old male presenting with chest pain. He reported a history of chest discomfort described as "cold tight air in chest," but recently denied symptoms such as nausea, vomiting, or dyspnea on exertion. His medical history includes coronary artery disease status post stenting of the left circumflex artery, hypercholesterolemia, obesity, cholelithiasis, and anemia (thalassemia). Cardiac catheterization revealed significant multivessel coronary artery disease with 95% stenosis of the left circumflex and 80% stenosis at the LAD. The documented diagnosis was coronary artery disease, status post coronary artery bypass grafting (CABG) times three. Treatment included CABG with LIMA to LAD, SVG to PDA, and left radial to OM, along with postoperative management involving blood transfusions and standard cardiac medications. The patient was discharged in stable condition with instructions for follow-up with cardiology and primary care. Discharge medications included Lopressor, Lasix, potassium, Colace, Zantac, isosorbide mononitrate, Pravachol, aspirin, ibuprofen, and Dilaudid as needed.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain that has been occurring lately, particularly during physical activity such as walking up stairs. The chest pain typically comes on with exertion, lasts a few minutes, and resolves with rest; the patient also experiences shortness of breath when climbing two flights of stairs, which is a recent change, but does not report sweating, nausea, lightheadedness, wheezing, coughing, or chest tightness. The patient noted intentional weight loss due to increased exercise and stated that breathing returns to normal quickly after stopping activity. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the absence of concerning symptoms such as prolonged breathlessness or associated autonomic symptoms. The doctor assessed that exertional chest pain and dyspnea could be cardiac in origin but may also relate to muscle strain from increased exercise; however, given the new onset and change in symptoms, further evaluation is warranted to rule out heart-related issues. The doctor advised the patient to avoid strenuous exercise until further testing is completed and recommended monitoring for any worsening or new symptoms; an EKG or stress test was suggested for further assessment.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain occurs during physical activity, such as climbing stairs, and is accompanied by exertional dyspnea, particularly after two flights of stairs; both symptoms resolve quickly with rest. The patient denies associated symptoms such as sweating, nausea, lightheadedness, wheezing, coughing, or chest tightness. The symptoms represent a recent change in exercise tolerance, and the patient reports intentional weight loss due to increased exercise. The clinical impression is that the exertional chest pain and shortness of breath could be cardiac in origin but may also relate to musculoskeletal causes given recent increased activity; however, further evaluation is warranted due to the new onset and pattern of symptoms. The treatment plan includes advising the patient to avoid strenuous exercise until further assessment and arranging for diagnostic testing, such as an EKG or stress test. The patient was instructed to monitor for any worsening or new symptoms (e.g., pain at rest, prolonged symptoms, dizziness, or sweating) and to seek immediate care if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.505
+- **Model Used**: general
+- **Text1 Length**: 153 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

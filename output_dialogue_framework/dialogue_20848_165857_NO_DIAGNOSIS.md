@@ -87,16 +87,21 @@ Let me know if you have any questions about what I've said or need help figuring
 
 ## EHR Summary
 
-The patient is a 77-year-old man presenting with acute onset substernal chest pain, shortness of breath, nausea, and diaphoresis. Symptoms began on the day of admission and prompted evaluation at an outside hospital, where ST elevations were noted in ECG leads V2-V6, I, II, and AVF. His medical history includes hypertension, a prior catheterization complicated by intracranial bleed, and a 120 pack-year smoking history. On catheterization, he had elevated pulmonary artery pressures and was found to have a 100% mid LAD stenosis, which was stented; other coronary lesions included 30% proximal LAD and right coronary artery stenosis, and 60% mid right coronary artery stenosis. Physical exam on admission showed stable vital signs, clear lungs, regular heart rhythm with a 1/6 systolic murmur, and no acute distress. The documented diagnosis was ST-elevation myocardial infarction (STEMI) due to mid LAD occlusion. Treatment included primary angioplasty with stenting of the mid LAD lesion and administration of Lasix 20 mg; Integrilin was deferred due to prior hemorrhagic cerebrovascular accident. The patient was admitted to the CCU in stable condition for continued management.
+The patient is a 77-year-old man presenting with acute onset substernal chest pain, shortness of breath, nausea, and diaphoresis. Symptoms began on the day of admission and were associated with ST elevations on ECG in leads V2-V6, I, II, and AVF. His medical history includes hypertension, prior catheterization complicated by intracranial bleed, and a significant smoking history. He was diagnosed with acute myocardial infarction confirmed by cardiac enzymes and ECG findings, and underwent primary angioplasty with stenting of a 100% mid-LAD stenosis. During hospitalization, he developed hemoptysis and was found to have right middle lobe pneumonia, treated with antibiotics including Levaquin, Flagyl, and a dose of Vancomycin. Additional management included diuresis with Lasix, initiation of Captopril (later switched to Univasc), Plavix, Aspirin, beta-blocker therapy (Lopressor switched to Atenolol), subcutaneous Heparin, and Lipitor. The patient was discharged in stable condition with plans for home nursing care, possible home oxygen, and cardiac rehabilitation. Follow-up was arranged with his primary care physician and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain that began earlier today. The pain occurs in the center of the chest, feels pressure-like, lasts several minutes per episode, and is rated as 7 out of 10 at its worst. Associated symptoms include shortness of breath, sweating, and nausea during episodes; there is no lightheadedness or pain radiating to the arm, jaw, or back. The pain started while the patient was at rest and does not seem to be affected by activity or other factors. Relevant history includes prior heart catheterization complicated by a brain bleed about ten years ago and high blood pressure; the patient is not currently taking any regular medications. On examination, no physical findings were described by the doctor or patient. The doctor assessed that the chest discomfort, especially with pressure, sweating, and nausea at rest, is concerning for possible heart-related causes given the patient's history. The doctor recommended prompt medical evaluation today, including an EKG and blood tests, and advised seeking emergency care if symptoms worsen or new symptoms develop.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain began earlier today, occurs at rest, lasts several minutes per episode, and is described as a central pressure rated 7 out of 10 in severity. Associated symptoms include shortness of breath, sweating, and nausea without vomiting; there is no radiation of pain to the arm, jaw, or back, and no prior similar episodes. Relevant history includes hypertension and a heart catheterization complicated by a cerebral bleed ten years ago; the patient is not currently taking regular medications. The clinical impression is that the symptoms are concerning for possible cardiac etiology given the nature of the pain and associated symptoms, especially in the context of the patient’s history. The doctor advised prompt medical evaluation, including an EKG and blood tests, to rule out serious cardiac causes. The patient was instructed to seek immediate care if symptoms worsen or new symptoms such as lightheadedness or fainting develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.552
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

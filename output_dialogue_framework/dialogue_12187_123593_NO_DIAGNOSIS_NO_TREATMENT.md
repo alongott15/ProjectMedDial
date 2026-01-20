@@ -87,16 +87,21 @@ Would you be open to discussing any recent changes in your lifestyle or stress l
 
 ## EHR Summary
 
-The patient is a 45-year-old female presenting for a diagnostic cerebral angiogram with coiling. She has a history of headaches, fibromyalgia, and prior episodes of slurred speech. On admission, her vital signs were stable and she was taking Plavix, Xanax, Prozac, cyclobenzaprine, aspirin, and vitamin E; she has a documented allergy to tetracycline. The patient underwent successful coiling and stent placement of a left carotid ophthalmic aneurysm without complications. Postoperative physical exam showed she was awake, alert, and oriented with normal neurologic findings, and her laboratory results were within normal limits. The documented diagnosis was left carotid ophthalmic aneurysm. She was discharged in stable condition with no new symptoms reported.
+The patient is a 45-year-old female presenting for a diagnostic cerebral angiogram with coiling. She has a history of headaches, fibromyalgia, and prior episodes of slurred speech, but no acute neurological symptoms were documented on admission. Her past surgical history includes tubal ligation, cystectomies, and breast lesion excision; she is allergic to tetracycline. The patient underwent successful coiling with stent placement for a left carotid ophthalmic aneurysm without complications. Postoperatively, she remained neurologically stable with intact strength, visual fields, and no evidence of hematoma at the angiocele site. The final diagnosis was status post coiling with stent placement for left carotid ophthalmic aneurysm. She was discharged in good condition on aspirin 325 mg daily and Plavix 75 mg daily, with instructions to avoid strenuous activity until follow-up in two weeks. Follow-up appointments were arranged with her neurosurgeon and primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with headaches primarily around the temples and occasionally at the back of the head. The headaches are described as a dull ache lasting a few hours, sometimes accompanied by slurred speech that occurs simultaneously and resolves as the headache eases. There are no associated triggers, specific times of onset, weakness, numbness, or vision changes; resting in a quiet room and occasional aspirin provide some relief. The patient noted that these episodes, especially with slurred speech, are a new pattern and interfere with daily tasks and conversations. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted concern due to the combination of headache and neurological symptoms (slurred speech), emphasizing the importance of ruling out significant causes despite the absence of other neurological deficits. The doctor recommended keeping a diary to track episodes and potential triggers, continuing current self-care strategies, and seeking prompt medical attention if new or worsening symptoms develop. The patient agreed to monitor symptoms and report any changes.
+The patient presents with recurrent headaches as the chief complaint. The headaches are described as a dull ache located around the temples and sometimes at the back of the head, lasting a few hours per episode, and are accompanied by slurred speech that resolves when the headache subsides. There are no associated symptoms of weakness, numbness, or vision changes, and no specific triggers or time patterns have been identified. The patient reports that these episodes are a new pattern and interfere with daily activities such as work and conversations. Resting in a quiet room and occasional use of aspirin provide some relief. The clinical impression is that the headaches with neurological features may be related to migraines or other benign causes, but further evaluation is warranted due to the new onset of slurred speech. The treatment plan includes keeping a diary to track episodes and potential triggers, continuing current symptomatic relief measures, and seeking prompt medical attention if new or worsening neurological symptoms develop. No formal diagnosis was documented during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.938
-- **Similarity Label**: N/A
+- **STS Score**: 0.463
+- **Model Used**: general
+- **Text1 Length**: 141 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

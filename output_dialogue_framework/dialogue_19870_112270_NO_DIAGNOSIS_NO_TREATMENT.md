@@ -87,16 +87,21 @@ Would you be comfortable with us arranging some basic tests—like an ECG and po
 
 ## EHR Summary
 
-The patient is a 75-year-old male presenting with increased shortness of breath on exertion and occasional chest discomfort. Symptoms included worsening dyspnea and fatigue, with a history of paroxysmal atrial fibrillation and congestive heart failure. Relevant history includes coronary artery disease, rheumatic fever, emphysema (on Theophylline), hypertension, osteoarthritis, and prior failed cardioversions and ablation for atrial fibrillation. On admission, medications included Zestril, Atenolol, Maxzide, ASA, MVI, and Theophylline; no known allergies. Physical findings during hospitalization included stable postoperative recovery after elective coronary artery bypass grafting (CABG x1), transient need for Neo-Synephrine for blood pressure support, and development of atrial fibrillation on postoperative day 3. The documented diagnosis was coronary artery disease with symptomatic exacerbation. Treatment included CABG surgery, IV Lopressor for postoperative atrial fibrillation, and supportive care. The patient reverted to sinus rhythm and was discharged in stable condition.
+The patient is a 75-year-old male presenting with increased shortness of breath on exertion and occasional chest discomfort. Symptoms included progressive dyspnea and fatigue, with a history of congestive heart failure and paroxysmal atrial fibrillation. Relevant history includes coronary artery disease, emphysema, hypertension, osteoarthritis, and prior failed cardioversions and ablation for atrial fibrillation. The documented diagnosis was coronary artery disease with recent worsening symptoms. During admission, he underwent elective coronary artery bypass grafting (CABG x1) with an uneventful intraoperative course. Postoperatively, he developed atrial fibrillation, which reverted to sinus rhythm after IV Lopressor and was managed with oral Amiodarone. Discharge medications included Lopressor, Lasix, KCL, Aspirin, Plavix, Theodur, Amiodarone, Colace, and Percocet as needed. He was discharged home in stable condition with follow-up arranged with his primary care physician and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with progressive shortness of breath on exertion. Symptoms included activity-related shortness of breath, chest tightness or pressure (not sharp pain), and increased fatigue over the past few weeks, all worsening recently; symptoms improved with rest and were not present at rest. The patient denied wheezing, cough, leg swelling, lightheadedness, or fainting, and reported that daily activities have become more difficult due to these symptoms. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the absence of concerning signs such as swelling, cough, or fainting, and that symptoms were exertional and relieved by rest. The doctor’s assessment was that the pattern may suggest stable angina or another underlying heart issue. The doctor recommended avoiding overexertion, taking breaks as needed, and seeking immediate care if symptoms worsen or occur at rest; basic tests including ECG and blood work were advised to further evaluate the cause.
+The patient is an adult presenting with progressive shortness of breath on exertion as the chief complaint. Symptoms include activity-induced dyspnea and chest discomfort described as tightness or pressure, which resolve with rest and have been worsening over several weeks; the patient also reports increased fatigue and difficulty performing daily activities but denies wheezing, cough, leg swelling, lightheadedness, or fainting. There is no mention of relevant past medical history, medications, or allergies. The clinical impression is that the symptoms are consistent with possible stable angina, likely due to the heart not meeting oxygen demands during exertion. The physician notes the absence of symptoms at rest and other concerning features as reassuring but recommends further evaluation due to symptom progression. The treatment plan includes avoiding overexertion, taking breaks as needed, and seeking immediate care if chest discomfort persists at rest or if severe symptoms develop. Basic diagnostic tests such as an ECG and blood work are recommended to investigate underlying heart issues.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.577
+- **Model Used**: general
+- **Text1 Length**: 131 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

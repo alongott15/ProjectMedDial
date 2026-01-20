@@ -87,16 +87,25 @@ If your symptoms persist or become more bothersome, it may be helpful to check i
 
 ## EHR Summary
 
-The patient is an 84-year-old female presenting with shortness of breath. She experienced a gradual worsening of her baseline dyspnea over the past week, accompanied by a nonproductive cough and left-sided rib discomfort, but denied fever, chills, myalgias, rhinorrhea, chest pain, or paroxysmal nocturnal dyspnea. Her history is significant for emphysema with rare home oxygen use and a 40 pack-year smoking history, having quit 13 years ago; she has no known drug allergies. On examination in the emergency department, her oxygen saturation was 85% on room air, improving with supplemental oxygen; chest X-ray showed no acute cardiopulmonary process and ECG was normal sinus rhythm without ischemic changes. The documented diagnosis is not explicitly stated, but the clinical impression suggests an exacerbation of emphysema. Treatment included albuterol and ipratropium nebulizers, intravenous methylprednisolone, and levofloxacin. She had previously received azithromycin, prednisone, and bactrim prior to admission without significant improvement.
+The patient is an 84-year-old female presenting with shortness of breath. She experienced a gradual worsening of her baseline dyspnea over one week, accompanied by a nonproductive cough and increased oxygen requirements, but denied fever, chills, chest pain, or myalgias. Her past medical history is significant for emphysema/COPD (rare home oxygen use), hypertension, and hyperlipidemia; she has no known drug allergies and a 40 pack-year smoking history (quit 13 years ago). On admission, she was hypoxic (O2 sat 85% on room air), with diffuse expiratory wheezes and poor air movement on exam, and imaging showed hyperinflated lungs without evidence of pneumonia. The documented diagnosis was acute exacerbation of chronic obstructive pulmonary disease (COPD), with secondary diagnoses of hypertension and hyperlipidemia. She was treated with nebulized albuterol/ipratropium, intravenous then oral steroids (prednisone taper), levofloxacin, and supplemental oxygen, resulting in significant clinical improvement. At discharge, she was advised to continue a prednisone taper, complete levofloxacin, use inhalers (Advair, Combivent), take home oxygen as needed, and start vitamin D and calcium supplementation. She was also advised to avoid air travel until her respiratory status improves and to follow up with her primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening shortness of breath over the past few days, primarily occurring with activity and improving at rest. Symptoms included exertional breathlessness, a dry cough, left-sided discomfort under the ribs, and occasional wheezing; the patient denied leg swelling, chest pain, dizziness, or difficulty breathing while resting or lying down. No relevant medical history, medications, or allergies were mentioned during the encounter. The doctor noted that the patient’s symptoms—activity-related breathlessness, dry cough, and wheezing without resting symptoms—suggest mild airway irritation or bronchospasm, possibly due to a viral infection, allergies, or mild asthma-like symptoms. The absence of swelling, chest pain, or resting breathlessness was considered reassuring and less indicative of heart failure or serious lung disease. The doctor recommended pacing activities, avoiding symptom triggers and irritants, staying hydrated, and monitoring for new or worsening symptoms such as difficulty breathing at rest, chest pain, fever, or leg swelling. If symptoms persist or worsen, the doctor advised follow-up for a physical exam and possible breathing tests. The patient expressed understanding and asked about managing left-sided discomfort, which the doctor indicated may be related to the breathing trouble.
+The patient is an adult presenting with the chief complaint of progressive shortness of breath over the past few days. Symptoms include exertional dyspnea that worsens with activity and improves at rest, a dry cough, left-sided discomfort under the ribs, and intermittent wheezing; there is no orthopnea, paroxysmal nocturnal dyspnea, leg swelling, chest pain, dizziness, or lightheadedness. The patient reports that symptoms build up with exertion and are not present at rest or during sleep. Relevant negatives include the absence of productive cough, leg edema, and significant chest pain.
+
+The clinical impression documented by the physician is mild airway irritation or possible bronchospasm, potentially related to a viral infection, allergies, or mild asthma-like symptoms. The physician notes that the lack of concerning features (such as resting dyspnea, chest pain, or edema) makes serious cardiac or pulmonary pathology less likely. 
+
+The treatment plan includes pacing activity, avoiding triggers and irritants (such as smoke or strong fumes), staying hydrated, and monitoring for new or worsening symptoms (such as resting dyspnea, chest pain, fever, or leg swelling). The patient is advised to seek further evaluation if symptoms persist or worsen, which may include a physical exam and breathing tests.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.682
+- **Model Used**: general
+- **Text1 Length**: 191 words
+- **Text2 Length**: 196 words
+
 
 ## Processing Information
 

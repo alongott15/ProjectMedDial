@@ -89,16 +89,21 @@ Let me know if you have any questions about what we’ve talked about or if ther
 
 ## EHR Summary
 
-The patient is a 46-year-old male presenting with angina at rest and with exertion for the past year. His symptoms initially improved after percutaneous coronary intervention (PCI) to the left anterior descending artery (LAD) but recurred a couple of weeks prior to admission. Exercise treadmill testing showed ST depression, and cardiac catheterization revealed 90% restenosis at the origin of the LAD and a 50% lesion at the origin of the diagonal artery. Relevant history includes HIV positivity, hypercholesterolemia, treated syphilis, xerosis, lipodystrophy, erosive arthritis of the left wrist, prior right inguinal herniorrhaphy, genital HSV exposure, and anxiety; he has no known drug allergies. On [2108-11-13], he underwent two-vessel coronary artery bypass grafting (CABG) with a left internal mammary artery graft to the LAD and a vein graft to the diagonal artery. The documented diagnosis was recurrent angina due to significant coronary artery disease with restenosis. The treatment plan included surgical revascularization via CABG.
+The patient is a 46-year-old male presenting with angina at rest and with exertion for the past year. His symptoms initially improved after PCI to the LAD but recurred a couple of weeks prior to admission, with recent testing revealing significant restenosis of the LAD and a moderate lesion in the diagonal artery. Relevant history includes HIV positivity, hypercholesterolemia, prior syphilis (treated), hypertension, HSV, and prior right inguinal herniorrhaphy; he has no known drug allergies. The documented diagnoses are status post two-vessel coronary artery bypass grafting (CABG x2), prior LAD PCI, HIV+, hypertension, elevated cholesterol, HSV, and prior syphilis. He underwent successful two-vessel CABG without complications and was medically optimized during his hospital stay. Discharge medications included aspirin, pravastatin, ATRIPLA, pantoprazole, docusate sodium, and hydromorphone as needed for pain. He was discharged home in stable condition with instructions for wound care, activity restrictions, and follow-up appointments with cardiology and infectious disease.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain described as angina, occurring both at rest and during activity. The chest discomfort has persisted for about a year, is rated around 6 out of 10 in severity most days, and is worsened by physical activity but can also occur unpredictably at rest; episodes typically last a few minutes and do not wake the patient at night. The patient denied associated symptoms such as sweating, nausea, shortness of breath, or pain radiating to the arm, jaw, or back. Relevant history includes erosive arthritis and bone spurs in the left wrist, with stable discomfort that continues to limit activities like lifting weights. On assessment, the doctor noted that persistent chest pain with exertion and at rest could be cardiac in origin but found some reassurance in the absence of nocturnal symptoms or pain radiation. The doctor recommended further evaluation by the patient's healthcare provider, including possible EKG or stress testing, and advised monitoring for new symptoms such as shortness of breath, dizziness, or worsening pain. For the wrist discomfort, gentle range-of-motion exercises and avoidance of heavy lifting were suggested until further management can be discussed.
+The patient is an adult presenting with chest pain described as angina, occurring both at rest and with activity. The chest pain has been present for approximately one year, is rated 6 out of 10 in intensity, lasts a few minutes per episode, and is sometimes worsened by physical exertion but can also occur unpredictably at rest. The pain does not radiate to the arm, jaw, or back, is not associated with sweating, nausea, or shortness of breath, and does not wake the patient at night. The patient also has a history of erosive arthritis and bone spurs in the left wrist, with stable discomfort that limits weight lifting and exercise. The clinical impression is that the chest pain could be cardiac in origin (angina), but other causes such as musculoskeletal or anxiety are also considered. The recommendation is to follow up with a healthcare provider for further evaluation, including possible EKG or stress testing. The patient was advised to monitor for new symptoms such as dyspnea, dizziness, or worsening pain and to seek urgent care if these develop; for the wrist, gentle range-of-motion exercises and avoiding heavy lifting were recommended until further management is discussed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.394
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 196 words
+
 
 ## Processing Information
 

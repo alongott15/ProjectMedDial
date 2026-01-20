@@ -85,16 +85,21 @@ In the meantime, try to avoid strenuous activity that brings on discomfort. If y
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with chest pain. He reports several months of exertional axillary pain relieved by rest, without associated radiation, dyspnea, diaphoresis, nausea, or vomiting, and no recent change in symptom frequency or intensity. His medical history includes type 2 diabetes, hypertension, and hypercholesterolemia; admission medications included Avandia, Glucophage, Accupril, Pravachol, and aspirin. Physical examination revealed stable vital signs and no acute distress, with normal cardiopulmonary and abdominal findings. An abnormal clinic electrocardiogram prompted a stress test, which showed ST changes in the anterior leads. The documented diagnosis is not explicitly stated in the note. The patient was admitted for further evaluation and management.
+The patient is a 58-year-old male presenting with chest pain. He reported several months of exertional axillary pain relieved by rest, without associated radiation, dyspnea, diaphoresis, nausea, or vomiting. His medical history includes type 2 diabetes, hypertension, and hypercholesterolemia, and he was taking Avandia, Glucophage, Accupril, Pravachol, and aspirin on admission. Workup revealed abnormal ECG and positive stress test, and cardiac catheterization showed significant multi-vessel coronary artery disease with an ejection fraction of 37%. The documented diagnoses were coronary artery disease status post four-vessel coronary artery bypass graft (CABG), diabetes mellitus, atrial fibrillation, hypertension, and hypercholesterolemia. During hospitalization, he underwent CABG x4 and was treated for postoperative atrial fibrillation with intravenous Lopressor and oral amiodarone. At discharge, he was stable and prescribed medications including Glucophage, aspirin, Lopressor, Accupril, Pravachol, Lasix (for seven days), folate, amiodarone (with taper), Avandia, Percocet as needed, and Colace. He was discharged home in stable condition with follow-up arranged in two to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain described as a central chest pressure, which has been ongoing for an unspecified period and is associated with anxiety. The discomfort is rated as 6 out of 10 at its worst, is brought on by physical activity, sometimes radiates to the side under the arm, and resolves with rest; there is no associated shortness of breath, sweating, lightheadedness, nausea, indigestion, or heartburn. The patient can perform daily tasks but sometimes needs to slow down or rest due to the discomfort. Relevant history includes a recent elevated potassium level (potassium up to 6). No abnormal physical findings were described in the conversation. The doctor assessed that the exertional chest pressure could be related to cardiac or musculoskeletal causes and noted the importance of monitoring for worsening or new symptoms. The doctor recommended avoiding strenuous activity that provokes symptoms, scheduling further evaluation including an EKG and potassium review, and seeking prompt medical attention if severe or new symptoms develop.
+The patient is an adult presenting with chest pain as the chief complaint. The discomfort is described as central chest pressure, rated up to 6 out of 10 in severity, brought on by physical activity and relieved by rest; there is occasional pain under the arm with exertion. The patient denies associated symptoms such as dyspnea, sweating, lightheadedness, nausea, indigestion, or heartburn. Relevant history includes a recent elevated potassium level (potassium up to 6). The clinical impression discussed includes possible cardiac or musculoskeletal causes, with reassurance that the current presentation is not emergent. The treatment plan includes avoiding strenuous activity that provokes symptoms, monitoring for any new or worsening symptoms (such as pain at rest, severe pain, or associated warning signs), and scheduling further evaluation with an EKG and review of potassium levels. The patient was advised to seek prompt medical attention if concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.529
+- **Model Used**: general
+- **Text1 Length**: 158 words
+- **Text2 Length**: 146 words
+
 
 ## Processing Information
 

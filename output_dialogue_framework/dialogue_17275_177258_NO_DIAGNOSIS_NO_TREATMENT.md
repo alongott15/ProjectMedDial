@@ -188,3 +188,21 @@ Let me know if you have any questions or concerns about what to do next.
 ## Processing Information
 
 - **Processing Time**: 417.9s
+
+## EHR Summary
+
+The patient is a 35-year-old female presenting with acute myocardial ischemia requiring cardiac catheterization. She reported a history of previous myocardial infarction, coronary artery disease, and prior stent placement. Cardiac catheterization revealed significant two-vessel obstruction and left main coronary artery disease, with notable stenoses in the left main, left anterior descending, and right coronary arteries. The documented diagnosis was multivessel coronary artery disease with acute ischemia. She underwent a three-vessel coronary artery bypass graft (CABG) without complications. Postoperatively, she experienced a transient air leak from her chest tube, which resolved by postoperative day four, and otherwise had an uneventful recovery. At discharge, her condition was stable, and she was prescribed metoprolol, Lasix, potassium, aspirin, Zantac, Colace, Plavix, Imdur, and Dilaudid as needed for pain. She was advised to follow up with her primary care physician and cardiothoracic surgery in two to four weeks.
+
+
+## Dialogue Summary
+
+The patient is an adult with a history of coronary artery disease and prior myocardial ischemia presenting with ongoing chest discomfort. The chest discomfort has been present for most of the day, is similar to previous heart-related symptoms, and has not worsened; the patient denies associated symptoms such as sweating, nausea, or shortness of breath. Relevant history includes significant cardiac disease, but no new symptoms or changes in severity were reported during the conversation. No formal diagnosis was documented during this encounter, but the clinical impression was that the symptoms could represent a cardiac issue given the patient’s background. The doctor advised urgent evaluation, including an ECG and blood tests, to rule out acute cardiac events and emphasized the importance of prompt assessment due to the patient’s risk factors. The patient was instructed to seek immediate care if symptoms worsen or new symptoms develop. The plan is for the patient to undergo evaluation today and to update the provider with any changes or results.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.540
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 164 words
+

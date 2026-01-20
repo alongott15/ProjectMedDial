@@ -87,16 +87,21 @@ Let’s arrange for you to have an in-person evaluation soon to check your vital
 
 ## EHR Summary
 
-The patient is a 59-year-old female presenting with chest pain and shortness of breath. Her symptoms began intermittently two days prior to admission and became constant one day before admission, initially relieved by nitroglycerin. She has a history of coronary artery disease, trigeminal neuralgia, rheumatoid arthritis, Raynaud's with chronic pain syndrome, depression, GERD, and porphyria cutanea tarda, and is allergic to sulfa, Diamox, Neurontin, Bactrim, Valium, and erythromycin. On arrival, she was tachycardic with a blood pressure of 120/70, and her EKG showed ST elevations in II, aVF, and ST depressions in V1-V4. Cardiac catheterization revealed a 70% occluded saphenous vein graft to the RCA with TIMI-III flow but no intervention was performed. She was also found to have anemia (hematocrit 17.6) and guaiac positive stools with an INR of 3.2. The assessment included acute coronary syndrome and gastrointestinal bleeding. Treatment included IV nitroglycerin, IV fluids, aspirin, packed red blood cells, Lasix, and transfer to the CCU for further management.
+The patient is a 59-year-old female presenting with chest pain and shortness of breath, which became constant one day prior to admission. Her symptoms were initially intermittent and partially relieved by nitroglycerin, with chest pain rated 5/10 on EMS arrival. She has a history of coronary artery disease, mechanical mitral valve, and multiple other chronic conditions, and is allergic to sulfa, Diamox, Neurontin, Bactrim, Valium, and erythromycin. On admission, she was tachycardic and pale, with laboratory findings notable for anemia (hematocrit 16.3) and evidence of GI bleeding (Guaiac positive stools), as well as EKG changes consistent with ST elevations in II, III, aVF. Cardiac catheterization revealed a 70% occluded saphenous vein graft to the RCA without intervention; EGD showed gastritis, and colonoscopy was negative for active bleeding. The documented clinical impression was demand ischemia secondary to severe anemia from GI bleeding, with subsequent pneumonia developing during hospitalization. Treatment included transfusions, aspirin, beta blocker initiation, avoidance of NSAIDs, Protonix for gastritis, antibiotics for pneumonia, and careful management of anticoagulation. She was discharged home in good condition with follow-up arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest pain was described as pressure-like, rated 6 out of 10 at its worst, and was noted to worsen with physical activity such as walking, climbing stairs, or doing housework, while improving somewhat with rest but not resolving completely. The patient also reported shortness of breath during exertion, with both symptoms persisting for several days without significant change. No associated sweating, lightheadedness, or fainting was reported, and no specific triggers other than general movement were identified. The doctor noted that the symptoms are exertional and impact daily activities, raising concern for possible cardiac or pulmonary causes. The assessment emphasized the need for caution due to the pattern of symptoms and their potential seriousness. The doctor advised the patient to avoid strenuous activity, watch for new or worsening symptoms (such as severe discomfort, fainting, or persistent pain at rest), and recommended an in-person evaluation with further testing.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is described as pressure-like, rated 6 out of 10 at its worst, and is triggered by physical activity such as walking, climbing stairs, or doing housework; it improves somewhat with rest but does not resolve completely. The patient also reports associated shortness of breath with exertion, which has made daily activities more difficult compared to a couple of weeks ago; there are no associated symptoms of sweating, lightheadedness, or syncope. Symptoms began a few days ago and have remained stable since onset. Relevant medical history is not specified in the dialogue. The clinical impression is that the symptoms could be cardiac or pulmonary in origin, with concern for possible cardiac ischemia given the exertional nature and improvement with rest. The treatment plan includes avoiding strenuous activity, monitoring for new or worsening symptoms (such as severe discomfort, fainting, or pain at rest), and arranging for an in-person evaluation with possible further testing. The patient was advised to seek immediate medical attention if acute symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.948
-- **Similarity Label**: N/A
+- **STS Score**: 0.521
+- **Model Used**: general
+- **Text1 Length**: 178 words
+- **Text2 Length**: 180 words
+
 
 ## Processing Information
 

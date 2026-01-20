@@ -97,16 +97,23 @@ Let me know if you have any questions about this plan or if there’s anything e
 
 ## EHR Summary
 
-The patient is a 77-year-old woman presenting with increased hoarseness and sore throat for the past week. Her symptoms have worsened, and she has a known history of vocal cord polyps, hypertension, insulin-dependent diabetes mellitus, chronic obstructive pulmonary disease, atrial fibrillation, and deep venous thrombosis. On examination with a fiberoptic scope, a 3 by 3 mm left vocal cord polyp prolapsing into the trachea was observed, causing airway obstruction and edema. She was started on Decadron and Unasyn for airway management. The documented diagnosis was airway obstruction secondary to vocal cord polyps and edema. Surgery was planned once her INR decreased, as it was elevated due to Coumadin use for DVT prophylaxis. Medicine recommended discontinuing Coumadin permanently, given her treatment duration.
+The patient is a 77-year-old woman presenting with increased hoarseness and sore throat for the past week. She has a history of hypertension, insulin-dependent diabetes mellitus, chronic obstructive pulmonary disease, atrial fibrillation, deep venous thrombosis, and vocal cord polyps. Examination with fiberoptic scope revealed a 3 by 3 mm left vocal cord polyp prolapsing into the trachea, causing airway obstruction and edema. She was started on Decadron and Unasyn, and her Coumadin was discontinued due to an elevated INR and completion of deep venous thrombosis treatment. The documented diagnosis was airway obstruction secondary to vocal cord polyp and edema. Swelling decreased during hospitalization, and she was discharged in stable condition. The plan includes follow-up laboratory testing and scheduled surgical removal of the polyp.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening hoarseness as the chief complaint. Symptoms discussed included persistent hoarseness, a constant sore throat, mild difficulty breathing that is present most of the time (not triggered by activity or position), increased fatigue especially after talking, and some difficulty with talking but not with eating or walking. The patient denied wheezing, high-pitched breathing noises, or changes in shortness of breath with position, and reported no specific triggers for the sore throat. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the absence of alarming signs such as noisy breathing or difficulty swallowing, and that the patient could still eat and walk, though more slowly. The doctor’s assessment was that symptoms are consistent with common irritation or mild inflammation of the voice box (larynx), possibly due to vocal strain, dryness, mild reflux, or age-related changes, and that there are no immediate signs of a serious condition. The treatment plan included resting the voice, staying hydrated, avoiding irritants like smoke or dry air, monitoring for worsening symptoms (such as pain with swallowing, coughing up blood, or significant changes in breathing), and considering referral to an ear, nose, and throat specialist if symptoms persist or worsen over the next couple of weeks.
+The patient presents with the chief complaint of gradually worsening hoarseness. Key symptoms include persistent hoarseness, a constant sore throat, mild dyspnea (shortness of breath) that is not positional or associated with wheezing, and increased fatigue, especially after talking. The patient reports that talking has become more difficult, but eating and walking are still possible, albeit at a slower pace; no specific triggers worsen the sore throat, and there are no alarming symptoms such as hemoptysis or noisy breathing. Relevant history, medications, and allergies are not specified.
+
+The clinical impression is likely chronic irritation or mild inflammation of the larynx (voice box), possibly due to vocal strain, age-related changes, or mild reflux, with no evidence of acute infection or airway compromise. The treatment plan includes voice rest, maintaining hydration, and avoiding irritants such as smoke or dry air. The patient was advised to monitor for worsening symptoms (such as pain with swallowing, hemoptysis, or significant breathing changes) and to seek further evaluation by an ear, nose, and throat specialist if symptoms persist or worsen over the next couple of weeks.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.940
-- **Similarity Label**: N/A
+- **STS Score**: 0.588
+- **Model Used**: general
+- **Text1 Length**: 123 words
+- **Text2 Length**: 180 words
+
 
 ## Processing Information
 

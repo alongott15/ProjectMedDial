@@ -87,16 +87,21 @@ For now, you can continue with his usual care and watch for anything new. If you
 
 ## EHR Summary
 
-The patient is a newborn male, triplet #3, delivered at 33 and 5/7 weeks gestation due to maternal pregnancy-induced hypertension with headache and proteinuria. He was born preterm via cesarean section after a pregnancy complicated by preterm labor and maternal treatment with Betamethasone and magnesium sulfate. At birth, he exhibited mild work of breathing, required blow-by oxygen, and had Apgar scores of 8 and 9. In the delivery room, he was given CPAP for respiratory support and transferred to the NICU for prematurity-related care. On admission, he was stable on room air with oxygen saturations of 95%, weighed 1,865 grams (20th percentile), and had normal physical exam findings for gestational age. The clinical impression was prematurity with mild respiratory distress. Treatment included initial respiratory support with CPAP and ongoing monitoring in the NICU. He was transferred to the transitional care unit for continued management.
+The patient is a newborn male, triplet #3, delivered preterm at 33 and 5/7 weeks gestation due to maternal pregnancy-induced hypertension. At birth, he required brief CPAP for mild respiratory distress but was quickly weaned to room air with stable oxygen saturations and has remained stable without intubation or surfactant. He exhibited mild jaundice with a peak bilirubin of 9.1 mg/dL, treated with phototherapy from day 3 to day 5 of life, after which bilirubin levels improved and jaundice resolved. There was no evidence of feeding intolerance, and enteral feedings were advanced to full volume with PE 24 formula. The patient has not required transfusions or antibiotics, and no signs of infection or patent ductus arteriosus were noted. Relevant history includes preterm labor treated with betamethasone and magnesium sulfate, and maternal pregnancy-induced hypertension. The clinical impression is a stable preterm infant with mild respiratory distress and hyperbilirubinemia, both resolved. The treatment plan includes continued feeding with PE 24 formula at 150 cc/kg/day, iron supplementation, and consideration of Synagis RSV prophylaxis and influenza immunization as appropriate.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about her infant having slightly more effortful breathing than usual. She reported no unusual breathing sounds (such as wheezing or grunting), no flaring of nostrils, and no pulling in around the ribs; the increased work of breathing had remained unchanged since first noticed. The infant had no trouble feeding, no coughing, congestion, or signs of a cold, and maintained normal color without any bluish tint or paleness. Activity level was described as normal, with no increased tiredness, and the breathing difficulty did not vary with feeding, position, or time of day. No relevant medical history, medications, or allergies were mentioned. The doctor assessed that the infant’s mildly increased work of breathing, in the absence of other concerning symptoms, was reassuring and could be due to minor airway irritation or normal variation. The doctor recommended close observation for any new symptoms such as trouble feeding, increased tiredness, cough, or color changes, and advised continuing usual care while seeking prompt evaluation if symptoms worsen.
+The patient is a young child presenting with increased work of breathing as the chief complaint. The parent reports that the breathing appears more effortful than usual but denies any wheezing, grunting, nasal flaring, coughing, congestion, or changes in color (no cyanosis or pallor). The onset of symptoms is unclear, and the increased effort has remained stable without worsening. Feeding and activity levels are normal, with no noted fatigue or decreased interest in feeding. There is no mention of relevant past medical history, medications, or allergies. The clinical impression is mild increased work of breathing without signs of respiratory distress or significant illness. The treatment plan includes close observation at home for any new symptoms such as feeding difficulties, increased tiredness, cough, or color changes, and to seek prompt evaluation if these occur. Usual care is to be continued, and the parent was reassured regarding the current findings.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
+- **STS Score**: 0.406
+- **Model Used**: general
+- **Text1 Length**: 175 words
+- **Text2 Length**: 148 words
+
 
 ## Processing Information
 

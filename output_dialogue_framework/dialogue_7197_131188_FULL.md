@@ -87,16 +87,21 @@ Let me know if you have any questions about what we've discussed or about next s
 
 ## EHR Summary
 
-The patient is a 40-year-old woman presenting with chest pressure as the chief complaint. She experienced daily chest pressure for one week, mostly on exertion, associated with shortness of breath and occasional radiation to the left arm; the pain occurred at rest the evening before admission and resolved with sublingual nitroglycerin. She also reported claudication after walking one block and denied paroxysmal nocturnal dyspnea or palpitations. Her relevant history includes longstanding diabetes mellitus, three-vessel coronary artery disease, prior myocardial infarction, hypertension, hyperlipidemia, left femoral popliteal bypass, and remote tobacco use. On physical exam, she was stable with clear lungs, regular heart rhythm with a soft systolic ejection murmur, and positive bilateral pulses. The documented diagnosis is three-vessel coronary artery disease with recent unstable angina symptoms. The treatment plan included cardiac catheterization and continuation of medications such as aspirin, Lipitor, insulin, atenolol, Plavix, Zestril, and Nexium.
+The patient is a 40-year-old woman presenting with chest pressure occurring daily for one week, primarily on exertion and occasionally radiating down the left arm, associated with shortness of breath. Symptoms resolved with sublingual nitroglycerin, but chest pain also occurred at rest the evening before admission. She has a history of longstanding diabetes mellitus, three vessel coronary artery disease, hypertension, hyperlipidemia, and prior left femoral popliteal bypass. Cardiac catheterization revealed significant multivessel coronary artery disease (50% left main, 80% LAD, 80–90% left circumflex, 90% left RCA) with an ejection fraction of 50%. The documented diagnosis was severe multivessel coronary artery disease. She underwent coronary artery bypass grafting x3 and had an uncomplicated postoperative course aside from transient poor respiratory effort, which improved with supportive care. At discharge, she was stable and prescribed aspirin, Prilosec, Lasix, potassium chloride, metoprolol, Lipitor, Percocet as needed, and insulin. She was advised to follow up in the wound clinic in two weeks and with her cardiologist and primary care provider in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure that has been occurring for several weeks, particularly during walking more than a block, and causing anxiety. Symptoms include exertional chest pressure described as squeezing or tightness (rated 6/10 at worst), shortness of breath, dull discomfort radiating down the left arm, and aching in the legs after walking, all of which improve with rest. The patient denied numbness, tingling, changes in color or temperature of the feet, lightheadedness, nausea, or sweating during episodes. No specific medical history, medications, or allergies were mentioned in this encounter. On examination, no physical findings were described; symptoms were reported by the patient. The doctor assessed that these symptoms may be related to cardiac or vascular function during activity, possibly due to insufficient blood supply during exertion. The doctor recommended prompt evaluation by a healthcare provider, including possible EKG, blood tests, and stress testing or imaging, advised avoiding strenuous activity that triggers symptoms, and instructed the patient to seek immediate care if severe or new symptoms develop.
+The patient is an adult presenting with chest pressure as the chief complaint. The chest pressure is described as a squeezing or tightness, rated 6/10 at worst, and is triggered by exertion such as walking more than a block; it is accompanied by shortness of breath and dull discomfort radiating down the left arm, and improves with rest within a few minutes. The patient also reports aching in the legs after walking about a block, requiring frequent breaks, but denies numbness, tingling, color, or temperature changes in the feet. These symptoms have been present for several weeks and are occurring more frequently. There is no report of lightheadedness, nausea, or diaphoresis during episodes. The clinical impression is that the symptoms may be related to cardiac or vascular insufficiency during activity. The treatment plan includes recommending prompt evaluation by a healthcare provider for further assessment (including possible EKG, blood tests, stress testing, or imaging), advising the patient to avoid strenuous activity that provokes symptoms, and to seek immediate care if severe or new symptoms develop. Continuation of current medications until further evaluation was discussed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.518
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 183 words
+
 
 ## Processing Information
 

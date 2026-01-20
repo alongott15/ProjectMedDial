@@ -98,3 +98,21 @@ Would you like guidance on what to expect at your appointment or how best to man
 ## Processing Information
 
 - **Processing Time**: 361.6s
+
+## EHR Summary
+
+The patient is a 75-year-old male presenting with lethargy, fevers, and a ruptured abdominal aortic aneurysm. He reported increased weakness, inability to sleep, decreased appetite, intermittent fevers up to 103°F, intermittent low back pain lasting less than two hours, and abdominal pain. On admission, he was febrile and lethargic, with laboratory findings notable for leukocytosis (WBC 18.2) and mild hyponatremia (Na 130). Relevant history includes a recent hospitalization for similar symptoms and a positive blood culture for beta hemolytic strep. Imaging revealed a large (7 cm) infrarenal abdominal aortic aneurysm with evidence of rupture and retroperitoneal extension. The documented diagnoses were bacteremia, pyelonephritis (based on physical exam), and ruptured abdominal aortic aneurysm. Initial treatment included intravenous antibiotics (Levaquin 500 mg daily). Further management details for the aneurysm are not specified in the note.
+
+
+## Dialogue Summary
+
+The patient is an older adult presenting with the chief complaint of persistent fatigue and recurrent fevers. Symptoms have been ongoing for several days, with the patient reporting increasing weakness, high fever up to 103°F, lower back and abdominal pain, decreased appetite, and difficulty sleeping; there are no urinary symptoms such as dysuria, frequency, or hematuria. The patient notes that these symptoms have worsened over time and are interfering with daily activities. Relevant history regarding chronic conditions, medications, or allergies is not specified in the dialogue. The clinical impression discussed by the doctor is a possible underlying infection or inflammation, potentially involving the urinary tract or another area, despite the absence of urinary changes. The treatment plan includes a recommendation for in-person evaluation soon due to the patient’s age and worsening symptoms, advice to maintain hydration and rest, and instructions to seek immediate care if new symptoms such as confusion, dyspnea, persistent vomiting, or severe pain develop. No specific medications or definitive diagnosis were documented during this encounter.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.552
+- **Model Used**: general
+- **Text1 Length**: 133 words
+- **Text2 Length**: 168 words
+

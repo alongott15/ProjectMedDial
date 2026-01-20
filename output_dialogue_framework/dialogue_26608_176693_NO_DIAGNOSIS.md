@@ -63,16 +63,21 @@
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with substernal chest pain and a positive stress test. Symptoms included chest pain leading to cardiac catheterization, which revealed significant coronary artery disease with 70% occlusion of the left main LAD, 80% occlusion of the left circumflex, and 80% occlusion of the RCA. Relevant history includes prior myocardial infarction in 2126, percutaneous transluminal coronary angioplasty in 2124, hypercholesterolemia, and tobacco use; home medication included aspirin. On physical exam prior to discharge, the patient was stable with clear lungs, regular heart rhythm, and a clean, intact surgical incision. The documented diagnosis was severe multi-vessel coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) times three and had an uneventful postoperative course aside from a transient low hematocrit requiring transfusion. Discharge medications included Lopressor, Lasix, potassium chloride, aspirin, and Percocet as needed. The patient was advised to follow up with wound care and vital sign monitoring at home and to see the surgeon in 3-5 weeks.
+The patient is a 62-year-old male presenting with substernal chest pain and a positive stress test. He reported chest pain prior to admission, and cardiac catheterization revealed significant coronary artery disease with 70% occlusion of the left main LAD, 80% occlusion of the left circumflex, and 80% occlusion of the RCA. His past medical history includes coronary artery disease, prior myocardial infarction in 2126, hypercholesterolemia, and a history of tobacco use; home medications included aspirin. The documented diagnosis was severe multivessel coronary artery disease. He underwent coronary artery bypass grafting (CABG) times three (LIMA to LAD, SVG to RPDA and OM1) without complications except for a transient low hematocrit on postoperative day 2, which resolved after transfusion. At discharge, his condition was stable with normal heart and lung exam, intact incision, and good functional status. Discharge medications included Lopressor, Lasix, potassium chloride, aspirin, and Percocet as needed. He was advised to follow up with his surgeon in 3-5 weeks and arranged for visiting nurse assessment for wound care and vital sign monitoring.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain located in the middle of the chest. The pain was described as a pressure sensation rather than sharp or burning, and it tends to come and go without clear triggers. The patient reported that the pressure is more noticeable during activity, such as walking, and less severe when resting; no specific factors were identified that make it better or worse. No relevant medical history, medications, or allergies were mentioned during the encounter. There were no physical findings documented, as the conversation focused on symptom characterization. The doctor explored the nature, triggers, and timing of the chest pressure but did not provide a formal assessment or diagnosis during this portion of the dialogue. No specific treatment plan or recommendations were given in the available transcript.
+The patient presents with a chief complaint of chest pain. The pain is described as a pressure sensation located in the middle of the chest, without clear triggers or alleviating factors related to movement or eating. The patient reports that the chest pressure is more noticeable during physical activity, such as walking, and less severe at rest; the duration of each episode is not specified. There is no mention of associated symptoms such as shortness of breath, palpitations, or diaphoresis. Relevant medical history, current medications, and allergies are not documented in this dialogue. No diagnosis or clinical impression has been documented at this stage. No treatment plan or specific recommendations have been provided in the conversation so far.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.943
-- **Similarity Label**: N/A
+- **STS Score**: 0.364
+- **Model Used**: general
+- **Text1 Length**: 172 words
+- **Text2 Length**: 118 words
+
 
 ## Processing Information
 

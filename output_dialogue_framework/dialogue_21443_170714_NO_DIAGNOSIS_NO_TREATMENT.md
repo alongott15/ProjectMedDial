@@ -87,16 +87,23 @@ Let me know if you have any questions about what might happen next, or if there'
 
 ## EHR Summary
 
-The patient is a 29-year-old female presenting with sore throat and odynophagia that worsened over two days, leading to inability to swallow solids or liquids and drooling. She developed vomiting and a hoarse voice but denied cough, coryza, headache, or respiratory compromise. Her past medical history includes anxiety and eczema, and she takes Aldactone for acne and Celexa for anxiety; she has no known drug allergies. On examination, she had a high-grade fever, dry mucous membranes, and was found by ENT to have massive edematous, red, inflamed epiglottis with bilateral adenoid swelling and airway compromise. The documented diagnosis was acute epiglottitis. Treatment included administration of Unasyn and Decadron. The patient improved during hospitalization and was able to swallow her own secretions without further complications.
+The patient is a 29-year-old female presenting with sore throat and odynophagia that worsened over two days, leading to inability to swallow solids or liquids and drooling. She developed vomiting, high-grade fever, and hoarse voice on admission, but denied cough, coryza, headache, or respiratory compromise. Examination revealed massive edematous, inflamed epiglottis with airway compromise, and laboratory studies showed leukocytosis (WBC 18.2, 81% neutrophils). Her past medical history includes anxiety and eczema; she takes Aldactone for acne and Celexa for anxiety, with no known drug allergies. The documented diagnosis was epiglottitis. She was treated with intravenous Unasyn and Decadron, humidified air, and close airway monitoring, later transitioning to oral Augmentin and symptomatic lidocaine solution. The patient improved clinically, was able to tolerate oral intake, and was discharged home in good condition with instructions for outpatient follow-up.
+
 
 ## Dialogue Summary
 
-The patient presented with a severe sore throat and pain on swallowing. Symptoms included high fever, hoarse voice, inability to swallow solids or liquids, worsening throat pain rated 8/10, drooling, and vomiting after attempting to drink fluids; the patient denied cough, neck swelling, tenderness, difficulty breathing, and excessive fatigue. No relevant medical history, medications, or allergies were mentioned. On examination, the patient described escalating pain and difficulty maintaining hydration over several days. The doctor assessed that the severity of symptoms, inability to swallow fluids, and progressive worsening could indicate a deeper infection or inflammation such as tonsillitis or peritonsillar abscess. The doctor recommended urgent evaluation at a clinic or emergency department to address hydration and further assess the throat, advising against forcing food or drink if it causes vomiting. The patient was instructed to seek immediate help if new symptoms like breathing difficulty, severe neck swelling, or high fever develop.
+The patient is an adult presenting with a chief complaint of severe sore throat and pain with swallowing. Symptoms have been present for several days, are worsening, and include throat pain rated 8/10, hoarseness, high fever, inability to swallow solids or liquids, drooling, and vomiting after attempting to drink; there is no cough, neck swelling, or dyspnea reported. The patient is unable to maintain hydration due to the severity of odynophagia and has not experienced significant fatigue or weakness otherwise. Relevant history regarding past medical conditions, medications, or allergies is not specified.
+
+The clinical impression discussed was possible tonsillitis or peritonsillar abscess causing severe pharyngitis and impaired oral intake. The treatment plan included urgent referral to an emergency department or urgent care for further evaluation, hydration, and management of pain and infection. The patient was advised to avoid forcing fluids or solids if it provokes vomiting and to seek immediate care if new symptoms such as respiratory distress or neck swelling develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.564
+- **Model Used**: general
+- **Text1 Length**: 135 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

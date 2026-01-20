@@ -87,16 +87,23 @@ For now, focus on staying well hydrated, eating regular meals, and pacing yourse
 
 ## EHR Summary
 
-The patient is a 76-year-old female presenting with lethargy following recent discharge after treatment for a subdural hematoma. She was readmitted from rehabilitation due to increased lethargy, and head CT revealed an increase in the left subdural hematoma with associated headache and confusion. Her past medical history includes hypertension, hypercholesterolemia, and bilateral subdural hematomas; she has allergies to erythromycin and penicillin (anaphylaxis). On examination, she was awake, alert, oriented, and neurologically intact with no focal deficits. Imaging confirmed a left acute on chronic subdural hematoma with midline shift. The patient underwent burr hole drainage of the hematoma without complications. Postoperatively, she remained stable and was recommended for a short rehabilitation stay prior to discharge home.
+The patient is a 76-year-old woman presenting with lethargy following recent discharge after treatment for a subdural hematoma. She was readmitted from rehabilitation due to increased lethargy, and head CT revealed an increase in the left subdural hematoma with associated headache and confusion. Her past medical history includes hypertension, hypercholesterolemia, and bilateral subdural hematomas; she has allergies to erythromycin and penicillin (anaphylaxis). On examination, she was awake, alert, oriented, and neurologically intact. The documented diagnosis was left acute on chronic subdural hematoma with midline shift. She underwent burr hole drainage of the hematoma without complications and remained stable postoperatively. The treatment plan included discharge to rehabilitation, continuation of antihypertensive and lipid-lowering medications, pain management with Percocet as needed, and follow-up with repeat head CT in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with increased tiredness, reporting feeling more fatigued than usual. Symptoms included gradually worsening tiredness over several days, headaches, unusual lethargy interfering with daily activities (though still able to care for self), and intermittent episodes of confusion; the patient denied changes in sleep, appetite, mood, or new medications. No significant changes in sleep quality or schedule were noted, and the confusion was described as coming and going throughout the day. The patient reported no decline in energy since onset, but daily tasks felt more difficult. No relevant medical history, medications, or allergies were mentioned. The doctor assessed that the symptoms could be due to common causes such as mild infections, dehydration, or routine changes, but also considered possibilities like low blood pressure, thyroid issues, or vitamin deficiencies. The doctor found it reassuring that symptoms were not worsening and self-care was maintained but advised monitoring for worsening confusion or new symptoms such as fever, chest pain, shortness of breath, or significant weakness. The treatment plan included staying well hydrated, eating regular meals, pacing activities, and checking in if symptoms persist or worsen.
+The patient is an adult presenting with the chief complaint of increased tiredness. Symptoms include gradually worsening fatigue over several days, headaches, and intermittent episodes of confusion, with no changes in sleep, appetite, mood, or medications. The patient remains able to perform self-care but reports that daily activities feel more tiring and slower than usual. There is no report of symptom progression or new concerning features such as fever, chest pain, or shortness of breath.
+
+Relevant medical history, allergies, and chronic conditions are not specified. The clinical impression is that the symptoms may be due to common causes such as mild infection, dehydration, or minor metabolic disturbances, but no definitive diagnosis is documented. The treatment plan includes monitoring for worsening symptoms, maintaining hydration, eating regular meals, pacing activities, and seeking prompt care if confusion worsens or new symptoms develop. Follow-up is advised if there is no improvement within a week or if the clinical picture changes.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
+- **STS Score**: 0.376
+- **Model Used**: general
+- **Text1 Length**: 129 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

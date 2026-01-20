@@ -85,16 +85,23 @@ Let me know if you have any questions or concerns about what we've discussed.
 
 ## EHR Summary
 
-The patient is a 51-year-old male presenting with chest pain. He has a long history of diabetes and was found to be in acute myocardial infarction at an outside hospital. On admission, his medications included glyburide, atenolol, aspirin, intravenous Lopressor, sublingual nitroglycerin, and nitroglycerin paste. Cardiac catheterization revealed multivessel coronary artery disease, and he underwent emergent coronary artery bypass grafting (CABG x6). Intraoperative transesophageal echocardiogram showed an ejection fraction of 35%. Postoperatively, he required an intra-aortic balloon pump (IABP), Levophed, and milrinone, all of which were successfully weaned. The patient was extubated without complications, maintained good oxygen saturation, and was started on beta blockade as part of his ongoing management.
+The patient is a 51-year-old male presenting with chest pain. He was found to be in acute myocardial infarction and transferred for emergent cardiac catheterization, which revealed multivessel coronary artery disease. His past medical history is significant for diabetes, managed with glyburide, and he was on atenolol, aspirin, and nitroglycerin upon admission. The documented diagnoses were diabetes, coronary artery disease, status post myocardial infarction, and status post emergent six-vessel coronary artery bypass grafting. Postoperatively, he required intra-aortic balloon pump support, inotropic agents, and diuresis but recovered well with stable oxygen saturations and improved functional status. His discharge medications included Lopressor, glyburide, Percocet as needed, aspirin, Colace, Zantac, potassium chloride, and Lasix. The patient was discharged home in stable condition with instructions to follow up with his physicians over the next several weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain. The chest pain began a few days ago, occurs during activity, is described as a pressure-like sensation rated 6 out of 10 in intensity, and each episode lasts a few minutes before resolving with rest; the patient denied associated symptoms such as shortness of breath, sweating, or lightheadedness, and noted that the pain has remained unchanged since onset. Resting relieves the discomfort, and no other relieving measures have been tried. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the chest pressure is exertional and resolves with rest, which can be seen with muscle strain or angina, and found the absence of symptoms at rest or other concerning features somewhat reassuring. The doctor recommended avoiding strenuous activity, monitoring for any changes or worsening of symptoms, and seeking immediate care if new symptoms such as pain at rest, increased severity, sweating, nausea, or difficulty breathing develop. A follow-up visit for further evaluation, including a physical exam and possible heart tests, was also advised.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain began a few days ago, occurs primarily during physical activity, is described as a pressure-like sensation rated 6 out of 10 in intensity, and typically resolves within a few minutes of rest. The patient denies associated symptoms such as dyspnea, diaphoresis, or lightheadedness, and reports no change in severity or frequency since onset. Relevant medical history, medications, and allergies are not specified.
+
+The clinical impression discussed includes possible muscle strain or exertional angina, given the activity-related onset and relief with rest. The physician advised the patient to avoid strenuous activity and monitor for any worsening or new symptoms such as pain at rest, increased severity, prolonged duration, sweating, nausea, or difficulty breathing. The patient was also advised to schedule a follow-up visit for further evaluation, which may include a physical exam and basic cardiac testing. Immediate medical attention was recommended if concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
+- **STS Score**: 0.453
+- **Model Used**: general
+- **Text1 Length**: 132 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

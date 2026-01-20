@@ -87,16 +87,23 @@ Let me know if you have any questions about what weâ€™ve discussed or if thereâ€
 
 ## EHR Summary
 
-The patient is a 72-year-old woman presenting after a fall three to seven days prior, with subsequent change in mental status and right-sided weakness. She has a history of dementia. Head CT at an outside hospital revealed a large left frontotemporoparietal subdural hematoma with a 2 cm midline shift. On admission, physical exam showed right-sided drift and right lower extremity weakness, but she was otherwise stable and oriented to self. The documented diagnosis was left subdural hematoma with midline shift. She underwent bedside drainage of the hematoma in the ICU without complications, with repeat imaging showing good evacuation and resolution of neurological deficits. The drain was discontinued, and she was transferred to the regular floor, where she regained full strength and orientation. She was deemed safe for discharge home by physical therapy, though she continued to have poor short-term memory attributed to her underlying dementia.
+The patient is a 72-year-old woman presenting after a fall three to seven days prior, with subsequent change in mental status and right-sided weakness. She has a history of dementia. On evaluation, she was found to have a large left frontotemporoparietal subdural hematoma with a 2 cm midline shift on head CT, associated with right-sided drift and lower extremity weakness. Bedside drainage of the subdural hematoma was performed without complications, and follow-up imaging showed good evacuation. Her neurological deficits resolved post-procedure, though she continued to have poor short-term memory due to underlying dementia. The documented diagnosis was left subdural hematoma secondary to trauma (fall). She was discharged in stable condition with instructions for 24-hour supervision at home, trazodone and famotidine as needed, and follow-up with neurosurgery and repeat head CT in one month.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns following a recent fall, reporting new short-term memory difficulties and increased confusion. Symptoms included persistent right-sided weakness, particularly in the right leg, which has made daily activities such as dressing and mobility more challenging; these symptoms began within a day of the fall and have remained stable. The patient denied headaches, dizziness, changes in vision, trouble finding words, or difficulty understanding speech. No relevant medical history, medications, or allergies were mentioned during the encounter. On assessment, the doctor noted post-fall cognitive changes and right-sided weakness, with no signs of acute neurological deficits such as aphasia or visual disturbance. The doctor advised avoiding situations that could lead to further falls, seeking assistance with unsafe activities, and monitoring for new symptoms such as severe headache, worsening confusion, speech difficulties, or spreading weakness. Referral to physical therapy for strengthening and mobility was recommended, and the patient was encouraged to reach out if symptoms worsened or new concerns arose.
+The patient is an adult presenting with new-onset memory changes and confusion following a recent fall. Symptoms began within a day of the fall and include short-term memory impairment, increased confusion, and persistent right-sided weakness, particularly affecting the right leg and making daily activities such as dressing and mobility more difficult. The patient denies headaches, dizziness, visual changes, or language difficulties. There is no mention of prior relevant medical history, medications, or allergies in the dialogue.
+
+The clinical impression is that these symptoms may be due to a mild injury to the brain or nerves sustained during the fall, though no definitive diagnosis is documented. The physician notes that the absence of headache, dizziness, or speech difficulties is somewhat reassuring but emphasizes the importance of monitoring for worsening symptoms. The treatment plan includes recommendations to avoid further falls, seek assistance with daily activities as needed, and consider physical therapy for strengthening and mobility. The patient is advised to seek prompt medical attention if new or worsening symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.438
+- **Model Used**: general
+- **Text1 Length**: 133 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

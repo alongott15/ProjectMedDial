@@ -87,16 +87,21 @@ If you notice any new symptoms like chest pain, shortness of breath, severe head
 
 ## EHR Summary
 
-The patient is a 45-year-old man presenting with fever and neutropenia. He reported fevers up to 104°F and increasing lower extremity weakness, but denied headache, neck stiffness, photophobia, cough, sore throat, gastrointestinal, or urinary symptoms. His history is significant for HIV, non-Hodgkin's lymphoma with renal and bone marrow involvement, Hodgkin's disease in remission, prior lymphomatous meningitis, and recent Omaya reservoir placement with intrathecal Ara-C administration. On exam, cerebrospinal fluid initially showed no white cells and normal protein/glucose, but a subsequent gram stain revealed gram-positive cocci. The documented clinical impression was fever and neutropenia in the context of immunosuppression and recent CNS intervention. Treatment included empiric antibiotics (Vancomycin, Ticarcillin, Ampicillin, Ceftriaxone) and Acyclovir. The patient was also maintained on antiretroviral therapy and Bactrim for prophylaxis.
+The patient is a 45-year-old man presenting with fever and neutropenia. He reported fevers up to 104°F and increasing lower extremity weakness, but denied headache, neck stiffness, photophobia, cough, sore throat, nausea, vomiting, diarrhea, abdominal pain, dysuria, and chest pain. His history is significant for HIV, Hodgkin's disease in remission, newly diagnosed non-Hodgkin's lymphoma with prior lymphomatous meningitis, and multiple opportunistic infections. On admission, he was febrile (101.2°F), tachycardic, and had neurological deficits including right third nerve palsy and decreased lower extremity strength and sensation. CSF analysis initially showed no infection but later revealed gram-positive cocci; a left lower lobe infiltrate developed during hospitalization. The documented clinical impression was fever and neutropenia in the setting of immunosuppression and lymphoma with CNS involvement. Treatment included broad-spectrum antibiotics (Vancomycin, Ticarcillin, Acyclovir, Ampicillin, Ceftriaxone), Decadron, intrathecal chemotherapy, and supportive care. Despite these interventions, the patient’s condition declined and he died during the hospital stay.
+
 
 ## Dialogue Summary
 
-The patient presented with fever as the chief complaint. Symptoms included intermittent fever for a few days, bilateral leg weakness that developed gradually throughout the day, decline in mental status with trouble concentrating, increased fatigue, and difficulty managing daily tasks such as walking safely and preparing meals. The patient also reported neutropenia and, at the end of the visit, mentioned right-sided ptosis and left facial weakness. No chills, sweats, sore throat, cough, or appetite changes were noted. The doctor assessed that the combination of fever, new neurological symptoms, and neutropenia could indicate a potentially serious infection or complication requiring prompt attention. The doctor recommended contacting the patient's hematologist or primary care provider as soon as possible, or going to the emergency department for further evaluation, and advised rest and avoidance of sick contacts. The patient was instructed to seek immediate medical attention if new symptoms such as chest pain, shortness of breath, severe headache, or worsening condition occurred.
+The patient presents with fever as the chief complaint. The fever began a few days ago, is intermittent, and is accompanied by bilateral leg weakness, increased fatigue, and difficulty concentrating, all of which started around the same time as the fever. The patient reports that these symptoms have significantly impaired their ability to perform daily tasks and walk safely at home. There are no associated chills, sweats, sore throat, cough, or appetite changes. The patient has a known history of neutropenia. No formal diagnosis was documented in the dialogue, but the clinician expressed concern for possible infection or complication related to neutropenia. The treatment plan included urgent recommendation to contact the hematologist or primary care provider, or to go to the emergency department for further evaluation, with instructions to seek immediate care if new or worsening symptoms develop. The patient also mentioned new right-sided ptosis and left facial weakness, which should be reported to their provider.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.591
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

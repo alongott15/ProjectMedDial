@@ -85,16 +85,21 @@ For now, try to get as much rest as possible and keep track of your symptoms—e
 
 ## EHR Summary
 
-The patient is a 44-year-old female presenting with chronic pelvic pain and abnormal uterine bleeding. She reported persistent abnormal bleeding and increasing pelvic pain, with a history of irregular menses, endometriosis, and prior C-section. Pelvic ultrasound showed a normal-sized uterus with normal endometrium and a left ovarian cyst consistent with endometrioma. Her medical history includes multiple sclerosis with voiding dysfunction and endometriosis; she is allergic to penicillins and codeine. Physical exam revealed possible left adnexal fullness, but was limited by voluntary guarding; laboratory results showed anemia (Hgb as low as 9.0) and leukocytosis initially. The documented diagnosis was endometriosis with associated left ovarian endometrioma. Treatment included diagnostic hysteroscopy, dilation and curettage, diagnostic laparoscopy, exploratory laparotomy, lysis of adhesions, left oophorectomy, and left ureterolysis.
+The patient is a 44-year-old female presenting with chronic pelvic pain and abnormal uterine bleeding. She reported persistent abnormal bleeding and increasing pelvic pain, with a history of irregular menses, endometriosis, and a left ovarian cyst consistent with endometrioma. Her past medical history includes multiple sclerosis with voiding dysfunction, endometriosis, and prior C-section; she is allergic to penicillins and codeine. The documented diagnoses were endometriosis, left endometrioma, chronic pelvic pain, abnormal uterine bleeding, postoperative narcosis, and postoperative fever. She underwent diagnostic hysteroscopy, dilation and curettage, diagnostic laparoscopy (converted to exploratory laparotomy), lysis of adhesions, left oophorectomy, and left ureterolysis. Postoperatively, she experienced pain control issues, transient apnea likely related to narcotics, low-grade fevers, and mild atelectasis but improved with supportive care. At discharge, her pain was controlled with oxycodone-acetaminophen and ibuprofen, and she was advised to avoid heavy lifting for 6 weeks and vaginal insertion for 2 weeks. She was discharged home in stable condition with follow-up arranged with her OB/GYN.
+
 
 ## Dialogue Summary
 
-The patient presented with chronic pelvic pain that has recently worsened. She reported persistent abnormal uterine bleeding, described as different from her usual periods, and characterized her pelvic pain as mostly dull and aching, sometimes becoming sharper and more intense, with a severity up to 7 out of 10. Additional symptoms included increased abdominal distention, pain, and nausea; she denied unusual discharge or changes in bowel or urinary habits. The symptoms have been constant throughout the day, without identifiable triggers, and have negatively affected her sleep, energy levels, and ability to perform daily activities. No relevant past medical history, medications, or allergies were mentioned. The doctor noted the ongoing abnormal bleeding, increased abdominal distention, and discomfort interfering with daily life, and discussed that these symptoms could be related to uterine or ovarian conditions such as fibroids or hormonal changes, but emphasized the need to rule out more serious causes. The doctor recommended a pelvic exam and ultrasound for further evaluation and advised the patient to seek urgent care if she experiences heavy bleeding (soaking through pads every hour), severe uncontrolled pain, lightheadedness, or fainting. The patient was instructed to rest, monitor her symptoms closely, and report any changes while awaiting further evaluation.
+The patient is a female presenting with chronic pelvic pain that has recently worsened. She reports persistent abnormal uterine bleeding, described as different from her usual periods, and rates her pelvic pain at its worst as 7 out of 10. The pain is mostly dull and aching with occasional sharp episodes, is constant throughout the day, and is associated with increased abdominal distention and nausea. These symptoms have been affecting her sleep, energy levels, and ability to perform daily activities. Relevant history, medications, and allergies are not specified. The clinical impression includes possible conditions affecting the uterus or ovaries, such as fibroids or hormonal changes, but more serious causes need to be ruled out. The treatment plan includes a pelvic exam and ultrasound for further evaluation, with instructions to seek urgent care if she experiences heavy bleeding, severe uncontrolled pain, lightheadedness, or fainting. She was also advised to rest and monitor her symptoms closely until further assessment.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
+- **STS Score**: 0.691
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

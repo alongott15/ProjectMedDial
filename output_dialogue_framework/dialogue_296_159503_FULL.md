@@ -85,16 +85,21 @@ Let’s also make sure someone close to you knows what’s going on, in case you
 
 ## EHR Summary
 
-The patient is a 73-year-old male presenting with chest pain. He experienced substernal chest pain radiating to the left arm, preceded by several weeks of indigestion unrelieved by Tums, and the acute pain episode lasted 20 minutes without resolution until treated with nitroglycerin. He denied shortness of breath, nausea, vomiting, diaphoresis, fevers, chills, or sweats. On-scene electrocardiogram showed ST elevations, and he was treated with aspirin and nitroglycerin, which relieved his pain, though left arm discomfort persisted. Cardiac catheterization revealed significant coronary artery disease, including 60–90% stenosis in the left anterior descending artery, 80% stenosis in the left circumflex, total occlusion of obtuse marginal two and the right coronary artery, and 90% stenosis in obtuse marginal three. The documented diagnosis was myocardial infarction with multi-vessel coronary artery disease. The patient was transferred for emergent coronary artery bypass grafting.
+The patient is a 73-year-old male presenting with chest pain. He experienced substernal chest pain radiating to the left arm, preceded by weeks of indigestion unrelieved by Tums, and had persistent pain for 20 minutes while working on his boat, prompting him to call 911. He denied shortness of breath, nausea, vomiting, diaphoresis, fevers, chills, or sweats. His past medical and surgical history was negative, and he had no known drug allergies. Cardiac catheterization revealed significant multi-vessel coronary artery disease, and he underwent emergent coronary artery bypass grafting times three. The documented diagnosis was coronary artery disease, status post coronary artery bypass grafting. Postoperative recovery was notable for transient ventricular tachycardia and mild anemia requiring transfusion, but he remained hemodynamically stable and was discharged in stable condition. Discharge medications included Lasix, potassium chloride, aspirin, Lopressor, Niferex, Colace, Tylenol, and Advil, with follow-up arranged in two and six weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with new-onset confusion. Symptoms included difficulty keeping track of daily routines, managing finances, shopping, and increased agitation and restlessness, which tend to worsen in the late afternoon or evening; the confusion began a few days ago and came on suddenly. The patient denied recent illness, fever, changes in sleep, new medications, or trouble with personal care, and reported no issues recognizing people or places. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the confusion and agitation were intermittent and more pronounced later in the day, with preserved recognition and personal care abilities. The doctor suggested this pattern could be consistent with delirium, though no clear trigger was identified. Recommendations included staying hydrated, maintaining a regular routine, eating regularly, informing someone close about the symptoms, and seeking prompt care if new symptoms such as fever, severe sleepiness, trouble walking, or worsening confusion develop. The doctor advised a follow-up check-up if symptoms persist or worsen to investigate underlying causes.
+The patient is an adult presenting with new-onset confusion as the chief complaint. The confusion began suddenly a few days ago and is characterized by difficulty managing daily routines, finances, and shopping, though personal care remains intact. The patient also reports intermittent agitation and restlessness, which are more pronounced in the late afternoon or evening, but denies disorientation to people or places. There is no history of recent illness, fever, sleep changes, or new medications. The clinical impression discussed was possible delirium, given the acute onset and fluctuating course of symptoms. The physician advised maintaining hydration, a regular routine, and adequate nutrition, and emphasized monitoring for new or worsening symptoms such as fever, severe sleepiness, or increased confusion. The patient was encouraged to involve a close contact for support and to seek further evaluation if symptoms persist or worsen. No specific triggers for the episodes were identified.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.927
-- **Similarity Label**: N/A
+- **STS Score**: 0.396
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 147 words
+
 
 ## Processing Information
 

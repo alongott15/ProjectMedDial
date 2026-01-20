@@ -87,16 +87,21 @@ Let me know if you'd like tips on setting up your workspace or strategies for ta
 
 ## EHR Summary
 
-The patient is a 41-year-old female presenting for evaluation and treatment of a right ophthalmic artery aneurysm. She reported a history of headaches but had no other complaints at the time of admission. Her past medical history includes spastic bowel disease, spastic esophagus disease, anxiety and panic disorder, hypothyroidism, and prior tonsillectomy; she also has a history of smoking, alcohol, and drug use, all of which she quit several years prior. She is allergic to Ciprofloxacin (rash) and vomits with Percocet. On physical examination, she was well-developed and in no acute distress, with an unremarkable general and neurological exam. The documented diagnosis was right ophthalmic artery aneurysm. She underwent a right coronal craniotomy with clipping of the aneurysm, tolerated the procedure well, and had an unremarkable postoperative course. No additional treatments or recommendations were documented in the provided text.
+The patient is a 41-year-old female presenting for evaluation of headaches. She reported a history of headaches but had no other complaints at the time of admission. Her past medical history includes spastic bowel disease, spastic esophagus disease, anxiety and panic disorder, hypothyroidism, and previous substance use, as well as allergies to ciprofloxacin (rash) and vomiting with Percocet. The admitting diagnosis was a right ophthalmic artery aneurysm discovered during elective angiogram for headache evaluation. Physical examination was unremarkable, including intact cranial nerves and normal muscle strength. She underwent a right coronal craniotomy with clipping of the right ophthalmic aneurysm, which she tolerated well. Her postoperative course was stable and unremarkable. She was discharged in stable and improved condition.
+
 
 ## Dialogue Summary
 
-The patient presented with headaches that have been occurring for a little while and are becoming increasingly bothersome. The headaches are intermittent, with pain rated at 5–6 out of 10 at their worst, and are described as distracting but not unbearable. Resting in a quiet room provides some relief, and the patient has not identified any specific triggers; however, headaches are worse after extended computer use and make it harder to concentrate during tasks. No associated symptoms such as vision changes, nausea, or sensitivity to light or sound were reported, and sleep patterns remain unchanged. No relevant medical history, medications, or allergies were mentioned. The doctor assessed that the headache pattern is consistent with tension-type headaches or headaches related to eye strain from prolonged screen time. Recommendations included taking regular breaks from the computer, adjusting workstation ergonomics, staying hydrated, and performing gentle neck and shoulder stretches; the doctor also advised follow-up if symptoms worsen or new symptoms develop. The patient requested tips on workspace setup and strategies for taking breaks.
+The patient is an adult presenting with headaches as the chief complaint. The headaches have been occurring for a while, are intermittent, and are rated at 5–6 out of 10 in intensity, causing distraction and difficulty concentrating, especially after prolonged computer use. Resting in a quiet room provides some relief, and there are no associated symptoms such as vision changes, nausea, or sensitivity to light or sound. The patient reports no recent changes in sleep patterns. The clinical impression is that the headaches are likely tension-type or related to eye strain from extended screen time. The treatment plan includes practical measures such as taking regular breaks from the computer, adjusting workstation ergonomics, staying hydrated, and performing gentle neck and shoulder stretches. The patient was also offered tips on workspace setup and strategies for taking breaks. No medications or further diagnostic tests were documented.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.930
-- **Similarity Label**: N/A
+- **STS Score**: 0.432
+- **Model Used**: general
+- **Text1 Length**: 118 words
+- **Text2 Length**: 143 words
+
 
 ## Processing Information
 

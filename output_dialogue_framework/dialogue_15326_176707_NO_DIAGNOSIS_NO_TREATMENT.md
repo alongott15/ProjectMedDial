@@ -98,3 +98,23 @@ Let me know if you have any other concerns or if there’s anything else you’v
 ## Processing Information
 
 - **Processing Time**: 410.3s
+
+## EHR Summary
+
+The patient is a newborn male, triplet #2, admitted after birth at 33+ weeks gestation due to prematurity. He was born via high-risk triplet pregnancy and initially presented as a well-appearing preterm infant with stable vital signs and no distress. During the hospital course, he experienced apnea of prematurity, which resolved with no episodes in the five days prior to discharge, and developed mild hyperbilirubinemia that did not require phototherapy. Relevant history includes maternal preterm labor treated with magnesium sulfate and no significant perinatal infections; blood cultures were negative and no antibiotics were administered. The documented diagnoses were prematurity (33+ weeks), resolved apnea of prematurity, resolved hyperbilirubinemia, status post circumcision, and conjunctivitis versus dacryostenosis. Treatment included supportive care, transition from IV fluids to full feeds with Enfamil 24 calories/oz, empiric ilotycin ointment for persistent eye drainage, and routine newborn care including hepatitis B vaccination. The patient passed the car seat and hearing screens and was discharged in stable condition with follow-up arranged.
+
+
+## Dialogue Summary
+
+The patient is a young infant presented by their caregiver with concerns about breathing pauses. The caregiver reports brief breathing pauses, mostly during sleep, lasting only a few seconds, with no associated cyanosis, limpness, or specific triggers, and no disruption to sleep. Additionally, there is mild eye drainage from one eye without redness, swelling, or discomfort. There is no mention of relevant past medical history, medications, or allergies.
+
+The clinical impression is that the breathing pauses are consistent with periodic breathing, a common and typically benign pattern in young infants. The likely cause of the eye drainage is a blocked tear duct, also common in this age group. The treatment plan includes monitoring for any changes such as longer pauses, color changes, or signs of distress, and gently cleaning the affected eye with a warm, damp cloth as needed. The caregiver was advised to contact their pediatrician if new symptoms develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.434
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 151 words
+

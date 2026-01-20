@@ -85,16 +85,23 @@ If you notice new symptoms—such as confusion, fever, chest discomfort, or sudd
 
 ## EHR Summary
 
-The patient is an 81-year-old female presenting with increasing fatigue, decreased appetite, and weight loss. She has a history of multiple episodes of congestive heart failure, significant mitral regurgitation, chronic atrial fibrillation (on Coumadin), hypertension, aortic insufficiency, COPD, hypercholesterolemia, rheumatic heart disease, paroxysmal atrial fibrillation, left retinal artery embolus, cardiomyopathy, and pulmonary hypertension. On admission, she was transitioned from Coumadin to IV heparin while awaiting normalization of her INR. Cardiac catheterization revealed a cardiac index of 1.4, 30–60% RCA lesion, and 4+ mitral regurgitation; TEE showed mild aortic insufficiency, moderate mitral regurgitation, mild mitral stenosis, moderate tricuspid regurgitation, an ejection fraction of 35–40%, and a dilated left atrium without thrombus. The documented clinical impression is decompensated heart failure with significant valvular disease and chronic atrial fibrillation. Treatment included discontinuation of Coumadin, initiation of IV heparin, and continuation of her chronic medications including diuretics, beta-blockers, ACE inhibitor, digoxin, and amiodarone. No drug allergies were reported.
+The patient is an 81-year-old female presenting with increasing fatigue, decreased appetite, and weight loss. She reported a three-week history of diarrhea prior to admission, but denied other acute symptoms. Her medical history includes congestive heart failure with significant mitral regurgitation, chronic atrial fibrillation (on Coumadin), hypertension, COPD, hypercholesterolemia, rheumatic heart disease, cardiomyopathy, and pulmonary hypertension. On admission, she was transitioned from Coumadin to IV heparin in preparation for mitral valve surgery. The documented diagnoses include status post mitral valve replacement with a #27 Mosaic valve, mitral regurgitation, paroxysmal atrial fibrillation, hypertension, COPD, hypercholesterolemia, left retinal artery embolus, cardiomyopathy, pulmonary hypertension, rheumatic heart disease, and history of hysterectomy. Treatment included mitral valve replacement surgery, perioperative anticoagulation management (heparin, vitamin K, FFP), adjustment of cardiac medications (ACE inhibitor, beta-blocker, Lasix), and supportive care. At discharge, she was stable and prescribed warfarin (target INR 2–2.5), Lasix, amiodarone, lisinopril, Lopressor, aspirin, Remeron, Protonix, Colace, potassium chloride, and Percocet as needed for pain. She was discharged to an extended care facility with follow-up arranged in multiple clinics.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually increasing tiredness over the past few weeks. They reported feeling more easily fatigued, difficulty moving around, and reduced ability to perform daily activities, with tiredness partially relieved by rest but not fully resolving. The patient also noted decreased appetite and recent weight loss, but denied changes in sleep, mood, shortness of breath, swelling, or lightheadedness. No relevant medical history, medications, or allergies were mentioned during the visit. On assessment, the doctor noted the absence of concerning symptoms such as swelling or confusion and considered possible causes including mild infections, nutritional changes, dehydration, or age-related factors. The doctor recommended maintaining hydration, eating small frequent meals, and engaging in gentle movement as tolerated. The patient was advised to report any new symptoms such as confusion, fever, chest discomfort, or sudden weakness. The patient expressed understanding of the recommendations provided.
+The patient is an older adult presenting with the chief complaint of gradually increasing tiredness over the past few weeks. The fatigue has made daily activities more difficult, with the patient reporting getting worn out more easily and not recovering fully with rest. Additional symptoms include decreased appetite and some weight loss, but no changes in sleep, mood, or new symptoms such as shortness of breath, swelling, or lightheadedness. Relevant medical history, medications, and allergies are not specified in the dialogue.
+
+The clinical impression is that these symptoms may be related to common issues in older adults such as mild infections, nutritional changes, dehydration, or the aging process, but no specific diagnosis is documented. The treatment plan includes recommendations to stay hydrated, eat small frequent meals, and engage in gentle movement as tolerated. The patient was also advised to monitor for new symptoms such as confusion, fever, chest discomfort, or sudden weakness and to report these promptly.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.933
-- **Similarity Label**: N/A
+- **STS Score**: 0.387
+- **Model Used**: general
+- **Text1 Length**: 173 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

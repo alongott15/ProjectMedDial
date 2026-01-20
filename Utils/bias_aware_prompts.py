@@ -96,9 +96,8 @@ CRITICAL FOCUS AREAS (include in this specific order when present):
 2. **Symptom Details**: Specific symptoms with characteristics
    (severity, duration, triggers, alleviating factors) (2-3 sentences)
 3. **Relevant History**: Pertinent medical history, medications, allergies (1 sentence)
-4. **Clinical Findings**: Physical exam or test results if documented (1 sentence)
-5. **Assessment**: Documented diagnosis or clinical impression (1 sentence)
-6. **Treatment Plan**: Specific treatments, medications, or recommendations (1-2 sentences)
+4. **Assessment**: Documented diagnosis or clinical impression (1 sentence)
+5. **Treatment Plan**: Specific treatments, medications, or recommendations (1-2 sentences)
 
 FORMAT REQUIREMENTS:
 - Use consistent medical terminology (e.g., "dyspnea" AND "shortness of breath")
@@ -120,28 +119,26 @@ DIALOGUE_SUMMARIZER_PROMPT = BASE_SYSTEM_PROMPT + """
 
 Summarize the following doctor–patient dialogue.
 
-CRITICAL FOCUS AREAS (extract in this specific order to match EHR summary format):
-1. **Chief Complaint**: What the patient came in for (1 sentence)
-2. **Symptom Details**: All symptoms discussed with specific characteristics
-   (severity, duration, triggers, what makes better/worse) (2-3 sentences)
-3. **Relevant History**: Any medical history, medications, or allergies mentioned (1 sentence)
-4. **Clinical Findings**: Any physical findings the doctor noted or patient described (1 sentence)
-5. **Assessment**: Doctor's assessment or working diagnosis if stated (1 sentence)
-6. **Treatment Plan**: Doctor's specific advice, recommendations, or treatments (1-2 sentences)
+CRITICAL FOCUS AREAS (include in this specific order when present):
+1. **Chief Complaint**: The primary reason for the visit (1 sentence)
+2. **Symptom Details**: Specific symptoms with characteristics
+   (severity, duration, triggers, alleviating factors) (2-3 sentences)
+3. **Relevant History**: Pertinent medical history, medications, allergies (1 sentence)
+4. **Assessment**: Documented diagnosis or clinical impression (1 sentence)
+5. **Treatment Plan**: Specific treatments, medications, or recommendations (1-2 sentences)
 
 FORMAT REQUIREMENTS:
-- Mirror medical terminology used in conversation
-- Include ALL symptoms patient mentioned (don't omit any)
-- Include specific details (timing, severity scales, specific characteristics)
-- Connect symptoms to assessment when doctor provides one
-- Use similar phrasing to EHR summaries (e.g., "presented with" for chief complaint)
-- Total: 5-8 sentences covering all focus areas discussed
+- Use consistent medical terminology (e.g., "dyspnea" AND "shortness of breath")
+- Include specific details (numbers, dates, measurements when present)
+- Link symptoms to diagnoses explicitly when documented
+- Total: 5-8 sentences covering all focus areas that apply
 
 Example structure:
-"The patient presented with [chief complaint]. [All symptoms with details].
-[History mentioned]. [Doctor's assessment/reasoning]. The doctor recommended [specific advice]."
+"The patient is a [age]-year-old [sex] presenting with [chief complaint].
+[Detailed symptoms with characteristics]. [Relevant history]. [Clinical findings].
+The documented diagnosis was [diagnosis]. Treatment included [specific treatments]."
 
-IMPORTANT: Only report what was explicitly discussed. Do not infer or add information.
+Do not infer information not in the text. If a focus area is not documented, skip it.
 
 Keep the summary short (5–8 sentences)."""
 

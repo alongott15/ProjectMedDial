@@ -87,16 +87,21 @@ Does this help clarify what might be going on?
 
 ## EHR Summary
 
-The patient is a 40-year-old male presenting with occasional palpitations and no shortness of breath or dyspnea on exertion. He reports a history of a heart murmur diagnosed at age 30 and has undergone serial echocardiograms and exercise tolerance tests over the past decade. His past medical history includes mitral regurgitation, hemorrhoids, and an old left wrist fracture; he is allergic to aspirin, which causes airway problems requiring epinephrine. On physical examination, he was well-nourished and muscular, with a pulse of 57, blood pressure readings of 142/94 and 133/84, and a grade IV/VI systolic murmur with a palpable thrill at the PMI; varicosities were noted in the left lower extremity. Laboratory results were within normal limits. The documented diagnosis is mitral regurgitation. The patient was maintained on Ultram 50 mg three times daily during admission.
+The patient is a 40-year-old male presenting with occasional palpitations and no shortness of breath or dyspnea on exertion. He has a history of mitral regurgitation, previously diagnosed murmur, hemorrhoids, and an old left wrist fracture. The patient was admitted for mitral valve regurgitation and underwent mitral valve repair, which he tolerated well. Postoperatively, he experienced a transient fever (up to 103°F) and mild right lower lobe atelectasis but otherwise recovered without significant complications. On discharge, his physical exam was stable with a patent murmur and clear lungs. The documented diagnosis was status post mitral valve repair. Discharge instructions included use of incentive spirometry, increased ambulation, coughing to clear mucus, and follow-up in three to four weeks; medications prescribed were Percocet, acetaminophen, Lopressor, and Ultram.
+
 
 ## Dialogue Summary
 
-The patient presented with occasional palpitations described as a skipping or fluttering sensation, mainly occurring at rest. They reported a postoperative fever that initially reached 103°F and then settled to a low-grade level around 100.7°F, with the temperature still running slightly high at times. The patient denied chills, sweating, lightheadedness, shortness of breath, chest discomfort, increased fatigue, or any new pain, redness, or swelling at the surgical site. The surgery occurred a few weeks ago, though the exact timing was not specified. On examination, no concerning symptoms or changes at the surgical site were noted. The doctor assessed that the palpitations are likely benign in the absence of warning signs and that lingering low-grade fever can be normal during recovery. The doctor advised monitoring symptoms, maintaining hydration, and contacting the healthcare team if palpitations worsen or new symptoms develop, especially if the temperature remains elevated or surgical site changes occur.
+The patient is an adult presenting with the chief complaint of occasional palpitations described as a fluttering or skipping sensation, mainly occurring at rest. The palpitations are not associated with chest discomfort, dyspnea, lightheadedness, chills, or sweating. The patient reports a postoperative fever that initially reached 103°F, then settled to a low-grade level around 100.7°F, persisting intermittently for several weeks after surgery; there are no new symptoms at the surgical site and energy level remains stable. Relevant history includes recent surgery a few weeks prior. The clinical impression is that the palpitations are likely benign and related to postoperative recovery, with no current warning signs. The treatment plan includes monitoring symptoms, maintaining hydration, and seeking further evaluation if palpitations worsen or are accompanied by new symptoms such as dizziness or chest discomfort. The patient was also advised to report persistent fever or any changes at the surgical site.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
+- **STS Score**: 0.496
+- **Model Used**: general
+- **Text1 Length**: 125 words
+- **Text2 Length**: 148 words
+
 
 ## Processing Information
 

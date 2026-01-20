@@ -87,16 +87,21 @@ Does that sound clear? Is there anything else about your symptoms that you’re 
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with lethargy and altered mental status. He reports episodes of passing out, waking up confused in his wheelchair after several hours, and feeling as though he had a seizure; these symptoms have persisted for about three weeks. He also describes intermittent nausea and vomiting over the past two weeks, worsening in the last three days, along with increased stoma output. His medical history includes HIV (CD4 count 492), prior cerebrovascular accident with residual weakness, chronic renal insufficiency, hypertension, colectomy with colostomy, neuropathy, osteoarthritis, depression, and gastroesophageal reflux disease. Allergies include food dyes, perfumes, penicillin (causing swelling), verapamil, fentanyl, vasotec, hydrochlorothiazide, trilafon, elavil, and sulfonamide. Admission medications include antiretrovirals (indinavir, epivir, retrovir), prilosec, neurontin, MS Contin, zoloft, and trazodone. No specific physical exam findings or diagnosis are documented in the provided note. The treatment plan and recommendations are not specified in the available documentation.
+The patient is a 58-year-old male presenting with lethargy and altered mental status. He reported episodes of passing out, confusion upon awakening, and intermittent nausea and vomiting for two weeks, with increased stoma output over the past three days. His medical history includes human immunodeficiency virus (HIV), cerebrovascular accident with residual weakness, chronic renal insufficiency, hypertension, and status post colectomy with colostomy. On admission, he was hypotensive and required intravenous fluids and a dopamine drip, later weaned as his blood pressure stabilized. Workup revealed no new neurological events or infections; EEG was normal and lumbar puncture was negative. His altered mental status was attributed to hypovolemia from increased stoma output and excessive narcotic use, both of which were addressed during hospitalization. The documented diagnosis was gastroenteritis. Treatment included supportive care with fluids, adjustment of pain medications, Neutra-Phos for low phosphate, and discontinuation of antibiotics due to rash; he was discharged in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with increasing tiredness and feeling "out of it" over the past few days. Symptoms included difficulty keeping up with chores, feeling wiped out most of the day, trouble focusing, confusion, and some memory issues, with these symptoms worsening recently. The patient denied fever, headache, sore throat, appetite changes, or sleep disturbances, but later reported a couple of episodes of passing out, nausea, and vomiting. No specific triggers for the tiredness or confusion were identified, and sleep patterns remained unchanged. The doctor noted the absence of other acute symptoms and suggested possible causes such as mild viral illness, stress, dehydration, or routine changes, but emphasized that worsening symptoms could indicate something more serious. The doctor advised the patient to monitor for new symptoms such as severe confusion, difficulty waking up, weakness, or trouble speaking and to seek immediate care if these occur. The patient was instructed to stay hydrated, eat regularly, rest as needed, and contact their healthcare provider if symptoms worsen or new concerning signs develop.
+The patient is an adult presenting with the chief complaint of increased tiredness and feeling "out of it." Over the past few days, they have experienced worsening fatigue, difficulty with focus and memory, and episodes of confusion, which have impacted their ability to perform daily chores. The patient denies fever, headache, sore throat, appetite changes, or sleep disturbances. They report that symptoms are not triggered by specific activities and occur throughout the day. Additionally, the patient disclosed having had a few episodes of syncope (passing out), as well as some nausea and vomiting. No formal diagnosis was documented during the encounter. The treatment plan included advice to stay well-hydrated, eat regularly, rest as needed, monitor for new or worsening symptoms (such as severe confusion, difficulty waking, weakness, or trouble speaking), and to seek prompt medical attention if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.609
+- **Model Used**: general
+- **Text1 Length**: 153 words
+- **Text2 Length**: 139 words
+
 
 ## Processing Information
 

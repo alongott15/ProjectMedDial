@@ -85,16 +85,23 @@ Would you like advice on simple balance exercises or ways to make your home safe
 
 ## EHR Summary
 
-The patient is a 65-year-old woman presenting with a cerebral aneurysm. She reported no headache, vision problems, weakness, or paresthesias, but did note changes in her gait. Her past medical history includes type 2 diabetes, hypertension, and chronic obstructive pulmonary disease; she is allergic to penicillin, Keflex, and Bactrim. On physical exam, she was frail but in no acute distress, with positive rales in the chest and an ataxic gait. The documented diagnosis was cerebral aneurysm. She underwent successful coiling of the aneurysm and remained neurologically stable postoperatively. Post-procedure care included hourly neurological checks and heparin to maintain her PTT in the 50-60 range. She was discharged in stable condition.
+The patient is a 65-year-old woman presenting with a cerebral aneurysm. She reported no headache, vision problems, weakness, or paresthesias, but did note changes in her gait. Her past medical history includes type 2 diabetes, hypertension, and chronic obstructive pulmonary disease; she is allergic to penicillin, Keflex, and Bactrim. On admission, physical exam revealed a positive ataxic gait and mild left foot edema, but she was otherwise neurologically intact. The documented diagnosis was cerebral aneurysm, for which she underwent successful coiling. Postoperatively, she remained neurologically stable with no new deficits and was managed with Heparin, Nipride for blood pressure control, and transitioned to oral antihypertensives. She was discharged home in stable condition on Plavix, Aspirin, Metoprolol (increased dose), Glyburide, Neurontin, Amitriptyline, Estradiol, and Trandolapril. Follow-up with her physician was arranged in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about changes in walking, specifically feeling unsteady and having decreased balance for the past few weeks. Symptoms included mild unsteadiness, increased difficulty with daily activities such as getting around the house, climbing stairs, and walking for exercise, as well as mild swelling in the left foot that improves with elevation. The patient denied numbness, tingling, leg weakness, or recent falls, and reported that symptoms have remained stable without worsening. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted unsteady gait and mild left foot swelling, with no neurological deficits reported. The doctor attributed the symptoms to possible minor joint issues, muscle weakness, or mild swelling related to circulation or fluid buildup. The treatment plan included advice to be cautious at home (using handrails, keeping pathways clear, wearing supportive footwear), elevating the feet to reduce swelling, and monitoring for new symptoms such as sudden weakness or worsening balance. The doctor also offered to provide guidance on balance exercises and home safety modifications.
+The patient presents with concerns about changes in walking, specifically unsteadiness and impaired balance. Symptoms have been present for a few weeks, are not worsening, and include mild swelling in the left foot that improves with elevation; there is no numbness, tingling, leg weakness, or history of falls. The unsteadiness has made daily activities such as walking for exercise, doing chores, and climbing stairs more challenging, prompting the patient to be more cautious. Relevant history of other medical conditions, medications, or allergies was not specified.
+
+The clinical impression is that the unsteady gait and mild foot swelling may be related to common age-associated factors such as minor joint issues, muscle weakness, or mild fluid retention. The physician advised continued caution at home, use of handrails on stairs, keeping pathways clear, wearing supportive footwear, and elevating the feet to reduce swelling. The patient was also offered advice on simple balance exercises and home safety modifications. No new medications or further diagnostic testing were documented at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.937
-- **Similarity Label**: N/A
+- **STS Score**: 0.545
+- **Model Used**: general
+- **Text1 Length**: 133 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ In the meantime, try to pace yourself and avoid overexertion. If you notice new 
 
 ## EHR Summary
 
-The patient is a 52-year-old female presenting with complete heart block. She reports four months of gradually worsening dyspnea on exertion and associated dizziness, without chest pain, orthopnea, paroxysmal nocturnal dyspnea, or edema. Her medical history includes hypertension (not treated for the past three months) and hypercholesterolemia; she has no known drug allergies. On examination, her blood pressure was 160/70 mmHg, heart rate 35–40 bpm, and she had bibasilar crackles and a I/VI systolic murmur at the left upper sternal border. The documented diagnosis was complete heart block with bradycardia. Treatment details are not specified in the provided note.
+The patient is a 52-year-old female presenting with complete heart block and bradycardia. She reported four months of gradually worsening dyspnea on exertion and associated dizziness, but denied chest pain, orthopnea, paroxysmal nocturnal dyspnea, edema, or other systemic symptoms. Her past medical history includes hypertension (not treated for the past three months) and hypercholesterolemia; she has no known drug allergies. On admission, her heart rate was 35–40 bpm with blood pressure ranging from 110 to 175 systolic, and EKG confirmed complete heart block with bradycardia. The documented diagnosis was complete heart block and bradycardia, status post DDD pacemaker placement. Treatment included placement of a DDD pacemaker, initiation of hydrochlorothiazide for hypertension, and discharge medications of aspirin, Lipitor, hydrochlorothiazide, and a short course of Keflex for recent pacemaker placement. She was discharged home in stable condition with instructions for outpatient stress testing and follow-up with her primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening shortness of breath during daily activities. Symptoms included increased breathlessness with exertion (such as climbing stairs or carrying groceries), dizziness occurring at the same time as shortness of breath, and a subjective sense of a slower heart rate; no chest discomfort, leg swelling, or fainting were reported. The patient denied recent illnesses, new medications, or other changes in health. On review, physical exertion was identified as the main trigger, with symptoms absent at rest. The doctor assessed that the combination of exertional dyspnea, lightheadedness, and a slower pulse may indicate the heart is not pumping efficiently during activity, possibly due to a slow heart rate. The doctor recommended monitoring pulse at home (both at rest and after activity), pacing activities to avoid overexertion, and scheduling a check-up for heart rhythm evaluation. Additional advice included seeking prompt care if new symptoms such as chest pain, fainting, or swelling develop, and offered tips for home pulse monitoring.
+The patient is an adult presenting with increased shortness of breath during exertion as the chief complaint. Symptoms include gradually worsening dyspnea over several weeks, primarily triggered by physical activity such as climbing stairs or carrying groceries, and associated with dizziness/lightheadedness but no chest discomfort or leg swelling. The patient reports no recent illnesses or medication changes but has noticed a slower heart rate, confirmed by self-monitoring at home (exact pulse not specified). Relevant history of other medical conditions or medications is not documented. The clinical impression is that the symptoms may be due to reduced cardiac efficiency during activity, possibly related to bradycardia. The doctor recommended monitoring pulse at rest and after activity, pacing daily activities to avoid overexertion, and scheduling a check-up for heart rhythm evaluation. The patient was advised to seek prompt care if new symptoms such as chest pain, fainting, or swelling develop. Instructions were offered for home pulse monitoring and managing daily activities until further evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.621
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

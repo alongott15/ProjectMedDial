@@ -188,3 +188,23 @@ For now, try to keep your legs elevated when possible and continue to monitor fo
 ## Processing Information
 
 - **Processing Time**: 460.1s
+
+## EHR Summary
+
+The patient is a 40-year-old female presenting with a two-week history of increased cough productive of green sputum and increased shortness of breath. Symptoms were preceded by an aspiration event while eating and were associated with hypoxia (oxygen saturation 78%) and hypotension (BP 84/70) on arrival. Her past medical history includes quadriplegia secondary to C3-C4 spinal cord injury, chronic adrenal insufficiency, recurrent aspiration pneumonia, extensive sacral decubitus ulcers, and anemia; she is allergic to penicillin and sulfa. On admission, chest x-ray showed a new right lower lobe opacity consistent with pneumonia, and laboratory findings included respiratory acidosis and hypoalbuminemia. The documented diagnoses were aspiration pneumonia, quadriplegia, extensive sacral decubitus ulcers, chronic back pain, and hypoalbuminemia. She was treated with intravenous antibiotics (Levofloxacin, Flagyl, Vancomycin initially), steroids for adrenal insufficiency, aggressive hydration, oxygen therapy, frequent suctioning, chest physical therapy, and an aggressive bowel regimen. At discharge, she was prescribed a 14-day course of oral Levaquin and Flagyl, continued on nebulizers, pain management, nutritional supplements, and aspiration precautions. The patient was discharged in stable condition to her subacute nursing facility.
+
+
+## Dialogue Summary
+
+The patient is a medically complex individual presenting with increased cough producing green sputum, more shortness of breath, and new swelling in both legs (1+ pitting edema). These symptoms have persisted for several days. The cough and sputum changes, along with dyspnea, raise concern for a possible lung infection or aspiration event, particularly given the patient’s history of quadriplegia, chronic adrenal insufficiency, recurrent aspiration pneumonia, chronic urinary tract infections, and severe pressure ulcers. The mild leg swelling may be related to immobility, fluid balance changes, or other factors such as medications or dietary salt intake; more serious causes like cardiac or renal issues were also mentioned as possibilities but no acute findings were noted.
+
+No definitive diagnosis was documented, but infection and fluid overload were considered. The treatment plan includes close monitoring for worsening symptoms (such as fever, increased work of breathing, bluish discoloration, decreased responsiveness, rapid increase in swelling, new pain or redness in the legs, or swelling above the knees) and urgent evaluation if these occur. The patient was advised to keep her legs elevated and to follow her established emergency plan for adrenal insufficiency, including stress dosing of steroids if signs of crisis develop. Ongoing communication with the care team was encouraged if any symptoms worsen or new concerns arise.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.701
+- **Model Used**: general
+- **Text1 Length**: 178 words
+- **Text2 Length**: 213 words
+

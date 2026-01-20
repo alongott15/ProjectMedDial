@@ -85,16 +85,21 @@ Let me ask—how much is this interfering with your usual day-to-day life at thi
 
 ## EHR Summary
 
-The patient is a 52-year-old male presenting with chest pain of several weeks' duration, without pain at rest. He reported increased symptoms leading to hospital admission and had previously used sublingual nitroglycerin. His history includes atrial fibrillation, hypertension, depression, and former tobacco use; home medications included Lopressor, Coumadin, and aspirin, with no known drug allergies. Cardiac catheterization revealed an ejection fraction of 67% and significant coronary artery stenoses (90% mid-LAD, 60% proximal circumflex, 60% OM2). The documented diagnosis was severe coronary artery disease requiring revascularization. He underwent off-pump coronary artery bypass grafting (LIMA to LAD and saphenous vein graft to OM1) without complications. Postoperatively, he developed atrial fibrillation controlled with intravenous Lopressor and was noted to be recovering well with physical therapy.
+The patient is a 52-year-old male presenting with several weeks of exertional chest pain, without chest pain at rest. Symptoms prompted evaluation, including a stress test showing diffuse ST depression, and subsequent transfer for further management. Relevant history includes hypertension, paroxysmal atrial fibrillation (on Coumadin), depression, and former tobacco use; there are no known drug allergies. Cardiac catheterization revealed significant coronary artery disease with 90% mid-LAD stenosis and additional lesions. The documented diagnosis was coronary artery disease, status post off-pump coronary artery bypass graft times two. Treatment included LIMA graft to the LAD and saphenous vein graft to the OM1, with postoperative management of atrial fibrillation using intravenous Lopressor, Amiodarone, and diltiazem, later transitioned to oral medications. The patient recovered well postoperatively, ambulated independently, and was discharged home in stable condition on a regimen including Lopressor, Lasix, KayCiel, aspirin, Plavix, Amiodarone taper, Cardizem CD, Percocet, and Colace. He was advised to follow up with his cardiologist and primary care physician, continue current medications, and resume Coumadin after discontinuing Plavix in three to six months.
+
 
 ## Dialogue Summary
 
-The patient presented with increased chest pain described as central chest pressure. The pressure lasts for a few minutes at a time, is rated as a 6 out of 10 at its worst, and is triggered primarily by physical activity such as walking or moving around; it has been present for several days and has recently worsened. The patient denied associated symptoms such as sweating, lightheadedness, or shortness of breath, but reported needing to stop and rest during daily activities due to the discomfort. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the chest pressure is exertional and has become more frequent, which could be related to cardiac causes, acid reflux, or musculoskeletal strain. The doctor recommended avoiding strenuous activity for now and advised seeking immediate care if severe pain, difficulty breathing, or prolonged pressure occurs. The patient confirmed that the symptoms have interfered with daily activities and expressed understanding of the recommendations.
+The patient presents with chest pressure as the chief complaint. The pressure is centrally located, described as a sensation of pressure (not sharp), and is rated 6 out of 10 at its worst. Symptoms have been present for several days, are worsening, and are triggered primarily by physical activity such as walking or moving around; the episodes last a few minutes and sometimes require the patient to stop and rest. The patient denies associated symptoms such as sweating, lightheadedness, or dyspnea. There is no mention of relevant past medical history, medications, or allergies. The clinical impression discussed includes possible cardiac, gastrointestinal (acid reflux), or musculoskeletal causes, but no definitive diagnosis was documented. The treatment plan includes advising the patient to avoid strenuous activity and to seek immediate care if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.936
-- **Similarity Label**: N/A
+- **STS Score**: 0.432
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 135 words
+
 
 ## Processing Information
 

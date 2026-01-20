@@ -87,16 +87,21 @@ Does that plan sound reasonable to you? And is there anything else about this th
 
 ## EHR Summary
 
-The patient is a 53-year-old woman presenting for management of complications related to prior thoracic radiation therapy. She has a history of Hodgkin's lymphoma treated with radiation in 2110, resulting in fibrothorax, restrictive airway disease, and restrictive pericarditis requiring pericardectomy. Her symptoms include chronic restrictive lung disease necessitating home oxygen. On physical examination, her lungs were clear to auscultation bilaterally with no effusions, and her heart sounds were normal. The documented diagnoses include fibrothorax and restrictive lung disease secondary to prior radiation therapy. Her treatment regimen on admission included Lasix, iron, Epogen (to be discontinued soon), Lopressor, sertraline, levothyroxine, enoxaparin, nystatin, lansoprazole, albuterol nebulizers, clindamycin (to be discontinued), calcium gluconate, artificial tears, and Percocet elixir via PEG tube. She is allergic to intravenous dye. The patient has strong family support aiding her recovery.
+The patient is a 53-year-old woman presenting for postoperative care following left decortication. She experienced failure to wean from the ventilator, developed methicillin-resistant Staphylococcus aureus and Enterobacter pneumonia, and subsequently required a tracheostomy. Her postoperative course was further complicated by cellulitis at the percutaneous endoscopic gastrostomy tube site, which was managed with drainage and a two-week course of oral clindamycin. Relevant history includes Hodgkin's lymphoma treated with radiation therapy, resulting in fibrothorax, restrictive lung disease requiring home oxygen, prior pericardectomy, and splenectomy. The documented diagnoses at discharge were status post left decortication, tracheostomy, and percutaneous endoscopic gastrostomy tube placement. At discharge, her fevers had subsided, white blood cell count normalized, and she was stable with improved mobility. She was advised to continue physical therapy as tolerated, maintain a regular diet with supplemental tube feeds as needed, and follow up with her physician in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with mild swelling in the legs and ankles. The swelling began a few days ago, has remained mild, and is mostly visible puffiness without pain, heaviness, or itching; it may be slightly more noticeable after sitting for long periods but does not affect walking, wearing shoes, or daily activities. The patient denied shortness of breath, chest discomfort, sudden weight gain, and reported no recent changes in diet or fluid intake. There was also mention of recent tenderness and redness near a tube site, which is now almost resolved, with no warmth or drainage currently present. The doctor assessed that the mild, non-progressive swelling without associated symptoms is likely benign and related to factors such as prolonged sitting or minor circulatory changes, rather than a serious condition like heart or kidney problems. The doctor recommended monitoring the swelling over the next week, elevating the legs when possible, and taking walking or standing breaks during long periods of sitting. The patient was advised to seek medical attention if the swelling worsens, becomes painful, or if new symptoms such as shortness of breath develop.
+The patient is an adult presenting with swelling in the legs and ankles as the chief complaint. The swelling began a few days ago, is described as mild and mostly visible puffiness without pain, heaviness, or itching, and has not worsened; it may be more noticeable after prolonged sitting but does not interfere with walking or daily activities. The patient denies associated symptoms such as dyspnea, chest discomfort, or sudden weight gain, and reports no recent changes in diet or fluid intake. There was recent mild redness and tenderness near a tube site, now nearly resolved, with no current signs of infection. The clinician’s assessment is that the swelling is likely benign and related to factors such as prolonged sitting or minor circulatory changes, rather than a serious condition like heart or kidney disease. The treatment plan includes monitoring the swelling over the next week, elevating the legs when possible, and taking standing or walking breaks during long periods of sitting. The patient is advised to seek further evaluation if the swelling worsens, becomes painful, or if new symptoms such as shortness of breath develop. Recent history of fever and elevated white blood cell count was mentioned by the patient but not directly addressed in the current assessment or plan.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.924
-- **Similarity Label**: N/A
+- **STS Score**: 0.367
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 210 words
+
 
 ## Processing Information
 

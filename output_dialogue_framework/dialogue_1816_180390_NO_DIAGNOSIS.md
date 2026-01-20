@@ -87,16 +87,21 @@ Let me know if you have any questions or if anything changes.
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with complications following coronary artery bypass graft surgery, specifically a sternal wound infection. He reported redness and a lump at the superior aspect of the incision, but denied fever and chills. His history includes prior wound drainage and treatment with vancomycin for three weeks, with previous cultures growing coagulase-negative staphylococcus. On admission, physical exam showed a stable wound at the superior end and fibrous exudate at the inferior end, with vital signs notable for mild tachycardia and oxygen saturation of 93% on room air. Laboratory data revealed a white blood cell count of 11.3 and creatinine of 1.2. Imaging demonstrated fluid collections adjacent to the sternum, and the wound extended to the sternal bone. The documented diagnosis was sternal wound infection with fluid collections. Treatment included left sternectomy with debridement, placement of a VAC dressing, and consultation with Plastic Surgery for rectus muscle flap coverage; postoperative monitoring was performed for complications.
+The patient is a 62-year-old male presenting with complications following coronary artery bypass graft surgery, specifically a sternal wound infection. He reported redness and a lump at the superior aspect of the incision, but denied fever and chills; physical exam revealed fibrous exudate at the inferior end of the sternal wound and stable vital signs. His history includes prior wound infection treated with vancomycin and positive cultures for coagulase-negative staphylococcus. The documented diagnosis was sternal wound infection with subsequent aspiration pneumonia postoperatively. Treatment included left sternectomy and debridement with VAC dressing, followed by muscle flap reconstruction, and antibiotics (vancomycin, levofloxacin, later switched to Zosyn and oral Flagyl) based on tissue culture results. The patient also received supportive care for pain and other chronic conditions, and was discharged on a regimen including intravenous vancomycin, oral levofloxacin, and Flagyl. Stool studies for diarrhea were negative for C. difficile. The patient was stable at discharge with a plan for prolonged antibiotic therapy.
+
 
 ## Dialogue Summary
 
-The patient presented with redness and a lump around a chest wound. Symptoms included tenderness at the site, fever, chills, nausea, vomiting, lower energy, diarrhea, and episodes of faster heart rate; the pain was described as a dull ache that worsened with movement or pressure and had not improved over the past couple of days. No discharge from the wound was reported. The patient did not mention any relevant medical history, medications, or allergies. On examination, the doctor noted stable redness and lump size, tenderness, and systemic symptoms. The doctor assessed these findings as possible signs of a wound infection or abscess following surgery, with concern for a stronger systemic reaction due to fever, chills, and tachycardia. The doctor recommended contacting the surgical team or seeking prompt medical attention if symptoms worsen or new concerning signs develop, advised keeping the area clean, avoiding pressure on the wound, monitoring temperature, and staying hydrated. The patient acknowledged understanding of the assessment and plan.
+The patient presents with concern about redness and a lump around a chest wound. Symptoms began approximately two days ago and include localized redness, tenderness (described as a dull ache worsened by movement or pressure), fever, chills, nausea, vomiting, diarrhea, increased heart rate, and decreased energy. There is no discharge from the wound, and the redness and lump have remained stable in size. The patient denies any alleviating factors. The clinical impression is a possible surgical wound infection, with concern for potential abscess formation given the combination of local and systemic symptoms. The doctor advised the patient to contact their surgical team or seek prompt medical attention, especially if symptoms worsen or new symptoms such as spreading redness, increasing pain, confusion, or dyspnea develop. Supportive recommendations included keeping the area clean, avoiding pressure on the wound, monitoring temperature, and maintaining hydration. No medications or specific interventions were initiated during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.573
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

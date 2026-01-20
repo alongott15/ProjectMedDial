@@ -87,16 +87,21 @@ Let me know if you have any questions about your recovery or need advice on mana
 
 ## EHR Summary
 
-The patient is a 28-year-old female presenting for monitoring status post exploratory laparotomy. She reported mild lower abdominal cramping but denied vaginal bleeding, fever, or chills. Her relevant history includes Type I diabetes mellitus managed with an insulin pump and hypothyroidism; she has no known drug allergies. Imaging revealed a 9-week pregnancy in the left rudimentary horn of a bicornuate uterus, with high risk for rupture due to thinned myometrium. On exam, she was stable postoperatively with abdominal tenderness on palpation. The documented diagnosis was rudimentary horn pregnancy in a bicornuate uterus. Treatment included urgent surgical excision of the left rudimentary horn and left salpingectomy, pain management with Toradol and dilaudid, and insulin management adjusted perioperatively. She was monitored postoperatively with stable vital signs and emotional support provided.
+The patient is a 28-year-old female presenting for monitoring after exploratory laparotomy and excision of a left rudimentary uterine horn and left salpingectomy. She initially reported mild lower abdominal cramping without vaginal bleeding, fever, or chills, and imaging revealed a pregnancy in the left rudimentary horn of a bicornuate uterus at 9 weeks gestation, with thinned myometrium and high risk for rupture. Her medical history includes type I diabetes mellitus (on insulin pump), Hashimoto's thyroiditis, and hyperlipidemia; she has no known drug allergies. The documented diagnosis was pregnancy in a rudimentary uterine horn. She underwent surgical excision of the left rudimentary horn and left salpingectomy, with pain managed by Toradol, dilaudid, and later ibuprofen and Percocet; her insulin regimen was adjusted perioperatively. She was also transitioned back to her pre-pregnancy levothyroxine dose. The patient was discharged home in stable condition with instructions for wound care, signs of complications, and follow-up appointments with gynecology and endocrinology.
+
 
 ## Dialogue Summary
 
-The patient presented with mild cramping in the lower abdomen following recent exploratory laparotomy. The cramping is persistent throughout most of the day, rated at 5–6/10 at its worst, and is described as uncomfortable but not severe; it improves with rest and worsens with movement, while eating does not affect it. The patient denied associated symptoms such as nausea, fever, or changes in bowel movements, but reported abdominal tenderness on palpation and occasional tearfulness due to discomfort. The discomfort has been gradually improving since surgery, though it still makes walking and getting up more difficult, and sometimes affects sleep. Relevant history includes recent abdominal surgery (exploratory laparotomy) a few days prior; no medications or allergies were mentioned. On examination, abdominal tenderness was noted without other concerning findings. The doctor assessed that the symptoms are likely part of normal post-surgical healing, given gradual improvement and absence of alarming signs. The doctor recommended gentle movement and rest, advised against overexertion or complete immobility, and instructed the patient to seek prompt care if pain worsens or new symptoms such as fever, redness, swelling, or digestive changes develop.
+The patient is a postoperative adult presenting with mild, persistent lower abdominal cramping as the chief complaint. The cramping has been present most of the day since an exploratory laparotomy performed a few days ago, is rated 5–6/10 at its worst, and is described as lingering but gradually improving. Symptoms are worsened by movement and alleviated somewhat by rest; eating does not affect the discomfort. The patient reports associated abdominal tenderness on palpation but denies fever, nausea, or changes in bowel movements. The discomfort has made daily activities such as walking more difficult but has not significantly affected sleep. Relevant history includes recent abdominal surgery (exploratory laparotomy). The clinical impression is that the symptoms are consistent with normal postoperative healing without evidence of infection or other complications. The treatment plan includes reassurance, advice to balance gentle movement with rest, and instructions to seek prompt care if symptoms worsen or new concerning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.397
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

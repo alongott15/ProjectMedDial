@@ -84,16 +84,23 @@ For now, if you can tolerate small sips of clear fluids (like water or oral rehy
 
 ## EHR Summary
 
-The patient is a 39-year-old female presenting with bloody bowel movements. She reported ongoing bloody diarrhea, nausea, and vomiting beginning on [2141-9-29], with a hematocrit of 20.5, following cessation of prednisone during pregnancy. Her medical history includes ulcerative colitis for seven years (last flare in 2138), asthma, hepatitis B carrier status, and recent cesarean section; she is a Jehovah's Witness and refuses blood products. On exam, she was lethargic but alert and oriented, tachycardic, with left and right lower quadrant abdominal tenderness and guaiac-positive stool. The documented diagnosis is a flare of ulcerative colitis. Treatment included restarting corticosteroids (prednisone, Solu-Medrol, hydrocortisone), Asacol, antibiotics (Flagyl, Cipro), gastrointestinal protectants (Zantac, Carafate, Protonix, Mylanta), TPN, vitamin K, insulin sliding scale, and Ativan. Blood transfusion was not administered due to religious beliefs.
+The patient is a 39-year-old female presenting with a flare of ulcerative colitis characterized by bloody diarrhea, nausea, vomiting, and significant anemia (hematocrit 20.5). Symptoms began after discontinuing prednisone postpartum and persisted despite restarting steroids and Asacol, with ongoing bloody bowel movements and lethargy. Her medical history includes ulcerative colitis, asthma, hepatitis B carrier status, and recent cesarean section; she is a Jehovah's Witness and declined blood products. On admission, she was tachycardic and had left and right lower quadrant abdominal tenderness. The documented diagnoses were ulcerative colitis status post partial colectomy with diverting ileostomy, anemia, asthma, hepatitis B carrier, hypokalemia, and hypocalcemia. Treatment included subtotal colectomy with ileostomy, intravenous steroids, electrolyte repletion, Epogen for anemia, and postoperative care with gradual diet advancement and ambulation. She was discharged in good condition with instructions for home Epogen injections, prednisone taper, iron supplementation, and follow-up for ostomy care.
+
 
 ## Dialogue Summary
 
-The patient presented with frequent loose, bloody bowel movements and associated nausea and vomiting. Symptoms have been ongoing for several days, with increased frequency of diarrhea, difficulty keeping fluids down due to persistent nausea and vomiting, and significant lethargy described as weakness impacting mobility. The patient also reported a racing heartbeat, abdominal tenderness, and green stool output from an ostomy, as well as a low hematocrit of 20.9. No dizziness on standing was noted, and the patient has struggled to maintain adequate fluid intake. The doctor assessed that these symptoms suggest significant dehydration and possible infection or inflammation of the digestive tract, with the elevated heart rate likely reflecting fluid loss. The doctor advised urgent medical evaluation, recommending possible medication for nausea/vomiting and IV fluids, and emphasized seeking immediate care if severe abdominal pain, confusion, or decreased urination develop. The patient was instructed to attempt small sips of clear fluids if tolerated and to proceed to a clinic or urgent care for further assessment.
+The patient presents with the chief complaint of frequent loose, bloody bowel movements accompanied by nausea and vomiting. Symptoms have been ongoing for several days and include increased stool frequency, lethargy described as significant weakness, abdominal tenderness, and difficulty keeping fluids down due to persistent nausea and vomiting. The patient also reports a racing heartbeat and green output from an ostomy, with a documented low hematocrit of 20.9, suggesting possible anemia. There is no mention of dizziness upon standing, but the patient is experiencing signs of dehydration.
+
+The clinical impression is concern for significant dehydration and possible gastrointestinal infection or inflammation, given the combination of bloody diarrhea, persistent vomiting, and inability to maintain adequate fluid intake. The treatment plan includes seeking prompt medical evaluation, possible administration of antiemetic medication, and intravenous fluids if oral intake remains inadequate. The patient is advised to attempt small sips of clear fluids if tolerated and to seek immediate care if severe symptoms such as abdominal pain, confusion, or anuria develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.544
+- **Model Used**: general
+- **Text1 Length**: 146 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

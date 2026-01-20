@@ -87,16 +87,21 @@ If you ever have a seizure that lasts longer than five minutes, or if you injure
 
 ## EHR Summary
 
-The patient is a 41-year-old female presenting for further treatment of a right temporal arteriovenous malformation (AVM) previously identified after seizures in the fall of 2131. She did not report acute symptoms at this admission. Her past medical history is otherwise unremarkable, and she takes Paxil and Prilosec. On examination, she was well-appearing with a normal general and neurological exam. Imaging and prior workup confirmed the diagnosis of right temporal AVM. During this admission, she underwent repeat diagnostic cerebral angiogram and coiling of the AVM. The procedure and hospitalization were without complications. She was discharged home with outpatient follow-up arranged.
+The patient is a 41-year-old female presenting for further treatment of a right temporal arteriovenous malformation (AVM) previously identified after seizures in the fall of 2131. She did not report acute symptoms at this admission, and her physical and neurological examinations were unremarkable. Her past medical history is otherwise unremarkable, and current medications include Paxil and Prilosec. The documented diagnosis is a right temporal cerebral AVM. During this admission, she underwent a repeat diagnostic cerebral angiogram and coiling of the AVM under local anesthesia. The procedure was well tolerated, and her post-procedure hospital course was unremarkable. She was discharged home with instructions to follow up in the clinic.
+
 
 ## Dialogue Summary
 
-The patient presented with recent seizures as the chief complaint. The seizures occur suddenly without warning signs, last about one to two minutes, and are followed by tiredness and mild confusion; the patient recovers quickly and resumes normal activities. No clear triggers have been identified, and the patient denies injuries such as tongue biting or loss of bladder control, as well as changes in mood, vision, or unusual sensations before or after episodes. No relevant medical history, medications, or allergies were mentioned. The doctor noted the absence of complications and assessed that the episodes are brief, unwarned seizures with postictal fatigue and confusion, recommending further evaluation to clarify the cause. The treatment plan includes referral to a neurologist for assessment and possible tests such as EEG or brain imaging. The doctor advised avoiding risky activities (e.g., swimming alone, climbing heights), pausing driving until further information is available, and seeking immediate medical attention if a seizure lasts longer than five minutes or is associated with injury or abnormal recovery.
+The patient is an adult presenting with recent onset of seizures as the chief complaint. The episodes occur suddenly without warning signs, last about one to two minutes, and are followed by postictal fatigue and confusion, but the patient recovers quickly and resumes normal activities. There are no identified triggers, no associated injuries such as tongue biting or incontinence, and no mood, vision, or sensory changes before or after the events. Relevant medical history, medications, and allergies are not specified. The clinical impression is that the patient is experiencing brief, unprovoked seizures. The treatment plan includes referral to a neurologist for further evaluation, with possible tests such as EEG or brain imaging. The patient was advised to avoid high-risk activities (e.g., swimming alone, climbing heights), to pause driving until further assessment, and to seek immediate medical attention if a seizure lasts longer than five minutes or if there are complications.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.929
-- **Similarity Label**: N/A
+- **STS Score**: 0.463
+- **Model Used**: general
+- **Text1 Length**: 108 words
+- **Text2 Length**: 150 words
+
 
 ## Processing Information
 

@@ -85,16 +85,23 @@ Let me know if you have any questions about caring for the cut or anything else 
 
 ## EHR Summary
 
-The chief complaint is not specified in the note. No specific symptoms or their characteristics are documented. Relevant history, including past medical history, medications, or allergies, is not provided. Physical therapy evaluation found the patient to be stable, independent, and at baseline strength. No diagnosis is documented in the note. The patient was discharged to home with no additional treatment or recommendations specified. Follow-up was noted to be the same.
+The chief complaint is not specified in the note. No specific symptoms or their characteristics are documented. Relevant history, including past medical history, medications, or allergies, is not provided. The patient was evaluated by physical therapy and found to be stable, independent, and at baseline strength. No explicit diagnosis is documented. The treatment plan involved discharge to home with follow-up as previously arranged. No additional treatments or recommendations are specified.
+
 
 ## Dialogue Summary
 
-The patient presented with a fall earlier in the day, during which they lost balance while standing and struck the back of their head. They reported a small (about one centimeter) cut at the back of the head with initial minor bleeding, ongoing tenderness at the site (unchanged since the fall), but denied headache, nausea, vomiting, dizziness, confusion, increased sleepiness, or new vision changes. The patient noted longstanding poor vision in the left eye but no new visual symptoms after the injury. They were able to clean the cut themselves, which remains open but is not bleeding or oozing. On assessment, the doctor found no concerning symptoms such as confusion, severe headache, or neurological changes, and described the injury as a minor cut and localized tenderness without warning signs of serious head injury. The doctor advised monitoring for signs of infection (redness, swelling, warmth, pus) and delayed symptoms (increasing drowsiness, vomiting, confusion, severe headache), and recommended keeping the wound clean with mild soap and water and covering it with a clean bandage if needed. The patient was instructed to seek medical attention if the cut worsens or if new symptoms develop.
+The patient is an adult presenting after a fall earlier in the day, during which they lost balance, fell, and struck the back of their head. They report a 1 cm cut at the back of the head with initial minor bleeding, now stopped, and persistent localized tenderness without headache. The patient denies nausea, vomiting, dizziness, confusion, memory loss, vision changes (other than longstanding poor vision in the left eye), or increased sleepiness since the incident. The cut remains open but has not worsened, and the patient has been able to clean it themselves.
+
+There is no documented diagnosis of concussion or more serious head injury; the clinical impression is a minor scalp laceration with localized tenderness and no concerning neurological symptoms. The treatment plan includes keeping the wound clean with mild soap and water, covering it with a clean bandage if needed, and monitoring for signs of infection (such as redness, swelling, warmth, or pus) or delayed neurological symptoms (such as increasing drowsiness, vomiting, confusion, or severe headache). The patient is advised to seek medical attention if any of these warning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.918
-- **Similarity Label**: N/A
+- **STS Score**: 0.325
+- **Model Used**: general
+- **Text1 Length**: 70 words
+- **Text2 Length**: 184 words
+
 
 ## Processing Information
 

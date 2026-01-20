@@ -95,16 +95,23 @@ Until you’re seen, try to rest and avoid physical exertion. I know this can fe
 
 ## EHR Summary
 
-The patient is a 64-year-old male presenting with a chief complaint of intermittent chest pain for one month, described as heaviness associated with shortness of breath and diaphoresis. The chest pain was most notable with exertion and did not radiate to the arm, neck, or jaw. Relevant history includes hypertension, diabetes, hypercholesterolemia, neck adenoma, prostate enlargement, hemorrhoids, and prior colonic polyp removal; medications include Toprol, Lipitor, Aspirin, Altace, Glyburide, and sublingual nitroglycerin. The patient has a documented allergy to penicillin (angioedema) and streptomycin. Cardiac catheterization revealed severe multi-vessel coronary artery disease with 99% stenosis in the mid-LAD and 100% in the distal LAD, as well as significant stenoses in other coronary arteries; ejection fraction was 46%. Laboratory results were within normal limits except for a mildly decreased hematocrit (33.8). The documented diagnosis is severe coronary artery disease following a positive stress test. The treatment plan included cardiac catheterization and continuation of cardiac medications; further interventions are not specified in the note.
+The patient is a 64-year-old male presenting with a one-month history of intermittent chest pain, described as heaviness, most often associated with shortness of breath and diaphoresis, without radiation to the arm, neck, or jaw. He reported ongoing exertional chest pain over the past several weeks, which led to admission following a positive stress test. Relevant history includes hypertension, diabetes, hypercholesterolemia, neck adenoma, prostate enlargement, hemorrhoids, and prior colonic polyp removal; medications include Toprol, Lipitor, aspirin, Altace, glyburide, and sublingual nitroglycerin, with allergies to penicillin (angioedema) and streptomycin. Cardiac catheterization revealed severe multi-vessel coronary artery disease with significant stenoses in the LAD, circumflex, and RCA. The documented diagnoses were status post coronary artery bypass graft x4 (CABG), coronary artery disease, hypertension, hypercholesterolemia, non-insulin dependent diabetes mellitus, unstable angina, colonic adenoma, prostate enlargement, status post colonic polyp removal, and hemorrhoids. Treatment included CABG x4 with postoperative management involving metoprolol, Lasix, aspirin, Plavix, atorvastatin, glyburide, potassium chloride, Colace, Zantac, and Percocet as needed for pain. The patient was discharged home in good condition with follow-up arranged in 4-6 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain described as a heaviness, which prompted the visit. Symptoms included a heavy sensation in the chest (not sharp or burning), shortness of breath that worsens with activity (such as walking or climbing stairs) but can also occur at rest, sweating associated with the chest heaviness, and a slight temperature; the symptoms have been present for several days and typically last several minutes, sometimes longer if activity continues. The patient reported that these symptoms make daily activities more difficult, requiring more frequent breaks, but is still able to get through the day. No history of nausea, lightheadedness, or other medical history, medications, or allergies was mentioned. The doctor noted the pattern of chest heaviness with exertion, associated shortness of breath, and sweating as concerning for possible heart-related issues such as angina, and also considered infection or inflammation as less likely causes. The assessment was that the symptoms could indicate reduced blood flow to the heart and require prompt evaluation. The doctor recommended the patient seek urgent care or emergency department evaluation today for ECG and cardiac markers, advised rest and avoidance of strenuous activity until then, and instructed to call emergency services if symptoms worsen or new severe symptoms develop.
+The patient is an adult presenting with chest pain described as a heaviness, which is the main reason for the visit. The chest heaviness has been present for several days, worsens with activity (such as walking or climbing stairs), and is accompanied by shortness of breath and sweating; symptoms last several minutes and sometimes persist longer with continued activity. The patient reports that these symptoms limit daily activities, requiring more frequent breaks, but denies nausea or lightheadedness. No specific past medical history, medications, or allergies were documented in the dialogue.
+
+The clinical impression discussed was possible angina, with the doctor noting concern for reduced blood flow to the heart as a potential cause, though non-cardiac causes and infection/inflammation were also mentioned as possibilities. The doctor advised prompt medical evaluation at an urgent care center or emergency department today to rule out serious conditions, recommending rest and avoidance of strenuous activity until assessment. The patient was instructed to seek emergency services if symptoms worsen or new severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.654
+- **Model Used**: general
+- **Text1 Length**: 177 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

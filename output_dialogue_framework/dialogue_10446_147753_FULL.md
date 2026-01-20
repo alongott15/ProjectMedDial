@@ -87,16 +87,21 @@ Let me know if you’ve noticed anything in particular that seems to trigger the
 
 ## EHR Summary
 
-The patient is a 71-year-old male presenting with sternal wound drainage following a coronary artery bypass graft performed on 2/10/2158. He reported new onset of sternal wound drainage associated with coughing since 3/18/2158, but denied fevers, chills, sweats, anorexia, or dry heaves, although he had a recorded fever of 102°F at an outside hospital. His past medical history includes osteoarthritis, congestive heart failure, atrial fibrillation, hypercholesterolemia, peripheral vascular disease, transient ischemic attacks, hypothyroidism, and diabetes mellitus; home medications include Celexa, Captopril, Prilosec, Aspirin, Insulin, Lasix, and Coumadin. On examination, he was febrile (101.1°F), tachycardic (HR 102), hypertensive (BP 152/56), and had a draining sternal wound that probed to bone with evidence of nonunion and purulence. The documented clinical impression is sternal wound infection with nonunion post-coronary artery bypass graft. The treatment plan is not specified in the provided note.
+The patient is a 71-year-old male presenting with sternal wound drainage following a coronary artery bypass graft performed on 2158-2-10. He reported new onset of sternal wound drainage associated with cough beginning on 2158-3-18, and had a fever of 101.1°F at presentation, but denied chills, sweats, or gastrointestinal symptoms. Physical examination revealed a draining sternal wound probing to bone, nonunion of the sternum, purulent discharge from deep tissues, and minimal erythema. His past medical history includes osteoarthritis, congestive heart failure, atrial fibrillation, hypercholesterolemia, peripheral vascular disease, transient ischemic attacks, hypothyroidism, and diabetes mellitus; allergies include quinidine, shellfish, and intravenous contrast. The documented diagnosis was sternal wound infection with Methicillin sensitive Staphylococcus aureus (MSSA) bacteremia. Treatment included intravenous vancomycin and levofloxacin, correction of coagulopathy with vitamin K and fresh frozen plasma, fluid restriction for hyponatremia, and infectious disease consultation.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about drainage from their chest incision following bypass surgery. They reported noticing yellow drainage for a few days that has not stopped but remains a small amount, without blood, strong odor, or soaking through bandages. The patient denied redness, swelling, or significant pain but described mild tenderness and some discomfort; they also noted a recent onset of cough and fever without chills. The patient is able to perform daily activities despite the symptoms. Relevant history includes recent bypass surgery; no medications or allergies were mentioned. On assessment, the doctor noted small-volume yellow drainage, mild tenderness, and new fever and cough, with no redness, swelling, or foul odor, suggesting possible mild infection at the incision site but also considering normal postoperative healing. The doctor recommended keeping the area clean and dry, changing dressings as instructed, and monitoring for worsening symptoms such as increased redness, swelling, pain, or foul-smelling drainage. The patient was advised to seek prompt evaluation if fever increases, overall condition worsens, or drainage changes in amount or appearance.
+The patient is an adult presenting with concern about drainage from their chest incision following recent bypass surgery. The drainage began a few days ago, is yellow in color, has not increased in amount, and remains localized to the wound without soaking through bandages or clothing. The patient reports mild tenderness at the site, a recent onset of cough and fever, but denies redness, swelling, significant pain, chills, or foul odor. There is no limitation of daily activities due to these symptoms. Relevant history includes recent bypass surgery; no allergies or medications are specified. The clinical impression is possible mild infection at the incision site, given the combination of yellow drainage, fever, and cough, though the absence of severe local signs is reassuring. The treatment plan includes keeping the area clean and dry, changing dressings as instructed, monitoring for worsening symptoms (such as increased redness, swelling, pain, or foul-smelling drainage), and seeking prompt evaluation if symptoms progress.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.585
+- **Model Used**: general
+- **Text1 Length**: 138 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

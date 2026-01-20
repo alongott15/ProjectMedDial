@@ -89,16 +89,21 @@ Does this explanation make sense? Do you have any questions about what might be 
 
 ## EHR Summary
 
-The patient is a 67-year-old male presenting with exertional angina. Over the month prior to admission, he experienced chest pressure during activities such as raking leaves or carrying groceries, but denied chest discomfort at rest; he also reported longstanding dyspnea and light fatigue on exertion. His medical history includes diabetes (with retinopathy and neuropathy), hypertension, sleep apnea (requiring nocturnal oxygen), cataracts, and a significant smoking history. Medications at admission included aspirin, Cardura, Monopril, Prilosec, Glucophage, Ultra Lente insulin, Humalog insulin, Atrovent inhaler, and albuterol as needed; he has no known drug allergies. On stress testing, he exercised for five and a half minutes, achieving 21% of his age-predicted heart rate, with symptoms attributed to dyspnea and fatigue; nuclear imaging showed inferoapical ischemia and an ejection fraction of 44%. Cardiac catheterization revealed three-vessel disease (full details not provided). The documented diagnosis was exertional angina with evidence of coronary artery disease and ischemia. The treatment plan included cardiac catheterization and ongoing medical management; further specific recommendations are not detailed in the provided note.
+The patient is a 67-year-old male presenting with exertional angina. Over the month prior to admission, he experienced exertional chest pressure during activities such as raking leaves or carrying groceries, without chest discomfort at rest, and reported longstanding dyspnea. His medical history includes diabetes, diabetic retinopathy and neuropathy, hypertension, sleep apnea (on home oxygen), cataracts, and a long history of smoking; he has no known drug allergies and was on multiple medications including aspirin, antihypertensives, insulin, and inhalers. Cardiac catheterization revealed three vessel coronary artery disease, and nuclear imaging showed inferoapical ischemia with an ejection fraction of 44%. The documented diagnosis was three vessel coronary artery disease with exertional angina. He underwent a four-vessel coronary artery bypass graft without complications and had an uneventful postoperative recovery. Discharge medications included ipratropium, insulin, metformin, aspirin, metoprolol, albuterol, and others as listed. He was advised to follow up with his cardiologist in four weeks and his primary care physician in two to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure during physical activity, such as walking or climbing stairs. Symptoms have been ongoing for a couple of weeks and are triggered specifically by exertion, with the chest pressure rated as 6 out of 10 in severity and accompanied by shortness of breath; both symptoms resolve quickly with rest. The patient denied associated sweating, lightheadedness, or pain radiating to the arm, neck, jaw, or back, and noted that the episodes do not occur with eating, cold weather, or stress. The patient reported avoiding long walks and experiencing increased fatigue, with oxygen levels sometimes dropping into the low 90s or 80s during physical therapy. No relevant medical history, medications, or allergies were mentioned. The doctor noted that the exertional chest pressure and shortness of breath may indicate the heart is not receiving enough oxygen during activity, possibly due to narrowed blood vessels or angina. The doctor advised avoiding strenuous activity and recommended further evaluation with an EKG and possibly a stress test; the patient was instructed to seek immediate care if symptoms worsen or new warning signs develop.
+The patient is an adult presenting with chest pressure during physical activity as the chief complaint. The chest pressure has been occurring for a couple of weeks, is rated 6 out of 10 in severity, and is consistently triggered by exertion such as walking or climbing stairs; it is accompanied by shortness of breath but not by sweating, lightheadedness, or pain radiating to other areas. Symptoms resolve quickly with rest and have led the patient to avoid certain activities due to increased fatigue. The patient also reports oxygen saturation levels in the low 90s, occasionally dropping into the 80s during physical therapy. There is no documented relevant medical history, medications, or allergies in this dialogue. The clinical impression is that the symptoms are suggestive of possible angina or another heart-related issue causing exertional chest discomfort. The treatment plan includes avoiding strenuous activity and undergoing further cardiac evaluation with tests such as an EKG and possibly a stress test. The patient was also advised to seek immediate medical attention if symptoms worsen or new warning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.617
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 176 words
+
 
 ## Processing Information
 

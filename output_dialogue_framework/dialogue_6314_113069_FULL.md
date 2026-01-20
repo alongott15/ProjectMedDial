@@ -87,16 +87,23 @@ Let me know if you have any questions about this approach, or if you notice new 
 
 ## EHR Summary
 
-The patient is a 32-year-old female presenting with nausea, diarrhea, and vomiting for 24 hours. She was unable to take her usual insulin regimen due to vomiting and reported her usual migraine headache the night prior to admission, but denied fevers, chills, chest pain, shortness of breath, or dysuria. Her medical history includes type 1 diabetes (diagnosed at age 14), multiple prior episodes of diabetic ketoacidosis, migraine headaches, and attention deficit disorder; home medications include Wellbutrin, Imitrex, Tylenol, Humalog sliding scale, and NPH insulin. Allergies include penicillin, Bactrim, Keflex (hives), and Percocet and erythromycin (gastrointestinal upset). On admission, arterial blood gases showed acidosis (pH 7.19, bicarbonate 9) and fingerstick glucose was greater than 500. The documented diagnosis was diabetic ketoacidosis. Treatment included intravenous insulin boluses and drip, five liters of normal saline, and transition back to subcutaneous insulin once her anion gap closed and blood glucose normalized; gastrointestinal symptoms resolved during hospitalization.
+The patient is a 32-year-old female presenting with nausea, diarrhea, and vomiting for 24 hours. She was unable to take her usual insulin regimen due to vomiting and reported her typical migraine headache the night prior to admission; she denied fever, chills, chest pain, dyspnea, or dysuria. Her past medical history includes type 1 diabetes (diagnosed at age 14), multiple prior episodes of diabetic ketoacidosis, migraines, and attention deficit disorder; she is allergic to penicillin, Bactrim, Keflex (hives), Percocet, and erythromycin (GI upset). On admission, labs showed severe hyperglycemia (glucose 720), metabolic acidosis (pH 7.19, bicarbonate 8-9), and an elevated white blood cell count. The documented diagnoses were diabetic ketoacidosis and viral gastroenteritis. Treatment included intravenous fluids, insulin boluses and drip, electrolyte repletion, and transition back to her home insulin regimen as her condition improved. She was discharged in good condition with instructions to continue her regular insulin sliding scale and NPH regimen, Wellbutrin, and Imitrex as needed, with advice to decrease evening insulin if oral intake is poor. Follow-up was arranged with her endocrinologist and primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with nausea and stomach issues that began the previous day. They reported frequent diarrhea and vomiting since yesterday, initially occurring almost every hour and slowing to a few episodes this morning. The patient also described a migraine headache with pain rated 7 out of 10, increased sensitivity to light, and noted that lying down in a dark room provided some relief, while medication was ineffective. They have been unable to keep down fluids or food, including water, and have experienced dry mouth and dizziness upon standing, but denied fever, chills, or body aches. No relevant medical history, medications, or allergies were mentioned. The doctor assessed the symptoms as likely due to a stomach virus or food poisoning, with dehydration contributing to the severity of the migraine. The doctor recommended taking very small sips of clear fluids or ice chips frequently, avoiding solid foods until fluids can be tolerated, and advised seeking prompt care if unable to keep fluids down for more than 12 hours or if dizziness worsens. The patient was instructed to watch for new symptoms such as confusion, chest pain, or blood in vomit or stool and to seek immediate care if these occur.
+The patient is an adult presenting with acute onset of nausea, diarrhea, vomiting, and migraine headache as the chief complaint. Symptoms began yesterday and have included frequent episodes of vomiting and diarrhea (initially almost every hour, now a few times this morning), severe migraine pain rated 7/10 with photophobia, and inability to keep down fluids or food. The patient reports signs of dehydration, including dry mouth and dizziness upon standing, but denies fever, chills, or body aches. Relevant history regarding chronic conditions, medications, or allergies is not specified.
+
+The clinical impression is a probable viral gastroenteritis or food poisoning episode, with associated dehydration and migraine exacerbation. The treatment plan includes oral rehydration with small sips of clear fluids or ice chips, avoidance of solid foods until fluids are tolerated, and instructions to seek prompt care if unable to keep fluids down for more than 12 hours or if symptoms worsen (e.g., increased dizziness, confusion, chest pain, or blood in vomit/stool). The importance of monitoring for dehydration was emphasized.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.574
+- **Model Used**: general
+- **Text1 Length**: 179 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

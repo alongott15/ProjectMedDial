@@ -83,16 +83,21 @@ Let me ask—does anything specific seem to trigger the feeling of vertigo, like
 
 ## EHR Summary
 
-The patient is a 66-year-old male admitted for coronary artery bypass grafting (CABG) times three due to a history of chest pain and coronary artery disease. Postoperatively, he developed serosanguinous sternal drainage, which was treated with Keflex. His past medical history includes vertigo, claudication, peripheral vascular disease with prior bilateral iliac stents, and hypercholesterolemia. On discharge, his condition was stable with clear lungs and a clean incision site without drainage. The documented diagnosis was postoperative status following CABG complicated by sternal wound drainage. Treatment included Keflex for wound infection, aspirin, ranitidine, Lipitor, Lopressor, and Percocet as needed for pain. The patient was arranged to have visiting home nursing care for wound care and vital sign monitoring, and follow-up was scheduled with his physician.
+The patient is a 66-year-old male admitted for coronary artery bypass grafting (CABG) times three due to a history of chest pain and coronary artery disease. Postoperatively, he developed serosanguinous sternal drainage, which was treated with Keflex. His past medical history includes vertigo, claudication, peripheral vascular disease with prior bilateral iliac stents, and hypercholesterolemia. The documented diagnosis was coronary artery disease requiring CABG, complicated by postoperative sternal wound drainage. Upon discharge, his condition was stable with clear lungs and a clean incision without drainage. Discharge medications included aspirin, ranitidine, Lipitor, Keflex (for 7 more days), Lopressor, and Percocet as needed. He was arranged to have visiting home nursing care for wound care and vital sign monitoring. Follow-up was scheduled with his physician in several weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest discomfort began a few days ago, lasts only a few minutes per episode, and typically occurs during activity such as walking, but not at rest. Associated symptoms include anxiety, dizziness (sometimes described as a spinning sensation), leg weakness and heaviness, and cramping in the calves during walking that requires stopping to rest; these symptoms resolve after a few minutes of rest. The patient reported that these symptoms have remained stable over the past few days and have led to a reduction in usual activities due to discomfort and concern. No history of blurred vision was noted, and vertigo occurs only with exertion, not with head movement or standing up quickly. The doctor noted that the symptoms are activity-related and suggested possible circulation issues in the legs (claudication) and that chest discomfort with exertion may have several important causes requiring further evaluation; dizziness and vertigo could be related to blood flow or inner ear issues. The doctor explained the potential causes of these symptoms and emphasized the need for further assessment.
+The patient presents with chest pain as the chief complaint. The chest discomfort began a few days ago, lasts a few minutes per episode, and is triggered by physical activity but not at rest. Associated symptoms include exertional dizziness with occasional vertigo, heaviness and cramping in the calves during walking that requires stopping to rest, and reduced ability to perform usual activities due to these symptoms. The patient reports that symptoms have remained stable over the past few days and resolve with rest. There is no mention of blurred vision or calf pain at rest. Relevant history, medications, and allergies are not specified. The clinician notes that the pattern of exertional symptoms may suggest circulation issues in the legs and that chest discomfort with exertion warrants further evaluation; dizziness could be related to blood flow or inner ear causes. No formal diagnosis or specific treatment plan is documented in this dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.928
-- **Similarity Label**: N/A
+- **STS Score**: 0.377
+- **Model Used**: general
+- **Text1 Length**: 125 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

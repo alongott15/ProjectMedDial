@@ -102,3 +102,21 @@ Does anything seem to make your symptoms better or worse, or do they really just
 ## Processing Information
 
 - **Processing Time**: 465.8s
+
+## EHR Summary
+
+The patient is a 79-year-old female presenting with respiratory distress and a history of prolonged ICU stay. She experienced worsening respiratory status with ventilator dependence, believed to be secondary to a myopathic/neuropathic process resulting in generalized total body weakness; she denied shortness of breath, chest pain, or cough at admission. Her past medical history includes hypertension, atrial fibrillation, congestive heart failure, C. difficile infection, malnutrition, hypothyroidism, right IJ clot, GERD, and recent cholecystectomy with complications. The documented clinical impression was respiratory failure due to neuromuscular weakness, with additional issues of atrial fibrillation, volume overload, and mild ileus. Treatment included bronchoscopy (negative for obstruction), tracheostomy change to allow speech, pressure support ventilation with weaning trials, continuation of tube feeds, a four-week trial of Prednisone 60 mg daily, Bactrim for pseudomonas UTI, insulin sliding scale for steroid-induced hyperglycemia, and diuresis with Lasix and Captopril for edema. Anticoagulation was managed peri-procedurally with Heparin and Coumadin. She was discharged to a rehabilitation facility on pressure support ventilation with trache mask trials and follow-up arranged with Neurology for pending muscle biopsy results. At discharge, her respiratory status was stable on IMV mode with pressure support, and her edema had improved to 1+ pitting in the lower extremities.
+
+
+## Dialogue Summary
+
+The patient presents with persistent nausea as the chief complaint. Symptoms include ongoing nausea with associated vomiting, steady mid-abdominal pressure rated 6/10, poor appetite, generalized weakness, and shortness of breath; the abdominal pain is described as a constant pressure rather than sharp or crampy, and symptoms are not triggered or alleviated by specific factors. The patient denies difficulty swallowing but reports thick, dark secretions worsening breathing. There is no mention of dizziness on standing. Relevant history, medications, and allergies are not specified in the dialogue. The clinical impression considers possible gastrointestinal causes such as gastritis or mild infection, but also raises concern for dehydration or a more significant underlying issue due to the combination of weakness and dyspnea. The treatment plan includes checking vital signs and hydration status, ordering basic blood tests, recommending small sips of clear fluids, and advising avoidance of aggravating foods or drinks. The patient is instructed to seek urgent care if breathing worsens, chest pain develops, confusion occurs, or oral intake becomes impossible.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.617
+- **Model Used**: general
+- **Text1 Length**: 202 words
+- **Text2 Length**: 167 words
+

@@ -83,16 +83,21 @@ Let me ask, how much are these symptoms affecting your daily life right now? Are
 
 ## EHR Summary
 
-The patient is a 73-year-old female presenting preoperatively for elective mitral valve replacement and coronary artery bypass graft surgery. She reported recurrent episodes of congestive heart failure and chest pain prior to admission. Her past medical history includes noninsulin dependent diabetes mellitus and hypertension, and she is allergic to penicillin. Admission physical examination was unremarkable, with no acute distress and stable vital signs. The patient underwent coronary artery bypass grafting (two vessels) and a 25.0 mm cuff mitral valve replacement. Postoperatively, she required mechanical ventilation and Levophed for hypotension but was successfully weaned and extubated on postoperative day one. The documented diagnoses were congestive heart failure and coronary artery disease requiring surgical intervention. Treatment included surgical procedures, perioperative critical care, and ongoing management of hypotension.
+The patient is a 73-year-old female presenting preoperatively for elective mitral valve replacement and coronary artery bypass graft surgery due to recurrent episodes of congestive heart failure and chest pain. She reported no acute distress on admission, and her physical examination was largely unremarkable. Her past medical history includes noninsulin dependent diabetes mellitus and hypertension; she is allergic to penicillin. During her hospital course, she underwent successful mitral valve replacement and two-vessel coronary artery bypass grafting, but developed postoperative atrial fibrillation that was initially resistant to multiple medications. The documented diagnoses were mitral regurgitation, coronary artery disease, status post coronary artery bypass graft times two, status post mitral valve replacement, and postoperative atrial fibrillation. Treatment included intravenous and oral amiodarone, anticoagulation with heparin and Coumadin, rate control with Lopressor and Diltiazem, and continuation of her diabetes and hypertension medications. At discharge, she was stable in atrial fibrillation with controlled heart rate and therapeutic anticoagulation, and was transferred to a rehabilitation facility for further cardiac rehabilitation and physical therapy. She was instructed to follow up with electrophysiology and surgical teams in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest pain began a few days ago, occurs intermittently throughout the day, and is often triggered by physical activity but can also occur at rest; it has not changed in severity over the past few days. The patient also reported episodes of heart racing lasting several minutes, increased fatigue, decreased urine output over several days without discomfort, and greater difficulty performing usual activities; no leg swelling or lightheadedness was noted. Relevant history includes congestive heart failure and atrial fibrillation, for which the patient is currently taking Atenolol. On review, the patient denied leg swelling and urinary discomfort but endorsed increased weakness and tiredness. The doctor assessed that the chest discomfort and heart racing, in the context of atrial fibrillation and congestive heart failure, could be related to changes in heart rhythm or fluid status, with decreased urine output possibly indicating fluid retention. The doctor emphasized the importance of these symptoms and their impact on daily life. Specific treatment recommendations were not detailed in this portion of the conversation.
+The patient is an adult with a history of congestive heart failure and atrial fibrillation presenting with chest pain as the chief complaint. The chest pain began a few days ago, occurs intermittently throughout the day, and is often triggered by physical activity but can also occur at rest. The patient also reports episodes of heart racing (palpitations) lasting several minutes, without associated lightheadedness or fainting, and notes increased fatigue and reduced ability to perform daily activities. There has been a gradual decrease in urine output over several days, but no leg swelling or urinary discomfort. Relevant history includes atrial fibrillation (currently on Atenolol) and prior congestive heart failure. The clinical impression is that the symptoms may be related to changes in heart rhythm or fluid status associated with heart failure. The doctor emphasized the importance of these findings and linked the decreased urine output to possible fluid retention in the context of heart failure. No specific new treatments or medication changes were documented in this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
+- **STS Score**: 0.524
+- **Model Used**: general
+- **Text1 Length**: 182 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

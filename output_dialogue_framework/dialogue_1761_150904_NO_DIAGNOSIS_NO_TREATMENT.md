@@ -59,16 +59,21 @@
 
 ## EHR Summary
 
-The patient is a 66-year-old woman presenting with hypotension requiring pressors as the primary reason for admission. She reported chills progressing to fever (maximum 101°F), fatigue, malaise, and sharp upper back pain radiating to the front, which was alleviated by sublingual nitroglycerin; she also experienced worsening chills, fever, nausea, and dry heaves prior to admission. Her past medical history includes coronary artery disease status post recent stent placement, oxygen-dependent chronic obstructive pulmonary disease, hypothyroidism, and chronic low back pain. On examination at an outside hospital, she was found to be hypotensive (BP 80/40) and started on a Dopamine drip; she also had a rash on her back and an unremarkable abdominal ultrasound. The documented diagnosis was hypotension, likely secondary to sepsis or infection given the fever and recent antibiotic use for presumed bronchitis. Treatment included vasopressor support (Dopamine), empiric antibiotics (recent prescription for presumed bronchitis), and continuation of home medications such as aspirin and prednisone. Further management recommendations were not specified in the note.
+The patient is a 66-year-old woman presenting with hypotension, chills, fever, fatigue, and malaise. Symptoms began four days prior to admission with chills progressing to fever (101°F), fatigue, and malaise, followed by sharp upper back pain radiating to the front (alleviated by nitroglycerin), and worsening chills, fever, nausea, and dry heaves the night before admission. She has a history of coronary artery disease with recent stent placement, oxygen-dependent chronic obstructive pulmonary disease (COPD), hypothyroidism, and chronic low back pain; she is allergic to erythromycin, penicillin, and ceftin. On admission, she was hypotensive (BP 80/40), afebrile (97°F), and had decreased breath sounds bilaterally without rales; labs showed elevated liver enzymes but normal white blood cell count. The documented diagnoses were bronchitis, COPD exacerbation, and anxiety disorder. Treatment included Levofloxacin for presumed pneumonia/bronchitis, stress-dose steroids with gradual taper, inhalers (Serevent, Flovent), nebulizers as needed, and management of anxiety with Xanax. She was transferred to rehabilitation with a plan for progressive pulmonary rehab, chest physical therapy, and continued pulmonary follow-up. Discharge medications included aspirin, prednisone taper, Cardizem, Lisinopril, Plavix, Serevent, Protonix, Levoxyl, Flovent, Lipitor, and Combivent nebulizers as needed.
+
 
 ## Dialogue Summary
 
-The patient presented with feeling run down, chills, and a fever. The patient reported a measured temperature of 101°F at home, with chills that come and go but have been worsening. Additional symptoms included shortness of breath and a sharp pain in the upper back that radiates to the front, which improves with nitroglycerin use; no sore throat was reported. The patient did not mention any other symptoms such as cough or body aches. Relevant history includes use of nitroglycerin, suggesting a cardiac history, but no specific medical conditions, medications, or allergies were detailed. No physical examination findings were discussed in the conversation. The doctor inquired about the characteristics of the pain and its response to nitroglycerin to help determine if the discomfort was cardiac in origin. No specific assessment or treatment plan was provided during the dialogue.
+The patient presents with the chief complaint of feeling run down, accompanied by chills and fever. The fever was measured at home at 101°F, and the chills are intermittent but worsening. Additional symptoms include shortness of breath and a sharp upper back pain that radiates to the front, which improves with nitroglycerin use; there is no sore throat. The patient reports that the pain relief with nitroglycerin is partial. Relevant history includes the use of nitroglycerin, suggesting a possible cardiac history, though no specific diagnoses or allergies are documented in this encounter. No formal diagnosis was made during the dialogue. No specific treatment or recommendations were provided beyond the patient's current use of nitroglycerin.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.596
+- **Model Used**: general
+- **Text1 Length**: 186 words
+- **Text2 Length**: 114 words
+
 
 ## Processing Information
 

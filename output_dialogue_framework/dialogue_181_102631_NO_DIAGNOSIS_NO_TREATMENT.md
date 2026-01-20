@@ -74,3 +74,21 @@
 ## Processing Information
 
 - **Processing Time**: 66.3s
+
+## EHR Summary
+
+The patient is a 65-year-old male presenting with crushing chest and back pain that awoke him from sleep. The pain began at 4:00 a.m. on the day of admission and prompted evaluation at a local emergency room, followed by transfer for further care. A CT scan revealed an aortic dissection extending from the aortic valve annulus to the iliac bifurcation. There is no relevant past medical history, medications, or allergies documented. The clinical diagnosis was aortic dissection. The patient underwent emergent surgical repair, including replacement of the aortic valve and ascending aorta with a tube graft. Postoperatively, he suffered primary cardiac failure and was unable to be weaned from cardiopulmonary bypass, resulting in death in the operating room. Discharge diagnoses were post cardiotomy syndrome causing death and aortic dissection.
+
+
+## Dialogue Summary
+
+The patient presents with a chief complaint of crushing chest and back pain. The pain has been occurring intermittently for several days, with episodes described as intense but not lasting the entire day. The patient denies associated symptoms such as dyspnea (shortness of breath), diaphoresis (sweating), or lightheadedness during these episodes. There are no identifiable triggers such as physical activity, eating, or stress; the pain occurs unexpectedly. Relevant medical history, medications, allergies, and a documented diagnosis are not specified in the dialogue. No treatment plan or specific recommendations were documented in this encounter.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.551
+- **Model Used**: general
+- **Text1 Length**: 129 words
+- **Text2 Length**: 93 words
+

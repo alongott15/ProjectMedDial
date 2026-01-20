@@ -96,3 +96,21 @@ For now, try to pace yourself with activities and avoid anything too strenuous. 
 ## Processing Information
 
 - **Processing Time**: 402.3s
+
+## EHR Summary
+
+The patient is a 74-year-old male presenting with a massive diaphragmatic hernia, infarcted small bowel, small bowel obstruction, pericarditis, and cardiac adhesions to the pericardium. He had bowel herniation into the left hemithorax via the anterior diaphragm and was found to have infarcted small bowel on operative exploration. His past medical history includes aortic valve replacement and asthma, and he was on anticoagulation therapy. The documented diagnoses were status post diaphragmatic hernia repair, infarcted small bowel resection, division of cardiac adhesions to pericardium, drainage of right chest pleural effusion, and insertion of a left chest tube. Treatment included emergent reversal of anticoagulation, IV Zosyn, surgical repair with small bowel resection, chest tube placement, transfusion of blood products, and postoperative management of tachycardia and anticoagulation. The patient was transitioned to oral Coumadin and beta blockers by discharge. He was discharged in stable condition with instructions for home VNA, physical therapy for endurance training, continuation of home medications, and outpatient follow-up.
+
+
+## Dialogue Summary
+
+The patient presents with concern about a large hernia, specifically noting that part of the bowel has moved into the chest. The primary symptoms are progressive shortness of breath (dyspnea) and chest pressure, both of which have worsened over several days and are exacerbated by physical activity. The patient denies any digestive symptoms such as changes in bowel movements or difficulty passing gas. There is no report of chest pain, but the patient describes tightness and increased difficulty performing daily activities due to respiratory symptoms. The clinical impression is that the hernia is causing respiratory compromise by compressing the lungs. The doctor advised monitoring for warning signs such as sudden severe pain, vomiting, inability to pass stool or gas, or worsening dyspnea at rest, which would require prompt medical attention. Current recommendations include pacing activities, avoiding strenuous exertion, and remaining upright to help with breathing. The patient was instructed to report any new or worsening symptoms.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.548
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 156 words
+

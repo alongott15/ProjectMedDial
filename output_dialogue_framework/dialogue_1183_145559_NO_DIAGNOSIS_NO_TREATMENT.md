@@ -96,3 +96,21 @@ Let me know if you have any questions or if there’s anything else you’re con
 ## Processing Information
 
 - **Processing Time**: 437.1s
+
+## EHR Summary
+
+The patient is a 76-year-old woman presenting with lethargy following recent discharge after treatment for a subdural hematoma. She was readmitted from rehabilitation due to increased lethargy, and head CT revealed an increase in the left subdural hematoma with associated headache and confusion. Her past medical history includes hypertension, hypercholesterolemia, and bilateral subdural hematomas; she has allergies to erythromycin and penicillin (anaphylaxis). On examination, she was awake, alert, oriented, and neurologically intact. The documented diagnosis was left acute on chronic subdural hematoma with midline shift. She underwent burr hole drainage of the hematoma without complications and remained stable postoperatively. The treatment plan included discharge to rehabilitation, continuation of antihypertensive and lipid-lowering medications, pain management with Percocet as needed, and follow-up in three to four weeks with repeat head CT.
+
+
+## Dialogue Summary
+
+The patient is an older adult presenting with the chief complaint of persistent tiredness over the past few days. Symptoms include ongoing fatigue, headaches, and intermittent confusion, which have made daily activities such as preparing meals and reading more difficult; there are no associated changes in sleep quality, medication, diet, or recent illness. The patient denies lightheadedness or weakness and reports that confusion fluctuates throughout the day without a specific pattern. Relevant history regarding chronic medical conditions, medications, or allergies is not specified. The clinical impression is that these symptoms may be related to common benign causes in older adults, such as mild dehydration, inadequate nutrition, or stress, though other possibilities like low iron, thyroid dysfunction, or mild infections were mentioned. No definitive diagnosis was documented. The treatment plan includes recommendations to maintain hydration, eat regular balanced meals, and engage in gentle activity. The patient was advised to seek further evaluation if symptoms persist beyond a week, worsen, or if new symptoms such as fever, chest pain, or sudden confusion develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.402
+- **Model Used**: general
+- **Text1 Length**: 129 words
+- **Text2 Length**: 171 words
+

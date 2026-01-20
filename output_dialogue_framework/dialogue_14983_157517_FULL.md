@@ -85,16 +85,21 @@ For now, focusing on relaxation techniques like deep breathing, staying active, 
 
 ## EHR Summary
 
-The patient is a 58-year-old male admitted for elective clipping of an anterior communicating (ACOM) aneurysm. He reported no acute symptoms at presentation and was admitted for a planned neurosurgical procedure. His relevant history includes hypertension, coronary artery disease, and a prior coronary artery bypass graft in 2147. On physical examination, he was awake, alert, oriented, and neurologically intact with stable vital signs. The documented diagnosis was an ACOM aneurysm. He underwent elective craniotomy and aneurysm clipping without intraoperative or postoperative complications. Postoperatively, his blood pressure required close monitoring and was stabilized with medications. He was discharged home in stable condition with instructions for close follow-up by his primary care physician.
+The patient is a 58-year-old male admitted for elective clipping of an anterior communicating artery (ACOM) aneurysm. He reported no acute distress and was awake, alert, and oriented, though slightly nervous and agitated; physical and neurologic examinations were unremarkable. His past medical history includes hypertension, coronary artery disease, and prior coronary artery bypass grafting in 2147. The documented diagnosis was ACOM aneurysm. He underwent successful elective craniotomy and aneurysm clipping on 2151-10-19 without intraoperative or postoperative complications, aside from the need for close blood pressure monitoring to maintain systolic pressure below 150 mmHg. Blood pressure was stabilized with medications, and he was mobilized without difficulty during his hospital stay. Discharge medications included antihypertensives, lipid-lowering agents, antidepressants, and pain management. He was advised to follow up in two weeks for staple removal and to monitor for symptoms such as headache, vision changes, altered mental status, fever, or increased incision pain, with continued close blood pressure management by his primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with feelings of nervousness and agitation. These symptoms have been gradually building over the past several days, are mild, have no clear triggers, and do not include physical symptoms such as racing heart, sweating, shaking, or trouble concentrating. The patient denied changes in sleep, work, stress levels, or mood, and reported no interference with daily activities. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted mild and persistent nervousness and agitation without physical symptoms or functional impairment, consistent with mild situational anxiety. The doctor recommended monitoring for any changes, maintaining regular sleep and exercise routines, being mindful of caffeine or medication use, and practicing relaxation techniques such as deep breathing. The patient was advised to report if symptoms persist, worsen, or new symptoms develop. The patient understood and agreed with the plan.
+The patient presents with the chief complaint of feeling nervous and agitated. These symptoms have developed gradually over several days, are mild in severity, and occur without clear triggers or associated physical symptoms such as palpitations, sweating, or concentration difficulties. The patient denies changes in sleep, work, stress levels, mood, or interest in activities and reports no interference with daily functioning. There is no relevant medical history, medication use, or allergies documented. The clinical impression is mild situational anxiety without significant impairment. The treatment plan includes reassurance, monitoring for any worsening or new symptoms, and recommendations for relaxation techniques, regular exercise, and maintaining a consistent routine. The patient was advised to report any changes such as sleep disturbance, appetite changes, persistent low mood, or physical symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.910
-- **Similarity Label**: N/A
+- **STS Score**: 0.269
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 126 words
+
 
 ## Processing Information
 

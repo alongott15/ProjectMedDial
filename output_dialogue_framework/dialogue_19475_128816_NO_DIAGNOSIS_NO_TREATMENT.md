@@ -87,16 +87,21 @@ Let me know if you have any questions or concerns about what we've discussed.
 
 ## EHR Summary
 
-The patient is a 77-year-old woman presenting with shortness of breath. She reports worsening orthopnea, paroxysmal nocturnal dyspnea, dyspnea on exertion, and increased lower extremity edema over the past few weeks, requiring her to sleep sitting upright to alleviate symptoms. She also describes a brief episode of chest pain weeks prior to admission and decreased appetite, but currently denies chest pain, palpitations, fever, cough, or gastrointestinal bleeding. Her relevant history includes type 2 diabetes, hypertension, degenerative joint disease, transient ischemic attack, depression, and likely congestive heart failure (CHF), though she previously refused full cardiac workup. On prior outpatient management, empiric diuretic therapy was attempted without success and her symptoms continued to worsen. The admitting diagnosis was shortness of breath, with clinical suspicion for new or worsening CHF. The treatment plan included hospital admission for further evaluation and management of her symptoms.
+The patient is a 77-year-old woman presenting with shortness of breath. She reported worsening orthopnea, paroxysmal nocturnal dyspnea, dyspnea on exertion, and increased lower extremity edema over several weeks, requiring her to sleep sitting upright; she also experienced a brief episode of chest pain and decreased appetite. Her past medical history includes type 2 diabetes, hypertension, degenerative joint disease, transient ischemic attack with left lower extremity weakness, depression, and likely congestive heart failure. On admission, physical exam revealed tachycardia, jugular venous distention, bilateral crackles, and 3+ pitting edema; echocardiogram showed an ejection fraction of 30% with multiple wall motion abnormalities consistent with multivessel coronary artery disease. The documented diagnoses were congestive heart failure with reduced ejection fraction, type 2 diabetes, hypertension, degenerative joint disease, transient ischemic attack, and depression. Initial treatment included optimization of heart failure medications (lisinopril, beta blocker, diuretic, digoxin), anticoagulation with Coumadin, and management of diabetes with glipizide and insulin sliding scale. After persistent symptoms and new rest angina, the patient underwent cardiac catheterization revealing three-vessel coronary artery disease and subsequently agreed to coronary artery bypass grafting (CABG) with mitral valve annuloplasty. She was transferred to the cardiothoracic surgery team for further care.
+
 
 ## Dialogue Summary
 
-The patient presented with difficulty catching their breath, which has been worsening over the past couple of weeks. Symptoms include shortness of breath that is worse when lying down (requiring pillows for comfort), increased with activity such as walking, and present at rest; swelling in both legs, especially the ankles; recent rapid weight gain and puffiness in the legs; and waking up at night needing to sit up to breathe (orthopnea and paroxysmal nocturnal dyspnea). The patient denied cough and chest tightness or heaviness. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted signs of fluid retention including leg swelling, weight gain, and breathing difficulties that worsen with recumbency and exertion. The assessment was that these symptoms suggest possible fluid overload, potentially related to decreased cardiac efficiency. The doctor advised monitoring symptoms closely, tracking weight changes, limiting dietary salt intake, and seeking prompt medical attention for chest pain, severe shortness of breath at rest, or confusion; a follow-up visit was recommended for further evaluation and possible cardiac and fluid status testing.
+The patient is an adult presenting with shortness of breath as the chief complaint. Symptoms include dyspnea that worsens when lying down (orthopnea), increased shortness of breath with activity, bilateral lower extremity swelling, recent rapid weight gain, and episodes of waking at night due to breathlessness (paroxysmal nocturnal dyspnea). These symptoms have progressively worsened over the past couple of weeks. The patient denies cough and reports no chest tightness or heaviness. The clinical impression documented by the doctor is possible fluid overload, potentially related to decreased cardiac function. The treatment plan includes monitoring symptoms and weight, restricting dietary salt intake, and seeking prompt medical attention for chest pain, severe dyspnea at rest, or confusion. A follow-up visit and further evaluation, including possible cardiac and fluid status testing, were recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.637
+- **Model Used**: general
+- **Text1 Length**: 196 words
+- **Text2 Length**: 129 words
+
 
 ## Processing Information
 

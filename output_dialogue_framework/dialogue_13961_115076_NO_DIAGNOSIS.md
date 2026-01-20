@@ -87,16 +87,21 @@ Let’s arrange for you to have a check-up with some basic tests to look at your
 
 ## EHR Summary
 
-The patient is a 68-year-old male presenting with stable exertional chest discomfort that is relieved with rest. The chest discomfort occurs with physical activity and subsides when the patient rests, suggesting a pattern consistent with stable angina. No additional symptom characteristics, relevant medical history, medications, or allergies are documented in this note. There are no physical exam findings or test results provided. The diagnosis of stable angina is implied by the symptom description. No specific treatment plan or recommendations are documented in this note.
+The patient is a 68-year-old male presenting with stable exertional chest discomfort that is relieved with rest. The chest discomfort occurs with physical activity and subsides when the patient rests, suggesting a pattern consistent with stable angina. No additional symptom characteristics, duration, or associated factors are documented. Relevant past medical history, medications, and allergies are not specified in the note. The clinical impression appears to be stable angina based on the described symptoms. No specific diagnosis or treatment plan is documented in this excerpt. Further details regarding management or recommendations are not provided.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort occurring during physical activity. The patient described the symptom as a tightness or pressure in the chest, rated 5–6 out of 10 in intensity, which is triggered by brisk walking or climbing stairs and resolves with rest; it does not occur with light activity around the house. The discomfort has been present for a while without significant change and is not associated with sweating, lightheadedness, or shortness of breath. The patient reported no known history of heart conditions, high blood pressure, diabetes, or high cholesterol. On examination, no additional physical findings were noted. The doctor assessed that the exertional chest tightness, relieved by rest, may indicate the heart not getting enough oxygen during activity, possibly due to narrowing of the heart’s blood vessels. The doctor advised the patient to avoid activities that reliably trigger symptoms and to seek prompt medical attention if symptoms occur at rest or are accompanied by new warning signs such as shortness of breath, sweating, or faintness. Arrangements were made for further evaluation with basic heart health tests.
+The patient presents with chest discomfort as the chief complaint. The discomfort is described as a tightness or pressure (rated 5–6/10) that occurs during more vigorous activity such as brisk walking or climbing stairs and resolves with rest; it does not occur during light activities around the house. The patient denies associated symptoms such as shortness of breath, sweating, or lightheadedness, and reports no known history of heart disease, hypertension, diabetes, or hyperlipidemia. The clinical impression discussed is possible exertional angina due to reduced oxygen supply to the heart during exertion, potentially related to coronary artery narrowing. The physician advised the patient to avoid activities that reliably trigger the discomfort and to seek prompt medical attention if symptoms occur at rest or are accompanied by new symptoms such as dyspnea, diaphoresis, or presyncope. Arrangements were made for further evaluation with basic cardiac tests. No medications or acute interventions were initiated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.716
+- **Model Used**: general
+- **Text1 Length**: 93 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

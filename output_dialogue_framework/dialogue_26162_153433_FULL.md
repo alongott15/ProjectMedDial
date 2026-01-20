@@ -87,16 +87,21 @@ Let me ask—have you noticed the discharge or bleeding getting better, worse, o
 
 ## EHR Summary
 
-The patient is a 70-year-old female presenting with discharge from a surgical wound. She reports increasing drainage and bleeding from her left groin wound following recent bilateral distal external iliac and common femoral artery endarterectomies with patch angioplasties. She denies constitutional symptoms, and there was no evidence of infection at her prior follow-up visit when skin clips were removed. Her past medical history includes diabetes mellitus, hypertension, tobacco use, and right renal artery stenosis; she also has a history of claudication prior to surgery. On physical examination in the Emergency Room, her vital signs were stable except for elevated blood pressure (168/95), and the wound showed drainage but no erythema or lymphadenopathy. The documented clinical impression is wound drainage likely related to a lymphocele, without signs of infection. She was admitted for further evaluation and treatment of the wound drainage. No known drug allergies were reported.
+The patient is a 70-year-old female presenting with discharge from a surgical wound in the left groin. She reported increasing drainage and bleeding from the wound, which was found to be dehisced and draining serous, foul-smelling fluid; she remained afebrile but developed an elevated white blood cell count postoperatively. Her relevant history includes recent bilateral distal external iliac and common femoral artery endarterectomies with patch angioplasties, diabetes mellitus, hypertension, tobacco use, and right renal artery stenosis. The documented diagnosis was wound dehiscence with graft rupture, status post exploration ilial-femoral bypass with graft placement and wound debridement. Treatment included urgent surgical intervention (left groin exploration, bypass grafting, ligation, and debridement), intravenous antibiotics (Zosyn and Vancomycin), followed by oral Flagyl and Lobaplatin, blood transfusions, and wound care with sterile dressings. She was discharged in stable condition to rehabilitation with instructions for ongoing wound care and follow-up in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with discharge from a surgical wound. The discharge began a few days ago, is serous in nature, has a foul odor, and is accompanied by bleeding that requires more frequent bandage changes but does not soak through completely. The patient also reported new swelling and pitting edema in both legs up to the knees since surgery, along with tenderness and difficulty walking and performing daily activities; no fever was noted. The patient denied prior leg swelling and stated the discharge and bleeding have remained constant over the past few days. On examination, the doctor noted constant wound discharge with odor, bleeding, and new leg swelling, raising concern for possible infection or fluid buildup such as seroma or hematoma, as well as potential circulation changes or local inflammation post-surgery. The doctor advised keeping the area clean and dry, changing dressings as needed, and monitoring for fever, increasing redness, worsening pain, or increased bleeding and swelling. The patient was instructed to seek prompt medical attention if symptoms worsen or new signs of infection develop.
+The patient presents with concern about discharge from a surgical wound. The discharge has been present for several days, is serous with a foul odor, and is accompanied by bleeding that requires more frequent bandage changes but does not soak through completely. The patient also reports new-onset swelling and pitting edema in both legs up to the knees since surgery, with associated tenderness and difficulty with mobility; no fever has been noted. There is no history of similar swelling prior to surgery, and the discharge is constant throughout the day without clear triggers. Relevant medical history, medications, and allergies are not specified. The clinical impression discussed by the doctor is possible wound infection or fluid collection (such as seroma or hematoma), with new leg swelling potentially related to circulation changes or local inflammation after surgery. The patient was advised to keep the area clean and dry, change dressings as needed, monitor for fever, increasing redness, or worsening pain, and seek prompt medical attention if symptoms worsen. The patient reports that the discharge and bleeding have remained unchanged over the past few days.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.592
+- **Model Used**: general
+- **Text1 Length**: 147 words
+- **Text2 Length**: 182 words
+
 
 ## Processing Information
 

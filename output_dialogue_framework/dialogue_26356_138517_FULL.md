@@ -106,3 +106,21 @@ If you’d like, I can suggest a few specific dietary changes or over-the-counte
 ## Processing Information
 
 - **Processing Time**: 380.4s
+
+## EHR Summary
+
+The patient is a 75-year-old male presenting with bowel obstruction. He was found to have distended loops of small and large bowel on abdominal CT, with an apple core lesion at the splenic flexure causing near complete obstruction. There is no mention of specific symptom duration, severity, or associated factors. Relevant history, medications, and allergies are not specified. The documented diagnosis was chronic bowel obstruction. The patient underwent a subtotal colectomy with ileostomy formation on 6-19, with intraoperative findings of a markedly dilated right transverse colon and small bowel, and no palpable liver mass. No additional treatments or recommendations are documented in this note.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with crampy, gas-like abdominal pain as the chief complaint. The discomfort began a few days ago, is intermittent, rated up to 5 out of 10 in severity, and is diffuse across the abdomen. Associated symptoms include bloating and increased passage of gas, without changes in bowel movements, appetite, nausea, vomiting, or blood in the stool. There is no mention of relevant past medical history, medications, or allergies. The clinical impression is a mild, functional digestive issue likely related to increased intestinal gas or mild functional bowel changes. The physician reassured the patient due to the absence of red-flag symptoms such as persistent pain, blood in stool, weight loss, or vomiting. The treatment plan includes dietary modifications (such as limiting gas-producing foods and eating smaller, frequent meals), staying physically active, and monitoring for any new or worsening symptoms. Over-the-counter remedies and further dietary suggestions were offered if needed.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.497
+- **Model Used**: general
+- **Text1 Length**: 104 words
+- **Text2 Length**: 153 words
+

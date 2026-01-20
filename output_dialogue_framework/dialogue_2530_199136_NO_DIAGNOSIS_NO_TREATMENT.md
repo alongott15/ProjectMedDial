@@ -85,16 +85,21 @@ Let me reassure you that what you're describing is consistent with healthy aging
 
 ## EHR Summary
 
-The patient is a 75-year-old male admitted for management of a right renal mass. He has a history of coronary artery disease with prior myocardial infarction, multiple cancers (colon, prostate, and transitional cell carcinoma of the left ureter), chronic obstructive pulmonary disease, hypertension, diabetes, and peripheral vascular disease. The patient underwent a right nephrectoureterectomy and initially did well postoperatively, being extubated in the operating room and transferred to the ICU due to severe comorbidities. On postoperative day two, he developed acute agitation requiring several doses of Haldol; electrolytes and ECG were stable at that time. On postoperative day three, he reported shortness of breath; cardiac enzymes were negative and troponin levels were less than 0.14, with a mildly elevated CK of 430. Cardiology recommended diuresis and medication adjustments. The patient’s condition improved with these interventions.
+The patient is a 75-year-old male presenting with a right renal mass. He has a history of coronary artery disease status post myocardial infarction, transitional cell carcinoma of the left ureter status post ureterectomy, colon cancer, prostate cancer, chronic obstructive pulmonary disease, hypertension, diabetes, and peripheral vascular disease. During hospitalization, he underwent a right nephrectoureterectomy and initially did well postoperatively, though he experienced acute agitation on postoperative day two requiring Haldol and reported some shortness of breath on postoperative day three; cardiac enzymes were negative and VQ scan was low probability for pulmonary embolism. The documented diagnosis was right renal mass requiring surgical removal. Treatment included surgery (right nephrectoureterectomy), postoperative monitoring, management of agitation with Haldol, diuresis as recommended by Cardiology, and continuation of chronic medications including insulin, Lipitor, Lasix, and antihypertensives. The patient was discharged in stable condition with instructions for Foley catheter care, wound checks, vital signs monitoring by VNA, and follow-up with urology in one to two weeks. At discharge, he was tolerating a regular diet, ambulating, and had light red urine output from the Foley catheter.
+
 
 ## Dialogue Summary
 
-The patient presented with no specific complaints and reported no new or concerning symptoms. They denied changes in energy levels, sleep, appetite, ability to perform daily routines, cough, sore throat, headaches, aches, blood pressure concerns, heart health issues, mobility problems, falls, leg or ankle swelling, and changes in memory, concentration, or mood. No relevant medical history, medications, or allergies were mentioned during the visit. The doctor noted that the patient appeared to be in good health with stable overall well-being and no physical findings of concern. The assessment was that the patient is experiencing healthy aging with no current issues requiring intervention. The doctor advised continued monitoring for any new symptoms such as unexpected fatigue, swelling, or cognitive changes and encouraged the patient to maintain their active lifestyle. No additional testing or changes to routine were recommended at this time. The patient expressed understanding and agreed to report any future changes.
+The patient presented for a routine evaluation without any specific chief complaint. They reported no new or concerning symptoms, including changes in energy, sleep, appetite, mobility, mood, or cognition, and denied experiencing cough, sore throat, headaches, aches, swelling, or issues with balance or falls. The patient confirmed the ability to maintain usual daily routines without difficulty. There is no relevant medical history, medications, or allergies documented in this encounter. The clinical assessment indicated stable overall health with no evidence of acute or chronic illness. No new diagnosis was made. The treatment plan included reassurance, encouragement to continue monitoring for any new symptoms, and advice to maintain current routines and activity levels. The patient was advised to contact the clinic if any changes or concerns arise in the future.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.924
-- **Similarity Label**: N/A
+- **STS Score**: 0.423
+- **Model Used**: general
+- **Text1 Length**: 180 words
+- **Text2 Length**: 128 words
+
 
 ## Processing Information
 

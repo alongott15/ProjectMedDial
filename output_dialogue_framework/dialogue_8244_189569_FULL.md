@@ -87,16 +87,21 @@ Let me know if you have any questions about what we've discussed or need further
 
 ## EHR Summary
 
-The patient is a 64-year-old male presenting with shoulder and jaw discomfort. His pain occurs both with exertion and at rest, and he experienced a similar episode the previous week. He has significant risk factors for coronary artery disease, including hypertension, hyperlipidemia, tobacco use, and a positive family history. Physical examination was notable for stable vital signs and scattered pulmonary rhonchi, but otherwise unremarkable. Cardiac testing revealed ST depression on exercise tolerance testing, a perfusion defect on myocardial scan, and severe multi-vessel coronary artery disease on catheterization (including 100% right coronary artery stenosis). The documented diagnosis is severe coronary artery disease. The patient was admitted preoperatively and underwent coronary artery bypass grafting.
+The patient is a 64-year-old male presenting with exertional and non-exertional shoulder and jaw discomfort. His symptoms included episodes of pain, with one episode occurring the week prior to admission, and were associated with significant coronary artery disease risk factors such as hypertension, hyperlipidemia, family history, and tobacco use. Relevant history includes left carotid stenosis (without TIA), peptic ulcer disease, hypertension, hyperlipidemia, and prior pilonidal cyst removal. Cardiac catheterization revealed severe multi-vessel coronary artery disease, including 100% stenosis of the right coronary artery. The documented diagnosis was status post coronary artery bypass grafting (CABG) x4 performed on 2114-12-12. Treatment included CABG with four vessels grafted, postoperative monitoring, management of a brief episode of confusion (treated with Valium and supportive care), and standard post-CABG medications including Lopressor, Lasix, KCL, Colace, aspirin, ibuprofen, Percocet, and Klonopin as needed. The patient was discharged in stable condition with follow-up arranged with cardiology and primary care in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with discomfort in the shoulder and jaw. The discomfort began gradually a few days ago, is rated as a 5 out of 10 in intensity, and does not change with movement, eating, or activity; it mainly affects relaxation and falling asleep but does not interfere with daily routines. The patient denied shortness of breath, sweating, or nausea, and reported no prior similar episodes, but did mention a history of left carotid stenosis and a brief episode of confusion a few days ago. No physical findings were described during the visit. The doctor noted that muscle strain is a common cause of such discomfort, especially when not worsened by movement, but emphasized caution due to the patient's vascular history and the possibility of referred pain from other sources. The doctor advised monitoring for new symptoms such as chest pain, sudden weakness, difficulty speaking, or confusion, and recommended gentle stretching and heat for possible muscular causes. If symptoms persist, worsen, or new symptoms develop, the doctor advised prompt evaluation to rule out more serious conditions.
+The patient is an adult presenting with discomfort in the shoulder and jaw as the chief complaint. The discomfort began gradually a few days ago, is rated 5/10 in intensity, remains constant regardless of activity, and is not associated with shortness of breath, sweating, or nausea. The discomfort mildly affects relaxation and sleep but does not interfere with daily activities; it is most noticeable when trying to fall asleep. Relevant history includes left carotid stenosis and a recent brief episode of confusion, with no prior similar discomfort or history of heart attacks. The clinical impression is that muscle strain or tension is a possible cause, but vascular or cardiac causes cannot be excluded due to the patient’s history. The patient was advised to monitor for new symptoms such as chest pain, sudden weakness, difficulty speaking, or confusion, and to seek prompt medical attention if these occur. Conservative management with gentle stretching and heat was recommended for possible muscular causes, with instructions to seek further evaluation if symptoms persist or worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.976
-- **Similarity Label**: N/A
+- **STS Score**: 0.482
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ Let me know if you have any questions or worries about what happened, or if youâ
 
 ## EHR Summary
 
-The patient is a 41-year-old woman presenting with a syncopal episode resulting in a fall. She was initially admitted and found to have a right internal carotid artery bifurcation aneurysm on angiogram. Her relevant history includes this aneurysm and a recent syncopal event; no medication or allergy information is specified. On readmission, she underwent surgical clipping of the aneurysm without intraoperative complications. Postoperatively, she was afebrile, awake, alert, and demonstrated symmetric facial movements, full strength in all extremities, and stable laboratory studies. Follow-up angiography confirmed successful clipping of the aneurysm. The documented diagnosis was right internal carotid artery bifurcation aneurysm status post clipping. She was discharged home in stable neurological condition with no new deficits.
+The patient is a 41-year-old woman presenting with a syncopal episode resulting in a fall. She was initially admitted and found to have a right internal carotid artery bifurcation aneurysm on angiogram. Her relevant history includes recent surgical clipping of the aneurysm, with no intraoperative complications reported. Postoperatively, she experienced minimal frontal and periorbital edema but remained neurologically stable, alert, and able to ambulate without deficits. The documented diagnosis was a right internal carotid artery bifurcation aneurysm, status post clipping. Treatment included surgical aneurysm clipping, postoperative monitoring, and medications on discharge: Percocet for pain and Colace for bowel management. She was discharged in stable condition with instructions for staple removal in two days and follow-up in 10â€“14 days.
+
 
 ## Dialogue Summary
 
-The patient presented with a recent episode of fainting. The patient reported fainting without any obvious triggers, such as standing up quickly, exercising, or being in a hot environment, and denied feeling lightheaded, nauseous, sweaty, or experiencing changes in vision or hearing before the event. After fainting, the patient fell backward and noted minor swelling around the forehead and near the eye, which has since improved; no ongoing headaches, confusion, or memory problems were reported. The patient stated they were unconscious for only a few seconds and that this was the first such episode, with no recent illnesses, skipped meals, increased stress, or dehydration. Physical findings included minor swelling that has decreased over two days and no signs of head injury or persistent symptoms. The doctor assessed this as a brief, isolated fainting episode in an otherwise healthy individual, likely related to transient factors such as blood pressure changes or mild dehydration. The doctor advised rest and maintaining hydration, with instructions to seek urgent care if severe headaches, confusion, repeated fainting, or vision changes occur. The patient expressed understanding and relief regarding the assessment and recommendations.
+The patient is an adult presenting with a chief complaint of a recent fainting episode (syncope). The episode occurred without any clear trigger, such as standing up quickly, exercise, or heat exposure, and was not preceded by lightheadedness, nausea, sweating, or changes in vision or hearing. The patient fell backward during the event, resulting in minor swelling around the forehead and eye, which has since improved; there were no ongoing headaches, confusion, or memory problems reported. The patient was unconscious for only a few seconds and recovered quickly, with no prior history of similar episodes. There is no relevant recent illness, skipped meals, increased stress, or dehydration reported. The clinical impression was a brief, uncomplicated fainting episode without warning signs or concerning sequelae. The treatment plan included advice to rest, maintain good hydration, and monitor for new symptoms such as severe headache, persistent confusion, repeated fainting, or vision changes. No further immediate intervention was recommended unless new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.940
-- **Similarity Label**: N/A
+- **STS Score**: 0.410
+- **Model Used**: general
+- **Text1 Length**: 118 words
+- **Text2 Length**: 159 words
+
 
 ## Processing Information
 

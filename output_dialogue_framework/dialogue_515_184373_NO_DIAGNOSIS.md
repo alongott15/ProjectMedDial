@@ -87,16 +87,21 @@ Let me know if you have any questions about what we discussed or if there’s an
 
 ## EHR Summary
 
-The patient is a 67-year-old male presenting with right-sided heart failure and evaluation for possible mitral valve replacement. He reported nausea, vomiting, and increasing abdominal girth prior to admission, and was found to have hypotension, likely due to overdiuresis, which was managed with IV fluids, packed red blood cells, and brief pressor support. His medical history is significant for prior CABG x3, mitral valve repair, reduced ejection fraction (30-40%), mitral and tricuspid regurgitation, atrial and ventricular dilation, ventricular tachycardia arrest with AICD placement, sick sinus syndrome with pacemaker, pulmonary and systemic hypertension, chronic atrial fibrillation, and chronic renal failure. On imaging, CT showed abdominal ascites; paracentesis removed 750 cc of transudative fluid. Echocardiography revealed severe biatrial and right ventricular dilation, severely depressed left ventricular function, and significant mitral and tricuspid regurgitation. The documented clinical impression is right-sided heart failure with severe valvular disease. The treatment plan included cardiac surgery consultation for possible mitral valve replacement and preoperative dental clearance.
+The patient is a 67-year-old male presenting with right-sided heart failure and evaluation for possible mitral valve replacement. He reported nausea, vomiting, and increasing abdominal girth, with physical exam notable for marked lower extremity edema, jugular venous distension, and crackles in the lower lung fields. His history includes extensive cardiac disease (CABG x3, prior mitral valve repair, chronic atrial fibrillation, pulmonary hypertension, chronic renal failure), and he is on multiple cardiac and diuretic medications; he is allergic to quinidine. Imaging and cardiac catheterization revealed severe mitral and tricuspid regurgitation, markedly dilated right heart chambers, severely depressed left ventricular function, and elevated filling pressures. The clinical impression is decompensated right-sided heart failure with severe valvular disease. Treatment included aggressive diuresis (Lasix drip), milrinone infusion, continuation of beta blocker, ACE inhibitor, Aldactone, and Zaroxolyn, with anticoagulation held in anticipation of surgery. The patient was being optimized for potential mitral valve replacement, with surgical evaluation ongoing at the time of dictation.
+
 
 ## Dialogue Summary
 
-The patient presented with abdominal discomfort that has been gradually worsening over time. The discomfort is steady, rated 6 out of 10 in severity, not related to meals, and does not improve with rest or position changes; the patient also reported vomiting but no change in appetite. The symptoms have made daily activities and chores more difficult. Relevant history includes hypertension and recent diagnosis of ascites (fluid buildup in the abdomen); no medications or allergies were mentioned. No physical findings were described during the visit. The doctor assessed the symptoms as moderate, steadily worsening abdominal discomfort with vomiting, possibly related to mild inflammation, digestive issues, or medication side effects, and noted the presence of ascites as a relevant factor. The doctor advised the patient to stay hydrated, eat smaller bland meals, and monitor for warning signs such as fever, severe pain, blood in vomit or stool, or jaundice, which would require urgent care. The patient was encouraged to reach out if symptoms worsen or new concerning signs develop.
+The patient presents with abdominal discomfort as the chief complaint. The discomfort has been gradually worsening over time, is rated 6 out of 10 in severity, is steady (not related to meals), and is not relieved by rest or position changes; it is accompanied by vomiting but no change in appetite. The symptoms have made daily activities and chores more difficult. The patient has a history of hypertension and reports recent development of ascites (fluid buildup in the abdomen). No formal diagnosis was documented during the visit, but possible causes discussed include mild inflammation, digestive issues, or medication side effects. The physician advised monitoring for warning signs such as fever, severe pain, blood in vomit or stool, or jaundice, which would warrant urgent care. The treatment plan includes staying hydrated, eating smaller bland meals, and seeking prompt medical attention if symptoms worsen or new warning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.943
-- **Similarity Label**: N/A
+- **STS Score**: 0.379
+- **Model Used**: general
+- **Text1 Length**: 158 words
+- **Text2 Length**: 147 words
+
 
 ## Processing Information
 

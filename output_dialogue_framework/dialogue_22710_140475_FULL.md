@@ -87,16 +87,21 @@ Would you like to discuss ways to manage your anxiety while we sort this out, or
 
 ## EHR Summary
 
-The patient is a 64-year-old female presenting with chest pain, pressure, and increasing shortness of breath on exertion. Symptoms were progressive and associated with a history of myocardial infarction and prior coronary stenting, with recent evidence of significant restenosis (90% in the right coronary artery) and preserved left ventricular function (ejection fraction >55%). Her medical history includes high cholesterol, gastroesophageal reflux disease, cerebrovascular accident, lumbar disc disease, hemorrhoids, and obesity. On physical examination, she was afebrile with stable vital signs, clear lungs, a regular heart rhythm with a II/VI systolic ejection murmur, and no peripheral edema. The documented diagnosis was symptomatic coronary artery disease with significant in-stent restenosis. The treatment plan included surgical intervention with coronary artery bypass grafting. She is maintained on Lipitor, Prilosec, Metoprolol, Plavix, aspirin, and a multivitamin.
+The patient is a 64-year-old female presenting with chest pain, pressure, and increasing shortness of breath on exertion. Symptoms were associated with a history of myocardial infarction, prior stent placement, and significant right coronary artery restenosis (90%) noted on previous catheterization. Her past medical history includes high cholesterol, gastroesophageal reflux disease, cerebrovascular accident, lumbar disc disease, hemorrhoids, and obesity; she is allergic to sulfa, Prednisone, and Ceftin. The documented diagnosis was right coronary artery restenosis requiring surgical intervention. She underwent a coronary artery bypass graft (CABG) using the left internal mammary artery to the right coronary artery. Postoperatively, she was weaned from ventilatory and vasopressor support, diuresed, and her beta blocker was discontinued due to hypotension. She experienced episodes of anxiety with tachypnea that resolved with reassurance. At discharge, she was stable and advised to follow up with her surgeons, primary care physician, and cardiologist, and to participate in outpatient cardiac rehabilitation.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain and pressure, which has been causing significant anxiety. Symptoms include chest discomfort and shortness of breath that worsen with physical activity such as walking, climbing stairs, shopping, and housework, but improve with rest; the patient reports these symptoms have been progressively worsening over time. The patient denied associated symptoms such as wheezing, coughing, swelling in the legs or ankles, lightheadedness, nausea, or sweating, and noted that anxiety increases during episodes of shortness of breath, sometimes leading to faster breathing. No relevant medical history, medications, or allergies were mentioned. The doctor noted that symptoms are exertional and improve with rest, with no concerning features at rest or signs of heart failure. The assessment was that exertional chest pressure and shortness of breath could be related to cardiac, pulmonary, or anxiety-related causes, and warrant further evaluation. The doctor recommended arranging basic tests including ECG and blood work, advised avoiding strenuous activity until more is known, and instructed the patient to seek prompt care if new symptoms develop; anxiety management strategies were also offered.
+The patient presents with chest pain and pressure as the chief complaint. The chest discomfort is described as worsening with physical activity (such as walking, climbing stairs, housework, or shopping) and is accompanied by exertional shortness of breath, both of which improve with rest. The symptoms have been progressively worsening over time and are now limiting daily activities; however, there is no associated wheezing, cough, peripheral edema, lightheadedness, nausea, or diaphoresis. The patient reports increased anxiety during episodes of shortness of breath but denies symptoms at rest. Relevant medical history, medications, and allergies are not specified in the dialogue. The clinical impression is that the symptoms may be related to cardiac or pulmonary causes exacerbated by exertion, with anxiety also contributing. The treatment plan includes arranging a basic evaluation (heart and lung function assessment, ECG, and blood work), advising avoidance of strenuous activity until further information is available, and providing guidance on anxiety management. The patient was instructed to seek prompt medical attention if new or worsening symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.486
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

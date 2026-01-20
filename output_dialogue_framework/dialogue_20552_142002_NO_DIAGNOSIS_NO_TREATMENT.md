@@ -85,16 +85,21 @@ Let me ask: How much are these dizzy spells interfering with your daily life? Ar
 
 ## EHR Summary
 
-The patient is an 84-year-old woman presenting for management of right internal carotid artery stenosis. She reported prior transient ischemic attack symptoms affecting the right side and dizziness when leaning forward. Her medical history includes a craniotomy for brain tumor excision, arthritis, and a previous left carotid artery stent; she was taking aspirin, Lipitor, atenolol, Ativan, methyldopa, nifedipine, Protonix, and Plavix on admission. On evaluation, she was found to have 80–90% stenosis of the right internal carotid artery and greater than 70% stenosis of the left vertebral artery. Physical findings post-procedure included stable vital signs and no groin hematoma. The documented diagnosis was carotid artery stenosis. She underwent successful right internal carotid artery stenting without complications and received perioperative heparin and blood pressure management. She was monitored postoperatively in the ICU and remained awake and alert.
+The patient is an 84-year-old woman presenting for management of right internal carotid artery stenosis. She had a history of transient ischemic attacks affecting the right side and reported dizziness on leaning forward. Her past medical history includes prior craniotomy for brain tumor excision, arthritis, and a left carotid artery stent; she was taking aspirin, Lipitor, atenolol, Ativan, methyldopa, nifedipine, Protonix, and Plavix on admission. During this hospitalization, she underwent right internal carotid artery stenting for 80–90% stenosis and was also found to have greater than 70% stenosis of the left vertebral artery and left internal carotid artery. Postoperatively, she remained stable with no major complications, though she experienced mild delirium that resolved with Haldol. The documented diagnosis was carotid artery stenosis with successful stenting. She was discharged home in stable condition with recommendations for continued physical therapy and family assistance. Discharge medications included Plavix, aspirin, Colace, Protonix, nifedipine, atorvastatin, atenolol, and methyldopa.
+
 
 ## Dialogue Summary
 
-The patient presented with dizzy spells, particularly when leaning forward. The dizziness occurs mainly during positional changes such as bending forward, and has been present for a few days without worsening in frequency or severity. The patient reported needing to steady themselves during episodes, which resolve quickly, and described occasional confusion and disorientation but denied vision changes, weakness, numbness, speech difficulties, or unusual fatigue outside of the episodes. Relevant history includes brief episodes of right-sided weakness in the past, suggestive of possible transient ischemic attacks. On examination, no new neurological deficits were reported by the patient. The doctor assessed the dizziness as likely related to positional hypotension or orthostatic dizziness, possibly influenced by age-related changes or circulation issues. The doctor advised the patient to continue being cautious with positional changes and explained the likely benign nature of the symptoms given the absence of concerning features.
+The patient presents with dizziness as the chief complaint. The dizziness occurs primarily when leaning forward or changing position, has been present for a few days, and resolves quickly after steadying themself; it is not associated with vision changes, weakness, numbness, or speech difficulties, though mild confusion and disorientation are noted during episodes. The patient reports no unusual fatigue or weakness outside of these spells but does have a history of brief right-sided weakness suggestive of possible prior transient ischemic attacks. The dizziness has made moving around the house more challenging, but most daily activities remain manageable. The physician’s assessment links the symptoms to possible positional hypotension or orthostatic dizziness, potentially related to age, hydration status, or blood pressure regulation. No acute neurological deficits are reported during current episodes. The treatment plan includes reassurance and advice to move more slowly and carefully to minimize dizziness.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.933
-- **Similarity Label**: N/A
+- **STS Score**: 0.525
+- **Model Used**: general
+- **Text1 Length**: 153 words
+- **Text2 Length**: 145 words
+
 
 ## Processing Information
 

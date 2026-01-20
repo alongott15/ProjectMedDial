@@ -89,16 +89,21 @@ Let me know if you have questions about any of this or if you’d like tips on c
 
 ## EHR Summary
 
-The patient is a 29-year-old male admitted for management of pancreatitis. During his hospital stay, he experienced sinus pain secondary to feeding tube placement, which resolved without fever or worsening pain. His relevant history includes poor mobility requiring a Foley catheter and tube feeds, as well as the use of Haldol and Valium, both of which were being tapered with the goal of discontinuation. On discharge, he was stable with improving strength and mobility per physical therapy assessment. The documented diagnosis is pancreatitis. Discharge medications included subcutaneous heparin, Topamax, fentanyl patch, Haldol, Valium, Motrin, Tylenol, Dulcolax as needed, and tube feeds (Peptamen at 70 cc/hour). The plan includes continued tapering of Haldol and Valium, discontinuation of the Foley catheter and heparin as mobility improves, and follow-up with Gastroenterology for pancreatitis management.
+The patient is a 29-year-old male admitted for management of pancreatitis. During his hospital stay, he experienced sinus pain related to feeding tube placement, which resolved without fever or worsening pain, and had poor mobility requiring a Foley catheter. His strength and mobility improved with physical therapy, and he tolerated tube feeds at 70 cc/hour. Relevant history includes recent use of Haldol and Valium, both of which were tapered with plans for discontinuation, and ongoing use of subcutaneous heparin for thromboprophylaxis. The documented diagnosis is pancreatitis. Discharge medications included heparin, Topamax, fentanyl patch, Haldol, Valium, Motrin, Tylenol, Dulcolax as needed, and tube feeds (Peptamen). The treatment plan involves continued tapering of psychiatric medications, monitoring and eventual discontinuation of the Foley catheter and heparin as mobility improves, and follow-up with gastroenterology for pancreatitis management. The patient was discharged in stable condition with improving strength and mobility.
+
 
 ## Dialogue Summary
 
-The patient presented with sinus pain believed to be related to recent feeding tube placement. The pain was described as a pressure sensation, rated 6 out of 10 in severity, persistent since tube placement, and worsened by movement but somewhat relieved by staying still. The patient denied congestion, runny nose, changes in sense of smell, redness, swelling, or drainage at the tube entry site, and reported poor mobility due to discomfort, though sleep was not affected. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the sinus pressure was likely due to local irritation or pressure from the tube rather than infection or typical sinus inflammation. The doctor recommended adjusting position and considering saline nasal sprays to keep nasal passages moist (with care team confirmation), minimizing unnecessary movement, and monitoring for signs of infection such as fever, worsening pain, swelling, or discharge. The patient expressed understanding and openness to further advice for managing poor mobility.
+The patient is an adult presenting with sinus pain following recent feeding tube placement. The pain is described as a persistent pressure sensation rated 6/10, worsened by movement and improved with rest, without associated congestion, runny nose, or changes in sense of smell. There is no redness, swelling, or drainage at the tube entry site, and sleep is not affected; however, mobility is reduced due to discomfort. Relevant history includes recent feeding tube placement. The clinical impression is that the sinus pressure is likely due to local irritation or pressure from the feeding tube rather than infection or typical sinus inflammation. The treatment plan includes adjusting position, considering saline nasal sprays (with care team approval), and minimizing unnecessary movement. The patient was advised to monitor for new symptoms such as fever, worsening pain, swelling, or discharge, which would warrant prompt medical attention.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
+- **STS Score**: 0.511
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 142 words
+
 
 ## Processing Information
 

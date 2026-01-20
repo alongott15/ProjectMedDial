@@ -87,16 +87,21 @@ If you're comfortable, you can try gentle movement to avoid stiffness, but avoid
 
 ## EHR Summary
 
-The patient is a 78-year-old male admitted for management of chronic medical conditions. No specific chief complaint or acute symptoms are documented in this note. Relevant history includes chronic kidney disease with a baseline creatinine of 2.0, which increased to 2.4 during admission, and hyperkalemia with potassium levels ranging from 5 to 5.8, partially attributed to pseudohyperkalemia secondary to thrombocytosis. The clinical assessment focused on renal function and electrolyte management. The treatment plan included reducing Zestril (lisinopril) from 10 mg to 5 mg daily, adjusting Lasix (furosemide) to 20 mg every other day, and prescribing Kayexalate 15 grams daily as needed for potassium greater than 5. The patient was discharged on a comprehensive medication regimen addressing hypertension, heart failure, anticoagulation, and other chronic conditions. No new acute diagnoses or findings were documented during this admission.
+The patient is a 78-year-old male admitted for management of chronic medical conditions. During hospitalization, his creatinine increased from a baseline of 2.0 to 2.4, prompting adjustment of medications. He has a history of thrombocytosis contributing to pseudohyperkalemia, with potassium levels ranging from 5 to 5.8. The documented clinical impression includes chronic kidney disease with medication-induced hyperkalemia. Zestril was reduced from 10 mg to 5 mg daily, Lasix was adjusted to 20 mg every other day, and Kayexalate 15 grams daily was prescribed as needed for potassium greater than 5. The patient was discharged on a regimen including antihypertensives, anticoagulants, and other supportive medications. No acute symptoms or new complaints were documented at discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. They reported associated shortness of breath that comes on gradually and worsens with physical activity, as well as right leg pain due to a hematoma with localized swelling (pain rated 5/10), but denied redness, warmth, or dizziness. The chest pain and shortness of breath have made daily activities more difficult, with symptoms worsening on exertion and improving with rest. No history of lightheadedness or chest pain at rest was noted. The doctor assessed that the pattern of symptoms suggests increased cardiac or pulmonary workload, possibly related to mild strain, anemia, or temporary circulatory changes, and noted that the hematoma and swelling could contribute to fatigue and shortness of breath. The doctor recommended limiting activities that worsen symptoms, monitoring for any new or worsening signs (such as increased pain, sudden shortness of breath, or new redness/warmth in the leg), and elevating the leg to help with swelling. Gentle movement was advised to avoid stiffness, but overexertion should be avoided. The patient understood and agreed to monitor for changes.
+The patient presents with chest pain as the chief complaint. The chest pain is accompanied by dyspnea (shortness of breath) that comes on gradually and worsens with physical activity, improving with rest; there is no associated dizziness or chest pain at rest. The patient also reports right leg pain rated 5/10 due to a hematoma, with associated swelling but no redness or warmth. These symptoms have made daily activities more difficult, as the patient becomes winded more easily. Relevant history includes a recent right leg hematoma. The clinical impression is that the symptoms may be related to increased cardiac or pulmonary workload, possibly due to mild strain, anemia, or circulatory changes associated with the hematoma. The treatment plan includes activity modification (avoiding overexertion), monitoring for worsening symptoms (such as increased pain, sudden severe dyspnea, or new redness/warmth in the leg), gentle movement to prevent stiffness, and leg elevation to reduce swelling. The patient was advised to seek prompt medical attention if concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.915
-- **Similarity Label**: N/A
+- **STS Score**: 0.327
+- **Model Used**: general
+- **Text1 Length**: 114 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

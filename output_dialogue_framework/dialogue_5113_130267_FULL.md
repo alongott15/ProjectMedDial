@@ -85,16 +85,21 @@ Let’s keep an eye on your symptoms over the next few days. If things aren’t 
 
 ## EHR Summary
 
-The patient is a 50-year-old male presenting with persistent lightheadedness and fatigue. He reported chronic lightheadedness and flu-like symptoms since 2186, without chest discomfort or shortness of breath. Relevant history includes sarcoidosis (diagnosed in 2180), benign prostatic hypertrophy, restless leg syndrome, hypertension, hyperlipidemia, and prior surgeries (bilateral TMJ, tonsillectomy, adenoidectomy, lipoma dissection); he is allergic to penicillin and takes Serax, Endocet, Flomax, Proscar, ranitidine, and multivitamins. Cardiolite ETT revealed a moderate fixed inferior defect and a moderately reversible anterior apical and septal defect, with an ejection fraction of 43%. Cardiac catheterization demonstrated significant stenosis of the right coronary artery, left anterior descending artery, and obtuse marginal artery. The documented diagnosis was coronary artery disease requiring surgical intervention. The treatment plan included admission for evaluation and subsequent coronary artery bypass grafting. Preoperative laboratory results were within normal limits.
+The patient is a 50-year-old male presenting with persistent lightheadedness and fatigue. He reported chronic lightheadedness and flu-like symptoms since 2186, with no chest discomfort or shortness of breath. His history is notable for sarcoid (2180), benign prostatic hypertrophy, restless leg syndrome, hypertension, hyperlipidemia, and a penicillin allergy; home medications included Serax, Endocet, Flomax, Proscar, a prednisone taper (now stopped), ranitidine, and multivitamins. Cardiac workup revealed coronary artery disease with significant stenosis in multiple vessels and a reduced ejection fraction (43%), leading to the diagnosis of coronary artery disease requiring surgical intervention. He underwent a three-vessel coronary artery bypass graft on 2196-6-27 without major complications. Postoperative care included pain management, DVT prophylaxis, and infection prevention with vancomycin; he was transitioned to oral ISDN and beta-blockade. At discharge, he was prescribed Protonix, aspirin, ISDN, Flomax, Proscar, potassium chloride, Lasix, Colace, Lopressor, and Dilaudid as needed for pain. The patient was stable and near his preoperative weight at discharge, with follow-up arranged for surgical and cardiology care.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent lightheadedness and fatigue as the chief complaint. Symptoms included ongoing tiredness and difficulty focusing, with lightheadedness present regardless of position (sitting, standing, or lying down), and no worsening with movement. The patient reported these symptoms had lasted for at least a few days, accompanied by a brief fever up to 101.5°F that has since resolved; no cough, sore throat, nausea, sweating, appetite changes, or sleep disturbances were noted. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the resolved fever and persistent fatigue and lightheadedness, suggesting these may be lingering effects of a recent viral illness. The doctor recommended rest, hydration, and pacing activities to support recovery. The patient was advised to monitor for worsening symptoms such as fainting, chest pain, trouble breathing, or confusion, and to seek care if these occur or if symptoms do not improve. The patient understood the plan and agreed to follow up if needed.
+The patient is an adult presenting with the chief complaint of persistent lightheadedness and fatigue. These symptoms have lasted for at least several days, making daily activities more difficult, though the patient remains able to function. The lightheadedness is not positional and is not associated with nausea, sweating, appetite changes, or sleep disturbances. The patient reported a transient fever up to 101.5°F that has since resolved, without cough, sore throat, or other acute symptoms. There is no relevant past medical history, medications, or allergies documented in this encounter. The clinical impression is lingering fatigue and lightheadedness following a likely viral illness, with no current evidence of serious complications. The treatment plan includes supportive care: rest, hydration, pacing activities, and monitoring for worsening or new symptoms such as fainting, chest pain, dyspnea, or confusion. The patient was advised to seek further care if symptoms worsen or new concerning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.548
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 149 words
+
 
 ## Processing Information
 

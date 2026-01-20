@@ -85,16 +85,23 @@ Let me ask: have these episodes been getting more frequent or severe over the pa
 
 ## EHR Summary
 
-The patient is an 84-year-old male presenting with syncope. He reported progressively worsening aortic stenosis over the past six months, increased fatigue, and experienced a syncopal episode while driving. His medical history includes hypertension, type 2 diabetes, mitral regurgitation, aortic stenosis, and hyperlipidemia; he is allergic to shellfish-derived products. On admission, physical exam revealed bradycardia (HR 52), right carotid bruit, and a systolic ejection murmur; discharge exam showed stable vital signs and no murmurs. The documented diagnoses were severe aortic stenosis and mitral regurgitation. Treatment included cardiac catheterization, aortic valve replacement with a 23-mm Mosaic tissue heart valve, mitral valve repair with annuloplasty, and coronary artery bypass grafting x3. Postoperative care included monitoring of incisions and management of mild bilateral lower extremity edema. The patient was discharged in stable condition with no acute distress.
+The patient is an 84-year-old male presenting with syncope. He reported progressively worsening aortic stenosis over the past six months, increased fatigue, and a syncopal episode while driving. His medical history includes hypertension, type 2 diabetes, mitral regurgitation, aortic stenosis, and hyperlipidemia; he has a shellfish-derived allergy. On admission, he underwent cardiac catheterization followed by aortic valve replacement, mitral valve repair, and coronary artery bypass grafting. The documented diagnoses were coronary artery disease status post CABG, aortic stenosis status post AVR, mitral regurgitation status post repair, type 2 diabetes, hypertension, and hyperlipidemia. Postoperatively, he developed atrial fibrillation treated with beta blockers and amiodarone, and was started on diuretics for gentle fluid management. Discharge medications included amiodarone, metoprolol, furosemide, potassium chloride, antidiabetics, statins, aspirin, and supportive therapies. He was discharged home in good condition with instructions for wound care, activity restrictions, and follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with fainting spells as the chief complaint. Symptoms included episodes of lightheadedness preceding fainting, occasional fatigue that comes and goes throughout the day, and brief weakness after fainting; the fainting typically occurs when standing up quickly from sitting, with actual loss of consciousness reported a couple of times over the past week. The patient noted that these episodes have made daily activities more difficult and has started being more cautious when standing. No specific medical history, medications, or allergies were mentioned. The doctor assessed that the pattern of fainting spells triggered by standing up quickly is suggestive of orthostatic hypotension, possibly related to positional changes and exacerbated by factors such as dehydration or inadequate nutrition. Physical findings were limited to the patient’s description of rapid recovery after fainting without confusion, but with transient weakness. The doctor recommended standing up slowly, staying hydrated, eating regular meals, and sitting briefly before rising to help reduce episodes. The patient reported that the frequency and severity of episodes have remained stable over the past week.
+The patient presents with fainting spells as the chief complaint. Over the past week, they have experienced several episodes of syncope, typically preceded by lightheadedness and sometimes fatigue, with actual loss of consciousness occurring quickly after standing up too fast. The fatigue is intermittent and not always associated with the fainting episodes, and recovery after each episode is rapid, with only brief weakness and no confusion. The episodes are impacting the patient's ability to perform daily activities, leading them to be more cautious when standing.
+
+The clinical impression documented is orthostatic hypotension, likely related to positional changes. The physician advised the patient to stand up slowly, stay hydrated, eat regular meals, and sit briefly before standing to help reduce these episodes. No medication changes or further diagnostic workup were documented in this encounter. The frequency and severity of episodes have remained stable over the past week.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.937
-- **Similarity Label**: N/A
+- **STS Score**: 0.476
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 146 words
+
 
 ## Processing Information
 

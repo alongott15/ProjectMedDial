@@ -87,16 +87,21 @@ Let me ask—have you noticed anything specific that seems to trigger the tightn
 
 ## EHR Summary
 
-The patient is a 69-year-old male presenting for cardiac catheterization due to a history of exertional chest tightness. He reported no acute symptoms at presentation but had prior episodes of chest discomfort with exertion. Relevant history includes bipolar disorder, possible silent anterior myocardial infarction, heavy alcohol use, chronic back pain, and coronary artery disease with a prior right coronary artery stent; he takes aspirin and has no known drug allergies. Physical exam revealed clear lungs, regular heart rhythm without murmurs, and well-perfused extremities. Cardiac catheterization was positive for significant coronary disease, and he was referred for coronary artery bypass grafting (CABG). He underwent CABG with grafts to the LAD, ramus, and OM arteries and had an uncomplicated postoperative course except for a persistent chest tube air leak and a small, stable pneumothorax after chest tube removal. The pneumothorax improved with supplemental oxygen, and he was advanced to a regular diet and followed by physical therapy. The patient was stable at discharge.
+The patient is a 69-year-old male presenting for cardiac catheterization due to a history of exertional chest tightness. He reported no acute symptoms at presentation but had prior episodes of exertional chest discomfort. His medical history includes bipolar disorder, possible silent anterior myocardial infarction, heavy alcohol use, chronic back pain, and coronary artery disease with a previous right coronary artery stent; he has no known drug allergies and was taking aspirin. Cardiac catheterization revealed significant coronary artery disease, and he subsequently underwent a coronary artery bypass graft x2 with additional grafts to the LAD, ramus, and OM. Postoperatively, he experienced a persistent air leak and a small pneumothorax after chest tube removal, which improved with oxygen therapy. The patient was followed by physical therapy and recommended for acute rehabilitation to improve mobility. He was discharged in stable condition to an acute rehabilitation facility with instructions for follow-up and prescribed Percocet, Lasix, and Lopressor.
+
 
 ## Dialogue Summary
 
-The patient presented with chest tightness occurring during physical activity. The tightness builds up gradually with exertion, has been present for a few weeks, and is described as moderate pressure or discomfort (not pain) that resolves completely within a few minutes of rest. The patient denied associated symptoms such as shortness of breath, sweating, or lightheadedness, but noted that the tightness has made daily activities and errands more difficult and is triggered more by cold weather and walking uphill; emotional stress does not worsen symptoms. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of acute warning signs but explained that the pattern could be related to reduced oxygen delivery to the heart or lungs during exertion, or possibly musculoskeletal causes. The doctor recommended the patient avoid pushing through discomfort, continue to take it easy, and seek prompt medical attention if symptoms occur at rest or are accompanied by pain, shortness of breath, or dizziness. The patient demonstrated understanding of the recommendations.
+The patient is an adult presenting with chest tightness as the chief complaint. The tightness develops gradually during physical activity, such as walking or running errands, and has been present for several weeks. The sensation is described as moderate pressure or discomfort (not pain), is not associated with dyspnea, sweating, or lightheadedness, and resolves completely within a few minutes of rest. The symptoms are exacerbated by cold weather and walking uphill but are not triggered by emotional stress. The chest tightness has caused the patient to slow down daily activities and occasionally stop to rest. Relevant medical history, medications, and allergies were not specified. The clinical impression discussed includes possible exertional cardiac or musculoskeletal causes, though no definitive diagnosis was documented. The treatment plan includes advice to avoid pushing through discomfort, take it easy, and seek prompt medical attention if symptoms occur at rest or are accompanied by pain, shortness of breath, or dizziness.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.515
+- **Model Used**: general
+- **Text1 Length**: 153 words
+- **Text2 Length**: 154 words
+
 
 ## Processing Information
 

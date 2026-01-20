@@ -53,16 +53,21 @@
 
 ## EHR Summary
 
-The patient is a 53-year-old female presenting for evaluation of cerebral aneurysms discovered during follow-up imaging for multiple sclerosis. She was asymptomatic regarding the aneurysms, which were identified as an 8-mm aneurysm at the internal communicating artery and a 4.5-mm aneurysm at the left middle cerebral artery bifurcation on cerebral angiogram. Her past medical history includes multiple sclerosis affecting the left leg and arm, migraine headaches, borderline hypertension, hypercholesterolemia, and frequent bronchitis. She has allergies to Decadron, tetracycline, penicillin, and Keflex, and a significant 60-pack-year smoking history. On admission, physical examination revealed normal vital signs and general findings, with neurologic deficits including decreased strength in the left upper extremity and no strength in the left lower extremity, consistent with her known multiple sclerosis. The documented diagnosis was cerebral aneurysms in the context of multiple sclerosis. The treatment plan is not specified in the note.
+The patient is a 53-year-old female presenting for evaluation and management of cerebral aneurysms discovered during follow-up imaging for multiple sclerosis. She was found to have an 8-mm aneurysm at the internal communicating artery and a 4.5-mm aneurysm at the left middle cerebral artery bifurcation, with no acute neurological symptoms documented at admission. Her medical history includes multiple sclerosis affecting the left leg and arm, migraine headaches, borderline hypertension, hypercholesterolemia, and frequent bronchitis; she has allergies to Decadron, tetracycline, penicillin, and Keflex. The documented diagnoses were aneurysm of the internal communicating artery and aneurysm of the left middle cerebral artery bifurcation. She underwent craniotomy with clipping of both aneurysms, followed by postoperative monitoring and correction of low potassium and magnesium levels. Postoperative angiogram confirmed successful clipping with no residual aneurysmal filling. At discharge on postoperative day four, she was stable and sent home with instructions to follow up in one month. Discharge medications included Percocet as needed for pain and Colace as needed for constipation.
+
 
 ## Dialogue Summary
 
-The patient presented with concern regarding a flow void noted on the internal communicating artery during an MRI follow-up for multiple sclerosis. The patient reported new weakness in the left arm and leg, which has made daily tasks more difficult than usual. No additional symptoms, triggers, or relieving factors were discussed. The patient's history includes multiple sclerosis; no medications or allergies were mentioned. No physical examination findings were provided in the dialogue. The doctor inquired specifically about new weakness or difficulties using the left arm or leg but did not provide an assessment or diagnosis. No treatment plan, advice, or recommendations were given during the conversation.
+The patient is being seen for follow-up after an MRI for multiple sclerosis revealed a flow void on the internal communicating artery. The chief complaint is concern regarding this MRI finding. The patient reports new-onset weakness in the left arm and leg, which has been interfering with daily activities. No additional symptom characteristics, such as severity or duration, are specified. The relevant history includes a diagnosis of multiple sclerosis. There is no documented clinical impression or new diagnosis provided in the dialogue. No specific treatment plan or recommendations are mentioned in the conversation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.579
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 93 words
+
 
 ## Processing Information
 

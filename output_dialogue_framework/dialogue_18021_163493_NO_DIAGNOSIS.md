@@ -87,16 +87,21 @@ Let me know if you have any questions or concerns about what we've discussed.
 
 ## EHR Summary
 
-The patient is a 68-year-old male presenting with melena and lightheadedness. He reported awakening with lightheadedness and dyspnea, followed by a melanotic bowel movement; he denied chest pain, abdominal pain, nausea, vomiting, hemoptysis, hematemesis, or hematuria. His past medical history includes dyslipidemia and a previous gastric ulcer, and he has been taking naprosyn for shoulder pain. On exam, vital signs were notable for BP 152/49 and HR 96; abdominal exam was benign, and stools were trace hemoccult positive. Laboratory evaluation showed a hematocrit of 30, and nasogastric lavage returned blood-tinged fluid that cleared after 750 cc. The documented diagnosis was gastrointestinal bleeding, likely related to peptic ulcer disease. Treatment included initiation of intravenous proton pump inhibitor (PPI) therapy and admission for endoscopic evaluation (EGD).
+The patient is a 68-year-old male presenting with melena, lightheadedness, and shortness of breath. He reported awakening with lightheadedness and dyspnea, followed by a melanotic bowel movement; he denied chest pain, abdominal pain, nausea, vomiting, hemoptysis, hematemesis, or hematuria. His past medical history includes dyslipidemia and a remote history of gastric ulcer, and he had been taking naprosyn for shoulder pain. On admission, laboratory studies showed anemia (hematocrit as low as 24.4), and nasogastric lavage returned blood-tinged fluid. The documented diagnoses were duodenal ulcer with bleeding and blood loss anemia. He was treated with intravenous proton pump inhibitor (PPI), received two units of packed red blood cells, and underwent EGD which revealed a non-bleeding duodenal ulcer and erosions. At discharge, his hematocrit was stable, he was tolerating food, and he was prescribed oral pantoprazole with instructions to avoid NSAIDs. He was advised to follow up with his physician within 1–16 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with black stools noted over the past two to three days. They reported associated symptoms of lightheadedness and increased shortness of breath, which began around the same time as the stool color change and have remained stable without improvement or worsening. The patient denied abdominal pain, nausea, or changes in appetite, and stated these symptoms are making it harder to perform usual activities, requiring more rest. This is the first episode of black stools, and the patient is currently taking Atorvastatin and Naprosyn, with no use of iron tablets or aspirin. On assessment, the doctor explained that black stools can indicate upper gastrointestinal bleeding, especially given the concurrent symptoms of lightheadedness and shortness of breath, which may suggest low blood levels possibly related to slow bleeding; Naprosyn was noted as a potential contributing factor due to its gastric irritation risk. The doctor recommended contacting the healthcare provider soon for further evaluation, including possible blood tests and examination of the digestive tract. The patient was also advised to seek immediate medical attention if symptoms worsen (such as fainting, rapid heartbeat, severe weakness, or presence of fresh blood in stool or vomit).
+The patient is an adult presenting with black stools as the chief complaint. Over the past two to three days, the patient has also experienced lightheadedness and increased shortness of breath, which have made it harder to perform usual activities and have required more rest. The symptoms have remained stable without improvement or worsening, and there is no abdominal pain, nausea, or change in appetite. This is the first occurrence of black stools for the patient. Relevant history includes current use of Atorvastatin and Naprosyn (naproxen), with no use of iron tablets or aspirin. The clinical impression discussed was possible upper gastrointestinal bleeding, potentially related to Naprosyn use. The doctor recommended prompt follow-up with a healthcare provider for further evaluation, including blood counts and possible gastrointestinal investigation. The patient was also advised to seek immediate medical attention if symptoms worsen or if there is evidence of fresh blood in stool or vomit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
+- **STS Score**: 0.666
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

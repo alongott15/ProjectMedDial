@@ -97,16 +97,23 @@ Let me reassure you that everything you’ve described fits with good overall he
 
 ## EHR Summary
 
-The patient is a 71-year-old man presenting for carotid catheterization due to severe right internal carotid artery (ICA) stenosis. He reported no vision changes, paresthesias, chest pain, shortness of breath, dizziness, nausea, vomiting, or focal neurological symptoms. His medical history includes hypercholesterolemia, peripheral vascular disease, and prior mastoid surgery; he denied hypertension, coronary artery disease, transient ischemic attack, or cerebrovascular accident. Home medications included aspirin, Plavix, lorazepam, Lipitor, vitamin C, vitamin E, and DHEA. Carotid ultrasound and MR imaging showed 80-99% right ICA occlusion and a 95% right ICA lesion, respectively. On admission, a stent was placed in the right ICA with 20% residual stenosis. The documented diagnosis was severe right ICA stenosis. The treatment plan included carotid stenting and monitoring in the coronary care unit.
+The patient is a 71-year-old man presenting for elective right internal carotid artery stent placement due to severe carotid artery disease. He reported no symptoms such as vision changes, paresthesias, chest pain, dyspnea, dizziness, nausea, vomiting, or neurological deficits before or after the procedure. His relevant history includes hypercholesterolemia, peripheral vascular disease, and prior mastoid surgery; he is on aspirin, Plavix, and Lipitor at home. The documented diagnosis was severe right internal carotid artery stenosis (95%) treated with stent placement, resulting in 20% residual stenosis. During hospitalization, he remained neurologically intact and hemodynamically stable, with no evidence of post-procedure complications. Treatment included continuation of aspirin and Plavix for nine months, Lipitor, and blood pressure monitoring with a target systolic range of 140-170 mmHg for the first postoperative week. He was discharged in stable condition with instructions for follow-up in two weeks to monitor blood pressure and stent status.
+
 
 ## Dialogue Summary
 
-The patient presented for a routine check-in without any specific symptoms or complaints. They reported no changes in energy levels, sleep, appetite, walking, balance, aches or pains, headaches, coughs, urination, bowel habits, mood, or memory; all aspects of their health have remained stable. The patient stated that their medications have not changed and that they have not had recent check-ups or lab work. They are keeping up with regular activities and hobbies and confirmed receipt of the annual flu shot and other recommended vaccinations. No abnormal clinical findings were noted or described during the visit. The doctor assessed that the patient's overall health is stable, with no new symptoms or concerns, and that preventive care is up to date. The doctor recommended continuing current routines, staying active and socially engaged, and monitoring for any new symptoms such as persistent fatigue or unexpected pain. The patient was advised to reach out if any changes occur and to maintain regular check-ups as appropriate.
+The patient presented for a routine check-in without any specific chief complaint or new symptoms. They reported no changes in energy, sleep, appetite, mood, memory, mobility, or daily comfort, and denied headaches, cough, or changes in urination or bowel habits. The patient has not had recent check-ups or lab work and is continuing their previous medications without changes; they are up to date on vaccinations, including the annual flu shot. There is no mention of allergies or other pertinent medical history in this dialogue.
+
+The clinical assessment was that the patient's overall health is stable with no new concerns. The treatment plan focused on maintaining current healthy routines, staying active and socially engaged, keeping up with preventive care, and monitoring for any new or unusual symptoms. The doctor advised reaching out promptly if any new symptoms arise and recommended continuing regular check-ups as appropriate. No additional interventions or changes were recommended at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.922
-- **Similarity Label**: N/A
+- **STS Score**: 0.195
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 154 words
+
 
 ## Processing Information
 

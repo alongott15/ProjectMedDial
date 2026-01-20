@@ -87,16 +87,21 @@ Let’s plan to check your blood pressure and possibly run some routine blood wo
 
 ## EHR Summary
 
-The patient is a 74-year-old male admitted postoperatively following direct admission to the operating room after recent cardiac catheterization. He reported several months of exertional dyspnea and leg cramps, without chest pain, nausea, vomiting, diuresis, or syncope. His history is significant for coronary artery disease (CAD) with prior myocardial infarction, percutaneous transluminal coronary angioplasty (PTCA), stenting, left bundle branch block, COPD, hyperlipidemia, and type 2 diabetes mellitus; he is allergic to the tetanus vaccine. Recent stress echocardiogram showed an ejection fraction (EF) of 25% with anterior septal akinesis and ischemia, and cardiac catheterization revealed three-vessel disease with complex lesions and an EF of 30%. On admission, vital signs were stable with O2 saturation at 96% on room air. The documented diagnosis is severe multi-vessel coronary artery disease with reduced ejection fraction. Treatment prior to admission included multiple cardiac and diabetes medications; details of postoperative management are not specified in the note.
+The patient is a 74-year-old man admitted postoperatively following coronary artery bypass grafting (CABG) for severe coronary artery disease (CAD). He reported several months of exertional dyspnea and leg cramps prior to surgery, with no chest pain, nausea, vomiting, syncope, or diuresis. His cardiac history includes prior myocardial infarction, percutaneous interventions, and recent studies showing reduced ejection fraction (25–30%) and three-vessel disease. Past medical history is significant for CAD, left bundle branch block, COPD, hyperlipidemia, and type 2 diabetes mellitus; he has a documented allergy to tetanus vaccine. The primary diagnosis was CAD status post CABG times five, with additional diagnoses of COPD, hypercholesterolemia, diabetes mellitus type 2, and left bundle branch block. Postoperative recovery was uneventful, with stable hemodynamics and gradual advancement of activity. Discharge plan included home care with visiting nurses, follow-up appointments, and a regimen of medications including aspirin, statin, beta-blocker, ACE inhibitor, diuretic, amiodarone, and diabetes management.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath during activity. Symptoms included gradually worsening breathlessness over the past couple of weeks, leg swelling that increases later in the day and improves with rest, daytime leg cramps, and a recent dark spot (bruising) on the left leg; no cough or chest discomfort was reported. The patient noted that these symptoms have made daily activities more difficult and that both breathing and swelling have worsened recently. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted gradual onset of exertional dyspnea, dependent leg edema with cramping, and localized bruising. The doctor assessed that these symptoms may be related to heart or circulatory function, possibly due to inefficient cardiac pumping leading to fluid accumulation. The treatment plan included elevating the legs when sitting, avoiding prolonged standing, monitoring for rapid changes (such as sudden worsening of swelling, new chest pain, or severe shortness of breath at rest), and seeking prompt care if these occur. The doctor also recommended checking blood pressure and considering routine blood work to further evaluate heart and circulation status.
+The patient presents with the chief complaint of exertional shortness of breath. Over the past couple of weeks, the patient has experienced gradually worsening dyspnea with activity, bilateral leg swelling that worsens throughout the day and improves with rest, and daytime leg cramps; there is also a recent report of a dark spot (bruising) on the left leg. The symptoms have made daily activities more difficult, limiting the patient's ability to walk around the house and run errands. There is no cough or chest discomfort reported. Relevant history, medications, and allergies are not specified in the dialogue. The clinical impression is that these symptoms may be related to decreased cardiac function or circulatory issues, though no definitive diagnosis is documented. The treatment plan includes elevating the legs when sitting, avoiding prolonged standing, monitoring for rapid changes such as sudden worsening of swelling or severe dyspnea, and scheduling blood pressure measurement and routine blood work for further evaluation. The patient was advised to seek prompt care if acute symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.471
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

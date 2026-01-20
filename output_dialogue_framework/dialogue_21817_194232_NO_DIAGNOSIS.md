@@ -87,16 +87,23 @@ Has the swelling or mouth dryness been getting better, worse, or staying about t
 
 ## EHR Summary
 
-The patient is a 71-year-old female presenting with dyspnea on exertion and shortness of breath. She reported increased lower extremity swelling and orthopnea since 10-15, and was found to be hypoxic in the Emergency Department with an oxygen saturation of 87% on 6 liters of oxygen. She denied fevers, chills, chest pain, or gastrointestinal bleeding. Her relevant history includes methicillin resistant Staphylococcus aureus pneumonia, bilateral pneumonia with chest tube placement and decortication, congestive heart failure with an ejection fraction of 40% and wall motion abnormalities, chronic obstructive pulmonary disease, C. difficile infection, gastrointestinal bleed, and acute renal failure. On exam, she was hypoxic and had lower extremity edema. The documented clinical impression suggests an exacerbation of congestive heart failure and/or underlying pulmonary disease. Treatment details are not specified in the provided note.
+The patient is a 71-year-old female presenting with dyspnea on exertion, shortness of breath, hypoxia, and lower extremity swelling. Symptoms began on 10-15 and included orthopnea, with no fevers, chills, chest pain, or gastrointestinal bleeding; oxygen saturation was 87% on 6 liters of oxygen in the Emergency Department. Her history is significant for congestive heart failure (ejection fraction 40%), chronic obstructive pulmonary disease, prior MRSA pneumonia, bilateral pneumonia with empyema and chest tubes, C. difficile, peptic ulcer disease, and acute renal failure. On admission, she was found to have a large left pleural effusion (transudative), a small left apical pneumothorax, and acute on chronic renal failure. The documented diagnoses were acute decompensated congestive heart failure with volume overload and pleural effusion, stable COPD, and acute on chronic renal failure. Treatment included thoracentesis, BiPAP, intravenous then oral diuresis (Lasix), continuation of ACE inhibitor and aspirin, initiation then discontinuation of digoxin, and adjustment of insulin regimen for diabetes management. She was discharged on a low sodium, low fat, low sugar diet with fluid restriction, daily weights, and medications including Lasix, captopril, albuterol/Atrovent inhalers, NPH insulin, aspirin, Lipitor, Synthroid, and Protonix. Follow-up instructions included TSH recheck in 3–4 weeks and outpatient workup of adrenal masses.
+
 
 ## Dialogue Summary
 
-The patient presented with mild dry mouth persisting for at least several days. The dryness has been steady throughout the day, without associated trouble swallowing, changes in taste, or mouth sores, and fluid intake has remained unchanged. Additionally, the patient reported gradual swelling of both thighs and quieter breath sounds at the bases, but denied new cough, increased fatigue, or worsening shortness of breath. No relevant medical history, medications, or allergies were mentioned during the visit. On examination, the doctor noted mild, steady dry mouth and gradual thigh swelling, with quieter breath sounds at the bases. The assessment included possible causes for dry mouth such as medication side effects, mild dehydration, or age-related changes, and suggested that the swelling and breath sounds could relate to circulation or fluid balance issues. The doctor recommended monitoring for new symptoms (increasing swelling, shortness of breath, chest discomfort, or worsening dry mouth), maintaining hydration, and reviewing medications if needed. The patient reported that both symptoms had remained stable over the past few days.
+The patient presents with the chief complaint of mild dry mouth persisting for at least several days. The dryness is steady throughout the day, without associated symptoms such as trouble swallowing, mouth sores, or changes in taste, and fluid intake has remained unchanged. The patient also reports gradual swelling of both thighs and notes quieter breath sounds at the lung bases, but denies new cough, increased fatigue, or worsening dyspnea. There is no documented relevant medical history, medications, or allergies in the dialogue.
+
+The clinical impression suggests mild dry mouth possibly related to medication side effects, mild dehydration, or age-related changes, and gradual thigh swelling potentially linked to circulation or fluid balance issues; mild fluid buildup is considered due to quieter breath sounds. No definitive diagnosis is documented. The treatment plan includes monitoring for new or worsening symptoms (such as increased swelling, shortness of breath, chest discomfort, or worsening dry mouth), maintaining hydration, and reviewing medications with a healthcare provider if needed. The patient is advised to seek further evaluation if symptoms progress.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.358
+- **Model Used**: general
+- **Text1 Length**: 202 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

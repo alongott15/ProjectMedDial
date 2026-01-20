@@ -94,16 +94,21 @@ Most headaches of this type improve with time as you recover. If you notice any 
 
 ## EHR Summary
 
-The patient is a 44-year-old female presenting with persistent postoperative headache localized to the left side of the head following a hysterectomy. The headache prompted outpatient evaluation and subsequent admission for further work-up. Her past medical history includes fibroids (status post hysterectomy), prior appendectomy, and benign breast cyst removal; she has no medication allergies and was taking Lipitor and Fioricet for headaches. Physical examination was unremarkable, with normal vision and cranial nerve function. MRI revealed an enhancing mass in the sella, consistent with an adenoma. The documented diagnosis was sellar adenoma. She underwent a transnasal, trans-sphenoidal surgical removal of the lesion, which she tolerated well, and was stable postoperatively.
+The patient is a 44-year-old female presenting with a persistent postoperative headache localized to the left side of the head following a hysterectomy. The headache prompted outpatient evaluation and subsequent admission for further work-up, during which MRI revealed an enhancing mass in the sella consistent with an adenoma. Her past medical history includes fibroids (status post hysterectomy), prior appendectomy, and benign breast cyst removal; she has no medication allergies and was taking Lipitor and Fioricet for headaches. On examination, she was well-appearing with unremarkable general and neurological findings, including full visual fields and normal facial function. The documented diagnosis was a sellar mass consistent with an adenoma. She underwent transnasal, trans-sphenoidal surgical removal of the lesion, tolerated the procedure well, and had an unremarkable postoperative course. At discharge, her condition was stable and improved, with follow-up arranged for neurosurgery, ENT, and endocrine services; pathology results were pending at discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with a persistent dull ache on the left side of the head following recent surgery. The headache has been ongoing since the procedure, rated at 5–6 out of 10 in severity, and is not associated with vision changes, nausea, fever, redness, swelling, or other new symptoms; energy, sleep, and mood have remained normal. The patient reported that Fioricet provides some relief, but no specific triggers or aggravating factors were identified, and this type of headache is new since surgery. No concerning physical findings or neurological symptoms were described. The doctor assessed the headache as likely tension-type, related to muscle tension, stress, or routine changes post-surgery, and found the absence of warning signs reassuring. Recommendations included gentle neck and shoulder stretches, cool or warm compresses, relaxation techniques such as deep breathing or mindfulness meditation, staying hydrated, maintaining regular meals, and taking breaks from screens. The doctor advised monitoring for new or worsening symptoms and offered to provide more details on non-medication strategies for headache relief.
+The patient is an adult presenting with a chief complaint of a persistent dull ache on the left side of the head following recent surgery. The headache has been ongoing since the procedure, is rated 5–6 out of 10 in severity, and is not associated with vision changes, nausea, fever, redness, swelling, or other new symptoms. The patient reports no prior history of similar headaches and notes that energy, sleep, and mood have remained normal postoperatively. Fioricet provides some relief, but no specific triggers or alleviating factors aside from this medication have been identified. The clinical impression is that the headache is likely tension-type, related to muscle tension, stress, or changes in routine after surgery. The treatment plan includes reassurance, monitoring for new or worsening symptoms, and recommendations for non-medication strategies such as gentle stretching, hydration, relaxation techniques (deep breathing or mindfulness meditation), and use of compresses. The patient expressed interest in learning more about these non-pharmacological approaches.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.523
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 158 words
+
 
 ## Processing Information
 

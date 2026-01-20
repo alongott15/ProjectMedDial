@@ -87,16 +87,23 @@ If you notice any chest pain, severe confusion, seizures, or if your hallucinati
 
 ## EHR Summary
 
-The patient is a 45-year-old male presenting with alcohol and opioid withdrawal. He reported full body pain, visual hallucinations, agitation, goosebumps, diarrhea, and abdominal pain, but denied chest pain, shortness of breath, nausea, or vomiting; his last alcohol intake was on Monday at 8am. His past medical history includes alcoholism, IV drug abuse, GERD, hiatal hernia, and hemorrhoids, with no known drug allergies. On admission, he was tachycardic (P 116), hypertensive (BP 161/102), and agitated with visual hallucinations; later physical exam showed somnolence after diazepam administration and clear lungs. The documented diagnosis was alcohol and opioid withdrawal. Treatment included administration of diazepam (valium) both orally and intravenously, methadone for opioid withdrawal, and intravenous normal saline for hydration. No major surgical or invasive procedures were performed during admission.
+The patient is a 45-year-old male presenting with alcohol and opioid withdrawal. He experienced agitation, tachycardia (heart rate up to 120s), hypertension (systolic up to 200), mild fever (maximum 99.2°F), visual hallucinations, full body pain, diarrhea, abdominal pain, and goosebumps; he denied chest pain, dyspnea, nausea, or vomiting. His past medical history includes alcoholism, intravenous drug use, GERD, hiatal hernia, and hemorrhoids, with no known drug allergies. On examination, he was initially alert but became somnolent after diazepam administration; vital signs stabilized during hospitalization. The documented diagnoses were alcohol withdrawal (with delirium tremens and alcoholic hallucinosis), opioid withdrawal, and likely obstructive sleep apnea. Treatment included diazepam per CIWA protocol (total 230 mg in first 24 hours), methadone taper for opioid withdrawal, clonidine for withdrawal symptoms, supportive medications (thiamine, folate, multivitamin, ibuprofen, hydroxyzine, dicyclomine, loperamide, methocarbamol), nicotine patch for tobacco use, and continuation of pantoprazole for GERD. The patient was medically stabilized and discharged to an extended care facility to continue detox treatment. He was instructed to follow up with his primary care provider after completing detox.
+
 
 ## Dialogue Summary
 
-The patient presented with discomfort related to withdrawal from alcohol and opioids, primarily reporting persistent full body pain. Symptoms included generalized pain for several days, abdominal pain, increased agitation, mild visual hallucinations, racing heart, sensations of elevated blood pressure, difficulty focusing, sleep disruption with frequent awakenings and apneic episodes, goosepimples, diarrhea, and a mild fever; the patient denied nausea, vomiting, or unusual sweating. No specific medical history, medications, or allergies were mentioned. The patient described significant interference with daily activities due to agitation, sleep loss, and hallucinations. The doctor assessed that the withdrawal symptoms were severe, noting that agitation, sleep disruption, body pain, diarrhea, mild fever, and hallucinations indicated substantial physiological and psychological stress. The doctor recommended maintaining a calm environment, staying hydrated, and attempting rest, but emphasized that hallucinations and sleep disruption warranted prompt contact with a healthcare provider for possible supervised care. The patient was advised to seek immediate medical attention if chest pain, severe confusion, seizures, or worsening hallucinations occurred and expressed interest in learning about support or supervised care options.
+The patient is an adult presenting with withdrawal symptoms related to recent cessation of alcohol and opioid use. Key symptoms include persistent full body pain, abdominal pain, agitation, mild visual hallucinations, tachycardia (racing heart), sensations of elevated blood pressure, sleep disruption with apneic episodes, diarrhea, and a mild fever. The patient denies nausea, vomiting, or unusual sweating but reports goosepimples and difficulty focusing on daily activities. Relevant history includes recent alcohol and opioid use; no specific medications or allergies are mentioned.
+
+The clinical impression is significant alcohol and opioid withdrawal, with both physical and neuropsychiatric manifestations (notably hallucinations and sleep disturbance). The doctor advised supportive measures such as maintaining a calm environment, staying hydrated, and attempting rest, but emphasized that the presence of hallucinations and severe sleep disruption may warrant supervised medical care. The patient was counseled to seek immediate medical attention if symptoms escalate to chest pain, severe confusion, seizures, or worsening hallucinations. Options for additional support or supervised withdrawal management were offered for further discussion.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.977
-- **Similarity Label**: N/A
+- **STS Score**: 0.764
+- **Model Used**: general
+- **Text1 Length**: 176 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

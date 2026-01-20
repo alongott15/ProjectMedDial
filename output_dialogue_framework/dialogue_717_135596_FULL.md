@@ -87,16 +87,21 @@ Let me know if you have any questions or if anything changes.
 
 ## EHR Summary
 
-The patient is a 77-year-old female presenting with mild angina. She reported chest discomfort discovered during pre-operative evaluation for total knee replacement, with subsequent stress testing and cardiac catheterization revealing significant coronary artery disease (LAD 80%, LCx 95%, RCA 50% occlusion). Her past medical history includes atrial fibrillation, hypertension, hyperlipidemia, osteoarthritis, rheumatoid arthritis, and macular degeneration; she has no known drug allergies. On discharge, physical exam showed stable vital signs, bilateral basal lung crackles, regular heart rhythm, mild lower extremity edema, and clean surgical incisions. Laboratory results revealed mild anemia (Hgb 8.4 g/dL) and mild hyponatremia (Na 131 mmol/L). The documented diagnosis was severe multi-vessel coronary artery disease. She underwent coronary artery bypass grafting (CABG) x4 on hospital day 2. The treatment plan included post-operative monitoring and standard care following CABG.
+The patient is a 77-year-old female presenting with mild angina. She reported chest discomfort discovered during pre-operative evaluation for knee replacement, with subsequent cardiac catheterization revealing significant coronary artery disease (LAD 80%, LCx 95%, RCA 50% occlusion). Her past medical history includes atrial fibrillation, hypertension, hyperlipidemia, osteoarthritis, rheumatoid arthritis, and macular degeneration; she has no known drug allergies. The documented diagnoses were coronary artery disease status post coronary artery bypass grafting (CABG) x 4, atrial fibrillation, osteoarthritis, and rheumatoid arthritis. During her hospital course, she underwent CABG x 4 and experienced post-operative atrial fibrillation managed with beta blockers, magnesium, and amiodarone, as well as lower extremity edema treated with IV furosemide. On discharge, she was stable and prescribed furosemide, metoprolol, amiodarone, aspirin, potassium chloride, docusate sodium, oxycodone-acetaminophen as needed for pain, and zolpidem as needed for sleep. She was advised to avoid heavy lifting and swimming, keep incisions clean, and follow up with her cardiothoracic surgeon and primary care physician. Discharge disposition was to an extended care facility for rehabilitation.
+
 
 ## Dialogue Summary
 
-The patient presented with mild chest discomfort. The discomfort is described as not very painful but noticeable, especially during physical activity such as walking or running errands, and it builds up gradually with exertion but resolves with rest. The patient also reported swelling in the lower legs and ankles, which worsens by the end of the day, and occasional nausea associated with the chest discomfort; no shortness of breath, sweating, or lightheadedness was noted. Relevant history includes atrial fibrillation, high blood pressure, and high cholesterol; no diabetes was reported. On clinical review, the doctor noted the activity-related chest discomfort and peripheral edema without severe symptoms at rest. The assessment was that these symptoms may be related to the heart not pumping efficiently, possibly due to underlying cardiac conditions. The doctor advised the patient to reduce activities that trigger discomfort, elevate the legs when sitting to help with swelling, continue usual medications, and follow up with their primary care provider for further evaluation. The patient was instructed to seek prompt medical attention if symptoms worsen or new symptoms develop.
+The patient is an adult with a chief complaint of mild chest discomfort. The discomfort is described as mild, worsens with physical activity such as walking or running errands, builds up gradually, and resolves with rest; it has been present for at least a couple of weeks. Associated symptoms include swelling in the lower legs and ankles that worsens by the end of the day, and occasional nausea during episodes of chest discomfort; there is no shortness of breath, sweating, or lightheadedness. Relevant medical history includes atrial fibrillation, hypertension, and hypercholesterolemia. The clinical impression is that the symptoms may be related to decreased cardiac efficiency, possibly leading to mild fluid retention and exertional discomfort, in the context of the patient’s cardiac history. The treatment plan includes reducing activity levels that provoke symptoms, elevating the legs when sitting to help with swelling, continuing current medications, and following up with the primary care provider for further evaluation or possible medication adjustment. The patient was advised to seek prompt medical attention if symptoms worsen or new symptoms such as chest pain at rest or sudden shortness of breath develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.504
+- **Model Used**: general
+- **Text1 Length**: 170 words
+- **Text2 Length**: 186 words
+
 
 ## Processing Information
 

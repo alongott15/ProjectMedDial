@@ -87,16 +87,21 @@ Let me know if you have any questions or concerns about what we've talked throug
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with chest pain as the chief complaint. He reported a history of angina symptoms for many years, with recent worsening over the past year, including increased chest pain and shortness of breath, particularly during exertion such as golfing and exercise. His relevant history includes coronary artery disease status post myocardial infarction and angioplasty in 2155, hypercholesterolemia, hypertension, gastroesophageal reflux disease, benign prostatic hypertrophy, and Dupuytren contractures; he is allergic to contrast dye and takes Lipitor, Cardizem, aspirin, Flomax, Ambien, and Ativan. On physical examination, his blood pressure was 150/90 mmHg and heart rate 50 bpm, with otherwise unremarkable findings. Myocardial infarction was ruled out by cardiac enzymes and electrocardiogram during this admission. The clinical impression was recurrent angina without evidence of acute myocardial infarction. The treatment plan included ongoing medical management and evaluation in the catheterization lab for possible angioplasty.
+The patient is a 62-year-old male presenting with increased angina symptoms and shortness of breath over the past year, with recent episodes of left-sided chest pain radiating to the shoulder and arm. Symptoms were triggered by physical activity, including golfing and exercising, and resolved spontaneously after several minutes. His relevant history includes coronary artery disease status post myocardial infarction and angioplasty in 2155, hypertension, hypercholesterolemia, gastroesophageal reflux disease, benign prostatic hypertrophy, and an allergy to contrast dye. The clinical assessment documented significant three-vessel coronary artery disease. He underwent a coronary artery bypass graft (CABG) times four without complications and recovered well postoperatively. Discharge medications included Lasix, potassium chloride, aspirin, Lipitor, Flomax, Lopressor, Niferex, and Percocet as needed. The patient was discharged home in good and stable condition with instructions to follow up in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. Symptoms included chest tightness and pressure rated at 6–7/10 intensity, worsened by physical activity such as walking up stairs or carrying groceries, and accompanied by shortness of breath; the pain sometimes radiated to the left shoulder and arm. Episodes had been present for at least several days, came on gradually with exertion, and improved with rest; no sweating, nausea, or lightheadedness were reported. Relevant history included coronary artery disease, high blood pressure, and high cholesterol. The doctor noted that the symptoms were typical of angina given the patient’s cardiac history. The doctor advised avoiding strenuous activity until follow-up with a cardiologist or primary doctor and emphasized monitoring for worsening symptoms or new warning signs (pain at rest, sweating, nausea, lightheadedness). The patient acknowledged understanding of the recommendations and agreed to seek medical attention if symptoms changed.
+The patient is an adult with a history of coronary artery disease, hypertension, and hyperlipidemia presenting with chest pain as the chief complaint. The chest pain is described as a tightness or pressure, rated 6–7 out of 10 in intensity, that develops gradually with physical activity and is accompanied by shortness of breath; it sometimes radiates to the left shoulder and arm. Symptoms have been present for several days, are not worsening, and are relieved by rest; there is no associated sweating, nausea, or lightheadedness. The documented clinical impression is angina, given the symptom pattern and relevant cardiac history. The physician advised the patient to avoid strenuous activity until further evaluation by a cardiologist or primary doctor. The patient was instructed to seek prompt medical attention if symptoms become severe, occur at rest, or are accompanied by warning signs such as sweating, nausea, or lightheadedness. No new medications or interventions were initiated during this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.969
-- **Similarity Label**: N/A
+- **STS Score**: 0.560
+- **Model Used**: general
+- **Text1 Length**: 137 words
+- **Text2 Length**: 155 words
+
 
 ## Processing Information
 

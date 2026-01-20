@@ -87,16 +87,23 @@ If you notice new symptoms like severe or sudden chest pain, trouble breathing, 
 
 ## EHR Summary
 
-The patient is a 46-year-old male presenting with angina at rest and with exertion for the past year. His symptoms initially improved after percutaneous coronary intervention (PCI) to the left anterior descending artery (LAD) but recurred a couple of weeks prior to admission. He underwent exercise treadmill testing with ST depression and cardiac catheterization revealing 90% restenosis at the origin of the LAD and a 50% lesion at the origin of the diagonal artery. Relevant history includes HIV positivity, hypercholesterolemia, treated syphilis, xerosis, lipodystrophy, erosive arthritis of the left wrist, prior right inguinal herniorrhaphy, HSV exposure, and anxiety; he has no known drug allergies. On [2108-11-13], he underwent two-vessel coronary artery bypass grafting (CABG) with a left internal mammary artery graft to the LAD and a vein graft to the diagonal artery. The documented diagnosis was recurrent angina due to significant coronary artery disease with restenosis. The treatment plan included surgical revascularization via CABG.
+The patient is a 46-year-old male presenting with angina at rest and with exertion for the past year. His symptoms initially improved after PCI to the LAD but recurred a couple of weeks prior to admission, with recent testing revealing significant restenosis. Relevant history includes HIV positivity, hypercholesterolemia, prior syphilis (treated), hypertension, HSV, and prior right inguinal herniorrhaphy; he has no known drug allergies. The documented diagnosis was status post two-vessel coronary artery bypass grafting (CABG x2), prior LAD PCI, HIV+, hypertension, elevated cholesterol, HSV, and prior syphilis. He underwent successful two-vessel CABG without complications and was medically optimized during his hospital stay. Discharge medications included aspirin, pravastatin, Atripla, pantoprazole, docusate sodium, and hydromorphone as needed for pain. He was discharged home in stable condition with instructions for incision care, activity restrictions, and follow-up appointments with cardiology and infectious disease.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain occurring both at rest and during activity. The chest discomfort has persisted for about a year, builds up gradually, and limits the patient's physical activities; the pain is rated as 6 out of 10 at its worst but is not accompanied by shortness of breath, sweating, or lightheadedness. The patient also reported gradually worsening pain and stiffness in the left wrist, resulting in limited movement and difficulty with exercise or lifting. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the chest symptoms are concerning due to their duration and impact on activity, and could be related to cardiac, musculoskeletal, or anxiety causes; the wrist symptoms may indicate an underlying joint problem such as arthritis or bone changes. The doctor advised avoiding activities that worsen symptoms, using ice or over-the-counter pain relief for the wrist if safe, and scheduling a thorough evaluation for both issues. The patient was instructed to seek immediate care if new severe chest pain, breathing difficulty, or faintness develops, and otherwise to arrange follow-up for further assessment.
+The patient presents with a chief complaint of chest pain occurring both at rest and during activity. The chest pain has been ongoing for approximately one year, is described as gradually building up, limits physical activity, and is rated as 6 out of 10 in intensity at its worst; there are no associated symptoms such as dyspnea, sweating, or lightheadedness. Additionally, the patient reports gradual onset of left wrist pain and stiffness, resulting in limited movement and difficulty with activities such as working out or lifting heavy objects. No relevant medical history, medications, or allergies were specified.
+
+The clinical impression is that the chest discomfort may be related to cardiac, musculoskeletal, or anxiety-related causes, and the wrist symptoms may suggest an underlying joint problem such as arthritis or bone changes. The treatment plan includes avoiding activities that worsen symptoms, using ice or over-the-counter pain relief for the wrist if safe, and scheduling a thorough evaluation to rule out serious causes for the chest pain and assess the wrist. The patient was advised to seek immediate medical care if new symptoms such as severe or sudden chest pain, dyspnea, or syncope develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.331
+- **Model Used**: general
+- **Text1 Length**: 140 words
+- **Text2 Length**: 191 words
+
 
 ## Processing Information
 

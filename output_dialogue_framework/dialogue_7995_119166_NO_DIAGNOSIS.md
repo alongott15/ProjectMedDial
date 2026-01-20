@@ -87,16 +87,21 @@ For now, continue to take it easy, avoid putting too much weight on your hip, an
 
 ## EHR Summary
 
-The patient is a 74-year-old female presenting with right hip pain following a fall. She reports no loss of consciousness, preceding symptoms, head injury, chest pain, dizziness, abdominal pain, or hemoptysis; the pain began after she fell while standing at a bathroom sink. Her medical history includes chronic obstructive pulmonary disease, glaucoma, rheumatoid arthritis, osteoarthritis, hypertension, osteopenia, peripheral vascular disease status post right femoral bypass, and a remote deep venous thrombosis. Outpatient medications include Atrovent, Lasix, Colace, Plavix, metoprolol, prednisone, glaucoma eye drops, lisinopril, Protonix, nicotine patch, subcutaneous heparin (in rehabilitation), and she was on day 8 of 10 of Keflex for cellulitis. On physical examination, she was afebrile with stable vital signs and oxygen saturation of 95% on room air. The documented diagnosis is not explicitly stated in the note. Treatment details during this admission are not specified in the provided text.
+The patient is a 74-year-old woman presenting with a fall and right hip pain. She reported falling while standing at a bathroom sink, with no loss of consciousness or preceding symptoms, and subsequently developed right hip pain. Her medical history includes chronic obstructive pulmonary disease, glaucoma, rheumatoid arthritis, osteoarthritis, hypertension, osteopenia, peripheral vascular disease status post right femoral bypass, and a prior deep venous thrombosis. On examination, her right leg was shortened and externally rotated; imaging revealed a nondisplaced intertrochanteric femur fracture. The documented diagnosis was right hip fracture. She underwent open reduction and internal fixation surgery, received pain management, and was treated for anemia and acute renal failure (which resolved with IV hydration and holding Lasix), as well as an asymptomatic urinary tract infection started on ciprofloxacin. Discharge plans included rehabilitation, continuation of anticoagulation (Lovenox bridging to Coumadin), pain management with a weaning plan for OxyContin, and follow-up with orthopedics for staple removal and Coumadin management.
+
 
 ## Dialogue Summary
 
-The patient presented with right hip pain following a fall. She described the pain as aching, rated at 6/10, which worsens with walking or standing and becomes sharper with movement; it is less noticeable at rest. She reported her right foot feeling cold since the fall but denied numbness, tingling, swelling, bruising, or changes in foot color. No prior use of ice, heat, or pain medication was mentioned, and she has been resting and taking it easy. The patient also noted a history of anemia. On examination, there were no visible signs of swelling or bruising around the hip, and she could bear some weight on the leg. The doctor assessed that the symptoms likely indicate a soft tissue injury rather than a fracture but advised caution due to the cold sensation in the foot and her age. Recommendations included gentle icing for 15–20 minutes several times daily, continued rest, and optional use of acetaminophen for pain; the doctor advised monitoring for new symptoms such as increased pain, swelling, inability to bear weight, numbness, tingling, or skin color changes and to seek medical attention if these occur. The doctor also offered advice on safe movement at home during recovery.
+The patient is an adult presenting with right hip pain following a fall. The pain is rated 6/10, described as aching and worsening with weight-bearing or movement, but less noticeable at rest; there is no swelling, bruising, or color change noted in the hip area. The patient reports their right foot feels cold since the fall but denies numbness, tingling, or color changes. There is a history of anemia mentioned by the patient. The clinical impression is likely a soft tissue injury rather than a fracture, given the ability to bear some weight and absence of visible swelling or bruising, though the cold sensation in the foot warrants monitoring. The treatment plan includes rest, gentle icing for 15–20 minutes several times daily, and optional use of over-the-counter acetaminophen for pain relief. The patient is advised to avoid excessive weight-bearing and to monitor for new symptoms such as increased pain, swelling, inability to bear weight, numbness, tingling, or skin color changes, which would require prompt medical attention. Guidance on safe mobility at home was offered due to the patient's concerns about worsening symptoms and underlying anemia.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.584
+- **Model Used**: general
+- **Text1 Length**: 157 words
+- **Text2 Length**: 185 words
+
 
 ## Processing Information
 

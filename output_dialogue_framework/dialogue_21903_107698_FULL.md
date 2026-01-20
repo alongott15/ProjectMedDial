@@ -87,16 +87,21 @@ In the meantime, let’s talk about whether anything specific seems to trigger a
 
 ## EHR Summary
 
-The patient is a 74-year-old female admitted for an unspecified reason. Symptom details and chief complaint are not documented in this note. Relevant history includes management with Coumadin, with a target INR of 3.0; her INR on discharge was 2.1. No allergies or additional medical history are specified. Physical exam findings and specific diagnosis are not documented. The treatment plan includes discharge on a Coumadin dose ranging from 2 to 5 mg, with no heparin prescribed. She is advised to follow up with her physician in approximately three weeks.
+The patient is a 74-year-old female admitted for an unspecified reason. No specific symptoms or chief complaint are documented in this note. Relevant history includes management with Coumadin, with a target INR of 3.0 and a discharge INR of 2.1. The clinical impression or diagnosis is not specified in the provided text. The treatment plan includes discharge on Coumadin with a dose ranging from 2 to 5 mg, no heparin, and follow-up with her physician in approximately three weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath during physical activity, particularly when walking or climbing stairs. Symptoms have been present for a few weeks and are accompanied by discomfort in the left arm, which occurs simultaneously with the shortness of breath and resolves quickly with rest. The patient denied chest pain, sweating, lightheadedness, nausea, wheezing, coughing, or swelling in the legs or ankles, and reported that symptoms do not occur at rest or when lying down. No relevant medical history, medications, or allergies were mentioned. On clinical assessment, the doctor noted exertional shortness of breath and left arm discomfort without other associated symptoms. The doctor’s assessment was that these symptoms may be related to how the heart handles physical exertion and could be early signs of heart-related issues. The doctor recommended limiting physical activity for now, arranging a check-up soon for further evaluation, and seeking prompt medical attention if new symptoms such as chest pain, severe shortness of breath at rest, fainting, or persistent discomfort occur.
+The patient presents with exertional shortness of breath as the chief complaint. Symptoms include difficulty catching breath and left arm discomfort occurring during physical activity, such as walking or climbing stairs, with both symptoms resolving quickly with rest. The patient denies chest pain, sweating, lightheadedness, nausea, wheezing, coughing, or peripheral edema, and reports no symptoms at rest or when lying down. There is a history of mild exertional dyspnea in the past, but current symptoms are described as worse than usual. The clinical impression discussed is possible early heart-related issues due to symptoms occurring with exertion and resolving with rest. The doctor advised the patient to limit physical activity for now and recommended arranging a further check-up to investigate the symptoms. The patient was instructed to seek prompt medical attention if new symptoms develop, such as chest pain, severe shortness of breath at rest, fainting, or persistent discomfort. No medications or specific treatments were prescribed during this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.903
-- **Similarity Label**: N/A
+- **STS Score**: 0.206
+- **Model Used**: general
+- **Text1 Length**: 79 words
+- **Text2 Length**: 158 words
+
 
 ## Processing Information
 

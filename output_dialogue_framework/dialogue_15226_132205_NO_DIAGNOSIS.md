@@ -87,16 +87,21 @@ Do you have any questions about what we’ve discussed or about your current tre
 
 ## EHR Summary
 
-The patient is a 43-year-old female presenting with unstable angina. She experienced intermittent left mid arm pain beginning on 2156-12-15, which recurred and prompted her to seek emergency care; the pain was responsive only to increased intravenous Nitroglycerin. Her history is significant for coronary artery disease with recent coronary artery bypass grafting, multiple prior PCIs, insulin-dependent diabetes mellitus, hypertension, gastroesophageal reflux disease, tooth abscess, and dyslipidemia. On admission, laboratory findings included a hematocrit of 29 and elevated troponin levels (0.43–0.65), with serial ECGs showing stable ST elevations in lead III and transient T wave inversions in V2 and V3. Nuclear imaging revealed a reversible large anterior defect, and a nondiagnostic exercise treadmill test was performed. The documented diagnosis was unstable angina without evidence of acute myocardial infarction. Treatment included intravenous Nitroglycerin titration, initiation of Aggrestat and Lovenox, and transfer for cardiac catheterization.
+The patient is a 43-year-old female presenting with unstable angina, characterized by intermittent left mid arm pain beginning on 2156-12-15, which recurred and was only responsive to increased intravenous Nitroglycerin. She has a history of coronary artery disease with prior coronary artery bypass grafting, insulin-dependent diabetes mellitus, hypertension, gastroesophageal reflux disease, tooth abscess, and dyslipidemia; she is allergic to IVP dye. On admission, laboratory findings included a hematocrit of 29 and elevated troponin levels (up to 0.65), with ECG showing stable changes and nuclear imaging revealing a reversible large anterior defect. Cardiac catheterization revealed an 80% anastomotic lesion at the LIMA to LAD graft, which was treated with balloon angioplasty; she was also managed with antiplatelet and anticoagulant therapy. During hospitalization, she developed epistaxis attributed to Aggrestat, which resolved after stopping the medication and ENT intervention with Merocel packing. The documented discharge diagnoses were LIMA to LAD anastomotic lesion status post PTCA, coronary artery disease, type 1 diabetes, and nosebleed secondary to Aggrestat. She was discharged on Toprol XL, vitamins B6/B12/folate, Plavix, Keflex (for dental abscess and nasal packing), ibuprofen as needed, and aspirin. Follow-up was arranged with ENT for packing removal in five days and with her primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent left arm pain. The pain is described as a steady ache that occasionally becomes sharper, has persisted for several days, is rated at 6 out of 10 in severity, and is not triggered or worsened by movement or activity; it occurs even at rest. The patient denied any numbness, tingling, weakness, swelling, fever, chills, or general malaise, but reported recent nosebleeds and a tooth abscess. The patient is currently taking Penicillin VK for the tooth abscess and has not started any other new medications. No physical findings such as redness, warmth, or swelling were noted or described. The doctor assessed that the arm pain could be due to muscle strain, minor inflammation, or possibly referred discomfort related to the dental infection, but found the absence of alarming symptoms reassuring. The doctor recommended gentle stretching, warm compresses, and avoiding heavy lifting for mild aches, advised monitoring for new symptoms such as redness, swelling, or fever, and instructed the patient to complete the antibiotic course and return if symptoms worsen or new issues arise.
+The patient is an adult presenting with left arm pain as the chief complaint. The pain is described as a steady ache, occasionally sharper, rated 6 out of 10 in severity, persisting for several days without clear triggers or relation to movement, and not alleviated by rest. There are no associated symptoms such as numbness, tingling, weakness, or swelling. Relevant history includes recent nosebleeds, a tooth abscess, and current use of Penicillin VK for the abscess; the patient denies fever, chills, or feeling generally unwell. The clinical impression is that the arm pain may be due to muscle strain, minor inflammation, or referred discomfort possibly related to the dental infection, with no alarming features noted. The treatment plan includes monitoring for new symptoms (such as redness, warmth, swelling, or fever), using gentle stretching and warm compresses for symptom relief, avoiding heavy lifting, and completing the prescribed antibiotic course. The patient was advised to return if symptoms worsen or new issues arise.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.350
+- **Model Used**: general
+- **Text1 Length**: 201 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

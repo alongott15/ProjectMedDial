@@ -87,16 +87,21 @@ Does that sound manageable for you right now?
 
 ## EHR Summary
 
-The patient is a 49-year-old woman admitted for surgical management of a left posterior communicating artery (PCOM) aneurysm. She has a history of multiple intracranial aneurysms, including a prior basilar tip aneurysm rupture treated with coil embolization and previous clipping of right ICA bifurcation and ACOM aneurysms. She is allergic to Fiorinal. On admission, her physical exam was unremarkable with stable vital signs, intact cranial nerves, and full muscle strength. She underwent successful left PCOM aneurysm clipping without intraoperative complications. Postoperatively, she developed a fever up to 102.3°F, with one blood culture positive for Gram positive cocci; Vancomycin was started but discontinued when contamination was suspected. The documented diagnosis was left PCOM aneurysm status post clipping, complicated by transient postoperative fever likely due to culture contamination. She was discharged home in stable condition after being afebrile for 48 hours.
+The patient is a 49-year-old woman admitted for surgical management of a left posterior communicating artery (PCOM) aneurysm. She has a history of basilar tip aneurysm rupture treated with coil embolization and prior clipping of right internal carotid artery (ICA) bifurcation and anterior communicating artery (ACOM) aneurysms. On admission, she underwent successful left PCOM aneurysm clipping without intraoperative complications. Postoperatively, she was neurologically intact, afebrile, and hemodynamically stable, but developed a transient fever to 102.3°F; blood cultures grew Gram positive cocci, thought to be a contaminant, and vancomycin was discontinued after she remained afebrile for 48 hours. Her only documented allergy is to Fiorinal. The final assessment was stable postoperative status following aneurysm clipping, with no neurological deficits at discharge. She was discharged home on oxycodone for pain as needed and Lopressor for blood pressure control. Follow-up with her neurosurgeon was recommended in two to three weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent fever, reporting temperature spikes up to 102.3°F over the past couple of days. The fever comes and goes, with spikes more noticeable in the evenings, and is measured using an oral thermometer. The patient denied associated symptoms such as sore throat, cough, body aches, changes in appetite, chills, sweating, headaches, skin changes, rashes, or swelling, and reported feeling otherwise well. No recent travel, sick contacts, or changes in routine were noted. On assessment, the doctor noted intermittent fever without other concerning symptoms and explained that this pattern is often due to a mild viral infection or a minor bodily response, with evening temperature spikes being common. The doctor recommended supportive care including hydration, rest, and use of acetaminophen or ibuprofen for comfort. The patient was advised to monitor for persistent fever beyond 4-5 days or development of new symptoms and to contact their healthcare provider if these occur.
+The patient is an adult presenting with intermittent fever as the chief complaint. The fever began a couple of days ago, has reached up to 102.3°F, and tends to spike in the evenings; it comes and goes throughout the day. The patient denies associated symptoms such as sore throat, cough, body aches, changes in appetite, chills, sweating, headaches, skin changes, rashes, or swelling. There is no recent travel, sick contacts, or changes in routine. Relevant medical history, medications, and allergies are not specified. The clinical impression is intermittent fever without other concerning symptoms, likely due to a mild viral infection or a minor cause. The treatment plan includes supportive care: maintaining hydration, resting as needed, and using acetaminophen or ibuprofen for comfort. The patient was advised to monitor for new or worsening symptoms and to seek further care if the fever persists beyond 4-5 days or if additional symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.929
-- **Similarity Label**: N/A
+- **STS Score**: 0.355
+- **Model Used**: general
+- **Text1 Length**: 147 words
+- **Text2 Length**: 150 words
+
 
 ## Processing Information
 

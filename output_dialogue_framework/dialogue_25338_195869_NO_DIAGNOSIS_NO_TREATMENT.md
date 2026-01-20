@@ -69,16 +69,21 @@
 
 ## EHR Summary
 
-The patient is a 74-year-old male presenting with chest pain radiating to the jaw. He reported new-onset chest pain, was ruled out for myocardial infarction, and experienced rapid improvement of diarrhea after empiric treatment for C. difficile. His past medical history includes coronary artery disease (CAD) with prior myocardial infarctions, type II diabetes mellitus, retinopathy, neuropathy, carotid stenosis, COPD, chronic renal insufficiency, peripheral vascular disease, and lung nodules. On physical exam, he was well-developed and in no acute distress; vital signs were notable for hypertension (BP 173/61), and a right carotid bruit was present. Cardiac workup revealed three-vessel disease on catheterization and a stress test showed small to moderate inferior and minimal wall ischemia with an ejection fraction of 55%. The documented diagnosis was three-vessel coronary artery disease. He underwent off-pump coronary artery bypass grafting (CABG) x4 as the primary treatment.
+The patient is a 74-year-old male presenting with chest pain radiating to the jaw. He reported new-onset chest pain and was found to have three-vessel coronary artery disease after stress testing and cardiac catheterization, with an ejection fraction of 55%. His past medical history includes coronary artery disease with prior myocardial infarctions, type II diabetes mellitus, retinopathy, neuropathy, carotid stenosis, COPD, chronic renal insufficiency, peripheral vascular disease, and lung nodules; he has no known drug allergies. The documented diagnosis was coronary artery disease status post off-pump quadruple coronary artery bypass grafting. His hospital course was notable for postoperative atrial fibrillation/flutter (managed with increased beta blockade, electrolyte repletion, and amiodarone), left lower leg cellulitis (treated with cephalexin), and ongoing treatment for presumed Clostridium difficile infection (with metronidazole). Discharge medications included furosemide, potassium chloride, docusate sodium, aspirin, clopidogrel, metoprolol, ranitidine, metronidazole, and cephalexin. He was discharged in stable condition to an extended care facility with instructions for activity restrictions and wound care, and follow-up appointments were arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain that sometimes radiates to the jaw. The chest discomfort is described as a heavy pressure, not sharp or burning, and typically occurs more than once daily over the past few days. Episodes are triggered mainly by physical activity but can also occur at rest, each lasting several minutes and sometimes longer if the patient continues moving. The patient denied associated symptoms of sweating or lightheadedness but reported recent diarrhea, which they did not believe was related to the chest pressure. No relevant medical history, medications, or allergies were mentioned. The doctor inquired about symptom characteristics, timing, triggers, and associated symptoms but did not provide a formal assessment or diagnosis during the conversation. No specific treatment plan or recommendations were given in this dialogue.
+The patient presents with chest pain as the chief complaint. The pain is described as a heavy pressure in the chest that sometimes radiates to the jaw, occurring intermittently over the past few days and lasting several minutes per episode. The episodes are triggered mainly by physical activity but can also occur at rest, and the pain increases in duration with continued movement. The patient denies associated symptoms such as diaphoresis, lightheadedness, or shortness of breath during these episodes but reports recent diarrhea, which they do not believe is related. Relevant medical history, medications, and allergies are not specified. No diagnosis or clinical impression was documented in the dialogue. No treatment plan or recommendations were provided in the conversation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.505
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 119 words
+
 
 ## Processing Information
 

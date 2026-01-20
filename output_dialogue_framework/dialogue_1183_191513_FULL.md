@@ -85,16 +85,21 @@ If you have any new symptoms or if things get worse rapidly, please seek help ri
 
 ## EHR Summary
 
-The patient is a 76-year-old woman presenting with decreased mental status, decreased motor skills, and decreased communication following a recent history of subdural hematoma. She experienced worsening mental status and headache after initial management, requiring operative drainage of the hematoma. Her past medical history includes hypertension, and she has allergies to erythromycin and penicillin. On admission, she was afebrile, hypertensive (BP 168/70), with mild hypoxia (O2 sat 93%), slow responses, and right-sided weakness. Physical examination after drainage showed improvement: she was awake, alert, oriented, mobile, and had good extremity strength. The documented diagnosis was recurrent subdural hematoma with associated neurological deficits. Treatment included bedside drainage of the hematoma via frontal burr hole, followed by observation and rehabilitation. At discharge, she was stable and safe for home with medications including verapamil, hydrochlorothiazide, Lipitor, Percocet as needed, and Colace.
+The patient is a 76-year-old woman presenting with decreased mental status, decreased motor skills, and decreased communication following a recent history of subdural hematoma. She experienced mental status changes and headache after an initial subdural hematoma drainage, prompting readmission. Her past medical history includes hypertension, and she has allergies to erythromycin and penicillin. On examination, she was awake but slow to respond, with right-sided weakness. The documented diagnosis was recurrent subdural hematoma with associated neurological deficits. Treatment included bedside drainage of the subdural hematoma via frontal burr hole, which resulted in complete evacuation as confirmed by repeat head CT. She improved clinically and was discharged in stable condition with instructions to follow up in one month with a repeat head CT scan. Discharge medications included verapamil, hydrochlorothiazide, Lipitor, Percocet as needed, and Colace.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about changes in thinking. They reported difficulty thinking clearly, communicating, and managing daily tasks such as cooking and conversing, as well as headaches and worsening right-sided weakness affecting walking and hand use. The patient noted these symptoms have gradually worsened over time, leading to increased need for assistance with daily activities, but denied trouble recognizing people or places and described only occasional mild confusion. No specific past medical history, medications, or allergies were mentioned. On review, the doctor noted gradually worsening cognitive and motor changes impacting independence. The assessment included possible causes such as changes in blood flow to the brain, medication effects, or other underlying health issues. The doctor recommended a full evaluation with physical exam and possible brain imaging or lab tests, and advised seeking urgent care if sudden severe symptoms occur. The patient understood and agreed to follow up as recommended.
+The patient presents with concerns about changes in thinking and communication. Symptoms include gradually worsening cognitive difficulties, increased confusion (without disorientation or loss of recognition), headaches, and right-sided weakness impacting motor skills and daily activities such as cooking and walking. The patient reports needing more assistance with daily tasks due to these symptoms. There is no specific relevant medical history, medications, or allergies documented in the dialogue. The clinical impression is of progressive cognitive and motor changes, possibly related to neurological or vascular causes, though no definitive diagnosis is documented. The doctor recommends a full evaluation, including a physical exam and possibly brain imaging or lab tests. The patient is advised to seek urgent care if sudden severe symptoms develop, such as acute confusion, vision loss, speech difficulty, or rapid-onset weakness. The plan emphasizes prompt follow-up and monitoring for any rapid changes.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.427
+- **Model Used**: general
+- **Text1 Length**: 133 words
+- **Text2 Length**: 142 words
+
 
 ## Processing Information
 

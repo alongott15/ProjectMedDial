@@ -87,16 +87,23 @@ Does anything seem to trigger your vomiting or make it worse? For example, is it
 
 ## EHR Summary
 
-The patient is a 22-year-old female presenting with headache, fever, dry cough, vomiting, and inability to tolerate oral intake for three days. She reported persistent symptoms including deep breathing, and had elevated blood glucose readings (346 mg/dL and 280 mg/dL) without taking insulin due to lack of oral intake. Her past medical history includes type 1 diabetes for five years, infected gingiva, history of hypoglycemia, and a recent miscarriage; there is no known diabetic nephropathy, retinopathy, or neuropathy. On admission, she was oriented times two and denied headache, chest pain, or abdominal pain at that time. In the Emergency Room, she received 10 units of regular insulin, was started on an insulin drip at 10 units per hour, and received up to 4 liters of normal saline. The documented diagnosis is not explicitly stated in the note. The treatment plan included intravenous insulin therapy and aggressive fluid resuscitation.
+The patient is a 22-year-old female presenting with headache, fever, dry cough, vomiting, and inability to tolerate oral intake for several days. She developed hyperglycemia (glucose up to 715 mg/dL) and "deep breathing" prior to admission, with laboratory findings of severe metabolic acidosis (pH 6.97, bicarbonate <5), elevated anion gap (34), ketonuria, and hyperkalemia. Her past medical history includes type 1 diabetes for five years, infected gingiva, prior hypoglycemia, and a recent miscarriage; she has no known drug allergies. The documented diagnosis was diabetic ketoacidosis, likely precipitated by infection. Treatment included intravenous fluids, continuous insulin infusion, correction of electrolyte abnormalities, and close monitoring of glucose and anion gap. She was transitioned to her outpatient insulin regimen with sliding-scale adjustments as her condition improved and received diabetes education and nutrition consultation. At discharge, she was in good condition and instructed to follow up with her endocrinologist and new primary care physician within two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with a persistent headache as the chief complaint. Symptoms included a headache and fever for several days, a dry cough, vomiting that prevents keeping down both food and fluids, difficulty taking deep breaths (without frank shortness of breath), and a very dry mouth; the patient denied chills and reported no specific triggers for vomiting. The patient has been mostly bedridden due to the severity of symptoms and is unable to tolerate oral intake. No relevant past medical history, medications, or allergies were mentioned. On clinical review, the doctor noted signs suggestive of dehydration (dry mouth, inability to keep fluids down) and concern due to the combination of fever and difficulty with deep breathing. The assessment was possible dehydration secondary to ongoing vomiting and inability to tolerate fluids, with a viral illness considered as a possible cause but with caution for more serious conditions. The doctor advised attempting small sips of water or oral rehydration solution, monitoring for warning signs such as dizziness, confusion, or decreased urine output, and seeking prompt in-person care if symptoms worsen or oral intake remains impossible.
+The patient is an adult presenting with a chief complaint of a persistent headache. Key symptoms include several days of headache and fever, accompanied by a dry cough, vomiting (unable to keep down food or fluids), difficulty with deep breathing (but no frank shortness of breath), dry mouth, and significant fatigue resulting in being mostly bedridden. The patient reports that vomiting is not triggered by specific factors and occurs randomly. There is no mention of chills, but the inability to tolerate fluids and dry mouth raise concern for dehydration. Relevant medical history, medications, and allergies are not specified.
+
+The clinical impression is possible dehydration secondary to ongoing vomiting and inability to maintain oral intake, with additional concern due to fever and difficulty breathing deeply. The treatment plan includes advice to attempt small sips of water or oral rehydration solution, monitoring for warning signs such as dizziness, confusion, or decreased urine output, and seeking prompt medical care if symptoms worsen or fluids cannot be tolerated. The possibility of a viral illness is mentioned, but more serious causes are not ruled out.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.462
+- **Model Used**: general
+- **Text1 Length**: 153 words
+- **Text2 Length**: 180 words
+
 
 ## Processing Information
 

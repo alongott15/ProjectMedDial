@@ -101,16 +101,23 @@ Often, mild cases resolve with rest and fluids, but persistent vomiting with the
 
 ## EHR Summary
 
-The patient is a 25-year-old male presenting with two days of nausea and one day of vomiting as his chief complaint. His symptoms included vomiting that progressed from yellowish-green to brown, with uncertainty about the presence of coffee-ground material, and associated hyperglycemia with glucose levels in the 400s and an elevated anion gap. He denied fever, chills, chest pain, gastrointestinal bleeding, or urinary symptoms. Relevant history includes type 1 diabetes mellitus for eight years with multiple prior diabetic ketoacidosis (DKA) admissions, gastroparesis, gastroesophageal reflux disease, and depression; he has allergies to penicillin and amoxicillin and was taking insulin 75/25 at home. On physical exam, he was afebrile with mild tachycardia (heart rate 105), blood pressure 146/68, and oxygen saturation 97% on room air. The documented diagnosis was diabetic ketoacidosis. Treatment details are not specified in the provided note.
+The patient is a 25-year-old male presenting with two days of nausea and one day of vomiting, along with hyperglycemia (glucose in the 400s) and an elevated anion gap. He reported decreased oral intake and delayed insulin administration prior to admission, with vomitus initially yellow-green then brown, but denied frank blood or melena. His medical history includes type 1 diabetes mellitus (with multiple prior diabetic ketoacidosis admissions), gastroparesis, gastroesophageal reflux disease, and depression; he is allergic to penicillin and amoxicillin. On admission, laboratory findings were notable for diabetic ketoacidosis (anion gap up to 29, pH 7.29, glucose 413), acute renal insufficiency, and urinalysis positive for glucose and ketones. The documented diagnoses were diabetic ketoacidosis, upper gastrointestinal bleed (possibly due to a Mallory-Weiss tear), gastroenteritis, gastroesophageal reflux disease, and depression. Treatment included intravenous insulin, aggressive intravenous fluids, antiemetics (Zofran, Reglan), and intravenous Pepcid; his usual insulin regimen was resumed at discharge. The patient’s symptoms improved with treatment, his anion gap closed, renal function normalized, and he was discharged home with instructions to follow up in clinic. Discharge medications included insulin 75/25 and Protonix.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent nausea and frequent vomiting over the past couple of days. Symptoms included vomiting several times a day, inability to keep food or fluids down, maroon-colored vomit suggestive of possible blood, associated coughing, and a faster-than-usual heartbeat; the patient denied chest discomfort, stomach pain, abnormal bowel movements, dizziness, or significant weakness. No relevant medical history, medications, or allergies were mentioned. The doctor noted signs of dehydration and possible minor gastrointestinal bleeding due to repeated vomiting, with no improvement in symptoms over the past day. The assessment was concern for dehydration and potential bleeding from irritation of the stomach or esophagus. The doctor recommended prompt in-person medical evaluation to assess hydration status and rule out significant bleeding, with advice to seek urgent care if vomit becomes bright red, heart rate increases further, or if the patient feels weak or dizzy. The patient was advised to monitor symptoms closely and report any worsening.
+The patient presents with a chief complaint of persistent nausea and frequent vomiting over the past couple of days. Symptoms include vomiting several times daily, inability to keep down food or fluids, and observation of maroon-colored vomit on a few occasions, which may indicate the presence of blood. The patient also reports a faster-than-usual heartbeat and signs of dehydration but denies dizziness, significant weakness, abdominal pain, or abnormal bowel movements. Relevant history regarding chronic medical conditions, medications, or allergies is not specified.
+
+The clinical impression is ongoing vomiting with possible minor upper gastrointestinal bleeding (likely from mucosal irritation due to repeated vomiting) and concern for dehydration. The doctor recommends prompt in-person medical evaluation to assess hydration status and rule out significant bleeding, with possible intravenous fluids if oral intake remains impossible. The patient is advised to seek urgent care if symptoms worsen, such as development of bright red vomit, increasing heart rate, or new weakness or dizziness.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.526
+- **Model Used**: general
+- **Text1 Length**: 182 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ Let me know if you have questions about managing your symptoms at home, or if yo
 
 ## EHR Summary
 
-The patient is a 39-year-old female presenting for elective revision posterior spinal fusion due to progressive kyphoscoliosis. She has a history of multiple previous spinal surgeries for scoliosis, postoperative infection requiring hardware removal, and development of pseudarthrosis in the upper lumbar spine leading to worsening spinal curvature. Her past medical history includes chronic pain and prior spinal infections. On admission, she underwent revision posterior spinal fusion from T3 to S1 without intraoperative or postoperative complications; she required a total of 3 units of packed red blood cells perioperatively. Physical examination findings and further symptom details are not specified in the note. The documented diagnosis was progressive kyphoscoliosis secondary to pseudarthrosis. Treatment included surgical revision, perioperative antibiotics, DVT prophylaxis with TEDS stockings and SCDs, pain management with transition from IV to oral narcotics, and daily physical therapy with fitting for a new TLSO brace. She was discharged in stable condition after an unremarkable postoperative course.
+The patient is a 39-year-old female presenting for elective revision posterior spinal fusion due to progressive kyphoscoliosis. She has a history of multiple prior spinal surgeries for scoliosis, postoperative infection requiring hardware removal, and development of pseudarthrosis in the upper lumbar spine. The documented diagnosis was progressive kyphoscoliosis. She underwent revision posterior spinal fusion from T3 to S1 without intraoperative or postoperative complications, receiving perioperative antibiotics and blood transfusions as needed. Postoperatively, her pain was managed by the Anesthesia Pain service, and she was transitioned from IV to oral narcotic analgesics. She was fitted with a new TLSO brace, participated in daily physical therapy, and was ambulating independently at discharge. Discharge instructions included use of the TLSO brace, activity restrictions (no bending, lifting, pushing, or pulling), a general diet, home health nursing for wound care, and follow-up with her surgeon in two weeks. Medications at discharge included morphine sulfate for pain and ferrous sulfate.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening back discomfort related to kyphoscoliosis. Symptoms included gradually increasing chronic back pain rated at 6–7 out of 10 most days, greater difficulty and pain with activities such as bending and prolonged standing, worsening posture with increased leaning, and occasional imbalance; no numbness, tingling, or weakness in the arms or legs was reported. The patient noted that pain is aggravated by bending, twisting, and standing for long periods, while sitting, heat application, and gentle stretching provide some relief. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted progressive kyphoscoliosis with increased discomfort and postural changes but no signs of nerve involvement. The assessment was gradual progression of kyphoscoliosis causing musculoskeletal pain and postural changes without neurological symptoms. The doctor recommended continuing heat therapy, gentle stretching, and pacing activities to avoid prolonged standing or bending, and suggested considering physical therapy for tailored exercises and pain management. The patient expressed interest in learning more about physical therapy options.
+The patient is an adult presenting with worsening back discomfort related to kyphoscoliosis. Symptoms include chronic back pain rated at 6–7 out of 10, gradual progression of symptoms, increased difficulty and pain with activities such as bending or standing for long periods, and noticeable changes in posture and balance without any numbness, tingling, or weakness in the limbs. The pain is aggravated by bending, twisting, and prolonged standing, while sitting, heat application, and gentle stretching provide some relief. There is no history of neurological symptoms reported. The documented clinical impression is progressive kyphoscoliosis with associated musculoskeletal pain and postural changes, but without evidence of nerve involvement. The treatment plan includes continuing gentle stretching, heat therapy, pacing activities to avoid symptom triggers, and considering referral to a physical therapist for tailored exercises and pain management strategies. The patient was also advised to monitor for new neurological symptoms that would warrant prompt evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.682
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

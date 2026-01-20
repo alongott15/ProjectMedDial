@@ -83,16 +83,21 @@ What often happens with tingling and weakness is that it can affect daily tasks 
 
 ## EHR Summary
 
-The patient is a 65-year-old male presenting for evaluation after an MRI revealed a large left-sided cerebellar lesion with significant surrounding edema during routine postoperative follow-up. He reported one episode of vomiting three days prior but denied headache, fever, chills, nausea, visual changes, or altered mentation. His past medical history includes non-small cell and small cell adenocarcinoma of the lung treated with chemotherapy and radiation, post-radiation esophagitis requiring tube feeding, appendectomy, and mild left hip arthritis. Current medications are Buspar, amitriptyline, and Prilosec; he has no known drug allergies. On physical exam, he was tachycardic (heart rate 110-114), afebrile, with stable vital signs and clear lungs; neurologically, his finger-to-nose test was slightly off. The documented clinical finding was a cerebellar lesion with edema on MRI. The patient was advised by his primary care doctor to come to the Emergency Room for further evaluation. Specific treatment or intervention during this admission is not documented in the provided note.
+The patient is a 65-year-old male presenting for evaluation after an MRI revealed a large left-sided cerebellar lesion with significant surrounding edema during routine postoperative follow-up. He reported one episode of vomiting three days prior but denied headache, fever, chills, nausea, visual changes, or altered mentation. His history includes non-small cell and small cell adenocarcinoma of the lung treated with chemotherapy and radiation, post-radiation esophagitis, bilateral peripheral neuropathy, appendectomy, and mild left hip arthritis; current medications include Buspar, Amitriptyline, and Prilosec, with no known drug allergies. On neurological exam, he had mild left-sided dysmetria and proximal leg weakness. The documented diagnosis was cerebellar metastasis. Treatment included suboccipital craniotomy for tumor resection, postoperative monitoring, and initiation of Decadron with a planned taper, along with other supportive medications. He was discharged home in stable condition with instructions for follow-up in the Brain Clinic in two weeks and staple removal in 10 days.
+
 
 ## Dialogue Summary
 
-The patient presented with recent onset vomiting. Vomiting has occurred intermittently over the past few days without clear triggers, and nausea persists after episodes; the patient is able to keep fluids down. Additional symptoms include weakness, particularly in the left leg, and numbness and tingling in both hands, fingers, and toes, which come and go throughout the day. The weakness makes walking more difficult, and tingling in the fingers impairs handling small objects such as buttons; the right side is less affected. The patient reports no fever and notes that symptoms have remained stable over the past few days. No relevant medical history, medications, or allergies were mentioned. The doctor noted that the combination of vomiting, limb weakness, and sensory changes could indicate issues involving nerves or nutrient/metabolic processing, and emphasized the importance of monitoring these symptoms closely. The doctor advised the patient to consider how these symptoms impact daily activities and acknowledged the need for ongoing observation.
+The patient is an adult presenting with the chief complaint of recent onset vomiting. The vomiting began a few days ago, occurs intermittently without clear triggers, and is accompanied by persistent nausea; the patient is able to keep fluids down. Additional symptoms include weakness, particularly in the left leg, and numbness and tingling in both hands, fingers, and toes, which come and go throughout the day. The weakness makes walking more difficult and the tingling impairs fine motor tasks such as buttoning a shirt, leading to increased dependence on others for daily activities. No fever is reported, and symptoms have remained stable over the past few days. Relevant history, medications, and allergies are not specified. The doctor’s clinical impression is that the combination of vomiting, limb weakness, and sensory changes may indicate a neurological or metabolic issue, though no specific diagnosis is documented. The patient was advised that these symptoms should be monitored closely due to their impact on daily functioning.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.940
-- **Similarity Label**: N/A
+- **STS Score**: 0.460
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

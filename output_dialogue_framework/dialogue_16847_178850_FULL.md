@@ -87,16 +87,23 @@ Does this explanation make sense? Is there anything else you’ve noticed that w
 
 ## EHR Summary
 
-The patient is a 41-year-old female presenting with increasing fatigue and icterus. She reports weakness, lethargy, sore throat, hoarseness, an episode of epistaxis, pruritus, productive cough with clear phlegm, and occasional shortness of breath, with symptoms worsening over the past week. Her history is significant for human immunodeficiency virus (off antiretroviral therapy due to cirrhosis), hepatitis C, liver cirrhosis, and prior hemolytic anemia (prednisone discontinued in January after resolution). On admission, hematocrit was 24.4; right upper quadrant ultrasound showed improving ascites without bile duct dilatation, and chest x-ray was negative for pneumonia. The documented clinical impression includes complications related to her underlying liver disease and immunosuppression. Treatment details are not specified in this note.
+The patient is a 41-year-old female presenting with increasing fatigue and icterus. She reported two weeks of worsening weakness, lethargy, sore throat, hoarseness, pruritus, productive cough with clear phlegm, and occasional shortness of breath, as well as an episode of epistaxis on the day of admission. Her relevant history includes human immunodeficiency virus (off antiretrovirals), hepatitis C with cirrhosis, prior autoimmune hemolytic anemia (off prednisone), and previous episodes of acute renal failure and gastrointestinal bleeding from esophageal varices. On admission, she was found to have anemia (hematocrit 24.2), thrombocytopenia, acute-on-chronic renal failure, and methicillin-resistant Staphylococcus aureus bacteremia. The clinical impression included anemia of chronic disease, decompensated liver failure, acute-on-chronic renal failure (multifactorial), and possible thrombotic thrombocytopenic purpura/hemolytic uremic syndrome. Treatment included transfusion of packed red blood cells, initiation of iron, ascorbic acid, Epogen, vancomycin for MRSA bacteremia, ciprofloxacin for presumed urinary tract infection, intravenous fluids, and holding of diuretics and Bactrim. Further workup and specialty consultations (Hepatology and Renal) were ongoing at the time of dictation.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening fatigue and yellowing of the skin and eyes. The fatigue had been progressively worsening over several days, initially mild but now significantly impacting daily activities and not improved by rest; the yellowing (jaundice) appeared a couple of days after the onset of fatigue. The patient denied dark urine, pale stools, abdominal pain (especially under the right ribs), nausea, vomiting, or appetite changes, but reported joint and muscle pain as well as itchy, painful nodules on both shins. No relevant medical history, medications, or allergies were mentioned. On review, there were no physical findings described by the doctor beyond the patient’s reported symptoms. The doctor assessed that the combination of increasing fatigue, jaundice, and joint/muscle pain could indicate a liver issue or a problem with red blood cell processing, possibly related to viral infection or inflammatory conditions. The doctor recommended blood tests to check liver function and rule out causes such as hepatitis, advised rest and hydration, and instructed the patient to seek prompt care if new symptoms like severe abdominal pain, confusion, vomiting, or worsening jaundice developed.
+The patient is an adult presenting with increasing fatigue and yellowing of the skin and eyes (jaundice) as the chief complaint. Fatigue has progressively worsened over several days and is not relieved by rest, making daily activities difficult; jaundice developed a couple of days after the onset of fatigue. The patient denies abdominal pain, changes in urine or stool color, nausea, vomiting, or appetite loss but reports joint and muscle pain, as well as itchy, painful nodules on both shins. No relevant past medical history, medications, or allergies were specified.
+
+The clinical impression is that the symptoms may be related to liver dysfunction or altered red blood cell processing, with possible causes including viral infections or inflammatory conditions. The physician recommended blood tests to assess liver function and rule out hepatitis or other liver-related issues. Supportive advice included rest, hydration, and instructions to seek prompt care if severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.478
+- **Model Used**: general
+- **Text1 Length**: 166 words
+- **Text2 Length**: 150 words
+
 
 ## Processing Information
 

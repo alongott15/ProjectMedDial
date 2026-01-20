@@ -87,16 +87,23 @@ Let me know if you have any specific questions or concerns about what this means
 
 ## EHR Summary
 
-The patient is a male over 90 years old presenting with asymptomatic left carotid stenosis. He did not report any symptoms related to the stenosis. His relevant history includes type 2 diabetes for 30 years, hypertension, prior appendectomy, and bilateral cataract surgery; he has no known allergies. On examination, he was in good health with bilateral carotid bruits and mild right lower extremity weakness, but otherwise normal findings. The documented diagnosis was asymptomatic left carotid stenosis. An attempted carotid stenting procedure was unsuccessful due to a calcified and tortuous aortic arch. He was restarted on Coumadin 4 mg daily, with an INR of 2.1, and atorvastatin 20 mg daily at discharge. The patient was advised to have his INR checked after discharge and to follow up with his primary care doctor; he was discharged in stable condition.
+The patient is a male over 90 years old presenting with asymptomatic left carotid stenosis. He did not report any symptoms, and physical examination revealed he was in good health with no acute distress, though bilateral carotid bruits and mild right lower extremity weakness were noted. His past medical history includes type 2 diabetes for 30 years and hypertension; he has no known allergies. The documented diagnosis was asymptomatic left carotid stenosis. He was admitted for attempted carotid stenting, which was unsuccessful due to a calcified and tortuous aortic arch. Post-procedure, he was restarted on Coumadin 4 mg daily with an INR of 2.1, and atorvastatin 20 mg daily was continued. The patient was advised to have his INR checked after discharge and to follow up with his primary care doctor next week. He was discharged in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with a concern about asymptomatic left carotid stenosis and wanted further evaluation. They reported mild weakness in the right leg, which is more noticeable after walking and improves with rest, as well as trace swelling in the feet that remains stable throughout the day and has not worsened over time. The patient denied any shortness of breath, chest discomfort, sudden weight changes, skin color changes, sores, or temperature differences in the feet, and stated that these symptoms have not interfered with daily activities. There was no history of other neurological symptoms such as vision changes or speech difficulties. On assessment, the doctor noted that the symptoms are mild, stable, and not progressive, with no warning signs of significant vascular or neurological compromise. The doctor advised maintaining regular activity, elevating the legs when sitting if swelling is bothersome, and monitoring for any new or worsening symptoms such as sudden changes in strength, sensation, or speech. Routine monitoring and follow-up for carotid stenosis were also recommended. The patient expressed understanding and agreed to monitor for any concerning changes.
+The patient is an adult presenting for evaluation of asymptomatic left carotid stenosis, previously identified by another physician. The patient reports mild right leg weakness, more noticeable after walking and improved with rest, as well as trace swelling in the feet that remains stable throughout the day and has not worsened over time. There are no associated symptoms such as shortness of breath, chest discomfort, sudden weight changes, skin color changes, sores, or temperature differences in the feet. The patient denies any limitations in daily activities and has not experienced neurological warning signs such as vision changes or speech difficulties.
+
+Relevant medical history includes asymptomatic left carotid stenosis; no medications or allergies are specified. The clinical impression is stable, mild symptoms without evidence of acute neurological or cardiac compromise. The treatment plan includes maintaining regular activity, elevating the legs when sitting if swelling is bothersome, monitoring for new or worsening symptoms (especially sudden changes in strength, sensation, or speech), and routine follow-up for carotid stenosis. No new interventions or medications were initiated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.740
+- **Model Used**: general
+- **Text1 Length**: 139 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

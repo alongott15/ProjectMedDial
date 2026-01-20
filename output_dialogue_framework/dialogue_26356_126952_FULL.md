@@ -85,16 +85,23 @@ In the meantime, keep an eye out for any new swelling in your legs or ankles, a 
 
 ## EHR Summary
 
-The patient is a 75-year-old male presenting with shortness of breath. He reported a two-month history of "gassiness" in the lower chest relieved by milk and Prilosec, a seven-pound weight gain, and increased blood pressure; he denied chest pain at admission. Relevant history includes coronary artery disease and recent congestive heart failure. On examination, chest x-ray showed congestive heart failure, and echocardiogram revealed an ejection fraction of 25% with widespread hypokinesis. Stress testing demonstrated dyspnea on exertion without anginal symptoms. The documented diagnosis was coronary artery disease status post coronary artery bypass graft times four. Treatment included coronary artery bypass grafting and management of heart failure.
+The patient is a 75-year-old male presenting with shortness of breath. He reported a two-month history of "gassiness" in his lower chest, relieved by milk and Prilosec, along with a seven-pound weight gain and increased blood pressure. On admission, he denied chest pain or gassiness but continued to experience dyspnea on exertion without anginal symptoms. Relevant history includes congestive heart failure noted on chest x-ray and an echocardiogram showing an ejection fraction of 25% with widespread hypokinesis. The documented diagnosis was coronary artery disease, status post coronary artery bypass graft times four. Treatment included coronary artery bypass grafting (CABG) and management of heart failure symptoms.
+
 
 ## Dialogue Summary
 
-The patient presented with a gassy sensation described as bloating or pressure in the lower chest. Symptoms included discomfort rated 6/10 at worst, present most of the time and worsened by activity, gradual weight gain of about seven pounds over several weeks, and increased shortness of breath with exertion; resting helped somewhat, and eating did not affect symptoms. The patient denied leg swelling, headaches, vision changes, or chest pain, and reported noticing higher blood pressure during this period. No physical findings were noted in the conversation. The doctor assessed that the symptoms may be related to fluid retention, possibly due to the heart having difficulty keeping up with the body's needs, rather than a digestive issue. The doctor recommended monitoring for new leg or ankle swelling, sudden worsening of shortness of breath, or chest pain and advised limiting salty foods, daily weight and blood pressure monitoring, and follow-up with the primary care provider for further evaluation. The patient reported that the discomfort has remained stable over the past few weeks.
+The patient is an adult presenting with a chief complaint of a gassy, bloating, or pressure sensation in the lower chest. The discomfort has persisted for at least a couple of weeks, is rated 6 out of 10 at its worst, is present most of the time, and worsens with activity but improves somewhat with rest; eating does not affect the symptoms. Associated symptoms include gradual weight gain of about seven pounds over several weeks and exertional shortness of breath, without leg swelling, headaches, vision changes, or chest pain. The patient has also noted higher blood pressure readings during this period. There is no documented relevant medical history, medications, or allergies in the dialogue.
+
+The clinical impression discussed was possible fluid retention related to cardiac function, rather than a gastrointestinal cause. The doctor recommended follow-up with the primary care provider for an exam and basic tests. Interim advice included monitoring for new leg or ankle swelling, sudden worsening of shortness of breath (especially at rest or lying down), or chest pain, and seeking prompt care if these occur. The patient was also advised to limit salty foods and monitor weight and blood pressure daily.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.700
+- **Model Used**: general
+- **Text1 Length**: 105 words
+- **Text2 Length**: 194 words
+
 
 ## Processing Information
 

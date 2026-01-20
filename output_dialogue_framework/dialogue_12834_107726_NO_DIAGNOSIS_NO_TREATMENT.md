@@ -87,16 +87,23 @@ I'd recommend we arrange some basic tests to look into this further and help gui
 
 ## EHR Summary
 
-The patient is a 52-year-old female presenting with abdominal distention. She reports a 3-month history of increasing abdominal girth, acutely worsening over the past three weeks, accompanied by dyspnea and lower extremity edema. Additional symptoms include mild periumbilical pain, possible chills, nausea, vomiting, jaundice (yellowing of eyes), dark urine, and melena (tarry stools); she denies fever, headache, and chest pain. Her medical history includes hypertension, hypercholesterolemia, alcohol dependence, and a 40-pack-year smoking history; she has no known drug allergies and was not taking medications on admission. On physical exam, she was anxious but in no acute distress, with a distended and taut abdomen, periumbilical tenderness, tachycardia (heart rate 125), and clear lungs. No explicit diagnosis or treatment plan is documented in the provided note.
+The patient is a 52-year-old female presenting with abdominal distention. She reported a 3-month history of increasing abdominal girth, acutely worsening over the past three weeks, accompanied by dyspnea, lower extremity edema, mild periumbilical pain, possible chills, nausea, vomiting, jaundice, dark urine, and melena. Her relevant history includes hypertension, hypercholesterolemia, alcohol dependence, and a 40-pack-year smoking history; she has no known drug allergies and was not on medications at admission. Physical exam revealed a distended, tender abdomen, bilateral lower extremity edema, spider angiomata, and palmar erythema. Imaging and biopsy confirmed ascites due to chronic liver disease with toxic metabolic injury and portal hypertension; there was no evidence of active gastrointestinal bleeding or infection. The documented diagnoses included ascites secondary to chronic liver disease and portal hypertension, likely related to alcohol use. Treatment included aggressive diuresis with furosemide and spironolactone, pentoxifylline, vitamin supplementation (folic acid, thiamine), pantoprazole, blood transfusions for anemia, and prophylactic antibiotics. She was discharged in stable condition with instructions for follow-up in the Liver Clinic and primary care.
+
 
 ## Dialogue Summary
 
-The patient presented with abdominal distention as the chief complaint. Over the past several days, the patient has experienced progressively worsening abdominal distention, mild periumbilical pain, a persistent feeling of fullness, discomfort with eating, and difficulty moving around. Additional symptoms include shortness of breath (worse with activity and sometimes at rest), lower leg swelling that worsens by the end of the day but improves somewhat with elevation, and the need for extra pillows at night due to shortness of breath; the patient also reported some nausea associated with abdominal fullness. No specific past medical history, medications, or allergies were mentioned. On review, the doctor noted the combination of abdominal distention, leg swelling, and orthopnea (needing extra pillows) as suggestive of fluid buildup in the body, possibly related to heart, liver, or kidney function. The doctor advised continuing leg elevation, avoiding salty foods, and seeking prompt medical attention if symptoms acutely worsen (such as sudden severe shortness of breath, chest pain, or confusion). The plan includes arranging basic tests to investigate the underlying cause of the fluid retention.
+The patient presents with abdominal distention as the chief complaint. Over the past several days, the abdominal distention has progressively worsened and is associated with a persistent feeling of fullness, mild periumbilical pain, discomfort with eating, and difficulty moving around. Additional symptoms include lower leg swelling that worsens by the end of the day but improves somewhat with elevation, shortness of breath that is worse with activity and sometimes present at rest, and the need for extra pillows at night due to dyspnea; the patient also reports some nausea related to abdominal fullness. There is no mention of relevant past medical history, medications, or allergies in the dialogue.
+
+The clinical impression is fluid buildup (edema and possible ascites), potentially related to heart, liver, or kidney dysfunction. The treatment plan includes continuing leg elevation, avoiding salty foods, and monitoring for any acute worsening such as severe dyspnea, chest pain, or confusion, which would warrant prompt medical attention. The doctor recommends arranging basic tests to investigate the underlying cause and guide further management.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.677
+- **Model Used**: general
+- **Text1 Length**: 170 words
+- **Text2 Length**: 171 words
+
 
 ## Processing Information
 

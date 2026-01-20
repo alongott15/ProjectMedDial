@@ -87,16 +87,21 @@ Let me know if you have questions about what we've discussed or if there’s any
 
 ## EHR Summary
 
-The patient is a 66-year-old male presenting with substernal chest pain on exertion since May of this year. Symptoms were associated with significant coronary artery disease, as demonstrated by cardiac catheterization showing 90% occlusion of the left anterior descending and posterior circumflex arteries, and 100% occlusion of the right coronary artery. Past medical history includes hypertension and a left hip fracture; home medications included aspirin and Lipitor. Physical exam at discharge revealed a stable condition, clear chest, clean and intact incision, and stable sternum. The documented diagnoses were unstable angina and coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) times three, followed by angioplasty of the left circumflex vessel. Postoperatively, he developed rapid atrial fibrillation managed initially with amiodarone (discontinued due to elevated liver function tests) and then procainamide. Upon discharge, he was in sinus rhythm and prescribed procainamide, with additional recommendations including Plavix initiated by cardiology.
+The patient is a 66-year-old male presenting with substernal chest pain on exertion since May of this year. Symptoms were associated with evidence of posterior hypokinesis on echocardiogram and severe multi-vessel coronary artery disease on cardiac catheterization, including 90% occlusion of the left anterior descending and posterior circumflex arteries, and 100% occlusion of the right coronary artery. Past medical history includes hypertension and a left hip fracture; home medications were aspirin and Lipitor. The documented diagnoses were unstable angina and coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) times three, followed by angioplasty of the left circumflex vessel due to incomplete revascularization. Postoperatively, he developed rapid atrial fibrillation managed initially with amiodarone (discontinued due to elevated liver function tests) and then procainamide. At discharge, he was stable in sinus rhythm, with a clean, intact incision, and was prescribed procainamide, Plavix, Lasix, potassium supplementation, Lipitor, Lopressor, and Percocet as needed. Follow-up with his primary care physician and cardiologist in Bermuda, as well as surgical follow-up in three to four weeks, was advised.
+
 
 ## Dialogue Summary
 
-The patient presented with new-onset chest pain during physical activity. The pain is located in the middle of the chest behind the breastbone, rated 5–6/10 in severity, and occurs only with exertion, resolving quickly (within a minute) upon rest; no associated symptoms such as shortness of breath, sweating, or lightheadedness were reported. The patient denied prior episodes of similar discomfort and reported no recent changes in physical activity or medications, which include aspirin and Lipitor. No physical findings were described in the conversation. The doctor assessed that the pattern of chest discomfort—exertional onset, rapid relief with rest, and location—could be consistent with angina, possibly related to reduced blood flow to the heart muscle. The doctor recommended that the patient contact their primary care provider soon for an in-person evaluation and possible cardiac testing (such as EKG or stress test). The patient was advised to avoid strenuous activity until further evaluation and to seek immediate medical attention if symptoms worsen or occur at rest, or if new symptoms such as nausea or severe shortness of breath develop.
+The patient is an adult presenting with new-onset chest pain as the chief complaint. The pain is described as moderate (5–6/10), located centrally behind the breastbone, triggered by physical activity (walking), and resolves quickly (within a minute) upon rest without associated symptoms such as dyspnea, diaphoresis, or lightheadedness. There is no prior history of similar symptoms, no recent changes in activity or medications, and the patient is currently taking aspirin and Lipitor. The clinical impression documented is possible angina, given the exertional nature of the pain and relevant cardiac risk factors. The physician recommended prompt follow-up with the patient’s primary care provider for further evaluation, including possible EKG or stress testing. The patient was advised to avoid strenuous activity until evaluated and to seek immediate medical attention if symptoms worsen or occur at rest, or if new symptoms such as nausea or severe shortness of breath develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.517
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 147 words
+
 
 ## Processing Information
 

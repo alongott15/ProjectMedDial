@@ -85,16 +85,21 @@ Staying active, maintaining a balanced diet, and keeping up with social connecti
 
 ## EHR Summary
 
-The patient is a 70-year-old female admitted for an unspecified reason and discharged after clearance by Physical Therapy. During her hospital stay, a urinalysis was positive, indicating a urinary tract infection. Her relevant medical history, allergies, and presenting symptoms are not specified in the note. On discharge, her condition was documented as good. The diagnosis of urinary tract infection was made based on urinalysis results. She was prescribed ciprofloxacin 500 mg orally twice daily for 3 days for the infection. Additional discharge medications included Lopressor, Protonix, Percocet, Colace, Aspirin, Lasix, and potassium chloride. She was advised to follow up with her primary care physician, cardiologist, and surgeon.
+The patient is a 70-year-old female admitted for an unspecified reason and discharged after clearance by Physical Therapy. During her hospital stay, a urinalysis was positive, indicating a urinary tract infection. No specific symptoms related to the urinary tract infection are documented in this note. Her relevant medical history includes use of medications such as Lopressor, Protonix, Percocet, Colace, Aspirin, Lasix, and potassium chloride. The documented diagnosis was urinary tract infection. She was prescribed ciprofloxacin 500 mg orally twice daily for 3 days for this infection. On discharge, her condition was noted to be good. She was advised to follow up with her primary care physician, cardiologist, and surgeon.
+
 
 ## Dialogue Summary
 
-The patient presented for a routine check-in without any specific complaints. They reported no changes in energy levels, sleep, appetite, headaches, joint stiffness, cough, mobility, balance, skin changes, digestive issues, mood, or interest in activities. The patient stated they are up to date on routine check-ups and screenings, including blood pressure checks and vaccinations. No relevant medical history, medications, or allergies were mentioned during the visit. The doctor found no concerning symptoms or physical findings based on the patient's responses. The assessment was that the patient is in good health overall with stable energy, mobility, mood, and preventive care status. The doctor recommended continuing regular monitoring for any new symptoms and maintaining preventive care, including staying active, eating a balanced diet, and keeping up with social connections. The patient was advised to report any changes or concerns between visits.
+The patient presented for a routine check-in without any specific chief complaint. They reported no changes in energy, sleep, appetite, mood, mobility, or ability to perform daily activities. The patient denied symptoms such as headaches, joint stiffness, cough, skin changes, digestive issues, palpitations, lightheadedness, or shortness of breath. There is no mention of relevant medical history, medications, or allergies in the dialogue. The clinical assessment was that the patient is in good health overall with no new or concerning symptoms. No formal diagnosis was documented. The treatment plan focused on continued monitoring for any new symptoms and maintaining preventive care, including staying up to date with screenings and vaccinations. The doctor advised the patient to remain active, eat a balanced diet, maintain social connections, and report any changes or concerns between visits.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.935
-- **Similarity Label**: N/A
+- **STS Score**: 0.427
+- **Model Used**: general
+- **Text1 Length**: 109 words
+- **Text2 Length**: 132 words
+
 
 ## Processing Information
 

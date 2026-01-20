@@ -87,16 +87,21 @@ Let me know if you have any questions about what to expect or how to care for th
 
 ## EHR Summary
 
-The patient is an 86-year-old male presenting after being struck by a car traveling at approximately 20–25 mph. He reports mild right orbital pain and denies loss of consciousness, though he cannot recall all details of the incident. His past medical history is significant for hypertension, and he has no known drug allergies. On examination, he was alert with stable vital signs, a right supraorbital laceration (3–3.5 cm), blood from the right nare, and a small left thumb laceration; no other acute injuries were noted. Laboratory studies were notable for mild leukocytosis (WBC 12.5) and slightly elevated creatinine (1.4), with otherwise unremarkable results. Imaging revealed no pneumothorax, fractures, or other acute findings. The clinical impression is minor trauma with soft tissue injuries following a pedestrian-vehicle accident. Treatment included wound care for lacerations and observation.
+The patient is an 86-year-old male presenting after being struck by a car as a pedestrian, with the main complaint of mild right orbital pain. He denied loss of consciousness but could not recall all events surrounding the impact; he was alert and responsive at the scene with stable vital signs. On examination, he had a right supraorbital laceration (3–3.5 cm), blood from the right nare, and a small left thumb laceration, but no other acute injuries were noted. Past medical history includes hypertension, and he has no known drug allergies. Imaging revealed a left temporoparietal epidural versus subdural bleed and a left occipital parenchymal bleed, with no skull or cervical spine fractures. The documented clinical impression was acute head injury with intracranial hemorrhage. He was admitted to the ICU for close neurological monitoring, evaluated by neurosurgery and ophthalmology, and later deemed stable for discharge. Discharge recommendations included outpatient follow-up with neurosurgery, ophthalmology, and his primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with mild pain around the right eye following being hit by a car while walking. The pain began immediately after the accident, has remained mild (rated 2–3/10), and is mostly a mild annoyance without interfering with daily activities; pressing on the area increases tenderness slightly but does not cause sharp pain. The patient reported a brief episode of blood from the right nostril immediately after the accident, which stopped on its own and has not recurred. No changes in vision, double vision, bruising, or swelling around the eye or nose were noted. The doctor assessed that symptoms are mild and stable, likely due to minor bruising or tissue irritation, with no signs of serious injury. The doctor recommended rest, gentle care, and use of a cool compress for soreness, advising the patient to avoid touching or rubbing the area. The patient was instructed to monitor for new or worsening symptoms such as increased pain, swelling, vision changes, persistent nosebleeds, or fluid from the nose, and to seek prompt evaluation if these occur.
+The patient is an adult presenting with mild pain around the right eye following a pedestrian-versus-car accident. The discomfort began immediately after the incident, is rated 2–3 out of 10 in severity, and is described as mild and stable; it is slightly worsened by palpation but does not interfere with daily activities. The patient reported a brief episode of blood from the right nostril immediately after the accident, which resolved spontaneously and has not recurred. There are no associated vision changes, double vision, bruising, swelling, or ongoing bleeding. Relevant history of prior medical conditions, medications, or allergies was not specified. The clinical impression was mild periorbital tenderness and brief epistaxis likely due to minor soft tissue injury from trauma, without evidence of serious injury. The treatment plan included reassurance, advice to use a cool compress for soreness, avoid touching or rubbing the area, and instructions to monitor for new or worsening symptoms such as increased pain, swelling, vision changes, persistent nosebleeds, or fluid leakage from the nose, with guidance to seek prompt evaluation if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.625
+- **Model Used**: general
+- **Text1 Length**: 158 words
+- **Text2 Length**: 176 words
+
 
 ## Processing Information
 

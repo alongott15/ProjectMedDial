@@ -87,16 +87,21 @@ Let me know—does anything in particular seem to bring the pressure on more qui
 
 ## EHR Summary
 
-The patient is a 66-year-old male presenting with substernal chest pain on exertion since May of this year. Symptoms were associated with significant coronary artery disease, as demonstrated by cardiac catheterization showing 90% occlusion of the left anterior descending and posterior circumflex arteries, and 100% occlusion of the right coronary artery. Past medical history includes hypertension and a left hip fracture; home medications were aspirin and Lipitor. On examination, echocardiogram revealed posterior hypokinesis. The documented diagnosis was unstable angina and coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) times three, followed by angioplasty of the left circumflex vessel due to incomplete vascularization during surgery. Postoperatively, he developed rapid atrial fibrillation managed initially with amiodarone (discontinued due to elevated liver function tests) and then procainamide. At discharge, his condition was stable, in sinus rhythm, with a clean and intact incision; he was prescribed procainamide and Plavix.
+The patient is a 66-year-old male presenting with substernal chest pain on exertion. He reported these symptoms since May of this year, and cardiac evaluation revealed posterior hypokinesis and severe multi-vessel coronary artery disease, including 90% occlusion of the left anterior descending and posterior circumflex arteries, and 100% occlusion of the right coronary artery. His past medical history includes hypertension and a left hip fracture, and he was taking aspirin and Lipitor at home. The documented diagnoses were unstable angina and coronary artery disease. He underwent coronary artery bypass grafting (CABG) times three, followed by angioplasty of the left circumflex vessel, and developed postoperative atrial fibrillation managed initially with amiodarone (switched to procainamide due to elevated liver function tests). At discharge, his condition was stable and in sinus rhythm, with a clean and intact incision. Discharge medications included procainamide, Plavix, Lasix, potassium supplement, Lipitor, Lopressor, and Percocet as needed. He was advised to follow up with his primary care physician and cardiologist in Bermuda, as well as the operating surgeon in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain described as a pressure in the center of the chest, which began a few days ago during physical activity such as walking uphill. The chest pressure reliably occurs with exertion (e.g., climbing stairs, carrying heavy objects), is moderate in intensity, does not radiate, and resolves quickly with rest; no associated symptoms like shortness of breath, sweating, or lightheadedness were reported. The patient has a history of high blood pressure and takes Lipitor for high cholesterol, with no known heart conditions or diabetes. On examination, no physical findings were noted beyond the patient's description of symptoms. The doctor assessed that the exertional chest pressure may be related to insufficient blood flow to the heart during activity, given the patient's cardiovascular risk factors. The doctor recommended avoiding strenuous activities until further evaluation can be performed and advised seeking immediate medical attention if symptoms occur at rest, last longer than usual, or are accompanied by new symptoms such as severe shortness of breath, dizziness, or pain radiating to the arm or jaw. The patient acknowledged understanding and agreed to take it easy as advised.
+The patient is an adult presenting with chest pressure as the chief complaint. The chest pressure is moderate in intensity, located centrally, and is reliably triggered by physical exertion such as walking uphill, climbing stairs, or carrying heavy objects; it resolves quickly with rest and does not radiate or associate with shortness of breath, sweating, or lightheadedness. The patient has a history of high blood pressure and high cholesterol (managed with Lipitor), but no known heart conditions or diabetes. The clinical impression discussed is possible exertional angina due to insufficient blood flow to the heart during activity, given the patient’s risk factors and symptom pattern. The physician advised the patient to avoid strenuous activities until further evaluation can be performed. The patient was also instructed to seek immediate medical attention if symptoms occur at rest, last longer than usual, or are accompanied by new symptoms such as severe shortness of breath, dizziness, or pain radiating to the arm or jaw. No new medications or diagnostic tests were initiated during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.493
+- **Model Used**: general
+- **Text1 Length**: 175 words
+- **Text2 Length**: 171 words
+
 
 ## Processing Information
 

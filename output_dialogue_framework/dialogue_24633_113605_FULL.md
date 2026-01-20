@@ -87,16 +87,21 @@ Does that plan sound reasonable to you? Is there anything else about your sympto
 
 ## EHR Summary
 
-The patient is an 80-year-old female presenting for elective coronary artery bypass graft (CABG) following a recent myocardial infarction on [2172-11-14]. She initially experienced anginal equivalent symptoms, including diaphoresis and increased shortness of breath, which led to her initial hospitalization. Her past medical history includes myocardial infarction, congestive heart failure, hypertension, nephrolithiasis, tuberculosis (Pott's disease), anemia, and coronary artery disease. Allergies include intravenous contrast, morphine, and possibly Lasix. On admission, her medications included labetalol, Lipitor, Celebrex, Prilosec, Tegretol, Oxycontin, Lisinopril, Ecotrin, a multivitamin, and glucosamine chondroitin. Physical exam and specific clinical findings during this admission are not detailed. The documented diagnosis was coronary artery disease requiring surgical intervention. She underwent a four-vessel CABG without complications and had an uneventful postoperative course in the CSRU.
+The patient is an 80-year-old woman presenting for elective coronary artery bypass graft (CABG) following a recent myocardial infarction on 2172-11-14. She initially experienced anginal equivalent symptoms, including diaphoresis and increased shortness of breath, leading to her initial hospitalization. Her past medical history includes myocardial infarction, congestive heart failure, hypertension, nephrolithiasis, tuberculosis (Pott's disease), anemia, and coronary artery disease. During this admission, she underwent a four-vessel CABG without intraoperative complications but required frequent chest tube dressing changes for persistent drainage postoperatively; her hematocrit remained stable. She developed transient bradycardia after beta blocker administration, which resolved after discontinuation of the medication, and experienced a mild allergic rash likely due to linen and tape. The documented diagnosis was coronary artery disease status post myocardial infarction, status post CABG. Discharge medications included antihypertensives, statin, analgesics, and bowel regimen, with instructions to titrate blood pressure medications as needed. She was advised to follow up with her cardiothoracic surgeon in four weeks and her primary care physician in one to two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with increased difficulty catching their breath, which has also caused some anxiety. Symptoms include shortness of breath that worsens with activity but can occur at rest, increased sweating even with minimal exertion, gradual worsening of symptoms over the past couple of weeks, occasional lightheadedness and feeling unsteady, and a rash on the back with redness around the mouth. The patient denied waking up short of breath at night, needing extra pillows to sleep, new cough, or swelling in the legs or ankles. No relevant medical history, medications, or allergies were mentioned. The doctor noted the gradual onset of shortness of breath and sweating, absence of orthopnea or peripheral edema, and presence of mild dizziness. The assessment included possible heart or lung issues, mild infection, or anemia as potential causes, with concern for decreased oxygenation during exertion. The doctor advised limiting activity for now, monitoring for new chest pain, severe shortness of breath at rest, fainting, or swelling, and recommended arranging a check-up with possible blood tests or chest x-ray to further investigate.
+The patient presents with increased shortness of breath as the chief complaint. Symptoms include dyspnea that worsens with activity and occasionally occurs at rest, gradual onset of sweating even with minimal exertion, progressive worsening over the past couple of weeks, and episodes of lightheadedness and unsteadiness without syncope. The patient denies orthopnea, paroxysmal nocturnal dyspnea, peripheral edema, or new cough. No relevant past medical history, medications, or allergies were specified. The clinical impression is that the symptoms may be related to cardiac or pulmonary insufficiency, mild infection, or anemia, though no definitive diagnosis was documented. The treatment plan includes limiting activity until further evaluation, monitoring for new or worsening symptoms (such as chest pain, severe dyspnea at rest, fainting, or swelling), and arranging follow-up for further investigation (potentially including blood tests or chest x-ray). The patient also reported a rash on the back and redness around the mouth, though the relationship to the primary complaint is unclear.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.936
-- **Similarity Label**: N/A
+- **STS Score**: 0.498
+- **Model Used**: general
+- **Text1 Length**: 167 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

@@ -83,16 +83,21 @@ In the meantime, try to avoid walking without support, and consider asking someo
 
 ## EHR Summary
 
-The patient is a 72-year-old woman presenting after a fall three to seven days prior, with subsequent change in mental status and right-sided weakness. She has a history of dementia. Initial evaluation at an outside hospital revealed a left subdural hematoma with a 2 cm midline shift on head CT. On admission, physical exam showed right-sided drift and right lower extremity weakness, but she was otherwise stable and oriented to self. Laboratory studies were within normal limits, and repeat imaging confirmed the subdural hematoma. The documented diagnosis was a large left frontotemporoparietal subdural hematoma with midline shift. She underwent bedside drainage of the hematoma without complications, resulting in resolution of her neurological deficits. The patient was deemed safe for discharge home by physical therapy, though she continued to have poor short-term memory attributed to her underlying dementia.
+The patient is a 72-year-old woman presenting after a fall three to seven days prior, with subsequent change in mental status and right-sided weakness. She was found to have a large left frontotemporoparietal subdural hematoma with a 2 cm midline shift on head CT. Her history is notable for dementia. On examination, she had right-sided drift and lower extremity weakness, but was otherwise stable. The documented diagnosis was left subdural hematoma with midline shift. She underwent bedside drainage of the hematoma without complications, resulting in resolution of her neurological deficits. At discharge, she was stable but required 24-hour supervision due to persistent poor short-term memory from dementia. She was discharged home with her sister, prescribed trazodone and famotidine, and instructed to follow up in one month with repeat head CT.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about a recent change in mental state and a fall. They reported increased confusion for several days, difficulty remembering tasks, and persistent right-sided weakness, especially in the right leg, which has made daily activities and mobility more challenging. The patient denied changes in speech, vision, or swallowing, and reported no recent infections, fevers, or medication changes, though noted some uncertainty due to memory issues. On physical description, the patient felt unsteady when walking or standing and was worried about falling again. The doctor assessed that the combination of new confusion and right-sided weakness could be due to dehydration, medication effects, or changes in cerebral blood flow, and emphasized the need for prompt medical evaluation to rule out serious causes. The doctor advised avoiding walking without support, arranging for someone to assist at home, and seeking immediate care if symptoms worsen or new neurological deficits appear. The patient expressed understanding and requested advice on arranging a check-up and home support.
+The patient is an adult presenting with concerns about recent changes in mental state and a fall. Over the past few days, the patient has experienced persistent confusion and right-sided weakness, particularly in the right leg, leading to increased difficulty with daily activities and unsteadiness while walking. There have been no reported changes in speech, vision, swallowing, recent infections, fevers, or medication adjustments. The patient denies any acute worsening of symptoms but expresses concern about safety and risk of further falls. The clinical impression is that the new confusion and right-sided weakness may be due to causes such as dehydration, medication effects, or cerebral blood flow changes, though no definitive diagnosis is documented. The doctor advised prompt medical evaluation within the next day to rule out serious causes. Interim recommendations include avoiding walking without support, having someone nearby for assistance, and seeking immediate care if symptoms worsen or new neurological deficits develop. The patient requested advice on arranging a check-up and home support.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.439
+- **Model Used**: general
+- **Text1 Length**: 130 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

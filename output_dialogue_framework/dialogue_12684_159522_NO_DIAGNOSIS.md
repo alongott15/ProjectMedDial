@@ -87,16 +87,21 @@ Does this explanation make sense, and do you have any questions or concerns abou
 
 ## EHR Summary
 
-The patient is a 75-year-old male presenting with occasional burning chest pain unrelated to activity. Symptoms began a week and a half prior to admission, and an exercise tolerance test revealed chest pain with ST segment depressions in V4 to V6 after four minutes of exercise. Relevant history includes coronary artery disease, migraines, and nephrolithiasis, with current medications of aspirin, atenolol, Imdur, and diltiazem; no known drug allergies. Physical examination showed stable vital signs and no acute abnormalities. Cardiac catheterization demonstrated a 90% occlusion of the left anterior descending artery, 80% occlusion of the diagonal 1, and 70% occlusion of the right coronary artery, with an ejection fraction of 50%. The documented diagnosis was severe multi-vessel coronary artery disease. Treatment included coronary artery bypass grafting (CABG) times three using the left internal mammary artery and saphenous vein grafts, along with placement of atrial wires and mediastinal and pleural tubes.
+The patient is a 75-year-old male presenting with chest pain described as occasional burning, unrelated to activity, occurring for a week and a half prior to admission. He developed chest pain and ST segment depressions during an exercise tolerance test, prompting further evaluation. His history includes coronary artery disease, migraines, and nephrolithiasis, with no known drug allergies. Cardiac catheterization revealed significant coronary artery occlusions (90% LAD, 80% diagonal 1, 70% RCA), and he subsequently underwent a three-vessel coronary artery bypass graft. Postoperatively, he experienced minimal sternal drainage managed with Vancomycin, and his white blood cell counts remained stable; the drainage resolved without further complication. The documented diagnoses were status post coronary artery bypass graft times three, migraine headaches, possible history of transient ischemic attack, and nephrolithiasis. At discharge, he was stable and sent home on medications including Lopressor, Lasix, potassium chloride, aspirin, Lipitor, Plavix, Percocet, Colace, and Alphagan eyedrops. Follow-up with his primary care provider or cardiologist was arranged for three weeks post-discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent burning sensation in the chest. The burning has been occurring off and on for at least a couple of weeks, is described as mild to moderate discomfort, and has not changed in severity or frequency; it is not clearly associated with eating, lying down, movement, or specific triggers, though stress may play a role. The patient denied associated symptoms such as shortness of breath, sweating, or lightheadedness, and reported no limitation in daily activities. No relevant medical history, medications, or allergies were mentioned in this conversation. On clinical assessment, the doctor noted the absence of concerning symptoms and that the discomfort was not interfering with activity. The doctor’s assessment was that the pattern is most consistent with common issues such as acid reflux or mild esophageal irritation. The doctor recommended lifestyle measures including avoiding large meals late in the evening, limiting spicy or acidic foods if any connection is noticed, and tracking episodes. The patient was advised to seek prompt medical attention if symptoms worsen or new symptoms such as chest pain with exertion, trouble breathing, or fainting develop; the patient also mentioned noticing a small amount of serosanguinous drainage from the lower part of a sternal incision and was advised to monitor this as well.
+The patient presents with intermittent burning chest discomfort as the chief complaint. The burning sensation has been mild to moderate in severity, occurring off and on for at least a couple of weeks, without a clear pattern related to eating, lying down, or activity, and is not associated with shortness of breath, sweating, or lightheadedness. The discomfort has remained stable over time and does not interfere with daily activities. Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression documented by the doctor is that the symptoms are most consistent with acid reflux or mild esophageal irritation, possibly influenced by stress. The treatment plan includes lifestyle modifications such as avoiding large meals late in the evening, limiting spicy or acidic foods if a connection is noticed, and monitoring symptom patterns. The patient was advised to seek prompt medical attention if symptoms worsen or new concerning features develop, such as chest pain with exertion, dyspnea, or syncope. The patient also reported a small amount of serosanguinous drainage from the lower sternal incision and was advised to monitor this as well.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.561
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 184 words
+
 
 ## Processing Information
 

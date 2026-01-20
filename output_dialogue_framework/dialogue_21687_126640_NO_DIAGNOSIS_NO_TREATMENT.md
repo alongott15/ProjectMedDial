@@ -85,16 +85,21 @@ To get a better sense of how much this is impacting you, how are these changes a
 
 ## EHR Summary
 
-The patient is an 87-year-old female presenting with worsening depression and ataxia. She reported progressive depressive symptoms, decreased oral intake, and psychomotor slowing over the past one to two years. Her past medical history includes hypertension, depression, irritable bowel syndrome, dizziness, hearing loss, history of falls, glaucoma, and Bell's palsy. On admission, she was alert and oriented with short-term memory deficits but had strong and equal limb strength; vital signs were stable and lung sounds were clear. Imaging revealed a 2 x 3 cm right subdural hematoma with mild mass effect and no midline shift. The documented diagnosis was right chronic subdural hematoma. She underwent a bedside burr hole procedure for hematoma drainage without complications. Post-procedure, she remained awake and alert, with headache as her main complaint.
+The patient is an 87-year-old woman presenting with worsening depression and ataxia. She reported progressive depressive symptoms, decreased oral intake, and psychomotor slowing over the past one to two years, with recent short-term memory deficits but no chest pain or dyspnea. Her past medical history includes hypertension, depression, irritable bowel syndrome, dizziness, hearing loss, history of falls, glaucoma, Bell's palsy, and prior surgeries. Imaging revealed a 2 x 3 cm right chronic subdural hematoma without midline shift. The documented diagnosis was right subdural hematoma. She underwent a bedside burr hole procedure for hematoma drainage, which she tolerated well, followed by improvement in memory and strength. At discharge, she was stable, alert, and oriented, with plans for short-term rehabilitation and follow-up including a repeat head CT in one week. Discharge medications included antihypertensives, antidepressants, glaucoma drops, Tylenol, and bowel regimen agents.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening depression and low mood. Symptoms included a gradual decline in mood and motivation over the past few months, increased difficulty initiating daily activities, and feeling more slowed down. The patient also reported increased unsteadiness while walking, several near-falls, reliance on furniture or walls for support, and episodes of dizziness and lightheadedness, but denied changes in sleep patterns. No specific triggers for mood changes were identified, and both mood and balance symptoms have led to avoidance of certain activities and social situations. Relevant medical history, medications, or allergies were not discussed. On clinical review, the doctor noted the combination of gradually worsening mood and balance issues, with associated lightheadedness but no spinning sensation. The doctor assessed that these symptoms could be interconnected and may relate to medical conditions, medication effects, or neurological changes. The doctor recommended further evaluation to understand the impact on daily life and discussed the importance of identifying supportive steps to improve safety and comfort.
+The patient presents with worsening depression as the chief complaint. Over the past few months, they have experienced a gradual decline in mood, decreased motivation, and increased difficulty initiating daily activities, without identifiable triggers. The patient reports preserved sleep patterns but notes progressive unsteadiness while walking, several near-falls, and the need to use furniture or walls for support. They also describe episodes of dizziness and lightheadedness accompanying their balance issues. These symptoms have led the patient to avoid certain activities and social situations due to decreased confidence and safety concerns. Relevant medical history, medications, and allergies are not specified. The doctor’s assessment considers possible connections between mood changes and balance issues, including medical conditions, medication side effects, or neurological changes, but no definitive diagnosis is documented. The doctor recommends further evaluation to assess the impact on daily life and determine appropriate support and interventions.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.365
+- **Model Used**: general
+- **Text1 Length**: 140 words
+- **Text2 Length**: 144 words
+
 
 ## Processing Information
 

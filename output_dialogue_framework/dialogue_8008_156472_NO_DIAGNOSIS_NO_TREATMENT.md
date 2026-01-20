@@ -87,16 +87,23 @@ If you notice any new symptoms—such as longer episodes, difficulty speaking, w
 
 ## EHR Summary
 
-The patient is a 41-year-old female presenting for further treatment of a right temporal arteriovenous malformation (AVM) previously identified after seizures in the fall of 2131. She did not report acute symptoms at this admission. Her past medical history is otherwise unremarkable, and she is currently taking Paxil and Prilosec. On examination, she was well-appearing with a normal general and neurological exam. Imaging and prior workup confirmed the diagnosis of a right temporal AVM. During this admission, she underwent repeat diagnostic cerebral angiogram and coiling of the AVM without complications. Her post-procedure hospital course was unremarkable, and she was discharged home with outpatient follow-up arranged.
+The patient is a 41-year-old female presenting for further treatment of a right temporal arteriovenous malformation (AVM) previously identified after seizures in the fall of 2131. She reported no acute symptoms at this admission, and her physical and neurological examinations were unremarkable. Her past medical history is otherwise unremarkable, and current medications include Paxil and Prilosec. The documented diagnosis is a right temporal cerebral AVM. During this admission, she underwent a repeat diagnostic cerebral angiogram and coiling of the AVM under local anesthesia. The procedure was well tolerated, and her post-procedure hospital course was uneventful. She was discharged home with instructions for outpatient follow-up.
+
 
 ## Dialogue Summary
 
-The patient presented with recent seizures as the chief complaint. They described experiencing a couple of brief episodes over an unspecified period, characterized by short-lasting loss of awareness without shaking movements, confusion, speech difficulty, or memory issues; post-episode fatigue was noted but recovery was quick. No specific triggers were identified, and the patient denied associated symptoms such as headaches, vision changes, or weakness. The patient reported needing to stop activities during episodes but could resume shortly afterward. The doctor assessed these events as likely focal seizures without dramatic movements, noting the absence of concerning neurological symptoms and reassuring recovery. The doctor recommended keeping a diary to track seizure episodes and details before and after each event, and advised avoiding risky situations such as swimming alone or driving until further evaluation. The patient was instructed to seek prompt medical attention if new symptoms arise or if episodes become more frequent, and expressed understanding of the plan.
+The patient is an adult presenting with recent onset of seizures as the chief complaint. The episodes are described as brief losses of awareness lasting a few seconds, occurring infrequently (a couple of times), with no observed shaking movements, confusion, speech difficulty, or memory loss afterward; post-episode fatigue is noted but recovery is rapid. No specific triggers have been identified, and there are no associated symptoms such as headaches, vision changes, or weakness. The patient typically has to stop activities during the episodes but resumes quickly once they resolve. Relevant medical history, medications, and allergies are not specified.
+
+The clinical impression documented by the doctor is that these events are likely focal seizures without motor involvement, given the absence of dramatic movements and quick recovery. The treatment plan includes keeping a diary to track episode frequency and characteristics, avoiding high-risk activities (such as swimming alone or driving) until further evaluation, and seeking prompt medical attention if new or worsening symptoms develop. The patient was also advised to prepare for a neurology appointment and was offered guidance on tracking seizure details.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.926
-- **Similarity Label**: N/A
+- **STS Score**: 0.423
+- **Model Used**: general
+- **Text1 Length**: 104 words
+- **Text2 Length**: 180 words
+
 
 ## Processing Information
 

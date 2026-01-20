@@ -87,16 +87,23 @@ For now, avoid taking any medications like ibuprofen or aspirin, as they can wor
 
 ## EHR Summary
 
-The patient is a 46-year-old man presenting with concerns about alcohol withdrawal ("detox") and a recent episode of chest pain. He reported binge drinking over several days, with his last drink on the morning of admission, and described feeling generally unwell and experiencing a transient chest tightness without associated diaphoresis, nausea, vomiting, shortness of breath, palpitations, or radiation; the chest pain resolved before arrival. Upon presentation, he began vomiting coffee ground emesis but denied prior gastrointestinal bleeding or other related symptoms. His past medical history includes alcohol abuse, HIV (non-progressor, never on antiretroviral therapy), hypertension, cardiomyopathy, rheumatic heart disease, anxiety disorder, macrocytic anemia, status post cholecystectomy, and depression. On exam, he was afebrile with blood pressure ranging from 120–170/90–100 mmHg and a pulse of 110–150 bpm; nasogastric lavage revealed persistent coffee ground emesis, and EKG showed no acute ischemic changes. The documented clinical impression included alcohol withdrawal and upper gastrointestinal bleeding. Treatment in the Emergency Department included aspirin, Lopressor, Protonix, Ativan, Valium, intravenous fluids, and Reglan.
+The patient is a 46-year-old man presenting with concerns about alcohol withdrawal and an episode of chest pain. He reported binge drinking prior to admission, last consuming alcohol the morning of admission, and experienced generalized malaise and a single episode of chest tightness without associated diaphoresis, nausea, vomiting, dyspnea, or palpitations; the chest pain resolved before arrival. On presentation, he developed coffee ground emesis, but had no prior history of gastrointestinal bleeding or recent abdominal symptoms. His past medical history includes alcohol abuse, HIV (non-progressive), hypertension, cardiomyopathy, rheumatic heart disease, anxiety disorder, macrocytic anemia, depression, and status post cholecystectomy; home medications include propranolol, lisinopril, hydrochlorothiazide, Effexor XR, Prozac (recently discontinued), Klonopin, Risperdal, aspirin, and Viagra. The documented diagnoses were alcohol withdrawal, resolved gastrointestinal bleed (likely aspirin or alcohol-induced gastritis), and hepatic steatosis by ultrasound. Treatment included intravenous valium for withdrawal symptoms, supportive care with fluids and proton pump inhibitor (Protonix), discontinuation of aspirin and hydrochlorothiazide, and continuation of most home medications. The patient was discharged in stable condition with instructions to follow up with his primary care physician and psychiatrist.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain and a general feeling of malaise. Symptoms included intermittent central chest tightness rated 6/10 in severity, lasting a few minutes at a time, occurring at rest and not associated with activity or eating, described as pressure-like rather than sharp or burning, and not radiating to the arm, neck, or jaw. Additional symptoms included anxiety, shakiness, and an episode of coffee ground vomit; no sweating, shortness of breath, or nausea were reported. No relevant medical history, medications, or allergies were mentioned. The doctor noted the absence of classic cardiac symptoms but expressed concern about the coffee ground appearance of the vomit, suggesting possible upper gastrointestinal bleeding such as gastritis or ulcers. The assessment was that urgent heart-related causes were less likely, but gastrointestinal bleeding needed prompt evaluation. The doctor recommended seeking medical attention promptly, especially due to the vomiting with coffee ground appearance, and advised avoiding NSAIDs like ibuprofen or aspirin, resting, and monitoring for worsening symptoms such as dizziness, weakness, black stools, or increased pain.
+The patient is an adult presenting with chest pain and a general feeling of malaise. The chest tightness is described as a central, pressure-like sensation rated 6 out of 10, lasting a few minutes per episode, occurring at rest, and not associated with exertion, eating, or radiation to the arm, neck, or jaw. The patient denies associated symptoms such as sweating, dyspnea (shortness of breath), or nausea but reports anxiety, shakiness, and an episode of coffee ground vomit. No relevant past medical history, medications, or allergies are specified.
+
+The clinical impression is that urgent cardiac causes are less likely given the absence of classic features, but the presence of coffee ground emesis raises concern for upper gastrointestinal bleeding, possibly due to gastritis or ulcers. The physician recommends prompt medical evaluation due to the risk of GI bleeding and advises the patient to seek immediate care if symptoms worsen or if warning signs such as dizziness, weakness, or black stools develop. The patient is instructed to avoid NSAIDs like ibuprofen or aspirin and to monitor for new symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.976
-- **Similarity Label**: N/A
+- **STS Score**: 0.638
+- **Model Used**: general
+- **Text1 Length**: 180 words
+- **Text2 Length**: 177 words
+
 
 ## Processing Information
 

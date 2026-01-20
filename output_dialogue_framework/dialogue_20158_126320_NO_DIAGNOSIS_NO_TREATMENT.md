@@ -93,16 +93,23 @@ For now, try to take it easy and avoid any strenuous activity until you've been 
 
 ## EHR Summary
 
-The patient is an 84-year-old female presenting with shortness of breath, angina at rest, and nausea. Symptoms began on 10-28 and led to ER evaluation, where she was found to have elevated CK and MB, confirming myocardial infarction (MI) on 11-1. Her history includes exertional angina, hypertension, hypercholesterolemia, depression, gastroesophageal reflux disease, and arthritis. Cardiac catheterization revealed significant coronary artery disease: LAD 40% occlusion, left circumflex 80%, and RCA 100%, with an ejection fraction of 45%. She underwent coronary artery bypass grafting (CABG) with LIMA to LAD and saphenous vein grafts to RCA and OM. Postoperatively, she developed atrial fibrillation, which was controlled with IV Lopressor and subsequently managed with Amiodarone. On discharge, her vitals were stable, rhythm was sinus, and the surgical incision was healing well. Discharge medications included Lopressor, Aspirin, Lasix (for five days), potassium supplement (for five days), Paxil, and Amiodarone.
+The patient is an 84-year-old female presenting with shortness of breath, angina at rest, and nausea. Symptoms began on 10-28 and led to admission for rule out myocardial infarction (MI); MI was confirmed with elevated CK and MB on 11-1. Her history includes exertional angina, hypertension, hypercholesterolemia, depression, gastroesophageal reflux disease, and arthritis. Cardiac catheterization revealed significant coronary artery disease with 40% LAD, 80% left circumflex, and 100% RCA occlusion, and an ejection fraction of 45%. The documented diagnosis was acute MI with multivessel coronary artery disease. She underwent coronary artery bypass grafting (CABG) with LIMA to LAD and saphenous vein grafts to RCA and OM. Postoperatively, she developed atrial fibrillation controlled with IV Lopressor and was started on amiodarone; she was discharged in stable condition with sinus rhythm. Discharge medications included Lopressor, aspirin, Lasix, potassium supplement, Paxil, and amiodarone, with follow-up arranged in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble catching their breath, which was causing anxiety. They reported moderate chest discomfort that comes and goes, occurring even at rest and not affected by changes in position, movement, or eating. Associated symptoms included nausea but no wheezing, coughing, or lightheadedness; the episodes started suddenly and have remained about the same in severity. The patient noted needing to slow down and take more breaks during daily activities due to these symptoms. No relevant medical history, medications, or allergies were mentioned. The doctor’s assessment focused on the possibility of a heart-related issue such as angina, while also considering other causes like digestive or muscular problems. The doctor recommended prompt evaluation by a healthcare provider and advised the patient to avoid strenuous activity, seek urgent care if symptoms worsen (such as severe discomfort, faintness, sweating, or pain radiating to the arm or jaw), and ensure support at home if needed.
+The patient presents with the chief complaint of sudden-onset shortness of breath and moderate, intermittent chest discomfort. Symptoms include chest pain that occurs even at rest, is not triggered or relieved by changes in position, and is accompanied by nausea but not by wheezing, coughing, or lightheadedness. The patient reports that these symptoms have remained unchanged since onset and have made daily activities more difficult, requiring more frequent rest. No relevant past medical history, medications, or allergies were specified.
+
+The clinical impression discussed was possible angina, with consideration of other causes such as musculoskeletal or gastrointestinal issues. The doctor emphasized the importance of ruling out serious cardiac conditions given the symptom profile. The treatment plan included a recommendation for prompt evaluation by a healthcare provider and instructions to avoid strenuous activity. The patient was also advised to seek urgent care if symptoms worsen or if additional warning signs develop, such as severe discomfort, faintness, sweating, or pain radiating to the arm or jaw.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.943
-- **Similarity Label**: N/A
+- **STS Score**: 0.512
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

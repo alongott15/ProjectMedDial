@@ -95,16 +95,23 @@ If you notice new symptoms like fever, drainage from the incision, or worsening 
 
 ## EHR Summary
 
-The patient is a 55-year-old woman presenting with shortness of breath following recent coronary artery bypass graft surgery. She developed dyspnea at home, and upon admission was found to have bilateral pleural effusions, which were treated with thoracentesis; left loculated effusion persisted. Subsequently, she experienced right upper quadrant pain, and a HIDA scan confirmed acute cholecystitis, leading to a laparoscopic cholecystectomy for a gangrenous gallbladder. Her postoperative course was complicated by increasing erythema of the sternal incision, positive blood cultures, and positive pleural fluid for Streptococcus mutans. Physical findings included an unstable sternum and sternal wound dehiscence. The documented diagnoses included bilateral pleural effusions, acute cholecystitis with gangrenous gallbladder, and sternal wound dehiscence. Treatments included bilateral thoracentesis, laparoscopic cholecystectomy, local and operative debridement of the sternal wound, and transfer for further management of sternal dehiscence. She was also receiving NPH insulin as part of her medication regimen.
+The patient is a 55-year-old woman presenting with sternal wound dehiscence following recent coronary artery bypass graft surgery. She experienced shortness of breath, bilateral pleural effusions, and subsequently developed right upper quadrant pain, which was diagnosed as acute cholecystitis and treated with laparoscopic cholecystectomy. Her postoperative course was complicated by increasing erythema and dehiscence of the sternal incision, with positive blood and pleural fluid cultures for streptococcus species. Relevant history includes insulin-dependent diabetes, hypercholesterolemia, and recent cardiac and gallbladder surgeries. The documented diagnosis was sternal wound dehiscence, status post sternal debridement with omental and pectoral flap reconstruction. Treatment included surgical debridement, flap reconstruction, intravenous antibiotics (levofloxacin and vancomycin), amiodarone for atrial fibrillation, and supportive care. She was discharged in stable condition with instructions for home nursing assessment and follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with gradual shortness of breath on exertion, soreness and increasing redness with warmth around the sternal incision, and right upper abdominal pain. The shortness of breath has been building up over time, is worse with activity, does not occur at rest or worsen when lying down, and is associated with some anxiety but no wheezing. The patient reported soreness, redness, and warmth at the incision site without swelling, drainage, fever, or chills; the right upper abdominal pain has been present for a few days, is uncomfortable, and is somewhat relieved by rest. Relevant history includes recent surgery with a sternal incision; no medications or allergies were mentioned. On examination, there was no report of drainage or systemic symptoms, but the incision showed increasing redness and warmth. The doctor assessed that the symptoms could be related to post-operative healing, possible local irritation or infection at the incision, and deconditioning after surgery. The doctor advised keeping the incision clean and dry, avoiding heavy lifting, monitoring for new drainage, fever, or worsening symptoms, and encouraged light walking around the house as tolerated. The patient was instructed to seek prompt medical attention if new drainage, fever, or worsening shortness of breath develops.
+The patient is an adult presenting with concerns of gradual shortness of breath with activity, increasing redness and warmth around a sternal incision, and right upper abdominal discomfort. The dyspnea develops gradually, is triggered by activity, and is not associated with lying down or nighttime; there is no wheezing. The patient reports soreness and redness at the sternal incision site, with associated warmth but no drainage, fever, or chills. Right upper abdominal pain has been present for a few days, is somewhat relieved by rest, and has no clear triggers.
+
+Relevant history includes recent surgery (implied by the presence of a sternal incision). The clinical impression is that symptoms may be related to post-operative healing, with possible local irritation or early infection at the incision site, and deconditioning contributing to dyspnea. The treatment plan includes monitoring the incision for new drainage, worsening pain, or fever; keeping the incision clean and dry; avoiding heavy lifting; and engaging in light walking as tolerated. The patient was advised to seek prompt medical attention if symptoms worsen or new concerning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.567
+- **Model Used**: general
+- **Text1 Length**: 130 words
+- **Text2 Length**: 178 words
+
 
 ## Processing Information
 

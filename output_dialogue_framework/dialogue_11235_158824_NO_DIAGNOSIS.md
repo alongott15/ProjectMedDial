@@ -87,16 +87,21 @@ Does anything seem to trigger these episodes, or do they come on randomly?
 
 ## EHR Summary
 
-The patient is a 39-year-old male presenting with fevers, rigors, and chills for three days. Symptoms included hypoxia (oxygen saturation 87% in the Emergency Department), temperatures ranging from 99 to 103.8°F, intermittent abdominal pain (4/10), mild diarrhea, persistent thrush, blurred vision, occasional headaches, and lightheadedness. Relevant history includes acquired immunodeficiency syndrome (AIDS), prior foscarnet infusion via Port-A-Cath, chronic sinusitis, cytomegalovirus retinitis, candidiasis, hypertension, anemia, leukopenia, hepatitis B, and other infections. On physical exam, he was cachectic but in no acute distress; vital signs showed low blood pressure (99/48) and oxygen saturation improved to 95% on room air. The documented diagnosis was Klebsiella bacteremia/pneumonia. Blood cultures and Mycobacterium avium-intracellulare cultures were obtained. Treatment details are not specified in the note.
+The patient is a 39-year-old male presenting with fevers, rigors, and chills for three days. He was found to be hypoxic (O2 saturation 87%) on admission, with temperatures ranging from 99 to 103.8°F, mild abdominal pain (4/10), productive cough with clear sputum, persistent oral thrush, blurred vision, and occasional headaches. His medical history is significant for acquired immunodeficiency syndrome (AIDS) with a CD4 count of 1, cytomegalovirus retinitis, multiple opportunistic infections, hypertension, anemia, and prior Port-A-Cath use for foscarnet infusion. The documented diagnoses were Klebsiella bacteremia/pneumonia, acute renal failure (resolving), cytomegalovirus retinitis, and hypertension. Treatment included removal of the infected Port-A-Cath, initiation of a 14-day course of intravenous ceftriaxone (eight days remaining at discharge), continued foscarnet for CMV retinitis, and adjustment of medications for renal function. The patient was switched to dapsone for prophylaxis and continued on highly active antiretroviral therapy. He was discharged in stable condition with home health services and follow-up appointments scheduled.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent fevers and chills as the chief complaint. Symptoms included fevers and chills for the past few days, episodes of intense cold and uncontrollable shivering, difficulty breathing and lightheadedness during these episodes, and new onset of intermittent dull abdominal pain. The patient reported that symptoms are worsening in frequency and severity, interfering with daily activities and resulting in missed work; no bluish discoloration of lips or fingertips was noted, and episodes occur randomly without identifiable triggers. No relevant past medical history, medications, or allergies were mentioned. On review, the doctor noted the absence of cyanosis but presence of respiratory difficulty and abdominal discomfort. The assessment was that these symptoms could be consistent with a common viral infection but are concerning due to their progression and impact on daily life. The doctor advised monitoring for warning signs such as severe shortness of breath at rest, confusion, persistent vomiting, or chest pain, and recommended supportive care with hydration, rest, and fever reducers (acetaminophen or ibuprofen if tolerated). The patient was instructed to seek further evaluation if symptoms worsen or new symptoms develop.
+The patient is an adult presenting with the chief complaint of persistent fevers and chills. Symptoms began a few days ago and have worsened, now occurring more frequently and interfering with daily activities, including work. The patient describes intense chills with shivering, difficulty breathing, lightheadedness during episodes, and new intermittent dull abdominal pain. There is no reported cyanosis (bluish lips or fingertips), and no specific triggers for the episodes have been identified. Relevant medical history, medications, and allergies are not specified. The clinical impression is that these symptoms may be consistent with a common viral infection, but the worsening course and impact on daily life are concerning. The treatment plan includes supportive care with hydration, rest, and fever reducers such as acetaminophen or ibuprofen, along with instructions to monitor for warning signs (severe dyspnea at rest, confusion, persistent vomiting, or chest pain) and to seek further evaluation if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.546
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 154 words
+
 
 ## Processing Information
 

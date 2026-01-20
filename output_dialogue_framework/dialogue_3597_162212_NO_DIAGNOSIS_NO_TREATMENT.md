@@ -89,16 +89,21 @@ Let me know if you have any questions or need help understanding what to do next
 
 ## EHR Summary
 
-The patient is a 34-year-old male presenting with a chief complaint of a crush injury to the left lower extremity after being struck and pinned between vehicles. He experienced a large degloving injury and a displaced open tibia fracture of the left leg, with moderate discomfort noted on examination. His past medical history includes anxiety, and he takes Paxil; there are no known drug allergies. On physical exam, he was afebrile, with stable vital signs and slight tachycardia, but otherwise unremarkable findings. The documented diagnosis was crush injury to the left lower extremity. Treatment included open reduction with external fixation, vascular bypass grafting, internal plate placement, myocutaneous free muscle flap transfer, and split-thickness skin grafting to the affected areas.
+The patient is a 34-year-old male presenting with a crush injury to the left lower extremity after being struck and pinned between vehicles. He experienced a large degloving injury with exposed muscle and bone, a displaced open tibia and fibula fracture, moderate discomfort, loss of active dorsiflexion, and partial sensory loss in the superficial peroneal nerve distribution. His past medical history includes anxiety, and he takes Paxil; he has no known drug allergies and uses tobacco. The documented diagnosis was crush injury to the left lower extremity. Treatment included multiple surgical interventions: open reduction and external fixation, vascular bypass with saphenous vein graft, internal plate placement, myocutaneous free flap, and split-thickness skin grafts. He received pain management, antibiotics, anticoagulation, and supportive care throughout his hospital stay. At discharge, he was advised to bear weight as tolerated, perform range of motion exercises, keep his foot in a boot at 90 degrees while in bed, maintain daily wound care, and follow up with his physician; he was discharged to rehabilitation in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with a recent crush injury to the left leg, sustained earlier today at work, resulting in significant difficulty with mobility and inability to perform usual activities. Symptoms included an open fracture in the lower leg, strong pain especially around the fracture site, noticeable swelling and tightness, a cool foot, loss of sensation along the top of the foot, inability to dorsiflex the ankle, minimal movement of the toes, and inability to bear weight on the affected leg. The patient reported initial bleeding that is no longer active and denied any improvement with movement. No relevant medical history, medications, or allergies were mentioned. Clinical findings described by the patient included an open fracture, significant swelling, loss of movement and sensation, and a cool foot. The doctor assessed that these findings raise concern for possible nerve or blood vessel compromise and risk for compartment syndrome, requiring urgent medical attention. The doctor advised immediate evaluation in an emergency setting, recommended immobilizing the leg, keeping it at heart level, covering the wound with a clean cloth, and avoiding weight-bearing; the patient was instructed to seek emergency care as soon as possible and to monitor for worsening symptoms such as increased pain, further loss of sensation or movement, or changes in skin color.
+The patient is an adult presenting with a chief complaint of a recent left leg crush injury sustained at work earlier the same day. Key symptoms include an open fracture of the lower leg, significant pain (especially around the fracture), inability to dorsiflex the ankle or move toes, loss of sensation on the top of the foot, noticeable swelling and tightness, a cool foot, and inability to bear weight on the affected leg. There was initial bleeding that is no longer active. The clinical assessment raised concern for possible nerve or blood vessel compromise and a high risk for compartment syndrome due to the combination of symptoms. The documented impression is that this is a serious injury requiring urgent medical attention. The treatment plan includes immediate evaluation in an emergency setting, likely imaging and surgical assessment, and possible urgent intervention to restore blood flow, prevent infection, and protect nerve function. The patient was advised to keep the leg immobilized, avoid weight-bearing, keep it at heart level, cover the wound with a clean cloth, and seek emergency care without delay. Additional warning signs such as increasing pain, further loss of sensation or movement, or changes in skin color were discussed as indicators for even more urgent attention.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.972
-- **Similarity Label**: N/A
+- **STS Score**: 0.665
+- **Model Used**: general
+- **Text1 Length**: 171 words
+- **Text2 Length**: 206 words
+
 
 ## Processing Information
 

@@ -98,3 +98,21 @@ If things get worse or you notice any of those warning signs I mentioned, it's i
 ## Processing Information
 
 - **Processing Time**: 374.6s
+
+## EHR Summary
+
+The patient is a 60-year-old male presenting with fever, headache, and mental status changes following recent right frontal oligodendroglioma resection. He developed a temperature up to 103.4°F, lethargy, nuchal rigidity, and decreased verbal responsiveness while in rehabilitation. His past medical history includes right frontal antiplastic oligodendroglioma status post multiple resections, and he has a documented allergy to Percocet (itching red rash). Examination revealed a ballotable subgaleal fluid collection and mild neck stiffness; CSF analysis showed rare growth of coagulase-negative Staphylococcus. The clinical impression was postoperative infection, likely meningitis or surgical site infection. He was treated with intravenous Vancomycin and Ceftazidime for four weeks, with discontinuation of Ceftriaxone per Infectious Disease recommendations. A PICC line was placed for long-term antibiotics, and he was referred for rehabilitation prior to home discharge. At discharge, his condition was stable, and he was advised to continue antibiotics and follow up with Infectious Disease and neurosurgery in three to four weeks.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with a persistent headache as the chief complaint. The headache is described as a dull ache, rated 6 out of 10 in intensity, and has been present for several days along with a high fever (up to 103°F), neck stiffness, lethargy, and difficulty concentrating. There are no associated symptoms of nausea, vomiting, photophobia, phonophobia, appetite changes, or sleep disturbances. The patient reports that over-the-counter medications have provided little relief, and there is no history of recent infections or sick contacts. The clinical impression discussed includes possible viral infection or, less commonly, inflammation around the brain or its coverings; the absence of certain symptoms (nausea, vomiting, sensitivity to light) is noted as reassuring. The treatment plan includes rest, hydration, continued use of over-the-counter medications for comfort, and close monitoring for worsening symptoms such as confusion, severe headache, new rash, or vomiting. The patient was advised to seek prompt medical attention if any warning signs develop. No specific diagnosis or prescription medication was documented.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.530
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 168 words
+

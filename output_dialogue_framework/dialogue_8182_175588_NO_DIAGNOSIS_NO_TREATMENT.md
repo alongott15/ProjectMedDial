@@ -87,16 +87,23 @@ Let me know if you notice any new symptoms or if things change significantly. Wo
 
 ## EHR Summary
 
-The patient is an 81-year-old male presenting with a ruptured pseudoaneurysm. He reported a pulsatile mass in his left groin following a recent cardiac catheterization on 2193-6-6. On examination, a pulsatile hematoma was noted in the left groin, and ultrasound confirmed a partially thrombosed left groin pseudoaneurysm with a 6 mm neck and a 2.3 cm round component containing active color flow. Laboratory results showed mild anemia (hemoglobin 8.8, hematocrit 27.3) but were otherwise unremarkable. The documented diagnosis was a left groin pseudoaneurysm. The patient underwent surgical repair of the pseudoaneurysm and remained stable postoperatively. On postoperative day 3, he experienced transient arm tightness, but cardiac workup (EKG, enzymes, chest x-ray) was normal. The treatment plan included surgical intervention and postoperative monitoring.
+The patient is an 81-year-old male presenting with a ruptured pseudoaneurysm. He reported a pulsatile mass in his left groin following a recent cardiac catheterization, and physical examination revealed a pulsatile hematoma in the left groin. Ultrasound confirmed a partially thrombosed left groin pseudoaneurysm with active color flow. Relevant history includes coronary artery disease (CAD) and recent cardiac catheterization; current medications include aspirin, clopidogrel, atorvastatin, lisinopril, atenolol, isosorbide mononitrate, and others. The documented diagnoses were ruptured pseudoaneurysm and CAD. The patient underwent surgical repair of the pseudoaneurysm and was monitored postoperatively, including evaluation for transient arm tightness without evidence of new cardiac ischemia. He was discharged in stable condition with instructions to continue his medications, maintain JP drainage, and follow up with his physician within one week.
+
 
 ## Dialogue Summary
 
-The patient presented with swelling in the left groin. The swelling began a few days ago, has increased in size and discomfort, and is associated with bruising and skin discoloration but no warmth or redness; the patient denied recent injury, fever, chills, or feeling generally unwell. The swelling and pain have made movement and daily activities more difficult. Additionally, the patient reported bilateral forearm pain extending to the elbows, which worsens with movement and improves with rest. No relevant medical history, medications, or allergies were mentioned. On examination, the doctor noted swelling and discoloration in the left groin and pain in both forearms. The assessment included possible causes such as changes in circulation, hernia, mild strain, or involvement of a blood vessel, with no signs of infection. The doctor advised monitoring for warning signs (increasing pain, spreading redness, warmth, fever, or difficulty moving limbs), recommended rest and elevation of affected areas, and suggested avoiding activities that worsen symptoms.
+The patient is an adult presenting with swelling in the left groin as the chief complaint. The swelling began a few days ago, has increased in size and discomfort, and is associated with bruising and skin discoloration but no warmth, redness, fever, or recent trauma. The patient also reports bilateral forearm pain extending to the elbows, which worsens with movement and improves with rest, as well as occasional chest pain and lightheadedness. There is no history of injury or systemic symptoms such as chills or feeling unwell.
+
+The clinical impression discussed includes possible causes such as changes in circulation, hernia, or mild strain, though no definitive diagnosis was documented. The treatment plan emphasized monitoring for warning signs (increasing pain, spreading redness, warmth, fever, or difficulty moving the limb) and seeking prompt medical care if these occur. Supportive measures recommended include gentle rest, elevation of affected areas, and avoiding aggravating activities. The patient was advised to report any new or worsening symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.560
+- **Model Used**: general
+- **Text1 Length**: 127 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

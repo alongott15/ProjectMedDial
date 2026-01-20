@@ -93,16 +93,23 @@ If things don’t improve in the next few days, or if your nausea gets worse, it
 
 ## EHR Summary
 
-The patient is a 44-year-old female presenting with abdominal pain accompanied by nausea and vomiting. Her abdominal pain began the day prior to admission, was initially intermittent in the upper abdomen, later localized to the lower abdomen, and reached an intensity of 8 at its worst; she experienced at least 10 episodes of vomiting, which progressed from clear to bilious, without hematemesis. She has a history of ulcerative colitis status post proctocolectomy and ileostomy, multiple prior episodes of small bowel obstruction due to adhesions, GERD, depression, seasonal allergies, frequent UTIs (on nitrofurantoin), and a reducible incisional hernia. On admission, she was still passing gas from her ileostomy. The documented diagnosis was small bowel obstruction secondary to adhesions. Treatment included an exploratory laparotomy with lysis of adhesions, small bowel resection with primary anastomosis, and two small bowel repairs. She has allergies to Flagyl, Bactrim, and Reglan.
+The patient is a 44-year-old female presenting with abdominal pain, nausea, and vomiting. She reported intermittent upper then lower abdominal pain (worst intensity 8/10), associated with at least 10 episodes of vomiting (initially clear, then bilious) and no blood, beginning the day prior to admission. Her history is significant for ulcerative colitis status post proctocolectomy with ileostomy, multiple prior small bowel obstructions, GERD, depression, frequent UTIs, and allergies to Flagyl, Bactrim, and Reglan. Imaging and clinical evaluation revealed a small bowel obstruction likely due to adhesions. She underwent exploratory laparotomy with lysis of adhesions, small bowel resection with primary anastomosis, and small bowel repairs, followed by a period of ICU care and gradual recovery. Postoperatively, she required TPN, IV fluids, loperamide for high ostomy output, wound care for a surgical site infection, and was transitioned to a low residue diet as tolerated. At discharge, her condition was stable with controlled pain, adequate oral intake, and instructions for wound and ostomy care, medication management, and follow-up were provided.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about increased ostomy output. Over the past few days, the output has become more liquid in consistency, changing from a mashed potato texture to a more fluid state, and is constant throughout the day and night. The patient also reported nausea and some vomiting but denied fever, unusual tiredness, dehydration symptoms (such as dry mouth, lightheadedness, or decreased urine), dietary changes, or skin irritation around the stoma. The patient is able to keep fluids down and maintain usual activities, though needs to take breaks due to nausea. On examination, there were no signs of dehydration or skin irritation noted. The doctor assessed that the changes may be due to a mild stomach upset, short-lived infection, or temporary gut change, with no immediate cause for concern given current hydration status and activity level. The doctor recommended monitoring fluid intake and urine output, eating smaller frequent meals with foods that thicken output (such as bananas, rice, or applesauce), and tracking symptoms; the patient was advised to seek care if dehydration symptoms develop or if nausea worsens.
+The patient is an adult presenting with increased ostomy output as the chief complaint. Over the past few days, the patient has experienced a change in ostomy output consistency from mashed potato-like to more liquid, with increased volume that is constant throughout the day and night. Associated symptoms include nausea and occasional vomiting, but there are no signs of dehydration (such as dry mouth, lightheadedness, or decreased urine output) and no skin irritation around the stoma. The patient denies recent dietary changes and reports being able to maintain most usual activities, though with some inconvenience due to nausea.
+
+The clinical impression is that the increased, more liquid ostomy output is likely due to a mild gastrointestinal upset, a short-lived infection, or a temporary change in gut function. The treatment plan includes monitoring fluid intake and urine output for signs of dehydration, eating smaller and more frequent meals, and considering foods that may help thicken ostomy output (such as bananas, rice, or applesauce). The patient is advised to seek care if symptoms worsen, dehydration develops, or if there is no improvement within a few days. No new medications or interventions were prescribed at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.433
+- **Model Used**: general
+- **Text1 Length**: 167 words
+- **Text2 Length**: 194 words
+
 
 ## Processing Information
 

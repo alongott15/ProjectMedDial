@@ -68,16 +68,21 @@
 
 ## EHR Summary
 
-The patient is a 72-year-old male presenting with left leg pain following a fall approximately 24 hours prior to admission. He reports lying on the floor for about 24 hours after the fall, with unclear precipitating factors and no witnessed loss of consciousness or seizure activity. Additional symptoms included vomiting coffee ground material two to three days before admission, and ongoing coffee ground emesis in the Emergency Department. Relevant history includes untreated diabetes mellitus for three years and a dysfunctional right lower extremity prosthesis. On evaluation, he was found to have a left subtrochanteric comminuted femur fracture, diabetic ketoacidosis (anion gap 28, blood glucose 689), and an upper gastrointestinal bleed. Laboratory findings included elevated creatine kinase (CK up to 3523), high MB indexes, and markedly elevated troponin (>50). The documented diagnoses were left femur fracture, diabetic ketoacidosis, and upper GI bleed. Treatment included nasogastric tube lavage for GI bleed and supportive care for diabetic ketoacidosis; further management details are not specified.
+The patient is a 72-year-old male presenting with left leg pain following a fall approximately 24 hours prior to admission. He reported lying on the floor for about a day after the fall and also experienced vomiting of coffee ground material two to three days before admission. On evaluation, he was found to have a left subtrochanteric comminuted femur fracture, diabetic ketoacidosis (blood glucose 689, anion gap 28), an upper gastrointestinal bleed, and an acute myocardial infarction with new ECG changes and elevated troponin. His past medical history includes diabetes mellitus, coronary artery disease, hypercholesterolemia, peripheral vascular disease, right below-knee amputation, and urinary incontinence; he had not taken any medications for three years and has no known drug allergies. The documented diagnoses were left femur fracture, diabetic ketoacidosis, upper gastrointestinal bleed (likely Mallory-Weiss tear), and acute myocardial infarction. Treatment included insulin drip and fluids for diabetic ketoacidosis, aspirin, beta blocker, ACE inhibitor, heparin, and later Plavix for myocardial infarction, as well as cardiac catheterization with stent placement. Orthopedic management involved initial Buck's traction followed by open reduction internal fixation of the femur fracture; pain was managed with Percocet and blood transfusions were given as needed. The patient was stabilized and planned for rehabilitation and further outpatient follow-up for cardiac and gastrointestinal concerns.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about blood loss due to bleeding into the left thigh following a femur fracture, as well as bruising around the scrotum. The patient reported noticing the scrotal bruising a couple of days ago, with the color becoming darker but was unsure about changes in size. Additional symptoms included swelling and increased pain in the left thigh, along with greater difficulty moving the leg since the bleeding began. The patient denied feeling lightheaded or short of breath but did report feeling more tired than usual. No information was provided regarding past medical history, medications, or allergies. On clinical questioning, the doctor noted the presence of bruising and swelling, and connected these findings to possible ongoing blood loss. The doctor assessed that the symptoms may be related to bleeding after the femur fracture and monitored for signs of systemic effects such as fatigue. No specific treatment recommendations or advice were given during this portion of the conversation.
+The patient presents with concern about blood loss due to bleeding into the left thigh following a femur fracture. Key symptoms include swelling, increased pain, and difficulty moving the left leg since the onset of bleeding, as well as bruising around the scrotum that has darkened in color over the past couple of days. The patient denies lightheadedness and shortness of breath but reports feeling more tired than usual. Relevant history includes a recent femur fracture. No formal diagnosis or clinical impression was documented in this dialogue. No specific treatment or recommendations were provided during this exchange.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.485
+- **Model Used**: general
+- **Text1 Length**: 212 words
+- **Text2 Length**: 97 words
+
 
 ## Processing Information
 

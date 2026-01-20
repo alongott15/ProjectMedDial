@@ -87,16 +87,23 @@ For now, focus on resting and trying small sips of fluid frequently. Avoid solid
 
 ## EHR Summary
 
-The patient is a 60-year-old female presenting with 24 hours of nausea, vomiting, chills, and diarrhea. Symptoms began after eating egg salad from a vending machine, with subsequent nonbilious, nonbloody vomiting, three episodes of nonbloody watery diarrhea, lower abdominal pain, increased thirst, polyuria, and subjective confusion; she denied chest pain or shortness of breath. Her medical history includes insulin-dependent diabetes mellitus (with nephropathy, neuropathy, retinopathy, and autonomic dysfunction), coronary artery disease (status post CABG), chronic renal insufficiency, hypertension, bilateral carotid stenosis (status post left CEA), hypercholesterolemia, recurrent pancreatitis, prior cholecystectomy, and gastroparesis. In the Emergency Department, her blood glucose was 961 mg/dL, anion gap 39, and bicarbonate 11 mmol/L. The documented diagnosis was diabetic ketoacidosis (DKA) likely precipitated by gastrointestinal illness. Treatment included intravenous insulin via drip and administration of 3 liters of normal saline prior to transfer to the Medical Intensive Care Unit.
+The patient is a 60-year-old female presenting with 24 hours of nausea, vomiting, chills, and diarrhea. Symptoms began after consuming egg salad from a vending machine, with subsequent nonbloody vomiting, watery diarrhea, lower abdominal pain, increased thirst, polyuria, and subjective confusion; she denied chest pain or dyspnea. Her medical history includes insulin-dependent diabetes mellitus (with nephropathy, neuropathy, retinopathy), coronary artery disease, chronic renal insufficiency, hypertension, and other comorbidities; she has no known drug allergies. On admission, laboratory findings revealed severe hyperglycemia (glucose 961 mg/dL), high anion gap metabolic acidosis (anion gap 39, bicarbonate 11), acute renal failure (creatinine 3.0), and leukocytosis. The documented diagnoses were diabetic ketoacidosis and gastroenteritis, likely secondary to food poisoning. Treatment included intravenous fluids, insulin drip, correction of electrolyte abnormalities, blood transfusion for anemia, and adjustment of antihypertensive medications. She was transitioned back to her home insulin regimen and discharged in stable condition with follow-up arranged with primary care, endocrinology, and gynecology.
+
 
 ## Dialogue Summary
 
-The patient presented with sudden onset of nausea and vomiting beginning yesterday. Symptoms included persistent nausea, multiple episodes of vomiting (without blood or unusual color), chills, lower abdominal pain described as a dull, intermittent ache, occasional chest pain with movement, watery diarrhea (about three times, no blood), increased thirst, frequent urination, weakness, fatigue, urgency and cramping with diarrhea, and occasional confusion. The patient reported difficulty performing daily activities due to weakness and tiredness. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted the combination of acute gastrointestinal symptoms with signs of dehydration (increased thirst, weakness, fatigue, and frequent urination), and explained these are most often due to viral or bacterial gastroenteritis. The doctor emphasized the importance of hydration, advising the patient to sip fluids (water, clear broth, or oral rehydration solutions) frequently and to avoid solid foods until vomiting resolves. The patient was instructed to seek medical attention if unable to keep fluids down, if dizziness, dry mouth, reduced urine output, severe abdominal pain, persistent vomiting, blood in stool, or worsening confusion occur. The doctor recommended rest and gradual reintroduction of bland foods once symptoms improve.
+The patient is an adult presenting with the chief complaint of acute onset nausea and vomiting since yesterday. Key symptoms include sudden onset of nausea, vomiting, chills, lower abdominal pain (described as a dull, intermittent ache), watery diarrhea with urgency and cramping (three episodes, no blood), chest pain with movement, increased thirst, frequent urination, weakness, fatigue, and difficulty performing daily activities. The patient reports being able to keep down small amounts of fluids but feels very weak and occasionally confused. There is no blood in vomitus or stool.
+
+Relevant history, medications, and allergies are not specified. The clinical impression documented by the doctor is likely acute gastroenteritis, possibly viral or bacterial in origin, with concern for dehydration due to ongoing fluid losses. The treatment plan includes supportive care with a focus on oral hydration (frequent small sips of water, clear broth, or oral rehydration solutions), rest, and gradual reintroduction of bland foods once vomiting subsides. The doctor advised monitoring for warning signs such as inability to keep fluids down, dizziness, decreased urine output, severe abdominal pain, persistent vomiting, or blood in stool, which would require further medical attention.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.641
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 188 words
+
 
 ## Processing Information
 

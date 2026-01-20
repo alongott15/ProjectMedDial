@@ -85,16 +85,21 @@ For now, you can use over-the-counter pain relief if needed and avoid chewing to
 
 ## EHR Summary
 
-The patient is a 27-year-old female presenting with a chief complaint of left-sided headache for two weeks. Symptoms included left facial and tooth pain as well as some double vision. She has no significant past medical history and no drug allergies. On examination, she exhibited a left sixth nerve palsy, with otherwise normal cranial nerve and muscle strength findings. Imaging revealed a large (4 cm) fusiform aneurysm in the sella region of the left internal carotid artery. The documented diagnosis was left internal carotid artery aneurysm. Treatment included GDC coil embolization and permanent balloon occlusion of the left internal carotid artery, which she tolerated well. She was discharged home in stable condition with instructions for outpatient follow-up.
+The patient is a 27-year-old female presenting with a chief complaint of left-sided headache for two weeks. Symptoms included left facial and tooth pain, as well as some double vision; examination revealed a left sixth nerve palsy and impaired lateral gaze past midline in the left eye. Past medical history was not significant, and she had no drug allergies. Imaging studies (CT and MRI) identified a large left cavernous internal carotid artery aneurysm. The documented diagnosis was left cavernous internal carotid artery aneurysm. Treatment included diagnostic angiogram, GDC coil embolization, and permanent balloon occlusion of the left internal carotid artery. The patient tolerated the procedure well, had an uneventful postoperative course, and was discharged home in stable condition. She was advised to follow up with her physician in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with a left-sided headache persisting for a couple of weeks. Symptoms included a dull ache that sometimes became sharper, rated up to 7 out of 10 in intensity, with associated double vision and pain in the face and teeth on the same side as the headache; chewing worsened the pain, but there was no numbness, nausea, sensitivity to light or sound, or worsening with cold air or bending over. The patient denied any prior similar headaches, recent dental work, dental issues, or sinus symptoms such as congestion or runny nose. No relevant medical history, medications, or allergies were mentioned. The doctor noted that the combination of headache, facial and tooth pain aggravated by chewing, and double vision is unusual for common headaches or dental problems and may suggest involvement of nerves or muscles around the eye. The assessment was that while most causes are benign, the presence of double vision warrants prompt in-person evaluation to rule out more serious conditions. The doctor advised the patient to seek in-person assessment soon, monitor for new symptoms such as weakness, trouble speaking, or changes in balance, use over-the-counter pain relief if needed, and avoid chewing tough foods. The patient understood and agreed with the recommendations.
+The patient is an adult presenting with a chief complaint of a left-sided headache persisting for a couple of weeks. The headache is described as a dull ache that occasionally becomes sharper, with a severity rated up to 7 out of 10, and is accompanied by double vision and pain in the left side of the face and teeth. The pain worsens with chewing but is not associated with nausea, sensitivity to light or sound, numbness, recent dental issues, or sinus symptoms. There is no relevant prior history of similar headaches or dental problems reported. The clinical impression is that the combination of headache, facial/tooth pain, and double vision is atypical for common headaches or dental causes and may indicate involvement of nerves or muscles around the eye. The doctor recommended prompt in-person evaluation to rule out serious causes, advised monitoring for new neurological symptoms (such as weakness, speech changes, or balance issues), and suggested over-the-counter pain relief and avoiding tough foods. The patient was instructed to seek care promptly if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.548
+- **Model Used**: general
+- **Text1 Length**: 130 words
+- **Text2 Length**: 177 words
+
 
 ## Processing Information
 

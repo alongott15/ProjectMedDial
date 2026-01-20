@@ -87,16 +87,21 @@ Let me know if you have questions about what to expect or how to care for the ar
 
 ## EHR Summary
 
-The patient is a 43-year-old female presenting with recurrent inflammation and drainage of the right axilla. She reported a cystic lesion in the right axilla for seven days, with increasing pain and a cyst rupture three days prior to admission, followed by brownish, foul-smelling drainage. Associated symptoms included nausea and vomiting (twice, one day before admission), but no fever, chills, sweats, diarrhea, constipation, or urinary symptoms. Her relevant history includes HIV, hepatitis C, noninsulin dependent diabetes mellitus, gastritis, lipidemia, and prior episodes of hidradenitis suppurativa with previous lancing procedures. On physical exam, she was afebrile with slight tachycardia and otherwise stable vital signs. The documented diagnosis is recurrent hidradenitis suppurativa of the right axilla. Treatment included ongoing antiretroviral therapy, diabetes management with insulin, and symptomatic management with Tylenol; specific interventions for the axillary lesion during this admission are not detailed. No drug allergies were reported.
+The patient is a 43-year-old female presenting with recurrent inflammation and drainage of the right axilla, consistent with hidradenitis suppurativa. She reported a cystic lesion in the right axilla for seven days prior to admission, which burst three days before admission, resulting in increasing pain and brownish, foul-smelling drainage; she also experienced two episodes of nausea and vomiting one day prior to admission. Her relevant history includes HIV, hepatitis C, insulin-dependent diabetes mellitus, gastritis, and dyslipidemia, with previous similar episodes and surgical interventions for hidradenitis suppurativa. On examination, there was indurated skin with copious purulent drainage in the right axilla, but a full assessment was limited by pain. The documented diagnosis was recurrent hidradenitis suppurativa status post multiple examinations under anesthesia with incision and drainage, and VAC (vacuum-assisted closure) placement. Treatment included multiple surgical debridements and drainages of the right axilla, intravenous antibiotics (Levofloxacin, Flagyl, Vancomycin), pain management with Percocet, continued diabetes management, and placement of a VAC dressing. The patient was discharged in good condition to a rehabilitation facility for ongoing wound care and antibiotics, with follow-up arranged with infectious disease and plastic surgery for possible future reconstruction.
+
 
 ## Dialogue Summary
 
-The patient presented with pain in the armpit associated with a burst cyst. The pain began before the cyst ruptured and worsened afterward, currently rated as 7 out of 10 in severity; movement of the arm increases discomfort, and no position provides relief. The patient reported swelling, warmth, redness around the drainage site, increased fatigue, and drainage that has become thicker, brownish, and foul-smelling; nausea and vomiting (twice) were also mentioned since the pain worsened. No fever or chills were reported, and the pain remains localized to the armpit without spreading to the arm or chest. The doctor noted clinical signs of possible local infection or abscess due to changes in drainage and skin appearance, despite absence of systemic symptoms like fever. The assessment was that the area may be developing an infection following cyst rupture. The doctor recommended keeping the area clean and dry, avoiding squeezing or pressing on it, washing hands before and after touching the area, and seeking prompt medical care if redness spreads, swelling increases, or fever develops; antibiotics may be needed after in-person evaluation.
+The patient is presenting with pain and drainage from a cyst that recently burst in the armpit. The pain began before the cyst ruptured but worsened afterward, currently rated as 7 out of 10, and is aggravated by arm movement. The area is described as swollen, red, warm, and draining thicker, foul-smelling brownish fluid; the patient also reports increased fatigue and two episodes of vomiting but denies fever or chills. The pain remains localized to the armpit without spreading to the arm or chest. There is no documented relevant medical history, medications, or allergies. The clinical impression is a possible local infection (abscess) developing at the site of the ruptured cyst, based on changes in drainage and skin appearance. The treatment plan includes keeping the area clean and dry, avoiding manipulation, monitoring for worsening symptoms (such as spreading redness, increased swelling, or fever), and seeking in-person evaluation soon; antibiotics may be needed if infection is confirmed. The patient was advised on warning signs and appropriate self-care until further assessment.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.457
+- **Model Used**: general
+- **Text1 Length**: 189 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

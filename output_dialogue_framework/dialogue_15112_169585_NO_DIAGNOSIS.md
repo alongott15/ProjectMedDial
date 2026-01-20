@@ -87,16 +87,21 @@ For now, focus on rest and keep track of when the pressure happens. Does that pl
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with a history of chest pain since 2156. He was found to have 3-vessel coronary artery disease on cardiac catheterization. His past medical history includes hypertension, hypercholesterolemia, gout, aphthous stomatosis, gastroesophageal reflux disease, and abnormal movements in sleep; admission medications included atenolol, Accupril, Lipitor, allopurinol, colchicine, ranitidine, and aspirin. On admission, he underwent a five-vessel coronary artery bypass graft (CABG) and had an uncomplicated postoperative course, including successful weaning from the ventilator and extubation. On the day of discharge, his hematocrit was 19.7, and he received 2 units of packed red blood cells after discussion of risks and benefits. Physical exam at discharge showed stable vital signs, clear lungs, a clean and intact incision, and no abdominal tenderness. The documented diagnosis was multivessel coronary artery disease status post CABG. The treatment plan included transfusion, advancement of diet, and routine postoperative care.
+The patient is a 61-year-old male presenting with a history of chest pain since 2156. He was found to have 3-vessel coronary artery disease on cardiac catheterization. His past medical history includes hypertension, hypercholesterolemia, gout, aphthous stomatosis, gastroesophageal reflux disease, and abnormal movements in sleep; admission medications included atenolol, Accupril, Lipitor, allopurinol, colchicine, ranitidine, and aspirin. The documented diagnosis was multivessel coronary artery disease. He underwent a five-vessel coronary artery bypass graft surgery and had an uncomplicated postoperative course. On the day of discharge, he was stable and comfortable but received 2 units of packed red blood cells for a hematocrit of 19.7. He was discharged home in stable condition with instructions to follow up with his physician in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest pain was described as a pressure-like sensation, moderate in severity, occurring over the past few days and triggered by physical activity such as walking or climbing stairs; it typically lasted a few minutes and resolved with rest. The patient denied associated symptoms such as shortness of breath, sweating, or lightheadedness, and noted that the discomfort was distinct from occasional heartburn related to known reflux. No additional medical history, medications, or allergies were discussed. On assessment, the doctor noted that the exertional chest pressure without alarming symptoms could be related to cardiac blood flow but also considered other possible causes. The doctor advised the patient to avoid strenuous activity until further evaluation and recommended arranging an EKG and basic blood work to assess cardiac health. The patient was instructed to seek immediate care if symptoms worsened or new symptoms developed, and to keep a log of episodes. The patient understood and agreed with the plan.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is described as a moderate, pressure-like discomfort that began a few days ago, occurs with exertion (such as climbing stairs), lasts a few minutes, and resolves with rest; there are no associated symptoms such as dyspnea, sweating, or lightheadedness. The patient has a history of reflux with occasional heartburn, but reports that the chest pressure is not related to eating or digestive symptoms. The clinical impression is that the exertional chest pressure could be related to cardiac causes, though musculoskeletal or less serious etiologies are also considered. No definitive diagnosis was made during this encounter. The treatment plan includes avoiding strenuous activity, monitoring symptoms, and arranging further evaluation with an EKG and basic blood work. The patient was advised to seek immediate medical attention if symptoms worsen, occur at rest, or are accompanied by new symptoms such as severe shortness of breath, sweating, nausea, or fainting. The patient agreed to the plan and will keep track of symptom episodes.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.503
+- **Model Used**: general
+- **Text1 Length**: 121 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

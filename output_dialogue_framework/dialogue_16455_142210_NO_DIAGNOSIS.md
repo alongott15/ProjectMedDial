@@ -87,16 +87,23 @@ In the meantime, try to avoid eating or drinking anything that could go down the
 
 ## EHR Summary
 
-The patient is a 63-year-old female presenting with respiratory failure. She experienced increasing respiratory distress, intermittent fevers, thick greenish sputum, bowel distention, and vomiting following a recent tracheostomy tube change, during which food was found in the trachea and air was noted in her stomach. Her history includes chronic obstructive pulmonary disease (COPD) requiring chronic ventilator support via tracheostomy, hypertension, depression, hypercholesterolemia, anxiety, coronary artery disease, and prior non-Q wave myocardial infarction. Allergies include sulfa, codeine, Augmentin, and shellfish. Bronchoscopy revealed a posterior tracheal ulcer near the tracheostomy site, and a tracheoesophageal fistula could not be ruled out. She was started on Vancomycin for Methicillin-resistant Staphylococcus aureus and Ceftazidime for Proteus. The documented clinical impression was respiratory failure with possible tracheoesophageal fistula. Treatment included targeted antibiotics and transfer for further evaluation.
+The patient is a 63-year-old female presenting with respiratory failure. She experienced increasing respiratory distress, intermittent fevers, thick greenish sputum, bowel distention, and vomiting following a tracheostomy tube change, with food discovered in the trachea and evidence of air in the stomach. Her history includes chronic obstructive pulmonary disease (COPD) requiring chronic ventilator support via tracheostomy, hypertension, depression, hypercholesterolemia, anxiety, coronary artery disease, and prior MRSA infection; allergies include sulfa, codeine, Augmentin, and shellfish. On admission, she was found to have aspiration pneumonia and a significant tracheoesophageal fistula confirmed by bronchoscopy and endoscopy. The fistula was surgically repaired, and she received a new gastrostomy tube for decompression and a jejunostomy tube for feeding. She was treated with Clindamycin, Ceftazidime, and Vancomycin for pneumonia, and later Gentamicin for a postoperative urinary tract infection. Her respiratory status improved with continued ventilator support and bronchodilators for COPD. Additional management included blood pressure control, pain management, electrolyte repletion, nutritional support, and prophylaxis with a proton pump inhibitor and subcutaneous heparin.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening difficulty breathing. Symptoms included significant shortness of breath limiting daily activities, coughing up thick greenish sputum, intermittent chest discomfort, increased fatigue, episodes of confusion and difficulty staying awake, and intermittent fevers. The patient also reported progressive difficulty swallowing, with frequent episodes of food or liquids going down the wrong way, occasional choking, gagging, vomiting, and a history of food being found in the trachea; coughing often occurred immediately after swallowing. No wheezing, chills, or night sweats were noted. Relevant history included aspiration events but no specific past medical history, medications, or allergies were mentioned. The doctor assessed that the combination of worsening breathing difficulties, fatigue, confusion, and aspiration events raised concern for possible aspiration pneumonia and inadequate oxygenation. The doctor strongly recommended prompt medical attention the same day, further evaluation including chest imaging and swallowing assessment, and advised the patient to avoid eating or drinking anything that could be aspirated and to rest. The patient acknowledged understanding and agreed to seek care.
+The patient presents with progressive dyspnea as the chief complaint. Symptoms include gradually worsening shortness of breath, significant limitation of daily activities, productive cough with thick greenish sputum, intermittent fevers, chest discomfort, and marked fatigue with episodes of confusion and difficulty staying awake. The patient also reports dysphagia with frequent episodes of aspiration, including coughing, gagging, vomiting, and occasional choking after swallowing, and a history of food being found in the trachea. There is no mention of wheezing, chills, or night sweats.
+
+Relevant history includes recent aspiration events and possible aspiration pneumonia suggested by the combination of fever, productive cough, and aspiration symptoms. The clinical impression is concern for aspiration pneumonia and possible hypoxemia due to impaired airway protection and infection. The doctor strongly recommends prompt medical evaluation, including possible chest imaging and swallowing assessment. The patient is advised to avoid oral intake that could lead to further aspiration, rest as much as possible, and seek emergency care if symptoms worsen (such as increased confusion or cyanosis).
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.627
+- **Model Used**: general
+- **Text1 Length**: 166 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

@@ -182,3 +182,21 @@ In the meantime, try to keep your head elevated when resting, and avoid any tigh
 ## Processing Information
 
 - **Processing Time**: 445.7s
+
+## EHR Summary
+
+The patient is a 47-year-old male presenting with stage IIIB (T4) carcinoma of the right lung and symptoms of superior vena cava (SVC) syndrome, including facial swelling. He had a history of biopsy-proven non-small cell lung cancer, prior chemoradiotherapy, and was admitted for surgical management due to persistent disease. On admission, he underwent bronchoscopy, median sternotomy, right upper lobectomy en bloc with SVC and brachiocephalic vein resection, mediastinal lymphadenectomy, and Gore-Tex reconstruction of the SVC and brachiocephalic veins. Postoperative imaging showed stable right-sided hydropneumothorax and expected postoperative changes; his recovery was unremarkable with well-controlled pain and independent ambulation. The documented diagnosis was status post median sternotomy for mediastinal mass with Gore-Tex reconstruction to the SVC. Discharge medications included aspirin, metoprolol tartrate, and oxycodone-acetaminophen as needed for pain. He was discharged home in good condition with instructions to monitor for fever, chest pain, shortness of breath, or wound issues, and to follow up with his physician.
+
+
+## Dialogue Summary
+
+The patient is an adult with a history of stage IIIB lung cancer, superior vena cava (SVC) syndrome, and recent thoracic surgery, presenting with new-onset facial swelling. The swelling began a few days ago and has remained stable without progression. The patient denies associated symptoms such as dyspnea (shortness of breath), chest pain, chest pressure, headaches, or vision changes, but reports some anxiety related to the swelling. Relevant history includes prior SVC syndrome and thoracic surgery, which increase the risk for recurrence or cancer progression. The clinical impression is concern for possible recurrence of SVC syndrome, cancer progression, infection, or post-surgical changes. The doctor advised prompt contact with the oncology team for in-person evaluation, including possible physical examination and imaging (such as CT scan) to assess for obstruction or recurrence. The patient was instructed to monitor for new symptoms (e.g., sudden dyspnea, chest pain, confusion, or rapidly worsening swelling) and seek urgent care if these occur. Supportive measures recommended include keeping the head elevated and avoiding tight clothing around the neck.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.754
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 171 words
+

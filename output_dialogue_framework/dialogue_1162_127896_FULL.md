@@ -90,3 +90,23 @@ Let me know if you notice anything that seems to make your symptoms better or wo
 ## Processing Information
 
 - **Processing Time**: 249.5s
+
+## EHR Summary
+
+The patient is a 53-year-old man presenting for evaluation of a brain tumor. He reported a history of pulsatile tightness, poor balance, dizziness, mid-frontal headaches radiating to the back of his head, and pressure in his right ear, with symptoms beginning in August 2114 and not relieved by antibiotics or physical therapy. His past medical history includes insulin-dependent diabetes, angina, and prior angioplasty with three stent placements. MRI revealed a right temporal brain mass, and he subsequently underwent a right temporal craniotomy for tumor resection. The documented diagnosis is brain tumor. Postoperatively, his neurological exam was stable and unremarkable. Treatment included Depakote 500 mg orally three times daily for one week, Decadron tapered to 2 mg twice daily over 1-2 weeks, Zantac, Percocet as needed, and continuation of his home medications (Univasc, Niacin, Atenolol, Actose). He was discharged home in stable condition with follow-up scheduled in the brain tumor clinic.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with a chief complaint of persistent, pulsatile tightness and moderate, steady mid-frontal headache radiating to the back of the head, ongoing for approximately two weeks. Key symptoms include a constant pressure sensation in the right ear and unsteadiness while walking, especially when turning the head or changing directions; there is no vertigo (spinning), vision changes, speech disturbance, weakness, or numbness. The patient denies hearing changes or ringing in the affected ear. Relevant history regarding recent infections, allergies, or other medical conditions is not specified.
+
+The clinical impression is that the symptoms may be related to inner ear dysfunction, such as vestibular dysfunction or Eustachian tube problems, rather than a serious neurological cause. The treatment plan includes monitoring for new or worsening symptoms (such as severe headache, double vision, speech difficulty, or weakness), maintaining gentle activity, staying hydrated, and avoiding sudden head movements. The patient is advised to seek in-person evaluation if symptoms persist beyond another week or worsen. No medications or specific interventions were prescribed at this time.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.510
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 174 words
+

@@ -87,16 +87,21 @@ Let me know if you have any questions about what we've discussed or if there's a
 
 ## EHR Summary
 
-The patient is a 52-year-old female presenting with shortness of breath on exertion and chest pain over the past year. Symptoms were associated with moderate aortic stenosis confirmed by cardiac catheterization, with an ejection fraction of 77% and an A-V gradient of 39 mmHg. Relevant history includes aortic stenosis on echocardiogram, hyperlipidemia, and prior cesarean section. Home medications included Prempro, atenolol, Fortaz XT, and aspirin. On physical examination, she had a regular heart rate and rhythm, normal sinus, and a clean, dry surgical incision. The documented diagnosis was moderate aortic stenosis. She underwent a Bentall procedure and recovered well postoperatively, with stable vital signs at discharge. Discharge medications included Lopressor, Lasix (for five days), potassium supplement, aspirin, and Prempro, and she was advised to follow up in three to four weeks.
+The patient is a 52-year-old female presenting with shortness of breath on exertion and chest pain over the past year. Symptoms were associated with moderate aortic stenosis confirmed by cardiac catheterization, with an ejection fraction of 77% and normal mitral and aortic valve function otherwise. Her past medical history includes aortic stenosis, hyperlipidemia, and prior cesarean section. The documented diagnosis was moderate aortic stenosis. She underwent a Bentall procedure on admission and had an uncomplicated postoperative course, including successful extubation, removal of chest tube, and ambulation to level 5. At discharge, her vital signs were stable (BP 122/80, HR 79-80, O2 saturation 95% on room air), and her incision was clean and intact. Discharge medications included Lopressor, Lasix (for five days), potassium supplement, aspirin, and Prempro. She was advised to follow up with her physician in three to four weeks and declined home nursing care.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath during exertion, such as climbing stairs or walking quickly. They reported associated chest pain described as a tightness or pressure, also triggered by physical activity and not constant. Symptoms began a few weeks ago and have remained steady without worsening or improvement; there was no cough, wheezing, unusual fatigue, swelling in the ankles or feet, or nighttime breathlessness. The patient denied any other triggers and noted symptoms are consistently brought on by activities like brisk walking or stair climbing. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of swelling, orthopnea, cough, or fatigue made heart failure or lung infection less likely, but emphasized the need to rule out underlying heart issues due to exertional symptoms. The doctor recommended further evaluation with an ECG and basic blood tests and advised the patient to avoid strenuous activity until testing is complete. The patient was instructed to seek immediate care if new symptoms such as pain at rest, severe shortness of breath, dizziness, or sweating develop.
+The patient is an adult presenting with exertional shortness of breath and chest tightness as the chief complaint. Symptoms include mild dyspnea and a sensation of chest pressure or tightness, primarily triggered by activities such as climbing stairs or brisk walking; these symptoms have been steady for several weeks without worsening or improvement. The patient denies associated symptoms such as cough, wheezing, unusual fatigue, peripheral edema, or paroxysmal nocturnal dyspnea. No relevant past medical history, medications, or allergies were documented. The clinical impression is that the symptoms may be related to decreased cardiac oxygen supply during exertion, but there is no definitive diagnosis documented. The treatment plan includes further evaluation with an ECG and basic blood tests, along with advice to avoid strenuous activity until more information is available. The patient was instructed to seek immediate care if new symptoms such as pain at rest, severe shortness of breath, dizziness, or sweating develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
+- **STS Score**: 0.536
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

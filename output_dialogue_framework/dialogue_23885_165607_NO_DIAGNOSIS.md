@@ -96,3 +96,21 @@ Let me ask—has the chest pressure been getting better, worse, or staying about
 ## Processing Information
 
 - **Processing Time**: 296.1s
+
+## EHR Summary
+
+The patient is a 50-year-old male presenting with acute dysarthria and chest pain at rest. He has a history of hepatitis B, hepatitis C, intravenous drug abuse, recurrent aspiration pneumonia, schizoaffective disorder, peripheral neuropathy, chronic obstructive pulmonary disease, and hypertension. During hospitalization, an abdominal CT scan revealed portal vein air, and emergent exploratory laparotomy found total toxic megacolon. The patient underwent total colectomy and ileostomy at the mucous fistula. Postoperatively, he developed high ostomy output (4–5 liters/day) leading to dehydration and acute kidney injury (creatinine increased to 3.5), which improved with aggressive hydration. Clostridium difficile culture was sent from the ostomy output. The patient’s renal function returned to baseline, and his recovery was otherwise unremarkable. He began tolerating oral diet by postoperative day 11, and follow-up CT showed no complications.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with chest pressure as the chief complaint. The chest pressure began two days ago, is rated 5 out of 10 in severity, and is described as non-radiating and pressure-like, occurring mainly at rest without associated symptoms such as dyspnea, diaphoresis, or lightheadedness. The discomfort has remained stable since onset and does not interfere with daily activities. There are no clear triggers identified, and the patient denies any recent worsening. Relevant medical history includes COPD, hypertension, and recurrent aspiration pneumonia; there is no history of myocardial infarction. The clinical impression is that a serious cardiac or pulmonary emergency is less likely given the absence of severe or progressive symptoms, but caution is advised due to underlying conditions. The physician provided reassurance and education regarding the symptoms and emphasized monitoring for any new or worsening signs.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.221
+- **Model Used**: general
+- **Text1 Length**: 130 words
+- **Text2 Length**: 140 words
+

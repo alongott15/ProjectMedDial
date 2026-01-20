@@ -190,3 +190,21 @@ Let me know if you have any questions or concerns about these steps. Your safety
 ## Processing Information
 
 - **Processing Time**: 328.4s
+
+## EHR Summary
+
+The patient is a 22-year-old female presenting with headache, fever, dry cough, vomiting, and inability to tolerate oral intake for three days. She developed hyperglycemia (glucose up to 715 mg/dL), deep breathing, and was found to have severe metabolic acidosis (arterial pH 6.97, bicarbonate <5), elevated anion gap (34), and ketonuria on admission. Her past medical history includes type 1 diabetes for five years, infected gingiva, prior hypoglycemia, and a recent miscarriage; she has no known drug allergies. The documented diagnosis was diabetic ketoacidosis, likely precipitated by infection. Treatment included intravenous fluids, continuous insulin infusion, correction of electrolyte abnormalities, and close monitoring of glucose and anion gap. She was transitioned to her outpatient insulin regimen with sliding-scale adjustments as her condition improved. At discharge, she was in good condition and advised to continue NPH insulin and sliding-scale regular insulin, with follow-up arranged with endocrinology and primary care.
+
+
+## Dialogue Summary
+
+The patient is an adult with type 1 diabetes presenting with several days of persistent headache, fever, dry cough, vomiting, and inability to keep down food or fluids. Symptoms are accompanied by dry mouth and mildly tender sinuses; the patient reports higher-than-usual blood sugars but has not checked ketones recently. The patient has continued taking regular insulin and NPH despite difficulty eating. The physician notes concern for dehydration and the risk of diabetic ketoacidosis (DKA) given the combination of type 1 diabetes, vomiting, inability to tolerate oral intake, and hyperglycemia. The documented clinical impression is possible dehydration and high risk for DKA. The physician strongly advises immediate medical evaluation at urgent care or the emergency department for assessment, intravenous fluids, ketone testing, and insulin management. The patient is instructed to bring insulin and supplies to facilitate care and to seek emergency help if symptoms worsen (e.g., rapid breathing, abdominal pain, confusion). Ongoing communication is encouraged if new symptoms arise or questions develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.734
+- **Model Used**: general
+- **Text1 Length**: 147 words
+- **Text2 Length**: 162 words
+

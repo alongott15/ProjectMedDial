@@ -87,16 +87,23 @@ Let me ask—can you describe what the pain feels like? Is it sharp, dull, tight
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with a chief complaint of chronic throat pain, particularly with exertion, which had worsened over the past few months. He denied symptoms at rest. His past medical history includes hypertension, and he was previously on isosorbide (discontinued due to nausea), metoprolol, Accupril, and aspirin; he has no known drug allergies. Stress echocardiogram revealed ST depressions in inferior and lateral leads and pronounced anterior wall motion abnormality, with an ejection fraction of 60%. Cardiac catheterization showed a 30% left main lesion, 100% occlusion of the left anterior descending and circumflex arteries, moderate ostial disease in diagonal 1, and a 30% mid right coronary artery lesion. On physical exam, heart sounds were normal, lungs were clear, and distal pulses were present. The documented diagnosis was severe multi-vessel coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) times three with vein grafts to the left anterior descending, diagonal, and obtuse marginal arteries.
+The patient is a 61-year-old male presenting with a chief complaint of many years of throat pain, especially with exertion, which had worsened over the past few months. He denied symptoms at rest. His past medical history includes hypertension, and he was previously on isosorbide (discontinued due to nausea), metoprolol, Accupril, and aspirin; he has no known drug allergies. Cardiac workup revealed ST depressions on stress echocardiogram and cardiac catheterization showed significant coronary artery disease with 100% occlusions in the left anterior descending and circumflex arteries. The documented diagnoses were status post coronary artery bypass grafting times three, coronary artery disease, and hypertension. He underwent CABG x3 with vein grafts to the LAD, diagonal, and obtuse marginal arteries. Postoperatively, he experienced some nausea and lower extremity edema but recovered well with diuresis and supportive care. At discharge, he was stable and prescribed Lopressor, Colace, aspirin, Percocet as needed, Lasix for seven days, and potassium supplementation, with instructions for follow-up in two to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with throat pain, especially during physical exertion. The discomfort was rated as 6 out of 10 in severity, described as a deep tightness or pressure in the throat that gradually worsens with activity and improves after a few minutes of rest. Additional symptoms included shortness of breath, reduced energy, and occasional nausea with vomiting during severe episodes; no hoarseness, difficulty swallowing, cough, or voice changes were reported. The throat pain has been present for a few months and has increased in frequency and intensity over time. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the exertion-related nature of the symptoms and expressed concern about possible underlying circulation or heart function issues, given the activity-triggered pain and shortness of breath. The doctor advised monitoring for new symptoms such as chest pain, dizziness, or sweating with activity and recommended a general check-up with basic tests to investigate underlying causes.
+The patient is an adult presenting with throat pain as the chief complaint. The discomfort is described as a tightness or pressure deep in the throat, rated 6 out of 10 in severity, and is primarily triggered by physical exertion, building up gradually during activity and easing within minutes of rest. The symptoms have been present for several months and are worsening in frequency and intensity; associated symptoms include exertional shortness of breath, reduced energy, and occasional nausea with vomiting during severe episodes. The patient denies hoarseness, dysphagia, cough, or voice changes, and reports no triggers other than physical activity.
+
+No specific diagnosis was documented, but the physician expressed concern for possible underlying circulatory or cardiac causes given the exertional nature of symptoms and associated shortness of breath. The treatment plan includes monitoring for new symptoms such as chest pain, dizziness, or sweating with activity, seeking prompt care if these develop, and proceeding with a general check-up and basic tests to evaluate for underlying causes. No medications or interventions were prescribed at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.446
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 174 words
+
 
 ## Processing Information
 

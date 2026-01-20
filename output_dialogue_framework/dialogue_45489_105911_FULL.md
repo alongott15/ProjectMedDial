@@ -87,16 +87,21 @@ For now, continue with small, frequent sips of fluids that contain electrolytes,
 
 ## EHR Summary
 
-The patient is a 44-year-old female presenting with abdominal pain accompanied by nausea and vomiting. Symptoms began the day prior to admission, with intermittent upper then lower abdominal pain (worst intensity 8/10), and at least 10 episodes of vomiting progressing from clear to bilious, without blood. She has a history of ulcerative colitis status post proctocolectomy and ileostomy, multiple prior small bowel obstructions, GERD, depression, seasonal allergies, frequent UTIs (on nitrofurantoin), and a reducible incisional hernia; she is allergic to Flagyl, Bactrim, and Reglan. On admission, she was still passing gas from her ileostomy. The documented diagnosis was small bowel obstruction due to adhesions. She underwent exploratory laparotomy with lysis of adhesions, small bowel resection with primary anastomosis, and two small bowel repairs. Postoperative management included pain control and monitoring.
+The patient is a 44-year-old female presenting with abdominal pain accompanied by nausea and vomiting. Her symptoms began the day prior to admission, with intermittent upper then lower abdominal pain (worst intensity 8/10), and at least 10 episodes of vomiting (initially clear, then bilious), without blood. She has a history of ulcerative colitis status post proctocolectomy with ileostomy, multiple prior small bowel obstructions, GERD, depression, and frequent UTIs; allergies include Flagyl, Bactrim, and Reglan. Imaging and clinical evaluation revealed a small intestinal obstruction, likely secondary to adhesions. She was initially managed conservatively but required exploratory laparotomy with lysis of adhesions, small bowel resection with primary anastomosis, and small bowel repairs. Postoperatively, she received TPN, IV fluids, loperamide for ostomy output, wound care for a surgical site infection, and was gradually advanced to a low residue diet. At discharge, her condition was stable with well-controlled pain, tolerating oral intake, and she was provided with ostomy supplies, wound care instructions, and follow-up arrangements.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about increased ostomy output. Over the past few days, the output has become more liquid in consistency compared to the usual mashed potato texture, with no clear food or activity triggers identified. Associated symptoms include nausea and occasional vomiting, but no fever, unusual tiredness, or abdominal pain; the patient reports difficulty staying hydrated and disruption of daily activities due to frequent emptying and nausea. The patient is able to keep some fluids down, though it remains challenging. No relevant medical history, medications, or allergies were discussed beyond the presence of an ostomy. The doctor assessed that the increased, more watery ostomy output with nausea and vomiting may be due to faster intestinal transit, possibly from a mild stomach bug, gut flora change, or dietary factor, with dehydration as the primary concern. The doctor recommended sipping oral rehydration solutions containing electrolytes, avoiding foods and drinks that worsen diarrhea, and monitoring for signs of dehydration such as inability to keep fluids down, weakness, dizziness, or dark urine. If symptoms do not improve within 24-48 hours or worsen, the patient was advised to seek further medical attention.
+The patient presents with the chief complaint of increased ostomy output. Over the past several days, the output has become more liquid in consistency and remains higher than usual, with no identified dietary or activity-related triggers. Associated symptoms include nausea and occasional vomiting, but no abdominal pain, fever, or unusual fatigue; the patient is able to keep some fluids down but finds it challenging to stay hydrated. This change is significantly impacting daily activities. The clinical impression is that the increased, more liquid ostomy output may be due to rapid intestinal transit, possibly from a mild gastrointestinal infection or dietary change, though no specific diagnosis is documented. The treatment plan includes focusing on oral rehydration solutions containing electrolytes, avoiding foods and drinks that may worsen diarrhea, and monitoring for signs of dehydration such as inability to keep fluids down, weakness, dizziness, or dark urine. The patient is advised to seek medical attention if symptoms worsen or do not improve within 24–48 hours.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.502
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

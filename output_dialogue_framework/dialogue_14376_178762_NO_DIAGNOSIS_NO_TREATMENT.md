@@ -85,16 +85,21 @@ Let me ask—how much are these symptoms affecting your day-to-day life right no
 
 ## EHR Summary
 
-The patient is a 68-year-old female presenting with shortness of breath. She reported a history of hypertension, hypercholesterolemia, diabetes mellitus, congestive heart failure, and recent positive exercise treadmill test. She was referred for cardiac catheterization, which revealed two-vessel coronary artery disease. On admission, physical exam showed she was in no acute distress, with stable vital signs and no jugular venous distension or abnormal heart/lung findings. Laboratory results on admission indicated anemia (hemoglobin 7.4 g/dL, hematocrit 21.8%) and thrombocytopenia, which improved during hospitalization. The documented diagnosis was two-vessel coronary artery disease. She underwent coronary artery bypass grafting (LIMA to LAD, SVG to Ramus) on admission. The treatment plan included surgical revascularization and supportive care during recovery; no drug allergies were reported.
+The patient is a 68-year-old female presenting with shortness of breath. She reported dyspnea in the context of a history of hypertension, hypercholesterolemia, diabetes mellitus, and congestive heart failure, and had a recent positive exercise treadmill test. Cardiac catheterization revealed two-vessel coronary artery disease (80% stenosis in both LAD and LCx), leading to admission for coronary artery bypass grafting (CABG x2: LIMA to LAD, SVG to Ramus) on the day of admission. Her postoperative course was notable for transient hypotension requiring vasopressor support and blood transfusions, but she gradually stabilized and was able to ambulate prior to discharge. The documented diagnoses included coronary artery disease status post CABG x2, hypertension, hypercholesterolemia, diabetes mellitus, congestive heart failure, and other chronic conditions. At discharge, she was prescribed metoprolol, aspirin, pantoprazole, furosemide, atorvastatin, docusate, oxycodone-acetaminophen as needed, potassium chloride, and insulin. She was instructed on wound care, activity restrictions (no lifting over 10 pounds for 2 months, no driving for 1 month), and to follow up with her physicians as scheduled.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble catching their breath. They reported that the shortness of breath worsens with activity such as walking or climbing stairs and improves with rest, and is not noticeable when sitting still. Additional symptoms included swelling in the ankles (stable day-to-day, not worsening), occasional lightheadedness, and no chest pain; the symptoms developed gradually over the past couple of weeks. The patient uses a couple of pillows at night but does not wake up needing to sit up to breathe. They noted a slightly lower blood pressure reading at home recently. The doctor assessed that the symptoms—exertional shortness of breath, ankle swelling, and occasional lightheadedness—may relate to how the heart or circulation is managing fluid, with other possible causes including mild kidney changes or medication effects. The patient reported needing to slow down with some activities but can still do most chores. The doctor explained these possible causes and discussed the relationship between fluid retention and the patient’s symptoms.
+The patient is an adult presenting with the chief complaint of shortness of breath. The dyspnea is exertional, worsening with activity such as walking or climbing stairs, and improves with rest; it has developed gradually over the past couple of weeks. Associated symptoms include bilateral ankle swelling (edema) that has remained stable and occasional lightheadedness, with no chest pain or orthopnea reported. The patient notes a recent slightly lower blood pressure reading at home and reports mild limitation in daily activities due to these symptoms. Relevant history regarding medications, allergies, or chronic conditions is not specified in the dialogue. The clinical impression discussed by the doctor suggests possible fluid retention related to cardiac or circulatory function, with other considerations including mild changes in kidney function or medication side effects. No definitive diagnosis was documented during the conversation. The doctor provided education about potential causes and assessed the impact on daily life but did not specify a treatment plan or further recommendations in this dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
+- **STS Score**: 0.498
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

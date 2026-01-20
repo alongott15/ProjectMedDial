@@ -87,16 +87,23 @@ In the meantime, keep track of your symptoms—especially if they get worse or i
 
 ## EHR Summary
 
-The patient is a 26-year-old female presenting with symptoms related to a pituitary tumor. She reported polyuria, polydipsia, significant weight gain, galactorrhea, and cessation of menses beginning in July 2152. Her past medical history is notable for diabetes insipidus, for which she was taking nasal DDAVP; there were no known drug allergies. Physical examination revealed stable vital signs and an unremarkable cardiac exam. MRI showed diffuse thickening and enhancement of the pituitary infundibulum with a partially empty sella turcica, and lumbar puncture revealed 4% atypical cells and 4% macrophages of unclear significance. The documented diagnosis was pituitary tumor. Treatment included continued use of DDAVP for diabetes insipidus and a plan for pituitary tumor biopsy. She was also taking monthly vitamin D supplementation.
+The patient is a 26-year-old female presenting with symptoms related to a pituitary tumor. She reported polyuria, polydipsia, significant weight gain, galactorrhea, and cessation of menses, with no headache, visual changes, or other neurological deficits. Her history is notable for diabetes insipidus managed with DDAVP and no known drug allergies. MRI showed progressive enlargement of a pituitary infundibular mass, and she underwent right frontal craniotomy with resection of the pituitary stalk lesion. The documented diagnosis was pituitary tumor. Postoperatively, she was treated with intravenous hydrocortisone, continued on DDAVP nasal spray, and later discharged on a prednisone taper. She was advised to monitor urine output and sodium levels and to follow up with neurosurgery and endocrinology for ongoing management and steroid adjustment.
+
 
 ## Dialogue Summary
 
-The patient presented with increased thirst and frequent urination as the chief complaint. She reported drinking large amounts of water and needing to use the bathroom much more often, which has disrupted her daily routine and sleep; these symptoms have persisted for at least a few weeks. Additional symptoms include rapid weight gain over the same period, persistent thirst despite drinking water, nighttime awakenings for water and urination, galactorrhea (milk production from breasts), and amenorrhea (cessation of menstrual periods); appetite and energy levels remained unchanged. No relevant medical history, medications, or allergies were mentioned. The doctor noted the combination of increased thirst, polyuria, rapid weight gain, galactorrhea, and amenorrhea, suggesting a possible hormone imbalance, potentially involving the pituitary gland or other hormonal systems. The assessment was that these symptoms are unlikely to be caused by common factors such as diet or stress and warrant further evaluation. The doctor recommended scheduling a visit with a healthcare provider for blood tests and possible imaging to assess hormone levels and pituitary function, advised tracking symptoms (especially new or worsening ones like headaches, vision changes, or weakness), and seeking prompt care if feeling very unwell or experiencing sudden changes.
+The patient is a female presenting with increased thirst (polydipsia) and frequent urination (polyuria) as her chief complaint. She reports these symptoms have persisted for at least several weeks, significantly disrupting her daily routine and sleep, as she wakes multiple times nightly to drink water and urinate. Additional symptoms include rapid, unexplained weight gain over the same period, persistent thirst despite drinking water, amenorrhea (cessation of menstrual periods), and new-onset galactorrhea (milk discharge from breasts). She denies changes in appetite or energy levels.
+
+Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression is that her constellation of symptoms suggests a possible hormone imbalance, potentially related to pituitary gland dysfunction or another hormonal system disorder. The treatment plan includes a recommendation to schedule a healthcare provider visit for blood tests and possible imaging to evaluate hormone levels and pituitary function. She was also advised to monitor her symptoms closely and seek prompt care if she develops new or worsening issues such as headaches, vision changes, or weakness.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.565
+- **Model Used**: general
+- **Text1 Length**: 121 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

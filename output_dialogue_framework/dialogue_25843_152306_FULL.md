@@ -89,16 +89,21 @@ Does anything in particular seem to trigger or relieve your symptoms? And have y
 
 ## EHR Summary
 
-The patient is a 61-year-old female presenting for postoperative care following a right upper lobectomy performed on 2157-11-23. Prior to planned discharge, she developed sinus tachycardia with heart rates in the 130–140 range while ambulating, accompanied by pain at the incision site. Her incision was noted to be clean, dry, and intact. On evaluation by the house officer, her heart rate had decreased to 100–110 in regular sinus rhythm, and her vital signs were stable with oxygen saturation at 95% and blood pressure of 120/75. The documented clinical impression was postoperative sinus tachycardia. The treatment plan included initiation of low-dose Lopressor (metoprolol) 12.5 mg twice daily. The patient was otherwise stable at the time of assessment.
+The patient is a 61-year-old female presenting for post-operative care following a right upper lobectomy performed on 2157-11-23. Prior to planned discharge, she developed sinus tachycardia with heart rates in the 130–140 range while ambulating, and reported pain at the incision site. The incision was noted to be clean, dry, and intact, and her heart rate subsequently decreased to 100–110 bpm. She was otherwise stable, with oxygen saturation at 95% and blood pressure of 120/75. Relevant history includes recent thoracic surgery; no allergies or chronic medications are specified. The clinical impression was post-operative sinus tachycardia likely related to pain and activity. The treatment plan included initiation of low-dose Lopressor (metoprolol) 12.5 mg twice daily. The patient remained stable for discharge with this adjustment.
+
 
 ## Dialogue Summary
 
-The patient presented with pain at the chest incision site. The pain was described as a steady aching discomfort, rated 6 out of 10 in severity, and had persisted for several days without improvement; no redness, swelling, warmth, or drainage was noted. The patient also reported episodes of heart racing, with a high pulse even while at rest, but denied lightheadedness or fainting. No specific triggers were identified, though resting provided slight relief. There was no mention of relevant medical history, medications, or allergies. On assessment, the doctor noted steady discomfort at the chest incision and episodes of tachycardia, emphasizing concern due to the elevated heart rate occurring at rest. The doctor recommended monitoring heart rate and watching for additional symptoms such as shortness of breath, dizziness, or feeling faint, advising prompt evaluation if these occur or if tachycardia persists. Additional advice included resting, avoiding heavy lifting, keeping the incision clean and dry, and reporting any new redness, swelling, or drainage.
+The patient is an adult presenting with pain at a chest incision site as the chief complaint. The pain is described as a steady, aching discomfort rated 6 out of 10 in severity, beginning a few days ago and persisting since onset. There are no associated signs of infection such as redness, swelling, warmth, or drainage. The patient also reports episodes of heart racing (tachycardia), occurring even at rest, but denies lightheadedness, fainting, or specific triggers; resting provides slight relief. Relevant history includes recent chest surgery or procedure (implied by the presence of a chest incision). The clinical impression is ongoing post-incisional pain with new-onset tachycardia, with concern for possible post-procedural cardiac effects. The treatment plan includes monitoring heart rate, watching for additional symptoms (shortness of breath, dizziness, faintness), and seeking prompt evaluation if these develop or if tachycardia persists. Additional recommendations are to rest, avoid heavy lifting, keep the incision clean and dry, and report any new signs of infection.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.668
+- **Model Used**: general
+- **Text1 Length**: 123 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

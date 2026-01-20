@@ -87,16 +87,21 @@ Next, I’d suggest we consider a basic evaluation to look at your heart and lun
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with a chief complaint of chronic throat pain, especially with exertion, which had worsened over the past few months but was absent at rest. He denied symptoms at rest and reported no other acute complaints. His past medical history is significant for hypertension, and he was previously on isosorbide (discontinued due to nausea), metoprolol, Accupril, and aspirin; he has no known drug allergies. Stress echocardiogram showed ST depressions in inferior and lateral leads with pronounced anterior wall motion abnormality and an ejection fraction of 60%. Cardiac catheterization revealed a 30% left main lesion, 100% left anterior descending lesion, moderate ostial disease in diagonal 1, 100% circumflex lesion, and a 30% mid right coronary artery lesion. On physical exam, heart sounds were normal, lungs were clear, and distal pulses were present. The documented diagnosis was severe multivessel coronary artery disease. Treatment included coronary artery bypass grafting times three with vein grafts to the left anterior descending, diagonal, and obtuse marginal arteries.
+The patient is a 61-year-old male presenting with a many-year history of throat pain, especially with exertion, which had increased over the past few months but was absent at rest. He denied symptoms at rest and had no known drug allergies; his medical history includes hypertension and prior use of isosorbide (discontinued due to nausea), metoprolol, Accupril, and aspirin. Cardiac evaluation revealed ST depressions on stress echocardiogram and significant coronary artery disease on catheterization, including 100% occlusions of the left anterior descending and circumflex arteries. The documented diagnoses were status post coronary artery bypass grafting times three, coronary artery disease, and hypertension. He underwent CABG x3 with vein grafts to the LAD, diagonal, and obtuse marginal arteries. Postoperatively, he experienced some nausea and lower extremity edema but was otherwise hemodynamically stable and improved with diuresis and supportive care. At discharge, he was stable and prescribed Lopressor, Colace, aspirin, Percocet as needed, Lasix for seven days, and potassium supplementation for seven days. He was instructed to follow up with his cardiologist in two to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with throat pain, especially during physical exertion. The pain is described as internal and deep, worsens with activity, and is accompanied by occasional shortness of breath on the left side, nausea, and episodes of vomiting when severe; severity is rated 7/10 at worst and symptoms improve with rest. The patient reported no difficulty swallowing, voice changes, or symptom changes with eating or drinking, but noted that daily activities like walking and chores are affected. No relevant medical history, medications, or allergies were mentioned. On examination, no physical findings were described; all symptoms were self-reported. The doctor assessed that the exertion-triggered symptoms, gradual worsening over months, and relief with rest may suggest involvement of the heart, lungs, or neuromuscular system rather than digestive causes. The doctor advised the patient to limit activities that provoke symptoms and to seek immediate care for chest pain, severe shortness of breath, or fainting. A basic evaluation of heart and lung function was recommended to rule out serious conditions.
+The patient is an adult presenting with throat pain as the chief complaint. The throat pain is described as internal, worsened by physical exertion, rated up to 7 out of 10 in severity, and is accompanied by nausea and occasional vomiting; symptoms have progressively worsened over several months. The patient also reports intermittent dyspnea, particularly on the left side, but denies dysphagia or voice changes. Symptoms are triggered by activity and relieved with rest, and are not affected by eating or drinking. The discomfort has impacted daily activities such as walking and household chores. Relevant history, medications, and allergies are not specified. The clinical impression is that the symptoms may be related to the body's response to exertion, possibly involving the heart, lungs, or neuromuscular system, with digestive causes considered less likely. The treatment plan includes activity modification (taking it easy with exertion), monitoring for warning signs (chest pain, severe shortness of breath, fainting), and arranging a basic evaluation of the heart and lungs.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.426
+- **Model Used**: general
+- **Text1 Length**: 175 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

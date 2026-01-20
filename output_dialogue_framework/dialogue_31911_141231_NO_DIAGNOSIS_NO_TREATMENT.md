@@ -71,16 +71,21 @@
 
 ## EHR Summary
 
-The patient is a 71-year-old male presenting with neck pain following a fall that resulted in a C2 fracture. He reported neck pain as the primary symptom, with no additional neurological deficits documented. His past medical history includes Crohn's disease (status post procto-colectomy), melanoma of the left forearm, prior right elbow surgery, benign prostatic hyperplasia, degenerative joint disease, right knee replacement, hypertension, and erectile dysfunction; he has allergies to amoxicillin, Flagyl, and latex. On physical exam, he was alert and oriented, in no acute distress, with intact motor strength and sensation in all extremities and symmetric reflexes. Laboratory results showed mild thrombocytopenia (platelet count 92–115) but were otherwise unremarkable. The documented diagnosis was C2 cervical spine fracture. Treatment included placement of a halo-vest for immobilization. No additional interventions or complications were noted during the admission.
+The patient is a 71-year-old male presenting with neck pain following a fall that resulted in a C2 fracture. He reported neck pain as the primary symptom, and physical examination revealed no neurological deficits. His relevant medical history includes Crohn's disease (status post proctocolectomy), melanoma of the left forearm, prior right elbow surgery, benign prostatic hyperplasia, degenerative joint disease, right knee replacement, hypertension, and erectile dysfunction; he also has allergies to amoxicillin, Flagyl, and latex. The documented diagnosis was C2 fracture. The patient underwent halo-vest placement without complication and received postoperative DVT prophylaxis, intravenous antibiotics, and oral pain control. Discharge instructions included wound care for the halo-vest pin sites, activity restrictions (no lifting over 10 lbs, frequent walking), continuation of home medications (excluding NSAIDs), and use of prescribed pain medication as needed. Follow-up with the orthopedic surgeon was recommended in two weeks, and the patient was discharged in good condition to an extended care facility.
+
 
 ## Dialogue Summary
 
-The patient presented with neck pain as the chief complaint. The pain began a few days ago, is intermittent rather than constant, and is rated as 6 out of 10 at its worst. Turning the head to the side worsens the pain, while looking down is less uncomfortable; twisting the neck is also described as uncomfortable. The pain interferes with getting comfortable at night but does not prevent most daily activities. The patient denied any numbness, tingling, or weakness in the arms or hands. No recent changes in activity, new exercise routines, or heavy lifting were reported. The doctor inquired about home pain management strategies but did not provide specific recommendations before the simulation ended.
+The patient is an adult presenting with neck pain as the chief complaint. The neck pain began a few days ago, is intermittent rather than constant, and is rated as 6 out of 10 at its worst. The discomfort is aggravated by turning the head to the side but not significantly affected by looking down; it interferes with sleep but does not prevent most daily activities. The patient denies any numbness, tingling, or weakness in the arms or hands. There is no history of recent unusual activity, new exercise routines, or heavy lifting that might have contributed to the symptoms. Relevant medical history, medications, allergies, and a formal diagnosis are not specified in the dialogue. Treatment recommendations or advice have not yet been documented.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.447
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 124 words
+
 
 ## Processing Information
 

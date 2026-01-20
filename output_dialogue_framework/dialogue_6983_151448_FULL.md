@@ -85,16 +85,21 @@ If you notice any additional problems—like confusion that gets worse, sudden d
 
 ## EHR Summary
 
-The patient is a 74-year-old male presenting with decreased attention, increased lethargy, and increased right-sided weakness following a recent fall and subacute left subdural hematoma. Symptoms included right-sided weakness (strength 4+ to 4-/5), lethargy, and right-sided drift, with the family noting worsening attention and weakness prior to admission. His medical history includes hepatic encephalopathy with cirrhosis, insulin-dependent diabetes mellitus, coronary artery disease status post coronary artery bypass grafting, atrial fibrillation, gout, myelodysplastic syndrome, and myelofibrosis. On examination, he was alert and oriented but lethargic, with decreased right-sided strength and intact sensation. Head CT showed a stable chronic left subdural hematoma with 8 mm midline shift and slight decrease in mass effect. The documented clinical impression was worsening neurological status due to chronic subdural hematoma. Treatment included correction of coagulopathy and twist drill bedside drainage of the subdural hematoma. He was monitored in the intensive care unit during his hospital course.
+The patient is a 74-year-old male presenting with decreased attention, increased lethargy, and increased right-sided weakness. Symptoms included right-sided weakness (strength 4+ to 4-/5), lethargy, and right-sided drift, with onset noted by family prior to admission. Relevant history includes hepatic encephalopathy with cirrhosis, insulin-dependent diabetes mellitus, coronary artery disease status post coronary artery bypass grafting, atrial fibrillation, gout, myelodysplastic syndrome, and myelofibrosis. On examination, he was alert and oriented but had decreased right-sided strength and mild neurological deficits. Head CT revealed a stable chronic left subdural hematoma with 8 mm midline shift. The documented diagnosis was chronic left subdural hematoma with associated neurological symptoms. Treatment included correction of coagulopathy and twist drill bedside drainage of the subdural hematoma, resulting in clinical improvement; his beta-blocker was changed from Lopressor to atenolol due to liver metabolism concerns. He was discharged in stable condition with follow-up planned and a repeat head CT scheduled in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with increased tiredness and decreased alertness over the past few days. Symptoms included persistent lethargy throughout the day, trouble focusing on conversations and activities, and increased weakness on the right side, all of which began around the same time and have made daily tasks such as dressing more difficult. The patient denied changes in sleep, appetite, or mood, and reported no specific triggers or times of day that worsened symptoms. No relevant medical history, medications, or allergies were mentioned during the encounter. On review, the doctor noted the sudden onset of decreased attention, energy, and right-sided weakness affecting daily functioning. The assessment included consideration of possible causes such as mild infection, medication reaction, blood flow changes, nutrition, or dehydration. The doctor recommended a basic check-up including vital signs and review of recent health changes, and advised the patient to watch for warning signs such as worsening confusion, sudden speech difficulty, severe headache, chest pain, or new vision problems.
+The patient presents with increased tiredness and decreased alertness as the chief complaint. Over the past few days, they have experienced persistent lethargy, difficulty focusing, and increased weakness on the right side, all of which began around the same time. The symptoms are constant throughout the day and have made it harder to perform usual daily activities such as getting dressed. The patient denies changes in sleep, appetite, or mood. Relevant history regarding medications, allergies, or prior medical conditions is not specified. No specific diagnosis was documented during the encounter; possible causes discussed include mild infection, medication reaction, changes in blood flow, nutrition, or dehydration. The treatment plan includes a basic check-up with vital signs and review of recent health or medication changes. The patient was also advised to monitor for warning signs such as worsening confusion, sudden speech difficulty, severe headache, chest pain, or new vision problems, which would require prompt attention.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.509
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

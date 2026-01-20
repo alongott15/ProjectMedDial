@@ -85,16 +85,21 @@ If anything new comes up—like persistent fatigue, unexplained changes in your 
 
 ## EHR Summary
 
-The patient is a 59-year-old female presenting with chest pain and increased weakness. She denied orthopnea and palpitations but reported dyspnea; review of systems was otherwise negative for significant cardiopulmonary or gastrointestinal symptoms. Her medical history includes type 2 diabetes, hypertension, hypercholesterolemia, depression, two prior cerebrovascular accidents with right-sided hemiparesis, and spinal stenosis. Home medications include Plavix, aspirin, Lipitor, atenolol, trazodone, and Lantus; she has no known drug allergies. Cardiac catheterization revealed an ejection fraction of 59%, 50% ostial and mid stenosis in the left anterior descending artery, 80% mid diagonal stenosis, 50–60% diffuse distal stenosis, and 60% proximal stenosis in the left circumflex artery. The documented diagnosis was coronary artery disease with multiple areas of moderate to severe stenosis. The treatment plan included outpatient cardiac catheterization and continuation of her current medications.
+The patient is a 59-year-old female presenting with chest pain and increased weakness. She denied orthopnea and palpitations but reported dyspnea; initial workup ruled out myocardial infarction and epidural abscess, and subsequent cardiac catheterization revealed three-vessel coronary artery disease with preserved ejection fraction. Her medical history includes type 2 diabetes, hypertension, hypercholesterolemia, depression, prior cerebrovascular accidents with right-sided hemiparesis, and spinal stenosis. During this admission, she underwent elective coronary artery bypass grafting (CABG) times four and atrioseptal defect repair, which she tolerated well, with an uncomplicated postoperative course except for a small area of wound necrosis at the vein harvest site managed with local care. The documented diagnoses at discharge were status post catheterization, status post CABG and atrioseptal defect repair, depression, history of cerebrovascular accident, hypertension, hypercholesterolemia, and diabetes type 2. Treatment included continuation of home medications (Aspirin, Plavix, Lipitor, Trazodone, Lantus), addition of Colace and Percocet as needed, wound care with wet-to-dry dressings, and physical therapy. She was discharged in stable condition, ambulating independently, tolerating a regular diet, and instructed to follow up with her cardiologist and primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented for a general health check-in without any specific complaints. They reported no changes in energy, sleep, appetite, weight, mood, or physical activity, and denied any new discomfort, limitations, unusual aches or pains, or recent infections. The patient stated that they are up to date on blood pressure checks and preventive screenings, with no changes in medications or health routines. No relevant medical history, allergies, or medication changes were mentioned. The doctor found no concerning clinical findings based on the patient's responses and noted that overall health appears stable. The assessment was that the patient is maintaining good health and preventive care with no current symptoms or concerns requiring intervention. The doctor recommended continuing healthy habits such as regular activity, balanced nutrition, and stress management, and advised reaching out if any new symptoms or questions arise. The patient expressed understanding and had no further questions at this time.
+The patient presented for a general health check-in without any specific chief complaint. They reported no changes in energy, sleep, appetite, weight, mood, or physical activity, and denied any new discomfort, limitations, unusual aches, pains, or recent infections. The patient is up to date on preventive health screenings and has not experienced any changes in medications or routine care. There is no relevant medical history, allergies, or current medications documented in this encounter. The clinical assessment was that the patient's overall health is stable with no ongoing symptoms or concerns requiring attention. The treatment plan focused on continuing current healthy habits, maintaining regular preventive screenings, and encouraging the patient to reach out if new symptoms or questions arise. No new interventions or medications were recommended. The patient expressed understanding and reassurance regarding their health status.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.937
-- **Similarity Label**: N/A
+- **STS Score**: 0.256
+- **Model Used**: general
+- **Text1 Length**: 182 words
+- **Text2 Length**: 135 words
+
 
 ## Processing Information
 

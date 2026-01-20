@@ -98,3 +98,21 @@ Let me know if you have any questions about managing these symptoms at home or i
 ## Processing Information
 
 - **Processing Time**: 442.8s
+
+## EHR Summary
+
+The patient is a 60-year-old male presenting with chest pain. He reported a three-day history of upper respiratory symptoms (cough, rhinorrhea, sore throat) followed by sudden onset of dull, inspiratory chest pain that improved when sitting forward and recurred with increasing intensity throughout the day, without associated dyspnea, diaphoresis, or gastrointestinal symptoms. He has no prior medical history, takes no regular medications, and has no known drug allergies; notable risk factors include a 40-pack-year tobacco history and family history of myocardial infarction. On admission, he was found to be in atrial fibrillation with ST elevations on ECG and a small pericardial effusion on echocardiogram. The documented diagnoses were pericarditis with atrial fibrillation and evidence of old inferior myocardial infarction. Treatment included Motrin for pericarditis pain, amiodarone and beta blockers for rhythm control, anticoagulation with heparin, Coumadin, and Lovenox, and management of bilateral phlebitis with Keflex. The patient was discharged in good condition with instructions for outpatient follow-up and continued medications including aspirin, metoprolol, amiodarone, Coumadin, Lovenox, and Keflex.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is described as a pressure sensation, without clear triggers or alleviating factors, and has been present for a few days without significant change. Associated symptoms include cough, sore throat, and clear runny nose, all of which began around the same time as the chest pain; there is no nasal congestion. The patient has a history of phlebitis in both legs with ongoing leg pain but denies new swelling or redness. The documented clinical impression is a mild upper respiratory infection, such as a common cold or viral bronchitis, with symptoms likely related to viral airway inflammation rather than phlebitis. The treatment plan includes rest, hydration, and over-the-counter remedies for symptom relief. The patient was advised to monitor for new or worsening symptoms such as severe shortness of breath, sudden or worsening chest pain, or leg swelling/redness, and to seek care if these occur. No changes to current medications were recommended based on the information provided.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.637
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 171 words
+

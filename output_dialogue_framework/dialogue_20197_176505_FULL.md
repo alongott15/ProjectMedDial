@@ -97,16 +97,23 @@ Let me know if you'd like tips on adjusting your activities or have questions ab
 
 ## EHR Summary
 
-The patient is a 67-year-old male presenting with exertional angina. Over the month prior to admission, he experienced chest pressure during activities such as raking leaves or carrying groceries, but denied chest discomfort at rest; he also reported longstanding dyspnea. His medical history includes diabetes (with retinopathy and neuropathy), hypertension, sleep apnea (on home oxygen), cataracts, and a history of smoking. On stress testing, he exercised for five and a half minutes, achieving 21% of his age-predicted heart rate, with symptoms attributed to dyspnea and light fatigue; nuclear imaging showed inferoapical ischemia and an ejection fraction of 44%. He has no known drug allergies and was taking aspirin, Cardura, Monopril, Prilosec, Glucophage, Ultra Lente insulin, Humalog insulin, Atrovent, and Albuterol. On admission, cardiac catheterization revealed three-vessel disease (full details not provided). The documented diagnosis was exertional angina with evidence of coronary artery disease. Treatment included ongoing medical management and cardiac catheterization for further evaluation.
+The patient is a 67-year-old male presenting with exertional angina. Over the month prior to admission, he experienced exertional chest pressure during activities such as raking leaves or carrying groceries, without chest discomfort at rest; he also reported longstanding dyspnea. His medical history includes diabetes, diabetic retinopathy and neuropathy, hypertension, sleep apnea (on home oxygen), cataracts, and a long history of smoking. Cardiac catheterization revealed three vessel coronary artery disease, and nuclear imaging showed inferoapical ischemia with an ejection fraction of 44%. The documented diagnosis was three vessel coronary artery disease with exertional angina. He underwent a four-vessel coronary artery bypass graft without complications and had an uneventful postoperative recovery. Discharge medications included ipratropium, insulin, metformin, aspirin, metoprolol, albuterol, and others; he was advised to follow up with his cardiologist and primary care physician within four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure during activity, such as walking or climbing stairs. Symptoms included chest pressure, shortness of breath, and increased fatigue with exertion, requiring the patient to stop and rest; these symptoms have persisted for at least a couple of weeks and typically resolve quickly with rest. The patient reported oxygen saturation dropping into the 80s during physical therapy, with baseline levels in the low 90s, and noted that chest pressure and oxygen desaturation occur simultaneously during exertion. No associated symptoms of sweating, nausea, lightheadedness, leg or ankle swelling, or difficulty lying flat were reported. The doctor assessed that exertional chest pressure and breathlessness with oxygen desaturation may indicate underlying heart or lung issues, but noted that the stability of symptoms is reassuring. The doctor recommended pacing activities, monitoring oxygen during exertion, using prescribed oxygen, and keeping a log of episodes and activities. The patient was advised to seek urgent care if new symptoms such as persistent chest pain, fainting, or severe shortness of breath at rest develop.
+The patient presents with chest pressure during exertion as the chief complaint. Symptoms include chest pressure and shortness of breath that occur with activity (such as walking, climbing stairs, or physical therapy), sometimes accompanied by fatigue, and are relieved quickly with rest; these episodes have been present for at least a couple of weeks and are associated with oxygen desaturation into the 80s during exertion (baseline in the low 90s). The patient denies associated symptoms such as sweating, nausea, lightheadedness, leg swelling, or orthopnea, and reports no worsening of symptoms over time. Relevant history includes the use of supplemental oxygen at night and participation in physical therapy; specific diagnoses or chronic conditions are not detailed in the dialogue.
+
+The clinical impression is that exertional chest pressure and dyspnea with oxygen desaturation may be related to underlying heart or lung issues, though no definitive diagnosis is documented. The treatment plan includes pacing activities, taking breaks as needed, continuing prescribed oxygen use, and monitoring oxygen levels during exertion. The patient is advised to keep a log of episodes and to seek urgent care if new symptoms develop, such as chest pain unrelieved by rest, fainting, or severe shortness of breath at rest.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.541
+- **Model Used**: general
+- **Text1 Length**: 137 words
+- **Text2 Length**: 200 words
+
 
 ## Processing Information
 

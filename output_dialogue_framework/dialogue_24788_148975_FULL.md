@@ -99,16 +99,21 @@ We’ll work together to get some answers and help you feel safer and more comfo
 
 ## EHR Summary
 
-The patient is a 78-year-old female presenting with exertional angina, shortness of breath (SOB), and dizziness. She has a history of aortic stenosis (AS) and was referred for evaluation after experiencing angina and dyspnea on exertion (DOE). Her past medical history includes hypertension, dyslipidemia, GERD, osteoporosis, and prior abdominal and hernia surgeries. Physical exam revealed a 3/6 systolic ejection murmur at the left sternal border and positive carotid bruits; laboratory results showed mild anemia and thrombocytopenia. Cardiac catheterization demonstrated significant coronary artery disease and severe AS with a valve area of 0.7 cm². The documented diagnosis was severe aortic stenosis with associated angina and coronary artery disease. She underwent aortic valve replacement (AVR) with a #19 CE Magna pericardial valve and repair of the coronary sinus. Postoperative recommendations and further management are not specified in the note.
+The patient is a 78-year-old female presenting with exertional angina, shortness of breath (SOB), and dizziness. She reported angina and dyspnea on exertion, with a history of aortic stenosis (AS) and recent cardiac catheterization showing moderate coronary artery disease and severe AS. Her past medical history includes hypertension, dyslipidemia, GERD, osteoporosis, cataracts, bladder prolapse, and a recent fall; she has allergies to Lisinopril, Diovan, and latex. The documented diagnoses at discharge were aortic stenosis, hypertension, hyperlipidemia, GERD, osteoporosis, cataracts, bladder prolapse, left inguinal hernia, right adrenal cyst, prior abdominal resuspension, hemorrhoid repair, and breast implant. During admission, she underwent aortic valve replacement (AVR) and repair of the coronary sinus. Postoperatively, she was managed with beta-blockade, gentle diuresis, and discontinuation of ACE inhibitors due to allergy concerns. Discharge medications included atorvastatin, aspirin, metoprolol, omeprazole, potassium chloride, furosemide, docusate sodium, and acetaminophen-codeine as needed. She was discharged home in good condition with instructions for wound care, activity restrictions, and follow-up appointments in 2 and 4 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain described as tightness occurring during physical activity. Symptoms included chest tightness, shortness of breath, dizziness, and nausea, all triggered by exertion and reliably resolving within minutes of rest; the tightness did not radiate to the arm, neck, jaw, or back and had been present for a couple of weeks without worsening. The patient reported needing to slow down and take more breaks during daily activities due to these symptoms. No relevant past medical history, medications, or allergies were mentioned in the conversation. On clinical assessment, the doctor noted that symptoms were exertional and improved with rest, consistent with angina. The doctor’s assessment was exertional angina likely due to reduced blood flow to the heart during activity, with associated dizziness and nausea. The treatment plan included advising the patient to avoid strenuous activity, take breaks as needed, and seek urgent care if symptoms occur at rest or are accompanied by new warning signs such as sweating or pain radiating to other areas. Further evaluation was recommended, including an EKG and possibly a stress test or imaging, with instructions to mention all symptoms during testing.
+The patient is an adult presenting with chest pain described as tightness occurring during physical activity. Symptoms have been present for approximately two weeks, are triggered by exertion (such as walking, making the bed, or climbing stairs), and reliably resolve within minutes of rest; associated symptoms include shortness of breath, dizziness, and occasional nausea during episodes. The patient denies radiation of pain to the arm, neck, jaw, or back and reports no symptoms at rest. There is no mention of relevant past medical history, medications, or allergies in the dialogue. The clinical impression documented by the physician is exertional angina, likely due to insufficient blood flow to the heart muscle during activity. The treatment plan includes advising the patient to avoid strenuous activity, take breaks as needed, and monitor for any worsening or new symptoms such as pain at rest, sweating, or pain radiating to other areas. Further evaluation is planned with an EKG and possibly a stress test or cardiac imaging to assess heart function during exertion. The patient was instructed to report all symptoms during testing and to seek urgent care if warning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.948
-- **Similarity Label**: N/A
+- **STS Score**: 0.529
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 187 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ Let me know if you have any other questions or concerns about what’s going on.
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with T7-T8 osteomyelitis. He reported several months of shoulder pain, fever, shoulder infection, and a mass over the sternum, with persistent pain despite two incision and drainage procedures. His past medical history includes hypertension, hypercholesterolemia, pancreatitis, depression, and recent cessation of alcohol abuse. Physical exam showed mild bilateral lower extremity edema, mild discomfort with palpation, a wide gait, and good range of motion in both lower extremities. Laboratory results revealed mild anemia (Hgb 9.1–9.2 g/dL, Hct 26.6–28.1%) with normal white blood cell count. The diagnosis of T7-T8 osteomyelitis was confirmed by MRI showing increased T2 signal at those levels. Treatment included IV antibiotics and two surgical procedures: thoracotomy with anterior fusion T7-T9 and partial vertebrectomy T7-T8, followed by posterior fusion T5-T11. The patient improved significantly post-treatment and was able to ambulate at discharge.
+The patient is a 61-year-old male presenting with T7-T8 osteomyelitis. He reported several months of shoulder pain, fever, a shoulder infection, and a mass over the sternum, with persistent pain despite two incision and drainage procedures. MRI revealed increased T2 signal at T7 and T8 consistent with osteomyelitis, and a small bulging disk at T7-T8 without neural impingement. His past medical history includes hypertension, hypercholesterolemia, pancreatitis, depression, and recent cessation of alcohol abuse; he has no known drug allergies. The documented diagnosis was T7-T8 osteomyelitis. Treatment included anterior and posterior spinal fusion surgeries, partial vertebrectomy, and a course of intravenous vancomycin for 6 weeks for osteomyelitis, as well as levofloxacin for 10 days for a urinary tract infection. He was discharged in good condition to acute rehab with instructions for brace use during ambulation, continued IV antibiotics, and follow-up laboratory monitoring. Follow-up with orthopaedics was scheduled in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with shoulder pain as the chief complaint. Symptoms included dull, achy pain in the shoulder for the past couple of weeks, which worsens with movement or pressure, along with swelling, warmth, and difficulty moving the arm. The patient also reported fever and a mass over the sternum that has remained unchanged over the same period. No changes in swelling or mass size were noted, and no additional symptoms such as chills or sweating were discussed. The doctor noted joint discomfort, swelling, warmth, and a mass near the sternum with associated fever, suggesting a possible inflammatory or infectious process affecting both areas. The assessment included consideration of conditions such as cellulitis, joint infection, or other inflammatory disorders. The doctor advised limiting strenuous use of the shoulder, avoiding pressure on the affected area, applying a cool compress for comfort, and monitoring for worsening symptoms such as increased redness, spreading swelling, or general illness. The patient was encouraged to seek prompt medical attention if symptoms worsen and to schedule a physical evaluation and possible tests soon.
+The patient is an adult presenting with shoulder pain as the chief complaint. The pain began approximately two weeks ago and is described as dull and achy, worsening with movement or pressure; it is accompanied by swelling, warmth, and fever. The patient also reports a mass over the sternum that appeared alongside the other symptoms, with both the swelling and mass remaining unchanged in size over the past two weeks. These symptoms have made it difficult for the patient to move the arm and perform daily activities. Relevant history, medications, and allergies are not specified. The clinical impression is that the findings may indicate an inflammatory or infectious process affecting the shoulder and sternum area, with possible considerations including cellulitis or joint infection, though an inflammatory condition is also mentioned. The treatment plan includes limiting strenuous use of the shoulder, avoiding pressure on the affected area, applying a cool compress (but not heat), monitoring for worsening symptoms, and seeking prompt medical attention if symptoms progress. The patient is advised to schedule a physical evaluation and possible diagnostic tests to clarify the cause.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.510
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 182 words
+
 
 ## Processing Information
 

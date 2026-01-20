@@ -96,3 +96,21 @@ Let me ask—has your hearing on that side started to improve at all, or is it a
 ## Processing Information
 
 - **Processing Time**: 443.5s
+
+## EHR Summary
+
+The patient is a 61-year-old male presenting with long-standing right-sided hearing loss. Evaluation revealed a right-sided 1.6 cm acoustic neuroma, and he subsequently underwent an uncomplicated right trans-labyrinthine excision of the tumor. Postoperatively, he experienced mild nystagmus, dizziness, and mild nausea, which resolved over a few days. His past medical history includes hypertension and hypercholesterolemia, and he takes Cardizem CD, Lipitor, and Hydrochlorothiazide; he has no known drug allergies. The documented diagnosis was right acoustic neuroma status post trans-labyrinthine resection. Treatment included surgical excision of the tumor, postoperative monitoring, physical therapy for ambulation, and discharge medications including Percocet for pain and Colace for bowel management. At discharge, the patient was stable, afebrile, had adequate oral intake, and no dizziness. He was advised to follow up with his physician after discharge.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with right-sided hearing loss as the chief complaint. Symptoms include muffled or reduced hearing on the right side for several days, associated with dizziness that worsens with head movement, mild nausea, occasional unsteadiness, and mild nystagmus during dizzy episodes; there is no ear pain, ringing, or fullness. The hearing loss and dizziness began simultaneously and have remained stable without improvement. The patient denies vision changes except for mild nystagmus and reports no aggravation from loud noises or different environments. Relevant history, medications, and allergies are not specified. The clinical impression is an inner ear disorder, such as vestibular neuritis or labyrinthitis, likely viral in origin. The treatment plan includes supportive care: rest, hydration, and moving carefully, with instructions to seek urgent care if severe symptoms develop. The patient was advised to monitor for warning signs such as sudden worsening, severe headache, weakness, double vision, or trouble speaking.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.717
+- **Model Used**: general
+- **Text1 Length**: 130 words
+- **Text2 Length**: 153 words
+

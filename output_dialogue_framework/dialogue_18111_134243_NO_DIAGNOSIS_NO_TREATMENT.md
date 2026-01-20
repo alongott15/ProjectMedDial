@@ -98,3 +98,21 @@ Does that make sense, or is there anything else about your symptoms that you’r
 ## Processing Information
 
 - **Processing Time**: 402.2s
+
+## EHR Summary
+
+The patient is a 68-year-old female admitted with signs and symptoms of Takotsubo cardiomyopathy and myocardial infarction following a recent accident. She presented with bilateral rales, jugular venous distension, atrial fibrillation, and T wave inversions on EKG, later developing right lower quadrant abdominal pain, nausea, and leukocytosis. Her past medical history includes hypercholesterolemia, diabetes mellitus, paroxysmal atrial fibrillation, hypertension, and iron deficiency anemia; she denied drug allergies and was taking Toprol, Lipitor, Univasc, Warfarin, Flecainide, Metformin, and Glyburide. The documented diagnoses were Takotsubo syndrome with myocardial infarction and cardiomyopathy, ischemic colon requiring ileocolectomy, atrial fibrillation and flutter, and C. difficile diarrhea. She underwent cardiac catheterization, was treated for arrhythmias with amiodarone and heparin, and required urgent ileocecectomy for ischemic colon. Postoperatively, she was stabilized, underwent ileocolostomy, was treated for C. difficile with Flagyl, and resumed her diet with nutritional supplements. She was discharged in improved condition with instructions to continue anticoagulation and Flagyl, follow up with her physicians, and advance her diet as tolerated.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with chest discomfort following a recent accident. Key symptoms include persistent chest discomfort, exertional and mild resting dyspnea, lower right abdominal tenderness that began within a day of the accident and has remained unchanged, associated nausea, reduced appetite, and recent onset diarrhea. The abdominal tenderness worsens with pressure, and there is no reported fever or chills. The patient reports difficulty performing usual activities and eating due to these symptoms. On examination, rales were noted on the chest, suggesting possible lung involvement such as bruising or fluid accumulation secondary to trauma. The clinical impression is that the symptoms are a reaction to recent trauma, with no evidence of acute infection. The treatment plan includes rest, avoidance of strenuous activity, small light meals, hydration, gentle movement, and instructions to seek prompt medical attention if severe or worsening symptoms develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.351
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 143 words
+

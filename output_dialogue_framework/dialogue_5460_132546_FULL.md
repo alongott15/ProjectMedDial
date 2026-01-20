@@ -87,16 +87,21 @@ Would you like advice on where to go for prompt evaluation?
 
 ## EHR Summary
 
-The patient is a 54-year-old male presenting with one week of mid-sternal discomfort as the chief complaint. Symptoms included daily episodes of chest discomfort at rest lasting 1–30 minutes, sometimes associated with left arm weakness and palpitations, but without dyspnea, paroxysmal nocturnal dyspnea, or edema; symptoms were not triggered by exercise. Relevant history includes Hodgkin's disease treated 30 years ago with chemotherapy, radiation, and splenectomy, as well as a history of smoking and allergies to codeine and penicillin. On examination, he was tachycardic but in no acute distress, with normal chest and abdominal findings. Laboratory results showed elevated troponin (up to 8.2), sinus tachycardia on ECG with questionable ST elevations, and a normal chest x-ray. Cardiac catheterization revealed an ejection fraction of 35–40% with significant multi-vessel coronary artery stenosis and regional wall motion abnormalities. The documented diagnosis was acute coronary syndrome with multi-vessel coronary artery disease. Treatment included aspirin 325 mg daily and further cardiac evaluation and management.
+The patient is a 54-year-old male presenting with one week of mid-sternal discomfort occurring daily, mostly at rest, lasting 1–30 minutes, and occasionally associated with left arm weakness and palpitations. He denied shortness of breath, paroxysmal nocturnal dyspnea, lower extremity edema, and exertional pain. Relevant history includes Hodgkin's disease treated 30 years ago with chemotherapy, radiation, and splenectomy; allergies to codeine and penicillin; and current aspirin use. On admission, elevated troponin levels and ECG changes were noted, and cardiac catheterization revealed significant multi-vessel coronary artery disease with reduced ejection fraction (35–40%). The documented diagnosis was acute coronary syndrome due to severe coronary artery disease. The patient underwent uncomplicated triple coronary artery bypass grafting with saphenous vein grafts. Postoperatively, he remained stable except for transient hypotension and tachycardia, which led to discontinuation of Lopressor. Discharge medications included Zantac, aspirin, and Lopressor, with instructions for follow-up in two and six weeks; a dermatology biopsy of a left ear lobe mass was also planned.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually increasing central chest discomfort over the past week. Symptoms included chest discomfort rated 6/10 in severity, intermittent weakness in the left arm, palpitations, and episodes of heart rate up to 110 bpm; the discomfort and weakness occurred even at rest and affected daily activities such as carrying groceries and doing chores. The patient denied shortness of breath, sweating, lightheadedness, numbness, or tingling. Blood pressure was noted to be lower at times. On assessment, the doctor noted the absence of alarming symptoms but expressed concern due to the combination of chest discomfort, elevated heart rate, lower blood pressure, and arm weakness. The doctor advised prompt in-person evaluation—preferably the same day—to rule out cardiac causes and recommended avoiding strenuous activity while monitoring for new symptoms such as severe pain, fainting, or sudden shortness of breath. The patient understood and requested advice on where to seek evaluation.
+The patient is an adult presenting with central chest discomfort as the chief complaint. The discomfort has gradually developed over one week, is rated 6 out of 10 in severity, and is accompanied by intermittent left arm weakness and episodes of palpitations with a heart rate up to 110 bpm. Symptoms occur even at rest and have impacted daily activities such as carrying groceries and doing chores; there is no associated shortness of breath, sweating, lightheadedness, or numbness/tingling. The patient reports occasional lower blood pressure but denies other neurological symptoms. No specific diagnosis was documented, but the clinician expressed concern for possible cardiac causes, including heart rhythm issues, while noting that benign causes like muscle strain or anxiety are also possible. The treatment plan includes a recommendation for prompt in-person evaluation—preferably the same day—to rule out cardiac problems, with instructions to avoid strenuous activity and monitor for new or worsening symptoms. The patient was also offered guidance on where to seek immediate care if necessary.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.559
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

@@ -100,3 +100,21 @@ Let me know if you have any questions about what we’ve discussed or if there�
 ## Processing Information
 
 - **Processing Time**: 488.8s
+
+## EHR Summary
+
+The patient is a 54-year-old male presenting with an episode of chest pain and shortness of breath. He experienced one episode of chest pain and one episode of dyspnea during hospitalization; chest imaging initially suggested possible pneumonia, but this was ruled out after further review. Relevant history includes ambiguous cardiac enzyme results and significant coronary artery disease identified on cardiac catheterization, with multiple areas of stenosis. The documented diagnosis was congestive heart failure exacerbation. Treatment included placement of a new coronary artery stent, initiation of an Integrilin drip, and starting Plavix 75 mg daily in addition to continuing aspirin (later held prior to fistula evaluation), as well as other cardiac and diabetic medications. The patient underwent venous Doppler mapping to evaluate for potential arteriovenous fistula placement for hemodialysis. At discharge, his condition was stable, and he was instructed to continue Plavix but hold aspirin until his upcoming appointment.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with nausea and episodes of vomiting as the chief complaint. Symptoms began a few days ago and include persistent nausea, occasional vomiting after eating, burning chest discomfort on the left side with belching (worse after meals and in the evening), and shortness of breath when lying flat that improves with pillow propping; there is no cough, leg swelling, fever, or chills, but the patient reports increased fatigue. The symptoms have significantly impacted daily activities and routine. Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression documented by the physician is irritation of the stomach or esophagus, such as acid reflux or gastritis, with less likelihood of serious heart or lung disease based on the absence of concerning features. The treatment plan includes dietary and lifestyle modifications: eating smaller meals, avoiding lying down for 2–3 hours after eating, elevating the head of the bed if nighttime symptoms persist, and avoiding spicy, fatty, or acidic foods. The patient was also advised to seek prompt medical attention if severe chest pain, vomiting blood, black stools, or difficulty swallowing occur.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.455
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 188 words
+

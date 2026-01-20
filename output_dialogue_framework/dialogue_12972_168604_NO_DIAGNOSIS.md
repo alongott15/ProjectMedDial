@@ -188,3 +188,21 @@ Overall, staying aware and proactive is important, and most mild symptoms can be
 ## Processing Information
 
 - **Processing Time**: 353.2s
+
+## EHR Summary
+
+The patient is an 82-year-old female presenting for evaluation. The clinical note does not specify the chief complaint or detail any symptoms, their characteristics, or duration. Relevant medical history, current medications, and allergies are not documented in the provided text. There is no documented diagnosis or clinical impression in this note. No treatment plan, medications, or recommendations are specified.
+
+
+## Dialogue Summary
+
+The patient is an adult with a history of right coronary artery occlusion and recent atrial fibrillation presenting with chest tightness and increased shortness of breath. These symptoms are described as mild, occur mainly during physical activity such as walking or doing chores, and are relieved by sitting or resting; no other symptoms such as palpitations, fainting, or leg swelling have been reported. The patient has not had any recent changes in medications or procedures and denies any new or worsening symptoms. The clinical impression is that these mild symptoms may be related to the patient’s underlying cardiac history, with possible contributions from activity or anxiety, but no acute diagnosis is documented. The treatment plan includes close monitoring of symptoms, keeping a log of when they occur and any triggers, and avoiding strenuous activity until stability is confirmed. The patient is advised to promptly report any escalation or new symptoms such as severe chest pain, shortness of breath at rest, fainting, or swelling. Self-care and observation are emphasized, with reassurance provided regarding the current mild nature of symptoms. The patient expresses understanding and agrees to monitor symptoms and reach out if there are any changes.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.471
+- **Model Used**: general
+- **Text1 Length**: 59 words
+- **Text2 Length**: 195 words
+

@@ -87,16 +87,21 @@ How would you rate your pain on a scale from 1 to 10, with 10 being the worst im
 
 ## EHR Summary
 
-The patient is a 70-year-old female who experienced episodes of hypoxia, which led to deferral of her transfer to rehabilitation. She had episodes of low oxygen saturation, but a chest x-ray was negative for infiltrates or pulmonary process, and a CTA ruled out pulmonary embolism. Blood gas analysis showed elevated PCO2 in the 80s. Her clinical status improved with no further hypoxic episodes. At the time of transfer, she was stable and her wounds were clean, dry, and intact. The documented diagnosis was hypoxia with hypercapnia, etiology not specified. She was advised to follow up with Dr. [Name] in three weeks and to call for an appointment.
+The patient is a 70-year-old female who was admitted for vascular care. During her hospital stay, transfer to rehabilitation was deferred due to episodes of hypoxia. She experienced hypoxic episodes with a blood gas showing PCO2 in the 80s, but chest x-ray and CTA were negative for infiltrates, pulmonic process, or pulmonary embolism. The patient clinically improved and had no further hypoxic episodes prior to transfer. Her wounds were noted to be clean, dry, and intact. At the time of transfer, she was stable. The patient was advised to follow up with Dr. [Name] in three weeks and to call for an appointment.
+
 
 ## Dialogue Summary
 
-The patient presented with right foot pain causing significant discomfort. The pain has been present for a few days, has gradually worsened, is rated 6 out of 10 in severity, and is primarily located along the top and inner side of the arch; it is aggravated by walking or weight-bearing and less severe at rest, with symptoms worsening throughout the day. The patient denied swelling, redness, warmth, recent injury, changes in activity level, or new footwear, but reported associated nausea without other systemic symptoms. No relevant past medical history, medications, or allergies were mentioned. On examination, there were no signs of swelling or redness described by the patient. The doctor assessed that the pain is likely due to strain or inflammation of the soft tissues in the foot, such as plantar fasciitis or tendon irritation, and noted that the absence of injury or infection signs makes more serious causes less likely. The doctor recommended rest, supportive footwear, using ice after activity, and avoiding walking barefoot on hard surfaces. The patient was advised to seek further evaluation if pain worsens, or if swelling, redness, fever, or inability to bear weight develops.
+The patient is an adult presenting with right foot pain as the chief complaint. The pain has been present for a few days, is rated 6 out of 10 in severity, and has gradually worsened over time. The tenderness is localized along the top and inner arch of the right foot, is aggravated by walking or weight-bearing, and improves with rest; there is no associated swelling, redness, or warmth. The patient also reports some nausea but denies other systemic symptoms and has not had recent changes in activity, footwear, or any injury. The clinical impression is likely soft tissue strain or inflammation, such as plantar fasciitis or tendon irritation, with more serious causes considered less likely due to the absence of alarming features. The treatment plan includes rest, supportive footwear, ice application after activity, and avoiding walking barefoot on hard surfaces. The patient was advised to monitor for worsening pain, swelling, redness, fever, or inability to bear weight and to seek further evaluation if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.926
-- **Similarity Label**: N/A
+- **STS Score**: 0.198
+- **Model Used**: general
+- **Text1 Length**: 103 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

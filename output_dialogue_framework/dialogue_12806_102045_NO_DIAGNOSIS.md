@@ -87,16 +87,23 @@ Let me know if you have any questions or if anything changes—I’m here to hel
 
 ## EHR Summary
 
-The patient is an 84-year-old female presenting with gastrointestinal bleeding. She reported maroon-colored stools for six days, fatigue, and shortness of breath, with blood mixed in the stool but no abdominal pain, nausea, vomiting, or hematemesis. Her medical history includes recently diagnosed acute myeloid leukemia (AML) on supportive care, atrial fibrillation on chronic Coumadin therapy, prior TIA, polymyalgia rheumatica, osteoporosis, prior hip replacement, prior hysterectomy with oophorectomy, and mild-to-moderate Alzheimer dementia; she is allergic to amoxicillin. On admission, laboratory findings included a hematocrit of 15.8, WBC of 45.8, and INR of 7.7; physical exam revealed maroon, guaiac-positive stool in the rectum, but NG lavage was negative and she remained hemodynamically stable. A tagged RBC scan demonstrated brisk bleeding from the cecum. The clinical impression was lower gastrointestinal bleeding, possibly from the cecum. Treatment included transfusion of 1 unit PRBC, 2 units FFP, and 5 mg subcutaneous vitamin K; invasive procedures were avoided due to comorbidities.
+The patient is an 84-year-old female presenting with gastrointestinal bleeding, specifically maroon-colored stools for six days and associated fatigue and shortness of breath. She reported blood mixed in stool but denied abdominal pain, nausea, vomiting, hematemesis, or changes in bowel habits. Her medical history includes acute myeloid leukemia (AML) on supportive care, atrial fibrillation on chronic anticoagulation with coumadin, prior TIA, polymyalgia rheumatica, osteoporosis, and mild-to-moderate Alzheimer’s dementia; she is allergic to amoxicillin. On admission, she was found to have a hematocrit of 15.8, WBC of 45.8, and INR of 7.7; a tagged RBC scan localized brisk bleeding to the cecum. The documented diagnosis was lower GI bleed, likely related to coagulopathy from anticoagulation and AML. She was treated conservatively with transfusions (PRBCs, FFP), vitamin K, and supportive care; invasive procedures were avoided due to comorbidities. She was discharged in stable condition to extended care with comfort-focused goals and a seven-day course of levofloxacin for neutropenia.
+
 
 ## Dialogue Summary
 
-The patient presented with maroon-colored stools and increased tiredness. The maroon stool color began a few days ago, with tiredness developing around the same time; the tiredness does not improve with rest and is accompanied by increased shortness of breath during routine activities such as walking or getting dressed. The patient denied dizziness, fainting, changes in appetite, or unintentional weight loss, and reported no black, tarry stools or bright red blood—only maroon-colored stools. No relevant medical history, medications, or allergies were mentioned. The doctor noted that the symptoms have made daily activities more difficult for the patient. The assessment was that the maroon-colored stools and associated fatigue and breathlessness could indicate gastrointestinal bleeding, possibly from the lower intestines, leading to blood loss. The doctor recommended contacting a healthcare provider soon for further evaluation, including checking blood counts and investigating for a source of bleeding. Additional advice included avoiding strenuous activity, staying hydrated, monitoring for new symptoms such as dizziness, chest pain, confusion, or weakness, and seeking prompt medical attention if these occur.
+The patient presents with a chief complaint of maroon-colored stools noticed over the past few days. Associated symptoms include persistent fatigue and increased shortness of breath with minimal exertion, both of which began around the same time as the stool color change; these symptoms do not improve with rest and have made daily activities more difficult. The patient denies dizziness, fainting, appetite changes, weight loss, black or tarry stools, and bright red blood per rectum. No relevant past medical history, medications, or allergies were discussed.
+
+The clinical impression is that the maroon-colored stools may indicate gastrointestinal bleeding, likely from the lower intestines, which could explain the patient’s fatigue and dyspnea due to possible blood loss. The physician recommends prompt follow-up with a healthcare provider for further evaluation, including blood counts and investigation for a source of bleeding. Supportive advice includes avoiding strenuous activity, staying hydrated, monitoring for worsening symptoms, and seeking immediate care if new symptoms such as chest pain, confusion, or weakness develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.505
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

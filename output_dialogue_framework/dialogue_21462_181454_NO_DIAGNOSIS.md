@@ -91,16 +91,23 @@ Let me know if you have any other concerns or if there’s anything you’d like
 
 ## EHR Summary
 
-The patient is an 85-year-old female presenting with right upper quadrant pain and elevated liver function tests. She reported minimal postoperative pain following a laparoscopic cholecystectomy with cholangiogram performed on admission. Her past medical history includes cerebrovascular accident, coronary artery disease with prior myocardial infarction, hypertension, depression, hypothyroidism, myofascial pain syndrome, peripheral vascular disease, and previous fractures. Home medications included Tylenol, calcium carbonate, captopril, Premarin, Synthroid, Lopressor, Zocor, multivitamin, vitamin D, and Lactaid. During her hospital course, she experienced mild confusion likely related to being out of her usual environment but otherwise recovered well. Physical findings postoperatively included good pain control with Tylenol only, tolerance of diet, independent voiding and bowel movements, and return to baseline mental status. The documented diagnosis was symptomatic cholelithiasis requiring cholecystectomy. She was discharged in stable condition with continued supportive care and rehabilitation.
+The patient is an 85-year-old female presenting with right upper quadrant pain and elevated liver function tests. She reported minimal postoperative pain and experienced some mild confusion, likely related to being in an unfamiliar environment, but otherwise had an uneventful recovery. Her past medical history includes cerebrovascular accident, coronary artery disease with prior myocardial infarction, hypertension, depression, hypothyroidism, myofascial pain syndrome, peripheral vascular disease, and previous fractures. Home medications included Tylenol, calcium carbonate, captopril, Premarin, Synthroid, Lopressor, Zocor, multivitamin, vitamin D, and Lactaid. The documented diagnosis was status post laparoscopic cholecystectomy with cholangiogram. Postoperatively, her pain was well controlled with Tylenol only, and she was able to tolerate diet, ambulate, and perform activities of daily living at her baseline. She was discharged in stable condition to a rehabilitation facility.
+
 
 ## Dialogue Summary
 
-The patient presented with right-sided pain under the ribs. The pain has been present for a few days, is described as a dull ache in a small area, and has remained unchanged since onset; resting and Tylenol provide some relief, while eating and movement do not seem to affect it. The patient denied nausea, fever, yellowing of skin or eyes, changes in appetite, or fatigue, and reported being able to perform daily activities, though moving is somewhat slower due to discomfort. No relevant medical history, medications other than Tylenol, or allergies were mentioned. On examination, no concerning symptoms such as fever or jaundice were noted, and the pain was localized without other systemic findings. The doctor assessed the symptoms as most consistent with mild musculoskeletal strain or minor irritation, with less likelihood of digestive causes given normal appetite and energy. The treatment plan included continuing Tylenol as needed, trying a warm compress for additional relief, and monitoring for new symptoms such as worsening pain, fever, vomiting, or jaundice that would warrant urgent evaluation.
+The patient presents with right-sided pain under the ribs as the chief complaint. The pain is described as a dull ache, localized to a small area, present for several days without significant change, and is mildly relieved by rest and acetaminophen (Tylenol). There are no associated symptoms such as nausea, fever, jaundice, appetite changes, or fatigue, and the patient remains able to perform daily activities, though somewhat more slowly due to discomfort. Relevant history regarding chronic medical conditions, medications (other than Tylenol), or allergies is not specified.
+
+The clinical impression is that the symptoms are most consistent with a mild, localized musculoskeletal issue (such as muscle strain) or minor irritation, with less likelihood of digestive or more serious causes given the absence of concerning signs. The treatment plan includes continued use of Tylenol as needed, trying a warm compress for additional relief, and monitoring for new or worsening symptoms such as increased pain, fever, vomiting, or jaundice. The patient was advised to seek further care if any of these concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.558
+- **Model Used**: general
+- **Text1 Length**: 129 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

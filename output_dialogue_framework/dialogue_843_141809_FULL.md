@@ -93,16 +93,23 @@ For now, keep doing what you’re doing: take it easy, stay hydrated, and avoid 
 
 ## EHR Summary
 
-The patient is a 45-year-old male presenting with swelling over the right parotid, left cervical lymphadenopathy, episodic fevers, night chest pressure, back pain, dyspnea, cough, nausea, significant weight loss (25 pounds in three weeks), night sweats, hemoptysis, dysuria, and dark urine. He has a history of remission following 5.5 cycles of DDAVP and was previously treated for PCP with Bactrim, though bronchoalveolar lavage was negative. On admission, he was found to be in acute renal failure (creatinine 13.6, uric acid 21.1) and had laboratory findings of anemia and thrombocytopenia. Fine needle aspirate of the left cervical node revealed monoclonal B cells positive for CD-10 antigen, consistent with non-Hodgkin's lymphoma; renal biopsy confirmed diffuse lymphoproliferative infiltration. Imaging showed massive homogeneous enlargement of the kidneys, and bronchoscopy revealed a large clot/vascular mass in the right bronchus intermedius. The patient required intubation for airway protection and hemodialysis via right internal jugular catheter. He was started on methylprednisolone as part of his treatment plan.
+The patient is a 45-year-old male presenting with swelling over the right parotid, left cervical lymphadenopathy, episodic fevers, night chest pressure, back pain, dyspnea, cough, nausea, significant weight loss (25 pounds in three weeks), night sweats, hemoptysis, and dysuria with dark urine. Symptoms developed after a 2.5-year remission from non-Hodgkin's lymphoma following DDAVP therapy. Past medical history includes HIV (diagnosed in 2134), possible prior PCP, perianal papillomatosis, and cryptosporidium infection; antiretroviral medications had been discontinued. Fine needle aspiration of a cervical node revealed monoclonal B cell infiltrate (CD-10 positive), consistent with non-Hodgkin's lymphoma, and renal biopsy confirmed diffuse lymphoproliferative infiltration. The patient developed acute renal failure (creatinine 13.6), nephromegaly, and recurrent hemoptysis requiring intubation and hemodialysis. Treatment included intravenous methylprednisolone (1 mg/kg daily), allopurinol, levofloxacin, blood transfusion, and supportive care with hydration and hemodialysis, which was later discontinued as renal function improved. The patient was extubated and transferred to the oncology floor for further management, with plans for low-dose cycled chemotherapy.
+
 
 ## Dialogue Summary
 
-The patient presented with coughing up blood (hemoptysis) as the chief complaint. Symptoms included a mild but persistent cough with small streaks of blood in the sputum for a few days, accompanied by low-grade fevers in the low 100s; there were no chills, chest pain, shortness of breath, or weight loss, and daily activities were unaffected. The patient reported that the episodes occurred randomly throughout the day, with no specific triggers, and the amount of blood had remained stable. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted mild hemoptysis and low-grade fever without other concerning symptoms, suggesting airway irritation or minor infection as a likely cause. The doctor advised rest, hydration, and avoidance of airway irritants such as smoke. The patient was instructed to monitor for worsening symptoms (increased blood, chest pain, breathing difficulty, or feeling unwell) and to seek prompt care if these occurred; follow-up was recommended if symptoms persisted beyond another week.
+The patient is an adult presenting with hemoptysis (coughing up blood) as the chief complaint. The symptom has been present for a few days, characterized by small streaks of blood in the sputum, occurring randomly throughout the day, and accompanied by low-grade fevers in the low 100s Fahrenheit. The patient denies chest pain, dyspnea (shortness of breath), chills, or weight loss, and reports no impact on daily activities. There is no mention of relevant past medical history, medications, or allergies.
+
+The clinical impression is that the mild hemoptysis with low-grade fever is likely due to airway irritation or minor infection, possibly from persistent coughing. The amount of blood has remained stable and there are no additional concerning symptoms. The treatment plan includes supportive care: rest, hydration, and avoidance of airway irritants such as smoke. The patient was advised to monitor for worsening symptoms (increased blood, chest pain, dyspnea, or general decline) and to seek further evaluation if symptoms persist beyond another week or worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.948
-- **Similarity Label**: N/A
+- **STS Score**: 0.419
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

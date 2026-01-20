@@ -89,16 +89,23 @@ Would you like guidance on how to access withdrawal support or resources in your
 
 ## EHR Summary
 
-The patient is a 45-year-old male presenting with alcohol and opioid withdrawal. He reported full body pain, visual hallucinations, agitation, goosebumps, diarrhea, and abdominal pain, with his last alcohol intake on Monday at 8 am; he denied chest pain, shortness of breath, nausea, or vomiting. His past medical history includes alcoholism, IV drug use, GERD, hiatal hernia, and hemorrhoids, and he has no known drug allergies. On arrival to the ED, he was tachycardic (P 116), hypertensive (BP 161/102), and agitated with visual hallucinations; physical exam later showed somnolence after diazepam administration but otherwise unremarkable findings. The documented diagnosis was alcohol and opioid withdrawal. Treatment included administration of diazepam (valium) both orally and intravenously for withdrawal symptoms and 1.5 liters of normal saline for hydration.
+The patient is a 45-year-old male presenting with alcohol and opioid withdrawal. He experienced agitation, tachycardia (heart rate up to 120s), hypertension (systolic up to 200), mild fever (99.2°F), visual hallucinations, full body pain, abdominal pain, diarrhea, and goosebumps; he denied chest pain, shortness of breath, nausea, or vomiting. His past medical history includes alcoholism, intravenous drug use, GERD, hiatal hernia, and hemorrhoids, with no known drug allergies. On admission, he was found to have symptoms consistent with delirium tremens and mild alcoholic hallucinosis, as well as opioid withdrawal following a rapid methadone taper. The documented diagnoses were alcohol withdrawal, opioid withdrawal, and likely obstructive sleep apnea. Treatment included diazepam per CIWA protocol (total 230 mg in first 24 hours), methadone taper, clonidine for withdrawal symptoms, supportive medications (thiamine, folate, multivitamin, ibuprofen, hydroxyzine, dicyclomine, loperamide, methocarbamol), nicotine patch, and continuation of pantoprazole. The patient was stabilized and discharged to an extended care facility to continue detox treatment, with instructions to follow up with his primary care provider after completion of detox.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about alcohol and opioid withdrawal. Symptoms discussed included whole-body pain, difficulty sleeping with episodes of apnea, abdominal pain, diarrhea, low back pain, agitation (worse at rest and in the evening), visual hallucinations, a sense of increased heart rate and blood pressure (not measured), mild fever, and goosepimples; symptoms began a few days ago and have been worsening, especially agitation and hallucinations. The patient reported trouble eating due to stomach pain and diarrhea, and these symptoms were interfering with daily activities. No specific medical history, medications, or allergies were mentioned. The doctor noted the presence of significant withdrawal symptoms, including agitation, insomnia, hallucinations, tachycardia, hypertension, and mild fever, with worsening severity. The assessment was that the patient is experiencing severe withdrawal from alcohol and opioids, with warning signs such as hallucinations and vital sign changes that may require medical supervision. The doctor recommended prompt medical evaluation, ideally the same day, for supportive care and monitoring; emergency signs such as confusion, seizures, chest pain, or difficulty breathing were highlighted as reasons to seek immediate help. The doctor also offered guidance on accessing withdrawal support resources.
+The patient is an adult presenting with severe alcohol and opioid withdrawal symptoms. They report generalized body pain, difficulty sleeping with episodes of apnea, abdominal pain, diarrhea, agitation (worse at rest and in the evening), visual hallucinations, low back pain, tachycardia, a subjective sense of hypertension, and a mild fever. These symptoms began a few days ago and have been progressively worsening, particularly the agitation and hallucinations. The patient denies shaking or sweating but notes significant disruption to daily activities such as eating and sleeping.
+
+There is no documented relevant medical history, medications, or allergies in the dialogue. The clinical impression is significant withdrawal from both alcohol and opioids, with features concerning for severe withdrawal (including hallucinations, agitation, fever, and vital sign changes). The physician recommends prompt medical evaluation due to the risk of complications and advises that severe withdrawal is best managed in a medical setting. Supportive care and medications are suggested to ensure safety and comfort during withdrawal, and the patient is offered guidance on accessing withdrawal support resources.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.979
-- **Similarity Label**: N/A
+- **STS Score**: 0.803
+- **Model Used**: general
+- **Text1 Length**: 171 words
+- **Text2 Length**: 171 words
+
 
 ## Processing Information
 

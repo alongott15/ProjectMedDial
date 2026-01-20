@@ -87,16 +87,21 @@ Would you like to discuss what steps we can take next, or do you have any questi
 
 ## EHR Summary
 
-The patient is a 71-year-old female presenting with chest pain radiating to the back and jaw. Symptoms began at home on 2108-10-22, and echocardiogram showed anterior ischemia with an ejection fraction of 54 percent. Cardiac catheterization revealed significant multi-vessel coronary artery disease, including 90% occlusions in several vessels. Her past medical history includes hypertension, abdominal aortic aneurysm, prior cerebrovascular accident, left nephrectomy, chronic obstructive pulmonary disease, and gastroesophageal reflux disease; home medications included aspirin, Lasix, Lipitor, Dilantin, Colace, Cardizem, Zoloft, and labetalol. On physical exam prior to discharge, she was afebrile with stable vital signs, clear chest auscultation with diffuse wheezes, and regular heart rhythm. The documented diagnosis was multi-vessel coronary artery disease with anterior ischemia. She underwent coronary artery bypass grafting (CABG) x4 on 2108-10-29 and had an uncomplicated postoperative course aside from extended ICU monitoring due to COPD. Treatment included CABG, pulmonary toilet, and supportive care; she was ambulatory at discharge.
+The patient is a 71-year-old female presenting with chest pain radiating to the back and jaw. Symptoms began at home on 2108-10-22, and evaluation revealed anterior ischemia on echocardiogram with an ejection fraction of 54%. Cardiac catheterization showed significant multi-vessel coronary artery disease, including 90% occlusion in several vessels. Her past medical history includes hypertension, abdominal aortic aneurysm, prior cerebrovascular accident, left nephrectomy, chronic obstructive pulmonary disease, and gastroesophageal reflux disease. The documented diagnosis was multi-vessel coronary artery disease with anterior ischemia. She underwent coronary artery bypass grafting (CABG) times four on 2108-10-29 and had an uncomplicated postoperative course, with extra ICU monitoring due to COPD. At discharge, she was stable, ambulatory, and her incisions were healing well. The treatment plan included discharge to a rehabilitation facility, continuation of cardiac and supportive medications, and follow-up with her surgeon in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain that spreads to the back and jaw. The discomfort began a few days ago, with episodes lasting a few minutes or longer, rated as 6 out of 10 in intensity, and described as pressure-like in quality. The pain starts in the center of the chest and then radiates, with no clear triggers identified and no associated symptoms such as shortness of breath, sweating, or lightheadedness; resting provides some relief. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the absence of additional symptoms but highlighted the concerning pattern of chest discomfort radiating to other areas. The assessment was that while not every case is heart-related, the described symptoms warrant ruling out serious causes such as cardiac issues. The doctor recommended prompt medical evaluation including ECG and blood work, and advised seeking emergency care if symptoms worsen or new symptoms develop.
+The patient presents with chest pain as the chief complaint. The pain is described as a pressure-like sensation in the center of the chest, rated 6 out of 10 in intensity, that spreads to the back and jaw; episodes last a few minutes and began a few days ago. There are no associated symptoms such as dyspnea, diaphoresis, or lightheadedness, and no clear triggers have been identified; resting provides some relief. The discomfort starts centrally and then radiates, with no aggravating factors or use of medications for relief. Relevant medical history, current medications, and allergies are not specified in the dialogue. The clinical impression is that the chest pain could be cardiac in origin, though other causes such as musculoskeletal or gastrointestinal issues are also considered. The doctor recommends prompt medical evaluation, including an ECG and possible blood work, to rule out serious causes. The patient is advised to seek emergency care if symptoms worsen or new symptoms such as shortness of breath, nausea, or sweating develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.472
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

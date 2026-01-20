@@ -184,3 +184,21 @@ Once you’re evaluated, please let your regular doctor know what happened. If y
 ## Processing Information
 
 - **Processing Time**: 410.9s
+
+## EHR Summary
+
+The patient is a 75-year-old male presenting with chest pain. He experienced substernal chest pain lasting 15–30 minutes, accompanied by nausea, fatigue, epigastric discomfort, diaphoresis, and a near syncopal episode with bradycardia and hypotension, three hours after a large meal. His past medical history includes GERD, and he has no known drug allergies. The documented diagnosis was a small ST-elevation myocardial infarction (STEMI) status post Cypher stent placement to the right coronary artery (RCA). Treatment included aspirin, clopidogrel, atorvastatin, isosorbide mononitrate, and metoprolol succinate, with instructions to continue dual antiplatelet therapy for at least one year. He was discharged home in stable condition, chest pain free, and was advised to follow up with his primary care physician and cardiologist.
+
+
+## Dialogue Summary
+
+The patient is an adult with a significant cardiac history, including a previous heart attack, presenting with episodes of lightheadedness, diaphoresis (sweating), near-syncope (almost passing out), and chest discomfort. Symptoms have included low blood pressure and bradycardia (slow heart rate), with episodes of sweating and near-fainting occurring alongside chest pain. The patient’s history of heart disease increases concern for serious arrhythmia or reduced cerebral perfusion. The clinical impression is that these symptoms may indicate a dangerous cardiac event or arrhythmia. The physician strongly advised immediate evaluation in the emergency department for cardiac monitoring, diagnostic testing, and rapid intervention if needed. The patient was instructed to seek emergency services if symptoms worsen en route, such as developing severe chest pain, worsening dyspnea, or actual syncope. The importance of notifying the regular physician after hospital evaluation was emphasized. No new medications or outpatient treatments were initiated at this time.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.513
+- **Model Used**: general
+- **Text1 Length**: 119 words
+- **Text2 Length**: 147 words
+

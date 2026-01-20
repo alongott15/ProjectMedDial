@@ -100,3 +100,21 @@ Let me know if you have questions about what I’ve explained or need advice abo
 ## Processing Information
 
 - **Processing Time**: 416.9s
+
+## EHR Summary
+
+The patient is a 42-year-old male presenting with increased seizure activity, lethargy, and decreased oral intake over two days. Symptoms included six tonic-clonic seizures in two days (his usual monthly average), increased agitation, refusal of oral intake and medications, and one episode of possible coffee ground emesis; there was no reported fever, cough, chest pain, or urinary symptoms at home. His history is significant for Lennox-Gastaut syndrome with refractory epilepsy, mental retardation, recurrent urinary tract infections, and multiple medication allergies. On admission, he was febrile (100.3°F), tachycardic, hypoxemic (O2 sat 86%), and had leukocytosis; chest imaging later showed left lower lobe atelectasis versus infiltrate. The documented diagnoses were pneumonia (aspiration versus community acquired), dehydration, refractory epilepsy, hypokalemia, and hypomagnesemia. Treatment included empiric IV Levaquin (then oral for seven days), IV fluids for dehydration and electrolyte correction, continuation of home antiepileptics (Trileptal and Felbatol), soft restraints for safety during seizures, and close monitoring for GI bleeding. He was discharged in good condition to his group home with instructions to complete the antibiotic course and follow up with his neurologist within two weeks.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with increased seizure frequency as the chief complaint. Over the past few days, the patient has experienced worsening seizures, profound fatigue, inability to eat or take medications by mouth, and has been mostly bedridden. The patient reports being unable to keep down food or fluids due to persistent nausea and has refused all oral medications, including seizure medication. There are no reported warning signs before seizures, but episodes are associated with agitation and restlessness. Relevant history includes a diagnosis of seizure disorder and current nonadherence to prescribed medications due to inability to take anything orally. The clinical impression is that increased seizure frequency is likely related to missed medications and dehydration from poor oral intake. The doctor advised prompt in-person evaluation for possible intravenous hydration and medication administration, emphasizing the urgency due to risk of complications. The patient was instructed to seek immediate care if new symptoms such as confusion, persistent vomiting, or respiratory difficulty develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.715
+- **Model Used**: general
+- **Text1 Length**: 181 words
+- **Text2 Length**: 162 words
+

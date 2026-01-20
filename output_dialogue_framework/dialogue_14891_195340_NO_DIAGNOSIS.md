@@ -89,16 +89,21 @@ Does this summary fit with what you’ve been experiencing? Is there anything el
 
 ## EHR Summary
 
-The patient is a 45-year-old male presenting with intermittent chest pain occurring both with exercise and at rest. He reported these symptoms during a routine pulmonology appointment, prompting referral to cardiology. His past medical history includes asthma, hypertension, and hypercholesterolemia; he was taking multiple medications including antihypertensives, lipid-lowering agents, and asthma inhalers, with no known allergies. Physical examination on admission was unremarkable, with stable vital signs and clear chest auscultation. Cardiac workup revealed a positive stress test and cardiac catheterization demonstrated three-vessel coronary artery disease with normal ejection fraction. The documented diagnosis was three-vessel coronary artery disease. The patient was transferred for coronary artery bypass grafting as the primary treatment plan.
+The patient is a 45-year-old male presenting with intermittent chest pain occurring both with exercise and at rest. He was referred to cardiology after a positive stress test and cardiac catheterization revealed three-vessel coronary artery disease with normal ejection fraction. His past medical history includes asthma, hypertension, and hypercholesterolemia; he has no known allergies and quit smoking in 2161. The documented diagnoses were coronary artery disease status post coronary artery bypass grafting (CABG) times three, hypertension, hypercholesterolemia, and asthma. The patient underwent CABG with LIMA to the LAD and saphenous vein grafts to the ramus and PDA2, tolerated the procedure well, and had an uncomplicated postoperative course. At discharge, he was stable, with clear breath sounds, regular heart rhythm, and clean incisions. Discharge medications included Niferex, Claritin, Singular, Advair, Albuterol, Ibuprofen, Lipitor, Niacin, Aspirin, Lopressor, Colace, Lasix (for seven days), potassium chloride (for seven days), and Percocet as needed. He was advised to follow up with his primary care physician in two weeks and cardiologist in four to six weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent chest pain described as a central chest pressure. The pressure sensation has been occurring for a couple of weeks, is rated 6–7 out of 10 in intensity, lasts a few minutes at a time, is sometimes triggered by activity but can also occur at rest, and is somewhat relieved by resting; the patient denied associated sweating, nausea, or lightheadedness, but reported occasional shortness of breath, which they attribute to their history of asthma. The pain does not respond to the asthma inhaler and does not radiate or move around. Relevant history includes asthma; no medications or allergies were otherwise mentioned. On examination, no acute physical findings were described. The doctor assessed that the intermittent central chest pressure could have several causes, including cardiac, musculoskeletal, reflux, anxiety, or asthma-related origins, but found the absence of severe or persistent symptoms somewhat reassuring. The doctor advised the patient to monitor and record episodes of chest pressure, avoid activities that clearly provoke symptoms, and seek immediate care if severe pain, persistent pain, sweating, nausea, or faintness develop. Further evaluation was recommended if symptoms worsen or new symptoms appear.
+The patient is an adult presenting with intermittent central chest pressure as the chief complaint. The chest pressure has been occurring for a couple of weeks, is described as a 6–7/10 in intensity, and is more of a tightening or pressure sensation rather than sharp or burning. Symptoms are sometimes triggered by activity but can also occur at rest, typically last a few minutes, and are somewhat relieved by rest; there is no associated sweating, nausea, or lightheadedness, though mild shortness of breath is noted and attributed to a history of asthma. The patient reports that their asthma inhaler does not relieve the chest pressure. Relevant history includes asthma, with no mention of other medical conditions, medications, or allergies. The clinical impression is that the chest discomfort could be cardiac in origin but may also relate to musculoskeletal strain, acid reflux, anxiety, or asthma; no definitive diagnosis is documented. The treatment plan includes monitoring symptoms, avoiding activities that provoke discomfort, and seeking immediate care if severe or concerning symptoms develop; the patient is advised to keep a log of episodes and report any changes.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.466
+- **Model Used**: general
+- **Text1 Length**: 170 words
+- **Text2 Length**: 184 words
+
 
 ## Processing Information
 

@@ -85,16 +85,23 @@ Have you taken your temperature since the initial spike, and if so, has it staye
 
 ## EHR Summary
 
-The patient is a 36-year-old male presenting with acute onset of sharp, non-radiating chest pain, chills, weakness, and headache. Symptoms began four days prior to admission and were accompanied by laboratory findings of neutropenia (WBC 1,800), anemia (hematocrit 35.2), thrombocytopenia (platelets 134,000), elevated creatinine (1.1), and transaminitis (alkaline phosphatase 153, AST 83). He has a newly diagnosed HIV infection with a CD4 count of 15 and was started on highly active antiretroviral therapy, Bactrim prophylaxis, and Neupogen. EKG showed T wave inversion in V1-V6 and RSR prime in V1; echocardiogram was normal. The patient was initially treated with Ceftazidime for neutropenia and fevers, which was later discontinued. He was placed on respiratory precautions and underwent further evaluation including bone scan (negative), lumbar puncture, and bone marrow biopsy. The documented diagnoses include newly diagnosed HIV, acute renal failure, hemolytic anemia, thrombocytopenia, and transaminitis. Treatment focused on antiretroviral therapy, infection prophylaxis, and supportive care for cytopenias.
+The patient is a 36-year-old male presenting with acute renal failure, hemolytic anemia, thrombocytopenia, and transaminitis in the setting of newly diagnosed HIV. He reported four days of sharp, non-radiating chest pain, chills, weakness, headache, and later developed fevers up to 104°F, mild respiratory distress, and back pain. His medical history is notable for newly diagnosed HIV (CD4 count 15, viral load 50,000), no prior chronic illnesses, and no known drug allergies. On admission, he was cachectic, tachypneic, febrile, and jaundiced with hepatosplenomegaly and pancytopenia; laboratory studies showed severe anemia, thrombocytopenia, leukopenia, elevated liver enzymes, and acute kidney injury. The documented diagnoses included disseminated histoplasmosis (Histoplasma duboisii confirmed by lymph node and bone marrow biopsy), HIV/AIDS with severe immunosuppression, idiopathic thrombocytopenic purpura likely related to HIV, and chronic renal insufficiency. Treatment included intravenous Ambazone for disseminated histoplasmosis, supportive transfusions (packed red blood cells, platelets, fresh frozen plasma), GCSF for leukopenia, aggressive intravenous hydration for renal failure, and total parenteral nutrition for poor oral intake; HAART was discontinued due to cytopenias and organ dysfunction. The patient improved after initiation of antifungal therapy and remained afebrile; plans included possible transition to oral itraconazole and close follow-up for HIV management and Kaposi's sarcoma.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about a fever that spiked up to 101.3°F. The fever began a couple of days ago and has been intermittent rather than constant; the patient denied associated chills, sweating, body aches, sore throat, cough, congestion, fatigue, or appetite changes. The patient reported a recently healed lip ulcer but no new skin changes, recent dental work, or changes in oral hygiene routine. No recent travel or known sick contacts were noted. On examination, there were no additional physical findings described. The doctor assessed this as a brief episode of fever without other concerning symptoms, likely due to a mild viral infection. The doctor recommended monitoring temperature for the next few days, staying hydrated, resting, and using acetaminophen if needed; the patient was advised to follow up if new symptoms such as persistent fever, severe headache, rash, or trouble breathing develop. The patient confirmed subsequent temperatures remained below 101.3°F and expressed understanding of the plan.
+The patient is an adult presenting with a chief complaint of fever, with a maximum recorded temperature of 101.3°F. The fever began a couple of days ago and has been intermittent rather than constant, without associated chills, sweating, body aches, sore throat, cough, congestion, fatigue, or appetite changes. The patient reported a recently healed lip ulcer but denied recent dental work, oral hygiene changes, travel, or known sick contacts. No other significant medical history or medication use was discussed.
+
+The clinical impression was a brief episode of fever without additional concerning symptoms, likely due to a mild viral infection. The physician advised monitoring temperature over the next few days and to seek follow-up if new symptoms such as persistent fever, severe headache, rash, or dyspnea develop. Supportive care was recommended, including hydration, rest, and use of acetaminophen for discomfort. The patient reported that subsequent temperatures remained below 101.3°F.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.385
+- **Model Used**: general
+- **Text1 Length**: 200 words
+- **Text2 Length**: 148 words
+
 
 ## Processing Information
 

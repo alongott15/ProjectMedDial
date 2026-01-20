@@ -87,16 +87,21 @@ Does that explanation make sense? Is there anything specific you’re worried ab
 
 ## EHR Summary
 
-The patient is a 35-year-old male presenting for management of multiple intracranial aneurysms, including bilateral internal carotid bifurcation aneurysms and an anterior communicating aneurysm, previously surgically clipped. He also has a proximal right supraclinoid internal carotid artery aneurysm that was not amenable to prior clipping or endovascular coiling due to its wide neck, as well as an unclippable fusiform aneurysmal dilatation of the right ICA at the origin of the anterior choroidal artery. Relevant history includes hypertension, peptic ulcer disease, childhood asthma, Bell's palsy, and allergy to codeine; current medications are Tagamet and Tylenol. On physical examination, he was afebrile with blood pressure 151/94 and pulse 80; neurological exam showed increased sensation in the left frontoparietal and temporal regions but otherwise intact cranial nerves and motor function. The documented diagnosis was multiple intracranial aneurysms with a focus on a right ICA aneurysm. He underwent surgical clipping of the right ICA aneurysm, complicated intraoperatively by aneurysmal rupture that was controlled, with successful clip placement achieved. Postoperatively, he was monitored in the Surgical Intensive Care Unit.
+The patient is a 35-year-old male presenting for management of multiple intracranial aneurysms, specifically a right internal carotid artery (ICA) aneurysm. He had a history of surgically clipped bilateral internal carotid bifurcation and anterior communicating aneurysms, with a prior unsuccessful attempt at endovascular coiling of the right ICA aneurysm due to its wide neck. Relevant history includes hypertension, peptic ulcer disease, childhood asthma, Bell's palsy, and an allergy to codeine; current medications were Tagamet and Tylenol. On admission, neurological examination was notable for increased sensation in the left frontoparietal and temporal regions but otherwise intact cranial nerves and motor function. The documented diagnosis was right ICA aneurysm. He underwent successful surgical clipping of the right ICA aneurysm after intraoperative rupture was controlled. Postoperatively, he remained neurologically stable, was extubated on postoperative day one, and had no evidence of residual aneurysm on angiogram. The patient was discharged home in stable condition with instructions for follow-up and staple removal.
+
 
 ## Dialogue Summary
 
-The patient presented with an increased sensation on the left side of the head, specifically in the frontoparietal and temporal areas. The sensation has been present for several days, is constant, not painful, and does not fluctuate with activity, movement, stress, or temperature changes. The patient denied associated symptoms such as numbness, tingling, weakness, vision changes, headaches, scalp tenderness, jaw issues, or recent illnesses. There is no impact on daily activities aside from mild distraction. On assessment, the doctor noted the absence of concerning neurological or systemic symptoms and suggested minor nerve irritation, muscle tension, or subtle scalp changes as possible benign causes. The doctor recommended monitoring for any worsening or new symptoms (such as numbness, weakness, or vision changes) and advised gentle stretching, stress management, and hydration. The patient understood and agreed to follow up if symptoms change.
+The patient is an adult presenting with an increased sensation on the left frontoparietal and temporal areas of the head as the chief complaint. The sensation has been present for several days, is constant, non-painful, and not associated with numbness, tingling, weakness, vision changes, headaches, scalp tenderness, or jaw issues. There are no identifiable triggers or alleviating factors, and the sensation does not interfere significantly with daily activities. The patient denies recent illnesses, sinus problems, or upper respiratory symptoms. Relevant medical history, medications, and allergies are not specified. The clinical impression is that the sensation is likely related to minor nerve irritation, muscle tension, or subtle changes in the scalp or skin, with no evidence of serious underlying pathology. The treatment plan includes monitoring for any changes or new symptoms and supportive measures such as gentle stretching, stress management, and hydration. The patient was advised to report any worsening or new neurological symptoms promptly.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.495
+- **Model Used**: general
+- **Text1 Length**: 157 words
+- **Text2 Length**: 154 words
+
 
 ## Processing Information
 

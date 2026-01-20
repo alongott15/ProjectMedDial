@@ -87,16 +87,23 @@ Let me know if you've started any new foods or medications recently, or if anyth
 
 ## EHR Summary
 
-The patient is an 84-year-old female presenting with gastrointestinal bleeding. She reported maroon-colored stools for six days, fatigue, and shortness of breath, but denied abdominal pain, nausea, vomiting, hematemesis, or changes in bowel habits. Her medical history includes recently diagnosed acute myeloid leukemia (AML) on supportive care, atrial fibrillation with prior TIA on chronic Coumadin, polymyalgia rheumatica, osteoporosis, prior hip replacement, prior hysterectomy with oophorectomy, and mild-to-moderate Alzheimer dementia; she is allergic to amoxicillin. On admission, laboratory findings showed a hematocrit of 15.8, WBC of 45.8, and INR of 7.7; physical exam revealed maroon stool that was guiac positive in the rectum, but NG lavage was negative. The documented diagnosis was lower gastrointestinal bleeding (LGIB) with brisk bleeding from the cecum identified on tagged RBC scan. Treatment included transfusion of 1 unit PRBC, 2 units FFP, and administration of 5 mg subcutaneous vitamin K; invasive procedures were avoided due to comorbidities. GI and primary care teams were consulted, and the patient remained hemodynamically stable throughout hospitalization.
+The patient is an 84-year-old female presenting with gastrointestinal bleeding, specifically maroon-colored stools for six days and associated fatigue and shortness of breath. She reported blood mixed in stool but denied abdominal pain, nausea, vomiting, hematemesis, or changes in bowel habits. Her medical history includes acute myeloid leukemia (AML) on supportive care, atrial fibrillation on chronic anticoagulation with coumadin, prior TIA, polymyalgia rheumatica, osteoporosis, and mild-to-moderate Alzheimer’s dementia; she is allergic to amoxicillin. On admission, laboratory studies revealed severe anemia (Hct 15.8), marked leukocytosis (WBC 45.8), and supratherapeutic INR (7.7); a tagged RBC scan localized brisk bleeding to the cecum. The documented diagnosis was lower GI bleed, likely related to coagulopathy from anticoagulation in the setting of AML. Treatment included transfusion of packed red blood cells and fresh frozen plasma, vitamin K administration, and conservative management without invasive procedures due to comorbidities; levofloxacin was prescribed for neutropenia. She was discharged in stable condition to extended care with comfort-focused goals.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about dark maroon-colored stools of sudden onset. They reported increased tiredness and shortness of breath, especially with activity, but denied changes in appetite, weight, bathroom frequency, discomfort, urgency, dizziness, or fainting. No blood was noted on toilet paper or in the toilet bowl; the maroon color was mixed in with the stool. The patient denied starting any new foods or medications and reported no identifiable triggers. The doctor noted that these symptoms could indicate gastrointestinal bleeding, possibly from the lower intestines, and that fatigue and shortness of breath may suggest slow blood loss. The doctor recommended prompt evaluation by the patient's healthcare provider, including a physical exam and likely blood tests for anemia and stool tests. The patient was advised to seek immediate care if they developed black, tarry stools, large amounts of blood, severe weakness, or dizziness. The patient understood and agreed to follow up as recommended.
+The patient presents with the chief complaint of dark maroon-colored stools of sudden onset. Associated symptoms include increased fatigue and exertional shortness of breath over the past few days, which have significantly impacted daily activities. The patient denies changes in bowel frequency, discomfort, urgency, visible blood on toilet paper or in the toilet bowl, dizziness, or fainting. There is no recent history of new foods or medications, and no changes in appetite or weight were reported.
+
+The clinical impression discussed was possible gastrointestinal bleeding, likely from the lower intestines, with concern for associated anemia given the fatigue and dyspnea. The physician recommended prompt evaluation by a healthcare provider, including a physical exam, blood tests for anemia, and possibly stool tests. The patient was also advised to seek immediate care if symptoms worsen (such as black, tarry stools, large amounts of blood, severe weakness, or dizziness).
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.557
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 145 words
+
 
 ## Processing Information
 

@@ -97,16 +97,21 @@ Let me know if you have any other questions or if there’s anything else you’
 
 ## EHR Summary
 
-The patient is a 77-year-old female presenting with bilateral leg weakness. She reports a 6-year history of progressive bilateral leg heaviness and weakness, particularly with ambulation and prolonged standing, accompanied by occasional paresthesias and numbness but no frank pain. Her past medical history includes type 1 diabetes, hypertension, glaucoma, a history of sarcoma, and right total knee replacement; she has no known drug allergies. Physical exam revealed warm extremities with brisk capillary refill, no erythema or cellulitis, and diminished popliteal pulses bilaterally with biphasic or triphasic distal pulses. The documented diagnosis is not explicitly stated, but the clinical impression suggests peripheral arterial disease given the vascular findings and interventions performed. She underwent abdominal aortograms with lower extremity runoff, percutaneous transluminal angioplasty (PTA) of the posterior tibial artery, and recanalization of the tibioperoneal trunk. The treatment plan included these vascular interventions to improve lower extremity perfusion.
+The patient is a 77-year-old female presenting with bilateral leg weakness. She reported a 6-year history of progressive bilateral leg heaviness and weakness, especially with ambulation and prolonged standing, occasionally accompanied by paresthesias and numbness but no frank pain. Her relevant medical history includes type 1 diabetes, hypertension, glaucoma, and a history of sarcoma; she has no known drug allergies. The documented diagnoses were peripheral vascular disease, urinary tract infection, diabetes, hypertension, history of sarcoma, and glaucoma. During admission, she underwent two abdominal aortograms with angioplasty for peripheral vascular disease and was treated for a urinary tract infection with ciprofloxacin. She was discharged in good condition on aspirin, clopidogrel, antihypertensives, and other home medications. Discharge instructions included monitoring for fever, increased lower extremity pain, numbness, swelling, redness, or groin discharge, and to follow up with her physician in 1–7 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with weakness in both legs, making mobility and standing from a chair more difficult. Symptoms included leg weakness, heaviness, and occasional numbness and tingling, persisting for at least a few days without clear onset, triggers, or relief factors; symptoms were consistent throughout the day and had not changed significantly. The patient denied recent back pain, falls, injuries, or changes in bladder or bowel habits. No specific medical history, medications, or allergies were mentioned. On assessment, the doctor noted stable leg weakness, heaviness, and intermittent numbness without signs of acute neurological compromise, suggesting a possible nerve or muscle issue, potentially related to circulation, nerve irritation, or medication side effects. The doctor found the absence of bladder or bowel changes reassuring and did not consider the situation emergent. The treatment plan included maintaining gentle activity, avoiding prolonged immobility, monitoring for new or worsening symptoms (especially sudden weakness, loss of sensation, or bladder/bowel changes), and following up with the primary care provider if symptoms persist or worsen. The patient understood and agreed to monitor symptoms and seek care if needed.
+The patient presents with the chief complaint of bilateral leg weakness. Symptoms include several days of progressive weakness, heaviness, and occasional numbness and tingling in both legs, with difficulty standing from a chair and increased fatigue when walking; symptoms are consistent throughout the day and have remained stable without recent improvement or worsening. There is no history of recent back pain, falls, injuries, or changes in bladder or bowel habits. The clinical impression is that the symptoms likely reflect a problem affecting the nerves or muscles in the legs, possibly related to circulation, nerve irritation, or medication side effects, but without evidence of an acute emergency. The patient was reassured that the absence of bladder or bowel dysfunction is a positive sign. The treatment plan includes maintaining gentle activity, avoiding prolonged immobility, and monitoring for any new or worsening symptoms such as sudden weakness, loss of sensation, or bladder/bowel control issues. The patient was advised to seek urgent care if these concerning symptoms develop and to follow up with their primary care provider if symptoms persist or worsen. No new medications or immediate interventions were initiated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.548
+- **Model Used**: general
+- **Text1 Length**: 140 words
+- **Text2 Length**: 189 words
+
 
 ## Processing Information
 

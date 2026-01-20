@@ -87,16 +87,21 @@ If you notice any new or worsening symptoms, please let me know right away. Othe
 
 ## EHR Summary
 
-The patient is a 59-year-old man presenting with fatigue and sluggishness for the past three years, now worsened by chest pressure and increasing shortness of breath over the past two months. His symptoms prompted a stress test and subsequent cardiac catheterization, leading to referral for aortic valve replacement. Relevant history includes hypertension, hypercholesterolemia, asthma, and gastroesophageal reflux disease; he previously underwent cholecystectomy in 2151. Medications include antihypertensives, lipid-lowering agents, asthma inhalers, and various supplements. On physical exam, he appeared slightly anxious and short of breath, with mild petechiae on the right wrist and a III/VI systolic murmur radiating to the carotids. The documented diagnosis was severe aortic valve disease requiring surgical intervention. The treatment plan included referral to a specialist for aortic valve replacement.
+The patient is a 59-year-old man presenting with fatigue and sluggishness for three years, with recent worsening chest pressure and shortness of breath over the past two months. His symptoms prompted a stress test and cardiac catheterization, leading to referral for aortic valve replacement. Relevant history includes hypertension, hypercholesterolemia, asthma, and gastroesophageal reflux disease; he has a remote cholecystectomy and multiple home medications. On examination, he was in no acute distress but had shortness of breath, mild petechiae on the right wrist, an III/VI systolic murmur radiating to the carotids, and mild bilateral calf tenderness. The documented diagnosis was status post aortic valve replacement with a #23 prosthetic valve. He underwent minimally invasive aortic valve replacement and had an uncomplicated postoperative course. At discharge, he was advised to continue all home medications with the addition of Lopressor, Percocet as needed for pain, and Colace.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening tiredness over the past few days. Symptoms included fatigue, sluggishness, mild to moderate chest pressure, and shortness of breath, all of which were exacerbated by physical activity and improved somewhat with rest. The patient denied changes in sleep or appetite, fever, cough, swelling in the legs or ankles, sweating, lightheadedness, or radiation of chest pressure. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the main concerns were increasing fatigue and mild chest discomfort with exertion, without other acute warning signs. The doctor recommended monitoring for any new or worsening symptoms such as severe chest pressure at rest, sweating, nausea, or faintness, which would warrant urgent care. Initial management included checking blood pressure and ordering basic blood tests to rule out common causes like anemia or thyroid issues, along with advice to stay hydrated, pace activities, and rest as needed. The patient agreed to the plan and understood the recommendations.
+The patient is an adult presenting with the chief complaint of increasing fatigue over the past few days. Symptoms include gradually worsening tiredness, mild to moderate chest pressure, and shortness of breath, all of which are exacerbated by physical activity and somewhat relieved by rest. The patient denies fever, cough, leg swelling, changes in sleep or appetite, and reports no radiation of chest pressure, sweating, or lightheadedness. There is no documented relevant medical history, medications, or allergies in the dialogue. The clinical impression is that the symptoms could be due to several common causes such as insufficient rest, stress, or possible cardiac or pulmonary issues, particularly given exertional symptoms. No definitive diagnosis was made during the visit. The treatment plan includes monitoring for any worsening or new symptoms (such as severe chest pain, symptoms at rest, sweating, nausea, or faintness), checking blood pressure, and ordering basic blood tests to rule out causes like anemia or thyroid dysfunction. The patient was advised to stay hydrated, pace activities, rest as needed, and report any concerning changes promptly.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.582
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

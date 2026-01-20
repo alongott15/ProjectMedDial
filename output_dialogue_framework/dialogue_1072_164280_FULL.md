@@ -85,16 +85,21 @@ If anything unusual comes up—such as persistent fatigue, unexpected pain, or c
 
 ## EHR Summary
 
-The patient is a 72-year-old male presenting with progressive exertional chest discomfort and shortness of breath. His symptoms have worsened recently, with dyspnea occurring after walking approximately one-half block and severe shortness of breath and fatigue limiting a stress test to 3 minutes 30 seconds; he also experienced chest discomfort during the test. Relevant history includes prior myocardial infarction (2121), coronary artery disease status post stenting, type 2 diabetes, and hyperlipidemia. A recent MIBI scan showed a moderate lateral wall and apical reversible defect and a fixed inferior defect, with a left ventricular ejection fraction of 54%. Cardiac catheterization revealed three vessel coronary artery disease with mild systolic and moderate diastolic ventricular dysfunction. The documented clinical impression is three vessel coronary artery disease with ventricular dysfunction. The patient was referred to Cardiac Surgery for evaluation of possible surgical intervention.
+The patient is a 72-year-old male presenting with progressive exertional chest discomfort and shortness of breath, now occurring after walking approximately one-half block. Symptoms included severe shortness of breath and fatigue during a stress test, as well as chest discomfort, but no claudication, orthopnea, edema, paroxysmal nocturnal dyspnea, or lightheadedness. Relevant history includes prior myocardial infarction (2121), coronary artery disease status post stenting, diabetes mellitus type 2, and hyperlipidemia; there are no known drug allergies. Cardiac catheterization revealed three vessel coronary artery disease with mild systolic and moderate diastolic ventricular dysfunction. The documented diagnosis was three vessel coronary artery disease status post coronary artery bypass grafting x 3, diabetes mellitus type 2, and hyperlipidemia. Treatment included coronary artery bypass grafting x 3, perioperative antibiotics, insulin regimen optimization, and continuation of aspirin and Lantus at discharge. The patient experienced brief episodes of atrial fibrillation postoperatively but remained in sinus rhythm and was discharged in good condition to a rehabilitation facility.
+
 
 ## Dialogue Summary
 
-The patient presented for a general health check-in without any specific symptoms. They reported no recent changes in energy, sleep, appetite, physical activity, or ability to perform daily tasks, and denied any new aches, pains, stiffness, shortness of breath, chest discomfort, palpitations, or changes in mood or memory. The patient is not taking any regular medications or supplements and has not made recent changes to diet or exercise. No relevant medical history, allergies, or prior screenings were mentioned, and the patient was unsure about their last blood pressure measurement or routine screening. There were no abnormal clinical findings described during the visit. The doctor assessed that the patient is in good general health with no concerning symptoms or recent changes. The doctor recommended scheduling a routine physical exam, including vital signs, basic labs, and age-appropriate screenings, and advised the patient to continue current healthy habits and monitor for any new symptoms. The patient understood and agreed to follow these recommendations.
+The patient presented for a general health check-in without any specific chief complaint. They reported no recent changes in energy, sleep, appetite, physical activity, mood, memory, or general comfort, and denied symptoms such as shortness of breath, chest discomfort, or palpitations. The patient is not taking any regular medications or supplements and has not made recent changes to their diet or exercise routine. There is no relevant medical history, medications, or allergies documented in this encounter. The clinical impression was that the patient is in good general health with no concerning symptoms or recent changes. The doctor recommended scheduling a routine physical examination, including vital signs assessment, basic blood work, and age-appropriate screenings. The patient was advised to continue current healthy habits and to report any new or unusual symptoms promptly. No acute treatment was indicated at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
+- **STS Score**: 0.475
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 139 words
+
 
 ## Processing Information
 

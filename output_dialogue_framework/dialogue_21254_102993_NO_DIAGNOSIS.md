@@ -98,3 +98,23 @@ For now, keeping the diaper area clean and dry and using an antifungal cream as 
 ## Processing Information
 
 - **Processing Time**: 429.1s
+
+## EHR Summary
+
+The patient is a newborn male delivered at 32-1/7 weeks gestation, admitted for management of prematurity. On admission, he exhibited grunting, nasal flaring, and mild retractions, with chest x-ray findings consistent with transient tachypnea of the newborn; he also had occasional apnea and indirect hyperbilirubinemia. The infant was initially placed on CPAP and received phototherapy for hyperbilirubinemia, as well as a 48-hour course of ampicillin and gentamicin for rule out sepsis (blood cultures were negative). Relevant maternal history includes depression (not on treatment), hypothyroidism (on Armour), fibroids, and cervical shortening. The documented diagnoses were appropriate for gestational age preterm male infant, transient tachypnea of the newborn (resolved), apnea of prematurity, indirect hyperbilirubinemia (resolving), and sepsis ruled out. At discharge, the infant was stable, tolerating full feeds of fortified breast milk, and required no respiratory support. The treatment plan included advancing calories as needed for weight gain, daily ferrous sulfate supplementation, and completion of newborn screening. No immunizations had been given at the time of discharge.
+
+
+## Dialogue Summary
+
+The patient presents with episodes of breathing pauses during sleep as the chief complaint. These episodes began a few days ago, occur primarily during sleep, and are sometimes associated with bradycardia; there are no associated color changes, abnormal movements, or distress, and the patient returns to sleep comfortably afterward. Additionally, the patient reports a red, patchy diaper rash noticed a couple of days ago, described as possibly monilial and not spreading. There is no mention of relevant past medical history, medications, or allergies.
+
+The clinical impression is that the breathing pauses are likely benign periodic breathing, commonly seen in young infants, given the absence of warning signs such as cyanosis, difficulty waking, or feeding problems. The diaper rash is suspected to be monilial (fungal) in nature. The treatment plan includes monitoring for warning signs (pauses >20 seconds, color change, difficulty waking, feeding issues, or spreading/oozing rash) and keeping the diaper area clean and dry with the use of antifungal cream as directed. The patient was advised to seek prompt medical attention if any concerning symptoms develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.425
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 176 words
+

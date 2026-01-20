@@ -87,16 +87,21 @@ Let me know if you have any questions or concerns about what we’ve discussed s
 
 ## EHR Summary
 
-The patient is a 77-year-old female presenting with bilateral leg weakness. She reports a 6-year history of progressive bilateral leg heaviness and weakness, particularly with ambulation and prolonged standing, accompanied by occasional paresthesias and numbness but no frank pain. Her past medical history includes type 1 diabetes, hypertension, glaucoma, a history of sarcoma, and right total knee replacement; she has no known drug allergies. Physical exam revealed warm extremities with normal capillary refill, no erythema or cellulitis, and diminished lower extremity pulses. The documented diagnosis appears to be peripheral arterial disease with lower extremity arterial insufficiency. She underwent abdominal aortograms with lower extremity runoff and percutaneous transluminal angioplasty (PTA) of affected arteries during her admission. The treatment plan included vascular intervention to improve lower extremity blood flow.
+The patient is a 77-year-old female presenting with bilateral leg weakness. She reported a 6-year history of progressive bilateral leg heaviness and weakness, especially with ambulation and prolonged standing, occasionally accompanied by paresthesias and numbness but no frank pain. Her relevant medical history includes type 1 diabetes, hypertension, glaucoma, and a history of sarcoma; she has no known drug allergies. The documented diagnoses were peripheral vascular disease, urinary tract infection, diabetes, hypertension, history of sarcoma, and glaucoma. During admission, she underwent two abdominal aortograms with lower extremity angioplasty procedures and was treated for a urinary tract infection with ciprofloxacin. She was discharged in good condition on aspirin, clopidogrel, antihypertensives, and other home medications. Discharge instructions included monitoring for fever, increased lower extremity symptoms, or signs of infection, and to follow up with her physician in 1–7 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening weakness in both legs over the past couple of weeks. Symptoms included difficulty getting up from a chair, climbing stairs, increased tiredness when walking, heaviness in the legs, and intermittent numbness and tingling, but no pain. The patient denied any recent illnesses, medication changes, falls, or changes in bladder or bowel habits. No physical findings were described in this conversation. The doctor assessed that the symptoms could be due to something affecting the nerves or circulation to the legs, such as spinal arthritis or circulation issues. The doctor recommended a thorough physical exam and basic tests to check nerve function and circulation. The patient was advised to avoid situations where balance might be lost, use support when moving around, and seek immediate help if new severe symptoms develop. The patient expressed understanding and agreed to use a cane more at home.
+The patient is presenting with progressive weakness in both legs as the chief complaint. The weakness began approximately two weeks ago and has gradually worsened, making it more difficult to get up from a chair, climb stairs, and walk around the home; symptoms are aggravated by prolonged standing or walking and improve with rest. The patient also reports intermittent numbness and tingling in the legs, but denies pain, recent illnesses, medication changes, falls, or changes in bladder or bowel function. Relevant history includes stable medications and no recent health events. The clinical impression is that the symptoms may be due to nerve or circulation issues affecting both legs, with possible causes such as spinal arthritis or vascular problems discussed. The treatment plan includes a thorough physical examination and basic tests to assess nerve function and circulation. The patient was advised to use support when moving around and to seek immediate care if severe new symptoms develop, such as sudden weakness, loss of bladder or bowel control, or severe back pain.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.523
+- **Model Used**: general
+- **Text1 Length**: 137 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

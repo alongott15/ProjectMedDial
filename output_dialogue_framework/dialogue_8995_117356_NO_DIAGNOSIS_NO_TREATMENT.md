@@ -187,16 +187,23 @@ Staying aware of these precautions helps lower your risk of complications. If yo
 
 ## EHR Summary
 
-The patient is an 81-year-old female presenting with left upper extremity deep vein thrombosis (LUE DVT) involving the entire subclavian vein after recent aortic root replacement. She reported left arm swelling, and physical exam revealed 1+ edema of the left upper extremity, with no pedal edema and stable vital signs. Her medical history includes hypertension, hypercholesterolemia, right femoral AV fistula, anxiety/depression, osteoporosis, varicose veins, and a history of right ankle fracture; she is also hard-of-hearing and has allergies to iodine-containing agents and heparin. The patient is heparin-induced thrombocytopenia (HIT) positive. Laboratory findings showed mild anemia and therapeutic INR at discharge. The documented diagnosis was LUE DVT in the setting of HIT. Treatment included anticoagulation with Argatroban and transition to Warfarin (Coumadin), with monitoring of coagulation parameters during hospitalization.
+The patient is an 81-year-old female presenting with left upper extremity deep vein thrombosis (LUE DVT) after recent ascending aortic aneurysm repair. She experienced left arm edema and was found to be heparin-induced thrombocytopenia (HIT) positive, necessitating anticoagulation with Argatroban and transition to Warfarin. Her past medical history includes hypertension, hypercholesterolemia, anxiety/depression, osteoporosis, varicose veins, and a history of right ankle fracture. The documented diagnoses were status post ascending aortic aneurysm repair, cerebrovascular accident (CVA), LUE DVT treated with Argatroban and Coumadin, HIT+, retroperitoneal bleed, and status post tracheostomy and PEG placement. Treatment included Argatroban infusion titrated to therapeutic levels, initiation and titration of Warfarin to maintain INR 2-2.5, and addition of Glyburide for elevated blood glucose. She was discharged in good condition to extended care with instructions to keep wounds clean and dry, take all medications as prescribed, and follow up with her physicians after rehab.
+
 
 ## Dialogue Summary
 
-The patient presented with swelling in the left arm and a productive cough. The left arm swelling was noted as a possible sign of clot extension or a new clot, given the patient’s history of deep vein thrombosis (DVT) and recent hospitalization for a clot in the left arm. The productive cough was discussed as potentially related to a respiratory issue or, less commonly, a complication such as pulmonary embolism. The patient is currently on Argatroban and Coumadin for anticoagulation due to heparin-induced thrombocytopenia (HIT+), and expressed concern about the risk of bleeding and recurrent clots. No unusual bruising, bleeding, or changes in symptoms were reported during the conversation; both swelling and cough remained stable. The doctor’s assessment focused on monitoring for clot progression, bleeding complications, and potential medication interactions. Recommendations included tracking any new or worsening swelling, pain, or redness, watching for signs of bleeding, maintaining consistent intake of vitamin K-rich foods, avoiding NSAIDs and activities with high bleeding risk, and informing healthcare providers about anticoagulation before procedures. The patient was advised to keep a food log, maintain regular follow-up, and contact the care team promptly if symptoms changed or new concerns arose.
+The patient is an adult with a history of deep vein thrombosis (DVT) and heparin-induced thrombocytopenia (HIT+), presenting for follow-up regarding left arm swelling and a productive cough. The left arm swelling is stable and has not worsened, and the cough remains unchanged; there are no new symptoms reported. The patient was recently hospitalized for a clot in the left arm, diagnosed with HIT+, and is currently on Argatroban and Coumadin for anticoagulation. There is no documented evidence of bleeding, unusual bruising, or other complications at this time.
+
+The clinical impression is ongoing management of DVT and HIT+ with anticoagulation, with monitoring for potential clot progression, bleeding complications, or signs of pulmonary embolism. The treatment plan includes continued anticoagulation therapy, close monitoring for new or worsening swelling, pain, redness, or bleeding, and prompt reporting of any concerning symptoms such as shortness of breath or chest pain. The patient was advised to avoid activities and medications that increase bleeding risk (e.g., NSAIDs, contact sports), maintain consistent intake of vitamin K-rich foods, and inform all healthcare providers about their anticoagulation status. Regular follow-up and proactive symptom monitoring were emphasized to reduce the risk of complications.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.723
+- **Model Used**: general
+- **Text1 Length**: 147 words
+- **Text2 Length**: 193 words
+
 
 ## Processing Information
 

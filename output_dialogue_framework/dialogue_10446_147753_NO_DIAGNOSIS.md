@@ -87,16 +87,23 @@ Does that make sense? Is there anything else about your recovery you’d like to
 
 ## EHR Summary
 
-The patient is a 71-year-old male presenting with sternal wound drainage following a coronary artery bypass graft performed on 2/10/2158. He reported new onset of sternal wound drainage associated with coughing beginning on 3/18/2158, but denied fevers, chills, sweats, anorexia, or dry heaves, although he had a recorded fever of 102°F at an outside hospital. His past medical history includes osteoarthritis, congestive heart failure, atrial fibrillation, hypercholesterolemia, peripheral vascular disease, transient ischemic attacks, hypothyroidism, and diabetes mellitus; home medications include Celexa, captopril, Prilosec, aspirin, insulin, Lasix, and Coumadin. Allergies to quinidine, shellfish, and intravenous contrast are documented. On physical exam, he was febrile (101.1°F), alert and oriented, with a draining sternal wound that probed to bone and evidence of sternal nonunion with purulence. The documented clinical impression is sternal wound infection with nonunion post-coronary artery bypass graft. Treatment details are not specified in the provided note.
+The patient is a 71-year-old male presenting with sternal wound drainage following a coronary artery bypass graft performed on 2158-2-10. He reported new onset of sternal wound drainage associated with cough beginning on 2158-3-18, and had a fever of 101.1°F at presentation, but denied chills, sweats, or gastrointestinal symptoms. Physical examination revealed a draining sternal wound with purulence and nonunion of the sternum, minimal erythema, and no evidence of sternal instability. His past medical history includes osteoarthritis, congestive heart failure, atrial fibrillation, hypercholesterolemia, peripheral vascular disease, transient ischemic attacks, hypothyroidism, and diabetes mellitus; allergies include quinidine, shellfish, and intravenous contrast. The documented diagnosis was sternal wound infection with Methicillin sensitive Staphylococcus aureus (MSSA) bacteremia. Treatment included intravenous vancomycin and levofloxacin, correction of coagulopathy with vitamin K and fresh frozen plasma, and fluid restriction for hyponatremia. Infectious disease consultation was obtained for further management.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about drainage from their chest surgical site. They reported noticing the drainage a few days ago, describing it as mostly clear and sometimes yellowish, without blood, odor, redness, swelling, or warmth at the site; the amount of drainage has remained stable and does not interfere with daily activities. The patient also noted a recent dry cough and a mild fever up to 100 degrees, but denied chills. No other relevant medical history, medications, or allergies were mentioned. On examination, there were no signs of local infection such as redness, swelling, or foul-smelling drainage. The doctor assessed that the drainage characteristics are reassuring and likely consistent with normal healing, but noted that the mild fever and cough should be monitored for possible infection. The doctor advised the patient to keep the area clean, continue changing dressings as before, and to watch for any changes such as increased fever, pain, redness, or changes in the drainage. The patient was instructed to contact their healthcare provider if symptoms worsen or new concerns arise.
+The patient is an adult presenting with concern about drainage from a recent chest surgical site. The drainage began a few days ago, is mostly clear to yellowish, without blood or odor, and requires dressing changes but does not interfere with daily activities. There is no associated redness, swelling, or warmth at the site, but the patient reports a mild dry cough and a low-grade fever up to 100°F, with no chills. The amount of drainage has remained stable over the past few days.
+
+There is no documented diagnosis of infection; the clinical impression is that the drainage appears consistent with normal postoperative healing, though mild fever and cough are being monitored. The treatment plan includes continued wound care with regular dressing changes, monitoring for any increase in drainage, redness, pain, or changes in the character of the fluid, and instructions to seek prompt medical attention if symptoms worsen or new concerning signs develop. The patient was reassured and educated about signs of possible infection and advised to remain vigilant during recovery. No additional concerns were raised by the patient at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.560
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 183 words
+
 
 ## Processing Information
 

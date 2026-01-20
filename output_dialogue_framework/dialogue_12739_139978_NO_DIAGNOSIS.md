@@ -85,16 +85,23 @@ Let me know if anything makes your leg feel better or worse, such as applying ic
 
 ## EHR Summary
 
-The patient is a 78-year-old male admitted for management of chronic medical conditions. No specific chief complaint or acute symptoms are documented in this note. Relevant history includes chronic kidney disease with a baseline creatinine of 2.0, now increased to 2.4, and hyperkalemia with potassium levels ranging from 5 to 5.8, partially attributed to pseudohyperkalemia secondary to thrombocytosis. The clinical assessment focused on renal function and electrolyte management. The treatment plan included reducing Zestril (lisinopril) from 10 mg to 5 mg daily, adjusting Lasix (furosemide) to 20 mg every other day, and administering Kayexalate 15 grams daily as needed for potassium greater than 5. The patient was also discharged on multiple medications for cardiovascular, hematologic, and endocrine conditions. No new acute diagnoses or findings were documented during this admission.
+The patient is a 78-year-old male admitted for management of chronic medical conditions. During hospitalization, his creatinine increased from a baseline of 2.0 to 2.4, prompting adjustment of medications. He has a history of thrombocytosis contributing to pseudohyperkalemia, with potassium levels ranging from 5 to 5.8. The documented clinical impression includes chronic kidney disease with medication-induced hyperkalemia. Zestril was reduced from 10 mg to 5 mg daily, Lasix was adjusted to 20 mg every other day, and Kayexalate was prescribed as needed for potassium greater than 5. The patient was discharged on a comprehensive medication regimen including antihypertensives, anticoagulants, and supportive therapies. No acute symptoms or new complaints were documented at discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. She reported that the chest pain is more noticeable with activity and less severe at rest, and she also experiences shortness of breath on exertion but not at rest. Additionally, she described pain and bruising (hematoma) on the lower part of her right leg, which began a few days ago and has remained stable; the soreness is localized to the bruise and worsens with walking or standing, but there are no signs of redness, warmth, or infection. The patient noted that both the chest pain and leg discomfort make it harder for her to perform daily activities such as walking around the house and climbing stairs. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the leg pain is consistent with local tissue injury from the hematoma and that chest discomfort and exertional shortness of breath could have several common causes in older adults. The doctor recommended resting and elevating the leg, gentle use, and monitoring for any new or worsening symptoms such as pain at rest, severe shortness of breath, fainting, or rapid heartbeat. The patient reported that resting and elevating her leg helps with soreness and expressed understanding of the plan.
+The patient presents with chest pain as the chief complaint. The chest pain and associated shortness of breath are primarily triggered by activity and improve with rest; both symptoms have made daily activities such as walking and climbing stairs more difficult. The patient also reports right lower leg pain and a bruise from a hematoma, which began a few days ago and has remained stable, with soreness localized to the area of bruising and no signs of infection (no redness or warmth). There is no documentation of relevant past medical history, medications, or allergies in the dialogue.
+
+The clinical impression is that the leg pain is likely due to local tissue injury from the hematoma, and the chest discomfort and exertional dyspnea may be related to common causes in older adults, though no specific diagnosis is documented. The treatment plan includes resting and elevating the affected leg, gentle use, and monitoring for any new or worsening symptoms such as pain at rest, severe shortness of breath, fainting, or rapid heartbeat. The patient is advised to report any changes promptly.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.914
-- **Similarity Label**: N/A
+- **STS Score**: 0.305
+- **Model Used**: general
+- **Text1 Length**: 112 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

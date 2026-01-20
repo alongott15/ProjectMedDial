@@ -87,16 +87,21 @@ Has your breathing been getting steadily worse, or has it stayed about the same 
 
 ## EHR Summary
 
-The patient is a 72-year-old male presenting with respiratory distress. He was transferred from a rehabilitation facility due to respiratory distress and possible pneumonia, as well as for management of volume overload. His medical history includes coronary artery disease (status post stents and PTCA), type 2 diabetes mellitus, hypertension, peripheral vascular disease (status post bilateral lower extremity bypass), chronic renal insufficiency, gout, benign prostatic hyperplasia, and a history of abdominal hernia with prior small bowel resections and tracheostomy placement. On physical exam, he was alert and not in apparent distress, with coarse breath sounds bilaterally and an intact tracheostomy with air leak; he also had significant upper and lower extremity edema. Laboratory results showed leukocytosis (WBC 13.3). No explicit diagnosis was documented in the note. The treatment plan was not specified in the provided text.
+The patient is a 72-year-old male presenting with respiratory distress. He experienced shortness of breath and was found to have a large cuff air leak from his tracheostomy, fever, and tachypnea; laboratory studies revealed leukocytosis and cultures grew oxacillin-resistant Staphylococcus aureus in both sputum and blood, as well as pseudomonas in the urine. His past medical history includes coronary artery disease (status post stents and PTCA), diabetes mellitus type 2, hypertension, peripheral vascular disease, chronic renal insufficiency, gout, benign prostatic hyperplasia, and a history of incarcerated ventral hernia with prior small bowel resections and tracheostomy placement. The documented diagnoses were respiratory distress, congestive heart failure, air leak from tracheostomy, pancreatitis, and pneumonia. Treatment included diuresis for volume overload, replacement of the tracheostomy tube to resolve the air leak, and initiation of antibiotics (linezolid and cefepime) targeting resistant staphylococcus and pseudomonas. The patient improved clinically with resolution of fever and normalization of white blood cell count, and was discharged in stable condition to an extended care facility. Discharge instructions emphasized medication adherence, monitoring for chest pain, shortness of breath, fever, or wound complications, and follow-up appointments with his physicians.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble breathing as the chief complaint. They reported increasing difficulty with walking around the house and going up stairs due to shortness of breath, which worsens with activity but is also present at rest; symptoms have gradually worsened over several days. The patient described noticeable swelling in both legs and arms, and has needed extra pillows at night to sleep more comfortably, often sitting up to catch their breath. No wheezing, coughing, or chest tightness was noted, and the patient denied sudden weight gain. The doctor observed that the combination of progressive shortness of breath, limb swelling, and nighttime symptoms suggests possible fluid retention, which may be related to heart or circulatory issues. The doctor advised the patient to monitor for worsening symptoms such as chest pain or confusion, limit salt intake, elevate their legs when possible, and continue using extra pillows at night. The patient confirmed that their breathing has been getting gradually worse and agreed to follow the recommended advice.
+The patient is an adult presenting with the chief complaint of trouble breathing (dyspnea). The shortness of breath has gradually worsened over several days and is present both at rest and with activity, becoming more pronounced during exertion such as walking or climbing stairs. The patient also reports noticeable swelling in both legs and arms (peripheral edema), difficulty sleeping due to breathing issues, and the need to use extra pillows at night (orthopnea); there is no associated wheezing, cough, or chest tightness. Relevant history regarding underlying medical conditions, medications, or allergies is not specified. The clinical impression documented by the doctor suggests possible fluid retention related to cardiac or circulatory inefficiency, though no definitive diagnosis is made. The treatment plan includes monitoring for worsening symptoms (such as increased dyspnea, chest pain, lightheadedness, or confusion), dietary salt restriction, elevating the legs, and continuing to use extra pillows at night. The patient was advised to seek prompt care if symptoms significantly worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.421
+- **Model Used**: general
+- **Text1 Length**: 188 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

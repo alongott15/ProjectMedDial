@@ -98,3 +98,23 @@ For now, try to avoid sudden head movements, get up slowly from bed or chairs, a
 ## Processing Information
 
 - **Processing Time**: 448.4s
+
+## EHR Summary
+
+The patient is a 53-year-old male presenting with vertigo, ringing in his ears, and headache since earlier in the year. Symptoms included persistent headache, tinnitus, and vertigo, without associated nausea, vomiting, visual disturbances, diplopia, seizures, weakness, or sensory changes. His past medical history includes coronary artery disease with three-vessel stenting and angioplasty, hypertension, and diabetes mellitus treated with insulin; allergies to Lipitor, sulfa drugs, and a new allergy to Dilantin were documented. Imaging revealed a 3-cm x 3-cm right temporal intracranial mass with surrounding edema and hemorrhage, and further workup identified a left lung mass and adrenal mass, raising suspicion for metastatic carcinoma of the lung. The patient was admitted for blood pressure control, anti-seizure therapy, and close monitoring. He was started on high-dose Decadron for cerebral edema and discharged home with a tapering regimen of Decadron, Zantac, and Depakote. Follow-up includes a scheduled CT-guided lung biopsy and outpatient neurology/oncology appointments; future treatment options such as chemotherapy or radiotherapy will be determined based on biopsy results. The patient was instructed to seek immediate care if his mental status or headache severity changes.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with vertigo as the chief complaint. The vertigo began a few days ago and is triggered by quick head movements or standing up too quickly; it is accompanied by persistent, bilateral tinnitus and mild headache, but no hearing loss. The patient reports that these symptoms are impacting daily activities and concentration. There is no reported change in hearing, and the tinnitus remains constant throughout the day.
+
+The clinical impression is a likely inner ear issue, such as benign paroxysmal positional vertigo (BPPV) or a viral inner ear disturbance, with reassurance provided due to the absence of hearing loss. The treatment plan includes avoiding sudden head movements, rising slowly from sitting or lying positions, resting as needed, and monitoring for any new or worsening symptoms such as hearing loss, double vision, weakness, or severe persistent vertigo. The doctor also offered to provide advice on head exercises (such as those used for BPPV) to help alleviate the vertigo.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.480
+- **Model Used**: general
+- **Text1 Length**: 182 words
+- **Text2 Length**: 162 words
+

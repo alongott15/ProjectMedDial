@@ -87,16 +87,23 @@ For now, I recommend keeping track of when these symptoms happen and if they cha
 
 ## EHR Summary
 
-The patient is an 81-year-old female presenting with progressive shortness of breath and fatigue on exertion, as well as dizziness and postural orthostatic hypotension. She denies orthopnea or paroxysmal nocturnal dyspnea. Her medical history includes hypertension and hyperlipidemia, and she is taking verapamil, xipamide, potassium chloride, Lipitor, and aspirin; she has no known drug allergies. On examination, she was well-appearing with a blood pressure of 113/83 mmHg, pulse 86, bilateral basal crackles in the chest, a grade IV systolic murmur, and slight lower extremity varicosities. Echocardiogram revealed moderate mitral stenosis (mitral valve area 1.4 cm²), thickened mitral leaflets with reduced mobility, at least 2+ mitral regurgitation, mild aortic sclerosis, mild tricuspid regurgitation, mild to moderate pulmonary hypertension, and a moderately dilated left atrium. The documented diagnosis was moderate mitral stenosis with associated mitral regurgitation and pulmonary hypertension. The patient underwent mitral valve repair with a #27 Mosaic valve and did well postoperatively.
+The patient is an 81-year-old female presenting with progressive shortness of breath and fatigue on exertion, as well as dizziness and postural orthostatic hypotension. She denied orthopnea or paroxysmal nocturnal dyspnea. Her relevant medical history includes hypertension and hyperlipidemia, and she has no known drug allergies. Echocardiogram revealed moderate mitral stenosis with a mean diastolic gradient of 7 mm, mitral valve area of 1.4 cm², thickened mitral leaflets, at least 2+ mitral regurgitation, mild aortic sclerosis, mild tricuspid regurgitation, mild to moderate pulmonary hypertension, and moderate left atrial dilation. The documented diagnosis was moderate mitral stenosis with associated symptoms. She underwent successful mitral valve repair with a #27 Mosaic valve and had an uncomplicated postoperative course, except for transient atrial fibrillation/flutter managed with amiodarone. At discharge, her condition was good, and she was prescribed amiodarone, Lasix, Lopressor, Percocet as needed, Colace, Lipitor, aspirin, potassium chloride, and Zantac, with instructions to follow up in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with difficulty catching their breath during walking. They reported shortness of breath and increased fatigue with activity, requiring frequent stops to rest, and noted these symptoms have gradually worsened over time. The patient denied swelling in the legs or ankles, cough, chest discomfort, wheezing, or noisy breathing, and stated that resting or sitting alleviates the symptoms; lying down does not cause shortness of breath. They also described episodes of dizziness when standing up. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of swelling, cough, or chest pain and suggested the symptoms may be related to age-related changes or mild heart or lung conditions, with dizziness possibly due to postural blood pressure changes. The doctor recommended pacing activity, staying hydrated, rising slowly from sitting to standing, and monitoring symptoms for any changes, advising gentle exercise as tolerated and to report any worsening or new symptoms such as chest discomfort, fainting, or swelling.
+The patient presents with the chief complaint of exertional dyspnea, describing difficulty catching their breath and increased fatigue during physical activity. Symptoms are characterized by gradual onset and worsening over time, with shortness of breath and tiredness occurring primarily during walking or exertion, but not at rest or when lying down. The patient also reports dizziness upon standing but denies swelling, cough, chest pain, or wheezing. Relevant history, medications, and allergies are not specified in the dialogue.
+
+The clinical impression is that these symptoms may be related to age-associated changes or mild heart or lung conditions affecting exercise tolerance, with possible orthostatic hypotension contributing to dizziness. The treatment plan includes recommendations for pacing activity, staying hydrated, rising slowly from sitting to standing, and monitoring for any new or worsening symptoms such as chest discomfort, fainting, or swelling. Gentle exercise at a comfortable pace is encouraged to maintain strength. The patient is advised to track symptom patterns and report any significant changes.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
+- **STS Score**: 0.605
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

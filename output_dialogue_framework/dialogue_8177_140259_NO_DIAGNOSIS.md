@@ -85,16 +85,21 @@ For now, I recommend you take it easy and avoid strenuous activity until we can 
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with progressive dyspnea on exertion. He reported worsening shortness of breath, dyspnea on exertion, and belching since January, with one episode of shortness of breath and left arm pain relieved by sublingual nitroglycerine. His history includes coronary artery disease with prior LAD stents, aortic stenosis, insulin-dependent diabetes, hypertension, hyperlipidemia, obesity, and benign prostatic hypertrophy; he has no known drug allergies. Cardiac catheterization revealed 70% in-stent restenosis of the LAD, aortic valve area of 1.1 cm², and an ejection fraction of 48%. On admission, he underwent coronary artery bypass grafting (CABG) x1 and aortic valve replacement. Postoperatively, his course was complicated by an apical pneumothorax requiring chest tube reinsertion. Laboratory findings included mild anemia (Hgb 8.9), leukocytosis (WBC 11.8), and hyperglycemia (glucose 239). The documented diagnoses were coronary artery disease with in-stent restenosis and aortic stenosis; treatment included surgical intervention and management of postoperative complications.
+The patient is a 62-year-old male presenting with progressive dyspnea on exertion. He reported worsening shortness of breath, dyspnea on exertion, and belching since January, with one episode of shortness of breath and left arm pain relieved by sublingual nitroglycerine. His history includes coronary artery disease with prior LAD stents, aortic stenosis, insulin-dependent diabetes, hypertension, hyperlipidemia, obesity, and benign prostatic hypertrophy; he has no known drug allergies. Cardiac catheterization revealed 70% in-stent restenosis of the LAD and aortic valve area of 1.1 cm² with an ejection fraction of 48%. The documented diagnoses were aortic stenosis and coronary artery disease. He underwent coronary artery bypass grafting (CABG) x1 and aortic valve replacement, complicated postoperatively by a persistent left apical pneumothorax requiring chest tube management. At discharge, he was stable and sent home with visiting nurse services, a regimen including aspirin, simvastatin, glyburide-metformin, metoprolol, furosemide, potassium chloride, and other supportive medications. Discharge instructions included wound care, activity restrictions, medication adherence, and scheduled follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with progressive shortness of breath during daily activities. Symptoms included worsening breathlessness with exertion, particularly when climbing stairs or performing light chores, and a dull ache in the left arm that occurs with activity and resolves with rest; the patient denied cough, leg swelling, dizziness, or lightheadedness. The patient also reported increased belching, which tends to coincide with episodes of shortness of breath during movement. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the absence of chest discomfort, cough, or swelling, and confirmed the activity-related nature of both the breathlessness and arm pain. The doctor assessed that these symptoms could be consistent with angina due to reduced oxygen supply to the heart during exertion. The doctor advised the patient to avoid strenuous activity, watch for warning signs such as chest tightness or faintness, and recommended arranging heart tests and possible cardiology evaluation. The patient expressed understanding and agreed to follow the recommendations.
+The patient presents with progressive shortness of breath on exertion as the chief complaint. Symptoms include dyspnea that is triggered by activities such as climbing stairs, walking, and light chores, and has worsened over time; the patient also reports a dull ache radiating down the left arm during activity that resolves with rest, and increased belching that coincides with episodes of shortness of breath. There is no associated cough, leg swelling, dizziness, or lightheadedness. The symptoms have been present for a couple of weeks and are now interfering with daily activities such as cooking and walking around the house. Relevant history, medications, and allergies are not specified in the dialogue. The clinical impression documented by the physician is possible angina, likely due to reduced oxygen supply to the heart during exertion. The treatment plan includes advising the patient to avoid strenuous activity, arranging for basic cardiac testing, and considering referral to a cardiologist. The patient was also counseled on warning signs that would require urgent medical attention.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.594
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

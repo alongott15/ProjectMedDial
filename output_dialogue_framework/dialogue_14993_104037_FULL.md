@@ -107,16 +107,21 @@ You’re doing the right thing by getting this checked out early. Do you have an
 
 ## EHR Summary
 
-The patient is a 74-year-old male presenting with hematuria. He reported blood in the urine, and cystoscopy revealed an enlarged, friable prostate possibly causing the hematuria; a CT scan identified a 7.3 x 6.0 cm left adrenal mass. His medical history includes benign prostatic hypertrophy, coronary artery disease (EF 45%), hypercholesterolemia, sleep apnea (on BIPAP), prior knee surgery, carpal tunnel release, and depression; medications include Zoloft, Terazosin, Lipitor, Diovan, Diltiazem, aspirin, and Flovent. Physical examination showed stable vital signs and no acute findings. The documented diagnosis was left adrenal mass and hematuria likely secondary to prostatic hypertrophy. He underwent a left adrenalectomy, tolerated the procedure well, and required one unit of packed red blood cells postoperatively for a hematocrit of 28. The patient was started on a hydrocortisone taper, which was completed by postoperative day three. He remained hemodynamically stable throughout his hospital course and was ruled out for myocardial infarction postoperatively.
+The patient is a 74-year-old male presenting with hematuria. He reported blood in the urine, and cystoscopy revealed an enlarged, friable prostate possibly causing the hematuria; a CT scan also identified a 7.3 x 6.0 cm left adrenal mass. His relevant history includes benign prostatic hypertrophy, coronary artery disease (EF 45%), hypercholesterolemia, sleep apnea, prior knee and carpal tunnel surgeries, and depression; he has no known drug allergies. The documented diagnoses were status post adrenalectomy, coronary artery disease, sleep apnea, benign prostatic hypertrophy, and depression. He underwent a left adrenalectomy, tolerated the procedure well, and required one unit of packed red blood cells postoperatively. Postoperative care included a hydrocortisone taper, pain management, and physical therapy evaluation. He was discharged in stable condition to a rehabilitation facility with follow-up arranged in two to three weeks. Discharge medications included Zoloft, Lipitor, Diltiazem, Diovan, Flomax, aspirin, Isordil, Percocet, Flovent, and Colace.
+
 
 ## Dialogue Summary
 
-The patient presented with blood in the urine (hematuria) as the chief complaint. They reported noticing blood-tinged urine for the past couple of days, occurring more than once, with episodes of pink or red urine interspersed with normal-colored urine. The patient denied any pain or discomfort with urination, changes in urinary frequency, fever, back pain, fatigue, visible clots or tissue in the urine, and had not started any new medications, supplements, or had recent urinary tract procedures or injuries. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of pain, fever, or other concerning symptoms and explained that hematuria without other symptoms can be due to benign causes such as minor irritation or prostate changes, but may also indicate infection, stones, or rarely, a growth in the urinary tract. The doctor recommended a urine test to check for infection or other causes and stated that further imaging might be needed depending on results. The patient was advised to monitor for new symptoms such as pain, difficulty urinating, fever, or clots and to stay hydrated. The doctor emphasized the importance of follow-up if new symptoms develop and reassured the patient that most cases are due to common and treatable causes.
+The patient presented with the chief complaint of blood in the urine (hematuria) noted over the past couple of days. The episodes of hematuria have occurred more than once, with urine appearing pink or red intermittently, but the patient denies any pain, dysuria, increased urinary frequency, fever, back pain, fatigue, or visible clots. There is no history of new medications, supplements, urinary tract procedures, or recent injuries. The clinical impression discussed was that the hematuria could be due to benign causes such as minor irritation or age-related changes (e.g., prostate enlargement), but other possibilities like urinary tract infection, kidney stones, or rarely, a urinary tract growth were also considered. No definitive diagnosis was made at this visit. The treatment plan includes obtaining a urine test to check for infection or other abnormalities, with possible further imaging depending on results. The patient was advised to monitor for new symptoms such as pain, difficulty urinating, fever, or blood clots and to maintain adequate hydration. The importance of follow-up and prompt reporting of any new or worsening symptoms was emphasized.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.601
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 177 words
+
 
 ## Processing Information
 

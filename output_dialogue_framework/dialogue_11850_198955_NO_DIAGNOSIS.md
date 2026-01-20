@@ -87,16 +87,23 @@ Does this help clarify things? Let me know if you have any questions or concerns
 
 ## EHR Summary
 
-The patient is a 51-year-old male presenting after a witnessed aspiration event at his nursing home, resulting in acute hypoxia. He developed congestion with copious purulent sputum, oxygen saturation between 48–59%, and increased lethargy and somnolence following the aspiration. His past medical history includes paroxysmal atrial fibrillation, congestive heart failure (ejection fraction 30–35%), prior cerebrovascular accident with left hemiparesis, chronic pain from unrepaired hip and femur fractures, and chronic anticoagulation with Coumadin. On arrival, vital signs showed bradycardia (heart rate 40s), blood pressure 110–130s systolic, and oxygen saturation improving to mid-90s with supplemental oxygen; EKG revealed atrial fibrillation with bradycardia. Laboratory findings included hyperkalemia (potassium 5.7) and elevated INR (10.2). The clinical impression was aspiration event with hypoxia, bradycardia in the setting of atrial fibrillation, and coagulopathy. Treatment included suctioning, supplemental oxygen, insulin, glucose, calcium for hyperkalemia, and intravenous Vitamin K for elevated INR; no immediate pacemaker was indicated per cardiology evaluation.
+The patient is a 51-year-old male presenting after a witnessed aspiration event at his nursing home, resulting in hypoxia. He developed copious purulent sputum, oxygen saturation as low as 48–59%, hypotension (BP 90/62), bradycardia (HR 40s–50s), and increased lethargy. His relevant history includes paroxysmal atrial fibrillation, congestive heart failure (EF 30–35%), prior cerebrovascular accident with left hemiparesis, chronic pain from unrepaired fractures, MRSA colonization, hypertension, diabetes mellitus type 2, and seizure disorder; he has no known drug allergies and was on multiple medications including Coumadin. The documented diagnoses included aspiration pneumonia with hypoxia, acute on chronic congestive heart failure, atrial fibrillation with bradycardia, urinary tract infection with Morganella, thrombocytopenia (likely secondary to Levofloxacin and positive HIT antibody), and MRSA colonization. Treatment involved elective intubation for airway protection and secretion management, antibiotics (initially Levofloxacin and Flagyl, later switched to Ceftriaxone), diuresis for heart failure, holding beta-blockers due to bradycardia, vitamin K for elevated INR, and supportive care including pain control and DVT/GI prophylaxis. The patient was successfully extubated after several days, his infections were treated according to sensitivities, and his mental status improved prior to discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about decreased mental clarity, describing a gradual onset of feeling mentally foggy over the past several days. They denied headaches, memory lapses, or word-finding difficulties, and reported no specific triggers or patterns related to time of day or activities. The patient also noted ongoing swelling in the legs and ankles, which is worse at the end of the day and after standing, with pitting edema observed when pressing on the legs. Recent history included trouble with pneumonia; no unusual bruising, bleeding, or recent illnesses besides pneumonia were reported. On assessment, the doctor noted persistent mental fogginess and lower extremity edema, both stable over the past few days, possibly related to recovery from pneumonia or fluid retention. The doctor advised monitoring for new symptoms such as shortness of breath, chest discomfort, sudden weight gain, or confusion, and recommended elevating the legs when sitting and avoiding prolonged standing. The patient was instructed to seek urgent evaluation if symptoms worsen or new symptoms develop.
+The patient is an adult presenting with concerns about decreased mental clarity ("mental fogginess") as the chief complaint. Symptoms have developed gradually over several days and include persistent mental cloudiness without headaches or memory lapses, as well as bilateral lower extremity swelling (edema) that is worse at the end of the day and leaves an indentation when pressed. The patient reports a recent history of pneumonia but denies unusual bruising, bleeding, or other acute symptoms. The swelling and mental fogginess have remained stable over the past few days.
+
+The clinical impression is that these symptoms may be related to recovery from pneumonia or fluid retention, with possible contributions from heart, kidney, or liver function, though no definitive diagnosis was documented. The treatment plan includes monitoring for new or worsening symptoms such as dyspnea, chest discomfort, sudden weight gain, or confusion. The patient was advised to elevate their legs when sitting and avoid prolonged standing. If symptoms worsen or new issues arise, more urgent evaluation was recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.473
+- **Model Used**: general
+- **Text1 Length**: 185 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

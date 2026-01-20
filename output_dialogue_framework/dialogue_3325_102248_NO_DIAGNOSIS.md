@@ -85,16 +85,21 @@ For now, try to avoid strenuous activity and monitor for any changes. If the dis
 
 ## EHR Summary
 
-The patient is a 60-year-old man presenting with a two-year history of chest discomfort and chest burning, accompanied by exertional shortness of breath that worsened over the past month. Symptoms prompted evaluation by a cardiologist, including a stress test and cardiac catheterization, which revealed one-vessel coronary artery disease. His past medical history includes hyperlipidemia, irritable bowel syndrome, benign prostatic hypertrophy, fibromyalgia, and prior Lyme disease. He has a documented drug allergy to aspirin and was taking Toprol XL, Norvasc, Zantac, Imodium, and Librax prior to admission. On examination during hospitalization, he remained afebrile with stable vital signs and a benign physical exam. The documented diagnosis was one-vessel coronary artery disease with unsuccessful percutaneous intervention to the left anterior descending artery. Treatment included off-pump coronary artery bypass grafting using the left internal mammary artery to the left anterior descending artery, followed by an uncomplicated postoperative course and transfer to the floor in stable condition.
+The patient is a 60-year-old man presenting with a two-year history of chest discomfort and chest burning, accompanied by shortness of breath on exertion, which had worsened over the past month. His symptoms prompted evaluation by a cardiologist, leading to a stress test and cardiac catheterization that revealed one-vessel coronary artery disease. Past medical history includes hyperlipidemia, irritable bowel syndrome, benign prostatic hypertrophy, fibromyalgia, and a drug allergy to aspirin. The documented diagnosis was coronary artery disease, with additional diagnoses of fibromyalgia, hypercholesterolemia, benign prostatic hypertrophy, and irritable bowel syndrome. He underwent off-pump coronary artery bypass grafting using the left internal mammary artery to the left anterior descending artery. Postoperative recovery was stable, with only a transient low-grade fever and no significant complications. At discharge, his condition was stable, and he was prescribed Plavix, atorvastatin, aspirin, Zantac, Lopressor, Lasix (for seven days), potassium chloride (for seven days), Percocet as needed for pain, Librax, and Imodium.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort. Symptoms included a pressure-like, heavy, or tight sensation in the chest rated as 6/10 at worst, intermittent back discomfort, and shortness of breath, all lasting for an hour or more and sometimes worsening with activity such as walking up stairs; symptoms began a few days ago and have been off and on since. Changing position, deep breaths, or medications did not relieve the discomfort, and the patient denied associated sweating or nausea. No relevant medical history, medications, or allergies were mentioned. The doctor noted the presence of chest pressure, shortness of breath, and back discomfort lasting for extended periods and worsening with exertion. The assessment included possible benign causes such as muscle strain, acid reflux, or anxiety, but also raised concern for potential heart-related issues due to the nature and duration of symptoms. The doctor advised avoiding strenuous activity, monitoring for warning signs (severe pain, sweating, nausea, faintness), seeking urgent care if these develop, and obtaining a routine in-person evaluation soon to clarify the cause.
+The patient presents with chest discomfort as the chief complaint. The discomfort is described as a pressure or heaviness in the chest, rated 6 out of 10 at its worst, lasting for an hour or more, and sometimes worsening with activity such as walking up stairs. Associated symptoms include shortness of breath (dyspnea) and back discomfort, both of which began a few days ago and occur alongside the chest symptoms. The discomfort is not relieved by changing position, deep breaths, or medications. There is no report of severe pain, sweating, nausea, or feeling faint. Relevant medical history, medications, and allergies are not specified. The clinical impression is that the symptoms could be due to benign causes such as muscle strain, acid reflux, or anxiety, but a heart-related issue cannot be ruled out. The treatment plan includes avoiding strenuous activity, monitoring for warning signs (severe pain, sweating, nausea, faintness), seeking urgent care if these develop, and arranging for an in-person evaluation soon.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.476
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

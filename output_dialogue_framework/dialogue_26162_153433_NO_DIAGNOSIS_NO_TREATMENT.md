@@ -59,16 +59,21 @@
 
 ## EHR Summary
 
-The patient is a 70-year-old female presenting with discharge from a surgical wound. She reports increasing drainage and bleeding from her left groin wound following recent bilateral distal external iliac and common femoral artery endarterectomies with patch angioplasties. She denies constitutional symptoms, and there was no erythema or infection noted at her initial post-discharge follow-up. Her past medical history includes diabetes mellitus, hypertension, tobacco use, and right renal artery stenosis; she also has a history of claudication prior to surgery. On physical examination in the Emergency Room, her vital signs were stable except for elevated blood pressure (168/95), and the only notable finding was a III/VI systolic ejection murmur; the wound itself was not described as infected. The documented clinical impression is wound drainage, likely related to a lymphocele. She was admitted for further evaluation and treatment of the wound drainage.
+The patient is a 70-year-old female presenting with discharge from a surgical wound in the left groin. She reported increasing drainage and bleeding from the wound, which was found to be dehisced and draining serous, foul-smelling fluid; she remained afebrile but developed an elevated white blood cell count postoperatively. Her relevant history includes recent bilateral distal external iliac and common femoral artery endarterectomies with patch angioplasties, diabetes mellitus, hypertension, tobacco use, and right renal artery stenosis. The documented diagnosis was wound dehiscence with graft rupture, status post exploration ilial-femoral bypass with graft placement and wound debridement. Treatment included urgent surgical intervention (left groin exploration, bypass grafting, ligation, and debridement), intravenous antibiotics (Zosyn and Vancomycin), followed by oral Flagyl and Lobaplatin, blood transfusions, and wound care with sterile dressings. Infectious Disease consultation guided antibiotic therapy based on wound cultures, which grew methicillin-sensitive Staphylococcus aureus and E. coli. The patient was discharged in stable condition to rehabilitation with instructions for ongoing wound care and follow-up in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about discharge from a surgical wound. The discharge was first noticed a few days ago and has become more noticeable, with an increase in odor. The patient reported swelling in both legs up to the knees and bleeding from the groin wound, but denied fever or chills. No specific medical history, medications, or allergies were mentioned. The doctor inquired about the characteristics of the discharge, presence of infection signs (redness, swelling, warmth, fever, chills), and the extent of bleeding. Clinical findings included patient-reported wound discharge with increased odor, bilateral leg swelling, and groin wound bleeding. The doctor expressed concern for possible infection and sought further details about the severity of bleeding to guide assessment. No specific treatment plan or recommendations were provided during the documented portion of the encounter.
+The patient presents with concern regarding discharge from a surgical wound. The discharge was first noticed a few days ago and has since increased in amount and developed a stronger odor. The patient also reports swelling in both legs up to the knees and bleeding from the groin wound, but denies fever or chills. The bleeding has been significant enough to be noticed, though the exact amount is not specified. Relevant medical history, medications, and allergies are not documented in this dialogue. No formal diagnosis is documented at this stage. The doctor is gathering further details to assess the severity of the bleeding and possible infection. No specific treatment or recommendations have been provided yet.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.576
+- **Model Used**: general
+- **Text1 Length**: 166 words
+- **Text2 Length**: 115 words
+
 
 ## Processing Information
 

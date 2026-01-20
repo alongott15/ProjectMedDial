@@ -87,16 +87,21 @@ Let me know if you have any questions or if there’s anything else about her sy
 
 ## EHR Summary
 
-The patient is a newborn female presenting after precipitous out-of-hospital delivery at 28 and 1/7 weeks gestation, with a birth weight of 1100 grams. She was described as active and breathing well at birth, with an Apgar score of 8 (time not specified), but appeared mildly hypotonic on arrival to the NICU. The mother had no prenatal care, and prenatal labs after delivery were unremarkable. On admission, the infant’s vital signs included a rectal temperature of 92.0°F, heart rate 122, respiratory rate 55, and blood pressure 59/27 (mean 38). Physical exam showed mild retractions with only fair air entry bilaterally, slightly delayed capillary refill, and otherwise normal findings for head, abdomen, and cardiovascular system. The clinical impression was consistent with prematurity at 29 weeks gestation. The patient was admitted to the newborn intensive care unit for further management and monitoring.
+The patient is a newborn female, born at 28 weeks gestation with a birth weight of 1100 grams, presenting for management of prematurity and associated complications. She was delivered precipitously at home without prenatal care and initially exhibited mild hypotonia, mild respiratory distress with retractions, and hypothermia (rectal temperature 92.0°F). Relevant history includes maternal cocaine exposure and lack of prenatal care; initial maternal tox screen was positive for cocaine. The clinical course was notable for respiratory distress syndrome requiring intubation, surfactant administration, and subsequent weaning to room air by day 13 of life; a moderate patent ductus arteriosus (PDA) treated with indomethacin; hyperbilirubinemia managed with phototherapy; and a left subependymal cyst on head ultrasound consistent with early germinal matrix hemorrhage. The documented diagnoses include prematurity, respiratory distress syndrome, PDA, and hyperbilirubinemia. Treatment included mechanical ventilation, surfactant, indomethacin, phototherapy, iron and vitamin E supplementation, and empiric antibiotics (ampicillin and gentamicin). At discharge, the infant was feeding well by mouth, gaining weight appropriately, and in good condition. Discharge recommendations included continued iron supplementation, follow-up with the pediatrician in two days, and routine newborn care.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about her baby’s stomach pain and associated discomfort. The baby has been experiencing general stomach discomfort for a couple of days, with increased crying and fussiness during episodes, but no specific triggers were identified; the crying lasts longer than a few minutes but is not constant. The patient reported no changes in appetite, normal feeding, and no changes in bowel movements (no diarrhea, constipation, or blood in stool). There have been no episodes of fever, vomiting, or unusual sleepiness. The doctor assessed that the symptoms are consistent with mild tummy upset common in young infants, noting the absence of concerning signs such as persistent vomiting, blood in stool, high fever, or lethargy. The doctor recommended gentle tummy massage, ensuring the baby is burped after feeds, and monitoring for any new or worsening symptoms. The patient was advised to seek further evaluation if symptoms such as persistent vomiting, fever, a swollen or hard belly, or inconsolability develop. The patient understood and agreed to monitor her baby’s symptoms as advised.
+The patient is an infant presenting with stomach pain as the chief complaint. The parent reports that the baby has been experiencing general abdominal discomfort and increased fussiness for a couple of days, with crying episodes lasting longer than usual but no specific triggers identified. Feeding patterns and appetite remain normal, and there have been no changes in bowel movements, diarrhea, constipation, blood in the stool, fever, vomiting, or altered alertness. Relevant history of medications or allergies is not specified. The clinical impression is mild tummy upset, likely related to normal digestive development in a young infant, with no signs of serious illness. The treatment plan includes gentle tummy massage, ensuring thorough burping after feeds, and monitoring for new or worsening symptoms. The parent was advised to seek further evaluation if symptoms such as persistent vomiting, fever, a swollen or hard abdomen, or difficulty consoling the baby develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.938
-- **Similarity Label**: N/A
+- **STS Score**: 0.476
+- **Model Used**: general
+- **Text1 Length**: 182 words
+- **Text2 Length**: 148 words
+
 
 ## Processing Information
 

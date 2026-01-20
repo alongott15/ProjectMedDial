@@ -85,16 +85,21 @@ If you haven’t already, using ice after activity and over-the-counter pain rel
 
 ## EHR Summary
 
-The patient is a 69-year-old male presenting with bilateral knee pain. He has a history of end-stage degenerative joint disease (osteoarthritis) in both knees. There are no known drug allergies. On physical exam, he was alert and oriented, with clean, dry, and intact bilateral knee incisions postoperatively and no evidence of infection. The documented diagnosis was end-stage degenerative joint disease of both knees. He underwent elective bilateral total knee arthroplasty without intraoperative complications. Postoperatively, he experienced hypotension and a drop in hematocrit, requiring transfusion, but was stabilized and transferred to the orthopedic floor. Pain was managed with oral medications, and he was started on Lovenox for anticoagulation; low-grade fever and further hematocrit drop were monitored but no infection was found.
+The patient is a 69-year-old male presenting with bilateral knee pain. He has a history of end-stage degenerative joint disease (osteoarthritis) in both knees, with chronic pain leading to elective admission for definitive treatment. There is no history of drug allergies. The documented diagnosis was bilateral knee osteoarthritis. The patient underwent bilateral total knee arthroplasty without surgical complications, though he experienced postoperative hypotension and a drop in hematocrit, requiring transfusion of 4 units of PRBCs in total; he remained stable and asymptomatic thereafter. Postoperative care included epidural analgesia, transition to oral pain medications, and initiation of Lovenox for anticoagulation. Discharge instructions emphasized weight bearing as tolerated, range of motion exercises, continued physical therapy, wound care, and monitoring for signs of infection or complications. The patient was discharged in stable condition to an extended care facility with follow-up arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with bilateral knee pain causing discomfort. The pain has persisted for several months and is described as a dull, aching sensation, rated 5–6 out of 10 on most days. Symptoms worsen with movement, especially walking or using stairs, and improve with rest; the patient also experiences morning stiffness and stiffness after sitting, which eases with activity. No swelling or redness was reported, and the pain has limited activities such as walking for long periods and shopping. No relevant medical history, medications, or allergies were mentioned. On examination, the doctor noted the absence of swelling or redness and assessed the symptoms as consistent with age-related joint changes, likely osteoarthritis. The doctor recommended pacing activities, using supportive shoes, engaging in gentle exercises like swimming or cycling, applying ice after activity, and considering acetaminophen for pain relief if appropriate. The patient was advised to seek urgent care if symptoms worsen suddenly or if swelling, redness, or fever develop, and expressed interest in learning more about suitable exercises.
+The patient is an adult presenting with bilateral knee pain as the chief complaint. The discomfort has persisted for several months, is described as a dull, aching pain rated 5–6 out of 10, and is exacerbated by activity such as walking or using stairs, while improving with rest. The patient also reports stiffness in the knees, particularly in the morning or after periods of inactivity, but denies any swelling or redness. The pain has limited daily activities like prolonged walking and shopping. There is no mention of relevant medical history, medications, or allergies. The clinical impression documented by the physician is age-related osteoarthritis of the knees. The treatment plan includes recommendations for pacing activities, using supportive footwear, engaging in low-impact exercises (such as swimming or cycling), applying ice after activity, and considering over-the-counter acetaminophen if appropriate. The physician also advised monitoring for new symptoms such as swelling, redness, or fever and offered to provide further guidance on suitable exercises.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.662
+- **Model Used**: general
+- **Text1 Length**: 138 words
+- **Text2 Length**: 159 words
+
 
 ## Processing Information
 

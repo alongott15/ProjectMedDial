@@ -63,16 +63,21 @@
 
 ## EHR Summary
 
-The patient is a 65-year-old male presenting with bilateral ischemic Achilles heel ulcers. He reports rest pain and is wheelchair bound, unable to ambulate due to pain; the ulcers developed secondary to dry skin and abrasions from scratching. His medical history includes coronary artery disease (status post coronary artery bypass graft), diabetes, hypertension, hypercholesterolemia, gastroesophageal reflux disease, and rheumatoid arthritis. On physical exam, he was alert and cooperative, with stable vital signs and clear lungs; no acute distress was noted. The documented diagnosis is bilateral ischemic ulcers of the Achilles tendon area. Prior treatment included intravenous antibiotics at an outside hospital without improvement, and he underwent an angiogram before referral for further evaluation. His admission medications include insulin (Humulin NPH), Lopressor, Tricor, Mavik, Zocor, and sublingual nitroglycerin as needed. Further management recommendations are not specified in the provided note.
+The patient is a 65-year-old male presenting with bilateral ischemic Achilles heel ulcers. He reported rest pain and inability to ambulate due to pain, with a history of diabetes, coronary artery disease (status post CABG), hypertension, and hypercholesterolemia. Examination revealed cool, pale feet with draining ulcers and non-palpable distal pulses bilaterally. The documented diagnoses included bilateral ischemic Achilles ulcers, pulmonary edema requiring intubation, and myocardial infarction. During hospitalization, he underwent right axillo-femoral and left femoral-anterior tibial bypass grafts with bilateral heel debridement, received antibiotics (Kefzol, ciprofloxacin), anticoagulation (heparin, Coumadin), and treatment for yeast bacteremia (fluconazole). Postoperative complications included pulmonary edema and myocardial infarction, managed with supportive care and cardiac catheterization. At discharge, he was stable with clean surgical sites, palpable pulses, and was transferred to rehabilitation. Discharge medications included ciprofloxacin, fluconazole, antihypertensives, antiplatelets, insulin sliding scale, and Coumadin with INR monitoring; wound care instructions were provided.
+
 
 ## Dialogue Summary
 
-The patient presented with ulcers on both Achilles heels as the chief complaint. The ulcers have been present for approximately two weeks and have worsened over time, causing significant pain that makes walking and daily activities, such as moving around the home and running errands, nearly impossible. The patient denied noticing redness or drainage but reported persistent pain around the ulcers and was unsure about swelling. No specific medical history, medications, or allergies were mentioned during the conversation. The doctor inquired about the duration, severity, and characteristics of the ulcers, as well as the impact on mobility and possible signs of infection or circulation issues. No physical examination findings were documented, as the patient did not describe the depth or size of the ulcers before the simulation ended. No formal assessment or working diagnosis was stated by the doctor. No treatment plan or recommendations were provided during this encounter.
+The patient presents with painful ulcers on both Achilles heels as the chief complaint. The ulcers have been present for approximately two weeks and have worsened over time, causing significant pain and making ambulation nearly impossible. The patient reports difficulty performing daily activities such as moving around the home and running errands due to foot pain. There is no reported redness or drainage from the ulcers, and the presence of swelling is uncertain. The patient is unsure about the depth and size of the ulcers. Relevant medical history, diagnosis, and treatment plan are not documented in the dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.513
+- **Model Used**: general
+- **Text1 Length**: 146 words
+- **Text2 Length**: 98 words
+
 
 ## Processing Information
 

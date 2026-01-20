@@ -87,16 +87,21 @@ Let me know if you have any questions about what we've discussed or if there's a
 
 ## EHR Summary
 
-The patient is a 59-year-old male presenting with an episode of choking sensation and discomfort radiating from the stomach to the chest, worse with exertion. Symptoms began the evening prior to admission and included chest discomfort, nausea, diaphoresis, and mild headache, which were partially relieved by sublingual nitroglycerin and aspirin. The chest discomfort recurred the following morning, prompting presentation to the Emergency Department, where nitroglycerin again relieved his pain. Relevant history includes coronary artery disease with multiple prior stents, hypertension, hyperlipidemia, and type 2 diabetes mellitus; he has no known drug allergies and takes multiple cardiac and diabetic medications at home. On admission, he was started on a heparin drip and had already taken his beta blocker and aspirin. Physical exam and laboratory findings are not specified in the provided text. The documented diagnosis is not explicitly stated, but the clinical impression is consistent with recurrent angina in the setting of significant coronary artery disease. Treatment included sublingual nitroglycerin for symptom relief and initiation of a heparin drip.
+The patient is a 59-year-old male presenting with an episode of choking sensation and chest discomfort radiating from the stomach to the chest, worse with exertion, which began the evening prior to admission. Symptoms included chest discomfort, nausea, diaphoresis, and mild headache, partially relieved by sublingual nitroglycerin and aspirin, with recurrence of left-sided chest pain prompting Emergency Department evaluation. Relevant history includes coronary artery disease with multiple prior stents, hypertension, hyperlipidemia, and type 2 diabetes mellitus; he has no known drug allergies and was taking beta blockers, aspirin, Plavix, and other cardiac and diabetic medications at home. On admission, laboratory studies were unremarkable and chest x-ray showed no acute findings. Cardiac catheterization revealed severe multi-vessel coronary artery disease. The documented diagnosis was status post coronary artery bypass graft times four. Treatment included coronary artery bypass grafting (CABG x4) without complications, followed by postoperative monitoring and supportive care. At discharge, the patient was in good condition, sent home with instructions for wound care, follow-up appointments, and a regimen of cardiac, diabetic, and pain medications.
+
 
 ## Dialogue Summary
 
-The patient presented with a chief complaint of choking sensation and chest discomfort that moves from the stomach up to the chest. Symptoms have developed gradually over several days, worsening with physical activity such as walking or moving around, and improving with rest; associated symptoms include nausea, sweating, and a mild headache, but no shortness of breath or radiation of discomfort to the neck, jaw, or arms. The patient reported avoiding usual activities due to symptom severity and noted that symptoms do not occur after eating. No relevant medical history, medications, or allergies were mentioned during the encounter. On clinical review, the doctor noted that the discomfort is activity-related, resolves with rest, and does not radiate beyond the chest and stomach area. The doctor’s assessment was that the symptoms could be related to how the heart responds to exertion, possibly due to temporary reduced blood flow during activity, but benign causes were also considered. The doctor advised the patient to avoid strenuous activity, recommended prompt evaluation including an EKG and blood work, and instructed the patient to seek immediate care if symptoms worsen or do not resolve with rest. The patient acknowledged understanding of these recommendations.
+The patient is an adult presenting with a chief complaint of a choking sensation and chest discomfort that moves from the stomach to the chest. Symptoms have developed gradually over several days and are triggered by physical activity, improving with rest; associated features include nausea, sweating, and occasional mild headache, but no shortness of breath or radiation of discomfort to the neck, jaw, or arms. The symptoms are significant enough to limit daily activities such as walking and other exertion. There is no mention of relevant past medical history, medications, or allergies in the dialogue. The clinical impression documented by the physician is possible exertional cardiac-related chest discomfort, with concern for reduced blood flow to the heart during activity. The treatment plan includes avoiding strenuous activity, scheduling prompt evaluation with an EKG and possible blood work, and instructions to seek immediate medical attention if symptoms worsen or do not resolve with rest. The patient was also advised on warning signs to monitor while awaiting further evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.643
+- **Model Used**: general
+- **Text1 Length**: 173 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

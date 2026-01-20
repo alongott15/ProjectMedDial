@@ -87,16 +87,21 @@ Managing your diabetes and blood pressure is key for slowing progression. If you
 
 ## EHR Summary
 
-The patient is a 67-year-old male admitted for coronary artery bypass grafting (CABG) due to documented moderate inferior and reversible anterior wall defects on exercise treadmill testing, with an ejection fraction of 34%. He reported no discomfort or shortness of breath at admission. His medical history includes insulin-dependent diabetes, peripheral vascular disease, prior left cerebrovascular accident, hypertension, hypercholesterolemia, chronic renal insufficiency, and chronic bronchiectasis. On postoperative day 2, he developed atrial fibrillation, which was managed with beta blocker (Lopressor) and amiodarone. Physical examination at discharge showed stable vital signs, afebrile status, clear chest, and regular heart rhythm. The documented diagnosis was coronary artery disease requiring CABG and postoperative atrial fibrillation. Treatment included CABG x3, rate control for atrial fibrillation, and continuation of his chronic medications. He was able to ambulate over 500 feet and climb stairs prior to discharge home.
+The patient is a 67-year-old male admitted for coronary artery bypass grafting (CABG) due to documented coronary artery disease with prior evidence of moderate inferior and reversible anterior wall defects and reduced ejection fraction (34%). He reported no discomfort or shortness of breath on admission. His medical history includes insulin-dependent diabetes, peripheral vascular disease, prior left CVA, hypertension, hypercholesterolemia, chronic renal insufficiency, and chronic bronchiectasis. During his hospital course, he underwent CABG x3 and postoperatively developed atrial fibrillation, which was managed with beta blocker (Lopressor) and Amiodarone. The patient recovered well, was able to ambulate over 500 feet and climb stairs, and was discharged in stable condition with normal vital signs and stable renal function. The documented diagnosis was coronary artery disease status post CABG complicated by postoperative atrial fibrillation. Discharge medications included Lopressor, Lasix, Aspirin, NPH insulin, Amiodarone, Percocet as needed, and Colace. He was advised to follow up with his surgeon in 2–25 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with pain in both calves when walking, which has been ongoing for a few weeks and makes it harder to get around. The pain starts after walking for five to ten minutes, worsens with continued activity, and resolves within a few minutes of rest; it does not occur when sitting or inactive. The patient denied numbness, tingling, or changes in color or temperature in the legs. Relevant history includes diabetes, high blood pressure, and previously mentioned circulation problems. On assessment, the doctor noted the absence of sensory changes or skin discoloration and identified the pattern as consistent with intermittent claudication, likely due to peripheral artery disease (PAD), especially given the patient's risk factors. The doctor advised gentle walking within the patient’s limits to help improve circulation, emphasized the importance of managing diabetes and blood pressure, and recommended monitoring for new symptoms such as pain at rest or non-healing sores. The doctor offered to provide tips for safe activity and suggested regular follow-up for ongoing evaluation.
+The patient is an adult with a history of diabetes and high blood pressure presenting with bilateral calf pain during walking. The pain has been present for several weeks, is triggered by walking for five to ten minutes, and resolves with rest; it does not occur at rest and is not associated with numbness, tingling, or changes in skin color or temperature. The symptoms have limited the patient's ability to walk longer distances and perform daily activities. Relevant medical history includes diabetes, hypertension, and previously noted circulation problems. The clinical impression documented is intermittent claudication likely due to peripheral artery disease (PAD). The patient was advised to monitor for new symptoms such as pain at rest, non-healing sores, or color changes, which would require urgent attention. The treatment plan includes gentle walking within tolerance to improve circulation, avoiding significant discomfort, and ongoing management of diabetes and blood pressure. Regular follow-up with a healthcare provider was also recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.932
-- **Similarity Label**: N/A
+- **STS Score**: 0.397
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

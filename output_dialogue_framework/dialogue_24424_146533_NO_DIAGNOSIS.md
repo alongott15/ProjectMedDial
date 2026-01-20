@@ -184,3 +184,21 @@ My recommendation is to let the nurse know about these symptoms immediately. It�
 ## Processing Information
 
 - **Processing Time**: 460.9s
+
+## EHR Summary
+
+The patient is a 66-year-old male presenting after direct transfer for ST-elevation myocardial infarction (STEMI) with in-stent thrombosis, now stabilized following cardiac catheterization and blood transfusion. He reported intermittent left leg pain (post-vascular surgery), chest pain described as a "cold rough" feeling in the esophagus, right-sided chest pain resembling "gas pain," shortness of breath, and nausea, with symptoms partially relieved by nitroglycerin. His history includes HIV on HAART, non-Hodgkin's lymphoma, left upper lobe lung adenocarcinoma status post resection, coronary artery disease with prior percutaneous coronary intervention and drug-eluting stents, and recent medication noncompliance. On admission, he was found to have a totally occluded LCX stent, treated with a bare metal stent; he subsequently developed hypotension, a right groin hematoma, and acute blood loss anemia requiring transfusion. The documented diagnoses were STEMI with in-stent thrombosis, hypotension, groin hematoma, acute blood loss anemia, medication noncompliance, and hyperbilirubinemia (attributed to hematoma reabsorption vs. HAART). Treatment included cardiac catheterization with stenting, blood transfusions, initiation of high-dose clopidogrel (150 mg daily), aspirin, statin therapy (held at discharge), metoprolol, and discontinuation of certain antiretroviral medications due to hyperbilirubinemia. The patient was discharged home in stable condition with instructions to adhere strictly to his medication regimen and follow up for further management.
+
+
+## Dialogue Summary
+
+The patient is an adult with a recent history of heart attack and cardiac catheterization presenting with chest pain as the main complaint. Key symptoms include intermittent chest pain, shortness of breath, left leg pain, and swelling and bruising in the right groin at the catheterization site; the patient also reported episodes of low blood pressure (90s/40s–50s), a drop in hematocrit, and occasional nausea. These symptoms have persisted but are described as stable and not worsening. The patient’s relevant history includes a recent heart attack and cardiac catheterization procedure. No specific diagnosis beyond concern for possible cardiac or vascular complications post-procedure is documented. The clinical impression is that these symptoms could represent recurrence or complications such as vessel issues, bleeding, or cardiac changes. The treatment plan consists of close monitoring, immediate reporting of any new or worsening symptoms to the hospital care team, and prompt assessment for any urgent warning signs. The patient has been advised to keep the care team informed and seek immediate attention if symptoms worsen.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.610
+- **Model Used**: general
+- **Text1 Length**: 205 words
+- **Text2 Length**: 169 words
+

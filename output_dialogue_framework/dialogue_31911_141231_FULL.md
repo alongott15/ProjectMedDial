@@ -96,3 +96,21 @@ If you notice any new symptoms, such as numbness, tingling, weakness, or if the 
 ## Processing Information
 
 - **Processing Time**: 420.9s
+
+## EHR Summary
+
+The patient is a 71-year-old male presenting with neck pain following a fall that resulted in a C2 fracture. He reported neck pain as the primary symptom, and physical examination revealed no neurological deficits. His relevant medical history includes Crohn's disease (status post proctocolectomy), melanoma of the left forearm, prior right elbow surgery, benign prostatic hyperplasia, degenerative joint disease, right knee replacement, hypertension, and erectile dysfunction; he has allergies to amoxicillin, Flagyl, and latex. The documented diagnosis was C2 fracture. The patient underwent halo-vest placement without complications and received postoperative DVT prophylaxis, intravenous antibiotics, and oral pain control. Discharge instructions included wound care for the halo-vest pin sites, activity restrictions (no lifting over 10 lbs, frequent walking), continuation of home medications (excluding NSAIDs), and use of prescribed pain and constipation medications. He was discharged in good condition to an extended care facility with follow-up arranged in two weeks.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with neck pain as the chief complaint. The discomfort has been present for a few days, described as a dull ache with associated stiffness, and is worsened by turning the head to the side. Pain severity is rated 5 out of 10 and mildly limits daily activities, but there are no associated neurological symptoms (numbness, tingling, weakness) or systemic symptoms (fever, chills, malaise). The patient denies any recent changes in routine, unusual physical activity, or identifiable triggers, and has not yet tried any home remedies or medications. Relevant medical history, medications, and allergies are not specified. The clinical impression is a common musculoskeletal neck issue, likely due to minor strain or stiffness, without evidence of serious underlying pathology. The treatment plan includes home management with gentle stretching, application of heat, and over-the-counter analgesics such as acetaminophen or ibuprofen, along with advice to avoid sudden neck movements and maintain good posture. The patient was also advised to monitor for new or worsening symptoms and requested guidance on safe stretching and heat therapy techniques.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.464
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 178 words
+

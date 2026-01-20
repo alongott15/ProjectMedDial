@@ -87,16 +87,23 @@ Has the amount of blood been getting better, worse, or staying about the same si
 
 ## EHR Summary
 
-The patient is an 85-year-old male admitted with lower gastrointestinal bleeding. He experienced intermittent episodes of bright red blood per rectum (BRBPR) over four days, requiring transfusion of 13 units of blood, but remained hemodynamically stable without abdominal pain, chest pain, shortness of breath, fever, chills, nausea, or vomiting. His past medical history includes two prior myocardial infarctions, dual chamber pacemaker, small cerebrovascular accident in 2113 with mild left facial droop, hypertension, hyperlipidemia, and prostate cancer status post-surgery with stress incontinence. Physical exam showed he was alert and oriented, with stable vital signs and a positive guaiac test. Laboratory results revealed anemia (hemoglobin as low as 8.8 g/dL) and thrombocytopenia. The documented diagnosis was lower gastrointestinal bleeding, likely from right colon AVMs as suggested by tagged RBC scan and colonoscopy findings. Treatment included subtotal colectomy with ileal rectal anastomosis and rigid proctoscopy. No drug allergies were reported.
+The patient is an 85-year-old male admitted with lower gastrointestinal bleeding. He experienced intermittent episodes of bright red blood per rectum over four days, requiring transfusion of 13 units of blood, but remained hemodynamically stable without abdominal pain, chest pain, shortness of breath, fever, chills, nausea, or vomiting. His past medical history includes two prior myocardial infarctions, dual chamber pacemaker, small cerebrovascular accident with mild facial droop, hypertension, hyperlipidemia, and prostate cancer status post-surgery. The documented diagnoses were lower GI bleed and postoperative myocardial infarction following subtotal colectomy with ileal rectal anastomosis. Treatment included subtotal colectomy, blood transfusions, and postoperative management of myocardial infarction with cardiology consultation and medication adjustments. Discharge medications included aspirin, dipyridamole-aspirin, albuterol, heparin, atorvastatin, metoprolol, isosorbide mononitrate, furosemide, ezetimibe, docusate sodium, and pantoprazole. The patient was discharged in stable condition to an extended care facility with instructions for follow-up with his primary care provider and surgeon.
+
 
 ## Dialogue Summary
 
-The patient presented with bright red blood noticed during bowel movements. The bleeding has been ongoing for a couple of days, occurs every time the patient has a bowel movement, and is visible in the toilet bowl as a noticeable amount rather than just a small streak; there is no associated pain, discomfort, change in bowel habits, or dark/tarry stools. The patient denied feeling lightheaded, dizzy, or unusually tired, and reported that the amount of blood has stayed about the same since onset. No relevant medical history, medications, or allergies were mentioned. On clinical review, there were no additional physical findings described beyond the patient's reported symptoms. The doctor assessed that the ongoing bright red rectal bleeding without other concerning symptoms may be due to common benign causes such as hemorrhoids or small anal tears. The doctor recommended staying hydrated, avoiding straining during bowel movements, and considering dietary fiber if constipated; if bleeding worsens, new symptoms develop, or it does not improve within a week, a physical exam should be scheduled to further evaluate the source.
+The patient is an adult presenting with the chief complaint of bright red blood noticed during bowel movements for the past few days. The bleeding is described as a noticeable amount in the toilet bowl, occurring with every bowel movement, and has remained consistent since onset. The patient denies associated pain, discomfort, changes in bowel habits, dark or tarry stools, lightheadedness, dizziness, or fatigue. No relevant past medical history, medications, or allergies were discussed.
+
+The clinical impression is that the rectal bleeding is likely due to a benign cause such as hemorrhoids or minor anal tears, given the absence of alarming symptoms. The physician advised monitoring for increased bleeding or new symptoms such as weakness or dizziness. Recommendations included staying hydrated, avoiding straining during bowel movements, and considering dietary fiber if constipated. If the bleeding persists beyond a week or worsens, a physical examination was recommended to further evaluate the source.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.635
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

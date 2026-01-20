@@ -95,16 +95,23 @@ I’d recommend getting those blood tests as soon as you can, including liver fu
 
 ## EHR Summary
 
-The patient is a 41-year-old female presenting with increasing fatigue and icterus. She reports weakness, lethargy, sore throat, hoarseness, an episode of epistaxis, productive cough with phlegm (no blood), occasional shortness of breath, pruritus, and nonspecific joint/muscle pain, all worsening over the past week. Her medical history includes human immunodeficiency virus (off antiretroviral therapy due to cirrhosis), hepatitis C, liver cirrhosis, and prior hemolytic anemia (prednisone discontinued in January after resolution). On admission, hematocrit was 24.4; right upper quadrant ultrasound showed improving ascites without bile duct dilatation, and chest x-ray was negative for pneumonia. The documented diagnosis includes HIV infection, hepatitis C, liver cirrhosis, and a history of hemolytic anemia. The treatment plan is not specified in the provided note.
+The patient is a 41-year-old female presenting with increasing fatigue and icterus. She reported two weeks of worsening weakness, lethargy, sore throat, hoarseness, pruritus, productive cough with phlegm, and occasional shortness of breath, as well as an episode of epistaxis on the day of admission. Her medical history includes human immunodeficiency virus (off antiretrovirals), hepatitis C with cirrhosis, prior autoimmune hemolytic anemia, acute renal failure, and previous gastrointestinal bleeding from esophageal varices. On admission, she was found to have anemia (hematocrit 24.2), thrombocytopenia (platelets 88), and acute-on-chronic renal failure (creatinine rising from 1.2 to >2). Blood cultures grew methicillin-resistant Staphylococcus aureus, and she was started on vancomycin and ciprofloxacin. The clinical impression included anemia of chronic disease, decompensated liver failure, acute-on-chronic renal failure (multifactorial), and bacteremia. Treatment included transfusion of packed red blood cells, intravenous fluids, iron, ascorbic acid, Epogen, holding diuretics and Bactrim, and starting nadolol for variceal bleeding prophylaxis. Further diagnostic workup and specialty consultations were ongoing at the time of this note.
+
 
 ## Dialogue Summary
 
-The patient presented with fatigue and yellowing of the skin and eyes. Symptoms included gradually worsening tiredness, constant fatigue and weakness, increased need for rest, pruritus (especially on the legs), new painful and itchy bumps on the legs, nosebleeds, a sore throat, hoarse voice, cough with phlegm, a shallow ulcer on the back of the neck, and lighter spots on the upper back. The patient denied dark urine, pale stools, nausea, vomiting, appetite changes, sleep disturbances, recent illness, travel, or new medications. On examination, there were no acute findings reported by the doctor; all findings were based on patient history. The doctor’s assessment was that the combination of jaundice, pruritus, skin changes, nosebleeds, and fatigue could indicate issues with the liver or blood/clotting system, while cough and hoarseness might be due to a mild upper respiratory infection but could also be related to an underlying systemic process. The doctor recommended urgent blood tests to assess liver function and blood counts and advised the patient to monitor for worsening symptoms such as confusion, severe abdominal pain, fever, increased bleeding, or shortness of breath. The patient was also advised to stay hydrated, avoid alcohol and unfamiliar medications, and report any new or worsening symptoms promptly.
+The patient is an adult presenting with the chief complaint of fatigue and yellowing of the skin and eyes (jaundice). Symptoms include progressive tiredness, generalized weakness, pruritus (notably with new painful, itchy bumps on the legs), nosebleeds, a sore throat with hoarseness, a cough with phlegm, a shallow ulcer on the back of the neck, and lighter spots on the upper back. The yellowing developed gradually over several days and has been worsening; pruritus and skin changes are new, and there is no history of dark urine, pale stools, nausea, vomiting, appetite change, recent travel, or new medications. The patient denies sleep disturbances but reports increased daytime fatigue. Relevant history such as chronic medical conditions, medications, or allergies was not specified.
+
+The clinical impression is that these symptoms may be related to liver dysfunction or a blood disorder, with possible contribution from a mild upper respiratory infection for the cough and hoarseness. The doctor recommended urgent blood tests to assess liver function and blood counts. The patient was advised to monitor for worsening symptoms (such as confusion, severe abdominal pain, fever, or increased bleeding) and to seek immediate care if these occur. Supportive advice included staying hydrated, avoiding alcohol and unfamiliar medications, and tracking any new symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.969
-- **Similarity Label**: N/A
+- **STS Score**: 0.521
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 207 words
+
 
 ## Processing Information
 

@@ -90,16 +90,21 @@ Here’s what I recommend:
 
 ## EHR Summary
 
-The patient is a 64-year-old female presenting with epistaxis followed by hematemesis. She reported a history of frequent nosebleeds, recent coffee ground emesis, seven to eight days of dark or tarry stools, and crampy abdominal pain over several months. Her past medical history includes hypertension and cholecystectomy, with no prior bleeding complications or known bleeding disorders. Medications on admission included verapamil, aspirin, ibuprofen, and unspecified Chinese herbs; she has no known allergies. On admission, she was alert, in no acute distress, and afebrile. The documented diagnosis is not explicitly stated in the note. Treatment details or specific recommendations are not provided in the available documentation.
+The patient is a 64-year-old female presenting with epistaxis followed by hematemesis. She reported left-sided nosebleed on the day of admission, swallowing blood, subsequent abdominal pain, and bloody hematemesis, as well as a history of frequent nosebleeds, recent coffee ground emesis, and seven to eight days of dark or tarry stools with crampy abdominal pain. Her past medical history includes hypertension and cholecystectomy, and she was taking verapamil, aspirin, ibuprofen, and unspecified Chinese herbs on admission; she has no known allergies. On evaluation, her hematocrit dropped from 37.5 to 29.5 but stabilized without need for transfusion; endoscopy revealed active bleeding in the posterior pharynx and mild gastritis, with no evidence of gastrointestinal ulceration or ongoing nasal bleeding. The documented diagnoses were epistaxis, posterior pharyngeal bleeding, mild gastritis, and anemia. Treatment included placement of Merocel in the left naris, discontinuation of aspirin and ibuprofen, initiation of Keflex 500 mg orally four times daily for five days, Protonix 40 mg daily for six weeks, and ferrous sulfate 325 mg daily for six months; verapamil was continued. She was discharged home with follow-up arranged with ENT and her primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with recent episodes of nosebleeds and a single episode of vomiting blood. The nosebleeds occurred a couple of times over the past few days, lasted a few minutes, stopped on their own, and did not have identifiable triggers; the vomiting blood was a small amount mixed with vomit and appeared bright red. The patient also reported intermittent stomach pain for the past couple of days and noted darker, almost black stools, but denied increased fatigue or changes in appetite. Relevant history includes current use of aspirin, ibuprofen, and verapamil, with no prior bleeding problems. On assessment, the doctor noted mild upper gastrointestinal symptoms possibly related to medication-induced irritation and bleeding, given the combination of nosebleeds, vomiting blood, and dark stools. The doctor recommended considering stopping ibuprofen (to be discussed with the patient’s regular doctor), monitoring for worsening symptoms such as increased vomiting of blood, persistent black stools, severe pain, or weakness, and avoiding further stomach irritants. The patient expressed understanding of the recommendations and agreed to follow up as advised.
+The patient is an adult presenting with recent episodes of nosebleeds and a single episode of hematemesis (vomiting a small amount of bright red blood). The nosebleeds began a few days ago, occur occasionally without clear triggers, and resolve spontaneously within minutes; the hematemesis was accompanied by intermittent stomach pain over the past couple of days and dark, almost black stools. The patient denies increased fatigue or appetite changes and reports taking aspirin, ibuprofen, and verapamil, with no prior history of bleeding problems. The clinical impression is mild upper gastrointestinal irritation or bleeding, likely related to concurrent use of aspirin and ibuprofen. The physician advised discontinuing ibuprofen (after consulting the patient’s regular doctor), monitoring for warning signs such as recurrent or large-volume hematemesis, persistent melena, severe abdominal pain, or symptoms of hemodynamic compromise. The patient was also counseled to avoid further gastric irritants and to seek prompt medical attention if symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.752
+- **Model Used**: general
+- **Text1 Length**: 188 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

@@ -89,16 +89,21 @@ Does that make sense? Is there anything else you’ve noticed that you’d like 
 
 ## EHR Summary
 
-The patient is an 83-year-old male presenting with chest pain. He experienced chest pain beginning on [4-12], was found to have a myocardial infarction, and underwent cardiac catheterization revealing three-vessel coronary artery disease. His medical history includes hypertension, hypercholesterolemia, type 2 diabetes mellitus, benign prostatic hypertrophy, arthritis, gout, chronic renal insufficiency, and prior gastrointestinal bleeding. On transfer, he was receiving captopril, levoxyl, aspirin, protonix, lipitor, glyburide, iron sulfate, lopressor, hydrochlorothiazide, nitroglycerin infusion, and heparin infusion. Physical exam and laboratory findings are not specified in the note. The documented diagnosis was myocardial infarction with three-vessel coronary artery disease. He underwent elective coronary artery bypass grafting (CABG) times three and is currently stable, awaiting transfer to a rehabilitation bed.
+The patient is an 83-year-old male presenting with chest pain. He was initially admitted for chest pain and diagnosed with a myocardial infarction, with cardiac catheterization revealing three-vessel coronary artery disease. His medical history includes hypertension, hypercholesterolemia, type 2 diabetes mellitus, benign prostatic hypertrophy, arthritis, gout, chronic renal insufficiency, and prior gastrointestinal bleeding. During hospitalization, he underwent elective coronary artery bypass grafting (CABG) times three and had an uneventful postoperative course, though ambulation was limited by gout. The documented diagnosis was three-vessel coronary artery disease status post-myocardial infarction. At discharge, he was stable and ready for transfer to a rehabilitation facility. Discharge medications included Lopressor, Lasix, Kayciel, Colace, aspirin, Lipitor, glyburide, Levoxyl, Protonix, Percocet as needed, and regular insulin sliding scale. Follow-up with his primary care physician and cardiologist was recommended.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure as the chief complaint. The chest pressure was described as moderate (6/10), central, gradual in onset over several days, worse with activity, improved with rest, and not affected by position; there was no associated shortness of breath, sweating, or lightheadedness. The patient also reported increased fatigue and limited mobility due to gout, and noted recent findings of low blood count and positive stool test for blood. No additional medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of acute symptoms such as severe pain or respiratory distress and connected the chest pressure and fatigue to possible anemia from gastrointestinal blood loss. The doctor advised the patient to avoid overexertion, monitor for new or worsening symptoms (such as severe chest pain, trouble breathing, or faintness), and follow up with their provider regarding the blood count and stool findings for further investigation. The patient understood and agreed with the plan.
+The patient is an adult presenting with chest pressure as the chief complaint. The chest pressure is described as moderate (6/10), central, gradual in onset over several days, worsened by activity, and improved with rest; there is no associated dyspnea, diaphoresis, or lightheadedness. The patient reports increased fatigue and has a history of limited mobility due to gout. Recent findings include a low blood count (anemia) and positive stool test for blood, suggesting possible gastrointestinal bleeding. The clinical impression is that the chest pressure may be related to anemia from ongoing blood loss. The patient was advised to avoid overexertion, monitor for new or worsening symptoms (such as severe pain, dyspnea, or syncope), and follow up with their provider for further evaluation of anemia and gastrointestinal bleeding. No acute emergency was identified during the visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.507
+- **Model Used**: general
+- **Text1 Length**: 131 words
+- **Text2 Length**: 135 words
+
 
 ## Processing Information
 

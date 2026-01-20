@@ -85,16 +85,21 @@ Let me know if you’d like advice on stretches or self-care strategies, or if y
 
 ## EHR Summary
 
-The patient is a 55-year-old woman presenting for management of a nonruptured carotid ophthalmic aneurysm. She did not report acute symptoms at admission and was in no acute distress on examination. Her past medical history includes occipital neuralgia (status post TENS placement), low back pain, pernicious anemia, and multiple prior surgeries including appendectomy, gastric stapling, total abdominal hysterectomy, lumbosacral discectomies, left breast lumpectomy, and varicose vein stripping. She has documented allergies to steroids, Benadryl, codeine, and ibuprofen. On physical exam, vital signs were stable and her neurological exam was unremarkable. The documented diagnosis was a nonruptured carotid ophthalmic aneurysm. She underwent a left pterional craniotomy for aneurysm clipping without intraoperative or postoperative complications; a postoperative angiogram confirmed successful clipping. The patient was monitored in the ICU, then transferred to the regular floor, remained neurologically intact, and was discharged in stable condition.
+The patient is a 55-year-old woman admitted for management of a nonruptured carotid ophthalmic aneurysm. She underwent a left pterional craniotomy for surgical clipping of the aneurysm without intraoperative complications. Postoperatively, she was monitored in the intensive care unit and remained neurologically intact, with stable vital signs and no new deficits; a postoperative angiogram confirmed successful aneurysm clipping. Her past medical history includes occipital neuralgia (status post TENS placement), low back pain, pernicious anemia, and multiple prior surgeries. She has documented allergies to steroids, Benadryl, codeine, and ibuprofen. The clinical impression was a successfully treated nonruptured carotid ophthalmic aneurysm. At discharge, her condition was stable. She was prescribed Percocet as needed for pain, Celexa, and Premarin, and advised to follow up for staple removal and with her neurosurgeon in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with low back pain that has been more noticeable over the past couple of weeks. The pain makes it harder to perform usual activities, requiring the patient to sit down or take breaks more often; lifting and standing for long periods worsen the discomfort, while sitting and resting provide some relief. The patient rated the pain as 6 out of 10 in severity and denied any numbness, tingling, weakness in the legs, sleep disruption, recent injuries, or changes in routine. No relevant medical history, medications, or allergies were mentioned. On examination, there were no concerning neurological symptoms or signs of acute injury described. The doctor assessed the symptoms as consistent with a common musculoskeletal cause, likely related to overuse, minor strain, or posture, and found no evidence of urgent or serious underlying issues. The doctor recommended gentle activity, avoiding heavy lifting, using heat or over-the-counter pain relievers as needed, and advised monitoring for new symptoms such as leg weakness or loss of bladder/bowel control. The patient requested advice on stretches and self-care strategies for managing pain at home.
+The patient is an adult presenting with a chief complaint of low back pain. The pain has been more noticeable for the past couple of weeks, rated at 6 out of 10 in severity, and is aggravated by lifting and prolonged standing, while sitting and resting provide some relief. The discomfort makes it harder to perform usual activities, but there are no associated symptoms such as numbness, tingling, weakness in the legs, or sleep disturbance. There is no history of recent injury, falls, or changes in routine. The clinical impression is that the symptoms are consistent with a common musculoskeletal cause, likely due to overuse, minor strain, or posture. The treatment plan includes gentle activity, avoiding heavy lifting, use of heat, and over-the-counter pain relievers as needed. The patient was also advised to monitor for new symptoms such as leg weakness or loss of bladder/bowel control and to seek prompt medical attention if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.916
-- **Similarity Label**: N/A
+- **STS Score**: 0.349
+- **Model Used**: general
+- **Text1 Length**: 131 words
+- **Text2 Length**: 155 words
+
 
 ## Processing Information
 

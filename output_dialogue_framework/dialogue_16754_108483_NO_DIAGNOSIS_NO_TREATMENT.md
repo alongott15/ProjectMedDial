@@ -95,16 +95,23 @@ Let me know if the nighttime discomfort starts to affect your sleep quality or d
 
 ## EHR Summary
 
-The patient is a 74-year-old male presenting with nocturnal dyspnea and minimal chest discomfort. Symptoms included shortness of breath at night, mild chest pain, and oxygen desaturation to 88% on three liters, without associated nausea, vomiting, or diaphoresis. Relevant history includes type 2 diabetes mellitus, hypertension, hyperlipidemia, mild COPD, and a positive smoking history; he has no known drug allergies and was taking multiple antihypertensive and antidiabetic medications. On examination, he was afebrile with stable vital signs, rhonchorous breath sounds, and a cardiac murmur at the apex. Laboratory findings included elevated troponin (0.4), leukocytosis (WBC 13.0), and EKG showed sinus tachycardia with flipped T waves in V3-V6; chest x-ray revealed left atrial enlargement. The documented diagnosis was congestive heart failure secondary to acute myocardial infarction with multi-vessel coronary artery disease. Treatment included diuretics (Lasix), heparin, nitroglycerin, beta-blocker (Lopressor), and ultimately surgical intervention with coronary artery bypass grafting (CABG x3) and aortic valve replacement. The patient was monitored on telemetry throughout his hospital course.
+The patient is a 74-year-old male presenting with nocturnal dyspnea and minimal chest discomfort. Symptoms included shortness of breath at night, mild chest pain, and oxygen desaturation to 88% on three liters, without associated nausea, vomiting, or diaphoresis. Relevant history includes type 2 diabetes mellitus, hypertension, high cholesterol, mild COPD, and a positive smoking history; he has no known drug allergies and was taking multiple medications for these conditions. On admission, he was found to be in congestive heart failure with EKG showing sinus tachycardia and flipped T waves, and chest x-ray revealing left atrial enlargement. The documented diagnosis was myocardial infarction with multi-vessel coronary artery disease. Treatment included coronary artery bypass grafting (CABG) times three and aortic valve replacement, followed by postoperative management with chest tube care, physical therapy, and adjustment of medications. The patient recovered well postoperatively and was discharged to a rehabilitation facility in stable condition. Discharge instructions included follow-up with primary care and cardiology, as well as a regimen of cardiac and diabetic medications.
+
 
 ## Dialogue Summary
 
-The patient presented with nighttime trouble breathing, mainly when lying down to go to bed. Symptoms included mild shortness of breath and minimal chest discomfort described as a mild tightness (rated 4/10 in bothersomeness), occurring for a few nights without worsening, and relieved by sitting up or using extra pillows. The patient denied coughing, leg swelling, daytime shortness of breath, recent illnesses, allergies, or changes in routine, and reported no specific triggers such as eating late or lying down after meals. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted the symptoms were positional, mild, and not interfering with daytime activities, with no concerning associated features. The doctor explained that this pattern is often seen in mild positional shortness of breath, possibly related to normal age-related changes or mild acid reflux, and found no urgent issue. The treatment plan included continuing to use extra pillows at night and monitoring for new symptoms such as swelling, cough, waking up gasping for air, or daytime breathlessness. The patient was advised to report any new or worsening symptoms and reassured that the current situation could be managed at home.
+The patient is an adult presenting with nighttime shortness of breath as the chief complaint. Symptoms include difficulty breathing primarily when lying down to sleep, described as mild tightness (rated 4/10 in severity), with minimal chest discomfort and no associated cough, leg swelling, or daytime dyspnea. The symptoms have been present for a few nights without progression and are relieved by sitting up or using extra pillows. There is no history of recent illness, allergies, or changes in routine, and no specific triggers such as eating late have been identified.
+
+The documented clinical impression is mild positional shortness of breath, possibly related to normal age-related cardiopulmonary changes or mild acid reflux, without evidence of urgent pathology. The treatment plan includes continuing to use extra pillows at night for symptom relief and monitoring for new symptoms such as leg swelling, persistent cough, or daytime shortness of breath. The patient was advised to report any worsening or new symptoms promptly. No medications or further interventions were prescribed at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.509
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

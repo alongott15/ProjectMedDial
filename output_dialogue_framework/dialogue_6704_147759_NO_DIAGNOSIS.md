@@ -87,16 +87,21 @@ Does this plan sound manageable for you? And do you have any questions about wha
 
 ## EHR Summary
 
-The patient is a 74-year-old male presenting with a chief complaint of three days of nausea, vomiting, dizziness, mild frontal headache, and mild lightheadedness. Symptoms included progressive unsteadiness of gait, increased vomiting (three times on the day of admission), and mild photophobia, without vertigo or other systemic complaints such as chest pain or shortness of breath. Relevant history includes renal cell carcinoma with lung metastases, prior left nephrectomy, polycythemia, glaucoma, and a rash; current medications are multivitamins, ibuprofen, and cyclobenzaprine, with an allergy to Benadryl. On examination, vital signs showed hypothermia (95.5°F), hypertension (195/97), and mild hypoxemia (O2 saturation 93% on room air); the patient was alert and oriented with mild photophobia but no focal neurological deficits. No explicit diagnosis was documented in the note. Treatment details or specific recommendations were not provided in the available text.
+The patient is a 74-year-old male presenting with a three-day history of nausea, vomiting, dizziness, mild frontal headache, lightheadedness, progressive unsteadiness of gait, and mild photophobia. Symptoms included increased vomiting (three times on the day of admission), but he denied vertigo, chest pain, shortness of breath, cough, dysuria, abdominal pain, or diarrhea. Relevant history includes renal cell carcinoma with lung metastases, prior left nephrectomy, polycythemia, glaucoma, and a rash; medications on admission were multivitamins, ibuprofen, and cyclobenzaprine, with an allergy to Benadryl. Imaging revealed a 2.5–3 cm midline cerebellar lesion with possible early fourth ventricle compression but no hydrocephalus. The clinical impression was cerebellar tumor with associated symptoms. The patient underwent suboccipital craniotomy for tumor resection without complications and required postoperative blood pressure management. At discharge, he was stable, neurologically intact, and prescribed Colace, Lopressor, Vasotec, Zantac, and Decadron with instructions for follow-up in the brain tumor clinic and staple removal in 7–10 days.
+
 
 ## Dialogue Summary
 
-The patient presented with nausea and vomiting that began a few days ago. Symptoms included persistent nausea, vomiting, dizziness that is worse when standing or walking, a mild dull headache in the front of the head, and mild sensitivity to bright lights (photophobia). The patient reported no fever, chills, or changes in bowel movements and was able to keep down small amounts of fluids, though larger amounts worsened symptoms. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the lightheadedness was positional and the headache was new for the patient, describing it as a dull ache worsened by bright lights and improved with rest. The doctor’s working diagnosis was mild dehydration or a possible viral illness contributing to the symptoms. The treatment plan included sipping small amounts of clear fluids frequently, resting, getting up slowly from sitting or lying down, and monitoring for worsening symptoms such as inability to keep fluids down, severe headache, high fever, or new concerning symptoms.
+The patient is an adult presenting with nausea and vomiting as the chief complaint. Symptoms began a few days ago and include persistent nausea, vomiting, dizziness that is worse upon standing or walking, a mild dull frontal headache, and mild photophobia; there are no fevers, chills, or changes in bowel movements. The patient reports being able to keep down small amounts of fluids but feels worse with larger amounts. The headache is described as a new, mild, dull ache in the frontal region, aggravated by bright lights and improved with rest. Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression documented by the physician is that the symptoms are likely due to mild dehydration or a viral illness. The treatment plan includes sipping small amounts of clear fluids frequently, resting, and rising slowly from sitting or lying positions; the patient was also advised to seek urgent care if unable to keep fluids down, or if severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
+- **STS Score**: 0.481
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

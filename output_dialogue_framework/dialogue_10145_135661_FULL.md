@@ -96,3 +96,23 @@ If you notice any worsening—such as becoming very drowsy, unable to speak, or 
 ## Processing Information
 
 - **Processing Time**: 390.8s
+
+## EHR Summary
+
+The patient is an 86-year-old woman presenting with minimal responsiveness, cyanosis, diaphoresis, tachypnea, and severe hypoxemia. She initially reported upper back pain and shortness of breath, with oxygen saturation between 34–54% on 6 L/min oxygen, improving to 93–100% on a nonrebreather mask. Her past medical history includes congestive heart failure, acute renal failure, atrial fibrillation, coronary artery disease, hypertension, scoliosis, and kyphosis; she is intolerant of ACE inhibitors. She was diagnosed with a urinary tract infection and possible aspiration pneumonia, complicated by borderline dysphagia and subsequent aspiration event requiring intubation. Treatment included intravenous Lasix, vasopressors (dopamine, then phenylephrine), antibiotics (levofloxacin, flagyl, vancomycin), respiratory support (intubation, BiPAP, face mask), and later comfort measures with morphine and fentanyl drips. The patient’s status was changed to DNR/DNI and comfort care after further decline. She became progressively unresponsive and expired on hospital day 12. Autopsy was declined by the family.
+
+
+## Dialogue Summary
+
+The patient presents with the chief complaint of progressive shortness of breath. Symptoms include dyspnea that has worsened over several days, occurring even at rest and exacerbated by activity, accompanied by persistent cyanosis (bluish discoloration) of the lips and fingertips, upper back discomfort, increased fatigue, decreased alertness, and reduced ability to perform daily activities independently. The patient denies leg swelling and new cough but reports increased sweating and tachypnea. Relevant history, medications, and allergies are not specified.
+
+The clinical impression is concern for hypoxemia, possibly related to cardiac or pulmonary pathology, as indicated by ongoing cyanosis, dyspnea at rest, and altered mental status. The physician strongly recommends urgent medical evaluation in an emergency setting to assess oxygen levels and provide immediate support. The patient is advised to seek emergency care without delay and to call for help if symptoms worsen further.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.630
+- **Model Used**: general
+- **Text1 Length**: 146 words
+- **Text2 Length**: 141 words
+

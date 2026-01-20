@@ -87,16 +87,21 @@ For now, staying active within your comfort level and taking breaks when you nee
 
 ## EHR Summary
 
-The patient is a 75-year-old female admitted for elective lumbar surgery due to chronic right calf and leg pain associated with L5-S1 spondylolisthesis. She underwent L4-5 laminectomy and facetectomy, and L5-S1 pedicle screw fixation. Her past medical history includes right carotid stenosis, hypertension, intermittent atrial fibrillation, and chronic low back pain. Postoperatively, she experienced a cerebrospinal fluid (CSF) leak, which was repaired intraoperatively without further complications, and was placed on flat bed rest for 48 hours. On postoperative day one, she developed rapid atrial fibrillation unresponsive to IV diltiazem and Lopressor, requiring transfer to the Medical Intensive Care Unit and initiation of a diltiazem drip; troponin peaked at 1.5 indicating mild myocardial damage. Rate control was achieved with oral diltiazem, and she was subsequently transferred back to the floor. Physical therapy was initiated without further sequelae, and her postoperative course was otherwise stable. She was cleared by Cardiology prior to discharge.
+The patient is a 75-year-old female admitted for elective lumbar surgery due to L5-S1 spondylolisthesis, with a history of right carotid stenosis, hypertension, intermittent atrial fibrillation, and chronic low back and right leg pain. She underwent L4-5 laminectomy and facetectomy with L5-S1 pedicle screw fixation. Postoperatively, she experienced an episode of rapid atrial fibrillation with mild myocardial damage (troponin peaked at 1.5), requiring IV diltiazem, Lopressor, and a diltiazem drip before transitioning to oral diltiazem for rate control. Cardiology determined no need for anticoagulation or antiplatelet therapy at discharge. Her postoperative course was otherwise stable, with no further neurological or cardiac sequelae. She was discharged home in stable condition on Tylenol #3 for pain, metoprolol, and diltiazem, with instructions to keep staples for two weeks, wear a brace when out of bed, and follow up for staple removal and wound check in two weeks. Cardiology follow-up was also arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with right calf and leg pain. The pain has been present for about two years, is mostly aching in nature, localized to the right calf but sometimes felt along the whole leg, and does not move around. The discomfort is worsened by walking or standing for long periods, improved somewhat with rest but never fully resolves, and is rated as a 5 out of 10 in severity on most days; it does not wake the patient at night and is not associated with swelling, redness, or warmth. The patient avoids prolonged walking and standing due to the pain. No relevant medical history, medications, or allergies were mentioned. On examination, there were no reported physical findings of swelling, redness, or warmth. The doctor assessed that the symptoms are consistent with claudication, possibly due to reduced blood flow or musculoskeletal causes, and noted the absence of urgent features. The doctor recommended staying active within comfort limits, taking breaks as needed, trying gentle stretching and supportive shoes, and monitoring for any new symptoms such as sudden severe pain, swelling, or color changes.
+The patient is an adult presenting with right calf and leg pain as the chief complaint. The pain has been present for about two years, is described as aching, and is primarily located in the right calf but sometimes affects the whole leg. The discomfort is worsened by walking or prolonged standing and improves somewhat with rest, but does not completely resolve; it does not wake the patient at night and is not associated with swelling, redness, or warmth. The pain interferes with daily activities such as walking or standing for long periods, and the patient rates the discomfort as 5 out of 10 in severity. There is no relevant medical history, medications, or allergies documented. The clinical impression discussed was claudication, likely due to reduced blood flow or possible muscle/joint issues, with no urgent features identified. The treatment plan includes staying active within comfort limits, taking breaks as needed, gentle stretching, and using supportive shoes, with advice to monitor for new symptoms such as sudden severe pain, swelling, or color changes.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.940
-- **Similarity Label**: N/A
+- **STS Score**: 0.409
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

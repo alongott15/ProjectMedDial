@@ -87,16 +87,21 @@ If things stay the same for more than a few days or worsen, let your healthcare 
 
 ## EHR Summary
 
-The patient is a 57-year-old male presenting with diarrhea. He reported a 6-week history of bloody, maroon-colored watery diarrhea, with bowel movements increasing from 15 to 30 per day in the last week and no relief from prior courses of ciprofloxacin, steroid enemas, or vancomycin. His medical history is significant for Crohn's disease/ulcerative colitis diagnosed in 2100 and partial colectomy. On examination, he was well-appearing, afebrile, obese, with a soft, nontender abdomen and hernias in the right upper and lower quadrants; a fistula was noted at the 12 o'clock position. Laboratory findings included a white blood cell count of 5.5, hematocrit of 38.8, and platelets of 193. In the Emergency Department, he had guaiac-positive stools and received 40 mg IV Solu-Medrol, which provided symptomatic relief. The documented diagnosis was an exacerbation of inflammatory bowel disease. Treatment included intravenous steroids and supportive care.
+The patient is a 57-year-old male presenting with diarrhea. He reported a 6-week history of bloody, maroon-colored watery diarrhea, with bowel movements increasing from 15 to 30 per day in the week prior to admission, and associated cramping and tenesmus. His medical history includes Crohn's disease/ulcerative colitis diagnosed in 2100 and partial colectomy; he had previously tried ciprofloxacin, steroid enemas, and vancomycin without relief. On admission, physical exam was notable for a well-appearing man with abdominal hernias and a fistula, and labs showed stable hematocrit and negative Clostridium difficile. The documented diagnosis was an inflammatory bowel disease flare. Treatment included intravenous Solu-Medrol for six days, a clear liquid diet advancing to BRAT diet, and ciprofloxacin 500 mg orally twice daily. At discharge, he was stable with formed brown stools and no further bloody diarrhea or cramping. He was discharged on prednisone 40 mg daily (with taper instructions) and ciprofloxacin for 10 days, with follow-up arranged with his gastroenterologist in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with diarrhea that is maroon in color, which has been ongoing for a few days and is impacting daily activities by requiring proximity to a bathroom. Associated symptoms include abdominal cramping and a sense of urgency, but there is no fever, chills, or unusual tiredness. The patient reported no recent changes in diet, new medications, or travel, and has not observed bright red blood in the stool—only maroon coloration mixed with diarrhea. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the maroon color may suggest bleeding from the digestive tract and discussed possible causes such as irritation, hemorrhoids, polyps, infection, or inflammation. The doctor advised monitoring symptoms closely and recommended seeking medical attention if symptoms worsen, new severe symptoms develop (such as fever, severe pain, dizziness, black tarry stool, or weakness), or if the diarrhea persists beyond a few days. The patient was instructed to stay hydrated, rest as able, and contact their healthcare provider if needed.
+The patient presents with diarrhea that is maroon in color as the chief complaint. Symptoms began a few days ago and include associated abdominal cramping and urgency, without fever, chills, or unusual fatigue. The diarrhea has remained stable in frequency and severity, and there is no history of recent dietary changes, new medications, or travel. The patient reports no visible bright red blood, only maroon-colored stool mixed with diarrhea, and is able to perform daily activities with some inconvenience. Relevant medical history, medications, and allergies are not specified. The clinical impression is that the maroon color may indicate gastrointestinal bleeding of a mild to moderate nature, possibly from irritation, hemorrhoids, polyps, infection, or inflammation, but without signs of severe illness. The treatment plan includes monitoring symptoms closely, maintaining hydration, resting as needed, and seeking prompt medical attention if symptoms worsen or new concerning features develop (such as fever, severe pain, black tarry stool, weakness, or lightheadedness). The patient was advised to contact their healthcare provider if symptoms persist beyond a few days or worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.484
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 174 words
+
 
 ## Processing Information
 

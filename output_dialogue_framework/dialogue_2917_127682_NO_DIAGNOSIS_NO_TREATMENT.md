@@ -87,16 +87,21 @@ Do you have any questions about what this might mean, or would you like more inf
 
 ## EHR Summary
 
-The patient is a 54-year-old male presenting with chest pain. He initially experienced exertional chest pain, which progressed to rest angina requiring frequent sublingual nitroglycerin, and subsequently developed recurrent chest pain with ST elevations. His past medical history includes hypertension, hypercholesterolemia, prior myocardial infarction, and unstable angina; he is a former smoker and has no known drug allergies. On admission, cardiac catheterization revealed significant coronary artery disease: 70% proximal left anterior descending, mid-90% left circumflex, and subtotal right coronary artery lesions, with the right coronary artery stented due to ST elevations. Laboratory data showed normal white cell count, hemoglobin, hematocrit, and electrolytes. The documented diagnosis was unstable angina with ongoing ischemia. Treatment included intravenous nitroglycerin, Aggrastat drip, aspirin, Plavix, beta-blocker (Lopressor), statin (Lipitor), ACE inhibitor (Zestril), Imdur, and plans for preoperative coronary artery bypass grafting.
+The patient is a 54-year-old male presenting with chest pain, initially exertional and progressing to rest angina requiring frequent sublingual nitroglycerin. Symptoms included persistent chest pain with ST elevations, leading to hospital admission and further evaluation. Relevant history includes hypertension, hypercholesterolemia, prior myocardial infarction, unstable angina, and former tobacco use; there are no known drug allergies. Cardiac catheterization revealed three-vessel coronary artery disease with significant stenoses, and the documented diagnosis was coronary artery disease requiring surgical intervention. The patient underwent coronary artery bypass grafting (CABG) x3, followed by two re-explorations for postoperative bleeding and treatment for atrial flutter with amiodarone and Lopressor. Postoperative recovery included increased ambulation and a brief febrile episode treated with Bactrim (Septra). At discharge, the patient was stable and prescribed metoprolol, potassium supplements, lasix, aspirin, Bactrim, and amiodarone, with instructions for home care and follow-up in one month.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain, particularly during physical activity, which has also been causing anxiety. The pain is located centrally in the chest, does not radiate, and is described as a tightness or pressure rated at 7/10 during activity; episodes last several minutes and can occur both with exertion and at rest. The patient reported that nitroglycerin and rest help relieve the discomfort, while changing position does not affect it, and noted occasional EKG changes such as ST elevation during episodes. No significant shortness of breath or sweating was reported, but the patient mentioned a recent fever of 101.3°F. The doctor assessed that the chest pain and associated features are concerning for an underlying heart issue, such as angina, possibly due to reduced oxygen supply to the heart. The doctor advised close monitoring for new symptoms (severe shortness of breath, fainting, persistent pain), recommended prompt follow-up with a cardiologist or urgent care if symptoms worsen or are unrelieved by medication, and suggested limiting physical activity while continuing nitroglycerin as needed. The patient demonstrated understanding of these recommendations.
+The patient presents with chest pain as the chief complaint. The pain is described as a central chest tightness or pressure, rated 7/10 with activity, lasting several minutes, and occurring both with exertion and at rest; it is relieved by nitroglycerin and rest, but not by changing position. The patient reports associated EKG changes (ST elevation) during episodes but denies significant shortness of breath or sweating. There is also a recent history of fever (temperature 101.3°F). The physician’s assessment raises concern for angina due to possible myocardial ischemia, given the symptom pattern and EKG findings. The patient is advised to monitor for new or worsening symptoms such as severe dyspnea, syncope, or pain unrelieved by medication, and to seek urgent care if these occur. Recommendations include prompt follow-up with a cardiologist, limiting physical activity, and continuing to use nitroglycerin as needed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.599
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 141 words
+
 
 ## Processing Information
 

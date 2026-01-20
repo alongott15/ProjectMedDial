@@ -98,3 +98,21 @@ Let me know if you have questions about any of this or if there's anything else 
 ## Processing Information
 
 - **Processing Time**: 403.6s
+
+## EHR Summary
+
+The patient is a 79-year-old female presenting with chest pain. She experienced sudden onset substernal chest pain and left shoulder pain, rated ten out of ten, accompanied by nausea and diaphoresis but no shortness of breath or vomiting; the pain was unrelieved by aspirin, morphine, or nitroglycerin initially. Her past medical history includes hypertension, osteoarthritis, seizure disorder (on Dilantin), neuropathy, hypothyroidism, depression, and extensive tobacco use; she has no known drug allergies. Electrocardiogram showed ST segment elevation in II, III, and aVF, and cardiac catheterization revealed two-vessel coronary artery disease with acute occlusion of the right coronary artery. The documented diagnoses were two-vessel coronary artery disease and acute inferior myocardial infarction managed by acute stenting of the right coronary artery, with additional interventions including intra-aortic balloon pump and temporary pacing wire placement. Hospital course was notable for transient atrial fibrillation, hypotension requiring temporary pacing, mild anemia treated with transfusion, and a stable post-catheterization hematoma. She was discharged on atenolol, aspirin, Plavix (for 30 days), Dilantin, Synthroid, doxepin, inhalers, Colace, and Vicodin as needed for back pain. Cardiac rehabilitation and home physical therapy were recommended, and she was instructed to follow up with her primary care physician.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with chest pain as the chief complaint. The pain is described as pressure-like, located centrally in the chest, sometimes radiating to the left shoulder, and has been present for a couple of days with gradual onset. The discomfort is rated 6 out of 10 at its worst, worsens with movement, improves somewhat with rest, and is associated with sweating and occasional nausea; there is no reported dyspnea or lightheadedness. Relevant history includes a recent cardiac catheterization complicated by a hematoma, but no known heart disease, hypertension, or diabetes. The clinical impression discussed includes possible musculoskeletal pain related to recent cardiac procedures, but more serious cardiac causes have not been ruled out due to associated symptoms. The treatment plan involves monitoring symptoms closely, resting, and avoiding activities that trigger discomfort. The patient was advised to seek immediate medical attention if symptoms worsen or if new symptoms such as severe pain, shortness of breath, faintness, or palpitations develop. No new medications or interventions were initiated at this visit.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.691
+- **Model Used**: general
+- **Text1 Length**: 196 words
+- **Text2 Length**: 172 words
+

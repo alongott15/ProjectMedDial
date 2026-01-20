@@ -87,16 +87,21 @@ Let me know if you have any concerns about caring for it at home or if you have 
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with exertional shortness of breath and substernal chest pain. Symptoms were associated with a history of silent myocardial infarction at age 32 and a recent positive exercise treadmill test showing ST depression inferiorly and laterally. Relevant history includes hypertension, diabetes, hypercholesterolemia, GERD, and prior hernia repair; home medications included aspirin, Lopressor, Avandia, Glucotrol, and Glucophage. Cardiac catheterization revealed significant coronary artery disease with multiple lesions and an LAD aneurysm; ejection fraction was 60%. On examination prior to discharge, the patient was stable, afebrile, with clear lungs, regular heart rhythm, and a clean, intact surgical incision. The documented diagnosis was multivessel coronary artery disease status post coronary artery bypass grafting (CABG) times five. Treatment included CABG with LIMA to LAD and saphenous vein grafts to multiple vessels; postoperative recovery was uneventful. Discharge medications included Glucotrol, Glucophage, Avandia, Lipitor, aspirin, Lasix (for five days), potassium chloride (for five days), and Percocet as needed.
+The patient is a 58-year-old male presenting with exertional shortness of breath and substernal chest pain. Symptoms were associated with a history of silent myocardial infarction at age 32 and recent positive exercise treadmill test showing ST depression. Cardiac catheterization revealed significant coronary artery disease, including 70% left circumflex, 80% proximal and mid RCA, and 50% mid LAD lesions, as well as an LAD aneurysm. Past medical history includes hypertension, diabetes, hypercholesterolemia, GERD, and hemorrhoids. The documented diagnosis was multivessel coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) times five without complications and recovered well postoperatively. Discharge medications included antiplatelets, antihypertensives, diabetes medications, statin, diuretic, potassium supplement, and pain management. The patient was discharged home in stable condition with home nursing care and instructions to follow up in 3–7 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with a small blister on the right lower leg as the chief complaint. The blister was first noticed a few days ago, is approximately one centimeter across, and has remained the same size without healing, opening, or forming a scab. The patient denied pain, itching, fluid drainage, redness, swelling, warmth, or similar blisters elsewhere, and reported no recent friction, trauma, insect bites, or changes in footwear. No relevant medical history, medications, or allergies were mentioned. On examination, there were no signs of infection or irritation around the blister. The doctor assessed this as a single, uncomplicated blister likely due to minor friction or pressure, with no evidence of infection. The treatment plan included keeping the area clean, avoiding popping the blister, and monitoring for warning signs such as redness, swelling, pain, warmth, or fever; if these develop, the patient should seek further evaluation. The patient expressed understanding and agreed to follow home care instructions.
+The patient is an adult presenting with a small blister on the right lower leg as the chief complaint. The blister is approximately one centimeter in diameter, has been present for a few days, and has remained unchanged in size. The patient reports no pain, itching, fluid drainage, redness, swelling, or warmth around the blister, and no history of trauma, new footwear, insect bites, or similar lesions elsewhere. The blister has stayed intact and has not formed a scab. There is no relevant past medical history or medication use documented. The clinical impression is a single, uncomplicated blister likely due to minor friction or pressure, with no signs of infection. The treatment plan includes keeping the area clean, avoiding popping the blister, and monitoring for signs of infection such as redness, swelling, pain, warmth, or fever. The patient was advised to seek further evaluation if any concerning changes occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.922
-- **Similarity Label**: N/A
+- **STS Score**: 0.084
+- **Model Used**: general
+- **Text1 Length**: 133 words
+- **Text2 Length**: 149 words
+
 
 ## Processing Information
 

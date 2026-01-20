@@ -96,3 +96,21 @@ In the meantime, keeping a simple diary of when these episodes occur and any pos
 ## Processing Information
 
 - **Processing Time**: 423.8s
+
+## EHR Summary
+
+The patient is a 41-year-old male presenting with recurrent pancreatic pseudocyst. He reported recurrent abdominal pain radiating to the back, with a history of acute pancreatitis in December 2099 complicated by a previous pseudocyst and gastrostomy. A month prior to admission, abdominal CT confirmed recurrent pseudocyst, and ERCP revealed complete cut off of the pancreatic duct at the mid body and pancreas divisum. On admission, he was taking Prilosec and Aleve, with no known allergies. The documented diagnosis was recurrent pancreatic pseudocyst with underlying pancreas divisum. He underwent elective distal pancreatectomy and splenectomy, with an uncomplicated postoperative course except for elevated JP drain amylase (92,700). The patient was discharged home with the JP drain in place, VNA care arranged, and instructions to follow up in clinic; he was prescribed Percocet for pain as needed.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with abdominal pain as the chief complaint. The pain is described as a dull ache that radiates toward the back, with episodes occurring intermittently over an unspecified period and each lasting a few hours; pain intensity reaches 6–7 out of 10 at its worst. There are no associated symptoms such as nausea, vomiting, fever, or changes in bowel movements or urine, and no clear triggers or alleviating factors have been identified. Relevant medical history, medications, and allergies are not specified. The clinical impression is that the symptoms are most consistent with a benign cause, possibly related to muscle strain, mild digestive issues, or stress. The treatment plan includes monitoring symptoms, keeping a diary to track episodes and potential triggers, staying hydrated, and managing stress. The patient was advised to seek prompt care if persistent pain, severe intensity, jaundice, ongoing vomiting, or significant changes in bowel habits develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.425
+- **Model Used**: general
+- **Text1 Length**: 134 words
+- **Text2 Length**: 153 words
+

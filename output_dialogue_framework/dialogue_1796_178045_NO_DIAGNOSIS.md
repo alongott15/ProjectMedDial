@@ -87,16 +87,21 @@ In the meantime, try to rest and avoid exertion until you’ve been evaluated. L
 
 ## EHR Summary
 
-The patient is a 61-year-old female presenting with chest pain status post myocardial infarction and right coronary artery (RCA) stent placement. She reported stuttering substernal chest pain lasting approximately 20 minutes and dyspnea on exertion over the past two weeks, with symptoms triggered by walking a few blocks and partially relieved by nitroglycerin. Her medical history includes coronary artery disease with prior stenting, hypertension, hypercholesterolemia, GERD, and a family history of coronary artery disease. On admission, EKG showed ST elevations in leads II, III, and aVF, and ST depressions in I, aVL, V1, and V2. The documented diagnosis was acute myocardial infarction. Treatment included administration of heparin, aspirin, beta blocker, Aggrastat, and nitroglycerin drip, which resolved her chest pain.
+The patient is a 61-year-old female presenting with status post myocardial infarction and right coronary artery (RCA) stent placement. She reported stuttering chest pain lasting approximately 20 minutes and exertional dyspnea over the past two weeks, with chest pain recurring the night before admission and again in the early morning, accompanied by dyspnea but without nausea, vomiting, or diaphoresis initially. Her history includes coronary artery disease with prior stenting, hypertension, hypercholesterolemia, GERD, and allergies to penicillin, tetracycline, Rhinocort, and iodine. On admission, she was found to have ST elevations in leads II, III, and aVF and underwent successful primary angioplasty with stenting of the RCA; OM1 occlusion was deferred for future treatment. The documented diagnoses were acute myocardial infarction secondary to total occlusion of the distal RCA, chronic coronary artery disease, and gastroesophageal reflux disease. She was treated with aspirin, heparin, beta blocker, Aggrastat, nitroglycerin drip, and post-procedure medications including aspirin, Plavix, Lipitor, Protonix, Lopressor, and lisinopril. The patient was discharged home in good condition with instructions for follow-up with her cardiologist and primary care physician, and advised on the importance of exercise and symptom monitoring.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent chest pain that has been increasing in frequency and intensity over the past few days. The chest pain is described as a pressure sensation in the center of the chest, typically triggered by physical activity and relieved somewhat by rest, though it does not always resolve immediately. Associated symptoms include shortness of breath that builds with exertion and improves with rest, as well as episodes of nausea and occasional vomiting during pain episodes; the patient denied sweating or lightheadedness. The patient reported avoiding activities such as walking or chores due to concern about symptom recurrence and has a history of heart issues. On assessment, the doctor noted that the pattern of exertional chest pressure, relief with rest, and associated symptoms raises concern for a possible cardiac cause, specifically angina. The doctor recommended prompt in-person medical evaluation today to rule out urgent cardiac issues and advised seeking emergency care if symptoms become severe, prolonged at rest, or are accompanied by fainting or cold sweats. The patient was also advised to rest and avoid exertion until evaluated.
+The patient is an adult with a history of heart issues presenting with intermittent chest pain as the chief complaint. The chest pain is described as a pressure sensation in the center of the chest, typically triggered by physical activity and relieved somewhat by rest, though it does not always resolve immediately. Associated symptoms include exertional dyspnea (shortness of breath), nausea, and occasional vomiting; there is no reported diaphoresis or lightheadedness. The episodes last for several minutes and have increased in frequency and intensity over the past few days, leading the patient to avoid physical activities. Relevant history includes prior heart issues, but specific diagnoses, medications, or allergies are not detailed. The clinical impression documented is concern for possible angina, given the exertional nature of the symptoms and cardiac history. The physician recommended prompt in-person medical evaluation today to rule out urgent cardiac causes and advised the patient to rest and avoid exertion until evaluated. The patient was instructed to seek emergency care if symptoms worsen or are accompanied by severe pain, fainting, or cold sweats.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.948
-- **Similarity Label**: N/A
+- **STS Score**: 0.597
+- **Model Used**: general
+- **Text1 Length**: 186 words
+- **Text2 Length**: 176 words
+
 
 ## Processing Information
 

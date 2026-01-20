@@ -87,16 +87,21 @@ If you’d like, I can help outline which screenings are typically recommended f
 
 ## EHR Summary
 
-The patient is a 60-year-old male presenting with swelling and pain in the scrotal perineal region for three days. He was diagnosed with Fournier's gangrene and transferred via Medivac for urgent care. His past medical history includes myocardial infarction (2187), noninsulin dependent diabetes, hypertension, and hypercholesterolemia; he was noncompliant with all home medications. On admission, laboratory results showed hyponatremia (sodium 128), hyperglycemia (glucose 525), mild renal impairment (BUN 25, creatinine 1.2), and leukocytosis (WBC 11,200). The documented diagnosis was Fournier's gangrene. Emergent scrotal debridement was performed, and the patient was admitted to the surgical intensive care unit postoperatively. Additional interventions included central venous line placement and transfusion of one unit of blood. The patient remained NPO (nothing by mouth) following surgery.
+The patient is a 60-year-old male presenting with three days of swelling and pain in the scrotal and perineal region. He was diagnosed with Fournier's gangrene and transferred via Medivac for emergent care. His past medical history includes myocardial infarction, noninsulin dependent diabetes, hypertension, and hypercholesterolemia; he was noncompliant with home medications and had no known drug allergies. On admission, laboratory studies showed hyponatremia, hyperglycemia (glucose 525), and mild renal dysfunction. The documented diagnosis was Fournier's gangrene with subsequent postoperative respiratory distress and yeast infection. Treatment included emergent scrotal debridement, further surgical debridement with diverting colostomy, ventilatory support, electrolyte correction, broad-spectrum antibiotics (initially ampicillin, gentamicin, and Flagyl, later changed to vancomycin, levofloxacin, and fluconazole), and glyburide for blood glucose control. The patient stabilized postoperatively, with plans for continued antibiotics and follow-up with plastic and general surgery. On discharge, he was stable and scheduled for further outpatient care.
+
 
 ## Dialogue Summary
 
-The patient presented for a general check-in without any specific symptoms. They reported no changes in energy level, sleep, appetite, or recent illnesses, and stated that their medications have remained unchanged. The patient denied any difficulty keeping up with regular routines, shortness of breath, or unusual aches. No relevant medical history, allergies, or physical findings were mentioned during the visit. The doctor assessed that the patient is currently stable and not experiencing any concerning symptoms. The doctor advised maintaining regular check-ins and monitoring for new symptoms such as unexpected weight loss, persistent cough, chest discomfort, ongoing fatigue, or new pain. Preventive care was discussed, with the doctor recommending a review of records to confirm when blood pressure checks, cholesterol tests, and other routine screenings were last completed. The doctor offered to outline age-appropriate screenings to help the patient stay up to date with preventive care.
+The patient presented for a general check-in without any specific chief complaint. They reported no new symptoms, including no changes in energy, sleep, appetite, or physical activity, and denied recent illnesses or medication changes. The patient has not experienced dyspnea, unusual aches, or other concerning symptoms. Relevant medical history, specific diagnoses, and medication details were not specified in the dialogue. The clinical impression was that the patient's health is stable with no current concerns. The doctor emphasized the importance of routine preventive care, including blood pressure checks, cholesterol tests, and age-appropriate screenings such as colon cancer tests and vaccinations. The patient was advised to review their records or contact their clinic to confirm when their last labs and screenings were completed and to update any that are due. The doctor also offered to provide guidance on recommended screenings for the patient's age group.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.907
-- **Similarity Label**: N/A
+- **STS Score**: 0.370
+- **Model Used**: general
+- **Text1 Length**: 147 words
+- **Text2 Length**: 143 words
+
 
 ## Processing Information
 

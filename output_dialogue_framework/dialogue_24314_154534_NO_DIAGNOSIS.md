@@ -186,3 +186,23 @@ Let me know if you notice any difficulty tolerating fluids or food, or if the bl
 ## Processing Information
 
 - **Processing Time**: 430.3s
+
+## EHR Summary
+
+The patient is an elderly female presenting with abdominal pain and bloating that progressed over several days, leading to increased abdominal distention and transfer for further management. She experienced worsening abdominal pain, distention, nausea, and vomiting, but denied fevers or chills. Her past medical history includes hypertension and a prior upper gastrointestinal bleed after NSAID use; she has no known drug allergies and was taking Captopril, Isopt SR, Dyazide, and Paxil on admission. On examination, her abdomen was distended and diffusely tender, and imaging confirmed a significant sigmoid volvulus unrelieved by initial sigmoidoscopy. The documented diagnosis was sigmoid volvulus, status post sigmoid colectomy and end colostomy. Treatment included emergent surgery, postoperative antibiotics (Ceftriaxone and Flagyl), pain management with Percocet and a fentanyl patch, fluid management, and gradual advancement of diet. She was discharged in stable condition to a rehabilitation facility with instructions for follow-up wound care and staple removal.
+
+
+## Dialogue Summary
+
+The patient is an adult with a history of sigmoid colectomy with end colostomy and prior upper GI bleed, presenting with a chief complaint of abdominal bloating and pain. Symptoms have been present for a couple of days, described as general abdominal bloating and discomfort, with associated nausea and a single episode of vomiting; there are no changes in stoma output, appearance, or function. The patient denies new or worsening symptoms, and is able to tolerate oral intake. Relevant history includes prior colorectal surgery and upper gastrointestinal bleeding.
+
+The clinical impression is mild digestive upset, possibly related to altered bowel anatomy and motility post-colectomy, without evidence of acute stoma complication or obstruction at this time. The treatment plan includes close monitoring for any changes in stoma output, appearance, or new symptoms such as persistent nausea, repeated vomiting, severe pain, or decreased stoma output. Supportive measures recommended are gentle hydration and small, bland meals. The patient was advised to seek prompt medical attention if symptoms worsen or new concerning signs develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.617
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 170 words
+

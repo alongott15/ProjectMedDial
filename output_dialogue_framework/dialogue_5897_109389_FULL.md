@@ -89,16 +89,21 @@ Does that make sense? Is there anything else about these symptoms that’s been 
 
 ## EHR Summary
 
-The patient is a 31-year-old male presenting with a chief complaint of headache for 4 years, worsening over the last 3 months. His symptoms were associated with the discovery of an aneurysm of the left internal carotid artery (ICA). Relevant history includes no mention of prior medical conditions, medications, or allergies. On physical examination, he was in no acute distress, with a positive left carotid bruit and normal neurologic findings. The documented diagnosis was left ICA aneurysm. He underwent stenting of the left ICA and subsequent coiling of the aneurysm without complications, aside from a single episode of epistaxis and transient back pain. The patient was discharged home in stable condition. Discharge medications included aspirin 325 mg and Plavix.
+The patient is a 31-year-old male presenting with a chief complaint of headache for 4 years, worsening over the last 3 months. His symptoms were associated with the discovery of an aneurysm of the left internal carotid artery (ICA). Relevant history includes no acute distress on exam, a positive left carotid bruit, and no neurologic deficits. The documented diagnosis was left ICA aneurysm. He underwent stenting of the left ICA and later coiling of the aneurysm, both without complications. During hospitalization, he experienced one episode of epistaxis that resolved with conservative measures and transient back pain thought to be due to a passed kidney stone. Discharge medications included aspirin 325 mg, Plavix 75 mg, and Percocet 5-325 mg. He was advised to follow up in 2 weeks with an MRI of the neck prior to his appointment.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening headaches over the past few months as the chief complaint. Headaches were described as a steady pressure, present for several years but more severe recently, impacting concentration and causing increased fatigue. The patient also reported weekly nosebleeds without clear triggers, which stop on their own after a few minutes, and concurrent back discomfort; both symptoms began around the same time as the headaches and have also worsened. No specific medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the combination of steady headaches, back discomfort, and occasional nosebleeds affecting daily function, with nosebleeds being brief and self-limited. The assessment included possible sinus issues, tension headaches, or nasal dryness, but the doctor emphasized the need to rule out other causes such as blood pressure changes or underlying conditions due to the persistence and worsening of symptoms. The doctor recommended tracking symptom patterns and advised prompt care for warning signs like heavy nosebleeds, vision changes, weakness, or severe back pain; further evaluation including blood pressure monitoring and basic labs was suggested. The patient agreed to monitor symptoms and had no additional concerns at this time.
+The patient is an adult presenting with worsening headaches as the chief complaint. The headaches have been present for several years but have intensified over the past few months, described as a steady pressure that impacts concentration and causes increased fatigue. Associated symptoms include back discomfort and nosebleeds, both of which began around the same time as the headaches and have also worsened; nosebleeds occur about once a week, are not triggered by specific factors, and resolve spontaneously within a few minutes. There is no mention of relevant medical history, medications, or allergies. The clinical impression included possible causes such as sinus issues, tension headaches, or nasal dryness, but the provider expressed concern for other underlying conditions (e.g., blood pressure changes) due to the combination and progression of symptoms. The treatment plan involved monitoring symptoms, tracking their frequency and triggers, and considering blood pressure measurement and basic laboratory tests. The patient was advised to seek prompt care if warning signs such as heavy nosebleeds, vision changes, weakness, or severe back pain occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
+- **STS Score**: 0.454
+- **Model Used**: general
+- **Text1 Length**: 137 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

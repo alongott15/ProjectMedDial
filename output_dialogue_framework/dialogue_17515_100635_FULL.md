@@ -59,16 +59,21 @@
 
 ## EHR Summary
 
-The patient is a 48-year-old male presenting with chest pain. He reported no prior cardiac or hypertensive history and is an ex-smoker. On evaluation, he was found to have elevated left ventricular end-diastolic pressure (LVEDP 30), apical inferior and posterior basal akinesis, grade 3-4 mitral regurgitation, and an ejection fraction of approximately 30%. Cardiac catheterization revealed significant coronary artery disease with 100% occlusion of the left anterior descending and right coronary arteries, and severe stenoses in other vessels. Electrocardiogram showed normal sinus rhythm with Q-waves in II, AVF, and ST elevation in V1 and V3. The documented diagnosis was severe multivessel coronary artery disease with mitral regurgitation. He underwent coronary artery bypass grafting (CABG) times four and mechanical mitral valve replacement. At discharge, his condition was stable, and he was prescribed Lipitor, Aspirin, Lopressor, Percocet as needed, and Coumadin.
+The patient is a 48-year-old male presenting with chest pain. He was found to have elevated left ventricular end-diastolic pressure (LVEDP 30), apical inferior and posterior basal akinesis, moderate-to-severe mitral regurgitation, and a reduced ejection fraction of approximately 30%. Cardiac catheterization revealed significant coronary artery disease with 100% occlusion of the left anterior descending and right coronary arteries, and high-grade stenoses in other vessels. His past medical history includes ex-smoking, but no prior cardiac or hypertensive history. The documented diagnosis was severe multivessel coronary artery disease with ischemic cardiomyopathy and mitral regurgitation. He underwent coronary artery bypass grafting (CABG) times four and mechanical mitral valve replacement. Postoperative recovery was uneventful, and he was discharged in stable condition on medications including Lipitor, Aspirin, Lopressor, Percocet, Coumadin, and Ranitidine. Follow-up was arranged with thoracic surgery and cardiology for ongoing management and anticoagulation monitoring.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest pain began a few days ago, occurs randomly without clear triggers such as walking or eating, and lasts for a few minutes at a time. No additional symptoms, severity rating, or specific pain characteristics (sharp, dull, pressure-like) were provided due to the incomplete dialogue. No relevant medical history, medications, or allergies were mentioned. There were no clinical findings discussed, as the physical examination was not performed or described. The doctor did not provide an assessment or working diagnosis during the conversation. No treatment plan or specific recommendations were given in the available portion of the dialogue.
+The patient is presenting with chest pain as the chief complaint. The pain began a few days ago and occurs in episodes lasting a few minutes each. The episodes appear to occur randomly, with no clear association with activities such as walking or eating. The patient has not yet described the quality or severity of the pain beyond its duration and timing. No relevant medical history, medications, or allergies were documented in the dialogue. There is no documented diagnosis or clinical impression at this stage. No treatment plan or specific recommendations have been provided yet.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.473
+- **Model Used**: general
+- **Text1 Length**: 141 words
+- **Text2 Length**: 95 words
+
 
 ## Processing Information
 

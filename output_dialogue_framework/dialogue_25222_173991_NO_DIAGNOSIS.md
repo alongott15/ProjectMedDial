@@ -87,16 +87,21 @@ Does this discomfort limit your ability to do the things you want or need to do 
 
 ## EHR Summary
 
-The patient is a 64-year-old female presenting with recent onset of exertional chest discomfort radiating to her shoulders. Symptoms began shortly before admission and were significant enough to prompt cardiac catheterization, which revealed 80-90% stenosis of the left main coronary artery, with lesser involvement of the circumflex and RCA, and a preserved ejection fraction of 70%. Her past medical history includes coronary artery disease, asthma (with prior intubation), hypertension, gastroesophageal reflux disease, hypercholesterolemia, and oophorectomy; she is allergic to sulfa drugs. On examination, she was hemodynamically stable with a systolic ejection murmur and clear lungs. The documented diagnosis is severe left main coronary artery disease. She was transferred for coronary artery bypass grafting. Her medication regimen includes theophylline, Singulair, Advair, Lipitor, Prilosec, aspirin, Imdur, and Lopressor.
+The patient is a 64-year-old woman presenting with recent onset of exertional chest discomfort radiating to her shoulders. Symptoms prompted cardiac catheterization, which revealed significant left main coronary artery disease (80-90% stenosis) with preserved ejection fraction. Her past medical history includes coronary artery disease, asthma (intubated in 2173), hypertension, gastroesophageal reflux disease, hypercholesterolemia, and prior oophorectomy; she is allergic to sulfa. The documented diagnosis was coronary artery disease status post coronary artery bypass grafting (CABG) x2, along with asthma, hypertension, GERD, and hypercholesterolemia. She underwent successful CABG with a left internal mammary artery graft to the LAD and a saphenous vein graft to the obtuse marginal, followed by an uneventful postoperative recovery. At discharge, her condition was good and she was stable on examination. Discharge medications included furosemide, potassium chloride, aspirin, theophylline, Singulair, fluticasone, salmeterol, albuterol, atorvastatin, metoprolol, and Percocet as needed. She was advised to follow up in the clinic in two weeks and with her physicians at four and six weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort, particularly during physical exertion. The discomfort has been present for a few days, is moderate in severity, and sometimes radiates to the shoulders; it reliably occurs with activities such as walking uphill or carrying heavy objects and resolves with rest. The patient denied associated symptoms such as sweating, lightheadedness, or shortness of breath. Relevant history includes high blood pressure and high cholesterol; no prior episodes of similar discomfort were reported. On assessment, the doctor noted that the exertional nature and relief with rest suggest possible angina, especially given the patient's cardiovascular risk factors. The doctor recommended further evaluation with tests such as an EKG or stress test. The patient was advised to avoid activities that trigger the discomfort and to seek immediate medical attention if symptoms worsen or new symptoms develop.
+The patient is an adult presenting with chest discomfort as the chief complaint. The discomfort is described as moderate in severity, occurs during physical exertion such as walking uphill or carrying heavy objects, radiates to the shoulders, and resolves with rest; it has been present for a few days without worsening. The patient denies associated symptoms such as shortness of breath, sweating, or lightheadedness. Relevant history includes hypertension and hypercholesterolemia, with no prior similar episodes and no diabetes. The clinical impression documented by the doctor is possible angina, likely due to insufficient myocardial oxygenation during exertion. The treatment plan includes arranging further evaluation with an EKG or stress test and advising the patient to avoid activities that trigger symptoms. The patient was instructed to seek immediate medical attention if symptoms occur at rest, last longer than usual, or are accompanied by sweating, nausea, or faintness.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.569
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 145 words
+
 
 ## Processing Information
 

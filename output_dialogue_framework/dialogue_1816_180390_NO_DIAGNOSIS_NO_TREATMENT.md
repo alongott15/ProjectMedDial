@@ -87,16 +87,21 @@ For now, keep the area clean and dry, avoid any heavy lifting, and watch for tho
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with complications following coronary artery bypass graft surgery, specifically a sternal wound infection. He reported redness and a lump at the superior aspect of the incision, but denied fever or chills. His history includes prior wound drainage, positive cultures for coagulase-negative staphylococcus, and treatment with vancomycin. On admission, vital signs were stable and the sternal wound showed fibrous exudate at the inferior end with overall stability; laboratory data revealed mild leukocytosis. Imaging demonstrated that the wound extended to the sternum with bilateral fluid collections. The documented diagnosis was sternal wound infection with involvement of the sternum. Treatment included left sternectomy, surgical debridement, placement of a VAC dressing, and planned rectus muscle flap coverage by Plastic Surgery. The patient experienced a brief postoperative episode of tachycardia with nausea and rigors, but blood cultures were negative and he was transferred in stable condition.
+The patient is a 62-year-old male presenting with complications following coronary artery bypass graft surgery, specifically a sternal wound infection. He reported redness and a lump at the superior aspect of the incision, with cultures previously growing coagulase-negative staphylococcus; he denied fever and chills. Relevant history includes prior wound infection treated with vancomycin and no significant edema or respiratory findings on exam. During this admission, imaging revealed fluid collections at the sternum, and he underwent left sternectomy with debridement and subsequent muscle flap reconstruction. Postoperatively, he developed aspiration pneumonia, confirmed by chest x-ray, and was treated with Zosyn after discontinuing levofloxacin. The documented infections included rare growths of alpha streptococci, coagulase-negative staphylococcus, gram-positive rods, and bacteroides fragilis group. The treatment plan included a prolonged course of vancomycin, levofloxacin, and oral Flagyl, along with supportive care and pain management. Stool studies for diarrhea were negative for C. difficile, and the patient was discharged in stable condition with a detailed medication regimen.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about redness and a lump around their chest incision following recent surgery. Symptoms included persistent redness and a lump at the incision site, first noticed a few days after surgery, with no drainage, warmth, or tenderness reported; the lump has not changed in size or shape and does not interfere with daily activities or breathing. The patient experienced a high fever (102.7°F), chills, nausea, vomiting, diarrhea, and a racing heart shortly after surgery, but these symptoms have since resolved. No relevant medical history, medications, or allergies were discussed. On examination, the doctor noted persistent redness and a lump without drainage, and the patient denied worsening symptoms or triggers such as movement or clothing irritation. The doctor assessed that while some swelling and redness can be normal postoperatively, the combination of persistent symptoms and prior fever may suggest infection or fluid collection (seroma or hematoma), though the absence of drainage is reassuring. The doctor advised keeping the area clean and dry, avoiding heavy lifting, and monitoring for warning signs such as increasing redness, warmth, pus or drainage, worsening pain, or recurrent fever; the patient was instructed to contact the surgical team promptly if these develop.
+The patient is concerned about redness and a lump around their chest incision following recent surgery. The redness and lump appeared a few days postoperatively and have remained unchanged in size and appearance; there is no drainage, warmth, or significant tenderness reported. Shortly after surgery, the patient experienced a high fever (102.7°F), chills, nausea, vomiting, diarrhea, and a racing heart, but these systemic symptoms have since resolved. The lump and redness have not interfered with daily activities or breathing. The clinical impression discussed was possible infection or fluid collection (such as seroma or hematoma) at the incision site, though the absence of drainage and lack of worsening symptoms are somewhat reassuring. The patient was advised to keep the area clean and dry, avoid heavy lifting, and monitor for warning signs such as increased redness, warmth, pus, worsening pain, or recurrent fever. If any of these symptoms develop, prompt notification of the surgical team was recommended. No specific medications or interventions were prescribed at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.490
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

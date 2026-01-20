@@ -87,16 +87,21 @@ Does that make sense, or is there anything else about your vision or dizziness t
 
 ## EHR Summary
 
-The patient is a 61-year-old female presenting for an elective cerebral angiogram. She previously experienced an episode of diplopia on 2117-10-21, with no further symptoms and mild vertigo that resolved at that time. Her past medical history is negative for diabetes, heart, or lung disease, and she has no known drug allergies; current medications include multivitamins, aspirin, and Lipitor. On admission, her vital signs were stable and physical examination was unremarkable. She underwent a diagnostic cerebral angiogram followed by embolization and coiling of a known right internal carotid aneurysm. The procedure was tolerated well, and her postoperative course was unremarkable. She was discharged home with instructions to resume her preoperative medications.
+The patient is a 61-year-old female presenting for an elective cerebral angiogram due to a prior episode of diplopia and mild vertigo in October 2117, both of which had resolved. She reported no ongoing symptoms at the time of admission. Her past medical history is notable for bilateral breast implants and tonsillectomy, with no history of diabetes, heart or lung disease, bleeding problems, or drug allergies; current medications include multivitamins, aspirin, and Lipitor. Physical examination and vital signs were unremarkable on admission. The documented diagnosis was a right internal carotid aneurysm. She underwent successful diagnostic cerebral angiogram followed by embolization and coiling of the aneurysm, with an unremarkable postoperative course. The patient was discharged in stable and improved condition with instructions to resume her preoperative medications and arrange a follow-up appointment.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent double vision occurring over the past few days. The double vision is not constant, comes and goes without a clear pattern or trigger, and is described as a mild annoyance that makes reading harder but does not significantly interfere with daily activities. The patient also reported mild vertigo accompanying the double vision but denied any eyelid drooping, facial weakness, numbness, or other neurological symptoms. The double vision resolves when one eye is covered, indicating binocular diplopia likely related to eye muscle coordination rather than a structural eye issue. There was no relevant past medical history, medications, or allergies mentioned. On assessment, the doctor noted the absence of serious symptoms and suggested the cause may be minor eye muscle fatigue or a transient issue with nerve control, possibly related to tiredness or a mild viral illness. The doctor recommended tracking the episodes, resting the eyes during activities like reading, and seeking urgent care if new symptoms such as persistent weakness, trouble speaking, severe headache, or worsening double vision develop. Otherwise, monitoring was advised with consideration for an eye exam if symptoms do not improve within a week.
+The patient is an adult presenting with intermittent double vision as the chief complaint. The double vision has been present for a few days, occurs at random times, and resolves when one eye is covered; it is not associated with specific activities or times of day. The patient also reports mild vertigo accompanying the double vision but denies any facial droop, weakness, or numbness. The symptoms are described as a mild annoyance that does not significantly interfere with daily activities. Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression is that the double vision is likely due to a problem with ocular coordination (possibly related to eye muscle fatigue or minor nerve issues) rather than a structural eye problem, and no serious neurological signs are present. The treatment plan includes monitoring symptoms, resting the eyes during activities like reading, and seeking urgent care if new or worsening symptoms develop; an eye exam may be considered if there is no improvement within a week.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
+- **STS Score**: 0.441
+- **Model Used**: general
+- **Text1 Length**: 131 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

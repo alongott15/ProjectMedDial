@@ -87,16 +87,23 @@ Let me know if you've noticed any swelling in your legs or feet lately, or if yo
 
 ## EHR Summary
 
-The patient is a 60-year-old male presenting with a 2-week history of nausea, cold sweats, and crippling left hand pain. Symptoms worsened on the day of admission, with the onset of nausea and shortness of breath. He has a history of coronary artery disease (status post 3-vessel CABG in 2167 and prior PCI), hypercholesterolemia, osteoarthritis, back pain, disc and sacroiliac disease, and GERD; he is allergic to codeine and was taking Prevacid, Toprol-XL, and aspirin on admission. On arrival at the outside hospital, he was found to have inferior ST elevations and was transferred for cardiac catheterization. Cardiac catheterization revealed a culprit lesion in the saphenous vein graft to the second obtuse marginal, which was treated with two stents; additional tight lesions were noted in the LAD and left circumflex arteries. The patient remained hemodynamically stable but had an elevated wedge pressure of 26. The documented diagnosis was acute coronary syndrome with ST elevation. Treatment included stenting of the culprit lesion, administration of heparin, Plavix, and Integrilin, and transfer to the Coronary Care Unit for monitoring.
+The patient is a 60-year-old male presenting with a 2-week history of nausea, cold sweats, and severe left hand pain, with acute worsening including nausea and shortness of breath on the day of admission. Symptoms were associated with episodes of malaise and were severe enough to prompt emergency evaluation. Relevant history includes coronary artery disease (status post 3-vessel CABG), hypercholesterolemia, osteoarthritis, back pain, disc disease, sacroiliac disease, gastroesophageal reflux disease, and a codeine allergy; home medications included aspirin, statin, beta blocker, ACE inhibitor, and others. On admission, he was found to have inferior ST elevations and underwent cardiac catheterization revealing a culprit lesion in the saphenous vein graft to the second obtuse marginal, which was treated with two stents; an additional proximal circumflex lesion was also stented. The documented diagnoses were ST-elevation myocardial infarction, back pain, and gastroesophageal reflux disease. Treatment included dual antiplatelet therapy (aspirin and Plavix), statin, beta blocker, ACE inhibitor, diuretics (Lasix), and continuation of home medications for other chronic conditions. The patient was stable at discharge with instructions for outpatient cardiac rehabilitation and follow-up with cardiology and primary care.
+
 
 ## Dialogue Summary
 
-The patient presented with increasing tiredness, discomfort when lying flat, and shortness of breath. Additional symptoms included nausea (intermittent), cold sweats, left hand pain, malaise, and disrupted sleep, all of which have gradually worsened over the past couple of days. The patient reported that shortness of breath and discomfort are worse when lying flat and improve somewhat when sitting upright or propped up, but do not resolve completely; daily activities and restful sleep have been significantly affected. No swelling in the legs or feet or recent weight changes were noted. The doctor assessed that the symptoms could be related to fluid buildup or changes in heart or lung function, possibly affecting circulation and causing progressive discomfort and fatigue. The doctor advised the patient to remain upright as much as possible, limit physical activity, monitor symptoms, and stay hydrated. The patient was instructed to seek prompt medical attention if new symptoms such as chest pain, severe trouble breathing, or fainting occur. Further evaluation was recommended to clarify the underlying cause.
+The patient presents with increasing shortness of breath, malaise, and discomfort when lying flat as the chief complaint. Symptoms began gradually over the past few days and include intermittent nausea, cold sweats, left hand pain, and worsening fatigue, with dyspnea exacerbated by lying flat and partially relieved by sitting upright. The patient reports difficulty performing daily activities and disrupted sleep due to these symptoms, but denies leg or foot swelling and recent weight changes. There is no relevant medical history, medications, or allergies documented in this dialogue.
+
+The clinical impression discussed by the doctor is possible fluid buildup or changes in cardiac or pulmonary function contributing to the symptoms. The patient was advised to remain upright as much as possible, limit physical activity, monitor for new or worsening symptoms (such as chest pain, severe dyspnea, or syncope), and stay hydrated until further evaluation can be performed. No specific diagnosis or medication was documented.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.504
+- **Model Used**: general
+- **Text1 Length**: 183 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

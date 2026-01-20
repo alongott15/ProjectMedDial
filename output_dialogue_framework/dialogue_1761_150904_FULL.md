@@ -85,16 +85,21 @@ For now, try to stay hydrated and rest as much as possible. If you develop any o
 
 ## EHR Summary
 
-The patient is a 66-year-old woman presenting with hypotension requiring pressors. She reported chills progressing to fever (maximum 101°F), fatigue, malaise, and sharp upper back pain radiating to the front, which was alleviated by sublingual nitroglycerin. She also experienced worsening chills, fever, nausea, and dry heaves prior to admission, but denied headache or abdominal pain; she noted a rash on her back. Her relevant history includes coronary artery disease status post recent stent, oxygen-dependent chronic obstructive pulmonary disease, hypothyroidism, and recent antibiotic use for chronic bronchitis. On presentation at an outside hospital, she was found to be hypotensive (BP 80/40) and started on a Dopamine drip; abdominal ultrasound was unremarkable. The documented diagnosis was hypotension, likely secondary to sepsis or infection (exact diagnosis not specified). Treatment included vasopressor support and empiric antibiotics for presumed bronchitis. She was also maintained on her home medications including aspirin and prednisone.
+The patient is a 66-year-old woman presenting with hypotension, chills, fever, fatigue, and malaise. She reported a four-day history of chills progressing to fever (101°F), fatigue, and malaise, with worsening symptoms including sharp upper back pain relieved by nitroglycerin, and later developed nausea and dry heaves. She denied increased cough or sputum but did have a rash on her back and some blood-streaked sputum during her hospital stay. Her relevant history includes coronary artery disease with recent stent placement, oxygen-dependent chronic obstructive pulmonary disease (COPD), hypothyroidism, and multiple medication allergies. On admission, she was hypotensive and required pressors briefly; laboratory findings included elevated liver enzymes and normal cardiac markers. The documented diagnoses were bronchitis, COPD exacerbation, and anxiety disorder. Treatment included Levofloxacin for presumed pneumonia/bronchitis, stress-dose steroids with gradual taper, inhaled bronchodilators and corticosteroids, oxygen therapy, and management of anxiety with Xanax. She was discharged to rehabilitation with a plan for progressive pulmonary rehab, chest physical therapy as needed, and continued inhaler and nebulizer use.
+
 
 ## Dialogue Summary
 
-The patient presented with fatigue, chills, and fever. Symptoms began a couple of days ago and include intermittent fever up to 101°F, chills that worsen with fever and are sometimes followed by sweating, significant fatigue impacting daily activities, shortness of breath at rest that worsens with activity, sharp upper back pain radiating to the front (improved with nitroglycerin), occasional cough with recent blood-streaked sputum, nausea, dry heaves, and decreased appetite. The patient denied sore throat and leg or ankle swelling. On review, the doctor noted the chest pain's improvement with nitroglycerin and the association between pain relief and improved breathing. The assessment included possible infection or a cardiac or pulmonary process, given the combination of fever, chills, respiratory symptoms, and chest pain responsive to nitroglycerin. The doctor advised rest, hydration, and close monitoring for warning signs such as severe shortness of breath, chest pain unrelieved by nitroglycerin, confusion, or persistent vomiting, and instructed the patient to seek prompt medical attention if these occur.
+The patient is an adult presenting with fatigue, chills, and fever as the chief complaint. Symptoms began a couple of days ago and include intermittent fever up to 101°F, worsening chills, significant fatigue impacting daily activities, shortness of breath at rest and with exertion, sharp upper back pain radiating to the front (improved with nitroglycerin), occasional cough with recent blood-streaked sputum, nausea, and decreased appetite. The chest pain and dyspnea both improve with nitroglycerin use. There is no reported swelling in the legs or ankles. Relevant history includes nitroglycerin use, suggesting a possible cardiac condition, though specific past diagnoses or medications are not detailed. The clinical impression is that symptoms may be due to an infection or a cardiac/pulmonary process, given the combination of fever, chills, and chest pain responsive to nitroglycerin. The patient was advised to rest, maintain hydration, and monitor for warning signs such as severe shortness of breath, chest pain unrelieved by nitroglycerin, confusion, or persistent vomiting, and to seek prompt medical attention if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
+- **STS Score**: 0.586
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

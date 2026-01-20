@@ -67,16 +67,21 @@
 
 ## EHR Summary
 
-The patient is a 70-year-old female presenting with discharge from a surgical wound. She reports increasing drainage and bleeding from her left groin wound following recent bilateral distal external iliac and common femoral artery endarterectomies with patch angioplasties. She denies constitutional symptoms, and there was no evidence of infection at her initial post-discharge follow-up. Her past medical history includes diabetes mellitus, hypertension, tobacco use, and right renal artery stenosis; she has no known drug allergies. On physical examination in the Emergency Room, her vital signs were stable except for elevated blood pressure (168/95), and the only notable finding was a III/VI systolic ejection murmur; the wound was not described as erythematous. The clinical impression was wound drainage post-vascular surgery, possibly related to a lymphocele. She was admitted for further evaluation and treatment of the wound drainage.
+The patient is a 70-year-old female presenting with discharge from her surgical wound. She reported increasing drainage and bleeding from her left groin wound following recent bilateral distal external iliac and common femoral artery endarterectomies with patch angioplasties. On examination, the left groin incision was dehisced and draining, with serous foul-smelling fluid but no erythema or constitutional symptoms; both lower extremities had pitting edema up to the knees. Her past medical history includes diabetes mellitus, hypertension, tobacco use, and right renal artery stenosis. The documented diagnosis was wound dehiscence with graft rupture, status post exploration ilial-femoral bypass with graft placement and wound debridement. Treatment included urgent surgical intervention (left groin exploration, bypass graft, wound debridement), intravenous antibiotics (Zosyn and Vancomycin), followed by oral Flagyl and Lobaplatin, wound care with sterile dressings, and physical therapy evaluation for rehabilitation. She was discharged in stable condition to a rehabilitation facility with instructions for ongoing wound care and follow-up.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about discharge from a surgical wound. They reported noticing clear fluid with a foul smell from the wound for the past few days, as well as intermittent bleeding from the groin wound that has not improved. The patient also described significant swelling in both legs up to the knees and tenderness in the calves and left thigh, which makes walking uncomfortable. No fever or chills were reported. Relevant medical history includes recent surgery, but no medications or allergies were mentioned. On examination, the doctor noted swelling and tenderness in the lower extremities and ongoing wound discharge and bleeding. The doctor did not provide a specific assessment or diagnosis during the conversation. No treatment plan or recommendations were given during this encounter.
+The patient presents with concern about discharge from a surgical wound. The discharge began a few days ago, is described as clear fluid with a foul smell, and is accompanied by intermittent bleeding from the groin wound that has not improved. The patient also reports significant swelling in both legs up to the knees and tenderness in the calves and left thigh, making ambulation uncomfortable. There is no reported fever or chills. The amount of bleeding is described as small and occurring off and on. Relevant medical history, specific diagnosis, and treatment plan are not documented in the dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.589
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 99 words
+
 
 ## Processing Information
 

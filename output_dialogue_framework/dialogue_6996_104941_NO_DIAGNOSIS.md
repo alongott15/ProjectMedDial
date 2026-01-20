@@ -87,16 +87,23 @@ Let’s check in: are you able to keep any fluids down at this point, or does th
 
 ## EHR Summary
 
-The patient is a 67-year-old man presenting with a two-day history of cough and one day of nausea and vomiting. He reported feeling hot and experiencing diaphoresis, with no sputum production, abdominal pain, diarrhea, or gastrointestinal bleeding. His past medical history includes coronary artery disease (status post myocardial infarction and coronary artery bypass graft), peripheral vascular disease with bilateral above-knee amputation, chronic renal insufficiency, diabetes mellitus type II, abdominal aortic aneurysm, ischemic bowel, and ischemic colitis. On evaluation, laboratory findings revealed increased creatinine (2.1), hyperkalemia (potassium 6.2), elevated amylase (188) and lipase (368), and troponin I of 0.9; chest x-ray and ECG were unremarkable. He developed hypotension (systolic BP in the 70s) and tachycardia (HR in the 120s) requiring Dopamine support. The documented diagnosis was pancreatitis with acute on chronic renal failure and hyperkalemia. Treatment included Dopamine for hemodynamic support and transfer to a higher level of care for further management.
+The patient is a 67-year-old man presenting with a two-day history of cough and one day of nausea and vomiting, accompanied by subjective fever and diaphoresis. He denied sputum production, abdominal pain, diarrhea, or gastrointestinal bleeding. His past medical history includes coronary artery disease, peripheral vascular disease with bilateral above-knee amputation, chronic renal insufficiency, diabetes mellitus, and abdominal aortic aneurysm. On admission, laboratory findings revealed elevated creatinine (2.9), hyperkalemia (potassium 6.2), and increased amylase and lipase, with imaging studies unremarkable for acute abdominal pathology. The documented diagnoses were pancreatitis, hypotension, chronic renal insufficiency, acute renal failure, and diabetes mellitus. Treatment included intravenous fluids for hypotension, supportive care for pancreatitis, and monitoring of renal function; his symptoms and laboratory values improved during hospitalization. He was discharged in stable condition on his home medications and instructed to follow up with his physician in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with a cough that has persisted for a few days. Associated symptoms include nausea, vomiting, feeling hot, increased sweating (which comes on suddenly, especially when standing up or after coughing), and lightheadedness and dizziness upon standing, but no fainting. These symptoms have made daily activities more difficult for the patient. No relevant medical history, medications, or allergies were mentioned. The doctor noted that the combination of cough, nausea, vomiting, sudden sweating, and orthostatic dizziness may be consistent with a common viral illness, but also raises concern for mild dehydration or a drop in blood pressure due to fluid loss from vomiting. The doctor advised the patient to stay well-hydrated by taking small sips of water or oral rehydration solution, rest as much as possible, and stand up slowly to minimize dizziness. The patient was instructed to seek urgent care if warning signs such as fainting, chest pain, trouble breathing, confusion, or inability to keep fluids down occur. The patient reported being able to keep some fluids down despite nausea and agreed to follow the recommendations.
+The patient presents with a chief complaint of cough. The cough began a few days ago and has been accompanied by nausea, vomiting, sudden sweating (especially when standing or after coughing), and lightheadedness upon standing, which has made daily activities more difficult. The patient reports being able to keep some fluids down, though nausea makes this challenging at times. There is no history provided regarding prior medical conditions, medications, or allergies.
+
+The clinical impression is that these symptoms are likely due to a common viral illness, with the combination of dizziness and sweating on standing possibly related to mild dehydration or orthostatic hypotension from fluid loss due to vomiting. The treatment plan includes advice to maintain hydration with small sips of water or oral rehydration solution, rest, and stand up slowly to minimize dizziness. The patient was instructed to seek urgent care if warning signs such as fainting, chest pain, trouble breathing, confusion, or inability to keep fluids down develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.437
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

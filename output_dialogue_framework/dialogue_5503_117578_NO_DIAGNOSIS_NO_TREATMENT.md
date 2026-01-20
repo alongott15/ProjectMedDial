@@ -87,16 +87,21 @@ Let me know if you have any questions or if there’s anything else you’d like
 
 ## EHR Summary
 
-The patient is a 54-year-old male presenting with exertional substernal chest pain. His symptoms included angina on exertion, which was relieved by nitroglycerin, and he had a recent positive stress test. Relevant history includes coronary artery disease with 3-vessel involvement, prior non-Q-wave myocardial infarction, hypercholesterolemia, hypertension, positive family history, and chronic low back pain. On admission, his medications included atenolol, aspirin, Lipitor, and nitroglycerin; he has no known drug allergies. Physical examination showed blood pressure of 100/70 mmHg and heart rate of 60 bpm, with no acute distress and normal HEENT findings. The documented diagnosis was 3-vessel coronary artery disease with persistent angina. The treatment plan included proceeding with coronary artery bypass graft surgery following transfer from another hospital after a rule-out myocardial infarction protocol.
+The patient is a 54-year-old male presenting with exertional substernal chest pain (angina) that was relieved by nitroglycerin. His symptoms persisted despite medical therapy, and he had a positive stress test one month prior to admission; he was recently admitted for chest pressure and a rule out myocardial infarction protocol. Relevant history includes coronary artery disease with 3-vessel involvement, prior non-Q-wave myocardial infarction, hypercholesterolemia, hypertension, and chronic low back pain. The documented diagnosis was unstable angina, status post 4-vessel coronary artery bypass graft (CABG). During hospitalization, he underwent successful CABG and had an uncomplicated postoperative course except for high pain requirements and a brief episode of presumed pneumonia, which responded to empiric antibiotics. Discharge medications included Lopressor, Lasix, K-Dur, Colace, oxycodone, Zantac, aspirin, Tylenol, Levaquin, and Flagyl. He was discharged home in stable and afebrile condition with follow-up arranged with his surgeon and wound care clinic.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain located in the center of the chest behind the breastbone, occurring during physical activity and relieved by rest. The pain began a few days ago, is rated as 7–8 out of 10 in intensity during exertion, and has led the patient to reduce activity levels to avoid worsening symptoms. The patient also reported a steady fever around 101.5°F over the past few days, without chills, night sweats, cough, shortness of breath, unusual fatigue, sweating, nausea, or lightheadedness. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted exertional chest discomfort and persistent fever without other systemic symptoms. The assessment included consideration of infection (such as viral illness causing chest wall or muscle inflammation) and possible cardiac causes for exertional chest pain. The doctor advised the patient to avoid strenuous activity, monitor symptoms closely, and seek prompt medical evaluation if chest pain occurs at rest, breathing difficulties develop, fainting occurs, or fever worsens. The patient acknowledged understanding of these recommendations.
+The patient presents with chest pain as the chief complaint. The pain is described as central, located behind the breastbone, rated 7–8/10 in intensity, triggered by physical exertion, and relieved by rest; it began a few days ago. The patient also reports a steady fever of 101.5°F over the past few days but denies cough, dyspnea (shortness of breath), fatigue, chills, night sweats, sweating, nausea, or lightheadedness. There is no mention of relevant past medical history, medications, or allergies. The clinical impression discussed includes possible infection (such as viral illness causing chest wall or muscle inflammation) but also notes concern for potential cardiac causes given exertional chest pain. The treatment plan is to avoid strenuous activity and monitor symptoms closely. The patient was advised to seek prompt medical evaluation if new symptoms develop, such as chest pain at rest, difficulty breathing, fainting, or worsening fever. No specific diagnosis or medication was documented at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.518
+- **Model Used**: general
+- **Text1 Length**: 146 words
+- **Text2 Length**: 155 words
+
 
 ## Processing Information
 

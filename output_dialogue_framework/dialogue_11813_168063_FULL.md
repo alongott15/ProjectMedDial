@@ -87,16 +87,21 @@ Does that make sense, or is there anything else you’re concerned about?
 
 ## EHR Summary
 
-The patient is a 58-year-old male who was found to be positive for Clostridioides difficile (C. difficile) toxin at the time of discharge. Specific symptoms related to the C. difficile infection are not documented in this note. Relevant history includes diabetes, as the patient received instructions on insulin management and blood glucose monitoring. Clinical findings include the positive C. difficile toxin result. The documented diagnosis was C. difficile infection. Treatment included a 14-day course of oral Flagyl (metronidazole) and instructions to follow up with the primary care physician and specialists for infection management and suture removal. The patient was also advised to follow a carbohydrate-count-based sliding scale of insulin, take 18 units of Lantus nightly, and monitor blood sugars closely.
+The patient is a 58-year-old male who was found to be positive for Clostridioides difficile (C. difficile) toxin at the time of discharge. No specific symptoms related to the C. difficile infection are documented in this note. Relevant history includes diabetes, as the patient received instructions on insulin management and blood glucose monitoring. The documented diagnosis is C. difficile infection. Treatment included a 14-day course of oral Flagyl (metronidazole) and instructions to follow up with the primary care physician regarding the infection. The patient was also advised to follow up with ENT and endocrinology for suture removal and diabetes management, respectively. He was instructed to use a carbohydrate-count-based sliding scale for insulin, take 18 units of Lantus nightly, and monitor blood sugars closely.
+
 
 ## Dialogue Summary
 
-The patient presented with mild diarrhea. The diarrhea began a few days ago, occurs two to three times daily, is watery in consistency, and has not been associated with stomach pain, fever, blood in the stool, dehydration, or weakness. The patient reported no connection to specific foods or drinks, no recent travel or exposure to others with similar symptoms, and has been able to maintain normal daily activities without interference. The patient has been drinking more fluids but has not tried over-the-counter remedies or found dietary changes helpful. On assessment, the doctor noted the absence of concerning features such as fever, significant pain, blood, or signs of dehydration, and described this as a mild, short-term episode of diarrhea likely due to a mild stomach bug or temporary gut change. The doctor recommended continuing to drink fluids (water, clear broths, or oral rehydration solutions), eating a light diet, and avoiding dairy, greasy foods, and caffeine. The patient was advised to monitor for new symptoms such as severe pain, persistent vomiting, blood in stool, high fever, or diarrhea lasting more than a week, and to return if these occur. The patient understood and agreed with the plan.
+The patient is an adult presenting with mild diarrhea as the chief complaint. Symptoms began a few days ago, with two to three watery episodes per day, not associated with abdominal pain, fever, blood in stool, dehydration, or weakness. There were no identifiable triggers related to food or drink, and no recent travel, routine changes, or sick contacts. The patient has maintained normal daily activities without interference. The documented clinical impression was a mild, short-term episode of diarrhea without concerning features. The treatment plan included maintaining hydration with water, clear broths, or oral rehydration solutions, and eating a light diet while avoiding dairy, greasy foods, and caffeine. The patient was advised to monitor for new symptoms such as severe pain, persistent vomiting, blood in stool, high fever, or prolonged diarrhea lasting more than a week, and to seek further evaluation if these occur. No medications or further interventions were recommended at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.409
+- **Model Used**: general
+- **Text1 Length**: 123 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

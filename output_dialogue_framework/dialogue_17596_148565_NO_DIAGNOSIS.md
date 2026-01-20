@@ -75,16 +75,21 @@
 
 ## EHR Summary
 
-The patient is a 28-year-old female presenting with elevated blood pressures, intractable nausea and vomiting, low-grade fever (to 100.4°F), and increased erythema around her abdominal incision ten days after a low transverse cesarean section. She reported no unusual vaginal discharge, minimal vaginal bleeding, and denied dizziness, dyspnea, chest pain, headaches, right upper quadrant pain, or visual changes. Her past medical history is significant for class C diabetes (diagnosed 12 years ago) and one prior episode of diabetic ketoacidosis; she has no known drug allergies and was taking NPH insulin and sliding-scale Humalog prior to admission. On evaluation at the transferring hospital, she had urine ketones and an elevated white blood cell count. She was treated with intravenous fluids, subcutaneous insulin, and started on Kefzol for questionable cellulitis. The documented clinical impression included possible cellulitis and concerns for infection or metabolic derangement post-cesarean section. The treatment plan involved continued antibiotics, insulin management, and further evaluation at the receiving facility.
+The patient is a 28-year-old female presenting with elevated blood pressures, intractable nausea and vomiting, low-grade fever, and increased erythema around her abdominal incision following a recent low transverse cesarean section. She reported no unusual vaginal discharge, minimal vaginal bleeding, and denied dizziness, shortness of breath, chest pain, headaches, right upper quadrant pain, or visual changes. Her medical history includes class C diabetes (with prior diabetic ketoacidosis) and recent cesarean section for arrest of descent. On admission, she was found to have diabetic ketoacidosis, postpartum endomyometritis, and preeclampsia. Treatment included intravenous fluids, insulin drip transitioned to subcutaneous insulin, electrolyte replacement, magnesium therapy for preeclampsia, antihypertensive medications (labetalol and nifedipine), and broad-spectrum intravenous antibiotics (ampicillin, gentamicin, clindamycin) later changed to oral Augmentin; a percutaneous drain was placed for a possible abscess. The patient’s condition stabilized with resolution of fever and normalization of laboratory values. She was discharged in stable condition against medical advice with prescriptions and follow-up instructions.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about elevated blood pressure. They reported that their blood pressure has been higher than usual throughout the day, accompanied by persistent nausea and vomiting for several days, which has made it difficult to eat or keep fluids down. The patient denied headaches or dizziness but noted new swelling in the lower legs and feet and increased redness and swelling around an abdominal incision. There is no personal or family history of hypertension, and no changes in urine output or color were reported. The symptoms have significantly interfered with the patient's ability to maintain their normal routine. The doctor inquired about possible infection at the incision site and other symptoms to assess for complications but did not provide a formal assessment or treatment plan during the conversation. No medications, allergies, or specific recommendations were discussed.
+The patient presents with concerns about elevated blood pressure. They report consistently high blood pressure readings throughout the day, accompanied by several days of persistent nausea and vomiting that interfere with eating and fluid intake. The patient denies headaches or dizziness but notes new swelling in the lower legs and feet. There is no personal or family history of hypertension. Additionally, the patient observes increased redness and swelling around an abdominal incision, though changes in urine output are denied. No formal diagnosis was documented during the encounter. The doctor inquired further about possible infection at the incision site and the impact of symptoms on daily activities. No specific treatment or recommendations were provided in the documented dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.377
+- **Model Used**: general
+- **Text1 Length**: 157 words
+- **Text2 Length**: 117 words
+
 
 ## Processing Information
 

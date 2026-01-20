@@ -109,16 +109,23 @@ For now, keep up with your gradual increase in activity and monitor for any chan
 
 ## EHR Summary
 
-The patient is a 74-year-old female presenting for postoperative management following a hemorrhoidectomy. She was admitted primarily for pain control and observation after her surgical procedure. Her postoperative pain was initially managed with subcutaneous and intravenous morphine, then transitioned to oral Dilaudid, with intermittent breakthrough discomfort controlled by the same medication. Relevant history includes recent hemorrhoidectomy; no allergies or other medical history are specified. On examination, the surgical site was clean with mild serosanguinous drainage and no evidence of purulence or gross bleeding. The documented diagnosis was status post hemorrhoidectomy. At discharge, her condition was stable and the wound site remained clean without signs of infection. She was discharged with oral Dilaudid for pain, instructions for mineral oil and frequent sitz baths, and follow-up with her physician.
+The patient is a 74-year-old female presenting for postoperative management following hemorrhoidectomy. She was admitted primarily for pain control and observation after her surgical procedure on [2182-8-19]. Her postoperative course was notable for intermittent breakthrough discomfort, which was managed with oral Dilaudid after initial morphine administration. Physical examination revealed a clean surgical site with mild serosanguinous drainage and no evidence of infection or gross bleeding. Relevant history includes recent hemorrhoidectomy; no medication allergies or other significant medical history are specified. The documented diagnosis was status post hemorrhoidectomy. Treatment included oral Dilaudid for pain, instructions for mineral oil and frequent sitz baths to prevent wound infection, and follow-up with her physician. At discharge, her wound was clean and her condition was stable.
+
 
 ## Dialogue Summary
 
-The patient presented with post-surgical pain as the chief complaint. The pain was described as localized to the surgical site, rated 6 out of 10 in severity, improved with prescribed pain medication and rest, but worsened with increased movement; no swelling, redness, or warmth was reported. The patient noted that discomfort slowed mobility but did not prevent walking, and there were no other symptoms such as fever or signs of infection. Relevant history includes recent surgery and current use of pain medication as prescribed; no allergies were mentioned. On examination, there were no clinical findings of infection or complications, and the pain remained localized. The doctor assessed that the patient’s symptoms were typical for this stage of post-surgical recovery, with no evidence of infection or other complications. The treatment plan included continuing regular pain medication, monitoring for new symptoms (such as fever, increased pain, swelling, or changes at the surgical site), and gradually increasing gentle activity such as short walks as tolerated. The doctor advised pacing activity, stopping if discomfort increased, and contacting the care team if any concerning changes occurred.
+The patient is recovering from recent surgery and presents with post-surgical pain as the chief complaint. The pain is localized to the surgical site, rated 6 out of 10 in severity, worsened by movement, and improved with rest and prescribed pain medication; there are no associated symptoms such as swelling, redness, or warmth. The patient reports being able to walk, though with some discomfort and slower movement, and denies any signs suggestive of infection. Relevant medical history includes recent surgery; no allergies or other medications are specified.
+
+The clinical impression is that the patient’s recovery is progressing normally, with pain consistent with typical post-surgical healing and no evidence of complications. The treatment plan includes continuing prescribed pain medication, engaging in gentle activity such as short walks as tolerated, and monitoring for new symptoms like increased pain, fever, or changes at the surgical site. The patient is advised to gradually increase activity and to contact the care team if any concerning symptoms develop. No additional interventions are recommended at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.937
-- **Similarity Label**: N/A
+- **STS Score**: 0.493
+- **Model Used**: general
+- **Text1 Length**: 121 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

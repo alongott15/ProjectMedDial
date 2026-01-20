@@ -67,16 +67,21 @@
 
 ## EHR Summary
 
-The patient is a 70-year-old male presenting with epigastric pain for several hours that migrated to the right upper quadrant. He denied nausea, vomiting, or prior similar episodes. His past medical history includes brain metastasis secondary to renal carcinoma, status post left nephrectomy, and a prior myocardial infarction. On examination, he was alert and oriented, with right upper quadrant abdominal tenderness and voluntary guarding; laboratory studies were within normal limits, and abdominal ultrasound showed a distended gallbladder with stones and a positive sonographic Murphy's sign, but no wall thickening or pericholecystic fluid. The documented diagnosis was gallstone disease with acute cholecystitis. The patient was admitted, made NPO, started on antibiotics, and subsequently underwent a laparoscopic cholecystectomy that was converted to an open procedure. Postoperatively, he received Lopressor, Levofloxacin, Flagyl, and subcutaneous Heparin.
+The patient is a 70-year-old male presenting with several hours of epigastric pain that migrated to the right upper quadrant, without associated nausea, vomiting, or prior episodes. Physical examination revealed right upper quadrant tenderness and voluntary guarding, and abdominal ultrasound showed a distended gallbladder with stones and a positive sonographic Murphy's sign. Relevant history includes brain metastasis secondary to renal carcinoma (status post left nephrectomy), and prior myocardial infarction; current medications include Dilantin, Lipitor, and folic acid. The documented diagnosis was cholecystitis. The patient underwent laparoscopic cholecystectomy, which was converted to open cholecystectomy, and received postoperative antibiotics, heparin, and oxygen therapy. Postoperatively, he experienced an episode of unresponsiveness requiring Narcan and ICU monitoring, as well as shortness of breath managed with supplemental oxygen. At discharge, he remained oxygen-dependent and had slightly unsteady ambulation. He was discharged in stable condition to a rehabilitation facility with instructions for continued oxygen use, physical therapy, and follow-up in 10–14 days.
+
 
 ## Dialogue Summary
 
-The patient presented with stomach pain that has migrated to the right side under the ribs. The pain is described as dull, sometimes worsening with movement, and has been present for a few days without significant change in severity. The patient also reported mild shortness of breath and some tenderness on the right side under the ribs, as well as feeling a little unsteady when walking. There was no nausea, vomiting, appetite change, jaundice, fever, chills, or sweats reported. No relevant medical history, medications, or allergies were mentioned. On examination, the doctor noted right-sided tenderness under the ribs based on the patient's description. The doctor asked detailed questions to assess for possible digestive or liver involvement and infection but did not provide a specific assessment or diagnosis during the conversation. No treatment plan or recommendations were given in the dialogue provided.
+The patient presents with abdominal pain that has localized to the right upper quadrant under the ribs. The pain is described as dull, sometimes worsening with movement, and has been present for a few days without significant progression or relief. The patient also reports mild dyspnea (shortness of breath) and some unsteadiness when walking, but denies nausea, vomiting, appetite changes, jaundice, fever, chills, or sweats. There is noted tenderness in the right upper quadrant. Relevant medical history, medications, and allergies are not specified in the dialogue. No specific diagnosis was documented during this encounter. The doctor inquired further about triggers and relieving factors but did not provide a treatment plan or recommendations in the documented conversation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.553
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 116 words
+
 
 ## Processing Information
 

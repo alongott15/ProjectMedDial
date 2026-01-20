@@ -87,16 +87,21 @@ Let me know if you have any questions or if anything changes with your symptoms.
 
 ## EHR Summary
 
-The patient is a 35-year-old male presenting with recurrent Aspergilloma on the right side, with symptoms of shortness of breath and hemoptysis. He has a history of sarcoidosis, prior left triple lobe lobectomy for Aspergilloma, diabetes secondary to steroids, and previous hemoptysis. Current medications include prednisone, Bactrim, Zantac, Cancidas, NPH, Flovent, albuterol, and posaconazole. On this admission, he underwent a right upper lobe lobectomy for right upper lobe Aspergilloma and tolerated the procedure well. Postoperatively, he developed a complication following CT-guided aspiration of a right chest fluid collection, resulting in an episode of unresponsiveness. Neurologic evaluation revealed a right parietal infarct on MRI, with persistent left hemiparesis, left hemineglect, and aphasia. The treatment plan included multidisciplinary consultations and supportive care in the ICU.
+The patient is a 35-year-old male presenting with recurrent Aspergilloma on the right side, with symptoms of shortness of breath and hemoptysis. He has a history of sarcoidosis, prior left triple lobe lobectomy for Aspergilloma, diabetes secondary to steroids, and no known drug allergies. During this admission, he underwent a right upper lobe lobectomy for Aspergilloma. Postoperatively, he developed an air embolism during a CT-guided aspiration, resulting in a right parietal infarct with left hemiparesis and aphasia, which gradually improved. He also experienced a pneumothorax requiring chest tube placement and persistent air leak managed with a Heimlich valve. The documented diagnoses included recurrent pulmonary Aspergilloma and postoperative cerebral air embolism with stroke. At discharge, he was stable, continued on antifungal therapy, steroids, inhalers, and pain management, and was discharged home with visiting nurse assistance and follow-up arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble breathing as the chief complaint. They reported that the shortness of breath worsens with activity but can also occur at rest, is not affected by lying down versus sitting, and is accompanied by a sensation of not being able to get a full breath and increased breathing rate during episodes. The patient also noted blood in their sputum for the past few days, with the amount remaining stable and no associated wheezing, fever, chills, or chest pain. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of worsening symptoms or systemic signs was somewhat reassuring and suggested the symptoms could be due to airway irritation from coughing, allergies, or minor infections. The doctor advised close monitoring of symptoms, seeking prompt medical attention if blood increases, chest pain, fever, or worsening breathing occurs, and recommended rest, avoiding strenuous activity, and staying hydrated. The patient expressed understanding of the plan.
+The patient presents with shortness of breath as the chief complaint. The dyspnea is described as worsening with activity but also present at rest, without positional variation, and is accompanied by tachypnea and a sensation of not being able to get a full breath. The patient reports blood in the sputum for several days, with a stable amount and no associated wheezing, fever, chills, or chest pain. Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression is that the symptoms may be due to airway irritation, possibly from coughing, allergies, or minor infection, but persistent hemoptysis warrants monitoring for potential underlying issues. The treatment plan includes close monitoring of symptoms, seeking prompt medical attention if blood increases, chest pain, fever, or worsening dyspnea occurs, resting, avoiding strenuous activity, and maintaining hydration.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.391
+- **Model Used**: general
+- **Text1 Length**: 137 words
+- **Text2 Length**: 137 words
+
 
 ## Processing Information
 

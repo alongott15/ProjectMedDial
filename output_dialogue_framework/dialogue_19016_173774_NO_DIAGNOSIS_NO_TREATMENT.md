@@ -87,16 +87,23 @@ Let’s talk about next steps—are you able to come in for an appointment soon 
 
 ## EHR Summary
 
-The patient is a 66-year-old male presenting with substernal chest pain on exertion since May of this year. Symptoms were associated with evidence of posterior hypokinesis on echocardiogram and significant coronary artery disease on catheterization, including 90% occlusion of the left anterior descending and posterior circumflex arteries, and 100% occlusion of the right coronary artery. Relevant history includes hypertension and a prior left hip fracture; home medications were aspirin and Lipitor. On examination at discharge, the patient was stable, in sinus rhythm, with a clear chest and a clean, intact incision. The documented diagnoses were unstable angina and coronary artery disease. Treatment included coronary artery bypass grafting times three, postoperative management of rapid atrial fibrillation (initially with amiodarone, then switched to procainamide due to elevated liver function tests), and angioplasty of the left circumflex vessel with initiation of Plavix. At discharge, the patient was stable and prescribed procainamide.
+The patient is a 66-year-old male presenting with substernal chest pain on exertion. Symptoms had been ongoing since May of the same year and were associated with evidence of posterior hypokinesis on echocardiogram. Cardiac catheterization revealed severe multivessel coronary artery disease with unstable angina, including 90% occlusion of the left anterior descending and posterior circumflex arteries, and 100% occlusion of the right coronary artery. Past medical history includes hypertension and a left hip fracture; home medications were aspirin and Lipitor. The documented diagnosis was unstable angina due to severe coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) times three, developed postoperative atrial fibrillation managed with amiodarone (later switched to procainamide due to elevated liver function tests), and subsequently had angioplasty of the left circumflex vessel. Discharge medications included procainamide, Plavix, Lasix, potassium, Lipitor, Lopressor, and Percocet as needed. He was discharged in stable condition with follow-up arranged with his primary care physician, cardiologist, and surgeon.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain occurring during physical activity such as walking or climbing stairs. The pain was described as a pressure or tightness in the center of the chest, rated at 6 out of 10 in severity, and consistently relieved by rest; it has been present for approximately two weeks and does not occur with eating, stress, or at rest. The patient denied associated symptoms such as shortness of breath, lightheadedness, or sweating. No relevant medical history, medications, or allergies were mentioned. The doctor noted the exertional, pressure-like nature of the chest discomfort and explained that this pattern could be consistent with stable angina due to reduced blood flow to the heart muscle during exertion. The doctor advised the patient to avoid strenuous activities until further evaluation and emphasized seeking immediate care if symptoms worsen or new symptoms develop. An in-person appointment for a physical exam and heart tests was recommended as the next step.
+The patient presents with chest pain as the chief complaint. The pain is described as a pressure or tightness in the center of the chest, rated 6 out of 10 in severity, and occurs exclusively with physical exertion such as walking or climbing stairs; it resolves with rest and has been present for approximately two weeks. The patient denies associated symptoms such as dyspnea, lightheadedness, or diaphoresis, and reports no triggers other than exertion. Relevant medical history, medications, and allergies are not specified in the dialogue.
+
+The clinical impression documented by the physician is that the symptoms are consistent with stable angina, likely due to reduced blood flow to the heart muscle during exertion. The treatment plan includes advising the patient to avoid strenuous activities until further evaluation can be performed. The physician also instructs the patient to seek immediate medical attention if symptoms occur at rest, last longer than usual, or are accompanied by new symptoms such as severe dyspnea, dizziness, or sweating. An in-person appointment for a physical exam and basic cardiac testing is recommended as the next step.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.504
+- **Model Used**: general
+- **Text1 Length**: 158 words
+- **Text2 Length**: 181 words
+
 
 ## Processing Information
 

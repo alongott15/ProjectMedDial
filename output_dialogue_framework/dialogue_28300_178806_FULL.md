@@ -87,16 +87,23 @@ Let me know if you have any questions about wound care or anything else you’re
 
 ## EHR Summary
 
-The patient is a 51-year-old female presenting with left lower extremity claudication and rest pain. She reported progressive leg pain at rest, consistent with critical limb ischemia. Her medical history includes type 2 diabetes mellitus, hypertension, two prior cerebrovascular accidents (on coumadin), asthma, reflux, prior renal artery stent placement, and prior left superficial femoral artery stent. On exam, she was afebrile with stable vital signs, clear lungs, a clean surgical incision, and palpable graft and dorsalis pedis pulses. Laboratory results showed mild anemia (Hgb 10.9) and elevated glucose (152). The documented diagnosis was peripheral arterial disease with critical limb ischemia. She underwent a left femoral to dorsalis pedis bypass graft using in-situ greater saphenous vein, followed by an uneventful postoperative course. Treatment included perioperative anticoagulation (heparin and coumadin), pain management, incentive spirometry, and physical therapy evaluation.
+The patient is a 51-year-old female presenting with left lower extremity claudication and rest pain. She reported pain and difficulty with ambulation in the left leg, prompting surgical intervention. Her relevant medical history includes type 2 diabetes mellitus, hypertension, two prior cerebrovascular accidents (on coumadin), asthma, reflux, prior renal artery stent placement, and prior left superficial femoral artery stent. The documented diagnosis was left lower extremity claudication status post left femoral to dorsalis pedis bypass graft with in-situ greater saphenous vein performed on admission. Her postoperative course was stable and uneventful, with appropriate graft pulses and no significant complications. Treatment included continuation of antihypertensive, antiplatelet, anticoagulant, and diabetic medications, as well as pain management and instructions for wound care and activity. She was discharged home in stable condition with instructions for leg elevation, gradual increase in activity, monitoring for signs of infection or complications, and follow-up for staple/suture removal and INR monitoring.
+
 
 ## Dialogue Summary
 
-The patient presented with an open wound over the bypass graft on the front of the ankle. The wound was first noticed a few days ago, with initial bleeding that has since stopped; there has been no increase in size, and the patient denied pain, warmth, swelling, redness, drainage, pus, or unusual odor. The patient reported no changes in walking, activity level, or sensations such as numbness, tingling, color, or temperature changes in the foot. The wound remains open and raw without signs of scab or new skin formation. Relevant history includes the presence of a bypass graft at the wound site; no medications or allergies were mentioned. On assessment, the doctor noted no signs of infection or impaired circulation/nerve function but expressed concern about delayed healing over the graft. The doctor advised continued gentle cleaning and covering of the wound, recommended prompt examination by a healthcare provider to assess both the wound and graft function, and instructed the patient to monitor for new symptoms such as pain, redness, swelling, drainage, fever, or changes in foot sensation or appearance.
+The patient is an adult presenting with an open wound over a bypass graft on the front of the ankle as the chief complaint. The wound was first noticed a few days ago, initially bled but has since stopped bleeding, and remains open and raw without signs of scab or new skin formation. The patient denies pain, warmth, swelling, redness, drainage, pus, odor, numbness, tingling, or changes in color or temperature of the foot, and reports no changes in walking or activity level. Relevant history includes the presence of a bypass graft at the wound site; no other medical history, medications, or allergies are specified.
+
+The clinical impression is an open wound over a bypass graft without current signs of infection or impaired circulation. The treatment plan includes continuing gentle cleaning and covering of the wound, monitoring for any new symptoms such as pain, redness, swelling, drainage, fever, or sensory changes, and arranging for prompt examination by a healthcare provider to assess wound healing and graft function. The patient was advised to seek care promptly if concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.601
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

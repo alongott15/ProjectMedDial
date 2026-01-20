@@ -85,16 +85,21 @@ For now, try to keep track of when and how these symptoms occur, and let me know
 
 ## EHR Summary
 
-The patient is a 59-year-old male presenting with an episode of choking sensation and discomfort radiating from the stomach to the chest, worse with exertion. Symptoms began the evening prior to admission and included chest discomfort, nausea, diaphoresis, and mild headache, which were partially relieved by sublingual nitroglycerin and aspirin. The chest discomfort recurred the following morning, prompting presentation to the Emergency Department, where nitroglycerin again relieved the pain. Relevant history includes coronary artery disease with multiple prior stents, hypertension, hyperlipidemia, and type 2 diabetes mellitus; there are no known drug allergies. On admission, he was started on a heparin drip and had already taken his beta blocker and aspirin at home. Physical exam and laboratory findings are not specified in the provided text. The documented diagnosis is not explicitly stated but symptoms are consistent with angina in the setting of significant coronary artery disease. Treatment included sublingual nitroglycerin, aspirin, and initiation of a heparin drip.
+The patient is a 59-year-old male presenting with an episode of choking sensation and chest discomfort radiating from the stomach to the chest, worse with exertion, which began the evening prior to admission. Symptoms included chest discomfort relieved by sublingual nitroglycerin, recurrence with nausea, diaphoresis, mild headache, and subsequent relief with additional nitroglycerin. Relevant history includes coronary artery disease with multiple prior stents, hypertension, hyperlipidemia, and type 2 diabetes mellitus; he has no known drug allergies and was taking aspirin, beta blocker, and other cardiac medications at home. On admission, laboratory results were unremarkable and cardiac enzymes were not elevated; cardiac catheterization revealed severe multi-vessel coronary artery disease. The documented diagnosis was status post coronary artery bypass graft (CABG) times four. Treatment included CABG x4 using left internal mammary artery and saphenous vein grafts, with an uncomplicated postoperative course. At discharge, he was stable, ambulating well, and prescribed a regimen including Lopressor, Plavix, aspirin, atorvastatin, glipizide, insulin sliding scale as needed, and pain control medications. He was advised to follow up with his cardiac surgeon, primary care physician, and cardiologist, and to receive home nursing for wound care.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually building discomfort that starts around the stomach and moves up into the chest, mainly triggered by physical activity. Symptoms include pressure or tightness rated up to 6/10 in intensity, sweating, nausea, mild headache, and slight drainage near the sternum, all of which resolve quickly with rest. The patient reported needing to slow down or stop walks due to these symptoms, which have been present for a few days and are becoming slightly more noticeable. No shortness of breath or lightheadedness was noted, and symptoms are not associated with eating or specific foods. No relevant medical history, medications, or allergies were mentioned. The doctor noted that the symptoms' resolution with rest is reassuring and may suggest a benign cause such as muscular strain or acid reflux, but also raised concern for possible angina due to exertional chest pressure. The doctor advised the patient to avoid strenuous activity until further evaluation, recommended scheduling a check-up to assess heart health, and instructed the patient to monitor for new or worsening symptoms that would require urgent attention. The patient agreed to track symptoms and refrain from heavy activity for now.
+The patient presents with exertional chest and upper abdominal discomfort as the chief complaint. Symptoms build gradually during physical activity, starting around the stomach and moving into the chest, described as pressure or tightness (intensity up to 6/10), and are accompanied by sweating, mild nausea, occasional mild headache, and drainage near the sternum. The discomfort is triggered by physical exertion, not by eating, and resolves quickly with rest; the patient often needs to slow down or stop walking when symptoms occur. There is no associated dyspnea or lightheadedness. Relevant history, medications, and allergies are not specified in the dialogue. The clinical impression includes possible benign causes such as muscular strain or acid reflux, but angina is also considered due to exertional chest pressure. The treatment plan includes avoiding strenuous activity until further evaluation, monitoring for new or worsening symptoms, and scheduling a check-up to assess cardiac health. The patient was advised to seek urgent care if severe or persistent symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.580
+- **Model Used**: general
+- **Text1 Length**: 188 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

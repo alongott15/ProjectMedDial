@@ -106,3 +106,21 @@ Before we wrap up, can you point to where exactly the pain is located on your ch
 ## Processing Information
 
 - **Processing Time**: 404.9s
+
+## EHR Summary
+
+The patient is a 56-year-old male presenting with chest pain and positive cardiac enzymes consistent with myocardial infarction. He reported increasing chest pain episodes over the preceding three to four weeks, with worsening frequency and intensity, initially lasting 20–40 seconds and not relieved by Diltiazem or sublingual Nitroglycerin. His past medical history includes gastroesophageal reflux disease, asthma, allergic rhinitis, and a history of colonic polyps; he has no known drug allergies. On admission, laboratory and ECG findings supported the diagnosis of acute myocardial infarction with unstable angina and three-vessel coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) times four and tolerated the procedure well, with an uncomplicated postoperative course. At discharge, he was stable and prescribed Lopressor, Lasix, K-Dur, Aspirin, Percocet, Singulair, Prilosec, Albuterol as needed, Vitamin E, and Vitamin C. No complications were documented during hospitalization. The patient was discharged home in good condition.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is described as a pressure sensation, rated 6 out of 10 in severity, located in the middle of the chest without radiation, and has been worsening in frequency and intensity over the past few days. The discomfort is triggered by physical activity such as walking or climbing stairs and is relieved by rest; associated symptoms include mild shortness of breath and palpitations, but no sweating or lightheadedness. The patient denies any history of heart disease, hypertension, diabetes, or high cholesterol. The clinical impression documented by the doctor is possible angina, given the exertional nature and relief with rest. The treatment plan includes avoiding strenuous activity and obtaining further evaluation with an EKG and possibly other cardiac tests. The patient was also advised to seek immediate medical attention if symptoms occur at rest or are accompanied by severe shortness of breath, sweating, nausea, or pain radiating to the arm or jaw.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.586
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 166 words
+

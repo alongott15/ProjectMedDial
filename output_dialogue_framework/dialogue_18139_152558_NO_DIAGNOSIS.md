@@ -87,16 +87,21 @@ For now, focus on resting, staying well-hydrated, and monitoring how you feel. I
 
 ## EHR Summary
 
-The patient is an 87-year-old female admitted for evaluation of fever of unknown origin persisting for almost two months despite multiple antibiotic courses and prior diagnostic workups. She developed respiratory failure during her hospital stay, necessitating transfer to the Intensive Care Unit and intubation. Presumed aspiration pneumonia was treated with antibiotics. Her past medical history, specific medications, and allergies are not specified. After discussions with her family and health care proxy, her code status was changed to comfort measures only, and she was extubated. The patient was managed with a morphine drip for comfort. She subsequently expired on [2183-9-27].
+The patient is an 87-year-old female admitted for evaluation of fever of unknown origin, persisting despite two months of antibiotics and prior unrevealing diagnostic workups. During hospitalization, she developed respiratory failure on [2183-9-22], necessitating intubation and transfer to the Intensive Care Unit. She was treated with antibiotics for presumed aspiration pneumonia. Her past medical history, specific medications, and allergies are not specified in the note. After discussions with her family and health care proxy, her code status was changed to comfort measures only on [2183-9-25], and she was extubated. The patient was managed with a morphine drip for comfort. She subsequently expired on [2183-9-27].
+
 
 ## Dialogue Summary
 
-The patient presented with fever of unclear origin. They reported feeling warmer than usual for several days, with the fever coming and going throughout the day, increased fatigue, and shortness of breath that is worse with activity but not present at rest. The patient denied chills, sweating, cough, leg or ankle swelling, and chest discomfort, and was unsure of the exact temperature but noted it was elevated. No relevant past medical history, medications, or allergies were mentioned. On review, the doctor noted the absence of swelling or chest discomfort as reassuring findings. The assessment was that the symptoms could be due to a mild infection or temporary lung irritation, but the increased fatigue and exertional shortness of breath warranted monitoring. The doctor advised rest, maintaining hydration, and close monitoring for worsening symptoms such as chest pain, shortness of breath at rest, confusion, or inability to keep fluids down, recommending prompt medical attention if these develop.
+The patient presents with the chief complaint of fever of several days’ duration. Symptoms include intermittent fever, increased fatigue, and exertional shortness of breath, with dyspnea worsening during activity but not present at rest. The patient denies chills, sweating, cough, leg or ankle swelling, and chest discomfort. No specific temperature measurement was recalled, but the fever was noted to fluctuate throughout the day. Relevant history such as past medical conditions, medications, or allergies was not specified. The clinical impression was that symptoms may be due to a mild infection or temporary lung irritation, with reassurance provided due to the absence of more concerning symptoms. The treatment plan included recommendations for rest, maintaining hydration, monitoring for worsening symptoms (such as chest pain, dyspnea at rest, confusion, or inability to keep fluids down), and seeking prompt medical attention if these develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.936
-- **Similarity Label**: N/A
+- **STS Score**: 0.610
+- **Model Used**: general
+- **Text1 Length**: 104 words
+- **Text2 Length**: 139 words
+
 
 ## Processing Information
 

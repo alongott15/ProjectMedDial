@@ -96,3 +96,21 @@ In the meantime, keeping track of when the discomfort happens and what you’re 
 ## Processing Information
 
 - **Processing Time**: 304.1s
+
+## EHR Summary
+
+The patient is a 51-year-old male presenting with chest pain. He was found to be in acute myocardial infarction and transferred for emergent cardiac catheterization, which revealed multivessel coronary artery disease. His medical history includes diabetes, managed with glyburide, and he was on atenolol, aspirin, and nitroglycerin upon admission. The documented diagnoses were diabetes, coronary artery disease, status post myocardial infarction, and status post coronary artery bypass grafting times six. Treatment included emergent coronary artery bypass grafting, postoperative management with beta blockers, diuretics, and supportive care including physical therapy. The patient improved steadily postoperatively, was weaned off inotropes and intra-aortic balloon pump, and was discharged home in stable condition. Discharge medications included Lopressor, glyburide, Percocet as needed, aspirin, Colace, Zantac, potassium chloride, and Lasix. He was advised to follow up with his primary care physician and cardiology within the next few weeks.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain began a couple of days ago, is moderate in intensity, and occurs intermittently, typically lasting 10–15 minutes per episode. The discomfort is most often triggered by physical activity such as walking up stairs and is alleviated by rest; it is not affected by changes in position or deep breathing. The patient denies associated symptoms such as shortness of breath, sweating, or lightheadedness. Relevant history is not specified in detail, though the patient references having a medical history. The clinical impression discussed includes possible causes such as angina, muscle strain, or acid reflux, with the pattern of exertional pain raising concern for a cardiac etiology. The treatment plan includes avoiding strenuous activity, monitoring for worsening or new symptoms, and considering further evaluation; the patient is advised to seek prompt medical attention if symptoms escalate.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.444
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 149 words
+

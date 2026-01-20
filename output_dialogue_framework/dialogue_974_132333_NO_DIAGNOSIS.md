@@ -98,3 +98,21 @@ If your symptoms persist, worsen, or start to interfere with your daily life, it
 ## Processing Information
 
 - **Processing Time**: 419.0s
+
+## EHR Summary
+
+The patient is a 39-year-old male presenting with chest pain, depression, and suicidal ideation. He reported a recent cocaine binge, after which he developed chest pain two to four hours later, along with ongoing depression but denied active suicidal ideation after admission. His history is significant for HIV, hepatitis C, polysubstance abuse, prior cocaine-induced myocardial infarctions with clean coronary arteries, depression, and bipolar disorder. On evaluation, he had diffuse ST elevations on ECG, elevated creatine kinase (peaking at 4348), but negative troponin and CK/MB; cardiac catheterization showed clean coronary arteries. The documented diagnoses were pericarditis and cocaine-induced rhabdomyolysis. He was treated with ibuprofen for pericarditis, continued on antiretroviral therapy and Dapsone, and all psychiatric medications were held pending further evaluation. At discharge, he was stable and instructed to follow up with Psychiatry.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with chest pressure as the chief complaint. The chest pressure is described as moderate (6/10), central, pressure-like, and has been present for three to four days; it is exacerbated by stress but not by physical activity, eating, or lying down, and is not relieved by any specific factors. The patient also reports intermittent abdominal pain of similar duration and a low mood with decreased energy, but denies dyspnea, palpitations, diaphoresis, or lightheadedness. There is no mention of relevant past medical history, medications, or allergies. The clinical impression is that the chest pressure and abdominal pain are likely related to stress and mood changes rather than cardiac or acute causes. The treatment plan includes monitoring for any worsening or new symptoms (such as dyspnea or severe pain), practicing stress management techniques (deep breathing, exercise, talking to someone), and following up if symptoms persist or interfere with daily life. No medications or further diagnostic tests were recommended at this time.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.522
+- **Model Used**: general
+- **Text1 Length**: 132 words
+- **Text2 Length**: 164 words
+

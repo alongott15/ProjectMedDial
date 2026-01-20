@@ -97,16 +97,21 @@ Let me ask—where exactly do you feel the discomfort in your lower back? Is it 
 
 ## EHR Summary
 
-The patient is a 22-year-old male presenting with headache, low back pain, and jaw pain following a bicycle accident. Symptoms included a diffuse, constant headache rated 4–5/10 in intensity, mild neck pain, low back pain improving with Tylenol, and one episode of nausea with vomiting; there were no visual changes, focal numbness, or weakness. Relevant history includes prior left wrist fracture, jaw dislocation, and an allergy to aspirin (facial swelling); he was not taking any medications. On examination, he was alert and oriented with normal vital signs, free neck movement, nontender spine, and an abrasion over the sacrum and left lower flank; neurologic exam was unremarkable. The documented diagnosis was right temporal epidural bleed. Treatment details are not specified in the note.
+The patient is a 22-year-old male presenting with headache, low back pain, and jaw pain following a bicycle accident in which he was not wearing a helmet. Symptoms included a diffuse, constant headache rated 4–5/10 in intensity, mild neck and low back pain, and one episode of nausea with vomiting; the back pain improved with Tylenol. There was no loss of consciousness, confusion, amnesia, visual changes, or focal neurological deficits. Past medical history includes left wrist fracture and jaw dislocation; he has an allergy to aspirin (facial swelling) and takes no regular medications. The documented diagnosis was a small right temporal epidural hematoma and an undisplaced right posterior occipital fracture. He was admitted for overnight observation in the ICU with hourly neurologic checks, received Zantac and Tylenol, and had stable repeat imaging. On discharge, he was neurologically intact and advised to follow up in three weeks with a repeat head CT prior to his appointment.
+
 
 ## Dialogue Summary
 
-The patient presented with headache and lower back pain following a recent bike accident. The headache was rated 6 out of 10 in severity, constant, and worsened with movement; the lower back pain was described as a dull ache aggravated by activity and limiting bending but not causing numbness, tingling, or weakness. The patient also reported jaw soreness without swelling or bruising, and experienced one episode of vomiting and mild nausea soon after the accident, but denied dizziness or vision changes. Relevant history includes an allergy to aspirin; no other medications or medical conditions were mentioned. On assessment, the doctor noted that symptoms were likely due to minor head injury or muscle strain (for headache and jaw pain), soft tissue bruising or strain (for back pain), and possible mild concussion (due to vomiting and nausea), but found no signs of more serious neurological involvement. The doctor recommended rest, use of acetaminophen for pain relief due to the aspirin allergy, and application of ice or heat to sore areas. The patient was advised to avoid activities that worsen symptoms and to seek urgent care if new or worsening neurological symptoms develop. Resting was noted to improve symptoms, while movement aggravated them.
+The patient is an adult presenting with headache and lower back pain following a recent bike accident. The headache is rated 6 out of 10 in severity, is constant, and was accompanied by a single episode of vomiting and mild nausea shortly after the accident; there are no ongoing dizziness or vision changes. The lower back pain is described as a dull ache that worsens with movement and limits bending but does not cause numbness, tingling, or weakness in the legs. The patient also reports jaw soreness without swelling, bruising, or significant difficulty opening the mouth. Relevant history includes an allergy to aspirin; no other medications or medical conditions are specified. The clinical impression is that symptoms are consistent with minor injuries—likely mild head injury or muscle strain for the headache and jaw pain, and soft tissue bruising or strain for the lower back pain—with possible mild concussion suggested by the initial vomiting and nausea. The treatment plan includes rest, use of acetaminophen for pain relief due to aspirin allergy, and application of ice or heat to sore areas. The patient was advised to seek urgent care if symptoms worsen or new neurological signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.975
-- **Similarity Label**: N/A
+- **STS Score**: 0.659
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 195 words
+
 
 ## Processing Information
 

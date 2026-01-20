@@ -100,3 +100,21 @@ Does that make sense? Is there anything else you’re concerned about with your 
 ## Processing Information
 
 - **Processing Time**: 377.3s
+
+## EHR Summary
+
+The patient is a 59-year-old male presenting with left ankle pain following an ankle fracture. On admission, his left ankle was swollen but neurovascularly intact. His relevant history includes a 60 pack-year tobacco history (quit 15 years ago), past alcohol abuse, and family history of hypertension and coronary artery disease. The documented diagnosis was right ankle fracture. He underwent open reduction and internal fixation (ORIF) of the left ankle and had an uncomplicated postoperative course. Discharge medications included oxycodone-acetaminophen for pain, enoxaparin for thromboprophylaxis, colace for constipation, and several chronic medications (quinapril, isosorbide mononitrate, atorvastatin, metoprolol succinate, citalopram). He was instructed to keep the incision clean and dry, remain non-weight bearing on the right leg, elevate the leg, and follow up in two weeks for suture removal. Home health services and daily dressing changes were recommended until wound drainage resolves.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with left ankle pain as the chief complaint. The discomfort developed gradually without any history of trauma or increased activity and is associated with swelling around the ankle joint, but no redness or warmth. The pain and swelling worsen with prolonged standing or walking and improve with rest and elevation; the patient reports limping due to these symptoms. There is no mention of relevant past medical history, medications, or allergies. The clinical impression is that the symptoms are likely due to mild tendonitis, a minor sprain, or early arthritis, with infection or acute injury considered less likely. The treatment plan includes continued rest, elevation of the foot, application of ice for 15–20 minutes several times daily, and use of over-the-counter pain relievers such as acetaminophen or ibuprofen if not contraindicated. The patient was advised to seek urgent care if severe symptoms develop and to return for further evaluation, including possible X-ray, if there is no improvement after one week.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.686
+- **Model Used**: general
+- **Text1 Length**: 140 words
+- **Text2 Length**: 165 words
+

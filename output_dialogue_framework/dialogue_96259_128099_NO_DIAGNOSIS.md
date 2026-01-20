@@ -89,16 +89,21 @@ Let’s plan to review your sleep study results together and come up with a stra
 
 ## EHR Summary
 
-The patient is a 53-year-old man presenting for a scheduled admission for a sleep study due to known sleep apnea. He reported no current symptoms and his review of systems was unremarkable. His medical history includes diabetes mellitus type 2, dyslipidemia, hypertension, stage IV chronic kidney disease, morbid obesity, chronic systolic congestive heart failure (EF 40-50%), coronary artery disease, atrial fibrillation on warfarin, and gout. Physical examination revealed an obese man in no acute distress with normal cardiopulmonary and abdominal findings and no edema. Laboratory results showed mild anemia, elevated INR (2.0), elevated creatinine (3.0), and elevated urea nitrogen (78), consistent with his chronic conditions. The documented diagnosis was sleep apnea in the context of multiple comorbidities. The treatment plan included completion of the scheduled sleep study and monitoring; an arterial line was placed as part of the procedure. No acute interventions or medication changes were documented during this admission.
+The patient is a 53-year-old man presenting for a scheduled admission for a sleep study due to sleep apnea. He reported no acute symptoms and review of systems was unremarkable. His medical history includes diabetes mellitus type 2, dyslipidemia, hypertension, stage IV chronic kidney disease, morbid obesity, chronic systolic congestive heart failure (EF 40-50%), coronary artery disease, atrial fibrillation on warfarin, and gout; he has no known drug allergies. The documented primary diagnosis was sleep apnea, with secondary diagnoses including his chronic comorbidities. During admission, his BiPAP prescription was set at 14/9 with 4 liters oxygen and 150 cc dead space, to be arranged at his nursing home. He was continued on his home medications with some adjustments at discharge. The patient was discharged in stable condition to extended care, with instructions for follow-up and equipment arrangement by his sleep doctor.
+
 
 ## Dialogue Summary
 
-The patient presented for a scheduled sleep study without new symptoms or concerns. They reported taking zolpidem nightly to help with sleep, which they feel is effective and have not noticed any side effects. Despite this, the patient experiences persistent morning tiredness and daytime sleepiness. They have a history of sleep apnea and loud snoring, and currently own a CPAP machine but have not been using it regularly due to mask discomfort and waking with a dry mouth. The doctor noted these barriers to CPAP use and explained that ongoing fatigue may indicate poorly controlled sleep apnea. The treatment plan includes proceeding with the sleep study, considering adjustments such as trying different mask styles or adding a humidifier to improve CPAP comfort, and monitoring for worsening symptoms like severe daytime sleepiness, morning headaches, or mood changes. The doctor recommended reviewing the sleep study results together to develop a strategy for improving sleep quality and energy levels.
+The patient is an adult presenting for a scheduled sleep study, with no new acute complaints. They report ongoing daytime fatigue and sleepiness despite taking zolpidem at night, which helps with sleep onset and causes no side effects. The patient has a history of sleep apnea and acknowledges loud snoring and episodes of stopped breathing during sleep. They own a CPAP machine but have not been using it regularly due to mask discomfort and waking with a dry mouth. The clinical impression is that their sleep apnea may not be fully controlled, contributing to persistent daytime symptoms. The treatment plan includes proceeding with the sleep study to assess current sleep patterns and CPAP effectiveness, with consideration of alternative mask styles or adding a humidifier to improve comfort and adherence. The patient was advised to monitor for worsening symptoms such as severe daytime sleepiness, morning headaches, or mood changes and to report these if they occur. Follow-up is planned to review sleep study results and adjust therapy as needed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.581
+- **Model Used**: general
+- **Text1 Length**: 141 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

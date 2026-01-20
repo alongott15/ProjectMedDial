@@ -106,3 +106,23 @@ If the pain doesn’t improve over the next week or so, or if anything changes, 
 ## Processing Information
 
 - **Processing Time**: 406.8s
+
+## EHR Summary
+
+The patient is a 53-year-old male presenting with right upper quadrant pain. On admission, he was found to have elevated liver function tests, with total bilirubin rising to 4.4, and an ultrasound revealed gallstones with a mildly elevated common bile duct. His relevant history includes no documented chronic illnesses, medications, or allergies. The clinical assessment identified common bile duct obstruction secondary to choledocholithiasis and probable acute cholecystitis. He underwent ERCP with sphincterotomy and stone extraction, followed by broad spectrum antibiotics. Post-procedure, he experienced bleeding from the sphincterotomy site, resulting in a hematocrit drop from 40 to 25 and requiring transfusion of 2 units of blood; he stabilized thereafter and his pain resolved. The treatment plan included discharge home with instructions to return for elective cholecystectomy in the coming weeks. His condition on discharge was improved.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with right upper abdominal pain as the chief complaint. The pain began a few days ago, is described as a dull ache rated 5–6/10 at its worst, and comes and goes without clear triggers related to eating or physical activity. There are no associated symptoms such as nausea, appetite changes, jaundice, dark urine, or pale stools. Resting provides some relief, and the patient has not tried medications or heat for the discomfort.
+
+Relevant medical history, medications, and allergies are not specified. The clinical impression is a mild, non-specific right upper abdominal ache, possibly due to minor muscle strain or irritation of abdominal wall structures, with no evidence of more serious pathology at this time. The treatment plan includes monitoring symptoms, trying gentle heat or over-the-counter pain relievers if needed, and seeking prompt care if new symptoms such as fever, persistent vomiting, jaundice, or worsening pain develop. The patient was advised to follow up if symptoms persist or change.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.488
+- **Model Used**: general
+- **Text1 Length**: 135 words
+- **Text2 Length**: 164 words
+

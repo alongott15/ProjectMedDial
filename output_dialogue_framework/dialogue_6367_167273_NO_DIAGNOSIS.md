@@ -87,16 +87,23 @@ Let me know if you have any questions or if there are other symptoms you havenâ€
 
 ## EHR Summary
 
-The patient is a 26-year-old female presenting with symptoms related to a pituitary tumor. She reported polyuria, polydipsia, significant weight gain, galactorrhea, and cessation of menses beginning in July 2152. Her past medical history is notable for diabetes insipidus managed with nasal DDAVP, and she has no known drug allergies. Physical examination was unremarkable except for the described endocrine symptoms, and vital signs were stable. MRI showed diffuse thickening and enhancement of the pituitary infundibulum with a partially empty sella turcica. The documented diagnosis was pituitary tumor with associated diabetes insipidus. Treatment included continued DDAVP for diabetes insipidus and a plan for pituitary tumor biopsy. She was also taking monthly vitamin D supplementation.
+The patient is a 26-year-old female presenting with symptoms related to a pituitary tumor. She reported polyuria, polydipsia, significant weight gain, galactorrhea, and cessation of menses, with no headache, visual changes, or other neurological deficits. Her history is notable for diabetes insipidus managed with DDAVP and no known drug allergies. MRI imaging showed progressive enlargement of a pituitary infundibular mass, and she underwent right frontal craniotomy with resection of the pituitary stalk lesion during this admission. The documented diagnosis was pituitary tumor. Postoperatively, she was treated with intravenous hydrocortisone, continued on DDAVP nasal spray, and later transitioned to a prednisone taper. She was discharged in stable condition with instructions for close follow-up with neurosurgery and endocrinology, staple care, and monitoring for increased urine output.
+
 
 ## Dialogue Summary
 
-The patient presented with increased urinary frequency over the past few weeks. She reported that the symptoms have become more noticeable, with frequent urination both day and night, passing large amounts of urine each time, constant thirst, significant weight gain, and breast discharge; she also noted that her periods have completely stopped. She denied changes in appetite or increased fatigue. No relevant medical history, medications, or allergies were mentioned. The doctor noted the combination of increased urination, thirst, weight gain, breast discharge, and amenorrhea, suggesting possible hormonal changes or pituitary gland involvement rather than diabetes. The doctor recommended prompt evaluation by a healthcare provider, including blood tests and hormone level checks, and advised the patient to monitor for new symptoms such as headaches, vision changes, or further menstrual changes. The patient was instructed to seek care urgently if severe headaches, vision problems, or sudden illness occur.
+The patient is a female presenting with increased urinary frequency as the chief complaint. She reports several weeks of progressively worsening polyuria, nocturia, and polydipsia, with large urine volumes each time. Additional symptoms include significant recent weight gain, persistent breast discharge, and secondary amenorrhea (cessation of menstrual periods); she denies changes in appetite or increased fatigue. Relevant history regarding past medical conditions, medications, or allergies is not specified.
+
+The clinicianâ€™s assessment notes that while diabetes could explain the urinary symptoms and thirst, the combination of weight gain, galactorrhea (breast discharge), and amenorrhea suggests a possible hormonal disorder, potentially involving the pituitary gland. The treatment plan includes recommending prompt evaluation by a healthcare provider, blood tests, and hormone level checks. The patient is also advised to monitor for new symptoms such as headaches, vision changes, or feeling unwell, and to seek urgent care if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.553
+- **Model Used**: general
+- **Text1 Length**: 124 words
+- **Text2 Length**: 145 words
+
 
 ## Processing Information
 

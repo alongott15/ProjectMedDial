@@ -87,16 +87,21 @@ For now, it sounds like things are stable, which is a good sign. If you ever do 
 
 ## EHR Summary
 
-The patient is a 65-year-old female presenting after a fall at home, with a history of left lower lobe pneumonia, chronic hypoxemia, and hypercarbia on home oxygen. She was noted to be anxious, disoriented, and somnolent, with O2 saturations in the 70s-80s and a PCO2 of 120 on arterial blood gas; her family also reported recent confusion, tremulousness, and increased daytime sleepiness. She denies cough but occasionally experiences chest pain of unclear nature and has baseline shortness of breath. Her past medical history includes diabetes, paroxysmal atrial fibrillation (on amiodarone), anxiety disorder, DVT, GERD, and chronic respiratory insufficiency. On physical exam, she was alert but hypoxic (O2 sat 81% on 3L nasal cannula), with stable heart rate and blood pressure. The documented clinical impression is acute on chronic hypercapnic respiratory failure likely related to her underlying pulmonary disease. She was treated with biPAP, which led to some improvement in mental status. Further management included monitoring and supportive care in the MICU.
+The patient is a 65-year-old female presenting after a fall at home, with confusion, anxiety, and hypoxemia. She was noted to have worsening somnolence, daytime napping, and baseline shortness of breath, with O2 saturations in the 70s-80s and a PCO2 of 120 on admission. Her past medical history includes diabetes, chronic hypercarbia on home oxygen, paroxysmal atrial fibrillation, DVT, GERD, and recent left lower lobe pneumonia; she is allergic to penicillin. On examination, she had diminished breath sounds at the bases, resting tremor, and erythematous papules on her back. The documented diagnoses were hypercarbia, congestive heart failure, and vitamin B12 deficiency anemia. She was treated with BIPAP (with improvement in mental status and oxygenation), diuresis, vitamin B12 injections, and a thick liquid diet following a failed swallow evaluation. Pulmonary rehabilitation was consulted for ongoing management of home oxygen and initiation of nocturnal BIPAP; she was discharged in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with general uneasiness about their health but did not report any specific symptoms. They denied changes in energy, sleep, appetite, mood, weight, vision, bathroom habits, and did not note any new sensations or discomfort. No new medications or changes in daily routine were mentioned, and no relevant medical history or allergies were discussed. The doctor found no concerning clinical findings based on the patient's responses. The assessment was that there are no immediate signs of a medical issue and that the patient's concerns are likely part of normal health awareness. The doctor recommended continuing usual self-care, staying alert for new symptoms such as unexplained pain, significant weight changes, or persistent fatigue, and checking in again if any specific concerns arise. The patient expressed understanding and reassurance with this plan.
+The patient presented with general health concerns and a sense of unease but did not report any specific chief complaint. The patient denied changes in energy, sleep, appetite, mood, weight, vision, bathroom habits, or the presence of new sensations or discomfort. There were no recent changes in medications or daily routine. No pertinent medical history, medications, or allergies were discussed. The clinical assessment indicated no identifiable symptoms or signs of acute or chronic illness, and the physician found no evidence of a concerning medical issue at this time. The treatment plan included reassurance, advice to continue usual self-care, and instructions to monitor for new symptoms such as unexplained pain, significant weight changes, or persistent fatigue. The patient was encouraged to return if any specific concerns arise in the future.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.936
-- **Similarity Label**: N/A
+- **STS Score**: 0.493
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 129 words
+
 
 ## Processing Information
 

@@ -85,16 +85,23 @@ For now, keep track of any new symptoms—especially sudden worsening of weaknes
 
 ## EHR Summary
 
-The patient is an 85-year-old male presenting with a chief complaint of ten to fourteen days of headache and three days of vague mental status changes. Symptoms included persistent headache and recent onset of cognitive changes, as noted by his daughter. Relevant history includes coronary artery disease status post coronary artery bypass grafting, prior cholecystectomy, current use of Coumadin, Zocor, Zestril, Isordil, and Ambien, and an allergy to phenobarbital. On examination, he was awake and oriented with mild right upper extremity weakness (4+/5), minimal speech slurring, and short-term memory impairment. A head CT scan revealed a large left acute versus subacute subdural hematoma (1.5–2 cm) with 9 mm midline shift. The documented diagnosis was left subdural hematoma with associated neurological deficits. The patient was transferred for neurosurgical management; specific treatments during this admission are not detailed in the provided note.
+The patient is an 85-year-old male presenting with a chief complaint of ten to fourteen days of headache and three days of vague mental status changes. Symptoms included persistent headache, short-term memory impairment, mild right upper extremity weakness, and occasional slurred speech. Past medical history is notable for coronary artery disease (status post CABG), cholecystectomy, and use of Coumadin, Zocor, Zestril, Isordil, and Ambien; he is allergic to phenobarbital. Head CT revealed a large left acute versus subacute subdural hematoma with 9 mm midline shift. The documented diagnosis was left subdural hematoma with associated neurological deficits. Treatment included left craniotomy for evacuation of the hematoma and placement of a subdural drain, followed by postoperative monitoring and rehabilitation. At discharge, the patient was stable, ambulatory, and prescribed Percocet, Zantac, Zocor, Zestril, Tylenol, and Isordil. He was advised to follow up with neurosurgery for staple removal and a repeat head CT in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with a persistent headache lasting about ten days. Symptoms included a dull headache present most of the day, mild weakness in the right arm that began a few days after the headache, occasional slurred speech, and subjective difficulty with memory and thinking, making daily tasks more effortful but still manageable. The patient reported no changes in sleep quality or pattern and denied vision or balance problems. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the combination of headache, cognitive changes, mild arm weakness, and intermittent slurred speech could indicate a neurological issue, such as a small stroke or other nervous system condition, though symptoms have remained stable and not severe. The doctor advised monitoring for any new or worsening symptoms—especially sudden weakness, speech trouble, vision changes, or severe headache—and recommended arranging follow-up with the primary doctor for further evaluation. Supportive measures such as staying hydrated, resting, and avoiding overexertion were also suggested.
+The patient is an adult presenting with a chief complaint of a persistent headache lasting about ten days. The headache is described as dull and present most of the day, with associated symptoms including mild right arm weakness, occasional slurred speech, and subjective memory and cognitive difficulties that began a few days after the headache onset. The patient reports these symptoms have remained stable without significant improvement or worsening and denies changes in sleep, vision, or balance. There is no mention of relevant past medical history, medications, or allergies.
+
+The clinical impression is that the constellation of symptoms—headache, cognitive changes, mild unilateral weakness, and intermittent speech disturbance—may indicate a neurological process such as small strokes or other neurological issues. The patient was advised to monitor for any new or worsening symptoms (such as sudden weakness, speech or vision changes, or severe headache) and to seek immediate care if these occur. Supportive measures recommended include staying hydrated, resting, and avoiding overexertion. The patient was also advised to arrange prompt follow-up with their primary doctor for further evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.488
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 176 words
+
 
 ## Processing Information
 

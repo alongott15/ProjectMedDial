@@ -87,16 +87,21 @@ Let me know if you have any questions or if there’s anything else you’ve not
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with bilateral carotid stenosis. He reports a six-month history of near syncopal episodes with positional changes and bilateral visual disturbances described as a "water on oil effect," though these symptoms are not associated with each other or with additional neurological deficits. His medical history includes hypertension, hyperlipidemia, coronary artery disease with rare effort angina relieved by nitroglycerin, and he is a former smoker; there are no known drug allergies. On examination, bilateral carotid bruits were noted, and imaging (MRI and arteriogram) demonstrated 60–70% stenosis of the right internal carotid artery and 70–80% stenosis of the left internal carotid artery at their origins. The review of systems was notable for new left frontal parietal headaches but negative for syncope, seizures, paresis, or aphasia. The documented diagnosis is bilateral carotid artery stenosis. The patient was referred for surgical evaluation following these findings.
+The patient is a 58-year-old male presenting with bilateral carotid stenosis. He reported a six-month history of near syncopal episodes with positional changes and bilateral visual disturbances described as a "water on oil effect," as well as new left frontal parietal headaches; these symptoms were not associated with syncope, seizures, paresis, or aphasia. His relevant medical history includes hypertension, hyperlipidemia, coronary artery disease, and degenerative joint disease; he is a former smoker and has no known drug allergies. Imaging and arteriogram revealed 60–70% stenosis of the right internal carotid artery and 70–80% stenosis of the left internal carotid artery. The documented diagnoses were bilateral carotid disease (status post right carotid endarterectomy), perioperative hypotension (corrected), and coronary artery disease (status post left heart catheterization, no intervention). Treatment included a right carotid endarterectomy without complications, perioperative blood pressure support, and adjustment of medications to Zestril 5 mg daily, Lopressor 75 mg twice daily, aspirin 325 mg daily, and Lipitor 40 mg daily. The patient was discharged in stable condition with a clean, intact wound and no neurological deficits.
+
 
 ## Dialogue Summary
 
-The patient presented with episodes of feeling like they might pass out, especially when changing positions. Symptoms included near syncopal episodes over the past few days, visual changes described as a wavy effect in both eyes during these episodes, occasional chest discomfort with effort that resolves with nitro, intermittent palpitations, and occasional headaches; no actual loss of consciousness or shortness of breath was reported. The patient noted symptoms are worse when standing up quickly and less likely when rising slowly or changing positions in bed, and has been able to manage daily activities by being cautious. No connection was noted between hydration status and symptom occurrence. The doctor assessed that the symptoms are most consistent with orthostatic hypotension, given their positional nature and associated visual effects, and noted that chest discomfort and palpitations should be monitored but are less likely the primary cause. The doctor recommended standing up slowly, maintaining good hydration, and seeking prompt medical attention if symptoms worsen, actual fainting occurs, or chest discomfort becomes more frequent or severe. The patient understood the explanation and agreed to follow these recommendations.
+The patient presents with episodes of near syncope, primarily triggered by changing positions, especially when standing up quickly. Symptoms include a sensation of almost passing out, transient visual disturbances described as a "wavy effect" in both eyes, occasional chest discomfort with exertion relieved by nitroglycerin, and intermittent palpitations; there is no actual loss of consciousness or shortness of breath. The episodes have been occurring over the past few days and are less severe when the patient stands up slowly or changes positions gradually. The patient reports being able to manage daily activities with caution and notes no clear association with hydration status. Relevant history includes the use of nitroglycerin for chest discomfort, but no further medical history or medication details are specified. The clinical impression is orthostatic hypotension, based on symptom timing and improvement with slower positional changes. The treatment plan includes recommendations to stand up slowly, maintain good hydration, and monitor for worsening symptoms such as actual syncope or increased chest discomfort, with instructions to seek prompt medical attention if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
+- **STS Score**: 0.443
+- **Model Used**: general
+- **Text1 Length**: 176 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

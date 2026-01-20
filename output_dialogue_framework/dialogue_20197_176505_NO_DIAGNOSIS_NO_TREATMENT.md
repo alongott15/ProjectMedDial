@@ -89,16 +89,21 @@ Let me know if you have any questions about what I’ve explained or if there’
 
 ## EHR Summary
 
-The patient is a 67-year-old male presenting with exertional angina. Over the month prior to admission, he experienced chest pressure during activities such as raking leaves or carrying groceries, but denied chest discomfort at rest; he also reported longstanding dyspnea. His history is significant for diabetes, hypertension, sleep apnea (on home oxygen), cataracts, diabetic retinopathy and neuropathy, and a long history of smoking. Medications include aspirin, Cardura, Monopril, Prilosec, Glucophage, Ultra Lente insulin, Humalog insulin, Atrovent inhaler, and albuterol. On stress testing, he exercised for five and a half minutes with symptoms of dyspnea and light fatigue; nuclear imaging showed inferoapical ischemia without prior myocardial infarction and an ejection fraction of 44%. Cardiac catheterization revealed three-vessel disease. The documented diagnosis was exertional angina due to coronary artery disease. The patient was treated medically and underwent further evaluation with cardiac catheterization.
+The patient is a 67-year-old male presenting with exertional angina. Over the month prior to admission, he experienced exertional chest pressure during activities such as raking leaves or carrying groceries, without chest discomfort at rest, and reported chronic dyspnea attributed to a long history of smoking. His medical history includes diabetes, diabetic retinopathy and neuropathy, hypertension, cataracts, and sleep apnea (requiring home oxygen), with no known drug allergies. Cardiac catheterization revealed three vessel coronary artery disease, and nuclear imaging showed inferoapical ischemia with an ejection fraction of 44%. The documented diagnosis was three vessel coronary artery disease with exertional angina. He underwent a four-vessel coronary artery bypass graft without complications and had an uneventful postoperative recovery. Discharge medications included ipratropium bromide, fixed dose and sliding scale insulin, metformin, aspirin, colace, potassium chloride, Lasix, metoprolol, albuterol, and Percocet as needed. The patient was discharged in stable condition with instructions to follow up with his cardiologist and primary care physician within four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure occurring during physical activity. Symptoms included a squeezing chest pressure rated 6/10 in severity, shortness of breath, increased fatigue during exertion, and oxygen saturation dropping into the low 90s and sometimes the 80s during physical therapy; symptoms have persisted for a couple of weeks, are triggered by activity, and resolve with rest. The patient denied associated sweating, nausea, or lightheadedness. Relevant history includes diabetes, hypertension, and sleep apnea; no prior heart or lung conditions were reported. No abnormal physical findings were described in the dialogue. The doctor assessed that the exertional chest pressure and breathlessness, along with low oxygen levels, could be related to underlying heart or lung issues such as angina or pulmonary problems, especially given the patient’s risk factors. The doctor recommended further evaluation with an EKG, blood tests, and possibly a chest X-ray or heart stress test. The patient was advised to avoid strenuous activity, monitor oxygen levels at home, and seek immediate care if symptoms worsen or occur at rest.
+The patient is an adult presenting with chest pressure during physical activity as the chief complaint. The chest pressure has been occurring for a couple of weeks, is described as a squeezing sensation rated 6/10 in severity, and is accompanied by exertional dyspnea and fatigue; symptoms resolve with rest and have not worsened over time. The patient reports oxygen saturation dropping into the low 90s and sometimes the 80s during physical therapy. There is no history of heart or lung disease, but relevant medical history includes diabetes, hypertension, and sleep apnea. The clinical impression is that the symptoms may be related to cardiac or pulmonary causes, such as angina or lung problems, given the exertional nature and associated hypoxemia. The treatment plan includes further evaluation with EKG, blood tests, and possibly chest X-ray or stress testing. The patient was advised to avoid strenuous activity, monitor oxygen levels at home, and seek immediate care if symptoms worsen or new severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.612
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ If your symptoms persist for more than a few days or get worse, it would be a go
 
 ## EHR Summary
 
-The patient is a 22-year-old male presenting with headache, low back pain, and jaw pain following a bicycle accident in which he struck a car and was thrown over it. His symptoms included a diffuse, constant headache rated 4–5/10 in intensity, mild neck and low back pain, and one episode of nausea with vomiting; the back pain improved with Tylenol. He denied loss of consciousness, confusion, amnesia, visual changes, focal numbness, or weakness. Relevant history includes a prior left wrist fracture, jaw dislocation, and an allergy to aspirin (facial swelling); he was not taking any medications. Physical examination revealed an abrasion over the sacrum and left lower flank but was otherwise unremarkable, with normal vital signs and a non-focal neurologic exam. The documented diagnosis was right temporal epidural bleed. The treatment plan is not specified in the note.
+The patient is a 22-year-old male presenting with headache, low back pain, and jaw pain following a bicycle accident in which he struck a car and was not wearing a helmet. His symptoms included a diffuse, constant headache rated 4–5/10 in intensity, mild neck pain, low back pain improving with Tylenol, and one episode of nausea with vomiting; there were no visual changes, focal neurological deficits, or loss of consciousness. Relevant history includes prior left wrist fracture, jaw dislocation, and an allergy to aspirin (facial swelling); he was not taking any medications at presentation. On examination, he was neurologically intact and hemodynamically stable, with only minor abrasions noted. Head CT revealed a small (0.5 cm) right inferior temporal epidural hematoma and an undisplaced right posterior occipital fracture. The documented diagnosis was right temporal epidural bleed. He was admitted for overnight observation in the ICU with hourly neurologic checks and received Tylenol and Zantac. The patient remained stable, was discharged home in good condition, and was advised to follow up in three weeks with repeat head CT prior to the appointment.
+
 
 ## Dialogue Summary
 
-The patient presented with headache and lower back pain following a recent bike accident. Symptoms included a steady headache that began immediately after the accident, lower back pain rated 6/10 that worsens with movement and improves with rest, jaw pain with mild discomfort while chewing, mild neck pain, nausea, and one episode of vomiting. The patient denied numbness, tingling, weakness in the legs, dizziness, or changes in bladder or bowel control. Relevant history includes an allergy to aspirin; no other medical history or medications were mentioned. On assessment, the doctor noted that the symptoms began immediately after the accident and have remained stable, with no neurological deficits or concerning changes in bladder/bowel function. The doctor’s impression was that the symptoms are most likely due to muscle strain or minor trauma, with possible mild concussion given the headache and vomiting. The doctor recommended rest, hydration, and over-the-counter acetaminophen for pain relief, and advised monitoring for any new or worsening symptoms such as increasing headache, repeated vomiting, confusion, weakness, or coordination problems. The patient was instructed to seek further evaluation if symptoms persist or worsen.
+The patient is an adult presenting with headache and lower back pain following a recent bike accident. The lower back pain is rated 6 out of 10 in severity, began immediately after the accident, is worsened by movement, and improves with rest; there is no associated numbness, tingling, weakness, or changes in bladder or bowel control. The headache also started immediately after the accident and has remained steady; the patient reports associated mild neck pain, jaw discomfort with chewing, nausea, and one episode of vomiting, but no dizziness. Relevant history includes an allergy to aspirin. The clinical impression is that symptoms are most likely due to muscle strain or minor trauma, with possible mild concussion considered due to the immediate onset of headache and vomiting. The treatment plan includes rest, hydration, and acetaminophen for pain relief, with instructions to monitor for worsening or new neurological symptoms and to seek further evaluation if symptoms persist or deteriorate.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.678
+- **Model Used**: general
+- **Text1 Length**: 180 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

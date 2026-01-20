@@ -89,16 +89,21 @@ Let me know if you have any questions or if there's anything else you'd like to 
 
 ## EHR Summary
 
-The patient is a 66-year-old male admitted for coronary artery bypass grafting (CABG) times three due to a history of chest pain and coronary artery disease. Postoperatively, he developed serosanguinous sternal drainage, which was managed with Keflex. His past medical history includes vertigo, claudication, peripheral vascular disease with prior bilateral iliac stents, and hypercholesterolemia. On discharge, his condition was stable with clear lungs and a clean, dry incision. The documented diagnosis was postoperative status following CABG complicated by sternal wound drainage. Treatment included aspirin, ranitidine, Lipitor, Keflex for 7 more days, Lopressor, and Percocet as needed. The patient was arranged to have home nursing care for wound care and vital sign monitoring, and follow-up was scheduled with his physician.
+The patient is a 66-year-old male admitted for coronary artery bypass grafting (CABG) due to a history of chest pain and peripheral vascular disease. He underwent CABG x3 with LIMA to LAD and saphenous vein grafts to OM and right posterior descending artery, with a preoperative ejection fraction of 50-55%. Postoperatively, he developed serosanguinous sternal drainage, which was treated with Keflex. His past medical history includes vertigo, claudication, status post bilateral iliac stents, and hypercholesterolemia. Upon discharge, his condition was stable, lungs were clear, and the incision was clean with no drainage. The documented diagnosis was postoperative recovery following CABG complicated by sternal wound drainage. Treatment included antibiotics (Keflex), aspirin, ranitidine, Lipitor, Lopressor, and Percocet as needed. He was arranged to have home nursing care for wound care and vital sign monitoring, with follow-up scheduled with his physician.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain described as a pressure sensation, primarily occurring during walking or physical activity. Associated symptoms included dizziness, sometimes described as vertigo, which has occurred alongside the chest pressure and has occasionally limited activity. The patient also reported cramping and heaviness in the legs with walking, especially over longer distances, requiring rest for relief; these leg symptoms have persisted for several years and may have worsened recently but resolve completely after a few minutes of rest. No additional medical history, medications, or allergies were mentioned. The doctor noted that the combination of chest pressure with activity, dizziness, and exertional leg cramping and heaviness suggests possible circulatory issues, specifically angina and claudication. The doctor advised the patient to monitor for worsening symptoms, such as chest pressure at rest, sweating, or shortness of breath, and to seek prompt medical attention if these occur. Recommendations included gentle activity within comfort level, staying hydrated, avoiding strenuous exertion, and discussing these symptoms with the patient's regular doctor for further evaluation of heart and circulation.
+The patient presents with chest pain as the chief complaint. The chest pain is described as a pressure sensation, not sharp, occurring primarily during physical activity and sometimes accompanied by dizziness (vertigo). The patient also reports cramping and heaviness in the legs with walking, which has been present for several years and is relieved completely by a few minutes of rest; these leg symptoms have slightly worsened over time and limit activity. There is no mention of relevant medical history, medications, or allergies. The clinician’s assessment links the symptoms to possible circulatory issues, specifically angina (chest pressure with activity) and claudication (leg cramping and heaviness with walking), likely due to arterial narrowing. The patient was advised to monitor for worsening symptoms (such as chest pressure at rest, sweating, or shortness of breath) and to seek prompt medical attention if these occur. Recommendations included gentle activity within comfort level, staying hydrated, avoiding strenuous exertion, and discussing further evaluation of heart and circulation with their regular doctor.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.927
-- **Similarity Label**: N/A
+- **STS Score**: 0.429
+- **Model Used**: general
+- **Text1 Length**: 138 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

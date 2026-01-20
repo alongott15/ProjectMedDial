@@ -87,16 +87,23 @@ It would be helpful to get a closer look at your circulation and heart function 
 
 ## EHR Summary
 
-The patient is a 72-year-old male presenting with exertional angina and known coronary artery disease (CAD). He reported the onset of exertional chest pain earlier in the year, with a positive exercise treadmill test for ischemia. His history includes prior inferior myocardial infarction, percutaneous transluminal coronary angioplasty, iron deficiency anemia, hypercholesterolemia, hypertension, diabetes mellitus, gastrointestinal bleed, colon polyps, erectile dysfunction, and implantable cardioverter-defibrillator placement; he is allergic to lisinopril. Cardiac catheterization revealed three-vessel disease with significant stenoses, leading to referral for surgical intervention. On admission, physical exam was notable for 1+ bilateral lower extremity edema with skin changes; on discharge, he was afebrile, hemodynamically stable, and had clean surgical sites. Laboratory results showed anemia (Hgb 8.6), elevated white blood cell count (16.4), and mild renal impairment (creatinine up to 1.6). The documented diagnosis was three-vessel coronary artery disease status post coronary artery bypass grafting (CABGx3). Treatment included CABGx3 (LIMA to LAD, SVG to diagonal and PDA), postoperative monitoring, and supportive care.
+The patient is a 72-year-old male presenting with exertional angina in the setting of known coronary artery disease (CAD). He reported the onset of exertional chest pain earlier in the year, with a positive exercise tolerance test for ischemia and cardiac catheterization revealing three-vessel disease. His past medical history includes prior myocardial infarction, percutaneous transluminal coronary angioplasty, iron deficiency anemia, hypercholesterolemia, hypertension, diabetes mellitus, gastrointestinal bleed, colon polyps, erectile dysfunction, and implantable cardioverter-defibrillator placement; he is allergic to lisinopril. On admission, physical exam was notable for bilateral lower extremity edema with skin changes; postoperatively, he had mild renal impairment and decreased urine output, which improved after transfusion. The documented diagnosis was coronary artery disease status post coronary artery bypass grafting (CABGx3). Treatment included CABGx3 (LIMA to LAD, SVG to diagonal and PDA), medication adjustments (including metoprolol, aspirin, atorvastatin, pantoprazole, iron supplementation), and device reprogramming. Discharge instructions emphasized incision care, activity restrictions, and monitoring for signs of fluid overload or infection. The patient was discharged in good condition to an extended care facility with scheduled follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain occurring during exertion, such as walking or climbing stairs, which requires stopping to catch their breath. The chest discomfort has persisted for several weeks, builds up gradually with activity, and resolves within minutes of rest; it is described as pressure or tightness, without radiation to the arm, neck, or jaw. The patient also reported bilateral leg swelling that worsens throughout the day, blotchy skin with red and brown spots, loss of hair growth on the legs, and swelling in both arms; these symptoms make daily activities more difficult. No nighttime shortness of breath or need for extra pillows was noted. The doctor observed exertional chest pressure and peripheral swelling with skin changes, suggesting possible circulatory inefficiency related to cardiac or venous causes. The absence of nocturnal symptoms was considered reassuring against advanced heart or lung disease. The doctor recommended leg elevation when sitting, maintaining gentle activity within comfort limits, and monitoring for new symptoms such as sudden shortness of breath, chest pain at rest, or rapid weight gain; further evaluation of circulation and heart function was advised. The patient acknowledged understanding and agreed to follow the recommendations.
+The patient presents with chest pain as the chief complaint, specifically described as chest pressure or tightness that occurs with exertion (such as walking or climbing stairs) and resolves with rest after a few minutes. Symptoms have been ongoing for several weeks and are accompanied by exertional dyspnea, bilateral leg swelling that worsens throughout the day, blotchy skin with red and brown spots, loss of hair growth on the legs, and swelling in both arms. The patient denies nocturnal dyspnea or orthopnea. There is no documented relevant medical history, medications, or allergies in the dialogue.
+
+The clinical impression is exertional chest pressure likely related to decreased cardiac oxygen supply during activity, with associated peripheral edema and circulatory changes possibly due to venous or cardiac dysfunction. The treatment plan includes recommendations for leg elevation when sitting, maintaining gentle activity within tolerance, and monitoring for new symptoms such as sudden shortness of breath, chest pain at rest, or rapid weight gain. The doctor also advised further evaluation of circulation and heart function with an exam and possible tests. The patient was instructed to report any worsening or new symptoms promptly.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.625
+- **Model Used**: general
+- **Text1 Length**: 176 words
+- **Text2 Length**: 188 words
+
 
 ## Processing Information
 

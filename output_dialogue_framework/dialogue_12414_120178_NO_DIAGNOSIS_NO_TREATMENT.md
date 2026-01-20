@@ -67,16 +67,21 @@
 
 ## EHR Summary
 
-The patient is a 60-year-old female presenting with bright red blood per rectum and coffee ground hematemesis. She reported episodes of tarry stools over the past two days, with associated hypotension (blood pressure 90–100/60 mmHg) and tachycardia (heart rate 101–103 bpm) on admission. Her past medical history is significant for congestive heart failure, coronary artery disease (status post CABG), diabetes mellitus with complications, hypertension, peripheral vascular disease, chronic renal insufficiency, and multiple prior surgeries including pacemaker and mitral valve replacement. On examination, her stool was dark and heme positive, and her hematocrit was found to be 16.6%. The clinical impression was gastrointestinal bleeding. Treatment included transfusion of two units of packed red blood cells, intravenous fluids, and placement of a left femoral central line. Further management details or specific recommendations were not documented in the provided note.
+The patient is a 60-year-old female presenting with bright red blood per rectum and coffee ground hematemesis. She experienced episodes of tarry stools over the past two days, with associated hypotension (blood pressure 100/60, later 90 systolic) and tachycardia (heart rate 101–103). On admission, her hematocrit was found to be 16.6, and stool was heme positive and dark. She has a significant medical history including congestive heart failure, coronary artery disease (status post CABG), diabetes with neuropathy and nephropathy, hypertension, peripheral vascular disease, chronic renal insufficiency, and prior mitral valve replacement. Her medications include anticoagulants (heparin, aspirin), diuretics, insulin, and others; she is allergic to morphine, Motrin, and codeine. The clinical impression is gastrointestinal bleeding with anemia. Treatment included transfusion of two units of packed red blood cells prior to admission, intravenous fluids for hypotension, and placement of a left femoral central line. She was also receiving ceftriaxone for pneumonia.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about noticing bright red blood during bowel movements. The bleeding started a few days ago and is described as a noticeable amount in the toilet bowl, not just on the toilet paper. The patient also reported a single episode of vomit that appeared like coffee grounds. They denied stomach pain, changes in appetite, lightheadedness, unusual fatigue, or weakness. No relevant medical history, medications, or allergies were mentioned. There were no physical findings described in the conversation. The doctor did not provide a specific assessment or working diagnosis during the dialogue. No treatment plan or recommendations were given in the portion of the conversation provided.
+The patient presents with the chief complaint of noticing bright red blood during bowel movements for the past few days. The bleeding is described as a noticeable amount in the toilet bowl rather than just on the toilet paper. The patient also reports a single episode of vomiting with coffee-ground appearance but denies abdominal pain, changes in appetite, lightheadedness, fatigue, or weakness. No relevant medical history, medications, or allergies are documented in this dialogue. There is no documented diagnosis or clinical impression provided by the physician in this exchange. No specific treatment or recommendations are mentioned in the conversation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.646
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 99 words
+
 
 ## Processing Information
 

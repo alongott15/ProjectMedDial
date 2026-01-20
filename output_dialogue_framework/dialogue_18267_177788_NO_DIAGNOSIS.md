@@ -89,16 +89,21 @@ Let me know if you have any questions or need help arranging follow-up care.
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with several days of progressive substernal chest pressure radiating to his left arm. The chest pain worsened over five days but responded to Pepcid and was not associated with exertion, shortness of breath, lightheadedness, dizziness, palpitations, nausea, or vomiting. His past medical history includes coronary artery disease status post right coronary artery stent in 2121, type 2 diabetes mellitus on oral hypoglycemics, and hypercholesterolemia. On admission, blood pressure was 150/90 mmHg and heart rate was in the 60s; EKG showed ST elevations in V1–V4 and inferior reciprocal changes. Cardiac catheterization revealed a 100% ostial lesion of the left anterior descending artery. The documented diagnosis was acute coronary syndrome with anterior ST elevation myocardial infarction. Treatment included placement of two Taxus stents in the LAD, initiation of heparin, aspirin, Tirofiban, and Lopressor, and transfer to the Coronary Care Unit for further management.
+The patient is a 61-year-old male presenting with several days of progressive substernal chest pressure radiating to his left arm. The chest pain worsened over five days but responded to Pepcid, with no associated shortness of breath, palpitations, or gastrointestinal symptoms. His past medical history includes coronary artery disease status post right coronary artery stent (2121), type 2 diabetes mellitus, and hypercholesterolemia; he has no known drug allergies. On admission, EKG showed anterior ST elevations and inferior ST depressions, and cardiac catheterization revealed a 100% ostial left anterior descending lesion. The documented diagnoses were myocardial infarction status post PTCA/stent to the left anterior descending artery, diabetes mellitus type 2, and hypercholesterolemia. Treatment included placement of two Taxus stents, initiation of dual antiplatelet therapy (aspirin and Plavix), atorvastatin, ACE inhibitor, beta blocker (metoprolol XL), anticoagulation with Coumadin and enoxaparin, and continuation of diabetes medications. The patient was discharged chest pain free with instructions for outpatient follow-up with cardiology, echocardiography, and primary care for INR monitoring and medication adjustment.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure that has been worsening over the past few days. The pressure is rated as 6 out of 10 in intensity, lasts five to ten minutes per episode, occurs mainly with activity such as walking or chores, and improves with rest; it sometimes radiates down the left arm and can "stutter" or come and go. The patient denied associated symptoms such as sweating, lightheadedness, or shortness of breath, and reported no episodes at night. Relevant history includes coronary artery disease with prior stent placement, diabetes, and high cholesterol. The patient described increased difficulty performing daily activities due to the chest pressure. On assessment, the doctor noted that the symptom pattern and cardiac history are concerning for possible reduced blood flow to the heart muscle (ischemia). The doctor recommended prompt medical evaluation today, including an EKG and possible further testing, advised avoiding strenuous activity and resting until seen, and instructed the patient to seek emergency care if symptoms worsen or new symptoms develop.
+The patient is an adult with a history of coronary artery disease (status post stent placement), diabetes, and high cholesterol presenting with chest pressure as the chief complaint. The chest pressure is described as moderate in intensity (6/10), worsens with activity, radiates to the left arm, lasts 5–10 minutes per episode, and improves with rest; there are no associated symptoms such as sweating, lightheadedness, or shortness of breath. Symptoms have been present for a few days and are increasing in frequency, now interfering with daily activities. Relevant medical history includes coronary artery disease, diabetes, and hyperlipidemia. The clinical impression is that the symptoms are concerning for possible cardiac ischemia due to reduced blood flow to the heart muscle. The doctor recommended prompt medical evaluation today, including an EKG and possible further cardiac testing. The patient was advised to avoid strenuous activity and rest until evaluated, and to seek emergency care if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
+- **STS Score**: 0.706
+- **Model Used**: general
+- **Text1 Length**: 167 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

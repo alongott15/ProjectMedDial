@@ -87,16 +87,21 @@ Does this explanation make sense, or is there anything else about your symptoms 
 
 ## EHR Summary
 
-The patient is a 73-year-old female presenting preoperatively for elective mitral valve replacement and coronary artery bypass graft surgery. She reported recurrent episodes of congestive heart failure and chest pain prior to admission. Her medical history includes noninsulin dependent diabetes mellitus and hypertension, and she is allergic to penicillin. On admission, physical examination was unremarkable with no acute distress, clear lungs, regular heart rhythm, and no jugular venous distension. The patient underwent coronary artery bypass grafting (two vessels) and a 25.0 mm cuff mitral valve replacement. Postoperatively, she required mechanical ventilation and Levophed for hypotension but was successfully weaned and extubated on postoperative day one. The documented diagnoses were congestive heart failure and coronary artery disease requiring surgical intervention. Treatment included surgical procedures, perioperative critical care, and ongoing management of hypotension.
+The patient is a 73-year-old female presenting preoperatively for elective mitral valve replacement and coronary artery bypass graft surgery due to recurrent episodes of congestive heart failure and chest pain. She reported no acute distress on admission, with stable vital signs and unremarkable physical examination findings. Her past medical history includes noninsulin dependent diabetes mellitus and hypertension, and she is allergic to penicillin. During her hospital course, she underwent successful mitral valve replacement and two-vessel coronary artery bypass grafting, but developed postoperative atrial fibrillation that was initially resistant to multiple pharmacologic interventions. The documented diagnoses were mitral regurgitation, coronary artery disease, status post coronary artery bypass graft times two, status post mitral valve replacement, and postoperative atrial fibrillation. She was treated with intravenous and oral amiodarone, anticoagulation with heparin and Coumadin, rate control agents (Lopressor, Diltiazem), and her chronic medications for diabetes and hypertension were continued. At discharge, she remained hemodynamically stable in atrial fibrillation, anticoagulated, and was transferred to a rehabilitation facility with instructions for follow-up with cardiology and surgical teams.
+
 
 ## Dialogue Summary
 
-The patient presented with a request for preoperative evaluation, reporting increased frequency of central chest pain and associated anxiety. The chest pain was described as moderate in intensity, primarily central without radiation, occurring both with activity and at rest, and persisting for several weeks with recent worsening. Additional symptoms included episodes of congestive heart failure with increased shortness of breath and fatigue, more frequent episodes of atrial fibrillation associated with worsened chest discomfort and weakness, and decreased urine output; the patient denied leg swelling or fainting. Relevant history includes congestive heart failure and atrial fibrillation; no medications or allergies were mentioned. On review, the doctor noted the combination of chest discomfort, increased atrial fibrillation episodes, and reduced urine output as significant findings. The assessment was that these symptoms may indicate less stable heart function, consistent with the patient’s history of congestive heart failure. The doctor recommended informing the surgical and cardiology teams about these changes, suggested possible review of heart rhythm and medications, and advised monitoring for worsening symptoms such as increased shortness of breath, swelling, or severe/prolonged chest pain. The patient understood and agreed to communicate these changes to their care teams.
+The patient is presenting for a preoperative evaluation with the chief complaint of increased chest discomfort. The chest pain is described as moderate, central, and sometimes triggered by activity but also occurring at rest, with a duration of several weeks and increasing frequency. The patient reports associated symptoms of worsening episodes of atrial fibrillation, weakness, reduced urine output, and a history of congestive heart failure, but denies leg swelling or syncope. The clinical impression is that these symptoms may indicate less stable heart function, consistent with congestive heart failure. The physician advised notifying the surgical and cardiology teams about the recent changes, suggested possible review of medications and further cardiac evaluation prior to surgery, and recommended monitoring for worsening symptoms such as increased dyspnea, swelling, or severe chest pain. No new medications or interventions were initiated during this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.619
+- **Model Used**: general
+- **Text1 Length**: 172 words
+- **Text2 Length**: 139 words
+
 
 ## Processing Information
 

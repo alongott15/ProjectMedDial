@@ -89,16 +89,23 @@ Let me know if you have any questions about what we’ve discussed or if there�
 
 ## EHR Summary
 
-The patient is a 34-year-old male presenting with acute epigastric pain, nausea, vomiting, and inability to tolerate oral intake. Symptoms began one day prior to admission and are associated with thirst, sweats, chills, and shortness of breath, but no chest pain or gastrointestinal bleeding. He has a history of multiple episodes of pancreatitis attributed to alcohol abuse, hypertension, and seizures following a motor vehicle accident. On admission, he appeared acutely ill, diaphoretic, vomiting, and tremulous, with vital signs notable for blood pressure of 160/100 and heart rate of 92. The documented diagnosis was acute pancreatitis. Medications on admission included Advil and Tylenol as needed. No known drug allergies were reported. The treatment plan is not specified in the note.
+The patient is a 34-year-old man presenting with acute epigastric pain, nausea, vomiting, and inability to tolerate oral intake for one day. Additional symptoms included thirst, sweats, chills, shortness of breath, and tremulousness, with a recent history of increased alcohol consumption. His past medical history is significant for multiple episodes of pancreatitis (attributed to alcohol abuse), hypertension, and a history of seizures after a motor vehicle accident; he has no known drug allergies. On admission, he was found to have acute pancreatitis confirmed by abdominal ultrasound, and was also in alcohol withdrawal. Treatment included making the patient NPO, aggressive intravenous fluid rehydration, electrolyte monitoring and repletion, intravenous Dilaudid for pain, Zofran for nausea, and antibiotics (Unasyn) when necrotic pancreatitis was suspected. Alcohol withdrawal was managed with benzodiazepines (Valium and Ativan as needed) based on CIWA scale monitoring. The patient’s diet was gradually advanced from NPO to clear liquids as symptoms improved. Social work consultation was provided for alcohol abuse and depression, and the patient was given contacts for detoxification and community support.
+
 
 ## Dialogue Summary
 
-The patient presented with upper abdominal pain as the chief complaint. The pain is located in the mid-upper abdomen above the belly button, described as a dull ache that sometimes becomes sharper, rated 7 out of 10 in severity, and has been constant for a couple of days. Associated symptoms include nausea, reduced appetite, vomiting, chills, and a possible fever; eating or drinking worsens the discomfort, and no changes in bowel movements were reported. No relevant medical history, medications, or allergies were mentioned. The doctor noted the constellation of persistent upper abdominal pain, nausea, vomiting, chills, and possible fever without bowel changes. The assessment included possible gastritis, ulcer, or viral infection, with attention to hydration status and monitoring for more serious conditions. The doctor advised sipping small amounts of clear fluids and avoiding solid foods until nausea improves, and instructed the patient to seek urgent care if unable to keep fluids down, if fever persists or worsens, or if new symptoms such as severe tenderness, jaundice, or confusion develop.
+The patient is an adult presenting with upper abdominal pain as the chief complaint. The pain is located in the mid-epigastric region above the belly button, is mostly constant, rated 7 out of 10 in severity, and is described as a dull ache with occasional sharpness. Associated symptoms include nausea, vomiting, decreased appetite, chills, and a possible fever, with no changes in bowel movements. Eating or drinking worsens the discomfort, and no alleviating factors have been identified. Relevant medical history, medications, and allergies are not specified.
+
+The clinical impression discussed includes possible gastritis, peptic ulcer disease, or viral infection, with attention to ruling out more serious causes. The treatment plan focuses on maintaining hydration by sipping clear fluids and avoiding solid foods until nausea improves. The patient was advised to seek immediate care if unable to keep fluids down, if fever persists or worsens, or if new symptoms such as severe tenderness, jaundice, or confusion develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.512
+- **Model Used**: general
+- **Text1 Length**: 172 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

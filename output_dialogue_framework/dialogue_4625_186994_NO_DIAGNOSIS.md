@@ -87,16 +87,21 @@ Would you like some tips on managing energy or weight in the meantime, or do you
 
 ## EHR Summary
 
-The patient is a 66-year-old male presenting with increased fatigue over the past two years. He also reported weight gain during this period. His medical history is significant for cardiomyopathy, ascending aortic aneurysm, coronary artery disease, prior LAD stent placement, acute myocardial infarction, hypertension, elevated cholesterol, and atrial fibrillation status post cardioversion. Physical exam on admission was notable for a protuberant but non-tender abdomen and an oxygen saturation of 93% on room air; laboratory results showed mild anemia and elevated creatinine and BUN. Imaging revealed progressive enlargement of the ascending aorta to 5.7 cm at the level of the coronary ostia. The documented diagnosis was ascending aortic aneurysm with underlying cardiomyopathy and coronary artery disease. The patient underwent a Bentall procedure for surgical repair of the aorta. Postoperative management and follow-up were provided by the cardiothoracic service.
+The patient is a 66-year-old male presenting with increased fatigue over the past two years. He also reported weight gain and has a history of cardiomyopathy, hypertension, coronary artery disease with prior LAD stent, atrial fibrillation, and an ascending aortic aneurysm that enlarged from 4.0 to 5.7 cm. He is allergic to Tylenol. The documented diagnosis was status post Bentall procedure for ascending aortic aneurysm, with comorbidities including CAD, obesity, prior AMI, elevated cholesterol, hypertension, cardiomyopathy, and atrial fibrillation. During hospitalization, he underwent a Bentall procedure, required anticoagulation management (heparin bridge and coumadin), and developed postoperative atrial fibrillation managed with beta-blockers, diltiazem, and amiodarone. He also experienced transient renal dysfunction and fluid overload, treated with diuretics and natrecor. At discharge, he was stable and transferred to extended care with instructions for wound care, activity restrictions, and follow-up for INR monitoring and surgical review.
+
 
 ## Dialogue Summary
 
-The patient presented with increased tiredness and gradual weight gain. Fatigue has persisted for about two years, is not improved by sleep, and has made daily tasks more difficult; the patient also reported intermittent wheezing on exhalation but denied shortness of breath, feeling colder than usual, constipation, mood changes, or sleep disturbances. No relevant medical history, medications, or allergies were mentioned. On review, the doctor noted the main concerns as persistent fatigue, gradual weight gain, and intermittent wheezing. The assessment included possible causes such as changes in activity level, diet, age-related metabolic shifts, low thyroid function, or mild airway sensitivity. The doctor recommended basic blood tests (including thyroid function) and further review of lung health, advised the patient to monitor for new symptoms such as leg swelling, chest discomfort, or worsening shortness of breath, and offered tips for managing energy and weight while awaiting further evaluation. The patient acknowledged understanding and agreed to monitor for additional symptoms.
+The patient is an adult presenting with the chief complaint of persistent fatigue. The fatigue has been ongoing for approximately two years, is not relieved by sleep, and has gradually worsened, making daily activities more difficult. The patient also reports gradual weight gain over the same period and intermittent wheezing on exhalation, but denies shortness of breath, cold intolerance, constipation, or mood changes. There is no mention of relevant past medical history, medications, or allergies. The clinical impression is that the symptoms may be related to changes in activity, diet, age-related metabolism, low thyroid function, or mild airway sensitivity, but no definitive diagnosis is documented. The treatment plan includes ordering basic blood tests (such as thyroid function tests) and further review of lung health. The patient was advised to monitor for new symptoms such as leg swelling, chest discomfort, or worsening shortness of breath, and was offered tips for managing energy and weight in the interim.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.430
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

@@ -89,16 +89,21 @@ Does that make sense? Is there anything else about your symptoms or history youâ
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with exertional chest heaviness and arm pain experienced over two months, particularly during physical activity such as remodeling his kitchen. He also reported episodes of paroxysmal nocturnal dyspnea, dyspnea on exertion, episodic light-headedness, claudication, edema, and right lower back pain. His past medical history is significant for chronic obstructive pulmonary disease, noninsulin dependent diabetes mellitus, hypertension, hyperlipidemia, transient ischemic attack, chronic back pain, and prior pneumonia. On physical examination, his lungs were clear, heart rate was regular with a II/VI systolic ejection murmur, and there was no peripheral edema. A stress test revealed electrocardiographic changes and an anterior wall defect. The patient was admitted for cardiac catheterization. Medications on admission included aspirin, Norvasc, Cartia, Glucotrol, Lescol, Celebrex, Neurontin, quinine, Nexium, Duragesic patch, nitroglycerin patch, hydrocodone as needed, and inhalers (albuterol and Pulmicort).
+The patient is a 58-year-old male presenting with two months of exertional chest heaviness and arm pain, as well as episodes of paroxysmal nocturnal dyspnea, dyspnea on exertion, light-headedness, claudication, and edema. Symptoms were noted during physical activity, specifically while remodeling his kitchen, and he also reported right lower back pain. His past medical history includes chronic obstructive pulmonary disease, noninsulin dependent diabetes mellitus, hypertension, hyperlipidemia, chronic back pain, and a prior transient ischemic attack. Cardiac catheterization revealed multivessel coronary artery disease. The documented diagnosis was multivessel coronary artery disease requiring surgical intervention. He underwent a five-vessel coronary artery bypass graft (CABG) and had an uncomplicated postoperative course with gradual improvement and physical therapy. Discharge medications included Lasix, Isosorbide Dinitrate, Lopressor, aspirin, and other supportive therapies. The patient was discharged home in stable condition with instructions for follow-up care.
+
 
 ## Dialogue Summary
 
-The patient presented with a heavy feeling in the chest during exertion. Symptoms included chest heaviness triggered by activity such as walking up stairs or carrying groceries, moderate intensity requiring cessation of activity, arm discomfort consistently affecting the same arm, shortness of breath during activity and at night, occasional lightheadedness, and tired legs described as almost claudication. The patient reported a history of high blood pressure, diabetes, high cholesterol, edema, and some drainage from an incision. Physical findings were limited to patient-reported symptoms; no additional examination findings were described. The doctor assessed that the symptoms were consistent with angina, likely related to reduced blood flow to the heart during exertion, especially given the patient's cardiovascular risk factors. The doctor advised avoiding strenuous activity and recommended prompt follow-up with a cardiologist or primary care provider for further evaluation, including possible EKG or stress testing. The patient was instructed to seek immediate medical attention if symptoms worsen or occur at rest, or if severe shortness of breath, fainting, or sweating develops.
+The patient is an adult presenting with chest heaviness on exertion as the chief complaint. Symptoms include moderate chest discomfort and arm pain triggered by physical activity (such as walking up stairs or carrying groceries), associated with shortness of breath, occasional lightheadedness, and leg fatigue resembling claudication; these symptoms have gradually worsened over the past few weeks and typically resolve with rest. The patient reports a history of hypertension, diabetes, hyperlipidemia, edema, and some drainage from an incision. The clinical impression documented by the doctor is angina, likely due to reduced blood flow to the heart during exertion, given the patient's risk factors and symptom pattern. The patient was advised to avoid strenuous activity and to seek prompt evaluation by a cardiologist or primary care provider for further testing, such as an EKG or stress test. The doctor also emphasized the importance of seeking immediate medical attention if symptoms occur at rest or are accompanied by severe shortness of breath, fainting, or sweating. No new medications or interventions were started at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.972
-- **Similarity Label**: N/A
+- **STS Score**: 0.601
+- **Model Used**: general
+- **Text1 Length**: 139 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

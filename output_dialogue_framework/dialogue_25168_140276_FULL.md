@@ -99,16 +99,21 @@ Would you like me to describe a couple of simple stretches you can do safely at 
 
 ## EHR Summary
 
-The patient is an 82-year-old woman presenting after being found on the floor of her apartment, with no memory of the fall or subsequent events. She was noted to be dazed but conscious, with a history of progressive dementia, hypertension, atrial fibrillation, prior cerebrovascular accident, and status post nephrectomy. Prior to admission, she complained only of fatigue and had no headache or neck stiffness. On physical examination, she had a large hematoma on the left side of her face, was awake and alert but disoriented to year, with intact cranial nerves and no facial droop; motor and sensory exams were largely unremarkable except for slightly hyperreflexic reflexes. The documented diagnosis was subarachnoid hemorrhage while on Coumadin. Her home medications included Coumadin, Plendil, Lopressor, Lasix, and Zoloft. The treatment plan is not specified in the note.
+The patient is an 82-year-old woman presenting after being found on the floor of her apartment, with no memory of the fall or subsequent events. She was noted to be dazed but conscious on admission, with a large left facial hematoma and baseline progressive dementia; there was no headache or neck stiffness, and family reported only recent fatigue. Her past medical history includes hypertension, atrial fibrillation, prior cerebrovascular accident, and nephrectomy, and she was taking Coumadin, Plendil, Lopressor, Lasix, and Zoloft. Imaging revealed a subarachnoid hemorrhage and cerebellar infarct, and she was also found to have a urinary tract infection. The documented diagnoses were subarachnoid hemorrhage and cerebellar infarct, with subsequent neurological decline including lethargy and lack of eye opening or command following. Treatment included transfusion with fresh frozen plasma to correct INR, placement of a ventricular drain for enlarged ventricles, and later PEG tube placement for nutrition. The patient remained afebrile with stable vital signs and was discharged in stable condition to rehabilitation, with follow-up arranged in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with bilateral shoulder pain as the chief complaint. They reported constant aching pain in both shoulders for at least several days, rating the right shoulder pain as 6/10 and the left as 5/10, with the right side also experiencing noticeable weakness, especially during reaching or lifting movements; resting did not improve the weakness. No numbness, tingling, or changes in sensation were noted, and the left shoulder had normal strength despite aching. No relevant medical history, medications, or allergies were mentioned during the visit. On clinical assessment, the doctor noted constant aching in both shoulders and isolated weakness in the right arm without sensory changes. The doctor’s assessment was that the symptoms were most consistent with a musculoskeletal issue such as shoulder strain or arthritis, with the right-sided weakness warranting monitoring but no immediate signs of a neurological cause. The treatment plan included gentle range-of-motion exercises, use of warm compresses, avoidance of heavy lifting or repetitive reaching, and instructions to seek prompt medical attention if new symptoms such as sudden weakness, speech changes, or balance problems develop; otherwise, gradual improvement is expected, and follow-up is advised if symptoms persist or worsen. The patient requested advice on stretches and agreed to monitor for any changes.
+The patient is an adult presenting with bilateral shoulder pain as the chief complaint. The pain has been present for at least several days, is described as a constant aching (right shoulder pain rated 6/10, left 5/10), and is accompanied by right-sided arm weakness that is aggravated by movement and not relieved by rest. There is no reported numbness, tingling, or sensory changes, and the left arm has normal strength. Relevant history regarding prior medical conditions, medications, or allergies was not specified. The clinical impression is that the symptoms are most consistent with a musculoskeletal issue such as shoulder strain or arthritis, with the right-sided weakness warranting monitoring. The treatment plan includes conservative management: gentle range-of-motion exercises, warm compresses, avoidance of heavy lifting or repetitive reaching, and instructions to seek prompt medical attention if new neurological symptoms develop. The patient was also offered advice on safe stretches to perform at home.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.920
-- **Similarity Label**: N/A
+- **STS Score**: 0.330
+- **Model Used**: general
+- **Text1 Length**: 170 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

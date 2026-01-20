@@ -87,16 +87,23 @@ Let me know if you have any questions about what weâ€™ve discussed or if thereâ€
 
 ## EHR Summary
 
-The patient is a 73-year-old male presenting with worsening shortness of breath and dyspnea on exertion. Symptoms developed over several days while at home, leading to presentation at the emergency room where he was found to be in congestive heart failure and sinus bradycardia. His past medical history includes hypertension, atrial fibrillation, hypercholesterolemia, and a recent inferior wall myocardial infarction. On admission, his INR was elevated at 6.99 and creatinine was 1.4 (baseline 1.1); he was ruled out for new myocardial infarction by enzymes. The documented diagnosis was congestive heart failure in the setting of three-vessel coronary artery disease. Treatment included diuresis, holding of amiodarone, atenolol, and Coumadin, and administration of atropine for bradycardia. The patient was stabilized and subsequently underwent coronary artery bypass grafting (CABG x5) during hospitalization.
+The patient is a 73-year-old man presenting with worsening shortness of breath and dyspnea on exertion. His symptoms progressed over several days, leading to a diagnosis of congestive heart failure and sinus bradycardia, for which he required diuresis and atropine. Relevant history includes hypertension, atrial fibrillation, hypercholesterolemia, and a recent inferior wall myocardial infarction; he has no known drug allergies. The documented diagnoses were coronary artery disease, atrial fibrillation, hypercholesterolemia, and hypertension. During hospitalization, he underwent coronary artery bypass grafting (CABG x5) and later required permanent pacemaker placement due to tachybrady syndrome and persistent arrhythmias. Postoperative care included transfusions, diuretics, amiodarone, captopril, and anticoagulation management with Coumadin. At discharge, he was stable with instructions for medication adjustments and follow-up with cardiology and surgical clinics.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening shortness of breath, primarily during physical activity. Symptoms included increased breathlessness when walking or doing chores, occasional need to stop and rest due to elevated heart rate, mild discomfort manageable at times, and decreased breath sounds at the bases of the lungs; lying down did not worsen symptoms, and there was no cough, chest pain, swelling in the legs, wheezing, or noisy breathing. The patient reported these symptoms had gradually worsened over several days and noted mild confusion and variable heart rate during activity. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted decreased breath sounds at the lung bases as described by the patient, with no signs of acute distress. The doctor assessed that the pattern of exertional dyspnea without other acute symptoms could be related to changes in heart or lung function, possibly mild fluid buildup or airflow limitation at the lung bases. The doctor recommended limiting physical exertion until further evaluation, advised monitoring for new symptoms such as chest discomfort, severe resting dyspnea, or leg swelling, and suggested further assessment with physical exam and chest x-ray if symptoms persist or worsen. The patient was encouraged to report any worsening confusion or significant changes in heart rate.
+The patient presents with the chief complaint of increased shortness of breath, primarily during physical activity. Symptoms include exertional dyspnea that has gradually worsened over several days, requiring the patient to slow down or stop during activities, but with no associated cough, chest pain, leg swelling, or noisy breathing; lying down does not worsen symptoms. The patient also reports decreased breath sounds at the lung bases and mild confusion, with occasional fluctuations in heart rate during activity. Relevant medical history, medications, and allergies are not specified in the dialogue.
+
+The clinical impression discussed includes possible mild fluid buildup in the lungs, changes in heart efficiency, or lung conditions affecting airflow at the bases, but no definitive diagnosis is documented. The doctor recommends avoiding strenuous activity until further evaluation and advises seeking prompt care if new symptoms such as sudden chest discomfort, severe dyspnea at rest, or leg swelling develop. Further assessment with a physical exam and possibly a chest x-ray is suggested.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.470
+- **Model Used**: general
+- **Text1 Length**: 124 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

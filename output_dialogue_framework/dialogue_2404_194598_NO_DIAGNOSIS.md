@@ -85,16 +85,21 @@ In the meantime, try to rest and avoid strenuous activity. If you have any histo
 
 ## EHR Summary
 
-The patient is a 51-year-old male presenting with shoulder pain. He reported left shoulder pain, extreme fatigue, nausea, diaphoresis, and increased pain intensity after playing ice hockey, with symptoms not relieved by rest and worsening while driving home. His past medical history includes coronary artery disease (CAD), hypertension, prior anterior STEMI status post stent placement, and syncope; he had discontinued all cardiac medications two years prior. On examination, he was comfortable and in no acute distress, with stable vital signs and unremarkable physical findings. EKG in the emergency department showed 4mm ST elevation in V5-V6 and 2mm ST elevation in II, III, and aVF. The documented diagnosis was acute coronary syndrome due to a 70% ulcerated proximal stenosis of the left circumflex artery (LCX). Treatment included aspirin, clopidogrel, metoprolol, heparin, lidocaine, sublingual nitroglycerin, morphine, and cardiac catheterization with drug-eluting stent placement.
+The patient is a 51-year-old male presenting with shoulder pain. He experienced constant, non-radiating right shoulder pain of severe intensity (8/10), extreme fatigue, nausea, and diaphoresis while playing ice hockey, with symptoms not relieved by rest and worsening during his drive home. His past medical history includes coronary artery disease (CAD), hypertension, prior anterior STEMI with stent placement, and syncope; he had stopped all cardiac medications two years prior. On admission, EKG showed ST elevations and echocardiography revealed an ejection fraction of 40% with regional wall motion abnormalities. The documented diagnoses were coronary artery disease and myocardial infarction. He underwent cardiac catheterization with drug-eluting stent placement to the left circumflex artery and was managed with aspirin, clopidogrel, beta blocker, statin, nitroglycerin, and valsartan. The patient was discharged in stable condition with instructions to resume medical therapy, follow up with cardiology, and undergo further cardiac testing.
+
 
 ## Dialogue Summary
 
-The patient presented with shoulder pain that has been uncomfortable for the past couple of days. The pain is described as a dull ache, rated 6 out of 10 in severity, spread across the whole shoulder area, and not worsened by movement or lifting. Additional symptoms include sudden onset tiredness, nausea, and sweating; no swelling, redness, or warmth were noted. The patient reported a history of heart problems and high blood pressure. On examination, no localized physical findings were described by the patient. The doctor assessed that while the symptoms could be due to muscle strain or a viral illness, the combination of pain, fatigue, nausea, and sweating—especially with a cardiac history—raises concern for possible heart-related issues. The doctor recommended prompt medical evaluation to rule out underlying heart concerns and advised seeking emergency care if chest pain, shortness of breath, or worsening symptoms occur. Rest and avoidance of strenuous activity were also advised.
+The patient is an adult presenting with shoulder pain as the chief complaint. The discomfort began approximately two days ago, is described as a dull, widespread ache rated 6 out of 10, and is not worsened by movement or activity. Associated symptoms include sudden-onset fatigue, nausea, and sweating, with no swelling, redness, or warmth noted. The patient also reports a history of heart problems and high blood pressure. The clinical impression was that while the symptoms could be due to muscle strain or a viral illness, the combination of pain, fatigue, nausea, and sweating raises concern for a possible heart-related issue. The doctor advised prompt medical evaluation to rule out cardiac causes and emphasized seeking emergency care if chest pain, dyspnea, or worsening symptoms develop. The patient was also instructed to rest and avoid strenuous activity in the interim.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.655
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 139 words
+
 
 ## Processing Information
 

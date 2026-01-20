@@ -87,16 +87,21 @@ Let me know if you have any questions about this or if there’s anything else y
 
 ## EHR Summary
 
-The patient is a 68-year-old male presenting with progressive anginal symptoms and abnormal exercise treadmill test. He reported intermittent left arm pain and chest tingling, with symptoms worsening over time. His medical history includes hypertension, hypercholesterolemia, angina, and gout; he has no known drug allergies and was taking aspirin, Lopid, Timolol, Dyazide, Imdur, colchicine, and Indocin on admission. On physical examination, he was afebrile with stable vital signs, clear lungs, and a regular heart rhythm without murmurs. Cardiac catheterization revealed multivessel coronary artery disease. The documented diagnosis was multivessel coronary artery disease. He was referred to Cardiothoracic Surgery for evaluation for coronary artery bypass grafting.
+The patient is a 68-year-old male presenting with progressive anginal symptoms and abnormal exercise treadmill test. He reported intermittent left arm pain and chest tingling, and was found to have a positive stress test prior to admission. His medical history includes hypertension, hypercholesterolemia, angina, and gout; he has no known drug allergies. Cardiac catheterization revealed multivessel coronary artery disease. The documented diagnoses were coronary artery disease, status post coronary artery bypass graft (CABG), angina, hypertension, high cholesterol, and gout. He underwent a three-vessel CABG and had an uncomplicated postoperative course, with management of gout and diuresis as needed. Discharge medications included Lopressor, potassium chloride, indomethacin, colchicine, gemfibrozil, Percocet, Colace, aspirin, Zantac, and Lasix. The patient was discharged home in stable condition with instructions for follow-up with his primary care physician and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort described as tingling or tightness, which has been worsening over the past couple of weeks. Symptoms occur most days, especially during physical activity, and are accompanied by intermittent left arm pain; the chest discomfort is rated at 6/10 intensity and the arm pain at 4–5/10, both increasing in severity recently. The discomfort typically lasts a few minutes and resolves with rest, without lingering sensations; no shortness of breath, sweating, or lightheadedness were reported. The symptoms have begun to interfere with daily activities such as walking and chores. No relevant medical history, medications, or allergies were mentioned. The doctor assessed that the pattern of exertional chest discomfort and arm pain is suggestive of angina, noting the absence of other concerning symptoms but emphasizing the progression and impact on daily life. The doctor advised the patient to avoid strenuous activity, contact their primary care provider for further evaluation (including possible EKG or stress testing), and seek prompt medical attention if symptoms worsen or new symptoms develop.
+The patient is an adult presenting with chest discomfort as the chief complaint. The chest discomfort is described as tingling or tightness, has been worsening over the past couple of weeks, and occurs most days, especially with physical activity; it is rated at a severity of 6/10 and is sometimes accompanied by left arm pain (rated 4–5/10). Symptoms typically last a few minutes, resolve with rest, and do not occur with eating, cold weather, or stress; there are no associated symptoms such as dyspnea, sweating, or lightheadedness. The discomfort has begun to interfere with daily activities like walking and chores. The clinical impression documented by the doctor is possible angina, given the exertional nature and progression of symptoms. The patient was advised to avoid strenuous activity and to seek further evaluation with their primary care provider, including possible cardiac testing (e.g., EKG or stress test). Additional instructions included seeking prompt medical attention if symptoms worsen, last longer than usual, occur at rest, or are accompanied by new symptoms such as severe pain, fainting, or difficulty breathing. No medications or allergies were discussed in this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.562
+- **Model Used**: general
+- **Text1 Length**: 132 words
+- **Text2 Length**: 185 words
+
 
 ## Processing Information
 

@@ -89,16 +89,23 @@ How much does this issue affect your day-to-day routine or your baby's ability t
 
 ## EHR Summary
 
-The patient is a newborn female admitted on the day of birth for evaluation and management of a prenatal diagnosis of Dandy Walker variant. She was delivered at 36 and 6/7 weeks gestation by cesarean section due to prior cesarean and uterine anomaly, with Apgar scores of 7 and 8 at one and five minutes. Prenatal imaging revealed posterior fossa enlargement, fourth ventricle dilatation, absent corpus callosum, vermian hypoplasia, colpocephaly, and general growth restriction. Relevant maternal history includes thalassemia trait and uterine didelphys. On physical exam, the infant was active and alert with measurements at the 10th to 25th percentiles, a box-shaped head, flat nose, high arched palate, and low set ears. The documented diagnosis was Dandy Walker variant with associated brain anomalies and growth restriction. The treatment plan included admission to the Intensive Care Nursery for further evaluation and management.
+The patient is a newborn female delivered at 36 and 6/7 weeks gestation, admitted for evaluation and management of a prenatal diagnosis of Dandy Walker variant. Key symptoms included initial nasal congestion with mouth breathing and feeding discoordination, mild indirect hyperbilirubinemia, and dysmorphic features such as low set ears and high palate. Relevant history includes prenatal findings of posterior fossa enlargement, fourth ventricle dilatation, agenesis of the corpus callosum, and cerebellar hypoplasia, with a maternal history notable for thalassemia trait and uterine didelphys. The documented diagnoses were appropriate gestational age, mildly premature female, agenesis of corpus callosum, cerebellar hypoplasia, dysmorphic features, and indirect hyperbilirubinemia; Aicardi syndrome was ruled out. Treatment included phototherapy for hyperbilirubinemia (discontinued prior to discharge), Neo-Synephrine for nasal congestion, and supportive care with Enfamil 20 formula ad lib. The infant passed hearing screening, had normal eye and renal exams, and received a hepatitis B immunization. Discharge recommendations included continued formula feeding, follow-up with pediatrics, neurology, genetics, and early intervention services, and use of a car bed due to failed car seat screening. At discharge, the infant was stable, feeding well, and breathing comfortably.
+
 
 ## Dialogue Summary
 
-The patient presented with concern that her baby has had ongoing difficulty breathing through her nose and has been mouth breathing since birth. Symptoms include persistent nasal obstruction, mouth breathing, mild nasal noise, and feeding difficulties characterized by disorganized sucking, swallowing, and breathing, with occasional desaturations during feeds; these symptoms have been present since birth and have not changed over time. There is no history of frequent sneezing, significant nasal discharge, noisy breathing during sleep, or episodes of cyanosis, fatigue, or sweating outside of feeding, and the baby sleeps comfortably. Attempts to pass a catheter through the baby's nostrils were unsuccessful, suggesting a possible structural blockage. The doctor assessed that these findings are concerning for choanal atresia, a condition where the back of the nasal passage is blocked, especially given the inability to pass a catheter and feeding-related desaturations. The doctor recommended further evaluation by a pediatrician or ENT specialist for possible imaging or direct examination to confirm the diagnosis and discuss management. The doctor also advised monitoring for worsening symptoms such as persistent cyanosis, increased work of breathing, or trouble waking for feeds, which would require prompt medical attention. The parent reported that feeding is the most affected aspect of daily routine but otherwise things are manageable.
+The patient is an infant presenting with chronic difficulty breathing through the nose and frequent mouth breathing since birth. Key symptoms include persistent nasal obstruction, inability to pass a catheter through the nostrils, mild nasal noise, and feeding difficulties characterized by disorganized sucking, swallowing, and breathing, with occasional desaturation during feeds. There is no history of frequent sneezing, significant nasal discharge, noisy breathing during sleep, or episodes of cyanosis or fatigue outside of feeding times; sleep is generally unaffected. Relevant history includes stable symptoms since birth and no reported changes over time.
+
+The clinical impression is possible choanal atresia, a structural blockage of the nasal passages. The physician recommended further evaluation by a pediatrician or ENT specialist, including possible imaging or direct examination to confirm the diagnosis. Caregivers were advised to monitor for worsening symptoms such as persistent cyanosis, increased work of breathing, or feeding intolerance and to seek prompt care if these occur. The main impact on daily life is stress during feeding due to the baby's difficulty coordinating breathing and feeding.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.917
-- **Similarity Label**: N/A
+- **STS Score**: 0.545
+- **Model Used**: general
+- **Text1 Length**: 186 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

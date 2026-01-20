@@ -102,3 +102,21 @@ Scheduling both your mammogram and these labs is a great step in maintaining you
 ## Processing Information
 
 - **Processing Time**: 391.2s
+
+## EHR Summary
+
+The patient is a 56-year-old female admitted for management of intracranial carotid stenosis and aneurysm. She has a history of multiple intracranial aneurysms, prior unsuccessful coiling, and clipping, now presenting with right-sided intracranial carotid stenosis. On admission, she underwent left internal carotid artery (ICA) stent placement and coil embolization without complications. Post-procedure, she was monitored with stable vital signs, was afebrile, alert, and oriented, with intact neurological examination and clean groin sites after sheath removal. Her past medical history includes gastric bypass, pernicious anemia, rheumatic arthritis versus fibromyalgia, multiple spinal surgeries, prior lumpectomy, and ORIF of the ankle. The documented diagnosis was intracranial carotid stenosis with aneurysm. Treatment included ICA stenting, coil embolization, and medications such as hydromorphone for headache, pantoprazole, Colace, venlafaxine XR, Plavix, and aspirin. She was discharged in stable condition with instructions to follow up in 8–12 weeks.
+
+
+## Dialogue Summary
+
+The patient is an adult female presenting for a routine health check-in without any new or specific symptoms. She reports no changes in energy, sleep, appetite, weight, or daily routines, and denies breast symptoms such as lumps, skin changes, or nipple discharge. Her relevant medical history includes prior lumpectomy and gastric bypass surgery. There is no documented diagnosis of new illness at this visit; the clinical impression is that she is currently well and asymptomatic. The discussion focused on preventive care and appropriate follow-up for her medical history. The treatment plan includes scheduling a routine mammogram due to her history of lumpectomy and ordering baseline laboratory tests (including vitamin B12, iron studies, folate, calcium, vitamin D, and a metabolic panel) to monitor for potential deficiencies after gastric bypass. The patient was advised to continue routine monitoring and to report any new symptoms if they arise. No acute concerns were identified during this visit.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.284
+- **Model Used**: general
+- **Text1 Length**: 141 words
+- **Text2 Length**: 153 words
+

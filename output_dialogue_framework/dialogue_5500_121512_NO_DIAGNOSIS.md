@@ -97,16 +97,23 @@ For now, focus on staying hydrated and resting. If you have any other new sympto
 
 ## EHR Summary
 
-The patient is a 20-year-old female presenting after involvement as an unrestrained passenger in a high-speed motor vehicle accident. She was ejected from the vehicle and found curled in the fetal position at the scene, with the vehicle extensively damaged. At the scene, she was awake but confused and had no memory of the incident. She has no significant past medical history. Cervical spine immobilization was initiated in the field, and she was transported to the emergency room for further management. No specific diagnosis or additional clinical findings are documented in this note. The initial treatment included cervical spine immobilization and emergency evaluation.
+The patient is a 20-year-old female presenting after involvement as an unrestrained passenger in a high-speed motor vehicle accident. She was ejected from the vehicle and found in a fetal position at the scene, with the vehicle noted to be extensively damaged. On initial evaluation, she was awake but confused and had no memory of the incident. There is no significant past medical history documented. The clinical impression is trauma following a motor vehicle accident with altered mental status and amnesia for the event. Initial management included cervical spine immobilization and transport to the emergency room for further evaluation and care. Specific injuries, diagnoses, or additional treatments are not specified in the note.
+
 
 ## Dialogue Summary
 
-The patient presented with a persistent fever as the chief complaint. Symptoms included a constant fever for three to four days (highest recorded at 38.5°C), ongoing nausea, and several episodes of vomiting occurring both after eating and at random times; the patient also reported feeling hot most of the time but denied chills, body aches, or significant sweating. No relevant medical history, medications, or allergies were mentioned. The patient described a sensation of fullness in the ear without pain, discharge, or hearing loss. On assessment, the doctor noted that the symptoms were consistent with a mild viral illness, likely gastroenteritis, and explained that ear fullness can occur due to Eustachian tube congestion during such infections. The doctor advised the patient to stay hydrated with small sips of water or oral rehydration solution, avoid heavy foods, rest, and monitor for warning signs such as inability to keep fluids down, severe weakness, blood in vomit, or fever above 39°C unresponsive to acetaminophen. The patient was reassured that the ear fullness should resolve as the illness improves and was instructed to seek further care if new or worsening symptoms develop.
+The patient is an adult presenting with a chief complaint of persistent fever. The fever has been constant for three to four days, reaching up to 38.5°C, and is accompanied by ongoing nausea and several episodes of vomiting, which occur both after eating and at random times. The patient denies chills, body aches, significant sweating, or severe ear pain, but reports a sensation of ear fullness without discharge or hearing loss. Relevant medical history, medications, and allergies are not specified.
+
+The clinical impression is a likely mild viral infection, such as viral gastroenteritis, with associated Eustachian tube dysfunction causing ear fullness. The treatment plan includes supportive care: maintaining hydration with small sips of water or oral rehydration solution, eating bland foods, and resting. The patient was advised to seek medical attention if unable to keep fluids down for more than 24 hours, develops severe symptoms (such as blood in vomit or high fever unresponsive to acetaminophen), or experiences worsening ear symptoms. The ear fullness is expected to resolve as the illness improves.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.905
-- **Similarity Label**: N/A
+- **STS Score**: 0.094
+- **Model Used**: general
+- **Text1 Length**: 113 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

@@ -89,16 +89,21 @@ Let me know if you have any questions about what we’ve talked about or if ther
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with chest pain who was admitted for cardiac catheterization. He was found to have multivessel coronary artery disease and subsequently underwent a coronary artery bypass graft x2 on admission day. Postoperatively, he required ventilatory support, transfusions for low hematocrit and hemodynamic stability, and had an intra-aortic balloon pump placed and later removed without complication. Physical therapy was involved for ambulation, and his chest tube, Foley catheter, and JP drain were removed sequentially as he recovered. The documented diagnosis was multivessel coronary artery disease requiring surgical intervention. He was discharged home in stable condition with instructions for follow-up with his primary care physician/cardiologist and cardiothoracic surgery for staple removal. Discharge medications included Percocet, Colace, Synthroid, inhalers (albuterol, ipratropium), aspirin, Lopressor, Lasix, and Protonix.
+The patient is a 62-year-old male presenting with chest pain who was admitted for cardiac catheterization. Catheterization revealed multi-vessel coronary artery disease, and the patient subsequently underwent a coronary artery bypass graft x2. Postoperatively, he required ventilator support, transfusions for low hematocrit and hemodynamic stability, and had an intra-aortic balloon pump placed and later removed without complication. Physical therapy was involved for ambulation, and his chest tube, Foley catheter, and JP drain were removed as he recovered. The documented diagnosis was multi-vessel coronary artery disease requiring surgical intervention. The patient was discharged home in stable condition with instructions for follow-up with his primary care physician and cardiothoracic surgery for staple removal. Discharge medications included Percocet, Colace, Synthroid, inhalers (albuterol, ipratropium), aspirin, Lopressor, Lasix, and Protonix.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort. They described a pressure-like sensation in the center of the chest, which began a couple of days ago and is intermittent, occurring mainly with physical activity such as walking up stairs and resolving with rest. The discomfort was rated as mild to moderate, did not radiate, and was not associated with shortness of breath, sweating, or lightheadedness. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the pattern of exertional chest pressure relieved by rest could indicate angina due to possible narrowed heart arteries. The doctor advised the patient to avoid strenuous activity until further evaluation and recommended arranging an ECG and additional heart tests. The patient was instructed to seek immediate medical attention if symptoms worsened or new symptoms such as difficulty breathing, nausea, sweating, or faintness developed. The patient expressed understanding of the plan and agreed to follow up for further testing.
+The patient is an adult presenting with chest pain as the chief complaint. The chest discomfort is described as a pressure-like sensation, mild to moderate in severity, located centrally, and has been present intermittently for a couple of days. The pressure is triggered by physical activity such as walking up stairs and is relieved by rest; it does not occur at rest and is not associated with dyspnea, diaphoresis, or lightheadedness. The patient denies any other accompanying symptoms. The clinical impression documented by the physician is possible angina, likely due to reduced oxygen supply to the heart muscle during exertion. The treatment plan includes avoiding strenuous activity and arranging further evaluation with an ECG and additional cardiac testing. The patient was also advised to seek immediate medical attention if symptoms worsen or new concerning symptoms develop. No relevant past medical history, medications, or allergies were specified.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.938
-- **Similarity Label**: N/A
+- **STS Score**: 0.615
+- **Model Used**: general
+- **Text1 Length**: 125 words
+- **Text2 Length**: 146 words
+
 
 ## Processing Information
 

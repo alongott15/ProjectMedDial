@@ -98,3 +98,23 @@ Otherwise, keep monitoring as you have been. If the breathing gets worse or you 
 ## Processing Information
 
 - **Processing Time**: 335.9s
+
+## EHR Summary
+
+The patient is a newborn male, triplet #3, delivered preterm at 33 and 5/7 weeks gestation due to maternal pregnancy-induced hypertension. At birth, he required brief CPAP for mild work of breathing but was quickly stabilized on room air with oxygen saturations of 95%. He exhibited mild jaundice with a maximum bilirubin of 9.1, treated with phototherapy from day 3 to day 5, after which bilirubin levels decreased and jaundice improved. There was no evidence of feeding intolerance or reflux, and enteral feedings were advanced to full volume with PE 24 formula. The patient has no history of infection, transfusion, or significant complications, and physical examination was appropriate for gestational age. The clinical impression is stable preterm infant with mild hyperbilirubinemia. Treatment included phototherapy for jaundice, iron supplementation, and nutritional support with fortified formula. Discharge plan is transfer to the Transitional Care Unit with continued feeding and pending newborn screening.
+
+
+## Dialogue Summary
+
+The patient is a young infant presenting with increased work of breathing as the chief complaint. The caregiver reports that the infant's breathing has been a bit more effortful recently, with visible chest movement during inspiration, but there is no noisy breathing, cough, fever, or changes in feeding or activity level. The onset of symptoms is unclear but has not worsened over time, and no specific triggers or alleviating factors have been identified. There is no relevant family history of similar symptoms or illness at home, aside from the caregiver’s mother mentioning a headache and protein in her urine, which does not appear directly related.
+
+The clinical impression is mild increased work of breathing without signs of respiratory distress or systemic illness. The physician reassured the caregiver that mild increases in work of breathing can be due to benign causes such as mild congestion, dry air, or normal variation in infants. The treatment plan includes home monitoring for any new or worsening symptoms such as noisy breathing, cyanosis, difficulty feeding, or decreased responsiveness, with instructions to seek prompt medical attention if these occur. The caregiver was also provided with education on what specific signs to watch for at home and advised to notify their provider if symptoms worsen or new symptoms develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.405
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 212 words
+

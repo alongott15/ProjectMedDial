@@ -87,16 +87,23 @@ Let me know if you have any questions about what I've explained or if there's an
 
 ## EHR Summary
 
-The patient is an 83-year-old male presenting with chest pain. He reported longstanding stable angina and experienced chest pain on [2153-1-15] that was minimally relieved by sublingual nitroglycerin, prompting EMS transport. His history is significant for coronary artery disease, prior myocardial infarction approximately 25 years ago, peripheral vascular disease, gout, prostate cancer (post-radiation), and multiple prior surgeries. On admission, cardiac catheterization revealed 60% left main stenosis, three-vessel disease, and an ejection fraction of 40%. Physical exam showed a well-appearing male in no acute distress with stable vital signs and unremarkable findings. Laboratory results indicated mild anemia and a slight increase in creatinine during the hospital stay. The documented diagnosis was severe coronary artery disease with multi-vessel involvement. Treatment included coronary artery bypass grafting (CABG) x2, with ongoing monitoring and supportive care during hospitalization.
+The patient is an 83-year-old male presenting with chest pain. He experienced chest pain unrelieved by sublingual nitroglycerin, prompting EMS transport and subsequent evaluation, which revealed elevated cardiac enzymes and significant coronary artery disease (60% left main, three-vessel disease, ejection fraction 40%). His history includes stable angina, remote myocardial infarction, peripheral vascular disease with left leg claudication, gout, prostate cancer post-radiation, and multiple prior surgeries. The documented diagnoses were coronary artery disease status post coronary artery bypass graft x2, remote MI, PVD, gout, and other past conditions. He underwent coronary artery bypass grafting x2 without major complications; postoperative atrial fibrillation was managed with amiodarone and metoprolol, and transient delirium resolved prior to discharge. Discharge medications included aspirin, allopurinol, atorvastatin, amiodarone, metoprolol, cephalexin, and docusate sodium. He was discharged home in stable condition with instructions for wound care, activity restrictions, and follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure as the chief complaint. The chest pressure was described as a steady, central sensation lasting several minutes at a time, sometimes accompanied by confusion and episodes of delirium, which tended to occur during or after the chest pressure. The patient also reported new inability to void urine without lower abdominal pain, as well as a sore, red throat with whitish patches and crackling sounds in both lungs. These symptoms have made daily activities more difficult and caused the patient to feel less steady. No history of medications or allergies was mentioned. The doctor noted concern for possible urinary retention and its connection to confusion, and considered cardiac, infectious, or urinary causes for the chest pressure. The doctor recommended prompt medical evaluation today to assess for urinary retention and rule out serious causes of chest pressure, advised rest and avoidance of strenuous activity, and instructed the patient to seek emergency care if symptoms worsen.
+The patient presents with the chief complaint of chest pressure. The chest pressure is described as a central, steady sensation lasting several minutes at a time, sometimes accompanied by confusion and occasional delirium, which can linger after the chest symptoms resolve. The patient also reports new-onset inability to void urine without associated lower abdominal pain, as well as a sore, red throat with whitish patches and crackling lung sounds on inspiration. These symptoms have made daily activities more difficult and caused the patient to feel less steady.
+
+Relevant history, medications, and allergies are not specified. The clinical impression is that the combination of central chest pressure, confusion, and urinary retention may be connected and could indicate underlying cardiac, infectious, or urinary tract issues, with confusion possibly resulting from urinary retention or systemic stress. The treatment plan includes a recommendation for prompt medical evaluation today to assess for urinary retention and to rule out serious causes of chest pressure. The patient is advised to rest, avoid strenuous activity, and seek emergency care if severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.948
-- **Similarity Label**: N/A
+- **STS Score**: 0.453
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

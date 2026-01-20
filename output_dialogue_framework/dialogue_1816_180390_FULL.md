@@ -89,16 +89,23 @@ Let me know if you have questions about what to expect or how to manage things w
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with complications following coronary artery bypass graft surgery, specifically a sternal wound infection. He reported redness and a lump at the superior aspect of the incision, but denied fever and chills. His history includes prior wound drainage and treatment with vancomycin for three weeks, with previous cultures growing coagulase-negative staphylococcus. On admission, physical exam revealed a stable wound at the superior end and fibrous exudate at the inferior end, with vital signs notable for mild tachycardia and oxygen saturation of 93% on room air. Laboratory data showed a mildly elevated white blood cell count (11.3) and platelets (527). Imaging demonstrated that the wound extended to the sternum with bilateral fluid collections. The documented diagnosis was sternal wound infection with involvement of the sternum. Treatment included left sternectomy and debridement with VAC dressing placement, followed by consultation for a rectus muscle flap; the patient remained stable postoperatively.
+The patient is a 62-year-old male presenting with complications following coronary artery bypass graft surgery, specifically a sternal wound infection. He reported redness and a lump at the superior aspect of the incision, but denied fever or chills; physical exam revealed fibrous exudate at the inferior end of the sternal wound and stable vital signs. His history includes prior wound infection treated with vancomycin and positive cultures for coagulase-negative staphylococcus. The clinical impression was sternal wound infection with fluid collections extending to the sternum, complicated by aspiration pneumonia postoperatively. Treatment included left sternectomy with debridement, placement of a VAC dressing, and subsequent muscle flap reconstruction; antibiotics administered were vancomycin, levofloxacin (later discontinued), Zosyn, and oral Flagyl, based on tissue culture results. The patient also experienced postoperative tachycardia, nausea, vomiting, rigors, and a brief episode of fever attributed to aspiration pneumonia, which resolved with antibiotic therapy. Stool studies for diarrhea were negative for C. difficile. At discharge, he was stable and continued on a regimen of vancomycin, levofloxacin, and Flagyl, along with other supportive medications.
+
 
 ## Dialogue Summary
 
-The patient presented with redness and a lump forming around their chest incision. Symptoms included increasing redness, swelling, warmth, and discomfort at the incision site over the past few days, with the discomfort worsening on movement or stretching; the area has become more swollen and the lump larger, and the patient reported associated fever up to 102.7°F, chills, nausea, vomiting, and diarrhea. The patient also noted a rapid heartbeat during episodes of fever and chills but denied drainage or unusual smell from the area. No specific past medical history, medications, or allergies were mentioned. On assessment, the doctor noted progressive local symptoms (redness, swelling, warmth, lump) and systemic symptoms (fever, chills, tachycardia, malaise), raising concern for a possible wound infection or abscess at the surgical site. The doctor recommended prompt evaluation by the surgical team for in-person examination and possible early treatment, advised against putting pressure on or draining the area, and instructed the patient to seek emergency care if symptoms such as spreading redness, difficulty breathing, chest pain, or confusion develop.
+The patient presents with concern about redness and a lump developing around their chest incision. Symptoms began a few days ago and include increasing redness, swelling, warmth, and discomfort at the incision site, with the lump and redness worsening over time. The discomfort is constant but exacerbated by movement or stretching, and the patient reports associated systemic symptoms including fever up to 102.7°F, chills, nausea, vomiting, tachycardia during febrile episodes, and diarrhea. There is no drainage or unusual smell from the area.
+
+The clinical impression is a possible surgical site infection, with concern for potential abscess formation given the progression of local and systemic symptoms. The doctor advised prompt evaluation by the surgical team for in-person assessment. Recommendations included avoiding pressure or attempts to drain the area and seeking emergency care if symptoms such as spreading redness, difficulty breathing, chest pain, or confusion develop. No specific medications or procedures were initiated during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.557
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 154 words
+
 
 ## Processing Information
 

@@ -87,16 +87,23 @@ Let me know if you have any questions or concerns about what we've discussed.
 
 ## EHR Summary
 
-The patient is a 47-year-old male presenting with a chief complaint of three days of fever up to 103°F and nocturia. He has a history of HIV, disseminated tuberculosis (including miliary TB pancreatitis), and left iliac deep vein thrombosis, and was recently discharged on a four-drug TB regimen, HAART (Trizivir, Abacavir, Nevirapine), Coumadin, prednisone, and Bactrim DS. On admission, he was febrile to 101.3°F, tachycardic (heart rate 108), and cachectic but in no acute distress; physical exam revealed a 2/6 systolic murmur and possible mild left CVA tenderness. Laboratory findings included a white blood cell count of 5.2, hematocrit 26.4, platelets 219,000, urinalysis positive for nitrates with moderate bacteria and 3-5 WBCs, and an absolute CD4 count of 57. The documented diagnosis is not explicitly stated in the note. The patient remained compliant with his medications on admission. Treatment details for this admission are not specified in the provided text.
+The patient is a 47-year-old male presenting with a three-day history of fevers up to 103°F and nocturia. He has a history of HIV, disseminated tuberculosis (TB), recent miliary TB pancreatitis, and left iliac deep vein thrombosis, and was recently discharged on a four-drug TB regimen, HAART, and anticoagulation. On admission, he was febrile (101.3°F), tachycardic, and cachectic but in no acute distress; laboratory findings included a low CD4 count (57), anemia, hyponatremia, and urinalysis suggestive of urinary tract infection. No definitive source for the fever was identified despite extensive workup; possible Abacavir sensitivity was considered, and Abacavir was discontinued. During hospitalization, he developed a gastrointestinal bleed requiring transfusion, transient renal dysfunction likely due to Tenofovir and/or Bactrim, and leukopenia attributed to AZT. Diagnoses included fever of unknown origin in an immunocompromised host, urinary tract infection, drug-induced renal dysfunction, and gastrointestinal bleeding. Treatment included adjustment of antiretroviral therapy (switching from Abacavir and AZT to other agents), short-course levofloxacin for UTI, G-CSF for leukopenia, blood transfusions, and supportive care for hyponatremia and GI bleed. He was discharged in stable condition on a modified TB regimen, adjusted HAART, anticoagulation, prednisone taper, and gastric protection, with follow-up arranged in Infectious Disease Clinic.
+
 
 ## Dialogue Summary
 
-The patient presented with fever up to 103°F for the past three days. Symptoms included sudden onset of high fever, deep back ache (not just muscle soreness), increased nighttime urination, daytime fatigue, and muscular aches in the legs; the fever fluctuated and was more noticeable in the evenings. The patient denied chills, sweating, burning or discomfort with urination, and changes in urine color or smell. No recent travel, routine changes, or sick contacts were reported; acetaminophen provided some relief for the fever. The doctor noted the combination of fever, deep back pain, and nocturia, and assessed that these symptoms could indicate a urinary tract infection possibly affecting the kidneys, though a viral illness was also considered. The absence of lower urinary tract symptoms made a lower UTI less likely. The doctor advised maintaining hydration and continuing acetaminophen as needed, with instructions to seek prompt care if symptoms worsen or new severe symptoms develop, and to consider in-person evaluation with urine tests if there is no improvement.
+The patient is an adult presenting with high fever up to 103°F for the past three days as the chief complaint. The fever had a sudden onset and is associated with deep back pain (not muscle soreness), increased nocturia, generalized aches, and daytime fatigue; there are no chills, sweating, dysuria, or changes in urine color or smell. The fever is intermittent, more noticeable in the evenings, and has been measured at home. The patient has taken acetaminophen with some relief and denies recent travel or sick contacts. Relevant history, medications, and allergies are not specified.
+
+The clinical impression is possible urinary tract infection with concern for upper tract (kidney) involvement, though a viral illness is also considered. The patient was advised to maintain hydration and continue acetaminophen as needed. The doctor recommended seeking prompt care if symptoms worsen (vomiting, confusion, severe pain, or weakness) and to consider in-person evaluation with urine testing if there is no improvement or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.579
+- **Model Used**: general
+- **Text1 Length**: 199 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

@@ -107,16 +107,23 @@ At this point, I’d recommend you keep up with your routine follow-ups and cont
 
 ## EHR Summary
 
-The patient is a 48-year-old male presenting with mitral regurgitation as the chief complaint. He reported a history of mitral valve disease, with cardiac catheterization confirming severe (4+) mitral regurgitation and normal coronary arteries; no additional symptoms were detailed. Past medical history includes tonsillectomy, and home medications were Zestril and Klonopin; he has no known drug allergies. On physical exam, he had a regular heart rate and rhythm with a systolic murmur at the apex, clear lungs, and no peripheral edema. The documented diagnosis was severe mitral regurgitation. He underwent minimally invasive mitral valve repair without complication, though a postoperative air leak required temporary chest tube suction, which resolved by postoperative day two. Pain was managed with oral medications, and he tolerated an oral diet. He continued to improve postoperatively and was discharged in stable condition.
+The patient is a 48-year-old male presenting with mitral regurgitation. He had a history of mitral valve disease, with cardiac catheterization confirming 4+ mitral regurgitation and normal coronary arteries; no acute symptoms such as dyspnea or chest pain were documented at admission. Past medical history includes tonsillectomy, and home medications were Zestril and Klonopin; he has no known drug allergies. On examination, he had a systolic murmur at the apex but was otherwise stable. The documented diagnosis was status post mitral valve repair. He underwent minimally invasive mitral valve repair without complication, experienced a transient postoperative air leak that resolved by postoperative day two, and recovered well with controlled pain and good ambulation. Discharge medications included aspirin, lisinopril, clonazepam, docusate, amiodarone, ibuprofen, and Tylenol #3 as needed. He was discharged home in stable condition with instructions to follow up in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about a diagnosis of mitral regurgitation. They reported no physical symptoms such as shortness of breath, chest discomfort, palpitations, lightheadedness, or changes in activity level, sleep, or mood; the main issue was occasional anxiety and increased awareness of their heart condition, especially when thinking about it or reading about mitral regurgitation, with worry episodes lasting only a few minutes and relieved by distraction or reassurance. No relevant past medical history, medications, or allergies were discussed beyond the known diagnosis of mitral regurgitation. There were no abnormal clinical findings described, and the patient denied any symptoms during exercise or daily activities. The doctor assessed that the mitral regurgitation was not causing any physical symptoms or limitations and appeared to be mild and stable. The treatment plan included reassurance, encouragement to continue normal activities and regular follow-up for monitoring, and advice to report any new symptoms such as shortness of breath, chest pain, swelling, or changes in exercise tolerance. The doctor also recommended maintaining a healthy lifestyle and offered support for managing anxiety if it becomes more frequent or interferes with daily life. The patient expressed understanding and agreed to continue with routine check-ups.
+The patient is an adult presenting with concerns about a known diagnosis of mitral regurgitation. They report no physical symptoms such as dyspnea, chest discomfort, palpitations, lightheadedness, or changes in exercise tolerance or daily activities. The main issue discussed is occasional anxiety and increased awareness related to the diagnosis, which is mild, brief, and alleviated by distraction or reassurance. There is no history of sleep disturbance or mood changes due to this anxiety.
+
+The documented clinical impression is stable, likely mild mitral regurgitation without current symptoms or functional limitations. The treatment plan includes continuing regular follow-up and monitoring for any new symptoms such as shortness of breath, chest pain, swelling, or decreased exercise tolerance. The patient is advised to maintain usual activities and a healthy lifestyle, with reassurance that living normally is appropriate in the absence of symptoms. Additional strategies for managing anxiety are offered if it becomes more frequent or disruptive.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.585
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

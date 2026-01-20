@@ -85,16 +85,21 @@ Let me ask—does anything seem to make the discomfort feel better or worse, lik
 
 ## EHR Summary
 
-The patient is a 45-year-old woman presenting with recurrent chest pain. She experienced bilateral arm joint and throat discomfort while riding in her car, and an EKG at that time revealed a new T wave inversion; echocardiogram showed no significant change. Her medical history includes prior right coronary and circumflex artery stents, hypothyroidism, and head pain, and she is allergic to sulfa medications. On admission, laboratory data showed potassium 3.5, BUN 9, and creatinine 0.6. During this admission, she was found to have a 100% right coronary artery (RCA) occlusion. The documented diagnosis was complete RCA occlusion. She underwent a vein graft coronary artery bypass graft (CABG) of the RCA and recovered well postoperatively, with resolution of orthostatic hypertension after fluid administration. She was ambulating well at discharge.
+The patient is a 45-year-old woman presenting with recurrent chest pain. She experienced bilateral arm joint and throat discomfort while riding in her car, and an EKG at that time showed new T wave inversion; echocardiogram showed no significant change. Her history includes prior right coronary and circumflex artery stents, hypothyroidism, and an allergy to sulfa medications. On admission, she was found to have a 100% right coronary artery (RCA) occlusion. The documented diagnosis was RCA occlusion with recurrent angina. She underwent a vein graft coronary artery bypass graft (CABG) of the RCA and recovered well postoperatively, with resolution of orthostatic hypertension after fluid administration. Discharge medications included atenolol, Niferex, Colace, Synthroid, Prempro, Plavix, Lipitor, Percocet as needed, aspirin, and ranitidine. She was discharged in good condition with instructions for follow-up with her primary care physician and cardiac surgeon.
+
 
 ## Dialogue Summary
 
-The patient presented with recurrent chest pain causing anxiety. The chest discomfort was rated as 6 out of 10 in intensity, lasted several minutes per episode, and was mostly central but sometimes spread to both arm joints and the throat; episodes occurred randomly, including at rest, and were not triggered by activity, food, or position changes. The patient also reported blood pressure increases upon standing but denied associated symptoms such as lightheadedness, shortness of breath, or sweating. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted moderate chest discomfort without classic warning signs for serious cardiac issues and no relief with position changes, deep breaths, or drinking water. The assessment included possible causes such as muscle strain, acid reflux, anxiety, or blood pressure fluctuations. The doctor advised attention to persistent chest discomfort and explained the importance of monitoring symptoms, noting that further evaluation may be needed if symptoms worsen or new warning signs develop.
+The patient is an adult presenting with recurrent chest pain as the chief complaint. The chest discomfort is rated 6 out of 10 in intensity, is primarily central, lasts several minutes per episode, and sometimes radiates to both arm joints and the throat. The episodes occur randomly, including at rest, and are not triggered or relieved by physical activity, position changes, deep breaths, or drinking water. The patient denies associated symptoms such as lightheadedness, dyspnea (shortness of breath), or sweating. There is a history of blood pressure elevation upon standing. The clinical impression discussed includes possible causes such as muscle strain, acid reflux, anxiety, or blood pressure fluctuations; however, no definitive diagnosis was documented. The physician noted the absence of classic warning signs for serious cardiac events but emphasized the importance of monitoring persistent chest discomfort. No specific treatment was initiated during the visit; further evaluation was implied.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.415
+- **Model Used**: general
+- **Text1 Length**: 139 words
+- **Text2 Length**: 148 words
+
 
 ## Processing Information
 

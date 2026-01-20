@@ -87,16 +87,21 @@ Does that make sense, or is there anything else you’d like to discuss about th
 
 ## EHR Summary
 
-The patient is a 53-year-old man presenting with fever and night sweats. He reported the onset of these symptoms on [2193-10-21], at which time an echocardiogram revealed mitral valve regurgitation with endocarditis and vegetation of the mitral valve. His past medical history includes aortic valve replacement, repair of an ascending aortic aneurysm, alcoholic cardiomyopathy, pseudogout, and abdominal mass removal. Prior medications included Toprol XL, Lisinopril, multivitamins, and aspirin; he reports no known drug allergies but has an adverse reaction to Ativan. On physical examination, he was afebrile, in no acute distress, with stable vital signs and no skin abnormalities. The documented diagnosis was mitral valve endocarditis with regurgitation. He was referred for mitral valve surgery as part of his treatment plan.
+The patient is a 54-year-old man presenting with fever and night sweats. He reported the onset of these symptoms several months prior, and an echocardiogram at that time revealed mitral valve regurgitation with endocarditis and vegetation of the mitral valve. His relevant history includes prior aortic valve replacement, abdominal aortic aneurysm repair, abdominal mass removal, alcoholic cardiomyopathy, and pseudogout; he has no known drug allergies but reacts to Ativan with extreme combativeness. On admission, physical examination was notable for a 3/6 murmur and stable vital signs. The documented diagnosis was mitral valve endocarditis with regurgitation. He underwent mitral valve repair with a pericardial patch and annuloplasty, tolerated the procedure well, and had an uneventful postoperative course. Discharge medications included metoprolol, aspirin, Lasix, potassium chloride, and Percocet as needed. He was discharged home in good condition with instructions for follow-up in the wound clinic and with his physicians.
+
 
 ## Dialogue Summary
 
-The patient presented with fever as the chief complaint. They reported a fever that began a few days ago, described as intermittent, along with night sweats causing damp clothing, and swelling in both legs for at least several days. The leg swelling is mild (1+), improves with rest and elevation, worsens with prolonged standing, and has remained stable without progression; no shortness of breath, chest discomfort, cough, appetite changes, or weight loss were noted. No relevant past medical history, medications, or allergies were discussed. On clinical review, the doctor noted the absence of concerning symptoms such as respiratory distress or systemic signs. The assessment was that the symptoms could be due to common causes such as mild infection or fluid retention, with the pattern of leg swelling suggesting gravity-dependent edema rather than a severe underlying condition. The doctor recommended continued leg elevation, maintaining hydration, and monitoring for any worsening of symptoms such as spreading swelling, new shortness of breath, chest discomfort, or persistent/high fever, advising prompt care if these develop. The patient understood and agreed to monitor their symptoms as instructed.
+The patient is an adult presenting with the chief complaint of fever. The fever has been intermittent for several days and is accompanied by night sweats and mild, bilateral leg swelling (1+), which improves with rest and elevation but worsens with prolonged standing; the swelling has remained stable without progression. The patient denies shortness of breath, chest discomfort, cough, appetite changes, or unintentional weight loss. There is no mention of relevant past medical history, medications, or allergies in the dialogue. The clinical impression is that the symptoms could be due to common causes such as mild infection or fluid retention from circulation issues, with no evidence of severe infection or acute systemic illness. The treatment plan includes conservative management: elevating the legs, maintaining hydration, and monitoring for any worsening symptoms such as increased swelling, new respiratory symptoms, or persistent/high fever. The patient was advised to seek prompt care if these concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.401
+- **Model Used**: general
+- **Text1 Length**: 147 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

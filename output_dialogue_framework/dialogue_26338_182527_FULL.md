@@ -87,16 +87,23 @@ Would you like advice on what to expect at your evaluation or how to manage symp
 
 ## EHR Summary
 
-The patient is a 56-year-old woman presenting with a chief complaint of leg weakness progressing to arm weakness over one day. She also reported headache, nausea, and vomiting, and had a history of a fall with head injury one month prior. Her past medical history includes hypertension and menopause, and she takes Prempro, Univasc, and aspirin as needed; she has no known drug allergies. On examination, she was hypertensive (BP 160/79), alert, with right-sided motor weakness and abnormal right-sided reflexes; her left pupil was nonreactive. Head CT revealed a subacute and acute subdural hematoma with midline shift and minimal hydrocephalus. The documented diagnosis was subdural hematoma. She underwent left frontal and parietal burr hole evacuation of the hematoma without complications. Postoperatively, she was monitored in the ICU and had a stable recovery with good radiographic results.
+The patient is a 56-year-old woman presenting with a one-day history of leg weakness progressing to arm weakness, accompanied by headache, nausea, and vomiting. She reported taking four aspirin for her headache and has a history of a fall with head injury one month prior. Her past medical history includes hypertension and menopause, and she is taking Prempro, Univasc, and aspirin as needed; she has no known drug allergies. On examination, she had right-sided motor weakness and abnormal pupillary findings. Head CT revealed a subacute and acute subdural hematoma with midline shift and minimal hydrocephalus. The documented diagnosis was subdural hematoma. She underwent left frontal and parietal burr hole evacuation of the hematoma without complications, followed by postoperative monitoring and rehabilitation. At discharge, her neurological status had improved, and she was advised to take Percocet as needed for headache, with follow-up arranged in two weeks including a repeat head CT.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening weakness in the legs, now also affecting the arms. The weakness has developed over several days and is making walking, getting up from a chair, carrying objects, getting dressed, and preparing meals more difficult. The patient denied numbness, tingling, vision changes, trouble speaking, or balance problems, but reported headache, nausea, and vomiting. No relevant medical history, medications, or allergies were mentioned. The doctor noted the progressive nature of weakness and associated symptoms interfering with daily activities, and discussed possible causes including infections, medication side effects, or issues with muscles or the nervous system. The assessment emphasized concern for serious underlying conditions due to the combination and progression of symptoms. The doctor recommended an in-person evaluation as soon as possible, ideally today, and advised seeking immediate care if new symptoms such as fever, confusion, chest pain, sudden speech or vision changes, or inability to get up occur.
+The patient is an adult presenting with gradually worsening weakness in the legs, now also affecting the arms. The weakness has developed over several days and is making walking, getting up from a chair, carrying objects, and performing daily tasks such as dressing and meal preparation significantly more difficult. The patient denies numbness, tingling, vision changes, speech difficulties, or balance problems but reports associated headache, nausea, and vomiting. There is no mention of relevant past medical history, medications, or allergies in the dialogue.
+
+The clinical impression is of progressive motor weakness with associated headache and gastrointestinal symptoms, without sensory loss or cranial nerve involvement. No specific diagnosis was documented during the encounter. The doctor recommended urgent in-person evaluation—ideally the same day—to assess for potentially serious causes and advised seeking immediate care if new symptoms such as fever, confusion, chest pain, or sudden neurological changes develop. The patient was also offered information about what to expect during the evaluation and how to manage symptoms until then.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.446
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

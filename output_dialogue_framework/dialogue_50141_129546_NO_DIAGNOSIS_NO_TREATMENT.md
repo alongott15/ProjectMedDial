@@ -85,16 +85,21 @@ Let me know if you have any questions or concerns about your kidney health or an
 
 ## EHR Summary
 
-The patient is a 39-year-old male presenting with end-stage renal disease (ESRD) secondary to focal segmental glomerulosclerosis. He was admitted for a cadaveric kidney transplant. His past medical history includes hepatitis C on pegylated interferon, congenital single kidney, hypertension, heterozygous hemochromatosis, depression, and prior trauma with fractures. On physical exam, he was in no acute distress and had normal cardiopulmonary and abdominal findings. Laboratory results showed a progressive decrease in creatinine from 8.4 to 1.8 over the hospital course, and renal ultrasound was unremarkable with no evidence of acute rejection. The documented diagnosis was ESRD due to focal segmental glomerulosclerosis, status post cadaveric kidney transplant. Treatment included successful kidney transplantation, initiation of a study protocol (FTY720), pain management, and advancement of diet as tolerated. At discharge, the patient had good urine output and improving renal function.
+The patient is a 39-year-old male presenting with end-stage renal disease (ESRD) secondary to focal segmental glomerulosclerosis. He was admitted for a cadaveric renal transplant and reported no acute symptoms at the time of admission; postoperatively, pain was well controlled and urine output improved to 1.7L/day with decreasing creatinine levels (from 8.4 to 1.8 mg/dL). Relevant history includes hepatitis C on pegylated interferon, congenital single kidney, hypertension, heterozygous hemochromatosis, depression, and prior motor vehicle accident with fractures; he is allergic to codeine. The documented diagnoses were ESRD due to FSGS, hepatitis C, and hypertension. The treatment plan included successful renal transplantation, initiation of a study protocol (FTY720), and discharge medications such as trimethoprim-sulfamethoxazole, valganciclovir, pantoprazole, docusate, nystatin, diphenhydramine, and acetaminophen. The patient was discharged home in stable condition with instructions for medication adherence, monitoring for complications, and scheduled follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with a request to check on kidney health due to a history of end-stage renal disease (ESRD) from focal segmental glomerulosclerosis. The patient denied any new symptoms, including swelling, changes in urine output, fatigue, blood pressure issues, muscle cramps, infections, changes in appetite or weight, difficulty concentrating, memory problems, or decreased energy levels. The patient is not currently on dialysis and reported no changes or issues with their medication regimen, stating they are taking Nephrocaps as a supplement for their kidney condition. No physical findings were described during the visit. The doctor assessed that the patient's kidney condition appears stable with no new symptoms or concerning changes. The doctor recommended continuing the current supplement and routine, emphasized the importance of regular monitoring through scheduled lab tests and follow-up appointments, and advised the patient to report any new symptoms such as persistent fatigue, swelling, changes in urination, or trouble concentrating. The patient expressed understanding of the recommendations and agreed to maintain follow-ups.
+The patient is an adult presenting for follow-up regarding end-stage renal disease (ESRD) secondary to focal segmental glomerulosclerosis. The patient reports no new symptoms, including no swelling, changes in urine output, fatigue, blood pressure issues, muscle cramps, infections, appetite or weight changes, cognitive difficulties, or decreased energy. The patient is not currently on dialysis and has had no recent changes in medication regimen. The only documented medication is Nephrocaps, a supplement for kidney health. The clinical impression is stable ESRD without new or worsening symptoms. The treatment plan is to continue the current supplement and routine, with regular monitoring through scheduled lab tests and follow-up appointments. The patient was advised to report any new symptoms such as persistent fatigue, swelling, changes in urination, or cognitive changes promptly. No additional interventions were recommended at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.648
+- **Model Used**: general
+- **Text1 Length**: 140 words
+- **Text2 Length**: 135 words
+
 
 ## Processing Information
 

@@ -96,3 +96,21 @@ For now, I’d recommend making sure you’re drinking enough fluids, pacing you
 ## Processing Information
 
 - **Processing Time**: 453.2s
+
+## EHR Summary
+
+The patient is a 74-year-old male presenting with decreased attention, increased lethargy, and increased right-sided weakness. Symptoms included right-sided weakness (strength 4+ to 4-/5), right-sided drift, and lethargy, with onset noted by family prior to admission. His history is significant for hepatic encephalopathy with cirrhosis, insulin-dependent diabetes mellitus, coronary artery disease status post coronary artery bypass grafting, atrial fibrillation, gout, myelodysplastic syndrome, and myelofibrosis. On admission, physical exam confirmed right-sided weakness and lethargy; head CT showed a stable chronic left subdural hematoma with 8 mm midline shift. The documented diagnosis was chronic left subdural hematoma with associated neurological symptoms. Treatment included correction of coagulopathy and twist drill bedside drainage of the subdural hematoma, resulting in clinical improvement. He also had an episode of atrial fibrillation managed by switching from Lopressor to atenolol. Discharge medications were adjusted accordingly, and follow-up with repeat head CT in three to four weeks was recommended; the patient was discharged in stable condition.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with the chief complaint of increased tiredness and difficulty focusing. Symptoms have been present for a few days, with the patient describing persistent fatigue despite normal sleep, and trouble maintaining attention during activities such as reading or watching TV; taking short breaks provides only minimal relief. There are no associated symptoms such as fever, headache, appetite changes, or mood disturbances, and no recent changes in medications, diet, or routine. The patient reports that these symptoms are making daily activities more difficult and also mentions noticing some increased weakness on the right side. The doctor’s assessment suggests the symptoms may be due to a mild viral illness, dehydration, or a temporary dip in energy, with no clear triggers identified. The treatment plan includes recommendations for increased rest, adequate hydration, and pacing activities, with instructions to monitor for worsening symptoms or new issues such as confusion or balance problems. The patient is advised to contact their healthcare provider if symptoms do not improve within a week or if they worsen.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.495
+- **Model Used**: general
+- **Text1 Length**: 157 words
+- **Text2 Length**: 174 words
+

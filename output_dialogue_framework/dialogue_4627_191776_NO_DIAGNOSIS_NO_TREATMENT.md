@@ -87,16 +87,21 @@ Does this explanation make sense, or is there anything else you'd like to discus
 
 ## EHR Summary
 
-The patient is a 24-year-old female presenting with shortness of breath and a feeling of suffocation. Symptoms had been ongoing for approximately one year prior to admission. Her past medical history includes borderline high cholesterol, gastroesophageal reflux disease, heartburn, abnormal menses, and a history of feeling suffocated; she takes Celexa as needed and is allergic to Sudafed. On physical exam, she was afebrile, stable, and in no acute distress, with a 3/6 murmur at the left lower sternal border but otherwise normal findings. Workup revealed an atrial septal defect (ASD). She underwent minimally invasive ASD repair during this admission. Postoperatively, she required increased oxygen and was found to have a large pleural effusion but no pulmonary embolism; she was treated with diuretics, chest physical therapy, Percocet for pain, and low-dose beta blockers, resulting in improved oxygen saturation.
+The patient is a 24-year-old female presenting with a history of shortness of breath and a feeling of suffocation. Symptoms began a year prior to admission and led to the diagnosis of atrial septal defect (ASD). Her past medical history includes borderline high cholesterol, heartburn, gastroesophageal reflux disease, and abnormal menses; she takes Celexa as needed and is allergic to Sudafed. On this admission, she underwent minimally invasive ASD closure. Postoperatively, she experienced increased oxygen requirements and a large pleural effusion, which were managed with diuresis, chest physical therapy, and supplemental oxygen, resulting in improvement. Pain was managed with Percocet, Motrin, and PCA, and she was started on additional medications including ASA, Zantac, Colace, K-Ciel, and Lasix. The documented diagnoses at discharge were ASD status post closure, borderline high cholesterol, heartburn, gastroesophageal reflux disease, and abnormal menses. She was discharged home in stable condition with instructions for follow-up with her surgeon in four to six weeks and her primary care physician in one to two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with difficulty catching her breath and a sensation of suffocation. She reported that the shortness of breath began a few days ago, is persistent, and worsens with physical activity and stress, though it can also occur at rest; she finds it challenging to walk or talk without becoming out of breath. She denied chest pain, wheezing, cough, swelling in her legs or feet, fatigue, dizziness, or lightheadedness. Additionally, she noted her menstrual periods have become irregular, with changes in timing and lighter flow, but no missed periods. No relevant medical history, medications, or allergies were mentioned. The doctor found the absence of chest pain and other concerning symptoms reassuring and assessed that her breathing difficulties and menstrual changes may be linked to stress, mild anxiety, or hormonal fluctuations. The doctor recommended stress management strategies such as regular exercise (as tolerated), relaxation techniques, and seeking support, with instructions to follow up if symptoms worsen or new symptoms develop.
+The patient is a female presenting with the chief complaint of shortness of breath and a sensation of suffocation. She reports that these symptoms have been present for a few days, build up gradually, and are worsened by physical activity and stress, though they can also occur at rest. The dyspnea is significant enough to impact daily activities such as walking and talking. She denies associated symptoms such as chest pain, wheezing, cough, swelling, fatigue, or dizziness. Additionally, she notes recent menstrual irregularities, including periods that are sometimes late and lighter than usual. The clinical impression discussed was that her symptoms may be related to stress, mild anxiety, or hormonal fluctuations, with no evidence of acute cardiopulmonary issues. The treatment plan included recommendations for stress management strategies such as regular exercise (as tolerated), relaxation techniques, and monitoring for any new or worsening symptoms that would warrant urgent evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.532
+- **Model Used**: general
+- **Text1 Length**: 166 words
+- **Text2 Length**: 148 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ If your appetite continues to decrease or you find it increasingly difficult to 
 
 ## EHR Summary
 
-The patient is an 85-year-old woman presenting with painless jaundice, dark urine, pruritus, constipation, decreased appetite, early satiety, and a 10-pound weight loss. These symptoms led to the discovery of an ampullary mass during ERCP with biopsy. Her past medical history includes two breast lumps, varicose veins, and prior tonsillectomy and adenoidectomy; she has no known drug allergies and takes only a multivitamin and Tums. On admission, she underwent a pylorus-preserving pancreaticoduodenectomy (Whipple procedure) and open cholecystectomy. Postoperatively, she developed slow oozing requiring multiple blood transfusions, a falling hematocrit, and abdominal tenderness, prompting a return to the operating room where hemoperitoneum was found but no active bleeding source was identified. All surgical anastomoses were intact. She was managed postoperatively in the ICU, remaining intubated and receiving Levofloxacin and Flagyl for suspected aspiration pneumonia. The documented diagnosis was ampullary mass with postoperative hemoperitoneum and possible aspiration pneumonia.
+The patient is an 85-year-old woman presenting with painless jaundice, dark urine, pruritus, constipation, decreased appetite, early satiety, and a 10-pound weight loss. These symptoms led to the discovery of an ampullary mass during ERCP with biopsy. Her relevant history includes two breast lumps, varicose veins, tonsillectomy, adenoidectomy, and no known drug allergies; she takes only a multivitamin and Tums. The documented diagnosis is an ampullary mass with associated obstructive symptoms. She underwent a pylorus-preserving pancreaticoduodenectomy (Whipple procedure) and open cholecystectomy, complicated by postoperative hemoperitoneum requiring reoperation, prolonged intubation, and management for possible aspiration pneumonia. Additional complications included bilious drain output and rising white count, managed with octreotide, TPN, antibiotics (Zosyn), and supportive care. She received morphine for pain, Lopressor for heart rate control, Lasix for fluid management, and pulmonary toileting with physical therapy. At discharge, she was stable in the ICU and scheduled for transfer to the floor with plans for rehabilitation.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening weakness, making it harder to move around and complete daily activities. Symptoms included overall decreased strength, reduced ability to prepare meals due to low energy, and a diminished appetite with difficulty finishing meals; the patient denied dizziness, lightheadedness, recent illness, medication changes, or sleep disturbances. The patient reported spending most of the day sitting and being less active than usual but could still dress and bathe independently. No relevant medical history, medication changes, or allergies were mentioned. On assessment, the doctor noted that the gradual decrease in strength and energy was likely related to reduced food intake and decreased activity, leading to possible deconditioning. The doctor recommended increasing gentle activity during the day, such as short walks inside the home, and focusing on easy-to-prepare, nutritious snacks and small meals. The patient was advised to report any new symptoms such as sudden confusion, trouble swallowing, or rapid decline in self-care, and to notify the doctor if appetite continues to decrease or eating becomes more difficult.
+The patient presents with the chief complaint of gradually increasing weakness, making daily activities more difficult. The weakness has developed over time, with associated decreased appetite and reduced energy, but without dizziness, lightheadedness, or recent illness. The patient reports no changes in sleep patterns and no recent medication adjustments. Functional limitations include difficulty preparing meals due to low energy, though the patient can still dress and bathe independently. The doctor notes that the patient spends most of the day sitting and is less active than before. The clinical impression is deconditioning, likely related to decreased activity and poor oral intake. The treatment plan includes recommendations for gentle increases in daily activity (such as short walks inside the home) and focusing on easy-to-prepare, nutritious snacks or small meals. The patient is advised to report any new symptoms or further decline in appetite or function to their healthcare team.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.923
-- **Similarity Label**: N/A
+- **STS Score**: 0.352
+- **Model Used**: general
+- **Text1 Length**: 153 words
+- **Text2 Length**: 147 words
+
 
 ## Processing Information
 

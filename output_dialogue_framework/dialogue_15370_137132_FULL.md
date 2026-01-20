@@ -87,16 +87,21 @@ Can you point to exactly where in your chest the pain is located? This helps me 
 
 ## EHR Summary
 
-The patient is a 79-year-old female presenting with chest pain. She experienced sudden onset substernal chest pain and left shoulder pain while watching television, accompanied by nausea and diaphoresis but no shortness of breath or vomiting; the pain was rated ten out of ten on arrival to the Emergency Department. Her past medical history includes osteoarthritis, seizure disorder (on Dilantin), neuropathy, pneumonia, hypothyroidism, depression, and multiple prior surgeries; she has no known drug allergies. Initial EMS electrocardiogram showed ST segment elevation (3.0 mm) in leads II, III, and aVF, with persistent ST changes in the Emergency Department. Cardiac risk factors include advanced age, hypertension, and extensive tobacco use. The documented diagnosis is not explicitly stated in the note, but findings are suggestive of an acute coronary syndrome with inferior ST elevation. Treatment included administration of aspirin, morphine sulfate, sublingual and intravenous nitroglycerin, and heparin, resulting in partial relief of pain.
+The patient is a 79-year-old female presenting with chest pain. She experienced sudden onset substernal chest pain and left shoulder pain, rated ten out of ten, accompanied by nausea and diaphoresis but no shortness of breath or vomiting; symptoms began while watching television the night prior to admission. Her past medical history includes hypertension, osteoarthritis, seizure disorder (on Dilantin), neuropathy, hypothyroidism, depression, and a significant tobacco use history. Electrocardiogram showed ST segment elevation in II, III, and aVF, and cardiac catheterization revealed two vessel coronary artery disease with acute occlusion of the right coronary artery. The documented diagnoses were two vessel coronary artery disease and acute inferior myocardial infarction managed by acute stenting of the right coronary artery. Treatment included aspirin, Plavix for four weeks, beta blocker (atenolol), intra-aortic balloon pump placement, temporary pacing wire, and transfusion for post-catheterization anemia. The patient was discharged in stable condition with recommendations for cardiac rehabilitation and follow-up with her primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with central chest pain as the chief complaint. The chest pain had been present for several days, was rated 6 out of 10 in severity, mostly constant but sometimes less intense, and was not affected by movement or deep breaths; resting provided slight relief. Associated symptoms included left shoulder pain (occurring simultaneously with chest pain), nausea, and unusual sweating; there was no cough, fever, shortness of breath, dizziness, or lightheadedness. The patient reported a history of mild anemia and a hematoma from a recent cardiac catheterization, with no swelling, redness, warmth near the hematoma, or new leg symptoms. On examination, the pain was localized to the center of the chest behind the breastbone and did not radiate or change with movement. The doctor noted that while muscle strain or anxiety could be possible causes, the combination of chest pain, shoulder discomfort, nausea, and sweating warranted consideration of cardiac causes given the recent procedure. The doctor advised close monitoring of symptoms and recommended seeking prompt medical care if pain increased, new shortness of breath or fainting occurred, or if the pain became severe or spread. Rest and hydration were suggested for mild symptoms, but further evaluation may be needed to rule out serious causes.
+The patient is an adult presenting with central chest pain as the chief complaint. The chest pain has been present for several days, is rated 6 out of 10 in severity, is mostly constant, and is accompanied by left shoulder pain, nausea, and unusual sweating; resting provides slight relief, and the pain does not change with movement or deep breathing. There is no associated cough, fever, shortness of breath, dizziness, or leg symptoms. The patient has a history of recent cardiac catheterization, mild anemia, and a hematoma at the catheterization site without signs of local infection or new leg symptoms. The clinical impression is that while muscle strain or anxiety could be possible causes, the combination of symptoms and recent cardiac history raises concern for a possible cardiac etiology. The treatment plan includes close monitoring of symptoms and instructions to seek prompt medical care if pain worsens, new shortness of breath or fainting occurs, or if the pain becomes severe or spreads. Rest and hydration were suggested for mild symptoms. Further evaluation may be needed to rule out more serious causes.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.646
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 181 words
+
 
 ## Processing Information
 

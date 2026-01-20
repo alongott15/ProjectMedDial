@@ -87,16 +87,21 @@ Let’s arrange for some basic tests to help clarify the cause—such as a heart
 
 ## EHR Summary
 
-The patient is a 72-year-old female presenting with progressive chest discomfort and shortness of breath. She reports right-sided chest pressure occurring daily for the past two years, both at rest and with exertion, consistently relieved by sublingual nitroglycerin. She also experiences worsening dyspnea on exertion, now triggered by walking as little as thirty feet. Her medical history includes coronary artery disease with a totally occluded right coronary artery, a 50–60% left circumflex lesion, and bilateral carotid stenosis (70–79%). On physical exam, she was alert and oriented, with a 2/6 holosystolic murmur at the left sternal border and bilateral carotid bruits; lungs were clear and peripheral pulses were intact. Recent exercise testing showed mild fixed anterior septal defect without ischemia and an ejection fraction of 57%. The documented clinical impression is progressive angina and dyspnea likely secondary to coronary artery disease. She continues on medical management and is scheduled for further carotid testing and radiology.
+The patient is a 72-year-old woman presenting with progressive chest discomfort and shortness of breath. Her chest discomfort, described as right-sided chest pressure, has been present for two years and now occurs daily at rest and with exertion, consistently relieved by sublingual nitroglycerin. She also reports worsening dyspnea on exertion, now triggered by walking as little as thirty feet. Relevant history includes coronary artery disease, hypertension, hyperlipidemia, diabetes with neuropathy, carotid artery disease, and hypothyroidism. Cardiac catheterization revealed 50% left main coronary artery stenosis, 80% mid left circumflex stenosis, and a proximally occluded right coronary artery. The documented plan was to proceed with carotid endarterectomy (CEA) prior to coronary artery bypass grafting (CABG), as coordinated between cardiothoracic and vascular surgery teams. No new medications or additional treatments were specified in this note.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening chest discomfort. Symptoms included a pressure sensation on the right side of the chest that is aggravated by physical activity and relieved by rest, associated with shortness of breath and increased fatigue during exercise; no sweating, lightheadedness, palpitations, cough, fever, or cold symptoms were reported. The patient noted that the discomfort has made everyday activities such as walking and shopping more difficult. No relevant medical history, medications, or allergies were mentioned in the conversation. On clinical review, the doctor noted the chest pressure is exertional, localized, and not accompanied by respiratory or cardiac symptoms such as cough or palpitations. The doctor assessed that while muscle strain is possible, heart or lung conditions cannot be ruled out given the impact on daily life and symptom characteristics. The doctor recommended avoiding activities that trigger the pressure, taking breaks as needed, and watching for warning signs such as severe pain, trouble breathing at rest, sweating, or nausea. Further evaluation was advised, including a heart check-up and possibly a chest X-ray.
+The patient presents with chest discomfort as the chief complaint. The discomfort is described as a pressure on the right side of the chest that has been worsening over time, is triggered by physical activity, and is relieved by rest; it is accompanied by shortness of breath and increased fatigue during exertion, but not by sweating, lightheadedness, palpitations, cough, fever, or cold symptoms. The symptoms have made daily activities such as walking and shopping more difficult. No relevant past medical history, medications, or allergies were specified in the dialogue. The clinical impression is that while muscle strain is possible, cardiac or pulmonary causes cannot be ruled out, especially given the impact on daily life and the exertional nature of symptoms. The treatment plan includes avoiding activities that provoke symptoms, taking breaks as needed, and monitoring for warning signs such as severe pain, dyspnea at rest, sweating, or nausea. The doctor recommended further evaluation with basic tests including a heart check-up and possibly a chest X-ray. The patient was advised to seek urgent care if new or severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.576
+- **Model Used**: general
+- **Text1 Length**: 132 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

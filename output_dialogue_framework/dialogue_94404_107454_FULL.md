@@ -85,16 +85,23 @@ Let me know if you have questions about managing these symptoms at home or if yo
 
 ## EHR Summary
 
-The patient is a 40-year-old male presenting with alcohol withdrawal. He experienced agitation, confusion, tremulousness, tachycardia (HR 106), hypertension (BP 157/117), and a high CIWA score of 30, with symptoms worsening prior to admission and requiring increasing doses of lorazepam. Relevant history includes depression, suicidal ideation, alcohol abuse, hyperlipidemia, anxiety, obstructive sleep apnea, GERD, and no known drug allergies. On arrival, he was sedated, denied pain, and was unable to provide details about his last alcohol intake. Physical exam findings included tachycardia, hypertension, tremor, and an oxygen saturation of 96% on room air. The documented diagnosis was alcohol withdrawal. Treatment included administration of 15 mg IV diazepam, 2 liters of normal saline, and 5 mg haloperidol for agitation. The patient was monitored and managed for withdrawal symptoms during admission.
+The patient is a 40-year-old male presenting with alcohol withdrawal. He experienced agitation, confusion, tremulousness, tachycardia (HR up to 109), hypertension (BP up to 157/117), and a high CIWA score of 30, with symptoms improving after administration of IV diazepam and lorazepam. Relevant history includes depression, suicidal ideation, alcohol abuse, hyperlipidemia, obstructive sleep apnea, GERD, and possible NASH; there are no known drug allergies. The documented diagnoses were alcohol withdrawal, depression, transaminitis (elevated liver enzymes likely due to alcohol use), and GERD. Treatment included benzodiazepines (diazepam and lorazepam), supportive care with IV fluids, multivitamin, thiamine, folate, continuation of PPI for GERD, and psychiatric consultation. Upon discharge, the patient was stable, tolerating oral intake, and ambulating, and was transferred to an extended care psychiatric facility. Discharge medications included bupropion, pantoprazole, lorazepam, senna, and docusate sodium. Follow-up with primary care was advised within 1-2 weeks to monitor liver function tests.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble related to alcohol withdrawal. Symptoms discussed included morning-predominant shakiness that sometimes persists throughout the day, agitation, difficulty focusing at work, confusion (without disorientation), poor sleep quality with trouble falling and staying asleep, daytime tiredness and sluggishness, and worsening anxiety and depression; the patient denied sweating, heart racing, appetite changes, or hallucinations. The patient reported stopping alcohol suddenly a few days ago, with symptoms beginning soon after cessation. No history of severe withdrawal symptoms such as hallucinations or major disorientation was noted. On assessment, the doctor concluded the patient is experiencing mild to moderate alcohol withdrawal symptoms, including tremors, fatigue, sleep disturbance, agitation, and mild confusion. The doctor advised that these symptoms typically improve over several days and recommended staying hydrated, eating regular meals, and resting as supportive measures. The patient was instructed to seek medical attention if severe confusion, fever, chest pain, or hallucinations develop. The doctor also offered to discuss management strategies for anxiety and depression during withdrawal.
+The patient is an adult presenting with concerns related to alcohol withdrawal. Key symptoms include morning-predominant tremors (shakiness), persistent fatigue and drowsiness, difficulty with sleep initiation and maintenance, daytime sluggishness, agitation, and intermittent mild confusion, but without hallucinations, severe disorientation, sweating, palpitations, or appetite changes. These symptoms began a few days ago after the patient abruptly stopped drinking alcohol; the patient also reports worsening anxiety and depression during this period. There is no mention of relevant medical history, medications, or allergies.
+
+The documented clinical impression is mild to moderate alcohol withdrawal syndrome. The physician advised that these symptoms typically improve over several days and recommended supportive measures such as staying hydrated, eating regular meals, and resting. The patient was instructed to seek immediate medical attention if severe symptoms develop, including hallucinations, major confusion, fever, or chest pain. Further advice regarding management of anxiety and depression during withdrawal was offered if the patient desired.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.612
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

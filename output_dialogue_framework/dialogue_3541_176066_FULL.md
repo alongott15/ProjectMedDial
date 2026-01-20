@@ -87,16 +87,23 @@ In the meantime, try to rest and avoid activities that could put you at risk if 
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with chronic left infraorbital and cheek pain, described as facial pain persisting for 3-4 years, partially relieved by Tegretol. He had no neurological deficits, seizures, incontinence, or falls prior to admission. Imaging revealed a left petrous sphenoid meningioma compressing the brainstem. The documented diagnosis was status post craniotomy for excision of meningioma. He underwent a left presigmoid occipital craniotomy for tumor removal, with an unremarkable intraoperative course and stable pre- and postoperative condition. Postoperatively, he experienced transient diplopia that resolved before discharge and had a brief drop in platelet count treated with one unit of platelets. Physical and occupational therapy evaluations noted a slightly unsteady gait, for which he was provided a cane and advised to use assistance when walking at home. Follow-up PT and OT were arranged for continued rehabilitation.
+The patient is a 58-year-old male presenting with chronic left infraorbital and cheek pain, described as facial pain persisting for 3-4 years and partially relieved by Tegretol. He had no neurological deficits, seizures, incontinence, or falls prior to admission. Imaging revealed a left petrous sphenoid meningioma compressing the brainstem. The documented diagnosis was status post craniotomy for excision of meningioma. He underwent a left presigmoid occipital craniotomy for tumor removal, with an unremarkable intraoperative and stable postoperative course. Postoperatively, he experienced transient diplopia and a slightly unsteady gait, for which he was provided a cane and received physical and occupational therapy evaluations. At discharge, his condition was stable, and he was advised not to walk unassisted, with arrangements for home PT/OT follow-up and caregiver support. He was instructed to have his staples removed prior to his follow-up appointment and received discharge instructions with interpreter assistance.
+
 
 ## Dialogue Summary
 
-The patient presented with pain on the left side of the face, particularly around the cheek and just below the eye. The pain was described as dull, constant since onset a few days ago, and moderately uncomfortable but not interfering with daily activities. Additional symptoms included persistent double vision and a feeling of unsteadiness, both starting around the same time as the facial discomfort; no nasal congestion, changes in smell, or swelling were reported. The patient noted that symptoms did not fluctuate with activity or position and remained moderate in severity. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the combination of facial discomfort, double vision, and unsteadiness was atypical for simple sinus issues or mild infection and could indicate nerve involvement or a problem affecting structures near the eye or brain. The doctor recommended prompt in-person evaluation within the next day or two and advised seeking immediate care if new symptoms such as weakness, numbness, severe headache, difficulty speaking, or worsening balance occurred. The patient was also advised to rest and avoid risky activities due to unsteadiness.
+The patient is an adult presenting with left-sided facial pain, primarily around the cheek and below the eye. The pain is described as dull, moderate in severity, constant since onset a few days ago, and not affected by activity or position. Associated symptoms include persistent double vision and a moderate sense of unsteadiness, both of which began at the same time as the facial discomfort. The patient denies nasal congestion, changes in sense of smell, or swelling.
+
+There is no relevant past medical history, medications, or allergies documented. The clinical impression is that the combination of facial discomfort, double vision, and unsteadiness is atypical for simple sinusitis or mild infection and may indicate possible nerve involvement or pathology affecting the eye or brain. The treatment plan includes a recommendation for prompt in-person evaluation within 1–2 days to rule out significant underlying causes, with instructions to seek immediate care if new neurological symptoms develop. The patient was also advised to rest and avoid activities that could increase risk due to unsteadiness.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.392
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

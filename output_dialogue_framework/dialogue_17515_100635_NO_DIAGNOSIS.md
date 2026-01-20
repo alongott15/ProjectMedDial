@@ -63,16 +63,21 @@
 
 ## EHR Summary
 
-The patient is a 48-year-old male presenting with chest pain. He reported no prior cardiac or hypertensive history and is an ex-smoker. On evaluation, he was found to have elevated left ventricular end-diastolic pressure (LVEDP 30), apical inferior and posterior basal akinesis, moderate-to-severe mitral regurgitation, and a reduced ejection fraction of approximately 30%. Cardiac catheterization revealed significant coronary artery disease with 100% occlusion of the left anterior descending and right coronary arteries, and severe stenosis in other vessels. Electrocardiogram showed normal sinus rhythm with Q-waves in II, AVF, and ST elevation in V1 and V3. The documented diagnosis was severe multivessel coronary artery disease with mitral regurgitation. He underwent coronary artery bypass grafting (CABG) times four and mechanical mitral valve replacement (MVR). At discharge, his condition was stable, and he was prescribed Lipitor, Aspirin, Lopressor, Percocet as needed, and Coumadin.
+The patient is a 48-year-old male presenting with chest pain. He was found to have elevated left ventricular end-diastolic pressure (LVEDP 30), apical inferior and posterior basal akinesis, moderate-to-severe mitral regurgitation, and a reduced ejection fraction of approximately 30%. Cardiac catheterization revealed significant coronary artery disease, including 100% occlusion of the left anterior descending and right coronary arteries. His past medical history includes ex-smoking but no prior cardiac or hypertensive history. The documented diagnoses were severe multivessel coronary artery disease and mitral regurgitation. He underwent coronary artery bypass grafting (CABG) times four and mechanical mitral valve replacement (MVR). Postoperative recovery was uneventful, and he was discharged in stable condition on medications including Lipitor, Aspirin, Lopressor, Percocet, Coumadin, and Ranitidine, with follow-up arranged for surgical and cardiology care.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest pain began a few days ago and occurs intermittently throughout the day; its duration during each episode is unclear. The patient reported that physical activity does not worsen the pain, resting sometimes provides some relief, and there is no association with eating. No additional symptoms such as shortness of breath, sweating, or lightheadedness were reported. No relevant medical history, medications, or allergies were mentioned. There were no physical findings described in the conversation. The doctor did not provide a specific assessment or working diagnosis during this encounter. No treatment plan or recommendations were given in the documented dialogue.
+The patient is presenting with chest pain as the chief complaint. The chest pain began a few days ago and occurs intermittently throughout the day, without a clear duration for each episode. Physical activity does not exacerbate the pain, and resting sometimes provides partial relief; there is no association with eating. The patient denies associated symptoms such as dyspnea, diaphoresis, or lightheadedness. Relevant medical history, medications, allergies, and a documented diagnosis are not specified in the dialogue. No specific treatment or recommendations were documented during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.948
-- **Similarity Label**: N/A
+- **STS Score**: 0.421
+- **Model Used**: general
+- **Text1 Length**: 127 words
+- **Text2 Length**: 87 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ Does that plan make sense to you, or is there anything else about your symptoms 
 
 ## EHR Summary
 
-The patient is a 74-year-old female admitted for an unspecified reason. Symptom details and chief complaint are not documented in this note. Relevant history includes management with Coumadin, with a goal INR of 3.0; her INR on discharge was 2.1. No allergies or additional medical history are specified. Physical exam findings and specific diagnosis are not documented. The treatment plan includes discharge on a Coumadin dose ranging from 2 to 5 mg, with no heparin to be administered. The patient is advised to follow up with her physician in approximately three weeks.
+The patient is a 74-year-old female admitted for an unspecified reason. Symptom details and chief complaint are not documented in this note. Relevant history includes management with Coumadin, with a goal INR of 3.0; her INR on discharge was 2.1. The specific diagnosis is not stated in the provided text. The treatment plan includes discharge on a Coumadin dose ranging from 2 to 5 mg, with no heparin to be administered. She is advised to follow up with her physician in approximately three weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath during exertion, particularly when walking or climbing stairs. Symptoms have progressively worsened over the past few weeks and are now more noticeable with activity; the patient also experiences left arm discomfort during these episodes, which resolves with rest. No associated lightheadedness, nausea, sweating, cough, wheezing, or swelling in the legs or ankles was reported. The patient has had to slow down activities and take breaks due to these symptoms but does not experience breathing difficulties at rest. The doctor noted that symptoms are exertional and improve with rest, without other concerning features on review of systems. The assessment was possible angina, with concern for reduced blood flow to the heart during activity. The doctor recommended further evaluation including an EKG and possible cardiology referral, advised the patient to avoid overexertion, and instructed to report any worsening symptoms such as chest pain at rest, severe shortness of breath, or fainting. The patient understood and agreed with the plan.
+The patient is an adult presenting with exertional shortness of breath as the chief complaint. Symptoms have been worsening over several weeks and are triggered by physical activity, especially stair climbing, with associated left arm discomfort that resolves with rest. The patient denies chest pain, lightheadedness, nausea, sweating, cough, wheezing, or peripheral edema, and reports no symptoms at rest. The symptoms have led to decreased exercise tolerance and the need to slow down daily activities. Relevant medical history, medications, and allergies are not specified. The clinical impression documented is possible angina due to exertional dyspnea and arm discomfort relieved by rest. The treatment plan includes scheduling further evaluation with an EKG and possible cardiology referral, advising the patient to avoid overexertion, and to seek immediate care if symptoms worsen or occur at rest.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.903
-- **Similarity Label**: N/A
+- **STS Score**: 0.313
+- **Model Used**: general
+- **Text1 Length**: 84 words
+- **Text2 Length**: 133 words
+
 
 ## Processing Information
 

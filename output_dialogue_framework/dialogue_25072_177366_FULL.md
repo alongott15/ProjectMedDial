@@ -87,16 +87,21 @@ Let me know if you have any questions about what we discussed or next steps.
 
 ## EHR Summary
 
-The patient is an elderly female presenting with black stools. She reported two days of melena, associated with nausea and several days of epigastric/sternal pain, but denied vomiting, chest pain, shortness of breath, lightheadedness, or dizziness. Her medical history includes gastroesophageal reflux disease, peptic ulcer disease, hypertension, benign positional vertigo, dementia, depression, and normal pressure hydrocephalus; she takes Norvasc, Zoloft, aspirin, Os-Cal, Pepcid, Vioxx, and Miacalcin. On examination, she was in no apparent distress with stable vital signs and a soft, nontender abdomen; a II/VI systolic ejection murmur was noted. The electrocardiogram was normal. The clinical impression is gastrointestinal bleeding likely secondary to peptic ulcer disease. The treatment plan is not specified in the note.
+The patient is a female over 90 years old presenting with black stools. She reported two days of melena, associated with nausea and several days of epigastric/sternal pain, but denied vomiting, chest pain, shortness of breath, lightheadedness, or dizziness. Her history includes gastroesophageal reflux disease, peptic ulcer disease, hypertension, dementia, and multiple falls; she has no known drug allergies and was taking Norvasc, Zoloft, aspirin, Os-Cal, Pepcid, Vioxx, and Miacalcin on admission. The documented diagnoses were upper gastrointestinal bleed, gastroesophageal reflux disease, hypertension, and urinary tract infection. She was treated with intravenous Protonix, held aspirin and Vioxx, received blood transfusions for dropping hematocrit, and was managed with supportive care including NPO status and later diet advancement. Gastroenterology was consulted but endoscopy was deferred due to her advanced age and DNR/DNI status. She was also started on a three-day course of ciprofloxacin for a urinary tract infection. The patient remained hemodynamically stable and was discharged back to her care facility with follow-up arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about feeling mentally "off," specifically noting decreased clarity of mind. Symptoms included gradually worsening memory and thinking, right-sided weakness affecting tasks such as holding objects and walking, and intermittent episodes of confusion about location or situation; no changes in speech, vision, or balance were reported. The patient denied recent illnesses, injuries, or changes in medications or routine. These symptoms have impacted the patient's ability to manage household tasks and social activities, leading to increased need for assistance. On assessment, the doctor noted the combination of cognitive changes, right-sided weakness, and episodes of confusion, which may be related to conditions affecting the brain such as age-related changes, blood flow issues, medication effects, metabolic changes, or small strokes. The doctor recommended further evaluation including blood tests and brain imaging to clarify the cause. Advice was given to ensure support at home and avoid risky situations due to confusion or weakness, with instructions to seek immediate help if sudden worsening or new symptoms occur. The patient expressed understanding and agreed to follow the recommendations.
+The patient presents with concerns about worsening mental clarity, specifically memory and thinking difficulties. Symptoms have developed gradually and include right-sided weakness affecting daily activities, as well as intermittent episodes of confusion without clear triggers. The patient denies changes in speech, vision, or balance and reports no recent illnesses, injuries, or medication changes. There is no documented relevant medical history or allergies in the dialogue. The clinical impression is that these symptoms may be due to conditions affecting the brain, such as age-related changes, vascular issues, medication effects, metabolic disturbances, or small strokes. No definitive diagnosis is documented at this time. The treatment plan includes arranging further evaluation with blood tests and brain imaging to clarify the cause. The patient is advised to ensure support at home, avoid risky situations due to confusion or weakness, and seek immediate help if symptoms suddenly worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.925
-- **Similarity Label**: N/A
+- **STS Score**: 0.434
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 143 words
+
 
 ## Processing Information
 

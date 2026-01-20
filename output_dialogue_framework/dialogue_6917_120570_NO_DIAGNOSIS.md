@@ -85,16 +85,21 @@ In the meantime, if you ever develop severe chest pain, trouble breathing, or ac
 
 ## EHR Summary
 
-The patient is a 73-year-old woman presenting with chest pain associated with nausea and mild dizziness. She denied emesis, diaphoresis, shortness of breath, lower extremity edema, or recent weight gain, and reported occasional palpitations; her pain improved in the Emergency Room. Her past medical history includes coronary artery disease, diabetes mellitus type 2, aortic stenosis, hypertension, hypercholesterolemia, anemia, and bilateral subclavian stenosis. On admission, her heart rate was 57 bpm, blood pressure 199/54 mmHg, respiratory rate 14, and oxygen saturation 98% on 2 liters; physical exam was notable for stable vital signs and no acute distress. The clinical impression was to rule out myocardial infarction. She was started on a nitroglycerin drip and given aspirin, Pepcid, GI cocktail, and Zofran. The patient was admitted for further cardiac evaluation and management.
+The patient is a 73-year-old woman presenting with chest pain associated with nausea and mild dizziness, but without shortness of breath or diaphoresis. Her symptoms improved in the Emergency Room after initiation of a nitroglycerin drip and aspirin. Relevant history includes coronary artery disease, diabetes mellitus type 2, aortic stenosis, hypertension, hypercholesterolemia, anemia, and allergies to senna, shellfish, and intravenous contrast. The documented diagnoses were coronary artery disease status post coronary artery bypass grafting (CABG) times one with a saphenous vein graft to the posterior descending coronary artery, and aortic stenosis status post aortic valve replacement with a #19 Mosaic porcine valve. During hospitalization, she underwent successful aortic valve replacement and CABG, followed by an uneventful postoperative course. She was treated with beta blockers, diuretics, and her preoperative medications were resumed; additional medications included aspirin, furosemide, potassium chloride, insulin sliding scale, and pain/nausea management as needed. At discharge, her condition was good and she was transferred to rehabilitation with instructions for follow-up in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. She described the pain as a pressure or tightness in her chest, with episodes lasting a few minutes and occurring randomly without clear triggers. Associated symptoms included nausea, intermittent dizziness (feeling like she might faint or lose balance, not spinning), and occasional palpitations, especially during these episodes; she denied shortness of breath or sweating. The dizziness sometimes required her to sit down, though she had not actually fainted. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that her symptoms could be related to changes in blood pressure, heart rhythm irregularities, or anxiety, but emphasized the need to rule out more serious causes due to the chest pressure and near-fainting. The doctor recommended an EKG and basic blood tests to further evaluate her heart and advised her to seek immediate care if she developed severe chest pain, trouble breathing, or fainting. She was also instructed to keep track of episode timing and possible triggers.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is described as a pressure or tightness, lasting a few minutes per episode, and occurs randomly without clear triggers. Associated symptoms include nausea, brief dizziness (described as feeling about to faint or lose balance), and occasional palpitations, but no shortness of breath or sweating. The patient has needed to sit down during some episodes but has not experienced actual syncope. Relevant medical history, medications, and allergies are not specified. The clinical impression includes possible causes such as changes in blood pressure, heart rhythm irregularities, or anxiety, with a focus on ruling out cardiac causes. The treatment plan includes obtaining an EKG and basic blood tests to evaluate for urgent issues and advising the patient to seek immediate care if severe chest pain, dyspnea, or syncope occur. The patient was also instructed to track symptom episodes and potential triggers.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.969
-- **Similarity Label**: N/A
+- **STS Score**: 0.470
+- **Model Used**: general
+- **Text1 Length**: 167 words
+- **Text2 Length**: 154 words
+
 
 ## Processing Information
 

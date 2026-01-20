@@ -87,16 +87,23 @@ In the meantime, try to avoid activities where your safety might be at risk (lik
 
 ## EHR Summary
 
-The patient is a 59-year-old male presenting with left arm and leg weakness. Symptoms were associated with the discovery of a right posterior communicating artery aneurysm on MRI. His past medical history includes hypertension, right leg fracture, deep venous thrombosis, hypercholesterolemia, and colon polyps; he is allergic to ampicillin, iodine, and shellfish. On physical exam, he was well-appearing with stable vital signs and normal neurological findings postoperatively. The documented diagnosis was a right fetal posterior cerebral artery origin aneurysm. He underwent a right pterional craniotomy for aneurysm clipping without intraoperative complications. Postoperatively, he was alert, oriented, moving all extremities strongly, and ambulating without difficulty. The treatment plan included surgical clipping of the aneurysm and postoperative monitoring in the Surgical Intensive Care Unit followed by transfer to the regular floor.
+The patient is a 59-year-old male presenting with left arm and leg weakness. MRI revealed a right posterior communicating artery aneurysm, and he was admitted for possible coiling, which was unsuccessful due to a wide aneurysm neck. His past medical history includes hypertension, right leg fracture, deep venous thrombosis, hypercholesterolemia, and colon polyps; allergies include ampicillin, iodine, and shellfish. He subsequently underwent a right pterional craniotomy for clipping of the aneurysm without intraoperative complications. Postoperatively, he was alert, oriented, moving all extremities well, and had stable vital signs. A repeat angiogram on postoperative day 3 showed no residual aneurysm and good clip position. The documented diagnosis was right fetal posterior cerebral artery origin aneurysm. He was discharged home in stable condition with medications including Lipitor, hydrochlorothiazide, Percocet as needed, Decadron for a short course, and Benadryl, and advised to follow up in one month.
+
 
 ## Dialogue Summary
 
-The patient presented with recent onset weakness in the left arm and leg. The weakness began a few days ago, is constant throughout the day, and has made holding objects with the left hand and walking more difficult, though the patient can still perform most daily activities. There was no associated numbness, tingling, speech or vision changes, headaches, dizziness, or loss of balance reported. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted new unilateral weakness without other neurological symptoms, which can sometimes indicate a neurological issue such as nerve irritation, muscle strain, circulation problems, or potentially a problem in the brain or spinal cord. The doctor recommended an in-person evaluation within the next day or two for a physical exam and possible tests. The patient was advised to avoid risky activities and to seek immediate care if new symptoms such as facial drooping, trouble speaking, vision changes, or severe headache develop. The patient understood and agreed to follow these recommendations.
+The patient is an adult presenting with the chief complaint of recent onset weakness in the left arm and leg. The weakness has been present for a few days, is constant throughout the day, and does not improve with rest. The patient reports difficulty holding objects with the left hand and slight unsteadiness while walking but remains able to perform most daily activities; there is no numbness, tingling, speech or vision changes, dizziness, headache, or loss of balance. No relevant past medical history, medications, or allergies were discussed.
+
+The clinical impression is new unilateral weakness without other neurological deficits, which may indicate a neurological issue requiring further evaluation. The doctor recommended an in-person assessment within the next day or two for a physical exam and possible basic tests. The patient was advised to seek immediate care if new symptoms such as facial drooping, trouble speaking, vision changes, or severe headache develop. Additional advice included avoiding risky activities and monitoring for any changes in symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.412
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

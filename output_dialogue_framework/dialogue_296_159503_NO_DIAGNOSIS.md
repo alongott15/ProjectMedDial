@@ -87,16 +87,21 @@ Does anything seem to trigger these episodes of confusion or agitation, or do th
 
 ## EHR Summary
 
-The patient is a 73-year-old male presenting with chest pain. He experienced substernal chest pain radiating to the left arm that began while working on his boat and persisted for 20 minutes, unrelieved by Tums but relieved by nitroglycerin; he also reported weeks of indigestion-like symptoms prior to admission. He denied shortness of breath, nausea, vomiting, diaphoresis, fevers, chills, or sweats. On scene, ST elevations were noted on electrocardiogram. Cardiac catheterization revealed significant coronary artery disease, including 60–90% stenosis in the left anterior descending artery, 80% stenosis in the left circumflex, total occlusion of the obtuse marginal two and right coronary artery, and 90% stenosis in obtuse marginal three. The documented diagnosis was acute myocardial infarction with multivessel coronary artery disease. The patient was treated initially with aspirin and nitroglycerin, then transferred for emergent coronary artery bypass grafting.
+The patient is a 73-year-old male presenting with chest pain radiating to the left arm. He reported several weeks of indigestion unrelieved by Tums, followed by acute substernal chest pain while working, which persisted for 20 minutes and was partially relieved by nitroglycerin; he denied dyspnea, nausea, vomiting, or diaphoresis. Past medical and surgical history were negative, and he had no known drug allergies. Cardiac catheterization revealed significant multi-vessel coronary artery disease, including 60–90% stenoses and total occlusions in multiple vessels. The documented diagnosis was coronary artery disease, status post coronary artery bypass grafting times three. Treatment included emergent triple coronary artery bypass grafting, postoperative monitoring, electrolyte repletion, blood transfusions for anemia, and initiation of medications such as Lasix, potassium chloride, aspirin, Lopressor, Niferex, Tylenol, and Advil. The patient remained hemodynamically stable postoperatively, with transient ventricular tachycardia that resolved spontaneously. He was discharged in stable condition with instructions for follow-up with cardiothoracic surgery and his primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with sudden onset confusion and increased agitation over the past few days. Symptoms included difficulty keeping track of things, trouble following conversations, and feeling more on edge, with these changes interfering with daily activities such as managing routines and socializing. The patient denied recent illnesses, fevers, sleep disturbances, changes in appetite, hydration, bathroom habits, vision changes, headaches, weakness, or trouble walking; no medication changes were recalled. The confusion and agitation appeared randomly throughout the day and had remained stable without improvement or worsening. No physical findings were described during the visit. The doctor assessed that the sudden confusion and agitation could be related to factors such as infection, medication side effects, or dehydration, even in the absence of other symptoms. The doctor advised the patient to monitor for new symptoms (fever, changes in urination, worsening confusion), maintain hydration, keep routines normal, have someone check in regularly, and review medications with a pharmacist or doctor.
+The patient is an older adult presenting with acute onset confusion and increased agitation as the chief complaint. Symptoms include difficulty keeping track of routines, trouble following conversations, and increased agitation, all of which began suddenly over the past few days and have remained stable without improvement or worsening. The patient denies recent illness, fever, medication changes, sleep disturbances, appetite or hydration changes, and has not noticed other neurological symptoms such as headaches, vision changes, or weakness. These symptoms are interfering with daily activities such as managing routines and social interactions. No specific triggers for the confusion or agitation were identified. The clinical impression discussed was that sudden confusion and agitation in older adults can be related to infections, medication side effects, or dehydration, even in the absence of other symptoms. The treatment plan included monitoring for new symptoms (such as fever or changes in urination), maintaining hydration, keeping routines consistent, having someone check in regularly, and reviewing medications with a pharmacist or doctor. The patient was advised to seek prompt care if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.929
-- **Similarity Label**: N/A
+- **STS Score**: 0.332
+- **Model Used**: general
+- **Text1 Length**: 158 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

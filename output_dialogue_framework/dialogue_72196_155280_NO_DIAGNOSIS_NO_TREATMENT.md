@@ -85,16 +85,21 @@ If you start to feel very dizzy when standing up, notice confusion, or your urin
 
 ## EHR Summary
 
-The patient is a 75-year-old female presenting with nausea, vomiting, and increased watery ostomy output. Symptoms began on [2117-10-26] with intermittent vomiting, decreased oral intake, and ostomy output rising to 600-800cc daily of watery consistency since [2117-10-27]. She has a history of COPD on home oxygen, chronic prednisone use, diabetes mellitus type 2, hypertension, recent ischemic colitis status post total colectomy with end ileostomy, and chronic tracheostomy. She developed a resistant ESBL E. coli urinary tract infection at rehab on [2117-10-27] and has not yet received treatment due to antibiotic allergies; her Foley catheter was last changed on [2117-10-26]. Physical findings included progressive anemia (HCT 23-24) requiring transfusion and negative guiac testing for gastrointestinal bleeding. The documented clinical impression includes increased ostomy output, nausea/vomiting, and ESBL E. coli UTI. She was empirically started on IV Flagyl on [10-29] despite a negative C. difficile assay and received a unit of PRBC for anemia. Further management of her UTI was complicated by her cephalosporin and carbapenem allergies.
+The patient is a 75-year-old female presenting with nausea, vomiting, and increased watery output from her ileostomy. Symptoms began several days prior to admission, with ostomy output increasing to 600-800cc daily and associated decreased oral intake; she denied abdominal pain, fever, chills, or shortness of breath. Her medical history includes COPD on home oxygen, chronic tracheostomy, diabetes mellitus type 2, hypertension, diastolic heart failure, GERD, and recent total colectomy for ischemic colitis. She was diagnosed with Clostridium difficile small bowel infection (confirmed by positive stool study) and an ESBL E. coli urinary tract infection. Treatment included discontinuation of metronidazole due to side effects, initiation of oral vancomycin for C. difficile (to continue until 11/16), and a 10-day course of intravenous meropenem for the UTI (to complete on 11/9). Her nasogastric tube was removed at her request, with plans to monitor nutritional intake and consider replacement if needed. She was discharged to extended care with instructions for medication adherence and follow-up appointments with surgery and pulmonary specialists.
+
 
 ## Dialogue Summary
 
-The patient presented with nausea and intermittent vomiting as the chief complaint. Symptoms have persisted for several days, with nausea remaining constant and vomiting occurring after attempts to eat or drink; food and fluids tend to trigger these episodes. The patient reported increased, more watery ostomy output over the past few days, difficulty keeping fluids down, fatigue, daytime sleepiness, and decreased urine output suggestive of possible dehydration. No fever, abdominal pain, or signs of infection around the ostomy site were noted. The doctor assessed that the main concerns are poor fluid tolerance and increased ostomy output, which may lead to dehydration; absence of fever or pain makes a serious infection less likely. The doctor explained that gut irritation from mild infection, dietary changes, or medication could be contributing factors. The patient was advised to take small sips of clear fluids frequently, avoid large amounts at once, and seek medical attention if symptoms of severe dehydration (such as dizziness, confusion, or further decreased urine output) develop.
+The patient presents with nausea and intermittent vomiting as the chief complaint. Symptoms have persisted for several days, with ongoing nausea and vomiting episodes primarily triggered by attempts to eat or drink. The patient reports increased, more watery ostomy output, reduced oral intake, difficulty keeping fluids down, fatigue, daytime sleepiness, and decreased urine output, suggesting possible dehydration. There is no fever, abdominal pain, or signs of infection at the ostomy site. Relevant history includes the presence of an ostomy; no other medical history, medications, or allergies are specified. The clinical impression is likely gastrointestinal irritation leading to increased ostomy output and dehydration, with serious infection considered less likely due to the absence of fever or pain. The treatment plan includes frequent small sips of clear fluids (such as water or oral rehydration solutions), avoidance of large fluid volumes at once, and monitoring for signs of worsening dehydration (e.g., dizziness, confusion, further decreased urine output), with instructions to seek prompt medical attention if these occur. The patient was advised to rest and continue gentle hydration.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.477
+- **Model Used**: general
+- **Text1 Length**: 166 words
+- **Text2 Length**: 174 words
+
 
 ## Processing Information
 

@@ -89,16 +89,23 @@ Does that plan sound reasonable to you? Is there anything else you’d like to
 
 ## EHR Summary
 
-The patient is a 73-year-old male presenting with recent onset of angina with exertion. Symptoms began shortly before admission and were confirmed by a positive exercise tolerance test (ETT) on 2165-3-13. Relevant history includes insulin-dependent diabetes mellitus, hypercholesterolemia, possible hypertension, and a remote history of smoking; current medications are pravachol, aspirin, and insulin. On physical examination, he was in no acute distress with normal cardiovascular and respiratory findings. Laboratory results and electrocardiogram showed normal sinus rhythm with borderline first degree A-V block and left bundle branch block. The documented diagnoses were unstable angina and coronary artery disease, status post coronary artery bypass graft x4. Treatment included cardiac catheterization and coronary artery bypass grafting, with continuation of his prior medications.
+The patient is a 73-year-old male presenting with recent onset of angina with exertion. Symptoms included chest pain triggered by physical activity, leading to a positive exercise treadmill test and subsequent hospital transfer for further evaluation. Relevant history includes insulin-dependent diabetes mellitus, hypercholesterolemia, possible hypertension, and a remote history of smoking; medications on admission included pravachol, aspirin, and insulin. The documented diagnoses were unstable angina and coronary artery disease, with cardiac catheterization revealing significant three-vessel disease. The patient underwent urgent coronary artery bypass grafting x4 without significant complications and was started on beta blockade and anticoagulation preoperatively. Postoperatively, he had an uneventful recovery, was cleared by physical therapy, and discharged home on a cardiac/diabetic diet with adequate pain control and no anginal symptoms. Discharge medications included lopressor, aspirin, pravachol, lasix, potassium chloride, insulin, and humalog sliding scale. He was advised to follow up with his cardiologist within 1-2 weeks and continue ambulation and incentive spirometry.
+
 
 ## Dialogue Summary
 
-The patient presented with episodes of rapid and irregular heartbeat. Symptoms included a fast, out-of-rhythm heartbeat lasting several minutes, occurring randomly without identifiable triggers, and causing difficulty with daily activities due to concern about overexertion. The patient denied associated symptoms such as lightheadedness, chest discomfort, shortness of breath, leg swelling, or weight gain, and reported no change in frequency or severity of episodes. No relevant medical history, medications, or allergies were mentioned. The doctor noted the absence of concerning symptoms and described the episodes as possibly related to common arrhythmias such as atrial fibrillation. The doctor recommended tracking the timing and duration of episodes, checking pulse or blood pressure during events, and recording rhythm if possible; urgent care was advised if chest pain, fainting, or severe shortness of breath developed. An EKG and basic blood tests were suggested for further evaluation, and the patient was advised to listen to their body and avoid pushing themselves during episodes.
+The patient presents with episodes of rapid and irregular heartbeat as the chief complaint. These episodes occur randomly, last several minutes or longer, and gradually resolve without sudden termination. The symptoms make daily activities more difficult but are not associated with chest pain, dyspnea (shortness of breath), lightheadedness, leg swelling, or weight gain. There is no history of checking pulse or blood pressure during episodes, but an irregular heartbeat was noted by the patient's spouse.
+
+The clinical impression is that the symptoms may be due to a common arrhythmia such as atrial fibrillation or another heart rhythm disorder, though no definitive diagnosis was documented. The treatment plan includes monitoring and recording the timing and duration of episodes, checking pulse or blood pressure during events if possible, and arranging for an EKG and basic blood tests. The patient was advised to seek immediate medical attention if chest pain, fainting, or severe shortness of breath develops. Activity restriction was not advised, but the patient was counseled to avoid overexertion during episodes.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.504
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

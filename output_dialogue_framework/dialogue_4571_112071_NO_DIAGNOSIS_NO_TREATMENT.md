@@ -87,16 +87,21 @@ For now, I recommend pacing yourself with physical activity and noting any new s
 
 ## EHR Summary
 
-The patient is a 77-year-old male presenting with increasing chest discomfort and a positive thallium stress test. He reported recurrent chest discomfort, prompting admission for further cardiac evaluation. His relevant history includes coronary artery disease with prior right coronary artery stenting, percutaneous transluminal coronary angioplasty to the diagonal branch, hypertension, hypercholesterolemia, and prostate cancer treated with radiation, seeding, and hormonal therapy; he has no known drug allergies. On physical exam, vital signs were stable and cardiac and pulmonary exams were unremarkable. Laboratory findings showed mild anemia (hemoglobin 10.7 g/dL) and otherwise unremarkable results. The documented diagnosis was coronary artery disease with recurrent symptoms. He underwent off-pump coronary artery bypass grafting (CABG) x1 as definitive treatment.
+The patient is a 77-year-old male presenting with increasing chest discomfort and a positive thallium stress test. He reported recurrent chest discomfort, and cardiac catheterization revealed significant coronary artery disease, including 90% LAD stenosis and a residual dissection. His history includes coronary artery disease with prior RCA stenting and PTCA, hypertension, hypercholesterolemia, and prostate cancer treated with radiation, seeding, and hormonal therapy; he has no known drug allergies. The documented diagnoses were status post off-pump CABG x1, hypertension, elevated cholesterol, prostate cancer, and coronary artery disease with prior interventions. He underwent an off-pump CABG (LIMA to LAD) and experienced postoperative atrial fibrillation, which was treated with amiodarone; he also received a transfusion for anemia. At discharge, he was stable and in sinus rhythm, with instructions for wound care, activity restrictions, and monitoring for complications. Discharge medications included aspirin, clopidogrel, amiodarone, diuretics, antihypertensives, statins, and supportive supplements. He was discharged home with services and scheduled for follow-up with cardiology and primary care.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort that has been worsening over the past week. The discomfort is intermittent, tends to come and go, and is described as moderate and bothersome, especially during physical activity, which sometimes forces the patient to stop and rest; it resolves quickly with rest and is not associated with shortness of breath, lightheadedness, or sweating. The patient reported a history of atrial fibrillation with occasional irregular heartbeats and fluttering during episodes of discomfort, as well as a previously diagnosed enlarged thyroid. No swelling or fullness in the neck was noted by the patient. On assessment, the doctor noted that the chest discomfort is triggered by exertion and improves rapidly with rest, without other concerning symptoms, and suggested that stable angina or musculoskeletal strain could be possible causes given the patient's cardiac history. The doctor advised the patient to pace physical activity, monitor for any new or worsening symptoms, and seek prompt medical attention if severe discomfort, prolonged symptoms, or additional warning signs such as breathlessness or fainting occur. The patient expressed understanding of the recommendations.
+The patient is an adult with a history of atrial fibrillation and known enlarged thyroid presenting with chest discomfort. The chest discomfort is described as moderate, comes and goes, has worsened over the past week, and is triggered by physical activity but resolves quickly with rest; there are no associated symptoms such as dyspnea, lightheadedness, or sweating. The patient sometimes needs to stop and rest when the discomfort worsens but does not report lingering symptoms after resting. Relevant history includes atrial fibrillation and prior diagnosis of enlarged thyroid; no other medical history, medications, or allergies are specified. The clinical impression discussed includes possible stable angina or musculoskeletal strain, with contributing factors potentially including atrial fibrillation and thyroid enlargement. No definitive diagnosis was documented. The treatment plan includes advice to pace physical activity, monitor for new or worsening symptoms, and seek prompt medical attention if severe symptoms such as prolonged discomfort, breathlessness, or fainting occur. The patient was encouraged to report any changes and ask questions about symptom management.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.508
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

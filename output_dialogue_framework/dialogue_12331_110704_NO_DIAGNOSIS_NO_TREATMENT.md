@@ -85,16 +85,21 @@ For now, try to keep up with fluids—small sips of water throughout the day can
 
 ## EHR Summary
 
-The patient is an 88-year-old female presenting with hypernatremia. She was noted to be febrile and lethargic three days prior to admission, later developing intermittent fevers, tachycardia, tachypnea, and hypoxia (oxygen saturation 91–92% on room air), with laboratory findings of glucose 645 mg/dL and creatinine 1.7 mg/dL. Her past medical history includes dementia, bipolar disorder, Parkinson's disease, urinary and fecal incontinence, and gastroesophageal reflux disease. On admission, she was aphasic and unable to provide complaints; chest x-ray was consistent with pneumonia, sodium was 162 mmol/L, and platelets had decreased to 61. The documented diagnoses included hypernatremia and pneumonia. Treatment included intravenous fluids (normal saline and half-normal saline), insulin drip, ceftriaxone, levofloxacin (started prior to transfer), and the patient was made NPO. She continued on ceftriaxone after transfer from the Medical Intensive Care Unit.
+The patient is an 88-year-old female presenting with hypernatremia. She was noted to be febrile and lethargic three days prior to admission, with subsequent intermittent fevers, tachycardia, tachypnea, hypoxemia (oxygen saturation 91–92% on room air), and laboratory findings of severe hyperglycemia (glucose 645), elevated creatinine, and decreased platelets. Her past medical history includes dementia, bipolar disorder, Parkinson's disease, urinary and fecal incontinence, and gastroesophageal reflux disease; she has no known drug allergies. On admission, she was aphasic but responsive to questions by shaking her head. The documented diagnoses were type 2 diabetes, hypernatremia (thought secondary to hyperglycemia and decreased thirst), pancreatitis, mild disseminated intravascular coagulation (DIC), and possible pneumonia. Treatment included careful correction of hypernatremia with intravenous fluids, insulin drip for hyperglycemia, antibiotics (ceftriaxone followed by levofloxacin for probable pneumonia), discontinuation of subcutaneous heparin due to thrombocytopenia, and supportive care for pancreatitis. At discharge, her sodium and white count had normalized, mental status improved, and she was continued on sliding scale insulin and levofloxacin with recommendations for outpatient monitoring of blood sugars and fluid status.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about elevated sodium levels and feeling "out of sorts." She reported a recent fever, increased tiredness and sluggishness making daily activities more difficult, and new trouble with speech and understanding conversations, all of which have gradually worsened over the past few days. She denied headaches, muscle weakness, or changes in balance, but noted that not eating or drinking enough worsens her fatigue and speech difficulties. The patient also mentioned her heart feeling faster and breathing being a bit quicker. No specific past medical history, medications, or allergies were discussed. On assessment, the doctor linked her symptoms to high sodium levels likely related to dehydration, especially in the context of recent fever and reduced fluid intake, and noted that unchanged balance and muscle strength were reassuring. The doctor recommended increasing fluid intake with small sips throughout the day, monitoring for severe confusion or inability to keep fluids down, and seeking medical attention if those symptoms occur. The patient understood and agreed to the plan.
+The patient is an adult presenting with concerns about elevated sodium levels and feeling "out of sorts." Key symptoms include increased fatigue, sluggishness, and difficulty with speech and understanding, all of which have gradually worsened over the past few days; these symptoms are exacerbated by not eating or drinking enough. The patient also reports a recent fever but denies chills, increased sweating, headaches, muscle weakness, or significant changes in balance. Daily activities such as dressing and meal preparation have become more difficult, requiring additional assistance. Relevant history regarding medications or chronic conditions is not specified. The clinical impression is that the patient's symptoms are likely related to hypernatremia (high sodium), possibly due to dehydration from inadequate fluid intake during illness. The treatment plan includes increasing fluid intake with small sips of water throughout the day and monitoring for worsening symptoms such as severe confusion or inability to keep fluids down, with instructions to seek medical attention if these occur. The patient also mentioned new onset of palpitations and increased respiratory rate, but further assessment of these symptoms was not documented in the dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.659
+- **Model Used**: general
+- **Text1 Length**: 175 words
+- **Text2 Length**: 183 words
+
 
 ## Processing Information
 

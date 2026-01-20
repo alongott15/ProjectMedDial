@@ -87,16 +87,21 @@ Let me ask—have you had any fever or chills along with these symptoms? That ca
 
 ## EHR Summary
 
-The patient is a 61-year-old female presenting with nausea and vomiting. She reported a one-week history of nausea, vomiting, weakness, constipation, lightheadedness, tachypnea, and chills. Her past medical history includes insulin-dependent diabetes mellitus (with neuropathy, retinopathy, nephropathy), bipolar disorder, and multiple prior diabetic ketoacidosis (DKA) admissions. On admission, her blood glucose was in the low 400s with an anion gap of 42; she was treated for DKA with an insulin drip, intravenous potassium chloride, and over three liters of intravenous fluids. She improved clinically, was able to tolerate oral intake, and was transitioned to her usual insulin regimen with stable blood sugars in the low 100s. On transfer to the regular floor, she had only mild stomach sensitivity and denied further gastrointestinal or systemic symptoms. The documented diagnosis was diabetic ketoacidosis. The treatment plan included insulin therapy, electrolyte replacement, intravenous fluids, and resumption of her home medications.
+The patient is a 61-year-old female presenting with nausea and vomiting. She reported a one-week history of nausea, vomiting, weakness, constipation, lightheadedness, tachypnea, and chills. Her past medical history includes insulin dependent diabetes mellitus (with neuropathy, retinopathy, nephropathy), bipolar disorder, and multiple prior diabetic ketoacidosis admissions; she is allergic to penicillin and sulfa. On admission, she was found to have diabetic ketoacidosis with blood glucose in the low 400s and an anion gap of 42. She was treated with an insulin drip, intravenous potassium chloride, and fluids, then transitioned to her usual Lantus and regular insulin sliding scale as her condition improved. During her stay, she was also diagnosed with a urinary tract infection (urine culture positive for gram negative rods) and started on levofloxacin. The documented diagnoses were diabetic ketoacidosis and insulin dependent diabetes mellitus. She was discharged in good condition with instructions to continue her home medications and complete a one-week course of levofloxacin, and to follow up with her endocrinologist.
+
 
 ## Dialogue Summary
 
-The patient presented with nausea and vomiting as the chief complaint. Symptoms included difficulty keeping food and fluids down, progressive weakness over several days, constipation with slowed bowel movements, lightheadedness especially upon standing, and episodes of increased heart rate and faster breathing that improved with rest. The patient reported chills but denied fever, and noted increased stomach sensitivity. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor attributed the symptoms to dehydration likely secondary to inability to retain fluids, possibly due to a viral stomach bug or digestive upset. The doctor recommended sipping small amounts of clear fluids frequently, such as water or oral rehydration solutions, and avoiding large volumes at once. The patient was advised to seek medical attention if unable to keep fluids down for a day, if confusion or chest pain developed, or if lightheadedness worsened even when lying down.
+The patient is an adult presenting with nausea and vomiting as the chief complaint. Symptoms have persisted for several days and include difficulty keeping down food and fluids, progressive weakness, constipation, lightheadedness (especially on standing), tachycardia, and increased respiratory rate with orthostatic changes, all of which improve with rest. The patient reports chills but no fever, and increased abdominal sensitivity. There is no mention of relevant past medical history, medications, or allergies. The clinical impression is dehydration likely secondary to gastrointestinal illness (possibly viral gastroenteritis), given the combination of symptoms and inability to maintain adequate oral intake. The treatment plan includes frequent small sips of clear fluids (such as water or oral rehydration solutions), avoiding large volumes at once, and monitoring for worsening symptoms. The patient was advised to seek prompt medical attention if unable to keep fluids down for a day, if confusion or chest pain develops, or if lightheadedness worsens even when lying down.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.453
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

@@ -89,16 +89,21 @@ Do you have any questions about ways to manage the discomfort or about what to w
 
 ## EHR Summary
 
-The patient is a 39-year-old female presenting for elective revision posterior spinal fusion due to progressive kyphoscoliosis. She has a history of multiple previous spinal surgeries for scoliosis, postoperative infection requiring hardware removal, and development of pseudarthrosis in the upper lumbar spine leading to worsening spinal curvature. Her past medical history includes chronic pain issues managed by the Anesthesia Pain service during hospitalization. On admission, she underwent revision posterior spinal fusion from T3 to S1 without intraoperative or postoperative complications. She required transfusion of 3 units of packed red blood cells perioperatively, but her hematocrit remained stable thereafter. The documented diagnosis was progressive kyphoscoliosis. Treatment included revision spinal fusion, perioperative antibiotics, DVT prophylaxis with TEDS stockings and SCDs, pain management transitioning from IV to oral narcotics, and daily physical therapy with fitting of a new TLSO brace. She was discharged in stable condition after an unremarkable postoperative course.
+The patient is a 39-year-old female presenting for elective revision posterior spinal fusion due to progressive kyphoscoliosis. She has a history of multiple prior spinal surgeries for scoliosis, postoperative infection requiring hardware removal, and development of pseudarthrosis in the upper lumbar spine. Her symptoms included progressive spinal deformity; specific pain characteristics or neurologic symptoms are not detailed. The documented diagnosis was progressive kyphoscoliosis secondary to pseudarthrosis. She underwent revision posterior spinal fusion from T3 to S1 without intraoperative or postoperative complications. Postoperatively, she received blood transfusions, perioperative antibiotics, pain management, DVT prophylaxis, and was fitted with a new TLSO brace. She was discharged in stable condition with instructions for home health nursing, physical therapy, oral analgesics, iron supplementation, and activity restrictions including use of the TLSO brace and avoidance of bending, lifting, pushing, or pulling. Follow-up was arranged with her orthopedic surgeon in two weeks or sooner if concerning symptoms arise.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening kyphoscoliosis, reporting increased discomfort and a more pronounced spinal curve over the past few months. Symptoms included chronic pain that is fairly constant throughout the day, worsened by activities such as bending or lifting, and interference with daily tasks and chores; sleep has also been disrupted due to difficulty getting comfortable and waking more often. The patient denied any numbness, tingling, weakness, or changes in breathing. No rapid progression was noted, with the curve changing gradually. On examination, no alarming neurological or respiratory symptoms were reported. The doctor assessed this as a typical gradual progression of kyphoscoliosis without urgent complications. Recommendations included pain management strategies, gentle stretching, pacing activities, supportive pillows at night, and consideration of physical therapy to improve pain and function; the patient was advised to monitor for new symptoms such as weakness, numbness, or breathing changes.
+The patient presents with worsening kyphoscoliosis as the chief complaint. Over the past few months, the spinal curve has become more pronounced, accompanied by chronic pain that is exacerbated by activities such as bending or lifting and is fairly constant throughout the day. The pain interferes with daily activities and chores, and has also begun to disrupt sleep by making it harder to get comfortable and causing more frequent awakenings. The patient denies any numbness, tingling, weakness, or changes in breathing. There is no history of rapid progression; symptoms have worsened gradually. The clinical impression is gradual progression of kyphoscoliosis without neurological or respiratory involvement. The treatment plan includes pain management strategies, activity modification, supportive measures such as gentle stretching and use of pillows, and consideration of physical therapy to improve pain and function. The patient was advised to monitor for new symptoms such as weakness, numbness, or respiratory changes and to seek care if these develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.705
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

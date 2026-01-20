@@ -87,16 +87,23 @@ Let me know if you have any questions about what we've discussed or if there's a
 
 ## EHR Summary
 
-The patient is an 81-year-old male presenting with chest pressure on exertion that resolves with rest. He reported "chest congestion" and had a history of abnormal exercise treadmill testing (ETT) and prior right coronary artery (RCA) stenting. His past medical history includes hypertension, hyperlipidemia, coronary artery disease with RCA stent, bilateral carotid disease, and right lower extremity vein stripping; he has no known drug allergies. Cardiac catheterization revealed significant multivessel coronary artery disease: 70% left main, 80% left anterior descending, 50% circumflex, 90% obtuse marginal, and 50-60% RCA stenosis, with a widely patent RCA stent and an ejection fraction of 61%. Physical exam was notable for bradycardia (HR 40), chronic venous stasis changes, but otherwise unremarkable findings. The documented diagnosis was severe multivessel coronary artery disease. He underwent coronary artery bypass grafting (CABG) x3 (LIMA to LAD, free RIMA to OM, SVG to PDA) during this admission. Postoperatively, he was transferred in stable condition and began recovery on the floor.
+The patient is an 81-year-old male presenting with chest pressure on exertion that resolves with rest. He reported "chest congestion" and had a history of prior right coronary artery (RCA) stenting, with recent abnormal exercise treadmill testing and cardiac catheterization revealing significant multi-vessel coronary artery disease. His past medical history includes hypertension, elevated lipids, bilateral carotid artery disease, and right lower extremity vein stripping; he has no known drug allergies. The documented diagnosis was status post coronary artery bypass grafting (CABG) x3, hypertension, hypercholesterolemia, varicose veins, coronary artery disease with prior RCA stent, and bilateral carotid artery disease. During hospitalization, he underwent CABG x3 and had an uncomplicated postoperative course, requiring brief diuresis and transfusion for increased chest tube drainage. At discharge, he was prescribed furosemide, potassium chloride, docusate sodium, ranitidine, aspirin, clopidogrel, isosorbide mononitrate, atorvastatin, and metoprolol succinate. Discharge instructions included wound care, activity restrictions (no driving for one month, no lifting over 10 pounds for 10 weeks), and follow-up appointments with his physicians. He was discharged home in good condition with visiting nurse assistance.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure occurring during physical activity, such as walking up stairs, which resolves with rest. The chest pressure has been present for at least a few days and is described as a tightness rather than pain, rated 6 out of 10 at its worst, and is accompanied by a sensation of chest congestion but no cough, phlegm, or trouble breathing. The tightness only occurs with activity and does not happen at rest; there are no associated symptoms such as sweating, lightheadedness, or unusual fatigue. No specific triggers like cold air or large meals were identified. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the activity-induced chest tightness without other symptoms may be related to the heart or circulation needing more oxygen during exertion, or possibly deconditioning. The doctor advised the patient to pace activities, monitor for any new or worsening symptoms (such as persistent pain, shortness of breath at rest, sweating, or dizziness), and seek prompt medical attention if these occur. The patient was encouraged to stay active with breaks as needed and to reach out if symptoms change.
+The patient presents with chest pressure as the chief complaint. The chest tightness occurs only during physical activity, such as walking up stairs or doing chores, and resolves with rest; it has been present for at least a few days and is rated as 6 out of 10 in severity at its worst. The patient also reports a sensation of chest congestion but denies cough, phlegm, dyspnea at rest, sweating, or lightheadedness. No specific triggers other than activity are identified, and symptoms do not occur at rest. Relevant medical history, medications, and allergies are not specified.
+
+The clinical impression is that the exertional chest tightness may be related to cardiac or circulatory demand during activity, with possible contributions from deconditioning. The treatment plan includes pacing activities, taking breaks as needed, and monitoring for any new or worsening symptoms such as persistent pain, dyspnea at rest, sweating, or dizziness. The patient is advised to seek prompt medical attention if these concerning symptoms develop. No medications or further diagnostic tests are documented at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.467
+- **Model Used**: general
+- **Text1 Length**: 176 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

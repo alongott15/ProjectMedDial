@@ -91,16 +91,21 @@ Would you like some tips on managing discomfort at home, or do you have any conc
 
 ## EHR Summary
 
-The patient is a 44-year-old woman presenting with headache. She developed an acute, severe, non-throbbing headache at the back of her head two days after undergoing endoscopic retrograde cholangiopancreatography for gallstones, with pain later extending to the bifrontal region and associated with nausea and neck stiffness but no fever, chills, or visual symptoms. The headache worsens with coughing or straining and is currently rated as 7 out of 10 in severity. Her medical history is significant for multiple sclerosis treated with Avonex, and she reports occasional occipital headaches around her period. On evaluation, CT scan was normal; lumbar puncture showed 0–10 white cells, 240–400 red cells, glucose 49, and protein 55, with no opening pressure recorded. She received Demerol, Versed, Phenergan, Dilaudid for pain, and one dose of ceftriaxone for meningitis coverage. The documented diagnosis is not explicitly stated in the note. The treatment plan included symptomatic management of headache and empiric antibiotic coverage.
+The patient is a 44-year-old woman presenting with acute headache. The headache began suddenly two days after an endoscopic retrograde cholangiopancreatography for gallstones, described as maximal onset, dull, and persistent, initially occipital and later extending bifrontally, with associated nausea and neck stiffness but no fever, visual symptoms, or respiratory complaints. She reported the headache worsened with coughing or straining and rated the pain as 7 out of 10; she has a history of multiple sclerosis (on Avonex), avascular necrosis of the shoulders, and gallstones, and is allergic to rifampin. Initial evaluation included a normal head CT, lumbar punctures showing elevated red blood cells but no clear evidence of infection, and MRI/MRA without aneurysm or infarct. Despite pain management with morphine and Percocet, her symptoms persisted, and further angiography revealed an intracranial dissecting right vertebral artery aneurysm proximal to the vertebrobasilar junction. The documented diagnosis was right vertebral dissecting aneurysm. She was transferred to the neurosurgery service for further management of the aneurysm. At transfer, her condition was stable.
+
 
 ## Dialogue Summary
 
-The patient presented with a sudden, persistent headache. The headache began abruptly and is described as generalized across the head, rated 7 out of 10 in severity, and accompanied by increased sensitivity to light and sound, nausea, and two episodes of vomiting. The patient reported no changes in vision and noted that this is the first time experiencing a headache with these characteristics. No history of similar headaches, neurological symptoms, or other relevant medical history was mentioned. On assessment, the doctor noted the headache's sudden onset, moderate to severe intensity, associated photophobia, phonophobia, and gastrointestinal symptoms, raising concern for migraine but emphasizing the need to rule out more serious causes due to its new presentation. The doctor advised rest in a quiet, dark room, hydration, and use of over-the-counter pain relief if tolerated. The patient was instructed to seek urgent medical attention if new symptoms such as weakness, numbness, speech difficulty, confusion, fever, or stiff neck develop, or if the headache worsens or does not improve within one to two days.
+The patient is an adult presenting with a chief complaint of a sudden-onset, persistent headache. The headache began abruptly, is generalized (not localized to one area), and is rated as 7 out of 10 in severity. Associated symptoms include photophobia (sensitivity to light), phonophobia (worsened by sounds), nausea, and multiple episodes of vomiting; there are no visual changes reported. This is the first occurrence of a headache with these characteristics for the patient. The physician notes that while the symptoms are suggestive of migraine, the new and sudden nature of the headache warrants caution for more serious causes. No definitive diagnosis was documented, but migraine was discussed as a possible etiology. The treatment plan includes rest in a quiet, dark room, maintaining hydration, and using over-the-counter pain relief if tolerated, with instructions to seek urgent care if neurological symptoms or worsening occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.472
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 142 words
+
 
 ## Processing Information
 

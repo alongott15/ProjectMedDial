@@ -87,16 +87,21 @@ Does anything seem to trigger the dizziness more, such as standing up quickly or
 
 ## EHR Summary
 
-The patient is a 71-year-old female presenting with diarrhea, purple stools, and lightheadedness. She reported the onset of these symptoms one day prior to admission, with dizziness accompanying each bowel movement but denied loss of consciousness, chest pain, abdominal pain, nausea, or vomiting. Her medical history includes hypertension, diabetes mellitus managed with oral agents, and a cerebrovascular accident eleven years ago with residual leg weakness; she is on Coumadin for stroke prevention. She also had a recent nonproductive cough treated with Robitussin. Clinical findings and a specific diagnosis are not documented in the provided note. The treatment plan and specific recommendations are not specified in the available text.
+The patient is a 71-year-old female presenting with diarrhea, purple stools, and lightheadedness. She reported the onset of these symptoms one day prior to admission, with dizziness occurring during each bowel movement and no associated chest pain, abdominal pain, nausea, vomiting, or loss of consciousness. She denied any prior similar episodes and noted a preceding several-day history of nonproductive cough treated with Robitussin. Her medical history includes hypertension, diabetes mellitus (on oral agents), and a cerebrovascular accident eleven years ago with residual leg weakness; she is currently taking Coumadin. The clinical note does not specify a documented diagnosis. The treatment plan and specific recommendations are not detailed in the provided note.
+
 
 ## Dialogue Summary
 
-The patient presented with diarrhea as the chief complaint. Symptoms included diarrhea occurring several times daily for a couple of days, purple-colored stools, and brief episodes of lightheadedness and dizziness immediately following bowel movements, especially when straining; no stomach pain, fever, vomiting, or ongoing dizziness was reported. The patient also mentioned a nonproductive cough without associated dizziness and denied signs of dehydration, maintaining adequate fluid intake and normal urine output. No relevant medical history, medications, or allergies were discussed. On examination, the doctor noted the absence of severe symptoms such as fainting, persistent dizziness, or dehydration, but highlighted the unusual stool color and post-defecation lightheadedness. The assessment included possible causes such as food dyes, medication reactions, or gastrointestinal bleeding (though bleeding typically presents as black or red stools rather than purple). The doctor advised close monitoring of symptoms, continued hydration and rest, and recommended seeking prompt medical attention if stools become black, tarry, or bright red, or if new symptoms like weakness or severe dizziness develop. The patient understood and agreed to monitor for changes.
+The patient presents with diarrhea as the chief complaint. Symptoms include diarrhea occurring several times daily for a couple of days, accompanied by unusual purple-colored stools and brief episodes of lightheadedness or dizziness immediately after bowel movements, especially with straining; there is no associated abdominal pain, fever, vomiting, or ongoing dizziness. The patient reports a nonproductive cough but denies dehydration symptoms and has maintained adequate fluid intake. No changes in symptom frequency or intensity have been noted since onset. The clinical impression is that the diarrhea may be causing transient drops in blood pressure leading to post-defecation lightheadedness, but the presence of purple stools is unusual and could be related to diet, medications, or less likely, gastrointestinal bleeding. The physician recommends close monitoring of symptoms, continued hydration, and rest. The patient is advised to seek prompt medical attention if stools become black, tarry, or bright red, or if new symptoms such as weakness, chest pain, or more severe dizziness develop. No medications or specific treatments were prescribed at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.975
-- **Similarity Label**: N/A
+- **STS Score**: 0.519
+- **Model Used**: general
+- **Text1 Length**: 111 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

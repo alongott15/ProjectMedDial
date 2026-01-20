@@ -87,16 +87,21 @@ If things persist or worsen, we could consider further evaluation or referral to
 
 ## EHR Summary
 
-The patient is a 52-year-old male admitted for management of pulmonary infection and pain. He was found to have Methicillin-resistant Staphylococcus aureus (MRSA) on bronchoalveolar lavage, with ongoing vancomycin therapy planned for six weeks and metronidazole for aspiration coverage until March 26. The patient experienced hip and back pain, which improved significantly with a regimen of Neurontin, Celebrex, Tylenol, and oxycodone. A video swallowing study showed persistent high aspiration risk, and tube feeding was recommended, but the patient chose to continue oral intake of thickened liquids with close monitoring. Hematology evaluation revealed a slowly decreasing hematocrit to 24.7 without an identified bleeding source; he received two units of packed red blood cells. On discharge, his pulmonary status had returned to baseline. The plan included continued antibiotics, pain management, careful monitoring of oral intake, and follow-up swallowing studies.
+The patient is a 52-year-old male admitted primarily for management of pneumonia and aspiration risk. He experienced pulmonary symptoms related to pneumonia, with bronchoscopy revealing Methicillin-resistant Staphylococcus aureus, and was noted to be at high risk for aspiration based on a video swallowing study. His medical history includes status post cerebrovascular accident with left-sided hemiparesis, seizure disorder, congestive heart failure, coronary artery disease, depression, bilateral hip fractures, and paroxysmal atrial fibrillation. During hospitalization, he also reported significant hip and back pain, which improved with a regimen of Neurontin, Celebrex, Tylenol, and oxycodone. The documented diagnoses were pneumonia, aspiration risk, and multiple chronic conditions as listed above. Treatment included intravenous vancomycin for six weeks, metronidazole for two weeks, pain management medications, transfusion for anemia, and adjustment of anticoagulation therapy due to a supertherapeutic INR. He was advised to continue thickened liquids by mouth with close monitoring due to aspiration risk and to have a repeat swallowing study in one to two months. The patient was discharged in improved condition to another facility for continued care.
+
 
 ## Dialogue Summary
 
-The patient presented with hip and back pain. The discomfort has been present for an unspecified duration, is described as lingering without worsening, and is rated as a 6 out of 10 at its worst. Sitting for prolonged periods aggravates the pain, while walking sometimes helps; the pain interferes with sleep and daily activities such as dressing and household tasks. The patient denied numbness, tingling, or weakness in the legs and reported that gentle stretching and Tylenol have provided minimal relief. Relevant history includes prior bilateral hip fractures; the back pain is a newer symptom. On examination, no concerning neurological symptoms were noted. The doctor assessed that the pain is likely related to prior hip injuries and compensatory back discomfort, exacerbated by prolonged sitting. The treatment plan included recommendations for regular movement breaks, gentle strengthening exercises, use of heat or ice, pacing of activities, and consideration of physical therapy if symptoms persist; the patient was also advised to monitor for new symptoms such as weakness, numbness, or changes in bladder/bowel function.
+The patient is an adult presenting with hip and back pain as the chief complaint. The discomfort has been present for an unspecified duration, is rated up to 6 out of 10 in intensity, and is aggravated by prolonged sitting while sometimes relieved by walking; it interferes with sleep and daily activities such as dressing and household tasks. The patient denies numbness, tingling, or weakness in the legs. Relevant history includes prior bilateral hip fractures, with back pain being a more recent development. The clinical impression is that the pain is likely related to prior hip injuries and possible compensatory back discomfort, without evidence of acute neurological compromise. The treatment plan includes recommendations for regular movement breaks, gentle strengthening exercises, use of heat or ice, pacing of activities, and consideration of physical therapy if symptoms persist. The patient was advised to monitor for new symptoms such as weakness, numbness, or changes in bladder/bowel function, which would require prompt evaluation. Further specialist referral may be considered if there is no improvement.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.454
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

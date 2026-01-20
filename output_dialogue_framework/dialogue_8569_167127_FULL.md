@@ -89,16 +89,21 @@ Does that make sense? Is there anything else about your recovery or symptoms tha
 
 ## EHR Summary
 
-The patient is a 68-year-old male admitted for observation following nephroureteral stent placement, after experiencing hypotension post-procedure. He developed chills, tachycardia, and a drop in blood pressure, but was initially afebrile; later, his temperature rose to a maximum of 100.3°F. Relevant history includes bladder cancer with positive lymph nodes, hypertension, radical cystectomy, and ileal loop diversion; he is allergic to Haldol and Ambien. On admission, physical exam was unremarkable except for a bloody urostomy, and his white blood cell count was 11.4. Overnight, he became hypotensive (BP as low as 82/45) and his WBC increased to 23.8, prompting transfer to the Medical Intensive Care Unit for closer monitoring and fluid resuscitation. The documented clinical impression was post-procedural hypotension with suspected infection. Treatment included intravenous fluids to stabilize blood pressure and initiation of ceftazidime and vancomycin per Infectious Disease recommendations. Blood cultures were obtained for further evaluation.
+The patient is a 68-year-old male admitted for observation following nephroureteral stent placement, after experiencing hypotension post-procedure. He developed chills, hypotension (blood pressure as low as 82/45), tachycardia, and a mild fever (maximum 100.3°F), with an elevated white blood cell count rising from 11.4 to 23.8. His relevant history includes bladder cancer with positive lymph nodes, hypertension, radical cystectomy, and ileal loop diversion; he is allergic to Haldol and Ambien. The clinical impression was post-procedural sepsis or systemic inflammatory response, likely related to the stent placement and urinary tract manipulation. He was treated with intravenous fluids, close monitoring in the Medical Intensive Care Unit, and empiric antibiotics (ceftazidime and vancomycin), later transitioned to oral antibiotics upon improvement. Blood cultures were negative, and his blood pressure and urine output stabilized during hospitalization. He was discharged home on oral antibiotics with instructions for follow-up.
+
 
 ## Dialogue Summary
 
-The patient presented with episodes of low blood pressure following a recent nephroureteral stent placement. Symptoms included chills that come and go, brief episodes of faster heartbeat, and occasional blood in the urostomy; the patient denied dizziness, lightheadedness, fever, or sweating. The episodes of low blood pressure and tachycardia began immediately after the procedure, lasted only a few minutes, and were unpredictable, not associated with standing up or medication use. The patient reported needing more help with daily activities when symptoms occurred but was otherwise able to get around, albeit more slowly. No specific medical history, medications, or allergies were mentioned. The doctor noted that these symptoms are likely temporary reactions to the procedure, possibly related to mild dehydration, pain response, or medications, and found the brief duration reassuring. The doctor recommended staying well hydrated, moving slowly, monitoring for new or worsening symptoms (such as persistent fever, confusion, chest pain, or trouble breathing), and contacting the care team if episodes become longer or more severe. The patient also mentioned noticing blood in the urostomy since the procedure and was advised to keep an eye on this symptom.
+The patient is a [age and sex not specified] presenting with episodes of low blood pressure following a recent nephroureteral stent placement. Key symptoms include transient hypotension and tachycardia beginning immediately after the procedure, with episodes lasting a few minutes and occurring unpredictably; the patient also reports intermittent chills without fever or sweating, and has required some additional assistance with daily activities. There is no reported dizziness, lightheadedness, or clear triggers for the hypotensive episodes. Relevant history includes recent nephroureteral stent placement; no medication changes or allergies are specified. The clinical impression is that these symptoms are likely a temporary physiological response to the procedure, possibly related to stress, mild dehydration, pain, or medications. The treatment plan includes recommendations for maintaining hydration, moving slowly to avoid exacerbating symptoms, and monitoring for any new or worsening symptoms such as persistent fever, confusion, chest pain, or dyspnea. The patient is advised to contact their care team if episodes become prolonged or more severe. Additionally, the patient mentioned noticing blood in their urostomy since the procedure and was advised to monitor this symptom.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
+- **STS Score**: 0.696
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 180 words
+
 
 ## Processing Information
 

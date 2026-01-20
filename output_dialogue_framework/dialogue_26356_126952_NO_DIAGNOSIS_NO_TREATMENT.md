@@ -83,16 +83,21 @@ What often happens with common bloating is that it’s uncomfortable but not usu
 
 ## EHR Summary
 
-The patient is a 75-year-old male presenting with shortness of breath. He reported a two-month history of "gassiness" in the lower chest relieved by milk and Prilosec, a seven-pound weight gain, and increased blood pressure; he denied chest pain at the time of admission. Relevant history includes coronary artery disease and recent congestive heart failure as seen on chest x-ray. Echocardiogram revealed an ejection fraction of 25% with widespread hypokinesis, and stress testing showed dyspnea on exertion without anginal symptoms. The documented diagnosis was coronary artery disease status post coronary artery bypass graft times four. Treatment included coronary artery bypass grafting.
+The patient is a 75-year-old male presenting with shortness of breath. He reported a two-month history of "gassiness" in the lower chest relieved by milk and Prilosec, a seven-pound weight gain, and increased blood pressure; at the time of Emergency Department presentation, he denied chest pain or gassiness. Chest x-ray revealed congestive heart failure, and echocardiogram showed an ejection fraction of 25% with widespread hypokinesis. Stress testing demonstrated dyspnea on exertion without anginal symptoms. Relevant history includes coronary artery disease. The documented diagnosis was coronary artery disease status post coronary artery bypass graft times four. Treatment included coronary artery bypass grafting (CABG x4).
+
 
 ## Dialogue Summary
 
-The patient presented with gassiness and discomfort in the lower chest. Symptoms included bloating and pressure (not pain), rated up to 6/10 in severity, occurring mostly after meals but sometimes throughout the day, with only slight relief from passing gas; the patient also reported recent rapid weight gain of seven pounds over a few weeks and persistent shortness of breath, especially with physical activity such as walking or climbing stairs. No heartburn, changes in bowel habits, or intentional weight gain were noted. The patient is currently taking Prilosec and has not tried other remedies. On examination, the doctor noted that the bloating and pressure are persistent and associated with exertional shortness of breath and rapid weight gain. The doctor assessed that while bloating is often benign, the combination of quick weight gain and shortness of breath could indicate fluid retention or other changes in body fluid handling, not just digestive issues. The doctor recommended monitoring how these symptoms affect daily activities and emphasized the importance of keeping track of any worsening in physical function.
+The patient is an adult presenting with a chief complaint of gassiness and bloating in the lower chest. The discomfort is described as bloating and pressure (not pain), rated up to 6 out of 10 in severity, most noticeable after meals but sometimes occurring throughout the day, and only slightly relieved by passing gas. The patient reports associated symptoms of recent unintentional weight gain of seven pounds over a few weeks and persistent shortness of breath, which has not improved and is worse with physical activity such as walking or climbing stairs; there are no heartburn or bowel habit changes. Relevant history includes use of Prilosec; no other medications or allergies are mentioned. The clinician notes that while the symptoms could be related to digestive issues, the combination of rapid weight gain and dyspnea raises concern for possible fluid retention or other systemic causes. No definitive diagnosis is documented in this encounter. The treatment plan includes monitoring the impact of symptoms on daily activities and maintaining awareness of any worsening or new symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **STS Score**: 0.698
+- **Model Used**: general
+- **Text1 Length**: 103 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

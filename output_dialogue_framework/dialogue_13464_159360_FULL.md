@@ -188,3 +188,21 @@ If anything changes or you develop new symptoms, please seek care promptly. Othe
 ## Processing Information
 
 - **Processing Time**: 416.5s
+
+## EHR Summary
+
+The patient is a 53-year-old male presenting with right upper quadrant pain. On admission, he had elevated liver function tests, with total bilirubin rising to 4.4, and an ultrasound showed gallstones with a mildly elevated common bile duct. His relevant history includes no other documented comorbidities, medications, or allergies. The clinical assessment identified common bile duct obstruction secondary to choledocholithiasis and probable acute cholecystitis. He underwent ERCP with sphincterotomy and stone extraction, followed by broad spectrum antibiotics. Post-procedure, he experienced bleeding from the sphincterotomy site, resulting in a hematocrit drop from 40 to 25 and requiring transfusion of 2 units of blood; he stabilized afterward and his pain resolved. The treatment plan included discharge home with instructions to return for elective cholecystectomy in the coming weeks. His condition on discharge was improved.
+
+
+## Dialogue Summary
+
+The patient presents with persistent right upper quadrant abdominal pain as the chief complaint. The pain is described as ongoing discomfort in the right upper abdomen, without associated symptoms such as fever, chills, or jaundice. The patient has a documented history of acute cholecystitis and choledocholithiasis. There are no current signs of infection or biliary obstruction based on the absence of systemic symptoms. The clinical impression is ongoing biliary pain in the context of known gallbladder and bile duct disease. The treatment plan includes arranging blood tests to assess for infection and liver function, and an ultrasound to evaluate for possible complications or obstruction. The patient was advised to monitor for new symptoms (fever, chills, jaundice, worsening pain) and to maintain a low-fat diet to minimize discomfort. The patient agreed to the plan and will seek further care if symptoms change or worsen.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.764
+- **Model Used**: general
+- **Text1 Length**: 132 words
+- **Text2 Length**: 143 words
+

@@ -85,16 +85,21 @@ If you ever notice sudden pain at rest, skin changes, or wounds that don't heal,
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with right lower extremity (RLE) claudication. He reported symptoms consistent with claudication in the RLE, prompting surgical evaluation. His relevant history includes coronary artery disease status post myocardial infarction and coronary artery bypass grafting, moderate mitral regurgitation, moderate pulmonary hypertension, hypertension, hyperlipidemia, esophagitis, prior aortobifemoral bypass, carotid endarterectomies, and right radial artery thrombectomy; he is allergic to Percocet and Oxycontin. On physical exam, he was alert and oriented, in no acute distress, with palpable femoral and distal pulses in the right leg. Laboratory findings showed mild anemia (Hgb 9.4 g/dL, Hct 26.4%) but otherwise unremarkable results. The documented diagnosis was RLE claudication secondary to peripheral arterial disease. He underwent right femoral endarterectomy with patch angioplasty and right superficial femoral artery angioplasty and stenting without complications. Discharge medications included aspirin, clopidogrel, atorvastatin, lisinopril, metoprolol, and pantoprazole; he was stable for discharge with no further immediate interventions required.
+The patient is a 58-year-old male presenting with right lower extremity (RLE) claudication. He reported pain in the right leg with exertion, consistent with claudication symptoms. His past medical history includes coronary artery disease status post myocardial infarction and coronary artery bypass grafting, moderate mitral regurgitation, moderate pulmonary hypertension, hypertension, hyperlipidemia, esophagitis, prior aortobifemoral bypass, carotid endarterectomies, and right radial artery thrombectomy; he is allergic to Percocet and Oxycontin. The documented diagnosis was right lower extremity claudication. During admission, he underwent right femoral endarterectomy with patch angioplasty and right superficial femoral artery angioplasty and stenting without complications. He was discharged in good condition on aspirin, atorvastatin, lisinopril, metoprolol, clopidogrel, pantoprazole, and oxycodone-acetaminophen as needed. Discharge instructions included medication adherence, monitoring for concerning symptoms, encouragement to walk several times daily, and follow-up with his physician.
+
 
 ## Dialogue Summary
 
-The patient presented with pain in the right leg when walking. The pain has been present for a couple of weeks, starts after walking a certain distance, worsens with continued activity, and resolves with rest; it does not occur at rest and has been progressively worsening, making ambulation more difficult. The patient denied swelling, color changes, or coolness in the right leg. Relevant history includes heart disease and high cholesterol; no diabetes was reported. On examination, no physical abnormalities were noted by the patient. The doctor assessed the symptoms as consistent with claudication, likely due to reduced blood flow from vascular narrowing. The doctor recommended gentle walking within tolerance, regular exercise, and management of underlying risk factors, and advised seeking prompt care if sudden pain at rest or skin changes develop. Further discussion about general health and risk factor management was planned.
+The patient is an adult presenting with right leg pain during walking as the chief complaint. The pain has been present for a couple of weeks, is brought on by walking a certain distance, worsens with continued activity, and resolves with rest; it has been progressively worsening, causing increased limitations in mobility. There are no associated symptoms such as swelling, color changes, or coolness of the leg. The patient reports a history of heart disease and high cholesterol but denies diabetes. The clinical impression documented is claudication, likely due to peripheral arterial insufficiency. The treatment plan includes recommendations for gentle walking within tolerance, strategies to improve circulation such as regular exercise, and management of underlying risk factors. The patient was also advised to seek prompt medical attention if symptoms such as sudden pain at rest, skin changes, or non-healing wounds develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.620
+- **Model Used**: general
+- **Text1 Length**: 134 words
+- **Text2 Length**: 141 words
+
 
 ## Processing Information
 

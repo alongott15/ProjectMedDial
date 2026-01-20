@@ -89,16 +89,21 @@ Does that make sense? Is there anything else about your symptoms that you’re c
 
 ## EHR Summary
 
-The patient is a 41-year-old male presenting with recurrent pancreatic pseudocyst. He reported recurrent abdominal pain radiating to the back, with a history of acute pancreatitis in December 2099 complicated by a pancreatic pseudocyst previously treated with gastrostomy. Medications on admission included Prilosec and Aleve, and he has no known allergies. On imaging, an abdominal CT confirmed recurrent pseudocyst, and ERCP showed complete cut off of the pancreatic duct at the mid body and pancreas divisum. Physical findings during surgery included a fibrotic pancreas and a large cyst; postoperative amylase from JP drain was 92,700. The documented diagnosis was recurrent pancreatic pseudocyst with pancreas divisum. He underwent elective distal pancreatectomy and splenectomy, had an uncomplicated postoperative course, and was discharged home with a JP drain, VNA care, and Percocet for pain. Follow-up with his surgeon was arranged in 2–11 weeks.
+The patient is a 41-year-old male presenting with recurrent pancreatic pseudocyst. He reported recurrent abdominal pain radiating to the back, with a history of acute pancreatitis in December 2099 complicated by a previous pseudocyst and gastrostomy in March 2100. A month prior to admission, abdominal pain recurred and imaging confirmed a recurrent pseudocyst; ERCP revealed complete pancreatic duct cutoff and pancreas divisum. On admission, he was taking Prilosec and Aleve, with no known allergies. The documented diagnosis was recurrent pancreatic pseudocyst with underlying pancreas divisum. He underwent elective distal pancreatectomy and splenectomy, with an uncomplicated postoperative course except for elevated JP drain amylase (92,700). The patient was discharged home with the JP drain in place, VNA care arranged, and instructions to follow up in clinic. Discharge medications included Percocet as needed for pain.
+
 
 ## Dialogue Summary
 
-The patient presented with recurrent upper abdominal pain radiating to the back. The pain began a few days ago, is intermittent, worsens after eating, and is relieved somewhat by Aleve and rest; the patient rated the pain as moderate (6/10) at its worst and reported that it makes it difficult to focus. There were no associated symptoms of nausea, vomiting, appetite changes, fever, weight loss, or changes in bowel movements. The patient has a history of similar episodes related to a pancreatic pseudocyst. On assessment, the doctor noted that the current symptoms are consistent with a mild flare-up of previous pancreatic pseudocyst issues, with no alarming features present. The doctor recommended continuing gentle self-care, sticking to smaller, low-fat meals, and monitoring for warning signs such as severe pain, fever, persistent vomiting, or jaundice. The patient was advised to seek further evaluation if symptoms worsen or new concerning signs develop.
+The patient is an adult presenting with recurrent upper abdominal pain as the chief complaint. The pain is moderate in intensity (rated 6/10 at worst), radiates to the back, is intermittent over several days, and is worsened by eating; Aleve and rest provide some relief. There are no associated symptoms such as nausea, vomiting, fever, weight loss, or changes in bowel movements. The patient has a history of pancreatic pseudocyst and reports that this episode is similar to previous episodes related to that condition. The clinical impression is a mild flare-up of symptoms likely related to the pancreatic pseudocyst, without alarming features. The treatment plan includes dietary modifications (smaller, low-fat meals), continued use of Aleve and rest as needed, and monitoring for warning signs such as severe pain, fever, persistent vomiting, or jaundice. The patient was advised to seek further evaluation if symptoms worsen or new concerning symptoms develop. No additional concerns were raised by the patient during the visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.702
+- **Model Used**: general
+- **Text1 Length**: 133 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

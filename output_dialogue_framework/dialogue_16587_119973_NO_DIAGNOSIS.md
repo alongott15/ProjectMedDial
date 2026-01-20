@@ -87,16 +87,21 @@ Let me know if you have any questions or want to talk more about what might be c
 
 ## EHR Summary
 
-The patient is a 76-year-old female presenting with worsening chest pain. She reports a history of stable angina since 2130, previously infrequent and exertional, but now occurring at rest at least twice weekly, sometimes during sleep, described as chest pressure relieved by sublingual nitroglycerin and rest. Her medical history includes angina, hypertension, hyperlipidemia, gastroesophageal reflux disease, recurrent biliary stones, osteopenia, arthritis, and a shellfish allergy. Outpatient cardiac testing showed moderate inferolateral ischemia on Myoview study and an echocardiogram with 50% ejection fraction, mild aortic insufficiency, and mild-to-moderate mitral regurgitation. On examination, she was afebrile with stable vital signs and no signs of heart failure. The documented diagnosis is worsening angina. Treatment on admission included aspirin, nitroglycerin patch, Cardizem, atenolol, Lipitor, and other supportive medications. She was advised to continue her current regimen and monitor for further symptoms.
+The patient is a 76-year-old female presenting with worsening chest pressure consistent with angina. Over the past six months, her angina symptoms increased in frequency and intensity, now occurring at rest at least twice weekly and sometimes during sleep, relieved by sublingual nitroglycerin and rest. She has a history of angina, hypertension, hyperlipidemia, gastroesophageal reflux disease, recurrent biliary stones, osteopenia, arthritis, and a shellfish allergy; her medications on admission included aspirin, Cardizem, nitroglycerin patch, atenolol, and others. Cardiac catheterization revealed significant multi-vessel coronary artery disease with reduced ejection fraction and multiple stenoses. The documented diagnosis was coronary artery disease status post coronary artery bypass grafting (CABG). She underwent CABG x2 (LIMA to LAD and SVG to OM) without complications and had an uneventful postoperative course. On discharge, she was stable and prescribed medications including Lopressor, aspirin, Lipitor, Lasix (for seven days), potassium chloride (for seven days), and pain management agents. She was advised to follow up with her surgeon in four weeks and her primary care physician in two to three weeks for blood pressure monitoring.
+
 
 ## Dialogue Summary
 
-The patient presented with increased frequency and intensity of chest pressure. The chest pressure is described as moderate, sometimes stronger, lasts a few minutes at a time, and can occur even at rest without clear triggers; it is not associated with sweating, shortness of breath, rapid heartbeat, fatigue, or pain radiating to the neck, jaw, arms, or back. The sensation does not change with movement or deep breathing, and the patient remains able to perform normal activities. No recent illness, new medications, or changes in routine were reported. On assessment, the doctor noted the absence of concerning associated symptoms but acknowledged that chest pressure at rest can be related to cardiac or non-cardiac causes. The doctor recommended scheduling a heart evaluation soon to rule out any serious issues and advised seeking immediate medical attention if the pressure becomes severe, lasts longer, or is accompanied by new symptoms such as sweating, nausea, or trouble breathing. The patient expressed understanding of the plan.
+The patient is an adult presenting with increased frequency and intensity of chest pressure as the chief complaint. The chest pressure is described as moderate, occasionally stronger, lasts a few minutes per episode, and can occur even at rest without clear triggers; it is not associated with exertion, movement, deep breathing, or positional changes. The patient denies associated symptoms such as sweating, dyspnea (shortness of breath), palpitations, fatigue, or radiation of pain to the neck, jaw, arms, or back, and reports no recent illness, medication changes, or alterations in routine. Relevant medical history, current medications, and allergies are not specified. The clinical impression is that while the symptoms are somewhat reassuring due to the absence of classic warning signs, the increased frequency and severity warrant further evaluation to rule out cardiac causes. The treatment plan includes recommending prompt cardiac evaluation and advising the patient to seek immediate medical attention if symptoms worsen or new symptoms such as severe pain, sweating, nausea, or dyspnea develop. The patient was encouraged to monitor for any changes and to ask questions as needed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
+- **STS Score**: 0.550
+- **Model Used**: general
+- **Text1 Length**: 176 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

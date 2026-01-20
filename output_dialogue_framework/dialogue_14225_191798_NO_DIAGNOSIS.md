@@ -87,16 +87,23 @@ Let me know if you have any questions or concerns about what we've discussed so 
 
 ## EHR Summary
 
-The patient is a 70-year-old male presenting with several months of exertional dyspnea and chest pressure. Symptoms were associated with a positive stress thallium test and EKG changes. His relevant history includes hypertension, hypercholesterolemia, diabetes, remote tobacco use, silent myocardial infarction (MI), and prior esophageal dilatation; home medications included Toprol XL, Prilosec, Captopril, Lipitor, and aspirin. Cardiac catheterization revealed a left ventricular ejection fraction (LVEF) of 65% and severe (90%) stenoses in the LAD and left circumflex arteries. On physical exam, he was in no acute distress with stable vital signs and normal peripheral pulses. The documented diagnosis was severe coronary artery disease status post silent MI. He underwent coronary artery bypass grafting (CABG) and postoperatively developed an episode of supraventricular tachycardia/rapid atrial fibrillation, initially unresponsive to Lopressor but controlled with diltiazem and fluid boluses. The treatment plan included CABG, postoperative monitoring, and management of arrhythmia with medications and fluids.
+The patient is a 70-year-old male presenting with several months of exertional dyspnea and chest pressure. Symptoms included shortness of breath and chest discomfort on exertion, with a positive stress thallium test and EKG changes; he also experienced an episode of rapid atrial fibrillation postoperatively. Relevant history includes hypertension, hypercholesterolemia, diabetes, remote tobacco use, silent myocardial infarction, and prior esophageal dilatation. The documented diagnoses were severe coronary artery disease with 90% LAD and circumflex stenoses, status post coronary artery bypass grafting (CABG), and postoperative atrial fibrillation. Treatment included CABG surgery, initiation of amiodarone and increased Lopressor for arrhythmia control, intensive chest physiotherapy, a short course of Lasix for fluid management, and discharge on multiple medications including aspirin, Lopressor, amiodarone, and Lasix. The patient was discharged in good condition with a heart monitor for outpatient rhythm surveillance and follow-up arranged with cardiology and surgery.
+
 
 ## Dialogue Summary
 
-The patient presented with exertional shortness of breath and chest pressure. Symptoms have been present for a few days, are triggered by physical activity such as walking around the house or climbing stairs, and improve with rest; the chest pressure is described as a squeezing sensation, rated 6 out of 10 at its worst, and does not persist after stopping activity. The patient denied associated symptoms such as sweating, lightheadedness, or palpitations, and reported needing to take more breaks and avoid strenuous tasks but is still able to manage most daily activities with pacing. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the symptoms are stable, not worsening, and improve with rest, which is somewhat reassuring. The doctor explained that these symptoms could be related to angina due to reduced oxygen to the heart muscle during exertion. The patient was advised to continue pacing activities, avoid strenuous exertion, and monitor for any new or worsening symptoms such as chest pain at rest, sweating, nausea, or fainting, which would warrant immediate medical attention. A follow-up appointment was recommended for further evaluation including physical exam and heart tests.
+The patient presents with exertional shortness of breath and chest pressure as the chief complaint. Symptoms have been present for several days, are triggered by physical activity such as walking or climbing stairs, and are described as a squeezing chest sensation rated 6 out of 10 in severity; both symptoms improve with rest and have remained stable without associated sweating, lightheadedness, or palpitations. The patient reports needing to take more breaks and avoid strenuous activity but can manage most daily tasks with pacing and rest. Relevant medical history, medications, and allergies are not specified in the dialogue.
+
+The clinical impression discussed is possible angina, likely due to reduced oxygen supply to the heart muscle during exertion, potentially from narrowed blood vessels. The doctor notes that the stability and improvement of symptoms with rest are somewhat reassuring but emphasizes the need for further evaluation. The treatment plan includes advising the patient to avoid strenuous activity, monitor for any worsening or new symptoms (such as chest pain at rest, sweating, nausea, or fainting), and schedule a follow-up appointment for a thorough evaluation including physical examination and cardiac testing. No medications or immediate interventions were prescribed at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.592
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 196 words
+
 
 ## Processing Information
 

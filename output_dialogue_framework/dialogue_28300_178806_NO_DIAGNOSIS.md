@@ -87,16 +87,21 @@ Does that all make sense? Do you have any questions or concerns about caring for
 
 ## EHR Summary
 
-The patient is a 51-year-old female presenting with left lower extremity claudication and rest pain. She reported symptoms consistent with peripheral arterial disease, including pain in the left leg at rest and with exertion. Her relevant medical history includes type 2 diabetes mellitus, hypertension, two prior cerebrovascular accidents (on coumadin), asthma, reflux, prior renal artery stent placement, and prior left superficial femoral artery stent. On physical exam, she was stable with palpable graft and dorsalis pedis pulses postoperatively; laboratory results showed mild anemia and elevated glucose. The documented diagnosis was peripheral arterial disease requiring surgical intervention. She underwent a left femoral to dorsalis pedis bypass graft using in-situ greater saphenous vein. Postoperative care included heparin infusion for CVA history, transition back to coumadin, pain management, incentive spirometry, and physical therapy evaluation. The hospital course was uneventful, and she was stable at discharge.
+The patient is a 51-year-old female presenting with left lower extremity claudication and rest pain. She reported pain and difficulty with ambulation in the left leg, prompting surgical intervention. Her relevant history includes type 2 diabetes mellitus, hypertension, two prior cerebrovascular accidents (on coumadin), asthma, reflux, prior renal artery stent placement, and prior left superficial femoral artery stent. The documented diagnosis was left lower extremity claudication status post left femoral to dorsalis pedis bypass graft with in-situ greater saphenous vein performed on admission. Her hospital course was uneventful, and she remained hemodynamically stable throughout. Treatment included surgical bypass, anticoagulation management (heparin and coumadin), pain control, and physical therapy. She was discharged home in stable condition with instructions for activity progression, leg elevation, wound care, and close follow-up for anticoagulation monitoring and staple/suture removal.
+
 
 ## Dialogue Summary
 
-The patient presented with an open area over the bypass graft on the front of the ankle. The wound was noticed to have opened within the last couple of days, with only a small ooze of blood initially and no further bleeding since. The patient denied redness, warmth, swelling, drainage, pain, or tenderness around the wound and reported being able to walk normally without difficulty. Relevant history includes a prior bypass graft in the area, with no previous episodes of skin opening over the graft. On examination, there were no signs or symptoms of infection or impaired mobility described by the patient. The doctor assessed this as a small, uncomplicated opening of the skin over the graft without evidence of infection. The treatment plan included continuing gentle wound care with cleaning and a dry bandage, monitoring for warning signs such as increased redness, warmth, swelling, new drainage, fever, or enlargement of the wound, and reaching out if any concerning changes occur or if healing does not progress within a week. The patient expressed understanding and agreed to follow these recommendations.
+The patient is an adult presenting with an open area over a prior bypass graft on the front of the ankle. The wound was first noticed within the past few days and was associated with a small amount of oozing, but no ongoing bleeding. The patient denies redness, warmth, swelling, drainage, pain, or tenderness at the site and reports no difficulty with ambulation. There is no prior history of skin opening over the graft. The clinical impression is a small, uncomplicated opening of the skin over the ankle graft without signs of infection. The treatment plan includes continued gentle wound care with cleaning and a dry bandage, as well as monitoring for warning signs such as increased redness, warmth, swelling, new drainage, fever, or wound enlargement. The patient was advised to seek prompt medical attention if any concerning changes occur or if the wound does not begin to heal within a week.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.538
+- **Model Used**: general
+- **Text1 Length**: 133 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

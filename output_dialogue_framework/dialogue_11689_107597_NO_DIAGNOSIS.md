@@ -100,3 +100,21 @@ Would you like some suggestions for gentle stretches or ways to stay comfortable
 ## Processing Information
 
 - **Processing Time**: 383.2s
+
+## EHR Summary
+
+The patient is an 83-year-old female presenting with bilateral lower extremity swelling and right lower extremity painful ulcerations, accompanied by back and thigh pain. She reported a two-week history of lower extremity swelling, painful ulcerations of the right toes, and posterior thigh and calf pain, with some rest pain and discomfort after walking 10-15 feet; she denied chest pain and dyspnea. Her relevant history includes failed right femoral-popliteal bypass, congestive heart failure (ejection fraction 25%), coronary artery disease, prior myocardial infarction, peripheral vascular disease, chronic renal insufficiency, hypertension, hypercholesterolemia, COPD, peptic ulcer disease, MRSA, and neuropathic pain; she has no known drug allergies and was on multiple medications including aspirin, Lasix, Zestril, and Zocor. On admission, physical exam revealed pitting edema bilaterally (left greater than right), ulcerations on all left foot toes, and monophasic/biphasic pedal pulses; labs showed stable renal function and mild anemia. The clinical impression included severe peripheral vascular disease with arterial occlusions and acute left brachial artery thrombosis. She underwent urgent left brachial artery thrombectomy and right axillo-bifemoral bypass with postoperative monitoring in the SICU. Her hospital course was complicated by mental status changes (attributed to hyponatremia and pneumonia), E. coli urinary tract infection treated with Levaquin, poor oral intake requiring tube feeds and later PEG placement, and episodes of hypoxia. The treatment plan included surgical revascularization, anticoagulation with heparin, antibiotics for UTI, nutritional support via tube feeds/TPN, pulmonary therapy, and ongoing monitoring for complications.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with right leg pain as the chief complaint. The pain extends from the thigh to the calf, is worse with walking, and sometimes persists even at rest; it has gradually worsened over time. There is associated back pain, but no numbness, tingling, weakness, swelling, color changes, or temperature differences in the leg. The discomfort limits the patient’s ability to walk and perform daily activities. The clinician’s assessment suggests the pain is likely due to nerve compression in the lower back, possibly related to spinal stenosis or arthritis, rather than a vascular issue such as a blood clot. The treatment plan includes recommendations for gentle activity and stretching, avoiding prolonged sitting, and monitoring for any new neurological symptoms such as sudden weakness or loss of bladder/bowel control. The patient requested suggestions for stretches and home comfort measures. No medications or further diagnostic tests were documented in this encounter.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.594
+- **Model Used**: general
+- **Text1 Length**: 238 words
+- **Text2 Length**: 153 words
+

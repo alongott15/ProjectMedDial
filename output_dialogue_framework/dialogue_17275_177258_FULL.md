@@ -87,16 +87,21 @@ Does that make sense? Let me know if you have any questions or concerns about wh
 
 ## EHR Summary
 
-The patient is a 35-year-old female presenting with acute myocardial ischemia requiring cardiac catheterization. She reported a history of previous myocardial infarction, coronary artery disease, and prior stent placement to the right coronary artery. On admission, her medications included aspirin, atenolol, Lipitor, calcitrel, and magnesium and calcium supplements; she has no known drug allergies. Cardiac catheterization revealed significant two-vessel obstruction, left main disease with a 60% osteal lesion, 60% mid-vessel stenosis of the left anterior descending artery, and 90% mid-vessel stenosis of the right coronary artery stent. The documented diagnosis was multivessel coronary artery disease with acute myocardial ischemia. She underwent a three-vessel coronary artery bypass graft (CABG) without complications. Postoperatively, she was transferred to the Cardiothoracic Intensive Care Unit, maintained on intravenous drips, and successfully extubated.
+The patient is a 35-year-old female presenting with acute myocardial ischemia requiring cardiac catheterization. She reported a history of previous myocardial infarction, coronary artery disease, and prior stent placement to the right coronary artery. Cardiac catheterization revealed significant two-vessel obstruction and left main disease, including a 60% osteal lesion in the left main, 60% mid-vessel stenosis in the left anterior descending artery, and 90% mid-vessel stenosis in the right coronary artery. The documented diagnosis was acute myocardial ischemia due to multivessel coronary artery disease. She underwent a three-vessel coronary artery bypass graft without complications. Postoperatively, she experienced a transient air leak from her chest tube, which resolved by postoperative day four, and she otherwise recovered well. At discharge, her condition was stable, and she was prescribed metoprolol, Lasix, K-Ciel, aspirin, Zantac, Colace, Plavix, Imdur, and Dilaudid as needed for pain. She was advised to follow up with her primary care physician and cardiothoracic surgery in two to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain. The chest pain was described as a pressure sensation, not sharp or burning, coming and going over the past few days, rated as a 6 out of 10 in severity, and worse with physical activity such as climbing stairs; it resolved within a few minutes of rest and was accompanied by mild shortness of breath during exertion but not by sweating or lightheadedness. The patient reported a history of heart issues and noted that daily activities had become more difficult due to these symptoms, though the symptoms had not changed in intensity since onset. No new medications or allergies were mentioned. On assessment, the doctor noted that the symptoms were exertional, relieved by rest, and consistent with possible “exertional angina,” especially given the cardiac history; absence of symptoms at rest and lack of associated sweating or lightheadedness were considered somewhat reassuring. The doctor recommended avoiding strenuous activity, arranging further evaluation with a cardiologist (including possible EKG or stress test), and seeking immediate medical attention if symptoms worsened or new concerning features developed.
+The patient is an adult with a history of heart issues presenting with chest pain as the chief complaint. The chest pain is described as a pressure sensation, rated 6/10 in severity, occurring intermittently over the past few days and triggered by physical activity such as climbing stairs; it resolves within a few minutes of rest. Associated symptoms include exertional shortness of breath, but no sweating or lightheadedness. The symptoms have remained stable without worsening and are impacting daily activities, requiring the patient to slow down and rest more frequently. Relevant history includes prior heart issues, but no specific medications or allergies are mentioned. The clinical impression is exertional angina, likely due to insufficient blood flow to the heart during activity. The treatment plan includes avoiding strenuous activity, arranging further evaluation with a cardiologist (such as EKG or stress testing), and instructions to seek immediate medical attention if symptoms worsen or new concerning features develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
+- **STS Score**: 0.504
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 155 words
+
 
 ## Processing Information
 

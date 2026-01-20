@@ -95,16 +95,23 @@ In the meantime, continue to rest and avoid any new medications or supplements. 
 
 ## EHR Summary
 
-The patient is a 41-year-old female presenting with increasing fatigue and icterus. She reports weakness, lethargy, sore throat, hoarseness, an episode of epistaxis, productive cough with phlegm (no blood), occasional shortness of breath, pruritus, and nonspecific joint/muscle pain, with symptoms worsening over the past week. Her medical history includes human immunodeficiency virus (HIV) off antiretroviral therapy due to cirrhosis, hepatitis C virus infection, liver cirrhosis, and prior hemolytic anemia treated with prednisone (discontinued in January after resolution). On admission, hematocrit was 24.4; right upper quadrant ultrasound showed improving ascites without bile duct dilatation, and chest x-ray was negative for pneumonia. The documented diagnosis is not explicitly stated in the note. Treatment details are not specified in the provided text.
+The patient is a 41-year-old female presenting with increasing fatigue and icterus. She reported two weeks of worsening weakness, lethargy, sore throat, hoarseness, pruritus, productive cough with clear phlegm, and occasional shortness of breath, as well as an episode of epistaxis on the day of admission. Her medical history includes human immunodeficiency virus (off antiretrovirals), hepatitis C with cirrhosis, prior autoimmune hemolytic anemia (off prednisone), acute renal failure, and prior gastrointestinal bleeding from esophageal varices. On admission, she was found to have anemia (hematocrit 24.2), thrombocytopenia (platelets 88), acute-on-chronic renal failure (creatinine rising from 1.2 to >2), and blood cultures positive for methicillin-resistant Staphylococcus aureus. The documented clinical impression included anemia of chronic disease, decompensated liver failure, acute-on-chronic renal failure (multifactorial), and bacteremia. Treatment included transfusion of packed red blood cells, initiation of iron, ascorbic acid, Epogen, vancomycin for MRSA bacteremia, ciprofloxacin for presumed urinary tract infection, intravenous fluids, and holding of diuretics and Bactrim. Further workup for possible thrombotic thrombocytopenic purpura/hemolytic uremic syndrome and recommendations from Hepatology and Renal services were pending at the time of dictation.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent fatigue and yellowing of the skin. Symptoms included ongoing tiredness not improved by rest, yellow skin (jaundice) developing over the past couple of weeks and worsening, difficulty completing daily activities, painful and itchy raised bumps on both shins that have also worsened, intermittent joint and muscle pain, occasional shortness of breath, a sore throat, hoarseness, and a few nosebleeds; the patient denied fever, chills, dark urine, pale stools, or abdominal discomfort. No recent changes in diet, medications, or supplements were reported. On examination, the doctor noted the presence of jaundice and possible erythema nodosum on the shins, with no evidence of acute infection. The assessment was that the combination of fatigue, jaundice, and shin lesions suggests a possible underlying liver or blood disorder with systemic inflammation. The doctor recommended urgent blood tests to check liver function and blood counts, advised rest, and cautioned against starting any new medications or supplements. The patient was instructed to seek prompt medical attention if symptoms such as confusion, severe abdominal pain, or rapidly worsening jaundice develop, and to follow up after testing.
+The patient is an adult presenting with the chief complaint of persistent fatigue and yellowing of the skin (jaundice). Symptoms have been worsening over the past couple of weeks and include severe tiredness not relieved by rest, yellow skin, painful and itchy raised bumps on both shins, occasional shortness of breath, joint and muscle pain, sore throat, hoarseness, and a few episodes of nosebleeds. The patient denies fever, chills, dark urine, pale stools, or recent changes in diet or medications. Relevant history includes recent sore throat and hoarseness but no new medications or supplements.
+
+The clinical impression is that the combination of ongoing fatigue, jaundice, and painful shin lesions may indicate an underlying inflammatory or liver-related condition, with possible erythema nodosum suggested by the shin findings. The physician recommended prompt blood tests to assess liver function and blood counts to help determine the underlying cause. The patient was advised to rest, avoid new medications or supplements, and monitor for new or worsening symptoms such as confusion, severe abdominal pain, or rapidly spreading jaundice. Follow-up was recommended after laboratory evaluation to guide further management.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.474
+- **Model Used**: general
+- **Text1 Length**: 178 words
+- **Text2 Length**: 183 words
+
 
 ## Processing Information
 

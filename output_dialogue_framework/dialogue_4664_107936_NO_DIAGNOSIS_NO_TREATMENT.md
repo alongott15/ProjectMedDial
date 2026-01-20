@@ -87,16 +87,23 @@ Let me know if you have any questions or want advice on home blood pressure moni
 
 ## EHR Summary
 
-The patient is a 64-year-old male presenting with a history of hypertension, high cholesterol, diabetes, and prior aortic arch dissection. He was found to have multivessel coronary artery disease and aortic arch pathology. On admission, he was afebrile with stable vital signs; physical exam revealed a 4/6 systolic ejection murmur but was otherwise unremarkable. The documented diagnoses included multivessel coronary artery disease and aortic arch dissection. He underwent coronary artery bypass grafting (LIMA to LAD), aortic valve replacement with a pericardial valve, and resection/replacement of the ascending aortic arch. Postoperatively, he experienced transient hyperglycemia managed with his preoperative medications and required ventilatory support, from which he was successfully weaned after aggressive diuresis. Physical therapy assessed him for ambulation, and he was deemed suitable for discharge after medical clearance. His chest tubes, wires, and Foley catheter were removed prior to discharge, and he continued to improve clinically.
+The patient is a 64-year-old male presenting for management of a history of hypertension, high cholesterol, diabetes, and prior aortic arch dissection with multivessel coronary artery disease. He was admitted for surgical intervention and did not report acute symptoms at the time of admission. Relevant history includes hypertension, high cholesterol, diabetes, prior aortic arch dissection resulting in loss of the right kidney, and current medications including Zestril, aspirin, labetalol, and Norvasc. On examination, he was afebrile with stable vital signs and a 4/6 systolic ejection murmur. The documented diagnoses were hypertension, coronary artery disease status post CABG times one, aortic valve replacement and arch repair, history of aortic dissection with loss of right kidney, and high cholesterol. Treatment included coronary artery bypass grafting (LIMA to LAD), aortic valve replacement with pericardial valve, and resection/replacement of the ascending aortic arch, followed by postoperative management with diuresis, pain control, and gradual weaning from ventilatory and oxygen support. He was discharged home in stable condition on aspirin, amlodipine, labetalol, Percocet as needed, Zantac, Colace, Lasix, and potassium chloride, with instructions for follow-up with his physicians.
+
 
 ## Dialogue Summary
 
-The patient presented for a routine check-in due to a history of blood pressure and heart issues, without any current symptoms. The patient denied headaches, shortness of breath, leg swelling, chest discomfort, palpitations, irregular heartbeat, lightheadedness, faintness, changes in energy or stamina, and reported no changes in weight, appetite, or sleep. The patient confirmed adherence to prescribed blood pressure and heart medications, with no recent changes to the medication routine. No physical findings were described, and the patient reported being able to perform daily activities without difficulty or fatigue. The doctor assessed that the patient's blood pressure and heart condition appear well controlled, with no new symptoms or changes in daily life. The doctor recommended scheduling a routine check-up and monitoring blood pressure at home or in the clinic to track trends over time. The patient was advised to report any new symptoms such as tiredness, swelling, chest discomfort, or irregular heartbeat promptly, and to maintain current activity and medication routines. The patient requested advice on home blood pressure monitoring.
+The patient is an adult with a history of blood pressure and heart issues presenting for a routine check-in, without any specific chief complaint. The patient reports no new symptoms, including no headaches, dyspnea (shortness of breath), leg swelling, chest discomfort, palpitations, irregular heartbeat, lightheadedness, or changes in energy, stamina, weight, appetite, or sleep. The patient is able to perform daily activities without difficulty and has been taking prescribed blood pressure and heart medications consistently, with no recent changes to the medication regimen. No recent blood pressure readings or check-ups have been performed.
+
+The clinical impression is that the patient's blood pressure and heart condition are currently well controlled, with no new symptoms or concerns. The treatment plan includes continuing current medications and daily activities as usual. The doctor recommends scheduling a routine check-up and initiating regular blood pressure monitoring at home or in the clinic to track trends over time. The patient requested advice on home blood pressure monitoring.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.943
-- **Similarity Label**: N/A
+- **STS Score**: 0.401
+- **Model Used**: general
+- **Text1 Length**: 182 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

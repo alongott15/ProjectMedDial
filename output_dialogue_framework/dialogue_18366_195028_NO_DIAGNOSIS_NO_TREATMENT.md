@@ -98,3 +98,21 @@ Let me know if you have questions or if there’s anything else about your breat
 ## Processing Information
 
 - **Processing Time**: 432.4s
+
+## EHR Summary
+
+The patient is a 73-year-old man presenting with worsening shortness of breath and dyspnea on exertion. His symptoms progressed over several days, leading to a diagnosis of congestive heart failure and findings of sinus bradycardia, with an INR of 6.99 and creatinine elevated to 1.4 from baseline. Past medical history includes hypertension, atrial fibrillation, hypercholesterolemia, and a recent inferior wall myocardial infarction. The documented diagnoses were coronary artery disease, atrial fibrillation, hypercholesterolemia, and hypertension. He underwent coronary artery bypass grafting (CABG x5) and subsequently required a permanent pacemaker due to tachybrady syndrome and persistent arrhythmias. Postoperative management included diuresis, blood transfusion, amiodarone for rhythm control, captopril, anticoagulation with Coumadin, and supportive care. At discharge, he was stable with instructions to continue medications including amiodarone, captopril, Coumadin, aspirin, Lopressor, Lipitor, and to follow up with cardiology and surgical clinics.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with increased shortness of breath, primarily during activity. Symptoms have gradually worsened over time and are characterized by significant dyspnea with exertion, requiring the patient to stop and rest, but improving with rest and not present at rest or when lying down. There is no associated cough, wheezing, chest tightness, leg swelling, or orthopnea. The patient reports a history of atrial fibrillation and occasional elevated heart rate (up to 130 bpm) during activity. The clinical impression is that the exertional dyspnea is likely related to age-associated changes in heart or lung function, or possibly mild chronic lung disease, without evidence of acute decompensation or fluid overload. The treatment plan includes pacing activities, monitoring for any worsening symptoms (such as dyspnea at rest, chest pain, or swelling), and seeking prompt care if these occur. The patient is advised to remain active within their comfort level and to monitor both breathing and heart rate for any concerning changes.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.564
+- **Model Used**: general
+- **Text1 Length**: 138 words
+- **Text2 Length**: 162 words
+

@@ -93,16 +93,21 @@ Keep up the good work with your health habits, and feel free to ask about diet o
 
 ## EHR Summary
 
-The patient is a 71-year-old man presenting for carotid catheterization due to severe right internal carotid artery (ICA) stenosis. He reported no symptoms such as vision changes, paresthesias, chest pain, shortness of breath, dizziness, nausea, vomiting, or focal neurological deficits. His relevant history includes hypercholesterolemia, peripheral vascular disease, and prior mastoid surgery; he is on aspirin, Plavix, lorazepam, Lipitor, vitamin C, vitamin E, and DHEA. Physical exam and imaging revealed a 95% right ICA lesion with no significant left-sided stenosis. The documented diagnosis was severe right ICA stenosis. Treatment included placement of a stent in the right internal carotid artery with 20% residual stenosis and monitoring in the coronary care unit. No new neurological or cardiac symptoms were observed during admission.
+The patient is a 71-year-old man presenting for elective right internal carotid artery stent placement due to severe carotid artery disease. He reported no symptoms such as vision changes, paresthesias, chest pain, shortness of breath, dizziness, or neurological deficits at the time of admission or during hospitalization. His relevant history includes hypercholesterolemia, peripheral vascular disease, and prior mastoid surgery; he is on aspirin, Plavix, and Lipitor at home. The documented diagnosis was severe right internal carotid artery stenosis (95%) treated with stent placement, resulting in 20% residual stenosis. Post-procedure, he remained neurologically intact and hemodynamically stable, with no evidence of complications such as transient ischemic attack or cerebrovascular accident. Treatment included continuation of dual antiplatelet therapy (aspirin and Plavix), statin therapy (Lipitor), and blood pressure monitoring with a target systolic range of 140-170 mmHg for the first postoperative week. He was discharged in stable condition with instructions for follow-up in two weeks to monitor blood pressure and stent status.
+
 
 ## Dialogue Summary
 
-The patient presented for a general health check-in, with no specific symptoms to report. They denied any new limitations with walking or exercise, leg discomfort, numbness, changes in skin color or temperature in the feet, and unusual fatigue; energy levels and blood pressure have remained stable. Relevant history includes high cholesterol and peripheral vascular disease, with current management using Lipitor and regular monitoring through check-ups and blood work; the patient does not smoke and maintains a steady weight. No abnormal clinical findings were described during the visit. The doctor assessed that the patient is effectively managing their cholesterol and vascular health, with no immediate concerns due to the absence of new symptoms. The treatment plan emphasized maintaining current lifestyle habits, continuing regular monitoring, and watching for new symptoms such as leg pain with walking, changes in the feet, or unusual fatigue. The doctor encouraged the patient to reach out with any questions about diet or exercise or if any changes in health occur.
+The patient is an adult presenting for a routine health check-in, with no specific chief complaint. They report no new symptoms, including no limitations with walking or exercise, no leg discomfort, numbness, or changes in the feet, and no unusual fatigue. The patient has a history of high cholesterol and peripheral vascular disease and is currently taking Lipitor for cholesterol management; they do not smoke and are maintaining a stable weight. Blood pressure has been stable at recent check-ups, and the patient is keeping up with regular monitoring and blood work. No new clinical findings or acute concerns were documented during the visit. The assessment is that the patient is effectively managing their cholesterol and vascular health with current routines. The treatment plan includes continuing prescribed medication, maintaining healthy lifestyle habits (diet, exercise, weight control, and smoking avoidance), and ongoing regular monitoring. The patient was advised to watch for new symptoms such as leg pain with walking, changes in the feet, or unusual fatigue, and to seek further evaluation if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
+- **STS Score**: 0.521
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

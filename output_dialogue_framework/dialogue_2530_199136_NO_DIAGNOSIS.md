@@ -87,16 +87,23 @@ Is there anything else on your mind today, or any questions you’d like to disc
 
 ## EHR Summary
 
-The patient is a 75-year-old male admitted for management of a right renal mass. He has a history of coronary artery disease with prior myocardial infarction, multiple malignancies (colon, prostate, and transitional cell carcinoma of the left ureter), chronic obstructive pulmonary disease, hypertension, diabetes, and peripheral vascular disease. The patient underwent a right nephrectoureterectomy without intraoperative complications and was initially transferred to the ICU due to severe comorbidities. Postoperatively, he developed acute agitation on the second night, which improved with Haldol; no hypoxia or electrolyte abnormalities were noted at that time. On postoperative day three, he reported shortness of breath; cardiac enzymes were negative for acute myocardial injury, though CK was mildly elevated. Cardiology recommended diuresis and medication adjustments. The patient’s condition stabilized, and he was transferred to the floor in stable condition.
+The patient is a 75-year-old male presenting with a right renal mass. He has a history of coronary artery disease status post myocardial infarction, transitional cell carcinoma of the left ureter status post ureterectomy, colon cancer, prostate cancer, chronic obstructive pulmonary disease, hypertension, diabetes, and peripheral vascular disease. During hospitalization, he underwent a right nephrectoureterectomy and initially did well postoperatively, though he experienced acute agitation on postoperative day two requiring Haldol and some shortness of breath on postoperative day three; cardiac enzymes were negative and VQ scan was low probability for pulmonary embolism. The documented diagnosis was right renal mass requiring surgical removal. Treatment included right nephrectoureterectomy, postoperative monitoring, diuresis as recommended by Cardiology, and management of agitation with Haldol. The patient’s Foley catheter, JP drain, nasogastric tube, epidural, and central line were discontinued prior to discharge. He was discharged in stable condition on a regular diet with instructions for VNA follow-up for Foley care, wound checks, and vital signs monitoring. Discharge medications included Humulin, Tylenol, Lipitor, Lasix, Lopressor, Hydralazine, Tylenol #3, aspirin, and Colace.
+
 
 ## Dialogue Summary
 
-The patient presented with no specific chief complaint and reported no new symptoms. The patient denied changes in energy, sleep, appetite, daily routine, mobility, vision, hearing, mood, memory, concentration, or weight, and stated that all aspects of wellbeing have remained steady. No relevant medical history, medications, or allergies were mentioned during the visit. There were no abnormal physical findings described by the patient or noted by the doctor. The doctor assessed that the patient's overall health and daily routines have remained stable, with no evidence of common age-related issues such as mild infections, joint discomfort, or changes in cognition or mood. The doctor recommended continuing regular healthy habits and monitoring for any new symptoms, such as persistent cough, unexplained fatigue, or changes in appetite. The patient was advised to reach out if any changes occur and acknowledged understanding of the doctor's recommendations.
+The patient presented for a routine check-in with no specific chief complaint. They reported no new symptoms, and denied changes in energy, sleep, appetite, daily routine, mobility, vision, hearing, mood, cognition, or weight. The patient also denied any recent issues such as cough, headache, or digestive upset, and confirmed they are able to maintain their usual activities without difficulty. No relevant past medical history, medications, or allergies were discussed in this encounter.
+
+The clinical impression was that the patient’s overall health and daily routines have remained stable, with no evidence of acute or chronic issues. No new diagnosis was documented. The treatment plan included reassurance, encouragement to continue regular healthy habits, and advice to monitor for any new symptoms such as persistent cough, unexplained fatigue, or changes in appetite. The patient was advised to reach out if any changes occur and to continue with routine check-ins for ongoing health maintenance.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.919
-- **Similarity Label**: N/A
+- **STS Score**: 0.403
+- **Model Used**: general
+- **Text1 Length**: 175 words
+- **Text2 Length**: 150 words
+
 
 ## Processing Information
 

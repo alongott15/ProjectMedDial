@@ -87,16 +87,23 @@ Would you like advice on wound care at home until you can see a provider, or do 
 
 ## EHR Summary
 
-The patient is a 29-year-old female presenting with postoperative complications following a right dorsal foot exostectomy. She developed erythema, purulent drainage, and wound dehiscence one week after surgery, with subsequent fever (temperature up to 39.0°C) and leukocytosis (WBC 16.6). Her wound culture grew Staphylococcus aureus. She has no significant past medical history and no known drug allergies. On physical exam, she was in no apparent distress with a right foot ulcer measuring 6 by 4 centimeters. The documented diagnosis was status post right dorsal foot exostectomy with postoperative cellulitis and dehiscence. Treatment included incision and drainage of the right foot wound with VAC placement, administration of Vancomycin and Clindamycin, and a parascapular fascia-cutaneous free flap with split-thickness skin graft to the right lower extremity wound.
+The patient is a 29-year-old female presenting with postoperative cellulitis and wound dehiscence following a right dorsal foot exostectomy. She developed erythema and purulent drainage from the surgical site one week after the initial procedure, with subsequent fever (temperature up to 39.0°C), elevated white blood cell count (16.6), and exposed tendons in a 6 by 4 cm ulcer on the right foot. Her past medical history is unremarkable, with no known drug allergies and no chronic medications. The documented diagnosis was status post right dorsal foot exostectomy complicated by postoperative cellulitis and dehiscence, with Staphylococcus aureus cultured from the wound. Treatment included intravenous antibiotics (Vancomycin, Clindamycin, then Oxacillin), incision and drainage with VAC placement, and later a parascapular fascia-cutaneous free flap with split-thickness skin graft to the right lower extremity. She was maintained on bed rest with leg elevation, transitioned to subcutaneous heparin and aspirin for thromboprophylaxis, and eventually placed in a cast. At discharge, she was prescribed intravenous Ancef for four weeks, Percocet as needed for pain, Colace, and aspirin, with instructions to remain in bed with her leg elevated and to follow up with her physician.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent right foot pain and a non-healing wound. Symptoms included spreading redness, thick yellow drainage with odor, pain making it difficult to walk and move toes, fevers, and feeling run down; these symptoms had been present for at least a week and were worsening over time. The patient reported difficulty performing usual routines and work due to the pain and open wound. No specific past medical history, medications, or allergies were mentioned. On assessment, the doctor noted signs suggestive of a wound infection, including spreading redness, purulent drainage, pain, fever, and impaired mobility, raising concern for infection beyond superficial involvement. The doctor recommended in-person evaluation for possible antibiotics and wound care, advised keeping the area clean and covered, minimizing weight-bearing on the foot, and monitoring for worsening symptoms such as increasing pain or redness spreading up the leg. The patient requested advice on home wound care until they could be seen by a provider.
+The patient presents with right foot pain as the chief complaint. Symptoms include persistent pain, spreading redness, thick yellow malodorous drainage from a wound, difficulty walking and moving toes, and subjective fevers for at least one week. The wound has not healed and symptoms have worsened over time, significantly impacting daily activities and work. There is no documented relevant medical history, medications, or allergies in the dialogue.
+
+The clinical impression is a right foot wound with signs of infection, possibly deeper than superficial involvement. The doctor advised keeping the area clean and covered, minimizing weight-bearing on the foot, and monitoring for worsening symptoms such as increased pain, spreading redness, or systemic illness. The patient was instructed to seek in-person evaluation promptly, as antibiotics and further wound care may be necessary. Home wound care advice was offered until the patient can be seen by a healthcare provider.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.706
+- **Model Used**: general
+- **Text1 Length**: 188 words
+- **Text2 Length**: 146 words
+
 
 ## Processing Information
 

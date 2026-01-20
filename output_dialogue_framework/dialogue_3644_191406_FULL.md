@@ -85,16 +85,21 @@ For now, try to pace yourself with activities and avoid overexertion. If you fee
 
 ## EHR Summary
 
-The patient is a 54-year-old female presenting with hypercarbia. She experienced hypercarbic respiratory failure, with an arterial blood gas showing pH 7.25, PCO2 72, and PO2 53 prior to intubation, and had decreased respiratory rate and oxygen saturation associated with use of pain medications including narcotics and benzodiazepines. Her medical history includes congestive heart failure, coronary artery disease status post CABG, chronic low back pain, myoclonus, hyperlipidemia, GERD, anxiety disorder, depression, and COPD; she is also an avid smoker. On transfer, her medications included Lipitor, Gemfibrozil, Atenolol, Aspirin, Neurontin, Protonix, Levofloxacin, Robaxin, MS Contin, Vioxx, and Xanax. Physical exam findings included an echocardiogram with EF 55%, 1+ mitral regurgitation, and 2+ tricuspid regurgitation. The documented diagnosis was hypercarbic respiratory failure likely secondary to overmedication with narcotics and benzodiazepines. Treatment included close monitoring in the ICU, intubation followed by extubation the next day, and adjustment of pain medications. The patient is allergic to tape.
+The patient is a 54-year-old female presenting with hypercarbia. She experienced hypercarbic respiratory failure, with an arterial blood gas showing pH 7.25, PCO2 72, and PO2 53 prior to intubation, and was noted to have decreased respiratory rate and oxygen saturation associated with chronic use of narcotics and benzodiazepines for chronic pain. Her medical history includes congestive heart failure, coronary artery disease status post CABG, chronic low back pain, myoclonus, hyperlipidemia, GERD, anxiety disorder, depression, and COPD; she is also an avid smoker and allergic to tape. The documented diagnosis was hypercarbic respiratory failure of unknown etiology, suspected to be secondary to overmedication with sedating pain medications. She was monitored in the ICU, extubated the day after admission, and counseled extensively regarding medication risks. The patient left the hospital against medical advice before further assessment or medication adjustment could be completed. She was advised to follow up urgently with her primary care and pain management physicians and offered outpatient pulmonary function testing.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about breathing and a recent diagnosis of hypercarbia. Symptoms included feeling "off," slower breathing rate, occasional difficulty with routine activities, mild shortness of breath at rest, and anxiety related to lower oxygen saturation; these symptoms have persisted for several days without significant change. The patient denied bluish lips or fingers, unusual fatigue, or lightheadedness, and reported no specific triggers for symptoms. Relevant history includes a recent finding of lower-than-usual oxygen levels but no mention of current medications or allergies. On clinical review, the patient described stable symptoms and maintained ability to perform most daily activities, though with increased effort. The doctor assessed that slowed breathing and hypercarbia are likely contributing to the patient's symptoms and anxiety, with reassurance provided due to the lack of worsening or severe signs. The doctor advised pacing activities, avoiding overexertion, monitoring for warning signs such as increasing shortness of breath, confusion, or cyanosis, and seeking prompt medical care if these develop. No immediate interventions were recommended beyond symptom monitoring and activity modification.
+The patient is an adult presenting with concerns about breathing difficulties and a recent diagnosis of hypercarbia. Symptoms include a subjective feeling of being "off," slowed breathing, intermittent dyspnea (especially at rest), mild exertional intolerance, and anxiety related to lower oxygen levels; these symptoms have persisted for several days without significant improvement or worsening. The patient denies cyanosis, unusual fatigue, or lightheadedness, and reports no clear triggers for the episodes. Relevant history includes a documented episode of lower-than-usual oxygen saturation and no access to home pulse oximetry. The clinical impression is hypercarbia with associated mild hypoxemia and anxiety. The treatment plan includes monitoring for worsening symptoms (such as increasing dyspnea, confusion, or cyanosis), pacing activities to avoid overexertion, and seeking prompt medical attention if warning signs develop. No new medications or interventions were prescribed during this visit. The patient was reassured given the stability of symptoms and current functional status.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.701
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 150 words
+
 
 ## Processing Information
 

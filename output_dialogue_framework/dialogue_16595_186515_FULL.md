@@ -99,16 +99,21 @@ Let me know if you have questions about what to expect, or if there are other co
 
 ## EHR Summary
 
-The patient is a 59-year-old female presenting with bilateral pneumonia. She reported severe right upper quadrant pleuritic pain radiating to the right shoulder, accompanied by tachypnea, diaphoresis, subcostal retractions, and desaturation to 85% on room air, which improved to 97% on non-rebreather. Her past medical history includes chronic steroid use for lichen planus, degenerative disk disease with spinal stenosis on chronic narcotics, hypertension, diabetes, iron deficiency anemia, and anxiety disorder; she has allergies to aspirin and NSAIDs. On examination, she was diaphoretic but in no distress, with a temperature of 102.3°F and oxygen saturation of 96% on 4L nasal cannula. Imaging revealed right middle and lower lobe and left lower lobe pneumonia with moderate right pleural effusion; no pulmonary embolism was found. The documented diagnosis was bilateral pneumonia with sepsis. Treatment included intubation and ventilation, bilateral chest tubes placed by VATS, intravenous fluids, and antibiotics (azithromycin and ceftriaxone). She was managed under a sepsis protocol and remained hemodynamically stable during admission.
+The patient is a 59-year-old female presenting with bilateral pneumonia. She experienced severe right upper quadrant pleuritic pain radiating to the right shoulder, associated with desaturation (O2 sat 85% on room air), tachypnea, diaphoresis, and subcostal retractions, leading to intubation and mechanical ventilation. Her medical history includes chronic steroid use for lichen planus, degenerative disk disease with spinal stenosis on chronic narcotics, hypertension, diabetes, and iron deficiency anemia; she is allergic to aspirin and NSAIDs. Imaging revealed right middle and lower lobe pneumonia with moderate right pleural effusion and parapneumonic effusion, requiring thoracentesis, VATS with lysis of adhesions, and bilateral chest tube placement. She was treated with broad-spectrum antibiotics (azithromycin and ceftriaxone), sepsis protocol, and pain management tailored to her chronic narcotic use. Blood cultures grew gram-positive cocci, prompting removal of all indwelling lines. The patient improved after drainage of the effusion, was extubated, and discharged in stable condition with instructions to ambulate with a brace and follow up in 10–14 days. The discharge diagnoses included lumbar spondylitis and flat back syndrome.
+
 
 ## Dialogue Summary
 
-The patient presented with back pain related to spondylitis. They described the pain as mostly aching and stiff, occasionally sharper with certain movements, present most of the time, and rated it as a 6 out of 10 in severity; rest and heat packs provide some relief, while bending, twisting, and specific movements worsen symptoms. The discomfort has led the patient to limit daily activities, especially those involving back movement, and they have not started any new medications recently but use heat and gentle stretching. No other medical history, medications, or allergies were mentioned. On examination, there were no additional physical findings reported beyond the patient's descriptions. The doctor assessed that the patient’s symptoms—aching, stiffness, and activity limitation—are common in spondylitis and likely to benefit from a combination of strategies. The doctor recommended continuing heat and stretching, emphasized the importance of staying active, and specifically advised starting a structured physical therapy program focused on gentle stretching, posture improvement, and strengthening exercises tailored by a therapist. A referral to physical therapy was offered, and the patient expressed interest in learning more and agreed to proceed.
+The patient presents with back pain related to spondylitis as the chief complaint. The pain is described as aching and stiff, with occasional sharpness during certain movements, is present most of the time, and is rated as 6 out of 10 in severity on most days. Symptoms are aggravated by movement (especially bending or twisting) and partially relieved by rest and heat packs; the discomfort interferes with daily activities. The patient has not tried new medications recently and has not yet started physical therapy but uses heat and gentle stretching at home. The documented diagnosis is spondylitis with associated chronic back pain and stiffness. The treatment plan includes a referral to physical therapy for a structured exercise program focused on stretching, posture, and strengthening, with initial sessions once or twice weekly and home exercises for long-term management. The patient is advised to continue current self-care strategies and to report any new neurological symptoms or severe changes. The goal of therapy is to improve mobility, reduce stiffness, and maintain function.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.938
-- **Similarity Label**: N/A
+- **STS Score**: 0.367
+- **Model Used**: general
+- **Text1 Length**: 172 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

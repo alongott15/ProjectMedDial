@@ -100,3 +100,21 @@ Let me know if you have any questions or if there’s anything else you’re wor
 ## Processing Information
 
 - **Processing Time**: 340.0s
+
+## EHR Summary
+
+The patient is an 80-year-old male presenting with two days of extreme shortness of breath at rest and dull chest pain radiating to the left shoulder. Symptoms included 7/10 chest pain, paroxysmal nocturnal dyspnea, orthopnea, and bilateral peripheral edema, with hypoxia noted on examination. Relevant history includes coronary artery disease (status post coronary artery bypass graft), type 2 diabetes with nephropathy, chronic renal failure, and peripheral vascular disease; no known drug allergies. On admission, laboratory and imaging findings supported diagnoses of non-ST-elevation myocardial infarction (NSTEMI), acute congestive heart failure with pulmonary edema, acute renal failure, anemia, and delirium. The patient was treated with aspirin, Plavix, statin, heparin drip, nitroglycerin, morphine, diuretics (Lasix and spironolactone), oxygen therapy, nebulizers, and insulin sliding scale for hyperglycemia; ACE inhibitor and diabetic medications were reinitiated as renal function improved. Cardiac catheterization was considered but deferred due to renal insufficiency. The patient’s condition stabilized with optimized medical management, and he was discharged home on a cardiac and diabetic regimen with follow-up arranged with primary care and cardiology.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with a chief complaint of severe shortness of breath, which occurs even at rest. Symptoms include gradually worsening dyspnea over several days, dull chest pain radiating to the left shoulder, increased difficulty with daily activities, orthopnea requiring two pillows for comfort, and worsening leg and ankle swelling; the patient also reports confusion and agitation during episodes of severe dyspnea. There is no associated wheezing, cough, sweating, or nausea. Relevant history such as past medical conditions, medications, or allergies is not specified in the dialogue. The clinical impression documented by the physician is possible heart failure, given the combination of symptoms including dyspnea at rest, orthopnea, chest discomfort, and peripheral edema. The treatment plan includes urgent medical evaluation by a primary doctor or emergency department for further assessment and management, with instructions to stay upright and avoid lying flat. The patient was also advised to seek emergency care if experiencing severe chest pain, fainting, or sudden worsening of breathing.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.649
+- **Model Used**: general
+- **Text1 Length**: 171 words
+- **Text2 Length**: 164 words
+

@@ -69,16 +69,21 @@
 
 ## EHR Summary
 
-The patient is a 63-year-old male presenting with progressive leg weakness and urinary incontinence, transferred for surgical management of spinal stenosis and posterior disc herniation at T2-T3. He reported a one-year history of ataxia, with recent worsening of leg weakness and inability to bear weight for 48 hours prior to admission. Past medical history includes Non-Hodgkin's lymphoma (treated with radiation and surgery), hypertension, and hypercholesterolemia. On examination, he had 3/5 strength in both lower extremities, increased lower extremity reflexes, and intact cranial nerves; MRI confirmed T2-T3 spinal stenosis with posterior disc herniation. Laboratory values on admission were within normal limits. The documented diagnosis was spinal stenosis with posterior herniation at T2-T3. He underwent T2-T3 decompression laminectomy without intraoperative complications. Postoperatively, his lower extremity strength remained reduced but stable, and his vital signs were stable.
+The patient is a 63-year-old male presenting with progressive ataxia, increased leg weakness, and urinary incontinence, with inability to bear weight for 48 hours prior to admission. He reported a one-year history of ataxia and was found to have worsening lower extremity weakness (3/5 strength bilaterally) and hyperreflexia on examination. Relevant history includes Non-Hodgkin's lymphoma (treated with radiation and surgery), hypertension, and hypercholesterolemia. MRI demonstrated spinal stenosis with posterior disc herniation at the T2-T3 level. The documented diagnosis was thoracic spinal stenosis with disc herniation causing neurological deficits. He underwent T2-T3 decompression laminectomy followed by a revision laminectomy due to lack of neurological improvement, with no intraoperative complications. Postoperatively, he developed transient atrial fibrillation managed with beta blocker therapy, and his neurological status improved to 4-/5 strength in the lower extremities. Discharge plans included acute rehabilitation, continuation of medications including Decadron and Metoprolol, and outpatient follow-up for staple removal.
+
 
 ## Dialogue Summary
 
-The patient presented with difficulty with balance and walking. Symptoms included gradually worsening trouble with balance and ambulation over time, increased leg weakness, difficulty standing up from a chair or climbing stairs, and inability to bear weight as before. The patient reported feeling unsteady and worrying about falling but denied any actual falls, numbness, tingling, or unusual sensations in the legs or feet. No specific triggers or activity-related worsening were noted; symptoms remained consistent regardless of activity. No relevant medical history, medications, or allergies were mentioned. On clinical questioning, the doctor noted progressive leg weakness and gait instability without sensory changes. No formal assessment or diagnosis was provided, and no treatment plan or recommendations were discussed during the encounter.
+The patient presents with worsening balance and difficulty walking as the chief complaint. Symptoms include gradually progressive leg weakness over an unspecified period, leading to increased difficulty standing up, walking, and bearing weight. The patient reports feeling unsteady and is concerned about falling, though no falls have occurred. There are no associated sensory symptoms such as numbness or tingling; the primary issue is weakness. The symptoms are persistent and not triggered or worsened by specific activities. Relevant medical history, medications, allergies, diagnosis, and treatment plan are not documented in the dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.386
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 91 words
+
 
 ## Processing Information
 

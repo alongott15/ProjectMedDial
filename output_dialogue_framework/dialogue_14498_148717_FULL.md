@@ -59,16 +59,21 @@
 
 ## EHR Summary
 
-The chief complaint is not specified in the note. No specific symptoms or their characteristics are documented. Relevant history, including past medical history, medications, or allergies, is not provided. Physical therapy evaluation found the patient to be stable, independent, and at baseline strength. No diagnosis is documented in the note. The patient was discharged to home with no additional treatment or recommendations specified. Follow-up was noted to be the same.
+The chief complaint is not specified in the note. No specific symptoms or their characteristics are documented. Relevant history, including past medical history, medications, or allergies, is not provided. The patient was evaluated by physical therapy and found to be stable, independent, and at baseline strength. No explicit diagnosis is documented in the note. The treatment plan consisted of discharge to home with follow-up as previously arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with concern after a fall from standing, resulting in a cut on the back of the head. The patient reported no nausea, vomiting, dizziness, or changes in vision since the fall, though noted being legally blind in the left eye. The laceration was described as approximately one centimeter long, with bleeding that stopped quickly and no associated swelling, redness, or warmth. No symptoms suggestive of infection or uncontrolled bleeding were reported. The patient denied any new visual disturbances aside from their baseline impairment. No relevant medical history, medications, or allergies were otherwise mentioned. The doctor did not provide a formal assessment or diagnosis during the documented portion of the encounter. No specific treatment plan or recommendations were given in the available dialogue.
+The patient is presenting after a fall from standing, resulting in a cut on the back of the head. The primary concern is a laceration approximately one centimeter in length at the site of impact. The patient denies nausea, vomiting, dizziness, changes in vision (noting pre-existing legal blindness in the left eye), or any difficulty controlling bleeding. There are no reported signs of infection such as redness, warmth, or swelling, and the bleeding resolved quickly. Relevant history includes legal blindness in the left eye; no other medical history, medications, or allergies are specified. No diagnosis is explicitly documented in the dialogue. No specific treatment or recommendations are provided in the text.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.917
-- **Similarity Label**: N/A
+- **STS Score**: 0.321
+- **Model Used**: general
+- **Text1 Length**: 67 words
+- **Text2 Length**: 111 words
+
 
 ## Processing Information
 

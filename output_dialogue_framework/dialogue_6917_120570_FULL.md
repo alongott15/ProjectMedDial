@@ -87,16 +87,21 @@ In the meantime, try to keep a log of when these episodes happen and what you we
 
 ## EHR Summary
 
-The patient is a 73-year-old woman presenting with chest pain associated with nausea and mild dizziness. She denied emesis, diaphoresis, shortness of breath, lower extremity edema, and recent weight gain, but reported occasional palpitations; her pain improved in the Emergency Room. Her medical history includes coronary artery disease, diabetes mellitus type 2, aortic stenosis (valve area 0.8 cm²), hypertension, hypercholesterolemia, anemia, bilateral subclavian stenosis, and a T11-12 paravertebral mass. On admission, her heart rate was 57 bpm, blood pressure 199/54 mmHg, respiratory rate 14, and oxygen saturation 98% on 2 liters; she was sitting up in bed and denied pain or shortness of breath at that time. The documented clinical impression was rule out myocardial infarction. Initial treatment included a nitroglycerin drip, aspirin, Pepcid, GI cocktail, and Zofran. She was admitted to the medical service for further evaluation and management.
+The patient is a 73-year-old woman presenting with chest pain associated with nausea and mild dizziness, but without shortness of breath or diaphoresis. Her symptoms improved in the Emergency Room after receiving nitroglycerin, aspirin, and supportive medications. She has a history of coronary artery disease, diabetes mellitus type 2, aortic stenosis, hypertension, hypercholesterolemia, anemia, and bilateral subclavian stenosis, and is allergic to senna, shellfish, and intravenous contrast. The documented diagnoses were coronary artery disease status post coronary artery bypass grafting (CABG) times one with a saphenous vein graft to the posterior descending coronary artery, and aortic stenosis status post aortic valve replacement with a #19 Mosaic porcine valve. During hospitalization, she underwent successful aortic valve replacement and CABG, followed by an uneventful postoperative course. At discharge, her condition was good and she was stable on room air. She was discharged to rehabilitation with instructions for cardiac rehabilitation and follow-up appointments, and prescribed medications including metoprolol, aspirin, furosemide, potassium chloride, valsartan, atorvastatin, glipizide, insulin sliding scale, and others for ongoing management.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain that has been causing anxiety. Symptoms include moderate chest pain, nausea, and occasional lightheadedness, typically triggered by physical activity such as walking or climbing stairs, and improving with rest; episodes last a few minutes. The patient also reported intermittent irregular or fluttering heartbeats during these episodes and has been limiting activity and taking more breaks to avoid symptom onset. No relevant medical history, medications, or allergies were mentioned. The doctor noted that symptoms are exertional and improve with rest, with associated palpitations and presyncope, suggesting possible angina or related cardiac causes. The doctor advised the patient to avoid strenuous activity and recommended follow-up with their primary doctor for further evaluation, including possible EKG or stress testing. The patient was instructed to seek immediate medical attention if symptoms worsen or new warning signs develop, and to keep a log of episodes for future reference. The patient expressed understanding of the recommendations.
+The patient presents with chest pain as the chief complaint. The chest pain is described as moderate in intensity, typically occurring with physical activity such as walking or climbing stairs, and is accompanied by nausea, lightheadedness (almost fainting), and occasional palpitations or irregular heartbeats; symptoms resolve with rest and last a few minutes per episode. The patient reports limiting activity and taking more breaks to avoid triggering symptoms. There is no mention of relevant past medical history, medications, or allergies. The clinical impression discussed is possible angina, with the doctor noting that symptoms may be related to the heart not receiving enough oxygen during exertion. The treatment plan includes avoiding strenuous activity, monitoring symptoms, keeping a log of episodes, and following up soon with the primary doctor for further evaluation (such as EKG or stress testing). The patient was also advised to seek immediate medical attention if symptoms worsen or new warning signs develop (e.g., pain at rest, shortness of breath, sweating, or pain radiating to the arm or jaw).
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.564
+- **Model Used**: general
+- **Text1 Length**: 170 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

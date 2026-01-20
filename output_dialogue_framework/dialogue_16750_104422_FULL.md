@@ -87,16 +87,21 @@ Does that sound reasonable to you? Any questions or concerns about what we’ve 
 
 ## EHR Summary
 
-The patient is a 71-year-old man presenting after an acute myocardial infarction. He reported some vague chest pain following the event and had an unsuccessful angioplasty attempt of the left anterior descending artery. His relevant history includes recent myocardial infarction and attempted angioplasty; no medication allergies are documented. On physical examination, he was well-nourished, in no acute distress, with normal cardiac and pulmonary findings and normal renal function. The documented diagnoses were status post myocardial infarction and status post coronary artery bypass grafting (CABG) with internal mammary artery to the left anterior descending artery. He underwent CABG x1 on admission and had an uneventful postoperative course. Discharge medications included Toprol XL 50 mg daily, lisinopril 10 mg daily, and Coumadin 5 mg daily. He was advised to follow up with his cardiothoracic surgeon in three weeks and his primary care physician in one month.
+The patient is a 71-year-old man presenting after an acute myocardial infarction. He reported some vague chest pain following the event and had an unsuccessful angioplasty attempt of the left anterior descending artery. On examination, he was well-nourished and in no acute distress, with normal cardiac and pulmonary findings and no evidence of heart failure or vascular complications. His relevant history includes recent myocardial infarction and failed angioplasty; no allergies are documented. The clinical impression was status post myocardial infarction and status post coronary artery bypass grafting (CABG) with internal mammary artery to the left anterior descending artery. He underwent CABG x1 on admission and had an uncomplicated postoperative course. Discharge medications included Toprol XL 50 mg daily, lisinopril 10 mg daily, and Coumadin 5 mg daily. Follow-up was arranged with his cardiothoracic surgeon in three weeks and his primary care physician in one month.
+
 
 ## Dialogue Summary
 
-The patient presented with vague chest pain described as a mild, dull pressure in the center of the chest. The symptom began a few days ago, occurs intermittently for a few minutes at a time, is rated 2–3 out of 10 in severity, and is not associated with activity, position, or specific triggers. The patient denied associated symptoms such as shortness of breath, sweating, or lightheadedness. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the mild, brief, central chest pressure without exertional trigger or warning signs is likely benign, possibly related to muscle strain, mild acid reflux, or anxiety, and is less likely to represent heart disease. The doctor advised the patient to monitor for any worsening or new symptoms such as increased pain, prolonged episodes, trouble breathing, faintness, or pain radiating to the arm or jaw, and to seek prompt medical attention if these occur. The patient was also advised to keep a log of episodes and possible triggers and to follow up if the symptoms persist or change in character.
+The patient is an adult presenting with vague chest pain as the chief complaint. The pain is described as a mild (2–3/10), dull, central chest pressure that began a few days ago, lasts a few minutes per episode, and occurs intermittently without clear triggers. The discomfort is not associated with exertion, and there are no accompanying symptoms such as dyspnea, diaphoresis, or lightheadedness. The patient reports that the pressure fades on its own and is not relieved or worsened by specific actions. Relevant medical history, medications, and allergies are not specified. The clinical impression is that the symptoms are likely benign, possibly related to muscle strain, mild acid reflux, or anxiety, and are less likely to indicate serious cardiac disease given the absence of warning signs. The treatment plan includes monitoring symptoms, noting possible triggers, and seeking prompt medical attention if the pain worsens, lasts longer, or is accompanied by new symptoms such as shortness of breath or pain radiating to the arm or jaw. The patient was reassured and agreed to follow up if symptoms change.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.940
-- **Similarity Label**: N/A
+- **STS Score**: 0.474
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 177 words
+
 
 ## Processing Information
 

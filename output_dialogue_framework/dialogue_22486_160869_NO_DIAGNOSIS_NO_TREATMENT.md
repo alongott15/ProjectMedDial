@@ -71,16 +71,21 @@
 
 ## EHR Summary
 
-The patient is a 49-year-old female presenting with colitis and gastrointestinal bleeding. She has experienced blood loss over several months, with abnormal colonoscopies revealing areas of stricturing, and persistent symptoms despite steroid therapy. Her past medical history includes neuralgia, rheumatoid arthritis, and depression; she has no known drug allergies and is a Jehovah's Witness who declines blood transfusions but will accept certain other blood products. On admission, her hematocrit was 20, and physical exam showed mild abdominal tenderness with a clean surgical incision. The clinical impression was colitis with bleeding, likely secondary to Crohn's disease. She underwent a right colectomy after multidisciplinary consultation. The treatment plan included surgical intervention without blood transfusion, in accordance with her wishes.
+The patient is a 49-year-old female presenting with colitis and gastrointestinal bleeding. She reported several months of blood loss, abnormal colonoscopies with stricturing, and persistent symptoms despite steroid therapy. Her medical history includes neuralgia, rheumatoid arthritis, and depression; she has no known drug allergies and is a Jehovah's witness who declines blood transfusions. On admission, she was found to have severe anemia (hematocrit 20, hemoglobin as low as 5.5-6.0). The documented diagnosis was colitis with bleeding. She underwent a right colectomy without complications and was managed post-operatively with oxygen, steroid taper, and supportive care, avoiding blood products per her wishes. At discharge, she was stable and prescribed a steroid taper, pain management, and her home medications, with instructions for follow-up and to monitor for signs of infection or worsening symptoms.
+
 
 ## Dialogue Summary
 
-The patient presented with bleeding related to colitis. The bleeding began a few days ago and has occurred daily since onset, with the patient describing it as a noticeable amount each time rather than just a small spot. The patient denied feeling lightheaded or unusually tired and reported no changes in bowel movements, such as increased frequency, diarrhea, or abdominal pain. No specific foods or activities were identified as triggers for the bleeding, and the patient stated that this is the first time bleeding has persisted for several consecutive days, although previous episodes of bleeding with colitis have occurred. No relevant medication use or allergies were mentioned. The doctor did not note any physical findings during the conversation. The assessment focused on ongoing colitis-related bleeding without associated systemic symptoms or bowel changes. No specific treatment plan or recommendations were provided during the dialogue.
+The patient is presenting with bleeding related to colitis as the chief complaint. The bleeding began a few days ago and has occurred daily since onset, with the patient describing the amount as more than just a spot and noticeable each time. The patient denies associated symptoms such as lightheadedness, unusual fatigue, changes in bowel movements, increased frequency, diarrhea, or abdominal pain. There is a history of colitis with previous episodes of bleeding, but this is the first episode lasting several consecutive days. No specific triggers related to food or activity have been identified. No documented diagnosis or treatment plan was provided in the dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.648
+- **Model Used**: general
+- **Text1 Length**: 130 words
+- **Text2 Length**: 105 words
+
 
 ## Processing Information
 

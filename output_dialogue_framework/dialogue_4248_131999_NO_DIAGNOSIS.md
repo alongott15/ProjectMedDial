@@ -85,16 +85,21 @@ Let me know if you have any questions about managing these symptoms at home or i
 
 ## EHR Summary
 
-The patient is a 50-year-old male presenting with persistent fevers of unknown etiology and acute pulmonary changes. He reported two days of fever, chest pain, fatigue, and shortness of breath following a right coronary artery stent placement on 2107-7-20, with symptoms including fevers up to 102.7°F, chest pain at rest, dyspnea, nausea, diaphoresis, and minimal relief from nitroglycerin paste. Relevant history includes coronary artery disease and recent stent placement; prior to the procedure, he had low-grade fevers, cough, upper respiratory symptoms, dysuria, frequency, and increased fatigue. On admission, he was hypoxic and hypotensive (systolic BP down to 70, pulse 60), requiring increased oxygen (up to 5 liters for O2 saturation of 93%) and intravenous fluids. Bronchoscopy was performed and acute myocardial infarction was ruled out. The documented diagnosis was persistent fever of unknown etiology with acute pulmonary changes post-stent placement. Treatment included vancomycin, gentamicin, Ceptaz, and intravenous fluids for stabilization.
+The patient is a 50-year-old male presenting with persistent fever, chest pain, and shortness of breath following recent right coronary artery stent placement. He reported two days of fever, chest pain at rest, fatigue, and shortness of breath, with temperatures reaching up to 102.7°F and minimal relief from nitroglycerin. Symptoms included hypoxia (O2 saturation down to 93% on 5L), hypotension (systolic BP as low as 70), nausea, and diaphoresis. Relevant history includes coronary artery disease, prior myocardial infarction, depression, past substance abuse, bronchitis, and hypercholesterolemia; he has no known drug allergies. The clinical impression was persistent fevers of unknown etiology with acute pulmonary changes after stent placement; CT angiogram showed no pulmonary embolism but revealed mediastinal lymphadenopathy and intra-alveolar opacities. The patient was treated with intravenous vancomycin, gentamicin, Ceptaz, oral Levaquin, aspirin, Plavix, Lipitor, fluoxetine, Zantac, and subcutaneous heparin. Supportive care included supplemental oxygen and intravenous fluids for hypotension. Further diagnostic workup included bronchoscopy and exclusion of acute myocardial infarction.
+
 
 ## Dialogue Summary
 
-The patient presented with fevers of uncertain onset and cause. Symptoms included a strong subjective fever for several days and gradually worsening shortness of breath with exertion, which did not vary by position and was not accompanied by wheezing, coughing, or chest discomfort. The patient reported increased fatigue and difficulty maintaining their usual routine, resulting in missed work. No recent blood tests or abnormal eosinophil counts were reported, and no other medical history, medications, or allergies were mentioned. On assessment, the doctor noted the gradual onset of symptoms and absence of additional respiratory or cardiac findings, suggesting a common viral illness as the likely cause. The doctor recommended rest, hydration, and monitoring of temperature, with instructions to seek further evaluation if new symptoms such as persistent high fever, confusion, severe weakness, or sudden changes develop. The patient understood and agreed to follow these recommendations.
+The patient is an adult presenting with fever as the chief complaint. The fever began a few days ago, is described as "pretty strong," and is accompanied by gradually worsening shortness of breath with exertion but no positional changes, chest discomfort, wheezing, or cough. The symptoms have impacted the patient's daily routine, causing missed work and increased fatigue. There is no recent blood work or mention of abnormal eosinophil counts. The clinical impression is that these symptoms are most consistent with a common viral illness. The treatment plan includes rest, maintaining hydration, monitoring temperature, and watching for new or worsening symptoms such as persistent high fever, confusion, severe weakness, or sudden changes. The patient was advised to seek further evaluation if concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.590
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 124 words
+
 
 ## Processing Information
 

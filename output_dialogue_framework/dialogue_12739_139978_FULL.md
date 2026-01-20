@@ -87,16 +87,23 @@ Would you like to discuss next steps for evaluation, or do you have any question
 
 ## EHR Summary
 
-The patient is a 78-year-old male admitted for management of chronic medical conditions. No specific chief complaint or acute symptoms are documented in this note. Relevant history includes chronic kidney disease with a baseline creatinine of 2.0, recent increase to 2.4, and potassium levels ranging from 5 to 5.8, partially attributed to pseudohyperkalemia secondary to thrombocytosis. The clinical assessment focused on renal function and electrolyte management. The treatment plan included reducing Zestril (lisinopril) from 10 mg to 5 mg daily, adjusting Lasix (furosemide) to 20 mg every other day, and prescribing Kayexalate 15 grams daily as needed for potassium greater than 5. The patient was also discharged on multiple medications for cardiovascular, hematologic, and endocrine conditions. No new acute diagnoses or findings were documented during this admission.
+The patient is a 78-year-old male admitted for management of chronic medical conditions. During hospitalization, his creatinine increased from a baseline of 2.0 to 2.4, prompting adjustment of medications. He has a history of thrombocytosis contributing to pseudohyperkalemia, with potassium levels ranging from 5 to 5.8. The documented clinical impression includes chronic kidney disease with medication-induced hyperkalemia. Zestril was reduced from 10 mg to 5 mg daily, Lasix was adjusted to 20 mg every other day, and Kayexalate 15 grams daily was prescribed as needed for potassium greater than 5. The patient was discharged on a comprehensive regimen including antihypertensives, anticoagulants, and other supportive medications. No acute symptoms or new complaints were documented at discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. They described the pain as a pressure-like sensation in the center of the chest, rated 6 out of 10 in severity, which comes and goes and is more noticeable during physical activity such as walking or climbing stairs. The patient also reported mild shortness of breath accompanying the chest pressure, occasionally requiring them to slow down but not stop completely, and denied associated symptoms such as sweating, nausea, or lightheadedness. Additionally, the patient mentioned stable right leg pain from a hematoma, which has not worsened. The doctor assessed that the chest pressure, especially with exertion, could be related to cardiac or pulmonary causes such as angina, and noted that the absence of severe symptoms was somewhat reassuring; the leg pain was considered unrelated. The doctor advised monitoring for any worsening or new symptoms (such as constant pain, severe discomfort, nausea, or fainting) and recommended avoiding strenuous activities until further evaluation. A basic cardiac evaluation including ECG and blood tests was suggested, and the patient agreed to proceed with this plan.
+The patient is an adult presenting with chest pain as the chief complaint. The chest discomfort is described as a pressure sensation, rated 6 out of 10 in severity, located centrally, and is intermittent, occurring more with physical activity such as walking or climbing stairs. The patient also reports mild, exertional shortness of breath accompanying the chest pressure, which occasionally requires slowing down but not stopping completely; there are no associated symptoms such as sweating, nausea, or lightheadedness. The patient has a stable right leg hematoma with unchanged pain, which is considered unrelated to the chest symptoms.
+
+The clinical impression is that the chest pressure may be related to cardiac causes such as angina, though pulmonary causes are also considered. The treatment plan includes monitoring for worsening or new symptoms (such as constant pain, severe discomfort, nausea, or fainting) and avoiding strenuous activity until further evaluation. The physician recommends a basic cardiac evaluation, including an ECG and possibly blood tests, which the patient agrees to pursue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.916
-- **Similarity Label**: N/A
+- **STS Score**: 0.321
+- **Model Used**: general
+- **Text1 Length**: 115 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

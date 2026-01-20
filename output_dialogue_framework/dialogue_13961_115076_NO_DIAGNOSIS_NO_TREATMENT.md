@@ -75,16 +75,21 @@
 
 ## EHR Summary
 
-The patient is a 68-year-old male presenting with stable exertional chest discomfort that is relieved with rest. The chest discomfort occurs during physical activity and subsides when the patient stops exertion, consistent with typical angina symptoms. Relevant past medical history, medications, allergies, and additional symptom details are not specified in the note. No physical exam findings or test results are documented. The diagnosis is not explicitly stated but the clinical impression suggests stable angina. There is no specific treatment plan or recommendations documented in this note.
+The patient is a 68-year-old male presenting with stable exertional chest discomfort that is relieved with rest. The chest discomfort occurs with physical activity and subsides when the patient stops exertion, suggesting a pattern consistent with stable angina. No additional symptom details, such as severity or duration, are documented. Relevant past medical history, medications, allergies, and further clinical findings are not specified in the note. The documented diagnosis is not explicitly stated but the symptom pattern suggests stable angina. There is no specific treatment plan or recommendations documented in this excerpt.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort during exertion. The patient described the discomfort as a pressure or tightness in the chest, occurring specifically with activities such as walking uphill, climbing stairs, or carrying heavy objects, and noted that it resolves after resting for a few minutes. The symptoms have been present for a couple of weeks and have remained unchanged in severity. The patient denied associated symptoms such as shortness of breath, sweating, or lightheadedness. The discomfort requires the patient to stop and rest more often than before but does not prevent completion of activities after a brief rest. No relevant medical history, medications, or allergies were mentioned. The doctor did not provide a specific assessment or diagnosis during the conversation. No treatment plan or recommendations were discussed in the dialogue provided.
+The patient is presenting with exertional chest discomfort as the chief complaint. The discomfort is described as a pressure or tightness in the chest that occurs during physical activity, particularly when walking uphill, climbing stairs, or carrying heavy objects, and resolves within a few minutes of rest. The symptoms have been present for approximately two weeks and have remained stable without worsening or improvement. The patient denies associated symptoms such as dyspnea, diaphoresis, or lightheadedness. The chest discomfort limits activity, requiring the patient to stop and rest more frequently, but does not prevent completion of tasks after resting. No relevant medical history, medications, allergies, or documented diagnosis are provided in the dialogue. No specific treatment plan or recommendations are documented in the conversation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.975
-- **Similarity Label**: N/A
+- **STS Score**: 0.735
+- **Model Used**: general
+- **Text1 Length**: 91 words
+- **Text2 Length**: 123 words
+
 
 ## Processing Information
 

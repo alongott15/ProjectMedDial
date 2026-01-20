@@ -89,16 +89,21 @@ Does that plan make sense to you, or is there anything else you’re concerned a
 
 ## EHR Summary
 
-The patient is a 59-year-old man presenting with fatigue and sluggishness for the past three years, now worsened by chest pressure and increasing shortness of breath over the past two months. His symptoms prompted a stress test and subsequent cardiac catheterization, leading to referral for aortic valve replacement. Relevant history includes hypertension, hypercholesterolemia, asthma, and gastroesophageal reflux disease; he previously underwent cholecystectomy. Medications include antihypertensives, lipid-lowering agents, asthma inhalers, and various supplements. On physical examination, he appeared slightly anxious and short of breath, with mild petechiae on the right wrist and a III/VI systolic murmur radiating to the carotids. The documented diagnosis was severe aortic valve disease requiring surgical intervention. The treatment plan included referral for aortic valve replacement.
+The patient is a 59-year-old man presenting with fatigue and sluggishness for three years, with recent worsening chest pressure and shortness of breath over the past two months. His symptoms prompted a stress test and cardiac catheterization, leading to referral for aortic valve replacement. Relevant history includes hypertension, hypercholesterolemia, asthma, and gastroesophageal reflux disease; medications include antihypertensives, statins, inhalers, and supplements. On examination, he was short of breath and anxious, with a III/VI systolic murmur radiating to the carotids and mild petechiae on the right wrist. The documented diagnosis was status post aortic valve replacement with a #23 prosthetic valve. Treatment included minimally invasive aortic valve replacement, postoperative monitoring, physical therapy, and continuation of home medications with the addition of Lopressor, Percocet as needed, and Colace. The patient recovered well postoperatively and was discharged home in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with fatigue and a general sense of sluggishness as the chief complaint. Symptoms included persistent tiredness impacting daily activities, chest pressure occurring both at rest and with activity (lasting a few minutes or longer), and increasing shortness of breath that is worse with exertion but sometimes present at rest; resting provides only partial relief from fatigue. The patient reported no changes in sleep patterns, fever, or weight changes. No relevant medical history, medications, or allergies were mentioned. The doctor noted the combination of fatigue, chest pressure, and exertional dyspnea as concerning, especially given their impact on daily life. The assessment included possible causes such as anemia, lung problems, or cardiac issues, with emphasis on the need to rule out heart involvement due to chest pressure. The doctor recommended contacting the primary care provider soon for an in-person evaluation, including possible heart and lung exams and basic tests like EKG or bloodwork, and advised seeking immediate care if severe chest pain, fainting, or sudden worsening of breathing occurs; otherwise, the patient should avoid strenuous activity until evaluated.
+The patient is an adult presenting with the chief complaint of persistent fatigue and sluggishness. Symptoms include ongoing tiredness for approximately two weeks, significant impact on daily activities, chest pressure occurring both at rest and with activity (lasting a few minutes or longer), and gradually worsening shortness of breath that is more pronounced with exertion but also present at rest. The patient denies fever, weight changes, or sleep disturbances. Relevant medical history, medications, and allergies are not specified in the dialogue. The clinical impression is that the symptoms may be related to cardiac, pulmonary, or hematologic causes, with particular concern for possible cardiac involvement given the chest pressure and dyspnea. The treatment plan includes a recommendation to contact the primary care provider soon for an in-person evaluation, including possible heart and lung examination, EKG, and bloodwork. The patient was also advised to seek immediate medical attention if severe chest pain, fainting, or sudden worsening of breathing occurs, and to avoid strenuous activity until further evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.634
+- **Model Used**: general
+- **Text1 Length**: 138 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

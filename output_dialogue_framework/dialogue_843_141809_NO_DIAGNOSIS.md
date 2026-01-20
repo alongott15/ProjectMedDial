@@ -97,16 +97,23 @@ How do you feel about trying a simple expectorant, and do you have any questions
 
 ## EHR Summary
 
-The patient is a 45-year-old male presenting with swelling over the right parotid, left cervical lymphadenopathy, episodic fevers, night chest pressure, back pain, dyspnea, cough, nausea, significant weight loss (25 pounds in three weeks), night sweats, hemoptysis, dysuria, and dark urine. He has a history of remission following 5.5 cycles of DDAVP and was previously treated for PCP with Bactrim, though bronchoalveolar lavage was negative. On admission, he was found to be in acute renal failure (creatinine 13.6, uric acid 21.1) and had laboratory findings of anemia (hematocrit 32.7), thrombocytopenia (platelets 136), and coagulopathy (PT 14.7, PTT 28.1, INR 1.4). Fine needle aspirate of the left cervical node revealed monoclonal B cells positive for CD-10 antigen, consistent with non-Hodgkin's lymphoma; renal biopsy confirmed diffuse infiltrative lymphoproliferative disorder. Imaging showed massive homogeneous enlargement of the kidneys, and bronchoscopy revealed a large clot/vascular mass in the right bronchus intermedius. The patient required intubation for airway protection and was started on hemodialysis via right internal jugular catheter. Treatment included initiation of methylprednisolone.
+The patient is a 45-year-old male presenting with swelling over the right parotid, left cervical lymphadenopathy, episodic fevers, night chest pressure, back pain, dyspnea, cough, hemoptysis, night sweats, dysuria with dark urine, and a 25-pound weight loss over three weeks. He experienced acute renal failure (creatinine 13.6), nephromegaly, and recurrent hemoptysis requiring intubation and bronchoscopy for airway protection. Past medical history includes HIV (diagnosed 2134), non-Hodgkin's lymphoma (diagnosed by fine needle aspirate of cervical node on 6-26), possible prior PCP, perianal papillomatosis, and cryptosporidium. The documented diagnosis was non-Hodgkin's lymphoma with diffuse renal infiltration and acute renal failure. Treatment included hemodialysis (discontinued as renal function improved), methylprednisolone 1 mg/kg IV daily, allopurinol, levofloxacin, supportive care with hydration, blood transfusion, and airway management with bronchoscopy. The patient was extubated and transferred to the oncology floor for further management, with plans for low-dose cycled chemotherapy.
+
 
 ## Dialogue Summary
 
-The patient presented with a recent onset of coughing up a small amount of blood, which was the chief complaint. Symptoms included a new cough starting a few days ago, blood mixed with mucus during coughing, and a low-grade fever in the low 100s; there were no chills, unusual tiredness, changes in weight or appetite, and daily routines were unaffected. The patient denied any prior history of similar symptoms or lung/respiratory issues and reported taking Amprenavir, Didanosine, Lamivudine, and Stavudine. On clinical review, the doctor noted the absence of concerning features such as significant bleeding, shortness of breath, chest pain, or systemic symptoms. The assessment was that the symptoms were most consistent with airway irritation from a mild respiratory infection or bronchitis, with reassurance provided due to the mild nature and lack of other findings. The doctor advised monitoring for worsening symptoms (increased bleeding, persistent fever, new respiratory complaints) and recommended supportive care including hydration and rest. For cough relief, plain guaifenesin was suggested as generally safe with the patient’s current medications, while advising caution with multi-ingredient products and offering to review specific medication interactions if needed.
+The patient is an adult presenting with a chief complaint of coughing up a small amount of blood mixed with mucus over the past few days. Associated symptoms include a new-onset cough and a low-grade fever (in the low 100s Fahrenheit), without chills, fatigue, weight loss, or appetite changes. The symptoms have not interfered with daily activities, and there is no history of prior lung or respiratory issues. Relevant medications include Amprenavir, Didanosine, Lamivudine, and Stavudine.
+
+The clinical impression is that the symptoms are most consistent with airway irritation or mild bronchitis, likely due to a viral or mild bacterial respiratory infection. The patient was reassured that these symptoms are often self-limited and not dangerous when the amount of blood is small and there are no other concerning features. The treatment plan includes supportive care with hydration and rest, and consideration of plain guaifenesin (an expectorant) as an over-the-counter remedy, which is considered generally safe with the patient’s current medications. The patient was advised to monitor for worsening symptoms such as increased bleeding, persistent fever, shortness of breath, chest pain, or symptoms lasting more than a couple of weeks, and to seek further evaluation if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.379
+- **Model Used**: general
+- **Text1 Length**: 143 words
+- **Text2 Length**: 197 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ If your symptoms keep increasing, if you ever feel like your inhaler isn’t wor
 
 ## EHR Summary
 
-The patient is a 32-year-old male presenting with shortness of breath. He reported progressive dyspnea and increased wheezing over the past three to four days, with peak expiratory flow rates dropping to the 300s from his baseline of approximately 650, following exposure to high pollen counts. He denied fever, chills, sputum production, abdominal discomfort, or joint pain, and noted increased use of albuterol at home. His past medical history is significant for asthma diagnosed in 2169, with a prior asthma attack requiring hospitalization and prednisone. Home medications included Flovent, albuterol as needed, and Claritin; he has no known drug allergies. On examination, he was mildly distressed with stable vital signs and oxygen saturation of 97% on room air. The documented diagnosis is asthma exacerbation likely triggered by allergies. Treatment included increased use of inhaled bronchodilators and continuation of his asthma regimen.
+The patient is a 32-year-old male presenting with shortness of breath. He reported progressive dyspnea and increased wheezing over three to four days, with peak expiratory flow rates dropping from his baseline of 650 to the 300s, triggered by high pollen exposure; he denied fever, chills, sputum production, or lower extremity swelling. His past medical history is significant for asthma diagnosed in 2169, with a prior hospitalization for an asthma attack, and he has no known drug allergies. On examination, he was in mild respiratory distress with expiratory wheezes and prolonged expiratory phase, but maintained oxygen saturation of 97% on room air; chest x-ray was unremarkable. The documented diagnosis was asthma exacerbation requiring a brief Intensive Care Unit stay. Treatment included systemic corticosteroids (prednisone and Solu-Medrol), frequent nebulized albuterol and Atrovent, supplemental oxygen, and the addition of fexofenadine for possible allergic contribution. He improved with therapy, with peak flows rising to 480 and resolution of exertional dyspnea. At discharge, he was prescribed a prednisone taper, inhaled steroids, short- and long-acting beta agonists, leukotriene receptor antagonist, nasal steroid spray, and antihistamines, with instructions to follow up with his primary care physician in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble breathing and increased shortness of breath over the past few days. Symptoms included episodes of wheezing and a whistling noise in the chest, which were triggered by exercise, dusty air, and weather changes; the shortness of breath was more noticeable during activity and had become more frequent, sometimes requiring the patient to stop what they were doing. The patient reported using their inhaler more often than usual, with quick relief of symptoms, and noted that their peak flow readings had been lower than normal. No nighttime symptoms or shortness of breath at rest were reported. The patient has a history of asthma or reactive airway symptoms, as implied by inhaler use. The doctor assessed that the patient's asthma or airway sensitivity may not be well controlled currently, likely due to environmental factors or a mild respiratory infection. The doctor advised monitoring symptom frequency, keeping the inhaler accessible, avoiding known triggers, and tracking inhaler use, with instructions to seek immediate help if symptoms worsen or new warning signs develop. The patient acknowledged that their symptoms were limiting usual activities.
+The patient is an adult presenting with shortness of breath as the chief complaint. Symptoms include intermittent dyspnea and wheezing over the past few days, with episodes triggered by exercise, dusty environments, and weather changes; symptoms are not present at rest or during sleep. The patient reports increased frequency of episodes, greater reliance on their inhaler, and recent limitations in physical activity, along with lower than normal peak flow readings. The inhaler provides rapid relief of symptoms. Relevant history includes a prior prescription for an inhaler, suggesting a diagnosis of asthma or reactive airway disease. The clinical impression documented is that the patient's asthma (or reactive airway symptoms) may be less well controlled currently. The treatment plan includes continued use of the inhaler as needed, avoidance of known triggers, monitoring symptom frequency and peak flows, and instructions to seek immediate care if symptoms worsen or do not respond to the inhaler.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.974
-- **Similarity Label**: N/A
+- **STS Score**: 0.718
+- **Model Used**: general
+- **Text1 Length**: 193 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

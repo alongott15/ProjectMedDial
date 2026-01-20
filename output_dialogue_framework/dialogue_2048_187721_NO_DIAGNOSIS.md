@@ -87,16 +87,23 @@ If your diarrhea continues for more than a week, worsens, or you develop new sym
 
 ## EHR Summary
 
-The patient is a 54-year-old female presenting with an acute psychotic episode after self-discontinuing her psychiatric medications. She was noncommunicative on admission and exhibited high fever (102.8°F), tachycardia (pulse 120), elevated systolic blood pressure (130–140 mmHg), tachypnea (respiratory rate 30), and gross tremors. Her medical history includes schizophrenia, bipolar disorder, and alcohol use. On admission, creatine kinase was elevated at 928 with no MB fraction and no significant ECG changes; sodium was also elevated at 160. Psychiatry was consulted to evaluate for neuroleptic malignant syndrome due to her symptoms and laboratory findings. The initial treatment included Levofloxacin for presumed community-acquired pneumonia (despite a negative chest x-ray), Ativan, and intravenous fluids (D5 half normal saline) for hypernatremia. She was admitted to the MICU for further observation, infectious workup, and stabilization.
+The patient is a 54-year-old female presenting with an acute psychotic episode after self-discontinuation of psychiatric medications, accompanied by fever, noncommunicativeness, gross tremors, and altered mental status. On admission, she was febrile (102.8°F), tachycardic (pulse 120), hypertensive (systolic BP 130–140), tachypneic (RR 30), and had gross tremors and extremity stiffness; she was also found to have hypernatremia (Na 160), elevated creatine kinase (CK 928), and evidence of delirium with lethargy, slurred speech, and disorientation. Her medical history includes schizophrenia, bipolar disorder, chronic alcohol use, and chronic diarrhea; she was not taking psychiatric medications at the time of admission. The documented diagnoses were neuroleptic malignant syndrome, delirium, hypernatremia, enterococcal urinary tract infection (UTI), chronic diarrhea, and chronic schizophrenia. Treatment included supportive care with aggressive intravenous hydration (D5 half normal saline), discontinuation of psychotropic medications, Ativan for agitation, Levofloxacin initially for presumed pneumonia, amoxicillin for enterococcal UTI, and Immodium for diarrhea. Infectious workup was negative for pneumonia and meningitis; her sodium and CK levels normalized with treatment. The patient’s mental status gradually improved, though she continued to exhibit tardive dyskinesia and required a one-to-one sitter for agitation. She was discharged to an inpatient psychiatric unit with instructions to complete her antibiotic course and continue symptomatic management for diarrhea.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent diarrhea and feeling "out of it." The diarrhea had lasted for several days without improvement and was interfering with daily activities; the patient also reported skin irritation and redness, mainly after wiping, but denied any open sores or raw areas. Additional symptoms included constant mental fogginess, trouble thinking clearly, and difficulty remembering things, which the patient described as more than just fatigue. The patient denied fever, chills, blood, or mucus in the stool. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the diarrhea and associated skin irritation were likely due to frequent loose stools, and that the absence of fever, blood, or mucus suggested a mild gastrointestinal upset rather than a serious infection. The doctor advised maintaining hydration with fluids containing electrolytes and using a gentle barrier cream for skin protection, and recommended seeking further evaluation if symptoms worsened or new concerning signs developed.
+The patient presents with persistent diarrhea as the chief complaint. The diarrhea has lasted for several days without improvement and is significantly impacting daily activities; there is associated skin irritation and redness, primarily worsened by frequent wiping, but no open sores. The patient also reports constant mental fogginess and difficulty thinking clearly, which the clinician notes may be related to dehydration or electrolyte imbalance from ongoing diarrhea. There are no fevers, chills, blood, or mucus in the stool.
+
+The clinical impression is a mild gastrointestinal upset, likely not a serious infection given the absence of alarming symptoms. The treatment plan includes maintaining hydration with fluids containing electrolytes and using a gentle barrier cream or ointment to protect irritated skin. The patient is advised to seek further evaluation if symptoms persist beyond a week, worsen, or if new symptoms such as high fever, severe abdominal pain, or worsening confusion develop. No specific medications or allergies were documented.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.931
-- **Similarity Label**: N/A
+- **STS Score**: 0.426
+- **Model Used**: general
+- **Text1 Length**: 206 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

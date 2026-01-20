@@ -89,16 +89,21 @@ Would you like advice on how best to get seen today, or do you have any other qu
 
 ## EHR Summary
 
-The patient is a 34-year-old male presenting with acute epigastric pain, nausea, vomiting, and inability to tolerate oral intake. Symptoms began one day prior to admission and are associated with thirst, sweats, chills, and shortness of breath, but without chest pain or gastrointestinal bleeding. He has a history of multiple episodes of pancreatitis attributed to alcohol abuse, hypertension, and prior seizures following a motor vehicle accident. On admission, he appeared acutely ill, diaphoretic, vomiting, and tremulous, with vital signs notable for blood pressure of 160/100 and heart rate of 92. The documented diagnosis was acute pancreatitis. Medications on admission included Advil and Tylenol as needed. No known drug allergies were reported. Treatment details were not specified in the note.
+The patient is a 34-year-old man presenting with a one-day history of epigastric pain, nausea, vomiting, inability to tolerate oral intake, thirst, sweats, chills, and shortness of breath. Symptoms began after increased alcohol consumption and are similar to his previous episodes of pancreatitis. Relevant history includes multiple prior episodes of pancreatitis secondary to alcohol abuse, hypertension, a history of seizures after a motor vehicle accident, and left knee surgery; he has no known drug allergies. On admission, he appeared acutely ill with diffuse abdominal tenderness, dry mucous membranes, and was tremulous and diaphoretic. The documented diagnosis was acute pancreatitis, likely secondary to alcohol abuse, with concurrent alcohol withdrawal and depression. Treatment included making the patient NPO, aggressive intravenous fluid rehydration, pain control with Dilaudid, antiemetics (Zofran), electrolyte monitoring and repletion, antibiotics (Unasyn) for suspected necrotic pancreatitis, and benzodiazepines (Valium, Ativan) for alcohol withdrawal. Social work consultation was obtained for alcohol abuse and depression, and the patient was provided with community resources and detoxification contacts. His diet was advanced from NPO to clear liquids as symptoms improved, and transient hypertension was managed with hydralazine.
+
 
 ## Dialogue Summary
 
-The patient presented with acute pain in the upper middle abdomen, just above the belly button. Symptoms included sudden onset of localized pain rated 7/10 in severity, persistent nausea, vomiting, inability to keep down food or water, chills, sweats, and possible fever. Eating or drinking worsened the pain and nausea, and no relief measures were identified. No relevant medical history, medications, or allergies were mentioned. The doctor noted the risk of dehydration due to ongoing vomiting and inability to tolerate fluids, and considered possible causes such as gastritis, ulcer, or inflammation/infection of abdominal organs. The assessment emphasized the seriousness of the symptoms and the need for prompt evaluation. The doctor recommended seeking care at an urgent care clinic or emergency department for further testing, intravenous fluids, and medication for nausea, and advised monitoring for warning signs such as severe pain radiating to the back, confusion, jaundice, or fainting.
+The patient is an adult presenting with acute upper abdominal pain centered above the belly button as the chief complaint. The pain began suddenly, is localized, rated 7 out of 10 in severity, and is worsened by eating or drinking; no alleviating factors were identified. Associated symptoms include persistent nausea, vomiting (unable to tolerate even water), decreased appetite, chills, sweats, and possible fever. There is no mention of relevant past medical history, medications, or allergies. The clinical impression is significant upper abdominal pain with ongoing vomiting and possible infection or inflammation, with differential considerations including gastritis, ulcer, or inflammation of abdominal organs such as the stomach or pancreas. The physician expressed concern for dehydration due to inability to tolerate fluids. The treatment plan includes urgent evaluation at an urgent care clinic or emergency department for assessment, intravenous fluids, and antiemetic medication, with instructions to seek immediate care if severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.601
+- **Model Used**: general
+- **Text1 Length**: 183 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

@@ -101,16 +101,25 @@ We'll arrange for an exam and some basic tests to look for underlying causes. In
 
 ## EHR Summary
 
-The patient is a 74-year-old female admitted for an unspecified reason. Symptom details and chief complaint are not documented in this note. Relevant history includes management with Coumadin, with a target INR of 3.0; her INR on discharge was 2.1. No allergies or additional medical history are specified. Physical exam findings and specific diagnosis are not documented. The treatment plan includes discharge on a Coumadin dose ranging from 2 to 5 mg, with no heparin prescribed. She is advised to follow up with her physician in approximately three weeks.
+The patient is a 74-year-old female admitted for management of anticoagulation. No specific symptoms or chief complaint are documented in this note. Her relevant history includes being on Coumadin, with a target INR of 3.0; her INR on discharge was 2.1. There is no explicit diagnosis stated in the provided text. The treatment plan includes discharge on a Coumadin dose ranging from 2 to 5 mg, with no heparin to be administered. She is advised to follow up with her physician in approximately three weeks. No allergies or additional medical history are specified.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath during exertion, specifically when walking up a flight of stairs. Symptoms included exertional dyspnea that has worsened over the past few weeks, requiring the patient to stop and rest before completing stairs, and occasional discomfort in the left arm that resolves with rest; the patient denied chest pain, lightheadedness, dizziness, palpitations, or symptoms at rest. The patient reported a history of atrial fibrillation and noted that their baseline shortness of breath after walking about a mile now occurs with less activity. No physical findings were described during the visit. The doctor assessed that the exertional shortness of breath and arm discomfort could be related to cardiac causes given the patient's history, but also considered lung issues, anemia, or deconditioning as possible contributors. The doctor recommended a physical exam, EKG, and blood work to investigate underlying causes, and advised the patient to avoid strenuous activity until further evaluation. The patient was instructed to seek prompt medical attention if symptoms worsen or new concerning signs develop.
+The patient is an adult with a history of atrial fibrillation presenting with exertional shortness of breath as the chief complaint. The dyspnea occurs specifically during activities such as walking up stairs and has worsened over the past few weeks, now requiring the patient to stop and rest before completing the activity. The shortness of breath is sometimes accompanied by left arm discomfort that resolves with rest; there is no chest pain, lightheadedness, dizziness, or palpitations reported during these episodes. The patient does not experience symptoms at rest.
+
+Relevant history includes atrial fibrillation, with no mention of other medical conditions, medications, or allergies. The clinical impression is that the symptoms may be related to cardiac causes given the patient’s history, but other possibilities such as lung disease, anemia, or deconditioning are also considered. No definitive diagnosis was made during the visit.
+
+The treatment plan includes arranging a physical exam, EKG, and blood work to investigate underlying causes. The patient was advised to limit physical activity until further evaluation and to seek immediate medical attention if symptoms worsen or new concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.905
-- **Similarity Label**: N/A
+- **STS Score**: 0.334
+- **Model Used**: general
+- **Text1 Length**: 93 words
+- **Text2 Length**: 182 words
+
 
 ## Processing Information
 

@@ -186,3 +186,21 @@ Let me know if you have any questions or concerns about managing these symptoms 
 ## Processing Information
 
 - **Processing Time**: 426.7s
+
+## EHR Summary
+
+The patient is an 82-year-old female; however, the chief complaint is not specified in the note. Specific symptoms, diagnosis, relevant medical history, and treatment plan are not documented in the provided text. No details regarding the reason for admission, clinical findings, or management are available. Further information would be needed to provide a comprehensive summary.
+
+
+## Dialogue Summary
+
+The patient presents with concerns of chest tightness and shortness of breath. These symptoms are described as mild, occurring primarily with exertion, and are not interfering with the patient’s ability to perform usual daily activities. The patient has a relevant history of right coronary artery occlusion and postoperative atrial fibrillation. The clinical impression is that the mild chest tightness and exertional shortness of breath could be related to underlying cardiac issues, but may also be due to other causes such as mild respiratory infection or deconditioning; no new acute diagnosis is documented. The treatment plan includes monitoring symptoms closely, pacing activities, staying hydrated, and seeking prompt medical attention if symptoms worsen (such as onset at rest, increased severity, or new associated symptoms like dizziness or fainting). The patient is advised to contact their healthcare provider if there are any significant changes. The patient expresses understanding and comfort with the management plan.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.404
+- **Model Used**: general
+- **Text1 Length**: 55 words
+- **Text2 Length**: 151 words
+

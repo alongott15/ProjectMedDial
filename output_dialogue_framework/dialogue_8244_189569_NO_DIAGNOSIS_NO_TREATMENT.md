@@ -85,16 +85,21 @@ What I’d recommend is keeping an eye on your symptoms. If you notice any new i
 
 ## EHR Summary
 
-The patient is a 64-year-old male presenting with shoulder and jaw discomfort. His discomfort occurs both with exertion and at rest, and he experienced a similar episode the previous week. He has significant risk factors for coronary artery disease, including hypertension, hyperlipidemia, tobacco abuse, and a positive family history. Physical examination revealed stable vital signs and no acute distress, with scattered pulmonary rhonchi but otherwise unremarkable findings. Cardiac testing showed ST depression on exercise tolerance test and a perfusion defect; cardiac catheterization revealed severe multi-vessel coronary artery disease with up to 100% stenosis in the right coronary artery. The documented diagnosis is severe coronary artery disease. The patient was admitted preoperatively for coronary artery bypass grafting.
+The patient is a 64-year-old male presenting with exertional and non-exertional shoulder and jaw discomfort. His symptoms included episodes of pain, with a recent episode occurring the week prior to admission; diagnostic testing revealed ST depression and a perfusion defect. Relevant history includes hypertension, hyperlipidemia, left carotid stenosis, peptic ulcer disease, tobacco use, and a family history of coronary artery disease. Cardiac catheterization showed significant multi-vessel coronary artery disease. The documented diagnosis was status post coronary artery bypass grafting (CABG) x4. Treatment included CABG with four grafts, postoperative management, and medications such as Lopressor, Lasix, KCL, aspirin, ibuprofen, Percocet, Colace, and Klonopin as needed. The hospital course was notable for a brief episode of confusion postoperatively, managed with Valium and supportive care, but otherwise uncomplicated. The patient was discharged in stable condition with follow-up arranged with cardiology and primary care.
+
 
 ## Dialogue Summary
 
-The patient presented with discomfort in the shoulder and jaw. Symptoms have been present for a few days, described as mild to moderate, persistent, and not triggered or worsened by movement, activity, or rest; there is no associated chest pain, shortness of breath, sweating, swelling, redness, or warmth. The patient reported a single episode of confusion after surgery but denied any recurrence or ongoing memory/thinking changes. No recent injuries, dental work, or new activities were noted. On assessment, the doctor found no signs suggestive of cardiac or serious underlying issues and considered muscle tension or stress as possible causes. The doctor recommended monitoring for new symptoms such as chest pain, shortness of breath, or worsening discomfort, and advised gentle stretching, heat application, and over-the-counter pain relief if appropriate. The patient understood the plan and agreed to follow up if symptoms change.
+The patient presents with discomfort in the shoulder and jaw as the chief complaint. The discomfort began a few days ago, is described as mild to moderate, has remained unchanged, occurs even at rest, and does not interfere with sleep or daily activities. There are no associated symptoms such as chest pain, dyspnea (shortness of breath), sweating, swelling, redness, or warmth, and no recent injuries, dental work, or new activities. The patient reported a single episode of confusion after surgery, which has not recurred and was attributed to postoperative effects. The clinical impression is that the symptoms are unlikely to be cardiac or a serious underlying issue and may be related to muscle tension or stress. The treatment plan includes monitoring for new or worsening symptoms, using gentle stretching, heat application, and over-the-counter pain relief if appropriate. The patient was advised to seek prompt medical attention if chest pain, shortness of breath, sweating, or severe/persistent discomfort develops.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.972
-- **Similarity Label**: N/A
+- **STS Score**: 0.481
+- **Model Used**: general
+- **Text1 Length**: 140 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

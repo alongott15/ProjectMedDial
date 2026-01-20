@@ -93,16 +93,23 @@ If things aren’t improving over time, or if you develop those warning signs, l
 
 ## EHR Summary
 
-The patient is a 33-year-old male presenting with paresthesias of the left neck and shoulder, along with intermittent shooting pains down the left arm, which are exacerbated by sneezing and coughing. He also has a history of migraine headaches for several months. His past medical history includes psoriasis (treated with topical creams and ultraviolet radiation), migraines, and a paraspinal cyst from C2 through T2; he is allergic to ibuprofen (rash) and gluten (dermatitis). On admission, physical examination was largely unremarkable, with no sensory deficits or acute neurological findings. The documented diagnosis was Chiari malformation. The patient was admitted for and underwent surgical decompression for this condition.
+The patient is a 33-year-old male presenting with paresthesias of the left neck and shoulder, as well as intermittent shooting pains down the left arm, which were triggered more frequently by sneezing and coughing. He also reported a history of migraine headaches for several months. His past medical history includes psoriasis (treated with topical creams and ultraviolet radiation), migraines, and a paraspinal cyst from C2 through T2; he has allergies to ibuprofen (rash) and gluten (dermatitis). The clinical workup revealed a Chiari malformation, for which he was admitted for surgical decompression. The documented diagnosis was Chiari malformation. He underwent suboccipital craniectomy and C1 laminectomy with duraplasty. Postoperative recovery was unremarkable, and he was discharged in stable and improved condition with instructions for follow-up in approximately one and a half weeks for staple removal and further evaluation.
+
 
 ## Dialogue Summary
 
-The patient presented with tingling in the left neck and shoulder. Symptoms included persistent tingling and occasional shooting pains down the left arm, which worsen with sneezing or coughing; no numbness, weakness, or trouble gripping objects were reported, and daily activities are not significantly affected. The patient also mentioned a history of migraine headaches but denied recent injuries, heavy lifting, or unusual physical activity. No changes in vision or balance were noted. On assessment, the doctor concluded that the symptoms are most consistent with mild cervical nerve irritation (cervical radiculopathy), likely due to disc or muscle-related pressure, with no signs of severe nerve involvement. The doctor recommended gentle neck stretches, maintaining good posture, using warm compresses, and over-the-counter pain relievers as needed. The patient was advised to monitor for new symptoms such as persistent numbness or weakness and to follow up if symptoms worsen or do not improve over several weeks. The patient understood and agreed to the plan.
+The patient is an adult presenting with tingling in the left neck and shoulder as the chief complaint. Symptoms include persistent tingling and intermittent shooting pains down the left arm, which are worsened by sneezing and coughing but not associated with numbness, weakness, or impaired grip. The patient reports no recent injuries, heavy lifting, or changes in physical activity, and daily activities are not significantly affected. There is a history of migraine headaches, but no recent headaches, vision changes, or balance issues.
+
+The documented clinical impression is mild cervical radiculopathy, likely due to nerve irritation in the neck without evidence of severe nerve involvement. The treatment plan includes gentle neck stretches, maintaining good posture, using warm compresses, and over-the-counter pain relievers as needed. The patient was advised to monitor for new symptoms such as persistent numbness or weakness and to seek further evaluation if symptoms worsen or do not improve over several weeks. No urgent interventions were deemed necessary at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.569
+- **Model Used**: general
+- **Text1 Length**: 136 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

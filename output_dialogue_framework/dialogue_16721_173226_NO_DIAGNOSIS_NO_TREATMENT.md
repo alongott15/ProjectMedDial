@@ -87,16 +87,23 @@ Does that make sense? Is there anything else you’ve noticed that you’d like 
 
 ## EHR Summary
 
-The patient is a 59-year-old man admitted after being found down on the street with a possible seizure. On arrival, he was tremulous, tachycardic, hypertensive, agitated, and had increasing confusion throughout the day, requiring escalating doses of Valium (10 mg every hour for four hours) without adequate symptom control. His past medical history and allergies are unknown; he is apparently homeless with an unquantified history of alcohol use and denies tobacco or intravenous drug use. On physical exam, he was awake but speaking unintelligibly, tremulous, disoriented to place and date, and attempting to drink from his intravenous line; vital signs showed mild fever, hypertension, and tachycardia. Cardiovascular exam revealed tachycardia with regular rhythm, lungs were clear, abdomen was soft with a large reducible umbilical hernia, and there were abrasions on the forehead but no other trauma. The documented clinical impression was severe agitation and confusion with suspected alcohol withdrawal. Treatment included escalating benzodiazepine administration (Valium) and transfer to the Medical Intensive Care Unit for close monitoring and management of withdrawal symptoms.
+The patient is a 59-year-old man admitted after being found down on the street, possibly following a seizure. On arrival, he was tremulous, tachycardic, hypertensive, agitated, and confused, with increasing benzodiazepine requirements and disorientation; he later developed right shoulder weakness and required intubation for respiratory distress. His past medical history and allergies are unknown, but he has a history of alcohol use and is homeless. The documented diagnoses were alcohol withdrawal with delirium tremens and aspiration pneumonia. He was treated with an Ativan drip, then transitioned to oral Librium and Ativan as needed, and completed a 14-day course of levofloxacin and Flagyl for aspiration pneumonia. Deep vein thrombosis prophylaxis was provided, and physical therapy was initiated for shoulder weakness, which improved during admission. Imaging revealed small bilateral subdural hematomas, pontine myelinolysis consistent with alcohol toxicity, and old rib fractures; a widened mediastinum was attributed to thoracic spine osteophytes. Psychiatry evaluated him as capable of making medical decisions, and he declined inpatient addiction rehabilitation. At discharge, his condition was stable and he was transferred to rehabilitation.
+
 
 ## Dialogue Summary
 
-The patient presented with shoulder weakness as the chief complaint. The weakness had been present for a few days, remained unchanged, and was not associated with pain, numbness, tingling, or recent injury; it was most noticeable during lifting or reaching but not triggered by specific activities. The patient also reported recent confusion and disorientation that began around the same time as the shoulder weakness but had since improved, while the weakness persisted. No history of falls, overuse, or other injuries was noted, and there were no current changes in memory or orientation. On assessment, the doctor noted isolated mild shoulder weakness without sensory changes and improving mental status, suggesting the symptoms may not be directly connected but could be related to general medical conditions such as infection or metabolic changes. The doctor recommended monitoring for new symptoms including worsening weakness, pain, numbness, speech changes, or coordination problems, and advised gentle movement and avoiding heavy lifting. Further evaluation was suggested if symptoms do not improve or new symptoms develop. The patient understood and agreed to monitor for changes.
+The patient presents with shoulder weakness as the chief complaint. The weakness has been present for a few days, has remained stable, and is not associated with pain, numbness, tingling, or recent injury; it is most noticeable during lifting or reaching but not triggered by specific activities. The patient also reported recent confusion and disorientation that began around the same time as the shoulder weakness but has since improved, while the shoulder symptoms have persisted. There is no history of trauma, overuse, or other neurological symptoms.
+
+The clinical impression is that the shoulder weakness is likely due to mild muscle fatigue or inflammation, with consideration of possible general medical causes given the recent confusion. The treatment plan includes monitoring for new or worsening symptoms such as increased weakness, pain, numbness, speech changes, or coordination problems, and advising gentle movement while avoiding heavy lifting. Further evaluation may be considered if symptoms do not improve or new issues arise.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.918
-- **Similarity Label**: N/A
+- **STS Score**: 0.522
+- **Model Used**: general
+- **Text1 Length**: 175 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

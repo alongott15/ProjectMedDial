@@ -87,16 +87,23 @@ Let me ask—how much is all of this affecting your day-to-day life right now? A
 
 ## EHR Summary
 
-The patient is a 75-year-old female presenting with upper respiratory symptoms and a fall with head trauma. She developed moderate epigastric and chest pain on the day of admission, along with headaches, double vision in the mornings, nausea, and occasional chest pain over the past week. Her past medical history includes GERD, hypertension, osteoarthritis, type 2 diabetes, and hypercholesterolemia; she takes multiple medications and has no known drug allergies. On admission, her serum sodium was 116, and she experienced mental status deterioration, prompting transfer to the ICU for sodium correction (increased to 119), after which she became more alert. Physical exam revealed a right occipital hematoma, pinpoint pupils, a right-sided goiter, clear lungs, regular heart rhythm with a 2/6 systolic murmur, and no edema. A CT scan showed a suprasellar mass. The documented clinical impression included hyponatremia and a suprasellar mass. Treatment involved ICU management for sodium correction and transfer for further evaluation of the mass.
+The patient is a 75-year-old female presenting with upper respiratory symptoms, moderate epigastric and chest pain, and a recent fall with head injury. She reported headaches and double vision in the mornings for the past week, as well as nausea and occasional chest pain. Her past medical history includes GERD, hypertension, osteoarthritis, type 2 diabetes, and hypercholesterolemia; she has no known drug allergies. On admission, she was found to have hyponatremia (serum sodium 116), a right occipital hematoma, and a suprasellar mass on CT scan. The documented diagnoses were pituitary adenoma, urinary tract infection, and anemia. Treatment included correction of hyponatremia with salt tablets, initiation of steroids, subcutaneous heparin for prophylaxis, and scheduled elective transsphenoidal resection of the pituitary tumor. She was discharged home in stable condition with follow-up arranged with Endocrinology and the clinic, and her discharge medications included folic acid, atorvastatin, famotidine, niacin, diltiazem, levothyroxine, Bactrim, ferrous sulfate, sodium chloride, and Percocet.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain described as a pressure sensation, along with moderate discomfort in the upper stomach area. Symptoms included mild upper respiratory congestion, slight cough, headaches, double vision in the mornings, nausea, and occasional lightheadedness following a fall and head injury two days prior. Eating worsened the upper stomach pain, but physical activity did not affect symptoms; severity was rated as moderate and had not prevented daily activities, though the patient felt more tired and cautious. The patient denied confusion or unusual drowsiness but reported persistent double vision and nausea since the fall. No specific medical history, medications, or allergies were mentioned. The doctor noted that the chest and stomach discomfort could be related to indigestion or reflux, especially with mild respiratory symptoms, but expressed concern about post-head injury symptoms such as vision changes and lightheadedness. The doctor advised monitoring for worsening symptoms—including increasing headache, confusion, persistent vomiting, trouble walking, or weakness/numbness—and recommended seeking prompt medical attention if any of these occur, while otherwise taking it easy and continuing usual activities as tolerated.
+The patient is an adult presenting with chest pain as the chief complaint. The pain is described as a moderate pressure in the chest and upper abdominal discomfort, which worsens with eating but is not affected by movement. The patient also reports mild upper respiratory symptoms (congestion, slight cough), and, following a fall two days ago, has experienced headaches, double vision (especially in the mornings), nausea, and occasional lightheadedness; there is no confusion or severe drowsiness. The symptoms have remained stable without significant worsening and have not prevented the patient from performing daily activities, though they require more frequent breaks.
+
+Relevant history includes a recent fall with head injury. The clinical impression is that the chest and upper abdominal symptoms may be related to indigestion or reflux, but the post-fall neurological symptoms (double vision, headache, nausea, lightheadedness) warrant caution and further monitoring. The treatment plan includes rest, monitoring for any worsening neurological symptoms (such as increasing headache, confusion, persistent vomiting, trouble walking, weakness, or numbness), and seeking prompt medical attention if these occur. No medications or specific interventions were prescribed at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.438
+- **Model Used**: general
+- **Text1 Length**: 154 words
+- **Text2 Length**: 183 words
+
 
 ## Processing Information
 

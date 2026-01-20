@@ -87,16 +87,21 @@ Most people start to feel back to normal within a week or so after a viral illne
 
 ## EHR Summary
 
-The patient is a 50-year-old male presenting with persistent lightheadedness and fatigue. He reported chronic lightheadedness and flu-like symptoms since 2186, without chest discomfort or shortness of breath. Relevant history includes sarcoidosis, benign prostatic hypertrophy, restless leg syndrome, hypertension, hyperlipidemia, and prior surgeries; he is allergic to penicillin and takes several medications including Serax, Endocet, Flomax, Proscar, ranitidine, and a multivitamin. Cardiolite ETT revealed a moderate fixed inferior defect and a moderately reversible anterior apical and septal defect, with an ejection fraction of 43%. Cardiac catheterization demonstrated significant stenosis in the right coronary artery, left anterior descending artery, and obtuse marginal artery, consistent with coronary artery disease. The documented diagnosis was coronary artery disease requiring surgical intervention. The patient underwent coronary artery bypass grafting. Preoperative laboratory results were within normal limits.
+The patient is a 50-year-old male presenting with persistent lightheadedness and fatigue. He reported chronic lightheadedness and flu-like symptoms since 2186, with no chest discomfort or shortness of breath. His past medical history includes sarcoid, benign prostatic hypertrophy, restless leg syndrome, hypertension, and hyperlipidemia; he is allergic to penicillin. Cardiac workup revealed coronary artery disease with significant stenosis in multiple vessels, and a reduced ejection fraction of 43%. The documented diagnosis was coronary artery disease requiring surgical intervention. He underwent a three-vessel coronary artery bypass graft on 2196-6-27 without major complications. Postoperative care included pain management, infection prophylaxis, and cardiac medications; he was discharged on a regimen including aspirin, ISDN, Lopressor, Lasix, and Dilaudid as needed. The patient was stable and doing well at discharge, with follow-up arranged with his surgical and cardiology teams.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent lightheadedness as the chief complaint. Symptoms included several days of lightheadedness, which sometimes worsened when standing up quickly, increased fatigue, and difficulty keeping up with daily activities; the patient denied headaches, blurry vision, or feeling faint. The patient also reported recent flu-like symptoms and a temperature spike to 101.5°F that resolved on its own, with no current fever. No specific medical history, medications, or allergies were mentioned. The doctor noted the absence of other concerning symptoms and assessed that the patient is likely recovering from a viral illness, with residual fatigue and lightheadedness possibly related to mild dehydration or blood pressure changes. The doctor recommended staying well-hydrated, eating regular meals, and allowing extra rest during recovery. Additional advice included monitoring for new symptoms such as chest pain, persistent shortness of breath, or severe lightheadedness leading to falls or near-fainting, which would warrant earlier medical attention. The patient understood and agreed to follow these recommendations.
+The patient is an adult presenting with persistent lightheadedness as the chief complaint. The lightheadedness has been ongoing for several days, sometimes worsening with standing up quickly, and is accompanied by increased fatigue and reduced energy levels. The patient reported a recent episode of flu-like symptoms and a fever up to 101.5°F, which resolved spontaneously; there are no associated headaches, blurry vision, or presyncope. The symptoms have made it difficult for the patient to perform usual daily activities. Relevant history regarding chronic medical conditions, medications, or allergies was not specified. The clinical impression is that the patient is recovering from a viral illness, with residual fatigue and lightheadedness likely related to post-viral recovery and possible mild dehydration. The treatment plan includes recommendations for adequate hydration, regular meals, extra rest, and monitoring for new or worsening symptoms such as chest pain or severe lightheadedness. The patient was advised to seek further care if concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.509
+- **Model Used**: general
+- **Text1 Length**: 134 words
+- **Text2 Length**: 155 words
+
 
 ## Processing Information
 

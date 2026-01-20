@@ -98,3 +98,21 @@ Let me know if you have any questions about what I've shared, or if you'd like t
 ## Processing Information
 
 - **Processing Time**: 415.6s
+
+## EHR Summary
+
+The patient is a 42-year-old male presenting with increased seizure activity, lethargy, and decreased oral intake over two days. Symptoms included six tonic-clonic seizures in two days (his usual monthly average), refusal of oral intake and medications, increased agitation, and one episode of questionable coffee ground emesis. His medical history includes Lennox-Gastaut syndrome with refractory epilepsy, mental retardation, recurrent urinary tract infections, and gastroesophageal reflux disease; he is allergic to Depakote, Neurontin, phenobarbital, and Zarontin. On admission, he was febrile (100.3°F), tachycardic, hypoxic (O2 saturation 86%), and had leukocytosis; chest imaging later showed left lower lobe atelectasis versus infiltrate. The documented diagnoses were pneumonia (aspiration versus community-acquired), dehydration, refractory epilepsy secondary to Lennox-Gastaut syndrome, hypokalemia, and hypomagnesemia. Treatment included empiric IV Levaquin (transitioned to oral for a seven-day course), IV fluids for dehydration, continuation of home antiepileptics (Trileptal and Felbatol), Ativan for prolonged seizures, and supportive care with aspiration and fall precautions. The patient’s condition improved with treatment, and he was discharged in good condition to his group home with instructions to continue all preadmission medications and follow up with his neurologist within two weeks.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with increased seizure frequency as the chief complaint. Over the past few days, seizures have become more frequent and intense than the usual six per month, with associated worsening lethargy, agitation, and restlessness postictally. The patient reports no recent changes in routine or medications but notes poor sleep and increased anxiety; they are currently refusing all oral intake, including food, fluids, and medications, leading to significant fatigue and inability to perform daily activities. Multiple areas of bruising on the left lower leg were noted, likely due to seizure-related injury. The clinical impression is an acute exacerbation of seizure disorder with associated dehydration risk and missed medication doses. The physician recommended urgent medical attention, emphasizing the need for rehydration and resumption of antiepileptic medications, potentially in a hospital setting. The patient was advised to monitor for warning signs such as persistent confusion, vomiting, or respiratory difficulty.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.689
+- **Model Used**: general
+- **Text1 Length**: 185 words
+- **Text2 Length**: 151 words
+

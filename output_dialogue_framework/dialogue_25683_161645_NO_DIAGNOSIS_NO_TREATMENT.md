@@ -69,16 +69,21 @@
 
 ## EHR Summary
 
-The patient is a 67-year-old male presenting with chest pain and left arm pain. His symptoms were relieved with nitroglycerin, and he was found to have a myocardial infarction by enzyme testing, though his EKG was negative. Cardiac catheterization revealed disease in the obtuse marginal, left anterior descending, and right coronary arteries, with an ejection fraction of 35%. Past medical and surgical histories were noncontributory, and he has a penicillin allergy. On examination, he was afebrile with stable vital signs, clear lungs, regular heart rhythm, and no edema. The documented diagnosis was myocardial infarction with multi-vessel coronary artery disease. He underwent a three-vessel coronary artery bypass graft (CABG) and had an uncomplicated postoperative course, including rapid extubation and removal of chest tubes. Treatment included medications such as Zestril, heparin, Lopressor, aspirin, and postoperative vancomycin.
+The patient is a 67-year-old male presenting with chest pain and left arm pain, which was relieved by nitroglycerin. He was found to have a myocardial infarction confirmed by cardiac enzymes, with a negative EKG, and cardiac catheterization revealed multi-vessel coronary artery disease with an ejection fraction of 35%. Past medical and surgical history were noncontributory, and he has a penicillin allergy. The documented diagnosis was status post coronary artery bypass graft times three. During hospitalization, he underwent CABG x3 using the left internal mammary artery and saphenous vein grafts, followed by an uncomplicated postoperative course. An incidental 8 cm abdominal aortic aneurysm was discovered on CT scan, with outpatient vascular surgery follow-up planned. Discharge medications included aspirin, Lopressor, Lasix, iron sulfate, Colace, Percocet as needed, potassium supplement, and Prilosec. The patient was stable at discharge and advised to follow up with his primary care physician, cardiologist, and vascular surgeon.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. They described the pain as a tightness in the chest that sometimes radiates into the left arm, occurring intermittently over the past few days. The tightness is worsened by physical activity such as walking or doing chores, but can also occur at rest; each episode typically lasts five to ten minutes and resolves with rest. The patient denied associated symptoms of shortness of breath, lightheadedness, or sweating. No relevant medical history, medications, or allergies were mentioned during the encounter. No physical examination findings were discussed. The doctor did not provide a specific assessment or diagnosis, nor were any treatment recommendations or advice given during this portion of the conversation.
+The patient is presenting with chest pain as the chief complaint. The pain is described as a sensation of tightness in the chest, occasionally radiating to the left arm, and has been occurring intermittently for a few days. The episodes are typically triggered or worsened by physical activity but can also occur at rest, lasting about five to ten minutes and resolving with rest. The patient denies associated symptoms such as dyspnea, lightheadedness, or diaphoresis. Relevant medical history, medications, and allergies are not specified in the dialogue. No documented diagnosis or clinical impression is provided in the conversation. There is no mention of a treatment plan or specific recommendations in the text.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.447
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 112 words
+
 
 ## Processing Information
 

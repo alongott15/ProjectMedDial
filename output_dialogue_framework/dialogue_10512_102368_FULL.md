@@ -97,16 +97,21 @@ Let me know if you’d like more details about any of these techniques or if you
 
 ## EHR Summary
 
-The patient is a 46-year-old woman presenting after the discovery of cerebral aneurysms on head CT and MRI performed for evaluation of migraine headaches. She was found to have three aneurysms: one at the right internal carotid artery bifurcation, one at the right middle cerebral artery (MCA) bifurcation, and one at the left origin of the anterior choroidal artery. Her past medical history is notable for migraine headaches; no medication allergies are documented. On admission, she underwent surgical clipping of the right MCA and right ICA bifurcation aneurysms without intraoperative complications. Postoperatively, she remained neurologically intact, afebrile at discharge, and all cultures were negative despite a transient fever (T max 101.3°F). The documented diagnosis was multiple cerebral aneurysms. She was discharged home in stable condition with instructions for follow-up in one week and prescribed Fioricet 1-2 tablets by mouth every 4 hours as needed.
+The patient is a 46-year-old woman presenting after the incidental discovery of cerebral aneurysms during imaging for migraine headaches. She was found to have three aneurysms: one at the right internal carotid artery bifurcation, one at the right middle cerebral artery (MCA) bifurcation, and one at the left origin of the anterior choroidal artery. Her relevant history includes migraine headaches; no medication allergies are documented. The clinical impression was multiple cerebral aneurysms. She underwent surgical clipping of the right MCA and right ICA bifurcation aneurysms without intraoperative complications. Postoperatively, she remained neurologically intact and stable, with a brief episode of fever (T max 101.3°F) but negative cultures. At discharge, she was afebrile and stable, prescribed Fioricet as needed, and instructed to follow up in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with recurrent migraine headaches that have become more frequent and bothersome. The migraines are described as intense (up to 7/10 in severity), lasting a few hours to most of the day, occurring two to three times per month, and are often triggered or worsened by stress. Associated symptoms include sensitivity to light, but no nausea or visual changes; the headaches interfere with work and daily activities, sometimes requiring the patient to rest in a dark, quiet room or use a cold pack for relief. The patient occasionally uses over-the-counter ibuprofen if non-pharmacologic measures are insufficient. There is no mention of other medical history, medications, or allergies. The doctor assessed these as recurrent migraines with increasing frequency, likely stress-related, and noted that the symptom pattern is typical for migraines. The treatment plan included recommending a migraine diary to track frequency and potential triggers, advice on stress management techniques (such as regular exercise, mindfulness meditation, deep breathing, relaxation breaks, consistent sleep, and hydration), and continued use of current relief strategies; the doctor also offered to provide specific breathing or relaxation exercises and advised monitoring for new symptoms such as visual changes or severe nausea.
+The patient is an adult presenting with recurrent migraine headaches as the chief complaint. The migraines are described as intense (up to 7/10 in severity), lasting several hours to most of the day, occurring two to three times per month, and have recently increased in frequency. Symptoms include sensitivity to light and exacerbation by stress, without associated nausea or visual changes; migraines interfere with work and daily activities. Resting in a dark, quiet room and using cold packs provide some relief, and ibuprofen is used as needed. There is no mention of other relevant medical history, medications, or allergies. The clinical impression is recurrent migraines, likely triggered or worsened by stress. The treatment plan includes continuing current symptomatic measures (rest, cold packs, ibuprofen), initiating a headache diary to identify patterns or triggers, and implementing stress management strategies such as regular exercise, mindfulness meditation, deep breathing exercises, and maintaining a consistent sleep schedule. The patient was advised to monitor for new symptoms and consider further treatment options if migraines worsen or become more disruptive.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.484
+- **Model Used**: general
+- **Text1 Length**: 126 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

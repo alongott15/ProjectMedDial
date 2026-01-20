@@ -61,16 +61,21 @@
 
 ## EHR Summary
 
-The patient is a 60-year-old female presenting with 24 hours of nausea, vomiting, chills, and diarrhea. Symptoms began after eating egg salad from a vending machine, with subsequent nonbilious, nonbloody vomiting, three episodes of nonbloody watery diarrhea, lower abdominal pain, increased thirst, polyuria, and subjective confusion; she denied chest pain or shortness of breath. Her medical history includes insulin-dependent diabetes mellitus (with nephropathy, neuropathy, retinopathy, and autonomic dysfunction), coronary artery disease (status post CABG), hypertension, bilateral carotid stenosis (status post left CEA), hypercholesterolemia, recurrent pancreatitis, status post cholecystectomy, gastroparesis, and chronic renal insufficiency. In the Emergency Department, her blood glucose was 961 mg/dL, anion gap 39, and bicarbonate 11 mmol/L. The documented diagnosis was diabetic ketoacidosis (DKA) likely precipitated by gastrointestinal illness. Treatment included intravenous insulin via drip and administration of 3 liters of normal saline prior to transfer to the Medical Intensive Care Unit.
+The patient is a 60-year-old female presenting with 24 hours of nausea, vomiting, chills, and diarrhea. Symptoms began after eating egg salad from a vending machine, with subsequent nonbloody vomiting, watery diarrhea, lower abdominal pain, increased thirst, polyuria, and subjective confusion; she denied chest pain or dyspnea. Her past medical history includes insulin-dependent diabetes mellitus with complications, coronary artery disease, chronic renal insufficiency, hypertension, and other comorbidities; she has no known drug allergies. On admission, laboratory studies revealed severe hyperglycemia (glucose 961), high anion gap metabolic acidosis (anion gap 39, bicarbonate 11), acute renal failure (creatinine 3.0), leukocytosis, and urinalysis positive for protein, glucose, and ketones. The documented diagnoses were diabetic ketoacidosis and gastroenteritis, likely secondary to food poisoning. She was treated with intravenous fluids, insulin drip, and transitioned back to her home insulin regimen; her renal function and leukocytosis normalized with treatment. She also received blood transfusion for anemia of chronic disease and had her antihypertensive regimen adjusted. Discharge instructions included follow-up with primary care, endocrinology, and gynecology for ongoing issues.
+
 
 ## Dialogue Summary
 
-The patient presented with nausea and vomiting that began yesterday. They reported vomiting a few times since onset, difficulty keeping fluids down, persistent thirst, and that drinking fluids sometimes leads to further vomiting. The patient described feeling weak and tired, with symptoms severe enough to limit daily activities and keep them in bed. Nausea was described as constant throughout the day. Additional symptoms included diarrhea and lower abdominal pain. No relevant medical history, medications, or allergies were mentioned. No physical findings or doctor's assessment were provided. No treatment plan or recommendations were discussed during the encounter.
+The patient is presenting with the chief complaint of nausea and vomiting since yesterday. Symptoms include multiple episodes of vomiting, inability to keep fluids down, constant nausea, weakness, fatigue, diarrhea, and lower abdominal pain. The symptoms have significantly limited the patient's ability to perform daily activities, resulting in mostly staying in bed. There is no mention of fever or other associated symptoms. Relevant medical history, medications, and allergies are not specified in the dialogue. No formal diagnosis was documented during the conversation. The treatment plan or specific recommendations were not discussed in the provided text.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.500
+- **Model Used**: general
+- **Text1 Length**: 172 words
+- **Text2 Length**: 95 words
+
 
 ## Processing Information
 

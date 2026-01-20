@@ -168,3 +168,23 @@ You’re doing the right thing by being proactive—let’s make sure you get th
 ## Processing Information
 
 - **Processing Time**: 429.2s
+
+## EHR Summary
+
+The patient is a 42-year-old woman presenting with acute shortness of breath after recent gastric bypass surgery. She reported mild cough, mild nausea, vomiting, and diffuse abdominal pain, but denied chest pain, hemoptysis, polyuria, or polydipsia; her home blood glucose was over 300-400 mg/dL. Her history includes Type I diabetes mellitus, hypertension, morbid obesity, neuropathy, and recent gastric bypass surgery; she is allergic to intravenous contrast and cephalosporins. On admission, she was found to be in diabetic ketoacidosis (DKA) with a blood glucose of 498 mg/dL, severe metabolic acidosis, and was also diagnosed with a non-ST elevation myocardial infarction (NSTEMI), likely secondary to demand during DKA. She was treated with intravenous insulin, transitioned to subcutaneous insulin, aggressive fluid resuscitation, aspirin, a beta-blocker (metoprolol), and an ACE inhibitor (lisinopril); she was not anticoagulated due to recent surgery. Cardiac evaluation included echocardiogram (normal) and plans for outpatient stress testing; VQ scan ruled out pulmonary embolism. Her leukocytosis resolved without further antibiotics, and her DKA resolved with closure of the anion gap and normalization of labs. She was discharged in good condition on a diabetic diet, with instructions for close follow-up with endocrinology, cardiology, and her surgical team.
+
+
+## Dialogue Summary
+
+The patient presents with a chief complaint of shortness of breath, accompanied by mild cough, nausea, vomiting, and mild abdominal pain, all ongoing for the past couple of days. The symptoms are described as mild to moderate, with nausea and vomiting being intermittent and abdominal pain remaining mild; the patient also reports a few episodes of soft diarrhea. Blood glucose levels have consistently been in the high 100s to low 200s. The patient has a known history of diabetic ketoacidosis (DKA) and is concerned about the possibility of recurrence or cardiac complications, though no chest pain or confusion has been noted.
+
+The clinical impression discussed includes concern for possible worsening DKA or cardiac complications, given the patient’s history and current symptoms. The physician strongly recommends immediate medical evaluation to assess for DKA progression or heart-related issues, emphasizing that even mild symptoms can be significant in this context. The patient is advised to seek emergency care if symptoms worsen or if new symptoms such as chest pain, confusion, vomiting, or faintness develop. Additional recommendations include close monitoring of blood sugars, maintaining hydration, and prompt communication with healthcare providers if there are any changes.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.805
+- **Model Used**: general
+- **Text1 Length**: 195 words
+- **Text2 Length**: 192 words
+

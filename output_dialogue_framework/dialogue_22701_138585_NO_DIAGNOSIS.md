@@ -87,16 +87,21 @@ Does anything seem to trigger these episodes for you, or have you noticed any pa
 
 ## EHR Summary
 
-The patient is a 32-year-old male presenting with shortness of breath. He reported progressive dyspnea and increased wheezing over the past three to four days, triggered by high pollen exposure, with peak expiratory flow rates dropping to the 300s from his baseline of 650. He denied fever, chills, sputum production, abdominal discomfort, joint tenderness, or lower extremity swelling. His past medical history is significant for asthma diagnosed in November 2169, with a previous asthma attack requiring hospitalization and prednisone. Home medications included Flovent, albuterol as needed, and Claritin; he has no known drug allergies. On examination, he was mildly distressed with stable vital signs and oxygen saturation of 97% on room air. The documented diagnosis was an asthma exacerbation likely triggered by allergies. Treatment included increased use of albuterol at home prior to admission; further inpatient management details are not specified in the note.
+The patient is a 32-year-old male presenting with shortness of breath. He reported progressive dyspnea and increased wheezing over three to four days, with peak expiratory flow rates dropping from his baseline of 650 to the 300s, following exposure to high pollen counts; he denied fever, chills, sputum production, or lower extremity swelling. His past medical history is significant for asthma diagnosed in 2169, with a prior hospitalization for an asthma attack, and he has no known drug allergies. On examination, he was in mild respiratory distress with expiratory wheezes and prolonged expiratory phase; chest x-ray was unremarkable. The documented diagnosis was asthma exacerbation requiring a short Intensive Care Unit stay. Treatment included systemic corticosteroids (prednisone and Solu-Medrol), frequent nebulized bronchodilators (albuterol and Atrovent), supplemental oxygen, and initiation of fexofenadine for possible allergic triggers. Upon improvement, he was discharged on a prednisone taper, inhaled steroids, short- and long-acting beta agonists, leukotriene receptor antagonist (Singulair), and antihistamines (Zyrtec, beclomethasone nasal spray). He was advised to follow up with his primary care physician within one week.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath as the chief complaint. Symptoms included exertional dyspnea, particularly when walking quickly or climbing stairs, and mild wheezing on exhalation; these symptoms have persisted for several days without improvement or worsening and do not occur at rest or during sleep. The patient denied chest tightness, cough, or recent colds, and reported that daily activities are more difficult due to breathlessness. Relevant history includes a diagnosis of asthma and use of inhalers (Flovent and Albuterol), with noted lower peak flows during episodes and increased symptoms around dust or pollen. No physical findings were described during the visit. The doctor assessed the symptoms as most consistent with a mild airway issue such as asthma, noting the absence of concerning features like chest pain or nocturnal symptoms. The treatment plan included advice to avoid known triggers (dust, smoke, strong odors), pace activity, and monitor for worsening symptoms such as chest pain, severe dyspnea at rest, or cyanosis, which would warrant urgent care. The patient demonstrated understanding of the assessment and recommendations.
+The patient is an adult presenting with shortness of breath as the chief complaint. Symptoms include exertional dyspnea and mild expiratory wheezing, which have persisted for several days without improvement or worsening, and are not present at rest or during the night. The patient reports increased difficulty with daily activities and notes that symptoms are worse around dust or pollen; peak flow readings are lower than usual during episodes. There is no associated chest tightness, cough, recent illness, or nocturnal symptoms. Relevant history includes asthma managed with Flovent and Albuterol inhalers. The clinical impression is a mild airway issue consistent with asthma exacerbation or a similar condition. The treatment plan includes avoiding known triggers (such as dust, smoke, or strong odors), pacing activity, and monitoring for worsening symptoms; urgent care is advised if severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.980
-- **Similarity Label**: N/A
+- **STS Score**: 0.722
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 136 words
+
 
 ## Processing Information
 

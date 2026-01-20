@@ -202,7 +202,7 @@ def main():
                         help='Directory containing dialogue markdown files')
     parser.add_argument('--gtmf-dir', type=str, default='gtmf',
                         help='Directory containing GTMF markdown files')
-    parser.add_argument('--model', type=str, default='medical',
+    parser.add_argument('--model', type=str, default='general',
                         choices=['general', 'medical', 'biobert', 'clinical'],
                         help='STS model to use (default: medical)')
     parser.add_argument('--limit', type=int, default=None,

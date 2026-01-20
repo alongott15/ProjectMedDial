@@ -59,16 +59,21 @@
 
 ## EHR Summary
 
-The patient is a 48-year-old female presenting with sudden onset of left-sided pleuritic chest pain and shortness of breath one week after laparoscopic cholecystectomy for symptomatic cholelithiasis. She reported incisional pain for a few days postoperatively, followed by acute respiratory symptoms and mildly elevated liver function tests. Her past medical history includes hypothyroidism, cholelithiasis (status post cholecystectomy), and cesarean section; she takes Synthroid and oral contraceptive pills, and reports an allergy to ibuprofen. On examination, she was in mild distress with tachycardia (pulse 108) and oxygen saturation of 96% on room air. A VQ scan was positive with high probability for pulmonary embolism, and imaging revealed mild biliary duct dilatation and right hydronephrosis. The documented diagnosis was pulmonary embolism. She was started on a Heparin drip and transferred for further evaluation and management.
+The patient is a 48-year-old female presenting with sudden onset of left-sided pleuritic chest pain and shortness of breath one week after laparoscopic cholecystectomy. She also experienced mild incisional pain postoperatively and was found to have elevated liver function tests. Her past medical history includes hypothyroidism, cholelithiasis (status post cholecystectomy), and cesarean section; she takes Synthroid and oral contraceptives and reports an allergy to ibuprofen. Diagnostic workup revealed a pulmonary embolism (confirmed by VQ scan), right hepatic duct obstruction due to surgical clips (seen on ERCP/MRCP), and mildly dilated biliary ducts with right hydronephrosis. The documented diagnoses were pulmonary embolus and jaundice secondary to right hepatic duct obstruction. Treatment included anticoagulation with Heparin, transition to Lovenox and Coumadin, percutaneous biliary drainage with stent placement, antibiotics (Unasyn, then Levofloxacin and Flagyl), and colonoscopy for further evaluation. She was discharged in good condition with home Lovenox injections, T tube care instructions, and follow-up scheduled for biliary repair.
+
 
 ## Dialogue Summary
 
-The patient presented with sudden onset left-sided chest pain that worsens with deep breathing. The pain is localized under the left chest along the side and is not central. The patient also reported associated shortness of breath and difficulty taking a deep breath when the pain occurs. No information was provided regarding duration, severity scale, or triggers beyond deep breathing. Relevant medical history, medications, and allergies were not discussed. No physical findings were described by the doctor or patient. The doctor did not provide an explicit assessment or working diagnosis during the conversation. No specific advice, recommendations, or treatments were given in the dialogue provided.
+The patient presents with acute left-sided chest pain as the chief complaint. The pain began suddenly, is localized under the left chest along the side, and is exacerbated by deep inspiration (pleuritic in nature). The patient also reports associated shortness of breath and difficulty taking a deep breath when the pain occurs. There is no mention of relevant medical history, medications, or allergies in the dialogue. No formal diagnosis was documented during this encounter. No specific treatment or recommendations were provided in the available text.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.426
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 85 words
+
 
 ## Processing Information
 

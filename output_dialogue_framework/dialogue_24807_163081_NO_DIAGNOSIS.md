@@ -104,3 +104,21 @@ Let me ask: does anything in particular seem to trigger your coughing episodes, 
 ## Processing Information
 
 - **Processing Time**: 427.2s
+
+## EHR Summary
+
+The patient is a 40-year-old female presenting with a two-week history of increased cough productive of green sputum and increased shortness of breath. Symptoms were preceded by an aspiration event while eating and were associated with hypoxia (oxygen saturation 78%) and hypotension (BP 84/70) on arrival. Her relevant history includes quadriplegia secondary to C3-C4 spinal cord injury, chronic adrenal insufficiency, recurrent aspiration pneumonia, and multiple chronic conditions; she is allergic to penicillin and sulfa. The documented diagnosis was aspiration pneumonia, with additional problems including extensive sacral decubitus ulcers, chronic back pain, and hypoalbuminemia. She was treated with intravenous antibiotics (Levofloxacin, Flagyl, Vancomycin initially), later narrowed to oral Levofloxacin and Flagyl for a 14-day course, along with supportive care including oxygen, steroids for adrenal insufficiency, aggressive hydration, frequent suctioning, chest physical therapy, and continuation of her chronic medications. Her decubitus ulcers were managed with daily wet-to-dry dressings, and her bowel regimen was maintained. The patient was discharged in stable condition to a subacute nursing facility with instructions to complete antibiotics, continue nebulizer treatments and chest therapy, maintain aspiration precautions, and minimize narcotic use.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with increased shortness of breath and worsening cough as the chief complaint. Over the past few days, the patient has experienced a persistent cough producing increased amounts of green, foul-smelling mucus, dyspnea even at rest, fatigue, subjective low blood pressure, abdominal tenderness (left upper and lower), and mild leg swelling; there is no chest pain, fever, hemoptysis, or wheezing. Symptoms are constant throughout the day and night and are not triggered by activity or time of day. The patient has a history of recurrent aspiration pneumonia with similar prior episodes. The clinical impression is a possible recurrence of aspiration pneumonia with new findings of abdominal tenderness and peripheral edema, raising concern for complications or additional underlying issues. The physician advised close monitoring for worsening symptoms (such as high fever, chest pain, confusion, or increased dyspnea), emphasized rest and hydration, and recommended prompt in-person medical evaluation due to the new onset of leg swelling and ongoing fatigue. The patient was also instructed to continue prescribed medications for any underlying lung conditions and to report any triggers for coughing episodes.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.692
+- **Model Used**: general
+- **Text1 Length**: 182 words
+- **Text2 Length**: 184 words
+

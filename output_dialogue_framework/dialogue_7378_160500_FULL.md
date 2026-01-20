@@ -85,16 +85,21 @@ Does this summary fit with how you’ve been feeling, or is there anything else 
 
 ## EHR Summary
 
-The patient is a 69-year-old male presenting with a one-month history of feeling poorly, headache, and diaphoresis. Symptoms began at the start of the month and prompted further cardiac evaluation. Relevant history includes hypertension, hypercholesterolemia, prior abdominal aortic aneurysm repair, aortobifemoral bypass, pulmonary embolus (in 2154), mild thrombocytopenia, gout, benign prostatic hypertrophy, basal-cell carcinoma of the skin, and former tobacco use. Preoperative medications included aspirin, Zestril, doxazosin, Lipitor, allopurinol, vitamin E, fish oil, calcium, and multivitamins. Physical examination showed a regular pulse of 63, blood pressure 110/60, oxygen saturation 95%, clear lungs, regular heart rhythm with S4 and a 2/6 systolic murmur, and no edema. Cardiac testing revealed significant coronary artery disease with multiple stenoses (up to 75%) on catheterization and a positive stress test for inferolateral ST depression. The documented diagnosis was severe multivessel coronary artery disease. The patient was referred for coronary artery bypass surgery.
+The patient is a 69-year-old male presenting with a one-month history of feeling poorly, headache, and diaphoresis. He had a positive stress test for inferolateral ST depression and subsequent cardiac catheterization revealed significant multi-vessel coronary artery disease, including 40-60% left main stenosis and multiple other lesions. His past medical history includes hypertension, hypercholesterolemia, prior abdominal aortic aneurysm repair, aortobifemoral bypass, pulmonary embolus, mild thrombocytopenia, gout, benign prostatic hypertrophy, basal-cell carcinoma of the skin, and former tobacco use. The documented diagnosis was status post coronary artery bypass graft (CABG) for multi-vessel coronary artery disease. Treatment included CABG x4 (LIMA to LAD, SVG to OM1 and OM2, SVG to PDA), postoperative monitoring, and initiation of medications such as Lopressor, Lasix, potassium supplement, aspirin, Percocet, ibuprofen, Lipitor, and allopurinol. The patient recovered well postoperatively, was able to ambulate independently by postoperative day 3, and was discharged home in stable condition. Follow-up was arranged for wound check in two weeks and with his cardiologist in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with a one-month history of generally feeling unwell. Symptoms included a steady, gradual onset of feeling "off," accompanied by headaches and moderate sweating occurring both during the day and at night, with no identified triggers such as activity, food, or stress. The patient denied trouble sleeping, changes in appetite, or any impact on daily activities. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the gradual onset of symptoms without severe impairment and suggested possible causes such as mild infections, hormonal changes, or medication side effects. The doctor recommended maintaining hydration and normal routines, and advised monitoring for new symptoms such as fever, weight loss, persistent fatigue, or worsening pain. The patient agreed with the summary and understood the plan to report any changes.
+The patient is an adult presenting with a chief complaint of feeling unwell for approximately one month. Symptoms include a gradual onset of persistent headaches and moderate sweating (both daytime and occasional nighttime), without clear triggers such as activity, food, or stress. The patient denies trouble sleeping, appetite changes, or significant impact on daily activities. There is no mention of relevant medical history, medications, or allergies in the dialogue. The clinical impression is nonspecific malaise with associated headaches and moderate sweating, possibly related to mild infection, hormonal changes, or medication side effects, though no definitive diagnosis is documented. The physician advised monitoring for new symptoms such as fever, weight loss, persistent fatigue, or worsening pain. Supportive recommendations included staying hydrated and maintaining normal routines. The patient was instructed to report any new or worsening symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
+- **STS Score**: 0.427
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 135 words
+
 
 ## Processing Information
 

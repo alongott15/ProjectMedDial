@@ -93,16 +93,23 @@ If you notice any new chest discomfort, difficulty breathing, or swelling, seek 
 
 ## EHR Summary
 
-The patient is a 45-year-old male presenting for annual follow-up after prior percutaneous transluminal coronary angioplasty. He was found to have an occluded stent, evidence of an old acute myocardial infarction on routine physical, and a positive stress test, but denied any anginal symptoms. His past medical history includes diabetes, claudication, and hepatitis C, and he was taking Lipitor, aspirin, Glucovance, Epivir, and folic acid on admission with no known drug allergies. Physical exam revealed clear lungs, regular heart sounds without murmur, and full pulses in the feet; chest x-ray was clear. Cardiac catheterization showed three vessel disease and restenosis at the angioplasty site. The documented diagnosis was multivessel coronary artery disease with stent occlusion and prior myocardial infarction. He underwent five-vessel coronary artery bypass grafting using the left internal mammary artery and saphenous vein grafts, tolerated the procedure well, and was managed postoperatively with nitroglycerin (later changed to Imdur), insulin drip for glucose control, and physical rehabilitation. Postoperative course included transfusion for low saturation and marginal urine output, slow recovery with nausea and fatigue, minimal serous sternal drainage, and gradual improvement.
+The patient is a 45-year-old male presenting for annual follow-up after prior percutaneous transluminal coronary angioplasty, during which a stent occlusion and three-vessel coronary artery disease were identified. He denied any anginal symptoms but was found to have an old acute myocardial infarction and a positive stress test on routine evaluation. His past medical history includes diabetes, claudication, and hepatitis C, with no known drug allergies. The documented diagnosis was three-vessel coronary artery disease with stent restenosis and old myocardial infarction. He underwent a five-vessel coronary artery bypass graft and experienced postoperative nausea, fatigue, minimal serous sternal drainage (cultures positive for methicillin-sensitive Staphylococcus aureus), and a small right thigh hematoma. Treatment included surgical revascularization, antibiotics (levofloxacin), glucose management, and wound care; he was also educated on diabetes management and discharged with instructions for glucose monitoring and wound checks. Discharge medications included metoprolol, lasix, potassium chloride, levofloxacin, Glucophage, glyburide, aspirin, ibuprofen, Epivir, iron, Percocet, and Colace. He was advised to complete a two-week course of levofloxacin and follow up with his primary care physician in one to two weeks and his surgeon in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented for an annual follow-up after angioplasty, specifically to discuss a known stent occlusion. They reported increased fatigue and nausea over the past couple of weeks, with fatigue persisting even after rest and requiring more effort to complete daily activities, though no changes in sleep were noted. The patient denied chest discomfort, shortness of breath, swelling in the legs, lightheadedness, or heart pounding with activity. Relevant history includes prior angioplasty and current stent occlusion; no medications or allergies were mentioned. On assessment, the doctor noted ongoing fatigue and nausea without acute warning signs, suggesting these symptoms may be related to reduced cardiac blood flow due to the stent issue. The doctor recommended monitoring for new symptoms such as chest pain, sudden shortness of breath, or dizziness, keeping a daily log of symptoms and energy levels, and maintaining regular follow-up with the cardiology team. The patient was advised to seek prompt care if any concerning symptoms develop and to keep their cardiologist informed of any changes. The patient understood and agreed with the plan.
+The patient is an adult presenting for an annual follow-up after angioplasty, with a primary concern regarding a documented stent occlusion. Over the past couple of weeks, the patient has experienced increased fatigue and nausea, which are persistent despite rest and represent a noticeable change from their baseline. There are no associated symptoms of chest discomfort, dyspnea (shortness of breath), leg swelling, lightheadedness, or palpitations. The patient is able to perform daily activities but with increased effort and reports no changes in sleep patterns.
+
+Relevant history includes prior angioplasty and current stent occlusion; no medication or allergy details were specified. The clinical impression is that the patient’s mild but persistent fatigue and nausea may be related to decreased cardiac perfusion secondary to the stent occlusion, though no acute warning signs are present. The treatment plan includes monitoring for new or worsening symptoms (such as chest pain, sudden shortness of breath, or swelling), keeping a daily log of symptoms and energy levels, and maintaining regular follow-up with the cardiology team. The patient was advised to seek prompt care if any concerning symptoms develop and agreed to the outlined plan.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.655
+- **Model Used**: general
+- **Text1 Length**: 186 words
+- **Text2 Length**: 188 words
+
 
 ## Processing Information
 

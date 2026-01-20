@@ -97,16 +97,21 @@ From here, I’d recommend monitoring your blood sugar as best you can, resting,
 
 ## EHR Summary
 
-The patient is a 27-year-old woman presenting with diabetic ketoacidosis (DKA). She reported one week of elevated blood glucose, with levels greater than 600 mg/dL for 2–3 days, despite increasing her insulin doses as advised. Additional symptoms included vomiting, shortness of breath (noted to have cold-induced asthma), intermittent fever up to 101.9°F, chills, diarrhea for two days, polyuria, and nocturia. Her relevant history includes type I and II diabetes mellitus with prior DKA episodes, chronic sinusitis, irritable bowel syndrome, GERD, depression, and asthma; she is allergic to E-Mycin. On examination in the ED, she was tachycardic (HR 128), hypertensive (BP 153/79), afebrile (T 99.2°F), and had a blood glucose of 953 mg/dL, anion gap metabolic acidosis (anion gap 20), positive urine ketones, and lactic acidosis (lactate 5.0). The documented diagnosis was DKA. Treatment included intravenous insulin infusion and IV fluid hydration, resulting in improvement of glucose and anion gap after several hours.
+The patient is a 27-year-old woman presenting with diabetic ketoacidosis (DKA). She reported one week of elevated blood glucose, with levels over 600 mg/dL for 2–3 days despite increasing her insulin doses, along with vomiting, shortness of breath, intermittent fever up to 101.9°F, chills, diarrhea for two days, polyuria, and nocturia. Her medical history includes type I and II diabetes mellitus with prior DKA episodes, chronic sinusitis, irritable bowel syndrome, GERD, depression, and asthma; she is allergic to E-Mycin. On admission, she was tachycardic with a blood glucose of 953 mg/dL, anion gap metabolic acidosis, positive urine ketones, and lactic acidosis. The documented diagnoses were DKA and sinusitis. She was treated with intravenous insulin, aggressive IV fluid hydration with potassium supplementation, and transitioned to subcutaneous insulin once stabilized; antibiotics were continued for sinusitis. ENT was consulted for persistent sinus symptoms, but the antibiotic regimen was not finalized before discharge. The patient eloped from the hospital prior to completion of care and without arranged follow-up or diabetes education.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent high blood sugar and vomiting. Symptoms included ongoing elevated blood sugar levels (noted especially in the mornings and after eating, with no clear triggers), vomiting for the past couple of days, intermittent shortness of breath (described as shortness of breath rather than chest tightness, occurring even when not vomiting and worse when blood sugar is high), mild fevers and chills starting around the same time as the vomiting, fatigue, and difficulty eating or drinking due to nausea. The patient denied abdominal pain or unusual breath odor and reported increased bathroom use. No specific medical history, medications, or allergies were mentioned. The doctor noted concern for dehydration and possible metabolic imbalance due to persistent hyperglycemia, vomiting, and inability to tolerate fluids, possibly worsened by mild illness or infection. The assessment focused on the risk of dehydration and the need to monitor for worsening symptoms. The doctor advised the patient to take small sips of water or electrolyte drinks regularly, monitor blood sugar at home, rest, and seek urgent medical attention if unable to keep fluids down, if confusion or worsening shortness of breath develops, or if symptoms do not improve. The patient confirmed access to a glucose monitor and support at home.
+The patient is an adult presenting with persistent hyperglycemia and recurrent vomiting as the chief complaints. Symptoms include consistently high blood sugar (noted especially in the mornings and after meals), nausea, vomiting for the past couple of days, intermittent shortness of breath (not associated with chest tightness), mild fevers, chills, fatigue, and difficulty maintaining normal daily activities due to malaise and poor oral intake. The patient denies abdominal pain and unusual breath odor. Relevant history regarding chronic conditions, medications, or allergies is not specified. The clinical impression is that the patient may be experiencing dehydration and metabolic imbalance due to uncontrolled blood glucose, possibly exacerbated by an underlying mild infection. The treatment plan includes close monitoring of blood glucose at home, maintaining hydration with small sips of water or electrolyte drinks, rest, and watching for warning signs such as worsening shortness of breath, confusion, or inability to keep fluids down. The patient was advised to seek urgent medical attention if symptoms worsen or new concerning signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.640
+- **Model Used**: general
+- **Text1 Length**: 167 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

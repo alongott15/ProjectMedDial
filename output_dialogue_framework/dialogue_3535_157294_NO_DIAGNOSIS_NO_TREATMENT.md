@@ -89,16 +89,21 @@ Would you like tips on breathing exercises or strategies for managing triggers?
 
 ## EHR Summary
 
-The patient is a 33-year-old woman presenting with paradoxical vocal cord motion and asthma. She has a long history of asthma with multiple hospital admissions for airway management. The patient underwent an elective tracheostomy to manage her airway, which was performed without complications. Postoperatively, she recovered well, resumed an oral diet by postoperative day one, and completed tracheostomy training by day six. On discharge, her condition was stable. The documented diagnosis was status post tracheostomy for paradoxical vocal cord motion with asthma. Discharge medications included fexofenadine, calcium carbonate, Percocet as needed for pain, lisinopril, and metformin. She was discharged home with routine tracheostomy care, physical therapy, and instructions to follow up in clinic within one week.
+The patient is a 33-year-old woman presenting with paradoxical vocal cord motion and asthma. She has a long history of asthma with multiple hospital admissions for airway management. The patient underwent an elective tracheostomy to manage her airway, which was performed without complications. Postoperatively, she recovered well, resumed an oral diet by postoperative day one, and completed tracheostomy training by day six. The documented diagnosis was status post tracheostomy for paradoxical vocal cord motion with asthma. Discharge medications included fexofenadine, calcium carbonate, Percocet as needed for pain, lisinopril, and metformin. She was discharged home in stable condition with instructions for routine tracheostomy care and physical therapy for home safety, mobility, and strength. Follow-up with her physician was arranged within one week of discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with increased difficulty catching their breath, particularly during activity. Symptoms included shortness of breath worsened by exercise and dust exposure, occasional unpredictable episodes, throat tightness, voice changes, and intermittent wheezing; most episodes lasted a few minutes and were relieved by inhaler use or rest, though some required multiple inhaler doses or lasted longer. The patient has a history of asthma and paradoxical vocal cord motion. No new physical findings were described beyond the patient's reported symptoms. The doctor assessed that both asthma and paradoxical vocal cord motion are contributing to the recent breathing difficulties, noting increased frequency and occasional reduced responsiveness to inhaler therapy. The doctor recommended monitoring episode frequency and inhaler use, practicing breathing exercises (such as relaxed diaphragmatic breathing or speech therapy techniques), and seeking medical attention for prolonged or severe episodes unresponsive to usual treatment. The patient expressed interest in receiving tips on breathing exercises and trigger management.
+The patient is an adult with a history of asthma presenting with increased shortness of breath, particularly during activity and exposure to dust. Symptoms include episodes of dyspnea, throat tightness, occasional hoarseness, and wheezing; these episodes typically last a few minutes and are sometimes relieved by rest but often require use of an inhaler. The patient reports that the inhaler usually brings quick relief, though occasionally multiple doses or more time are needed. Relevant history includes longstanding asthma and a prior diagnosis of paradoxical vocal cord motion. The clinician’s assessment is that both asthma and paradoxical vocal cord motion are contributing to the patient’s recent breathing difficulties. The treatment plan includes monitoring episode frequency, continuing inhaler use as needed, and incorporating breathing exercises such as relaxed diaphragmatic breathing or speech therapy techniques for vocal cord symptoms. The patient was advised to seek medical attention if episodes become severe, prolonged, or unresponsive to usual treatments. Additional education on managing triggers and breathing strategies was offered.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.704
+- **Model Used**: general
+- **Text1 Length**: 123 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

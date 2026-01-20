@@ -87,16 +87,21 @@ Does that plan sound reasonable to you? Is there anything else about your sympto
 
 ## EHR Summary
 
-The patient is a 66-year-old female presenting with chest pain and shortness of breath. Symptoms prompted evaluation at an outside hospital, where cardiac workup revealed three-vessel coronary artery disease with a 99% ostial lesion on the right, 50% proximal circumflex, 60% OM1, and diffusely diseased LAD; her ejection fraction was noted to be 40%. Relevant history includes coronary artery disease with prior myocardial infarction, hypertension, noninsulin dependent diabetes, depression, anxiety, and questionable COPD; she is allergic to sulfa and oxycodone. On physical exam, she was afebrile with stable vital signs, regular heart rhythm with multiple PACs, clear lungs, and no peripheral edema. Laboratory findings included a hematocrit of 36 and white count of 7.7. The documented diagnosis was severe multivessel coronary artery disease. She underwent coronary artery bypass grafting x3 with left internal mammary artery to the LAD and saphenous vein grafts to the OM and right PDA. The patient tolerated the procedure well.
+The patient is a 66-year-old female presenting with chest pain and shortness of breath. She was found to have three-vessel coronary artery disease with a 99% ostial lesion on the right, 50% proximal circumflex, 60% OM1, and diffusely diseased LAD, and her ejection fraction was noted to be 40%. Her past medical history includes hypertension, noninsulin dependent diabetes, depression, anxiety, and questionable chronic obstructive pulmonary disease; she is allergic to sulfa and oxycodone. The documented diagnosis was coronary artery disease, status post coronary artery bypass graft x3. She underwent successful surgical revascularization with left internal mammary artery to LAD and saphenous vein grafts to OM and right PDA, tolerated the procedure well, and was stable postoperatively. She experienced some oxygen desaturations while ambulating but otherwise remained afebrile with stable vital signs. Discharge medications included Lopressor, Lasix, KCL, aspirin, Percocet, Colace, Prozac, and Glucotrol. The patient will be discharged to rehabilitation and instructed to follow up with her cardiologist and primary care physician in three weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The chest pain was described as moderate in intensity, occurring for several days, and was accompanied by shortness of breath; both symptoms worsened with activity and improved somewhat with rest, but did not change significantly when lying down. The patient denied associated symptoms such as sweating, lightheadedness, palpitations, or sleep disturbance, and reported no use of additional medications for relief. No specific past medical history, current medications, or allergies were mentioned during the visit. On assessment, the doctor noted that the symptoms were activity-related and improved with rest, without other concerning features, and discussed possible causes including cardiac, pulmonary, muscular strain, or anxiety. The doctor advised the patient to continue resting and to seek prompt medical attention if severe pain, pain radiating to the arm or jaw, sudden dizziness, or sweating developed. A more detailed evaluation was recommended to further investigate the symptoms.
+The patient presents with chest pain as the chief complaint. The chest pain is described as moderate in intensity, has been present for several days, and is accompanied by shortness of breath; both symptoms are triggered by activity and improve with rest, without associated symptoms such as sweating, lightheadedness, or palpitations. The discomfort does not worsen when lying down, does not disturb sleep, and has not been relieved by medications, though resting helps somewhat. Relevant medical history, current medications, and allergies are not specified in the dialogue. The clinical impression is that the symptoms could be related to cardiac, pulmonary, musculoskeletal, or anxiety-related causes, but no definitive diagnosis is documented. The physician advises continued rest and monitoring for new or worsening symptoms such as severe pain, radiation of pain, dizziness, or sweating, which would warrant prompt medical attention. A more detailed evaluation is recommended to further investigate the cause of the symptoms. The patient agrees with the plan and expresses interest in further testing.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.440
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

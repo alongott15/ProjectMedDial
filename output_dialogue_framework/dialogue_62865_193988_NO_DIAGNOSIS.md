@@ -87,16 +87,21 @@ Let me know if you have any questions or concerns about what to watch for or how
 
 ## EHR Summary
 
-The patient is a 48-year-old female presenting with fever following a right free TRAM flap procedure performed on 2145-5-3. She reported a fever up to 101°F and generalized aches for one day, along with increased soreness and pressure in the lower aspect of her breast and abdomen; she denied chest pain, dyspnea, urinary symptoms, leg swelling, or cough. Her relevant history includes breast cancer status post mastectomy and right free TRAM flap reconstruction. On physical exam, the right breast flap was clean and intact with a small amount of drainage but no erythema, and the abdominal incision showed minimal tenderness without rebound or guarding. Laboratory findings included leukocytosis (WBC 22.9) and moderate leukocytes in urine, but no evidence of urinary tract infection. The documented diagnosis was infected hematoma/seroma at the surgical site. Treatment included wound washout of the right breast and administration of vancomycin, ceftriaxone, and metronidazole. She was referred from clinic to the emergency department for further management.
+The patient is a 48-year-old female presenting with fever following a right free TRAM flap breast reconstruction. She reported a fever up to 101°F, body aches for one day, and increasing soreness and pressure in the lower aspect of her right breast and abdomen, but denied chest pain, dyspnea, urinary symptoms, leg swelling, or cough. Her medical history includes breast cancer status post mastectomy and right free TRAM reconstruction; allergies include morphine, gadolinium-containing agents, and vancomycin. On admission, she was found to have an infected hematoma/seroma at the right breast reconstruction site, confirmed by aspiration and culture showing gram-positive cocci. Treatment included intravenous broad-spectrum antibiotics (vancomycin, ceftriaxone, flagyl), surgical drainage and washout of the infected cavity, wound packing, and later closure over a drain. She improved clinically with decreasing white blood cell counts and was discharged in stable condition. Discharge medications included dicloxacillin and acetaminophen, with instructions for wound care and to return if symptoms worsened. Follow-up with her surgeon was advised within one week.
+
 
 ## Dialogue Summary
 
-The patient presented with fever reaching up to 101°F. Symptoms included fever for the past couple of days, body aches, increased soreness and pressure in the lower breast and abdomen, and fatigue; the discomfort was described as dull and did not limit arm movement, and there were no chills, sweating, sore throat, redness, or swelling noted. The patient reported that the fever comes and goes rather than remaining elevated throughout the day. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted mild fever, localized discomfort in the lower breast and abdomen, and fatigue without signs of severe infection such as redness or swelling. The assessment was possible localized infection or inflammation causing fever and discomfort. The doctor recommended rest, hydration, and use of over-the-counter medications like acetaminophen or ibuprofen for symptom management unless contraindicated, and advised monitoring for worsening symptoms such as increased redness, swelling, higher fever, or new symptoms requiring prompt medical attention. The patient expressed understanding and asked about continuing Motrin (ibuprofen) for symptom relief.
+The patient is an adult presenting with fever up to 101°F as the chief complaint. The fever began a couple of days ago and is accompanied by body aches, increased soreness and pressure in the lower breast and abdomen, and fatigue; the discomfort is described as dull and does not limit movement. The patient denies chills, sweating, sore throat, or visible redness and swelling in the affected area, and reports that the fever comes and goes rather than remaining constant. Relevant history regarding medications or allergies was not specified. The clinical impression was that these symptoms could be related to a localized infection or inflammation, though no definitive diagnosis was documented. The treatment plan included rest, hydration, and use of over-the-counter medications such as acetaminophen or ibuprofen for fever and discomfort, unless contraindicated. The patient was advised to monitor for new or worsening symptoms such as redness, swelling, warmth, higher or persistent fever, severe pain, drainage, or shortness of breath, and to seek medical attention if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.512
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

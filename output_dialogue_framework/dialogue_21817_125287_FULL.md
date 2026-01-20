@@ -87,16 +87,21 @@ Before we wrap up, can you think of any new medications or supplements you’ve 
 
 ## EHR Summary
 
-The patient is a 71-year-old female presenting with diarrhea, purple stools, and lightheadedness. She reported the onset of these symptoms one day prior to admission, with dizziness accompanying each bowel movement, but denied loss of consciousness, chest pain, abdominal pain, nausea, vomiting, or prior similar episodes. Her recent history included several days of nonproductive cough treated with Robitussin. Relevant medical history includes hypertension, diabetes mellitus managed with oral agents, and a cerebrovascular accident eleven years ago with residual leg weakness; she is on Coumadin for stroke prevention. Clinical findings and diagnosis are not specified in the provided note. The treatment plan and specific recommendations are not documented in the excerpt.
+The patient is a 71-year-old female presenting with diarrhea, purple stools, and lightheadedness. She reported the onset of these symptoms one day prior to admission, with dizziness occurring during each bowel movement, but denied loss of consciousness, chest pain, abdominal pain, nausea, vomiting, or prior similar episodes. Her history is significant for hypertension, diabetes mellitus (on oral agents), and a cerebrovascular accident eleven years ago with residual leg weakness; she is currently taking Coumadin. She also had several days of nonproductive cough before admission, for which she used Robitussin. The clinical note does not specify a documented diagnosis. The treatment plan and specific recommendations are not detailed in the provided text.
+
 
 ## Dialogue Summary
 
-The patient presented with diarrhea that has persisted for a few days, making daily activities difficult. They reported experiencing diarrhea several times a day, with stools consistently appearing purple in color and associated lightheadedness or dizziness during bowel movements. The patient denied recent consumption of foods known to cause purple stool (such as beets or berries), and noted no red or black streaks in the stool; symptoms have remained stable without improvement or worsening. The patient has been able to maintain adequate fluid intake and has not experienced nausea, rapid heartbeat, weakness, or difficulty standing. Relevant history includes ongoing use of Coumadin, diabetes medication, and Robitussin, with no new medications or supplements started recently. On assessment, the doctor noted that diarrhea of a few days’ duration is often due to mild infection or dietary causes, but the unusual purple stool color is atypical and not explained by diet or common gastrointestinal illness; dizziness may be related to fluid loss from frequent diarrhea. The doctor advised the patient to continue drinking fluids, eat bland foods, and closely monitor symptoms, with instructions to seek medical attention if black, tarry, or bright red stools, worsening dizziness, weakness, or inability to keep fluids down occur.
+The patient is an adult presenting with diarrhea as the chief complaint. The diarrhea began a few days ago, occurs several times daily, and is accompanied by an unusual consistent purple stool color and lightheadedness, particularly during bowel movements; there is no associated nausea, inability to drink fluids, or recent ingestion of foods known to cause purple stools. The patient denies new medications or supplements and continues taking Coumadin, diabetes medication, and Robitussin. There is no report of red or black streaks in the stool, and symptoms have remained stable over the past few days. The physician notes that while mild infections commonly cause short-term diarrhea, the persistent purple stool color is atypical and not explained by diet or medications. The dizziness is suspected to be related to fluid loss from frequent diarrhea. The treatment plan includes maintaining hydration, eating bland foods, monitoring for worsening symptoms (such as black, tarry, or bright red stools, increased dizziness, weakness, or inability to keep fluids down), and seeking prompt medical attention if these occur. No definitive diagnosis was documented during the visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.976
-- **Similarity Label**: N/A
+- **STS Score**: 0.655
+- **Model Used**: general
+- **Text1 Length**: 111 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ For now, I'd recommend keeping track of when these sensations occur, what you’
 
 ## EHR Summary
 
-The patient is a 75-year-old male presenting with occasional burning chest pain unrelated to activity. Symptoms began a week and a half prior to admission, and an exercise tolerance test revealed chest pain with ST segment depressions in V4 to V6 after four minutes of exercise. Relevant history includes coronary artery disease, migraines, and nephrolithiasis, with current medications including aspirin, atenolol, Imdur, and diltiazem; no known drug allergies. Physical examination showed stable vital signs, regular cardiac rhythm, clear lungs, and no edema. Cardiac catheterization demonstrated an ejection fraction of 50% with significant coronary artery occlusions (90% LAD, 80% diagonal 1, 70% RCA). The documented diagnosis was severe multivessel coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) times three with placement of atrial wires and chest tubes. Postoperative care included standard monitoring and management following CABG.
+The patient is a 75-year-old male presenting with chest pain described as occasional burning, unrelated to activity, occurring for a week and a half prior to admission. Symptoms were further evaluated with an exercise tolerance test, which revealed chest pain and ST segment depressions in V4 to V6 after four minutes of exercise. Relevant history includes coronary artery disease, migraines, and nephrolithiasis, with no known drug allergies. Cardiac catheterization showed significant coronary artery occlusions (90% LAD, 80% diagonal 1, 70% RCA), and a coronary artery bypass graft (CABG) times three was performed. Postoperatively, the patient experienced minimal sternal drainage managed with Vancomycin, and no evidence of infection or hemodynamic instability was noted. The documented diagnoses were status post CABG x3, migraine headaches, possible history of transient ischemic attack, and nephrolithiasis. Discharge medications included Lopressor, Lasix, potassium chloride, aspirin, Lipitor, Plavix, Percocet, Colace, and Alphagan eyedrops. The patient was discharged home in stable condition with follow-up arranged with primary care and cardiology.
+
 
 ## Dialogue Summary
 
-The patient presented with a burning sensation in the chest that has been occurring intermittently for at least a few days. The burning is triggered by physical activity, such as during an exercise tolerance test, and resolves with rest; it is rated as a 5 or 6 out of 10 in severity and has not worsened over time. The patient denied associated symptoms such as shortness of breath, sweating, or lightheadedness, and reported no change in frequency or intensity. Relevant history includes a diagnosis of coronary artery disease and a minimal amount of drainage from the lower part of the sternal incision. On assessment, the doctor noted that the pattern of exertional chest burning relieved by rest is suggestive of angina, especially given the patient’s cardiac history, but was reassured by the absence of additional concerning symptoms. The doctor advised the patient to monitor symptoms closely, avoid overexertion, and keep a log of episodes, emphasizing the importance of seeking prompt medical attention if symptoms worsen or occur at rest. The patient requested further advice on safe activity levels and mentioned minimal sternal incision drainage for further evaluation.
+The patient is an adult with a history of coronary artery disease presenting with intermittent burning chest discomfort. The burning sensation has been present for at least a few days, occurs primarily with physical activity (such as during an exercise tolerance test), is rated 5–6/10 in severity, and resolves with rest; there are no associated symptoms such as dyspnea, sweating, or lightheadedness. The patient reports no worsening of symptoms over time. Relevant history includes a prior diagnosis of coronary artery disease and a mention of minimal drainage from the lower part of a sternal incision. The clinical impression documented by the physician is that the chest discomfort is likely angina, given the exertional pattern and cardiac history. The treatment plan includes monitoring symptoms, avoiding strenuous activity until further evaluation, and keeping a log of episodes with details about timing and triggers. The patient was advised to seek prompt medical attention if symptoms become more severe, last longer, or occur at rest. The patient also requested advice regarding safe levels of physical activity and mentioned minimal sternal incision drainage, but further assessment of the incision was not documented in this dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.641
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 190 words
+
 
 ## Processing Information
 

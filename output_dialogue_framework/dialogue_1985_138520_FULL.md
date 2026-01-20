@@ -89,16 +89,21 @@ Let me know if you have any questions or concerns about what I’ve explained, o
 
 ## EHR Summary
 
-The patient is a 74-year-old female presenting with chest pain as the chief complaint. She experienced three days of chest pain upon awakening, radiating across her shoulder blades and down her arms, lasting one to one and a half hours, and worsening at night when lying down. Her history is significant for coronary artery disease (CAD) status post myocardial infarction (MI) and prior LAD stent placement, as well as COPD, hypertension, hyperlipidemia, and osteoporosis; she has no known allergies. On presentation, her troponin was mildly elevated at 0.12, and she had breakthrough pain despite heparin and nitroglycerin drip. The clinical impression was strong suspicion for acute coronary syndrome in the context of known CAD. Treatment included transfer for further management, continuation of antiplatelet therapy (aspirin), statin (Pravachol), antihypertensives (Vasotec, Lopressor), nitroglycerin drip, heparin drip, and Aggrastat drip.
+The patient is a 74-year-old woman presenting with chest pain. She experienced three days of chest pain radiating across her shoulder blades and down her arms, lasting one to 1.5 hours, worse at night when lying down, and not fully relieved by heparin or nitroglycerin. Her history is significant for coronary artery disease (CAD) with prior myocardial infarction, LAD stent placement, COPD, hypertension, hyperlipidemia, osteoporosis, and left bundle branch block; she has no known allergies. The documented diagnosis was CAD, status post coronary artery bypass grafting (CABG) times four, along with COPD, hypertension, hypercholesterolemia, osteoporosis, and left bundle branch block. She underwent CABG with LIMA to LAD and saphenous vein grafts to OM2, diag, and OM1, tolerated the procedure well, and required temporary pacing postoperatively due to heart block. Her postoperative course included gradual weaning from ventilatory and inotropic support, initiation of metoprolol for tachycardia, and physical rehabilitation. At discharge, she was stable on medications including Lasix, potassium chloride, aspirin, Plavix, pravastatin, metoprolol, enalapril, Percocet, and albuterol. She was discharged to rehabilitation with follow-up arranged with her primary care provider and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain and associated anxiety. Symptoms included a persistent pressure-like chest discomfort that began suddenly a few days ago, rated up to 7/10 in severity, sometimes radiating across the shoulder blades and down the arms, and accompanied by episodes of faster heartbeat; these occurred both at rest and with activity, with no clear pattern. The patient denied shortness of breath, lightheadedness, or sweating, and noted that resting helped somewhat but did not fully relieve the pain; changing positions or deep breaths had no effect. Additional symptoms mentioned included swelling in both legs and a small amount of reddish fluid from the top part of a left leg incision. No specific medical history, medications, or allergies were discussed. The doctor noted the absence of alarming symptoms but expressed concern due to the nature and radiation of the chest pain and palpitations, considering possible cardiac or musculoskeletal causes, while acknowledging anxiety as a potential contributor. The doctor recommended an in-person evaluation today, including an EKG and basic blood work, and advised seeking emergency care if new severe symptoms developed.
+The patient presents with chest pain as the chief complaint. The chest pain began a few days ago, is described as a pressure sensation rated 7 out of 10 at its worst, and sometimes radiates across the shoulder blades and down the arms; episodes are accompanied by palpitations and occur both at rest and with activity. The patient denies associated symptoms such as shortness of breath, lightheadedness, or sweating, and notes that resting provides some relief, though the pain does not fully resolve. There is also reported swelling in both legs and a small amount of reddish fluid from a left leg incision. Relevant medical history, medications, and allergies are not specified in the dialogue. The clinical impression includes concern for possible cardiac causes given the nature and radiation of the pain, though anxiety and musculoskeletal etiologies are also considered. The physician recommends urgent in-person evaluation with EKG and basic blood work to rule out cardiac causes. The patient is advised to seek emergency care if new or worsening symptoms such as severe shortness of breath, nausea, sweating, or increased pain occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.464
+- **Model Used**: general
+- **Text1 Length**: 182 words
+- **Text2 Length**: 182 words
+
 
 ## Processing Information
 

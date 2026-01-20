@@ -87,16 +87,21 @@ Would you like guidance on where to go for immediate evaluation, or do you have 
 
 ## EHR Summary
 
-The patient is a 35-year-old female presenting with acute myocardial ischemia requiring cardiac catheterization. She reported a history of previous myocardial infarction, coronary artery disease, and prior stent placement to the right coronary artery. On admission, her medications included aspirin, atenolol, Lipitor, calcitrel, and magnesium and calcium supplements; she has no known drug allergies. Cardiac catheterization revealed significant two-vessel obstruction, left main disease with a 60% osteal lesion, 60% mid-vessel stenosis of the left anterior descending artery, and 90% mid-vessel stenosis of the right coronary artery stent, with an ejection fraction of approximately 60%. The documented diagnosis was multivessel coronary artery disease with acute myocardial ischemia. She underwent a three-vessel coronary artery bypass graft (CABG) without complications. Postoperatively, she was transferred to the Cardiothoracic Intensive Care Unit, maintained on intravenous drips, and was successfully extubated.
+The patient is a 35-year-old female presenting with acute myocardial ischemia requiring cardiac catheterization. She reported a history of previous myocardial infarction, coronary artery disease, and prior stent placement to the right coronary artery. Cardiac catheterization revealed significant two-vessel obstruction, left main disease with a 60% osteal lesion, 60% mid-vessel stenosis of the left anterior descending artery, and 90% mid-vessel stenosis of the right coronary artery. The documented diagnosis was acute myocardial ischemia due to multivessel coronary artery disease. She underwent a three-vessel coronary artery bypass graft (CABG) without complications. Postoperatively, she experienced a chest tube air leak that resolved by postoperative day four, and her recovery was otherwise uneventful. At discharge, her condition was stable, and she was prescribed metoprolol, Lasix, K-Ciel, aspirin, Zantac, Colace, Plavix, Imdur, and Dilaudid as needed for pain. She was advised to follow up with her primary care physician and cardiothoracic surgery in two to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort as the chief complaint. The discomfort began a few days ago, occurs in episodes lasting a few minutes, and is described as a pressure sensation rated 6 out of 10 in intensity; it sometimes worsens with activity but has not changed in severity since onset. The patient also reported shortness of breath during episodes but denied sweating or lightheadedness. Relevant history includes coronary artery disease, prior myocardial infarction, and stent placement; no medication or allergy information was provided. No new physical findings were described during the visit. The doctor assessed that, given the patient’s cardiac history and current symptoms, there is concern for possible heart-related causes such as insufficient oxygen to the heart. The doctor recommended prompt evaluation today, including an EKG and blood tests at a clinic or emergency department, and advised seeking emergency care if symptoms worsen or new symptoms develop. The patient expressed understanding and asked for guidance on where to seek immediate evaluation.
+The patient is an adult with a history of coronary artery disease and prior stent placement, presenting with chest discomfort. The discomfort began a few days ago, occurs in episodes lasting a few minutes, and is described as a pressure (not sharp or burning) with an intensity of 6 out of 10 at its worst. Symptoms are sometimes worse with activity and are accompanied by shortness of breath, but not by sweating or lightheadedness. The patient reports that the symptoms have remained stable since onset and are similar to previous cardiac events. Relevant history includes a prior myocardial infarction and coronary stent placement. The clinical impression is concern for possible cardiac ischemia given the patient’s history and current symptoms. The physician advised prompt evaluation today, recommending an EKG and blood tests at a clinic or emergency department, and instructed the patient to seek emergency care if symptoms worsen or new severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.581
+- **Model Used**: general
+- **Text1 Length**: 153 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

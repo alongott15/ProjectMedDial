@@ -89,16 +89,23 @@ Would you like advice on how to manage daily activities safely until you see you
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with progressive dyspnea on exertion. He reported worsening shortness of breath, dyspnea on exertion, and belching since January, with one episode of shortness of breath and left arm pain relieved by sublingual nitroglycerine. His medical history includes coronary artery disease with prior LAD stents, aortic stenosis, insulin-dependent diabetes, hypertension, hyperlipidemia, obesity, and benign prostatic hypertrophy; he has no known drug allergies. Cardiac catheterization revealed 70% in-stent restenosis of the LAD, aortic valve area of 1.1 cm², and an ejection fraction of 48%. On admission, he underwent coronary artery bypass grafting (CABG) x1 and aortic valve replacement. Postoperative course was complicated by an apical pneumothorax requiring chest tube reinsertion. Laboratory findings included mild anemia (Hgb 8.9), elevated WBC (11.8), hyperglycemia (glucose 239), and mild hyperkalemia (K 5.2). The documented diagnoses were coronary artery disease with in-stent restenosis and aortic stenosis; treatment included surgical intervention and management of postoperative complications.
+The patient is a 62-year-old male presenting with progressive dyspnea on exertion. He reported worsening shortness of breath, dyspnea on exertion, and belching since January, with one episode of shortness of breath and left arm pain relieved by sublingual nitroglycerine. His history includes coronary artery disease with prior LAD stents, aortic stenosis, insulin-dependent diabetes, hypertension, hyperlipidemia, obesity, and benign prostatic hypertrophy; he has no known drug allergies. Cardiac catheterization revealed 70% in-stent restenosis of the LAD and aortic valve area of 1.1 cm² with an ejection fraction of 48%. The documented diagnoses were aortic stenosis and coronary artery disease. He underwent coronary artery bypass grafting (CABG) x1 and aortic valve replacement, complicated postoperatively by a persistent left apical pneumothorax requiring chest tube management. At discharge, he was stable and prescribed medications including aspirin, simvastatin, glyburide-metformin, metoprolol, furosemide, potassium chloride, and others. Discharge instructions included wound care, activity restrictions, medication adherence, and follow-up with cardiac services.
+
 
 ## Dialogue Summary
 
-The patient presented with increasing shortness of breath, especially during physical activity. Symptoms have worsened over the past couple of weeks and are most noticeable when going up stairs or carrying groceries; the patient also reported pain radiating down the left arm accompanying the breathlessness, which both build gradually with exertion and improve with rest. The patient denied cough, leg swelling, dizziness, or lightheadedness, but noted that daily activities have become more difficult and require frequent pauses. Relevant history includes aortic stenosis, coronary artery disease, and prior stent placement; no known lung conditions were reported. On assessment, the doctor noted that the exertional nature of symptoms and associated arm pain, in the context of cardiac history, suggest a heart-related cause such as exertional angina or heart-related breathlessness. The doctor advised the patient to avoid strenuous activity, pace themselves, and closely monitor symptoms, with a timely evaluation by a cardiologist recommended. The patient was instructed to seek emergency care if sudden chest pain, severe shortness of breath at rest, fainting, or sweating occur, and requested advice on managing daily activities safely until specialist review.
+The patient is an adult with a history of aortic stenosis and coronary artery disease, presenting with increasing shortness of breath on exertion as the chief complaint. Symptoms have worsened over the past few weeks and are most noticeable during activities such as climbing stairs or carrying groceries; the dyspnea builds gradually with activity and improves with rest. The patient also reports left arm pain accompanying the shortness of breath but denies cough, leg swelling, dizziness, or lightheadedness. These symptoms have begun to limit daily activities, requiring more frequent rest and avoidance of strenuous tasks.
+
+Relevant history includes prior stent placement for coronary artery disease and no known lung conditions. The clinical impression is that the symptoms are likely cardiac in origin, consistent with exertional angina or heart-related breathlessness, given the patient’s cardiac history and symptom pattern. The treatment plan includes avoiding strenuous activity, arranging a timely evaluation with a cardiologist, and monitoring for any worsening symptoms such as sudden chest pain, severe dyspnea at rest, fainting, or sweating, which would warrant emergency care. The patient was also advised to pace activities and monitor symptoms until specialist evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.692
+- **Model Used**: general
+- **Text1 Length**: 155 words
+- **Text2 Length**: 188 words
+
 
 ## Processing Information
 

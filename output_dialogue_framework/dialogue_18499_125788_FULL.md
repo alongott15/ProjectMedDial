@@ -87,16 +87,21 @@ Does this approach make sense to you? Is there anything else you've noticed that
 
 ## EHR Summary
 
-The patient is a 55-year-old male presenting with upper extremity weakness for the past two to three months. He reported decreased muscle strength and sensation in the right upper extremity, with physical exam findings of right upper extremity strength at 3+, right leg strength at 4+, absent reflexes in the right upper extremity and left ankle, and decreased sharp sensation in the right upper extremity. His past medical history includes reflux disease and prior appendectomy, with no known allergies. On admission, vital signs were stable and cranial nerves were intact. The patient underwent C6-C7 laminectomies with resection of an intramedullary lesion; there were no intraoperative complications. Postoperatively, he received a Solu-Medrol drip for 24 hours and showed improvement in motor strength and intact sensation throughout. The patient was transferred to the regular floor with physical therapy consultation and was recommended for a rehabilitation stay prior to discharge. Discharge medications included Zantac, Percocet, Tylenol, Colace, and Milk of Magnesia.
+The patient is a 55-year-old male presenting with upper extremity weakness for the past two to three months. Examination revealed decreased muscle strength (3+) and diminished sensation in the right upper extremity, as well as absent reflexes in the right upper extremity and left ankle. His past medical history includes reflux disease and prior appendectomy, with no known allergies. The patient underwent C6-C7 laminectomies with resection of an intramedullary lesion, after which his motor strength improved and sensation was intact throughout. The documented clinical impression was upper extremity weakness secondary to an intramedullary lesion at C6-C7. Postoperative management included a Solu-Medrol drip for 24 hours, pain control, and bowel regimen medications. He was discharged in stable condition to a rehabilitation facility, with plans for staple removal on postoperative day 10 and follow-up in the Brain Clinic in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with right arm weakness as the chief complaint. Symptoms included several days of decreased muscle strength in the right arm, reduced sensation to sharp stimuli, difficulty gripping objects, awkwardness with writing, and trouble buttoning shirts; these symptoms have remained stable without improvement or worsening. The patient denied pain, aching, or discomfort in the right arm, shoulder, or neck, and reported no recent injuries or unusual activities. Additionally, the patient mentioned decreased muscle strength in the right leg. No allergies or medications were discussed. On clinical review, the doctor noted weakness and sensory changes in the right arm without associated pain or trauma. The assessment was that the symptoms may be related to nerve function, possibly from an issue affecting nerves in the arm, neck, or brain. The doctor advised monitoring for new symptoms (such as changes in speech, vision, facial drooping, or leg weakness), avoiding activities that could strain the arm, and considering further evaluation of nerve function or imaging if indicated.
+The patient is an adult presenting with right arm weakness as the chief complaint. Symptoms have been present for a few days and include decreased grip strength, difficulty with fine motor tasks (such as buttoning shirts and writing), and reduced sensation to sharp in the right arm, without associated pain, aching, or recent trauma. The weakness is present at rest and does not worsen with activity; there is also new-onset decreased muscle strength in the right leg. No changes in speech, vision, facial drooping, or leg weakness were reported initially, but the patient later mentioned right leg involvement. Relevant medical history, medications, and allergies are not specified. The clinical impression discussed by the doctor suggests possible nerve involvement, either peripheral or central, but no definitive diagnosis was documented. The treatment plan includes monitoring for new symptoms, avoiding activities that could strain the arm, and considering further evaluation of nerve function or imaging if indicated. The patient was advised to seek immediate care if urgent neurological symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.535
+- **Model Used**: general
+- **Text1 Length**: 141 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

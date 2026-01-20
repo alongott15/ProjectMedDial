@@ -192,3 +192,21 @@ Your symptoms are not typical for a smooth recovery from a subdural hematoma, so
 ## Processing Information
 
 - **Processing Time**: 448.7s
+
+## EHR Summary
+
+The patient is a 17-year-old female presenting after a motor vehicle accident with loss of consciousness for ten minutes and one episode of vomiting at the scene. She reported persistent headache, nausea, and vomiting during her hospital stay. Her past medical history is negative, and she has no known drug allergies or medications on admission. Imaging revealed a right postoccipital and right temporal subdural hematoma, with a slight increase in size noted on repeat CT but no midline shift. The documented diagnosis was subdural hematoma following head trauma. She was treated with Dilantin and Zantac prophylactically, monitored in the Neurosurgical ICU, and later managed with Oxycontin for headache as needed. The patient improved with resolution of most symptoms and was discharged home in stable condition. Follow-up was arranged in the neurosurgery clinic in three weeks.
+
+
+## Dialogue Summary
+
+The patient presents with ongoing headache, nausea, vomiting, a low-grade fever (approximately 100.5°F), and a single episode of loss of consciousness over the past few days. These symptoms have persisted and include both mild (headache, nausea) and more concerning features (vomiting, loss of consciousness). The patient has a documented history of right postoccipital and right temporal subdural hematoma. The clinician’s assessment is that the current symptoms may indicate that the subdural hematoma is not resolving or could be worsening, and that these symptoms are not typical for an uncomplicated recovery. The treatment plan includes urgent medical evaluation, repeat imaging, and close monitoring for any new or worsening symptoms. The patient was advised to avoid activities that could risk further head injury, have someone stay with them, and seek immediate care if symptoms such as confusion, weakness, or additional episodes of vomiting or loss of consciousness occur. The importance of prompt follow-up and vigilance for warning signs was emphasized throughout the discussion.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.798
+- **Model Used**: general
+- **Text1 Length**: 135 words
+- **Text2 Length**: 161 words
+

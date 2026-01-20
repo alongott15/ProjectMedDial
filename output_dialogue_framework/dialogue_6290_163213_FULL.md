@@ -87,16 +87,21 @@ For now, does anything make the pressure feel better or worse—like changing po
 
 ## EHR Summary
 
-The patient is a 71-year-old female presenting with chest pain radiating to the back and jaw. Symptoms began at home on 2108-10-22, and echocardiogram revealed anterior ischemia with an ejection fraction of 54%. Cardiac catheterization showed significant multi-vessel coronary artery disease, including 90% occlusions in several vessels. Her past medical history includes hypertension, abdominal aortic aneurysm, prior cerebrovascular accident, left nephrectomy, chronic obstructive pulmonary disease, and gastroesophageal reflux disease; home medications included aspirin, Lasix, Lipitor, Dilantin, Colace, Cardizem, Zoloft, and labetalol. On physical exam prior to discharge, she was afebrile with stable vital signs, clear lungs with diffuse wheezes, and a regular heart rate and rhythm. The documented diagnosis was multi-vessel coronary artery disease with anterior ischemia. She underwent coronary artery bypass grafting times four on 2108-10-29 and had an uncomplicated postoperative course aside from extended ICU monitoring for COPD. Treatment included surgical revascularization, pulmonary toilet, and gradual ambulation prior to discharge.
+The patient is a 71-year-old female presenting with chest pain radiating to the back and jaw. Symptoms began at home on 2108-10-22, and evaluation revealed anterior ischemia on echocardiogram with an ejection fraction of 54%. Cardiac catheterization showed significant multi-vessel coronary artery disease, including 90% occlusions in several vessels. Her past medical history includes hypertension, abdominal aortic aneurysm, prior cerebrovascular accident, left nephrectomy, chronic obstructive pulmonary disease, and gastroesophageal reflux disease. The documented diagnosis was multi-vessel coronary artery disease with anterior ischemia. She underwent coronary artery bypass grafting (CABG) times four on 2108-10-29 and had an uncomplicated postoperative course, with extra ICU monitoring due to her COPD. At discharge, she was stable, ambulatory at level three, and her incision was clean and intact. The treatment plan included discharge to a rehabilitation facility, continuation of cardiac and supportive medications, and follow-up with her surgeon in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain that radiates to the back and jaw. The pain is described as a pressure sensation, rated 6 out of 10 in severity, mostly occurring at rest without clear triggers, and has persisted for a few days without changes in intensity or frequency. The discomfort is centered in the chest and spreads, with no associated shortness of breath, sweating, lightheadedness, or relief from changing position or deep breathing. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the pressure-like chest pain with radiation and absence of other concerning symptoms. The assessment was that the chest pressure with radiation could be cardiac in origin and warrants prompt evaluation, though other causes like muscle strain or acid reflux were considered less likely due to lack of triggers. The doctor recommended the patient get checked today to rule out cardiac causes and advised seeking emergency care if symptoms worsen or new symptoms develop.
+The patient is an adult presenting with chest pain as the chief complaint. The pain is described as a pressure in the center of the chest, rated 6/10 in severity, radiating to the back and jaw, and occurring at rest without clear triggers; it began a few days ago and has remained consistent in intensity and frequency. The patient denies associated symptoms such as dyspnea (shortness of breath), diaphoresis (sweating), or lightheadedness, and reports that positional changes or deep breaths do not affect the pain. No relevant medical history, medications, or allergies were specified. The clinical impression documented by the doctor is concern for possible cardiac etiology due to the nature and radiation of the chest pressure, though other causes like muscle strain or acid reflux are also considered less likely due to lack of typical triggers. The treatment plan includes prompt evaluation to rule out cardiac causes, with instructions to seek emergency care if symptoms worsen or new symptoms such as dyspnea, nausea, sweating, or syncope develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.948
-- **Similarity Label**: N/A
+- **STS Score**: 0.453
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

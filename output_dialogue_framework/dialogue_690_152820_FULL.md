@@ -89,16 +89,21 @@ Do you have any questions
 
 ## EHR Summary
 
-The patient is a 72-year-old male presenting with a chief complaint of pain on swallowing (odynophagia) and dysphagia for both solids and liquids for three weeks, along with increased hoarseness and secretions over the past three days. He also reported an episode of choking the night before admission and denied headache or other symptoms. His relevant history includes noninsulin dependent diabetes mellitus with neuropathy, chronic renal insufficiency, coronary artery disease, peripheral vascular disease, hyperlipidemia, bilateral cataracts, esophageal ring, and hiatal hernia; he recently underwent a right lower molar extraction one week prior to admission. Medications on admission included glyburide, gemfibrozil, toprol, lasix, lipitor, plavix, aspirin, and zantac; he is allergic to codeine and morphine sulfate. On physical examination, he was alert and oriented, afebrile, with stable vital signs; notable findings included slight erythema and ecchymosis in the right oropharynx and slight cervical adenopathy. The documented diagnosis is not specified in the provided note. The treatment plan and specific recommendations are not documented in the excerpt provided.
+The patient is a 72-year-old male presenting with a three-week history of odynophagia (pain on swallowing), dysphagia for solids and liquids, and increased hoarseness over the past three days. He also reported increased secretions and an episode of choking the night before admission, with recent right lower molar extraction one week prior. His medical history includes noninsulin dependent diabetes mellitus with neuropathy, chronic renal insufficiency, coronary artery disease, peripheral vascular disease, hyperlipidemia, bilateral cataracts, esophageal ring, and hiatal hernia; he is allergic to codeine and morphine sulfate. On examination, there was pharyngeal erythema and ecchymosis, swelling at the base of the tongue, and marked supraglottic edema with airway narrowing. Laboratory studies showed leukocytosis and elevated creatinine; CT scan confirmed supraglottitis with airway narrowing. The documented diagnosis was supraglottitis. Treatment included intravenous Decadron, clindamycin, levofloxacin, NPO status initially, ICU monitoring, and later transition to oral intake as symptoms improved. At discharge, he was stable, tolerating a regular diet, and prescribed a 14-day course of clindamycin with follow-up arranged in 2–3 days.
+
 
 ## Dialogue Summary
 
-The patient presented with pain when swallowing that has been worsening over the past few days. Symptoms include discomfort with both solids and liquids, moderate pain rated at 6/10, increased hoarseness, occasional difficulty swallowing, sensation of food or drinks getting stuck, and increased secretions; cold drinks worsen the pain, while position and specific foods do not affect it. The discomfort is localized to the throat and has not caused sleep disturbance; no fever, cough, or chest involvement was reported. No relevant medical history, medications, or allergies were mentioned. The doctor noted that the symptoms are consistent with common throat issues such as inflammation from viral infection, acid reflux irritation, or mild injury, and found the absence of fever or cough reassuring. The assessment was that this is likely a benign, temporary issue but advised monitoring for worsening difficulty swallowing or new concerning symptoms. The doctor recommended sipping warm liquids, avoiding cold or spicy foods, resting the voice, and staying hydrated, with follow-up if symptoms persist or worsen.
+The patient is an adult presenting with pain on swallowing (odynophagia) as the chief complaint. Symptoms have been worsening over several days and include moderate throat pain (rated 6/10) with both solids and liquids, hoarseness, increased secretions, occasional choking, and intermittent sensation of food or liquid getting stuck; there is no fever, cough, or nocturnal awakening. The discomfort is localized to the throat and is aggravated by cold drinks, with no relief from positional changes or specific foods. Relevant medical history, medications, and allergies are not specified. The clinical impression is likely benign throat irritation or inflammation, possibly due to viral infection, acid reflux, or mild mucosal injury, with more serious causes considered less likely due to the absence of alarming symptoms. The treatment plan includes supportive care: sipping warm liquids, avoiding cold or spicy foods, resting the voice, and maintaining hydration. The patient was advised to monitor for worsening symptoms such as increased difficulty swallowing, inability to eat or drink, severe pain, fever, or shortness of breath, and to seek further evaluation if these occur. Follow-up was recommended if symptoms do not improve within a week or worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.725
+- **Model Used**: general
+- **Text1 Length**: 170 words
+- **Text2 Length**: 189 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ Let me know if you have questions about any of this, or if there’s anything el
 
 ## EHR Summary
 
-The patient is a 41-year-old female presenting after an abnormal electrocardiogram was found during a routine physical examination. She was asymptomatic at presentation, with no acute distress or cardiopulmonary complaints documented. Her relevant history includes a recent echocardiogram revealing a large atrial septal defect (ASD) with right atrial and ventricular dilation and significant left-to-right shunt. Physical examination was notable for mild bilateral lower extremity edema and mild lordosis due to fallen arches, but otherwise unremarkable. Electrocardiogram showed normal sinus rhythm. The documented diagnosis was a large atrial septal defect. She underwent minimally invasive surgical repair of the ASD during this admission. No additional treatments or recommendations were specified in the note.
+The patient is a 41-year-old female presenting after an abnormal electrocardiogram was found on routine physical examination. She was asymptomatic but referred for further workup, which revealed a large atrial septal defect (ASD) with right atrial and ventricular dilation and significant left-to-right shunt on echocardiogram. Her relevant history includes mild bilateral lower extremity edema and mild lordosis due to fallen arches; no acute distress or other significant findings were noted on physical exam. The documented diagnosis was a large atrial septal defect. She underwent minimally invasive ASD repair without complications, followed by an uneventful postoperative course. Treatment included perioperative Kefzol, initiation of Lopressor, and discharge medications such as Percocet, aspirin, fexofenadine, fluconazone, salmeterol, montelukast, protonix, and colace. She was advised about potential complications and discharged home in good condition with no further physical therapy required.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about an abnormal electrocardiogram found at a routine checkup. They reported no palpitations, chest discomfort, or shortness of breath, but described mild bilateral lower leg swelling that has persisted for at least a few days, with shoes feeling tighter by day's end. The swelling leaves a brief indentation when pressed and is worsened by prolonged standing, but has remained stable without progression; the patient denied nocturnal shortness of breath or needing extra pillows. Relevant history includes fallen arches causing pain when walking; no medications or allergies were mentioned. On examination, the doctor noted pitting edema in both lower legs and absence of other concerning symptoms. The assessment was that the swelling is likely benign and related to gravity-dependent fluid pooling, possibly exacerbated by fallen arches and prolonged standing, with no urgent cardiac findings given the lack of additional symptoms. The doctor recommended elevating the legs, avoiding long periods of standing, and wearing supportive footwear, with instructions to seek care if swelling worsens or new symptoms such as chest pain or shortness of breath develop.
+The patient is an adult presenting with concern about a recently discovered abnormal electrocardiogram (EKG) at a routine checkup. They report no palpitations, chest discomfort, or shortness of breath, but do note mild, bilateral lower leg swelling that leaves a brief indentation when pressed and is worse after prolonged standing. The swelling has been present for at least several days and is associated with tighter shoes by day's end; it does not improve or worsen significantly over time. The patient denies orthopnea or nocturnal dyspnea and attributes walking pain to fallen arches. Relevant history includes fallen arches; no other medical history, medications, or allergies are specified. The clinical impression is that the lower leg swelling is likely benign and related to dependent fluid pooling from gravity, possibly exacerbated by prolonged standing and fallen arches, with no urgent cardiac symptoms identified. The treatment plan includes leg elevation, minimizing prolonged standing, and using supportive footwear, with instructions to seek care if swelling worsens or new symptoms such as dyspnea or chest pain develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.940
-- **Similarity Label**: N/A
+- **STS Score**: 0.472
+- **Model Used**: general
+- **Text1 Length**: 135 words
+- **Text2 Length**: 171 words
+
 
 ## Processing Information
 

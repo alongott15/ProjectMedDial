@@ -97,16 +97,21 @@ Let me know if you have any other questions or concerns before we wrap up today.
 
 ## EHR Summary
 
-The patient is an 82-year-old female presenting with chest pain and epigastric pain that began early on the 3rd and radiated to her back. She reported no nausea, vomiting, appetite changes, or bloody stools. Her relevant history includes atrial fibrillation, hypothyroidism, cataracts, glaucoma, legal blindness, prior mitral valve replacement, and recent C. difficile infection treated with Flagyl; current medications are Coumadin, Digoxin, and Synthroid. On admission, she was afebrile, alert, and oriented, with an irregular heart rhythm, slight right upper quadrant abdominal tenderness, and dry mucous membranes; laboratory findings included a white count of 12.8 and INR of 3.2. The documented diagnosis was cholecystitis, complicated by her history of mitral valve replacement and anticoagulation. She was admitted to the hospital, monitored closely, and evaluated by cardiology. Her pain improved with supportive care. Further management was coordinated due to her complex cardiac history and anticoagulation status.
+The patient is an 82-year-old female presenting with chest and epigastric pain that began on the 3rd and radiated to her back. She reported no nausea, vomiting, appetite changes, or bloody stools, but had slight right upper quadrant tenderness on examination. Her relevant history includes atrial fibrillation (on Coumadin and Digoxin), hypothyroidism (on Synthroid), prior C. diff infection (recently treated with Flagyl), mitral valve replacement, cataracts, glaucoma, and legal blindness. The documented diagnosis was acute cholecystitis, confirmed by imaging and clinical progression. Initial management included percutaneous drainage by interventional radiology, followed by laparoscopic cholecystectomy after careful perioperative anticoagulation management. Postoperatively, she developed an ileus that resolved with conservative measures, and her pain was well-controlled. She was discharged in stable condition on her regular Coumadin regimen, tolerating a regular diet, and instructed to follow up with her primary care provider regarding anticoagulation.
+
 
 ## Dialogue Summary
 
-The patient presented for a general check-in without any specific symptoms or complaints. They reported no changes in energy, appetite, sleep, balance, mobility, mood, memory, urination, bowel habits, or weight; all routines and activities remain unchanged, and there are no new aches, pains, or stiffness. The patient stated they are up to date on blood pressure checks and vaccinations but was unsure about the timing of their last vision and hearing tests; no issues with reading, watching TV, or following conversations were noted. No relevant medical history, medications, or allergies were mentioned during the visit. The doctor found no concerning clinical findings based on the patient's responses and described the patient's overall health as steady and well-maintained. The assessment was that there are no current health concerns or early signs of common conditions. The doctor recommended continuing regular check-ups, staying attentive to any new changes, and scheduling vision and hearing screenings as a proactive measure. The patient agreed to these recommendations and expressed understanding of the plan.
+The patient presented for a general check-in without any specific chief complaint. They reported no new symptoms, including no changes in energy, appetite, sleep, balance, mobility, mood, memory, urination, bowel habits, or weight. The patient is able to perform usual activities and walks without pain or stiffness and has not noticed any issues with vision or hearing. Relevant history includes being up to date on blood pressure checks and vaccinations, but uncertainty about the timing of the last vision and hearing tests. No diagnosis was documented, as the clinical impression was that the patient is maintaining good health with no concerning findings. The treatment plan included a recommendation to schedule vision and hearing screenings as a preventive measure. The doctor also advised the patient to continue regular check-ups, maintain current routines, and monitor for any new symptoms. The patient agreed to proceed with the recommended screenings.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.937
-- **Similarity Label**: N/A
+- **STS Score**: 0.436
+- **Model Used**: general
+- **Text1 Length**: 141 words
+- **Text2 Length**: 146 words
+
 
 ## Processing Information
 

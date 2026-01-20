@@ -182,16 +182,23 @@ Otherwise, rest, hydration, and monitoring your symptoms are key. If things aren
 
 ## EHR Summary
 
-The patient is a 24-year-old woman presenting with diabetic ketoacidosis (DKA). She experienced malaise, multiple episodes of nausea and vomiting, and sharp right then left-sided abdominal pain without diarrhea, fever, or constipation; she also reported chills. Her past medical history includes type 1 diabetes mellitus complicated by diabetic retinopathy and polycystic ovary syndrome, and she has an allergy to erythromycin base. On admission, her vital signs were stable and fingerstick glucose levels decreased from 276 to 128 mg/dL during treatment. The documented diagnosis was diabetic ketoacidosis. She was treated with an insulin drip, intravenous fluids (D5 1/2 NS), morphine, and ondansetron. Upon transfer to the floor, her symptoms had resolved and she denied any further pain. No surgical or invasive procedures were performed during her admission.
+The patient is a 24-year-old woman presenting with diabetic ketoacidosis (DKA). She experienced malaise, multiple episodes of nausea and vomiting, and sharp, non-radiating abdominal pain beginning the previous evening, along with chills but no fever or diarrhea. Her history is significant for type 1 diabetes mellitus complicated by diabetic retinopathy and polycystic ovarian syndrome; she is allergic to erythromycin base. On admission, laboratory findings were consistent with DKA, including hyperglycemia, elevated anion gap, and positive urine ketones. The documented diagnosis was DKA. She was treated with intravenous insulin, aggressive fluid hydration (D5 1/2 NS), and potassium repletion, and transitioned back to her home insulin regimen as her condition improved. At discharge, she was asymptomatic with normalized electrolytes and blood glucose in the 200s. She was advised to continue her home medications and follow up with her clinic within one week.
+
 
 ## Dialogue Summary
 
-The patient presented with sharp abdominal pain, nausea, vomiting, and chills. The abdominal pain initially started on the right side and then moved to the left, was described as sharp but not constant, and did not radiate elsewhere. The patient denied fever, diarrhea, constipation, or changes in bowel movements; drinking fluids and resting provided slight relief, though discomfort persisted. Relevant history includes type 1 diabetes managed with insulin; the patient reported monitoring blood sugars and taking insulin as usual. The doctor noted the absence of high fever, severe tenderness, or persistent vomiting as somewhat reassuring but expressed concern due to the patient's diabetes and presence of chills, which could indicate infection or complications such as diabetic ketoacidosis (DKA). The assessment focused on possible mild gastritis, muscle strain, ovarian-related discomfort, infection, or DKA. The doctor advised close monitoring of blood sugar levels, checking for ketones if sugars run high, watching for warning signs (vomiting, rapid breathing, confusion, severe dehydration), and seeking urgent care if symptoms worsen or new concerning signs develop. Rest, hydration, and ongoing symptom monitoring were recommended; the patient was encouraged to reach out if symptoms changed or worsened.
+The patient is a young adult with type 1 diabetes on insulin, presenting with sharp abdominal pain as the chief complaint. The abdominal pain began on the right side and later moved to the left, is not constant, and does not radiate elsewhere. Associated symptoms include nausea, vomiting, chills, malaise, and feeling wiped out; there is no reported fever, diarrhea, constipation, or changes in bowel movements. Drinking fluids and resting provide slight relief, but the patient remains uncomfortable.
+
+Relevant history includes type 1 diabetes managed with insulin; no medication allergies or other chronic conditions are specified. The clinical impression included consideration of possible infection, diabetic complications (such as diabetic ketoacidosis), or other causes like gastritis or muscle strain, but no definitive diagnosis was documented. The doctor advised close monitoring of blood glucose and ketones, maintaining hydration, and watching for warning signs such as vomiting, blood in stool or urine, rapid breathing, confusion, or severe dehydration. The patient was instructed to seek urgent care if symptoms worsen or new concerning signs develop, and to continue resting and staying hydrated in the meantime.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.980
-- **Similarity Label**: N/A
+- **STS Score**: 0.710
+- **Model Used**: general
+- **Text1 Length**: 140 words
+- **Text2 Length**: 181 words
+
 
 ## Processing Information
 

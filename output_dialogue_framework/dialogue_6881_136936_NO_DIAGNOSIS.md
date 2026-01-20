@@ -87,16 +87,21 @@ Does that make sense? Is there anything else about your symptoms that you’re c
 
 ## EHR Summary
 
-The patient is an 85-year-old female presenting with nausea, vomiting, and chest pain. Her symptoms of chronic chest pain, along with worsening nausea and vomiting, had intensified over the two days prior to admission, and she had not eaten for 24 hours. Her past medical history includes temporal arteritis (previously treated with steroids), abdominal aortic aneurysm, dilated ascending aorta, congestive heart failure, osteoarthritis, depression, and a history of shingles. On admission, she was hypotensive en route to the hospital and was intubated; in the Emergency Department, CT imaging showed no change in her known aortic pathology and EKG was unchanged from baseline. She became normotensive after arrival. The documented clinical impression was management of her acute symptoms in the context of significant cardiac and vascular comorbidities. She was admitted to the intensive care unit for further monitoring and management.
+The patient is an 85-year-old female presenting with nausea, vomiting, and chest pain. Symptoms included chronic chest pain with worsening nausea and vomiting over two days prior to admission, leading to poor oral intake and hypotension requiring intubation en route to the hospital. Her relevant history includes temporal arteritis, abdominal aortic aneurysm, congestive heart failure, osteoarthritis, anemia of chronic disease, and depression; she has no known drug allergies and was on multiple medications including atorvastatin, aspirin, sertraline, and others. The documented diagnoses were dehydration, diarrhea, osteoarthritis, giant-cell arteritis, depression, and anemia. Treatment included fluid resuscitation, transfusion for anemia, discontinuation of NSAIDs due to gastritis risk, pain management with acetaminophen and tramadol, and a seven-day course of Bactrim for urinary tract infection. Cardiac medications were held due to hypotension, and nutrition was supplemented with oral nutritional drinks and intravenous fluids. The patient was extubated successfully, remained hemodynamically stable, and was planned for discharge to a skilled nursing facility with follow-up by her primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort described as a pressure, which has been present for a few days and tends to come and go. The discomfort is mild to moderate in severity, lingers throughout the day, and sometimes moves up into the neck but not the arm. The patient reported no shortness of breath, sweating, or lightheadedness, and noted that resting and changing positions help relieve the discomfort; activity makes it more noticeable, leading to increased rest and avoidance of walking. Relevant history includes arthritis and chronic sinusitis. On assessment, the doctor noted the absence of acute warning signs and suggested the discomfort may be musculoskeletal in nature, possibly related to arthritis, or due to acid reflux, but advised caution due to the possibility of cardiac causes given the location and radiation of symptoms. The doctor recommended continued rest, avoidance of activities that worsen symptoms, and prompt medical attention if symptoms intensify or new warning signs develop. The patient understood and accepted the recommendations.
+The patient presents with chest discomfort as the chief complaint. The discomfort is described as a mild to moderate pressure that began a few days ago, lingers throughout the day, and sometimes radiates into the neck but not the arm. The discomfort is not associated with dyspnea, diaphoresis, or lightheadedness, and is somewhat relieved by rest and changing positions; it becomes more noticeable with activity and has led the patient to take more breaks and avoid walking as much. Relevant history includes arthritis and chronic sinusitis. The clinical impression is that the chest pressure is likely musculoskeletal in origin, possibly related to arthritis, but other causes such as acid reflux are also considered; cardiac causes are not ruled out due to the nature of the symptoms. The patient was advised to continue resting as needed, avoid aggravating activities, and monitor for warning signs such as worsening pain, new shortness of breath, or feeling faint, with instructions to seek prompt medical attention if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.457
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

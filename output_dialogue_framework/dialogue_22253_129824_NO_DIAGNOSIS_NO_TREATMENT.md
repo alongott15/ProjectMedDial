@@ -87,16 +87,23 @@ For now, try to note any patterns or triggers, and let your doctor know about an
 
 ## EHR Summary
 
-The patient is a 66-year-old male presenting with exertional heartburn and fatigue. He was found to have a low hematocrit and an upper GI bleed due to a polyp, which was treated with polypectomy. His past medical history includes paroxysmal atrial fibrillation, peripheral vascular disease, parotid disease, prior GI bleed, transient ischemic attacks, and renal calculi; he has no known drug allergies. On admission, his medications included Lipitor, digoxin, and Protonix, with Coumadin stopped prior to admission. A positive stress test led to cardiac catheterization, which revealed multi-vessel coronary artery disease. The documented diagnosis was multi-vessel coronary artery disease. He underwent a four-vessel coronary artery bypass graft (CABG) and recovered well postoperatively, including successful ventilator weaning and physical therapy assessment. The treatment plan included surgical revascularization, postoperative monitoring, and discharge home with physical therapy recommendations.
+The patient is a 66-year-old male presenting with exertional heartburn and fatigue. He was found to have a low hematocrit and an upper GI bleed due to a polyp, which was treated with polypectomy, after which he stabilized. He subsequently had a positive stress test and was transferred for further cardiac evaluation. His relevant history includes paroxysmal atrial fibrillation, peripheral vascular disease, carotid endarterectomy, GI bleed, transient ischemic attacks, and renal calculi; he has no known drug allergies. Cardiac catheterization revealed multi-vessel coronary artery disease, and he underwent a four-vessel coronary artery bypass graft (CABG). Postoperatively, he recovered well, was weaned from the ventilator, and tolerated physical therapy. The documented diagnoses include paroxysmal atrial fibrillation, peripheral vascular disease, carotid disease status post endarterectomy, GI bleed, questionable TIAs, renal calculi, and coronary artery disease status post CABG x4. He was discharged home in stable condition with medications including Lasix, Lopressor, glipizide, Lipitor, potassium chloride, Colace, aspirin, Zantac, and Percocet, and instructed to follow up with his primary care physician and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with heartburn occurring during physical activity, such as walking or going up stairs. Symptoms have been present for a few weeks and are becoming more noticeable, with heartburn and increased tiredness on exertion requiring the patient to stop and rest until symptoms resolve; these symptoms do not occur at rest and resolve quickly with rest. The patient denied chest tightness, shortness of breath, or sweating, and reported no prior history of similar symptoms. No allergies or medications were mentioned. The doctor noted that the exertional nature and rapid resolution of symptoms with rest could indicate angina rather than typical heartburn, especially given the new onset and impact on daily activities. The doctor advised the patient to avoid strenuous activity, monitor for any worsening or new symptoms (such as chest pain, pressure, shortness of breath, or symptoms at rest), and arrange prompt evaluation with their primary care provider. The patient was instructed to track symptom patterns and report any changes.
+The patient presents with exertional heartburn as the chief complaint. Symptoms include heartburn and increased tiredness that occur only during physical activity (such as walking or climbing stairs), have been present for several weeks, are worsening, and resolve quickly with rest; there is no associated chest tightness, shortness of breath, or sweating. The patient reports having to stop and rest during activities due to these symptoms, which are new and have not occurred previously. No relevant past medical history, medications, or allergies are specified.
+
+The clinical impression is that the exertional heartburn may represent angina (reduced blood flow to the heart) rather than typical gastrointestinal reflux, given its activity-related onset and relief with rest. The patient was advised to avoid strenuous activity and to arrange prompt follow-up with their primary care provider for further evaluation. Additional instructions included monitoring for any new or worsening symptoms such as chest pain, pressure, shortness of breath, or symptoms occurring at rest, and to seek immediate medical attention if these develop. The importance of noting symptom patterns and communicating changes to their doctor was emphasized.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.432
+- **Model Used**: general
+- **Text1 Length**: 170 words
+- **Text2 Length**: 181 words
+
 
 ## Processing Information
 

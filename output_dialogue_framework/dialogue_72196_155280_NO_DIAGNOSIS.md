@@ -87,16 +87,21 @@ Let me know if you have any questions about managing your hydration or if you ne
 
 ## EHR Summary
 
-The patient is a 75-year-old female presenting with nausea, vomiting, and increased watery ostomy output. Symptoms began on [2117-10-26] with intermittent vomiting and decreased oral intake, followed by an increase in ostomy output to 600-800cc daily of watery consistency since [2117-10-27]. She has a history of COPD on home oxygen, chronic prednisone use, diabetes mellitus type 2, hypertension, recent ischemic colitis status post total colectomy with end ileostomy, and chronic tracheostomy. She developed a resistant ESBL E. coli urinary tract infection at rehab on [2117-10-27], which has not yet been treated due to concerns about antibiotic allergies. Physical findings included stable creatinine (0.7), progressive anemia (HCT 23-24, improved to 25 after transfusion), and negative guiac tests. The documented diagnoses include increased ostomy output, nausea/vomiting, and ESBL E. coli UTI. She was empirically started on IV Flagyl on [10-29] despite a negative C. difficile assay and received a unit of PRBC for anemia. Further management of her UTI was pending due to antibiotic allergy considerations.
+The patient is a 75-year-old female presenting with nausea, vomiting, and increased watery output from her ileostomy. Symptoms began several days prior to admission, with ostomy output increasing to 600-800cc daily and associated decreased oral intake; she denied abdominal pain, fever, chills, or shortness of breath. Her medical history includes COPD on home oxygen, chronic tracheostomy, diabetes mellitus type 2, hypertension, diastolic heart failure, and recent total colectomy for ischemic colitis. She was found to have a Clostridium difficile small bowel infection (confirmed by positive stool study) and an ESBL E. coli urinary tract infection. Treatment included discontinuation of metronidazole due to side effects, initiation of oral vancomycin for C. difficile (to be continued until 11/16), and a 10-day course of intravenous meropenem for the UTI (to be completed by 11/9). Her nasogastric tube was removed at her request, with plans to monitor nutritional intake and consider replacement if needed. She was discharged to extended care with instructions for medication adherence and outpatient follow-up with surgery and pulmonary specialists.
+
 
 ## Dialogue Summary
 
-The patient presented with nausea and vomiting occurring most days, prompting the visit. Symptoms have been intermittent but frequent, with vomiting usually once per day and occasionally more; nausea persists after vomiting and does not resolve. The patient reported increased watery ostomy output and difficulty keeping up with it, as well as fatigue and reduced appetite, eating less due to nausea and vomiting. No fever, abdominal pain, dry mouth, or dizziness were noted, but the patient feels tired and sometimes falls asleep during the day. The patient stated that symptoms and ostomy output have worsened over the past week. The doctor assessed that the combination of nausea, vomiting, increased watery ostomy output, and reduced appetite may be causing dehydration and fatigue. The doctor recommended drinking small amounts of fluids frequently throughout the day, such as water, oral rehydration solutions, or broths, and advised seeking care if symptoms like persistent dizziness, confusion, inability to keep fluids down, or significant changes in ostomy output occur.
+The patient presents with nausea and vomiting as the chief complaint. Symptoms include nausea occurring most days, intermittent vomiting (usually once per day but occasionally more), persistent nausea after vomiting, increased watery ostomy output, fatigue, and decreased appetite; these symptoms have been worsening over the past week. The patient denies fever, abdominal pain, dry mouth, or dizziness but reports feeling tired and eating less due to nausea. Relevant history includes the presence of an ostomy. The clinical impression is that the combination of increased watery ostomy output, reduced oral intake, and ongoing gastrointestinal symptoms may be causing dehydration and fatigue. The treatment plan includes advice to increase fluid intake by drinking small amounts frequently throughout the day, using water, oral rehydration solutions, or broths. The patient was instructed to seek prompt care if symptoms such as persistent dizziness, confusion, inability to keep fluids down, or significant changes in ostomy output occur. No new medications or specific diagnoses were documented during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.452
+- **Model Used**: general
+- **Text1 Length**: 169 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

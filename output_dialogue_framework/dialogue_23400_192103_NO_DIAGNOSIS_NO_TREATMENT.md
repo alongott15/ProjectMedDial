@@ -95,16 +95,23 @@ Given everything you’ve described, I’d recommend seeing a healthcare provide
 
 ## EHR Summary
 
-The patient is a 59-year-old man presenting with a chief complaint of sore throat, malaise, and odynophagia for two days. He also reported left neck swelling and tenderness for the past 24 hours, subjective fevers, hoarseness, and recent sick contact with his wife who has an upper respiratory infection. His medical history includes non-insulin dependent diabetes mellitus, hypertension, and hypercholesterolemia; he takes multiple medications including atenolol, Lipitor, Diovan, Norvasc, Vioxx, albuterol, Viagra, and niacin. On physical examination, he appeared tired but was not in respiratory distress; notable findings included left soft palate swelling and uvular deviation to the right, with tenderness of the left floor of the mouth. No diagnosis was explicitly documented in the note. Treatment or specific recommendations were not detailed in the provided text.
+The patient is a 59-year-old man presenting with a two-day history of sore throat, malaise, odynophagia, and recent onset of left neck swelling and tenderness. He reported subjective fevers, hoarseness, and had sick contact with his wife who had an upper respiratory infection; he denied recent dental work or prior neck swelling. His past medical history includes non-insulin dependent diabetes mellitus, hypertension, and hypercholesterolemia; he has no known drug allergies. Physical examination revealed left soft palate swelling with uvular deviation, left submandibular gland enlargement, and airway compromise due to lateral pharyngeal wall swelling. Imaging and endoscopy confirmed a left parapharyngeal and retropharyngeal space phlegmon/cellulitis without abscess formation. The documented diagnosis was left parapharyngeal and retropharyngeal phlegmon/cellulitis. Treatment included intravenous Unasyn, intravenous decadron, humidified oxygen, NPO status, and close airway monitoring in the ICU, followed by discharge on a ten-day course of Augmentin XR. The patient’s condition improved during hospitalization, and he was stable at discharge with outpatient follow-up arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with a persistent sore throat as the chief complaint. Symptoms included throat pain for several days, rated 7/10 in severity, worsened by swallowing (especially food), constant discomfort, increased fatigue, subjective fevers, hoarseness, and swelling/tenderness on the left side of the neck; these symptoms have interfered with eating, sleep, and daily routine, and have remained stable or slightly worsened without improvement. No chills were reported. The patient described noticeable neck swelling and tenderness to touch. The doctor assessed that the constellation of symptoms—significant throat pain, hoarseness, unilateral neck swelling, and lack of improvement—suggests more than mild irritation and may indicate a bacterial or tonsillar infection rather than a typical viral sore throat. The doctor recommended monitoring for worsening signs such as difficulty breathing, inability to swallow liquids, or drooling, which would require urgent attention. Advice included staying hydrated, using warm drinks, throat lozenges, and acetaminophen or ibuprofen for pain relief (if no allergies), and seeking an in-person evaluation soon for further assessment and possible testing. The patient was advised to avoid foods or drinks that worsen discomfort until evaluated.
+The patient is an adult presenting with a chief complaint of a sore throat persisting for several days. Symptoms include throat pain rated 7/10, worsened by swallowing (especially food), persistent discomfort, fatigue, hoarseness, subjective fevers, and swelling with tenderness on the left side of the neck. The sore throat is interfering with eating, sleep, and daily activities, and symptoms have remained the same or worsened slightly, with no improvement noted. Relevant history regarding past medical conditions, medications, or allergies was not specified.
+
+The clinical impression is that the patient may have a significant pharyngitis, possibly bacterial or tonsillar/peritonsillar infection, given the severity, duration, and associated neck swelling. The doctor recommended monitoring for warning signs such as difficulty breathing, inability to swallow liquids, or worsening swelling, which would require urgent attention. Supportive care was advised, including staying hydrated, using warm drinks, throat lozenges, and acetaminophen or ibuprofen if not allergic. The patient was advised to seek an in-person evaluation soon for further assessment and possible diagnostic testing.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.696
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

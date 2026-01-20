@@ -87,16 +87,21 @@ For now, keep a log of when these episodes happen and what you were doing at the
 
 ## EHR Summary
 
-The patient is a 61-year-old female presenting with chest pain status post myocardial infarction and right coronary artery (RCA) stent placement. She reported stuttering substernal chest pain lasting approximately 20 minutes and exertional dyspnea over the past two weeks, with chest pain recurring at rest and resolving with nitroglycerin. Her history includes coronary artery disease with prior stenting, hypertension, hypercholesterolemia, GERD, and a family history of coronary artery disease. On arrival at the outside hospital, EKG showed ST elevations in leads II, III, and aVF, and ST depressions in I, aVL, V1, and V2. The documented diagnosis was acute myocardial infarction. Treatment included heparin, aspirin, beta blocker, Aggrastat, and nitroglycerin drip for symptom relief. She experienced one episode of nausea and vomiting on the floor, but her chest pain resolved without further EKG changes.
+The patient is a 61-year-old female presenting with status post myocardial infarction and right coronary artery (RCA) stent placement. She reported stuttering chest pain lasting approximately 20 minutes and exertional dyspnea over the past two weeks, with chest pain recurring the night prior to admission and again in the early morning, accompanied by dyspnea but without nausea, vomiting, or diaphoresis initially. Her history includes coronary artery disease with prior stenting, hypertension, hypercholesterolemia, GERD, and allergies to penicillin, tetracycline, Rhinocort, and iodine. On admission, she was found to have ST elevations in leads II, III, and aVF, and underwent cardiac catheterization revealing total occlusion of the distal RCA and OM1; successful angioplasty and stenting of the RCA were performed. The documented diagnoses were acute myocardial infarction secondary to total occlusion of the distal RCA, chronic coronary artery disease, and gastroesophageal reflux disease. She was treated with aspirin, heparin, beta blocker, Aggrastat, nitroglycerin drip, and post-procedure medications including aspirin, Plavix, Lipitor, Protonix, Lopressor, and lisinopril. The patient was discharged home in good condition with instructions for follow-up with her cardiologist and primary care physician, and advised on the importance of exercise and symptom monitoring.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent chest pain described as a central chest pressure, which has been more noticeable since a recent stent procedure. Symptoms include moderate chest pressure that comes and goes, is triggered by physical activity such as climbing stairs or doing housework, lasts a few minutes, and improves with rest; the patient also reported shortness of breath with exertion, occasional nausea (especially after chest pain or catheterization), and recent fatigue, but denied sweating or lightheadedness. The patient noted that the discomfort sometimes requires stopping activity. Relevant history includes a recent stent procedure and post-catheterization nausea and vomiting; no medication or allergy information was discussed. No new physical findings were described during the visit. The doctor assessed that the symptoms may indicate the heart muscle is not getting enough blood flow during exertion, which is important given the patient’s cardiac history. The doctor advised avoiding strenuous activity until further evaluation by a cardiologist or primary care provider and emphasized seeking immediate medical attention if symptoms worsen or are accompanied by new signs such as sweating, fainting, or radiating pain. The patient was instructed to keep a log of episodes and associated activities for future review.
+The patient is an adult presenting with intermittent chest pain as the chief complaint. The chest pain is described as a central pressure sensation that is moderate in intensity, comes on with exertion (such as climbing stairs or household activities), and improves with rest; episodes typically last a few minutes. Associated symptoms include exertional shortness of breath, occasional nausea, and recent fatigue; there is no reported sweating or lightheadedness. The patient has a history of a stent procedure and experienced some nausea and vomiting after catheterization. The clinical impression is that the symptoms may represent insufficient blood flow to the heart muscle during activity, possibly angina, especially given the cardiac history. The treatment plan includes avoiding strenuous activity until further evaluation by a cardiologist or primary care provider, monitoring for worsening or new symptoms (such as severe pain, sweating, fainting, or radiating pain), and keeping a log of symptom episodes and triggers. No new medications or interventions were initiated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.628
+- **Model Used**: general
+- **Text1 Length**: 192 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

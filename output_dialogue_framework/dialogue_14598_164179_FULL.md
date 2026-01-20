@@ -87,16 +87,23 @@ For now, let’s focus on keeping your activities moderate and making sure you h
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with recurrent exertional angina. He reported chest pain after walking approximately one quarter of a mile, similar to symptoms experienced prior to his last cardiac intervention, beginning about three weeks before admission. His history is significant for coronary artery disease, prior myocardial infarction, and multiple percutaneous coronary interventions and stenting of the right coronary artery (RCA). Physical examination was notable for clear lungs, regular heart rhythm, and no peripheral edema; laboratory values were within normal limits. Cardiac catheterization revealed significant RCA disease with total occlusion of distal RCA stents and 70% stenosis distal to the stents. The documented diagnosis was recurrent angina due to advanced RCA disease. The patient underwent coronary artery bypass grafting (CABG) times two with left internal mammary artery (LIMA) to the affected vessel. He was maintained on aspirin, Mevacor, atenolol, Imdur, Altace, and Plavix.
+The patient is a 61-year-old male presenting with recurrent exertional angina, characterized by chest pain after walking approximately one quarter of a mile, similar to symptoms experienced prior to his last cardiac intervention. Symptoms began about three weeks prior to admission and were triggered by physical activity. Relevant history includes coronary artery disease status post myocardial infarction, multiple percutaneous coronary interventions, and no known drug allergies; home medications included aspirin, Mevacor, atenolol, Imdur, Altace, and Plavix. The documented diagnosis was status post coronary artery bypass grafting (CABG) times two. The patient underwent CABG with LIMA to the LAD and saphenous vein graft to the PDA, had an uncomplicated postoperative course aside from minor wound drainage treated briefly with vancomycin, and was discharged in good condition. Discharge medications included Lopressor, Lasix, KCL, Colace, aspirin, Mevacor, Tylenol, Percocet, ibuprofen, Imdur, and Plavix. The patient was advised to follow up with his cardiologist in four weeks and his primary care physician in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain occurring during walking, especially after about a quarter mile. The chest pain was described as a tightness rated 5–6 out of 10 in severity, has been present for a few weeks, and is relieved by slowing down or stopping to rest; it has not worsened or become more frequent. The patient denied associated symptoms such as shortness of breath, sweating, or lightheadedness. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted the exertional chest tightness relieved by rest is concerning for possible angina due to reduced oxygen supply to the heart during activity, though the absence of worsening symptoms or additional complaints is somewhat reassuring. The doctor recommended avoiding strenuous activity, keeping activities moderate, and arranging further evaluation with an EKG and possibly a stress test. The patient was advised to seek immediate medical attention if symptoms occur at rest, last longer than usual, or are accompanied by new symptoms such as sweating, nausea, or fainting. The patient understood and agreed to follow the recommendations.
+The patient presents with chest pain as the chief complaint, specifically describing chest tightness that occurs after walking about a quarter mile and resolves with rest. The discomfort has been present for several weeks, is rated 5–6 out of 10 in severity, and is triggered by exertion but not associated with dyspnea, sweating, or lightheadedness. The patient reports needing to slow down or stop during activities but does not require immediate sitting and notes that symptoms have remained stable without worsening. Relevant medical history, medications, and allergies are not specified in the dialogue.
+
+The clinical impression discussed is exertional angina, likely due to reduced oxygen supply to the heart during activity. The treatment plan includes avoiding strenuous activity, arranging further evaluation with an EKG and possibly a stress test, and instructions to seek urgent care if symptoms occur at rest or are accompanied by new warning signs such as sweating, nausea, or fainting. The patient was advised to keep activities moderate and agreed to the plan.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.570
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

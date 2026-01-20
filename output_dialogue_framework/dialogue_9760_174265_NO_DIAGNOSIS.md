@@ -87,16 +87,23 @@ Let me know if you have any questions about what weâ€™ve discussed, or if thereâ
 
 ## EHR Summary
 
-The patient is a 50-year-old male presenting with mechanical lower back pain secondary to a pathologic fracture of L3. Symptoms included lower back pain and lower extremity weakness, with strength deficits more pronounced on the left side and absent knee reflexes. His medical history is significant for multiple myeloma and multiple compression fractures of the lower spine, as well as a left hip lesion. On physical exam, strength was four plus in the right IPs, three in the left, with intact sensation and stable vital signs post-procedure. MRI confirmed a pathologic fracture at L3. The patient underwent embolization of the L3 vertebral body tumor followed by an L2 to L5 fusion with L3 vertebrectomy without complications; he received four units of packed red blood cells intraoperatively. Postoperatively, his neurologic status remained stable, and he began radiation therapy. He was also evaluated by Physical Therapy and Occupational Therapy during his hospital course.
+The patient is a 50-year-old male presenting with mechanical lower back pain due to a pathologic fracture of L3 in the setting of multiple myeloma and multiple compression fractures of the lower spine, as well as a left hip lesion. He reported lower back pain and demonstrated lower extremity weakness, with strength deficits more pronounced on the left side, absent knee reflexes, and mild ankle reflexes. His relevant history includes multiple myeloma and prior embolization of the L3 vertebral body tumor. The documented diagnosis was pathologic fracture of L3 with associated mechanical back pain. Treatment included preoperative embolization, followed by L2 to L5 spinal fusion with L3 vertebrectomy, intraoperative transfusion, and postoperative physical and occupational therapy. He also began radiation therapy to the left hip. During hospitalization, he developed left leg swelling and was found to have a retroperitoneal hematoma, which was managed conservatively after minor bleeding from the drain site. He was discharged in stable condition with follow-up appointments and prescribed Colace, ferrous sulfate, Tylenol, Percocet, and Senna.
+
 
 ## Dialogue Summary
 
-The patient presented with lower back pain as the chief complaint. The pain was described as a dull ache, rated 6 out of 10 at its worst, worsening with movement and interfering with walking and sitting; it developed gradually over several days without injury or changes in activity. The patient also reported persistent swelling in the left leg for several days, which does not improve with rest or elevation and has not changed since onset; no numbness or weakness was noted. No relevant medical history, medications, or allergies were mentioned. On examination, the pain was localized to the center of the lower back and did not radiate to the sides or legs. The doctor assessed that while the back pain could be due to muscle tension or posture, the persistent leg swelling raises concern for possible circulation issues such as a blood clot or vascular problem. The doctor advised the patient to avoid strenuous activity, keep the leg elevated when possible, and monitor for warning signs including increased pain, redness, warmth, or sudden shortness of breath. The patient was instructed to seek prompt medical care if any of these symptoms develop and expressed understanding of the recommendations.
+The patient is an adult presenting with lower back pain as the chief complaint. The pain is described as a dull ache, rated 6 out of 10 at its worst, worsened by movement, and has gradually developed over several days without a specific injury or change in activity. The patient also reports persistent swelling in the left leg for several days, which does not improve with rest or elevation and is not associated with numbness or weakness. The pain is localized to the center of the lower back and does not radiate.
+
+Relevant history of medications, allergies, or chronic conditions was not specified. The clinical impression is that while the back pain could be due to minor causes such as muscle tension, the persistent unilateral leg swelling raises concern for a possible vascular issue, such as a blood clot. The patient was advised to avoid strenuous activity, keep the leg elevated, and monitor for warning signs including increased pain, redness, warmth, or sudden shortness of breath. If these symptoms develop or the swelling worsens, urgent medical attention was recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.482
+- **Model Used**: general
+- **Text1 Length**: 169 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

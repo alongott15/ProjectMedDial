@@ -87,16 +87,23 @@ Let me know if you have any questions or if anything changes before you’re abl
 
 ## EHR Summary
 
-The patient is a 63-year-old male presenting for evaluation of silent ischemia, referred for outpatient cardiac catheterization. He reports no recent chest pain, with only a remote episode of chest and epigastric discomfort in 2183, previously attributed to angina. His history is significant for hypertension, diabetes, peripheral vascular disease, prior silent myocardial infarction, and cerebrovascular accident (CVA) with right eye blindness and right-sided weakness in 2197. Recent stress testing revealed a fixed inferior defect, small anterior defect, diffuse ST-T wave changes at low workload, and shortness of breath during exercise; echocardiogram showed inferior hypokinesis and an ejection fraction of 35-40%. Cardiac catheterization demonstrated an ejection fraction of 40%, fixed inferior akinesis, severe multi-vessel coronary artery disease (90% left vein, 60% LAD, 80% left circumflex, 90% proximal right coronary artery occlusion), and trace mitral regurgitation. The documented diagnosis is silent ischemia with severe coronary artery disease. Treatment details are not specified in the note.
+The patient is a 63-year-old male presenting with silent ischemia, referred for outpatient cardiac catheterization. He reported no recent chest pain but had a remote history of angina and experienced shortness of breath during a recent exercise tolerance test. His medical history includes hypertension, diabetes, prior silent myocardial infarction, cerebrovascular accident (CVA), peripheral vascular disease, and right-sided hernia; he has no known drug allergies. Cardiac catheterization revealed severe multi-vessel coronary artery disease with an ejection fraction of 40%, and he subsequently underwent coronary artery bypass grafting (CABG) times four. The postoperative course was complicated by bleeding requiring re-exploration and temporary use of an intra-aortic balloon pump, but he was successfully weaned from all support and extubated. He developed postoperative atrial fibrillation, managed with amiodarone. At discharge, his condition was stable, and he was prescribed medications including Lasix, potassium chloride, aspirin, Glucophage, Zestril, Pravachol, insulin, amiodarone, Lopressor, and Percocet as needed for pain. Follow-up with cardiology and primary care was advised in one month.
+
 
 ## Dialogue Summary
 
-The patient presented with difficulty catching their breath during an exercise test, which led to increased anxiety about daily activities. They reported sudden onset blindness in the right eye, persistent since onset, along with new weakness predominantly on the right side, and a moderate right-sided headache rated 6 out of 10 without clear triggers or relief. The vision loss has significantly impacted their ability to read, recognize faces, and walk safely. The patient denied any numbness, tingling, or speech difficulties. Relevant history includes prior heart concerns. The doctor noted the acute onset of right eye vision loss, right-sided weakness, and headache, raising concern for a possible vascular event such as a mini-stroke given the cardiac history. The doctor recommended prompt medical assessment with imaging and further tests today, advised rest and fall precautions, and instructed the patient to seek emergency care if new symptoms such as speech changes or worsening weakness develop.
+The patient is an adult presenting with sudden onset vision loss in the right eye, right-sided weakness, and a moderate right-sided headache (rated 6/10), all of which are significantly impacting daily activities such as reading, recognizing faces, and mobility. The patient reports that these symptoms began abruptly and have not improved since onset; there is no associated numbness, tingling, or speech difficulties. The patient also describes dyspnea (shortness of breath) during an exercise test, which has contributed to anxiety about normal activities. Relevant history includes prior heart concerns, but no additional medical history, medications, or allergies are specified.
+
+The clinical impression discussed was a possible vascular event affecting the brain or eye, such as a mini-stroke (transient ischemic attack) or other vascular issue. The physician recommended prompt medical evaluation, ideally the same day, for further assessment including imaging and diagnostic tests. The patient was advised to seek emergency care if new symptoms such as speech difficulties, confusion, severe dizziness, or worsening weakness develop. Additional advice included resting and avoiding activities that could increase fall risk until further evaluation is completed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.464
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 180 words
+
 
 ## Processing Information
 

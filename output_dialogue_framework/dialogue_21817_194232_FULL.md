@@ -87,16 +87,21 @@ Let me know if you have any questions about what we’ve discussed or if there�
 
 ## EHR Summary
 
-The patient is a 71-year-old female presenting with dyspnea on exertion and shortness of breath. She reported increased lower extremity swelling and orthopnea since 10-15, and was found to be hypoxic in the Emergency Department with an oxygen saturation of 87% on 6 liters of oxygen. She denied fevers, chills, chest pain, or gastrointestinal bleeding. Her relevant history includes methicillin resistant Staphylococcus aureus pneumonia, bilateral pneumonia with chest tube placement and decortication, congestive heart failure with an ejection fraction of 40% and wall motion abnormalities, chronic obstructive pulmonary disease, C. difficile infection, gastrointestinal bleed, and acute renal failure. On exam, she was hypoxic and had lower extremity swelling. The documented clinical impression is not explicitly stated in the note. Treatment details are not specified in the provided text.
+The patient is a 71-year-old female presenting with dyspnea on exertion, shortness of breath, hypoxia, and lower extremity swelling. Symptoms began on 10-15 and included orthopnea, with no fevers, chills, chest pain, or rectal bleeding; oxygen saturation was 87% on 6 liters of oxygen in the Emergency Department. Her history is significant for congestive heart failure (EF 40%), chronic obstructive pulmonary disease, prior MRSA pneumonia, bilateral pneumonia with empyema and chest tubes, C. difficile, peptic ulcer disease, and acute renal failure. On admission, she was found to have volume overload/congestive heart failure with transudative left pleural effusion and a small left apical pneumothorax; no evidence of pneumonia was found. The documented diagnoses were acute decompensated congestive heart failure with pleural effusion and acute on chronic renal failure. Treatment included thoracentesis, BiPAP, intravenous then oral diuresis (Lasix), continuation of ACE inhibitor and aspirin, adjustment of insulin regimen for diabetes, and thyroid hormone dose increase. She was discharged on a low sodium, low fat, low sugar diet with fluid restriction, daily weights, and follow-up for TSH and adrenal mass workup. Discharge medications included Lasix, captopril, albuterol and Atrovent inhalers, NPH insulin, regular insulin sliding scale, aspirin, Lipitor, Synthroid, and Protonix; Glucotrol was discontinued due to hypoglycemia and renal impairment.
+
 
 ## Dialogue Summary
 
-The patient presented with swelling in the legs. The swelling had been present for a few days, remained consistent throughout the day, and was not associated with pain; the patient also reported mild dryness in the mouth starting around the same time and noted a few spots of bruising (ecchymosis) on the legs without changes in skin temperature. There was no shortness of breath, cough, chest discomfort, or fever, and daily activities were only mildly affected by the swelling. No relevant medical history, medications, or allergies were mentioned during the visit. On examination, the patient described slightly quieter breath sounds at the bases but denied any respiratory distress. The doctor assessed that the symptoms—leg swelling, mild bruising, and dry mouth without pain or systemic signs—suggest a mild and likely non-urgent issue, possibly related to fluid retention, circulation, mild dehydration, or age-related changes. The doctor recommended leg elevation when sitting, maintaining hydration, and monitoring for new symptoms such as worsening swelling, pain, redness, sudden shortness of breath, or fever; follow-up with the primary doctor was advised if symptoms persist or bruising increases.
+The patient presented with swelling in the legs as the chief complaint. The swelling began a few days ago, remains consistent throughout the day, and is not associated with pain; the patient also reported mild dry mouth and noticed some bruising (ecchymosis) on the legs without changes in skin temperature. There was no shortness of breath, cough, chest discomfort, or fever, and daily activities are only mildly affected by discomfort from the swelling. Relevant history regarding medications or underlying conditions was not specified. The clinical impression was that the symptoms suggest a relatively mild and likely non-urgent issue, possibly related to fluid retention, age-related changes, or medication effects. The treatment plan included recommendations to elevate the legs when sitting, maintain hydration, and monitor for new or worsening symptoms such as increased swelling, pain, redness, sudden shortness of breath, or fever. The patient was advised to seek prompt care if these symptoms develop or to follow up with their primary doctor if there is no improvement or if bruising increases within a week.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.386
+- **Model Used**: general
+- **Text1 Length**: 207 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

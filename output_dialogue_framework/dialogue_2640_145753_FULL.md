@@ -100,3 +100,23 @@ Does that sound reasonable to you? And has your appetite or energy started to im
 ## Processing Information
 
 - **Processing Time**: 454.0s
+
+## EHR Summary
+
+The patient is an 80-year-old female who presented after a mechanical fall in the bathroom. She reported left leg pain following the fall but denied prodromal symptoms, loss of consciousness, head trauma, shortness of breath, or chest pain. Her history is notable for a recent pulmonary embolism on Coumadin therapy and baseline chronic kidney disease. Imaging revealed a displaced spiral fracture of the left tibia and fibula, and she subsequently underwent open reduction and internal fixation after INR normalization. Postoperatively, she developed hypoxemic and hypercarbic respiratory failure likely due to congestive heart failure from aggressive fluid resuscitation, as well as a left lower lobe pneumonia treated with ceftriaxone and azithromycin. She also experienced transient acute kidney injury that improved to baseline. At discharge, her condition was stable, her surgical wound was healing well, and she was instructed to remain nonweightbearing on the left lower extremity and continue physical therapy. She was discharged to a rehabilitation facility with follow-up arranged with orthopedics and her primary care provider.
+
+
+## Dialogue Summary
+
+The patient presents with decreased appetite as the chief complaint. Symptoms have been present for a few days and include poor oral intake, increased tiredness, weakness, intermittent low-grade subjective fevers (without measured temperature), and recent onset of diarrhea. The patient denies nausea, vomiting, sore throat, mouth pain, difficulty swallowing, cough, congestion, chills, or sweating. There is no mention of relevant past medical history, medications, or allergies.
+
+The clinical impression is that these symptoms are likely due to a mild viral illness or minor change in routine, with no evidence of severe infection or other acute pathology. The physician recommends supportive care, including maintaining hydration and trying small, frequent snacks with easy-to-eat foods such as soups, yogurt, or smoothies. The patient is advised to seek medical attention if symptoms worsen (e.g., high fever, confusion, new pain, or inability to drink fluids). Monitoring for improvement over the next few days is suggested.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.326
+- **Model Used**: general
+- **Text1 Length**: 166 words
+- **Text2 Length**: 150 words
+

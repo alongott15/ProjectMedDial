@@ -87,16 +87,23 @@ Let me know if you have questions about what to expect or if there’s anything 
 
 ## EHR Summary
 
-The patient is a 20-year-old female presenting after involvement as an unrestrained passenger in a high-speed motor vehicle accident. She was ejected from the vehicle, found curled in the fetal position, and the vehicle sustained extensive damage. At the scene, she was awake but confused and had no memory of the incident. She has no significant past medical history. Cervical spine immobilization was initiated in the field, and she was transported to the emergency room for further management. No specific diagnosis or additional clinical findings are documented in this note. Treatment included cervical spine immobilization and emergency evaluation.
+The patient is a 20-year-old female presenting after involvement as an unrestrained passenger in a high-speed motor vehicle accident. She was ejected from the vehicle and found curled in the fetal position at the scene, with the vehicle noted to be extensively damaged. On initial evaluation, she was awake but confused and had no memory of the incident. There is no significant past medical history documented. Cervical spine immobilization was applied in the field, and she was transported to the emergency room for further management. The specific diagnosis and treatment plan are not documented in the provided note.
+
 
 ## Dialogue Summary
 
-The patient presented with a subjective fever and feeling "off" for the past couple of days. Symptoms included a general sense of increased warmth (not measured by thermometer), persistent nausea present most of the day, and a couple episodes of vomiting; the fever made the patient feel tired and weak, interfering with daily activities. The patient denied chills, sweating, sore throat, cough, stomach pain, congestion, runny nose, or changes in hearing, but reported a steady sense of fullness in the right ear without pain or muffled hearing. No recent travel, swimming, or altitude changes were noted. The doctor observed mild fever, persistent nausea with occasional vomiting, and steady right ear fullness without other major symptoms. Assessment included possible mild viral infection and mild Eustachian tube dysfunction as explanations for the symptoms. The doctor recommended rest, hydration, and small bland meals, and advised monitoring for warning signs such as severe headache, neck stiffness, persistent vomiting, new hearing loss, or severe ear pain.
+The patient is an adult presenting with the chief complaint of feeling feverish for the past couple of days. Symptoms include a subjective sense of elevated temperature (without measured fever), persistent nausea with occasional vomiting, fatigue, and a steady sense of fullness in the right ear without pain, congestion, or hearing changes. The patient denies chills, sweating, sore throat, cough, stomach pain, recent travel, swimming, or altitude changes. Relevant medical history, medications, and allergies are not specified.
+
+The clinical impression is a mild viral infection possibly accompanied by mild Eustachian tube dysfunction causing ear fullness. The treatment plan includes supportive care: rest, maintaining hydration, and eating small, bland meals as tolerated. The patient was advised to monitor for warning signs such as severe headache, neck stiffness, persistent vomiting, new hearing loss, or severe ear pain and to seek prompt care if these develop. No specific medication or intervention was recommended for the ear fullness at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.909
-- **Similarity Label**: N/A
+- **STS Score**: 0.142
+- **Model Used**: general
+- **Text1 Length**: 98 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

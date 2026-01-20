@@ -87,16 +87,21 @@ Would you be interested in discussing updated treatment options or referrals to 
 
 ## EHR Summary
 
-The patient is a 39-year-old female presenting for elective revision posterior spinal fusion due to progressive kyphoscoliosis. She has a history of multiple previous spinal surgeries for scoliosis, postoperative infection requiring hardware removal, and development of pseudarthrosis in the upper lumbar spine leading to worsening spinal curvature. Her past medical history includes chronic pain issues managed by the Anesthesia Pain service during hospitalization. On admission, she underwent revision posterior spinal fusion from T3 to S1 without intraoperative or postoperative complications. She required a total of 3 units of packed red blood cells perioperatively, and her hematocrit remained stable thereafter. Physical examination findings are not specified in the note. The documented diagnosis was progressive kyphoscoliosis. Treatment included revision spinal fusion, perioperative antibiotics, DVT prophylaxis with TEDS stockings and SCDs, pain management transitioning from IV to oral narcotics, and daily physical therapy with fitting of a new TLSO brace.
+The patient is a 39-year-old female presenting for elective revision posterior spinal fusion due to progressive kyphoscoliosis. She has a history of multiple prior spinal surgeries for scoliosis, postoperative infection requiring hardware removal, and development of pseudarthrosis at a previous osteotomy site. The documented diagnosis was progressive kyphoscoliosis. She underwent revision posterior spinal fusion from T3 to S1 without intraoperative or postoperative complications, aside from receiving 3 units of packed red blood cells perioperatively. Her postoperative course was unremarkable, with stable hematocrit, effective pain management, and no further transfusion needs. She was fitted with a new TLSO brace, ambulated independently, and had full return of bowel and bladder function prior to discharge. Discharge instructions included use of the TLSO brace, activity restrictions (no bending, lifting, pushing, or pulling), oral morphine for pain control, ferrous sulfate supplementation, and arrangements for home nursing and physical therapy follow-up. She was advised to follow up in two weeks or sooner if concerning symptoms arise.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening kyphoscoliosis. They reported chronic back pain rated at 6–7 out of 10 most days, with increased discomfort during sitting for long periods and bending, and some relief with standing; the pain interferes with daily activities, work, mobility, and sleep. The progression of kyphoscoliosis has been gradual over years but has recently accelerated, and the patient denied any numbness, tingling, or weakness in the arms or legs. The patient previously tried physical therapy and exercises without significant improvement. On examination, no neurological deficits were described, and the doctor noted the absence of nerve compression symptoms. The doctor assessed that the kyphoscoliosis is progressively worsening, with pain aggravated by certain positions and activities. Recommendations included re-evaluating the treatment plan, reviewing physical therapy techniques, considering pain management strategies, possible imaging to assess progression, and referral to a specialist if needed; the patient expressed interest in updated treatment options.
+The patient presents with worsening kyphoscoliosis as the chief complaint. They report chronic back pain rated at 6–7 out of 10 most days, with pain aggravated by sitting and bending, and some relief with standing; the pain interferes with daily activities, work, and sleep. The progression of spinal changes has occurred gradually over years but has recently accelerated. There is no reported numbness, tingling, or weakness in the limbs, suggesting no current nerve involvement. The patient has previously tried physical therapy and exercises without significant improvement. The clinical impression is progressive kyphoscoliosis without neurological deficits. The treatment plan includes re-evaluating current management strategies, considering updated physical therapy approaches, pain management options, possible imaging to assess progression, and discussing referral to a specialist. The patient is interested in exploring further treatment options for better symptom relief.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.948
-- **Similarity Label**: N/A
+- **STS Score**: 0.725
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 135 words
+
 
 ## Processing Information
 

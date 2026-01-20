@@ -87,16 +87,21 @@ If you notice any new symptoms—like pain at rest, severe shortness of breath, 
 
 ## EHR Summary
 
-The patient is a 61-year-old female presenting with status post myocardial infarction and right coronary artery (RCA) stent placement. She reported stuttering chest pain lasting approximately 20 minutes and dyspnea on exertion over the past two weeks, with chest pain recurring at rest and associated with exertional symptoms but no nausea, vomiting, or diaphoresis initially. Her medical history includes coronary artery disease with prior stenting, hypertension, hypercholesterolemia, GERD, and a family history of coronary artery disease. On admission, EKG showed ST elevations in leads II, III, and aVF, and ST depressions in I, aVL, V1, and V2. The documented diagnosis was acute myocardial infarction. She was treated with heparin, aspirin, beta blocker, Aggrastat, and nitroglycerin drip, which resolved her chest pain. Recommendations included ongoing cardiac monitoring and continuation of antiplatelet and antianginal therapy.
+The patient is a 61-year-old female presenting with status post myocardial infarction and right coronary artery (RCA) stent placement. She reported stuttering chest pain lasting approximately 20 minutes and exertional dyspnea over the past two weeks, with chest pain recurring the night prior to admission and again in the early morning, accompanied by dyspnea but without nausea, vomiting, or diaphoresis initially. Her history includes coronary artery disease with prior stenting, hypertension, hypercholesterolemia, GERD, and allergies to penicillin, tetracycline, Rhinocort, and iodine. On admission, she was found to have ST elevations in leads II, III, and aVF, and underwent successful angioplasty with stenting of the RCA for total occlusion; chronic OM1 occlusion was collateralized and not treated during this admission. The documented diagnoses were acute myocardial infarction secondary to distal RCA occlusion, chronic coronary artery disease, and gastroesophageal reflux disease. She was treated with aspirin, Plavix, Lipitor, Protonix, Lopressor, and lisinopril, and advised to follow up with her cardiologist and primary care physician. The patient was discharged home in good condition with instructions on exercise and symptom monitoring.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain and associated anxiety. The chest pain was described as central, located behind the breastbone, non-radiating, and rated 6 out of 10 in severity; it is triggered by activity, improves somewhat with rest, and has been present for an unspecified duration without worsening or nocturnal symptoms. The patient also reported shortness of breath during exertion but denied lightheadedness, sweating, palpitations, or rapid heartbeat; the discomfort fluctuates but does not involve skipped beats or fluttering sensations. No relevant past medical history, medications, or allergies were mentioned. On review, there were no reports of severe symptoms such as fainting, chest pain at rest, or diaphoresis. The doctor assessed that the exertional nature of symptoms could be related to cardiac, pulmonary, musculoskeletal, or anxiety-related causes, but emphasized the need to rule out heart-related issues due to exertional triggers. The doctor recommended a basic evaluation including physical exam, vital signs, and possibly an EKG and blood tests, and advised the patient to avoid strenuous activity until further assessment. The patient was instructed to seek immediate care if new severe symptoms develop and agreed to the plan.
+The patient is an adult presenting with chest pain as the chief complaint. The pain is described as central, located behind the breastbone, rated 6 out of 10 in severity, and is brought on by physical activity and relieved somewhat by rest, though it does not resolve completely. The patient also reports exertional shortness of breath but denies palpitations, dizziness, sweating, or nocturnal symptoms; the discomfort fluctuates but does not involve skipped heartbeats or fluttering sensations. Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression is that the symptoms could be related to cardiac, pulmonary, musculoskeletal, or anxiety-related causes, but exertional onset raises concern for possible heart involvement. The treatment plan includes a basic evaluation with physical examination, vital signs, and possibly an EKG and blood tests to assess cardiac function. The patient was advised to avoid strenuous activity until further evaluation and to seek immediate care if severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.525
+- **Model Used**: general
+- **Text1 Length**: 177 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

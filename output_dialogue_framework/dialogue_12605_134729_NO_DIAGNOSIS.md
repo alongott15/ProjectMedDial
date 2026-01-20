@@ -87,16 +87,21 @@ Let me know: how much is this affecting your day-to-day life right now? Are you 
 
 ## EHR Summary
 
-The patient is a 29-year-old female presenting with postoperative complications following a right dorsal foot exostectomy. She developed erythema, purulent drainage, and wound dehiscence one week after surgery, with subsequent fever (temperature up to 39.0°C) and leukocytosis (WBC 16.6). Her wound culture grew Staphylococcus aureus. She has no significant past medical history or drug allergies and does not smoke. On examination, she was in no apparent distress, with a right foot ulcer measuring 6 by 4 centimeters. The documented diagnosis was status post right dorsal foot exostectomy with postoperative cellulitis and dehiscence. Treatment included incision and drainage of the right foot wound with VAC placement, administration of Vancomycin and Clindamycin, and a parascapular fascia-cutaneous free flap with split-thickness skin graft to the right lower extremity wound.
+The patient is a 29-year-old female presenting with postoperative cellulitis and wound dehiscence following a right dorsal foot exostectomy. She developed erythema, purulent drainage, and fever (temperature up to 39.0°C) one week after surgery, with a white blood cell count of 16.6 and wound cultures positive for Staphylococcus aureus. Her past medical history is unremarkable, and she has no known drug allergies. The documented diagnosis was status post right dorsal foot exostectomy with postoperative cellulitis and dehiscence. Treatment included intravenous antibiotics (Vancomycin, Clindamycin, later Oxacillin), incision and drainage with VAC placement, and subsequent parascapular fascia-cutaneous free flap with split-thickness skin graft to the right lower extremity. She was maintained on bed rest with leg elevation, received anticoagulation (Dextran, then heparin and aspirin), and was later placed in a cast. At discharge, she was prescribed intravenous Ancef for four weeks, Percocet as needed for pain, Colace, and aspirin, with instructions to remain in bed with her leg elevated and to follow up with her physician.
+
 
 ## Dialogue Summary
 
-The patient presented with pain in the right foot that has not improved. Symptoms include spreading redness around a wound, thick yellowish drainage without strong odor, onset of pain a few days ago (pain rated 7/10), fever (but no chills), general malaise, and difficulty walking or moving toes, which has significantly impacted daily activities and ability to work. The patient denied chills but reported feeling generally unwell. No past medical history, medications, or allergies were mentioned. On examination, the patient described spreading redness and drainage from the wound, with pain exacerbated by movement. The doctor assessed that the symptoms—spreading redness, pain, thick yellow drainage, and fever—suggest a possible infected foot wound. The doctor recommended keeping the area clean and dry, but due to worsening symptoms and systemic signs, advised prompt medical evaluation for possible antibiotics or further intervention. The patient was instructed to seek urgent care if symptoms worsen, such as increased redness, swelling, pain, high fever, or difficulty moving the foot.
+The patient is an adult presenting with right foot pain as the chief complaint. Symptoms include pain rated at 7/10, spreading redness around a wound, thick yellowish drainage without strong odor, onset of fever (but no chills), and general malaise over the past few days. The symptoms have progressively worsened, now significantly impairing ambulation and daily activities. The patient reports difficulty walking, moving toes, and performing basic tasks, and has been unable to go to work. Relevant history regarding chronic conditions, medications, or allergies is not specified. The clinical impression documented by the doctor is a likely infected foot wound, based on spreading erythema, purulent drainage, pain, and fever. The treatment plan includes keeping the area clean and dry, prompt medical evaluation, and likely initiation of antibiotics; urgent care is advised if symptoms worsen or systemic signs develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.650
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 138 words
+
 
 ## Processing Information
 

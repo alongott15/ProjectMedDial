@@ -91,16 +91,21 @@ Let me know if you have any questions about what we’ve talked about or if ther
 
 ## EHR Summary
 
-The patient is a 55-year-old man presenting with intermittent chest pain radiating to the right shoulder for two to three days prior to admission. The chest pain initially occurred with exertion and later woke him at night; he did not use nitroglycerin for relief. His history is significant for prior inferior wall myocardial infarction in 2108 with stenting, percutaneous transluminal coronary angioplasty, peripheral vascular disease, and bilateral femoral bypass. Cardiac risk factors include hypertension, family history, and borderline high cholesterol; he has no known drug allergies. An exercise stress test showed 3/10 chest pain after four minutes with ST depression in leads V4 and V5, which resolved after ten minutes. On examination, he was neurologically intact and had clear lungs. The documented diagnosis was recurrent angina in the setting of known coronary artery disease. He underwent coronary artery bypass grafting (CABG) times three, was managed postoperatively with propofol, phenylephrine, and nitroglycerin, and had stable vital signs and satisfactory recovery.
+The patient is a 55-year-old man presenting with intermittent chest pain radiating to the right shoulder for two to three days prior to admission. The chest pain initially occurred with exertion and later woke him at night; he did not use nitroglycerin for relief. His history is significant for coronary artery disease, prior inferior wall myocardial infarction with stenting, peripheral vascular disease, hypertension, borderline high cholesterol, and family history of cardiac disease; he has no known drug allergies. An exercise stress test showed chest pain and ST depression, and he subsequently underwent coronary artery bypass grafting (CABG) times three. Postoperatively, he remained stable, afebrile, and was extubated on the first day after surgery; his only notable complication was left forearm swelling from radial artery harvesting. The documented diagnosis was coronary artery disease. At discharge, he was stable and prescribed aspirin, Imdur, Lasix, Percocet as needed, potassium chloride, Lipitor, and atenolol.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent chest pain that sometimes radiates to the right shoulder, primarily occurring after physical activity. The chest pain has been present for a couple of weeks, is rated around 6/10 in severity during episodes, and resolves with rest; it does not occur at rest and is not accompanied by shortness of breath, lightheadedness, or sweating. The patient also reported swelling in the left forearm related to a prior arterial procedure and noted increased fatigue and reduced exercise tolerance compared to usual. The patient has a history of heart issues and previously experienced chest pain, but described this episode as somewhat different due to the shoulder radiation. No acute physical findings were discussed during the visit, though the patient mentioned prior right lower lobe rales at a previous checkup. The doctor assessed that exertional chest discomfort in the context of cardiac history could indicate insufficient oxygen supply to the heart during activity and recommended further evaluation. The doctor advised contacting the cardiologist or primary care provider soon for an in-person assessment, possibly including an EKG or stress test, and suggested avoiding strenuous activity until evaluated; urgent medical attention was recommended if symptoms worsen or new symptoms develop.
+The patient is an adult presenting with intermittent chest pain as the chief complaint. The chest pain is described as moderate (rated 6/10), occurs after physical activity, radiates to the right shoulder, and resolves with rest; it has been present for a couple of weeks and is associated with increased fatigue and reduced exercise tolerance. The patient denies dyspnea, lightheadedness, or diaphoresis during episodes but reports swelling in the left forearm from a prior arterial procedure and a history of heart issues, with prior similar but not identical chest pain. The clinical impression is that the exertional chest discomfort may be related to possible cardiac ischemia, given the patient’s cardiac history and symptom pattern. No acute diagnosis was documented. The treatment plan includes advising the patient to contact their cardiologist or primary care provider soon for further evaluation, including possible EKG or stress testing, and to avoid strenuous activity until assessed. The patient was also instructed to seek immediate medical attention if symptoms worsen or new symptoms such as persistent pain, severe shortness of breath, sweating, or nausea develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.974
-- **Similarity Label**: N/A
+- **STS Score**: 0.686
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

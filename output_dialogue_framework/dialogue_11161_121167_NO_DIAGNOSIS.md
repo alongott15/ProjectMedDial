@@ -87,16 +87,21 @@ Let me know if you have any questions about what weâ€™ve discussed, or if thereâ
 
 ## EHR Summary
 
-The patient is an 81-year-old male presenting with shortness of breath after transfer from an outside hospital. Specific details regarding the severity, duration, or triggers of the dyspnea are not documented. Relevant past medical history, current medications, and allergies are not specified in the note. Clinical findings, physical exam results, and diagnostic test outcomes are not provided. The documented diagnosis is not stated in the available text. The treatment plan and specific recommendations are also not included in this excerpt.
+The patient is an 81-year-old male presenting with shortness of breath after transfer from an outside hospital. Specific details regarding the severity, duration, or triggers of the dyspnea are not documented. Relevant medical history, medications, and allergies are not specified in the note. The clinical impression or diagnosis is not explicitly stated. The treatment plan and specific recommendations are also not documented in the provided text.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening shortness of breath. Symptoms included dyspnea that builds up slowly, is worse with activity (such as climbing stairs or walking), but can also occur at rest, a persistent cough producing clear sputum, a scratchy throat, and increased swelling in the legs; the patient denied wheezing, noisy breathing, orthopnea, paroxysmal nocturnal dyspnea, lightheadedness, or fainting. The shortness of breath has limited daily activities and sometimes feels like an inability to get enough air. No specific past medical history, medications, or allergies were mentioned. On review, there were no reports of chest pain or changes in sputum color. The doctor assessed that the combination of symptoms suggests possible fluid retention and reduced lung air exchange, potentially related to heart or lung issues causing congestion and swelling. The doctor recommended daily weight monitoring for sudden increases, elevating the legs when sitting, reducing salt intake, and seeking prompt evaluation if new symptoms such as chest pain, sudden severe shortness of breath, or confusion develop. The patient understood and agreed to follow these recommendations.
+The patient is an adult presenting with the chief complaint of increased shortness of breath. Symptoms include gradually worsening dyspnea that is more pronounced with activity but sometimes occurs at rest, a persistent cough producing clear sputum, and increased swelling in the legs; the patient denies wheezing, chest pain, lightheadedness, or orthopnea, and does not wake at night due to shortness of breath. The dyspnea has begun to limit daily activities, and the patient reports feeling unable to get enough air at times. Relevant history, medications, and allergies are not specified in the dialogue. The clinical impression documented by the doctor is possible fluid retention and reduced lung air exchange, potentially related to heart or lung issues causing congestion. The treatment plan includes daily weight monitoring for sudden increases, elevating the legs when sitting, reducing dietary salt intake, and instructions to seek immediate care for new symptoms such as chest pain, sudden severe shortness of breath, or confusion. The patient was encouraged to report ongoing or worsening symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.760
+- **Model Used**: general
+- **Text1 Length**: 66 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

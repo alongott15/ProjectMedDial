@@ -87,16 +87,21 @@ Let me know if you have any questions or concerns about what we’ve discussed, 
 
 ## EHR Summary
 
-The patient is a 48-year-old male presenting for management of Pneumocystis jirovecii pneumonia (PCP) in the setting of HIV with CD4 count less than 50. He was admitted following a positive bronchoscopic diagnosis of PCP after prior symptoms of dyspnea and cough, though he currently denies fever, chills, cough, or shortness of breath. His past medical history includes HIV, and he is allergic to Bactrim DS. On admission, he had a fever of 101.4°F, heart rate of 108 (improving to 83 after IV fluids), and oxygen saturation of 96% on room air. The documented diagnosis is PCP pneumonia. Initial treatment with IV pentamidine was discontinued due to local infusion reaction (itching and erythema), and antibiotics were changed to clindamycin and primaquine per infectious disease recommendations. The patient was also counseled about bed safety due to fall risk but declined to lower the bed.
+The patient is a 48-year-old male presenting for treatment of Pneumocystis jirovecii pneumonia (PCP) in the setting of advanced HIV/AIDS (CD4 < 50). He was admitted after outpatient bronchoscopy confirmed PCP, though he reported being asymptomatic at admission and denied current fever, cough, or dyspnea; however, he had previously endorsed dyspnea and was febrile (101.4°F) in the emergency department. His past medical history includes HIV/AIDS diagnosed 10 years ago, chronic low back pain, asthma, and a prior episode of pneumonia. The documented diagnosis was PCP pneumonia with secondary diagnosis of AIDS. Due to allergy concerns with Bactrim and reactions to pentamidine, he was treated with clindamycin and primaquine, and facial dermatitis was empirically treated with ketoconazole cream. The patient left the hospital against medical advice after risks were explained, and was discharged on a 21-day course of clindamycin and primaquine, continuation of HAART, and instructed to follow up with infectious disease and dermatology as an outpatient.
+
 
 ## Dialogue Summary
 
-The patient presented with recent onset shortness of breath as the chief complaint, along with ongoing low back pain. The shortness of breath began a few days ago, was initially uncomfortable, but has since improved and resolved; it was not triggered by activity, lying down, or environmental factors. Associated symptoms included chest tightness and a fever of 101.4°F lasting about one day, with no cough, chills, night sweats, or lingering chest discomfort reported. The patient denied leg or ankle swelling, palpitations, or unusual heartbeats, and currently reports normal energy levels and no fatigue. The patient has a history of chronic low back pain but no other relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the episode was brief and self-limited, likely consistent with a mild respiratory or viral illness given the short duration of fever and absence of ongoing symptoms. The doctor advised that no further treatment is needed at this time, recommended staying hydrated and gradually resuming normal activities, and instructed the patient to seek care if symptoms such as shortness of breath, persistent chest pain, severe fatigue, fainting, or swelling recur.
+The patient is an adult presenting with shortness of breath as the chief complaint. The dyspnea began a few days ago, was initially uncomfortable, but has since improved and resolved; it was not triggered by activity or position. Associated symptoms at onset included chest tightness and a fever of 101.4°F lasting about one day, with no cough, chills, night sweats, or ongoing fatigue. The patient also reports chronic low back pain but denies leg swelling, palpitations, or new symptoms. Relevant history includes chronic low back pain; no medication or allergy information was provided. The clinical impression was a brief, self-limited episode likely due to a mild respiratory or viral illness, given the acute onset and resolution of symptoms. No specific treatment was prescribed; the patient was advised to stay hydrated, return to normal activities as tolerated, and monitor for recurrence of symptoms such as shortness of breath, chest pain, severe fatigue, fainting, or swelling. The patient expressed understanding and agreed to seek care if symptoms return.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
+- **STS Score**: 0.442
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

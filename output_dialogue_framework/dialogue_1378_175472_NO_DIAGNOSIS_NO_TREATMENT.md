@@ -87,16 +87,23 @@ Let me know if you have any other concerns or if anything changes in your sympto
 
 ## EHR Summary
 
-The patient is a 60-year-old female presenting with ventilatory failure. She had a two-day history of cough productive of sputum and respiratory fatigue, with increased shortness of breath noted after recent air travel. Her relevant history includes ALS and a prior episode of [syndrome name not specified]. On admission, she required close observation and was started on IV antibiotics, initially managed in the Intensive Care Unit due to her respiratory status. The documented diagnoses were ventilatory failure and expiration. Despite slight improvement, her overall prognosis remained poor. After discussions with her neurologist, palliative care team, and family, the decision was made to transition to comfort measures only. She was made comfortable with Ativan and Morphine and expired on [2123-5-26] with her family present.
+The patient is a 60-year-old female presenting with a two-day history of cough productive of sputum and respiratory fatigue. She also reported increased shortness of breath following recent air travel. Her past medical history is notable for ALS and a prior episode of [syndrome name not specified]. On admission, she was diagnosed with ventilatory failure. She was initially managed in the Intensive Care Unit with close observation and IV antibiotics. Despite slight improvement, her overall prognosis remained poor, and after discussions with her care team and family, a decision was made to transition to comfort measures only. She was made comfortable with Ativan and Morphine and subsequently expired on [2123-5-26].
+
 
 ## Dialogue Summary
 
-The patient presented with increased shortness of breath as the chief complaint. Symptoms included a productive cough with clear to whitish sputum (not yellow or green), increased fatigue especially with activity, and no fever, chills, or chest discomfort beyond fatigue and cough. The symptoms began a few days ago and have gradually worsened, occurring throughout the day without specific triggers, and do not worsen at night or require extra pillows for sleep. No history of fever, colored sputum, or nocturnal symptoms was reported. The doctor assessed that these findings are most consistent with a mild respiratory issue, likely viral bronchitis or mild airway inflammation, and noted the absence of concerning features such as fever, colored sputum, or chest pain. The doctor recommended supportive care including hydration, rest, and possibly using a humidifier, and advised the patient to seek medical attention if symptoms worsen or new symptoms such as fever, yellow/green sputum, chest pain, or resting dyspnea develop. The patient acknowledged understanding of the assessment and plan. The patient's history of ALS was referenced but not further discussed in detail during this encounter.
+The patient presents with increased shortness of breath as the chief complaint. Symptoms include a productive cough with clear to whitish sputum, increased fatigue during activity, and no fever, chills, chest discomfort (other than fatigue), or nocturnal dyspnea; symptoms began gradually a few days ago and have worsened slightly. There are no specific triggers identified, and the cough and dyspnea occur throughout the day. The patient denies colored sputum, chest pain, or orthopnea. Relevant history of ALS is mentioned by the patient, though details are not further specified in this dialogue.
+
+The clinical impression is a mild respiratory issue, likely viral bronchitis or mild airway inflammation, with no signs of serious infection or cardiac involvement. The treatment plan includes supportive care: rest, hydration, and possibly using a humidifier. The patient is advised to seek medical attention if symptoms worsen or if new symptoms such as fever, colored sputum, chest pain, or resting dyspnea develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.732
+- **Model Used**: general
+- **Text1 Length**: 110 words
+- **Text2 Length**: 154 words
+
 
 ## Processing Information
 

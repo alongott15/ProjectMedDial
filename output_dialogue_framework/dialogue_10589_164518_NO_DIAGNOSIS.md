@@ -87,16 +87,23 @@ Let me know if you have any other concerns or if you'd like to talk more about n
 
 ## EHR Summary
 
-The patient is a 76-year-old male presenting with acute onset abdominal pain, ultimately leading to colonic resection for ischemic gut. He reported a six-week history of pruritus, 12-pound unintentional weight loss, dark urine, and light stools prior to admission. His medical history includes autoimmune hepatitis, coronary artery disease, hypercholesterolemia, COPD, hypertension, left carotid occlusion, gastritis, non-insulin dependent diabetes mellitus, Raynaud's phenomenon, cholelithiasis, and idiopathic pleural effusions. On admission, vital signs were stable except for elevated blood pressure (181/98), and laboratory findings included mild leukocytosis, elevated BUN and creatinine, hyperglycemia, and mildly elevated liver enzymes. Imaging showed colonic distention with stool and air in the distal colon. The documented diagnosis was ischemic gut requiring surgical intervention, with underlying autoimmune hepatitis confirmed by liver biopsy. Treatment included colonic resection and ongoing management of his chronic conditions. No drug allergies were reported.
+The patient is a 76-year-old male presenting with acute onset abdominal pain, ultimately leading to colonic resection for ischemic gut. He experienced diffuse abdominal pain radiating to the back, steady in nature, with associated nausea, vomiting, constipation, and no relief with changes in position, eating, or activity. His relevant history includes autoimmune hepatitis, coronary artery disease, COPD, hypertension, non-insulin dependent diabetes mellitus, and multiple other chronic conditions; he was on medications including prednisone, aspirin, atenolol, and coumadin. The documented diagnosis was ischemic bowel requiring right hemicolectomy with diverting ileostomy and mucus fistula. Treatment included IV antibiotics, surgical intervention, ventilatory support postoperatively, and gradual advancement of diet as bowel function returned. On discharge, he was stable, tolerating full oral intake, and discharged home with visiting nursing. Discharge medications included his prior regimen plus levofloxacin and metronidazole for six days. He was instructed to follow up in clinic and bring his occlusion clamp from the mucus fistula to the appointment.
+
 
 ## Dialogue Summary
 
-The patient presented with diffuse abdominal pain as the chief complaint. Symptoms included abdominal discomfort most noticeable across the whole abdomen, sometimes radiating to the back, described as a dull ache that occasionally becomes sharper and comes and goes throughout the day; associated symptoms were pruritus (itching), unintentional weight loss, decreased appetite, constipation, lighter-colored stools, and darker urine. The abdominal pain and itching began suddenly and have persisted for several days; resting helps the pain somewhat, but nothing alleviates the itching, and symptoms are not affected by time of day. No changes in skin color were noted, and no specific medication concerns were discussed. The doctor noted that these symptoms could be related to liver or bile duct dysfunction affecting bile flow. The patient was advised to monitor for new symptoms such as jaundice, fever, or severe pain and to seek prompt evaluation if these occur. The doctor recommended staying hydrated, avoiding fatty foods to reduce digestive discomfort, and using gentle moisturizers and keeping skin cool to help with itching. The patient acknowledged understanding of the assessment and plan.
+The patient presents with a chief complaint of diffuse abdominal pain. The abdominal discomfort is described as a dull ache that sometimes becomes sharper and radiates to the back, with onset several days ago and some relief with rest. Associated symptoms include pruritus (itching), unintentional weight loss, decreased appetite, constipation, lighter-colored stools, and dark urine; the itching is not alleviated by any specific factors. There is no mention of skin changes or jaundice at this time. Relevant medical history, medications, and allergies are not specified in the dialogue.
+
+The clinical impression discussed is possible hepatobiliary dysfunction affecting bile flow, given the combination of symptoms. The patient was advised to monitor for new symptoms such as jaundice, fever, or severe pain and to seek prompt evaluation if these occur. Supportive recommendations included staying hydrated, avoiding fatty foods to reduce digestive discomfort, using gentle moisturizers, and keeping the skin cool to help with itching.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.490
+- **Model Used**: general
+- **Text1 Length**: 158 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

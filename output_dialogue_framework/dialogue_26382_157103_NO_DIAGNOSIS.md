@@ -89,16 +89,21 @@ Would you like to talk more about how these symptoms have been affecting your da
 
 ## EHR Summary
 
-The patient is a 69-year-old female presenting with non-ST elevation myocardial infarction (NSTEMI) as the chief complaint. She experienced an episode of chest tightness at rest lasting two hours, which resolved spontaneously, followed by recurrent chest pain radiating to the right shoulder and neck for two to three hours; she has been chest pain free for three days prior to transfer. She also reported melena for two days but denied other gastrointestinal or urinary symptoms. Her past medical history includes coronary artery disease with prior RCA stent and PTCA of the left circumflex, hypertension, hypercholesterolemia, and a previous myocardial infarction. On transfer, her peak CK MB index was 4.3 and peak CK was 189. The documented diagnosis was non-ST elevation myocardial infarction. Treatment included administration of Nitro Paste, beta blocker (metoprolol), aspirin, heparin, Aggrastat, and continuation of her antihypertensive and lipid-lowering medications.
+The patient is a 69-year-old female presenting with non-ST elevation myocardial infarction (NSTEMI). She experienced chest tightness at rest lasting two hours, which resolved spontaneously, followed by another episode of chest pain radiating to the right shoulder and neck that persisted for two to three hours; she was chest pain free for three days prior to transfer. Her past medical history includes coronary artery disease with prior stenting, hypertension, hypercholesterolemia, and previous myocardial infarction. On admission, laboratory findings and EKG changes were consistent with acute coronary syndrome. The documented diagnoses were coronary artery disease, hypercholesterolemia, and urinary tract infection (UTI). She underwent successful cardiac catheterization with stenting of a 95% mid right coronary artery stenosis and was treated for UTI with antibiotics. Discharge medications included atenolol, aspirin, lisinopril, gemfibrozil, fluvastatin, Plavix (for 28 days), and ciprofloxacin (for six days), with instructions for outpatient follow-up and monitoring for fever.
+
 
 ## Dialogue Summary
 
-The patient presented with chest tightness at rest, which spreads to the right shoulder and neck and has caused anxiety. The chest discomfort is moderate most of the time, occasionally worsening, and episodes last several minutes without clear triggers; resting helps somewhat but does not resolve it completely. Associated symptoms include recent black stools, nosebleeds, a positive stool test for blood, mild fever (up to 101.2°F), burning with urination after catheter removal, and increased fatigue; no shortness of breath or lightheadedness were reported. The patient’s medication list includes Gemfibrozil, Plendil, Hygroton, Naprosyn, Aspirin, Vitamin C, and Fluvastatin, with no recent changes. On assessment, the doctor noted concern for possible gastrointestinal bleeding related to Aspirin and Naprosyn use, given the bleeding symptoms and positive stool test. The doctor advised the patient to avoid further Aspirin and Naprosyn until further evaluation, to stay hydrated and rest, and to seek immediate medical attention if severe pain, vomiting blood, persistent fever, fainting, or worsening symptoms occur. The patient understood and agreed to hold off on these medications as recommended.
+The patient is an adult presenting with chest tightness as the chief complaint. The chest discomfort is moderate, occurs mainly at rest, and radiates to the right shoulder and neck; episodes last several minutes and are not associated with dyspnea or lightheadedness. Additional symptoms include recent black stools, nosebleeds, a positive stool test for blood, a mild fever (up to 101.2°F), mild burning with urination after catheter removal, and increased fatigue. The patient’s medications include Gemfibrozil, Plendil, Hygroton, Naprosyn, Aspirin, Vitamin C, and Fluvastatin, with no recent changes. The clinical impression is concern for possible gastrointestinal bleeding related to Aspirin and Naprosyn use, with chest discomfort possibly linked to GI irritation and anxiety; ongoing internal bleeding or other serious causes are also considered. The treatment plan includes discontinuing Aspirin and Naprosyn pending further evaluation, monitoring for worsening symptoms (such as severe pain, hematemesis, persistent fever, or syncope), and maintaining hydration and rest. The patient was advised to seek immediate medical attention if severe or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.612
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

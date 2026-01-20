@@ -87,16 +87,21 @@ Does that sound reasonable, or is there anything else about your symptoms you’
 
 ## EHR Summary
 
-The patient is a 60-year-old female presenting with ventilatory failure. She experienced a two-day history of cough productive of sputum and respiratory fatigue, with increased shortness of breath noted after recent air travel. Her past medical history is notable for ALS and a prior episode of [syndrome name not specified]. On admission, she was managed in the Intensive Care Unit and received IV antibiotics, but her overall condition remained poor. The documented diagnoses were ventilatory failure and expiration. After discussions with her neurologist, the palliative care team, and her family, a decision was made to transition to comfort measures only. She was made comfortable with Ativan and morphine before passing away on [2123-5-26]. The family was present and care providers were notified.
+The patient is a 60-year-old female presenting with a two-day history of cough productive of sputum and respiratory fatigue. She also reported increased shortness of breath following recent air travel. Her past medical history is notable for ALS and a prior episode of [syndrome name not specified]. On admission, she was diagnosed with ventilatory failure. Initial management included close observation, IV antibiotics, and care in the Intensive Care Unit due to her respiratory status. Despite slight improvement, her overall prognosis remained poor, leading to discussions with neurology, palliative care, and her family. The decision was made to transition to comfort measures only, and she was made comfortable with Ativan and Morphine. The patient expired on [2123-5-26] with her family present.
+
 
 ## Dialogue Summary
 
-The patient presented with a cough productive of clear sputum as the chief complaint. The cough began gradually a few days ago and is not triggered by specific activities or exposures; it occurs randomly throughout the day. Associated symptoms include increased shortness of breath, respiratory fatigue, and needing to take breaks during daily activities, but there has been no fever, chills, chest discomfort, or nighttime symptoms such as waking up coughing or dyspnea while lying down. The patient denied any difficulty sleeping and reported being able to breathe comfortably when lying down. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted the presence of cough with clear sputum, mild shortness of breath, and fatigue without signs of severe infection, suggesting a mild respiratory infection or possible flare-up of a chronic airway issue. The doctor recommended rest, hydration, pacing activity, and monitoring for new or worsening symptoms such as colored sputum, chest pain, fever, or increased shortness of breath. The patient was advised to seek further evaluation if symptoms worsen or persist beyond a couple of weeks.
+The patient presents with a chief complaint of cough producing clear sputum. The cough began gradually a few days ago and is accompanied by increased shortness of breath and fatigue during daily activities, but is not triggered by specific factors and does not worsen at night. The patient denies fever, chills, chest discomfort, or nocturnal symptoms, and reports needing to slow down with household tasks due to fatigue. There is no history of colored sputum or sleep disturbance. The clinical impression is a mild respiratory infection or possible flare-up of a chronic airway issue, given the absence of severe symptoms. The treatment plan includes supportive care with hydration, rest, pacing of activities, and monitoring for new or worsening symptoms such as fever, colored sputum, or chest pain. The patient was advised to seek further evaluation if symptoms persist beyond a couple of weeks or worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.940
-- **Similarity Label**: N/A
+- **STS Score**: 0.647
+- **Model Used**: general
+- **Text1 Length**: 120 words
+- **Text2 Length**: 145 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ For now, focus on rest and gentle hydration. Let me know if you've tried any rem
 
 ## EHR Summary
 
-The patient is a 73-year-old female presenting with nausea, vomiting, diarrhea, and hyperglycemia. Symptoms began after dinner the previous evening, with persistent nausea, non-bloody emesis progressing to dry heaves, brown non-bloody diarrhea, and associated epigastric pain; she was unable to tolerate oral intake. Her home fingerstick glucose readings were in the 500s, which she reports is not unusual, but she did not take her usual Humalog due to inability to eat. Relevant history includes type 1 diabetes mellitus with prior diabetic ketoacidosis (DKA), hypertension, COPD, depression, and an allergy to ACE inhibitors. On admission, laboratory findings showed serum glucose of 1142 mg/dL, bicarbonate 12 mmol/L, anion gap 33, and initial potassium 6.7 mmol/L. The documented diagnosis was diabetic ketoacidosis. Treatment included intravenous fluids, an insulin drip, and calcium gluconate for hyperkalemia, with potassium levels subsequently improving.
+The patient is a 73-year-old female presenting with nausea, vomiting, diarrhea, and hyperglycemia. Symptoms began after dinner the previous evening and included persistent nausea, non-bloody emesis progressing to dry heaves, brown non-bloody diarrhea, and epigastric pain, with inability to tolerate oral intake. She has a history of type 1 diabetes mellitus (with prior DKA), hypertension, COPD, depression, and osteoporosis, and is allergic to ACE inhibitors. On admission, she was found to have severe hyperglycemia (serum glucose 1142 mg/dL), metabolic acidosis (bicarbonate 12, anion gap 33), and acute renal failure; no infectious trigger was identified. The documented diagnoses were diabetic ketoacidosis, acute renal failure, hypokalemia, and osteoporosis. Treatment included intravenous fluids, insulin drip, correction of electrolyte abnormalities, and adjustment of her insulin regimen with specific sliding scale instructions. She was also started on calcium carbonate, vitamin D, and Fosamax for osteoporosis, and discharged in stable condition with follow-up arranged with her endocrinologist.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent nausea and vomiting as the chief complaint. Symptoms have been ongoing for several days, with nausea and vomiting occurring mostly after eating, sometimes resulting in dry heaves even on an empty stomach; the patient is able to sip small amounts of water but struggles to keep fluids down. Additional symptoms include diarrhea a few times daily (brown, no blood or black stool), upper abdominal pain mainly during vomiting, and difficulty eating or drinking, which has led to higher blood sugar and impacted daily activities. The patient denied fever, chills, or blood in stool or vomit, and reported recent concerns about kidney numbers. On assessment, the doctor noted the absence of alarming signs such as fever or blood, but highlighted the risk of dehydration due to ongoing gastrointestinal symptoms. The working diagnosis was likely a viral gastroenteritis or mild digestive irritation. The doctor recommended rest and frequent sipping of clear fluids, monitoring for signs of dehydration or worsening symptoms, and advised seeking prompt medical attention if severe symptoms develop.
+The patient presents with persistent nausea and vomiting as the chief complaint. Symptoms have been ongoing for several days, with vomiting occurring primarily after eating and sometimes as dry heaves when the stomach is empty; the patient is able to tolerate only small sips of water. Associated symptoms include difficulty eating or drinking, several episodes of loose brown stools per day without blood, and upper abdominal pain mainly during vomiting; there is no reported fever or chills. The patient reports that these symptoms are impacting daily activities and causing elevated blood sugar levels; recent abnormal kidney function was also mentioned. The clinical impression is likely a viral gastroenteritis or mild gastrointestinal irritation, with concern for dehydration due to poor oral intake and ongoing diarrhea. The treatment plan includes recommendations for rest and frequent small sips of clear fluids (such as water, broth, or oral rehydration solutions). The patient was advised to monitor for signs of dehydration or worsening symptoms (such as severe abdominal pain, blood in stool or vomit, or high fever) and to seek prompt medical attention if these occur. No new medications or interventions were documented during the visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
+- **STS Score**: 0.547
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 191 words
+
 
 ## Processing Information
 

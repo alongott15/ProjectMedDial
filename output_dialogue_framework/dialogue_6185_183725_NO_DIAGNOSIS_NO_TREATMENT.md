@@ -87,16 +87,21 @@ In the meantime, try to take it easy and avoid activities that bring on the disc
 
 ## EHR Summary
 
-The patient is a 77-year-old female presenting with substernal chest pain and pressure for four days, ultimately diagnosed as a new myocardial infarction. She has a history of coronary artery disease, hypertension, hypercholesterolemia, gastroesophageal reflux disease, and recent PTCA to the right coronary artery. Cardiac catheterization revealed an ejection fraction of 50% with significant occlusions: 80% in the proximal left anterior descending artery, 80% in the first diagonal, and 70–90% in the right coronary artery. The documented diagnosis was unstable angina. She underwent coronary artery bypass grafting x3 on hospital day 3. Postoperatively, she experienced sternal drainage treated briefly with Kefzol, required several transfusions for hematocrit drops, and was diuresed. Physical therapy was initiated during her stay, and she was discharged to a rehabilitation facility.
+The patient is a 77-year-old female presenting with substernal chest pain and pressure for four days, found to have a new myocardial infarction. She has a history of coronary artery disease, hypertension, hypercholesterolemia, gastroesophageal reflux disease, and recent PTCA to the right coronary artery. Cardiac catheterization revealed significant multi-vessel coronary artery disease with an ejection fraction of 50%. The documented diagnosis was unstable angina, for which she underwent coronary artery bypass grafting x3. Postoperatively, she experienced sternal drainage treated briefly with Kefzol, required transfusions for low hematocrit, and was diuresed; her chest tube was discontinued after high output resolved. She was discharged in good condition with no acute problems. The treatment plan included multiple medications: Captopril, Niferex, Lopressor, Protonix, Lipitor, Klonopin, Xalatan, Plavix (for three months), Percocet as needed for pain, Aspirin, Lasix with potassium chloride (for one week), and Colace.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain and pressure located in the middle of the chest, behind the breastbone. The discomfort was described as a pressure or squeezing sensation, rated as a 6 out of 10 at its worst, and was not sharp or burning. Symptoms were triggered by activity such as walking or climbing stairs and eased with rest, typically lasting several minutes during exertion. The patient denied associated symptoms of shortness of breath, sweating, or lightheadedness. Relevant history included coronary artery disease, high blood pressure, and a recent procedure on the right coronary artery three weeks prior; the chest pressure began after this procedure. On examination, no additional physical findings were noted. The doctor assessed the symptoms as likely angina related to exertion in the context of recent coronary intervention and advised that new or persistent chest pressure should be evaluated to rule out complications. The treatment plan included contacting the cardiologist soon to report these symptoms, monitoring for worsening or new symptoms, and avoiding activities that provoke discomfort in the meantime.
+The patient is an adult with a history of coronary artery disease and hypertension, presenting with chest pressure as the main complaint. The chest pressure is described as a squeezing sensation located behind the breastbone, rated 6 out of 10 in severity, and is triggered by physical activity such as walking or climbing stairs; it eases with rest and typically lasts several minutes. The patient denies associated symptoms such as shortness of breath, sweating, or lightheadedness. The chest pressure began after a recent procedure on the right coronary artery performed three weeks ago. The documented clinical impression is angina, likely due to insufficient oxygen delivery to the heart muscle during exertion, especially given the patient’s cardiac history and recent intervention. The physician advised the patient to contact their cardiologist soon for further evaluation and to seek immediate medical attention if symptoms worsen or new symptoms develop. The patient was also instructed to avoid activities that provoke the discomfort in the meantime.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.525
+- **Model Used**: general
+- **Text1 Length**: 141 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

@@ -96,3 +96,21 @@ Let me ask: When you feel wiped out, does resting help you recover your energy, 
 ## Processing Information
 
 - **Processing Time**: 402.5s
+
+## EHR Summary
+
+The patient is a 51-year-old male presenting with shoulder pain. He experienced left shoulder pain, extreme fatigue, nausea, diaphoresis, and increased pain intensity while playing ice hockey, with symptoms not relieved by rest. His past medical history includes coronary artery disease (CAD), hypertension, prior anterior STEMI with stent placement, and syncope; he had stopped all cardiac medications two years prior. On admission, EKG showed ST elevations and echocardiography revealed an ejection fraction of 40% with regional wall motion abnormalities. The documented diagnoses were coronary artery disease and myocardial infarction. He underwent cardiac catheterization with drug-eluting stent placement to the left circumflex artery and was treated with aspirin, clopidogrel, beta blocker, statin, nitroglycerin, and valsartan. The patient was discharged in stable condition with instructions to resume medical therapy, follow up with cardiology, and seek care for recurrent symptoms.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with shoulder pain as the chief complaint. The pain began approximately two days ago, is rated 6 out of 10 in severity, and is localized mainly to the front of the shoulder. The discomfort is aggravated by reaching overhead or behind the back and limits range of motion, but there is no associated swelling, redness, warmth, or joint sounds. The patient also reports persistent fatigue unrelieved by rest, as well as nausea and sweating occurring alongside the shoulder pain. There is no history of fever, chills, sore throat, or cough. Relevant medical history, medications, and allergies are not specified. The clinical impression discussed includes possible soft tissue strain or irritation but notes that the presence of nausea and sweating is atypical for a straightforward musculoskeletal issue; no definitive diagnosis was documented. The doctor advised that rest, ice, and gentle stretching are usually helpful for muscle or tendon injuries but expressed concern about the systemic symptoms and indicated that further evaluation may be necessary.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.505
+- **Model Used**: general
+- **Text1 Length**: 137 words
+- **Text2 Length**: 169 words
+

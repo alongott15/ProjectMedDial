@@ -89,16 +89,21 @@ Would you like more information on what to expect at the hospital or how to mana
 
 ## EHR Summary
 
-The patient is a 48-year-old man presenting with midsternal, pressure-like chest pain radiating to the back, accompanied by shortness of breath, diaphoresis, and nausea. Symptoms began at 11 p.m. the night prior to admission and were similar to previous episodes of anginal chest pain, though this episode included radiation to the back. His relevant history includes a prior myocardial infarction in December 2175, hypertension, borderline diabetes mellitus, and a possible history of coronary artery disease. On arrival, vital signs showed blood pressure 105/73 mmHg, pulse 84 bpm, respiratory rate 21, and O2 saturation 92% on 2 liters; he was in no acute distress. Electrocardiogram at an outside hospital showed split T waves and ST elevations, and cardiac enzymes were elevated (troponin 1.75, CPK 304). The documented diagnosis was acute coronary syndrome with significant coronary artery stenoses and occlusions. Treatment included nitroglycerin, Lasix, morphine for symptom relief, and successful angioplasty with stenting of the LAD and circumflex arteries.
+The patient is a 48-year-old man presenting with acute midsternal, pressure-like chest pain radiating to the back, accompanied by shortness of breath, diaphoresis, and nausea. Symptoms began suddenly the previous night and were similar to prior anginal episodes, with dyspnea on exertion but no orthopnea or edema. Relevant history includes coronary artery disease, prior myocardial infarction (December 2175), hypertension, and borderline diabetes mellitus. On admission, laboratory findings showed elevated troponin and CPK, and ECG demonstrated ST elevations in V1–V5. The documented diagnosis was acute myocardial infarction. Treatment included emergent cardiac catheterization with successful angioplasty and stenting of the LAD and left circumflex arteries, intra-aortic balloon pump support, and initiation of aspirin, Plavix, metoprolol, lisinopril, and atorvastatin. The patient was discharged home in good condition with follow-up arranged in cardiology clinic and instructions provided via interpreter.
+
 
 ## Dialogue Summary
 
-The patient presented with pressure-like chest pain located centrally, sometimes radiating to the back. The pain was rated as 6/10 in severity, occurred with physical exertion, and was accompanied by shortness of breath, sweating, and occasional nausea; episodes lasted a few minutes and resolved with rest, never exceeding 10 minutes or occurring at night. The patient reported a history of coronary artery disease and a prior myocardial infarction in December 2175, with no known lung problems or previous similar symptoms. No physical findings were described during the visit. The doctor assessed the symptoms as concerning for possible angina, given the patient's cardiac history and exertional nature of the pain. The doctor recommended prompt medical evaluation today, advising the patient to contact their cardiologist or go to the emergency department for further testing. Additional advice included avoiding strenuous activity, monitoring symptoms, and seeking emergency care if pain occurs at rest or does not resolve.
+The patient is an adult with a history of coronary artery disease and a prior myocardial infarction (December 2175) presenting with pressure-like chest pain radiating to the back. The pain is rated 6/10 in severity, occurs with physical activity, and is accompanied by shortness of breath, sweating, and occasional nausea; it resolves within a few minutes of rest and has been present for a few days. There is no history of similar prior episodes, lung disease, or nocturnal symptoms. The physician’s clinical impression is possible angina, given the exertional nature of symptoms and cardiac history. The patient was advised to seek prompt medical evaluation today—either by contacting their cardiologist or going to the emergency department—for further assessment and testing. Recommendations included avoiding strenuous activity, monitoring symptoms, and seeking emergency care if symptoms worsen or occur at rest. No new medications or interventions were initiated during the visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.983
-- **Similarity Label**: N/A
+- **STS Score**: 0.676
+- **Model Used**: general
+- **Text1 Length**: 135 words
+- **Text2 Length**: 147 words
+
 
 ## Processing Information
 

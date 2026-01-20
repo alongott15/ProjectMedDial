@@ -87,16 +87,21 @@ Does that sound like a good plan to you?
 
 ## EHR Summary
 
-The patient is a 72-year-old male presenting for catheterization with a primary complaint of decreased mental status. He reported shortness of breath and dyspnea on exertion, and was found to have acute renal failure (creatinine 1.8), oxygen desaturation to 82%, and a slight troponin elevation (0.26). His past medical history includes coronary artery disease with prior CABG and stenting, diabetes mellitus, cervical disease, and chronic narcotic use for pain. Physical findings included mild congestive heart failure on chest x-ray, severe pulmonary hypertension on catheterization (PA pressure 58/26, mean wedge 37%), and marginal oxygenation with elevated pCO2. The documented diagnosis was congestive heart failure with acute exacerbation and severe pulmonary hypertension. Treatment included diuresis with IV Lasix (100 mg, 2 L negative balance), Nitroglycerin drip, Nutracort, empiric antibiotics (Ceftriaxone), and Narcan for possible narcotic effect. The patient’s hemodynamics improved with these interventions.
+The patient is a 72-year-old male presenting for catheterization and management of congestive heart failure. He experienced decreased mental status, acute renal failure (creatinine 1.8), shortness of breath, dyspnea on exertion, and paroxysmal nocturnal dyspnea; oxygen saturation dropped to 82% during hospitalization. His past medical history includes coronary artery disease (status post CABG and PTCA/stenting), diabetes mellitus, chronic cervical stenosis (post-fusion), narcotic dependence, depression, and glaucoma; allergies include bee sting, Lipitor, and Neurontin. On admission, he was found to have evidence of congestive heart failure with elevated cardiac filling pressures, severe pulmonary hypertension, and a reduced ejection fraction (25-30%). The documented diagnoses were congestive heart failure, coronary artery disease (status post interventions), diabetes mellitus, chronic cervical stenosis, chronic narcotic dependence, depression, and glaucoma. Treatment included diuresis with IV Lasix and Bumex, initiation and titration of Captopril and Imdur, continuation of metoprolol and aspirin, sliding scale insulin for diabetes, inhaled Solu-Medrol and albuterol for pulmonary symptoms, methadone for pain control, and bowel regimen for constipation. He remained afebrile with negative cultures during his stay and was discharged in good condition. Follow-up with his cardiologist was arranged to optimize heart failure management and monitor CT findings of mediastinal lymphadenopathy.
+
 
 ## Dialogue Summary
 
-The patient presented for a general check-in without any specific complaints. They denied any changes in energy, appetite, sleep, mood, activity tolerance, or ability to perform regular activities and exercise. The patient also reported no recent cough, fever, headaches, stomach upset, changes in blood pressure or heart rate, swelling in the legs or ankles, falls, or balance issues. No relevant medical history, medications, or allergies were mentioned during the visit. On review, there were no abnormal clinical findings described by the patient or noted by the doctor. The doctor assessed that the patient is currently well with stable health and no new symptoms. The doctor recommended scheduling a routine appointment for preventive screening, including basic lab work and vital sign checks, to monitor for common conditions that may not cause symptoms. The patient agreed to this plan and was advised to report any new symptoms or changes before the scheduled appointment.
+The patient is an adult presenting for a routine wellness check without any specific chief complaint. They report no new symptoms, including no changes in energy, appetite, sleep, mood, activity tolerance, or mobility, and deny recent cough, fever, headaches, stomach upset, blood pressure changes, heart rate changes, or swelling. The patient also denies any recent falls or balance issues and has not had any recent check-ups or lab work in the past year. There is no relevant medical history, medications, or allergies documented in this encounter. The clinical impression is that the patient is currently well with stable health and no acute concerns. The doctor recommended scheduling a routine appointment for preventive screening, including basic lab work and vital sign checks. The patient agreed to this plan and was advised to report any new symptoms or changes before the scheduled appointment.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.937
-- **Similarity Label**: N/A
+- **STS Score**: 0.413
+- **Model Used**: general
+- **Text1 Length**: 197 words
+- **Text2 Length**: 141 words
+
 
 ## Processing Information
 

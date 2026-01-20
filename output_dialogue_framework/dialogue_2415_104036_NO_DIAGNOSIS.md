@@ -98,3 +98,21 @@ Let me know if you have any questions about what we've discussed, or if anything
 ## Processing Information
 
 - **Processing Time**: 291.8s
+
+## EHR Summary
+
+The patient is a 66-year-old man presenting with substernal chest pain. He experienced chest pain at his rehabilitation facility, was given three sublingual nitroglycerins, and was found to have ST elevations on ECG with hypotension (BP in the 80s/50s). His history includes multiple sclerosis, deep venous thrombosis status post inferior vena cava filter, hypertension, and chronic gastrointestinal bleeding; he has no known drug allergies. Cardiac catheterization revealed severe multivessel coronary artery disease with a 99% LAD stenosis, 95% distal circumflex stenosis, and 90% mid-right coronary artery lesion; LAD and circumflex were stented initially, complicated by ventricular fibrillation (requiring defibrillation) and distal aortic dissection, and the right coronary artery was stented in a subsequent procedure. The documented diagnoses were myocardial infarction, coronary artery disease, hypercholesterolemia, hypertension, multiple sclerosis, and deep venous thrombosis. Treatment included aspirin, beta blocker, ACE inhibitor, Lipitor, Plavix, Coumadin, Lovenox bridging until INR 2–3, blood transfusions for anemia, and continuation of Antivert for multiple sclerosis. The patient was discharged in improved condition to a rehabilitation facility with instructions for daily INR checks and follow-up care.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with shortness of breath as the chief complaint. The dyspnea has been present for a couple of days, began gradually, occurs even at rest, and is worsened by lying flat but relieved by sitting upright. The patient reports significant functional limitation with daily activities and has a productive cough with pink, frothy sputum; there is no chest tightness, leg swelling, dizziness, or confusion. Oxygen saturation is documented at 89% despite supplemental oxygen. The clinical impression is pulmonary edema, likely due to fluid accumulation in the lungs. The treatment plan includes continuing to sit upright, using supplemental oxygen as directed, and monitoring for worsening symptoms such as increased breathlessness, chest pain, or confusion, with instructions to seek emergency care if these occur. No specific medications or additional interventions were documented in this encounter.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.405
+- **Model Used**: general
+- **Text1 Length**: 177 words
+- **Text2 Length**: 138 words
+

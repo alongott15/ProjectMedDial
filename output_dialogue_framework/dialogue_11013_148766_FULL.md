@@ -92,16 +92,23 @@ Does that make sense? Is there anything else about these symptoms you’d like t
 
 ## EHR Summary
 
-The patient is a 76-year-old female presenting with worsening symptoms of coronary artery disease. She recently had a positive stress test and underwent cardiac catheterization, which revealed 90% left main and three-vessel coronary artery disease with an ejection fraction of 63%. Her past medical history includes coronary artery disease, questionable transient ischemic attack, hypercholesterolemia, gastroesophageal reflux disease, prior endocarditis, upper gastrointestinal bleed due to aspirin, diverticulosis, colon polypectomy, chronic back pain, bilateral cataract extraction, negative breast biopsy, and tonsillectomy. Preoperative medications included aspirin, atenolol, Zantac, Prevacid, Lipitor, Colace, Integrilin, and heparin. She has allergies to prednisone (rash), Vioxx, Robaxin, Celebrex, and amlodipine. On admission, carotid ultrasound showed no significant stenosis. The documented diagnosis was severe left main and three-vessel coronary artery disease. The treatment plan was transfer for coronary artery bypass grafting.
+The patient is a 76-year-old female presenting with worsening symptoms of coronary artery disease. She experienced increased cardiac symptoms, had a positive stress test, and was found to have 90% left main and three-vessel coronary artery disease on cardiac catheterization, with an ejection fraction of 63%. Her past medical history includes coronary artery disease, hypercholesterolemia, gastroesophageal reflux disease, prior endocarditis, and a history of upper gastrointestinal bleed due to aspirin, among others. During admission, she underwent coronary artery bypass grafting times three but developed intraoperative hypotension and right ventricular dysfunction requiring inotropic and vasopressor support, as well as an intra-aortic balloon pump. Postoperatively, she experienced episodes of atrial fibrillation, hyponatremia attributed to vasopressin, and right thigh wound dehiscence at the vein harvest site. The documented diagnoses were coronary artery disease, status post coronary artery bypass graft times three, and right thigh wound dehiscence. Treatment included surgical revascularization, management of postoperative complications (including wound care and correction of hyponatremia), and discharge medications such as aspirin, amiodarone, Lasix, potassium chloride, Lopressor, and Tylenol with codeine; Lipitor was held due to patient intolerance. She was discharged in good condition to a rehabilitation facility with follow-up arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with recent loose stools and ongoing drainage around the right ankle and calf. The loose stools have been bothersome but have not interfered with daily activities, and the drainage has persisted for a few weeks without changes in color, odor, or amount. The patient denied increased swelling, redness, tenderness, fever, chills, or fatigue, and noted that prolonged standing worsens the drainage, while walking or wearing shoes does not. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted stable drainage without signs of infection and described the loose stools as likely mild and self-limited. The doctor recommended keeping the ankle area clean and dry, avoiding prolonged standing, staying hydrated, and following a bland diet for a few days. The patient was advised to monitor for new swelling, redness, warmth, fever, or worsening symptoms and to report any changes if they occur.
+The patient presents with loose stools and ongoing drainage from the right ankle and calf as the main complaints. The loose stools have been bothersome but have not limited daily activities, and the patient reports no associated fever, chills, or fatigue. The drainage around the right ankle and calf has persisted for a few weeks without changes in color, odor, or amount, and is not accompanied by increased swelling, redness, or tenderness; standing for long periods worsens the drainage. Relevant history regarding medications or chronic conditions is not specified.
+
+The clinical impression is that the persistent lower leg drainage may be related to chronic skin changes or circulation issues, and the loose stools are likely mild and self-limited. The treatment plan includes keeping the affected ankle area clean and dry, avoiding prolonged standing, maintaining hydration, and following a bland diet for loose stools. The patient is advised to monitor for new or worsening symptoms such as swelling, redness, warmth, fever, or lack of improvement, and to report these if they occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.918
-- **Similarity Label**: N/A
+- **STS Score**: 0.224
+- **Model Used**: general
+- **Text1 Length**: 193 words
+- **Text2 Length**: 171 words
+
 
 ## Processing Information
 

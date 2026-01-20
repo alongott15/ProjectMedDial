@@ -188,16 +188,23 @@ Let me know if you have questions about specific self-care steps or warning sign
 
 ## EHR Summary
 
-The patient is a 60-year-old male presenting with chest pain. He experienced sudden onset of dull chest ache that increased with inspiration and was relieved by sitting forward, following three days of upper respiratory infection symptoms (cough, rhinorrhea, sore throat). The chest pain recurred and intensified throughout the day but was not associated with exertion, dyspnea, diaphoresis, nausea, or vomiting. He has no prior medical history and no documented medication allergies. On arrival to the emergency department, he was found to be in atrial fibrillation with a heart rate in the 150s and had a temperature of 99.6°F; ECG later showed atrial flutter and ST elevations in leads I, II, aVL, and V3–V6. The documented clinical impression was atrial arrhythmia with possible ischemic changes. Initial treatment included Lopressor, Cardizem, esmolol drip, sublingual nitroglycerin, aspirin, intravenous morphine, heparin, and Aggrastat. Cardiology was consulted for further management.
+The patient is a 60-year-old male presenting with chest pain. He reported a three-day history of upper respiratory symptoms (cough, rhinorrhea, sore throat) followed by sudden onset of dull, inspiratory chest pain that improved when sitting forward and recurred with increasing intensity throughout the day, without associated dyspnea, diaphoresis, or gastrointestinal symptoms. His past medical history is unremarkable, with no prior medications or allergies, but he has significant tobacco use and a family history of myocardial infarction. On admission, he was found to be in atrial fibrillation with ST elevations on ECG and a small pericardial effusion on echocardiogram. The documented diagnoses were pericarditis with atrial fibrillation. Treatment included Motrin for pericarditis pain, amiodarone and beta-blocker for rate control, anticoagulation with Coumadin and Lovenox, aspirin, and management of bilateral phlebitis with Keflex. He was discharged in good condition with instructions for outpatient follow-up and continued medications.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain, cough, runny nose, and sore throat persisting for a few days. Symptoms were described as mild and manageable, with chest pain causing the patient to slow down and take breaks but not preventing daily activities; rest and fluids provided relief. The patient reported no palpitations, severe shortness of breath, fainting, or new symptoms, and expressed increased anxiety due to a history of heart disease. No physical findings were noted beyond the patient's symptom descriptions. The doctor assessed that the symptoms were most consistent with a mild upper respiratory infection, but emphasized caution given the cardiac history and the need to monitor for cardiac warning signs. The treatment plan included supportive care at home—rest, hydration, and over-the-counter remedies for cough and sore throat—while advising avoidance of decongestants like pseudoephedrine due to potential cardiac effects. The doctor instructed the patient to monitor for worsening chest pain, new breathlessness, fainting, palpitations, or other concerning symptoms and to seek prompt medical attention if these occurred. Regular symptom monitoring and communication with healthcare providers were encouraged.
+The patient is an adult with a significant history of heart disease presenting with several days of mild chest pain, cough, runny nose, and sore throat. The chest pain is described as mild but causes the patient to slow down and take breaks, while the cough and sore throat are bothersome but manageable; symptoms have not worsened and are not associated with palpitations, severe dyspnea, or fainting. The patient reports that rest and fluids help alleviate symptoms, and no new or worsening symptoms have developed during the monitoring period. Relevant cardiac history and current medications were discussed, with specific advice to avoid decongestants like pseudoephedrine due to potential cardiac risks.
+
+The clinical impression is that the symptoms are most consistent with a mild upper respiratory viral infection, though cardiac causes are being carefully considered given the patient’s background. The treatment plan includes supportive care at home (rest, hydration, over-the-counter remedies for cough and sore throat), close monitoring for any warning signs (such as worsening chest pain, severe breathlessness, palpitations, or fainting), and prompt medical attention if these occur. The patient was advised to avoid certain over-the-counter medications that may interact with cardiac conditions and to consult their pharmacist or doctor if unsure. Ongoing communication and symptom monitoring were emphasized as part of the management plan.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.681
+- **Model Used**: general
+- **Text1 Length**: 146 words
+- **Text2 Length**: 215 words
+
 
 ## Processing Information
 

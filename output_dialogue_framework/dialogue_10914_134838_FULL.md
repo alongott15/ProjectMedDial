@@ -87,16 +87,21 @@ Before we wrap up, on a scale of 1-10, how would you rate the discomfort right n
 
 ## EHR Summary
 
-The patient is a 35-year-old male admitted for residual endovascular treatment of a vertebral basilar fenestration aneurysm. He has a history of vertebral basilar junction fenestration aneurysm coiling in 2118, intracranial stent placement three weeks prior, craniotomy for an anterior communicating artery aneurysm in 2119, and occasional reflux disease. On admission, he was awake, alert, oriented, and in no acute distress; physical exam showed clear lungs and regular cardiovascular findings. Postoperatively, he reported some right groin pain, but the site was clean, dry, intact, with positive pedal pulses and no hematoma. He remained neurologically stable with stable vital signs throughout hospitalization. The documented diagnosis was residual vertebral basilar fenestration aneurysm status post coiling and stent placement. Treatment included monitoring in the ICU, transition to the regular floor, and discharge on Plavix 75 mg daily, aspirin 325 mg daily, and Percocet as needed for pain. He was discharged home in stable condition with follow-up arranged in two weeks.
+The patient is a 35-year-old male admitted for residual endovascular treatment of a vertebral basilar fenestration aneurysm. He has a history of vertebral basilar junction fenestration aneurysm coiling in 2118, intracranial stent placement three weeks prior, craniotomy for an anterior communicating artery aneurysm in 2119, and occasional reflux disease. On admission, he was awake, alert, and in no acute distress; physical exam was unremarkable. Postoperatively, he experienced some right groin pain, but the site was clean, dry, and intact with positive pedal pulses and no hematoma. He remained neurologically stable with stable vital signs throughout his hospital stay. The documented diagnosis was residual vertebral basilar fenestration aneurysm status post coiling and stent placement. Treatment included monitoring in the ICU, followed by transfer to the regular floor, and discharge on Plavix 75 mg daily, aspirin 325 mg daily, and Percocet as needed for pain. He was discharged home in stable condition with follow-up scheduled in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with right groin pain. The discomfort has been present for a few days, came on gradually, is localized near the hip crease, and is described as a dull, achy soreness rated 3 out of 10 in severity. The pain is aggravated by movement, especially walking or bending at the hip, and is less noticeable when sitting still; there is no associated swelling, lumps, skin changes, or recent history of heavy lifting or intense exercise. No relevant medical history, medications, or allergies were mentioned. On examination, there were no visible abnormalities reported by the patient. The doctor assessed the symptoms as likely due to minor muscle strain or irritation of tendons or ligaments, noting the absence of alarming features such as swelling or worsening pain. The doctor recommended gentle stretching, avoiding aggravating activities, and using heat or ice for relief, with instructions to monitor for worsening symptoms or new signs such as swelling, bulge, redness, fever, or difficulty moving the leg, and to seek re-evaluation if these occur or if the pain persists beyond another week.
+The patient is an adult presenting with right groin pain as the chief complaint. The discomfort has been present for a few days, is dull and achy (rated 3/10), and is localized near the hip crease where the leg meets the torso. Symptoms are aggravated by movement, especially walking or bending at the hip, and improve with rest; there is no associated swelling, lumps, skin changes, or recent injury. The patient denies recent heavy lifting or intense exercise, and the pain has remained stable without worsening. No relevant past medical history, medications, or allergies were discussed. The clinical impression was mild, localized discomfort likely due to minor muscle strain or tendon/ligament irritation, with no evidence of hernia or acute pathology. The treatment plan included gentle stretching, avoiding aggravating activities, and using heat or ice, with instructions to monitor for worsening symptoms or new findings such as swelling, bulge, redness, fever, or increased pain.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.901
-- **Similarity Label**: N/A
+- **STS Score**: 0.287
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

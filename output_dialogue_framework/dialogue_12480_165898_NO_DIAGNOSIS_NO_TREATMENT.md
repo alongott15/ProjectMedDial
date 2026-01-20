@@ -89,16 +89,23 @@ If you notice any new symptoms like fever, increasing pain, redness spreading fr
 
 ## EHR Summary
 
-The patient is a 60-year-old male presenting with chest tightness, fatigue, and leg tightness with exertion for several months. Symptoms were chronic and exertional in nature. Relevant history includes right-sided heart failure, mitral regurgitation, diabetes, hyperlipidemia, hypertension, cardiomyopathy, and a significant past smoking history; he is allergic to procaine. Cardiac catheterization revealed three-vessel coronary artery disease with an ejection fraction of 50% and mild mitral regurgitation. Laboratory findings showed mild anemia (Hgb 10.6), elevated WBC (12.7), and elevated platelet count (479). The documented diagnosis was three-vessel coronary artery disease with associated heart failure and mitral regurgitation. Treatment included coronary artery bypass grafting (CABG) x3 and subsequent sternal wound debridement. Recommendations and further management details are not specified in the note.
+The patient is a 60-year-old male presenting with chest tightness, fatigue, and leg tightness with exertion for several months. Symptoms were chronic and associated with a history of right-sided heart failure and mitral regurgitation. Past medical history includes diabetes mellitus type 2, hyperlipidemia, hypertension, cardiomyopathy, and prior left femoral bypass; he has a documented allergy to procaine. Cardiac catheterization revealed significant multi-vessel coronary artery disease, leading to a diagnosis of coronary artery disease and subsequent coronary artery bypass grafting (CABG) x3, followed by sternal wound debridement due to wound drainage and infection. The hospital course was complicated by episodes of atrial fibrillation, transient renal dysfunction, and sternal wound infection requiring surgical debridement and antibiotics. At discharge, the patient was stable in normal sinus rhythm and prescribed medications including aspirin, metoprolol, amiodarone, cephalexin, diabetes medications, and supportive therapies. Discharge instructions included wound care, activity restrictions, and follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with chest tightness during activity as the chief complaint. Symptoms included chest tightness and fatigue with exertion, worsening over several months, and sometimes requiring the patient to stop and rest; the tightness is triggered by activities such as walking, climbing stairs, or carrying groceries, and is accompanied by increased fatigue and tightness in the legs, but not by shortness of breath, sweating, or lightheadedness. The patient also reported drainage from the chest with a small amount of pus. No specific medical history, medications, or allergies were mentioned. On assessment, the doctor noted that chest tightness and fatigue with exertion could be related to heart or lung conditions, but the presence of drainage with pus suggests a possible localized skin or soft tissue infection or abscess. The doctor recommended that the area of drainage be examined in person soon to check for infection and advised evaluation of heart and lung health due to the progression of symptoms. The patient was instructed to avoid activities that worsen symptoms, keep the drainage site clean, and monitor for new symptoms such as fever, increasing pain, or spreading redness.
+The patient is an adult presenting with chest tightness during activity as the chief complaint. The chest tightness has been ongoing for several months, worsens with exertion such as walking, climbing stairs, or carrying groceries, and is accompanied by increased fatigue and occasional leg tightness; symptoms have gradually progressed and now limit daily activities. The patient denies shortness of breath, lightheadedness, or sweating but reports a small amount of pus-containing drainage from the chest. Relevant medical history, medications, and allergies are not specified.
+
+The clinical impression is that exertional chest tightness and fatigue may be related to cardiac, pulmonary, or musculoskeletal causes, but the presence of purulent drainage suggests a possible localized skin or soft tissue infection (such as an abscess) near the chest wall. The treatment plan includes prompt in-person examination of the drainage site to assess for infection, evaluation of heart and lung health due to progressive exertional symptoms, and advice to avoid aggravating activities and keep the drainage area clean. The patient was also advised to monitor for new symptoms such as fever, increasing pain, or spreading redness.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.500
+- **Model Used**: general
+- **Text1 Length**: 147 words
+- **Text2 Length**: 181 words
+
 
 ## Processing Information
 

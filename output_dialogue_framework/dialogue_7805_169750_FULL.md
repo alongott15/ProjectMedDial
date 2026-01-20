@@ -87,16 +87,21 @@ Let me know if you have any questions or if there’s anything else about your s
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with long-standing right-sided hearing loss. Evaluation revealed a right-sided 1.6 cm acoustic neuroma, for which he underwent a trans-labyrinthine excision. His past medical history includes hypertension and hypercholesterolemia, and he takes Cardizem CD, Lipitor, and Hydrochlorothiazide; he has no known drug allergies. Postoperatively, he experienced mild nystagmus, dizziness, and mild nausea, which resolved over several days. Physical therapy assisted with ambulation during recovery. The documented diagnosis was right-sided acoustic neuroma. He was discharged in stable condition with instructions for follow-up and prescribed Percocet as needed for pain.
+The patient is a 61-year-old male presenting with long-standing right-sided hearing loss. Evaluation revealed a right-sided 1.6 cm acoustic neuroma, and he subsequently underwent an uncomplicated right trans-labyrinthine excision of the tumor. Postoperatively, he experienced mild nystagmus, dizziness, and mild nausea, which improved over several days. His past medical history includes hypertension and hypercholesterolemia, and he takes Cardizem CD, Lipitor, and Hydrochlorothiazide; he has no known drug allergies. The documented diagnosis was right acoustic neuroma status post trans-labyrinthine resection. Treatment included surgical excision of the tumor, postoperative monitoring, physical therapy for ambulation, and discharge medications including Percocet for pain and Colace for bowel management. At discharge, the patient was stable, afebrile, tolerating oral intake, and free of dizziness, with instructions for outpatient follow-up.
+
 
 ## Dialogue Summary
 
-The patient presented with gradual hearing loss on the right side, which has persisted for several days and is impacting their ability to follow conversations. Symptoms include gradual onset hearing loss, occasional dizziness that worsens with head movement, and mild nausea; there is no pain, ringing, ear fullness, pressure, popping, recent illness, allergies, or balance issues reported. The patient denied any trouble walking, falls, or changes with swallowing, yawning, or altitude. No relevant medical history, medications, or allergies were mentioned. The doctor assessed that the pattern suggests possible inner ear involvement, such as a problem with the balance or hearing nerve, or fluid buildup behind the eardrum, though middle ear symptoms were not present. The doctor recommended avoiding inserting anything into the ear, monitoring for new symptoms (severe dizziness, nausea, weakness, facial drooping), and seeing an ENT specialist for a hearing test and examination. The patient was advised to seek prompt medical attention if symptoms worsen or new neurological signs develop.
+The patient is an adult presenting with gradual onset right-sided hearing loss as the chief complaint. The hearing loss developed over several days and has remained stable, making it difficult to follow conversations. Associated symptoms include occasional dizziness, which worsens with head movement, and mild nausea; there is no ear pain, tinnitus, aural fullness, pressure, or recent upper respiratory symptoms. The patient denies balance difficulties, falls, or changes with swallowing or altitude. Relevant history of allergies is noted but not currently active; no recent illnesses are reported. The clinical impression is possible inner ear involvement, such as an issue with the balance or hearing nerve, though other causes like wax buildup or age-related changes are also considered. The doctor recommends avoiding inserting objects into the ear, monitoring for new or worsening symptoms (such as severe dizziness, nausea, weakness, or facial drooping), and arranging evaluation by an ENT specialist for further assessment and hearing testing. The patient is advised to seek prompt medical attention if symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.509
+- **Model Used**: general
+- **Text1 Length**: 123 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

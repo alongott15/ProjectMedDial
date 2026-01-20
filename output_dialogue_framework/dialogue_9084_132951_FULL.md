@@ -87,16 +87,21 @@ Does this plan make sense to you, or do you have any questions about what we've 
 
 ## EHR Summary
 
-The patient is a 53-year-old male presenting with chest pain. He initially experienced chest pain treated with beta blockers, nitrates, and aspirin, followed by a negative stress test, but returned the same day with increased diaphoresis. His past medical history includes type 2 diabetes, hypertension, hypercholesterolemia, and a one pack per day smoking habit; he has no known drug allergies. On re-presentation, ECG showed ST elevations and ST depression in the anterolateral leads, and cardiac catheterization revealed multivessel coronary artery disease. Physical examination was notable for stable vital signs and unremarkable cardiopulmonary and abdominal findings. Laboratory results were within normal limits. The documented diagnosis was multivessel coronary artery disease with acute coronary syndrome. Treatment included nitroglycerin and coronary artery bypass grafting times three.
+The patient is a 53-year-old male presenting with chest pain. He initially experienced chest pain and diaphoresis, with ECG findings of ST elevations and depressions in the anterolateral leads, and was found to have multivessel coronary artery disease on cardiac catheterization. His past medical history includes type 2 diabetes, hypertension, hypercholesterolemia, and a history of smoking; he has no known drug allergies. The documented diagnoses were coronary artery disease status post coronary artery bypass grafting times three, hypertension, hypercholesterolemia, and diabetes. During hospitalization, he underwent successful triple coronary artery bypass grafting and required a blood transfusion for postoperative anemia (hematocrit as low as 22.8%) associated with mild tachycardia and tachypnea on ambulation. At discharge, he remained stable but oxygen dependent, with instructions to use home oxygen to maintain saturations above 93%. Discharge medications included Lopressor, Lasix, potassium supplement, aspirin, Glyburide, Lipitor, Percocet as needed, and Colace. He was advised to follow up with his cardiologist in two weeks and his primary care physician in three weeks, with home health services arranged for monitoring.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. The pain was rated as a 6 out of 10 in severity, worsened by activity such as walking, and improved somewhat with rest but did not resolve completely. Associated symptoms included increased sweating, a racing heartbeat, and shortness of breath during episodes, which typically lasted several minutes and were more pronounced with exertion; the patient also noted oxygen levels dropping below 88% during activity. There was no reported nausea, dizziness, fainting, or pain radiating to the jaw, neck, or left arm. No relevant medical history, medications, or allergies were mentioned. The doctor noted that the chest discomfort was exertional and accompanied by autonomic symptoms, raising concern for possible cardiac causes and recommending further evaluation to rule out heart issues. The treatment plan included avoiding strenuous activity and arranging for diagnostic tests such as an EKG and possibly blood tests or imaging; the patient was advised to seek immediate care if severe pain at rest, fainting, or significant shortness of breath developed.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is rated 6/10 in severity, is triggered by activity (such as walking), and improves with rest but does not resolve completely; episodes last several minutes and are accompanied by sweating, palpitations, and exertional dyspnea, but not by dizziness, syncope, nausea, or pain radiating to the jaw, neck, or left arm. The patient reports that these symptoms began recently and that oxygen saturation has dropped below 88% during exertion. Relevant medical history, medications, and allergies are not specified. The clinical impression is that the symptoms may be cardiac in origin, possibly due to insufficient oxygen delivery to the heart muscle during exertion, though non-cardiac causes are also considered. The treatment plan includes avoiding strenuous activity and arranging further evaluation with an EKG and possibly blood tests or imaging. The patient was advised to seek immediate medical attention if severe pain at rest, fainting, or significant shortness of breath develops.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.501
+- **Model Used**: general
+- **Text1 Length**: 173 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

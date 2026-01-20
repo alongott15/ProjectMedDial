@@ -87,16 +87,21 @@ Let me know if you have any questions about what I’ve explained or if there’
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with substernal chest pain and a positive stress test. Symptoms included chest pain leading to cardiac catheterization, which revealed 70% occlusion of the left main LAD, 80% occlusion of the left circumflex, and 80% occlusion of the RCA. Relevant history includes prior myocardial infarction in 2126, percutaneous transluminal coronary angioplasty in 2124, coronary artery disease, hypercholesterolemia, and tobacco use; home medications included aspirin. On examination prior to discharge, the patient was stable with clear lungs, regular heart rhythm, and a clean, intact surgical incision. The documented diagnosis was severe multi-vessel coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) times three with an uneventful postoperative course aside from a single transfusion for low hematocrit. Discharge medications included Lopressor, Lasix, potassium chloride, aspirin, and Percocet as needed. The patient was advised to follow up in 3-5 weeks and arranged for visiting nurse assistance for wound care and monitoring.
+The patient is a 62-year-old male presenting with substernal chest pain and a positive stress test. Symptoms included chest pain leading to cardiac catheterization, which revealed significant coronary artery disease: 70% occlusion of the left main LAD, 80% occlusion of the left circumflex, and 80% occlusion of the RCA. Relevant history includes prior myocardial infarction in 2126, percutaneous transluminal coronary angioplasty in 2124, hypercholesterolemia, and tobacco use; home medication was Aspirin 81 mg daily. The documented diagnosis was severe multivessel coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) times three (LIMA to LAD, SVG to RPDA and OM1) without complications; postoperative course was uneventful except for a transient low hematocrit managed with transfusion. At discharge, the patient was stable, with clear lungs, regular heart rhythm, and a clean, intact incision. Discharge medications included Lopressor, Lasix, potassium chloride, Aspirin, and Percocet as needed. Follow-up was arranged with visiting nurse for wound care and with the surgeon in 3-5 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with central chest pain described as a pressure sensation, which has been occurring for several days. The pain is rated as a 6 out of 10 in severity, comes on with physical activity such as walking, and is relieved by rest; it does not occur at rest or after eating. The patient denied associated symptoms such as sweating, lightheadedness, or shortness of breath, and localized the pain to the center of the chest behind the breastbone without radiation. No relevant medical history, medications, or allergies were mentioned during the encounter. On assessment, the doctor noted that exertional chest pressure relieved by rest could indicate angina and emphasized the need to rule out cardiac causes, while also acknowledging other possible etiologies such as muscle strain or acid reflux. The doctor recommended avoiding strenuous activity and scheduling a thorough evaluation, including possible EKG or heart tests. The patient was advised to seek immediate medical attention if symptoms worsen, occur at rest, last longer, or are accompanied by new symptoms such as shortness of breath, nausea, or sweating.
+The patient is an adult presenting with central chest pain as the chief complaint. The pain is described as a pressure sensation, rated 6 out of 10 in severity, located behind the breastbone, and is triggered by physical activity but relieved by rest; it has been present for a few days. The patient denies associated symptoms such as shortness of breath, sweating, or lightheadedness. Relevant medical history, medications, and allergies are not specified in the dialogue. The clinical impression discussed is possible angina, given the exertional nature of the chest pain and its relief with rest. The doctor advised the patient to avoid strenuous activity and recommended scheduling a prompt evaluation, including possible EKG or other cardiac tests. The patient was instructed to seek immediate medical attention if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.483
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 134 words
+
 
 ## Processing Information
 

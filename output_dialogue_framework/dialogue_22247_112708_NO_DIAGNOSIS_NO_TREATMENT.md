@@ -63,16 +63,21 @@
 
 ## EHR Summary
 
-The patient is a 55-year-old male presenting with chest discomfort. He reports right-sided pleuritic chest pain, similar to previous symptoms experienced during a prior pulmonary embolism, and had increased bowel movements consistent with an ulcerative colitis flare three days prior to admission, which have since been improving. His medical history includes pulmonary embolism (currently on Coumadin), ulcerative colitis, lower back pain post-laminectomy, appendectomy, cervical spondylosis, and sleep apnea post-uvuloplasty; he has no known drug allergies. On physical examination, he was febrile (100.4°F), tachycardic (pulse 101), hypertensive (BP 145/76), and hypoxic (oxygen saturation 90% on room air, improving to 95% on 3L oxygen); lung exam revealed decreased breath sounds and increased dullness to percussion at the right base. No explicit diagnosis was documented in the note. The patient’s medications on admission included Asacol, Coumadin, Paxil, Diazepam, and Lomotil. No specific treatment plan or new recommendations were documented in this note.
+The patient is a 55-year-old male presenting with chest discomfort. He reported right-sided pleuritic chest pain, increased shortness of breath, cough, fever, chills, and a recent flare of ulcerative colitis with increased bowel movements that had begun improving prior to admission. His medical history includes pulmonary embolism (on Coumadin), ulcerative colitis, lower back pain post-laminectomy, appendectomy, cervical spondylosis, and sleep apnea post-uvuloplasty; he has no known drug allergies. On examination, he was tachycardic with decreased breath sounds and dullness at the right lung base, and imaging revealed a new right pleural effusion without evidence of new pulmonary embolus. The documented clinical impression was new right pleural effusion and pulmonary infection in the context of prior pulmonary embolism and ulcerative colitis flare. Treatment included video-assisted thoracoscopic surgery (VATS) with wedge resection and removal of infarcted lung, chest tube placement, antibiotics (Levofloxacin and Flagyl), oxygen therapy, and anticoagulation transitioned from Lovenox to Coumadin. Asacol was discontinued due to possible exacerbation of ulcerative colitis, with plans to use steroids if symptoms reflare. The patient was continued on Paxil for depression management.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort as the chief complaint. The discomfort began a few days ago and has remained unchanged in intensity since onset. It is localized mostly to the right side of the chest and is exacerbated by deep breathing and coughing, but less noticeable when sitting still. The patient also reported feeling anxious due to the chest discomfort. No relevant medical history, medications, or allergies were mentioned during the encounter. There were no physical findings described, and the doctor did not provide a specific assessment or working diagnosis during the conversation. No treatment plan, advice, or recommendations were given in the dialogue.
+The patient presents with chest discomfort as the chief complaint. The discomfort began a few days ago and has remained unchanged in intensity. It is localized primarily to the right side of the chest and is exacerbated by deep breathing and coughing, but less noticeable at rest. The patient describes feeling anxious due to these symptoms. No relevant medical history, medications, or allergies were discussed in the dialogue. No diagnosis or clinical impression was documented during this encounter. No specific treatment or recommendations were provided in the conversation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.589
+- **Model Used**: general
+- **Text1 Length**: 178 words
+- **Text2 Length**: 88 words
+
 
 ## Processing Information
 

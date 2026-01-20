@@ -85,16 +85,21 @@ If things get worse or you develop new symptoms like severe chest pain or troubl
 
 ## EHR Summary
 
-The patient is a 66-year-old woman presenting with hypotension requiring pressors as the primary reason for admission. She reported chills progressing to fever (maximum 101°F), fatigue, malaise, and sharp upper back pain radiating to the front, which was alleviated by sublingual nitroglycerin; she also experienced worsening chills, fever, nausea, and dry heaves prior to admission. She denied headache, abdominal pain, or rectal bleeding, and noted a rash on her back. Her relevant history includes coronary artery disease status post recent stent placement, oxygen-dependent chronic obstructive pulmonary disease, hypothyroidism, chronic low back pain, and recent antibiotic use for chronic bronchitis. On presentation at an outside hospital, she was found to be hypotensive (BP 80/40) and started on a Dopamine drip; abdominal ultrasound was unremarkable for gallbladder pathology. The documented diagnosis was hypotension in the setting of presumed infectious process and chronic comorbidities. Treatment included vasopressor support (Dopamine), empiric antibiotics for presumed bronchitis flare, and continuation of home medications such as aspirin and prednisone. Further management recommendations were not specified in the note.
+The patient is a 66-year-old woman presenting with hypotension, chills, fever, fatigue, and malaise. Symptoms began four days prior to admission with chills progressing to fever (101°F), fatigue, and malaise, followed by sharp upper back pain radiating to the front (alleviated by nitroglycerin), and worsening chills, fever, nausea, and dry heaves the night before admission. She has a history of coronary artery disease with recent stent placement, oxygen-dependent chronic obstructive pulmonary disease (COPD), hypothyroidism, and chronic low back pain; allergies include erythromycin, penicillin, and ceftin. On admission, she was hypotensive (BP 80/40), afebrile (97°F), and had decreased breath sounds bilaterally; labs showed mildly elevated liver enzymes and normal white blood cell count. The documented diagnoses were bronchitis, COPD exacerbation, and anxiety disorder. Treatment included Levofloxacin for presumed pneumonia/bronchitis, stress-dose steroids with gradual taper, inhalers (Serevent, Flovent), nebulizers as needed, and management of anxiety with Xanax. She was transferred to rehabilitation with a plan for progressive pulmonary rehab, chest physical therapy, and continued use of her home medications.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent chills and fever as the chief complaint. Symptoms included a steady fever around 101°F for the past couple of days, constant chills, significant fatigue interfering with daily activities, shortness of breath, sharp upper back pain radiating to the front (improved with sublingual nitroglycerin and not affected by movement or deep breaths), nausea, decreased appetite, and episodes of dry heaves. The patient did not report sore throat or congestion. Relevant history includes use of sublingual nitroglycerin for pain relief; no other medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the steady fever, chills, fatigue, and nausea suggest an underlying infection or inflammation, and that the pain characteristics make a muscle or lung cause less likely, raising concern for a cardiac or circulatory origin. The doctor advised close monitoring for worsening symptoms such as severe chest pain, confusion, or difficulty breathing, recommended rest and hydration, and instructed the patient to seek prompt care if symptoms worsen or new symptoms develop. The patient understood and agreed to monitor symptoms and follow up as needed.
+The patient is an adult presenting with the chief complaint of persistent fever and chills. Symptoms began a couple of days ago and include a steady fever around 101°F, constant chills, significant fatigue interfering with daily activities, shortness of breath, sharp upper back pain radiating to the front (improved by sublingual nitroglycerin), nausea, and episodes of dry heaves; there is no sore throat or congestion. The pain does not worsen with movement or deep breaths. Relevant history includes the use of sublingual nitroglycerin, suggesting possible underlying cardiac issues, but no further medical history is specified. The clinical impression is that the symptoms are likely due to an infection or inflammation, with the pain characteristics making a musculoskeletal or pulmonary cause less likely and raising concern for a cardiac or circulatory etiology. The treatment plan includes rest, hydration, monitoring temperature and symptoms, and instructions to seek prompt care if chest pain, confusion, or difficulty breathing develop. The patient was advised to report any worsening or new symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.692
+- **Model Used**: general
+- **Text1 Length**: 167 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

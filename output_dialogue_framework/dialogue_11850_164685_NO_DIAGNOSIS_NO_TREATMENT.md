@@ -85,16 +85,21 @@ It’s important to keep an eye out for any new symptoms—like numbness or sudd
 
 ## EHR Summary
 
-The patient is a 52-year-old male admitted for management of pulmonary infection and pain. He was found to have Methicillin-resistant Staphylococcus aureus (MRSA) on bronchoalveolar lavage following bronchoscopy, and was treated with vancomycin for a planned six-week course, as well as metronidazole for aspiration coverage. The patient experienced hip and back pain, which improved significantly with a regimen of Neurontin, Celebrex, Tylenol, and oxycodone. A video swallowing study indicated persistent high aspiration risk, and tube feeding was recommended, but the patient chose to continue oral intake of thickened liquids with close monitoring. Hematology evaluation revealed a slowly decreasing hematocrit to 24.7 without an identified bleeding source; he received two units of packed red blood cells. At discharge, his pulmonary status had returned to baseline. The primary diagnoses documented were MRSA pulmonary infection and high aspiration risk. Recommendations included continued antibiotics, pain management, careful monitoring of oral intake, and follow-up swallowing studies.
+The patient is a 52-year-old male admitted primarily for management of pneumonia and aspiration risk. He experienced pulmonary symptoms related to pneumonia, with bronchoscopy revealing Methicillin-resistant Staphylococcus aureus, and was noted to be at high risk for aspiration based on a video swallowing study. His medical history includes status post cerebrovascular accident with left-sided hemiparesis, seizure disorder, congestive heart failure, coronary artery disease, depression, bilateral hip fractures, and paroxysmal atrial fibrillation. During admission, he also reported significant hip and back pain, which improved with a regimen of Neurontin, Celebrex, Tylenol, and oxycodone. The documented diagnoses were pneumonia, aspiration risk, and multiple chronic conditions as listed above. Treatment included intravenous vancomycin for six weeks, metronidazole for aspiration coverage, pain management medications, transfusion for anemia, and adjustment of anticoagulation therapy due to a supertherapeutic INR. He was advised to continue thickened liquids by mouth with close monitoring due to aspiration risk and to follow up with repeat swallowing studies. The patient was discharged in improved condition to another facility for ongoing care.
+
 
 ## Dialogue Summary
 
-The patient presented with hip and back pain. The pain has been present for an unspecified duration, is constant throughout the day, and is typically moderate in severity; it worsens with activities such as getting up from a chair or walking for a while, and interferes with sleep and daily activities. The patient also reported increased stiffness and difficulty moving around, which is compounded by left-sided weakness from a previous stroke, but denied any numbness, tingling, or changes in bladder or bowel control. The patient has been using Tylenol and Oxycodone with only mild relief and has not yet tried heat, ice, or stretching. On assessment, the doctor noted that the pain is likely related to muscle tension, joint wear-and-tear, or altered movement patterns due to prior stroke-related weakness, without signs of nerve involvement. The doctor recommended trying gentle stretching exercises, using a heating pad, and pacing activity in addition to current medications. The patient was advised to monitor for new symptoms such as numbness or sudden weakness and expressed interest in learning stretches and safe heat application.
+The patient is an adult presenting with hip and back pain as the chief complaint. The pain has been present for an unspecified duration, is moderate in severity, constant throughout the day, and worsens with activities such as getting up from a chair or walking; it also interferes with sleep and daily activities. The patient reports associated stiffness and has pre-existing left-sided weakness from a previous stroke, which affects mobility, but denies numbness, tingling, or changes in bladder or bowel control. Current pain management includes Tylenol and Oxycodone with limited relief; no use of heat, ice, or stretching has been attempted. The clinical impression is that the pain is likely related to muscle tension, joint wear-and-tear, or altered movement patterns due to prior stroke-related weakness, without evidence of acute neurological compromise. The treatment plan includes recommendations for gentle stretching, use of a heating pad, pacing activity, and monitoring for new symptoms such as numbness or sudden weakness. The patient expressed interest in learning stretches and safe heat application techniques.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.541
+- **Model Used**: general
+- **Text1 Length**: 170 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

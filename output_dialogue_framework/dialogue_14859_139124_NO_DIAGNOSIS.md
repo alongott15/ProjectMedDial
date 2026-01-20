@@ -85,16 +85,21 @@ For now, I recommend you take it easy, avoid strenuous activity, and arrange to 
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with chest pain. He has a history of hypertension, hyperlipidemia, and heavy tobacco use. On admission, he was afebrile with stable vital signs, clear lungs, and a regular heart rate; there was a question of a right bruit but no other abnormal findings. Cardiac catheterization was positive, leading to the diagnosis of significant coronary artery disease. He underwent coronary artery bypass grafting (CABG) times five, including LIMA to LAD and multiple saphenous vein grafts. Postoperatively, he recovered well, was extubated, had his chest tube and Foley catheter removed, and was advanced to a regular diet. Physical therapy evaluated him for mobility, and he was cleared for discharge. He was discharged home in stable condition with instructions to follow up with his primary care physician and cardiologist within one to two weeks.
+The patient is a 61-year-old male presenting with chest pain. He has a history of hypertension, hyperlipidemia, and heavy tobacco use. On admission, he was found to have positive findings on cardiac catheterization. Physical examination showed stable vital signs and no acute abnormalities. The documented diagnosis was coronary artery disease requiring surgical intervention. He underwent coronary artery bypass grafting (CABG) times five and had an uncomplicated postoperative course. Discharge instructions included follow-up with his primary care physician and cardiologist in one to two weeks. The patient was discharged home in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure described as uncomfortable and pressure-like, located centrally in the chest and not radiating. The pressure began suddenly earlier in the day, is worsened by physical activity such as walking or climbing stairs, and is partially relieved by rest but does not resolve completely; the patient rated the discomfort as a 5 or 6 out of 10 at its worst. No associated symptoms such as shortness of breath, sweating, or lightheadedness were reported. Relevant history includes high blood pressure and high cholesterol, with no prior similar episodes or known heart or lung conditions. On assessment, the doctor noted that exertional chest pressure relieved by rest, in the context of cardiovascular risk factors, may indicate angina. The doctor advised the patient to avoid strenuous activity, monitor for worsening or new symptoms (such as increased intensity, prolonged duration at rest, shortness of breath, nausea, or fainting), and to seek urgent care if these occur. The patient was also advised to arrange follow-up with their healthcare provider for further evaluation, including possible ECG or other cardiac testing.
+The patient is an adult presenting with chest pressure as the chief complaint. The discomfort is described as a central, pressure-like sensation rated 5–6/10 in severity, which began suddenly earlier in the day and is worsened by physical activity but partially relieved by rest. The patient denies associated symptoms such as shortness of breath, sweating, or lightheadedness. Relevant history includes hypertension and hypercholesterolemia, with no prior similar episodes or known heart or lung disease. The clinical impression discussed was possible angina, given exertional chest discomfort and cardiovascular risk factors. The patient was advised to avoid strenuous activity, monitor for worsening symptoms, and arrange prompt follow-up with a healthcare provider for further evaluation, including possible ECG or cardiac testing. Urgent medical attention was recommended if symptoms intensify, persist at rest, or are accompanied by new symptoms such as dyspnea, nausea, or syncope.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.559
+- **Model Used**: general
+- **Text1 Length**: 92 words
+- **Text2 Length**: 141 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ For now, continue resting as needed and use pain medication if it helps. If the 
 
 ## EHR Summary
 
-The patient is a 79-year-old male presenting with persistent left upper quadrant abdominal pain, fever, and leukocytosis. Symptoms developed following prior surgical interventions, including panproctocolectomy for Crohn's disease and repair of an incarcerated paraileostomal hernia. Relevant history includes multiple recent hospital admissions for abdominal complications and a well-healed midline incision with an ostomy. Physical examination revealed a drain site in the right upper quadrant and no acute cardiopulmonary findings. Imaging during this admission identified a new fluid collection, which was drained. During the hospital course, the patient developed an enterocutaneous fistula at the midline incision site. The documented diagnosis was enterocutaneous fistula. Treatment included intravenous nutritional support (elementation) and surgical consultations, with ongoing monitoring for fistula resolution.
+The patient is a 79-year-old male presenting with persistent left upper quadrant abdominal pain, fever, and leukocytosis. Symptoms developed following prior surgical interventions, including panproctocolectomy for Crohn's disease and repair of an incarcerated paraileostomal hernia. On this admission, imaging revealed a new fluid collection, which was drained, but the patient subsequently developed a clear enterocutaneous fistula at the midline incision site. Relevant history includes Crohn's disease and multiple recent abdominal surgeries. The documented diagnosis was enterocutaneous fistula. Treatment included intravenous nutrition (elementation), antibiotics, supportive care, and an attempted exploratory laparotomy, which was unsuccessful due to dense adhesions. Despite these interventions, the patient's condition deteriorated, and he died during the hospital stay.
+
 
 ## Dialogue Summary
 
-The patient presented with pain in the left upper abdomen. The pain was described as a moderate, dull ache localized to the left upper belly, which worsens with pressure but is not affected by movement; the patient also reported a mild fever that developed after the onset of pain and noted a recent elevated white cell count. There were no associated symptoms of nausea, digestive changes, or loss of appetite, and the pain has not prevented usual activities. Rest and over-the-counter pain medication provided partial relief, while heat or cold had not been tried. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted localized tenderness and suspected an inflammatory or infectious process involving organs in the left upper abdomen, given the fever and elevated white cell count. The doctor advised continued rest and use of pain medication as needed, monitoring for worsening pain, persistent fever, or new symptoms such as vomiting or difficulty breathing, and recommended seeking further evaluation if these occur.
+The patient is an adult presenting with left upper abdominal pain as the chief complaint. The pain is described as a moderate, dull ache localized to the left upper abdomen, worsened by palpation but not by movement, and has been present for an unspecified duration. The patient also reports the onset of fever following the pain and notes a previously identified elevated white blood cell count. There are no associated symptoms such as nausea, digestive changes, or appetite loss. Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression is that the symptoms suggest a localized inflammatory or infectious process in the left upper abdomen, possibly involving organs such as the stomach, spleen, or colon. The treatment plan includes continued rest, use of over-the-counter pain medication as needed, and monitoring for worsening symptoms or new developments such as increased pain, persistent vomiting, dyspnea, or confusion, with instructions to seek further evaluation if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.532
+- **Model Used**: general
+- **Text1 Length**: 111 words
+- **Text2 Length**: 159 words
+
 
 ## Processing Information
 

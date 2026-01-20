@@ -87,16 +87,21 @@ Let’s arrange for a check-up soon to get a better understanding of what’s go
 
 ## EHR Summary
 
-The patient is a 65-year-old man presenting with chest pain and shortness of breath. He was readmitted two days after discharge following aortic valve replacement and coronary artery bypass graft surgery, with symptoms of congestive heart failure. His past medical history includes noninsulin dependent diabetes mellitus, hypertension, paroxysmal atrial fibrillation, left atrial thrombus, congestive heart failure with an ejection fraction less than 20%, right lower lobe mass, remote cerebrovascular accident, coronary artery disease, and status post permanent pacemaker. On examination during this admission, he was found to be in congestive heart failure. The documented diagnosis was congestive heart failure. Treatment included medications such as amiodarone, Lopressor, Glucotrol, Protonix, Neurontin, Lasix, and Coumadin. No drug allergies were reported.
+The patient is a 65-year-old man presenting with chest pain and shortness of breath following recent cardiac surgery. He reported persistent dyspnea, abdominal distention, pain, and intermittent mental status changes during hospitalization; physical exam revealed jugular venous distension, decreased breath sounds, and bilateral lower extremity edema. His history is significant for noninsulin dependent diabetes mellitus, hypertension, paroxysmal atrial fibrillation, left atrial thrombus, congestive heart failure (ejection fraction <20%), right lower lobe mass, prior cerebrovascular accident, coronary artery disease status post CABG, and permanent pacemaker placement. The documented diagnoses included congestive heart failure exacerbation, sternal wound infection with MRSA, urinary tract infection with Pseudomonas and Candida albicans, and metabolic toxic encephalopathy. Treatment included intravenous diuresis (Lasix), beta blocker and ACE inhibitor titration, sternal wound debridement and flap closure, intravenous antibiotics (Vancomycin, gentamicin, Cipro), antifungal therapy (Fluconazole), insulin for glycemic control, and supportive care for gastrointestinal symptoms. The patient was also managed with wound care, bowel regimen, and respiratory support as needed. At transfer, he remained hemodynamically stable with improving neurological status and ongoing medical management.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain and increased difficulty breathing. Symptoms included intermittent chest pain for several days, shortness of breath primarily with activity and occasionally at night, increased tiredness, headaches that are constant throughout the day, swelling in both legs and ankles, abdominal pain and bloating, and difficulty sleeping comfortably without extra pillows due to shortness of breath. The patient reported that these symptoms have made daily activities more challenging. No specific medical history, medications, or allergies were mentioned. On assessment, the doctor noted the combination of chest discomfort, exertional and nocturnal dyspnea, peripheral edema, fatigue, headaches, and abdominal discomfort, suggesting possible fluid buildup and decreased cardiac efficiency, with heart failure as a potential underlying cause. The doctor recommended daily weight monitoring for sudden increases, limiting dietary salt intake, and seeking urgent care if chest pain at rest, severe breathing difficulty, or faintness occurs. A follow-up check-up was advised to further evaluate the symptoms and determine next steps.
+The patient presents with chest pain and increased shortness of breath as the chief complaint. The chest pain began a few days ago, is intermittent, and the dyspnea is primarily exertional but also occurs at night, requiring extra pillows for sleep and causing nocturnal awakenings. Additional symptoms include persistent fatigue, headaches, bilateral leg and ankle swelling, abdominal pain, and bloating, all of which have progressively limited daily activities. The patient reports that tiredness and headaches are constant throughout the day, and swelling has led to tighter shoes. Relevant history, medications, and allergies are not specified in the dialogue. The clinical impression discussed by the doctor is possible heart failure, suggested by fluid retention symptoms such as orthopnea, peripheral edema, and reduced exercise tolerance. The treatment plan includes daily weight monitoring for fluid retention, dietary salt restriction, and instructions to seek urgent care if chest pain at rest, severe dyspnea, or syncope occur. A follow-up appointment is recommended for further evaluation and management.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.613
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

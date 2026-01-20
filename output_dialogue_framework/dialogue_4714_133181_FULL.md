@@ -87,16 +87,21 @@ If you experience chest pain, severe shortness of breath, or another episode of 
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with lethargy and altered mental status. He reports episodes of passing out, waking up confused in his wheelchair after several hours, and intermittent nausea and vomiting over the past two weeks, worsening in the last three days, along with increased stoma output. His medical history includes human immunodeficiency virus (CD4 count 492), cerebrovascular accident with residual left-sided weakness, chronic renal insufficiency, hypertension, colectomy with colostomy, neuropathy, osteoarthritis, depression, and gastroesophageal reflux disease. He has multiple allergies including penicillin (causes swelling), food dyes, perfumes, verapamil, fentanyl, vasotec, hydrochlorothiazide, trilafon, elavil, and sulfonamide. Admission medications include indinavir, epivir, retrovir, prilosec, neurontin, MS Contin, zoloft, and trazodone. No specific physical exam findings or test results are documented in this note. The diagnosis and treatment plan are not specified in the provided text.
+The patient is a 58-year-old male presenting with lethargy and altered mental status. He reported episodes of passing out, confusion upon awakening, and intermittent nausea and vomiting for two weeks, with increased stoma output over the last three days. His medical history includes human immunodeficiency virus (HIV), cerebrovascular accident with residual weakness, chronic renal insufficiency, hypertension, and status post colectomy with colostomy. On admission, he was hypotensive and received intravenous fluids and dopamine, later stabilized and weaned off vasopressors. Workup revealed no new neurological events; EEG was normal, and imaging showed only old infarcts. His altered mental status was attributed to hypovolemia from increased stoma output and excessive narcotic use, both of which were addressed during hospitalization. The documented diagnosis was gastroenteritis. Treatment included supportive care with fluids, adjustment of pain medications, Neutra-Phos for low phosphate, and discontinuation of antibiotics due to rash; he was discharged in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent tiredness and feeling "out of it." Symptoms included increased fatigue making daily activities difficult, intermittent confusion ranging from trouble focusing to occasional disorientation and forgetfulness, random onset of symptoms without clear triggers, and no change in sleep patterns. Over several days, symptoms remained stable without improvement or worsening; additional symptoms included two episodes of fainting, nausea, vomiting, and increased stoma output. No headaches, vision changes, or dizziness were reported. The doctor noted the combination of ongoing tiredness, confusion, fainting episodes, nausea, vomiting, and increased stoma output as concerning findings. The assessment included possible causes such as mild viral illness, dehydration, blood pressure or blood sugar changes, or heart rhythm issues, but emphasized the need to rule out more serious conditions due to fainting and mental changes. The doctor recommended a full evaluation as soon as possible—including vital signs and basic blood tests—advised staying hydrated, avoiding driving or operating machinery, and informing someone close about the symptoms. The patient was instructed to seek immediate medical attention if chest pain, severe shortness of breath, or another fainting episode occurred.
+The patient presents with the chief complaint of persistent tiredness and feeling "out of it" for several days. Symptoms include ongoing fatigue, intermittent confusion (ranging from trouble focusing to episodes of disorientation and forgetfulness), two episodes of fainting, nausea, vomiting, and increased stoma output. The patient denies changes in sleep, headaches, vision changes, or dizziness. No specific medical history, medications, or allergies are documented in the dialogue. The clinical impression is that the combination of fatigue, mental status changes, fainting, and gastrointestinal symptoms warrants prompt evaluation to rule out serious causes such as low blood pressure, blood sugar abnormalities, dehydration, or cardiac issues. The treatment plan includes urgent evaluation with vital signs assessment and basic blood tests, review of medications if any, and supportive measures such as maintaining hydration and avoiding driving or operating machinery. The patient is also advised to seek immediate medical attention if chest pain, severe shortness of breath, or further fainting occurs.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.670
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

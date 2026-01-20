@@ -87,16 +87,23 @@ Does this explanation make sense, and do you have any questions or concerns abou
 
 ## EHR Summary
 
-The patient is a 61-year-old female presenting with nausea and vomiting. She reported a one-week history of nausea, vomiting, weakness, constipation, lightheadedness, tachypnea, and chills. Her past medical history includes insulin-dependent diabetes mellitus (with neuropathy, retinopathy, nephropathy), bipolar disorder, and multiple prior diabetic ketoacidosis (DKA) admissions. On admission, her blood glucose was in the low 400s with an anion gap of 42; she was treated for DKA with an insulin drip, intravenous potassium chloride, and over three liters of intravenous fluids. She improved clinically, was able to tolerate oral intake, and was transitioned to her usual insulin regimen (Lantus and sliding scale regular insulin), with blood sugars stabilizing in the low 100s. On transfer to the regular floor, she had only mild stomach sensitivity and denied further gastrointestinal or systemic symptoms. The documented diagnosis was diabetic ketoacidosis. The treatment plan included resuming her home insulin regimen and monitoring blood glucose.
+The patient is a 61-year-old female presenting with nausea and vomiting. She reported a one-week history of nausea, vomiting, weakness, constipation, lightheadedness, tachypnea, and chills. Her past medical history includes insulin dependent diabetes mellitus (with neuropathy, retinopathy, nephropathy), bipolar disorder, and multiple prior diabetic ketoacidosis admissions; she is allergic to penicillin and sulfa. On admission, she was found to be in diabetic ketoacidosis with blood glucose in the low 400s and an anion gap of 42. She was treated with an insulin drip, intravenous potassium chloride, and fluids, then transitioned to her usual Lantus and regular insulin sliding scale as her condition improved. During her stay, she was also diagnosed with a urinary tract infection (urine culture positive for gram negative rods) and started on levofloxacin 500 mg daily for one week. The documented diagnoses were diabetic ketoacidosis and insulin dependent diabetes mellitus. She was discharged in good condition with instructions to continue her home medications and complete the antibiotic course, and to follow up with her endocrinologist.
+
 
 ## Dialogue Summary
 
-The patient presented with nausea and vomiting as the chief complaint. Symptoms included difficulty keeping food down, mild ability to tolerate water, worsening nausea and vomiting over several days, increased weakness and fatigue, constipation with no proper bowel movement in the past few days, chills, lightheadedness (worse on standing but also present at rest), faster breathing during weakness or exertion, sensitive stomach, and increased urinary frequency with some urgency. No significant abdominal pain or bloating was reported. The doctor assessed that the combination of nausea, vomiting, and constipation likely led to mild dehydration, contributing to weakness, dizziness, and faster breathing. The sensitive stomach and chills were considered possibly due to a mild stomach virus or digestive upset. The doctor recommended sipping small amounts of clear fluids frequently (such as water, diluted juice, or electrolyte drinks), avoiding solid foods until nausea improves, and monitoring for warning signs like severe abdominal pain, persistent vomiting, inability to keep liquids down, confusion, or fainting. The patient was advised to seek medical attention if symptoms worsen or if unable to stay hydrated.
+The patient is an adult presenting with nausea and vomiting as the chief complaint. Symptoms began a few days ago and have progressively worsened, now including difficulty keeping food down, mild tolerance of water, increased weakness, fatigue, constipation (no proper bowel movement in several days), chills, lightheadedness (worse on standing), and mild tachypnea associated with exertion. The patient denies significant abdominal pain or bloating but reports a sensitive stomach and recent increased urinary frequency and urgency. There is no history of fainting, but weakness limits activity.
+
+The clinical impression is likely mild dehydration secondary to several days of gastrointestinal upset, possibly due to a mild stomach virus or digestive disturbance. The treatment plan includes sipping small amounts of clear fluids (water, diluted juice, or electrolyte drinks) frequently, avoiding solid foods until nausea improves, and monitoring for warning signs such as severe abdominal pain, persistent vomiting, inability to keep fluids down, confusion, or fainting. The patient was advised to seek prompt medical attention if symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.456
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

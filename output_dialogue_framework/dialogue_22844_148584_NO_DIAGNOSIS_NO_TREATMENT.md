@@ -87,16 +87,21 @@ Let me know if you have any questions about this, or if there's anything else yo
 
 ## EHR Summary
 
-The patient is a 26-year-old male presenting with persistent fever during hospitalization following treatment for acute myeloid leukemia (AML) and acute lymphoblastic leukemia (ALL). He experienced daily fevers up to 102–103°F with no initially identified infectious source, despite negative blood and urine cultures. Relevant history includes recent chemotherapy for AML and ALL, and ongoing prophylactic medications such as acyclovir and Nystatin. Physical findings included persistent fever, and laboratory testing revealed a positive Clostridioides difficile toxin. The documented clinical impression was fever of unclear origin in the context of immunosuppression, with confirmed C. difficile infection. Treatment included empiric antibiotics (Levaquin, cefepime, vancomycin), antifungal therapy (AmBisome), initiation of oral Flagyl for C. difficile, and high-dose Ara-C chemotherapy. The patient became afebrile after these interventions, though the specific cause of improvement was unclear. Infectious Disease consultation recommended HSV antibody titers to guide acyclovir use, which were pending at discharge.
+The patient is a 26-year-old male presenting with persistent fever during hospitalization following treatment for acute myeloid leukemia (AML) and acute lymphoblastic leukemia (ALL). He experienced daily fevers up to 102–103°F, associated headaches that worsened with fever spikes, and occasional left ear fullness; a single erythematous scalp lesion was also noted and resolved spontaneously. Relevant history includes recent chemotherapy, neutropenia, and use of prophylactic acyclovir and Nystatin. Workup revealed negative blood and urine cultures but a positive Clostridioides difficile toxin, and MRI showed possible left-sided sinusitis or mastoiditis. The clinical impression was fever of unclear source in an immunocompromised host, with possible contributions from infection (including C. difficile colitis and sinusitis/mastoiditis) and active leukemia. Treatment included broad-spectrum antibiotics (Levaquin, cefepime, vancomycin), antifungal therapy (AmBisome), oral Flagyl for C. difficile, empiric therapy for sinusitis/mastoiditis, and high-dose Ara-C chemotherapy. The patient became afebrile after these interventions, tolerated chemotherapy well, and remained stable under neutropenic precautions.
+
 
 ## Dialogue Summary
 
-The patient presented with fever as the chief complaint. Symptoms included a headache that worsens with fever spikes, occasional fullness in the left ear (without hearing changes), and a red, raised spot on the scalp resembling a bug bite; the headache is described as pressure-type without sensitivity to light or sound, and sometimes interferes with concentration and sleep. The ear fullness is intermittent, and there are no associated nasal congestion, sore throat, or cough. The scalp spot appeared around the same time as the fever, with no spreading redness or swelling noted. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the symptoms are most consistent with a mild viral infection or a local skin reaction (such as a bug bite) causing nearby inflammation, with typical cold or sinus issues considered less likely. The doctor recommended monitoring the scalp spot for changes (spreading redness, warmth, or pus), managing symptoms with rest, hydration, and over-the-counter pain relievers, and seeking further care if symptoms worsen or new signs develop. The patient was advised to continue regular hair washing unless changes occur.
+The patient is an adult presenting with fever as the chief complaint. Symptoms began approximately two days ago and include a headache that worsens with fever spikes, intermittent fullness in the left ear without hearing changes, and a new red, raised spot on the scalp resembling a bug bite. The headache is described as pressure-like and sometimes interferes with concentration and sleep, but there is no sensitivity to light or sound. The patient denies nasal congestion, sore throat, or cough. Relevant history regarding chronic conditions, medications, or allergies is not specified. The clinical impression is a mild viral infection or a local skin reaction (such as a bug bite) causing nearby inflammation. The treatment plan includes monitoring the scalp spot for signs of infection (spreading redness, warmth, or pus), symptomatic management with rest, hydration, and over-the-counter pain relievers like acetaminophen or ibuprofen, and seeking further care if symptoms worsen or new concerning features develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.936
-- **Similarity Label**: N/A
+- **STS Score**: 0.580
+- **Model Used**: general
+- **Text1 Length**: 153 words
+- **Text2 Length**: 154 words
+
 
 ## Processing Information
 

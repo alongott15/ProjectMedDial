@@ -89,16 +89,23 @@ Let me ask—have you had any wheezing or noisy breathing along with these sympt
 
 ## EHR Summary
 
-The patient is a 71-year-old female presenting with loose purple bowel movements accompanied by light-headedness and dizziness with each episode. Symptoms began on the day of admission, and she denies any loss of consciousness, chest pain, abdominal pain, nausea, vomiting, or prior episodes of purple stools. She reports a prodrome of several days of nonproductive cough, for which she was taking Robitussin. Her medical history includes cerebrovascular accident, hypertension, and diabetes mellitus. No physical exam findings, diagnostic results, or formal diagnosis are documented in this note. There is no specific treatment plan or recommendations provided in the available documentation.
+The patient is a 71-year-old female presenting with loose purple bowel movements accompanied by light-headedness and dizziness during each episode. Symptoms began on the day of admission, and she denies any loss of consciousness, chest pain, abdominal pain, nausea, vomiting, or prior episodes of purple stools. She reports a prodrome of several days of nonproductive cough, for which she was taking Robitussin. Her medical history includes cerebrovascular accident, hypertension, and diabetes mellitus. No diagnosis is documented in the note. There is no specific treatment or advice mentioned in the provided text.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening shortness of breath. Symptoms included increasing difficulty breathing, especially when lying flat (requiring extra pillows), swelling in the legs and ankles that has worsened alongside breathing issues, nighttime cough, chest pain, and recent weight gain likely due to fluid retention. The patient reported that shortness of breath occurs mostly with activity but sometimes at rest, and that these symptoms have made daily activities more difficult; no wheezing or noisy breathing was noted. No relevant medical history, medications, or allergies were discussed. On clinical review, the doctor noted signs consistent with fluid buildup, including peripheral edema and orthopnea. The assessment was that these symptoms may be related to the heart not pumping efficiently, leading to fluid accumulation in the legs and lungs. The doctor advised elevating the legs when sitting, limiting salty foods, and monitoring daily weight for rapid increases; urgent attention was recommended for sudden worsening of symptoms such as severe difficulty breathing at rest, persistent chest pain, or fainting.
+The patient presents with gradually worsening shortness of breath as the chief complaint. Symptoms include progressive dyspnea, increased lower extremity swelling, orthopnea requiring extra pillows, nighttime cough, chest pain, and recent weight gain, with symptoms worsening during activity and occasionally at rest. The patient reports difficulty performing daily activities due to these symptoms and denies wheezing or palpitations. Relevant history, medications, and allergies are not specified.
+
+The clinical impression is that the symptoms are likely related to fluid buildup due to inefficient cardiac function, though no definitive diagnosis is documented. The physician advised monitoring for acute worsening (such as severe dyspnea at rest, persistent chest pain, or syncope) and recommended elevating the legs when sitting, limiting dietary salt, and tracking daily weight. The patient was instructed to report any rapid weight gain or symptom escalation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
+- **STS Score**: 0.382
+- **Model Used**: general
+- **Text1 Length**: 91 words
+- **Text2 Length**: 135 words
+
 
 ## Processing Information
 

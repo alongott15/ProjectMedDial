@@ -87,16 +87,21 @@ Let me know if you have any questions or if anything else has changed recently.
 
 ## EHR Summary
 
-The patient is an 82-year-old male presenting with altered neurologic status. He was noted by family to have changes in speech and behavior, and a head CT revealed bifrontal subdural hematoma with some shift and mass effect, but no invasive intervention was required. Relevant history includes an incidental finding of a 4 by 5 cm abdominal aortic aneurysm (AAA) and an episode of acute renal failure, likely related to CT contrast dye and post-obstructive causes, with BUN peaking at 60 and creatinine at 3.6, now improving. The patient was managed with prophylactic Dilantin, intravenous nitroprusside for blood pressure control (weaned off by hospital day 3), and supportive care in the Neurological Intensive Care Unit. He developed a rash on his back, thought to be heat rash by dermatology, and Dilantin was discontinued; fever workup was negative. The patient is tolerating a regular diet and did not require intubation or experience seizures. Vascular surgery will follow up on the AAA as an outpatient, and renal function is improving at discharge.
+The patient is an 82-year-old male presenting with altered neurologic status. He was noted by family to have changes in speech and behavior, and imaging revealed a bifrontal subdural hematoma with some shift and mass effect, but no invasive intervention was required. His hospital course was complicated by an episode of acute renal failure, likely related to contrast dye and post-obstructive etiology, as well as an incidental 4 by 5 cm abdominal aortic aneurysm (AAA) found during attempted arteriogram. He also developed a rash on his back, thought to be heat rash, and experienced fever with a negative infectious workup. The documented diagnoses include bifrontal subdural hematoma, acute renal failure (resolving), and incidental AAA. Treatment included prophylactic Dilantin (later discontinued), blood pressure management with nitroprusside (weaned off), azithromycin, topical miconazole and hydrocortisone for rash, and supportive care. He was evaluated for rehabilitation prior to discharge and will follow up with his primary care physician and neurologist for further management. On discharge, his condition was stable.
+
 
 ## Dialogue Summary
 
-The patient presented with recent changes in thinking and speaking. Symptoms included difficulty with conversations, behavioral changes affecting routine tasks, and inability to urinate for the past few days, accompanied by a recent fever; the patient denied headaches, falls, movement problems, numbness, or lower abdominal pain/fullness. No relevant medical history, medications, or allergies were mentioned. On review of systems, the patient reported stable symptoms over the past few days without worsening. The doctor assessed that the combination of altered mental status, fever, and urinary retention could indicate an infection—possibly a urinary tract infection—affecting brain and bladder communication. The doctor recommended prompt in-person medical evaluation, including a physical exam and urine tests, and advised seeking immediate help if new symptoms such as worsening confusion, severe abdominal pain, vomiting, or feeling faint develop. The patient expressed understanding of the need for timely assessment.
+The patient presents with recent changes in thinking and speaking as the chief complaint. These cognitive and speech changes began a few days ago and have made conversations and routine tasks more difficult, though there is no associated weakness, numbness, or movement problems. The patient also reports acute urinary retention (inability to urinate) and a recent fever, but denies lower abdominal pain, fullness, headaches, or falls. Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression discussed by the doctor is that these symptoms may be due to an infection—possibly a urinary tract infection—causing both mental status changes and urinary retention. The doctor emphasized the need for prompt in-person evaluation, including a physical exam and urine tests. The patient was advised to seek immediate care if symptoms worsen or if new symptoms such as severe abdominal pain, vomiting, or increased confusion develop. No specific medications or treatments were initiated during the conversation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.471
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

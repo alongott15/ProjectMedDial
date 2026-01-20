@@ -105,16 +105,21 @@ The most important thing is that you’re not experiencing any warning signs suc
 
 ## EHR Summary
 
-The patient is a 64-year-old male presenting with shoulder and jaw discomfort. His discomfort occurs both with exertion and at rest, and he experienced a similar episode the previous week. He has significant risk factors for coronary artery disease, including hypertension, hyperlipidemia, tobacco use, and a positive family history. Physical examination revealed stable vital signs and no acute distress, with scattered pulmonary rhonchi but otherwise unremarkable findings. Cardiac catheterization showed significant coronary artery disease with multiple high-grade stenoses, including 100% occlusion of the right coronary artery. The documented diagnosis is severe multi-vessel coronary artery disease. The patient was admitted preoperatively and underwent coronary artery bypass grafting.
+The patient is a 64-year-old male presenting with exertional and non-exertional shoulder and jaw discomfort. His symptoms included episodes of pain, with one notable episode occurring the week prior to admission; exercise testing revealed ST depression and a myocardial perfusion defect. Relevant history includes hypertension, hyperlipidemia, left carotid stenosis, peptic ulcer disease, tobacco use, and a family history of coronary artery disease. Cardiac catheterization showed significant multi-vessel coronary artery disease, including 100% stenosis of the right coronary artery. The documented diagnosis was status post coronary artery bypass grafting (CABG) x4. Treatment included CABG with four grafts, postoperative monitoring, management of transient confusion with Valium and supportive care, and discharge on medications such as Lopressor, Lasix, KCL, aspirin, ibuprofen, Percocet, and Klonopin as needed. The patient was stable at discharge and instructed to follow up with his cardiac surgeon and primary care physician in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with discomfort in the shoulder and jaw. The discomfort began gradually a few days ago, is steady at a 5 out of 10 severity, and does not change with movement, eating, or rest. The patient denied chest pain, shortness of breath, sweating, headaches, vision changes, or weakness, but reported a single episode of confusion and change in mental status that occurred for one day after recent surgery; no further episodes have occurred since. No allergies or medications were mentioned. On examination, there were no acute neurological or cardiopulmonary findings described by the patient or observed by others. The doctor assessed that the confusion was likely related to anesthesia or medications post-surgery and has resolved, while the current discomfort may be due to muscle tension, joint irritation, or referred pain, with no signs of more serious conditions. The doctor recommended gentle stretching, staying active within comfort, avoiding aggravating activities, and using over-the-counter pain relievers as needed; the patient was advised to monitor for new symptoms such as chest pain, sudden shortness of breath, or worsening confusion and to seek care if these occur. If the discomfort persists beyond a couple of weeks or worsens, further evaluation was advised.
+The patient presented with discomfort in the shoulder and jaw as the chief complaint. The discomfort began gradually a few days prior to the visit, is rated 5 out of 10 in severity, and does not change with activity, rest, or eating. The patient denied associated symptoms such as chest pain, shortness of breath, sweating, or recurrent confusion. There is a relevant history of a single episode of confusion and altered mental status occurring shortly after recent surgery, which resolved the same day and has not recurred. The clinical impression was that the transient confusion was likely related to anesthesia or medications during surgical recovery, and the current discomfort is most consistent with muscle tension, mild joint irritation, or referred pain. No acute or urgent findings were identified. The treatment plan included reassurance, gentle stretching and movement, use of over-the-counter pain relievers as needed, and monitoring for any new or worsening symptoms such as chest pain or shortness of breath. The patient was advised to follow up if symptoms persist beyond a couple of weeks or if concerning symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.450
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 180 words
+
 
 ## Processing Information
 

@@ -89,16 +89,21 @@ If this continues for more than another few days or starts to interfere more wit
 
 ## EHR Summary
 
-The patient is a 72-year-old female presenting with left-sided weakness and a right frontal lobe mass. She reported weakness on the left side, veering to the left, and slight dizziness; MRI on 2143-4-20 revealed a right frontal lobe mass. Her past medical history includes hypertension, and she has no known drug allergies. On neurological examination prior to admission, she had normal gait but was unable to lift or hold her left leg, with weak left dorsiflexion, plantarflexion, and hand grip. The documented diagnosis was a right frontal lobe mass causing left-sided weakness. She underwent craniotomy and excision of the mass on 2143-5-7, tolerated the procedure well, and was continued on steroids postoperatively. Postoperative neurological exams showed initial antigravity strength only in the left upper extremity and no strength in the left lower extremity, but gradual improvement was noted during her hospital stay. She is pending discharge to a rehabilitation bed for further recovery.
+The patient is a 72-year-old female presenting with left-sided weakness and a right frontal lobe mass. She reported veering to the left, slight dizziness, and was unable to lift or hold her left leg, with weak left hand grip and decreased strength in the left lower extremity. Her past medical history includes hypertension, and she has no known drug allergies. MRI confirmed a right frontal lobe mass, and she underwent craniotomy with mass excision. Postoperatively, she had antigravity strength only in the left upper extremity and no strength in the left lower extremity, but showed gradual improvement during her hospital stay. The documented diagnosis is right frontal lobe mass with associated left-sided weakness. Treatment included surgical excision of the mass, postoperative steroids (dexamethasone), anticonvulsants (Dilantin), pain management (Percocet), and continuation of antihypertensive therapy (HCTZ). She is being discharged to rehabilitation and will follow up in the Brain Clinic in ten days.
+
 
 ## Dialogue Summary
 
-The patient presented with left-sided weakness that has persisted for at least several days. The weakness is constant throughout the day, makes walking and climbing stairs more difficult, causes the patient to veer to the left when moving, and has led to increased caution with daily activities such as carrying groceries. The patient denied numbness, tingling, vision changes, speech difficulties, changes in bladder or bowel control, or recent falls, but did report occasional mild dizziness. Relevant history includes hypertension managed with HCTZ, with no recent illnesses, injuries, or medication changes. On assessment, the doctor noted the absence of acute neurological symptoms such as sudden confusion, loss of balance, or speech changes, which is reassuring against an urgent event like stroke; however, persistent weakness affecting mobility remains concerning and could relate to nerve, muscle, or balance issues, possibly influenced by blood pressure medication. The doctor advised monitoring for new symptoms (especially sudden changes in speech, vision, or coordination), moving slowly and using support to prevent falls, and seeking prompt evaluation if symptoms worsen or new issues arise. If the weakness continues for more than a few days or further impacts independence, the patient was advised to contact their healthcare provider for further evaluation and possible testing.
+The patient is an adult presenting with left-sided weakness as the chief complaint. The weakness has been present for at least several days, is constant throughout the day, and has made walking, climbing stairs, and carrying groceries more difficult; the patient reports veering to the left when moving. There are no associated symptoms of numbness, tingling, vision changes, speech difficulties, bladder or bowel changes, or recent falls, though mild dizziness is noted. The patient’s only medication is hydrochlorothiazide (HCTZ) for hypertension, with no recent changes, illnesses, or injuries. The clinical impression is that the persistent left-sided weakness may be related to neurological, muscular, or balance issues, with possible contribution from HCTZ-induced hypotension; urgent causes such as stroke are considered less likely due to the absence of focal neurological deficits. The treatment plan includes monitoring for new symptoms (such as sudden speech, vision, or coordination changes), moving slowly and using support to prevent falls, and seeking prompt evaluation if symptoms worsen or new symptoms develop. The patient was also offered tips for safe movement at home and advised to contact their healthcare provider if the weakness persists or interferes further with independence.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.666
+- **Model Used**: general
+- **Text1 Length**: 151 words
+- **Text2 Length**: 191 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ Let me know if you've noticed any other symptoms like weight loss, night sweats,
 
 ## EHR Summary
 
-The patient is a 36-year-old male presenting with fevers and cough. He experienced fevers up to 101°F and a productive cough, with unclear sputum color, and was found to be febrile in the emergency department with a white blood cell count of 18.8. His medical history includes cerebral palsy, epilepsy, recurrent aspiration, and aphasia; he has no known drug allergies. Physical exam revealed decreased breath sounds at the right lung base with crackles in the mid-right lung and bibasilar regions. Chest X-ray showed persistent right lung opacification with pleural effusion and cavitation, and CT chest confirmed necrotizing pneumonia in the right middle and lower lobes with a lung abscess. The documented diagnosis was right lower lobe lung abscess secondary to necrotizing pneumonia, likely due to aspiration. Treatment included intravenous levofloxacin and clindamycin for aspiration pneumonia and lung abscess.
+The patient is a 36-year-old male presenting with fevers and productive cough. He experienced fevers up to 101°F and a productive cough, with unclear sputum color, and was found to be febrile in the emergency department with a white blood cell count of 18.8. His medical history includes cerebral palsy, epilepsy, recurrent aspiration, and aphasia, with no known drug allergies. Imaging revealed persistent right lower lobe pneumonia with cavitation and effusion, and a CT scan confirmed necrotizing pneumonia and a lung abscess. The documented diagnoses were lung abscess, epilepsy, and aspiration. Treatment included a four-week course of levofloxacin and clindamycin (with clindamycin to continue as needed), adjustment of phenytoin dosing for epilepsy, aggressive respiratory management, and a ground diet with thickened liquids due to aspiration risk. The patient was discharged in stable condition to an extended care facility with instructions to follow up with his primary care physician and to seek care if shortness of breath or persistent fevers develop.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent fever and cough as the chief complaint. The cough is productive with yellow phlegm and has been ongoing for an unspecified but extended duration without improvement; it is consistent throughout the day and worsens after episodes of food or liquid going down the wrong way due to trouble swallowing. The patient also reported occasional aspiration and associated increased coughing, as well as recent weight loss. No history of medications or allergies was mentioned. The doctor noted the combination of persistent cough with yellow phlegm, swallowing difficulties, and aspiration episodes, and discussed that these symptoms may suggest an ongoing respiratory infection or that swallowing issues are contributing to the cough. The doctor advised monitoring for worsening symptoms such as shortness of breath, chest pain, or significant weakness, recommended staying hydrated, eating slowly and upright, and suggested a follow-up physical exam and possible chest X-ray if symptoms persist or worsen. The patient acknowledged the advice and expressed frustration with the swallowing difficulty.
+The patient presents with persistent fever and cough as the chief complaint. The cough is productive of yellow phlegm and has been ongoing for an unspecified but prolonged duration without significant improvement. The patient also reports intermittent dysphagia, with episodes of aspiration (food or liquids going down the wrong way) that trigger increased coughing and worsen symptoms. The cough is consistent throughout the day and is not associated with a particular time. The patient has also experienced some weight loss. There is no documented past medical history, medications, or allergies in the dialogue. The clinical impression is of a possible ongoing respiratory infection, with aspiration due to swallowing difficulties contributing to persistent symptoms. The treatment plan includes monitoring for worsening symptoms (such as dyspnea, chest pain, or weakness), maintaining hydration, modifying eating habits to reduce aspiration risk, and considering further evaluation (physical exam and chest X-ray) if symptoms persist or worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.665
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

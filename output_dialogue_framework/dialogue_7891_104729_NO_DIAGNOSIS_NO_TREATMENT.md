@@ -87,16 +87,23 @@ If the feeling becomes more frequent, starts to interfere with your activities, 
 
 ## EHR Summary
 
-The patient is a 76-year-old female presenting with occasional bilateral arm heaviness occurring both at rest and with exertion. She denied associated symptoms such as shortness of breath, nausea, vomiting, or diaphoresis. Her medical history includes coronary artery disease (with possible prior myocardial infarction), non-insulin dependent diabetes mellitus, hypertension, hypercholesterolemia, retinopathy, bilateral cataracts, and incontinence; she has no known drug allergies and is on multiple medications including Prinivil, Toprol, Glucophage, Glyburide, ocular drops, and sublingual nitroglycerin as needed. Cardiac evaluation revealed a positive exercise treadmill test and cardiac catheterization showed proximal LAD occlusion, significant left circumflex and RCA disease. On admission, laboratory values were notable for glucose 151 mg/dL and creatinine 1.2 mg/dL. The documented diagnosis was multivessel coronary artery disease. She underwent coronary artery bypass grafting (CABG) with LIMA to LAD and SVG to OM1. Postoperatively, she was extubated on day one and weaned off NeoSynephrine drip without complication.
+The patient is a 76-year-old female presenting with occasional bilateral arm heaviness occurring both at rest and with exertion. She denied associated symptoms such as dyspnea, nausea, vomiting, or diaphoresis. Her medical history includes coronary artery disease (question of prior myocardial infarction), non-insulin dependent diabetes mellitus, hypertension, hypercholesterolemia, retinopathy, bilateral cataracts, and incontinence; she has no known drug allergies. Cardiac evaluation revealed significant coronary artery disease with proximal LAD occlusion and high-grade lesions in other vessels. The documented diagnosis was status post coronary artery bypass grafting (CABG) times two. Treatment included CABG with LIMA to LAD and SVG to OM1, followed by postoperative management and discharge on medications including Lopressor, Lasix, Plavix, aspirin, Glucophage, Glyburide, ocular drops, Percocet, and Colace. The patient was discharged in stable condition to a rehabilitation facility with follow-up arranged with her surgeon, primary care provider, and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent heaviness in both arms as the chief complaint. The heaviness has been occurring off and on for a couple of weeks, without any identifiable triggers, specific times, or activities associated with its onset. The patient denied accompanying symptoms such as numbness, tingling, weakness, pain, swelling, changes in skin color, or temperature in the arms, and reported no interference with daily activities. There was no history of recent illness, medication changes, or new stressors. On examination, no physical abnormalities were noted by the patient. The doctor assessed that the mild, non-progressive heaviness without other concerning symptoms may be related to mild circulation changes, muscle fatigue, or posture. The doctor recommended monitoring the pattern of symptoms by keeping a log, staying active, stretching the arms, and maintaining hydration. The patient was advised to seek care if symptoms worsen or new symptoms develop, and agreed to the plan.
+The patient is an adult presenting with intermittent heaviness in both arms as the chief complaint. The sensation has been occurring off and on for approximately two weeks, without clear triggers, and is not associated with numbness, tingling, weakness, pain, swelling, or changes in skin color or temperature. The heaviness does not interfere with daily activities such as cooking or dressing and has remained stable in frequency and severity. There is no history of recent illness, medication changes, or new stressors.
+
+The clinical impression is that the arm heaviness is mild and nonspecific, possibly related to circulation changes, muscle fatigue, or posture, with no concerning features identified. The patient was advised to monitor the pattern of symptoms, stay active, stretch regularly, and maintain hydration. The doctor recommended seeking care if symptoms worsen or new symptoms such as chest pain or weakness develop. No additional concerns were raised by the patient during the visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.461
+- **Model Used**: general
+- **Text1 Length**: 142 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

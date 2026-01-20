@@ -85,16 +85,21 @@ Overall, your symptoms sound mild and manageable. If you develop new symptoms li
 
 ## EHR Summary
 
-The patient is a 61-year-old female presenting with lightheadedness, dizziness, and an episode of vertigo that awakened her from sleep and lasted less than one minute. She denied numbness, palpitations, chest pain, or visual changes. Further workup revealed a 5 mm aneurysm of the left posterior communicating artery on MRI. Her past medical history, medications, and allergies are not specified. On admission, she underwent elective cerebral angiogram and coiling of the aneurysm under general anesthesia, which she tolerated well. Postoperatively, she was managed with blood pressure control using Nipride infusion and anticoagulation with heparin for six hours; her coagulation and chemistries remained normal. Clinical examination post-procedure showed she was awake, alert, oriented, and neurologically intact with stable vital signs. The documented diagnosis was a left posterior communicating artery aneurysm, and treatment included endovascular coiling, blood pressure management, and postoperative monitoring.
+The patient is a 61-year-old female presenting with lightheadedness, dizziness, and an episode of vertigo that awakened her from sleep and lasted less than one minute. She denied numbness, palpitations, chest pain, or visual changes. Further workup revealed a 5 mm unruptured aneurysm of the left posterior communicating artery. Her relevant history includes preoperative use of hydrochlorothiazide. The documented diagnosis was unruptured left posterior communicating artery aneurysm. She underwent elective angiogram and coiling of the aneurysm under general anesthesia without complications. Postoperatively, she was monitored in the Neurosurgical ICU with blood pressure control and heparin infusion, and her neurological examination remained intact throughout her stay. She was discharged in stable condition with instructions to continue her routine medications and follow up in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with lightheadedness as the chief complaint. Symptoms included brief episodes of wooziness primarily when standing up or changing positions, with one isolated episode of spinning (vertigo) that lasted a few minutes but did not result in loss of balance; no fainting, nausea, headaches, vision changes, or ringing in the ears were reported. The patient stated that symptoms have remained stable since onset and denied any recent changes in medications, diet, or fluid intake. No relevant medical history, medication changes, or allergies were mentioned. The doctor noted that the lightheadedness was positional and brief, with a single mild vertigo episode, and found no concerning associated symptoms. The assessment was likely orthostatic hypotension, with the vertigo episode possibly related to a mild inner ear issue but not currently concerning. The doctor recommended staying well-hydrated, standing up slowly, and avoiding sudden movements, and advised monitoring for new symptoms such as recurrent vertigo, hearing loss, chest pain, palpitations, severe headaches, or fainting. The patient understood and agreed to follow these recommendations.
+The patient is an adult presenting with lightheadedness as the chief complaint. The lightheadedness is described as brief episodes occurring primarily when standing up or changing positions, with one isolated episode of vertigo (spinning sensation) lasting a few minutes but not resulting in loss of balance. There are no associated symptoms such as nausea, headaches, vision changes, or fainting, and the frequency and severity of symptoms have remained stable. The patient reports no recent changes in medications, diet, or fluid intake. The documented clinical impression is orthostatic hypotension, with the single vertigo episode possibly related to a mild inner ear issue. The treatment plan includes recommendations to stay well-hydrated, stand up slowly, and avoid sudden movements. The patient was advised to monitor for new or worsening symptoms such as recurrent vertigo, hearing loss, chest pain, palpitations, severe headaches, or fainting, and to seek further evaluation if these occur. Overall, the symptoms are considered mild and manageable with lifestyle adjustments.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
+- **STS Score**: 0.481
+- **Model Used**: general
+- **Text1 Length**: 124 words
+- **Text2 Length**: 159 words
+
 
 ## Processing Information
 

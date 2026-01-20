@@ -88,3 +88,21 @@ For now, I recommend taking it easy and avoiding strenuous activity until we kno
 ## Processing Information
 
 - **Processing Time**: 231.0s
+
+## EHR Summary
+
+The patient is a 53-year-old man presenting with several months of chest pain and a recent positive exercise tolerance test. He reported chest pain and shortness of breath, with no history of heart disease, COPD, or asthma; symptoms were persistent over several months. His past medical history includes hypertension, hypercholesterolemia, GERD, and hyperparathyroidism, and he was taking Univasc, Lipitor (discontinued due to fatigue), and aspirin on admission. Cardiac catheterization revealed severe coronary artery disease with 95% LAD, 60% OM1, and 100% proximal RCA stenosis, and an echocardiogram showed preserved ejection fraction with trivial mitral regurgitation and a dilated aortic root. The documented diagnosis was multivessel coronary artery disease. He underwent coronary artery bypass grafting (CABG) times four and had an uneventful postoperative course. At discharge, his condition was good, and he was prescribed medications including potassium chloride, Colace, aspirin, Percocet, citalopram, metoprolol, Lasix, ferrous sulfate, ascorbic acid, and simvastatin. He was advised to follow up in clinic within two weeks and with his physicians in three to six weeks, with visiting nurse support arranged at home.
+
+
+## Dialogue Summary
+
+The patient presents with chest pain as the chief complaint. The pain is described as a pressure or tightness in the chest, rated 6 out of 10 at its worst, and has been present for a couple of days. The discomfort is exacerbated by physical activity such as walking and improves with rest; it is accompanied by mild shortness of breath but no sweating, nausea, or lightheadedness. Relevant medical history, medications, and allergies are not specified in the dialogue. The clinical impression is that the symptoms could be due to muscular strain or anxiety, but exertional chest discomfort warrants caution for possible cardiac causes. The treatment plan includes avoiding strenuous activity, monitoring for warning signs (such as severe pain, pain radiating to the arm or jaw, significant dyspnea at rest, fainting, or sweating), and obtaining blood pressure measurement and an EKG for further evaluation. The patient agreed to this plan.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.582
+- **Model Used**: general
+- **Text1 Length**: 176 words
+- **Text2 Length**: 150 words
+

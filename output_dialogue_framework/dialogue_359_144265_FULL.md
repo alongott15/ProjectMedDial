@@ -87,16 +87,21 @@ Let me know—do you have nitroglycerin or any medications prescribed for these 
 
 ## EHR Summary
 
-The patient is a 48-year-old man presenting with midsternal, pressure-like chest pain radiating to the back, accompanied by shortness of breath, diaphoresis, and nausea. Symptoms began at 11 p.m. the night prior to admission and were similar to previous episodes of anginal chest pain, though this episode included radiation to the back. His relevant history includes a prior myocardial infarction in December 2175, hypertension, borderline diabetes mellitus, and a possible history of coronary artery disease. On physical exam, he was in no acute distress with blood pressure 105/73 mmHg, pulse 84 bpm, respiratory rate 21, and O2 saturation 92% on 2 liters. Electrocardiogram at an outside hospital showed ST elevations in V1-V5; cardiac enzymes were elevated (troponin 1.75, CPK 304). Cardiac catheterization revealed severe multi-vessel coronary artery disease with significant stenoses and occlusions. The patient underwent successful angioplasty and stenting of the LAD and circumflex arteries.
+The patient is a 48-year-old man presenting with acute midsternal, pressure-like chest pain radiating to the back, accompanied by shortness of breath, diaphoresis, and nausea. Symptoms began the previous night and were similar to prior anginal episodes, with dyspnea on exertion but no orthopnea, paroxysmal nocturnal dyspnea, or edema. Relevant history includes coronary artery disease, prior myocardial infarction (December 2175), hypertension, and borderline diabetes mellitus; no medication allergies are specified. Electrocardiogram showed ST elevations in V1–V5 and elevated cardiac enzymes (troponin 1.75, CPK 304 at outside hospital; CPK 594 at admission), consistent with acute myocardial infarction. Cardiac catheterization revealed three-vessel disease; successful angioplasty and stenting were performed on the LAD and left circumflex arteries, with intra-aortic balloon pump support. The documented diagnosis was acute myocardial infarction. Treatment included aspirin, Plavix, metoprolol (with atenolol discontinued), lisinopril (after initial captopril), atorvastatin, and a cardiac diet; the intra-aortic balloon pump was discontinued without complication. The patient was discharged home in good condition with follow-up arranged in cardiology clinic and instructions provided via interpreter.
+
 
 ## Dialogue Summary
 
-The patient presented with pressure in the middle of the chest radiating to the back, associated with anxiety. Symptoms have been occurring intermittently for several days, lasting several minutes per episode, and are described as moderate in intensity with a heaviness sensation; episodes are more frequent and severe with physical exertion and improve with rest. Additional symptoms include shortness of breath during pain episodes and sweating, especially when the pain is stronger; no lightheadedness was reported. The patient has a history of anginal chest pain and a prior heart attack, and currently takes Aspirin, Plavix, Metoprolol, Lisinopril, and Atorvastatin; no nitroglycerin is available or used recently. On assessment, the doctor noted that the symptoms are consistent with angina, particularly given their exertional nature, improvement with rest, and cardiac history. The doctor advised the patient to avoid strenuous activity, monitor symptoms closely, and seek emergency care if pain becomes more severe, lasts longer than usual, occurs at rest, or is accompanied by nausea or fainting. The patient demonstrated understanding of these recommendations.
+The patient is an adult with a history of heart attack presenting with chest pressure as the chief complaint. The chest discomfort is described as a moderate, central heaviness that sometimes radiates to the back, occurring intermittently over several days and lasting several minutes per episode. Symptoms are triggered by physical activity and are accompanied by shortness of breath and sweating, but not lightheadedness; they resolve with rest. The patient reports a similar sensation to prior anginal episodes following their heart attack. Relevant history includes daily use of Aspirin, Plavix, Metoprolol, Lisinopril, and Atorvastatin, with no use of nitroglycerin. The clinical impression documented is angina, likely due to reduced myocardial oxygen supply during exertion. The treatment plan includes avoiding strenuous activity, monitoring symptoms closely, and seeking emergency care if pain worsens, lasts longer, occurs at rest, or is accompanied by nausea or fainting. The patient was advised to report any changes and was counseled on the seriousness of symptom escalation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.977
-- **Similarity Label**: N/A
+- **STS Score**: 0.699
+- **Model Used**: general
+- **Text1 Length**: 170 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

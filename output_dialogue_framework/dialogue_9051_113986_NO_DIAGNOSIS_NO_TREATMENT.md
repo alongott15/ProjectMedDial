@@ -85,16 +85,21 @@ For now, try to avoid activities that make the pain worse and keep track of when
 
 ## EHR Summary
 
-The patient is an 88-year-old female admitted for cardiac catheterization following transfer from an outside hospital. She initially presented with unstable angina characterized by symptomatic substernal chest pain relieved by nitroglycerin, elevated troponin (2.0), and anterolateral T wave inversions on EKG. Her medical history includes hypertension, recurrent C. difficile infection, prior GI bleed, right hip surgery, DVT, and appendectomy; she was on multiple medications including enoxaparin, Lopressor, atorvastatin, Plavix, aspirin, Avapro, and prednisone. Echocardiogram showed septal apical and anterior hypokinesis with an ejection fraction of 35%. Cardiac catheterization revealed clean coronary arteries and no interventions were performed. Post-procedure, she developed a large right groin hematoma and experienced significant pain and agitation requiring Haldol, Versed, and fentanyl. On admission to the CCU, she was afebrile, normotensive, and saturating well on room air but appeared to be in pain. The treatment plan included pain management and monitoring of her post-catheterization complications.
+The patient is an 88-year-old female admitted for cardiac catheterization following unstable angina with substernal chest pain relieved by nitroglycerin. She experienced chest pain, elevated troponin (2.0), and EKG changes, but subsequent catheterization revealed clean coronaries and a 35% ejection fraction. Her post-catheterization course was complicated by a large, painful right groin hematoma with associated ecchymosis and a drop in hematocrit, requiring transfusion of 3 units of packed red blood cells. Relevant history includes hypertension, recurrent C. difficile infection, prior GI bleed, DVT, and right hip surgery. The documented diagnoses were noncardiac chest pain, status post cardiac catheterization with large groin hematoma, and hypertension. Treatment included discontinuation of aspirin, Plavix, and heparin, continuation and adjustment of antihypertensives (metoprolol and irbesartan), pain management, transfusions, and supportive care for the hematoma. She was discharged in good condition to a rehabilitation facility with instructions for hematocrit monitoring and follow-up.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain located in the middle of the chest. The discomfort was described as pressure-like, rated 6–7 out of 10 in severity, starting a few days ago, coming and going without clear triggers, and improving with nitroglycerin; the pain did not radiate to the arm, neck, or jaw. Associated symptoms included lightheadedness and anxiety during episodes, but no sweating or shortness of breath. The patient also reported constant pain in the right groin, which has made walking and movement more difficult. No relevant medical history, medications (other than nitroglycerin), or allergies were discussed. The doctor noted two separate issues: chest discomfort likely cardiac-related given its response to nitroglycerin and new onset with lightheadedness, and right groin pain possibly due to muscle, joint, arthritis, or hernia. The doctor advised monitoring for worsening chest symptoms (such as severe shortness of breath, sweating, or pain radiating to the arm or jaw) and seeking immediate care if these occur; for groin pain, watch for swelling, redness, or fever. The patient was instructed to avoid aggravating activities, keep track of symptoms, and plan for follow-up evaluation.
+The patient presents with central chest pain as the chief complaint. The chest discomfort is described as a pressure-like sensation, rated 6–7 out of 10 in severity, occurring intermittently over the past few days, and is relieved by nitroglycerin; it is not associated with exertion, eating, or a clear trigger, and does not radiate to the arm, neck, or jaw. The patient also reports associated lightheadedness and anxiety during episodes but denies sweating or dyspnea. Additionally, the patient has constant right groin pain that impairs mobility and is not intermittent like the chest pain. Relevant history includes current use of nitroglycerin, but no other medical history, medications, or allergies are specified. The clinical impression is that the chest pain may be cardiac in origin due to its response to nitroglycerin, while the groin pain could be musculoskeletal, arthritic, or possibly a hernia. The treatment plan includes monitoring for worsening symptoms (such as severe shortness of breath, sweating, or pain radiating to the arm or jaw), avoiding aggravating activities, and seeking immediate care if symptoms escalate. The patient was advised to track symptoms and follow up for further evaluation if needed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.578
+- **Model Used**: general
+- **Text1 Length**: 146 words
+- **Text2 Length**: 190 words
+
 
 ## Processing Information
 

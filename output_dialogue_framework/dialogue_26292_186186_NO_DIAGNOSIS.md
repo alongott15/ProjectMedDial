@@ -85,16 +85,21 @@ If you ever do notice something unusual, even if it seems minor, it’s worth br
 
 ## EHR Summary
 
-The patient is a 70-year-old female admitted for an unspecified reason and discharged after clearance by Physical Therapy. During her hospital stay, a urinalysis was positive, indicating a urinary tract infection. Her past medical history, allergies, and presenting symptoms are not specified in the note. On discharge, her condition was documented as good. The diagnosis of urinary tract infection was made based on urinalysis results. She was prescribed ciprofloxacin 500 mg orally twice daily for 3 days for the infection. Additional discharge medications included Lopressor, Protonix, Percocet, Colace, Aspirin, Lasix, and potassium chloride. She was advised to follow up with her primary care physician, cardiologist, and surgeon.
+The patient is a 70-year-old female admitted for an unspecified reason and discharged after clearance by Physical Therapy. During her hospital stay, a urinalysis was positive, indicating a urinary tract infection. No specific symptoms related to the urinary tract infection are documented in this note. Her relevant medical history includes use of medications such as Lopressor, Protonix, Percocet, Colace, Aspirin, Lasix, and potassium chloride. The documented diagnosis was urinary tract infection. She was prescribed ciprofloxacin 500 mg orally twice daily for 3 days for this infection. On discharge, her condition was described as good. She was advised to follow up with her primary care physician, cardiologist, and surgeon.
+
 
 ## Dialogue Summary
 
-The patient presented with a general concern about their health but did not report any specific symptoms. They denied changes in energy, sleep, appetite, mood, memory, concentration, joint or muscle aches, pains, stiffness, physical activity limitations, falls, or balance issues. The patient stated they keep up with regular exercise and routine screenings and have no known ongoing medical conditions. No abnormal physical findings or symptoms were described during the visit. The doctor assessed that the patient is maintaining their health well and found no indication of new problems at this time. The doctor recommended continuing regular exercise, routine check-ups, and a healthy lifestyle, and advised the patient to report any new or unusual symptoms if they arise. The patient expressed understanding and had no further questions.
+The patient presented for a general health check-in without any specific chief complaint or symptoms. They reported no changes in energy, sleep, appetite, mood, memory, concentration, or ability to perform daily physical activities. The patient denied any recent aches, pains, stiffness, falls, or balance issues and stated they have no known ongoing medical conditions. They are maintaining regular exercise and routine health screenings. No diagnosis was documented during the visit. The clinical impression was that the patient is maintaining their health well with no concerning findings at this time. The treatment plan included advice to continue regular exercise, routine check-ups, and a healthy lifestyle, and to report any new or unusual symptoms if they arise. No further interventions were recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.930
-- **Similarity Label**: N/A
+- **STS Score**: 0.377
+- **Model Used**: general
+- **Text1 Length**: 108 words
+- **Text2 Length**: 120 words
+
 
 ## Processing Information
 

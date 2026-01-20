@@ -70,3 +70,21 @@
 ## Processing Information
 
 - **Processing Time**: 58.5s
+
+## EHR Summary
+
+The patient is a 28-year-old female presenting after being found unresponsive at home, with a history of a prior seizure, intravenous drug use, and depression. She was discovered lying on the ground, unresponsive, incontinent of urine, and with burns to her back and right arm; her mouth was clenched shut but no tonic-clonic movements or tongue biting were observed. On arrival, she was hypothermic (86.0°F) and responded to Narcan administration, with subsequent improvement in mental status and temperature. Her past medical history includes a single seizure episode 19 years ago, recent detoxification for heroin, and ongoing use of Celexa, Klonopin, Percocet, Doxepin, and Seroquel; she has no known drug allergies. The documented diagnoses were seizure, third degree burns, depression, and possible ongoing substance abuse. She was treated with Trileptal for seizure prevention, silver sulfadiazine cream for burns, and advised to discontinue Seroquel and Doxepin due to seizure risk; Celexa was continued and lorazepam prescribed as needed for anxiety or insomnia. The patient was discharged with instructions for follow-up with Neurology, Psychiatry, and Plastic Surgery.
+
+
+## Dialogue Summary
+
+The patient presents with altered mental status after being found unresponsive at home. The patient reports amnesia for the events leading up to the episode and describes ongoing confusion. Narcan was administered, after which the patient regained consciousness. Upon awakening, the patient noticed painful burns on the back and right arm, which were unexpected and caused significant discomfort. The severity of the burn pain and any limitations in arm movement were being assessed during the encounter. Relevant history regarding prior medical conditions, medications, or allergies is not specified. No formal diagnosis or clinical impression is documented in the dialogue. Treatment recommendations or specific interventions have not yet been provided.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.568
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 109 words
+

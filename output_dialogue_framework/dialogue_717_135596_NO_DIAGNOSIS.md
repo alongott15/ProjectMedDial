@@ -97,16 +97,21 @@ Let me know if you have any questions or concerns about what we've talked about,
 
 ## EHR Summary
 
-The patient is a 77-year-old female presenting with mild angina. She reported chest discomfort discovered during a pre-operative stress test for total knee replacement, which led to further cardiac evaluation revealing significant coronary artery disease (LAD 80%, LCx 95%, RCA 50% occlusion). Her past medical history includes atrial fibrillation, hypertension, hyperlipidemia, osteoarthritis, rheumatoid arthritis, and macular degeneration; she has no known drug allergies. On physical exam at discharge, she was alert and oriented with stable vital signs, bilateral basal lung crackles, regular cardiac rhythm, mild lower extremity edema, and clean surgical incisions. Laboratory results showed mild anemia (Hgb 8.4 g/dL) and mild hyponatremia (Na 131 mmol/L). The documented diagnosis was multivessel coronary artery disease. She underwent coronary artery bypass grafting (CABG) x4 on hospital day 2. The treatment plan included post-operative monitoring and standard care following CABG.
+The patient is a 77-year-old female presenting with mild angina. She reported chest discomfort that led to cardiac evaluation, including a stress test and cardiac catheterization, which revealed significant coronary artery disease (LAD 80%, LCx 95%, RCA 50% occlusion). Her past medical history includes atrial fibrillation, hypertension, hyperlipidemia, osteoarthritis, rheumatoid arthritis, and macular degeneration; she has no known drug allergies. The documented diagnoses were coronary artery disease status post coronary artery bypass grafting (CABG) x4, atrial fibrillation, osteoarthritis, and rheumatoid arthritis. During her hospital course, she underwent CABG x4 and experienced post-operative atrial fibrillation managed with beta-blockers, magnesium, and amiodarone, as well as lower extremity edema treated with IV furosemide. At discharge, she was stable and prescribed furosemide, metoprolol, amiodarone, aspirin, potassium chloride, docusate sodium, oxycodone-acetaminophen as needed for pain, and zolpidem as needed for sleep. She was advised to avoid heavy lifting and swimming, keep incisions clean and dry, and follow up with her cardiothoracic surgeon and primary care physician. Discharge disposition was to an extended care facility for rehabilitation.
+
 
 ## Dialogue Summary
 
-The patient presented with mild chest pain as the chief complaint. The chest discomfort has been present for a few days, comes and goes, is described as a pressure or tightness (not sharp), and tends to appear with activity but improves with rest; it has not prevented the patient from performing daily activities, though errands are done more slowly. Additional symptoms include swelling in the lower legs, which is more noticeable at the end of the day and has remained stable, and recent nausea without changes in appetite or weight gain; no shortness of breath was reported. No specific medical history, medications, or allergies were mentioned during the visit. On clinical review, the doctor noted mild, stable chest tightness with exertion and mild lower leg swelling, with no signs of worsening or severe limitation. The assessment included possible mild angina and fluid retention, with reassurance that symptoms are currently mild and stable but could be early signs of heart-related issues. The doctor advised monitoring symptoms closely, limiting salt intake, elevating the legs when sitting, and seeking prompt medical attention if symptoms worsen or new symptoms develop (such as shortness of breath, dizziness, or sudden weight gain). The patient expressed understanding and agreed to track symptoms and reduce salt intake.
+The patient presents with mild chest pain as the chief complaint. The chest discomfort has been present for a few days, is described as a pressure or tightness that occurs with activity and improves with rest, and has not limited daily activities but causes the patient to move more slowly. Additional symptoms include swelling in the lower legs, which is more noticeable at the end of the day and has remained stable, as well as recent nausea without changes in appetite or weight gain; there is no dyspnea reported. Relevant history, medications, and allergies are not specified in the dialogue. The clinical impression discussed includes possible mild angina and fluid retention, with consideration of heart-related causes. The treatment plan includes monitoring symptoms closely, limiting salt intake, elevating the legs to reduce swelling, and seeking prompt medical attention if symptoms worsen or new symptoms such as shortness of breath, dizziness, or sudden weight gain develop. The patient is advised to keep track of symptom patterns and to take it easy with physical activity.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.501
+- **Model Used**: general
+- **Text1 Length**: 171 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

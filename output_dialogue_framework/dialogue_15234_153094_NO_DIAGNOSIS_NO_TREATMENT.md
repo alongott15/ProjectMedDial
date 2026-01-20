@@ -97,16 +97,21 @@ Would you like help arranging a visit soon for an exam and some basic tests?
 
 ## EHR Summary
 
-The patient is a 53-year-old man presenting with several months of chest pain as his chief complaint. He reported associated shortness of breath but denied orthopnea, asthma, or history of COPD. His past medical history includes hypertension, hypercholesterolemia, GERD, and hyperparathyroidism; medications on admission were Univasc, Lipitor (discontinued due to fatigue), and aspirin, with no known drug allergies. Cardiac catheterization revealed severe coronary artery disease: 95% LAD, 60% OM1, and 100% proximal RCA stenosis, with an ejection fraction of 60–70% and trivial mitral regurgitation on echocardiogram. Laboratory data and physical examination were unremarkable except for the cardiac findings. The documented diagnosis was severe multivessel coronary artery disease. He was referred for coronary artery bypass grafting following catheterization.
+The patient is a 53-year-old man presenting with several months of chest pain and a recent positive exercise tolerance test. He reported chest pain and shortness of breath, with no history of heart disease, COPD, or asthma; symptoms were persistent over several months. His past medical history includes hypertension, hypercholesterolemia, GERD, and hyperparathyroidism, and he was taking Univasc and aspirin on admission. Cardiac catheterization revealed severe coronary artery disease (95% LAD, 60% OM1, 100% proximal RCA) with preserved ejection fraction, and he was diagnosed with multivessel coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) times four and tolerated the procedure well, with an uneventful postoperative course. At discharge, his condition was stable and he was advised to follow up in clinic within two weeks. Discharge medications included potassium chloride, Colace, aspirin, Percocet as needed for pain, citalopram, metoprolol, Lasix, ferrous sulfate, ascorbic acid, and simvastatin.
+
 
 ## Dialogue Summary
 
-The patient presented with new-onset chest discomfort. The chest pain began a couple of days ago, is intermittent, rated 5–6 out of 10 in severity, and is not affected by activity or rest; it is sometimes accompanied by shortness of breath but not by sweating, nausea, or lightheadedness. The patient denied any prior similar episodes and reported no limitation in daily activities. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of alarming symptoms such as severe pain, fainting, or significant trouble breathing, and considered possible causes including muscle strain, anxiety, or acid reflux, while emphasizing the need to rule out more serious conditions due to the new onset and associated shortness of breath. The doctor recommended monitoring symptoms closely and seeking urgent care if severe pain, worsening shortness of breath, fainting, or new symptoms develop. For further evaluation, the doctor advised arranging a physical exam, EKG, and possibly blood tests to check for heart-related issues. The patient agreed to proceed with scheduling an exam and basic tests.
+The patient is an adult presenting with new-onset chest discomfort as the chief complaint. The chest pain began a couple of days ago, is intermittent, rated 5–6 out of 10 in severity, and is sometimes accompanied by shortness of breath; it does not change with activity or rest and has not limited daily activities. The patient denies associated symptoms such as sweating, nausea, or lightheadedness and has no prior history of similar discomfort. No specific diagnosis was documented, but the physician discussed that the symptoms could be due to muscle strain, anxiety, or acid reflux, while also noting the importance of ruling out more serious causes given the new onset and associated dyspnea. The treatment plan includes monitoring symptoms, avoiding strenuous exertion, and seeking prompt medical attention if severe pain, worsening dyspnea, fainting, or new symptoms develop. The doctor recommended arranging a physical exam, EKG, and possibly blood tests to further evaluate the cause of the chest discomfort. The patient agreed to schedule a visit for these basic tests.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.526
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

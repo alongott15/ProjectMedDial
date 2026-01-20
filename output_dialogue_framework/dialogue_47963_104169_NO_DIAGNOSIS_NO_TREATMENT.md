@@ -87,16 +87,21 @@ Let me ask: how much is this affecting your ability to do things around the hous
 
 ## EHR Summary
 
-The patient is a 77-year-old male presenting after a mechanical fall at home. He reported left lower extremity pain and inability to ambulate, with the left leg noted to be shortened and externally rotated on exam, and tenderness over the hip. His medical history includes atrial fibrillation on anticoagulation (INR 2.5), coronary artery disease status post CABG, reduced ejection fraction (25%) with ICD, Parkinson's disease, prior right hip replacements, degenerative joint disease of the spine, and hypertension; he has allergies to penicillins, Comtan, and shellfish-derived products. On admission, he was well-appearing with stable vital signs; physical exam confirmed left lower extremity deformity without skin tenting. Laboratory results showed mild anemia (Hgb 10.4–11.1) and stable platelets. The documented diagnosis was left hip fracture. He underwent left hip hemiarthroplasty on hospital day 2. At discharge, his wound was healing with minimal serous drainage and ecchymosis, and he remained hemodynamically stable. The treatment plan included post-operative care and monitoring for wound healing.
+The patient is a 77-year-old male presenting after a mechanical fall at home. He was found to have a left hip fracture, with the left lower extremity noted to be shortened, externally rotated, and tender to palpation over the hip; there was no skin tenting, and pedal pulses were intact. His past medical history includes atrial fibrillation on anticoagulation (INR 2.5), coronary artery disease status post CABG, low ejection fraction (25%) with ICD, Parkinson's disease, prior right hip replacements, degenerative joint disease of the spine, and hypertension; allergies include penicillins, Comtan, and shellfish-derived products. The documented diagnoses were status post fall, left hip fracture, and acute blood loss anemia. He underwent left hip hemiarthroplasty on hospital day 2, received FFP for elevated INR preoperatively, and was transfused with 2 units of packed red blood cells postoperatively for acute blood loss anemia. Postoperative care included blood pressure management, physical therapy for mobility, and resumption of warfarin with INR monitoring. At discharge, he was stable and instructed to be weight bearing as tolerated on the left leg, continue prescribed medications, monitor for signs of infection, and follow up with orthopaedics in two weeks. Discharge disposition was to an extended care facility.
+
 
 ## Dialogue Summary
 
-The patient presented with left leg discomfort and inability to walk following a fall at home. Symptoms included the left leg appearing shorter and turned outward, pain rated as 7/10 with movement and 3–4/10 at rest, inability to bear weight or stand, and tenderness on touch near the hip; no numbness, tingling, swelling, bruising, or skin color changes were reported. The patient described the pain and mobility issues as unchanged since the fall and denied any specific cause other than sudden loss of balance. No relevant medical history, medications, or allergies were mentioned. On examination, the doctor noted the abnormal leg position and inability to bear weight as concerning findings. The assessment was possible hip injury, such as a fracture, given the mechanism of injury and physical presentation. The doctor advised avoiding walking or putting weight on the affected leg, recommended an urgent X-ray to check for fracture, and suggested keeping the leg still until further evaluation. The patient reported significant difficulty with daily activities and self-care since the incident.
+The patient is an older adult presenting with left leg pain and functional impairment following a fall at home. Key symptoms include the left leg appearing shorter and externally rotated, inability to stand or walk since the fall, and pain rated as 7/10 with movement (3–4/10 at rest), primarily localized to the hip and worsened by movement or palpation. There is no reported numbness, tingling, swelling, or significant skin color change, and the symptoms have remained unchanged since the injury. The patient reports significant difficulty with self-care and mobility since the incident. Relevant history includes a sudden loss of balance leading to the fall; no other medical history, medications, or allergies are specified. The clinical impression is a possible hip fracture based on the mechanism of injury, physical findings, and inability to bear weight. The treatment plan includes avoiding weight-bearing on the affected leg, keeping the leg still, and obtaining an X-ray as soon as possible to confirm the diagnosis. The patient was advised not to attempt walking or moving the leg until further evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.577
+- **Model Used**: general
+- **Text1 Length**: 199 words
+- **Text2 Length**: 175 words
+
 
 ## Processing Information
 

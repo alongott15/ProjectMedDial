@@ -96,3 +96,21 @@ For now, I recommend you take it easy and avoid strenuous activity until this is
 ## Processing Information
 
 - **Processing Time**: 425.6s
+
+## EHR Summary
+
+The patient is a 66-year-old male presenting with three episodes of chest pain over the past three days. The chest pain was described as diffuse sternal discomfort with a "smoky feeling in my lungs," each episode lasting 5–10 minutes, triggered by exertion (shoveling snow, lifting a toilet bowl) or occurring at rest, and relieved by rest; there was associated diaphoresis but no radiation, nausea, vomiting, shortness of breath, or palpitations. Relevant history includes prior CABG, multiple stents, hyperlipidemia, hypertension, osteoarthritis, anemia, polymyalgia rheumatica, and GERD; he has no known drug allergies. The documented diagnoses were non-ST elevation myocardial infarction (NSTEMI), coronary artery disease, status post CABG, hyperlipidemia, hypertension, and GERD. During hospitalization, he underwent cardiac catheterization revealing significant multi-vessel disease and subsequently had a redo CABG x4 with postoperative re-exploration for bleeding and management of atrial fibrillation/flutter. Treatment included heparin, integrillin, amiodarone, metoprolol, diuretics, and supportive care; he was discharged home in good condition. Discharge instructions included medication adherence, activity restrictions (no driving for 4 weeks, no lifting >10 lbs for 3 months), wound care guidance, and follow-up appointments.
+
+
+## Dialogue Summary
+
+The patient is presenting with chest pain as the chief complaint. The chest pain began three days ago, is described as a central pressure-like sensation rated 6–7 out of 10 in severity, and is accompanied by sweating but not nausea. The discomfort occurs both with activity and at rest, comes and goes, and has made daily activities more difficult; resting provides only partial relief. The patient also reports episodes of rapid atrial fibrillation or flutter and continued bleeding. Relevant medical history, medications, and allergies are not specified. The clinical impression is that the symptoms could represent angina, possibly due to the heart not getting enough oxygen, though other causes are considered. The treatment plan includes advising the patient to avoid strenuous activity and to seek immediate medical attention if symptoms worsen or new warning signs develop; further assessment is recommended.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.725
+- **Model Used**: general
+- **Text1 Length**: 179 words
+- **Text2 Length**: 140 words
+

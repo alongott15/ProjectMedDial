@@ -87,16 +87,21 @@ Let me know if you have questions about caring for the sore or want advice on ma
 
 ## EHR Summary
 
-The patient is an 84-year-old male presenting with an opened large sacral decubitus ulcer, which had previously been covered with eschar and had been present for months. At admission, he denied fever, chills, gastrointestinal symptoms, urinary changes, or rectal bleeding, and reported only a chronic nonproductive cough at baseline. His past medical history includes coronary artery disease (status post angioplasty), congestive heart failure (EF 25%), recent MSSA bacteremia on a six-week course of Oxacillin, type 2 diabetes, chronic renal insufficiency, gout, hypothyroidism, hyperlipidemia, mitral regurgitation, peripheral vascular disease, and benign prostatic hypertrophy. On admission, he was recovering well from his recent infection and had increased appetite. No acute findings or new symptoms were documented on physical exam at the time of admission. The clinical impression focused on management of the reopened sacral decubitus ulcer in the context of his complex medical history. Treatment included continuation of Oxacillin for MSSA bacteremia and supportive care for his chronic conditions. Further wound care and monitoring were recommended during his hospital stay.
+The patient is an 84-year-old male presenting with an opened large sacral decubitus ulcer, which had previously been covered with eschar and had been present for months. At the time of admission, he denied fevers, chills, gastrointestinal symptoms, urinary changes, or rectal bleeding, and reported only a chronic nonproductive cough at baseline. He had recently completed a hospital stay for MSSA bacteremia and was on a six-week course of Oxacillin. His medical history is significant for coronary artery disease (status post angioplasty), congestive heart failure (EF 25%), chronic renal insufficiency, type 2 diabetes, gout, hypothyroidism, hyperlipidemia, mitral regurgitation, peripheral vascular disease, benign prostatic hypertrophy (post-TURP), cataracts, COPD, esophagitis, anemia, osteoarthritis, and urinary incontinence. No drug allergies were reported. The clinical impression was reopening of a chronic sacral decubitus ulcer in the context of multiple comorbidities and recent MSSA bacteremia. Treatment included ongoing Oxacillin therapy and evaluation of the ulcer. Further recommendations or interventions were not specified in the note.
+
 
 ## Dialogue Summary
 
-The patient presented with a large open sore on the lower back that has worsened over the past few days. Symptoms include pain around the sore, especially when moving or lying down, some redness in the area, and difficulty with mobility and self-care due to discomfort; the patient denied drainage, odor, swelling, warmth, skin changes nearby, bleeding, increased size of the sore, fever, or feeling generally unwell. The patient’s cough was noted but unchanged, and no other relevant medical history, medications, or allergies were mentioned. On examination, the doctor noted localized redness without swelling, warmth, or signs of systemic infection. The assessment was a pressure ulcer (decubitus ulcer) without evidence of severe infection. The doctor recommended relieving pressure by changing positions regularly, keeping the area clean and dry, and using a cushion or soft surface when sitting or lying down. The patient was advised to monitor for new drainage, increased redness, warmth, swelling, or systemic symptoms and to contact healthcare if these occur.
+The patient presents with a chief complaint of a sore on the lower back that has opened up and appears worse than before. The sore has been open for several days, is associated with pain—especially when moving or lying down—and has caused difficulty with mobility and self-care. The patient reports some redness around the area but denies drainage, odor, swelling, warmth, bleeding, or changes in the size of the sore; there are no systemic symptoms such as fever or malaise. There is no change in the patient's chronic cough. The physician’s assessment is that the patient likely has a pressure ulcer (decubitus ulcer) without signs of severe infection. The treatment plan includes relieving pressure by changing positions regularly, keeping the area clean and dry, and using a cushion or soft surface when sitting or lying down. The patient was advised to monitor for signs of infection such as new drainage, increased redness, warmth, swelling, or feeling unwell, and to contact the healthcare team if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.477
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

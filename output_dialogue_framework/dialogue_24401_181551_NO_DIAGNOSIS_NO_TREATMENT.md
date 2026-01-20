@@ -87,16 +87,21 @@ Let me know if you have questions about what I’ve said or if there’s anythin
 
 ## EHR Summary
 
-The patient is a 70-year-old male presenting with hypertensive emergency following esophageal stent placement. He experienced severe hypertension (blood pressures in the 220s/110s), 150 cc bilious emesis, umbilical pain, and a frontal headache post-procedure; overnight, he had mild umbilical cramping pain with nausea and three episodes of vomiting, but no gastrointestinal bleeding. His past medical history includes distal esophageal stricture, colon cancer status post hemicolectomy, coronary artery disease with prior MI and stent, hypertension, ventral hernia, cerebrovascular accident, peripheral vascular disease, COPD, and peptic ulcer disease; he is allergic to penicillins. On exam, he was alert and oriented, breathing rapidly and deeply, with a blood pressure of 150/70 mmHg and minimal umbilical tenderness. The documented diagnosis was hypertensive emergency. Treatment included intravenous antihypertensives (2.5 mg IV lopressor and 20 mg IV hydralazine in divided doses) and supportive care.
+The patient is a 70-year-old male presenting with hypertensive emergency following esophageal stent placement. He experienced severe hypertension (220s/110s), bilious vomiting, umbilical pain, and frontal headache post-procedure, with subsequent development of hyperglycemia, anion gap metabolic acidosis, and leukocytosis. His past medical history includes distal esophageal stricture, colonic adenocarcinoma status post hemicolectomy, coronary artery disease, hypertension, COPD, peripheral vascular disease, and a history of CVA. The documented diagnosis was diabetic ketoacidosis (DKA), with secondary diagnoses of COPD, colonic adenocarcinoma, distal esophageal stricture, and peripheral vascular disease. Treatment included IV antihypertensives for blood pressure control, insulin therapy for DKA (glargine and sliding scale Humalog), electrolyte repletion, continuation of home medications for CAD and COPD, and supportive care for abdominal pain and vision changes. He was discharged in good condition on a regimen including insulin, oral hypoglycemics, cardiac and pulmonary medications, and instructed to monitor blood glucose closely. Follow-up was arranged with primary care and ophthalmology.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about very elevated blood pressure and associated symptoms. They reported blood pressure readings in the 220s/110s, mild cramping around the belly button (onset overnight, unchanged in severity), overnight vomiting with yellowish-green (bilious) content preceded by nausea, a strong frontal headache, diminished vision, chronic shortness of breath (no chest pain today), and increased weakness making eating and drinking difficult. The patient denied any history of kidney problems and is not currently taking blood pressure medications, only lansoprazole for stomach issues; no medication allergies were mentioned. No physical findings were described beyond the patient's reported symptoms. The doctor assessed that the combination of severely elevated blood pressure, headache, and vision changes is concerning for possible end-organ effects and emphasized the risk of complications. The doctor recommended prompt medical evaluation today for blood pressure management and advised monitoring for warning signs such as chest pain, confusion, weakness, or difficulty speaking, with instructions to seek emergency care if these occur. The patient expressed understanding and agreed to follow the advice.
+The patient is an adult presenting with severely elevated blood pressure as the main complaint. Key symptoms include blood pressure readings in the 220s/110s, a strong frontal headache, diminished vision, mild periumbilical abdominal cramping (onset overnight, unchanged in severity), and episodes of bilious vomiting with preceding nausea. The patient reports chronic shortness of breath but denies chest pain, and notes increased weakness and difficulty eating or drinking due to nausea and vomiting. There is no history of kidney disease, and the only current medication is lansoprazole; no antihypertensive medications are being taken. The clinical impression is concern for hypertensive urgency or emergency given the markedly elevated blood pressure with associated headache and vision changes. The physician advised prompt medical evaluation today for blood pressure management and monitoring for warning signs such as chest pain, confusion, weakness, or difficulty speaking. The patient was instructed not to attempt home management and to seek emergency care if new severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.480
+- **Model Used**: general
+- **Text1 Length**: 153 words
+- **Text2 Length**: 158 words
+
 
 ## Processing Information
 

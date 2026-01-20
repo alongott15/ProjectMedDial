@@ -87,16 +87,21 @@ Given the pain level and drainage, it’s reasonable to consider seeing a health
 
 ## EHR Summary
 
-The patient is a 43-year-old female presenting with recurrent inflammation and drainage of the right axilla. She reported a cystic lesion in the right axilla for seven days, with increasing pain and a cyst rupture three days prior to admission, followed by brownish, foul-smelling drainage. Additional symptoms included two episodes of nausea and vomiting one day before admission, without fever, chills, diarrhea, or urinary symptoms. Her medical history includes HIV, hepatitis C, noninsulin dependent diabetes mellitus, gastritis, and hyperlipidemia; she has had previous lancing procedures for hidradenitis suppurativa in the right axilla and anogenital area. On physical examination, she was afebrile with slight tachycardia and otherwise stable vital signs. The documented diagnosis is recurrent hidradenitis suppurativa of the right axilla. Treatment included ongoing antiretroviral therapy, diabetes management with insulin, and symptomatic care with Tylenol. No known drug allergies were reported.
+The patient is a 43-year-old female presenting with recurrent inflammation and drainage of the right axilla, consistent with hidradenitis suppurativa. She reported a cystic lesion in the right axilla for seven days prior to admission, which burst three days before admission, resulting in increasing pain and brownish, foul-smelling drainage; she also experienced two episodes of nausea and vomiting one day prior to admission. Her relevant medical history includes HIV, hepatitis C, insulin-dependent diabetes mellitus, gastritis, and dyslipidemia, with previous similar episodes requiring surgical intervention. On admission, physical exam revealed indurated skin with copious purulent drainage in the right axilla, and she developed fever (up to 103.2°F) and leukopenia during hospitalization. The documented diagnosis was recurrent hidradenitis suppurativa status post multiple examinations under anesthesia with incision, drainage, and wide local debridement of the right axilla, followed by VAC dressing placement. Treatment included multiple surgical debridements, intravenous antibiotics (Levofloxacin, Flagyl, Vancomycin), pain management with Percocet, continuation of diabetes medications, and plans to resume HIV therapy as appropriate. She was discharged in good condition to a rehabilitation facility for ongoing VAC changes and antibiotic therapy, with follow-up arranged with infectious disease and plastic surgery for possible future reconstruction.
+
 
 ## Dialogue Summary
 
-The patient presented with pain and drainage from a lump in the right armpit. Symptoms included a throbbing ache around the lump, worsened by arm movement, swelling, warmth, redness, and foul-smelling brownish drainage without blood. The pain was rated 7 out of 10 and limited daily activities; onset was a few days ago, with similar episodes in the past at the same site. The patient denied fever or chills but reported two episodes of nausea and vomiting and increased fatigue. On examination, the doctor noted signs consistent with infection or abscess, possibly hidradenitis suppurativa or a recurring skin abscess. The doctor advised keeping the area clean and dry, avoiding shaving and harsh deodorants, and using warm compresses for comfort and drainage. The patient was instructed to seek urgent care if symptoms worsen (increased pain, spreading redness, fever, or feeling very unwell) and to consider follow-up for possible antibiotics or drainage if needed.
+The patient is an adult presenting with pain and drainage from a lump in the right axilla (armpit). The pain is described as a throbbing ache, rated 7 out of 10, worsened by arm movement, and associated with swelling, warmth, redness, and foul-smelling brownish drainage. Symptoms began a few days ago, with similar episodes occurring previously in the same location; the current episode is also causing functional limitation and fatigue, with two episodes of nausea and vomiting but no fever or chills. There is no clear trigger identified for recurrence. The clinical impression is a recurring infection or abscess in the right axilla, possibly hidradenitis suppurativa or a chronic skin abscess. The treatment plan includes keeping the area clean and dry, avoiding shaving and harsh deodorants, using warm compresses, and monitoring for worsening symptoms such as increased pain, fever, spreading redness, or systemic illness. The patient was advised to seek further medical care if symptoms worsen or do not improve.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.969
-- **Similarity Label**: N/A
+- **STS Score**: 0.772
+- **Model Used**: general
+- **Text1 Length**: 195 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

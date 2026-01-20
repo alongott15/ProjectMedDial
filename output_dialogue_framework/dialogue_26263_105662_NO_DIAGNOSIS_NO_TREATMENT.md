@@ -87,16 +87,21 @@ If you’d like, I can discuss lifestyle factors that help maintain digestive he
 
 ## EHR Summary
 
-The patient is a 44-year-old male presenting with lower gastrointestinal bleeding (LGIB). He reported rectal bleeding for a few hours, with darker stools than usual and no associated dizziness or abdominal pain; he has a history of recurrent LGIBs over the past few months requiring multiple transfusions. His medical history includes Ehlers-Danlos syndrome type IV with prior bowel bleeds, celiac and carotid artery aneurysms, GERD, hypertension, and previous surgeries. On examination, he was alert and stable, with an unremarkable abdominal exam. Laboratory results showed a declining hematocrit from 43.0 to 31.8 during admission. Colonoscopy revealed multiple clots in the colon but no clear bleeding source. The clinical impression was ongoing LGIB likely related to his underlying vascular disorder. Treatment included DDAVP administration, serial hematocrit monitoring, intravenous fluids, NPO status, and transfusion of packed red blood cells as needed.
+The patient is a 44-year-old male presenting with lower gastrointestinal bleeding (LGIB) as the chief complaint. He reported rectal bleeding for several hours, with darker stools than usual and no associated dizziness or abdominal pain; he has a history of recurrent LGIB requiring transfusions. His medical history includes Ehlers-Danlos syndrome type IV, prior bowel bleeds, celiac and carotid artery aneurysms, GERD, hypertension, and multiple surgeries. On admission, his hematocrit was 43.0 and gradually decreased, necessitating transfusions and DDAVP. Colonoscopy revealed multiple clots initially, and a repeat procedure identified an ulceration near a colonic anastomosis as a possible source. The documented diagnosis was lower GI bleed. Treatment included PRBC transfusions, DDAVP, parenteral nutrition, mesalamine enemas, ursodiol, and pantoprazole; he was discharged home in stable condition with instructions to continue these medications and follow up with gastroenterology and surgery.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about recent rectal bleeding, specifically noting darker stools over the past few days. The patient denied seeing bright red blood, and described the stool color as dark brown rather than black and tarry. There were no associated symptoms such as abdominal pain, nausea, changes in appetite, fatigue, lightheadedness, constipation, or diarrhea. The patient reported no recent changes in diet, medications, or supplements. On assessment, the doctor noted the absence of concerning symptoms and that the stool was not black and tarry, which is reassuring and less suggestive of significant gastrointestinal bleeding. The doctor advised monitoring stool color and symptoms at home, and to seek medical attention if black, sticky stools, visible blood, fatigue, or dizziness develop. The doctor also offered to discuss lifestyle factors for digestive health if the patient was interested.
+The patient presents with a chief complaint of rectal bleeding, specifically noting darker brown stools over the past few days. The patient denies seeing bright red blood, and reports no associated symptoms such as abdominal pain, nausea, changes in appetite, fatigue, lightheadedness, constipation, or diarrhea. There have been no recent changes in diet, medications, or supplements. The stools are described as dark brown rather than black and tarry. No significant medical history, medications, or allergies were discussed. The clinical impression is that there are no current signs of significant gastrointestinal bleeding, as the patient lacks concerning symptoms and the stool is not black and tarry. The treatment plan is to monitor stool color and symptoms at home, with instructions to seek medical attention if stools become black and sticky, visible blood appears, or symptoms such as fatigue or dizziness develop. The doctor also offered to discuss lifestyle factors for digestive health if the patient is interested.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.602
+- **Model Used**: general
+- **Text1 Length**: 137 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

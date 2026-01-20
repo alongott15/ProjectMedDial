@@ -85,16 +85,23 @@ For now, I’d recommend continuing to monitor how you’re doing at home. If yo
 
 ## EHR Summary
 
-The patient is a newborn female evaluated due to maternal intrapartum fever. She was delivered at 40-4/7 weeks by stat cesarean section for a nonreassuring fetal heart pattern and 20% placental abruption, with Apgar scores of 8 at one minute and 9 at five minutes. On initial examination, the infant was somewhat pale but otherwise had normal vital signs and physical findings. Relevant history includes maternal fever (maximum 101°F an hour before delivery), no antibiotic prophylaxis, and negative maternal infectious disease screens. Due to the risk of infection, empiric antibiotics (ampicillin and gentamicin) were started, and a normal saline bolus was given. The following day, the infant’s blood culture was positive for group B beta streptococcus. The documented diagnosis was neonatal sepsis due to group B strep. The treatment plan included continuation of antibiotics and further evaluation with repeat blood culture and lumbar puncture.
+The patient is a full-term newborn female presenting for evaluation after birth due to maternal intrapartum fever. The infant was initially noted to be somewhat pale but otherwise had stable vital signs and a normal examination. Relevant history includes maternal fever (maximum 101°F an hour before delivery), stat cesarean section for nonreassuring fetal heart pattern with 20% abruption, and no maternal antibiotic prophylaxis; the mother was GBS negative, and prenatal care was benign. The documented diagnosis was beta streptococcus bacteremia. Initial treatment included empiric ampicillin and gentamicin, later changed to penicillin G 250,000 IU intravenously every eight hours for a planned seven-day course; the infant also received a normal saline bolus. The infant remained clinically stable throughout hospitalization, passed the routine hearing screen, and was discharged in stable condition to complete antibiotic therapy at another hospital under pediatric care. At discharge, she was ad lib breast-feeding and had a Hep-Lock in place for ongoing intravenous antibiotics.
+
 
 ## Dialogue Summary
 
-The patient presented with concern for risk of infection due to maternal fever during labor. Symptoms discussed included persistent pallor since birth, which has remained constant throughout the day and has not worsened with feeding or crying. The patient denied any feeding difficulties, lethargy, trouble waking, fever, changes in activity level, or respiratory symptoms such as rapid breathing or grunting. No relevant medical history, medications, or allergies were mentioned aside from the maternal fever during labor. On clinical review, the doctor noted consistent pallor without associated signs of infection or distress. The assessment was that persistent pallor in the absence of other symptoms is often normal in newborns and currently reassuring. The doctor recommended continued monitoring at home for warning signs such as poor feeding, lethargy, fever, or breathing changes, and advised prompt contact with a healthcare provider if these develop. Regular newborn checkups were also advised to ensure ongoing assessment and support.
+The patient is a newborn presenting for evaluation of infection risk due to maternal fever during labor. The primary symptom is persistent pallor noted since birth, which has remained constant and is not associated with feeding difficulties, lethargy, fever, changes in activity level, or respiratory distress. There have been no episodes of rapid breathing, grunting, or temperature instability, and feeding and alertness are normal. Relevant history includes maternal fever during labor; no other pertinent medical history, medications, or allergies are specified.
+
+The clinical impression is that the persistent pallor is likely normal in the absence of other concerning symptoms, but the history of maternal fever warrants ongoing vigilance for infection. The treatment plan includes continued home monitoring for warning signs such as poor feeding, lethargy, respiratory changes, or fever, with instructions to seek medical attention if these develop. Regular newborn checkups are also recommended to ensure ongoing assessment and support.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.606
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 150 words
+
 
 ## Processing Information
 

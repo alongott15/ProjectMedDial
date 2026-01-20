@@ -98,3 +98,23 @@ Let me know if you have any questions or concerns about this explanation, or if 
 ## Processing Information
 
 - **Processing Time**: 298.7s
+
+## EHR Summary
+
+The patient is a female over 90 years old presenting with an upper gastrointestinal bleed. She experienced ongoing melena (black stools), a drop in hematocrit from 35.0% to 30.0%, and hypotension (blood pressure 70/60) prior to admission, but denied fevers, chills, nausea, vomiting, chest pain, or dyspnea. Her history includes peptic ulcer disease, gastroesophageal reflux disease, dementia, depression, osteoporosis, vertigo, cataracts, gait disorder, hypertension, coronary artery disease, and hematuria; she has no known drug allergies and is DNR/DNI. On admission, her hematocrit was 24.1%, and endoscopy revealed a tear near the gastroesophageal junction, antral erosions, and a gastric ulcer with a visible vessel that was cauterized. The documented diagnosis was upper gastrointestinal bleed secondary to peptic ulcer disease, status post cauterization of a bleeding vessel. She received one unit of packed red blood cells and was continued on Protonix 40 mg twice daily (to be reduced to once daily after stabilization), with other chronic medications adjusted as needed. She was also treated for sinusitis with amoxicillin and clarithromycin due to headache and CT findings. The patient was advised to follow up with her primary care physician within one week and with gastroenterology as needed.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with the chief complaint of dark stools. Over the past few days, they have also experienced increased lightheadedness, low blood pressure (reported as 70/60 mmHg), and decreased energy requiring more rest than usual. The patient denies any recent changes in medications, supplements, diet, nausea, vomiting, appetite changes, or other sources of bleeding such as from the gums, nose, or urine. Relevant history includes ongoing medications for blood pressure and stomach issues, with no recent additions.
+
+The clinical impression is possible internal blood loss, likely from the gastrointestinal tract, as suggested by melena (dark stools), hypotension, fatigue, and lightheadedness. The physician advised the patient to avoid strenuous activity, maintain hydration, and monitor for worsening symptoms such as increased dizziness, fainting, chest pain, or the appearance of bright red blood in stool or vomit. The patient was instructed to seek urgent care if these warning signs develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.608
+- **Model Used**: general
+- **Text1 Length**: 194 words
+- **Text2 Length**: 151 words
+

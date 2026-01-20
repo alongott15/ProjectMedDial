@@ -85,16 +85,21 @@ In the meantime, avoid strenuous activity and seek immediate care if the pain be
 
 ## EHR Summary
 
-The patient is a 67-year-old male presenting with chest pain and left arm pain. His symptoms were relieved with nitroglycerin, and he was found to have a myocardial infarction confirmed by enzyme testing, though his EKG was negative. Past medical and surgical history were noncontributory, and he has a documented allergy to penicillin. On examination, he was afebrile with stable vital signs, clear lungs, regular heart rhythm, and no edema. Cardiac catheterization revealed disease in the obtuse marginal, left anterior descending, and right coronary arteries, with an ejection fraction of 35%. The documented diagnosis was myocardial infarction with multivessel coronary artery disease. He underwent a three-vessel coronary artery bypass graft (CABG) and had an uncomplicated postoperative course, including rapid extubation and removal of chest tubes. Treatment included Zestril, heparin, Lopressor, aspirin, and postoperative vancomycin.
+The patient is a 67-year-old male presenting with chest pain and left arm pain, which was relieved by nitroglycerin. He was found to have a myocardial infarction confirmed by elevated cardiac enzymes, with a negative EKG, and cardiac catheterization revealed multivessel coronary artery disease with an ejection fraction of 35%. Past medical and surgical history were noncontributory, and he has a penicillin allergy. The documented diagnosis was status post coronary artery bypass graft (CABG) times three. He underwent CABG using the left internal mammary artery and saphenous vein grafts, followed by an uncomplicated postoperative course including rapid extubation and removal of chest tubes and wires. During hospitalization, an 8 cm abdominal aortic aneurysm was discovered on CT scan, with outpatient vascular surgery follow-up arranged. Discharge medications included aspirin, Lopressor, Lasix, iron sulfate, Colace, Percocet as needed, potassium supplement, and Prilosec. The patient was stable at discharge with instructions for follow-up with his primary care physician, cardiologist, and vascular surgeon.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. He described the pain as a pressure sensation in his chest that started gradually a couple of days ago, rated as 6 out of 10 in severity at its worst, and noted that it sometimes radiates down his left arm. The chest pressure and arm discomfort are triggered by activity such as walking and climbing stairs, and both symptoms resolve within minutes of resting; he denied associated symptoms such as sweating, shortness of breath, or lightheadedness. No relevant medical history, medications, or allergies were mentioned during the encounter. On clinical review, the doctor noted the activity-related chest pressure and radiation to the left arm, with relief upon rest. The doctor assessed that these symptoms are concerning for a possible heart-related cause, such as angina, due to their exertional nature and location. The doctor recommended prompt evaluation today to rule out cardiac issues, including an EKG and blood tests, advised avoidance of strenuous activity, and instructed the patient to seek immediate care if symptoms worsen or new symptoms develop. The patient agreed to arrange for further evaluation as advised.
+The patient is an adult presenting with chest pain as the chief complaint. The chest discomfort began gradually a couple of days ago and is described as a pressure sensation, rated 6 out of 10 in severity, that worsens with activity and improves with rest. The pain sometimes radiates down the left arm and is not associated with sweating, shortness of breath, or lightheadedness. The episodes resolve within a few minutes of resting and are triggered by exertion. There is no relevant past medical history, medications, or allergies documented. The clinical impression is possible angina, given the exertional chest pressure and left arm radiation. The doctor recommended prompt further evaluation today, including an EKG and blood tests, advised avoidance of strenuous activity, and instructed the patient to seek immediate care if symptoms worsen or new symptoms develop. The patient agreed to arrange for immediate evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.457
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 145 words
+
 
 ## Processing Information
 

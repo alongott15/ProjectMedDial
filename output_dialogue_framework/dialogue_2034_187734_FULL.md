@@ -65,16 +65,21 @@
 
 ## EHR Summary
 
-The patient is a 60-year-old male presenting with weakness, a fall, and an episode of hematemesis. He reported melena one week prior to admission and continued to have tarry stools during hospitalization, but denied abdominal pain. His past medical history includes insulin-dependent diabetes for 15 years and macular degeneration. Initial evaluation revealed a low hematocrit (25.5), maroon fluid on nasogastric lavage, and esophagogastroduodenoscopy findings of 2+ varices and gastric erosions; subsequent endoscopies showed Grade III esophageal varices with recent bleeding stigmata, gastritis, and portal hypertensive gastropathy. The documented diagnosis was upper gastrointestinal bleeding secondary to esophageal varices and gastritis. Treatment included transfusion of five units of packed red blood cells and endoscopic banding of esophageal varices. At discharge, there were no further episodes of hematemesis, though melena persisted.
+The patient is a 60-year-old male presenting with weakness, a fall, and an episode of hematemesis, with a preceding week of melena. He was found to have a low hematocrit (25.5) and maroon fluid on nasogastric lavage, and endoscopy revealed esophageal varices and gastric erosions; he required multiple blood transfusions. His past medical history includes insulin-dependent diabetes for 15 years, macular degeneration, chronic urinary tract infections, and left nephrectomy. On repeat endoscopy, Grade III esophageal varices with stigmata of recent bleeding were identified and treated with banding; gastritis and portal hypertensive gastropathy were also noted. The clinical impression was upper gastrointestinal bleeding due to esophageal varices in the setting of portal hypertension, with ultrasound showing a small liver, massive ascites, and splenomegaly. During hospitalization, he was stabilized hemodynamically, received additional blood transfusions, and was started on spironolactone, Lasix, propranolol, Protonix, and Neutra-Phos. He was discharged in stable condition with follow-up arranged for primary care and gastroenterology for re-evaluation and possible re-banding of varices. No drug allergies were reported.
+
 
 ## Dialogue Summary
 
-The patient presented with weakness as the chief complaint. The weakness began a few days ago and has progressively worsened each day, making it difficult for the patient to walk, stand up, or get out of bed; the patient reported falling once due to the weakness but did not experience new pain or significant bruising from the fall. The patient also reported vomiting blood and having very dark, tarry stools. No other medical history, medications, or allergies were mentioned. On clinical questioning, the doctor noted the patient's difficulty with mobility and absence of injury after the fall. The doctor did not provide a specific assessment or working diagnosis during the conversation. No treatment plan or recommendations were given in the dialogue.
+The patient is presenting with generalized weakness as the chief complaint. The weakness began a few days ago and has progressively worsened, now interfering with daily activities such as walking and standing, and resulting in a fall without injury. The patient reports recent episodes of hematemesis (vomiting blood) and melena (dark, tarry stools). No new pain or significant bruising was noted after the fall. Relevant medical history, medications, allergies, and a documented diagnosis are not specified in the dialogue. No specific treatment plan or recommendations were documented during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.510
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 90 words
+
 
 ## Processing Information
 

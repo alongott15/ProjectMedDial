@@ -85,16 +85,21 @@ If you notice new symptoms—such as chest discomfort, irregular heartbeat, or i
 
 ## EHR Summary
 
-The patient is an 84-year-old male presenting with syncope. He reported progressively worsening aortic stenosis over the past six months, increased fatigue, and experienced a syncopal episode while driving. His medical history includes hypertension, type 2 diabetes, mitral regurgitation, aortic stenosis, and hyperlipidemia; he has a shellfish-derived allergy. On admission, physical exam revealed bradycardia (HR 52), right carotid bruit, and a systolic ejection murmur; discharge exam showed stable vital signs, no murmurs, and mild bilateral lower extremity edema. The documented diagnoses were severe aortic stenosis and mitral regurgitation. Treatment included cardiac catheterization, aortic valve replacement with a 23-mm Mosaic tissue valve, mitral valve repair with annuloplasty, and triple coronary artery bypass grafting; bronchoscopy was also performed. At discharge, incisions were clean and dry with minimal drainage, and the patient was in no acute distress.
+The patient is an 84-year-old male presenting with syncope. He reported progressively worsening aortic stenosis over the past six months, increased fatigue, and a syncopal episode while driving. Relevant history includes hypertension, type 2 diabetes, mitral regurgitation, aortic stenosis, and hyperlipidemia; he has a shellfish-derived allergy. The documented diagnoses were coronary artery disease status post coronary artery bypass grafting (CABG), aortic stenosis status post aortic valve replacement (AVR), and mitral regurgitation status post mitral valve repair. During hospitalization, he underwent cardiac catheterization, aortic valve replacement, mitral valve repair, and triple coronary artery bypass grafting, with postoperative atrial fibrillation managed with beta blockers and amiodarone. Discharge medications included amiodarone, metoprolol, furosemide, potassium chloride, antidiabetics, statins, aspirin, and others. He was advised to monitor wounds for infection, avoid driving for one month, and limit lifting for ten weeks. Follow-up appointments with cardiology and wound care were arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with episodes of fainting. He reported two episodes over the past couple of weeks, both occurring suddenly when standing up from a chair, with preceding tiredness but no dizziness, lightheadedness, vision changes, palpitations, or chest discomfort. He recovered quickly after each episode, experiencing brief weakness but no confusion; his wife witnessed both events and did not observe any unusual movements. The patient stated his tiredness has remained stable over the past few weeks and denied any specific triggers or changes in eating habits. No relevant medical history, medications, or allergies were mentioned. The doctor noted the absence of warning signs and suggested the pattern may be consistent with orthostatic hypotension. The doctor recommended staying hydrated, rising slowly from sitting, and avoiding standing up too quickly, and advised the patient to report any new symptoms such as chest discomfort or irregular heartbeat.
+The patient is an adult presenting with episodes of fainting (syncope) as the chief complaint. The patient reports two episodes over the past couple of weeks, both occurring suddenly upon standing from a chair, without preceding dizziness, lightheadedness, or visual changes. Recovery after each episode was rapid, with transient weakness but no confusion; no chest discomfort, palpitations, or abnormal movements were observed. The patient’s wife witnessed both episodes and did not note any unusual features such as shaking. There is no mention of relevant medical history, medications, or allergies in the dialogue. The clinical impression discussed was possible orthostatic hypotension as the cause of syncope. The doctor advised the patient to stay hydrated, rise slowly from sitting, and avoid standing up too quickly to help prevent future episodes. The patient was instructed to report any new symptoms such as chest discomfort, irregular heartbeat, or fainting while sitting or lying down.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.421
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 150 words
+
 
 ## Processing Information
 

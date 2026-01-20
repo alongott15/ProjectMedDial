@@ -87,16 +87,21 @@ If you have questions about your medications or want advice on heart-healthy hab
 
 ## EHR Summary
 
-The patient is a 64-year-old male presenting with a history of hypertension, high cholesterol, diabetes, and prior aortic arch dissection. He was found to have multivessel coronary artery disease and an aortic arch dissection. On admission, he was afebrile with stable vital signs; physical exam revealed a 4/6 systolic ejection murmur but was otherwise unremarkable. The documented diagnoses included multivessel coronary artery disease and aortic arch dissection. He underwent coronary artery bypass grafting (LIMA to LAD), aortic valve replacement with a pericardial valve, and resection/replacement of the ascending aortic arch. Postoperatively, he experienced transient hyperglycemia, which was managed by restarting his preoperative medications, and he was successfully weaned from the ventilator following aggressive diuresis. Physical therapy assessed him for ambulation, and he was deemed suitable for discharge after medical clearance. His chest tubes, wires, and Foley catheter were removed prior to discharge.
+The patient is a 64-year-old male presenting for management of a history of hypertension, high cholesterol, diabetes, and prior aortic arch dissection with multivessel coronary artery disease. He did not report acute symptoms at admission; the note focuses on his surgical management and postoperative course. Relevant history includes hypertension, high cholesterol, diabetes, prior aortic arch dissection resulting in loss of the right kidney, and current medications (Zestril, aspirin, labetalol, Norvasc). On examination, he was afebrile with stable vital signs and a 4/6 systolic ejection murmur. The documented diagnoses were hypertension, coronary artery disease status post CABG times one, aortic valve replacement and arch repair, history of aortic dissection with loss of right kidney, and high cholesterol. Treatment included coronary artery bypass grafting (LIMA to LAD), aortic valve replacement with pericardial valve, and ascending aortic arch resection and replacement, followed by postoperative diuresis, pain management, and physical therapy. He was discharged home in stable condition on aspirin, amlodipine, labetalol, Percocet as needed, Zantac, Colace, Lasix, and potassium chloride, with instructions for follow-up with his physicians.
+
 
 ## Dialogue Summary
 
-The patient presented for a general health check-in, specifically regarding their history of hypertension and previous aortic arch issues. They reported no current symptoms, including no chest discomfort, shortness of breath, unusual fatigue, changes in energy, sleep, or appetite, and no swelling in the legs or ankles. The patient stated that their blood pressure has remained within their usual range at home, and they have been taking their prescribed medications consistently without recent changes. They also noted no limitations in physical activity and have not had recent follow-up imaging or specialist check-ups for their aortic arch condition. On examination, there were no concerning symptoms or physical findings described. The doctor assessed that the patient's blood pressure and overall health appear stable but emphasized the importance of ongoing monitoring due to their cardiovascular history. The doctor recommended scheduling a follow-up with a cardiologist or vascular specialist for routine review of the aortic arch status, continuing home blood pressure monitoring, maintaining activity, and promptly reporting any new symptoms.
+The patient is an adult with a history of hypertension and previous aortic arch issues presenting for a routine health check-in. The patient reports no current symptoms, including no chest discomfort, dyspnea (shortness of breath), unusual fatigue, swelling in the legs or ankles, or changes in energy, sleep, or appetite. Blood pressure has been stable at home, and the patient is taking antihypertensive medications as prescribed without recent changes. There have been no recent follow-up imaging studies or specialist check-ups related to the aortic arch condition. The clinical impression is stable cardiovascular status without new or concerning symptoms. The treatment plan includes recommending a follow-up appointment with a cardiologist or vascular specialist for routine monitoring of the aortic arch condition. The patient is advised to continue home blood pressure monitoring, maintain physical activity, and report any new symptoms such as chest discomfort, dyspnea, or swelling. No medication changes or acute interventions were indicated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.611
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 156 words
+
 
 ## Processing Information
 

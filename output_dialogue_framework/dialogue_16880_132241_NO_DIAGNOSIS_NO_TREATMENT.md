@@ -93,16 +93,21 @@ One last thing—have you had any headaches along with these symptoms? This will
 
 ## EHR Summary
 
-The patient is a 40-year-old male presenting with an anaphylactic reaction. He developed a pruritic rash after starting Bactrim prophylaxis for HIV, followed by nausea, myalgias, palpitations, and headache after taking an additional dose. His medical history includes HIV (diagnosed in 2146, last CD4 164, viral load >100,000, no history of opportunistic infections), nephrolithiasis, and Crohn's disease; he is allergic to Bactrim. On examination, he was alert and oriented, with stable cardiovascular and neurological findings. The documented diagnosis was anaphylaxis secondary to Bactrim. Treatment included administration of diphenhydramine, ranitidine, steroids, intravenous fluids, and phenylephrine for hypotension, with good clinical response and resolution of symptoms. The patient was advised to discontinue Bactrim.
+The patient is a 40-year-old male presenting with an anaphylactic reaction. He developed a pruritic rash after starting Bactrim prophylaxis, followed by nausea, myalgias, palpitations, and headache after taking an additional dose. His history includes HIV (diagnosed in 2146, last CD4 164, viral load >100,000), nephrolithiasis, and Crohn's disease; he has a documented allergy to Bactrim. In the emergency department, he was hypotensive and treated with diphenhydramine, ranitidine, steroids, fluids, and phenylephrine with good response. The documented diagnosis was Bactrim anaphylaxis. He was discharged in stable condition on a 5-day prednisone taper, with prescriptions for diphenhydramine and an epinephrine pen for recurrent symptoms, and Dapsone for PCP prophylaxis. He was instructed to follow up with his physician within one week and to use the epinephrine pen and seek immediate care if symptoms recur.
+
 
 ## Dialogue Summary
 
-The patient presented with anxiety due to a recent onset of an itchy, red rash and chest tightness. The rash began on the face and spread to the chest, is mostly flat, very noticeable, and accompanied by chest tightness, nausea, muscle aches, fatigue, palpitations, and interference with daily activities and sleep. The patient reported no clear triggers and noted that symptoms have been worsening since onset. Relevant history includes a known allergy to Bactrim but no prior similar rash or other allergies. On examination, the doctor noted the spreading, itchy rash, chest tightness, and associated myalgias and palpitations. The doctor’s assessment was that the symptoms could be due to a new allergic reaction or a viral illness, given the acute onset and progression. The doctor advised monitoring for any signs of difficulty breathing or swelling of the lips or tongue and recommended seeking urgent care if these occur. The treatment plan included avoiding new medications or products, keeping the skin cool and moisturized, and considering an over-the-counter antihistamine if not allergic.
+The patient is an adult presenting with a chief complaint of a recent onset itchy, red rash and chest tightness. The rash began on the face and spread to the chest, is mostly flat and very noticeable, and is accompanied by chest tightness, nausea, muscle aches (myalgias), palpitations, and increased fatigue. Symptoms have been worsening, interfering with daily activities and sleep, and no clear triggers have been identified. The patient has a history of allergy to Bactrim but no prior similar rashes or known food/environmental allergies. The clinical impression is that the symptoms may be due to a new allergic reaction or possibly a viral illness, with concern for the combination of rash, chest tightness, and palpitations. The doctor advised monitoring for any signs of airway compromise (such as difficulty breathing or swelling of lips/tongue) and seeking urgent care if these occur. The treatment plan includes avoiding new medications or products, keeping the skin cool and moisturized, and considering an over-the-counter antihistamine if not allergic.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.663
+- **Model Used**: general
+- **Text1 Length**: 133 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ If you develop increasing pain, spreading redness, confusion, or difficulty brea
 
 ## EHR Summary
 
-The patient is a 48-year-old female presenting with acquired absence of the right breast. She underwent a right free TRAM (transverse rectus abdominis myocutaneous) flap reconstruction. Her past medical history includes allergies to morphine, gadolinium-containing agents, and vancomycin. Post-operatively, she experienced adequate pain control with IV/PCA Dilaudid, later transitioned to oral pain medications, and had serosanguinous drainage from JP drains. Laboratory results showed mild leukocytosis (WBC 13.2), anemia (Hgb 9.7), and mild hypocalcemia (calcium 8.2). The clinical impression was a stable post-operative course with a viable flap and no signs of infection. She was treated with IV cefazolin, transitioned to oral duricef, and discharged on post-operative day 5 with home nursing for drain care. At discharge, she was afebrile, hemodynamically stable, tolerating a regular diet, and ambulating independently.
+The patient is a 48-year-old female presenting with acquired absence of the right breast. She underwent a right free TRAM flap reconstruction and tolerated the procedure well, with her surgical flap remaining viable throughout the hospital stay. Postoperatively, she experienced adequate pain control with IV and then oral medications, and her recovery was stable without signs of infection or other complications. Her relevant history includes allergies to morphine, gadolinium-containing agents, and vancomycin. The documented diagnosis was acquired deformity of the right breast. Treatment included surgical reconstruction, postoperative antibiotics (IV cefazolin transitioned to oral duricef), pain management with hydromorphone, bowel regimen with docusate sodium, and aspirin for prophylaxis. She was discharged in good condition with JP drains in place, instructions for drain care with VNA support, and advice to avoid strenuous activity or chest pressure. Follow-up with her surgeon was recommended in one week, and she was advised to monitor for signs of infection or other concerning symptoms.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. Symptoms included pressure-like chest discomfort for several days, difficulty catching breath, shaking chills, fevers over 101.5°F that come and go, and increasing redness, warmth, swelling, and drainage around a surgical incision; the swelling and discomfort have worsened and are limiting daily activities. The patient denied cough, congestion, or other cold symptoms. Physical findings described by the patient included warmth, redness, swelling, and drainage at the incision site. The doctor assessed that these symptoms suggest a developing infection at the incision site, possibly related to postoperative bacterial contamination. The doctor recommended prompt evaluation by the surgical team or seeking care today for further assessment, advised keeping the area clean and avoiding pressure, and instructed the patient to seek urgent care if symptoms worsen or new concerning signs develop. The patient acknowledged understanding of the recommendations.
+The patient is an adult presenting with chest pain as the chief complaint. The pain has been present for several days, described as pressure-like and accompanied by dyspnea (shortness of breath), intermittent fevers over 101.5°F, shaking chills, and increasing difficulty with daily activities. Additional symptoms include progressive redness, warmth, swelling, and drainage at a surgical incision site, with the swelling and discomfort worsening over time. The patient denies cough or cold symptoms. Relevant history includes recent surgery (implied by the presence of an incision). The clinical impression is a likely infection at the incision site, given the combination of local and systemic symptoms. The treatment plan includes prompt evaluation by the surgical team or seeking care the same day, keeping the area clean, avoiding pressure on the site, and instructions to seek urgent care if symptoms worsen (such as increasing pain, spreading redness, confusion, or worsening dyspnea).
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.934
-- **Similarity Label**: N/A
+- **STS Score**: 0.460
+- **Model Used**: general
+- **Text1 Length**: 157 words
+- **Text2 Length**: 147 words
+
 
 ## Processing Information
 

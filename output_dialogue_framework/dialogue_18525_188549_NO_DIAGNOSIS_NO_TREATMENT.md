@@ -96,3 +96,21 @@ If you notice any new symptoms, such as sudden severe pain, changes in vision, w
 ## Processing Information
 
 - **Processing Time**: 417.7s
+
+## EHR Summary
+
+The patient is a 41-year-old female presenting for evaluation of headaches. She reported a history of headaches but had no other complaints at the time of admission. Her past medical history includes spastic bowel disease, spastic esophagus disease, anxiety and panic disorder, hypothyroidism, and prior substance use, with allergies to ciprofloxacin (rash) and vomiting with Percocet. On elective angiogram, she was found to have a right ophthalmic artery aneurysm. The documented diagnosis was right ophthalmic artery aneurysm. She underwent a right coronal craniotomy with clipping of the aneurysm, which she tolerated well, and her postoperative course was unremarkable. The patient was discharged in stable and improved condition after a brief hospital stay.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with headaches as the chief complaint. The headaches began a few days ago, occur intermittently, are rated 5–6 out of 10 in intensity, and are not associated with vision changes, nausea, or sensitivity to light or sound. Stress appears to be a trigger, and the patient has a history of anxiety and panic disorder; resting and stress management techniques provide some relief. The headaches make it somewhat harder to focus but do not prevent daily activities. The clinical impression is that these are likely tension-type headaches related to stress and anxiety. The treatment plan includes continuing mindfulness and breathing exercises, staying hydrated, taking breaks during busy days, and considering over-the-counter pain relievers if needed. The patient was advised to seek prompt evaluation if new symptoms such as sudden severe pain, vision changes, weakness, or confusion develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.507
+- **Model Used**: general
+- **Text1 Length**: 112 words
+- **Text2 Length**: 142 words
+

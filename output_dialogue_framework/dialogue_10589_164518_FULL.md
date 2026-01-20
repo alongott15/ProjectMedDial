@@ -85,16 +85,23 @@ Let me know if you have questions about what we've discussed, or if there's anyt
 
 ## EHR Summary
 
-The patient is a 76-year-old male presenting with acute onset abdominal pain. He reported a six-week history of pruritus, 12-pound unintentional weight loss, dark urine, and light stools prior to admission. His past medical history includes autoimmune hepatitis, coronary artery disease, COPD, hypertension, non-insulin dependent diabetes mellitus, and other chronic conditions; he was taking multiple medications including prednisone, aspirin, atenolol, and coumadin. On examination, his vital signs were stable but blood pressure was elevated at 181/98; laboratory studies showed mild leukocytosis, elevated BUN and creatinine, hyperglycemia, and mildly elevated liver enzymes. Imaging revealed colonic distention with stool and air in the rectum and distal colon. The documented diagnosis was ischemic gut requiring colonic resection, in the context of known autoimmune hepatitis. Treatment included surgical colonic resection and ongoing management of his chronic conditions.
+The patient is a 76-year-old male presenting with acute onset abdominal pain, ultimately leading to colonic resection for ischemic bowel. He experienced diffuse, steady abdominal pain radiating to the back, associated with constipation, nausea, and vomiting, without relief from positional changes or activity. His prior medical history includes autoimmune hepatitis, coronary artery disease, COPD, hypertension, non-insulin dependent diabetes mellitus, and other chronic conditions; he has no known drug allergies and was on multiple medications including prednisone and anticoagulation. Imaging revealed colonic distention and pneumatosis, and laboratory studies showed mild leukocytosis and elevated creatinine and glucose. The documented diagnosis was ischemic bowel requiring right hemicolectomy with diverting ileostomy and mucus fistula, in the context of underlying autoimmune hepatitis and multiple comorbidities. Treatment included urgent IV antibiotics, surgical intervention, ventilatory support postoperatively, and gradual advancement of diet with physical therapy prior to discharge. On discharge, he was stable, tolerating oral intake, and prescribed ongoing medications including antibiotics (levofloxacin and metronidazole) for six days. He was discharged home with visiting nursing and scheduled for surgical follow-up.
+
 
 ## Dialogue Summary
 
-The patient presented with sudden-onset, sharp, diffuse abdominal pain rated at 6/10, spreading to the back. Additional symptoms included steady generalized itching, constipation, lighter-colored stools, darker urine, unintentional weight loss, and digestive changes; the itching and digestive issues began before the abdominal pain. The patient denied fever, chills, or yellowing of the skin or eyes, and reported no specific triggers or relieving factors for the symptoms. No relevant past medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the combination of steady itching, digestive changes, dark urine, and weight loss as concerning for possible liver or bile system involvement, such as blocked bile ducts or gallstones. The doctor recommended scheduling blood tests and possibly an ultrasound to evaluate liver function and advised monitoring for new symptoms including jaundice, worsening pain, or fever. The patient acknowledged understanding and agreed to follow up with the recommended tests.
+The patient presents with a chief complaint of sudden-onset, sharp, diffuse abdominal pain rated at 6/10, spreading to the back. Associated symptoms include steady generalized itching, constipation, lighter-colored stools, darker urine, unintentional weight loss, and recent digestive changes; the itching and digestive symptoms preceded the abdominal pain. The patient denies fever, chills, or jaundice (yellowing of skin or eyes), and reports no identifiable triggers or alleviating factors for the symptoms. Relevant medical history, medications, and allergies are not specified in the dialogue.
+
+The clinical impression documented by the physician is a possible disorder affecting the liver or biliary system, such as blocked bile ducts or gallstones. The physician notes that the absence of jaundice is reassuring but emphasizes that the constellation of symptoms warrants further evaluation. The treatment plan includes scheduling basic blood tests and possibly an abdominal ultrasound to assess liver function and biliary pathology. The patient is advised to monitor for new symptoms such as jaundice, worsening pain, or fever, and to report these promptly.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.584
+- **Model Used**: general
+- **Text1 Length**: 173 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

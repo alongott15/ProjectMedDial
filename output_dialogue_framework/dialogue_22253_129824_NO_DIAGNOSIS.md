@@ -87,16 +87,21 @@ Does that all make sense? Any other questions or concerns on your mind?
 
 ## EHR Summary
 
-The patient is a 66-year-old male presenting with exertional heartburn and fatigue. He was found to have a low hematocrit and an upper GI bleed caused by a polyp, which was treated with polypectomy, resulting in stabilization. His past medical history includes paroxysmal atrial fibrillation, peripheral vascular disease, parotid disease, prior GI bleed, transient ischemic attacks, and renal calculi; he has no known drug allergies. On admission, his medications included Lipitor, digoxin, and Protonix, with Coumadin stopped prior to admission. Cardiac catheterization revealed multi-vessel coronary artery disease following a positive stress test. He underwent a four-vessel coronary artery bypass graft (CABG) and recovered well postoperatively, including successful ventilator weaning and ambulation assessment by physical therapy. The documented diagnosis was multi-vessel coronary artery disease status post CABG. He was discharged home in stable condition after removal of chest tubes and wires, with recommendations for continued physical activity as tolerated.
+The patient is a 66-year-old male presenting with exertional heartburn and fatigue. He was found to have a low hematocrit and an upper GI bleed caused by a polyp, which was treated with polypectomy, after which he stabilized. He subsequently had a positive stress test and was transferred for further cardiac evaluation. His relevant history includes paroxysmal atrial fibrillation, peripheral vascular disease, carotid endarterectomy, GI bleed, transient ischemic attacks, and renal calculi; he has no known drug allergies. Cardiac catheterization revealed multi-vessel coronary artery disease, and he underwent a four-vessel coronary artery bypass graft (CABG). The documented diagnoses include paroxysmal atrial fibrillation, peripheral vascular disease, carotid disease status post endarterectomy, GI bleed, questionable TIAs, renal calculi, and coronary artery disease status post CABG x4. Postoperatively, he recovered well, was weaned from the ventilator, and tolerated increased Lopressor. He was discharged home in stable condition with medications including Lasix, Lopressor, glipizide, Lipitor, potassium chloride, Colace, aspirin, Zantac, and Percocet, and was advised to follow up with his primary care physician and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with heartburn occurring during physical activity such as walking or climbing stairs. Symptoms have persisted for at least a couple of weeks and include increased tiredness during movement, requiring more frequent breaks; the burning sensation is not associated with chest pressure, pain, shortness of breath, sweating, or lightheadedness, and is not linked to meals or specific foods. The heartburn resolves quickly with rest and has remained stable over the past two weeks. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted a burning chest sensation triggered by exertion and cautioned that while this may be related to acid reflux, its activity-related pattern warrants consideration of possible cardiac or circulatory causes. The doctor advised the patient to limit physical activity until further evaluation, keep a symptom log, and follow up with their primary doctor for basic tests. The patient was instructed to seek immediate medical attention if symptoms worsen or new concerning signs develop.
+The patient presents with exertional heartburn as the chief complaint. They report a burning sensation in the chest that occurs during physical activity such as walking or climbing stairs and resolves quickly with rest; these symptoms have persisted for at least a couple of weeks. The patient also notes increased fatigue with activity but denies chest pain, pressure, shortness of breath, sweating, or lightheadedness. There is no clear association with meals or specific foods, and the symptoms have remained stable without worsening. No relevant past medical history, medications, or allergies are specified. The clinical impression is that while the symptoms resemble heartburn, their occurrence with exertion rather than meals raises concern for possible cardiac or circulatory issues. The patient was advised to limit physical activity until further evaluation, monitor for any new or worsening symptoms (such as chest pain or shortness of breath), and follow up with their primary doctor for additional assessment and possible testing. Keeping a log of symptom episodes was also recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.948
-- **Similarity Label**: N/A
+- **STS Score**: 0.421
+- **Model Used**: general
+- **Text1 Length**: 171 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

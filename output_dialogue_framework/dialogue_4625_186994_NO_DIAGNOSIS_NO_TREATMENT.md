@@ -87,16 +87,23 @@ If you notice any of those warning signs, or if your fatigue gets much worse qui
 
 ## EHR Summary
 
-The patient is a 66-year-old male presenting with increased fatigue over the past two years. He also reported weight gain during this period. His medical history is significant for cardiomyopathy, ascending aortic aneurysm, coronary artery disease, prior LAD stent placement, acute myocardial infarction, hypertension, elevated cholesterol, and atrial fibrillation status post cardioversion. Physical exam on admission was notable for a protuberant but non-tender abdomen and an oxygen saturation of 93% on room air; laboratory results showed mild anemia and elevated creatinine and urea nitrogen. Imaging revealed progressive enlargement of the ascending aorta to 5.7 cm at the level of the coronary ostia. The documented diagnosis was ascending aortic aneurysm with underlying cardiomyopathy. He underwent a Bentall procedure for surgical repair of the aorta during this admission. Tylenol allergy was noted, and no new medications or additional recommendations were specified in the note.
+The patient is a 66-year-old male presenting with increased fatigue over the past two years. He reported associated weight gain and has a history of cardiomyopathy, ascending aortic aneurysm, coronary artery disease with prior LAD stent, hypertension, atrial fibrillation, and prior myocardial infarction. Imaging revealed progressive enlargement of the ascending aorta to 5.7 cm, prompting referral for surgical intervention. The documented diagnosis includes status post Bentall procedure, CAD with LAD stent, obesity, prior AMI, elevated cholesterol, hypertension, cardiomyopathy, and atrial fibrillation. During hospitalization, he underwent a Bentall procedure and experienced postoperative atrial fibrillation managed with anticoagulation (heparin and coumadin), beta-blockade, diltiazem, and amiodarone. He also developed transient renal dysfunction and fluid overload, treated with diuretics and natrecor. Discharge instructions included wound care precautions, activity restrictions, and follow-up appointments for INR monitoring and surgical review. The patient was discharged in stable condition to an extended care facility.
+
 
 ## Dialogue Summary
 
-The patient presented with increased fatigue over the past couple of years. Symptoms included persistent tiredness despite sleeping through the night and getting extra rest, gradual weight gain without changes in appetite, and wheezing on exhalation that worsens with activity such as walking or climbing stairs. The patient reported needing to cut back on daily activities due to low energy, but denied swelling in the legs or feelings of depression. No relevant medical history, medications, or allergies were mentioned. The doctor noted that fatigue and activity-related wheezing may be related to lung function, possibly due to conditions like asthma or chronic bronchitis, and that gradual weight gain could contribute to breathing difficulties. The doctor recommended a physical check-up including lung auscultation and a breathing test, and advised the patient to monitor for worsening wheezing or new symptoms such as cough, chest pain, or nighttime shortness of breath, and to report any rapid changes in fatigue. The patient expressed understanding of the plan.
+The patient is an adult presenting with the chief complaint of increased fatigue over the past couple of years. The fatigue is persistent, not relieved by extra rest, and has led to reduced ability to perform daily activities such as walking and shopping. The patient reports gradual weight gain during this period and experiences wheezing on exertion, though denies leg swelling, low mood, or changes in appetite or sleep quality. The wheezing has been present for an unspecified duration and is triggered by activity.
+
+No specific diagnosis was documented, but the clinician discussed possible causes such as asthma or chronic bronchitis contributing to the symptoms. The treatment plan includes a physical examination focused on lung assessment and consideration of a breathing test. The patient was advised to monitor for worsening wheezing or new symptoms such as cough with phlegm, chest pain, or nocturnal dyspnea, and to report any rapid deterioration. No medications or immediate interventions were prescribed at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
+- **STS Score**: 0.403
+- **Model Used**: general
+- **Text1 Length**: 146 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

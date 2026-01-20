@@ -87,16 +87,21 @@ Has the bruising been getting better, staying the same, or getting worse over th
 
 ## EHR Summary
 
-The patient is a 61-year-old female presenting with loss of consciousness at home, followed by a fall resulting in left rib bruising. She reported no acute distress on examination, but demonstrated increased instability with heel-to-toe ambulation and swaying with Romberg. Her past medical history includes palpitations, hypertension, chronic urinary tract infection, and deep venous thrombosis. Home medications included Rhinocort, Tylenol, hydrochlorothiazide, Lipitor, and aspirin; she has no known drug allergies. Physical exam was notable for a blood pressure of 148/89, normal cranial nerve findings, and a stable cardiovascular and respiratory exam. Imaging revealed a cerebral aneurysm. The patient was admitted and taken directly for an angiogram. Further treatment details are not specified in the note.
+The patient is a 61-year-old female presenting with loss of consciousness at home, followed by a fall resulting in left rib bruising. She reported no acute distress on examination but demonstrated instability with heel-to-toe ambulation and swaying with Romberg. Her past medical history includes hypertension, chronic urinary tract infection, deep venous thrombosis, and prior palpitations; home medications included Rhinocort, Tylenol, hydrochlorothiazide, Lipitor, and aspirin, with no known drug allergies. Imaging revealed a cerebral aneurysm, specifically a right internal carotid artery cavernous aneurysm. She underwent angiogram with coiling of the aneurysm and received postoperative heparin and Ancef for prophylaxis. The hospital course was notable for a rash attributed to Kefzol, which resolved after discontinuation and administration of Benadryl. The patient was discharged in good condition on aspirin 325 mg daily and instructed to follow up in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with a recent fainting episode as the chief complaint. The episode occurred while standing in the kitchen, with no preceding dizziness or warning signs, and resulted in bruising and tenderness over the left ribs; the soreness is limited to touch and does not affect breathing or movement. The patient reported a quick recovery after fainting, feeling only briefly shaky, and denied confusion, chest pain, or shortness of breath; palpitations have occurred in the past but not around the time of the episode. This was the first fainting episode for the patient, and they have felt back to normal since, with no lingering fatigue or concentration issues. The doctor noted that the rib tenderness is reassuring for a mild bruise and that there are no ongoing symptoms. The assessment was a single fainting episode with mild rib bruising, likely benign but notable due to the patient's history of palpitations. The doctor recommended monitoring for further episodes or new symptoms, advised gentle rest and ice for the bruise, and instructed the patient to seek prompt medical attention if fainting recurs or if chest pain, palpitations, shortness of breath, or confusion develop. The patient reported improvement in bruising over the past few days.
+The patient is an adult presenting with a chief complaint of a recent fainting episode (syncope). The episode occurred while standing in the kitchen, without preceding dizziness or warning signs, and resulted in bruising and tenderness over the left ribs; there was no chest pain, dyspnea, or palpitations immediately before or after the event. The patient recovered quickly, experienced only brief shakiness, and reports no ongoing fatigue, confusion, or concentration difficulties. Relevant history includes prior episodes of palpitations but no previous fainting. The clinical impression was a single, unexplained syncope with mild rib contusion, likely due to the fall. The physician advised monitoring for recurrent syncope or new symptoms such as chest pain, persistent palpitations, dyspnea, or confusion, which would warrant prompt medical attention. For the rib bruising, conservative management with rest and ice was recommended, and the patient reports gradual improvement in soreness.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.375
+- **Model Used**: general
+- **Text1 Length**: 137 words
+- **Text2 Length**: 144 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ Let me know if you have any questions or concerns about what we’ve discussed.
 
 ## EHR Summary
 
-The patient is a 79-year-old male presenting with left upper quadrant abdominal pain, fever, and leukocytosis. Symptoms developed after previous admissions for repair of an incarcerated paraileostomal hernia and a panproctocolectomy for Crohn's disease. Relevant history includes Crohn's disease and multiple recent abdominal surgeries. Physical examination showed a well-healed midline incision, ostomy in the left lower quadrant, and a drain site in the right upper quadrant. Imaging revealed a new fluid collection, which was drained during this admission. During the hospital course, the patient developed an enterocutaneous fistula at the midline incision site. The documented diagnosis was enterocutaneous fistula. Treatment included intravenous elementation (parenteral nutrition) and surgical consultations for fistula management.
+The patient is a 79-year-old male presenting with persistent left upper quadrant abdominal pain, fever, and leukocytosis. Symptoms developed following prior surgical interventions, including panproctocolectomy for Crohn's disease and repair of an incarcerated paraileostomal hernia. On this admission, imaging revealed a new fluid collection, which was drained, but the patient subsequently developed an enterocutaneous fistula at the midline incision site. Relevant history includes Crohn's disease and multiple recent abdominal surgeries. The documented diagnosis was enterocutaneous fistula. Treatment included intravenous nutrition (elementation), antibiotics, supportive care, and an attempted exploratory laparotomy, which was unsuccessful due to dense adhesions. Despite these interventions, the patient's condition deteriorated, and he died during the hospital stay.
+
 
 ## Dialogue Summary
 
-The patient presented with pain on the left side of the upper abdomen. The pain was described as dull and aching, rated 6 out of 10 in severity, constant over the past couple of days, and slightly relieved by resting; movement and eating did not affect it. Associated symptoms included a mild fever and a recent increase in white cell count, but no chills, nausea, vomiting, or changes in appetite or bowel movements. The patient denied any recent infections or injuries to the area. On assessment, the doctor noted the combination of dull, constant upper left abdominal pain, mild fever, and elevated white cell count as suggestive of possible inflammation or infection in that region, with no severe or concerning symptoms present. The doctor recommended monitoring temperature and pain, staying hydrated, and resting. The patient was advised to seek medical attention if symptoms worsen or new symptoms such as vomiting, severe tenderness, trouble breathing, or confusion develop.
+The patient is an adult presenting with upper left abdominal pain as the chief complaint. The pain is described as a dull, aching discomfort rated 6 out of 10 in severity, constant over the past few days, and somewhat relieved by rest; it is not affected by eating or movement. Associated symptoms include a mild fever and a recent elevated white blood cell count, with no nausea, vomiting, changes in bowel movements, or recent infections or injuries reported. There are no digestive changes or other concerning symptoms such as severe pain or respiratory issues. The clinical impression is possible inflammation or infection in the upper left abdomen, potentially involving the stomach, spleen, or lower lung. The treatment plan includes monitoring temperature and pain, maintaining hydration, resting, and seeking medical attention if symptoms worsen or new symptoms develop. No medications or specific interventions were prescribed at this time. The patient was advised to report any changes in their condition.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.547
+- **Model Used**: general
+- **Text1 Length**: 110 words
+- **Text2 Length**: 158 words
+
 
 ## Processing Information
 

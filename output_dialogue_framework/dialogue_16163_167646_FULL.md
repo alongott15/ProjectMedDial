@@ -63,16 +63,21 @@
 
 ## EHR Summary
 
-The patient is a 66-year-old female presenting with a chief complaint of intermittent chest pain for one month. Her symptoms were significant enough to prompt evaluation at an outside hospital, where she was found to have three-vessel coronary artery disease after ruling in for myocardial infarction. Relevant history includes hypertension, dyslipidemia, anemia, degenerative joint disease, and a 40 pack-year tobacco history. On examination, she was hemodynamically stable and in no acute distress, with normal heart and lung findings. Laboratory results showed mild anemia (hematocrit 31) but were otherwise unremarkable. The documented diagnosis was three-vessel coronary artery disease following myocardial infarction. She underwent a three-vessel coronary artery bypass graft (CABG) using the left internal mammary artery and saphenous vein grafts. Postoperatively, the patient did well and was transferred to the intensive care unit for further management.
+The patient is a 66-year-old woman presenting with on and off chest pain for one month. She was found to have three-vessel coronary artery disease after ruling in for myocardial infarction and underwent cardiac catheterization. Her past medical history includes hypertension, dyslipidemia, anemia, and degenerative joint disease; she has a significant tobacco history (40 pack years). The documented diagnosis was status post coronary artery bypass graft times three. She underwent a three-vessel coronary artery bypass graft using the left internal mammary artery and saphenous vein grafts. Postoperatively, her recovery was uncomplicated, with removal of chest tubes, wires, and Foley catheter by postoperative day three, and no evidence of pneumothorax on chest x-ray. She participated in physical therapy and was discharged home in good condition. Discharge medications included Lasix, potassium supplement, Percocet as needed, Colace, aspirin, Zantac, metoprolol, and Zocor.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent chest pain located in the middle of the chest. The pain occurs primarily during physical activity such as walking or doing chores and is not present at rest; it has been occurring on and off for a few weeks. The patient denied associated symptoms of shortness of breath, lightheadedness, or sweating during these episodes. No relevant medical history, medications, or allergies were mentioned. No physical findings were described in this encounter. The doctor did not provide a specific assessment or working diagnosis during the conversation. No treatment plan or recommendations were given in the dialogue provided.
+The patient presents with intermittent chest pain as the chief complaint. The pain is localized to the center of the chest, occurs primarily during physical activity such as walking or doing chores, and is not present at rest. The episodes have been occurring on and off for several weeks. The patient denies associated symptoms such as dyspnea, lightheadedness, or diaphoresis during these episodes. Relevant medical history, medications, allergies, diagnosis, and treatment plan are not specified in the dialogue.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.393
+- **Model Used**: general
+- **Text1 Length**: 139 words
+- **Text2 Length**: 78 words
+
 
 ## Processing Information
 

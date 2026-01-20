@@ -180,16 +180,23 @@ Let me know if you have any specific concerns about your daily routine or if you
 
 ## EHR Summary
 
-The patient is a 44-year-old male presenting with chest pain and back pain. He reported a six-hour history of crushing chest pain radiating to his back, persistent and unrelieved by any factors, with pain initially improving after labetalol administration but later becoming refractory. His medical history includes hypertension and hypercholesterolemia, with allergies to aspirin and morphine. On arrival, he was hemodynamically stable with equal blood pressures and pulses in all extremities, no chest pain but ongoing back pain, and physical exam notable for mild cardiomegaly and left retrocardiac basilar atelectasis on chest X-ray; labs showed mild leukocytosis and anemia. CTA at an outside hospital demonstrated a type B aortic dissection extending through the external and internal iliac arteries, but with maintained organ perfusion. The documented diagnosis was type B aortic dissection. Treatment included initiation of labetalol for blood pressure control, with monitoring for refractory pain and hemodynamic stability. No surgical or invasive procedures were performed during admission.
+The patient is a 44-year-old male presenting with chest pain and back pain. He reported a six-hour history of crushing chest pain radiating to his back, persistent and without alleviating factors; on arrival, his chest pain had resolved but back pain continued. His medical history includes hypertension and hypercholesterolemia, with allergies to aspirin and morphine. Imaging confirmed a type B aortic dissection extending from the left subclavian artery to the bilateral external iliac arteries, with maintained organ perfusion and no evidence of infarction. The documented diagnosis was type B aortic dissection. He was treated medically with blood pressure control using labetalol initially, then discharged on hydrochlorothiazide, amlodipine, and metoprolol tartrate, along with atorvastatin and pain management as needed. The patient was advised to quit smoking, avoid heavy lifting, monitor blood pressure at home, and follow up regularly with vascular surgery. He was discharged home in stable condition with instructions for close outpatient follow-up and repeat imaging.
+
 
 ## Dialogue Summary
 
-The patient presented with chest and back pain as the chief complaint. The pain has been present for a few days, is steady, not worsening, and is described as manageable; no new symptoms such as neurological changes, difficulty breathing, or fainting were reported. The patient has a history of type B aortic dissection and is currently following their usual routine and prescribed medications. No acute physical findings or urgent complications were noted during the discussion. The doctor assessed that there are no clear signs of an urgent problem related to the aortic dissection at this time but emphasized the importance of vigilance due to the patient's medical history. The doctor advised the patient to continue monitoring symptoms, take medications as prescribed, regularly check blood pressure, avoid heavy lifting or strenuous activity unless cleared by cardiology, and maintain a healthy lifestyle. The patient was instructed to seek immediate medical attention if symptoms worsen or new concerning signs develop, and to reach out with any questions or changes in symptoms.
+The patient is an adult with a history of type B aortic dissection presenting with chest and back pain. The pain has been present for a few days, is steady, not worsening, and is described as manageable. There are no reported new or worsening symptoms such as severe pain, dyspnea, neurological changes, or blood pressure instability. The patient’s relevant history includes type B aortic dissection; no other medical history, medications, or allergies are specified.
+
+The clinical impression is that there are no clear signs of urgent complication related to the aortic dissection at this time. The treatment plan includes continuing current medications and routine, regular blood pressure monitoring, avoiding heavy lifting or strenuous activity unless cleared by cardiology, and maintaining a healthy lifestyle. The patient is advised to seek immediate medical attention if symptoms worsen or if new symptoms such as severe pain, fainting, weakness, trouble speaking, or shortness of breath develop. Ongoing symptom monitoring and prompt communication with the healthcare provider are emphasized.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **STS Score**: 0.805
+- **Model Used**: general
+- **Text1 Length**: 156 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

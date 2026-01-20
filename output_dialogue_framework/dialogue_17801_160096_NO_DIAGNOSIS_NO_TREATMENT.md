@@ -87,16 +87,21 @@ Does anything seem to trigger your tiredness or make it noticeably better or wor
 
 ## EHR Summary
 
-The patient is a 71-year-old female presenting with a chief complaint of a gastric mass. She initially presented with anemia and congestive heart failure, which were managed medically, and subsequent endoscopy revealed a distal gastric mass; biopsies showed hyperplasia. Her past medical history includes congestive heart failure (ejection fraction 60%), mild pulmonary hypertension, hypertension, diabetes mellitus, anemia, obstructive sleep apnea, hemorrhoids, and obesity. On admission, she was in no distress, obese, with clear lungs, regular heart rhythm, and a soft, nontender abdomen. The documented diagnosis was a gastric mass. She underwent an uncomplicated subtotal gastrectomy for excision of the mass. Postoperatively, her pain was managed with an epidural, she was ambulated early, and her urine output was adequate. There are no known drug allergies, and her home medications include metoprolol, lisinopril, verapamil, glipizide, Lasix, potassium, Protonix, folate, and iron sulfate.
+The patient is a 71-year-old female presenting with a gastric mass. She initially had anemia and congestive heart failure, with endoscopy revealing a distal gastric mass confirmed as hyperplasia on biopsy. Her past medical history includes congestive heart failure (EF 60%), mild pulmonary hypertension, hypertension, diabetes mellitus, anemia, obstructive sleep apnea, hemorrhoids, and obesity; she has no known drug allergies and takes multiple medications including metoprolol, lisinopril, verapamil, glipizide, and others. The documented diagnosis was gastric mass. She underwent an uncomplicated subtotal gastrectomy and postoperatively experienced transient tachycardia, hypertension, and altered mental status, managed with ICU monitoring, diuresis, CIWA protocol for possible alcohol withdrawal, and antibiotics for wound erythema. She also developed polyarthralgia, which responded well to colchicine. The patient was advanced to a postgastrectomy diet, stabilized, and cleared for discharge with home VNA, physical therapy, and assistance with activities of daily living. Discharge medications included Lopressor, Verapamil, Protonix, Lisinopril, Glipizide, Percocet, Colace, and colchicine as needed.
+
 
 ## Dialogue Summary
 
-The patient presented with increased tiredness and concern that their anemia may be worsening. They reported fatigue that has persisted for a couple of weeks or longer, is more than a mild slowdown, and affects their ability to do usual activities; the tiredness is steady throughout the day and not triggered or relieved by specific factors. The patient also described mild to moderate joint pain in several areas (knees and hands), present most of the time, and noted some increased shortness of breath but denied leg swelling, trouble lying flat, rashes, fevers, or weight changes. Relevant history includes a prior diagnosis of anemia. On review, there were no physical findings such as swelling or rash reported by the patient. The doctor assessed that the fatigue and joint discomfort could be related to worsening anemia, with other causes less likely given the absence of additional symptoms. The doctor recommended checking recent blood work to evaluate the anemia and advised the patient to pace activities, rest as needed, and report any new symptoms such as chest pain, significant shortness of breath at rest, or swelling.
+The patient is an adult presenting with increased fatigue as the chief complaint. Over the past several weeks, the patient has experienced worsening tiredness that is persistent throughout the day and now interferes with daily activities; there is also mild to moderate joint pain in multiple locations (knees and hands) and some increased shortness of breath. The patient denies leg swelling, orthopnea, rashes, fevers, or weight changes, and reports no specific triggers or alleviating factors for the fatigue. Relevant history includes a prior diagnosis of anemia, which the patient suspects may be worsening. The clinical impression is that the symptoms are likely related to worsening anemia, though other causes for joint discomfort are considered. The treatment plan includes ordering updated blood work to assess anemia status and monitoring for new or worsening symptoms such as chest pain, significant dyspnea at rest, or swelling. The patient was advised to pace activities and rest as needed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
+- **STS Score**: 0.458
+- **Model Used**: general
+- **Text1 Length**: 157 words
+- **Text2 Length**: 154 words
+
 
 ## Processing Information
 

@@ -71,16 +71,21 @@
 
 ## EHR Summary
 
-The patient is a 71-year-old woman presenting with abrupt onset chest pain. Her symptoms began the night prior to admission and were associated with persistent ST segment elevations in V5, V6, and AVL, unrelieved by initial treatment with aspirin, nitroglycerin, and beta-blocker. She has a history of hypertension and takes amlodipine and aspirin; she has no known drug allergies. On transfer, she underwent rescue angioplasty with stenting of a 60% OM1 lesion and was noted to have elevated cardiac filling pressures and a low cardiac index. Physical examination revealed stable vital signs, clear lungs, and no peripheral edema. Laboratory studies showed leukocytosis, elevated cardiac enzymes (CK 390, MB 57, troponin >50), and mild hyperglycemia. The documented diagnosis was acute coronary syndrome with ongoing ischemia requiring intervention. Treatment included thrombolysis with reteplase, percutaneous coronary intervention with stenting, and continued monitoring in the CCU.
+The patient is a 71-year-old woman presenting with abrupt onset chest pain beginning at 10 p.m. the night prior to admission. Her chest pain was associated with ST segment elevations in leads V5, V6, and AVL, and persisted despite initial treatment with Aspirin, Nitroglycerin, and beta-blocker, requiring reteplase and subsequent rescue angioplasty with stenting of a 60% OM1 lesion. She has a history of hypertension and was taking Amlodipine and Aspirin prior to admission; she has no known drug allergies. During her hospital course, she developed a groin hematoma post-catheterization, which was managed conservatively after discontinuation of Heparin, and she remained hemodynamically stable without shortness of breath. The documented diagnosis was single-vessel (OM1) coronary artery disease status post stent placement. Treatment included initiation of Lisinopril, Lipitor, Plavix, Metoprolol, continuation of Aspirin, and Nitroglycerin as needed, along with a bowel regimen for constipation. She was referred to a rehabilitation facility for optimization of ambulation and strength and instructed to follow up in the Cardiology Clinic in six weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with sudden onset chest pain as the chief complaint. The pain is located centrally in the chest, rated 5–6 out of 10 in severity, and began while the patient was at rest without exertion. The patient reported that the pain comes and goes, with no clear triggers, and denied associated symptoms such as shortness of breath, sweating, or lightheadedness. Additional symptoms include increased groin tenderness since a recent catheterization and decreased appetite. No specific alleviating or aggravating factors were identified, and eating has not affected the pain. The patient’s medical history includes recent catheterization; no medications or allergies were mentioned. The doctor inquired about pain characteristics and duration but did not provide a formal assessment or diagnosis during the conversation. No specific treatment plan or recommendations were given in this dialogue.
+The patient presents with sudden-onset central chest pain as the chief complaint. The pain is rated 5–6 out of 10 in severity, is described as coming and going in episodes, and began while the patient was at rest without any clear triggers. The patient denies associated symptoms such as dyspnea, diaphoresis, or lightheadedness. The chest pain has been noted to occur intermittently since a recent catheterization procedure, and the patient also reports increased groin tenderness and decreased appetite since the procedure. Relevant medical history includes recent catheterization; no medication or allergy information is specified. No diagnosis or clinical impression is documented in the dialogue. No specific treatment or recommendations are provided in the conversation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.549
+- **Model Used**: general
+- **Text1 Length**: 167 words
+- **Text2 Length**: 114 words
+
 
 ## Processing Information
 

@@ -85,16 +85,23 @@ For now, try to pace yourself with activities and take breaks as needed. If anyt
 
 ## EHR Summary
 
-The patient is an 81-year-old male presenting with chest pressure on exertion that resolves with rest. He described symptoms of "chest congestion" and had an abnormal exercise treadmill test (ETT), leading to cardiac catheterization which revealed significant multi-vessel coronary artery disease (70% left main, 80% LAD, 90% OM, among others). His past medical history includes hypertension, elevated lipids, prior right coronary artery (RCA) stenting, bilateral carotid disease, and right lower extremity vein stripping; he has no known drug allergies. On physical exam, he was hemodynamically stable with no acute findings except for chronic venous stasis changes in the lower extremities. Laboratory results showed mild anemia, thrombocytopenia, and mildly elevated creatinine and urea nitrogen. The documented diagnosis was severe multi-vessel coronary artery disease. He underwent coronary artery bypass grafting (CABG) x3 (LIMA to LAD, free RIMA to OM, SVG to PDA) and was transferred postoperatively in stable condition, with weaning of vasoactive medications and extubation on postoperative day one.
+The patient is an 81-year-old male presenting with chest pressure on exertion that resolves with rest. He reported "chest congestion" and had a history of prior right coronary artery (RCA) stenting, abnormal exercise treadmill testing, and significant multi-vessel coronary artery disease on catheterization. His past medical history includes hypertension, elevated lipids, bilateral carotid artery disease, and right lower extremity vein stripping; he has no known drug allergies. The documented diagnosis was status post coronary artery bypass grafting (CABG) x3, hypertension, hypercholesterolemia, varicose veins, coronary artery disease with prior RCA stent, and bilateral carotid artery disease. During hospitalization, he underwent CABG x3 and had an uncomplicated postoperative course with gradual activity increase and removal of chest tubes and pacing wires. At discharge, he was prescribed furosemide, potassium chloride, docusate sodium, ranitidine, aspirin, clopidogrel, isosorbide mononitrate, atorvastatin, and metoprolol succinate. He was advised to avoid driving for one month, not lift more than 10 pounds for 10 weeks, and to monitor for signs of infection at incision sites. Follow-up appointments were arranged with his cardiothoracic and primary care providers.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure occurring during physical activity, which resolves with rest. Symptoms included moderate chest pressure and a sensation of chest congestion without associated cough, phlegm, trouble breathing, sweating, lightheadedness, or pain in the arm or jaw. The chest pressure has been present for a while, remains unchanged in severity, and is triggered by any activity such as walking, climbing stairs, or household chores; it consistently improves with rest. The patient also reported decreased stamina and increased fatigue with exertion. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the pattern of exertional chest pressure relieved by rest suggests possible mild narrowing of the heart’s blood vessels, making cardiac causes more likely than pulmonary ones given the absence of respiratory symptoms. The doctor advised the patient to pace activities, take breaks as needed, and monitor for any worsening or new symptoms such as pressure at rest, shortness of breath, fainting, or pain. The patient expressed interest in discussing next steps for evaluation.
+The patient presents with chest pressure as the main complaint. The chest pressure is described as moderate, occurs with any physical activity (such as walking, climbing stairs, or doing chores), and reliably resolves with rest; it has been present for a while without significant change in severity. The patient also reports a sensation of chest congestion but denies cough, phlegm, dyspnea, sweating, lightheadedness, or pain radiating to the arm or jaw. The patient notes decreased stamina and increased fatigue with exertion. Relevant history, medications, and allergies are not specified in the dialogue.
+
+The clinical impression discussed is that the symptoms are suggestive of possible mild narrowing of the coronary vessels, leading to exertional chest pressure (possible angina), with lung causes considered less likely due to the absence of respiratory symptoms. The doctor advised pacing activities, taking breaks as needed, and monitoring for any worsening or new symptoms such as chest pain at rest, shortness of breath, or fainting. The patient expressed interest in discussing further evaluation steps for safety.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.547
+- **Model Used**: general
+- **Text1 Length**: 177 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

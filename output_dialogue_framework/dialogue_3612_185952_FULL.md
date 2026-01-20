@@ -85,16 +85,21 @@ For now, try to avoid foods or substances that might irritate your mouth, stay h
 
 ## EHR Summary
 
-The patient is a 79-year-old female presenting with a chief complaint of tongue swelling that began earlier in the evening. She reported waking up with a strange sensation in her neck and a swollen tongue, but denied chest pain, dyspnea, dizziness, rashes, itching, recent medication changes, or exposure to new foods or allergens. Her medical history includes atrial fibrillation, hypertension, questionable chronic obstructive pulmonary disease, hypercholesterolemia, depression, osteoarthritis (status post bilateral total knee replacement), and spinal stenosis; she is allergic to Bactrim and has been taking lisinopril since August of the previous year. On admission, she was treated in the Emergency Department with intravenous Solu-Medrol 150 mg and an H2 blocker, and was evaluated by Anesthesia before being admitted to the Medical Intensive Care Unit for observation. The clinical impression suggests angioedema, likely related to ACE inhibitor use (lisinopril), though this is not explicitly stated in the note. The treatment plan included continued observation in the ICU and avoidance of potential triggers. No airway compromise or other acute complications were documented during her stay.
+The patient is a 79-year-old female presenting with acute tongue swelling that began earlier in the evening. She reported waking up with a strange neck sensation and swollen tongue, but denied chest pain, dyspnea, dizziness, rash, or itching; her speech was slurred due to the swelling. Her medical history includes atrial fibrillation, hypertension, depression, osteoarthritis, questionable chronic obstructive pulmonary disease (COPD), and hypercholesterolemia; she had been taking lisinopril since August of the previous year and is allergic to Bactrim. The documented diagnosis was angioedema, most likely secondary to ACE inhibitor (lisinopril) use, with no evidence of other allergies or food triggers. Treatment included discontinuation of the ACE inhibitor, administration of intravenous steroids and H2 blockers, close observation in the ICU, and continuation of Benadryl and famotidine; an EpiPen was prescribed for emergency use. Her antihypertensive regimen was adjusted by starting amlodipine and continuing atenolol, and her anticoagulation with warfarin was resumed after initial holding. She was discharged home in stable condition with instructions for follow-up with her primary care physician and allergy specialist.
+
 
 ## Dialogue Summary
 
-The patient presented with swelling of the tongue causing discomfort. The swelling began two days ago, has worsened slightly, and is accompanied by a strange sensation in the neck, slurred speech, and mild wheezing; however, there is no difficulty swallowing, pain with tongue movement, tingling or numbness around the mouth or face, or significant shortness of breath. Eating and drinking remain manageable, and daily routines are largely unaffected except for challenges with speech and distraction from the neck sensation. No specific triggers, foods, or activities were identified, and the patient is unsure if medications could be contributing. On assessment, the doctor noted tongue swelling, neck sensation, slurred speech, and mild wheezing without severe respiratory compromise or pain. The doctor suggested the symptoms may be due to a mild allergic reaction, irritation, or possible medication side effect. The treatment plan includes monitoring for worsening symptoms (such as increased swelling, difficulty swallowing, or breathing problems), avoiding irritants, staying hydrated, resting the voice, and seeking prompt medical attention if symptoms escalate.
+The patient is an adult presenting with tongue swelling as the chief complaint. The swelling began two days ago, has worsened, and is associated with discomfort, slurred speech, a strange neck sensation, and mild wheezing. The patient denies difficulty swallowing, significant pain, or shortness of breath, and reports no clear triggers such as foods or medications. Eating and drinking remain manageable, but speech is affected due to the swelling. There is no history of tingling or numbness around the mouth or face. The clinical impression is mild tongue swelling, possibly related to a mild allergic reaction, irritation, or medication side effect. The treatment plan includes monitoring for worsening symptoms (such as increased swelling, difficulty swallowing, or breathing problems), avoiding potential irritants, staying hydrated, and resting the voice. The patient was advised to seek prompt medical attention if symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.593
+- **Model Used**: general
+- **Text1 Length**: 173 words
+- **Text2 Length**: 139 words
+
 
 ## Processing Information
 

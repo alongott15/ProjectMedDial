@@ -87,16 +87,21 @@ If your symptoms aren’t improving after a week of self-care or if they get wor
 
 ## EHR Summary
 
-The patient is a 59-year-old male presenting with left ankle pain following an ankle fracture. On admission, his left ankle was swollen but neurovascularly intact. His relevant history includes a 60 pack-year tobacco history (quit 15 years ago), past alcohol abuse, and a family history of hypertension and coronary artery disease. Physical exam revealed a swollen left ankle. The documented diagnosis was right ankle fracture, though the procedure performed was ORIF of the left ankle. He underwent open reduction and internal fixation (ORIF) of the left ankle and had an uncomplicated postoperative course. Discharge medications included oxycodone-acetaminophen for pain, enoxaparin for thromboprophylaxis, colace for constipation, and his home cardiac medications. Discharge instructions emphasized keeping the incision clean and dry, non-weight bearing on the right leg, leg elevation, and adherence to prescribed medications including enoxaparin injections.
+The patient is a 59-year-old male presenting with left ankle pain following an ankle fracture. On admission, the left ankle was swollen but neurovascularly intact. His relevant history includes a 60 pack-year tobacco history (quit 15 years ago), past alcohol abuse, and family history of hypertension and coronary artery disease. The documented diagnosis was right ankle fracture. He underwent open reduction and internal fixation (ORIF) of the left ankle and had an uncomplicated postoperative course. Discharge medications included oxycodone-acetaminophen for pain, enoxaparin for thromboprophylaxis, colace for constipation, and several chronic medications (quinapril, isosorbide mononitrate, atorvastatin, metoprolol succinate, citalopram). He was instructed to keep incisions clean and dry, remain non-weight bearing on the right leg, elevate the leg, and follow up in two weeks for suture removal. Physical therapy instructions included non-weight bearing on the right lower extremity and daily dressing changes until wounds are dry.
+
 
 ## Dialogue Summary
 
-The patient presented with left ankle pain and discomfort, making it uncomfortable to walk. Symptoms included gradual onset of pain over a few days, currently rated as 6 out of 10 in severity, with associated swelling but no redness or warmth. The swelling and pain worsen with walking or standing and improve with rest; there was no history of injury, new activities, or prior joint issues. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted gradual onset ankle discomfort and swelling without signs of infection or trauma, suggesting possible overuse, mild inflammation, or early arthritis. The doctor recommended rest, elevation, ice packs for 15–20 minutes several times daily, and over-the-counter pain relief if there are no contraindications. The patient was advised to monitor for warning signs such as increasing redness, warmth, severe pain, fever, or inability to bear weight, and to return for further evaluation if symptoms do not improve after a week or worsen.
+The patient is an adult presenting with left ankle pain as the chief complaint. The discomfort developed gradually over several days, is rated 6 out of 10 in severity, and is associated with swelling but no redness or warmth. Symptoms worsen with walking or prolonged standing and improve with rest; there is no history of injury, new activity, or prior joint issues. The clinical impression is likely minor strain, overuse, or mild inflammation, with early arthritis also considered, and infection deemed less likely due to the absence of redness or warmth. The treatment plan includes rest, ankle elevation, ice packs for 15–20 minutes several times daily, and over-the-counter pain relief such as acetaminophen or ibuprofen if there are no contraindications. The patient was advised to monitor for warning signs such as increasing redness, warmth, severe pain, fever, or inability to bear weight. If symptoms do not improve after one week of self-care or worsen, follow-up and possible imaging were recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.682
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

@@ -99,16 +99,23 @@ If you experience sudden, severe leg pain, swelling, or shortness of breath, see
 
 ## EHR Summary
 
-The patient is a 41-year-old male admitted for elective revision of prior gastric bypass due to persistent weight gain, likely secondary to a gastro-gastric fistula. He reported ongoing weight gain over several years following his initial surgery and was not adhering to the post-bypass diet. His history is significant for morbid obesity, prior gastric bypass complicated by leaks and intra-abdominal abscess, anemia, back pain/degenerative joint disease, dyslipidemia, and hypoglycemia. On evaluation, an EGD revealed a patent gastro-gastric fistula, while colonoscopy was normal. The clinical impression was persistent weight gain and anemia attributed to the gastro-gastric fistula. The patient underwent revision of gastric bypass, partial gastrectomy, lysis of adhesions, and gastrostomy tube placement, followed by repair of gastric perforation and reinforcement with fibrin glue. No drug allergies were reported.
+The patient is a 41-year-old male admitted for elective revision of prior gastric bypass due to persistent weight gain, attributed to a gastro-gastric fistula. He reported ongoing weight gain over several years following his initial surgery, which was complicated by leaks and intra-abdominal abscesses, and was also noted to have anemia. His past medical history includes morbid obesity, back pain/degenerative joint disease, dyslipidemia, and hypoglycemia; he has no known drug allergies. During this admission, he underwent revision of Roux-en-Y gastric bypass, partial gastrectomy, repair of gastric perforation, drainage of intra-abdominal abscess, and management of a right lower extremity deep vein thrombosis. The documented discharge diagnoses were gastrogastric fistula, obesity, and incisional hernia. Postoperatively, he was managed with antibiotics (including meropenem and ciprofloxacin), tube feedings via gastrostomy, TPN, anticoagulation for DVT, and pain control with hydromorphone. At discharge, he was stable and sent home with instructions for tube feedings, wound care, activity restrictions, and follow-up in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about weight gain following a prior gastric bypass surgery. She reported gradual weight increase over time, increased fatigue impacting her daily routine, episodes of her heart racing for a few minutes without clear triggers (even at rest), and recent onset of pain behind her right knee (without swelling, redness, or warmth), which began a few days ago. She denied changes in appetite, feeling unusually cold, hair thinning, or skin/nail changes. Her history includes gastric bypass and ongoing anemia; she was unsure of her most recent blood work details. The doctor noted that her symptoms of weight gain, fatigue, and heart racing could be related to metabolic or nutritional changes post-bypass and ongoing anemia, while the knee pain may be musculoskeletal but warrants monitoring for signs of blood clot. The doctor recommended tracking weight and heart symptoms, reviewing recent labs (especially anemia and vitamin levels), staying hydrated, pacing activity, and adhering to post-bypass supplements. She was advised to seek prompt care if heart racing episodes worsen or are accompanied by chest pain, dizziness, fainting, or if leg pain is associated with swelling or shortness of breath.
+The patient is an adult with a history of gastric bypass presenting with concerns about gradual weight gain. Key symptoms include increased fatigue, difficulty maintaining usual activities, ongoing anemia, and episodes of heart racing lasting a few minutes without clear triggers; the patient denies changes in appetite, feeling unusually cold, hair thinning, or skin/nail changes. The patient also reports new pain behind the right knee for a few days without swelling, redness, or warmth. Relevant history includes prior gastric bypass surgery and persistent anemia; details of recent blood work are unknown.
+
+The clinical impression is that the weight gain and fatigue may be related to metabolic or nutritional changes post-bypass and ongoing anemia, which could also explain the episodes of tachycardia. The knee pain is noted as possibly musculoskeletal but with advice to monitor for signs of blood clot. The treatment plan includes monitoring weight and heart symptoms, reviewing recent labs (especially anemia and vitamin levels), continuing recommended supplements and hydration, pacing activity, and seeking prompt care if symptoms worsen (e.g., severe leg pain, swelling, chest pain, dizziness, or shortness of breath). The patient is advised to follow up with their surgical team or primary care provider regarding these concerns.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.635
+- **Model Used**: general
+- **Text1 Length**: 157 words
+- **Text2 Length**: 200 words
+
 
 ## Processing Information
 

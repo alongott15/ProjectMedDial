@@ -99,16 +99,23 @@ Let me know if you have any other questions or concerns about your symptoms or d
 
 ## EHR Summary
 
-The patient is a 65-year-old woman presenting for management of coronary artery disease following a history of myocardial infarction and multiple percutaneous transluminal coronary angioplasties (PTCAs) with stents. She had a recent positive stress test and underwent cardiac catheterization with PTCA and brachytherapy prior to admission. Her past medical history includes hypothyroidism (treated with radioactive iodine), obesity, hypertension, and several prior surgeries. On preoperative examination, she was found to have multiple cherry hemangiomas and a fungal infection with erythema in the right groin; her cardiopulmonary and neurological exams were otherwise unremarkable. Preoperative labs revealed a hematocrit of 38.8, creatinine of 1.0, BUN of 18, and a low platelet count of 24,000. The documented diagnosis was severe coronary artery disease with a 90% left anterior descending artery lesion. She underwent coronary artery bypass grafting x2 as the primary treatment.
+The patient is a 65-year-old woman admitted for coronary artery bypass grafting (CABG) following a history of myocardial infarction and recurrent coronary artery disease. She presented after a positive stress test and cardiac catheterization revealed significant coronary lesions, with symptoms and findings consistent with ischemic heart disease. Her past medical history includes hypothyroidism, hypertension, obesity, and multiple prior surgeries. The documented diagnoses were status post CABG x2, status post myocardial infarction, and hypothyroidism. Postoperatively, she experienced stable recovery with transient first-degree AV block and brief nocturnal pauses, possibly related to enhanced vagal tone or obstructive sleep apnea, but remained hemodynamically stable. Treatment included CABG x2, perioperative antibiotics, diuresis with Lasix, blood transfusion for low hematocrit, pain management with Dilaudid, and continuation of cardiac and thyroid medications. She was discharged in stable condition with instructions for follow-up with her primary care physician and cardiothoracic surgeon. Discharge medications included Plavix, atorvastatin, methimazole, aspirin, Zantac, Colace, and Dilaudid as needed for pain.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about rough, coarse breathing on both sides. Symptoms included gradually worsening rough breathing over several days, mild swelling in the legs and feet, and mild chest discomfort without cough or fever; symptoms were worse with activity but not at rest or during sleep, and swelling was described as minimal but uncomfortable. The patient denied nighttime shortness of breath, need for extra pillows, recent weight changes, new medications, cough, or fever. On examination, no acute distress or severe symptoms were noted, and the patient was able to manage most daily activities despite slowing down somewhat. The doctor assessed that the symptoms likely represent mild fluid retention and airway changes, possibly related to age or chronic conditions, with no signs of infection or emergency. The doctor recommended monitoring for any sudden worsening of symptoms (such as severe shortness of breath, rapid swelling, intense chest pain, dizziness, or fainting), elevating the legs when sitting, maintaining gentle activity, and watching for changes. The patient was advised to seek prompt medical attention if any concerning symptoms develop and to continue current management if symptoms remain stable.
+The patient presents with the chief complaint of rough, coarse breathing bilaterally that has gradually worsened over several days. Key symptoms include persistent dyspnea that is worse with activity but not at rest or during sleep, minimal swelling in the legs and feet, and mild chest discomfort without cough or fever. The patient reports that these symptoms have led to some slowing of daily activities but is still able to manage most routines; there are no nighttime symptoms or significant triggers identified. There is no history of recent weight changes or new medications.
+
+The clinical impression is mild fluid retention and possible mild airway changes, likely related to age or chronic conditions, with no evidence of acute infection or severe cardiopulmonary compromise. The treatment plan includes monitoring for any worsening symptoms, elevating the legs when sitting, maintaining gentle activity as tolerated, and seeking prompt medical attention if severe dyspnea, rapid swelling, intense chest pain, dizziness, or fainting occur. The patient was reassured and advised to continue current management unless symptoms change.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.923
-- **Similarity Label**: N/A
+- **STS Score**: 0.519
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 171 words
+
 
 ## Processing Information
 

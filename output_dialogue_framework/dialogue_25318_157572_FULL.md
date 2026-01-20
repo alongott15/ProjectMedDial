@@ -87,16 +87,23 @@ Would you say this tiredness and swelling are making it hard to do things you en
 
 ## EHR Summary
 
-The patient is a 75-year-old female admitted with a chief complaint of gastrointestinal bleed. She experienced nausea, vomiting, and hematemesis on the day of admission, with her daughter reporting several days of melena prior to presentation. Her relevant medical history includes hepatocellular carcinoma with esophageal varices, status post radiofrequency ablation, diabetes mellitus type 2, recent open reduction and internal fixation of an intertrochanteric fracture, chronic pancreatitis, and prior breast carcinoma. She was recently treated for presumed aspiration pneumonia and Clostridium difficile colitis. No known drug allergies were documented. In the Emergency Department, the patient was intubated. The documented diagnosis was gastrointestinal bleeding, likely related to her history of esophageal varices. Treatment details beyond intubation are not specified in the provided note.
+The patient is a 75-year-old female admitted with a gastrointestinal bleed. She presented with hematemesis, nausea, vomiting, and a history of melena over several days; physical exam revealed blood oozing from the nose and mouth, abdominal distention, and decreased bowel sounds. Her past medical history includes hepatocellular carcinoma with esophageal varices, diabetes mellitus type 2, chronic pancreatitis, breast carcinoma (status post lumpectomy), and recent hip fracture repair. On admission, laboratory findings showed elevated INR (2.4), anemia (hematocrit 33.7), thrombocytopenia (platelets 128,000), and hyperglycemia (glucose 270). Imaging revealed ascites, portal and mesenteric vein thrombosis, and diffuse bowel wall thickening. The documented clinical impression was gastrointestinal bleeding likely related to portal hypertension and coagulopathy in the setting of liver disease. Treatment included aggressive resuscitation with blood products, intravenous Protonix, Octreotide, empiric antibiotics (later discontinued), albumin, large volume paracentesis for ascites, insulin drip for glucose control, and supportive care including intubation and tube feeds as needed. The patient stabilized during hospitalization and was transferred to the general medicine floor.
+
 
 ## Dialogue Summary
 
-The patient presented with fatigue as the chief complaint. The tiredness had been building up over several days and was making it difficult to perform usual activities, with the patient getting tired quickly even with simple tasks. Sleep quality and duration had not changed, and the patient denied lightheadedness, shortness of breath, or appetite/weight changes. The patient reported a prior episode of upper stomach bleeding that had resolved before admission, and noted gradually worsening abdominal swelling without pain, with tighter clothes around the waist. The doctor assessed that the fatigue and abdominal swelling could be related to the recent GI bleed, possibly due to blood loss and fluid retention, and raised concern for potential changes in liver function or circulation. The doctor recommended monitoring energy levels, watching for new symptoms such as increased swelling, leg swelling, jaundice, or confusion, and tracking daily weight for sudden increases. The patient confirmed that these symptoms were affecting daily activities and quality of life.
+The patient is an adult presenting with the chief complaint of persistent tiredness. The fatigue has been gradually worsening over several days and is severe enough to interfere with usual daily activities, despite unchanged sleep patterns. The patient also reports progressive abdominal swelling, with clothes fitting tighter but no associated pain, and a recent history of upper gastrointestinal bleeding that has since resolved. There are no reported symptoms of lightheadedness, dyspnea, or changes in appetite or weight, and no black or tarry stools were noted.
+
+The clinical impression is that the patient’s fatigue and increasing abdominal swelling may be related to prior blood loss from the GI bleed, possibly leading to low blood count and/or fluid retention, with consideration of potential liver or circulatory involvement. The treatment plan includes monitoring for new or worsening symptoms such as increased abdominal or leg swelling, jaundice, or confusion, and daily weight tracking to detect fluid accumulation. The patient was advised to promptly report any concerning changes to their care team.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.595
+- **Model Used**: general
+- **Text1 Length**: 166 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

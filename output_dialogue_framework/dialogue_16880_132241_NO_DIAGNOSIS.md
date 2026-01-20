@@ -87,16 +87,21 @@ For mild itchiness, cool compresses and over-the-counter antihistamines (if youâ
 
 ## EHR Summary
 
-The patient is a 40-year-old male presenting with an anaphylactic reaction. He developed a pruritic rash after starting Bactrim prophylaxis for HIV, followed by nausea, myalgias, palpitations, and headache after taking an additional dose. His medical history includes HIV (diagnosed in 2146, last CD4 164, viral load >100,000, no history of opportunistic infections), nephrolithiasis, and Crohn's disease; he is allergic to Bactrim. On arrival to the emergency department, he was hypotensive (blood pressure in the 80s) and received diphenhydramine, ranitidine, steroids, fluids, and phenylephrine with good response. Physical exam showed he was alert and oriented with stable cardiovascular and respiratory findings. The documented diagnosis was anaphylactic reaction to Bactrim. The treatment plan included discontinuation of Bactrim and administration of antihistamines, steroids, fluids, and vasopressors as needed. He improved rapidly with resolution of most symptoms.
+The patient is a 40-year-old male presenting with an anaphylactic reaction. He developed a pruritic rash after starting Bactrim prophylaxis, followed by nausea, myalgias, palpitations, and headache after taking an additional dose. His history is significant for HIV (diagnosed in 2146, last CD4 164, viral load >100,000), nephrolithiasis, and Crohn's disease; he has a documented allergy to Bactrim. In the emergency department, he was hypotensive and treated with diphenhydramine, ranitidine, steroids, fluids, and phenylephrine with good response. The documented diagnosis was Bactrim anaphylaxis. He was discharged home on a 5-day prednisone taper, with prescriptions for PRN diphenhydramine and an epinephrine pen, and Dapsone was started for PCP prophylaxis. He was instructed to use diphenhydramine and epinephrine if symptoms recur and to follow up with his physician within one week.
+
 
 ## Dialogue Summary
 
-The patient presented with a sudden onset of an itchy rash and feeling "off" that began earlier today. Symptoms included a rash that started on the face and spread to the chest, moderate itchiness worsened by scratching and heat, mild muscle aches, nausea, mild difficulty breathing, wheezing, palpitations, and a headache. The patient reported that these symptoms interfered with daily activities but denied swelling of the lips or tongue. Relevant history includes an allergy to Bactrim; no other medications or allergies were mentioned. On assessment, the doctor noted the acute, spreading rash with associated respiratory symptoms and suggested this may represent an allergic reaction. The doctor advised prompt medical attention due to breathing difficulties and instructed the patient to seek emergency care if symptoms worsened (such as swelling of lips/tongue, severe shortness of breath, or faintness). For mild itchiness, the doctor recommended cool compresses and over-the-counter antihistamines if not allergic, and to avoid scratching and heat exposure. The patient demonstrated understanding of the recommendations.
+The patient is an adult presenting with a chief complaint of a sudden onset itchy rash and feeling unwell. The rash began on the face and spread to the chest, accompanied by moderate itchiness (worsened by scratching and heat), mild muscle aches, nausea, mild dyspnea, wheezing, palpitations, and headache, all starting earlier the same day. The symptoms have interfered with daily activities. The patient denies swelling of the lips or tongue but reports a known allergy to Bactrim. The clinical impression was a possible allergic reaction, given the acute onset of rash, respiratory symptoms, and associated findings. The physician advised prompt medical attention due to breathing difficulties and provided instructions to seek emergency care if symptoms worsen (such as swelling, severe dyspnea, or syncope). Supportive measures recommended included cool compresses and over-the-counter antihistamines if not contraindicated, and avoidance of scratching and heat exposure.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.691
+- **Model Used**: general
+- **Text1 Length**: 129 words
+- **Text2 Length**: 143 words
+
 
 ## Processing Information
 

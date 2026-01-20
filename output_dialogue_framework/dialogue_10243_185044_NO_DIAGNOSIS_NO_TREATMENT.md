@@ -85,16 +85,21 @@ Would you be able to describe what the pain feels like—sharp, dull, pressure, 
 
 ## EHR Summary
 
-The patient is a 78-year-old male presenting with unstable angina. He reported increased chest pain and shortness of breath with exertion, with recurrent episodes of left-sided chest pain associated with shortness of breath and nausea, each lasting about 20 minutes and relieved by sublingual nitroglycerin; no diaphoresis was noted. His medical history includes coronary artery disease status post CABG (2116, 2126), COPD, obstructive sleep apnea, hypertension, and hypercholesterolemia. On examination, he was alert, in no acute distress, with stable vital signs and a holosystolic murmur at the apex; lungs were clear to auscultation. Cardiac enzymes were negative and no EKG changes were observed during pain episodes. He was diagnosed with unstable angina and secondary A-V block (Wenckebach) with left bundle branch block. Treatment included percutaneous coronary intervention with stent placement to the SVG to the posterolateral branch and subsequent pacemaker ICD placement.
+The patient is a 78-year-old male presenting with unstable angina, characterized by increased chest pain and shortness of breath with exertion. His chest pain episodes were left-sided, lasted about 20 minutes, associated with dyspnea and nausea, and were relieved by sublingual nitroglycerin; there was no diaphoresis, and no EKG changes or positive cardiac enzymes initially. Relevant history includes coronary artery disease status post CABG and PTCA, COPD, obstructive sleep apnea, hypertension, hypercholesterolemia, and chronic lower extremity edema. During hospitalization, he developed a second-degree A-V block (Wenckebach) and left bundle branch block, for which he received an ICD pacemaker; he also experienced a periprocedural myocardial infarction likely secondary to distal embolization after catheterization. Treatment included percutaneous coronary interventions with stent placements, ICD pacemaker implantation, and medical management with aspirin, Plavix, beta-blocker, Imdur, ACE inhibitor, and statin. He was also managed for COPD with inhalers and for hypertension and hypercholesterolemia with appropriate medications. A left groin A-V fistula was identified post-catheterization and will be monitored with vascular surgery follow-up. The patient was discharged home in stable condition with instructions for close outpatient follow-up and continued medical therapy.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening chest pain, especially during physical activity. The chest discomfort began increasing in intensity a few days ago, is rated as a 7 out of 10 with exertion, and is described as a pressure or heavy sensation in the middle of the chest that usually resolves with rest but occasionally leaves mild tightness. Associated symptoms include shortness of breath on exertion, anxiety related to the pain, and sleep disruption due to chest pain waking the patient at night; there is no associated sweating, lightheadedness, or radiation of pain to the arm, neck, or jaw. The patient reported a history of prior chest pain but noted this episode is more severe and now limits daily activities; no medications or allergies were mentioned. On review, the doctor noted the pain is exertional, improves with rest, and has begun interfering with sleep and chores. The assessment was that the symptoms could be related to cardiac ischemia given their exertional nature and recent worsening. The doctor advised the patient to contact their primary care provider soon for further evaluation, avoid strenuous activity until then, and seek immediate care if new symptoms such as severe shortness of breath at rest, sweating, nausea, or persistent pain occur.
+The patient presents with worsening chest pain as the chief complaint. The pain is described as a pressure or heaviness in the middle of the chest, rated 7/10 with activity, and is triggered by exertion and relieved by rest, though mild tightness can persist after resting. Associated symptoms include exertional dyspnea but no diaphoresis, lightheadedness, or radiation of pain to the arm, neck, or jaw. The discomfort has recently increased in severity, now interfering with sleep and daily activities, and is a significant change from prior episodes. Relevant history includes previous episodes of chest pain, but this is the first time it has limited activity to this extent; no other medical history, medications, or allergies are specified. The clinical impression is that the symptoms may be related to cardiac ischemia due to exertional onset and relief with rest. The doctor advised the patient to contact their primary care provider soon for further evaluation, including possible cardiac testing, to avoid strenuous activity until then, and to seek immediate care if new or severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.629
+- **Model Used**: general
+- **Text1 Length**: 185 words
+- **Text2 Length**: 174 words
+
 
 ## Processing Information
 

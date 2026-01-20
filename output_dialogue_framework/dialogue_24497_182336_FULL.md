@@ -100,3 +100,21 @@ Let me know if you have any other questions or concerns, or if you’d like more
 ## Processing Information
 
 - **Processing Time**: 436.4s
+
+## EHR Summary
+
+The patient is a newborn male, triplet #3, delivered preterm at 33 and 5/7 weeks gestation due to maternal pregnancy-induced hypertension. At birth, he required brief CPAP for mild respiratory distress but was quickly weaned to room air with stable oxygen saturations and has remained stable without intubation or surfactant. He exhibited mild jaundice with a peak bilirubin of 9.1 mg/dL, managed with phototherapy from day 3 to day 5 of life, after which bilirubin levels improved and no further issues were noted. There was no evidence of feeding intolerance, and enteral nutrition was advanced to full feeds with PE 24 formula at 150 cc/kg/day. Relevant history includes in vitro fertilization conception, preterm labor treated with betamethasone and magnesium sulfate, and no documented infections or need for transfusions. The clinical impression is a stable preterm infant with mild jaundice, now resolved. Current treatment includes iron supplementation and continued fortified feeds. Recommendations include monitoring, pending newborn screen results, and consideration of Synagis RSV prophylaxis and influenza immunization as appropriate.
+
+
+## Dialogue Summary
+
+The patient presents with the chief complaint of increased work of breathing. The patient reports that breathing feels more effortful and sometimes faster, but denies cough, fever, noisy breathing, color changes, or chest retractions. Feeding, sleeping, and overall comfort are not affected. The patient also reports a history of a few episodes of apnea (pauses in breathing) and bradycardia (slowed heart rate), but is currently otherwise well. There is a family history of maternal headache and proteinuria. No specific diagnosis was documented; the clinical impression is mild increased work of breathing with episodes of apnea and bradycardia requiring further evaluation. The doctor advised monitoring for any worsening symptoms such as difficulty feeding, color changes, limpness, or unresponsiveness, and recommended discussing the apnea and bradycardia episodes with the pediatrician soon. The patient was reassured but instructed to seek immediate care if concerning symptoms develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.471
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 143 words
+

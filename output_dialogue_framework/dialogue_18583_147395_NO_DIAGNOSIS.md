@@ -96,3 +96,23 @@ Would you be open to doing some simple strength and balance exercises at home, o
 ## Processing Information
 
 - **Processing Time**: 400.4s
+
+## EHR Summary
+
+The patient is a 63-year-old male presenting with progressive ataxia, increased leg weakness, and urinary incontinence, leading to inability to bear weight for 48 hours. Symptoms had been ongoing for one year, with recent acute worsening five days prior to admission. Relevant history includes Non-Hodgkin's lymphoma (treated with radiation and surgery), hypertension, and high cholesterol. MRI revealed spinal stenosis and posterior herniation at the T2-T3 level. The documented diagnosis was spinal stenosis with disc herniation at T2-T3 causing neurological deficits. Treatment included T2-T3 decompression laminectomy followed by a revision laminectomy due to lack of neurological improvement, as well as management of new-onset atrial fibrillation with beta blocker therapy. On discharge, the patient had improved but persistent lower extremity weakness (4- out of 5 strength) and required acute rehabilitation. He was discharged in stable condition with follow-up arranged for staple removal and ongoing medication management.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with difficulty maintaining balance, which has progressively worsened over several months. Symptoms include gradually increasing leg weakness, unsteady gait, and significant impairment in mobility, now requiring assistance for ambulation and daily activities. The patient denies numbness, tingling, or dizziness but reports near-falls due to instability and recent worsening of urinary incontinence. Relevant history regarding medications and underlying conditions is not specified in the dialogue.
+
+The clinical impression is a gradual decline in muscle strength and coordination, with possible contributing factors including deconditioning, medication effects, arthritis, or neurological issues; inner ear problems and nerve compression are considered less likely. The treatment plan includes reviewing the patient's medications and overall health history, recommending home safety modifications to reduce fall risk (such as sturdy shoes, clear walkways, and grab bars), and initiating simple strength and balance exercises at home. The patient is advised to report any new symptoms such as sudden numbness, severe pain, or loss of bladder or bowel control. Further evaluation of urinary incontinence is implied but not detailed in this encounter.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.394
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 177 words
+

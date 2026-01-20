@@ -95,16 +95,21 @@ Otherwise, take it easy—avoid heavy lifting or strenuous chores until you've h
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with chest pain and congestive heart failure. He reported several weeks of chest pain and dyspnea on exertion prior to admission. His history is significant for coronary artery disease status post angioplasty, stenting, and brachytherapy, as well as high cholesterol and borderline diabetes; he has no known drug allergies and was taking Lipitor, Plavix, atenolol, and aspirin on admission. Cardiac catheterization revealed a 90% left anterior descending stenosis, 80% diagonal stenosis, and an ejection fraction of 65%. Electrocardiogram showed sinus bradycardia at 50 bpm with stable lateral ST/T wave changes. The documented diagnosis was progression of coronary artery disease with symptomatic heart failure. The treatment plan included evaluation and preparation for coronary artery bypass graft surgery.
+The patient is a 58-year-old male presenting with chest pain and congestive heart failure. Several weeks prior to admission, he developed chest pain and dyspnea on exertion, which prompted evaluation and transfer for surgical management. His history is significant for coronary artery disease status post angioplasty, stenting, and brachytherapy, as well as high cholesterol and borderline diabetes; he has no known drug allergies. Cardiac catheterization revealed severe coronary artery stenoses, and the clinical impression was progression of coronary artery disease. The patient underwent a coronary artery bypass graft x2 without complications and was managed postoperatively with beta blockers, Lasix, and supportive care including an alcohol drip to prevent delirium tremens due to his history of alcohol abuse. He participated in physical therapy, achieved Level V ambulation, and was discharged home in stable condition. Discharge medications included Plavix, aspirin, Percocet as needed, Zantac, potassium chloride, Colace, Lasix, and Lopressor. He was advised to follow up with his cardiologist in four weeks and his primary care physician in one to two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. He described the pain as a pressure-like sensation in the chest, rated 5–6 out of 10, which started a few days ago and has remained steady. The chest pressure is primarily triggered by physical activity and is accompanied by shortness of breath during exertion, making daily activities such as walking up stairs and doing chores more difficult; he denied associated symptoms such as sweating, nausea, or lightheadedness. No relevant medical history, medications, or allergies were mentioned during the visit. On clinical review, the doctor noted the absence of additional symptoms and that the discomfort is exertional in nature. The doctor’s assessment was that the symptoms could represent exertional angina or another heart-related issue, though other causes like muscle strain or acid reflux were also considered. The doctor advised the patient to avoid strenuous activities and recommended further evaluation with an EKG and blood tests to rule out cardiac causes. The patient was instructed to seek immediate care if symptoms worsen, occur at rest, or if new symptoms such as palpitations, fainting, or severe weakness develop.
+The patient presents with chest pain as the chief complaint. The chest pain began a few days ago, is described as a pressure-like sensation rated 5–6/10 in severity, and is primarily triggered by physical activity; it is accompanied by exertional dyspnea that makes daily activities such as walking and chores more difficult. The symptoms have remained steady without associated sweating, nausea, or lightheadedness, and are not worsened by eating or cold air. No relevant past medical history, medications, or allergies were specified. The clinical impression is possible exertional angina, with concern for a cardiac etiology given the pressure-like quality and exertional nature of symptoms. The treatment plan includes avoiding strenuous activity, obtaining further evaluation with an EKG and blood tests, and monitoring for warning signs such as worsening pain at rest, severe discomfort, palpitations, or fainting. The patient was advised to seek immediate care if any new or severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.557
+- **Model Used**: general
+- **Text1 Length**: 170 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

@@ -87,16 +87,21 @@ Would you like to discuss any adjustments to your current pain management plan, 
 
 ## EHR Summary
 
-The patient is a 59-year-old female presenting with bilateral pneumonia. She experienced severe right upper quadrant pleuritic pain radiating to the right shoulder, associated with tachypnea, diaphoresis, subcostal retractions, and desaturation to 85% on room air, which improved to 97% on non-rebreather mask. Her past medical history includes chronic steroid use for lichen planus, degenerative disk disease with spinal stenosis on chronic narcotics, hypertension, diabetes, iron deficiency anemia, and anxiety disorder; she has allergies to aspirin and NSAIDs. On examination, she was diaphoretic but in no distress, with a maximum temperature of 102.3°F, tachycardia, and oxygen saturation of 96% on 4L nasal cannula. Imaging revealed right middle and lower lobe and left lower lobe pneumonia with moderate right pleural effusion; no pulmonary embolism was found. The documented diagnosis was bilateral pneumonia with sepsis. Treatment included intubation and ventilation, bilateral chest tube placement via VATS, intravenous fluids, and antibiotics (azithromycin and ceftriaxone). She was managed under a sepsis protocol and remained hemodynamically stable during admission.
+The patient is a 59-year-old female presenting with bilateral pneumonia. She experienced severe right upper quadrant pleuritic pain radiating to the right shoulder, associated with desaturation (O2 sat 85% on room air), tachypnea, diaphoresis, and subcostal retractions, requiring intubation and mechanical ventilation. Her history is significant for chronic steroid use for lichen planus, degenerative disk disease with spinal stenosis on chronic narcotics, hypertension, diabetes, and iron deficiency anemia; she has allergies to aspirin and NSAIDs. Imaging revealed right middle and lower lobe pneumonia with moderate right pleural effusion and parapneumonic effusion, leading to sepsis protocol initiation. She underwent thoracentesis, video-assisted thoracoscopy for lysis of adhesions, and bilateral chest tube placement. Blood cultures grew gram-positive cocci, prompting removal of all indwelling lines. The patient improved after drainage, was extubated, and transferred out of the ICU in stable condition. Discharge diagnoses included lumbar spondylitis and flat back syndrome; she was advised to ambulate with a brace and follow up in 10–14 days.
+
 
 ## Dialogue Summary
 
-The patient presented with back pain related to spondylitis. They described a steady, aching pain in the back that worsens with movement, standing for long periods, or bending, and is accompanied by stiffness, especially in the mornings or after sitting; the discomfort is rated around 6 out of 10 and has gradually worsened over time. Heat and gentle stretching provide some relief, while increased activity exacerbates symptoms. The patient denied any numbness, tingling, weakness in the legs, or changes in bladder or bowel control. There is a known history of spondylitis; no other medical history, medications, or allergies were mentioned. The doctor noted that the patient’s symptoms are consistent with spondylitis and that there are no signs of nerve involvement at this time. The doctor recommended continuing gentle movement, heat therapy, and pacing activities, and emphasized the importance of staying active while taking breaks as needed. The patient requested further advice on making daily activities less painful.
+The patient is an adult presenting with back pain related to spondylitis as the chief complaint. The pain is described as steady and aching, primarily in the back, rated around 6 out of 10 in severity, and worsens with activity such as standing or bending; stiffness is also noted, especially in the mornings or after periods of rest. The discomfort has gradually increased over time and now interferes with daily activities like bending and prolonged standing. The patient reports no numbness, tingling, weakness in the legs, or changes in bladder or bowel control. The documented clinical impression is spondylitis with associated pain and stiffness but without evidence of nerve involvement. Treatment recommendations include gentle movement, heat therapy, stretching, pacing activities, and staying as active as comfortably possible while taking breaks as needed. The patient was advised to seek prompt medical attention if new nerve-related symptoms develop. Additional advice was requested regarding strategies to make daily activities less painful.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.940
-- **Similarity Label**: N/A
+- **STS Score**: 0.469
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 158 words
+
 
 ## Processing Information
 

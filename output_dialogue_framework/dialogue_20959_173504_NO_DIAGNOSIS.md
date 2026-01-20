@@ -89,16 +89,21 @@ Do you have any questions or concerns about what we’ve talked about so
 
 ## EHR Summary
 
-The patient is a 61-year-old female presenting with lightheadedness, dizziness, and an episode of vertigo that awakened her from sleep and lasted less than one minute. She denied numbness, palpitations, chest pain, or visual changes. Further workup revealed a 5 mm aneurysm of the left posterior communicating artery on MRI. Her past medical history, medications, and allergies are not specified. On admission, she underwent elective angiogram and coiling of the aneurysm under general anesthesia, which she tolerated well. Postoperatively, she was monitored in the Neurosurgical ICU with blood pressure control using Nipride infusion and received heparin for six hours; her coagulation and chemistries remained normal. On examination, she was neurologically intact with stable vital signs and no deficits. The documented diagnosis was a left posterior communicating artery aneurysm, and treatment included endovascular coiling, blood pressure management, and postoperative monitoring.
+The patient is a 61-year-old female presenting with lightheadedness, dizziness, and an episode of vertigo that awakened her from sleep and lasted less than one minute. She denied numbness, palpitations, chest pain, or visual changes. Further workup revealed a 5 mm unruptured aneurysm of the left posterior communicating artery. Her relevant history includes preoperative use of hydrochlorothiazide, which she is to continue. The documented diagnosis was unruptured left posterior communicating artery aneurysm. She underwent elective cerebral angiogram and coil embolization under general anesthesia without complications. Postoperatively, she was monitored in the ICU with blood pressure and anticoagulation management, and her neurological examination remained intact throughout her stay. She was discharged in stable condition with instructions to follow up in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with lightheadedness as the chief complaint. Symptoms included intermittent lightheadedness for a few days, primarily occurring when standing up or moving around, and accompanied by occasional dizziness; the patient reported one brief episode of spinning vertigo without nausea or vomiting. The vertigo episode was described as a spinning sensation lasting a short while, and sitting down helped alleviate the lightheadedness. No history of fainting, blurred vision, chest pain, weakness, or difficulty with daily activities was reported. The doctor assessed that the symptoms were consistent with orthostatic hypotension, possibly related to dehydration or mild inner ear disturbance, and noted the brief vertigo could be benign and inner ear-related. The doctor recommended increasing fluid intake, standing up slowly, and monitoring for worsening symptoms such as fainting or persistent vomiting. Blood pressure measurement in both sitting and standing positions was offered to further evaluate for orthostatic changes.
+The patient is an adult presenting with lightheadedness as the chief complaint. The symptoms have been present for a few days, are intermittent, and are more noticeable when standing up or moving around; sitting down alleviates the lightheadedness. The patient also reported one brief episode of vertigo characterized by a spinning sensation without associated nausea, vomiting, blurred vision, or fainting. There is no significant impact on daily activities, though the patient is more cautious when changing positions. Relevant medical history, medications, and allergies were not specified. The clinical impression was orthostatic hypotension, possibly related to dehydration or a mild inner ear disturbance. The treatment plan included recommendations to stay hydrated, stand up slowly, and monitor for worsening symptoms; blood pressure measurement in both sitting and standing positions was also advised. The patient agreed to these recommendations and requested blood pressure checks.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.935
-- **Similarity Label**: N/A
+- **STS Score**: 0.475
+- **Model Used**: general
+- **Text1 Length**: 121 words
+- **Text2 Length**: 141 words
+
 
 ## Processing Information
 

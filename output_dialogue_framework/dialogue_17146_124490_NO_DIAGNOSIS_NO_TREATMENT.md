@@ -76,16 +76,21 @@ To help pinpoint the cause, could you describe exactly where the pain is located
 
 ## EHR Summary
 
-The patient is a 44-year-old female presenting with chronic pelvic pain and abnormal uterine bleeding. She reported persistent abnormal bleeding and increasing pelvic pain, with a history of irregular menses, endometriosis, and prior C-section. Pelvic ultrasound showed a normal-sized uterus with normal endometrium and a left ovarian cyst consistent with endometrioma. Her past medical history includes multiple sclerosis with voiding dysfunction and endometriosis; she is allergic to penicillins and codeine. Physical exam revealed possible left adnexal fullness but was limited by voluntary guarding, and laboratory results showed anemia (Hgb 9.0–9.8) and leukocytosis initially. The documented procedures included diagnostic hysteroscopy, dilation and curettage, diagnostic laparoscopy, exploratory laparotomy, lysis of adhesions, left oophorectomy, and left ureterolysis. The clinical impression was endometriosis with associated ovarian endometrioma and chronic pelvic pain. Treatment involved surgical intervention as listed above.
+The patient is a 44-year-old female presenting with chronic pelvic pain and abnormal uterine bleeding. She reported persistent abnormal bleeding and increasing pelvic pain, with a history of irregular menses, endometriosis, and a left ovarian cyst consistent with endometrioma. Her past medical history includes multiple sclerosis with voiding dysfunction, endometriosis, and prior C-section; she is allergic to penicillins and codeine. The documented diagnoses were endometriosis, left endometrioma, chronic pelvic pain, abnormal uterine bleeding, postoperative narcosis, and postoperative fever. She underwent diagnostic hysteroscopy, dilation and curettage, diagnostic laparoscopy (converted to exploratory laparotomy), lysis of adhesions, left oophorectomy, and left ureterolysis. Postoperatively, she experienced pain control issues, transient apnea likely related to narcotics, low-grade fevers attributed to atelectasis, and mild GI symptoms that resolved with bowel rest. At discharge, her pain was controlled with oxycodone-acetaminophen and ibuprofen, and she was advised to avoid heavy lifting for 6 weeks and vaginal insertion for 2 weeks. She was discharged home in stable condition with instructions for follow-up with her OB/GYN.
+
 
 ## Dialogue Summary
 
-The patient presented with heavier than usual menstrual bleeding, including the presence of clots. She reported persistent abnormal bleeding, pelvic pain rated at 7/10 in severity that has been worsening, increased abdominal distention and pain, nausea, irregular menstrual cycles, and spotting between periods over the past few months. She denied unusual fatigue, lightheadedness, or appetite changes but noted occasional shortness of breath and low-grade fever. Relevant history includes endometriosis and a prior C-section; she denied a history of fibroids or ovarian cysts. On further questioning, the pain was described as mostly low in the abdomen and spreading across the lower belly. The doctor assessed that her symptoms of heavier and irregular bleeding, increasing pelvic discomfort, and history of endometriosis suggest abnormal uterine function, possibly related to endometriosis or other causes such as hormonal shifts or polyps. The doctor explained possible causes and asked for more details about pain location to help narrow the differential diagnosis. No specific treatment plan or recommendations were provided during this conversation.
+The patient is a female presenting with the chief complaint of heavier than usual menstrual bleeding accompanied by clots. She reports persistent abnormal uterine bleeding, pelvic pain rated at 7/10 that has been worsening, increased abdominal distention, nausea, and recent onset of irregular cycles with intermenstrual spotting over the past few months. She denies unusual fatigue or lightheadedness and notes her appetite is unchanged. Additional symptoms include low abdominal pain spreading across the lower belly, occasional shortness of breath, and intermittent low-grade fever. Relevant history includes endometriosis and a prior cesarean section; she denies a history of fibroids or ovarian cysts. The clinical impression is that her symptoms may be related to endometriosis or other causes such as hormonal changes or polyps. No definitive diagnosis or specific treatment plan was documented in the dialogue. The physician explained possible causes and continued to gather symptom details to guide further evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.972
-- **Similarity Label**: N/A
+- **STS Score**: 0.699
+- **Model Used**: general
+- **Text1 Length**: 166 words
+- **Text2 Length**: 149 words
+
 
 ## Processing Information
 

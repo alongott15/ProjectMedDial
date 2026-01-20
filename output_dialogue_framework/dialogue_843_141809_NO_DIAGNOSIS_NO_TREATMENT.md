@@ -89,16 +89,23 @@ Does that make sense? Any questions or concerns about what we've discussed so fa
 
 ## EHR Summary
 
-The patient is a 45-year-old male presenting with swelling over the right parotid, left cervical lymphadenopathy, episodic fevers, night chest pressure, back pain, dyspnea, cough, nausea, significant weight loss (25 pounds in three weeks), night sweats, hemoptysis, dysuria, and dark urine. He has a history of remission following 5.5 cycles of DDAVP and was previously treated for PCP with Bactrim, though bronchoalveolar lavage was negative. On admission, he was found to be in acute renal failure (creatinine 13.6, uric acid 21.1) and had laboratory findings including hematocrit 32.7, platelets 136, PT 14.7, PTT 28.1, and INR 1.4. Fine needle aspirate of the left cervical node revealed monoclonal B cells positive for CD-10 antigen, consistent with non-Hodgkin's lymphoma; renal biopsy confirmed diffuse lymphoproliferative infiltration. Imaging showed massive homogeneous enlargement of the kidneys, and bronchoscopy revealed a large clot/vascular mass in the right bronchus intermedius. The patient required intubation for airway protection and started hemodialysis via right internal jugular catheter. Treatment included initiation of methylprednisolone.
+The patient is a 45-year-old male presenting with swelling over the right parotid, left cervical lymphadenopathy, episodic fevers, chest pressure, back pain, dyspnea, cough, nausea, significant weight loss (25 pounds in three weeks), night sweats, hemoptysis, and dysuria with dark urine. Symptoms developed after a 2.5-year remission from non-Hodgkin's lymphoma following DDAVP therapy. Past medical history includes HIV (diagnosed in 2134), possible prior PCP, perianal papillomatosis, and cryptosporidium infection; antiretroviral medications had been discontinued. Fine needle aspiration of a cervical lymph node revealed monoclonal B cell infiltrate (CD-10 positive), consistent with non-Hodgkin's lymphoma, and renal biopsy showed diffuse lymphoproliferative infiltration. The patient was admitted with acute renal failure (creatinine 13.6), nephromegaly, and recurrent hemoptysis requiring intubation and hemodialysis. Treatment included intravenous methylprednisolone (1 mg/kg daily), allopurinol, levofloxacin, blood transfusion, and supportive care with hydration and hemodialysis (later discontinued as renal function improved). He was extubated and transferred to the oncology floor for further management, with plans for low-dose cycled chemotherapy.
+
 
 ## Dialogue Summary
 
-The patient presented with coughing up blood as the chief complaint. Symptoms included a mild cough producing mucus with occasional blood streaks, occurring a few times over the past few days, and accompanied by low-grade fevers in the low 100s; the symptoms have remained stable without worsening. The patient denied shortness of breath, chest pain, weight loss, recent respiratory infections, sick contacts, or identifiable triggers such as activity or environmental exposures. No history of interfering with daily activities, work, sleep, or energy levels was reported, and the mucus was described as normal in color aside from blood streaks. On assessment, the doctor noted mild cough with blood-streaked sputum and low-grade fever, without other concerning features. The doctor explained that small amounts of blood in mucus are often due to minor airway irritation or inflammation and that the absence of other symptoms is reassuring. The treatment plan included monitoring symptoms, staying hydrated, and seeking prompt care if there is increased blood, new symptoms, or worsening condition; otherwise, improvement or stability over the next week would be a positive sign.
+The patient is an adult presenting with hemoptysis (coughing up blood) as the chief complaint. Symptoms include a mild cough productive of mucus with small streaks of blood, occurring several times over the past few days, accompanied by low-grade fevers in the low 100s Fahrenheit. The patient denies shortness of breath, chest pain, weight loss, recent respiratory infections, sick contacts, or identifiable triggers, and reports no interference with daily activities or energy levels. There is no relevant past medical history, medications, or allergies documented.
+
+The clinical impression is mild airway irritation or minor inflammation, possibly related to coughing, with no evidence of serious underlying illness at this time. The physician advised monitoring symptoms closely, staying hydrated, and seeking prompt care if there is an increase in blood, new symptoms (such as worsening fever, night sweats, or dyspnea), or if the patient begins to feel unwell. No medications or further diagnostic tests were prescribed at this visit. The patient expressed understanding and reassurance with the plan.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.363
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

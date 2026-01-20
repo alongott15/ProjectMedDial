@@ -89,16 +89,21 @@ Do you have someone with you who can help you get to care quickly?
 
 ## EHR Summary
 
-The patient is a 78-year-old woman presenting with complications following a diagnostic cardiac catheterization. She has a history of coronary artery disease, type 2 diabetes, and COPD, and reports longstanding angina at rest and dyspnea on exertion, with recent increased frequency of chest discomfort lasting about 10 minutes and mild exertional dyspnea. Her prior cardiac history includes a 90% ostial lesion and a 99% mid-RCA lesion treated with PTCA in 2190, and a recent Persantine Myoview scan showed a small reversible anteroapical defect with normal LV function (EF 76%). During the current admission, her cardiac catheterization revealed no change in coronary disease, but was complicated by a growing right groin hematoma and hypotension post-procedure. Onset of hypotension and bradycardia was managed with manual pressure, a clamp, 1 mg atropine for bradycardia, and transient dopamine support. The documented clinical impression is post-cardiac catheterization hematoma with associated hypotension. Treatment included hemostasis by manual pressure and supportive care for hemodynamic instability.
+The patient is a 78-year-old woman presenting with a right groin hematoma and hypotension following a diagnostic cardiac catheterization. She reported a history of increasing frequency of chest discomfort lasting about 10 minutes, occurring once a week and resolving spontaneously, as well as mild dyspnea on exertion and orthopnea (sleeping on two to three pillows). Her relevant history includes coronary artery disease, type 2 diabetes mellitus, COPD, hypertension, hypercholesterolemia, and a penicillin allergy. The documented diagnoses were coronary artery disease status post cardiac catheterization without intervention, complicated by right groin hematoma, as well as hypertension, hypercholesterolemia, diabetes, and COPD. Treatment included manual pressure and a fem-stat device for hemostasis, transfusion of one unit of packed red blood cells and one bag of platelets (due to suspected platelet dysfunction from excessive aspirin use), and observation in the CCU. She remained hemodynamically stable after initial management, with no further bleeding or hematoma enlargement. The patient was discharged home on her unchanged medication regimen with instructions to follow up with her primary cardiologist in one to two weeks. Her condition on discharge was improved.
+
 
 ## Dialogue Summary
 
-The patient presented with a growing bruise and ongoing bleeding near the right groin following a recent heart procedure. Symptoms included worsening bruising that is enlarging and changing color, persistent oozing from the site, swelling, firmness, and tenderness to touch. The patient also reported moderate chest discomfort at rest that comes and goes, shortness of breath with activity, and lightheadedness when standing; no fever or spreading redness was noted. Relevant history includes a recent heart procedure; no medications or allergies were mentioned. On assessment, the doctor noted concern for ongoing bleeding or a hematoma at the procedure site, possibly affecting blood volume or causing pressure on nearby structures, and highlighted the absence of infection signs. The doctor strongly recommended immediate medical evaluation at the hospital to assess for significant bleeding and monitor cardiac status. The patient was advised to keep pressure on the area, avoid sudden standing or walking, and seek emergency care if symptoms worsen. The patient confirmed understanding and arranged for prompt transport to the hospital.
+The patient is an adult presenting with a chief complaint of a growing bruise and ongoing bleeding near the right groin following a recent heart procedure. Symptoms include progressive bruising that is enlarging and changing color, persistent oozing from the site, swelling, firmness, and tenderness to touch. The patient also reports moderate chest discomfort at rest, shortness of breath with activity, and lightheadedness when standing, but denies fever or spreading redness. Relevant history includes a recent cardiac intervention at the affected site. The clinical impression is possible ongoing bleeding or hematoma formation at the procedure site, potentially causing local pressure effects or impacting blood volume. The physician did not document infection but expressed concern for a post-procedural complication requiring urgent evaluation. The treatment plan includes immediate medical assessment at the hospital, monitoring for worsening symptoms, and instructions to keep pressure on the area and avoid exertion until evaluated. The patient was advised to seek emergency care if symptoms worsen and confirmed that her daughter can assist her in getting to the hospital.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **STS Score**: 0.656
+- **Model Used**: general
+- **Text1 Length**: 181 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

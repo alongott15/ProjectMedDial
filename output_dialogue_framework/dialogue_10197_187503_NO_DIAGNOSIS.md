@@ -87,16 +87,21 @@ Let me know if you have any questions about what we've discussed or if anything 
 
 ## EHR Summary
 
-The patient is a 76-year-old female presenting with nausea, which serves as her anginal equivalent. She also reported chest pain and shortness of breath upon arrival to the emergency room. Her medical history is significant for coronary artery disease with prior mid-LAD stenosis, diffuse left circumflex and RCA disease, hypertension, GERD, Billroth II surgery, anemia, hyperlipidemia, ischemic cardiomyopathy, and prior hysterectomy and appendectomy. On admission, she was found to have a non-Q wave myocardial infarction. Cardiac catheterization revealed significant multivessel coronary artery disease, including a 60% distal LAD lesion, 90% OM1 lesion, 70% OM2 lesion, and 80% mid-RCA lesion. During the procedure, she continued to experience angina, which resolved after placement of an intra-aortic balloon pump. Cardiothoracic surgery was consulted and she was accepted for coronary artery bypass grafting.
+The patient is a 76-year-old female presenting with nausea, which serves as her anginal equivalent. She reported chest pain, shortness of breath, and nausea, and was found to have a non-Q wave myocardial infarction. Her history is significant for coronary artery disease with prior mid-LAD stenosis, diffuse left circumflex and RCA disease, hypertension, GERD, Billroth II surgery, anemia, hyperlipidemia, ischemic cardiomyopathy, hysterectomy, and appendectomy. Cardiac catheterization revealed significant multivessel coronary artery disease, and she underwent coronary artery bypass grafting (CABG) times three. Postoperatively, she experienced left facial swelling and parotid tenderness, which resolved with antibiotics and warm packs. The documented diagnoses include CAD status post CABG x3, hypertension, GERD, hypercholesterolemia, and prior surgical history. At discharge, she was stable and transferred to a rehabilitation facility with instructions for follow-up and a regimen including Plavix, aspirin, Lipitor, Protonix, Creon, metoprolol, furosemide, potassium chloride, and Percocet as needed.
+
 
 ## Dialogue Summary
 
-The patient presented with nausea as the chief complaint. She reported decreased appetite due to nausea, with normal fluid intake, and described associated chest pain and shortness of breath that occur together with the nausea and appetite changes. She also noted persistent swelling and tenderness on the left side of her face around the parotid gland, which does not worsen with eating or thinking about food and has remained unchanged since onset. The symptoms have made daily activities more difficult and caused increased fatigue. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor considered possible inflammation or infection of the salivary gland but expressed concern about the chest discomfort and shortness of breath, noting these could also indicate heart or lung issues. The doctor recommended in-person evaluation as soon as possible to rule out serious causes, advised staying hydrated and resting, and instructed the patient to seek immediate care if symptoms worsen or new symptoms such as fever, weakness, or confusion develop.
+The patient presents with nausea as the chief complaint. They report decreased appetite due to nausea, with preserved ability to drink fluids, and describe associated symptoms of chest pain and dyspnea that began concurrently with the nausea. The patient also notes persistent swelling and tenderness on the left side of the face around the parotid gland, which does not fluctuate with eating and has remained stable since onset. These symptoms are interfering with daily activities, causing increased fatigue and difficulty completing tasks. Relevant history, medications, and allergies are not specified. The clinical impression is possible inflammation or infection of the salivary gland, but the provider expresses concern for potential cardiac or pulmonary causes given the chest discomfort and shortness of breath. The treatment plan includes a recommendation for in-person evaluation as soon as possible to rule out serious underlying conditions, advice to stay hydrated and rest, and instructions to seek immediate medical attention if symptoms worsen or new symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
+- **STS Score**: 0.419
+- **Model Used**: general
+- **Text1 Length**: 146 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

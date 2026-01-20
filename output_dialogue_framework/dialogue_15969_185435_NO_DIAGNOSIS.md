@@ -89,16 +89,21 @@ Let me know if you have any concerns about your medications or if you’re unsur
 
 ## EHR Summary
 
-The patient is a 45-year-old female presenting with elevated blood pressures at 37 weeks and 5 days of gestation. She reported no headaches, visual changes, or right upper quadrant pain at admission. Her history includes chronic hypertension during pregnancy managed with labetalol, advanced maternal age, prior therapeutic and spontaneous abortions, mitral valve prolapse, and previous abnormal Pap smear with subsequent normal follow-up. On the day of admission, she was found to have proteinuria in the office and was sent to OB Triage for further evaluation. Physical exam findings or additional test results are not specified. The documented diagnosis was hypertension in pregnancy with proteinuria. The treatment plan included induction of labor due to her hypertension.
+The patient is a 45-year-old female presenting at 37 weeks and 5 days gestation with elevated blood pressures. She reported no headaches, visual changes, or right upper quadrant pain, but was found to have proteinuria and elevated liver function tests on admission; she also had a history of hypertension during pregnancy managed with labetalol. Her prenatal course was notable for advanced maternal age, prior admissions for elevated blood pressure and preterm contractions, and a fetal abdominal cyst. The documented diagnoses were delivery of a live born female via cesarean section, aspiration pneumonia of bacterial origin, and HELLP syndrome (hemolysis, elevated liver function, and low platelets). Treatment included induction of labor, magnesium sulfate for seizure prophylaxis, cesarean section due to labor arrest, antibiotics (ceftriaxone, clindamycin, azithromycin, later Zosyn and vancomycin) for pneumonia, anticoagulation initially for pulmonary emboli (later withheld), and antihypertensive therapy switched to nifedipine. She also received Protonix for hematemesis and one dose of Diflucan for probable yeast infection. At discharge, her vital signs and laboratory values had stabilized, and she was ambulating and tolerating oral intake. She was instructed to follow up with her obstetrician in 2 weeks and her primary care physician for thrombophilia workup and outpatient EGD.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about elevated blood pressure during pregnancy. She reported consistently high home blood pressure readings with some day-to-day variation, trace swelling in both legs, decreased urine output, and a prior finding of protein in her urine; she denied headaches, vision changes, or upper abdominal pain. Her medical history includes current pregnancy and ongoing blood pressure monitoring, with instructions from her doctor to continue medications as usual; no medication names or allergies were specified. On review, the patient described mild edema and decreased urine output but no symptoms interfering with daily activities. The doctor noted the combination of elevated blood pressure and proteinuria could indicate gestational hypertension or preeclampsia, though the absence of severe symptoms was reassuring. The doctor advised continued home blood pressure monitoring, adherence to prescribed medications, and prompt reporting of any new or worsening symptoms such as increased swelling, headaches, vision changes, severe upper abdominal pain, or further reduction in urine output. Additional recommendations included staying well-hydrated and resting when possible. The patient expressed understanding and agreed to monitor for changes.
+The patient is a pregnant individual presenting with concerns about elevated blood pressure. She reports consistently high home blood pressure readings since recently, trace bilateral leg edema, decreased urine output, and a history of proteinuria noted by her doctor; she denies headaches, vision changes, or upper abdominal pain. There is no documentation of specific proteinuria levels or significant impact on daily activities. The clinical impression discussed is possible gestational hypertension or preeclampsia, given the combination of hypertension and proteinuria during pregnancy. The patient has been advised to continue monitoring her blood pressure at home, take prescribed medications as usual, and promptly report any new or worsening symptoms such as increased swelling, headaches, vision changes, severe upper abdominal pain, or further decreased urine output. Additional recommendations include staying well-hydrated and resting when possible. No changes to her current medication regimen were made during this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.976
-- **Similarity Label**: N/A
+- **STS Score**: 0.617
+- **Model Used**: general
+- **Text1 Length**: 200 words
+- **Text2 Length**: 144 words
+
 
 ## Processing Information
 

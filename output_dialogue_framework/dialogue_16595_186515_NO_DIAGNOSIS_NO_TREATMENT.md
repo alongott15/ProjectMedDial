@@ -85,16 +85,21 @@ If the discomfort continues to interfere with your daily life or sleep, we can d
 
 ## EHR Summary
 
-The patient is a 59-year-old female presenting with bilateral pneumonia. She reported severe right upper quadrant pleuritic pain radiating to the right shoulder, accompanied by tachypnea, diaphoresis, subcostal retractions, and oxygen desaturation to 85% on room air, which improved to 97% on non-rebreather mask. Her past medical history includes chronic steroid use for lichen planus, degenerative disk disease with spinal stenosis on chronic narcotics, hypertension, diabetes, iron deficiency anemia, and anxiety disorder; she has allergies to aspirin and NSAIDs. On examination, she was diaphoretic but in no distress, with a temperature of 102.3°F, tachycardia, and oxygen saturation of 96% on 4L nasal cannula. Imaging revealed right middle and lower lobe and left lower lobe pneumonia with moderate right pleural effusion; no pulmonary embolism was found. The documented diagnosis was bilateral pneumonia with sepsis. Treatment included intubation and ventilation, bilateral chest tubes placed by VATS, intravenous fluids, and antibiotics (azithromycin and ceftriaxone). She was managed under a sepsis protocol and remained hemodynamically stable during admission.
+The patient is a 59-year-old female presenting with bilateral pneumonia. She experienced severe right upper quadrant pleuritic pain radiating to the right shoulder, associated with desaturation (O2 sat 85% on room air), tachypnea, diaphoresis, and subcostal retractions, requiring intubation and ventilation. Her medical history includes chronic steroid use for lichen planus, degenerative disk disease with spinal stenosis on chronic narcotics, hypertension, diabetes, and iron deficiency anemia; she has allergies to aspirin and NSAIDs. Imaging revealed right middle and lower lobe pneumonia with moderate right pleural effusion and collapse, leading to sepsis protocol initiation. The clinical course was complicated by a loculated parapneumonic effusion requiring thoracentesis, VATS with lysis of adhesions, and bilateral chest tube placement. She was managed with broad-spectrum antibiotics (azithromycin and ceftriaxone), pain control with high-dose opioids, and supportive care. The patient improved after drainage procedures, was extubated, and discharged home in stable condition with instructions to ambulate with a brace and follow up in 10–14 days. The discharge diagnoses included lumbar spondylitis and flat back syndrome.
+
 
 ## Dialogue Summary
 
-The patient presented with discomfort related to spondylitis. They reported aching and stiffness in the back, rated at 6 out of 10 in severity, which is worsened by movement and improved somewhat by rest and heat; the discomfort does not spread and is not associated with swelling, redness, warmth, fever, or chills. The pain and stiffness have made daily activities such as walking and getting dressed more difficult, and have also disrupted sleep. The patient is not currently taking any medications for the discomfort and primarily uses rest and heat for relief. On examination, there were no signs of infection or acute inflammation reported. The doctor assessed that the symptoms are consistent with a flare of spondylitis-related discomfort without evidence of infection. The doctor recommended gentle movement (such as stretching or low-impact exercise), continued use of heat, and adjusting sleep position or using supportive pillows to improve comfort at night. Additional options such as physical therapy, over-the-counter medications, or prescription treatments were offered if symptoms persist or worsen.
+The patient is an adult presenting with discomfort related to spondylitis. The primary symptoms include aching pain and stiffness in the back, rated as 6 out of 10 in severity, which are aggravated by movement and improved somewhat with rest and heat; there are no associated symptoms such as swelling, redness, warmth, fever, or chills. The discomfort has led to difficulty with daily activities such as walking and getting dressed, and has also disrupted sleep. The patient is not currently taking any medications for the discomfort and relies on rest and heat for relief. There is no documented history of other relevant medical conditions, medications, or allergies. The clinical impression is spondylitis-related pain and stiffness without signs of acute infection or inflammation. The treatment plan includes recommendations for gentle movement (stretching or low-impact exercise), continued use of heat, optimizing sleep comfort with supportive pillows or sleep position adjustments, and consideration of physical therapy or medications if symptoms persist. The patient expressed interest in learning more about physical therapy and home management strategies.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.443
+- **Model Used**: general
+- **Text1 Length**: 169 words
+- **Text2 Length**: 172 words
+
 
 ## Processing Information
 

@@ -85,16 +85,21 @@ Let me know if you have any questions about what I’ve shared or if there’s a
 
 ## EHR Summary
 
-The patient is a 59-year-old male presenting with left arm and leg weakness. Symptoms were associated with the discovery of a right posterior communicating artery aneurysm on MRI. His past medical history includes hypertension, right leg fracture, deep venous thrombosis, hypercholesterolemia, and colon polyps; he is allergic to ampicillin, iodine, and shellfish. On physical exam, he was well-appearing with stable vital signs and normal neurological findings postoperatively. The documented diagnosis was a right fetal posterior cerebral artery origin aneurysm. He underwent a right pterional craniotomy for aneurysm clipping without intraoperative complications. Postoperatively, he was alert, oriented, moving all extremities strongly, and ambulating without difficulty. The treatment plan included surgical clipping of the aneurysm and postoperative monitoring in the Surgical Intensive Care Unit followed by transfer to the regular floor.
+The patient is a 59-year-old male presenting with left arm and leg weakness. MRI revealed a right posterior communicating artery aneurysm, and he was admitted for possible coiling, which was unsuccessful due to a wide aneurysm neck. His past medical history includes hypertension, right leg fracture, deep venous thrombosis, hypercholesterolemia, and colon polyps; allergies include ampicillin, iodine, and shellfish. The documented diagnosis was a right fetal posterior cerebral artery origin aneurysm. He underwent a right pterional craniotomy for aneurysm clipping without intraoperative complications. Postoperatively, he was alert, oriented, ambulating, and had no neurological deficits; a repeat angiogram showed no residual aneurysm and good clip position. He was discharged in stable condition with medications including Lipitor, hydrochlorothiazide, Percocet as needed, Decadron for a short course, and Benadryl for a short course. Follow-up with his physician was arranged for one month after discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with sudden onset weakness in the left arm and leg, making walking and using the left hand more difficult. The weakness began abruptly (exact day not recalled), has remained stable without improvement or worsening, and affects tasks such as buttoning a shirt and holding objects. The patient denied any numbness, tingling, speech difficulties, vision changes, balance problems, headaches, confusion, or loss of consciousness. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted isolated left-sided weakness without associated sensory or cognitive symptoms, which can sometimes indicate neurological or circulatory issues in the brain but found the absence of other symptoms somewhat reassuring. The doctor recommended prompt in-person evaluation and advised seeking immediate medical attention if new symptoms such as difficulty speaking, facial drooping, worsening weakness, severe headache, or trouble with balance develop. The patient expressed understanding of the recommendations.
+The patient is an adult presenting with sudden-onset weakness in the left arm and leg. The weakness has made tasks such as buttoning a shirt, holding objects, and walking more difficult, though the patient can still ambulate and has not experienced any numbness, tingling, speech difficulties, vision changes, balance problems, headaches, confusion, or loss of consciousness. The weakness has remained stable since onset and is not affected by activity or time of day. There is no relevant medical history, medications, or allergies documented in the dialogue. The clinical impression discussed by the doctor suggests concern for a possible neurological or circulatory issue affecting one side of the body, though no definitive diagnosis was made. The treatment plan includes a recommendation for prompt in-person evaluation and instructions to seek immediate medical attention if new symptoms such as difficulty speaking, facial drooping, worsening weakness, severe headache, or balance problems develop. No specific restrictions or medications were advised at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.432
+- **Model Used**: general
+- **Text1 Length**: 141 words
+- **Text2 Length**: 158 words
+
 
 ## Processing Information
 

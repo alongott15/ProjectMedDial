@@ -87,16 +87,21 @@ For now, try to avoid strenuous activity and see if the discomfort continues to 
 
 ## EHR Summary
 
-The patient is a 79-year-old male presenting with chest pain. The chest discomfort began after undergoing an arteriogram for symptomatic carotid stenosis. Relevant history includes recent evaluation and transfer from another hospital for further cardiac assessment. Initial cardiac enzymes showed a CK of 179, MB 3.1, index 1.7, and troponin I less than 0.05. The patient underwent cardiac catheterization during this admission. The documented diagnosis and specific treatment plan are not specified in the note due to incomplete dictation.
+The patient is a 79-year-old male presenting with chest pain. The chest discomfort began after the patient underwent an arteriogram for symptomatic carotid stenosis. Initial cardiac enzyme results showed a CK of 179, MB 3.1, index 1.7, and troponin I less than 0.05. The patient was transferred from another hospital for further evaluation. Relevant history includes recent symptomatic carotid stenosis and arteriogram. The patient underwent cardiac catheterization as part of the assessment. The documented diagnosis and specific treatment plan are not specified in the note due to incomplete dictation.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure described as uncomfortable and more like a pressure than sharp pain. The chest pressure had been gradually building over the past few days, rated as 5 out of 10 in severity, and worsened with physical activity such as climbing stairs but improved with rest; no shortness of breath, sweating, lightheadedness, cough, cold symptoms, or heartburn were reported. This was the first episode of such chest pressure for the patient, and no relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the absence of acute distress and concerning associated symptoms. The doctor assessed that the pattern of chest pressure worsening with exertion and improving with rest could suggest mild angina, though muscle strain or anxiety were also considered. The doctor advised the patient to avoid strenuous activity, monitor for new symptoms such as increasing discomfort, pain radiating to the arm or jaw, shortness of breath, or faintness, and seek prompt care if these occur. If the chest pressure persists or worsens over the next day or two, in-person evaluation was recommended.
+The patient presents with chest pressure as the chief complaint. The discomfort has been gradually increasing over several days, is rated 5 out of 10 in severity, worsens with physical activity (such as climbing stairs), and improves with rest; there are no associated symptoms such as dyspnea, sweating, or lightheadedness. The patient denies prior similar episodes, recent cough, cold symptoms, or heartburn. Relevant history and medication use are not specified. The clinical impression discussed is possible mild angina, given the exertional nature of the chest pressure and its relief with rest. The physician notes that the current presentation does not suggest an emergency but advises monitoring for new or worsening symptoms such as increased pain, radiation of discomfort, shortness of breath, or syncope. The patient is advised to avoid strenuous activity and seek further evaluation if symptoms persist or worsen. No medications or specific diagnostic tests are documented at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.478
+- **Model Used**: general
+- **Text1 Length**: 89 words
+- **Text2 Length**: 151 words
+
 
 ## Processing Information
 

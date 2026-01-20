@@ -61,16 +61,21 @@
 
 ## EHR Summary
 
-The patient is a female over 90 years old presenting with black stools. She reported two days of melena, associated with nausea and several days of epigastric/sternal pain, but denied vomiting, chest pain, shortness of breath, lightheadedness, or dizziness. Her medical history includes gastroesophageal reflux disease, peptic ulcer disease, hypertension, benign positional vertigo, dementia, depression, and normal pressure hydrocephalus; she takes Norvasc, Zoloft, aspirin, Os-Cal, Pepcid, Vioxx, and Miacalcin. On examination, she was in no apparent distress with stable vital signs and a soft, nontender abdomen; a II/VI systolic ejection murmur was noted. The documented diagnosis is not explicitly stated in the note. No specific treatment or recommendations are documented in this excerpt.
+The patient is an elderly female presenting with black stools. She reported two days of melena, associated with nausea and several days of epigastric/sternal pain, but denied vomiting, chest pain, shortness of breath, lightheadedness, or dizziness. Her history includes gastroesophageal reflux disease, peptic ulcer disease, hypertension, dementia, and depression; she has no known drug allergies and was taking Norvasc, Zoloft, aspirin, Os-Cal, Pepcid, Vioxx, and Miacalcin on admission. The documented diagnoses were upper gastrointestinal bleed, gastroesophageal reflux disease, hypertension, and urinary tract infection. She was treated with intravenous Protonix, transfused a total of 4 units of packed red blood cells for dropping hematocrit, and started on ciprofloxacin for urinary tract infection; aspirin and Vioxx were held during hospitalization. Gastroenterology was consulted but endoscopy was deferred due to her advanced age and DNR/DNI status. Her diet was advanced as tolerated and she remained hemodynamically stable throughout her stay. She was discharged back to her care facility with follow-up arranged with gerontology and her primary care provider.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about decreased mental clarity. They reported that their mind does not feel as clear as it used to, with symptoms worsening gradually over time. The patient also described weakness on their right side, which has made daily activities such as getting dressed and walking more difficult. No specific medical history, medications, or allergies were mentioned during the encounter. The doctor inquired about the onset and progression of symptoms, as well as the impact on movement and daily functioning. No physical examination findings were discussed. The doctor did not provide a formal assessment or diagnosis, nor were any specific treatment recommendations or advice given during the conversation.
+The patient presents with concerns about decreased mental clarity as the chief complaint. They report a gradual worsening of cognitive function over an unspecified period, accompanied by right-sided weakness. The weakness has impacted daily activities such as dressing and walking. No additional neurological symptoms or acute events are described. Relevant medical history, medications, allergies, and a formal diagnosis are not specified in the dialogue. There is no documented assessment or clinical impression provided. No treatment plan or specific recommendations are mentioned in the conversation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.927
-- **Similarity Label**: N/A
+- **STS Score**: 0.288
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 84 words
+
 
 ## Processing Information
 

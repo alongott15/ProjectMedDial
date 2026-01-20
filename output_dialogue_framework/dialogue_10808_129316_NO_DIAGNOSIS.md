@@ -190,3 +190,23 @@ Most respiratory infections improve within a week or so, but if you’re not see
 ## Processing Information
 
 - **Processing Time**: 452.9s
+
+## EHR Summary
+
+The patient is a 41-year-old man with advanced multiple sclerosis presenting with fever (up to 102.8°F axillary), coarse rhonchi, and abdominal distention. He reported no increased sputum production, chills, myalgias, or headache, but did have diarrhea the day prior to admission; his respiratory status remained at baseline (50% FIO2 at 10 liters). His history includes paraplegia secondary to multiple sclerosis, tracheostomy and PEG tube placement, repeated urinary tract infections, and prior MRSA infection; he has no known drug allergies. On admission, physical exam revealed diffuse rhonchi, a distended but non-tender abdomen, and stable vital signs; labs and imaging suggested possible small bowel or colonic obstruction and lower lobe consolidation versus atelectasis. The documented diagnoses included small bowel/colonic obstruction (resolved with conservative management), fever likely secondary to infection, and urinary tract infection. Treatment included bowel rest (NPO), G-tube to gravity, IV hydration, antibiotics (Ceftriaxone, Vancomycin—discontinued after one dose, and Flagyl), and continuation of prophylactic Tobramycin nebulizers; tube feeds were restarted after improvement. The patient’s condition improved, with resolution of abdominal distention and defervescence of fever; urine and stool cultures were negative at discharge. He was discharged in good condition with his baseline medications (switching Ceftin to Erythromycin prophylactically) and follow-up arranged with his primary care and nursing home physicians.
+
+
+## Dialogue Summary
+
+The patient presents with a chief complaint of fever, coarse rhonchi, and abdominal distension persisting for a couple of days. The fever is described as significant, and the respiratory symptoms include chest congestion and coarse rhonchi; the abdominal distension is present but not associated with severe pain, vomiting, confusion, or changes in bowel or urinary function. No new or worsening symptoms such as severe pain, persistent vomiting, neurological changes, or problems with urination or defecation have been reported. Relevant medical history is described as complex but not specified in detail.
+
+The clinical impression is most consistent with a common respiratory infection, such as bronchitis or a viral illness, with abdominal distension possibly related to respiratory symptoms or decreased activity. The treatment plan includes supportive care: rest, maintaining hydration, monitoring symptoms closely, and using over-the-counter medications for fever and congestion as needed. The patient is advised to seek immediate medical attention if red-flag symptoms develop, including severe pain, inability to keep fluids down, confusion, or changes in urination or bowel movements. Ongoing communication and symptom monitoring are emphasized.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.713
+- **Model Used**: general
+- **Text1 Length**: 208 words
+- **Text2 Length**: 177 words
+

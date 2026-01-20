@@ -87,16 +87,23 @@ Let me know if you have any questions about this, or if there’s anything else 
 
 ## EHR Summary
 
-The patient is an 81-year-old male presenting with exertional angina and non-ST elevation myocardial infarction (NSTEMI). He reported exertional chest pain and had elevated troponin levels, prompting transfer for cardiac catheterization, which revealed severe multivessel coronary artery disease with significant stenoses and an aneurysmal LAD. His past medical history includes NSTEMI, asthma, transient ischemic attack, hypercholesterolemia, ulcerative colitis, hypertension, GERD, osteoarthritis, and prior esophageal dilation and hiatal hernia repair. On physical exam, he was in no acute distress with stable vital signs and no significant abnormal findings except for bilateral lower extremity varicosities. Laboratory results showed mild anemia (Hgb 9.1), elevated WBC (11.3), and otherwise unremarkable chemistry. The documented diagnosis was NSTEMI due to severe coronary artery disease. He underwent coronary artery bypass grafting (CABG x3) with LIMA to LAD and saphenous vein grafts to OM and RCA. Treatment included preoperative loading with clopidogrel (Plavix) and surgical revascularization.
+The patient is an 81-year-old male presenting with exertional angina and non-ST elevation myocardial infarction (NSTEMI). He reported exertional chest pain and had elevated troponin levels, prompting cardiac catheterization that revealed severe multivessel coronary artery disease. His past medical history includes hypertension, hypercholesterolemia, transient ischemic attack, osteoarthritis, asthma, GERD, ulcerative colitis, and remote esophageal dilation. The documented diagnosis was status post coronary artery bypass grafting (CABG) x3, hypertension, hypercholesterolemia, left carotid disease, TIA, osteoarthritis, myocardial infarction, asthma, GERD, ulcerative colitis, remote esophageal dilation, and phlebitis. He underwent CABG x3 on hospital day 5 and experienced postoperative atrial fibrillation (treated with amiodarone), left forearm phlebitis (treated with antibiotics), and sacral skin breakdown. Discharge medications included aspirin, atorvastatin, clopidogrel, metoprolol, furosemide, potassium chloride, amiodarone, albuterol, pantoprazole, docusate sodium, and cephalexin. He was discharged home in good condition with instructions for wound care, activity restrictions, and follow-up appointments.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain occurring during physical activity. The pain was described as a pressure sensation in the middle of the chest, rated as moderate and sometimes strong enough to require stopping activity; it resolved quickly with rest and did not occur at rest. The patient denied associated symptoms such as sweating, lightheadedness, or shortness of breath. Relevant history included prior NSTEMI and high blood pressure, with no diabetes reported. On assessment, the doctor noted that the exertional chest pressure, relieved by rest and in the context of cardiac history, was consistent with angina likely due to reduced oxygen supply to the heart during exertion. The doctor advised the patient to limit physical activity until follow-up with a cardiologist or primary provider and to seek immediate care if symptoms worsen or new symptoms develop (such as pain at rest, severe pain, shortness of breath, nausea, sweating, or fainting). The patient acknowledged understanding of the recommendations and agreed to monitor for changes.
+The patient is an adult with a history of NSTEMI and hypertension presenting with chest pain as the chief complaint. The chest pain is described as a central pressure sensation that is moderate in severity, occurs only with physical exertion (such as walking or chores), and resolves quickly with rest. The patient denies associated symptoms such as shortness of breath, sweating, or lightheadedness, and reports no pain at rest. Relevant history includes prior NSTEMI and high blood pressure; there is no history of diabetes.
+
+The clinical impression documented by the doctor is that the symptoms are consistent with stable angina, likely due to reduced oxygen supply to the heart during exertion. The treatment plan includes advising the patient to limit physical activity until follow-up with a cardiologist or primary provider for possible medication adjustment or further testing. The patient was instructed to seek immediate medical attention if symptoms worsen, occur at rest, or are accompanied by new symptoms such as shortness of breath, fainting, or severe pain.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.502
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 167 words
+
 
 ## Processing Information
 

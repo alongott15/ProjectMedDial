@@ -87,16 +87,21 @@ If your symptoms continue to get worse or you notice anything new or concerning,
 
 ## EHR Summary
 
-The patient is a 71-year-old female presenting with a chief complaint of a gastric mass. She initially presented with anemia and congestive heart failure, and endoscopy revealed a distal gastric mass; biopsies showed hyperplasia. Her past medical history includes congestive heart failure (ejection fraction 60%), mild pulmonary hypertension, hypertension, diabetes mellitus, anemia, obstructive sleep apnea, hemorrhoids, and obesity. On admission, she was in no distress, obese, with clear lungs, regular heart rhythm, and a soft, nontender abdomen. The documented diagnosis was gastric mass. She underwent an uncomplicated subtotal gastrectomy for excision of the mass. Postoperatively, pain was managed with an epidural, and she was ambulated with adequate urine output and continued nasogastric tube management. There are no known drug allergies, and her home medications include metoprolol, lisinopril, verapamil, glipizide, Lasix, potassium, Protonix, folate, and iron sulfate.
+The patient is a 71-year-old female presenting with a gastric mass. She initially had anemia and congestive heart failure, with endoscopy revealing a distal gastric mass confirmed as hyperplasia on biopsy. Her past medical history includes congestive heart failure (ejection fraction 60%), mild pulmonary hypertension, hypertension, diabetes mellitus, anemia, obstructive sleep apnea, hemorrhoids, and obesity; she has no known drug allergies and takes multiple medications including metoprolol, lisinopril, verapamil, glipizide, and others. The documented diagnosis was gastric mass. She underwent an uncomplicated subtotal gastrectomy and postoperatively experienced transient tachycardia, hypertension, and altered mental status, managed with ICU monitoring, diuresis, CIWA protocol for possible alcohol withdrawal, and antibiotics for wound erythema. She also developed polyarthralgia treated effectively with colchicine. The patient was discharged home in good condition on a postgastrectomy diet with home VNA for wound monitoring, home physical therapy, and assistance with activities of daily living. Follow-up with her physician was recommended.
+
 
 ## Dialogue Summary
 
-The patient presented with increased tiredness and concern about anemia. She reported worsening fatigue over the past week, occasional joint aches affecting several joints (unchanged in severity), episodes of her heart “beating faster” at rest lasting a few minutes, and higher than normal blood pressure; she also described occasional mental fog when very tired. She denied swelling in her legs, significant shortness of breath, chest discomfort, or changes in appetite, weight, or sleep (aside from baseline sleep apnea). Relevant history includes anemia and sleep apnea; no medication or allergy details were provided. On review, the doctor noted no chest pain or shortness of breath with light activity and no acute physical findings were described. The assessment was that her increased tiredness, mental fog, and palpitations could be related to anemia, with joint aches less likely to be directly linked but possibly contributing to overall fatigue; elevated blood pressure may also play a role. The doctor recommended monitoring blood pressure, staying hydrated, pacing daily activities, and checking hemoglobin or iron levels if possible. She was advised to watch for new symptoms such as worsening confusion, chest pain, or sudden shortness of breath and to seek further evaluation if symptoms worsen. The patient understood and agreed with the plan.
+The patient is an adult presenting with increased fatigue as the chief complaint. Over the past week, the patient has experienced worsening tiredness, occasional episodes of palpitations at rest lasting several minutes, and persistent joint aches affecting multiple joints. There is no reported swelling, significant shortness of breath, chest discomfort, or changes in appetite, weight, or sleep (aside from baseline sleep apnea). The patient also reports higher-than-normal blood pressure and occasional mental fog when especially fatigued. Relevant history includes anemia and sleep apnea. The clinical impression is that the increased fatigue, mental fog, and palpitations are likely related to anemia, with joint aches considered less directly related but contributory to overall fatigue. The treatment plan includes monitoring blood pressure, watching for new or worsening symptoms (such as confusion, chest pain, or sudden shortness of breath), staying hydrated, pacing daily activities, and checking hemoglobin or iron levels if possible.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.465
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 148 words
+
 
 ## Processing Information
 

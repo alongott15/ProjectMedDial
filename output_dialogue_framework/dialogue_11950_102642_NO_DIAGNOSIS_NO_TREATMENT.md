@@ -87,16 +87,21 @@ Let me know if you have any questions about these strategies, or if there’s an
 
 ## EHR Summary
 
-The patient is a 74-year-old female presenting for postoperative management following a hemorrhoidectomy. She was admitted primarily for pain control and observation after her surgical procedure. Her pain was initially managed with subcutaneous and intravenous morphine, then transitioned to oral Dilaudid, with intermittent breakthrough discomfort controlled by the same medication. Relevant history includes recent hemorrhoidectomy; no allergies or other medical history are specified. On examination, the surgical site was clean with mild serosanguinous drainage and no evidence of infection or gross bleeding. The documented diagnosis was status post hemorrhoidectomy. Treatment included discharge with oral Dilaudid for pain, instructions for mineral oil use, and frequent sitz baths to prevent wound infection. At discharge, her condition was stable and the wound site remained clean without signs of infection.
+The patient is a 74-year-old female presenting for postoperative management following hemorrhoidectomy. She was admitted primarily for pain control and observation after her procedure on [2182-8-19]. Her postoperative course included intermittent breakthrough pain, which was managed with intravenous and oral opioids, specifically morphine and Dilaudid. On examination, the surgical site was clean with mild serosanguinous drainage and no evidence of infection or gross bleeding. Her relevant history includes recent surgery, with no other medical history, medications, or allergies specified. The documented diagnosis was status post hemorrhoidectomy. At discharge, her condition was stable and the wound site remained clean. She was discharged with oral Dilaudid for pain, instructions to use mineral oil and frequent sitz baths, and follow-up arranged with her physician.
+
 
 ## Dialogue Summary
 
-The patient presented with significant pain following recent hemorrhoid surgery. The pain was rated as 7 out of 10 in severity, localized to the surgical area, worsened by sitting and movement, and has persisted at the same level since surgery without improvement; it also interferes with sleep. The patient denied swelling, bleeding, redness, or discharge at the surgical site and reported no relief from prescribed pain medication. Relevant history includes recent hemorrhoid surgery and current use of prescribed pain medication. No signs of infection or other complications were noted on review of symptoms. The doctor assessed that the persistent post-surgical pain, unrelieved by current medication, is likely typical but may require adjustment in management. The doctor recommended considering warm sitz baths, using soft cushions when sitting, gentle movement, and avoiding prolonged sitting, while continuing prescribed care. The patient was advised to contact the surgical team if pain persists or worsens for possible changes to the pain regimen or further evaluation.
+The patient is a postoperative individual presenting with significant pain following recent hemorrhoid surgery. The pain is rated at 7 out of 10, localized to the surgical site, and is exacerbated by sitting and movement; it has persisted at the same intensity since surgery and interferes with sleep. There are no reported signs of infection such as swelling, bleeding, redness, or discharge. The patient has been taking prescribed pain medication with minimal relief and has not tried additional home remedies. The clinical impression is postoperative pain without evidence of infection or other complications. The treatment plan includes considering adjustments to pain management, recommending supportive measures such as warm sitz baths and soft cushions when sitting, and encouraging gentle movement while avoiding prolonged sitting. The patient was advised to contact the surgical team if pain persists or worsens.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.742
+- **Model Used**: general
+- **Text1 Length**: 121 words
+- **Text2 Length**: 137 words
+
 
 ## Processing Information
 

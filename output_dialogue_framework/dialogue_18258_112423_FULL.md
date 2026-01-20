@@ -87,16 +87,21 @@ Let me know if you have any questions or if anything changes in how you’re fee
 
 ## EHR Summary
 
-The patient is a 74-year-old female presenting with right upper quadrant abdominal pain. The pain was dull, aching, constant, nonradiating, and triggered by movement, with no relieving factors; she also experienced fever up to 101.8°F, nausea that resolved after one episode of emesis, and a single loose bowel movement (C. difficile negative) the day prior to admission. Her medical history includes type 2 diabetes mellitus, hypothyroidism, asthma, schizophrenia, and prior MRSA infection of the right foot. On admission, her vital signs showed a temperature of 102.1°F, heart rate of 107, blood pressure of 120/44, respiratory rate of 14, and oxygen saturation of 97% on room air. No documented diagnosis is provided in the note. Her home medications included insulin NPH, Levoxyl, Risperdal, a multivitamin, and Peri Colace. There are no known drug allergies. Treatment or specific recommendations are not documented in this excerpt.
+The patient is a 74-year-old female presenting with right upper quadrant abdominal pain. She reported a dull, aching, constant pain that was present only with movement, accompanied by fever (101.8°F), nausea, one episode of emesis, and a large loose bowel movement; physical exam revealed right upper quadrant tenderness, voluntary guarding, and decreased bowel sounds. Her past medical history includes type 2 diabetes mellitus, hypothyroidism, asthma, MRSA infection of the right foot (treated), and schizophrenia; she has no known drug allergies. Laboratory studies showed leukocytosis (WBC 15.3), and imaging demonstrated a thickened gallbladder wall with pericholecystic fluid and sludge but no stones. The documented diagnosis was acalculous cholecystitis. Treatment included placement of a cholecystostomy tube, intravenous antibiotics (Ampicillin, Ceftriaxone, Flagyl), later transitioned to oral Amoxicillin and Levofloxacin for a 14-day course, supportive care with fluids and blood transfusion, and management of mild asthma exacerbation with Lasix. At discharge, she was instructed to continue antibiotics, flush the cholecystostomy tube with saline every 8 hours, monitor inputs and outputs, and follow up in one week. The patient was discharged in improved condition but with some residual right upper quadrant soreness.
+
 
 ## Dialogue Summary
 
-The patient presented with right upper abdominal pain. Symptoms included a steady, aching soreness rated 6/10 in severity, present for a couple of days, accompanied by fever, nausea, one episode of vomiting, and decreased appetite; resting provided some relief, while eating or movement did not affect the pain. The patient denied yellowing of the skin or eyes, dark urine, or pale stools. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted steady right upper abdominal soreness with associated fever and nausea, without signs of jaundice or severe pain. The doctor considered possible gallbladder involvement or a mild infection, noting that the absence of jaundice and severe symptoms made certain liver issues less likely. The treatment plan included recommendations to rest, stay hydrated, and eat bland foods until appetite improves, with instructions to seek urgent care if symptoms worsen or new signs such as jaundice or persistent high fever develop.
+The patient is an adult presenting with right upper abdominal pain as the chief complaint. The pain is described as a steady, aching soreness rated 6 out of 10 in severity, present for approximately two days, and is accompanied by fever, nausea, one episode of vomiting, and decreased appetite. Resting provides some relief, while eating and movement do not affect the pain; there are no associated symptoms of jaundice, dark urine, or pale stools. Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression is that the symptoms may be related to the gallbladder or a mild infection in the right upper abdomen, with more serious liver issues considered less likely due to the absence of jaundice or changes in urine/stool color. The treatment plan includes recommendations for rest, maintaining hydration (especially after vomiting), and consuming bland foods until appetite improves. The patient was advised to seek urgent medical attention if symptoms worsen or new symptoms such as jaundice or severe vomiting develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.571
+- **Model Used**: general
+- **Text1 Length**: 187 words
+- **Text2 Length**: 168 words
+
 
 ## Processing Information
 

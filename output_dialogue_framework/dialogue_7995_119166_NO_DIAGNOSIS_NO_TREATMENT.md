@@ -87,16 +87,21 @@ Would you be able to rate your pain on a scale from 1 to 10, with 10 being the w
 
 ## EHR Summary
 
-The patient is a 74-year-old woman presenting with right hip pain following a fall. She reported falling while standing at a bathroom sink, with no loss of consciousness, preceding symptoms, head injury, chest pain, dizziness, abdominal pain, or hemoptysis. Her medical history includes chronic obstructive pulmonary disease, glaucoma, rheumatoid arthritis, osteoarthritis, hypertension, osteopenia, peripheral vascular disease status post right femoral bypass, and a remote deep venous thrombosis. Outpatient medications included Atrovent, Lasix, Colace, Plavix, Metoprolol, Prednisone, glaucoma eye drops, Lisinopril, Protonix, nicotine patch, subcutaneous heparin (in rehabilitation), and she was on day 8 of 10 of Keflex for cellulitis. On physical examination, she was afebrile with stable vital signs and oxygen saturation of 95% on room air. The clinical impression was right hip pain after a mechanical fall. Treatment details are not specified in the provided note.
+The patient is a 74-year-old woman presenting with a fall and right hip pain. She reported falling while standing at a bathroom sink, with no loss of consciousness or preceding symptoms, and subsequently developed right hip pain. Her medical history includes chronic obstructive pulmonary disease, glaucoma, rheumatoid arthritis, osteoarthritis, hypertension, osteopenia, peripheral vascular disease status post right femoral bypass, and a remote deep venous thrombosis. On examination, her right leg was shortened and externally rotated; imaging revealed a nondisplaced intertrochanteric femur fracture. The documented diagnosis was right hip fracture. She underwent open reduction and internal fixation surgery, received pain management, and was treated for anemia, acute renal failure (resolved with IV hydration and holding Lasix), and asymptomatic urinary tract infection (started on ciprofloxacin). Discharge plans included rehabilitation, continuation of anticoagulation with Lovenox and Coumadin (with INR monitoring), weaning off OxyContin, and follow-up with orthopedics.
+
 
 ## Dialogue Summary
 
-The patient presented with right hip pain following a fall. The pain is localized to the lateral right hip, described as sharp when walking or bearing weight and a dull ache at rest, rated 7 out of 10 in severity. Symptoms have persisted since the fall without improvement; walking exacerbates the pain, while resting provides some relief. The patient also reported a new cold sensation in the right foot but denied numbness, tingling, swelling, bruising, or color changes. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted persistent hip pain with difficulty ambulating and a new cold sensation in the foot, raising concern for possible bone injury or changes in circulation. The doctor recommended an X-ray of the hip to evaluate for fracture or soft tissue injury and advised minimizing weight-bearing on the affected leg, using support as needed. The patient was instructed to report any worsening symptoms, new numbness, swelling, or skin color changes immediately.
+The patient is an adult presenting with right hip pain following a recent fall. The pain is localized to the lateral right hip, described as sharp with weight-bearing and a dull ache at rest, rated 7 out of 10 in severity. Symptoms are constant but worsen with movement; there is no swelling, bruising, numbness, tingling, or color change, though the patient reports a new cold sensation in the right foot. The discomfort has not improved since the fall and is limiting mobility. Relevant history, medications, and allergies are not specified. The clinical impression is possible bone or soft tissue injury to the hip, with concern for potential fracture or circulatory changes due to the cold sensation in the foot. The treatment plan includes arranging a hip X-ray to evaluate for bone injury, advising the patient to avoid weight-bearing on the affected leg, and to seek prompt care if symptoms worsen or new neurological or vascular changes develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **STS Score**: 0.617
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 157 words
+
 
 ## Processing Information
 

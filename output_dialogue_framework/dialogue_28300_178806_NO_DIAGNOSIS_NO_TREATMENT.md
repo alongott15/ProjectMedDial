@@ -87,16 +87,21 @@ Let me know if you have any questions about caring for the area or if there’s 
 
 ## EHR Summary
 
-The patient is a 51-year-old female presenting with left lower extremity claudication and rest pain. She reported progressive leg pain at rest, consistent with critical limb ischemia. Her medical history includes type 2 diabetes mellitus, hypertension, two prior cerebrovascular accidents (on coumadin), asthma, reflux, prior renal artery stent placement, and prior left superficial femoral artery stent. On physical exam, she was stable postoperatively with palpable graft and dorsalis pedis pulses in the left leg, clear lungs, and a clean, dry incision. Laboratory results showed mild anemia (Hgb 10.9) and elevated glucose (152 mg/dL). The documented diagnosis was peripheral arterial disease with critical limb ischemia. She underwent a left femoral to dorsalis pedis bypass graft using in-situ greater saphenous vein, followed by an uneventful postoperative course with anticoagulation management (heparin and coumadin) and pain control. She was stable at discharge with no complications noted.
+The patient is a 51-year-old female presenting with left lower extremity claudication and rest pain. She reported pain and difficulty with ambulation in the left leg, prompting surgical intervention. Her relevant history includes type 2 diabetes mellitus, hypertension, two prior cerebrovascular accidents (on coumadin), asthma, reflux, prior renal artery stent placement, and prior left superficial femoral artery stent. The documented diagnosis was left lower extremity claudication status post left femoral to dorsalis pedis bypass graft with in-situ greater saphenous vein performed on admission. Her hospital course was uneventful, and she remained hemodynamically stable throughout. Treatment included surgical bypass, anticoagulation management (heparin and coumadin), pain control, and physical therapy. She was discharged home in stable condition with instructions for activity progression, wound care, medication adherence (including anticoagulation monitoring), and follow-up in 2 weeks for staple/suture removal.
+
 
 ## Dialogue Summary
 
-The patient presented with an open area over the bypass graft on the front of the ankle. The wound appeared a couple of days ago, has not increased in size, and was initially accompanied by some bleeding that resolved before arrival; the patient denied pain, warmth, unusual sensations, pus, clear drainage, redness, swelling, or difficulty walking. No prior history of skin issues over the graft or recent irritation from shoes, bumps, or increased activity was reported. On examination, there were no signs of infection or impaired mobility described by the patient. The doctor assessed this as a minor skin breakdown over a previous surgical site, likely due to fragile skin and not associated with infection. The patient was advised to keep the area clean and dry, gently wash with mild soap and water, pat dry, and cover with a simple bandage. The doctor recommended monitoring for new redness, swelling, warmth, pain, drainage, or wound enlargement and to seek further care if these symptoms develop or healing does not occur within several days.
+The patient is an adult presenting with concern about an open area over the bypass graft on the front of their ankle. The wound appeared a couple of days ago, has not increased in size, and was initially associated with some bleeding that has since stopped; there has been no pain, warmth, unusual sensations, drainage, redness, or swelling. The patient reports no difficulty walking or moving the ankle and denies any recent trauma, friction, or irritation to the area. There is no prior history of similar issues over the graft site. The clinical impression is a minor skin breakdown over a previous surgical site without signs of infection. The treatment plan includes keeping the area clean and dry, gentle washing with mild soap and water, covering with a simple bandage, and monitoring for signs of infection such as redness, swelling, warmth, pain, or drainage. The patient was advised to seek further evaluation if the wound worsens or does not heal within several days.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.573
+- **Model Used**: general
+- **Text1 Length**: 135 words
+- **Text2 Length**: 163 words
+
 
 ## Processing Information
 

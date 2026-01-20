@@ -95,16 +95,21 @@ In the meantime, rest in a dark, quiet room, stay hydrated as best you can, and 
 
 ## EHR Summary
 
-The patient is a 44-year-old woman presenting with headache. She developed an acute, severe, non-throbbing headache at the back of her head two days after undergoing endoscopic retrograde cholangiopancreatography for gallstones, with pain later extending to the bifrontal region and associated with nausea and neck stiffness but no fever, chills, or visual symptoms. The headache worsened with coughing or straining and was rated as 7 out of 10 in severity. Her past medical history is significant for multiple sclerosis treated with Avonex, with previous flares of numbness and blurred vision. On evaluation, a CT scan was normal and lumbar puncture showed elevated red blood cells (400, tube four 240), low white cells, glucose 49, and protein 55; no opening pressure was recorded. She received Demerol, Versed, Phenergan, Dilaudid for pain, and one dose of ceftriaxone for possible meningitis coverage. The documented diagnosis is not explicitly stated in the note. Treatment included symptomatic management of headache and empiric antibiotics.
+The patient is a 44-year-old female presenting with acute headache. She developed a sudden, severe, non-throbbing headache at the back of her head two days after an endoscopic retrograde cholangiopancreatography for gallstones, which was persistent and worsened with coughing or straining, later accompanied by nausea and neck stiffness but no fever or visual symptoms. Her past medical history includes multiple sclerosis (on Avonex), avascular necrosis of both shoulders (status post replacement), tubal ligation, and gallstones; she is allergic to rifampin. Initial evaluation included a normal head CT, lumbar punctures showing elevated red blood cells, and MRI/MRA without evidence of infarct or aneurysm. Despite pain management and a blood patch, her symptoms persisted, and cerebral angiography ultimately revealed a right vertebral dissecting aneurysm proximal to the vertebrobasilar junction. The documented diagnosis was right vertebral dissecting aneurysm. She was transferred to the neurosurgery service for further management of the aneurysm.
+
 
 ## Dialogue Summary
 
-The patient presented with a sudden headache that began earlier in the week. The headache was described as a dull ache, rated 6 out of 10 in severity, located mainly in the forehead and temples, and worsened by bright lights but not by loud noises. Associated symptoms included nausea and vomiting, with no vision changes or unusual fatigue; this was the first time the patient experienced a headache with these features. No relevant medical history, medications, or allergies were mentioned. The doctor noted the sudden onset, moderate severity, photophobia, and gastrointestinal symptoms, and assessed that the headache shares features with migraine. The doctor recommended rest in a dark, quiet room, hydration, and use of over-the-counter pain relievers if tolerated, while advising to avoid triggers like bright lights. The patient was instructed to seek medical attention if warning signs such as vision loss, weakness, confusion, fever, or neck stiffness develop, or if the headache persists or worsens, especially if unable to keep fluids or medication down. Prescription medications or anti-nausea treatments may be considered if symptoms do not improve.
+The patient is an adult presenting with a sudden-onset headache as the chief complaint. The headache is described as a dull ache rated 6 out of 10 in severity, primarily located around the forehead and temples, with associated sensitivity to bright lights, nausea, and vomiting; there are no vision changes or unusual fatigue. This is the first occurrence of a headache with these features for the patient, and no specific trigger was identified. The clinical impression documented by the doctor is that the headache shares features with a migraine. The treatment plan includes rest in a dark, quiet room, maintaining hydration, and using over-the-counter pain relievers such as acetaminophen or ibuprofen if tolerated. The doctor advised monitoring for warning signs such as vision loss, weakness, confusion, fever, or neck stiffness, which would warrant urgent medical attention. If the headache persists, worsens, or if the patient cannot keep fluids or medications down due to vomiting, an in-person evaluation and possible prescription treatments were recommended. No relevant past medical history, medications, or allergies were specified.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.531
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

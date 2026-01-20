@@ -89,16 +89,23 @@ How much is this affecting your day-to-day life right now? Are there specific
 
 ## EHR Summary
 
-The patient is a 41-year-old male presenting for elective revision of prior gastric bypass due to persistent weight gain, likely secondary to a gastro-gastric fistula. He reported ongoing weight gain over several years following his initial surgery and was not adhering to the post-bypass diet; he was also noted to have anemia. His medical history includes morbid obesity, back pain/degenerative joint disease, dyslipidemia, and hypoglycemia, with no known drug allergies. On evaluation, EGD revealed a patent gastro-gastric fistula, while colonoscopy was normal. The documented diagnosis was persistent weight gain and anemia due to a gastro-gastric fistula after gastric bypass. Treatment included revision of the gastric bypass, partial gastrectomy, lysis of adhesions, and placement of a gastrostomy tube, as well as surgical repair of a subsequent gastric perforation. The patient received perioperative management and reinforcement of the repair with fibrin glue.
+The patient is a 41-year-old male admitted for elective revision of prior gastric bypass due to persistent weight gain, attributed to a gastro-gastric fistula. He reported ongoing weight gain over several years following his initial surgery, which was complicated by leaks and intra-abdominal abscesses; he was also noted to have anemia. His past medical history includes morbid obesity, back pain/degenerative joint disease, dyslipidemia, and hypoglycemia, with no known drug allergies. The documented diagnoses at discharge were gastrogastric fistula, obesity, and incisional hernia. During admission, he underwent revision of Roux-en-Y gastric bypass, partial gastrectomy, multiple repairs for gastric leaks and perforations, drainage of intra-abdominal abscesses, and management of a right lower extremity DVT. Postoperatively, he was treated with antibiotics (including meropenem and ciprofloxacin), tube feedings via gastrostomy, TPN, and anticoagulation for DVT. At discharge, he was stable and sent home on full-strength tube feedings, oral ciprofloxacin, famotidine, and hydromorphone for pain, with instructions for wound care and follow-up in one week.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about persistent weight gain following previous gastric bypass surgery. Symptoms discussed included gradual and steady weight increase, lower energy levels, increased fatigue, pain behind the right knee (without swelling, redness, or warmth), shortness of breath, and a sensation of faster heart rate with activity but without dizziness or fainting. The patient reported a history of anemia and denied significant changes in diet or eating habits. On review, the doctor noted no urgent signs behind the knee and linked the fatigue, shortness of breath, and tachycardia with activity to possible low iron levels from anemia. The assessment was that gradual weight gain may be related to post-surgical metabolic changes and reduced activity due to fatigue and discomfort, with anemia potentially contributing to symptoms. The doctor recommended checking recent lab work for anemia and iron levels, reviewing nutrition and physical activity in detail, keeping a food and activity diary for a week, and following up with the bariatric team or nutritionist. The patient was advised to monitor for new symptoms such as chest pain, severe shortness of breath, leg swelling or redness, or fainting, which would warrant earlier medical attention. Otherwise, gradual adjustments and symptom tracking were suggested as next steps.
+The patient is a post-gastric bypass individual presenting with concern about gradual, persistent weight gain despite adherence to dietary recommendations. Key symptoms include chronic fatigue, decreased energy, exertional dyspnea (shortness of breath with activity), intermittent tachycardia (fast heart rate) during activity, and discomfort behind the right knee without swelling, redness, or warmth. The patient has a documented history of anemia, which may be contributing to the fatigue, shortness of breath, and increased heart rate. The clinical impression is that anemia and possible metabolic changes post-surgery are likely factors in the patient’s symptoms and weight gain. 
+
+The treatment plan includes reviewing recent laboratory results for anemia and iron levels, monitoring nutrition and physical activity in more detail, and keeping a food and activity diary for one week. The patient is advised to follow up with their bariatric team or nutritionist for tailored guidance. They are also instructed to monitor for new or worsening symptoms such as chest pain, severe shortness of breath, leg swelling or redness, or syncope, which would warrant more urgent evaluation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **STS Score**: 0.610
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

@@ -89,16 +89,21 @@ Let me know if you have any questions or if you'd like to talk more about ways t
 
 ## EHR Summary
 
-The patient is an 80-year-old male presenting with shortness of breath. He reported symptoms of dyspnea, abdominal bloating, leg swelling, vague chest pressure, orthopnea, and a productive cough, with symptoms worsening over the past three weeks after a reduction in diuretics. His relevant history includes coronary artery disease status post CABG, congestive heart failure (EF 20-25%), atrial fibrillation on coumadin, diabetes mellitus, hypertension, hyperlipidemia, and chronic kidney disease; he is allergic to Bactrim, penicillins, and Procardia. On admission, his INR was 2.4 and vital signs included blood pressure 93/53 and heart rate 86. Clinical findings included a right middle lobe pneumonia on chest X-ray, positive cardiac enzymes (troponin rising from 0.9 to 7.9), and moderate CHF. The documented diagnoses were NSTEMI, right hilar pneumonia, acute on chronic systolic CHF, and CKD. Treatment included initiation of Levaquin for pneumonia, heparin infusion for NSTEMI, aspirin and Plavix, IV Lasix for diuresis, and D5 with sodium bicarbonate for pre-catheterization hydration. Renal consultation recommended further laboratory evaluation and administration of mucomyst and IV bicarbonate.
+The patient is an 80-year-old male presenting with shortness of breath. He reported symptoms of dyspnea, abdominal bloating, leg swelling, vague chest pressure, orthopnea, productive cough, and chills, with symptoms worsening over three weeks after diuretic reduction. His medical history includes coronary artery disease status post CABG, congestive heart failure (EF 20-25%), atrial fibrillation on anticoagulation, diabetes, hypertension, hyperlipidemia, chronic kidney disease, and peripheral vascular disease; he has allergies to Bactrim, penicillins, and Procardia. On admission, he was diagnosed with non-ST elevation myocardial infarction (NSTEMI), right middle lobe pneumonia, acute on chronic systolic heart failure exacerbation, and acute on chronic renal failure. Treatment included intravenous diuretics (furosemide), antibiotics (levofloxacin), anticoagulation (heparin), antiplatelet therapy (aspirin and clopidogrel), insulin for hyperglycemia, and supportive care including pre-cath hydration and electrolyte management. Despite these interventions, the patient suffered two episodes of pulseless electrical activity arrest and expired on 2132-3-30. No discharge medications or follow-up instructions were provided due to the patient's death.
+
 
 ## Dialogue Summary
 
-The patient presented with difficulty catching their breath as the chief complaint. They reported a longstanding cough with occasional sputum production (no change in color or amount), increased shortness of breath when lying flat, leg swelling, and abdominal bloating with a persistent feeling of fullness but no change in appetite or post-meal discomfort. Symptoms worsened with activity and improved somewhat with rest, but lying flat exacerbated the breathing difficulty, leading the patient to sleep in chairs or on the couch. The patient denied wheezing, lightheadedness, palpitations, or severe chest pain, though they occasionally experienced vague chest pressure. No relevant medical history, medications, or allergies were mentioned. The doctor noted that the constellation of symptoms—orthopnea, peripheral edema, abdominal bloating, and chronic cough—could be related to fluid buildup possibly due to decreased cardiac efficiency. The doctor recommended limiting dietary salt, elevating the legs, avoiding lying flat, monitoring weight for rapid changes, and seeking prompt medical attention for sudden worsening symptoms such as severe chest pain, confusion, or inability to breathe at rest.
+The patient is an adult presenting with the chief complaint of difficulty breathing (dyspnea), particularly when lying flat. Symptoms include a longstanding cough with sputum production (no change in color or amount), worsening shortness of breath with activity, orthopnea (difficulty breathing when supine), lower extremity swelling, and abdominal bloating/fullness without appetite changes or postprandial discomfort. The patient denies wheezing, lightheadedness, or palpitations, but reports vague, non-severe chest pressure. Relevant history such as past medical conditions, medications, or allergies is not specified. The clinical impression documented by the physician is fluid overload likely related to decreased cardiac efficiency, leading to pulmonary and peripheral edema. The treatment plan includes dietary salt restriction, elevating the legs, sleeping propped up to alleviate orthopnea, and monitoring for rapid weight changes. The patient was advised to seek prompt medical attention for severe chest pain, confusion, or inability to breathe at rest.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.948
-- **Similarity Label**: N/A
+- **STS Score**: 0.645
+- **Model Used**: general
+- **Text1 Length**: 158 words
+- **Text2 Length**: 145 words
+
 
 ## Processing Information
 

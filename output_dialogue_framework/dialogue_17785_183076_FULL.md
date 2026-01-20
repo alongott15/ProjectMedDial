@@ -98,3 +98,21 @@ Let me know if you have any questions or if anything changes in your symptoms.
 ## Processing Information
 
 - **Processing Time**: 411.1s
+
+## EHR Summary
+
+The clinical note does not specify a chief complaint or describe any symptoms. There is no documentation of relevant medical history, diagnosis, or clinical findings in the provided text. The patient is a 65-year-old male admitted to the Cardiothoracic Surgery service from July 21, 2161, to August 2, 2161. No specific treatment plan, medications, or recommendations are mentioned. Further clinical details are not available in this note.
+
+
+## Dialogue Summary
+
+The patient presents with the chief complaint of intermittent shortness of breath and chest pressure. The shortness of breath is described as a sensation of not getting enough air, occurs with episodes of chest pressure, and is not associated with wheezing or palpitations. The chest discomfort is pressure-like, not sharp, lasts several minutes, and is accompanied by sweating and mild agitation, with stress acting as a trigger; these episodes limit the patient's ability to perform daily activities. The patient denies nausea or lightheadedness but reports occasional mild confusion and coughing up sputum during episodes. Relevant history, medications, and allergies are not specified in the dialogue. The clinical impression discussed includes possible anxiety or mild respiratory issues, with consideration that symptoms could also be related to cardiac or pulmonary causes. The treatment plan includes avoiding strenuous activity, monitoring for warning signs (such as severe pain or fainting), tracking symptom patterns and triggers, and using relaxation techniques for stress management. The patient is advised to keep track of additional symptoms such as confusion and sputum production.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.391
+- **Model Used**: general
+- **Text1 Length**: 67 words
+- **Text2 Length**: 174 words
+

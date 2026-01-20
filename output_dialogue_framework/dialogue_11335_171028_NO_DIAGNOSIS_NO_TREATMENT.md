@@ -89,16 +89,21 @@ Let me know if you have questions about what to expect or what steps to take nex
 
 ## EHR Summary
 
-The patient is a 39-year-old female presenting with chest pain and vomiting. She experienced several episodes of nausea and vomiting, followed by chest and left arm tightness, with blood glucose levels remaining very high and unresponsive to insulin for the past 24 hours. Her medical history includes type 1 diabetes mellitus for 9 years (on insulin pump, last HbA1c 8.4) and hypertension, with no known drug allergies or prior coronary artery disease. On arrival, she was found to be in diabetic ketoacidosis (HCO3 12, AG 20) and had EKG findings of large ST elevations in V4-V6, consistent with acute myocardial infarction. Cardiac catheterization revealed an ulcerated plaque in the proximal-mid LAD with distal emboli, and a bare metal stent was placed. She was treated with insulin infusion, aspirin, clopidogrel, heparin, integrilin, and sublingual nitroglycerin for left arm discomfort. The documented diagnoses were diabetic ketoacidosis and acute myocardial infarction; she was admitted to the CCU for monitoring and further management.
+The patient is a 39-year-old female presenting with chest pain and vomiting. She experienced several episodes of nausea and vomiting, followed by chest and left arm tightness, with blood glucose levels that were very high and unresponsive to insulin for the preceding 24 hours. Her medical history includes type 1 diabetes mellitus for 9 years, hypertension, major depressive disorder, cervical disc herniation, and vitamin B12 deficiency; she has no known drug allergies. On admission, she was found to be in diabetic ketoacidosis (DKA) and had ST elevation myocardial infarction (STEMI) with large ST elevations on ECG. She underwent emergent cardiac catheterization with bare metal stent placement to the mid-left anterior descending artery and was treated with insulin drip, antiplatelet agents, beta blocker, statin, and ACE inhibitor. Her DKA resolved with insulin therapy and supportive care, and she was transitioned back to her insulin pump. At discharge, her diagnoses were ST elevation MI, diabetic ketoacidosis, and hypertension; she was discharged home in good condition with instructions to continue her medications and follow up with cardiology and primary care.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain described as a tightness in the center of the chest, sometimes radiating to the left arm, which began earlier today. The chest tightness was rated as 6 out of 10 in intensity, occurred randomly without clear triggers, and was accompanied by one episode of vomiting and some nausea; there was no lightheadedness or shortness of breath. The patient denied any prior similar episodes and reported a history of diabetes and high blood pressure, with no known heart or digestive problems. On review, the doctor noted the new onset of chest tightness radiating to the arm, moderate severity, and associated nausea, with stable symptoms after vomiting. The doctor assessed that while anxiety or indigestion could be possible causes, the combination of symptoms and the patient's medical history raised concern for possible heart-related issues. The doctor recommended prompt evaluation in an urgent care or emergency setting for EKG and blood tests to rule out serious causes. The patient was advised to seek immediate help if symptoms worsened (such as developing shortness of breath, sweating, severe pain, or feeling faint), to rest and avoid strenuous activity, and to arrange for prompt medical assessment.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain began earlier today, described as a central chest tightness rated 6 out of 10 in intensity, sometimes radiating to the left arm, and accompanied by one episode of vomiting and nausea; there is no associated dyspnea or lightheadedness. The patient reports no prior similar episodes and has a history of diabetes and hypertension, but no known heart or digestive disorders. The clinical impression is that, while anxiety or indigestion could be possible causes, the combination of symptoms and risk factors raises concern for a potential cardiac etiology. The physician recommended prompt evaluation in an urgent care or emergency setting for EKG and cardiac blood tests to rule out serious causes. The patient was advised to seek immediate help if symptoms worsen (such as developing shortness of breath, severe pain, sweating, or faintness) and to avoid strenuous activity until evaluated. No new medications or treatments were initiated during the visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **STS Score**: 0.435
+- **Model Used**: general
+- **Text1 Length**: 177 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

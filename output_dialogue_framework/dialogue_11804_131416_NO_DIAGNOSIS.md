@@ -98,3 +98,21 @@ Does that make sense? Is there anything else about this discomfort you’re conc
 ## Processing Information
 
 - **Processing Time**: 431.1s
+
+## EHR Summary
+
+The patient is a 65-year-old woman presenting with abdominal pain. She has a history of chronic thoracoabdominal aneurysm diagnosed three years prior, hypertension, and obesity, and was taking hydrochlorothiazide and labetalol on admission. On evaluation, she was found to have an extensive thoracoabdominal aneurysm with acute dissection, confirmed by CT scan showing a false lumen. Blood pressure was managed with labetalol and IV Nipride, and she received a transfusion to raise her hematocrit prior to surgery. Cardiac catheterization showed normal coronaries, and echocardiogram revealed normal ventricular function with 2+ aortic insufficiency and a dilated aortic root. The documented diagnoses were status post thoracoabdominal aneurysm repair, chronic aneurysm with acute dissection, hypertension, and obesity. She underwent thoracoabdominal aneurysm repair with partial bypass but did not survive the operation and expired in the operating room.
+
+
+## Dialogue Summary
+
+The patient presents with a chief complaint of a dull abdominal ache located in the mid-abdomen, slightly above the waistline. The discomfort has been steady for a few days, rated 4 out of 10 in severity, and is mildly relieved by rest; it is not affected by eating or movement. The patient denies associated symptoms such as changes in bowel movements, nausea, vomiting, loss of appetite, fever, or fatigue. There is no relevant medical history, medications, or allergies documented. The clinical impression is that the symptoms are likely due to a mild cause such as indigestion or minor muscular strain, given the absence of warning signs. The treatment plan includes continued rest and hydration, with instructions to seek prompt evaluation if symptoms worsen or new symptoms (such as fever or vomiting) develop. The patient was reassured and advised to monitor for any changes.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.292
+- **Model Used**: general
+- **Text1 Length**: 133 words
+- **Text2 Length**: 143 words
+

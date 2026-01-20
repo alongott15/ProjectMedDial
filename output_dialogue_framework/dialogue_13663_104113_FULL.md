@@ -97,16 +97,21 @@ Going forward, just continue to pay attention to any new symptoms or changes, an
 
 ## EHR Summary
 
-The patient is a 48-year-old male presenting with mitral regurgitation. He reported no acute symptoms at admission but had a history of mitral valve disease, with cardiac catheterization confirming 4+ mitral regurgitation and normal coronary arteries. Past medical history includes tonsillectomy, and home medications were Zestril and Klonopin; he has no known drug allergies. On physical exam, he had a regular heart rate and rhythm with a systolic murmur at the apex, clear lungs, and no peripheral edema. The documented diagnosis was severe mitral regurgitation. He underwent minimally invasive mitral valve repair without complication, though a postoperative air leak required temporary chest tube suction. The air leak resolved by postoperative day two, and the chest tube was discontinued after chest x-ray confirmed resolution of pneumothorax. He was discharged in stable condition with pain managed by Tylenol #3 and Motrin after switching from Percocet due to sedation.
+The patient is a 48-year-old male presenting with mitral regurgitation. He had a history of mitral valve disease, confirmed by cardiac catheterization showing 4+ mitral regurgitation and normal coronary arteries; no acute symptoms such as dyspnea or chest pain were documented at admission. Past medical history includes tonsillectomy, and home medications were Zestril and Klonopin, with no known drug allergies. On examination, he had a systolic murmur at the apex but was otherwise stable. The documented diagnosis was status post mitral valve repair. He underwent minimally invasive mitral valve repair without complication, experienced a transient postoperative air leak that resolved, and recovered well with controlled pain and good ambulation. Discharge medications included aspirin, lisinopril, clonazepam, docusate, amiodarone, ibuprofen, and Tylenol #3 as needed. He was discharged home in stable condition with follow-up arranged in three to four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about mitral regurgitation and requested reassurance regarding their current status. They reported no new symptoms, including no shortness of breath, fatigue, swelling in the legs or ankles, changes in exercise tolerance, irregular heartbeats, or decreased energy levels. The patient’s medical history includes mitral regurgitation; no medications or allergies were mentioned. On review, there were no physical findings or symptoms suggesting decompensation, and the patient’s activity level and energy remain unchanged. The doctor assessed that the mitral regurgitation appears stable with no concerning changes at this time. The doctor recommended scheduling an echocardiogram for routine monitoring, typically every 1–2 years if stable, and advised the patient to watch for symptoms such as unusual tiredness, swelling, or new shortness of breath between appointments. The patient was encouraged to maintain current activity levels and to reach out if any new symptoms develop. The plan includes arranging an echocardiogram and continuing regular follow-up.
+The patient is an adult presenting for follow-up and reassurance regarding known mitral regurgitation. They report no new symptoms, including no dyspnea (shortness of breath), fatigue, lower extremity swelling, palpitations, or changes in exercise tolerance; daily activities and energy levels remain unchanged. There is no history provided of irregular heartbeats or other cardiac symptoms. The clinical impression is stable mitral regurgitation without evidence of decompensation or progression. The physician emphasized the importance of regular monitoring with echocardiograms, typically every 1–2 years if stable, and advised the patient to watch for symptoms such as unusual tiredness, swelling, or new shortness of breath. The patient agreed to schedule an echocardiogram for ongoing assessment. No medication changes or additional interventions were recommended at this time. The overall plan is continued routine activity, symptom monitoring, and regular follow-up.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.588
+- **Model Used**: general
+- **Text1 Length**: 138 words
+- **Text2 Length**: 134 words
+
 
 ## Processing Information
 

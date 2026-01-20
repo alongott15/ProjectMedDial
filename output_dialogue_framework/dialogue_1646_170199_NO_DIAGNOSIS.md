@@ -87,16 +87,21 @@ Let me know if you have any questions about what I've shared or if you'd like to
 
 ## EHR Summary
 
-The patient is a 67-year-old male presenting with chest pain. He was found to have multivessel coronary artery disease on cardiac catheterization. His past medical history, allergies, and prior medications are not specified. He underwent a coronary artery bypass graft (CABG) times two and had an uneventful postoperative course, including successful weaning from the ventilator, removal of Foley catheter and chest tubes, and progressive improvement with physical therapy. Physical exam findings and specific test results are not detailed. The documented diagnosis was multivessel coronary artery disease requiring surgical intervention. Treatment included CABG x2, postoperative management with medications such as Lopressor, Lasix, Lipitor, aspirin, albuterol and atropine inhalers, Percocet, and potassium supplementation. He was discharged home in stable condition with instructions for follow-up with his primary care physician and cardiologist.
+The patient is a 67-year-old male presenting with chest pain. He was found to have multivessel coronary artery disease on cardiac catheterization. His medical history includes recent coronary artery bypass grafting (CABG x2) performed on [2160-7-29], and he was managed postoperatively in the intensive care unit with ventilator support, which was successfully weaned. Physical Therapy was involved for ambulation, and he progressed well, with removal of Foley catheter and chest tubes during his recovery. On postoperative day three, his pacing wires were removed and his Lopressor dose was increased for improved heart rate control. The documented diagnosis was multivessel coronary artery disease requiring surgical intervention. At discharge, he was stable and prescribed albuterol and atropine inhalers, Lipitor, Percocet, aspirin, Lopressor, Lasix, and potassium. He was instructed to follow up with his primary care physician in 1–2 weeks and with his cardiologist in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. They described the pain as a pressure-like sensation, rated 5–6 out of 10 in severity, that began a few days ago, is intermittent, and typically occurs with physical activity such as walking or climbing stairs, but not at rest. The pressure resolves with rest and is not associated with other symptoms such as shortness of breath, sweating, or lightheadedness. The patient reported avoiding certain activities to prevent the onset of chest pressure. No relevant past medical history, medications, or allergies were mentioned. The doctor noted that the pattern of exertional chest pressure relieved by rest may indicate the heart is not getting enough oxygen during activity, possibly due to underlying risk factors. The doctor recommended scheduling a thorough evaluation including an EKG and blood work, advised the patient to avoid overexertion, and instructed them to seek immediate care if symptoms worsen or new symptoms develop.
+The patient presents with chest pain as the chief complaint. The pain is described as a pressure-like sensation, rated 5–6 out of 10 in severity, that began a few days ago and is intermittent, typically triggered by physical activity such as walking or climbing stairs, and relieved by rest. The patient denies associated symptoms such as shortness of breath, sweating, or lightheadedness, and reports avoiding exertional activities to prevent recurrence. Relevant medical history, medications, and allergies are not specified in the dialogue. The clinical impression is that the chest pressure may be due to the heart not receiving enough oxygen during exertion, possibly related to underlying risk factors. No definitive diagnosis is documented at this visit. The treatment plan includes scheduling a thorough evaluation with an EKG and blood work, avoiding overexertion, and instructions to seek immediate care if symptoms worsen or new concerning symptoms develop. The patient agrees to follow these recommendations.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **STS Score**: 0.520
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 153 words
+
 
 ## Processing Information
 

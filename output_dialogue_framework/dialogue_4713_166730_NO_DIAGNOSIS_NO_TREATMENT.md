@@ -89,16 +89,23 @@ If you develop severe chest pain at rest, fainting, or significant trouble breat
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with exertional chest heaviness and arm pain experienced over two months, primarily during physical activity such as remodeling his kitchen. He reported several episodes of paroxysmal nocturnal dyspnea, dyspnea on exertion, episodic light-headedness, claudication, edema, and right lower back pain. His past medical history is significant for chronic obstructive pulmonary disease, noninsulin dependent diabetes mellitus, hypertension, hyperlipidemia, transient ischemic attack, chronic back pain, and prior pneumonia. On physical examination, his lungs were clear, heart rate was regular with a II/VI systolic ejection murmur, and there was no edema in the extremities. A stress test revealed electrocardiographic changes and an anterior wall defect. The patient was admitted for cardiac catheterization. No specific discharge diagnosis or further treatment details are documented in the provided note.
+The patient is a 58-year-old male presenting with two months of exertional chest heaviness and arm pain, as well as episodes of paroxysmal nocturnal dyspnea and dyspnea on exertion. He also reported episodic light-headedness, claudication, edema, and right lower back pain. His past medical history includes chronic obstructive pulmonary disease, noninsulin dependent diabetes mellitus, hypertension, hyperlipidemia, and a transient ischemic attack. Cardiac catheterization revealed multivessel coronary artery disease. The documented diagnosis was multivessel coronary artery disease requiring surgical intervention. He underwent a five-vessel coronary artery bypass graft and had an uncomplicated postoperative course, with minor wound drainage managed conservatively. Treatment included beta blockers, diuretics, isosorbide dinitrate, pain management, and physical therapy. The patient was discharged in stable condition with instructions for follow-up and home health services.
+
 
 ## Dialogue Summary
 
-The patient presented with chest heaviness during exertion. Symptoms included chest heaviness and arm pain rated at 6/10 intensity with activity, shortness of breath both with exertion and when lying flat at night (requiring extra pillows or sitting up), and swelling in the legs; the discomfort has persisted for a couple of weeks and remains stable, worsening only with physical effort and improving with rest. The patient also reported occasional light-headedness and leg fatigue with prolonged walking. No history, medications, or allergies were mentioned. On clinical review, the doctor noted signs suggestive of fluid retention (leg swelling, orthopnea) and exertional symptoms. The doctor’s assessment was that these symptoms may be related to the heart not pumping efficiently, possibly due to narrowed blood vessels or weakened heart muscle. The doctor advised avoiding strenuous activity, monitoring for worsening symptoms (such as chest pain at rest, fainting, or significant breathing difficulty), and arranging prompt follow-up for further evaluation including EKG, blood work, and possible imaging; immediate medical attention was recommended if severe symptoms develop.
+The patient is an adult presenting with chest heaviness on exertion as the chief complaint. Symptoms include exertional chest heaviness rated 6/10 in intensity, associated arm pain, shortness of breath with activity and at night (requiring extra pillows to breathe comfortably), and recent leg swelling; symptoms have been present for approximately two weeks and are stable. The discomfort is triggered by physical activity and relieved by rest, with no noted association with eating, cold, or stress. The patient also reports occasional light-headedness and leg fatigue with prolonged walking. Relevant history, medications, and allergies are not specified.
+
+The clinical impression documented is possible cardiac dysfunction, such as reduced heart pumping efficiency or myocardial ischemia, leading to fluid retention and exertional symptoms. The treatment plan includes avoiding strenuous activity, monitoring for worsening symptoms (such as increased dyspnea, chest pain at rest, or sudden weight gain), and arranging prompt follow-up for further evaluation (including EKG, blood work, and cardiac imaging). The patient was advised to seek immediate medical attention if severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.976
-- **Similarity Label**: N/A
+- **STS Score**: 0.547
+- **Model Used**: general
+- **Text1 Length**: 126 words
+- **Text2 Length**: 170 words
+
 
 ## Processing Information
 

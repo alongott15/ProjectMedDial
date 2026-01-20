@@ -87,16 +87,21 @@ For now, I recommend you rest as much as possible, stay well-hydrated, and monit
 
 ## EHR Summary
 
-The patient is a 48-year-old male presenting for elective repeat whole lung lavage due to pulmonary alveolar proteinosis secondary to occupational silica dust exposure. He reports worsening dyspnea on exertion over the past months to years, currently unable to walk more than one block without shortness of breath, and has a cough with clear fluid but no chest pain, orthopnea, paroxysmal nocturnal dyspnea, wheezing, or hemoptysis. His history includes pulmonary alveolar proteinosis (diagnosed in 2150), prior pneumothorax and intubations, anxiety disorder, alcohol abuse, and a past positive acid fast bacilli lavage with negative mycobacterium; he is HIV negative. He recently completed Bactrim and prednisone for pneumonia and has self-discontinued all medications except Serevent. Physical exam and test findings are not specified in this note. The documented diagnosis is pulmonary alveolar proteinosis. The treatment plan includes elective repeat whole lung lavage. Additional recommendations regarding smoking cessation or alcohol use are not documented.
+The patient is a 48-year-old male presenting for elective repeat whole lung lavage due to worsening dyspnea on exertion, associated with pulmonary alveolar proteinosis secondary to occupational silica dust exposure. He reports progressive shortness of breath over months to years, now unable to walk more than one block without symptoms, and has a cough with clear fluid but no chest pain, orthopnea, or hemoptysis. Relevant history includes prior pulmonary alveolar proteinosis diagnosed in 2150, previous whole lung lavage, pneumonia treated with Bactrim and prednisone, significant tobacco and alcohol use, and a history of anxiety disorder. On admission, physical exam revealed end-inspiratory crackles and laboratory studies showed leukocytosis and elevated hematocrit. The documented diagnosis was pulmonary alveolar proteinosis with recent pneumonia and possible Clostridium difficile infection. Treatment included repeat whole lung lavage, supportive care for alcohol withdrawal (thiamine, folate, multivitamins, Ativan as needed), and a 14-day course of Flagyl for suspected C. difficile. The patient was discharged home able to ambulate without oxygen and instructed to follow up with his pulmonologist.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening shortness of breath, especially during activities such as walking, and reported increased anxiety. Symptoms included progressive dyspnea over several days, a cough producing clear fluid (occurring both day and night without change in amount), fever, anxiety, shakiness, and significant limitation of daily activities (requiring frequent rest with chores or stairs). The patient denied wheezing, chest discomfort, or leg swelling and reported no history of asthma, allergies, or high blood pressure. Relevant history includes pulmonary alveolar proteinosis complicated by a prior pneumothorax. The doctor noted the combination of worsening breathing difficulties, productive cough, fever, and the patient’s lung history could indicate a flare-up of pulmonary alveolar proteinosis or a possible infection. The doctor advised monitoring for warning signs such as chest pain, severe shortness of breath at rest, confusion, or cyanosis, and recommended rest, hydration, and prompt follow-up with a lung specialist or primary care provider for further evaluation (such as a chest X-ray). The patient also mentioned right eye deviation and requested advice for managing anxiety while awaiting specialist follow-up.
+The patient is an adult with a history of pulmonary alveolar proteinosis complicated by prior pneumothorax, presenting with worsening shortness of breath on exertion. Symptoms include progressive dyspnea over several days, productive cough with clear sputum (day and night), fever, anxiety, shakiness, and significant limitation of daily activities; there is no wheezing, leg swelling, or change in sputum amount. The patient denies asthma, allergies, or hypertension. The clinical impression is a possible flare-up of pulmonary alveolar proteinosis or a superimposed infection, given the combination of respiratory symptoms and fever. The physician advised rest, hydration, temperature monitoring, and close observation for warning signs such as chest pain, severe dyspnea at rest, confusion, or cyanosis. The patient was instructed to follow up promptly with their lung specialist or primary care provider for further evaluation, including possible chest imaging. The physician also offered to provide advice for managing anxiety while awaiting specialist assessment. The patient additionally reported right eye deviation and was advised to mention this at their follow-up.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
+- **STS Score**: 0.742
+- **Model Used**: general
+- **Text1 Length**: 170 words
+- **Text2 Length**: 166 words
+
 
 ## Processing Information
 

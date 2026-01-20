@@ -98,3 +98,21 @@ In the meantime, avoid taking any painkillers like aspirin or ibuprofen, and don
 ## Processing Information
 
 - **Processing Time**: 453.0s
+
+## EHR Summary
+
+The patient is a 74-year-old female presenting with a chief complaint of a large black stool and abdominal pain. She was found to be hypotensive (BP 82/50), tachycardic, and had a decreased hematocrit from 32 to 28.1, with coffee ground emesis on nasogastric lavage, indicating upper gastrointestinal bleeding. Her past medical history includes hypertension, diabetes mellitus, aortic valve replacement on Coumadin, depression, and chronic right foot ulcer. Endoscopy revealed two esophageal ulcers without active bleeding; she was diagnosed with upper gastrointestinal bleed, esophageal ulcers, and a urinary tract infection (Klebsiella). Treatment included IV pantoprazole, blood transfusions, fresh frozen plasma, vitamin K, and a five-day course of levofloxacin for UTI. Her antihypertensive medications were held initially due to hypotension and later restarted; her diabetes was managed with an insulin sliding scale and diabetic diet. The patient was stable on discharge and transferred to another facility for continued care, with plans for follow-up endoscopy.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with black, tar-like stool (melena) and dull, constant abdominal pain rated 6 out of 10, both of which began this morning. Additional symptoms include weakness and an episode of coffee ground emesis; the patient denies prior similar episodes and reports no significant change in appetite. The patient has not taken NSAIDs or aspirin recently and is currently on pantoprazole and levofloxacin. The stool was described as completely black and sticky, not just dark brown. The clinical impression documented by the physician is possible upper gastrointestinal bleeding, potentially from an ulcer or other source, despite ongoing pantoprazole therapy. The physician advised prompt in-person medical evaluation to assess for ongoing bleeding and to check blood counts, emphasizing the urgency due to the risk of rapid worsening. The patient was instructed to avoid NSAIDs, refrain from eating or drinking until evaluated, and seek emergency care if symptoms such as faintness or increased weakness occur.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.666
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 157 words
+

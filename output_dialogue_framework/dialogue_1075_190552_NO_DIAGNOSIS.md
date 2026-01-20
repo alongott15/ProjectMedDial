@@ -106,3 +106,23 @@ Let me know if you have any questions about what we’ve discussed or if there�
 ## Processing Information
 
 - **Processing Time**: 232.1s
+
+## EHR Summary
+
+The patient is an 84-year-old woman presenting with a chief complaint of subdural hematoma, transferred for management after being found on the ground with subsequent decreased mental status. She initially had a history of atrial fibrillation on Coumadin and was admitted for COPD exacerbation prior to this event. Her symptoms included decreased mental status, inability to move the right side of her body, increasing somnolence, recurrent fevers (101.0–102.0°F), and failure to wean from the ventilator; she was unable to speak or make purposeful movements. Imaging revealed a left subdural hematoma with midline shift. The documented diagnosis was subdural hematoma with poor neurologic recovery following craniotomy and evacuation. Treatment included surgical evacuation of the hematoma, ventilatory support with tracheostomy, and repeated infection workup, though no infectious source was identified. Due to persistent poor prognosis and lack of neurologic improvement, the family elected to withdraw care.
+
+
+## Dialogue Summary
+
+The patient presents with concerns about worsening mental status, describing increased tiredness and feeling "out of it," particularly after spending several hours breathing without ventilator support. Symptoms include progressive fatigue, episodes of decreased alertness, inability to move the right side of the body, and inability to speak during these episodes; these symptoms build up over time when off the ventilator and have been worsening over several days. The patient denies numbness or tingling, reporting only weakness and loss of movement on the right side during episodes. These symptoms significantly impact the patient's ability to care for themselves and interact with others.
+
+Relevant history includes current ventilator dependence, with symptoms closely linked to periods off ventilator support. The clinical impression is that the episodes are likely due to insufficient oxygen delivery to the brain during times off the ventilator, resulting in transient neurological deficits and altered mental status. The treatment plan includes advising the patient not to push themselves when off the ventilator, to promptly notify the care team if symptoms worsen, and to seek immediate help for new or severe symptoms such as persistent confusion, chest pain, or vision changes. The care team may consider adjusting ventilator weaning protocols and monitoring oxygenation more closely.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.446
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 204 words
+

@@ -87,16 +87,21 @@ Let me know if you have questions about what we've discussed or if there's anyth
 
 ## EHR Summary
 
-The patient is an 81-year-old female presenting with increasing fatigue, decreased appetite, and weight loss. She has a history of multiple episodes of congestive heart failure, significant mitral regurgitation, chronic atrial fibrillation (on Coumadin), hypertension, aortic insufficiency, COPD, hypercholesterolemia, rheumatic heart disease, paroxysmal atrial fibrillation, left retinal artery embolus, cardiomyopathy, and pulmonary hypertension. On admission, she was transitioned from Coumadin to IV heparin in preparation for a procedure, awaiting normalization of her INR. Cardiac catheterization revealed a cardiac index of 1.4, 30–60% RCA lesion, 4+ mitral regurgitation, and positive MAC; TEE showed mild aortic insufficiency, moderate mitral regurgitation, mild mitral stenosis, moderate tricuspid regurgitation, an ejection fraction of 35–40%, and a dilated left atrium without thrombus. The documented clinical impression is decompensated heart failure with significant valvular disease and chronic atrial fibrillation. Treatment included discontinuation of Coumadin and initiation of IV heparin for anticoagulation management while awaiting INR normalization. No drug allergies were reported.
+The patient is an 81-year-old female presenting with increasing fatigue, decreased appetite, and weight loss. She reported a three-week history of diarrhea prior to admission, but denied other acute symptoms. Her medical history is significant for congestive heart failure with severe mitral regurgitation, chronic atrial fibrillation (on Coumadin), hypertension, COPD, hypercholesterolemia, rheumatic heart disease, and other comorbidities. On admission, she was anticoagulated with a high INR and transitioned from Coumadin to IV heparin preoperatively. The documented diagnoses include status post mitral valve replacement (with a #27 Mosaic valve), mitral regurgitation, paroxysmal atrial fibrillation, hypertension, COPD, hypercholesterolemia, left retinal artery embolus, cardiomyopathy, pulmonary hypertension, rheumatic heart disease, and history of hysterectomy. Her hospital course included mitral valve replacement surgery, management of anticoagulation, and postoperative cardiac rehabilitation. At discharge, she was stable and transferred to an extended care facility with instructions for follow-up and a medication regimen including warfarin (target INR 2–2.5), Lasix, amiodarone, lisinopril, Lopressor, aspirin, and other supportive medications.
+
 
 ## Dialogue Summary
 
-The patient presented with increased tiredness as the chief complaint. Symptoms discussed included persistent fatigue even after a good night's sleep, reduced mobility, recent weight loss, and decreased appetite, all of which have gradually worsened over the past few weeks. The patient denied shortness of breath, chest discomfort, swelling in the legs or feet, and reported no changes in fluid intake. The patient noted needing more help with daily activities such as bathing and meal preparation but is still able to get out of bed and move independently. No specific medical history, medications, or allergies were mentioned during the conversation. The doctor assessed that the gradual onset of fatigue and weight loss, without cardiorespiratory symptoms, may be related to mild infections, nutritional changes, medication side effects, or mood changes. The doctor recommended monitoring weight and appetite, eating small frequent meals, and promptly reporting any new symptoms such as fever, confusion, pain, or ongoing nausea. A review of medications and recent health history with a healthcare provider was also advised.
+The patient is an older adult presenting with increased fatigue as the main complaint. Over the past few weeks, the patient has experienced gradually worsening tiredness, reduced mobility, decreased appetite, and unintentional weight loss, with minimal improvement from rest or sleep. There are no associated symptoms of dyspnea, chest discomfort, or peripheral edema. The patient reports needing more assistance with daily activities such as bathing and meal preparation but remains able to get out of bed and move independently. No changes in fluid intake were noted. The clinical impression suggests that the fatigue and weight loss may be related to factors such as mild infection, nutritional changes, medication side effects, or mood changes, rather than cardiac or pulmonary causes. The treatment plan includes monitoring weight and appetite, eating small frequent meals, and promptly reporting any new symptoms such as fever, confusion, pain, or persistent nausea. A review of medications and recent health history with a healthcare provider was also recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.933
-- **Similarity Label**: N/A
+- **STS Score**: 0.454
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

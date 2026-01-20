@@ -93,16 +93,21 @@ If these symptoms continue or get worse, it would be wise to have an in-person e
 
 ## EHR Summary
 
-The patient is a 61-year-old female admitted for elective coiling of a 3.5 mm anterior communicating artery (ACOM) aneurysm. She has a history of significant right (75-80%) and left (65-70%) internal carotid artery stenosis, hypertension, coronary artery disease with prior CABG, COPD, reflux, and schizophrenia. On admission, she was in no acute distress, with physical exam notable for a 3+ carotid bruit on the right and fine crackles at the lung bases, but otherwise stable neurologically and systemically. The patient underwent coil embolization of the ACOM aneurysm without interprocedural complications. Postoperatively, she remained awake, alert, and oriented, with intact pedal pulses and no evidence of groin hematoma. The documented diagnosis was unruptured ACOM aneurysm status post coil embolization. She was monitored overnight and then transferred to the regular floor for continued recovery. Her medication regimen included antihypertensives, antiplatelets, psychiatric medications, and others as listed.
+The patient is a 61-year-old female admitted for elective coiling of a 3.5 mm anterior communicating artery (ACOM) aneurysm. She has a history of right internal carotid artery (ICA) stenosis (75-80%), left ICA stenosis (65-70%), hypertension, coronary artery disease with prior CABG, COPD, reflux, and schizophrenia. On admission, she was in no acute distress, with stable vital signs and a notable right carotid bruit; neurologic exam showed mild right lip asymmetry with smile but was otherwise unremarkable. The documented diagnosis was ACOM aneurysm status post coil embolization without procedural complications. She was monitored postoperatively, remained neurologically intact, and was able to tolerate diet and ambulate safely. Discharge medications included antihypertensives, antiplatelets, statin, psychiatric medications, and analgesics as needed. She was discharged in stable condition with instructions to follow up in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening trouble breathing over the past couple of weeks. Symptoms include moderate shortness of breath that builds up with activity, making daily tasks and light chores more tiring, and intermittent chest tightness that improves with rest; no cough, leg swelling, or nocturnal shortness of breath were reported. Relevant history includes longstanding hypertension, COPD, prior heart surgery for coronary artery disease, and regular use of medications for these conditions. The patient described no severe pain or acute symptoms, and physical findings were limited to self-reported moderate exertional dyspnea and chest tightness. The doctor assessed that the symptoms could be related to underlying COPD, hypertension, or cardiac history, noting the gradual worsening and impact on daily activities. The treatment plan included continuing prescribed medications without missing doses, monitoring for new or worsening symptoms (such as increased tightness, leg swelling, dizziness, or fainting), pacing activity with rest, and seeking prompt medical attention if symptoms acutely worsen. The doctor also recommended an in-person evaluation if symptoms persist or deteriorate.
+The patient is an adult with a history of hypertension, COPD, and prior coronary artery disease surgery presenting with gradually worsening shortness of breath. The dyspnea has been present for at least a couple of weeks, is moderate in severity, worsens with activity, and is associated with intermittent chest tightness that improves with rest; there is no cough, leg swelling, or nocturnal symptoms. The symptoms have begun to interfere with daily activities such as walking around the house and performing light chores. Relevant medical history includes hypertension, COPD, coronary artery disease, and regular use of medications for these conditions. The clinical impression is that the symptoms may be related to underlying COPD or cardiac disease, with no acute concerning features identified at this time. The treatment plan includes continuing current medications as prescribed, monitoring for new or worsening symptoms (such as increased chest tightness, leg swelling, dizziness, or fainting), pacing activities with rest as needed, and seeking prompt medical attention if symptoms acutely worsen. An in-person evaluation was recommended if symptoms persist or deteriorate.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.928
-- **Similarity Label**: N/A
+- **STS Score**: 0.380
+- **Model Used**: general
+- **Text1 Length**: 132 words
+- **Text2 Length**: 174 words
+
 
 ## Processing Information
 

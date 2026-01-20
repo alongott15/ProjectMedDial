@@ -87,16 +87,23 @@ Most cases like this improve with rest and supportive care. If your symptoms per
 
 ## EHR Summary
 
-The patient is a 54-year-old female presenting with hematemesis as her chief complaint. She reported one week of malaise, nausea, diarrhea, melena, and decreased appetite, followed by seven episodes of nonbloody emesis and three episodes of hematemesis on the day of admission. Her relevant history includes hepatitis C cirrhosis, recent diagnosis of hepatoma (AFP 340,000), type 2 diabetes, hypertension, schizophrenia, and a recent paracentesis for ascites. She denied abdominal pain, chest pain, shortness of breath, and use of NSAIDs or alcohol. On physical exam, she appeared well and in no acute distress; orthostatic vital signs showed an increase in pulse from 88 to 120 upon standing with stable blood pressure. The documented clinical impression is upper gastrointestinal bleeding in the context of cirrhosis and hepatoma. Treatment details are not specified in the provided text.
+The patient is a 54-year-old woman presenting with multiple episodes of nonbloody emesis followed by hematemesis, along with one week of diarrhea, melena, malaise, nausea, and decreased appetite. Her symptoms began after a recent paracentesis for ascites and included seven episodes of vomiting and three episodes of hematemesis on the day of admission. She denied abdominal pain, chest pain, shortness of breath, or other systemic symptoms. Her relevant history includes hepatitis C cirrhosis with ascites, recently diagnosed hepatoma, type 2 diabetes, hypertension, and schizophrenia; she is allergic to penicillin. The documented diagnoses were hepatitis C with cirrhosis and esophageal varices (status post bleed and endoscopic interventions), hepatoma, type 2 diabetes, hypertension, and schizophrenia. Treatment included two esophagogastroduodenoscopies with sclerotherapy and banding of varices, transfusion of blood products, paracentesis for ascites, and initiation of medications including Octreotide, Protonix, ciprofloxacin, Carafate, nadolol, Imdur, Lasix, Aldactone, Glucotrol, Prolixin, and Zoloft. She was discharged in improved condition with follow-up arranged with her primary care physician and specialists.
+
 
 ## Dialogue Summary
 
-The patient presented with low energy and feeling worn out as the chief complaint. Symptoms included persistent low energy for at least several days, worsening over time, along with nausea, several episodes of nonbloody vomiting, decreased appetite, occasional dry mouth, and recent onset of diarrhea with dark, almost black stools. The patient denied fever or chills and reported being able to keep some fluids down. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the absence of severe abdominal pain and blood in vomit, and that the patient’s symptoms were consistent with a mild viral illness or digestive upset. The doctor advised supportive care with rest, hydration (small sips of water or clear fluids), and bland foods as tolerated, and recommended monitoring for signs of dehydration or worsening symptoms. The patient was instructed to seek further evaluation if symptoms persist beyond a few more days, worsen, or if new concerning signs such as severe abdominal pain develop.
+The patient is an adult presenting with the chief complaint of feeling worn out and having low energy. Symptoms have been present for at least several days and include persistent nausea, multiple episodes of nonbloody vomiting, decreased appetite, and a general sense of feeling unwell; the patient also reports occasional dry mouth but has been able to keep some fluids down. The patient denies fever or chills and notes that symptoms have been worsening over the past few days. Additional symptoms mentioned include diarrhea and dark, almost black-appearing stools. Relevant history, medications, and allergies are not specified in the dialogue.
+
+The clinical impression discussed by the doctor is a mild viral illness or digestive upset, with reassurance provided due to the absence of severe symptoms such as bloody vomiting or severe abdominal pain. The treatment plan focuses on supportive care: maintaining hydration with small sips of water or clear fluids, eating bland foods as tolerated, and monitoring for signs of dehydration or worsening symptoms. The doctor advises seeking further evaluation if symptoms persist beyond a few more days, worsen, or if new concerning symptoms develop (such as severe abdominal pain or inability to keep fluids down).
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.549
+- **Model Used**: general
+- **Text1 Length**: 163 words
+- **Text2 Length**: 196 words
+
 
 ## Processing Information
 

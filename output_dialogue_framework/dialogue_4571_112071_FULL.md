@@ -87,16 +87,23 @@ Let me know if you've noticed any new symptoms, such as swelling in your legs, s
 
 ## EHR Summary
 
-The patient is a 77-year-old male presenting with increasing chest discomfort and a positive thallium stress test. He reported recurrent chest discomfort, prompting admission for further cardiac evaluation. His relevant history includes coronary artery disease with prior right coronary artery stenting, percutaneous transluminal coronary angioplasty to the diagonal branch, hypertension, hypercholesterolemia, and prostate cancer treated with radiation, seeding, and hormonal therapy; he has no known drug allergies. On physical exam, vital signs were stable and cardiac and pulmonary exams were unremarkable. Laboratory results showed mild anemia (hemoglobin 10.7 g/dL) and otherwise unremarkable findings. The documented diagnosis was coronary artery disease with recurrent symptoms. He underwent off-pump coronary artery bypass grafting (CABG) x1 as definitive treatment.
+The patient is a 77-year-old male presenting with increasing chest discomfort and a positive thallium stress test. He reported recurrent chest discomfort, and cardiac catheterization revealed significant coronary artery disease, including 90% LAD stenosis and prior stenting of the RCA. His medical history includes coronary artery disease with prior PTCA and stenting, hypertension, hypercholesterolemia, and prostate cancer treated with radiation, seeding, and hormonal therapy; he has no known drug allergies. The documented diagnoses were status post off-pump CABG x1 (LIMA to LAD), hypertension, elevated cholesterol, prostate cancer, and coronary artery disease with prior interventions. During hospitalization, he underwent successful off-pump CABG, developed atrial fibrillation treated with amiodarone, and received transfusion for anemia. At discharge, he was in good condition and prescribed medications including aspirin, clopidogrel, amiodarone, diltiazem, furosemide, potassium chloride, statins, and supportive vitamins. Discharge instructions included wound care, activity restrictions (no driving for one month, no lifting over 10 pounds for 10 weeks), and follow-up with cardiology and primary care.
+
 
 ## Dialogue Summary
 
-The patient presented with increased chest discomfort, primarily occurring during activity and worsening over the past couple of weeks. The discomfort has made it more difficult for the patient to perform daily activities such as walking around the house and running errands. The patient also reported episodes of irregular heartbeat lasting a few minutes, sometimes occurring independently of chest discomfort, but denied associated lightheadedness or shortness of breath. Relevant history includes a prior diagnosis of atrial fibrillation and an enlarged thyroid; no current swelling in the legs, weight changes, or difficulty breathing when lying flat were reported. On assessment, the doctor noted that the activity-related chest discomfort and arrhythmia could be related to the patient's atrial fibrillation and thyroid condition, but found the absence of severe symptoms reassuring. The doctor advised the patient to monitor symptoms, pace activities, avoid overexertion, stay hydrated, and maintain regular medication schedules if applicable. The patient was instructed to seek prompt medical attention if severe chest pain, fainting, or significant shortness of breath develop, and to report any new symptoms such as leg swelling or sudden weight changes.
+The patient is an adult with a history of atrial fibrillation and enlarged thyroid presenting with increased chest discomfort. The chest discomfort is primarily exertional, occurring during activity and making daily tasks such as walking around the house and running errands more difficult; symptoms have gradually worsened over the past couple of weeks. The patient also reports episodes of irregular heartbeat lasting a few minutes, sometimes occurring independently of chest discomfort, but denies associated lightheadedness or dyspnea during these episodes. There is no reported leg swelling, weight change, or orthopnea.
+
+The clinical impression is that the chest discomfort may be related to atrial fibrillation and/or effects of an enlarged thyroid. The patient was advised to monitor symptoms, pace activities, avoid overexertion, stay hydrated, and maintain regular medication schedules if applicable. The doctor emphasized the importance of seeking prompt medical attention if severe chest pain, fainting, or significant shortness of breath develop. No new medications or interventions were initiated at this visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.495
+- **Model Used**: general
+- **Text1 Length**: 161 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

@@ -184,3 +184,23 @@ Does that help clarify things for you? Is there anything else you’re worried a
 ## Processing Information
 
 - **Processing Time**: 427.0s
+
+## EHR Summary
+
+The patient is a 17-year-old female presenting after a motor vehicle accident with loss of consciousness for ten minutes and one episode of vomiting at the scene. She reported persistent headache, nausea, and vomiting during her hospital stay, with symptoms gradually improving prior to discharge. Her past medical history is negative, and she has no known drug allergies or medications on admission. Imaging revealed a right postoccipital and right temporal subdural hematoma, with a slight increase in size noted on repeat CT but no midline shift. The documented diagnosis was subdural hematoma following head trauma. She was treated with Dilantin and Zantac prophylactically, monitored closely in the Neurosurgical Intensive Care Unit, and later managed with Oxycontin as needed for headache. The patient was discharged home in improved condition and instructed to follow up in clinic in three weeks.
+
+
+## Dialogue Summary
+
+The patient is an individual with a history of subdural hematomas presenting for follow-up regarding ongoing symptoms. The main complaints are persistent mild headache, nausea, and a low-grade fever (reported as 100–101°F), without any recent episodes of loss of consciousness or vomiting. The patient reports that these symptoms have not worsened and denies new neurological deficits such as confusion, weakness, speech difficulties, or vision changes. Relevant history includes prior subdural hematoma; no medication allergies or current medications are specified.
+
+The clinical impression is ongoing recovery from a subdural hematoma, with reassurance provided due to the absence of concerning symptoms such as recurrent syncope or vomiting. The treatment plan includes supportive care: rest, hydration, and use of acetaminophen for headache if not contraindicated. The patient was advised to monitor for warning signs including worsening headache, repeated vomiting, new confusion, weakness, speech or vision changes, and to seek prompt medical attention if these occur. Ongoing symptom monitoring and communication with the healthcare provider were emphasized.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.769
+- **Model Used**: general
+- **Text1 Length**: 138 words
+- **Text2 Length**: 163 words
+

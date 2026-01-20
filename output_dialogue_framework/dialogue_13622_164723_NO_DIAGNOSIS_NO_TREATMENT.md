@@ -97,16 +97,21 @@ Let me know if you’d like to discuss ways to manage this further or if you hav
 
 ## EHR Summary
 
-The patient is a 75-year-old female admitted for elective lumbar surgery due to chronic right calf and leg pain associated with L5-S1 spondylolisthesis. She underwent L4-5 laminectomy and facetectomy, and L5-S1 pedicle screw fixation. Her past medical history includes right carotid stenosis, hypertension, intermittent atrial fibrillation, and chronic low back pain. Postoperatively, she experienced a cerebrospinal fluid (CSF) leak that was repaired intraoperatively, and she was placed on flat bed rest for 48 hours. On postoperative day one, she developed rapid atrial fibrillation unresponsive to IV diltiazem and Lopressor, requiring transfer to the Medical Intensive Care Unit and initiation of a diltiazem drip; troponin peaked at 1.5, indicating mild myocardial damage. She was transitioned to oral diltiazem with good rate control and returned to the floor after stabilization. Physical therapy was initiated without further complications, and her postoperative course was otherwise uneventful. The patient was cleared by cardiology prior to discharge.
+The patient is a 75-year-old female admitted for elective lumbar surgery due to L5-S1 spondylolisthesis, with a history of right carotid stenosis, hypertension, intermittent atrial fibrillation, chronic low back pain, and right leg pain. She underwent L4-5 laminectomy and facetectomy with L5-S1 pedicle screw fixation. Postoperatively, she experienced an episode of rapid atrial fibrillation with mild myocardial damage (troponin peaked at 1.5), requiring IV diltiazem, metoprolol, and transfer to the Medical Intensive Care Unit for rate control. Cardiology managed her arrhythmia, and she was transitioned to oral diltiazem with good rate control. The remainder of her postoperative course was stable, with no further neurological or cardiac sequelae. At discharge, she was afebrile and hemodynamically stable, instructed to keep staples for two weeks, wear a brace when out of bed, and follow up for staple removal and wound check in two weeks. She was discharged on Tylenol #3 for pain, metoprolol, and diltiazem, with no need for anticoagulation or antiplatelet agents per Cardiology.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent pain in the right calf and leg. The pain has been present for approximately two years, is described as a deep ache with occasional tightness, is rated around 6 out of 10 on most days, and is worsened by walking or standing for long periods but improves with rest or sitting; there is no associated swelling, redness, warmth, numbness, or tingling. The discomfort makes it harder for the patient to walk, climb stairs, and perform daily activities, requiring more frequent breaks. Relevant history includes chronic low back pain, right carotid stenosis, hypertension, and intermittent atrial fibrillation; no diabetes was reported. No physical findings such as swelling or color changes were noted by the patient. The doctor assessed that the symptoms are likely related to reduced blood flow in the arteries of the leg (peripheral artery disease), given the activity-related pattern and vascular history, though nerve irritation from back issues was also considered. The doctor recommended staying active within limits, taking breaks as needed, and monitoring for new symptoms such as sudden swelling, color changes, or non-healing sores. If symptoms worsen or new signs develop, further evaluation with an ankle-brachial index may be considered; otherwise, gentle exercise and management of blood pressure were advised.
+The patient is an adult presenting with right calf and leg pain as the chief complaint. The pain has been present for approximately two years, is described as a deep ache with occasional tightness, is rated 6/10 on most days, and is worsened by walking or standing for long periods but improves with rest or sitting. There is no associated swelling, redness, warmth, numbness, or tingling. Relevant history includes chronic low back pain, right carotid stenosis, hypertension, and intermittent atrial fibrillation; no history of diabetes was reported. The clinical impression is that the symptoms are most consistent with peripheral artery disease (PAD), given the activity-related discomfort and vascular risk factors. The treatment plan includes recommendations for gentle exercise within tolerance, taking breaks as needed, and monitoring for new symptoms such as sudden swelling, color changes, or non-healing sores. The doctor also discussed the possibility of further vascular testing (ankle-brachial index) if symptoms worsen or become more limiting. The patient was advised to manage blood pressure and avoid prolonged inactivity.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.462
+- **Model Used**: general
+- **Text1 Length**: 162 words
+- **Text2 Length**: 169 words
+
 
 ## Processing Information
 

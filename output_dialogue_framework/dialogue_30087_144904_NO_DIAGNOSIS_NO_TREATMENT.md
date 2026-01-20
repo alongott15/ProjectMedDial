@@ -98,3 +98,21 @@ Let me know if you have any questions about what we've discussed or if anything 
 ## Processing Information
 
 - **Processing Time**: 415.4s
+
+## EHR Summary
+
+The patient is an 87-year-old male presenting with abdominal pain, peritonitis, and a perforated appendix. He reported progressively worsening diffuse, sharp abdominal pain, lethargy, and nausea, with chills but no fever. His past medical history includes coronary artery disease, atrial fibrillation, GERD, chylous ascites, retroperitoneal fibrosis, and multiple ventral hernias; he has no known drug allergies. Imaging revealed an inflamed appendix, ventral hernia with fluid-filled sacs, dilated small bowel loops, and ascites. The documented diagnoses were acute gangrenous appendicitis with chylous ascites and a large complex ventral/incisional hernia. He underwent open appendectomy and complex ventral hernia repair, with a post-operative course complicated by chronic hyponatremia and transient acute renal failure, managed with fluid correction and dietary recommendations. At discharge, he was stable, with instructions to monitor JP drain and Foley outputs daily, follow a low sodium, high protein diet with fluid restriction, and avoid heavy lifting. He was discharged to extended care and advised to follow up in two weeks for further evaluation and possible removal of drains.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with worsening abdominal pain as the chief complaint. The pain is described as steady, constant, and located mainly in the mid-abdomen, spreading out but not localized to one side; it has persisted for a couple of days. Associated symptoms include fatigue, nausea (without vomiting), and chills, with no reported changes in bowel movements or appetite, and no measured fever. The discomfort and tiredness have made daily activities more difficult for the patient. Relevant history, medications, and allergies are not specified. The clinical impression discussed includes possible infection or inflammation in the digestive system, with consideration of both common and more serious causes. No definitive diagnosis was documented. The treatment plan includes monitoring for new or worsening symptoms (such as fever, vomiting, severe pain, or blood in stool), resting, staying hydrated, eating bland foods, and seeking prompt medical attention if warning signs develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.587
+- **Model Used**: general
+- **Text1 Length**: 168 words
+- **Text2 Length**: 148 words
+

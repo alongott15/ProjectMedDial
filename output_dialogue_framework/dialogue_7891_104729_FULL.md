@@ -85,16 +85,23 @@ Otherwise, it’s reasonable to monitor for the next week or two. If the sensati
 
 ## EHR Summary
 
-The patient is a 76-year-old female presenting with occasional bilateral arm heaviness occurring both at rest and with exertion. She denied associated symptoms such as shortness of breath, nausea, vomiting, or diaphoresis. Her medical history includes coronary artery disease (question of prior myocardial infarction), non-insulin dependent diabetes mellitus, hypertension, hypercholesterolemia, retinopathy, bilateral cataracts, and incontinence; she has no known drug allergies and is on multiple medications including Prinivil, Toprol, Glucophage, Glyburide, ocular drops, and sublingual nitroglycerin as needed. Cardiac evaluation revealed a positive exercise treadmill test and cardiac catheterization showed proximal LAD occlusion, significant left circumflex and RCA disease. On admission, laboratory values were notable for glucose 151 mg/dL and creatinine 1.2 mg/dL. The documented diagnosis was multivessel coronary artery disease. She underwent coronary artery bypass grafting (CABG) times two with LIMA to LAD and SVG to OM1. Postoperatively, she was extubated on day one and weaned off NeoSynephrine drip without complications.
+The patient is a 76-year-old female presenting with occasional bilateral arm heaviness occurring both at rest and with exertion. She denied associated symptoms such as dyspnea, nausea, vomiting, or diaphoresis. Her past medical history includes coronary artery disease (question of prior myocardial infarction), non-insulin dependent diabetes mellitus, hypertension, hypercholesterolemia, retinopathy, bilateral cataracts, and incontinence; she has no known drug allergies and was taking Prinivil, Toprol, Glucophage, Glyburide, ocular drops, and sublingual nitroglycerin as needed. Cardiac evaluation revealed significant coronary artery disease with proximal LAD occlusion and high-grade lesions in other vessels. The documented diagnosis was status post coronary artery bypass grafting (CABG) times two. Treatment included CABG with LIMA to LAD and SVG to OM1, followed by postoperative management and discharge on medications including Lopressor, Lasix, Plavix, aspirin, Glucophage, Glyburide, ocular drops, Percocet as needed, and Colace. The patient was discharged in stable condition to a rehabilitation facility with follow-up arranged with her surgeon, primary care provider, and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with a chief complaint of heaviness in both arms, first noticed a few days ago. The heaviness is occasional, rated at 3–4 out of 10 in severity, and is more noticeable during arm use but does not interfere with daily activities such as brushing hair, lifting objects, or getting dressed. The patient denied any numbness, tingling, weakness, pain, recent changes in activity level, heavy lifting, recent illnesses, fevers, or infections. The sensation has remained stable over the past few days without improvement or worsening. On examination, there were no additional physical findings reported. The doctor assessed the arm heaviness as mild and likely benign, possibly related to muscle fatigue or mild circulation changes. The doctor recommended monitoring the symptoms for the next week or two, continuing gentle stretching and regular activity, and advised the patient to report any new symptoms such as true weakness, severe pain, chest discomfort, or worsening heaviness. The patient agreed to this plan and showed understanding of the recommendations.
+The patient is an adult presenting with a chief complaint of heaviness in both arms, first noticed a few days ago. The sensation is described as mild (rated 3–4/10 at its worst), does not interfere with daily activities, and is more noticeable during arm use; there is no associated numbness, tingling, weakness, or pain. The patient denies recent changes in activity, heavy lifting, illness, fever, or infection, and reports no progression of symptoms over several days. Relevant medical history, medications, and allergies are not specified.
+
+The clinical impression is that the arm heaviness is likely benign, possibly related to muscle fatigue or mild circulation changes. The treatment plan includes monitoring symptoms, maintaining activity, and performing gentle stretching. The patient was advised to seek further evaluation if new symptoms such as true weakness, severe pain, chest discomfort, or worsening heaviness develop. Otherwise, continued observation for one to two weeks was recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.465
+- **Model Used**: general
+- **Text1 Length**: 159 words
+- **Text2 Length**: 150 words
+
 
 ## Processing Information
 

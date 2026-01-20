@@ -87,16 +87,21 @@ For now, focus on pacing yourself and resting when you need to. Let your healthc
 
 ## EHR Summary
 
-The patient is a 78-year-old female presenting with increasing shortness of breath and chest pain with activity. The duration, severity, and specific characteristics of the symptoms are not detailed in the note. Relevant medical history, medications, and allergies are not specified. There are no documented physical exam findings or test results in the provided text. The diagnosis is not explicitly stated. The treatment plan and specific recommendations are not documented in this note.
+The patient is a 78-year-old female presenting with increasing shortness of breath and chest pain with activity. Symptoms were noted to worsen with exertion, but further details regarding severity, duration, or alleviating factors are not specified. Relevant past medical history, current medications, and allergies are not documented in the note. The clinical impression or specific diagnosis is not stated in the provided text. There is no information regarding the treatment plan, medications prescribed, or recommendations given at discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with increased chest pain, particularly during physical activity around the house. The pain is described as a pressure in the center of the chest, worsened by exertion and improved with rest; associated symptoms include shortness of breath during activity, which also resolves with rest. The patient reported that these symptoms have worsened over several days and now limit daily activities such as walking to the mailbox or doing chores. No sweating, nausea, or lightheadedness were noted during episodes, but chest pain and shortness of breath occurred during recent echocardiogram and catheterization procedures. The patient mentioned prior mental status changes that have since improved and referenced a persistent junctional rhythm, asking if this should be discussed with their cardiologist. On assessment, the doctor noted that exertional chest discomfort relieved by rest is suggestive of angina, likely due to reduced blood flow to the heart muscle. The doctor advised avoiding strenuous activity, pacing oneself, and promptly informing the cardiologist or primary care provider about these worsening symptoms; immediate medical attention was recommended if symptoms occur at rest or new severe symptoms develop. The patient acknowledged understanding of the recommendations.
+The patient presents with increased chest pain as the chief complaint. The pain is described as a central chest pressure that worsens with physical activity (such as walking or chores) and is accompanied by exertional dyspnea; both symptoms improve with rest. The symptoms have been progressively worsening over several days and are now limiting daily activities. The patient denies associated sweating, nausea, or lightheadedness during episodes but reports similar symptoms during recent echocardiogram and catheterization procedures. Relevant history includes prior mental status changes (now improved) and mention of a persistent junctional rhythm, though no further details are provided. The clinical impression discussed is likely angina, attributed to possible narrowed coronary vessels causing reduced oxygen delivery to the heart during exertion. The treatment plan includes avoiding strenuous activity, pacing oneself, resting as needed, and promptly notifying the cardiologist or primary care provider about the symptom changes. The patient was also advised to seek immediate medical attention if symptoms occur at rest, last longer than usual, or are accompanied by new severe symptoms.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.680
+- **Model Used**: general
+- **Text1 Length**: 78 words
+- **Text2 Length**: 171 words
+
 
 ## Processing Information
 

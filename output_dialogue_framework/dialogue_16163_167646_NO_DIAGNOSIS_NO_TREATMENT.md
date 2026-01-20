@@ -87,16 +87,23 @@ Does that sound reasonable to you? Is there anything else about this pressure th
 
 ## EHR Summary
 
-The patient is a 66-year-old female presenting with on and off chest pain for one month. She was found to have a myocardial infarction and underwent cardiac catheterization, which revealed three-vessel coronary artery disease. Her past medical history includes hypertension, dyslipidemia, anemia, and degenerative joint disease; she also has a significant tobacco use history (40 pack years). On physical examination, she was stable and in no acute distress, with normal vital signs and unremarkable cardiac and pulmonary findings. Laboratory results showed mild anemia (hematocrit 31) but were otherwise unremarkable. The documented diagnosis was three-vessel coronary artery disease following myocardial infarction. She underwent a three-vessel coronary artery bypass graft (CABG) using the left internal mammary artery and saphenous vein grafts. Postoperatively, the patient did well and was transferred to the intensive care unit for further management.
+The patient is a 66-year-old woman presenting with a one-month history of intermittent chest pain. She was found to have a myocardial infarction and cardiac catheterization revealed three-vessel coronary artery disease. Her past medical history includes hypertension, dyslipidemia, anemia, and degenerative joint disease; she has a significant tobacco use history (40 pack years). The documented diagnosis was status post coronary artery bypass graft times three. She underwent successful three-vessel coronary artery bypass grafting and had an uncomplicated postoperative course. The treatment plan included discharge on medications such as Lasix, potassium, Percocet as needed, Colace, aspirin, Zantac, metoprolol, and Zocor. She was advised to continue physical therapy and was discharged home in good condition.
+
 
 ## Dialogue Summary
 
-The patient presented with intermittent chest pain described as a pressure sensation. The chest pressure is rated 5–6 out of 10 in severity, occurs mainly in the center of the chest, comes on with physical activity such as walking or doing chores, and resolves with rest; it has been present for a few days, lasts a few minutes each time, and is not associated with shortness of breath, sweating, or lightheadedness. The patient denied any radiation of pain or worsening with position changes or deep breaths. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the pattern of chest pressure—triggered by exertion and relieved by rest—could indicate a cardiac cause or possibly musculoskeletal strain, but emphasized caution due to the exertional nature. The doctor advised the patient to take it easy and seek immediate medical attention if new symptoms such as severe chest pain, pain radiating to the arm or jaw, shortness of breath, sweating, or faintness develop. An evaluation to check heart health was recommended to rule out serious causes. The patient understood and had no additional concerns.
+The patient presents with intermittent chest pain as the chief complaint. The chest pain is described as a central, pressure-like sensation rated 5–6/10 in severity, occurring primarily with physical activity such as walking or doing chores, and resolving with rest; it has been present for a few days, with each episode lasting a few minutes. The patient denies associated symptoms such as dyspnea, diaphoresis, or lightheadedness, and notes that changing position or deep breathing does not affect the pain. Relevant medical history, medications, and allergies are not specified in the dialogue.
+
+The clinical impression is that the chest pressure could be cardiac in origin due to its exertional nature and relief with rest, but musculoskeletal causes are also considered. The treatment plan includes advising the patient to limit activity until further evaluation can be performed to assess cardiac health. The patient is instructed to seek immediate medical attention if new symptoms develop, such as severe chest pain, pain radiating to the arm or jaw, shortness of breath, sweating, or syncope. Further diagnostic evaluation is planned to rule out serious causes.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **STS Score**: 0.445
+- **Model Used**: general
+- **Text1 Length**: 113 words
+- **Text2 Length**: 180 words
+
 
 ## Processing Information
 

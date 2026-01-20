@@ -116,3 +116,23 @@ Is there anything else you’re worried about or would like advice on while you 
 ## Processing Information
 
 - **Processing Time**: 282.6s
+
+## EHR Summary
+
+The patient is a 22-year-old female presenting with headache, fever, dry cough, vomiting, and inability to tolerate oral intake for several days. She developed hyperglycemia (glucose up to 715 mg/dL), deep breathing, and was found to have severe metabolic acidosis (pH 6.97, bicarbonate <5), hyperkalemia, and high urine ketones on admission. Her past medical history includes type 1 diabetes for five years, infected gingiva, prior hypoglycemia, and a recent miscarriage; she has no known drug allergies. The documented diagnosis was diabetic ketoacidosis, likely precipitated by infection. She was treated with intravenous fluids, continuous insulin infusion, and close monitoring of electrolytes and anion gap. Her metabolic derangements resolved with treatment, and she was transitioned back to her outpatient insulin regimen with sliding-scale adjustments. At discharge, she was in good condition and advised to follow up with her endocrinologist and primary care physician within two weeks. Discharge medications included NPH insulin, regular sliding-scale insulin, and Zestril 2.5 mg daily.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with headache and fever as the chief complaint. Key symptoms include a dry cough, vomiting with inability to tolerate food or fluids for 1–2 days, dry mouth, mild difficulty taking deep breaths (without chest pain or shortness of breath at rest), and sinus tenderness. The patient reports a measured fever of 102°F, no dizziness or lightheadedness, and no swelling around the eyes. Relevant history, medications, and allergies are not specified.
+
+The clinical impression is a viral illness causing fever, headache, dry cough, gastrointestinal upset (vomiting), and sinus tenderness, with concern for early dehydration due to poor oral intake. The treatment plan includes attempting small, frequent sips of clear fluids (such as water or oral rehydration solutions), monitoring for warning signs of worsening dehydration (dizziness, confusion, very little urine output), and seeking in-person care if unable to keep down fluids or if new severe symptoms develop. Supportive measures for sinus tenderness were recommended, including warm compresses, steam inhalation, and saline nasal spray if tolerated. The patient was advised that most symptoms should improve with rest and hydration but to monitor for any concerning changes.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.400
+- **Model Used**: general
+- **Text1 Length**: 157 words
+- **Text2 Length**: 189 words
+

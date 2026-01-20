@@ -89,16 +89,21 @@ Does this plan make sense to you, or are there any questions or concerns you'd l
 
 ## EHR Summary
 
-The patient is a 54-year-old male presenting with dyspnea and mental status changes after being referred to the ER following a routine follow-up for right upper extremity deep vein thrombosis (DVT). He reported shortness of breath and was noted to be slightly confused on admission. His history is significant for recent aortic valve replacement (AVR) on 3-30, postoperative atrial fibrillation, hypertension, renal calculi, possible sleep apnea, and allergies to Keflex and heparin agents. On admission, vital signs showed HR 103, BP 162/69, RR 14, and O2 saturation 92% on room air; physical exam revealed mild confusion but no focal deficits, clear lungs, regular heart rhythm, and no edema. Duplex imaging confirmed extensive right upper extremity DVT involving the internal jugular, axillary, subclavian, brachial, and basilic veins. The documented diagnosis was right upper extremity DVT with associated dyspnea and altered mental status. Treatment included referral to the ER for management of DVT; specific therapies during admission are not detailed in the note. At discharge, the patient was comfortable, alert and oriented, with stable vital signs and no evidence of respiratory or circulatory compromise.
+The patient is a 54-year-old male presenting with dyspnea and mental status changes after being referred to the ER for evaluation of a right upper extremity deep vein thrombosis (DVT) found on routine follow-up. Symptoms included shortness of breath and confusion, with a brief unresponsive episode following administration of IV Benadryl and steroids. Relevant history includes recent aortic valve replacement (AVR), postoperative atrial fibrillation, hypertension, renal calculi, possible sleep apnea, and allergies to Keflex and heparin agents. The clinical assessment revealed pulmonary embolism, right upper extremity DVT, and heparin-induced thrombocytopenia (HIT) confirmed by positive antibodies. Treatment involved discontinuation of heparin, initiation of Argatroban, transition to warfarin, and supportive care; mental status changes resolved within a day. The patient was discharged in good condition on warfarin, aspirin, atorvastatin, metoprolol, amiodarone, and a 10-day course of amoxicillin-clavulanate. Follow-up instructions included INR monitoring and appointments with hematology and primary care.
+
 
 ## Dialogue Summary
 
-The patient presented with trouble breathing as the chief complaint. They reported shortness of breath over the past few days, which worsens with physical activity but is also present at rest; severity is mild to moderate, allowing speech in full sentences but causing difficulty with daily tasks and longer conversations. The patient also described persistent memory changes throughout the day, making it harder to remember recent events and manage routine activities. No cough, chest discomfort, or leg swelling was noted, but the patient mentioned a brief period of unresponsiveness after receiving IV Benadryl and steroids. The doctor observed that symptoms have remained steady without improvement or worsening and noted the possible connection between breathing difficulty, medication effects, and memory changes. The assessment included consideration of mild respiratory issues, medication after-effects, or stress from a recent allergic reaction as potential causes. The doctor recommended monitoring symptoms closely, seeking prompt care for any new warning signs (such as sudden worsening of breathing, chest pain, fainting, or increased confusion), and advised gentle activity, hydration, and rest; further evaluation may be considered if symptoms do not improve.
+The patient presents with shortness of breath as the chief complaint. The dyspnea has been present for several days, is worsened by physical activity but also occurs at rest, and is described as mild to moderate—limiting daily activities and longer conversations but not preventing speech in full sentences. The patient also reports persistent memory changes throughout the day, making it difficult to remember recent events and manage daily tasks. There is no associated cough, chest discomfort, or leg swelling. Relevant history includes a brief period of unresponsiveness after receiving IV Benadryl and steroids, which may have contributed to the current symptoms. The clinical impression is that the symptoms could be due to after-effects of medication, mild respiratory issues, or stress from a recent allergic reaction. The treatment plan includes monitoring symptoms closely, seeking prompt care if warning signs such as worsening breathing, chest pain, fainting, or increased confusion occur, and otherwise focusing on gentle activity, hydration, and rest. Further evaluation will be considered if symptoms do not improve over the next several days.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.510
+- **Model Used**: general
+- **Text1 Length**: 147 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

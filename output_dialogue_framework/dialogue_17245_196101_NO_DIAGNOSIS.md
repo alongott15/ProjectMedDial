@@ -99,16 +99,23 @@ For next steps, getting some basic blood tests and perhaps a heart checkup would
 
 ## EHR Summary
 
-The patient is a 66-year-old female presenting with congestive heart failure. She reports episodes of dyspnea with exertion, such as walking up an incline or talking, and occasional chest heaviness associated with shortness of breath, but denies angina, orthopnea, edema, paroxysmal nocturnal dyspnea, claudication, or lightheadedness. Her history is significant for severe mitral regurgitation treated with mitral valve repair (with a complicated postoperative course including atrial fibrillation managed with amiodarone), recurrent congestive heart failure, hypertension, hyperlipidemia, hiatal hernia/GERD, and prior atrial fibrillation. Recent echocardiograms revealed mitral stenosis. The documented diagnosis is mitral valve disease with recurrent congestive heart failure. She was referred for mitral valve replacement and has been managed with diuretics (lasix) for symptom control.
+The patient is a 66-year-old female presenting with congestive heart failure. She reported progressive dyspnea on exertion, particularly when walking up an incline or talking, and occasional chest heaviness associated with shortness of breath; she denied angina, orthopnea, edema, paroxysmal nocturnal dyspnea, or claudication. Her history includes severe mitral regurgitation status post mitral valve repair, recurrent episodes of heart failure, prior atrial fibrillation, hypertension, hyperlipidemia, and gastroesophageal reflux disease; she has no medication allergies. Echocardiograms revealed mitral stenosis, and cardiac catheterization showed a mitral valve area of 0.65 cm² with a gradient of 19 mmHg and normal coronaries. The documented diagnoses were mitral valve stenosis (now status post minimally-invasive mitral valve replacement), rapid atrial fibrillation (controlled), hypertension (controlled), hypercholesterolemia, and congestive heart failure. During her hospital course, she underwent minimally-invasive mitral valve replacement and experienced postoperative episodes of rapid atrial fibrillation managed with intravenous Lopressor and amiodarone. She was discharged on a regimen including amiodarone, Lopressor, Lasix, captopril, aspirin, Zocor, potassium chloride, and other supportive medications. Follow-up with her primary care physician in two weeks and her cardiologist in four weeks was recommended.
+
 
 ## Dialogue Summary
 
-The patient presented with increased tiredness and shortness of breath. Symptoms included fatigue and dyspnea that worsened with activity (such as walking or climbing stairs), bilateral lower leg swelling that was worse in the evenings, weakness, pale skin, occasional irregular heartbeat, and recent nausea; the patient also reported needing extra pillows at night to sleep comfortably and noted that lying flat made breathing more difficult, but denied chest discomfort or lightheadedness. These symptoms had been present for at least a couple of weeks and were gradually worsening; swelling and tiredness were aggravated by physical activity. The patient had no recent blood tests for anemia and did not mention any specific medical history, medications, or allergies. On review, the doctor noted the presence of lower extremity edema, pallor, and orthopnea (difficulty breathing when lying flat). The assessment was possible mild heart failure with fluid retention and/or anemia contributing to the symptoms. The doctor recommended daily weight monitoring, limiting salt intake, elevating the legs when sitting, and seeking prompt medical attention if symptoms such as chest pain, severe shortness of breath at rest, or rapid weight gain occurred. Further evaluation with blood tests and a heart checkup was advised to clarify the diagnosis and guide treatment.
+The patient presents with increased tiredness and shortness of breath as the chief complaint. Symptoms include progressive fatigue, exertional dyspnea (worse with activities like walking and climbing stairs), bilateral lower leg swelling (worse in the evenings), weakness, pale skin, and the need for extra pillows at night due to difficulty breathing when lying flat; symptoms have been worsening over at least two weeks. The patient also reports occasional irregular heartbeat (not new), no chest discomfort or lightheadedness, and recent nausea. There is no mention of relevant past medical history, medications, or allergies.
+
+The clinical impression is possible mild heart failure with fluid retention and/or anemia, as suggested by the combination of symptoms. The doctor recommends daily weight monitoring, limiting salt intake, elevating the legs when sitting, and seeking prompt medical attention if there is chest pain, severe dyspnea at rest, or rapid weight gain. Further evaluation with blood tests and a heart checkup is advised to clarify the diagnosis and guide treatment. No specific medications or prior diagnoses are documented in this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **STS Score**: 0.580
+- **Model Used**: general
+- **Text1 Length**: 183 words
+- **Text2 Length**: 173 words
+
 
 ## Processing Information
 

@@ -89,16 +89,21 @@ Let me know if you have questions about what to expect or what to watch for.
 
 ## EHR Summary
 
-The patient is a 28-year-old female presenting with elevated blood pressures, intractable nausea and vomiting, low-grade fever (to 100.4°F), and increased erythema around her abdominal incision ten days after a low transverse cesarean section. She denied unusual vaginal discharge, significant vaginal bleeding, dizziness, shortness of breath, chest pain, headaches, right upper quadrant pain, or visual changes. Her past medical history is notable for class C diabetes (diagnosed 12 years ago) and one prior episode of diabetic ketoacidosis; she has no known drug allergies and was taking NPH insulin and sliding-scale Humalog prior to admission. On evaluation at the outside hospital, she had urine ketones and an elevated white blood cell count. The clinical impression included possible cellulitis at the incision site and concerns for infection and poor glycemic control. Treatment included intravenous fluids, subcutaneous insulin, and initiation of Kefzol (cefazolin) for suspected cellulitis. She was transferred for further evaluation and management.
+The patient is a 28-year-old female presenting with elevated blood pressures, intractable nausea and vomiting, low-grade fever, and increased erythema around her abdominal incision following a recent low transverse cesarean section. She reported no unusual vaginal discharge, minimal vaginal bleeding, and denied dizziness, shortness of breath, chest pain, headache, right upper quadrant pain, or visual changes. Her medical history includes class C diabetes (with prior diabetic ketoacidosis) and recent cesarean section for arrest of descent; she has no known drug allergies and was on NPH and Humalog insulin prior to admission. On admission, laboratory findings included leukocytosis (WBC 22), hyperglycemia (fingerstick 219–320), proteinuria (590 mg/24h), and a small right pleural effusion on chest x-ray. The documented diagnoses were diabetic ketoacidosis, postpartum endomyometritis, and preeclampsia. Treatment included intravenous fluids, insulin drip transitioned to subcutaneous insulin, electrolyte replacement, magnesium therapy for preeclampsia, antihypertensives (labetalol and nifedipine), and broad-spectrum intravenous antibiotics (ampicillin, gentamicin, clindamycin) later transitioned to oral Augmentin; a percutaneous drain was placed for a possible abscess. The patient was discharged in stable condition after defervescence and normalization of laboratory values, with instructions for close outpatient follow-up after signing out against medical advice.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns of elevated blood pressure and persistent vomiting. Symptoms included several days of ongoing vomiting (not triggered by food or activity), inability to keep food down, difficulty sleeping, fever, and swelling in the lower legs and feet. The patient also reported redness, firmness, and swelling around a recent abdominal incision, but denied any drainage or unusual odor from the site; no headaches or changes in vision were noted. The patient has been monitoring blood pressure at home but could not recall specific readings. The doctor assessed that the combination of persistent vomiting, fever, leg and foot swelling, and incision changes could indicate infection or inflammation, possibly related to recent surgery, and noted that high blood pressure and swelling might be due to illness or fluid retention. The doctor advised the patient to monitor for worsening redness, new drainage, severe pain, confusion, or inability to keep fluids down, and to seek prompt care if these occurred. The patient was specifically recommended to contact their healthcare provider soon for an in-person evaluation of the incision and possible further testing.
+The patient is an adult presenting with concerns of elevated blood pressure and persistent vomiting. Symptoms began a few days ago and include ongoing vomiting unresponsive to dietary changes, high blood pressure (exact readings not recalled), fever, inability to keep food down, difficulty sleeping, and swelling in the lower legs and feet. The patient also reports redness, firmness, and swelling around a recent abdominal incision, but denies drainage or odor from the site; no headaches or visual changes are present. Relevant history includes recent abdominal surgery (implied by the presence of an incision). The clinical impression is possible post-surgical infection or inflammation, with concern for fluid retention contributing to swelling and elevated blood pressure. The physician advised close monitoring for worsening redness, new drainage, severe pain, confusion, or increased weakness, and emphasized the importance of staying hydrated. The patient was instructed to contact their healthcare provider soon for in-person evaluation and possible further testing.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **STS Score**: 0.439
+- **Model Used**: general
+- **Text1 Length**: 191 words
+- **Text2 Length**: 154 words
+
 
 ## Processing Information
 

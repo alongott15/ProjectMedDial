@@ -89,16 +89,21 @@ Let me know if you have questions or concerns about this plan.
 
 ## EHR Summary
 
-The patient is a 59-year-old woman presenting with a history of headaches. She has a past medical history of hypertension and hypercholesterolemia and is allergic to penicillin. On admission, her physical exam was notable for mild anxiety but no acute distress, with stable vital signs and a neurologic exam showing intact cranial nerves, muscle strength 4-5/5, and slightly diminished ankle reflexes. She underwent a left pterional craniotomy for clipping of a right A1 to A2 aneurysm without intraoperative complications. Postoperatively, she was awake and alert, with mild right-sided weakness, slight right facial droop, and a slight pronator drift on the right side. An arteriogram confirmed good placement of the aneurysm clip. The patient remained afebrile and hemodynamically stable throughout her hospital stay. She was discharged to rehabilitation with follow-up arranged.
+The patient is a 59-year-old woman presenting with a history of headaches. She was admitted following a left pterional craniotomy for clipping of a right A1 to A2 aneurysm, with no intraoperative complications. Postoperatively, she was awake and alert, with mild right-sided weakness, slight right facial droop, and a slight pronator drift on the right side; extraocular movements and pupils were normal. Her past medical history includes hypertension and hypercholesterolemia, and she has a penicillin allergy. The documented diagnosis was a right A1 to A2 cerebral aneurysm. Treatment included surgical clipping of the aneurysm, postoperative monitoring, physical and occupational therapy, and discharge medications such as atenolol, Dilantin, Lipitor, valsartan, hydrochlorothiazide, famotidine, Percocet as needed, heparin, and Colace. She was discharged in stable condition to a short rehabilitation stay. Follow-up with her neurosurgeon is scheduled in 9–14 days, with staple removal planned for postoperative day ten.
+
 
 ## Dialogue Summary
 
-The patient presented with headaches that have been occurring more frequently over the past few days. Symptoms included intermittent headaches, right-sided weakness, slight droop on the right side of the face, and a slight pronator drift on the right side, all of which began around the same time; the patient rated the weakness as mild and reported no difficulty with eating, speaking, or performing daily tasks. The patient also noted increased anxiety related to these symptoms but denied heart racing, shortness of breath, or sleep disturbances. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted persistent right-sided weakness and facial droop without progression or improvement, and no impairment in daily functioning. The assessment included possible causes such as nerve irritation (e.g., Bell's palsy) or a cerebrovascular event (e.g., small stroke), with concern due to the persistence of symptoms. The doctor recommended immediate in-person evaluation at urgent care or an emergency department for further examination and brain imaging, and advised the patient to seek emergency services if new symptoms such as confusion, speech difficulties, severe dizziness, vision loss, or worsening weakness occur.
+The patient is an adult presenting with headaches as the chief complaint. The headaches began a few days ago, occur intermittently, and have increased in frequency. Associated symptoms include right-sided weakness, a slight facial droop on the right, and a slight pronator drift, all of which started around the same time as the headaches; these symptoms have remained stable and have not affected speech, eating, or fine motor tasks. The patient also reports increased anxiety but denies heart racing, dyspnea, or sleep disturbances. There is no documented relevant medical history, medications, or allergies. The clinical impression included possible nerve irritation (such as Bell’s palsy) or a more serious etiology such as a small stroke or cerebral blood flow issue. The treatment plan is immediate in-person evaluation at urgent care or the emergency department for examination and possible brain imaging to rule out serious causes; the patient was also advised to seek emergency care if new or worsening neurological symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.489
+- **Model Used**: general
+- **Text1 Length**: 145 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

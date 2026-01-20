@@ -104,3 +104,21 @@ Most of the time, mild fevers and single fainting spells in young people are not
 ## Processing Information
 
 - **Processing Time**: 426.2s
+
+## EHR Summary
+
+The patient is a 17-year-old female presenting after a motor vehicle accident with loss of consciousness for ten minutes and one episode of vomiting at the scene. She reported persistent headache, nausea, and vomiting during her hospital stay. Her past medical history is negative, and she has no known drug allergies or medications on admission. Imaging revealed a right postoccipital and right temporal subdural hematoma, with a slight increase in size noted on repeat CT but no midline shift. The documented diagnosis was subdural hematoma following head trauma. She was treated with Dilantin and Zantac prophylactically, monitored in the Neurosurgical ICU, and later managed with Oxycontin for headache as needed. On discharge, her symptoms had improved significantly, and she was tolerating oral intake. She was advised to follow up in clinic in three weeks.
+
+
+## Dialogue Summary
+
+The patient is a young adult presenting with a chief complaint of a recent fainting episode (syncope). Prior to losing consciousness, the patient experienced nausea and a headache, vomited after regaining consciousness, and reports that the nausea resolved quickly while the headache persisted briefly but was mild. The patient did not sustain any injury during the episode, had no confusion or neurological deficits afterward, and reports this was the first such event. There is no history of missed meals, dehydration, or similar prior episodes, and the patient’s routine was unchanged. The physician’s assessment is that this was likely a simple fainting spell, specifically vasovagal syncope, possibly triggered by a minor illness given the subsequent mild fever (100–101°F). The treatment plan includes monitoring for new or worsening symptoms, maintaining hydration, eating regular meals, and seeking further care if symptoms such as high fever (>102°F), recurrent syncope, chest pain, or difficulty breathing develop. The patient is otherwise recovering well and has returned to baseline apart from the mild fever.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.443
+- **Model Used**: general
+- **Text1 Length**: 134 words
+- **Text2 Length**: 167 words
+

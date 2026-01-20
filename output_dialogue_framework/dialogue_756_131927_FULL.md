@@ -183,16 +183,21 @@ You’re doing all the right things by following through on your care plan and s
 
 ## EHR Summary
 
-The patient is a 72-year-old female presenting for a diagnostic catheterization due to reversible ischemia identified on stress testing. She has a past medical history of coronary artery bypass grafting (CABG). No acute symptoms were documented on admission, and her physical exam was unremarkable, with normal vital signs and no distress. Laboratory results showed elevated glucose (252 mg/dL), urea nitrogen (28 mg/dL), and creatinine (1.5 mg/dL), with other values within normal limits. The patient underwent aspirin desensitization, which she tolerated well, and was subsequently transferred for her procedure. The documented clinical impression was reversible ischemia requiring further evaluation. Her treatment included aspirin desensitization and continuation of her home medications, including clopidogrel, amlodipine, atenolol, atorvastatin, levothyroxine, furosemide, pantoprazole, conjugated estrogens, multivitamin, and olmesartan (Benicar).
+The patient is a 72-year-old female presenting for a diagnostic catheterization due to reversible ischemia noted on stress testing. She did not report acute symptoms during this admission and was described as comfortable and in no apparent distress on exam. Her relevant history includes prior coronary artery bypass grafting (CABG) and allergies to penicillins, codeine, aspirin, and epinephrine. The documented diagnoses were angina and coronary artery disease (CAD). During hospitalization, she underwent aspirin desensitization, which she tolerated well, and was subsequently started on daily aspirin therapy. Discharge medications included aspirin 325 mg daily in addition to her prior regimen. She was discharged home in stable condition with instructions to continue all medications and to contact her doctor if she experiences chest pain or shortness of breath. Follow-up with her cardiologist was advised within one month.
+
 
 ## Dialogue Summary
 
-The patient presented for follow-up after a stress test showed reversible ischemia and was referred for a diagnostic catheterization. The patient reported no new symptoms, including no changes in energy levels, chest discomfort, shortness of breath, swelling in the legs or ankles, palpitations, irregular heartbeats, changes in blood pressure, weight fluctuations, or sleep disturbances. The patient confirmed being able to perform usual daily activities without new fatigue or difficulty. No relevant medical history, medications, or allergies were discussed during this visit. The doctor noted that the patient’s health has remained stable with no concerning symptoms since the stress test. The assessment was that, despite the absence of symptoms, reversible ischemia on testing warrants further evaluation with catheterization to clarify findings and guide management. The doctor advised the patient to continue monitoring for any new symptoms such as chest discomfort, shortness of breath, swelling, or changes in activity tolerance, and to seek prompt medical attention if these arise. The patient was encouraged to reach out with any questions about the procedure or if any changes occur before the appointment.
+The patient is an adult presenting for follow-up after a stress test showed reversible ischemia, with the primary reason for the visit being evaluation prior to a recommended diagnostic catheterization. The patient reports no new symptoms, including no chest discomfort, dyspnea, palpitations, lower extremity swelling, fatigue, or changes in activity tolerance, sleep, weight, or blood pressure since the last visit. There is no mention of relevant past medical history, medications, or allergies in the dialogue. The clinical impression is stable health status without current symptoms suggestive of acute cardiac issues, but with prior evidence of reversible ischemia on stress testing. The documented plan is to proceed with diagnostic cardiac catheterization to further evaluate for possible coronary artery disease despite the absence of symptoms. The patient was advised to monitor for new symptoms such as chest discomfort, shortness of breath, swelling, or decreased activity tolerance and to seek prompt medical attention if these occur. The doctor emphasized proactive follow-up and encouraged the patient to reach out with any questions or concerns before or after the procedure. The patient expressed understanding and comfort with the care plan.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.640
+- **Model Used**: general
+- **Text1 Length**: 135 words
+- **Text2 Length**: 185 words
+
 
 ## Processing Information
 

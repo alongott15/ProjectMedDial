@@ -97,16 +97,23 @@ Otherwise, let’s monitor how things go over the next couple of days. If the sw
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with dyspnea on exertion. He has a 16-year history of a cardiac murmur and recently developed back pain, fever, chills, and malaise following a dental visit, with positive blood cultures. Echocardiography revealed severe mitral regurgitation with leaflet vegetation, mild left ventricular hypertrophy, left atrial enlargement, dilated ascending aorta, mild aortic insufficiency, tricuspid regurgitation, and mild pulmonary hypertension; ejection fraction was preserved at 56–60%. Past medical history includes mitral regurgitation, benign prostatic hyperplasia, chronic low back pain, a left lung nodule, and alcohol use. Medications at admission included atenolol, aspirin, vitamin E, flax seed oil, fish oil, live yogurt cultures, and penicillin with dental visits. The documented diagnosis was severe mitral regurgitation with leaflet vegetation. The patient was admitted directly for mitral valve repair surgery. No drug allergies were reported, though Percocet causes stomach cramps.
+The patient is a 61-year-old man presenting with dyspnea on exertion. He reported a history of a cardiac murmur for 16 years, recent back pain, fever, chills, malaise, and was found to have mitral regurgitation with leaflet vegetation following positive blood cultures after a dental visit. His past medical history includes mitral regurgitation, benign prostatic hyperplasia, chronic low back pain, a left lung nodule, and alcohol use; he has no known drug allergies but reports stomach cramps with Percocet. The documented diagnosis was severe mitral regurgitation with vegetation, leading to mitral valve replacement with a number 31 Mosaic porcine valve. Postoperatively, he remained hemodynamically stable, was successfully extubated, and had an uneventful recovery. At discharge, he was stable with no murmur on exam and mild lower extremity edema. The treatment plan included discharge to home with visiting nurses, follow-up appointments with his physicians, and medications including potassium chloride, Colace, Zantac, aspirin, Dilaudid as needed, Lasix for 7 days, and Lopressor.
+
 
 ## Dialogue Summary
 
-The patient presented with shortness of breath during activity. Symptoms included difficulty catching breath with exertion for several days, swelling in the legs and feet that worsens with standing, back pain, fever, chills, increased fatigue, and malaise; the shortness of breath does not worsen when lying down or at night and sometimes requires the patient to stop activity. The patient denied changes with salty foods and reported no recent medication or allergy history. On review, the doctor noted peripheral edema, fatigue, and systemic symptoms (fever, chills), with no mention of chest pain or orthopnea. The assessment was possible fluid retention related to circulation issues or infection/inflammation, given the combination of swelling, fever, and malaise. The doctor recommended rest, leg elevation, maintaining hydration, and monitoring for any sudden worsening such as severe shortness of breath at rest, chest discomfort, confusion, or rapidly increasing swelling. The patient was advised to seek urgent care if these symptoms developed and to report any new or worsening symptoms over the next few days. The patient understood and agreed with the plan.
+The patient presents with the chief complaint of shortness of breath during activity. Key symptoms include exertional dyspnea, bilateral leg and foot swelling that worsens with prolonged standing, back discomfort, fever, chills, increased fatigue, and malaise over the past few days. The patient denies worsening of dyspnea when lying down or at night and reports no association with salty foods. Relevant history, medications, and allergies are not specified.
+
+The clinical impression is possible fluid retention related to circulation issues or an underlying infection/inflammation, though no definitive diagnosis is documented. The treatment plan includes recommendations to rest, keep the legs elevated, maintain hydration, and monitor for any acute worsening such as severe dyspnea at rest, chest pain, confusion, or rapidly increasing swelling. The patient is advised to seek urgent care if these symptoms develop and to report any new or worsening symptoms. The plan is to monitor symptoms over the next few days.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **STS Score**: 0.497
+- **Model Used**: general
+- **Text1 Length**: 160 words
+- **Text2 Length**: 152 words
+
 
 ## Processing Information
 

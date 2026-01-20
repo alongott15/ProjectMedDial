@@ -85,16 +85,23 @@ My recommendation is that you have an in-person assessment soon. In the meantime
 
 ## EHR Summary
 
-The patient is a 57-year-old male presenting with diarrhea. He reported a 6-week history of bloody, maroon-colored watery diarrhea, with bowel movements increasing from 15 to 30 per day in the last week and no relief from prior courses of ciprofloxacin, steroid enemas, or vancomycin. His medical history includes Crohn's disease/ulcerative colitis diagnosed in 2100 and partial colectomy. On examination, he was well-appearing, afebrile, obese, with a soft, nontender abdomen and hernias noted in the right upper and lower quadrants; stool was guaiac-positive. Laboratory values were within normal limits. The documented clinical impression was a flare of inflammatory bowel disease. He received intravenous Solu-Medrol (40 mg), which provided symptomatic improvement.
+The patient is a 57-year-old male presenting with diarrhea. He reported a 6-week history of bloody, maroon-colored watery diarrhea, with bowel movements increasing from 15 to 30 per day in the week prior to admission, and associated cramping and tenesmus. His medical history includes Crohn's disease/ulcerative colitis diagnosed in 2100 and partial colectomy; he had previously tried ciprofloxacin, steroid enemas, and vancomycin without relief. On admission, physical exam was notable for obesity, right upper and lower quadrant hernias, and a fistula; labs showed stable hematocrit and negative Clostridium difficile. The documented diagnosis was an inflammatory bowel disease flare. He was treated with intravenous Solu-Medrol for six days, transitioned to a clear liquid then bland diet, and started on ciprofloxacin 500 mg orally twice daily. At discharge, his symptoms had improved with formed brown stools and no further cramping or bloody diarrhea. He was discharged home in stable condition with prednisone 40 mg daily (with taper instructions) and ciprofloxacin for 10 days, and advised to follow up with his gastroenterologist in two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with diarrhea and maroon-colored, bloody stool. Symptoms included cramping, tenesmus (feeling the urge to defecate with little output), increased stool frequency with small amounts each time, and interference with daily activities due to needing to stay close to a bathroom. The patient denied weakness, lightheadedness, fever, weight loss, and mucus in the stool; symptoms occurred regardless of food or drink intake. No relevant medical history, medications, or allergies were mentioned. The doctor noted the presence of frequent, small-volume diarrhea with maroon-colored stool and cramping, suggesting possible lower gastrointestinal bleeding and irritation or inflammation of the lower bowel. The assessment was that the symptoms could be due to infection, inflammation, or hemorrhoids, but the blood in the stool warranted further evaluation. The doctor recommended an in-person assessment soon, advised maintaining hydration, and instructed the patient to seek immediate care if symptoms worsened or new concerning signs developed.
+The patient presents with diarrhea characterized by maroon-colored, watery stool as the chief complaint. Symptoms began a few days ago and include frequent, small-volume bowel movements, abdominal cramping, increased urgency with tenesmus, and no associated fever, weakness, lightheadedness, or weight loss. The patient reports no mucus in the stool and no dietary triggers, but notes that symptoms are interfering with daily activities. Relevant history regarding past medical conditions, medications, or allergies is not specified.
+
+The clinical impression is that the patient is experiencing frequent, small-volume diarrhea with maroon-colored stool and tenesmus, suggesting possible lower gastrointestinal bleeding and irritation or inflammation of the colon. The physician notes that while infection, inflammation, or hemorrhoids could be causes, the presence of maroon-colored stool may indicate more significant bleeding requiring further evaluation. The treatment plan includes recommending an in-person assessment soon and advising the patient to stay hydrated. The patient is instructed to seek immediate care if large amounts of blood, faintness, or fever develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.576
+- **Model Used**: general
+- **Text1 Length**: 172 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

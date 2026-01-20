@@ -85,16 +85,21 @@ Would you like to talk about next steps for evaluation, or do you have any quest
 
 ## EHR Summary
 
-The patient is a 59-year-old female presenting with chest pain and shortness of breath. Her symptoms began intermittently two days prior to admission and became constant one day before admission, initially relieved by nitroglycerin. She has a history of coronary artery disease, trigeminal neuralgia, rheumatoid arthritis, Raynaud's with chronic pain syndrome, depression, GERD, and porphyria cutanea tarda, and is allergic to sulfa, Diamox, Neurontin, Bactrim, Valium, and erythromycin. On arrival, she was tachycardic with a blood pressure of 120/70 and had an EKG showing ST elevations in II, aVF, and ST depressions in V1-V4. Cardiac catheterization revealed a 70% occluded saphenous vein graft (SVG) to the right coronary artery (RCA) with TIMI-III flow; other arteries were patent and no intervention was performed. She was also found to have significant anemia (hematocrit 17.6) and guaiac positive stools, with an INR of 3.2. The assessment included acute coronary syndrome and gastrointestinal bleeding. Treatment included IV nitroglycerin, IV fluids, aspirin, packed red blood cells, Lasix, and transfer to the CCU for further management.
+The patient is a 59-year-old female presenting with chest pain and shortness of breath, which became constant one day prior to admission. Her symptoms were initially intermittent and partially relieved by nitroglycerin, with EMS documenting 5/10 chest pain and tachycardia. She has a history of coronary artery disease, mechanical mitral valve on anticoagulation, rheumatoid arthritis, and multiple medication allergies. On admission, she was found to have ST elevations on EKG, a significantly decreased hematocrit (16.3), and guaiac positive stools, raising concern for gastrointestinal bleeding and demand ischemia. Cardiac catheterization showed a 70% occluded saphenous vein graft to the RCA but no intervention was performed; EGD revealed gastritis, and colonoscopy was negative for active bleeding. During hospitalization, she developed pneumonia, which was treated with Levaquin for ten days. The documented diagnoses included demand ischemia secondary to GI blood loss, gastritis, and pneumonia. Treatment included transfusions, adjustment of anticoagulation, initiation of aspirin and beta blocker, proton pump inhibitor therapy, avoidance of NSAIDs, and antibiotics for pneumonia; she was discharged home in stable condition with follow-up arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. Symptoms included moderate pressure or tightness in the chest, accompanied by shortness of breath, both of which began a few days ago and are triggered by activity such as walking or doing chores; symptoms improve quickly with rest and do not occur after meals or at rest. The patient denied associated sweating, lightheadedness, or feeling faint, and reported no radiation of pain to the arm, jaw, or back. No relevant medical history, medications, or allergies were mentioned. On clinical assessment, the doctor noted exertional chest discomfort characterized by activity-induced chest pressure that resolves with rest. The doctor explained that these symptoms may indicate the heart not getting enough oxygen during exertion and recommended further evaluation to rule out underlying heart issues. The patient was advised to avoid strenuous activity and seek immediate medical attention if symptoms worsen or new symptoms such as severe pain, nausea, or sweating develop.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is described as a moderate pressure or tightness, associated with shortness of breath, and has been present for several days. Symptoms are triggered by activity, improve quickly with rest, and are not accompanied by sweating, lightheadedness, or radiation to the arm, jaw, or back. The patient reports that resting alleviates the discomfort and that episodes do not linger. Relevant medical history, medications, and allergies are not specified in the dialogue. The clinical impression documented by the doctor is "exertional chest discomfort," possibly related to the heart not getting enough oxygen during exertion. The treatment plan includes advising the patient to avoid strenuous activity until further evaluation and to seek immediate medical attention if symptoms worsen or new symptoms develop. Further diagnostic evaluation for underlying heart issues was recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **STS Score**: 0.553
+- **Model Used**: general
+- **Text1 Length**: 174 words
+- **Text2 Length**: 144 words
+
 
 ## Processing Information
 

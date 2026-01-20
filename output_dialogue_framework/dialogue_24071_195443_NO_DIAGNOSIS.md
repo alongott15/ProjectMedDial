@@ -188,3 +188,25 @@ In the meantime, try to rest, limit salt in your diet if advised by your liver s
 ## Processing Information
 
 - **Processing Time**: 451.1s
+
+## EHR Summary
+
+The patient is a 41-year-old female presenting with vomiting that began the morning of admission. She reported two episodes of projectile emesis after breakfast, intermittent non-localized abdominal pain, diarrhea (attributed to Lactulose), abdominal distension, difficulty concentrating, recent weight loss, and blood-tinged yellow sputum with cough; she denied nausea, hematemesis, bile in emesis, shortness of breath, or urinary symptoms. Her relevant history includes end stage liver disease due to primary sclerosing cholangitis and autoimmune hepatitis overlap with cirrhosis, hypertension, prior hyponatremia, anemia from GI bleeding, coagulopathy, and pulmonary/peripheral edema. On exam, she was jaundiced and ill-appearing with abdominal distension, splenomegaly, and clubbing; labs showed elevated liver enzymes and bilirubin, low platelets, and coagulopathy. The assessment focused on vomiting in the context of end stage liver disease, with differential diagnoses including gastric outlet obstruction, biliary obstruction, infection, GI bleed, portal vein thrombosis, ascites, and medication side effects. Workup including EGD and abdominal ultrasound was negative for new bleeding or obstruction; MRCP showed no obstructive strictures but worsening ductal changes. During hospitalization she developed hepatic encephalopathy (asterixis, lethargy, slurred speech), which improved after increasing Lactulose dosing. Hyponatremia was managed with fluid restriction and holding diuretics.
+
+
+## Dialogue Summary
+
+The patient is an adult with a history of end stage liver disease presenting with the main complaints of vomiting, intermittent abdominal pain, and significant fatigue occurring most days. Additional symptoms include persistent abdominal distension (swelling), nausea, lethargy, and ongoing trouble concentrating (described as mental fogginess). The patient also reported weight loss, blood-tinged yellowish sputum with cough, and feeling winded (dyspnea) with activity. These symptoms have been persistent and are impacting daily activities.
+
+Relevant history includes end stage liver disease; no specific medications or allergies were mentioned. The clinical impression discussed by the physician links the abdominal swelling to possible ascites and the trouble concentrating to possible hepatic encephalopathy, both complications of advanced liver disease. The patient was advised to closely monitor for worsening symptoms such as increased confusion, severe abdominal pain, jaundice, further swelling, or signs of bleeding, and to seek urgent medical attention if these occur.
+
+The treatment plan emphasized symptom tracking (including severity, timing, triggers), maintaining hydration, avoiding unapproved over-the-counter medications, limiting dietary salt if previously advised, and resting. The patient was encouraged to reach out promptly if symptoms worsen or new concerns arise.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.743
+- **Model Used**: general
+- **Text1 Length**: 192 words
+- **Text2 Length**: 187 words
+

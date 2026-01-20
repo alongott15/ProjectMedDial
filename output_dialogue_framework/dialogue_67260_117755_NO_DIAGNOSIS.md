@@ -87,16 +87,21 @@ Would you like me to help you arrange follow-up or answer any other questions be
 
 ## EHR Summary
 
-The patient is a 44-year-old male admitted with bright red blood per rectum and dizziness. He reported maroon stools for three days, a recent syncopal episode at home, and had started taking aspirin in the past month. His medical history includes hypertension, dyslipidemia, and obstructive sleep apnea on CPAP; he has no known drug allergies. On admission, he was diaphoretic, pale, and hypotensive (systolic BP in the 80s), with a hematocrit of 23.8 after receiving one unit of PRBC at an outside hospital; physical exam revealed grossly positive blood on rectal exam without masses or hemorrhoids. A nasogastric lavage was mildly positive for blood but not grossly so. The clinical impression was gastrointestinal bleeding, likely exacerbated by recent aspirin use and history of gastric bypass surgery. Treatment included transfusion of two units of PRBC, which improved his symptoms and blood pressure, and supportive care; he underwent an EGD during admission.
+The patient is a 44-year-old male presenting with bright red blood per rectum and dizziness. He reported maroon stools for three days, a syncopal episode at home, and recent aspirin use; on admission, he was diaphoretic, pale, and hypotensive with a hematocrit of 23.8. His past medical history includes hypertension, dyslipidemia, and obstructive sleep apnea on CPAP, with no known drug allergies. Physical exam revealed grossly positive blood on rectal exam without masses or hemorrhoids, and laboratory studies showed anemia. An EGD identified an ulcer at the gastrojejunal anastomosis as the source of bleeding. The documented diagnosis was gastrointestinal bleed. Treatment included transfusion of packed red blood cells, endoscopic intervention, and initiation of sucralfate and pantoprazole; he was advanced through bariatric diet stages and discharged home in stable condition. Follow-up with his physician and a repeat EGD were arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with concern about bright red blood during bowel movements. Symptoms included noticing blood dripping into the toilet bowl more than once since earlier today, maroon-colored stools at times, and associated dizziness that has remained constant, with one episode of almost passing out. The patient also reported feeling sweaty and pale during dizzy episodes, but denied rapid heartbeat, shortness of breath, abdominal pain, straining, or changes in bowel movements. No prior history of similar bleeding or dizziness was noted. On assessment, the doctor noted new-onset rectal bleeding with symptoms suggestive of possible blood loss, and explained that the bright red blood likely indicates a lower gastrointestinal source, while maroon stool may suggest bleeding slightly higher up. The doctor advised prompt evaluation in an urgent care or emergency setting to check blood levels and ensure stability, and instructed the patient to seek immediate care if symptoms worsen. The patient expressed understanding of the need for urgent assessment and inquired about possible tests or treatments.
+The patient is an adult presenting with rectal bleeding as the chief complaint. They report noticing bright red blood dripping into the toilet bowl during bowel movements, first observed earlier today and occurring more than once. Associated symptoms include dizziness, a near-syncope episode, sweating, and feeling pale, with maroon-colored stools also noted; there is no abdominal pain, straining, or prior similar episodes. The dizziness has remained unchanged since onset and has limited daily activities. Relevant history is negative for previous bleeding or dizziness. The clinical impression is new-onset lower gastrointestinal bleeding with symptoms suggestive of possible significant blood loss. The physician advised prompt evaluation in an urgent care or emergency setting to assess blood levels and ensure stability. The patient was instructed to seek immediate care if symptoms worsen, such as ongoing heavy bleeding, weakness, chest pain, or decreased alertness.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **STS Score**: 0.698
+- **Model Used**: general
+- **Text1 Length**: 139 words
+- **Text2 Length**: 140 words
+
 
 ## Processing Information
 

@@ -87,16 +87,23 @@ Would you like advice on ways to manage activity at home, or do you have any que
 
 ## EHR Summary
 
-The patient is an 81-year-old male presenting with chest pressure on exertion that resolves with rest. He reported "chest congestion" and had a history of abnormal exercise treadmill test (ETT) and prior right coronary artery (RCA) stenting. His medical history includes hypertension, elevated lipids, coronary artery disease with RCA stent, bilateral carotid disease, and right lower extremity vein stripping; he has no known drug allergies. Cardiac catheterization revealed significant coronary artery disease: 70% left main, 80% left anterior descending, 50% circumflex, 90% obtuse marginal, and 50-60% RCA stenosis, with a patent RCA stent and ejection fraction of 61%. Physical exam was largely unremarkable except for bilateral below-knee varicosities and chronic venous stasis changes; laboratory results showed mild anemia and elevated creatinine. The documented diagnosis was severe multivessel coronary artery disease. He underwent coronary artery bypass grafting (CABG) x3 (LIMA to LAD, free RIMA to OM, SVG to PDA) and was transferred postoperatively in stable condition. The treatment plan included postoperative monitoring and supportive care.
+The patient is an 81-year-old male presenting with chest pressure on exertion that resolves with rest. He reported "chest congestion" and had a history of abnormal exercise treadmill testing and significant coronary artery disease, including prior RCA stenting. Cardiac catheterization revealed multi-vessel coronary artery disease with significant stenoses in the left main, LAD, OM, and other vessels. His past medical history includes hypertension, elevated lipids, bilateral carotid artery disease, and right lower extremity vein stripping; he has no known drug allergies. The documented diagnosis was status post coronary artery bypass grafting (CABG) x3, hypertension, hypercholesterolemia, varicose veins, coronary artery disease with prior RCA stent, and bilateral carotid artery disease. Treatment included CABG x3 (LIMA to LAD, free RIMA to OM, SVG to PDA), perioperative management with beta-blockade and diuresis, and transfusion of 2 units PRBCs for postoperative anemia. At discharge, he was prescribed furosemide, potassium chloride, docusate sodium, ranitidine, aspirin, clopidogrel, isosorbide mononitrate, atorvastatin, and metoprolol succinate, along with instructions for incision care and activity restrictions. He was discharged home in good condition with home health services and follow-up appointments scheduled.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure occurring during physical activity. The chest pressure is described as moderate in intensity, comes on reliably with exertion such as walking, climbing stairs, or carrying groceries, and resolves with rest; it has been present for a while without significant change and does not occur at rest. The patient denied associated symptoms of sweating or lightheadedness but reported some chest congestion. No specific medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the exertional chest pressure pattern suggests the heart may not be getting enough oxygen during activity, possibly due to narrowed blood vessels or lung congestion. The doctor recommended informing the primary doctor about these symptoms for further evaluation, including possible heart tests and medication review. The patient was advised to pace activities, take breaks as needed, and seek prompt medical attention if symptoms occur at rest or if severe shortness of breath, fainting, or persistent discomfort develops. The patient expressed understanding and requested tips for managing activities at home.
+The patient presents with exertional chest pressure as the chief complaint. The chest pressure is described as moderate in intensity, occurs reliably with physical activity such as walking, climbing stairs, or carrying groceries, and resolves with rest; there is no associated sweating, lightheadedness, or severe discomfort. The symptom has been present for an unspecified duration but has remained stable over the past few weeks and is now causing the patient to take breaks more frequently during daily activities. The patient also reports some chest congestion but denies symptoms at rest.
+
+The clinical impression discussed is that the exertional chest pressure may be due to the heart not receiving enough oxygen during increased activity, possibly related to narrowed coronary vessels or lung congestion. The doctor recommends informing the primary care physician for further evaluation, including possible heart tests and medication review. The patient is advised to pace activities, take breaks as needed, and seek prompt medical attention if symptoms occur at rest or are accompanied by severe shortness of breath, fainting, or persistent discomfort. No specific diagnosis or medication changes are documented in this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **STS Score**: 0.435
+- **Model Used**: general
+- **Text1 Length**: 181 words
+- **Text2 Length**: 184 words
+
 
 ## Processing Information
 

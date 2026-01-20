@@ -59,16 +59,21 @@
 
 ## EHR Summary
 
-The patient is a 74-year-old male presenting with chest pain radiating to the jaw. He reported new-onset chest pain, was ruled out for myocardial infarction, and experienced rapid improvement of diarrhea after empiric treatment with flagyl for C. difficile. His past medical history includes coronary artery disease (CAD) with prior myocardial infarctions, type II diabetes mellitus, retinopathy, neuropathy, carotid stenosis, COPD, chronic renal insufficiency, peripheral vascular disease, and lung nodules. Physical exam was notable for a right carotid bruit but otherwise unremarkable findings; vital signs were stable. Cardiac workup revealed small to moderate inferior and minimal wall ischemia on stress test (EF 55%) and cardiac catheterization showed three-vessel disease. The documented diagnosis was multivessel coronary artery disease. He underwent off-pump coronary artery bypass grafting (CABG) x4 as definitive treatment.
+The patient is a 74-year-old male presenting with chest pain radiating to the jaw. He reported new-onset chest pain, was ruled out for myocardial infarction, and had a history of coronary artery disease, prior myocardial infarctions, type II diabetes mellitus, retinopathy, neuropathy, carotid stenosis, COPD, chronic renal insufficiency, peripheral vascular disease, and lung nodules. Cardiac evaluation revealed three-vessel coronary artery disease with stress testing showing inferior wall ischemia and an ejection fraction of 55%. The documented diagnosis was coronary artery disease status post off-pump quadruple coronary artery bypass grafting. His hospital course included successful surgery without intraoperative complications, postoperative atrial fibrillation/flutter managed with increased beta blockade and amiodarone, and treatment for left lower leg cellulitis with Keflex and presumed Clostridium difficile with metronidazole. Discharge medications included furosemide, potassium chloride, aspirin, clopidogrel, metoprolol, ranitidine, metronidazole, and cephalexin. He was discharged in stable condition to an extended care facility with instructions to avoid driving for one week and lifting more than 10 lbs for eight weeks, and to follow up with his physicians after discharge.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain that sometimes radiates to the jaw. The pain began a few days ago and has persisted since onset. The patient reported that the discomfort is more noticeable during physical activity, such as walking or doing chores, and improves with rest. No specific description of the pain's quality or severity was provided, as the simulation ended before the patient could answer. No relevant medical history, medications, or allergies were mentioned. No physical findings were discussed in the conversation. The doctor did not provide an assessment or working diagnosis, nor were any treatment recommendations or advice given during the dialogue.
+The patient presents with chest pain as the chief complaint. The pain began a few days ago and has persisted since onset. It radiates to the jaw and is exacerbated by physical activity such as walking or doing chores, while rest provides some relief. The severity and specific quality of the pain were being further assessed during the encounter. Relevant medical history, medications, allergies, and a documented diagnosis are not specified in the dialogue. No treatment plan or specific recommendations were documented in this portion of the conversation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.428
+- **Model Used**: general
+- **Text1 Length**: 173 words
+- **Text2 Length**: 88 words
+
 
 ## Processing Information
 

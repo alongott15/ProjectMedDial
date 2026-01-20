@@ -89,16 +89,21 @@ For now, let's focus on keeping you safe while we get more information. Does tha
 
 ## EHR Summary
 
-The patient is a 63-year-old man presenting with recent onset of exertional chest pain. His symptoms began recently and were associated with physical activity; no additional symptom characteristics are documented. Relevant history includes a past left rotator cuff repair, intermittent back pain, recent initiation of atenolol, aspirin, lipitor, and ibuprofen, and a 40 pack-year smoking history (quit two months ago); he has no known drug allergies. Cardiac catheterization revealed 80% left main stenosis and 95% left circumflex occlusion with an ejection fraction of 55%; laboratory values and physical exam were unremarkable except for a right groin bandage from catheterization. Electrocardiogram showed normal sinus rhythm with normal intervals. The documented diagnosis was severe coronary artery disease. The patient was transferred for coronary artery bypass graft surgery.
+The patient is a 63-year-old male presenting with recent onset of exertional chest pain. He reported chest pain with exertion, and cardiac catheterization revealed 80% left main stenosis and 95% left circumflex occlusion with an ejection fraction of 55%. His past medical history includes left rotator cuff repair and intermittent back pain; he has no known drug allergies and recently quit smoking. The documented diagnosis was coronary artery disease, status post coronary artery bypass grafting x2. He underwent successful coronary artery bypass grafting with an uneventful postoperative course except for anemia (hematocrit as low as 19.7) requiring transfusion and transient postoperative dyspnea on exertion. At discharge, he was hemodynamically stable with a hematocrit of 22.5 and clear breath sounds. Discharge medications included Lasix, potassium chloride, Lopressor, Niferex, amiodarone, ibuprofen, Colace, aspirin, Lipitor, and Dilaudid. He was advised to follow up with cardiology, his primary care provider, and the wound clinic as scheduled.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain occurring during physical activity, such as walking or climbing stairs. The pain was described as a pressure or heaviness in the chest, rated 6 out of 10 in severity, and consistently triggered by exertion; it resolved within a few minutes of rest without additional interventions. The patient also reported associated shortness of breath during these episodes but denied sweating or lightheadedness. The symptoms have been present for a couple of weeks and began gradually. No relevant medical history, medications, or allergies were mentioned during the encounter. The doctor noted that the pattern of exertional chest pressure and shortness of breath relieved by rest is concerning for angina, suggesting possible reduced blood supply to the heart during activity. The doctor advised the patient to avoid strenuous activities until further evaluation, recommended an EKG and blood tests, and discussed possible referral for a stress test or cardiology consultation. The patient was instructed to seek immediate medical attention if symptoms worsen, occur at rest, or are accompanied by new symptoms such as sweating, nausea, or fainting.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is described as a pressure or heaviness that occurs during physical activity such as walking or climbing stairs, rated 6 out of 10 in severity, and is consistently triggered by exertion. The discomfort is accompanied by shortness of breath but not by sweating or lightheadedness, and both symptoms resolve within a few minutes of rest without any specific interventions. The symptoms have been present for a couple of weeks and began gradually. There is no relevant past medical history, medications, or allergies documented in the dialogue. The clinical impression provided by the doctor is that the symptoms are suggestive of angina, likely due to reduced oxygen supply to the heart during exertion. The treatment plan includes avoiding strenuous activities, arranging for further cardiac evaluation with an EKG, blood tests, and possibly a stress test or cardiology referral. The patient was also advised to seek immediate medical attention if symptoms worsen or new symptoms such as pain at rest, sweating, nausea, or fainting develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **STS Score**: 0.621
+- **Model Used**: general
+- **Text1 Length**: 152 words
+- **Text2 Length**: 179 words
+
 
 ## Processing Information
 

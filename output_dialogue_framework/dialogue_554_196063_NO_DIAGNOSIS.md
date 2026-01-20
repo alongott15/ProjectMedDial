@@ -87,16 +87,21 @@ If you develop severe symptoms—such as intense pain, difficulty breathing, or 
 
 ## EHR Summary
 
-The patient is a 37-year-old man presenting with crushing substernal chest pain radiating to the left arm. Symptoms developed acutely during exercise, forcing him to stop running after a quarter mile; he also reported mild lightheadedness but denied nausea, vomiting, diaphoresis, or dizziness. His history is notable for mild hypercholesterolemia managed with exercise and a similar episode of chest tightness five days prior. On arrival, ECG showed ST segment elevations in lateral limb leads (including AVL) and anterior leads V2–V5. Cardiac catheterization revealed total occlusion of the proximal left anterior descending artery. The documented diagnosis was acute myocardial infarction. Treatment included emergency percutaneous transluminal coronary angioplasty with stent placement, intra-aortic balloon pump due to elevated wedge pressure (26 mmHg), and medications including oxygen, intravenous nitroglycerin, beta blocker (Lopressor 5 mg), Lipitor, and a heparin drip.
+The patient is a 37-year-old man presenting with crushing substernal chest pain radiating to the left arm, which began during exercise. Symptoms included chest pain and mild lightheadedness without associated nausea, vomiting, diaphoresis, or dizziness; a similar but less severe episode had occurred five days prior. His medical history is notable for mild hypercholesterolemia managed with exercise, and he was not on medication prior to admission. Electrocardiogram showed ST segment elevations in lateral leads, and cardiac catheterization revealed total occlusion of the proximal left anterior descending artery. The documented diagnosis was acute myocardial infarction, status post percutaneous transluminal coronary angioplasty with stent placement. Treatment included emergency angioplasty with stent, intra-aortic balloon pump, and medications such as aspirin, Plavix, Integrilin, heparin, metoprolol, Lipitor, lisinopril, pravastatin, folate, Colace, and warfarin. The patient remained chest pain free during hospitalization and was discharged in good condition with instructions for follow-up and INR monitoring.
+
 
 ## Dialogue Summary
 
-The patient presented with central chest pain described as crushing and radiating down the left arm. Symptoms included sudden onset pain lasting several minutes, reaching 7/10 in intensity, accompanied by lightheadedness and a mild fever (up to 100.4°F); resting provided only slight relief, and changing position did not affect the pain. The patient denied sweating, shortness of breath, nausea, vomiting, indigestion, cough, sore throat, recent viral illness, or exposure to sick contacts. Relevant history included mild high cholesterol but no prior heart issues. The doctor noted the classic warning signs of chest pain with arm radiation and lightheadedness, and found musculoskeletal causes less likely due to the pain's characteristics and lack of positional change. The assessment was that, despite low overall risk, the symptoms could indicate angina or early heart trouble and warranted prompt evaluation. The doctor recommended seeking medical attention today for ECG and blood tests, avoiding strenuous activity, monitoring for worsening symptoms, and calling emergency services if severe symptoms develop.
+The patient is an adult presenting with central chest pain as the chief complaint. The pain is described as crushing, radiates to the left arm, reaches an intensity of 7 out of 10, comes on suddenly, lasts several minutes per episode, and is associated with lightheadedness but not with dyspnea, sweating, nausea, vomiting, or indigestion. The patient reports two episodes within a week, with the current episode being stronger and accompanied by a low-grade fever (up to 100.4°F); there are no recent respiratory symptoms, viral illnesses, or significant cardiac history aside from mild hypercholesterolemia. The pain is not triggered by exertion or stress, does not change with position, and resting only partially alleviates it. The clinical impression is that the symptoms are concerning for possible angina or early heart trouble, despite low overall risk. The physician advised prompt medical evaluation today to rule out serious cardiac causes, including ECG and blood tests. The patient was instructed to avoid strenuous activity, monitor for worsening symptoms, and seek emergency care if severe symptoms develop. No specific medications or interventions were initiated during the visit.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.974
-- **Similarity Label**: N/A
+- **STS Score**: 0.709
+- **Model Used**: general
+- **Text1 Length**: 149 words
+- **Text2 Length**: 182 words
+
 
 ## Processing Information
 

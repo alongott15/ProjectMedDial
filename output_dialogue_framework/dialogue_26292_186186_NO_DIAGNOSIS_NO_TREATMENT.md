@@ -83,16 +83,23 @@ As part of ongoing self-care, keep paying attention to any small changes that mi
 
 ## EHR Summary
 
-The patient is a 70-year-old female admitted for an unspecified reason and discharged after clearance by Physical Therapy. During her hospital stay, a urinalysis was positive, indicating a urinary tract infection. Her past medical history, allergies, and presenting symptoms are not specified in the note. On discharge, her condition was described as good. The documented diagnosis was urinary tract infection. She was prescribed ciprofloxacin 500 mg orally twice daily for 3 days for the infection, along with Lopressor, Protonix, Percocet, Colace, Aspirin, Lasix, and potassium chloride for other ongoing needs. She was advised to follow up with her primary care physician, cardiologist, and surgeon.
+The patient is a 70-year-old female admitted for an unspecified reason and discharged after clearance by Physical Therapy. During her hospital stay, a urinalysis was positive, indicating a urinary tract infection. No specific symptoms related to the urinary tract infection are documented in this note. Her relevant medical history includes use of medications such as Lopressor, Protonix, Percocet, Colace, Aspirin, Lasix, and potassium chloride. The documented diagnosis was urinary tract infection. She was prescribed ciprofloxacin 500 mg orally twice daily for 3 days for this infection. On discharge, her condition was noted to be good. She was advised to follow up with her primary care physician, cardiologist, and surgeon.
+
 
 ## Dialogue Summary
 
-The patient presented for a general check-in without any specific symptoms. They reported no changes in energy, sleep, appetite, overall well-being, or ability to perform daily activities, and denied recent illnesses, aches, pains, headaches, coughs, vision or hearing changes, and digestive issues. No relevant medical history, medications, or allergies were mentioned during the visit. The doctor noted that the patient’s health and daily routines have remained steady, with no new symptoms or concerns described. The assessment was that the patient’s overall health appears stable and positive. The doctor recommended continuing current habits, staying active with walking and hobbies, and monitoring for any new symptoms such as mild swelling, skin changes, or unusual fatigue. The patient was advised to reach out if any changes arise and to consider preventive health screenings as needed. The patient expressed understanding and had no further questions at this time.
+The patient presented for a routine check-in without any specific chief complaint. They reported no new symptoms, including no changes in energy, sleep, appetite, daily activities, minor aches or pains, headaches, cough, vision or hearing changes, or digestive issues. The patient denied any recent illnesses and stated that their overall well-being and daily routines remain unchanged. There is no relevant medical history, medications, or allergies documented in this encounter.
+
+No diagnosis was made, as the patient is asymptomatic and reports stable health. The doctor advised the patient to continue their current healthy habits, including staying active with walking and hobbies. The patient was encouraged to monitor for any new symptoms such as swelling, skin changes, or unusual fatigue and to report these if they arise. No further treatment or interventions were recommended at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
+- **STS Score**: 0.419
+- **Model Used**: general
+- **Text1 Length**: 109 words
+- **Text2 Length**: 135 words
+
 
 ## Processing Information
 

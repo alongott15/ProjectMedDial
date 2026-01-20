@@ -85,16 +85,23 @@ For now, try to minimize sitting directly on the area, use a cushion if possible
 
 ## EHR Summary
 
-The patient is a 47-year-old male presenting with left groin pain extending over the perineum and scrotum following a recent incision and drainage procedure. He reports dissatisfaction with prior care and has a history of spina bifida, recurrent urinary tract infections, urostomy, HIV, hepatitis C, chronic pain medication seeking behavior, and multiple psychiatric diagnoses including antisocial personality disorder. On admission, he was refusing IVs and recommended medications included Haldol, scheduled clonazepam, and as-needed lorazepam. Physical examination findings are not specified in the note. Surgery consultation ruled out Fournier's gangrene. The patient was started on vancomycin, Zosyn, and clindamycin after blood cultures were drawn. Psychiatry determined he was not competent to refuse care.
+The patient is a 47-year-old male presenting with left groin pain extending over the perineum and scrotum following a recent incision and drainage procedure for a left subgluteal wound infection. Symptoms included fever (temperature 102.9°F), agitation, and a full-thickness 8 cm left subgluteal wound with purulence and surrounding erythema. Relevant history includes spina bifida, chronic urinary tract infections, urostomy, antisocial personality disorder, polysubstance abuse, prior positive HIV test, and allergies to latex, morphine, and codeine. On admission, the patient was agitated, refused IV access, and required psychiatric intervention for agitation and possible narcotic withdrawal. The documented diagnosis was left perirectal and gluteal abscess with ongoing infection; Fournier's gangrene was ruled out. Treatment included broad-spectrum antibiotics (initially vancomycin, Zosyn, clindamycin; later switched to vancomycin, levofloxacin, and Flagyl), aggressive pain management, wound care with dressing changes and hydrogen peroxide cleaning, and psychiatric medications (Risperidone, Klonopin, Haldol, Ativan). The patient was stabilized psychiatrically and medically, with plans for PICC line placement and transfer to a medical/psychiatric facility for further treatment.
+
 
 ## Dialogue Summary
 
-The patient presented with discomfort and pain localized to the buttock area, particularly when sitting. The pain has persisted for a few days without significant change and is rated as 6 out of 10 in severity; lying down provides some relief, while prolonged sitting worsens the discomfort. The patient reported a nonhealing ulcer at the site of pain but denied any new redness, swelling, lump, drainage, odor, or changes in the ulcer’s appearance, as well as any numbness, tingling, weakness in the legs, or changes in bowel or bladder habits. No relevant medical history, medications, or allergies were mentioned. On examination, the pain was strongest over one specific spot in the buttock and associated with the ulcer, with no signs of infection or neurological involvement described. The doctor assessed the main concern as a persistent sore in the buttock area without current signs of infection. The doctor recommended minimizing pressure on the area by avoiding direct sitting, using a cushion, maintaining good hygiene, and monitoring for any changes such as increased pain, redness, swelling, or drainage; prompt evaluation was advised if these symptoms develop. The patient understood and agreed to follow these recommendations.
+The patient presents with discomfort localized to the buttock area, primarily due to a nonhealing ulcer. The pain is described as 6 out of 10 in severity, has persisted for several days without significant change, and is aggravated by sitting while somewhat relieved by lying down. There are no associated symptoms such as numbness, tingling, weakness, or changes in bowel or bladder habits, and no new redness, swelling, drainage, or odor from the ulcer has been noted. The patient denies any recent changes in the appearance of the ulcer.
+
+The clinical impression is a persistent buttock ulcer without current signs of infection or neurological involvement. The treatment plan includes minimizing pressure on the area (using a cushion), maintaining good hygiene, and monitoring for any signs of infection or worsening symptoms. The patient was advised to seek further evaluation if the ulcer becomes more painful, red, swollen, or begins to drain. No additional interventions or medications were documented at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
+- **STS Score**: 0.367
+- **Model Used**: general
+- **Text1 Length**: 167 words
+- **Text2 Length**: 160 words
+
 
 ## Processing Information
 

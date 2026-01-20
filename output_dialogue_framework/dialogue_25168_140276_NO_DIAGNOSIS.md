@@ -85,16 +85,23 @@ If things don’t improve in the next week, or if you notice new symptoms, it wo
 
 ## EHR Summary
 
-The patient is an 82-year-old woman presenting after being found on the floor of her apartment, with no memory of the fall or subsequent events. She was noted to be dazed but conscious, with no headache, neck stiffness, or speech difficulties prior to the event; her only complaint before admission was fatigue. Her medical history includes hypertension, atrial fibrillation, dementia for one year, prior cerebrovascular accident, and status post nephrectomy, and she was taking Coumadin, Plendil, Lopressor, Lasix, and Zoloft. On physical examination, she had a large hematoma on the left side of her face, was awake and alert but disoriented to year, with intact cranial nerves and no facial droop; motor and sensory exams were largely normal except for slightly hyperreflexic reflexes and upgoing toes bilaterally. The documented diagnosis was subarachnoid hemorrhage in the setting of anticoagulation. The treatment plan is not specified in the note.
+The patient is an 82-year-old woman presenting after being found on the floor of her apartment, with no memory of the fall or subsequent events. She was noted to be dazed but conscious on admission, with a large hematoma on the left side of her face and baseline progressive dementia; she denied headache or neck stiffness and had only complained of fatigue prior to the event. Her past medical history includes hypertension, atrial fibrillation, prior cerebrovascular accident, and dementia, and she was taking Coumadin, Plendil, Lopressor, Lasix, and Zoloft. Imaging revealed a subarachnoid hemorrhage and cerebellar infarct, and she was found to have a urinary tract infection on admission. The clinical impression was subarachnoid hemorrhage with cerebellar infarct, complicated by anticoagulation. Treatment included transfusion with fresh frozen plasma to correct INR, placement of a ventricular drain for enlarged ventricles, and later insertion of a PEG tube for nutrition. The patient remained neurologically impaired but hemodynamically stable and afebrile throughout hospitalization. She was discharged in stable condition to a rehabilitation facility with follow-up arranged in four weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with bilateral shoulder pain as the chief complaint. The pain has persisted for several days without improvement and is rated as 6 out of 10 in both shoulders; it is described as a dull, aching sensation that worsens with certain movements such as reaching or lifting. The patient also reported weakness in the right shoulder and arm, making daily activities like dressing and reaching more difficult, but denied any issues with hand strength, swelling, redness, warmth, numbness, or tingling. No relevant medical history, medications, or allergies were mentioned. On clinical assessment, the doctor noted ongoing discomfort and right-sided weakness without signs of acute inflammation or nerve involvement. The doctor’s assessment suggested possible muscle strain, joint wear-and-tear, or inflammation from overuse or arthritis. The treatment plan included gentle movement, avoiding aggravating activities, applying warm compresses, and using over-the-counter pain relief if appropriate; the doctor also advised monitoring for worsening weakness or new symptoms and offered advice on exercises and shoulder protection during daily activities.
+The patient is an adult presenting with bilateral shoulder pain as the chief complaint. The pain has persisted for several days, is rated 6 out of 10 in both shoulders, and is described as a dull, aching sensation that worsens with movement such as reaching or lifting. The patient also reports right-sided shoulder and arm weakness, which makes daily activities like dressing and reaching more difficult, but denies any swelling, redness, warmth, numbness, or tingling. There is no mention of relevant medical history, medications, or allergies.
+
+The clinical impression is that the symptoms may be due to muscle strain, joint wear-and-tear, or inflammation from overuse or arthritis. The treatment plan includes gentle movement, avoiding aggravating activities, applying warm compresses, and using over-the-counter pain relief if tolerated. The patient was advised to monitor for worsening weakness or new symptoms such as numbness or tingling and to follow up if symptoms persist or worsen. Additional advice on exercises and shoulder protection during daily activities was offered.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.930
-- **Similarity Label**: N/A
+- **STS Score**: 0.275
+- **Model Used**: general
+- **Text1 Length**: 176 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

@@ -97,16 +97,21 @@ If you have any concerns before your appointment, don’t hesitate to reach out.
 
 ## EHR Summary
 
-The patient is a 78-year-old female presenting with increasing shortness of breath and chest pain with activity. The symptoms are described as progressive, occurring specifically with exertion. No additional details regarding severity, duration, or alleviating factors are provided. Relevant medical history, medications, allergies, physical exam findings, and test results are not specified in the note. The documented diagnosis and clinical impression are not included. There is no information about specific treatments, medications, or recommendations in this excerpt.
+The patient is a 78-year-old female presenting with increasing shortness of breath and chest pain with activity. Symptoms were noted to worsen with exertion, but further details regarding severity, duration, or alleviating factors are not specified. Relevant medical history, current medications, and allergies are not documented in the note provided. The clinical impression or specific diagnosis is not stated in the available text. Treatment plan and recommendations are also not described in this excerpt.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening chest pain, described as central chest pressure, over the past couple of weeks. Symptoms included chest pressure rated 6–7/10 in severity, shortness of breath with physical activity (such as walking or climbing stairs), and difficulty performing daily activities; symptoms improved with rest and lasted a few minutes per episode. The patient denied associated sweating, nausea, or lightheadedness, but reported recent episodes of irregular heart rhythm, lower blood pressure, and prior mental status changes that have since improved. No medication or allergy history was mentioned. The doctor noted the exertional chest pressure and shortness of breath, with symptom improvement at rest, and assessed that these findings may indicate angina or cardiac strain, possibly related to reduced oxygen supply to the heart during activity. The doctor advised the patient to avoid strenuous activity, monitor for worsening symptoms (such as pain at rest, prolonged episodes, fainting, severe shortness of breath, or new palpitations), and arrange prompt evaluation with their healthcare provider; additional tests such as EKG or bloodwork may be considered. The patient was encouraged to report changes in heart rhythm and blood pressure to their provider and to seek immediate medical attention if concerning symptoms develop.
+The patient is an adult presenting with worsening chest pain as the chief complaint. The chest pain is described as central, pressure-like, rated 6–7/10 at its worst, and is accompanied by shortness of breath; both symptoms are triggered by physical activity (e.g., walking, climbing stairs, daily chores) and improve with rest, with episodes lasting a few minutes. The patient denies associated symptoms such as sweating, nausea, or lightheadedness but reports recent episodes of irregular heart rhythm and lower blood pressure, as well as a history of mental status changes that have since improved. The clinical impression discussed is possible angina due to exertional chest discomfort and shortness of breath, with concern for underlying cardiac strain. The treatment plan includes avoiding strenuous activity, monitoring for worsening or new symptoms (such as pain at rest, prolonged episodes, fainting, severe shortness of breath, or persistent palpitations), and arranging prompt follow-up with the patient’s healthcare provider for further evaluation (including possible EKG or bloodwork). The patient was advised to report any new or concerning symptoms immediately and to mention the episodes of irregular heartbeat and blood pressure changes at their next appointment.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.974
-- **Similarity Label**: N/A
+- **STS Score**: 0.737
+- **Model Used**: general
+- **Text1 Length**: 74 words
+- **Text2 Length**: 188 words
+
 
 ## Processing Information
 

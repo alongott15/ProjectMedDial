@@ -98,3 +98,21 @@ If your symptoms continue to worsen or don’t start to improve over the next fe
 ## Processing Information
 
 - **Processing Time**: 455.5s
+
+## EHR Summary
+
+The patient is a 48-year-old male presenting for elective repeat whole lung lavage due to worsening dyspnea on exertion associated with pulmonary alveolar proteinosis secondary to occupational silica dust exposure. Over the past months to years, he has experienced increasing shortness of breath, now unable to walk more than one block without symptoms, along with a cough producing clear fluid but no chest pain, orthopnea, or hemoptysis. His history includes pulmonary alveolar proteinosis (diagnosed in 2150), prior pneumothorax, intubations, pneumonia treated with Bactrim and prednisone, anxiety disorder, alcohol abuse, and significant tobacco use. On admission, physical exam revealed end-inspiratory crackles and laboratory studies showed leukocytosis and elevated hematocrit. The documented diagnosis was pulmonary alveolar proteinosis with recent pneumonia and possible clostridium difficile infection. Treatment included repeat whole lung lavage, ventilatory support, thiamine, folate, multivitamins, Ativan as needed, and a 14-day course of Flagyl for suspected C. difficile. The patient was discharged home able to ambulate without oxygen and instructed to follow up with his pulmonologist.
+
+
+## Dialogue Summary
+
+The patient presents with increased shortness of breath during activity as the chief complaint. Symptoms include progressive dyspnea over the past couple of weeks, a daytime cough producing clear sputum, recent fever, and associated anxiety; there is no chest pain, chest tightness, leg swelling, or weight change. The patient reports needing to rest more often during daily activities and finds climbing stairs more difficult than before. There is no history of waking at night due to cough, and no hemoptysis or chills are reported. Relevant history regarding chronic medical conditions, medications, or allergies is not specified. The clinical impression is that the symptoms are most likely due to a respiratory infection (such as bronchitis or mild pneumonia), with anxiety possibly contributing; less likely causes include allergies or mild asthma. The treatment plan includes rest, hydration, symptom monitoring, and instructions to seek urgent care if warning signs (chest pain, hemoptysis, persistent high fever, severe dyspnea at rest, or fainting) develop. The patient was advised to seek further evaluation if symptoms worsen or do not improve within a few days.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.602
+- **Model Used**: general
+- **Text1 Length**: 165 words
+- **Text2 Length**: 178 words
+

@@ -87,16 +87,21 @@ Would you like advice on specific activities to avoid or ways to help manage thi
 
 ## EHR Summary
 
-The patient is a 35-year-old male presenting with recurrent Aspergilloma, now affecting the right lung, with symptoms of shortness of breath and hemoptysis. He has a history of sarcoidosis, prior left triple lobe lobectomy for Aspergilloma, diabetes secondary to steroids, and previous hemoptysis. Current medications include prednisone, Bactrim, Zantac, Cancidas, NPH, Flovent, albuterol, and posaconazole; no drug allergies are reported. On this admission, he underwent a right upper lobe lobectomy for right upper lobe Aspergilloma, which he tolerated well. Postoperatively, he developed unresponsiveness following a CT-guided chest aspiration; head CT was normal but MRI later showed a right parietal infarct. Clinical findings included persistent left hemiparesis, left hemineglect, and aphasia. The documented diagnoses were recurrent pulmonary Aspergilloma and right parietal infarct. Treatment included surgical resection, ICU monitoring, neurology and other specialty consultations, and adherence to specialist recommendations.
+The patient is a 35-year-old male presenting with recurrent Aspergilloma on the right side, with symptoms of shortness of breath and hemoptysis. He has a history of sarcoidosis, prior left triple lobe lobectomy for Aspergilloma, diabetes secondary to steroids, and no known drug allergies. He underwent a right upper lobe lobectomy for right upper lobe Aspergilloma. Postoperatively, he developed an air embolism during a CT-guided aspiration, resulting in a right parietal infarct with left hemiparesis and aphasia, which gradually improved. Additional complications included a pneumothorax requiring chest tube placement and persistent air leak managed with a Heimlich valve. The documented diagnoses were recurrent pulmonary Aspergilloma and postoperative cerebral air embolism with stroke. At discharge, he was stable, neurologically grossly intact except for mild left-sided weakness, and continued on antifungal therapy, steroids, inhalers, and pain management; he was discharged home with visiting nurse assistance and follow-up arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with gradually worsening shortness of breath and intermittent bloody sputum over the past couple of weeks. The shortness of breath is exacerbated by activity such as walking or climbing stairs and improves with rest and use of Albuterol inhalers; there is no associated chest pain, fever, night sweats, or weight loss. The patient has a known history of sarcoidosis and aspergillosis, with similar symptoms during previous flares, and is currently taking prescribed medications that provide partial relief. On examination, there were no new physical findings reported beyond the patient's described symptoms. The doctor assessed that the symptoms are likely related to the patient's underlying lung conditions, noting that the absence of systemic symptoms is somewhat reassuring but that hemoptysis and gradual worsening warrant close monitoring. The doctor advised the patient to continue current medications, avoid triggers that worsen breathing, and monitor for new or worsening symptoms such as persistent high fevers, significant chest pain, or increased bleeding. The patient was also advised to seek prompt care if these concerning symptoms develop and to consider follow-up with a lung specialist if symptoms do not improve. The doctor offered to provide additional advice on activity modification and day-to-day management.
+The patient is an adult presenting with the chief complaint of gradually worsening shortness of breath over several weeks. Symptoms include exertional dyspnea that is less severe at rest and intermittent hemoptysis (bloody sputum), without associated chest pain, fever, night sweats, or weight loss. The patient has a known history of sarcoidosis and aspergillosis, with similar respiratory symptoms during previous episodes. The clinical impression is a flare-up of chronic lung disease (sarcoidosis and aspergillosis), with no strong evidence of acute infection or severe complication at this time. Inhaler use (Albuterol) and rest provide partial symptom relief. The treatment plan includes continued use of prescribed medications, monitoring for new or worsening symptoms (such as high fever, significant chest pain, or increased bleeding), and avoiding triggers that exacerbate dyspnea. The patient was advised to seek prompt care if severe symptoms develop and to consider follow-up with a lung specialist if symptoms persist or worsen. Additional advice on activity modification and day-to-day management was requested by the patient.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.640
+- **Model Used**: general
+- **Text1 Length**: 146 words
+- **Text2 Length**: 165 words
+
 
 ## Processing Information
 

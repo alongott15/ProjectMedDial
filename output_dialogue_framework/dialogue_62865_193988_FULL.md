@@ -87,16 +87,21 @@ Does the discomfort tend to stay constant throughout the day, or does it come an
 
 ## EHR Summary
 
-The patient is a 48-year-old female presenting with fever following a right free TRAM flap procedure performed on 2145-5-3. She reported a fever up to 101°F and generalized aches for one day, along with increased soreness and pressure in the lower aspect of her breast and abdomen; she denied chest pain, dyspnea, urinary symptoms, leg swelling, or cough. Her past medical history includes breast cancer treated with mastectomy and right free TRAM flap reconstruction. On physical exam, the right breast flap was clean and intact with a small amount of drainage but no erythema, and the abdominal incision showed minimal tenderness without rebound or guarding. Laboratory findings included leukocytosis (WBC 22.9) and moderate leukocytes in urine, but no evidence of urinary tract infection. The documented diagnosis was infected hematoma/seroma at the surgical site. Treatment included wound washout of the right breast and administration of vancomycin, ceftriaxone, and metronidazole (Flagyl). She was referred from clinic to the emergency department for further management.
+The patient is a 48-year-old female presenting with fever following a right free TRAM flap breast reconstruction. She reported a fever up to 101°F, body aches for one day, and increasing soreness and pressure in the lower aspect of her right breast and abdomen, but denied chest pain, dyspnea, urinary symptoms, or cough. Her past medical history includes breast cancer status post mastectomy and right free TRAM reconstruction; she has allergies to morphine, gadolinium-containing agents, and vancomycin. On admission, physical exam revealed a clean right breast flap with some drainage but no erythema, and labs showed leukocytosis (WBC 22.9). The documented diagnosis was infected hematoma/seroma of the right breast reconstruction site. Treatment included aspiration and culture of the fluid, broad-spectrum intravenous antibiotics, surgical washout of the infected cavity, wound packing, and subsequent closure over a drain. She was discharged in stable condition on dicloxacillin and acetaminophen, with instructions for wound care and to follow up within one week.
+
 
 ## Dialogue Summary
 
-The patient presented with fever following recent TRAM flap surgery. She reported a temperature up to 101°F, body aches, increased soreness and pressure around the breast and lower abdomen, steady discomfort rated 6/10, greater fatigue than usual, and occasional headache; she denied chills, night sweats, discharge, redness, or color changes at the incision sites. The fever and increased soreness began a couple of days postoperatively. She noted that movement is more uncomfortable but still manageable, and deep breaths do not worsen symptoms. On examination, there were no signs of discharge, unusual color, or redness at the surgical site per patient report. The doctor assessed that while some pain and fatigue are expected after TRAM flap surgery, new or worsening fever and increased soreness may indicate infection or complication, though the absence of redness or discharge is reassuring. The doctor advised monitoring for new redness, warmth, swelling, or discharge, and to contact the surgical team if fever exceeds 101.5°F, chills develop, or incision changes occur; rest, hydration, and avoiding strenuous activity were also recommended.
+The patient is a post-operative female presenting with fever following TRAM flap surgery. She reports a maximum temperature of 101°F, increased soreness and pressure around the breast and lower abdomen, body aches, steady discomfort rated 6/10 (worse than immediately post-op), fatigue, and occasional headache. She denies chills, night sweats, redness, discharge, or color changes at the incision sites, and notes that movement is more uncomfortable but still possible. The symptoms began a couple of days after surgery. Relevant history includes recent TRAM flap surgery; no medication or allergy information is specified. The clinical impression is concern for possible post-surgical infection or complication, though no definitive diagnosis is documented. The treatment plan includes monitoring for new redness, warmth, swelling, or discharge, contacting the surgical team if fever exceeds 101.5°F or if new symptoms develop, resting, staying hydrated, and avoiding strenuous activity.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.976
-- **Similarity Label**: N/A
+- **STS Score**: 0.625
+- **Model Used**: general
+- **Text1 Length**: 158 words
+- **Text2 Length**: 140 words
+
 
 ## Processing Information
 

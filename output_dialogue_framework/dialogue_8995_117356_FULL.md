@@ -190,3 +190,21 @@ If you have questions about your medications or want tips for daily management, 
 ## Processing Information
 
 - **Processing Time**: 446.2s
+
+## EHR Summary
+
+The patient is an 81-year-old female presenting with left upper extremity deep vein thrombosis (LUE DVT) after recent ascending aortic aneurysm repair. She experienced left arm edema and was found to be heparin-induced thrombocytopenia (HIT) positive, necessitating anticoagulation with Argatroban and transition to Warfarin. Her past medical history includes hypertension, hypercholesterolemia, anxiety/depression, osteoporosis, varicose veins, right femoral AV fistula, and prior cerebrovascular accident (CVA). The documented diagnoses were status post ascending aortic aneurysm repair, LUE DVT treated with Argatroban and Coumadin, HIT+, prior CVA, retroperitoneal bleed, and status post tracheostomy and PEG placement. Treatment included Argatroban infusion titrated to therapeutic levels, initiation and titration of Warfarin to achieve target INR, and addition of Glyburide for persistent hyperglycemia. Discharge medications included anticoagulants, antihypertensives, antiepileptics, statins, and other supportive therapies. The patient was discharged in good condition to extended care with instructions for wound care, medication adherence, and follow-up with her physicians.
+
+
+## Dialogue Summary
+
+The patient presents with persistent left arm swelling and a productive cough as the main complaints. The left arm swelling is ongoing but not worsening, and the cough remains unchanged; there are no reports of new or severe symptoms such as increased pain, color changes, shortness of breath, chest pain, or bleeding. The patient has a recent history of deep vein thrombosis (DVT) and heparin-induced thrombocytopenia (HIT) and is currently on anticoagulation therapy. The clinical impression is that the swelling and cough are likely related to the underlying clotting condition and its treatment, with no evidence of acute complications at this time. The treatment plan emphasizes close monitoring for any changes or warning signs, such as increased swelling, pain, color changes, bleeding, or respiratory symptoms. The patient is advised to maintain good hydration, avoid activities that could cause injury or bleeding due to anticoagulation, and use a soft toothbrush and electric razor. The care team encourages prompt communication if symptoms worsen or new concerns arise. No new medications or interventions are initiated at this time.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.664
+- **Model Used**: general
+- **Text1 Length**: 150 words
+- **Text2 Length**: 175 words
+

@@ -87,16 +87,21 @@ Let me know if you have questions or if anything changes.
 
 ## EHR Summary
 
-The patient is a 45-year-old female presenting for a diagnostic cerebral angiogram with coiling. She has a history of headaches, fibromyalgia, and prior episodes of slurred speech. Her past surgical history includes tubal ligation, cystectomies, and breast lesion excision; she is allergic to tetracycline. On admission and postoperatively, her vital signs were stable and physical exam was unremarkable, with normal neurological findings. Laboratory results showed normal white blood count, hematocrit, platelets, and electrolytes; coagulation studies were within acceptable ranges. The documented diagnosis was a left carotid ophthalmic aneurysm. She underwent successful coiling and stent placement without complications. The treatment plan included continuation of antiplatelet therapy and routine postoperative monitoring.
+The patient is a 45-year-old female admitted for a diagnostic cerebral angiogram with coiling. She has a history of headaches, fibromyalgia, and prior slurred speech, but no acute neurological symptoms were documented on admission. Her past surgical history includes tubal ligation, cystectomies, and breast lesion excision; she is allergic to tetracycline. The patient underwent successful coiling with stent placement for a left carotid ophthalmic aneurysm without complications. Postoperatively, she remained neurologically stable with intact strength, visual fields, and no evidence of hematoma at the angiocele site. The final diagnosis was status post coiling with stent placement for a left carotid ophthalmic aneurysm. She was discharged in good condition on aspirin 325 mg daily and Plavix 75 mg daily, with instructions to avoid strenuous activity until follow-up in two weeks. Follow-up appointments were arranged with her neurosurgeon and primary care physician.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent headaches as the chief complaint. The headaches have been ongoing for at least a couple of weeks, are usually moderate in severity, and are sometimes accompanied by episodes of slurred speech that occur randomly without a clear trigger. The patient reported that the symptoms make it harder to focus and complete daily tasks; resting and aspirin provide only partial, short-term relief. No vision problems, numbness, or weakness in the arms or legs were reported. The patient did not mention any relevant medical history, medications (other than aspirin), or allergies. On assessment, the doctor noted that while moderate headaches are common, the presence of intermittent slurred speech is less typical and warrants close monitoring, as it could indicate neurological issues despite the absence of other concerning symptoms. The doctor recommended tracking the timing and triggers of symptoms, maintaining hydration and regular sleep, continuing moderate use of over-the-counter medication as needed, and seeking prompt medical attention if new or worsening symptoms such as weakness, vision changes, or confusion develop.
+The patient is an adult presenting with persistent headaches as the chief complaint. The headaches have been ongoing for at least a couple of weeks, are described as moderate in severity, and are sometimes accompanied by episodes of slurred speech that occur randomly and intermittently. The headaches partially improve with rest and aspirin, but the relief is temporary. The patient denies any vision changes, numbness, or weakness in the arms or legs. There is no documented past medical history, medications, or allergies provided. The clinical impression is that while the headache pattern may be benign, the intermittent slurred speech warrants close monitoring for possible neurological causes. The treatment plan includes symptom monitoring, tracking headache and speech episodes, continuing moderate use of over-the-counter medication as needed, and seeking prompt medical attention if new or worsening neurological symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
+- **STS Score**: 0.446
+- **Model Used**: general
+- **Text1 Length**: 140 words
+- **Text2 Length**: 137 words
+
 
 ## Processing Information
 

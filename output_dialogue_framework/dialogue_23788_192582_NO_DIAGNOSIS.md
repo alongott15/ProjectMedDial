@@ -87,16 +87,21 @@ How much are these episodes impacting your day-to-day life at this point? Are yo
 
 ## EHR Summary
 
-The patient is a 76-year-old male presenting with dyspnea and chest tightness on exertion. Symptoms began in early September and led to a prior admission for congestive heart failure, with a troponin of 0.22. He has a history of mild aortic stenosis with preserved ejection fraction two years prior, but recent echocardiogram on October 21 revealed critical aortic stenosis (valve area 0.9 cm², maximum gradient 38 mmHg, peak gradient 24 mmHg), mild mitral regurgitation, inferior wall hypokinesis, and a reduced ejection fraction of 27%. Stress testing showed significant ischemia and persistent low ejection fraction. On review, he denied recent exertional symptoms, claudication, orthopnea, paroxysmal nocturnal dyspnea, or lightheadedness. Laboratory findings included BUN 38 and creatinine 1.7. The documented diagnosis is critical aortic stenosis with heart failure and ischemia. He was referred for cardiac catheterization for further evaluation and management.
+The patient is a 76-year-old male presenting with dyspnea and chest tightness on exertion. Symptoms began in early September and were associated with congestive heart failure; he denied recent exertional symptoms, claudication, orthopnea, paroxysmal nocturnal dyspnea, or lightheadedness. Relevant history includes prior congestive heart failure admission, critical aortic stenosis, reduced ejection fraction (27–30%), and significant coronary and carotid artery disease. Echocardiogram and cardiac catheterization revealed critical aortic stenosis, severe coronary artery disease, and reduced left ventricular function. The documented diagnoses were critical aortic stenosis and multivessel coronary artery disease. Treatment included coronary artery bypass grafting (three vessels) and aortic valve replacement with a #23 mm CE-pericardial valve. Postoperatively, the patient experienced brief atrial flutter/fibrillation managed with amiodarone and cardioversion. He tolerated the procedures well and was stable postoperatively.
+
 
 ## Dialogue Summary
 
-The patient presented with episodes of rapid heartbeat and elevated blood pressure. The heart racing occurs suddenly, lasts a few minutes, and is accompanied by systolic blood pressure readings up to 180; the patient also noted occasional low blood pressure and oxygen saturation around 92% on one liter. No chest discomfort, sweating, or significant fatigue was reported, and the episodes do not appear to be triggered by activity or stress, occurring randomly over the past few days with stable frequency. The patient recovers quickly after each episode and remains able to perform usual daily activities. No relevant medical history, medications, or allergies were mentioned. The doctor noted the absence of major associated symptoms and assessed that these episodes may be related to the heart’s electrical system, medications, or stress response fluctuations. The doctor recommended keeping a detailed record of episode timing, duration, and any additional symptoms, and advised seeking prompt medical attention if chest pain, severe shortness of breath, fainting, or persistently high blood pressure occurs.
+The patient presents with episodes of rapid heartbeat (palpitations) and fluctuating blood pressure as the chief complaint. These episodes occur suddenly, last a few minutes, and are not associated with chest discomfort, sweating, or significant fatigue; the patient recovers quickly after each episode. The systolic blood pressure has reached up to 180 mmHg during episodes and sometimes drops low, with oxygen saturation noted at 92% on one liter of oxygen. No specific triggers have been identified, and the frequency of episodes has remained stable over several days. There is no mention of relevant past medical history, medications, or allergies in the dialogue. The clinical impression is that the patient is experiencing intermittent episodes of tachycardia and blood pressure fluctuations, possibly related to cardiac electrical activity or other underlying causes. The treatment plan includes monitoring symptoms by keeping a detailed record of episodes and being alert for warning signs such as chest pain, severe dyspnea, syncope, or persistently high blood pressure, which would warrant prompt medical attention. The patient is currently able to perform usual activities without significant limitation.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **STS Score**: 0.583
+- **Model Used**: general
+- **Text1 Length**: 128 words
+- **Text2 Length**: 178 words
+
 
 ## Processing Information
 

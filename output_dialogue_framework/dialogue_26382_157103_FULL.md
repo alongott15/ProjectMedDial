@@ -53,16 +53,21 @@
 
 ## EHR Summary
 
-The patient is a 69-year-old female presenting with non-ST elevation myocardial infarction (NSTEMI) as the chief complaint. She experienced chest tightness at rest lasting two hours, which resolved spontaneously, followed by another episode of chest pain radiating to the right shoulder and neck lasting two to three hours; both episodes occurred five and two days prior to admission, respectively. She denied chest pain for three days prior to transfer and reported melena for two days without other gastrointestinal or urinary symptoms. Her past medical history includes coronary artery disease with prior RCA stent and PTCA of the left circumflex, hypertension, hypercholesterolemia, and a previous myocardial infarction. On evaluation, her peak CK MB index was 4.3 and peak CK was 189. The documented diagnosis was non-ST elevation myocardial infarction. Treatment included Nitro Paste, beta blocker (metoprolol), aspirin, heparin, Aggrastat, and continuation of her antihypertensive and lipid-lowering medications.
+The patient is a 69-year-old female presenting with non-ST elevation myocardial infarction (NSTEMI). She experienced chest tightness at rest lasting two hours, followed by another episode of chest pain radiating to the right shoulder and neck, both resolving spontaneously without nitroglycerin. She had no chest pain for three days prior to admission but reported melena for two days and mild urinary burning after Foley catheter removal. Her past medical history includes coronary artery disease with prior stenting, hypertension, hypercholesterolemia, and previous myocardial infarction; she is allergic to Lipitor. The documented diagnoses were coronary artery disease, hypercholesterolemia, and urinary tract infection (UTI). She underwent successful cardiac catheterization with stenting of a 95% mid RCA stenosis and was treated for UTI with antibiotics. Discharge medications included atenolol, aspirin, lisinopril, gemfibrozil, protonix, fluvastatin, Plavix (for 28 days), and ciprofloxacin (for six days), with instructions for outpatient follow-up and monitoring for fever.
+
 
 ## Dialogue Summary
 
-The patient presented with chest tightness occurring even at rest. The patient described the sensation as causing significant anxiety and interfering with daily activities. The chest pain sometimes radiates to the right shoulder and up into the neck, and does not always remain localized. No information was provided regarding severity scale, duration, triggers, or relieving factors. No relevant medical history, medications, or allergies were mentioned. There were no physical findings noted, and the doctor did not provide an assessment or working diagnosis during the encounter. No advice, recommendations, or treatment plan were discussed in this dialogue.
+The patient presents with chest tightness as the chief complaint. The chest tightness occurs even at rest and is associated with anxiety and interference in daily activities. The patient reports that the pain sometimes radiates to the right shoulder and neck, rather than remaining localized. There is no mention of symptom severity, duration, or specific triggers or alleviating factors. Relevant medical history, medications, and allergies are not specified in the dialogue. No documented diagnosis or clinical impression is provided in the conversation. No treatment plan or specific recommendations are discussed during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **STS Score**: 0.335
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 93 words
+
 
 ## Processing Information
 

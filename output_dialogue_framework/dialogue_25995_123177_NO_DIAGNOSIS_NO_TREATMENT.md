@@ -87,16 +87,21 @@ Let me know if you have any questions or if you'd like advice on managing sympto
 
 ## EHR Summary
 
-The patient is a 60-year-old male presenting with fever and mental status changes following recent right frontal oligodendroglioma resection. He developed a headache and was found to have a temperature of 103.4°F, increased lethargy, and nuchal rigidity while in rehabilitation. His past medical history includes right frontal anaplastic oligodendroglioma status post multiple resections, and he reports an allergy to Percocet causing an itching red rash. On examination, he was sleepy but arousable, had short verbal responses, mild neck stiffness, and a moderate subgaleal fluid collection at the craniotomy site; chest exam revealed basilar crackles. Neurological assessment was limited due to lethargy, but he moved all extremities and inconsistently followed commands. Subgaleal fluid and cerebrospinal fluid were collected for culture to evaluate for possible infection. The documented diagnosis is not explicitly stated in the note. Treatment included tapping the subgaleal fluid collection and performing a lumbar puncture for further diagnostic evaluation.
+The patient is a 60-year-old male presenting with fever, headache, and mental status changes following recent right frontal oligodendroglioma resection. He developed a temperature up to 103.4°F, lethargy, nuchal rigidity, and decreased verbal responsiveness while in rehabilitation. His past medical history includes right frontal antiplastic oligodendroglioma status post multiple resections, and he has a documented allergy to Percocet (itching red rash). Examination revealed a moderate subgaleal fluid collection and mild neck stiffness; cerebrospinal fluid cultures grew rare coagulase-negative Staphylococcus. The clinical impression was postoperative infection, likely meningitis or surgical site infection. He was treated with intravenous Vancomycin and Ceftazidime for four weeks, with a PICC line placed for long-term antibiotics. The patient’s condition improved with resolution of fever and mental status changes, and he was discharged in stable condition with continued antibiotics and follow-up arranged.
+
 
 ## Dialogue Summary
 
-The patient presented with a persistent headache that would not go away. Symptoms included a constant headache throughout the day, high fever up to 103°F (measured under the arm) that remained elevated, feeling feverish, significant lethargy making it difficult to get out of bed or perform daily activities, trouble concentrating, memory changes, confusion, and mildly stiff neck; the patient denied nausea, vomiting, sensitivity to light or sound, cough, sore throat, or congestion. No relevant medical history, medications, or allergies were mentioned. The doctor noted the combination of persistent high fever, constant headache, new cognitive difficulties, and neck stiffness as concerning findings. The assessment was that these symptoms could suggest an underlying infection or inflammation affecting the body, possibly involving the brain, and warranted prompt evaluation. The doctor recommended seeking in-person medical evaluation as soon as possible, preferably today, and advised the patient to stay hydrated and rest. Additional instructions were given to seek immediate medical attention if confusion worsened, the patient became difficult to wake, or developed new symptoms such as increased neck stiffness or trouble speaking.
+The patient is an adult presenting with a chief complaint of a persistent headache that has not resolved. The headache is described as constant throughout the day and is accompanied by a high fever (up to 103°F), feelings of lethargy, difficulty concentrating, memory changes, confusion, and a mildly stiff neck. The patient denies nausea, vomiting, photophobia, phonophobia, cough, sore throat, or congestion. Relevant history regarding past medical conditions, medications, or allergies is not specified. The clinical impression is concern for a possible underlying infection or inflammation affecting the brain, given the combination of fever, headache, and mental status changes. No specific diagnosis was documented. The treatment plan includes urgent in-person medical evaluation, advice to stay hydrated and rest, and instructions to seek immediate care if confusion worsens or new symptoms such as increased neck stiffness or trouble speaking develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
+- **STS Score**: 0.635
+- **Model Used**: general
+- **Text1 Length**: 135 words
+- **Text2 Length**: 139 words
+
 
 ## Processing Information
 

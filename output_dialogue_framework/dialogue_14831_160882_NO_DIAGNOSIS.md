@@ -85,16 +85,21 @@ If you ever have questions or concerns, even small ones, it’s always okay to r
 
 ## EHR Summary
 
-The patient is a newborn male admitted for prematurity following delivery at 27 1/7 weeks gestation by cesarean section due to breech presentation and progressive pre-term labor. He experienced respiratory distress at birth, requiring intubation, surfactant administration, and subsequent weaning to nasal cannula oxygen, currently on 100% oxygen at 50 cc/min flow. The infant had episodes of apnea of prematurity treated with caffeine citrate from day 12 to day 22, and continues to have bradycardia and desaturation related to immature feeding coordination. Relevant history includes maternal subchorionic hematoma, vaginal bleeding, and placental abruption during pregnancy. Physical findings at birth included a weight of 1050 grams, length of 36 cm, and head circumference of 26 cm, all at the 50th percentile for gestational age. The documented diagnosis is chronic lung disease of prematurity. Treatment has included Diuril (from day 23 to present), Aldactone (day 35 to day 72), and as-needed Combivent inhalers. Ongoing management focuses on respiratory support and monitoring for apnea and feeding-related events.
+The patient is a male neonate born at 27 1/7 weeks gestation, admitted for prematurity and complications related to preterm birth. He experienced respiratory distress syndrome requiring intubation, surfactant therapy, and ongoing oxygen support, as well as episodes of apnea of prematurity treated with caffeine citrate. His hospital course was complicated by hypotension, presumed sepsis (treated with antibiotics), hyperbilirubinemia (treated with phototherapy), anemia of prematurity (requiring transfusions), bilateral intraventricular hemorrhage with ventriculomegaly (now resolved), and a left inguinal hernia. Relevant history includes maternal subchorionic hematoma, vaginal bleeding, and amniocentesis showing 46XY karyotype; the infant has no documented medication allergies. The documented diagnoses include prematurity, bronchopulmonary dysplasia, status post respiratory distress syndrome, apnea of prematurity, right aortic arch with aberrant left subclavian artery, and left inguinal hernia. At discharge, he was stable on nasal cannula oxygen, receiving breast milk fortified with Enfamil powder, potassium chloride, Diuril, iron, and multivitamins. He was transferred in good condition for surgical repair of his left inguinal hernia and scheduled for multidisciplinary follow-up including neurology, cardiology, and early intervention services. Immunizations were up to date and further prophylaxis for RSV and influenza was recommended.
+
 
 ## Dialogue Summary
 
-The patient presented for a general check-in without any specific symptoms or concerns. The parent reported no recent changes in feeding, sleeping, behavior, or developmental milestones, and denied any recent illnesses, vaccinations, rashes, changes in skin color, congestion, cough, fussiness after feeds, changes in stool frequency or consistency, or unusual irritability. No relevant medical history, medications, or allergies were mentioned. There were no abnormal clinical findings described by the parent or noted by the doctor during the visit. The doctor assessed that the infant is doing well overall with no concerning symptoms or changes in behavior, feeding, or development. The doctor advised that maintaining steady routines and monitoring for new symptoms is appropriate, and explained that common minor issues often resolve quickly if they do not persist or worsen. The parent was instructed to watch for warning signs such as persistent fever, difficulty feeding, unusual lethargy, or changes in skin color, and to reach out with any future concerns. No further issues were raised during the visit.
+The patient presented for a routine check-in with no specific chief complaint or symptoms. The caregiver reported no recent changes in the infant’s feeding, sleeping, behavior, growth, development, skin appearance, digestion, or mood. There were no recent illnesses, vaccinations, or concerning signs such as congestion, cough, fussiness after feeds, or changes in stool. The infant was described as meeting expected developmental milestones and appearing comfortable and healthy. No relevant medical history, medications, or allergies were discussed. The clinical assessment was that the infant is doing well overall with no concerning symptoms or findings. The doctor advised continued monitoring for new symptoms such as persistent fever, feeding difficulties, lethargy, or changes in skin color, and recommended maintaining regular check-ups. No specific treatment was required at this time; reassurance and anticipatory guidance were provided.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.934
-- **Similarity Label**: N/A
+- **STS Score**: 0.573
+- **Model Used**: general
+- **Text1 Length**: 188 words
+- **Text2 Length**: 132 words
+
 
 ## Processing Information
 

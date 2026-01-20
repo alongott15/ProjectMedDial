@@ -89,16 +89,21 @@ Does that explanation make sense, or is there anything else you’re concerned a
 
 ## EHR Summary
 
-The patient is a 73-year-old male presenting with recent onset of angina with exertion. Symptoms began shortly before admission and were confirmed by a positive exercise treadmill test (ETT) on 2165-3-13. Relevant history includes insulin-dependent diabetes mellitus, hypercholesterolemia, possible hypertension, and a remote history of smoking; current medications are pravachol, aspirin, and insulin. On physical examination, he was in no acute distress with normal cardiovascular and pulmonary findings. Laboratory results and electrocardiogram showed normal sinus rhythm with borderline first degree A-V block and left bundle branch block. The documented diagnoses were unstable angina and coronary artery disease, status post coronary artery bypass graft x4. Treatment included cardiac catheterization and coronary artery bypass grafting, with continuation of his prior medications.
+The patient is a 73-year-old male presenting with recent onset of angina with exertion. Symptoms included chest pain triggered by physical activity, leading to a positive exercise treadmill test and subsequent hospital admission. Relevant history includes insulin-dependent diabetes mellitus, hypercholesterolemia, possible hypertension, and a remote history of smoking; medications on admission included pravachol, aspirin, and insulin. The documented diagnoses were unstable angina and coronary artery disease, with significant three-vessel disease found on cardiac catheterization. The patient underwent urgent coronary artery bypass grafting x4 without significant complications. Postoperatively, he experienced good recovery, was started on beta blockade, and maintained on his insulin regimen for diabetes management. At discharge, he was stable, tolerating a regular diet, and free of anginal symptoms. Discharge instructions included a cardiac/diabetic diet, continuation of prescribed medications (including aspirin, lopressor, pravachol, lasix, and insulin), and follow-up with his cardiologist within 1-2 weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with episodes of rapid heartbeat, previously described as rapid atrial fibrillation with aberrant conduction. Symptoms included brief episodes of heart racing lasting a few minutes, occurring randomly without identifiable triggers, and resolving spontaneously; the patient reported feeling anxious and uneasy during episodes but denied lightheadedness, chest discomfort, or shortness of breath. No new medications, recent illnesses, or lingering effects after episodes were noted. Physical findings were not directly described, but the patient reported feeling back to normal quickly after each episode. The doctor assessed that the patient is experiencing brief, self-limited episodes of rapid heartbeat consistent with paroxysmal atrial fibrillation, without concerning associated symptoms. The doctor advised monitoring for new symptoms such as chest pain, fainting, or prolonged episodes, and recommended keeping track of episode frequency and characteristics. Additional advice included staying hydrated, limiting caffeine or alcohol if they worsen symptoms, and managing stress. The patient expressed understanding and agreed to monitor symptoms as suggested.
+The patient presents with episodes of rapid heartbeat, previously identified as rapid atrial fibrillation with aberrant conduction. The episodes began a few days ago, last a few minutes each, resolve spontaneously, and are not associated with chest pain, lightheadedness, dyspnea, or identifiable triggers; the main associated symptom is mild anxiety during the episodes. There are no lingering effects after the episodes, and the patient denies recent medication changes or illnesses. The clinical impression is brief, self-limited episodes of atrial fibrillation without severe symptoms. The doctor advised monitoring for new symptoms such as chest pain, syncope, or prolonged episodes, which would warrant urgent medical attention. The patient was instructed to keep a log of episodes, stay hydrated, and consider limiting caffeine or alcohol if they notice worsening symptoms. No new medications or interventions were initiated at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **STS Score**: 0.481
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 137 words
+
 
 ## Processing Information
 

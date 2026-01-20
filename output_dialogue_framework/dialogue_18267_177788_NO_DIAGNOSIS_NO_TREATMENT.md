@@ -87,16 +87,21 @@ Let’s talk about arranging prompt follow-up and what to watch for while you wa
 
 ## EHR Summary
 
-The patient is a 61-year-old male presenting with several days of progressive substernal chest pressure radiating to his left arm. The chest pain worsened over five days but responded to Pepcid and was not associated with exertion; he denied shortness of breath, lightheadedness, dizziness, palpitations, nausea, or vomiting. His past medical history includes coronary artery disease status post right coronary artery stent in 2121, type 2 diabetes mellitus on oral hypoglycemics, and hypercholesterolemia. On admission, blood pressure was 150/90 mmHg, heart rate in the 60s, and EKG showed ST elevations in V1-V4 with inferior reciprocal changes. Cardiac catheterization revealed a 100% ostial lesion of the left anterior descending artery. The documented diagnosis was acute ST-elevation myocardial infarction (STEMI). Treatment included placement of two Taxus stents in the LAD, and initiation of heparin, aspirin, Tirofiban, and Lopressor.
+The patient is a 61-year-old male presenting with several days of progressive substernal chest pressure radiating to his left arm. The chest pain worsened over five days but responded to Pepcid and was not associated with exertion; he denied shortness of breath, lightheadedness, palpitations, nausea, or vomiting. His past medical history includes coronary artery disease status post right coronary artery stent (2121), type 2 diabetes mellitus, and hypercholesterolemia; he has no known drug allergies. On admission, EKG showed anterior ST elevations and inferior ST depressions, and cardiac catheterization revealed a 100% ostial left anterior descending lesion, for which two Taxus stents were placed. The documented diagnoses were myocardial infarction status post PTCA/stent to the left anterior descending artery, type 2 diabetes mellitus, and hypercholesterolemia. Treatment included aspirin, Plavix, atorvastatin, Lisinopril, Metoprolol XL, Coumadin, and enoxaparin; his beta blocker and ACE inhibitor were titrated as tolerated. He was started on anticoagulation due to apical akinesis and reduced ejection fraction (20–25%) seen on echocardiogram. The patient was discharged home chest pain free, with follow-up arranged for echocardiogram, electrophysiology, and primary care, and instructions for INR monitoring to adjust Coumadin dosing.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pressure that has worsened over time and occasionally radiates to the left arm. The chest pressure began a few days ago, occurs intermittently, and is described as moderate in severity; it is triggered by physical activity such as walking up stairs or doing chores and resolves with rest. The patient denied associated symptoms such as shortness of breath, sweating, or lightheadedness. Relevant history includes coronary artery disease with prior stent placement, diabetes, and high cholesterol. On assessment, the doctor noted that the exertional chest pressure with relief at rest and history of coronary artery disease is concerning for possible angina. The doctor recommended prompt evaluation today, including an EKG and possibly other tests, and advised seeking emergency care if symptoms become severe, persist at rest, or are accompanied by new symptoms. The patient was counseled on warning signs to monitor while awaiting further evaluation.
+The patient is an adult presenting with chest pressure as the chief complaint. The chest pressure has been present for a few days, is moderate in severity, intermittent, and worsens with physical activity such as walking up stairs or doing chores; it radiates to the left arm and resolves with rest. The patient denies associated symptoms such as dyspnea, diaphoresis, or lightheadedness. Relevant history includes coronary artery disease with prior right coronary artery stent placement, diabetes, and hyperlipidemia. The clinical impression is possible angina, given the exertional nature of the chest discomfort and the patient’s cardiac history. The treatment plan includes prompt further evaluation with an EKG and possibly additional tests to assess for ongoing cardiac issues. The patient was advised to seek emergency care if symptoms become severe, last more than a few minutes at rest, or are accompanied by new symptoms. Arrangements for prompt follow-up and monitoring for warning signs were discussed.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.975
-- **Similarity Label**: N/A
+- **STS Score**: 0.628
+- **Model Used**: general
+- **Text1 Length**: 188 words
+- **Text2 Length**: 154 words
+
 
 ## Processing Information
 

@@ -96,3 +96,21 @@ In the meantime, try to keep your feet elevated when sitting, monitor your weigh
 ## Processing Information
 
 - **Processing Time**: 460.4s
+
+## EHR Summary
+
+The patient is an 80-year-old male presenting with two days of extreme shortness of breath at rest and dull 7/10 chest pain radiating to the left shoulder. Symptoms included paroxysmal nocturnal dyspnea, orthopnea requiring two pillows, peripheral edema, and hypoxia; physical exam revealed elevated jugular venous pressure, bilateral crackles, and lower extremity edema. Relevant history includes coronary artery disease (status post coronary artery bypass graft), type 2 diabetes with nephropathy, chronic renal failure, peripheral vascular disease, hyperlipidemia, and spinal stenosis; no known drug allergies. The documented diagnoses were non-ST-elevation myocardial infarction, acute exacerbation of congestive heart failure with hypoxia secondary to pulmonary edema, anemia, diabetes with acute hyperglycemia, chronic renal insufficiency, peripheral vascular disease, and delirium. Treatment included aspirin, Plavix, statin, heparin drip, nitroglycerin, morphine for chest pain, diuresis with Lasix and spironolactone, oxygen therapy, nebulizers, and optimization of cardiac and diabetic medications. The patient’s mental status improved with low-dose Zyprexa and family support. At discharge, the patient was stable and discharged home with services. Follow-up was arranged with primary care and cardiology.
+
+
+## Dialogue Summary
+
+The patient is an adult presenting with shortness of breath at rest as the chief complaint. Symptoms include a dull chest pain radiating to the left shoulder, worsening dyspnea when lying down (requiring two pillows to sleep), nocturnal episodes of sudden breathlessness, and bilateral leg and ankle swelling that worsens by day's end. The symptoms began a few days ago and have progressively worsened, now limiting basic activities such as walking around the home; the patient also reports confusion and agitation during severe episodes, with previously noted low oxygen levels. There is no reported dizziness or syncope. No recent changes in medications were reported. The clinical impression discussed was possible heart dysfunction leading to fluid overload, with symptoms attributed to inefficient cardiac pumping causing pulmonary and peripheral edema. The treatment plan included monitoring for symptom worsening, elevating feet when sitting, daily weight checks for rapid increases, avoiding salty foods, and seeking immediate medical attention if severe symptoms develop.
+
+
+## STS Evaluation
+
+- **STS Score**: 0.737
+- **Model Used**: general
+- **Text1 Length**: 173 words
+- **Text2 Length**: 158 words
+

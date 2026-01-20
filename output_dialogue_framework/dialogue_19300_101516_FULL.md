@@ -71,16 +71,21 @@
 
 ## EHR Summary
 
-The patient is a 54-year-old male presenting with chest pain. He experienced one episode of chest pain and one episode of shortness of breath during hospitalization. Relevant history includes ambiguous cardiac enzyme results and prior coronary artery disease with previous grafting. Cardiac catheterization revealed significant multi-vessel coronary artery stenosis, including 100% occlusion of the proximal left anterior descending artery and 99% mid-right coronary artery stenosis; a new coronary artery stent was placed in the saphenous vein graft to the obtuse marginal region. Physical examination and imaging ruled out pneumonia after initial concern from a misattributed chest x-ray. The documented diagnosis was multi-vessel coronary artery disease requiring stenting. Treatment included placement of a coronary artery stent, Integrilin drip post-procedure, and initiation of Plavix 75 mg daily for one month in addition to ongoing aspirin therapy. The patient was discharged on multiple medications including Celexa, aspirin, Plavix, metoprolol, norvasc, imdur, tricor, procrit, actos, and NPH insulin.
+The patient is a 54-year-old male presenting with an episode of chest pain and shortness of breath. He experienced one episode of chest pain and one episode of dyspnea during hospitalization; the chest pain prompted cardiac catheterization, and the dyspnea was evaluated with chest x-ray, which ultimately showed clear lung fields. Relevant history includes ambiguous cardiac enzyme results and significant coronary artery disease with multiple stenoses identified on catheterization. The documented diagnosis was congestive heart failure exacerbation. Treatment included placement of a new coronary artery stent, initiation of Integrilin drip, and daily Plavix and aspirin (with instructions to hold aspirin prior to a scheduled arteriovenous fistula evaluation). Additional discharge medications included Celexa, metoprolol, Norvasc, Imdur, Tricor, Procrit, Actos, NPH insulin, regular insulin, and Lasix. The patient was discharged in stable condition.
+
 
 ## Dialogue Summary
 
-The patient presented with persistent nausea and episodes of vomiting over the past couple of days. The nausea has made it difficult to finish meals, and vomiting typically occurs after eating or drinking; drinking is somewhat easier but still uncomfortable. The patient denied fever and changes in bowel movements but reported intermittent left-sided chest pain with a burning sensation, especially when burping, and noted that lying flat immediately worsens breathing while sitting up relieves it. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor considered possible causes such as acid reflux or esophageal irritation, given the burning chest pain and relief with burping. The doctor asked targeted questions about symptom timing, triggers, and characteristics to narrow down the diagnosis. No specific treatment plan or recommendations were provided during the conversation.
+The patient presents with persistent nausea and episodes of vomiting as the chief complaint. Symptoms have been ongoing for a couple of days, with difficulty eating due to nausea and occasional vomiting after meals; drinking fluids is somewhat easier but still uncomfortable. The patient denies fever or changes in bowel movements but reports intermittent left-sided chest pain with a burning quality, especially when burping, and experiences immediate shortness of breath (dyspnea) when lying flat, which is relieved by sitting up. The burning chest pain does not radiate but is associated with burping, suggesting possible acid reflux or esophageal irritation. Relevant medical history, medications, allergies, and a formal diagnosis are not specified in the dialogue. No specific treatment or recommendations were documented during this encounter.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.934
-- **Similarity Label**: N/A
+- **STS Score**: 0.481
+- **Model Used**: general
+- **Text1 Length**: 131 words
+- **Text2 Length**: 124 words
+
 
 ## Processing Information
 

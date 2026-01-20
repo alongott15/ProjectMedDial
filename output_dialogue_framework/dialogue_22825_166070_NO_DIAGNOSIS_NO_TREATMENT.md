@@ -97,16 +97,23 @@ Do you have any other concerns or questions about what we’ve discussed today?
 
 ## EHR Summary
 
-The patient is a 68-year-old male presenting with progressive anginal symptoms and abnormal exercise treadmill test. He reported intermittent left arm pain and chest tingling, with a history of positive stress test prompting referral for cardiac catheterization. Relevant history includes hypertension, hypercholesterolemia, angina, and gout; he has no known drug allergies and was taking aspirin, Lopid, Timolol, Dyazide, Imdur, colchicine, and Indocin on admission. On examination, he was afebrile with stable vital signs, clear lungs, and a regular heart rhythm without murmurs. Cardiac catheterization revealed multivessel coronary artery disease. The documented diagnosis was multivessel coronary artery disease. He was referred to Cardiothoracic Surgery for evaluation for coronary artery bypass grafting.
+The patient is a 68-year-old male presenting with progressive anginal symptoms and abnormal exercise treadmill test results. He reported intermittent left arm pain and chest tingling, with symptoms worsening over time and a positive stress test prompting further evaluation. His medical history includes hypertension, hypercholesterolemia, angina, and gout; he has no known drug allergies. Cardiac catheterization revealed multivessel coronary artery disease. The documented diagnoses were coronary artery disease, status post coronary artery bypass graft (CABG), angina, hypertension, high cholesterol, and gout. He underwent a three-vessel CABG and had an uncomplicated postoperative course, including management of gout and diuresis. Discharge medications included Lopressor, potassium chloride, indomethacin, colchicine, gemfibrozil, Percocet, Colace, aspirin, Zantac, and Lasix. The patient was discharged home in stable condition with instructions for follow-up with his primary care physician and cardiologist.
+
 
 ## Dialogue Summary
 
-The patient presented with worsening chest discomfort, particularly during physical activity. Symptoms included moderate chest pain that increases with exertion and improves with rest, intermittent left arm pain occurring alongside chest discomfort, and occasional tingling in the chest; the patient denied shortness of breath, sweating, or lightheadedness. The chest discomfort has become more frequent and bothersome over the past few months, making daily activities such as walking and shopping more difficult; resting and taking prescribed medications help alleviate symptoms. The patient also reported new pain and swelling in the right lower calf. On assessment, the doctor noted that the chest pain pattern and associated arm discomfort are suggestive of angina, and highlighted the progression of symptoms as significant. The doctor further advised that the right calf pain and swelling could indicate a possible deep vein thrombosis and should be promptly discussed with the patient's regular doctor. Recommendations included avoiding strenuous activities that trigger symptoms, continuing prescribed medications, monitoring for changes, and seeking immediate care if symptoms worsen or new severe symptoms develop.
+The patient is an adult presenting with worsening chest discomfort as the main complaint. The chest pain is described as moderate in severity, triggered by physical activity such as walking, and relieved by rest and medications; it has become more frequent and bothersome over the past few months. The patient also reports intermittent left arm pain occurring with chest discomfort, occasional tingling in the chest, and new pain and swelling in the right lower calf. There is no associated dyspnea, diaphoresis, or lightheadedness.
+
+Relevant history regarding past medical conditions, specific medications, or allergies is not specified. The clinical impression documented is angina, likely due to exertional myocardial ischemia, with concern for possible progression given symptom worsening. The new right lower calf pain and swelling raise concern for possible deep vein thrombosis (DVT), and the patient was advised to inform their regular doctor promptly for further evaluation. The treatment plan includes continuing current medications, avoiding strenuous activity, monitoring symptoms closely, and seeking prompt care if symptoms worsen or new severe symptoms develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **STS Score**: 0.586
+- **Model Used**: general
+- **Text1 Length**: 132 words
+- **Text2 Length**: 171 words
+
 
 ## Processing Information
 

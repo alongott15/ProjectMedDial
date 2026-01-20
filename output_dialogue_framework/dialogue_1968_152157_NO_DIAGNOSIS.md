@@ -87,16 +87,21 @@ If you have any questions about what to expect at the hospital or what tests mig
 
 ## EHR Summary
 
-The patient is a 44-year-old male presenting with chest pain, nausea, and vomiting. Symptoms began the night prior to admission, including persistent substernal chest pain described as pressure with tingling down the left upper extremity, sweats, and chills; symptoms were not relieved by water, aspirin, or Rolaids. Relevant history includes hypercholesterolemia, gastroesophageal reflux disease, borderline hypertension, tobacco abuse (20 pack-year history), and a family history of cardiac disease. On arrival at the outside hospital, blood pressure was elevated at 200/100 mmHg. The documented clinical impression suggests an acute coronary syndrome given the presentation and cardiac risk factors. Treatment included initiation of nitroglycerin drip, IV Lopressor, aspirin, Aggrastat drip, Heparin drip, and supplemental oxygen. The patient was transferred to the CCU for further management.
+The patient is a 44-year-old male presenting with chest pain, nausea, and vomiting. His symptoms began the night prior to admission, including substernal chest pain described as pressure with tingling down the left upper extremity, associated with sweats and chills, and were not relieved by aspirin or Rolaids. Relevant history includes hypercholesterolemia, gastroesophageal reflux disease, borderline hypertension, tobacco abuse (20 pack-year history), and a family history of cardiac disease. On admission, his blood pressure was elevated at 200/100 mmHg, and he was started on nitroglycerin, IV Lopressor, aspirin, Aggrastat, and heparin. The documented diagnosis was inferior wall myocardial infarction. He underwent successful right circumflex artery stenting and required a temporary pacer wire for reflex bradycardia during the procedure. At discharge, he was stable and prescribed aspirin, Plavix, Lipitor, Lisinopril, Toprol XL, and Lasix, with counseling to quit smoking and instructions for follow-up with cardiology and primary care.
+
 
 ## Dialogue Summary
 
-The patient presented with chest pain as the chief complaint. Symptoms included intermittent chest pain that began a few days ago, accompanied by nausea, vomiting, sweats, chills, and tingling down the left arm during episodes; each episode lasts 10–15 minutes and occurs randomly without clear triggers, significantly impacting daily activities. The patient reported that symptoms have remained unchanged since onset. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the combination of chest pain with associated symptoms could indicate a heart-related problem and expressed concern due to the random onset and interruption of routine activities. The doctor strongly recommended immediate evaluation in an emergency setting to rule out urgent cardiac issues and advised the patient to seek emergency care right away if symptoms worsen or are currently present. The patient acknowledged understanding and agreed to follow the recommendation.
+The patient is an adult presenting with chest pain as the chief complaint. The chest pain is described as episodic, lasting 10–15 minutes, and has been present for a few days without improvement. Associated symptoms include nausea, vomiting, sweats, chills, and tingling radiating down the left arm, with episodes occurring randomly and significantly impacting daily activities. There are no clear triggers such as physical activity or eating. Relevant past medical history, medications, and allergies are not specified in the dialogue. The clinical impression is that the constellation of symptoms raises concern for a possible heart-related problem, though no definitive diagnosis is documented. The physician strongly recommended immediate evaluation in an emergency setting to rule out urgent cardiac conditions. The patient was advised to seek emergency care promptly and to call emergency services if symptoms worsen.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.974
-- **Similarity Label**: N/A
+- **STS Score**: 0.606
+- **Model Used**: general
+- **Text1 Length**: 147 words
+- **Text2 Length**: 135 words
+
 
 ## Processing Information
 

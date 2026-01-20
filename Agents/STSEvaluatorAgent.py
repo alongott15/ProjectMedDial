@@ -21,7 +21,7 @@ class STSEvaluatorAgent:
         'clinical': 'emilyalsentzer/Bio_ClinicalBERT'
     }
 
-    def __init__(self, model_name: str = 'medical'):
+    def __init__(self, model_name: str = 'general'):
         """
         Initialize STSEvaluatorAgent.
 

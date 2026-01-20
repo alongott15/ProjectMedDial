@@ -85,16 +85,23 @@ Given your symptoms, I’d advise arranging a prompt medical evaluation today to
 
 ## EHR Summary
 
-The patient is a 49-year-old male presenting with vomiting and melena. He reported lethargy, fatigue, and continued to have melanotic stools over several days. His medical history includes alcoholic cirrhosis, hepatitis C, gastritis, duodenitis, and multiple prior upper gastrointestinal bleeds. On presentation, vital signs were stable but hematocrit was decreased to 23.4. Physical exam findings included ongoing gastrointestinal bleeding. The documented diagnosis was recurrent upper gastrointestinal bleeding in the setting of cirrhosis and portal hypertension. Treatment included transfusion of 6 units of packed red blood cells at an outside hospital, admission to the Medical Intensive Care Unit, and plans for esophagogastroduodenoscopy and observation.
+The patient is a 49-year-old male presenting with melena, lethargy, and fatigue. He reported melanotic stools and a drop in hematocrit to 23.4, with physical exam notable for icteric sclerae, ascites, lower extremity edema, slurred speech, and asterixis. His medical history includes alcoholic cirrhosis (hepatitis C-induced), portal hypertension, recurrent upper gastrointestinal bleeds, type 2 diabetes mellitus, and prior transjugular intrahepatic portosystemic shunt (TIPS) complicated by hepatic infarction. The documented diagnoses were gastrointestinal bleed, thrombocytopenia, alcoholic liver cirrhosis, portal hypertension, encephalopathy, anemia, and decreased patency of the original TIPS (status post revision with good flow). Treatment included TIPS revision with angioplasty and coiling of a spontaneous splenorenal shunt, heparin infusion for shunt patency, and supportive care with lactulose, spironolactone, pantoprazole, multivitamins, thiamine, and folic acid. The patient was also started on ciprofloxacin for spontaneous bacterial peritonitis prophylaxis and managed with insulin sliding-scale for diabetes. He was discharged home in good condition with instructions to follow up in the Liver Clinic within one to two weeks.
+
 
 ## Dialogue Summary
 
-The patient presented with vomiting and black, tarry stools. Symptoms included increased fatigue and weakness, onset of dark stools and tiredness a couple of days ago, vomiting without blood, consistently black stools, and reduced appetite with decreased food intake. The patient denied dizziness, fainting, or blood in vomit, and reported that fatigue and weakness had remained stable since onset. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the combination of melena (black, tarry stools), vomiting, and fatigue, without signs of acute deterioration. The doctor assessed that these symptoms may indicate gastrointestinal bleeding, likely from the upper digestive tract. The treatment plan included avoiding NSAIDs such as ibuprofen or aspirin, maintaining hydration, monitoring for severe symptoms (abdominal pain, vomiting blood, feeling faint), and arranging prompt medical evaluation to check blood levels and determine further treatment needs.
+The patient is an adult presenting with vomiting and black, tarry stools as the chief complaint. Symptoms began a couple of days ago and include persistent fatigue, weakness, reduced appetite, and consistently black, tarry stools; there has been no dizziness, fainting, or blood in vomitus. The patient reports no worsening of fatigue or weakness since onset. Relevant history regarding medications, allergies, or prior conditions was not specified.
+
+The clinical impression is possible gastrointestinal bleeding, likely from the upper digestive tract, based on the combination of melena (black stools), vomiting, and fatigue. The physician advised avoiding NSAIDs such as ibuprofen or aspirin, maintaining hydration, and monitoring for warning signs including severe abdominal pain, hematemesis (vomiting blood), or syncope. The treatment plan includes arranging a prompt medical evaluation to check blood levels and determine if further intervention is needed. The patient understood and agreed to seek evaluation the same day.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
+- **STS Score**: 0.524
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 148 words
+
 
 ## Processing Information
 

@@ -85,16 +85,23 @@ For now, keep an eye out for any new symptoms—such as pain, fever, difficulty 
 
 ## EHR Summary
 
-The patient is a 74-year-old male presenting with hematuria. He reported blood in the urine, and cystoscopy revealed an enlarged, friable prostate, while a CT scan identified a 7.3 x 6.0 cm left adrenal mass; urine catecholamines were negative. His relevant history includes benign prostatic hypertrophy, coronary artery disease (EF 45%), hypercholesterolemia, sleep apnea (on BIPAP), prior knee and carpal tunnel surgeries, and depression; he takes Zoloft, Terazosin, Lipitor, Diovan, Diltiazem, aspirin, and Flovent, with no known drug allergies. On examination, he was afebrile with stable vital signs, a soft nontender abdomen, clear lungs, and no edema. The documented diagnosis was left adrenal mass and hematuria likely secondary to prostatic hypertrophy. He underwent a left adrenalectomy, tolerated the procedure well, and received one unit of packed red blood cells for a hematocrit of 28. Postoperatively, he was started on a hydrocortisone taper (completed by day three) and monitored in the ICU before transfer to the floor; he remained hemodynamically stable and was ruled out for myocardial infarction.
+The patient is a 74-year-old male presenting with hematuria. He reported blood in the urine, and cystoscopy revealed an enlarged, friable prostate possibly causing the hematuria; a CT scan also identified a 7.3 x 6.0 cm left adrenal mass. His relevant history includes benign prostatic hypertrophy, coronary artery disease (EF 45%), hypercholesterolemia, sleep apnea, prior knee and carpal tunnel surgeries, and depression; he has no known drug allergies. The documented diagnoses were status post adrenalectomy, coronary artery disease, sleep apnea, benign prostatic hypertrophy, and depression. He underwent a left adrenalectomy, tolerated the procedure well, and required one unit of packed red blood cells postoperatively. Postoperative care included a hydrocortisone taper, pain management, and physical therapy evaluation. He was discharged in stable condition to a rehabilitation facility with follow-up arranged in two to three weeks. Discharge medications included Zoloft, Lipitor, Diltiazem, Diovan, Flomax, aspirin, Isordil, Percocet, Flovent, and Colace.
+
 
 ## Dialogue Summary
 
-The patient presented with blood in the urine (hematuria) as the chief complaint. They reported noticing consistently red-colored urine for a few days, without any pain, burning, or discomfort during urination, and denied seeing any clots. The patient stated there were no changes in urinary frequency, no difficulty starting or stopping the stream, and no recent changes in medications, supplements, or diet; they also reported feeling otherwise well and able to perform daily activities as usual. No relevant past medical history, medications, or allergies were mentioned. On review, there were no associated symptoms such as fever, pain, or urinary difficulties. The doctor assessed that the hematuria was painless and persistent, with possible causes including mild irritation, enlarged prostate, urinary tract infection (even without pain), or small blood vessel bleeding, but noted that the absence of pain or other symptoms made infection or urgent causes less likely. The doctor recommended urine testing and possibly blood work for further evaluation and advised the patient to monitor for new symptoms such as pain, fever, difficulty urinating, or passing clots, and to seek prompt care if these develop. The patient understood and agreed to follow up with testing and monitoring.
+The patient is an adult presenting with hematuria (blood in the urine) as the chief complaint. The patient reports noticing red-colored urine consistently for a few days, without associated pain, burning, urinary frequency changes, difficulty starting or stopping urination, or visible clots. There are no recent changes in medications, supplements, or diet, and the patient denies any impact on daily activities or other symptoms such as fever. Relevant medical history, allergies, and current medications are not specified.
+
+The clinical impression is hematuria of unclear etiology, with possible causes discussed including mild irritation, enlarged prostate, urinary tract infection (UTI), or small blood vessel rupture. The physician notes that the absence of pain, fever, or urinary difficulty makes infection or urgent causes less likely. The treatment plan includes ordering a urine test and possibly blood work for further evaluation. The patient is advised to monitor for new symptoms (pain, fever, difficulty urinating, or passing clots) and to seek prompt medical attention if these occur.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **STS Score**: 0.581
+- **Model Used**: general
+- **Text1 Length**: 148 words
+- **Text2 Length**: 162 words
+
 
 ## Processing Information
 

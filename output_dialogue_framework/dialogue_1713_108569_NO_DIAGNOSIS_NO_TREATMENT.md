@@ -87,16 +87,21 @@ Let’s make sure we monitor your symptoms closely. If the pain persists beyond 
 
 ## EHR Summary
 
-The patient is a 70-year-old male presenting with epigastric pain for several hours that migrated to the right upper quadrant. He denied nausea, vomiting, or prior similar episodes. His past medical history includes brain metastasis secondary to renal carcinoma, status post left nephrectomy, and a prior myocardial infarction; current medications include Dilantin, Lipitor, and folic acid. On examination, he was alert and oriented, with right upper quadrant abdominal tenderness and voluntary guarding; laboratory studies were within normal limits, and abdominal ultrasound showed a distended gallbladder with stones and a positive sonographic Murphy's sign, but no wall thickening or pericholecystic fluid. The documented diagnosis was gallstone disease with acute cholecystitis. He was admitted, started on antibiotics, and made NPO. The patient underwent a laparoscopic cholecystectomy that was converted to an open cholecystectomy, and postoperatively received Lopressor, Levofloxacin, Flagyl, and subcutaneous Heparin.
+The patient is a 70-year-old male presenting with several hours of epigastric pain that migrated to the right upper quadrant, without associated nausea, vomiting, or prior episodes. Examination revealed right upper quadrant tenderness and voluntary guarding; laboratory studies were notable for a normal white count and abdominal ultrasound showed a distended gallbladder with stones and a positive sonographic Murphy's sign. Relevant history includes brain metastasis secondary to renal carcinoma (status post left nephrectomy), and prior myocardial infarction; current medications include Dilantin, Lipitor, and folic acid. The documented diagnosis was cholecystitis. The patient was treated with antibiotics, made NPO, and underwent a laparoscopic cholecystectomy converted to open cholecystectomy, followed by postoperative antibiotics, heparin, and oxygen therapy. Postoperatively, he experienced an episode of unresponsiveness requiring Narcan and ICU monitoring, as well as transient shortness of breath managed with supplemental oxygen. At discharge, he remained stable but required oxygen to maintain saturations above 90% and had slightly unsteady ambulation. He was discharged to a rehabilitation facility with oxygen and physical therapy, and prescribed atenolol, Percocet as needed for pain, Dilantin, Lipitor, folic acid, Combivent inhaler, and oxygen.
+
 
 ## Dialogue Summary
 
-The patient presented with upper abdominal pain that migrated to the right side under the ribs. The pain began a few days ago, started above the belly button, and moved to the right upper quadrant; it is described as a dull ache, rated 6 out of 10 at worst, steady in nature, and worsened somewhat by movement but not affected by eating or lying down. The patient denied nausea, vomiting, appetite changes, fever, jaundice, dark urine, cough, chest discomfort, or leg swelling, but reported mild shortness of breath and requires oxygen to keep saturations above 90%. On examination, there was tenderness on the right side of the abdomen. The doctor assessed that the pain pattern and location are suggestive of possible gallbladder irritation or inflammation, with other considerations including liver irritation or muscle strain, but gallbladder issues are more likely. The doctor advised avoiding heavy or fatty meals, monitoring for warning signs such as fever, chills, jaundice, worsening shortness of breath, or severe pain, and seeking prompt care if these occur. If symptoms persist or worsen, the doctor recommended follow-up for an exam and possible blood tests or ultrasound.
+The patient is an adult presenting with upper abdominal pain that began centrally above the umbilicus and migrated to the right upper quadrant under the ribs. The pain is described as a dull ache, rated 6 out of 10 at its worst, steady over several days, and worsened somewhat by movement but not affected by eating or lying down. There is associated right-sided abdominal tenderness and new mild dyspnea requiring supplemental oxygen to maintain saturations above 90%, but no nausea, vomiting, fever, jaundice, dark urine, cough, chest discomfort, or leg swelling. Relevant history includes the need for supplemental oxygen; no other medical history, medications, or allergies were specified. The clinical impression is possible gallbladder irritation or inflammation, with other considerations including liver irritation or muscle strain, though gallbladder pathology is considered most likely based on symptom pattern. The patient was advised to avoid heavy or fatty meals and to monitor for warning signs such as fever, chills, jaundice, worsening dyspnea, or severe pain. If symptoms persist or worsen, follow-up with examination and possible blood tests or abdominal ultrasound was recommended.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.966
-- **Similarity Label**: N/A
+- **STS Score**: 0.708
+- **Model Used**: general
+- **Text1 Length**: 184 words
+- **Text2 Length**: 180 words
+
 
 ## Processing Information
 

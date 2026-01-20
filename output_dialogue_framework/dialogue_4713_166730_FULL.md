@@ -85,16 +85,21 @@ Let me know if you have any questions about what we've discussed or if you'd lik
 
 ## EHR Summary
 
-The patient is a 58-year-old male presenting with exertional chest heaviness and arm pain experienced over two months, primarily during physical activity such as remodeling his kitchen. He reported several episodes of paroxysmal nocturnal dyspnea, dyspnea on exertion, episodic light-headedness, claudication, edema, and right lower back pain. His past medical history includes chronic obstructive pulmonary disease, noninsulin dependent diabetes mellitus, hypertension, hyperlipidemia, transient ischemic attack, chronic back pain, and prior pneumonia. On physical examination, his lungs were clear, heart rate was regular with a II/VI systolic ejection murmur, and no peripheral edema was noted. A stress test revealed electrocardiographic changes and an anterior wall defect. The documented plan was admission for cardiac catheterization to further evaluate his cardiac symptoms. Medications on admission included aspirin, Norvasc, Cartia, Glucotrol, Lescol, Celebrex, Neurontin, quinine, Nexium, Duragesic patch, nitroglycerin patch, hydrocodone as needed, and inhalers for COPD.
+The patient is a 58-year-old male presenting with two months of exertional chest heaviness and arm pain, as well as episodes of paroxysmal nocturnal dyspnea, dyspnea on exertion, light-headedness, claudication, and edema. Symptoms were noted during physical activity, specifically while remodeling his kitchen, and he also reported right lower back pain. His past medical history includes chronic obstructive pulmonary disease, noninsulin dependent diabetes mellitus, hypertension, hyperlipidemia, chronic back pain, and a prior transient ischemic attack. Cardiac evaluation revealed multivessel coronary artery disease following abnormal stress test findings. The documented diagnosis was multivessel coronary artery disease. He underwent coronary artery bypass grafting (CABG x5) and had an uncomplicated postoperative course with gradual improvement and physical therapy. Discharge medications included aspirin, Lasix, isosorbide dinitrate, Lopressor, and other supportive therapies. The patient was discharged in stable condition with instructions for follow-up care and home physical therapy services.
+
 
 ## Dialogue Summary
 
-The patient presented with a heavy feeling in the chest during physical activity. Symptoms included chest heaviness and moderate arm pain triggered by exertion, shortness of breath both during activity and occasionally at night, lightheadedness during episodes, and pain in the legs with walking (possible claudication); symptoms improved with rest and did not occur at rest. No sweating, neck, or jaw pain was reported. No relevant medical history, medications, or allergies were mentioned. The doctor noted that the symptoms were exertional and relieved by rest, with associated shortness of breath at night. The assessment was possible exertional angina, with concern for heart-related issues. The doctor advised avoiding strenuous activities, recommended heart tests including EKG and possibly a stress test, and instructed the patient to seek immediate care if symptoms worsen or occur at rest.
+The patient presents with a chief complaint of chest heaviness during physical activity. Symptoms include a moderate, activity-induced heavy sensation in the chest accompanied by arm pain, shortness of breath, and occasional lightheadedness, all of which resolve with rest; the symptoms have been present for a couple of weeks and remain unchanged. The patient also reports nocturnal shortness of breath and intermittent leg pain with walking. No chest discomfort occurs at rest, and there is no associated sweating. Relevant history, medications, and allergies are not specified. The clinical impression documented by the doctor is exertional angina, possibly indicating reduced cardiac oxygen supply during exertion. The treatment plan includes avoiding strenuous activities, arranging for an EKG and possibly a stress test, and instructions to seek immediate medical attention if symptoms worsen or occur at rest.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
+- **STS Score**: 0.634
+- **Model Used**: general
+- **Text1 Length**: 144 words
+- **Text2 Length**: 134 words
+
 
 ## Processing Information
 

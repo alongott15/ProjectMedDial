@@ -87,16 +87,23 @@ Does anything in particular seem to trigger these episodes, or do they come on r
 
 ## EHR Summary
 
-The patient is a 49-year-old male presenting with acute mental status changes and unresponsiveness. He was found at his nursing home to be minimally responsive, diaphoretic, and cyanotic, with vital signs showing hypotension (BP 90/60), tachycardia (HR 113), tachypnea (RR 28), and oxygen saturation of 95% on room air. His medical history includes developmental delay and a recent hospitalization for mental status changes, hypernatremia (sodium 159), urinary tract infection, and community-acquired pneumonia. On this admission, he had been eating less than 25% of his meals over the preceding three days and was unintelligible on questioning. Physical exam findings included altered mental status and abnormal vital signs as noted above. The documented diagnosis was severe hypernatremia with associated toxic metabolic encephalopathy. Treatment in the Emergency Department included aggressive intravenous hydration.
+The patient is a 49-year-old male presenting with mental status changes and unresponsiveness. He was found minimally responsive, diaphoretic, and cyanotic at his nursing home, with hypotension (BP 90/60), tachycardia (HR 113), tachypnea (RR 28), and oxygen saturation of 95% on room air. On admission, laboratory studies revealed severe hypernatremia (sodium 171), acute renal failure (creatinine 4.3), leukocytosis, and evidence of dehydration (dry mucous membranes, poor skin turgor). His past medical history includes developmental delay, juvenile rheumatoid arthritis, and a possible psychiatric disorder; he is allergic to aspirin. The documented diagnoses were developmental delay, possible schizoaffective or schizophrenic disorder, altered mental status due to toxic metabolic syndrome, hypernatremia, acute renal failure, and sacral decubitus ulcers. Treatment included aggressive intravenous hydration to correct hypernatremia and renal failure, vitamin K for elevated INR, wound care for sacral ulcers (Dakin’s dressings, miconazole powder), nutritional support with total parenteral nutrition and supplements, and discontinuation of Haldol due to somnolence. At discharge, his condition was stable and he was sent to rehabilitation for continued care, physical therapy, and nutritional support.
+
 
 ## Dialogue Summary
 
-The patient presented with concerns about running a fever. They reported episodes of fluctuating mental sharpness, feeling foggy, and occasional confusion, which occur throughout the day and last from one to several hours; these episodes are associated with difficulty eating, not due to nausea or loss of appetite but rather due to feeling mentally foggy. The patient measured their temperature at around 100.5°F and denied chills, sweating, headaches, or body aches. No specific medical history, medications, or allergies were mentioned. The doctor noted that the mild fever and waxing and waning mental clarity are impacting daily activities and are not typical of simple viral illnesses. The assessment included consideration of dehydration, blood sugar changes, or subtle infection as possible contributors. The doctor advised the patient to track the timing and possible triggers of these episodes, maintain hydration, rest, and seek prompt care if symptoms worsen or new concerning signs develop.
+The patient presents with the chief complaint of fever. The fever has been measured at approximately 100.5°F and is associated with episodes of fluctuating mental clarity, described as feeling foggy and sometimes confused, which intermittently impair the patient's ability to eat and perform daily activities. These episodes occur randomly throughout the day, lasting one to two hours or longer, and are not accompanied by chills, sweating, headaches, body aches, nausea, or loss of appetite. The patient denies any specific triggers for these episodes.
+
+No specific diagnosis was documented; however, the clinician noted that waxing and waning mental status is uncommon with simple viral illnesses and considered possible contributing factors such as dehydration, blood sugar changes, or subtle infection. The treatment plan included recommendations to monitor and record episode timing and potential triggers, maintain adequate hydration, and rest. The patient was advised to seek prompt care if symptoms worsen or new concerning features develop. No medications or further diagnostic tests were prescribed at this time.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
+- **STS Score**: 0.463
+- **Model Used**: general
+- **Text1 Length**: 175 words
+- **Text2 Length**: 164 words
+
 
 ## Processing Information
 

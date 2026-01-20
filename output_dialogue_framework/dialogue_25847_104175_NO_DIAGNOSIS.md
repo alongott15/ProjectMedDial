@@ -85,16 +85,21 @@ Has the pain in your legs and the shortness of breath been getting worse over ti
 
 ## EHR Summary
 
-The patient is a 62-year-old male presenting with left groin wound dehiscence and bleeding following recent vascular surgery for bilateral claudication. He reported an unsteady gait over several days prior to the wound complication and was noted to be short of breath when supine. His medical history includes diabetes, hypertension, hyperlipidemia, coronary artery disease, peripheral vascular disease, and a history of MRSA infection; he is allergic to penicillin. On exam, he was afebrile with stable vital signs, had a 4 x 1.5 inch open left groin wound with serous drainage but no exposed graft, and palpable pulses in all extremities. The patient experienced a myocardial infarction during his hospital course and was transferred to cardiology for further management of his coronary artery disease. Treatment included wound exploration and closure with a Prolene stitch, as well as medications such as vancomycin, Tequin, Lopressor, aspirin, thiamine, folate, and diazepam.
+The patient is a 62-year-old male presenting with bilateral claudication and complications following recent right superficial femoral artery (SFA) angioplasty and left femoral-popliteal bypass. He developed a left groin wound dehiscence with bleeding, followed by graft infection, arterial bleeding, and subsequent limb ischemia leading to necrosis. His history includes diabetes, hypertension, coronary artery disease, peripheral vascular disease, hyperlipidemia, and prior MRSA infection; he is allergic to penicillin. The clinical course was complicated by myocardial infarction, persistent wound infection with MRSA and yeast, and progressive left lower extremity ischemia requiring multiple surgeries, including debridement, bypass procedures, and ultimately left below-knee amputation. The documented diagnoses include infected vascular graft, limb ischemia, and postoperative wound infections. Treatment included multiple surgical interventions, broad-spectrum antibiotics (vancomycin, Zosyn, Flagyl), antifungal therapy (fluconazole), anticoagulation, cardiac management, ventilatory support with tracheostomy, and nutritional support via jejunostomy tube. At discharge, the patient required ongoing vancomycin via PICC for six weeks, tracheostomy care, wound care for the groin and stump, physical therapy, and follow-up with vascular surgery.
+
 
 ## Dialogue Summary
 
-The patient presented with pain in both legs when walking, which has made mobility and daily activities such as climbing stairs and moving around the house more difficult. The pain typically builds up after walking for a while, worsens with continued movement, and improves with rest; it does not linger once the patient stops moving. The patient reported feeling unsteady on their feet but denied any falls, numbness, tingling, or leg weakness. These symptoms have gradually worsened over the past few weeks or longer, and the patient also experiences shortness of breath when lying down, which improves with sitting up or using extra pillows. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the pattern of leg pain is consistent with claudication, possibly due to reduced blood flow, and that the positional shortness of breath may suggest fluid buildup or heart-related issues. The doctor advised monitoring for worsening symptoms such as pain at rest, leg swelling, or sudden weakness, and explained the importance of tracking changes in severity over time.
+The patient is an adult presenting with bilateral leg pain during walking as the chief complaint. The pain develops after walking for a while, worsens with continued movement, and improves with rest; it has been progressively worsening over several weeks. The patient reports increased difficulty with daily activities such as climbing stairs and walking around the house, as well as feeling unsteady on their feet, though there is no history of falls, numbness, or leg weakness. Additionally, the patient experiences shortness of breath when lying flat, which improves with sitting up or using extra pillows. Relevant history regarding medications or other medical conditions is not specified. The clinical impression documented by the physician is claudication, likely due to reduced blood flow to the legs, with possible contribution from heart-related issues suggested by orthopnea. The physician advised monitoring for worsening symptoms such as pain at rest, leg swelling, or sudden weakness and emphasized the importance of observing for any changes at home.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.940
-- **Similarity Label**: N/A
+- **STS Score**: 0.350
+- **Model Used**: general
+- **Text1 Length**: 167 words
+- **Text2 Length**: 161 words
+
 
 ## Processing Information
 

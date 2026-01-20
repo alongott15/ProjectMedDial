@@ -59,16 +59,21 @@
 
 ## EHR Summary
 
-The patient is a 28-year-old female presenting after being found unresponsive at home with associated hypothermia (86.0°F), urinary incontinence, and burns to her back and right arm. The episode was preceded by a loud thump, and she was noted to have clenched jaws but no observed tonic-clonic movements or tongue biting. Her past medical history includes a single seizure episode 19 years ago, intravenous drug use, depression, and recent detoxification for heroin. Current medications include Celexa, Klonopin, Percocet, Doxepin, and Seroquel; she has no known drug allergies. On arrival, she was unresponsive and hypothermic but responded to two doses of Narcan with gradual improvement and was treated with warm intravenous saline and warming blankets. Physical examination described her as generally well-appearing and in no acute distress. No explicit diagnosis was documented in the note. The treatment plan included supportive care for hypothermia and burns, as well as administration of Narcan for suspected overdose.
+The patient is a 28-year-old female presenting after being found unresponsive at home, with a history of a prior seizure, intravenous drug use, and depression. She was discovered lying on the ground, unresponsive, incontinent of urine, and with burns to her back and right arm; her mouth was clenched shut but no tonic-clonic movements or tongue biting were observed. On arrival, she was hypothermic (86.0°F) and responded to Narcan administration, with subsequent improvement in mental status and temperature. Her past medical history includes a single seizure episode 19 years prior, recent detoxification for heroin, and ongoing use of Percocet and Klonopin; she has no known drug allergies. The documented diagnoses were seizure, third degree burns, depression, and possible ongoing substance abuse. Treatment included initiation of Trileptal for seizure prevention, wound care with silver sulfadiazine for burns, continuation of Celexa for depression, discontinuation of Seroquel and Doxepin, and as-needed lorazepam and ibuprofen. She was discharged with instructions for follow-up with Neurology, Psychiatry, and Plastic Surgery.
+
 
 ## Dialogue Summary
 
-The patient presented with concern after being found unresponsive at home. They reported burns on their back and right arm, though the severity was uncertain. The patient also described urinary incontinence, noting wet clothing following the episode. No additional medical history, medications, or allergies were mentioned. The doctor inquired about the characteristics of the burns (blistering, redness, pain, or white/charred areas) to assess severity, but no further details were provided. No physical examination findings were documented in the conversation. The doctor did not state a specific assessment or working diagnosis. No treatment plan or recommendations were given during the dialogue.
+The patient presents with a chief complaint of being found unresponsive at home. They report burns on the back and right arm, though the severity is uncertain, and there was associated urinary incontinence noted when found. The duration of unresponsiveness is not specified, and the patient is unsure about the circumstances leading to the event. No additional medical history, medications, or allergies are documented in this dialogue. The clinical impression is not explicitly stated, but the physician is assessing for possible causes of unresponsiveness and evaluating burn severity. No formal diagnosis is documented in the conversation. The treatment plan has not yet been specified, as the physician is still gathering information about the burns and the episode.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
+- **STS Score**: 0.475
+- **Model Used**: general
+- **Text1 Length**: 164 words
+- **Text2 Length**: 117 words
+
 
 ## Processing Information
 

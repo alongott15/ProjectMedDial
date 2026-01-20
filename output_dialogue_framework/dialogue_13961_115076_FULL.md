@@ -87,16 +87,21 @@ Let me know if you have any questions about what I’ve shared or if there’s a
 
 ## EHR Summary
 
-The patient is a 68-year-old male presenting with stable exertional chest discomfort that is relieved with rest. The chest discomfort occurs with physical activity and subsides when the patient rests, suggesting a pattern consistent with stable angina. No additional symptom characteristics, relevant medical history, medications, or allergies are documented in this note. There are no physical exam findings or test results provided. The documented diagnosis is not explicitly stated but the clinical impression appears to be stable angina. No specific treatment plan or recommendations are included in the provided text.
+The patient is a 68-year-old male presenting with stable exertional chest discomfort that is relieved with rest. The chest discomfort occurs during physical activity and subsides when the patient rests, suggesting a pattern consistent with stable angina. No additional symptom characteristics, duration, or associated factors are specified in the note. Relevant past medical history, current medications, and allergies are not documented. The clinical impression appears to be stable angina based on the described symptoms. No specific diagnosis, treatment plan, or recommendations are documented in this excerpt.
+
 
 ## Dialogue Summary
 
-The patient presented with chest discomfort occurring during physical activity. The discomfort was described as a tightness or pressure in the chest, rated as mild to moderate, and was not associated with radiation to the arm, neck, or jaw, nor with shortness of breath, lightheadedness, or sweating. The episodes have been ongoing for an unspecified period, are triggered by more strenuous activities such as walking uphill, and resolve within a few minutes of rest; the patient has adjusted activity levels accordingly but remains able to perform most daily tasks. The patient denied any history of heart conditions, high blood pressure, or high cholesterol. On assessment, the doctor noted the exertional nature and rapid resolution of symptoms, and explained that this pattern is consistent with "stable angina." The doctor advised the patient to avoid strenuous activities for now and recommended follow-up with a primary doctor for further evaluation, possibly including an EKG or stress test. The patient was instructed to seek immediate medical attention if symptoms occur at rest, last longer than usual, or are accompanied by severe pain, shortness of breath, or sweating.
+The patient presents with chest discomfort during physical activity as the chief complaint. The discomfort is described as a tightness or pressure in the chest, rated as mild to moderate, and is triggered by more strenuous activities such as walking uphill; it resolves within a few minutes of rest and is not associated with dyspnea, lightheadedness, or diaphoresis. The patient reports no prior history of heart conditions, hypertension, or hyperlipidemia. The clinical impression documented is stable angina, based on the exertional nature and relief with rest. The treatment plan includes advising the patient to avoid strenuous activities for now and to schedule an evaluation with their primary doctor, who may order further tests such as an EKG or stress test. The patient was also counseled to seek immediate medical attention if symptoms worsen or new symptoms such as severe pain, shortness of breath, or sweating develop.
+
 
 ## STS Evaluation
 
-- **STS Score**: 0.978
-- **Similarity Label**: N/A
+- **STS Score**: 0.788
+- **Model Used**: general
+- **Text1 Length**: 86 words
+- **Text2 Length**: 146 words
+
 
 ## Processing Information
 
