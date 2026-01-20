@@ -2,6 +2,12 @@ import logging
 from Utils.llms_utils import load_gpt_model, chat_generate
 from Utils.bias_aware_prompts import BASE_SYSTEM_PROMPT
 import random
+from Utils.conversation_variety import (
+    PatientPersonality, get_patient_hesitation, get_patient_response_starter,
+    should_use_filler_words, PATIENT_WORRY_EXPRESSIONS,
+    create_varied_prompt_examples
+)
+from Utils.repetition_filter import RepetitionTracker
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -13,7 +19,7 @@ class PatientAgent:
             self.llm = llm
         else:
             logger.info("LLM not provided to PatientAgent, loading Azure AI model internally.")
-            self.llm = load_gpt_model(temperature=0.3, max_tokens=300)
+            self.llm = load_gpt_model(temperature=0.6, max_tokens=300)  # Increased for personality variation
 
         self.profile = profile
         self.coach_feedback_to_incorporate = None
@@ -22,6 +28,9 @@ class PatientAgent:
         self.conversation_turn = 0
         # Track symptoms for gradual, natural disclosure
         self.symptoms_to_disclose = self._prepare_gradual_disclosure()
+
+        # Add repetition tracking
+        self.repetition_tracker = RepetitionTracker("PatientAgent")
         
         demographics_str = self._get_demographics(profile)
         chief_complaint_str = self._get_chief_complaint(profile)
@@ -35,6 +44,18 @@ class PatientAgent:
         self.patient_persona = self._create_patient_persona()
         self.personality_traits = self._determine_personality_traits()
 
+        # Get demographic info for personality modeling
+        demo = self.profile.get("Context_Fields", {}).get("Patient_Demographics", {})
+        age = demo.get('Age', 50)
+        sex = demo.get('Sex', 'Unknown')
+
+        # Get personality-based communication traits
+        self.personality_profile = PatientPersonality.get_personality_traits(age, sex)
+        self.age_language = PatientPersonality.get_age_appropriate_language(age)
+
+        # Create age-appropriate communication style description
+        age_style_desc = self._get_age_communication_style(age)
+
         self.system_message = {
             "role": "system",
             "content": (
@@ -42,7 +63,8 @@ class PatientAgent:
 
                 "**YOUR ROLE:**\n"
                 f"You are {self.patient_persona} with a light, common medical issue seeking help.\n"
-                f"Emotional state: {self.emotional_state}\n\n"
+                f"Emotional state: {self.emotional_state}\n"
+                f"Communication style: {age_style_desc}\n\n"
 
                 "**YOUR PROFILE (STRICT - ONLY USE INFORMATION BELOW):**\n"
                 f"- Demographics: {demographics_str}\n"
@@ -61,19 +83,33 @@ class PatientAgent:
                 "5. This is a LIGHT, COMMON condition - don't describe severe/emergency symptoms\n\n"
 
                 "**NATURAL CONVERSATION BEHAVIOR:**\n"
-                "- **Turn 1-2**: Share only your main concern briefly, with some hesitation\n"
+                "- **Turn 1-2**: Share only your main concern briefly, with some initial hesitation\n"
                 "- **Turn 3-5**: When asked, reveal 1-2 additional symptoms gradually\n"
-                "- **Turn 6+**: Feel more comfortable sharing details and asking questions\n\n"
+                "- **Turn 6+**: Feel more comfortable - less hesitation, more direct answers\n"
+                "- **When doctor gives assessment/conclusion**: Respond naturally - acknowledge understanding, ask clarifying questions if needed, or express relief/concern appropriately\n\n"
 
-                "**COMMUNICATION STYLE:**\n"
+                "**COMMUNICATION STYLE - VARY YOUR RESPONSES:**\n"
                 "- Use everyday language initially: 'my chest hurts', 'hard to breathe'\n"
                 "- Mirror doctor's medical terms when they use them: if doctor says 'symptoms', start using 'symptoms'\n"
-                "- Show natural hesitations: 'Well...', 'Um...', 'Let me think...'\n"
-                "- Express uncertainty: 'I think...', 'Maybe...', 'I'm not sure if...'\n"
-                "- Ask questions when concerned: 'Should I be worried?', 'Is this normal?'\n"
+                "- **IMPORTANT**: Don't start every response with 'Um...' or 'Well...'\n"
+                "  - Use hesitations ONLY when actually uncertain or uncomfortable (not every turn)\n"
+                "  - When answering clear questions, respond more directly\n"
+                "  - Vary between: direct answer, brief hesitation, no hesitation\n"
+                "- Express uncertainty contextually: 'I think...', 'Maybe...', 'I'm not sure if...'\n"
+                "- Don't ask 'Should I be worried?' repeatedly - vary your concerns\n"
                 "- Keep responses brief and natural (1-3 sentences typically)\n"
+                "- Let your personality come through based on your age and background\n"
             )
         }
+
+    def _get_age_communication_style(self, age: int) -> str:
+        """Get age-appropriate communication style description"""
+        if age < 30:
+            return "Direct and casual, may use modern expressions, asks questions freely"
+        elif age < 60:
+            return "Balanced and clear, practical communication, experienced with healthcare"
+        else:
+            return "Respectful and detailed, may have some recall hesitation, values doctor's guidance"
 
     def _prepare_gradual_disclosure(self) -> list:
         symptoms_list = self.profile.get("Core_Fields", {}).get("Symptoms", [])
@@ -224,13 +260,22 @@ class PatientAgent:
                 "experiencing", "happening"
             ])
 
-            # Turn-based guidance for natural conversation
-            if self.conversation_turn <= 2:
-                turn_guidance = "Brief and somewhat hesitant. Share only your main concern."
+            # Detect if doctor is giving assessment/conclusion
+            doctor_concluding = any(phrase in doctor_lower for phrase in [
+                "based on", "from what you've told me", "my assessment", "sounds like",
+                "appears to be", "likely", "recommend", "suggest", "treatment", "next steps",
+                "what i think", "my recommendation", "you should", "i'd advise"
+            ])
+
+            # Turn-based guidance for natural conversation with personality
+            if doctor_concluding:
+                turn_guidance = "The doctor is giving you their assessment/recommendations. Respond NATURALLY - acknowledge understanding ('Okay', 'That makes sense'), ask a clarifying question if something is unclear, or express how you feel about the assessment (relief, still worried, etc.). Be conversational, not formulaic."
+            elif self.conversation_turn <= 2:
+                turn_guidance = "Brief and slightly hesitant initially. Share only your main concern. Don't overuse 'Um...' or 'Well...'."
             elif self.conversation_turn <= 5:
-                turn_guidance = "Share more details when asked. Use natural hesitations."
+                turn_guidance = "Share more details when asked. Hesitate only when genuinely uncertain, not every response."
             else:
-                turn_guidance = "Feel comfortable sharing details and asking questions."
+                turn_guidance = "Feel comfortable - be more direct and less hesitant. Answer questions clearly."
 
             # Symptom disclosure hint
             symptom_hint = ""
@@ -238,32 +283,67 @@ class PatientAgent:
                 symptom_hint = f"Can mention if relevant: {', '.join(symptoms_to_mention[:2])}"
                 self.mentioned_symptoms.update(symptoms_to_mention[:2])
 
+            # Determine response style based on personality and turn
+            hesitation_guidance = ""
+            if self.conversation_turn <= 2:
+                hesitation_guidance = "You may use a brief hesitation if uncertain."
+            elif self.conversation_turn > 5:
+                hesitation_guidance = "You're more comfortable now - answer more directly, less hesitation."
+            else:
+                hesitation_guidance = "Use hesitation only when genuinely uncertain about the answer."
+
+            # Check repetition stats
+            repetition_stats = self.repetition_tracker.get_usage_stats()
+            repetition_warning = ""
+            if repetition_stats['phrase_counts']:
+                overused = [pattern for pattern, count in repetition_stats['phrase_counts'].items() if count >= 2]
+                if overused:
+                    repetition_warning = f"\n⚠️ CRITICAL: You've started responses with 'Um...' or 'Well...' {len(overused)} times. STOP! Answer directly.\n"
+
             user_prompt_for_next_turn = (
                 f"Turn {self.conversation_turn}\n"
                 f"Doctor said: \"{last_doctor_message}\"\n"
                 f"Guidance: {turn_guidance}\n"
-                f"{symptom_hint}\n\n"
+                f"{hesitation_guidance}\n"
+                f"{symptom_hint}\n"
+                f"{repetition_warning}\n"
+
+                "**CRITICAL ANTI-REPETITION RULES:**\n"
+                "- DO NOT start with 'Um...', 'Well...', or 'Uh...'\n"
+                "- DO NOT ask 'Should I be worried?' or 'Is this serious?' again\n"
+                "- Answer DIRECTLY if doctor asks a clear question\n"
+                "- Check your last 3 responses - use COMPLETELY different openings\n\n"
 
                 "**Response guidelines:**\n"
                 "1. Keep response brief and natural (1-3 sentences)\n"
-                "2. Use everyday language, but mirror doctor's medical terms\n"
-                "3. Show hesitations naturally ('Well...', 'Um...')\n"
+                "2. START DIFFERENTLY than your last 3 responses\n"
+                "   - Direct answer: 'Yes', 'No', 'It started...', 'I've had...'\n"
+                "   - Only use brief hesitation if genuinely uncertain\n"
+                "3. Use everyday language, but mirror doctor's medical terms when appropriate\n"
                 "4. ONLY discuss symptoms from your profile\n"
                 "5. If asked about symptoms you DON'T have, say you haven't experienced them\n\n"
 
-                "Patient's response:"
+                + create_varied_prompt_examples('patient') +
+
+                "\nPatient's response:"
             )
             llm_messages.append({"role": "user", "content": user_prompt_for_next_turn})
         else:
             # Opening response
             user_prompt_for_next_turn = (
                 f"Turn {self.conversation_turn} - Starting consultation\n"
-                "Share only your main concern briefly. Be somewhat hesitant initially.\n\n"
-                "Patient's response:"
+                "Share only your main concern briefly. Be somewhat hesitant initially, but don't start with 'Um...'.\n\n"
+
+                + create_varied_prompt_examples('patient') +
+
+                "\nPatient's response:"
             )
             llm_messages.append({"role": "user", "content": user_prompt_for_next_turn})
 
         response_content = chat_generate(self.llm, llm_messages)
+
+        # Track this response for repetition detection
+        self.repetition_tracker.track_response(response_content)
 
         logger.info(f"[Patient] Turn {self.conversation_turn}: {response_content[:80]}...")
         return response_content

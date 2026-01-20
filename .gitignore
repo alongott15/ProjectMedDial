@@ -1,3 +1,11 @@
 /.env
-/__pycache__
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
 /.vscode
+Agents/__pycache__/
+*.pyc
+*.pyo
+*.pyd

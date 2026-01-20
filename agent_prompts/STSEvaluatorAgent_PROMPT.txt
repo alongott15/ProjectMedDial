@@ -1,0 +1,291 @@
+========================================
+STS EVALUATOR AGENT
+========================================
+
+⚠️ NOTE: This agent does NOT use LLM prompts.
+It is embedding-based and computes semantic similarity using sentence transformers.
+
+========================================
+PURPOSE:
+========================================
+
+Computes Semantic Textual Similarity (STS) between two text summaries:
+1. EHR Summary (from EHRSummarizerAgent)
+2. Dialogue Summary (from DialogueSummarizerAgent)
+
+The STS score measures how well the synthetic dialogue captured the
+information from the original Electronic Health Record.
+
+High STS Score (0.7-1.0):
+- Dialogue accurately reflected EHR content
+- Key symptoms were discussed
+- Diagnosis and treatment aligned
+- Good information retention
+
+Low STS Score (0.0-0.3):
+- Dialogue missed key EHR information
+- Different symptoms discussed
+- Diverged from documented case
+- Poor information capture
+
+========================================
+METHOD:
+========================================
+
+1. Load sentence-transformer model (default: 'all-MiniLM-L6-v2')
+2. Encode text1 (EHR summary) into embedding vector
+3. Encode text2 (dialogue summary) into embedding vector
+4. Compute cosine similarity between the two embeddings
+5. Return similarity score (0.0 to 1.0)
+
+Formula:
+  STS_score = cosine_similarity(embedding1, embedding2)
+
+Where cosine similarity is:
+  cos(θ) = (A · B) / (||A|| × ||B||)
+
+========================================
+TECHNICAL DETAILS:
+========================================
+
+Model: Sentence-Transformers
+Default Model: 'all-MiniLM-L6-v2'
+  - 22.7M parameters
+  - 384-dimensional embeddings
+  - Fast inference
+  - Good performance on semantic similarity tasks
+
+Library: sentence-transformers
+Installation: pip install sentence-transformers
+
+Input: Two text strings (summaries)
+Output: Float between 0.0 and 1.0
+
+Output Interpretation:
+- 1.0: Identical meaning (perfect alignment)
+- 0.8-0.99: Very high similarity
+- 0.6-0.79: Good similarity
+- 0.4-0.59: Moderate similarity
+- 0.2-0.39: Low similarity
+- 0.0-0.19: Very low or no similarity
+
+========================================
+USAGE IN FRAMEWORK:
+========================================
+
+Step 1: Generate dialogue between patient and doctor
+Step 2: EHRSummarizerAgent summarizes original clinical note
+Step 3: DialogueSummarizerAgent summarizes the dialogue
+Step 4: STSEvaluatorAgent compares the two summaries
+Step 5: STS score is stored with dialogue metadata
+
+STS Score is used for:
+- Evaluating information retention
+- Quality assessment alongside judge score
+- Dataset filtering (optional threshold)
+- Research analysis
+
+========================================
+EXAMPLE COMPUTATION:
+========================================
+
+Input:
+
+text1 (EHR Summary):
+"The patient is a 73-year-old male with a history of chronic obstructive
+pulmonary disease (COPD) and chronic atrial fibrillation. He presented
+with an upper respiratory tract infection, progressive cough, tachypnea,
+and production of white sputum over several days. He did not report fever,
+chills, or chest pain. On admission, he was tachypneic, hypertensive, and
+using accessory muscles to breathe, with diffuse bilateral wheezing noted
+on exam. A chest x-ray showed evidence of pneumonia. The documented diagnosis
+was COPD exacerbation with pneumonia."
+
+text2 (Dialogue Summary):
+"The patient presented with worsening congestion, a persistent cough, and
+increasing shortness of breath, especially during activity and sometimes
+at rest. Additional symptoms included wheezing, white sputum production,
+difficulty sleeping, and limitations in daily activities. The patient
+denied fever, chills, chest pain, recent illness exposure, or travel. The
+doctor assessed that these symptoms could be related to bronchitis or a
+flare-up of chronic lung issues. The patient confirmed a history of COPD
+and was currently using prescribed albuterol nebulizers and other medications."
+
+Process:
+1. Encode text1 → embedding1 (384-dimensional vector)
+2. Encode text2 → embedding2 (384-dimensional vector)
+3. Compute cosine similarity
+4. Result: 0.829
+
+Interpretation:
+STS = 0.829 (HIGH)
+- Dialogue captured key information from EHR
+- Both mention: COPD, cough, wheezing, white sputum, shortness of breath,
+  denied fever/chills/chest pain
+- Alignment is strong despite different wording
+
+========================================
+DATASET STATISTICS (ProjectMedDial):
+========================================
+
+From per_profile_stats.json analysis:
+
+Total dialogues: 95
+Dialogues with STS scores: 73 (realistic dialogues only)
+Dialogues without STS: 22 (unrealistic, STS not computed)
+
+STS Score Distribution (realistic dialogues only):
+- Highest: 0.829 (Profile 19087_171337)
+- Lowest: 0.239 (Profile 23885_165607)
+- Average: 0.54
+
+Interpretation:
+- Average STS of 0.54 indicates moderate-to-good information retention
+- Top dialogues (STS > 0.7) have excellent alignment with EHR
+- Lower scores may indicate:
+  * Different symptom emphasis
+  * More conversational vs. clinical language
+  * Incomplete symptom coverage
+  * Different level of detail
+
+Note: STS is NOT computed for unrealistic dialogues (judge score < 0.70)
+because these dialogues failed basic quality checks.
+
+========================================
+ADVANTAGES OF EMBEDDING-BASED APPROACH:
+========================================
+
+1. No LLM Required
+   - Faster computation
+   - Lower cost
+   - Deterministic results
+
+2. Semantic Understanding
+   - Goes beyond word overlap
+   - Captures meaning similarity
+   - Handles paraphrasing
+
+3. Language-Agnostic
+   - Works with different writing styles
+   - Clinical vs. conversational language
+   - Robust to word choice
+
+4. Quantitative
+   - Objective numeric score
+   - Enables statistical analysis
+   - Easy to threshold and filter
+
+========================================
+LIMITATIONS:
+========================================
+
+1. Surface-Level Semantics
+   - May not capture deep clinical reasoning
+   - Could miss subtle diagnostic differences
+   - Length bias (very different lengths may score lower)
+
+2. No Medical Knowledge
+   - Doesn't know medical equivalences
+   - "MI" vs "heart attack" may not align perfectly
+   - Generic sentence embeddings, not medical-specific
+
+3. Summary Quality Dependent
+   - If summaries are poor, STS is meaningless
+   - Requires good EHR and dialogue summarizers
+   - Garbage in, garbage out
+
+4. Doesn't Detect Hallucinations
+   - High STS doesn't mean factually correct
+   - Could align on wrong information
+   - Needs JudgeAgent for quality validation
+
+========================================
+COMPLEMENTARY TO JUDGE AGENT:
+========================================
+
+JudgeAgent (LLM-based):
+- Evaluates naturalness and realism
+- Detects hallucinations
+- Checks profile consistency
+- Provides qualitative feedback
+- Score: 0.0-1.0 (realistic/unrealistic threshold)
+
+STSEvaluatorAgent (Embedding-based):
+- Evaluates information retention
+- Measures semantic alignment
+- Quantifies content similarity
+- Objective, fast computation
+- Score: 0.0-1.0 (similarity measure)
+
+Together:
+- Judge Score: "Is this a realistic conversation?"
+- STS Score: "Did the conversation capture the EHR information?"
+- Both needed for comprehensive quality assessment
+
+Example:
+Profile 19087_171337:
+- Judge Score: 0.95 (realistic, natural, well-grounded)
+- STS Score: 0.83 (excellent information retention)
+→ HIGH QUALITY dialogue
+
+Profile 10145_135661:
+- Judge Score: 0.30 (unrealistic, patient too articulate for profile)
+- STS Score: null (not computed due to low judge score)
+→ LOW QUALITY dialogue
+
+========================================
+CODE REFERENCE:
+========================================
+
+File: Agents/STSEvaluatorAgent.py
+
+Key Method:
+def compute_sts(self, text1: str, text2: str) -> float:
+    """
+    Compute STS score between two texts.
+
+    Returns:
+        STS score (0.0-1.0, higher = more similar)
+    """
+    embedding1 = self.model.encode(text1, convert_to_tensor=True)
+    embedding2 = self.model.encode(text2, convert_to_tensor=True)
+    similarity = self.util.pytorch_cos_sim(embedding1, embedding2).item()
+    return max(0.0, min(1.0, similarity))
+
+Additional Method:
+def compute_sts_detailed(self, text1: str, text2: str) -> dict:
+    """
+    Returns:
+        - sts_score: Overall STS score
+        - text1_length: Length of text1 in words
+        - text2_length: Length of text2 in words
+        - embedding_similarity: Cosine similarity
+    """
+
+========================================
+RESEARCH USAGE:
+========================================
+
+For research papers, cite:
+- Sentence-Transformers library
+- Model used (all-MiniLM-L6-v2)
+- STS methodology (cosine similarity of embeddings)
+
+Reference:
+Reimers, N., & Gurevych, I. (2019). Sentence-BERT: Sentence Embeddings
+using Siamese BERT-Networks. In Proceedings of the 2019 Conference on
+Empirical Methods in Natural Language Processing and the 9th International
+Joint Conference on Natural Language Processing (EMNLP-IJCNLP).
+
+========================================
+SUMMARY:
+========================================
+
+STSEvaluatorAgent provides objective, quantitative assessment of how well
+synthetic dialogues capture information from original clinical notes.
+
+It complements the LLM-based JudgeAgent by focusing on information
+retention rather than conversational realism.
+
+Together, these metrics enable comprehensive quality assessment of
+synthetic medical dialogues for research and training purposes.

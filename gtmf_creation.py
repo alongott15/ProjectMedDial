@@ -59,6 +59,34 @@ def is_light_common_case(note_text: str, chief_complaint: str = "") -> dict:
     else:
         return {"passed": False, "reason": "No light/common symptoms detected"}
 
+def get_existing_gtmf_ids(output_dir: str = 'gtmf') -> set:
+    """
+    Get set of (subject_id, hadm_id) tuples for existing GTMFs.
+
+    Returns:
+        Set of tuples (subject_id, hadm_id) that already exist
+    """
+    existing_ids = set()
+
+    if not os.path.exists(output_dir):
+        return existing_ids
+
+    for filename in os.listdir(output_dir):
+        if filename.startswith('gtmf_') and filename.endswith('.md'):
+            # Parse filename: gtmf_10145_135661.md
+            parts = filename.replace('gtmf_', '').replace('.md', '').split('_')
+            if len(parts) == 2:
+                try:
+                    subject_id = int(parts[0])
+                    hadm_id = int(parts[1])
+                    existing_ids.add((subject_id, hadm_id))
+                except ValueError:
+                    continue
+
+    logger.info(f"Found {len(existing_ids)} existing GTMF profiles")
+    return existing_ids
+
+
 def aggressive_json_clean(text: str) -> str:
     text = re.sub(r'```[a-z]*\n?', '', text)
     text = re.sub(r'```', '', text)
@@ -321,8 +349,13 @@ def merge_gtmf_extractions(extractions: list[dict]) -> dict:
 def process_notes(results, azure_client: AzureAIClient, output_dir: str = 'gtmf'):
     os.makedirs(output_dir, exist_ok=True)
 
+    # CRITICAL: Load existing GTMFs to avoid regeneration
+    existing_ids = get_existing_gtmf_ids(output_dir)
+    logger.info(f"Skipping {len(existing_ids)} existing profiles")
+
     quality_summary = {
         "total_processed": 0,
+        "skipped_existing": 0,
         "json_parse_failures": 0,
         "light_case_passed": 0,
         "light_case_failed": 0,
@@ -331,6 +364,21 @@ def process_notes(results, azure_client: AzureAIClient, output_dir: str = 'gtmf'
 
     for idx, row in enumerate(results):
         try:
+            # Progress tracking
+            if idx % 50 == 0:
+                logger.info(f"Progress: {idx}/{len(results)} notes processed")
+                logger.info(f"  GTMFs created so far: {quality_summary['gtmfs_created']}")
+                logger.info(f"  Skipped existing: {quality_summary['skipped_existing']}")
+
+            # CRITICAL: Skip if already exists
+            subject_id = row['subject_id']
+            hadm_id = row['hadm_id']
+
+            if (subject_id, hadm_id) in existing_ids:
+                logger.info(f"  Skipping existing profile: {subject_id}_{hadm_id}")
+                quality_summary["skipped_existing"] += 1
+                continue
+
             light_case_result = is_light_common_case(row['text'])
             if not light_case_result['passed']:
                 quality_summary["light_case_failed"] += 1
@@ -410,9 +458,11 @@ def main():
     try:
         from Utils.csv_data_loader import CSVDataLoader
         loader = CSVDataLoader(csv_dir)
+        # Fetch more notes to reach target after skipping existing (95 existing + ~205 new = 300 total)
+        # Using 800 to ensure we have enough after light case filtering and skip-existing logic
         results = loader.fetch_notes_with_light_case_filter(
             category_filter="Discharge summary",
-            limit=100
+            limit=10000000000000  # Increased to ensure we reach 300 total after filtering and skipping
         )
         if not results:
             logger.error("No light case notes found")
@@ -431,7 +481,8 @@ def main():
 
         print(f"\n=== GTMF Processing Summary ===")
         print(f"Total processed: {summary['total_processed']}")
-        print(f"GTMFs created: {summary['gtmfs_created']}")
+        print(f"Skipped existing: {summary['skipped_existing']}")
+        print(f"GTMFs created (NEW): {summary['gtmfs_created']}")
         print(f"Light cases passed: {summary['light_case_passed']}")
         print(f"Light cases filtered: {summary['light_case_failed']}")
         print(f"JSON parse failures: {summary['json_parse_failures']}")
