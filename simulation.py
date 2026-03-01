@@ -39,6 +39,21 @@ PATIENT_CONFUSION_KEYWORDS = [
     "could you go over that", "i need more explanation", "what exactly"
 ]
 
+# Phrases that signal the patient has genuinely exhausted their questions.
+# Used for NO_DIAGNOSIS / NO_DIAGNOSIS_NO_TREATMENT profiles where the
+# conversation must continue until the patient explicitly has no more questions.
+PATIENT_NO_MORE_QUESTIONS_KEYWORDS = [
+    "no more questions", "no other questions", "no further questions",
+    "don't have any more questions", "don't have any other questions",
+    "i have no more", "i have no other questions",
+    "that's all i needed", "that covers everything", "covers it for me",
+    "i think that covers", "i'm all set", "i think i'm good now",
+    "nothing else to ask", "nothing more to ask",
+    "answered all my questions", "all my questions have been",
+    "no, i'm good", "no, that's all", "no, nothing else",
+    "i think i have everything i need",
+]
+
 def detect_conversation_loops(conversation_history: List[Dict], window_size: int = 6) -> bool:
     """Simple loop detection"""
     if len(conversation_history) < window_size:
@@ -114,13 +129,14 @@ def has_sufficient_symptom_coverage(conversation_history: List[Dict]) -> bool:
     # Need at least 3-4 substantive questions for adequate coverage
     return symptom_questions >= 3
 
-def simulate_dialogue(doctor_agent, patient_agent, max_turns=30, consecutive_confusion_limit=3, loop_detection_window=6, min_turns=6) -> Tuple[List[Dict], str]:
+def simulate_dialogue(doctor_agent, patient_agent, max_turns=30, consecutive_confusion_limit=3, loop_detection_window=6, min_turns=6, profile_type="FULL") -> Tuple[List[Dict], str]:
     """
     Dynamic dialogue simulation with flexible turn limits.
 
     Dialogues can end naturally based on:
-    - Doctor provides conclusion and patient understands (as early as 6 turns)
-    - Sufficient symptom coverage achieved and assessment given
+    - FULL profile: Doctor concludes and patient shows understanding (as early as 6 turns)
+    - NO_DIAGNOSIS / NO_DIAGNOSIS_NO_TREATMENT: Doctor concludes, then conversation
+      continues until the patient explicitly has no more questions
     - max_turns is a safety limit (30), not a target
 
     Quality assessment is handled entirely by CoachAgent.
@@ -175,28 +191,46 @@ def simulate_dialogue(doctor_agent, patient_agent, max_turns=30, consecutive_con
         if doctor_has_concluded:
             post_conclusion_exchanges += 1
             patient_text_lower = patient_message.lower()
-            shows_understanding = any(keyword in patient_text_lower for keyword in PATIENT_UNDERSTANDING_KEYWORDS)
-            shows_confusion = any(keyword in patient_text_lower for keyword in PATIENT_CONFUSION_KEYWORDS)
+            shows_no_more_questions = any(kw in patient_text_lower for kw in PATIENT_NO_MORE_QUESTIONS_KEYWORDS)
+            shows_understanding = any(kw in patient_text_lower for kw in PATIENT_UNDERSTANDING_KEYWORDS)
+            shows_confusion = any(kw in patient_text_lower for kw in PATIENT_CONFUSION_KEYWORDS)
 
-            # End if patient shows understanding OR after 2 post-conclusion exchanges
-            if shows_understanding and not shows_confusion:
-                logger.info(f"✅ Patient showed understanding of conclusion at turn {turn_count}")
-                transcript_log.append("[Patient showed understanding of Doctor's conclusion]")
-                break
-            elif post_conclusion_exchanges >= 2:
-                # After 2 exchanges post-conclusion, end regardless
-                logger.info(f"✅ Ending after {post_conclusion_exchanges} post-conclusion exchanges")
-                transcript_log.append("[Dialogue concluded naturally]")
-                break
-            elif shows_confusion:
-                patient_confusion_streak += 1
-                logger.info(f"❓ Patient confused after conclusion T{turn_count} (Streak: {patient_confusion_streak})")
-                if patient_confusion_streak >= consecutive_confusion_limit:
-                    logger.warning(f"⚠️ Patient remained confused for {patient_confusion_streak} turns")
-                    transcript_log.append("[Simulation ended: Patient remained confused after multiple clarification attempts]")
+            if profile_type in ("NO_DIAGNOSIS", "NO_DIAGNOSIS_NO_TREATMENT"):
+                # For these profiles the conversation continues until the patient
+                # explicitly signals they have no more questions.
+                if shows_no_more_questions:
+                    logger.info(f"✅ Patient has no more questions at turn {turn_count}")
+                    transcript_log.append("[Patient has no more questions — dialogue concluded]")
                     break
+                elif shows_confusion:
+                    patient_confusion_streak += 1
+                    logger.info(f"❓ Patient confused after conclusion T{turn_count} (Streak: {patient_confusion_streak})")
+                    if patient_confusion_streak >= consecutive_confusion_limit:
+                        logger.warning(f"⚠️ Patient remained confused for {patient_confusion_streak} turns")
+                        transcript_log.append("[Simulation ended: Patient remained confused after multiple clarification attempts]")
+                        break
+                else:
+                    patient_confusion_streak = max(0, patient_confusion_streak - 1)
             else:
-                patient_confusion_streak = max(0, patient_confusion_streak - 1)
+                # FULL profile: end as soon as patient shows understanding, or
+                # after 2 post-conclusion exchanges regardless.
+                if shows_understanding and not shows_confusion:
+                    logger.info(f"✅ Patient showed understanding of conclusion at turn {turn_count}")
+                    transcript_log.append("[Patient showed understanding of Doctor's conclusion]")
+                    break
+                elif post_conclusion_exchanges >= 2:
+                    logger.info(f"✅ Ending after {post_conclusion_exchanges} post-conclusion exchanges")
+                    transcript_log.append("[Dialogue concluded naturally]")
+                    break
+                elif shows_confusion:
+                    patient_confusion_streak += 1
+                    logger.info(f"❓ Patient confused after conclusion T{turn_count} (Streak: {patient_confusion_streak})")
+                    if patient_confusion_streak >= consecutive_confusion_limit:
+                        logger.warning(f"⚠️ Patient remained confused for {patient_confusion_streak} turns")
+                        transcript_log.append("[Simulation ended: Patient remained confused after multiple clarification attempts]")
+                        break
+                else:
+                    patient_confusion_streak = max(0, patient_confusion_streak - 1)
         
         if turn_count >= max_turns:
              logger.warning(f"⏰ Maximum turns ({max_turns}) reached after patient response")
@@ -268,11 +302,13 @@ def simulate_dialogue(doctor_agent, patient_agent, max_turns=30, consecutive_con
     return conversation_history, full_transcript_string
 
 
-def simulate_dialogue_yield(doctor_agent, patient_agent, max_turns=30, consecutive_confusion_limit=3, loop_detection_window=6, min_turns=6):
+def simulate_dialogue_yield(doctor_agent, patient_agent, max_turns=30, consecutive_confusion_limit=3, loop_detection_window=6, min_turns=6, profile_type="FULL"):
     """
     Dynamic yield-based dialogue simulation with flexible turn limits.
 
     Dialogues can end naturally based on clinical coverage and natural conclusion.
+    For NO_DIAGNOSIS / NO_DIAGNOSIS_NO_TREATMENT profiles, the conversation
+    continues after the doctor's assessment until the patient has no more questions.
     max_turns is a safety limit (30), not a target.
     """
     conversation_history = []
@@ -315,31 +351,45 @@ def simulate_dialogue_yield(doctor_agent, patient_agent, max_turns=30, consecuti
             yield {"role": "System", "content": "[Simulation ended due to detected conversation loop]"}
             break
 
-        # Patient response analysis (same as non-yield version)
+        # Patient response analysis (mirrors non-yield version)
         if doctor_has_concluded:
             post_conclusion_exchanges += 1
             patient_text_lower = patient_message_content.lower()
-            shows_understanding = any(keyword in patient_text_lower for keyword in PATIENT_UNDERSTANDING_KEYWORDS)
-            shows_confusion = any(keyword in patient_text_lower for keyword in PATIENT_CONFUSION_KEYWORDS)
+            shows_no_more_questions = any(kw in patient_text_lower for kw in PATIENT_NO_MORE_QUESTIONS_KEYWORDS)
+            shows_understanding = any(kw in patient_text_lower for kw in PATIENT_UNDERSTANDING_KEYWORDS)
+            shows_confusion = any(kw in patient_text_lower for kw in PATIENT_CONFUSION_KEYWORDS)
 
-            # End if patient shows understanding OR after 2 post-conclusion exchanges
-            if shows_understanding and not shows_confusion:
-                logger.info(f"✅ Patient understanding in yield at turn {turn_count}")
-                yield {"role": "System", "content": "[Patient showed understanding of Doctor's conclusion]"}
-                break
-            elif post_conclusion_exchanges >= 2:
-                # After 2 exchanges post-conclusion, end regardless
-                logger.info(f"✅ Yield ending after {post_conclusion_exchanges} post-conclusion exchanges")
-                yield {"role": "System", "content": "[Dialogue concluded naturally]"}
-                break
-            elif shows_confusion:
-                patient_confusion_streak += 1
-                if patient_confusion_streak >= consecutive_confusion_limit:
-                    logger.warning(f"⚠️ Patient confusion streak in yield: {patient_confusion_streak} turns")
-                    yield {"role": "System", "content": "[Simulation ended: Patient remained confused after multiple clarification attempts]"}
+            if profile_type in ("NO_DIAGNOSIS", "NO_DIAGNOSIS_NO_TREATMENT"):
+                if shows_no_more_questions:
+                    logger.info(f"✅ Patient has no more questions (yield) at turn {turn_count}")
+                    yield {"role": "System", "content": "[Patient has no more questions — dialogue concluded]"}
                     break
+                elif shows_confusion:
+                    patient_confusion_streak += 1
+                    if patient_confusion_streak >= consecutive_confusion_limit:
+                        logger.warning(f"⚠️ Patient confusion streak in yield: {patient_confusion_streak} turns")
+                        yield {"role": "System", "content": "[Simulation ended: Patient remained confused after multiple clarification attempts]"}
+                        break
+                else:
+                    patient_confusion_streak = max(0, patient_confusion_streak - 1)
             else:
-                patient_confusion_streak = max(0, patient_confusion_streak - 1)
+                # FULL profile: original behaviour
+                if shows_understanding and not shows_confusion:
+                    logger.info(f"✅ Patient understanding in yield at turn {turn_count}")
+                    yield {"role": "System", "content": "[Patient showed understanding of Doctor's conclusion]"}
+                    break
+                elif post_conclusion_exchanges >= 2:
+                    logger.info(f"✅ Yield ending after {post_conclusion_exchanges} post-conclusion exchanges")
+                    yield {"role": "System", "content": "[Dialogue concluded naturally]"}
+                    break
+                elif shows_confusion:
+                    patient_confusion_streak += 1
+                    if patient_confusion_streak >= consecutive_confusion_limit:
+                        logger.warning(f"⚠️ Patient confusion streak in yield: {patient_confusion_streak} turns")
+                        yield {"role": "System", "content": "[Simulation ended: Patient remained confused after multiple clarification attempts]"}
+                        break
+                else:
+                    patient_confusion_streak = max(0, patient_confusion_streak - 1)
         
         if turn_count >= max_turns:
              logger.warning(f"⏰ Maximum turns ({max_turns}) reached after patient response (yield)")

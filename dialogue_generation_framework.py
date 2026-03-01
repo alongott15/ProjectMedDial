@@ -7,22 +7,19 @@ from pathlib import Path
 from Utils.partial_profile import generate_partial_profiles
 from Utils.markdown_gtmf import load_all_gtmfs_from_directory
 from Utils.dialogue_markdown import save_dialogue_markdown
-from Utils.csv_data_loader import CSVDataLoader
 from Agents.PatientAgent import PatientAgent
 from Agents.DoctorAgent import DoctorAgent
 from Agents.DeepEvalJudgeAgent import DeepEvalJudgeAgent
 from Agents.PromptImprovementAgent import PromptImprovementAgent
-from Agents.EHRSummarizerAgent import EHRSummarizerAgent
-from Agents.DialogueSummarizerAgent import DialogueSummarizerAgent
-from Agents.STSEvaluatorAgent import STSEvaluatorAgent
 from simulation import simulate_dialogue
+
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 
 class DialogueGenerationPipeline:
-    def __init__(self, max_attempts=3, max_turns=30, judge_threshold=0.7, output_dir="output_dialogue_framework", mts_dialog_csv_path=None):
+    def __init__(self, max_attempts=3, max_turns=30, judge_threshold=0.7, output_dir="output_dialogue_framework"):
         """
         Initialize the dialogue generation pipeline.
 
@@ -32,8 +29,6 @@ class DialogueGenerationPipeline:
                       Dialogues can end naturally much earlier (6-12 turns typically).
             judge_threshold: Minimum score for dialogue to be considered realistic
             output_dir: Directory for output files
-            mts_dialog_csv_path: Unused; kept for backward-compatible call sites.
-                                  DeepEvalJudgeAgent does not use few-shot CSV examples.
         """
         self.max_attempts = max_attempts
         self.max_turns = max_turns
@@ -47,9 +42,6 @@ class DialogueGenerationPipeline:
         # the same Azure AI Foundry / GPT-4.1 endpoint.
         self.judge_agent = DeepEvalJudgeAgent(threshold=judge_threshold)
         self.prompt_improvement_agent = PromptImprovementAgent()
-        self.ehr_summarizer = EHRSummarizerAgent()
-        self.dialogue_summarizer = DialogueSummarizerAgent()
-        self.sts_evaluator = STSEvaluatorAgent()
 
         logger.info("Pipeline initialized successfully")
 
@@ -57,7 +49,6 @@ class DialogueGenerationPipeline:
         self,
         patient_profile: dict,
         full_profile: dict,
-        ehr_text: str = None
     ) -> dict:
         profile_id = f"{patient_profile.get('subject_id', 'unknown')}_{patient_profile.get('hadm_id', 'unknown')}"
         logger.info(f"\n{'='*60}")
@@ -82,7 +73,8 @@ class DialogueGenerationPipeline:
                     doctor_agent, patient_agent,
                     max_turns=self.max_turns,
                     consecutive_confusion_limit=2,
-                    loop_detection_window=4
+                    loop_detection_window=4,
+                    profile_type=patient_profile.get('profile_type', 'NO_DIAGNOSIS_NO_TREATMENT')
                 )
 
                 time.sleep(1)
@@ -184,7 +176,6 @@ class DialogueGenerationPipeline:
     def process_profile(
         self,
         full_profile: dict,
-        ehr_text: str = None,
         profile_type: str = "NO_DIAGNOSIS_NO_TREATMENT"
     ) -> dict:
         profile_id = f"{full_profile.get('subject_id', 'unknown')}_{full_profile.get('hadm_id', 'unknown')}"
@@ -196,7 +187,7 @@ class DialogueGenerationPipeline:
         partial_profile = generate_partial_profiles(full_profile, profile_type)
 
         dialogue_result = self.generate_dialogue_with_iterations(
-            partial_profile, full_profile, ehr_text
+            partial_profile, full_profile
         )
 
         if not dialogue_result['success']:
@@ -208,41 +199,6 @@ class DialogueGenerationPipeline:
             }
 
         is_realistic = dialogue_result['judge_evaluation']['decision'] == "REALISTIC"
-
-        ehr_summary = None
-        dialogue_summary = None
-        sts_result = None
-
-        if is_realistic:
-            logger.info(f"  Dialogue is REALISTIC - proceeding with summaries and STS")
-            time.sleep(1)
-
-            logger.info(f"  Generating EHR summary...")
-            ehr_summary = "No EHR text provided"
-            if ehr_text:
-                ehr_summary = self.ehr_summarizer.summarize(
-                    ehr_text,
-                    metadata=full_profile.get('Context_Fields', {})
-                )
-
-            time.sleep(1)
-
-            logger.info(f"  Generating dialogue summary...")
-            dialogue_summary = self.dialogue_summarizer.summarize(
-                dialogue_result['dialogue'],
-                dialogue_result['transcript']
-            )
-
-            time.sleep(1)
-
-            logger.info(f"  Computing STS between summaries...")
-            sts_result = self.sts_evaluator.compute_sts_detailed(
-                ehr_summary, dialogue_summary
-            )
-
-            time.sleep(1)
-        else:
-            logger.info(f"  Dialogue is NOT REALISTIC - skipping summaries and STS")
 
         processing_time = time.time() - start_time
 
@@ -262,9 +218,6 @@ class DialogueGenerationPipeline:
             # Breakdown of the three DeepEval sub-scores (naturalness, profile_compliance,
             # ragas_faithfulness). Included here for per-dialogue inspection / logging.
             "deepeval_scores": dialogue_result['judge_evaluation'].get('deepeval_scores', {}),
-            "ehr_summary": ehr_summary,
-            "dialogue_summary": dialogue_summary,
-            "sts_evaluation": sts_result,
             "processing_time": processing_time,
             "dialogue_stats": {
                 "turn_count": len(dialogue_result['dialogue']),
@@ -284,7 +237,6 @@ class DialogueGenerationPipeline:
     def run_pipeline(
         self,
         gtmf_data: list[dict],
-        csv_loader: CSVDataLoader = None,
         profile_types: list[str] = None
     ) -> dict:
         if profile_types is None:
@@ -311,12 +263,10 @@ class DialogueGenerationPipeline:
                     "realistic": 0,
                     "non_realistic": 0,
                     "judge_scores": [],
-                    "sts_scores": []
                 } for pt in profile_types
             },
             "attempt_distribution": {1: 0, 2: 0, 3: 0},
             "judge_scores": [],
-            "sts_scores": [],
             "processing_times": []
         }
 
@@ -327,20 +277,12 @@ class DialogueGenerationPipeline:
             if idx > 0:
                 time.sleep(2)
 
-            ehr_text = None
-            if csv_loader:
-                subject_id = full_profile.get('subject_id')
-                hadm_id = full_profile.get('hadm_id')
-                if subject_id and hadm_id:
-                    logger.info(f"  Loading clinical note for subject_id={subject_id}, hadm_id={hadm_id}")
-                    ehr_text = csv_loader.fetch_note_by_ids(subject_id, hadm_id)
-
             # Process each profile with ALL profile types
             for profile_type in profile_types:
                 logger.info(f"  Processing profile type: {profile_type}")
 
                 try:
-                    result = self.process_profile(full_profile, ehr_text, profile_type)
+                    result = self.process_profile(full_profile, profile_type)
                     all_results.append(result)
 
                     stats["total_dialogues_attempted"] += 1
@@ -354,10 +296,6 @@ class DialogueGenerationPipeline:
                         if result.get('is_realistic'):
                             stats["realistic_dialogues"] += 1
                             stats["by_profile_type"][profile_type]["realistic"] += 1
-                            if result.get('sts_evaluation'):
-                                sts_score = result['sts_evaluation']['sts_score']
-                                stats["sts_scores"].append(sts_score)
-                                stats["by_profile_type"][profile_type]["sts_scores"].append(sts_score)
                         else:
                             stats["non_realistic_dialogues"] += 1
                             stats["by_profile_type"][profile_type]["non_realistic"] += 1
@@ -378,10 +316,6 @@ class DialogueGenerationPipeline:
 
         if stats["judge_scores"]:
             stats["avg_judge_score"] = sum(stats["judge_scores"]) / len(stats["judge_scores"])
-            if stats["sts_scores"]:
-                stats["avg_sts_score"] = sum(stats["sts_scores"]) / len(stats["sts_scores"])
-            else:
-                stats["avg_sts_score"] = None
             stats["avg_processing_time"] = sum(stats["processing_times"]) / len(stats["processing_times"])
 
         # Calculate averages for each profile type
@@ -391,11 +325,6 @@ class DialogueGenerationPipeline:
                 pt_stats["avg_judge_score"] = sum(pt_stats["judge_scores"]) / len(pt_stats["judge_scores"])
             else:
                 pt_stats["avg_judge_score"] = None
-
-            if pt_stats["sts_scores"]:
-                pt_stats["avg_sts_score"] = sum(pt_stats["sts_scores"]) / len(pt_stats["sts_scores"])
-            else:
-                pt_stats["avg_sts_score"] = None
 
         # Save global stats
         stats_path = self.output_dir / "global_stats.json"
@@ -415,7 +344,6 @@ class DialogueGenerationPipeline:
                 "naturalness_score": r.get('deepeval_scores', {}).get('naturalness'),
                 "profile_compliance_score": r.get('deepeval_scores', {}).get('profile_compliance'),
                 "ragas_faithfulness_score": r.get('deepeval_scores', {}).get('ragas_faithfulness'),
-                "sts_score": r.get('sts_evaluation', {}).get('sts_score') if r.get('sts_evaluation') else None,
                 "processing_time": r.get('processing_time')
             }
             for r in all_results if r.get('success')
@@ -438,11 +366,6 @@ class DialogueGenerationPipeline:
             logger.info(f"Realistic rate: {realistic_rate:.1%} of successful dialogues")
         if stats.get('avg_judge_score'):
             logger.info(f"Average judge score: {stats['avg_judge_score']:.3f}")
-            if stats.get('avg_sts_score') is not None:
-                logger.info(f"Average STS score: {stats['avg_sts_score']:.3f}")
-                logger.info(f"Realistic dialogues with STS: {len(stats['sts_scores'])}")
-            else:
-                logger.info(f"No realistic dialogues generated (no STS scores)")
             logger.info(f"Average processing time: {stats['avg_processing_time']:.1f}s")
 
         # Log stats by profile type
@@ -456,9 +379,6 @@ class DialogueGenerationPipeline:
             logger.info(f"  Realistic: {pt_stats['realistic']}, Non-realistic: {pt_stats['non_realistic']}")
             if pt_stats.get('avg_judge_score') is not None:
                 logger.info(f"  Avg Judge Score: {pt_stats['avg_judge_score']:.3f}")
-            if pt_stats.get('avg_sts_score') is not None:
-                logger.info(f"  Avg STS Score: {pt_stats['avg_sts_score']:.3f}")
-                logger.info(f"  STS samples: {len(pt_stats['sts_scores'])}")
 
         return stats
 
@@ -484,27 +404,15 @@ def main():
 
     logger.info(f"Loaded {len(gtmf_data)} GTMF profiles from Markdown files")
 
-    mts_dialog_csv = os.getenv("MTS_DIALOG_CSV_PATH", None)
-    mimic_csv_dir = os.getenv("MIMIC_CSV_DIR", None)
-
-    csv_loader = None
-    if mimic_csv_dir and os.path.exists(mimic_csv_dir):
-        logger.info(f"Loading MIMIC-III CSV data from {mimic_csv_dir}")
-        csv_loader = CSVDataLoader(mimic_csv_dir)
-    else:
-        logger.warning("MIMIC_CSV_DIR not set or directory not found. STS comparison will use placeholder text.")
-
     pipeline = DialogueGenerationPipeline(
         max_attempts=3,
         max_turns=30,  # Safety limit - dialogues can end naturally much earlier (6-12 turns)
         judge_threshold=0.70,
         output_dir="output_dialogue_framework",
-        mts_dialog_csv_path=mts_dialog_csv
     )
 
     stats = pipeline.run_pipeline(
         gtmf_data=gtmf_data,
-        csv_loader=csv_loader,
         profile_types=None
     )
 

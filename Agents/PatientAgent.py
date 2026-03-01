@@ -112,8 +112,19 @@ class PatientAgent:
                 "- **Turn 1-2**: Share only your main concern briefly, with some initial hesitation\n"
                 "- **Turn 3-5**: When asked, reveal 1-2 additional symptoms gradually\n"
                 "- **Turn 6+**: Feel more comfortable — less hesitation, more direct answers\n"
-                "- **When doctor gives assessment/conclusion**: Respond naturally — acknowledge "
-                "understanding, ask a clarifying question if needed, or express relief/concern\n\n"
+                + (
+                    # For profiles where the patient doesn't know their diagnosis / treatment,
+                    # the doctor's assessment is genuinely new information — encourage follow-up questions.
+                    "- **When doctor gives assessment/conclusion**: This is NEW information for you! "
+                    "React with genuine curiosity — ask ONE follow-up question at a time about what this "
+                    "means, what to expect, any side effects, lifestyle changes, or next steps. "
+                    "Only say you have no more questions when you genuinely don't "
+                    "(e.g. 'I think that covers everything, thank you.').\n\n"
+                    if self.profile_type in ("NO_DIAGNOSIS", "NO_DIAGNOSIS_NO_TREATMENT")
+                    else
+                    "- **When doctor gives assessment/conclusion**: Respond naturally — acknowledge "
+                    "understanding, ask a clarifying question if needed, or express relief/concern\n\n"
+                )
 
                 "**COMMUNICATION STYLE — VARY YOUR RESPONSES:**\n"
                 "- Use everyday language initially: 'my chest hurts', 'hard to breathe'\n"
@@ -350,11 +361,21 @@ class PatientAgent:
 
             # Turn-based guidance for natural conversation with personality
             if doctor_concluding:
-                turn_guidance = (
-                    "The doctor is giving their assessment/recommendations. Respond NATURALLY — "
-                    "acknowledge understanding ('Okay', 'That makes sense'), ask a clarifying "
-                    "question if something is unclear, or express how you feel about the assessment."
-                )
+                if self.profile_type in ("NO_DIAGNOSIS", "NO_DIAGNOSIS_NO_TREATMENT"):
+                    turn_guidance = (
+                        "The doctor has just shared their diagnosis/assessment — this is NEW information "
+                        "for you. React naturally and ask ONE follow-up question: what does this mean for "
+                        "you, what should you expect, are there side effects, what lifestyle changes are "
+                        "needed, or what are the next steps. Ask one question at a time. "
+                        "Only say you have no more questions when you genuinely have none "
+                        "(e.g. 'I think that covers everything, thank you' or 'No more questions')."
+                    )
+                else:
+                    turn_guidance = (
+                        "The doctor is giving their assessment/recommendations. Respond NATURALLY — "
+                        "acknowledge understanding ('Okay', 'That makes sense'), ask a clarifying "
+                        "question if something is unclear, or express how you feel about the assessment."
+                    )
             elif self.conversation_turn <= 2:
                 turn_guidance = "Brief and slightly hesitant initially. Share only your main concern. Don't overuse 'Um...' or 'Well...'."
             elif self.conversation_turn <= 5:
