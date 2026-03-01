@@ -87,6 +87,22 @@ class PatientAgent:
         if self.profile_type in ("FULL", "NO_DIAGNOSIS") and treatment_str:
             profile_section += f"- Treatment Plan (you know this): {treatment_str}\n"
 
+        # Profile-type-specific conclusion behaviour text (computed before building
+        # the system message so it can be used in implicit string concatenation below).
+        if self.profile_type in ("NO_DIAGNOSIS", "NO_DIAGNOSIS_NO_TREATMENT"):
+            conclusion_behaviour = (
+                "- **When doctor gives assessment/conclusion**: This is NEW information for you! "
+                "React with genuine curiosity — ask ONE follow-up question at a time about what this "
+                "means, what to expect, any side effects, lifestyle changes, or next steps. "
+                "Only say you have no more questions when you genuinely don't "
+                "(e.g. 'I think that covers everything, thank you.').\n\n"
+            )
+        else:
+            conclusion_behaviour = (
+                "- **When doctor gives assessment/conclusion**: Respond naturally — acknowledge "
+                "understanding, ask a clarifying question if needed, or express relief/concern\n\n"
+            )
+
         self.system_message = {
             "role": "system",
             "content": (
@@ -112,19 +128,7 @@ class PatientAgent:
                 "- **Turn 1-2**: Share only your main concern briefly, with some initial hesitation\n"
                 "- **Turn 3-5**: When asked, reveal 1-2 additional symptoms gradually\n"
                 "- **Turn 6+**: Feel more comfortable — less hesitation, more direct answers\n"
-                + (
-                    # For profiles where the patient doesn't know their diagnosis / treatment,
-                    # the doctor's assessment is genuinely new information — encourage follow-up questions.
-                    "- **When doctor gives assessment/conclusion**: This is NEW information for you! "
-                    "React with genuine curiosity — ask ONE follow-up question at a time about what this "
-                    "means, what to expect, any side effects, lifestyle changes, or next steps. "
-                    "Only say you have no more questions when you genuinely don't "
-                    "(e.g. 'I think that covers everything, thank you.').\n\n"
-                    if self.profile_type in ("NO_DIAGNOSIS", "NO_DIAGNOSIS_NO_TREATMENT")
-                    else
-                    "- **When doctor gives assessment/conclusion**: Respond naturally — acknowledge "
-                    "understanding, ask a clarifying question if needed, or express relief/concern\n\n"
-                )
+                f"{conclusion_behaviour}"
 
                 "**COMMUNICATION STYLE — VARY YOUR RESPONSES:**\n"
                 "- Use everyday language initially: 'my chest hurts', 'hard to breathe'\n"
