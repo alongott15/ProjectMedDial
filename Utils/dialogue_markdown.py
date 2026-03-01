@@ -42,6 +42,20 @@ def dialogue_to_markdown(dialogue_result: dict) -> str:
         lines.append(f"- **Score**: {judge_eval.get('score', 0.0):.3f}")
         lines.append(f"- **Justification**: {judge_eval.get('justification', 'N/A')}\n")
 
+        # DeepEval sub-score breakdown
+        deepeval = dialogue_result.get('deepeval_scores') or judge_eval.get('deepeval_scores', {})
+        if deepeval:
+            lines.append("### DeepEval Sub-Scores\n")
+            lines.append(f"| Metric | Score |")
+            lines.append(f"|---|---|")
+            if deepeval.get('naturalness') is not None:
+                lines.append(f"| Naturalness | {deepeval['naturalness']:.3f} |")
+            if deepeval.get('profile_compliance') is not None:
+                lines.append(f"| Profile Compliance ({deepeval.get('profile_type', 'N/A')}) | {deepeval['profile_compliance']:.3f} |")
+            if deepeval.get('ragas_faithfulness') is not None:
+                lines.append(f"| RAGAS Faithfulness | {deepeval['ragas_faithfulness']:.3f} |")
+            lines.append("")
+
         feedback = judge_eval.get('feedback_for_improvement', {})
         if feedback:
             lines.append("### Feedback for Improvement\n")

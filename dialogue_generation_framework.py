@@ -100,9 +100,14 @@ class DialogueGenerationPipeline:
                 logger.info(f"  Dialogue complete ({len(conversation)} turns)")
                 time.sleep(1)
 
-                logger.info(f"  Evaluating with JudgeAgent...")
+                logger.info(f"  Evaluating with DeepEvalJudgeAgent...")
+                # Pass patient_profile (the partial profile) so the judge can read
+                # profile_type and apply the correct compliance/faithfulness rules.
+                # patient_profile still contains all symptoms, history, and
+                # medications — only diagnoses/treatments absent from the original
+                # are stripped for NO_DIAGNOSIS / NO_DIAGNOSIS_NO_TREATMENT types.
                 judge_result = self.judge_agent.evaluate_dialogue(
-                    conversation, full_profile, transcript
+                    conversation, patient_profile, transcript
                 )
 
                 time.sleep(1)
