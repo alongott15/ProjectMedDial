@@ -10,7 +10,7 @@ from Utils.dialogue_markdown import save_dialogue_markdown
 from Utils.csv_data_loader import CSVDataLoader
 from Agents.PatientAgent import PatientAgent
 from Agents.DoctorAgent import DoctorAgent
-from Agents.JudgeAgent import JudgeAgent
+from Agents.DeepEvalJudgeAgent import DeepEvalJudgeAgent
 from Agents.PromptImprovementAgent import PromptImprovementAgent
 from Agents.EHRSummarizerAgent import EHRSummarizerAgent
 from Agents.DialogueSummarizerAgent import DialogueSummarizerAgent
@@ -32,7 +32,8 @@ class DialogueGenerationPipeline:
                       Dialogues can end naturally much earlier (6-12 turns typically).
             judge_threshold: Minimum score for dialogue to be considered realistic
             output_dir: Directory for output files
-            mts_dialog_csv_path: Path to MTS dialog examples for judge
+            mts_dialog_csv_path: Unused; kept for backward-compatible call sites.
+                                  DeepEvalJudgeAgent does not use few-shot CSV examples.
         """
         self.max_attempts = max_attempts
         self.max_turns = max_turns
@@ -41,10 +42,10 @@ class DialogueGenerationPipeline:
         self.output_dir.mkdir(exist_ok=True)
 
         logger.info("Initializing pipeline agents...")
-        self.judge_agent = JudgeAgent(
-            threshold=judge_threshold,
-            mts_dialog_csv_path=mts_dialog_csv_path
-        )
+        # DeepEvalJudgeAgent replaces the legacy JudgeAgent.
+        # It uses deepeval GEval metrics + RAGAS faithfulness, all backed by
+        # the same Azure AI Foundry / GPT-4.1 endpoint.
+        self.judge_agent = DeepEvalJudgeAgent(threshold=judge_threshold)
         self.prompt_improvement_agent = PromptImprovementAgent()
         self.ehr_summarizer = EHRSummarizerAgent()
         self.dialogue_summarizer = DialogueSummarizerAgent()
@@ -253,6 +254,9 @@ class DialogueGenerationPipeline:
             "dialogue": dialogue_result['dialogue'],
             "transcript": dialogue_result['transcript'],
             "judge_evaluation": dialogue_result['judge_evaluation'],
+            # Breakdown of the three DeepEval sub-scores (naturalness, profile_compliance,
+            # ragas_faithfulness). Included here for per-dialogue inspection / logging.
+            "deepeval_scores": dialogue_result['judge_evaluation'].get('deepeval_scores', {}),
             "ehr_summary": ehr_summary,
             "dialogue_summary": dialogue_summary,
             "sts_evaluation": sts_result,
@@ -402,6 +406,10 @@ class DialogueGenerationPipeline:
                 "attempts": r.get('total_attempts'),
                 "best_attempt": r.get('best_attempt'),
                 "judge_score": r.get('judge_evaluation', {}).get('score'),
+                # DeepEval sub-scores for fine-grained analysis
+                "naturalness_score": r.get('deepeval_scores', {}).get('naturalness'),
+                "profile_compliance_score": r.get('deepeval_scores', {}).get('profile_compliance'),
+                "ragas_faithfulness_score": r.get('deepeval_scores', {}).get('ragas_faithfulness'),
                 "sts_score": r.get('sts_evaluation', {}).get('sts_score') if r.get('sts_evaluation') else None,
                 "processing_time": r.get('processing_time')
             }
