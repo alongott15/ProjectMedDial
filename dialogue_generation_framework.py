@@ -297,14 +297,31 @@ class DialogueGenerationPipeline:
             if idx > 0:
                 time.sleep(2)
 
-            # Process each profile with ALL profile types
-            for profile_type in profile_types:
-                # ── Resume: skip if output file already exists ─────────────
-                output_path = self.output_dir / f"dialogue_{profile_id}_{profile_type}.md"
-                if resume and output_path.exists():
-                    logger.info(f"  Skipping {profile_id} ({profile_type}) — already completed")
+            # ── Resume: determine which profile-type variants still need generating ──
+            # Check upfront whether each of the N expected .md files already exists.
+            if resume:
+                missing_types = [
+                    pt for pt in profile_types
+                    if not (self.output_dir / f"dialogue_{profile_id}_{pt}.md").exists()
+                ]
+                if not missing_types:
+                    logger.info(
+                        f"  Skipping {profile_id} — all {len(profile_types)} variants "
+                        f"already completed"
+                    )
                     continue
+                if len(missing_types) < len(profile_types):
+                    done = [pt for pt in profile_types if pt not in missing_types]
+                    logger.info(
+                        f"  Profile {profile_id}: {len(done)}/{len(profile_types)} variants "
+                        f"already done {done}, generating missing: {missing_types}"
+                    )
+                types_to_run = missing_types
+            else:
+                types_to_run = profile_types
 
+            # Process each remaining profile type
+            for profile_type in types_to_run:
                 logger.info(f"  Processing profile type: {profile_type}")
 
                 try:
