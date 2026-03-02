@@ -16,86 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.925
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about the onset, progression, and impact of the patient's symptoms, and the patient provides plausible, relevant answers. The doctor's summary and recommendations are reasonable for a primary care setting given the described symptoms and do not introduce unsupported diagnoses or treatments. There are no obvious hallucinations or contradictions.
+- **Score**: 0.925
+- **Justification**: Combined score 0.92 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.75 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.750 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and appropriately expresses understanding at the end. For even greater realism, the patient could mention any concerns or questions about possible causes or next steps.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. For improvement, the doctor could briefly acknowledge the patient's known diagnosis of an intramedullary lesion at C6-C7 (if this is known from prior records), as this is highly relevant to the symptoms described.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with clear transitions between history-taking, functional assessment, and summary. The conversation could be slightly improved by explicitly checking for other neurological symptoms (e.g., bowel/bladder changes) or reviewing past medical history if appropriate.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: The doctor provides clear safety-netting advice and encourages prompt follow-up for worsening symptoms. No safety concerns are noted.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome in today. What brings you in, and how have you been feeling lately?
+**Doctor**: Welcome, it's good to see you today. What brings you in—can you tell me what's been going on with your health lately?
 
-**Patient**: I've been noticing some weakness in my arm lately, especially on the right side. That's mainly why I wanted to come in.
+**Patient**: I've been noticing some weakness in my right arm lately, and it's been making things a bit harder for me. That's really the main thing that's been bothering me.
 
-**Doctor**: Let me ask about when you first started noticing this weakness—how long has it been going on?
+**Doctor**: Let me ask about how this is affecting you—are there specific activities or tasks that have become more difficult because of the weakness?
 
-**Patient**: I'm not exactly sure, but I think it's been a few days now. It kind of came on gradually.
+**Patient**: Certain things like lifting objects or even opening jars have become tougher for me. I notice the weakness most when I try to use my right arm for everyday tasks.
 
-**Doctor**: Let me ask about what you’re able to do with your right arm
+**Doctor**: Let me ask about when you first noticed this change—did it come on suddenly or has it developed gradually over time?
 
-**Patient**: It's gotten harder to grip things or lift with my right arm. I just feel like I don't have the same strength I used to.
+**Patient**: I can't say for sure, but I think it developed gradually. It wasn't a sudden change—it just slowly got harder to use my right arm over time.
 
-**Doctor**: Got it. Have you noticed any numbness, tingling, or changes in sensation in your right arm or hand, or is it mainly just weakness?
+**Doctor**: Let me ask about other sensations—have you noticed any numbness, tingling, or changes in how your right arm feels, like temperature or texture?
 
-**Patient**: Yes, I've noticed some decreased sensation to sharp in my right arm along with the weakness. I haven't had any tingling or numbness, though.
+**Patient**: I have noticed that the sensation to sharp things feels different in my right arm—it seems decreased compared to before. Other than that, I haven't really felt numbness or tingling, and temperature and texture seem normal.
 
-**Doctor**: Let me ask about your daily routine—are you able to do tasks like buttoning a shirt, writing, or carrying groceries, or have those become more difficult as well?
+**Doctor**: Got it. Have you noticed any changes in the appearance of your right arm, like muscle shrinking, weakness getting worse, or trouble with fine movements such as buttoning a shirt or writing?
 
-**Patient**: Buttoning my shirt and carrying groceries have definitely gotten tougher. Writing is a bit harder too, since my right hand just feels weaker than usual.
+**Patient**: I haven't noticed any muscle shrinking in my right arm. The weakness does seem to make fine movements harder, like buttoning a shirt or writing, but it's mostly the strength that's affected.
 
-**Doctor**: Alright. Have you noticed any changes in your face, speech, or ability to walk since this started, or is it just affecting your right arm?
+**Doctor**: Let me ask about your overall health—have you had any recent injuries, neck pain, or illnesses that seemed to happen before this weakness started?
 
-**Patient**: I’ve also noticed some decreased muscle strength in my right leg, but I haven’t had any changes in my face or speech. Walking feels a bit off because of the weakness in my leg.
+**Patient**: I haven't had any injuries or neck pain recently. I also don't recall any illnesses before this weakness started.
 
-**Doctor**: Let me ask about your overall health—have you had any recent injuries, new medications, or illnesses before these changes started? Sometimes those can play a role.
+**Doctor**: Alright. Have you noticed any changes in your grip strength, like difficulty holding onto objects or things slipping from your hand unexpectedly?
 
-**Patient**: No recent injuries or illnesses that I can think of. I haven’t started any new medications either.
+**Patient**: Yes, holding onto things with my right hand has gotten harder. Sometimes objects slip from my grip unexpectedly, which has been frustrating.
 
-**Doctor**: Got it. How much is the weakness limiting your day-to-day activities—are there things you can’t do at all now, or is it more that tasks just take extra effort?
+**Doctor**: Alright. Besides your arm, have you noticed any changes in your speech, vision, balance, or any weakness in your legs? Sometimes these can help us figure out if there's a broader issue affecting your nerves or muscles.
 
-**Patient**: Tasks just take more effort now, but I can still do most things if I go slower. I haven’t found anything I absolutely can’t do, but it’s definitely making daily activities harder.
+**Patient**: I have noticed some weakness in my right leg as well, but my speech, vision, and balance haven't changed. It's mainly the strength in my right arm and right leg that's affected.
 
-**Doctor**: Based on what we've discussed, it sounds like you've developed gradually increasing weakness and reduced sensation in your right arm and some in your right leg, making daily tasks more challenging but still possible. These kinds of symptoms can be caused by a variety of things, sometimes involving the nerves, muscles, or even the brain or spinal cord. The fact that this has come on over days and is affecting one side of your body makes me want to rule out anything that could be related to nerve function, such as a pinched nerve or other neurological issues.
+**Doctor**: Based on what we've discussed, it sounds like you’re experiencing reduced strength and sensation on the right side of your body, specifically in both your arm and leg, without other issues like speech or vision changes. This pattern suggests that the problem might be related to the nerves or part of the brain that controls movement and sensation on that side.
 
-While it’s reassuring that you haven’t had changes in your speech or facial movements, I do think it’s important to get this checked further to make sure nothing serious is going on. I recommend you reach out for an in-person evaluation soon—especially if you notice any new symptoms like trouble speaking, facial drooping, severe headache, or loss of balance, which could signal something urgent.
+What often happens in cases like this is that something can affect the communication between your brain and those muscles, sometimes due to conditions involving the nervous system. Since this has developed gradually and isn’t accompanied by pain or other symptoms, it’s less likely to be an emergency, but it is important to investigate further.
 
-In the meantime, try to avoid activities that could put you at risk of falling or injury. Let me know if you have any questions or if anything changes before your evaluation.
+My recommendation is that we arrange for a detailed neurological examination and possibly some imaging (like an MRI or CT scan) to better understand what’s causing these changes. In the meantime, if you notice sudden changes—such as difficulty speaking, severe headache, new vision problems, or trouble walking—please seek medical attention right away.
 
-**Patient**: Thanks for explaining all that. I appreciate you taking it seriously. I’ll keep an eye out for any new symptoms and make sure to get checked soon. If anything changes, I’ll let you know.
+Let me know if you have any questions about what we’ve discussed or about next steps.
+
+**Patient**: Thanks for explaining all that. What should I expect during the neurological exam and imaging—are there any risks or things I need to prepare for?
+
+**Doctor**: Let me share my thoughts on what’s happening. From what you’ve told me, the gradual development of weakness and changes in sensation on one side of your body points toward something affecting the nerves or brain areas responsible for movement and feeling on that side. This isn’t uncommon, and there are several possible causes—sometimes related to nerve pathways in the brain or spinal cord.
+
+A neurological exam is a set of simple tests where we check your muscle strength, reflexes, coordination, and sensation. It’s painless and doesn’t require any special preparation. For imaging, such as an MRI or CT scan, these are safe and commonly used to look at your brain and spinal cord. An MRI doesn’t use radiation, but it can take a bit longer and sometimes feels noisy or confined; a CT scan is quicker but does involve a small amount of radiation.
+
+There aren’t major risks with these tests for most people, but if you have any metal implants or kidney problems, let the team know before an MRI. You don’t usually need to do anything special to prepare unless you’re told otherwise.
+
+It’s good that you haven’t noticed sudden or severe symptoms, but if anything changes quickly—like new speech difficulties or trouble walking—please get checked right away. We’ll work together to figure out what’s going on and get you the right support.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 626
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 890
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 55-year-old male presenting with upper extremity weakness for the past two to three months. He reported decreased muscle strength and sensation in the right upper extremity, with physical exam findings of right upper extremity strength at 3+, right leg strength at 4+, absent reflexes in the right upper extremity and left ankle, and decreased sharp sensation in the right upper extremity. His past medical history includes reflux disease and prior appendectomy, with no known allergies. On examination, he was alert and oriented, with stable vital signs and otherwise unremarkable systemic findings. The patient underwent C6-C7 laminectomies with resection of an intramedullary lesion; no intraoperative complications were noted. Postoperatively, he received a Solu-Medrol drip for 24 hours, and his motor strength improved to 5/5 in all muscle groups with intact sensation. He was transferred to the regular floor with physical therapy consultation and was determined to require a rehabilitation stay prior to discharge. Discharge medications included Zantac, Percocet, Tylenol, Colace, and Milk of Magnesia.
-
-## Dialogue Summary
-
-The patient presented with gradually increasing weakness in the right arm over the past few days. Symptoms included difficulty gripping, lifting, buttoning a shirt, carrying groceries, and writing with the right hand, as well as decreased sensation to sharp in the right arm; no tingling or numbness was reported. The patient also noted some decreased muscle strength in the right leg, which made walking feel "off," but denied any changes in facial movement or speech. No recent injuries, illnesses, new medications, or allergies were mentioned. On assessment, the doctor noted unilateral weakness and sensory changes affecting daily activities but not causing complete loss of function. The doctor’s working diagnosis included possible neurological causes such as nerve involvement, and emphasized ruling out serious conditions. The doctor recommended an in-person evaluation soon and advised monitoring for new symptoms such as trouble speaking, facial drooping, severe headache, or loss of balance. The patient was also advised to avoid activities that could increase risk of injury and to report any changes before the evaluation.
-
-## STS Evaluation
-
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 58.6s
+- **Processing Time**: 83.3s

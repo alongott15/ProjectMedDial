@@ -16,60 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.900
+- Score: 0.948
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.900
-- **Justification**: The dialogue is realistic and consistent with the patient's profile and presenting symptoms. The doctor asks appropriate, focused questions about the nature, location, and triggers of the chest pain and associated shortness of breath, which are relevant given the recent surgery and risk of pulmonary embolism. The patient provides clear, plausible responses. There are no hallucinations or unsupported content. The conversation ends prematurely due to a simulation error, not due to unrealistic dialogue.
+- **Score**: 0.948
+- **Justification**: Combined score 0.95 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.83 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.826 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Continue to provide clear, relevant answers to the doctor's questions. Ensure responses are complete and avoid abrupt endings.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Excellent focused questioning. Consider also asking about other associated symptoms (e.g., cough, fever, leg swelling) and reviewing relevant history if the conversation continued.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural. The conversation was cut short by a simulation error; otherwise, it was progressing well.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns in the portion provided. The doctor is appropriately exploring potentially serious symptoms.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me more about what's been bothering you lately?
+**Doctor**: Hello, it's good to see you today. How have you been feeling lately, and what brings you in?
 
-**Patient**: My chest started hurting pretty suddenly on the left side, and it really hurts when I take a deep breath. That’s mainly why I
+**Patient**: I've been having this sudden pain on my left side when I breathe, and it's been hard to catch my breath since last week. That's really what's brought me in today.
 
-**Doctor**: Let me ask about the location—can you point to exactly where on your chest you feel the pain? Is it more toward the center, or closer to your side?
+**Doctor**: Let me ask about the pain—would you say it's sharp, dull, or does it feel like pressure? And on a scale of 1 to 10, how intense is it when you breathe in?
 
-**Patient**: It's definitely more toward my left side, not really the center. I can point right to it, just under my chest, kind of along the side.
+**Patient**: The pain is pretty sharp, especially when I take a deep breath. I'd rate it around a 7 out of 10 when it's at its worst.
 
-**Doctor**: Let me ask about your breathing—does it feel harder to catch your breath, or do you notice any shortness of breath along with the pain?
+**Doctor**: Got it. Have you noticed any other symptoms along with the pain, like cough, fever, or any swelling in your legs?
 
-**Patient**: Yes, I do notice some shortness of breath along with the pain. It feels harder to take a deep breath when this happens.
+**Patient**: I haven't noticed any cough or fever, and I don't see any swelling in my legs. The main things are the chest pain and feeling short of breath.
 
-**Doctor**: Alright. Have you noticed if moving, twisting, or pressing on the area changes how it feels? Or does the discomfort stay the same no matter what you’re doing?
+**Doctor**: Alright. Have you noticed if the pain or shortness of breath gets worse with certain activities, like walking or lying down? Or does it happen all the time regardless of what you're doing?
+
+**Patient**: The pain and shortness of breath seem to get worse when I take deep breaths or move around, but they're always kind of there. Lying down doesn't really make it better or worse.
+
+**Doctor**: Got it. Have you experienced any recent injuries, surgeries, or unusual physical activities before this started? Sometimes those can contribute to symptoms like these.
+
+**Patient**: I actually had a laparoscopic cholecystectomy about a week ago. Since then, I’ve also been having some pain around my incisions and mild discomfort in my upper abdomen.
+
+**Doctor**: Let me ask about your recovery from surgery—are you able to move around comfortably, or have you felt unusually weak or lightheaded since the procedure?
+
+**Patient**: Moving around is a bit uncomfortable because of the incisional pain, but I haven’t felt unusually weak or lightheaded. My main issues have been the chest pain, shortness of breath, and some mild epigastric pain.
+
+**Doctor**: Let me ask about your breathing—have you noticed any wheezing or rapid heartbeat since the pain started, or any changes in your ability to speak in full sentences?
+
+**Patient**: I haven’t had any wheezing, and I’m still able to speak in full sentences. My heart does feel like it races sometimes, but that’s also happened before when I take ibuprofen.
+
+**Doctor**: One more question—have you noticed any redness, warmth, or unusual discharge around your incision sites since the surgery? Sometimes local signs can help us understand if there’s an infection or healing issue.
+
+**Patient**: There hasn't been any redness, warmth, or unusual discharge around the incision sites. The pain there is mostly just from healing after the surgery.
+
+**Doctor**: Based on what we've discussed, your symptoms started after your recent surgery and seem to be worsened by deep breaths and movement. In cases like this, pain on one side of the chest after abdominal surgery can sometimes be related to post-surgical healing, irritation of the diaphragm, or even mild inflammation in the lining of the lungs (pleurisy). It’s also important to consider rare but important possibilities like a blood clot, given your recent surgery and the nature of your symptoms.
+
+Since you’re not having fever, cough, or signs of infection at the incision sites, infection seems less likely. The absence of swelling in your legs is reassuring against a clot in those areas, but chest pain and shortness of breath still warrant caution.
+
+For now, I recommend monitoring your symptoms closely. If you notice worsening shortness of breath, severe pain, new swelling in your legs, or inability to speak comfortably, those would be warning signs to seek urgent care. Gentle movement and deep breathing exercises can help prevent stiffness and promote healing after surgery.
+
+Let me know if you have questions about what we've discussed or if anything changes with your symptoms.
+
+**Patient**: Thanks for explaining all that. I actually already had some tests done, and they found a pulmonary embolism—so I’m on Lovenox injections now. I’ll keep an eye out for any changes like you mentioned.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 7
-- **Word Count**: 196
-- **Doctor Turns**: 4
-- **Patient Turns**: 3
-
-## EHR Summary
-
-The patient is a 48-year-old female presenting with sudden onset of left-sided pleuritic chest pain and shortness of breath one week after laparoscopic cholecystectomy for symptomatic cholelithiasis. She reported incisional pain for a few days postoperatively, followed by acute respiratory symptoms and mildly elevated liver function tests. Her past medical history includes hypothyroidism, cholelithiasis (status post cholecystectomy), and cesarean section; she takes Synthroid and oral contraceptive pills, and reports an allergy to ibuprofen. On examination, she was in mild distress with tachycardia (pulse 108) and oxygen saturation of 96% on room air. A VQ scan was positive with high probability for pulmonary embolism, and imaging revealed mild biliary duct dilatation and right hydronephrosis. The documented diagnosis was pulmonary embolism. She was started on a Heparin drip and transferred for further evaluation and management.
-
-## Dialogue Summary
-
-The patient presented with sudden onset left-sided chest pain that worsens with deep breathing. The pain is localized under the left chest along the side and is not central. The patient also reported associated shortness of breath and difficulty taking a deep breath when the pain occurs. No information was provided regarding duration, severity scale, or triggers beyond deep breathing. Relevant medical history, medications, and allergies were not discussed. No physical findings were described by the doctor or patient. The doctor did not provide an explicit assessment or working diagnosis during the conversation. No specific advice, recommendations, or treatments were given in the dialogue provided.
-
-## STS Evaluation
-
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **Turn Count**: 18
+- **Word Count**: 701
+- **Doctor Turns**: 9
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 34.3s
+- **Processing Time**: 88.5s

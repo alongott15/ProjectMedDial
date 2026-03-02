@@ -16,88 +16,95 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.960
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is consistent with the patient's profile (recurrent aspergilloma, sarcoidosis, steroid-induced diabetes) and presents plausible, mild symptoms (shortness of breath, bloody sputum). The doctor's questions are appropriate for the scenario, focusing on symptom characterization and red flags. The advice is conservative and safety-netting is provided. No unsupported diagnoses, treatments, or severe events are introduced.
+- **Score**: 0.960
+- **Justification**: Combined score 0.96 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=1.00 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 1.000 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and appropriately expresses concern. For even greater realism, the patient could mention any recent changes in medications or exposures, or clarify if they have noticed any other symptoms (e.g., weight loss, night sweats), but this is not required.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: The doctor does well to ask about red flag symptoms and provides clear safety-netting. For completeness, the doctor could briefly reference the patient's known history (aspergilloma/sarcoidosis/diabetes) to reinforce continuity of care, or ask about medication adherence or steroid use.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with appropriate follow-up questions and a clear summary. The conversation closes with an opportunity for the patient to ask questions.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The doctor appropriately advises when to seek further care and reassures the patient. The explanation of possible causes for mild hemoptysis is reasonable in this context.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi there, it's good to see you today. What brings you in—how have you been feeling lately?
+**Doctor**: Hi, welcome in today. What brings you here—can you tell me about any symptoms or concerns you've been experiencing lately?
 
-**Patient**: I've been having some trouble breathing again, and it's been worrying me. That's mainly why I came in today.
+**Patient**: I've been having a hard time catching my breath lately. That's the main thing that's been worrying me.
 
-**Doctor**: Let me ask about when you notice this trouble breathing—does it tend to come on more when you're active, or does it also happen when you're resting?
+**Doctor**: Let me ask about your breathing—does the difficulty happen mostly when you're active, like walking or climbing stairs, or does it occur even when you're resting?
 
-**Patient**: It definitely gets worse when I'm moving around or doing things, but I've noticed it a bit even when I'm just sitting.
+**Patient**: It mostly happens when I’m moving around, like going up stairs or walking for a while. Sometimes I notice it even when I’m just sitting, but it’s worse with activity.
 
-**Doctor**: Let me ask about your position—does lying down make your breathing any better or worse, or is it about the same as when you're sitting up?
+**Doctor**: Let me ask about other symptoms—have you noticed any cough, chest pain, wheezing, or swelling in your legs along with the shortness of breath?
 
-**Patient**: Lying down doesn’t really make it any worse or better—it feels about the same as when I’m sitting up.
+**Patient**: I have noticed some bloody sputum when I cough. I haven’t had any chest pain, wheezing, or swelling in my legs.
 
-**Doctor**: Let me ask about any unusual sounds—have you noticed any wheezing or whistling noises when you breathe?
+**Doctor**: Alright. When you cough up blood, is it a small amount—like streaks in the mucus—or larger quantities? And how long has this been happening?
 
-**Patient**: No, I haven’t noticed any wheezing or whistling sounds when I breathe.
+**Patient**: It’s usually just streaks of blood in the mucus, not a large amount. I’m not sure exactly how long it’s been happening, but it’s been going on for a little while now.
 
-**Doctor**: Alright. Have you coughed up any blood or noticed any blood when you clear your throat?
+**Doctor**: Let me ask about your breathing—does lying down or changing positions affect how hard it is to catch your breath, or is it mostly triggered by activity?
 
-**Patient**: Yes, I've noticed some blood in my sputum again when I cough. It's not a lot, but it's definitely there.
+**Patient**: Changing positions doesn’t seem to make it any worse. It’s mostly when I’m active that I notice the shortness of breath.
 
-**Doctor**: Got it. When you feel this shortness of breath, do you ever get the sensation that you can't catch your breath, or that you're breathing faster than usual?
+**Doctor**: Let me ask about how much this is affecting your day-to-day life—are you able to do your usual activities, or have you had to cut back or rest more than usual because of the shortness of breath?
 
-**Patient**: Yes, sometimes it feels like I just can't get a full breath in, and I do notice that I'm breathing faster when it happens.
+**Patient**: I’ve definitely had to slow down and rest more than I usually would. It’s made regular activities harder for me.
 
-**Doctor**: Got it. Let me ask about the blood you've seen—how long has that been happening, and would you say the amount is increasing, staying the same, or getting less over time?
+**Doctor**: Let me ask about your cough—does it tend to happen more at certain times of day, or is it pretty consistent throughout? And do you notice anything that makes it better or worse?
 
-**Patient**: I've had blood in my sputum for a few days now. The amount seems to be about the same each time—not really getting worse or better.
+**Patient**: The cough doesn’t really have a set pattern—it’s pretty consistent throughout the day. I haven’t noticed anything specific that makes it better or worse.
 
-**Doctor**: Alright. Outside of the breathing issues, have you had any fever, chills, or chest pain recently?
+**Doctor**: Tell me more about the severity—when you feel short of breath during activity, does it ever force you to stop what you're doing, or is it just uncomfortable but manageable?
 
-**Patient**: No, I haven’t had any fever, chills, or chest pain recently.
+**Patient**: Sometimes it gets bad enough that I have to stop what I’m doing and take a break. It’s more than just uncomfortable—it can really slow me down.
 
-**Doctor**: Based on what we've discussed, it sounds like your main concerns are the episodes of breathing difficulty that get worse with activity, and the presence of blood in your sputum over the past few days. Since you're not experiencing fever, chills, or chest pain, and the amount of blood hasn't increased, this is a bit more reassuring. 
+**Doctor**: Based on what we've discussed, your main concern is shortness of breath with activity, accompanied by a cough that sometimes produces streaks of blood. You haven't noticed chest pain, leg swelling, or wheezing, and the symptoms are impacting your daily routine enough that you need to rest more.
 
-Often, mild shortness of breath with some blood in the sputum can be related to irritation in the airways—sometimes from coughing, allergies, or even minor infections. However, it's important to keep an eye on these symptoms because persistent blood in sputum, especially if it continues or increases, can sometimes point to underlying issues that need further evaluation.
+Given this picture, the most likely explanation is a respiratory issue—something like bronchitis or another mild lung condition. Bloody streaks in sputum can occur when the airways are irritated from frequent coughing, but it’s important to monitor this closely.
 
-For now, I recommend monitoring your symptoms closely. If you notice the blood increases, if you develop chest pain, fever, or if your breathing becomes much more difficult—even at rest—those would be reasons to seek prompt medical attention. Otherwise, try to rest, avoid strenuous activity until your breathing feels back to normal, and stay hydrated.
+Here's what I recommend:
+- Rest and avoid strenuous activity until your breathing improves.
+- Stay hydrated and consider using a humidifier if your environment is dry.
+- If you smoke or are exposed to irritants, try to minimize those exposures.
+- Watch for warning signs: if you notice larger amounts of blood in your sputum, severe chest pain, fever, or worsening shortness of breath even at rest, seek medical attention promptly.
 
-Let me know if you have any questions or if anything changes with your symptoms.
+If your symptoms persist beyond a week or get worse, it would be wise to follow up for further evaluation—sometimes a chest X-ray or other tests are needed to rule out infections or other causes.
 
-**Patient**: Thanks, that helps put my mind at ease a bit. I'll keep an eye on things and let you know if anything changes. I appreciate you explaining it clearly.
+For now, this seems consistent with a mild airway irritation rather than something severe. Let me know if you have questions or concerns about these recommendations.
+
+**Patient**: Thanks for explaining that. If my symptoms do get worse, what kind of tests or follow-up would you recommend next?
+
+**Doctor**: Let me share my thoughts based on everything you've mentioned. When someone experiences difficulty breathing with activity, and it's impacting daily life, we look for common causes like airway irritation, mild infection, or sometimes environmental factors. The presence of blood streaks in your sputum suggests your airways may be inflamed from repeated coughing or irritation, but it's not uncommon in benign conditions.
+
+If your symptoms become more severe—such as coughing up larger amounts of blood, developing chest pain, or feeling short of breath even while resting—it's important to follow up promptly. In those situations, typical next steps might include a chest X-ray to look for infection or other lung issues, blood tests to check for signs of inflammation or anemia, and possibly a review of your oxygen levels.
+
+For now, focusing on rest and avoiding irritants is key. If things worsen, those tests help us rule out more serious problems and guide treatment. Let me know if you have any questions about this approach or anything else you'd like to discuss.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 568
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 849
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 35-year-old male presenting with recurrent Aspergilloma on the right side, with symptoms of shortness of breath and hemoptysis. He has a history of sarcoidosis, prior left triple lobe lobectomy for Aspergilloma, diabetes secondary to steroids, and previous hemoptysis. Current medications include prednisone, Bactrim, Zantac, Cancidas, NPH, Flovent, albuterol, and posaconazole. On this admission, he underwent a right upper lobe lobectomy for right upper lobe Aspergilloma and tolerated the procedure well. Postoperatively, he developed a complication following CT-guided aspiration of a right chest fluid collection, resulting in an episode of unresponsiveness. Neurologic evaluation revealed a right parietal infarct on MRI, with persistent left hemiparesis, left hemineglect, and aphasia. The treatment plan included multidisciplinary consultations and supportive care in the ICU.
-
-## Dialogue Summary
-
-The patient presented with trouble breathing as the chief complaint. They reported that the shortness of breath worsens with activity but can also occur at rest, is not affected by lying down versus sitting, and is accompanied by a sensation of not being able to get a full breath and increased breathing rate during episodes. The patient also noted blood in their sputum for the past few days, with the amount remaining stable and no associated wheezing, fever, chills, or chest pain. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of worsening symptoms or systemic signs was somewhat reassuring and suggested the symptoms could be due to airway irritation from coughing, allergies, or minor infections. The doctor advised close monitoring of symptoms, seeking prompt medical attention if blood increases, chest pain, fever, or worsening breathing occurs, and recommended rest, avoiding strenuous activity, and staying hydrated. The patient expressed understanding of the plan.
-
-## STS Evaluation
-
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 62.3s
+- **Processing Time**: 79.8s

@@ -16,60 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.900
+- Score: 0.947
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.900
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about the symptoms (onset, frequency, associated symptoms, and quantity), and the patient provides relevant, clear responses. There are no unsupported diagnoses, treatments, or tests introduced. The conversation is cut short due to a simulation error, but up to that point, it is realistic and grounded.
+- **Score**: 0.947
+- **Justification**: Combined score 0.95 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.82 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.824 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For improvement, the patient could provide more detail about the amount of blood or any other associated symptoms if prompted.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor's questions are thorough and appropriate for the presenting symptoms. For improvement, the doctor could consider asking about risk factors (medications, history of GI disease) or warning signs if the conversation continued.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural. The simulation ended abruptly due to a technical issue; otherwise, the conversation was progressing well.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns in the dialogue as written. The doctor is appropriately gathering information before making any clinical decisions.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brings you in—have you noticed any new symptoms or concerns recently?
+**Doctor**: Welcome back—how have you been feeling lately? Is there anything new or different with your symptoms that you’d like to discuss today?
 
-**Patient**: I've noticed some bright red blood when I go to the bathroom. It’s been a bit worrying, so I thought I should get it checked out.
+**Patient**: I've been pretty concerned because I noticed some bright red blood when I went to the bathroom recently. That's the main thing that's been bothering me.
 
-**Doctor**: Let me ask about the timing—when did you first notice this happening, and has it occurred more than once?
+**Doctor**: Let me ask about the timing—when did you first notice this, and has it happened more than once?
 
-**Patient**: I first saw the blood a couple days ago, and it's happened more than once since then. I also noticed some dark, coffee ground-looking stuff when I vomited recently.
+**Patient**: I first noticed the blood a few days ago. It’s happened more than once since then.
 
-**Doctor**: Let me ask about how you've been feeling overall—have you noticed any weakness, lightheadedness, or changes in your energy since these symptoms started?
+**Doctor**: Let me ask about anything else you've noticed—have you had any stomach pain, changes in your bowel habits, or felt lightheaded at all?
 
-**Patient**: I’ve had some tarry stools too, along with the bleeding and vomiting. I haven’t really felt more weak or lightheaded than usual, but it’s been a bit unsettling. My energy hasn’t changed much that I can tell.
+**Patient**: I haven’t had any stomach pain. My stools have been tarry, though. I don’t think I’ve felt lightheaded.
 
-**Doctor**: Let me ask about the amount—would you say the blood you've seen is just a small streak, or is it enough to cover the toilet paper or appear in the toilet bowl? And when you vomited, was it just once or has it happened multiple times?
+**Doctor**: Got it. Since you mentioned your stools have been tarry, have you noticed any nausea or vomiting—especially anything that looks dark or like coffee grounds? This can help us understand where the bleeding might be coming from.
+
+**Patient**: I have had some vomiting, and it looked like coffee grounds. That’s been pretty worrying for me.
+
+**Doctor**: Alright. Has the amount of blood or vomiting been increasing, decreasing, or staying about the same since it started?
+
+**Patient**: The amount seems to have stayed about the same so far. I haven’t noticed it getting worse or better.
+
+**Doctor**: Let me ask about your energy level—have you felt more tired or weak than usual over the past few days? Sometimes blood loss can cause fatigue even if you don’t feel lightheaded.
+
+**Patient**: I have felt more tired lately, and it’s been harder to do my usual activities. I think the fatigue might be related to all these symptoms.
+
+**Doctor**: Got it. Can you estimate roughly how much blood you've seen—would you say it's just a few drops, or enough to cover the surface of the stool or fill the toilet bowl? This can help us gauge how significant the bleeding might be.
+
+**Patient**: The blood usually covers the surface of the stool, but it hasn’t filled the toilet bowl. It’s definitely noticeable each time.
+
+**Doctor**: Tell me more about how this is affecting your daily routine—are you finding it difficult to keep up with your normal activities, or needing to rest more than usual?
+
+**Patient**: I’ve definitely had to rest more than usual. The fatigue from the tarry stools and vomiting has made it hard to keep up with things around the house.
+
+**Doctor**: Based on what we've discussed, your symptoms suggest there may be bleeding somewhere in your digestive tract. The presence of both bright red blood and dark, tarry stools, along with vomiting that looks like coffee grounds, points to the possibility of bleeding higher up in your gastrointestinal system—often from the stomach or esophagus. This can sometimes be related to ulcers or irritation, but there are several possible causes.
+
+Because this type of bleeding can become serious, even if it hasn't increased so far, it's important to get checked promptly. Ongoing blood loss can lead to further tiredness and other complications. I recommend you seek medical attention today—either by contacting your gastroenterologist directly or going to the emergency department—so they can assess your blood counts and possibly arrange for further tests or treatment.
+
+If you notice any new symptoms like feeling faint, chest pain, or a large amount of blood, seek care immediately. While some causes are not dangerous, it's safest not to wait with these findings.
+
+Would you like guidance on how best to seek care, or do you have any questions about what to expect next?
+
+**Patient**: Thank you for explaining all that. I understand it’s important to get checked right away. I’d appreciate some guidance on what steps to take next—should I call my gastroenterologist first, or just go to the emergency department?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 7
-- **Word Count**: 219
-- **Doctor Turns**: 4
-- **Patient Turns**: 3
-
-## EHR Summary
-
-The patient is a 60-year-old female presenting with bright red blood per rectum and coffee ground hematemesis. She reported episodes of tarry stools over the past two days, along with ongoing rectal bleeding and emesis of altered blood. Her past medical history is significant for congestive heart failure, coronary artery disease (status post CABG), diabetes mellitus with complications, hypertension, peripheral vascular disease, chronic renal insufficiency, and multiple other comorbidities. On admission, she was hypotensive (BP 90–100/60) and tachycardic (HR 101–103), with a hematocrit dropping from 27.9 to 16.6; stool was heme positive and dark. Physical exam and gastric lavage did not reveal active upper GI bleeding. The clinical impression was gastrointestinal bleeding in the context of multiple comorbidities. She received two units of packed red blood cells prior to admission and intravenous fluids for hemodynamic support. Further management included central line placement and monitoring.
-
-## Dialogue Summary
-
-The patient presented with bright red blood noticed during bowel movements. They reported that this bleeding began a couple of days ago and has occurred more than once, along with observing dark, coffee ground-like material in vomitus recently. Additional symptoms included tarry stools, but the patient denied increased weakness, lightheadedness, or changes in energy. No relevant medical history, medications, or allergies were mentioned. The doctor inquired about the timing, frequency, and amount of bleeding, as well as associated symptoms such as weakness and energy changes. No physical findings or explicit assessment were documented in the conversation. No specific treatment plan or recommendations were provided during the dialogue.
-
-## STS Evaluation
-
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **Turn Count**: 18
+- **Word Count**: 642
+- **Doctor Turns**: 9
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 34.1s
+- **Processing Time**: 73.3s

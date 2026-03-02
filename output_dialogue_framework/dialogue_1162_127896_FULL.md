@@ -6,87 +6,93 @@
 - **Admission ID**: 127896
 - **Profile Type**: FULL
 - **Success**: True
-- **Is Realistic**: False
+- **Is Realistic**: True
 
 ## Generation Attempts
 
-- **Total Attempts**: 3
-- **Best Attempt**: 2
+- **Total Attempts**: 1
+- **Best Attempt**: 1
 
 ### Attempt 1
-- Success: False
-- Decision: N/A
-- Score: 0.000
-
-### Attempt 2
-- Success: False
-- Decision: UNREALISTIC
-- Score: 0.400
-
-### Attempt 3
-- Success: False
-- Decision: UNREALISTIC
-- Score: 0.400
+- Success: True
+- Decision: REALISTIC
+- Score: 0.917
 
 ## Judge Evaluation
 
-- **Decision**: UNREALISTIC
-- **Score**: 0.400
-- **Justification**: While the dialogue is mostly plausible in terms of symptom exploration and patient responses, the doctor's summary and provisional explanation are not well-grounded in the provided context. The patient has a known brain tumor (right temporal mass) and is being evaluated by neurosurgery for this reason. The doctor's focus on benign vestibular/ear causes and reassurance that 'more serious neurological causes are less likely' is inappropriate and contradicts the profile. The advice to monitor for new neurological symptoms is reasonable, but the minimization of neurological risk is unsupported given the patient's diagnosis.
+- **Decision**: REALISTIC
+- **Score**: 0.917
+- **Justification**: Combined score 0.92 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.86 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.857 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear, relevant, and consistent with the profile. No major improvements needed.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor should acknowledge the known brain tumor and its likely contribution to the symptoms, rather than attributing them primarily to benign vestibular or Eustachian tube issues. The reassurance about neurological causes being unlikely is inappropriate in this context.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and question-answer pairs are coherent. However, the summary and plan should be better aligned with the patient's known diagnosis and reason for evaluation.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: There is a safety concern due to downplaying the neurological risk in a patient with a brain tumor. The explanation should be more cautious and tailored to the patient's actual medical context.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Let me ask about the sensation you're experiencing—when did you first notice this pulsatile tightness and has it changed over time?
+**Doctor**: Welcome back. How have you been feeling lately—are there any particular symptoms or changes you’d like to talk about today?
 
-**Patient**: I first noticed the pulsatile tightness maybe a couple weeks ago. It hasn’t really gone away, and I’ve also been having some trouble with my balance.
+**Patient**: Lately, I've been noticing this kind of pulsating tightness in my head. That's the main thing that's been bothering me.
 
-**Doctor**: Let me ask about your balance—when you say you’re having trouble, do you feel more unsteady when standing still, walking, or does it come on with certain movements like turning your head?
+**Doctor**: Let me ask about how this sensation is affecting your daily activities—are you able to go about your usual routine, or is it interfering with things like work, exercise, or concentration?
 
-**Patient**: I feel more unsteady when I’m walking, especially if I turn my head or change directions. Standing still isn’t as much of a problem.
+**Patient**: Some days it really throws off my balance, so I have to move slower and be more careful. It definitely makes it harder to concentrate, especially when the tightness and dizziness get worse.
 
-**Doctor**: Got it. One more question—have you noticed any spinning sensation, like the room moving around you, or is it more just a feeling of unsteadiness?
+**Doctor**: Let me ask about the timing—when did you first notice this sensation, and has it been getting better, worse, or staying about the same since it started?
 
-**Patient**: I haven’t had any spinning sensation or the room moving around me. It’s more just a general feeling of unsteadiness and dizziness.
+**Patient**: I can't remember exactly when it started, but it feels like it's been getting a bit worse over time. The dizziness and poor balance seem to be happening more often now.
 
-**Doctor**: Let me ask about your headaches—how would you describe the severity, and do they tend to come on at certain times of day or with specific activities?
+**Doctor**: Let me ask about the quality of the sensation—does this tightness feel more like a pressure, throbbing, or squeezing, and does it come and go or stay constant throughout the day?
 
-**Patient**: The headaches are usually mid frontal and pretty steady, not sharp, and they radiate to the back of my head. I’d say the severity is moderate—they don’t stop me from doing things, but they’re definitely noticeable. I haven’t seen a clear pattern with time of day or activities.
+**Patient**: The tightness feels more like a pressure, especially in the middle of my forehead, and sometimes it spreads to the back of my head. It isn’t constant—it comes and goes throughout the day.
 
-**Doctor**: Alright, have you noticed any changes in your vision, speech, or any weakness or numbness in your arms or legs since these symptoms began?
+**Doctor**: Alright. Have you noticed if anything in particular seems to trigger or worsen the pressure, like stress, certain foods, physical activity, or changes in sleep?
 
-**Patient**: No, I haven’t noticed any changes in my vision, speech, or any weakness or numbness. I do have this pressure feeling in my right ear, though.
+**Patient**: Nothing specific seems to trigger it, at least that I've noticed. The pressure and other symptoms just seem to come and go on their own.
 
-**Doctor**: Let me ask about that ear pressure—has it been constant, or does it come and go? And have you had any hearing changes or ringing in that ear?
+**Doctor**: Got it. When the pressure and dizziness are at their worst, do you ever notice any other symptoms—like changes in your vision, ringing in your ears, or nausea?
 
-**Patient**: The pressure in my right ear has been pretty constant. I haven’t had
+**Patient**: I do get a sense of pressure in my right ear when the headaches and dizziness are bad, but I haven't noticed any changes in my vision or any nausea. My balance gets worse during those times, too.
 
-**Doctor**: Based on what we've discussed, it sounds like you’re dealing with a steady, moderate headache that’s been present for a couple of weeks, along with a sensation of ear pressure and some unsteadiness when walking—especially when turning your head or changing directions. These symptoms can sometimes be related to issues with the inner ear, such as vestibular dysfunction or Eustachian tube problems, which can affect both balance and create a pressure sensation. The fact that you haven’t experienced spinning, vision changes, weakness, or numbness is reassuring and makes more serious neurological causes less likely.
+**Doctor**: Alright. When these episodes happen, how intense would you say the pressure or dizziness gets—would you rate it as mild, moderate, or severe? And does it ever force you to stop what you’re doing and rest?
 
-Common triggers for this kind of problem include recent upper respiratory infections, allergies, or even changes in air pressure. Sometimes, mild inflammation in the inner ear can cause both balance issues and headaches.
+**Patient**: The pressure and dizziness can get pretty intense—I'd call it moderate to severe at times. When it's at its worst, I definitely have to stop what I'm doing and rest for a while.
 
-For now, I’d recommend paying attention to any new symptoms—like severe headache, double vision, trouble speaking, or weakness—since those would need more urgent evaluation. Otherwise, gentle activity, staying well hydrated, and avoiding sudden head movements may help. If your symptoms persist beyond another week or worsen, it would be a good idea to have an in-person evaluation, possibly including a check of your ears and balance system.
+**Doctor**: Got it. Have you noticed any tenderness when you press on your forehead or scalp, or does the area just feel tight without being sore to the touch?
 
-Let me know if you notice anything that seems to make your symptoms better or worse, or if you have questions about what we've discussed so far.
+**Patient**: There's no real tenderness when I press on my forehead or scalp. It just feels tight and pressured, not sore to the touch.
 
-**Patient**: Thanks, that explanation helps. I’ll pay attention for any changes like you mentioned. For now, I haven’t noticed anything that clearly makes the symptoms better or worse, but I’ll keep track.
+**Doctor**: Based on what we've discussed, it sounds like you’re dealing with intermittent pressure-type sensations in your head that can become quite intense at times, along with a sense of ear fullness and some balance issues. These features suggest a tension-type headache or possibly something related to the inner ear, especially since you’ve noticed ear pressure and issues with your balance.
+
+Often, tension-type headaches can cause a feeling of tightness or pressure, especially in the forehead and back of the head, and aren’t usually tender to touch. The ear pressure and balance symptoms could point toward an underlying issue in the ear or sinuses, but since you haven’t noticed hearing loss or ringing, and there’s no nausea or vision changes, it’s less likely to be something more serious like a migraine or neurological problem.
+
+For now, I’d recommend keeping track of when these episodes happen and any possible connections to sleep, stress, or activity. Staying well-hydrated, managing stress, and taking breaks if you feel symptoms coming on may help. However, if you develop new symptoms such as double vision, persistent vomiting, weakness, or the headaches become constant and severe, those would be reasons to seek prompt evaluation.
+
+Let me know if you have any questions about what might be causing these symptoms or about ways to manage them day-to-day.
+
+**Patient**: Thanks for explaining that. I just want to mention that my headaches usually start in the middle of my forehead and then spread to the back of my head, along with the pressure in my right ear. I’ll keep track of when these episodes happen and let you know if anything changes.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 14
-- **Word Count**: 588
-- **Doctor Turns**: 7
-- **Patient Turns**: 7
+- **Turn Count**: 18
+- **Word Count**: 756
+- **Doctor Turns**: 9
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 249.5s
+- **Processing Time**: 92.9s

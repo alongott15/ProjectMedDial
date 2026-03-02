@@ -16,88 +16,93 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.923
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about the headache and double vision, explores relevant details, and provides reasonable reassurance and safety-netting advice for a light case. There are no unsupported diagnoses, treatments, or alarming contradictions. The conversation is clear, logical, and maintains appropriate roles.
+- **Score**: 0.923
+- **Justification**: Combined score 0.92 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.88 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.875 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and does not introduce extraneous or contradictory information. For even greater realism, the patient could mention any over-the-counter remedies tried or express more concern about the new symptoms.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. For improvement, the doctor could briefly acknowledge the patient's known aneurysm history (if aware from chart), or clarify if this is a first presentation. A slightly stronger emphasis on the importance of follow-up given the new neurological symptom (diplopia) would be prudent.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is natural and logical, with smooth transitions between topics. The summary and safety-netting at the end are appropriate. Adding a brief check for other neurological symptoms (e.g., weakness, numbness) earlier in the conversation could enhance completeness.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: The safety-netting is good, but given the patient's history of aneurysms (if known to the doctor), a stronger recommendation for prompt in-person evaluation might be warranted. Otherwise, the advice is clear and appropriate for a simulated light case.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me more about what's been bothering you lately?
+**Doctor**: Hello, it's nice to meet you. What brings you in today? Can you tell me more about what you've been experiencing lately?
 
-**Patient**: I've been having these headaches, mostly above my right eye. That's the main thing that's been bothering me.
+**Patient**: I came in because I've been having headaches above my right eye. It's been bothering me, and I wanted to get it checked out.
 
-**Doctor**: Let me ask about the headaches—when did you first start noticing them, and how often are they happening?
+**Doctor**: Let me ask about the headache—how long have you been experiencing this pain above your right eye, and is it constant or does it come and go?
 
-**Patient**: I first noticed the headaches a few days ago. They've been happening on and off since then, mostly above my right eye.
+**Patient**: I can't say exactly how long it's been, but the pain comes and goes. Sometimes it's pretty noticeable above my right eye.
 
-**Doctor**: Let me ask about any other symptoms—have you noticed changes in your vision, such as seeing double or blurriness, when the headache occurs?
+**Doctor**: Let me ask about the quality of the pain—would you describe it as throbbing, sharp, or dull? And does anything seem to trigger or relieve it?
 
-**Patient**: Yes, I've noticed some double vision when the headache is there. It’s not constant, but it does happen.
+**Patient**: It's hard to describe, but the pain feels more sharp than dull. I don't know what triggers it, and nothing in particular seems to make it better or worse.
 
-**Doctor**: Alright. Have you ever had headaches or episodes of double vision like this before, or is this a new experience for you?
+**Doctor**: Let me ask about other symptoms—have you noticed any changes in your vision, like double vision or blurriness, when these headaches occur?
 
-**Patient**: No, this is new for me. I haven't had headaches like this or double vision before.
+**Patient**: I have noticed some double vision along with the headaches. It seems to happen at the same time. I haven't had any blurriness, just the double vision.
 
-**Doctor**: Got it. Does anything in particular seem to bring on these episodes, or have you noticed if certain activities or times of day make the symptoms worse?
+**Doctor**: Got it. When you experience the double vision, does it affect both eyes or just one? Also, does closing one eye improve your vision?
 
-**Patient**: Nothing specific seems to trigger it, at least that I've noticed. The headaches just sort of come and go throughout the day.
+**Patient**: Double vision affects both eyes. If I close one eye, my vision goes back to normal.
 
-**Doctor**: Got it. When these episodes happen, how intense is the pain—would you rate it as mild, moderate, or severe? And does it ever interfere with your ability to do daily tasks?
+**Doctor**: Alright. Have you ever experienced headaches like this before, or is this the first time you've had this type of pain and double vision?
 
-**Patient**: I’d call the pain moderate. It can be distracting, but I’m still able to get through my day.
+**Patient**: This is the first time I've had headaches like this, and the double vision is new for me too.
 
-**Doctor**: Let me ask about your vision a bit more—when you experience double vision, does closing one eye make it go away? And is it worse when looking in a particular direction?
+**Doctor**: Okay. How severe would you say the pain is on a scale of 1 to 10, with 10 being the worst pain you've ever had? And does the double vision last as long as the headache, or does it come and go separately?
 
-**Patient**: Closing one eye does make the double vision go away. I haven’t really noticed if it’s worse in a certain direction.
+**Patient**: The pain is probably around a 7 out of 10. The double vision usually lasts as long as the headache does; they seem to go together.
 
-**Doctor**: Tell me more about the quality of the headache—does it feel throbbing, sharp, or more of a dull ache?
+**Doctor**: Let me ask about other possible symptoms—have you noticed any drooping of your eyelid, weakness in your face, or difficulty speaking during these episodes?
 
-**Patient**: It’s more of a dull ache, not really sharp or throbbing. Just kind of sits there above my right eye.
+**Patient**: I haven't noticed any drooping of my eyelid, weakness in my face, or trouble speaking during these episodes.
 
-**Doctor**: Based on what we've discussed, your symptoms—a new onset of dull ache above your right eye and episodes of double vision that resolve when one eye is closed—sound like they could be related to the nerves or muscles that control eye movement. Sometimes, mild headaches in this area can be caused by sinus pressure or eye strain, but double vision suggests there might be involvement with the way your eyes are working together.
+**Doctor**: From what you've told me, your symptoms suggest a type of headache that is localized above your right eye and accompanied by double vision affecting both eyes, which resolves when you close one eye. The pain is moderate to severe and comes and goes, but you haven't experienced any other neurological changes like facial weakness or speech difficulty.
 
-It's reassuring that the pain is moderate and hasn't stopped you from your daily activities. However, because double vision is new for you, it's important to keep an eye on things. If you notice the headache getting much worse, if your vision changes suddenly, or if you develop weakness, numbness, or trouble speaking, those would be signs to seek prompt medical attention.
+The combination of headache and double vision can sometimes be related to issues with the nerves that control eye movement, or less commonly, sinus or vascular causes. Most often, these are benign, but because double vision is involved, it's important to rule out anything more serious.
 
-For now, you might find relief by resting your eyes periodically and avoiding screens for long stretches. Staying hydrated and using over-the-counter pain relief can help with mild discomfort. If the symptoms persist for more than a few days or get worse, I would recommend reaching out for an in-person evaluation.
+For now, I recommend keeping track of when these episodes occur and if any new symptoms develop, such as eyelid drooping, vision loss, or difficulty moving your eyes. You should avoid activities that require clear vision during an episode (like driving), and try resting in a quiet, dark room when the pain starts.
 
-Let me know if you have any questions or concerns about what we've discussed.
+To move forward, I would suggest an evaluation by an eye specialist (ophthalmologist) to check your eye movements and vision thoroughly. If your symptoms worsen or you notice any new neurological changes, seek medical attention promptly.
 
-**Patient**: Thanks for explaining all that. I feel a bit better knowing it’s not likely something serious right now. I’ll keep an eye on my symptoms and reach out if anything changes or gets worse.
+Most headaches are harmless, but the addition of double vision means we need to be a bit more cautious. Let me know if you have any questions or concerns about this plan.
+
+**Patient**: Thank you for explaining that. If I see an eye specialist, what kind of tests or exams should I expect?
+
+**Doctor**: Let me share my thoughts. From what you've described, your symptoms point toward a possible issue with the nerves or muscles controlling eye movement, which can sometimes be picked up during a detailed eye exam. When you see an eye specialist, they'll likely check your vision, eye alignment, and how your eyes move in different directions. They may use special lights or ask you to follow objects to see if certain muscles are working properly.
+
+Sometimes, additional tests like imaging (such as a CT or MRI) are needed if the exam suggests something unusual, but often the first step is a thorough clinical assessment. The goal is to pinpoint whether the double vision is caused by something affecting the nerves, muscles, or even the sinuses near your eye.
+
+Based on your answers, there are no signs of more urgent neurological problems, which is reassuring. However, because double vision is involved, it's important to get checked soon. In the meantime, avoid activities that require sharp vision during episodes and keep a record of when symptoms occur.
+
+Let me know if you have any other questions or concerns about what to expect or next steps.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 605
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 855
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 55-year-old woman presenting with right supraorbital headaches and diplopia since December 30, 2170. Headaches prompted an MRI, which revealed an aneurysm, and her past medical history includes hypertension. On physical examination, she was in no acute distress with normal HEENT and neurological findings. Angiography identified a dysplastic left MCA trunk with two micro-aneurysms not amenable to therapy and a large right cavernous ICA aneurysm. The documented diagnosis was a right cavernous internal carotid artery aneurysm. She underwent successful GDC coil embolization of the cavernous ICA aneurysm without complications. At discharge, she was stable and alert, prescribed Lopressor 50 mg daily, and advised to follow up in two to three weeks.
-
-## Dialogue Summary
-
-The patient presented with headaches, primarily located above the right eye. The headaches began a few days ago and have been occurring intermittently throughout the day, described as a moderate, dull ache that is distracting but does not prevent daily activities. The patient also reported episodes of double vision associated with the headache, which resolve when one eye is closed; no specific triggers or worsening factors were identified, and there is no prior history of similar symptoms. No other neurological symptoms such as weakness, numbness, or speech difficulties were mentioned. The doctor noted that the combination of new-onset dull headache and intermittent double vision could be related to the nerves or muscles controlling eye movement, and considered sinus pressure or eye strain as possible causes, but emphasized the significance of new double vision. The doctor advised resting the eyes periodically, avoiding prolonged screen time, staying hydrated, and using over-the-counter pain relief for mild discomfort. The patient was instructed to seek prompt medical attention if symptoms worsen or new neurological symptoms develop, and to follow up if symptoms persist beyond a few days.
-
-## STS Evaluation
-
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 59.0s
+- **Processing Time**: 76.1s

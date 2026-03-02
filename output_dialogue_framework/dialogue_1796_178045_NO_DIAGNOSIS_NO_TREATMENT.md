@@ -16,88 +16,93 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.960
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is consistent with the patient's profile (recent MI, RCA stent, ongoing chest pain and dyspnea on exertion). The doctor asks appropriate, focused questions about the nature, timing, and triggers of symptoms, and provides a cautious, reasonable summary and advice without overstepping the case type. There are no unsupported diagnoses, treatments, or test orders. The conversation is plausible for a primary care or cardiology follow-up.
+- **Score**: 0.960
+- **Justification**: Combined score 0.96 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=1.00 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 1.000 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and volunteers additional symptoms when prompted. For even greater realism, the patient could mention any medications or concerns about their recovery process.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. For improvement, the doctor could briefly check for other associated symptoms (e.g., palpitations, swelling in legs) or clarify medication adherence, but this is not essential.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with appropriate back-and-forth and summarization. The closing is clear and supportive.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is appropriate for a light case with warning signs for escalation. The doctor avoids making new diagnoses or ordering unnecessary tests. The explanation is clear and patient-centered.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brings you in—can you tell me more about what's been bothering you lately?
+**Doctor**: Hello, it’s nice to meet you. What brings you in today, and how have you been feeling lately?
 
-**Patient**: Lately, I've been having this chest pain that kind of comes and goes. That's really what's been worrying me the most.
+**Patient**: Nice to meet you too. I’ve been having this chest pain that comes and goes, and it’s been making me pretty worried.
 
-**Doctor**: Let me ask about the nature of the pain—can you describe what it feels like? For example, is it sharp, dull, pressure-like, or something else?
+**Doctor**: Let me ask about the pain itself—can you describe what it feels like? For example, is it sharp, dull, pressure-like, or something else?
 
-**Patient**: It's more of a pressure right in the center of my chest. Sometimes it just feels uncomfortable, not exactly sharp.
+**Patient**: It feels like a pressure in the center of my chest, and sometimes it sort of stutters—like it comes and goes instead of staying the same.
 
-**Doctor**: Alright. When did you first notice this pressure sensation, and has it changed at all since it began?
+**Doctor**: Let me ask about your breathing—do you ever feel short of breath when this happens, especially if you’re walking or doing something active?
 
-**Patient**: I'm not sure exactly when it started, but I noticed it more after my stent procedure. The pain hasn't gotten worse, but it does come and go.
+**Patient**: Yes, I do get short of breath, especially when I’m walking or doing something that takes a bit more effort. It’s definitely harder to catch my breath than usual.
 
-**Doctor**: Let me ask about your breathing—have you noticed any shortness of breath, either at rest or when you’re active?
+**Doctor**: Alright. When did you first notice this pressure in your chest—has it been going on for days, weeks, or longer?
 
-**Patient**: Yes, I do get short of breath when I'm moving around more or doing things around the house. It doesn't really happen when I'm just sitting.
+**Patient**: I’m not exactly sure when it started, but it’s been going on for at least several days now.
 
-**Doctor**: Got it. Does anything in particular seem to trigger the pressure or the shortness of breath, like walking up stairs, eating a large meal, or feeling stressed? Or does it come on randomly?
+**Doctor**: Got it. Does anything in particular seem to trigger this sensation—like eating, stress, or certain movements? Or does it tend to come on randomly?
 
-**Patient**: Climbing stairs or doing more around the house seems to bring it on. I haven't really noticed a connection with eating or stress. Sometimes it just comes out of nowhere, though.
+**Patient**: It doesn’t seem to follow a pattern—it just sort of comes on randomly. I haven’t noticed anything specific that sets it off.
 
-**Doctor**: Okay. How long does the pressure or discomfort usually last when it comes on—are we talking seconds, minutes, or longer?
+**Doctor**: Got it. How severe would you say the pressure is at its worst, on a scale from 1 to 10, with 10 being the most intense pain you can imagine?
 
-**Patient**: It usually lasts a few minutes, sometimes a bit longer if I keep moving around. If I sit down and rest, it tends to ease up.
+**Patient**: At its worst, I’d rate the pressure around a 7 out of 10. It’s pretty uncomfortable when it happens.
 
-**Doctor**: Let me ask about other symptoms—when you experience this pressure, do you ever notice sweating, nausea, or feeling lightheaded?
+**Doctor**: Let me ask about any other symptoms—have you experienced things like sweating, nausea, or feeling lightheaded when the pressure happens?
 
-**Patient**: I do get some nausea, especially after the chest pain or after the catheterization. I haven't noticed any sweating or feeling lightheaded, though.
+**Patient**: I have had some nausea when the chest pressure happens, and there have been a couple of times where I felt like I might throw up. I haven’t really noticed sweating or feeling lightheaded, though.
 
-**Doctor**: Got it. How would you rate the discomfort when it happens—would you say it's mild, moderate, or quite severe? And has it ever stopped you from finishing what you were doing?
+**Doctor**: Alright. Have you noticed if resting or sitting down helps the pressure go away, or does it linger even when you’re not active?
 
-**Patient**: I'd call it moderate most of the time. There have been a few times when I had to stop what I was doing because the chest pain and shortness of breath were bothering me.
+**Patient**: Resting does help a bit, but sometimes the pressure sticks around even when I’m not doing anything.
 
-**Doctor**: Based on what we've discussed, your symptoms of chest pressure and shortness of breath that come on with activity and improve with rest are important to pay attention to—especially given your history of a stent procedure. What often happens in cases like this is that the heart muscle may not be getting enough blood flow during exertion, which can cause these types of symptoms.
+**Doctor**: Based on what we've discussed, your symptoms—pressure-like chest discomfort that comes and goes, shortness of breath with activity, and some nausea—are important to take seriously. While these could be related to something less concerning, such as muscle strain or acid reflux, the fact that the pressure is fairly intense, sometimes occurs at rest, and is associated with exertion and nausea means we can't rule out a heart-related cause without further evaluation.
 
-The fact that the discomfort is moderate and sometimes stops you from continuing activity, along with occasional nausea, means it’s worth being cautious. While these symptoms can sometimes be related to recovery after a heart procedure, they can also signal that the heart still isn't getting all the oxygen it needs when you’re active.
+Chest discomfort like this can sometimes be a sign of angina, which happens when the heart isn't getting enough oxygen during activity. This doesn't always mean a heart attack is happening right now, but it's important to get checked to be safe.
 
-My recommendation is to take it easy for now—avoid strenuous activity until you’ve spoken with your cardiologist or primary care provider. If the pain becomes severe, lasts longer than usual, or is accompanied by new symptoms like sweating, fainting, or pain radiating to your arm or jaw, seek medical attention right away.
+My recommendation is that you seek urgent medical evaluation today—either by calling your local urgent care or going to the emergency department—so they can do an ECG (heart tracing), blood tests, and possibly other monitoring. This will help rule out any serious causes. In the meantime, avoid strenuous activity, and if you develop severe pain, sweating, or feel faint or very unwell, call emergency services right away.
 
-For now, keep a log of when these episodes happen and what you were doing at the time. This information will be helpful for your doctor. Does that make sense, or is there anything else about your symptoms you’d like to discuss?
+I know this might sound concerning, but it's always better to be cautious with these kinds of symptoms. If everything checks out okay, we can then look into other causes and discuss ongoing management. Would you like more information about what to expect at the hospital or about possible causes?
 
-**Patient**: That makes sense, thank you for explaining it. I have also noticed some fatigue lately, and I did have a bit of nausea and vomiting after the catheterization. I'll keep track of everything like you suggested.
+**Patient**: Thank you for explaining all that. If I do need to go to the hospital, what kinds of tests or procedures should I expect them to do when I get there?
+
+**Doctor**: Let me share my thoughts on what happens next. When someone has pressure in the chest that comes and goes, especially with shortness of breath and a higher intensity, doctors want to make sure the heart is not under stress. At the hospital or urgent care, you can expect a few key things: 
+
+First, they'll likely do an ECG (which is a tracing of your heart's electrical activity) to check for any signs of strain or changes. Blood tests will usually be done to look for markers that might indicate stress or damage to the heart muscle. They may also monitor your oxygen levels and blood pressure. Depending on what they find, they might do a chest X-ray or even keep you for observation and possibly a stress test.
+
+The reason for these tests is to quickly rule out anything dangerous, like a blockage in the heart’s blood vessels. If those are all clear, then we can look into other causes, but it’s safest to start with a thorough check.
+
+In summary, your symptoms are significant enough that you should be evaluated today. Please avoid any exertion until you've been checked. If anything worsens—like severe pain, fainting, or new symptoms—seek emergency help right away. 
+
+Let me know if you have any other questions or concerns about this process.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 666
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 872
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 61-year-old female presenting with chest pain status post myocardial infarction and right coronary artery (RCA) stent placement. She reported stuttering substernal chest pain lasting approximately 20 minutes and exertional dyspnea over the past two weeks, with chest pain recurring at rest and resolving with nitroglycerin. Her history includes coronary artery disease with prior stenting, hypertension, hypercholesterolemia, GERD, and a family history of coronary artery disease. On arrival at the outside hospital, EKG showed ST elevations in leads II, III, and aVF, and ST depressions in I, aVL, V1, and V2. The documented diagnosis was acute myocardial infarction. Treatment included heparin, aspirin, beta blocker, Aggrastat, and nitroglycerin drip for symptom relief. She experienced one episode of nausea and vomiting on the floor, but her chest pain resolved without further EKG changes.
-
-## Dialogue Summary
-
-The patient presented with intermittent chest pain described as a central chest pressure, which has been more noticeable since a recent stent procedure. Symptoms include moderate chest pressure that comes and goes, is triggered by physical activity such as climbing stairs or doing housework, lasts a few minutes, and improves with rest; the patient also reported shortness of breath with exertion, occasional nausea (especially after chest pain or catheterization), and recent fatigue, but denied sweating or lightheadedness. The patient noted that the discomfort sometimes requires stopping activity. Relevant history includes a recent stent procedure and post-catheterization nausea and vomiting; no medication or allergy information was discussed. No new physical findings were described during the visit. The doctor assessed that the symptoms may indicate the heart muscle is not getting enough blood flow during exertion, which is important given the patient’s cardiac history. The doctor advised avoiding strenuous activity until further evaluation by a cardiologist or primary care provider and emphasized seeking immediate medical attention if symptoms worsen or are accompanied by new signs such as sweating, fainting, or radiating pain. The patient was instructed to keep a log of episodes and associated activities for future review.
-
-## STS Evaluation
-
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 58.0s
+- **Processing Time**: 81.3s

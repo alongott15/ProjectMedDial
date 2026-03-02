@@ -10,88 +10,101 @@
 
 ## Generation Attempts
 
-- **Total Attempts**: 3
-- **Best Attempt**: 3
+- **Total Attempts**: 1
+- **Best Attempt**: 1
 
 ### Attempt 1
-- Success: False
-- Decision: N/A
-- Score: 0.000
-
-### Attempt 2
-- Success: False
-- Decision: N/A
-- Score: 0.000
-
-### Attempt 3
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.867
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about the pain's triggers, timing, location, and quality, and provides a reasonable explanation based on the patient's history (including postoperative numbness). The advice to monitor symptoms and seek care for concerning changes is appropriate for a light case. There are no unsupported diagnoses, treatments, or contradictions.
+- **Score**: 0.867
+- **Justification**: Combined score 0.87 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.56 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.556 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and appropriately expresses understanding and concern. For even greater realism, the patient could ask a follow-up question or clarify their main worry.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. To further improve, the doctor could briefly acknowledge the patient's surgical history more explicitly or ask about any other associated symptoms (e.g., dental issues, sinus symptoms) to round out the assessment.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with clear transitions between topics. The closing invitation for further questions is good practice.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns. The explanation of red flag symptoms and when to seek further care is clear and appropriate.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Let me ask about the facial discomfort—does anything in particular seem to trigger these episodes, like eating, touching your face, or changes in temperature?
+**Doctor**: Let me ask about your main concern—can you describe what brings on the facial pain or flushing? For example, does it tend to come on at certain times of day or with specific activities?
 
-**Patient**: Nothing specific really sets it off. I haven’t noticed eating, touching my face, or temperature changes making it worse.
+**Patient**: The main thing is this pain on the right side of my face—it comes and goes, but I can't say I've noticed a clear pattern with certain activities or times of day. The flushing just seems to happen along with the pain.
 
-**Doctor**: Let me ask about the timing—when did you first notice these episodes, and how long do they usually last when they happen?
+**Doctor**: Let me ask about when this all began—how long have you been experiencing these episodes of facial pain and flushing?
 
-**Patient**: I first noticed the facial pain maybe a few weeks ago. Each episode usually lasts a few minutes, sometimes a bit longer, but it does go away on its own.
+**Patient**: I can't say exactly, but it's been going on for a while now—maybe a few weeks. The flushed face usually happens at the same time as the pain.
 
-**Doctor**: Tell me more about the location—would you say the discomfort is mostly in your cheek, jaw, around your eye, or somewhere else on your face?
+**Doctor**: Let me ask about any changes you've noticed since this started—have you had any other symptoms, like changes in your vision, headaches, or weakness in your face or limbs?
 
-**Patient**: The discomfort is mostly in my right cheek area. I also feel some numbness behind my right ear, but that's been there since surgery.
+**Patient**: I haven't noticed any changes in my vision or headaches. The only other thing is some numbness behind my right ear, but that's from a surgery I had before. No weakness in my face or limbs.
 
-**Doctor**: Let me ask about the sensation—can you describe what the pain feels like? For example, is it sharp, dull, throbbing, burning, or something else?
+**Doctor**: Got it. How would you rate the intensity when these episodes happen—would you say it's mild, moderate, or severe enough to interfere with your daily activities?
 
-**Patient**: The pain feels sharp, almost like an electric jolt in my right cheek. It comes on suddenly, then fades after a bit.
+**Patient**: I'd call it moderate most of the time, but there are moments when it gets bad enough that I have to stop what I'm doing. It definitely interferes with my day when it's at its worst.
 
-**Doctor**: Based on what we've discussed, these brief, electric shock-like sensations in your right cheek—especially without obvious triggers—can sometimes be related to nerve irritation in the face. Given your history of numbness behind the ear after surgery, it's possible that changes to the nerves in that area might be playing a role.
+**Doctor**: Let me ask about what helps—have you found anything that relieves the pain or makes it more manageable, such as rest, cold packs, or any medications?
 
-Often, facial nerve discomfort like this is benign, but it can be bothersome. What I’m listening for are any signs that might suggest a more serious problem, such as persistent numbness spreading to other areas, weakness in your facial muscles, vision changes, or constant pain rather than brief episodes. If those symptoms appear, they would need more urgent attention.
+**Patient**: Resting sometimes helps a bit, but I haven't found anything that consistently makes the pain go away. I don't take any specific medications for it right now.
 
-For now, keeping track of how often these episodes happen and if anything new develops can be helpful. Gentle self-care—like avoiding excessive touching or pressure on the area—may reduce irritation. If the episodes become more frequent, last longer, or you notice any new symptoms like facial drooping or trouble speaking, let your healthcare provider know promptly.
+**Doctor**: Tell me more about the location—can you point to exactly where on your face the pain is most intense, or does it spread to other areas as well?
 
-Does that explanation make sense? Is there anything else about these episodes you’re concerned about or would like to discuss?
+**Patient**: The pain is most intense on the right side of my face, mainly around my cheek and jaw. It doesn’t really spread much beyond that area.
 
-**Patient**: That explanation helps, thank you. I’ll keep track of the episodes and let you know if anything changes. Right now, I’m mostly just hoping the discomfort doesn’t get worse.
+**Doctor**: Alright. Since you mentioned previous surgery and numbness behind your ear, has there been any change in that numbness recently, or is it about the same as before?
+
+**Patient**: The numbness behind my right ear has stayed about the same since the surgery. I haven't noticed any new changes with it.
+
+**Doctor**: Got it. Since the discomfort sometimes gets intense, have you noticed any triggers like chewing, talking, or touching the area that seem to set off or worsen these episodes?
+
+**Patient**: Chewing and talking don’t seem to trigger it, and touching the area doesn’t make it worse either. The pain just comes on its own, without any clear reason that I can tell.
+
+**Doctor**: From what you've described, it sounds like these episodes are mostly limited to one side of your face and occur unpredictably, without clear triggers like chewing or touching. The fact that the numbness behind your ear has remained unchanged since your surgery is also reassuring, as it suggests there’s no new nerve involvement.
+
+Facial pain with flushing can sometimes be related to nerve irritation, especially if there’s a history of surgery in that area. Other common causes include vascular changes or even certain types of headaches, but you haven’t noticed associated symptoms like vision changes or headaches, which is helpful information.
+
+Since the episodes can get severe enough to interrupt your activities, and you haven’t found reliable relief yet, it may be worth considering options for symptom management. Often, keeping a simple diary of when the episodes occur and any possible subtle triggers can help us spot patterns over time. 
+
+If you notice any new symptoms—like drooping of your face, slurred speech, or changes in your ability to move your face—those would be important to address promptly, but based on your current description, those aren’t present.
+
+Would you be interested in discussing possible strategies for managing these episodes at home, or would you prefer to focus on further evaluation to pinpoint the cause?
+
+**Patient**: Thanks for explaining that. I’d like to talk about ways to manage the pain at home, but I’m also open to further evaluation if you think it’s needed. Keeping a diary sounds reasonable—I can do that.
+
+**Doctor**: Based on what we've discussed, your symptoms seem to be limited to one side of your face, come on unpredictably, and are not linked to activities like chewing or touching the area. The unchanged numbness after your surgery is also an important detail. In cases like this, nerve irritation or changes in blood flow are common causes, especially with a surgical history nearby. The absence of other neurological symptoms is reassuring.
+
+For managing these episodes at home, you might try gentle cool or warm compresses to see if either provides relief. Over-the-counter pain relievers such as acetaminophen or ibuprofen can be used if you don't have any contraindications. Keeping a diary of when episodes occur and any possible subtle triggers could help us tailor your management plan further.
+
+If the discomfort becomes much more frequent, severe, or you notice new symptoms like facial drooping or speech changes, it would be important to seek prompt evaluation. Otherwise, we can continue to monitor and consider further assessment if things don’t improve or if you’d like a more detailed workup.
+
+Would you like more details on specific self-care strategies, or do you have concerns about trying over-the-counter options?
+
+**Patient**: Thanks, that all makes sense. I’m comfortable trying the cool or warm compresses and over-the-counter pain relievers. If you have any other tips for managing the pain at home, I’d appreciate it.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 10
-- **Word Count**: 421
-- **Doctor Turns**: 5
-- **Patient Turns**: 5
-
-## EHR Summary
-
-The patient is a 68-year-old male presenting with recurrent right-sided facial pain. The pain characteristics, including severity and duration, are not specified. His past medical history includes hypercholesterolemia, and he has no known drug allergies. On physical and neurologic examination, cranial nerves II-XII were intact, and the only notable finding was a flushed face; postoperatively, he had some numbness behind the right ear but no facial numbness. The documented diagnosis was not explicitly stated, but the patient underwent a right suboccipital craniotomy with microvascular decompression of the fifth cranial nerve, suggesting trigeminal neuralgia. Postoperative recovery was stable with no complications, and he was discharged in good condition. Discharge medications included Percocet as needed for pain, Pravachol 20 mg daily, and carbamazepine 100 mg four times daily. He was advised to follow up for staple removal in ten days.
-
-## Dialogue Summary
-
-The patient presented with episodes of facial discomfort. Symptoms include sharp, electric shock-like pain in the right cheek lasting a few minutes, occurring over the past few weeks, with no clear triggers such as eating, touching the face, or temperature changes; the patient also reported numbness behind the right ear that has been present since surgery. The pain comes on suddenly and fades on its own. Relevant history includes post-surgical numbness behind the right ear. No additional physical findings were described by the doctor or patient. The doctor assessed that these brief, electric shock-like sensations without obvious triggers may be related to nerve irritation in the face, possibly associated with prior surgical changes. The doctor advised monitoring the frequency and characteristics of episodes, practicing gentle self-care by avoiding excessive pressure on the area, and seeking prompt medical attention if new symptoms such as persistent numbness, facial weakness, vision changes, or constant pain develop. The patient understood and agreed to monitor symptoms.
-
-## STS Evaluation
-
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **Turn Count**: 20
+- **Word Count**: 971
+- **Doctor Turns**: 10
+- **Patient Turns**: 10
 
 ## Processing Information
 
-- **Processing Time**: 63.5s
+- **Processing Time**: 90.6s

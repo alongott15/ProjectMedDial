@@ -16,98 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.829
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, open-ended questions about the shoulder weakness, explores relevant history (injury, activity, associated symptoms), and connects the symptom to recent hospitalization and delirium, which is supported by the profile. The reasoning about deconditioning is reasonable in this context. The patient responses are clear, relevant, and do not introduce unsupported information. There are no obvious hallucinations or contradictions.
+- **Score**: 0.829
+- **Justification**: Combined score 0.83 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.56 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.562 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, the patient could occasionally express uncertainty or ask clarifying questions about their recovery or next steps.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. For improvement, the doctor could briefly mention that if symptoms persist beyond a certain timeframe or worsen, further evaluation may be needed (e.g., physical therapy or imaging), but it's reasonable not to escalate in this mild scenario.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with appropriate back-and-forth and summary statements. The conversation could be slightly more concise in places but overall maintains a realistic pace.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns identified. The doctor appropriately advises monitoring for new or worsening symptoms and encourages communication with the healthcare team if needed.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in, and how have you been feeling lately?
+**Doctor**: Hello, good to see you. How have things been going with your shoulder lately?
 
-**Patient**: I've been noticing some weakness in my shoulder lately. That's the main thing that's been bothering me.
+**Patient**: My shoulder still feels pretty weak. It's been tough to lift things like I normally would.
 
-**Doctor**: Let me ask about how this is affecting you—are you having trouble with any specific movements or tasks because of the weakness?
+**Doctor**: Let me ask about your daily routine—how much is the shoulder weakness interfering with things like dressing, cooking, or other activities you usually do?
 
-**Patient**: Yes, I've noticed it's harder to lift things or reach overhead with that shoulder. Everyday tasks are a bit more challenging than usual.
+**Patient**: Getting dressed is harder than usual, especially putting on shirts. Cooking is manageable, but I do notice the weakness when reaching for things.
 
-**Doctor**: Let me ask about the timing—how long have you been experiencing this shoulder weakness, and has it been getting better, worse, or staying about the same?
+**Doctor**: Let me ask about the weakness—when did you first start noticing it, and has it been getting better, worse, or staying about the same over time?
 
-**Patient**: I'm not exactly sure when it started, but it's been a few days. The weakness hasn't really changed much—it's just sort of stayed the same.
+**Patient**: I can't say exactly when it started, but I noticed the weakness a few days before I came in. It hasn't really changed much since then—still about the same.
 
-**Doctor**: Let me ask about any discomfort—do you have pain in that shoulder, or is it mainly just the feeling of weakness? Also, have you noticed any swelling, redness, or warmth around the area?
+**Doctor**: Let me ask about movement—are there any specific motions or activities that make your shoulder feel noticeably weaker, or is it pretty consistent throughout the day?
 
-**Patient**: No, I haven't had any pain, swelling, redness, or warmth. It's really just the weakness that I've noticed in my shoulder.
+**Patient**: Reaching overhead makes it feel weaker, but otherwise it's pretty consistent during the day. There's not much difference with other movements.
 
-**Doctor**: Alright. Have you had any recent injuries, falls, or changes in your activity level that might have affected your shoulder? Sometimes even minor strains or overuse can cause these kinds of symptoms.
+**Doctor**: Alright, besides the weakness, have you noticed any numbness, tingling, or changes in sensation in your shoulder or arm? Sometimes these can help us understand if nerves might be involved.
 
-**Patient**: No, I haven't had any recent injuries or falls. My activity level has been about the same as usual, so I don't think anything specific caused it.
+**Patient**: I haven't noticed any numbness or tingling in my shoulder or arm. It's just the weakness that's been bothering me.
 
-**Doctor**: Got it. Does your shoulder feel weaker at certain times of the day, or is it pretty consistent throughout? Also, are you able to carry out most of your usual activities, or are there things you’ve had to avoid?
+**Doctor**: Got it. Since you mentioned the weakness has been steady, have you tried any specific exercises or stretches for your shoulder since this started? If so, did you notice any improvement or discomfort with those?
 
-**Patient**: It's pretty consistent throughout the day. I can still do most things, but I've had to be more careful with lifting or reaching.
+**Patient**: I haven't tried any specific exercises or stretches for it yet. Since coming in, I've mostly been resting my shoulder.
 
-**Doctor**: Let me ask about your overall health—have you had any recent changes in energy, mood, or thinking, such as feeling more tired, confused, or forgetful than usual? Sometimes these can be connected to physical symptoms.
+**Doctor**: Let me ask about your overall energy and alertness—have you felt more tired or had any trouble thinking clearly since your shoulder started feeling weak, or has that improved since your last visit?
 
-**Patient**: During my admission, I did experience some delirium, but that's been resolving. Other than that, I haven't noticed changes in my energy or mood.
+**Patient**: My energy and alertness have actually gotten better since I was admitted. I did have some trouble thinking clearly before, but that's been improving.
 
-**Doctor**: Got it. When you try to use your shoulder, does the weakness seem to get worse with activity, or does it stay about the same regardless of how much you use it?
+**Doctor**: I see. Since your alertness has improved, let’s check for any lingering effects—are you able to focus on conversations or tasks as well as before, or do you still notice any lapses in memory or attention?
 
-**Patient**: The weakness stays about the same, no matter how much I use my shoulder. Activity doesn't seem to make it worse.
+**Patient**: I can focus on conversations and tasks much better now. There aren’t any major lapses in my memory or
 
-**Doctor**: From what we've discussed, your shoulder weakness has been present for a few days, is consistent throughout the day, and hasn't been accompanied by pain or signs of inflammation. You haven't had any recent injury or change in activity, and while you've needed to be more careful with lifting and reaching, you can still manage most daily tasks. The fact that activity doesn't worsen the weakness and there's no pain suggests this is less likely to be a muscle or tendon injury.
+**Doctor**: Based on what we've discussed, it sounds like your shoulder weakness has been pretty stable and mainly affects overhead movements, while your alertness and focus have improved since your admission. This pattern suggests the weakness may be related to muscle or joint function rather than nerve involvement, since you haven't noticed any numbness or tingling.
 
-Given your recent admission and episode of delirium, sometimes weakness can develop from general deconditioning—meaning your muscles may have become a bit weaker after being less active during your hospital stay. It's also possible that mild nerve irritation or a temporary change in strength can occur after illness.
+Often, after an episode that affects overall health—like the trouble with thinking clearly you experienced—muscle weakness can linger, especially if you've been resting more and not using the shoulder as much. Overhead movements are particularly demanding, so it's common for weakness to show up there first.
 
-At this point, since the weakness is mild, stable, and not affecting your independence, it’s reasonable to monitor it and gently begin using your shoulder in everyday activities. If you notice the weakness getting worse, new symptoms like numbness, tingling, or difficulty using your arm, or if it starts to interfere with things you need to do, please let your healthcare team know.
+To help your shoulder recover, gentle range-of-motion exercises and gradual strengthening can often be beneficial, but it's important to start slowly and avoid anything that causes pain. If you're unsure about which exercises to try, a physical therapist can guide you safely.
 
-How much is this affecting your day-to-day life right now? Are there specific tasks you’re worried about managing?
+Let me know if you have any concerns about starting movement or if you notice any new symptoms like pain, swelling, or changes in sensation. If everything else stays stable, gradual activity is usually the best path forward.
 
-**Patient**: Thanks, that makes sense. Right now, I’m mostly just being careful with lifting and reaching. I haven’t run into anything I can’t manage, but I’ll keep an eye out if things change.
-
-**Doctor**: Let me share my thoughts based on our conversation. Since this issue started recently and you haven't noticed pain, swelling, or any clear injury, it's likely related to a period of reduced activity or general recovery after your hospital admission. Sometimes, muscles lose a bit of strength after illness or bed rest, and it can take time to regain normal function.
-
-What often helps in these situations is gradually returning to your usual activities and gently using the shoulder as you feel comfortable. If you notice new symptoms like tingling, numbness, or difficulty moving your arm, those would be reasons to reach out sooner.
-
-If things stay as they are—mild and manageable—you can continue being cautious with heavy lifting. Most people see gradual improvement with gentle movement. If you have any concerns or if the weakness starts to impact your independence, let your healthcare team know so they can check for other causes.
-
-Does that plan sound reasonable to you?
-
-**Patient**: Yes, that sounds reasonable to me. I’ll start using my shoulder more gradually and keep an eye out for any changes. Thanks for explaining everything clearly.
+**Patient**: Thanks, that explanation helps. I’m open to trying some gentle exercises, and I’ll keep an eye out for any new symptoms. It’s good to hear my alertness improving is a positive sign too.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 20
-- **Word Count**: 873
-- **Doctor Turns**: 10
-- **Patient Turns**: 10
-
-## EHR Summary
-
-The patient is a 59-year-old man presenting after being found down on the street with a possible seizure. On arrival, he was tremulous, tachycardic, hypertensive, agitated, and increasingly confused, with persistent tachycardia (heart rates in the 140s) despite escalating doses of Valium. His past medical history and allergies are unknown; he is reportedly homeless with an unquantified history of alcohol use and denies tobacco or intravenous drug use. On physical exam, he was awake but speaking unintelligibly, disoriented to place and date, tremulous, and attempting to drink from his IV line; vital signs included a temperature of 99.6°F, blood pressure 153/75 mmHg, and pulse 114 bpm. There was a large reducible umbilical hernia and forehead abrasions but no other trauma. The documented clinical impression was possible alcohol withdrawal with delirium and agitation. He was treated with escalating doses of benzodiazepines (Valium) and transferred to the Medical Intensive Care Unit for close monitoring and management of his symptoms.
-
-## Dialogue Summary
-
-The patient presented with shoulder weakness as the chief complaint. The weakness has been present for a few days, is consistent throughout the day, and makes lifting or reaching overhead more difficult, though the patient can still manage most daily activities with extra caution. There is no associated pain, swelling, redness, warmth, or recent injury, and activity does not worsen the weakness. The patient reported a recent hospital admission with an episode of delirium that has been resolving, but denied other changes in energy or mood. On assessment, the doctor noted the absence of pain or inflammation and no clear precipitating event, suggesting the weakness is likely due to general deconditioning following hospitalization rather than muscle or tendon injury. The doctor recommended monitoring the symptoms, gradually resuming normal activities, and being cautious with heavy lifting. The patient was advised to report any worsening weakness, new symptoms such as numbness or tingling, or interference with independence to their healthcare team. The patient understood and agreed with the plan.
-
-## STS Evaluation
-
-- **STS Score**: 0.927
-- **Similarity Label**: N/A
+- **Turn Count**: 18
+- **Word Count**: 634
+- **Doctor Turns**: 9
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 62.6s
+- **Processing Time**: 81.6s

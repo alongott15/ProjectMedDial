@@ -16,86 +16,93 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.874
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about symptoms and anxiety, and the patient provides relevant, consistent answers. There are no unsupported diagnoses, treatments, or test recommendations. The conversation remains focused on monitoring mitral regurgitation and addressing the patient's anxiety, which is appropriate for a light, stable case. The flow is natural, and both parties stay in their roles.
+- **Score**: 0.874
+- **Justification**: Combined score 0.87 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.58 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.579 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and expresses concerns appropriately. For even greater realism, the patient could occasionally ask a clarifying question or express a bit more emotion or uncertainty.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: The doctor is thorough and empathetic. To further enhance realism, the doctor could briefly summarize the plan at the end or offer a chance for the patient to ask any final questions.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and smooth, with good transitions between topics. Consider adding a closing statement or next steps to wrap up the visit.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns detected. The doctor appropriately reassures the patient and provides clear guidance on when to seek further care.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brings you in—how have you been feeling lately?
+**Doctor**: Hello, it’s good to see you today. What’s been bothering you or brought you in to see me?
 
-**Patient**: I'm here because of my mitral regurgitation. I've been a bit anxious about it lately and wanted to get it checked out.
+**Patient**: I’ve been feeling some issues with my heart, like something isn’t quite right. That’s what brought me in today—I just want to figure out what’s going on.
 
-**Doctor**: Let me ask about how you've been feeling physically—have you noticed any new symptoms like shortness of breath, fatigue, or swelling in your legs recently?
+**Doctor**: Let me ask about what you’ve been feeling—can you describe exactly what the sensation is when you notice something isn’t quite right with your heart? For example, is it a fluttering, pounding, skipping beats, or something else?
 
-**Patient**: I haven't noticed any shortness of breath, fatigue, or swelling in my legs. My main concern is just the mitral regurgitation itself.
+**Patient**: Sometimes it feels like my heart isn’t closing properly, almost like there’s a backflow or something off. I notice it most when I’m active, but it’s hard to describe exactly—maybe a bit of discomfort or awareness in my chest.
 
-**Doctor**: Let me ask—have you had any recent changes in your activity level or ability to exercise, even mild ones? Sometimes subtle changes can give us clues about how things are going.
+**Doctor**: Let me ask about what brings this on—does anything in particular seem to trigger these sensations, like exercise, stress, or certain positions? Or do they seem to happen randomly?
 
-**Patient**: No, I haven't noticed any changes in my activity level or ability to exercise. Everything's been about the same for me.
+**Patient**: I don’t think there’s a clear trigger. It can happen when I’m moving around or sometimes just sitting. I haven’t noticed any specific pattern, but maybe stress makes it a bit more noticeable.
 
-**Doctor**: Let me ask about your anxiety—have you noticed that your worries about your heart are affecting your sleep or daily routines? Sometimes anxiety itself can cause physical symptoms, so understanding this helps guide next steps.
+**Doctor**: Let me ask about any other sensations you might notice when this happens—do you ever feel short of breath, lightheaded, or notice any swelling in your ankles or feet?
 
-**Patient**: No, my worries haven't really affected my sleep or daily routines. I just tend to overthink things sometimes, so I wanted to make sure everything's okay.
+**Patient**: I haven’t had any shortness of breath, lightheadedness, or swelling in my ankles or feet. It’s mainly just the sensation with my heart that I notice.
 
-**Doctor**: Got it. Since you’re feeling physically stable, has your doctor recommended any regular check-ups or echocardiograms for your mitral regurgitation? Staying on top of routine monitoring is one way we keep things on track.
+**Doctor**: Got it. How much do these sensations impact your daily life—are they interfering with your activities, or are they more of a mild annoyance?
 
-**Patient**: Yes, my doctor has mentioned regular check-ups and echocardiograms for monitoring. I try to stay on top of those appointments. Thanks for reminding me how important that is.
+**Patient**: It doesn’t really stop me from doing things, but I’m definitely more aware of it throughout the day. I’d call it more of an annoyance than anything major so far.
 
-**Doctor**: Let me ask about your anxiety—are there specific situations or thoughts that tend to trigger your concerns about your heart, or does it come up at random times? Understanding this can sometimes help with managing those feelings.
+**Doctor**: Let me ask about how long this has been going on—when did you first start noticing these heart sensations?
 
-**Patient**: It usually comes up when I start thinking about my heart or have a check-up coming up. Otherwise, I don’t really notice it much.
+**Patient**: I’m not exactly sure when it started, but I’d say it’s been going on for a few weeks now.
 
-**Doctor**: Alright. When you start thinking about your heart or have an upcoming appointment, do you ever experience any physical sensations—like palpitations, chest discomfort, or feeling your heart race—or is it mainly just a sense of worry?
+**Doctor**: I see. Has this sensation been staying about the same, or have you noticed it getting better or worse over the past few weeks?
 
-**Patient**: No, I haven’t had any palpitations, chest discomfort, or felt my heart race. It’s mainly just a sense of worry when I think about it.
+**Patient**: It’s been pretty consistent—hasn’t really gotten better or worse since it started.
 
-**Doctor**: Got it. When these worries come up around check-ups, do you find that talking about your concerns or having more information helps ease your mind, or do you tend to feel anxious until the appointment is over?
+**Doctor**: Let me ask about your overall health—have you had any recent fevers, unexplained weight loss, or infections, such as a sore throat or dental issues? Sometimes these can be linked to new heart sensations.
 
-**Patient**: Having more information definitely helps me feel better. Talking things through and understanding what to expect makes a big difference for me.
+**Patient**: I haven’t had any fevers, weight loss, or infections recently. No sore throat or dental issues either.
 
-**Doctor**: Based on what we've discussed, it sounds like your mitral regurgitation is stable, especially since you haven’t noticed any new symptoms or changes in your daily routine. It’s completely normal to feel anxious before check-ups, especially when you’re thinking about your heart. The fact that you’re keeping up with your appointments and monitoring is exactly what we recommend for this condition.
+**Doctor**: Based on what we've discussed, it sounds like you’re experiencing an unusual awareness of your heartbeat that’s been consistent for a few weeks, without any signs of more serious symptoms like shortness of breath, dizziness, or swelling. That’s reassuring, as those additional symptoms could suggest something more urgent.
 
-What often helps is knowing that, as long as you’re not experiencing symptoms like shortness of breath, swelling, or decreased exercise tolerance, it’s usually a sign things are well controlled. If any of those symptoms ever develop, that would be a reason to check in sooner.
+What you’re describing is often related to benign causes—sometimes people become more aware of their heartbeats due to stress, anxiety, or even minor irregularities in the heart rhythm, which are common and usually harmless. The sensation you mentioned, like a “backflow” or odd closing, could be a type of heart palpitation or a mild valve issue, but since you’re not experiencing any limiting symptoms or warning signs, it’s unlikely to be dangerous.
 
-For now, staying informed and continuing routine follow-up is the best approach. If anxiety does start to interfere more with your day-to-day life, we can talk about strategies to help manage that too. Does that help address your concerns today?
+My recommendation is to monitor these sensations for now. Try to note if anything new develops—such as chest pain, fainting, significant shortness of breath, or swelling—since those would need prompt evaluation. Managing stress and ensuring good sleep can sometimes help reduce awareness of these sensations. If the feeling becomes more frequent, severe, or starts interfering with your daily life, we could consider an EKG or further evaluation.
 
-**Patient**: That does help, thank you. I feel better knowing things are stable and I’m doing what I should. I’ll keep an eye out for any new symptoms and stay on top of my check-ups.
+For now, I don’t see any signs that require urgent action. Let me know if you have any questions or if anything changes—I’m here to help.
+
+**Patient**: Thanks for explaining all that. Is there anything I should avoid doing, like certain exercises or activities, while I’m keeping an eye on these sensations?
+
+**Doctor**: Let me share my thoughts on what you’ve described. From your answers, it seems this sensation hasn’t changed in intensity, isn’t linked to activity, and isn’t accompanied by any warning signs like breathlessness or swelling. That’s a good sign, and it suggests there’s no immediate danger.
+
+Mild palpitations or odd heart sensations are often harmless, especially when they don’t interrupt your daily life or come with other symptoms. They can be triggered by stress, caffeine, or sometimes just increased awareness of your heartbeat.
+
+You don’t need to avoid regular activities or exercise at this point, as long as you’re not experiencing chest pain, severe shortness of breath, or fainting. In fact, staying active is generally good for your heart. If you notice that certain exercises clearly bring on the sensation more strongly or if you feel unwell during activity, it would be wise to stop and let me know.
+
+If anything changes—such as these sensations becoming much more frequent, severe, or bringing new symptoms—please reach out promptly. Otherwise, maintaining your normal routine and managing stress should be safe.
+
+Let me know if you have any other questions or concerns about this.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 646
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 870
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 48-year-old male presenting with mitral regurgitation. He reported no acute symptoms at admission, but cardiac catheterization confirmed severe (4+) mitral regurgitation with normal coronary arteries. His past medical history includes tonsillectomy, and he was taking Zestril and Klonopin; he has no known drug allergies. On physical exam, he had a regular heart rate and rhythm with a systolic murmur at the apex, clear lungs, and no peripheral edema. The documented diagnosis was severe mitral regurgitation. He underwent minimally invasive mitral valve repair without complication, though a postoperative air leak required temporary chest tube suction. The air leak resolved by postoperative day two, and the chest tube was discontinued after chest x-ray confirmed resolution of pneumothorax. He recovered well, tolerated an oral diet, and his pain was managed with oral medications, transitioning from Percocet to Tylenol #3 and Motrin due to sedation concerns.
-
-## Dialogue Summary
-
-The patient presented with concerns about mitral regurgitation and associated anxiety. They denied any new symptoms, including shortness of breath, fatigue, leg swelling, palpitations, chest discomfort, or changes in activity level or exercise tolerance. The patient reported that their anxiety is mainly triggered by thoughts about their heart or upcoming check-ups but does not affect sleep or daily routines, and is alleviated by having more information. Relevant history includes a diagnosis of mitral regurgitation and ongoing routine monitoring with check-ups and echocardiograms as previously recommended. No abnormal physical findings or new symptoms were described. The doctor assessed that the mitral regurgitation appears stable given the absence of new symptoms or functional decline, and that the patient's anxiety is situational and currently well managed. The doctor advised continuing routine follow-up and monitoring for any new symptoms such as shortness of breath, swelling, or decreased exercise tolerance, and offered to discuss anxiety management strategies if it becomes more disruptive. The patient expressed understanding and agreed to maintain regular appointments and symptom awareness.
-
-## STS Evaluation
-
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 66.0s
+- **Processing Time**: 84.1s

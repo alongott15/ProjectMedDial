@@ -16,90 +16,81 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.860
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about the onset, progression, and associated symptoms of the left-sided weakness, and the patient provides relevant, consistent answers. The doctor's reasoning and advice are grounded in the information given, with no unsupported diagnoses or treatments introduced. The conversation remains focused on mild neurological symptoms, as expected for a light case, and avoids any severe or ICU-level interventions.
+- **Score**: 0.860
+- **Justification**: Combined score 0.86 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.67 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.667 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient's responses are clear and relevant. For even greater realism, the patient could occasionally express uncertainty or ask clarifying questions about their symptoms or the doctor's advice.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor provides thorough history-taking and appropriate reassurance. For improvement, the doctor could briefly acknowledge the known right frontal lobe mass (from the profile) as a possible contributor to symptoms, to demonstrate awareness of the patient's medical history.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with smooth transitions between topics. The closing could include a brief summary or explicit plan for follow-up to reinforce next steps.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: The safety advice is appropriate for a light case. The doctor clearly instructs the patient on warning signs and when to seek further care, which supports patient safety.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's nice to see you today. What has been bothering you lately?
+**Doctor**: Hello, it's good to see you today. Can you tell me what brings you in—are you having any new or ongoing concerns you'd like to discuss?
 
-**Patient**: I've been having some weakness on my left side lately, and it's got me a bit concerned.
+**Patient**: I’ve been having some weakness on my left side, and it’s been making things a bit harder for me lately. That’s the main reason I wanted to come in.
 
-**Doctor**: Let me ask about your daily routine—has this weakness made it harder for you to do things like walking, getting dressed, or using your hands?
+**Doctor**: Let me ask about how this weakness has changed over time—has it been getting better, staying the same, or getting worse since it started?
 
-**Patient**: Yes, it has made things like walking a bit harder. I tend to veer to the left when I'm moving around.
+**Patient**: I think the weakness has stayed about the same since it started. I haven’t noticed any real improvement.
 
-**Doctor**: Let me ask about when you first noticed this weakness. Has it been going on for days, weeks, or longer?
+**Doctor**: Let me ask about when this started—do you recall how long ago you first noticed the weakness?
 
-**Patient**: I'm not exactly sure, but I think it's been going on for at least several days now.
+**Patient**: I’m not exactly sure on the timing, but I think it’s been going on for at least a few days now.
 
-**Doctor**: Let me ask about other sensations—have you noticed any numbness, tingling, changes in vision, or trouble speaking along with this?
+**Doctor**: Let me ask about your daily activities—has this issue affected things like walking, using your hands, or getting around the house?
 
-**Patient**: No, I haven't noticed any numbness, tingling, vision changes, or trouble speaking.
+**Patient**: Walking has definitely been harder—I find myself veering to the left sometimes. Using my left hand is a bit more difficult too, but I can still do most things with it.
 
-**Doctor**: Alright. When you walk or move around, does the weakness get worse at certain times of day, or after specific activities? Or is it fairly constant throughout the day?
+**Doctor**: Alright, let me ask—have you experienced any dizziness, numbness, or changes in your vision along with these difficulties?
 
-**Patient**: The weakness feels pretty constant throughout the day. I haven't noticed it getting much better or worse with different activities.
+**Patient**: I have had some slight dizziness, but I haven’t noticed any numbness or changes in my vision.
 
-**Doctor**: Got it. Thinking about your daily activities, are you able to manage tasks like climbing stairs or carrying groceries, or have you had to change how you do things because of this?
+**Doctor**: Got it. Let me ask—have you noticed if the weakness or dizziness gets worse at certain times of day, or when you're more active? Or does it seem pretty constant throughout?
 
-**Patient**: I've had to slow down and be more careful, especially with things like walking or carrying groceries. Climbing stairs is a bit tougher than usual because of the weakness.
+**Patient**: The weakness and dizziness seem pretty constant—they don’t really change much with activity or at different times of the day.
 
-**Doctor**: Let me ask about your overall health—have you had any recent illnesses, injuries, or changes in medication that might be related to what you're experiencing?
+**Doctor**: Tell me more about how much this left-sided weakness is impacting your daily life—are there any specific tasks or activities that you’re struggling with more than usual?
 
-**Patient**: No, I haven't had any recent illnesses or injuries. My medication hasn't changed—I'm still just taking HCTZ for my blood pressure.
+**Patient**: Lately, things like walking around the house or even just getting up from a chair have been tougher because I keep drifting to the left. The dizziness isn’t too bad, but it does make me extra careful moving around. Using my left hand for small tasks is a bit more challenging too.
 
-**Doctor**: Got it. Sometimes changes in strength or coordination can be related to circulation, nerve function, or even medication side effects. Since this has been going on for several days, and it's affecting your mobility, it’s important to keep an eye out for new symptoms like sudden confusion, loss of balance, or difficulty with speech. If anything like that happens, seek help right away.
+**Doctor**: Alright, thinking about your medical history—have you had anything like this happen before, or is this the first time you’ve noticed these kinds of difficulties?
 
-For now, have you noticed any changes in bladder or bowel control, or any recent falls?
+**Patient**: This is the first time I’ve had these kinds of problems. I haven’t experienced left-sided weakness or anything like this before.
 
-**Patient**: No changes with bladder or bowel control, and I haven't had any falls. I do have a bit of dizziness sometimes, but nothing too severe.
+**Doctor**: Based on what we've discussed, it sounds like these new difficulties are having a noticeable impact on your daily life. Since this is the first time you’ve had these issues and they’ve lasted several days without improvement, it’s important to consider what might be causing them. Sometimes, changes in strength or balance can be related to nerve or muscle issues, and occasionally they can be linked to circulation or other underlying conditions.
 
-**Doctor**: Based on what we've discussed, your left-sided weakness that's lasted several days and makes walking and climbing stairs harder is something I take seriously, especially since it's constant and affecting your mobility. The fact that you haven't had numbness, speech changes, or vision problems is reassuring, as those could suggest a more urgent neurological issue like a stroke. However, weakness that persists and causes you to veer when walking can sometimes relate to problems with nerves, muscles, or even balance.
+Because these symptoms are new and persistent, I recommend that you keep an eye out for any changes—such as difficulty speaking, trouble swallowing, or sudden worsening—and let us know immediately if those occur. For now, focusing on safety at home (like using support when walking and avoiding slippery surfaces) is important. We should also arrange for a more thorough evaluation soon, which may include checking your strength, coordination, and possibly some basic tests.
 
-Dizziness could also play a role—sometimes blood pressure medications like HCTZ can cause drops in blood pressure, which might make you feel weak or off-balance. It's good that there haven't been falls or changes with bladder or bowel control.
+Let me know if you have any questions or concerns about what we’ve discussed so far.
 
-My main advice is to continue monitoring for any new symptoms, especially sudden changes in speech, vision, or coordination. For now, try to move slowly and use support when walking to prevent falls. If the weakness worsens or you notice new symptoms, it would be important to get evaluated promptly.
-
-If this continues for more than another few days or starts to interfere more with your independence, I'd recommend contacting your healthcare provider for a physical exam and possibly some tests to clarify the cause. Would you like tips on safe movement at home or ways to monitor your symptoms?
-
-**Patient**: Thanks, that all makes sense. I’d appreciate any tips you have for moving around safely at home. I’ll keep an eye out for any new symptoms like you mentioned.
+**Patient**: Thank you for explaining everything so clearly. I understand what to watch out for, and I’ll be careful around the house. Is there anything specific I should do while waiting for more tests, or just continue as I have been?
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 677
+- **Word Count**: 623
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 72-year-old female presenting with left-sided weakness and a right frontal lobe mass. She reported weakness on the left side, veering to the left, and slight dizziness; MRI on 2143-4-20 revealed a right frontal lobe mass. Her past medical history includes hypertension, and she has no known drug allergies. On neurological examination prior to admission, she had normal gait but was unable to lift or hold her left leg, with weak left dorsiflexion, plantarflexion, and hand grip. The documented diagnosis was a right frontal lobe mass causing left-sided weakness. She underwent craniotomy and excision of the mass on 2143-5-7, tolerated the procedure well, and was continued on steroids postoperatively. Postoperative neurological exams showed initial antigravity strength only in the left upper extremity and no strength in the left lower extremity, but gradual improvement was noted during her hospital stay. She is pending discharge to a rehabilitation bed for further recovery.
-
-## Dialogue Summary
-
-The patient presented with left-sided weakness that has persisted for at least several days. The weakness is constant throughout the day, makes walking and climbing stairs more difficult, causes the patient to veer to the left when moving, and has led to increased caution with daily activities such as carrying groceries. The patient denied numbness, tingling, vision changes, speech difficulties, changes in bladder or bowel control, or recent falls, but did report occasional mild dizziness. Relevant history includes hypertension managed with HCTZ, with no recent illnesses, injuries, or medication changes. On assessment, the doctor noted the absence of acute neurological symptoms such as sudden confusion, loss of balance, or speech changes, which is reassuring against an urgent event like stroke; however, persistent weakness affecting mobility remains concerning and could relate to nerve, muscle, or balance issues, possibly influenced by blood pressure medication. The doctor advised monitoring for new symptoms (especially sudden changes in speech, vision, or coordination), moving slowly and using support to prevent falls, and seeking prompt evaluation if symptoms worsen or new issues arise. If the weakness continues for more than a few days or further impacts independence, the patient was advised to contact their healthcare provider for further evaluation and possible testing.
-
-## STS Evaluation
-
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 57.7s
+- **Processing Time**: 76.2s

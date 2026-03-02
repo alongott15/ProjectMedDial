@@ -16,86 +16,89 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.954
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the patient's profile and the case type. The doctor asks appropriate, focused questions about the chest pain, its characteristics, triggers, and associated symptoms. The patient provides clear, relevant answers. The doctor's reasoning is sound, mentioning angina as a possibility and giving appropriate safety advice without overreacting or introducing unsupported interventions. There are no obvious hallucinations or contradictions with the provided profile.
+- **Score**: 0.954
+- **Justification**: Combined score 0.95 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.85 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.846 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear and relevant answers. For even greater realism, the patient could mention any relevant medical history (e.g., prior heart issues) if prompted, but this is not required in this context.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor does well to explain reasoning and provide clear safety instructions. For completeness, the doctor could briefly acknowledge the patient's significant cardiac history (e.g., prior MI and CABG) to further ground the conversation in the profile.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with good back-and-forth and no abrupt topic changes. The summary and plan are clear.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is appropriate for a light case, but given the patient's significant cardiac history, a stronger recommendation for prompt in-person evaluation (rather than just monitoring) would be safer and more realistic.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi, it's good to see you today. What brings you in—can you tell me more about what's been bothering you lately?
+**Doctor**: Let me ask about your main concern—what brings you in today?
 
-**Patient**: I've been having some chest pain lately. It's been making me a bit anxious, so I wanted to get it checked out.
+**Patient**: My chest has been hurting, and it's got me pretty worried. That's the main reason I'm here today.
 
-**Doctor**: Let me ask about the discomfort—when did you first notice it, and how long does each episode tend to last?
+**Doctor**: Let me ask about the pain itself—can you describe what it feels like? For example, is it sharp, dull, pressure-like, or something else?
 
-**Patient**: I first noticed the chest pain a few days ago. Each episode doesn't last too long—maybe a few minutes at a time, but I'm not exactly sure.
+**Patient**: The pain feels more like a pressure in my chest, not really sharp. It sort of comes and goes, but it's enough to make me stop what I'm doing.
 
-**Doctor**: Let me ask about what you’re doing when this discomfort comes on—does it happen when you’re active, resting, or is there any specific trigger you’ve noticed?
+**Doctor**: Let me ask about the location—can you point to exactly where you feel the pressure in your chest? Is it right in the center, more to one side, or somewhere else?
 
-**Patient**: It usually comes on when I'm moving around or doing something active. I haven't really noticed it happening while I'm just sitting or resting.
+**Patient**: It's right in the center of my chest, kind of behind my breastbone. That's where I feel it the most.
 
-**Doctor**: Got it. When you feel this discomfort during activity, would you describe it as sharp, dull, pressure-like, or something else? And on a scale from 1 to 10, how intense does it usually get?
+**Doctor**: Alright. When you feel this pressure, does it ever spread to your arm, neck, jaw, or back? Or does it stay just in the center of your chest?
 
-**Patient**: It's more of a pressure-like feeling than sharp or dull. If I had to rate it, I'd say it's usually around a 6 out of 10.
+**Patient**: It mostly stays right in the center of my chest. I haven't noticed it spreading to my arm, neck, jaw, or back.
 
-**Doctor**: Alright. Have you noticed if anything helps relieve the pressure when it starts—like stopping activity, taking deep breaths, or anything else?
+**Doctor**: Got it. How long does each episode of pressure usually last, and how often has it been happening?
 
-**Patient**: Stopping whatever I'm doing and resting seems to help ease the pressure. I haven't really tried deep breathing or anything else, but just taking it easy makes it feel better.
+**Patient**: Each episode usually lasts a few minutes, but I’m not exactly sure how many. It’s been happening several times over the past few days.
 
-**Doctor**: Let me ask about any other symptoms you might have noticed during these episodes—such as shortness of breath, sweating, or feeling lightheaded?
+**Doctor**: Let me ask about what you’re doing when the pressure starts—does it tend to come on with physical activity, after eating, when you’re stressed, or does it seem random?
 
-**Patient**: No, I haven't had any shortness of breath, sweating, or feeling lightheaded when the chest pain comes on. It's just the pressure in my chest.
+**Patient**: It usually comes on when I’m doing something physical, like walking or going up stairs. I haven’t really noticed it after eating or when I’m stressed.
 
-**Doctor**: Okay. Has this pressure in your chest gotten any better or worse since it first started a few days ago, or has it stayed about the same?
+**Doctor**: Okay. How severe would you say the pressure is, on a scale from 1 to 10, with 10 being the worst pain you can imagine?
 
-**Patient**: It's stayed about the same since it started. I haven't noticed it getting better or worse over the past few days.
+**Patient**: I'd rate the pressure around a 6 out of 10 when it happens. It's definitely uncomfortable, but not the worst pain I've ever felt.
 
-**Doctor**: Got it. When you rest and the pressure eases, about how long does it usually take for the sensation to go away?
+**Doctor**: Let me ask about any other symptoms—when you get this pressure, do you ever feel short of breath, sweaty, lightheaded, or nauseated?
 
-**Patient**: Most of the time, it goes away within a few minutes once I stop and rest. It doesn't linger for long after I sit down.
+**Patient**: I haven’t really noticed any of those other symptoms when the pressure comes on. It’s just the chest pain.
 
-**Doctor**: From what you've told me, your chest pressure tends to come on with activity and eases up fairly quickly once you rest. This pattern can sometimes be seen with issues like muscle strain or, in some cases, when the heart isn't getting quite enough oxygen during exertion—a condition called angina. The fact that it doesn't occur at rest and doesn't come with symptoms like shortness of breath or lightheadedness is somewhat reassuring, but it's still important to pay attention to chest discomfort, especially since it hasn't improved over several days.
+**Doctor**: Based on what we’ve discussed, your symptoms sound like what we call “exertional chest discomfort,” meaning it tends to come on with physical activity and goes away with rest. This pattern can sometimes be related to the heart not getting enough oxygen during exertion, a condition known as angina. Angina is often caused by narrowing of the blood vessels that supply the heart.
 
-My recommendation would be to avoid strenuous activity for now and monitor your symptoms. If you notice the pain coming on at rest, becoming more severe, lasting longer, or if you develop new symptoms like sweating, nausea, or difficulty breathing, it's important to seek medical attention right away. For now, it would be a good idea to schedule a visit for a more thorough evaluation, which may include a physical exam and possibly some basic heart tests, just to be safe.
+It’s important to pay attention to this type of symptom, even if it’s not severe or accompanied by other issues like shortness of breath or nausea. While sometimes these sensations can be due to other causes—like muscle strain or acid reflux—the fact that it’s brought on by activity makes me think it’s worth looking into your heart health further.
 
-Let me know if you have any questions or concerns about what we've discussed.
+My recommendation is that you avoid strenuous activity for now and schedule a prompt evaluation with your doctor. They may want to do some tests, like an EKG or a stress test, to check your heart. If you notice any new symptoms—such as the pressure coming on at rest, lasting longer, or being associated with sweating, faintness, or pain radiating to your arm or jaw—seek medical attention right away.
 
-**Patient**: Thanks for explaining everything. I appreciate you taking the time to lay it out—makes me feel a bit better. I’ll keep an eye on my symptoms and take it easy for now. If anything changes or gets worse, I’ll definitely reach out right away.
+For now, try to take it easy and let your healthcare provider know about these symptoms as soon as possible so they can guide the next steps. Let me know if you have any questions or if there’s anything else you’re concerned about.
+
+**Patient**: Thanks for explaining that. What kinds of tests should I expect when I see my doctor, and will they be able to tell right away if it’s a heart problem?
+
+**Doctor**: Let me share my thoughts based on what you’ve described. When someone experiences chest pressure that comes on with exertion and goes away with rest, doctors are often concerned about the possibility of reduced blood flow to the heart. To investigate this, your doctor will likely start with a detailed history and a physical exam. They may order an electrocardiogram (EKG) to look at your heart’s electrical activity, and sometimes a blood test to check for markers of heart strain.
+
+Depending on those results, they might recommend a stress test, where your heart is monitored while you exercise or take medication that simulates exercise. This helps determine if your heart is getting enough oxygen during activity. In many cases, these tests can give your doctor a good idea if your symptoms are heart-related, but sometimes further testing—like imaging studies—may be needed.
+
+It’s important to get checked soon, but most of these tests are straightforward and non-invasive. If you develop new symptoms before your appointment, such as discomfort at rest, sweating, or faintness, seek immediate care. Otherwise, follow up promptly with your provider so they can guide you through the next steps.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 646
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 848
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 51-year-old male presenting with chest pain. He has a long history of diabetes and was found to be in acute myocardial infarction at an outside hospital. On admission, his medications included glyburide, atenolol, aspirin, intravenous Lopressor, sublingual nitroglycerin, and nitroglycerin paste. Cardiac catheterization revealed multivessel coronary artery disease, and he underwent emergent coronary artery bypass grafting (CABG x6). Intraoperative transesophageal echocardiogram showed an ejection fraction of 35%. Postoperatively, he required an intra-aortic balloon pump (IABP), Levophed, and milrinone, all of which were successfully weaned. The patient was extubated without complications, maintained good oxygen saturation, and was started on beta blockade as part of his ongoing management.
-
-## Dialogue Summary
-
-The patient presented with chest pain. The chest pain began a few days ago, occurs during activity, is described as a pressure-like sensation rated 6 out of 10 in intensity, and each episode lasts a few minutes before resolving with rest; the patient denied associated symptoms such as shortness of breath, sweating, or lightheadedness, and noted that the pain has remained unchanged since onset. Resting relieves the discomfort, and no other relieving measures have been tried. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the chest pressure is exertional and resolves with rest, which can be seen with muscle strain or angina, and found the absence of symptoms at rest or other concerning features somewhat reassuring. The doctor recommended avoiding strenuous activity, monitoring for any changes or worsening of symptoms, and seeking immediate care if new symptoms such as pain at rest, increased severity, sweating, nausea, or difficulty breathing develop. A follow-up visit for further evaluation, including a physical exam and possible heart tests, was also advised.
-
-## STS Evaluation
-
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 60.3s
+- **Processing Time**: 89.7s

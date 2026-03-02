@@ -16,90 +16,85 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.929
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is highly consistent with the provided patient profile and case type. The doctor asks logical, relevant questions about the baby's symptoms, feeding, and breathing, and summarizes findings in a way that matches the charted history (e.g., inability to pass catheter, mouth breathing, feeding discoordination). The explanation of possible choanal atresia is plausible given the symptoms and does not introduce unsupported diagnoses or treatments. The patient responses are appropriate and provide relevant details without introducing new, unsupported information. The conversation is clear, respectful, and maintains appropriate roles.
+- **Score**: 0.929
+- **Justification**: Combined score 0.93 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.76 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.762 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient agent provides clear, relevant answers. For even greater realism, occasional expressions of concern or uncertainty (e.g., 'I'm not sure if this is normal') could be added.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor agent demonstrates excellent clinical reasoning and communication. To further improve, the doctor could briefly acknowledge the complexity of the baby's medical background (e.g., Dandy Walker variant) to show holistic awareness.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with good transitions between topics. The closing question about day-to-day impact is appropriate. Consider a slightly more explicit wrap-up or summary at the end.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns detected. The doctor appropriately advises on warning signs and next steps.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it’s nice to meet you. What brings you in today, and how has your little one been doing recently?
+**Doctor**: Let me ask about your main concern—when did you first notice the mouth breathing and difficulty passing the catheter through the nares?
 
-**Patient**: Thanks for seeing us. The main thing is that my baby seems to have trouble breathing through her nose, and she’s been mouth breathing a lot.
+**Patient**: I noticed the mouth breathing right away, and they couldn’t get the catheter through my nose from the beginning. It’s been a problem since birth, I think.
 
-**Doctor**: Let me ask about when you first noticed this—has your baby always had difficulty breathing through her nose, or did it start more recently?
+**Doctor**: Let me ask about your feedings—have you noticed any issues like desaturation or trouble breathing during feeding times?
 
-**Patient**: I think she’s pretty much always had trouble breathing through her nose, even when she was first born.
+**Patient**: Sometimes during feedings, there’s desaturation, and it gets harder to breathe. It’s been happening pretty often.
 
-**Doctor**: Let me ask about feedings—have you noticed if your baby has any trouble eating, like coughing, choking, or turning blue when feeding?
+**Doctor**: Alright. Have you noticed any noisy breathing, like snoring or congestion, or do you ever see any bluish color around the lips during these episodes?
 
-**Patient**: She does have some trouble with feeding—sometimes she gets a bit disorganized and struggles to keep up with sucking, swallowing, and breathing. I’ve also noticed she seems to desaturate a little during feedings.
+**Patient**: There’s definitely some nasal congestion and mild noise when I breathe sometimes. I haven’t really noticed any bluish color around my lips, though.
 
-**Doctor**: Let me ask about something specific—has anyone ever tried gently passing a small catheter or nasal bulb through your baby's nostrils, and if so, was it difficult or impossible to get it through? This can help us understand if there might be a blockage.
+**Doctor**: Let me ask about the congestion and noisy breathing—do these symptoms tend to get worse at certain times, like when lying down or during feeding, or are they pretty constant throughout the day?
 
-**Patient**: Yes, they tried to pass a catheter through her nostrils, but it wouldn’t go through.
+**Patient**: The congestion and noise seem to be around most of the time, but feeding definitely makes it worse. Lying down might make it a little harder, too.
 
-**Doctor**: Alright. Let me ask—outside of feeding times, does your baby ever have episodes where she seems to struggle for air, turn blue, or appear unusually tired or sweaty?
+**Doctor**: Got it. Since the catheter couldn’t be passed through your nose from birth, has there been any change in how easy or difficult it is to breathe through your nose, or is it still completely blocked?
 
-**Patient**: No, outside of feedings she doesn’t really turn blue or look super tired or sweaty. It’s mostly the mouth breathing and some nasal congestion.
+**Patient**: Breathing through my nose is still really tough—it feels pretty blocked. I haven’t noticed much change since the beginning.
 
-**Doctor**: I see. Has your baby had any other issues like frequent sneezing, discharge from the nose, or noisy breathing while asleep? This can help us understand if there’s any irritation or blockage affecting her breathing.
+**Doctor**: Got it. One more thing—does the difficulty with nasal breathing and feeding make it hard for you to get enough nutrition or gain weight, or has your growth been on track so far?
 
-**Patient**: No, she doesn’t really sneeze a lot or have much nasal discharge. There is some mild nasal noise at times, but it’s not super loud.
+**Patient**: Feeding has been tricky, and I was diagnosed with intrauterine growth restriction based on my ultrasound and birth measurements. So, gaining weight has been a concern.
 
-**Doctor**: Got it. Has your baby's ability to feed or breathe through her nose changed over time, or has it stayed about the same since birth? This helps me understand if things are stable or getting worse.
+**Doctor**: Let me ask about your breathing—do you ever notice it gets significantly harder during certain activities, or is it mostly linked to feeding and lying down?
 
-**Patient**: Her breathing and feeding have been about the same since birth. There hasn’t really been much change.
+**Patient**: It’s mostly when I’m feeding or lying down that my breathing gets harder. Other times, it stays about the same—doesn’t really get much worse with other activities.
 
-**Doctor**: Let me ask about sleep—does your baby seem to sleep comfortably, or does she wake up frequently, seem restless, or have trouble settling down because of her breathing? This can help us understand how much the nasal issue is affecting her overall comfort.
+**Doctor**: Let me ask about the blocked nose—has anyone tried any treatments, like saline drops or suctioning, and if so, did those help at all with the congestion or breathing?
 
-**Patient**: She usually sleeps okay. I haven’t noticed her waking up a lot or being super restless because of her breathing.
+**Patient**: Saline drops and suctioning have been tried, but they didn’t really make much difference for my congestion or breathing. Is there anything else that could help with the nasal blockage?
 
-**Doctor**: Based on what we've discussed, it sounds like your baby has had ongoing difficulty breathing through her nose since birth, and attempts to pass a catheter through her nostrils were unsuccessful. This, combined with some challenges during feeding but otherwise stable sleep and no major distress outside of feeding, suggests there may be a structural blockage in her nasal passages—something like choanal atresia, which is a condition where the back of the nasal passage is blocked.
+**Doctor**: Based on what we've discussed, your symptoms—especially persistent nasal blockage since birth, difficulty passing a catheter through the nose, and worsening breathing during feeding—suggest that the blockage is structural rather than just congestion. This is why saline drops and suctioning haven't helped much.
 
-Newborns are "obligate nasal breathers," meaning they mostly breathe through their nose, especially while feeding. If both sides of the nose are blocked, it can make feeding difficult and cause mild drops in oxygen levels (desaturations) during feeds, as you’ve noticed.
+In newborns, nasal obstruction can make feeding and breathing challenging because they mostly breathe through their nose. If the blockage is complete, it often points to something like choanal atresia, which is a condition where the back of the nasal passage is blocked.
 
-The fact that she sleeps comfortably and doesn’t have ongoing blue spells or extreme tiredness is reassuring, but the feeding difficulties and inability to pass a catheter are important findings that should be evaluated further.
+What often happens in cases like this is that supportive treatments (like saline or suction) don't relieve the problem, and more definitive intervention may be needed. Monitoring for signs like bluish lips, poor feeding, or failure to gain weight is important.
 
-At this point, I would recommend discussing this with your pediatrician or an ENT (ear, nose, and throat) specialist. They may want to do imaging or a direct examination to confirm if there’s a blockage and discuss next steps. In the meantime, if you notice any worsening symptoms—such as persistent blue coloring around the lips, trouble waking her for feeds, or increased work of breathing—these would be reasons to seek care promptly.
+For practical advice: keeping you upright during feeding can help reduce breathing difficulties. If symptoms worsen or you notice bluish lips or significant trouble breathing, those are warning signs to seek urgent care.
 
-How much does this issue affect your day-to-day routine or your baby's ability to feed and grow? This helps us understand
+Has your ability to feed or breathe been getting better, worse, or staying about the same since birth?
 
-**Patient**: Honestly, feeding has been the hardest part—it’s stressful when she starts to desaturate and can’t keep up with sucking, swallowing, and breathing. The mouth breathing and not being able to get a catheter through her nose definitely make things trickier, but otherwise, our routine is mostly okay. Thanks for explaining everything so clearly.
+**Patient**: Thanks for explaining all of that. Honestly, things have mostly stayed the same since birth—I’m still having trouble feeding and breathing through my nose, and they haven’t been able to pass a catheter through my nares. The desaturation with feedings is still happening, but it hasn’t gotten worse.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 752
+- **Word Count**: 667
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a newborn female admitted on the day of birth for evaluation and management of a prenatal diagnosis of Dandy Walker variant. She was delivered at 36 and 6/7 weeks gestation by cesarean section due to prior cesarean and uterine anomaly, with Apgar scores of 7 and 8 at one and five minutes. Prenatal imaging revealed posterior fossa enlargement, fourth ventricle dilatation, absent corpus callosum, vermian hypoplasia, colpocephaly, and general growth restriction. Relevant maternal history includes thalassemia trait and uterine didelphys. On physical exam, the infant was active and alert with measurements at the 10th to 25th percentiles, a box-shaped head, flat nose, high arched palate, and low set ears. The documented diagnosis was Dandy Walker variant with associated brain anomalies and growth restriction. The treatment plan included admission to the Intensive Care Nursery for further evaluation and management.
-
-## Dialogue Summary
-
-The patient presented with concern that her baby has had ongoing difficulty breathing through her nose and has been mouth breathing since birth. Symptoms include persistent nasal obstruction, mouth breathing, mild nasal noise, and feeding difficulties characterized by disorganized sucking, swallowing, and breathing, with occasional desaturations during feeds; these symptoms have been present since birth and have not changed over time. There is no history of frequent sneezing, significant nasal discharge, noisy breathing during sleep, or episodes of cyanosis, fatigue, or sweating outside of feeding, and the baby sleeps comfortably. Attempts to pass a catheter through the baby's nostrils were unsuccessful, suggesting a possible structural blockage. The doctor assessed that these findings are concerning for choanal atresia, a condition where the back of the nasal passage is blocked, especially given the inability to pass a catheter and feeding-related desaturations. The doctor recommended further evaluation by a pediatrician or ENT specialist for possible imaging or direct examination to confirm the diagnosis and discuss management. The doctor also advised monitoring for worsening symptoms such as persistent cyanosis, increased work of breathing, or trouble waking for feeds, which would require prompt medical attention. The parent reported that feeding is the most affected aspect of daily routine but otherwise things are manageable.
-
-## STS Evaluation
-
-- **STS Score**: 0.917
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 66.2s
+- **Processing Time**: 86.6s

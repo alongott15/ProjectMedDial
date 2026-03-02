@@ -16,86 +16,81 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.882
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is consistent with the patient's profile, including symptoms of congestive heart failure (fatigue, leg swelling, orthopnea), anemia, and relevant past medical history. The doctor asks logical, open-ended questions and provides plausible explanations and recommendations for a light case. There are no unsupported diagnoses, treatments, or severe events introduced. The conversation is clear, respectful, and maintains appropriate roles.
+- **Score**: 0.882
+- **Justification**: Combined score 0.88 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.74 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.741 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and recalls prior terminology (e.g., '2+ edema'), which is plausible. For even greater realism, the patient could mention any medications or prior advice received, or express concerns about specific symptoms.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. For improvement, the doctor could briefly review the patient's medication adherence or ask about recent infections or fevers (since the profile mentions a temperature spike), but this is a minor point.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with appropriate follow-up questions and summary. The conversation could be slightly more concise in places but overall is well-structured.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The doctor appropriately advises on warning signs and next steps. The explanation is clear and avoids jargon.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's nice to see you today. What brings you in, and how have you been feeling lately?
+**Doctor**: Hello, it's good to see you today. How have you been feeling lately, and is there anything specific you'd like to discuss about your condition or symptoms?
 
-**Patient**: I've been feeling more tired than usual, and my legs seem a bit swollen. That's mainly why I wanted to come in.
+**Patient**: I've been feeling pretty anxious lately, mostly because my breathing has been rough and noisy. I wanted to talk about that—it's been making me uncomfortable.
 
-**Doctor**: Let me ask about when you first noticed these changes. How long have you been feeling more tired and seen swelling in your legs?
+**Doctor**: Let me ask about how this is affecting your day-to-day life. Are you finding it harder to do activities you normally enjoy, or is it mostly bothersome when you're resting?
 
-**Patient**: I'm not exactly sure, but I think it's been going on for several days now. The tiredness and swelling just haven't really gone away.
+**Patient**: I find it harder to do things around the house lately. The breathing trouble seems to get worse when I try to move around, but even sitting still, it's uncomfortable.
 
-**Doctor**: Let me ask about the swelling—has it been getting worse over the past few days, or has it stayed about the same?
+**Doctor**: Let me ask about possible triggers—have you noticed if anything in particular, like certain activities or environments, seems to make your breathing worse, or does it come and go throughout the day?
 
-**Patient**: The swelling has stayed about the same over the past few days. It hasn't really gotten any worse, but it also hasn't gone down.
+**Patient**: I haven't noticed any specific triggers, but the breathing issues seem to come and go throughout the day. Sometimes it's worse when I'm active, but other times it just happens even when I'm resting.
 
-**Doctor**: Let me ask about your energy levels—are you finding it harder to do your usual daily activities because of the tiredness, or is it more of a mild fatigue that doesn't really interfere much?
+**Doctor**: Alright. Have you noticed any swelling in your legs or feet, or have you felt unusually tired lately compared to your normal energy levels?
 
-**Patient**: Yes, it's been harder to get through my usual daily activities because of how tired I feel. Even simple things seem to take more effort lately.
+**Patient**: I have noticed some swelling in both my lower legs, and it seems to be a bit worse lately. I’m also feeling more tired than usual, so my energy isn’t what it used to be.
 
-**Doctor**: I see. Have you noticed any shortness of breath, especially when lying down or walking, or any chest discomfort along with the tiredness and swelling? Sometimes these can help us understand what might be causing your symptoms.
+**Doctor**: Let me ask about how long you've been experiencing these symptoms. When did you first notice the swelling and changes in your breathing? Have they been gradually getting worse, or did they come on more suddenly?
 
-**Patient**: I have noticed some trouble catching my breath, especially when I'm up and moving around. I haven't really had any chest pain, though.
+**Patient**: I’m not exactly sure when it started, but the swelling and breathing changes have been gradually getting worse over time. I know my heart failure and anemia play a part, but lately it feels harder to manage.
 
-**Doctor**: Let me ask about your legs—do you notice the swelling is worse at certain times of day, like in the evening, or does it stay fairly constant? Also, do you ever feel lightheaded or notice any unusual bruising?
+**Doctor**: Got it. Let me ask about your breathing—when it's rough and noisy, do you ever feel lightheaded or dizzy, or have you had any chest discomfort along with it?
 
-**Patient**: The swelling in my legs stays pretty constant throughout the day. I haven't felt lightheaded or noticed any unusual bruising.
+**Patient**: I do feel tired and a bit weak, but I haven’t had any dizziness or chest discomfort. The main thing is the noisy breathing and swelling in my legs.
 
-**Doctor**: Alright. Have you noticed any changes in your appetite or any recent weight gain or loss? Sometimes these details can help us figure out if something like anemia or fluid retention might be contributing to your symptoms.
+**Doctor**: Got it. Let me ask about your breathing—when it’s noisy or rough, do you ever wake up at night feeling short of breath, or need to sit up to catch your breath?
 
-**Patient**: I've had some nausea lately, and I don't really feel like eating much. I haven't noticed any big changes in my weight, though.
+**Patient**: Sometimes I do wake up at night feeling short of breath, and I have had to sit up to catch my breath. It’s pretty uncomfortable when that happens.
 
-**Doctor**: Okay. Let me ask about your sleep—are you able to rest comfortably at night, or do you find yourself waking up often or needing extra pillows to breathe more easily? Sometimes sleep changes can give us clues about how your body is handling fluid and oxygen.
+**Doctor**: Alright. Can you describe what the noisy breathing sounds like—does it resemble wheezing, crackling, or something else? This can help me understand if it's related to fluid or airway changes.
 
-**Patient**: I haven't been sleeping as well lately. I do find myself waking up more often, and sometimes I need to prop myself up with extra pillows to breathe easier.
+**Patient**: It sounds more like crackling, especially when I breathe in deeply. I was told I have bibasilar crackles and some trace edema, if that helps clarify things.
 
-**Doctor**: Based on what we've discussed, it sounds like you're experiencing a combination of tiredness, leg swelling, some difficulty breathing—especially when active or lying flat—and changes in your sleep and appetite. These symptoms can sometimes be related to your body holding onto extra fluid, which might happen for a few different reasons. One common cause in people your age is that the heart isn't pumping as efficiently as it should, which can lead to fluid buildup and make you feel more tired or short of breath. Another possibility is anemia, which can also cause fatigue and sometimes swelling.
+**Doctor**: Based on what we've discussed, it sounds like your heart failure may be contributing to the crackling sounds in your lungs and the swelling in your legs. These crackles often happen when fluid builds up in the lungs, which can make breathing feel rough or noisy and cause discomfort, especially at night or with activity.
 
-What often happens with these conditions is that the symptoms develop gradually and can affect your ability to do your usual activities. Since you're noticing trouble with breathing at night and need extra pillows, that's a sign we should look a bit more closely at your heart and fluid status.
+Managing fluid balance is important with heart failure. If you notice your symptoms are getting worse—like increased swelling, more frequent shortness of breath at rest or at night, or needing to sit up to breathe—these are signs your body may be holding onto extra fluid.
 
-I'd recommend taking it easy for now—try to keep your legs elevated when sitting, and watch for any sudden changes like increased swelling, chest discomfort, or severe shortness of breath. These would be reasons to seek care sooner. For next steps, I'd suggest we arrange for a check-up that could include a physical exam and possibly some blood tests to look at your heart function and check for anemia. Let me know if anything seems to trigger your symptoms, or if you've noticed any other changes recently.
+Let me ask: have you recently made any changes to your medications, salt intake, or daily routines that might affect your fluid levels? This information can help us fine-tune your management plan.
 
-**Patient**: Thank you for explaining all of that. I do have some swelling in both lower legs—my doctor once called it "2+ edema"—and it hasn’t really changed. I’ll make sure to keep an eye out for anything getting worse, and I’d appreciate getting those tests done to check on things.
+**Patient**: I understand what you’re saying about fluid buildup. I haven’t made any changes to my medications or salt intake lately. My legs have 2+ edema, and I’ve been feeling nauseated too. Should I be doing anything different to help manage this?
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 754
+- **Word Count**: 682
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 66-year-old female presenting with congestive heart failure. She reports episodes of dyspnea with exertion, such as walking up an incline or talking, and occasional chest heaviness associated with shortness of breath, but denies angina, orthopnea, edema, paroxysmal nocturnal dyspnea, claudication, or lightheadedness. Her history is significant for severe mitral regurgitation treated with mitral valve repair (with a complicated postoperative course including atrial fibrillation managed with amiodarone), recurrent congestive heart failure, hypertension, hyperlipidemia, hiatal hernia/GERD, and prior atrial fibrillation. Recent echocardiograms revealed mitral stenosis. The documented diagnosis is mitral valve disease with recurrent congestive heart failure. She was referred for mitral valve replacement and has been managed with diuretics (lasix) for symptom control.
-
-## Dialogue Summary
-
-The patient presented with increased tiredness and swelling in both lower legs. Symptoms have been present for several days, with fatigue severe enough to interfere with daily activities, constant bilateral leg swelling (previously described as "2+ edema"), some difficulty breathing especially with activity and when lying flat, poor sleep requiring extra pillows for easier breathing, and recent nausea with decreased appetite but no significant weight changes. The patient denied chest pain, lightheadedness, or unusual bruising. No relevant past medical history, medications, or allergies were specified in this encounter. On review, the doctor noted persistent lower extremity edema and symptoms suggestive of fluid retention. The assessment included possible causes such as heart not pumping efficiently (potential heart failure) or anemia contributing to the fatigue and swelling. The doctor recommended the patient take it easy, elevate legs when sitting, monitor for worsening symptoms (such as increased swelling, chest discomfort, or severe shortness of breath), and agreed to arrange a check-up with a physical exam and blood tests to evaluate heart function and anemia.
-
-## STS Evaluation
-
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 61.4s
+- **Processing Time**: 94.4s

@@ -16,88 +16,93 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.914
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is consistent with the provided patient profile and presents a plausible, stepwise clinical history for a patient with progressive left-sided numbness and weakness. The doctor asks appropriate questions about onset, progression, associated symptoms, and functional impact. The explanation and advice are cautious and appropriate for the described symptoms, without introducing unsupported diagnoses or treatments. There are no obvious hallucinations or contradictions.
+- **Score**: 0.914
+- **Justification**: Combined score 0.91 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.85 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.846 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and appropriately expresses understanding at the end. For even greater realism, the patient could mention any emotional response (e.g., concern or frustration) or clarify uncertainty about the timing of symptom onset.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. For improvement, the doctor could briefly summarize next steps (e.g., 'I'll arrange for further evaluation' or 'We may need imaging to better understand the cause'), but avoids overstepping into unsupported management.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with each question building on prior information. The conversation could be slightly more interactive if the doctor checked in on the patient's emotional state or coping strategies.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety is well addressed by highlighting red flag symptoms and advising on fall risk. Clarity is high; the doctor explains reasoning and recommendations in accessible language.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome in today. Can you tell me what’s been going on and how these symptoms are impacting your usual routine?
+**Doctor**: Hello, it's good to see you today. Can you tell me what brought you in—what symptoms or concerns have you been experiencing lately?
 
-**Patient**: I've been having numbness and tingling on the left side of my body. It's made it tough to do my normal routines, especially getting around at home and work.
+**Patient**: Lately I've been having numbness and tingling on the left side of my body. That's what brought me in today.
 
-**Doctor**: Let me ask about the timing—when did you first notice these sensations on your left side?
+**Doctor**: Let me ask about how this is impacting your daily routine—are you able to walk normally, or has it made movement difficult?
 
-**Patient**: I'm not exactly sure when it started, but I noticed the numbness and tingling a few days ago. It’s gradually gotten worse since then.
+**Patient**: Walking has gotten really difficult. I actually can’t walk on my own right now because of the numbness on my left side.
 
-**Doctor**: Let me ask about your movement—are you able to walk at all right now, or is it too difficult because of these sensations?
+**Doctor**: Let me ask about other sensations—have you noticed any weakness, loss of coordination, or changes in your ability to use your left hand or arm?
 
-**Patient**: Right now, I’m not able to walk because of these symptoms. The numbness and tingling have made it too difficult to move around normally.
+**Patient**: There’s definitely less sensation in my left arm and hand, and also my left leg. I haven’t been able to use them like I normally would.
 
-**Doctor**: Tell me more about whether you’ve had any changes in your ability to use your left arm or hand, such as difficulty gripping objects or performing tasks.
+**Doctor**: Got it. When did you first notice these symptoms, and have they changed in intensity since they began?
 
-**Patient**: Yes, I've noticed decreased sensation in my left arm and hand. It’s made it harder to grip things or use my hand the way I normally would.
+**Patient**: I’m not sure of the exact day, but it’s been getting worse since it started. The numbness spread and now I can’t walk or feel much on my left side, even up to my stomach.
 
-**Doctor**: Alright. Have you noticed any other symptoms along with the numbness and tingling, such as changes in vision, speech, or headaches?
+**Doctor**: Let me ask about other sensations—have you had any changes in vision, speech, or trouble swallowing since these symptoms began?
 
-**Patient**: No, I haven’t noticed any changes in my vision, speech, or headaches. It’s mainly just the numbness, tingling, and trouble moving on my left side.
+**Patient**: I haven’t noticed any changes with my vision, speech, or swallowing. It’s really just the numbness and loss of sensation on my left side.
 
-**Doctor**: Let me ask about triggers—have you noticed if anything, like certain movements or positions, makes these sensations more noticeable or intense?
+**Doctor**: Alright. How much has this affected your ability to do daily activities, like getting dressed, preparing meals, or using the bathroom?
 
-**Patient**: No, I haven’t noticed any specific movements or positions making it worse. The numbness and tingling seem pretty constant no matter what I’m doing.
+**Patient**: This has really affected my daily routine. I need help getting dressed and moving around, and I can’t prepare meals by myself right now. Using the bathroom is also difficult because of the numbness.
 
-**Doctor**: Got it. Since these symptoms have been constant and affecting your mobility, have you had any recent injuries, illnesses, or new medications that might be connected to this?
+**Doctor**: Let me ask about possible triggers—did anything unusual happen around the time these symptoms began, such as an injury, illness, or strenuous activity?
 
-**Patient**: No, I haven’t had any recent injuries or illnesses. I’m not taking any new medications, either.
+**Patient**: Nothing out of the ordinary happened before this started. I didn’t have any injuries, illnesses, or do anything strenuous that I can remember.
 
-**Doctor**: Got it. Thinking about your daily routine, are you able to manage tasks like dressing, bathing, or preparing meals on your own, or do you need help because of these symptoms?
+**Doctor**: Okay. Have you noticed any changes in bladder or bowel control since these symptoms began?
 
-**Patient**: It’s been pretty tough to manage things like dressing and bathing on my own. I’ve needed help with most daily tasks since these symptoms started.
+**Patient**: I haven’t noticed any changes with my bladder or bowel control. It’s mainly just the numbness and decreased sensation on my left side.
 
-**Doctor**: Based on what we've discussed, the gradual onset and worsening of numbness and tingling on your left side, along with difficulty moving and needing help with daily tasks, suggest that this is more than a minor nerve irritation or simple muscle strain. While you haven't had other symptoms like changes in vision or speech, the fact that your mobility and hand function are affected is important.
+**Doctor**: Based on what we've discussed, it sounds like you're experiencing a progressive loss of sensation and movement on your left side, which is now affecting your ability to walk and do daily tasks. This pattern—especially with no recent injury or illness—suggests that something may be affecting the nerves or brain areas responsible for sensation and movement on that side.
 
-Sometimes, these symptoms can be related to issues with nerves in the spine or brain, but there are also other possible causes. What’s most concerning is the impact on your ability to move and care for yourself—this isn’t typical for mild conditions.
+Often, these symptoms are related to conditions that impact the nervous system, such as a problem with the spinal cord or brain. It's important to investigate further to pinpoint the cause, but the most likely explanation for these symptoms is a neurological issue.
 
-Although you haven’t had recent injuries or new medications, it would be wise to have this evaluated further, ideally soon. If these symptoms continue to worsen or if you notice new symptoms like trouble speaking, vision changes, or severe headache, those would be warning signs to seek medical attention right away.
+Given how much this is impacting your mobility and independence, I recommend that you undergo further evaluation as soon as possible. This could involve imaging studies like an MRI and a detailed neurological exam. In the meantime, if you notice any new symptoms—such as changes in vision, speech, severe headache, or loss of bladder/bowel control—those would require urgent attention.
 
-For now, try to avoid activities that could put you at risk of falling, and consider having someone nearby to assist you. Let me know if anything changes or if you have questions about what might be causing this.
+Let me know if you have questions about what might be causing this or what the next steps are.
 
-**Patient**: Thanks for explaining everything so clearly. I understand why you want to look into it further. Is there anything specific I should watch out for, besides the symptoms you mentioned?
+**Patient**: Thank you for explaining that. What should I expect during the MRI and neurological exam—are there any risks or things I should prepare for?
+
+**Doctor**: From what you've told me, your symptoms are concerning for a neurological issue, likely involving the nerves or spinal cord. The MRI is a safe, non-invasive imaging test that uses magnets to create detailed pictures of your brain and spine—it helps us look for any structural changes, inflammation, or other causes of your symptoms. You’ll need to lie still during the scan, and it can take 30-60 minutes. If you have any metal implants or devices, let the staff know.
+
+The neurological exam is a series of simple tests where the doctor checks your strength, reflexes, sensation, and coordination. This helps pinpoint which areas of the nervous system might be affected.
+
+There are minimal risks with these tests: MRIs don’t use radiation, but some people feel claustrophobic in the scanner. The neurological exam doesn’t cause pain or lasting effects.
+
+It’s helpful to bring a list of your medications and any questions you have. If your symptoms change suddenly or worsen, seek care right away.
+
+Let me know if you want more details about either test or about what we’re looking for.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 633
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 783
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 49-year-old woman presenting with acute onset left-sided numbness and tingling, progressing to right upper quadrant numbness, difficulty holding objects, and inability to walk. Symptoms began at 4:45 p.m. on the day of admission and worsened over the next 30 minutes, resulting in complete inability to ambulate upon arrival at the hospital. She has no significant past medical history, takes no regular medications, and reports a sulfa allergy causing rash. Physical examination revealed stable vital signs. A head CT demonstrated a 3.5-cm right-sided mass with hyperintense ring enhancement and mild edema. The documented diagnosis was not explicitly stated, but findings are consistent with a brain mass. Treatment details and specific recommendations were not documented in this note.
-
-## Dialogue Summary
-
-The patient presented with numbness and tingling on the left side of the body, which has made it difficult to perform normal routines at home and work. The symptoms began a few days ago, have gradually worsened, and are now constant without any specific triggers or positions making them better or worse. The patient is unable to walk due to these sensations and reports decreased sensation in the left arm and hand, resulting in difficulty gripping objects and needing help with daily tasks such as dressing and bathing. No changes in vision, speech, or headaches were reported, and there is no history of recent injuries, illnesses, or new medications. On examination, the patient described significant functional impairment due to sensory changes and weakness on the left side. The doctor assessed that the gradual onset and worsening of these symptoms, along with impaired mobility and hand function, suggest a cause more serious than minor nerve irritation or muscle strain, possibly involving nerves in the spine or brain. The doctor recommended further evaluation soon, advised monitoring for new symptoms such as trouble speaking, vision changes, or severe headache, and suggested avoiding activities that could increase fall risk while ensuring assistance is available.
-
-## STS Evaluation
-
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 60.1s
+- **Processing Time**: 75.0s

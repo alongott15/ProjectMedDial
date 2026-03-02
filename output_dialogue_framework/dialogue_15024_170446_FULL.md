@@ -16,64 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.900
+- Score: 0.980
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.900
-- **Justification**: The dialogue is realistic and consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about the chest pain, and the patient's responses are plausible given the history of coronary artery disease and related symptoms. There are no hallucinations or unsupported content. The conversation is cut short due to a simulation error, but up to that point, it is clinically sound.
+- **Score**: 0.980
+- **Justification**: Combined score 0.98 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.93 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.933 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear and relevant answers. To improve, the patient could offer more detail about the pain's quality or any associated symptoms if prompted.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor asks appropriate and logical questions. For improvement, the doctor could consider asking about other cardiac risk factors or medication adherence if the conversation continued.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is natural and logical. The simulation should ensure the patient agent can respond to all prompts to avoid abrupt endings.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns are present in the completed portion. The doctor appropriately screens for concerning symptoms.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in, and how have you been feeling lately?
+**Doctor**: Hello, good to see you today. What’s been bringing you in—can you tell me more about what you’ve been experiencing lately?
 
-**Patient**: I've been having some chest pain lately, and it's got me a bit worried. That's really why I came in today.
+**Patient**: I've been having some chest pain lately, and it's got me pretty worried. That's the main reason I wanted to get checked out.
 
-**Doctor**: Let me ask about the pain—where exactly do you feel it in your chest, and does it spread anywhere else?
+**Doctor**: Let me ask about the pain itself—on a scale from 1 to 10, how would you rate the discomfort when it’s at its worst?
 
-**Patient**: It's mainly in the center of my chest. Sometimes I notice some pain under my arm, especially if I try to do a bit more, but it goes away when I rest.
+**Patient**: When it’s at its worst, I’d rate the pain around a 7 out of 10. It can get pretty uncomfortable.
 
-**Doctor**: Alright. Have you noticed any shortness of breath, sweating, or feeling lightheaded when this happens?
+**Doctor**: Let me ask about the timing—when did you first start noticing this discomfort? Has it been coming on suddenly, or has it developed gradually over time?
 
-**Patient**: No, I haven't noticed any shortness of breath, sweating, or feeling lightheaded when the pain comes on.
+**Patient**: I can't remember the exact day it started, but the pain has been coming on gradually over time. It’s not really sudden—it seems to build up, especially when I’m active.
 
-**Doctor**: Let me ask about the timing—when did you first notice this discomfort, and has it been happening more often or with certain activities?
+**Doctor**: Let me ask about the location—do you ever feel discomfort spreading to your arm, shoulder, or under your armpit, especially when you’re active?
 
-**Patient**: I first noticed the discomfort a few days ago. It tends to happen when I'm exerting myself, and then it eases up once I rest.
+**Patient**: Yes, I do get pain under my armpit, especially when I’m exerting myself. It usually goes away when I rest.
 
-**Doctor**: Got it. When you feel this discomfort, how intense is it on a scale from 1 to 10, with 10 being the worst pain you can imagine?
+**Doctor**: Alright. Have you noticed any palpitations, a rapid or irregular heartbeat, or feeling lightheaded during these episodes?
+
+**Patient**: I have noticed my heartbeat gets pretty fast sometimes, and I’ve been told I have rapid atrial fibrillation. I don’t really get lightheaded, though.
+
+**Doctor**: Got it. Can you describe what the pain actually feels like—would you say it’s sharp, pressure-like, burning, or more of a tightness?
+
+**Patient**: The pain feels more like a pressure or tightness in my chest. When I’m active, I also get that discomfort under my armpit, but it goes away when I rest.
+
+**Doctor**: Let me ask about any other symptoms you might have noticed—such as swelling in your legs, trouble breathing when lying flat, or waking up at night short of breath. Have you experienced anything like that?
+
+**Patient**: I haven’t noticed any swelling in my legs or problems breathing when I lie down. The main issues have been the chest pain, the axillary pain with activity, and my potassium has been up to 6 at times.
+
+**Doctor**: Got it. Since you mentioned your potassium has been elevated up to 6, have you noticed any muscle cramps, weakness, or episodes of feeling unusually tired when your potassium is high?
+
+**Patient**: I haven’t noticed muscle cramps or weakness when my potassium was high. Mostly, it’s just been the chest pain, the axillary pain with exertion, and the episodes of rapid atrial fibrillation.
+
+**Doctor**: Based on what we've discussed, your symptoms—particularly the pressure or tightness with activity that eases with rest—are often seen in conditions where the heart muscle isn't getting quite enough oxygen during exertion. This pattern is sometimes called "exertional angina." The fact that you also have a history of rapid atrial fibrillation and elevated potassium adds some complexity, but it's reassuring you haven't had swelling or breathing issues.
+
+When potassium levels are high (like above 5.5 or 6), it can affect heart rhythm, so it's important to keep monitoring that and follow any dietary or medication recommendations you've been given. 
+
+For now, I’d suggest you continue to avoid activities that reliably bring on these symptoms, and let your care team know right away if you experience pain at rest, fainting, or any new shortness of breath. If you haven’t already, a stress test or further cardiac evaluation may be considered to clarify things.
+
+Let me know if you have any questions about what we’ve discussed or if there’s anything specific you’re worried about.
+
+**Patient**: Thanks for explaining all of that. I do have coronary artery disease and have had bypass surgery before, so I know my heart isn’t in great shape. I’ll be careful with activity like you said, but I am a bit anxious about the rapid atrial fibrillation and the potassium levels—should I be checking those more often, or is there something specific I should watch for?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 9
-- **Word Count**: 220
-- **Doctor Turns**: 5
-- **Patient Turns**: 4
-
-## EHR Summary
-
-The patient is a 58-year-old male presenting with chest pain. He reported several months of exertional axillary pain relieved by rest, without associated radiation, dyspnea, diaphoresis, nausea, or vomiting, and noted no increase in frequency or intensity of symptoms. His medical history includes type 2 diabetes, hypertension, and hypercholesterolemia; admission medications included Avandia, Glucophage, Accupril, Pravachol, and aspirin. Physical examination revealed stable vital signs and was unremarkable. An abnormal electrocardiogram and a positive stress test with ST changes in the anterior leads prompted hospital admission for further evaluation. The documented diagnosis is not explicitly stated in the note. The treatment plan during admission is not specified in the provided text.
-
-## Dialogue Summary
-
-The patient presented with chest pain as the chief complaint. The pain is mainly located in the center of the chest and sometimes radiates under the arm, particularly with exertion, and resolves with rest. The patient denied associated symptoms such as shortness of breath, sweating, or lightheadedness. The discomfort began a few days ago and is triggered by physical activity, improving upon rest. No relevant medical history, medications, or allergies were mentioned. No physical findings were described in the conversation. The doctor did not provide a specific assessment or working diagnosis during the dialogue. No treatment plan or recommendations were given in the portion of the conversation provided.
-
-## STS Evaluation
-
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
+- **Turn Count**: 18
+- **Word Count**: 676
+- **Doctor Turns**: 9
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 38.6s
+- **Processing Time**: 77.2s

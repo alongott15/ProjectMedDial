@@ -16,86 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.962
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks logical, stepwise questions about the patient's symptoms, focusing on nausea, chest pain, shortness of breath, and facial swelling—all of which are present in the profile. The reasoning about possible angina and parotid gland involvement is appropriate given the symptoms. There are no unsupported diagnoses, tests, or treatments introduced. The conversation is clear, respectful, and avoids role confusion.
+- **Score**: 0.962
+- **Justification**: Combined score 0.96 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.88 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.875 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and appropriately volunteers information when prompted. To improve realism, the patient could occasionally express uncertainty or ask clarifying questions about medical terms.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and explains their thought process well. For further realism, the doctor could briefly acknowledge the patient's cardiac history more explicitly when discussing angina, and mention plans for further evaluation or monitoring.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and smooth, with each question building on prior answers. The summary and explanation at the end are helpful. To enhance realism, a brief closing statement about next steps or reassurance could be added.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns are present. The explanations are clear and appropriate for a light case simulation. The doctor avoids making definitive diagnoses or recommending treatments without further evaluation.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's nice to see you today. What brings you in, and how have you been feeling lately?
+**Doctor**: Good to see you today. How have you been feeling lately, and what would you like to focus on during our visit?
 
-**Patient**: I've mostly been feeling pretty nauseous lately. That's the main thing that's bothering me right now.
+**Patient**: I've been feeling pretty nauseous lately, and that's really been bothering me. I'd like to talk about that today if possible.
 
-**Doctor**: Let me ask about your nausea—when did you first start noticing it, and is it there all the time or does it come and go?
+**Doctor**: Let me ask about your nausea—when did it first start, and has it been constant or does it come and go?
 
-**Patient**: I can't remember exactly when it started, but the nausea seems to come and go throughout the day. It’s been more noticeable lately.
+**Patient**: I can't remember exactly when it started, but the nausea comes and goes—it’s not always there. Some days it feels worse than others.
 
-**Doctor**: Let me ask about other symptoms—have you had any chest discomfort or trouble catching your breath along with the nausea?
+**Doctor**: Let me ask about any other symptoms—have you noticed any chest discomfort or trouble catching your breath along with the nausea?
 
-**Patient**: Yes, I’ve had some chest pain and it does feel harder to breathe at times, especially when the nausea is bad.
+**Patient**: Yes, I've had some chest pain and sometimes it's hard to catch my breath, especially when the nausea is bad. Those symptoms seem to go together for me.
 
-**Doctor**: Let me ask about your breathing—when you feel short of breath, is it more like you can't get enough air, or do you feel tightness or pressure in your chest?
+**Doctor**: Alright. When you notice the chest pain or trouble breathing, does it usually happen when you’re active—like walking or climbing stairs—or does it also happen when you’re resting?
 
-**Patient**: It feels more like a pressure in my chest, not so much like I can’t get enough air. The tightness usually comes along with the nausea.
+**Patient**: I notice the chest pain and shortness of breath both when I'm active and sometimes even when I'm just sitting down. It doesn't always seem tied to what I'm doing.
 
-**Doctor**: Alright. Does physical activity, like walking or climbing stairs, seem to bring on the chest pressure or make your breathing more difficult, or does it happen even when you're resting?
+**Doctor**: Let me ask about something related—have you noticed any swelling in your face, especially on one side, or any unusual sensations there?
 
-**Patient**: Physical activity definitely makes it worse. If I walk or go up stairs, the chest pressure and breathing trouble get more noticeable. It can also happen when I’m resting, but activity brings it on more.
+**Patient**: I have noticed swelling on the left side of my face, and it feels tender around my parotid gland. That’s been going on along with the other symptoms.
 
-**Doctor**: Got it. When you lie down to rest, does the chest pressure or breathing difficulty get better, worse, or stay about the same?
+**Doctor**: Got it. How much is the swelling and tenderness affecting your ability to eat, talk, or go about your normal routine?
 
-**Patient**: Resting usually helps a bit. The chest pressure and breathing get a little better when I lie down.
+**Patient**: The swelling and tenderness make it uncomfortable to chew and talk, but I can still manage most things. It slows me down a bit, but I haven’t had to change my routine completely.
 
-**Doctor**: Got it. One more thing—have you noticed any sweating, lightheadedness, or feeling faint when these episodes happen? This helps me understand if there could be any underlying heart or circulation issues.
+**Doctor**: Okay. When the discomfort flares up, is there anything that seems to make it better or worse—like eating, lying down, or taking any of your usual medications?
 
-**Patient**: No, I haven’t had any sweating, lightheadedness, or felt faint when these episodes happen. It’s mainly just the nausea, chest pain, and shortness of breath.
+**Patient**: Taking my medications sometimes eases the chest pain and shortness of breath, but eating doesn't seem to change the nausea or facial swelling much. Lying down can make the discomfort worse, especially with my GERD.
 
-**Doctor**: Let me ask about something related—have you noticed any swelling in your face, particularly on one side, or any changes in how your face looks or feels? This can sometimes help us narrow down possible causes.
+**Doctor**: Alright. Have you noticed any redness, warmth, or changes in the skin over the swollen area on your face? This helps me understand if there could be an infection or if it's more related to your underlying condition.
 
-**Patient**: Yes, I've noticed some swelling on the left side of my face, and that area feels tender, especially around the parotid gland.
+**Patient**: I haven’t noticed any redness or warmth over the swollen area, just the swelling and tenderness. The skin looks about the same as usual.
 
-**Doctor**: Based on what we've discussed, it sounds like your main concerns are nausea, chest pressure that worsens with activity, occasional breathing difficulty, and now swelling and tenderness on the left side of your face near the parotid gland. These symptoms can sometimes be related, but the facial swelling and tenderness suggest there could be an issue with your salivary gland—such as inflammation or infection—which can cause discomfort and even contribute to nausea.
+**Doctor**: Based on what we've discussed, it sounds like your nausea, chest discomfort, and facial swelling are all connected to your known diagnosis. The fact that the swelling is focused around your parotid gland and isn’t red or hot makes infection less likely, but ongoing tenderness suggests it’s still inflamed. Your chest symptoms improving with your usual medications point toward your existing heart condition and GERD playing a role, especially since lying down makes things worse.
 
-The chest pressure and shortness of breath that get worse with activity are important to pay attention to, especially given your age. Sometimes, these symptoms can be due to the heart not getting enough oxygen during exertion (known as angina), but they can also be caused by other conditions. The fact that you don’t have sweating or lightheadedness is somewhat reassuring, but it's still important to monitor.
+Facial swelling can sometimes be related to salivary gland issues or fluid retention, which can overlap with heart or kidney concerns, but the absence of redness or fever is reassuring. Nausea can also be triggered by pain or by medications you’re taking.
 
-Let me ask—when did you first notice the swelling and tenderness on your face? And has it been getting better, worse, or staying the same? This will help me understand how urgent this part of your symptoms might be.
+What I’d recommend is continuing to monitor for any new signs—like fever, increasing swelling, or changes in your ability to eat or speak. If any of those develop, it would be important to let your care team know promptly. Otherwise, gentle massage of the area, staying hydrated, and sticking with soft foods may help with the discomfort. 
 
-**Patient**: I first noticed the swelling and tenderness a few days ago, and it’s been about the same since then—not really better or worse. Thank you for explaining everything, that helps me understand what might be going on.
+Let me know if you notice any changes in your symptoms or have questions about managing flare-ups at home.
+
+**Patient**: Thank you, that helps clarify things for me. I’ll keep an eye out for any changes like you mentioned, especially if the swelling gets worse or I have trouble eating. Is there anything else I should do if the nausea or angina flare up again?
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 638
+- **Word Count**: 684
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 76-year-old female presenting with nausea, which serves as her anginal equivalent. She reported chest pain, shortness of breath, and nausea upon arrival to the emergency room. Her medical history is significant for coronary artery disease with prior mid-LAD stenosis, diffuse left circumflex and RCA disease, hypertension, GERD, Billroth II surgery, anemia, hyperlipidemia, ischemic cardiomyopathy, and prior hysterectomy and appendectomy. Cardiac catheterization revealed significant multi-vessel coronary artery disease, including a 60% distal LAD lesion, 90% OM1 lesion, 70% OM2 lesion, and 80% mid-RCA lesion. She was diagnosed with a non-Q wave myocardial infarction. During the procedure, she continued to experience angina, which resolved after placement of an intra-aortic balloon pump. Cardiothoracic surgery was consulted and she was accepted for coronary artery bypass grafting. Prior to admission, her medications included Lipitor, pantoprazole, Creon, metoprolol, folic acid, nitroglycerin drip, Isordil, hydrochlorothiazide, Nexium, Altace, Coreg, and Plavix.
-
-## Dialogue Summary
-
-The patient presented with nausea as the chief complaint. She reported intermittent nausea that has become more noticeable recently, along with chest pain described as pressure and occasional shortness of breath, especially when the nausea is worse. The chest pressure and breathing difficulty are aggravated by physical activity such as walking or climbing stairs, but can also occur at rest and improve somewhat with lying down; she denied associated sweating, lightheadedness, or feeling faint. Additionally, she noted swelling and tenderness on the left side of her face near the parotid gland, which started a few days ago and has remained unchanged. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the facial swelling and tenderness may indicate a salivary gland issue (such as inflammation or infection), while the chest pressure and exertional shortness of breath could suggest angina or another condition, though absence of other symptoms was reassuring. The doctor emphasized the importance of monitoring these symptoms and explained possible causes to the patient.
-
-## STS Evaluation
-
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 62.9s
+- **Processing Time**: 83.7s

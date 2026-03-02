@@ -16,86 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.960
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is highly consistent with the provided patient profile and case type. The doctor asks logical, relevant questions about the wound, symptoms, and functional impact. The patient responses are plausible and align with the documented symptoms and history. The doctor's summary and explanation are appropriate for a primary care setting and do not introduce unsupported diagnoses or treatments. There are no hallucinations or major inconsistencies. The only issue is the abrupt end due to a simulation error, not a content problem.
+- **Score**: 0.960
+- **Justification**: Combined score 0.96 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=1.00 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 1.000 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and realistic. For improvement, the patient could provide more detail about any self-care measures tried or clarify the timeline if prompted.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor's questions and explanations are thorough and appropriate. For further realism, the doctor could ask about other systemic symptoms (e.g., malaise) or clarify surgical history if relevant.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The conversation flows logically and naturally, with good transitions between topics. The simulation should ensure the patient agent can respond to all prompts to avoid abrupt endings.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns. The doctor appropriately emphasizes warning signs and the need for in-person evaluation.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi, welcome in today. What brings you here, and how have you been feeling lately?
+**Doctor**: Hi there, it's good to see you. How have you been feeling lately, and what brings you in today?
 
-**Patient**: I've got this open wound on my right lower leg that just isn’t healing, and it’s been pretty painful lately. That’s mainly why I came in.
+**Patient**: Hey, thanks for seeing me. My right foot has been hurting a lot, and there's an open wound that just isn't healing. That's what's got me worried.
 
-**Doctor**: Let me ask about the wound itself—have you noticed any redness around it or any kind of discharge coming from it?
+**Doctor**: Let me ask about the wound—have you noticed any redness around it or any drainage, like pus?
 
-**Patient**: Yeah, there’s definitely some redness around the wound, and I’ve noticed a bit of pus coming out too.
+**Patient**: There's definitely redness around the wound, and I've noticed some pus coming out of it too. It's pretty uncomfortable.
 
-**Doctor**: Let me ask about when this all began—how long has the wound been there, and when did you first notice it wasn’t healing as expected?
+**Doctor**: Let me ask about how this is affecting your day-to-day life—are you able to walk normally, or is the pain limiting your movement?
 
-**Patient**: I'm not sure exactly when it started, but it's been there for at least several days. I realized it wasn’t healing after I kept seeing redness and drainage, and the pain just stuck around.
+**Patient**: Walking is tough right now. The pain in my right foot makes it hard to move my toes, and it definitely limits what I can do day-to-day.
 
-**Doctor**: Got it. Has the pain or swelling made it harder for you to walk or do your usual activities?
+**Doctor**: Alright. Has the redness or pus been getting better, worse, or staying about the same over the past few days?
 
-**Patient**: Yeah, the pain makes it tough to walk normally, and I can’t really move my toes as much as I usually do. It’s definitely affecting what I can do day to day.
+**Patient**: Honestly, it feels like the redness and pus have stayed about the same. I haven’t really noticed much improvement lately.
 
-**Doctor**: Let me ask about fever—have you noticed feeling hot, chills, or any increase in your temperature since the wound started acting up?
+**Doctor**: Got it. How long has the wound been open and not healing—are we talking days, weeks, or longer?
 
-**Patient**: Yes, I’ve had some fevers since the wound started getting worse. I definitely feel hotter than usual.
+**Patient**: I'm not sure of the exact number of days, but it's definitely been open and not healing for at least several days now. It just won't close up.
 
-**Doctor**: Alright. Has the redness or drainage around the wound been getting better, worse, or staying about the same over the past few days?
+**Doctor**: Let me ask about other symptoms—have you had any fever, chills, or felt generally unwell since the wound appeared?
 
-**Patient**: The redness and drainage have actually been getting worse, not better. It’s pretty frustrating.
+**Patient**: I’ve had some fevers since the wound showed up. Other than that, it’s mostly just pain in my right foot and the redness around the wound.
 
-**Doctor**: Got it. When you press gently around the wound, does it feel unusually warm or firm compared to the surrounding skin?
+**Doctor**: Alright. Does anything in particular seem to make the redness or pus worse—like walking more, certain shoes, or cleaning the wound? Or does it stay about the same regardless of what you do?
 
-**Patient**: Yes, the area around the wound feels warmer and a bit firmer compared to the rest of my skin.
+**Patient**: It doesn’t really seem to change much no matter what I do. Walking or cleaning the wound hasn’t made the redness or pus worse—it just stays about the same.
 
-**Doctor**: Okay. How much is this impacting your day-to-day life—are you able to work, get around at home, or sleep comfortably?
+**Doctor**: Let me ask about the pain—on a scale from 1 to 10, how intense would you say it is right now?
 
-**Patient**: It’s definitely messing with my routine. I’m having trouble getting around at home, and sleeping isn’t easy because of the pain in my foot. Working has been tough too.
+**Patient**: Right now, the pain is probably around a 7 out of 10. It's pretty strong, especially when I try to move my toes.
 
-**Doctor**: Based on what we've discussed, it sounds like your wound is showing signs of infection—things like increasing redness, warmth, pus, pain, and fever all point in that direction. When a wound isn’t healing and these symptoms are getting worse, it suggests that bacteria may have gotten in and your body is reacting to fight it off. 
+**Doctor**: Based on what we've discussed, it sounds like your wound is showing signs of infection—persistent redness, pus, difficulty healing, and fevers. These symptoms suggest that bacteria may be causing the delayed healing and discomfort. When a wound isn’t closing and you’re seeing pus and redness, it usually means your body is trying to fight off an infection, but sometimes it needs extra help.
 
-What often happens with infected wounds is that the area becomes more swollen and tender, and you might notice difficulty with movement or even daily tasks, just like you’re experiencing. The fact that it’s interfering with walking and sleep shows it’s more than just a mild issue.
+Since the wound hasn’t improved and you’re having fevers, it’s important to keep the area clean and avoid walking on it as much as possible. If you haven’t already, covering the wound with a clean bandage and using mild soap and water to cleanse it daily can help. However, because the infection seems persistent and is affecting your mobility, I recommend you follow up soon with your healthcare provider for a closer look. You may need a prescription antibiotic or further wound care.
 
-At this point, proper wound care is important, but you may also need medical treatment such as antibiotics to help your body clear the infection. Keeping the area clean and covered can help prevent further irritation, but worsening symptoms—especially with fever—mean it’s best to get evaluated in person soon. If you notice spreading redness, increasing pain, or feel generally unwell, those are warning signs to seek care promptly.
+Watch for warning signs like increasing redness spreading up your foot, worsening pain, more frequent fevers, or any difficulty moving your leg—these would mean you need urgent medical attention.
 
-Let me know if you have any allergies to medications or if you’ve tried anything so far to help the wound heal. That will help guide next steps.
+Let me know if you have any questions about wound care or what to expect next.
+
+**Patient**: Thanks for explaining all that. I’ve had fevers and purulent drainage, so I get why you’re concerned about infection. I’ll make sure to keep the wound clean and follow up with my provider soon. Is there anything specific I should look for when cleaning the wound?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 17
-- **Word Count**: 584
+- **Turn Count**: 18
+- **Word Count**: 630
 - **Doctor Turns**: 9
-- **Patient Turns**: 8
-
-## EHR Summary
-
-The patient is a 29-year-old female presenting with postoperative complications following a right dorsal foot exostectomy. She developed erythema, purulent drainage, and wound dehiscence one week after surgery, with subsequent fever (temperature up to 39.0°C) and leukocytosis (WBC 16.6). Her wound culture grew Staphylococcus aureus. She has no significant past medical history and no known drug allergies. On physical exam, she was in no apparent distress with a 6 by 4 cm ulcer on the right foot. The documented diagnosis was status post right dorsal foot exostectomy with postoperative cellulitis and dehiscence. Treatment included incision and drainage of the right foot wound with VAC placement, administration of Vancomycin and Clindamycin, and a parascapular fascia-cutaneous free flap with split-thickness skin graft to the right lower extremity wound. She was advised further management for her non-healing wound.
-
-## Dialogue Summary
-
-The patient presented with a non-healing open wound on the right lower leg that has become increasingly painful. Symptoms discussed included persistent pain, redness around the wound, pus drainage, worsening redness and drainage over several days, fever, difficulty walking, reduced toe movement, trouble with daily activities and sleep, and increased warmth and firmness around the wound. The patient reported that these symptoms have been present for at least several days and are interfering with normal routines and work. No relevant medical history, medications, or allergies were mentioned. On clinical questioning, the doctor noted signs of infection such as increasing redness, warmth, pus, pain, and fever, as well as functional impairment. The assessment was that the wound is likely infected, with bacterial involvement suggested by worsening symptoms and systemic signs. The doctor recommended proper wound care, keeping the area clean and covered, and advised that medical treatment such as antibiotics may be necessary. The patient was instructed to seek in-person evaluation soon, especially if symptoms worsen or systemic signs develop.
-
-## STS Evaluation
-
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 57.1s
+- **Processing Time**: 67.9s

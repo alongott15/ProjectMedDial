@@ -16,86 +16,89 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 1.000
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the patient's profile and symptoms. The doctor asks appropriate, focused questions about the chest pain, associated symptoms, severity, and impact on daily life. The reasoning is sound, and the recommendation for urgent evaluation is appropriate given the concerning features. There are no hallucinations or unsupported content; all details align with the provided profile.
+- **Score**: 1.000
+- **Justification**: Combined score 1.00 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=1.00 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 1.000 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and expresses understanding at the end. For even greater realism, the patient could mention any relevant medical history (e.g., diabetes) if prompted, or ask a clarifying question about their risk.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. For improvement, the doctor could briefly acknowledge the patient's known medical history (e.g., diabetes, hypertension) to further ground the conversation in the profile, and could ask about other symptoms such as shortness of breath or diaphoresis directly.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, progressing from symptom exploration to assessment and recommendation. The conversation could be enhanced by a brief summary or check-back from the doctor before giving recommendations.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety is well addressed with clear instructions for urgent evaluation and warning signs. The explanation is clear and appropriately cautious.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in—how have you been feeling lately?
+**Doctor**: Welcome, it's good to see you today. What brings you in—can you tell me what's been bothering you lately?
 
-**Patient**: My chest has been hurting, and that's got me pretty worried. That's really why I came in today.
+**Patient**: My chest has been hurting, and that's got me pretty worried. That's really the main reason I came in today.
 
-**Doctor**: Let me ask about the timing—when did you first notice this chest discomfort?
+**Doctor**: Let me ask about the pain—can you describe what it feels like? For example, is it sharp, dull, pressure-like, or burning?
 
-**Patient**: I'm not exactly sure, but I noticed the chest pain started maybe a couple days ago.
+**Patient**: It feels kind of tight, almost like a pressure, and sometimes that tightness goes into my left arm.
 
-**Doctor**: Let me ask about associated symptoms—have you had any nausea or vomiting along with the chest discomfort?
+**Doctor**: Let me ask about where exactly you feel this tightness—can you point to the specific area on your chest, or does it move around?
 
-**Patient**: Yes, I've had both nausea and vomiting along with the chest pain.
+**Patient**: The tightness is mostly in the center of my chest, but sometimes it spreads over to the left side and down my left arm. It doesn’t really move around much, just kind of stays in that area.
 
-**Doctor**: Got it. Have you noticed if the discomfort ever spreads to your left arm, or if you've felt any aching or tightness there?
+**Doctor**: Alright. Have you noticed if anything makes the tightness come on or get worse, like physical activity, stress, or eating? Or does it happen randomly?
 
-**Patient**: Yes, the tightness does spread to my left arm, and I've had some aching there too.
+**Patient**: I haven’t really noticed a clear pattern—it just seems to come on randomly. I don’t think it’s tied to eating or being active.
 
-**Doctor**: Alright. How much is this discomfort affecting your ability to go about your usual daily activities?
+**Doctor**: Got it. Have you experienced any nausea or vomiting when this chest tightness occurs?
 
-**Patient**: It's made things a lot harder. I've had trouble doing my normal routine because of the chest discomfort and the nausea.
+**Patient**: Yes, I have had some nausea and I’ve vomited a few times when the chest discomfort happens.
 
-**Doctor**: Let me ask about severity—on a scale from 1 to 10, how intense would you rate your chest discomfort at its worst?
+**Doctor**: Okay. How intense is the discomfort when it happens—would you rate it as mild, moderate, or severe? And about how long does each episode tend to last?
 
-**Patient**: At its worst, I'd rate the chest discomfort around a 7 out of 10.
+**Patient**: The discomfort is usually moderate, but sometimes it gets pretty intense. Each episode can last anywhere from a few minutes to maybe half an hour.
 
-**Doctor**: Let me ask about triggers—do you notice if anything in particular seems to bring on or worsen the chest discomfort, like physical activity, stress, or certain foods?
+**Doctor**: Got it. When did you first start noticing these episodes of chest tightness? Has this been going on for days, weeks, or longer?
 
-**Patient**: Physical activity does seem to make the chest discomfort worse. I haven't noticed any foods making it worse, but stress might be a factor too.
+**Patient**: This has been happening for at least several days now. It’s hard to say exactly when it first started, but it’s been on and off for a while.
 
-**Doctor**: I see. Has the chest discomfort and arm ache been getting better, staying the same, or getting worse over the past couple of days?
+**Doctor**: Let me ask about your breathing—during these episodes, do you ever feel short of breath or notice any sweating?
 
-**Patient**: The chest discomfort and arm ache have pretty much stayed the same over the past couple of days. They haven’t really gotten better or worse.
+**Patient**: I haven’t noticed any shortness of breath or sweating when these episodes happen. It’s mainly just the chest pain, tightness, and sometimes nausea or vomiting.
 
-**Doctor**: Based on what we've discussed, your chest discomfort along with nausea, vomiting, and tightness radiating to your left arm is concerning, especially since it's worsened by physical activity and affecting your daily routine. While these symptoms can sometimes be caused by less serious issues like muscle strain or acid reflux, they can also signal something more significant, such as heart-related problems.
+**Doctor**: Based on what we've discussed, your symptoms of chest tightness and pressure that sometimes extends to your left arm, along with occasional nausea and vomiting, are important to evaluate carefully. These symptoms can sometimes be related to your heart, even though you haven't noticed triggers like physical activity or stress, and you haven't had shortness of breath or sweating.
 
-Because chest pain with these features should be evaluated promptly, I recommend that you seek further medical attention today—either at an urgent care center or emergency department—to rule out any serious causes. It's important not to ignore these symptoms, even if they haven't gotten worse. In the meantime, avoid strenuous activity and rest as much as possible.
+While there are many possible causes for chest discomfort—including muscle strain, acid reflux, or anxiety—the fact that your discomfort is pressure-like and radiates to your arm means we need to rule out any heart-related issues first, just to be safe. This doesn't necessarily mean something serious is happening, but it's important to be cautious.
 
-If you notice additional symptoms like shortness of breath, sweating, or feeling faint, please seek help immediately. Let me know if you have any questions about what I've explained or need help figuring out your next steps.
+I recommend that we do an ECG (electrocardiogram) and possibly some basic blood tests today to check your heart. In the meantime, if you notice the pain becoming much more severe, lasting longer than usual, or if you develop new symptoms like difficulty breathing, heavy sweating, or fainting, you should seek emergency care right away.
 
-**Patient**: Thanks for explaining everything so clearly. I understand why you want me to get checked out right away. I’ll go to the emergency department today, since the chest discomfort and vomiting haven’t really let up.
+Most chest pain turns out to be from a non-cardiac cause, but because heart symptoms can sometimes be subtle—especially in women—it's better to check thoroughly. Does that plan sound okay to you?
+
+**Patient**: That makes sense. How long does it usually take to get results from the ECG and blood tests?
+
+**Doctor**: Let me share my thoughts. Because your chest discomfort sometimes spreads to your arm and is accompanied by nausea, it’s important to check your heart as soon as possible. An ECG usually gives results right away—within minutes—while blood tests for heart-related markers can take an hour or two, depending on the lab. 
+
+The reason we do these tests is to quickly rule out any heart-related causes, which can sometimes present in subtle ways. Most of the time, these symptoms turn out to be from something less serious, but it’s safest to be thorough.
+
+While you’re waiting for results, if your symptoms get much worse or you develop new issues like difficulty breathing or fainting, please let someone know immediately. I’ll stay with you through this process and make sure you understand each step.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 519
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 740
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 39-year-old female presenting with chest pain and vomiting. She experienced several episodes of nausea and vomiting, followed by chest and left arm tightness, with blood glucose levels elevated and unresponsive to insulin for the preceding 24 hours. Her medical history includes type 1 diabetes mellitus for 9 years (on insulin pump, last HbA1c 8.4) and hypertension; she has no known drug allergies or prior coronary artery disease. On admission, she was found to be in diabetic ketoacidosis (HCO3 12, anion gap 20) and her EKG showed significant ST elevations in multiple leads. Cardiac catheterization revealed an ulcerated plaque with distal emboli in the proximal-mid LAD, for which a bare metal stent was placed; post-procedure hemodynamics were stable. The documented diagnoses were diabetic ketoacidosis and acute myocardial infarction due to LAD lesion. Treatment included insulin infusion, aspirin, clopidogrel, heparin, integrilin, sublingual nitroglycerin for left arm pain, and cardiac stenting. She was admitted to the CCU for monitoring, with improvement in symptoms and EKG changes.
-
-## Dialogue Summary
-
-The patient presented with chest pain as the chief complaint. The chest discomfort began approximately two days ago, is rated as 7 out of 10 in severity at its worst, is worsened by physical activity and possibly stress, and has remained unchanged over the past couple of days. Associated symptoms include nausea, vomiting, and tightness radiating to the left arm with aching, all of which have significantly impacted the patient's ability to perform daily activities. No relevant past medical history, medications, or allergies were mentioned. The doctor noted that the combination of chest pain, nausea, vomiting, and left arm symptoms—especially when triggered by exertion—is concerning for possible heart-related problems, though less serious causes like muscle strain or acid reflux were also considered. The doctor recommended immediate further evaluation at an urgent care center or emergency department to rule out serious causes and advised the patient to avoid strenuous activity and rest. The patient understood and agreed to seek emergency care as advised.
-
-## STS Evaluation
-
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 58.2s
+- **Processing Time**: 77.2s

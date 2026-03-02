@@ -16,88 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.790
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile (52-year-old male with coronary artery disease and paroxysmal atrial fibrillation presenting with chest pain). The doctor asks appropriate, focused questions about the nature, timing, and triggers of the chest pain, and provides reasonable, cautious advice without overstepping the light case context. There are no unsupported diagnoses or recommendations, and the conversation avoids introducing severe or ICU-level events. The patient responses are coherent and realistic.
+- **Score**: 0.790
+- **Justification**: Combined score 0.79 (naturalness=1.00 ×0.4, profile_compliance=0.80 ×0.3, ragas_faithfulness=0.50 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 0.800 |
+| RAGAS Faithfulness | 0.500 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, the patient could mention any medications or prior similar episodes if prompted.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and safety netting. For improvement, the doctor could briefly reference the patient's known heart history (e.g., 'Given your history of coronary artery disease...') to further ground the advice.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, moving from symptom description to risk assessment to safety advice. The summary and plan are clear.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: The doctor appropriately advises on warning signs and follow-up. No safety concerns noted; the advice is clear and cautious.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Let me ask about the discomfort you're experiencing—can you describe what the pain feels like, and where exactly you notice it?
+**Doctor**: Good to see you today. How have things been going with your condition lately? Is there anything new or different that's been bothering you?
 
-**Patient**: The pain is in the middle of my chest. It feels kind of tight and uncomfortable, not really sharp.
+**Patient**: Lately, my chest pain has been getting worse. That’s the main thing that’s been bothering me.
 
-**Doctor**: Alright. Have you noticed if this tightness comes on with physical activity, or does it happen even when you're resting?
+**Doctor**: Let me ask about how this is impacting your daily life—are you finding it harder to do your usual activities because of the pain?
 
-**Patient**: It happens even when I’m just sitting around, not just when I’m moving or doing anything physical.
+**Patient**: It's definitely making things tougher. I find it harder to get through my normal routine because of the chest pain.
 
-**Doctor**: Let me ask about any other symptoms—have you experienced things like shortness of breath, sweating, or feeling lightheaded along with the chest tightness?
+**Doctor**: Let me ask about any other symptoms—have you noticed things like shortness of breath, sweating, or feeling lightheaded when this happens?
 
-**Patient**: I haven’t had any sweating or felt lightheaded. My main issue is that the chest pain seems to have gotten a bit worse lately. I haven't noticed any shortness of breath.
+**Patient**: I haven’t noticed any shortness of breath or sweating. The main thing is that my chest pain has increased.
 
-**Doctor**: Got it. Can you tell me how long this tightness has been going on, and whether there was anything that seemed to trigger it initially?
+**Doctor**: Alright. Have you noticed if anything in particular seems to bring on or worsen your symptoms, like physical activity, eating, or stress?
 
-**Patient**: I'm not sure exactly when it started, but the tightness has been there for at least a few days now. Nothing specific seemed to set it off—it just sort of showed up and hasn't gone away.
+**Patient**: Physical activity seems to make the chest pain worse. I haven’t noticed anything else in particular that triggers it.
 
-**Doctor**: Let me ask about changes over time—has the tightness been staying about the same, or have you noticed it getting worse or more frequent recently?
+**Doctor**: Let me ask about the severity—if you had to rate how intense it is at its worst, on a scale from 1 to 10, what number would you give it? And has this changed compared to before?
 
-**Patient**: It’s definitely gotten a bit worse lately. The tightness seems more noticeable now than when it first started.
+**Patient**: At its worst, I’d rate the pain around a 7 out of 10. It definitely feels more intense than it used to.
 
-**Doctor**: Got it. How much is this chest tightness affecting your daily life—are you finding it hard to do normal activities, or is it more of a mild annoyance?
+**Doctor**: Got it. Let’s talk about how long these episodes last—does the discomfort go away quickly with rest, or does it linger for a while even after you stop being active?
 
-**Patient**: It's more than just an annoyance now. The chest pain is making it harder for me to go about my usual routine.
+**Patient**: The pain usually sticks around for a while, even after I stop what I’m doing. Rest helps a bit, but it doesn’t go away right away.
 
-**Doctor**: Let me ask about possible triggers—have you noticed if eating, stress, or certain positions make the tightness better or worse?
+**Doctor**: Got it. When did you first notice that your symptoms were getting worse—has this been a gradual change or did it get more intense fairly suddenly?
 
-**Patient**: Stress might make it a little worse, but eating or changing positions doesn’t seem to have much effect. The pain just sticks around no matter what I do.
+**Patient**: It’s been more of a gradual change. Over the past week or so, the chest pain has slowly gotten worse.
 
-**Doctor**: Tell me more about how intense the discomfort is—if you had to rate it from 1 to 10, with 10 being the worst pain imaginable, where would you put it right now?
+**Doctor**: Let me ask about your sleep—has your discomfort been affecting your ability to rest at night, or do you wake up because of it?
 
-**Patient**: Right now, I’d rate the discomfort around a 6 out of 10. It’s not unbearable, but it’s definitely bothering me.
+**Patient**: Lately, the chest pain has made it harder to sleep through the night. I do wake up because of the discomfort sometimes.
 
-**Doctor**: Based on what we've discussed, it sounds like you've been dealing with a gradually worsening tightness in the center of your chest over several days. Since it isn't linked to movement, eating, or position, and stress seems to make it a bit worse, this pattern can sometimes be seen with issues ranging from muscle strain to anxiety, but it's also important to rule out heart-related causes given your age and the persistence of symptoms.
+**Doctor**: Based on what we've discussed, it sounds like your discomfort has gradually increased over the past week and is now interfering with your daily routine and sleep. The fact that it's brought on by activity and lingers even after rest suggests it could be related to your known condition, but the change in intensity and its impact on your life is important.
 
-Chest discomfort that gets worse over time and begins to interfere with daily activities is something we take seriously. While you haven't had alarming symptoms like shortness of breath or sweating, it's still important to be cautious. Sometimes, heart conditions can present with these kinds of symptoms even without classic warning signs.
+When symptoms like this become more intense or start affecting sleep, it can sometimes mean that your condition needs to be re-evaluated or your treatment adjusted. My main concern is making sure there’s no progression or complication that needs more urgent attention.
 
-Here's what I'd recommend: if the discomfort becomes severe, if you notice new symptoms like shortness of breath, nausea, or pain radiating to your arm or jaw, seek medical care promptly. Otherwise, it would be wise to schedule an appointment soon for a thorough evaluation—this may include a physical exam and possibly some basic tests to check your heart and rule out anything urgent.
+At this point, I’d recommend reaching out to your primary cardiology or medical team soon for a review. In the meantime, try to avoid strenuous activities that seem to trigger your symptoms. If you notice any new symptoms like severe discomfort at rest, nausea, or feeling faint, seek immediate medical attention.
 
-In the meantime, try to avoid strenuous activity and monitor for any changes. Let me know if you have any questions about what we've discussed or if anything changes.
+Let me know if you have any questions or if there’s anything else you’ve noticed that we haven’t discussed.
 
-**Patient**: Thanks for explaining all that. I understand what you’re saying, and I’ll make sure to watch for any new symptoms like you mentioned. I’ll try to get an appointment soon for a checkup.
+**Patient**: Thanks for explaining all that. I understand the plan and will reach out to my cardiology team soon. If anything changes or I notice new symptoms, I’ll get help right away.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 661
+- **Word Count**: 601
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 52-year-old male presenting with chest pain of several weeks’ duration, without pain at rest. He reported increased symptoms prior to admission and had previously used sublingual nitroglycerin. His relevant history includes atrial fibrillation, hypertension, depression, and former tobacco use; home medications included Lopressor, Coumadin, and aspirin, with no known drug allergies. Cardiac catheterization revealed an ejection fraction of 67% and significant coronary artery stenoses (90% mid-LAD, 60% proximal circumflex, 60% OM2). The documented diagnosis was severe coronary artery disease. He underwent off-pump coronary artery bypass grafting (LIMA to LAD and saphenous vein graft to OM1) without complications. Postoperatively, he developed atrial fibrillation controlled with intravenous Lopressor and was noted to recover well with physical therapy and ambulation.
-
-## Dialogue Summary
-
-The patient presented with chest tightness and discomfort located in the middle of the chest. The pain was described as tight and uncomfortable (not sharp), rated 6 out of 10 in intensity, present for at least several days, and has gradually worsened to the point of interfering with daily activities. The tightness occurs even at rest, is not triggered by movement, eating, or position, but may be slightly worsened by stress; there is no associated shortness of breath, sweating, or lightheadedness. No specific medical history, medications, or allergies were mentioned. On assessment, the doctor noted the absence of classic alarming symptoms but expressed concern due to the persistence and worsening of chest discomfort, emphasizing the need to rule out heart-related causes. The doctor advised the patient to seek immediate care if severe symptoms or new signs such as shortness of breath, nausea, or radiating pain develop. Otherwise, the patient was instructed to schedule a prompt appointment for further evaluation, avoid strenuous activity, and monitor for any changes.
-
-## STS Evaluation
-
-- **STS Score**: 0.935
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 64.3s
+- **Processing Time**: 81.2s

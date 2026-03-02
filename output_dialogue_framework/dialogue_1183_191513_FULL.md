@@ -16,86 +16,81 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.980
+- Score: 0.935
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.980
-- **Justification**: The dialogue is highly consistent with the provided patient profile and case type. The doctor asks logical, open-ended questions to clarify the patient's symptoms and functional status, and the patient provides plausible, relevant responses. The doctor's summary and recommendations are appropriate for a primary care setting, given the described mild but concerning symptoms. No unsupported diagnoses, treatments, or severe events are introduced. The conversation is clear, empathetic, and avoids any role confusion or major errors.
+- **Score**: 0.935
+- **Justification**: Combined score 0.93 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.78 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.783 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, the patient could occasionally express uncertainty or provide more detail about the impact on daily life.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates excellent communication and clinical reasoning. To further enhance realism, the doctor could briefly review the patient's known hypertension or ask about medication changes, as these could be relevant to mental status changes.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural. Consider including a brief check for acute symptoms (e.g., chest pain, fever) or a review of medications for completeness.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is clear and appropriate. The doctor correctly emphasizes when to seek urgent care. No safety or clarity concerns.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brings you in—how have you been feeling lately?
+**Doctor**: It's good to see you today. How have you been feeling lately, and is there anything new or specific you'd like to discuss during this visit?
 
-**Patient**: I've been having some changes in my thinking lately, and it's making me a bit concerned.
+**Patient**: Lately, I've noticed some changes in how I'm thinking and feeling, along with a headache that just won't go away. That's what's been bothering me most.
 
-**Doctor**: Let me ask about the changes you've noticed—can you describe what feels different in your thinking? For example, are you having trouble with memory, finding words, staying focused, or something else?
+**Doctor**: Let me ask about these changes in your thinking and feelings—can you describe what you've noticed? For example, have you had any trouble with memory, focus, or feeling more confused than usual?
 
-**Patient**: It's been harder to think clearly, and I notice I'm not communicating as well as usual.
+**Patient**: I’ve been feeling more confused lately and it’s harder to focus than usual. I’m not sure exactly when it started, but it feels different from how I usually am.
 
-**Doctor**: Let me ask about your daily routine—have these changes made it harder for you to manage tasks like cooking, keeping track of appointments, or handling finances?
+**Doctor**: Let me ask about your headache—has it been getting worse, staying about the same, or improving since it started?
 
-**Patient**: Yes, it's definitely made things harder for me. I find it takes more effort to do things like cooking or talking with others.
+**Patient**: The headache has been getting worse, I think. It feels stronger now compared to when it first started. I haven’t noticed much relief even with resting.
 
-**Doctor**: Alright. Have you noticed any other symptoms, like headaches, confusion, or changes in your alertness? Sometimes these details can help us understand what's going on.
+**Doctor**: Let me ask about your ability to do daily tasks—are you finding it harder to manage things like getting dressed, preparing meals, or moving around the house?
 
-**Patient**: Yes, I've also been having headaches. My motor skills aren’t quite what they used to be either.
+**Patient**: Yes, it’s definitely been harder for me to do things like getting dressed and moving around. My right side feels weaker, so I need more help than before.
 
-**Doctor**: Got it. When did you first start noticing these changes, and have they been getting worse, staying the same, or coming and going? Understanding the timeline can help pinpoint possible causes.
+**Doctor**: Got it. Have you noticed any changes with your speech, vision, or trouble swallowing since these symptoms began?
 
-**Patient**: I'm not exactly sure when it began, but these changes have been getting a bit worse over time.
+**Patient**: I’ve been having trouble communicating, and it’s harder to get my words out. I haven’t noticed any changes with my vision or swallowing, though.
 
-**Doctor**: Let me ask about your motor skills—have you had any trouble with balance, walking, or using your hands for tasks like buttoning a shirt or writing? Noticing these changes can help clarify what might be going on.
+**Doctor**: Let me ask about your confusion—has it been coming and going, or is it present most of the time? And have you had any episodes where you felt suddenly much more confused or disoriented?
 
-**Patient**: Yes, I’ve noticed weakness on my right side, which makes things like walking and using my hand more difficult.
+**Patient**: The confusion has been there most of the time lately, not really coming and going. I haven’t had any sudden episodes where I felt much more confused or disoriented, just a steady feeling.
 
-**Doctor**: Got it. How much are these changes impacting your ability to do things day-to-day—are you able to manage most activities on your own, or do you find yourself needing more help than before?
+**Doctor**: Tell me more about when you first noticed these changes—was it days, weeks, or longer ago?
 
-**Patient**: I’ve needed more help lately, especially with things that involve using my right hand or moving around. It’s made daily activities tougher for me.
+**Patient**: I first noticed these changes a few days ago. Along with the confusion and headache, my right side started feeling weaker and it’s been harder to communicate since then.
 
-**Doctor**: Let me ask about your awareness—have you had any episodes where you felt especially confused, disoriented, or had difficulty recognizing familiar places or people? This can help clarify the nature of your thinking changes.
+**Doctor**: Alright. How much are these changes interfering with your ability to manage daily activities—are you needing help with most things, or just certain tasks?
 
-**Patient**: I haven’t had trouble recognizing people or places. I do feel more confused sometimes, but not to the point where I don’t know where I am.
+**Patient**: These changes are making most daily activities pretty difficult for me. I need help with things like getting dressed and moving around, especially since my right side feels weak.
 
-**Doctor**: Based on what we've discussed, it sounds like you've been experiencing gradually worsening changes in your thinking and communication, along with some new difficulties using your right side and managing daily activities. These kinds of symptoms can have several possible causes, such as changes in blood flow to the brain, medication effects, or other underlying health issues. Because these changes have come on over time and are affecting your independence, it’s important to look into them further.
+**Doctor**: Based on what we've discussed, your symptoms of increasing confusion, difficulty with communication, and new weakness on one side are concerning for a possible neurological issue, such as a stroke or another condition affecting your brain. These kinds of changes—especially when they come on over a few days and interfere with daily activities—warrant prompt medical attention.
 
-I recommend reaching out soon for a full evaluation, which may include a physical exam and possibly some basic brain imaging or lab tests. In the meantime, if you notice any sudden changes—like severe confusion, vision loss, trouble speaking, or weakness that comes on quickly—those can be warning signs that need urgent attention.
+While sometimes headaches and mild confusion can be caused by common issues, the combination with new weakness and speech difficulties is more serious. It's important to get evaluated quickly to rule out causes that may need urgent treatment.
 
-If you have any new symptoms or if things get worse rapidly, please seek help right away. Otherwise, let's work together to get to the bottom of this and support you in staying as independent as possible.
+My recommendation is that you seek immediate medical care, ideally at an emergency department, so that further tests can be done to determine what's going on and ensure you get the right treatment as soon as possible. If you have someone with you, please ask them to help you get to the hospital or call emergency services if needed. Early assessment can make a significant difference in these situations.
 
-**Patient**: Thank you for explaining everything so clearly. I appreciate your help—I do want to stay independent, so I’ll make sure to follow up soon. If anything changes quickly, I’ll get help right away.
+**Patient**: Thank you for explaining everything so clearly. I understand why it’s important to get checked right away. Since I’ve had a subdural hematoma before and these symptoms feel similar, is it possible that it could be related to that?
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 616
+- **Word Count**: 646
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 76-year-old woman presenting with decreased mental status, decreased motor skills, and decreased communication following a recent history of subdural hematoma. She experienced worsening mental status and headache after initial management, requiring operative drainage of the hematoma. Her past medical history includes hypertension, and she has allergies to erythromycin and penicillin. On admission, she was afebrile, hypertensive (BP 168/70), with mild hypoxia (O2 sat 93%), slow responses, and right-sided weakness. Physical examination after drainage showed improvement: she was awake, alert, oriented, mobile, and had good extremity strength. The documented diagnosis was recurrent subdural hematoma with associated neurological deficits. Treatment included bedside drainage of the hematoma via frontal burr hole, followed by observation and rehabilitation. At discharge, she was stable and safe for home with medications including verapamil, hydrochlorothiazide, Lipitor, Percocet as needed, and Colace.
-
-## Dialogue Summary
-
-The patient presented with concerns about changes in thinking. They reported difficulty thinking clearly, communicating, and managing daily tasks such as cooking and conversing, as well as headaches and worsening right-sided weakness affecting walking and hand use. The patient noted these symptoms have gradually worsened over time, leading to increased need for assistance with daily activities, but denied trouble recognizing people or places and described only occasional mild confusion. No specific past medical history, medications, or allergies were mentioned. On review, the doctor noted gradually worsening cognitive and motor changes impacting independence. The assessment included possible causes such as changes in blood flow to the brain, medication effects, or other underlying health issues. The doctor recommended a full evaluation with physical exam and possible brain imaging or lab tests, and advised seeking urgent care if sudden severe symptoms occur. The patient understood and agreed to follow up as recommended.
-
-## STS Evaluation
-
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 59.7s
+- **Processing Time**: 90.5s

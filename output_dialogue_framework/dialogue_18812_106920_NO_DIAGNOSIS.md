@@ -16,86 +16,93 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.980
+- Score: 0.850
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.980
-- **Justification**: The dialogue is highly realistic for a primary-care setting evaluating a young adult with symptoms suggestive of pulmonary embolism and DVT. The doctor asks logical, stepwise questions about the nature, timing, and progression of symptoms, and the patient provides plausible, relevant answers. The doctor's explanation and recommendations are appropriate for the scenario and do not introduce unsupported or extraneous information. There are no obvious hallucinations or contradictions with the provided profile.
+- **Score**: 0.850
+- **Justification**: Combined score 0.85 (naturalness=1.00 ×0.4, profile_compliance=0.70 ×0.3, ragas_faithfulness=0.80 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS) | 0.700 |
+| RAGAS Faithfulness | 0.800 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and volunteers important associated symptoms. For further realism, the patient could mention any attempts at self-care or prior medical history if prompted.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates excellent clinical reasoning and communication. For completeness, the doctor could briefly ask about risk factors (recent travel, immobility, family history) or medication use (e.g., contraceptives), but this is not strictly necessary given the focus on acute symptoms.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with each question building on previous answers. The transition to education and safety advice is smooth. Consider a brief summary or confirmation of understanding at the end.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is clear and appropriate for the scenario. The doctor correctly emphasizes the need for prompt medical attention without making unsupported management decisions.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi, it's good to see you today. What brings you in—can you tell me what you've been feeling or any symptoms you've noticed recently?
+**Doctor**: Hi, it’s good to see you today. What brings you in—can you tell me what’s been bothering you lately?
 
-**Patient**: My chest hurts, and it's been kind of hard to breathe lately. That's mainly why I came in.
+**Patient**: My chest has been hurting, and it’s been kind of tough to breathe lately. That’s the main thing that’s got me worried right now.
 
-**Doctor**: Let me ask about your chest discomfort—how would you rate the pain on a scale from 1 to 10, with 10 being the worst?
+**Doctor**: Let me ask about the discomfort—on a scale from 1 to 10, how intense is the pain right now? And does it come and go, or is it constant?
 
-**Patient**: I think it's around a 6 out of 10. It's not the worst pain ever, but it definitely bothers me.
+**Patient**: I’d rate it around a 7 right now. The pain isn’t always there—it kind of comes and goes, but when it hits, it’s pretty strong.
 
-**Doctor**: Let me ask about the pain itself—does it feel sharp, dull, tight, or like pressure? And does it come and go, or is it constant?
+**Doctor**: Let me ask about the quality of the pain—does it feel sharp, pressure-like, burning, or something else? And do you notice it getting worse with activity, deep breaths, or when you’re at rest?
 
-**Patient**: It's more of a sharp pain, especially when I breathe in. It kind of comes and goes, not constant all the time.
+**Patient**: It feels pretty sharp, especially when I take a deep breath. I notice it gets worse if I try to sit up or breathe in deeply, but not so much when I’m resting.
 
-**Doctor**: Let me ask about your breathing—when you say it's been hard to breathe, do you feel short of breath all the time, or does it mainly happen during certain activities or at rest?
+**Doctor**: Got it. When did you first start noticing these symptoms—was it today, or has it been going on for a few days?
 
-**Patient**: It's mostly when I'm sitting up that I notice the shortness of breath. Sometimes it happens with activity too, but sitting up makes it worse.
+**Patient**: I’m not sure exactly, but I think it’s been going on for a few days now. I also noticed some pain and swelling in my left leg along with the chest stuff.
 
-**Doctor**: Got it. Have you noticed any other symptoms along with these, like feeling lightheaded, fainting, or having a cough?
+**Doctor**: Let me ask about the swelling in your leg—does it feel warm or look red compared to the other leg? And have you had any recent injuries or long periods where you weren’t moving much, like during travel or recovery?
 
-**Patient**: Yes, I've felt lightheaded, and I actually fainted once. I also have a cough, and my left leg has been hurting and looks kind of swollen.
+**Patient**: I haven’t noticed any redness or warmth compared to my other leg. I don’t remember any injuries or being stuck in one place for a long time recently.
 
-**Doctor**: Alright. Can you tell me more about when these symptoms began—did the chest pain, fainting, and leg discomfort all start around the same time, or did one come before the others?
+**Doctor**: Alright. Have you had any cough, fever, or recent illness along with these symptoms?
 
-**Patient**: The chest pain and shortness of breath started first, then I noticed my left leg hurting and swelling. The fainting happened after those started.
+**Patient**: I’ve had a cough and some upper respiratory infection symptoms lately. No fever that I’ve noticed. My chest pain feels worse when I breathe in or sit up, too.
 
-**Doctor**: Let me ask about your leg—did you injure it recently, or has anything seemed to trigger the pain and swelling?
+**Doctor**: Got it. Have you felt unusually short of breath, like it’s hard to catch your breath even when you’re not moving around much? Or have you had any episodes where you felt faint or actually passed out?
 
-**Patient**: No, I didn’t injure my leg or anything like that. The pain and swelling just kind of started on their own.
+**Patient**: Yeah, I’ve definitely felt short of breath even when I’m just sitting. I’ve also had moments where I got really lightheaded and actually passed out once.
 
-**Doctor**: Alright. Can you tell me about how long ago you first noticed your leg starting to swell and hurt? Has the swelling been getting worse, or has it stayed about the same since it started?
+**Doctor**: Let me ask about your breathing—does lying down make it harder or easier to breathe, or does it stay about the same?
 
-**Patient**: It started a few days ago. The swelling seems to be getting a bit worse, and the pain is sticking around.
+**Patient**: Sitting up actually makes it harder to breathe for me. When I lie down, it feels a bit easier, but the shortness of breath is still there.
 
-**Doctor**: Based on what we've discussed, your combination of chest discomfort, breathing difficulty, fainting, and new swelling in your leg is important for us to think through. Sometimes, when a leg becomes swollen and painful without injury, and is paired with chest symptoms and fainting, it can suggest a blood clot that may have traveled from the leg to the lungs. This could explain why sitting up worsens your breathing and why you've felt lightheaded.
+**Doctor**: Based on what we've discussed, your combination of sharp chest pain that worsens with deep breaths, shortness of breath, an episode of fainting, and pain with swelling in your left leg is concerning for a possible blood clot that may have moved from your leg to your lungs. This is known as a pulmonary embolism. The pain getting worse with breathing in, the leg symptoms, and the fainting episode all point toward this possibility.
 
-While these symptoms can sometimes be due to less serious causes, this pattern is something we take seriously. I recommend that you seek medical care promptly—especially since your symptoms are worsening and you've fainted. In the meantime, avoid strenuous activity and keep your leg elevated if possible.
+Pulmonary embolism happens when a clot forms in the veins of the legs (called deep vein thrombosis) and then travels to the lungs, blocking blood flow. This can cause sudden chest pain, trouble breathing, and sometimes fainting spells.
 
-If you notice severe shortness of breath, sudden chest pain, or any further fainting, please get emergency help right away. Would you like me to explain more about what might be happening or how blood clots can cause these symptoms?
+This is an important condition to catch early because it can be serious if untreated. While your symptoms could also be caused by other things like a lung infection or inflammation, the combination you described makes a blood clot more likely.
 
-**Patient**: Thanks for explaining that. I didn’t realize blood clots could cause all these symptoms together. Can you tell me more about how they end up in the lungs and why it makes me feel lightheaded or cough?
+Given this, I strongly recommend you go to the emergency department right away for further evaluation and testing. They may do imaging of your lungs and legs to look for clots and start treatment if needed. If you have any new symptoms like worsening shortness of breath, severe chest pain, or feel faint again, call emergency services immediately.
+
+Do you have any questions about what I’ve explained or about what to do next?
+
+**Patient**: Thanks for explaining all that. If it turns out I have a blood clot, what kind of treatment would I need, and will I have to stay in the hospital?
+
+**Doctor**: Let me walk you through what would likely happen if a blood clot is confirmed. In most cases, treatment involves medications called blood thinners, which help prevent the clot from getting larger and reduce the risk of new clots forming. These can be given by injection or as pills, depending on your situation.
+
+Often, people with a clot in the lungs are admitted to the hospital at least briefly for close monitoring and to start treatment safely. The length of stay depends on how stable you are and whether you have other risk factors. Once things are under control, you might be able to continue treatment at home.
+
+The most important thing is to get checked as soon as possible, since this can be serious if not treated quickly. If you notice any worsening symptoms—like increasing trouble breathing or chest pain—get emergency help right away.
+
+Do you have any concerns or questions about what to expect during the evaluation or treatment?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 610
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 881
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 19-year-old female presenting with emboli as the chief complaint. She experienced chest pain, shortness of breath, and two episodes of syncope, along with a recent history of left lower extremity pain and swelling two weeks prior. Her past medical history includes asthma diagnosed one month ago, and she is currently taking Diflucan, ibuprofen, azithromycin, heparin, and birth control; she has no known drug allergies. On admission, her heart rate was in the 140s with hypotension (BP 86/40), and subsequent evaluation revealed tachycardia (HR 120s) and systolic blood pressure in the 110-120s. Chest x-ray was negative, but CT angiogram confirmed a pulmonary embolism. The documented diagnosis was pulmonary embolism. Treatment included initiation of heparin and transfer for thrombolysis.
-
-## Dialogue Summary
-
-The patient presented with chest pain and difficulty breathing. The chest pain was described as sharp, rated 6 out of 10 in severity, and worsened with inspiration; it was intermittent rather than constant. The patient also reported shortness of breath, which was most noticeable when sitting up, occasional lightheadedness, one episode of fainting, a cough, and new onset left leg pain and swelling that began a few days ago and has been worsening. There was no history of leg injury or known triggers for the leg symptoms. On assessment, the doctor noted the combination of chest discomfort, breathing difficulty, fainting, and unilateral leg swelling and pain as concerning for a possible blood clot that may have traveled from the leg to the lungs (suggestive of pulmonary embolism). The doctor advised prompt medical evaluation due to the seriousness and progression of symptoms, recommended avoiding strenuous activity, and suggested elevating the affected leg. The patient was instructed to seek emergency care if severe shortness of breath, sudden chest pain, or further fainting occurred.
-
-## STS Evaluation
-
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 57.1s
+- **Processing Time**: 84.1s

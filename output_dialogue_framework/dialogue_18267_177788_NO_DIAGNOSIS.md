@@ -16,90 +16,97 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.980
+- Score: 0.928
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.980
-- **Justification**: The dialogue is highly plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about the chest pressure, associated symptoms, and relevant medical history. The patient responses are clear, relevant, and do not introduce unsupported information. The doctor's explanation and recommendations are medically sound for a patient with known coronary artery disease presenting with exertional chest pressure. There are no hallucinations or unsupported content.
+- **Score**: 0.928
+- **Justification**: Combined score 0.93 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.89 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.895 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, the patient could mention any current medications or clarify if they have had similar episodes in the past.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor is thorough and clear. For completeness, the doctor could briefly ask about current medications, allergies, or any recent changes in health or lifestyle. A direct question about nitroglycerin use (if prescribed) could be considered.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with appropriate follow-up questions and explanations. The conversation transitions smoothly from symptom exploration to assessment and advice.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety is well addressed with clear instructions for urgent symptoms and prompt evaluation. The doctor’s summary and recommendations are clear and actionable.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Good to see you today. What brings you in—can you tell me more about any symptoms or concerns you've been having lately?
+**Doctor**: Welcome, it's good to see you today. What brings you in, and how have you been feeling lately?
 
-**Patient**: I've been having this pressure in my chest that seems to be getting worse. It sometimes moves down my left arm, and it's been making me a bit concerned.
+**Patient**: I've been having only chest pressure that seems to be getting worse. It's right in the middle of my chest.
 
-**Doctor**: Let me ask about when this pressure tends to come on—does it happen with activity, at rest, or is there any particular trigger you've noticed?
+**Doctor**: Let me ask about what brings it on—does anything in particular seem to trigger this chest pressure, like physical activity, eating, or stress?
 
-**Patient**: I’ve noticed the chest pressure mostly comes on when I’m moving around, like walking or doing chores. Resting seems to help a bit, but I’m not sure if there’s any specific trigger beyond that.
+**Patient**: I can't say for sure what sets it off. Sometimes it just comes on, even if I'm not doing much.
 
-**Doctor**: Let me ask about any other symptoms—have you noticed things like shortness of breath, sweating, or feeling lightheaded when this pressure comes on?
+**Doctor**: Let me ask about any other symptoms—have you noticed things like sweating, nausea, or pain spreading to your arm or jaw when this pressure happens?
 
-**Patient**: No, I haven’t noticed any sweating or feeling lightheaded. The main thing is the chest pressure, and sometimes it sort of comes and goes—it’s almost like it stutters a bit.
+**Patient**: The pressure sometimes spreads down my left arm. I haven't noticed any sweating or nausea, though.
 
-**Doctor**: Got it. How long does each episode typically last when you feel this pressure, and does it ever wake you up at night?
+**Doctor**: Alright. How long does each episode of pressure usually last, and has the intensity been increasing over time?
 
-**Patient**: Each episode usually lasts a few minutes, maybe five or ten. It hasn’t woken me up at night—I only notice it during the day, especially when I’m active.
+**Patient**: Each episode lasts a few minutes, I think. The pressure does seem to be getting stronger over time.
 
-**Doctor**: Alright. How would you rate the intensity of this pressure on a scale from 1 to 10, with 10 being the most severe discomfort you can imagine?
+**Doctor**: Got it. When you experience this pressure, do you ever feel short of breath or lightheaded?
 
-**Patient**: I’d rate the pressure around a 6 out of 10. It’s uncomfortable, but not the worst pain I’ve ever felt.
+**Patient**: I haven't really felt short of breath or lightheaded with it. It's mainly just the chest pressure and the pain going down my left arm.
 
-**Doctor**: Let me ask about when you first started noticing these episodes—how long has this been going on?
+**Doctor**: Let me ask about timing—when did you first start noticing this pressure, and has anything changed in your routine or health around that time?
 
-**Patient**: I first started noticing these episodes a few days ago. It’s been happening more often lately, especially when I’m active.
+**Patient**: I noticed the pressure starting maybe a few days ago. I don't think anything in my routine or health has changed recently.
 
-**Doctor**: Let me ask about your medical history—do you have any history of heart problems, high blood pressure, diabetes, or high cholesterol?
+**Doctor**: Okay. How severe would you say the pressure is, on a scale from 1 to 10, with 10 being the most intense discomfort you can imagine?
 
-**Patient**: Yes, I do have a history of coronary artery disease and had a stent put in a while back. I also have diabetes and high cholesterol.
+**Patient**: I'd rate the pressure around a 7 out of 10. It's definitely uncomfortable and hard to ignore.
 
-**Doctor**: Got it. How much is this pressure interfering with your usual daily activities—are you finding it difficult to do things you normally could, or having to stop and rest more often?
+**Doctor**: Let me ask about your medical history—are you currently taking any medications, or have you had any heart or blood pressure issues in the past?
 
-**Patient**: Yes, I’ve had to slow down and take breaks more often than usual. The chest pressure makes it tough to keep up with my normal routine, especially when I’m active.
+**Patient**: I take quite a few medications—things like Lisinopril, Glucophage, Avandia, Lopressor, Lipitor, Aspirin, Plavix, Toprol XL, and a few others for my blood sugar and cholesterol. In the past, I did have a stent put in my heart.
 
-**Doctor**: Based on what we've discussed, your symptoms are concerning because they sound like they could be related to your heart, especially given your history of coronary artery disease, diabetes, and high cholesterol. Chest pressure that gets worse with activity and improves with rest, particularly when it radiates to the arm, is something we take seriously, as it can sometimes signal reduced blood flow to the heart muscle.
+**Doctor**: Based on what we've discussed, your history of heart stenting and the medications you're on suggest you have underlying heart disease. The fact that you're now having pressure in the center of your chest, which gets worse and sometimes spreads to your left arm—even at rest—is concerning for a possible heart-related cause, such as angina. Angina happens when the heart muscle doesn't get enough blood flow, often because of narrowed arteries.
 
-What often happens in these cases is that the heart may not be getting enough oxygen during exertion, leading to discomfort. Even though it's not severe pain and you haven't had other symptoms like sweating or lightheadedness, the pattern and your medical history make it important that we don't ignore this.
+The fact that your symptoms are getting more intense and frequent is important. This could mean your heart needs more attention, and it’s not something to ignore. While you’re not having shortness of breath or sweating, the pattern you describe does raise concern for what we call “unstable angina,” which can be a warning sign for a possible heart attack.
 
-My recommendation is that you seek prompt medical evaluation—ideally today—to rule out any significant heart issues. This may involve an EKG and possibly further testing to make sure your heart is getting enough blood flow. In the meantime, I advise you to avoid strenuous activity and rest as much as possible until you're seen by a healthcare provider.
+Given all this, I strongly recommend you seek urgent medical attention—ideally, go to the emergency room now. This isn’t something to wait on or manage at home. If you have nitroglycerin prescribed, you could take it as directed while on your way. 
 
-If you experience worsening symptoms, such as severe chest pain, shortness of breath, fainting, or if the discomfort lasts longer than usual or comes on at rest, call emergency services right away.
+If you develop new symptoms like severe chest pain, difficulty breathing, sweating, or feel faint, call emergency services right away. 
 
-Let me know if you have any questions or need help arranging follow-up care.
+Let me know if you have questions about what I’ve explained or about what to do next.
 
-**Patient**: Thank you for explaining all of that. I understand why you’re concerned, and I’ll make sure to get checked out today like you said. Is there anything specific I should mention to the doctor when I go in, or just tell them about the chest pressure and my history?
+**Patient**: Thank you for explaining that. If I go to the emergency room, what kind of tests or treatments should I expect when I get there?
+
+**Doctor**: From what you've told me, your symptoms—especially with your history of heart stenting and the medications you're taking—sound very much like they could be related to your heart. Chest pressure that’s getting worse, spreading to your arm, and happening even at rest is something we take very seriously because it can signal a decrease in blood flow to the heart muscle.
+
+When you go to the emergency room, you can expect several things: 
+- They’ll likely do an EKG right away to check your heart’s electrical activity.
+- Blood tests will be done to look for signs of heart muscle stress or damage (like troponin).
+- You’ll probably have your vital signs monitored closely, and they may give you oxygen, medications to relieve chest discomfort, or blood thinners to help prevent clotting.
+- Depending on what they find, you might have further heart imaging or possibly even a procedure if needed.
+
+The goal is to quickly determine if your heart is at risk and to prevent anything more serious, like a heart attack. The team will keep you safe and act fast if anything changes.
+
+Let me know if you want more details or have any concerns about what might happen next.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 701
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 812
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 61-year-old male presenting with several days of progressive substernal chest pressure radiating to his left arm. The chest pain worsened over five days but responded to Pepcid and was not associated with exertion, shortness of breath, lightheadedness, dizziness, palpitations, nausea, or vomiting. His past medical history includes coronary artery disease status post right coronary artery stent in 2121, type 2 diabetes mellitus on oral hypoglycemics, and hypercholesterolemia. On admission, blood pressure was 150/90 mmHg and heart rate was in the 60s; EKG showed ST elevations in V1–V4 and inferior reciprocal changes. Cardiac catheterization revealed a 100% ostial lesion of the left anterior descending artery. The documented diagnosis was acute coronary syndrome with anterior ST elevation myocardial infarction. Treatment included placement of two Taxus stents in the LAD, initiation of heparin, aspirin, Tirofiban, and Lopressor, and transfer to the Coronary Care Unit for further management.
-
-## Dialogue Summary
-
-The patient presented with chest pressure that has been worsening over the past few days. The pressure is rated as 6 out of 10 in intensity, lasts five to ten minutes per episode, occurs mainly with activity such as walking or chores, and improves with rest; it sometimes radiates down the left arm and can "stutter" or come and go. The patient denied associated symptoms such as sweating, lightheadedness, or shortness of breath, and reported no episodes at night. Relevant history includes coronary artery disease with prior stent placement, diabetes, and high cholesterol. The patient described increased difficulty performing daily activities due to the chest pressure. On assessment, the doctor noted that the symptom pattern and cardiac history are concerning for possible reduced blood flow to the heart muscle (ischemia). The doctor recommended prompt medical evaluation today, including an EKG and possible further testing, advised avoiding strenuous activity and resting until seen, and instructed the patient to seek emergency care if symptoms worsen or new symptoms develop.
-
-## STS Evaluation
-
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 60.3s
+- **Processing Time**: 85.5s

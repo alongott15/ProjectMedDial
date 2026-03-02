@@ -16,88 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.900
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, open-ended and focused questions about the chest pain and associated symptoms, and the patient provides relevant, believable responses. The doctor's reasoning is clear, and the recommendation to seek prompt evaluation is appropriate given the symptoms and history. No unsupported diagnoses, treatments, or tests are introduced, and the conversation remains grounded in the patient's reported symptoms and known history.
+- **Score**: 0.900
+- **Justification**: Combined score 0.90 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.80 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.800 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and volunteers additional symptoms appropriately. For even greater realism, the patient could mention any relevant past cardiac history or medications if prompted.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. For improvement, the doctor could briefly acknowledge the patient's cardiac history (e.g., prior stent or heart block) to further ground the conversation in the profile.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with a good balance of open and closed questions. The summary and safety netting at the end are well done.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is clear and appropriate for the scenario. The doctor avoids over-reassurance and gives clear instructions for escalation. No safety concerns noted.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brings you in—can you tell me what's been bothering you lately?
+**Doctor**: Hello, it’s good to see you today. What’s been bothering you or bringing you in?
 
-**Patient**: I've been having some chest pain lately, and it's got me a bit worried.
+**Patient**: My chest has been hurting, and that’s why I came in today.
 
-**Doctor**: Let me ask about when this discomfort began—was it something that started suddenly, or has it come on gradually over time?
+**Doctor**: Let me ask about the discomfort—does anything seem to make it better or worse, like movement, deep breaths, or certain activities?
 
-**Patient**: I'm not exactly sure, but I think it started kind of gradually over the past few days.
+**Patient**: I haven’t really noticed anything specific that makes it better or worse. It just sort of comes on, and I can’t tell what brings it out.
 
-**Doctor**: Let me ask about any other symptoms—have you noticed any nausea or unusual tiredness along with the discomfort?
+**Doctor**: Let me ask about the nature of the discomfort—would you describe it as sharp, dull, pressure-like, or something else?
 
-**Patient**: Yes, I've felt pretty nauseous, and I'm more tired than usual too.
+**Patient**: It feels more like a pressure in my chest, not really sharp. I’ve also been feeling a bit nauseous along with it.
 
-**Doctor**: Let me ask about your energy levels—has your tiredness made it difficult to do your usual daily activities, or is it more of a mild fatigue?
+**Doctor**: Got it. Where exactly do you feel the pressure—does it stay in the center of your chest, or does it move to your arm, neck, or anywhere else?
 
-**Patient**: My tiredness has made it a bit harder to get through my usual day. I just don't have the same energy lately.
+**Patient**: The pressure mostly stays in the center of my chest. I haven’t really noticed it moving to my arm or neck.
 
-**Doctor**: Got it. Does anything in particular seem to bring on the discomfort, like physical activity, eating, or stress? Or does it come on even when you're resting?
+**Doctor**: Alright. How long does each episode of this chest pressure tend to last, and about how many times has it happened?
 
-**Patient**: The discomfort seems to come on even when I'm resting. I haven't noticed any clear triggers like eating or activity.
+**Patient**: Each time it happens, the pressure lasts a few minutes, maybe longer, but I’m not exactly sure. It’s happened several times now.
 
-**Doctor**: Alright. Has the discomfort or your other symptoms been getting better, worse, or staying about the same since they began?
+**Doctor**: Let me ask about the nausea—does it come on at the same time as the chest pressure, or does it happen separately?
 
-**Patient**: The symptoms have been about the same, maybe a bit worse at times. I also had some discomfort in my upper stomach and felt like I might pass out once.
+**Patient**: The nausea usually comes on at the same time as the chest pressure. They seem to happen together.
 
-**Doctor**: Let me ask about your nausea—does it tend to come and go, or is it present most of the time? And have you noticed any vomiting?
+**Doctor**: I see. Have you noticed feeling especially tired or more fatigued than usual along with these episodes?
 
-**Patient**: The nausea comes and goes, it's not there all the time. I haven't had any vomiting.
+**Patient**: Yes, I have been feeling more tired than usual when these episodes happen. It really wipes me out.
 
-**Doctor**: Tell me more about the discomfort in your upper stomach—does it feel like a burning, pressure, or something else? And has this sensation lasted as long as your other symptoms?
+**Doctor**: Got it. How would you rate the severity of the pressure when it happens—would you call it mild, moderate, or severe?
 
-**Patient**: The discomfort in my upper stomach feels more like a pressure than burning. It's been going on about as long as the chest pain. I also remember sweating a lot and feeling like I was about to pass out during one episode.
+**Patient**: I would call the pressure moderate to severe when it happens. It’s definitely strong enough that it worries me.
 
-**Doctor**: Based on what we've discussed, your symptoms—gradual onset of chest and upper stomach pressure, episodes of sweating, nausea, fatigue, and a near-fainting spell—raise some concern. Sometimes, issues with the heart can present with these kinds of symptoms, especially in older adults, and not always with classic sharp pain. Even though your symptoms haven’t been severe or sudden, the combination and persistence make it important to rule out anything serious.
+**Doctor**: Based on what we've discussed, I'm concerned that the combination of chest pressure, nausea, and fatigue—especially when the discomfort is moderate to severe and comes on without a clear trigger—could be related to your heart. While chest symptoms can sometimes have benign causes, the pattern you're describing raises concern for a possible cardiac issue, such as angina (which happens when the heart isn't getting enough oxygen-rich blood).
 
-What often happens is that problems like reduced blood flow to the heart can cause pressure or discomfort in the chest and upper stomach, sometimes with nausea, sweating, or feeling faint. Other causes could include digestive issues, but we don't want to miss a heart-related problem.
+The fact that these episodes are recurring and come with other symptoms like tiredness and nausea makes it important to take this seriously. While some chest pain can be caused by things like acid reflux or muscle strain, those usually have clearer triggers or different characteristics.
 
-Given what you’ve told me, I recommend you seek medical attention soon—ideally today—to get checked out further. This might include an ECG and some blood tests to be safe. If your symptoms become suddenly worse—like severe chest pain, trouble breathing, or passing out—call emergency services right away.
+My recommendation is that you need further evaluation as soon as possible. This should include an electrocardiogram (ECG) and possibly some blood tests to check your heart. If you're currently having symptoms or if they come back and are severe, it's safest to call emergency services right away.
 
-In the meantime, try to rest and avoid any strenuous activity until you’ve been evaluated. Does that make sense to you?
+In the meantime, try to avoid strenuous activity, take it easy, and keep track of when these episodes happen. If you develop new symptoms—such as shortness of breath, sweating, pain spreading to your arm or jaw, or feeling faint—seek emergency care immediately.
 
-**Patient**: That makes sense, thank you for explaining it so clearly. I’ll make sure to get checked out today. I have noticed my blood pressure and heart rate have been a bit low at times—should I mention that when I go in?
+To sum up: your symptoms could be related to your heart, and prompt assessment is important to rule out anything serious. Let's arrange for you to be seen for further evaluation right away.
+
+**Patient**: Thank you for explaining that. What should I expect during the evaluation—will the tests tell you right away if something is wrong with my heart?
+
+**Doctor**: Let me share my thoughts on what to expect. When you come in for evaluation, the first thing we'll usually do is an electrocardiogram (ECG), which can quickly show if your heart is under stress or if there are any signs of damage. This test gives us results right away. You may also have blood tests to check for markers that indicate if your heart muscle has been affected—these results can take a little longer, but some are available within an hour or two.
+
+Depending on what these initial tests show, we might recommend additional monitoring or imaging, like a chest X-ray or a stress test. The goal is to quickly rule out any serious heart problems and decide on the best next steps.
+
+Since your symptoms are significant, it's important to get checked promptly so we can make sure your heart is okay and address any issues early. If you have another episode before being seen, especially if it’s severe or comes with new symptoms like trouble breathing or sweating, please seek emergency care right away.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 608
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 784
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 75-year-old male presenting with chest pain. He experienced nausea, fatigue, epigastric discomfort, and substernal chest pain lasting 15–30 minutes, followed by a near syncopal episode and diaphoresis; symptoms began three hours after a large meal. His past medical history includes GERD, and he has no known drug allergies. On EMS arrival, he was found to be hypotensive (SBP in the 50s), bradycardic (HR 20–30) in complete heart block, and EKG showed ST elevations in II, III, AvF with anterolateral depressions; his heart rate improved and EKG normalized after ASA, atropine, and fluids. In the emergency department, he was hemodynamically stable and started on clopidogrel and heparin. Cardiac catheterization revealed a 60% lesion in the right coronary artery, which was treated with Cypher stent placement. The documented diagnosis was ST-elevation myocardial infarction (STEMI) with complete heart block. Treatment included dual antiplatelet therapy, heparin infusion, and percutaneous coronary intervention with stent placement.
-
-## Dialogue Summary
-
-The patient presented with chest pain that began gradually over the past few days. Symptoms included intermittent nausea, increased fatigue impacting daily activities, chest and upper stomach pressure (not burning), episodes of sweating, and a near-fainting spell; the discomfort occurred even at rest without clear triggers and has been persistent, sometimes worsening. The patient denied vomiting but reported that nausea comes and goes, and also noted low blood pressure and heart rate at times. No specific past medical history, medications, or allergies were mentioned. The doctor noted the combination of gradual chest and upper stomach pressure, nausea, fatigue, sweating, and near-syncope as concerning for possible cardiac causes, though digestive issues were also considered. The assessment emphasized the need to rule out serious conditions such as reduced blood flow to the heart. The doctor recommended the patient seek medical attention the same day for further evaluation, including an ECG and blood tests, and advised calling emergency services if symptoms worsen (severe chest pain, trouble breathing, or loss of consciousness). The patient was also advised to rest and avoid strenuous activity until evaluated.
-
-## STS Evaluation
-
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 59.6s
+- **Processing Time**: 73.3s

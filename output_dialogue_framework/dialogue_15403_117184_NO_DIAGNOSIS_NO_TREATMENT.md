@@ -16,88 +16,89 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.957
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about the headache, associated symptoms, and impact on daily life. The patient responses are coherent and match the profile (left-sided headache, facial/tooth pain, double vision). The doctor's reasoning is logical—considering sinus issues but appropriately highlighting that double vision is atypical and warrants attention if it worsens. No unsupported diagnoses or treatments are introduced, and the advice to seek further care if symptoms worsen is appropriate for a light case.
+- **Score**: 0.957
+- **Justification**: Combined score 0.96 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.86 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.857 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. Could provide more detail about the double vision (e.g., horizontal vs. vertical, duration), but overall realistic.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: Doctor's assessment is thorough and cautious. Could briefly mention that some causes of double vision can be serious, reinforcing the importance of follow-up, but avoids unnecessary alarm. Consider asking about other neurological symptoms (e.g., eyelid droop, weakness) for completeness.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: Dialogue flows logically with good back-and-forth. The summary and plan are clear and patient-centered.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety netting is present (advising to seek care if symptoms worsen). The explanation is clear and avoids unsupported content. No major safety concerns.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi, it's nice to meet you. What brings you in today, and how have you been feeling lately?
+**Doctor**: Hi, it’s good to see you today. What’s been bothering you lately?
 
-**Patient**: I've been having this headache on the left side for the past couple weeks, and it's getting pretty annoying. That's mainly why I'm here.
+**Patient**: I’ve been having this headache on the left side of my head for about two weeks now. It’s been pretty uncomfortable and I just want to figure out what’s going on.
 
-**Doctor**: Let me ask about the location—does the headache stay in one spot on the left side, or does it move around at all?
+**Doctor**: Let me ask about the quality of the pain—would you describe it as throbbing, sharp, dull, or something else?
 
-**Patient**: It pretty much stays on the left side; it doesn’t really move around much.
+**Patient**: It feels more like a dull ache most of the time, but sometimes it gets sharper. I also get some pain in my face and teeth on the same side.
 
-**Doctor**: Let me ask about triggers—have you noticed anything that seems to make the headache worse, like certain activities, foods, or changes in your environment?
+**Doctor**: Let me ask about associated symptoms—have you noticed any nasal congestion, runny nose, or recent cold symptoms along with this pain?
 
-**Patient**: I haven’t really noticed anything specific that makes it worse. It just kind of sticks around no matter what I’m doing.
+**Patient**: I haven’t had any congestion or cold symptoms. The main thing has been the headache and some double vision on the left side.
 
-**Doctor**: Got it. Have you had any other symptoms along with the headache, such as sensitivity to light or sound, nausea, or changes in vision?
+**Doctor**: Alright. Have you ever experienced double vision or headaches like this before, or is this the first time it’s happened?
 
-**Patient**: I've also had some pain in my left cheek and teeth along with the headache. I haven't noticed any nausea or sensitivity to light or sound. I do get some double vision, though.
+**Patient**: This is the first time I’ve had anything like this. I’ve never had double vision or headaches like this before.
 
-**Doctor**: Alright. How would you rate the pain in your cheek and teeth—does it come and go, or is it constant? And does anything help relieve it, like taking pain medication or resting?
+**Doctor**: Got it. When you notice the double vision, does it happen constantly or only at certain times—like when you look in a particular direction or after you’ve been reading or working for a while?
 
-**Patient**: The pain in my cheek and teeth is mostly constant, not really coming and going. Taking over-the-counter pain meds helps a little, but it doesn’t totally go away.
+**Patient**: The double vision isn’t there all the time. I notice it more when I look to the left, and sometimes after I’ve been focusing on things for a while.
 
-**Doctor**: Got it. Since you mentioned double vision, can you tell me if it's constant or only happens during the headache episodes? And does it affect one eye or both?
+**Doctor**: Let me ask about severity—on a scale from 1 to 10, how intense is the discomfort at its worst? And does anything seem to trigger or relieve it, like certain activities, rest, or medication?
 
-**Patient**: The double vision isn’t there all the time—it mostly happens when the headache is acting up. It affects both eyes, not just one.
+**Patient**: At its worst, I'd rate the pain around a 7 out of 10. Nothing really seems to make it go away completely, but resting sometimes helps a bit. I haven’t tried any medication yet.
 
-**Doctor**: Alright. Have you had headaches or facial discomfort like this in the past, or is this the first time you've experienced these symptoms?
+**Doctor**: Got it. One more thing—have you noticed any weakness, numbness, or tingling in your face or elsewhere, or any changes in speech or balance?
 
-**Patient**: This is the first time I’ve had anything like this. I haven’t had headaches or facial pain like this before.
+**Patient**: I haven’t noticed any weakness, numbness, or tingling, and my speech and balance seem normal. The main issues are the headache, the facial and tooth pain, and the double vision.
 
-**Doctor**: Okay. Has this been affecting your ability to work or do your usual daily activities, or are you able to function normally despite the discomfort?
+**Doctor**: Let me ask about the location—can you point to exactly where on your head and face the pain is most noticeable? For example, is it around your temple, forehead, jaw, or closer to your eye?
 
-**Patient**: I can still do most things, but it’s definitely distracting and makes it harder to focus at work. It hasn’t stopped me completely, but it’s pretty uncomfortable.
+**Patient**: The pain is mostly around my left temple and sometimes spreads toward my cheek and teeth. It also gets closer to my eye on that side.
 
-**Doctor**: Based on what we've discussed, your symptoms—pain in the left cheek and teeth along with episodes of double vision when the headache is active—could be related to sinus pressure or inflammation, especially since facial pain and tooth discomfort often occur with sinus issues. However, double vision isn't typical for simple sinus problems and can sometimes point to other causes, like issues affecting nerves around the eye.
+**Doctor**: Based on what we've discussed, it sounds like you’re experiencing a persistent headache on one side, along with some visual changes and discomfort in nearby areas. The fact that you have double vision—especially when looking in a particular direction—and pain that involves your temple, cheek, and teeth, suggests this could be related to a nerve or possibly sinus involvement, but the absence of congestion makes sinus issues less likely.
 
-Most headaches and facial pain are due to common causes like tension, migraines, or sinus congestion. But since you're experiencing double vision, even if it's only during headache episodes, it's important to keep an eye on this symptom. If you notice the double vision getting worse, persistent changes in vision, weakness, or numbness in your face, I'd recommend seeking medical attention promptly.
+Double vision that’s new and associated with pain is something we take seriously, as it can sometimes be related to irritation or inflammation of nerves around the eye, or other causes that need further evaluation.
 
-For now, you might find relief by continuing with over-the-counter pain medications and trying supportive measures like using a humidifier or saline nasal sprays if you suspect sinus congestion. Staying hydrated can also help. If these symptoms persist or get worse, a medical evaluation is important to rule out less common causes.
+My recommendation is that you see a healthcare provider in person soon for a focused neurological and eye examination. In the meantime, you can try over-the-counter pain relievers like acetaminophen or ibuprofen if you’re not allergic and have no contraindications, and rest as needed. However, if you develop any new symptoms such as drooping of the eyelid, weakness, numbness, trouble speaking, or worsening vision changes, seek medical attention promptly.
 
-Let me know if you have any questions about what we've discussed or if you'd like more advice on managing these symptoms at home.
+To summarize: your symptoms are not typical for a simple tension headache or migraine, mainly due to the new double vision. An in-person evaluation is important to rule out more serious causes and guide treatment.
 
-**Patient**: Thanks for explaining all that. I’ll try the humidifier and see if it helps. If the double vision gets worse or anything new pops up, I’ll definitely get checked out.
+**Patient**: Thanks for explaining all that. What kind of tests would they do at the appointment to figure out what’s going on?
+
+**Doctor**: Let me share my thoughts. With the combination of your symptoms—especially the visual changes and location of discomfort—the next step is usually a careful physical exam focusing on your eyes and nerves in your face. A healthcare provider would likely check your eye movements, how your pupils respond to light, and the sensation in different parts of your face. Depending on those findings, they might recommend imaging tests like a CT scan or MRI to get a better look at the structures in your head and rule out any underlying causes.
+
+The main reason for these tests is to make sure there isn’t anything pressing on a nerve or affecting the area around your eye. Most of the time, these symptoms are due to something benign, but it’s important to be thorough when double vision is present.
+
+In the meantime, rest and simple pain relievers can help with comfort, but please get checked soon—especially if you notice any new or worsening issues.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 646
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 837
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 27-year-old female presenting with a chief complaint of left-sided headache for two weeks. Symptoms included left facial and tooth pain as well as some double vision. She had no significant past medical history and no drug allergies. On examination, she exhibited a left sixth nerve palsy, with otherwise normal cranial nerve and muscle strength findings. Imaging revealed a large (4 cm) fusiform aneurysm in the sella region of the left internal carotid artery. The documented diagnosis was left internal carotid artery aneurysm. Treatment included GDC coil embolization and permanent balloon occlusion of the left internal carotid artery, which she tolerated well. She was discharged home in stable condition with instructions for outpatient follow-up.
-
-## Dialogue Summary
-
-The patient presented with a left-sided headache persisting for the past couple of weeks. Symptoms included constant pain in the left cheek and teeth, which is partially relieved by over-the-counter pain medications, and episodes of double vision affecting both eyes that occur mainly during headache episodes. The patient denied nausea, sensitivity to light or sound, and reported no prior history of similar headaches or facial pain. The discomfort is distracting and impacts concentration at work but does not prevent daily activities. On assessment, the doctor noted that while the symptoms could be related to sinus pressure or inflammation, the presence of double vision is atypical for simple sinus issues and may indicate other causes involving nerves around the eye. The doctor recommended continuing over-the-counter pain medications, trying supportive measures such as a humidifier or saline nasal sprays, and staying hydrated. The patient was advised to seek prompt medical attention if double vision worsens, becomes persistent, or if new symptoms such as weakness or numbness develop.
-
-## STS Evaluation
-
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 59.6s
+- **Processing Time**: 84.4s

@@ -16,88 +16,93 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.960
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided profile of a patient with a history of coronary artery disease and acute myocardial ischemia presenting with chest discomfort. The doctor's questions are thorough and appropriate, focusing on symptom characterization, associated symptoms, and relevant history. The recommendation for prompt evaluation is cautious but justified given the patient's risk factors. There are no unsupported diagnoses, treatments, or major contradictions. The conversation is clear, respectful, and maintains appropriate roles.
+- **Score**: 0.960
+- **Justification**: Combined score 0.96 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=1.00 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 1.000 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient's responses are clear and provide relevant details. For even greater realism, the patient could mention any current medications or clarify if they have taken nitroglycerin or other home interventions.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor is thorough and appropriately cautious. For completeness, the doctor could briefly ask about current medications, allergies, or any recent changes in medication adherence, as these are relevant in cardiac cases.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with good transitions between topics. The closing question about where to seek care is appropriate. Consider summarizing key points before closing to reinforce understanding.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety is well addressed by advising prompt evaluation and warning signs. The doctor could clarify that emergency department evaluation is preferred over urgent care for chest pain in a high-risk patient.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi, it's good to see you today. What brings you in, and how have you been feeling lately?
+**Doctor**: Hello, it’s nice to see you today. What brings you in, and how have you been feeling lately?
 
-**Patient**: I've been feeling some chest discomfort lately, and that's what brought me in today. It's been a bit concerning, given my history.
+**Patient**: I've been feeling pretty concerned lately because I've had some chest pain and discomfort. That's really what brought me in today.
 
-**Doctor**: Let me ask about the discomfort—does anything in particular seem to bring it on, like physical activity, stress, or eating?
+**Doctor**: Let me ask about the discomfort you're experiencing—when did you first notice it, and how often does it happen?
 
-**Patient**: I haven't noticed a clear pattern, but sometimes it feels worse when I'm more active. I can't say for sure if eating or stress makes it any different.
+**Patient**: I first noticed the chest discomfort a couple of days ago. It’s been happening off and on since then, not really following any set pattern.
 
-**Doctor**: Got it. Can you tell me when this discomfort first began and how long each episode usually lasts?
+**Doctor**: Let me ask about the sensation itself—would you describe it as sharp, pressure-like, burning, or something else? And does it ever spread to your arm, neck, or back?
 
-**Patient**: It started a few days ago, but I’m not exactly sure of the exact day. Each episode lasts maybe a few minutes before it eases up.
+**Patient**: It's more of a pressure-like feeling in my chest. I haven't really noticed it spreading to my arm, neck, or back.
 
-**Doctor**: Let me ask about other symptoms—have you noticed any shortness of breath, sweating, or lightheadedness when these episodes happen?
+**Doctor**: Alright. Have you noticed if anything in particular brings on this pressure, like physical activity, stress, or eating? Or does it seem to happen randomly?
 
-**Patient**: I have noticed some shortness of breath when the discomfort happens. I haven't had any sweating or felt lightheaded during those times.
+**Patient**: I haven't noticed a clear trigger. Sometimes it happens when I'm just sitting, and other times it comes on after moving around a bit. It feels pretty random to me.
 
-**Doctor**: Alright. How would you describe the discomfort—does it feel sharp, pressure-like, burning, or something else? And on a scale from 1 to 10, how intense does it get at its worst?
+**Doctor**: Got it. How much would you say this pressure is affecting your ability to go about your usual daily activities?
 
-**Patient**: It feels more like a pressure in my chest than anything sharp or burning. At its worst, I’d rate it around a 6 out of 10.
+**Patient**: It’s definitely making things harder. I’ve had to slow down and take breaks more often, and some days I don’t feel comfortable doing much at all.
 
-**Doctor**: Let me ask about any recent changes—has the pressure in your chest been getting better, worse, or staying about the same since it started?
+**Doctor**: Let me ask about other symptoms—have you had any shortness of breath, sweating, nausea, or feeling lightheaded when this pressure happens?
 
-**Patient**: It’s been pretty much the same since it started. I haven’t noticed it getting better or worse over the past few days.
+**Patient**: I haven't had any shortness of breath, sweating, nausea, or felt lightheaded when the pressure happens. It's really just the chest discomfort.
 
-**Doctor**: Got it. Have you ever felt anything similar to this before, or is this a completely new experience for you?
+**Doctor**: I see. How long does the pressure usually last when it comes on—are we talking seconds, minutes, or longer?
 
-**Patient**: I’ve felt something similar before, especially around the time of my previous heart issues. This episode does remind me a bit of those experiences.
+**Patient**: Usually, the pressure lasts for a few minutes each time. It's not just a quick sensation—it sticks around for a bit before easing up.
 
-**Doctor**: Let me ask about your previous heart issues—were you ever diagnosed with a specific condition, or did you have any procedures or treatments related to your heart in the past? This helps me understand your risk and guide next steps appropriately.
+**Doctor**: Okay. Since this has been going on for a few days, would you say the discomfort is staying about the same, getting worse, or starting to improve?
 
-**Patient**: Yes, I was diagnosed with coronary artery disease and had a stent placed after a previous myocardial infarction. I appreciate you looking into my risk factors.
+**Patient**: The discomfort has pretty much stayed the same. It hasn’t really gotten worse or better over these past few days.
 
-**Doctor**: Based on what we've discussed, your history of coronary artery disease and stent placement makes any new chest pressure particularly important to evaluate thoroughly. Even though your discomfort hasn’t worsened and you haven’t had severe symptoms like lightheadedness or sweating, the similarity to your previous experiences and the presence of shortness of breath raise my concern for possible heart-related causes.
+**Doctor**: Based on what we've discussed, it sounds like you’re experiencing a pressure-like chest discomfort that’s been coming and going for several days, without clear triggers, and it hasn’t changed much over time. You haven’t noticed other symptoms like shortness of breath, nausea, or sweating, which is somewhat reassuring.
 
-What often happens in cases like yours is that even mild or moderate symptoms can sometimes signal that the heart isn’t getting enough oxygen, especially with a known history. It’s always better to be cautious in these situations. I recommend you seek prompt evaluation—ideally today—to rule out any ongoing heart issues. This usually means an EKG and possibly some blood tests at a clinic or emergency department.
+In cases like this, the most serious concern we want to rule out is heart-related issues, but the fact that your symptoms haven’t gotten worse, don’t come with those concerning signs, and aren’t clearly linked to exertion makes something dangerous less likely. Sometimes, chest discomfort can be caused by things like muscle strain, anxiety, acid reflux, or even inflammation of the chest wall.
 
-In the meantime, if you notice the discomfort getting worse, lasting longer, or if you develop new symptoms like severe shortness of breath, fainting, or pain radiating to your arm or jaw, seek emergency care right away.
+However, because chest discomfort can have many causes, I’d still recommend monitoring for any new or worsening symptoms—especially if you develop severe pain, difficulty breathing, fainting, or pain spreading to your arm or jaw. If that happens, seek care right away.
 
-Would you like guidance on where to go for immediate evaluation, or do you have any questions about what to expect?
+For now, try to note if anything seems to bring on the discomfort or make it better. Gentle activity is okay if you feel up to it, but listen to your body and rest as needed. If things stay the same or improve, that’s a good sign. If you notice any changes or feel unsure, let me know so we can look into it further.
 
-**Patient**: Thanks for explaining all that. I understand why it’s important to get checked out today. Could you let me know if I should go straight to the emergency department, or is an urgent care clinic okay for this?
+Does that make sense? Is there anything else you’re concerned about or want to ask?
+
+**Patient**: Thanks for explaining all that. Since I’m already taking medications like aspirin and atenolol, do I need to make any changes to those, or keep everything the same for now?
+
+**Doctor**: Let me share my thoughts after hearing everything you’ve described. Since the chest pressure has been steady without getting worse, and you haven’t had symptoms like shortness of breath or fainting, the risk of something urgent like a heart attack seems low right now. Your medications—aspirin and atenolol—are often used to protect the heart or manage blood pressure, so staying on them as prescribed is important unless you’re told otherwise.
+
+At this point, I don’t recommend making any changes to your medications on your own. Keep taking them as usual. If your symptoms change—especially if you develop severe pain, trouble breathing, or discomfort that spreads—seek care right away.
+
+What I’d suggest is to continue monitoring how you feel, avoid any activities that seem to bring on the discomfort, and keep a note of when symptoms happen. If things stay the same or start to improve, that’s reassuring. If anything worsens or you feel unsure, let’s review things again promptly.
+
+Do you have any questions about what we discussed or about your medications?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 634
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 824
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 35-year-old female presenting with acute myocardial ischemia requiring cardiac catheterization. She reported a history of previous myocardial infarction, coronary artery disease, and prior stent placement to the right coronary artery. On admission, her medications included aspirin, atenolol, Lipitor, calcitrel, and magnesium and calcium supplements; she has no known drug allergies. Cardiac catheterization revealed significant two-vessel obstruction, left main disease with a 60% osteal lesion, 60% mid-vessel stenosis of the left anterior descending artery, and 90% mid-vessel stenosis of the right coronary artery stent, with an ejection fraction of approximately 60%. The documented diagnosis was multivessel coronary artery disease with acute myocardial ischemia. She underwent a three-vessel coronary artery bypass graft (CABG) without complications. Postoperatively, she was transferred to the Cardiothoracic Intensive Care Unit, maintained on intravenous drips, and was successfully extubated.
-
-## Dialogue Summary
-
-The patient presented with chest discomfort as the chief complaint. The discomfort began a few days ago, occurs in episodes lasting a few minutes, and is described as a pressure sensation rated 6 out of 10 in intensity; it sometimes worsens with activity but has not changed in severity since onset. The patient also reported shortness of breath during episodes but denied sweating or lightheadedness. Relevant history includes coronary artery disease, prior myocardial infarction, and stent placement; no medication or allergy information was provided. No new physical findings were described during the visit. The doctor assessed that, given the patient’s cardiac history and current symptoms, there is concern for possible heart-related causes such as insufficient oxygen to the heart. The doctor recommended prompt evaluation today, including an EKG and blood tests at a clinic or emergency department, and advised seeking emergency care if symptoms worsen or new symptoms develop. The patient expressed understanding and asked for guidance on where to seek immediate evaluation.
-
-## STS Evaluation
-
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 59.8s
+- **Processing Time**: 84.4s

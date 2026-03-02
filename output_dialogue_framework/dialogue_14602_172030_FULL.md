@@ -16,88 +16,86 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.937
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about the patient's symptoms (nausea, vomiting, abdominal pain, hematemesis), and the patient provides plausible, relevant answers. The doctor's reasoning and recommendations are appropriate for a light case with upper GI bleed symptoms, emphasizing the need for prompt evaluation without introducing unsupported severe interventions. There are no hallucinations or unsupported content.
+- **Score**: 0.937
+- **Justification**: Combined score 0.94 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.79 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.789 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, the patient could mention any associated symptoms (e.g., dizziness, weakness) or clarify if they have any chronic conditions like diabetes, but this is not required.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor does well to explain the reasoning and next steps. For completeness, the doctor could briefly ask about medication use (e.g., NSAIDs, blood thinners) or history of ulcers, but this is not essential for a light case.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with good transitions between topics. The conversation could be slightly more interactive if the doctor checked for understanding or asked about the patient's concerns or preferences.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: The safety advice is clear and appropriate. The doctor avoids over-reassurance and gives clear instructions on when to seek urgent care. No safety concerns.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. How have you been feeling lately, and what brings you in?
+**Doctor**: Great to see you today. How have you been feeling lately, and is there anything specific you’d like to discuss or check in about?
 
-**Patient**: I've been feeling pretty uncomfortable lately. The main thing that's bothering me is some nausea that just won't go away.
+**Patient**: Lately, I’ve been feeling pretty uncomfortable with stomach pain and some nausea. That’s what’s been bothering me most, and I wanted to talk about it today.
 
-**Doctor**: Let me ask about when this nausea started—has it been going on for a few days, or longer?
+**Doctor**: Let me ask about the discomfort—when did you first notice these symptoms starting?
 
-**Patient**: I'm not exactly sure, but I think it's been a few days now. It just kind of crept up on me.
+**Patient**: I can’t remember the exact day, but the stomach pain and nausea started a few days ago. It’s been pretty persistent since then.
 
-**Doctor**: Let me ask about any other symptoms—have you had any vomiting or discomfort in your stomach along with the nausea?
+**Doctor**: Let me ask about how this is impacting you—are you able to go about your usual daily activities, or is it interfering quite a bit?
 
-**Patient**: Yes, I've had some vomiting along with the nausea. My stomach's been hurting too, kind of an achy pain.
+**Patient**: It’s been pretty tough to do my normal routines. The pain and nausea have made it hard for me to get through the day like I usually would.
 
-**Doctor**: Let me ask about the stomach pain—where exactly do you feel it, and does it come and go or is it constant?
+**Doctor**: Got it. Have you had any vomiting, or have you been able to keep food and fluids down?
 
-**Patient**: The pain is mostly in the upper part of my stomach. It sticks around most of the time, doesn't really come and go.
+**Patient**: I’ve had some vomiting, and it’s been hard to keep food down. It’s definitely interfering with eating and drinking normally.
 
-**Doctor**: Alright. Have you noticed any blood in your vomit or when you go to the bathroom? Sometimes that's important to know with upper stomach discomfort.
+**Doctor**: Let me ask about the pain itself—can you describe where in your abdomen you feel it, and how severe it gets at its worst?
 
-**Patient**: Yes, I have noticed some blood in my vomit. I haven't seen any blood when I go to the bathroom, though.
+**Patient**: The pain is mostly in the upper part of my abdomen. When it’s at its worst, it feels pretty intense—enough that I have to stop what I’m doing. The nausea and vomiting seem to make it worse.
 
-**Doctor**: Got it. Since you mentioned seeing blood, can you tell me roughly how much there was—just a small streak, or did it look like a larger amount? This helps me understand how serious it might be.
+**Doctor**: Okay. Have you noticed any blood in your vomit or when you go to the bathroom? This helps me understand if there’s any sign of irritation or bleeding in your digestive tract.
 
-**Patient**: It was more than just a streak—there was a noticeable amount of blood in the vomit.
+**Patient**: Yes, I’ve had blood in my vomit—there was an episode of hematemesis. I haven’t noticed any blood when using the bathroom, just in the vomit.
 
-**Doctor**: Okay. Can you describe what the pain in your upper stomach feels like—is it more of a dull ache, sharp stabbing, burning, or something else?
+**Doctor**: Does anything seem to trigger or relieve your abdominal pain—like eating, certain foods, or resting? This can help me figure out what might be contributing.
 
-**Patient**: It's more of a dull ache, not really sharp or burning. It just kind of sits there and makes me feel uncomfortable.
+**Patient**: Resting sometimes eases the pain a bit, but eating doesn’t seem to make much difference. I haven’t noticed any specific foods triggering it. The discomfort just tends to stay pretty constant.
 
-**Doctor**: Got it. Does anything you eat or drink seem to trigger the discomfort or make it worse, or is it about the same no matter what?
+**Doctor**: Let me ask about other symptoms—have you noticed any fever, chills, yellowing of your skin or eyes, or dark urine? This helps me consider if there might be any involvement of your liver or signs of infection.
 
-**Patient**: Eating or drinking seems to make it worse, especially if I try anything heavier. Even water sometimes doesn't sit well.
+**Patient**: I haven’t noticed any fever, chills, yellowing of my skin or eyes, or dark urine. The main thing has been the nausea, vomiting, abdominal pain, and the blood in my vomit.
 
-**Doctor**: Based on what we've discussed, your symptoms of persistent upper stomach discomfort, nausea, and especially vomiting with a noticeable amount of blood are important to address. When someone has blood in their vomit, it can sometimes be a sign of irritation or bleeding in the stomach or upper digestive tract—often from something like a stomach ulcer or gastritis, though there are other possible causes as well.
+**Doctor**: Based on what we've discussed, your symptoms—especially the episode of blood in your vomit—are important to address carefully. When blood appears with these kinds of digestive issues, it can sometimes point to irritation or a possible ulcer in the upper digestive tract, or rarely, another source of bleeding. The fact that you’re having trouble keeping food and fluids down also raises concern for dehydration and ongoing irritation.
 
-Because eating and even drinking water seem to make things worse, and given the presence of blood, it's best not to ignore these symptoms. While some causes can be mild, blood in vomit always deserves prompt medical attention to rule out anything more serious and to prevent complications like dehydration or further bleeding.
+What often happens in cases like this is that stomach lining can become inflamed or develop small sores, sometimes related to medications, stress, or underlying conditions. Persistent vomiting can make this worse. While you haven’t noticed any signs like yellowing of the skin or dark urine, which is reassuring, the presence of blood means we need to be cautious.
 
-My recommendation is to seek evaluation in a medical setting soon—ideally today. They may want to check your vital signs and possibly do some blood work or imaging to better understand what's going on. In the meantime, try to avoid eating or drinking anything that worsens your symptoms, and if you feel weak, dizzy, or notice more blood, seek care immediately.
+My main recommendations are:
+- Try to take small sips of clear fluids to avoid dehydration, but don’t force yourself if vomiting continues.
+- Avoid any medications that could irritate your stomach (like NSAIDs) unless they were specifically prescribed for you.
+- Watch for warning signs: more frequent or large amounts of blood, black or tarry stools, severe dizziness, or fainting—if any of these happen, seek medical attention promptly.
 
-Let me know if you have any questions or if there's anything else you've noticed that you think I should know.
+Given these symptoms, it’s important to have a medical evaluation soon to determine the exact cause and make sure you’re safe. Do you have any questions about what I’ve explained or anything else you’d like to clarify?
 
-**Patient**: Thanks for explaining all that. I understand why you want me to get checked out soon. I’ll make sure to go in today.
+**Patient**: Thanks for explaining everything so clearly. I understand the recommendations, and I’ll keep an eye out for those warning signs you mentioned. I was admitted recently for evaluation because of the blood in my vomit, and they found a nonbleeding tear at the gastroesophageal junction. Is there anything more I should be doing while I’m recovering?
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 600
+- **Word Count**: 731
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 62-year-old man presenting with nausea, vomiting, and abdominal pain for one day, as well as an episode of hematemesis. Symptoms included gastrointestinal discomfort and a single episode of vomiting blood, with positive occult blood in the Emergency Department. Relevant history includes type 2 diabetes managed with Metformin, which was discontinued during admission due to concern for acidosis. On examination and testing, he was found to have diabetic ketoacidosis and an upper gastrointestinal bleed; esophagogastroduodenoscopy revealed a nonbleeding tear at the gastroesophageal junction. The documented diagnoses were diabetic ketoacidosis and upper gastrointestinal bleed secondary to a nonbleeding tear. Treatment included intravenous insulin drip for ketoacidosis, transition to subcutaneous heparin, discontinuation of Metformin, and empiric intravenous Protonix 40 mg twice daily, later switched to oral Protonix. The patient had no further episodes of hematemesis, maintained stable hematocrit, and was discharged home in stable condition.
-
-## Dialogue Summary
-
-The patient presented with persistent nausea as the chief complaint. They reported several days of ongoing nausea accompanied by vomiting and a dull, constant ache in the upper stomach, which worsened with eating or drinking, including water. The patient noted a noticeable amount of blood in their vomit but denied seeing blood in their stool. No additional medical history, medications, or allergies were mentioned. On assessment, the doctor noted the combination of persistent upper stomach discomfort, nausea, and vomiting with blood as concerning for possible irritation or bleeding in the stomach or upper digestive tract, such as from a stomach ulcer or gastritis. The doctor recommended prompt evaluation in a medical setting, ideally the same day, and advised avoiding foods or drinks that worsen symptoms. The patient was instructed to seek immediate care if symptoms worsened or if more blood was noticed.
-
-## STS Evaluation
-
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 61.6s
+- **Processing Time**: 84.6s

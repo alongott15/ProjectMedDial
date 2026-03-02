@@ -16,88 +16,81 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.869
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the patient's profile (history of myocardial infarction, coronary artery disease, and exertional chest pain). The doctor asks appropriate, focused questions about the nature, triggers, and associated symptoms of the chest pain. The reasoning is sound, with a cautious but not alarmist approach, and the plan (physical exam, vitals, EKG, basic labs) is appropriate for a light case with stable symptoms. No unsupported diagnoses or treatments are introduced. The patient responses are clear and realistic.
+- **Score**: 0.869
+- **Justification**: Combined score 0.87 (naturalness=1.00 ×0.4, profile_compliance=0.80 ×0.3, ragas_faithfulness=0.76 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 0.800 |
+| RAGAS Faithfulness | 0.765 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient provides clear, relevant answers and expresses anxiety appropriately. Could add more detail about duration or frequency of episodes if prompted.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor demonstrates good clinical reasoning and communication. Could briefly mention reviewing medication adherence or recent changes, given the cardiac history.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: Dialogue flows logically, with smooth transitions between symptom exploration and explanation of next steps. The summary and safety netting are well done.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is clear (seek care for worsening symptoms). The plan is appropriate for a stable patient with known CAD. No safety concerns.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brings you in, and how have you been feeling lately?
+**Doctor**: Hello, it's good to see you today. How have you been feeling lately, and what would you like to discuss during this visit?
 
-**Patient**: I've been having some chest pain again, and it's making me a bit anxious. That's really why I wanted to come in today.
+**Patient**: I've been having some chest pain again, and it's making me a bit anxious. That's really the main thing I wanted to talk about today.
 
-**Doctor**: Let me ask about the pain itself—can you show me exactly where you feel it, and does it stay in one spot or move around?
+**Doctor**: Let me ask about the pain—does anything seem to make it better or worse, like activity or rest?
 
-**Patient**: It's right in the center of my chest, sort of behind my breastbone. It doesn't really move—just stays there when it comes on.
+**Patient**: Activity definitely seems to make it worse, especially if I'm walking or moving around. If I sit down and rest, it feels a bit better.
 
-**Doctor**: Let me ask about whether anything seems to trigger or relieve the discomfort—does it get worse with activity, eating, or stress? And is there anything that makes it feel better?
+**Doctor**: Let me ask about the location—where exactly do you feel the pain in your chest? Is it more towards the center, left, or right side?
 
-**Patient**: It definitely gets worse when I'm moving around or doing something active. Resting helps a bit, but it doesn’t make it go away completely.
+**Patient**: The pain is right in the center of my chest, sort of behind my breastbone. It's not really to the left or right—just right in the middle.
 
-**Doctor**: Got it. When you're having this discomfort, do you ever notice any shortness of breath or trouble catching your breath, especially during activity?
+**Doctor**: Alright. When the pain comes on with activity, do you also notice any shortness of breath or difficulty catching your breath?
 
-**Patient**: Yes, I do get short of breath, especially when I'm walking or doing something more active. It feels harder to catch my breath during those times.
+**Patient**: Yes, I do get shortness of breath when the pain comes on, especially if I'm exerting myself. It makes it harder to catch my breath until I stop and rest.
 
-**Doctor**: Alright. How long has this pain and shortness of breath been going on, and has it changed in intensity or frequency since it first started?
+**Doctor**: Got it. How long does the pain and shortness of breath usually last once you stop and rest—is it a few minutes, or longer?
 
-**Patient**: I’m not exactly sure when it started, but it’s been going on for a little while now. The pain and shortness of breath haven’t really gotten much worse, but they do come and go.
+**Patient**: Usually it goes away after a few minutes once I sit down and rest. It doesn’t tend to last very long if I stop what I’m doing.
 
-**Doctor**: Okay. How would you rate the discomfort on a scale from 1 to 10, with 10 being the worst pain you can imagine? And does it ever wake you up at night?
+**Doctor**: Okay. Can you describe what the pain actually feels like—sharp, dull, pressure, or something else?
 
-**Patient**: I’d rate the pain around a 6 out of 10. It hasn’t woken me up at night so far.
+**Patient**: It feels more like a pressure or squeezing in the center of my chest. Sometimes it comes and goes, almost like a stuttering pain.
 
-**Doctor**: Let me ask about any other sensations—do you ever feel lightheaded, sweaty, or notice a rapid heartbeat when this happens?
+**Doctor**: Got it. How would you rate the intensity of the pressure in your chest when it happens—would you say it's mild, moderate, or severe?
 
-**Patient**: I haven’t noticed feeling lightheaded or sweaty when it happens. My heartbeat doesn’t really feel rapid either. The main thing is the chest pain and sometimes it feels a bit stuttery or comes and goes.
+**Patient**: I’d call it moderate most of the time, but sometimes it gets a bit stronger, especially if I push myself. It’s not the worst pain I’ve had, but it definitely gets my attention.
 
-**Doctor**: Got it. When you mention the sensation feels a bit "stuttery" or comes and goes, does it ever feel like a skipped heartbeat or fluttering in your chest? Or is it more like the discomfort itself just fluctuates?
+**Doctor**: Let me ask about other symptoms—when you experience the chest pressure and shortness of breath, do you ever feel lightheaded, nauseated, or notice sweating?
 
-**Patient**: The discomfort itself just fluctuates. I don’t feel any skipped beats or fluttering—it's more that the chest pain comes and goes.
+**Patient**: I do get nauseated sometimes when the chest pain happens, and I’ve had some vomiting as well. I haven’t really noticed much sweating or feeling lightheaded with it.
 
-**Doctor**: From what we've discussed, your symptoms seem to be brought on by activity and improve with rest, and you haven't noticed things like palpitations, dizziness, or sweating. This pattern can sometimes be seen with conditions affecting the heart or lungs, but it can also be related to other causes such as muscle strain or even anxiety. The fact that your discomfort is moderate and not worsening, and that you don't have severe symptoms like fainting or chest pain at rest, is somewhat reassuring.
+**Doctor**: Based on what we've discussed, your symptoms seem to follow a pattern where exertion brings on chest pressure and shortness of breath, which ease with rest. Occasional nausea and vomiting add another layer. This kind of presentation is often related to the heart, especially when activity triggers discomfort and rest relieves it. 
 
-Still, because these symptoms are triggered by exertion and you're experiencing shortness of breath, it's important to rule out heart-related causes. Sometimes, the heart muscle doesn't get enough oxygen during activity, which can cause similar sensations. This is why we pay close attention to symptoms that come on with exertion.
+It's important to keep monitoring for any changes—such as pain that doesn’t go away with rest, severe or sudden onset, or new symptoms like sweating, lightheadedness, or fainting. If any of these occur, seek medical attention promptly.
 
-My recommendation is that we do a basic evaluation—this may include a physical exam, checking your vital signs, and possibly an EKG or some basic blood tests to make sure your heart is functioning well. In the meantime, I suggest you avoid strenuous activity until we've clarified the cause.
+For now, pacing your activities and avoiding strenuous exertion is wise. Let me know if you notice any changes or if the episodes become more frequent or intense. Would you like to discuss strategies for managing anxiety related to these symptoms?
 
-If you notice any new symptoms—like pain at rest, severe shortness of breath, fainting, or sweating—those would be reasons to seek immediate care. Otherwise, let's start with these next steps and see what we find. Does that sound reasonable to you?
-
-**Patient**: That sounds reasonable to me. I appreciate you explaining everything—I do get a bit anxious with these symptoms, so it helps to know what the plan is. I'll avoid any heavy activity until we check things out.
+**Patient**: Thank you for explaining that. I’ll make sure to pay attention if anything changes. I do feel pretty tired a lot of the time, and the nausea and vomiting have been tough too. I’d be open to talking about ways to manage the anxiety—it’s been hard not to worry with everything going on.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 700
+- **Word Count**: 600
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 61-year-old female presenting with status post myocardial infarction and right coronary artery (RCA) stent placement. She reported stuttering chest pain lasting approximately 20 minutes and dyspnea on exertion over the past two weeks, with chest pain recurring at rest and associated with exertional symptoms but no nausea, vomiting, or diaphoresis initially. Her medical history includes coronary artery disease with prior stenting, hypertension, hypercholesterolemia, GERD, and a family history of coronary artery disease. On admission, EKG showed ST elevations in leads II, III, and aVF, and ST depressions in I, aVL, V1, and V2. The documented diagnosis was acute myocardial infarction. She was treated with heparin, aspirin, beta blocker, Aggrastat, and nitroglycerin drip, which resolved her chest pain. Recommendations included ongoing cardiac monitoring and continuation of antiplatelet and antianginal therapy.
-
-## Dialogue Summary
-
-The patient presented with chest pain and associated anxiety. The chest pain was described as central, located behind the breastbone, non-radiating, and rated 6 out of 10 in severity; it is triggered by activity, improves somewhat with rest, and has been present for an unspecified duration without worsening or nocturnal symptoms. The patient also reported shortness of breath during exertion but denied lightheadedness, sweating, palpitations, or rapid heartbeat; the discomfort fluctuates but does not involve skipped beats or fluttering sensations. No relevant past medical history, medications, or allergies were mentioned. On review, there were no reports of severe symptoms such as fainting, chest pain at rest, or diaphoresis. The doctor assessed that the exertional nature of symptoms could be related to cardiac, pulmonary, musculoskeletal, or anxiety-related causes, but emphasized the need to rule out heart-related issues due to exertional triggers. The doctor recommended a basic evaluation including physical exam, vital signs, and possibly an EKG and blood tests, and advised the patient to avoid strenuous activity until further assessment. The patient was instructed to seek immediate care if new severe symptoms develop and agreed to the plan.
-
-## STS Evaluation
-
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 57.6s
+- **Processing Time**: 79.5s

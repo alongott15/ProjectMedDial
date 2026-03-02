@@ -16,85 +16,95 @@
 ### Attempt 1
 - Success: False
 - Decision: UNREALISTIC
-- Score: 0.600
+- Score: 0.698
 
 ### Attempt 2
 - Success: False
 - Decision: UNREALISTIC
-- Score: 0.500
+- Score: 0.551
 
 ### Attempt 3
 - Success: False
 - Decision: UNREALISTIC
-- Score: 0.300
+- Score: 0.380
 
 ## Judge Evaluation
 
 - **Decision**: UNREALISTIC
-- **Score**: 0.600
-- **Justification**: While the dialogue is generally plausible for a primary care visit about vertigo, ringing in the ears, and headache, it contains a significant hallucination: the doctor does not acknowledge or address the patient's known diagnosis of a right temporal intracranial mass, which is present in the profile. Instead, the doctor reassures the patient and attributes symptoms to benign inner ear causes (BPPV or viral disturbance), which is not appropriate given the known intracranial mass. This is a major omission and makes the conversation unrealistic for this context.
+- **Score**: 0.698
+- **Justification**: Combined score 0.70 (naturalness=0.60 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.53 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.600 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.526 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient responses are realistic and consistent with the symptoms described in the profile. No major improvements needed.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor should acknowledge the patient's known diagnosis of a right temporal intracranial mass and discuss whether these symptoms could be related to that condition. The reassurance and focus on benign causes are inappropriate without considering or mentioning the mass. The doctor should also discuss follow-up or monitoring for neurological symptoms.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and clear, but it fails to integrate critical information from the patient's medical history, which undermines realism.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: There is a safety concern: by not addressing the intracranial mass, the doctor may miss a potentially serious cause of the symptoms. The explanation should be more cautious and include warning signs related to neurological deterioration.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it’s good to see you today. What brings you in—how have you been feeling lately?
+**Doctor**: Let me ask about your main concern today—how have you been feeling lately, and is there anything new or different with your symptoms since your last visit?
 
-**Patient**: I've been having some vertigo lately, and it's been bothering me enough that I thought I should get it checked out.
+**Patient**: Lately, the main thing bothering me is this dizzy feeling—like the room is spinning sometimes. That’s been pretty tough to deal with.
 
-**Doctor**: Let me ask about when these episodes first began—how long have you been experiencing this sensation?
+**Doctor**: Let me ask about the timing—when did you first notice this dizzy sensation, and how often does it happen during the day?
 
-**Patient**: I'm not exactly sure, but I think the vertigo started a few days ago.
+**Patient**: I’m not exactly sure when it started, but I’ve been feeling dizzy on and off throughout the day for a little while now. It’s definitely happening more often lately.
 
-**Doctor**: Let me ask about other symptoms—have you noticed any ringing in your ears or headaches along with the vertigo?
+**Doctor**: Let me ask about any other symptoms—have you noticed ringing in your ears, hearing changes, or any headaches along with these dizzy spells?
 
-**Patient**: Yes, I've also noticed some ringing in my ears and a bit of a headache along with the vertigo.
+**Patient**: I have noticed a ringing in my ears, and I also get headaches along with the dizziness. The headaches aren’t constant, but they do come and go.
 
-**Doctor**: Let me ask about the ringing in your ears—does it affect one ear or both, and is it constant or does it come and go?
+**Doctor**: Alright. When you feel the spinning sensation, does it get worse with certain movements—like turning your head quickly or getting up from bed?
 
-**Patient**: The ringing is in both ears, and it seems to be there most of the time.
+**Patient**: Turning my head quickly or getting up does seem to make the spinning worse. It’s definitely more noticeable with movement like that.
 
-**Doctor**: Alright. Have you noticed if anything in particular seems to trigger or worsen the vertigo, like moving your head a certain way or standing up quickly?
+**Doctor**: Got it. When the spinning happens, do you ever feel nauseated or actually vomit, or is it mostly just the sensation of the room spinning?
 
-**Patient**: Moving my head quickly seems to make the vertigo worse. Standing up too fast can set it off, too.
+**Patient**: Mostly, it’s just the sensation of the room spinning. I haven’t felt nauseated and I haven’t vomited with these episodes.
 
-**Doctor**: Got it. Has the ringing in your ears changed at all since this started—like getting louder or softer—or does it stay about the same throughout the day?
+**Doctor**: Got it. One more question—how much are these episodes interfering with your daily activities, like work or things around the house?
 
-**Patient**: The ringing pretty much stays the same throughout the day. I haven’t noticed it getting louder or softer.
+**Patient**: These episodes have made it a lot harder to do things around the house. I have to move more slowly and be careful, especially with the dizziness and headaches. It’s definitely interfering with my daily routine.
 
-**Doctor**: Got it. How much are these symptoms—especially the vertigo and ringing—impacting your daily activities or ability to work and do usual tasks?
+**Doctor**: Alright. Since you mentioned ringing in your ears, does the sound stay constant or does it come and go? And is it in one ear or both?
 
-**Patient**: It's definitely made things harder. The vertigo makes it tough to focus, and the ringing is pretty distracting during the day.
+**Patient**: The ringing is pretty constant, and I notice it in both ears. It doesn’t really come and go—it’s just always there.
 
-**Doctor**: Tell me more about whether you’ve had any hearing loss or changes in your hearing since these symptoms began.
+**Doctor**: Let me ask about the severity—on a scale from 1 to 10, how intense would you rate the spinning sensation at its worst? And has it been getting any better, or is it staying about the same or getting worse over time?
 
-**Patient**: I haven’t noticed any hearing loss or changes in my hearing since this started. My hearing seems about the same as usual.
+**Patient**: At its worst, I’d rate the spinning sensation about an 8 out of 10. It’s been getting a bit worse over time rather than improving.
 
-**Doctor**: Based on what we've discussed, your symptoms of vertigo triggered by head movements, along with persistent ringing in both ears and mild headache, suggest a common inner ear issue—possibly something like benign paroxysmal positional vertigo (BPPV) or a viral inner ear disturbance. The fact that you haven’t noticed hearing loss is somewhat reassuring, as more serious ear conditions often affect hearing.
+**Doctor**: Based on what we've discussed, it sounds like you're experiencing ongoing episodes of vertigo—meaning a spinning sensation that worsens with movement—along with constant ringing in both ears and intermittent headaches. These symptoms are having a significant impact on your daily activities and seem to be getting worse over time.
 
-Vertigo can often be triggered by changes in head position if tiny crystals in the inner ear become dislodged, which is typical with BPPV. The ringing, or tinnitus, can sometimes accompany these issues but also has other causes. Headaches can occur as a result of the discomfort and stress from vertigo.
+What often happens with this combination of symptoms is that there can be an issue with the inner ear, which helps control balance and hearing. Conditions like vestibular neuritis, benign positional vertigo, or even Meniere’s disease can sometimes cause these symptoms. The fact that you don’t have nausea or vomiting is helpful to know, but the constant ringing and worsening intensity are important details.
 
-Most cases of positional vertigo are not dangerous and often improve with specific head exercises or simply with time. However, if you develop new symptoms like hearing loss, double vision, weakness, difficulty speaking, or if the vertigo becomes severe and constant, those would be reasons to seek prompt medical attention.
+Given how much this is affecting your routine, it would be wise to have a more detailed evaluation—possibly including a hearing test or seeing an ear, nose, and throat (ENT) specialist. In the meantime, moving slowly and avoiding sudden head movements is sensible to reduce your risk of falls.
 
-For now, try to avoid sudden head movements, get up slowly from bed or chairs, and rest as needed. If the symptoms persist or worsen over the next week, or if you develop any of those warning signs I mentioned, it would be a good idea to follow up for further evaluation. Would you like advice on simple head exercises that can sometimes help with positional vertigo?
+If you ever notice new symptoms like double vision, weakness in your face or limbs, difficulty speaking, or severe headache that’s different from before, those would be warning signs to seek urgent care.
 
-**Patient**: Thanks, that explanation helps put my mind at ease. I’d appreciate some advice on those head exercises if you think they might help with the vertigo.
+Does this summary match your understanding so far, or is there anything else you’d like to add?
+
+**Patient**: That all makes sense. One thing I should mention is that I’ve already been diagnosed with a right temporal intracranial mass, and they found masses in my left lung and adrenal gland too. My doctors said it’s likely lung cancer with extensive metastasis, so I’m not sure if these symptoms could be related to that.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 599
+- **Word Count**: 703
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 448.4s
+- **Processing Time**: 540.0s

@@ -16,88 +16,93 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.929
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the patient's profile and symptoms. The doctor asks appropriate questions about the onset, character, and aggravating factors of the foot pain, as well as associated symptoms like nausea. The patient provides clear, relevant answers. The doctor's reasoning and advice are reasonable for a mild case, and there are no unsupported diagnoses, treatments, or contradictions. The only minor gap is that the doctor does not explicitly reference the patient's history of plantar fasciitis or chronic conditions, but this does not detract significantly from realism in a light case.
+- **Score**: 0.929
+- **Justification**: Combined score 0.93 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.76 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.765 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear and relevant answers. For even greater realism, the patient could mention any previous similar episodes or concerns about their chronic conditions if prompted.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor could briefly acknowledge the patient's history of plantar fasciitis or chronic conditions (e.g., 'Given your history of plantar fasciitis...'), which would show awareness of the medical background and further ground the conversation.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with good transitions between symptom exploration and advice. Including a brief summary or check-back from the doctor before giving recommendations would enhance clarity.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The advice is appropriate for a mild case with no red flags. The doctor clearly explains when to seek further care if symptoms worsen.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it’s nice to see you today. What’s been bothering you the most recently?
+**Doctor**: Hello, it's good to see you today. How have you been feeling lately? Is there anything in particular you'd like to discuss or any new concerns on your mind?
 
-**Patient**: Lately, I’ve been having some pain in my right foot. It’s making it a bit uncomfortable to walk around.
+**Patient**: I've been having some pain in my right foot lately, and it's been pretty uncomfortable. That's the main thing that's been bothering me.
 
-**Doctor**: Let me ask about the pain—when did you first notice it, and has it been getting better, worse, or staying about the same since it started?
+**Doctor**: Let me ask about what you've noticed—does anything seem to make the pain worse, like walking or standing? Or is it there even when you're resting?
 
-**Patient**: I’m not exactly sure when it started, maybe a few days ago. The pain hasn’t really changed much—it’s just kind of stayed the same.
+**Patient**: Walking or standing definitely makes the pain worse. When I’m resting, it’s still there but not as bad.
 
-**Doctor**: Let me ask about other symptoms—have you had any nausea, swelling, or changes in the color of your foot?
+**Doctor**: Let me ask about other symptoms—have you noticed any swelling, redness, or changes in the skin of your right foot? Also, any nausea or other issues accompanying the discomfort?
 
-**Patient**: I have had some nausea along with the foot pain. I haven’t noticed any swelling or color changes in my foot, though.
+**Patient**: I have noticed some nausea along with the foot pain. I haven't seen any swelling, redness, or changes in the skin on my right foot.
 
-**Doctor**: Got it. Can you describe if the discomfort feels sharp, dull, or achy? And does anything in particular seem to bring it on or make it worse, like walking, standing, or certain shoes?
+**Doctor**: Alright. Can you describe exactly where the discomfort is located on your foot? Is it more on the top, the inner side, or somewhere else? This helps me understand which structures might be involved.
 
-**Patient**: The pain feels more tender and achy, especially along the top and inside part of my foot’s arch. Walking seems to make it worse, but resting helps a bit.
+**Patient**: The discomfort is mainly along the top of my foot, right where the arch is, and also on the inner side of that arch. That's where it's most tender.
 
-**Doctor**: Alright. On a scale of 1 to 10, with 10 being the worst pain you can imagine, how would you rate the discomfort in your foot right now?
+**Doctor**: Got it. How long have you been experiencing this discomfort, and has it changed at all since it first started?
 
-**Patient**: Right now, I’d rate the pain around a 5 out of 10. It’s noticeable, but not unbearable.
+**Patient**: I’m not exactly sure how long it’s been, but it’s been bothering me for a while now. The pain hasn’t really gone away, and some days it feels a bit worse, especially if I’m on my feet more.
 
-**Doctor**: Let me ask about your recent activities—have you done any new walking, exercise, or worn different shoes in the past week that might have put extra stress on your foot?
+**Doctor**: Okay. How would you rate the pain on a scale from 1 to 10, with 10 being the most intense discomfort you've ever felt? This helps me gauge how much it's affecting you day-to-day.
 
-**Patient**: I haven’t changed anything recently—no new shoes or extra walking. My routine’s been pretty much the same this past week.
+**Patient**: I’d rate the pain around a 6 out of 10 most days. It definitely affects how much I can be on my feet.
 
-**Doctor**: Got it. Since you mentioned some nausea as well, have you had any fever, chills, or recent illnesses? Sometimes these can help us figure out if there’s an underlying issue beyond just the foot discomfort.
+**Doctor**: I see. Since the discomfort affects your ability to be on your feet, have you tried anything at home to ease it, like changing footwear, using ice, or resting more? If so, has anything helped even a little?
 
-**Patient**: No, I haven’t had any fever or chills, and I haven’t been sick recently. It’s just the nausea and the foot pain.
+**Patient**: I’ve been resting my foot more and wearing comfortable shoes, but the pain is still there. I was told by podiatry that it’s plantar fasciitis, so I’ve been trying to follow their advice.
 
-**Doctor**: Let me ask about your overall mobility—are you able to do your usual daily activities around the house, or is the discomfort causing you to limit what you do?
+**Doctor**: Let me ask about your daily routine—are there particular activities or times of day when the discomfort tends to flare up most? Sometimes patterns can help us tailor self-care strategies.
 
-**Patient**: I’m still able to do my daily activities, but I’ve been taking it a bit slower because of the discomfort in my foot. It hasn’t stopped me completely, just made things a little more difficult.
+**Patient**: The pain usually gets worse when I’m up and moving around, especially if I’ve been on my feet for a while. It tends to flare up most during the day when I’m more active.
 
-**Doctor**: Based on what we've discussed, it sounds like you’re dealing with a mild, persistent foot discomfort that’s most noticeable when you’re walking and seems to be centered along the top and inside of your foot’s arch. Since there’s no swelling, color change, or recent injury, and your routine hasn’t changed, this could be related to overuse, minor strain, or even irritation of the soft tissues in the foot—something fairly common as we age.
+**Doctor**: From what we've discussed, your discomfort seems most prominent during activity and is consistent with plantar fasciitis, as you've mentioned. This condition often causes pain along the arch and inner side of the foot, especially after periods of walking or standing. The fact that resting and supportive footwear haven't fully resolved it suggests it may need ongoing management.
 
-The nausea is less typical for simple foot pain, but since you don’t have fever or other signs of infection, it may be unrelated or possibly due to discomfort from the pain itself.
+What commonly happens with plantar fasciitis is that the tissue along the arch gets irritated from repeated stress. It can take several weeks or even months to improve, especially if you're frequently on your feet.
 
-For now, I’d suggest resting your foot as much as possible, wearing supportive shoes, and possibly using ice for short periods to reduce any underlying irritation. If the pain gets worse, you develop swelling, redness, or can’t put weight on your foot, those would be reasons to seek care sooner. Otherwise, gentle stretching and monitoring for changes are reasonable next steps.
+To help further, you might consider gentle stretching exercises for your foot and calf muscles, as these can relieve tension in the arch. Using ice after activity and avoiding walking barefoot may also reduce discomfort. If you notice any new symptoms—such as significant swelling, redness, or difficulty moving your foot—or if the pain becomes much worse, those would be important reasons to seek follow-up care.
 
-Does that make sense, or is there anything else about your symptoms you’re concerned about?
+Let me know if you have questions about these strategies or if you'd like more details about self-care for plantar fasciitis.
 
-**Patient**: Thank you, that makes sense. I’ll try resting my foot more and see if that helps. If anything changes or gets worse, I’ll let you know.
+**Patient**: Thanks for explaining all of that. I’ll try adding the stretches and using ice after being on my feet. If I have any new symptoms or if things get worse, I’ll let you know.
+
+**Doctor**: Based on what we've discussed, your symptoms fit well with plantar fasciitis, which is a common cause of discomfort in the arch and inner side of the foot, especially for people who spend time on their feet. The pain tends to worsen with activity and improve somewhat with rest, which is typical for this condition.
+
+The underlying issue is irritation of the plantar fascia—a band of tissue supporting your arch. This can take time to heal, and it's normal for pain to linger, especially if you're active. Stretching exercises, supportive footwear, and ice after activity are practical steps that often help. Since you've already been following podiatry advice, continuing these strategies is wise.
+
+It's also important to watch for any new symptoms like swelling, redness, or sudden changes in your ability to walk. If those occur, it might signal something beyond plantar fasciitis and would warrant a prompt re-evaluation.
+
+Let me know if you want more details on stretches or other approaches. Otherwise, your current plan is sound, and gradual improvement is expected with ongoing care.
+
+**Patient**: Thanks for explaining everything so clearly. I’ll stick with the stretches and supportive shoes, and I’ll keep an eye out for any changes. If I need more details on the stretches, I’ll ask.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 634
-- **Doctor Turns**: 9
-- **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 70-year-old female who experienced episodes of hypoxia, which led to deferral of her transfer to rehabilitation. She had episodes of low oxygen saturation, with blood gas showing a PCO2 in the 80s. A chest x-ray was negative for infiltrates or pulmonary process, and a CTA ruled out pulmonary embolism. The patient has a history of vascular issues, as indicated by her admission to the vascular service. On examination, her wounds were noted to be clean, dry, and intact. The documented clinical impression was hypoxia without evidence of pulmonary embolism or infection. She improved clinically with no further hypoxic episodes and was stable at the time of transfer. The treatment plan included follow-up with Dr. [Last Name] in three weeks and instructions to call for an appointment.
-
-## Dialogue Summary
-
-The patient presented with right foot pain causing discomfort while walking. The pain began a few days ago, has remained unchanged, is described as tender and achy (especially along the top and inside of the foot’s arch), is rated 5 out of 10 in severity, worsens with walking, and improves with rest. The patient also reported some nausea but denied swelling, color changes, fever, chills, recent illness, or changes in activity or footwear; daily activities are still possible but slower due to discomfort. No relevant medical history, medications, or allergies were mentioned. On examination, there were no signs of swelling or color change. The doctor assessed the symptoms as likely due to overuse, minor strain, or irritation of the soft tissues in the foot, noting that the nausea is less typical but may be unrelated or secondary to the pain. The doctor recommended rest, supportive shoes, ice application for irritation, gentle stretching, and monitoring for changes. The patient was advised to seek care if pain worsens, swelling or redness develops, or if unable to bear weight.
-
-## STS Evaluation
-
-- **STS Score**: 0.926
-- **Similarity Label**: N/A
+- **Turn Count**: 20
+- **Word Count**: 911
+- **Doctor Turns**: 10
+- **Patient Turns**: 10
 
 ## Processing Information
 
-- **Processing Time**: 66.8s
+- **Processing Time**: 89.8s

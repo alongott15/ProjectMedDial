@@ -16,70 +16,81 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.836
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the patient's profile and symptoms. The doctor asks appropriate, focused questions about the nature, timing, and triggers of the pain, and the patient provides clear, relevant answers. There are no unsupported diagnoses, treatments, or severe events introduced. The conversation is grounded in the provided context and maintains a primary-care tone.
+- **Score**: 0.836
+- **Justification**: Combined score 0.84 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.59 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.588 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear and relevant answers. To improve realism, the patient could occasionally express uncertainty or provide more detail about their anxiety or any attempts at self-management.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor asks appropriate questions but could further explore cardiac risk factors (e.g., smoking, family history) or clarify any past medical history. The doctor should also acknowledge the seriousness of exertional chest/arm pain and consider discussing next steps or safety concerns.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural. The conversation could be improved by including a brief summary or plan from the doctor before ending, even if the simulation is cut short.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No major safety concerns, but the doctor should explicitly address the potential seriousness of exertional chest/arm pain and advise the patient to avoid strenuous activity until further evaluation.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brings you in—can you tell me more about any discomfort or symptoms you've been experiencing lately?
+**Doctor**: Welcome in. How have you been feeling lately, and what brings you in today?
 
-**Patient**: I've been getting this pain in my throat that spreads to my chest and sometimes down my left arm, especially when I'm exercising. It's got me a bit concerned.
+**Patient**: I've been having this pain in my throat that moves down to my chest and left arm when I exercise. It's been pretty worrying for me.
 
-**Doctor**: Let me ask about the pain itself—on a scale from 1 to 10, how intense does it feel when you're exercising?
+**Doctor**: Let me ask about the pain—can you describe what it feels like when it comes on? Is it sharp, dull, burning, or something else?
 
-**Patient**: I'd rate it around a 6 when I'm exercising. It definitely gets my attention and makes me slow down.
+**Patient**: When the pain comes on, it feels kind of heavy and uncomfortable—almost like a pressure more than a sharp or burning pain. It really seems to start when I’m exercising, and then it travels from my throat down to my chest and left arm.
 
-**Doctor**: Let me ask about when you first noticed this pain—how long has this been going on?
+**Doctor**: Alright. How long have you been experiencing this discomfort, and has it changed in intensity or frequency since it first started?
 
-**Patient**: I'm not exactly sure, but I think it's been happening for a couple of weeks now. It only comes on when I'm exercising.
+**Patient**: I’m not sure exactly how long it’s been, but it feels like the pain has gotten worse lately. I’ve also noticed that my chest hurts more, and I’ve been feeling pretty anxious about it.
 
-**Doctor**: Alright. Have you noticed any other symptoms when this happens, like shortness of breath, sweating, or feeling lightheaded?
+**Doctor**: Let me ask about associated symptoms—when you feel this discomfort, do you ever notice things like shortness of breath, sweating, or feeling lightheaded?
 
-**Patient**: I do get some chest pain along with the throat pain, and I start to feel pretty anxious when it happens. I haven’t noticed any shortness of breath, sweating, or feeling lightheaded.
+**Patient**: I haven’t really noticed things like sweating or feeling lightheaded. I do feel anxious when the pain comes on, but I haven’t had shortness of breath with it. Also, I was told I had leukocytosis, but it was thought to be reactive and it resolved.
 
-**Doctor**: Got it. Does the discomfort go away quickly after you stop exercising, or does it linger for a while?
+**Doctor**: Got it. When you stop exercising or rest, does the discomfort go away on its own, or does it linger for a while?
 
-**Patient**: It usually goes away pretty quickly once I stop exercising. I don’t really feel it when I’m at rest.
+**Patient**: When I stop and rest, the pain does ease up. It doesn’t linger for too long once I take a break from exercising.
 
-**Doctor**: Let me ask about your exercise routine—what kind of activity are you doing when this pain comes on, and does it happen with light activity or only with more strenuous exercise?
+**Doctor**: Got it. How would you rate the discomfort on a scale from 1 to 10 when it happens during exercise?
 
-**Patient**: I usually notice it when I'm doing brisk walking or using the treadmill. It doesn’t really happen with light activity, just when I’m pushing myself a bit more.
+**Patient**: I’d rate the pain around a 7 out of 10 when it happens during exercise. It’s definitely noticeable and makes me stop what I’m doing.
+
+**Doctor**: Let me ask about your exercise routine—are there particular activities or intensities that seem to trigger this discomfort more often, or does it happen with any type of physical exertion?
+
+**Patient**: It usually happens when I’m doing more vigorous activities, like brisk walking or anything that gets my heart rate up. I don’t notice it as much with lighter activities—it’s mostly with higher intensity exercise.
+
+**Doctor**: Alright, since the discomfort eases with rest and is triggered by more vigorous activity, have you ever tried adjusting your exercise intensity or taking breaks to see if that prevents the pain from coming on?
+
+**Patient**: Yes, I’ve tried slowing down and taking breaks during exercise, and that does seem to help prevent the pain from coming on as strongly. If I push myself too hard, though, the discomfort still shows up.
+
+**Doctor**: From what you've told me, your symptoms seem to be triggered by vigorous activity and improve with rest, which suggests a possible connection to how your heart and blood vessels respond to exertion. This pattern is something we pay close attention to because it can sometimes indicate issues with the heart, especially when discomfort travels to the chest and arm.
+
+While your anxiety is understandable, it's important to monitor for any new symptoms like shortness of breath, nausea, or feeling faint, as those could signal something more urgent. For now, pacing yourself during exercise and sticking to lighter activities seems wise.
+
+If you notice your symptoms worsening or appearing at rest, or if you develop any of those warning signs, it would be important to seek medical attention promptly. Otherwise, gradual activity and monitoring are reasonable. Let me know if you have any questions about this or want to talk about ways to safely stay active.
+
+**Patient**: Thanks for explaining that. I understand why you’re concerned about the heart, especially since my pain goes to the chest and left arm. I was diagnosed with an acute anterior STEMI recently, and my EKG showed those changes. If there’s anything else I should watch out for or changes to my medications, let me know.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 12
-- **Word Count**: 304
-- **Doctor Turns**: 6
-- **Patient Turns**: 6
-
-## EHR Summary
-
-The patient is a 59-year-old male presenting with chest pain as the chief complaint. Three days prior to admission, he experienced throat pain radiating to his sternum and left arm during exercise, which resolved with rest and aspirin; symptoms later progressed to 8/10 chest pain. He has no significant past medical history or cardiac risk factors but has a family history of coronary artery disease. On admission, physical exam was notable for normal vital signs and no acute distress. EKG revealed anterior ST elevations and reciprocal inferior depressions, and cardiac enzymes were positive. The documented diagnosis was acute coronary syndrome with anterior ST-elevation myocardial infarction (STEMI). He was treated with aspirin, Heparin, Integrilin, nitroglycerin, and underwent percutaneous transluminal coronary angioplasty (PTCA) to the left anterior descending artery (LAD). Cardiac function was preserved with a cardiac index of 2.5 and normal hemodynamics.
-
-## Dialogue Summary
-
-The patient presented with throat pain that radiates to the chest and sometimes down the left arm, primarily during exercise. The pain is rated as a 6 out of 10 in intensity during exercise, has been occurring for a couple of weeks, and is triggered by more strenuous activity such as brisk walking or treadmill use; it does not occur at rest or with light activity. The discomfort resolves quickly after stopping exercise. The patient also reported feeling anxious during these episodes but denied associated shortness of breath, sweating, or lightheadedness. No relevant medical history, medications, or allergies were mentioned. No physical findings were described in the conversation. The doctor did not provide a specific assessment or working diagnosis during the dialogue. No treatment plan or recommendations were given before the simulation ended.
-
-## STS Evaluation
-
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
+- **Turn Count**: 18
+- **Word Count**: 692
+- **Doctor Turns**: 9
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 45.6s
+- **Processing Time**: 76.7s

@@ -16,88 +16,99 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.942
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about the patient's symptoms, daily functioning, and relevant medical history. The patient provides clear, relevant answers that align with the profile. The doctor's summary and advice are cautious and appropriate for a light case with neurological symptoms, without introducing unsupported diagnoses or interventions. There are no obvious hallucinations or contradictions.
+- **Score**: 0.942
+- **Justification**: Combined score 0.94 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.94 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.941 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, the patient could occasionally express uncertainty or ask clarifying questions about their symptoms or the doctor's advice.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor is thorough and empathetic. For improvement, the doctor could briefly acknowledge the known right frontal lobe mass (from the profile) as a possible contributor to symptoms, rather than only mentioning hypertension and circulation/nerve function.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with good transitions between topics. The closing summary is clear and supportive.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: The safety advice is appropriate for a light case, but the doctor could more explicitly recommend prompt in-person evaluation given the neurological symptoms and known brain mass, even if symptoms are mild. This would reinforce safety without escalating the case severity.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's nice to see you today. What brings you in, and how have you been feeling lately?
+**Doctor**: Hello, it's nice to see you today. What brings you in, or what have you noticed that's been different with your health lately?
 
-**Patient**: I've been having some weakness on my left side, and it's got me a bit concerned.
+**Patient**: I've been having some weakness on my left side lately, and it's starting to worry me.
 
-**Doctor**: Let me ask about the timing—when did you first notice this weakness on your left side?
+**Doctor**: Let me ask about how this started—did the weakness come on suddenly or has it been getting worse over time?
 
-**Patient**: I'm not exactly sure when it started, but I noticed the weakness a few days ago.
+**Patient**: I'm not sure exactly when it started, but it feels like the weakness has slowly gotten a bit worse over time.
 
-**Doctor**: Let me ask about your daily activities—have you found it harder to do things like walking, holding objects, or getting dressed since this started?
+**Doctor**: Let me ask about your daily activities—have you noticed any trouble with things like walking, holding objects, or getting dressed?
 
-**Patient**: Yes, walking has been a bit harder, and I tend to veer to the left sometimes. Holding things isn’t too bad, but getting around feels off.
+**Patient**: I’ve noticed I tend to veer to the left when I’m walking, and sometimes I feel a little off balance. Holding things isn’t too bad, but walking has definitely gotten trickier.
 
-**Doctor**: Got it. Have you noticed any changes in your speech, vision, or ability to swallow since these symptoms began? Sometimes those can be related, so it's important to check.
+**Doctor**: Got it. Have you had any changes in your speech, vision, or trouble understanding words during this time?
 
-**Patient**: No, I haven't noticed any changes in my speech, vision, or swallowing. It's really just the left-sided weakness and the veering to the left that's been bothering me.
+**Patient**: I haven’t noticed any problems with my speech or vision, and I don’t think I’ve had trouble understanding words.
 
-**Doctor**: Let me ask about something related—have you felt any dizziness or lightheadedness along with these symptoms? Any nausea or vomiting? Sometimes those can help us understand what's going on.
+**Doctor**: Let me ask about your balance—have you had any falls or close calls because of feeling off balance?
 
-**Patient**: I've had some slight dizziness along with the weakness, but no nausea or vomiting.
+**Patient**: I haven’t actually fallen, but there have been a couple of times where I felt a bit dizzy and thought I might lose my balance.
 
-**Doctor**: Alright. When you feel the weakness and dizziness, does it come and go, or is it fairly constant throughout the day? Also, have you noticed if anything—like standing up quickly or physical activity—makes these symptoms better or worse?
+**Doctor**: Let me ask about your strength—are you able to lift your left arm and leg as easily as your right, or do you notice any difference in how strong they feel?
 
-**Patient**: The weakness and dizziness are pretty constant throughout the day. I haven't noticed anything in particular that makes them better or worse.
+**Patient**: There’s definitely a difference—my left side just doesn’t feel as strong as my right. Lifting my left arm and leg takes more effort.
 
-**Doctor**: Let me ask about your medical history—have you had any recent illnesses, injuries, or changes in your medications? Sometimes these can contribute to new symptoms.
+**Doctor**: Got it. Does anything in particular seem to trigger or worsen the weakness, like being tired, active, or at certain times of day?
 
-**Patient**: No recent illnesses or injuries, and my medications haven’t changed. I’ve just been taking my usual HCTZ for blood pressure.
+**Patient**: Nothing specific seems to make it worse—it just kind of stays the same throughout the day, no matter what I’m doing.
 
-**Doctor**: Got it. Can you tell me if you've had any trouble with balance, such as feeling unsteady when standing up or walking, or any recent falls? This can help me understand how these symptoms are affecting your safety and mobility.
+**Doctor**: Alright. Have you noticed any numbness, tingling, or unusual sensations on your left side, or is it mainly just weakness?
 
-**Patient**: Yes, I do feel unsteady when I’m walking, and I tend to veer to the left. I haven’t had any falls, though.
+**Patient**: It’s mainly just weakness on that side. I haven’t noticed any numbness or tingling.
 
-**Doctor**: Based on what we've discussed, your constant left-sided weakness and unsteadiness, especially with walking, are important to pay attention to. While these symptoms can sometimes be caused by common issues like muscle strain or changes in blood pressure, the fact that they're persistent and affecting your mobility makes it worth taking seriously.
+**Doctor**: Based on what we've discussed, it sounds like you’re experiencing a gradual change that’s making certain movements and walking more challenging. This kind of change can sometimes be related to the nerves or muscles on one side of the body, and in older adults, it’s often important to consider issues with the brain, spine, or circulation.
 
-Sometimes, these kinds of symptoms can be related to changes in circulation or nerve function—especially in someone with a history of high blood pressure. Even though you haven't had changes in speech or vision, and no recent falls, it's still a good idea to monitor for any new symptoms such as confusion, severe headache, or sudden difficulty with movement.
+Since you haven’t had any problems with speech, vision, or sensation, and the changes have come on slowly rather than suddenly, this is less likely to be an emergency, but it’s still important to address. Sometimes, these symptoms can be due to past small strokes, nerve problems, or even arthritis affecting movement and balance.
 
-For now, I recommend moving carefully and using support when walking if needed. If these symptoms worsen or you notice any new changes—like trouble speaking, facial drooping, or loss of coordination—seek medical attention promptly. Otherwise, it would be wise to have a healthcare provider evaluate you in person to rule out anything more serious and help you stay safe and active.
+To help me understand how much this is impacting you, can you tell me if it’s interfering with things like cooking, bathing, or your usual activities at home?
 
-Let me know if you have questions or concerns about what we've discussed.
+**Patient**: I can still do most things around the house, but moving around is slower and I have to be more careful, especially since I veer to the left. What kinds of tests or next steps should I expect from here?
 
-**Patient**: Thank you for explaining everything so clearly. I’ll make sure to be extra careful and keep an eye out for any new symptoms. I appreciate your advice—it helps put my mind at ease a bit.
+**Doctor**: From what you’ve described, it sounds like you’re dealing with a gradual change in your ability to move and balance on one side, which hasn’t affected your speech or sensation. In older adults, this kind of pattern can sometimes be due to changes in the brain or nerves, such as the after-effects of small strokes, or other neurological conditions. Occasionally, muscle or joint issues can contribute as well, but the fact that it’s mostly one side and affecting your walking makes me want to check for nerve or brain-related causes.
+
+The next steps usually involve a careful physical and neurological examination to check your strength, coordination, and reflexes. Depending on what we find, we might recommend imaging—like a CT scan or MRI of the brain—to look for any changes that could explain these symptoms. Blood tests may also be useful to rule out other causes.
+
+Most importantly, I want to be sure this isn’t something that needs urgent attention. If you develop sudden changes—like trouble speaking, new numbness, severe headache, or difficulty seeing—those would be reasons to seek immediate care.
+
+For now, being cautious with walking and using support if needed is wise. I’ll help coordinate the right evaluation so we can get answers and support your safety and independence at home. Does that make sense, or is there anything else you’d like to ask about this process?
+
+**Patient**: Thank you for explaining that. If I do need a scan like an MRI or CT, is there anything I should do to prepare, or anything I should expect during the test?
+
+**Doctor**: Based on what we've discussed, your symptoms point toward a gradual change in strength and balance on one side, which often suggests something affecting the nerves or brain rather than just the muscles or joints. Because this has developed slowly and hasn’t involved speech or vision changes, it’s less likely to be an emergency, but it’s important to look for underlying causes like small strokes or other neurological conditions.
+
+If we proceed with a scan like an MRI or CT, these tests are generally straightforward. For a CT scan, there’s usually no special preparation—you’ll lie still for a few minutes while images are taken. An MRI takes longer (sometimes 30–60 minutes), and you’ll need to remove any metal objects. Some people find the MRI machine a bit noisy or confined, but you’ll be able to communicate with the staff throughout.
+
+The main goal is to get a clear picture of your brain to help explain the weakness and guide next steps. In the meantime, continue being cautious with walking, and let me know right away if you notice sudden changes like new speech problems, vision loss, or severe headache.
+
+Do you have any concerns about having these tests, or is there anything else you’d like to discuss about what happens next?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 627
-- **Doctor Turns**: 9
-- **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 72-year-old female presenting with left-sided weakness and a right frontal lobe mass. She reported weakness on the left side, veering to the left, and slight dizziness. Her past medical history includes hypertension, and she has no known drug allergies. Neurological examination prior to admission showed normal gait but inability to lift or hold the left leg, weak left hand grip, and decreased strength in left dorsiflexion and plantarflexion. MRI revealed a right frontal lobe mass, and she underwent craniotomy with mass excision on [2143-5-7]. Postoperatively, she initially had antigravity strength only in the left upper extremity and no strength in the left lower extremity, but her motor function gradually improved during her hospital stay. The documented diagnosis was right frontal lobe mass with associated left-sided weakness. Treatment included surgical excision of the mass and postoperative steroids, with ongoing rehabilitation.
-
-## Dialogue Summary
-
-The patient presented with left-sided weakness that began a few days ago. Symptoms include constant weakness on the left side, difficulty walking with a tendency to veer left, slight dizziness, and feeling unsteady when walking; there were no changes in speech, vision, swallowing, or recent falls, and holding objects was not significantly affected. The patient denied recent illnesses, injuries, medication changes, nausea, or vomiting, and reported taking HCTZ for blood pressure. On review, the doctor noted persistent left-sided weakness and unsteadiness impacting mobility but no acute neurological deficits such as speech or vision changes. The assessment included possible causes such as muscle strain, blood pressure changes, or nerve/circulation issues, with concern due to the persistence and impact on mobility in the context of hypertension. The doctor advised the patient to move carefully, use support when walking if needed, and monitor for new symptoms such as confusion, severe headache, trouble speaking, facial drooping, or loss of coordination. The patient was instructed to seek prompt medical attention if symptoms worsen or new symptoms develop and to follow up in person for further evaluation.
-
-## STS Evaluation
-
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
+- **Turn Count**: 21
+- **Word Count**: 1018
+- **Doctor Turns**: 11
+- **Patient Turns**: 10
 
 ## Processing Information
 
-- **Processing Time**: 56.9s
+- **Processing Time**: 95.6s

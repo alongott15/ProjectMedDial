@@ -16,88 +16,81 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.889
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about the patient's symptoms, explores relevant associated features, and provides a clear, cautious explanation and plan. There are no unsupported diagnoses, tests, or treatments introduced, and the conversation remains grounded in the patient's reported symptoms and known diagnoses. The patient responds appropriately and seeks clarification at the end.
+- **Score**: 0.889
+- **Justification**: Combined score 0.89 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.76 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.765 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and asks a reasonable follow-up question. For even greater realism, the patient could mention any relevant past experiences or concerns (e.g., 'I was worried because of my aortic stenosis'), but this is not required.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. For improvement, the doctor could briefly acknowledge the patient's known diagnosis of aortic stenosis earlier in the conversation to further ground the discussion in the patient's history.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with smooth transitions between topics. The summary and safety advice at the end are appropriate. To enhance realism, the doctor might check for medication adherence or recent changes in health status.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns. The doctor provides clear instructions on when to seek urgent care and explains the rationale for further evaluation.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it’s nice to see you today. What brings you in—can you tell me a bit about how you’ve been feeling lately?
+**Doctor**: Welcome back, it's good to see you. How have you been feeling lately? What would you like to discuss today?
 
-**Patient**: I've been having some trouble catching my breath when I walk or go up stairs. That's why I wanted to get it checked out.
+**Patient**: Lately, I've been having a hard time catching my breath when I do things around the house. That’s mainly what’s been worrying me.
 
-**Doctor**: Let me ask—when you feel this shortness of breath, do you also notice any chest discomfort or pain?
+**Doctor**: Let me ask about when this shortness of breath comes on—does it mainly happen during activities, or do you ever notice it when you're resting as well?
 
-**Patient**: Yes, I do get some chest pain along with the shortness of breath, especially when I'm exerting myself.
+**Patient**: It mostly happens when I'm active, like walking or doing chores. I don't really notice it when I'm just sitting down or resting.
 
-**Doctor**: Let me ask about your comfort—does lying down or resting help with the discomfort, or does it ever get worse when you’re not active?
+**Doctor**: Let me ask about any other symptoms—have you noticed any chest discomfort, palpitations, or swelling in your legs when this happens?
 
-**Patient**: Resting does seem to help with the discomfort. I haven’t noticed it getting worse when I’m not active.
+**Patient**: I do get chest pain along with the shortness of breath, especially when I'm more active. I haven’t noticed any palpitations or swelling in my legs.
 
-**Doctor**: Let me ask about how long this has been going on—when did you first notice these symptoms?
+**Doctor**: Let me ask about the chest pain—does it feel sharp, pressure-like, or more of a tightness? And how long does it usually last when it comes on?
 
-**Patient**: I’m not exactly sure when it began, but I think it’s been going on for a couple of weeks now. The chest pain and shortness of breath seem to come together when I’m active.
+**Patient**: The pain feels more like a tightness or pressure in my chest. It usually lasts a few minutes and tends to go away when I stop what I'm doing.
 
-**Doctor**: Got it. Have you noticed any swelling in your ankles or feet lately? Sometimes, that can be connected to what you're experiencing.
+**Doctor**: Alright. When you feel out of breath during activity, do you ever get so winded that you have to stop what you’re doing, or is it more of a mild discomfort that you can push through?
 
-**Patient**: No, I haven’t noticed any swelling in my ankles or feet.
+**Patient**: Sometimes it gets bad enough that I have to stop and catch my breath. Other times, I can push through, but it’s definitely uncomfortable.
 
-**Doctor**: Let me ask about your breathing—do you ever wake up at night feeling short of breath, or is it mainly just with physical activity?
+**Doctor**: Got it. When you feel this way, do you ever notice yourself breathing faster or needing to take deep breaths to try to catch up?
 
-**Patient**: No, I haven’t woken up at night feeling short of breath. It’s mainly just when I’m physically active.
+**Patient**: Yes, I do find myself breathing faster and needing to take deeper breaths to try to catch up when it happens. It can be pretty uncomfortable until I rest.
 
-**Doctor**: Alright. Have you noticed any cough, wheezing, or feeling lightheaded when these episodes occur?
+**Doctor**: Let me ask about your position—does lying down or propping yourself up with pillows have any effect on your breathing?
 
-**Patient**: No, I haven’t had any cough, wheezing, or felt lightheaded during these episodes. It’s just the chest pain and shortness of breath when I’m active.
+**Patient**: Lying down doesn’t really make a difference for my breathing. I haven’t needed extra pillows or anything like that.
 
-**Doctor**: Let me ask about the severity—on a scale from 1 to 10, how intense would you say the discomfort gets when you’re active?
+**Doctor**: Alright. Have you noticed if these episodes are happening more often or getting worse over time, or has it stayed about the same since they started?
 
-**Patient**: I'd rate the discomfort around a 6 when I'm active. It's noticeable, but not unbearable.
+**Patient**: These episodes have been happening a bit more often lately. It feels like it’s getting a little worse compared to before.
 
-**Doctor**: Based on what we've discussed, it sounds like your symptoms are brought on by physical activity and improve with rest, without other issues like swelling, cough, or nighttime breathing problems. This pattern can sometimes be related to the heart or lungs not keeping up with increased demand during exertion, but it can also be seen in less serious conditions like deconditioning or mild respiratory issues.
+**Doctor**: Based on what we've discussed, it sounds like your breathing difficulties and chest tightness are mainly brought on by activity and tend to improve with rest. The fact that these symptoms are happening more often and sometimes force you to stop what you’re doing is important. Often, symptoms like these can be related to the heart or lungs not keeping up with the demands of activity, sometimes due to underlying conditions you may already be aware of.
 
-Because chest discomfort with exertion can occasionally signal something more significant—such as narrowing of the blood vessels supplying the heart—it's important to be cautious. While your symptoms are not severe or constant, and you have no alarming features like fainting or nighttime symptoms, I do recommend you avoid strenuous activity until we look into this further.
+What I’m listening for are any signs that this could be progressing or causing more significant limitations in your daily life. Because your symptoms are getting a bit worse, it would be wise to keep track of how often this happens and if the intensity changes. If you ever notice these symptoms at rest, or if they last longer or become more severe, those would be reasons to seek more urgent attention.
 
-Next steps would typically include a physical exam and possibly some basic tests, like an EKG or lab work, to help clarify the cause. In the meantime, if you notice any new symptoms—such as chest pain at rest, pain spreading to your arm or jaw, severe shortness of breath, or dizziness—seek medical attention promptly.
+For now, try to pace yourself with activities and avoid pushing through discomfort. If you have any new symptoms such as fainting, severe or persistent pain, or difficulty breathing at rest, please let your healthcare provider know immediately. Would you like to discuss adjusting your current management plan or review any medications related to your condition?
 
-Let me know if you have any questions or concerns about what we've discussed so far.
-
-**Patient**: Thanks for explaining everything so clearly. I appreciate you taking the time to walk me through it. I’ll be sure to avoid anything too strenuous and let you know if anything changes. Is there anything specific I should watch out for before my tests?
+**Patient**: That makes sense, thank you for explaining it all. Since I have moderate aortic stenosis, I do worry about these symptoms getting worse. Could we go over my medications and see if anything needs adjusting?
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 586
+- **Word Count**: 660
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 52-year-old female presenting with shortness of breath on exertion and chest pain over the past year. Symptoms were associated with moderate aortic stenosis, as confirmed by cardiac catheterization, with an ejection fraction of 77% and an A-V gradient of 39 mmHg. Relevant history includes aortic stenosis on echocardiogram, hyperlipidemia, and prior cesarean section. Physical examination revealed regular heart rate and rhythm with a clean, dry, intact surgical incision postoperatively. The documented diagnosis was moderate aortic stenosis. She underwent a Bentall procedure and had an uncomplicated postoperative course, including successful extubation, ambulation, and stable vital signs at discharge (BP 122/80, HR 79-80, O2 sat 95% on room air). Discharge medications included Lopressor, Lasix (for five days), potassium supplement, aspirin, and Prempro. She was advised to follow up in three to four weeks and declined home nursing care.
-
-## Dialogue Summary
-
-The patient presented with shortness of breath during physical activity. Symptoms included exertional shortness of breath and chest pain, both occurring together when walking or climbing stairs, with discomfort rated as a 6 out of 10 in intensity and improving with rest; symptoms have been present for a couple of weeks. The patient denied swelling in the ankles or feet, nocturnal shortness of breath, cough, wheezing, or lightheadedness. No relevant past medical history, medications, or allergies were mentioned. The doctor noted that symptoms are triggered by exertion and relieved by rest, without associated alarming features such as fainting or nighttime symptoms. The assessment was that the pattern could be related to cardiac or pulmonary causes, deconditioning, or mild respiratory issues, but exertional chest discomfort warrants caution for possible cardiac causes. The doctor advised the patient to avoid strenuous activity until further evaluation and recommended a physical exam and basic tests such as an EKG or lab work. The patient was instructed to seek prompt medical attention if new symptoms such as chest pain at rest, pain radiating to the arm or jaw, severe shortness of breath, or dizziness develop.
-
-## STS Evaluation
-
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 60.1s
+- **Processing Time**: 81.8s
