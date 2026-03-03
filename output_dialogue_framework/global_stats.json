@@ -1,0 +1,32 @@
+{
+  "total_profiles": 498,
+  "completed_records": 938,
+  "successful_dialogues": 938,
+  "realistic_dialogues": 929,
+  "non_realistic_dialogues": 9,
+  "avg_judge_score": 0.8924831307092147,
+  "avg_processing_time": 100.78813140275382,
+  "by_profile_type": {
+    "FULL": {
+      "success": 312,
+      "fail": 0,
+      "realistic": 310,
+      "non_realistic": 2,
+      "avg_judge_score": 0.8799154210846285
+    },
+    "NO_DIAGNOSIS": {
+      "success": 313,
+      "fail": 0,
+      "realistic": 307,
+      "non_realistic": 6,
+      "avg_judge_score": 0.8890584139916109
+    },
+    "NO_DIAGNOSIS_NO_TREATMENT": {
+      "success": 313,
+      "fail": 0,
+      "realistic": 312,
+      "non_realistic": 1,
+      "avg_judge_score": 0.9084354046244892
+    }
+  }
+}
