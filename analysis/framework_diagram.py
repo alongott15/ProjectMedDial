@@ -165,8 +165,8 @@ box(P1X, 7.50, BW, 1.20, C["data"],
         "Context: Demographics · History · Medications",
     subsize=7.8)
 
-# Horizontal arrow from GTMF → Phase 2 function
-arrow(P1X + BW / 2, 7.50, 5.15, 7.50, color=C["data"])
+# Horizontal arrow from GTMF → Phase 2 function (reaches function box left edge at x=5.50)
+arrow(P1X + BW / 2, 7.50, 5.50, 7.50, color=C["data"])
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -180,16 +180,21 @@ box(P2X, 7.50, PBW, 0.80, C["process"],
     "generate_all_profile_types()", bold=True,
     sub="Utils/partial_profile.py", subsize=7.5)
 
-# Arrows from function up to FULL and down to NO_DIAG_NO_TREAT
-arrow(P2X, 7.50 + 0.40, P2X, 10.55, color=C["profile"])
-arrow(P2X, 7.50 - 0.40, P2X, 5.05,  color=C["profile"])
-
-# Profile boxes
+# Profile boxes — spread vertically so none overlaps the function box at y=7.50
+# Heights: FULL→0.95, NO_DIAGNOSIS→0.95, NO_DIAG_NO_TREAT→1.10 (has \n in title)
 PROFILES = [
-    (10.90, "FULL",                   "Symptoms · Diagnoses\n· Treatment Options"),
-    ( 7.50, "NO_DIAGNOSIS",           "Diagnoses removed"),
-    ( 4.20, "NO_DIAGNOSIS\n_NO_TREATMENT", "Diagnoses + Treatments\nremoved"),
+    (11.20, "FULL",                        "Symptoms · Diagnoses\n· Treatment Options"),
+    ( 9.20, "NO_DIAGNOSIS",                "Diagnoses removed"),
+    ( 5.60, "NO_DIAGNOSIS\n_NO_TREATMENT", "Diagnoses + Treatments\nremoved"),
 ]
+
+# Arrows from function to all 3 profiles
+# Two upward arrows from function top (y=7.90): shorter one ends at NO_DIAGNOSIS bottom (y=8.725),
+# longer one ends at FULL bottom (y=10.725). The overlapping lower segment creates a clear branch.
+arrow(P2X, 7.90, P2X,  8.725, color=C["profile"])   # function top → NO_DIAGNOSIS bottom
+arrow(P2X, 7.90, P2X, 10.725, color=C["profile"])   # function top → FULL bottom
+# Downward arrow from function bottom (y=7.10) to NO_DIAG_NO_TREAT top (y=6.15)
+arrow(P2X, 7.10, P2X,  6.15,  color=C["profile"])   # function bottom → NO_DIAG_NO_TREAT top
 
 for py, ptitle, psub in PROFILES:
     h = 1.10 if "\n" in ptitle else 0.95
