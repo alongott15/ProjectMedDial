@@ -1,65 +1,44 @@
 """
 framework_diagram.py
 ====================
-Produces a single, publication-quality figure that illustrates the complete
-MedDial pipeline:
-
-  Phase 1 — GTMF Generation
-    MIMIC-III CSV  →  Light-Case Filter  →  GPT-4.1 Chunked Extraction
-    →  GTMF (Core + Context + Additional)  →  gtmf/ .md files
-
-  Phase 2 — Profile-Type Derivation
-    GTMF  →  [FULL | NO_DIAGNOSIS | NO_DIAGNOSIS_NO_TREATMENT]
-
-  Phase 3 — Iterative Dialogue Generation
-    Patient & Doctor Agents  →  Simulate Dialogue
-    →  DeepEval Judge (Naturalness + Profile Compliance + RAGAS Faithfulness)
-    →  REALISTIC  →  save output
-    →  UNREALISTIC + attempts left  →  PromptImprovement  →  retry (up to 3×)
-
-  Phase 4 — Output & Evaluation
-    Per-dialogue .md files  →  Aggregate statistics
+Publication-quality pipeline diagram for the MedDial framework.
+Saved as framework_diagram.pdf + framework_diagram.png (300 DPI).
 """
 
 import matplotlib
 matplotlib.use("Agg")
-
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
-from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
-import matplotlib.patheffects as pe
+from matplotlib.patches import FancyBboxPatch
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parent / "figures"
 OUT.mkdir(parents=True, exist_ok=True)
 
-# ── Colour palette ─────────────────────────────────────────────────────────────
+# ── Colours ────────────────────────────────────────────────────────────────────
 C = {
-    "data":     "#1565C0",   # dark blue   – data sources / storage
-    "process":  "#2E7D32",   # dark green  – processing steps
-    "agent":    "#6A1B9A",   # purple      – LLM agents
-    "profile":  "#E65100",   # orange      – profile types
-    "judge":    "#AD1457",   # deep pink   – judge / evaluation
-    "output":   "#00695C",   # teal        – outputs
-    "arrow":    "#37474F",   # dark grey   – arrows
-    "loop":     "#B71C1C",   # red         – feedback loop
-    "bg_phase": "#F5F5F5",   # light grey  – phase background
-    "text_dark":"#212121",
-    "text_light":"#FFFFFF",
+    "data":       "#1565C0",  # dark blue   – data / records
+    "process":    "#2E7D32",  # dark green  – processing steps
+    "agent":      "#6A1B9A",  # purple      – LLM agents
+    "profile":    "#E65100",  # orange      – profile types
+    "judge":      "#AD1457",  # deep pink   – evaluation
+    "output":     "#00695C",  # teal        – final output
+    "arrow":      "#37474F",  # dark grey   – neutral arrows
+    "loop":       "#B71C1C",  # red         – feedback loop
+    "bg_phase":   "#F5F5F5",  # light grey  – phase backgrounds
+    "text_light": "#FFFFFF",
+    "text_dark":  "#212121",
 }
 
-FONT = "DejaVu Sans"
-
 plt.rcParams.update({
-    "font.family": FONT,
-    "font.size": 9,
-    "figure.dpi": 150,
+    "font.family": "DejaVu Sans",
+    "font.size":   9,
     "savefig.dpi": 300,
     "savefig.bbox": "tight",
     "savefig.pad_inches": 0.15,
 })
 
-FIG_W, FIG_H = 20, 13
+FIG_W, FIG_H = 20, 14
 fig, ax = plt.subplots(figsize=(FIG_W, FIG_H))
 ax.set_xlim(0, FIG_W)
 ax.set_ylim(0, FIG_H)
@@ -67,411 +46,311 @@ ax.axis("off")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# Helper functions
+# Helpers
 # ══════════════════════════════════════════════════════════════════════════════
 
-def box(ax, x, y, w, h, color, text, fontsize=9, text_color=None,
-        bold=False, style="round,pad=0.1", alpha=0.92, zorder=3,
-        subtext=None, subsize=7.5):
-    """Draw a rounded rectangle with centred label (+ optional sub-label)."""
-    tc = text_color or C["text_light"]
+def box(x, y, w, h, color, title, sub=None,
+        fontsize=9.5, subsize=8.0, bold=False, alpha=0.93, zorder=3):
     patch = FancyBboxPatch(
         (x - w / 2, y - h / 2), w, h,
-        boxstyle=style,
+        boxstyle="round,pad=0.12",
         facecolor=color, edgecolor="white",
-        linewidth=1.2, alpha=alpha, zorder=zorder,
+        linewidth=1.4, alpha=alpha, zorder=zorder,
     )
     ax.add_patch(patch)
-    weight = "bold" if bold else "normal"
-    ty = y if subtext is None else y + h * 0.14
-    ax.text(x, ty, text, ha="center", va="center",
-            fontsize=fontsize, color=tc, fontweight=weight, zorder=zorder + 1,
-            wrap=True)
-    if subtext:
-        ax.text(x, y - h * 0.22, subtext, ha="center", va="center",
-                fontsize=subsize, color=tc, alpha=0.88, zorder=zorder + 1,
-                style="italic")
+    ty = y if sub is None else y + h * 0.16
+    ax.text(x, ty, title, ha="center", va="center",
+            fontsize=fontsize, color=C["text_light"],
+            fontweight="bold" if bold else "normal", zorder=zorder + 1)
+    if sub:
+        ax.text(x, y - h * 0.24, sub, ha="center", va="center",
+                fontsize=subsize, color=C["text_light"],
+                alpha=0.90, style="italic", zorder=zorder + 1)
 
 
-def phase_bg(ax, x0, y0, x1, y1, label, label_color="#555555"):
-    """Draw a light background rectangle labelling a pipeline phase."""
-    rect = FancyBboxPatch(
-        (x0, y0), x1 - x0, y1 - y0,
-        boxstyle="round,pad=0.05",
-        facecolor=C["bg_phase"], edgecolor="#BDBDBD",
-        linewidth=1.0, alpha=0.55, zorder=1,
-    )
-    ax.add_patch(rect)
-    ax.text((x0 + x1) / 2, y1 - 0.18, label,
-            ha="center", va="top", fontsize=8.5,
-            color=label_color, fontweight="bold",
-            style="italic", zorder=2)
-
-
-def arrow(ax, x0, y0, x1, y1, color=None, label="", lw=1.6,
-          style="arc3,rad=0.0", zorder=4, label_color=None):
+def arrow(x0, y0, x1, y1, color=None, label="", lw=1.7,
+          conn="arc3,rad=0.0", zorder=5):
     color = color or C["arrow"]
-    ax.annotate(
-        "", xy=(x1, y1), xytext=(x0, y0),
-        arrowprops=dict(
-            arrowstyle="-|>",
-            color=color,
-            lw=lw,
-            connectionstyle=style,
-        ),
-        zorder=zorder,
-    )
+    ax.annotate("", xy=(x1, y1), xytext=(x0, y0),
+                arrowprops=dict(arrowstyle="-|>", color=color, lw=lw,
+                                connectionstyle=conn),
+                zorder=zorder)
     if label:
         mx, my = (x0 + x1) / 2, (y0 + y1) / 2
-        lc = label_color or color
         ax.text(mx, my, label, ha="center", va="center",
-                fontsize=7.5, color=lc, fontweight="bold",
-                bbox=dict(boxstyle="round,pad=0.15", fc="white",
-                          ec=lc, lw=0.6, alpha=0.9),
+                fontsize=8.0, color=color, fontweight="bold",
+                bbox=dict(boxstyle="round,pad=0.18", fc="white",
+                          ec=color, lw=0.7, alpha=0.95),
                 zorder=zorder + 1)
 
 
-def diamond(ax, x, y, w, h, color, text, fontsize=9, zorder=3):
-    """Draw a decision diamond."""
+def diamond(x, y, w, h, color, text, fontsize=9, zorder=4):
     dx, dy = w / 2, h / 2
     pts = [(x, y + dy), (x + dx, y), (x, y - dy), (x - dx, y)]
     poly = plt.Polygon(pts, closed=True,
                        facecolor=color, edgecolor="white",
-                       linewidth=1.2, alpha=0.92, zorder=zorder)
+                       linewidth=1.4, alpha=0.93, zorder=zorder)
     ax.add_patch(poly)
     ax.text(x, y, text, ha="center", va="center",
             fontsize=fontsize, color=C["text_light"],
             fontweight="bold", zorder=zorder + 1)
 
 
-def divider(ax, x, y0, y1):
-    ax.plot([x, x], [y0, y1], lw=1.2, color="#9E9E9E",
-            linestyle="--", zorder=2, alpha=0.7)
+def phase_bg(x0, y0, x1, y1, label):
+    patch = FancyBboxPatch(
+        (x0, y0), x1 - x0, y1 - y0,
+        boxstyle="round,pad=0.05",
+        facecolor=C["bg_phase"], edgecolor="#BDBDBD",
+        linewidth=1.0, alpha=0.55, zorder=1,
+    )
+    ax.add_patch(patch)
+    ax.text((x0 + x1) / 2, y1 - 0.14, label,
+            ha="center", va="top", fontsize=9.0,
+            color="#424242", fontweight="bold", style="italic", zorder=2)
+
+
+def vline(x, y0, y1, color, lw=1.7):
+    ax.plot([x, x], [y0, y1], color=color, lw=lw, zorder=5)
+
+
+def hline(x0, x1, y, color, lw=1.7):
+    ax.plot([x0, x1], [y, y], color=color, lw=lw, zorder=5)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# Phase backgrounds
+# Phase backgrounds  (bottom=0.40, top=13.30)
 # ══════════════════════════════════════════════════════════════════════════════
-PHASE_TOP    = 12.55
-PHASE_BOTTOM =  0.35
+PT, PB = 13.30, 0.40
 
-phase_bg(ax, 0.20,  PHASE_BOTTOM, 4.55,  PHASE_TOP, "Phase 1 · GTMF Generation")
-phase_bg(ax, 4.65,  PHASE_BOTTOM, 8.10,  PHASE_TOP, "Phase 2 · Profile Derivation")
-phase_bg(ax, 8.20,  PHASE_BOTTOM, 15.75, PHASE_TOP, "Phase 3 · Dialogue Generation")
-phase_bg(ax, 15.85, PHASE_BOTTOM, 19.80, PHASE_TOP, "Phase 4 · Output & Evaluation")
+phase_bg(0.15,  PB, 5.05,  PT, "Phase 1 · GTMF Generation")
+phase_bg(5.15,  PB, 9.05,  PT, "Phase 2 · Profile Derivation")
+phase_bg(9.15,  PB, 19.85, PT, "Phase 3 · Dialogue Generation")
 
-divider(ax, 4.60,  PHASE_BOTTOM, PHASE_TOP)
-divider(ax, 8.15,  PHASE_BOTTOM, PHASE_TOP)
-divider(ax, 15.80, PHASE_BOTTOM, PHASE_TOP)
+for xd in (5.10, 9.10):
+    ax.plot([xd, xd], [PB, PT], lw=1.2, color="#9E9E9E",
+            linestyle="--", alpha=0.7, zorder=2)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# Phase 1 — GTMF Generation
-#   Column x ≈ 2.35
+# Phase 1 — GTMF Generation   (centre x = 2.60)
 # ══════════════════════════════════════════════════════════════════════════════
-P1X = 2.35
+P1X = 2.60
+BW  = 3.80   # box width for phase 1
 
-# MIMIC-III source
-box(ax, P1X, 11.90, 3.60, 0.80, C["data"],
-    "MIMIC-III EHR Database", fontsize=9.5, bold=True,
-    subtext="Discharge Summaries (CSV)")
+# MIMIC-III
+box(P1X, 12.30, BW, 0.90, C["data"],
+    "MIMIC-III EHR Database", bold=True,
+    sub="Clinical Discharge Summaries")
 
-arrow(ax, P1X, 11.50, P1X, 10.85)
+arrow(P1X, 11.85, P1X, 11.20)
 
 # Light-case filter
-box(ax, P1X, 10.55, 3.40, 0.78, C["process"],
-    "Light-Case Filter", fontsize=9,
-    subtext="50+ symptom terms · exclude ICU/severe")
+box(P1X, 10.85, BW, 0.90, C["process"],
+    "Light-Case Filter",
+    sub="50+ symptom terms · exclude ICU / severe")
 
-arrow(ax, P1X, 10.16, P1X, 9.52, label="passed")
+arrow(P1X, 10.40, P1X, 9.75, label="passed")
 
-# Text chunker
-box(ax, P1X, 9.22, 3.40, 0.75, C["process"],
-    "Text Chunker", fontsize=9,
-    subtext="3000-char chunks · 200-char overlap")
+# GPT-4.1 extraction  (chunking folded into subtext)
+box(P1X, 9.35, BW, 1.00, C["agent"],
+    "GPT-4.1 Extraction Agent", bold=True,
+    sub="3k-char chunked · structured JSON · bias-aware")
 
-arrow(ax, P1X, 8.85, P1X, 8.25)
+arrow(P1X, 8.85, P1X, 8.10)
 
-# GPT-4.1 extraction
-box(ax, P1X, 7.90, 3.40, 0.82, C["agent"],
-    "GPT-4.1 Extraction Agent", fontsize=9, bold=True,
-    subtext="Structured JSON · bias-aware prompt")
+# GTMF Record  (fields shown inline)
+box(P1X, 7.50, BW, 1.20, C["data"],
+    "GTMF Record", bold=True,
+    sub="Core: Symptoms · Diagnoses · Treatments\n"
+        "Context: Demographics · History · Medications",
+    subsize=7.8)
 
-arrow(ax, P1X, 7.49, P1X, 6.92)
-
-# Merge chunks
-box(ax, P1X, 6.62, 3.40, 0.75, C["process"],
-    "Chunk Merger", fontsize=9,
-    subtext="Deduplicate symptoms / diagnoses / treatments")
-
-arrow(ax, P1X, 6.25, P1X, 5.50)
-
-# GTMF structured block — drawn as a stacked card
-box(ax, P1X, 5.12, 3.60, 0.95, C["data"],
-    "GTMF Record", fontsize=9.5, bold=True,
-    subtext="subject_id · hadm_id · case_type")
-
-# Three GTMF sub-fields inside a nested box
-GTMF_fields = [
-    ("Core Fields",       "Symptoms · Diagnoses\nTreatment_Options",    3.95),
-    ("Context Fields",    "Demographics · Med History\nAllergies · Meds", 3.05),
-    ("Additional Context","Chief Complaint",                              2.20),
-]
-for title, sub, fy in GTMF_fields:
-    box(ax, P1X, fy, 3.20, 0.68, C["data"],
-        title, fontsize=8.0, bold=True,
-        subtext=sub, subsize=7.0, alpha=0.80)
-    if fy < 3.9:
-        arrow(ax, P1X, fy + 0.34, P1X, fy - 0.34 + 0.68, color="#90A4AE")
-
-# bracket / brace showing three sub-fields belong to GTMF
-ax.annotate("", xy=(P1X - 1.80, 1.88), xytext=(P1X - 1.80, 4.62),
-            arrowprops=dict(arrowstyle="-", color="#78909C", lw=1.0))
-
-arrow(ax, P1X, 4.61, P1X, 4.35)  # Core → link above
-arrow(ax, P1X, 1.88, P1X, 1.60)  # bottom sub-field → gtmf/ storage
-
-# Storage
-box(ax, P1X, 1.28, 3.20, 0.60, C["data"],
-    "gtmf/  · per-case .md files", fontsize=8.5,
-    subtext="Resume-aware · skip if exists")
+# Horizontal arrow from GTMF → Phase 2 function
+arrow(P1X + BW / 2, 7.50, 5.15, 7.50, color=C["data"])
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# Phase 2 — Profile-Type Derivation
-#   Column x ≈ 6.35
+# Phase 2 — Profile Derivation   (centre x = 7.10)
 # ══════════════════════════════════════════════════════════════════════════════
-P2X = 6.35
+P2X  = 7.10
+PBW  = 3.20   # profile box width
 
-arrow(ax, 4.15, 6.62, P2X - 1.05, 6.62)   # GTMF → generate_all_profile_types
+# generate_all_profile_types()  – drawn first so profile boxes appear on top
+box(P2X, 7.50, PBW, 0.80, C["process"],
+    "generate_all_profile_types()", bold=True,
+    sub="Utils/partial_profile.py", subsize=7.5)
 
-box(ax, P2X, 6.62, 2.80, 0.80, C["process"],
-    "generate_all_profile_types()", fontsize=8.5, bold=True,
-    subtext="Utils/partial_profile.py")
+# Arrows from function up to FULL and down to NO_DIAG_NO_TREAT
+arrow(P2X, 7.50 + 0.40, P2X, 10.55, color=C["profile"])
+arrow(P2X, 7.50 - 0.40, P2X, 5.05,  color=C["profile"])
 
-# Three profile output boxes at different heights
-PROFILE_Y = [9.70, 6.62, 3.55]
-PROFILE_COLORS = [C["profile"]] * 3
-PROFILE_TITLES = ["FULL", "NO_DIAGNOSIS", "NO_DIAGNOSIS\nNO_TREATMENT"]
-PROFILE_SUBS = [
-    "Symptoms · Diagnoses\n· Treatment_Options",
-    "Symptoms only\n(Diagnoses removed)",
-    "Symptoms only\n(Diagnoses + Treatments\nremoved)",
+# Profile boxes
+PROFILES = [
+    (10.90, "FULL",                   "Symptoms · Diagnoses\n· Treatment Options"),
+    ( 7.50, "NO_DIAGNOSIS",           "Diagnoses removed"),
+    ( 4.20, "NO_DIAGNOSIS\n_NO_TREATMENT", "Diagnoses + Treatments\nremoved"),
 ]
 
-arrow(ax, P2X, 7.02, P2X, 8.10, color=C["profile"])   # up → FULL
-arrow(ax, P2X, 6.22, P2X, 5.10, color=C["profile"])   # down → NO_DIAG_NO_TREAT
-
-for py, ptitle, psub in zip(PROFILE_Y, PROFILE_TITLES, PROFILE_SUBS):
-    box(ax, P2X, py, 2.80, 0.90 if "\n" in psub else 0.80,
-        C["profile"], ptitle,
-        fontsize=9, bold=True, subtext=psub, subsize=7.5)
-
-# sub-labels
-ax.text(P2X + 1.55, 9.70, "profile_type =\n\"FULL\"",
-        fontsize=7.0, color=C["profile"], va="center", ha="left")
-ax.text(P2X + 1.55, 6.62, "profile_type =\n\"NO_DIAGNOSIS\"",
-        fontsize=7.0, color=C["profile"], va="center", ha="left")
-ax.text(P2X + 1.55, 3.55, "profile_type =\n\"NO_DIAGNOSIS\n_NO_TREATMENT\"",
-        fontsize=7.0, color=C["profile"], va="center", ha="left")
+for py, ptitle, psub in PROFILES:
+    h = 1.10 if "\n" in ptitle else 0.95
+    box(P2X, py, PBW, h, C["profile"],
+        ptitle, bold=True, sub=psub, subsize=7.8)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
 # Phase 3 — Iterative Dialogue Generation
-#   Main lane x ≈ 11.0 – 15.5
 # ══════════════════════════════════════════════════════════════════════════════
 
-# Three arrows (one per profile type) merge into a single lane
-MERGE_X = 8.75
-DIAL_X   = 11.00
+# ── Iteration loop background ─────────────────────────────────────────────────
+LX0, LX1 = 9.30, 15.80
+LY0, LY1 = 1.40, 13.00
 
-for py in PROFILE_Y:
-    arrow(ax, P2X + 1.40, py, MERGE_X - 0.05, py, color=C["profile"])
-
-# Merge node
-box(ax, MERGE_X, 6.62, 0.80, 5.30, C["process"],
-    "Per\nprofile\ntype\nloop", fontsize=7.5, bold=False,
-    style="round,pad=0.05", alpha=0.70)
-
-arrow(ax, MERGE_X + 0.40, 6.62, DIAL_X - 1.10, 6.62, color=C["arrow"])
-
-# ── Attempt loop box ───────────────────────────────────────────────────────────
-loop_x0, loop_x1 = 9.50, 15.45
-loop_y0, loop_y1 = 2.80, 11.60
-loop_rect = FancyBboxPatch(
-    (loop_x0, loop_y0), loop_x1 - loop_x0, loop_y1 - loop_y0,
-    boxstyle="round,pad=0.12",
+loop_patch = FancyBboxPatch(
+    (LX0, LY0), LX1 - LX0, LY1 - LY0,
+    boxstyle="round,pad=0.10",
     facecolor="#FFF8E1", edgecolor=C["loop"],
-    linewidth=1.5, alpha=0.45, zorder=1,
+    linewidth=1.8, alpha=0.40, zorder=1,
 )
-ax.add_patch(loop_rect)
-ax.text((loop_x0 + loop_x1) / 2, loop_y1 - 0.14,
+ax.add_patch(loop_patch)
+ax.text((LX0 + LX1) / 2, LY1 - 0.16,
         "Iterative Generation Loop  (max 3 attempts)",
-        ha="center", va="top", fontsize=8.5,
+        ha="center", va="top", fontsize=9.0,
         color=C["loop"], fontweight="bold", style="italic", zorder=2)
 
-# Patient Agent
-box(ax, DIAL_X, 10.20, 2.60, 0.85, C["agent"],
-    "Patient Agent", fontsize=9.5, bold=True,
-    subtext="Profile-constrained · bias-aware\nresponse generation")
+# ── Arrows: profile boxes → loop ─────────────────────────────────────────────
+for py, _, _ in PROFILES:
+    arrow(P2X + PBW / 2, py, LX0, py, color=C["profile"])
 
-# Doctor Agent
-box(ax, DIAL_X + 3.20, 10.20, 2.60, 0.85, C["agent"],
-    "Doctor Agent", fontsize=9.5, bold=True,
-    subtext="Progressive questioning\nhistory-aware")
+# ── Agents (side by side at top of loop) ─────────────────────────────────────
+PAT_X, DOC_X = 10.70, 14.40
+AGENT_Y = 12.00
+ABW, ABH = 2.90, 0.95
 
-# Double-headed conversation arrow
-ax.annotate("", xy=(DIAL_X + 1.87, 10.20), xytext=(DIAL_X + 1.33, 10.20),
-            arrowprops=dict(arrowstyle="<->", color=C["arrow"], lw=1.6), zorder=4)
-ax.text(DIAL_X + 1.60, 10.52, "turns", ha="center", va="bottom",
-        fontsize=7.5, color=C["arrow"])
+box(PAT_X, AGENT_Y, ABW, ABH, C["agent"],
+    "Patient Agent", bold=True,
+    sub="Profile-constrained · bias-aware")
 
-# simulate_dialogue
-box(ax, DIAL_X + 1.60, 8.80, 4.10, 0.85, C["process"],
-    "simulate_dialogue()", fontsize=9, bold=True,
-    subtext="max_turns=30 · loop detection · confusion limit")
+box(DOC_X, AGENT_Y, ABW, ABH, C["agent"],
+    "Doctor Agent", bold=True,
+    sub="Progressive questioning")
 
-# Arrows: agents → simulate
-arrow(ax, DIAL_X,        9.78, DIAL_X + 0.55, 9.22)
-arrow(ax, DIAL_X + 3.20, 9.78, DIAL_X + 2.65, 9.22)
+# Double-headed arrow between agents
+CX = (PAT_X + DOC_X) / 2
+ax.annotate("", xy=(DOC_X - ABW / 2 - 0.08, AGENT_Y),
+            xytext=(PAT_X + ABW / 2 + 0.08, AGENT_Y),
+            arrowprops=dict(arrowstyle="<->", color=C["arrow"], lw=1.8),
+            zorder=5)
+ax.text(CX, AGENT_Y + 0.40, "multi-turn conversation",
+        ha="center", va="bottom", fontsize=8.0, color=C["arrow"])
 
-arrow(ax, DIAL_X + 1.60, 8.37, DIAL_X + 1.60, 7.72)
+# ── simulate_dialogue() ───────────────────────────────────────────────────────
+SIM_Y = 10.30
+SIM_X = CX
+SBW   = 4.60
 
-# Conversation transcript box
-box(ax, DIAL_X + 1.60, 7.42, 4.10, 0.75, C["process"],
-    "Conversation Transcript", fontsize=9,
-    subtext="Doctor & Patient turns · formatted text")
+box(SIM_X, SIM_Y, SBW, 0.95, C["process"],
+    "simulate_dialogue()", bold=True,
+    sub="Loop detection · confusion limit · max turns=30")
 
-arrow(ax, DIAL_X + 1.60, 7.04, DIAL_X + 1.60, 6.42)
+arrow(PAT_X, AGENT_Y - ABH / 2, SIM_X - SBW * 0.28, SIM_Y + 0.48,
+      color=C["arrow"], conn="arc3,rad=0.1")
+arrow(DOC_X, AGENT_Y - ABH / 2, SIM_X + SBW * 0.28, SIM_Y + 0.48,
+      color=C["arrow"], conn="arc3,rad=-0.1")
 
-# DeepEval Judge
-box(ax, DIAL_X + 1.60, 6.10, 4.30, 0.82, C["judge"],
-    "DeepEval Judge Agent", fontsize=9.5, bold=True,
-    subtext="GPT-4.1  ·  GEval metrics  ·  RAGAS faithfulness")
+# ── DeepEval Judge ───────────────────────────────────────────────────────────
+JUDGE_Y = 8.35
+JBW     = 4.80
 
-# Sub-score boxes (below judge, side by side)
-SUB_Y = 4.90
-SUB_W = 1.22
-SUB_SPACING = 1.36
-SUB_XS = [DIAL_X + 0.25, DIAL_X + 1.61, DIAL_X + 2.97]
-SUB_LABELS = ["Naturalness\n(×0.4)", "Profile\nCompliance\n(×0.3)", "RAGAS\nFaithfulness\n(×0.3)"]
+arrow(SIM_X, SIM_Y - 0.48, SIM_X, JUDGE_Y + 0.50)
+
+box(SIM_X, JUDGE_Y, JBW, 0.95, C["judge"],
+    "DeepEval Judge Agent", bold=True,
+    sub="GPT-4.1  ·  GEval metrics  ·  RAGAS faithfulness")
+
+# ── Sub-scores ───────────────────────────────────────────────────────────────
+SUB_Y  = 6.55
+SUB_W  = 1.35
+SUB_H  = 0.90
+SUB_XS = [SIM_X - 1.60, SIM_X, SIM_X + 1.60]
+SUB_LABELS = [
+    "Naturalness\n(× 0.4)",
+    "Profile\nCompliance\n(× 0.3)",
+    "RAGAS\nFaithfulness\n(× 0.3)",
+]
 
 for sx, sl in zip(SUB_XS, SUB_LABELS):
-    box(ax, sx, SUB_Y, SUB_W, 0.88, C["judge"],
-        sl, fontsize=7.5, bold=False, alpha=0.75)
-    arrow(ax, DIAL_X + 1.60, 5.69, sx, SUB_Y + 0.44,
-          color=C["judge"], lw=1.2)
+    arrow(SIM_X, JUDGE_Y - 0.48, sx, SUB_Y + SUB_H / 2,
+          color=C["judge"], lw=1.3)
+    box(sx, SUB_Y, SUB_W, SUB_H, C["judge"], sl,
+        fontsize=8.0, alpha=0.80)
 
-# Combined score arrow
-arrow(ax, DIAL_X + 1.60, 4.46, DIAL_X + 1.60, 3.95, color=C["judge"])
+# ── Combined score → diamond ──────────────────────────────────────────────────
+DIAM_Y = 4.80
+arrow(SIM_X, SUB_Y - SUB_H / 2, SIM_X, DIAM_Y + 0.44,
+      color=C["judge"], label="combined score")
 
-# Decision diamond
-diamond(ax, DIAL_X + 1.60, 3.58, 2.50, 0.72, C["judge"],
-        "Score ≥ 0.70?", fontsize=8.5)
+diamond(SIM_X, DIAM_Y, 2.70, 0.85, C["judge"], "Score ≥ 0.70?")
 
-# YES → right (to output phase)
-arrow(ax, DIAL_X + 2.85, 3.58, 15.65, 3.58, color="#2E7D32", lw=1.8, label="YES")
+# ── PromptImprovement (NO path) ───────────────────────────────────────────────
+IMP_Y = 2.80
+IMP_X = SIM_X
+IBW   = 4.60
 
-# NO → check attempts
-arrow(ax, DIAL_X + 1.60, 3.22, DIAL_X + 1.60, 2.54, color=C["loop"], lw=1.6, label="NO")
+arrow(SIM_X, DIAM_Y - 0.43, IMP_X, IMP_Y + 0.45,
+      color=C["loop"], lw=1.8, label="NO")
 
-# "Attempts left?" secondary diamond — placed under the loop box
-box(ax, DIAL_X + 1.60, 2.20, 2.50, 0.55, C["loop"],
-    "Attempts remaining?", fontsize=8, bold=False, alpha=0.85)
+box(IMP_X, IMP_Y, IBW, 0.90, C["agent"],
+    "Prompt Improvement Agent", bold=True,
+    sub="Judge feedback → refined prompts")
 
-# NO → give up (goes right to output as failed)
-arrow(ax, DIAL_X + 2.85, 2.20, 15.65, 2.20, color=C["loop"], lw=1.4, label="NO — best kept")
+# Loop-back arrow: left side, up to agents
+LOOP_BACK_X = LX0 + 0.22
+hline(IMP_X - IBW / 2, LOOP_BACK_X, IMP_Y, C["loop"])
+vline(LOOP_BACK_X, IMP_Y, AGENT_Y, C["loop"])
+arrow(LOOP_BACK_X, AGENT_Y, PAT_X - ABW / 2, AGENT_Y,
+      color=C["loop"], lw=1.8)
+ax.text(LOOP_BACK_X - 0.12, (IMP_Y + AGENT_Y) / 2,
+        "retry", ha="right", va="center",
+        fontsize=8.0, color=C["loop"], fontweight="bold", rotation=90)
 
-# YES → PromptImprovement
-arrow(ax, DIAL_X + 1.60, 1.92, DIAL_X + 1.60, 1.48, color=C["process"], lw=1.6, label="YES")
+# ── Generated Dialogue  (YES path, terminal) ──────────────────────────────────
+GEN_X = 18.00
+GEN_Y = DIAM_Y
+GBW   = 3.50
+GBH   = 1.30
 
-# PromptImprovement Agent
-box(ax, DIAL_X + 1.60, 1.20, 4.20, 0.60, C["agent"],
-    "PromptImprovement Agent", fontsize=9, bold=True,
-    subtext="Judge feedback → refined patient/doctor prompts")
+arrow(SIM_X + 2.70 / 2, DIAM_Y, GEN_X - GBW / 2, DIAM_Y,
+      color=C["output"], lw=2.2, label="YES")
 
-# Loop-back arrow (goes left, up, back into agents)
-ax.annotate("", xy=(DIAL_X - 0.50, 10.20),
-            xytext=(DIAL_X - 0.50, 1.20),
-            arrowprops=dict(arrowstyle="-|>", color=C["loop"], lw=1.8,
-                            connectionstyle="arc3,rad=0.0"), zorder=5)
-ax.plot([DIAL_X + 1.60 - 2.10, DIAL_X - 0.50],
-        [1.20, 1.20], color=C["loop"], lw=1.8, zorder=5)
-ax.text(DIAL_X - 0.68, 6.0, "retry with\nimproved\nprompts",
-        ha="right", va="center", fontsize=7.5,
-        color=C["loop"], fontweight="bold", rotation=90)
-
-
-# ══════════════════════════════════════════════════════════════════════════════
-# Phase 4 — Output & Evaluation
-#   Column x ≈ 17.80
-# ══════════════════════════════════════════════════════════════════════════════
-P4X = 17.80
-
-# Dialogue .md output
-box(ax, P4X, 3.58, 3.30, 0.95, C["output"],
-    "Dialogue .md Output", fontsize=9.5, bold=True,
-    subtext="Transcript · scores · attempts\nprocessing_time · turn count")
-
-arrow(ax, P4X, 4.06, P4X, 5.20, color=C["output"])
-
-# Evaluation scores summary
-box(ax, P4X, 5.52, 3.30, 0.82, C["output"],
-    "Per-Dialogue Scores", fontsize=9,
-    subtext="judge_score · naturalness\nprofile_compliance · RAGAS faithfulness")
-
-arrow(ax, P4X, 5.93, P4X, 6.90, color=C["output"])
-
-# Global stats
-box(ax, P4X, 7.22, 3.30, 0.82, C["output"],
-    "Aggregate Statistics", fontsize=9, bold=True,
-    subtext="Realism rate · attempt distribution\nmean scores · processing times")
-
-arrow(ax, P4X, 7.63, P4X, 8.50, color=C["output"])
-
-# Paper figures
-box(ax, P4X, 8.82, 3.30, 0.82, C["output"],
-    "Research Paper Figures", fontsize=9,
-    subtext="analysis/figures/ · 8 PDFs\nLaTeX summary table")
-
-# Arrow from YES decision to output
-# already drawn above to x=15.65 at y=3.58 and y=2.20
-
-# Connector from 15.65 up to output box
-ax.plot([15.65, 15.65], [2.20, 3.58], color="#2E7D32", lw=1.8, zorder=4)
-ax.annotate("", xy=(P4X - 1.65, 3.58), xytext=(15.65, 3.58),
-            arrowprops=dict(arrowstyle="-|>", color="#2E7D32", lw=1.8), zorder=4)
-
-# Failed path from "best kept"
-ax.plot([15.65, 16.35], [2.20, 2.20], color=C["loop"], lw=1.4, zorder=4)
-ax.plot([16.35, 16.35], [2.20, 3.10], color=C["loop"], lw=1.4, zorder=4)
-ax.annotate("", xy=(P4X - 1.65, 3.10), xytext=(16.35, 3.10),
-            arrowprops=dict(arrowstyle="-|>", color=C["loop"], lw=1.4), zorder=4)
+box(GEN_X, GEN_Y, GBW, GBH, C["output"],
+    "Generated Dialogue", bold=True,
+    sub="Doctor–Patient conversation\nJudge score · profile type · turn count",
+    subsize=8.0)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
 # Title & legend
 # ══════════════════════════════════════════════════════════════════════════════
-ax.text(FIG_W / 2, FIG_H - 0.28,
-        "MedDial Framework: End-to-End Pipeline for Synthetic Medical Dialogue Generation",
+ax.text(FIG_W / 2, FIG_H - 0.22,
+        "MedDial: End-to-End Pipeline for Synthetic Medical Dialogue Generation",
         ha="center", va="top", fontsize=14, fontweight="bold",
         color=C["text_dark"], zorder=10)
 
 legend_items = [
-    (C["data"],    "Data / Storage"),
+    (C["data"],    "Data / Record"),
     (C["process"], "Processing Step"),
     (C["agent"],   "LLM Agent (GPT-4.1)"),
     (C["profile"], "Profile Type"),
     (C["judge"],   "Evaluation / Judge"),
-    (C["output"],  "Output / Results"),
+    (C["output"],  "Generated Dialogue"),
     (C["loop"],    "Feedback / Retry Loop"),
 ]
 handles = [mpatches.Patch(color=c, label=l) for c, l in legend_items]
 ax.legend(handles=handles, loc="lower center",
-          bbox_to_anchor=(0.5, -0.002),
+          bbox_to_anchor=(0.5, 0.0),
           ncol=len(legend_items), fontsize=8.5,
-          frameon=True, framealpha=0.9,
-          edgecolor="#BDBDBD", handlelength=1.4, handleheight=0.9)
+          frameon=True, framealpha=0.92,
+          edgecolor="#BDBDBD", handlelength=1.4, handleheight=0.95)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
