@@ -16,72 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.870
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is highly consistent with the provided patient profile and case type. The doctor asks logical, relevant questions about the nature, triggers, and associated symptoms of the facial pain, and the patient provides plausible, detailed responses that align with her history of trigeminal neuralgia and multiple sclerosis. There are no unsupported diagnoses, treatments, or role confusion. The conversation is focused, clinically appropriate, and avoids introducing severe or ICU-level events.
+- **Score**: 0.870
+- **Justification**: Combined score 0.87 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.70 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.700 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Responses are clear and relevant. For improvement, the patient could specify the duration of symptoms more precisely if possible.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor's questioning is thorough and empathetic. Could consider asking about other MS-related symptoms or medication adherence for completeness.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: Dialogue flows smoothly and logically. The simulation ended abruptly due to a technical issue; ensuring completion of all turns would improve realism.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. Clarity is good throughout; doctor could clarify next steps or management plan if the conversation continued.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brings you in—can you tell me more about what's been bothering you lately?
+**Doctor**: Hello, it's good to see you today. What would you like to focus on during our visit—are you having any new or bothersome symptoms lately?
 
-**Patient**: I've been having this pain on the left side of my face, and it's been pretty uncomfortable. That's the main reason I came in today.
+**Patient**: I’d like to talk about the pain on the left side of my face. It’s been pretty uncomfortable lately.
 
-**Doctor**: Let me ask about the nature of the discomfort—would you describe the sensation as sharp, dull, throbbing, or something else?
+**Doctor**: Let me ask about when this discomfort began—how long have you been noticing the pain on that side of your face?
 
-**Patient**: It's more of a sharp pain, kind of like an electric shock on the left side of my face. Sometimes it comes and goes pretty quickly.
+**Patient**: I’m not exactly sure when it started, but the left facial pain has been bothering me for quite a while now. It’s the main thing I’ve been dealing with.
 
-**Doctor**: Got it. Does anything seem to trigger these episodes, or make them better or worse—like touching your face, chewing, or even temperature changes?
+**Doctor**: Let me ask about something related—have you noticed any changes with movement or sensation on that side, like tremors in your left arm or any trouble with writing?
 
-**Patient**: Touching my face definitely seems to set it off, especially around my cheek. Chewing sometimes makes it worse too. I haven't noticed temperature changes affecting it much.
+**Patient**: I do have tremors in my left arm, and it’s been hard for me to write because of them. That’s been going on for some time.
 
-**Doctor**: Alright. When did you first notice this pain starting, and has it been getting more frequent or intense over time?
+**Doctor**: Let me ask about the tremors—are they constant throughout the day, or do they come and go? Also, do you notice if anything in particular seems to trigger or worsen them?
 
-**Patient**: I first noticed the pain a while back, but it seems to be happening more often lately. I can't say exactly when it started, but it's definitely gotten a bit more frequent.
+**Patient**: The tremors tend to come and go rather than being constant all day. I haven’t noticed anything specific that triggers them, but sometimes they make it harder for me to do things, like writing.
 
-**Doctor**: Let me ask about any other symptoms you might have noticed—have you experienced any numbness, weakness, or changes in movement on that side of your face or elsewhere?
+**Doctor**: Alright. Can you tell me if the difficulty with writing and the tremors started around the same time as the facial pain, or did they appear earlier or later?
 
-**Patient**: Yes, I’ve noticed some weakness and trouble with movement on my left side. My left arm has tremors and I’ve had trouble writing, plus my left leg sometimes drags when I walk.
+**Patient**: The tremors and trouble with writing have been going on for quite a while, longer than the facial pain. I think they appeared earlier, but I’m not certain about the exact timing.
 
-**Doctor**: Got it. How would you rate the severity of the tremors and trouble with movement—are they mild, moderate, or do they significantly interfere with your daily activities?
+**Doctor**: Got it. Has the difficulty with tasks like writing or the tremors changed over time—are they staying the same, getting worse, or improving?
 
-**Patient**: The tremors and trouble with movement are moderate—they do get in the way of daily things like writing and walking, but I can still manage most tasks.
+**Patient**: They’ve mostly stayed about the same. I haven’t noticed much change in how bad the tremors or trouble with writing are over time.
 
-**Doctor**: Let me ask about the sharp sensation—on a scale from 1 to 10, how intense does it get at its worst?
+**Doctor**: Let me ask about your daily activities—are there any other tasks besides writing that have become more difficult because of the tremors?
+
+**Patient**: Dragging my left leg has made walking more difficult for me. The tremors mostly affect writing, but the leg issue has definitely impacted my daily routine as well.
+
+**Doctor**: Tell me more about how much the leg dragging is impacting your ability to get around—are you able to walk independently, or do you need support or help with certain activities?
+
+**Patient**: I’m able to walk on my own, but dragging my left leg makes it harder to get around, especially if I have to walk longer distances. It slows me down quite a bit.
+
+**Doctor**: Based on what we've discussed, it sounds like the combination of facial discomfort, tremors, and changes in your walking are having a real impact on your daily life, especially with tasks that require fine motor skills or longer periods of walking. These symptoms are often related to underlying neurological conditions—sometimes, issues like tremors and difficulty with movement can be connected to changes in how certain nerves or parts of the brain are functioning.
+
+Since your symptoms have been stable over time and not rapidly worsening, that’s somewhat reassuring. Still, if you notice any new changes—like weakness spreading to other areas, sudden worsening of balance, or new vision or speech problems—those would be important to address promptly.
+
+For now, focusing on strategies to make daily activities easier—like using adaptive tools for writing or taking breaks during longer walks—can help manage the impact. If the facial pain becomes more severe or starts interfering with eating or speaking, let’s discuss further options for relief.
+
+Is there anything in particular about these symptoms that worries you most, or any specific goals you have for improving your day-to-day comfort?
+
+**Patient**: Thanks for explaining all that. My main goal is to get as much relief from the facial pain as possible, since it’s been the hardest to manage. I’d also like to keep my independence with walking and daily activities. If there are any new approaches or adjustments to my medications that could help, I’d be interested in hearing about them.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 13
-- **Word Count**: 355
-- **Doctor Turns**: 7
-- **Patient Turns**: 6
-
-## EHR Summary
-
-The patient is a 59-year-old female presenting with left facial pain due to trigeminal neuralgia. She reported chronic pain localized to the left side of her face, prompting evaluation for surgical intervention. Her medical history includes multiple sclerosis with associated left arm tremors, difficulty writing, left leg dragging, a left corneal scar, and occasional constipation; she is allergic to penicillin (causing hives) and bee stings. On examination, she was well-appearing, ambulatory with a cane, and had normal motor strength in the lower extremities. The documented diagnosis was chronic left facial pain secondary to trigeminal neuralgia. She underwent a nucleus caudalis Drez procedure via suboccipital craniectomy and C1-C2 laminectomy with radiofrequency lesioning of the trigeminal nucleus caudalis. The treatment plan included surgical intervention to address her facial pain.
-
-## Dialogue Summary
-
-The patient presented with pain on the left side of the face as the chief complaint. The pain was described as sharp, electric shock-like, and intermittent, with episodes triggered by touching the face—especially around the cheek—and sometimes worsened by chewing; temperature changes did not affect it. The patient reported that the pain started a while ago and has become more frequent recently. Additional symptoms included weakness and trouble with movement on the left side, moderate tremors in the left arm interfering with writing, and occasional dragging of the left leg while walking. No numbness was mentioned. The doctor inquired about symptom severity and characteristics but did not provide a specific assessment or diagnosis during the conversation. No treatment plan or recommendations were given in this dialogue.
-
-## STS Evaluation
-
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **Turn Count**: 18
+- **Word Count**: 702
+- **Doctor Turns**: 9
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 50.4s
+- **Processing Time**: 79.1s

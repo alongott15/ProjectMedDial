@@ -6,95 +6,101 @@
 - **Admission ID**: 116392
 - **Profile Type**: NO_DIAGNOSIS
 - **Success**: True
-- **Is Realistic**: False
+- **Is Realistic**: True
 
 ## Generation Attempts
 
-- **Total Attempts**: 3
+- **Total Attempts**: 1
 - **Best Attempt**: 1
 
 ### Attempt 1
-- Success: False
-- Decision: UNREALISTIC
-- Score: 0.600
-
-### Attempt 2
-- Success: False
-- Decision: UNREALISTIC
-- Score: 0.400
-
-### Attempt 3
-- Success: False
-- Decision: UNREALISTIC
-- Score: 0.300
+- Success: True
+- Decision: REALISTIC
+- Score: 0.929
 
 ## Judge Evaluation
 
-- **Decision**: UNREALISTIC
-- **Score**: 0.600
-- **Justification**: The dialogue is generally plausible for a mild ankle complaint, with appropriate history-taking and conservative management advice. However, the patient profile explicitly lists a diagnosis of 'ankle fracture,' which is not acknowledged or addressed in the conversation. The doctor discusses the case as if it is a mild, non-specific ankle pain without trauma, and recommends only conservative measures without any mention of imaging, immobilization, or fracture care. This is a significant inconsistency and represents an unsupported omission, making the dialogue unrealistic given the provided profile.
+- **Decision**: REALISTIC
+- **Score**: 0.929
+- **Justification**: Combined score 0.93 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.76 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.765 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient could mention any prior evaluation or diagnosis if already known (e.g., 'I was told I have a fracture'), or clarify if this is a new issue versus follow-up.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor should acknowledge the existing diagnosis of ankle fracture if known, or at least consider and rule out fracture based on symptoms and recommend appropriate evaluation (e.g., imaging, immobilization) rather than assuming mild inflammation.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and clear for a mild sprain or overuse injury, but does not match the profile's diagnosis. The conversation should be adjusted to reflect the seriousness of a fracture diagnosis.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: There is a safety concern in not addressing or managing a possible fracture, which requires more than rest and ice. The advice should be aligned with the diagnosis to avoid under-treatment.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome in today. What brings you in—can you tell me more about what’s been bothering you lately?
+**Doctor**: Let me ask about your ankle—can you describe exactly where you're feeling the pain? Is it on the inside, outside, or more toward the front or back of your ankle?
 
-**Patient**: My left ankle has been hurting, and that's why I came in. It's been pretty uncomfortable.
+**Patient**: The pain is mostly around my left ankle, but it's hard to say exactly where—it just feels sore all over that area.
 
-**Doctor**: Let me ask about how this started—did you injure your ankle recently, or did the pain come on gradually?
+**Doctor**: Let me ask about when you first noticed this soreness—did it come on suddenly, or has it been building up over time?
 
-**Patient**: I don't remember injuring it. The pain just kind of started on its own, I think.
+**Patient**: I'm not sure exactly, but I think it started building up over time. It didn't hit me all of a sudden.
 
-**Doctor**: Let me ask about the discomfort—does your ankle look swollen or feel warm to the touch?
+**Doctor**: Alright. Have you noticed any swelling, bruising, or changes in the appearance of your ankle since this soreness began?
 
-**Patient**: Yes, my ankle does look swollen. I haven't noticed if it's warm, but the swelling is pretty obvious.
+**Patient**: I've definitely noticed some swelling in my left ankle since the pain started. I haven't seen any bruising or major changes in the way it looks, just that it's more swollen than usual.
 
-**Doctor**: Alright. How long has the swelling and discomfort been going on?
+**Doctor**: Let me ask about your activity level—have you recently done anything unusual, like increased walking, standing for long periods, or started a new exercise routine?
 
-**Patient**: It's been going on for a few days now.
+**Patient**: I haven't changed anything with my routine lately—no new exercises or big increase in walking or standing. It's been pretty normal for me.
 
-**Doctor**: Got it. Does putting weight on your ankle—like walking or standing—make the discomfort worse, or is it about the same even at rest?
+**Doctor**: Got it. How much does the soreness interfere with your daily activities—are you able to walk normally, or does it cause you to limp or avoid putting weight on that ankle?
 
-**Patient**: Walking or standing on it definitely makes the pain worse. If I'm resting, it's not as bad.
+**Patient**: It does make it harder to walk normally. I find myself limping a bit and trying not to put too much weight on my left ankle.
 
-**Doctor**: Let me ask about where you feel the discomfort most—is it right around your ankle joint, or does it spread into your foot or up your leg at all?
+**Doctor**: Let me ask about what helps or worsens the discomfort—does resting your ankle, elevating it, or using ice make any difference? Or do certain movements or times of day seem to make it more painful?
 
-**Patient**: The discomfort is mainly right around my ankle joint. It doesn’t really spread into my foot or up my leg.
+**Patient**: Resting and elevating my ankle seem to help a bit with the soreness. Putting weight on it or walking for longer periods makes it worse. I haven't tried using ice yet.
 
-**Doctor**: Okay. How would you rate the discomfort on a scale from 1 to 10, with 10 being the worst pain you can imagine?
+**Doctor**: Got it. When you touch the area, does it feel warm or tender compared to your other ankle? And have you had any recent fevers or felt generally unwell?
 
-**Patient**: I’d rate the discomfort around a 6 out of 10. It’s enough to bother me, but not unbearable.
+**Patient**: Touching the area does make it feel more tender than my other ankle. I haven't noticed any warmth, and I haven't had any fevers or felt unwell otherwise.
 
-**Doctor**: Let me ask about the quality of the discomfort—does it feel sharp, aching, throbbing, or something else?
+**Doctor**: Okay. How severe would you rate your ankle pain on a scale from 1 to 10, with 10 being the worst pain you can imagine? And has the soreness been getting worse, staying the same, or improving over the past few days?
 
-**Patient**: It’s more of an aching pain. I wouldn’t call it sharp or throbbing.
+**Patient**: I'd rate the pain around a 6 out of 10. The soreness has been about the same the past few days—not really getting better or worse.
 
-**Doctor**: Based on what we've discussed, it sounds like you have a new onset of aching discomfort and swelling around your ankle joint, without a clear injury. Often, this kind of presentation can be due to mild inflammation—sometimes related to overuse, a minor sprain you may not remember, or even conditions like mild arthritis or fluid retention. The fact that it worsens with weight-bearing and improves with rest is typical for joint irritation.
+**Doctor**: Based on what we've discussed, it sounds like you have a gradually developing soreness and swelling in your left ankle, without any clear injury or change in activity. The fact that rest and elevation help, but walking makes it worse, suggests this could be related to mild inflammation or overuse, even if your routine hasn't changed. Sometimes, as we get older, joints and soft tissues can become irritated more easily from everyday activities.
 
-At this point, I’d recommend resting the ankle as much as possible, elevating it when you can, and using an ice pack for 15-20 minutes at a time to help with swelling. Over-the-counter pain relievers like acetaminophen or ibuprofen (if you don’t have contraindications) can also help manage discomfort. If the swelling increases, you develop redness, fever, or you’re unable to walk at all, those would be reasons to seek prompt evaluation.
+The absence of fever, redness, or warmth is reassuring and makes an infection less likely. Since the discomfort isn’t getting worse and you’re not experiencing other concerning symptoms, this is most likely a common condition such as a mild ankle sprain, tendonitis, or early arthritis.
 
-If things aren’t improving after a week or so, or if symptoms worsen, it would be a good idea to have your ankle examined in person—sometimes imaging or further workup is needed if the cause isn’t clear or if there’s concern for something more serious.
+For now, I recommend continuing to rest and elevate your ankle when possible. You might also try applying ice for 15-20 minutes a few times a day to help with swelling. Over-the-counter pain relievers like acetaminophen or ibuprofen (if you’re not allergic or have been told to avoid them) can also help manage discomfort.
 
-Does that sound reasonable? Any questions about what we’ve discussed?
+If you notice increased swelling, redness, warmth, severe pain, or if you develop a fever or have trouble moving your ankle at all, let a healthcare provider know promptly—these could be signs of a more serious problem.
 
-**Patient**: That all makes sense to me. I’ll try resting and icing my ankle and see how it goes over the next week. Thanks for explaining everything clearly.
+Does this explanation make sense? Is there anything else about your symptoms that you’re concerned about?
+
+**Patient**: Thanks for explaining that. How long should I expect this soreness and swelling to last if I follow your advice?
+
+**Doctor**: From what you've told me, this kind of soreness and swelling—especially when there hasn’t been a clear injury—often improves gradually with rest, elevation, and icing. Many mild cases like this can start to feel better within a week or two, though it might take a few more weeks for all the swelling to go down completely. The key is to avoid pushing through the discomfort and give your ankle time to recover.
+
+If you notice improvement over the next week, that’s a good sign. However, if things stay the same or get worse after two weeks, or if you’re unable to walk comfortably, it would be wise to have it checked in person to rule out other causes.
+
+Let me know if you have any questions about caring for your ankle at home or if anything changes.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 532
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 849
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 414.6s
+- **Processing Time**: 86.8s

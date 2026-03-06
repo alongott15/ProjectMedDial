@@ -16,86 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.986
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about fever, nausea, vomiting, and hydration, and provides reasonable advice for a mild viral illness. The patient responses are coherent and match the symptoms in the profile. The doctor does not introduce unsupported diagnoses or treatments, and the conversation stays within the bounds of a light, common case. The patient appropriately asks about ear fullness at the end, which is a symptom in the profile.
+- **Score**: 0.986
+- **Justification**: Combined score 0.99 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.95 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.952 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient could mention the right ear fullness earlier in the conversation to allow for more targeted questioning by the doctor.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: The doctor could ask about other associated symptoms (such as ear discomfort or fullness) earlier, given that ear fullness is part of the profile. A brief explanation of why ear fullness might occur with viral illness would be helpful.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with good progression from general symptoms to specifics and then to advice. Including all relevant symptoms earlier would improve efficiency.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No major safety concerns. The doctor appropriately advises when to seek further care and emphasizes hydration. Clarifying that ear fullness is not typically dangerous in this context would add reassurance.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi there! What brings you in today, and how have you been feeling lately?
+**Doctor**: Hi, it's nice to meet you. What brings you in today, and how have you been feeling lately?
 
-**Patient**: I've been feeling pretty uncomfortable lately. My temperature's up, and I just don't feel right.
+**Patient**: Hi. Lately I've been feeling kind of off—I’ve had a fever that just won’t go away.
 
-**Doctor**: Let me ask about your temperature—have you measured it at home, and if so, do you remember what the reading was?
+**Doctor**: Let me ask about your fever—have you actually measured your temperature, and if so, what was the highest reading you've seen?
 
-**Patient**: I did check it at home, but I don’t remember the exact number. I just know it was higher than normal.
+**Patient**: I didn’t actually check with a thermometer, so I’m not sure of the exact number. I just know I’ve been feeling pretty warm and feverish.
 
-**Doctor**: Let me ask about when all of this began—how long have you been feeling this way?
+**Doctor**: Let me ask about other symptoms—have you had any nausea, chills, or body aches along with feeling feverish?
 
-**Patient**: I'm not sure exactly, maybe a couple of days? It just sort of started out of nowhere.
+**Patient**: Yeah, I’ve had some nausea and I’ve actually thrown up a couple times. I haven’t really noticed any chills or body aches though.
 
-**Doctor**: Let me ask about any other symptoms—have you noticed any nausea, vomiting, or changes in your appetite since this started?
+**Doctor**: Got it. When did these symptoms first begin, and have they been constant since they started or do they come and go?
 
-**Patient**: Yeah, I've definitely had some nausea and even threw up a couple times. My appetite's pretty much gone right now.
+**Patient**: I’m not totally sure, but I think all this started a few days ago. The fever and nausea have been pretty constant since then.
 
-**Doctor**: Got it. When you had the higher temperature, did you also feel chills or sweating, or did it just feel warm?
+**Doctor**: Let me ask about your vomiting—how many times has this happened, and are you able to keep down any fluids or food right now?
 
-**Patient**: I just felt warm, no chills or sweating. It's mostly that my body temperature went up.
+**Patient**: I’ve thrown up a couple of times, but I can still manage to sip on water. Eating solid food is tough right now, though.
 
-**Doctor**: Alright. Has the vomiting been happening throughout the day, or just at certain times—like after eating or in the morning?
+**Doctor**: Alright. Have you noticed any other symptoms, like a sore throat, cough, diarrhea, or stomach pain?
 
-**Patient**: It’s been kind of random, not just after eating or in the morning. The nausea comes and goes, and I’ve vomited a couple times, but there’s no real pattern to it.
+**Patient**: I haven’t had a sore throat, cough, diarrhea, or stomach pain. But my right ear feels kind of full or blocked—no pain though.
 
-**Doctor**: I see. Have you noticed if your temperature has gone back down at any point, or has it stayed higher than usual since this started?
+**Doctor**: Got it. Tell me more about the ear fullness—does it affect your hearing, or have you noticed any drainage or ringing from that ear?
 
-**Patient**: It’s pretty much stayed higher than usual since it started. I haven’t noticed it going back down yet.
+**Patient**: My right ear just feels kind of full, like there’s pressure. I haven’t noticed any drainage or ringing, and my hearing seems about the same.
 
-**Doctor**: Let me ask about your vomiting—when it happens, is it a large amount or just a little each time? And have you been able to keep any fluids down, like water or juice?
+**Doctor**: Alright. Since you’ve been able to keep down some water, that’s a good sign. Does the fever or nausea seem to get worse at any particular time of day, or is it steady throughout?
 
-**Patient**: It’s just a little each time, not a lot. I’ve been able to keep some water down, but not much else.
+**Patient**: It feels pretty steady all day—there’s not really a time when it gets noticeably better or worse.
 
-**Doctor**: Based on what we've discussed, it sounds like you've had a mild but persistent fever and some nausea with occasional vomiting over the past couple of days. In many young adults, this kind of combination is often due to a viral stomach bug (gastroenteritis), which usually resolves on its own within a few days. The most important thing right now is to stay hydrated—even small sips of water or clear fluids can help prevent dehydration.
+**Doctor**: Based on what we've discussed, it sounds like you’ve been dealing with a persistent low-grade fever and nausea with occasional vomiting for several days, along with a sensation of fullness in your right ear. The absence of chills, body aches, sore throat, cough, diarrhea, or significant ear pain is reassuring and suggests this is likely a mild viral illness—possibly a common upper respiratory infection or a mild viral gastroenteritis. The ear fullness could be related to congestion or mild eustachian tube dysfunction, which often happens during or after viral illnesses.
 
-Let me share a few things to watch for: if you start having trouble keeping any fluids down at all, notice blood in your vomit, develop severe abdominal pain, or if your temperature keeps rising or you start to feel very weak or confused, those would be signs to seek medical attention promptly.
+Most of the time, these symptoms improve on their own within a few days. The most important things right now are to stay well hydrated—keep sipping water or electrolyte drinks even if eating is difficult—and rest as much as possible. If you develop new symptoms like severe ear pain, high fever (especially if measured over 39°C/102°F), persistent vomiting where you can’t keep fluids down, confusion, or signs of dehydration (like very dark urine or feeling faint), you should seek medical attention promptly.
 
-For now, try to rest and stick with bland foods if you feel up to eating—things like crackers or toast. If your symptoms don't start improving after another day or two, or if anything worsens, let me know. Does that sound manageable for you?
+For now, you can try gentle foods (like crackers or toast) as tolerated and consider an over-the-counter fever reducer if needed. The ear fullness should resolve as the underlying illness improves. If it persists for more than a week or worsens, let your doctor know.
 
-**Patient**: Thanks, that makes sense. I’ll try to keep sipping water and stick to bland foods for now. Is it normal to feel some fullness in my right ear along with these other symptoms?
+Let me know if you have questions or if anything changes!
+
+**Patient**: Thanks for explaining all that. How long does it usually take for symptoms like these to go away?
+
+**Doctor**: Let me share my thoughts. From what you’ve told me, your symptoms are most consistent with a mild viral illness, which can sometimes cause fever, nausea, and that blocked ear sensation. These types of infections usually improve within about a week—sometimes a bit longer for the ear fullness to completely resolve. The fact that you’re able to keep fluids down is reassuring.
+
+What typically happens is that the fever and nausea start to ease after a few days, and your energy gradually returns. The ear pressure might linger but should get better as the congestion clears up. If your symptoms last more than 7–10 days without improvement, or if you develop new issues like persistent vomiting, severe headache, confusion, or dehydration, it’s important to get checked again.
+
+In the meantime, focus on hydration, rest, and gentle foods as tolerated. Over-the-counter fever reducers can help if you’re uncomfortable. Most people recover well at home with this approach.
+
+Let me know if you have any other concerns or if things change.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 558
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 793
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 20-year-old female presenting after involvement as an unrestrained passenger in a high-speed motor vehicle accident. She was ejected from the vehicle, found curled in the fetal position, and the vehicle sustained extensive damage. At the scene, she was awake but confused and had no memory of the incident. She has no significant past medical history. Cervical spine immobilization was initiated in the field, and she was transported to the emergency room for further management. No specific diagnosis or additional clinical findings are documented in this note. Treatment included cervical spine immobilization and emergency evaluation.
-
-## Dialogue Summary
-
-The patient presented with discomfort, reporting an elevated temperature and a general sense of not feeling well. Symptoms included a mild but persistent fever for the past couple of days, intermittent nausea, and a couple of episodes of vomiting with no clear pattern; appetite was decreased, and vomiting was described as small amounts each time. The patient noted feeling warm without chills or sweating and was able to keep down some water but little else. No relevant medical history, medications, or allergies were mentioned. The doctor assessed the symptoms as likely due to a viral stomach bug (gastroenteritis), which typically resolves within a few days in young adults. The doctor advised maintaining hydration with small sips of water or clear fluids and recommended bland foods such as crackers or toast if tolerated. The patient was instructed to seek medical attention if unable to keep fluids down, if blood appears in vomit, if severe abdominal pain develops, if the fever rises, or if weakness or confusion occurs; follow-up was advised if symptoms do not improve in another day or two or worsen. The patient also mentioned a feeling of fullness in the right ear along with the other symptoms.
-
-## STS Evaluation
-
-- **STS Score**: 0.908
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 58.0s
+- **Processing Time**: 98.3s

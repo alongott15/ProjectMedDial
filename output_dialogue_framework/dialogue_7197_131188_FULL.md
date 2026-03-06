@@ -16,88 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.929
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is consistent with the provided patient profile and case type. The doctor asks relevant, focused questions about exertional chest pressure, shortness of breath, and claudication, which align with the patient's known coronary artery disease and diabetes. The patient responses are plausible and detailed, and the doctor's reasoning and recommendations are appropriate for a primary care setting. No unsupported diagnoses, treatments, or severe events are introduced. The conversation is clear, logical, and avoids hallucinations.
+- **Score**: 0.929
+- **Justification**: Combined score 0.93 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.76 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.762 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient provides clear, relevant answers and expresses concerns appropriately. Could elaborate slightly more on medication adherence or other symptoms if prompted.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor demonstrates good clinical reasoning and communication. Could briefly confirm current medications or ask about diabetes/hypertension control for completeness.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: Dialogue flows naturally, with logical progression from symptom description to assessment and recommendations. The closing is supportive and clear.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is appropriate for a light case, with clear instructions on when to seek urgent care. Clarity is excellent; no concerns.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me what’s been bothering you lately?
+**Doctor**: Hello, it's good to see you today. How have you been feeling lately, and is there anything specific you'd like to discuss about your health?
 
-**Patient**: I've been having this pressure in my chest lately. It's been making me pretty anxious, to be honest.
+**Patient**: Lately I've been having chest pressure that's been pretty bothersome. I wanted to talk about that, since it's making me anxious.
 
-**Doctor**: Let me ask about when you tend to notice this pressure—does it come on at certain times of day, or is there anything in particular that seems to bring it on?
+**Doctor**: Let me ask about your breathing—have you noticed any difficulty catching your breath or feeling short of breath along with the chest pressure?
 
-**Patient**: I usually notice the chest pressure when I’m walking, especially if I go more than a block. It doesn’t seem tied to a particular time of day.
+**Patient**: Yes, I have noticed shortness of breath, especially when the chest pressure gets worse. It's made things like walking or moving around harder for me.
 
-**Doctor**: Let me ask about any other symptoms—when you feel this pressure, do you also experience shortness of breath or any discomfort spreading to your arm or jaw?
+**Doctor**: Let me ask about the nature of the pressure—does it ever feel like pain that travels down your left arm, or do you notice any discomfort in your legs after walking for a block or so?
 
-**Patient**: Yes, I do get shortness of breath when the chest pressure comes on. Sometimes the pain spreads down my left arm as well.
+**Patient**: I do get chest pain that goes down my left arm sometimes. Also, after walking about a block, my legs start hurting—it's kind of like a cramping or discomfort.
 
-**Doctor**: Got it. Can you tell me how long the pressure and discomfort usually last once they start, and if resting helps it go away?
+**Doctor**: Alright. How long does the chest pressure and leg discomfort usually last when it comes on, and does it go away with rest or anything else you do?
 
-**Patient**: Resting does help, and the pressure usually eases up after a few minutes if I stop moving. I also notice my legs start to ache after walking about a block, so I have to take breaks pretty often.
+**Patient**: Resting does help a bit—the chest pressure and leg discomfort usually ease up when I stop moving around. I'm not sure exactly how long they last, but they come on pretty quickly when I'm active.
 
-**Doctor**: Let me ask about your legs—when you have to stop because of the aching, do you notice any numbness, tingling, or changes in the color or temperature of your feet?
+**Doctor**: Let me ask about the location—can you point to where you feel the chest pressure most strongly? Is it in the center, off to one side, or somewhere else?
 
-**Patient**: No, I haven’t noticed numbness or tingling in my feet. I don’t think the color or temperature has changed either. It’s mainly just aching in my legs after walking.
+**Patient**: The pressure is mostly in the center of my chest. That's where I feel it the strongest, especially when I'm active.
 
-**Doctor**: Tell me more about what the chest pressure and arm discomfort actually feel like—would you describe it as sharp, dull, squeezing, or something else? And on a scale from 1 to 10, how intense does it get at its worst?
+**Doctor**: Okay. How severe would you say the chest pressure is, on a scale from 1 to 10, when it's at its worst? And do you ever feel lightheaded or nauseated during these episodes?
 
-**Patient**: The pressure feels more like a squeezing or tightness, and the pain in my arm is dull, not sharp. At its worst, I’d rate it around a 6 out of 10.
+**Patient**: When it's at its worst, I'd rate the chest pressure around a 7 out of 10. I haven't felt lightheaded or nauseated during these episodes.
 
-**Doctor**: Got it. When the tightness and arm discomfort come on, do you ever feel lightheaded, nauseous, or break out in a sweat?
+**Doctor**: Got it. When did you first start noticing the chest pressure and leg discomfort—has this been going on for days, weeks, or longer?
 
-**Patient**: No, I haven’t felt lightheaded or nauseous when the tightness and arm pain come on. I also haven’t broken out in a sweat during those times.
+**Patient**: I can't say exactly when it started, but these symptoms have been going on for quite a while—it's not just recent. They've gotten worse lately, though.
 
-**Doctor**: Tell me more about when you first started noticing these symptoms—has this been going on for days, weeks, or longer?
+**Doctor**: Let me ask about the quality of the pain that travels down your arm—would you describe it as sharp, dull, aching, or something else? And does it feel similar to the chest pressure, or is it different?
 
-**Patient**: I’ve had these symptoms for a few weeks now. The chest pressure and shortness of breath started gradually and have been happening more often lately.
+**Patient**: The pain that goes down my left arm feels more like an aching sensation, not really sharp. It’s pretty similar to the chest pressure—both are kind of dull and uncomfortable.
 
-**Doctor**: Based on what we've discussed, your symptoms—pressure in your chest with exertion, shortness of breath, and discomfort radiating to your arm, along with leg aching after walking—sound like they could be related to how your heart and blood vessels are working during activity. The fact that these symptoms improve with rest is important, as it suggests they may be brought on by increased demand on your heart or circulation.
+**Doctor**: Based on what we've discussed, your symptoms—central chest pressure, aching down your left arm, and discomfort in your legs with activity that improves with rest—can be linked to how your heart and blood vessels respond to exertion. What often happens with this pattern is that the heart or arteries may not be getting enough oxygen during activity, leading to these sensations.
 
-What often happens in cases like this is that the blood supply to the heart or legs can't quite keep up when you're active, leading to these sensations. This doesn't always mean something severe is happening right now, but it does mean we should take it seriously and look into it further.
+The fact that your symptoms have worsened recently and are triggered by physical effort is important. While these symptoms can sometimes be caused by benign issues, their combination and persistence suggest they should not be ignored. Chest pressure and arm aching with exertion, especially when relieved by rest, can be signs of angina—a condition where the heart muscle gets less oxygen than it needs during activity. Leg discomfort after walking could also point toward circulation issues.
 
-My recommendation is that you see a healthcare provider soon for a more thorough evaluation, which may include an EKG, blood tests, and possibly a stress test or imaging to check your heart and circulation. In the meantime, try to avoid strenuous activity that brings on your symptoms. If you notice any new symptoms such as severe or persistent chest pain, fainting, or sudden weakness, seek medical attention right away.
+It's a good idea to keep track of what activities bring on these symptoms and how long they last. If you notice any new symptoms like severe chest pain at rest, fainting, or sudden weakness, those are warning signs to seek urgent care.
 
-Let me know if you have any questions about what we've discussed or about next steps.
+For now, try to pace your activities and avoid strenuous exertion until you've discussed this further with your healthcare team. Let me know if you'd like to talk about strategies to manage anxiety related to these symptoms, or if you have questions about next steps.
 
-**Patient**: Thanks for explaining all that. I understand why you want to look into it further, and I’ll make sure to avoid pushing myself for now. Should I keep taking my current medications as usual until I see someone?
+**Patient**: Thanks for explaining things so clearly. I’ve been keeping an eye on what triggers the chest pain and leg discomfort, especially since it gets worse with activity. I understand the importance of pacing myself, and I’ll watch out for any new symptoms like you mentioned. Is there anything else I should do before my cardiac catheterization?
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 699
+- **Word Count**: 751
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 40-year-old woman presenting with chest pressure as the chief complaint. She experienced daily chest pressure for one week, mostly on exertion, associated with shortness of breath and occasional radiation to the left arm; the pain occurred at rest the evening before admission and resolved with sublingual nitroglycerin. She also reported claudication after walking one block and denied paroxysmal nocturnal dyspnea or palpitations. Her relevant history includes longstanding diabetes mellitus, three-vessel coronary artery disease, prior myocardial infarction, hypertension, hyperlipidemia, left femoral popliteal bypass, and remote tobacco use. On physical exam, she was stable with clear lungs, regular heart rhythm with a soft systolic ejection murmur, and positive bilateral pulses. The documented diagnosis is three-vessel coronary artery disease with recent unstable angina symptoms. The treatment plan included cardiac catheterization and continuation of medications such as aspirin, Lipitor, insulin, atenolol, Plavix, Zestril, and Nexium.
-
-## Dialogue Summary
-
-The patient presented with chest pressure that has been occurring for several weeks, particularly during walking more than a block, and causing anxiety. Symptoms include exertional chest pressure described as squeezing or tightness (rated 6/10 at worst), shortness of breath, dull discomfort radiating down the left arm, and aching in the legs after walking, all of which improve with rest. The patient denied numbness, tingling, changes in color or temperature of the feet, lightheadedness, nausea, or sweating during episodes. No specific medical history, medications, or allergies were mentioned in this encounter. On examination, no physical findings were described; symptoms were reported by the patient. The doctor assessed that these symptoms may be related to cardiac or vascular function during activity, possibly due to insufficient blood supply during exertion. The doctor recommended prompt evaluation by a healthcare provider, including possible EKG, blood tests, and stress testing or imaging, advised avoiding strenuous activity that triggers symptoms, and instructed the patient to seek immediate care if severe or new symptoms develop.
-
-## STS Evaluation
-
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 75.8s
+- **Processing Time**: 88.3s

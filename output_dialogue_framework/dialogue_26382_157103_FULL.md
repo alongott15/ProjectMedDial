@@ -16,54 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.900
+- Score: 0.917
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.900
-- **Justification**: The dialogue is plausible and consistent with the patient's profile and symptoms. The doctor asks open-ended and then focused questions about the chest pain, and the patient provides relevant details. There are no hallucinations or unsupported content. The conversation is cut short due to a simulation error, not a content issue.
+- **Score**: 0.917
+- **Justification**: Combined score 0.92 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.86 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.857 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient's responses are clear and relevant. To improve, the patient could provide more detail about the duration, severity, or any associated symptoms if prompted.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor asks appropriate questions and demonstrates good clinical reasoning. For improvement, the doctor could further explore associated symptoms (e.g., shortness of breath, nausea) and risk factors if the conversation continued.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is natural and logical. The conversation ends abruptly due to a simulation error; otherwise, it would likely have continued appropriately.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns in the provided turns. The doctor is appropriately focused on characterizing the chest pain.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it’s good to see you today. What’s been bothering you lately, and how has it been impacting your daily routine?
+**Doctor**: Hello, it’s good to see you. How have you been feeling lately? What would you like to focus on in today’s visit?
 
-**Patient**: I've been having some chest tightness, even when I'm just sitting still. It's been making me pretty anxious and I feel like I can't go about my day the way I usually do.
+**Patient**: Lately, I’ve been having this tightness in my chest, even when I’m just resting. That’s what’s been worrying me the most.
 
-**Doctor**: Let me ask about the sensation—does this tightness spread anywhere else, like to your shoulder or neck, or does it stay in one spot?
+**Doctor**: Let me ask about when this tightness first began—how long have you been noticing it?
 
-**Patient**: Yes, the chest pain sometimes spreads to my right shoulder and up into my neck. It doesn't always stay in one spot.
+**Patient**: I’m not exactly sure, but I think it’s been going on for a few days now. It just sort of came on and hasn’t really gone away.
+
+**Doctor**: Let me ask about any other sensations—have you noticed the tightness spreading anywhere, like your shoulder or neck?
+
+**Patient**: Yes, the pain sometimes moves into my right shoulder and up into my neck. It’s not just in my chest.
+
+**Doctor**: Alright. Have you noticed any shortness of breath, sweating, or feeling lightheaded when this tightness happens?
+
+**Patient**: I haven’t really noticed any shortness of breath or sweating with it. I don’t think I’ve felt lightheaded either. It’s mostly just the chest tightness and pain that spreads.
+
+**Doctor**: Got it. How would you rate the severity of this tightness or pain, say on a scale from 1 to 10, with 10 being the worst discomfort you can imagine?
+
+**Patient**: I’d rate the pain around a 7 out of 10 when it’s at its worst. It’s definitely uncomfortable and hard to ignore.
+
+**Doctor**: Let me ask about what you’ve noticed—does anything in particular seem to trigger or relieve the tightness, like certain movements, meals, or positions?
+
+**Patient**: Nothing really seems to trigger it—it just comes on even when I’m resting. I haven’t found anything that makes it feel better either.
+
+**Doctor**: Let me ask about your overall energy—have you felt more tired than usual, or noticed any changes in your ability to do your normal daily activities since this started?
+
+**Patient**: I have felt more tired than usual, and it’s made it harder to keep up with my normal routine. Even simple things feel like more effort lately.
+
+**Doctor**: Tell me more about whether the discomfort has been getting worse, staying the same, or improving over these past few days.
+
+**Patient**: The discomfort has mostly stayed the same, but I’ve also had some chest pain and noticed dark, tarry stools—melena, I think it’s called. That’s been worrying me too.
+
+**Doctor**: From what you've told me, the combination of ongoing chest discomfort that spreads to your shoulder and neck, increased fatigue, and now the presence of dark, tarry stools is concerning. The dark stools can sometimes be a sign of bleeding in the upper part of the digestive tract, and when paired with chest symptoms, this raises the need to consider both heart-related and gastrointestinal causes.
+
+Chest tightness at rest, especially if it doesn't improve with rest or position changes, can sometimes be related to the heart even if you don't have classic symptoms like shortness of breath or sweating. At the same time, upper GI bleeding (which can cause melena) may be linked to certain medications or conditions.
+
+Given these findings, I recommend seeking prompt medical attention to rule out any serious underlying issues—especially since these symptoms have persisted and are affecting your daily life. It's important not to ignore chest pain or signs of internal bleeding.
+
+If you experience worsening pain, new shortness of breath, weakness, fainting, or if the stools become even darker or you feel dizzy, please seek emergency care right away. Would you like help reviewing your current medications or discussing next steps for getting evaluated quickly?
+
+**Patient**: Thank you for explaining everything so clearly. I’ve also had some nosebleeds and my stool tested positive for blood, so I’m definitely concerned. Could we go over my medications to see if any of them might be making the bleeding worse?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 4
-- **Word Count**: 117
-- **Doctor Turns**: 2
-- **Patient Turns**: 2
-
-## EHR Summary
-
-The patient is a 69-year-old female presenting with non-ST elevation myocardial infarction (NSTEMI) as the chief complaint. She experienced chest tightness at rest lasting two hours, which resolved spontaneously, followed by another episode of chest pain radiating to the right shoulder and neck lasting two to three hours; both episodes occurred five and two days prior to admission, respectively. She denied chest pain for three days prior to transfer and reported melena for two days without other gastrointestinal or urinary symptoms. Her past medical history includes coronary artery disease with prior RCA stent and PTCA of the left circumflex, hypertension, hypercholesterolemia, and a previous myocardial infarction. On evaluation, her peak CK MB index was 4.3 and peak CK was 189. The documented diagnosis was non-ST elevation myocardial infarction. Treatment included Nitro Paste, beta blocker (metoprolol), aspirin, heparin, Aggrastat, and continuation of her antihypertensive and lipid-lowering medications.
-
-## Dialogue Summary
-
-The patient presented with chest tightness occurring even at rest. The patient described the sensation as causing significant anxiety and interfering with daily activities. The chest pain sometimes radiates to the right shoulder and up into the neck, and does not always remain localized. No information was provided regarding severity scale, duration, triggers, or relieving factors. No relevant medical history, medications, or allergies were mentioned. There were no physical findings noted, and the doctor did not provide an assessment or working diagnosis during the encounter. No advice, recommendations, or treatment plan were discussed in this dialogue.
-
-## STS Evaluation
-
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
+- **Turn Count**: 18
+- **Word Count**: 637
+- **Doctor Turns**: 9
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 27.4s
+- **Processing Time**: 84.5s

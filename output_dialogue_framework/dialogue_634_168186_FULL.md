@@ -16,86 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.940
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is consistent with the provided patient profile and case type. The doctor asks appropriate questions about postoperative symptoms (fever, tiredness, blood pressure, jaundice, urine/stool color) and provides reasonable reassurance and advice. The patient responses are plausible and match the documented symptoms and history. No unsupported diagnoses, treatments, or severe complications are introduced. The conversation is clear, logical, and stays within the bounds of a light, common postoperative case.
+- **Score**: 0.940
+- **Justification**: Combined score 0.94 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.80 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.800 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient could elaborate slightly more on specific symptoms (e.g., describing the tiredness in more detail or mentioning any other minor symptoms), but overall responses are appropriate and realistic.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor could briefly acknowledge the patient's underlying chronic conditions (diabetes, renal insufficiency) as part of holistic care, but the focus on postoperative recovery is appropriate. Consider asking about surgical drain output or peripheral edema if relevant to the case.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is smooth, with logical progression from general to specific symptoms and clear summarization at the end. Minor improvement could be made by explicitly checking for all listed symptoms (e.g., peripheral edema, drain output) if relevant.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns detected. The doctor provides clear instructions on warning signs and when to seek further care, which is appropriate for this setting.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What concerns or symptoms have you noticed since your procedure?
+**Doctor**: Good to see you today. How have you been feeling since your procedure? Is there anything in particular on your mind about your recovery so far?
 
-**Patient**: I've been a bit concerned about this common bile duct stricture they found. That's really what’s been on my mind since the procedure.
+**Patient**: I've been a bit concerned about the recovery, mostly because of the swelling in my legs and feet. That’s been bothering me since the procedure.
 
-**Doctor**: Let me ask about how you've been feeling physically since the procedure—have you had any fever or chills, or noticed any changes in your energy?
+**Doctor**: Let me ask about how this is impacting your daily routine—are you finding it difficult to walk or do regular activities because of the swelling?
 
-**Patient**: I did have a low grade fever after the surgery, and I’ve been feeling a bit more tired than usual. No chills, though.
+**Patient**: Getting around has been harder, especially with the swelling in my legs. I notice I get tired more easily and need to rest more often than usual.
 
-**Doctor**: Let me ask about your temperature—have you been able to check it at home, and if so, what readings have you seen?
+**Doctor**: Let me ask about something related—have you noticed any fever, chills, or changes in your temperature since your procedure? Sometimes these can be important signs during recovery.
 
-**Patient**: I haven’t checked my temperature at home, so I’m not sure about the exact numbers. The team here mentioned it was a low grade fever after surgery.
+**Patient**: I did have a low grade fever after the surgery, starting the day after. I haven’t noticed any chills though.
 
-**Doctor**: Let me ask about your blood pressure—have you felt lightheaded, dizzy, or faint at any point since the procedure, especially when standing up?
+**Doctor**: Let me ask about the swelling—has it been getting better, worse, or staying about the same since it started? And do you notice if it's more pronounced at certain times of day, like in the evening?
 
-**Patient**: Yes, I did feel a bit lightheaded and noticed my blood pressure was low on the first and second day after the surgery. It seems to have gotten better since then.
+**Patient**: The swelling hasn’t really improved—it’s been pretty steady since it started. I notice it more toward the end of the day, especially after I’ve been up for a while.
 
-**Doctor**: Got it. Since you mentioned feeling more tired and having some lightheadedness, have you noticed any yellowing of your eyes or skin, dark urine, or pale stools since the procedure? These can sometimes be related to bile duct issues, so it’s helpful to check.
+**Doctor**: Let me ask about your recovery from the common bile duct stricture—have you had any abdominal pain, yellowing of the skin or eyes, or changes in your urine or stool color since the procedure?
 
-**Patient**: No, I haven’t noticed any yellowing of my eyes or skin, and my urine and stools have looked normal since the procedure.
+**Patient**: I haven’t had any abdominal pain or noticed any yellowing of my skin or eyes. I also haven’t seen any changes in my urine or stool color since the procedure.
 
-**Doctor**: Let me ask about the tiredness—has it been getting better, staying the same, or getting worse each day since your procedure?
+**Doctor**: Got it. Since the swelling has stayed about the same, have you noticed any redness, warmth, or tenderness in your legs, or is it mostly just puffiness without discomfort? This helps me determine if it's typical postoperative swelling or something that needs closer attention.
 
-**Patient**: The tiredness has been staying about the same each day since the procedure. I haven’t noticed it getting much better or worse.
+**Patient**: There’s no redness, warmth, or tenderness—just puffiness in my legs and feet. It doesn’t really hurt, but it’s definitely noticeable.
 
-**Doctor**: Alright. Have you noticed any sweating at night or during the day, or any shaking episodes along with the low-grade fever? Sometimes these can help us understand if your body is still reacting to the procedure or fighting off something.
+**Doctor**: Alright. Thinking about your low grade fever after surgery—did it last just a day or two, or has it persisted beyond that initial period? This can help me understand if it was part of the normal recovery process or something ongoing.
 
-**Patient**: No, I haven’t had any night sweats or shaking episodes with the fever. It’s mostly just been the low-grade fever and feeling tired.
+**Patient**: The low grade fever only lasted for a day or two right after surgery. It hasn’t come back since then.
 
-**Doctor**: Got it. Since your low blood pressure improved after the first couple of days, have you been able to move around and do light activities without any trouble, or does the tiredness limit what you can do?
+**Doctor**: Let me ask about your fluid intake and activity—are you able to stay hydrated and move around a bit during the day, or do you find yourself mostly sitting or lying down since the procedure? This can sometimes affect swelling in the legs.
 
-**Patient**: I’ve been able to move around and do light activities without much trouble. The tiredness is there, but it hasn’t really kept me from doing basic things.
+**Patient**: I’ve been trying to drink enough fluids and move around during the day, but I do end up sitting or lying down quite a bit. The swelling makes it harder to stay active.
 
-**Doctor**: Based on what we've discussed, it sounds like your recovery has been steady overall, with some expected tiredness and a low-grade fever right after surgery. These symptoms are quite common in the days following a procedure, especially when your body is healing and adjusting. The fact that you haven't noticed jaundice, abnormal urine or stool color, or ongoing low blood pressure is reassuring and suggests there’s no sign of a more serious complication from the bile duct stricture at this point.
+**Doctor**: Based on what we've discussed, it sounds like your swelling is most noticeable in the legs and feet, tends to worsen as the day goes on, and makes it a bit harder to stay active. You haven’t had any redness, warmth, or pain in the legs, and your low grade fever resolved quickly after surgery. These details are reassuring because they suggest the swelling is likely related to normal post-surgical changes, fluid shifts, and being less active during recovery, rather than an infection or a blood clot.
 
-Fatigue can linger for a little while after surgery, but as long as you’re able to do your usual light activities and you’re not getting worse, this is generally part of the normal healing process. I’d recommend continuing to rest as needed, stay well hydrated, and gradually increase your activity as you feel able. If you develop new symptoms—like yellowing of the skin or eyes, worsening pain, high fever (over 101°F/38.3°C), or notice dark urine or pale stools—it would be important to let your care team know right away.
+What often happens after a procedure—especially if you’re less mobile—is that fluid can accumulate in the legs due to gravity and reduced movement. The absence of other concerning symptoms (like redness, heat, or ongoing fever) makes serious complications less likely.
 
-Let me know if you have any other concerns or questions about your recovery or things to watch out for.
+To help with the swelling, try to elevate your legs when you’re sitting, keep up with gentle walking or ankle movements throughout the day, and continue to drink fluids as you’ve been doing. If you notice any new symptoms such as increasing swelling, pain, redness, or a return of fever, those would be reasons to get in touch sooner.
 
-**Patient**: Thanks, that helps put my mind at ease. I’ll keep an eye out for those symptoms you mentioned. If I start to feel worse or notice anything new, I’ll reach out right away.
+Let me know if you have questions about these steps or if there’s anything else you’re worried about right now.
+
+**Patient**: Thanks for explaining that. I’ll make sure to keep my legs elevated and stay as active as I can. If anything changes or if I get another fever, I’ll reach out.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 674
+- **Word Count**: 741
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 62-year-old male presenting with recurrent common bile duct stricture, initially suspected to be cholangiocarcinoma. He previously underwent exploratory laparotomy and cholecystectomy with negative biopsies, later attributed to Mirizzi syndrome, but experienced recurrence of biliary stricture after percutaneous interventions. Prior to surgery, he denied fever, chills, nausea, or vomiting. His medical history includes coronary artery disease (status post stent and CABG), type 2 diabetes mellitus, hypertension, chronic renal failure, and Mirizzi syndrome. On admission, medications included Lopressor, Glyburide, Lisinopril, Pioglitazone, and Atorvastatin. Physical findings postoperatively included a low-grade fever and hypotension (90/40 mmHg) on day one. The documented diagnosis was recurrent common bile duct stricture. Treatment involved common bile duct resection with Roux-en-Y hepatojejunostomy and intraoperative transfusion of four units of red blood cells; postoperative management included fluid boluses and adjustment of epidural dosing.
-
-## Dialogue Summary
-
-The patient presented with concerns about a common bile duct stricture following a recent procedure. They reported experiencing a low-grade fever after surgery, increased tiredness that has remained stable, transient lightheadedness and low blood pressure during the first two days post-procedure, but denied chills, night sweats, shaking episodes, jaundice, dark urine, or pale stools. The patient has been able to perform light activities without significant limitation from fatigue. No relevant medical history, medications, or allergies were discussed. On assessment, the doctor noted that the patient's recovery appears steady, with symptoms consistent with normal post-procedural healing and no signs of serious complications related to the bile duct stricture. The doctor recommended continued rest, maintaining hydration, and gradual increase in activity as tolerated. The patient was advised to monitor for new symptoms such as jaundice, worsening pain, high fever, or changes in urine or stool color and to contact the care team if these occur.
-
-## STS Evaluation
-
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 64.9s
+- **Processing Time**: 90.0s

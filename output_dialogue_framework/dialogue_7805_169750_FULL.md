@@ -16,88 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.874
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is consistent with the provided patient profile and case type. The doctor asks relevant, plausible questions about the hearing loss, dizziness, and associated symptoms, and provides reasonable advice for a mild case. The patient responses are coherent and match the symptoms listed in the profile. There are no unsupported diagnoses, treatments, or severe events introduced. The conversation is clear, respectful, and follows a logical flow.
+- **Score**: 0.874
+- **Justification**: Combined score 0.87 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.71 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.714 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient could mention all symptoms upfront (including mild nausea), but the gradual disclosure is realistic and common in real encounters.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor could explicitly acknowledge the patient's history of acoustic neuroma and surgery, as this is relevant to the current symptoms and would demonstrate thoroughness.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is smooth and natural, with appropriate follow-up questions and summary. A brief recap of the patient's surgical history would further ground the conversation.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is appropriate for a mild case. Clarity could be improved by referencing the patient's known diagnosis (acoustic neuroma status post resection) when discussing possible causes.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me what's been going on and how it's affecting your daily routine?
+**Doctor**: Good to see you today. How have things been going with your hearing and vision lately?
 
-**Patient**: I've noticed some hearing loss on my right side recently. It’s made things a bit harder, especially when I’m trying to follow conversations.
+**Patient**: My main issue has been with hearing loss on my right side. That's really what brought me in today.
 
-**Doctor**: Let me ask about when you first noticed the change—was it sudden or did it come on gradually over time?
+**Doctor**: Let me ask about any other symptoms—have you noticed any ringing in your ear, a feeling of fullness, or any dizziness along with the hearing changes?
 
-**Patient**: I’m not exactly sure when it started, but I think the hearing loss came on pretty gradually over the last few days.
+**Patient**: I have noticed some dizziness along with the hearing loss. No ringing or fullness, though.
 
-**Doctor**: Let me ask about any other changes you've noticed—have you experienced any ringing in your ear, a feeling of fullness, or any pain on that side?
+**Doctor**: Let me ask about the dizziness—does it come on suddenly, or does it build up gradually? And how long does each episode tend to last?
 
-**Patient**: No, I haven’t had any pain or ringing in my ear. I do get a bit dizzy at times, though.
+**Patient**: The dizziness tends to build up gradually rather than coming on all of a sudden. I'm not sure exactly how long each episode lasts, but it's not really brief—more like it lingers for a while.
 
-**Doctor**: Alright. When you feel dizzy, does it tend to happen at certain times—like when you stand up quickly, turn your head, or move in a particular way?
+**Doctor**: Let me ask about your hearing—has the loss on your right side been getting better, worse, or staying about the same since it started?
 
-**Patient**: The dizziness seems to get a bit worse when I move my head or turn quickly. It doesn’t always happen, but that’s when I notice it most.
+**Patient**: The hearing loss on my right side has pretty much stayed the same since it started. I haven’t noticed any improvement.
 
-**Doctor**: Let me ask about any recent illnesses or congestion—have you had a cold, allergies, or any sinus issues lately? Sometimes those can affect hearing.
+**Doctor**: Got it. How much is the hearing loss on your right side affecting your daily activities—like conversations, watching TV, or being in noisy places?
 
-**Patient**: No, I haven’t had any colds or sinus issues lately. My allergies haven’t been acting up either.
+**Patient**: Conversations can be a bit challenging, especially if there’s background noise or I’m in a group. Watching TV is harder too—I usually have to turn up the volume more than before.
 
-**Doctor**: Got it. Since this has been going on for a few days, have you noticed if your hearing on that side is getting worse, staying the same, or starting to improve at all?
+**Doctor**: I see. Tell me more about when you first noticed the hearing changes and dizziness—was there any illness, injury, or event around that time that might have triggered these symptoms?
 
-**Patient**: My hearing on that side has pretty much stayed the same since I first noticed it. I haven’t noticed any improvement yet.
+**Patient**: There wasn’t any illness or injury that I can remember when it all started. The hearing loss and dizziness just kind of came on their own. I also have some mild nystagmus and occasional mild nausea with it.
 
-**Doctor**: Let me ask about your balance—have you had any trouble walking straight, or have you experienced any falls or near-falls since this started?
+**Doctor**: Let me ask about your balance—have you had any trouble walking or keeping your balance during these episodes, or is it mostly just a sensation of dizziness?
 
-**Patient**: No, I haven’t had any trouble walking straight, and I haven’t fallen or almost fallen since this started.
+**Patient**: I haven’t really had trouble walking or keeping my balance—it’s mostly just that dizzy feeling. The dizziness and the mild nausea are what bother me most besides the hearing loss.
 
-**Doctor**: Got it. Let me ask about ear pressure or popping sensations—do you notice any changes when you swallow, yawn, or change altitude, like going up in an elevator? Sometimes these clues help us figure out if the middle ear is involved.
+**Doctor**: Alright. Has anything—like loud noises, changes in position, or recent air travel—seemed to make your hearing loss better or worse, or does it stay the same regardless of what you do?
 
-**Patient**: No, I haven’t noticed any pressure or popping when I swallow or yawn, and going up in an elevator doesn’t seem to make a difference.
+**Patient**: Nothing really seems to make the hearing loss better or worse—it stays about the same no matter what I do. Loud noises or changes in position don’t seem to affect it.
 
-**Doctor**: Based on what we've discussed, it sounds like you have a gradual onset of hearing loss on one side, with occasional dizziness that’s more noticeable when you move your head, but no pain, ringing, or recent congestion. This pattern can sometimes be related to issues within the inner ear, such as a problem with the balance or hearing nerve, or sometimes even a buildup of fluid behind the eardrum, though you haven’t noticed pressure or popping.
+**Doctor**: Based on what we've discussed, it sounds like your hearing loss on the right side has been persistent and isn't influenced by position or noise, and there's no clear trigger like illness or injury. The gradual onset and the fact that it's affecting conversations and daily life are important details.
 
-Because your symptoms have lasted several days without improvement and are affecting your ability to follow conversations, it’s worth having your ear checked more closely. While many causes are benign—like wax buildup or age-related changes—sometimes sudden or one-sided hearing loss can be due to treatable conditions that benefit from early attention.
+Often, when hearing loss comes on suddenly or without a clear cause, we consider things like problems with the inner ear or the nerve involved in hearing. The mild nystagmus you mentioned, along with the other symptoms, can sometimes point toward an issue with the balance system in the inner ear rather than something outside the ear.
 
-Next steps I’d recommend: avoid inserting anything into your ear, monitor for any new symptoms like severe dizziness, nausea, weakness, or facial drooping, and consider seeing an ear specialist (ENT) for a hearing test and examination. If your dizziness worsens or you notice new symptoms, let a healthcare provider know promptly.
+Because your symptoms have been stable but bothersome and are impacting your quality of life, it makes sense to continue monitoring closely and follow up with your ear specialist if anything changes. Warning signs to watch for would include any new weakness in your face, severe headache, or double vision—these would be reasons to seek prompt care.
 
-Let me know if you have any questions or if there’s anything else about your symptoms you’re concerned about.
+In the meantime, minimizing background noise and positioning yourself so your better ear faces conversation can help. Let me know if you have any questions about your current management plan or if you'd like advice on coping strategies.
 
-**Patient**: Thanks for explaining everything. I do get some mild nausea along with the dizziness, but nothing too bad. I’ll follow your advice and look into seeing an ENT. Is there anything specific I should watch for until then?
+**Patient**: Thanks for explaining all of that. I do have a diagnosis of a right acoustic neuroma, and I’ve already had a trans-labyrinthine resection. I still have the mild dizziness, nystagmus, and a bit of nausea, but I appreciate your suggestions for coping day to day. If anything changes or gets worse, I’ll be sure to let you know.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 652
+- **Word Count**: 707
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 61-year-old male presenting with long-standing right-sided hearing loss. Evaluation revealed a right-sided 1.6 cm acoustic neuroma, for which he underwent a trans-labyrinthine excision. His past medical history includes hypertension and hypercholesterolemia, and he takes Cardizem CD, Lipitor, and Hydrochlorothiazide; he has no known drug allergies. Postoperatively, he experienced mild nystagmus, dizziness, and mild nausea, which resolved over several days. Physical therapy assisted with ambulation during recovery. The documented diagnosis was right-sided acoustic neuroma. He was discharged in stable condition with instructions for follow-up and prescribed Percocet as needed for pain.
-
-## Dialogue Summary
-
-The patient presented with gradual hearing loss on the right side, which has persisted for several days and is impacting their ability to follow conversations. Symptoms include gradual onset hearing loss, occasional dizziness that worsens with head movement, and mild nausea; there is no pain, ringing, ear fullness, pressure, popping, recent illness, allergies, or balance issues reported. The patient denied any trouble walking, falls, or changes with swallowing, yawning, or altitude. No relevant medical history, medications, or allergies were mentioned. The doctor assessed that the pattern suggests possible inner ear involvement, such as a problem with the balance or hearing nerve, or fluid buildup behind the eardrum, though middle ear symptoms were not present. The doctor recommended avoiding inserting anything into the ear, monitoring for new symptoms (severe dizziness, nausea, weakness, facial drooping), and seeing an ENT specialist for a hearing test and examination. The patient was advised to seek prompt medical attention if symptoms worsen or new neurological signs develop.
-
-## STS Evaluation
-
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 61.3s
+- **Processing Time**: 91.6s

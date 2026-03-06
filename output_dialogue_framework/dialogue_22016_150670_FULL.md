@@ -16,95 +16,81 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.980
+- Score: 0.838
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.980
-- **Justification**: The dialogue is highly plausible for a primary-care follow-up after surgery for a pituitary adenoma, with persistent but non-severe headache as the main symptom. The doctor asks appropriate, open-ended and specific questions about the headache, screens for red-flag symptoms, and provides reasonable reassurance and non-pharmacologic advice. The patient responses are consistent, clear, and do not introduce unsupported information. There are no hallucinations or contradictions.
+- **Score**: 0.838
+- **Justification**: Combined score 0.84 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.46 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.462 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. To enhance realism, the patient could occasionally ask clarifying questions or express mild concern or frustration about the persistence of symptoms.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor communication is thorough and empathetic. For even greater realism, the doctor could briefly acknowledge the use of Fioricet (since the patient mentions it) and check for medication overuse or side effects.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and smooth, with good transitions between symptom exploration, reassurance, and advice. The conversation could be slightly more concise in places, but overall it is natural.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns detected. The doctor appropriately advises on warning signs and when to seek further care. Clarity is excellent.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Let me ask about the quality of your headache—would you describe it as throbbing, sharp, dull, or something else?
+**Doctor**: Hi, it's good to see you today. How have things been going for you since your procedure?
 
-**Patient**: It's more of a dull ache on the left side of my head, and it just hasn't really gone away since my surgery.
+**Patient**: Since the surgery, I've been having this persistent headache on the left side of my head. It's been pretty noticeable and hasn't really let up.
 
-**Doctor**: Alright. Have you noticed any other symptoms along with the headache, like vision changes, sensitivity to light, or feeling sick to your stomach?
+**Doctor**: Let me ask about the quality of the pain—would you describe it as throbbing, sharp, or more of a dull ache?
 
-**Patient**: No, I haven't noticed any vision changes or nausea with the headache. It's really just been that persistent ache on the left side.
+**Patient**: It's more of a dull ache, but it's pretty constant on that left side.
 
-**Doctor**: Let me ask about your recovery—since the surgery, have you noticed any changes in your energy levels, sleep, or mood? Sometimes these factors can play a role in how persistent discomfort feels.
+**Doctor**: Let me ask about associated symptoms—have you noticed any changes in your vision, nausea, or sensitivity to light along with the headache?
 
-**Patient**: I haven't really noticed any changes in my energy, sleep, or mood since the surgery. Everything else has felt pretty normal, aside from this headache.
+**Patient**: I haven't noticed any changes in my vision, and I haven't had nausea or sensitivity to light. It's really just the headache that's been bothering me.
 
-**Doctor**: Got it. Does anything seem to trigger or worsen the discomfort, such as certain movements, bending over, or stress? Or have you found anything that helps relieve it, like rest or over-the-counter pain medication?
+**Doctor**: Got it. Have you experienced headaches like this in the past, or is this a new type of discomfort since your surgery?
 
-**Patient**: Taking Fioricet seems to help a bit, but nothing else really makes a difference. I haven't noticed any specific triggers like movement or stress making it worse.
+**Patient**: This is a new kind of headache for me. I didn't have anything like this before the surgery.
 
-**Doctor**: Got it. Have you ever experienced this kind of persistent ache before your surgery, or is this a new type of discomfort for you?
+**Doctor**: Alright. Have you noticed if anything makes the discomfort better or worse, such as certain activities, positions, or taking over-the-counter pain relievers?
 
-**Patient**: This is new for me—I haven't had this kind of persistent headache before my surgery.
+**Patient**: Taking Fioricet seems to help a bit, but the headache never fully goes away. I haven't noticed any specific activities or positions that make it better or worse.
 
-**Doctor**: Okay. How severe would you rate this ache on a scale from 1 to 10, with 10 being the worst pain you can imagine?
+**Doctor**: Got it. One more thing—has this discomfort affected your ability to sleep or concentrate, or is it mainly just bothersome?
 
-**Patient**: I'd rate it around a 5 or 6 out of 10. It's definitely noticeable, but not the worst pain I've ever had.
+**Patient**: It’s mostly just bothersome, but sometimes it does make it harder to focus. My sleep hasn’t really been affected.
 
-**Doctor**: Let me ask about your recovery overall—have you had any fever, redness, or swelling near your surgical site, or any other new or unusual symptoms since the procedure? Sometimes these can help us rule out rare complications.
+**Doctor**: Okay. Since this is a new issue after your procedure, have you had any fever or signs of infection—like redness, swelling, or drainage—around your surgical site?
 
-**Patient**: No, I haven't had any fever, redness, or swelling near the surgical site, and no other new symptoms since the procedure. The headache is really the only thing that's been bothering me.
+**Patient**: I haven’t had any fever or signs of infection like redness, swelling, or drainage around the surgical site.
 
-**Doctor**: I see. Since this ache has been persistent but without other concerning symptoms, it’s common after surgery for some people to experience tension-type headaches due to stress, muscle tightness, or changes in routine. Most of the time, these gradually improve as you heal. 
+**Doctor**: Let me ask about duration—how long has this ache been going on since your surgery, and has it changed in intensity over time?
 
-If the discomfort remains steady or starts to improve, that’s reassuring. However, if you notice any new symptoms like fever, confusion, weakness, or the pain suddenly gets much worse, those would be reasons to seek prompt medical attention.
+**Patient**: The headache has been there ever since the surgery and hasn’t really changed much in how strong it feels. It’s just stayed about the same the whole time.
 
-For now, gentle stretching, staying hydrated, and maintaining regular routines can sometimes help. If you’d like, we can also discuss other non-medication strategies for headache relief. Would you be interested in that?
+**Doctor**: Based on what we've discussed, it sounds like this dull, persistent discomfort started right after your surgery and hasn't changed much since. Because you aren't experiencing warning signs like fever, vision changes, or signs of infection, this is less likely to be a serious complication. Sometimes, headaches can develop after surgical procedures due to stress, anesthesia effects, or even muscle tension from positioning during surgery.
 
-**Patient**: Yes, I’d be interested in hearing about some non-medication options for headache relief. I’m open to trying anything that might help this go away.
+Since Fioricet brings some relief but doesn't fully resolve it, this suggests it's responding somewhat to pain management but is still bothersome. Most postoperative headaches improve gradually over time, but if the pain becomes more severe, you develop new symptoms (like confusion, weakness, or visual changes), or you notice any changes at the surgical site, it's important to reach out right away.
 
-**Doctor**: From what you've told me, this steady ache developed after your procedure and hasn't been accompanied by other warning signs like swelling, fever, or neurological changes. That pattern suggests it's likely related to muscle tension, stress, or changes in your routine around the time of surgery—these are common contributors to headaches after medical procedures. The fact that your energy, sleep, and mood have stayed normal is also reassuring.
+For now, gentle self-care—like staying hydrated, managing stress, and pacing activities—can be helpful. If the headache persists beyond a few more days or worsens, let your surgical team know so they can assess further. Does that make sense, or is there anything else about your recovery you'd like to discuss?
 
-For non-medication approaches, here are a few strategies you might find helpful:
-- Applying a cool or warm compress to your forehead or neck can sometimes ease discomfort.
-- Gentle neck and shoulder stretches may relieve muscle tightness that contributes to head pain.
-- Practicing relaxation techniques, such as deep breathing or mindfulness meditation, can help reduce overall tension.
-- Ensuring you stay well-hydrated and maintain regular meals can also make a difference.
-- Taking breaks from screens and bright lights may help if you spend a lot of time on devices.
-
-Most headaches of this type improve with time as you recover. If you notice any new symptoms or the discomfort becomes significantly worse, it's important to reach out for further evaluation. Otherwise, these self-care measures can be a good starting point. Would you like more details on any of these techniques?
-
-**Patient**: Thanks, that’s helpful to hear. I’d appreciate more details on the stretches or relaxation techniques—you mentioned deep breathing or mindfulness meditation? I haven’t really tried those before.
+**Patient**: Thanks, that helps clear things up. I’ll keep an eye out for any new symptoms like you mentioned. Right now, I just want to make sure I’m doing everything I can to help the headache go away—so staying hydrated and pacing myself sounds good.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 759
+- **Word Count**: 594
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 44-year-old female presenting with persistent postoperative headache localized to the left side of the head following a hysterectomy. The headache prompted outpatient evaluation and subsequent admission for further work-up. Her past medical history includes fibroids (status post hysterectomy), prior appendectomy, and benign breast cyst removal; she has no medication allergies and was taking Lipitor and Fioricet for headaches. Physical examination was unremarkable, with normal vision and cranial nerve function. MRI revealed an enhancing mass in the sella, consistent with an adenoma. The documented diagnosis was sellar adenoma. She underwent a transnasal, trans-sphenoidal surgical removal of the lesion, which she tolerated well, and was stable postoperatively.
-
-## Dialogue Summary
-
-The patient presented with a persistent dull ache on the left side of the head following recent surgery. The headache has been ongoing since the procedure, rated at 5–6 out of 10 in severity, and is not associated with vision changes, nausea, fever, redness, swelling, or other new symptoms; energy, sleep, and mood have remained normal. The patient reported that Fioricet provides some relief, but no specific triggers or aggravating factors were identified, and this type of headache is new since surgery. No concerning physical findings or neurological symptoms were described. The doctor assessed the headache as likely tension-type, related to muscle tension, stress, or routine changes post-surgery, and found the absence of warning signs reassuring. Recommendations included gentle neck and shoulder stretches, cool or warm compresses, relaxation techniques such as deep breathing or mindfulness meditation, staying hydrated, maintaining regular meals, and taking breaks from screens. The doctor advised monitoring for new or worsening symptoms and offered to provide more details on non-medication strategies for headache relief.
-
-## STS Evaluation
-
-- **STS Score**: 0.955
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 62.8s
+- **Processing Time**: 78.5s

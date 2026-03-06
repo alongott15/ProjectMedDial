@@ -16,64 +16,85 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.900
+- Score: 0.790
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.900
-- **Justification**: The dialogue is plausible and consistent with the patient's profile (62-year-old male with coronary artery disease presenting with substernal chest pain). The doctor's questions are appropriate for chest pain evaluation, and the patient's responses are reasonable and relevant. The simulation ended prematurely due to a technical issue, but up to that point, there are no hallucinations or unsupported content.
+- **Score**: 0.790
+- **Justification**: Combined score 0.79 (naturalness=1.00 ×0.4, profile_compliance=0.80 ×0.3, ragas_faithfulness=0.50 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS) | 0.800 |
+| RAGAS Faithfulness | 0.500 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Continue providing clear, relevant answers. Ensure responses are complete and avoid technical interruptions.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: Excellent questioning—continue to explore duration, associated symptoms, and risk factors. Consider asking about other symptoms (e.g., shortness of breath, nausea) if the dialogue continues.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and focused. The abrupt end due to simulation error should be addressed to allow full history-taking.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns in the dialogue so far. Clarity is good; ensure all patient responses are captured before ending.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me more about what's been bothering you lately?
+**Doctor**: Welcome, it's good to see you today. Can you tell me what brought you in—what symptoms or concerns have you been having lately?
 
-**Patient**: I've been having this pain in my chest, kind of right in the middle. It's been worrying me, so I thought I should get it checked out.
+**Patient**: My chest has been hurting, right in the middle. That's the main thing that's been worrying me.
 
-**Doctor**: Let me ask about the pain—does anything in particular seem to bring it on, or make it better or worse? For example, does it change with movement, eating, or deep breaths?
+**Doctor**: Let me ask about the nature of the pain—does it come and go, or is it constant? And have you noticed if anything makes it better or worse, like movement or eating?
 
-**Patient**: I haven't really noticed anything specific that makes it better or worse. It just sort of comes and goes, and I can't tell if moving or eating changes it.
+**Patient**: It's not there all the time—it comes and goes. I haven't really noticed anything in particular that makes it better or worse.
 
-**Doctor**: Let me ask about the quality of the pain—would you say it feels sharp, dull, pressure-like, burning, or something else?
+**Doctor**: Let me ask about the severity—on a scale from 1 to 10, with 10 being the worst pain imaginable, how would you rate your chest pain when it happens?
 
-**Patient**: It feels more like a pressure in my chest than anything sharp or burning. That's the best way I can describe it.
+**Patient**: I'd put it around a 6 out of 10 when it's happening. It's definitely uncomfortable, but not the worst pain I've felt.
 
-**Doctor**: Got it. Have you noticed if this feeling of pressure comes on with activity, like walking or climbing stairs, or does it also happen when you’re resting?
+**Doctor**: Let me ask about other symptoms—when the discomfort comes on, do you ever feel short of breath, sweaty, or notice palpitations?
 
-**Patient**: I notice the pressure more when I’m walking or doing something active. It doesn’t seem as bad when I’m just sitting and resting.
+**Patient**: I haven't noticed any shortness of breath, sweating, or palpitations when the chest pain comes on. It's really just the pain in my chest.
 
-**Doctor**: Alright. How long does the pressure usually last when it comes on—are we talking seconds, minutes, or longer?
+**Doctor**: Got it. Can you tell me when you first started noticing this chest discomfort—has it been going on for days, weeks, or longer?
+
+**Patient**: I'm not exactly sure, but I think it's been going on for a few days now.
+
+**Doctor**: Alright, have you noticed any issues with your stomach lately, like heartburn, indigestion, or discomfort after eating? Sometimes these can cause pain in the middle of the chest.
+
+**Patient**: I haven't had any heartburn or indigestion, and eating doesn't seem to change the pain. It's really just the chest discomfort.
+
+**Doctor**: Got it. Have you been able to go about your usual daily activities, or has this discomfort made it difficult to do things like walking, chores, or exercise?
+
+**Patient**: I've still been able to do my usual activities, but the chest pain makes me a bit more cautious. I try not to push myself too much when it comes on.
+
+**Doctor**: Let me ask about the quality of the pain—would you describe it as sharp, dull, pressure-like, or something else? And does it ever radiate to your neck, arm, or back?
+
+**Patient**: The pain feels more like a pressure right in the center of my chest. It doesn’t spread to my neck, arm, or back—just stays in that one spot.
+
+**Doctor**: From what you've told me, your chest discomfort sounds like a pressure sensation that comes and goes, isn't triggered by eating or activity, and hasn't caused issues like shortness of breath or sweating. This pattern is often seen with non-cardiac causes, such as musculoskeletal strain or mild irritation of the tissues in the chest. It’s reassuring that you’re able to carry on with daily activities and haven’t had more concerning symptoms.
+
+What often happens with this kind of pain is that it can be related to things like posture, mild inflammation, or even anxiety. However, because chest pain can sometimes signal heart issues, it's important to be cautious. If you ever develop new symptoms like severe pain, difficulty breathing, sweating, or pain spreading to your arm or jaw, those would be reasons to seek urgent care.
+
+For now, I recommend monitoring your symptoms and avoiding activities that seem to bring on the discomfort. You might find gentle stretching or heat helpful if it’s musculoskeletal. Let me know if anything changes or if you have questions about this assessment.
+
+**Patient**: Thanks for explaining that. Since I’ve had heart issues in the past, do you think I should have any tests done now, or just keep an eye on things for the time being?
+
+**Doctor**: Let me share my thoughts. Given your history of heart issues, even though your current symptoms don't have the classic warning signs of a heart problem, it’s always wise to be cautious. The kind of pressure you're describing could be from a variety of benign causes, but because of your background, I would recommend checking in with your cardiologist or primary care provider for further evaluation. Sometimes, simple tests like an EKG or blood work can help rule out anything serious and provide peace of mind.
+
+In the meantime, continue to monitor for any new symptoms—especially things like severe pain, difficulty breathing, or pain spreading to other areas. If those occur, seek care promptly. Otherwise, it’s reasonable to keep an eye on things and avoid strenuous activity until you've been evaluated. This approach balances caution with practicality given your history.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 9
-- **Word Count**: 240
-- **Doctor Turns**: 5
-- **Patient Turns**: 4
-
-## EHR Summary
-
-The patient is a 62-year-old male presenting with substernal chest pain and a positive stress test. Symptoms included chest pain leading to cardiac catheterization, which revealed significant coronary artery disease with 70% occlusion of the left main LAD, 80% occlusion of the left circumflex, and 80% occlusion of the RCA. Relevant history includes prior myocardial infarction in 2126, percutaneous transluminal coronary angioplasty in 2124, hypercholesterolemia, and tobacco use; home medication included aspirin. On physical exam prior to discharge, the patient was stable with clear lungs, regular heart rhythm, and a clean, intact surgical incision. The documented diagnosis was severe multi-vessel coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) times three and had an uneventful postoperative course aside from a transient low hematocrit requiring transfusion. Discharge medications included Lopressor, Lasix, potassium chloride, aspirin, and Percocet as needed. The patient was advised to follow up with wound care and vital sign monitoring at home and to see the surgeon in 3-5 weeks.
-
-## Dialogue Summary
-
-The patient presented with chest pain located in the middle of the chest. The pain was described as a pressure sensation rather than sharp or burning, and it tends to come and go without clear triggers. The patient reported that the pressure is more noticeable during activity, such as walking, and less severe when resting; no specific factors were identified that make it better or worse. No relevant medical history, medications, or allergies were mentioned during the encounter. There were no physical findings documented, as the conversation focused on symptom characterization. The doctor explored the nature, triggers, and timing of the chest pressure but did not provide a formal assessment or diagnosis during this portion of the dialogue. No specific treatment plan or recommendations were given in the available transcript.
-
-## STS Evaluation
-
-- **STS Score**: 0.943
-- **Similarity Label**: N/A
+- **Turn Count**: 19
+- **Word Count**: 770
+- **Doctor Turns**: 10
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 42.5s
+- **Processing Time**: 82.5s

@@ -16,88 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.700
+- Score: 0.885
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.700
-- **Justification**: The dialogue is mostly plausible and follows a logical clinical reasoning process for unilateral hearing loss with dizziness and mild nystagmus. However, there is a significant hallucination: the doctor speculates about vestibular neuritis or sudden sensorineural hearing loss as possible causes, but the patient profile explicitly states a history of right acoustic neuroma status post trans-labyrinthine resection. This prior diagnosis should be central to the assessment, and the doctor should acknowledge it rather than suggesting unrelated etiologies. Otherwise, the questions and responses are appropriate for the symptoms described.
+- **Score**: 0.885
+- **Justification**: Combined score 0.89 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.75 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.750 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and describes symptoms well. It would be helpful if the patient mentioned their surgical history if not prompted, but this is not strictly necessary if the doctor should know it.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor should reference the patient's known history of acoustic neuroma and surgery, as this is highly relevant to the current symptoms. Avoid suggesting alternative diagnoses that are not supported by the profile. Instead, discuss possible post-surgical complications or recurrence.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and covers relevant symptom domains. It would be improved by integrating the patient's medical history earlier in the conversation.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: The advice about seeking prompt evaluation and monitoring for red flag symptoms is appropriate. However, clarity would be improved by explicitly connecting current symptoms to the patient's known diagnosis and surgical history.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it’s good to see you today. What’s been bringing you in—can you tell me in your own words what’s been going on lately?
+**Doctor**: Let me ask about what's been bothering you lately—can you describe any changes you've noticed with your hearing or vision?
 
-**Patient**: I’ve been noticing some hearing loss on my right side lately. That’s mainly why I wanted to come in and get it checked out.
+**Patient**: I've noticed some hearing loss on my right side. That's really the main thing that's been bothering me.
 
-**Doctor**: Let me ask about when you first noticed the change—how long has this been going on, and did it come on suddenly or gradually?
+**Doctor**: Let me ask about any other symptoms—have you noticed any dizziness, ringing in your ear, or a sense of imbalance along with the hearing changes?
 
-**Patient**: I'm not exactly sure when it began, but I think it's been a few days now. It seemed to come on pretty suddenly for me.
+**Patient**: I have been feeling a bit dizzy along with the hearing loss. I also noticed my eyes seem to move a little on their own at times—mild nystagmus, I think it's called.
 
-**Doctor**: Let me ask about any other symptoms you might have noticed—have you experienced any dizziness, ringing in your ear, or a feeling of fullness on that side?
+**Doctor**: Let me ask about the timing—when did you first notice these changes, and have they come on suddenly or gradually over time?
 
-**Patient**: Yes, I’ve had some dizziness along with the hearing loss. I haven’t really noticed any ringing or a full feeling in my ear, though.
+**Patient**: I can't remember the exact day, but it seemed to come on pretty suddenly. One day my hearing just felt off on the right side, and then the dizziness started not long after.
 
-**Doctor**: Got it. How much is this change in hearing and the dizziness affecting your daily activities—are you having trouble with balance, conversations, or anything else you do regularly?
+**Doctor**: Got it. Has your hearing or dizziness been getting better, worse, or staying about the same since it started?
 
-**Patient**: It’s made conversations a bit harder since I can’t hear as well on that side. I’ve also felt a little unsteady at times because of the dizziness, but I’m still able to get around.
+**Patient**: My hearing and dizziness have pretty much stayed the same since they started. I haven't noticed much improvement or any real change.
 
-**Doctor**: Let me ask about whether you've had any recent colds, sinus issues, or upper respiratory symptoms before this started. Sometimes those can be related to sudden hearing changes.
+**Doctor**: Let me ask about how this is affecting your day-to-day activities—are you able to do your usual tasks, or is it making things like walking, reading, or conversations more difficult?
 
-**Patient**: No, I haven’t had any colds or sinus problems lately. The only other thing I’ve noticed is some mild nausea along with the dizziness.
+**Patient**: Conversations are definitely a bit harder, especially when there's background noise. Walking is okay, but the dizziness makes me a little cautious, and reading hasn't really changed for me.
 
-**Doctor**: Alright. Since this started, have you noticed any changes in your vision or trouble moving your eyes? Sometimes issues with hearing and balance can also be linked to eye movements, so it’s helpful to know.
+**Doctor**: Let me ask about any nausea—have you felt at all queasy or sick to your stomach since these symptoms began?
 
-**Patient**: I've had some mild nystagmus, but no real changes in my vision otherwise. Moving my eyes hasn't been a problem.
+**Patient**: I have had some mild nausea along with the dizziness, but it's not too bad. It just comes and goes.
 
-**Doctor**: Let me ask about your right ear specifically—have you had any pain, drainage, or history of ear infections on that side? Sometimes local issues in the ear can contribute to sudden changes in hearing.
+**Doctor**: Alright. When you cover your left ear, are you able to hear anything at all out of your right ear, or is the hearing loss complete on that side?
 
-**Patient**: No, I haven’t had any pain, drainage, or ear infections on that side.
+**Patient**: If I cover my left ear, I can still hear a little out of the right, but it's definitely much quieter and not very clear. It's not completely gone, but there's a big difference.
 
-**Doctor**: Alright. Since this hearing loss started, have you noticed if anything—like certain head positions, loud sounds, or movement—makes your symptoms better or worse? Sometimes triggers can give us clues about the cause.
+**Doctor**: Got it. Before I explain what I’m thinking, have you had any ear pain, pressure, drainage, or recent infections like a cold or sinus issue around the time this started?
 
-**Patient**: Nothing really seems to make it better or worse. Moving around might make the dizziness a little more noticeable, but otherwise, I haven't noticed any specific triggers.
+**Patient**: I haven't had any ear pain, pressure, drainage, or any recent infections like a cold or sinus issues around the time this started.
 
-**Doctor**: Based on what we've discussed, your sudden hearing loss on one side along with dizziness and mild nystagmus, but without pain, drainage, or recent illness, suggests this could be an issue with the inner ear—possibly something like vestibular neuritis or sudden sensorineural hearing loss. These conditions can affect both balance and hearing because the inner ear is responsible for both.
+**Doctor**: From what you've told me, your symptoms include a sudden decrease in hearing on one side, some dizziness, mild nausea, and occasional involuntary eye movements, all without pain, drainage, or signs of infection. This combination suggests that the issue is likely related to the inner ear or the nerve that connects your ear to your brain, rather than something like a simple ear infection or wax buildup.
 
-It’s a good sign that you’re still able to get around, but I do want to stress that sudden hearing loss—especially with dizziness—should be evaluated promptly. Early intervention can sometimes improve outcomes.
+Sudden hearing loss with dizziness and nystagmus can sometimes be due to conditions like sudden sensorineural hearing loss or vestibular neuritis. These are often related to inflammation or other changes affecting the inner ear or its nerve supply. It’s important to address this promptly because early treatment can sometimes improve recovery, especially for hearing changes.
 
-For now, try to avoid sudden movements that could worsen your dizziness, and be cautious with activities that require good balance. If you notice any new symptoms like severe headache, weakness, trouble speaking, or changes in your vision, seek immediate care.
+My recommendation is that you see an ear, nose, and throat (ENT) specialist as soon as possible for further evaluation. They may want to do a hearing test and possibly start treatment quickly. In the meantime, try to avoid situations where dizziness could put you at risk of falling.
 
-I’d recommend seeing an ear, nose, and throat specialist soon for further evaluation and possibly a hearing test. In the meantime, how much is this hearing change affecting your day-to-day life—are there particular activities you’re struggling with or concerned about?
+If you notice any new symptoms such as severe headache, double vision, weakness, trouble speaking, or loss of balance that’s worse than what you’ve described, seek medical attention right away.
 
-**Patient**: I appreciate you explaining all that. The hearing loss makes conversations tougher, especially in noisy places. I’m mostly just worried about feeling off balance when I’m out and about, but I’m still able to manage my regular routines for now.
+Does this explanation make sense? Is there anything else about your symptoms you’re concerned about?
+
+**Patient**: Thank you for explaining that. What kind of treatments might the ENT specialist recommend for this, and is there anything I should do in the meantime besides being careful with the dizziness?
+
+**Doctor**: Based on what we've discussed, your symptoms point to an issue affecting the inner ear or the nerve responsible for hearing and balance. When these symptoms come on suddenly, ENT specialists often consider treatments like oral steroids, which can sometimes help recover hearing if started early. They may also recommend a hearing test and possibly imaging to rule out less common causes.
+
+In the meantime, it’s important to avoid activities where dizziness could put you at risk of falling—move slowly when getting up, and use handrails if needed. Try to rest and stay well-hydrated. If your symptoms worsen or you develop new issues such as severe headache, vision changes, or weakness, seek care promptly.
+
+Would you like more detail about what an ENT visit might involve, or do you have other questions about managing this until your appointment?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 660
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 816
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 61-year-old male presenting with long-standing right-sided hearing loss. Evaluation revealed a right-sided 1.6 cm acoustic neuroma, for which he underwent a trans-labyrinthine excision. His past medical history includes hypertension and hypercholesterolemia, and he takes Cardizem CD, Lipitor, and Hydrochlorothiazide; he has no known drug allergies. Postoperatively, he experienced mild nystagmus, dizziness, and mild nausea, which resolved over several days. Physical therapy was consulted for ambulation support. The documented diagnosis was right-sided acoustic neuroma. He was discharged in stable condition with Percocet prescribed for pain as needed and instructions for outpatient follow-up.
-
-## Dialogue Summary
-
-The patient presented with sudden hearing loss on the right side. Symptoms included hearing loss for a few days with sudden onset, associated dizziness, mild nausea, and mild nystagmus; no ringing, ear fullness, pain, drainage, or history of ear infections were reported. The patient denied recent colds, sinus issues, or upper respiratory symptoms and noted that movement may worsen dizziness but no specific triggers for hearing loss. The hearing loss has made conversations more difficult and caused some unsteadiness, but the patient remains able to manage daily activities. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted sudden unilateral hearing loss with dizziness and mild nystagmus, without other neurological symptoms or ear complaints, suggesting possible inner ear involvement such as vestibular neuritis or sudden sensorineural hearing loss. The doctor advised prompt evaluation by an ear, nose, and throat specialist and recommended a hearing test. Additional advice included avoiding sudden movements, being cautious with balance-related activities, and seeking immediate care if new severe symptoms arise.
-
-## STS Evaluation
-
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 59.6s
+- **Processing Time**: 82.5s

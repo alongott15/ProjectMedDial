@@ -16,90 +16,179 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.885
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is consistent with the patient's profile and presents a plausible, grounded primary care interaction for mild viral symptoms in a patient with underlying cardiac history. The doctor asks appropriate questions about symptom onset, severity, associated features, and hydration, and provides reasonable reassurance and safety netting. No unsupported diagnoses, treatments, or severe events are introduced. The conversation is coherent and role-appropriate.
+- **Score**: 0.885
+- **Justification**: Combined score 0.89 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.75 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.750 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For added realism, the patient could mention any home remedies tried or express concerns about how their cardiac history might relate to current symptoms.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: Doctor could briefly acknowledge the patient's cardiac history and clarify that while current symptoms seem mild, underlying conditions warrant careful monitoring. This would show awareness of comorbidities without escalating the case unnecessarily.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and smooth. A closing summary or explicit invitation for follow-up questions could further enhance patient engagement.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety netting is present and clear. For maximal clarity, the doctor could specify which over-the-counter medications are appropriate given the patient's cardiac history (e.g., caution with NSAIDs if relevant).
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome in today. What’s been bothering you the most lately?
+**Doctor**: Hi, it’s good to see you today. What’s been bothering you lately?
 
-**Patient**: I've been feeling pretty lightheaded and just really tired lately. That's what's been bothering me the most.
+**Patient**: I've been feeling pretty lightheaded lately, and it just doesn't seem to go away.
 
-**Doctor**: Let me ask about the timing—when did you first notice these symptoms starting?
+**Doctor**: Let me ask about what you’re experiencing day-to-day—have you noticed if certain activities or times of day make this lightheaded feeling better or worse?
 
-**Patient**: I'm not exactly sure when it started, but it's been going on for at least a few days now. The lightheadedness just kind of stuck around.
+**Patient**: I haven't really noticed a pattern—it just kind of sticks with me all day, no matter what I'm doing.
 
-**Doctor**: Got it. Have you noticed if these feelings come and go, or are they pretty constant throughout the day?
+**Doctor**: Let me ask about your energy levels—have you been feeling more tired than usual, or has your ability to do your normal activities changed at all?
 
-**Patient**: They’re pretty constant throughout the day. I don’t really notice them coming and going much.
+**Patient**: I've definitely been more tired than usual. Even simple things seem to wear me out faster lately.
 
-**Doctor**: Got it. Have you noticed any other symptoms along with this, like headaches, changes in your vision, or feeling short of breath?
+**Doctor**: Let me ask about other symptoms—have you had any headaches, vision changes, or feelings like you might actually faint?
 
-**Patient**: I’ve also been feeling pretty fatigued, and it kind of feels like I have the flu. I haven’t noticed any headaches or vision changes, and I’m not short of breath.
+**Patient**: I haven't had headaches or vision changes. I do feel pretty wiped out, and I’ve had what feels like the flu, with my temperature going up to about 101.5 at one point.
 
-**Doctor**: Let me ask about your temperature—have you checked if you’ve had a fever during these past few days? If so, do you recall how high it got?
+**Doctor**: Alright. How long has this been going on—did these symptoms start suddenly, or have they come on gradually over the past few days?
 
-**Patient**: Yes, I checked my temperature and it spiked up to 101.5 at one point over these past few days.
+**Patient**: This all started pretty gradually over the past few days. The fever and flu-like feeling came on around the same time as the lightheadedness and fatigue.
 
-**Doctor**: Alright. Has this tiredness and lightheaded feeling made it difficult for you to do your usual daily activities, like working, walking around, or doing chores?
+**Doctor**: Got it. One more thing—have you had any cough, sore throat, body aches, or stomach issues like nausea or diarrhea along with these symptoms?
 
-**Patient**: Yes, it’s definitely made things harder. I get worn out pretty quickly, even just trying to do normal chores around the house.
+**Patient**: I haven’t had any cough, sore throat, or stomach issues like nausea or diarrhea. My main problems have just been the fatigue, lightheadedness, and that fever.
 
-**Doctor**: Let me ask about your hydration—have you been able to drink fluids normally, or have you had any trouble keeping things down, like nausea or vomiting? Sometimes not getting enough fluids can make these symptoms worse.
+**Doctor**: Got it. One more question—have you noticed any recent weight loss, night sweats, or swollen glands anywhere (like in your neck or under your arms)? These can sometimes help us figure out what’s going on when someone feels run down with a fever.
 
-**Patient**: I've been able to drink fluids without any trouble. I haven’t had any nausea or vomiting.
+**Patient**: I haven't noticed any weight loss, night sweats, or swollen glands. It's really just been the fatigue, lightheadedness, and that fever.
 
-**Doctor**: Alright. Over the past few days, have your symptoms been staying about the same, getting worse, or starting to improve at all?
+**Doctor**: Got it. When you stand up from sitting or lying down, do you feel your symptoms get worse, or do you ever feel like you might lose your balance? This can help me understand if your blood pressure or hydration might be playing a role.
 
-**Patient**: They’ve pretty much stayed the same over the past few days. I haven’t noticed much improvement yet.
+**Patient**: Standing up doesn’t really make things worse, and I haven’t felt like I was going to lose my balance. The lightheadedness just kind of stays with me.
 
-**Doctor**: From what you've told me, it sounds like you've had several days of ongoing tiredness and lightheadedness, along with a moderate fever. Since you haven’t had trouble keeping fluids down and there are no severe symptoms like chest pain or shortness of breath, this picture is most consistent with a mild viral illness—something like the flu or another respiratory virus, even if you’re not having classic symptoms like cough or sore throat.
+**Doctor**: Based on what we’ve discussed, it sounds like you’ve been dealing with a gradual onset of feeling wiped out and lightheaded, along with a measurable temperature spike. Since you haven’t noticed any other symptoms like cough, sore throat, stomach upset, or swollen glands, and you’re not experiencing dizziness when standing, this points toward a mild viral illness—something like a non-specific viral syndrome or a mild flu-like illness is most likely.
 
-Fatigue and feeling lightheaded can happen as your body fights off an infection, especially when you have a fever, which can also make you feel drained. Because your symptoms have stayed about the same and you’re able to stay hydrated, that’s reassuring.
+Often, these viruses can cause fatigue and make you feel lightheaded, especially as your body works to fight off the infection. Most people start to improve after a few days of rest, fluids, and over-the-counter medications for fever if needed.
 
-The main things I’d recommend right now are to continue resting, drink plenty of fluids, and use over-the-counter medications for fever or discomfort if you need them. Most mild viral illnesses will improve on their own within a week or so.
+Here’s what I recommend:
+- Make sure to rest as much as possible and drink plenty of fluids (water, clear soups, electrolyte drinks).
+- You can use acetaminophen (Tylenol) or ibuprofen if your temperature is uncomfortable.
+- Monitor your symptoms: If you start to feel worse instead of better, develop new symptoms like chest pain, trouble breathing, confusion, or persistent vomiting, seek medical attention promptly.
+- If your symptoms aren’t improving after about a week, or if the lightheadedness becomes severe, follow up for further evaluation.
 
-If you were to develop new symptoms—such as difficulty breathing, chest pain, confusion, or if your fever persists more than a few more days or gets higher—it would be important to seek care promptly. Otherwise, it’s reasonable to keep monitoring at home.
+What often happens with these viral illnesses is that the body just needs time to recover. For now, focus on supportive care at home, and keep an eye out for any changes. Does that all make sense? Any questions about what to watch for or
 
-Does that make sense? Is there anything else you’re worried about or would like to discuss?
+**Patient**: Thanks for explaining that. How long should I expect this lightheadedness and fatigue to last before I start feeling back to normal?
 
-**Patient**: That all makes sense, thanks for explaining it. I’ll keep an eye on things and try to rest like you said. I appreciate the reassurance.
+**Doctor**: Let me share my thoughts on what you can expect. With most mild viral illnesses, symptoms like feeling run down and out of sorts often start to improve within a few days, but it’s not unusual for the sense of being lightheaded or tired to linger for about a week—sometimes a little longer. Everyone’s recovery is a bit different, but you should notice gradual improvement each day.
+
+If you find that these symptoms are making it hard to do your basic daily tasks—like getting out of bed, eating, or staying hydrated—or if things aren’t improving after a week, it would be a good idea to check back in. Also, if anything new develops or your symptoms get worse, let someone know right away.
+
+Rest, fluids, and pacing yourself are key. Does this help clarify what to expect?
+
+**Patient**: Thanks, that helps. Is it okay for me to keep up with light activity around the house, or should I really just focus on resting until I feel better?
+
+**Doctor**: From what you’ve described, your symptoms fit with a mild viral illness, which often causes people to feel unusually tired and a bit off-balance for several days. The main priority is to listen to your body—rest is important, but gentle activity around the house is usually fine as long as you don’t push yourself or make your symptoms worse. If you feel up to getting up and moving a bit, that’s generally safe; just take breaks and avoid anything strenuous until your energy returns.
+
+The key is to pace yourself: if light activity makes you feel significantly worse, that’s a signal to slow down and rest more. Most people find they can gradually do more as they recover. If you notice any new issues—like trouble breathing, chest discomfort, or feeling faint with activity—pause and let someone know.
+
+Let me know if you have any other questions or concerns about your recovery or if anything changes over the next few days.
+
+**Patient**: That answers my questions for now. I’ll keep an eye on things and reach out if anything changes. Thanks for your help.
+
+**Doctor**: Feel free to reach out if anything changes or you have new concerns. Take care.
+
+**Patient**: I appreciate it. I’ll make sure to reach out if anything new comes up. Thanks again for your time.
+
+**Doctor**: Absolutely—take care, and don’t hesitate to reach out if anything changes.
+
+**Patient**: Thanks, I will. I appreciate your help today.
+
+**Doctor**: Of course. Wishing you a smooth recovery.
+
+**Patient**: Thanks, I appreciate that. I’ll follow your advice and reach out if anything changes.
+
+**Doctor**: Absolutely—wishing you a steady recovery.
+
+**Patient**: Thank you, I’ll do that. I feel clear on what to watch for now.
+
+**Doctor**: Glad to hear that. Take care and let me know if anything changes.
+
+**Patient**: Thanks, I will. I’ll reach out if anything changes or if I have more questions.
+
+**Doctor**: Okay, that sounds good. Take care.
+
+**Patient**: Thanks again. I’ll keep you posted if anything changes.
+
+**Doctor**: Absolutely—wishing you all the best as you recover.
+
+**Patient**: I appreciate it. I’ll let you know if anything changes or if I have more questions as I recover.
+
+**Doctor**: Absolutely—feel free to reach out if anything changes or you have more questions.
+
+**Patient**: Thanks for letting me know. I feel comfortable reaching out if anything else comes up.
+
+**Doctor**: Of course—feel free to reach out anytime if you need to.
+
+**Patient**: Thanks, I appreciate you being available. I’ll let you know if anything changes or if I have more questions as things progress.
+
+**Doctor**: Of course—wishing you a smooth recovery.
+
+**Patient**: Thanks for your support. I’ll keep track of how I’m feeling and reach out if anything changes.
+
+**Doctor**: You’re welcome—take care and let me know if you need anything further.
+
+**Patient**: Thanks, I will. I feel comfortable with the plan and know what to watch out for.
+
+**Doctor**: Glad you’re feeling comfortable with the plan. Reach out anytime if you need to.
+
+**Patient**: Thanks, I feel good about the plan moving forward. I’ll reach out if anything comes up.
+
+**Doctor**: Absolutely—take care.
+
+**Patient**: Thanks, I’ll do that. I appreciate your help today.
+
+**Doctor**: Absolutely—reach out anytime if you need to.
+
+**Patient**: I appreciate it. I’ll keep you updated if anything changes or if I have more questions as I recover.
+
+**Doctor**: Got it. Feel free to reach out if anything changes or you have more questions.
+
+**Patient**: Thanks, I feel clear on what to do and when to reach out. I don’t have any more questions right now.
+
+**Doctor**: Glad you’re feeling clear on the plan. Take care.
+
+**Patient**: Thank you. I’ll follow your advice and reach out if anything changes.
+
+**Doctor**: Absolutely—take care.
+
+**Patient**: Thanks, I’ll do that. I don’t have any more questions right now.
+
+**Doctor**: Okay, feel free to reach out if anything changes.
+
+**Patient**: Thanks for letting me know. I’ll reach out if anything new comes up.
+
+**Doctor**: Got it. Feel free to reach out if anything changes.
+
+**Patient**: That works for me. I’ll let you know if anything changes or if new symptoms come up.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 598
-- **Doctor Turns**: 9
-- **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 50-year-old male presenting with persistent lightheadedness and fatigue. He reported chronic lightheadedness and flu-like symptoms since 2186, without chest discomfort or shortness of breath. Relevant history includes sarcoidosis (diagnosed in 2180), benign prostatic hypertrophy, restless leg syndrome, hypertension, hyperlipidemia, and prior surgeries for TMJ, tonsillectomy, adenoidectomy, and lipoma dissection; he is allergic to penicillin. Cardiolite ETT revealed a moderate fixed inferior defect and a moderately reversible anterior apical and septal defect, with an ejection fraction of 43%. Cardiac catheterization demonstrated significant stenosis of the right coronary artery, left anterior descending artery, and obtuse marginal artery, confirming coronary artery disease. The patient was ruled out for myocardial infarction by ECG and enzymes. The documented diagnosis was coronary artery disease requiring surgical intervention. He underwent coronary artery bypass grafting on 2196-6-27.
-
-## Dialogue Summary
-
-The patient presented with persistent lightheadedness and fatigue as the chief complaint. Symptoms have been ongoing for at least a few days, are constant throughout the day, and have made daily activities more difficult; the patient also reported feeling generally unwell, similar to having the flu, and noted a fever spike up to 101.5°F. No headaches, vision changes, shortness of breath, nausea, or vomiting were reported, and the patient has been able to maintain normal fluid intake. No relevant medical history, medications, or allergies were mentioned. The doctor assessed that the symptoms are most consistent with a mild viral illness, such as the flu or another respiratory virus, given the moderate fever and absence of severe symptoms. The doctor recommended continued rest, adequate hydration, and use of over-the-counter medications for fever or discomfort as needed. The patient was advised to monitor for new or worsening symptoms—such as difficulty breathing, chest pain, confusion, or persistent/high fever—and to seek care if these occur; otherwise, home monitoring is appropriate. The patient expressed understanding and agreed to follow the recommendations.
-
-## STS Evaluation
-
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **Turn Count**: 60
+- **Word Count**: 1535
+- **Doctor Turns**: 30
+- **Patient Turns**: 30
 
 ## Processing Information
 
-- **Processing Time**: 61.3s
+- **Processing Time**: 271.9s

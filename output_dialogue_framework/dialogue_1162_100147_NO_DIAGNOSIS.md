@@ -16,86 +16,93 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.962
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is consistent with the provided patient profile and case type. The doctor asks logical, stepwise questions about the symptoms (vertigo, ringing in ears, headache), explores their onset, triggers, and impact on daily life, and provides plausible explanations and safety advice. The patient responses are coherent and match the described symptoms. There are no unsupported diagnoses or treatments introduced, and the conversation remains focused on mild, common causes appropriate for primary care. The only minor issue is that the known diagnosis of a right temporal intracranial mass is not referenced, but since the case is labeled as 'light, common symptoms,' this omission does not create a contradiction.
+- **Score**: 0.962
+- **Justification**: Combined score 0.96 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.88 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.875 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For even greater realism, the patient could mention any previous medical history or concerns about the symptoms if prompted.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor provides thorough questioning and clear explanations. For completeness, the doctor could ask about any prior similar episodes or relevant medical history, and could clarify if any neurological symptoms (e.g., vision changes, weakness) are present given the headache.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with good transitions between topics. The conversation could be slightly improved by summarizing key points before giving advice.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is appropriate and clear. The doctor correctly advises on warning signs and when to seek urgent care. No major safety or clarity concerns.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi there, it's good to see you today. What brings you in—can you tell me more about how you've been feeling lately?
+**Doctor**: Hi, good to see you today. What brings you in—can you tell me what's been bothering you lately?
 
-**Patient**: I've been having these dizzy spells—like vertigo—for a little while now. That's mainly why I came in.
+**Patient**: I've been feeling pretty dizzy lately—like the room is spinning sometimes. That's the main thing that's got me concerned right now.
 
-**Doctor**: Let me ask about some related symptoms—have you noticed any ringing in your ears or headaches along with these dizzy spells?
+**Doctor**: Let me ask about something related—have you noticed any ringing in your ears or hearing changes along with these dizzy spells?
 
-**Patient**: Yes, I've also noticed some ringing in my ears along with the vertigo.
+**Patient**: Actually, yes—I do get a ringing in my ears along with the dizziness. It comes and goes, but it's definitely there.
 
-**Doctor**: Let me ask about how these episodes come on—do they seem to happen suddenly, or do you notice any warning signs before the vertigo and ringing start?
+**Doctor**: Got it. When these episodes happen, do you feel unsteady all the time, or is it more like sudden spells where you feel off balance? And do these episodes last seconds, minutes, or longer?
 
-**Patient**: They tend to come on pretty suddenly—I don't really get any warning before the vertigo and ringing start.
+**Patient**: These dizzy spells hit me suddenly, not all the time. They usually last a few minutes before easing up.
 
-**Doctor**: Alright. Have you noticed if these dizzy spells are triggered by certain movements, like turning your head or standing up quickly, or do they seem to happen at random times?
+**Doctor**: Let me ask about when these episodes first began—how long have you been experiencing these sudden dizzy spells with the ringing in your ears?
 
-**Patient**: They seem to happen at random times—I haven't noticed any specific movements that bring them on.
+**Patient**: I'm not exactly sure, but I think it's been going on for a few days now. The ringing and dizziness seem to come together when it happens.
 
-**Doctor**: Let me ask about the ringing in your ears—does it affect one ear or both, and is it constant or does it come and go with the episodes?
+**Doctor**: Alright. Have you noticed if anything seems to bring on these episodes, like standing up quickly, certain movements, or loud noises? Or do they just come out of the blue?
 
-**Patient**: The ringing happens in both ears, and it usually comes and goes along with the vertigo episodes.
+**Patient**: They just seem to come out of the blue—I haven’t noticed anything specific that brings them on. It doesn’t matter if I’m moving or just sitting still.
 
-**Doctor**: I see. Tell me more about when these episodes first started—how long has this been going on?
+**Doctor**: Got it. One more thing—does this dizziness ever make you feel like you might fall, or has it actually caused you to lose your balance or stumble?
 
-**Patient**: These episodes started a few days ago. I’ve also had some headaches along with the vertigo and ringing.
+**Patient**: The dizziness does make me feel like I could lose my balance, but I haven’t actually fallen or stumbled so far. It just feels pretty unsteady when it hits.
 
-**Doctor**: Got it. Have these episodes been severe enough to interfere with your daily activities, or are you still able to go about your normal routine when they happen?
+**Doctor**: Let me ask about how much this is interfering with your normal routine—are these episodes making it difficult for you to work, drive, or do daily tasks?
 
-**Patient**: They've made it harder to do my normal activities, especially when the vertigo hits. I usually have to sit down and wait for it to pass.
+**Patient**: These episodes definitely make things harder. I’ve had to be extra careful with driving and daily tasks because I don’t feel steady when the dizziness hits.
 
-**Doctor**: Let me ask about the headaches—are they mild or quite painful, and do they tend to come on at the same time as the vertigo and ringing?
+**Doctor**: Let me ask about any other symptoms—have you experienced any nausea or vomiting when these episodes occur?
 
-**Patient**: The headaches are more on the mild side, not too painful. They usually show up at the same time as the vertigo and ringing.
+**Patient**: I haven’t had any nausea or vomiting with these episodes. It’s mainly just the dizziness, ringing in my ears, and a headache.
 
-**Doctor**: Based on what we've discussed, your symptoms of sudden-onset vertigo with ringing in both ears that comes and goes could be related to an issue with your inner ear, which is responsible for both balance and hearing. Sometimes, conditions like viral inner ear infections or problems such as vestibular neuritis or Meniere’s disease can cause these kinds of symptoms. It’s reassuring that your headaches are mild, but I can see how these episodes are making daily life difficult.
+**Doctor**: From what you've told me, it sounds like you're having episodes where the room feels like it's spinning, along with ringing in your ears and a headache. These symptoms are coming on suddenly, lasting a few minutes, and making daily activities more challenging, though you haven’t had any falls or nausea.
 
-Because these symptoms started only a few days ago and are interfering with your activities, it’s important to monitor for any changes. If you develop hearing loss, persistent vomiting, weakness, difficulty speaking, or trouble walking, those would be warning signs to seek care urgently.
+What this pattern suggests is something we call "vertigo," which is a type of dizziness caused by an issue in the inner ear or the nerves that help control balance. The fact that you’re also having ringing in your ears points toward a problem with the inner ear itself—sometimes this can be due to conditions like vestibular neuritis or Ménière’s disease, both of which are typically not dangerous but can be quite bothersome.
 
-For now, try to rest when episodes occur, and avoid sudden movements. Staying hydrated can sometimes help. If the symptoms persist beyond a week, worsen, or if you notice any new concerning signs, I’d recommend follow-up for further evaluation. Would you say anything in particular seems to set off the ringing in your ears, or does it always come on unpredictably?
+Most often, these episodes improve with time or with some simple lifestyle adjustments, such as being careful when changing positions and avoiding driving if you feel unsteady. However, since this is affecting your ability to do daily tasks safely, I recommend avoiding activities like driving until the spells settle down.
 
-**Patient**: The ringing just comes on unpredictably, along with the vertigo. Thanks for explaining things—that helps me understand what's going on. I'll keep an eye out for any changes like you mentioned.
+If you notice any new symptoms—such as hearing loss, weakness, trouble speaking, double vision, or if the episodes become much more frequent or severe—these could be warning signs of something more serious, and you should seek care immediately.
+
+In the meantime, resting during episodes and staying hydrated can help. If these symptoms persist or worsen, we might consider further evaluation or medication to help manage your symptoms. Does this explanation make sense, and do you have any questions about what might
+
+**Patient**: Thanks for explaining that. What kind of tests or follow-up do you think I’ll need to figure out exactly what’s going on?
+
+**Doctor**: Based on what we've discussed, your symptoms are pointing toward an inner ear issue that can cause balance problems and ringing in the ears. These conditions are usually diagnosed through a careful history and physical exam, but sometimes additional tests are helpful.
+
+Usually, the first step is a thorough ear and neurological exam in the office to check your balance and hearing. Occasionally, hearing tests (audiometry) or special balance tests might be done if your symptoms continue or worsen. Imaging like an MRI is rarely needed unless there are signs of something more serious, which you haven’t described.
+
+Right now, the most important thing is monitoring your symptoms—especially if you notice hearing loss, weakness, or trouble with speech or vision. If any of those occur, seek care right away. Otherwise, I recommend following up with your primary care provider or an ear specialist (ENT) for a closer evaluation if things don’t improve soon.
+
+Would you like advice on managing these episodes at home or have questions about what to expect next?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 587
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 862
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 53-year-old male presenting with vertigo, tinnitus (ringing in his ears), and headache since early in the month. He denied nausea, vomiting, visual disturbances, diplopia, seizures, weakness, tingling, or numbness. His past medical history is not specified in the note. Imaging at an outside hospital revealed a 3-cm x 3-cm right temporal intracranial mass with surrounding edema and hemorrhage; further workup also identified a left lung mass and adrenal mass. On admission, he was monitored in the ICU for blood pressure control and started on anti-seizure medication. The documented diagnosis was right temporal intracranial mass, with preliminary suspicion of metastatic carcinoma of the lung. He was treated with high-dose Decadron for cerebral edema and discharged home with a tapering regimen of Decadron. Follow-up includes a scheduled CT-guided lung biopsy and outpatient neurology/oncology appointments.
-
-## Dialogue Summary
-
-The patient presented with episodes of vertigo (dizzy spells) as the chief complaint. Symptoms included sudden-onset vertigo, bilateral ringing in the ears that comes and goes with the vertigo, and mild headaches that occur at the same time as the other symptoms; these episodes began a few days ago and occur unpredictably, without specific triggers or warning signs, and interfere with daily activities. No relevant past medical history, medications, or allergies were mentioned. On further questioning, the patient denied any association with specific movements and reported that the ringing affects both ears and is episodic. The doctor assessed that the symptoms could be related to an inner ear issue, such as a viral inner ear infection, vestibular neuritis, or Meniere’s disease, and noted that the mild headaches are less concerning but the impact on daily life is significant. The doctor advised the patient to rest during episodes, avoid sudden movements, and stay hydrated. The patient was instructed to monitor for new symptoms such as hearing loss, persistent vomiting, weakness, difficulty speaking, or trouble walking, and to seek urgent care if these occur; follow-up was recommended if symptoms persist beyond a week or worsen.
-
-## STS Evaluation
-
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 67.9s
+- **Processing Time**: 96.0s

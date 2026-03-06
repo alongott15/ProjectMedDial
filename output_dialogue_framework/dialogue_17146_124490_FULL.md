@@ -16,60 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.900
+- Score: 0.984
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.900
-- **Justification**: The dialogue is realistic and consistent with the provided patient profile and case type. The doctor's questions are appropriate for chronic pelvic pain and abnormal uterine bleeding, and the patient's responses align with the documented symptoms. There are no hallucinations or unsupported content. The conversation ends prematurely due to a simulation error, not due to unrealistic dialogue.
+- **Score**: 0.984
+- **Justification**: Combined score 0.98 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.95 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.947 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Continue to provide clear, relevant answers to the doctor's questions. Ensure responses are complete and avoid simulation errors or abrupt endings.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Maintain the current approach—questions are focused, empathetic, and clinically appropriate. Consider summarizing or clarifying key points as the conversation progresses.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural up to the point of termination. Ensure the simulation allows for full exchanges to reach a natural stopping point or plan.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns identified. The doctor appropriately screens for concerning symptoms and clarifies relevant history.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brings you in—can you tell me a bit about what's been bothering you lately?
+**Doctor**: Hi, good to see you today. What’s been on your mind lately regarding your pelvic pain or bleeding?
 
-**Patient**: I've been dealing with chronic pelvic pain, and it's been getting worse lately. That's the main thing that's brought me in today.
+**Patient**: Lately, the pelvic pain has been getting worse, and the abnormal bleeding just isn’t letting up. It’s starting to worry me more than usual.
 
-**Doctor**: Let me ask about any changes you’ve noticed—have you had any unusual bleeding or changes in your periods along with this pain?
+**Doctor**: Let me ask about the pain—would you say it’s constant throughout the day, or does it come and go?
 
-**Patient**: Yes, I've been having abnormal uterine bleeding along with the pelvic pain. It's been persistent and definitely not my usual pattern.
+**Patient**: The pain is pretty much always there, but it definitely gets worse at times. It’s been more noticeable lately, and I can’t really ignore it anymore.
 
-**Doctor**: Let me ask about any other symptoms—have you noticed things like fever, unusual discharge, or any changes with urination or bowel movements? Sometimes these details help narrow down the cause.
+**Doctor**: Let me ask about the bleeding—have you noticed if it’s heavier than usual, or is it more frequent spotting? And are you passing any clots?
 
-**Patient**: No unusual discharge, but I have noticed some fever and my pelvic pain has been increasing. I haven't had any changes with urination or bowel movements.
+**Patient**: The bleeding has been heavier than usual, not just spotting. I have noticed some clots as well. It’s been pretty persistent lately.
 
-**Doctor**: Got it. How long has this abnormal bleeding been going on, and has the amount or timing changed compared to your usual cycle?
+**Doctor**: Alright. Have you noticed any other symptoms along with the bleeding, such as feeling unusually tired, lightheaded, or short of breath?
+
+**Patient**: I have been feeling short of breath, and I’ve also had some chest pain that gets worse when I take a deep breath. There’s been some fever too.
+
+**Doctor**: Got it. Since you mentioned shortness of breath and chest discomfort with fever, I want to make sure we’re not missing anything serious—these symptoms can sometimes indicate something more urgent. Have these new symptoms developed quickly, or have they been building up gradually over days?
+
+**Patient**: These symptoms have been getting worse over several days. I’ve also noticed more abdominal distention, pain, and some nausea along with everything else.
+
+**Doctor**: Got it. How severe would you rate your pelvic pain right now on a scale from 1 to 10, with 10 being the worst pain you can imagine?
+
+**Patient**: Right now, I’d rate my pelvic pain at about an 8 out of 10. It’s definitely more intense than usual.
+
+**Doctor**: Got it. Have you had any recent changes in appetite or noticed any unintentional weight loss?
+
+**Patient**: I haven’t really noticed any changes in my appetite, and I don’t think I’ve lost any weight without trying. The main thing has been the increased pain, bleeding, and the other symptoms I mentioned.
+
+**Doctor**: Let me ask about the abnormal bleeding—when did this heavier bleeding first begin, and has it been continuous since it started?
+
+**Patient**: The heavier bleeding began several days ago and it really hasn’t stopped since then. It’s been pretty constant.
+
+**Doctor**: Based on what we've discussed, your symptoms—especially the heavier and persistent bleeding along with new shortness of breath, chest pain with breathing, fever, and abdominal distention—raise some concerns that this may be more than just a flare of your chronic condition. Sometimes, these combinations can signal complications such as significant blood loss or even an infection.
+
+Because your symptoms have been escalating over several days and you’re now experiencing chest pain with breathing and shortness of breath, I recommend you seek prompt medical attention today. These are not typical for light cases and need urgent evaluation to rule out serious causes like anemia, infection, or even blood clots.
+
+In the meantime, try to rest and avoid strenuous activity. If you notice worsening chest pain, fainting, or trouble catching your breath, go to the emergency department immediately.
+
+Let me know if you have any questions about next steps or if there’s anything else you’d like to discuss before you seek care.
+
+**Patient**: Thank you for explaining everything so clearly. I understand why you’re concerned, and I’ll make sure to get checked out today. The pain and abnormal bleeding have both been pretty overwhelming, so I appreciate your guidance.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 7
-- **Word Count**: 186
-- **Doctor Turns**: 4
-- **Patient Turns**: 3
-
-## EHR Summary
-
-The patient is a 44-year-old female presenting with chronic pelvic pain and abnormal uterine bleeding. She reported persistent abnormal bleeding and increasing pelvic pain, with a history of irregular menses, endometriosis, and prior C-section. Pelvic ultrasound showed a normal-sized uterus and a left ovarian cyst consistent with endometrioma. Her medical history includes multiple sclerosis with voiding dysfunction and endometriosis, and she has allergies to penicillins and codeine. Physical exam was notable for possible left adnexal fullness, but was limited by voluntary guarding; laboratory results showed anemia (hemoglobin 9.0–9.8 g/dL) and leukocytosis initially. The documented diagnosis was endometriosis with associated left ovarian endometrioma. Treatment included diagnostic hysteroscopy, dilation and curettage, diagnostic laparoscopy, exploratory laparotomy, lysis of adhesions, left oophorectomy, and left ureterolysis.
-
-## Dialogue Summary
-
-The patient presented with chronic pelvic pain that has been worsening. She reported abnormal uterine bleeding that is persistent and differs from her usual menstrual pattern. She also noted the presence of fever but denied unusual discharge, and reported no changes in urination or bowel movements. No additional medical history, medications, or allergies were mentioned. The doctor inquired about the characteristics of the abnormal bleeding and associated symptoms to help narrow down the cause. No physical examination findings were discussed. The doctor did not provide a specific assessment or working diagnosis during this encounter. No treatment plan or recommendations were given in the conversation provided.
-
-## STS Evaluation
-
-- **STS Score**: 0.967
-- **Similarity Label**: N/A
+- **Turn Count**: 18
+- **Word Count**: 608
+- **Doctor Turns**: 9
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 35.9s
+- **Processing Time**: 76.5s

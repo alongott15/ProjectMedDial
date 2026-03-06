@@ -16,88 +16,93 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.953
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is consistent with the provided patient profile and case type. The doctor asks appropriate questions about the onset, frequency, and characteristics of the vomiting, including the presence of blood, which matches the patient's symptoms and documented findings (maroon, occult-positive emesis). The advice to seek urgent care is appropriate given the risk of dehydration and GI bleeding, but does not escalate to ICU-level interventions. The conversation is plausible, clear, and avoids unsupported content or major errors.
+- **Score**: 0.953
+- **Justification**: Combined score 0.95 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.84 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.842 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and appropriately expresses understanding at the end. For even greater realism, the patient could mention any attempts at home remedies or describe the impact on diabetes management.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. For improvement, they could briefly acknowledge the patient's underlying diabetes or gastroparesis as possible contributors to symptoms, since these are in the profile.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, moving from symptom history to assessment and plan. The closing summary and safety netting are well done.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns. The advice is appropriate for the scenario and includes clear warning signs.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi there, what brings you in today? How have you been feeling lately?
+**Doctor**: Let me ask about any additional symptoms—have you had any nausea or vomiting along with what you're experiencing?
 
-**Patient**: I've been feeling pretty nauseous and throwing up a lot. That's mainly why I came in.
+**Patient**: Yeah, I've been dealing with a lot of nausea lately. It's pretty rough and hasn't really let up.
 
-**Doctor**: Let me ask about the timing—when did these symptoms begin, and how often have you been vomiting?
+**Doctor**: Let me ask about vomiting—have you actually thrown up, or is it mostly just the sensation of nausea?
 
-**Patient**: I'm not totally sure when it started, but I've been vomiting pretty often—like a few times a day. The nausea's been there the whole time too.
+**Patient**: I've actually thrown up a few times. It's not just the nausea—I've been vomiting too.
 
-**Doctor**: Let me ask about something specific—have you noticed any blood in your vomit, or has it looked unusually dark, like coffee grounds or maroon in color?
+**Doctor**: Let me ask about something important—have you noticed any blood or unusual color in what you've vomited, like dark red or coffee ground appearance?
 
-**Patient**: Yeah, I've noticed my vomit looked kind of maroon, and they said it tested positive for blood.
+**Patient**: Actually, the vomit has looked kind of dark, almost maroon. I was told it was occult-positive, but I don't really know what that means.
 
-**Doctor**: Alright. Have you had any coughing recently, or issues with your throat or chest?
+**Doctor**: Got it. Let me ask—when did you first notice the maroon color in your vomit, and has it happened every time you've vomited or just once?
 
-**Patient**: I've definitely been coughing some. My throat and chest feel okay otherwise, though.
+**Patient**: I noticed the maroon color in my vomit a couple times, not every single time. I’m not totally sure when it first started, maybe a few days ago.
 
-**Doctor**: Got it. Are you able to keep down any food or fluids at all, or does everything seem to come back up?
+**Doctor**: Alright. Have you had any episodes of coughing recently, or do you notice any connection between your coughing and the times you've vomited?
 
-**Patient**: Everything pretty much comes back up. I haven't really been able to keep food or drinks down.
+**Patient**: I have been coughing lately, but I don't really notice a clear connection between the coughing and when I vomit. They seem to happen separately.
 
-**Doctor**: Got it. Has this made it difficult for you to go about your usual daily activities, like work or social plans? Are you feeling weak or lightheaded at all?
+**Doctor**: Got it. Are you able to keep down any food or fluids at all, or does everything seem to come back up when you try to eat or drink?
 
-**Patient**: Yeah, it's definitely made things harder. I've felt pretty wiped out and haven't been able to do much.
+**Patient**: Almost everything comes back up when I try to eat or drink. I haven’t really been able to keep much down at all.
 
-**Doctor**: Let me ask about your overall health—have you had any recent fevers, chills, or noticed any unusual bruising or bleeding elsewhere?
+**Doctor**: Alright. Have you noticed any other symptoms, like feeling lightheaded when you stand up, a racing heartbeat, or weakness? These can help me understand if this is affecting your overall hydration or blood levels.
 
-**Patient**: No, I haven't had any fevers, chills, or noticed any unusual bruising or bleeding anywhere else.
+**Patient**: I do feel like my heart's been beating faster than usual, and I think I've been a bit dehydrated. I haven’t really felt lightheaded when standing up, but I’m definitely weaker than normal.
 
-**Doctor**: Alright. Has the vomiting and nausea been getting worse, staying about the same, or improving since it started?
+**Doctor**: Let me ask about your stool—have you noticed any changes in your bowel movements, like black or tarry stools, or any blood? This can help me understand if there's ongoing bleeding elsewhere in your digestive tract.
 
-**Patient**: It's been about the same, not really getting better or worse.
+**Patient**: I haven’t noticed any changes like black or tarry stools, and I haven’t seen any blood in my bowel movements. Everything seems normal there.
 
-**Doctor**: Based on what we've discussed, your ongoing nausea and frequent vomiting, along with the presence of blood in your vomit, are concerning features. The maroon color and positive blood test suggest there may be some irritation or bleeding in your upper digestive tract—sometimes this can happen from repeated vomiting, but it could also point to conditions like gastritis or, less commonly, an ulcer.
+**Doctor**: Based on what we've discussed, your symptoms of persistent nausea, vomiting with a maroon color, and inability to keep down food or fluids raise concern for possible bleeding somewhere in your upper digestive tract. The maroon color and positive occult test suggest there may be digested blood in your vomit, which can happen if there's irritation or a small bleed in the stomach or esophagus.
 
-Not being able to keep food or fluids down for several days puts you at risk for dehydration and electrolyte imbalances, which can make you feel weak and unable to do your usual activities.
+Not being able to keep anything down and feeling weaker, with a faster heartbeat, also suggests you might be getting dehydrated or even losing some blood volume. These are important findings that shouldn’t be ignored.
 
-At this point, it's important to get a better look at what's causing the bleeding and to help you rehydrate. I would recommend that you seek care in an urgent setting today, where they can check your blood counts, assess your hydration status, and possibly do further tests to find the source of bleeding. In the meantime, try to sip small amounts of clear fluids if you can tolerate them, but avoid solid foods until you've been evaluated.
+Given these symptoms, this situation is more serious than a typical case of nausea or vomiting from a mild illness. I recommend you seek medical attention promptly—ideally at an urgent care or emergency department—so they can check your blood levels, hydration status, and possibly look into the cause of the bleeding. While you haven’t noticed any blood in your stool, the color of your vomit is significant.
 
-If you notice black stools, severe abdominal pain, or feel faint when standing up, these are warning signs that need immediate attention. Does that plan make sense to you, or is there anything else you'd like to ask about what we've discussed?
+In the meantime, try to avoid eating or drinking large amounts, and don’t take any medications like ibuprofen or aspirin, as these can worsen bleeding. If you feel dizzy, faint, or notice more rapid heartbeat, please seek care immediately.
 
-**Patient**: That all makes sense, thanks for explaining it. I’ll head in and get checked out today. I appreciate you laying out what to watch for—if anything else comes up, I’ll let someone know right away.
+Let me know if you have any questions about what I’ve explained or if there’s anything else you’re worried about.
+
+**Patient**: Thanks for explaining all that. If I go to the ER or urgent care, what kinds of tests or treatments should I expect them to do for this?
+
+**Doctor**: Based on what we've discussed, it sounds like your main issue is vomiting with a maroon color, along with trouble keeping anything down and feeling weaker. The maroon color means there may be some bleeding in your upper digestive tract—possibly from your stomach or esophagus. This, combined with dehydration and a faster heartbeat, is something that does need to be checked out soon.
+
+If you go to the ER or urgent care, they'll likely start by checking your vital signs and hydration. They may draw blood to look at your red blood cell count (to see if you've lost blood), check your electrolytes (to assess dehydration), and possibly look at your liver function or clotting ability. They might also place an IV to give you fluids and help with nausea. If bleeding is confirmed or suspected, they may consult a specialist to consider doing an upper endoscopy—a test where a small camera is used to look inside your stomach and esophagus for the source of bleeding.
+
+The main goals are to stop any bleeding, keep you hydrated, and make sure you don’t lose too much blood. Most of the time, these tests and treatments are straightforward and can really help you feel better quickly.
+
+Let me know if you have any other questions or concerns about what to expect.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 570
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 895
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 25-year-old male presenting with two days of nausea and one day of vomiting. Symptoms included vomiting described as initially yellowish green, later brown, with no frank blood and uncertain coffee-ground appearance; he also reported coughing but denied fever, chills, chest pain, or gastrointestinal bleeding. He has a history of type 1 diabetes mellitus for eight years with multiple prior diabetic ketoacidosis (DKA) admissions, gastroparesis, gastroesophageal reflux disease, and depression; his last hemoglobin A1c was 10.1. Home medications included insulin 75/25, and he has allergies to penicillin and amoxicillin. On admission, his glucose was in the 400s with an elevated anion gap, and vital signs showed mild tachycardia (heart rate 105) and low-grade fever (99.5°F). The documented diagnosis was diabetic ketoacidosis. Treatment included hospitalization for DKA management, likely involving intravenous fluids, insulin therapy, and monitoring, though specific interventions are not detailed in the note.
-
-## Dialogue Summary
-
-The patient presented with nausea and frequent vomiting as the chief complaint. Symptoms included persistent nausea and vomiting occurring several times daily, inability to keep down food or fluids, maroon-colored vomit that tested positive for blood, some coughing, and feeling weak and unable to perform usual activities; symptoms had remained stable without improvement or worsening. The patient denied fever, chills, unusual bruising, or bleeding elsewhere. No specific physical findings were noted beyond the patient's descriptions. The doctor assessed that ongoing nausea and vomiting with blood in the vomit suggested possible irritation or bleeding in the upper digestive tract, such as gastritis or, less commonly, an ulcer, and noted concern for dehydration and electrolyte imbalance due to inability to retain fluids. The doctor recommended urgent evaluation today for blood counts, hydration status, and further testing to identify the source of bleeding, advised sipping small amounts of clear fluids if tolerated, and avoiding solid foods until evaluated. The patient was instructed to seek immediate attention if black stools, severe abdominal pain, or faintness occurred.
-
-## STS Evaluation
-
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 55.5s
+- **Processing Time**: 141.3s

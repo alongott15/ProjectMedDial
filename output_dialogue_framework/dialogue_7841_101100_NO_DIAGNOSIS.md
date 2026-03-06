@@ -16,86 +16,97 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.780
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is consistent with the patient's profile and chief complaint of increasing angina with exertion. The doctor asks appropriate, focused questions about the nature, severity, and progression of symptoms, and provides a plausible explanation and safety advice. The patient responds in a manner consistent with the described symptoms and history. There are no unsupported diagnoses, treatments, or severe events introduced. The conversation is clear, logical, and stays within the bounds of a light, common case.
+- **Score**: 0.780
+- **Justification**: Combined score 0.78 (naturalness=0.90 ×0.4, profile_compliance=0.40 ×0.3, ragas_faithfulness=1.00 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 0.400 |
+| RAGAS Faithfulness | 1.000 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For added realism, the patient could mention any use of nitroglycerin earlier or describe how quickly symptoms resolve after rest.
+**Patient Side**: PROFILE COMPLIANCE ISSUE [NO_DIAGNOSIS]: Patient may be disclosing information outside their knowledge boundary. Reminder — The patient must NOT say their formal diagnosis — they genuinely don't know it. The patient CAN mention what medications they are taking. If asked 'do you know what's wrong?', they should say something like 'I'm not sure exactly' or 'I've been given medications but wasn't told the name of the condition.' NEVER produce a specific diagnosis name.
 
-**Doctor Side**: Doctor could explicitly confirm current medication use (e.g., nitroglycerin) and reinforce when to use it, as well as clarify plans for follow-up (e.g., scheduling or tests).
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is smooth and logical, with good progression from symptom description to assessment and advice. Consider a brief summary or explicit next steps at the end for closure.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is appropriate and clear. For added clarity, doctor could reiterate specific warning signs that require urgent attention and confirm understanding of medication instructions.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. Can you tell me more about how this chest discomfort is affecting your daily routine or activities?
+**Doctor**: Let me ask about your daily routine—how much does this chest discomfort impact what you’re able to do each day?
 
-**Patient**: I’ve noticed it gets worse when I walk, even just around the house. If I stop and rest, the pain goes away, but it’s made me more cautious about what I do.
+**Patient**: I find it’s getting harder to do my usual things, like walking around the house or going outside. The chest pain comes on when I’m moving, so I have to stop and rest more often than before.
 
-**Doctor**: Let me ask about the nature of the discomfort—would you describe it as a pressure, tightness, or more of a sharp pain? And does it ever spread to your arm, neck, or jaw?
+**Doctor**: Let me ask about how long you’ve been noticing this chest pain when moving around—did it start recently, or has it been going on for a while?
 
-**Patient**: It feels more like a tightness or pressure in my chest, not really sharp. It doesn’t spread to my arm, neck, or jaw—just stays in my chest.
+**Patient**: I’m not sure exactly how long it’s been, but I’ve noticed the chest pain has been getting worse when I walk lately. It’s definitely more frequent now than it used to be.
 
-**Doctor**: Got it. Have you noticed any shortness of breath, sweating, or feeling lightheaded when the tightness comes on?
+**Doctor**: Let me ask about other symptoms—have you experienced anything like shortness of breath, sweating, or feeling lightheaded when this happens?
 
-**Patient**: No, I haven’t noticed any sweating or feeling lightheaded. I don’t get short of breath with the chest tightness either.
+**Patient**: I haven’t noticed any shortness of breath, sweating, or feeling lightheaded when the chest pain happens. The main thing is the pain itself, which goes away once I stop and rest.
 
-**Doctor**: Alright. Can you tell me when you first started noticing this chest tightness during activity? Has it changed at all in terms of how often it happens or how intense it feels?
+**Doctor**: Alright. Can you describe what the discomfort feels like—is it sharp, dull, tightness, or something else?
 
-**Patient**: I can't remember exactly when it started, but it’s been getting a bit more frequent lately. The tightness feels stronger now compared to before, especially when I walk.
+**Patient**: The discomfort feels more like a tightness in my chest, especially when I’m walking. It isn’t really sharp or dull, just that squeezing feeling, and it eases up once I sit down and rest.
 
-**Doctor**: Let me ask about your daily activities—are there things you’ve had to stop doing or avoid because of the chest tightness? For example, have you changed how you do chores or go out?
+**Doctor**: Got it. Besides walking, are there any other activities—like climbing stairs, carrying groceries, or emotional stress—that seem to bring on this chest tightness?
 
-**Patient**: Yes, I’ve started taking breaks more often when doing chores, and I don’t go out for walks like I used to. The chest tightness makes me worry I’ll overdo it.
+**Patient**: Carrying groceries or anything heavy does seem to bring on the tightness, just like walking. I try to avoid stairs now, since that makes it worse too. Emotional stress hasn’t really triggered it for me, as far as I can tell.
 
-**Doctor**: Let me ask about your overall energy—do you feel more tired than usual during the day, or is it mainly the chest tightness that limits you?
+**Doctor**: Let me ask about the severity—on a scale from 1 to 10, with 10 being the worst pain you can imagine, how intense does the chest tightness get during activity?
 
-**Patient**: No, I don’t feel more tired than usual during the day. It’s mainly the chest tightness that slows me down.
+**Patient**: I’d rate the chest tightness around a 6 when I’m active. It’s uncomfortable enough to make me stop what I’m doing, but it goes away pretty quickly once I rest.
 
-**Doctor**: Let me ask about the severity—when you feel the chest tightness, how strong is it on a scale from 1 to 10, with 1 being very mild and 10 being the worst discomfort you can imagine?
+**Doctor**: Based on what you’re describing, this pattern of chest tightness brought on by activity and relieved with rest is often seen in a condition called angina. Angina happens when the heart isn’t getting enough oxygen-rich blood during exertion, which leads to that squeezing sensation. It’s common in older adults and usually signals that the blood vessels supplying the heart are narrowed.
 
-**Patient**: I’d rate the tightness around a 6 when it comes on. It’s uncomfortable, but resting makes it go away.
+Since this is affecting your daily life and getting worse, it’s important to manage it. Typical advice includes pacing yourself, avoiding sudden exertion, and taking breaks during activities. If you ever notice the pain lasting longer than usual, coming on at rest, or being accompanied by symptoms like shortness of breath or sweating, those are warning signs to seek medical attention promptly.
 
-**Doctor**: Based on what you've described, I'd like to ask if you've ever had similar chest tightness in the past, or if this is a new experience for you.
+Let me know if you have questions about this diagnosis or what steps we can take to help you feel better day-to-day.
 
-**Patient**: I've had chest tightness before, but lately it’s been happening more often and feels stronger. I’m a bit more concerned now since it’s changed.
+**Patient**: Thank you for explaining that. What kinds of changes should I make to my daily routine to help manage this angina?
 
-**Doctor**: From what you've told me, it sounds like your chest tightness tends to come on with activity and eases with rest, and it's become more frequent and stronger over time. This pattern can sometimes be seen in a condition called angina, where the heart muscle doesn't get enough oxygen during exertion. It's good that you’re not experiencing other symptoms like shortness of breath or lightheadedness, but the change in frequency and intensity is something we should pay attention to.
+**Doctor**: One useful approach is to pace yourself—try breaking tasks into smaller steps and resting more frequently, especially when walking or carrying things. It’s also wise to avoid sudden bursts of activity and plan your day so you’re not rushing. Staying hydrated and keeping stress levels low can help as well. If you notice the tightness coming on, stop and rest until it eases. 
 
-What often happens in cases like this is that the heart’s blood supply may be temporarily reduced when you’re active, leading to discomfort that goes away with rest. Since this has been getting worse, I recommend you take it easy for now and avoid strenuous activities until you've been checked further. If you ever notice the tightness coming on at rest, or if you develop new symptoms such as severe pain, sweating, or feeling faint, those can be warning signs that need immediate attention.
+Let me ask—do you feel comfortable making these adjustments, or are there particular activities you’re concerned about managing?
 
-Let’s plan for a follow-up soon to evaluate this more closely. In the meantime, do you have any questions or concerns about what we've discussed?
+**Patient**: I think I can handle making those changes, like resting more and taking things slower. Carrying groceries is probably the activity I worry about most, since it usually brings on the tightness. Is there a safer way to manage that?
 
-**Patient**: Thank you for explaining that. I understand what you’re saying about angina and taking it easy. I’ll watch for any new symptoms like you mentioned. Should I keep using my nitroglycerin tablets the same way if the tightness comes back?
+**Doctor**: From what you've told me, the pattern of chest tightness with activity—especially when carrying groceries or climbing stairs—and relief with rest points to angina, which is often related to reduced blood flow to the heart during exertion. This is a common condition in older adults and usually signals that your heart needs a bit more support when you’re physically active.
+
+Managing angina day-to-day involves planning ahead and pacing yourself. For groceries, it helps to carry lighter loads, make multiple trips if needed, or use a cart or trolley so you don’t strain yourself all at once. You might also ask for help with heavier items when possible. The key is to avoid pushing through the tightness—stop and rest as soon as it starts.
+
+What often happens with angina is that small changes in routine can make a big difference in comfort and safety. If the chest tightness ever comes on at rest, lasts longer than usual, or is accompanied by symptoms like shortness of breath or sweating, those are signs to seek prompt medical attention.
+
+Let me know if you’d like more tips for daily activities or if there’s anything specific you’re concerned about managing.
+
+**Patient**: Thank you for explaining all of that. Should I expect any changes to my medications, or is there something else I need to do besides adjusting my routine?
+
+**Doctor**: Based on what we've discussed, your symptoms fit with angina—a condition where the heart doesn't get enough blood during activity, causing chest tightness that improves with rest. This is common and often managed with both lifestyle changes and medications.
+
+Usually, medication adjustments are considered if symptoms become more frequent or severe. Since you've noticed your discomfort is increasing, it may be worth reviewing your current medications with your healthcare provider to see if any changes are needed. Sometimes, doctors add or adjust medications to help prevent angina episodes or to make activity easier.
+
+Besides pacing yourself and lightening loads, keeping track of when the tightness happens and how long it lasts can be helpful. If you notice any new symptoms, like pain at rest or shortness of breath, let your provider know right away.
+
+Is there anything else about your medications or daily routine you'd like to discuss further?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 682
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 1024
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 78-year-old female presenting with increasing angina on exertion over the past six months, requiring her to reduce her activity level. She previously could walk one mile before experiencing chest pain, which is relieved by rest and has not required nitroglycerin use. Her medical history includes hypertension, type II diabetes mellitus with retinopathy for 25 years, and prior laser surgeries. Preoperative evaluation revealed an ejection fraction of 60% with severe coronary artery disease: 90% occlusion of the LAD and left circumflex, and 95% occlusion of the RCA. Physical examination on admission was unremarkable, with no respiratory or neurological deficits. The documented diagnosis was severe multi-vessel coronary artery disease. She underwent a coronary artery bypass graft (CABG) times three with LIMA to LAD, OM, and PDA grafts, and tolerated the procedure well. Postoperative care included transfer to the Intensive Care Unit.
-
-## Dialogue Summary
-
-The patient presented with chest discomfort affecting daily activities. The chest tightness is described as a pressure or tightness (not sharp), rated around 6/10 in severity, and occurs with walking or chores but resolves with rest; it does not radiate to the arm, neck, or jaw, and is not associated with shortness of breath, sweating, or lightheadedness. The patient reported the tightness has become more frequent and intense recently, leading to avoidance of walks and taking more breaks during chores, but denied increased fatigue. The patient has experienced similar chest tightness in the past, but noted a recent change in frequency and severity. No physical findings were discussed in the dialogue. The doctor assessed that the pattern of exertional chest tightness relieved by rest is suggestive of angina, likely due to temporary reduction in heart blood supply during activity. The doctor advised the patient to avoid strenuous activities for now, monitor for new symptoms such as pain at rest, sweating, or faintness, and seek immediate attention if these occur. A follow-up was recommended for further evaluation, and the patient asked about continuing nitroglycerin use if symptoms recur.
-
-## STS Evaluation
-
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 60.4s
+- **Processing Time**: 91.9s

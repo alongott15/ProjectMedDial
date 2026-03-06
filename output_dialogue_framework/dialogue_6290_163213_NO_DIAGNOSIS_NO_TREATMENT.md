@@ -16,88 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.930
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about the chest pain, explores associated symptoms, and provides a reasonable explanation and plan for evaluation. The patient responses are clear and match the described symptoms. No unsupported diagnoses, treatments, or severe events are introduced. The conversation maintains a respectful and logical flow.
+- **Score**: 0.930
+- **Justification**: Combined score 0.93 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.90 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.900 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For improvement, the patient could mention any past experiences with similar pain or clarify if she has taken any medications for her coronary artery disease recently.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: Doctor's reasoning is thorough and empathetic. For improvement, the doctor could briefly reference the patient's known coronary artery disease to further contextualize the concern, and ask about current medications or recent changes in health status.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is smooth, with logical progression from symptom description to assessment and plan. To enhance realism, a brief summary of next steps (e.g., scheduling tests) could be added before closing.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety is appropriately addressed with clear instructions on when to seek emergency care. Clarity is excellent; all explanations are understandable. No concerns.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me more about how you've been feeling lately?
+**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me about any symptoms or concerns you've been experiencing lately?
 
-**Patient**: I've been having some chest pain, and it sort of spreads to my back and jaw. That's why I wanted to come in and get it checked out.
+**Patient**: I've been having some chest pain that spreads to my back and jaw. It's been worrying me, so I wanted to get it checked out.
 
-**Doctor**: Let me ask about the timing—when did you first notice this pain, and how long does each episode tend to last?
+**Doctor**: Let me ask about the pain—how would you rate its intensity on a scale from 1 to 10, with 10 being the worst pain you've ever felt?
 
-**Patient**: I'm not sure exactly when it first started, but I noticed it a few days ago. Each time, the pain lasts maybe a few minutes, sometimes a bit longer.
+**Patient**: I’d put it around a 7 out of 10. It’s pretty uncomfortable, and it really worries me when it spreads to my back and jaw.
 
-**Doctor**: Let me ask about any other symptoms—have you noticed things like shortness of breath, sweating, or feeling lightheaded when this happens?
+**Doctor**: Let me ask about when the pain tends to come on—does it happen at rest, or is it triggered by activity, like walking or climbing stairs?
 
-**Patient**: No, I haven't noticed any shortness of breath, sweating, or feeling lightheaded when the pain happens. It's really just the chest pain spreading to my back and jaw.
+**Patient**: I notice the pain even when I’m just sitting, so it doesn’t seem to be triggered by activity. It can come on at rest.
 
-**Doctor**: Got it. How would you rate the intensity of the discomfort, say on a scale from 1 to 10, with 10 being the worst pain you can imagine?
+**Doctor**: Alright. Have you noticed any other symptoms that come on with the pain, like shortness of breath, sweating, nausea, or feeling lightheaded?
 
-**Patient**: I'd rate the pain around a 6 out of 10. It's definitely uncomfortable, but not the worst pain I've ever felt.
+**Patient**: I haven’t had any of those other symptoms. It’s mainly just the chest pain that spreads to my back and jaw.
 
-**Doctor**: Alright. Have you noticed if anything seems to trigger these episodes—like physical activity, eating, stress, or do they seem to happen at random times?
+**Doctor**: Let me ask about the location—can you point to where the pain starts, and is it more toward the center of your chest or off to one side?
 
-**Patient**: I haven't noticed a clear trigger—it seems to come on at random times. I can't say if it's related to eating or being active.
+**Patient**: The pain usually starts right in the center of my chest. It feels like it spreads out from there, going toward my back and up to my jaw.
 
-**Doctor**: Let me ask about the quality of the sensation—would you describe it as sharp, dull, pressure-like, burning, or something else?
+**Doctor**: Tell me more about how long these episodes last—does the pain come and go quickly, or does it stay for a longer period?
 
-**Patient**: It's more of a pressure-like feeling in my chest, not really sharp or burning. The discomfort just kind of spreads out from there.
+**Patient**: The pain tends to stick around for a while—it doesn't come and go quickly. Sometimes it lasts for several minutes, maybe longer.
 
-**Doctor**: Got it. Does anything in particular help relieve the discomfort, like resting, changing position, or taking any medications? Or does anything seem to make it worse?
+**Doctor**: Got it. One more question—have you noticed if anything helps relieve the pain, like resting, taking deep breaths, or using over-the-counter medications?
 
-**Patient**: Resting does seem to help a little bit. I haven't noticed anything making it worse, and I haven't tried any medications specifically for the pain.
+**Patient**: Nothing really seems to make the pain go away. Resting doesn’t help much, and I haven’t tried any over-the-counter medications for it.
 
-**Doctor**: Tell me more about where the discomfort starts and how it moves—does it begin in a specific spot in your chest before spreading, or does it feel widespread right from the beginning?
+**Doctor**: I see. When did you first notice these symptoms, and have they changed in frequency or intensity since they began?
 
-**Patient**: The discomfort usually starts in the center of my chest, then it moves to my back and jaw. It doesn’t feel widespread right away—it kind of spreads after it starts.
+**Patient**: I first noticed the pain a few days ago. It hasn’t really changed much—it’s still about the same intensity and comes on in the same way.
 
-**Doctor**: Based on what we've discussed, your description of a pressure-like sensation in the center of your chest that spreads to your back and jaw, even without other symptoms like shortness of breath or sweating, is something I take seriously. Chest discomfort that radiates in this way can sometimes be related to heart issues, even if it’s not severe or brought on by exertion. 
+**Doctor**: Based on what we've discussed, your chest pain that spreads to your back and jaw, especially at rest and lasting several minutes, is concerning and needs careful evaluation. While there are benign causes of chest discomfort, pain in this pattern can sometimes signal a problem with the heart or major blood vessels—even without other symptoms like shortness of breath or nausea.
 
-Not every case turns out to be heart-related—sometimes, muscle strain or gastrointestinal issues can cause similar symptoms—but because of your age and the pattern you’ve described, it’s important to rule out anything serious. I’d recommend that you have a medical evaluation soon, which may include an ECG and possibly some blood work, just to be safe.
+What often happens with heart-related pain is that it can radiate to areas like the back or jaw, and it isn't always triggered by activity. Because your pain is persistent and hasn't improved, I recommend you seek urgent medical assessment—ideally today—so we can rule out any serious causes such as angina or other heart conditions. This usually involves an EKG, blood tests, and possibly imaging.
 
-In the meantime, if the pain becomes more intense, lasts longer than usual, or you develop new symptoms like shortness of breath, nausea, or sweating, please seek emergency care right away. 
+While some chest pain can be musculoskeletal or related to acid reflux, your description fits patterns that need prompt attention. For now, avoid strenuous activity, and if the pain worsens or you develop new symptoms like shortness of breath, sweating, or fainting, call emergency services immediately.
 
-Would you like to discuss what steps we can take next, or do you have any questions about what I’ve explained so far?
+Let me reassure you: you're doing the right thing by getting this checked. Once we've ruled out serious causes, we can discuss longer-term management if needed.
 
-**Patient**: Thank you for explaining everything so clearly. I understand why you want to check things out, and I agree it’s better to be safe. What should I expect during the evaluation?
+**Patient**: Thank you for explaining all that. What should I expect during the urgent assessment—will it take a long time, and is there anything I need to prepare for?
+
+**Doctor**: From what you've told me, your symptoms suggest a pattern that could be related to the heart or nearby structures, which is why urgent assessment is important. The evaluation typically begins with checking your vital signs and getting an EKG to look at your heart's electrical activity. Blood tests may be done to check for signs of heart stress or damage, and sometimes a chest X-ray or other imaging is needed.
+
+The process is usually straightforward and doesn't require much preparation. You may need to answer questions about your medical history and current medications, so it's helpful to bring a list if you have one. The time it takes can vary—if initial tests are normal, you may be able to go home fairly quickly; if anything concerning is found, further monitoring or treatment may be needed.
+
+The main goal is to quickly rule out any serious causes and ensure your safety. It's best to go as soon as possible, and avoid driving yourself if the pain worsens. If you have someone who can accompany you, that's ideal.
+
+Let me know if you have any other questions or concerns about the process.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 629
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 825
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 71-year-old female presenting with chest pain radiating to the back and jaw. Symptoms began at home on 2108-10-22, and echocardiogram showed anterior ischemia with an ejection fraction of 54 percent. Cardiac catheterization revealed significant multi-vessel coronary artery disease, including 90% occlusions in several vessels. Her past medical history includes hypertension, abdominal aortic aneurysm, prior cerebrovascular accident, left nephrectomy, chronic obstructive pulmonary disease, and gastroesophageal reflux disease; home medications included aspirin, Lasix, Lipitor, Dilantin, Colace, Cardizem, Zoloft, and labetalol. On physical exam prior to discharge, she was afebrile with stable vital signs, clear chest auscultation with diffuse wheezes, and regular heart rhythm. The documented diagnosis was multi-vessel coronary artery disease with anterior ischemia. She underwent coronary artery bypass grafting (CABG) x4 on 2108-10-29 and had an uncomplicated postoperative course aside from extended ICU monitoring due to COPD. Treatment included CABG, pulmonary toilet, and supportive care; she was ambulatory at discharge.
-
-## Dialogue Summary
-
-The patient presented with chest pain that spreads to the back and jaw. The discomfort began a few days ago, with episodes lasting a few minutes or longer, rated as 6 out of 10 in intensity, and described as pressure-like in quality. The pain starts in the center of the chest and then radiates, with no clear triggers identified and no associated symptoms such as shortness of breath, sweating, or lightheadedness; resting provides some relief. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted the absence of additional symptoms but highlighted the concerning pattern of chest discomfort radiating to other areas. The assessment was that while not every case is heart-related, the described symptoms warrant ruling out serious causes such as cardiac issues. The doctor recommended prompt medical evaluation including ECG and blood work, and advised seeking emergency care if symptoms worsen or new symptoms develop.
-
-## STS Evaluation
-
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 60.2s
+- **Processing Time**: 71.6s

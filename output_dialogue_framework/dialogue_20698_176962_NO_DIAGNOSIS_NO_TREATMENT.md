@@ -16,88 +16,94 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.982
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the patient's profile and case type. The doctor asks appropriate, focused questions about the onset, associated symptoms, and impact of the right lip weakness, and provides a reasonable, conservative assessment and plan for a mild, isolated facial movement change. There are no unsupported diagnoses, treatments, or test orders. The patient responses are clear and realistic, and the conversation maintains a logical flow.
+- **Score**: 0.982
+- **Justification**: Combined score 0.98 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.94 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.941 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, the patient could occasionally express uncertainty or ask clarifying questions about their condition or the doctor's recommendations.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. For completeness, the doctor could briefly acknowledge the patient's vascular history (carotid stent/stenosis) as part of their risk assessment, even if only to reassure that the current symptoms do not suggest a major vascular event.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural. A brief summary or explicit check for additional concerns at the end could further enhance closure.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: The safety netting is appropriate for a light case. The doctor clearly outlines red flag symptoms to watch for and encourages follow-up if symptoms change. No safety or clarity concerns.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me more about what's been going on with your right lip when you smile?
+**Doctor**: Let me ask about your main concern—when did you first notice the change with your right lip when you smile?
 
-**Patient**: When I try to smile, my right lip doesn’t move as much as it used to. It’s just something I noticed recently, and it feels a little off.
+**Patient**: I noticed that my right lip doesn't move as much when I smile, maybe just a few days ago. It's been bothering me since then.
 
-**Doctor**: Let me ask about when you first noticed this change—did it come on suddenly, or has it developed gradually over time?
+**Doctor**: Let me ask about other symptoms—have you noticed any numbness, tingling, or weakness elsewhere on your face or body since this started?
 
-**Patient**: I'm not exactly sure, but I think it happened pretty suddenly. I just noticed one day that my right lip didn’t move much when I smiled.
+**Patient**: I haven't noticed any numbness, tingling, or weakness anywhere else, just the change with my right lip when I smile.
 
-**Doctor**: Let me ask about any other changes—have you noticed any trouble speaking, eating, or closing your eye on that side? Sometimes these details can help us understand if the muscles or nerves are involved.
+**Doctor**: Alright. Has this change with your lip made it difficult for you to eat, drink, speak, or do anything else in your daily routine?
 
-**Patient**: No, I haven’t had any trouble speaking, eating, or closing my eye on that side. It’s just the right lip with smiling that I’ve noticed.
+**Patient**: Eating and drinking haven't really been affected, and I can still speak normally. It's just that my smile looks a bit uneven now, which is what made me notice the change.
 
-**Doctor**: Let me ask about any numbness or tingling—have you noticed any changes in sensation on that side of your face, or does it feel completely normal to the touch? Sometimes altered sensation can give us clues about what's going on.
+**Doctor**: Got it. Has the change with your smile stayed about the same since you first noticed it, or has it been getting better or worse over the past few days?
 
-**Patient**: No, I haven’t noticed any numbness or tingling on that side. It feels normal to the touch.
+**Patient**: The change has pretty much stayed the same since I first noticed it. I haven't seen any improvement or worsening so far.
 
-**Doctor**: Got it. Since you noticed this change, has it stayed about the same, improved, or gotten worse over time?
+**Doctor**: Let me ask about possible triggers—did anything unusual happen around the time you noticed this change, like a recent cold, injury, or dental work?
 
-**Patient**: It’s stayed about the same since I first noticed it. I haven’t seen much change, good or bad.
+**Patient**: Nothing out of the ordinary happened around that time. I didn't have a cold, any injury, or dental work recently.
 
-**Doctor**: Alright. Have you had any recent illnesses, headaches, or injuries before you noticed this change in your smile? Sometimes these can be related to new facial muscle changes.
+**Doctor**: Let me ask about your overall health—have you had any headaches, vision changes, or trouble moving any other parts of your face since this started?
 
-**Patient**: No, I haven’t had any recent illnesses, headaches, or injuries before this started. It just seemed to come on by itself.
+**Patient**: I haven't had any headaches or vision changes, and there hasn't been trouble moving other parts of my face. It's just my right lip when I smile.
 
-**Doctor**: Let me ask about how this is affecting you—are you finding it difficult to express yourself when talking with others, or does it mostly just look a little different to you in the mirror?
+**Doctor**: Let me ask about any pain—have you felt any soreness, discomfort, or unusual sensations in your face, jaw, or around your mouth since this started?
 
-**Patient**: It mostly just looks different to me in the mirror. I haven’t had any trouble expressing myself when talking to others.
+**Patient**: I haven't felt any soreness or discomfort in my face, jaw, or around my mouth. There haven't been any unusual sensations—just the change with my right lip when I smile.
 
-**Doctor**: Let me ask about your overall health—have you noticed any weakness or changes in movement elsewhere in your face or body, or is this change limited just to your smile? Sometimes, isolated findings can help narrow down the cause.
+**Doctor**: Does anything seem to make the change with your lip more noticeable, like certain expressions or activities? Or is it always about the same no matter what you're doing?
 
-**Patient**: No, I haven’t noticed any weakness or changes in movement anywhere else in my face or body. It’s just my smile that seems different.
+**Patient**: It’s really only noticeable when I try to smile. Other expressions or activities don’t seem to make it any more obvious—it stays about the same.
 
-**Doctor**: Based on what we've discussed, it sounds like this change is isolated to your right lip when you smile, with no other facial weakness, numbness, or difficulties in daily activities. The fact that you haven’t had recent illness, injury, or other neurological symptoms is reassuring.
+**Doctor**: From what you've told me, this mild change in your smile—limited to your right lip and not affecting other functions or causing discomfort—sounds like a subtle facial muscle weakness. This can occasionally happen due to minor irritation of the nerve controlling those muscles, sometimes even without a clear trigger.
 
-What often happens in cases like this is that mild, isolated facial movement changes can sometimes occur due to minor nerve irritation or even subtle muscle issues. Since you’re not experiencing other problems—like trouble speaking, eating, or eye closure—serious causes are less likely.
+Most often, this type of issue is temporary and resolves on its own. Since you haven’t had any other symptoms like numbness, vision changes, headaches, or trouble speaking or swallowing, it’s reassuring that nothing more serious is going on.
 
-At this point, I’d recommend monitoring for any new symptoms, such as weakness spreading to other areas of your face, difficulty swallowing, or changes in vision. If any of those develop, it would be important to seek care promptly. Otherwise, gentle facial exercises and watching for improvement over the next few weeks can be helpful. If the change persists or worsens, we could consider a more detailed evaluation.
+Here’s what I recommend:
+- Monitor your symptoms closely over the next few weeks. Most mild cases improve without treatment.
+- Practice gentle facial exercises, like smiling and puckering your lips, which may help restore movement.
+- Watch for any new symptoms such as worsening weakness, numbness, difficulty speaking or swallowing, or vision changes. If any of these develop, seek medical attention promptly.
 
-Let me know if you have any questions or concerns about this plan, or if there’s anything else you’ve noticed that we haven’t discussed yet.
+Let me know if you have any questions or concerns about this plan. Otherwise, I expect this to improve with time and simple self-care.
 
-**Patient**: Thanks for explaining everything so clearly. I feel a bit better knowing it’s not likely something serious. I’ll keep an eye out for any new symptoms like you mentioned, and I appreciate your suggestions about facial exercises.
+**Patient**: Thank you for explaining that. Is there anything specific I should avoid doing while I’m waiting for my smile to get better?
+
+**Doctor**: Let me share my thoughts on this. From everything you’ve described, your situation appears to be a mild, isolated issue affecting the muscle movement of your right lip when you smile. Since it’s not causing pain, interfering with daily activities, or accompanied by other symptoms, it’s likely a minor nerve or muscle irritation that should resolve naturally.
+
+You don’t need to avoid any specific activities—normal eating, drinking, and speaking are perfectly fine. There’s no evidence that regular facial movements would make things worse. In fact, gentle facial exercises (like practicing smiling or puckering your lips) may help encourage recovery.
+
+If you notice any new symptoms—such as difficulty moving other parts of your face, trouble speaking or swallowing, or any vision changes—please seek medical attention right away. Otherwise, continue your usual routine and give it some time.
+
+Let me know if you have any more questions or concerns!
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 664
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 767
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 61-year-old woman presenting for left internal carotid artery stent placement due to significant carotid artery stenosis. She has a history of right internal carotid artery stenosis (75–80%), left internal carotid artery stenosis (65–70%), and a previously coiled anterior communicating artery aneurysm. On examination, she was in no acute distress, with a right carotid bruit and mild right lip asymmetry on smiling; other findings were unremarkable. She underwent left carotid artery stenting without intraoperative complications and was monitored postoperatively in the ICU. Her postoperative course was stable, with no changes in mental status and no groin hematoma after sheath removal. The documented diagnosis was left internal carotid artery stenosis status post stent placement. She was discharged home in stable condition with prescriptions for Plavix and aspirin, and instructed to follow up in two weeks.
-
-## Dialogue Summary
-
-The patient presented with decreased movement of the right lip when smiling. The symptom was noticed suddenly and has remained unchanged since onset; the patient described it as feeling "a little off" but denied any associated numbness, tingling, weakness, or changes in movement elsewhere in the face or body. There were no difficulties with speaking, eating, closing the eye, or expressing themselves, and no recent illnesses, headaches, or injuries were reported. Sensation on the affected side was normal to the touch. On examination, the doctor noted that the change was isolated to the right lip during smiling, with no other facial weakness or neurological deficits described. The doctor assessed that mild, isolated facial movement changes could be due to minor nerve irritation or subtle muscle issues, and that serious causes were less likely given the absence of other symptoms. The treatment plan included monitoring for new symptoms (such as spreading weakness, difficulty swallowing, or vision changes), performing gentle facial exercises, and considering further evaluation if the issue persists or worsens.
-
-## STS Evaluation
-
-- **STS Score**: 0.907
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 57.0s
+- **Processing Time**: 84.0s

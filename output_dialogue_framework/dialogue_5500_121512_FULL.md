@@ -16,88 +16,86 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.835
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is consistent with the provided patient profile and case type. The doctor asks appropriate, open-ended questions about the patient's symptoms, explores relevant associated symptoms, and provides a plausible explanation for the ear fullness. The reasoning is grounded in the information given, and no unsupported diagnoses, treatments, or severe conditions are introduced. The patient responses are coherent and match the documented symptoms. The conversation maintains a primary-care tone and avoids unnecessary escalation.
+- **Score**: 0.835
+- **Justification**: Combined score 0.83 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.45 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.450 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For improvement, the patient could specify if any over-the-counter remedies were tried or if there are any medication allergies, but this is minor.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor provides thorough symptom exploration and a clear summary. For improvement, could explicitly ask about recent medication use (e.g., Percocet) since nausea/vomiting is noted as likely secondary to it in the profile, to further ground the reasoning.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, moving from general to specific symptoms and then to possible explanations and reassurance. The doctor summarizes well before offering advice.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is appropriately included regarding warning signs. Clarity is high throughout. To further improve safety, the doctor could clarify whether the patient is currently taking any medications that might contribute to symptoms (as per profile), but overall this is well-handled.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi there, it's good to see you today. What brings you in—can you tell me more about how you've been feeling lately?
+**Doctor**: Hello, it's good to see you today. How have you been feeling lately? Is there anything specific that's been bothering you or any new symptoms you've noticed?
 
-**Patient**: I've been feeling kind of off lately—my temperature's been up, like I've got a fever. That's mainly why I came in.
+**Patient**: Honestly, I've just been feeling kind of off lately. The main thing that's bothering me is this weird full feeling in my right ear—it's not painful, just uncomfortable.
 
-**Doctor**: Let me ask—have you actually measured your temperature with a thermometer, or is it more of a general feeling of being warm? And when did this all start for you?
+**Doctor**: Let me ask about other symptoms—have you noticed any changes in your temperature, like feeling feverish or having chills? Any nausea or other sensations accompanying the ear fullness?
 
-**Patient**: I haven't actually used a thermometer, but I just feel way warmer than usual. I'm not sure exactly when it started—maybe a couple days ago?
+**Patient**: I did have a fever at one point, but it went down after I took some Tylenol. Also, I’ve been feeling pretty nauseous and even threw up a couple times.
 
-**Doctor**: Let me ask about other symptoms—have you noticed any chills, sweating, or feeling nauseated along with feeling warmer?
+**Doctor**: Let me ask about the timing—when did you first start feeling this ear fullness and nausea? Did they come on together, or did one start before the other?
 
-**Patient**: Yeah, I’ve been feeling pretty nauseous along with the fever. No chills or sweating though.
+**Patient**: I’m not totally sure about the exact timing, but I think the nausea and vomiting started first, and then I noticed the fullness in my right ear a little later. They didn’t really come on at the same time.
 
-**Doctor**: Let me ask about your nausea—does it seem to come and go, or is it pretty constant throughout the day? And have you actually thrown up at all, or just felt queasy?
+**Doctor**: Alright. Have you noticed any hearing changes in your right ear, like sounds being muffled or ringing? Also, does the fullness get better or worse with things like swallowing or changing your head position?
 
-**Patient**: I've actually thrown up a couple times, and the nausea is there most of the day. It doesn't really seem to go away much.
+**Patient**: I haven’t noticed any muffled hearing or ringing in my ear. The fullness just kind of stays the same, no matter if I swallow or move my head around.
 
-**Doctor**: Got it. Since you haven't measured your temperature yet, could you estimate how high your fever feels—does it interfere with your daily activities or make you feel weak or tired? Also, have you noticed any other changes, like a sore throat, cough, or stomach pain?
+**Doctor**: Got it. One more question—has the ear fullness lasted continuously since you first noticed it, or does it come and go throughout the day?
 
-**Patient**: It definitely makes me feel tired and kind of weak, so it's hard to do my normal stuff. I haven't had a sore throat, cough, or stomach pain—just the fever, nausea, and vomiting.
+**Patient**: The ear fullness has pretty much been there all the time since I first noticed it. It doesn’t really go away during the day.
 
-**Doctor**: Let me ask about something else you might have noticed—any sense of fullness or discomfort in your right ear lately, even if it's not painful? Sometimes ear symptoms can give us clues about what's going on.
+**Doctor**: Let me ask about your fever—was it high, and how long did it last before it went down with Tylenol? Based on what you've shared so far, I'm starting to think this could be a mild viral infection affecting both your ear and your stomach, but I'd like to understand the severity of your fever a bit more.
 
-**Patient**: Yes, I’ve noticed a sense of fullness in my right ear, but there’s no pain. It just feels kind of uncomfortable.
+**Patient**: It wasn’t super high, and it went away pretty quickly after I took Tylenol. I actually already found out that the nausea and vomiting were likely from taking oral Percocet, and those symptoms stopped once I changed meds and used an antiemetic. There wasn’t any infection in my ear either—they checked for that.
 
-**Doctor**: Alright. Since you've noticed that fullness in your right ear, have you had any recent congestion, runny nose, or changes in hearing—like things sounding muffled? Sometimes these can be related.
+**Doctor**: Let me ask about your current ear fullness—has it changed at all since your medication adjustment, or is it still just as noticeable? Based on your history, it sounds like the nausea and vomiting were medication-related and have resolved, so I want to see if the ear symptom has improved as well.
 
-**Patient**: No, I haven’t had any congestion or a runny nose. My hearing hasn’t really changed either—just that fullness feeling in my right ear.
+**Patient**: The ear fullness hasn’t really changed—it’s still just as noticeable as before. The nausea and vomiting are gone now, though, since I switched meds and took something for it.
 
-**Doctor**: I see. Has the sensation in your ear been steady since you first noticed it, or does it come and go? Also, have you traveled recently or had any recent exposure to swimming or changes in altitude, like flying? Sometimes those can affect the ears.
+**Doctor**: Got it. One more thing—has the ear fullness made it harder for you to concentrate or interfered with any daily activities, like studying or socializing? Based on what you've shared, I’m thinking this is likely a benign issue, possibly related to mild Eustachian tube dysfunction, which often happens after a recent illness or medication changes. Let me explain more once I hear about any impact on your day-to-day life.
 
-**Patient**: The fullness in my ear has been pretty steady, it doesn’t really come and go. I haven’t traveled, gone swimming, or had any changes in altitude lately.
+**Patient**: Honestly, it’s just annoying more than anything, but it hasn’t really stopped me from doing stuff or hanging out with people. Thanks for explaining what might be going on. Is there anything I should do to help it go away faster?
 
-**Doctor**: Based on what we've discussed, it sounds like you're dealing with a mild fever, persistent nausea with occasional vomiting, and a steady sense of fullness in your right ear, but no other major symptoms like congestion or sore throat. Sometimes, ear fullness without pain can be related to mild Eustachian tube dysfunction—basically, the tube that helps balance pressure in your ear might not be working perfectly, even without classic cold symptoms. This can sometimes happen after minor irritation or even spontaneously.
+**Doctor**: Based on what we've discussed, it sounds like your ear fullness is persistent but not affecting your daily activities, and there’s no pain or hearing loss. This kind of sensation is often due to mild Eustachian tube dysfunction, which can happen after illness or even as a reaction to changes in medication. Usually, it resolves on its own over time.
 
-The combination of fever and nausea could be your body's response to a mild viral infection, which is common and usually resolves on its own. The ear fullness might be coincidental or part of the same process if there's some mild inflammation.
+Some things that may help include:
+- Trying gentle “pop” techniques, like swallowing, yawning, or chewing gum, which can help equalize ear pressure.
+- Using a saline nasal spray if you feel any congestion, since that can help open the Eustachian tube.
+- Staying hydrated and avoiding sudden altitude changes, like flying, until it improves.
 
-Most of the time, these symptoms improve with rest, staying well-hydrated, and eating small, bland meals if you’re able to keep food down. It’s important to watch out for warning signs such as severe headache, neck stiffness, persistent vomiting with inability to keep fluids down, new hearing loss, or severe ear pain—if any of those develop, you should seek care promptly.
+Most importantly, watch for any new symptoms—such as ear pain, fever returning, or hearing loss—which would warrant a re-evaluation. Otherwise, this should gradually improve.
 
-Let me know if you have questions about what to expect or if there’s anything else you’re concerned about right now.
+Have you noticed any chills or sweating recently, or is your temperature back to normal now?
 
-**Patient**: Thanks, that actually makes me feel a bit better about it. Is there anything specific I can do for the ear fullness, or should I just wait for it to go away?
+**Patient**: My temperature is back to normal now—no chills or sweating lately. Thanks for the tips; I’ll try the chewing gum and see if that helps with the ear fullness.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 708
+- **Word Count**: 801
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 20-year-old female presenting after involvement as an unrestrained passenger in a high-speed motor vehicle accident. She was ejected from the vehicle, found curled in the fetal position, and the vehicle sustained extensive damage. At the scene, she was awake but confused and had no memory of the incident. She has no significant past medical history. Cervical spine immobilization was initiated in the field, and she was transported to the emergency room for further management. No specific diagnosis or additional clinical findings are documented in this note. Treatment included cervical spine immobilization and emergency evaluation.
-
-## Dialogue Summary
-
-The patient presented with a subjective fever and feeling "off" for the past couple of days. Symptoms included a general sense of increased warmth (not measured by thermometer), persistent nausea present most of the day, and a couple episodes of vomiting; the fever made the patient feel tired and weak, interfering with daily activities. The patient denied chills, sweating, sore throat, cough, stomach pain, congestion, runny nose, or changes in hearing, but reported a steady sense of fullness in the right ear without pain or muffled hearing. No recent travel, swimming, or altitude changes were noted. The doctor observed mild fever, persistent nausea with occasional vomiting, and steady right ear fullness without other major symptoms. Assessment included possible mild viral infection and mild Eustachian tube dysfunction as explanations for the symptoms. The doctor recommended rest, hydration, and small bland meals, and advised monitoring for warning signs such as severe headache, neck stiffness, persistent vomiting, new hearing loss, or severe ear pain.
-
-## STS Evaluation
-
-- **STS Score**: 0.909
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 59.2s
+- **Processing Time**: 85.1s

@@ -16,64 +16,89 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.920
+- Score: 0.944
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.920
-- **Justification**: The dialogue is plausible and consistent with the patient's profile and symptoms. The doctor asks appropriate follow-up questions about the frequency and associated symptoms of epistaxis and hematemesis, and the patient provides relevant, believable responses. There are no unsupported diagnoses, treatments, or severe events introduced. The conversation is cut short due to a simulation error, but up to that point, it is realistic.
+- **Score**: 0.944
+- **Justification**: Combined score 0.94 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.95 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.947 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient responses are clear and relevant. For improvement, the patient could provide more detail when possible (e.g., describing the amount of blood or severity of symptoms), but the current responses are within normal conversational bounds.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning by exploring symptom onset, frequency, and associated features. For further realism, the doctor could briefly acknowledge the seriousness of hematemesis and mention next steps or reassurance.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with each question building on prior answers. The conversation ends abruptly due to a simulation error; otherwise, it is well-structured.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns are present in the evaluated portion. The doctor appropriately explores red-flag symptoms without making unsupported assumptions.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's nice to see you today. What brings you in, and how have you been feeling lately?
+**Doctor**: Welcome, it's nice to see you today. What brings you in—are there any symptoms or concerns you'd like to discuss?
 
-**Patient**: I've been having some nosebleeds lately, and that's what's got me a bit concerned.
+**Patient**: I've been having some nosebleeds and, more recently, I threw up blood. It's made me pretty uncomfortable and worried.
 
-**Doctor**: Let me ask about how often these nosebleeds have been happening. Is it just once or twice, or are you noticing them more regularly?
+**Doctor**: Let me ask about the nosebleeds—how often have they been happening, and do they last for a long time when they occur?
 
-**Patient**: It's happened a few times recently, not just once. I've also had some stomach pain along with it.
+**Patient**: They've happened a few times lately, but I can't say exactly how often. Each time, it seems to last a little while before stopping on its own.
 
-**Doctor**: Let me ask about your stomach pain—does it come and go, or is it more constant? Also, have you noticed any nausea or vomiting along with the pain?
+**Doctor**: Let me ask about the vomiting blood—was the blood bright red or did it look darker, almost like coffee grounds? This detail can help me understand where it's coming from.
 
-**Patient**: The stomach pain comes and goes, but it's been bothering me. I've also had some nausea and I ended up vomiting blood.
+**Patient**: The blood I threw up looked pretty dark, not bright red. It was almost like coffee grounds, I think.
 
-**Doctor**: I see. Can you tell me when these symptoms first started—was it days, weeks, or longer ago? Also, do you have any history of similar issues in the past?
+**Doctor**: Alright. Have you noticed any other symptoms along with the vomiting blood, such as stomach pain, feeling faint, or changes in your appetite?
 
-**Patient**: I'm not exactly sure, but I think these symptoms started a few days ago. I haven't had anything like this happen before.
+**Patient**: I've had some stomach pain along with the vomiting blood. I've also noticed my stools look really dark, almost black. I haven't felt especially faint, though.
 
-**Doctor**: Got it. When you vomited blood, was it a small amount or quite a lot? And since then, have you felt lightheaded or noticed any changes in your energy level?
+**Doctor**: Let me ask about the stomach pain—has it been getting worse over time, or is it staying about the same?
+
+**Patient**: The stomach pain has stayed about the same so far—it hasn't really gotten worse.
+
+**Doctor**: I see. Tell me more about when these symptoms first started—do you recall how long ago you began experiencing nosebleeds and vomiting blood?
+
+**Patient**: I think these symptoms started a few days ago. Along with the bleeding, I've also had some nausea and a bit of a headache.
+
+**Doctor**: Got it. One more question—have you ever had anything like this happen before, or is this the first time you've experienced these kinds of bleeding episodes?
+
+**Patient**: This is the first time I've had bleeding like this. In the past, I had a cholecystectomy and some teeth pulled as a kid, but I didn't have any bleeding problems then.
+
+**Doctor**: Got it. How much are these symptoms affecting your daily activities—are you able to go about your usual routine, or is it interfering with things you normally do?
+
+**Patient**: These symptoms are definitely interfering with my routine. The abdominal pain and nausea make it hard to do much, and the nosebleeds and vomiting blood have me worried about going out.
+
+**Doctor**: Based on what we've discussed, your symptoms of dark vomiting, black stools, and stomach pain suggest there may be some bleeding occurring in your digestive tract—most likely in your stomach or upper intestine. The appearance of the vomited material (dark, like coffee grounds) and black stools are classic signs that blood is being digested before it leaves your body, which points to an internal source rather than just nosebleeds.
+
+This can sometimes happen with conditions like stomach ulcers, gastritis, or irritation from certain medications. While nosebleeds are usually benign, the combination with vomiting blood is more concerning and should be evaluated promptly.
+
+For now, I recommend avoiding medications that can irritate your stomach (like aspirin or NSAIDs), staying hydrated, and seeking medical attention soon—especially if you notice worsening pain, feel faint, or have more significant bleeding. It's important to get checked to determine the exact cause and ensure your safety.
+
+Let me know if you have questions about any of this or need guidance on next steps.
+
+**Patient**: Thank you for explaining that. If I stop taking aspirin and ibuprofen like you suggested, will the bleeding likely get better on its own, or should I expect more tests or treatments?
+
+**Doctor**: From what you've told me, it seems likely that the bleeding in your digestive tract is related to irritation or damage, possibly from medications like aspirin and ibuprofen, which can cause ulcers or gastritis. Stopping these medications may help reduce further irritation and bleeding, but because you've already experienced vomiting blood and black stools, it's important to have this evaluated with tests—such as checking your blood levels and possibly a scope of your stomach (endoscopy).
+
+While mild cases sometimes improve with medication changes and supportive care, your symptoms warrant further investigation to rule out a more serious condition and to determine if specific treatments are needed. It's a good idea to contact your healthcare provider soon for a thorough assessment.
+
+If you notice worsening symptoms—like feeling faint, increased abdominal pain, or more bleeding—seek urgent care. Let me know if you have other questions or concerns about what to expect.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 9
-- **Word Count**: 227
-- **Doctor Turns**: 5
-- **Patient Turns**: 4
-
-## EHR Summary
-
-The patient is a 64-year-old female presenting with epistaxis followed by hematemesis. She reported a history of frequent nosebleeds, recent coffee ground emesis, seven to eight days of dark or tarry stools, and crampy abdominal pain over several months. Her past medical history includes hypertension, cholecystectomy, and tooth extractions without bleeding complications; she has no known allergies and takes verapamil, aspirin, ibuprofen, and unspecified Chinese herbs. On admission, she denied chest pain, dizziness, or shortness of breath but endorsed nausea and headache. Physical examination noted a woman in no acute distress with stable vital signs. The documented diagnosis is not explicitly stated in the note. Treatment details are not specified in the provided text.
-
-## Dialogue Summary
-
-The patient presented with recent nosebleeds as the chief complaint. They reported experiencing nosebleeds a few times recently, along with intermittent stomach pain that comes and goes. The patient also described associated nausea and an episode of vomiting blood. These symptoms began a few days ago, and the patient denied any prior history of similar issues. No medications, allergies, or other relevant medical history were mentioned. There were no physical findings documented during the encounter. The doctor inquired about the frequency and severity of symptoms, including the amount of blood vomited and any associated lightheadedness or changes in energy level, but no assessment or treatment plan was provided during the simulation.
-
-## STS Evaluation
-
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
+- **Turn Count**: 19
+- **Word Count**: 756
+- **Doctor Turns**: 10
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 36.9s
+- **Processing Time**: 83.5s

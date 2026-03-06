@@ -16,88 +16,53 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.880
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about the chest pain, neck pain, and hand symptoms, and the patient responds in a way that matches the profile. The clinical reasoning is sound for a light case, focusing on mild symptoms and reassuring the patient while providing practical advice. No unsupported diagnoses, treatments, or severe events are introduced.
+- **Score**: 0.880
+- **Justification**: Combined score 0.88 (naturalness=0.70 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=1.00 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.700 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 1.000 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For even greater realism, the patient could occasionally express uncertainty or ask clarifying questions about symptoms or recommendations.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor provides thorough assessment and clear explanations. To improve, the doctor could briefly acknowledge the chest pain's potential seriousness (given age and angina history) before focusing on the mild nature of current symptoms, ensuring no minimization of risk.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, moving from symptom exploration to functional impact and management advice. Consider adding a closing summary or explicit follow-up plan for completeness.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No major safety concerns. The doctor appropriately advises monitoring for worsening symptoms. For added clarity, the doctor could explicitly mention when to seek urgent care (e.g., if chest pain becomes severe or persistent), given the patient's history.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it’s good to see you today. What’s been bothering you lately, and how can I help?
+**Doctor**: Let me ask about your main concern today—could you describe what brought you in and how you've been feeling recently?
 
-**Patient**: My chest has been hurting lately, and it’s making me a bit anxious. That’s mainly what’s brought me in today.
+**Patient**: I've been feeling some pain in my chest lately, and that's what really worried me enough to come in. It's been pretty uncomfortable, and I just wanted to get it checked out.
 
-**Doctor**: Let me ask about the discomfort—when did you first notice it, and how long does it usually last when it comes on?
+**Doctor**: Let me ask about the discomfort—how would you rate the pain on a scale from 1 to 10, with 10 being the worst pain you can imagine?
 
-**Patient**: I noticed the chest pain maybe a few days ago, but I’m not exactly sure when it started. It doesn’t last too long, usually just a few minutes at a time.
+**Patient**: I think I'd rate the pain around a 6 out of 10. It's definitely uncomfortable, but not the worst I've ever felt.
 
-**Doctor**: Let me ask about other symptoms—have you had any discomfort in your neck or noticed any numbness or tingling in your hand recently?
+**Doctor**: Let me ask about any other symptoms you might have noticed—have you experienced things like shortness of breath, sweating, or feeling lightheaded along with this discomfort?
 
-**Patient**: Yes, I’ve had some pain in my right neck lately. I’ve also noticed numbness and tingling in my left hand.
-
-**Doctor**: Alright. How would you describe the severity of the neck pain and the numbness—are they mild, moderate, or quite bothersome?
-
-**Patient**: The neck pain is pretty mild, but the numbness and tingling in my left hand are a bit more bothersome. They come and go, but it’s not constant.
-
-**Doctor**: Let me ask about your daily routine—have these symptoms made it harder for you to do things like getting dressed, cooking, or other usual activities?
-
-**Patient**: No, I can still do my regular activities like getting dressed and cooking. The symptoms are annoying, but they haven’t really stopped me from doing things around the house.
-
-**Doctor**: Got it. Does anything seem to trigger or worsen the numbness and tingling in your hand, like certain movements, positions, or activities? Or does it happen randomly?
-
-**Patient**: It seems to happen randomly. I haven’t noticed any particular movement or activity that makes the numbness or tingling worse.
-
-**Doctor**: Let me ask about the neck discomfort—can you point to exactly where you feel it, and does it ever spread to your shoulder or arm?
-
-**Patient**: I feel the neck pain more on the right side, just above my shoulder. It doesn’t really spread to my shoulder or arm—it stays in that spot.
-
-**Doctor**: Tell me more about the numbness—when it happens, does your whole hand feel it, or just certain fingers or areas? This can help figure out if a nerve might be involved.
-
-**Patient**: It’s mostly in my fingers on the left hand, not the whole hand. I notice the tingling and numbness more in my fingertips than anywhere else.
-
-**Doctor**: Based on what we've discussed, it sounds like your symptoms—mild right-sided neck discomfort and intermittent tingling in your left fingertips—aren't stopping you from your usual activities, and you haven't noticed any clear triggers. Sometimes, these kinds of symptoms can be related to pinched nerves in the neck, especially if there's mild neck discomfort as well. This can happen with age-related changes in the spine or even just from posture.
-
-What’s reassuring is that your pain is mild and not spreading, and you haven’t had any weakness or trouble using your hand. Still, it’s a good idea to keep an eye out for any new symptoms, such as worsening pain, persistent numbness, weakness in your arm or hand, or trouble with balance—these would need more urgent attention.
-
-For now, gentle neck stretches, being mindful of posture (especially when reading or using devices), and avoiding staying in one position too long may help. If the symptoms become more frequent or severe, or if you notice any weakness, let your healthcare provider know promptly.
-
-Do you have any questions about what might be causing this or how to manage it at home?
-
-**Patient**: Thank you for explaining all that. I feel a bit better knowing it’s not something more serious right now. Is it okay to keep doing my usual walks and light activities, or should I take it easier for a while?
+**Patient**: I haven't had any shortness of breath or sweating. But I have noticed some pain in my right neck and a bit of numbness and tingling in my left hand along with the chest pain.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 644
-- **Doctor Turns**: 9
-- **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 78-year-old female presenting with chest pain. She reported episodes of chest pain described as pressure radiating across her chest, minimally relieved by three doses of sublingual nitroglycerin, and denied associated shortness of breath. She also experienced worsening right neck pain over the past few days, chronic since a prior tooth abscess, and numbness and tingling in her left hand for several weeks, without focal weakness or vision changes. Her medical history includes coronary artery disease status post stenting, hypertension, hyperlipidemia, and anxiety; she has a documented allergy to penicillins. Physical examination was notable for hypertension (BP 162/65) but otherwise unremarkable findings. Laboratory results showed mild anemia and elevated PT/PTT/INR. The clinical impression included a focal right carotid dissection identified on CT scan. No major surgical or invasive procedures were performed during admission, and specific treatments or recommendations were not documented in the note.
-
-## Dialogue Summary
-
-The patient presented with chest pain as the chief complaint, which has been occurring for a few days and lasts only a few minutes at a time. Additional symptoms discussed included mild right-sided neck pain located just above the shoulder, and intermittent numbness and tingling in the fingertips of the left hand; these sensory symptoms are more bothersome than the neck pain but do not interfere with daily activities. The patient reported no weakness, no difficulty with routine tasks, and no clear triggers for the numbness or tingling, which occur randomly. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted mild neck discomfort and intermittent tingling in the left fingertips without weakness or functional impairment, suggesting possible involvement of a pinched nerve in the neck, potentially related to posture or age-related spinal changes. The doctor advised gentle neck stretches, attention to posture, and avoiding prolonged positions, while monitoring for new symptoms such as worsening pain, persistent numbness, weakness, or balance issues. The patient was reassured and encouraged to continue usual walks and light activities unless symptoms worsen.
-
-## STS Evaluation
-
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **Turn Count**: 6
+- **Word Count**: 181
+- **Doctor Turns**: 3
+- **Patient Turns**: 3
 
 ## Processing Information
 
-- **Processing Time**: 62.5s
+- **Processing Time**: 338.9s

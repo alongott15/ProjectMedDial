@@ -16,88 +16,65 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.845
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about the pain, functional impact, and red flag symptoms, and tailors advice to the patient's history of bilateral hip fractures. The patient responses are coherent and realistic. No unsupported diagnoses, treatments, or severe events are introduced.
+- **Score**: 0.845
+- **Justification**: Combined score 0.85 (naturalness=0.80 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.75 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.800 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.750 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and shares pertinent history. For even greater realism, the patient could mention any specific limitations or adaptations they've made due to past hip fractures.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and provides clear, appropriate advice. To further enhance realism, the doctor could briefly acknowledge the patient's other comorbidities (e.g., heart failure, depression) when discussing activity recommendations.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The dialogue flows logically, with each question building on prior information. The summary and plan are well-articulated. A brief check-in about medication side effects or mood (given depression history) could add depth.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns are present. The doctor appropriately screens for red flag symptoms and advises on when to seek further care. The plan is clear and conservative.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome in today. What’s been bothering you lately?
+**Doctor**: Let me ask about your discomfort—can you describe what the pain in your hip and back feels like? For example, is it sharp, dull, aching, or something else?
 
-**Patient**: I've been having some hip and back pain lately. It's been making things pretty uncomfortable for me.
+**Patient**: The pain in my hip and back is mostly a dull, aching feeling. It makes it pretty uncomfortable to move around or sit for long periods.
 
-**Doctor**: Let me ask about the pain—when did you first notice it, and has it been getting worse over time?
+**Doctor**: Let me ask about how much this is affecting you—on a scale of 1 to 10, how would you rate the pain right now?
 
-**Patient**: I'm not exactly sure when it started, but it's been going on for a little while now. I think it's stayed about the same—not really getting worse, just kind of lingering.
+**Patient**: Right now, I'd rate the pain around a 6 out of 10. It's enough to bother me and make things harder, but not the worst I've ever had.
 
-**Doctor**: Got it. Can you tell me if certain activities—like walking, bending, or sitting—seem to make the discomfort better or worse?
+**Doctor**: Got it. Have you noticed anything that makes the discomfort better or worse—like certain movements, rest, or using heat or ice?
 
-**Patient**: Sitting for a long time seems to make the hip and back pain worse. Walking around sometimes helps, but not always.
+**Patient**: Resting does help a bit, but if I try to move too much or sit in one spot for a long time, it seems to get worse. I haven't really tried heat or ice on it yet.
 
-**Doctor**: Alright. Does this discomfort interfere with your sleep or daily routines, like getting dressed or doing household tasks?
+**Doctor**: Let me ask about your mobility—are you able to walk normally, or do you find yourself limping or having trouble with certain movements?
 
-**Patient**: Yes, it does interfere a bit. It's tougher to get dressed and do things around the house because of the pain. Sleeping can be uncomfortable some nights, too.
+**Patient**: I do have trouble with certain movements, and I tend to limp, especially because of my left-sided weakness from my previous stroke. Walking isn't exactly normal for me.
 
-**Doctor**: Let me ask about other symptoms—have you noticed any numbness, tingling, or weakness in your legs along with the discomfort?
+**Doctor**: Alright. Have you noticed any numbness, tingling, or weakness in your legs that feels different from your usual left-sided weakness?
 
-**Patient**: I haven't noticed any numbness, tingling, or new weakness in my legs along with the pain.
+**Patient**: No, I haven't noticed any new numbness, tingling, or weakness besides what I usually have on my left side from the stroke. It just feels like the usual weakness.
 
-**Doctor**: Let me ask about your overall movement—have you tried any stretches, gentle exercise, or over-the-counter remedies to see if they help with the discomfort?
+**Doctor**: Tell me more about when this pain first started—has it been going on for days, weeks, or longer?
 
-**Patient**: I've tried some gentle stretching and moving around, but it hasn't made a big difference. I take Tylenol sometimes, but the pain still bothers me.
-
-**Doctor**: Got it. On a scale from 1 to 10, how intense would you say the discomfort typically gets at its worst?
-
-**Patient**: At its worst, the pain is probably around a 6 out of 10. It’s definitely noticeable, but not unbearable.
-
-**Doctor**: Let me ask about your medical history—have you had any previous issues with your back or hips, such as injuries or chronic conditions?
-
-**Patient**: I've had problems with my hips before—I had bilateral hip fractures in the past. The back pain is more recent, but the hip issues have been there for a while.
-
-**Doctor**: Based on what we've discussed, it sounds like your discomfort is affecting your daily activities and sleep, but you haven’t noticed any concerning symptoms like numbness or weakness. Given your history of hip fractures, lingering discomfort in that area isn’t unusual, and sometimes back discomfort can develop as the body compensates for old injuries.
-
-Often, prolonged sitting can aggravate these kinds of issues, and gentle movement might help, though it's not always a complete solution. Since over-the-counter medication and stretching haven't provided much relief, it may be helpful to focus on regular movement breaks, gentle strengthening exercises, and possibly physical therapy if things don’t improve.
-
-Watch for any new symptoms—such as weakness, numbness, or changes in bladder/bowel function—which would need prompt attention. For now, staying active, using heat or ice as needed, and pacing yourself with household tasks can be useful strategies.
-
-If things persist or worsen, we could consider further evaluation or referral to a specialist. Does that sound reasonable to you, or is there anything else you’re concerned about?
-
-**Patient**: That all makes sense to me. I’ll try being more active and see if that helps. If things don’t get better, I’d be open to trying physical therapy or seeing a specialist. Thanks for explaining everything.
+**Patient**: I can't say for sure, but it's been going on for at least a few weeks now. It hasn't really let up much during that time.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 571
-- **Doctor Turns**: 9
-- **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 52-year-old male admitted for management of pulmonary infection and pain. He was found to have Methicillin-resistant Staphylococcus aureus (MRSA) on bronchoalveolar lavage, with ongoing vancomycin therapy planned for six weeks and metronidazole for aspiration coverage until March 26. The patient experienced hip and back pain, which improved significantly with a regimen of Neurontin, Celebrex, Tylenol, and oxycodone. A video swallowing study showed persistent high aspiration risk, and tube feeding was recommended, but the patient chose to continue oral intake of thickened liquids with close monitoring. Hematology evaluation revealed a slowly decreasing hematocrit to 24.7 without an identified bleeding source; he received two units of packed red blood cells. On discharge, his pulmonary status had returned to baseline. The plan included continued antibiotics, pain management, careful monitoring of oral intake, and follow-up swallowing studies.
-
-## Dialogue Summary
-
-The patient presented with hip and back pain. The discomfort has been present for an unspecified duration, is described as lingering without worsening, and is rated as a 6 out of 10 at its worst. Sitting for prolonged periods aggravates the pain, while walking sometimes helps; the pain interferes with sleep and daily activities such as dressing and household tasks. The patient denied numbness, tingling, or weakness in the legs and reported that gentle stretching and Tylenol have provided minimal relief. Relevant history includes prior bilateral hip fractures; the back pain is a newer symptom. On examination, no concerning neurological symptoms were noted. The doctor assessed that the pain is likely related to prior hip injuries and compensatory back discomfort, exacerbated by prolonged sitting. The treatment plan included recommendations for regular movement breaks, gentle strengthening exercises, use of heat or ice, pacing of activities, and consideration of physical therapy if symptoms persist; the patient was also advised to monitor for new symptoms such as weakness, numbness, or changes in bladder/bowel function.
-
-## STS Evaluation
-
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **Turn Count**: 12
+- **Word Count**: 333
+- **Doctor Turns**: 6
+- **Patient Turns**: 6
 
 ## Processing Information
 
-- **Processing Time**: 56.2s
+- **Processing Time**: 84.1s

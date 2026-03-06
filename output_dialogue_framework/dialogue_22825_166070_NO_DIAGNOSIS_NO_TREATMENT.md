@@ -16,98 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.920
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is highly consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about anginal symptoms, left arm pain, and associated features, and the patient responses are plausible and relevant. The discussion of right lower calf pain and swelling is supported by the profile and handled appropriately, with the doctor explaining possible concerns (DVT) and advising timely follow-up without overreacting. The conversation remains at a primary-care level, avoids unsupported diagnoses or interventions, and demonstrates clear, empathetic communication.
+- **Score**: 0.920
+- **Justification**: Combined score 0.92 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.87 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.867 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and brings up additional symptoms appropriately. For even greater realism, the patient could offer more detail about the onset or character of the leg swelling if prompted.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. To further improve, the doctor could ask more specifically about risk factors for DVT (recent immobility, trauma, surgery) or clarify the duration/onset of leg symptoms.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with smooth transitions between topics. The summary and safety netting are well done. A brief check for other symptoms (e.g., fever, redness in the leg) could enhance completeness.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is clear and appropriate for a light case. The doctor avoids alarming language but provides clear instructions on when to seek urgent care. No major safety or clarity concerns.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Good to see you today. What’s been bothering you the most lately?
+**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me about any new symptoms or concerns you've been having lately?
 
-**Patient**: Lately, my chest has been hurting more, especially when I try to walk or do anything active. It’s been getting worse over time.
+**Patient**: I've been having chest discomfort that's been getting worse lately. Sometimes it feels like a tingling, and I'm not sure what's causing it.
 
-**Doctor**: Let me ask about what brings the pain on—does it usually start when you’re walking or exerting yourself, or does it ever happen when you’re resting as well?
+**Doctor**: Let me ask about what brings it on—does the discomfort tend to happen during physical activity, or does it come on when you're at rest?
 
-**Patient**: Most of the time, the pain starts up when I’m walking or trying to do something active. I don’t really notice it much when I’m just sitting and resting.
+**Patient**: It usually happens when I'm moving around or doing something physical. I notice it more if I'm walking or going up stairs.
 
-**Doctor**: Let me ask about something related—have you ever felt any discomfort or pain in your left arm when these episodes happen, or at other times?
+**Doctor**: Let me ask about the timing—when did you first start noticing this discomfort, and has it changed in frequency or intensity since then?
 
-**Patient**: Yes, I do get pain in my left arm sometimes. It comes and goes, usually around the same time as the chest discomfort.
+**Patient**: I can't remember exactly when it started, but it's definitely gotten more frequent and a bit stronger over time. It's been bothering me enough that I thought I should come in.
 
-**Doctor**: Let me ask about other symptoms—have you noticed any shortness of breath, sweating, or feeling lightheaded when you’re active?
+**Doctor**: Let me ask about other sensations—have you ever noticed pain or tingling spreading to your arm, neck, or jaw when this discomfort happens?
 
-**Patient**: No, I haven’t really had any shortness of breath, sweating, or feeling lightheaded. What I do notice is a kind of tingling in my chest sometimes when the pain comes on.
+**Patient**: I do get some pain in my left arm off and on, and sometimes there's tingling in my chest. I haven't noticed it spreading to my neck or jaw.
 
-**Doctor**: Alright. How long has this been going on, and would you say the discomfort is getting noticeably worse over weeks or months?
+**Doctor**: Alright. When you feel this discomfort and pain, would you describe it as mild, moderate, or severe? Does it ever make you stop what you're doing or limit your activities?
 
-**Patient**: I’m not sure exactly how long, but it’s been getting worse over the past few months. I’ve noticed the discomfort is more frequent and bothers me more than it used to.
+**Patient**: Sometimes it's moderate, but there are times it gets strong enough that I have to stop what I'm doing. I've also noticed some swelling and pain in my right lower leg and calf.
 
-**Doctor**: Got it. Does anything seem to make these episodes better or worse, such as resting, changing position, or taking any medications?
+**Doctor**: Got it. One more question—have you experienced any shortness of breath, lightheadedness, or sweating when these episodes happen?
 
-**Patient**: Resting usually helps ease the chest pain. If I stop what I’m doing and sit down, it tends to get better. Taking my medications seems to help as well.
+**Patient**: I haven't had any shortness of breath, lightheadedness, or sweating with these episodes. It's mainly the chest tingling, pain in my left arm, and the swelling and pain in my right lower leg and calf.
 
-**Doctor**: Got it. How would you rate the severity of your chest discomfort when it happens—would you say it’s mild, moderate, or quite severe?
+**Doctor**: Got it. One more question—has the swelling in your leg come on suddenly, or has it developed gradually over time? And is the area warm or red to the touch?
 
-**Patient**: I’d call it moderate. It’s uncomfortable enough to make me stop what I’m doing, but it’s not unbearable.
+**Patient**: The swelling in my leg has come on more gradually. I haven't noticed any warmth or redness in the area, just the pain and swelling.
 
-**Doctor**: Let me ask about your day-to-day routine—has this chest discomfort made it difficult for you to do things you normally enjoy, like walking, shopping, or other activities?
+**Doctor**: Alright. Have you noticed whether anything makes the chest discomfort or leg swelling better or worse—like resting, elevating your leg, or taking any over-the-counter medications?
 
-**Patient**: Yes, it’s definitely made things harder. Walking and getting around the store is tougher now because the chest discomfort comes on sooner.
+**Patient**: Resting usually helps with the chest discomfort, and elevating my leg seems to reduce the swelling a bit. I haven't tried any over-the-counter medications for these symptoms.
 
-**Doctor**: From what you've described, it sounds like your chest discomfort tends to come on with physical activity and improves when you rest, and you sometimes notice pain in your left arm as well. These patterns are often seen with angina, which is when the heart muscle doesn't get enough oxygen during exertion due to narrowed blood vessels. The fact that your symptoms have become more frequent and bothersome over the past few months is important, as it suggests your condition may be progressing.
+**Doctor**: Based on what we've discussed, your symptoms—chest discomfort that worsens with physical activity, intermittent pain in your left arm, and gradual swelling and pain in your right lower leg—suggest a couple of important possibilities. The chest symptoms, especially when brought on by exertion and relieved by rest, could be related to angina, which is a sign of reduced blood flow to the heart. This is something we take seriously, especially with your age and the presence of arm pain.
 
-For many people, angina can be managed with medications and lifestyle adjustments, but it's important to keep track of any changes. If you ever notice symptoms coming on at rest or if they become much more severe, that's a warning sign to seek care promptly.
+The swelling and pain in your leg could be due to a variety of causes, such as issues with circulation (like venous insufficiency), but we also want to rule out things like a blood clot, even though you haven’t noticed redness or warmth.
 
-I’d recommend continuing to avoid strenuous activities that trigger your discomfort and making sure you take your medications as prescribed. It would also be helpful to check in with your regular doctor soon to discuss these changes, as they may want to adjust your treatment or run some tests.
+For now, I recommend you avoid strenuous activity and keep your leg elevated when possible. It’s important that we investigate these symptoms further—particularly the chest discomfort and leg swelling—so I would advise scheduling further evaluation soon, including an ECG and possibly some blood tests. If you ever experience chest pain that doesn’t go away with rest, severe shortness of breath, or sudden worsening of your leg symptoms, seek medical attention immediately.
 
-Is there anything specific you’re worried about, or any questions you have about what’s going on?
+Let me know if you have any questions or concerns about what I’ve explained.
 
-**Patient**: Thanks for explaining all that. I understand what you’re saying about angina and will keep an eye on my symptoms. I also wanted to mention I’ve had some pain and swelling in my right lower calf and that area, which has been bothering me along with the chest discomfort. Is that something I should bring up with my regular doctor too?
+**Patient**: Thank you for explaining that. What kind of tests should I expect when I come in for the evaluation?
 
-**Doctor**: Let me share my thoughts based on what we've discussed. Your chest discomfort that comes on with activity and improves with rest, along with the intermittent left arm pain, is suggestive of angina—a condition where the heart isn’t getting enough oxygen during exertion. The fact that this has been getting worse over time means it’s important to keep a close eye on your symptoms and check in with your doctor soon about possible adjustments to your management.
+**Doctor**: Let me share my thoughts based on everything you've described. The pattern of chest discomfort that worsens with activity and improves with rest, along with intermittent arm pain, points toward a possible issue with the heart's blood supply—often called angina. This can happen when the heart isn't getting enough oxygen during exertion. The gradual swelling and pain in your leg may be related to circulation as well.
 
-Now, the pain and swelling in your right lower calf is also something we shouldn’t ignore. Swelling and pain in one leg can sometimes be related to a blood clot (called deep vein thrombosis), especially if it’s new, persistent, or associated with tenderness or warmth. It’s definitely important to mention this to your regular doctor as soon as possible, as they may want to examine your leg and possibly order an ultrasound to rule out a clot.
+For an initial evaluation, you can expect tests like an ECG (electrocardiogram) to look at your heart's electrical activity, blood tests to check for markers of heart strain and clotting, and possibly an ultrasound of your leg to rule out a blood clot. These tests help us understand whether your symptoms are due to heart or vascular issues and guide the next steps.
 
-In summary, both your chest symptoms and the new leg issue deserve attention. For now, continue to take it easy with activity, keep track of any changes in your symptoms, and let your doctor know about both concerns soon. If you notice sudden worsening of chest pain, pain at rest, severe shortness of breath, or if your leg becomes much more swollen or painful, seek medical care promptly.
+As a precaution, continue to rest if you feel chest discomfort and elevate your leg to reduce swelling. If you ever have chest pain that doesn't go away, severe shortness of breath, or sudden worsening of your leg symptoms, seek urgent care.
 
-Do you have any other concerns or questions about what we’ve discussed today?
-
-**Patient**: Thanks for explaining everything so clearly. I’ll make sure to talk to my regular doctor about both the chest symptoms and the leg swelling. I appreciate your advice—it helps me feel a bit more at ease about what to do next.
+Let me know if you have more questions or want clarification about any part of this plan.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 20
-- **Word Count**: 939
+- **Turn Count**: 19
+- **Word Count**: 862
 - **Doctor Turns**: 10
-- **Patient Turns**: 10
-
-## EHR Summary
-
-The patient is a 68-year-old male presenting with progressive anginal symptoms and abnormal exercise treadmill test. He reported intermittent left arm pain and chest tingling, with a history of positive stress test prompting referral for cardiac catheterization. Relevant history includes hypertension, hypercholesterolemia, angina, and gout; he has no known drug allergies and was taking aspirin, Lopid, Timolol, Dyazide, Imdur, colchicine, and Indocin on admission. On examination, he was afebrile with stable vital signs, clear lungs, and a regular heart rhythm without murmurs. Cardiac catheterization revealed multivessel coronary artery disease. The documented diagnosis was multivessel coronary artery disease. He was referred to Cardiothoracic Surgery for evaluation for coronary artery bypass grafting.
-
-## Dialogue Summary
-
-The patient presented with worsening chest discomfort, particularly during physical activity. Symptoms included moderate chest pain that increases with exertion and improves with rest, intermittent left arm pain occurring alongside chest discomfort, and occasional tingling in the chest; the patient denied shortness of breath, sweating, or lightheadedness. The chest discomfort has become more frequent and bothersome over the past few months, making daily activities such as walking and shopping more difficult; resting and taking prescribed medications help alleviate symptoms. The patient also reported new pain and swelling in the right lower calf. On assessment, the doctor noted that the chest pain pattern and associated arm discomfort are suggestive of angina, and highlighted the progression of symptoms as significant. The doctor further advised that the right calf pain and swelling could indicate a possible deep vein thrombosis and should be promptly discussed with the patient's regular doctor. Recommendations included avoiding strenuous activities that trigger symptoms, continuing prescribed medications, monitoring for changes, and seeking immediate care if symptoms worsen or new severe symptoms develop.
-
-## STS Evaluation
-
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 63.7s
+- **Processing Time**: 80.8s

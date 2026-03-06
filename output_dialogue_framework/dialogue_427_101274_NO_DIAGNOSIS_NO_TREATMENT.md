@@ -16,88 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.940
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about the onset, triggers, associated symptoms, and impact on daily life, and provides reasonable preliminary advice given the patient's history of coronary artery disease and recent symptoms. The patient responses are coherent and match the described symptoms. No unsupported diagnoses, treatments, or severe events are introduced. The conversation maintains a primary-care tone and avoids unnecessary escalation.
+- **Score**: 0.940
+- **Justification**: Combined score 0.94 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.80 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.800 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For even greater realism, the patient could specify if the symptoms have changed over time or mention any previous similar episodes, but this is not required.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: Doctor demonstrates good clinical reasoning and caution given the cardiac history. For improvement, the doctor could briefly mention the importance of follow-up or possible next steps (e.g., scheduling an appointment or tests), but the current advice is safe and appropriate for a light case.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical, with each question building on prior information. The summary and advice at the end are clear and well-structured.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The doctor appropriately advises caution and outlines warning signs for escalation. Clarity is maintained throughout.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi, it's good to see you today. What brings you in—can you tell me more about what's been bothering you lately?
+**Doctor**: Welcome—what brings you in today? Can you describe what’s been bothering you lately?
 
-**Patient**: I've been having this choking sensation and some discomfort that starts around my stomach and moves up into my chest, especially when I do something active. It’s been making me pretty uncomfortable.
+**Patient**: I've been having this uncomfortable feeling in my chest that seems to move up from my stomach area. It gets worse when I try to do anything physical.
 
-**Doctor**: Let me ask about when this discomfort tends to come on—does it happen only during physical activity, or do you notice it at rest as well?
+**Doctor**: Let me ask about how this is impacting your daily activities—are you able to do your usual routines, or does this feeling make you stop what you’re doing?
 
-**Patient**: It’s definitely worse when I’m doing something active. I don’t really notice it much when I’m just sitting still.
+**Patient**: I actually have to slow down or stop what I’m doing when it happens. It gets pretty uncomfortable, especially if I’m moving around.
 
-**Doctor**: Let me ask about how much this is impacting your day-to-day life. Are there things you’ve had to avoid or change because of these symptoms?
+**Doctor**: Let me ask about any other symptoms—do you ever notice a choking sensation, or does the discomfort move up toward your throat or neck?
 
-**Patient**: Yes, I’ve had to slow down a bit and avoid things like walking up stairs too quickly because the chest discomfort and choking feeling get worse with exertion. It’s made me more cautious about what I do.
+**Patient**: Yes, I do notice a choking sensation along with the chest discomfort. The feeling sometimes seems to rise up from my stomach toward my chest.
 
-**Doctor**: Let me ask about other symptoms—when you have this discomfort, do you ever feel nauseated or notice any sweating or lightheadedness along with it?
+**Doctor**: Let me ask about how long this has been going on—when did you first notice these symptoms?
 
-**Patient**: Yes, I do get some nausea and sweating when the discomfort comes on. I haven’t really felt lightheaded, though.
+**Patient**: I'm not exactly sure how long it's been, but I noticed it recently. I've also felt a bit nauseous and sweaty when it happens.
 
-**Doctor**: Alright, when you feel this discomfort, does it ever come on after eating, or is it strictly related to physical activity?
+**Doctor**: Alright. Does anything you do—like resting, eating, or taking deep breaths—seem to make this feeling better or worse?
 
-**Patient**: It’s mostly with physical activity. I haven’t really noticed the discomfort coming on just from eating.
+**Patient**: Resting does seem to make it a bit better, but when I’m active, it definitely gets worse. I haven’t noticed eating or deep breaths making much difference.
 
-**Doctor**: I see. How long have you been experiencing these symptoms, and have they changed in intensity or frequency since they first started?
+**Doctor**: Got it. When this discomfort comes on, would you describe it as a pain, pressure, burning, or something else? And on a scale from 1 to 10, how intense does it get at its worst?
 
-**Patient**: I’m not sure exactly, but it’s been going on for a little while now—maybe a few days to a week. The intensity hasn’t changed much, and I’ve also noticed a mild headache and just a small amount of sternal drainage.
+**Patient**: It feels more like a pressure or discomfort, not really a burning. At its worst, I’d rate it around a 6 or 7 out of 10. I also sometimes get a mild headache and a little bit of drainage from my sternum area.
 
-**Doctor**: Got it. When these episodes happen during activity, do you ever need to stop what you're doing for relief, or does the discomfort go away on its own if you slow down?
+**Doctor**: Got it. Has this pressure or discomfort been getting more frequent or intense since you first noticed it, or has it stayed about the same?
 
-**Patient**: If I stop what I’m doing or slow down, the discomfort usually eases up on its own. I haven’t had to completely stop everything, but taking it easy definitely helps.
+**Patient**: It’s been about the same since I first noticed it—hasn’t really gotten worse or more frequent. The intensity stays pretty consistent when it happens.
 
-**Doctor**: Got it. Since you mentioned a mild headache and some sternal drainage, have you noticed any fever or signs of infection recently, such as cough or sore throat?
+**Doctor**: Let me ask about your overall health—do you have any history of heart problems, high blood pressure, or high cholesterol? And have you ever experienced anything like this before?
 
-**Patient**: No, I haven’t had any fever, cough, or sore throat. I haven’t noticed any other signs of infection.
+**Patient**: I haven’t been told I have any of those issues before, and I haven’t had these symptoms like this before. That’s why I wanted to get checked out.
 
-**Doctor**: Based on what we've discussed, your symptoms seem to be most noticeable with physical activity and tend to ease up when you slow down. The discomfort starts lower and moves up into your chest, and you've mentioned nausea and sweating with these episodes, but no fever or respiratory symptoms. 
+**Doctor**: Based on what we've discussed, your symptoms—pressure-like discomfort rising from your stomach to your chest, brought on by physical activity and relieved with rest, sometimes with nausea and sweating—can sometimes be seen with conditions like acid reflux or heartburn. However, because these symptoms can also overlap with early signs of heart-related issues, especially given your age, I want to be cautious.
 
-What often happens in cases like this is that exertional chest discomfort can be related to a number of things, including digestive issues like reflux, but when it’s associated with symptoms like sweating and nausea, we also consider whether there could be a cardiac cause. Even though your symptoms aren’t severe and you haven’t needed to stop all activity, it’s important to be cautious, especially since these sensations are new for you.
+Even though you haven’t had heart problems before, chest discomfort with exertion and relief with rest is something we take seriously. While indigestion can cause similar symptoms, heart conditions can sometimes present this way as well.
 
-For now, I recommend continuing to take it easy and avoiding strenuous activity until we can look into this further. If you notice any worsening—such as chest pain that doesn't go away with rest, shortness of breath, or if the discomfort becomes more severe—those would be reasons to seek prompt medical attention.
+My recommendation is to avoid strenuous activity until we can rule out anything serious. You should seek prompt in-person medical evaluation today to check your heart and make sure nothing urgent is going on. Warning signs to watch for include worsening chest pain, shortness of breath, fainting, or pain spreading to your jaw or arm—if any of these develop, seek emergency care immediately.
 
-Let me know if you have any questions about what we've discussed or if there’s anything else you’d like to share about your symptoms.
+For now, try to rest and avoid heavy meals or exertion. Once a cardiac cause is ruled out, we can consider other causes like acid reflux and discuss treatment options for that.
 
-**Patient**: Thanks, that makes sense. I’ll be careful and avoid pushing myself. If anything changes or gets worse, I’ll let you know right away.
+Would you like more information about what tests might be done or how to monitor your symptoms at home?
+
+**Patient**: What kind of tests should I expect when I go in? Will they be able to tell right away if something serious is going on?
+
+**Doctor**: Let me share my thoughts on what to expect. Because your symptoms are brought on by activity and improve with rest, the first priority is to make sure your heart is healthy. When you go in, they’ll likely start with a physical exam, an EKG (which looks at your heart’s electrical activity), and possibly some blood tests to check for any signs of heart stress or damage. Depending on what they find, they might also do a chest X-ray or further heart monitoring.
+
+Often, these initial tests can give a quick sense if something serious is happening, like a heart problem, or if it’s more likely something like acid reflux. The team will keep you informed every step of the way. If everything looks reassuring, they may discuss other causes and next steps.
+
+The key is that these tests help rule out urgent issues quickly, so it’s good you’re getting checked. In the meantime, take it easy and avoid heavy exertion until you’ve been evaluated.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 654
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 836
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 59-year-old male presenting with an episode of choking sensation and discomfort radiating from the stomach to the chest, worse with exertion. Symptoms began the evening prior to admission and were relieved by sublingual nitroglycerin, but recurred with nausea, diaphoresis, and mild headache; chest discomfort returned the following morning. Relevant history includes coronary artery disease with multiple stents, hypertension, hyperlipidemia, and type 2 diabetes mellitus; he has no known drug allergies and takes aspirin, beta blocker, Plavix, Cozaar, Glucotrol, Prilosec, Lipitor, and Flogard at home. On presentation, chest pain was again relieved by sublingual nitroglycerin. The documented diagnosis is not explicitly stated in the provided text. Treatment included initiation of a heparin drip in the hospital and continuation of home medications. The patient denied prior episodes exactly like this one.
-
-## Dialogue Summary
-
-The patient presented with a choking sensation and discomfort that starts around the stomach and moves up into the chest, particularly during physical activity. Symptoms are worse with exertion and improve when the patient slows down or stops; the patient has had to avoid activities like walking up stairs quickly. Associated symptoms include nausea, sweating, mild headache, and a small amount of sternal drainage, but no lightheadedness, fever, cough, or sore throat. The symptoms have been present for a few days to a week without significant change in intensity or frequency. On examination, there were no signs of infection or respiratory involvement reported by the patient. The doctor assessed that exertional chest discomfort with associated nausea and sweating could be due to digestive issues such as reflux, but also raised concern for possible cardiac causes given the symptom profile. The doctor advised the patient to continue taking it easy, avoid strenuous activity, and seek prompt medical attention if symptoms worsen or new severe symptoms develop. The patient acknowledged understanding of the recommendations and agreed to monitor for changes.
-
-## STS Evaluation
-
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 56.0s
+- **Processing Time**: 101.4s

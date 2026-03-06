@@ -16,90 +16,97 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.850
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided profile of a 73-year-old male with rapid atrial fibrillation with aberrant conduction. The doctor asks appropriate, open-ended questions about symptoms, triggers, and associated features, and the patient provides clear, relevant answers. The explanation and advice given by the doctor are accurate for a light case and do not introduce unsupported diagnoses or treatments. There are no hallucinations or contradictions.
+- **Score**: 0.850
+- **Justification**: Combined score 0.85 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.50 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.500 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and expresses concerns appropriately. For even greater realism, the patient could mention any prior history of heart issues or medications if prompted.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good communication and education. For improvement, the doctor could briefly check for anticoagulation status or stroke risk factors, as these are often discussed in atrial fibrillation cases, even if not detailed here.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The conversation flows logically, with each question building on the previous answer. The summary and reassurance at the end are appropriate.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The doctor gives clear instructions on when to seek further care and encourages symptom tracking. The explanation is accessible and avoids jargon.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brings you in—can you tell me what's been going on or any symptoms you've noticed recently?
+**Doctor**: Let me ask about how this rapid heartbeat has been impacting your daily life. Are you able to do your usual activities, or have you noticed any changes in your energy or ability to get around?
 
-**Patient**: I've been having some issues with my heart beating really fast, and I was told it's something called rapid atrial fibrillation with aberrant conduction. It's made me feel pretty uneasy.
+**Patient**: I have noticed that this rapid heartbeat makes it tougher for me to do things around the house. I get tired more quickly than I used to.
 
-**Doctor**: Let me ask about the episodes—when did you first notice your heart racing, and how long do these episodes usually last?
+**Doctor**: Let me ask about when you first noticed this rapid heartbeat. Has it been going on for days, weeks, or longer? And is it constant, or does it come and go?
 
-**Patient**: I’m not exactly sure when it first started, but I noticed my heart racing a few days ago. The episodes don’t seem to last very long—maybe a few minutes each time.
+**Patient**: I can't remember the exact day, but it's been at least several days now. The rapid heartbeat seems to come and go—it isn't always there, but when it happens, it's pretty noticeable.
 
-**Doctor**: Got it. When these episodes happen, do you notice any other symptoms—like lightheadedness, chest discomfort, or shortness of breath?
+**Doctor**: Alright. When these episodes of rapid heartbeat occur, have you noticed any other symptoms, like feeling dizzy, lightheaded, or short of breath?
 
-**Patient**: I haven't had any lightheadedness or trouble breathing. My main symptom is just the rapid heartbeat.
+**Patient**: I haven't noticed feeling dizzy or lightheaded during these episodes. It's mainly just the rapid heartbeat that bothers me.
 
-**Doctor**: Alright. Have you noticed if anything seems to trigger these episodes, like physical activity, stress, or even certain foods or drinks?
+**Doctor**: Let me ask about triggers—have you noticed if the rapid heartbeat tends to happen after physical activity, when you're stressed, or does it occur randomly throughout the day?
 
-**Patient**: I haven't noticed any specific triggers. It just seems to happen randomly, whether I’m active or resting.
+**Patient**: It seems to happen at random times during the day. I haven't noticed any clear pattern with activity or stress—it just comes on suddenly.
 
-**Doctor**: Let me ask about how these episodes resolve—do they stop on their own, or do you do anything to help them go away?
+**Doctor**: Got it. Has the frequency or intensity of these episodes changed over the past several days, or have they stayed about the same?
 
-**Patient**: They usually stop on their own after a few minutes. I haven’t really done anything specific to make them go away.
+**Patient**: They've pretty much stayed the same over the past several days. I haven't noticed them getting any worse or happening more often.
 
-**Doctor**: I see. When your heart is racing, do you feel any sense of anxiety or discomfort, or does it just feel unusual but not particularly distressing?
+**Doctor**: Let me ask about your overall health—do you have any history of heart problems, high blood pressure, or are you taking any medications related to your heart?
 
-**Patient**: Yes, I do feel a bit anxious when my heart starts racing. It just feels odd and makes me a little uneasy, but I wouldn't say it's painful.
+**Patient**: I haven't been told I have any specific heart problems or high blood pressure before. As for medications, I'm taking something my doctor prescribed for my heart, but I was never told the exact name of the condition.
 
-**Doctor**: Got it. One more question—after these episodes, do you feel tired or notice any lingering effects, or do you feel back to normal pretty quickly?
+**Doctor**: Let me ask about how your rapid heartbeat feels physically—does it come with any chest discomfort, pain, or pressure, or is it just the sensation of your heart racing?
 
-**Patient**: I feel back to normal pretty quickly after the episodes stop. There aren’t really any lingering effects.
+**Patient**: It's just the feeling of my heart racing. I haven't had any chest pain, discomfort, or pressure along with it.
 
-**Doctor**: Let me ask about your overall health—have you started any new medications or experienced any recent illnesses around the time these episodes began? Sometimes changes like these can play a role.
+**Doctor**: Alright. Since you've mentioned you're taking a medication for your heart, do you recall if your doctor ever mentioned any rhythm issues or irregular heartbeat in the past, or was the medication prescribed for something else?
 
-**Patient**: No, I haven't started any new medications or had any recent illnesses around the time this started. Everything else has been pretty much the same for me.
+**Patient**: My doctor did mention something about an irregular heartbeat before, but didn't go into much detail. The medication was definitely for my heart rhythm, but I don't know the exact condition name.
 
-**Doctor**: Based on what we've discussed, it sounds like you're experiencing brief episodes of a rapid heartbeat that resolve on their own without other concerning symptoms like chest pain, fainting, or shortness of breath. Since you haven’t had any recent medication changes or illnesses, and the episodes are not prolonged or severely symptomatic, this fits with what we often see in people who have atrial fibrillation—especially when it comes and goes quickly.
+**Doctor**: Let me share my thoughts based on our conversation. You’ve described episodes of your heart racing that come and go, with no chest pain or dizziness, and you’re on a medication for heart rhythm. This pattern suggests you may be experiencing a type of irregular heartbeat called atrial fibrillation. It’s common in older adults and can cause fatigue or make everyday activities harder.
 
-What typically happens is that the heart’s electrical signals become a bit disorganized, causing it to beat faster and sometimes irregularly. This can feel unsettling but isn’t always dangerous, especially if you recover quickly and don’t have other symptoms.
+Atrial fibrillation happens when the upper chambers of the heart beat irregularly, which can lead to the sensation of a rapid or fluttering heartbeat. Sometimes the electrical signals can travel in unusual ways (“aberrant conduction”), but since you’re not having pain or severe symptoms, this seems to be a mild case.
 
-The main things I’d want you to watch for are new symptoms such as chest pain, feeling faint, or episodes that last much longer or don’t stop on their own—those would be reasons to seek medical attention right away.
+It’s important to keep track of these episodes and let your doctor know if they become more frequent, last longer, or if you develop new symptoms like chest pain or feeling faint. Staying hydrated, avoiding excess caffeine, and taking your medication as prescribed can help.
 
-For now, keeping track of when these episodes happen and if anything changes can be helpful. Staying well-hydrated, limiting caffeine or alcohol if you notice they make things worse, and managing stress may also help. If these episodes become more frequent or bothersome, or if you develop any new symptoms, please let your healthcare provider know so they can reassess your treatment plan.
+If you have questions about your medication or want more details about atrial fibrillation, I’m happy to explain further.
 
-Does that explanation make sense, or is there anything else you’re concerned about?
+**Patient**: Thank you for explaining that. What should I expect going forward—will these episodes keep happening, or is there a way to get them under control with treatment?
 
-**Patient**: That all makes sense, thank you for explaining it so clearly. I’ll make sure to keep track of the episodes like you suggested. Right now I feel a bit better knowing it’s not always dangerous, but I’ll definitely let you know if anything changes.
+**Doctor**: From what we've discussed, your symptoms and medication history point toward a mild irregular heartbeat, likely atrial fibrillation. These episodes can come and go, and it's common for them to cause fatigue or make daily tasks more difficult. The medication your doctor prescribed is intended to help control your heart rhythm and reduce the frequency and severity of these episodes.
+
+Treatment can often keep these symptoms under control, but it's possible that you may still experience occasional episodes. What usually happens is that, with the right medication and regular follow-up, most people find their symptoms become less bothersome over time. It's important to continue taking your medication as directed, keep track of any changes in your symptoms, and let your doctor know if anything new develops—especially if you ever feel faint or notice symptoms like chest discomfort.
+
+Staying active within your comfort level, avoiding excess caffeine or alcohol, and managing stress can also help. If you’re curious about lifestyle changes or want more details about how your medication works, feel free to ask.
+
+**Patient**: Thanks for explaining all that. Are there any side effects I should watch out for with the medication I'm taking for my heart rhythm?
+
+**Doctor**: Let me share my thoughts now that we've talked through your symptoms and medication. The medicine you're taking for your heart rhythm is likely aimed at keeping your heartbeat regular and preventing episodes like the ones you've described. Most medications for heart rhythm are well tolerated, but some can cause side effects such as feeling unusually tired, mild dizziness, or changes in appetite. Occasionally, people might notice swelling in their ankles or feet, or feel their heart beating slower than usual.
+
+If you ever feel lightheaded, notice swelling, or experience new or worsening symptoms, it's important to let your doctor know. Staying aware of how you feel day to day is helpful, and keeping a simple log of any changes can make it easier to share information at your next visit.
+
+Overall, with regular follow-up and attention to how your body responds, most people manage these medications well. If you want to discuss more about possible side effects or anything specific you've noticed, just let me know.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 670
-- **Doctor Turns**: 9
-- **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 73-year-old male presenting with recent onset of angina with exertion. Symptoms began shortly before admission and were confirmed by a positive exercise treadmill test (ETT) on 2165-3-13. Relevant history includes insulin-dependent diabetes mellitus, hypercholesterolemia, possible hypertension, and a remote history of smoking; current medications are pravachol, aspirin, and insulin. On physical examination, he was in no acute distress with normal cardiovascular and pulmonary findings. Laboratory results and electrocardiogram showed normal sinus rhythm with borderline first degree A-V block and left bundle branch block. The documented diagnoses were unstable angina and coronary artery disease, status post coronary artery bypass graft x4. Treatment included cardiac catheterization and coronary artery bypass grafting, with continuation of his prior medications.
-
-## Dialogue Summary
-
-The patient presented with episodes of rapid heartbeat, previously described as rapid atrial fibrillation with aberrant conduction. Symptoms included brief episodes of heart racing lasting a few minutes, occurring randomly without identifiable triggers, and resolving spontaneously; the patient reported feeling anxious and uneasy during episodes but denied lightheadedness, chest discomfort, or shortness of breath. No new medications, recent illnesses, or lingering effects after episodes were noted. Physical findings were not directly described, but the patient reported feeling back to normal quickly after each episode. The doctor assessed that the patient is experiencing brief, self-limited episodes of rapid heartbeat consistent with paroxysmal atrial fibrillation, without concerning associated symptoms. The doctor advised monitoring for new symptoms such as chest pain, fainting, or prolonged episodes, and recommended keeping track of episode frequency and characteristics. Additional advice included staying hydrated, limiting caffeine or alcohol if they worsen symptoms, and managing stress. The patient expressed understanding and agreed to monitor symptoms as suggested.
-
-## STS Evaluation
-
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
+- **Turn Count**: 21
+- **Word Count**: 1041
+- **Doctor Turns**: 11
+- **Patient Turns**: 10
 
 ## Processing Information
 
-- **Processing Time**: 66.1s
+- **Processing Time**: 84.0s

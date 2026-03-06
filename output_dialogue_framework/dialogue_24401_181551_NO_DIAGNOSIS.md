@@ -16,88 +16,95 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.925
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about symptoms related to hypertensive emergency and associated complaints (headache, vision changes, vomiting, abdominal pain). The patient responses are coherent and match the profile. The doctor's explanations and safety advice are clear and appropriate for a light case, with no unsupported diagnoses or interventions. There are no obvious hallucinations or contradictions.
+- **Score**: 0.925
+- **Justification**: Combined score 0.92 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.75 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.750 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides relevant, concise answers and does not introduce unsupported symptoms or history. For even greater realism, the patient could occasionally express uncertainty or ask clarifying questions.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and addresses the main concerns. For improvement, the doctor could briefly acknowledge the patient's chronic conditions (e.g., COPD, diabetes) when discussing symptoms like shortness of breath or abdominal pain, to show awareness of the full medical context.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with clear transitions between topics. The conversation could be slightly more interactive if the doctor checked for understanding or asked if the patient had any additional concerns.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is appropriate for a simulated light case. The doctor clearly outlines warning signs and next steps. For clarity, the doctor could specify what to do if blood pressure remains high despite medication (e.g., when to seek urgent care), but this is a minor point given the context.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Good to see you today. What’s been bothering you the most right now?
+**Doctor**: Welcome in today. What’s been bothering you the most recently?
 
-**Patient**: My blood pressure’s been really high lately, and that’s got me pretty worried.
+**Patient**: My blood pressure has been really high lately, and that’s got me pretty worried.
 
-**Doctor**: Let me ask about your recent symptoms—have you noticed anything else unusual, like headaches, vision changes, or feeling lightheaded?
+**Doctor**: Let me ask about any other symptoms you’ve noticed—have you been feeling lightheaded, had any headaches, or noticed any changes in your vision when your blood pressure is high?
 
-**Patient**: Yes, I’ve had some headaches and my vision isn’t as clear as usual. I haven’t felt lightheaded though.
+**Patient**: I have had a pretty strong headache in the front of my head, and my vision seems a bit worse than usual. I haven’t really felt lightheaded though.
 
-**Doctor**: Let me ask about your day-to-day—how much are these headaches and vision changes affecting your usual activities? Are you able to do most things, or have you had to slow down or stop anything because of them?
+**Doctor**: Let me ask about something related—have you had any episodes of nausea or vomiting along with these headaches and vision changes?
 
-**Patient**: I’ve had to slow down a bit, especially with reading or watching TV since my vision’s off. The headaches aren’t terrible, but they do make me want to rest more during the day.
+**Patient**: Yes, I’ve actually been pretty nauseous, and I’ve thrown up a few times overnight. The vomit was kind of yellowish.
 
-**Doctor**: Let me ask about your blood pressure—do you check it at home, and if so, what kinds of numbers have you been seeing lately? Also, when did you first notice it was running high?
+**Doctor**: Let me ask about when all of this began—did these issues with your blood pressure and feeling unwell start suddenly, or have they been building up over several days?
 
-**Patient**: I’ve been checking it at home, and the numbers have been in the 220s over 110s. I first noticed it was that high last night, but I’m not sure exactly when it started creeping up.
+**Patient**: I’m not exactly sure when it all started, but the blood pressure and feeling unwell have been getting worse over the past couple of days.
 
-**Doctor**: Let me ask about your blood pressure readings—did you notice anything that seemed to trigger the spike, such as missed medication doses, changes in your routine, or increased stress?
+**Doctor**: Alright. When you checked your blood pressure and saw those high numbers, were you at rest or doing any activity? Also, have you ever had readings this high before, or is this new for you?
 
-**Patient**: I haven’t missed any doses of my medication, and my routine’s been about the same. I can’t think of anything specific that might have triggered it.
+**Patient**: When I checked my blood pressure, I was just sitting down and resting. I haven’t seen numbers this high before—it’s definitely new for me.
 
-**Doctor**: Alright. Let me ask about your vomiting overnight—was there anything unusual about it, like the color or consistency? And after vomiting, did you feel any relief or did the symptoms persist?
+**Doctor**: Let me ask about how this has been affecting your daily routine—have you had trouble getting out of bed, eating, or doing your usual activities since these symptoms began?
 
-**Patient**: The vomit was yellowish and kind of bitter, like bile. I didn’t really feel better afterward—the nausea and some mild abdominal pain stuck around. My breathing’s also been a bit off, but that’s pretty typical for me.
+**Patient**: It’s been tough to do my normal routine. I feel pretty tired, and between the nausea and some mild abdominal pain, eating hasn’t been easy. My shortness of breath is still there too, like usual.
 
-**Doctor**: Got it. When you checked your blood pressure and noticed it was high, did you feel any chest discomfort or notice any swelling in your legs or feet? Sometimes these can help us understand if there’s anything more serious going on.
+**Doctor**: Let me ask about your blood pressure numbers—have you measured it at home, and if so, do you recall how high it’s been? Also, have you noticed any chest discomfort or swelling in your legs?
 
-**Patient**: No chest discomfort, and I haven’t noticed any swelling in my legs or feet. My main issues have been the high blood pressure, the nausea, and the abdominal pain.
+**Patient**: At home, my blood pressure was up in the 220s over 110s. I haven’t had any chest pain, and I haven’t noticed any swelling in my legs.
 
-**Doctor**: Got it. Has your blood pressure been coming down at all since you first noticed it was high, or has it stayed about the same? Also, is the abdominal pain getting better, worse, or staying steady?
+**Doctor**: Got it. Since your blood pressure has been so high and you’ve had vomiting and trouble eating, have you been able to keep fluids down, or are you feeling dehydrated—like dry mouth, less urination, or feeling unusually thirsty?
 
-**Patient**: My blood pressure’s stayed about the same—still pretty high. The abdominal pain hasn’t really changed much either, just mild and cramping around my belly button.
+**Patient**: I’ve been able to sip some fluids, but not as much as usual. My mouth does feel a bit dry, and I think I might be urinating less than normal.
 
-**Doctor**: Based on what we've discussed, your blood pressure readings are quite elevated, and you've also had episodes of vomiting with some mild abdominal discomfort. When blood pressure is this high, it can sometimes cause symptoms like headaches and changes in vision, which you’ve noticed. The vomiting and abdominal symptoms may or may not be directly related, but they’re important to keep track of.
+**Doctor**: Based on what we've discussed, it sounds like your blood pressure has reached a level that can be dangerous, especially since you’re also experiencing headaches, changes in vision, nausea, and vomiting. When blood pressure gets this high—especially with these symptoms—it can sometimes lead to complications affecting the brain, eyes, or other organs.
 
-My main concern right now is the persistently high blood pressure. Readings in the 220s over 110s can put extra strain on your organs, especially the heart, brain, and kidneys. Sometimes, people don’t feel very ill even when their numbers are this high, but it’s still important to address it promptly to prevent complications.
+What often happens in situations like this is that the body starts to react to the extremely high pressure, which can result in headaches, vision changes, and trouble keeping food or fluids down. The fact that you’re having trouble staying hydrated and that these symptoms are getting worse is concerning.
 
-At home, if you have any sudden new symptoms—like chest pain, weakness on one side, trouble speaking, or confusion—those would be warning signs to seek care immediately. For now, since your symptoms haven’t worsened and you’re not having severe pain or neurological issues, I’d recommend resting, continuing your blood pressure medication as prescribed, and avoiding any over-the-counter medications that might raise your blood pressure further (like decongestants or NSAIDs).
+This condition is known as a hypertensive emergency, which means the blood pressure is so high that it could cause organ damage if not managed quickly. It’s important not to try to handle this at home—this situation requires prompt medical attention in a hospital setting where your blood pressure can be brought down safely and your symptoms monitored.
 
-Let me ask: When did you first notice the vomiting and abdominal symptoms—was it before or after you saw the high blood pressure readings? This can help us figure out if they’re connected.
+My strong recommendation is that you seek immediate care—either by calling emergency services or having someone take you to the emergency department right away. Trying to wait this out at home could be risky.
 
-**Patient**: The vomiting and stomach pain started overnight, before I checked my blood pressure and saw how high it was. Thanks for explaining everything so clearly—I’ll keep an eye out for any new symptoms like you mentioned.
+If you have any questions about what’s happening or what to expect at the hospital, I’m here to explain further.
+
+**Patient**: Thank you for explaining that to me. What kind of treatment will I get at the hospital, and how long does it usually take to bring blood pressure down safely?
+
+**Doctor**: Let me share my thoughts on what’s happening. From everything you’ve described—very high blood pressure, headaches, vision changes, nausea, and difficulty keeping fluids down—it looks like your body is struggling to cope with the elevated pressure, which can begin to affect important organs. This isn’t something that can be safely managed at home.
+
+In the hospital, the main goal will be to lower your blood pressure gradually and safely. They’ll likely give you intravenous (IV) medications that can be adjusted quickly, while closely monitoring your heart, kidneys, and brain for any signs of stress or damage. The process is done slowly on purpose—dropping blood pressure too fast can be dangerous, so it’s usually brought down over several hours to a day.
+
+You’ll also get fluids and treatment for your nausea, and the team will check for any complications. Most people start to feel better as their pressure comes down and symptoms improve. The length of stay depends on how you respond and whether there are any underlying problems that need further care.
+
+This is a serious situation, but with prompt treatment, people often recover well. It’s important to get care as soon as possible—waiting could lead to more severe complications.
+
+Is there anything else on your mind, or any concerns I can help address before you head in?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 735
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 915
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 70-year-old male presenting with hypertensive emergency following esophageal stent placement. He experienced severe hypertension (blood pressures in the 220s/110s), 150 cc bilious emesis, umbilical pain, and a frontal headache post-procedure; overnight, he had mild umbilical cramping pain, nausea, and three episodes of vomiting, but no gastrointestinal bleeding. His past medical history includes distal esophageal stricture, colon cancer status post hemicolectomy, coronary artery disease with prior MI and stent placement, hypertension, ventral hernia, cerebrovascular accident, peripheral vascular disease, COPD, and peptic ulcer disease; he is allergic to penicillins. On exam, he was alert and oriented, breathing rapidly and deeply, with blood pressure 150/70 mmHg and minimal umbilical tenderness. The documented diagnosis was hypertensive emergency. Treatment included intravenous lopressor (2.5 mg) and hydralazine (total 20 mg IV) for blood pressure control.
-
-## Dialogue Summary
-
-The patient presented with concerns about persistently high blood pressure. Symptoms discussed included headaches, blurred vision, mild cramping abdominal pain around the belly button, yellowish bitter vomiting that began overnight before the elevated blood pressure was noted, and some nausea; the patient denied lightheadedness, chest discomfort, or leg swelling. The headaches and vision changes have caused the patient to slow down daily activities such as reading and watching TV, while the abdominal pain has remained steady and mild. The patient reported home blood pressure readings in the 220s/110s and stated no missed medication doses or routine changes. No relevant allergies or additional medical history were mentioned, though the patient noted that mild breathing issues are typical for them. The doctor’s assessment was that the patient’s blood pressure is severely elevated, with associated symptoms of headache and vision changes likely related, while the vomiting and abdominal pain may or may not be connected. The doctor advised the patient to rest, continue prescribed blood pressure medications, avoid over-the-counter drugs that could raise blood pressure (such as decongestants or NSAIDs), and seek immediate care if new symptoms such as chest pain, weakness, speech trouble, or confusion develop.
-
-## STS Evaluation
-
-- **STS Score**: 0.940
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 58.6s
+- **Processing Time**: 103.8s

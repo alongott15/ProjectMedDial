@@ -16,86 +16,103 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.937
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the patient's profile and the case type. The doctor asks appropriate follow-up questions about the patient's symptoms, medication adherence, and hydration status. The patient provides clear, relevant answers. The doctor's reasoning and advice are reasonable for a mild case, and there are no unsupported diagnoses, treatments, or alarming contradictions. The conversation remains focused on the presented symptoms and does not introduce any major unsupported content.
+- **Score**: 0.937
+- **Justification**: Combined score 0.94 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.79 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.789 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear and relevant information. For even greater realism, the patient could mention any recent changes in diet, stress, or other factors that might affect symptoms, or express more concern or questions about their chronic conditions.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor does well to clarify symptoms and provide reassurance. For completeness, the doctor could briefly mention the patient's history of diabetes and gastroparesis as possible contributors to the symptoms, or ask about blood sugar readings given the context.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with good back-and-forth. The doctor summarizes well and gives clear instructions. A brief check for other symptoms (e.g., abdominal pain) could add further realism.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No major safety concerns. The doctor appropriately advises when to seek further care. For clarity, a reminder to monitor blood sugars or check for ketones (given diabetes) could be added.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's nice to see you today. How have you been feeling lately, and what brings you in?
+**Doctor**: Hello, it's good to see you today. What brings you in—how have you been feeling lately?
 
-**Patient**: I've been having some nausea and vomiting lately, and my blood pressure's been higher than usual. That's mainly why I came in today.
+**Patient**: I've been having a lot of nausea and vomiting lately. That's really what's been bothering me the most.
 
-**Doctor**: Let me ask about your nausea and vomiting—when did these symptoms begin, and how often are they happening?
+**Doctor**: Let me ask about how this has been affecting your day-to-day life. Are you able to keep food or liquids down, or is it interfering with your normal activities?
 
-**Patient**: I'm not exactly sure when it started, but I think it's been a couple of days now. The nausea has been off and on, and I've vomited a few times since it began.
+**Patient**: It's been tough to keep food down, and I feel like it's really slowing me down. I haven't been able to do much around the house because of it.
 
-**Doctor**: Let me ask about your blood pressure—have you been checking it at home, and do you recall what the readings have been recently? Also, have you noticed any other symptoms, like headaches or changes in your vision?
+**Doctor**: Let me ask about any other changes you’ve noticed. Have you experienced headaches, fever, or any confusion recently?
 
-**Patient**: Yes, I've been checking my blood pressure at home and it's been higher than normal, but I don't remember the exact numbers. I haven't had any headaches or changes in my vision. I have noticed a bit of confusion at times, though.
+**Patient**: I have noticed some slight confusion, but I haven’t had any headaches or fever. The nausea and vomiting are still the main things bothering me.
 
-**Doctor**: Let me ask about the confusion you've mentioned—can you describe what that's been like? For example, are you having trouble remembering things, feeling disoriented, or is it more difficulty concentrating?
+**Doctor**: Let me ask about the timing—when did these symptoms first begin, and have they been getting worse, staying the same, or improving since then?
 
-**Patient**: It's mostly just been a little trouble concentrating and feeling a bit off. I haven't really felt disoriented or had problems remembering things, just not quite myself.
+**Patient**: I'm not sure exactly when it started, but it's been at least a few days. It feels like my symptoms have been getting a bit worse over time. I've also noticed my blood pressure has been high during all of this.
 
-**Doctor**: Alright. Has this trouble concentrating or feeling off made it difficult for you to go about your usual daily activities, like managing tasks at home or interacting with others?
+**Doctor**: Got it. Since you mentioned your blood pressure has been high, are you currently taking any medications for it, or have you made any recent changes to your medication routine?
 
-**Patient**: No, it hasn't really stopped me from doing things around the house or talking with people. I just notice I'm a bit slower to focus sometimes.
+**Patient**: I'm currently taking lisinopril for my blood pressure. I haven't made any recent changes to my medications that I can remember.
 
-**Doctor**: Got it. Let me ask about your blood pressure—do you take medication for it, and if so, have you missed any doses or made any changes to your routine recently?
+**Doctor**: Alright, let me ask about your confusion—has it been constant, or does it come and go? Are you able to think clearly most of the time, or is it affecting your ability to do routine tasks?
 
-**Patient**: Yes, I take lisinopril for my blood pressure. I haven't missed any doses or changed anything with my routine recently.
+**Patient**: The confusion isn't constant—it comes and goes. Most of the time I can think clearly, but there have been moments where I feel a little off and it's made it harder to do my usual tasks.
 
-**Doctor**: Let me ask about your vomiting—are you able to keep fluids down, or have you had trouble staying hydrated? This can help me understand if dehydration might be contributing to how you're feeling.
+**Doctor**: Let me ask about your blood pressure—do you measure it at home, and if so, have you noticed any specific numbers lately? Also, do you ever feel dizzy or lightheaded when you stand up?
 
-**Patient**: I've been able to keep some fluids down, so I don't think I'm too dehydrated. It's just the nausea and vomiting that have been bothering me most.
+**Patient**: I do check my blood pressure at home, and it's been higher than usual lately, but I can't remember the exact numbers. I haven't really felt dizzy or lightheaded when standing up.
 
-**Doctor**: Alright. Have you noticed if anything in particular seems to trigger your nausea or vomiting—like certain foods, medications, or times of day? Or does it seem to come on randomly?
+**Doctor**: Got it. Let me ask, have you noticed any swelling in your legs or ankles, or any changes in your urine—like going less often, or darker color? These can sometimes be related to blood pressure and nausea.
 
-**Patient**: It seems to come on randomly. I haven't noticed any specific foods or medications triggering it, and it doesn't happen at a particular time of day.
+**Patient**: I haven't noticed any swelling in my legs or ankles. My urine seems about the same—I haven't seen any changes in how often I go or in the color.
 
-**Doctor**: Based on what we've discussed, it sounds like you've had a few days of intermittent nausea and vomiting, some difficulty concentrating, and your blood pressure readings have been higher than usual. Since you're able to keep fluids down and continue with your daily activities, this does point toward a mild, common issue—sometimes illnesses like viral gastroenteritis can cause these symptoms, and higher blood pressure readings can temporarily result from feeling unwell or being dehydrated.
+**Doctor**: From what we've discussed, your main concerns are nausea and vomiting that have lasted several days, with some moments of confusion and higher blood pressure readings. You’re able to think clearly most of the time, and you’re not experiencing dizziness, swelling, or changes in urine.
 
-Trouble concentrating can occasionally occur with elevated blood pressure or mild dehydration, but it's good that you haven't had headaches or vision changes. Since you’re staying hydrated and haven’t missed your medication, I’d recommend continuing to monitor your blood pressure at home. Try to rest, eat bland foods, and sip fluids throughout the day. If your confusion worsens, you develop persistent vomiting, chest pain, or any new neurological symptoms, please seek care promptly.
+These symptoms can sometimes be related to issues with blood pressure control, side effects from medications, or even dehydration from vomiting. Occasionally, high blood pressure itself can cause mild confusion, especially if it’s significantly elevated. The fact that you’re having trouble keeping food down could also lead to dehydration, which can make you feel off mentally.
 
-Let me know if you have any questions about what we've discussed or if you’d like advice on managing the nausea at home.
+At this stage, it sounds like your symptoms are likely due to a combination of your blood pressure being higher than usual and the effects of ongoing nausea and vomiting. This is a common scenario, but it’s important to keep an eye on confusion and blood pressure, as these can sometimes signal something more serious if they worsen.
 
-**Patient**: Thank you, that all makes sense. I appreciate the advice—I'll keep an eye on my blood pressure and try to rest. If the nausea gets worse or I have any new symptoms, I’ll reach out.
+For now, I recommend focusing on staying hydrated—try sipping small amounts of water or oral rehydration solutions throughout the day. If your confusion becomes more severe or constant, or if you develop new symptoms like chest pain, severe headache, or trouble breathing, those are warning signs to seek care promptly.
+
+Let me know if you have any questions about what we discussed or if there’s anything else you’d like to share.
+
+**Patient**: Thank you for explaining that. Is there anything I should change with my medications right now, or just focus on staying hydrated and watching for new symptoms?
+
+**Doctor**: Let me share my thoughts. Based on what you’ve told me, your nausea and vomiting have led to difficulty keeping food down, which can cause dehydration and make you feel mentally off. The episodes of confusion seem mild and intermittent, which is reassuring, but combined with higher blood pressure, they’re worth monitoring.
+
+Sometimes, blood pressure medications like lisinopril can cause side effects, but since you haven’t changed your routine, it’s less likely to be the main cause. Vomiting itself can also affect blood pressure and mental clarity.
+
+For now, I recommend you focus on staying hydrated and keep monitoring your blood pressure. If your confusion becomes more frequent or severe, or if you develop new symptoms like chest pain, severe headache, or vision changes, seek medical attention promptly.
+
+At this point, there’s no clear reason to change your medication without further information. If your symptoms persist or worsen, it would be a good idea to check in with your healthcare provider for a closer look. Does anything in particular seem to trigger your confusion or make it worse?
+
+**Patient**: Nothing really seems to bring on the confusion—it just happens sometimes, especially when the nausea is worse. How long should I expect these symptoms to last if I keep trying to stay hydrated?
+
+**Doctor**: Let me share my thoughts. From everything you’ve described, it seems your symptoms are most noticeable when you’re feeling unwell, and they tend to fluctuate. Often, when the underlying issue—such as difficulty keeping fluids down—improves, the mental clarity returns as well.
+
+For mild cases like this, symptoms usually start to improve within a few days once you’re able to stay hydrated and gradually return to eating. If things don’t get better after another 2–3 days, or if you notice worsening confusion or other new issues, it’s important to reach out for further evaluation.
+
+Staying hydrated is key. Try small sips of water or clear fluids frequently. If you’re unable to keep anything down or feel your confusion is getting worse, don’t hesitate to seek medical care sooner.
+
+Let me know if you have any other questions or concerns about your recovery.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 678
-- **Doctor Turns**: 9
-- **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 65-year-old female presenting with nausea, vomiting, and hypertension. Symptoms began the night before admission with persistent nausea and inability to tolerate oral intake, progressing to vomiting (non-bloody, non-bilious) and elevated blood glucose levels (up to 440 mg/dL). She has a history of type 1 diabetes mellitus on an insulin pump, hypertension, hypercholesterolemia, hiatal hernia, and prior episodes of similar symptoms attributed to gastroparesis versus gastritis and esophagitis. On arrival, her blood pressure was 190/72 mmHg and blood glucose was 381 mg/dL; she was alert, oriented, and afebrile but had dry mucous membranes. Physical exam revealed stable vital signs and no acute distress. The documented clinical impression was recurrent nausea and vomiting in the setting of diabetes and hypertension, likely related to gastroparesis. Treatment included intravenous fluids, anti-emetics, labetalol for blood pressure control, and aspirin. No major surgical or invasive procedures were performed during admission.
-
-## Dialogue Summary
-
-The patient presented with nausea, vomiting, and elevated blood pressure. The nausea had been intermittent for a couple of days, with several episodes of vomiting; no specific triggers or timing were identified. The patient also reported mild trouble concentrating and feeling "off," but denied headaches, vision changes, or difficulty with daily activities. Home blood pressure readings were noted to be higher than usual, though exact values were not recalled; the patient has been taking lisinopril regularly without missed doses or changes. Physical findings were limited to the patient's ability to keep fluids down and maintain hydration. The doctor assessed that the symptoms could be due to a mild illness such as viral gastroenteritis, with temporary elevation in blood pressure possibly related to feeling unwell or mild dehydration. The doctor recommended continued home monitoring of blood pressure, rest, bland foods, and sipping fluids, with instructions to seek care if confusion worsens, vomiting persists, or new symptoms develop. The patient understood and agreed to follow these recommendations.
-
-## STS Evaluation
-
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
+- **Turn Count**: 21
+- **Word Count**: 1090
+- **Doctor Turns**: 11
+- **Patient Turns**: 10
 
 ## Processing Information
 
-- **Processing Time**: 61.3s
+- **Processing Time**: 91.3s

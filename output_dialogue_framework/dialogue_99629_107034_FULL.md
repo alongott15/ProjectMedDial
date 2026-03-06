@@ -16,86 +16,81 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.842
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the patient's profile and case type. The doctor asks appropriate questions about the syncope episodes, explores possible triggers, and checks for associated symptoms. The reasoning about orthostatic hypotension is reasonable given the context, and the advice is appropriate for a light case. No unsupported diagnoses, treatments, or severe events are introduced. The patient responses are coherent and match the scenario.
+- **Score**: 0.842
+- **Justification**: Combined score 0.84 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.47 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.474 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient provides clear, relevant answers and shows understanding. Could elaborate slightly more on daily routines or medication adherence if prompted.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor demonstrates thorough history-taking and offers practical advice. Could mention reviewing medications or checking blood pressure in clinic as a next step for completeness.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: Dialogue flows logically, with each question building on previous answers. The summary and advice are well-timed and clear.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The doctor appropriately advises when to seek further care if symptoms worsen or change.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. How have you been feeling lately, and is there anything in particular that's been bothering you?
+**Doctor**: Good to see you today. How have you been feeling lately, and is there anything specific you'd like to discuss or any new symptoms you've noticed?
 
-**Patient**: I've had a couple of episodes where I fainted. That's really what's been bothering me lately.
+**Patient**: Lately, I’ve had a couple of spells where I passed out. That’s really what’s been bothering me most.
 
-**Doctor**: Let me ask about these episodes—do you remember what you were doing right before you fainted, or did anything seem to trigger them?
+**Doctor**: Let me ask about those spells—when you passed out, did you notice any warning signs beforehand, like feeling lightheaded or dizzy?
 
-**Patient**: I was just standing up from my chair when it happened. I don't recall anything in particular that triggered it, but I felt pretty tired before.
+**Patient**: I remember feeling kind of tired before it happened, but I don’t recall much warning like dizziness or anything. It just seemed to come on suddenly.
 
-**Doctor**: Let me ask about what happened after you fainted—did you recover quickly, or did you feel confused or weak for a while afterward?
+**Doctor**: Let me ask about the timing—did these episodes happen while you were standing or sitting, or were you moving around? And have they occurred at a particular time of day?
 
-**Patient**: I came to pretty quickly after each episode. I did feel weak for a little while, but I wasn't confused.
+**Patient**: Both times, I was standing when it happened. I can’t say for sure what time of day it was—it didn’t seem to be at the same time each time.
 
-**Doctor**: Let me ask about your overall energy—has your tiredness been getting better, worse, or staying about the same over the past few weeks?
+**Doctor**: Let me ask about after you regained consciousness—did you feel confused, weak, or have any trouble moving around? And did anyone notice if you had any unusual movements or injuries during the episode?
 
-**Patient**: My tiredness has been about the same, I think. I haven’t noticed much change over the past few weeks.
+**Patient**: After I came to, I mostly just felt really tired. I don’t think I was confused, and I didn’t have any trouble moving around. No one mentioned seeing anything unusual or that I hurt myself.
 
-**Doctor**: Alright. Have you noticed any dizziness, palpitations, or chest discomfort either before or after these episodes?
+**Doctor**: Alright. When did these episodes first begin, and how often have they happened so far?
 
-**Patient**: No, I haven't noticed any dizziness, palpitations, or chest discomfort before or after these episodes.
+**Patient**: I’m not exactly sure when the first one happened, but it hasn’t been going on for very long. So far, I think it’s happened twice.
 
-**Doctor**: Got it. When did these fainting episodes first start happening, and how many times have you experienced them so far?
+**Doctor**: Got it. Have you noticed if the spells are becoming more frequent or if your overall energy level has changed since they started?
 
-**Patient**: I think the fainting started a couple of weeks ago. I've had it happen twice so far.
+**Patient**: They haven’t happened more often, just those two times. I have felt more tired overall since they started, though.
 
-**Doctor**: Got it. When you stand up from your chair, do you ever feel lightheaded or notice your vision dimming just before the fainting happens?
+**Doctor**: Got it. One more question—how much is this tiredness impacting your daily activities? Are there things you used to do easily that now feel more difficult?
 
-**Patient**: No, I haven't felt lightheaded or had my vision dim before fainting. It just seemed to happen suddenly when I stood up.
+**Patient**: It’s definitely making things harder. I get worn out faster and have to rest more, even with simple chores around the house.
 
-**Doctor**: Alright. Has anyone witnessed these episodes, and if so, did they mention anything unusual about your appearance or movements while you fainted?
+**Doctor**: Let me ask about possible triggers—have you noticed if these spells or the tiredness tend to happen after exertion, like walking or doing chores, or do they come on even when you're resting?
 
-**Patient**: Yes, my wife saw me both times. She said I just slumped over and didn’t notice anything unusual like shaking or anything like that.
+**Patient**: Most of the time, I notice the tiredness after doing something, like walking or chores. The spells happened when I was up and about, not while resting.
 
-**Doctor**: Based on what we've discussed, these fainting episodes seem to occur suddenly when you stand up, without warning signs like dizziness or vision changes. Your recovery is quick, and there's no confusion afterward. This pattern can sometimes be seen with a drop in blood pressure upon standing, which is called orthostatic hypotension, especially in older adults.
+**Doctor**: Based on what we've discussed, it sounds like your spells of passing out happened while you were standing and active, and you've been feeling more tired after exertion. In older adults, sudden fainting can sometimes be related to changes in blood pressure, dehydration, heart rhythm issues, or simply standing up too quickly. The fact that you didn't have much warning before the episodes and felt tired afterward is important.
 
-It’s reassuring that you haven’t had chest pain or palpitations, and that your wife didn’t notice any unusual movements. Still, it’s important to keep an eye on this. Staying hydrated, rising slowly from sitting, and avoiding standing up too quickly may help prevent future episodes.
+Fatigue after activity may be connected, suggesting your body might not be getting enough blood flow during exertion. I’d recommend staying hydrated, taking your time when standing up, and resting as needed. If you notice chest pain, palpitations, or if these episodes happen again, especially with injury or confusion, those would be reasons to seek urgent care.
 
-If you notice new symptoms—such as chest discomfort, irregular heartbeat, or if the fainting happens while sitting or lying down—please let your doctor know promptly. For now, does anything seem to make these episodes more likely, such as being tired or not having eaten?
+Let me know if you have any questions about this, or if there are other symptoms you've noticed recently.
 
-**Patient**: I haven't noticed anything that makes the episodes more likely. Being tired is pretty normal for me, and I usually eat regular meals. Thanks for explaining things—I'll try to be more careful when I stand up.
+**Patient**: Thanks for explaining that. I’ll try to be more careful about standing up and make sure I’m drinking enough water. The fatigue has been slowing me down, so I appreciate you taking it seriously. If anything changes or I notice new symptoms like you mentioned, I’ll let you know right away.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 538
+- **Word Count**: 628
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is an 84-year-old male presenting with syncope. He reported progressively worsening aortic stenosis over the past six months, increased fatigue, and experienced a syncopal episode while driving. His medical history includes hypertension, type 2 diabetes, mitral regurgitation, aortic stenosis, and hyperlipidemia; he has a shellfish-derived allergy. On admission, physical exam revealed bradycardia (HR 52), right carotid bruit, and a systolic ejection murmur; discharge exam showed stable vital signs, no murmurs, and mild bilateral lower extremity edema. The documented diagnoses were severe aortic stenosis and mitral regurgitation. Treatment included cardiac catheterization, aortic valve replacement with a 23-mm Mosaic tissue valve, mitral valve repair with annuloplasty, and triple coronary artery bypass grafting; bronchoscopy was also performed. At discharge, incisions were clean and dry with minimal drainage, and the patient was in no acute distress.
-
-## Dialogue Summary
-
-The patient presented with episodes of fainting. He reported two episodes over the past couple of weeks, both occurring suddenly when standing up from a chair, with preceding tiredness but no dizziness, lightheadedness, vision changes, palpitations, or chest discomfort. He recovered quickly after each episode, experiencing brief weakness but no confusion; his wife witnessed both events and did not observe any unusual movements. The patient stated his tiredness has remained stable over the past few weeks and denied any specific triggers or changes in eating habits. No relevant medical history, medications, or allergies were mentioned. The doctor noted the absence of warning signs and suggested the pattern may be consistent with orthostatic hypotension. The doctor recommended staying hydrated, rising slowly from sitting, and avoiding standing up too quickly, and advised the patient to report any new symptoms such as chest discomfort or irregular heartbeat.
-
-## STS Evaluation
-
-- **STS Score**: 0.945
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 56.2s
+- **Processing Time**: 86.2s

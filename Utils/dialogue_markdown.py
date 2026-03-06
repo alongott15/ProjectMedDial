@@ -42,6 +42,20 @@ def dialogue_to_markdown(dialogue_result: dict) -> str:
         lines.append(f"- **Score**: {judge_eval.get('score', 0.0):.3f}")
         lines.append(f"- **Justification**: {judge_eval.get('justification', 'N/A')}\n")
 
+        # DeepEval sub-score breakdown
+        deepeval = dialogue_result.get('deepeval_scores') or judge_eval.get('deepeval_scores', {})
+        if deepeval:
+            lines.append("### DeepEval Sub-Scores\n")
+            lines.append(f"| Metric | Score |")
+            lines.append(f"|---|---|")
+            if deepeval.get('naturalness') is not None:
+                lines.append(f"| Naturalness | {deepeval['naturalness']:.3f} |")
+            if deepeval.get('profile_compliance') is not None:
+                lines.append(f"| Profile Compliance ({deepeval.get('profile_type', 'N/A')}) | {deepeval['profile_compliance']:.3f} |")
+            if deepeval.get('ragas_faithfulness') is not None:
+                lines.append(f"| RAGAS Faithfulness | {deepeval['ragas_faithfulness']:.3f} |")
+            lines.append("")
+
         feedback = judge_eval.get('feedback_for_improvement', {})
         if feedback:
             lines.append("### Feedback for Improvement\n")
@@ -63,29 +77,6 @@ def dialogue_to_markdown(dialogue_result: dict) -> str:
         lines.append(f"- **Word Count**: {stats.get('word_count', 0)}")
         lines.append(f"- **Doctor Turns**: {stats.get('doctor_turns', 0)}")
         lines.append(f"- **Patient Turns**: {stats.get('patient_turns', 0)}\n")
-
-    ehr_summary = dialogue_result.get('ehr_summary')
-    if ehr_summary and dialogue_result.get('is_realistic'):
-        lines.append("## EHR Summary\n")
-        lines.append(f"{ehr_summary}\n")
-
-    dialogue_summary = dialogue_result.get('dialogue_summary')
-    if dialogue_summary and dialogue_result.get('is_realistic'):
-        lines.append("## Dialogue Summary\n")
-        lines.append(f"{dialogue_summary}\n")
-
-    sts_eval = dialogue_result.get('sts_evaluation')
-    if sts_eval and dialogue_result.get('is_realistic'):
-        lines.append("## STS Evaluation\n")
-        lines.append(f"- **STS Score**: {sts_eval.get('sts_score', 0.0):.3f}")
-        lines.append(f"- **Similarity Label**: {sts_eval.get('similarity_label', 'N/A')}")
-
-        details = sts_eval.get('details', {})
-        if details:
-            lines.append("\n### Details")
-            for key, value in details.items():
-                lines.append(f"- **{key}**: {value}")
-        lines.append("")
 
     processing_time = dialogue_result.get('processing_time', 0)
     if processing_time:

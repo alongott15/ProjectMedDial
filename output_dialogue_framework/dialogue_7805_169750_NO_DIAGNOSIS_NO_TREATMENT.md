@@ -6,93 +6,103 @@
 - **Admission ID**: 169750
 - **Profile Type**: NO_DIAGNOSIS_NO_TREATMENT
 - **Success**: True
-- **Is Realistic**: False
+- **Is Realistic**: True
 
 ## Generation Attempts
 
-- **Total Attempts**: 3
+- **Total Attempts**: 1
 - **Best Attempt**: 1
 
 ### Attempt 1
-- Success: False
-- Decision: UNREALISTIC
-- Score: 0.600
-
-### Attempt 2
-- Success: False
-- Decision: UNREALISTIC
-- Score: 0.600
-
-### Attempt 3
-- Success: False
-- Decision: UNREALISTIC
-- Score: 0.300
+- Success: True
+- Decision: REALISTIC
+- Score: 1.000
 
 ## Judge Evaluation
 
-- **Decision**: UNREALISTIC
-- **Score**: 0.600
-- **Justification**: The dialogue is mostly plausible and follows a logical clinical history-taking process for unilateral hearing loss, dizziness, and mild nausea. However, there is a significant hallucination: the doctor suggests vestibular neuritis or labyrinthitis as possible causes, which is unsupported and inappropriate given the patient's history of right acoustic neuroma status post trans-labyrinthine resection. The symptoms are much more likely related to the known diagnosis and surgical history, not a new viral inner ear infection. This is a major unsupported clinical reasoning error.
+- **Decision**: REALISTIC
+- **Score**: 1.000
+- **Justification**: Combined score 1.00 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=1.00 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 1.000 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear, relevant, and consistent with the profile. No major improvements needed.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: Doctor should acknowledge the patient's history of acoustic neuroma and surgery, and frame the differential and advice in that context. Avoid suggesting unrelated diagnoses (e.g., vestibular neuritis) without supporting evidence.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and covers relevant symptoms, but the transition to diagnosis is flawed due to ignoring key history. Ensure that clinical reasoning incorporates all available patient information.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: There is a risk of misleading the patient by suggesting an incorrect etiology. Doctor should clarify that symptoms are likely related to prior surgery and tumor rather than a new viral process, and discuss appropriate follow-up or monitoring.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me what’s been going on or what’s been bothering you lately?
+**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me what's been going on lately with your health?
 
-**Patient**: I've noticed some hearing loss on my right side. That's mainly what's been bothering me lately.
+**Patient**: I've noticed that I'm having some hearing loss on my right side. That's mainly why I came in today.
 
-**Doctor**: Let me ask about how this is affecting you—are you having any trouble with conversations, phone calls, or other daily activities because of the change in your hearing?
+**Doctor**: Let me ask about when you first noticed this change—how long have you been experiencing the hearing loss on that side?
 
-**Patient**: Yes, it's made conversations a bit harder, especially when there's background noise or if someone is speaking on my right side. I find myself asking people to repeat things more often.
+**Patient**: I'm not exactly sure, but I think it's been a few days now. I just started noticing it getting worse on the right side.
 
-**Doctor**: Let me ask about any other changes you might have noticed—have you experienced any ringing in your ear, a feeling of fullness, or any pain on that side?
+**Doctor**: Let me ask about your daily routine—has this change in hearing made it harder for you to do things like talk on the phone, follow conversations, or watch TV?
 
-**Patient**: No, I haven't had any ringing, pain, or a feeling of fullness in that ear. But I have noticed some dizziness along with the hearing loss.
+**Patient**: It definitely makes it tougher to hear when I'm on the phone or watching TV, especially on that right side. Conversations are a bit harder to follow too.
 
-**Doctor**: Let me ask about when you first noticed these changes—how long has the hearing loss and dizziness been going on?
+**Doctor**: Let me ask about any other changes—have you noticed any ringing, fullness, pain, or drainage from your right ear?
 
-**Patient**: I'm not exactly sure, but I think it's been going on for a few days now. The hearing loss and dizziness seemed to start around the same time.
+**Patient**: I haven't noticed any ringing, pain, or drainage from my ear. I have been feeling a bit dizzy and mildly nauseous along with the hearing loss.
 
-**Doctor**: Got it. Have you noticed any changes in your balance, such as feeling unsteady when walking or needing to hold onto things for support?
+**Doctor**: Got it. When you mention feeling dizzy and a bit nauseous, does the dizziness come in brief spells, or is it more constant throughout the day? Also, does changing your head position make it better or worse?
 
-**Patient**: I do feel a bit unsteady at times, especially when the dizziness kicks in. I haven't needed to hold onto things, but I notice I need to move a bit slower.
+**Patient**: The dizziness is there most of the time, not really in short spells. Moving my head sometimes makes it feel a bit worse, but it's pretty constant overall.
 
-**Doctor**: Let me ask about your hearing—would you describe the loss as complete on that side, or is it just muffled or reduced? And has it stayed the same since it started, or has it changed at all?
+**Doctor**: Got it. Let me ask—have you had any recent colds, sinus congestion, or allergies before this started? Sometimes those can affect hearing.
 
-**Patient**: It's not a complete loss, more like things sound muffled or reduced on that side. The hearing has pretty much stayed the same since it started. I’ve also had some mild nausea along with the dizziness.
+**Patient**: I haven't had any colds, sinus issues, or allergies recently. This just started without any of that.
 
-**Doctor**: Alright. Have you noticed any changes with your vision, such as things appearing to move or jump, or any unusual eye movements when these symptoms occur? Sometimes the inner ear can affect both balance and eye coordination, so this helps me understand the situation better.
+**Doctor**: Alright. How much is this change in your hearing and the dizziness affecting your ability to do things around the house or get through your daily routine?
 
-**Patient**: Yes, I've noticed some mild nystagmus—my eyes feel like they're moving a bit when I'm dizzy. I haven't had any changes like things jumping or moving in my vision otherwise.
+**Patient**: It’s definitely made things harder. The dizziness and hearing loss slow me down, and I have to be more careful moving around the house. It’s been affecting my usual routine.
 
-**Doctor**: Got it. Does anything seem to make your symptoms better or worse—for example, changes in head position, loud noises, or being in certain environments? This can help narrow down possible causes.
+**Doctor**: Let me ask about your balance—have you had any trouble with walking steadily, or have you had any falls since these symptoms began?
 
-**Patient**: Changes in head position seem to make the dizziness and mild nausea a bit worse. Loud noises or different environments haven’t really affected my symptoms.
+**Patient**: I haven't fallen, but I do feel a bit unsteady when I walk. The dizziness makes me more cautious moving around.
 
-**Doctor**: Based on what we've discussed, your symptoms—muffled hearing on one side, dizziness that gets worse with head movement, mild nausea, and some nystagmus—suggest an inner ear issue, such as vestibular neuritis or possibly labyrinthitis. These are often caused by viral infections and can affect both balance and hearing. The fact that your symptoms came on together and haven’t gotten worse is somewhat reassuring.
+**Doctor**: Based on what we've discussed, it sounds like you've had a few days of hearing loss on the right side along with some ongoing balance issues that are making daily activities more difficult. You haven’t had pain, ringing, or drainage, and there hasn’t been a recent cold or allergy flare.
 
-Most cases improve gradually over days to weeks. Resting, staying hydrated, and moving carefully can help. If you notice sudden worsening, severe headache, weakness, double vision, or trouble speaking, those would be warning signs to seek urgent care.
+When someone develops sudden hearing loss in one ear, especially with unsteadiness, there are a few common causes. One possibility is something called sudden sensorineural hearing loss, which sometimes happens without warning and can be related to inflammation or a viral process affecting the inner ear. Another possibility is an issue with the nerve that controls balance and hearing. Less commonly, problems like earwax or middle ear fluid can cause hearing changes, but these usually don’t cause ongoing balance problems.
 
-Let me ask—has your hearing on that side started to improve at all, or is it about the same since it began? This helps track your recovery and guides next steps.
+Given your symptoms, this is something that should be checked promptly to help protect your hearing and rule out any more serious issues. I recommend seeing an ear, nose, and throat (ENT) specialist as soon as possible—they may want to do a detailed hearing test and examine your ear closely. Sometimes, early treatment (like steroids) can help improve recovery if it’s sudden sensorineural hearing loss.
 
-**Patient**: My hearing on that side is about the same as when it started—no real improvement yet. I appreciate you explaining what might be going on. Is there anything specific I should do to help speed up recovery?
+In the meantime, try to avoid sudden head movements and take care when walking to prevent falls. If you develop severe headache, vision changes, weakness, or trouble speaking, seek immediate care.
+
+To sum up: This could be a sudden inner ear or nerve issue affecting hearing and balance. Early evaluation is important. I'll help arrange a referral
+
+**Patient**: Thank you for explaining that. What should I expect at the ENT appointment—are there any tests or procedures I should be ready for?
+
+**Doctor**: Let me share my thoughts on what’s going on. From what you’ve described—sudden changes in your hearing on one side, along with feeling unsteady and a bit nauseous—this points to an issue involving the inner ear or the nerve that carries signals for hearing and balance. These symptoms aren’t typical of outer ear problems like wax buildup, especially since you haven’t had pain, drainage, or recent sinus issues.
+
+At your ENT appointment, you can expect a thorough exam of your ears and a hearing test (audiogram) to measure how much hearing loss there is and what type it is. The specialist may also use special tools to look at your eardrum and check for any subtle eye movements (called nystagmus) that can help pinpoint where the problem is. Sometimes, other tests—like balance assessments or imaging (such as an MRI)—are considered if needed, but the first step is usually a detailed exam and hearing test.
+
+Early evaluation is important because some causes of sudden hearing loss respond best to prompt treatment. In the meantime, try to avoid situations where you might lose your balance, and let someone know if you experience any new symptoms like severe headache, weakness, or trouble speaking.
+
+If you have questions about what the ENT might do or want advice on preparing for the visit, I’m happy to help further.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 653
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 915
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 443.5s
+- **Processing Time**: 91.7s

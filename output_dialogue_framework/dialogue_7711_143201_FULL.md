@@ -16,86 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.885
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about weakness, appetite, hydration, sleep, and possible contributing factors, while the patient responds in a manner consistent with an elderly individual experiencing deconditioning and poor intake. The doctor summarizes findings and provides a reasonable explanation without introducing unsupported diagnoses or interventions. There are no obvious hallucinations or contradictions.
+- **Score**: 0.885
+- **Justification**: Combined score 0.89 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.75 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.750 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For improvement, the patient could mention any specific difficulties with daily activities or concerns about safety (e.g., falls), which are common in this context.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor's questioning is thorough and empathetic. For improvement, the doctor could briefly acknowledge the patient's complex medical history (e.g., cancer, recent complications) to further ground the conversation in the profile, and gently probe for symptoms related to those conditions if appropriate.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, moving from general symptoms to more specific questions and then to summary and education. For improvement, a closing statement about next steps or follow-up could enhance realism.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns detected. The explanation of 'deconditioning' is clear and appropriate for the patient's level of understanding. If this were a real case, explicit guidance on when to seek urgent care (e.g., if symptoms worsen) would be advisable.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's nice to see you today. Can you tell me what’s been bothering you most lately and how it's impacting your daily routine?
+**Doctor**: It's good to see you today. How have you been feeling lately, and is there anything new or different you've noticed with your energy or appetite?
 
-**Patient**: I've been feeling pretty weak lately, and it's made it harder for me to do things around the house. I just don't have the energy I used to.
+**Patient**: Lately, I've just been feeling really weak and tired. My appetite isn't great either—I haven't been eating much.
 
-**Doctor**: Let me ask about your appetite—have you noticed any changes in how much you're eating or drinking lately? Sometimes low energy can be related to not getting enough nutrition.
+**Doctor**: Let me ask about how long this weakness and low appetite have been going on. Has it been getting better, worse, or staying about the same over the past few days?
 
-**Patient**: Yes, I've noticed I'm not eating as much as I used to. My appetite just isn't there, and I don't seem to want food most of the time.
+**Patient**: I'm not exactly sure how long it's been, but the weakness and trouble eating have been sticking around. I don't think it's really gotten better lately.
 
-**Doctor**: Let me ask about your strength—have you had any trouble walking, standing up from a chair, or doing tasks that used to be easy for you? This can help us understand how much your weakness is affecting your mobility.
+**Doctor**: Let me ask about other symptoms—have you noticed any nausea, vomiting, or changes in your bowel movements recently?
 
-**Patient**: Yes, I've definitely had more trouble getting up from my chair and walking around the house. Even simple tasks seem to wear me out much faster than before.
+**Patient**: I haven't had any nausea or vomiting. I just feel really weak and haven't been eating well.
 
-**Doctor**: Got it. Can you tell me how long you’ve been feeling this way? Did the weakness and low appetite start suddenly, or has it come on gradually over time?
+**Doctor**: Got it. One more question—are you able to get around your home as usual, or has this weakness made it harder to do your normal daily activities?
 
-**Patient**: I'm not sure exactly, but I think it's been coming on gradually over the past several days. The weakness and poor appetite just seemed to get worse little by little.
+**Patient**: It's definitely harder to do things around the house now. The weakness really makes it tough to keep up with my normal routine.
 
-**Doctor**: Let me ask about your fluids—are you still drinking enough water or other beverages, or has that also decreased along with your appetite? Hydration can play a big role in how you feel day to day.
+**Doctor**: Let me ask about your fluid intake—have you been drinking enough water or other fluids, or do you find it hard to stay hydrated as well?
 
-**Patient**: I think my drinking has gone down along with my eating. I just don’t feel thirsty very often, so I probably haven’t been getting enough fluids either.
+**Patient**: I find it hard to keep up with drinking enough fluids, just like with eating. My intake has been pretty low lately.
 
-**Doctor**: Let me ask about your sleep—are you resting well at night, or have you noticed changes in your sleep patterns lately? Sometimes poor sleep can contribute to feeling run down and low on energy.
+**Doctor**: Let me ask about your mobility—have you had any recent falls or trouble with balance since this started?
 
-**Patient**: I haven't really noticed any big changes with my sleep. I seem to be resting about the same as usual at night.
+**Patient**: I haven't had any falls, but the weakness has made moving around a lot harder. Balance is more of a challenge than it used to be.
 
-**Doctor**: Alright. Can you tell me if you've had any recent illnesses, changes in your medications, or stressful events that might have contributed to this gradual loss of strength and appetite? Sometimes these factors can play a role.
+**Doctor**: Alright. Can you give me an idea of how much you’re eating and drinking in a typical day now compared to before—are you able to finish small meals or snacks, or is it difficult to eat even a little?
 
-**Patient**: No, I haven't had any recent illnesses or changes in my medications. I can't think of any stressful events that might have caused this, either.
+**Patient**: These days, it's difficult to eat even small amounts. I can barely finish a snack, and drinking is just as hard—definitely much less than I used to.
 
-**Doctor**: Let me ask about your muscles—have you noticed any feelings of soreness, cramping, or pain in your arms or legs, or is it more just a general sense of tiredness? This can help clarify whether the weakness is related to your muscles themselves or more overall fatigue.
+**Doctor**: Got it. How much is this change in your eating and drinking affecting your ability to take care of yourself or manage daily tasks, like getting dressed or bathing?
 
-**Patient**: No, I haven't had any pain, soreness, or cramping in my arms or legs. It's more just a general tiredness and weakness all over.
+**Patient**: It's made daily tasks much harder. Getting dressed or bathing takes a lot more effort now, and sometimes I need help with those things.
 
-**Doctor**: Based on what we've discussed, it sounds like your weakness and lower energy have been gradually getting worse over the past several days, along with a decrease in both eating and drinking. When older adults experience reduced appetite and fluid intake, it can sometimes lead to feeling run down and weak, especially if there hasn't been any recent illness or medication change.
+**Doctor**: Based on what we've discussed, it sounds like your weakness and reduced intake are really affecting your ability to manage daily tasks, and this has been going on for a while without much improvement. When older adults have trouble eating and drinking, it can lead to dehydration and further loss of strength, which makes it even harder to recover and stay independent.
 
-Often, this kind of generalized tiredness is related to what's called "deconditioning," which means the body loses strength and stamina when it's not getting enough nutrition or activity. It's common for this to happen slowly, especially if you haven't felt up to moving around as much.
+Often, this kind of decline can be related to a combination of factors—sometimes it's related to underlying medical conditions, medication side effects, or simply not getting enough nutrition or fluids. It's important to address this early to prevent further decline.
 
-Let me ask—over the past few days, would you say your symptoms are staying about the same, getting better, or continuing to get worse? This helps me understand how urgent the situation might be and what steps to consider next.
+A few things you can do at home include trying small, frequent sips of water or clear fluids throughout the day, and choosing high-calorie snacks that are easy to eat, like yogurt or pudding. If you have any meal replacement drinks, those can help too. However, since this is now impacting your ability to care for yourself, I recommend letting your care team know promptly—they may want to check for reversible causes and consider if any additional support at home is needed.
 
-**Patient**: I think my symptoms have been about the same these last few days, not really better or worse. Thank you for explaining deconditioning—I hadn’t heard that term before. Is there anything I should try to help improve my strength?
+If you notice new symptoms like confusion, dizziness when standing, chest pain, or shortness of breath, those would be reasons to seek more urgent help. Do you have any questions about what we've discussed or anything else you'd like to share?
+
+**Patient**: Thank you for explaining everything. I do have pancreatic periampullary carcinoma and some other complications, so I know that could be making things worse. Is there anything specific I should watch out for with my condition, or anything else I can do at home to help with the weakness?
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 698
+- **Word Count**: 695
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is an 85-year-old woman presenting with painless jaundice, dark urine, pruritus, constipation, decreased appetite, early satiety, and a 10-pound weight loss. These symptoms led to the discovery of an ampullary mass during ERCP with biopsy. Her past medical history includes two breast lumps, varicose veins, and prior tonsillectomy and adenoidectomy; she has no known drug allergies and takes only a multivitamin and Tums. On admission, she underwent a pylorus-preserving pancreaticoduodenectomy (Whipple procedure) and open cholecystectomy. Postoperatively, she developed slow oozing requiring multiple blood transfusions, a falling hematocrit, and abdominal tenderness, prompting a return to the operating room where hemoperitoneum was found but no active bleeding source was identified. All surgical anastomoses were intact. She was managed postoperatively in the ICU, remained intubated, and was treated with Levofloxacin and Flagyl for suspected aspiration pneumonia. The documented diagnosis was ampullary mass with postoperative hemoperitoneum and suspected aspiration pneumonia.
-
-## Dialogue Summary
-
-The patient presented with weakness and low energy impacting daily activities. Symptoms included gradually worsening generalized tiredness and difficulty with mobility (getting up from a chair, walking, and performing simple tasks), decreased appetite, and reduced fluid intake over the past several days; no muscle pain, soreness, or cramping were reported, and sleep patterns remained unchanged. The patient denied any recent illnesses, medication changes, or stressful events. On examination, the doctor noted the absence of focal muscle symptoms and confirmed the gradual onset of weakness and poor intake. The doctor assessed that the symptoms were consistent with deconditioning due to reduced nutrition and activity, rather than an acute illness or medication effect. The patient reported that symptoms had remained stable over the last few days. The doctor explained the concept of deconditioning and discussed its common occurrence in older adults with decreased appetite and fluid intake, recommending attention to nutrition and activity to help improve strength.
-
-## STS Evaluation
-
-- **STS Score**: 0.929
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 58.3s
+- **Processing Time**: 93.3s

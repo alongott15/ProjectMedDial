@@ -10,89 +10,89 @@
 
 ## Generation Attempts
 
-- **Total Attempts**: 2
-- **Best Attempt**: 2
+- **Total Attempts**: 1
+- **Best Attempt**: 1
 
 ### Attempt 1
-- Success: False
-- Decision: N/A
-- Score: 0.000
-
-### Attempt 2
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.950
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is consistent with the patient's profile and the case type. The doctor asks logical, stepwise questions about the pain, location, associated symptoms, possible trauma, impact on function, and home management. The patient responses are plausible and relevant. The doctor's summary and explanation are appropriate for a mild case of cellulitis/hematoma, and no unsupported diagnoses or treatments are introduced. The conversation is clear, avoids role confusion, and maintains a realistic tone.
+- **Score**: 0.950
+- **Justification**: Combined score 0.95 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.83 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.833 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, the patient could mention any other symptoms (e.g., fever, chills) if present or explicitly deny them.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor is thorough and clear. To further improve, the doctor could ask about systemic symptoms (fever, chills) or anticoagulant use given the patient's cardiac history, but this is not strictly necessary for a light case.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural. The transition from symptom inquiry to explanation is smooth. Consider adding a closing statement or plan for next steps to round out the encounter.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns. The explanation is appropriate for the case type and avoids unsupported content.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Let me ask about the pain in your left leg—does it feel constant, or does it come and go throughout the day?
+**Doctor**: Let me ask about your current symptoms—how would you describe the pain in your left leg right now? For example, is it sharp, dull, throbbing, or something else?
 
-**Patient**: The pain in my left leg is pretty much always there, it doesn't really let up much during the day. It’s worse when I try to move around.
+**Patient**: The pain is mostly in my left lower leg, right where the bruise is. It feels pretty sore and throbbing, and it gets worse when I try to move around.
 
-**Doctor**: Let me ask about the area that's bothering you—can you point to exactly where the pain is located? Is it mostly around the spot where you noticed the bruising, or does it spread to other parts of your leg?
+**Doctor**: Let me ask about when you first noticed the pain and the bruise—did something happen, like a bump or fall, that might have caused this?
 
-**Patient**: The pain is mainly right where the big bruise is on my left shin. It doesn’t really spread much beyond that area.
+**Patient**: I got the bruise on my left shin after I bumped it with my suitcase. The pain and swelling showed up not long after that.
 
-**Doctor**: Alright. Have you noticed any swelling, warmth, or redness around the bruise, or is it mainly just the discoloration and discomfort?
+**Doctor**: Got it. Since the swelling and discomfort came on after bumping your shin, have you noticed any redness, warmth, or streaks spreading from the area? These can sometimes suggest irritation or infection, so it's helpful to know.
 
-**Patient**: Yes, there’s swelling and redness around the bruise, and the area feels a bit warm to the touch. The skin looks pretty red and puffy where the hematoma is.
+**Patient**: Yes, there’s definitely some redness around the area, and it feels warm to the touch. I haven’t noticed any streaks spreading out from it, though.
 
-**Doctor**: Got it. One more question—have you had any recent injuries or bumps to your left shin that might have caused the bruise and swelling, or did it seem to appear on its own?
+**Doctor**: Alright. Have you had any trouble moving your foot or toes, or any numbness or tingling in your lower leg since this happened? This helps us check for any effect on nerves or circulation.
 
-**Patient**: I don’t remember hitting it or injuring my shin. The bruise and swelling just sort of showed up without any clear reason.
+**Patient**: I haven't had any numbness or tingling, and I can move my foot and toes, but it does hurt a lot when I try. The pain has made it hard for me to get around.
 
-**Doctor**: Let me ask about your daily routine—has this pain and swelling made it difficult for you to walk or do regular activities around the house?
+**Doctor**: Let me ask about the swelling—has it changed in size since you first noticed it, or does it feel like it's getting worse over time? This can help us gauge how your body is responding to the injury.
 
-**Patient**: Yes, it’s made it hard for me to get around the house. Walking is pretty tough because of the pain and swelling in my leg.
+**Patient**: The swelling has gotten worse since it first happened, and now there’s some pitting when I press on it. It feels more uncomfortable as time goes on.
 
-**Doctor**: Let me ask about what you’ve tried so far—have you done anything at home, like using ice, elevating your leg, or taking any pain relievers? If so, did any of those seem to help with the discomfort or swelling?
+**Doctor**: Let me ask about what you've tried so far—have you used ice, compression, or kept your leg elevated? Do any of these seem to help with the swelling or discomfort?
 
-**Patient**: I've tried keeping my leg elevated and took some pain medication like Vicodin. Elevating it helps a little with the swelling, but the discomfort is still there. I haven’t used ice.
+**Patient**: I’ve tried keeping my leg elevated, but I haven’t used ice or compression. Elevating it helps a bit with the swelling, but the pain and redness are still there.
 
-**Doctor**: Based on what we've discussed, it sounds like you have a localized area of swelling, redness, and warmth in your left shin that started without a clear injury. The fact that it's making it difficult for you to walk and hasn't improved much with elevation and pain medication is important.
+**Doctor**: Alright. How severe would you say the pain is right now, on a scale from 1 to 10—with 10 being the worst pain you can imagine?
 
-What often happens with bruises or hematomas is that they result from minor trauma, but when there's no obvious injury and the area is red, swollen, and warm, we want to make sure there's not an infection developing under the skin—something called cellulitis. Another possibility is that blood pooled under the skin (hematoma) is causing inflammation.
+**Patient**: Right now, I’d rate the pain around a 7 out of 10. It’s pretty uncomfortable, especially when I try to move.
 
-Let me ask: On a scale of 1 to 10, how would you rate the discomfort in your leg right now? This helps gauge how much it's affecting you and guides what steps might be needed next.
+**Doctor**: Got it. Since the swelling has increased and you’re noticing pitting, have you had any fever or chills since the injury? This helps us check for signs your body might be reacting more strongly.
 
-**Patient**: Right now, I’d rate the discomfort at about a 7 out of 10. I appreciate you explaining what could be going on. Is there anything else I should be doing to help it heal?
+**Patient**: I haven’t had any fever or chills since this started. It’s mainly just the pain, swelling, and redness in my left leg.
+
+**Doctor**: Based on what we've discussed, it sounds like your injury led to a bruise and swelling that has gradually worsened, with redness and warmth developing around the area. The fact that elevating your leg helps somewhat suggests fluid buildup, and pitting edema means the swelling is more pronounced. The absence of fever or chills is reassuring against a deeper infection, but the increasing discomfort, warmth, and redness do raise concern for possible local irritation or infection.
+
+What often happens with this kind of injury is that blood can collect under the skin (a hematoma), and sometimes the surrounding tissue gets inflamed. If the area becomes more painful, red, or swollen over time, it can occasionally lead to a mild infection in the skin or underlying tissue.
+
+At this stage, keeping your leg elevated is helpful. You could also try applying ice in short intervals (15-20 minutes at a time) to reduce swelling. Watch for signs like spreading redness, streaks, fever, or worsening pain—these would warrant prompt medical attention. If the pain and swelling continue to worsen or you notice difficulty moving your foot, it's important to check in with your healthcare provider.
+
+Would you like advice on how to safely use ice or compression at home?
+
+**Patient**: Thanks for explaining all that. I’d appreciate some tips on how to use ice and compression safely, since I haven’t tried those yet.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 14
-- **Word Count**: 533
-- **Doctor Turns**: 7
-- **Patient Turns**: 7
-
-## EHR Summary
-
-The patient is a 69-year-old male presenting with left lower extremity cellulitis and hematoma. He developed a progressively enlarging hematoma on his left shin after bumping it with a suitcase six days prior to admission, followed by localized shin pain but no distal weakness, sensory deficits, fever, or chills. His past medical history includes congestive heart failure (CHF), atrial fibrillation on Coumadin, cardiomyopathy, coronary artery disease status post CABG, pulmonary hypertension, obstructive sleep apnea, and other cardiac interventions. On presentation, he was afebrile with stable vital signs. The clinical impression was left lower extremity cellulitis with associated hematoma in the setting of anticoagulation. He was started on intravenous Ancef after blood cultures were obtained. Prior to admission, he had been treated with oral Keflex and Vicodin for pain, and his Coumadin dose was recently decreased due to a supratherapeutic INR.
-
-## Dialogue Summary
-
-The patient presented with persistent pain in the left leg, primarily localized to the area of a large bruise on the left shin. The pain is constant throughout the day, worsens with movement, and is associated with swelling, redness, warmth, and difficulty walking; the discomfort was rated as 7 out of 10 in severity. The patient denied any known injury or trauma to the area and reported that the symptoms appeared without a clear cause. The patient has tried elevating the leg and taking Vicodin for pain, which provided minimal relief; ice has not been used. On examination, the doctor noted localized swelling, redness, and warmth over the hematoma. The doctor’s assessment included concern for possible cellulitis or inflammation from a hematoma, given the absence of trauma and presence of localized symptoms. The doctor explained these possibilities to the patient and emphasized monitoring for infection. No additional specific treatment recommendations were provided during this portion of the discussion.
-
-## STS Evaluation
-
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
+- **Turn Count**: 18
+- **Word Count**: 719
+- **Doctor Turns**: 9
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 60.3s
+- **Processing Time**: 104.6s

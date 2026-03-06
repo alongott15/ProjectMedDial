@@ -16,88 +16,89 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.900
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is consistent with the patient's profile, including age, symptoms (worsening depression, ataxia, decreased appetite, psychomotor slowing, short-term memory deficits), and relevant diagnoses. The doctor's questions are appropriate for a primary care setting and focus on mood, mobility, and daily functioning. There are no unsupported diagnoses, treatments, or tests introduced. The conversation is plausible and maintains a respectful, clear tone.
+- **Score**: 0.900
+- **Justification**: Combined score 0.90 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.80 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.800 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. To enhance realism, the patient could occasionally express uncertainty or provide more detail about daily challenges or emotional state.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor is thorough and empathetic. For further improvement, the doctor could briefly acknowledge the patient's known medical history (e.g., subdural hematoma) or ask about headache or memory issues, which are part of the profile.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and smooth, with appropriate follow-up questions. The summary and plan are well-articulated. Consider a slightly more conversational tone in places to enhance naturalness.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns detected. The doctor appropriately advises the patient to report new or worsening symptoms. Clarity is maintained throughout.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Good morning, it's nice to see you today. What’s been on your mind or bothering you most recently?
+**Doctor**: Hello, it's nice to see you today. How have you been feeling lately? Is there anything in particular that's been bothering you recently?
 
-**Patient**: I've been feeling more down lately, and it's getting harder to move around like I used to.
+**Patient**: Lately, I've been feeling more down than usual. My depression seems to be getting worse, and it's been weighing on me.
 
-**Doctor**: Let me ask about your mood—when did you first start noticing these changes, and have there been any specific events or triggers that seemed to bring them on?
+**Doctor**: Let me ask about your mood—are there certain times of day when you feel more down, or does it seem fairly constant throughout the day?
 
-**Patient**: I can't say for sure when it began, but it's been getting worse over the past few weeks. I don't remember anything specific that set it off.
+**Patient**: I think it's pretty constant throughout the day. I don't notice it getting better or worse at any particular time.
 
-**Doctor**: Let me ask about your mobility—have you noticed any unsteadiness, trouble keeping your balance, or falls recently?
+**Doctor**: Let me ask about your daily activities—has your mood made it harder to do things you usually enjoy or need to get done?
 
-**Patient**: Yes, I have noticed more unsteadiness lately, and I've had some trouble keeping my balance. I do have a history of falls, so that's been worrying me.
+**Patient**: It's definitely been harder to get things done lately. I find myself moving slower, and sometimes I forget what I was about to do.
 
-**Doctor**: Let me ask about your mood—have you been experiencing changes in your sleep, appetite, or interest in activities you usually enjoy?
+**Doctor**: Let me ask about your balance—have you noticed any trouble walking or feeling unsteady on your feet lately?
 
-**Patient**: Yes, my appetite has gone down, and I haven't felt much interest in things I usually like to do. My depression has definitely been worse lately.
+**Patient**: I have noticed more trouble with my balance lately. Walking feels unsteady, and I've had some issues with ataxia.
 
-**Doctor**: Alright. How much are these changes in your mood and movement affecting your ability to do things around the house or take care of yourself day-to-day?
+**Doctor**: Got it. Let me ask about your appetite—have you noticed any changes in how much you're eating or drinking lately? If so, when did that start?
 
-**Patient**: It's definitely made things tougher. I move more slowly now, and sometimes I forget what I was doing, so I need extra time to get through my chores.
+**Patient**: I've been eating less than usual lately. I'm not sure exactly when it started, but it's been going on for a while now.
 
-**Doctor**: Let me ask about your balance issues—have you had any new weakness, numbness, or vision changes along with the unsteadiness?
+**Doctor**: Alright. Has anything in particular seemed to trigger your mood changes or decreased appetite, or do they just come on their own?
 
-**Patient**: No, I haven't had any new weakness, numbness, or changes in my vision along with the unsteadiness.
+**Patient**: I don't think anything specific triggers it. My depression and decreased appetite just seem to have gotten worse over the past year or two, and I was told I have a large right subdural hematoma as well.
 
-**Doctor**: Got it. When you feel more unsteady or down, does anything in particular seem to bring it on, or does it happen randomly throughout the day?
+**Doctor**: Got it. Tell me more about your energy levels—have you been feeling unusually tired or weak along with these changes?
 
-**Patient**: It seems to happen randomly throughout the day. I haven't noticed anything specific that makes it worse.
+**Patient**: I've been feeling pretty tired and slowed down lately. My energy just isn't what it used to be, and I think the depression and ataxia are making things harder.
 
-**Doctor**: Let me ask about your motivation—are you still able to get out of bed and take care of your basic needs each day, or have you found yourself staying in bed or sitting for long periods more often?
+**Doctor**: Let me ask about your sleep—are you having trouble falling asleep or staying asleep, or do you wake up feeling unrested? Sleep changes can often affect mood and energy.
 
-**Patient**: Yes, I am still able to get out of bed and take care of my basic needs each day. I do move slower than I used to, but I try to keep up with things as best I can.
+**Patient**: I haven't noticed any big changes with my sleep. I do feel tired during the day, but I can't say I've had much trouble falling or staying asleep.
 
-**Doctor**: Based on what we've discussed, it sounds like your mood has been lower, your appetite and interest in activities have decreased, and you’re feeling more unsteady on your feet, which is making daily tasks more challenging. These changes can sometimes occur together, especially as mood symptoms like depression can affect energy, motivation, and even how steady we feel physically.
+**Doctor**: Based on what we've discussed, it sounds like your depression and decreased appetite have been gradually worsening, and this is making daily tasks and activities more challenging. The combination of mood changes, low energy, and balance issues can certainly impact your quality of life, especially given your medical history.
 
-Sometimes, when depression gets worse, it can slow down thinking and movement, making everything feel harder. It’s reassuring that you’re still managing your basic needs, but I do want to help you prevent falls and keep your spirits up.
+Often, depression in older adults can be linked to both physical and neurological factors—sometimes related to underlying conditions like your subdural hematoma, and sometimes to changes in routine or social support. Decreased appetite and fatigue can also be part of depression, but it's important to watch for signs that might suggest something more serious, such as rapid weight loss or significant difficulty with mobility.
 
-Moving forward, small steps like keeping a consistent routine, staying as physically active as you safely can, and reaching out to others for support can make a difference. If you ever notice new symptoms—like sudden weakness, confusion, or if you fall—please let someone know right away.
+Let me ask: How much are these symptoms affecting your ability to manage day-to-day things like preparing meals, bathing, or moving around your home?
 
-Would you be open to talking about strategies or supports that could help with your mood and mobility at home?
+**Patient**: I have noticed it's harder to do basic things around the house, like making meals and moving about. My decreased intake and psychomotor slowing really make daily tasks more challenging.
 
-**Patient**: That makes sense to me, thank you for explaining it. I’d be open to talking about strategies or supports—I do want to keep my mood up and stay safe at home. Sometimes my psychomotor slowing and decreased appetite make things harder, so any suggestions would be helpful.
+**Doctor**: Based on what you've told me, your mood and energy changes, along with decreased intake and balance issues, seem to be making everyday tasks more difficult. In older adults, depression can sometimes be linked to physical changes in the brain or other medical conditions, like your subdural hematoma. This can make symptoms like slowed movement and reduced appetite more pronounced.
+
+What often happens in situations like this is that mood symptoms can overlap with physical ones, making it harder to stay active and maintain nutrition. It's important to keep an eye on whether your symptoms are getting worse quickly, or if you're losing weight noticeably, as these could signal a need for closer follow-up.
+
+For now, focusing on small, manageable goals—like preparing simple meals or staying socially connected—can help. If you notice any sudden changes in your ability to walk, confusion, or severe weakness, those would be important to report right away.
+
+Would you like to discuss any strategies for making daily activities easier, or ways to support your mood and appetite?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 627
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 750
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is an 87-year-old female presenting with worsening depression and ataxia. She reported progressive depressive symptoms, decreased oral intake, and psychomotor slowing over the past one to two years. Her past medical history includes hypertension, depression, irritable bowel syndrome, dizziness, hearing loss, history of falls, glaucoma, and Bell's palsy. On admission, she was alert and oriented with short-term memory deficits but no chest pain or dyspnea; vital signs were stable and lung sounds were clear. Imaging revealed a 2 x 3 cm right subdural hematoma with mild mass effect and no midline shift. The documented diagnosis was chronic right subdural hematoma. She underwent a bedside burr hole procedure for hematoma drainage without complications. Post-procedure, she remained alert and oriented, with headache as the primary complaint.
-
-## Dialogue Summary
-
-The patient presented with worsening low mood and increased difficulty with mobility. Symptoms included feeling more down over the past few weeks, decreased appetite, reduced interest in usual activities, increased unsteadiness, trouble keeping balance, a history of falls, psychomotor slowing, and occasional forgetfulness during chores. No new weakness, numbness, or vision changes were reported, and symptoms occurred randomly throughout the day without clear triggers. The patient remains able to get out of bed and manage basic daily needs but moves more slowly and finds daily tasks more challenging. Relevant history includes prior falls and depression. On assessment, the doctor noted that worsening depression may be contributing to slowed movement and increased physical unsteadiness. The doctor recommended maintaining a consistent routine, staying as physically active as safely possible, seeking support from others, and monitoring for new symptoms such as sudden weakness or confusion; the patient was open to discussing further strategies for mood and mobility support at home.
-
-## STS Evaluation
-
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 55.8s
+- **Processing Time**: 92.1s

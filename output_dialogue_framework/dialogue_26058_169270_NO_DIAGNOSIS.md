@@ -16,88 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.855
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the patient's profile and symptoms. The doctor asks appropriate, focused questions about the nature, timing, and triggers of the throat pain, as well as associated symptoms like nausea and breathing changes. The reasoning about possible causes (heart, lungs, muscles/nerves) is appropriate given the patient's history of coronary artery disease and recent symptoms. The doctor avoids unsupported diagnoses or treatments and gives reasonable safety advice. There are no obvious hallucinations or contradictions.
+- **Score**: 0.855
+- **Justification**: Combined score 0.85 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.65 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.650 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and describes symptoms in a way that is consistent with the profile. For even greater realism, the patient could occasionally express uncertainty or ask clarifying questions.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. To further improve, the doctor could briefly acknowledge the patient's cardiac history earlier in the conversation to show awareness of risk factors.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with each question building on prior answers. The summary and plan are clear and collaborative.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is appropriate for a light case with concerning symptoms. The doctor clearly explains when to seek urgent care. No major clarity issues.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome in. How have you been feeling lately, and what brings you in today?
+**Doctor**: Welcome, it's good to see you today. What brings you in—can you tell me more about any symptoms or concerns you've been having lately?
 
-**Patient**: I've been having some throat pain, especially when I try to do things that take a bit more effort. That's mainly why I came in today.
+**Patient**: I've been having this pain in my throat, especially when I'm moving around or exerting myself. That's mainly what's been bothering me lately.
 
-**Doctor**: Let me ask about the location—do you feel the pain more in the front of your throat, or is it deeper, maybe more internal?
+**Doctor**: Let me ask about the location—can you point to exactly where you feel the pain in your throat? Is it more on the surface, deep inside, or off to one side?
 
-**Patient**: It's more of an internal pain, not really on the surface of my throat. It feels deeper, especially when I'm moving around or exerting myself.
+**Patient**: It's deeper inside my throat, not really on the surface. I can't say it's off to one side—it feels more in the middle.
 
-**Doctor**: Got it. When you feel this discomfort, does it ever come with other symptoms, like difficulty swallowing, changes in your voice, or any shortness of breath?
+**Doctor**: Let me ask about when you first noticed this throat pain. Has it been going on for a few days, weeks, or even longer?
 
-**Patient**: I haven't noticed any trouble swallowing or changes in my voice. Breathing does feel a bit off sometimes, though, like it's harder on my left side.
+**Patient**: I think it's been getting worse over the past few months. It's hard to remember exactly when it started, but it's definitely been a while.
 
-**Doctor**: Alright. When did you first start noticing these symptoms, and have they changed in intensity or frequency over time?
+**Doctor**: Got it. When you move around or exert yourself and notice this discomfort, do you also experience any trouble swallowing, changes in your voice, or coughing?
 
-**Patient**: I first noticed the symptoms a few months ago, and they've definitely gotten worse over time. I've also been feeling some nausea along with the throat pain.
+**Patient**: I haven't had any trouble swallowing or changes in my voice. I also haven't been coughing.
 
-**Doctor**: Let me ask about the nausea you mentioned—does it tend to come on at the same time as the throat discomfort, or does it happen separately? Also, have you noticed any triggers that seem to bring it on?
+**Doctor**: Alright. When you feel this pain, does it ever come with any shortness of breath, chest discomfort, or feeling lightheaded?
 
-**Patient**: The nausea usually comes on around the same time as the throat pain, especially if I'm doing something active. I haven't really noticed any specific triggers besides exertion.
+**Patient**: When the pain comes on, I also feel nauseous sometimes, and I've even thrown up a few times. I haven't really noticed chest discomfort, shortness of breath, or feeling lightheaded.
 
-**Doctor**: Got it. How would you rate the severity of the throat pain when it's at its worst, say on a scale from 1 to 10? And does resting help ease the symptoms at all?
+**Doctor**: Let me ask about how severe this gets—on a scale of 1 to 10, with 10 being the worst pain you can imagine, how would you rate the discomfort when it’s at its worst? And does anything seem to make it better or worse besides moving around?
 
-**Patient**: When it's at its worst, I'd rate the throat pain around a 7 out of 10. Resting does help ease the symptoms some. I've also had a few times where I ended up vomiting when it got pretty bad.
+**Patient**: At its worst, I'd rate the pain around a 7 out of 10. Moving around definitely makes it worse, but I haven't noticed anything else that really affects it—resting seems to help a bit.
 
-**Doctor**: Let me ask about your daily routine—has this discomfort affected your ability to do normal activities, like walking or chores around the house?
+**Doctor**: Got it. Since this discomfort has been building over a few months, have you noticed any weight loss, fevers, or night sweats during this time?
 
-**Patient**: Yes, it's made it harder to do things like walking or chores. I get the throat pain and sometimes feel nauseous if I try to push myself too much.
+**Patient**: I haven't had any weight loss, fevers, or night sweats.
 
-**Doctor**: I see. Besides exertion, have you noticed if eating or drinking certain things seems to affect your symptoms at all?
+**Doctor**: Okay. Since this has been going on for a while, have you noticed any lumps or swelling in your neck, or any difficulty turning your head?
 
-**Patient**: No, eating or drinking doesn't seem to make it better or worse. It's mostly just when I'm active that the symptoms show up.
+**Patient**: I haven't noticed any lumps or swelling in my neck, and I can turn my head without any trouble.
 
-**Doctor**: Based on what we've discussed, it sounds like your discomfort tends to show up with physical activity and has gradually become more noticeable over several months. When symptoms like these are triggered by exertion and relieved by rest, it often suggests that the issue could be related to how your body responds to increased demand—sometimes involving the heart, lungs, or even the muscles and nerves in the area.
+**Doctor**: From what you've told me, it sounds like your throat discomfort is deep and has gradually gotten worse over several months, especially when you're active. You haven’t had issues like swallowing problems, voice changes, or other concerning symptoms like weight loss or fevers, which is reassuring. The fact that resting helps and you don’t notice swelling or trouble moving your neck also points away from more serious causes.
 
-Since eating and drinking don't seem to affect things, and your main triggers are activity and exertion, I’m less concerned about digestive causes. The fact that you've had episodes of vomiting and some changes in breathing on one side are important details.
+Often, persistent throat pain that gets worse with exertion could be related to muscle strain in the throat or neck area, or sometimes irritation from acid reflux—especially if nausea and vomiting are present. When you’re active, increased pressure or movement can aggravate these issues.
 
-At this point, my main goal is to help you feel comfortable and rule out anything serious. For now, I recommend taking it easy with activities that bring on your symptoms. If you notice any new issues like chest pain, severe shortness of breath, or fainting, those would be warning signs to seek care right away.
+At this point, I’d recommend keeping track of when the pain flares up and if any foods or activities seem to trigger it. Staying well-hydrated and avoiding heavy meals before activity might help. If the pain worsens, you start having trouble swallowing, notice a lump, or develop new symptoms like fever or unexplained weight loss, those would be reasons to seek care promptly.
 
-Next, I’d suggest we consider a basic evaluation to look at your heart and lungs more closely. Sometimes, even mild symptoms can be a sign of something that needs attention. Does that sound reasonable to you?
+Let me know if you have questions about what we’ve discussed or if there’s anything else you’d like to share about your symptoms.
 
-**Patient**: That sounds reasonable to me. I appreciate you explaining it and I’d like to get things checked out, just to be safe. Should I avoid any activities until we know more?
+**Patient**: Thanks for explaining that. Since my symptoms have been getting worse over the past few months, should I expect this to keep progressing, or is it likely to stay the same if I follow your suggestions?
+
+**Doctor**: Based on what we've discussed, it sounds like your symptoms have been persistent but haven't led to any major complications so far. When throat discomfort lasts for several months and gradually worsens, it often points to a chronic irritation or strain—sometimes from muscle overuse, acid reflux, or even subtle inflammation that isn't causing more alarming signs.
+
+The fact that your pain gets worse with exertion and improves with rest suggests it may be related to how the muscles in your throat and neck are being used, or possibly irritation triggered by movement. Nausea and occasional vomiting could be linked to reflux or sensitivity in your upper digestive tract.
+
+At this stage, if you follow some self-care measures—such as staying hydrated, avoiding heavy meals before activity, and noticing if any foods or movements make things worse—there's a good chance your symptoms could stabilize or even improve. However, since things have been getting worse over months, it's important to keep monitoring for any new developments. If you notice new issues like difficulty swallowing, a lump in the neck, or worsening pain despite these measures, that would be a reason to have further evaluation.
+
+Let me know if you’d like to talk about specific strategies for relief or if you have other questions about what could be contributing to these symptoms.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 678
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 879
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 61-year-old male presenting with a chief complaint of chronic throat pain, especially with exertion, which had worsened over the past few months but was absent at rest. He denied symptoms at rest and reported no other acute complaints. His past medical history is significant for hypertension, and he was previously on isosorbide (discontinued due to nausea), metoprolol, Accupril, and aspirin; he has no known drug allergies. Stress echocardiogram showed ST depressions in inferior and lateral leads with pronounced anterior wall motion abnormality and an ejection fraction of 60%. Cardiac catheterization revealed a 30% left main lesion, 100% left anterior descending lesion, moderate ostial disease in diagonal 1, 100% circumflex lesion, and a 30% mid right coronary artery lesion. On physical exam, heart sounds were normal, lungs were clear, and distal pulses were present. The documented diagnosis was severe multivessel coronary artery disease. Treatment included coronary artery bypass grafting times three with vein grafts to the left anterior descending, diagonal, and obtuse marginal arteries.
-
-## Dialogue Summary
-
-The patient presented with throat pain, especially during physical exertion. The pain is described as internal and deep, worsens with activity, and is accompanied by occasional shortness of breath on the left side, nausea, and episodes of vomiting when severe; severity is rated 7/10 at worst and symptoms improve with rest. The patient reported no difficulty swallowing, voice changes, or symptom changes with eating or drinking, but noted that daily activities like walking and chores are affected. No relevant medical history, medications, or allergies were mentioned. On examination, no physical findings were described; all symptoms were self-reported. The doctor assessed that the exertion-triggered symptoms, gradual worsening over months, and relief with rest may suggest involvement of the heart, lungs, or neuromuscular system rather than digestive causes. The doctor advised the patient to limit activities that provoke symptoms and to seek immediate care for chest pain, severe shortness of breath, or fainting. A basic evaluation of heart and lung function was recommended to rule out serious conditions.
-
-## STS Evaluation
-
-- **STS Score**: 0.968
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 61.1s
+- **Processing Time**: 99.1s

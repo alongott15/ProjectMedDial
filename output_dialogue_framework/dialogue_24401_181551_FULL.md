@@ -16,92 +16,85 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.947
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about the patient's symptoms (blood pressure, nausea, vomiting, headache, vision changes), and the patient provides relevant, clear answers. The doctor's explanation and recommendations are grounded in the patient's history and current complaints, without introducing unsupported diagnoses or treatments. The conversation maintains a primary-care tone and does not escalate to ICU-level interventions. There are no obvious hallucinations or contradictions.
+- **Score**: 0.947
+- **Justification**: Combined score 0.95 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.82 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.824 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and follows up with an appropriate question about home monitoring. For even greater realism, the patient could mention any home blood pressure readings or describe the severity of symptoms in more detail.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and provides clear explanations. To further improve, the doctor could briefly review the patient's chronic conditions (e.g., diabetes, hernia) to show awareness of the full medical history, or ask about other symptoms such as shortness of breath given the patient's comorbidities.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The dialogue flows logically, with each question building on prior answers. The transition from symptom review to explanation and recommendations is smooth. For even more natural flow, the doctor could check for understanding or ask if the patient has additional concerns before concluding.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: The safety advice is appropriate and clear, with explicit warning signs for escalation. The recommendation to seek prompt medical attention is justified given the symptoms. No safety concerns.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Good to see you today. What’s been bothering you the most lately?
+**Doctor**: Let me ask about how you've been feeling overall—what's been bothering you the most lately?
 
-**Patient**: My blood pressure’s been really high, and that’s got me pretty worried.
+**Patient**: Lately, my blood pressure has been really high. That’s what’s worrying me the most right now.
 
-**Doctor**: Let me ask about your blood pressure—have you noticed any particular times when it gets especially high, or is it pretty consistent throughout the day?
+**Doctor**: Let me ask about other symptoms—have you noticed any nausea, headaches, chest pain, or changes in your vision along with the high readings?
 
-**Patient**: It's been pretty consistent, I think. I haven’t noticed a certain time when it gets worse.
+**Patient**: I've had some headaches, mostly in the front of my head. My vision hasn't been as good lately either. I've also felt a bit nauseous.
 
-**Doctor**: Let me ask about other symptoms—have you had any nausea or vomiting along with your high blood pressure?
+**Doctor**: Let me ask about the vomiting—when did that start, and how many times has it happened in the last 24 hours?
 
-**Patient**: Yes, I’ve had some nausea and I threw up a few times overnight—there was a yellowish color to it.
+**Patient**: The vomiting started overnight, and it happened three times in the last 24 hours. Each time, it was kind of a yellowish, bile-looking fluid—about 150 cc in total, I think.
 
-**Doctor**: Let me ask about how you're feeling right now—are you having any headache, chest pain, or trouble seeing?
+**Doctor**: Got it. Has your blood pressure ever been this high before, or is this the highest you've seen it?
 
-**Patient**: I've had a pretty strong headache in the front of my head, and my vision seems a bit worse than usual. No chest pain though.
+**Patient**: This is definitely the highest my blood pressure has ever been. I’ve never seen numbers like this before.
 
-**Doctor**: Alright. When did these symptoms first begin—was it just overnight, or have you been feeling this way for longer?
+**Doctor**: Let me ask about your usual routine—have these symptoms made it difficult to do your normal activities, like walking around, eating, or taking your medications?
 
-**Patient**: These symptoms mostly started overnight, but my blood pressure has been high for a while now. The vomiting and headache just came on recently.
+**Patient**: It's been tough to keep up with things. Walking around is harder because I get short of breath, and eating hasn't been easy with the nausea and vomiting. I have managed to take my medications, though.
 
-**Doctor**: Let me ask about your vomiting—after those episodes overnight, has your nausea or vomiting continued today, or has it settled down?
+**Doctor**: Alright, have you noticed any swelling in your legs or feet, or any sudden weight gain over the past few days?
 
-**Patient**: The vomiting has stopped for now, but I still feel a little bit nauseous today.
+**Patient**: I haven't noticed any swelling in my legs or feet, and I don't think I've gained any weight recently.
 
-**Doctor**: Got it. Since your blood pressure has been high for a while, have you made any recent changes to your medications, diet, or daily routine that might have affected it?
+**Doctor**: Got it. Can you tell if your symptoms—like the headaches or vomiting—are getting better, staying the same, or getting worse since they started?
 
-**Patient**: No, I haven’t changed anything with my medications or routine lately. My diet’s been about the same, too.
+**Patient**: The headaches and vomiting have pretty much stayed the same since they started. I haven't noticed much improvement or any major changes.
 
-**Doctor**: Alright. When you check your blood pressure, does anything seem to bring it down, or does it stay high no matter what you do?
+**Doctor**: Let me ask about your blood pressure readings—have you measured them at different times of day, and are they consistently high, or do they fluctuate?
 
-**Patient**: Nothing I do seems to bring it down—it just stays high no matter what.
+**Patient**: My blood pressure has been high every time I’ve checked, no matter what time of day. The numbers have stayed up in the 220s over 110s.
 
-**Doctor**: Based on what we've discussed, your consistently high blood pressure combined with new symptoms like headache, nausea, and changes in vision suggest that your body may be struggling to cope with the elevated readings. Sometimes, when blood pressure gets very high, it can cause symptoms like headache and visual changes, and even lead to vomiting. These are signs that your blood pressure might be reaching levels that could affect organs such as the brain or eyes.
+**Doctor**: Based on what we've discussed, your blood pressure readings are in a very high range, and you're experiencing symptoms like persistent headache, nausea, and vomiting. These can sometimes be signs that high blood pressure is affecting your body more seriously, especially since the numbers are much higher than your usual. Vomiting yellowish fluid (bile) also suggests your stomach is quite irritated.
 
-What often happens in these situations is that the body tries to warn us with these symptoms before more serious problems develop. Since your usual routines and medications haven't changed, it's less likely that this is due to something you've done differently.
+This combination of symptoms and blood pressure readings is concerning because it may indicate what's called a "hypertensive urgency" or even "hypertensive emergency," where blood pressure is dangerously high and causing symptoms. It's important to address this promptly to prevent complications.
 
-Given your persistent high blood pressure and these new symptoms, it's important to address this promptly. While mild headaches or nausea can sometimes occur with high blood pressure, the combination of strong headache, vision changes, and vomiting overnight means this is more than just a routine fluctuation.
+Given the persistently high numbers and the fact that you're having trouble with daily activities, I strongly recommend you seek urgent medical attention today—either by contacting your primary care provider right away or going to the nearest emergency department. They can monitor you closely and adjust your treatment safely. While mild headaches or nausea can sometimes happen with blood pressure changes, the severity and persistence here mean you need more immediate evaluation.
 
-My recommendation is that you seek medical attention soon—either by contacting your regular provider today or going to an urgent care or emergency department if your symptoms worsen or you feel unwell. In the meantime, try to rest, avoid any strenuous activity, and continue taking your blood pressure medication as prescribed.
+If you develop chest pain, shortness of breath that gets worse, weakness, confusion, or vision loss, call emergency services immediately. 
 
-If you notice confusion, weakness on one side, difficulty speaking, or chest pain, those are warning signs that need immediate medical attention.
+Would you like guidance on how to proceed right now, or do you have someone who can help get you to care?
 
-Let me know if you have any questions or if there's anything else you'd like to discuss about your symptoms.
-
-**Patient**: Thanks for explaining all that. I understand why you’re concerned, especially with the headache and vomiting I had overnight. I’ll make sure to get checked out soon—should I keep monitoring my blood pressure at home until then?
+**Patient**: Thank you for explaining everything so clearly. I understand how important it is to get this checked out right away. I do have someone who can help me get to the emergency department if needed. My headache and nausea have been pretty tough, so I appreciate your advice.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 629
+- **Word Count**: 652
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 70-year-old male presenting with hypertensive emergency following esophageal stent placement. He experienced severe hypertension (blood pressures in the 220s/110s), 150 cc bilious emesis, umbilical pain, and a frontal headache post-procedure; overnight, he had mild umbilical cramping pain with nausea and three episodes of vomiting, but no gastrointestinal bleeding. His past medical history includes distal esophageal stricture, colon cancer status post hemicolectomy, coronary artery disease with prior MI and stent, hypertension, ventral hernia, cerebrovascular accident, peripheral vascular disease, COPD, and peptic ulcer disease; he is allergic to penicillins. On exam, he was alert and oriented, breathing rapidly and deeply, with blood pressure 150/70 mmHg and minimal umbilical tenderness. The documented diagnosis was hypertensive emergency. Treatment included intravenous lopressor (2.5 mg) and hydralazine (total 20 mg IV) for blood pressure control. He was admitted for further evaluation and management of his symptoms.
-
-## Dialogue Summary
-
-The patient presented with concerns about consistently high blood pressure. They reported persistent elevated readings, a strong frontal headache, nausea, and several episodes of yellowish vomiting overnight, as well as worsened vision; vomiting had stopped by the time of the visit but mild nausea persisted. No chest pain was noted, and symptoms of headache, vomiting, and vision changes began overnight, while high blood pressure had been ongoing for a longer period. The patient denied any recent changes in medications, diet, or daily routine, and stated that nothing seemed to lower their blood pressure. The doctor noted the combination of high blood pressure with new onset headache, nausea, vomiting, and visual changes, and explained these may indicate the blood pressure is affecting organs such as the brain or eyes. The assessment was that these symptoms are concerning for possible end-organ effects from uncontrolled hypertension. The doctor recommended prompt medical attention—contacting the regular provider or seeking urgent/emergency care if symptoms worsen—and advised the patient to rest, avoid strenuous activity, continue prescribed medication, and monitor for warning signs such as confusion, weakness, speech difficulty, or chest pain.
-
-## STS Evaluation
-
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 56.7s
+- **Processing Time**: 82.8s

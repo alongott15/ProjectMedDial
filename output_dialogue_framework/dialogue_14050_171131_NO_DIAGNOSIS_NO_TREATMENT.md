@@ -10,72 +10,99 @@
 
 ## Generation Attempts
 
-- **Total Attempts**: 3
-- **Best Attempt**: 3
+- **Total Attempts**: 1
+- **Best Attempt**: 1
 
 ### Attempt 1
-- Success: False
-- Decision: N/A
-- Score: 0.000
-
-### Attempt 2
-- Success: False
-- Decision: N/A
-- Score: 0.000
-
-### Attempt 3
 - Success: True
 - Decision: REALISTIC
-- Score: 0.900
+- Score: 0.907
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.900
-- **Justification**: The dialogue is realistic and plausible for a primary-care or ED setting given the patient's symptoms and history. The doctor asks appropriate, focused questions about the onset and characteristics of hematemesis and melena, as well as associated symptoms like lightheadedness. The patient provides clear, relevant answers. There are no hallucinations or unsupported content. The simulation ends prematurely due to a technical issue, not a content problem.
+- **Score**: 0.907
+- **Justification**: Combined score 0.91 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.82 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.824 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Continue to provide clear, relevant answers to the doctor's questions. If unsure about timing or details, it's appropriate to say so, as was done here.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: The doctor's questions are appropriate and focused. Consider also asking about abdominal pain, medication use (e.g., NSAIDs, anticoagulants), and prior history of GI bleeding if the conversation continued.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is natural and logical. The simulation ended abruptly; ensure the patient agent is able to respond to all prompts to allow for a more complete exchange.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns in the content provided. The questions are clinically relevant and phrased clearly.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's nice to see you today. What brings you in—how have you been feeling lately?
+**Doctor**: Hello, it's nice to meet you today. What brings you in—can you describe what symptoms you've been experiencing lately?
 
-**Patient**: I came in because I was throwing up blood and noticed my stools were really dark, almost black. That had me pretty concerned.
+**Patient**: I came in because I was throwing up blood. It was pretty alarming, and that's what made me decide to get checked out.
 
-**Doctor**: Let me ask about the timing—when did you first notice the vomiting and dark stools?
+**Doctor**: Let me ask about some details to help me understand what's going on. When did you first notice this happening, and has it happened more than once?
 
-**Patient**: I'm not exactly sure, but I think the vomiting and dark stools started just a couple of days ago. It all happened pretty close together.
+**Patient**: I’m not sure exactly when it started, but I noticed the blood in my vomit a couple of times recently. I also saw that my stools were really dark, almost black.
 
-**Doctor**: Let me ask about the vomiting—was there a large amount of blood, or just streaks or specks? And have you felt lightheaded or faint at any point?
+**Doctor**: Let me ask about how this has impacted your daily routine. Are you feeling weaker or more tired than usual, or have you noticed any changes in your appetite or energy?
+
+**Patient**: I’ve felt pretty weak lately, and there was one time in the emergency room where I got really lightheaded. I haven’t noticed much change in my appetite, but I do feel more tired than usual.
+
+**Doctor**: Let me ask about any pain or discomfort—have you experienced any stomach pain or tenderness, or do you feel any burning sensation in your abdomen?
+
+**Patient**: I have felt some tenderness in my right upper abdomen. There hasn’t really been a burning feeling, just that soreness.
+
+**Doctor**: Alright. When you saw blood in your vomit, was it a small amount or quite a lot? And have you noticed if this happens after eating or at any particular time of day?
+
+**Patient**: The amount of blood was pretty noticeable, not just a little. I can’t say for sure if it happens after eating or at a certain time—I haven’t really kept track of that.
+
+**Doctor**: Let me ask about your day-to-day activities—has the weakness or tiredness made it difficult for you to do things like walking around the house, getting dressed, or preparing meals?
+
+**Patient**: Yes, it’s been harder to get around the house lately. Even simple things like getting dressed or walking have been more difficult because of the weakness and tiredness.
+
+**Doctor**: Let me ask about other symptoms—have you had any fevers, chills, or noticed yellowing of your skin or eyes recently?
+
+**Patient**: I haven’t had any fevers or chills, and I haven’t noticed any yellowing of my skin or eyes. The main things have been the weakness, the blood in my vomit, dark stools, and that soreness in my right upper abdomen.
+
+**Doctor**: Let me ask about your stools—when did you first notice they were dark or black, and is this still happening now?
+
+**Patient**: I first noticed my stools were dark a few days ago, and it’s still happening now. It’s been pretty consistent since it started.
+
+**Doctor**: Based on what we've discussed, your symptoms of vomiting blood and having very dark stools suggest there may be bleeding somewhere in your upper digestive tract, such as the stomach or esophagus. The soreness in your right upper abdomen is also important, and together these findings raise concern for conditions like a stomach ulcer, gastritis, or possibly issues related to the liver or gallbladder.
+
+When blood mixes with stomach acid and passes through the intestines, it often turns stools black, which is what you've described. Vomiting blood is called hematemesis, and it's always something we take seriously, especially given your age and the impact on your daily activities.
+
+For now, it's important to avoid medications like aspirin or ibuprofen, which can worsen bleeding. Stay hydrated and try to rest. You should seek prompt medical attention—ideally today—because ongoing bleeding can lead to weakness and low blood counts, and sometimes needs urgent treatment.
+
+In summary, my assessment is that you likely have upper gastrointestinal bleeding. This needs further evaluation with tests such as blood work and possibly an endoscopy (a camera test of your stomach). Please arrange to be seen urgently, as this is not something to wait on.
+
+If you feel faint, notice more blood in vomit or stool, or have severe abdominal pain, call emergency services right away.
+
+**Patient**: Thank you for explaining all of that. If I need to have an endoscopy, what should I expect during that procedure?
+
+**Doctor**: From what you've told me, the combination of vomiting blood and having consistently black stools points toward bleeding in your upper digestive tract. This can sometimes get worse over time, so it's important to monitor whether the amount of blood or weakness is increasing. Since you've mentioned feeling weaker and having trouble with daily activities, this suggests the bleeding may be ongoing.
+
+Let me share my thoughts: conditions like stomach ulcers, gastritis, or even issues with the liver or gallbladder can cause these symptoms. An endoscopy is a procedure where a thin, flexible tube with a camera is passed through your mouth into your stomach. This lets doctors see where the bleeding is coming from and sometimes treat it directly. The procedure is usually done under mild sedation, so you’re comfortable and may not remember much of it.
+
+My recommendation is to seek urgent medical care today. This is not something to wait on, as ongoing blood loss can make you weaker and lead to complications. If your symptoms worsen—more blood, severe weakness, or severe pain—call emergency services immediately. Avoid medications that can irritate your stomach, such as aspirin or ibuprofen, until you are evaluated.
+
+If you have any questions about the procedure or next steps, let me know—I’m here to help clarify things for you.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 5
-- **Word Count**: 124
-- **Doctor Turns**: 3
-- **Patient Turns**: 2
-
-## EHR Summary
-
-The patient is an 83-year-old female presenting with hematemesis and melanotic stools. She experienced two episodes of hematemesis and multiple episodes of melena, with one episode of hypotension in the Emergency Department. Her past medical history includes cerebrovascular accident, congestive heart failure, hypertension, and a prior seizure disorder; she was treated for a congestive heart failure flare one month ago. On examination, she was hemodynamically stable after fluid resuscitation, with right upper quadrant abdominal tenderness and 1+ bilateral lower extremity edema; neurologically, she had some right facial weakness. Laboratory results showed a hematocrit of 31.6 and an INR of 4.2. The clinical impression was upper gastrointestinal bleeding. Treatment included intravenous fluids, nasogastric lavage (grossly bloody), administration of vitamin K, and transfusion of two units of fresh frozen plasma. The patient was designated as Do-Not-Resuscitate and Do-Not-Intubate, and did not report shortness of breath or chest pain.
-
-## Dialogue Summary
-
-The patient presented with vomiting blood and noticing very dark, almost black stools. The symptoms began a couple of days ago and occurred close together in time. The patient described concern about the appearance of the stools and the presence of blood in vomit. No additional symptoms, severity details, or triggers were specified. There was no relevant medical history, medications, or allergies mentioned. The doctor inquired about the amount of blood in the vomit and asked if the patient had experienced lightheadedness or fainting, but no answers were provided. No physical findings, assessment, or treatment plan were discussed during the conversation.
-
-## STS Evaluation
-
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **Turn Count**: 19
+- **Word Count**: 916
+- **Doctor Turns**: 10
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 40.4s
+- **Processing Time**: 77.6s

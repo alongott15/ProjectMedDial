@@ -16,88 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.810
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, logical questions about the chest pain, calf pain, and associated symptoms, and provides a cautious, reasonable explanation without overstepping into unsupported diagnoses or interventions. The patient responses are coherent and match the symptoms listed in the profile. There are no obvious hallucinations or unsupported content.
+- **Score**: 0.810
+- **Justification**: Combined score 0.81 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.50 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.500 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, the patient could offer more detail about the onset or character of confusion and memory loss if prompted.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. For improvement, the doctor could briefly acknowledge the patient's history of heart disease (e.g., 'Given your history of heart issues...') to further ground the conversation in the profile.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with appropriate follow-up questions and explanations. The transition from symptom inquiry to explanation and safety advice is smooth.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety is appropriately addressed with clear instructions on when to seek immediate help. The explanation is clear and avoids unnecessary alarm or unsupported conclusions.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brings you in—how have you been feeling lately?
+**Doctor**: Good to see you again. How have you been feeling lately? Is there anything new or any concerns you’d like to discuss today?
 
-**Patient**: My chest has been hurting lately, and it's making me a bit anxious. That's mainly why I came in today.
+**Patient**: Lately, I’ve been having some chest pain. It’s been making me pretty anxious, and I wanted to get it checked out.
 
-**Doctor**: Let me ask about the discomfort—can you point to exactly where you feel the pain in your chest?
+**Doctor**: Let me ask about the chest pain—does anything in particular seem to bring it on, like physical activity, stress, or certain foods?
 
-**Patient**: It's mostly in the center of my chest, just behind my breastbone. I can point to it right here.
+**Patient**: I don’t think anything specific brings it on. It just sort of happens, even when I’m not doing much. I haven’t noticed it being tied to food or stress.
 
-**Doctor**: Let me ask about when you first noticed this pain—how long has it been going on?
+**Doctor**: Let me ask about any other symptoms—have you noticed any confusion or problems with your short-term memory when the pain occurs, or at other times?
 
-**Patient**: I'm not exactly sure, but I think it's been a few days now. It hasn't really gone away.
+**Patient**: I have noticed some confusion and trouble with short-term memory lately, not just when the chest pain happens. It’s been a bit worrying for me.
 
-**Doctor**: Got it. Can you tell me if the pain gets worse with certain activities, like walking or taking deep breaths, or does it stay about the same no matter what you’re doing?
+**Doctor**: Got it. How much are the confusion and memory issues affecting your daily life—are you forgetting important things, or is it more minor, like misplacing items or losing your train of thought?
 
-**Patient**: The pain seems to stay about the same, no matter what I’m doing. I haven’t noticed it getting worse with walking or breathing deeply.
+**Patient**: I tend to misplace things and sometimes lose my train of thought, but I haven’t forgotten anything really important so far. It’s more minor, but it’s definitely noticeable.
 
-**Doctor**: Let me ask about other symptoms—have you noticed any shortness of breath, sweating, or feeling lightheaded along with this discomfort?
+**Doctor**: Let me ask about your memory changes—when did you first start to notice these issues? Has it been a gradual change, or did it come on more suddenly?
 
-**Patient**: I haven't had any shortness of breath, sweating, or felt lightheaded. But I have noticed some confusion and a bit of short-term memory loss lately.
+**Patient**: I’m not exactly sure when it started, but it feels like it’s been coming on gradually over the past little while. It hasn’t been a sudden change.
 
-**Doctor**: Alright. Let me ask—have you experienced any discomfort, swelling, or unusual sensations in your legs, especially your calves, recently?
+**Doctor**: Alright. Let me ask about any discomfort or pain in your legs—have you noticed any aching, swelling, or tenderness in your right calf recently?
 
-**Patient**: Yes, I've been having some pain in my right calf lately. It’s been bothering me along with everything else.
+**Patient**: Yes, I’ve had some pain in my right calf recently. It feels achy at times, but I haven’t noticed any swelling or tenderness.
 
-**Doctor**: Alright. How would you rate the discomfort in your calf on a scale from 1 to 10, with 10 being the worst you can imagine? And have you noticed any redness or warmth in that area?
+**Doctor**: Got it. How much does the discomfort in your right calf affect your ability to walk or do your usual activities?
 
-**Patient**: I'd rate the calf pain around a 5 out of 10. I haven’t noticed any redness or warmth in that area.
+**Patient**: The pain in my right calf makes it a bit uncomfortable to walk, but I can still do my usual activities. It hasn’t stopped me from moving around, just slows me down sometimes.
 
-**Doctor**: Got it. Has the chest discomfort or the calf pain affected your ability to do your usual daily activities, like walking around the house or running errands?
+**Doctor**: Alright. Have you noticed any numbness, tingling, or weakness in your right foot or leg along with the discomfort?
 
-**Patient**: Yes, both the chest pain and the calf pain have made it harder for me to get around and do things like I normally would. I’ve been moving slower and not getting as much done.
+**Patient**: I haven’t felt any numbness, tingling, or weakness in my right leg or foot—just the pain in my calf.
 
-**Doctor**: Based on what we've discussed, I'm thinking through a few possibilities. Chest discomfort can have several causes, ranging from muscle strain to digestive issues, but when it’s persistent and you also mention confusion and new calf discomfort, I want to be cautious. Sometimes, pain in the leg and chest together can point to a circulation issue, such as a blood clot, which is important to rule out—especially since it’s affecting your ability to get around.
+**Doctor**: Based on what we've discussed, it sounds like you’re experiencing some new symptoms that are mild but noticeable—specifically, some changes in your memory and occasional discomfort in your right calf. Since these issues have developed gradually and aren’t severely impacting your daily life, that’s somewhat reassuring. Minor memory lapses can happen with age or even due to stress, but it’s still important to keep an eye on them, especially if they progress or start interfering with important tasks.
 
-Let me explain: blood clots in the legs can occasionally travel to the lungs, which can cause chest symptoms. While you haven’t noticed redness or warmth in your leg, and you don’t have shortness of breath or sweating, your age and the combination of symptoms make this something we shouldn’t ignore.
+The discomfort in your leg, without swelling or weakness, is also less concerning for serious causes like a blood clot, but it’s good to monitor for any changes. If you notice sudden swelling, redness, or the pain becomes severe, those would be reasons to seek prompt attention.
 
-Given these factors, I recommend we get this checked further today—just to be safe. In the meantime, try to keep your leg elevated when sitting and avoid massaging it. If you notice any sudden worsening—like trouble breathing, severe confusion, or the leg becoming very swollen—seek immediate help.
+For now, I recommend keeping track of any changes in your memory or leg discomfort—maybe jot down when these symptoms happen and if anything makes them better or worse. Staying active, keeping your mind engaged, and making sure you’re well-hydrated and rested can also help with both issues.
 
-Does anything seem to make your leg discomfort better or worse? For example, does resting or elevating your leg help at all?
+If you notice your memory problems getting worse or if you develop new symptoms like confusion that affects your safety or ability to manage daily activities, let me know right away. Does that sound reasonable to you? Is there anything else you’d like to discuss today?
 
-**Patient**: Resting my leg does seem to help a little. Elevating it takes some of the ache away, but the discomfort comes back when I’m up and moving around. Thank you for explaining everything—I appreciate your caution.
+**Patient**: That all sounds reasonable, thank you. I’ll start keeping track of any changes like you suggested. I’m glad to hear the leg pain isn’t too concerning right now. The confusion and memory loss have made me a bit anxious, but I’ll let you know if they get worse.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 620
+- **Word Count**: 690
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 68-year-old female presenting with chest pain and a history of anterolateral myocardial infarction in March 2112, previously treated with two stents to the left anterior descending artery. She experienced recurrent symptoms and had an ejection fraction of 49%. Her past medical history includes hypertension, hypercholesterolemia, hemolytic uremia, bleeding from Plavix, and lichen sclerosus. On admission, medications included aspirin, Atenolol, Avapro, Lipitor, and Zestril. Physical findings included three-vessel coronary artery disease with significant occlusions. The documented diagnosis was multi-vessel coronary artery disease requiring surgical intervention. She underwent elective coronary artery bypass grafting times three without major intraoperative complications; postoperative recovery was notable for transient confusion and right calf pain, but carotid and venous doppler studies were negative for acute events. Treatment included surgical revascularization, postoperative monitoring, and continuation of cardiac medications.
-
-## Dialogue Summary
-
-The patient presented with persistent central chest pain and associated anxiety. The chest discomfort had been ongoing for several days, was located behind the breastbone, and did not worsen with activity or deep breathing. Additional symptoms included confusion, short-term memory loss, and right calf pain rated 5/10, with no redness or warmth noted; both chest and calf pain had impacted daily activities. The patient reported that resting and elevating the leg provided some relief, though discomfort returned with movement. No history of shortness of breath, sweating, or lightheadedness was mentioned. On assessment, the doctor expressed concern for possible circulation issues such as a blood clot, given the combination of chest pain, calf discomfort, and confusion. The doctor recommended further evaluation the same day, advised leg elevation when sitting, and cautioned against massaging the leg. The patient was instructed to seek immediate help if symptoms worsened, including sudden breathing difficulty, severe confusion, or significant leg swelling.
-
-## STS Evaluation
-
-- **STS Score**: 0.941
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 60.3s
+- **Processing Time**: 94.2s

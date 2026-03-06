@@ -16,88 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.917
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about the injury, pain, bleeding, and functional impact, and provides reasonable reassurance and home care advice for mild symptoms. The patient responds clearly and appropriately, without introducing unsupported or contradictory information. No hallucinations or major errors are present.
+- **Score**: 0.917
+- **Justification**: Combined score 0.92 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.72 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.722 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For improvement, the patient could mention any other minor symptoms (e.g., headache, dizziness) if present, but otherwise the responses are appropriate.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: Doctor's questioning is thorough and empathetic. For improvement, the doctor could briefly confirm there are no other injuries (e.g., ask about the thumb laceration mentioned in the profile), but overall the assessment is well-targeted.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and smooth, moving from symptom clarification to reassurance and safety advice. The conversation could be slightly more concise, but maintains good structure.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is clear and appropriate for a mild case. The doctor correctly highlights warning signs to watch for. No safety concerns detected.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me more about what's been bothering you lately?
+**Doctor**: Let me ask about the discomfort around your right eye—can you describe what the pain feels like? Is it sharp, dull, or aching?
 
-**Patient**: I got hit by a car while I was walking, and since then, my right eye area has been hurting a bit.
+**Patient**: The pain around my right eye is pretty mild—it’s more of an aching feeling than anything sharp. It’s uncomfortable, but not too intense.
 
-**Doctor**: Let me ask about the pain around your eye—did it start immediately after the accident, or did it come on later?
+**Doctor**: Let me ask about the timing—when did you first notice the aching around your eye? Have you had anything similar before?
 
-**Patient**: It started right after I was hit. The pain’s been mild, but it’s been there since the accident.
+**Patient**: I noticed the aching right after I was struck by the car. I haven’t felt this kind of pain around my eye before.
 
-**Doctor**: Let me ask about any other symptoms—have you noticed any changes in your vision, like blurriness or double vision, since the accident?
+**Doctor**: Let me ask about the blood from your right nostril—how much bleeding did you notice, and is it still happening now?
 
-**Patient**: No, my vision hasn’t changed. I did notice some blood coming from my right nostril after it happened, though.
+**Patient**: There was some blood coming from my right nostril after the accident, but it didn’t last long. Right now, it’s not bleeding anymore.
 
-**Doctor**: Got it. How would you rate the discomfort around your eye—if 1 is very mild and 10 is the worst pain you can imagine, where does it fall for you right now?
+**Doctor**: Alright. Have you noticed any changes in your vision or swelling around your right eye since the accident?
 
-**Patient**: Right now, I’d put the pain at about a 2 or 3. It’s noticeable, but not too bad.
+**Patient**: I haven’t noticed any changes in my vision. As for swelling, I don’t think there’s much around my right eye—just the aching feeling.
 
-**Doctor**: Let me ask about the blood you noticed from your right nostril—did it stop on its own, or is it still happening?
+**Doctor**: Got it. Since the bleeding stopped quickly and the pain is mild, have you had any headaches or trouble with movement in your jaw or face since the accident?
 
-**Patient**: The bleeding stopped on its own not long after it started. It hasn’t happened again since then.
+**Patient**: I haven’t had any headaches or trouble moving my jaw or face since the accident. The discomfort is just around my right eye and nostril.
 
-**Doctor**: Alright. Have you noticed any bruising, swelling, or tenderness around your eye or nose since the accident?
+**Doctor**: Let me ask about the aching sensation—does it get worse when you touch the area or move your head, or does it stay about the same throughout the day?
 
-**Patient**: No, I haven’t noticed any bruising or swelling around my eye or nose. Just that mild pain and the blood from my nostril earlier.
+**Patient**: Touching the area does make the aching a bit more noticeable, but moving my head doesn’t really change it. It’s been pretty steady throughout the day.
 
-**Doctor**: Got it. Has the discomfort made it harder for you to do things like reading, watching TV, or sleeping, or is it mostly just a mild annoyance?
+**Doctor**: Alright. How would you rate the aching around your right eye on a scale from 1 to 10, with 1 being very mild and 10 being the worst pain you can imagine?
 
-**Patient**: No, it hasn’t made things harder for me. It’s mostly just a mild annoyance at this point.
+**Patient**: On that scale, I’d rate the aching around my right eye as a 2. It’s mild and hasn’t gotten any worse.
 
-**Doctor**: Let me ask about what happens when you touch the area—does pressing gently around your eye or nose make the discomfort any worse, or is it about the same?
+**Doctor**: Let me ask about the area around your right nostril—do you notice any tenderness, bruising, or changes in the skin where the bleeding occurred?
 
-**Patient**: Pressing on the area does make it a bit more tender, but it’s not a sharp pain—just a little more uncomfortable.
+**Patient**: I don’t see any changes in the skin, and it doesn’t feel especially tender or bruised around my right nostril. The bleeding stopped pretty quickly after it started.
 
-**Doctor**: Based on what we've discussed, it sounds like your symptoms are mild and stable—there’s some tenderness around your eye after the accident, but no vision changes, ongoing bleeding, or significant swelling. Mild pain and brief nosebleed right after a minor impact are fairly common and often due to bruising or irritation of the tissues in that area.
+**Doctor**: Based on what we've discussed, it sounds like the aching around your right eye and the brief nosebleed started after you were struck by a car. The pain is mild, hasn't worsened, and there are no changes in vision, swelling, or function of your jaw or face. The nosebleed stopped quickly and there's no tenderness or bruising.
 
-The fact that you’re not having trouble with your vision, daily activities, or persistent bleeding is reassuring. Usually, this type of discomfort improves over a few days with rest and gentle care. You can apply a cool compress to the area if it feels sore, and try to avoid touching or rubbing it.
+This pattern suggests a minor soft tissue injury—likely a mild contusion or bruise from the impact. The aching is probably due to local irritation of the tissues around your eye and nostril, and the nosebleed was caused by trauma to the area. Since there are no signs of deeper injury (like vision changes, severe pain, swelling, or difficulty moving your face), this is reassuring.
 
-What’s important to watch for is any new or worsening symptoms—such as increased pain, swelling, vision changes, double vision, persistent nosebleeds, or fluid coming from your nose. If any of those develop, it would be important to get checked promptly.
+Most minor contusions heal on their own. You can use a cold compress on the area to help with discomfort and swelling. Watch for any new symptoms, such as worsening pain, vision changes, persistent bleeding, or increasing swelling—these would be reasons to seek medical attention.
 
-Let me know if you have any questions about what to expect or how to care for this at home.
+Let me know if you have any questions or concerns about this, or if you'd like advice on managing the discomfort.
 
-**Patient**: Thanks, that helps put my mind at ease. I’ll keep an eye out for any of those warning signs you mentioned. If the pain gets worse or anything else comes up, I’ll let someone know right away.
+**Patient**: Thank you for explaining that. How long should I expect the aching around my eye to last before it gets better?
+
+**Doctor**: From what you've told me, the aching you're feeling is mild and steady, which fits with how minor bruises or contusions behave after a direct impact. Typically, this kind of discomfort improves gradually over a few days to a week. Sometimes it can linger slightly longer, but it should continue to get better, not worse.
+
+The reason for this is that the tissues around your eye and nose need some time to heal from the trauma. Using a cold compress for the first couple of days can help reduce any subtle swelling and ease discomfort. After that, gentle warmth may help if you still feel achy.
+
+If you notice the pain getting worse, new swelling, vision changes, or more bleeding, those would be signs to check in with a healthcare provider sooner. Otherwise, it's reasonable to expect improvement within about a week.
+
+Let me know if you have any other questions or need advice on managing the symptoms.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 578
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 779
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is an 86-year-old male presenting after being struck by a car traveling at approximately 20–25 mph. He reports mild right orbital pain and denies loss of consciousness, though he cannot recall all details of the incident. His past medical history is significant for hypertension, and he has no known drug allergies. On examination, he was alert with stable vital signs, a right supraorbital laceration (3–3.5 cm), blood from the right nare, and a small left thumb laceration; no other acute injuries were noted. Laboratory studies were notable for mild leukocytosis (WBC 12.5) and slightly elevated creatinine (1.4), with otherwise unremarkable results. Imaging revealed no pneumothorax, fractures, or other acute findings. The clinical impression is minor trauma with soft tissue injuries following a pedestrian-vehicle accident. Treatment included wound care for lacerations and observation.
-
-## Dialogue Summary
-
-The patient presented with mild pain around the right eye following being hit by a car while walking. The pain began immediately after the accident, has remained mild (rated 2–3/10), and is mostly a mild annoyance without interfering with daily activities; pressing on the area increases tenderness slightly but does not cause sharp pain. The patient reported a brief episode of blood from the right nostril immediately after the accident, which stopped on its own and has not recurred. No changes in vision, double vision, bruising, or swelling around the eye or nose were noted. The doctor assessed that symptoms are mild and stable, likely due to minor bruising or tissue irritation, with no signs of serious injury. The doctor recommended rest, gentle care, and use of a cool compress for soreness, advising the patient to avoid touching or rubbing the area. The patient was instructed to monitor for new or worsening symptoms such as increased pain, swelling, vision changes, persistent nosebleeds, or fluid from the nose, and to seek prompt evaluation if these occur.
-
-## STS Evaluation
-
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 61.8s
+- **Processing Time**: 85.9s

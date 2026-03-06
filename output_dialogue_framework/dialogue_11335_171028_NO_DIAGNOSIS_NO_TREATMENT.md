@@ -22,84 +22,89 @@
 
 - **Decision**: REALISTIC
 - **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about the chest pain, associated symptoms, and relevant medical history. The patient responses are clear and match the profile's symptoms. The doctor's reasoning and recommendations are cautious and appropriate given the patient's risk factors, without introducing unsupported diagnoses or treatments. There are no obvious hallucinations or contradictions.
+- **Justification**: Combined score 0.95 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.83 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.833 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, the patient could mention any home medications or clarify if they have checked their blood sugar recently, given their diabetes.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: The doctor is thorough and cautious. For completeness, the doctor could briefly ask about other cardiac risk factors (e.g., smoking, family history) or clarify current diabetes control, but this is not essential for this light case.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with good transitions between symptom exploration, history, and recommendations. The summary and safety netting are well done.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is clear and appropriate. The doctor avoids unsupported conclusions and provides a safe plan for escalation if symptoms worsen.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me more about any symptoms or concerns you've been experiencing lately?
+**Doctor**: Hello, it's nice to meet you. What brings you in today, and how have you been feeling lately?
 
-**Patient**: My chest has been hurting, and that's made me pretty anxious. That's the main thing that's been bothering me lately.
+**Patient**: My chest has been hurting, and that's really what brought me in today.
 
-**Doctor**: Let me ask about the pain itself—when did you first notice it, and how would you describe what it feels like (for example, sharp, dull, pressure, or something else)?
+**Doctor**: Let me ask about the pain—when did you first notice it, and has it been constant or does it come and go?
 
-**Patient**: I noticed it earlier today. It feels more like a tightness in my chest, and sometimes that tight feeling goes down my left arm.
+**Patient**: I noticed the pain earlier today. It’s been pretty constant since it started.
 
-**Doctor**: Let me ask about any other symptoms—have you had any nausea, lightheadedness, or shortness of breath along with the chest tightness?
+**Doctor**: Let me ask about the pain itself—would you describe it as sharp, dull, pressure-like, or something else? And on a scale from 1 to 10, how intense is it right now?
 
-**Patient**: I've had some nausea and I did throw up earlier. I haven't felt lightheaded or had any trouble breathing, though.
+**Patient**: It feels more like a tightness or pressure in my chest, not really sharp. Right now, I’d rate it around a 7 out of 10. The pain also kind of spreads to my left arm.
 
-**Doctor**: Got it. How intense would you say the tightness is—if you had to rate it from 1 (very mild) to 10 (the worst pain you've ever felt), where would it fall?
+**Doctor**: Let me ask about other symptoms—have you experienced any nausea, vomiting, shortness of breath, or sweating along with the chest tightness?
 
-**Patient**: I’d rate the chest tightness around a 6 out of 10. It’s uncomfortable enough to make me stop what I’m doing, but not the worst pain I’ve ever had.
+**Patient**: I've been feeling pretty nauseous and I've actually vomited a couple of times. I haven't noticed any unusual sweating or shortness of breath, though.
 
-**Doctor**: Alright. Does anything seem to trigger the tightness or make it worse, such as physical activity, stress, or certain foods? Or does it come on randomly?
+**Doctor**: Got it. Since you mentioned vomiting, has that been just today, and how many times has it happened? Also, have you noticed if eating, moving around, or anything else seems to make your symptoms better or worse?
 
-**Patient**: It seems to come on randomly. I haven’t noticed anything specific that makes it worse or brings it on.
+**Patient**: The vomiting started today, and it’s happened twice so far. I haven’t noticed if anything like eating or moving around makes it better or worse. I also have an ache in my left arm along with the chest discomfort.
 
-**Doctor**: Got it. When you vomited earlier, was it just once or have you been sick multiple times today? And after you threw up, did the chest tightness change at all—did it get better, worse, or stay the same?
+**Doctor**: Alright. Have you ever had anything like this before, or is this the first time you've experienced chest tightness and arm discomfort?
 
-**Patient**: I only vomited once today. The chest tightness stayed about the same afterward—it didn’t really get better or worse.
+**Patient**: This is the first time I’ve had chest tightness and pain that spreads to my left arm. I haven’t experienced these symptoms before.
 
-**Doctor**: Let me ask about the location—can you point to where the tightness is in your chest? Is it more in the center, to one side, or does it move around?
+**Doctor**: Got it. One more question—have you felt lightheaded or faint at any point today, or noticed any palpitations or irregular heartbeat?
 
-**Patient**: The tightness is mostly in the center of my chest. Sometimes it spreads out toward my left arm, but it doesn’t really move around a lot.
+**Patient**: I haven’t felt lightheaded or faint, and I haven’t noticed any palpitations or irregular heartbeat today.
 
-**Doctor**: Let me ask about your medical history—have you ever experienced anything like this before, or do you have any known heart or digestive issues?
+**Doctor**: Let me ask about the nausea—does it feel like it's related to the chest discomfort, or does it come on separately? Also, have you had any recent illnesses, fevers, or stomach issues before today?
 
-**Patient**: I haven’t had chest pain like this before. I don’t have any known heart or digestive problems, just my diabetes and high blood pressure.
+**Patient**: The nausea comes on around the same time as the chest discomfort, so it feels related. I haven’t had any recent fevers, illnesses, or stomach issues before today.
 
-**Doctor**: Based on what we've discussed, your chest tightness is new, feels moderate, and sometimes spreads to your left arm, with one episode of vomiting but no trouble breathing or lightheadedness. Given your history of diabetes and high blood pressure, I'm paying close attention to these symptoms, since those conditions can raise the risk for heart issues.
+**Doctor**: Based on what we've discussed, your symptoms—constant chest tightness that spreads to your left arm, along with nausea and vomiting—are concerning for a possible heart-related issue. While some common causes of chest pain can be musculoskeletal or digestive, the combination of chest pressure and arm discomfort, especially in someone experiencing these symptoms for the first time, raises the possibility of angina or even a heart attack.
 
-It's possible that anxiety or even indigestion could cause chest discomfort, but when chest symptoms radiate to the arm and are accompanied by nausea—especially with your medical history—it's important to be cautious. Sometimes, heart-related problems can present this way, even without severe pain or classic symptoms.
+This is not something to take lightly. Even though you haven't had shortness of breath or palpitations, the pattern and intensity of your symptoms suggest you should seek urgent medical evaluation. I recommend you go to the nearest emergency department right away for further assessment, including an ECG and blood tests, to rule out any serious heart conditions.
 
-Because of this, I recommend that you get evaluated promptly, ideally in an urgent care or emergency setting today. They can check your heart with an EKG and some blood tests to rule out anything serious. Most chest pain turns out to be benign, but it's better to be safe, especially with your risk factors.
+In the meantime, avoid any physical exertion and do not drive yourself. If the pain worsens, or if you develop shortness of breath, severe sweating, or feel faint, call emergency services immediately.
 
-If you develop shortness of breath, sweating, severe pain, or feel faint, seek help immediately. Otherwise, arrange to be seen as soon as possible. In the meantime, try to rest and avoid any strenuous activity.
+Let me explain: chest pain that radiates to the arm and is associated with nausea can sometimes signal reduced blood flow to the heart. It's much safer to get checked promptly rather than risk missing something serious.
 
-Let me know if you have questions about what to expect or what steps to take next.
+While some chest pain is benign, yours needs urgent attention. Please act now.
 
-**Patient**: Thanks for explaining everything so clearly. I appreciate you being cautious—my anxiety’s definitely higher with these symptoms, especially since the chest discomfort isn’t going away. I’ll go get checked out today like you suggested.
+**Patient**: Thank you for explaining that. If I go to the emergency department, how long does it usually take to get the tests and find out what's going on?
+
+**Doctor**: Let me share my thoughts based on everything you've described. You have chest tightness that spreads to your left arm and started today, along with vomiting. These symptoms, especially when they're constant and new for you, are concerning for a possible heart issue rather than something mild like indigestion or muscle strain.
+
+The reason I'm recommending urgent evaluation is because chest discomfort radiating to the arm can sometimes be a sign of reduced blood flow to the heart. While not all chest pain is dangerous, this pattern is important to check quickly.
+
+If you go to the emergency department, they'll usually start with an ECG (heart tracing) and blood tests right away—often within minutes of arrival—because these symptoms are treated as a priority. The initial results can be available within an hour or two, though sometimes further observation or repeat tests are needed.
+
+My main advice: please seek emergency care now. Avoid exertion and do not drive yourself. If anything worsens, call emergency services.
+
+Let me ask one more thing to clarify: where exactly in your chest do you feel the tightness—more towards the center, left side, or another area? This helps guide the assessment further.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 671
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 851
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 39-year-old female presenting with chest pain and vomiting. She experienced several episodes of nausea and vomiting, followed by chest and left arm tightness, with blood glucose levels remaining very high and unresponsive to insulin for the past 24 hours. Her medical history includes type 1 diabetes mellitus for 9 years (on insulin pump, last HbA1c 8.4) and hypertension, with no known drug allergies or prior coronary artery disease. On arrival, she was found to be in diabetic ketoacidosis (HCO3 12, AG 20) and had EKG findings of large ST elevations in V4-V6, consistent with acute myocardial infarction. Cardiac catheterization revealed an ulcerated plaque in the proximal-mid LAD with distal emboli, and a bare metal stent was placed. She was treated with insulin infusion, aspirin, clopidogrel, heparin, integrilin, and sublingual nitroglycerin for left arm discomfort. The documented diagnoses were diabetic ketoacidosis and acute myocardial infarction; she was admitted to the CCU for monitoring and further management.
-
-## Dialogue Summary
-
-The patient presented with chest pain described as a tightness in the center of the chest, sometimes radiating to the left arm, which began earlier today. The chest tightness was rated as 6 out of 10 in intensity, occurred randomly without clear triggers, and was accompanied by one episode of vomiting and some nausea; there was no lightheadedness or shortness of breath. The patient denied any prior similar episodes and reported a history of diabetes and high blood pressure, with no known heart or digestive problems. On review, the doctor noted the new onset of chest tightness radiating to the arm, moderate severity, and associated nausea, with stable symptoms after vomiting. The doctor assessed that while anxiety or indigestion could be possible causes, the combination of symptoms and the patient's medical history raised concern for possible heart-related issues. The doctor recommended prompt evaluation in an urgent care or emergency setting for EKG and blood tests to rule out serious causes. The patient was advised to seek immediate help if symptoms worsened (such as developing shortness of breath, sweating, severe pain, or feeling faint), to rest and avoid strenuous activity, and to arrange for prompt medical assessment.
-
-## STS Evaluation
-
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 60.3s
+- **Processing Time**: 83.0s

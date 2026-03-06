@@ -16,86 +16,101 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.810
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks logical, stepwise questions about the patient's symptoms (weakness, somnolence), explores associated features (speech, balance, sensation), and provides a clear, appropriate recommendation for urgent in-person evaluation without overstepping into unsupported diagnoses or treatments. The patient responses are coherent and match the described symptoms. There are no hallucinations or unsupported content.
+- **Score**: 0.810
+- **Justification**: Combined score 0.81 (naturalness=0.90 ×0.4, profile_compliance=0.70 ×0.3, ragas_faithfulness=0.80 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 0.700 |
+| RAGAS Faithfulness | 0.800 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, the patient could occasionally express uncertainty or mild emotional responses (e.g., concern, frustration) to mirror real-life interactions.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: The doctor is thorough and communicates well. To further enhance realism, the doctor could briefly acknowledge the patient's underlying diagnosis (granular cell tumor) if known from the chart, or ask about any history of similar episodes or prior neurological issues.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with appropriate follow-up questions and explanations. The transition to safety advice and next steps is smooth.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety is well addressed with clear escalation instructions. The explanation of why urgent evaluation is needed is clear and appropriately cautious.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome—how have you been feeling lately, and what brings you in today?
+**Doctor**: Hi there, welcome in today. What’s been bothering you lately?
 
-**Patient**: I've been having some weakness in my left arm that's getting worse, and that's what's brought me in today.
+**Patient**: I've been having some weakness in my left arm, and it's been getting worse. That's mainly why I came in today.
 
-**Doctor**: Let me ask about the weakness—when did you first notice it, and how quickly has it been getting worse?
+**Doctor**: Let me ask about how this is affecting you—are you having any trouble using your hand for tasks like buttoning a shirt, gripping objects, or writing?
 
-**Patient**: I'm not exactly sure when it started, but the weakness has been getting worse over the past several days.
+**Patient**: It's definitely harder to grip things with my left hand, and I've noticed buttoning shirts is more difficult than usual. Writing has also become a bit shaky.
 
-**Doctor**: Let me ask about other changes—have you noticed any difficulty with things like speaking, understanding words, or balance?
+**Doctor**: Let me ask about when you first noticed these changes—how long has this been going on, and has the weakness come on gradually or all of a sudden?
 
-**Patient**: I haven't had any trouble with speaking or understanding words, and my balance has been okay.
+**Patient**: I'm not sure exactly when it started, but the weakness has been getting worse over time. It wasn't all of a sudden—it sort of crept up on me.
 
-**Doctor**: Got it. Have you noticed any numbness, tingling, or changes in sensation in your left arm, or is it just a feeling of decreased strength?
+**Doctor**: Let me ask about other sensations—have you noticed any numbness, tingling, or changes in feeling in your arm or hand?
 
-**Patient**: It's just a feeling of decreased strength—I haven't noticed any numbness or tingling.
+**Patient**: I haven't noticed any numbness or tingling, just the weakness in my arm. No changes in how things feel when I touch them.
 
-**Doctor**: Alright. Have you noticed any changes in your energy level or how sleepy you've been feeling during the day?
+**Doctor**: Got it. Let me ask about your energy levels—have you been feeling more tired or sleepy than usual lately?
 
-**Patient**: Yes, I've been feeling a lot more sleepy than usual during the day. It's been getting harder to stay awake.
+**Patient**: Lately, I've been feeling a lot more sleepy than usual. It's been harder to stay awake during the day.
 
-**Doctor**: Got it. One more question—how much is this weakness and increased sleepiness interfering with your ability to do your usual daily activities, like getting dressed, eating, or working?
+**Doctor**: Alright. Since you’ve been feeling more sleepy during the day, have you noticed any changes in your sleep at night, such as trouble falling asleep, waking up often, or sleeping much longer than usual?
 
-**Patient**: It's definitely making things harder. Getting dressed and just staying awake to do normal stuff has been a challenge lately.
+**Patient**: I haven't really noticed any big changes with my sleep at night. It's more that I just feel unusually sleepy during the day.
 
-**Doctor**: Let me ask about other parts of your body—have you noticed any weakness or changes in strength elsewhere, like in your legs or face?
+**Doctor**: Got it. Has this weakness made it difficult for you to do your job or manage things around the house? For example, are there activities you’ve had to stop or need help with now?
 
-**Patient**: No, I haven't noticed any weakness or changes in strength in my legs or face. It's just my left arm that's affected.
+**Patient**: Yes, it's made daily tasks more challenging. I need help with things like carrying groceries or doing buttons on my shirts now, which I used to handle on my own.
 
-**Doctor**: Let me ask about your sleep at night—are you getting enough rest, or do you feel just as sleepy during the day even after a full night's sleep?
+**Doctor**: Tell me more about whether you've noticed any changes in your speech, vision, or balance recently. Sometimes these can help us understand if there’s a broader pattern to what’s going on.
 
-**Patient**: Even after a full night's sleep, I still feel really sleepy during the day. It's like I can't shake the tiredness no matter how much rest I get.
+**Patient**: I haven't noticed any changes in my speech, vision, or balance. It's mainly the weakness in my arm and feeling more sleepy during the day.
 
-**Doctor**: Based on what we've discussed, your increasing difficulty staying awake during the day alongside the change in your arm’s strength is something that deserves careful attention. Usually, when someone experiences both of these together—especially when it’s getting harder to do everyday tasks—it can sometimes point to an issue with how the brain or nervous system is functioning, even if you haven’t noticed other changes like speech or balance.
+**Doctor**: Based on what we've discussed, it sounds like you’ve been experiencing a gradual onset of weakness in your left arm, which is making daily tasks more difficult, along with feeling unusually sleepy during the day. The fact that this has developed slowly and isn’t associated with numbness, tingling, or changes in speech, vision, or balance helps narrow down the possible causes.
 
-While there are many possible causes, some are more urgent than others, so it’s important not to ignore these symptoms. For now, I recommend that you seek an in-person evaluation as soon as possible—ideally today—so a healthcare provider can examine you and make sure nothing serious is going on. If you develop any new symptoms, such as trouble speaking, vision changes, severe headache, or weakness spreading to other parts of your body, seek emergency care right away.
+Often, arm weakness without sensory changes can be related to issues with the nerves or muscles in the arm or shoulder itself—sometimes from overuse, a pinched nerve, or even mild repetitive strain. However, the combination of increasing sleepiness and progressive weakness raises the possibility of something affecting your nervous system more broadly, such as certain metabolic or hormonal imbalances, or less commonly, a neurological condition.
 
-In the meantime, try to rest and avoid activities that require full alertness, like driving. I know this is concerning, but getting checked promptly is the best next step. Would you like help understanding what to expect at your evaluation?
+At this stage, my main recommendation is that we do a physical exam focused on your strength and reflexes, and arrange some basic blood tests to check for things like thyroid function, vitamin levels, and signs of infection or inflammation. Depending on those results, we might consider imaging or referral to a specialist if needed.
 
-**Patient**: Thanks for explaining all that. I understand it’s important to get checked out soon, especially with my arm weakness and how sleepy I’ve been. What kinds of tests or exams should I expect when I go in?
+For now, try to avoid heavy lifting or activities that strain your arm until we know more. If you notice sudden worsening—such as inability to move your arm at all, new problems with speech or vision, severe headache, or confusion—those would be reasons to seek urgent care.
+
+We’ll work together to get to the bottom of this. Let’s start with some basic tests and see where that leads.
+
+**Patient**: Thanks for explaining that. Since you mentioned possible neurological issues, I should let you know I had a seizure recently—a generalized tonic clonic one. Does that change what you’re thinking or what tests I might need?
+
+**Doctor**: Given this new information about your recent seizure, my thinking does shift somewhat. When someone experiences a seizure along with progressive difficulty using an arm and increased daytime sleepiness, it raises the possibility that there may be something affecting the brain itself—such as a structural issue (like a lesion or mass), inflammation, or another neurological condition.
+
+In this situation, it’s important to move beyond basic lab tests. I would recommend brain imaging (such as an MRI or CT scan) as soon as possible to look for any abnormalities that could explain both the seizure and the changes in your arm function. A neurological evaluation would also be appropriate.
+
+While some causes can be benign, these symptoms together are concerning enough that I’d suggest you seek prompt medical attention—either through an urgent referral or by going to the emergency department today, especially if you notice worsening alertness, new weakness, trouble speaking, or confusion.
+
+Let’s make sure you get the right workup quickly to find out what’s going on and get you the care you need.
+
+**Patient**: Thanks for explaining all that. What should I expect if I need to get an MRI or CT scan—are there any risks or things I should prepare for?
+
+**Doctor**: Let me share my thoughts based on everything you’ve told me. When someone develops new difficulties with coordination or strength in one part of the body, along with a recent seizure and increased daytime sleepiness, it suggests there could be a problem affecting the brain—sometimes from things like a mass, swelling, or other neurological issues. That’s why imaging tests like an MRI or CT scan are important: they help us look for any structural changes or abnormalities that could explain your symptoms.
+
+In terms of what to expect: these scans are generally safe. A CT scan is quick and uses X-rays; sometimes a contrast dye is injected, which can rarely cause an allergic reaction or affect kidney function if you have kidney problems. An MRI uses magnets and radio waves instead of X-rays, and sometimes also involves a contrast agent. You’ll need to remove any metal objects, and if you have certain implants (like pacemakers), let the staff know. Some people feel a bit claustrophobic during an MRI, but the team can help you through it.
+
+The most important thing right now is to get this evaluation done promptly so we can figure out what’s causing your symptoms and start the right treatment. If anything new or severe develops while you’re waiting—like confusion, trouble speaking, or a severe headache—seek urgent care right away.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 576
-- **Doctor Turns**: 9
-- **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 51-year-old male presenting with persistent drainage from a scalp incision and increasing headache following resection of a frontal astrocytoma with Gliadel placement. He reported ongoing drainage from the surgical site, worsening headaches (sometimes relieved by Percocet), and episodes of nausea. His past medical history includes steroid-induced diabetes, prior tumor resections, radiation therapy, tracheostomy removal, tonsillectomy, and adenoidectomy. On evaluation, wound culture grew gram-positive cocci. Physical examination showed the patient was neurologically intact with full muscle strength and alert mental status initially. The documented diagnosis was wound infection at the surgical site with associated increased intracranial pressure due to cerebrospinal fluid accumulation. Treatment included surgical incision and drainage with removal of the cranial bone flap, vent drain placement for decompression, and intravenous Vancomycin for infection. The patient’s wound remained full but without leakage after drain clamping.
-
-## Dialogue Summary
-
-The patient presented with worsening weakness in the left arm over the past several days. The weakness is described as decreased strength without numbness, tingling, or changes in sensation, and is limited to the left arm with no involvement of the legs or face. The patient also reported increased daytime sleepiness that persists even after a full night's sleep, making daily activities such as getting dressed and staying awake challenging. No difficulties with speech, understanding words, or balance were noted. There was no mention of relevant medical history, medications, or allergies. The doctor assessed that the combination of progressive arm weakness and excessive sleepiness could indicate an issue with brain or nervous system function and emphasized the need for prompt evaluation. The doctor recommended seeking an in-person assessment as soon as possible, ideally today, and advised immediate emergency care if new symptoms such as speech difficulty, vision changes, severe headache, or spreading weakness occur. The patient was also advised to rest and avoid activities requiring full alertness until evaluated.
-
-## STS Evaluation
-
-- **STS Score**: 0.921
-- **Similarity Label**: N/A
+- **Turn Count**: 21
+- **Word Count**: 1134
+- **Doctor Turns**: 11
+- **Patient Turns**: 10
 
 ## Processing Information
 
-- **Processing Time**: 61.5s
+- **Processing Time**: 93.4s

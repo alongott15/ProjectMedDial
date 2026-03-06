@@ -16,90 +16,93 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.885
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the patient's profile and symptoms. The doctor asks appropriate, focused questions about the lightheadedness, dizziness, and vertigo, and provides a reasonable explanation (orthostatic hypotension or benign inner ear disturbance) without overreaching. The patient responses are clear and relevant. No unsupported diagnoses, treatments, or alarming events are introduced. The conversation is thorough but remains within the bounds of a light, common case.
+- **Score**: 0.885
+- **Justification**: Combined score 0.89 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.75 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.750 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, the patient could mention any relevant medications or chronic conditions if prompted.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor does well to explain reasoning and offer reassurance. For completeness, the doctor could briefly check for medication changes or recent illnesses that might contribute to symptoms, given the patient's age.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with good transitions between history-taking and explanation. Ending with a clear plan and checking for questions is appropriate.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The doctor appropriately advises when to seek further care if symptoms worsen. The explanation is clear and avoids unsupported conclusions.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What’s been bringing you in—can you tell me a bit about what’s been bothering you lately?
+**Doctor**: Hello, it’s nice to see you today. What’s been bringing you in—have you noticed any new or bothersome symptoms lately?
 
-**Patient**: I've been feeling pretty lightheaded lately, and it's been making me a bit concerned. That's the main reason I wanted to come in today.
+**Patient**: I’ve been feeling pretty lightheaded lately, and it’s been worrying me. That’s the main reason I wanted to come in today.
 
-**Doctor**: Let me ask about when you first noticed this—how long have you been feeling lightheaded?
+**Doctor**: Let me ask about how this has been affecting you—are you able to go about your usual activities, or is this making things more difficult day-to-day?
 
-**Patient**: I'm not exactly sure, but I think it's been going on for a few days now. It sort of comes and goes.
+**Patient**: It’s definitely made things harder for me. I find myself needing to sit down more often because of the lightheadedness.
 
-**Doctor**: Let me ask about what you’re doing when this happens—does the lightheaded feeling come on when you stand up, move around, or does it happen even when you’re sitting or lying down?
+**Doctor**: Let me ask about what you feel during these episodes—do you notice any spinning sensation, or is it more just a feeling of being unsteady or faint?
 
-**Patient**: It tends to happen more when I stand up or move around. I don't really notice it as much when I'm sitting still.
+**Patient**: I did have one episode where everything felt like it was spinning, almost like vertigo. Most of the time, though, it’s more just feeling dizzy or faint.
 
-**Doctor**: Let me ask about any other symptoms—have you noticed things like blurred vision, fainting, or feeling your heart racing when this happens?
+**Doctor**: Let me ask about what happens during these episodes—do you ever feel nauseated or actually vomit when you feel lightheaded or when things are spinning?
 
-**Patient**: I haven't had any blurred vision or fainting, but I have felt a bit dizzy along with the lightheadedness. There was also one time I had a pretty strong episode of vertigo.
+**Patient**: I haven’t felt nauseated or thrown up during these episodes. It’s mostly just the dizziness and that spinning feeling that happened once.
 
-**Doctor**: Got it. When you mentioned vertigo, was it a spinning sensation where the room felt like it was moving, or more of a general off-balance feeling?
+**Doctor**: Alright. Have you noticed if these episodes tend to happen when you stand up quickly, after you’ve been sitting or lying down, or do they come on at random times?
 
-**Patient**: Yes, it was definitely that spinning sensation—like the room was moving around me. It lasted for a short while but was pretty unsettling.
+**Patient**: Sometimes it happens when I stand up after sitting for a while, but other times it just comes on without warning. I’m not sure if there’s a pattern to it.
 
-**Doctor**: Got it. When you had that spinning episode, did you experience any nausea or vomiting along with it?
+**Doctor**: Tell me more about when these symptoms first began—has this been going on for days, weeks, or longer?
 
-**Patient**: No, I didn't have any nausea or vomiting during that episode. It was just the spinning feeling and some dizziness.
+**Patient**: I think it’s been going on for a few days now. The dizziness and lightheadedness started first, and then I had that one episode of vertigo.
 
-**Doctor**: Alright. Have you noticed if anything helps the lightheadedness or spinning go away more quickly, like sitting down or drinking water? Or does it just pass on its own?
+**Doctor**: Got it. When you do feel this way, does sitting or lying down help the symptoms go away, or do they tend to linger for a while regardless of what you do?
 
-**Patient**: Sitting down usually helps the lightheadedness go away faster. The spinning episode just passed on its own after a little while.
+**Patient**: Sitting or lying down usually helps the symptoms go away after a bit. If I stay upright, the dizziness tends to linger longer.
 
-**Doctor**: Got it. One more thing—has this lightheadedness or spinning sensation made it difficult for you to go about your usual daily activities, or has it caused you to avoid doing anything out of concern?
+**Doctor**: Let me ask about your overall health—have you noticed any recent changes in your appetite, energy levels, or any new medications or changes to your usual routine in the past week?
 
-**Patient**: No, it hasn't really stopped me from doing my regular activities, but I do find myself being a bit more cautious, especially when getting up or moving around.
+**Patient**: I haven’t noticed any changes in my appetite or energy lately. The only medication I’m taking right now is hydrochlorothiazide, and nothing else has changed in my routine recently.
 
-**Doctor**: Based on what we've discussed, it sounds like your lightheadedness is more noticeable when you stand up or move around, and you’ve had one brief episode of spinning vertigo. Since sitting down helps, and you haven’t had fainting, vision changes, or nausea, this pattern often points to something like a temporary drop in blood pressure when changing positions—what we call “orthostatic hypotension.” This is common and can happen for a variety of reasons, such as dehydration, mild inner ear disturbances, or even certain medications.
+**Doctor**: Based on what we've discussed, it sounds like your lightheadedness and occasional spinning sensation may be related to changes in your blood pressure, especially since you’re taking hydrochlorothiazide, which can sometimes lower blood pressure or affect fluid balance. The fact that the symptoms often improve when you sit or lie down, and sometimes come on after standing up, suggests that your body might be having a bit of trouble adjusting blood pressure quickly enough when you change positions—a common and generally benign issue called orthostatic hypotension.
 
-The spinning episode you described could be related to your inner ear, which helps control balance. Sometimes, people experience brief vertigo from benign causes, like a shift in position or after a viral illness.
+The episode where everything felt like it was spinning (vertigo) could be related, but since it was only once and hasn’t recurred with nausea or vomiting, it’s less likely to be a separate ear or neurological problem.
 
-What’s reassuring is that these symptoms haven’t kept you from your daily activities, and there aren’t any concerning signs like ongoing severe dizziness, chest pain, or weakness. Most of the time, staying hydrated, standing up slowly, and giving yourself a moment before moving can help prevent these sensations.
+What often happens with medications like hydrochlorothiazide is that they help your body get rid of extra fluid, but sometimes this can lead to dehydration or lower blood pressure, especially if you’re not drinking enough fluids or if it’s hot out.
 
-If you notice the episodes becoming more frequent, lasting longer, or accompanied by other symptoms like fainting, persistent vomiting, or difficulty walking, it’s important to let me know right away. For now, I recommend drinking plenty of fluids and taking your time when getting up. If you’d like, we can check your blood pressure both sitting and standing to see if there are any notable drops.
+For now, I recommend standing up slowly, especially after sitting or lying down, and making sure you stay well hydrated. If these symptoms continue, get worse, or if you ever faint, experience chest pain, or have trouble speaking or moving, let us know right away.
 
-Do you have any questions or concerns about what we’ve talked about so
+Let me know if you have any questions or if you’d like to talk more about ways to manage these symptoms at home.
 
-**Patient**: That all makes sense, thank you for explaining it so clearly. I’d appreciate having my blood pressure checked sitting and standing, just to be sure. I’ll make sure to drink more fluids and take my time getting up like you suggested.
+**Patient**: Thank you for explaining all that. Is there anything I should change about my daily routine, like how much water I should drink or how often I should check my blood pressure?
+
+**Doctor**: Let me share my thoughts about what’s going on. From everything you’ve told me—especially how these episodes often come on after standing up and improve when you sit or lie down—it seems likely that your body is having a bit of trouble keeping your blood pressure steady when you change positions. This is something we call orthostatic hypotension, and it can happen with medications like hydrochlorothiazide, which helps the body get rid of extra fluid but sometimes lowers blood pressure a bit too much.
+
+Since you haven’t noticed any changes in appetite or energy, and you’re not having other concerning symptoms, this is likely a mild, common side effect rather than something more serious. Staying well hydrated is important—aim for about 6–8 glasses of water a day unless you’ve been told to limit fluids for another reason. Rising slowly from sitting or lying down can also help prevent these episodes.
+
+If you have a home blood pressure monitor, checking your blood pressure occasionally—especially when you feel dizzy—can be helpful. If your readings are consistently low, or if you ever faint, feel chest pain, or have new symptoms, please let us know right away.
+
+Would you like any tips on tracking your blood pressure at home, or do you have questions about adjusting your routine further?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 702
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 910
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 61-year-old female presenting with lightheadedness, dizziness, and an episode of vertigo that awakened her from sleep and lasted less than one minute. She denied numbness, palpitations, chest pain, or visual changes. Further workup revealed a 5 mm aneurysm of the left posterior communicating artery on MRI. Her past medical history, medications, and allergies are not specified. On admission, she underwent elective angiogram and coiling of the aneurysm under general anesthesia, which she tolerated well. Postoperatively, she was monitored in the Neurosurgical ICU with blood pressure control using Nipride infusion and received heparin for six hours; her coagulation and chemistries remained normal. On examination, she was neurologically intact with stable vital signs and no deficits. The documented diagnosis was a left posterior communicating artery aneurysm, and treatment included endovascular coiling, blood pressure management, and postoperative monitoring.
-
-## Dialogue Summary
-
-The patient presented with lightheadedness as the chief complaint. Symptoms included intermittent lightheadedness for a few days, primarily occurring when standing up or moving around, and accompanied by occasional dizziness; the patient reported one brief episode of spinning vertigo without nausea or vomiting. The vertigo episode was described as a spinning sensation lasting a short while, and sitting down helped alleviate the lightheadedness. No history of fainting, blurred vision, chest pain, weakness, or difficulty with daily activities was reported. The doctor assessed that the symptoms were consistent with orthostatic hypotension, possibly related to dehydration or mild inner ear disturbance, and noted the brief vertigo could be benign and inner ear-related. The doctor recommended increasing fluid intake, standing up slowly, and monitoring for worsening symptoms such as fainting or persistent vomiting. Blood pressure measurement in both sitting and standing positions was offered to further evaluate for orthostatic changes.
-
-## STS Evaluation
-
-- **STS Score**: 0.935
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 57.6s
+- **Processing Time**: 87.8s

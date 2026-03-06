@@ -16,96 +16,177 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.980
+- Score: 0.865
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.980
-- **Justification**: The dialogue is highly plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about nerve function, circulation, pain, wound contamination, and functional impact, all relevant to an open tibia-fibula fracture with neurovascular compromise. The patient responses are coherent and match the clinical scenario. The doctor provides clear, accurate explanations and urgent recommendations without introducing unsupported diagnoses or treatments. There are no obvious hallucinations or contradictions.
+- **Score**: 0.865
+- **Justification**: Combined score 0.86 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.68 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.682 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For improvement, the patient could specify the mechanism of injury or clarify timing if able, but uncertainty is realistic in acute trauma.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: Doctor is thorough and communicates well. For improvement, could briefly mention the importance of not attempting to walk or move the injured limb, and clarify that emergency services (e.g., ambulance) may be needed if not already in a medical setting.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: Dialogue flows logically from history-taking to assessment to advice. The exchange is balanced and avoids unnecessary repetition.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is appropriate and clear. For maximal clarity, doctor could explicitly state that this is a limb-threatening emergency requiring immediate hospital care, and confirm whether the patient is already in a medical facility or needs help accessing emergency services.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi there, what brings you in today? Can you tell me what’s been going on and how it’s impacting you?
+**Doctor**: Hi, good to meet you. What brings you in today?
 
-**Patient**: I came in because I have an open fracture in my left lower leg. It’s making it hard for me to get around and I’m pretty concerned about it.
+**Patient**: I came in because I had a crush injury to my left leg. It's pretty painful and I'm concerned about how it's feeling right now.
 
-**Doctor**: Let me ask about your mobility—are you able to move your toes or foot at all, and have you noticed any numbness or tingling? This helps me understand if there might be nerve or blood flow issues.
+**Doctor**: Let me ask about the timing—when did this injury happen, and what exactly caused it?
 
-**Patient**: I can’t lift my foot up at all, and I’ve lost feeling over the top of my foot.
+**Patient**: I’m not exactly sure on the timing, but it happened pretty recently. It was caused by something heavy falling onto my left leg.
 
-**Doctor**: Let me ask about circulation—have you noticed if your foot feels colder than usual or looks pale or bluish compared to your other foot? This helps me assess blood flow to the area.
+**Doctor**: Let me ask about your current symptoms—are you able to move your foot and toes normally, or have you noticed any numbness, tingling, or unusual coolness in your foot since the injury?
 
-**Patient**: Yes, my left foot does feel cooler than usual compared to the other one. I haven’t noticed any bluish color, but it’s definitely not as warm.
+**Patient**: I can't move my foot upwards, and I've lost feeling in part of my foot. Also, my foot feels cooler than usual since the injury happened.
 
-**Doctor**: Let me ask about the pain—on a scale from 1 to 10, how intense is it right now? This will help me understand how much discomfort you’re in and guide next steps.
+**Doctor**: Got it. How would you describe the pain—sharp, throbbing, or something else? And on a scale from 1 to 10, how bad is it right now?
 
-**Patient**: Right now, I’d rate the pain around a 7. It’s pretty uncomfortable, especially when I try to move. Thanks for checking—what do you think the next steps will be?
+**Patient**: The pain is pretty intense—I'd describe it as sharp and constant. Right now, I'd rate it about an 8 out of 10. I also can't lift my foot up, and there's a patch where I can't feel anything.
 
-**Doctor**: Got it. Has the swelling or discomfort in your leg been getting worse since the injury, or has it stayed about the same? This helps me gauge if things are progressing or stabilizing.
+**Doctor**: Let me ask about any visible injuries—do you notice any open wounds, bleeding, or bones that look out of place where the injury happened?
 
-**Patient**: The swelling and discomfort have pretty much stayed the same since it happened. I haven’t noticed it getting worse.
+**Patient**: There’s an open wound on my lower leg, and it looks pretty bad. I can see bleeding and the area doesn’t look normal—I think the bones might be out of place.
 
-**Doctor**: Got it. Since this is an open injury, have you noticed any dirt, debris, or objects in the wound? This is important because open fractures are at risk for infection if anything has gotten inside.
+**Doctor**: Let me ask about your ability to put weight on your leg—are you able to stand or walk at all since the injury, or is that too painful or impossible?
 
-**Patient**: No, I haven’t seen any dirt or objects in the wound. It looks pretty clean to me.
+**Patient**: I haven’t been able to stand or walk at all since the injury—it’s way too painful, and my foot just doesn’t move like it should.
 
-**Doctor**: Tell me more about how this is affecting your ability to do daily tasks—are you able to stand or put any weight on your leg at all, or is it completely preventing you from moving around?
+**Doctor**: Got it. Since you mentioned your foot feels cooler and you see bleeding and an abnormal appearance, have you noticed any changes in the color of your toes or foot—like turning pale, blue, or very dark—since the injury?
 
-**Patient**: I can’t put any weight on my left leg at all, so it’s completely stopping me from moving around. The cool foot and not being able to lift it make it even harder.
+**Patient**: Yes, my foot and toes look paler than usual, especially compared to the other side. I haven’t noticed them turning blue or very dark, just more pale and cooler.
 
-**Doctor**: Let me ask about how long ago this injury happened. Knowing the timing helps determine the urgency and best course of action for your leg.
+**Doctor**: Let me ask about any bleeding—has it been steady, or did it slow down after a while? Also, have you done anything to cover or clean the wound since the injury?
 
-**Patient**: I’m not sure exactly, but it happened earlier today. I haven’t been able to walk since then.
+**Patient**: The bleeding was steady at first but slowed down after a while. I did cover the wound as best as I could right after it happened, but I haven’t been able to clean it much since then.
 
-**Doctor**: From what you've described—an open injury with difficulty moving your foot, numbness, and a cooler temperature in your foot—this is a serious situation. These signs suggest possible nerve and blood vessel involvement, which can happen with certain types of fractures. The fact that you can't lift your foot and have lost sensation points to possible nerve injury, and the change in temperature could indicate compromised blood flow.
+**Doctor**: Based on what we've discussed, your symptoms—especially the inability to move your foot upwards, loss of sensation, pale and cool foot, and the abnormal appearance with an open wound—suggest a serious injury that likely involves damage to both the bones and possibly the nerves and blood vessels in your lower leg. When a heavy object crushes the leg and you notice these changes, it can sometimes mean that blood flow to the foot is compromised, which is why your foot feels cooler and looks paler.
 
-Open fractures also carry a high risk of infection, even if the wound appears clean. Early treatment is crucial to prevent complications like infection or permanent damage to nerves and blood vessels.
+This kind of injury goes beyond a simple bruise or sprain. It's important to address it quickly to prevent long-term damage to your leg and foot. You may need imaging (like an X-ray) and urgent medical attention to check for broken bones, nerve injury, and blood vessel problems.
 
-The next steps should involve urgent medical attention. This type of injury typically requires immediate evaluation in an emergency setting, where you may need imaging, antibiotics, and possibly surgery to clean the wound and repair any damage. While you wait for care, try to keep your leg still and elevated if possible, and avoid eating or drinking in case procedures are needed.
+My strong recommendation is that you seek emergency care right away. Keep your leg elevated if possible, avoid putting any weight on it, and leave any dressings in place. If you notice increasing pain, your toes turning blue or black, or worsening numbness, these are warning signs that need immediate attention.
 
-If you notice your foot becoming more pale, bluish, or increasingly cold, or if you develop fever or worsening pain, these are warning signs that need immediate attention. Let me know if you have any questions about what to expect or how to keep yourself safe until you get care.
+Let me know if you have questions or need help getting to an emergency facility.
 
-**Patient**: Thanks for explaining all that—it helps me understand what’s going on. I’ll make sure to keep my leg elevated and still like you said. Is there anything specific I should watch for with the loss of sensation over the top of my foot, or is that already part of what you mentioned?
+**Patient**: Thanks for explaining all that. What kind of treatment should I expect when I get to the emergency room?
 
-**Doctor**: Based on what we've discussed, your injury is concerning for both nerve and blood vessel involvement, in addition to the open fracture itself. Loss of sensation over the top of your foot, combined with not being able to lift it, suggests that the nerves controlling movement and feeling in your foot may be affected. This is important because nerves can sometimes recover if treated promptly, but delays can lead to lasting problems.
+**Doctor**: Based on everything you've described—the open wound, difficulty moving your foot, numbness, and changes in color and temperature—my main concern is that you may have a significant fracture in your lower leg, possibly involving the tibia and fibula, with injury to nearby nerves and blood vessels. When these structures are affected, it's important to act quickly to preserve the function of your leg and foot.
 
-What I want you to watch for now is any change in the color of your foot (especially if it turns pale or blue), increasing coolness, or worsening numbness. Also, if you notice your toes becoming very swollen or you develop severe pain that doesn't improve with rest, these could be warning signs that the circulation is getting worse.
+In the emergency room, the team will likely start by carefully assessing your circulation, sensation, and movement. They'll probably order X-rays to look for broken bones and may use other imaging to check blood flow. You might need medications for pain and antibiotics to help prevent infection. If the bones are out of place, they may need to be realigned (sometimes called "reduction"), and if blood vessels are affected, you could need surgery to repair them. Open wounds often require cleaning (debridement) in a sterile environment.
 
-The most important thing is to keep your leg as still as possible and seek urgent medical care. Early treatment can make a big difference in preventing complications such as infection or permanent nerve damage. If you have any questions or concerns before you get to the hospital, let me know—otherwise, getting prompt care is the priority.
+The main goals are to restore blood flow, prevent infection, and stabilize the fracture so your leg can heal properly. This is why urgent treatment is so important.
 
-**Patient**: Thanks for breaking that down for me. I’ll keep an eye out for any changes in color or sensation and make sure to get urgent care. I appreciate you explaining everything so clearly.
+If you have any questions about what to expect or how to prepare, let me know—I'm here to help you understand each step.
+
+**Patient**: Thanks for breaking that down for me. If I do need surgery, how long does recovery usually take, and will I be able to use my leg normally again?
+
+**Doctor**: Recovery after surgery for a significant leg injury like this can vary, but generally, it often takes several weeks to a few months for the bone and soft tissues to heal. Early on, you may need to keep weight off your leg, use crutches, and wear a cast or brace. Physical therapy is usually an important part of regaining strength, movement, and function.
+
+Whether you'll be able to use your leg normally again depends on the extent of the injury to bones, nerves, and blood vessels, as well as how quickly treatment is started. Many people do recover good function, especially with prompt care and rehabilitation, but sometimes there can be some lasting weakness, numbness, or stiffness.
+
+The emergency team will be able to give you more specific information once they've evaluated your injury fully. Focusing on getting care as soon as possible gives you the best chance for a strong recovery. If you have concerns about pain or mobility during recovery, bring them up with your care team—they can help guide you through each step.
+
+**Patient**: Thanks, that's helpful to know. Will I need to stay in the hospital for a while after the surgery, or is it possible to go home sooner?
+
+**Doctor**: Hospital stay length depends on the type of surgery and how quickly you recover, but with more complex injuries, a few days in the hospital is common for monitoring and early care. The team will let you know what to expect and work to get you home as soon as it's safe. If you have more questions during recovery, don’t hesitate to reach out.
+
+**Patient**: That makes sense. I don’t have any more questions right now—thank you for explaining everything so clearly.
+
+**Doctor**: Feel free to reach out if anything changes or you have more questions. Take care.
+
+**Patient**: Thanks for your help. If anything else comes up, I'll reach out.
+
+**Doctor**: Absolutely—wishing you a smooth recovery.
+
+**Patient**: I appreciate that. I’ll focus on getting treatment right away. Thanks again for your support.
+
+**Doctor**: Wishing you all the best as you get treated.
+
+**Patient**: Thank you, I appreciate it. I’ll follow your advice and get treatment right away.
+
+**Doctor**: Got it. Wishing you a smooth recovery—take care.
+
+**Patient**: Thanks, I appreciate all your help today. I'll make sure to get to the emergency room as soon as possible.
+
+**Doctor**: Absolutely—wishing you a safe and speedy recovery.
+
+**Patient**: Thanks again. I'll get everything checked out right away.
+
+**Doctor**: Of course. Wishing you all the best moving forward.
+
+**Patient**: Thanks for everything. I’ll head in for treatment now.
+
+**Doctor**: Safe travels to the emergency room—you’re doing the right thing.
+
+**Patient**: Thanks for your support. I’ll get to the emergency room now.
+
+**Doctor**: Safe travels—wishing you the best as you get care.
+
+**Patient**: I appreciate your support. I’ll head straight there now and get checked out.
+
+**Doctor**: Absolutely—take care, and don’t hesitate to reach out if you need anything further.
+
+**Patient**: Thanks, I will. I appreciate your help and information today.
+
+**Doctor**: Of course. Wishing you all the best.
+
+**Patient**: Thank you, I appreciate your support. I'll make sure to follow through with the treatment plan.
+
+**Doctor**: Feel free to reach out if anything changes or you have more questions.
+
+**Patient**: I appreciate that. If anything changes or I have more questions, I'll definitely reach out. Thanks again for your help today.
+
+**Doctor**: Absolutely—take care, and don’t hesitate to reach out if anything changes.
+
+**Patient**: Thanks, I will. I feel better knowing what to expect now.
+
+**Doctor**: Glad to hear that—wishing you a smooth experience ahead.
+
+**Patient**: Thanks, I appreciate all your help today. I'll focus on getting the care I need.
+
+**Doctor**: Of course. Wishing you all the best as you get the care you need.
+
+**Patient**: Thanks, I appreciate it. I'll make sure to follow through with getting care right away.
+
+**Doctor**: Absolutely—take care and all the best.
+
+**Patient**: Thanks again for your support. I’ll make sure to get the care I need right away.
+
+**Doctor**: Absolutely—wishing you a smooth recovery ahead.
+
+**Patient**: Thanks, I’ll get to the emergency room now and focus on following the treatment plan.
+
+**Doctor**: Of course. Wishing you all the best as you get care.
+
+**Patient**: Thanks, I’ll focus on getting treated and following the recommendations. If I have more questions during recovery, I’ll reach out.
+
+**Doctor**: Of course—wishing you a smooth recovery.
+
+**Patient**: Thank you. I’ll head to the emergency room now and follow the instructions you gave me.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 20
-- **Word Count**: 949
-- **Doctor Turns**: 10
-- **Patient Turns**: 10
-
-## EHR Summary
-
-The patient is a 34-year-old male presenting with a chief complaint of crush injury to the left lower extremity after being struck and pinned between vehicles. He experienced a large degloving injury and a displaced open tibia fracture of the left leg, with moderate discomfort noted on examination. His past medical history includes anxiety, and he takes Paxil; there are no known drug allergies. On physical exam, he was afebrile, with stable vital signs and slight tachycardia, but otherwise unremarkable findings. The documented diagnosis was crush injury to the left lower extremity. Treatment included open reduction with external fixation, vascular bypass grafting, internal plate placement, multiple skin grafts, and a myocutaneous free muscle flap. The patient was evaluated and managed by Orthopedics, Vascular Surgery, and Plastic Surgery teams.
-
-## Dialogue Summary
-
-The patient presented with an open fracture of the left lower leg, reporting difficulty with mobility and concern about the injury. Symptoms included inability to lift the foot, loss of sensation over the top of the foot, cooler temperature in the left foot compared to the right, pain rated at 7/10 (especially with movement), inability to bear weight, and stable swelling and discomfort since the injury occurred earlier that day. The patient denied noticing any dirt or debris in the wound and stated the wound appeared clean. On examination, the doctor noted signs concerning for nerve injury (foot drop and sensory loss) and possible compromised blood flow (cooler foot), with no evidence of worsening swelling or visible debris. The assessment was an open fracture with suspected nerve and blood vessel involvement, carrying a high risk for infection and potential for permanent damage if not treated promptly. The doctor recommended urgent medical attention, including possible imaging, antibiotics, and surgery, and advised keeping the leg still and elevated while awaiting care. The patient was instructed to watch for changes in foot color (pale or blue), increasing coolness, worsening numbness, severe pain, or swelling as warning signs requiring immediate attention. Early treatment was emphasized as critical to prevent complications such as infection or permanent nerve damage.
-
-## STS Evaluation
-
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **Turn Count**: 60
+- **Word Count**: 1663
+- **Doctor Turns**: 30
+- **Patient Turns**: 30
 
 ## Processing Information
 
-- **Processing Time**: 66.9s
+- **Processing Time**: 278.6s

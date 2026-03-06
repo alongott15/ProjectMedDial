@@ -16,88 +16,99 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.928
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the patient's profile and mild case type. The doctor asks appropriate questions about fatigue, mobility, appetite, and related symptoms, and the patient responds in a way that matches her history and current complaints. The doctor's reasoning and advice are grounded in the context, avoiding unsupported diagnoses or interventions. There are no obvious hallucinations or contradictions.
+- **Score**: 0.928
+- **Justification**: Combined score 0.93 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.89 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.895 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For improvement, the patient could specify approximate weight loss or mention any recent changes in medications or mood, if prompted.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: Doctor's approach is thorough and empathetic. For improvement, the doctor could explicitly mention reviewing recent medication changes or ask about mood/depression, given the age and symptom profile.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, moving from general symptoms to specific impacts on daily life and then to practical advice. For even smoother flow, the doctor could summarize next steps or offer to coordinate a follow-up appointment.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns detected. The advice is clear and appropriate for a light case. The doctor appropriately advises monitoring for new symptoms and reviewing medications with a provider.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's nice to see you today. How have you been feeling lately? Is there anything in particular that's been bothering you or any changes you've noticed in your health?
+**Doctor**: Hello, it's nice to see you today. What’s been bothering you or bringing you in?
 
-**Patient**: Lately, I've just been feeling a lot more tired than usual. That's the main thing I've noticed.
+**Patient**: I’ve been feeling more tired lately, and it’s been getting harder for me to get around. That’s really what brought me in today.
 
-**Doctor**: Let me ask about your energy levels—does resting or taking naps help you feel refreshed, or do you still feel tired even after a good night's sleep?
+**Doctor**: Let me ask about your daily routine—has this tiredness or difficulty getting around made it harder for you to do things like shopping, cooking, or taking care of yourself at home?
 
-**Patient**: Even after a good night's sleep, I still feel pretty tired most of the time. Resting helps a bit, but not as much as I'd like.
+**Patient**: I’ve noticed that it’s been tougher for me to do things around the house, like moving from room to room. Shopping and cooking take more effort than before.
 
-**Doctor**: Got it. Has this tiredness made it harder for you to do things around the house or get out and about, compared to how you were feeling before?
+**Doctor**: Let me ask about when you first noticed these changes—how long have you been feeling more tired and finding it harder to get around?
 
-**Patient**: Yes, it has definitely made it harder to get around and do things like I used to. My mobility just isn't what it was before.
+**Patient**: I’m not exactly sure when it started, but it feels like it’s been getting worse over the past few weeks. I just noticed I was more tired and moving around got harder.
 
-**Doctor**: Let me ask about other symptoms—have you noticed any changes in your appetite, weight, or mood along with feeling more tired?
+**Doctor**: Let me ask about other symptoms—have you had any shortness of breath, chest discomfort, or swelling in your legs or feet along with this tiredness?
 
-**Patient**: Yes, I've lost some weight recently, though I can't say exactly how much. My appetite isn't what it used to be either.
+**Patient**: I haven’t noticed any swelling or chest discomfort. The main thing has been feeling more and more fatigued, and I’m not able to move around like I used to.
 
-**Doctor**: Let me ask about when this began—how long have you been experiencing this increase in tiredness and change in appetite? Did it come on suddenly or has it been gradually getting worse?
+**Doctor**: Got it. Have you had any changes in your appetite, weight, or sleep over the past few weeks? Sometimes these can give us clues about what might be causing your fatigue.
 
-**Patient**: I’m not sure exactly, but it feels like it’s been getting gradually worse over the past few weeks. The tiredness and loss of appetite kind of crept up on me.
+**Patient**: I have lost some weight recently, but I haven’t really noticed any big changes with my appetite or sleep.
 
-**Doctor**: Alright. Have you had any issues with shortness of breath, chest discomfort, or swelling in your legs or feet along with feeling more tired? Sometimes these can be related and help us understand what's going on.
+**Doctor**: Alright. Have you had any recent illnesses, like a cold or infection, or have you noticed feeling more weak or unsteady on your feet?
 
-**Patient**: No, I haven't had any shortness of breath, chest discomfort, or swelling in my legs or feet. It's mainly just the fatigue, less mobility, and the weight loss.
+**Patient**: I haven’t had any recent illnesses like a cold or infection. I do feel weaker, and that’s made it harder to move around, but I haven’t felt especially unsteady on my feet.
 
-**Doctor**: Let me ask about your daily routine—are you still able to get out of bed and move around on your own, or do you need more help than usual with activities like bathing, dressing, or preparing meals?
+**Doctor**: Let me ask about your energy levels throughout the day—do you feel more tired in the morning, afternoon, or is it about the same all day?
 
-**Patient**: I can still get out of bed and move around on my own, but I do need more help with things like bathing and preparing meals than I used to. It just takes more effort these days.
+**Patient**: My energy seems low throughout the day—it doesn’t really change much from morning to evening. I just feel tired most of the time.
 
-**Doctor**: Let me ask about your fluids—have you been drinking about the same amount as usual, or have you noticed you're drinking less or more than before? Sometimes changes in hydration can contribute to fatigue.
+**Doctor**: Let me ask about your activity—does anything in particular seem to trigger your tiredness or make it worse, such as walking, climbing stairs, or after meals? Or is it present even when you’re resting?
 
-**Patient**: I've been drinking about the same amount as usual. I haven't really noticed any big changes with how much fluid I'm taking in.
+**Patient**: Walking and climbing stairs definitely make me feel more tired. Even when I’m just sitting or resting, though, the fatigue is still there.
 
-**Doctor**: Based on what we've discussed, it sounds like your fatigue and reduced appetite have gradually increased over the past few weeks, and it's starting to affect your ability to manage daily tasks. Since you haven't noticed issues like shortness of breath or swelling, this points away from certain heart or lung causes. Often, in older adults, gradual tiredness and weight loss can be related to things like mild infections, changes in nutrition, side effects from medications, or sometimes mood changes such as low spirits.
+**Doctor**: Based on what we've discussed, it sounds like you’ve been experiencing steadily increasing tiredness and weakness over several weeks, which is now affecting your ability to do everyday tasks. You haven’t had any recent illnesses, pain, or swelling, but you have noticed some weight loss.
 
-What often happens is that when your body isn't getting enough energy from food, or if you're less active, you can feel more tired and need more help with daily routines. It's good that you're still able to move around on your own.
+What often happens in cases like this is that there can be several possible causes—sometimes it’s related to things like low blood counts (anemia), changes in your thyroid, or even nutritional deficiencies, especially if you’ve lost weight. Occasionally, underlying heart or lung conditions can contribute, but you haven’t described symptoms that strongly suggest those right now.
 
-At this stage, I recommend keeping track of your weight and appetite, and trying to eat small, frequent meals with foods you enjoy. If you notice any new symptoms—like fever, confusion, pain, or ongoing nausea—let someone know promptly. It would also be helpful to review your medications and recent health history with your healthcare provider soon, just to check for any changes that could be contributing.
+My recommendation is to start with some basic blood tests to check for anemia, thyroid function, and general health markers. In the meantime, make sure you’re eating well, staying hydrated, and try to keep moving safely as much as you can. If you notice new symptoms—like shortness of breath, chest pain, dizziness, or swelling—those would be reasons to seek care sooner.
 
-Let me know if you have questions about what we've discussed or if there's anything else you've noticed recently.
+For now, let’s arrange those tests and see what they show. Often, we can identify a reversible cause for fatigue and weakness in older adults. Does that plan sound reasonable to you?
 
-**Patient**: Thank you for explaining all that. I’ll try to pay more attention to my weight and eating, like you suggested. If I notice anything new or different, I’ll make sure to mention it.
+**Patient**: Thank you for explaining all that. How soon will I get the results from these blood tests, and what should I expect next?
+
+**Doctor**: From what you’ve described, I’m considering a few possibilities for why you’re feeling this way. When someone experiences gradually increasing tiredness and finds daily activities more challenging—especially with some recent weight loss—it can sometimes be due to things like anemia (low red blood cells), changes in thyroid function, or even effects from nutrition or dehydration. Occasionally, underlying medical issues can contribute, but you haven’t mentioned warning signs like chest discomfort or swelling, which is reassuring.
+
+The next step is to do some basic blood tests. These will check for anemia, your thyroid levels, and general organ function. Most results come back within a few days—often 2-3 business days. Once we have those results, we’ll review them together and decide if any further evaluation or treatment is needed.
+
+In the meantime, continue eating well and drinking fluids, and try to keep up with gentle activity as you’re able, but don’t push yourself if you feel overly tired. If you notice new symptoms like sudden shortness of breath, chest pain, or dizziness, let us know right away.
+
+We’ll follow up soon after your tests are done to discuss the results and next steps. Does that help clarify what to expect?
+
+**Patient**: Thanks for explaining everything so clearly. If the blood tests do show something like anemia or a thyroid issue, what kinds of treatments or changes might I need to make?
+
+**Doctor**: Let me share my thoughts on what we might do if your tests show something like anemia or a thyroid issue. If anemia is found, treatment often depends on the cause—it could be as simple as taking iron supplements or adjusting your diet if it’s due to low iron, or addressing other vitamin deficiencies if those are present. For a thyroid problem, treatment might involve medications to help balance your thyroid hormone levels, which can often improve energy and strength.
+
+The good news is that these conditions are common and usually manageable with straightforward treatments. We’ll tailor any recommendations based on what we find in your results. In the meantime, focus on maintaining your nutrition and gentle activity, and let us know about any new or worsening symptoms.
+
+Does that help you feel more prepared for what might come next?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 722
-- **Doctor Turns**: 9
-- **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is an 81-year-old female presenting with increasing fatigue, decreased appetite, and weight loss. She has a history of multiple episodes of congestive heart failure, significant mitral regurgitation, chronic atrial fibrillation (on Coumadin), hypertension, aortic insufficiency, COPD, hypercholesterolemia, rheumatic heart disease, paroxysmal atrial fibrillation, left retinal artery embolus, cardiomyopathy, and pulmonary hypertension. On admission, she was transitioned from Coumadin to IV heparin in preparation for a procedure, awaiting normalization of her INR. Cardiac catheterization revealed a cardiac index of 1.4, 30–60% RCA lesion, 4+ mitral regurgitation, and positive MAC; TEE showed mild aortic insufficiency, moderate mitral regurgitation, mild mitral stenosis, moderate tricuspid regurgitation, an ejection fraction of 35–40%, and a dilated left atrium without thrombus. The documented clinical impression is decompensated heart failure with significant valvular disease and chronic atrial fibrillation. Treatment included discontinuation of Coumadin and initiation of IV heparin for anticoagulation management while awaiting INR normalization. No drug allergies were reported.
-
-## Dialogue Summary
-
-The patient presented with increased tiredness as the chief complaint. Symptoms discussed included persistent fatigue even after a good night's sleep, reduced mobility, recent weight loss, and decreased appetite, all of which have gradually worsened over the past few weeks. The patient denied shortness of breath, chest discomfort, swelling in the legs or feet, and reported no changes in fluid intake. The patient noted needing more help with daily activities such as bathing and meal preparation but is still able to get out of bed and move independently. No specific medical history, medications, or allergies were mentioned during the conversation. The doctor assessed that the gradual onset of fatigue and weight loss, without cardiorespiratory symptoms, may be related to mild infections, nutritional changes, medication side effects, or mood changes. The doctor recommended monitoring weight and appetite, eating small frequent meals, and promptly reporting any new symptoms such as fever, confusion, pain, or ongoing nausea. A review of medications and recent health history with a healthcare provider was also advised.
-
-## STS Evaluation
-
-- **STS Score**: 0.933
-- **Similarity Label**: N/A
+- **Turn Count**: 21
+- **Word Count**: 1030
+- **Doctor Turns**: 11
+- **Patient Turns**: 10
 
 ## Processing Information
 
-- **Processing Time**: 63.5s
+- **Processing Time**: 97.3s

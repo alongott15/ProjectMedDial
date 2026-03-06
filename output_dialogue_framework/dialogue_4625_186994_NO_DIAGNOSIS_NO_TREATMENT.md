@@ -16,88 +16,94 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.960
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the patient's profile and mild case type. The doctor asks appropriate questions about fatigue, sleep, weight, activity tolerance, and wheezing, all of which are relevant given the patient's cardiac history and symptoms. The reasoning is logical, and the doctor avoids unsupported diagnoses or interventions. The patient responses are coherent and match the described symptoms. There are no hallucinations or major unsupported content.
+- **Score**: 0.960
+- **Justification**: Combined score 0.96 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=1.00 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 1.000 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For even greater realism, occasional uncertainty or more detail about daily limitations could be added.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: Doctor provides thorough, empathetic questioning and a reasonable summary. To improve, could briefly acknowledge the patient's cardiac history when discussing possible causes of fatigue and wheezing.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is smooth, with logical progression from symptoms to impact on daily life to possible causes and next steps. The closing is supportive and clear.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The doctor appropriately advises monitoring for worsening symptoms and clarifies when to seek further care. Clarity is excellent throughout.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in, and how have you been feeling lately?
+**Doctor**: Welcome—how have you been feeling lately? What brings you in today?
 
-**Patient**: I've just been feeling more tired than usual these past couple of years. That's really the main thing that's been bothering me.
+**Patient**: Lately, I've just been feeling a lot more tired than usual. That's really the main thing that made me want to come in.
 
-**Doctor**: Let me ask about your sleep—have you noticed any changes in how well you’re sleeping, or do you wake up feeling rested? Sometimes fatigue can be related to sleep quality.
+**Doctor**: Let me ask—when you rest or get a good night's sleep, do you feel refreshed, or do you still feel tired during the day?
 
-**Patient**: I usually sleep through the night, but I still wake up feeling tired. I haven't really noticed any big changes with my sleep itself.
+**Patient**: Even after a full night's sleep, I still feel pretty tired during the day. Rest doesn't seem to help much.
 
-**Doctor**: Got it. Have you noticed any changes in your weight or appetite during this time, even small ones? Sometimes shifts in energy levels can be linked to these factors.
+**Doctor**: Let me ask about when this started—how long have you been feeling this way? Has the tiredness been going on for days, weeks, or longer?
 
-**Patient**: Yes, I've noticed I've gained some weight over this time. My appetite hasn't really changed much though.
+**Patient**: It's been going on for quite a while—probably the past couple of years. The tiredness just seems to have gotten worse over time.
 
-**Doctor**: Let me ask about your day-to-day—does taking it easy or getting extra rest help you feel more energized, or do you still feel worn out no matter what you do?
+**Doctor**: Got it. Have you noticed any changes in your weight—either gaining or losing—since this tiredness began?
 
-**Patient**: Getting extra rest doesn't seem to make much difference. I still feel pretty worn out most days, even if I take it easy.
+**Patient**: I have noticed that I’ve gained some weight since the tiredness started. It’s been a gradual increase over time.
 
-**Doctor**: Let me ask about your daily activities—are you able to do things like walking, shopping, or hobbies as easily as before, or have you had to cut back because of your energy levels?
+**Doctor**: Let me ask about your energy levels throughout the day—do you notice that your tiredness is worse at certain times, like in the morning or afternoon, or is it pretty constant all day?
 
-**Patient**: I've definitely had to cut back. Things like walking or shopping take more out of me
+**Patient**: The tiredness is pretty much there all day. I don't really notice it being worse at any specific time—it just sticks with me.
 
-**Doctor**: Alright. Have you noticed any other new symptoms along with the tiredness and needing to cut back—like shortness of breath, swelling in your legs, or feeling down or less interested in things you used to enjoy? Sometimes these can be clues to what's going on.
+**Doctor**: Alright. Have you noticed any other changes, like feeling colder than usual, constipation, dry skin, or changes in your mood? These can sometimes be related to ongoing tiredness and weight changes.
 
-**Patient**: I haven't had any swelling in my legs or felt down. I do get some wheezing when I breathe out, though.
+**Patient**: I haven't noticed anything like feeling colder, constipation, or dry skin. My mood hasn't really changed either. The main things have just been the tiredness and the weight gain.
 
-**Doctor**: Got it. About the wheezing—how long has that been happening, and does anything in particular seem to bring it on, like activity or certain environments? This can help clarify if your breathing is playing a role in your fatigue.
+**Doctor**: Let me ask about your breathing—have you noticed any wheezing, especially when you breathe out, or any shortness of breath?
 
-**Patient**: I've had the wheezing for a while now, I don't remember exactly when it started. It seems to happen more when I'm active, like walking or going up stairs.
+**Patient**: I have noticed some wheezing when I breathe out. I haven't really had much shortness of breath, but the wheezing is there, especially on exhaling.
 
-**Doctor**: Let me ask about your weight gain—has it been gradual over these past couple of years, or did it happen more suddenly? Sometimes the timing can help us figure out if it's related to your energy levels or something else.
+**Doctor**: Got it. When you notice the wheezing, does anything in particular seem to bring it on—like physical activity, being around dust or pets, or changes in the weather? Or is it just there most of the time?
 
-**Patient**: The weight gain has been pretty gradual over the past couple of years. It just slowly crept up on me.
+**Patient**: The wheezing seems to be there most of the time. I haven't noticed anything specific that makes it worse—it just happens on its own.
 
-**Doctor**: Based on what we've discussed, it sounds like your fatigue has been gradually increasing over a couple of years, and you’ve also noticed some wheezing when you’re active. The fact that extra rest doesn’t seem to help and that daily activities are more tiring suggests there may be more going on than just normal aging or lifestyle changes.
+**Doctor**: Based on what we've discussed, it sounds like you've been dealing with ongoing tiredness and gradual weight gain over the past couple of years, along with wheezing when you breathe out. The fact that rest doesn't help, and that the wheezing is persistent, gives me a few clues.
 
-Often, ongoing tiredness with wheezing—especially if it’s worse with activity—can be related to how well your lungs are working. Conditions like asthma or chronic bronchitis can sometimes cause these symptoms, even if you haven’t had them before. Weight gain can also make breathing a bit harder, which could add to feeling tired.
+Often, long-term tiredness and weight changes can be linked to things like low activity levels, changes in metabolism, or sometimes issues with your breathing at night—even if you’re not aware of it. The wheezing you describe, especially if it's mostly when you breathe out, can sometimes be seen in conditions like asthma or other airway issues, even in adults.
 
-At this point, I’d recommend a check-up to listen to your lungs and possibly do a simple breathing test. In the meantime, try to note if the wheezing gets worse or if you develop any new symptoms, like coughing up phlegm, chest pain, or waking at night short of breath.
+Let me ask—have you noticed any changes in your sleep patterns, such as snoring, waking up gasping, or feeling like you stop breathing during sleep? This can help me understand if there's a connection between your breathing and your tiredness.
 
-If you notice any of those warning signs, or if your fatigue gets much worse quickly, it’s important to let your doctor know. Otherwise, gradual changes like yours are common and often manageable once we understand the cause. Does that make sense, or is there anything else you’re concerned about right now?
+**Patient**: I haven't really noticed anything unusual with my sleep—no snoring or waking up gasping that I'm aware of. What should I expect next? Will there be tests to figure out what's going on?
 
-**Patient**: That makes sense to me. I appreciate you explaining it—I'll keep an eye on the wheezing and let you know if anything changes. Thanks for looking into this with me.
+**Doctor**: Let me share my thoughts on what we've discussed. The combination of ongoing tiredness, gradual weight gain, and wheezing that happens when you breathe out suggests there could be a couple of things going on. Sometimes, persistent wheezing points to airway irritation or mild asthma, which can develop in adults and may not always be linked to allergies or triggers. This can sometimes affect sleep quality even if you don't notice it, leading to feeling tired during the day. Weight gain can also contribute to feeling more fatigued.
+
+At this point, I recommend a few steps:  
+1. A physical exam and listening to your lungs to check for any signs of airway narrowing or other issues.
+2. Simple breathing tests (like spirometry) to measure how well your lungs are working and help confirm if asthma or another airway issue is present.
+3. Basic blood work to rule out other causes of tiredness and weight changes, such as thyroid problems or anemia.
+
+In the meantime, try to note if the wheezing gets worse with activity or certain environments, and avoid obvious irritants like smoke or strong fumes. If you develop any shortness of breath, chest pain, or your symptoms worsen quickly, seek care promptly.
+
+Most causes of these symptoms are manageable with the right plan. Once we have results from exams and tests, we can tailor treatment—this might include inhalers if an airway issue is found, and lifestyle adjustments to address energy and weight.
+
+Does this plan make sense? Any questions or concerns about the
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 702
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 841
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 66-year-old male presenting with increased fatigue over the past two years. He also reported weight gain during this period. His medical history is significant for cardiomyopathy, ascending aortic aneurysm, coronary artery disease, prior LAD stent placement, acute myocardial infarction, hypertension, elevated cholesterol, and atrial fibrillation status post cardioversion. Physical exam on admission was notable for a protuberant but non-tender abdomen and an oxygen saturation of 93% on room air; laboratory results showed mild anemia and elevated creatinine and urea nitrogen. Imaging revealed progressive enlargement of the ascending aorta to 5.7 cm at the level of the coronary ostia. The documented diagnosis was ascending aortic aneurysm with underlying cardiomyopathy. He underwent a Bentall procedure for surgical repair of the aorta during this admission. Tylenol allergy was noted, and no new medications or additional recommendations were specified in the note.
-
-## Dialogue Summary
-
-The patient presented with increased fatigue over the past couple of years. Symptoms included persistent tiredness despite sleeping through the night and getting extra rest, gradual weight gain without changes in appetite, and wheezing on exhalation that worsens with activity such as walking or climbing stairs. The patient reported needing to cut back on daily activities due to low energy, but denied swelling in the legs or feelings of depression. No relevant medical history, medications, or allergies were mentioned. The doctor noted that fatigue and activity-related wheezing may be related to lung function, possibly due to conditions like asthma or chronic bronchitis, and that gradual weight gain could contribute to breathing difficulties. The doctor recommended a physical check-up including lung auscultation and a breathing test, and advised the patient to monitor for worsening wheezing or new symptoms such as cough, chest pain, or nighttime shortness of breath, and to report any rapid changes in fatigue. The patient expressed understanding of the plan.
-
-## STS Evaluation
-
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 63.6s
+- **Processing Time**: 89.2s

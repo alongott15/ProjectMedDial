@@ -16,86 +16,113 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.935
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is consistent with the provided patient profile and case type. The doctor asks logical, open-ended questions about the patient's symptoms, explores relevant associated features (balance, dizziness, ear pressure), and summarizes findings in a plausible way. The reasoning is appropriate for a light, common symptom case, and there are no unsupported diagnoses or recommendations. The patient responses are clear and match the profile. There are no hallucinations or major omissions.
+- **Score**: 0.935
+- **Justification**: Combined score 0.94 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.92 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.917 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and volunteers additional symptoms when prompted. For even greater realism, the patient could occasionally express uncertainty or ask clarifying questions.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. For completeness, the doctor could briefly acknowledge the patient's history of brain tumor and diabetes, as these are significant comorbidities, even if not directly relevant to the current mild symptom discussion.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with appropriate follow-up questions and summarization. The conversation could be improved by including a closing plan or next steps (e.g., monitoring symptoms, when to seek further care), but this is not strictly necessary for the section provided.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns are present. The doctor appropriately reassures the patient based on the mild nature of symptoms but does not ignore the context of a brain tumor history. Clarity is maintained throughout.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brings you in—can you tell me more about what’s been bothering you lately?
+**Doctor**: Hello, it's good to meet you today. How have you been feeling lately? What brings you in?
 
-**Patient**: Lately I've been noticing this odd pulsating tightness in my head, and it's got me a bit concerned. That's really the main thing that's been bothering me.
+**Patient**: I've been having this strange tightness in my head that comes and goes. That's mainly why I wanted to get checked out.
 
-**Doctor**: Let me ask about the timing—when did you first notice this sensation, and how often does it happen?
+**Doctor**: Let me ask about the sensation—does the tightness feel pulsatile, like a throbbing, or is it more steady? And have you noticed any issues with your balance when this happens?
 
-**Patient**: I first noticed the pulsating tightness maybe a couple of weeks ago. It comes and goes throughout the day, not really tied to anything specific as far as I can tell.
+**Patient**: The tightness does feel kind of pulsatile, like it's throbbing. I have noticed my balance isn't great when this happens—I get a bit unsteady.
 
-**Doctor**: Let me ask about other symptoms—have you noticed any changes in your balance, vision, or any unusual sensations along with this tightness?
+**Doctor**: Let me ask about possible triggers—have you noticed if certain activities, stress, or changes in your environment seem to bring on this tightness or unsteadiness?
 
-**Patient**: Yes, I've definitely noticed some problems with my balance, and I get dizzy at times too. Those have been happening along with the tightness.
+**Patient**: I haven't really noticed any specific triggers. The tightness and balance problems just sort of come on their own—I can't link them to anything in particular.
 
-**Doctor**: Got it. When you feel off balance or dizzy, does it ever get severe enough that you need to sit or hold onto something? Or is it more of a mild sensation?
+**Doctor**: Alright. How much is this affecting your daily activities—are there times when you need to stop what you’re doing or sit down because of the tightness or unsteadiness?
 
-**Patient**: It's usually mild—I haven't needed to sit down or grab onto anything. The dizziness and balance issues are there, but they're not severe.
+**Patient**: Sometimes I do have to stop what I'm doing, especially if I feel dizzy or my balance gets worse. It's made certain things harder, like walking around or bending over.
 
-**Doctor**: Alright. Have you noticed if the sensation or dizziness gets worse with certain activities, like standing up quickly, bending over, or after being very active?
+**Doctor**: Let me ask about when this first started—how long have you been experiencing these episodes of tightness and unsteadiness?
 
-**Patient**: I haven't really noticed a pattern—it doesn't seem to get worse when I stand up quickly or move around. The dizziness and tightness just sort of come and go regardless of what I'm doing.
+**Patient**: I can't say exactly when it began, but it's been going on for a little while now. The episodes of pulsatile tightness and poor balance have become more noticeable recently.
 
-**Doctor**: Got it. One more question—how much are these sensations impacting your daily activities or your ability to focus at work or home?
+**Doctor**: Let me ask about other symptoms—have you had any nausea or vomiting when these episodes occur? And do you ever notice headaches, especially in the front or back of your head, along with the tightness?
 
-**Patient**: These symptoms do make it harder to focus, especially when the headaches or dizziness hit. I can still get through my day, but it's definitely distracting and slows me down.
+**Patient**: I haven't had any nausea or vomiting with these episodes. I do get headaches though—they're mainly in the middle of my forehead and sometimes the pain goes to the back of my head.
 
-**Doctor**: Let me ask about the sensation itself—would you describe the tightness as painful, or is it more of a pressure without significant pain? And on a scale from 1 to 10, how uncomfortable does it get at its worst?
+**Doctor**: Got it. When these episodes happen, do you notice the dizziness or balance issues more when you stand up quickly, turn your head, or change positions? Or does it come on regardless of what you're doing?
 
-**Patient**: The tightness is more of a pressure, but I do get these mid-frontal headaches that spread toward the back of my head. At its worst, the discomfort is probably around a 6 out of 10. I also notice some pressure in my right ear along with it.
+**Patient**: The dizziness and balance issues can happen no matter what I'm doing. It's not just when I stand up or move around—they seem to come on randomly.
 
-**Doctor**: Let me ask about the ear pressure you mentioned—have you had any recent cold symptoms, allergies, or changes in hearing on that side? Sometimes ear issues can contribute to sensations of pressure and even balance changes.
+**Doctor**: Let me ask about your headaches—do you ever experience any pressure or discomfort in your ears, especially on one side, when the tightness or pain is present?
 
-**Patient**: No, I haven't had any cold symptoms or allergies, and I haven't noticed changes in my hearing. It's mainly just that pressure feeling in my right ear.
+**Patient**: I do feel a sense of pressure in my right ear when the headaches and tightness are happening. It's mostly on that side.
 
-**Doctor**: Based on what we've discussed, it sounds like you’re dealing with a recurring sensation of pressure in your head, occasional headaches, and some balance issues, with a bit of ear pressure—all without clear triggers or any recent illness. The fact that these symptoms are distracting but not disabling is somewhat reassuring.
+**Doctor**: From what we've discussed, your symptoms suggest a common type of headache, possibly tension or migraine-related, with some features that might involve your inner ear, given the pressure sensation. The pulsatile tightness and balance issues, along with ear pressure, can sometimes be triggered by stress, dehydration, or changes in sleep patterns, but in your case, there doesn’t seem to be a clear pattern or trigger.
 
-What often happens with these types of symptoms is that they can be related to tension-type headaches or even something like inner ear pressure, which can affect your sense of balance and cause that fullness sensation. The absence of severe dizziness, hearing loss, or other neurological symptoms is a good sign.
+It’s reassuring that you haven’t had nausea or vomiting, and your symptoms—while bothersome—aren’t associated with severe warning signs like vision changes or weakness. Sometimes, ear pressure can contribute to balance disturbances if the inner ear is involved.
 
-Still, I’d like to know—over the past couple of weeks, have these symptoms been getting better, staying the same, or gradually worsening? This helps me understand if things are heading in the right direction or if we need to consider further evaluation.
+My initial assessment is that you’re experiencing a likely tension-type headache with possible mild vestibular involvement (from the ear). For management, I recommend:
+- Staying hydrated and maintaining regular meals.
+- Trying over-the-counter pain relief (such as acetaminophen or ibuprofen) if the discomfort is significant.
+- Practicing relaxation techniques to reduce any possible stress-related triggers.
+- Avoiding sudden movements if you feel unsteady.
 
-**Patient**: They've pretty much stayed the same over the past couple of weeks—haven't really gotten better or worse. Thanks for explaining things; it's helpful to know what might be causing these symptoms.
+If you notice new symptoms—such as double vision, severe weakness, confusion, or if the headaches become much more severe—please seek urgent evaluation. Otherwise, keeping track of when these episodes happen and any possible triggers can help guide future care.
+
+Let me know if you have any questions or want to discuss any aspect of this plan further.
+
+**Patient**: Thanks for explaining that. With the pressure I’m feeling in my right ear and the balance issues, is there anything specific I should avoid doing, like driving or working out?
+
+**Doctor**: Based on what we've discussed, your symptoms seem to be affecting your balance at times, especially with the ear pressure involved. When balance is unreliable, it's wise to take extra precautions with activities that require full alertness and coordination.
+
+For now, I recommend avoiding driving until you're confident the episodes aren't occurring while behind the wheel. With exercise, stick to activities where you can stop safely if you feel unsteady—walking on flat surfaces is fine, but avoid running or anything where a sudden loss of balance could lead to injury. If you notice the pressure or dizziness worsening during activity, pause and rest.
+
+Let me share my thinking: sometimes inner ear pressure can temporarily affect your sense of balance, and it's safest to limit activities that could put you at risk until things improve. If these symptoms persist or worsen, it would be helpful to have your ears and balance checked in more detail.
+
+Have you ever experienced anything similar in the past, or is this a new issue for you?
+
+**Patient**: This is the first time I've had these kinds of symptoms. What should I expect next—will I need any special tests to figure out what's going on?
+
+**Doctor**: From what you've told me, your symptoms point toward a likely tension-type headache with some mild inner ear involvement, which can explain the episodes of balance problems and ear pressure. These are fairly common issues and often resolve with simple measures, but because you're experiencing balance disturbances and ear pressure for the first time, it's reasonable to monitor things closely.
+
+Let me walk you through my reasoning: Headaches that cause tightness and throbbing can sometimes be related to muscle tension or migraine, and ear pressure may affect your sense of balance. Since your symptoms aren't linked to severe warning signs like vision changes or weakness, and you haven't had nausea or vomiting, this suggests a benign cause. However, the balance issues make it wise to be cautious.
+
+You don't necessarily need special tests right away unless your symptoms worsen or you develop new concerns. For now, I recommend:
+- Staying hydrated and getting regular rest.
+- Using over-the-counter pain relief if needed.
+- Avoiding activities where a sudden loss of balance could put you at risk, like driving or strenuous exercise.
+- Keeping a symptom diary to track when episodes happen and any possible triggers.
+
+If your symptoms persist, become more severe, or you notice new issues like hearing loss, severe dizziness, or vision changes, it would be appropriate to see a healthcare provider for further evaluation—possibly including an ear exam or balance testing.
+
+Most people with these symptoms improve with simple self-care. If you have any questions about managing these episodes or notice changes, let me know.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 657
-- **Doctor Turns**: 9
-- **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 53-year-old man presenting for evaluation of a brain tumor. He reported a history of pulsatile tightness, poor balance, dizziness, and later developed mid-frontal headaches radiating to the back of his head, along with pressure in his right ear; these symptoms were not relieved by antibiotics or physical therapy. His past medical history includes insulin-dependent diabetes, angina, and prior angioplasty with three stent placements. Physical examination was notable for stable vital signs and a normal neurological exam, including intact cognition, language, and cranial nerves. Imaging with gadolinium-enhanced MRI on 2114-11-17 revealed a mass in the right temporal brain. The documented diagnosis is a right temporal brain mass; lung biopsy was non-diagnostic and adrenal biopsy results are pending. No specific treatment or recommendations were documented in this note.
-
-## Dialogue Summary
-
-The patient presented with a chief complaint of an odd pulsating tightness in the head. Symptoms began a couple of weeks ago and include intermittent pulsating tightness, mid-frontal headaches radiating toward the back of the head (with discomfort up to 6/10), mild dizziness, balance problems, and a sensation of pressure in the right ear; these symptoms occur throughout the day without clear triggers and are distracting but not disabling. The patient denied recent cold symptoms, allergies, or changes in hearing, and reported no worsening or improvement over the past two weeks. No relevant past medical history, medications, or allergies were mentioned. On review, there were no severe neurological symptoms, hearing loss, or severe dizziness requiring support. The doctor assessed that the symptoms may be related to tension-type headaches or inner ear pressure, given the absence of alarming features. The doctor reassured the patient that the lack of severe or progressive symptoms is a good sign and explained possible causes. No specific treatment was recommended at this time; further evaluation would be considered if symptoms worsen or change.
-
-## STS Evaluation
-
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **Turn Count**: 21
+- **Word Count**: 1166
+- **Doctor Turns**: 11
+- **Patient Turns**: 10
 
 ## Processing Information
 
-- **Processing Time**: 58.0s
+- **Processing Time**: 87.7s

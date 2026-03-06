@@ -16,88 +16,107 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.980
+- Score: 0.954
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.980
-- **Justification**: The dialogue is highly plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about the chest pain and associated symptoms, and the patient provides clear, relevant answers. The doctor's reasoning is sound, explaining the seriousness of the symptoms and recommending emergency evaluation without introducing unsupported diagnoses or treatments. The conversation maintains a respectful, clear, and logical flow.
+- **Score**: 0.954
+- **Justification**: Combined score 0.95 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.85 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.846 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and expresses understanding. For even greater realism, the patient could ask a clarifying question or express concern about what might happen next.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor is thorough and clear. To further enhance realism, the doctor could briefly mention what tests might be expected (e.g., EKG, blood tests) if the patient asks, or check for any past medical history or risk factors.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural. Adding a brief closing statement or an offer to answer further questions could make the ending feel even more complete.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns; the doctor appropriately recommends emergency evaluation for potentially serious symptoms. The explanation is clear and avoids unsupported content.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi, it's good to see you today. What brings you in—how have you been feeling lately?
+**Doctor**: Hi there, it’s good to see you today. What’s been bothering you or bringing you in?
 
-**Patient**: I've been having some chest pain lately, and it's got me a bit worried. That's the main reason I came in today.
+**Patient**: My chest has been hurting, and that’s what really made me come in today.
 
-**Doctor**: Let me ask about associated symptoms—have you noticed any nausea or vomiting along with the chest pain?
+**Doctor**: Let me ask about the pain itself—can you point to exactly where you feel it in your chest?
 
-**Patient**: Yes, I've had some nausea and I did vomit a couple of times. The chest pain kind of comes and goes, but those symptoms showed up too.
+**Patient**: It’s right in the center of my chest, kind of behind my breastbone. That’s where I feel it the most.
 
-**Doctor**: Let me ask about any sweats or chills—have you noticed feeling unusually sweaty or feverish when these symptoms happen?
+**Doctor**: Let me ask about associated symptoms—have you noticed any nausea, sweating, or shortness of breath when this pain comes on?
 
-**Patient**: Yes, I've definitely had some sweats and chills along with the chest pain. It makes me feel pretty uncomfortable when it happens.
+**Patient**: I have been feeling pretty nauseous, and I’ve had some sweats and chills along with the chest pain.
 
-**Doctor**: Alright. Have you experienced any tingling or numbness in your left arm or hand during these episodes? This can sometimes help us understand what's going on.
+**Doctor**: Got it. Have you actually vomited, or is it mainly just a feeling of nausea?
 
-**Patient**: I've had some tingling that goes down my left arm when the chest pain happens. It's not constant, but it's definitely there during the episodes.
+**Patient**: I have actually thrown up a few times, not just felt nauseous.
 
-**Doctor**: Got it. When did these symptoms first begin, and how long does each episode usually last?
+**Doctor**: Let me ask about how long this has been going on—when did these symptoms first start?
 
-**Patient**: I think these symptoms started a few days ago. Each episode usually lasts maybe 10 to 15 minutes, sometimes a bit longer if I'm moving around.
+**Patient**: I'm not exactly sure on the timing, but I think these symptoms started maybe earlier today. The nausea and vomiting came on with the chest pain, and I've been having sweats and chills too.
 
-**Doctor**: Got it. How much does this affect your ability to do your usual daily activities—are you finding it hard to get through the day when these episodes happen?
+**Doctor**: Let me ask about something important—have you noticed any tingling or numbness going down your left arm, or any unusual sensations there?
 
-**Patient**: Yes, it definitely affects my day. When the chest pain and other symptoms hit, I have to stop what I'm doing and rest until it passes. It's making it tough to get through my usual routine.
+**Patient**: Yes, I have felt tingling going down my left upper arm along with everything else.
 
-**Doctor**: Okay. Has the pain or any of these symptoms been getting better, worse, or staying about the same since they first started a few days ago?
+**Doctor**: Alright. Has anything in particular seemed to trigger or worsen these symptoms, like physical activity, eating, or stress? Or do they come on regardless of what you’re doing?
 
-**Patient**: The symptoms have pretty much stayed the same since they started. I haven't noticed them getting any better or worse over the past few days.
+**Patient**: These symptoms seem to come on no matter what I’m doing. I haven’t noticed a specific trigger like eating or activity—they just hit me out of the blue.
 
-**Doctor**: Let me ask about what you’re doing when these episodes start—does anything in particular seem to bring them on, like physical activity, eating, or stress? Or do they happen at random times?
+**Doctor**: Okay. How would you rate the severity of the chest pain right now, on a scale from 1 to 10, with 10 being the worst pain you can imagine? Has it been getting better, staying the same, or getting worse since it started?
 
-**Patient**: They seem to come on at random times. I haven't noticed any clear trigger like eating or physical activity—it just sort of happens out of the blue.
+**Patient**: Right now, I’d rate the pain around a 7 out of 10. It hasn’t really improved—it’s stayed about the same since it started.
 
-**Doctor**: Based on what we've discussed, your symptoms—chest pain with nausea, sweats, chills, and tingling down your left arm—are concerning enough that I don't want to overlook anything serious. While chest pain can sometimes be caused by less urgent issues like acid reflux or muscle strain, these additional symptoms can also be signs of heart-related problems. The fact that the episodes come on randomly and interrupt your daily routine adds to my concern.
+**Doctor**: Let me share my thoughts. From what you’ve described—central chest pain that doesn’t change with activity, along with nausea, vomiting, sweats, chills, and tingling down your left arm—I’m concerned this could be related to your heart, rather than something like a stomach bug or muscle strain. These symptoms can sometimes signal a problem with blood flow to the heart, even if you haven’t had heart issues before.
 
-Because some heart conditions can present this way even in people without a lot of risk factors, it’s important not to ignore these warning signs. My strong recommendation is that you seek immediate evaluation, ideally in an emergency setting, to rule out anything urgent like a heart problem. 
+It’s important to take these symptoms seriously, especially since the pain is moderate to severe and hasn’t improved. While there are other possible causes, the combination of chest pain and tingling in your arm raises my concern for a possible heart issue.
 
-If you’re experiencing symptoms now, or if they become more severe, call emergency services right away. Otherwise, please head to the nearest emergency department as soon as possible for further assessment. It’s always better to be cautious with these kinds of symptoms.
+Given all this, my recommendation is that you need immediate evaluation in an emergency setting to rule out any serious heart problems. This means going to the emergency department right away for further testing—such as an EKG and blood work—to make sure your heart is okay.
 
-If you have any questions about what to expect at the hospital or what tests might be done, I’m happy to explain further.
+While some chest pain can be caused by less serious things, the symptoms you’re describing are ones we never want to ignore. Please don’t try to wait this out at home. I’d like you to get help right away. If you have someone who can take you safely, that’s best; otherwise, calling emergency services is appropriate.
 
-**Patient**: Thanks for explaining everything so clearly. I understand why you’re concerned, and I’ll head to the emergency department like you recommended. It’s good to know what to expect—I appreciate you taking the time to go over this with me.
+If you have questions about why I’m making this recommendation, I’m happy to explain further. Your safety is the top priority here.
+
+**Patient**: Thank you for explaining that. If I go to the emergency department, what kind of tests or treatments should I expect once I get there?
+
+**Doctor**: Let me share what you can expect if you go to the emergency department. Typically, they’ll start by quickly checking your vital signs and getting a detailed history of your symptoms. You’ll likely have an EKG (electrocardiogram) right away to look at your heart’s electrical activity. Blood tests will be done to check for markers of heart injury. They may also do a chest X-ray to rule out other causes.
+
+Depending on those results, you might get additional monitoring or medications to help with pain or nausea. The main goal is to rapidly identify or rule out any serious heart problems and make sure you’re safe.
+
+Before you go, can you tell me if these symptoms are making it hard for you to do normal activities, like walking around or doing basic tasks? This helps me understand how much this is impacting your day-to-day life.
+
+**Patient**: Doing normal things has definitely been harder today. Even just moving around the house feels tougher with the chest pain and other symptoms. What happens if the tests in the emergency department show something is wrong with my heart?
+
+**Doctor**: From what you’ve told me, your symptoms and how much they’re affecting your ability to do everyday things suggest this could be a serious issue with your heart—possibly something like a blockage in one of the arteries supplying blood to your heart muscle.
+
+If the emergency department finds a problem with your heart, they’ll move quickly to treat it. This could mean giving you medication to improve blood flow, reduce strain on your heart, or ease discomfort. In some cases, they might need to do procedures to open up any blocked arteries—this is sometimes done with a small tube called a catheter.
+
+The main goal is to restore normal blood flow and prevent any lasting damage. Acting quickly gives you the best chance for a full recovery. If it turns out not to be a heart issue, they’ll look for other causes and make sure you get the right care.
+
+If you have any more questions before you go in, let me know—but please don’t delay seeking care.
+
+**Patient**: If they do need to use a catheter to open up an artery, is that something that usually requires surgery or a long hospital stay?
+
+**Doctor**: Most of the time, using a catheter to open up an artery is done through a minimally invasive procedure called angioplasty. It usually doesn’t require major surgery, and many people are able to go home within a day or two, depending on how things go. The team there will explain everything if that becomes necessary. Wishing you the best—don’t hesitate to ask more questions once you’re there.
+
+**Patient**: Thank you for explaining all that. I think that covers my main questions for now. I’ll head in and get checked out right away.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 638
-- **Doctor Turns**: 9
-- **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 44-year-old male presenting with chest pain, nausea, and vomiting. Symptoms began the night prior to admission, including persistent substernal chest pain described as pressure with tingling down the left upper extremity, sweats, and chills; symptoms were not relieved by water, aspirin, or Rolaids. Relevant history includes hypercholesterolemia, gastroesophageal reflux disease, borderline hypertension, tobacco abuse (20 pack-year history), and a family history of cardiac disease. On arrival at the outside hospital, blood pressure was elevated at 200/100 mmHg. The documented clinical impression suggests an acute coronary syndrome given the presentation and cardiac risk factors. Treatment included initiation of nitroglycerin drip, IV Lopressor, aspirin, Aggrastat drip, Heparin drip, and supplemental oxygen. The patient was transferred to the CCU for further management.
-
-## Dialogue Summary
-
-The patient presented with chest pain as the chief complaint. Symptoms included intermittent chest pain that began a few days ago, accompanied by nausea, vomiting, sweats, chills, and tingling down the left arm during episodes; each episode lasts 10–15 minutes and occurs randomly without clear triggers, significantly impacting daily activities. The patient reported that symptoms have remained unchanged since onset. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the combination of chest pain with associated symptoms could indicate a heart-related problem and expressed concern due to the random onset and interruption of routine activities. The doctor strongly recommended immediate evaluation in an emergency setting to rule out urgent cardiac issues and advised the patient to seek emergency care right away if symptoms worsen or are currently present. The patient acknowledged understanding and agreed to follow the recommendation.
-
-## STS Evaluation
-
-- **STS Score**: 0.974
-- **Similarity Label**: N/A
+- **Turn Count**: 24
+- **Word Count**: 1100
+- **Doctor Turns**: 12
+- **Patient Turns**: 12
 
 ## Processing Information
 
-- **Processing Time**: 57.4s
+- **Processing Time**: 102.3s

@@ -16,86 +16,89 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.860
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is consistent with the provided patient profile and case type. The doctor asks appropriate, open-ended and focused questions about the patient's mental status changes, headache, and right-sided weakness. The patient responses are plausible and align with the symptoms in the profile. The doctor's summary and plan for further neurological assessment are reasonable for a primary care setting given the described symptoms. There are no unsupported diagnoses, treatments, or tests introduced, and the conversation remains grounded in the information provided.
+- **Score**: 0.860
+- **Justification**: Combined score 0.86 (naturalness=0.90 ×0.4, profile_compliance=0.80 ×0.3, ragas_faithfulness=0.87 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 0.800 |
+| RAGAS Faithfulness | 0.867 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, occasional uncertainty or more detail about daily life impact could be included.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. For improvement, the doctor could briefly check for other associated symptoms (e.g., fever, trauma history) or clarify medication history, but this is not strictly necessary given the context.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and smooth, with appropriate transitions between topics. The conversation could be slightly more concise in places, but overall it is natural.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: The doctor gives clear safety-netting advice and explains next steps well. No safety concerns are present.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brings you in, and how have you been feeling lately?
+**Doctor**: Welcome, it's nice to see you today. What’s been bothering you or bringing you in for a visit?
 
-**Patient**: I've been having some changes with my mental state lately, and that's what brought me in today.
+**Patient**: I’ve been having some changes in my mental state and a headache lately, and it’s been worrying me.
 
-**Doctor**: Let me ask about these changes—can you describe what you've noticed that's different with your mental state? For example, are you feeling more forgetful, confused, or having trouble focusing?
+**Doctor**: Let me ask about the changes you’ve noticed—when did these mental shifts and the headache first begin?
 
-**Patient**: I've been feeling more confused than usual, and it's harder for me to focus or communicate the way I normally do.
+**Patient**: I’m not sure exactly when it started, but I noticed the mental changes and headache a few days ago.
 
-**Doctor**: Let me ask about how this is affecting your daily life—are you finding it difficult to handle tasks you usually do, like managing your home, conversations, or remembering appointments?
+**Doctor**: Let me ask about the mental changes you’ve noticed—are you having trouble with memory, confusion, or difficulty finding words? Have you experienced any problems with your movement, like weakness or trouble with coordination?
 
-**Patient**: Yes, I've definitely had more trouble handling conversations and doing things around the house. It's like my thinking is slower, and I can't do things as easily as before.
+**Patient**: I’ve been having trouble communicating and my motor skills aren’t what they used to be. There’s also some weakness on my right side.
 
-**Doctor**: Let me ask about when these changes began—did they start suddenly, or have they been getting worse gradually over time?
+**Doctor**: Got it. Has your difficulty with communication and movement been staying about the same, or is it getting better or worse over these past few days?
 
-**Patient**: I'm not exactly sure when it began, but it feels like it's been getting a bit worse over time rather than starting all at once.
+**Patient**: It’s been getting a bit worse over the past few days. The weakness and trouble communicating haven’t really improved.
 
-**Doctor**: Let me ask about any other symptoms—have you had any headaches, or noticed things like dizziness, vision changes, or weakness?
+**Doctor**: Let me ask about other symptoms—have you noticed any changes in your vision, difficulty swallowing, or trouble with balance?
 
-**Patient**: I have had some headaches along with these changes, and I've noticed weakness on my right side. My motor skills just aren't what they used to be.
+**Patient**: I haven’t noticed any changes in my vision or trouble swallowing. My main issues have been the mental status changes, headache, and weakness on my right side.
 
-**Doctor**: Alright. How much are these changes impacting your ability to do things on your own, like getting dressed, preparing meals, or moving around the house safely?
+**Doctor**: Alright. Has your ability to perform daily activities—like getting dressed, making meals, or walking around—changed since these symptoms began?
 
-**Patient**: Yes, these changes have made it harder for me to do things on my own, like getting dressed and moving around the house. I also have more trouble preparing meals because of the weakness on my right side.
+**Patient**: Yes, it’s been harder to do things like getting dressed and moving around. The decreased motor skills and weakness have made daily activities more challenging.
 
-**Doctor**: Got it. When you try to focus or communicate, do you notice if these difficulties are worse at certain times of day, or do they stay about the same throughout the day?
+**Doctor**: Let me ask about your ability to communicate—are you having trouble speaking, understanding others, or both? And is it consistent, or does it come and go throughout the day?
 
-**Patient**: They stay about the same throughout the day. I haven’t noticed any real difference in the mornings or evenings.
+**Patient**: I’m mostly having trouble speaking. It’s pretty consistent throughout the day, and hasn’t really gotten better. I can still understand others, but expressing myself is difficult.
 
-**Doctor**: Let me ask about your headaches—are they mild, moderate, or severe? And do they come and go, or are they present most of the time?
+**Doctor**: Got it. When you try to use your right side—like picking something up or walking—are you able to move it at all, or is it very weak? And does the weakness seem to be getting worse, or just staying about the same?
 
-**Patient**: My headaches are usually mild to moderate. They tend to come and go, not constant, but they do show up pretty often.
+**Patient**: My right side is very weak, but I can still move it a little. The weakness has been getting worse rather than staying the same.
 
-**Doctor**: Based on what we've discussed, these gradual changes in your ability to focus, communicate, and manage daily activities, along with headaches and right-sided weakness, suggest there could be an underlying neurological issue affecting your brain function. Sometimes, things like small strokes, changes in blood flow, or other conditions can cause these kinds of symptoms to develop slowly over time.
+**Doctor**: Based on what we've discussed, your symptoms—trouble communicating, changes in mental state, and progressive difficulty with movement on one side—are concerning for a possible problem with the brain, such as an issue with blood flow or a mild stroke. These types of symptoms often happen when a part of the brain isn’t getting enough oxygen, which can affect speech and movement, especially on one side of the body.
 
-It's important to evaluate this further because even mild or moderate symptoms can sometimes point to treatable causes. I recommend we arrange for a thorough neurological assessment, which may include imaging of your brain and some basic blood tests. In the meantime, if you notice any sudden worsening—like severe confusion, new weakness, difficulty speaking, or trouble walking—please seek medical attention right away.
+What often happens in these situations is that people notice trouble expressing themselves, weakness, and difficulty with daily activities, just as you described. Because these symptoms have been getting worse over a few days rather than improving, it’s important to address them promptly.
 
-Let me know if you have any questions about what we've discussed or next steps.
+My recommendation is that you seek urgent medical attention today, ideally at the emergency department, so doctors can do tests like a brain scan to figure out exactly what’s going on and start treatment if needed. Time is important with these symptoms. If you experience any new issues—like severe confusion, loss of consciousness, or sudden vision changes—call emergency services right away.
 
-**Patient**: Thank you for explaining everything so clearly. I appreciate you wanting to look into this more. If I have any new or sudden changes, I’ll make sure to get help right away.
+Would you like help arranging for someone to bring you to the hospital, or do you have someone who can assist you?
+
+**Patient**: Thank you for explaining that. If it turns out to be a problem with blood flow or something similar, what kind of treatment would I need, and will it help with the weakness on my right side?
+
+**Doctor**: Let me share my thoughts on what this could mean. The combination of your communication difficulties and changes in how you’re managing day-to-day tasks suggests a possible issue affecting the part of the brain responsible for speech and movement. Often, when blood flow to the brain is disrupted—such as with a mild stroke—these types of symptoms can develop and may get worse without prompt treatment.
+
+Early treatment in the hospital can sometimes help limit further damage and, depending on the cause, may improve your symptoms over time. Treatments might include medications to improve blood flow, prevent clots, or manage risk factors like blood pressure. Rehabilitation therapies—like physical or speech therapy—are also important for helping people regain strength and communication skills.
+
+The sooner this is addressed, the better the chances for recovery. Some people see significant improvement, while others may have ongoing challenges, but many benefit from early intervention. The key now is to get evaluated quickly so the right steps can be taken for your health and safety.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 589
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 808
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 76-year-old female presenting with decreased mental status, decreased motor skills, and decreased communication following a recent history of subdural hematoma. She experienced worsening mental status and headache after initial subdural hematoma drainage, requiring readmission and further intervention. Her past medical history includes hypertension, and she has allergies to erythromycin and penicillin. On examination, she was afebrile, hypertensive (BP 168/70), alert but slow to respond, with right-sided weakness. The documented diagnosis was recurrent subdural hematoma with associated neurological deficits. Treatment included bedside drainage of the subdural hematoma via frontal burr hole, which resulted in complete evacuation as confirmed by repeat head CT. She improved clinically, regaining orientation and strength, and was deemed safe for discharge home with continued physical and occupational therapy support. Discharge medications included verapamil, hydrochlorothiazide, Lipitor, Percocet as needed, and Colace.
-
-## Dialogue Summary
-
-The patient presented with changes in mental state. They reported increased confusion, difficulty focusing, and trouble communicating, which have gradually worsened over time rather than starting suddenly. The patient also described mild to moderate headaches that come and go, right-sided weakness, slowed thinking, and increased difficulty managing conversations, daily tasks, getting dressed, preparing meals, and moving around the house. No differences in symptom severity were noted throughout the day. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that these gradual cognitive and physical changes, along with headaches and right-sided weakness, may indicate an underlying neurological issue such as small strokes or changes in blood flow. The doctor recommended a thorough neurological assessment including brain imaging and blood tests, and advised the patient to seek immediate medical attention if symptoms suddenly worsen (e.g., severe confusion, new weakness, difficulty speaking, or trouble walking). The patient expressed understanding of the plan.
-
-## STS Evaluation
-
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 59.0s
+- **Processing Time**: 83.8s

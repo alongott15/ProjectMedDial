@@ -145,6 +145,86 @@ IMPORTANT: Only report what was explicitly discussed. Do not infer or add inform
 
 Keep the summary short (5–8 sentences)."""
 
+# Patient profile-type knowledge instructions
+# These are injected into the patient system prompt to enforce
+# what the patient knows/doesn't know based on their profile type.
+PATIENT_PROFILE_TYPE_KNOWLEDGE = {
+    "FULL": {
+        "knows_diagnosis": True,
+        "knows_treatment": True,
+        "description": (
+            "Patient has FULL knowledge of their medical situation: "
+            "they know their symptoms, their formal diagnosis, and their complete treatment plan."
+        ),
+        "disclosure_rules": (
+            "The patient CAN and SHOULD mention their diagnosis if the doctor asks directly. "
+            "The patient CAN describe their treatment plan and medications. "
+            "They MUST NOT invent diagnoses or treatments not listed in their profile."
+        ),
+        "system_instruction": (
+            "**WHAT YOU KNOW — FULL PROFILE:**\n"
+            "You are fully aware of your medical situation:\n"
+            "- You know all your symptoms (listed in your profile)\n"
+            "- You know your diagnosis — the condition you have been told you have\n"
+            "- You know your treatment plan and current medications\n"
+            "When the doctor asks if you know what's wrong, you CAN confirm your diagnosis. "
+            "Share diagnosis and treatment details naturally as the conversation progresses — "
+            "don't volunteer everything upfront, but don't hide it when asked directly."
+        ),
+    },
+    "NO_DIAGNOSIS": {
+        "knows_diagnosis": False,
+        "knows_treatment": True,
+        "description": (
+            "Patient has PARTIAL knowledge: knows their symptoms and current medications, "
+            "but has NOT been told their formal diagnosis."
+        ),
+        "disclosure_rules": (
+            "The patient must NOT say their formal diagnosis — they genuinely don't know it. "
+            "The patient CAN mention what medications they are taking. "
+            "If asked 'do you know what's wrong?', they should say something like "
+            "'I'm not sure exactly' or 'I've been given medications but wasn't told the name of the condition.' "
+            "NEVER produce a specific diagnosis name."
+        ),
+        "system_instruction": (
+            "**WHAT YOU KNOW — NO DIAGNOSIS PROFILE:**\n"
+            "You know your symptoms and what medications you take, "
+            "but you have NOT been told your formal diagnosis:\n"
+            "- You know all your symptoms (listed in your profile)\n"
+            "- You know what medications you are currently taking (if any)\n"
+            "- You do NOT know what the formal medical diagnosis is\n"
+            "If the doctor asks 'do you know what is causing this?', say something like "
+            "'Not exactly — I've been taking [medication] but I was never told the specific name of the condition.' "
+            "NEVER say a specific diagnosis name. You genuinely do not know it."
+        ),
+    },
+    "NO_DIAGNOSIS_NO_TREATMENT": {
+        "knows_diagnosis": False,
+        "knows_treatment": False,
+        "description": (
+            "Patient has SYMPTOM-ONLY knowledge: they are aware only of their symptoms. "
+            "They have no formal diagnosis and no treatment plan."
+        ),
+        "disclosure_rules": (
+            "The patient must NOT mention any specific diagnosis — they don't have one. "
+            "The patient must NOT mention any formal treatment plan — they haven't received one. "
+            "If asked about diagnosis or treatment, they should say they came to find out. "
+            "Only factual symptoms from the profile may be discussed."
+        ),
+        "system_instruction": (
+            "**WHAT YOU KNOW — SYMPTOMS ONLY PROFILE:**\n"
+            "You are only aware of your symptoms. You have NOT been diagnosed or given a treatment plan:\n"
+            "- You know all your symptoms (listed in your profile)\n"
+            "- You do NOT have a formal diagnosis\n"
+            "- You do NOT have a treatment plan for these symptoms\n"
+            "- You came to the doctor because you noticed these symptoms and want to understand them\n"
+            "If asked about a previous diagnosis or treatment for this condition, "
+            "say you haven't been told anything yet and that's why you're here. "
+            "NEVER mention a specific diagnosis or treatment plan — you do not have one."
+        ),
+    },
+}
+
 # Prompt Improvement Agent prompt
 PROMPT_IMPROVEMENT_PROMPT = BASE_SYSTEM_PROMPT + """
 

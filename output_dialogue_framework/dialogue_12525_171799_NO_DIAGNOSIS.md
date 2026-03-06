@@ -16,86 +16,99 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.957
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about the double vision and vertigo, screens for red flag neurological symptoms, and provides a reasonable explanation and plan. The patient responses are clear and match the described symptoms. There are no unsupported diagnoses, treatments, or test orders. The conversation is logical and grounded in the information given.
+- **Score**: 0.957
+- **Justification**: Combined score 0.96 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.86 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.857 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, the patient could mention any relevant medical history or medications if prompted.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor is thorough and clear. For completeness, the doctor could briefly check for other associated symptoms (e.g., headache, recent trauma, visual loss) or ask about past medical history if not already known.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is natural and logical. The conversation could be slightly improved by summarizing the plan at the end or confirming understanding with a teach-back question.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is appropriate (avoid driving, seek care for new/worsening symptoms). The plan is clear and conservative. No safety concerns.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome in today. What’s been bothering you or brought you in for a visit?
+**Doctor**: Hello, it's nice to meet you. What brings you in today, and how have you been feeling lately?
 
-**Patient**: I've been having some double vision recently, and it's been a bit concerning.
+**Patient**: Nice to meet you too. I’ve been having some trouble with double vision lately, and it’s been a bit concerning.
 
-**Doctor**: Let me ask about the double vision—does it happen all the time, or does it come and go?
+**Doctor**: Let me ask about the timing—when did you first notice the double vision, and has it been constant or does it come and go?
 
-**Patient**: It comes and goes, not all the time. I notice it more when I'm moving around.
+**Patient**: I first noticed the double vision a few days ago. It’s not there all the time—it kind of comes and goes.
 
-**Doctor**: Let me ask about your day-to-day—how much is this affecting your usual activities or routines?
+**Doctor**: Let me ask about your day-to-day life—how much is the double vision affecting what you do? Are there certain activities where you notice it more, or does it interfere with tasks like reading or walking?
 
-**Patient**: It hasn't stopped me from doing things, but I do feel a little off, especially when I'm walking around.
+**Patient**: Sometimes I notice the double vision more when I’m trying to read or focus on something up close. It can make those tasks a bit harder, but I can still manage most things. Walking hasn’t been too much of an issue.
 
-**Doctor**: Let me ask about other sensations—do you ever feel lightheaded, dizzy, or like the room is spinning when this happens?
+**Doctor**: Alright. Have you noticed any other symptoms along with the double vision, like mild dizziness or a sensation of vertigo?
 
-**Patient**: Yes, I do get a mild spinning feeling, kind of like vertigo, along with the double vision.
+**Patient**: I have had some mild vertigo along with the double vision. It’s not too strong, but I do notice a bit of dizziness at times.
 
-**Doctor**: Alright. When did you first notice these symptoms starting, and have they been getting any better or worse since then?
+**Doctor**: Got it. Has the double vision been getting better, worse, or staying about the same since you first noticed it a few days ago?
 
-**Patient**: I first noticed the double vision and mild vertigo a few days ago. They haven’t really gotten worse, but they’re still happening off and on.
+**Patient**: It’s been about the same since it started. I haven’t really noticed much improvement or any worsening so far.
 
-**Doctor**: Got it. When you experience the double vision, does it affect one eye or both eyes together? For example, if you cover one eye, does the double vision go away?
+**Doctor**: Let me ask about your vision—does closing one eye make the double vision go away, or is it still present even with one eye closed? This helps me understand whether both eyes are involved or just one.
 
-**Patient**: If I cover one eye, the double vision goes away. It only happens when both eyes are open.
+**Patient**: When I close one eye, the double vision goes away. It only seems to happen when both eyes are open.
 
-**Doctor**: Okay. Have you noticed any other new symptoms, such as weakness in your face or limbs, trouble speaking, or difficulty swallowing? These can sometimes help us figure out if there’s anything more serious going on.
+**Doctor**: Alright. Have you noticed if anything specific seems to trigger the double vision, like tiredness, looking in a certain direction, or after prolonged reading?
 
-**Patient**: No, I haven’t had any weakness, trouble speaking, or swallowing issues. It’s really just the double vision and mild vertigo.
+**Patient**: I tend to notice the double vision more when I’m tired or if I’ve been reading for a while. Looking in certain directions doesn’t seem to make much difference.
 
-**Doctor**: Alright. Have you noticed if anything specific—like looking in a certain direction, being tired, or reading—seems to bring on the double vision?
+**Doctor**: I see. Since the double vision improves when you close one eye and tends to show up more with tiredness or prolonged reading, it suggests a common issue called binocular diplopia—meaning both eyes need to be open for it to occur. Often, this can be related to eye muscle fatigue or mild misalignment. 
 
-**Patient**: Looking in certain directions seems to make the double vision worse. I haven’t noticed it being tied to being tired or reading.
+Most cases like this are benign, but it's important to watch for any new symptoms, such as sudden weakness, difficulty speaking, or changes in your ability to move your eyes. For now, try to rest your eyes periodically during reading, and make sure you’re getting enough sleep. If the symptoms persist or worsen, it would be wise to have a formal eye exam.
 
-**Doctor**: From what you've told me, your symptoms of double vision that occur with both eyes open and get worse when looking in certain directions, along with mild vertigo, are most often related to a problem with how the eyes are working together—sometimes this can be due to minor issues with the eye muscles or nerves. Since you haven’t had any weakness, speech, or swallowing problems, and your symptoms haven’t worsened, this is somewhat reassuring.
+Based on everything you've told me, your symptoms are consistent with a mild case of binocular double vision, likely related to eye strain or fatigue. This is the most likely explanation given your history and symptom pattern. Let me know if you have any questions or concerns about this.
 
-What often happens with this kind of symptom is that it can be related to something benign, like a temporary eye muscle issue or even a mild inner ear disturbance contributing to your vertigo. However, because double vision is a new symptom for you, it’s important to have it checked out further to rule out more serious causes.
+**Patient**: Thank you for explaining that. Is there anything specific I should avoid doing to keep my eyes from getting worse, or should I just focus on resting them more often?
 
-For now, I recommend avoiding activities like driving until you know more. If you develop any new symptoms such as severe headache, weakness, trouble speaking, or the double vision becomes constant or much worse, seek care right away. Otherwise, arranging an eye exam and possibly a neurological evaluation would be the next best steps. Does that sound reasonable to you?
+**Doctor**: From what we've discussed, your double vision seems to be linked to eye fatigue and occurs only when both eyes are open, which points toward a mild, common issue with how your eye muscles work together. This isn't unusual, especially as we get older or spend more time focusing on close tasks like reading.
 
-**Patient**: That sounds reasonable to me. I appreciate you explaining everything—I'll make sure to get the eye exam and follow up as you suggested. Thank you for your help.
+The main thing to focus on is giving your eyes regular breaks—try the 20-20-20 rule: every 20 minutes, look at something 20 feet away for 20 seconds. Avoid pushing through fatigue if your vision starts to blur, and make sure your lighting is good when reading. There’s no need to avoid everyday activities, but it’s wise to limit prolonged close-up work if you notice your symptoms getting worse.
+
+If you develop new symptoms, such as difficulty moving your eyes, weakness, or trouble speaking, let someone know promptly. Otherwise, resting your eyes and pacing close work should help. Let me know if you have more questions or want to discuss anything else about this.
+
+**Patient**: Thank you, that’s helpful. If the double vision doesn’t go away after trying these tips, how long should I wait before coming back in?
+
+**Doctor**: From what we've discussed, your double vision has stayed about the same for several days and is mostly tied to eye fatigue. Mild, intermittent binocular double vision like this is often related to eye muscle strain, which tends to improve with rest and breaks.
+
+If you try these self-care tips and don’t notice any improvement after about one to two weeks, or if your symptoms start to interfere more with daily activities, it would be a good idea to come back in for a closer look. If you notice any sudden changes—like difficulty moving your eyes, drooping eyelids, weakness, or trouble speaking—seek care sooner.
+
+For now, regular eye rest and pacing close-up tasks are your best steps. Let me know if you have any other questions or concerns.
+
+**Patient**: That makes sense, thank you. I’ll try those tips and keep an eye out for any changes. Right now, I don’t have any more questions.
+
+**Doctor**: Let me share my thoughts based on everything we've discussed. Your double vision appears only when both eyes are open and tends to show up during close-up tasks or when you're tired. This pattern, along with the absence of other concerning symptoms, points toward a mild and common issue called binocular diplopia, which usually relates to how the eye muscles coordinate.
+
+Often, this is due to eye strain or fatigue and is not dangerous. It's helpful to take regular breaks from reading or screen work and use good lighting. If the symptoms persist beyond a couple of weeks or start interfering more with your daily life, it would be wise to schedule an eye exam for a more thorough evaluation. Sudden changes or new symptoms would warrant a quicker check-in.
+
+For now, your plan is to rest your eyes often, pace close-up tasks, and monitor for any new developments. If you have any questions later on, don’t hesitate to reach out.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 568
-- **Doctor Turns**: 9
-- **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 61-year-old female presenting for an elective cerebral angiogram. She previously experienced an episode of diplopia on 2117-10-21, with no further symptoms and mild vertigo that resolved at that time. Her past medical history is negative for diabetes, heart, or lung disease, and she has no known drug allergies; current medications include multivitamins, aspirin, and Lipitor. On admission, her vital signs were stable and physical examination was unremarkable. A diagnostic cerebral angiogram was performed, followed by embolization and coiling of a known right internal carotid aneurysm. The patient tolerated the procedure well, with an unremarkable postoperative course. She was discharged home with instructions to resume her preoperative medications.
-
-## Dialogue Summary
-
-The patient presented with intermittent double vision. The double vision occurs only when both eyes are open, is worsened by looking in certain directions, and began a few days ago; it is accompanied by mild vertigo described as a spinning sensation, especially when moving around, but has not worsened or interfered significantly with daily activities. The patient denied any weakness, trouble speaking, or swallowing difficulties, and reported no association with fatigue or reading. No relevant medical history, medications, or allergies were mentioned. On clinical questioning, the double vision resolved when one eye was covered, and there were no other neurological symptoms. The doctor assessed that the symptoms are most likely related to a problem with how the eyes are working together, possibly due to a minor eye muscle or nerve issue, or a mild inner ear disturbance causing vertigo; the absence of other neurological deficits was noted as reassuring. The doctor recommended avoiding activities such as driving until further evaluation, advised urgent care if new symptoms develop (such as severe headache, weakness, or persistent double vision), and suggested arranging an eye exam and possible neurological evaluation. The patient understood and agreed with the plan.
-
-## STS Evaluation
-
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
+- **Turn Count**: 21
+- **Word Count**: 1083
+- **Doctor Turns**: 11
+- **Patient Turns**: 10
 
 ## Processing Information
 
-- **Processing Time**: 56.4s
+- **Processing Time**: 81.8s

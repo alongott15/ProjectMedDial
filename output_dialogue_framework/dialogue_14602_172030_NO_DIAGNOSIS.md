@@ -16,60 +16,89 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.947
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about the patient's symptoms, and the patient's responses align with the documented complaints and diagnoses. There are no hallucinations or unsupported content. The conversation is cut short due to a simulation error, but up to that point, it is realistic.
+- **Score**: 0.947
+- **Justification**: Combined score 0.95 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.82 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.824 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For improvement, the patient could provide more detail about the onset, duration, or any associated symptoms if prompted.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: Doctor's questions are thorough and appropriate. To improve, the doctor could ask about other related symptoms (e.g., fever, changes in bowel movements) or relevant medical history earlier.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural. The conversation ends abruptly due to a simulation error; otherwise, it progresses well.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns are present in the evaluated turns. The doctor is appropriately screening for red-flag symptoms (e.g., blood in vomit).
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in—how have you been feeling lately?
+**Doctor**: Welcome, it's nice to meet you. How have you been feeling lately, and what brings you in today?
 
-**Patient**: I've been feeling pretty uncomfortable lately—I've had some nausea that's just not going away.
+**Patient**: I’ve been feeling pretty uncomfortable lately. The main thing is I’ve been having nausea and it’s been hard to keep anything down. That’s why I came in today.
 
-**Doctor**: Let me ask about some related symptoms—have you had any vomiting, or is it just the nausea?
+**Doctor**: Let me ask about a few related symptoms—have you had any vomiting along with the nausea, or any discomfort in your abdomen?
 
-**Patient**: Yes, I've had some vomiting too, not just the nausea. My stomach's been hurting as well.
+**Patient**: Yes, I’ve had some vomiting along with the nausea. There’s also been pain in my abdomen—it’s pretty uncomfortable.
 
-**Doctor**: Let me ask about your stomach discomfort—can you describe what the pain feels like and where exactly it's located?
+**Doctor**: Let me ask about the abdominal pain—how severe is it on a scale from 1 to 10, and is it constant or does it come and go?
 
-**Patient**: The pain is mostly in the upper part of my belly, kind of a dull ache. It comes and goes, but it's been there along with the nausea and vomiting.
+**Patient**: I’d rate the pain around a 6 out of 10. It’s pretty steady—doesn’t really come and go, just stays there most of the time.
 
-**Doctor**: Okay. How severe would you say the upper belly pain is on a scale of 1 to 10, with 10 being the worst pain imaginable? And has there been any blood in your vomit or when you go to the bathroom?
+**Doctor**: Let me ask about any other changes—have you noticed blood in your vomit or stool, or any yellowing of your skin or eyes?
+
+**Patient**: I did notice blood in my vomit recently. I haven’t seen any yellowing of my skin or eyes, and I haven’t noticed blood in my stool.
+
+**Doctor**: Alright. When did these symptoms first begin, and have they been getting worse, staying the same, or improving over time?
+
+**Patient**: I’m not sure exactly when it all started, maybe a few days ago. The nausea and vomiting seem to be getting worse, and the abdominal pain has stayed pretty much the same.
+
+**Doctor**: Let me ask about the blood in your vomit—was it bright red or more like coffee grounds? And how many times has this happened?
+
+**Patient**: The blood was bright red. It’s happened a couple of times so far, not every time I vomit.
+
+**Doctor**: Let me ask about your appetite—have you been able to eat or drink anything at all, or are you finding it difficult to keep even liquids down?
+
+**Patient**: It’s been tough to eat or drink much. Even liquids are hard to keep down—most things come right back up.
+
+**Doctor**: Got it. One more thing—has this nausea and vomiting made it hard for you to do your usual daily activities, like getting around the house or taking care of yourself?
+
+**Patient**: Yes, it’s definitely made things harder. I haven’t been able to do much around the house or take care of myself like usual.
+
+**Doctor**: From what we've discussed, your symptoms—persistent nausea, vomiting with bright red blood, steady abdominal pain, and difficulty keeping food or liquids down—suggest a condition affecting your digestive tract, likely your stomach or upper gastrointestinal area. The presence of blood in your vomit is particularly important because it can indicate irritation or injury to the lining of your stomach or esophagus, such as gastritis or possibly an ulcer.
+
+This is likely why you're feeling weak and unable to do your usual activities. What often happens with these conditions is that the stomach lining gets inflamed or develops a sore, which can cause pain and bleeding. Because you're having trouble keeping anything down, dehydration is also a concern.
+
+Given these findings, my assessment is that you may have a bleeding stomach ulcer or severe gastritis. This is a treatable condition, but it does require prompt attention. I recommend avoiding food and drinks for now, and seeking immediate medical care to get evaluated further—especially since you've been vomiting blood and can't keep fluids down.
+
+If you notice your stools turning black, worsening weakness, or severe pain, these are signs that need urgent attention. Let me know if you have questions or need clarification about what we've discussed.
+
+**Patient**: Thanks for explaining that. What kind of treatment should I expect if I go to the hospital—will I need any procedures or medication right away?
+
+**Doctor**: Let me share my thoughts. With vomiting blood and difficulty keeping liquids down, hospitals usually start by checking your vital signs and making sure you're not dehydrated or losing too much blood. They may give you fluids through an IV and medications to reduce stomach acid or protect the stomach lining. Sometimes, if the bleeding is significant or persistent, a procedure called an endoscopy is done—this lets doctors look inside your stomach and treat any bleeding spots directly.
+
+Most people do not need surgery, but the team will monitor you closely and treat the underlying cause, like an ulcer or gastritis. The main goal is to stop the bleeding, relieve your symptoms, and prevent complications. If you go in, let them know about all your symptoms and that you've vomited bright red blood.
+
+If you have questions about the process or what to expect, feel free to ask.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 7
-- **Word Count**: 173
-- **Doctor Turns**: 4
-- **Patient Turns**: 3
-
-## EHR Summary
-
-The patient is a 62-year-old man presenting with nausea, vomiting, and abdominal pain for one day. He experienced an episode of hematemesis in the Emergency Department, which was positive for occult blood, prompting admission for evaluation of an upper gastrointestinal bleed. His medical history includes type 2 diabetes, and he was found to have diabetic ketoacidosis on admission. Esophagogastroduodenoscopy revealed a nonbleeding tear at the gastroesophageal junction. Hematocrit remained stable and there were no further episodes of hematemesis during admission. The documented diagnoses were upper gastrointestinal bleed secondary to a nonbleeding tear and diabetic ketoacidosis. Treatment included intravenous Protonix 40 mg twice daily (transitioned to oral Protonix), insulin drip for ketoacidosis, discontinuation of Metformin, and subcutaneous heparin. The patient was discharged home in stable condition.
-
-## Dialogue Summary
-
-The patient presented with persistent nausea. They reported associated vomiting and upper abdominal pain described as a dull ache, primarily in the upper part of the belly, which comes and goes and occurs along with the nausea and vomiting. No information was provided regarding severity on a pain scale, presence of blood in vomit, or bowel movements. No relevant medical history, medications, or allergies were mentioned. The doctor inquired about the characteristics and location of the abdominal pain, as well as the presence of blood in vomit or stool, but no further assessment was documented. No specific diagnosis or treatment plan was discussed during the encounter.
-
-## STS Evaluation
-
-- **STS Score**: 0.934
-- **Similarity Label**: N/A
+- **Turn Count**: 19
+- **Word Count**: 781
+- **Doctor Turns**: 10
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 35.0s
+- **Processing Time**: 76.8s

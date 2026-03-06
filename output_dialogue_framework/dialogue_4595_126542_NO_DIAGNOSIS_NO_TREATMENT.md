@@ -16,88 +16,96 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.907
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the patient's profile and case type. The doctor asks appropriate questions about symptom onset, severity, associated features, and impact on daily life. The patient responses are coherent and match the described symptoms. The doctor's reasoning and recommendations (monitoring for warning signs, basic tests, supportive advice) are appropriate for a light case with chronic cardiac history and mild symptoms. No unsupported diagnoses, treatments, or severe events are introduced.
+- **Score**: 0.907
+- **Justification**: Combined score 0.91 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.82 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.824 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For improvement, the patient could specify if symptoms have changed compared to baseline after valve replacement, but overall the answers are appropriate.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: Doctor's questioning is thorough and empathetic. For improvement, the doctor could briefly acknowledge the patient's cardiac history (e.g., status post valve replacement) when discussing possible causes, but otherwise the approach is sound.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical, with each question building on previous answers. The summary and plan are clearly explained. For improvement, a closing summary of next steps (e.g., 'We'll arrange those tests and follow up once we have results') could reinforce clarity.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The doctor appropriately advises on warning signs and next steps. Clarity is high throughout.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in, and how have you been feeling lately?
+**Doctor**: Welcome, it's good to see you today. What brings you in—can you tell me what symptoms or changes you've noticed recently?
 
-**Patient**: I've just been feeling really tired lately, and it's making me a bit worried. That's the main reason I wanted to come in.
+**Patient**: I've been feeling pretty tired lately, and there's a sort of pressure in my chest that worries me. That's the main reason I wanted to come in today.
 
-**Doctor**: Let me ask about the timing—how long have you been feeling this way, and did it start suddenly or has it been coming on gradually?
+**Doctor**: Let me ask about the pressure you've noticed—does it come on with activity, like walking or climbing stairs, or does it happen even when you're resting?
 
-**Patient**: I’m not sure exactly, but I think it’s been getting worse over the past few days. It didn’t hit me all at once—just sort of crept up.
+**Patient**: I notice the chest pressure more when I'm moving around, like climbing stairs. It doesn't really go away when I'm resting, though—it just feels a bit less intense.
 
-**Doctor**: Got it. Along with feeling tired, have you noticed any other changes—like trouble sleeping, changes in your appetite, or feeling down? Sometimes these can be linked and help us figure out what's going on.
+**Doctor**: Let me ask about your energy levels—have you noticed any changes in your sleep, like trouble falling asleep or waking up unrefreshed? Or do you feel sluggish even after a full night's rest?
 
-**Patient**: I haven’t noticed any changes with my sleep or appetite. I do get this pressure in my chest and sometimes it feels harder to catch my breath.
+**Patient**: Even after a full night's sleep, I still feel sluggish and tired during the day. I haven't really noticed much trouble falling asleep or waking up, but the fatigue sticks around regardless.
 
-**Doctor**: Alright. Has this tiredness or the pressure you're feeling made it harder for you to do your usual daily activities, like walking around the house or running errands?
+**Doctor**: Got it. When did you first start noticing the tiredness and chest pressure—has this been going on for days, weeks, or longer?
 
-**Patient**: Yes, it’s definitely made things tougher. Even simple stuff like walking around or going up the stairs feels more tiring than usual.
+**Patient**: I'm not exactly sure, but I think it's been going on for at least a couple of weeks. The tiredness and chest pressure have gradually gotten worse over that time.
 
-**Doctor**: Let me ask about your energy—when you rest or take it easy, do you feel any better, or do you still feel just as worn out?
+**Doctor**: Alright. Have you noticed any shortness of breath when you're active or at rest, or is it mainly just the pressure and tiredness?
 
-**Patient**: Resting does seem to help a bit, but I still feel pretty sluggish even when I’m taking it easy.
+**Patient**: Shortness of breath has definitely been an issue, especially when I'm active. Even at rest, sometimes I feel like it's harder to catch my breath than usual.
 
-**Doctor**: Let me ask about any other symptoms—have you had any fever, cough, or swelling in your legs or ankles recently? Sometimes these clues can help pinpoint the cause of feeling so run down.
+**Doctor**: Got it. How much is this tiredness and chest pressure affecting your ability to do your usual daily activities—are you having to cut back on things like household chores, work, or hobbies?
 
-**Patient**: No, I haven’t had any fever, cough, or swelling in my legs or ankles. It’s mainly just the fatigue, sluggishness, chest pressure, and shortness of breath.
+**Patient**: I’ve definitely had to cut back on things around the house and at work because I just don’t have the energy. Even simple chores feel exhausting now.
 
-**Doctor**: Okay. When you feel that pressure in your chest or the shortness of breath, does it tend to come on with activity, or does it also happen when you're resting? And how intense is the pressure—would you describe it as mild, moderate, or quite strong?
+**Doctor**: Let me ask about the sluggishness—have you noticed any swelling in your legs or ankles, or any sudden weight gain over these past couple of weeks? Sometimes these can be related to tiredness and shortness of breath.
 
-**Patient**: The chest pressure and shortness of breath usually get worse when I’m moving around or doing something active. The pressure isn’t really strong, I’d call it mild to moderate.
+**Patient**: I haven’t noticed any swelling in my legs or ankles, and my weight hasn’t changed suddenly. The main issues are feeling sluggish, tired, and short of breath.
 
-**Doctor**: Got it. When you feel this chest pressure, does it ever spread to your neck, jaw, arms, or back? Or do you experience any sweating or lightheadedness along with it? These details help me assess if there's anything more concerning going on.
+**Doctor**: Let me ask about your energy levels—does the sluggishness tend to be worse at any particular time of day, or is it pretty constant from morning to night?
 
-**Patient**: No, the pressure doesn’t spread anywhere else, and I haven’t had any sweating or felt lightheaded with it. It just stays in my chest.
+**Patient**: The sluggishness is pretty constant throughout the day. It doesn’t seem to get better or worse at any specific time.
 
-**Doctor**: From what you've told me, it sounds like your main concerns have been gradually increasing tiredness and some mild chest discomfort that gets worse with activity but doesn't spread or come with other warning signs. Often, symptoms like these can have several common causes, such as not getting enough rest, stress, or sometimes issues with the heart or lungs—especially when they're triggered by exertion.
+**Doctor**: Based on what we've discussed, it sounds like your main concerns are ongoing tiredness, chest pressure that gets worse with activity, and shortness of breath, all gradually worsening over the past couple of weeks. These symptoms can sometimes be related to common conditions like anemia, lung issues, or even heart-related problems, especially when chest pressure and breathlessness occur with exertion.
 
-Because your symptoms are new and impacting your daily life, I'd recommend keeping an eye out for any changes—like if the chest pressure becomes more severe, comes on at rest, or is accompanied by sweating, nausea, or faintness. These would be reasons to seek urgent care.
+Given that you haven’t noticed swelling or sudden weight changes, and there’s no clear pattern to your fatigue, one possibility is that your heart or lungs might not be keeping up as well as usual during activity. Sometimes, even without pain or swelling, the heart can struggle to supply enough blood when you’re active, which leads to tiredness and that pressure feeling.
 
-For now, it would be helpful to check your blood pressure and possibly do some basic blood tests to rule out common causes like anemia or thyroid issues. Staying hydrated, pacing your activities, and resting when needed can also help until we know more.
+Here’s what I recommend:
+1. Since your symptoms are persistent and affecting your daily life, it’s important to get some basic tests done soon—like a physical exam, blood work (to check for anemia or thyroid issues), and possibly an EKG (to look at your heart rhythm) and a chest X-ray. These will help pinpoint the cause.
+2. In the meantime, take it easy with physical activity—don’t push yourself if you feel unwell.
+3. If you develop new symptoms like severe chest pain, fainting, rapid heartbeat, or swelling in your legs, seek medical attention right away.
 
-If you notice any new or worsening symptoms, please let me know right away. Otherwise, let's arrange for those simple checks to get a clearer picture of what's going on. Does that sound reasonable to you?
+Most causes of these symptoms are manageable, but they do need to be checked out. Let’s get those tests arranged so we can find out
 
-**Patient**: That sounds good to me. I appreciate you explaining everything clearly. I’ll keep an eye out for any changes, and I’m fine with getting those tests done to check things out.
+**Patient**: Thanks for explaining all that. How long does it usually take to get results from those tests, and what should I expect during them?
+
+**Doctor**: From what you've told me, your ongoing tiredness, chest pressure with activity, and shortness of breath are concerning enough that they need to be investigated further. These symptoms can sometimes point to issues with the heart or lungs, but can also be related to things like anemia or thyroid problems.
+
+Here’s how I’m thinking about it: When someone your age develops these symptoms gradually and they start interfering with daily life, it’s important to rule out heart problems first, since those can sometimes be subtle but serious. The tests I mentioned—a physical exam, blood work, EKG, and possibly a chest X-ray—will help us narrow down the cause. Blood tests will check for anemia, thyroid function, and markers of heart strain. An EKG looks at your heart’s electrical activity for any signs of strain or rhythm issues. A chest X-ray checks for lung problems or heart enlargement.
+
+In most clinics, blood test results are available within a day or two, while EKG and chest X-ray results are often reviewed the same day. During these tests, you’ll have your blood drawn, lie still for the EKG (which uses stickers on your chest), and stand in front of an X-ray plate for a quick image—none of these should be painful or require much time.
+
+While we’re sorting this out, pace yourself and avoid heavy exertion. If you notice any new symptoms like sudden severe chest pain, fainting, or swelling in your legs, seek care immediately.
+
+We’ll
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 693
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 974
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 59-year-old man presenting with fatigue and sluggishness for the past three years, now worsened by chest pressure and increasing shortness of breath over the past two months. His symptoms prompted a stress test and subsequent cardiac catheterization, leading to referral for aortic valve replacement. Relevant history includes hypertension, hypercholesterolemia, asthma, and gastroesophageal reflux disease; he previously underwent cholecystectomy in 2151. Medications include antihypertensives, lipid-lowering agents, asthma inhalers, and various supplements. On physical exam, he appeared slightly anxious and short of breath, with mild petechiae on the right wrist and a III/VI systolic murmur radiating to the carotids. The documented diagnosis was severe aortic valve disease requiring surgical intervention. The treatment plan included referral to a specialist for aortic valve replacement.
-
-## Dialogue Summary
-
-The patient presented with gradually worsening tiredness over the past few days. Symptoms included fatigue, sluggishness, mild to moderate chest pressure, and shortness of breath, all of which were exacerbated by physical activity and improved somewhat with rest. The patient denied changes in sleep or appetite, fever, cough, swelling in the legs or ankles, sweating, lightheadedness, or radiation of chest pressure. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that the main concerns were increasing fatigue and mild chest discomfort with exertion, without other acute warning signs. The doctor recommended monitoring for any new or worsening symptoms such as severe chest pressure at rest, sweating, nausea, or faintness, which would warrant urgent care. Initial management included checking blood pressure and ordering basic blood tests to rule out common causes like anemia or thyroid issues, along with advice to stay hydrated, pace activities, and rest as needed. The patient agreed to the plan and understood the recommendations.
-
-## STS Evaluation
-
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 57.6s
+- **Processing Time**: 97.5s

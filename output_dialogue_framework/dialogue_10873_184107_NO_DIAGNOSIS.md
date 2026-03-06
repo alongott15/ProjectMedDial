@@ -16,86 +16,95 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.720
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is consistent with the provided patient profile (young adult female with L2 burst fracture and asymptomatic residual anemia). The doctor asks appropriate questions about symptoms, daily function, and anemia, and provides reasonable advice about monitoring and dietary support. There are no unsupported diagnoses, treatments, or severe events introduced. The conversation is plausible for a light, common case follow-up.
+- **Score**: 0.720
+- **Justification**: Combined score 0.72 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.20 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.200 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and expresses understanding. To enhance realism, the patient could mention any specific activities that are harder due to the fracture or ask more questions about recovery expectations.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor is thorough and empathetic. For improvement, the doctor could briefly check on pain management strategies or clarify any physical therapy involvement, as these are common in fracture recovery.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, moving from symptoms to daily impact to anemia management. The closing summary is clear and supportive.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The doctor appropriately advises when to seek further care and gives clear dietary suggestions. The advice is conservative and well-grounded.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi, it’s nice to meet you. What brings you in today, and how have you been feeling lately?
+**Doctor**: Hi, it's good to see you today. What brings you in—how have you been feeling lately?
 
-**Patient**: Hi, thanks for seeing me. I’ve been dealing with an L2 burst fracture and just wanted to talk about how things are going with that.
+**Patient**: I’ve been a bit concerned because I had this injury in my lower back, and I wanted to check in about how things are healing.
 
-**Doctor**: Let me ask about your current symptoms—are you having any back pain, numbness, or weakness since your injury?
+**Doctor**: Let me ask about your recovery—have you noticed any improvement in your back since the injury, or is it about the same?
 
-**Patient**: I haven’t had any numbness or weakness. It’s mostly just the L2 burst fracture I’m dealing with right now.
+**Patient**: There’s been a little improvement, but my back still feels pretty unstable. I’m not totally sure what to expect with recovery.
 
-**Doctor**: Let me ask about your day-to-day—are you able to get around and do your usual activities, or is the fracture limiting you in certain ways?
+**Doctor**: Let me ask about your day-to-day—are you able to do most of your usual activities, or is the instability making things difficult?
 
-**Patient**: I can still get around, but the fracture does make some things harder. I’m just trying to be careful and not overdo it.
+**Patient**: It's definitely been tough doing regular things—I have to move a lot slower and can't lift anything heavy. The back instability kind of gets in the way.
 
-**Doctor**: Let me ask about your energy levels—have you noticed any unusual tiredness or shortness of breath recently, even when you're resting? Sometimes anemia can be present without obvious symptoms, so I want to make sure you're not experiencing anything subtle.
+**Doctor**: Let me ask about specific movements—are there certain positions or activities that make your back feel more unstable or painful, like bending, twisting, or standing for long periods?
 
-**Patient**: No, I haven’t noticed any tiredness or shortness of breath. I know I have residual anemia, but it hasn’t caused any symptoms for me.
+**Patient**: Bending and twisting definitely make it feel worse, and if I stand for too long, I notice the instability more. Sitting or lying down feels a bit better.
 
-**Doctor**: Got it. Since your anemia isn’t causing symptoms right now, are you currently taking any supplements or making dietary changes to help support your recovery?
+**Doctor**: Got it. How would you rate the discomfort or instability—would you say it’s mild, moderate, or severe most days?
 
-**Patient**: No, I’m not taking any supplements or making big changes to my diet right now.
+**Patient**: Most days it feels moderate, not super intense, but enough to make me cautious with movement. It hasn’t really gotten back to normal yet.
 
-**Doctor**: Alright. Since your anemia isn’t causing symptoms, have you ever noticed it getting worse with certain activities, like after exercise or during your period? Sometimes triggers can help us understand if it needs closer monitoring.
+**Doctor**: Alright. Have you noticed any numbness, tingling, or weakness in your legs since the injury, or is it mainly just the feeling of instability?
 
-**Patient**: No, I haven’t noticed my anemia getting worse after exercise or during my period. Everything feels about the same, and I haven’t had any symptoms from it.
+**Patient**: I haven’t noticed any numbness, tingling, or weakness in my legs. It’s mainly just the unstable feeling in my back.
 
-**Doctor**: Got it. When were you first told you had anemia, and has it been checked again since then? This helps me understand if it’s an ongoing issue or something that’s resolving.
+**Doctor**: Let me ask about when this all began—how long ago did you injure your lower back, and what exactly happened at the time?
 
-**Patient**: I found out I had anemia when I got checked after my injury. I’m not sure if it’s been tested again since then.
+**Patient**: This happened a couple of months ago—I had a fall that landed right on my lower back. Since then, it’s been unstable like I mentioned.
 
-**Doctor**: Alright. Since you haven’t noticed any changes or symptoms from your anemia, it’s possible it’s mild or improving. If you do develop symptoms like unusual fatigue, paleness, or feeling faint, it would be a good idea to get your blood checked again. For now, maintaining a balanced diet with iron-rich foods can help support recovery. If you have any questions about what foods might be helpful or what to watch for, let me know.
+**Doctor**: Let me ask about your recovery process—have you been doing any physical therapy or specific exercises for your back, or mostly just resting it?
 
-**Patient**: Thanks, that’s helpful. If you have suggestions for iron-rich foods, I’d definitely be interested. I’ll keep an eye out for any new symptoms, but so far I’m feeling okay.
+**Patient**: I haven’t done any physical therapy yet—mostly just been taking it easy and resting my back as much as possible.
 
-**Doctor**: Based on what we've discussed, it sounds like your main concern right now is recovery from your L2 burst fracture, and your anemia isn’t causing any symptoms or affecting your daily life. That’s reassuring, as mild anemia often improves over time, especially if you’re otherwise healthy and staying active within your limits.
+**Doctor**: Based on what we've discussed, it sounds like your lower back is gradually improving but still feels unstable, especially with certain movements like bending and twisting. Since you haven’t noticed any numbness, tingling, or weakness in your legs, that’s reassuring—those symptoms can suggest nerve involvement, which we’re not seeing here.
 
-For supporting your iron levels naturally, foods like lean red meats, chicken, fish, beans, lentils, spinach, and fortified cereals can be helpful. Pairing these with vitamin C-rich foods (like citrus fruits or tomatoes) can help your body absorb iron better. Since you haven’t had symptoms, there’s no urgent need for supplements unless your doctor recommends them after a follow-up blood test.
+After a fall that affected your lower back a couple of months ago, it’s common for healing to take some time. The feeling of instability is likely due to the muscles and ligaments around your spine still recovering from the injury. Rest is helpful early on, but now that it’s been a while and you’re still having trouble with daily activities, adding some gentle movement and targeted exercises can often help rebuild strength and stability.
 
-If you notice any changes—like feeling unusually tired, pale, or lightheaded—let your provider know so they can check your blood counts. Otherwise, focusing on a balanced diet and listening to your body as you recover from your fracture is a solid approach. If you have more questions about diet or activity as you heal, I’m happy to help.
+Physical therapy is usually very effective for this type of recovery—it teaches you safe ways to move, strengthens the muscles that support your spine, and helps restore confidence in your back. Most people improve gradually over weeks to months with this approach.
 
-**Patient**: That all makes sense, thank you for explaining. I’ll try adding more iron-rich foods like spinach and beans to my meals. If anything changes with my anemia or the fracture, I’ll let someone know.
+For now, I’d recommend considering a referral to physical therapy. In the meantime, keep avoiding heavy lifting or sudden movements, and listen to your body—if something feels wrong, don’t push through it. If you start to notice new symptoms like leg weakness, numbness, or loss of bladder or bowel control, those are warning signs to seek care right away.
+
+Does that explanation make sense? Any questions about what to expect from physical therapy or your recovery?
+
+**Patient**: Thanks for explaining all that. How long does physical therapy usually take before I start to feel stronger and more stable?
+
+**Doctor**: From what you've told me, your recovery is moving in the right direction, but the ongoing instability is making daily life more challenging than it should be. The fact that you’re not having nerve symptoms is reassuring, which suggests this is mainly a musculoskeletal issue—meaning the muscles, ligaments, and supporting structures of your lower back are still healing after your fall.
+
+What often happens after an injury like this is that rest helps at first, but as time goes on, those supporting muscles can weaken from not being used as much. That’s where physical therapy comes in—it’s designed to gradually rebuild your strength and stability in a safe, controlled way.
+
+Most people start to notice improvement within a few weeks of starting physical therapy, especially as they learn exercises tailored to their needs. Full recovery can vary—some feel much better in 4–6 weeks, while others may need a bit longer depending on the severity of the original injury and how their body responds. The key is consistency with the exercises and not pushing through pain.
+
+I’d recommend starting with physical therapy soon. They’ll guide you step-by-step, and you should see steady progress. If things aren’t improving after a few weeks, or if any new symptoms develop, we can reassess together.
+
+Let me know if you have questions about how to get started or what to expect during therapy.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 680
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 884
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 20-year-old female presenting with an L2 burst fracture. She was neurologically intact on admission despite significant canal compromise. Her relevant history includes no documented comorbidities, allergies, or chronic medications. Imaging with CT and MRI confirmed the unstable fracture pattern. The documented diagnosis was unstable L2 burst fracture with canal compromise. Treatment included anterior and posterior spinal reconstructive surgery with corpectomy, anterior spinal fusion (L1-L3), posterior spinal fusion (T10-L4), instrumentation, and iliac crest bone graft, followed by homologous blood transfusion for postoperative anemia. Her postoperative course was unremarkable, wounds are healing well, pain is controlled with oral medications, and she is immobilized in a TLSO brace. She is discharged for continued psychiatric and physical rehabilitation, with plans for brace wear for three months and physical therapy for up to six months.
-
-## Dialogue Summary
-
-The patient presented with concerns related to recovery from an L2 burst fracture. They reported no numbness or weakness, only difficulty with some activities due to the fracture, and stated they were being careful not to overexert themselves. The patient also noted a history of residual anemia diagnosed after their injury but denied any symptoms such as tiredness, shortness of breath, paleness, or lightheadedness, and had not noticed any worsening with exercise or menstruation. No supplements or dietary changes were currently being used, and it was unclear if anemia had been rechecked since the initial diagnosis. On assessment, the doctor noted the absence of neurological symptoms and that the anemia was asymptomatic and not affecting daily life. The doctor recommended maintaining a balanced diet with iron-rich foods (such as lean meats, beans, lentils, spinach, and fortified cereals) and pairing these with vitamin C-rich foods to support iron absorption. No supplements were advised unless future blood tests indicated a need. The patient was instructed to monitor for new symptoms and to seek follow-up if they developed unusual fatigue, paleness, or feeling faint.
-
-## STS Evaluation
-
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 60.3s
+- **Processing Time**: 108.5s

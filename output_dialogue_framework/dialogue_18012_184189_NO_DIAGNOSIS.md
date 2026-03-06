@@ -16,72 +16,103 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.923
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is highly plausible for a primary-care setting evaluating chest pain in an elderly male with a history of coronary artery disease. The doctor asks appropriate, focused questions about the pain's characteristics, associated symptoms, triggers, and relevant medical history. The patient's responses are consistent with the profile and case type. There are no hallucinations or unsupported content. The only issue is the abrupt end due to a simulation error, not a content problem.
+- **Score**: 0.923
+- **Justification**: Combined score 0.92 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.88 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.875 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. Ensure continued engagement and completion of the conversation to avoid abrupt simulation termination.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: Doctor's questions are thorough and appropriate. Consider summarizing findings or expressing concern/reassurance as the conversation progresses.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with each question building on previous answers. The conversation should be completed to a natural stopping point (e.g., plan or next steps).
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns in the dialogue provided. The doctor appropriately explores red-flag symptoms and relevant history.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Let me ask about the pain you're experiencing—when did you first notice it, and how long does each episode typically last?
+**Doctor**: Let me ask about the pain—when did you first notice it, and how long does each episode typically last?
 
-**Patient**: I noticed the pain earlier today. Each time, it lasts maybe a few minutes before it eases up.
+**Patient**: I first noticed the pain maybe a couple days ago, but I’m not exactly sure. Each episode feels like it lasts several minutes, sometimes longer.
 
-**Doctor**: Let me ask about the pain itself—would you describe it as sharp, dull, or pressure-like? And does it ever move or radiate to other areas?
+**Doctor**: Let me ask about the quality of the pain—would you describe it as sharp, dull, pressure-like, or something else?
 
-**Patient**: It's a sharp pain, kind of like a band across my chest. It does seem to move from the right side over to the left.
+**Patient**: It feels pretty sharp, almost like a band going across my chest. The pain seems to move from the right side to the left.
 
-**Doctor**: Alright. Besides the pain, have you noticed any other symptoms today, such as feeling sweaty, short of breath, or lightheaded?
+**Doctor**: Got it. Have you noticed any other symptoms when this happens, like sweating, shortness of breath, or feeling lightheaded?
 
-**Patient**: Yes, I've been pretty sweaty with it. I haven't felt lightheaded or short of breath, though.
+**Patient**: I do get pretty sweaty when the pain comes on. I haven't noticed feeling lightheaded or short of breath, just the pain and sweating.
 
-**Doctor**: Let me ask about what you were doing when the pain came on—were you at rest, walking, or doing any kind of activity?
+**Doctor**: Alright. Have you noticed if anything tends to bring on these episodes, like physical activity, eating, or emotional stress? Or do they seem to happen randomly?
 
-**Patient**: I was just sitting in my chair when it started. I wasn't doing anything strenuous at the time.
+**Patient**: I haven't really noticed a pattern—it doesn't seem tied to activity or eating. The episodes just come on randomly, as far as I can tell.
 
-**Doctor**: Got it. On a scale from 1 to 10, how severe would you say the pain feels at its worst?
+**Doctor**: Let me ask about any nausea—have you felt sick to your stomach during these episodes?
 
-**Patient**: At its worst, I'd rate the pain around a 7 out of 10. It's pretty uncomfortable when it happens.
+**Patient**: No, I haven't felt sick to my stomach during these episodes. It's just the chest pain and sweating.
 
-**Doctor**: Let me ask about your medical history—do you have any history of heart or lung conditions, or have you experienced anything similar before?
+**Doctor**: Okay. How severe would you say the pain is on a scale from 1 to 10, with 10 being the worst pain you can imagine?
 
-**Patient**: Yes, I have a history of coronary artery disease and I've had bypass surgery and a stent placed before. This pain does remind me a bit of what I felt in the past. I don't have any lung conditions that I know of.
+**Patient**: On that scale, I'd rate the pain around a 7—it's definitely uncomfortable and pretty intense when it happens.
 
-**Doctor**: Got it. Does anything in particular seem to trigger these episodes, or does anything help relieve the discomfort when it occurs?
+**Doctor**: That's helpful to know. Does anything help relieve the discomfort when it starts, like resting, changing position, or taking any medication? Or does it just go away on its own?
+
+**Patient**: Taking my nitroglycerin under the tongue usually helps ease the pain after a little while. Sometimes just sitting and resting makes it better too.
+
+**Doctor**: Got it. Since your nitroglycerin seems to help, that gives me an important clue. Based on your description—especially the nature of the discomfort, the sweating, and how nitroglycerin relieves it—this sounds like a type of chest pain called angina. Angina is usually related to reduced blood flow to the heart muscle, often brought on by increased demand or narrowed arteries.
+
+What often happens with angina is that the heart isn’t getting quite enough oxygen for a brief period, which causes those symptoms. Nitroglycerin helps by relaxing blood vessels and improving blood flow.
+
+While your symptoms are concerning enough to monitor closely, it’s good that you don’t have other worrisome features like fainting or ongoing shortness of breath. However, if you ever notice the pain lasting longer than usual, not improving with rest or nitroglycerin, or if you develop new symptoms like severe shortness of breath or fainting, you should seek emergency care immediately.
+
+For now, continue using your nitroglycerin as prescribed and try to note any patterns that might develop. If these episodes become more frequent or severe, let your healthcare provider know promptly.
+
+Does this explanation make sense? And do you have any questions or concerns about what we’ve discussed?
+
+**Patient**: Thank you for explaining that. Is there anything specific I should change in my daily routine to help prevent these episodes, like what I eat or how active I am?
+
+**Doctor**: From what you've told me, it sounds like your episodes are likely related to angina, which means your heart may not be getting enough oxygen at times. This often happens when the heart has to work harder, but sometimes it can occur unpredictably, as in your case. The fact that nitroglycerin helps is a classic sign.
+
+Lifestyle does play a role in managing and preventing these episodes. It’s helpful to pace your activities—try not to overexert yourself, and take breaks as needed. Eating smaller, lighter meals can sometimes reduce strain on the heart. If you notice certain activities or situations seem to trigger symptoms, it’s wise to adjust or avoid them.
+
+Regular, gentle activity is usually good for heart health, but it’s important not to push yourself too hard. If you’re unsure about what level of exercise is safe, check with your cardiologist or primary doctor.
+
+As for your diet, focusing on heart-healthy foods—like plenty of vegetables, fruits, whole grains, lean proteins, and less salt and saturated fat—can make a difference over time.
+
+If you ever have an episode that doesn’t improve after taking nitroglycerin and resting, or if you develop new symptoms like fainting or severe shortness of breath, seek medical attention right away.
+
+Would you like more detail about any of these suggestions or about angina itself?
+
+**Patient**: Thank you for explaining all that. If I keep having these episodes, should I expect any changes in my medications or more tests?
+
+**Doctor**: Based on what we've discussed, your symptoms fit with a condition called angina, where the heart muscle isn't getting enough oxygen for brief periods. This is often managed with medications like nitroglycerin, as you’re using now, and sometimes other medicines to help protect the heart or improve blood flow.
+
+If these episodes become more frequent, more severe, or start happening even while you’re resting, that can be a sign that your heart needs more support. In those cases, your doctor might recommend adjusting your medications or ordering additional tests—such as heart imaging, a stress test, or blood work—to see if anything has changed.
+
+The goal is to keep your symptoms well controlled and reduce the risk of complications. For now, continue as you have been, but keep track of any changes in your symptoms. If you notice the nitroglycerin isn’t helping as much, or if you have pain that lasts longer than usual, it’s important to get checked promptly.
+
+Would you like guidance on how to monitor your symptoms or when to seek urgent care?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 13
-- **Word Count**: 318
-- **Doctor Turns**: 7
-- **Patient Turns**: 6
-
-## EHR Summary
-
-The patient is an 81-year-old man presenting with acute chest pain. He experienced a sharp, band-like pain across his chest at rest, rated 6/10, radiating from right to left, similar to previous angina episodes but refractory to sublingual nitroglycerin; he also reported diaphoresis but denied nausea, vomiting, or dyspnea. His history includes coronary artery disease, prior CABG (LIMA to LAD, SVG to PDA and diag-1), PCI with stent placement, and hypertension. On arrival at the outside hospital, ECG showed ST elevations in the inferior leads and ST depressions in the precordial leads. Cardiac catheterization revealed a 100% occluded native RCA and SVG to PDA graft, with successful ballooning and stenting of an OM-2 lesion. The documented diagnosis was acute coronary syndrome due to coronary artery disease. Treatment included aspirin, beta blocker, IV nitroglycerin, heparin, Aggrestat, and percutaneous coronary intervention with stent placement. The patient was monitored in the CCU following intervention.
-
-## Dialogue Summary
-
-The patient presented with chest pain. The pain began earlier today, occurs in episodes lasting a few minutes, is described as sharp and band-like across the chest, and radiates from the right to the left side. The patient rated the pain as 7 out of 10 at its worst and reported associated sweating but denied shortness of breath or lightheadedness. The pain occurred while the patient was at rest, without any physical activity as a trigger. Relevant history includes coronary artery disease with prior bypass surgery and stent placement; the patient noted the current pain is reminiscent of previous cardiac symptoms and denied any known lung conditions. No specific clinical findings were documented by the doctor during this encounter. The doctor did not provide an explicit assessment or treatment plan within the dialogue provided.
-
-## STS Evaluation
-
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
+- **Turn Count**: 19
+- **Word Count**: 983
+- **Doctor Turns**: 10
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 50.7s
+- **Processing Time**: 90.4s

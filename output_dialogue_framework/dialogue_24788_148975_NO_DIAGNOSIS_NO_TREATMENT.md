@@ -16,88 +16,95 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.920
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is highly consistent with the provided patient profile and case type. The doctor asks logical, stepwise questions about the exertional chest pain, associated symptoms, and functional impact. The patient responses are plausible and align with the known diagnoses (aortic stenosis, angina, etc.). The doctor summarizes the findings, provides appropriate safety advice, and recommends follow-up without introducing unsupported diagnoses or interventions. There are no hallucinations or contradictions.
+- **Score**: 0.920
+- **Justification**: Combined score 0.92 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.87 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.867 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, the patient could mention any recent changes in medication or other health events if prompted.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: The doctor is thorough and clear. For completeness, the doctor could briefly check for red flag symptoms (e.g., chest pain at rest, palpitations, syncope) more explicitly or ask about medication adherence.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with good transitions between topics. The closing is supportive and open-ended.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is appropriate for a light case. The doctor correctly emphasizes when to seek urgent care. Clarity is high throughout.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's nice to see you today. What brings you in, and how have you been feeling lately?
+**Doctor**: Hello, it’s nice to meet you. What brings you in today, and how have you been feeling lately?
 
-**Patient**: My chest has been hurting when I walk or do anything active. It's made me a bit worried lately.
+**Patient**: I came in because I've been having chest pain when I try to do things, like walking or going up stairs. It's been making me feel pretty anxious.
 
-**Doctor**: Let me ask about when you first noticed this discomfort—how long has this been going on?
+**Doctor**: Let me ask about how this has been affecting your daily life—are you able to do your usual activities, or have you had to slow down or stop because of the pain?
 
-**Patient**: I'm not exactly sure, but I think it's been going on for a couple of weeks now. It seems to happen more when I'm moving around.
+**Patient**: I’ve definitely had to slow down. Sometimes I have to stop what I’m doing because the pain gets pretty bad, especially if I’m moving around more.
 
-**Doctor**: Let me ask about any other symptoms—when you feel this discomfort during activity, do you also notice any shortness of breath, lightheadedness, or sweating?
+**Doctor**: Let me ask about other symptoms—when this happens, do you ever notice shortness of breath, sweating, or feeling lightheaded?
 
-**Patient**: Yes, I do get short of breath when the chest pain comes on. Sometimes I feel a bit dizzy too.
+**Patient**: I do get short of breath when the chest pain comes on, especially if I'm moving around. Sometimes I feel dizzy, too. I haven’t noticed much sweating, though.
 
-**Doctor**: Alright. How much does this discomfort limit what you can do day-to-day—are there activities you've had to stop or avoid because of it?
+**Doctor**: Alright. When did you first start noticing these symptoms? Has this been going on for days, weeks, or longer?
 
-**Patient**: I've had to slow down quite a bit. Even just walking around the house or going up the stairs makes me stop and catch my breath now.
+**Patient**: I’m not exactly sure when it started, but it’s been going on for at least a few weeks. Along with the dizziness, I sometimes feel a bit nauseous when the chest pain and shortness of breath happen.
 
-**Doctor**: Let me ask about the discomfort itself—does it go away when you rest, or does it linger even after you stop moving?
+**Doctor**: Got it. Does resting or sitting down help these symptoms go away, or do they persist even when you stop moving?
 
-**Patient**: It usually goes away once I sit down and rest for a bit. It doesn't really linger after I stop moving.
+**Patient**: Sitting down or resting usually makes the chest pain and shortness of breath ease up. The dizziness and nausea also tend to get better when I stop moving.
 
-**Doctor**: Got it. When you feel this discomfort and need to rest, about how long does it take for the symptoms to fully resolve?
+**Doctor**: Let me ask—have you ever had anything like this before, or is this the first time you’ve experienced these kinds of symptoms during activity?
 
-**Patient**: Usually after a few minutes of resting, the chest pain and shortness of breath go away. Sometimes I still feel a bit dizzy or even a little nauseous right after, but that fades too.
+**Patient**: This is the first time I’ve had these symptoms during activity. I haven’t experienced chest pain, shortness of breath, or dizziness like this before.
 
-**Doctor**: Let me ask about the quality of the discomfort—does it feel more like a pressure, tightness, sharp pain, or something else?
+**Doctor**: Got it. Has the discomfort been getting more frequent or intense over these past few weeks, or has it stayed about the same since you first noticed it?
 
-**Patient**: It feels more like a tightness or pressure in my chest, not really a sharp pain.
+**Patient**: The discomfort has been getting a bit more frequent and intense lately. It feels worse now than when I first noticed it a few weeks ago.
 
-**Doctor**: Got it. Have you ever felt these symptoms when you're resting, or do they only come on with physical activity?
+**Doctor**: Let me ask about the pain itself—can you describe what it feels like (for example, is it pressure, tightness, burning, or something else), and where exactly in your chest do you notice it?
 
-**Patient**: No, the symptoms only come on when I'm active. I don't get them while I'm resting.
+**Patient**: The pain feels more like a pressure or tightness in the middle of my chest. It’s not really a burning feeling, and it mostly happens right in the center.
 
-**Doctor**: Based on what we've discussed, your symptoms—tightness in the chest, breathlessness, and dizziness that come on with exertion and improve with rest—can sometimes be seen in conditions where the heart isn't getting enough oxygen during activity. This is commonly called "angina," and it often means that the heart has to work harder during physical activity, causing discomfort until you rest.
+**Doctor**: Based on what we've discussed, your symptoms—especially the pressure in the center of your chest that comes on with activity and improves with rest, along with shortness of breath, dizziness, and occasional nausea—are concerning for a condition called angina. Angina is usually caused by reduced blood flow to the heart muscle, often due to narrowed arteries. This can sometimes be an early warning sign of heart disease.
 
-It’s important to monitor for any changes—such as symptoms coming on at rest, lasting longer, or getting more intense. If that happens, or if you ever feel faint, break out in a cold sweat, or notice new symptoms, you should seek medical attention right away.
+Because your symptoms have been getting more frequent and intense, it’s important not to ignore them. While some causes of chest discomfort are not dangerous, the pattern you’re describing—brought on by exertion and relieved by rest—is classic for heart-related chest pain.
 
-For now, I’d recommend taking it easy with physical activity and avoiding anything that brings on these symptoms. Let’s also discuss following up soon for further evaluation. There are treatments and tests that can help clarify what’s happening and keep you safe.
+My recommendation is that you have further evaluation as soon as possible. This typically involves an ECG (electrocardiogram), blood tests, and possibly a stress test or imaging to check your heart. In the meantime:
+- Avoid strenuous activity until you’ve been evaluated.
+- If you develop chest pain at rest, severe or persistent discomfort, fainting, or pain that spreads to your arm, neck, or jaw, seek emergency care immediately.
 
-Do you have any questions or concerns about what we’ve talked about so far?
+What often happens with this type of symptom is that early detection and treatment can help prevent more serious problems. I’d like to arrange for you to be seen for further testing as soon as possible.
 
-**Patient**: Thank you for explaining that. I appreciate you taking the time to go over everything with me. I’ll be careful and watch for any changes like you said. How soon should I come back for that follow-up?
+Do you have any questions about what I’ve explained or what should happen next?
+
+**Patient**: Thank you for explaining all that. What should I expect during these tests—are they uncomfortable or take a long time?
+
+**Doctor**: Let me share my thoughts on what you can expect. Most of the initial tests for this kind of symptom are straightforward and not painful. An ECG involves placing small sticky pads on your chest to measure your heart’s electrical activity—it takes just a few minutes and is not uncomfortable. Blood tests involve a standard blood draw from your arm.
+
+If your doctor recommends a stress test, you’ll usually walk on a treadmill or ride a stationary bike while your heart is monitored. This helps see how your heart handles activity. The test is supervised, and they’ll stop immediately if you have any symptoms. Some people may also have an ultrasound of the heart (an echocardiogram), which is painless.
+
+These tests are designed to be safe and give important information about your heart’s function. Most people tolerate them well, and they don’t take very long—usually an hour or two in total for all the initial assessments.
+
+The key is to get these answers soon so we can keep you safe and help you feel better. If you have any concerns or feel unwell before your appointment, don’t hesitate to seek urgent care. Would you like more details about any specific test or about what happens next?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 568
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 897
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 78-year-old female presenting with exertional angina, shortness of breath (SOB), and dizziness. She has a history of aortic stenosis (AS) and now reports angina and dyspnea on exertion (DOE). Her past medical history includes hypertension, dyslipidemia, GERD, osteoporosis, and recent fall, among other conditions; she is allergic to Lisinopril, Diovan, and latex. On physical exam, she was not in acute distress, had a 3/6 systolic ejection murmur at the left sternal border, and positive carotid bruits; laboratory results showed mild anemia and thrombocytopenia. Cardiac catheterization revealed significant coronary artery disease and severe aortic stenosis with a valve area of 0.7 cm². The documented diagnosis was severe aortic stenosis with associated angina and exertional symptoms. She underwent aortic valve replacement (AVR) with a #19 CE Magna pericardial valve and repair of the coronary sinus. Postoperative care included monitoring labs and supportive management.
-
-## Dialogue Summary
-
-The patient presented with chest discomfort during physical activity. Symptoms included chest tightness or pressure, shortness of breath, dizziness, and occasional mild nausea, all occurring with exertion and resolving within a few minutes of rest; the patient reported needing to slow down daily activities such as walking and climbing stairs due to these symptoms. No symptoms occurred at rest, and the discomfort did not linger after stopping activity. No relevant medical history, medications, or allergies were mentioned. On clinical questioning, the patient described the chest discomfort as tightness or pressure rather than sharp pain, with associated breathlessness and dizziness during exertion. The doctor assessed that these symptoms are consistent with angina, suggesting the heart may not be getting enough oxygen during activity. The doctor advised the patient to avoid activities that trigger symptoms, monitor for any changes such as symptoms at rest or increased severity, and seek immediate medical attention if new or worsening symptoms occur. A follow-up was recommended for further evaluation and discussion of potential treatments and tests.
-
-## STS Evaluation
-
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 63.9s
+- **Processing Time**: 85.3s

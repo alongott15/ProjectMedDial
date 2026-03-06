@@ -16,94 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.885
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is highly plausible for a light, common case involving paresthesias and intermittent shooting pains in the neck and arm. The doctor asks appropriate, focused questions about symptom onset, progression, aggravating factors, associated symptoms, and functional impact. The patient responses are consistent with the profile and chief complaint. The doctor provides a reasonable explanation and conservative management advice, with appropriate safety netting. No unsupported diagnoses, treatments, or severe events are introduced.
+- **Score**: 0.885
+- **Justification**: Combined score 0.89 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.75 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.750 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For added realism, the patient could mention any previous similar episodes or express mild concern about their existing diagnoses (e.g., Chiari malformation), but this is optional.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor's reasoning and advice are thorough and well explained. For completeness, the doctor could briefly acknowledge the patient's history of Chiari malformation and paraspinal cysts, even if only to reassure that current symptoms do not suggest worsening of those conditions.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical, with smooth transitions between symptom exploration, functional impact, associated symptoms, and management advice. The conversation closes with clear instructions and reassurance.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety netting is appropriately included (watch for new weakness or numbness). Clarity is excellent throughout. No safety concerns detected.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi there, it’s good to see you today. What’s been bothering you lately?
+**Doctor**: Hi, good to see you today. How have things been going with your neck and shoulder symptoms lately?
 
-**Patient**: I've been having this weird tingling feeling in my left neck and shoulder. It's been pretty uncomfortable lately.
+**Patient**: Things have been pretty uncomfortable. My neck and shoulders still have that tingling feeling, and sometimes I get these shooting pains down my left arm, especially when I sneeze or cough.
 
-**Doctor**: Let me ask about the timing—when did you first notice this tingling sensation? Has it been getting better, worse, or staying about the same since it started?
+**Doctor**: Let me ask—have you noticed any weakness in your arm or hand, or any changes with your grip strength?
 
-**Patient**: I'm not exactly sure when it started, but it's been going on for a little while now. I haven't noticed much change—it seems to just stick around.
+**Patient**: I haven’t noticed any weakness or issues with my grip. It’s mostly just the tingling and those shooting pains down my arm.
 
-**Doctor**: Let me ask about any other sensations—do you ever notice sharp or shooting pains going down your arm, or is it just the tingling in your neck and shoulder?
+**Doctor**: Let me ask about the timeline—when did these symptoms first begin, and have they been getting better, worse, or staying about the same since then?
 
-**Patient**: Yes, I do get these shooting pains down my left arm sometimes. They seem to get worse when I sneeze or cough.
+**Patient**: I’m not exactly sure when it first started, but it’s been going on for a while now. The tingling in my neck and shoulders has pretty much stayed the same, but the shooting pains down my arm seem to get worse whenever I sneeze or cough.
 
-**Doctor**: Alright. Have you noticed any numbness or weakness in your left arm or hand, or any trouble with gripping objects?
+**Doctor**: Let me ask about your daily routine—are there certain activities or positions that seem to make the tingling or shooting sensations worse, or anything that helps relieve them?
 
-**Patient**: No, I haven't had any numbness or weakness in my arm or hand, and gripping things hasn't been a problem. It's mostly just the tingling and those shooting pains.
+**Patient**: Sneezing and coughing definitely make the shooting pains worse. I haven’t noticed any particular activities or positions that help relieve the tingling or pain—it just sort of stays there.
 
-**Doctor**: Let me ask about your daily routine—have you noticed if certain positions, activities, or movements make the tingling or shooting sensations more noticeable or bothersome? For example, does using a computer, sleeping in a certain way, or physical activity seem to affect it?
+**Doctor**: Got it. Have you had any numbness or tingling in your fingers, or any changes in sensation there?
 
-**Patient**: Sneezing and coughing definitely make the shooting pains worse. I haven't really noticed any change with using the computer or sleeping, though. Physical activity doesn't seem to affect it much either.
+**Patient**: I haven’t felt any numbness or tingling in my fingers, and the sensation there seems normal. It’s mainly just in my neck, shoulders, and sometimes down my left arm.
 
-**Doctor**: Got it. How much is this affecting your day-to-day activities—are you able to work, exercise, and do your usual tasks without much trouble, or is it interfering with things you need to do?
+**Doctor**: Alright. On a scale from 1 to 10, how intense would you say the shooting pain gets at its worst? And is the tingling more bothersome, or is it the pain that’s affecting you most day-to-day?
 
-**Patient**: I’m still able to do my regular activities and work without much trouble. The symptoms are annoying, but they haven’t really stopped me from doing things.
+**Patient**: The shooting pain can get up to about a 7 out of 10 when it’s at its worst. Day-to-day, the pain bothers me more than the tingling—it’s pretty distracting, especially if I have to sneeze or cough.
 
-**Doctor**: Let me ask about any other symptoms—have you had any headaches, changes in vision, or trouble with balance along with the tingling and shooting pains?
+**Doctor**: Got it. Have these symptoms been interfering with your sleep or making it harder to get comfortable at night?
 
-**Patient**: Yes, I do get migraine headaches sometimes, but I haven't had any changes in vision or trouble with balance. The main thing lately has been the tingling and shooting pains.
+**Patient**: It’s definitely been harder to get comfortable at night. The pain, especially when I move or cough, can make it tough to fall asleep and stay asleep.
 
-**Doctor**: Okay. Since sneezing and coughing make things worse, sometimes this can be related to irritation or pressure on a nerve in the neck. Have you had any recent injuries, heavy lifting, or unusual physical activities that might have strained your neck or upper back?
+**Doctor**: Let me ask about your daily activities—are there any tasks at work or home that you’ve had to change or avoid because of these symptoms?
 
-**Patient**: No, I haven't had any injuries or done any heavy lifting recently. Nothing unusual with my physical activity that might have strained my neck or back.
+**Patient**: I’ve had to take breaks more often, especially when the pain flares up. Tasks that involve lifting or reaching can be tough, so I sometimes avoid those when my arm hurts.
 
-**Doctor**: From what we've discussed, it sounds like the tingling and shooting pains are likely related to a nerve being irritated in your neck—possibly from something like a mild disc issue or muscle tension pressing on a nerve root. The fact that sneezing and coughing make it worse is a classic sign of nerve involvement, but since you’re not having any numbness, weakness, or trouble with your grip, this is reassuring and suggests it’s not a severe nerve problem.
+**Doctor**: Based on what we've discussed, your symptoms—especially the tingling sensations in your neck and shoulders and the shooting discomfort down your arm that gets worse with sneezing or coughing—are consistent with nerve irritation, most likely coming from the cervical spine area. This often happens when a nerve in the neck is compressed or inflamed, sometimes due to a herniated disc or muscle tension.
 
-Most of the time, these symptoms improve on their own with some gentle stretching, good posture, and avoiding activities that put extra strain on your neck. Over-the-counter pain relievers and warm compresses can also help ease discomfort. It’s important to watch for any new symptoms like persistent numbness, weakness, or trouble using your arm, as those would need more urgent evaluation.
+The fact that you haven’t noticed any weakness or numbness in your hand or fingers is reassuring, as those could be signs of more significant nerve involvement. However, the discomfort interfering with your sleep and daily activities tells me this is having a real impact on your quality of life.
 
-If things don’t start to improve over the next few weeks, or if symptoms get worse, it would be a good idea to follow up for a closer look. For now, focusing on neck-friendly habits and gentle movement is usually helpful. Does that make sense, or is there anything else about these symptoms you’re concerned about?
+What’s important now is to focus on strategies that can help reduce irritation—gentle neck stretches, avoiding heavy lifting, and using good posture can sometimes help. Over-the-counter pain relievers and applying heat or ice may also provide relief. If you notice new symptoms like weakness, loss of sensation, or trouble controlling your hand, those would be reasons to seek prompt evaluation.
 
-**Patient**: That makes sense, thanks for explaining it. I’ll try the stretches and be careful with my posture like you suggested. If anything changes or gets worse, I’ll let you know.
+Let me know if you’d like more detailed advice on stretches or pain management strategies, or if you have other questions about what to expect with this condition.
 
-**Doctor**: Based on what we've discussed, it sounds like your symptoms are most consistent with a mild irritation of a nerve in your neck—often called a cervical radiculopathy. This can sometimes happen even without a clear injury, and it’s common for things like sneezing or coughing to temporarily worsen the sensation if a nerve is a bit compressed. The absence of weakness or loss of function is reassuring and suggests this isn’t a severe case.
-
-What often helps in situations like this is focusing on gentle neck stretches, maintaining good posture (especially at work or when using screens), and using simple measures like warm compresses to ease muscle tension. Most people notice gradual improvement over several weeks. It’s important to keep an eye out for any changes, like new weakness or persistent numbness, as those would need prompt attention.
-
-If things aren’t improving over time, or if you develop those warning signs, let’s check in again. For now, taking it easy on your neck and listening to your body is a good approach. Let me know if you have any other questions or if there’s anything specific you’re worried about.
-
-**Patient**: Thanks for explaining everything so clearly. I feel better knowing it's not a severe case. I'll stick with the stretches and keep an eye out for any changes. If I notice anything different, I’ll reach out.
+**Patient**: Thanks for explaining that. I actually have a confirmed diagnosis of Chiari malformation from my outpatient workup, and a paraspinal cyst from C2 through T2. I’m already using medications for pain and psoriasis, but I’d like to hear more about which stretches might be safe for my situation.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 20
-- **Word Count**: 919
-- **Doctor Turns**: 10
-- **Patient Turns**: 10
-
-## EHR Summary
-
-The patient is a 33-year-old male presenting with paresthesias of the left neck and shoulder, along with intermittent shooting pains down the left arm, which are exacerbated by sneezing and coughing. He also has a history of migraine headaches for several months. His past medical history includes psoriasis (treated with topical creams and ultraviolet radiation), migraines, and a paraspinal cyst from C2 through T2; he is allergic to ibuprofen (rash) and gluten (dermatitis). On admission, physical examination was largely unremarkable, with no sensory deficits or acute neurological findings. The documented diagnosis was Chiari malformation. The patient was admitted for and underwent surgical decompression for this condition.
-
-## Dialogue Summary
-
-The patient presented with tingling in the left neck and shoulder. Symptoms included persistent tingling and occasional shooting pains down the left arm, which worsen with sneezing or coughing; no numbness, weakness, or trouble gripping objects were reported, and daily activities are not significantly affected. The patient also mentioned a history of migraine headaches but denied recent injuries, heavy lifting, or unusual physical activity. No changes in vision or balance were noted. On assessment, the doctor concluded that the symptoms are most consistent with mild cervical nerve irritation (cervical radiculopathy), likely due to disc or muscle-related pressure, with no signs of severe nerve involvement. The doctor recommended gentle neck stretches, maintaining good posture, using warm compresses, and over-the-counter pain relievers as needed. The patient was advised to monitor for new symptoms such as persistent numbness or weakness and to follow up if symptoms worsen or do not improve over several weeks. The patient understood and agreed to the plan.
-
-## STS Evaluation
-
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
+- **Turn Count**: 18
+- **Word Count**: 713
+- **Doctor Turns**: 9
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 73.4s
+- **Processing Time**: 92.5s

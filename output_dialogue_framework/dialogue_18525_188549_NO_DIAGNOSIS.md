@@ -16,88 +16,179 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.870
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with a light, common headache case. The doctor asks appropriate questions about headache characteristics, associated symptoms, and possible triggers. The patient responses are coherent and realistic. The doctor provides a reasonable explanation for the headaches (tension-type or eye strain), offers practical advice, and appropriately advises follow-up if symptoms worsen. There are no unsupported diagnoses, treatments, or contradictions with the provided profile.
+- **Score**: 0.870
+- **Justification**: Combined score 0.87 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.70 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.700 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, the patient could mention any over-the-counter remedies tried or express concern about the headaches given their history of an ophthalmic artery aneurysm (if aware).
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor is thorough and clear. For completeness, the doctor could briefly acknowledge the patient's history of right ophthalmic artery aneurysm (if known from chart), even if not directly relevant to current mild symptoms, to demonstrate awareness of medical history.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The conversation flows logically and naturally, with smooth transitions between topics. The summary and advice at the end are well-placed.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The doctor appropriately reassures but also advises follow-up if symptoms change or worsen. Clarity is excellent throughout.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. How have you been feeling lately? What brings you in for your visit?
+**Doctor**: Hi there, it’s good to see you today. What brings you in—can you tell me more about how you’ve been feeling lately?
 
-**Patient**: I've been getting headaches lately, and it's starting to bother me more than usual. That's why I wanted to come in today.
+**Patient**: I've been having headaches lately, and they're starting to bother me more. That's the main reason I wanted to come in today.
 
-**Doctor**: Let me ask about how long these headaches have been going on. Did they start recently, or have you noticed them for a while now?
+**Doctor**: Let me ask about the headaches—when did they first start, and how often are you noticing them?
 
-**Patient**: I'm not exactly sure when they started, but it's been a little while now. They just seem to come and go.
+**Patient**: I’m not exactly sure when they started, but it’s been going on for a little while now. I notice the headaches most days, sometimes more than once.
 
-**Doctor**: Let me ask about the pain itself—on a scale from 1 to 10, how intense are these headaches when they occur?
+**Doctor**: Let me ask about the quality of the pain—would you describe it as throbbing, sharp, dull, or something else? And does anything in particular seem to trigger or relieve it?
 
-**Patient**: I'd say the pain is usually around a 5 or 6 when it's at its worst. It's enough to distract me, but not unbearable.
+**Patient**: The pain is mostly dull, but sometimes it feels a bit sharper. I haven’t noticed any specific triggers, and nothing in particular seems to make it better or worse yet.
 
-**Doctor**: Alright. Have you noticed if anything seems to trigger these episodes, or if there’s anything you do that tends to relieve them? For example, does rest, hydration, or being in a quiet room help at all?
+**Doctor**: Alright. Have you noticed any other symptoms that come along with these episodes, like vision changes, nausea, or sensitivity to light or sound?
 
-**Patient**: Resting in a quiet room does seem to help a bit. I haven’t noticed any specific triggers, though.
+**Patient**: I haven’t had any vision changes, nausea, or sensitivity to light or sound with the headaches. It’s really just the headache itself.
 
-**Doctor**: Let me ask about other symptoms—when you get these headaches, do you ever experience any vision changes, nausea, or sensitivity to light or sound?
+**Doctor**: Got it. On a scale from 1 to 10, with 10 being the worst pain you can imagine, how would you rate the intensity when it's at its worst? And does it ever interfere with your ability to work or do things at home?
 
-**Patient**: I haven't noticed any vision changes, nausea, or sensitivity to light or sound with these headaches. It's really just the headache itself.
+**Patient**: At its worst, I’d rate the pain around a 7 out of 10. Sometimes it does make it harder to focus or get things done at home.
 
-**Doctor**: Got it. Since rest helps a bit, I'm curious—do these episodes ever affect your ability to concentrate at work or during daily tasks, or do you find you can usually push through them?
+**Doctor**: Let me ask about your sleep—have you been sleeping well lately, or have you noticed any changes in your sleep patterns since these headaches started? Sometimes sleep issues can play a role.
 
-**Patient**: They do make it harder to concentrate, especially if I'm trying to focus on something for a long time. I can usually push through, but it's definitely distracting.
+**Patient**: My sleep has been pretty normal, and I haven’t noticed any big changes since the headaches started. I’m able to fall asleep and stay asleep most nights.
 
-**Doctor**: I see. When these headaches come on, do you notice if they're worse at certain times of day or after specific activities, like working at a computer or being in a noisy environment?
+**Doctor**: Let me ask about your general stress levels or any recent changes in your routine—sometimes these can contribute. Have you been under more stress than usual, or has anything changed in your daily life recently?
 
-**Patient**: They're usually worse after I've been working at the computer for a while. I haven't noticed a specific time of day, but screen time definitely seems to make them more noticeable.
+**Patient**: I do have anxiety and panic disorder, so stress is something I deal with regularly. But there hasn’t been any major change in my routine or extra stress lately.
 
-**Doctor**: Let me ask about your overall well-being—are you sleeping well at night, or have you noticed any changes in your sleep pattern recently? Sometimes sleep quality can play a role in how often these episodes occur.
+**Doctor**: Got it. Since these headaches can be quite bothersome, have you tried taking any over-the-counter pain relievers, like acetaminophen or ibuprofen? If so, do they help at all?
 
-**Patient**: My sleep has actually been okay. I haven't noticed any big changes in my sleep pattern recently.
+**Patient**: I’ve tried taking acetaminophen a couple of times. It helps a little, but the headache doesn’t go away completely. I haven’t used ibuprofen yet.
 
-**Doctor**: Based on what we've discussed, it sounds like your headaches are most noticeable after extended computer use and aren't accompanied by other concerning symptoms like vision changes or nausea. This pattern is often seen with tension-type headaches or headaches related to eye strain, which are common when spending long periods focusing on screens.
+**Doctor**: From what you’ve told me, it sounds like you’re experiencing a recurring type of pain that doesn’t have obvious triggers or other concerning symptoms, and your sleep and daily routine haven’t changed much. The absence of vision changes, nausea, and sensitivity to light or sound is reassuring, as those can be signs of more serious types of headaches.
 
-What often happens is that muscles around the head and neck can tense up during prolonged concentration, especially if posture isn't ideal, leading to discomfort. Eye fatigue from screens can also contribute.
+Given your history of anxiety and the way the pain responds partially to acetaminophen, this pattern is often seen with what we call tension-type headaches. These are quite common and are usually related to muscle tension or stress, even if your stress levels haven’t changed recently. They can feel dull or sometimes sharper, and often make it harder to concentrate.
 
-The good news is that these types of headaches are usually manageable with practical steps: taking regular breaks from the screen, adjusting your workstation ergonomics, staying hydrated, and doing gentle stretches for your neck and shoulders. If you notice the headaches becoming more frequent, severe, or developing new symptoms, those would be reasons to follow up.
+What’s important is that there are no warning signs such as sudden severe pain, neurological symptoms (like weakness or trouble speaking), or changes in your usual health. For now, simple strategies like staying hydrated, taking breaks from screens, gentle neck stretches, and using over-the-counter pain relievers as needed can help. Managing stress through relaxation techniques may also be useful.
 
-Let me know if you'd like tips on setting up your workspace or strategies for taking breaks during computer work.
+If you ever notice new symptoms—like vision changes, persistent vomiting, confusion, or the worst headache of your life—please seek medical care right away. Otherwise, these headaches are usually manageable and not dangerous.
 
-**Patient**: That actually makes a lot of sense. I’d appreciate some tips on setting up my workspace better and reminders for breaks—sometimes I just lose track of time when I’m working. Thanks for explaining everything so clearly.
+Let me know if you’d like more tips for relief or if you have any questions about what we’ve discussed.
+
+**Patient**: Thanks for explaining that. Is there anything specific I should do if the headaches get worse or start happening more often?
+
+**Doctor**: Based on what we’ve discussed, the pattern and features you’ve described point toward a common type of pain called tension-type headaches. These are usually not dangerous and often relate to muscle tension or stress, even if you haven’t had a recent increase in stress. The lack of other concerning symptoms is reassuring.
+
+If you notice that the pain becomes much more severe, starts waking you from sleep, or you experience new symptoms like vision changes, difficulty speaking, weakness, or confusion, those would be reasons to seek medical attention promptly. Also, if over-the-counter medications stop working or you find yourself needing them almost daily, let your healthcare provider know.
+
+In the meantime, keeping a simple diary of when these episodes occur and any possible patterns—such as activities, foods, or stressors—can be helpful. Staying hydrated, taking breaks from screens, practicing gentle neck stretches, and using relaxation techniques can all reduce frequency and intensity.
+
+Let me know if you’d like more specific advice on managing these or have any other questions about what we’ve discussed.
+
+**Patient**: Thanks for breaking that down. Is there anything I should avoid doing or eating that could make these headaches worse?
+
+**Doctor**: Based on what we’ve discussed, it sounds like your symptoms are most consistent with tension-type headaches, which are very common and often related to muscle tension or stress. These aren’t typically triggered by specific foods, but some people do find that things like dehydration, skipping meals, or excess caffeine can make things worse. It’s a good idea to stay well-hydrated, eat regular balanced meals, and limit caffeine if you notice it seems to affect you.
+
+There aren’t strict foods you need to avoid, but if you ever notice a pattern—like certain foods or drinks seem to bring on an episode—try reducing or avoiding those. Also, maintaining good posture and taking breaks from screens can help. If you ever experience new or severe symptoms, please reach out promptly.
+
+Let me know if you’d like any tips on relaxation techniques or managing stress, or if you have other questions.
+
+**Patient**: Thanks for explaining all of that. What should I expect going forward—do these headaches usually get better on their own, or is there something else I should be doing?
+
+**Doctor**: Most people find that these episodes improve with time and simple self-care. If anything changes or you have new concerns, don’t hesitate to reach out.
+
+**Patient**: That makes sense. I’ll try to keep track of when the headaches happen and stick to the tips you mentioned. If anything changes, I’ll let you know. Thanks for your help today.
+
+**Doctor**: You’re very welcome. Feel free to reach out if you notice any changes or have new questions. Take care!
+
+**Patient**: I appreciate your help. If anything changes with my headaches or I notice new symptoms, I’ll reach out. Thanks again for your time today.
+
+**Doctor**: Absolutely, and take care!
+
+**Patient**: Thanks again—I’ll follow your advice and keep track of anything new. I feel better knowing what to watch for.
+
+**Doctor**: Glad I could help. Don’t hesitate to reach out if anything changes.
+
+**Patient**: I appreciate it. If anything changes with my headaches or I start experiencing new symptoms, I’ll get in touch. Thanks for your guidance today.
+
+**Doctor**: Of course—wishing you all the best.
+
+**Patient**: Thank you. I’ll make sure to keep an eye on things and let you know if anything changes. Have a good day.
+
+**Doctor**: Of course—wishing you a smooth recovery.
+
+**Patient**: Thank you. I’ll follow the recommendations and keep track of my headaches. If there are any changes or new symptoms, I’ll let you know.
+
+**Doctor**: Absolutely—take care and don’t hesitate to reach out if anything changes.
+
+**Patient**: Thanks, I will. If anything changes with my headaches, I’ll let you know right away.
+
+**Doctor**: Of course—take care, and I’m here if you need anything.
+
+**Patient**: I appreciate it. I’ll reach out if anything changes or if I have more questions. Thanks again for your support.
+
+**Doctor**: Glad you feel more at ease—reach out anytime if you need to.
+
+**Patient**: Thanks for your support. I feel more confident about managing these headaches now, and I’ll keep track of any changes. If anything new comes up, I’ll reach out.
+
+**Doctor**: Glad you’re feeling more confident—reach out anytime if you need support.
+
+**Patient**: Thanks for being so helpful. I feel comfortable reaching out if anything changes with my headaches. I think that covers everything for now.
+
+**Doctor**: Glad to hear you feel comfortable reaching out—take care!
+
+**Patient**: Thanks for your support. I’ll follow your advice and pay attention to any changes with my headaches. If anything new comes up, I’ll reach out.
+
+**Doctor**: Glad you feel comfortable reaching out—take care!
+
+**Patient**: Thank you for your help today. I’ll pay attention to any changes and keep track of my headaches. If anything new comes up, I’ll reach out.
+
+**Doctor**: Absolutely—feel free to reach out anytime if you need anything.
+
+**Patient**: I appreciate that. I’ll keep tracking my headaches and let you know if anything changes or if I have more questions. Thanks again for your help.
+
+**Doctor**: Of course—reach out anytime if you need to.
+
+**Patient**: I’ll do that. Thanks again for your support—I feel more comfortable managing these headaches now.
+
+**Doctor**: Glad you feel more comfortable—reach out anytime if you need anything.
+
+**Patient**: Thanks for your help today. I feel more confident about what to look out for and how to manage these headaches. If anything new comes up, I’ll reach out.
+
+**Doctor**: Feel free to reach out if anything changes or you have more questions.
+
+**Patient**: I appreciate it. I feel comfortable reaching out if anything changes or if I have more questions about the headaches. Thanks for being thorough today.
+
+**Doctor**: Glad I could help—reach out anytime if you need to.
+
+**Patient**: I appreciate your help today. I feel more comfortable managing these headaches now and will keep track of any changes. If anything new comes up, I’ll get in touch.
+
+**Doctor**: Of course—feel free to get in touch anytime if you need to.
+
+**Patient**: Thanks again for your help. I’ll keep track of my headaches and let you know if anything changes or if I have any new questions.
+
+**Doctor**: Glad you feel confident moving forward. Reach out anytime if you need anything else.
+
+**Patient**: That covers everything I wanted to ask. Thanks for your guidance—I’ll keep track of my headaches and reach out if anything changes.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 632
-- **Doctor Turns**: 9
-- **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 41-year-old female presenting for evaluation and treatment of a right ophthalmic artery aneurysm. She reported a history of headaches but had no other complaints at the time of admission. Her past medical history includes spastic bowel disease, spastic esophagus disease, anxiety and panic disorder, hypothyroidism, and prior tonsillectomy; she also has a history of smoking, alcohol, and drug use, all of which she quit several years prior. She is allergic to Ciprofloxacin (rash) and vomits with Percocet. On physical examination, she was well-developed and in no acute distress, with an unremarkable general and neurological exam. The documented diagnosis was right ophthalmic artery aneurysm. She underwent a right coronal craniotomy with clipping of the aneurysm, tolerated the procedure well, and had an unremarkable postoperative course. No additional treatments or recommendations were documented in the provided text.
-
-## Dialogue Summary
-
-The patient presented with headaches that have been occurring for a little while and are becoming increasingly bothersome. The headaches are intermittent, with pain rated at 5–6 out of 10 at their worst, and are described as distracting but not unbearable. Resting in a quiet room provides some relief, and the patient has not identified any specific triggers; however, headaches are worse after extended computer use and make it harder to concentrate during tasks. No associated symptoms such as vision changes, nausea, or sensitivity to light or sound were reported, and sleep patterns remain unchanged. No relevant medical history, medications, or allergies were mentioned. The doctor assessed that the headache pattern is consistent with tension-type headaches or headaches related to eye strain from prolonged screen time. Recommendations included taking regular breaks from the computer, adjusting workstation ergonomics, staying hydrated, and performing gentle neck and shoulder stretches; the doctor also advised follow-up if symptoms worsen or new symptoms develop. The patient requested tips on workspace setup and strategies for taking breaks.
-
-## STS Evaluation
-
-- **STS Score**: 0.930
-- **Similarity Label**: N/A
+- **Turn Count**: 60
+- **Word Count**: 1784
+- **Doctor Turns**: 30
+- **Patient Turns**: 30
 
 ## Processing Information
 
-- **Processing Time**: 57.7s
+- **Processing Time**: 264.2s

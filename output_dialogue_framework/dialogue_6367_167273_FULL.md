@@ -10,187 +10,185 @@
 
 ## Generation Attempts
 
-- **Total Attempts**: 2
-- **Best Attempt**: 2
+- **Total Attempts**: 1
+- **Best Attempt**: 1
 
 ### Attempt 1
-- Success: False
-- Decision: UNREALISTIC
-- Score: 0.600
-
-### Attempt 2
 - Success: True
 - Decision: REALISTIC
-- Score: 0.850
+- Score: 0.856
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.850
-- **Justification**: The dialogue is clinically plausible and consistent with the provided patient profile and case type. The doctor appropriately connects the patient's symptoms to her known pituitary tumor and diabetes insipidus, explains the relevance of polyuria, polydipsia, galactorrhea, weight gain, and amenorrhea, and recommends monitoring and follow-up rather than urgent intervention. The patient responses are appropriate and reflect understanding of her condition. There are no unsupported diagnoses, treatments, or severe events introduced. However, the conversation becomes repetitive in later turns, with both parties reiterating the same symptoms and advice without new information or progression.
+- **Score**: 0.856
+- **Justification**: Combined score 0.86 (naturalness=0.70 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.92 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.700 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.920 |
 
 ### Feedback for Improvement
 
-**Patient Side**: After initial clarification of symptoms, the patient could ask more specific questions about management, prognosis, or next steps to avoid repetition.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor should avoid excessive repetition and could proactively suggest a concrete follow-up plan (e.g., scheduling labs or an endocrinology visit) after confirming symptom stability.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The dialogue would benefit from earlier closure or transition to a summary after several turns of symptom confirmation. Repeated exchanges about unchanged symptoms could be condensed.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns detected. Clarity is good in early turns but could be improved by summarizing key points and next steps rather than repeating the same advice.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Based on what we've discussed so far, your history of pituitary tumor and diabetes insipidus is very relevant to symptoms like increased thirst and urination. These symptoms often occur when the pituitary gland isn’t making enough antidiuretic hormone, leading to your body losing more water than usual. That’s why you might feel very thirsty and need to urinate frequently.
+**Doctor**: Hi, it’s good to see you today. What’s been on your mind regarding your health lately?
 
-It’s important to monitor whether these symptoms are stable, improving, or getting worse, as any changes can suggest your diabetes insipidus isn’t fully controlled. If you notice a sudden increase in thirst or urination, it could mean your medication needs adjustment or there’s a change in your pituitary function.
+**Patient**: I’ve just been really bothered by how much I’m peeing lately, and I’m always super thirsty. It’s been getting kind of annoying and hard to deal with.
 
-Let me also mention that with pituitary conditions, other symptoms can sometimes develop, such as changes in your menstrual cycle, milk discharge from the breasts, or vision changes. If you ever notice any of those, please let me know right away.
+**Doctor**: Let me ask—how much is this interfering with your normal routine? For example, are you having to wake up at night or change your plans because of it?
 
-For now, keep track of your fluid intake and urine output if possible, and reach out if you notice any significant changes. If your symptoms remain stable, that’s reassuring. But any worsening should be evaluated promptly.
+**Patient**: I actually have to get up a lot at night to pee, and it’s been messing with my sleep. It also makes it tough to go out or do stuff because I’m always looking for a bathroom or needing to drink water.
 
-**Patient**: Thanks for explaining all that. I actually haven’t had my period for a while, and I’ve noticed some milk discharge from my breasts too. My thirst and urination have been pretty constant, but those other symptoms have been bothering me. Is that something I should be worried about?
+**Doctor**: Let me ask about any other changes—have you noticed things like blurred vision, feeling unusually tired, or any unexplained weight changes lately?
 
-**Doctor**: From what you've told me, the absence of your period and new milk discharge are signs that your pituitary gland may not be producing hormones in the usual way. This can sometimes happen after a pituitary tumor or related treatments, because the pituitary controls many hormones—including those involved in your menstrual cycle and breast tissue.
+**Patient**: I’ve actually gained a lot of weight recently, and my periods have stopped too. I haven’t noticed any blurred vision or extra tiredness though.
 
-These symptoms aren’t usually dangerous in the short term, but they do suggest a possible hormonal imbalance that should be checked. It’s important to review your hormone levels and discuss these changes with your endocrinologist or primary doctor. They may want to do some blood tests to see if adjustments to your treatment are needed.
+**Doctor**: Let me ask about timing—when did you first notice that you were having to urinate more often and feeling so thirsty? Has it been a gradual change or did it come on suddenly?
 
-In the meantime, keep a note of any other new symptoms—such as headaches or changes in vision—and let your doctor know right away if those develop. For now, your current symptoms are important, but not an emergency. Scheduling a follow-up to review your hormones is the next best step.
+**Patient**: I’m not exactly sure when it started, but I think it’s been a gradual thing. Over time, the thirst and needing to pee a lot just got worse.
 
-**Patient**: Got it, thanks for explaining everything. I’ll make sure to keep track of any changes and set up a follow-up to get my hormones checked. If I notice anything else unusual, like vision changes or headaches, I’ll let you know right away.
+**Doctor**: Alright. Have you noticed if certain foods, drinks, or activities make the thirst or urination worse, or does it seem to happen all the time regardless of what you do?
 
-**Doctor**: Of course. Feel free to reach out if anything changes or you have new concerns.
+**Patient**: It seems to happen all the time, no matter what I eat or drink or what I’m doing. I haven’t noticed any pattern with foods or activities making it better or worse.
 
-**Patient**: Thanks, I appreciate it. Right now, my main symptoms are the increased thirst, frequent urination, weight gain, and the milk discharge with missed periods. If anything new comes up, I’ll let you know.
+**Doctor**: Got it. Since these symptoms have become more noticeable over time, have you ever checked your blood sugar levels during this period, or noticed any changes in your usual diabetes management? Sometimes, these symptoms can signal that your blood sugar isn’t as well controlled as it could be.
 
-**Doctor**: Got it. If anything changes or you have new questions, don’t hesitate to reach out.
+**Patient**: I actually don’t have diabetes—I have diabetes insipidus, so I’m on DDAVP for that. My blood sugar hasn’t been an issue, and I haven’t noticed any changes with it.
 
-**Patient**: I haven’t noticed any new symptoms besides what I’ve already mentioned. If something changes, I’ll reach out. Thanks for your help.
+**Doctor**: Let me ask about your medication—have you missed any doses of your DDAVP, changed the dose recently, or noticed if it seems less effective than before? Sometimes, issues with the medication can lead to symptoms like you’re describing.
 
-**Doctor**: Alright, feel free to check in anytime if you have new questions or concerns.
+**Patient**: I haven’t missed any doses or changed anything with my DDAVP. It just doesn’t seem to be working as well lately, especially with how much I’m peeing and drinking. Also, my periods have completely stopped.
 
-**Patient**: Thanks, I will. Right now, it's mostly just the frequent urination, constant thirst, weight gain, and the galactorrhea with missed periods. If anything else comes up, I'll reach out.
+**Doctor**: Got it. Since your medication routine hasn’t changed but the effect seems less, have you noticed any changes in how you’re taking your DDAVP—like switching from nasal spray to tablets, taking it with or without food, or any issues with absorption (such as nasal congestion if you use the spray)? Sometimes even small changes can affect how well it works.
 
-**Doctor**: Absolutely, take care and don’t hesitate to reach out if anything changes.
+**Patient**: I’ve been using both the DDAVP nasal spray and the tablets, just like before. I haven’t had any nasal congestion or changed how I take them. It just feels like they aren’t working as well, even though I’m sticking to my routine.
 
-**Patient**: Thanks, I will. My symptoms have stayed pretty much the same lately—no new changes. If anything different comes up, I’ll reach out.
+**Doctor**: Based on what we’ve discussed, it sounds like your usual DDAVP routine isn’t controlling your symptoms as well as before, even though you haven’t changed how you’re taking it. In diabetes insipidus, when the medication becomes less effective, it can lead to increased urination and thirst, just like you’re experiencing. Sometimes this happens if your body’s needs change, or there’s an issue with how the medication is being absorbed.
 
-**Doctor**: Got it. Feel free to reach out anytime if you notice any changes or have questions.
+The fact that your periods have stopped and you’ve gained weight could point to a hormonal imbalance as well, which sometimes happens alongside diabetes insipidus, especially if there are changes in the pituitary gland.
 
-**Patient**: I've been keeping an eye on everything, and my symptoms haven’t really changed. If anything new comes up, I’ll reach out for sure.
+My recommendation would be to keep a symptom diary for a few days—tracking how much fluid you’re drinking, how often you’re urinating, and any other changes. This information will be very useful for your endocrinologist. It’s also important to reach out to them soon, since you may need an adjustment in your DDAVP dose or further evaluation of your hormones. 
 
-**Doctor**: Sounds good. Reach out anytime if you need anything.
+If you develop symptoms like confusion, severe headache, or signs of dehydration (such as dizziness or dry mouth that won’t go away), those would be reasons to seek care more urgently. Otherwise, continue your current routine and stay well hydrated.
 
-**Patient**: Thanks, I appreciate it. I’ll keep an eye on things and let you know if anything changes with my symptoms.
+Does that help clarify what might be going on? Is there anything else you’d like to discuss today?
 
-**Doctor**: Of course. Take care, and I'm here if you need anything in the future.
+**Patient**: Thanks, that actually helps a lot. I’ll start keeping track of everything like you suggested. If my symptoms get worse or I notice anything new, I’ll reach out right away.
 
-**Patient**: Thanks for all your help. I’ll reach out if anything changes with my symptoms or if I have more questions.
+**Doctor**: Based on what we’ve discussed, it seems your usual treatment for diabetes insipidus isn’t giving you the same control over your symptoms as before. In some cases, this can happen if your body’s needs change, or if there’s a problem with how your medication is working—even when you’re taking it correctly. The additional changes you mentioned, like weight gain and missed periods, suggest there could be a broader hormonal shift happening, which sometimes occurs alongside pituitary conditions.
 
-**Doctor**: Alright, take care and don’t hesitate to reach out if you need anything.
+What this means is that your body may need a reassessment of both your current medication dose and your overall hormone balance. Keeping a detailed diary of your symptoms—how much you’re drinking, how often you’re urinating, and any other changes—will give your endocrinologist valuable information to adjust your care plan.
 
-**Patient**: Thanks, I feel a bit better knowing what to watch for. Right now, my main symptoms are still the increased thirst, frequent urination, weight gain, galactorrhea, and missed periods. If anything changes, I’ll reach out.
+In the meantime, continue staying hydrated and follow your current routine. If you notice anything new like confusion, severe headache, or signs of dehydration, it’s important to seek care promptly. Otherwise, reaching out to your specialist soon for further evaluation would be the next best step.
 
-**Doctor**: Of course. Feel free to reach out anytime if you have questions or notice any changes.
+Let me know if there’s anything else you’d like to go over or clarify together.
 
-**Patient**: I've had these symptoms for a while now, and they haven't really changed much lately. If anything new comes up, I’ll let you know right away.
+**Patient**: Thanks for explaining all of that. I’ll definitely keep track of my symptoms and reach out to my endocrinologist soon. Is there anything else I should watch for besides what you mentioned?
 
-**Doctor**: Alright, feel free to reach out anytime if you have new concerns.
+**Doctor**: From what you’ve told me, it sounds like your diabetes insipidus isn’t as well controlled as it used to be, even though you’re taking your DDAVP as directed. When the medication doesn’t fully manage the condition, your body can lose more water than usual, which leads to increased thirst and frequent urination. The changes in your menstrual cycle and weight could point to additional hormonal shifts, which sometimes occur alongside pituitary or endocrine issues.
 
-**Patient**: Yes, that sounds good. Right now, I’m just dealing with the frequent urination, constant thirst, weight gain, galactorrhea, and not having my period. If anything else comes up, I’ll let you know.
+What I’d recommend is continuing to monitor for any sudden changes in your health, such as muscle cramps, weakness, trouble staying awake, or confusion—these can be signs that your salt and water balance is more affected. Otherwise, keeping a record of your symptoms and reaching out to your endocrinologist for a medication review and possibly some hormone testing is a good next step. 
 
-**Doctor**: Alright, feel free to reach out anytime if anything changes.
+Let me know if you have any other concerns or if there’s anything specific you’re worried about going forward.
 
-**Patient**: I’ve had these symptoms for a while, and they’re pretty consistent. If anything changes or I notice something new, I’ll reach out.
+**Patient**: That all makes sense. I’ll keep an eye out for those symptoms and make sure to track everything for my endocrinologist. Thanks for explaining things so clearly.
 
-**Doctor**: Got it. If anything changes or you have new questions, just reach out anytime.
+**Doctor**: Feel free to reach out if anything changes or you have new concerns. Take care.
 
-**Patient**: Thanks, I’ll keep you updated if anything changes. Right now, the main symptoms are still increased thirst, peeing a lot, weight gain, galactorrhea, and no periods.
+**Patient**: Thanks, I appreciate it. If anything changes or I have more questions, I’ll definitely reach out.
 
-**Doctor**: Okay, feel free to reach out anytime if you need anything.
+**Doctor**: Of course. Take care, and don’t hesitate to get in touch if anything changes.
 
-**Patient**: Everything’s pretty steady right now—no new symptoms besides the frequent urination, thirst, weight gain, galactorrhea, and missed periods. I’ll reach out if anything changes.
+**Patient**: Thanks, I will. I feel better knowing what to watch for, and I’ll reach out if anything changes.
 
-**Doctor**: Got it. Feel free to check in anytime if anything changes or you have questions.
+**Doctor**: Absolutely, you’re doing all the right things. Reach out anytime if you have more questions or concerns.
 
-**Patient**: No new symptoms lately. The polyuria, polydipsia, weight gain, galactorrhea, and missed periods are still ongoing. If anything changes, I’ll reach out.
+**Patient**: Thanks, I really appreciate you taking the time to go over everything with me. I’ll follow up with my endocrinologist and keep a close eye on my symptoms.
+
+**Doctor**: Glad I could help. Don’t hesitate to reach out if anything changes.
+
+**Patient**: Thanks, I’ll make sure to keep you updated if anything changes. I’m feeling more confident about what to watch for now.
+
+**Doctor**: Absolutely—glad you’re feeling more confident. Reach out anytime if you need anything.
+
+**Patient**: Thanks for all your help. I’ll keep tracking my symptoms and stay in touch if anything changes.
+
+**Doctor**: Glad to hear that. Don’t hesitate to reach out if anything new comes up.
+
+**Patient**: Thanks for being so thorough. I’ll keep monitoring my symptoms and reach out if anything new pops up. Right now, I feel like I have a good plan moving forward.
+
+**Doctor**: Glad you feel confident about your plan. Don’t hesitate to reach out if anything changes.
+
+**Patient**: Thanks, I will. I know my pituitary tumor and the diabetes insipidus make things a bit complicated, but I feel good about the plan for now. If anything changes, I’ll reach out right away.
 
 **Doctor**: Got it. Feel free to reach out anytime if anything changes.
 
-**Patient**: I haven’t noticed any new symptoms—just the same increased thirst, frequent urination, weight gain, galactorrhea, and missed periods. If there’s any change, I’ll let you know right away.
+**Patient**: Thanks, I will. Since I know I have a pituitary tumor and diabetes insipidus, I’ll keep an eye on my symptoms and let you know if anything changes.
 
-**Doctor**: Alright, feel free to reach out anytime if anything changes.
+**Doctor**: Absolutely—just reach out if anything changes.
 
-**Patient**: I’ve had these symptoms for a while now—polyuria, polydipsia, weight gain, galactorrhea, and missed periods. Nothing new has come up lately.
+**Patient**: That sounds good. I’ll keep tracking everything and let my endocrinologist know if anything changes with my diabetes insipidus or the pituitary tumor symptoms. Thanks for your help.
 
-**Doctor**: Got it. Feel free to reach out anytime if you have any new concerns.
+**Doctor**: Absolutely—feel free to reach out if anything changes.
 
-**Patient**: Yes, I’ll let you know if anything changes. Right now, my symptoms are pretty much the same—polyuria, polydipsia, weight gain, galactorrhea, and missed periods.
+**Patient**: Sounds good. I’ll stay on top of my symptoms and reach out if anything changes, especially with my pituitary tumor or diabetes insipidus. Thanks for all your help today.
 
-**Doctor**: Absolutely—just reach out anytime if you have questions or concerns.
+**Doctor**: Got it. Feel free to reach out anytime if anything changes.
 
-**Patient**: Thanks, I will. Right now, the polyuria, polydipsia, weight gain, galactorrhea, and missed periods are still the main things I’m dealing with. If anything changes or I have more questions, I’ll reach out.
+**Patient**: Thanks for letting me know. I’ll keep monitoring everything, especially since I have the pituitary tumor and diabetes insipidus. If anything changes with my symptoms or meds, I’ll reach out.
 
-**Doctor**: Alright, feel free to reach out anytime if you have questions or notice any changes.
+**Doctor**: Absolutely—always here if you need anything.
 
-**Patient**: Thanks, I will. Right now, my main symptoms are still frequent urination, feeling super thirsty, weight gain, galactorrhea, and missed periods. No new changes to mention.
+**Patient**: Thanks, I appreciate you being available. I’ll stay on top of my symptoms and let you know if anything comes up with my pituitary tumor or diabetes insipidus.
 
-**Doctor**: Got it. Feel free to reach out anytime if you have more questions or notice any changes.
+**Doctor**: Of course. Take care and reach out anytime if you need to.
 
-**Patient**: Everything’s been pretty much the same lately—still dealing with the frequent urination, constant thirst, weight gain, galactorrhea, and missed periods. No new symptoms have come up.
+**Patient**: Thanks, I appreciate it. I’ll keep an eye on my symptoms and reach out if anything changes with my diabetes insipidus or the pituitary tumor.
 
-**Doctor**: Okay, feel free to reach out anytime if you need anything.
+**Doctor**: Absolutely—just keep me updated if anything changes.
 
-**Patient**: Thanks for being available. The polyuria, polydipsia, weight gain, galactorrhea, and missed periods are still ongoing. If anything changes, I’ll get in touch.
+**Patient**: I’ll do that. If I notice any new symptoms or changes with my diabetes insipidus or the pituitary tumor, I’ll let you know right away.
 
-**Doctor**: Absolutely, just reach out anytime if you need anything.
+**Doctor**: Sounds good. Don’t hesitate to reach out if anything changes.
 
-**Patient**: Thanks, I appreciate it. My symptoms—polyuria, polydipsia, weight gain, galactorrhea, and missed periods—haven’t really changed recently. I’ll let you know if anything new comes up.
+**Patient**: Thanks, I will. I know my main concerns are the diabetes insipidus and the pituitary tumor, so I’ll keep monitoring my symptoms and reach out if anything changes.
 
-**Doctor**: Got it. Feel free to reach out anytime if you need anything.
+**Doctor**: Of course. Reach out anytime if you need to.
 
-**Patient**: Thanks for checking in. My symptoms—polyuria, polydipsia, weight gain, galactorrhea, and missed periods—have been pretty steady. If there’s any change, I’ll let you know right away.
+**Patient**: Thanks, I appreciate you being available. If anything changes with my diabetes insipidus or the pituitary tumor symptoms, I’ll reach out right away.
 
-**Doctor**: Of course—just reach out anytime if anything changes.
+**Doctor**: Absolutely, just keep me posted if anything changes.
 
-**Patient**: I’ve been dealing with these symptoms for a while—polyuria, polydipsia, weight gain, galactorrhea, and missed periods. Nothing new has come up lately.
+**Patient**: You got it. I’ll keep an eye on my symptoms and let you know if anything changes with my diabetes insipidus or pituitary tumor. Thanks for all your help today.
 
-**Doctor**: Alright, feel free to reach out anytime if you have any new concerns or questions.
+**Doctor**: You’re welcome. Reach out anytime if you need to.
 
-**Patient**: I've had polyuria, polydipsia, weight gain, galactorrhea, and missed periods for a while now. Nothing new or different has come up recently.
+**Patient**: Thanks again for your support. I’ll keep tracking my symptoms and let you know if anything new comes up with my diabetes insipidus or the pituitary tumor.
 
-**Doctor**: Alright, just reach out anytime if you need anything.
+**Doctor**: Of course—just reach out anytime if you need to.
 
-**Patient**: Everything’s been pretty stable lately. The main things I’m dealing with are the frequent urination, feeling really thirsty, weight gain, galactorrhea, and missed periods. No new symptoms to mention.
-
-**Doctor**: Got it. Feel free to reach out if anything changes or you have new questions.
-
-**Patient**: Yes, I’ll keep you posted if anything changes. Right now, it’s just the frequent urination, thirst, weight gain, galactorrhea, and missed periods.
-
-**Doctor**: Of course. Reach out anytime if you need anything.
-
-**Patient**: I’ll do that, thanks. Right now, my main symptoms are still frequent urination, feeling really thirsty, weight gain, galactorrhea, and missed periods. No new changes to report.
+**Patient**: Thanks, I’ll do that. I’m staying on top of my symptoms and will reach out if anything changes with my diabetes insipidus or pituitary tumor.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 60
-- **Word Count**: 1558
+- **Word Count**: 1947
 - **Doctor Turns**: 30
 - **Patient Turns**: 30
 
-## EHR Summary
-
-The patient is a 26-year-old female presenting with symptoms related to a pituitary tumor. She reported polyuria, polydipsia, significant weight gain, galactorrhea, and cessation of menses beginning in July 2152. Her past medical history is notable for diabetes insipidus managed with nasal DDAVP, and she has no known drug allergies. Physical examination revealed stable vital signs and an unremarkable cardiac exam. MRI showed diffuse thickening and enhancement of the pituitary infundibulum with a partially empty sella turcica. The documented diagnosis was pituitary tumor. Treatment included continued use of DDAVP for diabetes insipidus, vitamin D supplementation, and a planned biopsy of the pituitary tumor.
-
-## Dialogue Summary
-
-The patient presented with frequent urination, increased thirst, weight gain, galactorrhea (milk discharge from breasts), and missed periods. These symptoms have been ongoing for a while and have remained stable without new changes; the patient repeatedly confirmed no additional symptoms such as headaches or vision changes. The doctor noted that the history of pituitary tumor and diabetes insipidus is relevant, explaining that polyuria and polydipsia are typical when antidiuretic hormone is deficient, and that galactorrhea and amenorrhea may indicate pituitary hormonal imbalance. The patient denied any recent changes in symptoms and reported monitoring them closely. The doctor assessed that the current symptoms suggest possible hormonal imbalance related to pituitary dysfunction but are not an emergency at present. The doctor recommended tracking fluid intake and urine output, watching for new symptoms (especially headaches or vision changes), and scheduling a follow-up with endocrinology to review hormone levels and consider blood tests. The patient agreed to monitor symptoms and reach out if anything changes. No new medications or allergies were discussed.
-
-## STS Evaluation
-
-- **STS Score**: 0.969
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 279.6s
+- **Processing Time**: 298.3s

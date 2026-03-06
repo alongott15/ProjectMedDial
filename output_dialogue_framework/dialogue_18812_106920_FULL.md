@@ -6,183 +6,97 @@
 - **Admission ID**: 106920
 - **Profile Type**: FULL
 - **Success**: True
-- **Is Realistic**: False
+- **Is Realistic**: True
 
 ## Generation Attempts
 
-- **Total Attempts**: 3
-- **Best Attempt**: 2
+- **Total Attempts**: 1
+- **Best Attempt**: 1
 
 ### Attempt 1
-- Success: False
-- Decision: UNREALISTIC
-- Score: 0.400
-
-### Attempt 2
-- Success: False
-- Decision: UNREALISTIC
-- Score: 0.600
-
-### Attempt 3
-- Success: False
-- Decision: UNREALISTIC
-- Score: 0.200
+- Success: True
+- Decision: REALISTIC
+- Score: 0.856
 
 ## Judge Evaluation
 
-- **Decision**: UNREALISTIC
-- **Score**: 0.600
-- **Justification**: The initial portion of the dialogue is realistic and clinically appropriate, with the doctor giving sound advice for a patient with a history of pulmonary embolism and DVT who is experiencing concerning symptoms. However, the conversation quickly devolves into excessive repetition, with both patient and doctor reiterating the same points about 'reaching out if anything changes' for over 20 turns. This is not representative of a real clinical encounter, where such repetition would not occur. There are no major hallucinations or unsupported clinical content, but the unnatural flow and redundancy make the dialogue unrealistic.
+- **Decision**: REALISTIC
+- **Score**: 0.856
+- **Justification**: Combined score 0.86 (naturalness=0.90 ×0.4, profile_compliance=0.70 ×0.3, ragas_faithfulness=0.95 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 0.700 |
+| RAGAS Faithfulness | 0.952 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Avoid repeating the same assurances about reaching out or updating the doctor in nearly every turn. After confirming understanding and intent to seek care, further responses should be concise or the conversation should end.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: After providing clear safety-netting advice and confirming the patient will seek evaluation, the doctor should conclude the encounter rather than repeatedly prompting for updates. This would better reflect real-world practice.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The dialogue should end after mutual understanding is reached and a plan is in place. The excessive back-and-forth about 'keeping updated' is unrealistic and detracts from the plausibility of the exchange.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety issues in terms of clinical advice, but clarity suffers due to redundancy. The initial advice is clear and appropriate; subsequent turns add no value.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Based on what we've discussed so far, your history of pulmonary embolism and DVT does raise my concern about the possibility of recurrence, especially if you're experiencing symptoms like chest pain or shortness of breath. These could sometimes indicate a clot in the lungs or elsewhere, which can be serious.
+**Doctor**: Hi, it's good to see you today. How have you been feeling lately, and what would you like to focus on during our visit?
 
-Given your background, it's important to rule out any new blood clots. I would recommend urgent evaluation, including diagnostic imaging such as an ultrasound of your legs or a CT scan of your chest, depending on your symptoms. If you are currently on anticoagulation medication, knowing your status helps guide risk as well.
+**Patient**: Lately, my chest has been hurting and it’s been pretty hard to breathe. That’s the main thing I’d like to talk about today.
 
-If you have any sudden chest pain, difficulty breathing, leg swelling, or calf pain, these are warning signs that need immediate attention—please go to the emergency department right away. Let me know if you have noticed any of these symptoms recently, as it will help determine the next steps.
+**Doctor**: Let me ask about your chest discomfort—when did you first notice these symptoms, and have they changed at all since they started?
 
-**Patient**: Okay, I get it. I have had some chest pain and shortness of breath lately, plus I’ve been feeling kind of lightheaded and tired. I’m on Heparin right now—does that lower my risk, or should I still be this worried?
+**Patient**: I noticed the chest pain a few days ago, and it’s been pretty consistent since then. It feels worse when I breathe in or move around.
 
-**Doctor**: Let me share my thoughts based on what you've told me. Even though you're on Heparin, which is designed to lower your risk of developing new clots, it doesn't eliminate the possibility entirely—especially if you're experiencing chest discomfort, shortness of breath, and feeling lightheaded. These symptoms can be caused by a variety of things, but with your history of blood clots, it's important to be extra cautious.
+**Doctor**: Let me ask about your breathing—do you feel like you can't catch your breath, or is it more of a tightness? Have you had any episodes where you felt faint or dizzy?
 
-Heparin works by thinning the blood and preventing clots from forming or growing, but sometimes clots can still occur, or there may be other causes for your symptoms. Fatigue and lightheadedness could be related to your medication, but also might signal that your body isn't getting enough oxygen, which can happen with a clot in the lungs.
+**Patient**: It's more like I can't catch my breath, especially when I sit up. I've also felt pretty lightheaded and even fainted once.
 
-Given your situation, I recommend you seek urgent medical attention today to make sure nothing serious is going on. It's much better to be safe and have things checked out quickly. If you notice worsening symptoms—like severe chest pain or trouble breathing—please go to the emergency department right away.
+**Doctor**: Let me ask about any other symptoms—have you noticed any cough, wheezing, or fever along with the chest pain and trouble breathing?
 
-Would you be able to arrange for someone to help you get evaluated soon?
+**Patient**: I do have a cough, and it came along with some upper respiratory infection symptoms. I haven’t noticed any fever though. Also, my left leg has been hurting and swelling up.
 
-**Patient**: Yeah, I can get someone to go with me. Thanks for explaining everything—it helps to know what to watch out for. I’ll make sure to get checked out today.
+**Doctor**: Alright. When you feel short of breath or lightheaded, does it tend to happen while you're resting, or is it triggered by activity or movement?
 
-**Doctor**: Glad you have support. Take care, and feel free to reach out if anything changes.
+**Patient**: It happens both when I’m resting and when I move around, but sitting up makes the shortness of breath worse. The lightheadedness can come on at random times, not just with activity.
 
-**Patient**: Thanks, I appreciate it. I’ll let you know if anything changes or gets worse.
+**Doctor**: Tell me more about your left leg—how long has it been hurting and swelling, and does anything seem to make it worse or better?
 
-**Doctor**: Absolutely—keep me posted if you have any new concerns. Take care.
+**Patient**: The pain and swelling in my left leg started a few days ago. It gets worse if I walk or stand for too long, but resting helps a bit.
 
-**Patient**: Sounds good. I’ll reach out if anything new comes up. Thanks again for your help.
+**Doctor**: Alright. Has the swelling in your leg been getting worse, staying about the same, or improving since it started?
 
-**Doctor**: Got it. Feel free to reach out anytime if you have new questions or concerns.
+**Patient**: The swelling has pretty much stayed the same since it started. It hasn’t really gotten better or worse.
 
-**Patient**: Thanks, I will. If anything new comes up, I’ll reach out.
+**Doctor**: Got it. When you fainted, did you recover quickly, or did you feel confused or weak afterwards?
 
-**Doctor**: Of course. Take care, and don’t hesitate to reach out if anything changes.
+**Patient**: After I fainted, I recovered pretty quickly. I didn’t feel confused, but I was pretty weak and tired for a bit afterward.
 
-**Patient**: Thanks, I will. If anything changes or I get new symptoms, I’ll let you know right away.
+**Doctor**: Based on what we've discussed, your chest pain, difficulty breathing, and the swelling and pain in your left leg are important to consider together. Sometimes, leg swelling and pain can be related to a blood clot, and if that clot travels to the lungs, it can cause chest discomfort and trouble breathing. Feeling faint or lightheaded could also be connected.
 
-**Doctor**: Glad to hear you’ll keep me updated. Wishing you a smooth evaluation today.
+Let me share my thoughts: While your symptoms may have started with upper respiratory issues, the combination of chest pain that worsens with breathing, shortness of breath especially when sitting up, and leg swelling is something we take seriously. It’s good that you haven’t noticed fever, but the fainting episode adds to the concern.
 
-**Patient**: Thanks, I appreciate that. I’ll go get checked out today and let you know what happens.
+How much are these symptoms affecting your day-to-day life right now? Are you able to do your usual activities, or are you finding it difficult to manage normal tasks?
 
-**Doctor**: Sounds like a good plan. Wishing you all the best today.
+**Patient**: I’ve definitely been more tired and it’s tough to keep up with normal stuff lately. The chest pain and shortness of breath make it hard to do anything active. Even simple things like walking around the house feel exhausting.
 
-**Patient**: Thanks, I’ll let you know how it goes. I’m still a little nervous, but it helps having a plan.
+**Doctor**: From what you've told me, your symptoms—especially the leg swelling and pain along with chest discomfort and trouble breathing—suggest there may be a connection between your leg and lung issues. Sometimes, a blood clot in the leg can travel to the lungs and cause these kinds of symptoms, which is why your fainting and tiredness are important to note as well.
 
-**Doctor**: It’s completely normal to feel a bit nervous—having a plan in place is a great step. Reach out anytime if you need support.
+This isn’t uncommon in young adults, but it does require careful attention. It’s helpful that you’re noticing these patterns and sharing them. I’d recommend keeping track of any changes, like increased swelling or new pain, and watching for warning signs such as severe shortness of breath, chest pain that gets much worse, or feeling faint again.
 
-**Patient**: Yeah, thanks for saying that. I’ll focus on getting checked out today and let you know if anything changes.
-
-**Doctor**: Absolutely—having a plan is a great step. Reach out anytime if you need support or have questions.
-
-**Patient**: Yes, I’ll keep you updated if I have any new symptoms or questions. Thanks for all your help today.
-
-**Doctor**: Got it. Wishing you a smooth visit today—reach out if anything changes.
-
-**Patient**: Thanks, I’ll let you know if anything changes. I really appreciate your help today.
-
-**Doctor**: Of course—take care, and reach out anytime if you need to.
-
-**Patient**: Yes, I’ll keep you posted if anything changes. Thanks again for being so clear about everything.
-
-**Doctor**: You’re welcome. Feel free to reach out if anything changes.
-
-**Patient**: Yes, I’ll reach out if anything changes. Thanks for being so helpful today.
-
-**Doctor**: Glad I could help. Reach out anytime if you need anything further.
-
-**Patient**: Yes, I’ll reach out if anything new comes up. Thanks again for your support today.
-
-**Doctor**: Absolutely—wishing you all the best today.
-
-**Patient**: Thanks, I’ll make sure to keep you updated if anything changes. I feel better knowing what to look out for now.
-
-**Doctor**: Glad you’re feeling more informed. Reach out anytime if you have questions.
-
-**Patient**: Yes, I feel a lot better knowing what to look out for. If
-
-**Doctor**: Glad you’re feeling more confident. Reach out anytime if you need anything further.
-
-**Patient**: Yes, I will. I feel more comfortable now about what to do if my symptoms change. Thanks for all your help today.
-
-**Doctor**: Glad you’re feeling more comfortable. Reach out anytime if anything changes.
-
-**Patient**: Yes, I will. If I notice any new symptoms or changes, I’ll reach out right away. Thanks for making everything clear.
-
-**Doctor**: Got it. Feel free to reach out if anything changes.
-
-**Patient**: Yes, I’ll keep you updated if anything changes or if I get any new symptoms. Thanks for making things clear today.
-
-**Doctor**: Absolutely—just keep me posted if anything changes.
-
-**Patient**: Yes, I’ll keep you posted if anything changes or if I notice any new symptoms. Thanks for all your help today.
-
-**Doctor**: Alright, wishing you all the best. Reach out anytime if anything changes.
-
-**Patient**: Thanks, I will. I’ll make sure to reach out if anything new comes up or if my symptoms get worse.
-
-**Doctor**: Alright, feel free to reach out if anything changes.
-
-**Patient**: Yes, I’ll let you know right away if anything changes or if I get any new symptoms. Thanks for making everything so clear today.
-
-**Doctor**: Glad you’re feeling more confident. Reach out anytime if anything changes.
-
-**Patient**: Yes, I’ll keep you updated if anything changes. Thanks again for all your help—I feel a lot more at ease now.
-
-**Doctor**: Glad you’re feeling more at ease. Reach out anytime if anything changes.
-
-**Patient**: Yes, I’ll keep you updated if anything changes or if I notice anything new. Thanks for making everything easy to understand today.
-
-**Doctor**: Got it. Reach out anytime if anything changes.
-
-**Patient**: Thanks, I will. I feel a lot better knowing what to watch for and I’ll let you know if anything changes.
-
-**Doctor**: Alright, glad you’re feeling more confident. Reach out anytime if anything changes.
-
-**Patient**: Yes, I’ll keep you posted if anything changes. Thanks again for your help—I feel a lot more prepared now.
-
-**Doctor**: You’re welcome. Reach out anytime if anything changes.
-
-**Patient**: Yes, I will. If anything changes or if I notice new symptoms like more chest pain or swelling in my leg, I’ll reach out right away. Thanks for everything today.
-
-**Doctor**: Absolutely, you know what to watch for. Reach out anytime if anything changes.
-
-**Patient**: Yes, I understand what to look out for now. If I get any new symptoms like more chest pain or swelling in my leg, I’ll let you know right away. Thanks for all your help today.
-
-**Doctor**: Got it. You’re well prepared—reach out anytime if you need anything further.
-
-**Patient**: Yes, I feel ready and know what to watch for now. Thanks for making everything so clear.
-
-**Doctor**: Glad you feel ready. Reach out anytime if anything changes.
-
-**Patient**: Yes, I’ll keep you updated if anything changes or if I notice any new symptoms. Thanks for all your support today.
+For now, try to stay rested and avoid putting too much pressure on your leg. If your symptoms worsen or you notice anything new, it’s important to seek medical care promptly. Would you like to discuss any concerns about your current treatment plan or have questions about what might be causing these issues?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 60
-- **Word Count**: 1339
-- **Doctor Turns**: 30
-- **Patient Turns**: 30
+- **Turn Count**: 19
+- **Word Count**: 764
+- **Doctor Turns**: 10
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 395.6s
+- **Processing Time**: 80.5s

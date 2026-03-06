@@ -16,86 +16,95 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.916
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is consistent with the provided patient profile and case type. The doctor asks relevant, logical questions about the onset, progression, and associated symptoms of tongue swelling, including neck sensation, speech changes, swallowing, triggers, and breathing. The patient responses are plausible and match the documented symptoms. The doctor's reasoning and advice are appropriate for a mild case with airway symptoms but no acute deterioration. No unsupported diagnoses, treatments, or severe interventions are introduced.
+- **Score**: 0.916
+- **Justification**: Combined score 0.92 (naturalness=0.90 ×0.4, profile_compliance=0.90 ×0.3, ragas_faithfulness=0.95 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 0.900 |
+| RAGAS Faithfulness | 0.952 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For improvement, the patient could specify the exact duration of symptoms if possible, and mention any history of similar episodes.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: Doctor's questioning and explanations are thorough and empathetic. For improvement, the doctor could clarify whether the patient has any history of angioedema or allergies, and briefly review current medications for known triggers.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with smooth transitions between symptom exploration and safety advice. To enhance realism, a brief summary or plan (e.g., monitoring instructions or follow-up) could be added at the end.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is appropriate for a mild case but could be strengthened by explicitly advising when to seek urgent care (e.g., if breathing worsens or swallowing becomes difficult). Clarity is good throughout.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What has been bothering you the most lately?
+**Doctor**: Hello, it's nice to meet you. What brings you in today, and how have you been feeling lately?
 
-**Patient**: My tongue has been swelling up, and it's really been bothering me.
+**Patient**: Nice to meet you too. The main reason I came in is because my tongue has been swelling up, and it's making me a bit concerned.
 
-**Doctor**: Let me ask about the swelling—when did you first notice your tongue feeling this way?
+**Doctor**: Let me ask about the swelling—when did you first notice your tongue starting to swell, and has it changed over time?
 
-**Patient**: I'm not sure exactly, but I think I first noticed the swelling a couple of days ago.
+**Patient**: I can't remember exactly when it started, but I noticed my tongue swelling and it's gotten worse. It feels bigger now than it did at first.
 
-**Doctor**: Let me ask about any other sensations—have you noticed any changes in your neck, such as tightness or discomfort, along with the swelling?
+**Doctor**: Let me ask about any other changes—have you noticed any difficulty swallowing, breathing, or speaking since your tongue started swelling?
 
-**Patient**: Yes, I've had a strange feeling in my neck along with the swollen tongue. It’s not painful, but it does feel a bit unusual.
+**Patient**: Speaking has gotten harder since my tongue started swelling—it comes out a bit slurred now. I also have a strange feeling in my neck.
 
-**Doctor**: Let me ask about your speech—have you noticed any changes, like difficulty speaking clearly or slurring your words, since the swelling began?
+**Doctor**: Got it. Can you tell me if you’ve noticed any triggers, like certain foods, medications, or activities, that seem to make the swelling or the feeling in your neck worse?
 
-**Patient**: Yes, I have noticed some slurred speech since my tongue started swelling. It’s a bit harder to speak clearly than usual.
+**Patient**: I haven't noticed anything specific that makes it worse. I just know the swelling and that odd feeling in my neck seem to be there no matter what I do. My speech gets more slurred as my tongue swells up.
 
-**Doctor**: Alright. Has the swelling and unusual sensation in your neck been getting better, worse, or staying about the same since you first noticed it?
+**Doctor**: Alright. Has the swelling ever made it difficult for you to breathe, or have you felt like your throat was closing up at any point?
 
-**Patient**: The swelling and that odd feeling in my neck have pretty much stayed the same since I first noticed them. They haven’t really gotten better or worse.
+**Patient**: I have noticed some wheezing along with the swelling, but I haven’t felt like my throat was closing up completely. Breathing has been a bit harder than usual.
 
-**Doctor**: Got it. Let me ask—have you had any difficulty swallowing or changes in your ability to eat or drink since this started?
+**Doctor**: Let me ask about how this is affecting your day-to-day life—are you able to eat and drink normally, or has the swelling made that difficult for you?
 
-**Patient**: No, I haven’t had any trouble swallowing or changes with eating or drinking since this started.
+**Patient**: Eating and drinking have gotten tougher because of the swelling and the way my speech is affected. It just feels uncomfortable trying to swallow with my tongue like this.
 
-**Doctor**: Let me ask about possible triggers—have you recently started any new foods, medications, or dental products before this swelling began? Sometimes changes like these can lead to reactions in the mouth.
+**Doctor**: I see. Has the swelling spread to other parts of your mouth or face, or is it just limited to your tongue and neck?
 
-**Patient**: No, I haven’t started any new foods or dental products. As for medications, I’ve been taking the same ones for a while now.
+**Patient**: The swelling is just in my tongue and I feel it in my neck. It hasn’t spread to my face or other parts of my mouth.
 
-**Doctor**: Got it. Since your speech has been affected, have you noticed any changes in your breathing, such as feeling short of breath or noisy breathing, at any point since the swelling began?
+**Doctor**: Let me ask about the swelling—would you say it stays the same throughout the day, or does it get worse at certain times? Also, have you experienced any fever or pain along with these symptoms?
 
-**Patient**: Yes, I’ve had some wheezing since the swelling started. My breathing hasn’t felt quite normal.
+**Patient**: The swelling seems to get worse as the day goes on. I haven’t had any fever or pain with it. I do have some wheezing along with the tongue swelling.
 
-**Doctor**: Based on what we've discussed, your tongue swelling, changes in speech, and new onset of wheezing are important symptoms to pay attention to. Swelling in the mouth and throat area can sometimes be caused by allergic reactions, medication side effects, or local irritation, but you haven’t started anything new recently. The fact that your breathing feels abnormal and you’re experiencing wheezing makes this more concerning, as these can be signs that the airway is being affected.
+**Doctor**: Based on what we've discussed, your tongue swelling, the sensation in your neck, and the wheezing are concerning for a possible allergic reaction or angioedema—a condition where tissues swell, often without obvious triggers. The fact that eating, drinking, and speaking have become difficult, and your breathing feels harder, makes this more urgent.
 
-While your symptoms have stayed stable and you haven’t had trouble swallowing, any combination of tongue swelling and breathing changes should be monitored closely. If at any point you notice the swelling getting worse, increased difficulty breathing, or trouble swallowing, it’s important to seek medical attention promptly.
+Often, swelling like this can be triggered by medications, foods, or even develop spontaneously. The absence of pain or fever suggests it's not likely an infection, but the progression and impact on swallowing and breathing mean it should be taken seriously.
 
-For now, I recommend avoiding any potential irritants—such as spicy foods or mouthwashes—and keeping track of any changes in your symptoms. If you notice any triggers that seem to make the swelling or breathing worse, let me know. Would you say anything in particular seems to bring on the strange feeling in your neck or the wheezing?
+My recommendation: You need prompt medical evaluation to ensure your airway remains safe. If the swelling worsens or you feel your throat closing, seek emergency care immediately. For now, avoid any new foods or medications until this is evaluated. Treatment often involves antihistamines and sometimes steroids to reduce swelling.
 
-**Patient**: Nothing in particular seems to bring on the strange feeling in my neck or the wheezing. It just sort of happens along with the tongue swelling and slurred speech. Thank you for explaining everything so clearly—it helps me feel a bit more at ease.
+Let me reassure you—most cases can be managed effectively, but because breathing is affected, please arrange to be seen today. If your symptoms get worse quickly, call emergency services.
+
+If you'd like, I can explain more about angioedema and what to expect from treatment.
+
+**Patient**: Thank you for explaining that. If this is swelling like you described, how long does it usually take to go away once treatment starts?
+
+**Doctor**: Let me share my thoughts based on everything you've told me. The swelling of your tongue, the sensation in your neck, and the wheezing are classic signs of angioedema—a type of swelling that can affect the tongue and nearby tissues. This often happens due to an allergic response, but sometimes it occurs without a clear trigger.
+
+The fact that your symptoms get worse as the day goes on and are making eating, drinking, and speaking difficult means your body needs help to reduce the swelling. Typically, once treatment starts—usually with antihistamines and sometimes steroids—the swelling begins to improve within hours to a couple of days, depending on severity and response.
+
+My main concern is your breathing: even mild difficulty can become serious quickly if the swelling progresses. That's why it's important to get medical attention today. If the swelling worsens or you feel your throat is closing, seek emergency care immediately.
+
+For now, avoid any new foods or medications until you've been evaluated. Most cases resolve with treatment, and your doctor will monitor you closely to ensure your airway stays safe.
+
+If you have questions about what causes this or about warning signs to watch for, let me know—I'm here to help you understand what’s happening and what steps to take next.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 587
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 875
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 79-year-old female presenting with a chief complaint of tongue swelling that began earlier in the evening. She reported waking up with a strange sensation in her neck and a swollen tongue, but denied chest pain, dyspnea, dizziness, rash, or itching. Her medical history includes atrial fibrillation, hypertension, questionable chronic obstructive pulmonary disease, hypercholesterolemia, depression, osteoarthritis (status post bilateral total knee replacement), and spinal stenosis; she is allergic to Bactrim and has been taking lisinopril since August of the previous year. She recently completed a course of Ceftin following a COPD flare. In the Emergency Department, she was treated with intravenous Solu-Medrol 150 mg and an H2 blocker, and was evaluated by Anesthesia. She was admitted to the Medical Intensive Care Unit for observation. The clinical impression suggests angioedema, likely related to ACE inhibitor use (lisinopril), though this is not explicitly stated in the note. The treatment plan included continued observation and supportive care.
-
-## Dialogue Summary
-
-The patient presented with tongue swelling as the chief complaint. Symptoms included tongue swelling noticed a couple of days ago, a strange (but not painful) sensation in the neck, slurred speech, and new onset of wheezing; these symptoms have remained stable without improvement or worsening. The patient denied difficulty swallowing, changes in eating or drinking, and reported no recent changes in foods, medications, or dental products. No specific triggers for the neck sensation or wheezing were identified. The doctor noted that the combination of tongue swelling, slurred speech, and wheezing is concerning for possible airway involvement, and discussed potential causes such as allergic reactions or medication side effects, though no new exposures were reported. The doctor advised close monitoring for worsening swelling, increased breathing difficulty, or trouble swallowing, and recommended avoiding potential irritants like spicy foods or mouthwashes. The patient was instructed to track symptom changes and report any new triggers or worsening symptoms promptly.
-
-## STS Evaluation
-
-- **STS Score**: 0.949
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 56.5s
+- **Processing Time**: 91.9s

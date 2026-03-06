@@ -16,88 +16,89 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.917
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about the onset, severity, and associated symptoms of nausea, vomiting, constipation, weakness, and lightheadedness. The patient responses are coherent and match the listed symptoms. The doctor provides reasonable advice for a mild case and appropriately cautions about warning signs. There are no unsupported diagnoses, treatments, or severe events introduced. The mention of increased urination and urgency is consistent with the profile and is addressed naturally.
+- **Score**: 0.917
+- **Justification**: Combined score 0.92 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.86 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.857 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient could mention insulin use or diabetes history earlier, as this is relevant to their profile and could prompt more targeted questions.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: Doctor could explicitly acknowledge the patient's diabetes and risk for diabetic ketoacidosis, even in a mild case, to demonstrate awareness of underlying conditions and ensure safety.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and smooth, with clear transitions between symptom exploration and advice. Consider a brief summary or check-in before giving recommendations.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: While the advice is generally safe for a mild case, the doctor should clarify that patients with insulin-dependent diabetes and these symptoms may need prompt evaluation for diabetic ketoacidosis, even if symptoms seem mild. This would improve safety and completeness.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brings you in, and how have you been feeling lately?
+**Doctor**: Hello, it's good to see you today. How have you been feeling lately? Is there anything specific that's been bothering you?
 
-**Patient**: I've been feeling pretty nauseous lately, and I've had some vomiting too. That's mainly why I came in today.
+**Patient**: I've been feeling pretty nauseous lately, and I've thrown up a few times. That's mainly what's been bothering me.
 
-**Doctor**: Let me ask about how this has been affecting your daily activities—are you able to eat and drink normally, or is the nausea and vomiting making it hard to keep things down?
+**Doctor**: Let me ask about the timing—when did you first start feeling nauseous, and how often have you been vomiting?
 
-**Patient**: It's been tough to keep food down, honestly. Drinking a little water is okay, but eating has been a struggle because of the nausea.
+**Patient**: I'm not sure exactly when it started, maybe a couple days ago? I've been vomiting a few times each day since then.
 
-**Doctor**: Let me ask about when these symptoms first started—has it been going on for a few days, or longer?
+**Doctor**: Let me ask about your overall energy—have you felt any weakness or fatigue along with the nausea, or has your appetite changed?
 
-**Patient**: I'm not exactly sure, but I think the nausea and vomiting started a few days ago. It's been getting a bit worse since then.
+**Patient**: I've definitely felt weaker than usual, and it's been harder to get around. My appetite isn't great either—my stomach feels a bit sensitive.
 
-**Doctor**: Let me ask about your energy levels—have you been feeling unusually weak or tired along with these symptoms?
+**Doctor**: Alright. Has anything seemed to trigger or worsen your nausea—like certain foods, smells, or activities? Or does it just come on randomly?
 
-**Patient**: Yes, I've definitely been feeling more weak and tired than usual. It's made it harder to do my normal routine, and I also noticed I'm a bit constipated.
+**Patient**: Nothing specific seems to set it off—it just kind of comes and goes. I haven't noticed any particular foods or smells making it worse.
 
-**Doctor**: Got it. Can you tell me if you've had any abdominal pain or bloating along with the constipation and weakness? Sometimes these can help point to what's causing the change in your bowels and energy.
+**Doctor**: Got it. Have you had any fever, chills, or other symptoms like diarrhea or abdominal pain along with the nausea and vomiting?
 
-**Patient**: I haven't had much pain or bloating, but my stomach does feel a bit sensitive. I've also been feeling lightheaded and breathing a bit faster than usual.
+**Patient**: I have been having chills, and I've also felt lightheaded. No diarrhea, but I have been more constipated than usual.
 
-**Doctor**: Alright. Has the constipation been getting worse at the same time as your other symptoms, or did it start earlier? And have you been able to have any bowel movements at all in the past few days?
+**Doctor**: I see. Has your vomiting ever contained blood or looked unusual, or is it just typical stomach contents? Also, are you able to keep any fluids down, like water or tea?
 
-**Patient**: The constipation got worse around the same time as the nausea and vomiting. I haven't had a proper bowel movement in the past few days. I've also had some chills along with these symptoms.
+**Patient**: I haven't noticed any blood in my vomit—it just looks like regular stomach contents. I can keep down a little bit of water, but not much else.
 
-**Doctor**: Got it. When you mention feeling lightheaded and more tired, have you noticed any times when you nearly fainted or actually passed out? And are you able to get up and move around, or does the weakness make that difficult?
+**Doctor**: Got it. One more question—have you been able to urinate normally, or have you noticed any changes in how often you go or the color of your urine? This helps me assess if you're getting dehydrated from the vomiting.
 
-**Patient**: I haven't actually fainted, but I do feel pretty lightheaded at times. The weakness makes it harder to move around, so I've been taking it slow.
+**Patient**: I've noticed I'm going to the bathroom more often, and I get a strong feeling of urgency. The color of my urine hasn't really changed that I can tell.
 
-**Doctor**: Let me ask about the lightheadedness and faster breathing—does anything specific seem to bring these on, like standing up quickly or after trying to eat or drink? Or do they come on even when you're resting?
+**Doctor**: Alright. How much is the nausea and weakness affecting your day-to-day activities—are you able to do your usual tasks, or has this really slowed you down?
 
-**Patient**: Standing up quickly seems to make the lightheadedness worse, but I also notice it sometimes when I'm just sitting or resting. The faster breathing happens more when I feel weak or after I've tried to move around.
+**Patient**: This has really slowed me down. I’m not able to do my usual activities because of how weak and nauseous I feel.
 
-**Doctor**: Based on what we've discussed, it sounds like you've been dealing with several days of nausea, vomiting, and constipation, along with weakness and lightheadedness that gets worse when you stand up. What often happens in situations like this is that not being able to eat or drink enough can lead to mild dehydration, which can make you feel weak, dizzy, and even cause your heart to beat faster or your breathing to speed up—especially when you try to move around.
+**Doctor**: Let me share my thoughts based on everything you've told me. You've been feeling nauseous and vomiting for a couple of days, with chills, weakness, and some constipation. You're also having trouble keeping fluids down and feeling more urgency to urinate. These symptoms suggest your body is reacting to something—often, this pattern is caused by a mild stomach bug (viral gastroenteritis), food irritation, or sometimes a medication side effect. The chills and weakness are likely from dehydration and your body working to recover.
 
-The sensitive stomach and chills could be due to a mild stomach virus or another common digestive upset, but your difficulty keeping food down and the worsening constipation are important to keep an eye on. Most of the time, these symptoms improve with rest and careful hydration, but it's important to watch for warning signs like severe abdominal pain, persistent vomiting with no ability to keep liquids down, confusion, or fainting.
+Because you're struggling to keep fluids down and feeling weak, it's important to focus on preventing dehydration. Try taking small sips of water or an oral rehydration solution frequently—even if you can't tolerate large amounts at once. Avoid solid foods until your stomach settles, then start with bland items like crackers or toast.
 
-For now, try to sip small amounts of clear fluids frequently—water, diluted juice, or electrolyte drinks can help. Avoid solid foods until the nausea improves. If you notice your symptoms getting worse, especially if you can't keep any fluids down or become very weak or confused, seek medical attention promptly.
+Most cases like this improve within a few days. However, if you notice blood in your vomit, can't keep any fluids down, develop severe abdominal pain, or become confused or extremely weak, those are warning signs that need urgent medical attention.
 
-Does this explanation make sense, and do you have any questions or concerns about what we've discussed?
+Let me ask—has the nausea and weakness been getting better, worse, or staying about the same since it started? This will help me gauge how things are progressing.
 
-**Patient**: Yes, that makes sense to me. I’ll try sipping fluids like you suggested. One thing I forgot to mention earlier—I’ve noticed I’m urinating more often and sometimes feel a bit of urgency. Is that something I should keep an eye on too?
+**Patient**: The nausea and weakness have pretty much stayed the same since they started. What should I expect over the next few days—will this likely clear up on its own, or is there anything else I should be watching for?
+
+**Doctor**: Let me share my thoughts based on what we've discussed. Your symptoms started a couple of days ago and haven't improved, which suggests your body is still working through whatever triggered this episode. The combination of vomiting, chills, lightheadedness, and constipation points toward a mild gastrointestinal upset—most commonly caused by a virus or food irritation. The lightheaded feeling is likely from mild dehydration, since you're not able to keep much fluid down.
+
+For most people, these symptoms clear up within a few days as the body recovers. The main concern is making sure you stay hydrated and avoid getting weaker. Sipping fluids frequently—even if just small amounts—can help. If you start to feel much more dizzy, unable to urinate, or notice blood in your stool or vomit, those are signs to seek medical attention.
+
+You asked about constipation and lightheadedness: When did those symptoms begin—did they start at the same time as the nausea, or were they present before? This will help me understand if they're related or separate issues.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 738
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 826
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 61-year-old female presenting with nausea and vomiting. She reported a one-week history of nausea, vomiting, weakness, constipation, lightheadedness, tachypnea, and chills. Her past medical history includes insulin-dependent diabetes mellitus (with neuropathy, retinopathy, nephropathy), bipolar disorder, and multiple prior diabetic ketoacidosis (DKA) admissions. On admission, her blood glucose was in the low 400s with an anion gap of 42; she was treated for DKA with an insulin drip, intravenous potassium chloride, and over three liters of intravenous fluids. She improved clinically, was able to tolerate oral intake, and was transitioned to her usual insulin regimen (Lantus and sliding scale regular insulin), with blood sugars stabilizing in the low 100s. On transfer to the regular floor, she had only mild stomach sensitivity and denied further gastrointestinal or systemic symptoms. The documented diagnosis was diabetic ketoacidosis. The treatment plan included resuming her home insulin regimen and monitoring blood glucose.
-
-## Dialogue Summary
-
-The patient presented with nausea and vomiting as the chief complaint. Symptoms included difficulty keeping food down, mild ability to tolerate water, worsening nausea and vomiting over several days, increased weakness and fatigue, constipation with no proper bowel movement in the past few days, chills, lightheadedness (worse on standing but also present at rest), faster breathing during weakness or exertion, sensitive stomach, and increased urinary frequency with some urgency. No significant abdominal pain or bloating was reported. The doctor assessed that the combination of nausea, vomiting, and constipation likely led to mild dehydration, contributing to weakness, dizziness, and faster breathing. The sensitive stomach and chills were considered possibly due to a mild stomach virus or digestive upset. The doctor recommended sipping small amounts of clear fluids frequently (such as water, diluted juice, or electrolyte drinks), avoiding solid foods until nausea improves, and monitoring for warning signs like severe abdominal pain, persistent vomiting, inability to keep liquids down, confusion, or fainting. The patient was advised to seek medical attention if symptoms worsen or if unable to stay hydrated.
-
-## STS Evaluation
-
-- **STS Score**: 0.956
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 62.2s
+- **Processing Time**: 100.7s

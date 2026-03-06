@@ -16,88 +16,93 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.975
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about the onset, quality, and aggravating factors of the shoulder pain, as well as about the hemiparesis. The reasoning about possible causes (age-related changes, arthritis, tendon wear) is reasonable given the context and does not introduce unsupported diagnoses. The doctor appropriately highlights the importance of monitoring for new neurological symptoms. The patient responses are coherent and realistic. There are no obvious hallucinations or unsupported content.
+- **Score**: 0.975
+- **Justification**: Combined score 0.97 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.92 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.917 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, the patient could mention how the symptoms affect specific daily activities (e.g., dressing, cooking).
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: The doctor could briefly acknowledge the patient's osteoporosis diagnosis and consider if it might contribute to musculoskeletal symptoms. Also, suggesting a follow-up or evaluation if symptoms persist would add realism.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural. The transition to advice and reassurance is smooth. Including a plan for follow-up or when to return would enhance completeness.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: The doctor gives clear safety-netting advice regarding urgent neurological symptoms. No major safety concerns are present.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's nice to see you today. What brings you in, and how have you been feeling lately?
+**Doctor**: Hello, it's nice to meet you. What brings you in today, and how have you been feeling lately?
 
-**Patient**: I've been having pain in both of my shoulders lately, and it's been making things a bit uncomfortable for me.
+**Patient**: Nice to meet you too. Lately, I've been having pain in both of my shoulders, and it's been pretty uncomfortable.
 
-**Doctor**: Let me ask about the pain—when did you first start noticing discomfort in your shoulders?
+**Doctor**: Let me ask about the nature of the pain—would you describe it as sharp, aching, or more of a stiffness? And does it come and go, or is it constant throughout the day?
 
-**Patient**: I'm not exactly sure when it started, but I think it's been bothering me for a little while now—maybe a few days.
+**Patient**: It's more of an aching pain, and it's in both my shoulders. I notice it pretty much all the time—it doesn't really go away.
 
-**Doctor**: Let me ask about the type of pain you're experiencing—would you say it's more of a dull ache, sharp pain, or something else?
+**Doctor**: Got it. When did you first notice this aching in your shoulders—has it been going on for days, weeks, or longer?
 
-**Patient**: It's more of a dull ache in both shoulders. I also have some weakness on my right side that makes things harder.
+**Patient**: I'm not exactly sure how long it's been, but I think it's been at least a few days now.
 
-**Doctor**: Got it. Does the weakness on your right side come and go, or is it constant? And have you noticed any numbness or tingling along with it?
+**Doctor**: Let me ask about your movement—are you able to lift your arms overhead or reach behind your back, or does the discomfort limit your range of motion?
 
-**Patient**: The weakness on my right side has been pretty constant. I haven't noticed any numbness or tingling, just the weakness.
+**Patient**: It's definitely harder for me to move my arms like I used to. Reaching overhead or behind my back is pretty uncomfortable because of the pain.
 
-**Doctor**: Alright. Does the shoulder discomfort get worse with certain movements or activities, like reaching overhead or lifting objects? Or does it stay about the same no matter what you’re doing?
+**Doctor**: Alright. Have you noticed any swelling, redness, or warmth around your shoulders, or any unusual sensations like tingling or numbness in your arms or hands?
 
-**Patient**: Yes, the pain does seem to get worse when I try to reach or lift things. Otherwise, it stays about the same most of the time.
+**Patient**: I haven't noticed any swelling, redness, or warmth around my shoulders. But I have had some weakness on my right side, not just in the shoulder.
 
-**Doctor**: Alright. How would you rate the discomfort in your shoulders on a scale from 1 to 10, with 10 being the worst pain you can imagine?
+**Doctor**: Got it. How severe would you say the discomfort is—if 1 is very mild and 10 is the worst pain you can imagine, where does it fall most of the time?
 
-**Patient**: I’d rate the shoulder discomfort around a 6. It’s bothersome, but not unbearable.
+**Patient**: Most of the time, I'd rate the pain around a 6 out of 10. It's definitely enough to bother me and make things harder.
 
-**Doctor**: Let me ask about the location—can you point to where in your shoulders the ache is strongest? Is it more on the outside, closer to the neck, or deep inside the joint?
+**Doctor**: Let me ask about your daily routine—are there specific activities that have become more difficult for you because of this, such as getting dressed, cooking, or bathing?
 
-**Patient**: The ache is strongest deep inside the joint, especially when I move my arms. It's not really near my neck or on the outside.
+**Patient**: Getting dressed and doing things around the house like cooking or bathing have become a lot more difficult because of the pain and the weakness on my right side. It slows me down quite a bit.
 
-**Doctor**: Got it. Since the ache is deep in the joint and you’ve noticed some weakness, have you had any recent injuries, falls, or changes in your activity level that might have affected your shoulders?
+**Doctor**: Let me ask about the weakness you've noticed on your right side—does it affect your leg as well, or is it mainly in your arm and shoulder?
 
-**Patient**: No, I haven’t had any injuries or falls recently. My activity level hasn’t changed much either.
+**Patient**: The weakness is mostly on my right side, including my arm and shoulder. I also feel it in my right leg.
 
-**Doctor**: Based on what we've discussed, your shoulder discomfort sounds like a deep, dull ache that gets worse with movement, and you’ve also noticed constant weakness on your right side. Since there hasn’t been any recent injury or change in activity, these symptoms could be related to common age-related changes in the shoulder joints, such as arthritis or tendon wear. Sometimes, these can cause pain and weakness, especially with movement.
+**Doctor**: Based on what we've discussed, your symptoms of ongoing discomfort in both shoulders along with difficulty moving and performing daily tasks, combined with weakness affecting your right arm and leg, suggest there may be more going on than a typical shoulder issue like arthritis or a simple muscle strain. Usually, shoulder pain from overuse or mild injury doesn't cause weakness in the leg as well.
 
-However, the ongoing weakness on just one side is something I pay special attention to, as it can sometimes suggest nerve involvement or other causes outside of the joint itself. Since you haven’t had numbness or tingling, and no recent injuries, this is less likely to be an acute nerve issue, but it’s still important to monitor.
+When someone experiences weakness on one side of the body, especially involving both the arm and leg, it raises the possibility of an issue affecting the nerves or brain, such as a minor stroke or a problem with circulation to the brain. This isn't something to ignore, even if the symptoms have been present for a few days and aren't severe.
 
-At this stage, gentle activity and avoiding heavy lifting may help reduce discomfort. Applying a warm compress to your shoulders for 15–20 minutes a few times a day can sometimes ease joint pain. If you notice any new symptoms—like sudden changes in strength, trouble speaking, or facial drooping—let someone know right away, as those could signal something more urgent.
+My recommendation is that you seek prompt medical evaluation—ideally today—so a healthcare provider can perform a thorough neurological exam and possibly order imaging to rule out serious causes. If you notice any new symptoms like sudden confusion, vision changes, difficulty speaking, or worsening weakness, it's important to call emergency services right away.
 
-Let me know if the pain or weakness gets worse, or if it starts interfering more with your daily activities. Would you like advice on simple exercises or ways to make daily tasks more comfortable?
+In the meantime, try to rest and avoid activities that could put you at risk of falling. If the pain increases or you develop any new symptoms, don't wait to seek help.
 
-**Patient**: Thank you, that makes sense to me. I’d appreciate some advice on exercises or ways to make everyday things easier. The pain and weakness do make certain tasks a bit challenging.
+Let me know if you have any questions or if anything changes. Your safety is the priority here.
+
+**Patient**: Thank you for explaining that. What kind of tests should I expect when I go in for this evaluation?
+
+**Doctor**: Let me share my thoughts about what’s happening. The combination of discomfort in both shoulders and difficulty with daily activities, along with changes in strength on one side of your body, points to something that may be affecting your nerves or brain rather than just the joints or muscles. This is why a thorough evaluation is important.
+
+When you go in for assessment, the healthcare team will likely start with a detailed physical and neurological exam to check your muscle strength, coordination, reflexes, and sensation. Based on what they find, they may recommend imaging tests—such as a CT scan or MRI of your brain—to look for any signs of a stroke or other conditions that could affect nerve function. Blood tests might also be done to look for underlying issues like infection, inflammation, or problems with blood sugar or electrolytes.
+
+These tests help clarify the cause and guide the best treatment plan. It’s important to be seen soon so you can get the right care and support for your symptoms.
+
+If you have any new or worsening symptoms before you’re able to be seen—such as trouble speaking, changes in vision, severe headache, or sudden confusion—seek emergency care right away. Otherwise, please arrange to be evaluated as soon as possible.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 643
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 885
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is an 82-year-old woman presenting after being found on the floor of her apartment, with no memory of the fall or subsequent events. She had complained only of fatigue prior to admission and was found dazed but conscious, without headache or neck stiffness. Her past medical history includes hypertension, atrial fibrillation, dementia, prior cerebrovascular accident, and status post nephrectomy; she was taking Coumadin, Plendil, Lopressor, Lasix, and Zoloft. On physical examination, she had a large hematoma on the left side of her face, was awake and alert but disoriented to year, with intact cranial nerves and no focal motor deficits. The documented diagnosis was subarachnoid hemorrhage in the setting of anticoagulation. The treatment plan is not specified in the note.
-
-## Dialogue Summary
-
-The patient presented with pain in both shoulders. Symptoms included a dull ache deep inside the shoulder joints, rated as 6 out of 10 in severity, present for a few days, and worsening with movement such as reaching or lifting; the patient also reported constant weakness on the right side without numbness or tingling. No recent injuries, falls, or changes in activity level were noted. The doctor observed that the discomfort was deep in the joint and associated with unilateral weakness, and considered possible age-related changes such as arthritis or tendon wear, while noting that constant right-sided weakness could suggest nerve involvement. The doctor recommended gentle activity, avoiding heavy lifting, and applying warm compresses to the shoulders for 15–20 minutes several times a day to ease joint pain. The patient was advised to monitor for new symptoms such as sudden changes in strength, trouble speaking, or facial drooping, and to report any worsening pain or weakness. The doctor offered advice on simple exercises and ways to make daily tasks easier at the patient's request.
-
-## STS Evaluation
-
-- **STS Score**: 0.931
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 55.9s
+- **Processing Time**: 81.8s

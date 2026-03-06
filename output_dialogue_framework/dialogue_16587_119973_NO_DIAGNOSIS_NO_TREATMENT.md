@@ -16,88 +16,93 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.987
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is consistent with the patient's profile (history of angina, hypertension, and CAD) and the described progression of chest pressure symptoms. The doctor's questions are thorough and appropriate for a primary care setting, focusing on symptom characterization, triggers, associated symptoms, and functional impact. The explanation about unstable angina is clear but remains within the bounds of a light case by not escalating to emergency intervention in the absence of severe or additional symptoms. The advice to seek prompt follow-up and monitor for warning signs is appropriate. There are no hallucinations or unsupported content.
+- **Score**: 0.987
+- **Justification**: Combined score 0.99 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.96 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.957 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and appropriately expresses concern at the end. For even greater realism, the patient could mention any recent changes in medication or lifestyle, or express more specific concerns or questions.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. For improvement, the doctor could briefly check for other risk factors (e.g., diabetes, smoking) or clarify if the patient has nitroglycerin at home and knows when to use it, which is common in angina management.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with good transitions between history-taking, assessment, and counseling. The conversation could be slightly more concise in places but overall is well-structured.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: The safety advice is clear and appropriate for a light case with no acute red flags. The doctor correctly emphasizes when to seek emergency care. For maximal clarity, the doctor could reiterate specific symptoms that should prompt immediate action.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brings you in—can you tell me more about what's been going on and how it's affecting your daily life?
+**Doctor**: How have you been feeling lately? What brings you in today?
 
-**Patient**: I've been having more chest pressure lately, and it's been getting stronger. It's starting to happen even when I'm just sitting, not just when I'm active.
+**Patient**: I've been having this chest pressure more often lately, and it's gotten stronger. It's even happening when I'm just sitting still, so I wanted to get it checked out.
 
-**Doctor**: Let me ask about the nature of this pressure—does it feel sharp, dull, or more like a squeezing sensation? And about how long does each episode last?
+**Doctor**: Let me ask about the chest pressure—when did you first notice this happening, and has it been constant or does it come and go?
 
-**Patient**: It's more of a squeezing feeling, not really sharp. Each time, it lasts maybe a few minutes, but I don't always keep track.
+**Patient**: I can't remember exactly when it started, but it's been coming and going. Lately, though, it's happening more often, even when I'm just sitting down.
 
-**Doctor**: Got it. Have you noticed any other symptoms when this happens, like sweating, shortness of breath, or feeling lightheaded?
+**Doctor**: Let me ask about the sensation itself—would you describe the pressure as mild, moderate, or severe? And does it ever spread to your arm, neck, or jaw?
 
-**Patient**: No, I haven't noticed sweating or feeling lightheaded when it happens. It's mainly just the chest pressure.
+**Patient**: The pressure is usually moderate, but sometimes it feels stronger. It doesn't spread to my arm, neck, or jaw—it's just in my chest.
 
-**Doctor**: Let me ask about what seems to bring this on—have you noticed if anything makes the pressure start or get worse, like eating a big meal, being out in cold air, or feeling stressed? Or does it really just come on randomly now?
+**Doctor**: Alright. When you feel this chest pressure, do you ever notice any shortness of breath, sweating, or feeling lightheaded at the same time?
 
-**Patient**: It seems to come on even when I'm not doing much, so I don't think activity or eating triggers it. I haven't noticed a clear pattern—it just happens, even at rest.
+**Patient**: I haven't noticed any shortness of breath, sweating, or feeling lightheaded when the chest pressure happens. It's just the pressure itself.
 
-**Doctor**: Got it. When the pressure comes on, do you ever need to stop what you're doing or rest, or does it go away on its own without you having to do anything?
+**Doctor**: Got it. Does anything in particular seem to bring on the chest pressure, like physical activity, eating, or emotional stress? Or does it truly happen at random, even when you’re relaxed?
 
-**Patient**: Usually, I just wait and it goes away on its own. I haven't had to stop what I'm doing or rest for it.
+**Patient**: Sometimes the pressure comes on when I’m active, but lately it’s happened even when I’m just sitting quietly. I don’t think eating or stress really triggers it—so it seems pretty random now.
 
-**Doctor**: Alright. When the pressure comes on, how strong is it—would you describe it as mild, moderate, or quite uncomfortable? And has it been getting noticeably worse over time?
+**Doctor**: Let me ask about what helps—when you feel this pressure, does anything make it better, like resting, changing position, or taking deep breaths? Or does it just go away on its own after a while?
 
-**Patient**: It's more uncomfortable now than before—I'd call it moderate, maybe even a bit more sometimes. The pressure has definitely been getting worse over time.
+**Patient**: Resting sometimes makes it a bit better, but other times the pressure just fades away on its own after a while. Changing position or taking deep breaths doesn’t really help.
 
-**Doctor**: Let me ask about your medical history—have you ever had any heart problems or high blood pressure in the past? This helps me understand if there might be an underlying cause for these new symptoms.
+**Doctor**: Got it. One more question—how long does each episode of chest pressure usually last, and has the duration changed as the episodes have become more frequent?
 
-**Patient**: I've had both angina and high blood pressure for a while now. Those are part of my medical history.
+**Patient**: Each episode usually lasts several minutes, sometimes a bit longer. I think they’ve been sticking around a little more as they’ve gotten more frequent, but I’m not exactly sure how much that’s changed.
 
-**Doctor**: Got it. Since you have a history of angina and this pressure has been getting stronger and happening even at rest, have you noticed any changes in your ability to do daily activities—like walking around the house, climbing stairs, or doing chores—because of this discomfort?
+**Doctor**: Tell me more about your overall energy—have you noticed any new fatigue or trouble doing your usual activities since these episodes became more frequent?
 
-**Patient**: I haven't really had trouble doing my usual activities around the house. The pressure comes and goes, but it hasn't stopped me from doing things.
+**Patient**: I haven’t really noticed any new fatigue. I can still do my usual activities, even though the chest pressure has become more frequent.
 
-**Doctor**: Based on what we've discussed, it sounds like your chest pressure has become more frequent and now happens even when you're at rest, which is a change from your usual pattern. With your history of angina and high blood pressure, this could suggest your heart isn't getting enough oxygen at times, even without physical activity.
+**Doctor**: From what you've described, it sounds like you're experiencing episodes of chest pressure that have become more frequent and sometimes occur even at rest. While you haven't noticed other symptoms like shortness of breath or lightheadedness, and your energy remains good, chest pressure—especially when it's new, more frequent, or happening at rest—can sometimes signal an underlying heart issue, such as angina.
 
-What often happens in cases like this is that angina can become "unstable," meaning symptoms can appear at rest or with less exertion than before. This is important because it signals a higher risk for more serious heart issues.
+Angina is a type of chest discomfort caused by reduced blood flow to the heart muscle, often brought on by activity but sometimes occurring even at rest if the condition is progressing. The fact that resting sometimes helps, but not always, and that the episodes are lasting longer, makes it important to take this seriously.
 
-While you’re still able to do your usual activities, I want you to know that new or worsening chest pressure should be taken seriously. If the discomfort becomes severe, lasts longer than usual, or is accompanied by symptoms like shortness of breath, sweating, nausea, or fainting, seek emergency care right away.
+My recommendation is that you have a prompt evaluation, including an in-person assessment and possibly some tests like an EKG, to rule out any heart-related causes. In the meantime, if the chest pressure becomes severe, lasts more than 15-20 minutes, is associated with new symptoms (like shortness of breath, sweating, nausea, or pain radiating to your arm or jaw), or if you feel faint, you should seek emergency care right away.
 
-For now, I recommend you reach out to your cardiologist or primary doctor soon to discuss these changes and see if your medications or management plan need adjustment. In the meantime, avoid strenuous activity and keep track of any new symptoms. Would you like guidance on how to monitor your symptoms or when to seek help?
+While there are other possible causes for chest pressure, heart-related issues are the most important to rule out given your age and the change in your symptoms. Until you've been evaluated, try to avoid strenuous activity and monitor for any new symptoms.
 
-**Patient**: That makes sense, thank you for explaining things so clearly. I’d appreciate some guidance on what to watch for and when I should call for help. It’s a little concerning, but I want to make sure I’m doing the right thing.
+Would you like guidance on arranging a same-day appointment for further evaluation?
+
+**Patient**: Thank you for explaining all that. What kind of tests should I expect at the appointment, and will they take a long time?
+
+**Doctor**: Based on what we've discussed, my main concern is making sure we don't miss a heart-related cause for your chest pressure. When symptoms like yours become more frequent or happen even at rest, we want to be cautious and rule out conditions like angina or other heart issues.
+
+At your appointment, you can expect a few key tests. Most commonly, you'll have an EKG (which checks the electrical activity of your heart) right away—this is quick and painless, and gives us a lot of information. You may also have some blood tests to look for markers of heart strain or damage. Depending on what those show, sometimes a chest X-ray or a stress test might be recommended, but those decisions will depend on your initial results and how you're feeling.
+
+These tests usually don’t take long—an EKG is done in minutes, and blood tests are routine. The goal is to quickly check for any signs that your heart needs urgent attention. If everything looks reassuring, your provider can talk with you about next steps for managing the symptoms.
+
+It's good that you haven't had severe symptoms like fainting or pain spreading elsewhere, but because this is new and changing, getting checked soon is the safest approach. If you develop any new or worsening symptoms before your appointment, seek care right away. Otherwise, arrange to be seen promptly so we can get you answers and peace of mind.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 710
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 942
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 76-year-old female presenting with worsening chest pain. She reports a history of stable angina since 2130, previously infrequent and exertional, but now occurring at rest at least twice weekly, sometimes during sleep, described as chest pressure relieved by sublingual nitroglycerin and rest. Her medical history includes angina, hypertension, hyperlipidemia, gastroesophageal reflux disease, recurrent biliary stones, osteopenia, arthritis, and a shellfish allergy. Outpatient cardiac testing showed moderate inferolateral ischemia on Myoview study and an echocardiogram with 50% ejection fraction, mild aortic insufficiency, and mild-to-moderate mitral regurgitation. On physical exam, she was afebrile with blood pressure 130/80 mmHg, heart rate 70 bpm, regular rhythm, clear lungs, and well-perfused extremities. The documented diagnosis is worsening angina. Treatment on admission included aspirin, Actigall, Cardizem, Protonix, Lipitor, Vioxx, nitroglycerin patch, Lamisil, and atenolol. She finds relief from chest pain with nitroglycerin and rest.
-
-## Dialogue Summary
-
-The patient presented with increased chest pressure that has become stronger and now occurs even at rest. The chest pressure is described as a squeezing sensation, lasting a few minutes per episode, and is currently moderate or more uncomfortable than before; it has been worsening over time. The patient denied associated symptoms such as sweating, shortness of breath, or lightheadedness, and reported no clear triggers, with episodes occurring randomly, including while sitting. The patient has a history of angina and high blood pressure but has not experienced limitations in daily activities due to the chest pressure. No acute physical findings were described during the visit. The doctor assessed that the patient's symptoms may represent unstable angina, given the increased frequency and occurrence at rest, and emphasized the higher risk for serious heart issues. The doctor advised the patient to contact their cardiologist or primary doctor soon to review their management plan, avoid strenuous activity, monitor for new symptoms, and seek emergency care if symptoms become severe or are accompanied by concerning features such as shortness of breath, sweating, nausea, or fainting. Guidance on symptom monitoring and when to seek help was offered.
-
-## STS Evaluation
-
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 63.5s
+- **Processing Time**: 91.0s

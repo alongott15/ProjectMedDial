@@ -16,86 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.979
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about exertional chest heaviness and arm pain, explores associated symptoms (shortness of breath, lightheadedness), and provides a reasonable preliminary assessment (exertional angina) given the history of multivessel coronary artery disease. The patient responses are coherent and match the described symptoms. The plan for basic cardiac testing is appropriate for a light, common case. No unsupported diagnoses, treatments, or severe events are introduced.
+- **Score**: 0.979
+- **Justification**: Combined score 0.98 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.93 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.929 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient could mention all relevant symptoms earlier (e.g., paroxysmal nocturnal dyspnea, claudication) to help the doctor get a fuller picture sooner.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor could explicitly ask about nocturnal symptoms (paroxysmal nocturnal dyspnea), edema, and any recent procedures/incision issues to fully address the profile. A brief review of other cardiovascular risk factors or medication adherence would add realism.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with clear transitions between symptom exploration and explanation. Could be improved by summarizing all symptoms before moving to recommendations.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is clear and appropriate. Doctor could clarify what symptoms warrant urgent attention (e.g., chest pain at rest, fainting) with more emphasis. No major safety or clarity concerns.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brings you in—can you tell me more about any symptoms or concerns you've been having lately?
+**Doctor**: Good to see you today. How have you been feeling lately, and is there anything new or different with your symptoms that you'd like to discuss?
 
-**Patient**: I've been getting this heavy feeling in my chest whenever I do something active, like walking or going up stairs. It's been bothering me lately and I wanted to get it checked out.
+**Patient**: Lately, I've been having this heavy feeling in my chest when I try to do much, like walking or going up stairs. That's really what's been bothering me the most.
 
-**Doctor**: Let me ask about when this started—how long have you been noticing this heavy sensation during activity?
+**Doctor**: Let me ask about how long this heavy feeling has been going on. Did it start recently, or has it been building up over time?
 
-**Patient**: I'm not sure exactly, but I think it's been going on for a couple of weeks now. It seems to happen whenever I try to be more active.
+**Patient**: I'm not exactly sure when it started, but it feels like it's been building up over time. It's definitely gotten worse lately.
 
-**Doctor**: Let me ask about any other sensations—do you ever notice discomfort spreading to your arms, neck, or jaw when this happens?
+**Doctor**: Let me ask about any other sensations—do you ever notice discomfort spreading to your arm, neck, or jaw when this happens?
 
 **Patient**: Yes, I do get pain in my arm along with the chest heaviness. I haven't noticed it spreading to my neck or jaw, though.
 
-**Doctor**: Let me ask about how long the discomfort lasts—does it go away quickly when you rest, or does it linger even after you stop being active?
+**Doctor**: Let me ask about how long the heaviness and arm pain last when they come on—does it go away quickly with rest, or does it linger for a while?
 
-**Patient**: Resting usually helps and the heaviness goes away after I stop moving around. It doesn’t really linger much once I sit down.
+**Patient**: Usually, the heaviness and arm pain get better when I stop and rest for a bit. They don't really linger once I take it easy.
 
-**Doctor**: Got it. Have you ever felt short of breath, sweaty, or lightheaded when this happens, or is it mostly just the heaviness and arm discomfort?
+**Doctor**: Got it. Have you noticed any trouble breathing at night, like waking up short of breath or needing to sit up to catch your breath?
 
-**Patient**: Yes, I do get short of breath when it happens, and sometimes I feel a bit lightheaded too. Sweating isn’t really an issue for me.
+**Patient**: At night, I sometimes wake up short of breath and need to sit up to catch my breath. That’s been happening on and off.
 
-**Doctor**: Alright. How intense would you say the discomfort gets at its worst—would you rate it as mild, moderate, or severe?
+**Doctor**: Alright. Have you noticed any swelling in your legs or ankles recently, or any sudden weight gain?
 
-**Patient**: I’d call it moderate. It’s uncomfortable enough to slow me down, but not so bad that I have to stop right away.
+**Patient**: Yes, I have noticed some swelling in my legs and ankles. I haven’t really noticed any sudden weight gain, though.
 
-**Doctor**: Let me ask about your activities—does this sensation ever come on when you’re resting, or does it only happen during physical effort?
+**Doctor**: Got it. When you get this heaviness and need to stop, how severe is the discomfort—would you rate it as mild, moderate, or severe? And does it ever come on when you’re resting, or only with activity?
 
-**Patient**: No, it only happens when I’m doing something physical. I don’t get that heaviness or arm pain while resting.
+**Patient**: The discomfort is usually moderate, sometimes pretty strong if I push myself. It only comes on when I'm active—resting seems to make it go away.
 
-**Doctor**: Based on what you've described, I'd like to know—has this heavy feeling or shortness of breath been getting better, worse, or staying about the same since you first noticed it?
+**Doctor**: Let me ask about any other symptoms when this happens—do you ever feel lightheaded, dizzy, or break out in a sweat during these episodes?
 
-**Patient**: It’s been pretty much the same since I first noticed it. I also get short of breath when I’m active, and sometimes I have trouble breathing at night too.
+**Patient**: Sometimes I do feel a bit light-headed when the chest heaviness comes on. I haven’t noticed breaking out in a sweat during those times.
 
-**Doctor**: From what you've told me, it sounds like your symptoms are brought on by activity and improve with rest, which can sometimes suggest that your heart isn't getting quite enough oxygen during exertion—a pattern we call "exertional angina." The fact that you also experience shortness of breath at night could mean your heart is working a bit harder than usual. These symptoms aren't uncommon in people your age, but they are important to check out because they can be early warning signs of heart-related issues.
+**Doctor**: Based on what we've discussed, your symptoms—especially the heaviness with activity, discomfort in your arm, improvement with rest, and occasional waking up short of breath—fit with what we call exertional angina and possibly some fluid retention. This pattern often suggests your heart is working harder during activity, which can cause those sensations. The swelling in your legs and waking up short of breath at night may indicate your body is holding on to extra fluid.
 
-While your symptoms have stayed about the same, it's a good idea to avoid strenuous activities until we know more. I recommend we arrange for some basic heart tests—such as an EKG and possibly a stress test—to get a clearer picture. In the meantime, if you ever develop chest discomfort at rest, severe shortness of breath, or feel faint, those would be reasons to seek immediate medical attention.
+What often happens in these situations is that the heart isn't pumping as efficiently as it could, especially under strain, which leads to these symptoms. It's important to monitor for any changes, such as chest discomfort at rest, increased swelling, or worsening shortness of breath.
 
-Let me know if you have any questions about what we've discussed or if you'd like more details on what to expect next.
+I recommend keeping track of your symptoms—note if they become more frequent, happen with less activity, or come on even when you're not moving around. If you notice chest pain that doesn't go away with rest, severe shortness of breath, or fainting, those are signs to seek medical attention right away.
 
-**Patient**: Thanks for explaining all that. I do get some light-headed episodes now and then, and I’ve noticed pain in my legs when I walk for a while—maybe that’s claudication? I appreciate you setting up the tests; I’ll take it easy until then.
+Let me know if you have any questions about what we've discussed or if you'd like advice about managing these symptoms day-to-day.
+
+**Patient**: Thanks for explaining all that. I’ll keep track of when the symptoms come on and how bad they get. Sometimes I also get light-headed or have pain in my legs when walking—does that fit with what you’re seeing?
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 629
+- **Word Count**: 653
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 58-year-old male presenting with exertional chest heaviness and arm pain experienced over two months, primarily during physical activity such as remodeling his kitchen. He reported several episodes of paroxysmal nocturnal dyspnea, dyspnea on exertion, episodic light-headedness, claudication, edema, and right lower back pain. His past medical history includes chronic obstructive pulmonary disease, noninsulin dependent diabetes mellitus, hypertension, hyperlipidemia, transient ischemic attack, chronic back pain, and prior pneumonia. On physical examination, his lungs were clear, heart rate was regular with a II/VI systolic ejection murmur, and no peripheral edema was noted. A stress test revealed electrocardiographic changes and an anterior wall defect. The documented plan was admission for cardiac catheterization to further evaluate his cardiac symptoms. Medications on admission included aspirin, Norvasc, Cartia, Glucotrol, Lescol, Celebrex, Neurontin, quinine, Nexium, Duragesic patch, nitroglycerin patch, hydrocodone as needed, and inhalers for COPD.
-
-## Dialogue Summary
-
-The patient presented with a heavy feeling in the chest during physical activity. Symptoms included chest heaviness and moderate arm pain triggered by exertion, shortness of breath both during activity and occasionally at night, lightheadedness during episodes, and pain in the legs with walking (possible claudication); symptoms improved with rest and did not occur at rest. No sweating, neck, or jaw pain was reported. No relevant medical history, medications, or allergies were mentioned. The doctor noted that the symptoms were exertional and relieved by rest, with associated shortness of breath at night. The assessment was possible exertional angina, with concern for heart-related issues. The doctor advised avoiding strenuous activities, recommended heart tests including EKG and possibly a stress test, and instructed the patient to seek immediate care if symptoms worsen or occur at rest.
-
-## STS Evaluation
-
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 63.1s
+- **Processing Time**: 80.4s

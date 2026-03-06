@@ -16,90 +16,85 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.855
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about the chief complaint (vomiting) and explores associated neurological symptoms (numbness, tingling, weakness, dysmetria), which are present in the profile. The reasoning about possible neurological causes is appropriate given the patient's history of a cerebellar lesion. No unsupported diagnoses, treatments, or severe interventions are introduced. The conversation is clear, respectful, and stays within the bounds of a light, common medical case.
+- **Score**: 0.855
+- **Justification**: Combined score 0.85 (naturalness=0.80 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.78 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.800 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.783 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For realism, the patient could mention any recent changes in medications or treatments, given their cancer history, if prompted.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor could briefly acknowledge the patient's cancer history and cerebellar lesion to further ground the conversation in the patient's context. Asking about recent treatments or medication changes would be realistic.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, moving from chief complaint to associated symptoms and impact on daily life. A closing summary or explicit plan for follow-up could enhance realism.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The doctor appropriately advises on warning signs and when to seek urgent care. Clarity is good; a brief mention of the patient's known diagnoses would reinforce context.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in, and how have you been feeling recently?
+**Doctor**: Good to see you today. What’s been bothering you the most lately?
 
-**Patient**: I’ve been having some trouble with vomiting recently. That’s mainly why I wanted to come in today.
+**Patient**: Lately, I've been having some trouble with vomiting. It's been pretty recent and that's what stands out to me most right now.
 
-**Doctor**: Let me ask about the vomiting—when did it begin, and how often has it been happening?
+**Doctor**: Let me ask about the vomiting—when did it first start, and how often has it been happening?
 
-**Patient**: I'm not exactly sure when it started, maybe a few days ago. It hasn't been constant, but it's happened more than once.
+**Patient**: I'm not exactly sure when it first started, but it's been pretty recent. It doesn't happen all the time, but enough that it's making me uncomfortable.
 
-**Doctor**: Let me ask about how you're feeling between episodes—are you able to keep food or liquids down at all, or does the vomiting happen even when your stomach is empty?
+**Doctor**: Alright. Have you noticed any connection between these episodes and certain foods, activities, or times of day?
 
-**Patient**: I can usually keep some food and liquids down, but sometimes the vomiting happens even if I haven’t eaten much. It’s a bit unpredictable.
+**Patient**: I haven't really noticed any pattern with food or activities. It just seems to come on its own, and I can't pinpoint a certain time of day either.
 
-**Doctor**: Alright. Let me ask about something else you might be experiencing—have you noticed any numbness or tingling in your hands, fingers, or toes recently? If so, when did that begin?
+**Doctor**: Let me ask about how severe these episodes are—when you vomit, is it just a small amount or quite a lot? And does anything come up with it, like blood or bile?
 
-**Patient**: Yes, I have noticed some numbness and tingling in both my hands, fingers, and toes. I can’t remember exactly when it started, but it’s been going on for a little while now.
+**Patient**: It's usually a moderate amount, not just a little. I haven't seen any blood or bile come up with it, just the regular contents from my stomach.
 
-**Doctor**: Got it. Have you noticed if anything seems to trigger the numbness or tingling, like certain activities, positions, or times of day?
+**Doctor**: Got it. Along with these episodes, have you had any other symptoms like fever, abdominal pain, or changes in your bowel movements?
 
-**Patient**: Nothing in particular seems to trigger it. The numbness and tingling are just kind of there most of the time, no matter what I’m doing.
+**Patient**: I haven't had any fever or abdominal pain. My bowel movements haven't really changed either. But I have noticed some numbness and tingling in my hands, fingers, and toes lately.
 
-**Doctor**: Got it. When it comes to the vomiting, have you had any other symptoms recently, such as fever, abdominal pain, or changes in your bowel movements?
+**Doctor**: Let me ask about the numbness and tingling—has it been getting worse, staying the same, or improving since you first noticed it?
 
-**Patient**: No fever or stomach pain. My bowel movements haven’t changed. One other thing I’ve noticed is some trouble with coordination on my left side.
+**Patient**: The numbness and tingling have pretty much stayed the same since I first noticed them. They haven't really gotten worse or better.
 
-**Doctor**: I see. When you mention trouble with coordination on your left side, can you describe what kinds of movements are affected? For example, is it harder to walk, use your hand, or perform specific tasks?
+**Doctor**: Got it. One more question—how much are these symptoms interfering with your daily activities or routines? For example, is the vomiting or numbness making it hard to do things you normally do?
 
-**Patient**: It's mostly affecting my leg on the left side. I notice some weakness when I try to get up from a chair or climb stairs, and my movements feel a bit off compared to my right side. My hand coordination is okay.
+**Patient**: The vomiting makes it tough to eat and go about my day sometimes. The numbness in my hands and feet also makes simple tasks harder, and I've had some trouble with weakness in my legs and coordination on the left side, so walking isn't as easy as it used to be.
 
-**Doctor**: Let me ask about the numbness and tingling—would you describe these sensations as mild, moderate, or quite bothersome? Are they interfering with your ability to do everyday tasks like buttoning a shirt or picking up small objects?
+**Doctor**: Let me ask about the weakness and coordination changes—have you noticed if these symptoms are getting progressively worse, or have they stayed about the same since they began?
 
-**Patient**: The numbness and tingling are mild to moderate. They don't really stop me from doing things like buttoning my shirt or picking up small items.
+**Patient**: The weakness and coordination issues have been pretty steady, not really getting worse over time. I have mild weakness in my left leg and some trouble with coordination, but it's stayed about the same since it started.
 
-**Doctor**: Based on what we've discussed, it sounds like you've had a few days of unpredictable vomiting, ongoing mild to moderate numbness and tingling in your hands and feet, and some weakness and coordination issues in your left leg. These symptoms together can sometimes point to issues with nerves or the way signals travel between your brain and your body.
+**Doctor**: Based on what we've discussed, it sounds like you’re dealing with a combination of recent vomiting and ongoing numbness and tingling in your hands and feet, with some impact on your daily life. Since these symptoms have been steady rather than getting worse, that’s somewhat reassuring, but I do want to make sure we keep an eye on them.
 
-Often, vomiting on its own is caused by something like a stomach bug or a medication side effect, but when it's paired with changes in sensation and movement, it makes me think about possible neurological causes. Mild numbness and tingling that isn't interfering with your daily tasks is reassuring, but new weakness or coordination problems—especially on one side—deserves careful attention.
+Vomiting without other symptoms like fever or abdominal pain often points to something less serious, such as a mild stomach irritation or reaction to medication, but it can also be triggered by neurological changes—especially when it appears alongside numbness and tingling. The fact that you’re also experiencing sensory changes makes me consider whether there could be a connection between your nervous system and your stomach symptoms.
 
-At this point, I’d recommend keeping track of any changes in your symptoms, especially if the weakness gets worse, you develop trouble speaking or seeing, or if you have new severe headache. These could be warning signs that need urgent care.
+What often happens in cases like this is that nerve issues can sometimes affect how the gut works, leading to symptoms like nausea or vomiting. However, it’s also possible these are unrelated and just happening at the same time. 
 
-For now, since your symptoms are mild to moderate and not interfering with daily life, it’s reasonable to monitor closely. Staying hydrated is important if you’re vomiting. If you feel faint, can’t keep fluids down, or notice the weakness worsening, let a healthcare provider know promptly.
+For now, I recommend staying well-hydrated and eating small, bland meals if you’re able. Keep track of any new or worsening symptoms, especially things like confusion, severe headache, vision changes, or persistent vomiting that prevents you from keeping fluids down—those would be reasons to seek care promptly.
 
-How much are these symptoms affecting your day-to-day life right now? Are you able to do your usual activities at home?
+Let’s also review any recent changes in your medications or supplements, as these can sometimes contribute to both stomach upset and nerve symptoms. Would you mind sharing if anything has changed recently on that front?
 
-**Patient**: Most days I can still manage my usual activities at home, just a bit slower than before. The weakness in my leg is the main thing I notice, but I can still get around. Thanks for explaining everything so clearly.
+**Patient**: Thanks for explaining all that. My medications haven't changed recently—I'm still taking Buspar, Amitriptyline, and Prilosec like usual. I appreciate the advice about staying hydrated and watching for any new symptoms. Should I be concerned about the connection between my nerve issues and the vomiting?
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 716
+- **Word Count**: 740
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 65-year-old male presenting for evaluation after an MRI revealed a large left-sided cerebellar lesion with significant surrounding edema during routine postoperative follow-up. He reported one episode of vomiting three days prior but denied headache, fever, chills, nausea, visual changes, or altered mentation. His medical history includes non-small cell and small cell adenocarcinoma of the lung treated with chemotherapy and radiation, post-radiation esophagitis requiring tube feeding, appendectomy, and mild left hip arthritis. Current medications are Buspar, amitriptyline, and Prilosec; he has no known drug allergies. On physical exam, he was tachycardic but otherwise stable, with a slightly abnormal finger-to-nose test neurologically. The documented clinical impression is a cerebellar lesion with edema in the context of prior lung cancer. The patient was advised to come to the Emergency Room for further evaluation and management. Specific treatments or interventions during this admission are not detailed in the note.
-
-## Dialogue Summary
-
-The patient presented with vomiting as the chief complaint. Vomiting began a few days ago, occurs unpredictably, and sometimes happens even without recent food intake; the patient can usually keep some food and liquids down. Additional symptoms include mild to moderate numbness and tingling in both hands, fingers, and toes, present most of the time without specific triggers, and new weakness and coordination difficulty affecting the left leg, especially when rising from a chair or climbing stairs; hand coordination remains intact. No fever, abdominal pain, or changes in bowel movements were reported. The patient denied interference with fine motor tasks and stated that daily activities are manageable, though slower due to leg weakness. The doctor noted that the combination of vomiting, sensory changes, and unilateral leg weakness could suggest a neurological cause rather than a simple gastrointestinal issue. The doctor advised close monitoring for worsening symptoms, such as increased weakness, trouble speaking or seeing, or severe headache, and emphasized the importance of staying hydrated. The patient was instructed to seek prompt medical attention if unable to keep fluids down or if symptoms progress.
-
-## STS Evaluation
-
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 61.2s
+- **Processing Time**: 93.9s

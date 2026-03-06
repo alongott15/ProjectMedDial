@@ -22,82 +22,90 @@
 
 - **Decision**: REALISTIC
 - **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the patient's profile and symptoms. The doctor appropriately explores the exertional nature of the heartburn and tiredness, considers cardiac causes given the patient's history, and gives clear, cautious advice without overstepping the case type. There are no unsupported diagnoses, tests, or treatments introduced. The conversation is logical, respectful, and avoids unnecessary repetition.
+- **Justification**: Combined score 0.97 (naturalness=1.00 ×0.4, profile_compliance=0.90 ×0.3, ragas_faithfulness=1.00 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 0.900 |
+| RAGAS Faithfulness | 1.000 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and describes symptoms well. For even greater realism, the patient could mention any attempts at self-management (e.g., antacids) or clarify if there are any associated symptoms like nausea or palpitations.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. For completeness, the doctor could briefly ask about any recent medication changes, dietary triggers, or GI bleeding symptoms given the patient's history.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is natural and sequential, with each question building on prior answers. The summary and safety netting at the end are appropriate.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is clear and appropriate for a light case with significant cardiac history. The doctor avoids alarming language but emphasizes when to seek urgent care. No safety concerns.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What’s been bothering you lately?
+**Doctor**: Welcome, it's good to see you today. Can you tell me what brought you in—what symptoms have you been experiencing lately?
 
-**Patient**: I've been getting heartburn when I try to do things around the house, like walking or going up the stairs. It's been bothering me more lately.
+**Patient**: I’ve been having this burning feeling in my chest whenever I walk or do something active. It’s been bothering me enough that I thought I should get it checked out.
 
-**Doctor**: Let me ask about how long this has been going on—did these symptoms just start recently, or have you noticed them for a while?
+**Doctor**: Let me ask about how long you've been noticing this burning sensation when you're active. Has it been getting better, worse, or staying about the same since it started?
 
-**Patient**: I'm not exactly sure, but I think it's been going on for a few weeks now. It seems like it's getting a bit more noticeable lately.
+**Patient**: I’m not exactly sure how long it’s been going on, maybe a few weeks? It hasn’t really gotten better or worse—it just keeps happening when I exert myself.
 
-**Doctor**: Let me ask about how this is impacting your usual routine—are you having to stop or slow down more than usual because of these episodes?
+**Doctor**: Let me ask about other symptoms—when you get this burning feeling during activity, do you also notice any tiredness, shortness of breath, or lightheadedness?
 
-**Patient**: Yes, I've noticed I have to slow down more than I used to. I get tired more easily when I'm active, and the heartburn seems to make it harder to keep going.
+**Patient**: I do get pretty tired when I’m active, along with the heartburn feeling. I haven’t noticed any shortness of breath or lightheadedness, though.
 
-**Doctor**: Let me ask about any other symptoms—when you feel this discomfort, do you ever notice chest tightness, shortness of breath, or sweating along with it?
+**Doctor**: Alright. When you feel this burning sensation during activity, does it ever come on after eating, or is it mostly triggered by physical exertion? And does resting make it go away?
 
-**Patient**: I haven’t had any chest tightness, shortness of breath, or sweating with it. The main thing is the heartburn and just feeling more tired when I’m active.
+**Patient**: It mostly comes on when I’m active, not after eating. Resting does seem to make it fade away.
 
-**Doctor**: Alright. When you get this discomfort, does it ever happen when you’re resting, or is it only when you’re moving around and being active?
+**Doctor**: Let me ask about how much this is impacting your daily routine. Are there activities you’ve had to cut back on or avoid because of this feeling?
 
-**Patient**: It only seems to come on when I'm moving around or doing something active. I don't really notice it when I'm just sitting or resting.
+**Patient**: I’ve definitely had to slow down a bit. Simple things like walking up stairs or carrying groceries make me feel tired and bring on that heartburn feeling, so I try to avoid them when I can.
 
-**Doctor**: Got it. How much does this bother you on a typical day—are you able to finish your activities, or do you have to stop and rest until the feeling passes?
+**Doctor**: Got it. When you feel this burning sensation, would you describe it as mild discomfort or is it more intense—does it ever stop you from continuing the activity?
 
-**Patient**: I usually have to stop and rest until the heartburn and tiredness ease up. It does get in the way of finishing what I want to do.
+**Patient**: It’s more than just mild discomfort—it can get pretty intense sometimes. There have been moments when I had to stop what I was doing because of it.
 
-**Doctor**: Let me ask about what helps—when you rest, does the discomfort go away quickly, or does it linger for a while?
+**Doctor**: Let me ask about where you feel this burning sensation—is it right in the center of your chest, or does it spread to other areas like your neck, jaw, shoulder, or arm?
 
-**Patient**: Resting helps, and the discomfort usually goes away pretty quickly once I stop what I’m doing. It doesn’t really linger for long.
+**Patient**: The burning sensation is right in the center of my chest. It doesn’t spread to my neck, jaw, shoulder, or arm—just stays in that central area.
 
-**Doctor**: Got it. Have you ever had similar symptoms in the past, or is this the first time you’ve experienced this kind of discomfort with activity?
+**Doctor**: Alright. Does anything in particular seem to bring on this burning sensation besides physical activity—for example, stress, certain foods, or changes in temperature?
 
-**Patient**: This is the first time I’ve had this kind of heartburn and tiredness when I’m active. It hasn’t happened to me before like this.
+**Patient**: Physical activity is really the main thing that triggers it. I haven’t noticed any connection to stress, food, or changes in temperature.
 
-**Doctor**: Based on what we've discussed, it sounds like your discomfort and tiredness only come on when you're active and improve quickly with rest. Sometimes, what feels like heartburn with activity can actually be a sign of your heart not getting enough oxygen during exertion—especially since this is new for you and affecting your ability to do daily tasks.
+**Doctor**: Based on what we've discussed, it sounds like your main concern is a burning sensation in the center of your chest that comes on with physical activity and improves with rest. This pattern is important because symptoms triggered by exertion can sometimes be related to the heart rather than just indigestion or acid reflux.
 
-While heartburn is often related to stomach acid, the fact that it’s brought on by exertion and goes away with rest makes me want to be cautious. In people your age, these symptoms can sometimes be a warning sign of angina, which is reduced blood flow to the heart.
+What often happens with exertional chest discomfort is that the heart muscle may not be getting enough oxygen during activity, which can cause symptoms similar to heartburn. While indigestion typically relates to eating or certain foods, your symptoms are more closely tied to activity and have been intense enough to make you stop what you're doing.
 
-I recommend that you avoid strenuous activity for now and arrange to see your primary care provider soon for further evaluation. If you develop any chest pain, pressure, shortness of breath, or if the discomfort comes on at rest or becomes more severe, seek medical attention right away.
+For now, my assessment is that this could represent angina—a type of chest discomfort caused by reduced blood flow to the heart during exertion. It's a common issue, especially as we get older, and can often be managed effectively.
 
-For now, try to note any patterns or triggers, and let your doctor know about any changes. It’s important to get this checked to rule out anything serious.
+My recommendations:
+- Avoid strenuous activity until we've clarified things further.
+- Schedule a follow-up for further evaluation, which may include an EKG and possibly other tests to check your heart health.
+- If you ever experience this burning sensation at rest, or if it becomes severe, spreads, or is accompanied by shortness of breath, sweating, nausea, or fainting, seek medical attention immediately.
 
-**Patient**: Thank you for explaining all that. I’ll make sure to take it easy and set up an appointment with my doctor soon. I appreciate your help—I'll keep an eye out for any changes like you said.
+In the meantime, keep track of when these symptoms occur and what seems to trigger them. We'll work together to figure out the best management plan once we've gathered more information. Let me know if you have any questions or concerns about this approach.
+
+**Patient**: Thank you for explaining that. If this turns out to be related to the heart, what kinds of changes should I expect in my daily routine going forward?
+
+**Doctor**: From what you've told me, your symptoms—burning in the chest with activity and needing to slow down or stop—suggest that your body is asking for a bit more caution right now. If this turns out to be related to the heart, you may need to make some adjustments to your daily routine, at least temporarily.
+
+Typically, people are advised to avoid strenuous activities and heavy lifting until their heart health is thoroughly evaluated and managed. This doesn't mean you have to give up all activity; often, gentle walking or light household tasks are fine, but it's important to listen to your body and stop if symptoms return.
+
+Depending on the results of further tests, you might be encouraged to follow a heart-healthy lifestyle: eating nutritious foods, keeping stress low, and getting regular—but safe—physical activity. Sometimes medications or procedures are recommended to help the heart work better and reduce symptoms.
+
+The goal is to help you remain as active and independent as possible, but safely. We'll tailor advice based on your test results and how you feel day-to-day. If you have questions about specific activities, let me know and we can discuss them in more detail.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 638
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 928
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 66-year-old male presenting with exertional heartburn and fatigue. He was found to have a low hematocrit and an upper GI bleed due to a polyp, which was treated with polypectomy. His past medical history includes paroxysmal atrial fibrillation, peripheral vascular disease, parotid disease, prior GI bleed, transient ischemic attacks, and renal calculi; he has no known drug allergies. On admission, his medications included Lipitor, digoxin, and Protonix, with Coumadin stopped prior to admission. A positive stress test led to cardiac catheterization, which revealed multi-vessel coronary artery disease. The documented diagnosis was multi-vessel coronary artery disease. He underwent a four-vessel coronary artery bypass graft (CABG) and recovered well postoperatively, including successful ventilator weaning and physical therapy assessment. The treatment plan included surgical revascularization, postoperative monitoring, and discharge home with physical therapy recommendations.
-
-## Dialogue Summary
-
-The patient presented with heartburn occurring during physical activity, such as walking or going up stairs. Symptoms have been present for a few weeks and are becoming more noticeable, with heartburn and increased tiredness on exertion requiring the patient to stop and rest until symptoms resolve; these symptoms do not occur at rest and resolve quickly with rest. The patient denied chest tightness, shortness of breath, or sweating, and reported no prior history of similar symptoms. No allergies or medications were mentioned. The doctor noted that the exertional nature and rapid resolution of symptoms with rest could indicate angina rather than typical heartburn, especially given the new onset and impact on daily activities. The doctor advised the patient to avoid strenuous activity, monitor for any worsening or new symptoms (such as chest pain, pressure, shortness of breath, or symptoms at rest), and arrange prompt evaluation with their primary care provider. The patient was instructed to track symptom patterns and report any changes.
-
-## STS Evaluation
-
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 60.6s
+- **Processing Time**: 80.4s

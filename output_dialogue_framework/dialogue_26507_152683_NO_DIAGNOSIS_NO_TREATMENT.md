@@ -16,90 +16,101 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.985
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, open-ended questions about the patient's symptoms, explores relevant associated symptoms, and provides a reasonable explanation for mild fatigue in an older adult with a history of aortic insufficiency. No unsupported diagnoses, treatments, or severe events are introduced. The conversation is coherent, role-appropriate, and avoids hallucinations.
+- **Score**: 0.985
+- **Justification**: Combined score 0.98 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.95 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.950 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For even greater realism, occasional uncertainty or more detail about daily activities could be added.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: Doctor demonstrates good clinical reasoning and communication. Could briefly mention the known diagnosis (aortic insufficiency) as context for monitoring symptoms, but otherwise the approach is appropriate.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, progressing from symptom exploration to reassurance and advice. Consider adding a closing summary or explicit follow-up plan for completeness.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The doctor appropriately advises monitoring for worsening symptoms and suggests possible next steps if things change. Clarity is maintained throughout.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it’s good to see you today. How have you been feeling lately, and is there anything in particular that’s been bothering you?
+**Doctor**: Hello, it's nice to meet you. How have you been feeling lately? Is there anything in particular that's been bothering you recently?
 
-**Patient**: Lately I've been feeling a bit more weak than usual. That's mostly what's been bothering me.
+**Patient**: Thank you for asking. Lately, I've been feeling more weak than usual, and that's why I wanted to come in and talk with you.
 
-**Doctor**: Let me ask about when you first started noticing this weakness. Has it come on suddenly, or has it been gradually getting worse over time?
+**Doctor**: Let me ask about your weakness—does it tend to come and go, or is it pretty constant throughout the day? Also, does resting help you feel any better, or do you still feel tired even after taking it easy?
 
-**Patient**: I'm not exactly sure when it started, but I think it's been gradually getting a bit worse over time. It hasn't come on suddenly.
+**Patient**: It’s not always the same, but I do notice I feel tired even after resting sometimes. I can’t say exactly when it started, but it’s been enough to make me concerned.
 
-**Doctor**: Let me ask about your daily routine—has this change in strength made it harder to do things you usually manage, like walking around the house or preparing meals?
+**Doctor**: Let me ask about your sleep—have you noticed any changes in how well you're sleeping lately, or do you wake up feeling refreshed? Sometimes sleep issues can contribute to feeling tired during the day.
 
-**Patient**: Yes, it's made things a bit harder for me, especially when I'm up and moving around the house. I still manage, but I do feel more tired than usual.
+**Patient**: I haven’t really noticed any changes with my sleep. I still feel tired during the day, even if I sleep through the night.
 
-**Doctor**: Let me ask about other symptoms—have you noticed any changes in your appetite, weight, or sleep recently? Sometimes these can be connected to feeling more tired or weak.
+**Doctor**: Let me ask about your daily routine—are you able to do your usual activities, or does the tiredness make it difficult to get things done around the house or outside?
 
-**Patient**: No, I haven't noticed any changes with my appetite, weight, or sleep. It's mainly just feeling more weak and tired at times.
+**Patient**: I do find it harder to get through my usual activities because of how tired I feel. Some days I just don’t have the energy I used to.
 
-**Doctor**: Got it. When you feel this tiredness, does it tend to happen at a certain time of day, like in the morning or afternoon, or is it pretty consistent throughout the day?
+**Doctor**: Let me ask about any other symptoms—have you noticed things like shortness of breath, chest discomfort, or feeling lightheaded along with the tiredness? Sometimes these can help us figure out what might be going on.
 
-**Patient**: It's pretty consistent throughout the day. I don't notice it being worse in the morning or afternoon—just kind of always there.
+**Patient**: I haven’t noticed any shortness of breath, chest pain, or feeling lightheaded. It’s mainly just the weakness and being more fatigued at times.
 
-**Doctor**: Alright. Have you noticed any shortness of breath, chest discomfort, or lightheadedness when you're feeling this way? Sometimes these can help point to possible causes for feeling more weak and tired.
+**Doctor**: Alright, when you feel this weakness and fatigue, does anything in particular seem to make it worse—like physical activity, stress, or certain times of day? Or is it fairly steady regardless of what you're doing?
 
-**Patient**: No, I haven't had any shortness of breath, chest discomfort, or lightheadedness with the tiredness.
+**Patient**: Physical activity does seem to make the weakness and fatigue worse. If I push myself, I get tired more quickly than I used to. Otherwise, it’s pretty steady throughout the day.
 
-**Doctor**: Let me ask about how this has affected your overall energy—are there any specific activities you’ve had to stop or limit because you feel too tired, or are you still able to do most things, just at a slower pace?
+**Doctor**: Let me ask about your appetite—have you noticed any changes in how much you're eating or any unexpected weight loss recently? Sometimes these can be linked to feeling more tired.
 
-**Patient**: I still do most things, but I’ve had to slow down a bit. I haven’t stopped any activities completely, just take more breaks than I used to.
+**Patient**: My appetite hasn’t really changed, and I haven’t noticed any weight loss. I’m eating about the same as usual.
 
-**Doctor**: Got it. When you take breaks or rest during the day, do you feel your energy comes back, or do you still feel worn out even after resting? Sometimes that helps us figure out if this is more physical fatigue or something else.
+**Doctor**: Let me ask about your mood and mental focus—have you felt more down, anxious, or noticed any trouble concentrating lately? Sometimes these can play a role in feeling tired.
 
-**Patient**: Resting does help a bit. My energy comes back some after I take a break, but I still feel a little worn out overall.
+**Patient**: I haven’t felt more down or anxious, and I haven’t had trouble focusing. My mood seems about the same as usual.
 
-**Doctor**: Based on what we've discussed, it sounds like you've been experiencing a gradual increase in overall weakness and tiredness, but you’re still able to keep up with most of your regular activities by pacing yourself and taking breaks. You haven’t noticed any changes in appetite, weight, or sleep, and there aren’t any worrisome symptoms like chest discomfort or shortness of breath.
+**Doctor**: From what we've discussed, your main concern is a persistent weakness and fatigue that gets worse with physical activity, but you haven't noticed other symptoms like sleep changes, appetite loss, mood changes, or shortness of breath. This pattern is quite common in older adults and is often related to mild causes such as age-related changes, mild anemia, or sometimes even reduced activity levels. 
 
-What often happens as we get older is that our bodies can naturally lose some muscle strength and stamina, especially if there have been changes in activity level or if there are underlying medical conditions—even ones that might not cause obvious symptoms. Mild fatigue like this can also be related to things like mild anemia, low thyroid function, or even just dehydration.
+What often happens is that as we get older, our muscles and energy levels can decline a bit, and pushing ourselves physically can reveal this more clearly. Sometimes simple things like dehydration, not getting enough vitamins, or mild infections can contribute as well.
 
-Since your energy improves somewhat with rest and you’re not experiencing any severe or sudden symptoms, this is reassuring. However, it’s worth keeping an eye on whether this weakness continues to progress or if you develop other symptoms such as new pain, swelling, fever, or difficulty doing your usual activities.
+For now, my recommendation would be to:
+- Stay hydrated and maintain a balanced diet rich in fruits, vegetables, and protein.
+- Try gentle, regular activity (like walking) rather than pushing too hard all at once.
+- Monitor your symptoms—if you notice new issues like shortness of breath, chest pain, dizziness, or any rapid changes, let your healthcare provider know promptly.
+- Consider scheduling a basic blood test to check for things like anemia or thyroid issues, which are common and treatable causes of fatigue.
 
-For now, staying active at your own pace, eating well, and keeping hydrated are good steps. If things do get worse or you notice new symptoms, it would be worth discussing further with your healthcare provider, who may consider some basic blood tests to rule out common causes.
+Most often, these symptoms are benign and manageable with lifestyle adjustments, but checking routine labs can help rule out anything treatable. Let me know if you have any questions or concerns about this plan.
 
-Does that explanation make sense? Is there anything else about your energy levels or daily routine that you’d like to talk about?
+**Patient**: Thank you for explaining all of that. If something like anemia or a thyroid problem shows up in the blood tests, what kind of treatments are usually needed?
 
-**Patient**: That all makes sense, thank you for explaining it. I’ll keep an eye out for any new symptoms like you mentioned. Right now, I’m mostly just adjusting my routine to take things a little slower. If anything changes, I’ll be sure to let you know.
+**Doctor**: Let me share my thoughts based on everything you've told me. Your symptoms are fairly common and can be caused by a range of mild conditions, especially in older adults. Since your appetite, mood, sleep, and mental focus are stable, and you haven't noticed any alarming symptoms like chest discomfort or dizziness, the most likely causes are mild issues such as age-related muscle changes, anemia, or thyroid imbalance.
+
+If blood tests show anemia, treatment usually involves taking iron supplements or adjusting your diet to include more iron-rich foods. If a thyroid problem is found, treatment is often as simple as taking daily medication to balance your thyroid hormones. Both conditions are manageable and can make a big difference in how you feel once addressed.
+
+In summary, I recommend staying hydrated, eating well, keeping up gentle activity, and getting those basic blood tests. If anything unusual comes up—like new symptoms or rapid worsening—reach out for medical advice. Most cases like yours improve with simple steps and monitoring.
+
+Do you have any questions or concerns about these next steps?
+
+**Patient**: If the blood tests come back normal, what would be the next step to figure out why I’m feeling this way?
+
+**Doctor**: Based on what we've discussed, your fatigue and weakness could be due to several mild, common causes. If your blood tests come back normal, the next step would be to look at lifestyle factors—sometimes decreased physical activity, mild dehydration, or even subtle changes in routine can contribute. We might review your daily habits, nutrition, and activity level in more detail to see if adjustments could help. Occasionally, further tests are needed if symptoms persist, but most cases improve with simple changes.
+
+It's reassuring that you haven't had any concerning symptoms, so this is likely a benign issue. Keeping track of your energy levels and any new symptoms will help us guide the next steps. If things don't improve or you notice anything unusual, we can always reassess and consider more specific evaluations.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 740
-- **Doctor Turns**: 9
-- **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 71-year-old female presenting with a chief complaint of aortic valve insufficiency. She reported recent onset of symptoms including increased weakness and fatigue. Her relevant medical history includes hypertension, non-sustained ventricular tachycardia (NSVT), atrial tachy-arrhythmias, sinusitis, and reflux; she has no known drug allergies and was taking aspirin, enalapril, norvasc, and prilosec prior to admission. On examination and during her hospital course, she remained stable postoperatively. The documented diagnosis was aortic valve insufficiency, for which she underwent successful aortic valve repair without complications. Postoperative recovery was uneventful, with chest tube and pacer wires removed as per routine, and she was ambulating well with controlled pain at discharge. The treatment plan at discharge included a 7-day course of Lasix and potassium chloride, as well as Percocet as needed for pain, Colace, and enteric-coated aspirin. She was discharged home in stable condition.
-
-## Dialogue Summary
-
-The patient presented with gradually worsening weakness and increased tiredness. Symptoms included consistent fatigue throughout the day, making daily activities such as walking around the house and preparing meals more difficult, though the patient remains able to perform most tasks by pacing and taking breaks; resting provides some improvement in energy but does not fully resolve the tiredness. The patient denied changes in appetite, weight, or sleep, and reported no shortness of breath, chest discomfort, or lightheadedness. No relevant medical history, medications, or allergies were mentioned. On clinical review, there were no acute or severe findings, and the patient described mild functional limitation but no complete loss of activity. The doctor assessed the symptoms as mild, gradual weakness and fatigue without concerning features, possibly related to age-related changes, mild anemia, low thyroid function, or dehydration. The doctor recommended maintaining activity at a comfortable pace, eating well, staying hydrated, and monitoring for new or worsening symptoms; further evaluation such as blood tests may be considered if symptoms progress.
-
-## STS Evaluation
-
-- **STS Score**: 0.936
-- **Similarity Label**: N/A
+- **Turn Count**: 21
+- **Word Count**: 1063
+- **Doctor Turns**: 11
+- **Patient Turns**: 10
 
 ## Processing Information
 
-- **Processing Time**: 60.9s
+- **Processing Time**: 101.0s

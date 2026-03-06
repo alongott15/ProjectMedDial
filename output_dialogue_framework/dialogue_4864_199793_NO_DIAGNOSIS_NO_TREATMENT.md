@@ -16,180 +16,89 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.920
+- Score: 0.724
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.920
-- **Justification**: The dialogue is highly plausible for a light, chronic disease management visit in primary care. The doctor asks appropriate questions about symptoms, routine, and anxiety, and provides reasonable advice about monitoring and self-care. The patient responses are consistent with the profile and case type, expressing mild anxiety but no acute symptoms. There are no unsupported diagnoses, treatments, or tests introduced. The only minor issue is some repetitive reassurance and closing statements in the last several turns, which could be condensed.
+- **Score**: 0.724
+- **Justification**: Combined score 0.72 (naturalness=0.90 ×0.4, profile_compliance=0.40 ×0.3, ragas_faithfulness=0.81 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 0.400 |
+| RAGAS Faithfulness | 0.815 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are appropriate and realistic. To improve, the patient could occasionally ask more specific questions or mention any minor concerns to enrich the dialogue.
+**Patient Side**: PROFILE COMPLIANCE ISSUE [NO_DIAGNOSIS_NO_TREATMENT]: Patient may be disclosing information outside their knowledge boundary. Reminder — The patient must NOT mention any specific diagnosis — they don't have one. The patient must NOT mention any formal treatment plan — they haven't received one. If asked about diagnosis or treatment, they should say they came to find out. Only factual symptoms from the profile may be discussed.
 
-**Doctor Side**: Doctor provides thorough, empathetic, and clinically sound advice. To improve, the doctor could avoid excessive repetition in closing statements and summarize next steps more concisely.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and covers relevant topics for chronic disease follow-up. However, the last 10-15 turns are repetitive with similar reassurances and closing remarks; these could be condensed for a more natural ending.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. Clarity is good throughout; advice is appropriate for the case type and patient profile.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brings you in—can you tell me what’s been bothering you lately?
+**Doctor**: Hello, it's good to meet you today. How have you been feeling lately, and what brings you in?
 
-**Patient**: I haven't had any chest pain or trouble breathing, but I just wanted to check in about my health. With my diabetes and everything else going on, I get a little anxious sometimes.
+**Patient**: I don’t really have any chest pain or trouble breathing, but I wanted to get checked out because I’ve been feeling a bit anxious about my health lately.
 
-**Doctor**: Let me ask—have you noticed any new symptoms or changes in your health lately, like unusual fatigue, changes in your appetite, or anything else that's caught your attention? Sometimes small changes can give us useful clues.
+**Doctor**: Let me ask about your overall health—have you noticed any new symptoms recently, like headaches, fatigue, or changes in appetite?
 
-**Patient**: No, I haven't noticed any new symptoms lately. I haven't had any shortness of breath or anything unusual.
+**Patient**: I haven't noticed any headaches, fatigue, or changes in my appetite. Also, I haven’t had any chest pain or shortness of breath.
 
-**Doctor**: Got it. Since you mentioned feeling a bit anxious, can you tell me more about what's been on your mind regarding your health or your diabetes management? Sometimes talking through specific worries can help us address them together.
+**Doctor**: Let me ask about your sleep—have you been sleeping well lately, or have you noticed any changes in your sleep patterns? Sometimes worries about health can affect rest.
 
-**Patient**: Managing my diabetes is always on my mind. I try to keep up with my medications and watch what I eat, but sometimes I worry I’m not doing enough, especially with my other conditions like high blood pressure and cholesterol.
+**Patient**: My sleep has been about the same as usual, I haven’t noticed any changes lately. The worries haven’t really affected my rest.
 
-**Doctor**: Let me ask about your daily routine—are you able to stay active and do the things you enjoy, or have you felt limited in any way lately? This can help me understand how your current management is working for you.
+**Doctor**: Alright. Since you haven’t noticed any physical symptoms, can you tell me more about what specifically has been making you feel anxious about your health? For example, is there something in particular you’re worried about, or did something happen recently that triggered these concerns?
 
-**Patient**: Yes, I’m able to stay active and do the things I enjoy. I haven’t felt limited by my health lately.
+**Patient**: Honestly, it's just that with my history of diabetes, high cholesterol, and mild hypertension, I get concerned about keeping everything under control. Nothing specific happened recently, but I want to make sure I'm not missing anything, especially since I don’t have any chest pain or shortness of breath.
 
-**Doctor**: Let me ask about your blood sugar—have you noticed any unusual highs or lows recently, or has it been staying fairly steady? This can help us gauge how your current routine is working.
+**Doctor**: Let me ask about your daily routine—are you able to stay active and do your usual activities without any issues? Sometimes changes in energy or exercise tolerance can give us clues about underlying health concerns.
 
-**Patient**: My blood sugar has been staying pretty steady. I haven’t noticed any unusual highs or lows recently.
+**Patient**: I’m able to keep up with my regular activities without any trouble. I haven’t noticed any changes in my energy or how much I can do day to day.
 
-**Doctor**: Alright. Since your blood sugar has been steady and you’re staying active, it sounds like your management is on track. Sometimes, anxiety about chronic conditions can be common even when things are well controlled. Have you noticed if your worries are affecting your sleep or mood, or do they mostly come up when you’re thinking about your health?
+**Doctor**: Got it. Since your main concern is staying on top of your health, have you noticed any unusual symptoms during exercise or physical activity, such as feeling lightheaded or dizzy? This can sometimes be an early sign of underlying issues.
 
-**Patient**: No, my worries don’t really affect my sleep or mood. It’s mainly when I’m thinking about my health and managing everything that I get anxious. Thanks for talking it through with me.
+**Patient**: I haven’t felt lightheaded or dizzy during exercise or any physical activity. Everything feels pretty normal for me.
 
-**Doctor**: Let me ask about your routine—do you check your blood pressure or cholesterol numbers at home, or do you mainly keep track during clinic visits? Knowing this helps us spot any trends early and can be reassuring for your overall health monitoring.
+**Doctor**: Let me ask about your blood sugar and blood pressure—do you monitor them regularly, and have you noticed any unusual readings lately? This can help us assess if there are any subtle changes to keep an eye on.
 
-**Patient**: I usually check my blood pressure at home, but for cholesterol, I just keep track during clinic visits. That routine seems to work for me.
+**Patient**: I do check my blood sugar and blood pressure regularly. I haven’t noticed any unusual readings lately—they’ve been pretty consistent with what I normally see.
 
-**Doctor**: Got it. Since you’re keeping up with your routine and haven’t noticed any new symptoms, it sounds like you’re doing a good job staying on top of things. What often helps with health-related anxiety is having a clear plan—would you find it helpful to review your current goals or discuss any specific questions about your diabetes, blood pressure, or cholesterol management?
+**Doctor**: Alright. Since your readings and activity levels have been steady, have you noticed any swelling in your legs or ankles, or any unusual weight gain recently? These can sometimes be early signs of issues related to blood pressure or heart health.
 
-**Patient**: Yes, I think reviewing my current goals could help me feel more confident about my routine. If there’s anything specific I should watch for with my diabetes or blood pressure, I’d like to know.
+**Patient**: No, I haven’t noticed any swelling in my legs or ankles, and my weight hasn’t changed recently. Everything seems stable on that front.
 
-**Doctor**: Based on what we’ve discussed, it sounds like you’re managing your diabetes, blood pressure, and cholesterol well, and you haven’t had any new or concerning symptoms. Feeling some anxiety about chronic conditions is common, especially when you’re trying to stay on top of several things at once.
+**Doctor**: From what we've discussed, it sounds like your health concerns are mainly driven by wanting to stay proactive given your history of diabetes, high cholesterol, and mild hypertension. You haven’t noticed any new symptoms, your daily activity level is unchanged, and your home monitoring has been stable. This is all very reassuring.
 
-From a clinical perspective, the main things to watch for with diabetes include symptoms like unusual thirst, frequent urination, blurry vision, or wounds that heal slowly. For blood pressure, headaches, vision changes, or dizziness can sometimes signal changes. It’s also important to keep up with regular check-ups and labs to monitor cholesterol.
+Often, people with chronic conditions worry about missing early signs of trouble, but the absence of symptoms like chest pain, shortness of breath, dizziness, or swelling suggests things are well controlled at the moment. Staying consistent with your self-monitoring and keeping up with regular check-ups is key.
 
-Your routine of checking blood pressure at home and tracking cholesterol during clinic visits is solid. If you ever notice any new symptoms or significant changes, those would be good reasons to reach out sooner. Otherwise, maintaining your current habits, staying active, and following up regularly should keep you on a good path.
+My recommendation is to continue your current routine: monitor your blood sugar and blood pressure regularly, maintain a healthy diet and exercise, and keep up with scheduled lab work and follow-ups. If you ever notice new symptoms—such as chest discomfort, sudden fatigue, or unexplained swelling—those would be reasons to seek prompt evaluation.
 
-Let me know if there’s a specific area you’d like to focus on for your health goals or if you want tips for managing anxiety about your routine.
+Let me reassure you: based on everything you’ve told me today, there’s no sign of any immediate issues. Keeping an open line of communication with your healthcare team and staying aware of your body are the best ways to maintain your health. If you have any specific questions or worries in the future, don’t hesitate to reach out.
 
-**Patient**: Thanks, that’s helpful to hear. I feel more at ease knowing I’m on the right track. I’d like to make sure I’m not missing anything with my diabetes—should I be checking anything else at home besides my blood sugar and blood pressure?
+**Patient**: Thanks for explaining everything. Is there anything specific I should be watching out for day-to-day, given my medical history?
 
-**Doctor**: Based on what we’ve discussed, you’re doing a solid job with your current monitoring—checking your blood sugar and blood pressure at home covers the essentials for day-to-day diabetes and hypertension management. For most people with diabetes, those are the main things to track regularly at home.
+**Doctor**: Let me share my thoughts. From what you’ve told me, your symptoms are stable and you’re keeping a close eye on your health, which is excellent. With your history, the main things to watch for day-to-day are any new or unusual symptoms—such as sudden chest discomfort, unexplained shortness of breath, palpitations, dizziness, or swelling in your legs. These can sometimes signal changes in heart or blood pressure status.
 
-What’s also important is keeping an eye on things like your feet for any cuts, sores, or changes in sensation, since diabetes can sometimes affect circulation and nerves. If you haven’t already, making a habit of a quick foot check every day or two is a good addition. Otherwise, routine lab work and check-ups will cover cholesterol and kidney health.
+It’s also important to keep monitoring your blood sugar and blood pressure as you’ve been doing, and to pay attention to any unexpected changes in your energy or exercise tolerance. If you notice anything out of the ordinary, especially if it’s persistent or severe, reach out for medical advice.
 
-Let me know if you’d like tips on how to do a foot check or if there’s another area of your routine you want to review more closely.
-
-**Patient**: I understand, that makes sense. I’ll start doing regular foot checks like you suggested. If there’s anything else I should be keeping an eye on, let me know—otherwise, I feel a bit better about my routine now.
-
-**Doctor**: Based on what we’ve talked through today, you’re managing your health well—your blood sugar and blood pressure are steady, and you’re staying active without limitations. The fact that you haven’t noticed any new symptoms or changes is reassuring. My thinking is that your current routine is effective, and adding regular foot checks is a smart step, since diabetes can sometimes affect sensation and healing in the feet.
-
-The main things to keep monitoring at home are your blood sugar, blood pressure, and now your feet. Routine lab work and clinic visits will help track cholesterol and kidney function. If you ever notice any issues like numbness, wounds that don’t heal, or other unusual changes, those would be reasons to check in sooner.
-
-Overall, it’s common to feel some anxiety when managing multiple conditions, but you’re covering the important areas. Keeping up with your routine and reaching out if anything changes is the best approach. Let me know if you want to review any other part of your care or talk through strategies for staying confident with your health plan.
-
-**Patient**: Thanks, that all sounds reasonable. I feel better knowing I’m doing what I should. If anything new comes up, I’ll reach out, but for now I think I’m set.
-
-**Doctor**: Feel free to reach out anytime if you have new concerns or questions. Take care.
-
-**Patient**: Thanks for your help today. I appreciate you taking the time to go over everything with me. I'll keep up my routine and let you know if anything changes.
-
-**Doctor**: Glad to hear that. Don’t hesitate to get in touch if anything changes.
-
-**Patient**: I appreciate that. Everything feels under control right now, so I’ll just keep up with my routine and reach out if I notice any changes.
-
-**Doctor**: Got it. Feel free to check in anytime if anything changes.
-
-**Patient**: Everything’s clear on my end. I’ll keep monitoring my blood sugar, blood pressure, and check my feet regularly. Thanks for your support.
-
-**Doctor**: Okay, you’re on the right track. Reach out anytime if you need anything.
-
-**Patient**: Thanks, I will. If anything changes, I’ll reach out. For now, I feel confident continuing with my current routine.
-
-**Doctor**: Sounds good. Don’t hesitate to reach out if anything changes.
-
-**Patient**: No problem, I’ll reach out if anything changes. Thanks again for your help today.
-
-**Doctor**: Absolutely—feel free to reach out anytime if you have questions or concerns.
-
-**Patient**: Thanks, I feel comfortable reaching out if anything comes up. Right now, I’m managing well and don’t have any new concerns.
-
-**Doctor**: Absolutely, you’re always welcome to reach out if anything changes.
-
-**Patient**: Thanks, I feel confident about my routine now. If anything changes or new symptoms come up, I’ll let you know right away.
-
-**Doctor**: Got it. You’re welcome to reach out anytime if anything changes.
-
-**Patient**: Everything’s clear. I’ll keep up with my routine and let you know right away if anything changes. Thanks for your support.
-
-**Doctor**: Alright, you know where to reach me if anything changes.
-
-**Patient**: Thanks, I’ll keep that in mind. Right now, everything feels stable, and I don’t have any new symptoms to report.
-
-**Doctor**: Okay, feel free to reach out anytime if anything changes.
-
-**Patient**: No problem, I’ll keep monitoring my health and reach out if I notice any changes. Thanks for your support.
-
-**Doctor**: Got it. You’re always welcome to reach out if anything changes.
-
-**Patient**: Thanks for making things clear. I’ll keep monitoring my blood sugar and blood pressure, and I’ll reach out if I notice any changes.
-
-**Doctor**: Absolutely—just keep up with your routine, and reach out if anything changes.
-
-**Patient**: Yes, I’ll stick with my routine and reach out if anything changes. Thanks for your help today.
-
-**Doctor**: Absolutely—if anything changes, just let me know.
-
-**Patient**: That sounds good. I’ll keep monitoring my health and let you know if anything changes or if I notice new symptoms. Thanks for your support today.
-
-**Doctor**: Of course. Reach out anytime if you need anything.
-
-**Patient**: Thanks, I appreciate it. I feel comfortable with my routine now and will reach out if I notice any changes or new symptoms.
-
-**Doctor**: Got it. Feel free to reach out anytime if anything changes.
-
-**Patient**: Everything’s been stable lately. I’ll let you know right away if I notice any changes or new symptoms. Thanks for checking in.
-
-**Doctor**: Alright, you know how to reach me if anything changes.
-
-**Patient**: Yes, I understand. I’ll reach out if anything changes or if I notice any new symptoms. Thanks again for your support.
-
-**Doctor**: Absolutely—just reach out if anything changes.
-
-**Patient**: Yes, I understand. Everything feels stable right now, and I’ll contact you if anything changes. Thanks for checking in with me today.
-
-**Doctor**: Okay, feel free to reach out if anything changes.
-
-**Patient**: Everything’s been going smoothly, and I haven’t had any new symptoms. If anything changes, I’ll get in touch right away.
-
-**Doctor**: Got it. You know how to reach me if anything changes.
-
-**Patient**: Thanks, I will. Right now, everything seems stable and I’m not having any new symptoms. I appreciate your support.
+Staying active, eating well, and keeping up with regular check-ups are the best ways to stay ahead of potential issues. You’re already doing a lot right—just continue to be mindful and proactive. If you ever have doubts or questions, don’t hesitate to ask.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 60
-- **Word Count**: 1817
-- **Doctor Turns**: 30
-- **Patient Turns**: 30
-
-## EHR Summary
-
-The patient is a 53-year-old male presenting for evaluation following a positive routine stress test, without chest pain, shortness of breath, paroxysmal nocturnal dyspnea, or dyspnea. He underwent further workup at an outside hospital, including echocardiogram and cardiac catheterization, which revealed multivessel coronary artery disease. His past medical history includes non-insulin dependent diabetes, hypercholesterolemia, mild hypertension, and glaucoma; he takes aspirin, lisinopril, lipitor, atenolol, glyburide, and lumigan eye drops. On admission, physical examination was unremarkable with stable vital signs and no acute findings; EKG showed no acute ST-T segment changes. The documented diagnosis was multivessel coronary artery disease. He underwent coronary artery bypass grafting (CABG) times five and was successfully extubated postoperatively. Postoperative management included blood pressure control with fluids, insulin drip for blood sugars, diuresis with Lasix, beta blockade, and pain management with Percocet.
-
-## Dialogue Summary
-
-The patient presented for a general health check-in, expressing anxiety about managing diabetes and other chronic conditions. No new symptoms were reported; specifically, the patient denied chest pain, shortness of breath, unusual fatigue, appetite changes, or blood sugar fluctuations, and stated that worries do not affect sleep or mood. Relevant history includes diabetes, hypertension, and high cholesterol, with the patient actively monitoring blood sugar and blood pressure at home and cholesterol during clinic visits. The patient described staying active without limitations and reported stable blood sugar levels. The doctor assessed that the patient’s chronic conditions are well controlled and that current management is effective, noting that anxiety about health is common in this context. Recommendations included continuing regular monitoring of blood sugar and blood pressure at home, adding routine foot checks for diabetes-related complications, and maintaining regular clinic visits for cholesterol and kidney function labs. The doctor advised the patient to reach out if any new symptoms arise, such as unusual thirst, frequent urination, blurry vision, wounds that heal slowly, headaches, vision changes, dizziness, numbness, or non-healing wounds.
-
-## STS Evaluation
-
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **Turn Count**: 19
+- **Word Count**: 891
+- **Doctor Turns**: 10
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 238.9s
+- **Processing Time**: 106.9s

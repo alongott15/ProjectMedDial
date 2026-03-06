@@ -16,88 +16,81 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.950
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is consistent with the provided patient profile and case type. The doctor asks logical, relevant questions about the palpitations, fever, and postoperative course, and the patient provides plausible answers. The doctor's explanation and reassurance are appropriate for a light, common case with no alarming symptoms. No unsupported diagnoses, treatments, or test orders are introduced. The conversation is coherent and role-appropriate.
+- **Score**: 0.950
+- **Justification**: Combined score 0.95 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.83 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.833 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and does not introduce unsupported symptoms or details. For even greater realism, the patient could specify the timing of surgery if known, or ask a follow-up question about when to seek help.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and provides appropriate reassurance. For improvement, the doctor could briefly mention any plans for follow-up or clarify if any further evaluation (e.g., EKG) might be considered if symptoms persist.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The dialogue flows logically, with each question building on prior answers. The summary and reassurance at the end are clear and appropriate. Consider a closing statement about scheduling or next steps.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns are present. The advice to monitor for worsening symptoms is clear and appropriate for this scenario.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me a bit about how you've been feeling lately?
+**Doctor**: Hi, it's good to see you today. How have things been since your surgery—are the palpitations or fevers impacting your usual routine much?
 
-**Patient**: I've been having these occasional palpitations—my heart just feels like it's skipping or fluttering sometimes. That's mainly why I wanted to get checked out.
+**Patient**: Thanks for asking. The palpitations have been happening off and on, and that’s what’s been bothering me the most lately.
 
-**Doctor**: Let me ask about some related symptoms—have you noticed any chills, sweating, or changes in your temperature when these palpitations occur?
+**Doctor**: Let me ask about the palpitations—when did they first start, and how long do they usually last when they happen?
 
-**Patient**: I did have a fever after my surgery—it got pretty high at first, up to 103, then it settled down to more of a low grade, around 100.7. I haven't really noticed chills or sweating with the palpitations, though.
+**Patient**: They started after my surgery, but I’m not exactly sure how soon after. Each time, the palpitations last just a few seconds to maybe a minute.
 
-**Doctor**: Alright. Have these palpitations been happening at specific times, like during activity, when you're resting, or perhaps at night?
+**Doctor**: Got it. Have these palpitations ever come with other symptoms, like feeling dizzy, short of breath, or chest discomfort?
 
-**Patient**: Most of the time, the palpitations happen when I’m just sitting still or resting. I haven’t noticed them getting worse with activity or at night.
+**Patient**: I haven’t noticed any dizziness, chest pain, or trouble breathing when the palpitations happen. It’s really just the fluttering feeling in my chest.
 
-**Doctor**: Let me ask about your recovery after surgery—how long ago was your surgery, and have you had any other symptoms along with the low-grade fever, like new pain, redness, or swelling at the surgical site?
+**Doctor**: Alright. Have you noticed any particular situations or activities that seem to bring on the palpitations, like exercise, stress, or changes in position?
 
-**Patient**: I’m not sure exactly how long it’s been since the surgery, maybe a few weeks. I haven’t had any new pain, redness, or swelling at the site—just the fever that started high and then stayed low grade.
+**Patient**: I haven’t noticed any specific triggers. The palpitations seem to come on randomly, not really tied to activity or position.
 
-**Doctor**: Let me ask about your overall energy—have you felt more tired than usual since these symptoms began, or has your energy level stayed about the same?
+**Doctor**: Let me ask about the fevers you mentioned after surgery—have they been getting better, staying about the same, or getting worse over time?
 
-**Patient**: My energy level has mostly stayed the same. I haven’t felt unusually tired since these symptoms started.
+**Patient**: The fevers were highest right after surgery, up to 103, but now they’ve dropped down to more of a low-grade temperature, around 100.7. So they seem to be getting better.
 
-**Doctor**: Let me ask about the fever—has your temperature returned completely to normal now, or do you still notice it running a bit high at times?
+**Doctor**: I see. Since your temperature has been coming down, have you experienced any new symptoms recently, like chills, sweats, or feeling unusually tired?
 
-**Patient**: My temperature still runs a little bit high at times—it hasn’t gone all the way back to normal yet.
+**Patient**: I haven’t had any chills, sweats, or unusual fatigue. The only thing I’ve noticed is the low-grade temperature that’s been hanging around.
 
-**Doctor**: Got it. Let me ask—when you feel these palpitations, do you ever experience lightheadedness, shortness of breath, or chest discomfort along with them?
+**Doctor**: Let me ask about the palpitations—when you feel them, do you ever check your pulse or notice if your heartbeat feels regular or irregular during those moments?
 
-**Patient**: No, I haven’t had any lightheadedness, shortness of breath, or chest discomfort with the palpitations. It’s just the fluttering feeling.
+**Patient**: When I feel the palpitations, my pulse sometimes feels like it’s skipping or a little irregular, but I haven’t checked it every time. It doesn’t last long enough for me to really track it closely.
 
-**Doctor**: Let me ask about the timing—when did the fever first start after your surgery, and how long did it stay at its highest before settling down to the low-grade level?
+**Doctor**: Based on what you've described, these palpitations sound brief and aren't accompanied by concerning symptoms like chest pain or dizziness. Sometimes, after surgery, the body can experience temporary changes in heart rhythm due to stress or medications. If the palpitations continue or get worse, it might help to jot down when they happen and any activities around that time. Are you currently taking any new medications since your surgery?
 
-**Patient**: The fever started not long after my surgery, but I don’t remember the exact day. It was at its highest for maybe a day or two before dropping to the low-grade level.
+**Patient**: Thanks, that makes sense. The only medication I’m taking right now is Ultram. I haven’t started anything new besides that since the surgery.
 
-**Doctor**: Based on what we've discussed, your palpitations are occurring at rest and aren't accompanied by concerning symptoms like chest pain or shortness of breath. Your energy level has stayed stable, and you haven't noticed any issues at your surgical site. Palpitations like these are often benign, especially when there are no other warning signs.
+**Doctor**: Let me share my thoughts. From what you've told me, your palpitations are brief, not linked to activity, and aren't accompanied by worrisome symptoms like dizziness or chest pain. After surgery, it's common for people to experience temporary irregular heartbeats, especially with stress, mild fevers, or certain pain medications like Ultram. Your low-grade fever seems to be improving, which is a good sign, and you aren't experiencing chills or sweats.
 
-Sometimes, after surgery and during recovery, changes in your body's stress hormones or mild shifts in hydration can trigger occasional fluttering sensations in the heart. Low-grade temperatures can also linger for a while postoperatively as your body heals.
+For now, I recommend keeping track of when the palpitations happen and if you notice any new symptoms. Staying hydrated and getting enough rest can help your recovery. If the palpitations become longer, happen more often, or start coming with symptoms like chest pain or fainting, let your doctor know right away. Otherwise, these brief episodes are usually not dangerous in the context of recovery.
 
-What’s important is that you’re not experiencing severe symptoms. If the palpitations become more frequent, last longer, or start coming with dizziness or chest discomfort, those would be reasons to check in sooner. For now, monitoring your symptoms and staying hydrated is wise. If your temperature remains above normal for much longer, or if anything changes at the surgical site, let your healthcare team know.
+Do you have any concerns about your medication or anything else you'd like to discuss?
 
-Does this help clarify what might be going on?
-
-**Patient**: Thanks, that does help clear things up. I’ll keep an eye on the palpitations and my temperature like you suggested. It’s good to know these symptoms aren’t too concerning right now.
+**Patient**: Thanks for explaining all of that. I feel better knowing these palpitations are probably just part of recovery. I don’t have any concerns about my medication right now, but I’ll keep track of the palpitations like you suggested.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 635
+- **Word Count**: 638
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 40-year-old male presenting with occasional palpitations and no shortness of breath or dyspnea on exertion. He reports a history of a heart murmur diagnosed at age 30 and has undergone serial echocardiograms and exercise tolerance tests over the past decade. His past medical history includes mitral regurgitation, hemorrhoids, and an old left wrist fracture; he is allergic to aspirin, which causes airway problems requiring epinephrine. On physical examination, he was well-nourished and muscular, with a pulse of 57, blood pressure readings of 142/94 and 133/84, and a grade IV/VI systolic murmur with a palpable thrill at the PMI; varicosities were noted in the left lower extremity. Laboratory results were within normal limits. The documented diagnosis is mitral regurgitation. The patient was maintained on Ultram 50 mg three times daily during admission.
-
-## Dialogue Summary
-
-The patient presented with occasional palpitations described as a skipping or fluttering sensation, mainly occurring at rest. They reported a postoperative fever that initially reached 103°F and then settled to a low-grade level around 100.7°F, with the temperature still running slightly high at times. The patient denied chills, sweating, lightheadedness, shortness of breath, chest discomfort, increased fatigue, or any new pain, redness, or swelling at the surgical site. The surgery occurred a few weeks ago, though the exact timing was not specified. On examination, no concerning symptoms or changes at the surgical site were noted. The doctor assessed that the palpitations are likely benign in the absence of warning signs and that lingering low-grade fever can be normal during recovery. The doctor advised monitoring symptoms, maintaining hydration, and contacting the healthcare team if palpitations worsen or new symptoms develop, especially if the temperature remains elevated or surgical site changes occur.
-
-## STS Evaluation
-
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 60.3s
+- **Processing Time**: 83.5s

@@ -16,62 +16,96 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.900
+- Score: 0.960
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.900
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile. The doctor asks appropriate questions about the patient's cognitive changes and right-sided weakness, and the patient responds in a way that aligns with the symptoms listed. There are no unsupported diagnoses, treatments, or tests introduced. The conversation is focused, clear, and avoids major errors or hallucinations. The only issue is the abrupt simulation end, but up to that point, the exchange is realistic.
+- **Score**: 0.960
+- **Justification**: Combined score 0.96 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=1.00 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 1.000 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are appropriate and consistent with the profile. For further realism, the patient could provide more detail or examples about their difficulties.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: Doctor's questions are relevant and logical. For improvement, the doctor could ask about other associated symptoms (e.g., urinary symptoms given UTI history) or clarify medication history, but this is not required for realism.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is natural and sequential. The abrupt simulation end interrupts the conversation, but prior turns are coherent.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns identified. The dialogue maintains clarity and avoids unsupported content.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brings you in, and how have you been feeling lately?
+**Doctor**: Let me ask about your main concern—what changes have you noticed in how you're feeling recently?
 
-**Patient**: Lately, I've noticed my mind doesn't feel as clear as it used to. That's mainly why I wanted to come in today.
+**Patient**: Lately, I've been feeling confused and not quite myself. It's been worrying me because I notice I'm having trouble thinking clearly.
 
-**Doctor**: Let me ask about how long you've been noticing this change. Did it start suddenly or has it come on gradually over time?
+**Doctor**: Let me ask about any other changes you've noticed—have you experienced any weakness, numbness, or difficulty moving one side of your body?
 
-**Patient**: I'm not exactly sure when it started, but I feel like it's been getting worse over time.
+**Patient**: Now that you mention it, I have noticed weakness on my right side. It's been making things like walking and picking things up harder than usual.
 
-**Doctor**: Let me ask about any other changes you've noticed—have you had any trouble with movement, like weakness or clumsiness on one side of your body?
+**Doctor**: Alright. Has this made it difficult for you to do everyday tasks like dressing, eating, or taking care of yourself?
 
-**Patient**: Yes, I've had some weakness on my right side along with the changes in my memory.
+**Patient**: Yes, it's definitely made daily tasks more challenging for me. Things like dressing and eating take longer, and I need more help than before.
 
-**Doctor**: Let me ask about your daily life—are you finding it harder to do things like getting dressed, using utensils, or walking around because of the weakness?
+**Doctor**: Let me ask about the timing—when did you first notice these changes in your thinking and the weakness on your right side? Has it been getting worse, staying the same, or improving over time?
 
-**Patient**: Yes, the weakness on my right side has made things like getting dressed and walking around more difficult for me.
+**Patient**: I can't remember exactly when it began, but I think it's been getting worse over time. The confusion and the weakness both seem to have gradually become more noticeable.
+
+**Doctor**: Let me ask about associated symptoms—have you had any changes in your speech, vision, or trouble understanding others?
+
+**Patient**: I haven't noticed any changes in my speech or vision. I don't think I've had trouble understanding others either.
+
+**Doctor**: Let me ask about your daily routine—are there certain times of day when your confusion or weakness seem worse, or is it fairly constant throughout the day?
+
+**Patient**: The confusion and weakness seem to be there most of the day. I haven't noticed them getting better or worse at any specific time.
+
+**Doctor**: Tell me more about your sleep—have you been getting enough rest lately, or have you noticed any changes in your sleep patterns? Sometimes sleep issues can affect thinking and energy.
+
+**Patient**: I haven't noticed any big changes in my sleep patterns. I think I'm getting about the same amount of rest as usual.
+
+**Doctor**: Let me ask about physical activity—does moving around or doing certain tasks make your confusion or weakness noticeably worse, or is it the same regardless of what you're doing?
+
+**Patient**: Moving around doesn't seem to make my confusion or weakness worse. It's about the same no matter what I'm doing.
+
+**Doctor**: Based on what we've discussed, your main concerns are confusion and difficulty thinking clearly, along with a gradual increase in right-sided weakness that's affecting your daily activities. These symptoms have been persistent and worsening over time, without clear triggers or relief from rest or activity.
+
+My clinical reasoning is that these types of symptoms—especially when they develop gradually and affect one side of the body—can sometimes be related to changes in the brain, such as issues with blood flow, small strokes, or other neurological conditions. The absence of speech or vision changes makes some causes less likely, but the combination of confusion and weakness still needs careful evaluation.
+
+For now, my assessment is that you are experiencing a mild but progressive neurological issue, possibly related to age-related changes or minor vascular events. This is not uncommon and can often be managed well, but it's important to rule out more serious causes.
+
+My recommendations are:
+- You should see a healthcare provider soon for a thorough neurological examination and possibly some imaging tests (like a CT or MRI) to better understand what's happening.
+- In the meantime, try to keep a routine, stay safe at home (avoid falls), and ask for help with daily tasks as needed.
+- Watch for any new symptoms, such as sudden changes in speech, vision, severe headache, or worsening confusion—these would require urgent attention.
+
+What often happens in cases like this is that early intervention can help maintain independence and prevent further decline. If you have questions or notice any new symptoms, let your provider know
+
+**Patient**: Thank you for explaining all of that. What should I expect if I go for those imaging tests—are there any risks or things I need to prepare for?
+
+**Doctor**: Let me share my thoughts based on everything you've described. The gradual changes in your thinking and daily function point toward a mild neurological issue, which could be related to age-associated changes in the brain or subtle vascular events. Imaging tests like a CT or MRI are helpful because they allow us to look for signs of stroke, changes in brain structure, or other causes.
+
+These tests are generally safe and straightforward. For a CT scan, you simply lie still while the machine takes images; sometimes a contrast dye is used, which is safe for most people but can rarely cause mild allergic reactions. An MRI is similar but uses magnets instead of X-rays; it takes longer and you’ll need to remove any metal objects. No special preparation is usually needed unless you have metal implants.
+
+The main risks are minimal—rarely, people may feel claustrophobic during MRI, or have a mild reaction to contrast dye. Most people tolerate these tests well.
+
+From here, I recommend scheduling these tests soon so your provider can pinpoint the cause and help you plan next steps. If you notice any sudden changes, such as difficulty speaking or understanding, severe headache, or worsening confusion, seek urgent care. Keeping a daily routine and asking for help with tasks is wise while you wait for further evaluation.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 8
-- **Word Count**: 188
-- **Doctor Turns**: 4
-- **Patient Turns**: 4
-
-## EHR Summary
-
-The patient is a female over 90 years old presenting with black stools. She reported two days of melena, associated with nausea and several days of epigastric/sternal pain, but denied vomiting, chest pain, shortness of breath, lightheadedness, or dizziness. Her medical history includes gastroesophageal reflux disease, peptic ulcer disease, hypertension, benign positional vertigo, dementia, depression, and normal pressure hydrocephalus; she takes Norvasc, Zoloft, aspirin, Os-Cal, Pepcid, Vioxx, and Miacalcin. On examination, she was in no apparent distress with stable vital signs and a soft, nontender abdomen; a II/VI systolic ejection murmur was noted. The documented diagnosis is not explicitly stated in the note. No specific treatment or recommendations are documented in this excerpt.
-
-## Dialogue Summary
-
-The patient presented with concerns about decreased mental clarity. They reported that their mind does not feel as clear as it used to, with symptoms worsening gradually over time. The patient also described weakness on their right side, which has made daily activities such as getting dressed and walking more difficult. No specific medical history, medications, or allergies were mentioned during the encounter. The doctor inquired about the onset and progression of symptoms, as well as the impact on movement and daily functioning. No physical examination findings were discussed. The doctor did not provide a formal assessment or diagnosis, nor were any specific treatment recommendations or advice given during the conversation.
-
-## STS Evaluation
-
-- **STS Score**: 0.927
-- **Similarity Label**: N/A
+- **Turn Count**: 19
+- **Word Count**: 913
+- **Doctor Turns**: 10
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 35.0s
+- **Processing Time**: 86.9s

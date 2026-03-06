@@ -16,72 +16,87 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.914
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about the injury, bleeding, and functional impact, and the patient's responses are clear and relevant. There are no unsupported diagnoses, treatments, or hallucinations. The conversation is grounded in the context of a mild facial injury after a fall.
+- **Score**: 0.914
+- **Justification**: Combined score 0.91 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.71 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.714 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient's answers are clear and realistic. For further improvement, the patient could provide more detail about the timing of the fall or any other symptoms if prompted.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: The doctor maintains a logical line of questioning. To enhance realism, the doctor could briefly acknowledge the patient's age and history of falls, or ask about other injuries or symptoms (e.g., headache, dizziness) given the context.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is smooth and natural. The simulation ended abruptly due to a technical issue; otherwise, the conversation was progressing well.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns are present. The doctor appropriately screens for complications and functional impact.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's nice to see you today. What brings you in—can you tell me what's been going on with your lower lip?
+**Doctor**: Hello, it's nice to see you today. What brings you in, and how have you been feeling lately?
 
-**Patient**: I fell and hit my face, and my lower lip started bleeding. That's why I came in today.
+**Patient**: I came in because I had a fall and hit my face. My lower lip started bleeding, and I'm feeling a bit concerned about it.
 
-**Doctor**: Let me ask about the bleeding—was it a lot at first, and has it stopped now, or is it still ongoing?
+**Doctor**: Let me ask about the bleeding—was it a lot of blood, or more of a small cut? And has the bleeding stopped now, or is it still ongoing?
 
-**Patient**: At first, there was quite a bit of bleeding, but it seems to have slowed down now. I don't think it's bleeding much anymore.
+**Patient**: It was more than just a small cut, there was quite a bit of blood at first. The bleeding has slowed down now, but I'm not sure if it's completely stopped.
 
-**Doctor**: Let me ask about the injury itself—do you have any swelling, pain, or trouble moving your mouth since the fall?
+**Doctor**: Let me ask about any other symptoms—have you noticed any swelling, numbness, or loose teeth since the fall?
 
-**Patient**: There's a little bit of swelling and it's sore, but I can still move my mouth fine.
+**Patient**: I haven't noticed any swelling or numbness. My teeth feel normal, nothing seems loose. The main thing has just been the bleeding from my lower lip.
 
-**Doctor**: Got it. When did the bleeding from your lip first start—was it right after the fall, and how long has it been since then?
+**Doctor**: Got it. When did the fall happen, and how long has the bleeding been going on since then?
 
-**Patient**: The bleeding started right after I fell. I'm not sure exactly how long it's been, but it happened earlier today.
+**Patient**: I don't remember the exact time, but it happened earlier today. The bleeding started right after the fall and has been going on since then, though it's much less now.
 
-**Doctor**: Alright. Since the swelling and soreness started, have you noticed any new symptoms—like numbness, trouble closing your mouth, or difficulty eating or drinking?
+**Doctor**: Let me ask about caring for the area—have you been able to apply any pressure or clean the lip since the fall? Sometimes gentle pressure can help stop bleeding from a cut like this.
 
-**Patient**: No, I haven't noticed any numbness or trouble eating and drinking. I can close my mouth without any problems.
+**Patient**: I did try to clean the area gently, but I haven't really applied much pressure. I wasn't sure what else to do for it.
 
-**Doctor**: Got it. Has the soreness or swelling made it uncomfortable to talk or smile, or is it mostly just a mild annoyance for you right now?
+**Doctor**: Alright. Has the bleeding made it difficult for you to eat, drink, or speak today?
 
-**Patient**: It's mostly just a mild annoyance right now. Talking and smiling are a little sore, but I can still do both.
+**Patient**: Eating and drinking have been a bit uncomfortable because of the bleeding, but I can still speak normally.
 
-**Doctor**: Let me ask about the bleeding—since it started earlier today, has it been getting better over the past few hours, or have you had any episodes where it started up again?
+**Doctor**: Let me ask about the size of the wound—would you describe the cut as small (like a paper cut), medium (about the width of a pencil eraser), or larger? This helps me understand how likely it is to heal on its own.
+
+**Patient**: I think it's closer to medium, about the size of a pencil eraser. What should I expect in terms of healing—will it take a long time for my lip to get better?
+
+**Doctor**: Got it. Since the bleeding has slowed and the wound is not very large, it’s likely your lip will heal within a week or so. The mouth tends to heal quickly, but a cut this size can be uncomfortable for a few days. To help things along, gently apply firm pressure with a clean cloth or gauze if bleeding continues. Avoid hot or spicy foods, and keep the area clean with water or saline.
+
+If you notice the bleeding starts up again and doesn’t stop with 10–15 minutes of pressure, or if you see signs of infection like increased redness, swelling, pus, or severe pain, it’s important to seek further care. Otherwise, most cuts like this heal well at home.
+
+Based on your description, this appears to be a minor lip laceration from your fall. My recommendation is to continue gentle cleaning, apply pressure if needed, and watch for any warning signs as mentioned. If you have any difficulty stopping the bleeding, or if the cut opens up more, please reach out for in-person evaluation.
+
+Is there anything else about your fall or your symptoms that you’re worried about?
+
+**Patient**: Thank you for explaining all of that. Is it safe for me to take my usual medications while my lip is healing, or should I be careful with anything because of the bleeding?
+
+**Doctor**: Based on what we've discussed, it sounds like you have a moderate-sized cut on your lower lip from a fall earlier today. The bleeding has slowed but not fully stopped, and you haven't noticed any swelling, numbness, or loose teeth—which is reassuring. Most lip cuts like this heal well within about a week, especially if you keep the area clean and avoid irritating foods.
+
+Regarding your medications, unless you’re taking blood thinners (like warfarin or certain heart medications that increase bleeding risk), it’s generally safe to continue your usual medicines. If you are on any blood-thinning medication, or if you notice the bleeding gets worse or is hard to control, let your healthcare provider know right away, as these can sometimes make bleeding last longer.
+
+In summary, this appears to be a minor injury. Continue gentle cleaning, apply pressure if bleeding returns, and watch for signs of infection or persistent bleeding. If anything changes or you become concerned, seek further evaluation. Most importantly, take care when moving around to help prevent future falls.
+
+Is there anything else you’d like to discuss or any other concerns about your recovery?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 13
-- **Word Count**: 312
-- **Doctor Turns**: 7
-- **Patient Turns**: 6
-
-## EHR Summary
-
-The patient is an 81-year-old female presenting after a fall onto her face, following tripping over a concrete slab. She denied chest pain, dizziness, or loss of consciousness, and reported only slight bleeding from her lower lip. Her medical history includes hypertension and anxiety; she takes lisinopril, hydrochlorothiazide, Zoloft, a multivitamin, Vitamin E, and aspirin, with no known drug allergies. On examination, she was afebrile with stable vital signs and a nonfocal neurological exam; there was no cervical spine tenderness. Imaging revealed a small right subtemporal subdural hematoma and a nondisplaced nasal bone fracture. The documented diagnoses were subdural hematoma and nasal bone fracture. She was admitted to the ICU for hourly neurological checks and blood pressure monitoring but did not require medication adjustments or show neurological deficits. Neurosurgery was consulted for management.
-
-## Dialogue Summary
-
-The patient presented with bleeding from the lower lip following a fall earlier today. The bleeding was initially significant but has slowed and is now minimal; swelling and soreness are present, but the patient can move their mouth normally. The patient denied numbness, difficulty eating or drinking, and trouble closing the mouth, reporting only mild annoyance with talking and smiling due to soreness. No relevant medical history, medications, or allergies were mentioned. On examination, the doctor noted mild swelling and soreness without functional impairment. The doctor assessed the injury as a mild soft tissue trauma to the lower lip with improving bleeding and no concerning symptoms. No specific treatment recommendations or advice were provided during the documented portion of the encounter.
-
-## STS Evaluation
-
-- **STS Score**: 0.943
-- **Similarity Label**: N/A
+- **Turn Count**: 17
+- **Word Count**: 791
+- **Doctor Turns**: 9
+- **Patient Turns**: 8
 
 ## Processing Information
 
-- **Processing Time**: 46.2s
+- **Processing Time**: 78.5s

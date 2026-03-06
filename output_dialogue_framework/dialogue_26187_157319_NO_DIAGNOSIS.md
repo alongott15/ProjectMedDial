@@ -16,88 +16,108 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.927
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the patient's profile and symptoms. The doctor asks appropriate follow-up questions about the chest pain, shortness of breath, swelling, and other symptoms. The reasoning about possible heart failure is supported by the patient's history and current complaints. The advice to monitor weight, limit salt, and seek urgent care for worsening symptoms is reasonable for a light, outpatient context. No unsupported diagnoses, tests, or treatments are introduced.
+- **Score**: 0.927
+- **Justification**: Combined score 0.93 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.89 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.889 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and volunteers additional symptoms (abdominal pain, bloating) that fit the profile. For even greater realism, the patient could mention any recent changes in medications or adherence, or clarify if symptoms have changed compared to baseline.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and provides clear explanations. For improvement, the doctor could briefly acknowledge the patient's complex history (e.g., known heart failure, diabetes) to further ground the conversation in the profile. A gentle reminder to follow up on other chronic conditions could be added.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with appropriate transitions between topics. The summary and plan are well-articulated. To enhance realism, the doctor might ask about medication adherence or recent changes in health status before concluding.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns identified. The advice is clear and appropriate for a light case. The doctor correctly advises when to seek urgent care and sets expectations for follow-up.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Good to see you today. What’s been bothering you or what brings you in?
+**Doctor**: Good to meet you today. Can you tell me what’s been bothering you lately or what symptoms you've noticed?
 
-**Patient**: I came in because I've been having some chest pain and it's been a bit harder to breathe than usual. It’s got me pretty worried.
+**Patient**: My chest has been hurting lately, and it's getting harder to breathe, especially when I'm moving around. That's what's worrying me the most right now.
 
-**Doctor**: Let me ask about the chest pain—when did you first notice it, and is it constant or does it come and go?
+**Doctor**: Let me ask about when this started—how long have you been experiencing these symptoms?
 
-**Patient**: I first noticed the chest pain a few days ago. It isn’t there all the time—it kind of comes and goes.
+**Patient**: I'm not sure exactly how long it's been, but the chest pain and shortness of breath have been going on for at least several days. It feels like it's getting a bit worse lately.
 
-**Doctor**: Let me ask about your breathing—when you feel it's harder to breathe, does it happen at rest or only when you're active, like walking or climbing stairs?
+**Doctor**: Let me ask about other symptoms—have you felt unusually tired, or have you had any headaches along with the chest discomfort?
 
-**Patient**: It’s mostly when I’m moving around, like walking to the kitchen or up the stairs. I get a bit short of breath with activity, but it’s not too bad when I’m just sitting.
+**Patient**: I have been feeling pretty lethargic, and I've noticed some headaches along with everything else. It's making it harder for me to do things during the day.
 
-**Doctor**: Got it. Have you noticed any other symptoms lately, like feeling unusually tired or having headaches?
+**Doctor**: Let me ask about your energy levels—has the tiredness been constant throughout the day, or does it come and go? Also, have you noticed any swelling in your legs or feet recently?
 
-**Patient**: Yes, I’ve felt more tired than usual lately, and I’ve had some headaches too. Both have been bothering me along with the chest pain and shortness of breath.
+**Patient**: The tiredness feels pretty constant throughout the day—I don’t really get much relief. I have noticed swelling in both legs and feet, maybe about 1 to 2+, if I’m describing it right.
 
-**Doctor**: Let me ask about swelling—have you noticed any puffiness in your legs or ankles lately, or any shoes feeling tighter than usual?
+**Doctor**: Alright. Can you tell me if the swelling in your legs and feet started around the same time as your other symptoms, or did it come on later?
 
-**Patient**: Yes, I’ve noticed some swelling in both my legs and ankles. My shoes do feel tighter than usual lately.
+**Patient**: I think the swelling started around the same time as the chest pain and tiredness. It's hard to remember exactly, but they all seemed to come on together.
 
-**Doctor**: Got it. How much are these symptoms—like the tiredness and swelling—affecting your ability to do your usual daily activities? For example, are you finding it harder to get around the house or do things you normally do?
+**Doctor**: Got it. Has the swelling in your legs and feet been getting worse, staying about the same, or improving since it started?
 
-**Patient**: Yes, it’s definitely been harder to get around the house and do things I normally do. The tiredness and swelling slow me down a lot, and I’ve also had some abdominal pain and bloating that make it uncomfortable to move around.
+**Patient**: The swelling has pretty much stayed the same since it started. I haven’t noticed it getting better or worse.
 
-**Doctor**: Alright, when you do feel tired or have headaches, do they get noticeably worse at certain times of day, or after specific activities? Or do they seem fairly constant throughout the day?
+**Doctor**: Let me ask about your daily routine—are there certain activities or times of day when your tiredness and swelling feel more noticeable, or is it pretty steady no matter what you’re doing?
 
-**Patient**: They seem pretty constant throughout the day. I haven’t noticed them getting much worse at specific times or after certain activities.
+**Patient**: The tiredness is pretty steady all day, no matter what I'm doing. The swelling doesn’t seem to change much either—even when I try to rest or move around, it stays about the same.
 
-**Doctor**: Let me ask about your sleep—have you been able to sleep comfortably at night, or do you find yourself needing extra pillows or waking up short of breath?
+**Doctor**: Got it. One more question—have you noticed any cough, fever, or changes in your weight recently? These can sometimes help us understand what's causing your symptoms.
 
-**Patient**: I’ve needed extra pillows to sleep comfortably, and sometimes I wake up feeling short of breath. Sleeping through the night has been tough lately.
+**Patient**: I haven’t had a cough or fever. I don’t think my weight has changed much recently, at least nothing I’ve noticed.
 
-**Doctor**: Based on what we've discussed, it sounds like you’ve been experiencing several symptoms—chest discomfort, shortness of breath with activity and at night, swelling in your legs, tiredness, headaches, and abdominal discomfort. These can sometimes be linked together by underlying issues with the heart or circulation, where fluid can build up and make it harder for your body to keep up with normal activities.
+**Doctor**: From what we've discussed, your symptoms—persistent chest discomfort, difficulty breathing with activity, constant tiredness, and swelling in both legs and feet—are often seen when the heart isn’t pumping as efficiently as it should. This can cause fluid to build up in the body and make it harder to get enough oxygen during movement.
 
-The fact that you need extra pillows to sleep and wake up short of breath is important, as it suggests your symptoms may worsen when lying flat. Swelling in the legs and feeling more tired can also point toward fluid buildup. While there are several possible causes, one common reason in people your age is that the heart isn’t pumping as efficiently as it could be, which is known as heart failure. This isn’t always a medical emergency, but it does mean we should look into this further soon.
+What often happens in these cases is that the body starts to retain fluid, leading to swelling, and you may feel more tired because your organs aren’t getting as much oxygen-rich blood as usual. It’s reassuring you haven’t noticed fever or cough, which makes infection less likely.
 
-For now, I’d recommend keeping track of your weight daily—sudden increases can suggest fluid retention. Try to limit salt in your diet, as salt can make swelling worse. If you notice any chest pain at rest that doesn’t go away, severe difficulty breathing, or if you feel faint, those are reasons to seek urgent care.
+Based on this pattern, it’s likely you’re experiencing symptoms of heart failure—a condition where the heart struggles to keep up with the body’s demands. This is a common issue, especially as we get older, and there are good ways to manage it.
 
-Let’s arrange for a check-up soon to get a better understanding of what’s going on and discuss the next steps. Does that sound reasonable?
+For now, try to keep your legs elevated when sitting, limit salty foods, and watch for any sudden changes like rapid weight gain, worsening shortness of breath, or chest pain that won’t go away. These would be warning signs that need prompt attention.
 
-**Patient**: That makes sense, thank you for explaining it all. I’ll start keeping track of my weight and try to watch my salt. I appreciate you helping me figure out what’s going on—I’ve been feeling pretty lethargic and it’s good to know there’s a plan.
+Let me know if you have questions about what this means or how to manage it day-to-day.
+
+**Patient**: Thank you for explaining all that. What should I expect in terms of day-to-day changes—will things like the sternal drainage or the abdominal distention get better with these suggestions, or is there something else I need to do for those?
+
+**Doctor**: Let me share my thoughts. Based on what we've discussed, your symptoms suggest your heart may not be moving fluid efficiently, which can lead to swelling and some abdominal fullness. Sternal drainage isn’t mentioned in your previous answers, so I’m not sure if you meant chest discomfort or something else—if you have any drainage or wound issues, please clarify.
+
+When it comes to abdominal distention and swelling in the legs, elevating your legs and reducing salt intake can help limit fluid buildup. These measures often make a difference over time, but improvement depends on how well your heart is functioning and whether additional treatments are needed.
+
+If the swelling or abdominal fullness gets worse, or you notice new symptoms like sudden weight gain, worsening breathlessness, or chest pain that won’t go away, those are signs to seek medical attention promptly. Day-to-day, you may find that pacing yourself and resting when needed helps with tiredness.
+
+How much are these symptoms affecting your daily life right now? That will help me understand how best to support you.
+
+**Patient**: Most days, the tiredness and chest pain make it hard for me to do much around the house. I also get nausea and sometimes vomiting, which adds to the discomfort. What kind of changes should I make in my routine to help manage all these symptoms?
+
+**Doctor**: Based on what we've discussed, your symptoms—difficulty with daily activities, nausea, vomiting, swelling, and abdominal fullness—suggest that your heart isn’t moving fluid as effectively as it should. This can cause fluid to build up not only in your legs but also in your abdomen, which might explain the distention and some of the digestive discomfort.
+
+The tiredness and other symptoms are common when the body isn’t getting enough oxygen-rich blood. Nausea and vomiting can sometimes occur if fluid builds up in the abdomen or if medications affect your stomach.
+
+To help manage these symptoms day-to-day:
+- Try to pace yourself and rest when needed; don’t push through fatigue.
+- Elevate your legs when sitting to help reduce swelling.
+- Limit salty foods, as salt can make fluid retention worse.
+- Monitor for any sudden changes like rapid weight gain or worsening abdominal fullness.
+- If nausea or vomiting become severe or persistent, let your healthcare team know—sometimes medication adjustments or further evaluation are needed.
+
+It’s important to keep track of how you’re feeling and let your provider know if things change. There are treatments and strategies that can help improve these symptoms and your quality of life. If you have questions about specific activities or foods, I can offer more guidance.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 709
-- **Doctor Turns**: 9
-- **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 65-year-old man presenting with chest pain and shortness of breath. He was readmitted two days after discharge following aortic valve replacement and coronary artery bypass graft surgery, with symptoms of congestive heart failure. His past medical history includes noninsulin dependent diabetes mellitus, hypertension, paroxysmal atrial fibrillation, left atrial thrombus, congestive heart failure with an ejection fraction less than 20%, right lower lobe mass, remote cerebrovascular accident, coronary artery disease, and status post permanent pacemaker. On examination during this admission, he was found to be in congestive heart failure. The documented diagnosis was congestive heart failure. Treatment included medications such as amiodarone, Lopressor, Glucotrol, Protonix, Neurontin, Lasix, and Coumadin. No drug allergies were reported.
-
-## Dialogue Summary
-
-The patient presented with chest pain and increased difficulty breathing. Symptoms included intermittent chest pain for several days, shortness of breath primarily with activity and occasionally at night, increased tiredness, headaches that are constant throughout the day, swelling in both legs and ankles, abdominal pain and bloating, and difficulty sleeping comfortably without extra pillows due to shortness of breath. The patient reported that these symptoms have made daily activities more challenging. No specific medical history, medications, or allergies were mentioned. On assessment, the doctor noted the combination of chest discomfort, exertional and nocturnal dyspnea, peripheral edema, fatigue, headaches, and abdominal discomfort, suggesting possible fluid buildup and decreased cardiac efficiency, with heart failure as a potential underlying cause. The doctor recommended daily weight monitoring for sudden increases, limiting dietary salt intake, and seeking urgent care if chest pain at rest, severe breathing difficulty, or faintness occurs. A follow-up check-up was advised to further evaluate the symptoms and determine next steps.
-
-## STS Evaluation
-
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **Turn Count**: 21
+- **Word Count**: 1113
+- **Doctor Turns**: 11
+- **Patient Turns**: 10
 
 ## Processing Information
 
-- **Processing Time**: 71.5s
+- **Processing Time**: 99.8s

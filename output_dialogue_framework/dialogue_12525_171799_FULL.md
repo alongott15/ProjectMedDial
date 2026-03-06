@@ -16,88 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.912
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile (61-year-old female with intermittent diplopia and mild vertigo, known right internal carotid aneurysm). The doctor asks appropriate clarifying questions about the symptoms, their onset, and associated features, and provides a reasonable, cautious explanation and plan for a mild case. No unsupported diagnoses, tests, or treatments are introduced. The conversation is clear, logical, and avoids major omissions or errors.
+- **Score**: 0.912
+- **Justification**: Combined score 0.91 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.71 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.706 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and does not introduce extraneous information. For even greater realism, the patient could mention any relevant medical history (e.g., known aneurysm) if prompted.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. For completeness, the doctor could briefly acknowledge the patient's known aneurysm (if aware from chart) and clarify whether any prior neurological symptoms have occurred, but this is a minor point.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is natural and logical, with smooth transitions between topics. The summary and safety-netting advice are appropriate.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The doctor gives clear instructions on when to seek urgent care and explains the reasoning well. If the aneurysm is known to both parties, a brief mention would further clarify risk assessment.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brought you in—can you tell me what’s been bothering you lately?
+**Doctor**: Hello, it's good to see you today. How have you been feeling lately? Is there anything in particular you'd like to discuss or any new symptoms you've noticed?
 
-**Patient**: I’ve been having some double vision lately, and it’s making me a bit uneasy. That’s really why I wanted to come in and get it checked out.
+**Patient**: I've been a bit concerned because I started seeing double recently. That's really the main thing that's brought me in today.
 
-**Doctor**: Let me ask about when you first noticed this—how long has the double vision been going on, and is it constant or does it come and go?
+**Doctor**: Let me ask about how this is affecting you—are you finding it difficult to do everyday tasks like reading or walking because of the double vision?
 
-**Patient**: I’m not exactly sure when it started, but I think it’s been a few days. The double vision isn’t there all the time—it comes and goes.
+**Patient**: Sometimes it makes reading a bit tricky, and walking can feel off if the double vision is bad. It's not constant, but it does get in the way at times.
 
-**Doctor**: Let me ask about any other symptoms—have you noticed any mild dizziness or a sensation of spinning when the double vision happens?
+**Doctor**: Let me ask about any other sensations—have you noticed feeling dizzy or unsteady when the double vision occurs, or any other symptoms that seem to come along with it?
 
-**Patient**: Yes, I have noticed some mild vertigo along with the double vision. It’s not very strong, but I do feel a bit dizzy at times.
+**Patient**: I have felt a bit of mild vertigo along with the double vision. It's not overwhelming, but I do notice it, especially when I'm moving around.
 
-**Doctor**: Alright. Have you noticed if the double vision is worse at certain times of day, or when you’re doing specific activities like reading or watching TV?
+**Doctor**: Alright. Have you noticed any specific situations or activities that seem to bring on the double vision, or does it happen randomly throughout the day?
 
-**Patient**: I haven’t really noticed a pattern. The double vision seems to happen at random times, not tied to any specific activity or time of day.
+**Patient**: I haven’t noticed a clear pattern—it just seems to come and go throughout the day, no matter what I’m doing. I can’t really link it to any specific activity.
 
-**Doctor**: Let me ask about how this is affecting you—when the double vision occurs, does it make it hard for you to walk, read, or do tasks around the house, or is it more of a mild annoyance?
+**Doctor**: Got it. How long have you been experiencing the double vision—did it start recently, or has it been going on for a while?
 
-**Patient**: It’s mostly just a mild annoyance. I can still do my usual activities, but it does make things like reading a bit harder when it happens.
+**Patient**: I’m not completely sure, but I think the double vision started just a few days ago. It hasn’t been going on for very long.
 
-**Doctor**: Let me ask about your vision more closely—when you see double, is it with both eyes open, or does it go away if you cover one eye? This helps me understand if the issue is with the eyes themselves or how they’re working together.
+**Doctor**: Let me ask about how the double vision changes—has it been getting better, worse, or staying about the same since it first started a few days ago?
 
-**Patient**: The double vision goes away if I cover one eye. It only happens when both eyes are open.
+**Patient**: It’s been pretty much the same since it started—not really getting better or worse. The double vision and vertigo just come and go.
 
-**Doctor**: Got it. Since the double vision goes away when you cover one eye, this suggests it's likely related to how your eyes are working together rather than an issue inside one eye itself. Have you noticed any drooping of your eyelids, changes in the way your face moves, or any weakness or numbness elsewhere?
+**Doctor**: Let me ask about your vision specifically—does closing one eye make the double vision go away, or does it persist even when you cover one eye?
 
-**Patient**: No, I haven’t noticed any drooping, weakness, or numbness anywhere. My face feels normal, and I haven’t had any changes like that.
+**Patient**: When I close one eye, the double vision goes away. It only happens when both eyes are open.
 
-**Doctor**: I see. Has the double vision been getting better, staying about the same, or getting worse since you first noticed it?
+**Doctor**: Got it. Since the double vision goes away when you close one eye, it suggests that both eyes are involved rather than just one. Sometimes this can be related to how the eye muscles work together. Have you experienced any changes in the way your eyes move, like difficulty looking in certain directions or any pain when moving your eyes?
 
-**Patient**: It’s been about the same since I first noticed it. I haven’t seen much change.
+**Patient**: That makes sense. I haven’t noticed any pain or trouble moving my eyes in different directions. The double vision is there, but my eyes themselves don’t hurt or feel stiff.
 
-**Doctor**: Based on what we've discussed, it sounds like your double vision is present with both eyes open and resolves when you cover one eye, which usually points to a problem with how the eyes are coordinating rather than a structural issue inside the eye. The fact that you’re also experiencing some mild vertigo, but no weakness, numbness, or drooping, is helpful in narrowing things down.
+**Doctor**: Based on what we've discussed, your double vision appears to be affecting both eyes and resolves when one eye is closed, which often points to a problem with how the eyes are working together rather than an issue within a single eye. The fact that it's not getting worse and hasn't been present for very long is somewhat reassuring, and the absence of pain or difficulty moving your eyes is also a good sign.
 
-Often, intermittent double vision like this can be related to fatigue of the eye muscles or minor issues with how the nerves control those muscles. Sometimes, mild viral illnesses or even just tiredness can bring it on temporarily. The absence of more serious symptoms—like facial droop, significant weakness, or sudden changes—makes a serious cause less likely.
+Double vision like this can sometimes be caused by mild issues with the eye muscles, fatigue, or even temporary nerve changes. It’s also helpful that you haven’t noticed any other concerning symptoms like weakness, numbness, or speech difficulties.
 
-For now, I’d recommend keeping track of when the double vision happens and if anything seems to trigger or worsen it. Try to rest your eyes regularly, especially during activities like reading. If you develop new symptoms such as persistent weakness, trouble speaking, severe headache, or if the double vision becomes constant or much worse, those would be reasons to seek urgent care. Otherwise, we can monitor this together and consider an eye exam if it doesn’t improve in the next week or so.
+For now, I recommend keeping track of when the double vision and vertigo occur and if any new symptoms develop. If you notice things like persistent vision changes, difficulty speaking, weakness, or severe headache, those would be important to report right away. Otherwise, it’s reasonable to monitor your symptoms and avoid activities that feel unsafe when your vision is affected.
 
-Does that make sense, or is there anything else about your vision or dizziness that you’re concerned about?
+Would you say this is interfering with your daily life enough that it’s making tasks difficult, or are you able to manage most things despite the episodes?
 
-**Patient**: That all makes sense, thank you for explaining it. I feel a bit better knowing it’s likely nothing serious. I’ll keep track of when it happens and let you know if anything changes.
+**Patient**: Thanks for explaining all that. I can still manage most of my daily activities, but I do have to be a bit more careful, especially when the vertigo acts up. I’ll keep track of when these episodes happen like you suggested.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 714
+- **Word Count**: 709
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 61-year-old female presenting for an elective cerebral angiogram. She previously experienced an episode of diplopia on 2117-10-21, with no further symptoms and mild vertigo that resolved at that time. Her past medical history is negative for diabetes, heart, or lung disease, and she has no known drug allergies; current medications include multivitamins, aspirin, and Lipitor. On admission, her vital signs were stable and physical examination was unremarkable. She underwent a diagnostic cerebral angiogram followed by embolization and coiling of a known right internal carotid aneurysm. The procedure was tolerated well, and her postoperative course was unremarkable. She was discharged home with instructions to resume her preoperative medications.
-
-## Dialogue Summary
-
-The patient presented with intermittent double vision occurring over the past few days. The double vision is not constant, comes and goes without a clear pattern or trigger, and is described as a mild annoyance that makes reading harder but does not significantly interfere with daily activities. The patient also reported mild vertigo accompanying the double vision but denied any eyelid drooping, facial weakness, numbness, or other neurological symptoms. The double vision resolves when one eye is covered, indicating binocular diplopia likely related to eye muscle coordination rather than a structural eye issue. There was no relevant past medical history, medications, or allergies mentioned. On assessment, the doctor noted the absence of serious symptoms and suggested the cause may be minor eye muscle fatigue or a transient issue with nerve control, possibly related to tiredness or a mild viral illness. The doctor recommended tracking the episodes, resting the eyes during activities like reading, and seeking urgent care if new symptoms such as persistent weakness, trouble speaking, severe headache, or worsening double vision develop. Otherwise, monitoring was advised with consideration for an eye exam if symptoms do not improve within a week.
-
-## STS Evaluation
-
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 59.5s
+- **Processing Time**: 78.8s

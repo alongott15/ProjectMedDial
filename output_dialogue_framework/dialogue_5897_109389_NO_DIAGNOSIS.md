@@ -16,94 +16,100 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.872
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks relevant questions about the patient's symptoms (headache, nosebleeds, back pain), explores their characteristics and timing, and provides reasonable advice for a mild case. There are no unsupported diagnoses, treatments, or severe events introduced. The conversation is coherent, role-appropriate, and avoids hallucinations.
+- **Score**: 0.872
+- **Justification**: Combined score 0.87 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.71 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.706 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and appropriately detailed. For improvement, the patient could occasionally ask clarifying questions or express concerns about how symptoms relate to each other, which would add realism.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: Doctor is thorough and empathetic. To further improve realism, the doctor could briefly acknowledge the patient's history of aneurysm and kidney stone (even if self-reported), as these are in the profile, and clarify if any follow-up is needed for those.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and smooth, with good transitions between topics. To enhance realism, a brief summary or explicit plan for follow-up could be added at the end.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns detected. The advice is appropriate for a light case. Clarity is good; however, the doctor could more explicitly state when to seek urgent care (e.g., 'If you experience sudden severe headache or neurological symptoms, seek emergency care').
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome in today. What brings you in—can you tell me more about what’s been bothering you lately?
+**Doctor**: Let me ask about your main concern today—what’s been bothering you recently?
 
-**Patient**: I've been having headaches for a while now, and they've definitely gotten worse over the last few months. That's really why I wanted to come in.
+**Patient**: I've been dealing with headaches for quite a while now, and lately they've gotten worse. That's the main thing that's been bothering me.
 
-**Doctor**: Let me ask about how this is affecting your daily life—are these headaches making it hard for you to work, concentrate, or do your usual activities?
+**Doctor**: Let me ask about how long you’ve been experiencing these—when did your headaches first start?
 
-**Patient**: Yeah, the headaches have made it tougher to focus at work lately. I find myself needing to take breaks more often just to get through the day.
+**Patient**: I first noticed the headaches around four years ago, but they've been getting worse over the last three months.
 
-**Doctor**: Let me ask about other symptoms—have you had any nosebleeds or back pain along with what you’ve described? Sometimes these can give us clues about what’s going on.
+**Doctor**: Let me ask about any other symptoms you might have noticed—have you experienced things like nosebleeds or back pain along with this?
 
-**Patient**: I've had some nosebleeds and also some back pain along with the headaches. Those have been happening too.
+**Patient**: I've also had nosebleeds and some back pain along with the headaches.
 
-**Doctor**: Let me ask about the nosebleeds—how often are they happening, and would you say they’re heavy or just a small amount of blood?
+**Doctor**: Let me ask about the nosebleeds—how often are they happening, and do you notice anything that seems to bring them on?
 
-**Patient**: The nosebleeds aren't super frequent—maybe a couple times a week. It's usually just a small amount of blood, nothing too heavy.
+**Patient**: The nosebleeds happen every now and then, but I can't really say if there's anything specific that triggers them. Sometimes they just come on without warning.
 
-**Doctor**: Alright. Have you noticed if anything seems to trigger the nosebleeds—like dry air, blowing your nose, or physical activity—or do they seem to happen randomly?
+**Doctor**: Alright. When you do get a nosebleed, how long does it usually last, and
 
-**Patient**: I haven't really noticed a clear trigger. Sometimes it just seems to happen out of the blue, not necessarily after blowing my nose or anything like that.
+**Patient**: They usually last a few minutes, maybe five or ten. I don't always keep track, but they don't go on for too long.
 
-**Doctor**: Got it. One more thing—when you get these headaches, do you notice any changes in your vision, like blurriness or seeing spots? Sometimes that can help us figure out what’s causing them.
+**Doctor**: Let me ask about your back pain—does it come and go, or is it there most of the time? And is it mild, moderate, or severe?
 
-**Patient**: No, I haven't noticed any changes in my vision when I get the headaches. My eyesight seems the same during them.
+**Patient**: The back pain is more on and off—it’s not constant. I’d describe it as moderate most of the time, but sometimes it gets a bit worse.
 
-**Doctor**: Let me ask about the back pain—does it feel more like a constant ache, or does it come and go? And is it in your lower back, upper back, or somewhere else? This can help narrow down possible causes.
+**Doctor**: Got it. How much are these symptoms—especially the headaches and nosebleeds—affecting your ability to go about your usual daily activities?
 
-**Patient**: The back pain is mostly a dull ache that comes and goes. It’s mainly in my lower back.
+**Patient**: The headaches definitely make it harder to focus at work and get through the day. The nosebleeds are more disruptive when they happen, but it's mostly the headaches that affect my routine.
 
-**Doctor**: Tell me more about when the nosebleeds first started—was this around the same time as your headaches and back pain, or did it begin earlier or later? The timing can sometimes give us important clues.
+**Doctor**: Let me ask about the nosebleeds—did those also start around four years ago, or did they begin more recently?
 
-**Patient**: The nosebleeds started after the headaches and back pain. They showed up a bit later, not all at the same time.
+**Patient**: The nosebleeds didn't start as far back as the headaches. They've been happening more recently, maybe within the last few months.
 
-**Doctor**: From what you've described, it sounds like these symptoms have developed over time, with the nosebleeds starting after the other issues. When people experience this combination, common causes might include things like changes in blood pressure, dry nasal passages (especially in certain climates or seasons), or even stress. The fact that your nosebleeds are small and not very frequent is somewhat reassuring.
+**Doctor**: Based on what we've discussed, it sounds like you’ve had headaches for several years, but in the past few months, you’ve also started having nosebleeds and intermittent back pain. The fact that these newer symptoms developed around the same time and are affecting your daily life is important.
 
-At this point, I’d recommend monitoring for any new or worsening symptoms—like severe bleeding, vision changes, weakness, or chest pain—which would need more urgent attention. For now, keeping your nasal passages moist with saline sprays and staying hydrated can help reduce nosebleeds. If you notice your symptoms getting much worse or if you develop new concerns, it’s important to follow up promptly.
+When someone develops nosebleeds and back pain together with worsening headaches, one possible explanation is that there could be an underlying issue with blood pressure. High blood pressure can sometimes cause all three of these symptoms, especially if it’s not been detected or treated yet. Other possibilities include sinus issues, certain medications, or less commonly, problems with blood vessels or clotting.
 
-Would you like some tips on managing these symptoms at home, or do you have other questions about what we’ve discussed?
+At this stage, I’d recommend checking your blood pressure soon, as well as a basic physical exam. Managing stress, staying hydrated, and avoiding nose picking or very dry environments can help reduce nosebleeds, but we want to make sure there’s not a bigger underlying cause.
 
-**Patient**: Thanks, that all makes sense. I’ll try the saline spray and keep an eye on things. If you have any tips for managing the headaches at home, I’d appreciate that too.
+If you notice any warning signs—such as sudden vision changes, weakness or numbness, severe chest pain, or very heavy/prolonged nosebleeds—you should seek care promptly.
 
-**Doctor**: Based on what we've discussed, it sounds like your symptoms have developed gradually and are having a real impact on your ability to focus and work. The combination of these issues, especially with the nosebleeds being mild and not linked to specific triggers, suggests that common causes—like dry air or minor blood vessel irritation—are possible, but we also want to be mindful of things like blood pressure or stress.
+Does this explanation make sense? Have you ever had your blood pressure checked recently?
 
-For managing discomfort at home, simple measures often help: staying well hydrated, taking breaks in a quiet, dim environment, and using over-the-counter pain relievers like acetaminophen can be effective for many people. Regular sleep, gentle stretching, and stress reduction techniques (like deep breathing or short walks) may also make a difference. If you notice the symptoms worsening, or if you develop new issues such as severe bleeding, weakness, or confusion, it’s important to seek care promptly.
+**Patient**: Thanks for explaining that. If it turns out my blood pressure is high, what kind of changes would I need to make in my routine or lifestyle?
 
-Let me know if you’d like more details on any of these strategies or have other questions about your symptoms.
+**Doctor**: Let me share my thoughts on what might be going on. From what you’ve told me, the combination of your symptoms—especially since they’ve changed recently—raises the possibility of high blood pressure being a factor. Elevated blood pressure can sometimes lead to problems like nosebleeds and back discomfort, even before it causes other issues. 
 
-**Patient**: That’s helpful, thank you. I’ll try those suggestions for managing the headaches and nosebleeds at home. If anything changes or gets worse, I’ll make sure to follow up.
+If we do find that your blood pressure is high, the first steps usually involve making some changes to your daily routine. This often includes:
+- Reducing salt in your diet
+- Getting regular exercise (like brisk walking most days)
+- Managing stress levels
+- Limiting alcohol and avoiding smoking if those apply
+- Maintaining a healthy weight
+
+Sometimes, if lifestyle changes aren’t enough, medication may be needed—but many people see good results just by adjusting their habits.
+
+It’s also important to keep an eye on symptoms like very heavy nosebleeds, vision changes, chest pain, or sudden weakness—these would need prompt attention.
+
+Would you like more details on any of these lifestyle changes, or do you have questions about how to check your blood pressure?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 20
-- **Word Count**: 799
+- **Turn Count**: 19
+- **Word Count**: 752
 - **Doctor Turns**: 10
-- **Patient Turns**: 10
-
-## EHR Summary
-
-The patient is a 31-year-old male presenting with a chief complaint of headache for 4 years, worsening over the last 3 months. His symptoms led to the discovery of an aneurysm of the left internal carotid artery (ICA). Relevant history includes no mention of prior medical conditions, medications, or allergies. On physical examination, he was in no acute distress, with a positive left carotid bruit but otherwise normal neurologic and systemic findings. The documented diagnosis was left ICA aneurysm. He underwent stenting of the left ICA and subsequent coiling of the aneurysm without complications, aside from a single episode of epistaxis and transient back pain. The patient was discharged home in stable condition. Discharge medications included aspirin 325 mg and Plavix.
-
-## Dialogue Summary
-
-The patient presented with worsening headaches over the past few months. Symptoms included difficulty focusing at work due to headaches, occasional nosebleeds (a couple times a week, small amount of blood, no clear triggers), and intermittent dull lower back pain. The nosebleeds began after the onset of headaches and back pain, and the patient denied any vision changes during headaches. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the gradual development of symptoms and considered possible causes such as changes in blood pressure, dry nasal passages, minor blood vessel irritation, or stress, with reassurance given regarding the mild nature of nosebleeds. The doctor recommended monitoring for new or worsening symptoms (such as severe bleeding, vision changes, weakness, or chest pain), keeping nasal passages moist with saline spray, staying hydrated, and using over-the-counter pain relievers like acetaminophen for headache management. Additional advice included taking breaks in quiet environments, maintaining regular sleep, gentle stretching, and stress reduction techniques.
-
-## STS Evaluation
-
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 67.1s
+- **Processing Time**: 89.5s

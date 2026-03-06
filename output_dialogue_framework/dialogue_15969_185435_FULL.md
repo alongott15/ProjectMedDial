@@ -16,86 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.903
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about symptoms, medication, and management, and the patient provides relevant answers. The conversation stays focused on mild to moderate symptoms of gestational hypertension/preeclampsia, without introducing unsupported severe events or treatments. The clinical reasoning is sound, and there are no obvious hallucinations or contradictions.
+- **Score**: 0.903
+- **Justification**: Combined score 0.90 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.81 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.810 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear and relevant information. For even greater realism, the patient could mention any home blood pressure monitoring or specific concerns about symptoms.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor is thorough and explains the situation well. For improvement, the doctor could briefly mention the importance of regular prenatal visits and possibly ask about fetal movement or other pregnancy-specific symptoms.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with good transitions between topics. The closing invitation for questions is appropriate.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns are present. The doctor gives clear instructions on warning signs and when to seek help, which is appropriate for this scenario.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it’s nice to see you today. What brings you in, and how have you been feeling lately?
+**Doctor**: Hello, it's good to see you today. How have things been going with your blood pressure lately?
 
-**Patient**: I’ve been noticing my blood pressure has been higher than usual during my pregnancy, and that’s got me a bit concerned.
+**Patient**: My blood pressure’s still been running high, even with the medication. That’s been my main concern lately, especially since I’m pregnant.
 
-**Doctor**: Let me ask about your readings—how high has your blood pressure been, and when did you first notice it was elevated?
+**Doctor**: Let me ask about any other symptoms—have you noticed swelling in your feet or hands, headaches, vision changes, or anything unusual since your blood pressure has been elevated?
 
-**Patient**: I’m not sure of the exact numbers, but I started noticing my blood pressure was up during some of my recent checkups in this pregnancy.
+**Patient**: I have noticed some swelling—just a little bit of edema in both my feet. No headaches or vision changes, though.
 
-**Doctor**: Let me ask about any other symptoms—have you noticed swelling in your hands or feet, headaches, changes in your vision, or anything else unusual lately?
+**Doctor**: Let me ask about your urine—have you noticed any changes, such as foamy urine or needing to go more often? Sometimes these can be important signs during pregnancy when blood pressure is elevated.
 
-**Patient**: I’ve noticed some swelling—just a bit of trace edema on both sides. I haven’t had any headaches or changes in my vision. I was also told there’s protein in my urine.
+**Patient**: I've noticed that I'm not peeing as much as usual. I haven't really seen any foaminess, but the decreased urine output has been something I've been keeping track of.
 
-**Doctor**: Alright. Do you know if your blood pressure readings have been getting higher over time, or have they stayed about the same since they were first noticed?
+**Doctor**: Let me ask about the timing—when did you first notice your urine output decreasing and the swelling in your feet? Has it been getting worse, staying the same, or improving over time?
 
-**Patient**: I’m not really sure if it’s been getting higher or staying about the same—I haven’t been tracking the numbers closely myself.
+**Patient**: I'm not exactly sure when it started, but I noticed the swelling and decreased urine output a few days ago. It feels like it's stayed about the same since then, not really getting better or worse.
 
-**Doctor**: Let me ask about how this is affecting your day-to-day life—are you feeling more tired than usual, or having any trouble with routine activities because of these changes?
+**Doctor**: Alright. When you check your blood pressure at home, what kinds of readings have you been seeing lately? This helps me understand how elevated things have been and if there are any patterns.
 
-**Patient**: I have noticed I’m not urinating as much as I usually do, and there’s been a bit of a decrease in my energy, but I’m still managing my usual activities.
+**Patient**: My numbers have been higher than normal, even with labetalol. I don’t remember the exact readings, but they’ve definitely been elevated—enough that it’s made me worried.
 
-**Doctor**: Let me ask about your recent checkups—has your healthcare team mentioned any concerns or given you advice about managing your blood pressure or protein in your urine during pregnancy?
+**Doctor**: Let me ask about your medication—have you missed any doses of labetalol, or changed how you take it recently? Sometimes even small changes can affect blood pressure control, especially during pregnancy.
 
-**Patient**: Yes, my healthcare team has talked to me about keeping an eye on my blood pressure and the protein in my urine. They’ve started me on labetalol and are monitoring things closely.
+**Patient**: I haven’t missed any doses of labetalol, and I’ve been taking it just like my doctor prescribed. No changes in how I take it.
 
-**Doctor**: Got it. Since you mentioned being on labetalol, have you noticed any side effects from the medication, or any changes in how you’ve been feeling since starting it?
+**Doctor**: Got it. How much is this affecting your day-to-day activities—are you able to keep up with your usual routine, or has the swelling and decreased urine output made things more difficult?
 
-**Patient**: I haven’t noticed any side effects from the labetalol so far. My symptoms haven’t really changed since starting it.
+**Patient**: It’s made things harder, especially with the swelling and not peeing as much. I’ve also had some other issues come up, like a bit of shortness of breath and coughing recently.
 
-**Doctor**: Let me ask about your home routine—are you able to rest and elevate your feet when you notice swelling, or do you find it difficult to take breaks during the day?
+**Doctor**: Let me ask about your cough and shortness of breath—are these new for you, and have they been getting worse or staying stable? Also, do you notice them more at certain times of day or when you’re lying down?
 
-**Patient**: I’m able to rest and elevate my feet when I notice the swelling. Taking breaks during the day hasn’t been too difficult for me.
+**Patient**: These symptoms are new for me. The coughing and shortness of breath haven’t really changed much since they started. I notice them a bit more when I’m lying down.
 
-**Doctor**: Based on what we've discussed, it sounds like your healthcare team is already monitoring your blood pressure and protein in your urine closely, which is important during pregnancy. The combination of elevated blood pressure, protein in the urine, and some swelling can be signs of a condition called preeclampsia, which your team is likely watching for. 
+**Doctor**: Based on what we've discussed, it sounds like your blood pressure has been consistently elevated despite taking labetalol as prescribed, and you've noticed some new swelling in your feet along with decreased urine output. These changes are important, especially during pregnancy, because they can sometimes signal complications like preeclampsia, which is a condition where high blood pressure and certain symptoms—like swelling and changes in urine—need close monitoring.
 
-Since you haven't noticed any worsening symptoms—like headaches or vision changes—and you're able to rest and manage swelling, that's reassuring. Keeping track of your blood pressure at home, if possible, and reporting any new symptoms (such as severe headaches, sudden vision changes, increased swelling, or pain in your upper abdomen) is important. These can be warning signs that need prompt attention.
+The fact that your symptoms have stayed about the same for a few days, and you're also experiencing some difficulty with daily activities, makes it worthwhile to check for protein in your urine and get an updated blood pressure reading. These tests help us see if your kidneys are being affected or if there’s any risk to you or your baby.
 
-Let me know if you have any questions about what to watch for, or if you'd like advice on managing your blood pressure and swelling day-to-day.
+For now, it's important to keep tracking your symptoms and blood pressure at home, and if you notice worsening swelling, severe headaches, vision changes, or pain in your upper abdomen, those are signs to seek care right away.
 
-**Patient**: Thanks for explaining all of that—it helps to know what to look out for. I’ll keep watching for any new symptoms, especially since I’ve had trace edema on both sides and my urine output has decreased a bit. If anything changes, I’ll let my team know right away.
+Let me ask—have you had any recent urine tests or blood pressure checks at your OB visits since these symptoms started?
+
+**Patient**: I did have a urine test when I was admitted, and they found proteinuria. My blood pressures were also checked, and they were elevated. I understand why you want to keep a close eye on things.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 625
+- **Word Count**: 707
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 45-year-old female presenting at 37 weeks and 5 days of gestation with elevated blood pressures. She reported no headaches, visual changes, or right upper quadrant pain at admission. Her pregnancy was complicated by chronic hypertension managed with labetalol, and she was found to have proteinuria on the day of admission. Relevant history includes advanced maternal age, prior therapeutic and spontaneous abortions, mitral valve prolapse, and a fetal abdominal cyst treated with ultrasound-guided drainage. On admission, she was diagnosed with hypertension in pregnancy and possible preeclampsia. The treatment plan included induction of labor due to her hypertension. Additional prenatal issues included positive group B streptococcus status and prior episodes of preterm contractions managed with magnesium sulfate.
-
-## Dialogue Summary
-
-The patient presented with concerns about elevated blood pressure during pregnancy. She reported noticing higher blood pressure readings at recent prenatal checkups, trace edema (swelling) on both sides, decreased urine output, and a slight decrease in energy, but denied headaches or vision changes. She also mentioned being told there was protein in her urine. Her medical history includes current pregnancy and use of labetalol for blood pressure management, with no side effects noted from the medication. On examination, the doctor noted the presence of trace edema and absence of severe symptoms such as headaches or vision changes. The doctor assessed that the combination of elevated blood pressure, proteinuria, and swelling could indicate preeclampsia, which is being closely monitored by her healthcare team. The doctor advised continued monitoring of blood pressure at home, resting and elevating feet to manage swelling, and prompt reporting of any new or worsening symptoms such as severe headaches, vision changes, increased swelling, or upper abdominal pain. The patient expressed understanding and agreed to monitor for warning signs.
-
-## STS Evaluation
-
-- **STS Score**: 0.975
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 58.0s
+- **Processing Time**: 84.8s

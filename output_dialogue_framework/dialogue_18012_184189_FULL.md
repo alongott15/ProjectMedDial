@@ -16,60 +16,85 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.900
+- Score: 0.950
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.900
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about the chest pain, and the patient's responses align with the symptoms described in the profile. There are no unsupported diagnoses, treatments, or test orders. The conversation is cut short due to a simulation error, but up to that point, it is realistic.
+- **Score**: 0.950
+- **Justification**: Combined score 0.95 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.83 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.833 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient agent provides clear and relevant answers. Ensure continued engagement and avoid simulation errors or invalid responses to maintain flow.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor asks logical, open-ended questions and follows up appropriately. Consider summarizing or clarifying key points for patient understanding.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is natural and sequential. The abrupt end due to a simulation error disrupts the conversation; ensure technical stability for full dialogue completion.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns are present in the evaluated portion. The doctor maintains a clear and focused approach.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Let me ask about the pain you're experiencing—how long does each episode tend to last when it happens?
+**Doctor**: Let me ask about the pain you're experiencing—can you describe in your own words what it feels like and how long it usually lasts when it comes on?
 
-**Patient**: I’m not exactly sure, but the pain comes on and lasts for a few minutes at a time. It feels like a sharp, band-like pressure across my chest, moving from the right to the left side.
+**Patient**: My chest hurts—it feels like a tight band across the middle, and the pain is pretty sharp. It goes from the right side over to the left. I’m not sure exactly how long it lasts each time, but it can stick around for a bit when it comes on.
 
-**Doctor**: Let me ask about what you’re doing when the pain comes on—does it tend to happen during activity, while resting, or is there no clear pattern?
+**Doctor**: Let me ask about any other symptoms you might notice when this happens—do you ever feel sweaty, short of breath, or lightheaded during these episodes?
 
-**Patient**: I’ve noticed it mostly when I’m just sitting or resting. I don’t think there’s a clear pattern, though—it can happen at different times.
+**Patient**: I do get pretty sweaty when the pain comes on. I haven’t noticed feeling lightheaded or short of breath, just that band-like chest pain and the sweating.
 
-**Doctor**: Alright. Have you noticed any sweating, nausea, or lightheadedness when these episodes occur?
+**Doctor**: Alright. Have you noticed if anything specific seems to trigger these episodes, such as physical activity, eating, or emotional stress? Or do they tend to come on unexpectedly?
 
-**Patient**: Yes, I do get sweaty when the pain happens. I haven’t noticed any nausea or lightheadedness, though.
+**Patient**: They seem to come on without much warning—I haven’t noticed any clear triggers like activity or eating. Sometimes I’m just sitting and the pain starts up.
 
-**Doctor**: Got it. Does anything seem to help the discomfort go away more quickly, such as changing position or taking deep breaths?
+**Doctor**: Got it. How intense would you say the discomfort is at its worst—if 1 is very mild and 10 is the worst pain you can imagine, where does it usually fall on that scale?
+
+**Patient**: When it’s at its worst, I’d rate the pain around an 8 out of 10. It gets pretty intense—definitely hard to ignore.
+
+**Doctor**: Let me ask about what helps—have you found anything that relieves the discomfort, like resting, changing position, or taking any medications? Or does it tend to persist no matter what you do?
+
+**Patient**: Taking my nitroglycerin helps with the pain sometimes. I also use Imdur as part of my regular medications. Resting doesn’t seem to make much difference, but the medicine does help ease things a bit.
+
+**Doctor**: Got it. Have you ever needed to use your nitroglycerin more frequently than usual lately, or noticed any changes in how well it works for you?
+
+**Patient**: I have needed to use my nitroglycerin a bit more often lately. It still helps, but sometimes the pain takes longer to ease up than it used to.
+
+**Doctor**: Let me ask about any recent changes—have you noticed any new symptoms, like swelling in your legs or ankles, or any trouble sleeping flat at night?
+
+**Patient**: I haven’t noticed any swelling in my legs or ankles, and I haven’t had trouble sleeping flat at night. It’s mainly just the chest pain and sweating when it happens.
+
+**Doctor**: I see. One more question—after you use your nitroglycerin, about how long does it usually take for the discomfort to improve?
+
+**Patient**: Usually, the discomfort starts to improve within a few minutes after I take nitroglycerin, but lately it sometimes takes longer—maybe around ten minutes or so.
+
+**Doctor**: Based on what we've discussed, it sounds like your chest discomfort has become a bit more frequent and sometimes takes longer to improve with nitroglycerin, though you haven’t noticed new symptoms like swelling or trouble breathing. Given your history and the pattern of symptoms, this may suggest your angina is becoming less well controlled, which can happen over time as heart disease progresses.
+
+What often happens is that the heart muscle isn’t getting quite enough oxygen, especially if there are changes in blood vessels or increased demand on the heart. The fact that nitroglycerin still helps is reassuring, but the increased frequency and delayed relief are important changes.
+
+My recommendation is to keep monitoring your symptoms closely. If you ever experience chest pain that does not improve after taking nitroglycerin (especially after three doses, five minutes apart), or if you develop new symptoms like severe shortness of breath, fainting, or pain lasting more than 20 minutes, seek emergency care right away.
+
+Otherwise, it would be a good idea to let your cardiologist know about these changes soon. They may want to review your medications or consider further evaluation. In the meantime, try to avoid activities that tend to bring on symptoms, and keep your nitroglycerin with you at all times.
+
+Do you have any questions or concerns about managing your angina right now?
+
+**Patient**: Thank you for explaining all that. I understand the importance of keeping an eye on my symptoms and letting my cardiologist know about these changes. Is there anything specific I should look out for besides the chest pain and sweating?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 7
-- **Word Count**: 174
-- **Doctor Turns**: 4
-- **Patient Turns**: 3
-
-## EHR Summary
-
-The patient is an 81-year-old man presenting with acute chest pain. He experienced a sharp, band-like pain across his chest at rest during church, rated 6/10, radiating from right to left, similar to previous angina episodes but refractory to sublingual nitroglycerin; he also reported diaphoresis but denied nausea, vomiting, or dyspnea. His history includes coronary artery disease, prior CABG (LIMA to LAD, SVG to PDA and diag-1), PCI with stent placement, and hypertension. On arrival at the outside hospital, ECG showed ST elevations in the inferior leads and ST depressions in the precordial leads. Cardiac catheterization revealed 100% occlusion of the native RCA and SVG to PDA graft, with an OM-2 lesion that was successfully ballooned and stented. The documented diagnosis was acute coronary syndrome due to graft and native vessel occlusion. Treatment included aspirin, beta blocker, IV nitroglycerin, heparin, Aggrestat, and percutaneous coronary intervention with stenting of the OM-2 lesion. The patient was admitted to the CCU for further observation.
-
-## Dialogue Summary
-
-The patient presented with episodes of chest pain. The pain is described as a sharp, band-like pressure across the chest, moving from the right to the left side, and each episode lasts for a few minutes. The pain most often occurs while the patient is sitting or resting, though no clear pattern has been identified; the patient also experiences sweating during these episodes but denies nausea or lightheadedness. No relevant medical history, medications, or allergies were mentioned. No physical findings were documented in this conversation. The doctor did not provide a specific assessment or working diagnosis during the dialogue. No treatment plan or recommendations were given in the portion of the conversation provided.
-
-## STS Evaluation
-
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **Turn Count**: 18
+- **Word Count**: 748
+- **Doctor Turns**: 9
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 35.4s
+- **Processing Time**: 77.2s

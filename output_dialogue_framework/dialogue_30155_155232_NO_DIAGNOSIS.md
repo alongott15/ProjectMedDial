@@ -16,88 +16,101 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.854
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks relevant, focused questions about the location, severity, and characteristics of the pain, as well as associated neurological symptoms that fit with the patient's history of trigeminal neuralgia and multiple sclerosis. The patient responses are coherent and match the documented symptoms. The doctor's reasoning and advice are appropriate for a light, common case, and no unsupported diagnoses or treatments are introduced.
+- **Score**: 0.854
+- **Justification**: Combined score 0.85 (naturalness=0.70 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.91 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.700 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.913 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For even greater realism, the patient could occasionally express uncertainty or ask clarifying questions about medical terms.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: Doctor provides thorough, empathetic questioning and clear explanations. To improve, the doctor could briefly check for other MS-related symptoms (e.g., vision changes, bowel/bladder issues) to demonstrate comprehensive care, but this is not strictly necessary for this focused visit.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, moving from pain assessment to associated symptoms and then to management advice. The summary and advice are well-timed.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The doctor appropriately advises monitoring for new or worsening symptoms and gives clear instructions. The explanation of possible neuralgia is accurate and understandable.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome in today. What’s been bothering you the most recently?
+**Doctor**: Hello, it's nice to meet you. What brings you in today, and how have you been feeling lately?
 
-**Patient**: Lately, the left side of my face has been hurting quite a bit. That's really what's bothering me most right now.
+**Patient**: I've been having pain on the left side of my face lately, and it's been pretty uncomfortable. That's the main reason I'm here today.
 
-**Doctor**: Let me ask about the location—can you point to exactly where on the left side of your face the pain is? For example, is it more around your cheek, jaw, or near your eye or forehead?
+**Doctor**: Let me ask about the timing—when did you first notice this pain on the left side of your face, and has it changed at all since it began?
 
-**Patient**: It's mainly around my left cheek and jaw. That's where I feel the pain the most.
+**Patient**: I can't remember exactly when it started, but the pain has been around for a while now. It feels about the same most days, just really uncomfortable.
 
-**Doctor**: Let me ask about the pain—on a scale from 1 to 10, with 10 being the worst pain you can imagine, how would you rate it right now?
+**Doctor**: Let me ask about other symptoms—have you noticed any changes in your ability to move your left arm, or any tremors?
 
-**Patient**: Right now, I'd rate the pain at about a 7 out of 10. It's pretty uncomfortable and hard to ignore.
+**Patient**: I do have tremors in my left arm, and it makes it hard to write or do fine movements. That's been going on for some time.
 
-**Doctor**: Let me ask about other symptoms—have you noticed any swelling, redness, or warmth in that area? Or any issues with chewing, talking, or opening your mouth?
+**Doctor**: Alright. Can you tell me if the pain or tremor gets worse with certain activities, or does it stay about the same throughout the day?
 
-**Patient**: No, I haven't noticed any swelling, redness, or warmth there. Chewing and talking are okay, but the pain does make it uncomfortable at times.
+**Patient**: The pain doesn't really change much with activity—it stays pretty steady throughout the day. For the tremors, trying to write or use my left hand makes it worse, and I actually can't write at all now. My left leg also tends to drag when I walk.
 
-**Doctor**: Got it. When did you first start noticing this discomfort around your cheek and jaw? Has it been getting better, worse, or staying about the same since it began?
+**Doctor**: Got it. Can you describe what the pain on the left side of your face feels like—sharp, dull, burning, or something else? And is there any numbness or tingling in that area?
 
-**Patient**: I first noticed the discomfort a few days ago. Since then, it’s been staying about the same—not really getting better or worse.
+**Patient**: The pain feels sharp most of the time, and it's just on the left side of my face. I don't really notice any numbness or tingling there.
 
-**Doctor**: Alright, let me shift gears for a moment—have you noticed any unusual sensations or movements in your left arm, such as tremors or shaking?
+**Doctor**: Let me ask about your daily routine—are these symptoms affecting things like eating, speaking, or other activities around the house?
 
-**Patient**: Yes, I do get tremors in my left arm. It makes it tough to write or do certain tasks with that hand.
+**Patient**: The pain makes eating a bit uncomfortable, but it doesn't really affect my speaking. The tremors and weakness in my left arm and leg make it hard to do things around the house, especially tasks that need fine movements or walking for longer periods.
 
-**Doctor**: Tell me more about the tremors—when did you first notice them, and have they changed over time in terms of how often they happen or how strong they are?
+**Doctor**: Got it. Since your left arm and leg are affected, have you noticed any changes in your balance or any falls recently?
 
-**Patient**: I first noticed the tremors when I was diagnosed with multiple sclerosis. They’ve been pretty consistent over time, and I still have trouble writing because of them. My left leg also tends to drag when I walk.
+**Patient**: I haven't had any falls, but my left leg drags when I walk, so my balance isn't quite what it used to be. I try to be careful moving around.
 
-**Doctor**: Alright. Have you noticed any numbness or tingling in your face along with the discomfort, or is it mainly pain?
+**Doctor**: Let me ask about your medical history—are you currently taking any medications, and do you know what they were prescribed for?
 
-**Patient**: No, I haven’t noticed any numbness or tingling—it's mainly just the pain on my left side.
+**Patient**: I'm currently taking Neurontin, amitriptyline, primidone, and Baclofen. I know they're for my symptoms, but I haven't been told the exact name of the condition.
 
-**Doctor**: Based on what we've discussed, it sounds like the pain is focused around your left cheek and jaw, without swelling or numbness, and has been steady over the past few days. Since you have a history of multiple sclerosis and experience tremors and leg dragging on the same side, it’s possible that nerve irritation or neuralgia could be contributing to your facial discomfort. Sometimes, MS can cause pain by affecting the nerves that supply sensation to the face.
+**Doctor**: Based on what we've discussed, your combination of steady, sharp pain on one side of your face, along with tremors and weakness in your left arm and leg, points to a neurological condition affecting one side of your body. The medications you're taking—Neurontin, amitriptyline, primidone, and Baclofen—are commonly used to manage nerve pain, muscle stiffness, and tremors.
 
-The fact that there’s no swelling, redness, or warmth makes things like infection or dental abscess less likely. If the pain becomes sharp, electric, or triggered by touching your face, that would be important to note, as it can point toward nerve-related pain (like trigeminal neuralgia), which can sometimes occur with MS.
+What often happens with these symptoms is that they're caused by a problem with the nerves or brain pathways that control movement and sensation on the left side. This could be something like a movement disorder or a condition affecting the nerves in your face and limbs.
 
-For now, gentle self-care like using a warm compress and avoiding chewing tough foods may help. If you notice any new symptoms—such as facial weakness, drooping, vision changes, or if the pain worsens—let your healthcare provider know promptly.
+Let me share my thoughts: Given the pattern of your symptoms and the medications prescribed, it's likely you have a condition called hemifacial spasm or possibly a form of dystonia or essential tremor affecting one side. These are chronic but manageable conditions that cause abnormal movements or pain due to nerve irritation or dysfunction.
 
-Does anything in particular seem to trigger or worsen the pain, such as eating, brushing your teeth, or cold air?
+For practical advice, keeping up with your medications as prescribed is important. Also, try to avoid activities that worsen the tremors, and take care to prevent falls since your balance is affected. If the pain becomes much worse or you notice new symptoms like vision changes or severe weakness, those would be warning signs to seek medical attention promptly.
 
-**Patient**: Eating tougher foods can make the pain worse, but brushing my teeth and cold air don’t seem to trigger it. I appreciate the advice about warm compresses—I’ll give that a try.
+Let me ask—on a scale of 1 to 10, how would you rate the facial pain most days? This helps us gauge how well your current treatment is working.
+
+**Patient**: Most days, I'd rate the facial pain around a 7. Since you mentioned these conditions, could you tell me if there are any side effects I should watch for with the medications I'm taking?
+
+**Doctor**: From what you've told me, your symptoms—steady, sharp pain on the left side of your face, tremors and weakness in your left arm and leg, and difficulty with fine movements—suggest a neurological condition that affects one side of your body. The medications you’re taking are often used to help manage nerve pain (Neurontin, amitriptyline), muscle stiffness (Baclofen), and tremors (primidone).
+
+What likely happens in these conditions is that certain nerves or pathways in the brain aren’t working as smoothly as they should, which can lead to pain and movement issues on one side. This is why you’re experiencing both facial pain and tremors.
+
+As for side effects, each medication has its own profile:
+- Neurontin (gabapentin) can sometimes cause drowsiness, dizziness, or swelling in the legs.
+- Amitriptyline may lead to dry mouth, constipation, or sleepiness.
+- Primidone can cause sedation or unsteadiness.
+- Baclofen may result in muscle weakness or fatigue.
+
+If you notice any new symptoms like confusion, severe dizziness, trouble breathing, or a big change in your alertness, those would be reasons to contact your healthcare team promptly.
+
+For now, your main focus should be on safety—be cautious with activities where balance is important. If pain or tremors become significantly worse, or you have trouble swallowing or speaking, let your provider know.
+
+Let me ask: Have you noticed
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 623
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 961
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 59-year-old female presenting with left facial pain consistent with trigeminal neuralgia. She reported chronic, severe facial pain and has a history of multiple sclerosis with associated left arm tremors, inability to write, and left leg dragging, as well as occasional constipation and a prior corneal scar on the left. Her medications included Neurontin, amitriptyline, primidone, and baclofen; she has allergies to penicillin (causing hives) and bee stings. On examination, she was well-appearing, used a cane for ambulation, and had normal motor strength in the lower extremities with brisk patellar reflexes. The documented diagnosis was chronic left facial pain status post Drez lesion. She underwent a suboccipital craniectomy and C1-C2 laminectomy with radiofrequency Drez lesioning of the left trigeminal nucleus caudalis. The treatment plan was surgical intervention for pain control.
-
-## Dialogue Summary
-
-The patient presented with left-sided facial pain, mainly around the left cheek and jaw. The pain was rated as 7 out of 10 in severity, had been present for a few days, and remained steady without improvement or worsening. There was no associated swelling, redness, warmth, numbness, or tingling, though chewing tougher foods made the pain more uncomfortable. The patient also reported left arm tremors and left leg dragging, both consistent since a prior diagnosis of multiple sclerosis, and noted difficulty with writing due to the tremors. On examination, there were no signs of infection or dental abscess, and no facial weakness or drooping was reported. The doctor assessed that nerve irritation or neuralgia related to multiple sclerosis could be contributing to the facial pain. The treatment plan included gentle self-care measures such as using a warm compress and avoiding tough foods, with instructions to report any new symptoms like facial weakness, drooping, or vision changes.
-
-## STS Evaluation
-
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 61.8s
+- **Processing Time**: 101.1s

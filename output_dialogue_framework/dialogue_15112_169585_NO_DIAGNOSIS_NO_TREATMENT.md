@@ -10,94 +10,180 @@
 
 ## Generation Attempts
 
-- **Total Attempts**: 1
-- **Best Attempt**: 1
+- **Total Attempts**: 2
+- **Best Attempt**: 2
 
 ### Attempt 1
+- Success: False
+- Decision: UNREALISTIC
+- Score: 0.660
+
+### Attempt 2
 - Success: True
 - Decision: REALISTIC
-- Score: 0.980
+- Score: 0.840
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.980
-- **Justification**: The dialogue is highly realistic for a primary-care setting with a patient who has known cardiovascular risk factors and presents with exertional chest pain. The doctor asks appropriate, focused questions about the nature, timing, and associated symptoms of the chest pain, and the patient provides plausible, consistent answers. The doctor's explanation of angina is clear and grounded in the patient's history and symptoms. The recommendations are conservative and appropriate for a light case, with clear safety advice. There are no hallucinations or unsupported content.
+- **Score**: 0.840
+- **Justification**: Combined score 0.84 (naturalness=0.60 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=1.00 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.600 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 1.000 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and asks an appropriate follow-up question. For even greater realism, the patient could mention any medications they are taking or express more specific concerns or anxieties.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: The doctor is thorough and explains reasoning well. For improvement, the doctor could briefly confirm the patient's current medications or ask about adherence, as this is relevant to risk management. A brief check for other risk factors (e.g., smoking, family history) could also be included.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, moving from symptom description to risk assessment to education and safety advice. The conversation could be slightly more interactive if the doctor asked the patient to summarize their understanding or concerns at the end.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is clear and appropriate for a light case. The doctor correctly advises on warning signs and activity modification. No safety concerns detected.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Let me ask about your main concern today—can you describe what brought you in and how you've been feeling lately?
+**Doctor**: Based on what we've discussed so far, it sounds like your main concern is chest pain. To better understand what's going on, could you tell me exactly where in your chest you feel the pain? For example, is it more in the center, to one side, or does it move anywhere else? This can help determine the likely cause and guide the best next steps.
 
-**Patient**: I've been having some chest pain lately, and it's making me a bit anxious. That's really what brought me in today.
+**Patient**: Could you tell me what usually causes this kind of chest pain? I want to understand what might be going on and what I should expect next.
 
-**Doctor**: Let me ask about the nature of the discomfort—can you describe what the pain feels like (sharp, pressure, burning, etc.) and when you usually notice it?
+**Doctor**: Let me share my thoughts on this. Chest pain can have a variety of causes, and most of the time—especially if it’s mild or related to movement or certain activities—it’s due to something like muscle strain, acid reflux, or even anxiety. These are common and usually not dangerous. Sometimes, it can be related to the heart or lungs, but those causes often come with other symptoms like severe shortness of breath, sweating, nausea, or pain spreading to your arm or jaw.
 
-**Patient**: It mostly feels like a pressure in my chest, not really sharp or burning. I tend to notice it more when I'm walking around or doing something active.
+Based on our conversation and the fact that you’re able to discuss your symptoms comfortably, this sounds more like a light, common cause rather than something serious. What I recommend is paying attention to any new or worsening symptoms, such as severe pain, trouble breathing, or feeling faint—those would need urgent attention. Otherwise, gentle rest, avoiding heavy lifting, and perhaps using over-the-counter pain relief if needed are good first steps.
 
-**Doctor**: Let me ask about how long this has been going on—when did you first notice the pressure, and has it been getting any better or worse since it started?
+If the pain persists for more than a few days, gets worse, or you notice any of those warning signs I mentioned, it’s important to get checked by a healthcare provider promptly. Most cases improve on their own with a bit of self-care. Let me know if you have any questions about this or if anything changes.
 
-**Patient**: I'm not sure exactly when it started, but I think it's been a few days now. It hasn't really gotten much better or worse—just kind of stays the same.
+**Patient**: Thanks for explaining that. Is there anything specific I should avoid doing, like certain foods or activities, while I wait to see if the pain gets better?
 
-**Doctor**: Alright. When you feel this pressure during activity, does it go away if you stop and rest, or does it linger even after you've stopped moving around?
+**Doctor**: Let me share my thoughts on what you can do while you monitor things. Since discomfort in this area is often triggered by physical strain or certain foods, it’s wise to take it easy for a few days—avoid heavy lifting or strenuous exercise until you’re feeling back to normal. If you notice that spicy, fatty, or acidic foods seem to make things worse, try to steer clear of those for now as well. Eating smaller meals and not lying down right after eating can also help if indigestion might be a factor.
 
-**Patient**: Resting does seem to help. The pressure usually eases up once I stop moving around and sit down for a bit.
+From what we’ve discussed, this sounds like a mild, likely non-serious issue, but if you develop new symptoms such as shortness of breath, sweating, faintness, or severe discomfort, seek medical attention right away. Otherwise, gentle activity and mindful eating are good steps. If things don’t improve after several days or get worse, it’s a good idea to follow up with your healthcare provider.
 
-**Doctor**: Got it. On a scale from 1 to 10, with 10 being the most intense discomfort you can imagine, how strong would you say this pressure feels when you're active?
+Let me know if you have any other concerns or if anything changes—I’m here to help.
 
-**Patient**: I'd rate it around a 5 or 6 when I'm active. It's uncomfortable, but not unbearable.
+**Patient**: Thanks for explaining all that. How long should I wait before getting checked again if the pain doesn’t go away?
 
-**Doctor**: Let me ask about other symptoms—have you noticed any shortness of breath, sweating, or palpitations when this happens?
+**Doctor**: If things aren’t improving after about a week, or if anything gets worse, it’s a good idea to reach out for a check-up. Feel free to get in touch sooner if you’re concerned or notice any new changes.
 
-**Patient**: No, I haven't noticed any sweating or palpitations. I don't really get shortness of breath, just the chest pressure.
+**Patient**: That makes sense, thank you. If anything changes or gets worse, I’ll be sure to let someone know. Right now, I don’t have any other questions.
 
-**Doctor**: Got it. One more thing—does this pressure ever come on when you’re resting, like sitting quietly or at night, or is it only with activity?
+**Doctor**: Feel free to reach out if anything changes or you have new concerns. Take care.
 
-**Patient**: No, the pressure doesn't really come on when I'm resting. It seems to happen only when I'm up and moving around.
+**Patient**: Thank you for your help today. I appreciate you taking the time to explain everything. If anything changes, I’ll reach out.
 
-**Doctor**: Let me ask about your medical history—do you have any history of high blood pressure, high cholesterol, diabetes, or any heart-related conditions?
+**Doctor**: Of course. Take care, and don’t hesitate to reach out if you need anything further.
 
-**Patient**: Yes, I do have high blood pressure and high cholesterol. I don't have diabetes, but I have been treated for hypertension and hypercholesterolemia.
+**Patient**: Thanks again for your time. I’ll keep an eye on things and reach out if anything changes.
 
-**Doctor**: From what you've told me, it sounds like the chest pressure comes on with activity and improves when you rest, and you have a history of high blood pressure and high cholesterol. This pattern can sometimes be seen in conditions where the heart isn't getting quite enough oxygen during exertion—often called "angina." 
+**Doctor**: Absolutely—take care, and I’m here if anything comes up.
 
-What often happens is that, with physical activity, your heart needs more oxygen, and if there are blockages or narrowing in the heart arteries (sometimes related to high blood pressure or cholesterol), you might feel this kind of pressure. The fact that it eases with rest is a classic feature.
+**Patient**: I appreciate your support. I’ll keep track of how I’m feeling and let you know if anything new comes up.
 
-While your symptoms aren't severe right now, I do think it's important to take them seriously because of your risk factors. I recommend you check in with your regular doctor soon for further evaluation—this may involve some tests to look at your heart and see if any treatment adjustments are needed. In the meantime, avoid strenuous activity until you've been evaluated.
+**Doctor**: Glad to hear you’ll keep track. Reach out anytime if anything changes.
 
-If you ever notice the pressure coming on at rest, lasting longer than usual, or if you develop new symptoms like nausea, sweating, or shortness of breath, seek medical attention right away. Would you like advice on what steps to take next or how to manage your activity until you see your doctor?
+**Patient**: Thanks for all your guidance today. I feel better knowing what to watch for and what steps to take.
 
-**Patient**: Thanks for explaining that. I’ll make sure to avoid any heavy activity and set up an appointment with my regular doctor soon. Is there anything specific I should watch for before I see them, besides the symptoms you mentioned?
+**Doctor**: Glad to hear you’re feeling more reassured. Reach out anytime if you need support.
+
+**Patient**: Thank you, I will. I appreciate your help and feel more at ease now.
+
+**Doctor**: Glad I could help. Take care and reach out if anything changes.
+
+**Patient**: Thanks again for your help today. I’ll keep an eye on my symptoms and get in touch if anything changes.
+
+**Doctor**: Of course—take care, and don’t hesitate to reach out if anything changes.
+
+**Patient**: I appreciate it. I'll let you know if anything changes. Thanks again for your support.
+
+**Doctor**: Got it. Wishing you the best—reach out anytime if you need to.
+
+**Patient**: Thank you, I will. I appreciate all your help today.
+
+**Doctor**: Absolutely, take care and don’t hesitate to reach out if anything changes.
+
+**Patient**: Thanks again for everything today. I’ll pay attention to any changes and reach out if I need to.
+
+**Doctor**: Of course. Wishing you all the best—reach out anytime if you need to.
+
+**Patient**: Thank you, I appreciate it. I’ll keep you updated if anything changes.
+
+**Doctor**: Absolutely—wishing you all the best.
+
+**Patient**: Thanks for your good wishes. I'll keep an eye on my chest pain and let you know if anything changes.
+
+**Doctor**: Of course. Take care and reach out anytime if you need to.
+
+**Patient**: I appreciate your support. I’ll keep an eye on things and let you know if anything changes.
+
+**Doctor**: Of course. Take care and stay in touch if anything changes.
+
+**Patient**: Thanks again. I’ll keep you posted if anything changes or if I notice anything new.
+
+**Doctor**: Got it. Take care, and I’m here if anything comes up.
+
+**Patient**: Thanks for everything today. I’ll check in if anything changes or if I have more questions later on.
+
+**Doctor**: Of course. Take care and reach out anytime if you have more questions.
+
+**Patient**: Thanks for your help today. I feel like I have a better idea of what to watch for now.
+
+**Doctor**: Glad you’re feeling more informed. Reach out anytime if you have more questions.
+
+**Patient**: Thanks, I will. Right now, I feel like I know what to watch for, and I don’t have any more questions.
+
+**Doctor**: Glad you’re feeling more confident. Reach out anytime if you need to.
+
+**Patient**: Thanks, I feel better knowing what to look out for. If anything changes, I’ll reach out.
+
+**Doctor**: Absolutely—wishing you continued peace of mind.
+
+**Patient**: Thanks, I appreciate that. I'll pay attention to how things go and reach out if anything changes.
+
+**Doctor**: Got it. Feel free to reach out if anything changes.
+
+**Patient**: Thanks, I will. I feel more comfortable now knowing what to look out for.
+
+**Doctor**: Glad to hear that. Take care and reach out if anything changes.
+
+**Patient**: Thanks for all your help today. I’ll keep track of how I’m feeling and reach out if anything changes.
+
+**Doctor**: Of course. Wishing you all the best—reach out anytime if you need to.
+
+**Patient**: Thank you, I appreciate everything you've done. I'll get in touch if anything changes or if I have more questions down the line.
+
+**Doctor**: Absolutely—reach out anytime if you have more questions.
+
+**Patient**: Thanks, I feel comfortable reaching out if anything changes. Right now, I don’t have any more questions.
+
+**Doctor**: Of course. I'm glad you're comfortable reaching out if anything changes.
+
+**Patient**: I appreciate all your help. If anything new comes up, I’ll make sure to reach out.
+
+**Doctor**: Got it. Feel free to reach out anytime if anything changes.
+
+**Patient**: Thanks for letting me know. I feel comfortable reaching out if anything changes or if I have more questions.
+
+**Doctor**: Absolutely—feel free to reach out if anything comes up.
+
+**Patient**: Thank you, I will. If I notice anything different or have more questions, I'll reach out.
+
+**Doctor**: Of course—wishing you all the best.
+
+**Patient**: Thanks for all your help today. I feel like I know what to watch for now and I’ll reach out if anything changes.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 654
-- **Doctor Turns**: 9
-- **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 61-year-old male presenting with a history of chest pain since 2156. He was found to have 3-vessel coronary artery disease on cardiac catheterization. His past medical history includes hypertension, hypercholesterolemia, gout, aphthous stomatosis, gastroesophageal reflux disease, and abnormal movements in sleep; admission medications included atenolol, Accupril, Lipitor, allopurinol, colchicine, ranitidine, and aspirin. On admission, he underwent a five-vessel coronary artery bypass graft (CABG) and had an uncomplicated postoperative course. On the day of discharge, his vital signs were stable and his physical exam was unremarkable except for a low hematocrit of 19.7. He received two units of packed red blood cells after discussion of risks and benefits. The documented diagnosis was multivessel coronary artery disease status post CABG. The treatment plan included transfusion, advancement of diet, and routine postoperative care.
-
-## Dialogue Summary
-
-The patient presented with chest pain described as a pressure sensation, which was their main concern. The chest pressure has been present for a few days, is rated 5–6/10 in intensity during activity, and is relieved by rest; it does not occur at rest or at night. The patient denied associated symptoms such as shortness of breath, sweating, or palpitations. Relevant history includes hypertension and hypercholesterolemia, with no diabetes or prior heart conditions mentioned. On assessment, the doctor noted that the exertional chest pressure relieved by rest, in the context of cardiovascular risk factors, is suggestive of possible angina. The doctor recommended avoiding strenuous activity and advised prompt follow-up with the patient’s regular doctor for further evaluation, including possible cardiac testing and treatment adjustments. The patient was instructed to seek immediate medical attention if symptoms worsen, occur at rest, or are accompanied by new symptoms such as nausea, sweating, or shortness of breath.
-
-## STS Evaluation
-
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **Turn Count**: 60
+- **Word Count**: 1391
+- **Doctor Turns**: 30
+- **Patient Turns**: 30
 
 ## Processing Information
 
-- **Processing Time**: 58.5s
+- **Processing Time**: 336.7s

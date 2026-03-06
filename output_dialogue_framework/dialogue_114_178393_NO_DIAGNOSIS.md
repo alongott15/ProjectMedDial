@@ -16,76 +16,89 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.815
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about the patient's symptoms (dyspnea on exertion, angina, epigastric pain, fever), and the patient provides plausible, relevant answers. There are no unsupported diagnoses, treatments, or test orders. The conversation is logical and grounded in the context of a light, common medical case with a history of coronary artery disease and recent symptoms.
+- **Score**: 0.815
+- **Justification**: Combined score 0.81 (naturalness=0.90 ×0.4, profile_compliance=0.60 ×0.3, ragas_faithfulness=0.92 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 0.600 |
+| RAGAS Faithfulness | 0.917 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear and relevant responses. For improvement, the patient could offer more detail about the fever (e.g., how high, when it started) or clarify any other associated symptoms if prompted.
+**Patient Side**: PROFILE COMPLIANCE ISSUE [NO_DIAGNOSIS]: Patient may be disclosing information outside their knowledge boundary. Reminder — The patient must NOT say their formal diagnosis — they genuinely don't know it. The patient CAN mention what medications they are taking. If asked 'do you know what's wrong?', they should say something like 'I'm not sure exactly' or 'I've been given medications but wasn't told the name of the condition.' NEVER produce a specific diagnosis name.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and asks appropriate follow-up questions. For further realism, the doctor could briefly acknowledge the patient's cardiac history or ask about medication adherence or recent illnesses.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is natural and sequential, with each question building on prior answers. The simulation ends abruptly due to a technical issue; ideally, the conversation would continue to a logical stopping point.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns are present. The doctor maintains a clear focus on symptom assessment without making unsupported assumptions.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome—it's good to see you today. What brings you in, and how have you been feeling lately?
+**Doctor**: Welcome. What brings you in today? Can you describe what you've been feeling or experiencing lately?
 
-**Patient**: I've noticed it's getting harder to catch my breath when I'm active, and my chest hurts sometimes. That's mainly why I wanted to come in.
+**Patient**: I've been having some trouble breathing when I try to do things, like walk up stairs. It's making me pretty uncomfortable.
 
-**Doctor**: Let me ask about the chest discomfort—does it usually come on with activity, or does it ever happen when you're resting as well?
+**Doctor**: Let me ask about the timing—how long have you been noticing this trouble with breathing during activity?
 
-**Patient**: It usually comes on when I'm doing something active, not so much when I'm just sitting around.
+**Patient**: I'm not exactly sure, but it's been a recent thing—maybe just the past few days.
 
-**Doctor**: Got it. When did you first notice these symptoms starting—has this been going on for days, weeks, or longer?
+**Doctor**: Let me ask about what happens when you’re resting—do you have any trouble breathing when you’re sitting or lying down, or is it only during activity?
 
-**Patient**: I'm not exactly sure, but I think it's been going on for several days now. I also noticed some discomfort in my upper stomach area along with the shortness of breath.
+**Patient**: When I'm resting, I don't really notice the trouble breathing. It's mainly when I'm moving around or doing something physical.
 
-**Doctor**: Let me ask about the discomfort in your upper stomach—does it come on at the same time as the chest symptoms, or is it separate? And would you describe the sensation as more of a pressure, burning, or something else?
+**Doctor**: Alright. Have you noticed any chest discomfort, pain, or tightness when you’re active, or is it just the breathing difficulty?
 
-**Patient**: The epigastric pain tends to show up around the same time as the chest discomfort, usually when I'm active. It feels more like a pressure than burning. I've also had a bit of a fever along with these symptoms.
+**Patient**: I do get chest pain when I'm active, along with the breathing trouble. It's a tight, uncomfortable feeling.
 
-**Doctor**: Alright. Have you noticed if these symptoms are getting better, worse, or staying about the same over the past several days?
+**Doctor**: Got it. When you feel that chest tightness and discomfort during activity, does it ever cause you to stop what you're doing or slow down? And would you say the pain is mild, moderate, or quite severe?
 
-**Patient**: They've mostly stayed about the same over the past several days. I haven't noticed any big changes, better or worse.
+**Patient**: Sometimes I have to stop what I'm doing because the pain and tightness get pretty uncomfortable. I'd call it moderate, not mild, but not the worst I've felt either.
 
-**Doctor**: Let me ask about associated symptoms—have you had any nausea, lightheadedness, or sweating when these episodes happen?
+**Doctor**: Let me ask about other symptoms—have you noticed any swelling in your ankles or feet, or any unusual fatigue lately?
 
-**Patient**: No, I haven't had any nausea, lightheadedness, or sweating with these episodes. It's mostly just the shortness of breath, chest discomfort, and the epigastric pain.
+**Patient**: I haven't noticed any swelling in my ankles or feet. As for fatigue, it's mainly from the breathing trouble and chest pain when I'm active, but otherwise nothing unusual.
 
-**Doctor**: Alright. When you get these symptoms during activity, do they tend to come on gradually or do they start suddenly? And once you rest, how long does it usually take for the discomfort to go away?
+**Doctor**: Let me ask about any triggers—does this breathing difficulty and chest tightness happen with all types of physical activity, or only when you exert yourself more, like climbing stairs or carrying something heavy?
 
-**Patient**: The symptoms usually come on gradually when I'm active. Once I stop and rest, the discomfort goes away within a few minutes.
+**Patient**: The breathing difficulty and chest pain mainly show up when I'm really exerting myself, like climbing stairs or carrying something heavy. Lighter activities don't seem to trigger it as much.
 
-**Doctor**: Got it. One more thing—how would you rate the intensity of the discomfort when it happens, say on a scale from 1 (very mild) to 10 (worst you can imagine)? This helps me understand how much it's affecting you and guides what steps we take next.
+**Doctor**: Alright. Has your breathing difficulty and chest discomfort been getting better, worse, or staying about the same over the past few days?
+
+**Patient**: It's been about the same over the past few days. I haven't noticed any big changes in how bad it gets.
+
+**Doctor**: Based on what we've discussed, your symptoms mainly occur during more strenuous activity and are accompanied by chest tightness that can make you stop what you're doing. This pattern suggests your heart may not be getting enough oxygen when you exert yourself, which can cause both breathing difficulty and chest discomfort. This is often seen in a condition called angina, where narrowed blood vessels limit blood flow to the heart during activity.
+
+What typically happens is that these symptoms are triggered by increased demand—like climbing stairs or carrying heavy objects—and improve with rest. Since you haven't noticed swelling or severe fatigue, and the symptoms haven't worsened, this points toward a stable, common issue rather than something immediately dangerous.
+
+For your day-to-day life, how much is this affecting your ability to do things? Are you avoiding certain activities because of these symptoms?
+
+**Patient**: I have started avoiding heavier tasks, like carrying groceries or taking the stairs too quickly. Since you mentioned angina, what should I expect moving forward—are there changes I need to make to my routine or diet?
+
+**Doctor**: Let me share my thoughts. From what you've told me, your symptoms—breathing difficulty and chest tightness during physical exertion—are most consistent with a condition called angina. This happens when the heart muscle isn’t getting enough blood flow during activity, often due to narrowed blood vessels. The pain and discomfort you feel are the heart’s way of signaling that it needs more oxygen.
+
+Angina is a manageable condition, but it’s important to pay attention to your activity level and avoid pushing yourself too hard. Making some changes to your routine—like pacing yourself, avoiding sudden strenuous tasks, and planning lighter activities—can help prevent symptoms. Diet-wise, focusing on heart-healthy choices (more fruits and vegetables, less saturated fat and salt) is beneficial. If you smoke, quitting is important; regular moderate exercise can also help, but it should be done safely and gradually.
+
+If you ever notice chest pain that doesn’t go away with rest, or if it becomes much worse or is accompanied by sweating, nausea, or fainting, those are warning signs to seek immediate medical attention.
+
+Would you like to discuss specific lifestyle changes or ways to manage your daily routine with this diagnosis?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 15
-- **Word Count**: 426
-- **Doctor Turns**: 8
-- **Patient Turns**: 7
-
-## EHR Summary
-
-The patient is a 48-year-old man presenting with new onset dyspnea on exertion and angina. Symptoms included shortness of breath and chest pain with activity, prompting cardiac catheterization which revealed two-vessel coronary artery disease and an ejection fraction of 40%. His past medical history is significant for hypercholesterolemia, and he was taking Gemfibrozil, Atenolol, and Aspirin. On examination, cardiac catheterization showed significant stenoses in the LAD and RCA, and postoperative ejection fraction improved to 50-55%. The documented diagnosis was coronary artery disease requiring revascularization. He underwent coronary artery bypass grafting (CABG) times three (LIMA to LAD, left radial to D1, saphenous vein graft to PDA). Postoperatively, he developed a fever with sputum cultures positive for gram negative rods, treated with Levofloxacin, and had one episode of epigastric pain with right bundle branch block on EKG but no evidence of myocardial infarction. The patient recovered well and was transferred to the floor by postoperative day three.
-
-## Dialogue Summary
-
-The patient presented with shortness of breath on exertion and intermittent chest pain. Symptoms included exertional dyspnea, chest discomfort described as pressure, and epigastric pain, all of which typically occurred during activity and resolved within a few minutes of rest; the patient also reported a mild fever but denied nausea, lightheadedness, or sweating. The symptoms had been present for several days and had remained stable without significant improvement or worsening. No relevant past medical history, medications, or allergies were mentioned. The doctor noted that the chest and epigastric discomfort were exertional, gradual in onset, and relieved by rest. No explicit assessment or working diagnosis was stated during the conversation. No specific treatment plan or recommendations were provided in the dialogue.
-
-## STS Evaluation
-
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
+- **Turn Count**: 19
+- **Word Count**: 766
+- **Doctor Turns**: 10
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 55.6s
+- **Processing Time**: 80.3s

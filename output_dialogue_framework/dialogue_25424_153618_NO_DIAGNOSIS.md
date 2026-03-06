@@ -16,88 +16,89 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.980
+- Score: 0.925
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.980
-- **Justification**: The dialogue is highly consistent with the provided patient profile and case type. The doctor asks logical, stepwise questions about the patient's symptoms, focusing on the nature, timing, and associated features of chest discomfort and shortness of breath. The patient responses align with the documented symptoms and diagnoses. The doctor's summary and advice are appropriate for a light, common case with chronic but concerning symptoms, and no unsupported diagnoses or treatments are introduced.
+- **Score**: 0.925
+- **Justification**: Combined score 0.92 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.88 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.882 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, occasional uncertainty or elaboration (e.g., 'I'm not sure exactly when it started') could be included.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor is thorough and empathetic. For improvement, the doctor could briefly review the patient's known cardiac history or medications to reinforce continuity of care.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with smooth transitions between topics. Adding a closing summary or next steps (e.g., 'We'll arrange some tests' or 'Let's review your medications') would enhance completeness.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The doctor appropriately advises caution and when to seek urgent care. Clarity is high throughout.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What’s been bothering you or bringing you in for a visit?
+**Doctor**: Hello, it's nice to meet you today. What brings you in, and how have you been feeling lately?
 
-**Patient**: I've been having some trouble catching my breath lately, and it's making me a bit anxious. That's the main reason I wanted to come in today.
+**Patient**: It's nice to meet you too. Lately, I've been having a hard time catching my breath, and my chest feels uncomfortable. That's really why I came in today.
 
-**Doctor**: Let me ask about the shortness of breath—does it tend to come on when you’re active, or do you notice it even when you’re resting?
+**Doctor**: Let me ask about your breathing—does it become harder during physical activity, or does it happen even when you're resting?
 
-**Patient**: It’s definitely worse when I’m moving around, like trying to walk up stairs. I don’t really notice it much when I’m just sitting still.
+**Patient**: Going up a flight of stairs makes it much worse. I notice the shortness of breath more with activity, but lately it can happen even when I’m just sitting.
 
-**Doctor**: Let me ask about any other symptoms—have you noticed any chest discomfort, cough, or swelling in your legs along with this trouble catching your breath?
+**Doctor**: Let me ask about the chest discomfort—can you describe what it feels like? Is it sharp, dull, tight, or something else?
 
-**Patient**: Yes, I’ve had some chest discomfort along with the shortness of breath. I haven’t noticed any cough or swelling in my legs, though.
+**Patient**: The discomfort feels more like a tightness or pressure, not really sharp. Sometimes it spreads to my left arm too, and that makes me more worried.
 
-**Doctor**: Got it. Can you describe what the chest discomfort feels like—would you say it’s sharp, pressure-like, or more of a dull ache? And does it spread anywhere, like to your arm or jaw?
+**Doctor**: Let me ask about the left arm sensation—when did you first notice it spreading to your arm, and does it come and go or stay constant?
 
-**Patient**: It feels more like a pressure in my chest, not really sharp. Sometimes I get pain in my left arm and even in my jaw along with it.
+**Patient**: I first noticed it a few months ago, I think. The pain in my arm isn’t always there—it comes and goes, usually with the chest discomfort.
 
-**Doctor**: Alright. When did you first start noticing the chest pressure and the discomfort in your arm and jaw? Has this been going on for days, weeks, or longer?
+**Doctor**: Alright. Have you noticed any sweating, nausea, or lightheadedness when the chest tightness and arm discomfort occur?
 
-**Patient**: I think it’s been going on for a few months now. The chest pressure and the pain in my arm and jaw seem to come and go, but it’s been more noticeable lately.
+**Patient**: I've definitely noticed sweating when it happens, and I feel weak. I don't think I've had any nausea or lightheadedness with it.
 
-**Doctor**: Alright. When you get this chest pressure and discomfort, do you ever notice breaking out in a sweat or feeling unusually clammy?
+**Doctor**: Alright. Does anything in particular seem to make the chest tightness or arm discomfort better or worse—like resting, taking deep breaths, or changing position?
 
-**Patient**: Yes, I do break out in a sweat when I get the chest pressure and discomfort. It makes me feel kind of weak, too.
+**Patient**: Resting usually helps ease the tightness and arm discomfort. Activity, like climbing stairs, definitely makes it worse. Changing position or deep breaths don’t seem to make much difference.
 
-**Doctor**: Let me ask about the timing—when these episodes happen, how long do they usually last before they go away?
+**Doctor**: I see. How would you rate the tightness or discomfort in your chest, on a scale from 1 to 10, when it’s at its worst?
 
-**Patient**: Most of the time, the episodes last several minutes before they ease up. Sometimes it feels longer if I’m more active.
+**Patient**: At its worst, I’d rate the chest tightness around an 8 out of 10. It can get pretty uncomfortable.
 
-**Doctor**: Let me ask about your left arm pain—when it happens, is it a dull ache, tingling, or more of a heaviness? And does it start at the same time as the chest pressure or come on afterward?
+**Doctor**: Let me ask about the arm discomfort—where exactly do you feel it in your left arm? Is it more in your shoulder, upper arm, or down toward your hand?
 
-**Patient**: It’s more of a dull ache in my left arm, and it usually starts at the same time as the chest pressure. Sometimes the jaw pain comes along with it, too.
+**Patient**: The discomfort is mostly in my upper left arm and sometimes around my shoulder. It doesn’t usually go all the way down to my hand.
 
-**Doctor**: Based on what we've discussed, your symptoms—especially the chest pressure that comes with exertion, spreads to your arm and jaw, and is accompanied by sweating and weakness—sound like they could be related to your heart. When these types of symptoms come on with activity and ease with rest, it can sometimes indicate that the heart isn’t getting enough oxygen during exertion, which is known as angina.
+**Doctor**: Based on what we've discussed, your symptoms—especially the chest tightness that worsens with activity and improves with rest, along with discomfort spreading to your upper left arm and sweating—are commonly seen in conditions related to the heart, such as angina. Angina happens when the heart muscle doesn't get enough oxygen-rich blood, often triggered by physical exertion. The pattern you describe fits this mechanism.
 
-While there are other possible causes, the pattern you’ve described is something we take seriously, even if it’s been going on for months. It’s important to rule out any underlying heart issues.
+While this is a common and manageable issue, it's important to monitor for any changes, such as chest discomfort that doesn't go away with rest, severe weakness, or new symptoms like nausea or fainting. If those occur, seek urgent care.
 
-For now, I recommend you avoid strenuous activity until we have a clearer picture. If you ever notice the discomfort lasting longer than usual, not going away with rest, or if you develop new symptoms like severe shortness of breath, fainting, or nausea, seek medical attention immediately.
+For now, pacing your activities and avoiding strenuous exertion can help. Let me know if you have questions about what angina means or how to manage it. Would you like to talk more about next steps or lifestyle adjustments?
 
-Let’s talk about your daily routine—has this been limiting what you’re able to do, or are you still able to manage most activities?
+**Patient**: Thank you for explaining that. What kinds of changes should I make to my daily routine or activities to help manage this?
 
-**Patient**: Yes, it’s definitely been limiting what I can do. I haven’t been able to walk up a flight of stairs without feeling weak and sweaty, and I get out of breath much more easily than I used to. Most days I have to take it slow.
+**Doctor**: From what you've told me, your symptoms—especially the chest tightness with activity, upper arm discomfort, and sweating—suggest that your heart may not be getting enough oxygen when it's under stress. This is typically what happens in angina, which is a common condition where narrowing of the heart's blood vessels limits blood flow during exertion.
+
+The main goal is to reduce strain on your heart. That means pacing yourself: avoid sudden or strenuous physical activity, take breaks when climbing stairs or walking uphill, and listen to your body if you start feeling tightness or pressure. Stress management and keeping your routine gentle can also help.
+
+It's important to note that if the discomfort ever becomes severe, lasts longer than usual, or doesn't improve with rest, you should seek medical attention right away.
+
+Would you like to discuss ways to gradually increase activity safely, or talk about other lifestyle adjustments that could support your heart health?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 655
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 725
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is an elderly female presenting with acute onset shortness of breath and left arm pain/chest discomfort. Symptoms began while lying in bed, accompanied by diaphoresis, severe hypertension (BP 200/110), tachypnea (RR 40s), and hypoxemia (O2 saturation 92% on NRB). She has a history of diastolic dysfunction, congestive heart failure (CHF), sick sinus syndrome status post pacemaker, atrial tachycardia/flutter, hypertension, hypothyroidism, hypercholesterolemia, and gout; she recently stopped taking furosemide due to nocturia. On exam, she was in mild respiratory distress with elevated jugular venous pressure, crackles halfway up the lungs, but no peripheral edema. The clinical impression was acute decompensated heart failure. Treatment included nitroglycerin (sprays and infusion), intravenous furosemide (total 80 mg), BIPAP support, and diuresis (1100 cc output), resulting in improved blood pressure and respiratory status. She was weaned off BIPAP and transferred to the CCU for further management.
-
-## Dialogue Summary
-
-The patient presented with trouble catching their breath, which has been causing anxiety. Symptoms include shortness of breath that worsens with exertion (such as walking up stairs) but is not present at rest, chest discomfort described as pressure, and episodes of dull ache in the left arm and jaw occurring simultaneously with chest pressure. The patient also reported sweating and weakness during these episodes, which have been occurring for several months and typically last several minutes, especially with activity. No cough or leg swelling was noted. The doctor assessed that the pattern of exertional chest pressure radiating to the arm and jaw, accompanied by sweating and weakness, may indicate angina and warrants further evaluation for possible heart issues. The patient stated these symptoms have limited daily activities and ability to walk up stairs. The doctor advised avoiding strenuous activity until further assessment and instructed the patient to seek immediate medical attention if symptoms worsen, persist with rest, or new symptoms such as severe shortness of breath, fainting, or nausea develop.
-
-## STS Evaluation
-
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 57.1s
+- **Processing Time**: 97.9s

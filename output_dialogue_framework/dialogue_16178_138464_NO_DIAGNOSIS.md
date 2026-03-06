@@ -16,88 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.910
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is highly consistent with a preoperative evaluation for a patient with significant cardiac history but in a stable, non-acute setting. The doctor asks appropriate, open-ended and focused questions about symptoms, functional status, and risk factors. The patient responses are plausible and align with the provided profile. The doctor's explanations are clear, educational, and do not introduce unsupported diagnoses or interventions. There are no hallucinations or contradictions.
+- **Score**: 0.910
+- **Justification**: Combined score 0.91 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.83 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.833 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides relevant, clear answers and shares symptom progression and concerns. For even greater realism, the patient could mention specific medications or ask about perioperative instructions (e.g., fasting, medication adjustments), but this is not required.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. To further enhance realism, the doctor could briefly mention reviewing medications or recent labs as part of the preoperative process, or ask about diabetes/hypertension control given the patient's comorbidities.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, moving from symptom assessment to functional status and education. The transition to discussing deconditioning is smooth. Consider closing with a summary or explicit invitation for further questions.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The advice to monitor for worsening symptoms and when to seek help is appropriate. The explanation of symptoms and reassurance is clear.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's nice to see you today. What brings you in, and how have you been feeling lately?
+**Doctor**: Welcome, it's nice to see you today. What’s been bothering you or bringing you in for a visit?
 
-**Patient**: I’m here for the preoperative evaluation before my heart surgery. Lately, my chest has been hurting more than usual.
+**Patient**: Thank you for seeing me. Lately, I’ve been having chest pain and it’s been worrying me, especially since I’m supposed to have surgery soon.
 
-**Doctor**: Let me ask about your chest pain—can you point to where you feel it most? Is it sharp, dull, or more of a pressure sensation?
+**Doctor**: Let me ask about your experience—how much is this chest pain affecting your daily activities or routines?
 
-**Patient**: It’s mostly right in the center of my chest. It feels more like a pressure than anything sharp.
+**Patient**: It’s made things a lot harder. Even simple things like getting up or moving around are more difficult because of the pain.
 
-**Doctor**: Let me ask about how long these episodes of pressure have been happening. Is it something new, or has it been going on for a while?
+**Doctor**: Let me ask about other symptoms—have you noticed any swelling in your legs, shortness of breath when lying down, or episodes where your heart feels like it’s racing or fluttering?
 
-**Patient**: I’ve had these chest pressure episodes for a while now, not just recently. I can’t remember exactly when they started, but it’s been going on for some time.
+**Patient**: I have had times where my heart feels like it’s fluttering or beating out of rhythm. There have also been episodes where I felt really short of breath, almost like my heart wasn’t keeping up. I don’t remember noticing any swelling in my legs.
 
-**Doctor**: Let me ask about what tends to bring on these episodes—do you notice if they happen more when you’re active, or do they also come on when you’re resting?
+**Doctor**: Let me ask about the timing—when did you first start noticing these episodes, and have they been getting more frequent or severe over time?
 
-**Patient**: Being active definitely makes it worse, but I’ve also noticed it sometimes happens when I’m just sitting or lying down.
+**Patient**: I can’t remember the exact time it started, but it feels like these episodes have been happening more often lately, and they seem to last longer than before.
 
-**Doctor**: Alright. Have you noticed any swelling in your legs or ankles, or have you felt more short of breath than usual lately? Sometimes these can be signs that the heart is under extra strain.
+**Doctor**: Alright. Does anything in particular seem to bring on these episodes—like physical activity, stress, or eating a meal—or do they happen randomly?
 
-**Patient**: I have felt more short of breath lately, and my legs have been a bit swollen at times. It seems like these symptoms have gotten a little worse over the past few weeks.
+**Patient**: They seem to come on mostly when I’m moving around, like getting up or walking. Sometimes it just happens out of nowhere too, but physical activity definitely makes it worse.
 
-**Doctor**: Got it. How would you rate the severity of the chest pressure when it happens—would you say it’s mild, moderate, or severe? And does it ever wake you up at night?
+**Doctor**: Okay. When these episodes happen, do you ever feel lightheaded or like you might faint?
 
-**Patient**: I’d call it moderate most of the time. It hasn’t woken me up at night, though—I usually notice it more during the day.
+**Patient**: Sometimes I do feel a bit lightheaded during those episodes, but I’ve never actually fainted. It just makes me feel weak and a little unsteady.
 
-**Doctor**: Let me ask about your daily routine—are you able to do things like walking around the house or climbing stairs, or do you find yourself needing to stop and rest more often than before?
+**Doctor**: Got it. When these episodes happen, do you ever experience any chest tightness, pressure, or pain spreading to your arm, neck, or jaw?
 
-**Patient**: I’ve definitely had to stop and rest a lot more than I used to, even just walking around the house. Climbing stairs is especially tough for me right now.
+**Patient**: Yes, I do get chest tightness and pressure during these episodes. The pain mostly stays in my chest and doesn’t really spread to my arm, neck, or jaw.
 
-**Doctor**: Got it. Tell me more about whether you've ever felt lightheaded or dizzy during these episodes of chest pressure or shortness of breath.
+**Doctor**: Let me ask about how long these episodes usually last—are we talking about a few minutes, or do they go on for much longer? And after they resolve, do you feel back to normal, or does the weakness linger?
 
-**Patient**: Yes, I have felt lightheaded during some of these episodes, especially when my atrial fibrillation acts up. I haven’t actually fainted, but it does make me feel unsteady.
+**Patient**: Most of the time, these episodes last several minutes, but sometimes they go on longer. Even after they stop, I still feel weak and tired for quite a while.
 
-**Doctor**: Based on what we've discussed, it sounds like your symptoms—chest pressure, increasing shortness of breath, swelling in your legs, and occasional lightheadedness—are all signs that your heart is under some extra stress. These can be common as people prepare for heart surgery, especially if there's underlying heart failure or rhythm issues like atrial fibrillation.
+**Doctor**: Based on what we've discussed, your symptoms—chest tightness and pressure with activity, episodes of feeling your heart fluttering or beating out of rhythm, and lingering weakness—suggest that your heart may not always be pumping as efficiently as it should. These episodes coming on with exertion and sometimes at rest, along with lightheadedness, can sometimes be seen in conditions where the heart’s rhythm is irregular or where the heart is under extra strain.
 
-What often happens in these cases is that the heart isn't pumping as efficiently, which can lead to fluid buildup and make physical activity more difficult. It's good that you haven't had severe pain or fainting, but it's important to keep monitoring these symptoms.
+Often, these symptoms are caused by common issues like abnormal heart rhythms (such as atrial fibrillation) or the heart struggling to keep up with your body’s demands (sometimes called heart failure). The fact that you’re awaiting surgery makes it especially important to get a clear understanding of what’s going on.
 
-For now, try to pace yourself with activities, keep your feet elevated when resting to help with swelling, and let your surgical team know if you notice any sudden worsening—like severe chest pain, trouble breathing while lying flat, or confusion. These would be reasons to seek help right away.
+What I’d recommend is that we arrange for some tests—like an EKG to look at your heart rhythm and perhaps some blood work or an echocardiogram—to pinpoint the cause. In the meantime, pay close attention for any new symptoms, such as worsening shortness of breath at rest, swelling in your legs, or pain spreading beyond your chest. If any of those occur, seek medical attention promptly.
 
-Let me know if you have any questions about what to expect as you get ready for surgery, or if there are specific concerns you'd like to discuss further.
+Let me know if you have questions about what I’ve explained or about the next steps.
 
-**Patient**: Thank you, that helps me understand what’s going on. I have noticed I’ve gotten weaker from being in bed so much, especially with the atrial fibrillation episodes. Is there anything I can do before surgery to help with the deconditioning?
+**Patient**: Thank you for explaining all of that. If these tests show something with my heart rhythm or how my heart is working, will that change anything about my surgery or the way I need to manage things before then?
+
+**Doctor**: From what you've told me, it sounds like your heart may be under some strain—possibly related to an irregular rhythm or difficulty keeping up during activity. This is important because, if these tests show that your heart is having trouble or has an abnormal rhythm, it could change the timing or approach for your upcoming surgery. Your surgical team would want to make sure your heart is as stable as possible to minimize risks during and after the operation.
+
+If we find something that needs treatment—like a rhythm issue or signs that your heart isn’t pumping well—there are often medications or other strategies we can use to help your heart work better before surgery. Sometimes, the surgery might need to be delayed until things are under better control, but not always.
+
+In the meantime, try to avoid activities that bring on these episodes, and let your surgical team know about your symptoms right away. If you develop new or worsening symptoms like fainting, sudden severe shortness of breath, or swelling in your legs, seek care promptly.
+
+Do you have any questions about how this might affect your surgery or anything else you’d like to discuss?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 658
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 880
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 73-year-old female presenting preoperatively for elective mitral valve replacement and coronary artery bypass graft surgery. She reported recurrent episodes of congestive heart failure and chest pain prior to admission. Her medical history includes noninsulin dependent diabetes mellitus and hypertension, and she is allergic to penicillin. On admission, physical examination was unremarkable with no acute distress, clear lungs, regular heart rhythm, and no jugular venous distension. The patient underwent coronary artery bypass grafting (two vessels) and mitral valve replacement. Postoperatively, she required mechanical ventilation and Levophed for hypotension but was successfully weaned and extubated on postoperative day one. The documented diagnoses were congestive heart failure and coronary artery disease requiring surgical intervention. Treatment included surgical procedures, perioperative support with vasopressors, and ventilatory assistance.
-
-## Dialogue Summary
-
-The patient presented for a preoperative evaluation before heart surgery, reporting increased chest pressure. The chest pressure is centrally located, described as a pressure sensation rather than sharp pain, has been present for some time, and is typically moderate in severity; it worsens with activity but can also occur at rest and does not wake the patient at night. The patient also reported increased shortness of breath, leg swelling that has worsened over the past few weeks, greater difficulty with daily activities such as walking and climbing stairs, and episodes of lightheadedness (especially during atrial fibrillation), though no fainting. Relevant history includes atrial fibrillation and recent deconditioning due to bed rest; no medication or allergy details were provided. On review, the doctor noted symptoms consistent with heart failure and rhythm disturbance, including fluid retention and reduced exercise tolerance. The assessment was that these symptoms indicate the heart is under extra stress, which is common before heart surgery in the context of underlying heart failure or atrial fibrillation. The doctor advised the patient to pace activities, elevate feet when resting to reduce swelling, and to notify the surgical team of any sudden worsening such as severe chest pain, difficulty breathing while lying flat, or confusion. The patient expressed understanding and asked about managing deconditioning prior to surgery.
-
-## STS Evaluation
-
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 57.0s
+- **Processing Time**: 89.3s

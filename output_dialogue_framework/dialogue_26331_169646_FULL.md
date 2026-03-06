@@ -16,88 +16,85 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.765
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about the patient's neurological symptoms and provides a reasonable explanation and plan based on the information given. There are no unsupported diagnoses, treatments, or test orders beyond what is justified by the context. The conversation maintains a primary-care tone and avoids introducing severe interventions inappropriate for a light case. The patient responses are coherent and match the described symptoms.
+- **Score**: 0.765
+- **Justification**: Combined score 0.76 (naturalness=0.70 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.62 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.700 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.615 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and appropriately expresses concern. For even greater realism, the patient could mention any prior history with their tumor or clarify if they are already under specialist care.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. For improvement, the doctor could briefly check for medication adherence or side effects (e.g., antiepileptics), or clarify if the patient has had prior imaging or neurology follow-up.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with clear transitions between symptom exploration, explanation, and next steps. The closing could include a brief summary or confirmation of understanding.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: The doctor appropriately advises on red flag symptoms and the need for urgent care if these develop. The safety netting is clear. For completeness, the doctor could confirm whether the patient is safe to go home alone or needs immediate evaluation.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome—how have you been feeling lately, and what brings you in today?
+**Doctor**: Hello, good to see you today. How have things been going for you lately? Is there anything new or concerning you'd like to talk about?
 
-**Patient**: I've been feeling pretty concerned because my left arm has gotten weaker lately. That's mainly why I came in.
+**Patient**: Lately, I've noticed my left arm has been getting weaker. That's been worrying me the most.
 
-**Doctor**: Let me ask about the timing—when did you first notice the weakness in your arm, and has it been getting worse, staying the same, or improving since then?
+**Doctor**: Let me ask about when you first noticed this change—how long has your arm been feeling weaker, and has it been getting worse over time?
 
-**Patient**: I'm not exactly sure when it started, but the weakness has definitely been getting worse over time.
+**Patient**: I'm not sure exactly when it started, but the weakness has definitely been getting worse over time. It’s been harder to use my left arm lately.
 
-**Doctor**: Let me ask about any other changes—have you noticed feeling more tired or sleepy than usual, or any trouble staying alert during the day?
+**Doctor**: Let me ask about other changes—have you noticed any issues with coordination, numbness, or changes in sensation in your arm or anywhere else?
 
-**Patient**: Yes, I've definitely been feeling more sleepy than usual lately. It's getting harder to stay alert during the day.
+**Patient**: I haven't had any numbness or changes in sensation. It's mainly just the weakness in my left arm that's been getting worse.
 
-**Doctor**: Got it. How much is the weakness and sleepiness affecting your ability to do everyday tasks, like getting dressed, eating, or working?
+**Doctor**: Let me ask about your energy levels—have you felt more tired or sleepy than usual lately, even during the day?
 
-**Patient**: It's definitely making things harder. Simple tasks like getting dressed or eating take more effort now, and I feel tired a lot of the time.
+**Patient**: Actually, I have been feeling a lot more sleepy than usual, even during the day. It’s been harder to stay awake sometimes.
 
-**Doctor**: Let me ask about any other changes—have you had any recent headaches, vision changes, or trouble with your speech? These can sometimes help us understand what's going on.
+**Doctor**: Alright. Have you noticed any problems with your speech, vision, or balance along with these changes?
 
-**Patient**: I actually had a generalized tonic clonic seizure recently. I haven’t had any headaches, vision changes, or trouble with my speech.
+**Patient**: I haven’t noticed any problems with my speech, vision, or balance. It’s really just the weakness in my left arm and feeling more tired.
 
-**Doctor**: Alright. Have you noticed any numbness, tingling, or loss of sensation in your left arm, or is it mainly weakness?
+**Doctor**: Tell me more about how much this is affecting your ability to do everyday tasks—are there things you’re finding harder or unable to do now because of the weakness or tiredness?
 
-**Patient**: It's mainly weakness in my left arm. I haven't noticed any numbness or tingling.
+**Patient**: Using my left arm for daily things like lifting or carrying has gotten a lot harder. The tiredness also makes it tough to get through the day without needing to rest more often.
 
-**Doctor**: Let me ask about your sleep—are you able to wake up easily in the morning, or do you feel unusually groggy or confused when you first get up?
+**Doctor**: Let me ask about your sleep—are you getting a full night's rest, or do you feel tired even after sleeping? And do you ever wake up gasping or feeling short of breath at night?
 
-**Patient**: Most mornings I feel unusually groggy and it takes me a while to fully wake up. I haven’t really felt confused, just really tired.
+**Patient**: Even after a full night's sleep, I still feel really tired during the day. I haven’t had any episodes of waking up gasping or short of breath at night.
 
-**Doctor**: I see. Has anything in particular seemed to trigger or worsen the weakness or sleepiness, like physical activity, certain times of day, or changes in your routine?
+**Doctor**: Got it. When you try to use your left arm, do you notice any muscle twitching, cramping, or visible shrinking of the muscles compared to your right side?
 
-**Patient**: Physical activity seems to make the weakness a bit worse, but otherwise there’s nothing specific that triggers it. The sleepiness is pretty much there all the time.
+**Patient**: I haven’t noticed any twitching, cramping, or muscle shrinking in my left arm. It just feels weaker compared to my right side.
 
-**Doctor**: Based on what we've discussed, there are a few things standing out to me. The combination of gradually worsening difficulty with movement in your arm, increased sleepiness during the day, and a recent seizure suggests that something might be affecting your brain’s ability to control movement and alertness. Sometimes, issues like this can be caused by changes in the brain such as a growth, inflammation, or other neurological problems.
+**Doctor**: Based on what we've discussed, it sounds like you've been experiencing a gradually worsening weakness in your left arm and increasing daytime sleepiness, even though you're sleeping through the night. Since you haven't noticed any numbness, cramping, or changes in speech or balance, this pattern suggests the problem might be related to nerve or muscle function rather than something affecting your entire nervous system.
 
-What often happens in these cases is that as the affected area of the brain becomes more involved, you can develop symptoms like trouble with coordination or staying awake, and seizures can occur if the brain’s electrical activity is disrupted.
+Sometimes, worsening weakness on one side can be due to issues in the nerves supplying the arm, problems with the muscles themselves, or occasionally something higher up like in the brain or spinal cord. The increased sleepiness could be related or could have a separate cause, such as a change in your sleep quality that isn’t obvious, certain medications, or underlying medical conditions.
 
-Given these symptoms, I recommend seeking further evaluation soon—ideally with brain imaging (like an MRI or CT scan) and a neurological assessment. These tests can help identify the cause and guide treatment. In the meantime, make sure you have someone around you for support, especially if you have another seizure or feel much more tired than usual.
+It's important to pay attention to whether anything specific seems to trigger the weakness or tiredness—like activity, time of day, or certain positions. If you notice anything like that, let me know. Also, if you develop new symptoms such as changes in speech, vision, severe headache, or trouble walking, those would be reasons to seek care more urgently.
 
-If you notice any new symptoms—like trouble speaking, severe headache, sudden confusion, or weakness spreading to other areas—those would be reasons to seek urgent care right away. Would you like guidance on how to arrange follow-up, or do you have any questions about what we’ve discussed?
+For now, I'd recommend keeping track of when the weakness and sleepiness are most noticeable and if they continue to worsen. If possible, try to avoid activities that could put you at risk of injury due to the arm weakness. Let’s also review your current medications and any recent changes in your health at your next visit, as these could play a role.
 
-**Patient**: Thanks for explaining all that—it helps to know what might be going on. I’d appreciate some guidance on how to set up the follow-up and what to expect with the tests.
+Would you like to discuss strategies for managing fatigue during
+
+**Patient**: Thanks for explaining all that. I should also mention that I had a generalized tonic clonic seizure recently, but it was controlled with Ativan and Dilantin. If you have suggestions for managing the fatigue, I'd like to hear them.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 622
+- **Word Count**: 717
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 51-year-old male presenting with persistent drainage from a scalp incision and increasing headache following resection of a frontal astrocytoma with Gliadel placement. He reported ongoing drainage from the surgical site, worsening headaches (sometimes relieved by Percocet), and episodes of nausea. His past medical history includes steroid-induced diabetes, prior tumor resections, radiation therapy, tracheostomy removal, tonsillectomy, and adenoidectomy. On evaluation, wound cultures grew gram-positive cocci, and he was neurologically intact with full muscle strength. The documented diagnosis was wound infection at the surgical site with associated increased intracranial pressure due to cerebrospinal fluid accumulation. Treatment included surgical incision and drainage with removal of the cranial bone flap, placement of a vent drain for decompression, and intravenous Vancomycin for infection. The patient’s wound remained full but without leakage after drain clamping; subsequent mental status changes were noted later in the course.
-
-## Dialogue Summary
-
-The patient presented with gradually worsening weakness in the left arm. The weakness has been progressive over time and is exacerbated by physical activity; there is no associated numbness or tingling. The patient also reported increased daytime sleepiness, difficulty staying alert, and feeling unusually groggy most mornings, though without confusion. These symptoms have made everyday tasks such as dressing and eating more difficult. The patient disclosed a recent generalized tonic clonic seizure but denied headaches, vision changes, or speech difficulties. No relevant medical history, medications, or allergies were mentioned. The doctor assessed that the combination of worsening arm weakness, increased sleepiness, and recent seizure may indicate a neurological issue affecting brain function, such as a growth, inflammation, or other problem. The doctor recommended prompt further evaluation with brain imaging (MRI or CT scan) and neurological assessment, advised having support available in case of another seizure or increased sleepiness, and instructed the patient to seek urgent care if new symptoms like speech trouble, severe headache, sudden confusion, or spreading weakness occur.
-
-## STS Evaluation
-
-- **STS Score**: 0.928
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 62.0s
+- **Processing Time**: 83.2s

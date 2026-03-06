@@ -10,189 +10,105 @@
 
 ## Generation Attempts
 
-- **Total Attempts**: 2
-- **Best Attempt**: 2
+- **Total Attempts**: 1
+- **Best Attempt**: 1
 
 ### Attempt 1
-- Success: False
-- Decision: UNREALISTIC
-- Score: 0.400
-
-### Attempt 2
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.900
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is consistent with the provided patient profile and case type. The doctor appropriately considers the patient's diabetes and risk for DKA, gives reasonable advice about monitoring symptoms, and does not introduce unsupported diagnoses or treatments. The patient responses are plausible and match the symptom profile. There are no obvious hallucinations or contradictions. The conversation is repetitive in later turns but remains coherent and role-appropriate.
+- **Score**: 0.900
+- **Justification**: Combined score 0.90 (naturalness=0.90 ×0.4, profile_compliance=0.80 ×0.3, ragas_faithfulness=1.00 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 0.800 |
+| RAGAS Faithfulness | 1.000 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are consistent and realistic, but could be more concise and avoid repeating the same symptom list in every turn.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: Doctor provides appropriate guidance and safety netting, but could vary responses more and ask follow-up questions to avoid repetition and maintain engagement.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The dialogue becomes repetitive after the initial assessment, with both sides restating symptoms and advice. Consider limiting the number of turns or introducing closure earlier to avoid redundancy.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No major safety concerns; advice is clear and appropriate for a light case with DKA risk. Doctor could clarify when to seek urgent care more explicitly in later turns.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Based on what we've discussed so far, it sounds like you've been having some sharp abdominal pain that hasn't been accompanied by typical signs of infection like fever or changes in your bowel movements. When I hear about abdominal pain, I think about a range of possible causes—from digestive issues to muscle strain, or even something related to the urinary or reproductive systems. The fact that your pain has shifted sides and isn't radiating is also important information.
+**Doctor**: Welcome! What brings you in today, and how have you been feeling lately?
 
-Let me walk you through my thinking: For most young adults, common causes include things like mild gastritis, muscle aches, or even ovarian-related discomfort. However, we also want to be cautious about anything more serious. Since you haven't mentioned severe symptoms like persistent vomiting, high fever, or severe tenderness, this is somewhat reassuring.
+**Patient**: I've been feeling pretty sick lately, mostly just really tired and out of it. That's the main thing that brought me in.
 
-Still, if the pain becomes much worse, you develop new symptoms like vomiting, blood in your stool or urine, or if you feel faint or very unwell, those could be warning signs needing urgent attention. For now, monitoring your symptoms, staying hydrated, and noting any patterns or triggers would be helpful.
+**Doctor**: Let me ask about other symptoms—have you noticed any nausea or stomach upset along with feeling tired?
 
-If you have any chronic conditions like diabetes, or if you're on any medications, let me know—sometimes these can change what we need to look out for. Otherwise, if your symptoms persist or worsen, it's best to get checked in person to make sure nothing more serious is going on.
+**Patient**: Yeah, I've had some nausea and my stomach's been hurting pretty bad. The pain started on the right side and then moved over to the left.
 
-**Patient**: Thanks for explaining all that. I do have type 1 diabetes and I’m on insulin, so I’m always a little extra careful when things feel off. I’ve also had some chills along with the abdominal pain. Does that change anything in terms of what I should watch for?
+**Doctor**: Let me ask about other symptoms—have you had any vomiting, or just nausea so far?
 
-**Doctor**: Let me share my thoughts based on everything you've told me. Since you have type 1 diabetes and you're noticing abdominal pain with chills, it's important to be a bit more cautious. People with diabetes can sometimes develop infections or other complications more easily, and symptoms like chills may suggest your body is fighting something off—even if you don't have a high fever.
+**Patient**: I've actually been vomiting too, not just feeling nauseous. The stomach pain and just feeling really unwell have been a lot to handle.
 
-What I'm thinking about here are two main things: First, making sure your blood sugars are staying in range, since illness or infection can sometimes make them harder to control. Second, watching for any signs that could point to a more significant infection, such as urinary tract issues or even something like diabetic ketoacidosis (DKA), which can sometimes start with vague symptoms like abdominal pain and chills.
+**Doctor**: Got it. How much is the stomach pain and feeling unwell affecting your day-to-day activities—are you able to eat, work, or do your usual routines, or has this really slowed you down?
 
-Here’s what I recommend: keep a close eye on your blood sugar readings, check for ketones if you have the means and your sugars are running high, and watch for warning signs like vomiting, rapid breathing, confusion, or severe dehydration. If any of those occur, it would be important to seek care right away.
+**Patient**: Honestly, it's really slowed me down. I haven't been able to eat much and just feel too wiped out to do anything normal.
 
-Otherwise, rest, hydration, and monitoring your symptoms are key. If things aren't improving in the next day or two—or if you notice new symptoms—getting checked in person would be the safest approach.
+**Doctor**: Let me ask about the timing—when did all of this start, and has it been getting worse, staying about the same, or improving since it began?
 
-**Patient**: Thanks, that’s helpful. I’ll keep checking my blood sugars and ketones like you said. If the pain or vomiting gets worse, I’ll come in. For now, I’ll try to rest and stay hydrated.
+**Patient**: I'm not exactly sure when it started, but I think it's been getting worse. The pain and feeling sick haven't really let up.
 
-**Doctor**: Feel free to reach out if anything changes or you have new concerns. Take care.
+**Doctor**: Alright, have you noticed any fevers, chills, or sweating along with feeling unwell?
 
-**Patient**: Thanks, I appreciate it. I’ll keep an eye on my symptoms and reach out if anything changes.
+**Patient**: I've had chills, but I haven't noticed any fevers or sweating.
 
-**Doctor**: Absolutely, take care and don’t hesitate to reach out if you need anything further.
+**Doctor**: Let me ask about the pain—would you describe it as sharp, dull, or cramping? And is there anything that seems to make it better or worse, like eating, movement, or lying down?
 
-**Patient**: I've had nausea and vomiting along with the abdominal pain. The pain started on the right side and then moved to the left, but it's not radiating anywhere else.
+**Patient**: The pain is definitely sharp, not really cramping or dull. Nothing really seems to make it better or worse, and the nausea and vomiting are still there too.
 
-**Doctor**: Got it. If anything changes or you feel worse, don’t hesitate to seek care promptly.
+**Doctor**: I see. Have you noticed any changes in your bowel movements, like diarrhea or constipation, or has that been normal for you?
 
-**Patient**: I've been keeping track of my blood sugars and taking my insulin as usual. The abdominal pain is still there, but it hasn’t gotten worse. I’ll let you know if anything changes.
+**Patient**: My bowel movements have been normal—no diarrhea or constipation.
 
-**Doctor**: Alright, feel free to reach out if anything changes or you have new concerns.
+**Doctor**: From what you've told me, your main concerns are feeling very tired, sharp abdominal pain that started on the right and moved to the left, nausea, vomiting, and chills. You haven't had any changes in your bowel movements or noticed a fever.
 
-**Patient**: I've been feeling pretty wiped out and just want this to pass. If anything changes or I get new symptoms, I’ll let you know right away.
+Let me share my thoughts: When someone has abdominal pain that shifts from one side to another, along with nausea and vomiting, it can sometimes point to issues like a stomach infection, mild gastritis, or even something like a viral illness affecting the gut. The lack of diarrhea and constipation suggests it's not a typical stomach bug, and the absence of fever makes serious infection less likely. The sharp nature of the pain is important, but since you don't have other severe symptoms (like persistent high fever or blood in stool), this still fits with a light, common issue.
 
-**Doctor**: Got it. Wishing you a smooth recovery—reach out anytime if you need support.
+Most often, these symptoms resolve with rest, staying hydrated, and avoiding heavy foods. However, if the pain becomes severe, you get a high fever, or notice anything unusual like yellowing of your skin or eyes, it would be important to seek care quickly.
 
-**Patient**: Thanks, I appreciate it. I’ll keep monitoring my symptoms and let you know if anything new comes up.
+For now, I'd recommend sipping fluids regularly (water, oral rehydration solutions), resting as much as possible, and trying bland foods when you feel up to eating. If your symptoms persist or worsen over the next day or two, let us know.
 
-**Doctor**: Of course—wishing you a quick recovery.
+Based on all this, my assessment is that you're likely experiencing a mild gastrointestinal illness—sometimes called 'viral gastroenteritis' or 'stomach flu'. This is common
 
-**Patient**: The abdominal pain is sharp but not constant, and I haven’t noticed any fevers, diarrhea, or changes in my bowel movements. Drinking fluids helps a bit, but I still feel pretty uncomfortable.
+**Patient**: Thanks for explaining that. How long does something like viral gastroenteritis usually last, and is it normal to still have chills with it?
 
-**Doctor**: Got it. If anything feels different or more severe, please reach out promptly.
+**Doctor**: From what we've discussed, it’s quite common for viral gastroenteritis to cause general malaise and chills, even if you don’t have a fever. This happens because your body is reacting to the infection, which can leave you feeling wiped out and sometimes a bit cold.
 
-**Patient**: Yes, I’ll reach out if anything changes. Right now, I’m just dealing with the nausea, vomiting, chills, and sharp abdominal pain. Resting and drinking fluids seem to help a bit.
+Typically, symptoms like nausea, vomiting, and fatigue last anywhere from a couple of days up to about a week. Most people start feeling better within 3–5 days, but sometimes the tiredness can linger a bit longer as your body recovers.
 
-**Doctor**: Alright, feel free to check in anytime if you need further support.
+The key things to watch for are worsening pain, inability to keep fluids down, or new symptoms like a high fever or yellowing of the skin. If those happen, let us know right away.
 
-**Patient**: I've mostly been dealing with malaise, nausea, vomiting, chills, and the sharp abdominal pain. No fevers or changes in my bowel movements. Drinking fluids and resting have helped a little.
+Otherwise, rest, hydration, and gentle foods are your best approach. If you’re able to sip fluids and gradually eat bland foods as your stomach settles, that’s a good sign. Let me know if you have any other questions or concerns about your recovery.
 
-**Doctor**: Got it. Feel free to reach out if anything new develops or you need further support.
+**Patient**: Thanks, that helps clear things up. Is there anything I should avoid eating or drinking while I'm recovering?
 
-**Patient**: I've had chills, nausea, vomiting, and sharp abdominal pain, mostly without any other symptoms like fever or diarrhea. Staying hydrated and resting helps a bit, but I’m still pretty uncomfortable.
+**Doctor**: Let me share my thoughts. With viral gastroenteritis, your stomach and intestines are irritated, so it's best to avoid anything that might make that worse. For now, stick with clear fluids—like water, broth, or oral rehydration solutions—and avoid caffeine, alcohol, dairy, and anything greasy or spicy. As you start to feel better, you can try bland foods such as toast, rice, bananas, or applesauce. 
 
-**Doctor**: You're welcome. Feel free to reach out if anything changes or you have new concerns.
-
-**Patient**: I've had chills, nausea, vomiting, and sharp abdominal pain that moves from right to left. No fever or changes in my bowel movements. Drinking fluids and resting help a little, but I still feel pretty uncomfortable.
-
-**Doctor**: Got it. Feel free to reach out if anything changes or you need further support.
-
-**Patient**: I've had nausea, vomiting, chills, and sharp abdominal pain that started on the right and then moved to the left. No fever, diarrhea, or changes in my bowel movements. Staying hydrated and resting helps a bit.
-
-**Doctor**: Understood. If anything changes or you need support, I'm here.
-
-**Patient**: I've had chills, nausea, vomiting, and sharp abdominal pain for a bit now. The pain isn't constant and seems sharper at times, but I haven't noticed any fever or bowel changes. Drinking fluids helps slightly.
-
-**Doctor**: Okay. If you notice anything new or your symptoms
-
-**Patient**: I've had chills, nausea, vomiting, and sharp abdominal pain. No fever or changes in bowel movements. I'll reach out right away if anything gets worse or new symptoms pop up.
-
-**Doctor**: Absolutely—feel free to reach out anytime if you need to.
-
-**Patient**: The pain started on the right side and then switched to the left, but it hasn’t spread anywhere else. I haven’t had any fever, diarrhea, or constipation. Drinking fluids helps a little, but I still feel pretty uncomfortable with the nausea and vomiting.
-
-**Doctor**: Got it. Feel free to reach out if anything changes or you need anything further.
-
-**Patient**: The pain isn’t constant, and I haven’t had any fever, diarrhea, or constipation. Nausea and vomiting are still bothering me, but staying hydrated does help a bit.
-
-**Doctor**: Of course. Feel free to check in anytime if you need anything else.
-
-**Patient**: I've had nausea, vomiting, chills, and sharp abdominal pain. The pain started on the right side, then moved to the left, but I haven’t had any fever or changes in my bowel movements. Staying hydrated and resting helps a bit.
-
-**Doctor**: Alright, if anything changes or you have new concerns, just let me know.
-
-**Patient**: I've had sharp abdominal pain, nausea, vomiting, and chills. No fever or bowel changes. Drinking fluids and resting helps a bit, but I’m still feeling pretty uncomfortable.
-
-**Doctor**: Of course—feel free to reach out if anything changes.
-
-**Patient**: The sharp abdominal pain started on the right and then moved to the left side. I’ve also had nausea, vomiting, chills, and just generally feeling wiped out. No fever or changes in my bowel movements.
-
-**Doctor**: Got it. Feel free to reach out if anything changes or you need further support.
-
-**Patient**: I've had chills, nausea, vomiting, and sharp abdominal pain that moves from the right to the left side. No fever or changes in my bowel movements. Drinking fluids and resting seem to help a bit.
-
-**Doctor**: Absolutely, feel free to get in touch if anything changes.
-
-**Patient**: I've had nausea, vomiting, chills, and sharp abdominal pain that moves from right to left. No fever or bowel changes. Drinking fluids and resting help a little, but I’m still feeling pretty uncomfortable.
-
-**Doctor**: Of course—don't hesitate to reach out if anything changes or you have questions.
-
-**Patient**: I've had chills, nausea, vomiting, and sharp abdominal pain that moves from right to left. No fever or bowel changes. Drinking fluids and resting help a little, but I’m still feeling pretty uncomfortable.
-
-**Doctor**: Got it. Feel free to reach out if anything changes or you have questions.
-
-**Patient**: I've had sharp abdominal pain, nausea, vomiting, and chills. No fever or changes in my bowel movements. Drinking fluids and resting help a bit.
-
-**Doctor**: Absolutely—just let me know if anything changes or you need support.
-
-**Patient**: I've been dealing with sharp abdominal pain, mostly on the right at first and then on the left. Nausea, vomiting, and chills are still bothering me, but I haven’t had any fever or bowel changes. Drinking fluids and resting helps a bit.
-
-**Doctor**: Alright, feel free to check in anytime if you need anything else.
-
-**Patient**: I've had chills, nausea, vomiting, and sharp abdominal pain that moved from the right to the left. No fever or changes in my bowel movements. Staying hydrated and resting helps a bit, but I’m still pretty uncomfortable.
-
-**Doctor**: I see. Feel free to reach out if anything changes or you have new concerns.
-
-**Patient**: I've had sharp abdominal pain, chills, nausea, and vomiting. No fever or bowel changes. Drinking fluids and taking it easy helps a little, but I’m still uncomfortable.
-
-**Doctor**: You're welcome—reach out anytime if you need anything else.
-
-**Patient**: I've had chills, nausea, vomiting, and sharp abdominal pain that moves from right to left. No fever or diarrhea. Drinking fluids and resting helps a bit, but I’m still uncomfortable.
-
-**Doctor**: Got it. Feel free to reach out if anything changes.
-
-**Patient**: I've had sharp abdominal pain, nausea, vomiting, and chills. No fever or changes in my bowel movements. Drinking fluids and resting makes it a little better, but I’m still pretty uncomfortable.
-
-**Doctor**: Absolutely—just reach out if anything changes or you have questions.
-
-**Patient**: I've had chills, nausea, vomiting, and sharp abdominal pain. The pain started on the right side and then moved to the left, but I haven't noticed any fever or changes in my bowel movements. Drinking fluids helps a little.
+If anything you eat seems to worsen your symptoms, hold off and give your stomach more time to recover. Gradually returning to your normal diet once you feel ready is the usual approach. If you have questions about specific foods or drinks, let me know.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 60
-- **Word Count**: 1823
-- **Doctor Turns**: 30
-- **Patient Turns**: 30
-
-## EHR Summary
-
-The patient is a 24-year-old woman presenting with diabetic ketoacidosis (DKA). She experienced malaise, multiple episodes of nausea and vomiting, and sharp right then left-sided abdominal pain without diarrhea, fever, or constipation; she also reported chills. Her past medical history includes type 1 diabetes mellitus complicated by diabetic retinopathy and polycystic ovary syndrome, and she has an allergy to erythromycin base. On admission, her vital signs were stable and fingerstick glucose levels decreased from 276 to 128 mg/dL during treatment. The documented diagnosis was diabetic ketoacidosis. She was treated with an insulin drip, intravenous fluids (D5 1/2 NS), morphine, and ondansetron. Upon transfer to the floor, her symptoms had resolved and she denied any further pain. No surgical or invasive procedures were performed during her admission.
-
-## Dialogue Summary
-
-The patient presented with sharp abdominal pain, nausea, vomiting, and chills. The abdominal pain initially started on the right side and then moved to the left, was described as sharp but not constant, and did not radiate elsewhere. The patient denied fever, diarrhea, constipation, or changes in bowel movements; drinking fluids and resting provided slight relief, though discomfort persisted. Relevant history includes type 1 diabetes managed with insulin; the patient reported monitoring blood sugars and taking insulin as usual. The doctor noted the absence of high fever, severe tenderness, or persistent vomiting as somewhat reassuring but expressed concern due to the patient's diabetes and presence of chills, which could indicate infection or complications such as diabetic ketoacidosis (DKA). The assessment focused on possible mild gastritis, muscle strain, ovarian-related discomfort, infection, or DKA. The doctor advised close monitoring of blood sugar levels, checking for ketones if sugars run high, watching for warning signs (vomiting, rapid breathing, confusion, severe dehydration), and seeking urgent care if symptoms worsen or new concerning signs develop. Rest, hydration, and ongoing symptom monitoring were recommended; the patient was encouraged to reach out if symptoms changed or worsened.
-
-## STS Evaluation
-
-- **STS Score**: 0.980
-- **Similarity Label**: N/A
+- **Turn Count**: 21
+- **Word Count**: 922
+- **Doctor Turns**: 11
+- **Patient Turns**: 10
 
 ## Processing Information
 
-- **Processing Time**: 285.1s
+- **Processing Time**: 100.3s

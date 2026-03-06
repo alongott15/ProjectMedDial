@@ -16,88 +16,95 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.941
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is consistent with the patient's profile and chief complaint of s/p fall with symptoms suggestive of a hip fracture. The doctor asks appropriate questions about pain, mobility, mechanism of injury, and associated symptoms, and provides a plausible explanation and next steps. There are no unsupported diagnoses, treatments, or severe events introduced. The conversation is clear, focused, and maintains appropriate roles.
+- **Score**: 0.941
+- **Justification**: Combined score 0.94 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.94 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.938 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For improvement, the patient could mention any prior falls or medical history if prompted, but current responses are appropriate.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: Doctor is thorough and empathetic. For improvement, could briefly check for other injuries (e.g., head trauma) or anticoagulant use given age, but overall questioning is excellent.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: Dialogue flows logically from symptom description to assessment and plan. Could be improved by summarizing next steps (e.g., arranging transport or imaging), but overall very smooth.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The doctor clearly advises not to bear weight and explains the need for imaging. Clarity is high throughout.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it’s good to see you today. What’s been going on that brings you in?
+**Doctor**: Hello, it's nice to meet you. What brings you in today, and how have you been feeling lately?
 
-**Patient**: I had a fall at home, and now my left leg feels odd—it's shorter and kind of turned out. That's what brought me in.
+**Patient**: I had a fall at home, and since then my left leg feels off. That's really why I came in today.
 
-**Doctor**: Let me ask about how this is affecting you—are you able to stand or walk at all since the fall, or is it too difficult?
+**Doctor**: Let me ask about your leg—are you able to walk on it at all, or does it feel too painful or unstable?
 
-**Patient**: No, I haven't been able to stand or walk since the fall. My leg just doesn't feel right, and it hurts when I try to move it.
+**Patient**: I can't really walk on it right now—my left leg feels painful and kind of strange, like it's not lined up right. It hurts when I try to move it.
 
-**Doctor**: Let me ask about the pain—would you describe it as constant, or does it only hurt when you try to move your leg?
+**Doctor**: Let me ask about the pain—does it feel sharp, dull, or throbbing? And is there any swelling or bruising you’ve noticed around your hip or leg?
 
-**Patient**: It mostly hurts when I try to move my leg or if someone touches my hip. When I'm just sitting still, it's not as bad.
+**Patient**: The pain is pretty sharp, especially if you press on my hip or if I try to move. I haven't really noticed any swelling or bruising, but it's quite tender to the touch.
 
-**Doctor**: Let me ask about any other symptoms—have you had any numbness, tingling, or weakness in your foot or toes since the fall?
+**Doctor**: Let me ask about your mobility—since the fall, have you noticed if your left leg looks shorter than the right or turned outward? This can help me understand if there might be an injury to the hip.
 
-**Patient**: No, I haven't noticed any numbness or tingling in my foot or toes. My main problem is the pain and not being able to move my leg like I used to.
+**Patient**: My left leg does look shorter than the right now, and it's turned outward. That's something I noticed after I fell.
 
-**Doctor**: Got it. When you look at your leg or hip, have you noticed any swelling, bruising, or changes in the color of the skin since the fall?
+**Doctor**: Alright. Have you had any numbness, tingling, or loss of sensation in your left leg since the fall? This can help me assess if there might be nerve involvement.
 
-**Patient**: I haven't really noticed any big changes in color or swelling. There's some tenderness when I touch the area, but nothing else stands out to me.
+**Patient**: I haven't noticed any numbness or tingling in my left leg since the fall. It's mainly just the pain and how my leg looks and feels.
 
-**Doctor**: Okay. How would you rate the pain in your hip or leg on a scale from 1 to 10, with 10 being the worst pain you can imagine?
+**Doctor**: Got it. When did your fall happen—was it earlier today, yesterday, or a few days ago? Knowing the timing helps me understand how urgent this might be.
 
-**Patient**: I'd rate the pain around a 7 when I try to move my leg. If I'm not moving, it's more like a 3 or 4.
+**Patient**: I'm not exactly sure of the time, but it happened earlier today at home.
 
-**Doctor**: Let me ask about how the fall happened—did you trip over something, lose your balance, or do you remember any specific reason for the fall? This can help us understand if there are any underlying issues we should address.
+**Doctor**: Let me ask about your overall health after the fall—have you felt faint, dizzy, or had any trouble staying alert since it happened? This can help me check for other issues related to the injury.
 
-**Patient**: I lost my balance while I was at home—didn’t trip over anything, just suddenly lost my footing and went down. I remember it happening pretty quickly.
+**Patient**: I haven't felt faint or dizzy, and I haven't had any trouble staying alert since the fall. It's just my hip and leg that are bothering me.
 
-**Doctor**: Let me ask about how things have changed since the fall—has the discomfort or your ability to move your leg gotten better, worse, or stayed about the same since it first happened?
+**Doctor**: Got it. When you try to move your leg or hip, does the pain get worse, or is it constant even when you're resting? This will help me understand how much movement affects your discomfort.
 
-**Patient**: The pain and my ability to move my leg have stayed about the same since the fall. It hasn’t really improved or gotten worse.
+**Patient**: Moving my leg or hip definitely makes the pain worse. When I'm resting, it's still there but not as bad as when I try to move.
 
-**Doctor**: Based on what we've discussed, your symptoms—difficulty moving the leg, a change in its position, and the inability to bear weight—raise concern for a possible hip injury, such as a fracture, especially given your age and the way the leg appears shorter and turned outward. In older adults, even a simple fall can sometimes cause this type of injury because bones may be more fragile.
+**Doctor**: Based on what we've discussed, your symptoms—sharp pain with movement, tenderness over the hip, difficulty walking, and your leg appearing shorter and turned outward—suggest a possible hip fracture or dislocation. This is a common injury after a fall, especially in older adults, and the way your leg looks and feels points toward this kind of injury.
 
-What often happens in these cases is that the hip bone can break, which makes it hard or impossible to stand or walk. The fact that your symptoms haven't improved and your leg looks different are important clues.
+Hip fractures can cause the leg to appear shortened and rotated, and they usually lead to significant pain, especially when trying to move. The absence of numbness or tingling is reassuring, as it suggests nerves are not directly affected.
 
-At this stage, it's very important to avoid trying to walk or put weight on that leg. You should have an X-ray as soon as possible to check for a fracture. In the meantime, keeping the leg still and avoiding unnecessary movement is safest.
+My recommendation is that you need urgent medical evaluation, ideally in an emergency department. You should avoid putting any weight on your left leg and keep it as still as possible. An X-ray will be necessary to confirm the diagnosis and guide treatment. In most cases, hip fractures require surgical intervention and specialized care.
 
-Let me ask: how much is this affecting your ability to do things around the house or take care of yourself since the fall?
+For now, try to stay comfortable and avoid moving the injured leg. If possible, arrange for safe transport to the hospital rather than attempting to walk or stand. If you notice any new symptoms like severe pain, confusion, difficulty breathing, or chest pain, seek immediate help.
 
-**Patient**: It’s been tough—I really haven’t been able to do much for myself since the fall. I need help with just about everything right now, even getting around the house.
+Let me know if you have any questions about this or need further guidance on next steps.
+
+**Patient**: Thank you for explaining all of that. If it does turn out to be a hip fracture, what kind of recovery should I expect?
+
+**Doctor**: From what you've told me, your fall earlier today resulted in your left leg appearing shorter and turned outward, with significant tenderness over the hip and difficulty moving or bearing weight. These findings strongly suggest a mechanical injury to your hip, most likely a fracture, which is common in older adults after a fall.
+
+The way your leg is positioned and your inability to walk are classic signs that help us pinpoint the problem. Hip fractures usually require prompt medical attention because they can impact mobility and overall health if not treated quickly.
+
+For recovery, if it is a hip fracture, treatment often involves surgery to repair the bone, followed by a period of rehabilitation. Most people spend some time in the hospital, then work with physical therapists to regain strength and movement. Recovery can take several weeks to months, and the goal is to help you return to your usual activities safely. Early movement and physical therapy are important to prevent complications like muscle weakness or blood clots.
+
+Right now, the most important step is to get an X-ray and a specialist evaluation. Avoid moving or putting weight on your leg, and arrange safe transport to the hospital. If anything new develops—such as trouble breathing or chest pain—seek immediate help.
+
+Let me know if you have any other questions about what to expect or how to manage things while waiting for care.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 643
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 920
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 77-year-old male presenting after a mechanical fall at home. He reported left lower extremity pain and inability to ambulate, with the left leg noted to be shortened and externally rotated on exam, and tenderness over the hip. His medical history includes atrial fibrillation on anticoagulation (INR 2.5), coronary artery disease status post CABG, reduced ejection fraction (25%) with ICD, Parkinson's disease, prior right hip replacements, degenerative joint disease of the spine, and hypertension; he has allergies to penicillins, Comtan, and shellfish-derived products. On admission, he was well-appearing with stable vital signs; physical exam confirmed left lower extremity deformity without skin tenting. Laboratory results showed mild anemia (Hgb 10.4–11.1) and stable platelets. The documented diagnosis was left hip fracture. He underwent left hip hemiarthroplasty on hospital day 2. At discharge, his wound was healing with minimal serous drainage and ecchymosis, and he remained hemodynamically stable. The treatment plan included post-operative care and monitoring for wound healing.
-
-## Dialogue Summary
-
-The patient presented with left leg discomfort and inability to walk following a fall at home. Symptoms included the left leg appearing shorter and turned outward, pain rated as 7/10 with movement and 3–4/10 at rest, inability to bear weight or stand, and tenderness on touch near the hip; no numbness, tingling, swelling, bruising, or skin color changes were reported. The patient described the pain and mobility issues as unchanged since the fall and denied any specific cause other than sudden loss of balance. No relevant medical history, medications, or allergies were mentioned. On examination, the doctor noted the abnormal leg position and inability to bear weight as concerning findings. The assessment was possible hip injury, such as a fracture, given the mechanism of injury and physical presentation. The doctor advised avoiding walking or putting weight on the affected leg, recommended an urgent X-ray to check for fracture, and suggested keeping the leg still until further evaluation. The patient reported significant difficulty with daily activities and self-care since the incident.
-
-## STS Evaluation
-
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 62.7s
+- **Processing Time**: 80.0s

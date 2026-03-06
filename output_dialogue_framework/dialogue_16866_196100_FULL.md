@@ -16,93 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.937
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is consistent with the patient's profile and case type. The doctor asks appropriate follow-up questions about symptoms relevant to stent occlusion and post-angioplasty follow-up, such as fatigue, nausea, chest discomfort, and swelling. The patient responses are plausible and align with the provided symptoms. The doctor's explanations and recommendations are reasonable for a light case without acute symptoms. There are no unsupported diagnoses, treatments, or test orders, and the conversation avoids introducing new or contradictory information.
+- **Score**: 0.937
+- **Justification**: Combined score 0.94 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.79 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.789 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers but could elaborate slightly more on how symptoms affect daily life for richer context.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor is thorough and clear. To further improve, they could briefly check on medication adherence or side effects, given the patient's complex history.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with smooth transitions between topics. The closing invitation for questions is appropriate.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns. The doctor appropriately reassures the patient while emphasizing when to seek urgent care.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi, it's good to see you today. What brings you in—how have you been feeling lately?
+**Doctor**: Good to see you today. How have you been feeling lately? Is there anything new or different with your condition that you'd like to discuss?
 
-**Patient**: I'm here for my annual follow-up after the angioplasty. They found out my stent was blocked again, so I wanted to talk about that.
+**Patient**: I've been feeling pretty tired lately, and I have been dealing with some nausea. I came in for my annual follow-up after my angioplasty and was told there’s a stent occlusion.
 
-**Doctor**: Let me ask about how this has been affecting your day-to-day life. Are you finding it harder to do your usual activities, or have you noticed any new symptoms like nausea or feeling unusually tired?
+**Doctor**: Let me ask about your energy levels—has the tiredness made it harder for you to do your usual activities at home or work?
 
-**Patient**: I have noticed
+**Patient**: It’s definitely been tougher to keep up with things at work and around the house. The fatigue just makes everything feel a bit more challenging than usual.
 
-**Doctor**: Let me ask about the fatigue—has it been getting better, worse, or staying about the same over the past few weeks?
+**Doctor**: Let me ask about the nausea—does it come and go, or is it pretty constant throughout the day? Also, have you noticed if anything in particular seems to bring it on or make it better?
 
-**Patient**: It's been about the same, not really better or worse. I still feel pretty tired most days.
+**Patient**: The nausea is pretty much there most of the day. I haven’t really noticed anything specific that makes it better or worse.
 
-**Doctor**: Let me ask about any other symptoms—have you had any nausea, chest discomfort, or shortness of breath along with the fatigue?
+**Doctor**: Alright. Have you noticed any chest discomfort, shortness of breath, or swelling in your legs along with the fatigue? These can sometimes help us understand if your symptoms might be related to your heart.
 
-**Patient**: Yes, I've had some nausea along with the fatigue. I haven't noticed any chest discomfort or shortness of breath.
+**Patient**: I haven’t noticed any chest pain, shortness of breath, or swelling in my legs. The main things have just been the fatigue and nausea.
 
-**Doctor**: Alright. Have you noticed any changes in your appetite or weight recently? Sometimes these can be related and give us more clues about what's going on.
+**Doctor**: Let me ask about your appetite—have you had any changes in how much you're eating or any weight loss lately? Sometimes changes here can give us more clues.
 
-**Patient**: No, I haven't noticed any changes in my appetite or weight.
+**Patient**: My appetite hasn’t really changed, and I haven’t noticed any weight loss. I’m eating about the same as usual.
 
-**Doctor**: Got it. Can you describe how intense the nausea is—does it come and go, or is it present most of the time? And are there any particular times of day or activities when it's worse?
+**Doctor**: Got it. How long have you been experiencing this increased tiredness—did it start recently, or has it been building up over several weeks? This can help us figure out if there’s a connection to your recent stent findings or something else.
 
-**Patient**: The nausea comes and goes, it's not there all the time. I haven't noticed a specific time or activity that makes it worse.
+**Patient**: It’s been building up over the last few weeks. The tiredness just seems to be getting a bit worse as time goes on.
 
-**Doctor**: Got it. One more thing—have you noticed any swelling in your legs or ankles recently? That can sometimes help us understand how your heart is functioning overall.
+**Doctor**: Got it. When it comes to the tiredness, would you say it’s mild, moderate, or severe—does it ever force you to stop what you’re doing and rest, or is it more of a background feeling? This helps me gauge how much it’s impacting your day-to-day life.
 
-**Patient**: No, I haven't noticed any swelling in my legs or ankles.
+**Patient**: I’d call the tiredness moderate—it’s enough that I sometimes have to stop and rest during the day. It’s definitely more than just background fatigue.
 
-**Doctor**: Alright. When the nausea comes on, would you say it’s mild and just a bit uncomfortable, or does it get severe enough to interfere with your activities or make you want to stop what you’re doing?
+**Doctor**: Let me ask about your sleep—are you sleeping well at night, or have you noticed any changes in your sleep quality since these symptoms started? Sometimes poor sleep can add to fatigue and help us piece things together.
 
-**Patient**: It's pretty mild—just uncomfortable, not enough to stop what I'm doing. It doesn't really interfere with my activities.
+**Patient**: Sleep hasn’t really changed for me—I’m getting about the same amount as before, and I don’t think my sleep quality is any worse since the symptoms started.
 
-**Doctor**: Based on what we've discussed, your symptoms sound mild and haven't limited your daily activities, which is reassuring. After a stent blockage, it's common to pay close attention to any new or changing symptoms. Fatigue can sometimes persist after heart procedures, and mild digestive discomfort can have many causes, including medications or stress.
+**Doctor**: From what you've told me, your fatigue and nausea have been gradually increasing over the past few weeks, without any new issues like chest pain or shortness of breath. Given your history of angioplasty and the recent finding of a stent occlusion, it's possible that your symptoms are related to reduced blood flow to your heart, even if you're not having classic chest symptoms.
 
-From your answers, there’s no sign of more concerning issues like chest pain, shortness of breath, or swelling, which are things we especially watch for after angioplasty. At this point, your symptoms don’t suggest an urgent problem, but it’s still important to keep monitoring how you feel.
+Sometimes, people with heart conditions experience more subtle signs like tiredness and nausea rather than obvious chest discomfort. The fact that your appetite and sleep haven't changed makes it less likely that this is related to something like an infection or a digestive issue.
 
-My main recommendations would be:
-- Continue with your prescribed medications as directed, since these help prevent further blockage.
-- Keep track of your energy levels and any changes in symptoms.
-- If you develop chest pain, significant shortness of breath, fainting, or swelling, seek medical attention promptly.
+At this point, I'd recommend we communicate these changes to your cardiologist promptly, since worsening fatigue and persistent nausea in the context of a known stent problem could indicate your heart isn't getting enough oxygen. In the meantime, try to take it easy and avoid strenuous activity until you've had further evaluation.
 
-What often happens with recovery after a blocked stent is that the body takes time to adjust, and symptoms like fatigue may improve gradually. If your tiredness or digestive discomfort gets worse or starts affecting your quality of life, we can consider further evaluation.
+If you develop any new symptoms—such as chest pain, pressure, sudden shortness of breath, dizziness, or fainting—please seek immediate medical attention. Let’s make sure your cardiology team is aware so they can advise on the next steps. Does that sound reasonable? Is there anything else you’ve noticed or are concerned about?
 
-Do you have any questions or concerns about your current treatment plan, or is there anything specific you’d like to discuss today?
-
-**Patient**: Thanks for explaining all that. I understand the plan and I'll keep an eye on my symptoms. Right now, I don't have any other questions, but I'll let you know if anything changes.
+**Patient**: That makes sense to me. I agree it's important to let my cardiologist know about these changes. I’ll keep an eye out for any new symptoms like you mentioned—thanks for explaining what to watch for.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 614
+- **Word Count**: 737
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 45-year-old male presenting for annual follow-up after prior percutaneous transluminal coronary angioplasty. He was found to have an occluded stent, evidence of an old acute myocardial infarction on routine physical, and a positive stress test, but denied any anginal symptoms. His past medical history includes diabetes, claudication, and hepatitis C; medications on admission included Lipitor, aspirin, Glucovance, Epivir, and folic acid, with no known drug allergies. On admission, physical exam revealed clear lungs, regular heart sounds without murmur, and full peripheral pulses; chest x-ray was clear. Cardiac catheterization showed three vessel disease and restenosis at the angioplasty site. The documented diagnosis was multivessel coronary artery disease with stent occlusion and prior myocardial infarction. He underwent five-vessel coronary artery bypass grafting using left internal mammary artery and saphenous vein grafts, tolerated the procedure well, and was managed postoperatively with nitroglycerin (later changed to Imdur), insulin drip for glucose control, and physical rehabilitation. Postoperative course was notable for nausea, fatigue, minimal serous sternal drainage, and a transfusion of 20 units of packed red cells for low saturation and marginal urine output.
-
-## Dialogue Summary
-
-The patient presented for an annual follow-up after angioplasty, specifically concerned about a recurrent stent blockage. They reported persistent fatigue that has remained unchanged over the past few weeks and described mild, intermittent nausea that does not interfere with daily activities; no chest discomfort, shortness of breath, swelling, appetite, or weight changes were noted. The patient denied any leg or ankle swelling and reported no triggers or patterns for the nausea. Relevant history includes prior angioplasty with stent placement and recent stent blockage; no medications or allergies were discussed. On review, there were no physical findings of concern such as edema or respiratory symptoms. The doctor assessed that the patient’s symptoms are mild and not limiting daily activities, with no evidence of urgent cardiac issues. The treatment plan included continuing prescribed medications, monitoring for any new or worsening symptoms, and seeking prompt care if chest pain, significant shortness of breath, fainting, or swelling develop. The doctor also advised that gradual improvement is expected and further evaluation can be considered if symptoms worsen or impact quality of life.
-
-## STS Evaluation
-
-- **STS Score**: 0.959
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 61.4s
+- **Processing Time**: 81.6s

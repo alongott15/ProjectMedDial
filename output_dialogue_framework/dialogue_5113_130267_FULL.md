@@ -16,86 +16,81 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.858
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about the patient's symptoms, their impact on daily life, and associated features. The patient responses are coherent and match the described symptoms. The doctor's reasoning about post-viral fatigue and reassurance is appropriate for a light, common case. No unsupported diagnoses, tests, or treatments are introduced, and the conversation avoids severe or ICU-level events.
+- **Score**: 0.858
+- **Justification**: Combined score 0.86 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.53 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.526 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For added realism, the patient could mention any self-care measures they've tried or express more specific concerns about their underlying heart condition, given their history.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor could briefly acknowledge the patient's cardiac history (e.g., coronary artery disease) and mention that if symptoms like chest pain or shortness of breath occur, these should be reported promptly. This would show awareness of comorbidities without escalating the case.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and smooth, with appropriate follow-up questions and a clear summary at the end. Consider a slightly more explicit closing (e.g., offering a follow-up appointment or check-in) to reinforce continuity of care.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns detected. The advice is clear and appropriately cautious for a mild case. Explicitly referencing the patient's cardiac history in safety-netting advice would further improve clarity.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What’s been bothering you the most lately?
+**Doctor**: Let me ask about your lightheadedness and fatigue—have you noticed any particular situations or activities that seem to bring these symptoms on, or do they happen randomly throughout the day?
 
-**Patient**: I've been feeling pretty lightheaded and just tired all the time. That's what's bothering me the most lately.
+**Patient**: It's been pretty persistent, honestly. I notice the lightheadedness and fatigue throughout the day, not just with certain activities. I can't really pinpoint anything specific that triggers it.
 
-**Doctor**: Let me ask about how this is impacting you—are you able to get through your usual daily activities, or is it making things like work or errands more difficult?
+**Doctor**: Let me ask about other symptoms—have you experienced any headaches, changes in vision, or issues with balance along with the lightheadedness and fatigue?
 
-**Patient**: It’s definitely making things harder. I still get through my day, but I feel wiped out and the lightheadedness makes it tough to focus.
+**Patient**: I haven't had any headaches or vision changes. It's mainly just the lightheadedness and feeling tired.
 
-**Doctor**: Let me ask about when these symptoms began—how long have you been feeling this way?
+**Doctor**: Got it. Since the lightheadedness has been persistent, have you noticed any recent changes in your appetite, sleep, or weight? Sometimes these can provide clues about what's going on.
 
-**Patient**: I’m not sure exactly when it started, but I’ve been feeling this way for at least a few days now. The lightheadedness and fatigue just haven’t let up.
+**Patient**: My sleep hasn't really changed, and I haven't noticed any difference with my appetite or weight. It's mainly the fatigue and lightheadedness that have been bothering me.
 
-**Doctor**: Let me ask about any other symptoms—have you had things like fever, cough, sore throat, or any recent illnesses going around you?
+**Doctor**: Alright. How would you describe the severity of the lightheadedness—does it ever feel strong enough that you worry about passing out, or is it more of a mild sensation?
 
-**Patient**: I did have a bit of a fever, my temperature went up to about 101.5. It felt kind of like the flu, but I haven’t had a cough or sore throat.
+**Patient**: It’s more of a mild sensation—enough that I notice it, but I haven’t actually felt like I was going to pass out. I did have a temperature spike up to 101.5 and felt like I had the flu around the same time this started.
 
-**Doctor**: Alright. Have you noticed any nausea, sweating, or changes in your appetite along with these symptoms? Sometimes these details can help narrow down the cause.
+**Doctor**: Let me ask about your temperature spike—how long did the fever last, and did you have any other symptoms like cough, sore throat, or muscle aches when you felt flu-like?
 
-**Patient**: No, I haven’t had any nausea or sweating. My appetite seems about the same, nothing unusual there.
+**Patient**: The fever lasted maybe a day or two. I didn’t have a cough or sore throat, but I did feel achy, kind of like when you have the flu.
 
-**Doctor**: Got it. When you stand up or move around, does the lightheaded feeling get worse, or is it about the same whether you’re sitting, standing, or lying down? Sometimes this helps clarify what might be causing it.
+**Doctor**: Got it. Since the fever and achiness have resolved, has the lightheadedness and fatigue improved at all since then, or are they about the same as when this started?
 
-**Patient**: The lightheaded feeling seems to be about the same whether I’m sitting, standing, or lying down. Moving around doesn’t really make it worse.
+**Patient**: The fever and achiness have gone away, but the lightheadedness and fatigue are still about the same as when this all started. They haven’t really improved.
 
-**Doctor**: Alright. Have you noticed any recent changes in your sleep—either trouble falling asleep, waking up more than usual, or sleeping more than normal? Sometimes fatigue can be linked to disruptions in rest.
+**Doctor**: I see. Can you recall about when these symptoms first began—was it around the same time as your fever and achiness, or did they start before or after that?
 
-**Patient**: I haven’t noticed any changes in my sleep. I fall asleep about the same as usual and don’t wake up more often than I used to.
+**Patient**: These symptoms started right around the same time as the fever and achiness. They all seemed to come on together.
 
-**Doctor**: Got it. Over the past few days, has your fever gone away or is it still coming and going? And has the lightheadedness stayed about the same, or is it improving at all? This helps me understand if things are trending in the right direction.
+**Doctor**: Let me ask about your daily routine—has the lightheadedness and fatigue made it difficult for you to do your usual activities, like work or exercise, or are you still able to manage most things despite the symptoms?
 
-**Patient**: My fever has gone away now. The lightheadedness and fatigue are still about the same, though—not much improvement yet.
+**Patient**: The lightheadedness and fatigue have definitely made things tougher. I can still manage most of my daily activities, but it takes more effort and I get tired out a lot quicker than usual.
 
-**Doctor**: Based on what we've discussed, it sounds like you had a short-lived fever that has resolved, but you’re still dealing with ongoing tiredness and feeling lightheaded, which hasn’t improved much. Often, after a viral illness—even one without classic symptoms like cough or sore throat—some people experience lingering fatigue and mild lightheadedness as their body recovers. This can sometimes last for several days to a week or two.
+**Doctor**: From what you've told me, it sounds like your symptoms began with a brief fever and achiness, and while those resolved, you're still experiencing persistent lightheadedness and fatigue. Often, after a viral infection—even one that’s mild or short-lived—some people notice lingering symptoms like these for a week or two as the body recovers. It’s common for energy levels to take some time to return to normal.
 
-The fact that your fever is gone and you don’t have new or worsening symptoms is reassuring. Most of the time, rest, staying well-hydrated, and pacing your activities help with recovery. If the lightheadedness gets worse, if you faint, develop chest pain, trouble breathing, or confusion, those would be reasons to seek care sooner.
+Since you’re able to manage your daily activities, and there haven’t been any red flags like severe dizziness, vision changes, or difficulty with balance, this pattern suggests a post-viral recovery rather than something more serious. Staying hydrated, pacing yourself, and gradually returning to your usual routine can help.
 
-Let’s keep an eye on your symptoms over the next few days. If things aren’t improving or you notice any new concerning signs, please reach out. Does that make sense, or is there anything else you’re worried about right now?
+If these symptoms persist beyond another week or two, worsen, or you notice new issues like chest pain, palpitations, or difficulty walking, it would be worth checking in again for further evaluation. For now, let’s focus on supportive care and monitoring your progress. Does that make sense to you, or is there anything else you’re concerned about?
 
-**Patient**: That makes sense, thanks for explaining it. I’ll keep an eye on things and let you know if anything gets worse. Right now, I’m mostly just hoping this lightheadedness and fatigue start to improve soon.
+**Patient**: Thanks, that explanation helps. I’ll keep an eye on things and try to take it easy for now. If anything changes or I notice new symptoms like chest pain or palpitations, I’ll let you know right away.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 625
+- **Word Count**: 691
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 50-year-old male presenting with persistent lightheadedness and fatigue. He reported chronic lightheadedness and flu-like symptoms since 2186, without chest discomfort or shortness of breath. Relevant history includes sarcoidosis (diagnosed in 2180), benign prostatic hypertrophy, restless leg syndrome, hypertension, hyperlipidemia, and prior surgeries (bilateral TMJ, tonsillectomy, adenoidectomy, lipoma dissection); he is allergic to penicillin and takes Serax, Endocet, Flomax, Proscar, ranitidine, and multivitamins. Cardiolite ETT revealed a moderate fixed inferior defect and a moderately reversible anterior apical and septal defect, with an ejection fraction of 43%. Cardiac catheterization demonstrated significant stenosis of the right coronary artery, left anterior descending artery, and obtuse marginal artery. The documented diagnosis was coronary artery disease requiring surgical intervention. The treatment plan included admission for evaluation and subsequent coronary artery bypass grafting. Preoperative laboratory results were within normal limits.
-
-## Dialogue Summary
-
-The patient presented with persistent lightheadedness and fatigue as the chief complaint. Symptoms included ongoing tiredness and difficulty focusing, with lightheadedness present regardless of position (sitting, standing, or lying down), and no worsening with movement. The patient reported these symptoms had lasted for at least a few days, accompanied by a brief fever up to 101.5°F that has since resolved; no cough, sore throat, nausea, sweating, appetite changes, or sleep disturbances were noted. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the resolved fever and persistent fatigue and lightheadedness, suggesting these may be lingering effects of a recent viral illness. The doctor recommended rest, hydration, and pacing activities to support recovery. The patient was advised to monitor for worsening symptoms such as fainting, chest pain, trouble breathing, or confusion, and to seek care if these occur or if symptoms do not improve. The patient understood the plan and agreed to follow up if needed.
-
-## STS Evaluation
-
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 60.9s
+- **Processing Time**: 94.0s

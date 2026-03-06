@@ -16,88 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.914
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about the chest pain, explores relevant symptoms, and considers the patient's cardiac history. The patient responses are coherent and match the described symptoms and history. The doctor's reasoning and recommendations are cautious and appropriate for a patient with increasing chest pain and a history of myocardial infarction and CABG, without introducing unsupported diagnoses or treatments.
+- **Score**: 0.914
+- **Justification**: Combined score 0.91 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.71 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.714 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For improvement, the patient could mention any recent medication changes or adherence issues, which are often discussed in such cases.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor's questioning and explanation are thorough. For improvement, the doctor could briefly confirm the patient's asthma and GERD history to rule out possible non-cardiac causes of chest pain, and clarify whether the patient has had similar episodes before.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and smooth, moving from symptom description to history and then to recommendations. To improve, the doctor could summarize key findings before giving advice, reinforcing shared understanding.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety is well addressed with clear instructions for urgent symptoms. For clarity, the doctor could specify what 'checked further' entails (e.g., EKG, labs, or referral), but overall the guidance is appropriate.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brings you in—can you tell me more about how you've been feeling lately?
+**Doctor**: Let me ask about the chest pain you've been experiencing—can you point to exactly where you feel it, and is it more on the left, right, or center of your chest?
 
-**Patient**: Lately, I've been having these chest pains that seem to be getting worse. That's really what's got me worried.
+**Patient**: The pain is mostly in the center of my chest. It's been getting worse lately, and that's what's making me anxious.
 
-**Doctor**: Let me ask about the pain itself—where exactly do you feel it in your chest, and does it stay in one spot or move around?
+**Doctor**: Alright. Can you describe what the pain feels like—sharp, dull, pressure, or something else? And does it come on suddenly or build up gradually?
 
-**Patient**: The pain is mostly in the center of my chest. It doesn't really move around much—it kind of stays in that same spot.
+**Patient**: It feels more like a pressure, not really sharp. The pain tends to build up gradually, and sometimes it's pretty unstable—it comes and goes.
 
-**Doctor**: Alright. Have you noticed if anything—like physical activity, eating, or stress—seems to trigger or worsen the discomfort? Or does it come on at rest as well?
+**Doctor**: Let me ask about any other symptoms—have you noticed shortness of breath, sweating, or palpitations when the chest pressure occurs?
 
-**Patient**: Physical activity definitely makes it worse. I’ve noticed it can happen when I’m just sitting around too, but moving around brings it on more often.
+**Patient**: I have noticed my heart racing a bit—slight tachycardia—when the chest pain gets worse. I haven’t really experienced sweating or shortness of breath with it.
 
-**Doctor**: Let me ask about other symptoms—have you noticed any shortness of breath, sweating, or feeling lightheaded when these episodes happen?
+**Doctor**: Got it. Does physical activity or emotional stress seem to trigger these episodes, or do they happen even at rest?
 
-**Patient**: I have noticed my heart seems to beat a bit faster when the pain comes on. I haven’t really had sweating or felt lightheaded, though, and no shortness of breath.
+**Patient**: The chest pain happens both with activity and when I'm resting. I haven't noticed a clear pattern with emotional stress, but sometimes it comes on without warning.
 
-**Doctor**: Got it. How long do these episodes typically last when they happen, and do they tend to resolve on their own or do you need to rest for it to go away?
+**Doctor**: Let me ask about your daily routine—has the chest pressure or heart racing made it difficult for you to carry out usual activities, like walking or doing chores?
 
-**Patient**: They usually last a few minutes, maybe five or ten. Resting does seem to help them go away a bit faster.
+**Patient**: Yes, the chest pressure and the heart racing have made it tougher to do simple things like walking or chores. I find myself needing to take breaks more often lately.
 
-**Doctor**: Tell me more about when you first started noticing these chest pains—was it days, weeks, or longer ago? Have they changed in frequency or intensity since then?
+**Doctor**: Alright. How long does each episode of chest pressure and heart racing usually last, and do you notice any relief with rest or medication?
 
-**Patient**: I first noticed the chest pains a couple of weeks ago. They've definitely gotten more frequent and a bit stronger since they started.
+**Patient**: Each episode usually lasts a few minutes, but sometimes it sticks around longer. Rest does help a bit, but the pain can still come back. I’m taking Prilosec, Aspirin, Singulair, Albuterol, Vitamin E, and Vitamin C as part of my medications.
 
-**Doctor**: Let me ask about your daily activities—has this discomfort changed your ability to do things like walking, climbing stairs, or running errands?
+**Doctor**: Okay, when the pain lasts longer, does it ever wake you up at night or interfere with your sleep?
 
-**Patient**: Yes, it has. I find I'm avoiding stairs and walking longer distances because the chest pain comes on more easily now. Running errands feels tougher than it used to.
+**Patient**: Sometimes the pain does interfere with my sleep. There have been nights where it wakes me up or makes it hard to fall asleep again.
 
-**Doctor**: Let me ask about your medical history—do you have any conditions like high blood pressure, diabetes, or high cholesterol? Are you taking any medications regularly?
+**Doctor**: Let me ask about associated symptoms—have you experienced any nausea, dizziness, or lightheadedness during these episodes?
 
-**Patient**: I don’t have high blood pressure, diabetes, or high cholesterol. As for medications, I take Prilosec, aspirin, Singulair, albuterol, vitamin E, and vitamin C regularly.
+**Patient**: I haven’t had any nausea, dizziness, or lightheadedness during these episodes. It’s mainly the chest pain and the heart racing.
 
-**Doctor**: From what you've told me, I'm considering that your symptoms—especially the way they come on with physical activity and have become more frequent—could be related to your heart. Sometimes, discomfort that gets worse with exertion and improves with rest can signal that the heart isn't getting enough oxygen during increased demand. This pattern is often seen in conditions like angina, which is caused by narrowed blood vessels supplying the heart.
+**Doctor**: From what you've told me, your chest pressure and heart racing are making daily activities more difficult and sometimes even disrupting your sleep. The fact that these episodes can occur both at rest and with activity, and are getting worse, is important to note. Typically, chest discomfort that builds gradually and feels like pressure can sometimes be related to heart conditions, especially when it affects your ability to be active and comes with palpitations.
 
-While you don't have some of the common risk factors like high blood pressure or diabetes, it's still important not to ignore these changes, especially since they're affecting your daily life more now.
+Since you’re already aware of your diagnosis and on medications like Aspirin and Prilosec, it’s good to see you’re managing risk factors. However, the worsening pattern and interference with daily life suggest we need to keep a close eye on this. What often happens with conditions like unstable angina is that symptoms can become less predictable and more frequent, which is why monitoring for any new or severe symptoms—such as sudden shortness of breath, fainting, or pain radiating to your arm or jaw—is important.
 
-Given how your symptoms have progressed, I recommend you get checked further as soon as possible—ideally today. It's best to err on the side of caution when symptoms change or increase in frequency. If you develop new issues like severe discomfort, sweating, nausea, or fainting, seek emergency care immediately.
+My main recommendation is to continue tracking your symptoms closely. If the pain becomes severe, lasts longer than usual, or is accompanied by any of those warning signs, it’s important to seek medical attention promptly. For now, taking breaks and pacing activities is wise, and keeping up with your medications as prescribed is essential.
 
-In the meantime, try to avoid strenuous activities and keep track of any new symptoms. Let me know if you have any questions about what we've discussed or want more details about next steps.
+Is there anything specific you’d like to discuss about your current treatment or any concerns about side effects or medication adjustments?
 
-**Patient**: Thanks for explaining that. I’ll make sure to get checked out today like you suggested. It’s reassuring to know what might be going on, even if it’s a bit worrying. If anything changes or I get new symptoms, I’ll seek help right away.
+**Patient**: Thanks, that helps clarify things. I am keeping track of my symptoms, and I’ll watch out for any new warning signs like you mentioned. Right now, I haven’t noticed any side effects from my medications, but should I be considering any changes given how the chest pain is getting worse?
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 646
+- **Word Count**: 702
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 56-year-old male presenting with chest pain and positive cardiac enzymes consistent with myocardial infarction. He reported increasing chest pain episodes over the past three to four weeks, with pain initially occurring every few days for 20–40 seconds but increasing in frequency and intensity prior to admission. His past medical history includes gastroesophageal reflux disease, asthma, allergic rhinitis, and a history of colonic polyps, and he has no known drug allergies. On admission, his vital signs were stable and physical examination was unremarkable except for mild hypoxemia (oxygen saturation 95% on four liters). The documented diagnosis was myocardial infarction. Prior to admission, he was managed with Diltiazem and later sublingual Nitroglycerin as advised by his cardiologist. His home medications included Prilosec, Aspirin, Singulair, Albuterol as needed, Vitamin E, and Vitamin C.
-
-## Dialogue Summary
-
-The patient presented with worsening chest pains as the chief complaint. The pain is located centrally in the chest, remains in one spot, and is aggravated by physical activity but can also occur at rest; episodes last five to ten minutes and resolve more quickly with rest. The patient reported increased heart rate during pain episodes but denied sweating, lightheadedness, or shortness of breath. Symptoms began a couple of weeks ago and have become more frequent and intense, now limiting daily activities such as walking and climbing stairs. Relevant history includes regular use of Prilosec, aspirin, Singulair, albuterol, vitamin E, and vitamin C, with no history of hypertension, diabetes, or high cholesterol. The doctor assessed that the pattern of exertional chest pain with improvement at rest may indicate angina due to reduced oxygen supply to the heart. The doctor recommended urgent further evaluation today and advised avoiding strenuous activity, monitoring for new symptoms, and seeking emergency care if severe discomfort or additional symptoms develop. The patient acknowledged understanding of the recommendations and agreed to follow up promptly.
-
-## STS Evaluation
-
-- **STS Score**: 0.976
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 60.0s
+- **Processing Time**: 100.0s

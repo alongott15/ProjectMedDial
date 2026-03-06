@@ -16,88 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.780
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile (62-year-old male with coronary artery disease presenting with substernal chest pain). The doctor asks appropriate questions to characterize the pain, explores associated symptoms, and provides a reasonable explanation and plan for a light case. No unsupported diagnoses, treatments, or severe events are introduced. The patient responds in a natural way, showing understanding and engagement.
+- **Score**: 0.780
+- **Justification**: Combined score 0.78 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.40 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.400 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For improvement, the patient could mention any medications or prior episodes if prompted, but this is not necessary for realism.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor's reasoning and explanations are thorough and appropriate. To further improve, the doctor could briefly ask about cardiac risk factors (smoking, diabetes) or current medications, but the current level is sufficient for a light case.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and smooth, with each question building on previous answers. The summary and advice at the end are clear and well-timed.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is clear—patient is told what symptoms warrant urgent care. The doctor avoids alarming language and provides reassurance while emphasizing caution. No safety concerns.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me more about how you've been feeling lately?
+**Doctor**: Good to see you today. What brings you in—how have you been feeling lately?
 
-**Patient**: I've been having this pain in my chest, right in the middle. It’s been making me pretty anxious, so I thought I should get it checked out.
+**Patient**: My chest has been hurting, right in the center. That's the main thing that's been worrying me.
 
-**Doctor**: Let me ask about the pain—how would you rate it on a scale from 1 to 10, with 10 being the worst pain you can imagine?
+**Doctor**: Let me ask about the pain—does anything in particular make it better or worse, like activity, eating, or resting?
 
-**Patient**: I think I’d rate it around a 6. It’s not unbearable, but it’s definitely uncomfortable and worrying.
+**Patient**: Nothing really seems to make it
 
-**Doctor**: Let me ask about when this pain tends to come on—does it happen at rest, with activity, after eating, or is it unpredictable?
+**Doctor**: Alright. How intense would you say the pain is, if you had to rate it from 1 to 10?
 
-**Patient**: It usually comes on when I’m moving around, like walking or doing something active. I haven’t noticed it after eating or when I’m just sitting still.
+**Patient**: It's probably around a 6 out of 10. It's not the worst pain I've ever had, but it's definitely uncomfortable and concerning.
 
-**Doctor**: Tell me more about what the sensation is like—would you describe it as sharp, pressure-like, burning, or something else?
+**Doctor**: Let me ask about any other symptoms—have you noticed shortness of breath, sweating, or feeling lightheaded along with this discomfort?
 
-**Patient**: It feels more like a pressure, not really sharp or burning. Just kind of heavy right in the center of my chest.
+**Patient**: I haven't had any shortness of breath, sweating, or feeling lightheaded—just the chest pain right in the center.
 
-**Doctor**: Got it. Have you noticed any other symptoms when the pressure comes on, like shortness of breath, sweating, or feeling lightheaded?
+**Doctor**: Got it. When did you first notice this discomfort—has it been going on for hours, days, or longer?
 
-**Patient**: No, I haven’t noticed any sweating or feeling lightheaded when the pressure comes on. It’s really just the chest pain for me.
+**Patient**: I can't say exactly, but I think the discomfort started a couple of days ago. It's been pretty steady since then.
 
-**Doctor**: Alright. Does anything seem to relieve the pressure, like resting or stopping the activity, or does it linger for a while even after you slow down?
+**Doctor**: Let me ask about your daily routine—has this discomfort affected your ability to do regular activities, like walking around the house or doing chores?
 
-**Patient**: Resting does seem to help. When I stop what I’m doing, the pressure usually eases up after a bit.
+**Patient**: I’ve still been able to do most things around the house, but I do notice the chest pain while I’m moving around. It hasn’t stopped me completely, but it’s definitely there.
 
-**Doctor**: Let me ask about the location—can you point to exactly where you feel the pressure, or is it spread out across your chest?
+**Doctor**: Okay. Have you noticed any discomfort in your jaw, neck, arms, or back along with the chest pain?
 
-**Patient**: Yes, I can point to it—it’s right in the center of my chest, just behind the breastbone. It doesn’t really spread out, it stays in that spot.
+**Patient**: I haven’t noticed any pain in my jaw, neck, arms, or back—just the chest pain in the center.
 
-**Doctor**: Let me ask about how long this has been going on—when did you first notice the pressure in your chest during activity?
+**Doctor**: Let me ask about your overall health—have you experienced any recent fevers, cough, or signs of a cold or stomach upset in the past few days?
 
-**Patient**: I'm not exactly sure, but I think it started a few days ago. It's been happening whenever I'm active since then.
+**Patient**: I haven’t had any fever, cough, or stomach issues lately—just the chest pain.
 
-**Doctor**: From what you've told me, the pressure you feel in the center of your chest comes on with activity and improves with rest, and you haven’t noticed other symptoms like sweating or lightheadedness. When chest discomfort is triggered by physical activity and relieved by rest, it can sometimes be related to the heart, even though it isn’t always the case. Other causes like muscle strain or acid reflux are possible, but given your age and the pattern you’re describing, I think it’s important to be cautious.
+**Doctor**: Based on what we've discussed, your main concern has been a steady discomfort in the center of your chest for a couple of days, without other symptoms like shortness of breath, sweating, or pain spreading elsewhere. Since it hasn't stopped you from your daily activities and you haven't had signs of infection or stomach upset, this is somewhat reassuring.
 
-The main reason I’m focusing on these details is because certain types of chest pain—especially those brought on by exertion—can signal that the heart isn’t getting enough oxygen during activity. This is something we call “angina.” It doesn’t necessarily mean there’s an emergency right now, but it does mean we should check things out further to make sure your heart is healthy and rule out anything serious.
+Often, chest discomfort can have several causes—muscle strain, acid reflux, or sometimes issues related to the heart. Because chest discomfort can occasionally be a sign of something more serious, it's important to pay attention to any changes. If you develop new symptoms like severe pain, trouble breathing, dizziness, or the discomfort gets much worse, you should seek immediate medical attention.
 
-My recommendation would be to avoid strenuous activity for now and schedule a visit soon for a more thorough evaluation, which might include an EKG or other heart tests. If you ever notice the pain getting worse, coming on at rest, lasting longer than usual, or if you develop new symptoms like shortness of breath, nausea, or sweating, seek immediate medical attention.
+For now, since your symptoms are steady and not severe, it’s reasonable to monitor them and avoid any strenuous activity. If you notice any changes or if the discomfort persists for several more days, it would be wise to check in with your healthcare provider for further evaluation.
 
-Let me know if you have any questions about what I’ve explained or if there’s anything else you’re concerned about.
+Does that make sense, or is there anything else about your symptoms that you’re concerned about?
 
-**Patient**: Thanks for explaining everything so clearly. I’ll make sure to take it easy and avoid anything strenuous like you said. Is there anything I should keep track of before my appointment, like how often the chest pressure happens?
+**Patient**: That makes sense, thank you for explaining it. Since I have a history of coronary artery disease and a past heart attack, I just get worried when I feel any chest pain. I’ll keep an eye on things and let you know if anything changes.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 659
+- **Word Count**: 556
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 62-year-old male presenting with substernal chest pain and a positive stress test. Symptoms included chest pain leading to cardiac catheterization, which revealed 70% occlusion of the left main LAD, 80% occlusion of the left circumflex, and 80% occlusion of the RCA. Relevant history includes prior myocardial infarction in 2126, percutaneous transluminal coronary angioplasty in 2124, coronary artery disease, hypercholesterolemia, and tobacco use; home medications included aspirin. On examination prior to discharge, the patient was stable with clear lungs, regular heart rhythm, and a clean, intact surgical incision. The documented diagnosis was severe multi-vessel coronary artery disease. The patient underwent coronary artery bypass grafting (CABG) times three with an uneventful postoperative course aside from a single transfusion for low hematocrit. Discharge medications included Lopressor, Lasix, potassium chloride, aspirin, and Percocet as needed. The patient was advised to follow up in 3-5 weeks and arranged for visiting nurse assistance for wound care and monitoring.
-
-## Dialogue Summary
-
-The patient presented with central chest pain described as a pressure sensation, which has been occurring for several days. The pain is rated as a 6 out of 10 in severity, comes on with physical activity such as walking, and is relieved by rest; it does not occur at rest or after eating. The patient denied associated symptoms such as sweating, lightheadedness, or shortness of breath, and localized the pain to the center of the chest behind the breastbone without radiation. No relevant medical history, medications, or allergies were mentioned during the encounter. On assessment, the doctor noted that exertional chest pressure relieved by rest could indicate angina and emphasized the need to rule out cardiac causes, while also acknowledging other possible etiologies such as muscle strain or acid reflux. The doctor recommended avoiding strenuous activity and scheduling a thorough evaluation, including possible EKG or heart tests. The patient was advised to seek immediate medical attention if symptoms worsen, occur at rest, last longer, or are accompanied by new symptoms such as shortness of breath, nausea, or sweating.
-
-## STS Evaluation
-
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 64.6s
+- **Processing Time**: 83.4s

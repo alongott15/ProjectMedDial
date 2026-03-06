@@ -16,88 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.843
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is consistent with the patient's profile and chief complaint of alcohol withdrawal with mild symptoms. The doctor asks appropriate, focused questions about withdrawal symptoms, safety concerns, and functional impact. The patient responses are plausible and match the described symptoms. The doctor's summary and advice are accurate for a light case, with no unsupported diagnoses or interventions. There are no hallucinations or contradictions.
+- **Score**: 0.843
+- **Justification**: Combined score 0.84 (naturalness=0.90 ×0.4, profile_compliance=0.70 ×0.3, ragas_faithfulness=0.91 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 0.700 |
+| RAGAS Faithfulness | 0.909 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For improvement, the patient could mention any coping strategies already tried or ask more specific questions about symptom management.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: Doctor provides thorough assessment and reassurance. For improvement, the doctor could offer concrete tips for managing anxiety and sleep (as requested), and consider asking about support systems or follow-up plans.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and builds from symptom onset to impact and safety. It ends with a summary and an invitation for further questions, which is good practice.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety was appropriately addressed by screening for severe withdrawal symptoms. Clarity is high; however, the doctor could explicitly mention when to seek urgent care (e.g., if seizures or hallucinations develop) for added safety.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me what's been bothering you lately?
+**Doctor**: Let me ask about your main concern—what’s been bothering you lately?
 
-**Patient**: Lately, I've been feeling pretty shaky and just not myself. I think it might be related to stopping drinking.
+**Patient**: I've been feeling really shaky and anxious lately. It's been hard to focus or settle down.
 
-**Doctor**: Let me ask about your symptoms—when did you first start feeling shaky, and has it been getting better or worse since you stopped drinking?
+**Doctor**: Let me ask about your symptoms—does anything specific seem to trigger these feelings, or do they come on unexpectedly?
 
-**Patient**: It started a couple days after I stopped drinking. The shakiness and feeling agitated seem to come and go, but it's still pretty noticeable.
+**Patient**: I can't really pinpoint a trigger—it just seems to come on without warning. Sometimes I notice my hands shaking a lot when it happens.
 
-**Doctor**: Let me ask about other symptoms—have you noticed any confusion, trouble concentrating, or changes in your mental clarity since you stopped drinking?
+**Doctor**: Got it. When did you first start noticing these episodes of shakiness and anxiety?
 
-**Patient**: I've definitely noticed some confusion and feeling kind of sedated at times. It's made it harder to think clearly.
+**Patient**: I'm not sure exactly, but I think these episodes started a few days ago. It feels like they've been getting a bit worse since then.
 
-**Doctor**: Alright. Have you noticed if the shakiness or confusion gets worse at certain times of day, or if anything seems to trigger it? For example, does it change after eating, resting, or doing any activities?
+**Doctor**: Let me ask about your overall health—have you had any changes in your sleep, appetite, or energy levels since these episodes began?
 
-**Patient**: Resting sometimes helps a bit, but the shakiness and confusion seem to pop up randomly. I haven’t noticed a clear pattern with eating or activities.
+**Patient**: My sleep has definitely been off—I feel pretty sedated and tired, but at the same time, I’m agitated and anxious. I haven’t noticed big changes in appetite, but my energy levels are lower than usual.
 
-**Doctor**: Got it. How much would you say these symptoms are impacting your ability to go about your usual daily activities, like work or taking care of things at home?
+**Doctor**: Let me ask about your mental clarity—during these episodes, have you felt confused or had trouble thinking clearly?
 
-**Patient**: It’s definitely making things harder. The anxiety and agitation especially are getting in the way of getting things done at home and at work.
+**Patient**: Yes, I have felt pretty confused during these episodes. It's like my thoughts get really cloudy and it's hard to concentrate on anything.
 
-**Doctor**: Tell me more about your sleep lately—are you getting enough rest, or have you noticed any trouble falling or staying asleep since you stopped drinking? Sleep changes can sometimes play a role in these symptoms.
+**Doctor**: Alright. Have you noticed any sweating, rapid heartbeat, or feelings of nausea when these episodes occur?
 
-**Patient**: Sleep has been pretty rough. I’ve had trouble falling asleep and staying asleep, and I think the anxiety and depression are making it worse.
+**Patient**: I haven’t noticed any sweating or rapid heartbeat, and I haven’t felt nauseous either. It’s mostly the shakiness, anxiety, and confusion that bother me.
 
-**Doctor**: Let me ask about safety—have you had any episodes where you felt faint, experienced hallucinations, or had any seizures since stopping alcohol? These can sometimes occur with withdrawal and are important to check for.
+**Doctor**: Let me ask about your usual habits—have you recently changed how much caffeine, alcohol, or any medications you use? Sometimes changes in these can cause symptoms like shakiness and confusion.
 
-**Patient**: I haven't had any fainting, hallucinations, or seizures since I stopped drinking. It's mostly just been the tremors, confusion, and feeling on edge.
+**Patient**: I haven’t made any big changes to caffeine or my medications lately. I have been trying to cut back on alcohol, though, and that’s when these symptoms really started showing up—feeling agitated, confused, and shaky.
 
-**Doctor**: I see. When the confusion comes on, does it feel like you're having trouble remembering things, or is it more difficulty focusing and processing what's going on around you? This can help clarify what type of confusion you're experiencing.
+**Doctor**: Alright. How much are these symptoms interfering with your ability to do your usual daily activities, like work or socializing?
 
-**Patient**: It's more that I have trouble focusing and processing what's going on around me. I don't think I've had issues with my memory, just staying clear-headed.
+**Patient**: These symptoms have made it tough to get through my day. I feel so sedated and confused that working or socializing is really difficult right now.
 
-**Doctor**: Based on what we've discussed, it sounds like you're experiencing some classic symptoms that can occur after stopping alcohol, such as tremors, agitation, difficulty focusing, and sleep problems. These are often part of alcohol withdrawal, which can vary in severity from person to person.
+**Doctor**: Based on what we've discussed, it sounds like your symptoms—shakiness, confusion, anxiety, and trouble sleeping—began shortly after you started cutting back on alcohol. These symptoms can sometimes happen when someone reduces their alcohol intake, especially if their body is used to regular use. This is known as alcohol withdrawal.
 
-The fact that you haven't had more severe symptoms like hallucinations or seizures is reassuring. Most people with mild to moderate withdrawal will notice shakiness, anxiety, trouble concentrating, and sleep disturbances for several days to a week after stopping drinking. These symptoms usually improve gradually, especially as your body adjusts.
+What often happens is that the brain has adapted to the presence of alcohol, and when it’s suddenly reduced or stopped, it can become overactive, leading to symptoms like tremors, anxiety, agitation, and confusion. The fact that these symptoms are interfering with your daily life suggests your body is having a noticeable reaction.
 
-What often helps is making sure you're staying hydrated, eating regular meals, and getting as much rest as possible. If the anxiety or confusion gets worse, or if you notice new symptoms like hallucinations or severe disorientation, it's important to seek medical attention quickly.
+The good news is that mild alcohol withdrawal can often be managed safely with supportive care—rest, hydration, and avoiding triggers. However, it’s important to watch for warning signs like severe confusion, hallucinations, fever, or seizures, which would require urgent medical attention.
 
-Let me know if you'd like suggestions for managing these symptoms at home, or if you have any concerns about how things are progressing.
+Let’s talk about how much alcohol you were typically drinking before you cut back, and how quickly you reduced your intake. This will help me give you the best advice for managing this safely.
 
-**Patient**: Thanks for explaining all that. It’s good to know these symptoms are pretty typical and should improve with time. I’d appreciate any tips you have for managing the anxiety and trouble sleeping while I get through this.
+**Patient**: Thank you for explaining that. What should I expect going forward—how long do these withdrawal symptoms usually last, and is there anything specific I should be doing to help them improve?
+
+**Doctor**: From what you've told me, your symptoms started soon after you began cutting back on alcohol, and you're experiencing things like feeling shaky, anxious, confused, and having trouble sleeping. These are all signs that your body is adjusting to a lower level of alcohol—a process called alcohol withdrawal.
+
+Usually, symptoms like these begin within a day or two of reducing alcohol and can last anywhere from a few days up to a week. The most intense symptoms often peak in the first 2–3 days, then gradually improve. During this time, it's important to keep yourself well-hydrated, eat regular meals even if your appetite is low, and get as much rest as you can. If you feel safe to do so, try to avoid situations that add stress or require intense concentration until you're feeling better.
+
+However, if you notice more severe symptoms—such as seeing or hearing things that aren’t there, severe confusion, fever, or any kind of seizure—you should seek medical help right away, as these can be signs of more serious withdrawal.
+
+Let me ask: are you trying to stop drinking completely right now, or are you just cutting back gradually? That will help me give you more specific advice for your situation.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 644
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 794
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 40-year-old male presenting with alcohol withdrawal. He experienced agitation, confusion, tremulousness, tachycardia (HR 106), and hypertension (BP 157/117), with a CIWA score of 30, and was noted to be sedated and unable to answer questions regarding his last alcohol intake. His history is significant for depression, suicidal ideation, alcohol abuse, hyperlipidemia, anxiety, obstructive sleep apnea, GERD, and possible NASH; he has no known drug allergies. On exam, he was afebrile (temp 98°F), tachycardic, hypertensive, and O2 saturation was 96% on room air. The documented diagnosis was alcohol withdrawal. Treatment included administration of 15 mg IV diazepam, 2 liters of normal saline, and 5 mg haloperidol for agitation.
-
-## Dialogue Summary
-
-The patient presented with shakiness and feeling "not myself," suspected to be related to stopping alcohol use. Symptoms included tremors, agitation, confusion described as difficulty focusing and processing information (without memory loss), feeling sedated at times, anxiety, and sleep disturbances such as trouble falling and staying asleep; these symptoms began a couple of days after stopping drinking and fluctuate in severity, sometimes improving with rest but without clear triggers. The patient denied fainting, hallucinations, or seizures, and reported that the symptoms were interfering with daily activities at home and work. No specific medical history, medications, or allergies were mentioned. On assessment, the doctor noted classic symptoms of mild to moderate alcohol withdrawal, including tremors, agitation, difficulty concentrating, and sleep problems, with reassurance that the absence of hallucinations or seizures was a positive sign. The doctor advised staying hydrated, eating regular meals, and getting adequate rest, and recommended seeking medical attention if more severe symptoms such as hallucinations or severe disorientation develop. The patient expressed understanding and requested further tips for managing anxiety and sleep issues during withdrawal.
-
-## STS Evaluation
-
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 61.1s
+- **Processing Time**: 88.9s

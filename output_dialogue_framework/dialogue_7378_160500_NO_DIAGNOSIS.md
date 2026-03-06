@@ -16,90 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.789
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the patient's profile and mild case type. The doctor asks appropriate clarifying questions about the symptoms, explores relevant details (onset, severity, impact, associated features), and provides a reasonable summary and reassurance. No unsupported diagnoses, tests, or treatments are introduced. The patient responses are coherent and match the described symptoms. The conversation stays focused on the presenting complaints and avoids unnecessary complexity.
+- **Score**: 0.789
+- **Justification**: Combined score 0.79 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.43 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.429 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient could mention any over-the-counter remedies tried or any other minor symptoms noticed, but overall responses are clear and relevant.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: Doctor could briefly acknowledge the patient's cardiac history and reassure that current symptoms do not suggest acute cardiac issues, given the profile. Otherwise, questioning and reasoning are thorough.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: Dialogue flows logically from symptom clarification to assessment and advice. The closing summary is clear and supportive.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety netting is appropriately included (warning signs to watch for). Clarity is good; doctor could explicitly mention that if symptoms change given cardiac history, prompt follow-up is important.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Good to see you today. What’s been bothering you lately?
+**Doctor**: Hello, it's good to see you today. How have you been feeling lately? What brings you in?
 
-**Patient**: I've just been feeling kind of poorly for about a month now. That's really what's been bothering me.
+**Patient**: I've just been feeling kind of off lately. That's really why I wanted to come in—I'm not feeling like myself.
 
-**Doctor**: Let me ask about what you mean by feeling poorly—are you mostly tired, or is it more aches, headaches, or something else?
+**Doctor**: Let me ask about how long you've been feeling this way—did it start suddenly, or has it come on gradually over time?
 
-**Patient**: Headaches have been the main thing, I think. I wouldn't say I'm just tired—it's more that my head hurts and I just don't feel like myself.
+**Patient**: It's been going on for about a month now. It wasn't sudden—it just sort of crept up on me over time.
 
-**Doctor**: Let me ask about your headaches—are they constant throughout the day, or do they come and go? Also, have you noticed anything else unusual, like sweating more than usual or feeling feverish?
+**Doctor**: Let me ask about how this is affecting your daily life—are you able to do your usual activities, or has this feeling been interfering with things you normally enjoy?
 
-**Patient**: The headaches seem to come and go, not really constant all day. I have noticed I've been sweating more than usual lately, too. I haven't felt feverish, though.
+**Patient**: It's been getting in the way a bit. I find myself not wanting to do as much, and I'm more tired than usual. Even things I usually enjoy just feel harder lately.
 
-**Doctor**: Alright. Have you noticed if the sweating happens mostly at night or during the day? And does it seem related to any activity or is it happening even when you’re resting?
+**Doctor**: Let me ask about any physical symptoms—have you noticed things like headaches, body aches, or anything else unusual along with feeling tired and off?
 
-**Patient**: The sweating happens during the day, mostly. It doesn't seem to matter if I'm active or just sitting around—it comes on even when I'm resting.
+**Patient**: Headaches have been bothering me, too. They come and go, but they've definitely been more frequent since all this started.
 
-**Doctor**: Got it. Over the past month, would you say these symptoms are staying about the same, getting worse, or improving at all?
+**Doctor**: Alright. Have you noticed any sweating or feeling unusually hot or cold when you're not exerting yourself?
 
-**Patient**: They've pretty much stayed the same over the past month. I haven't noticed any real improvement or that it's getting worse—just the same headaches and sweating.
+**Patient**: I have noticed I've been sweating more than usual, even when I'm not doing anything active. It just sort of happens out of the blue.
 
-**Doctor**: Let me ask about the sweating—would you describe it as mild or is it enough to soak through your clothes? And have you noticed any weight changes or changes in appetite recently?
+**Doctor**: Got it. When you feel more tired or sweaty, does it tend to happen at certain times of day, or is it pretty random?
 
-**Patient**: The sweating is mild—not enough to soak through my clothes. I haven't noticed any changes in my weight or appetite, either.
+**Patient**: It seems pretty random. I haven't noticed a specific time of day when I feel more tired or sweaty—it just comes and goes.
 
-**Doctor**: Got it. How much are these symptoms affecting your daily activities—are you able to do most things as usual, or has it made you cut back on anything you normally do?
+**Doctor**: Let me ask about your headaches—how severe are they when they occur, and do you notice anything that seems to trigger or relieve them?
 
-**Patient**: I'm still able to do most things as usual. The headaches and sweating are annoying, but they haven't really stopped me from my regular activities.
+**Patient**: The headaches aren't the worst pain I've ever had, but they're definitely uncomfortable—maybe around a 5 out of 10. I haven't noticed anything specific that brings them on or makes them go away. Resting might help a bit, but they just seem to come and go on their own.
 
-**Doctor**: Let me ask about when all of this began—can you remember if anything specific happened around the time these symptoms started, like a recent illness, new medication, or a change in your routine?
+**Doctor**: Okay, considering you've been feeling off for about a month and these symptoms are interfering with your usual activities, has this feeling been getting steadily worse, staying about the same, or do you notice any improvement at times?
 
-**Patient**: No, I can't think of anything specific that happened around the time this started. I haven't had any new illnesses or changes in my medications or routine.
+**Patient**: Things have stayed about the same over the past month. I haven't noticed much improvement, but it hasn't gotten a lot worse either. The sweating and headaches just keep coming and going.
 
-**Doctor**: Based on what we've discussed, it sounds like you've been dealing with off-and-on headaches and some mild daytime sweating for about a month, but without other concerning symptoms like fever, weight loss, or changes in your daily routine. Since the symptoms are stable and not severe, that's somewhat reassuring.
+**Doctor**: From what you've described, it sounds like you've been experiencing ongoing fatigue, feeling off, and episodes of sweating for about a month, which are interfering with your usual activities. These symptoms are common in several mild conditions, such as viral infections, stress-related issues, or even changes in your routine or sleep. Sometimes, mild infections or changes in metabolism can cause this kind of pattern.
 
-Often, headaches that come and go without other warning signs can be related to things like mild tension, dehydration, or even subtle changes in sleep or stress. Mild sweating can sometimes go along with headaches, or could be related to things like room temperature or even mild anxiety.
+The fact that your symptoms haven't worsened and there are no severe warning signs is reassuring. However, the persistence suggests it’s worth monitoring and possibly making some lifestyle adjustments—like ensuring regular hydration, balanced meals, and gentle activity if you feel up to it.
 
-At this point, I don't hear anything that suggests a serious underlying problem. However, if you notice new symptoms—like headaches that become much worse, vision changes, confusion, persistent fevers, or drenching night sweats—it would be important to let us know right away.
+If you notice new symptoms such as chest pain, shortness of breath, confusion, or if your current symptoms start to significantly worsen, it would be important to seek medical attention sooner.
 
-For now, you might try tracking when the headaches and sweating occur to see if you notice any patterns. Staying hydrated and managing stress can also help with headaches. If things persist beyond another few weeks or get worse, we can consider checking in again or doing some basic tests to rule out underlying causes.
+Based on what we've discussed today, my assessment is that you are likely experiencing a mild, nonspecific condition—possibly related to a lingering viral infection or minor metabolic change. If things don't improve in the next couple of weeks, or if you develop new symptoms, let me know so we can look into it further.
 
-Does that all make sense? Is there anything else about these symptoms that's been worrying you?
+Does this explanation make sense to you? Is there anything else you'd like to discuss or clarify?
 
-**Patient**: That all makes sense, thank you for explaining it. I’ll start keeping track of when the headaches and sweating happen. I appreciate you looking into it and letting me know what to watch out for.
+**Patient**: Thanks for explaining that. Is there anything specific I should be doing at home to help with the symptoms, or is it just a matter of waiting to see if things get better?
+
+**Doctor**: Let me share my thoughts. From what you've told me, your symptoms seem mild but persistent, and they're affecting your daily routine. This pattern often happens with lingering viral infections, mild metabolic shifts, or even changes in stress or sleep. Because you haven't noticed any clear triggers for feeling poorly or sweating, it's likely not related to activity or environment.
+
+To help at home, focus on staying well hydrated, eating balanced meals, and getting gentle exercise if you feel up to it. Good sleep is important, so try to maintain a regular schedule. If you notice your symptoms worsening or new issues like chest pain, confusion, or difficulty breathing, please reach out sooner.
+
+Most cases like yours improve gradually, but if things don't get better in a couple of weeks, we can look into it further. Let me know if you have questions or if anything changes.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 678
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 830
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 69-year-old male presenting with a one-month history of feeling poorly, headache, and diaphoresis. Symptoms began at the start of the month and prompted further cardiac evaluation. Relevant history includes hypertension, hypercholesterolemia, prior abdominal aortic aneurysm repair, aortobifemoral bypass, pulmonary embolus, mild thrombocytopenia, gout, benign prostatic hypertrophy, basal-cell carcinoma, and former tobacco use. Preoperative medications included aspirin, Zestril, doxazosin, Lipitor, allopurinol, vitamin E, fish oil, calcium, and multivitamins. On physical examination, vital signs were stable; notable findings included a regular heart rhythm with a 2/6 systolic murmur and positive S4, but no edema or jugular venous distension. Cardiac testing revealed significant coronary artery disease with multiple stenoses (up to 75%) and a positive stress test for inferolateral ST depression. The documented diagnosis was severe multi-vessel coronary artery disease. The patient was referred for coronary artery bypass surgery.
-
-## Dialogue Summary
-
-The patient presented with feeling "poorly" for about a month, primarily due to headaches. The headaches were described as coming and going rather than constant, and the patient also reported mild daytime sweating that occurs regardless of activity level. No fever, weight changes, appetite changes, or impact on daily activities were noted, and the patient denied any recent illness, medication changes, or routine changes. The sweating was characterized as mild, not soaking through clothes. On assessment, the doctor noted stable symptoms without concerning features such as fever, weight loss, or functional decline. The doctor suggested that intermittent headaches and mild sweating could be related to tension, dehydration, subtle sleep or stress changes, or mild anxiety, and did not find evidence of a serious underlying problem at this time. The patient was advised to track symptom patterns, stay hydrated, manage stress, and report any new or worsening symptoms such as severe headaches, vision changes, confusion, persistent fevers, or drenching night sweats; follow-up or basic tests may be considered if symptoms persist or worsen.
-
-## STS Evaluation
-
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 58.9s
+- **Processing Time**: 75.3s

@@ -16,86 +16,93 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.915
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the patient's profile and symptoms. The doctor asks appropriate, focused questions about the chest pain and left arm pain, explores relevant associated symptoms, and provides a reasonable explanation and plan for further evaluation. There are no unsupported diagnoses, treatments, or test orders. The conversation maintains a primary-care tone and does not escalate to ICU-level interventions or introduce unrelated content.
+- **Score**: 0.915
+- **Justification**: Combined score 0.92 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.85 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.850 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and appropriately expresses concern. For even greater realism, the patient could mention any relevant past history (e.g., prior heart issues) or medications if prompted.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. For completeness, the doctor could briefly ask about risk factors (e.g., smoking, diabetes) or current medications, but this is not strictly necessary given the focused nature of the visit.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with each question building on the previous answer. The transition from symptom exploration to explanation and plan is smooth.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: The doctor appropriately emphasizes the seriousness of the symptoms and recommends prompt evaluation without causing undue alarm. Safety advice is clear. No concerns.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it’s good to see you today. What’s been bothering you lately, and how can I help?
+**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me what you've been feeling lately?
 
-**Patient**: My chest has been hurting lately, and it’s got me a bit worried. That’s really why I came in today.
+**Patient**: I’ve been having some chest pain lately, and it’s got me pretty worried. That’s the main reason I came in today.
 
-**Doctor**: Let me ask about the timing—when did you first start noticing this discomfort in your chest?
+**Doctor**: Let me ask about something related—have you noticed any pain or discomfort in your left arm along with the chest pain?
 
-**Patient**: I'm not exactly sure, but I think it started a couple of days ago. It just kind of came on gradually.
+**Patient**: Yes, I’ve felt some pain in my left arm too, along with the chest pain. It’s been making me pretty uneasy.
 
-**Doctor**: Let me ask about the nature of the discomfort—can you describe what the sensation feels like? For example, is it sharp, dull, pressure-like, or something else?
+**Doctor**: Let me ask about the timing—when did you first notice these symptoms, and how often do they occur?
 
-**Patient**: The pain feels more like a pressure in my chest, not really sharp. Sometimes it seems to move into my left arm too.
+**Patient**: I’m not sure exactly when it started, maybe a few days ago. The pain comes and goes, but it’s been happening more often lately. The left arm pain usually shows up around the same time as the chest pain.
 
-**Doctor**: Got it. Does this pressure tend to come on with activity, like walking or climbing stairs, or does it also happen when you’re resting?
+**Doctor**: Let me ask about associated symptoms—have you had any shortness of breath, sweating, nausea, or dizziness when these episodes happen?
 
-**Patient**: It usually gets worse when I’m walking or doing something active. If I’m sitting and resting, it’s not as bad.
+**Patient**: I haven’t noticed any shortness of breath, sweating, nausea, or dizziness. It’s really just the chest pain and left arm pain that I’ve been experiencing.
 
-**Doctor**: Alright. Have you noticed any other symptoms when this pressure comes on, like shortness of breath, sweating, or feeling lightheaded?
+**Doctor**: Alright. Can you describe how intense the discomfort feels—would you rate it as mild, moderate, or severe? And does anything seem to trigger it, like physical activity or eating?
 
-**Patient**: No, I haven’t had any sweating or felt lightheaded. It’s mostly just the chest pressure and the pain in my left arm.
+**Patient**: The pain feels moderate most of the time, but sometimes it gets pretty uncomfortable. I haven’t noticed any clear triggers—sometimes it comes on when I’m just sitting, other times when I’m moving around.
 
-**Doctor**: Okay. How severe would you say the pressure is, on a scale from 1 to 10, with 10 being the worst pain you can imagine?
+**Doctor**: Got it. One more thing—have you tried anything to relieve the discomfort, like resting or taking any medications? If so, did it help at all?
 
-**Patient**: I’d rate the pressure around a 6 out of 10 when it’s at its worst. It’s definitely uncomfortable but not unbearable.
+**Patient**: I’ve tried resting when the pain comes on, and that sometimes makes it a bit better. I’m currently taking Zestril, Heparin, Lopressor, and Aspirin, but I’m not sure if any of them are helping with the pain specifically.
 
-**Doctor**: Let me ask about how long these episodes usually last—does the pressure go away after you rest, or does it linger for a while?
+**Doctor**: Let me ask about your daily routine—has this discomfort affected your ability to do normal activities, like walking, climbing stairs, or household chores?
 
-**Patient**: When I sit down and rest, the pressure usually goes away after a few minutes. It doesn’t really linger once I stop what I’m doing.
+**Patient**: It has definitely made things harder. I find it tough to walk or do chores around the house when the pain comes on. Climbing stairs is especially difficult during those times.
 
-**Doctor**: Let me ask about your left arm—when you feel that discomfort, does it go all the way down your arm or just stay near your shoulder? And does anything in particular seem to trigger or relieve it?
+**Doctor**: Okay, let me ask about your medical history—have you ever experienced anything similar in the past, or is this the first time you've had these kinds of symptoms?
 
-**Patient**: The pain goes down my left arm, not just the shoulder. Activity seems to bring it on, and resting helps it go away.
+**Patient**: This is the first time I’ve had these kinds of symptoms. I haven’t experienced anything like this before.
 
-**Doctor**: Based on what we've discussed, your symptoms—pressure in the chest that comes on with activity and eases with rest, along with discomfort radiating down your left arm—are concerning for a possible heart-related cause, such as angina. What often happens with angina is that the heart muscle isn't getting enough oxygen during exertion, leading to this type of discomfort. 
+**Doctor**: Based on what we've discussed, your symptoms—moderate chest discomfort that sometimes radiates to your left arm, occurring both at rest and with activity, and affecting your daily routine—are concerning for a possible heart-related issue, such as angina. Angina happens when the heart muscle isn't getting enough oxygen, often due to narrowed blood vessels. The medications you're taking (Zestril, Heparin, Lopressor, and Aspirin) are commonly used to help manage and prevent heart problems, which suggests your doctors may have suspected or been treating something similar.
 
-While you haven’t noticed things like sweating or severe shortness of breath, the pattern and location of your symptoms mean it’s important not to ignore them. I would strongly recommend that you get evaluated further, ideally today, to rule out any heart issues. This might involve an EKG and possibly some blood tests to check your heart.
+Even though you haven't had other symptoms like shortness of breath or nausea, the pattern and impact on your activities make it important to take this seriously. What often happens with angina is that pain can come and go, especially with exertion or stress, but sometimes it occurs even at rest.
 
-In the meantime, avoid strenuous activity and seek immediate care if the pain becomes severe, lasts longer than usual, or is accompanied by new symptoms like nausea, sweating, or fainting. Would you like help arranging a prompt evaluation?
+My recommendation is that you continue to rest when the pain comes on, avoid strenuous activity for now, and keep track of when these episodes happen. If you ever notice the pain becoming severe, lasting more than a few minutes, or accompanied by other symptoms like sweating or difficulty breathing, seek emergency care right away.
 
-**Patient**: Thank you for explaining that. I appreciate you taking it seriously. Yes, I’d like help arranging to get checked out today.
+From what you've told me, it appears you may be experiencing angina—a condition where the heart isn't getting enough blood flow. We'll want to confirm this with further evaluation and possibly adjust your treatment as needed.
+
+Let me know if you have any questions or concerns about this explanation.
+
+**Patient**: Thank you for explaining that. Can you tell me what kind of tests or evaluations I should expect next to figure out what's going on?
+
+**Doctor**: From what you've told me, your symptoms and the impact on your daily activities suggest that your heart may not be getting enough blood flow at times, which is commonly called angina. This is often related to narrowing of the blood vessels that supply the heart.
+
+To figure out exactly what's going on, the next steps usually include some tests to assess how your heart is working. Typically, we might start with an electrocardiogram (ECG) to look at your heart's electrical activity, and sometimes a stress test to see how your heart handles physical activity. Blood tests can help check for markers of heart strain or damage, and an echocardiogram can show how well your heart is pumping.
+
+The reason for these tests is to confirm whether your symptoms are due to angina or another cause, and to help guide the best treatment moving forward. If your pain gets worse or is accompanied by new symptoms, it's important to seek urgent care.
+
+Let me know if you have questions about these tests or anything else on your mind.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 562
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 875
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 67-year-old male presenting with chest pain and left arm pain. His symptoms were relieved with nitroglycerin, and he was found to have a myocardial infarction confirmed by enzyme testing, though his EKG was negative. Past medical and surgical history were noncontributory, and he has a documented allergy to penicillin. On examination, he was afebrile with stable vital signs, clear lungs, regular heart rhythm, and no edema. Cardiac catheterization revealed disease in the obtuse marginal, left anterior descending, and right coronary arteries, with an ejection fraction of 35%. The documented diagnosis was myocardial infarction with multivessel coronary artery disease. He underwent a three-vessel coronary artery bypass graft (CABG) and had an uncomplicated postoperative course, including rapid extubation and removal of chest tubes. Treatment included Zestril, heparin, Lopressor, aspirin, and postoperative vancomycin.
-
-## Dialogue Summary
-
-The patient presented with chest pain as the chief complaint. He described the pain as a pressure sensation in his chest that started gradually a couple of days ago, rated as 6 out of 10 in severity at its worst, and noted that it sometimes radiates down his left arm. The chest pressure and arm discomfort are triggered by activity such as walking and climbing stairs, and both symptoms resolve within minutes of resting; he denied associated symptoms such as sweating, shortness of breath, or lightheadedness. No relevant medical history, medications, or allergies were mentioned during the encounter. On clinical review, the doctor noted the activity-related chest pressure and radiation to the left arm, with relief upon rest. The doctor assessed that these symptoms are concerning for a possible heart-related cause, such as angina, due to their exertional nature and location. The doctor recommended prompt evaluation today to rule out cardiac issues, including an EKG and blood tests, advised avoidance of strenuous activity, and instructed the patient to seek immediate care if symptoms worsen or new symptoms develop. The patient agreed to arrange for further evaluation as advised.
-
-## STS Evaluation
-
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 63.7s
+- **Processing Time**: 96.0s

@@ -16,88 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.933
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is consistent with the provided patient profile and case type. The doctor asks appropriate questions about headache characteristics, post-operative fatigue, and screens for neurological symptoms. The patient responses are plausible and match the expected experience after cranial surgery. The doctor provides a reasonable summary and advice without introducing unsupported diagnoses or treatments. There are no obvious hallucinations or contradictions.
+- **Score**: 0.933
+- **Justification**: Combined score 0.93 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.78 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.778 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For added realism, the patient could mention any medications being taken or ask about expected recovery time.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: Doctor's questioning and explanations are thorough and empathetic. For improvement, the doctor could briefly check for medication side effects or ask about pain management strategies currently used.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical, with each question building on previous answers. The summary and advice are well-timed and appropriate.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The doctor appropriately advises monitoring for new symptoms and clarifies when to seek further care.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome in. How have you been feeling lately? What brings you in today?
+**Doctor**: Welcome, it's good to see you today. How have you been feeling since your cranial surgery? Are there any particular concerns or symptoms you'd like to discuss?
 
-**Patient**: I've been having headaches lately, and that's mainly why I came in today.
+**Patient**: I've mostly been dealing with headaches since the surgery. That's been my main concern lately.
 
-**Doctor**: Let me ask about the headaches—when did they first start, and have you noticed if they're happening at certain times of day or after specific activities?
+**Doctor**: Let me ask about your energy levels—have you noticed any unusual fatigue or changes in your sleep patterns since the surgery?
 
-**Patient**: I'm not sure exactly when it started, maybe a few days ago. I haven't noticed a specific time or activity that makes it worse.
+**Patient**: I have noticed I'm more tired than usual since the surgery. My sleep hasn't really changed, but the fatigue is definitely there.
 
-**Doctor**: Let me ask about the pain itself—how would you describe the intensity of your headaches, say on a scale from 1 to 10? And is the pain steady or does it come and go?
+**Doctor**: Let me ask about your headaches—do they tend to come and go, or are they more constant throughout the day? And is there anything you've noticed that seems to make them better or worse?
 
-**Patient**: I'd rate the pain around a 6 out of 10. The headache feels pretty steady most of the time. I’ve also been feeling more tired than usual, especially since my cranial surgery.
+**Patient**: The headaches are pretty constant throughout the day. I haven't really noticed anything that makes them better or worse—they just kind of stick around.
 
-**Doctor**: Got it. Since you mentioned feeling more tired than usual after your cranial surgery, does getting extra rest help with your fatigue, or do you still feel worn out even after sleeping or relaxing?
+**Doctor**: Let me ask about your fatigue—does taking breaks or resting during the day help, or do you still feel tired even after you've had a chance to relax?
 
-**Patient**: Extra rest helps a bit, but I still feel pretty worn out even after sleeping. The fatigue just doesn't seem to go away completely.
+**Patient**: Even after I rest or take breaks, I still feel pretty tired. It doesn't seem to go away with just relaxing.
 
-**Doctor**: Alright. Since you've had cranial surgery, have you noticed any new symptoms besides fatigue—such as changes in your vision, balance, or speech? Sometimes these can help us understand if anything needs closer attention.
+**Doctor**: Alright. Have you experienced any other symptoms since your surgery, such as vision changes, difficulty concentrating, or sensitivity to light or sound?
 
-**Patient**: No, I haven't noticed any changes in my vision, balance, or speech. It's mainly just the headache and feeling more tired than usual.
+**Patient**: I haven't noticed any vision changes or sensitivity to light or sound. My main issues have just been the headache and feeling tired since the surgery.
 
-**Doctor**: Got it. Has your tiredness made it harder for you to do things like work, household tasks, or hobbies lately? Or are you mostly able to keep up with your usual routine?
+**Doctor**: Got it. One more question—has the fatigue affected your ability to do your usual daily activities, like work, exercise, or household tasks?
 
-**Patient**: Yes, the tiredness has made it harder to keep up with my usual activities. I find myself needing to take breaks more often than I used to.
+**Patient**: Yes, the fatigue has made it harder to keep up with my usual activities. I get worn out faster than before and can't do as much as I used to.
 
-**Doctor**: Let me ask about something related—have you noticed any sensitivity to light or sound when you have these headaches? Sometimes that can help us figure out what type of headache you’re experiencing.
+**Doctor**: Let me ask about the headaches themselves—on a scale from 1 to 10, how intense would you say they are most days? And have they changed at all since your surgery, or have they stayed about the same?
 
-**Patient**: No, I haven't noticed any sensitivity to light or sound with these headaches.
+**Patient**: Most days, the headaches are around a 6 or 7 out of 10. They started after the surgery and have stayed about the same since then.
 
-**Doctor**: Let me ask about your recovery since the surgery—have you noticed any changes in your appetite or sleep patterns along with the fatigue? Sometimes those can give us clues about your overall healing process.
+**Doctor**: I see. Since your fatigue has made daily activities more difficult, have you noticed any changes in your mood or motivation, such as feeling down or less interested in things you usually enjoy? Sometimes fatigue after surgery can affect emotional well-being, so it’s helpful to check in about this.
 
-**Patient**: I haven't really noticed any changes in my appetite or sleep patterns. It's mainly just the fatigue that's been different.
+**Patient**: I haven't really felt down or lost interest in things—I just get frustrated sometimes because the fatigue makes it tough to do what I want. My mood overall has stayed about the same.
 
-**Doctor**: Based on what we've discussed, it sounds like your headaches and ongoing fatigue are affecting your day-to-day activities, but you haven’t noticed any concerning new neurological symptoms like changes in vision or speech. After cranial surgery, it’s common to experience some fatigue as your body continues to heal—this can last for weeks or sometimes even longer depending on the type of procedure and your overall health.
+**Doctor**: From what you've described, the headaches and tiredness began after your cranial surgery and have been fairly constant since then. It’s common for people to experience lingering headaches and reduced energy following this type of procedure, as the body is still healing. These symptoms can persist for several weeks or sometimes longer, depending on the specific surgery and individual recovery.
 
-The steady nature of your headache and the lack of other symptoms such as light or sound sensitivity suggest this isn’t a classic migraine. It’s reassuring that you haven’t noticed any sudden changes or severe symptoms, but it’s important to keep monitoring for anything new.
+What often happens is that the brain and surrounding tissues are adjusting post-surgery, which can cause discomfort and make you feel less energetic. While these symptoms are frustrating, they are usually not a sign of something serious if you aren’t experiencing other issues like vision changes, confusion, or worsening pain.
 
-For now, pacing yourself and allowing extra rest is wise. Staying hydrated, gentle movement as tolerated, and maintaining a regular sleep schedule can help with recovery. If you notice your headaches suddenly worsen, or if you develop new neurological symptoms, those would be reasons to seek prompt medical attention.
+My assessment is that your headaches and fatigue are likely related to your recent cranial surgery and the ongoing healing process. Most people gradually improve over time. To help manage this, it’s important to pace yourself, allow for rest, stay hydrated, and avoid overexertion. If you notice new symptoms—such as sudden worsening of headache, confusion, difficulty speaking, or weakness—it would be important to seek medical attention promptly.
 
-Let me know if you have any questions about what we’ve discussed or if there’s anything specific you’re concerned about.
+Do you recall how long ago your surgery was? That can help us gauge the expected recovery timeline.
 
-**Patient**: Thanks for explaining all of that. It helps to know the fatigue is pretty normal after surgery. I’ll keep an eye out for any changes, but for now I’ll try to take it easy and follow your advice.
+**Patient**: Thanks for explaining that. How long does it usually take for these headaches and fatigue to go away after this kind of surgery?
+
+**Doctor**: Based on what we've discussed, it sounds like your recovery is following a fairly typical pattern after cranial surgery. These types of procedures often lead to a period where people feel more tired and may have discomfort, which can last for several weeks. The healing process is gradual, and symptoms like reduced energy tend to improve slowly as the body and brain recover.
+
+Most people notice steady improvement within the first 4-8 weeks after surgery, but some may take longer depending on the specifics of the operation and their overall health. The fact that you haven’t had new or worsening issues, such as vision changes or confusion, is reassuring.
+
+The best approach right now is to continue pacing yourself—listen to your body, rest as needed, and avoid pushing too hard. Staying hydrated and maintaining a balanced diet can also support your recovery. If you notice any sudden changes or new symptoms, let your care team know right away.
+
+Let me know if you have questions about ways to manage your energy or if you’d like tips on easing back into your usual activities.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 656
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 863
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 54-year-old female presenting with headache. She reported extensive headaches associated with a right-sided sphenoid meningioma, which had been stable on imaging but refractory to medical management. Her past medical history includes valvular heart disease and occasional heartburn, and she has no known drug allergies. On physical exam, she was alert and oriented, with normal neurological findings and a well-healing surgical incision; headaches persisted but were better controlled with revised medications. Laboratory results were notable for a glucose of 163 mg/dL and otherwise unremarkable basic labs. The documented diagnosis was right-sided sphenoid meningioma. She underwent elective right craniotomy for mass resection without perioperative complications. Postoperative pain was effectively managed with oral medications, and she progressed well during her hospital stay.
-
-## Dialogue Summary
-
-The patient presented with headaches as the chief complaint. The headaches began a few days ago, are steady in nature, and rated at 6 out of 10 in intensity; no specific triggers or time patterns were identified. The patient also reported increased fatigue since cranial surgery, with extra rest providing only partial relief, and noted that tiredness has made it harder to keep up with usual activities. No changes in vision, balance, speech, appetite, sleep patterns, or sensitivity to light or sound were reported. Relevant history includes recent cranial surgery. On assessment, the doctor noted the absence of concerning neurological symptoms and classic migraine features, attributing the fatigue to post-surgical recovery. The doctor recommended pacing activities, allowing extra rest, staying hydrated, gentle movement as tolerated, and maintaining a regular sleep schedule. The patient was advised to monitor for any new or worsening symptoms and seek prompt medical attention if they occur.
-
-## STS Evaluation
-
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 58.6s
+- **Processing Time**: 90.9s

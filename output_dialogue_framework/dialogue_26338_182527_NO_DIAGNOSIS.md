@@ -16,88 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.923
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, open-ended questions about the progression and impact of weakness, explores associated symptoms (headache, nausea, vomiting), and provides reasonable safety advice without introducing unsupported diagnoses or severe interventions. The patient responses are coherent and match the described symptoms. There are no obvious hallucinations or contradictions.
+- **Score**: 0.923
+- **Justification**: Combined score 0.92 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.88 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.875 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and introduces associated symptoms naturally. For even greater realism, the patient could mention any attempts at self-management or express specific concerns or anxieties.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. To further improve, the doctor could briefly ask about any recent injuries, medication changes, or relevant medical history, as these are common in such assessments.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and smooth, with each question building on previous answers. The transition to safety advice and next steps is appropriate. A brief summary or explicit check for understanding at the end could enhance closure.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is clear and appropriate for a light case with concerning but not severe symptoms. The recommendation for in-person evaluation is prudent. No clarity issues detected.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it’s nice to see you today. What’s been bothering you or bringing you in for a visit?
+**Doctor**: Hello, it's nice to meet you. How have you been feeling lately, and what brings you in today?
 
-**Patient**: I've been having some weakness in my legs that's gotten worse, and it's starting to worry me.
+**Patient**: I've been having some weakness in my legs that's getting worse, and it's starting to really concern me. That's the main reason I'm here today.
 
-**Doctor**: Let me ask about how this is affecting your everyday activities—are you having trouble walking, standing up from a chair, or doing things around the house?
+**Doctor**: Let me ask about how this is impacting your daily routine—are you finding it difficult to walk, stand, or do certain activities because of the weakness?
 
-**Patient**: Yes, it's been harder to walk and stand up from a chair lately. I notice my legs just don't feel as strong as they usually do.
+**Patient**: It’s definitely making it harder for me to walk around and do things like I normally would. Standing for any length of time is a lot more difficult now.
 
-**Doctor**: Let me ask about your arms—have you noticed any weakness or changes in strength there, or is it mainly just your legs?
+**Doctor**: Let me ask about other areas—have you noticed any weakness in your arms, or is it just your legs that are affected?
 
-**Patient**: Yes, I've started to notice some weakness in my arms too. It wasn't there at first, but it's been happening more recently.
+**Patient**: I have noticed some weakness in my arms too, not just my legs. It seems like it’s getting a bit worse over time.
 
-**Doctor**: Let me ask about any other changes—have you noticed numbness, tingling, or any unusual sensations in your arms or legs?
+**Doctor**: Let me ask about the timing—when did you first start noticing these changes, and how quickly have they progressed?
 
-**Patient**: No, I haven't noticed any numbness or tingling—just the weakness in my legs and now in my arms.
+**Patient**: I'm not exactly sure when it first started, but I know it's been getting worse over time. It feels like it’s progressed pretty steadily, not suddenly.
 
-**Doctor**: Alright. When did you first notice these changes, and have they come on gradually or suddenly?
+**Doctor**: Alright. Have you noticed any numbness, tingling, or changes in sensation anywhere, or is it mainly just the weakness?
 
-**Patient**: I first noticed the weakness in my legs a few days ago, and it seems like it's been coming on gradually rather than all at once.
+**Patient**: I haven’t noticed any numbness or tingling—it's mainly just the weakness that’s been bothering me.
 
-**Doctor**: Got it. Have you noticed any problems with your balance or any recent falls since these changes began?
+**Doctor**: Got it. Are there any specific activities or times of day when you notice the weakness feels worse, or does it stay about the same throughout the day?
 
-**Patient**: I haven't had any falls, but my balance does feel off when I try to walk.
+**Patient**: It pretty much stays the same throughout the day. I haven’t noticed any particular time or activity that makes it worse.
 
-**Doctor**: Tell me more about how this is affecting your daily routine—are you able to manage things like climbing stairs, getting dressed, or carrying groceries, or do you find yourself needing help with those tasks?
+**Doctor**: Got it. When you try to do everyday tasks like climbing stairs or carrying groceries, are you able to manage on your own, or do you need help?
 
-**Patient**: It's been tough to keep up with my usual routine. Climbing stairs is harder, and I need to take breaks. I've also had a headache and some nausea along with the weakness.
+**Patient**: I can still manage most things on my own, but it’s definitely harder than before. Carrying groceries or climbing stairs takes a lot more effort now.
 
-**Doctor**: Got it. When you have the headache and nausea, do they come on at the same time as the weakness, or do they happen separately?
+**Doctor**: Let me ask about your medical history—are you currently taking any medications, or have you had any recent illnesses or injuries that might be related?
 
-**Patient**: The headache and nausea usually come on around the same time as the weakness. Sometimes I also feel like I might vomit when the headache gets worse.
+**Patient**: I'm currently taking Prempro, Univasc, and aspirin. I haven’t had any recent illnesses or injuries that I can think of.
 
-**Doctor**: Based on what we've discussed, it sounds like these changes are making daily tasks much more challenging for you, and the combination of symptoms is important to pay attention to. Sometimes, when weakness spreads from the legs to the arms and is accompanied by other symptoms, it can be due to a range of causes—from something as simple as a viral illness affecting your body’s energy, to changes in the nervous system or even issues with things like electrolytes or blood pressure.
+**Doctor**: Based on what we've discussed so far, your symptoms of gradually worsening weakness in both your legs and arms, without numbness or tingling, are important to look into. This kind of pattern can sometimes be related to issues with muscle strength, nerve function, or even certain conditions affecting the nervous system.
 
-Because these symptoms are new and getting worse, it’s important to check for anything that might need more urgent attention. Warning signs to watch for would include sudden difficulty speaking, swallowing, seeing, or breathing, or if you lose control of your bladder or bowels. If any of those happen, seek care right away.
+Let me share my thoughts: Since you haven't had any recent illness or injury and your medications don't typically cause this kind of weakness, it's likely not a sudden reaction. The steady progression suggests something more chronic or ongoing, rather than an acute problem.
 
-For now, I recommend you arrange an in-person evaluation soon so a healthcare provider can examine your strength, check your reflexes, and possibly do some basic tests. In the meantime, try to avoid situations where you might fall, and ask for help with tasks that feel unsafe.
+For now, I recommend keeping track of any new symptoms like changes in sensation, difficulty swallowing, or problems with coordination. If you notice any rapid worsening, trouble breathing, or loss of function, those would be warning signs to seek care urgently.
 
-Let me know if you have any questions or if anything changes before your appointment.
+Given your current situation, I think it's important to do a physical exam and possibly some basic tests to check your muscle strength and rule out common causes. Many times, mild weakness can be due to age-related muscle loss or medication effects, but we want to be thorough.
 
-**Patient**: Thanks for explaining all that. I understand what to watch out for, and I’ll make sure to get checked out soon. If anything changes or I notice any of those warning signs, I’ll reach out right away.
+Based on your description, my initial assessment is that you may be experiencing a mild, progressive muscle weakness—possibly related to a benign neuromuscular condition or age-related changes. We'll look into this further together.
+
+**Patient**: Thanks for explaining that. What kinds of tests will you be doing to figure out what’s causing the weakness in my legs and arms?
+
+**Doctor**: From what you've told me, your weakness is affecting both your arms and legs and has been gradually getting worse. This pattern helps us narrow down possible causes. To figure out what's going on, I'll start with a physical exam to check your muscle strength, reflexes, and coordination. This can help us see if the issue is coming from the muscles themselves or possibly the nerves that control them.
+
+Depending on what we find, we might order some basic blood tests to look for things like vitamin deficiencies, thyroid function, or signs of inflammation—these are common reasons for mild, progressive weakness. If needed, we could also consider more specialized tests, but often the physical exam and blood work give us good initial clues.
+
+For now, it's reassuring that you haven't noticed numbness or sudden changes, and you're still able to manage daily activities. We'll take a stepwise approach and keep you informed as we learn more.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 621
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 791
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 56-year-old woman presenting with a chief complaint of leg weakness progressing to arm weakness over one day. She also reported headache, nausea, and vomiting, and had taken four aspirin for the headache. Her history includes hypertension, menopause, and a fall down stairs one month prior with head trauma but no initial medical evaluation. On examination, she was hypertensive (BP 160/79), alert, with right-sided deltoid, triceps, finger extensor, pronator drift, and knee flexion weakness, as well as right upgoing toes; left pupil was nonreactive. CT of the head revealed a subacute and acute subdural hematoma with midline shift and minimal hydrocephalus. The documented diagnosis was chronic subdural hematoma. She underwent left frontal and parietal burr hole evacuation of the hematoma without complications. Postoperatively, her course was stable and follow-up CT showed good evacuation of the hematoma.
-
-## Dialogue Summary
-
-The patient presented with progressive weakness in the legs, which has worsened over the past few days and is now affecting daily activities. The patient reported difficulty walking, standing up from a chair, climbing stairs, and noted that their legs do not feel as strong as usual; recently, similar weakness has developed in the arms. There was no numbness or tingling, but the patient described feeling off-balance while walking and experiencing headache and nausea that typically occur alongside the weakness, sometimes with a sensation of impending vomiting. No history of falls was reported, and the patient has found it increasingly difficult to manage routine tasks without assistance. No relevant medical history, medications, or allergies were mentioned during the visit. The doctor noted the gradual onset and progression of weakness from legs to arms, associated with headache and nausea, and discussed possible causes including viral illness, nervous system changes, or metabolic disturbances. The doctor advised arranging an in-person evaluation soon for further assessment, recommended avoiding fall risks and seeking help with unsafe tasks, and provided instructions to seek urgent care if warning signs such as difficulty speaking, swallowing, seeing, breathing, or loss of bladder/bowel control occur.
-
-## STS Evaluation
-
-- **STS Score**: 0.965
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 61.2s
+- **Processing Time**: 92.1s

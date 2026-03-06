@@ -16,90 +16,93 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.850
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about sleep, medication use, CPAP adherence, and symptoms related to sleep apnea. The patient responses are coherent and match the expected experience for someone with sleep apnea undergoing a sleep study. No unsupported diagnoses, treatments, or severe symptoms are introduced. The clinical reasoning is sound and grounded in the patient's history.
+- **Score**: 0.850
+- **Justification**: Combined score 0.85 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.50 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.500 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For added realism, the patient could mention any attempts to address CPAP discomfort or ask specific questions about alternatives.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: Doctor provides thorough, empathetic explanations and asks logical follow-up questions. For improvement, the doctor could briefly mention the importance of CPAP adherence in relation to comorbidities (e.g., heart failure, diabetes) for educational value.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is smooth, with logical progression from general sleep questions to specific issues with CPAP and sleep quality. The summary and plan at the end are clear and collaborative.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The doctor appropriately advises the patient to report worsening symptoms and explains next steps clearly.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in, or is there anything in particular you'd like to talk about regarding your health?
+**Doctor**: Hello, it’s good to see you today. What brings you in—how have you been feeling lately?
 
-**Patient**: I'm here today for my scheduled sleep study. I don't have any new symptoms to mention right now, just following up as planned.
+**Patient**: I’m here for a scheduled sleep study. I haven’t really noticed any new symptoms lately, but I was told to come in for this test.
 
-**Doctor**: Let me ask about your sleep in general—how have you been sleeping lately? Any changes or concerns since your last visit that you'd like to discuss before we proceed with the sleep study?
+**Doctor**: Let me ask—do you know what prompted your provider to recommend the sleep study? For example, has anyone mentioned concerns about your sleep, like snoring or feeling tired during the day?
 
-**Patient**: No big changes lately, just here for the sleep study as planned. I don't have any new concerns about my sleep right now.
+**Patient**: I’m not exactly sure what led to the sleep study—I wasn’t told any specific reason. Since you mentioned it, what should I expect during the test?
 
-**Doctor**: Got it. Since you're here for your sleep study and have no new concerns, let me ask—are you currently taking any medications or using anything to help with your sleep? This can be helpful for interpreting your sleep study results.
+**Doctor**: Let me explain a bit about what happens during a sleep study. You'll usually spend the night in a sleep lab where sensors are placed on your body to monitor things like your breathing, heart rate, oxygen levels, and brain activity while you sleep. This helps us look for issues such as pauses in breathing, restless movements, or unusual sleep patterns. 
 
-**Patient**: Yes, I take zolpidem at night to help with sleep. That's the main thing I use for sleep right now.
+Before we proceed, have you or anyone in your household ever noticed things like loud snoring, choking or gasping during sleep, or waking up feeling unrefreshed?
 
-**Doctor**: Let me ask about your experience with zolpidem—do you feel it helps you get restful sleep, or have you noticed any side effects or issues since starting it? This can help us understand how it's working for you as we move forward with your sleep study.
+**Patient**: Nobody’s mentioned hearing me snore or gasp at night. I don’t usually wake up feeling refreshed, but I’m not sure if it’s anything out of the ordinary.
 
-**Patient**: Yes, I do think zolpidem helps me get to sleep. I haven't noticed any side effects from it so far.
+**Doctor**: Let me ask about your energy during the day—do you ever feel unusually sleepy or have trouble staying awake when you’re at work, driving, or relaxing?
 
-**Doctor**: Let me ask about your overall energy during the day—do you feel rested when you wake up, or do you often feel tired or sleepy throughout the day? This can help us understand how effective your sleep is, beyond just falling asleep.
+**Patient**: During the day, I do feel tired sometimes, but I don’t usually have trouble staying awake when I’m working or relaxing. I haven’t noticed anything unusual with my energy levels.
 
-**Patient**: Most mornings I still feel tired, even after a full night’s sleep. I do notice I’m pretty sleepy during the day too.
+**Doctor**: Let me ask about your sleep routine—do you have trouble falling asleep, staying asleep through the night, or waking up too early? Or is your sleep pretty steady once you go to bed?
 
-**Doctor**: Alright. Have you ever been told that you snore loudly or stop breathing during sleep? Sometimes these can be clues about why someone feels tired during the day, even with a full night's sleep.
+**Patient**: My sleep is a bit up and down. Sometimes I have trouble staying asleep through the night, but I usually fall asleep without much difficulty.
 
-**Patient**: Yes, I've been told that I snore pretty loudly. I also have sleep apnea, so stopping breathing during sleep has been an issue in the past.
+**Doctor**: Alright. When you wake up during the night, do you usually have trouble falling back asleep, or are you able to drift off again pretty easily?
 
-**Doctor**: Got it. Let me ask about your sleep apnea—are you currently using any treatment, like a CPAP machine or another device, to help manage it? This can make a big difference in daytime energy and overall sleep quality.
+**Patient**: Most nights, I can fall back asleep without too much trouble. It doesn’t usually keep me up for long.
 
-**Patient**: I do have a CPAP machine, but I haven’t been using it as regularly as I should. I know it’s important, so I’m hoping this sleep study will help me get back on track.
+**Doctor**: Got it. How long has your sleep been like this—has it been a recent change, or have you noticed these nighttime awakenings for several months or even years?
 
-**Doctor**: Alright. Have you noticed any particular reasons or barriers that have made it difficult to use your CPAP consistently? Sometimes issues like comfort, fit, or dryness can get in the way, and addressing those can really help.
+**Patient**: I’d say it’s been going on for quite a while—probably several years. It hasn’t really changed much recently.
 
-**Patient**: The main problem is the mask feels uncomfortable and sometimes I wake up with a dry mouth. That’s made it tough to keep using it every night.
+**Doctor**: Let me ask about your routine—do you consume caffeine, alcohol, or use electronic devices close to bedtime? Sometimes these can affect sleep quality and lead to nighttime awakenings.
 
-**Doctor**: Based on what we've discussed, it sounds like the main challenges with your CPAP are discomfort from the mask and waking up with a dry mouth. These are actually very common issues for people using CPAP, and there are often ways to make things more comfortable—like trying different mask styles or adding a humidifier to reduce dryness.
+**Patient**: I don’t drink alcohol, but I do have some caffeine during the day—usually coffee in the morning. I sometimes use my phone or watch TV before bed.
 
-The fact that you’re still feeling tired during the day, even with medication, suggests your sleep apnea may not be fully controlled right now. When sleep apnea isn’t well managed, it can lead to ongoing fatigue despite a full night’s rest.
+**Doctor**: Based on what we've discussed, it sounds like your main sleep issue has been waking up during the night, but you’re usually able to fall back asleep and your daytime energy is generally okay. You haven’t had symptoms like loud snoring or gasping for air, which are often clues for conditions like sleep apnea. Sometimes, things like using screens before bed or long-standing sleep patterns can affect how restful your sleep feels.
 
-The upcoming sleep study will give us useful information about your current sleep patterns and how well your treatment is working. Afterward, we can look at adjustments—maybe a different mask or settings—to help you use your CPAP more regularly and comfortably.
+The purpose of the sleep study is to get a detailed look at your sleep quality and rule out any underlying problems that might not be obvious—like brief pauses in breathing or abnormal movements. Even though your symptoms are mild and longstanding, this test can help clarify if there’s anything medical contributing to your sleep being “up and down.”
 
-In the meantime, if you notice any worsening symptoms—such as severe daytime sleepiness, morning headaches, or mood changes—let us know. These can be signs your sleep apnea needs more urgent attention.
+For now, you might try winding down with a relaxing routine and limiting screen time before bed, as blue light can sometimes make it harder to stay asleep. We’ll review the results of your sleep study together, and I’ll explain exactly what it shows and what the next steps are.
 
-Let’s plan to review your sleep study results together and come up with a strategy to improve your sleep quality and energy levels. Does that sound like a good plan to you?
+If you notice any new symptoms—like loud snoring, waking up gasping, or excessive daytime sleepiness—let me know right away. Otherwise, we’ll wait for your results and go from there. Does that all make sense, or is there anything else you’d like to ask about your sleep?
 
-**Patient**: That sounds good to me. I appreciate you explaining the options—I’d be interested in trying a different mask or adding a humidifier if it helps. I’ll keep an eye out for any changes and look forward to seeing what the sleep study shows.
+**Patient**: Thanks for explaining all that. If the sleep study does find something unusual, what kind of treatments or changes should I expect?
+
+**Doctor**: From what you've told me, your sleep issues are relatively mild—mainly brief awakenings at night, but no major daytime sleepiness or other concerning symptoms. The sleep study is a way to check for hidden problems, like sleep apnea or restless leg movements, that you might not notice yourself.
+
+If the study does find something unusual, the next steps depend on what’s found. For example, if there are signs of sleep apnea (where breathing stops briefly during sleep), treatments can range from simple lifestyle changes—like adjusting sleep position or losing weight—to using a device called CPAP that helps keep your airway open at night. If it’s something like restless legs or another movement issue, we’d look at different strategies, which could include stretching, adjusting medications, or addressing iron levels.
+
+Most commonly, if nothing serious is found, improving your bedtime routine—like reducing screen time before bed and keeping a consistent schedule—can make a real difference.
+
+We’ll go over your results together and talk through any recommendations step by step. In the meantime, if you develop new symptoms or your sleep worsens, let me know sooner. Does that help clarify what to expect?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 759
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 935
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 53-year-old man presenting for a scheduled admission for a sleep study due to known sleep apnea. He reported no current symptoms and his review of systems was unremarkable. His medical history includes diabetes mellitus type 2, dyslipidemia, hypertension, stage IV chronic kidney disease, morbid obesity, chronic systolic congestive heart failure (EF 40-50%), coronary artery disease, atrial fibrillation on warfarin, and gout. Physical examination revealed an obese man in no acute distress with normal cardiopulmonary and abdominal findings and no edema. Laboratory results showed mild anemia, elevated INR (2.0), elevated creatinine (3.0), and elevated urea nitrogen (78), consistent with his chronic conditions. The documented diagnosis was sleep apnea in the context of multiple comorbidities. The treatment plan included completion of the scheduled sleep study and monitoring; an arterial line was placed as part of the procedure. No acute interventions or medication changes were documented during this admission.
-
-## Dialogue Summary
-
-The patient presented for a scheduled sleep study without new symptoms or concerns. They reported taking zolpidem nightly to help with sleep, which they feel is effective and have not noticed any side effects. Despite this, the patient experiences persistent morning tiredness and daytime sleepiness. They have a history of sleep apnea and loud snoring, and currently own a CPAP machine but have not been using it regularly due to mask discomfort and waking with a dry mouth. The doctor noted these barriers to CPAP use and explained that ongoing fatigue may indicate poorly controlled sleep apnea. The treatment plan includes proceeding with the sleep study, considering adjustments such as trying different mask styles or adding a humidifier to improve CPAP comfort, and monitoring for worsening symptoms like severe daytime sleepiness, morning headaches, or mood changes. The doctor recommended reviewing the sleep study results together to develop a strategy for improving sleep quality and energy levels.
-
-## STS Evaluation
-
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 63.2s
+- **Processing Time**: 97.3s

@@ -16,72 +16,93 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.939
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is highly plausible for a primary-care visit regarding neck pain in an older adult. The doctor asks appropriate questions about onset, aggravating factors, associated symptoms, pain severity, impact on daily life, and possible causes. The patient responses are consistent and realistic. There are no unsupported diagnoses, treatments, or severe events introduced. The only issue is the abrupt simulation end due to a technical error, not a content problem.
+- **Score**: 0.939
+- **Justification**: Combined score 0.94 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.93 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.929 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Responses are clear and relevant. For improvement, the patient could provide more detail about home pain management if prompted.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: Doctor's questioning is thorough and appropriate. Could consider asking about history of trauma or falls given age and neck pain, especially with known C2 fracture.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: Flow is logical and natural. The abrupt end due to simulation error interrupts the conversation; ensure technical stability for full exchanges.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns in the dialogue itself. For clarity, doctor could explicitly address the known C2 fracture if relevant to current symptoms.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it’s good to see you today. What brings you in—how have you been feeling lately?
+**Doctor**: Hello, it's good to meet you. What brings you in today—can you tell me about any discomfort or symptoms you've been experiencing lately?
 
-**Patient**: I've been having some neck pain lately, and it's been bothering me more than usual. That's really why I wanted to come in today.
+**Patient**: I've been having some neck pain lately. It's been bothering me enough that I thought I should get it checked out.
 
-**Doctor**: Let me ask about the pain—when did you first notice it, and has it been getting steadily worse or does it come and go?
+**Doctor**: Let me ask about the pain—how long have you been dealing with this, and is it constant or does it come and go?
 
-**Patient**: I noticed it a few days ago, but I'm not exactly sure when it started. The pain kind of comes and goes—it isn’t constant.
+**Patient**: I'm not exactly sure how long it's been, maybe a few days? The pain seems to stick around most of the time, but sometimes it's a bit worse than others.
 
-**Doctor**: Alright. Have you noticed if certain movements or positions make your neck feel better or worse? For example, does turning your head or looking up or down affect the discomfort?
+**Doctor**: Let me ask about your daily activities—has this neck discomfort made it harder for you to do things like turning your head, sleeping comfortably, or doing routine tasks?
 
-**Patient**: Turning my head to the side does seem to make the pain worse. Looking down isn’t too bad, but twisting my neck is uncomfortable.
+**Patient**: Turning my head has definitely become a bit tougher, and it’s made sleeping less comfortable than usual. I haven’t noticed too much trouble with routine tasks so far, but the pain does make me more cautious.
 
-**Doctor**: Let me ask about any other symptoms—have you noticed any numbness, tingling, or weakness in your arms or hands along with the neck discomfort?
+**Doctor**: Got it. Does anything in particular seem to make your neck feel better or worse—like certain movements, heat, cold, or rest?
 
-**Patient**: I haven’t noticed any numbness, tingling, or weakness in my arms or hands. It’s really just the neck pain that’s bothering me.
+**Patient**: Resting my neck does help a bit, but certain movements definitely make the pain worse. I haven’t really tried heat or cold yet, so I’m not sure if those would help.
 
-**Doctor**: Got it. On a scale from 1 to 10, how would you rate the discomfort at its worst? And does it interfere with your sleep or daily activities at all?
+**Doctor**: Let me ask about other sensations—have you noticed any numbness, tingling, or weakness in your arms or hands along with the neck discomfort?
 
-**Patient**: At its worst, I'd rate the pain around a 6 out of 10. It does make it harder for me to get comfortable at night, but I can still do most of my usual activities.
+**Patient**: I haven’t felt any numbness, tingling, or weakness in my arms or hands—just the neck pain itself.
 
-**Doctor**: Let me ask about your recent activities—have you done anything unusual, like new exercise routines, heavy lifting, or long periods at a computer, that might have contributed to this discomfort?
+**Doctor**: Alright, considering how it’s impacting your sleep, could you tell me how intense the discomfort feels—would you rate it as mild, moderate, or severe? And does it ever wake you up at night?
 
-**Patient**: I haven’t done anything out of the ordinary recently—no new exercises or heavy lifting. Most of my routine has been the same.
+**Patient**: I’d call the discomfort moderate. It does make it harder to stay asleep, and I’ve woken up a few times because of it.
 
-**Doctor**: Let me ask about your pain management—have you tried anything at home, like using heat or ice, gentle stretching, or over-the-counter pain relievers? If so, has anything helped?
+**Doctor**: Let me ask about your overall health—have you had any recent injuries, falls, or unusual physical activity that might have triggered this neck pain?
+
+**Patient**: I haven’t had any injuries, falls, or unusual activity recently that I can think of. The pain just seemed to come on its own.
+
+**Doctor**: Let me ask about your general well-being—have you had any fever, recent headaches, or feeling unwell overall since the neck discomfort started?
+
+**Patient**: I haven’t had any fever, headaches, or felt unwell overall since the neck pain started. It’s just the discomfort in my neck.
+
+**Doctor**: From what you've told me, your neck discomfort has been present for a few days, is moderate in intensity, and worsens with movement but improves somewhat with rest. You haven’t noticed any concerning symptoms like numbness, weakness, or fever, and there’s no history of injury or unusual activity.
+
+This pattern is most consistent with a common musculoskeletal strain or tension, which can develop from posture changes, minor muscle overuse, or even sleeping in an awkward position. It’s reassuring that you don’t have signs of nerve involvement (like numbness or weakness) or systemic illness.
+
+For management, I recommend starting with gentle neck stretches and avoiding positions or movements that worsen the discomfort. Applying heat (such as a warm compress) can often help relax muscles and ease pain. If you haven’t already, you might try an over-the-counter pain reliever like acetaminophen or ibuprofen, provided you don’t have any allergies or contraindications to these medications. Ensuring good sleep posture—using a supportive pillow and avoiding sleeping on your stomach—can also make a difference.
+
+Most cases improve within a week or two. If you notice any new symptoms such as arm weakness, numbness, severe headache, or fever, please seek medical attention promptly. Otherwise, gentle activity and self-care should help you recover.
+
+Let me know if you have questions about these recommendations or if you’d like guidance on specific stretches or pillow choices.
+
+**Patient**: Thanks for explaining that. If I start doing the stretches and using heat, how soon should I expect the pain to get better?
+
+**Doctor**: Based on what we've discussed, your symptoms point toward a mild muscle strain or tension in the neck, which is quite common and often improves with simple measures. Typically, if you begin gentle stretches and use heat, many people notice some relief within a few days, and significant improvement within one to two weeks.
+
+The reason these approaches help is that heat increases blood flow and relaxes tight muscles, while stretches keep the neck moving and prevent stiffness. If you continue to avoid aggravating movements and maintain good posture, your discomfort should steadily decrease.
+
+If you find that the pain isn’t improving after about 10-14 days, or if new symptoms develop, it would be wise to follow up for further evaluation. In the meantime, you can safely try these strategies at home.
+
+Would you like suggestions for specific stretches, or do you have questions about using heat therapy?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 13
-- **Word Count**: 359
-- **Doctor Turns**: 7
-- **Patient Turns**: 6
-
-## EHR Summary
-
-The patient is a 71-year-old male presenting with neck pain following a fall that resulted in a C2 fracture. He reported neck pain as the primary symptom, with no additional neurological deficits documented. His past medical history includes Crohn's disease (status post procto-colectomy), melanoma of the left forearm, prior right elbow surgery, benign prostatic hyperplasia, degenerative joint disease, right knee replacement, hypertension, and erectile dysfunction; he has allergies to amoxicillin, Flagyl, and latex. On physical exam, he was alert and oriented, in no acute distress, with intact motor strength and sensation in all extremities and symmetric reflexes. Laboratory results showed mild thrombocytopenia (platelet count 92–115) but were otherwise unremarkable. The documented diagnosis was C2 cervical spine fracture. Treatment included placement of a halo-vest for immobilization. No additional interventions or complications were noted during the admission.
-
-## Dialogue Summary
-
-The patient presented with neck pain as the chief complaint. The pain began a few days ago, is intermittent rather than constant, and is rated as 6 out of 10 at its worst. Turning the head to the side worsens the pain, while looking down is less uncomfortable; twisting the neck is also described as uncomfortable. The pain interferes with getting comfortable at night but does not prevent most daily activities. The patient denied any numbness, tingling, or weakness in the arms or hands. No recent changes in activity, new exercise routines, or heavy lifting were reported. The doctor inquired about home pain management strategies but did not provide specific recommendations before the simulation ended.
-
-## STS Evaluation
-
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
+- **Turn Count**: 19
+- **Word Count**: 823
+- **Doctor Turns**: 10
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 48.8s
+- **Processing Time**: 82.2s

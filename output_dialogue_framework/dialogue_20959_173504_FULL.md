@@ -16,94 +16,81 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.937
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the patient's profile and symptoms. The doctor asks appropriate, focused questions about the onset, triggers, and associated symptoms of lightheadedness, dizziness, and vertigo. The explanation of benign paroxysmal positional vertigo (BPPV) is reasonable given the described episode and lack of red-flag symptoms. The advice to monitor symptoms and seek care if they worsen is appropriate for a light case. There are no unsupported diagnoses, tests, or treatments introduced, and the conversation remains grounded in the provided information.
+- **Score**: 0.937
+- **Justification**: Combined score 0.94 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.79 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.789 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and does not introduce unsupported symptoms or history. For even greater realism, the patient could mention any relevant past medical history or medications if prompted.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and provides clear explanations. To further improve, the doctor could briefly acknowledge the known diagnosis of unruptured aneurysm (if relevant to the case context), or clarify if it is being considered in the differential, but it's reasonable to focus on benign causes given the mild presentation.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with appropriate follow-up questions and summary statements. The conversation ends with a clear plan and an invitation for further questions, which is realistic.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns are present. The doctor appropriately advises on red-flag symptoms and when to seek further care. Clarity is maintained throughout.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brings you in—can you tell me more about what's been bothering you lately?
+**Doctor**: Let me ask about how these symptoms are impacting you—are you finding that the lightheadedness or dizziness is interfering with your usual daily activities?
 
-**Patient**: I've been feeling lightheaded lately, and it's made me a bit concerned. That's really the main reason I wanted to come in today.
+**Patient**: The lightheadedness has made things a bit harder for me lately. I notice it most when I try to move around the house, and I have to sit down more often than usual. It hasn’t completely stopped me from doing things, but it does slow me down.
 
-**Doctor**: Let me ask about when you first noticed this—how long have you been feeling lightheaded?
+**Doctor**: Let me ask about the dizziness—does it tend to come on when you stand up, turn your head, or make certain movements? Or does it happen more randomly throughout the day?
 
-**Patient**: I'm not exactly sure, but I think it's been going on for a few days now.
+**Patient**: Sometimes the dizziness comes on when I stand up or move my head, but there are also times it just happens out of nowhere. I can’t always predict when it’ll start.
 
-**Doctor**: Let me ask about any other symptoms—have you noticed any dizziness, vision changes, or feeling like you might faint when you stand up?
+**Doctor**: Let me ask about something related—have you had any episodes where the room feels like it's spinning, almost like vertigo, or is it more of a general lightheaded feeling?
 
-**Patient**: Yes, I've definitely noticed some dizziness along with the lightheadedness. I also had one episode where it felt like the room was spinning—kind of like vertigo. I haven't had any vision changes, though.
+**Patient**: I actually did have an episode where the room felt like it was spinning—just like vertigo. That was pretty unsettling. Most of the time, though, it’s more of a general lightheaded feeling.
 
-**Doctor**: Let me ask about that spinning sensation—did it come on suddenly, and how long did it last?
+**Doctor**: Got it. When did you first notice the spinning sensation, and how long did that episode last?
 
-**Patient**: The spinning sensation came on pretty suddenly, and I think it lasted for just a few minutes. It was only that one episode.
+**Patient**: I noticed the spinning sensation just once, maybe a few days ago. It lasted for several minutes, but I’m not sure exactly how long.
 
-**Doctor**: Got it. Have you noticed if the lightheadedness or dizziness tends to happen at certain times, like when you get up quickly, after you've been sitting for a while, or during any specific activity?
+**Doctor**: Okay. Have you noticed any other symptoms during or after that spinning episode, such as nausea, trouble with your balance, changes in hearing, or ringing in your ears?
 
-**Patient**: I’ve noticed the lightheadedness and dizziness mostly when I’m moving around, like getting up from a chair or walking. It doesn’t seem tied to any specific activity, but I haven’t felt faint or anything like that.
+**Patient**: I haven’t noticed any nausea or changes in my hearing. My balance was off during the vertigo episode, but I didn’t have any ringing in my ears.
 
-**Doctor**: Alright. Has this feeling impacted your ability to do everyday things, like cooking, walking around the house, or running errands?
+**Doctor**: Alright. Since that spinning episode a few days ago, have your symptoms been improving, staying about the same, or getting worse?
 
-**Patient**: No, it hasn’t really stopped me from doing my usual things around the house or running errands. I’ve just been a bit more careful because of the dizziness.
+**Patient**: The symptoms have pretty much stayed the same since that vertigo episode. I still feel lightheaded and dizzy, but it hasn’t gotten worse.
 
-**Doctor**: Let me ask about that episode where the room felt like it was spinning—did you have any nausea, vomiting, or ringing in your ears during or after that event?
+**Doctor**: Got it. Let me ask—when you feel lightheaded or dizzy, do you ever notice your heart racing, skipping beats, or feeling unusually slow during those times?
 
-**Patient**: No, I didn’t have any nausea, vomiting, or ringing in my ears during or after that spinning episode. It was just the vertigo itself.
+**Patient**: I haven’t noticed my heart racing or skipping beats when I feel lightheaded or dizzy. It just feels like those symptoms, nothing unusual with my heartbeat.
 
-**Doctor**: Alright. When you had that episode where the room was spinning, were you doing anything in particular right before it happened, like turning your head quickly or getting up from bed? Sometimes vertigo can be triggered by certain movements, and knowing this helps us narrow down possible causes.
+**Doctor**: Let me ask about your recovery—after that spinning sensation passed, were you able to get back to your usual activities fairly quickly, or did you feel lingering effects for a while?
 
-**Patient**: I was just turning my head to look at something when it happened. I wasn’t getting up or moving quickly, it just sort of came on as I moved my head.
+**Patient**: After the spinning sensation went away, I was able to get back to my usual activities pretty quickly. I didn’t feel any lingering effects from that episode, just the ongoing lightheadedness and dizziness.
 
-**Doctor**: Based on what we've discussed, it sounds like your lightheadedness and brief episode of vertigo may be related to changes in position or certain head movements. This is often seen with a common condition called benign paroxysmal positional vertigo (BPPV), where small crystals in the inner ear become displaced and can cause brief spinning sensations when you move your head a certain way. The fact that you haven't had ongoing symptoms like hearing changes, persistent nausea, or trouble with your daily activities is reassuring.
+**Doctor**: Let me share my thoughts based on what we've discussed. It sounds like you've had one episode where the room was spinning, which is typical of vertigo, but most of the time it's more of a general lightheadedness and dizziness. Since you haven't had any heart symptoms or hearing changes, and you were able to resume your activities quickly after the spinning passed, this pattern often points toward a benign inner ear or positional issue—something fairly common, especially as we get older.
 
-These symptoms often improve on their own, but being cautious with sudden movements can help prevent falls. If the dizziness becomes more frequent, severe, or you develop new symptoms like double vision, weakness, difficulty speaking, or trouble walking, those would be reasons to seek care right away.
+Lightheadedness that comes on with standing or head movement can sometimes be related to mild dehydration, blood pressure changes, or even side effects from medications. The fact that it hasn't gotten worse and you haven't had any new concerning symptoms is reassuring.
 
-Let me ask—since this started, have your symptoms been getting better, worse, or staying about the same?
+For now, I'd recommend standing up slowly, making sure you're well hydrated, and being cautious with quick movements. If you notice the spinning episodes become frequent, develop new symptoms like double vision, weakness, or trouble speaking, or if the dizziness gets much worse, those would be reasons to reach out sooner. Does this all make sense, and is there anything else about how this is affecting your day-to-day life that you'd like to discuss?
 
-**Patient**: They’ve mostly stayed about the same, I think. I haven’t noticed them getting worse, and that spinning feeling only happened once. It’s helpful to know it might just improve on its own.
-
-**Doctor**: From what you've told me, your symptoms seem to fit with a common inner ear issue that can cause brief dizziness or spinning when you move your head a certain way. This usually isn't dangerous, but it can be unsettling and sometimes takes a little time to settle down. The fact that you're able to keep up with your usual activities and haven't had other concerning symptoms is reassuring.
-
-What often helps in these situations is moving slowly when getting up or turning your head, and being extra careful to avoid falls. Sometimes, specific head exercises can help resolve the symptoms more quickly—if things don’t improve or you’d like to try those, we can talk more about them.
-
-If you ever notice new issues like trouble walking, slurred speech, weakness, or if episodes become much more frequent or severe, those would be reasons to seek care promptly.
-
-For now, it’s reasonable to monitor how you’re feeling and see if the symptoms settle down. Does that plan sound okay to you, or do you have any concerns or questions about what we’ve discussed?
+**Patient**: Thank you, that all makes sense. I’ll be careful with standing up and moving around quickly like you suggested. One thing I wanted to mention—I have an unruptured left posterior communicating artery aneurysm that was treated with embolization. Should I be extra cautious because of that, or do these symptoms seem unrelated?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 19
-- **Word Count**: 807
-- **Doctor Turns**: 10
+- **Turn Count**: 18
+- **Word Count**: 724
+- **Doctor Turns**: 9
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 61-year-old female presenting with lightheadedness, dizziness, and an episode of vertigo that awakened her from sleep and lasted less than one minute. She denied numbness, palpitations, chest pain, or visual changes. Further workup revealed a 5 mm aneurysm of the left posterior communicating artery on MRI. Her past medical history, medications, and allergies are not specified. On admission, she underwent elective cerebral angiogram and coiling of the aneurysm under general anesthesia, which she tolerated well. Postoperatively, she was monitored in the Neurosurgical ICU with blood pressure control using Nipride infusion and received heparin for six hours; her coagulation and chem 7 profiles were normal. On examination, she was neurologically intact with stable vital signs and no deficits. The documented diagnosis was a left posterior communicating artery aneurysm, and treatment included endovascular coiling, blood pressure management, and postoperative monitoring.
-
-## Dialogue Summary
-
-The patient presented with lightheadedness as the chief complaint. Symptoms included several days of lightheadedness and dizziness, with one brief episode of vertigo described as a sudden spinning sensation lasting a few minutes, triggered by turning the head; no vision changes, nausea, vomiting, or ringing in the ears were reported. The patient noted that symptoms occurred mostly when moving around, such as getting up from a chair or walking, but had not interfered with daily activities. No relevant medical history, medications, or allergies were mentioned. The doctor assessed that the symptoms were likely related to benign paroxysmal positional vertigo (BPPV), given their positional nature and lack of concerning features. Physical findings were limited to the patient's descriptions, with no additional abnormalities noted. The doctor recommended being cautious with sudden movements to prevent falls and advised monitoring for new or worsening symptoms such as double vision, weakness, difficulty speaking, or trouble walking. The doctor also mentioned that symptoms often improve on their own and offered to discuss specific head exercises if symptoms persist or worsen.
-
-## STS Evaluation
-
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 61.9s
+- **Processing Time**: 86.2s

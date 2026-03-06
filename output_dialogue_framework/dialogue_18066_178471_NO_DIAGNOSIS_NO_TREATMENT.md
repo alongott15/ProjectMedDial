@@ -16,88 +16,185 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.835
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about the onset, progression, and associated symptoms of the left-sided weakness, as well as relevant medical history. The patient responses are coherent and match the profile. The doctor's reasoning and recommendations are cautious and appropriate for a light case with a known right frontal lobe mass and hypertension, without introducing unsupported diagnoses or severe interventions.
+- **Score**: 0.835
+- **Justification**: Combined score 0.83 (naturalness=0.70 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.85 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.700 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.850 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, the patient could mention any specific difficulties with daily tasks or express mild concern or questions about the symptoms.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: The doctor is thorough and empathetic. For improvement, the doctor could briefly acknowledge the known right frontal lobe mass earlier in the conversation to show awareness of the patient's history, and clarify what 'simple tests' might entail (e.g., basic neurological exam).
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with good transitions between topics. The conversation could be slightly more interactive if the patient asked a clarifying question or expressed a concern.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The doctor appropriately advises on warning signs and fall prevention. Clarity is good, but specifying what tests are planned would enhance transparency.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me a bit about how you've been feeling lately?
+**Doctor**: Hello, it’s good to see you today. What’s been going on—can you tell me more about what brought you in?
 
-**Patient**: I've been having some weakness on my left side, and it's been making things a bit harder for me lately. That's mainly why I came in.
+**Patient**: I’ve been having some weakness on my left side, and it’s made things a bit harder for me lately. That’s mainly why I came in today.
 
-**Doctor**: Let me ask about the timing—when did you first notice this weakness on your left side?
+**Doctor**: Let me ask about when you first noticed this change—how long have you been experiencing the weakness?
 
-**Patient**: I'm not exactly sure, but I think I started noticing the weakness a few days ago.
+**Patient**: I’m not exactly sure when it began, but I started noticing the weakness recently. I’ve also found myself veering to the left when I walk.
 
-**Doctor**: Let me ask about your daily activities—has this change made it difficult to walk or use your arm? Are there any tasks that have become noticeably harder for you?
+**Doctor**: Let me ask about other sensations—have you noticed any numbness, tingling, or changes in your ability to feel things on that side? Also, have you had any trouble with your speech, vision, or swallowing?
 
-**Patient**: Yes, it's definitely made walking harder. I find myself veering to the left when I try to walk, and my left arm feels weaker than usual.
+**Patient**: I haven’t noticed any numbness or tingling, and my speech, vision, and swallowing all seem normal. The main things have just been the weakness and sometimes feeling a bit dizzy.
 
-**Doctor**: Let me ask about other symptoms—have you noticed any changes in your speech, vision, or any numbness recently?
+**Doctor**: Let me ask about your balance—have you had any falls or close calls recently because of the dizziness or when you’re walking?
 
-**Patient**: No, I haven't noticed any changes with my speech or vision, and I haven't had any numbness. I do feel a bit dizzy sometimes, though.
+**Patient**: I haven’t actually fallen, but I do tend to drift to the left when I’m walking, and there have been a couple of times where I felt a bit unsteady.
 
-**Doctor**: Got it. When you feel dizzy, does it tend to come on suddenly, or is it more of a constant feeling throughout the day?
+**Doctor**: Alright. Have you noticed if certain activities or movements make the dizziness or unsteadiness worse, or does it seem to come on randomly throughout the day?
 
-**Patient**: The dizziness is more of a slight, off-and-on feeling during the day—not really sudden, just kind of there sometimes.
+**Patient**: It seems to happen at different times, not really tied to anything specific that I can tell. Sometimes it’s just when I’m up and moving around.
 
-**Doctor**: Alright. Since this has been going on for a few days, have you noticed if the weakness is getting better, staying the same, or getting worse over time?
+**Doctor**: Got it. One more thing—have you noticed any changes in your ability to use your left hand or arm, like difficulty gripping objects or doing tasks that used to be easy?
 
-**Patient**: It's been staying about the same since I first noticed it. I haven't seen much improvement or gotten worse.
+**Patient**: Using my left hand and arm has gotten harder. I’ve noticed it’s more difficult to grip things or do simple tasks with that side.
 
-**Doctor**: Let me ask about your medical history—have you ever experienced anything similar before, or do you have any conditions like diabetes, high blood pressure, or heart problems?
+**Doctor**: Got it. How much is this impacting your ability to do your usual daily activities, like getting dressed, preparing meals, or moving around your home?
 
-**Patient**: I've had high blood pressure for a while, but no diabetes or heart problems. I haven't experienced this kind of weakness before.
+**Patient**: It’s made things like getting dressed and cooking more challenging, especially since my left side just doesn’t feel as strong. I can still move around my home, but I have to be more careful.
 
-**Doctor**: Got it. Does anything seem to make the weakness or dizziness better or worse, like certain movements, times of day, or activities?
+**Doctor**: Let me ask about your overall strength—have you noticed any changes in your leg, like difficulty climbing stairs or standing up from a chair, compared to before?
 
-**Patient**: Nothing really seems to make it better or worse. The weakness and dizziness just kind of come and go, no matter what I'm doing.
+**Patient**: Climbing stairs and getting up from a chair are definitely harder than they used to be. My left leg just doesn’t feel as strong as before.
 
-**Doctor**: Based on what we've discussed, it sounds like you've had a new onset of difficulty with movement and balance over several days, without other neurological symptoms like speech or vision changes. Sometimes, issues like this can be related to circulation, minor nerve changes, or even underlying blood pressure effects. Since it's persistent and affecting your mobility, it's important to rule out anything more serious.
+**Doctor**: Based on what we've discussed, it sounds like you’re experiencing new weakness on your left side, along with some unsteadiness and difficulty with certain daily activities. While this has come on gradually and you haven’t had any falls or trouble with speech or vision, these kinds of symptoms can sometimes be related to changes in the brain or nervous system—such as a minor stroke, a problem with circulation, or other neurological conditions.
 
-For now, keep track of any new symptoms—especially sudden changes in speech, vision, or severe headache—as those can be warning signs that need immediate attention. Make sure to move carefully and consider using support when walking to prevent falls.
+What often happens in cases like this is that the nerves controlling movement on one side of the body aren’t communicating as well as they should. Even if you haven’t had numbness or pain, weakness and changes in coordination are important to check out. Dizziness and drifting to one side can also point toward balance centers in the brain.
 
-I'd recommend we do a basic physical exam and possibly some simple tests to better understand what's going on. In many cases, mild weakness can improve with rest and gentle activity, but given your history of high blood pressure, we want to be cautious.
+My recommendation is that you have a thorough neurological evaluation soon—ideally within the next day or two. While your symptoms sound mild right now, it’s important not to ignore new weakness, especially if it’s affecting your ability to function. Sometimes, early intervention can help prevent things from getting worse.
 
-Do you have any questions or concerns about what we've discussed so far?
+In the meantime, try to avoid situations where you might fall, and consider having someone nearby when you’re moving around. If you notice sudden changes—like trouble speaking, severe headache, vision loss, or if the weakness gets much worse—seek medical attention immediately.
 
-**Patient**: Thank you, that all makes sense. I appreciate you explaining things clearly. I’ll keep an eye out for any new symptoms and I’m ready for whatever tests you think are needed.
+Let’s arrange for you to get checked by a neurologist and possibly have some imaging done to better understand what’s happening. Does that sound reasonable?
+
+**Patient**: Thank you for explaining all of that. What kind of tests or imaging should I expect when I see the neurologist?
+
+**Doctor**: From what you’ve told me, your symptoms suggest a possible issue affecting the nerves or brain areas that control movement and balance. When someone develops new weakness on one side and changes in coordination, it’s important to rule out things like a small stroke or other neurological conditions.
+
+Typically, when you see the neurologist, they’ll start with a detailed examination to check your strength, reflexes, and coordination. Imaging—most commonly a brain MRI or sometimes a CT scan—helps look for any changes in the brain that could explain your symptoms. These tests are painless and help pinpoint the cause.
+
+Blood tests might also be done to check things like blood sugar, cholesterol, and other factors that can affect circulation or nerve health. All of this helps build a clear picture so the right treatment plan can be made.
+
+In the meantime, keep safety in mind—move carefully, use handrails, and have help nearby if possible. If anything suddenly worsens (like new trouble speaking or severe headache), get help right away.
+
+Let’s make sure you’re seen promptly so we can get answers and help you feel stronger.
+
+**Patient**: Thank you for explaining everything. How long does it usually take to get results from the MRI or other tests?
+
+**Doctor**: From what you’ve described, there are clear signs of new weakness and coordination changes on one side of your body. In someone your age, this pattern often points to a problem in the brain or nervous system—sometimes due to a minor stroke, a small area of reduced blood flow, or another neurological issue. The fact that you haven’t had any sudden severe symptoms is reassuring, but it’s still important to get this checked quickly.
+
+The next step is a neurological assessment and brain imaging, such as an MRI. These tests help identify whether there’s been a change in brain structure or blood flow that explains your symptoms. Blood tests may also be done to look for risk factors like high cholesterol or blood sugar.
+
+Most hospitals or clinics can perform an MRI within a day or two if the symptoms are new, and results are often available within 24–48 hours after the scan. Sometimes, if there’s concern about a recent stroke, things can move even more quickly.
+
+While you’re waiting for these appointments, focus on safety—move slowly, use support when walking, and have someone nearby if possible. If you notice any sudden worsening—like difficulty speaking, confusion, or severe headache—seek emergency care right away.
+
+The goal is to pinpoint the cause so we can start the right treatment and help you regain strength and independence as much as possible.
+
+**Patient**: Thank you for explaining all of this. Once the tests are done, how soon would I be able to start any treatment or therapy to help with the weakness?
+
+**Doctor**: Once the neurologist has reviewed your results, treatment or therapy can usually begin right away if needed. Early rehabilitation often leads to better outcomes, so you shouldn’t have to wait long to get started. If anything changes before your appointment, don’t hesitate to reach out.
+
+**Patient**: Thank you for letting me know. What kind of rehabilitation or therapy might be involved to help with my weakness?
+
+**Doctor**: Physical therapy is often a key part of rehabilitation, focusing on exercises to improve strength, balance, and coordination. Occupational therapy may also help you adapt daily activities to make things easier and safer. If you have any other questions as you go through this process, feel free to reach out.
+
+**Patient**: That helps to know, thank you. I think I’m clear on what to expect for now. If anything else comes up, I’ll reach out.
+
+**Doctor**: You're welcome. Feel free to reach out if you have any new concerns or questions.
+
+**Patient**: Thanks again for your help today. I’ll make sure to follow up if anything changes.
+
+**Doctor**: Absolutely, take care and don’t hesitate to get in touch if anything changes.
+
+**Patient**: I appreciate your help. I’ll reach out if anything changes or if I have more questions. Thank you for your time today.
+
+**Doctor**: Of course. Wishing you the best as you move forward—don’t hesitate to reach out if anything changes.
+
+**Patient**: Thank you, I appreciate your support. I’ll make sure to reach out if anything changes.
+
+**Doctor**: Absolutely, I’m glad I could help. Reach out anytime if you need anything further.
+
+**Patient**: Thanks, I will. I appreciate you taking the time to go through everything with me today.
+
+**Doctor**: Of course, and I’m glad I could support you today.
+
+**Patient**: Thank you for everything today. I feel better knowing what the next steps are.
+
+**Doctor**: Glad to hear you’re feeling more at ease about the next steps. Reach out anytime if you need anything further.
+
+**Patient**: Is there anything I should be doing differently at home while I wait for the neurologist appointment?
+
+**Doctor**: While you’re waiting, focus on moving carefully and use support if needed to stay safe. If anything changes or new symptoms develop, reach out right away.
+
+**Patient**: I understand. I’ll make sure to take it slow around the house and ask for help if I need it. Thank you for the advice.
+
+**Doctor**: Of course. Take care, and don’t hesitate to reach out if anything changes.
+
+**Patient**: Thanks again for your help today. I’ll make sure to let you know if anything changes.
+
+**Doctor**: Of course. Take care, and reach out if anything changes.
+
+**Patient**: I appreciate everything you’ve done today. I’ll stay careful at home and let you know if anything changes.
+
+**Doctor**: Absolutely, and take care.
+
+**Patient**: Thank you, I’ll do that. I appreciate all your help today.
+
+**Doctor**: Of course. Don’t hesitate to reach out if anything changes.
+
+**Patient**: Thanks, I will. I feel better knowing what to watch out for and what the next steps are.
+
+**Doctor**: Glad you’re feeling more comfortable with the plan. Reach out anytime if you have new concerns.
+
+**Patient**: Thank you, I will. I feel more prepared now and know what to watch for at home.
+
+**Doctor**: Absolutely—take care, and reach out if anything new comes up.
+
+**Patient**: Thanks again for your support. I’ll let you know if anything changes or if I have more questions.
+
+**Doctor**: Of course—wishing you all the best.
+
+**Patient**: Thanks again for your help today. I feel comfortable with the plan moving forward and will reach out if anything changes.
+
+**Doctor**: Glad to hear you feel comfortable with the plan. Reach out anytime if anything changes.
+
+**Patient**: Thank you, I will. I feel confident about what to do next and appreciate your guidance.
+
+**Doctor**: Glad to hear you feel confident moving forward. Reach out anytime if you have questions or concerns.
+
+**Patient**: Thanks, I will. I feel much more at ease now knowing what to expect and what to watch for.
+
+**Doctor**: You’re welcome. Reach out anytime if you have questions or concerns.
+
+**Patient**: Thanks for everything today. I’ll keep an eye on my symptoms and reach out if anything changes.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 578
-- **Doctor Turns**: 9
-- **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 72-year-old female presenting with left-sided weakness and a right frontal lobe mass. She reported weakness on the left side, veering to the left, and slight dizziness; MRI on 2143-4-20 revealed a right frontal lobe mass. Her past medical history includes hypertension, and she has no known drug allergies. On neurological examination prior to admission, she had normal gait but was unable to lift or hold her left leg, with weak left dorsiflexion, plantarflexion, and hand grip. The documented diagnosis was a right frontal lobe mass causing left-sided weakness. She underwent craniotomy and excision of the mass on 2143-5-7, tolerated the procedure well, and was continued on steroids postoperatively. Postoperatively, she initially had antigravity strength only in the left upper extremity and no strength in the left lower extremity, but her motor function gradually improved during her hospital stay. She is pending discharge to a rehabilitation bed for further recovery.
-
-## Dialogue Summary
-
-The patient presented with new-onset left-sided weakness. They reported difficulty walking, veering to the left, and weakness in the left arm, which began a few days ago and has remained stable without improvement or worsening. The patient also described occasional, mild dizziness throughout the day but denied any changes in speech, vision, or numbness. Relevant history includes longstanding high blood pressure; no prior similar episodes, diabetes, or heart problems were noted. On review, there were no acute neurological symptoms such as speech or vision changes. The doctor assessed that the symptoms could be related to circulation, minor nerve changes, or effects of blood pressure, and emphasized the need to rule out more serious causes due to the persistence and impact on mobility. The doctor advised the patient to monitor for new symptoms (especially sudden speech or vision changes or severe headache), move carefully to prevent falls, and agreed to perform a physical exam and possibly further tests. Rest and gentle activity were suggested, with caution given the patient's hypertension.
-
-## STS Evaluation
-
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
+- **Turn Count**: 60
+- **Word Count**: 1876
+- **Doctor Turns**: 30
+- **Patient Turns**: 30
 
 ## Processing Information
 
-- **Processing Time**: 56.3s
+- **Processing Time**: 283.5s

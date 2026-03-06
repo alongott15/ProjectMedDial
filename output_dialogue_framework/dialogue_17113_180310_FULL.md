@@ -16,72 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.900
+- Score: 0.830
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.900
-- **Justification**: The dialogue is plausible and consistent with the patient's profile and symptoms. The doctor asks appropriate, open-ended questions about the patient's energy, associated symptoms, timing, and aggravating/relieving factors. The patient provides relevant, believable responses. There are no unsupported diagnoses, treatments, or severe interventions introduced. The conversation is cut off due to a simulation error, not a content issue.
+- **Score**: 0.830
+- **Justification**: Combined score 0.83 (naturalness=0.70 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.83 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.700 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.833 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Continue to provide clear, relevant answers to the doctor's questions. If unsure about timing or details, it's realistic to express uncertainty.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Excellent job eliciting a thorough history and following up on key symptoms. Consider summarizing or clarifying as needed for patient understanding.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural. The abrupt end is due to a simulation error; otherwise, the conversation would likely continue smoothly.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns in the dialogue as presented. The doctor appropriately explores symptoms without making unsupported assumptions.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi there, it's good to see you today. What brings you in—how have you been feeling lately?
+**Doctor**: Hi, it's good to see you today. How have you been feeling lately? Is there anything specific you'd like to discuss or any changes you've noticed with your current condition?
 
-**Patient**: I've just been feeling really low on energy lately. It's been hard to get through the day, and I don't feel like myself.
+**Patient**: Lately, I've just been feeling really tired and worn out. I wanted to talk about how low my energy has been—it’s been hard to get through the day.
 
-**Doctor**: Let me ask about other symptoms—have you noticed any nausea, dizziness, or changes in your appetite along with the low energy?
+**Doctor**: Let me ask about associated symptoms—have you had any nausea, dizziness, or other changes like headaches or trouble sleeping along with the tiredness?
 
-**Patient**: Yes, I've been feeling nauseous and a bit dizzy too. My appetite hasn't been great either.
+**Patient**: I have had some nausea and dizziness along with the tiredness. There's also this dull pain around my upper belly area that comes and goes. I haven't noticed headaches or trouble sleeping though.
 
-**Doctor**: Let me ask about how long this has been going on—when did you first start noticing these changes?
+**Doctor**: Got it. How much is this tiredness and the other symptoms affecting your ability to do your usual daily activities?
 
-**Patient**: I'm not exactly sure, but I think it's been going on for several days now. Maybe close to a week.
+**Patient**: It's definitely making things harder. I get tired really quickly, and the nausea doesn't help—some days I just don't feel up to doing much at all. Even simple things like getting around the house take more effort now.
 
-**Doctor**: Got it. When you feel this way, does anything seem to make it better or worse—like eating, resting, or being active?
+**Doctor**: Let me ask about the tiredness—when did you first start noticing this low energy, and has it been getting progressively worse or staying about the same?
 
-**Patient**: Resting helps a little, but being active seems to make me feel worse. Eating doesn't really make a difference for me.
+**Patient**: I’m not exactly sure when it started, but the low energy has been getting worse over time. It feels like it’s gradually been building up rather than staying the same.
 
-**Doctor**: Got it. Over the past week, have your symptoms been getting better, staying about the same, or getting worse?
+**Doctor**: Let me ask about vomiting—have you actually thrown up at any point, or has it just been a feeling of nausea?
 
-**Patient**: They've mostly stayed about the same. The lethargy and nausea haven't really improved.
+**Patient**: I have actually vomited a few times, not just nausea. It’s been happening off and on along with the other symptoms.
 
-**Doctor**: Let me ask about stomach discomfort—have you had any pain in your abdomen, like around your belly button or the upper part of your stomach? Any episodes of vomiting?
+**Doctor**: Alright. Can you tell if anything specific seems to bring on the tiredness or episodes of vomiting, like certain foods, activity, or times of day? Or do they seem to happen randomly?
 
-**Patient**: I've had a dull pain around my belly button and upper stomach area. I've also been vomiting on and off.
+**Patient**: There doesn’t seem to be a clear pattern—it just happens randomly. I haven’t noticed any specific foods or activities that trigger the tiredness or vomiting.
 
-**Doctor**: Let me ask about your urine—have you noticed any decrease in how often you're urinating, or has the amount changed compared to your usual?
+**Doctor**: Let me ask about the belly pain—how intense is it when it happens, and does anything you do seem to make it better or worse?
+
+**Patient**: The pain is dull, not really sharp—maybe around a 4 out of 10. It’s mostly right around my upper belly and doesn’t change much with position or eating. Resting sometimes helps a bit, but it never fully goes away.
+
+**Doctor**: Got it. Have you noticed any changes in your appetite or weight since these symptoms started?
+
+**Patient**: My appetite has definitely gone down since all this started. I haven’t really noticed much weight change, but I’m also dealing with constipation and not going to the bathroom as much as usual.
+
+**Doctor**: From what you've told me, it sounds like your tiredness, nausea, occasional vomiting, and upper belly discomfort have been gradually getting worse and are now interfering with your daily life. The fact that you're also experiencing a decrease in appetite and constipation suggests your body might be reacting to an underlying issue in your digestive system or possibly something affecting your overall energy levels.
+
+Often, when symptoms like these come together—especially with gradual onset and no clear triggers—we consider things like changes in nutrition, hydration, stress, or even how your current treatment plan might be affecting you. Sometimes, medications or certain conditions can slow down the digestive tract, leading to symptoms like constipation and low appetite.
+
+At this point, I’d recommend keeping track of your symptoms—especially any worsening pain, persistent vomiting, fever, or if you notice blood in your stool or vomit, as these would need more urgent attention. Staying well-hydrated and eating small, bland meals can sometimes help with nausea. If things continue to worsen or you develop new symptoms, it would be important to check in sooner for further evaluation.
+
+Does this summary reflect what you’ve been experiencing? Is there anything else you’re concerned about or would like to discuss further regarding your symptoms or treatment plan?
+
+**Patient**: That summary lines up with what I’ve been dealing with. I also wanted to mention I’ve had some dizziness and overall fatigue, which has made things even tougher. Is there anything specific I should be doing to help manage the fatigue?
+
+**Doctor**: Based on what we've discussed, it sounds like your body is dealing with several overlapping issues—fatigue, dizziness, reduced appetite, and changes in digestion. When symptoms like these develop gradually and start to affect daily activities, they can sometimes be related to how your body is processing nutrients, hydration status, or even the effects of ongoing medications or chronic conditions.
+
+Fatigue can often be made worse by not eating enough, dehydration, or not getting restful sleep—even if you don’t feel like you’re sleeping poorly. Dizziness can sometimes result from low blood pressure, dehydration, or changes in nutrition. Since you’re also experiencing constipation, making sure you’re drinking enough fluids and trying to include fiber-rich foods (like fruits, vegetables, or whole grains) as tolerated may help support your energy and digestion.
+
+For managing fatigue: gentle activity like short walks, pacing yourself throughout the day, and prioritizing rest when needed can sometimes help. Eating small, frequent meals—even if your appetite is low—can also support your energy levels. If you notice your symptoms worsening, or if you experience new issues like fainting, chest pain, or confusion, please seek care promptly.
+
+Let me know if you have questions about any of these suggestions or if there’s anything else specific you’d like to address regarding your current plan.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 13
-- **Word Count**: 288
-- **Doctor Turns**: 7
-- **Patient Turns**: 6
-
-## EHR Summary
-
-The patient is a 39-year-old female presenting one day postpartum after a normal vaginal delivery with lethargy and abnormal liver and kidney function. She reported dull periumbilical epigastric pain for three to four days, bouts of nausea and vomiting during pregnancy, decreased urine output, fatigue, and dizziness. Her past medical history includes high cholesterol, and she has no known drug allergies. On admission, laboratory findings revealed leukocytosis (WBC 30), anemia (hematocrit 23), thrombocytopenia (platelets 136), elevated BUN (34) and creatinine (3.6), hypoglycemia (glucose 49), hypoalbuminemia (1.7), hyperbilirubinemia (6.8), prolonged PT (19.9), low fibrinogen (51), and markedly elevated liver enzymes (ALT 269, AST 169, alkaline phosphatase 787). These findings were consistent with acute liver failure. The patient was transferred to a higher-level facility for further management. Treatment prior to transfer included magnesium and Pitocin during delivery; no additional treatments are specified in this note.
-
-## Dialogue Summary
-
-The patient presented with low energy as the chief complaint. They reported feeling lethargic for several days to about a week, accompanied by nausea, dizziness, decreased appetite, dull abdominal pain around the belly button and upper stomach, and intermittent vomiting. The patient noted that resting provides some relief, while activity worsens symptoms; eating does not affect their condition. Symptoms have remained stable over the past week without improvement. No specific medical history, medications, or allergies were mentioned. The doctor inquired about urinary changes but did not receive a response before the simulation ended. No physical findings or formal assessment were documented. No treatment plan or recommendations were provided during the conversation.
-
-## STS Evaluation
-
-- **STS Score**: 0.950
-- **Similarity Label**: N/A
+- **Turn Count**: 19
+- **Word Count**: 925
+- **Doctor Turns**: 10
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 50.3s
+- **Processing Time**: 85.5s

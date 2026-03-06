@@ -16,90 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.933
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about the onset, progression, and impact of symptoms, including neurological signs and anxiety. The patient responses align with the profile and do not introduce unsupported details. The doctor's reasoning and recommendation for urgent evaluation are appropriate given the mild but concerning neurological symptoms. No hallucinations or unsupported content are present.
+- **Score**: 0.933
+- **Justification**: Combined score 0.93 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.91 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.909 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For added realism, the patient could mention any previous similar episodes or clarify if she has a history of migraines or other headache types.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: Doctor's approach is thorough and empathetic. For improvement, the doctor could briefly acknowledge the patient's known aneurysm and hypertension, as these are relevant to the risk assessment.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical, with each question building on previous answers. The transition from symptom exploration to safety advice is smooth.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety is well addressed with clear instructions for urgent evaluation and warning signs. Clarity is excellent; all recommendations are explained in understandable terms.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What’s been on your mind or bothering you lately?
+**Doctor**: Hello, it’s nice to meet you. What brings you in today, and how have you been feeling lately?
 
-**Patient**: I've been having headaches lately, and it's starting to bother me.
+**Patient**: I've been having headaches lately, and that's what's brought me in today.
 
-**Doctor**: Let me ask about the headaches—when did they first start, and how often are you getting them?
+**Doctor**: Let me ask about how these headaches are affecting your daily life—are they making it difficult to do your usual activities or get through the day?
 
-**Patient**: I'm not exactly sure when they started, maybe a few days ago. They come and go, but it's been happening more often lately.
+**Patient**: They've made things a little harder, but I can still get through the day. It's just uncomfortable and distracting.
 
-**Doctor**: Let me ask about any other symptoms—have you noticed any changes in your vision, weakness, or anything unusual with your face or speech when these headaches occur?
+**Doctor**: Let me ask about when these headaches first started—have they been going on for days, weeks, or longer?
 
-**Patient**: Yes, I've noticed my right side feels a bit weaker than my left, and there's a slight droop on the right side of my face.
+**Patient**: I'm not exactly sure how long it's been, but I think it's more recent—maybe just a few days.
 
-**Doctor**: Got it. Has the weakness or facial droop been getting better, worse, or staying about the same since you first noticed it?
+**Doctor**: Let me ask about something else—have you noticed any changes in your face, like weakness or drooping on one side, or any trouble speaking?
 
-**Patient**: It's pretty much stayed the same since I first noticed it. I haven't seen much change.
+**Patient**: I have noticed a slight droop on the right side of my face. My speech hasn't really changed, though.
 
-**Doctor**: Let me ask about your daily activities—has the weakness or droop made it harder for you to eat, speak, or do things like button a shirt or hold objects?
+**Doctor**: Alright. Have you noticed any numbness, tingling, or weakness in your arms or legs along with the facial changes?
 
-**Patient**: No, I haven't had trouble eating or speaking. I can still do things like button my shirt and hold objects, but my right side just feels a bit weaker than usual.
+**Patient**: My right side does feel a bit weaker than my left. I haven't noticed any numbness or tingling, though.
 
-**Doctor**: Let me ask about your mood—have you been feeling more anxious or stressed than usual lately? Sometimes mild anxiety can affect how we experience physical symptoms.
+**Doctor**: Got it. Has the weakness or facial droop been staying about the same, getting worse, or improving since you first noticed it?
 
-**Patient**: Yes, I've been feeling a bit more anxious than usual. The headaches and the weakness on my right side have made me worry.
+**Patient**: Both the weakness and the facial droop have pretty much stayed the same since I first noticed them. They haven't really gotten better or worse.
 
-**Doctor**: Alright. Can you tell me if the facial droop appeared at the same time as your headaches, or did it start separately? This helps me understand if the symptoms are connected.
+**Doctor**: Let me ask about something else—have you had any vision changes, trouble with balance, or difficulty understanding what people are saying?
 
-**Patient**: The facial droop showed up around the same time as the headaches. I also noticed a slight pronator drift on my right side when this all started.
+**Patient**: I haven't had any vision changes or trouble with balance. I also haven't had any problems understanding what people are saying.
 
-**Doctor**: Got it. Since you mentioned some anxiety, have you experienced any episodes of heart racing, shortness of breath, or difficulty sleeping lately? Sometimes these can go along with feeling anxious.
+**Doctor**: Let me ask about your headaches—would you describe them as mild, moderate, or severe? And do they come and go, or are they there most of the time?
 
-**Patient**: No, I haven't had any heart racing, shortness of breath, or problems sleeping. It's mainly just the anxiety, headaches, and weakness on my right side.
+**Patient**: The headaches are probably moderate most of the time. They tend to be there throughout the day, not really coming and going.
 
-**Doctor**: Based on what we've discussed, I want to walk you through my thoughts. You’ve noticed some weakness and a slight droop on one side of your face that started around the same time as your recent anxiety and other symptoms. Even though these issues haven’t affected your ability to speak, eat, or perform daily tasks, any new weakness or facial changes are important to take seriously.
+**Doctor**: Based on what we've discussed, your headaches are moderate and persistent, and you’ve recently noticed some weakness and a slight droop on the right side of your face. These particular symptoms raise concern for possible nerve involvement, such as Bell’s palsy, which is a common condition that can cause facial droop and sometimes mild weakness. It’s usually caused by inflammation of the facial nerve and can be accompanied by headache.
 
-Sometimes, symptoms like this can be caused by things like nerve irritation (such as Bell's palsy), but they can also be signs of something affecting the brain, like a small stroke or a problem with blood flow. The fact that these symptoms have stayed the same and didn’t quickly improve means it’s important to get them checked promptly.
+However, because you’re also experiencing weakness on the same side of your body, it’s important to be cautious. While your symptoms haven’t worsened and you haven’t had vision or speech changes, new facial droop and limb weakness—especially together—can sometimes signal a problem with blood flow to the brain (like a mild stroke or TIA), even if you feel otherwise well.
 
-My recommendation is that you seek immediate in-person evaluation—either at an urgent care or emergency department—so that you can be properly examined and, if needed, get imaging of your brain. This is to rule out anything serious and make sure you get the right treatment if necessary.
+My recommendation is that you seek prompt medical evaluation today to rule out any serious causes. This doesn’t mean something severe is definitely happening, but it’s safest to have a healthcare provider examine you in person and possibly run some quick tests. If you notice any new symptoms—such as worsening weakness, trouble speaking, confusion, or sudden vision changes—seek emergency care immediately.
 
-If you notice any new symptoms—like confusion, trouble speaking or understanding others, severe dizziness, vision loss, or worsening weakness—please call emergency services right away.
+For now, try to rest and avoid any strenuous activities until you’ve been evaluated. I’m here to answer any questions or help guide you on next steps. Would you like more information about what might be causing these symptoms?
 
-Let me know if you have questions or concerns about this plan.
+**Patient**: Thank you for explaining that. What kind of tests would I need to figure out what's going on?
 
-**Patient**: Thank you for explaining everything so clearly. I understand why you want me to get checked out right away. I’ll head to urgent care to make sure nothing serious is going on.
+**Doctor**: Let me share my thoughts on what might be happening and how we’d usually figure it out. When someone develops new weakness on one side of the face and body, even if it’s mild and hasn’t progressed, we want to make sure there’s no underlying issue with the nerves or blood vessels in the brain. Sometimes, these symptoms can be caused by something relatively benign like Bell’s palsy (which only affects the face), but when there’s also limb weakness, we have to consider other causes.
+
+To get a clear answer, a healthcare provider would do a physical exam focused on your nerves and muscles. They might also order a brain scan—usually a CT or MRI—to check for any changes in blood flow or signs of a mild stroke. Blood tests may be done to look for risk factors or other explanations.
+
+Given your symptoms, I recommend you’re seen in person today for a full evaluation. Most of these tests are done quickly and can help guide treatment. If you notice any new changes—like more weakness, confusion, problems understanding speech, or sudden vision loss—go to the emergency department right away.
+
+If you have any questions about this process or what to expect, I’m here to help clarify.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 642
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 809
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 59-year-old woman presenting with a history of headaches. She has a past medical history of hypertension and hypercholesterolemia and is allergic to penicillin. On admission, her physical exam was notable for mild anxiety but no acute distress, with stable vital signs and a neurologic exam showing intact cranial nerves, muscle strength 4-5/5, and slightly diminished ankle reflexes. She underwent a left pterional craniotomy for clipping of a right A1 to A2 aneurysm without intraoperative complications. Postoperatively, she was awake and alert, with mild right-sided weakness, slight right facial droop, and a slight pronator drift on the right side. An arteriogram confirmed good placement of the aneurysm clip. The patient remained afebrile and hemodynamically stable throughout her hospital stay. She was discharged to rehabilitation with follow-up arranged.
-
-## Dialogue Summary
-
-The patient presented with headaches that have been occurring more frequently over the past few days. Symptoms included intermittent headaches, right-sided weakness, slight droop on the right side of the face, and a slight pronator drift on the right side, all of which began around the same time; the patient rated the weakness as mild and reported no difficulty with eating, speaking, or performing daily tasks. The patient also noted increased anxiety related to these symptoms but denied heart racing, shortness of breath, or sleep disturbances. No relevant medical history, medications, or allergies were mentioned. On clinical review, the doctor noted persistent right-sided weakness and facial droop without progression or improvement, and no impairment in daily functioning. The assessment included possible causes such as nerve irritation (e.g., Bell's palsy) or a cerebrovascular event (e.g., small stroke), with concern due to the persistence of symptoms. The doctor recommended immediate in-person evaluation at urgent care or an emergency department for further examination and brain imaging, and advised the patient to seek emergency services if new symptoms such as confusion, speech difficulties, severe dizziness, vision loss, or worsening weakness occur.
-
-## STS Evaluation
-
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 60.9s
+- **Processing Time**: 78.7s

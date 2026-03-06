@@ -16,88 +16,85 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.880
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is highly consistent with the provided patient profile and case type. The doctor asks logical, stepwise questions about the patient's symptoms, focusing on exertional angina and claudication, which are well-documented in the profile. The patient responses are plausible and align with the described history. The doctor's summary and recommendations are appropriate for a primary care setting and do not introduce unsupported diagnoses or interventions. There are no hallucinations or major inconsistencies.
+- **Score**: 0.880
+- **Justification**: Combined score 0.88 (naturalness=1.00 ×0.4, profile_compliance=0.80 ×0.3, ragas_faithfulness=0.80 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 0.800 |
+| RAGAS Faithfulness | 0.800 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and volunteers additional information (leg swelling) at the end, which is realistic. For further realism, the patient could mention any recent medication changes or adherence issues if prompted.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. For improvement, the doctor could briefly acknowledge the patient's concern about leg swelling earlier or ask about other associated symptoms (e.g., orthopnea, paroxysmal nocturnal dyspnea) to further assess for heart failure, given the edema.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with appropriate transitions between topics. The conversation could be slightly improved by integrating the patient's concern about swelling earlier or by summarizing key points before making recommendations.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns. The doctor appropriately advises on warning signs and next steps, and avoids making unsupported recommendations.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brings you in, and how have you been feeling lately?
+**Doctor**: Hello, it's good to see you today. How have you been feeling lately, and is there anything specific you'd like to discuss or any new concerns since our last visit?
 
-**Patient**: I've been having more chest tightness lately, especially when I try to do things around the house. That's mainly why I wanted to come in.
+**Patient**: Lately, I've been having more trouble with chest tightness when I try to do things, like walking. That's the main thing that's been worrying me.
 
-**Doctor**: Let me ask about any other symptoms you might notice when you have this chest tightness—do you ever feel sweaty, nauseated, or short of breath at the same time?
+**Doctor**: Let me ask about any other symptoms you might notice when the chest tightness happens—do you ever feel sweaty, nauseated, or short of breath during these episodes?
 
-**Patient**: Yes, sometimes I get sweaty, feel a bit nauseated, and it's harder to catch my breath when the chest tightness happens.
+**Patient**: Sometimes when the chest tightness happens, I also get sweaty, feel a bit nauseated, and it's harder to breathe. It can spread to my left arm and shoulder too.
 
-**Doctor**: Let me ask about the discomfort—does it ever spread to your arm or shoulder, or is it mainly in your chest?
+**Doctor**: Let me ask about your legs—have you noticed any discomfort or cramping in your legs when you walk, and if so, how far can you usually go before it starts?
 
-**Patient**: The discomfort does spread to my left arm and shoulder along with the chest tightness.
+**Patient**: After walking about half a block, both my legs start to hurt and feel numb, especially the left one. There's also some discomfort, kind of like cramping.
 
-**Doctor**: Let me ask about how long these episodes usually last—do they go away if you rest, or do they persist even after you stop what you're doing?
+**Doctor**: Got it. When you stop and rest, how long does it usually take for the discomfort in your chest and legs to go away?
 
-**Patient**: They usually ease up if I stop and rest for a bit. The symptoms don't last too long once I sit down.
+**Patient**: Usually, if I stop and rest, the chest and leg discomfort go away after a few minutes. It doesn't last too long once I sit down.
 
-**Doctor**: Got it. When you’re walking or doing activities, do you ever notice any discomfort or heaviness in your legs, and if so, how far can you usually go before that starts?
+**Doctor**: Alright. Have you noticed if these symptoms have been getting worse over time, or are they about the same as when they first started?
 
-**Patient**: Yes, I get heaviness and pain in both legs when I walk, usually after about half a block. The left leg is worse than the right.
+**Patient**: These symptoms have definitely been getting worse over time. The chest tightness and the leg pain both seem more frequent and come on with less activity than before.
 
-**Doctor**: Alright. Have these symptoms—either in your chest or legs—been getting worse over time, or have they stayed about the same?
+**Doctor**: Let me ask about your sleep—do you ever wake up at night feeling short of breath or needing to sit up to catch your breath?
 
-**Patient**: Yes, both the chest symptoms and the leg discomfort have been getting worse over time. It feels like it takes less activity now to bring them on.
+**Patient**: I don't usually wake up needing to sit up or gasping for air at night. My main issues are during the day when I'm active.
 
-**Doctor**: Alright. Have you ever had these symptoms while you were resting, or do they only come on when you're active?
+**Doctor**: Got it. How would you rate the severity of your chest tightness and leg discomfort when they occur—would you describe them as mild, moderate, or severe enough to make you stop immediately?
 
-**Patient**: They only come on when I'm active. I haven't had these symptoms while resting.
+**Patient**: The chest tightness and leg discomfort are strong enough that I have to stop what I'm doing right away. The pain and numbness in my legs, especially on the left side, make it really hard to keep walking.
 
-**Doctor**: Let me ask about your breathing—when these episodes happen, do you feel like you can't catch your breath, or is it more of a mild shortness of breath?
+**Doctor**: Let me ask about your recovery—after the discomfort goes away with rest, are you able to resume your activity, or does the pain come back right away if you start moving again?
 
-**Patient**: It's more of a mild shortness of breath. I don't feel like I can't breathe, but I do notice it's harder to catch my breath during these episodes.
+**Patient**: After I rest and the discomfort goes away, I can start moving again, but the pain and tightness usually come back pretty quickly if I keep walking or try to do more. It doesn't take long for the symptoms to return.
 
-**Doctor**: Based on what we've discussed, your symptoms suggest that your heart and leg arteries might not be getting enough blood flow during activity. The chest tightness and related symptoms with activity, which improve with rest, are classic signs of what we call "angina"—often caused by narrowed heart arteries. Similarly, the leg discomfort after walking could be due to reduced blood flow to your legs, a condition known as "claudication."
+**Doctor**: Based on what we've discussed, your symptoms seem to come on reliably with activity and improve with rest, but they're happening with less exertion than before. This pattern suggests that your heart and circulation might not be getting enough oxygen when you’re active, and it could be related both to your known heart condition and possibly to circulation issues in your legs.
 
-What often happens with these conditions is that, as arteries become more narrowed over time, it takes less exertion to trigger symptoms. The fact that these have been getting worse means it's important to address them soon.
+What often happens in cases like this is that the arteries supplying the heart or legs can become narrowed over time, which leads to discomfort when those muscles need more blood flow—like during walking or other activities. The fact that you have to stop right away and the symptoms are getting worse is important.
 
-While your symptoms do not come on at rest—which is somewhat reassuring—it’s still important to get evaluated further. I recommend you avoid strenuous activity until we can arrange further testing, such as a stress test or vascular studies, to check your heart and circulation.
+My main concern is that these changes could signal that your condition is progressing and may require adjustments to your treatment plan. It’s important to monitor for any symptoms at rest or if the discomfort lasts longer than usual, as those can be warning signs.
 
-If you ever notice these symptoms at rest, or if they become much more severe or persistent, seek medical attention right away. Would you like me to go over what warning signs to watch for while you’re waiting for further evaluation?
+For now, I recommend taking it easy with physical activity and letting your care team know promptly if you notice chest discomfort or leg pain even when you’re not moving, or if symptoms become severe or don’t resolve with rest. We should review your current medications and possibly arrange further evaluation to see if additional treatment is needed.
 
-**Patient**: That makes sense, thank you for explaining it. I’d appreciate it if you could go over the warning signs with me, just so I know what to watch for. Also, I’ve noticed some swelling in my lower legs lately—could that be related?
+Does that make sense, and do you have any questions about what this might mean for your day-to-day activities?
+
+**Patient**: That makes sense, thank you for explaining it. I have noticed some swelling in my lower legs and feet lately too—does that fit with what you’re seeing? And should I keep taking all my medications as usual?
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 629
+- **Word Count**: 762
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 59-year-old female presenting with increased exertional anginal symptoms. Over the past year, she experienced progressive angina characterized by tightness on the left side of her chest, left arm and shoulder discomfort, sometimes accompanied by diaphoresis, nausea, and shortness of breath. Her medical history includes type 2 diabetes mellitus with neuropathy, hypertension, hypercholesterolemia, low TSH, obesity, claudication, and a bulging lumbar disk. She is a smoker and takes multiple medications including aspirin, Toprol XL, Imdur, Pletal, Univasc, Prozac, insulin, Neurontin, Zanaflex, and Lipitor. Cardiac catheterization revealed significant coronary artery disease with multiple vessel stenoses (left main 40%, right coronary artery 80%, posterior descending artery 80%, left anterior descending artery 70%, circumflex 80%) and a preserved ejection fraction of 70%. The documented diagnosis was multi-vessel coronary artery disease. The patient underwent coronary artery bypass grafting x3 as definitive treatment.
-
-## Dialogue Summary
-
-The patient presented with increased chest tightness, especially during activities around the house. Symptoms included chest tightness associated with sweating, mild nausea, mild shortness of breath, and discomfort radiating to the left arm and shoulder, all of which improved with rest and did not occur at rest. The patient also reported heaviness and pain in both legs after walking about half a block, worse on the left, with these symptoms worsening over time and requiring less activity to trigger them. No prior medical history, medications, or allergies were mentioned. On review, the doctor noted that symptoms were exertional and relieved by rest, with no symptoms at rest. The assessment was that the patient’s symptoms are consistent with angina (likely due to narrowed heart arteries) and claudication (suggesting reduced blood flow to the legs), both of which have been worsening. The doctor advised avoiding strenuous activity and recommended further evaluation with a stress test or vascular studies. The patient was instructed to seek immediate medical attention if symptoms occur at rest or become more severe or persistent, and requested information about warning signs to monitor while awaiting further evaluation.
-
-## STS Evaluation
-
-- **STS Score**: 0.964
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 58.4s
+- **Processing Time**: 84.5s

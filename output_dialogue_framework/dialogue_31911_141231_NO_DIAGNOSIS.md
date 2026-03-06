@@ -6,155 +6,113 @@
 - **Admission ID**: 141231
 - **Profile Type**: NO_DIAGNOSIS
 - **Success**: True
-- **Is Realistic**: False
+- **Is Realistic**: True
 
 ## Generation Attempts
 
-- **Total Attempts**: 3
-- **Best Attempt**: 2
+- **Total Attempts**: 1
+- **Best Attempt**: 1
 
 ### Attempt 1
-- Success: False
-- Decision: UNREALISTIC
-- Score: 0.500
-
-### Attempt 2
-- Success: False
-- Decision: UNREALISTIC
-- Score: 0.600
-
-### Attempt 3
-- Success: False
-- Decision: UNREALISTIC
-- Score: 0.300
+- Success: True
+- Decision: REALISTIC
+- Score: 0.980
 
 ## Judge Evaluation
 
-- **Decision**: UNREALISTIC
-- **Score**: 0.600
-- **Justification**: The initial portion of the dialogue is realistic, with appropriate education, reassurance, and safety-netting for a patient with a C2 fracture and mild symptoms. However, the conversation becomes highly repetitive in later turns, with both doctor and patient repeating the same statements about neck pain and reaching out if symptoms change. There is little new information or progression, and the dialogue loses natural flow and realism. The repetition suggests a breakdown in conversational logic or simulation parameters.
+- **Decision**: REALISTIC
+- **Score**: 0.980
+- **Justification**: Combined score 0.98 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.93 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.933 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Avoid repeating the same statements about neck pain and contacting the doctor. Instead, ask new questions or acknowledge understanding once before moving on.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: After providing initial advice and safety-netting, avoid reiterating the same instructions in every turn. Summarize and close the conversation after confirming patient understanding.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: Limit the number of closing turns; once reassurance and instructions are given, end the conversation naturally. Avoid excessive back-and-forth without new content.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No major safety concerns in the clinical content, but clarity suffers due to repetition. Ensure that key advice is delivered once clearly, then wrap up.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Based on what we've discussed, you have a recent diagnosis of a C2 fracture. This type of injury is important to monitor closely because the C2 vertebra is located high in the neck and plays a key role in supporting head movement and protecting the spinal cord. The approach to management depends on factors like how the fracture happened, the results of any imaging (such as X-rays or CT scans), and any treatments you've already started, such as wearing a cervical collar or receiving physical therapy under supervision.
+**Doctor**: Welcome, it's nice to see you today. What brings you in—can you tell me more about how you've been feeling lately?
 
-Since you haven't mentioned any new or worsening symptoms like numbness, weakness, difficulty walking, or problems with bladder or bowel control, that's reassuring—these would be warning signs needing urgent attention. Right now, the main focus should be on following any recommendations given by your treating specialist, such as restrictions on movement or activity to ensure proper healing.
+**Patient**: I've been having some neck pain lately, and it's been pretty uncomfortable. That's the main reason I came in today.
 
-For practical advice: avoid any neck movements or exercises unless specifically cleared by your medical team. If you're experiencing discomfort, gentle pain relief measures (like approved medications) may be helpful, but do not attempt stretches or self-care routines for neck pain without direct guidance. If you notice any new neurological symptoms or severe pain, seek medical attention promptly.
+**Doctor**: Let me ask about the pain—how long has this been going on, and is it constant or does it come and go?
 
-Let me know if you have questions about your recovery process or anything specific you'd like to discuss about your treatment plan.
+**Patient**: I'm not sure exactly, but it's been bothering me for a little while now. The pain is pretty much constant—it doesn't really let up much during the day.
 
-**Patient**: Thanks for explaining all that. I understand the importance of being careful now. Is there anything specific I should look out for as I recover, or any activities I should avoid completely?
+**Doctor**: Alright, can you tell me if the discomfort affects your ability to move your neck or do everyday activities? Also, have you noticed any numbness, tingling, or weakness in your arms or hands?
 
-**Doctor**: Let me share my thoughts on your recovery. With a C2 fracture, the main concern is protecting your neck while the bone heals. The reason for strict precautions is that sudden movements or heavy lifting could risk further injury or delay healing.
+**Patient**: Moving my neck is definitely harder than usual, and it does make everyday things a bit more difficult. I haven't noticed any numbness, tingling, or weakness in my arms or hands.
 
-In terms of activities, you should avoid any heavy lifting, twisting, or bending of your neck. High-impact activities—like running, jumping, or contact sports—should also be off-limits until your specialist gives you the all-clear. Even household chores that require reaching or stretching might need to be modified.
+**Doctor**: Got it. Does anything in particular seem to make your neck feel better or worse—like certain movements, positions, or activities?
 
-As you recover, watch out for warning signs such as new weakness in your arms or legs, numbness, loss of coordination, or any changes in your ability to control your bladder or bowels. These could indicate pressure on the spinal cord and would require urgent attention.
+**Patient**: Certain movements, like turning my head or looking down, seem to make the pain worse. I haven’t really found anything that makes it feel better yet.
 
-Most importantly, follow any instructions about wearing a neck brace or collar if you've been prescribed one, and keep up with scheduled appointments so your team can monitor your healing. If you have questions about specific activities—like driving, sleeping positions, or exercise—let me know and we can discuss them in detail.
+**Doctor**: Let me ask about your daily routine—have you recently changed your pillow, started a new activity, or had any minor injuries that might have triggered this? Sometimes even small changes can contribute to neck discomfort.
 
-**Patient**: That all makes sense, thank you for explaining it so clearly. I do have a question—what’s the best way for me to sleep with this neck issue? I want to make sure I’m not making things worse at night.
+**Patient**: I haven't changed my pillow or started anything new lately. I also don't recall any injuries to my neck. It just kind of started on its own.
 
-**Doctor**: For sleep, it's usually safest to keep your neck in a neutral position—using a firm pillow that supports your head without bending your neck forward or back. If you're wearing a collar, follow your specialist's instructions about sleeping with it. If you ever feel uncomfortable or notice new symptoms at night, let your care team know.
+**Doctor**: Okay, how severe would you say the pain is—if you had to rate it from 1 (very mild) to 10 (very severe), where would it fall most of the time?
 
-**Patient**: That helps, thank you. I haven’t had any numbness or weakness, just the neck pain. I’ll make sure to keep my neck supported at night like you said.
+**Patient**: Most of the time, I'd rate the pain around a 6 out of 10. It's definitely noticeable and makes things uncomfortable.
 
-**Doctor**: Glad I could help. If anything changes or you have more questions during your recovery, don't hesitate to reach out.
+**Doctor**: Let me ask about your overall health—have you had any recent fevers, headaches, or trouble swallowing? Sometimes these can be related to neck issues.
 
-**Patient**: Thanks, I appreciate your help. If anything new comes up, I’ll let you know right away.
+**Patient**: I haven't had any fevers, headaches, or trouble swallowing recently. It's really just the neck pain that's been bothering me.
 
-**Doctor**: Absolutely, feel free to reach out if anything changes or if you have more questions during your recovery.
+**Doctor**: Based on your description, this sounds like a common type of neck pain that can happen as we get older, often related to muscle strain or wear-and-tear in the joints of the neck. Since you haven't had any other symptoms like numbness, weakness, fever, or recent injuries, it's likely not something serious.
 
-**Patient**: Thanks, I will. Right now, my main issue is just the neck pain—nothing else unusual. I’ll follow your advice and let you know if anything changes.
+One thing that often helps is gentle stretching and applying heat to the area. You might also try over-the-counter pain relievers if you haven't already. If the pain persists or worsens, especially if you develop new symptoms like arm weakness or numbness, let me know.
 
-**Doctor**: Got it. If anything changes or you have concerns, just reach out. Wishing you a smooth recovery.
+Does this explanation make sense, and do you have any questions about managing this at home?
 
-**Patient**: Thank you, I appreciate that. I’ll reach out if anything comes up or if the neck pain gets any worse.
+**Patient**: Thank you for explaining that. Is there a specific way I should be doing the stretches, or any particular exercises you recommend for my neck?
 
-**Doctor**: Absolutely, wishing you continued comfort as you recover.
+**Doctor**: From what you've told me, your neck discomfort seems to be a mechanical issue—likely related to muscle tension or mild joint changes that are common as we age. Since you haven't had any concerning symptoms like weakness or changes in sensation, I don't suspect anything serious like nerve involvement.
 
-**Patient**: Thanks again for your help. I’ll keep following your instructions and let you know if anything changes with my neck pain.
+For stretches, gentle movements are best. Try slowly tilting your head side to side, bringing your ear toward your shoulder, and gently turning your head left and right—never push into pain. You can also roll your shoulders backward to loosen the area. Doing these a few times a day can help improve mobility and reduce stiffness.
 
-**Doctor**: Of course. Take care, and feel free to reach out if anything changes.
+Applying a warm compress or heating pad for 15-20 minutes can relax the muscles. If you feel comfortable, over-the-counter pain relievers like acetaminophen or ibuprofen may also help, as long as you're not allergic and have no contraindications.
 
-**Patient**: Thank you, I will. I’ll keep an eye on my symptoms and reach out if anything changes. Take care.
+If anything changes—like new symptoms in your arms, or if the discomfort becomes much worse—please reach out. Otherwise, most cases like this improve gradually with self-care.
 
-**Doctor**: Of course. Wishing you all the best as you recover—reach out anytime if you need support.
+Do you feel comfortable trying these suggestions? Let me know if you'd like more details about any of the exercises.
 
-**Patient**: Thank you, I will. If anything changes or if I have more questions about my neck pain, I’ll reach out.
+**Patient**: Thanks for explaining all that. How long should I expect it to take before the pain starts to improve with these stretches and heat?
 
-**Doctor**: Absolutely, take care and reach out anytime if you need further support.
+**Doctor**: From what we've discussed, your neck discomfort is likely related to muscle strain or mild joint changes—very common and usually not serious. These types of aches often improve with gentle stretches and heat, but it can take anywhere from a few days to a couple of weeks to notice real progress. It’s important to stick with the exercises regularly, but avoid pushing into pain.
 
-**Patient**: Thank you, I will. Right now, my only issue is the neck pain—no other symptoms. I appreciate all your guidance.
+Most people start to feel some relief within the first week, though full recovery might take longer depending on your activity level and how much you use your neck. If you don’t see improvement after two weeks, or if anything new develops (like difficulty moving your arms or sudden worsening), it’s wise to follow up.
 
-**Doctor**: Got it. If anything changes, just reach out—I'm here to support you.
+Let me know if you want more guidance on the stretches or if you have any other concerns about your recovery.
 
-**Patient**: Thanks, I appreciate that. If my neck pain gets worse or I notice anything new, I’ll contact you right away.
+**Patient**: That makes sense. Should I avoid any specific activities or movements while my neck is healing, or is it okay to go about my usual routine?
 
-**Doctor**: Absolutely—take care and don’t hesitate to reach out if you need anything further.
+**Doctor**: Let me share my thoughts based on our conversation. Your neck discomfort seems to be a mild, mechanical issue—something commonly seen with muscle tension or age-related changes. Since you don't have symptoms like weakness or numbness, it's safe to stay active, but it's best to avoid movements that clearly aggravate your neck, such as excessive turning or looking down for long periods.
 
-**Patient**: No problem, I’ll do that. Right now the neck pain is the only thing bothering me, and I’ll let you know if anything else comes up. Thanks for all your help.
+You can generally go about your usual routine, but try to pace yourself and listen to your body. If an activity causes more discomfort, modify it or take breaks. Gentle stretching and heat should help, and avoiding heavy lifting or sudden movements for now is wise.
 
-**Doctor**: Of course—wishing you a smooth recovery. Reach out anytime if you need anything.
-
-**Patient**: No problem, and thank you. If anything changes with my neck pain or if I have more questions, I’ll reach out.
-
-**Doctor**: Feel free to reach out if anything changes or if you have more questions.
-
-**Patient**: No new symptoms have come up—just the neck pain. I’ll keep you updated if anything changes.
-
-**Doctor**: Glad we could discuss everything. Feel free to reach out if anything changes.
-
-**Patient**: Thanks, I feel better having talked it through. I’ll keep you posted if anything about my neck pain changes.
-
-**Doctor**: You’re welcome. Feel free to reach out if anything changes or if you have more questions.
-
-**Patient**: No problem, I’ll reach out if anything changes. Right now, the neck pain is my only issue. Thank you for your support.
-
-**Doctor**: Absolutely—take care, and I'm here if you need anything further.
-
-**Patient**: Thanks, I appreciate that. Right now, the neck pain is my only concern, and I’ll reach out if anything else comes up.
-
-**Doctor**: Glad you feel more at ease. If anything changes, just reach out.
-
-**Patient**: I will. Right now, the neck pain is manageable, and I haven’t noticed any other symptoms. Thanks again for your support.
-
-**Doctor**: Absolutely—feel free to reach out anytime if you have questions or need support.
-
-**Patient**: Yes, I will. Right now, the neck pain is the only thing I’m dealing with, and I don’t have any other symptoms. Thanks for making everything clear.
-
-**Doctor**: Glad we could talk things through. Reach out anytime if you need further support.
-
-**Patient**: Thanks, I feel more comfortable now knowing what to watch for. If anything changes with my neck pain, I’ll let you know right away.
-
-**Doctor**: Glad you’re feeling more comfortable. Reach out anytime if you have questions or concerns.
-
-**Patient**: Yes, I’ll do that. Right now, the neck pain is steady but not getting worse, and I don’t have any new symptoms. Thank you for all your help.
-
-**Doctor**: Of course. If anything changes, just let me know.
-
-**Patient**: No problem, I’ll keep you updated if anything changes. Right now, it’s just the neck pain, and I’m following all your recommendations.
-
-**Doctor**: Glad you feel comfortable with the plan. Reach out anytime if you need further support.
+If you notice any new symptoms or the discomfort worsens, let me know. Otherwise, gradual improvement is expected. Would you like tips for modifying any specific activities?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 45
-- **Word Count**: 1310
-- **Doctor Turns**: 23
-- **Patient Turns**: 22
+- **Turn Count**: 21
+- **Word Count**: 1036
+- **Doctor Turns**: 11
+- **Patient Turns**: 10
 
 ## Processing Information
 
-- **Processing Time**: 370.0s
+- **Processing Time**: 86.2s

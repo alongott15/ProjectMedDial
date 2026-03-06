@@ -16,68 +16,81 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.920
+- Score: 0.935
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.920
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about the abdominal cramping, explores relevant associated symptoms, and the patient's responses are coherent and match the documented symptoms. There are no unsupported diagnoses, treatments, or severe events introduced. The conversation ends prematurely due to a simulation error, but up to that point, the exchange is realistic for a light, common medical case.
+- **Score**: 0.935
+- **Justification**: Combined score 0.94 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.92 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.917 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For improvement, the patient could provide slightly more detail about the onset and impact of symptoms if prompted.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor's questioning is thorough and appropriate. To improve, the doctor could acknowledge the patient's emotional state (tearfulness) and offer reassurance or support.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and builds on previous answers. The abrupt ending due to simulation error interrupts the natural progression; ensuring full exchanges would improve realism.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns identified. Clarity is good; doctor could briefly summarize findings or next steps for patient understanding.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi, good to see you today. What brings you in—can you tell me more about what's been bothering you lately?
+**Doctor**: Hi, it's good to see you today. How have you been feeling lately? Is there anything in particular that's been bothering you?
 
-**Patient**: I've just been having some mild lower abdominal cramping, and it's making me pretty uncomfortable.
+**Patient**: I've been having some lower belly cramping lately, and it's making me pretty uncomfortable.
 
-**Doctor**: Let me ask about when these cramps began—how long have you been experiencing this discomfort?
+**Doctor**: Let me ask about the timing—when did these cramps first start, and are they constant or do they come and go throughout the day?
 
-**Patient**: I'm not sure exactly, but I think it's been going on for a couple days now.
+**Patient**: I’m not totally sure when it started, but the cramping kind of comes and goes during the day. It’s not there all the time, but it’s been bothering me off and on.
 
-**Doctor**: Let me ask about any triggers—have you noticed if anything in particular seems to bring on the cramping or make it worse? For example, does it happen after eating, during certain activities, or at specific times of day?
+**Doctor**: Alright. Does anything seem to trigger the cramping, like eating certain foods, physical activity, or your menstrual cycle? Or have you noticed anything that helps relieve it?
 
-**Patient**: Nothing really seems to make it worse or better—it just kind of comes and goes. I haven’t noticed any connection with eating or activity.
+**Patient**: Nothing specific seems to trigger it, and I haven’t noticed any foods or activities that make it worse or better. Pressing on my belly does make it more tender, though.
 
-**Doctor**: Got it. When you press on your lower abdomen, does it feel especially tender or painful to the touch?
+**Doctor**: Let me ask about other symptoms—have you had any changes in your bowel habits, such as constipation or diarrhea, or noticed any unusual vaginal discharge?
 
-**Patient**: Yeah, it does feel pretty tender when I press on my lower abdomen.
+**Patient**: I haven’t noticed any changes with my bowel movements or any unusual discharge. The main things are the cramping and some pain when my belly is pressed.
 
-**Doctor**: Alright. Have you noticed any other symptoms, like changes in your bowel movements, fever, or unusual vaginal discharge? These details can help narrow down what might be causing the cramping.
+**Doctor**: Got it. How would you rate the discomfort on a scale from 1 to 10, with 10 being the most severe pain you can imagine?
 
-**Patient**: No, I haven’t had any changes in my bowel movements, fever, or unusual discharge. I have noticed that I get pretty tearful sometimes, though.
+**Patient**: I'd rate the discomfort around a 5 or 6 out of 10. It's not the worst pain, but it's definitely bothering me.
 
-**Doctor**: Got it. How much would you say this discomfort is impacting your daily activities—are you able to go about your normal routine, or is it making things difficult?
+**Doctor**: Let me ask about the duration—has the cramping been getting better, worse, or staying about the same since you first noticed it?
+
+**Patient**: The cramping has pretty much stayed the same since it started. It hasn’t really gotten better or worse.
+
+**Doctor**: Got it. How much is this cramping affecting your day-to-day life—are you able to go about your usual activities, or is it interfering with things like work or exercise?
+
+**Patient**: It’s definitely making things harder. I’ve been more tearful and just not myself because of the pain and discomfort. I can still do things, but it’s not easy.
+
+**Doctor**: Let me ask about any recent changes—have you had any fevers, chills, or felt unusually tired lately? Sometimes these can help point us in the right direction.
+
+**Patient**: I haven’t had any fevers or chills, and I don’t feel more tired than usual. The main thing is just the cramping and tenderness.
+
+**Doctor**: Based on what we've discussed, your cramping sounds like a mild but persistent discomfort without other concerning symptoms such as fever, bowel changes, or unusual discharge. Often, lower abdominal cramping can be related to things like mild muscle strain, digestive issues, or menstrual cycle fluctuations—even if you don’t notice a clear trigger. Because the pain is moderate and hasn't worsened, that's reassuring.
+
+It’s important to keep an eye out for any new symptoms, like severe pain, persistent vomiting, or signs of infection (fever, chills), which would warrant more urgent evaluation. For now, gentle heat (like a heating pad), staying hydrated, and over-the-counter pain relief may help. If the discomfort continues or gets worse, it might be worth checking in for a physical exam.
+
+Let me know if you have any questions or if anything changes—I'm here to help.
+
+**Patient**: Thanks for explaining everything. The tenderness when you press on my belly is still pretty noticeable, and honestly, I’ve been pretty tearful because of how uncomfortable it is. I’ll try the heating pad and keep an eye out for any new symptoms.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 11
-- **Word Count**: 266
-- **Doctor Turns**: 6
-- **Patient Turns**: 5
-
-## EHR Summary
-
-The patient is a 28-year-old female presenting for monitoring status post exploratory laparotomy. She reported mild lower abdominal cramping but denied vaginal bleeding, fever, or chills. Her relevant history includes Type I diabetes mellitus managed with an insulin pump and hypothyroidism; she has no known drug allergies. Imaging revealed a pregnancy in the left rudimentary horn of a bicornuate uterus at 9 weeks gestation, with high risk for rupture due to thinned myometrium. On exam, she was stable but had abdominal tenderness to palpation. The documented diagnosis was a rudimentary horn pregnancy in a bicornuate uterus. Treatment included urgent surgical excision of the left rudimentary horn and left salpingectomy, with postoperative pain management and insulin therapy adjustments. She was monitored postoperatively with stable vital signs and emotional support provided.
-
-## Dialogue Summary
-
-The patient presented with mild lower abdominal cramping causing discomfort. The cramping has been ongoing for a couple of days, is described as coming and going, and does not appear to be triggered or relieved by eating, activity, or specific times of day. The patient reported tenderness upon pressing the lower abdomen and denied changes in bowel movements, fever, or unusual vaginal discharge. The patient also mentioned feeling tearful at times. No relevant medical history, medications, or allergies were discussed. Physical findings included lower abdominal tenderness on palpation as described by the patient. The doctor did not provide a specific assessment or diagnosis during the conversation. No treatment plan or recommendations were given in this dialogue.
-
-## STS Evaluation
-
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **Turn Count**: 18
+- **Word Count**: 600
+- **Doctor Turns**: 9
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 43.6s
+- **Processing Time**: 74.7s

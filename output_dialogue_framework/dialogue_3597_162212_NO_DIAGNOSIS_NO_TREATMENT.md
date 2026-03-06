@@ -16,90 +16,93 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.980
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is highly plausible for a primary-care or urgent-care setting where a patient presents with a crush injury and open fracture. The doctor asks appropriate, focused questions about mechanism, timing, symptoms (pain, numbness, swelling, movement), and provides clear, urgent guidance without overstepping into advanced management or unsupported interventions. The patient responses are consistent with the profile and show understanding. No hallucinations or unsupported content are present.
+- **Score**: 0.980
+- **Justification**: Combined score 0.98 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.93 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.933 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient provides clear, relevant answers and expresses understanding. Could add more detail about any prior medical history or allergies if prompted.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: Doctor demonstrates excellent clinical reasoning and communication. Could briefly clarify that the advice is for immediate action and not a substitute for in-person care, to reinforce safety.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: Dialogue flows logically from history-taking to assessment and advice. The transition to urgent recommendations is smooth and justified by the findings.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety is well addressed with clear instructions for urgent evaluation. Clarity is high; doctor could explicitly state that this is not definitive medical care but an initial assessment to further reinforce boundaries.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Let me ask—what brings you in today, and how has this been impacting your usual routine?
+**Doctor**: Let me ask about how this injury happened—can you describe what led to your leg issue and when it occurred?
 
-**Patient**: I came in because I injured my left leg—it was a pretty bad crush injury. It's made it tough to get around, and I can't really do my normal routine right now.
+**Patient**: I had a pretty bad crush injury to my left lower leg. I’m not exactly sure how long ago—it’s all kind of a blur—but that’s what brought me in.
 
-**Doctor**: Let me ask about the timing—when did this injury happen, and how did it occur?
+**Doctor**: Let me ask about how your leg feels right now—do you notice any numbness, tingling, or weakness in your foot or toes?
 
-**Patient**: The injury happened earlier today—my leg got crushed at work. I’m not exactly sure how long ago, but it was recent.
+**Patient**: My foot feels kind of numb, and I can’t move it up at all. The sensation is mostly gone over the top part of my foot.
 
-**Doctor**: Let me ask about your current symptoms—have you noticed any numbness, tingling, or changes in the temperature or color of your foot since the injury? These details can help me understand if there might be any issues with blood flow or nerves.
+**Doctor**: Let me ask about something important—have you noticed if your foot feels colder than usual, or looks pale or bluish compared to your other foot?
 
-**Patient**: Yes, my foot feels cool since the injury. I’ve also noticed I can’t really feel anything along the top part, and there’s an open fracture in my lower leg.
+**Patient**: My left foot does feel cooler than the other side. I haven’t noticed any big color changes, but the temperature difference is definitely there.
 
-**Doctor**: Got it. How much bleeding have you noticed from the injury site, and is it still actively bleeding now? This helps me gauge the urgency and next steps for care.
+**Doctor**: Okay. Are you able to see any wounds or deformity in your lower leg, such as an open cut or bone showing, or is it mostly swelling and bruising?
 
-**Patient**: There was some bleeding at first, but I don’t think it’s actively bleeding right now. The main thing I’m noticing is the open fracture and the numbness.
+**Patient**: There’s an open wound on my lower leg, and I can see bone through it. It looks pretty deformed compared to my other leg.
 
-**Doctor**: Alright. How much pain are you experiencing right now, and does it get worse when you try to move your toes or ankle? This helps me understand the severity and if anything is making it more uncomfortable.
+**Doctor**: Got it. How severe is the pain in your leg right now, on a scale from 0 (no pain) to 10 (worst pain imaginable)?
 
-**Patient**: The pain is pretty strong, especially around the fracture. I can’t move my ankle upward at all, and trying to wiggle my toes doesn’t really change how it feels.
+**Patient**: The pain is pretty intense—I'd rate it around a 9 out of 10 right now.
 
-**Doctor**: Let me ask about swelling—has your lower leg become noticeably more swollen or tight since the injury? This can help determine if there’s increased pressure in the area, which sometimes happens with this type of trauma.
+**Doctor**: Let me ask about bleeding—has there been a lot of blood loss from the wound, or is the bleeding mostly controlled at this point?
 
-**Patient**: Yes, my lower leg is definitely more swollen and feels tight since the injury. The swelling seems pretty noticeable compared to before.
+**Patient**: There was quite a bit of bleeding at first, but right now it seems mostly controlled.
 
-**Doctor**: Tell me more about any changes in your ability to move your toes—can you wiggle them at all, or is there complete loss of movement? This helps me assess for any possible nerve or tendon involvement.
+**Doctor**: Got it. Since your foot is cool and you’re unable to move it, have you noticed any changes in how your toes look—like swelling or difficulty moving them at all, even with your hands?
 
-**Patient**: I’m not able to dorsiflex my ankle, and I can’t really move my toes much at all. There’s a definite loss of sensation on the top of my foot, too.
+**Patient**: My toes are hard to move, and I can't lift my foot at all. They don't look especially swollen, but I haven't been able to move them even using my hands.
 
-**Doctor**: Got it. Thinking about your day-to-day life, are you able to put any weight on your left leg at all, or is it completely impossible right now? This will help me understand how much the injury is limiting your mobility.
+**Doctor**: Alright. Tell me more about how this injury happened—was it due to a fall, an object falling on your leg, or something else? Understanding the exact cause can help guide the best treatment plan.
 
-**Patient**: I can't put any weight on my left leg at all right now. It's just not possible with the pain and the way it feels.
+**Patient**: An object fell on my leg and crushed it. With everything you’ve described, what happens next—am I looking at surgery or other procedures?
 
-**Doctor**: Based on what we've discussed, your injury sounds serious and requires urgent medical attention. The combination of a recent crush injury, an open fracture, significant swelling, loss of movement and sensation, and a cool foot raises concern for possible nerve or blood vessel compromise in your lower leg. These findings suggest there could be damage to important structures, and there’s also a risk for a condition called compartment syndrome, where pressure builds up in the muscles and can threaten the limb if not treated quickly.
+**Doctor**: Based on what we've discussed, your symptoms—especially the open wound with visible bone, severe pain, inability to move your foot, numbness, and your foot feeling cooler—are very concerning for a serious injury. What you’re describing sounds like an open (compound) fracture of your lower leg bones with possible nerve and blood vessel involvement.
 
-This isn’t something that can be managed at home—immediate evaluation in an emergency setting is critical. You’ll likely need imaging, surgical assessment, and possibly urgent intervention to restore blood flow, prevent infection, and protect nerve function.
+The most important priorities right now are to prevent infection, protect the limb, and restore blood flow and nerve function. This type of injury almost always requires urgent surgery. The goals of surgery would be to clean the wound thoroughly (to reduce infection risk), stabilize the broken bones (often with metal rods or plates), and assess for any damage to blood vessels or nerves. If blood flow is compromised, restoring it quickly is critical to save the limb.
 
-Right now, keep the leg immobilized and avoid putting any weight on it. If possible, keep it at the level of your heart (not elevated too high), and cover the wound with a clean cloth if you can. If you haven’t already, you should get to the nearest emergency department as soon as possible.
+In the meantime, keep your leg as still as possible, avoid eating or drinking in case you need anesthesia, and get to an emergency department immediately if you haven’t already. Do not try to push any bone back in or wash the wound yourself. Cover it with a clean cloth if possible.
 
-If you notice increasing pain, further loss of sensation or movement, or changes in skin color (like turning pale or blue), these are signs that things could be getting worse and need even more urgent attention.
+To summarize: this is a severe injury that requires immediate hospital care and likely surgery. Watch for any changes such as increasing numbness, worsening color changes (pale or blue toes), or uncontrolled bleeding—these are signs of worsening blood flow and need attention right away.
 
-Let me know if you have any questions or need help understanding what to do next.
+If you have any questions about what to expect at the hospital or how this is treated, I’m here to answer them.
 
-**Patient**: Thanks for explaining everything so clearly. I understand it’s important to get checked out right away. Is there anything specific I should mention when I arrive at the emergency department, or just share all these symptoms?
+**Patient**: Thanks for explaining all of that. If I do need surgery, how long does recovery usually take before I can use my leg again?
+
+**Doctor**: Based on what we've discussed, this is a severe open fracture with nerve and blood vessel involvement. These injuries require urgent surgery, and recovery can be a lengthy process. Typically, after surgery to clean the wound and stabilize the bones, you may need to keep weight off the leg for several weeks to months, depending on how well the bone and soft tissues heal.
+
+Physical therapy is an important part of regaining movement and strength. Many people begin gentle movement exercises within a few days or weeks after surgery, but full weight-bearing and return to normal activities can take several months. The exact timeline depends on the extent of the injury, whether there are any complications (like infection or slow healing), and how your nerves and blood vessels recover.
+
+The most important thing right now is getting prompt surgical care to give you the best chance at recovery. After surgery, your care team will give you a more specific idea of what to expect based on how things look during the operation.
+
+If you notice worsening pain, increasing numbness, or changes in skin color, let your medical team know right away—these are signs that need urgent attention.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 754
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 894
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 34-year-old male presenting with a chief complaint of a crush injury to the left lower extremity after being struck and pinned between vehicles. He experienced a large degloving injury and a displaced open tibia fracture of the left leg, with moderate discomfort noted on examination. His past medical history includes anxiety, and he takes Paxil; there are no known drug allergies. On physical exam, he was afebrile, with stable vital signs and slight tachycardia, but otherwise unremarkable findings. The documented diagnosis was crush injury to the left lower extremity. Treatment included open reduction with external fixation, vascular bypass grafting, internal plate placement, myocutaneous free muscle flap transfer, and split-thickness skin grafting to the affected areas.
-
-## Dialogue Summary
-
-The patient presented with a recent crush injury to the left leg, sustained earlier today at work, resulting in significant difficulty with mobility and inability to perform usual activities. Symptoms included an open fracture in the lower leg, strong pain especially around the fracture site, noticeable swelling and tightness, a cool foot, loss of sensation along the top of the foot, inability to dorsiflex the ankle, minimal movement of the toes, and inability to bear weight on the affected leg. The patient reported initial bleeding that is no longer active and denied any improvement with movement. No relevant medical history, medications, or allergies were mentioned. Clinical findings described by the patient included an open fracture, significant swelling, loss of movement and sensation, and a cool foot. The doctor assessed that these findings raise concern for possible nerve or blood vessel compromise and risk for compartment syndrome, requiring urgent medical attention. The doctor advised immediate evaluation in an emergency setting, recommended immobilizing the leg, keeping it at heart level, covering the wound with a clean cloth, and avoiding weight-bearing; the patient was instructed to seek emergency care as soon as possible and to monitor for worsening symptoms such as increased pain, further loss of sensation or movement, or changes in skin color.
-
-## STS Evaluation
-
-- **STS Score**: 0.972
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 59.8s
+- **Processing Time**: 97.0s

@@ -16,88 +16,89 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.931
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions for a sudden headache, including onset, associated symptoms (photophobia, nausea, vomiting), and red flag symptoms (weakness, numbness, trouble speaking, neck stiffness, fever). The patient responses are coherent and match the clinical scenario. The doctor provides reasonable advice for a mild case and appropriately cautions about warning signs. No unsupported diagnoses, treatments, or severe events are introduced.
+- **Score**: 0.931
+- **Justification**: Combined score 0.93 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.77 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.769 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For added realism, the patient could mention any prior history of headaches or reference her known medical conditions if prompted.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor could briefly acknowledge the patient's history of dissecting vertebral aneurysm and multiple sclerosis as part of risk assessment for sudden headache, even if only to note that no concerning neurological symptoms are present.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with good transitions between symptom exploration and advice. The summary and safety netting are well-placed.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is clear and appropriate for a light case. For completeness, the doctor could clarify whether the patient is post-operative (as per profile) and if the headache might relate to recent procedures.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's nice to see you today. What brings you in—can you tell me what's been bothering you lately?
+**Doctor**: Let me ask about your main concern today—can you describe what's been bothering you lately?
 
-**Patient**: I've been having this sudden headache that came on pretty quickly. That's really what's been bothering me.
+**Patient**: I've been having a really sudden, intense headache. That's the main thing that's been bothering me.
 
-**Doctor**: Let me ask about the nature of the pain—have you had headaches like this before, or is this a new type for you?
+**Doctor**: Let me ask about the quality of the pain—does it feel throbbing, sharp, or more of a pressure?
 
-**Patient**: This headache feels different than what I’m used to. It came on pretty suddenly, which isn’t typical for me.
+**Patient**: The pain feels really intense and more like a throbbing sensation. It came on very suddenly.
 
-**Doctor**: Let me ask about any other symptoms—have you noticed any sensitivity to light, nausea, or visual changes along with this episode?
+**Doctor**: Let me ask about any sensitivity to light—have you noticed that bright lights bother you since this headache started?
 
-**Patient**: Yes, I’ve definitely noticed some sensitivity to light and a bit of nausea along with the headache. No changes in my vision, though.
+**Patient**: Bright lights definitely bother me more since this headache started. I've been more sensitive to them than usual.
 
-**Doctor**: Got it. Can you describe where you feel the pain—does it affect one side of your head, both sides, or is it more toward the front, back, or elsewhere?
+**Doctor**: Got it. Have you noticed any nausea or vomiting along with this episode?
 
-**Patient**: The pain feels like it's all over, not just one side or spot. I've also had some vomiting along with it.
+**Patient**: Yes, I've had both nausea and vomiting along with the headache.
 
-**Doctor**: Alright. When did this episode begin, and how long did it take for the discomfort to reach its peak?
+**Doctor**: Alright. Have you ever experienced a sudden, severe episode like this before, or is this the first time it’s happened?
 
-**Patient**: It started earlier today, and the headache got pretty intense pretty fast—within an hour or so.
+**Patient**: This is the first time I've had a headache come on so suddenly and severely like this. It felt very different from anything I've had before.
 
-**Doctor**: Got it. How would you rate the intensity of this headache right now on a scale from 1 to 10, with 10 being the worst pain you can imagine?
+**Doctor**: Okay. Can you tell me exactly where the pain is located—does it affect one side of your head, both sides, or is it centered in a specific area?
 
-**Patient**: Right now, I’d rate the headache around a 7 out of 10. It’s pretty uncomfortable and hard to ignore.
+**Patient**: The pain is mostly on one side of my head, on the right. Along with that, the light really bothers me and I’ve been feeling quite nauseous.
 
-**Doctor**: Let me ask—does anything in particular seem to bring this on or make it worse, like certain activities, bright lights, or sounds? And have you noticed any weakness, numbness, or trouble speaking?
+**Doctor**: Alright. How long did it take for the headache to reach its worst point—did it build up over several minutes, or was it at its most intense almost immediately?
 
-**Patient**: Bright lights definitely make it worse. I haven't had any weakness, numbness, or trouble speaking.
+**Patient**: The pain was at its worst almost right away—it didn’t really build up, it just hit me very suddenly.
 
-**Doctor**: Got it. One more thing—have you had any recent fevers, neck stiffness, or a rash anywhere on your body? These details help me consider possible causes.
+**Doctor**: Let me ask about any recent changes—have you noticed any weakness, numbness, trouble speaking, or vision changes since this started?
 
-**Patient**: No, I haven’t had any fever, neck stiffness, or rash. It’s mainly just the headache, light sensitivity, nausea, and vomiting.
+**Patient**: I haven’t noticed any weakness, numbness, trouble speaking, or vision changes since this started. The main things have been the sudden headache, sensitivity to light, nausea, and vomiting.
 
-**Doctor**: Based on what we've discussed, it sounds like you experienced a sudden, intense headache that’s different from your usual pattern and came on quickly, along with sensitivity to light and some nausea and vomiting. These features can sometimes be seen with migraines, especially since bright lights make things worse and there are no signs like fever, neck stiffness, or neurological changes.
+**Doctor**: From what you've described—a sudden, severe headache that reached its peak intensity right away, along with sensitivity to light and nausea—this pattern is different from typical tension or migraine headaches. While you haven’t noticed any weakness, numbness, or speech changes, the abrupt onset and severity are important features.
 
-Sudden, severe headaches can occasionally indicate something more serious, but it’s reassuring that you don’t have any weakness, numbness, trouble speaking, or neck stiffness. Migraines often present this way, but the sudden onset makes it important to keep an eye out for any warning signs.
+What often happens with this kind of presentation is that we want to be cautious and rule out any rare but serious causes, even though many headaches are ultimately benign. Because this is your first time experiencing a headache like this, and it came on so suddenly, it’s important to consider getting evaluated promptly to rule out things like a blood vessel issue.
 
-If you develop any new symptoms such as confusion, persistent vomiting, fainting, high fever, a stiff neck, vision loss, or weakness, you should seek urgent care. For now, resting in a dark, quiet room and staying hydrated can help. Over-the-counter pain relievers may offer some relief if you’re able to tolerate them.
+My recommendation would be to seek medical evaluation today—even if just for reassurance—so that a healthcare provider can check you thoroughly. If you develop any new symptoms such as confusion, fainting, fever, neck stiffness, or vision loss, seek immediate care. Most headaches are not dangerous, but a sudden and severe one deserves careful attention.
 
-Let me ask—can you describe what the pain feels like? Is it throbbing, sharp, or dull? This helps me further narrow down possible causes.
+**Patient**: Thanks for explaining that. I actually was diagnosed with a dissecting right vertebral aneurysm after they did an angiogram, and the headache has been pretty persistent even after surgery. I’m still having nausea and vomiting too. Is it normal to still feel this way after the procedure?
 
-**Patient**: Thanks for explaining all that. The pain is more of a throbbing feeling, and it just doesn’t seem to let up. I appreciate your advice—I’ll keep an eye out for any new symptoms.
+**Doctor**: Based on what we've discussed, it’s understandable to still have some lingering symptoms after a significant event like a dissecting vertebral aneurysm and subsequent surgery. Recovery can vary from person to person, and headaches or associated symptoms may persist for a while as your body heals. However, ongoing nausea and vomiting aren’t uncommon, but they should gradually improve over time.
+
+What’s important is to watch for any new or worsening issues, such as changes in alertness, new neurological symptoms, fever, or neck stiffness, as these could indicate complications that need prompt attention. If your symptoms are staying the same or getting worse rather than improving, it would be a good idea to update your neurology or surgical team—they may want to check for things like medication side effects or other post-procedure issues.
+
+In the meantime, staying well-hydrated and resting as much as possible can help. If you’re struggling to keep fluids down or your symptoms are interfering with daily life, let your care team know—they can offer additional support or medication adjustments.
+
+**Patient**: Thank you for explaining that. I’ll keep an eye on any new or worsening symptoms and reach out to my team if things don’t improve. Right now, the headache and nausea are still pretty tough, but I’m able to stay hydrated.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 587
-- **Doctor Turns**: 9
-- **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 44-year-old woman presenting with headache. She developed an acute, maximal-onset, dull headache at the back of her head two days after undergoing endoscopic retrograde cholangiopancreatography for gallstones, with subsequent nausea and neck stiffness but no fever, chills, or visual symptoms. The headache worsens with coughing or straining and is currently rated as 7 out of 10 in severity. Her past medical history is significant for multiple sclerosis treated with Avonex. On evaluation, CT scan was normal and lumbar puncture showed 0–10 white cells, 240–400 red cells, glucose 49, and protein 55, with no opening pressure recorded. She received Demerol, Versed, Phenergan, Dilaudid for pain, and one dose of ceftriaxone for meningitis coverage. No explicit diagnosis was documented in the note.
-
-## Dialogue Summary
-
-The patient presented with a sudden-onset headache that was different from their usual pattern. The headache began earlier in the day, reached peak intensity within an hour, and was rated 7 out of 10 in severity; it was described as throbbing and diffuse (all over the head). Associated symptoms included sensitivity to light, nausea, and vomiting, with bright lights worsening the pain; no visual changes, weakness, numbness, trouble speaking, fever, neck stiffness, or rash were reported. No relevant medical history, medications, or allergies were mentioned. On clinical questioning, the doctor noted the absence of neurological deficits or meningeal signs. The assessment was that the presentation could be consistent with migraine, though the sudden onset warranted monitoring for more serious causes. The doctor advised rest in a dark, quiet room, hydration, and use of over-the-counter pain relievers if tolerated, and instructed the patient to seek urgent care if new symptoms such as confusion, persistent vomiting, fainting, high fever, stiff neck, vision loss, or weakness developed.
-
-## STS Evaluation
-
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
+- **Turn Count**: 20
+- **Word Count**: 774
+- **Doctor Turns**: 10
+- **Patient Turns**: 10
 
 ## Processing Information
 
-- **Processing Time**: 59.6s
+- **Processing Time**: 96.0s

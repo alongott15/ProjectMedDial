@@ -16,88 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.917
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks relevant questions about the nature, triggers, and impact of breathing difficulties, appropriately differentiating between asthma and paradoxical vocal cord motion. The patient responses are coherent and match the expected experiences for someone with these conditions. The clinical reasoning is sound, and no unsupported diagnoses, treatments, or severe events are introduced.
+- **Score**: 0.917
+- **Justification**: Combined score 0.92 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.72 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.722 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For even greater realism, the patient could mention any recent changes in medication or management, or express concerns about specific activities they miss due to symptoms.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor provides thorough, empathetic questioning and a clear explanation. To improve further, the doctor could briefly check for other associated symptoms (e.g., cough, fever) or ask about recent tracheostomy care, given the history.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with smooth transitions between topics. The summary and advice at the end are well integrated. Consider slightly shortening some exchanges for brevity.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns detected. The doctor appropriately advises when to seek prompt care for worsening symptoms. Clarity is excellent throughout.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome in today. What brings you in—can you tell
+**Doctor**: Hello, it's good to see you today. How have you been feeling lately? What brings you in for your consultation?
 
-**Patient**: I've been having some trouble breathing lately. That's really the main reason I came in today.
+**Patient**: I've been having a tough time with my breathing lately. That's really the main reason I'm here today.
 
-**Doctor**: Let me ask—how much is this trouble breathing affecting your day-to-day life? For example, are you having difficulty with activities like walking, talking, or sleeping?
+**Doctor**: Let me ask about your breathing—when did you first notice it becoming difficult? Has this been happening consistently, or do you notice it comes and goes?
 
-**Patient**: It does make things harder, especially when I’m active. I haven’t really noticed problems with sleeping or talking, but walking or doing chores gets tougher when my breathing acts up.
+**Patient**: I’ve had asthma for a long time, so breathing has always been a bit tough, but lately it feels like it’s gotten worse. It comes and goes, but there are times when it gets really difficult.
 
-**Doctor**: Let me ask about how long this has been going on—when did you first start noticing these breathing difficulties?
+**Doctor**: Let me ask about triggers—have you noticed if anything specific, like exercise, allergies, or stress, seems to bring on these episodes of difficult breathing more often?
 
-**Patient**: I've actually dealt with breathing issues for a long time because of my asthma, but lately it seems a bit worse than usual. I’m not exactly sure when it started getting harder—it just feels like it’s been more noticeable recently.
+**Patient**: Exercise and stress both seem to make it worse. I haven’t noticed any specific allergies, but those two are definite triggers for my breathing issues.
 
-**Doctor**: Let me ask about possible triggers—have you noticed if anything in particular tends to bring on your breathing trouble, like exercise, cold air, allergies, or stress?
+**Doctor**: Let me ask about something related—have you ever noticed your throat feeling tight or like it’s closing up during these episodes, or do you experience any unusual sounds when you breathe in, like wheezing or a high-pitched noise?
 
-**Patient**: Exercise definitely seems to make my breathing worse. I haven’t really noticed cold air or allergies being a big trigger, but stress sometimes makes it harder for me to breathe too.
+**Patient**: I do get a tight feeling in my throat, and sometimes it feels like it’s closing up. There’s also a high-pitched sound when I breathe in during those episodes.
 
-**Doctor**: Got it. Let me ask—when you’re having trouble breathing, do you ever notice any unusual sounds, like wheezing or your voice changing, or does it ever feel like your throat is closing up instead of your chest? Sometimes these details can point to different causes of breathing difficulty.
+**Doctor**: Alright. When you get that tight feeling in your throat and the high-pitched sound, does it tend to happen during specific activities or situations, or can it come on unexpectedly?
 
-**Patient**: Yes, I do notice wheezing sometimes, and there are times my voice sounds a little different. It can also feel like my throat is tightening up, not just my chest.
+**Patient**: It can actually come on both ways. Sometimes it happens during exercise or when I’m stressed, but there have been times when it just comes on out of nowhere.
 
-**Doctor**: Alright. When your throat feels like it's tightening up, does it usually happen during exercise, or can it come on at rest as well? And does it tend to get better if you stop what you’re doing, or does it linger for a while?
+**Doctor**: Let me ask about the severity—when these episodes happen, do they ever interfere with your ability to speak or force you to stop what you're doing? Or are they usually mild enough that you can continue your activity?
 
-**Patient**: It usually happens when I’m active, like during exercise. If I stop and rest, the tightness in my throat tends to get better pretty quickly. I haven’t noticed it happening much when I’m just sitting still.
+**Patient**: These episodes can definitely interfere with what I’m doing. There have been times when I couldn’t speak or had to stop everything until my breathing got better.
 
-**Doctor**: Let me ask about recovery—when you rest and the tightness improves, do you ever need to use your asthma inhaler, or does it get better on its own? This helps me understand whether your symptoms are more related to your asthma or possibly something else, like the vocal cords tightening during activity.
+**Doctor**: Got it. Let me ask about how things have been over time—would you say your breathing episodes have been getting better, staying about the same, or getting worse recently?
 
-**Patient**: Most of the time, if I stop and rest, the throat tightness gets better on its own without needing my inhaler. It seems like it’s more about my vocal cords than my asthma in those moments.
+**Patient**: Lately, my breathing episodes have been getting worse. That’s actually why I ended up needing a tracheostomy for airway management, since I have both asthma and paradoxical vocal cord motion.
 
-**Doctor**: Alright. How much would you say this throat tightness and breathing issue is limiting your usual activities—are you avoiding exercise or chores because of it, or are you able to manage most things as long as you pace yourself?
+**Doctor**: Got it. When these episodes get worse, is there anything you’ve found that helps relieve your symptoms—like using your inhaler, specific breathing techniques, or adjusting your tracheostomy care? Or do you sometimes need additional interventions to get relief?
 
-**Patient**: I’ve definitely been avoiding exercise because of the throat tightness and breathing issues. I can usually manage chores if I take breaks and pace myself.
+**Patient**: Using my inhaler sometimes helps, but not always, especially with the paradoxical vocal cord motion. There have been times when I needed more intervention, like hospitalization for airway management. Adjusting my tracheostomy care can also make a difference during those episodes.
 
-**Doctor**: Based on what we've discussed, it sounds like your breathing difficulties during activity are a mix of your known asthma and possibly some throat tightness that improves quickly with rest—something we sometimes see with vocal cord issues, like paradoxical vocal fold motion. This can mimic asthma but usually gets better without inhalers and is triggered by exertion.
+**Doctor**: Based on what we've discussed, it sounds like your breathing difficulties have become more frequent and severe, especially considering your history of asthma and paradoxical vocal cord motion. These conditions can sometimes overlap, making episodes harder to manage with standard asthma treatments alone. The fact that you've needed a tracheostomy and occasional hospitalization shows your airway issues are complex and require careful monitoring.
 
-What often happens is that the vocal cords briefly close when they should stay open, making it harder to breathe in and causing that throat tightness. Since this is interfering with exercise, it's important to address both your asthma control and possible vocal cord involvement.
+What often happens with paradoxical vocal cord motion is that the vocal cords close when they should be open, which can cause the tightness and high-pitched sounds you described. This isn’t always relieved by inhalers, so techniques like breathing exercises or speech therapy can sometimes help, along with proper tracheostomy care.
 
-For now, I'd recommend continuing to pace yourself, but if you notice symptoms coming on at rest, lasting longer, or if you ever have trouble speaking or swallowing, those would be reasons to seek care promptly. If this continues to limit your activity, there are breathing techniques and sometimes speech therapy that can help retrain the vocal cords.
+For practical advice, continue to monitor for any warning signs—such as sudden inability to breathe, severe stridor, or changes in your tracheostomy site—that would need urgent attention. If you notice these, seek medical care promptly. Otherwise, maintaining regular tracheostomy care, using prescribed inhalers as directed, and practicing any breathing strategies you’ve learned may help reduce the frequency and severity of episodes.
 
-Would you like some practical tips on managing these symptoms during activity, or do you have questions about what might be triggering them?
+Let me know if you have questions about managing these symptoms day-to-day, or if there’s anything specific you’d like to discuss further.
 
-**Patient**: Thanks, that explanation helps a lot. I’d appreciate some practical tips for managing these symptoms during activity, especially if there are things I can try on my own.
+**Patient**: Thanks for explaining all of that. I appreciate having a clearer idea of what’s happening with my vocal cords and asthma together. Is there anything new I should be doing with my tracheostomy care or breathing exercises to help manage these episodes day-to-day?
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 741
+- **Word Count**: 744
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 33-year-old female admitted for management of paradoxical vocal cord motion with asthma. She has a long history of asthma with multiple prior hospital admissions for airway management. During this admission, she underwent an elective tracheostomy to address her airway issues related to paradoxical vocal cord motion and asthma. The procedure was performed without complications, and her postoperative course was stable, including early return to oral diet and successful tracheostomy training. On discharge, her condition was stable. The documented diagnosis was status post tracheostomy for paradoxical vocal cord motion with asthma. Discharge medications included fexofenadine, calcium carbonate, Percocet as needed for pain, lisinopril, and metformin. She was discharged home with routine tracheostomy care, physical therapy services, and instructions to follow up in clinic within one week.
-
-## Dialogue Summary
-
-The patient presented with trouble breathing, which has recently worsened and is interfering with daily activities, especially during exercise and chores. Symptoms include increased breathing difficulty with activity, occasional wheezing, changes in voice, and a sensation of throat tightness that typically improves quickly with rest and does not require use of an asthma inhaler. The patient has a history of asthma and reports that stress can also trigger symptoms, but cold air and allergies are not significant factors. No issues were noted with sleeping or talking, and the patient is able to manage chores by pacing themselves but has been avoiding exercise due to symptoms. On assessment, the doctor noted that the breathing difficulties appear to be a combination of asthma and possible paradoxical vocal fold motion, as throat tightness improves with rest and is not relieved by inhalers. The doctor recommended pacing activities, monitoring for symptoms at rest or those affecting speech or swallowing, and suggested that breathing techniques or speech therapy may help if symptoms persist. Practical tips for managing symptoms during activity were offered, and the patient expressed understanding of the explanation.
-
-## STS Evaluation
-
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 59.4s
+- **Processing Time**: 91.7s

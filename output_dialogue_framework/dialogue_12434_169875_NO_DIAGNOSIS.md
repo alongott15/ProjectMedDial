@@ -16,86 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.927
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about gait changes, fall risk, and associated symptoms, and provides reasonable reassurance and safety advice. The patient responses are coherent and align with the documented symptoms (ataxic gait, unsteadiness, 1+ edema in the left foot). No unsupported diagnoses, treatments, or severe events are introduced. The conversation remains at a primary-care level and avoids unnecessary escalation.
+- **Score**: 0.927
+- **Justification**: Combined score 0.93 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.89 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.889 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and brings up a new but documented symptom (left foot swelling) at the end. For further realism, the patient could mention how long the swelling has been present or if it fluctuates.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and addresses safety. For completeness, the doctor could briefly acknowledge the reported left foot swelling at the end, even if just to say it will be discussed further.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with each question building on prior answers. The transition to discussing the swelling is smooth. Consider closing with a summary or explicit next steps for added clarity.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No major safety concerns. The doctor appropriately advises on red-flag symptoms and fall prevention. Addressing the left foot edema more directly would improve thoroughness.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's nice to see you today. What brings you in, and how have you been feeling lately?
+**Doctor**: Hello, it's nice to meet you. What brings you in today? Can you tell me a bit about how you've been feeling, or any concerns you've noticed recently?
 
-**Patient**: I've been feeling a bit concerned because I was told I have a cerebral aneurysm. That's mainly why I'm here today.
+**Patient**: I’ve noticed lately that my walking feels different—like I’m unsteady on my feet. That’s been worrying me.
 
-**Doctor**: Let me ask about any changes you've noticed recently—have you had any trouble with your balance or walking, such as feeling unsteady or having an ataxic gait?
+**Doctor**: Let me ask about when you first noticed this unsteadiness. Has it been going on for days, weeks, or longer?
 
-**Patient**: Yes, I've noticed some changes with my walking. I feel a bit unsteady, and my gait has been off lately.
+**Patient**: I’m not sure exactly, but it feels like it’s been going on for at least a few weeks now.
 
-**Doctor**: Let me ask about how this is affecting your day-to-day life. Are you able to do your usual activities around the house, or has the unsteadiness made things more difficult for you?
+**Doctor**: Let me ask about your daily routine—have you noticed if the unsteadiness is worse at certain times of day, or after specific activities?
 
-**Patient**: It's definitely made things more difficult. I find it harder to get around the house and do what I normally do because of the unsteadiness.
+**Patient**: I haven’t noticed a pattern—it feels about the same throughout the day, no matter what I’m doing.
 
-**Doctor**: Let me ask about when these changes began—do you recall how long you've been feeling unsteady, and has it been gradually worsening or staying about the same?
+**Doctor**: Let me ask about your walking—have you noticed any changes in the way you move your legs or feet, such as shuffling, dragging, or feeling off balance when you turn?
 
-**Patient**: I'm not exactly sure when it began, but the unsteadiness seems to have gotten a bit worse over time. I just started noticing it more in my daily activities.
+**Patient**: I have noticed that my gait is a bit off—I feel unsteady and sometimes it’s almost like I’m walking in a wobbly way. I haven’t really dragged my feet, but I do feel off balance, especially when turning.
 
-**Doctor**: Let me ask about other symptoms—have you experienced any headaches, vision changes, or weakness in your arms or legs along with the unsteadiness?
+**Doctor**: Alright. Have you noticed any other symptoms along with the unsteadiness, such as numbness, tingling, muscle weakness, or vision changes?
 
-**Patient**: No, I haven't had any headaches, vision changes, or weakness in my arms or legs. It's mainly just the unsteady walking.
+**Patient**: I’ve also noticed some swelling in my left foot, and my walking feels ataxic—sort of uncoordinated. I haven’t had numbness, tingling, muscle weakness, or vision changes.
 
-**Doctor**: Alright. When you feel unsteady, does it tend to happen more at certain times of day or in specific situations, like getting up quickly or walking on uneven surfaces?
+**Doctor**: Got it. One thing I'm curious about—does the swelling in your left foot seem to change throughout the day, or is it fairly constant? Also, has it affected your ability to do daily activities, like going up stairs or walking longer distances?
 
-**Patient**: It doesn't seem tied to a certain time of day. I notice the unsteadiness more when I'm moving around, especially if I'm on an uneven surface.
+**Patient**: The swelling in my left foot seems pretty constant—it doesn’t really change much during the day. It does make things like walking longer distances or going up stairs harder than usual.
 
-**Doctor**: Got it. When you're walking, do you ever feel like you might fall, or have you actually lost your balance to the point of falling recently?
+**Doctor**: Tell me more about how much this unsteadiness is affecting your day-to-day life. Are you able to do most of your usual activities, or have you had to change anything because of it?
 
-**Patient**: I do feel like I might fall sometimes, but I haven’t actually fallen yet. The unsteadiness just makes me more cautious when I’m walking.
+**Patient**: I’ve had to change a few things—I don’t walk as much as I used to, and stairs are definitely harder for me now. Most of my usual activities take longer because of the unsteadiness and the swelling in my left foot.
 
-**Doctor**: Let me ask about your walking—do you find that your steps are more wide-based or do you have trouble starting or stopping when you walk?
+**Doctor**: Let me ask about changes over time—has your unsteadiness or the swelling in your foot been getting better, worse, or staying about the same since you first noticed them?
 
-**Patient**: My steps are definitely more wide-based now. I don’t really have trouble starting or stopping, it’s just that my gait feels off and unsteady.
+**Patient**: Both the unsteadiness and the swelling have pretty much stayed the same since I first noticed them. I haven’t seen much improvement or worsening so far.
 
-**Doctor**: Based on what we've discussed, it sounds like your walking has become more unsteady over time, and you're adapting by widening your steps to help keep your balance. This kind of change in gait—especially if it's gradually getting worse—can sometimes be related to issues in the brain, such as the cerebral aneurysm you mentioned, but it can also be caused by other factors like changes in strength, sensation, or even certain medications.
+**Doctor**: From what you've told me, your main concerns are feeling unsteady when walking and having persistent swelling in your left foot, which has lasted several weeks without much change. The unsteadiness sounds like it affects your balance, especially when turning, and you describe your gait as ataxic or uncoordinated. You haven't noticed numbness, tingling, weakness, or vision changes, which helps rule out some neurological causes.
 
-Since you're not experiencing other symptoms like headaches, vision changes, or limb weakness, that's somewhat reassuring. However, because your unsteadiness is affecting your daily activities and increasing your risk of falling, it's important to address this. Often, people find that using supportive footwear, clearing clutter at home, and considering physical therapy for balance can help reduce fall risk.
+Often, unsteadiness and ataxic gait can be related to issues with the muscles, joints, or nerves in the legs and feet. Persistent swelling in one foot could point to a local problem like arthritis, a previous injury, or a vein issue. Sometimes, swelling can make it harder for your muscles and joints to work together smoothly, leading to that wobbly feeling.
 
-If you notice new symptoms—such as sudden severe headache, double vision, trouble speaking, or weakness—those would be important to report right away. For now, I'd recommend focusing on safety at home and possibly discussing a referral for physical therapy or a further evaluation with your neurologist. Let me know if you have questions or concerns about these suggestions.
+Based on your symptoms and their stability over time, this appears to be a mild, common issue—possibly related to joint or soft tissue changes in your foot. It's good that things haven't gotten worse and there are no warning signs like severe weakness or sudden changes.
 
-**Patient**: Okay, that makes sense. I’ll try to be more careful at home and would be open to physical therapy if you think it will help. Also, I’ve noticed some mild swelling in my left foot—should I be concerned about that too?
+For now, I recommend keeping an eye on the swelling—if it gets worse, becomes painful, or you notice redness or warmth, let a healthcare provider know. Supporting your foot with comfortable footwear and elevating it when possible may help. Try to stay active within your limits, but avoid activities that feel unsafe. If you notice any new symptoms or if your balance worsens suddenly, those would be important reasons to seek further
+
+**Patient**: Thank you for explaining that. Is there anything specific I should avoid doing, or any exercises that might help with my balance and the swelling in my foot?
+
+**Doctor**: Based on what we've discussed, your unsteadiness and swelling seem to be stable and mild, and there aren't signs of a more serious problem like nerve or muscle disease. The swelling in your foot could be contributing to your balance issues, making your gait feel more wobbly and uncoordinated.
+
+Let me share my thoughts: gentle exercises that focus on balance and strength—like standing on one foot while holding onto a sturdy surface, or heel-to-toe walking—can help improve stability. For the swelling, elevating your foot when sitting and avoiding standing for long periods may reduce discomfort. Supportive shoes can make a difference, too.
+
+It's best to avoid activities where you feel unsafe or at risk of falling, such as walking on uneven surfaces or rushing up stairs. If you notice any new symptoms, like pain, redness, warmth, or if the swelling gets worse, let a healthcare provider know.
+
+This pattern suggests a mild, common issue—likely related to local changes in your foot or joints. Staying active within your comfort zone and using these simple strategies should help manage your symptoms.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 650
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 915
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 65-year-old female presenting with a cerebral aneurysm. She reported no headache, vision problems, weakness, or paresthesias, but did note changes in her gait. Her past medical history includes type 2 diabetes, hypertension, and chronic obstructive pulmonary disease; she is allergic to penicillin, Keflex, and Bactrim. On examination, she was frail but in no acute distress, with positive rales on chest exam and an ataxic gait. The documented diagnosis was cerebral aneurysm. She underwent successful coiling of the aneurysm and remained neurologically stable postoperatively. Post-procedure care included hourly neurological checks and heparin to maintain her PTT in the 50-60 range. She was discharged in stable condition.
-
-## Dialogue Summary
-
-The patient presented with concern regarding a known cerebral aneurysm. They reported a gradually worsening unsteady gait, describing increased difficulty with walking, especially on uneven surfaces, and needing to take wider steps to maintain balance; the unsteadiness has made daily activities more difficult but has not resulted in falls. The patient denied headaches, vision changes, or weakness in the arms or legs, and noted that the unsteadiness is not tied to a specific time of day. Relevant history includes the diagnosis of cerebral aneurysm; no medications or allergies were mentioned. On clinical questioning, the patient described a wide-based gait and increased caution due to fear of falling, but no actual falls. The doctor assessed that the unsteady gait could be related to the cerebral aneurysm or other factors such as changes in strength, sensation, or medications, but found it reassuring that there were no additional neurological symptoms. The doctor recommended focusing on home safety (supportive footwear, clearing clutter), considering physical therapy for balance, and monitoring for new symptoms such as sudden severe headache, double vision, speech trouble, or weakness. The patient also mentioned mild swelling in the left foot at the end of the visit.
-
-## STS Evaluation
-
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 57.1s
+- **Processing Time**: 81.7s

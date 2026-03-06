@@ -16,88 +16,173 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.883
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is highly consistent with the provided patient profile and case type. The doctor asks logical, stepwise questions about polyuria, polydipsia, weight gain, and galactorrhea, and appropriately connects these symptoms to possible pituitary or hormonal causes. The patient responses are plausible and match the documented symptoms. There are no unsupported diagnoses, treatments, or severe events introduced. The conversation is clear, respectful, and stays within the bounds of a light, common medical case.
+- **Score**: 0.883
+- **Justification**: Combined score 0.88 (naturalness=0.80 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.88 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.800 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.875 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient could mention all symptoms earlier for efficiency, but the gradual disclosure is realistic and natural.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: Doctor could explicitly ask about menstrual changes earlier given the context, but otherwise reasoning and explanations are thorough and appropriate.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: Dialogue flows logically, with good back-and-forth and escalation of detail as new symptoms are revealed. The summary and advice at the end are clear.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. Doctor appropriately advises on when to seek urgent care and what symptoms to monitor. Clarity is excellent throughout.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi, it’s nice to meet you. What brings you in today, and how have you been feeling lately?
+**Doctor**: Hi there, welcome. What brings you in today, and how have your symptoms been lately?
 
-**Patient**: Hi, thanks for seeing me. Lately I've been having to pee a lot more than usual, and it's just kind of annoying.
+**Patient**: I've been having to pee a lot lately, way more than usual. That's mainly why I came in.
 
-**Doctor**: Let me ask about the timing—when did you first notice this change in how often you need to go?
+**Doctor**: Let me ask about the timing—when did you first start noticing that you needed to urinate more frequently?
 
-**Patient**: I'm not exactly sure when it started, but I think it's been going on for a few weeks now.
+**Patient**: I'm not sure exactly, but it's been going on for a while now—definitely more than just a few days.
 
-**Doctor**: Let me ask about how this is affecting you—are you finding it disruptive during the day or at night, or is it more of a mild annoyance?
+**Doctor**: Let me ask about your day-to-day—how much is this increased urination affecting your routine or activities? Are you waking up at night to go, or is it mostly during the day?
 
-**Patient**: It’s definitely more than just annoying—it wakes me up at night and kind of messes with my routine during the day.
+**Patient**: It’s actually affecting my day a lot—I feel like I always have to be near a bathroom. I do wake up at night to go, too, so my sleep’s been kind of messed up.
 
-**Doctor**: Let me ask about something related—have you noticed that you’re also more thirsty than usual, or drinking more fluids than you normally would?
+**Doctor**: Let me ask about your thirst—have you noticed drinking more fluids than usual, or feeling unusually thirsty lately?
 
-**Patient**: Yeah, I’ve definitely been drinking way more water than I usually do. I feel thirsty pretty much all the time.
+**Patient**: Yeah, I’ve definitely been more thirsty than usual. I feel like I’m always drinking water, but it doesn’t really help.
 
-**Doctor**: Got it. Have you noticed any other changes, like unexpected weight loss or feeling unusually tired lately? Sometimes these symptoms can be connected, so it helps me understand the bigger picture.
+**Doctor**: Alright. Have you noticed any other changes, like unexpected weight loss or feeling unusually tired lately?
 
-**Patient**: Actually, I've had the opposite—I’ve gained quite a bit of weight recently. I haven’t really felt more tired than usual, though.
+**Patient**: Actually, I've noticed I've gained a lot of weight recently, which has been surprising. I haven't really felt more tired than usual though.
 
-**Doctor**: Alright. When you go to the bathroom, is it just more frequent trips, or are you also passing larger amounts of urine each time?
+**Doctor**: Got it. When you urinate, do you ever notice any pain, burning, or unusual appearance in your urine? Or is it just the frequency that's changed?
 
-**Patient**: Yeah, it’s definitely both—I’m going more often and there’s a lot each time.
+**Patient**: There's no pain or burning when I pee, and my urine looks normal. It's really just that I have to go so often.
 
-**Doctor**: Alright. Have you noticed any changes in your appetite lately, like feeling hungrier than usual or eating more than you typically do? Sometimes this can go along with what you’re describing.
+**Doctor**: Got it. Has the frequency of urination and thirst been getting worse over time, or has it stayed about the same since you first noticed it?
 
-**Patient**: No, I haven’t really noticed any changes with my appetite. I’m eating about the same as usual.
+**Patient**: The frequency and thirst have pretty much stayed the same since I first noticed them. They haven’t really gotten worse.
 
-**Doctor**: Let me ask about the pattern—over the past few weeks, would you say your symptoms are staying about the same, or have they been gradually getting more noticeable?
+**Doctor**: Alright. Have you noticed any changes in your appetite, like eating more or less than usual?
 
-**Patient**: They’ve definitely been getting more noticeable. I’ve also had some other stuff going on, like a pretty big weight gain and some weird discharge from my breasts.
+**Patient**: I haven't really noticed any big changes with my appetite. It's been about the same as usual.
 
-**Doctor**: Based on what we've discussed, it sounds like you’ve been experiencing increased urination, constant thirst, significant weight gain, and some breast discharge. These symptoms together can sometimes point toward hormonal changes or issues with the way your body is processing fluids and hormones.
+**Doctor**: From what we've discussed, your symptoms of needing to urinate frequently and feeling unusually thirsty, without pain or changes in appetite, are important clues. These are commonly seen in conditions where your body is either making more urine or unable to concentrate it properly. One frequent cause is high blood sugar, which can pull water into the urine and make you thirsty. Sometimes, hormonal imbalances or issues with kidney function can also play a role.
 
-One possibility is that there could be an issue involving your pituitary gland or other hormonal systems, as these can sometimes cause both changes in urination and unexpected breast discharge. While conditions like diabetes can cause frequent urination and thirst, the breast discharge and weight gain are less typical for that and may suggest something else is going on.
+Let me ask—does anything seem to trigger these symptoms, like certain foods or stress, or are they pretty consistent throughout the day?
 
-At this point, I’d recommend seeing your healthcare provider soon for some blood tests and possibly hormone level checks to get to the bottom of this. In the meantime, keep track of any new symptoms—like headaches, vision changes, or changes in your menstrual cycle—as these can help narrow things down. If you notice severe headaches, vision problems, or feel suddenly very unwell, seek care promptly.
+**Patient**: They’re pretty consistent all day, nothing really seems to trigger them. Also, I’ve had some other weird things going on—my periods have stopped and I’ve noticed some milky discharge from my breasts.
 
-Let me know if you have any questions or if there are other symptoms you haven’t mentioned yet.
+**Doctor**: Let me share my thoughts on what you've described. The combination of needing to urinate often, feeling unusually thirsty, your periods stopping, and noticing milky discharge from your breasts suggests that there may be a hormonal imbalance at play. These symptoms can sometimes be linked to changes in levels of hormones such as prolactin, which can affect menstrual cycles and cause breast discharge, as well as potentially impacting fluid balance.
 
-**Patient**: Thanks for explaining all that—it actually helps a lot. One thing I forgot to mention is that my periods have completely stopped too. Does that fit in with what you’re thinking?
+It's also important to consider other causes, like issues with blood sugar or kidney function, but the menstrual and breast symptoms point more towards a hormonal issue, possibly involving the pituitary gland.
+
+For next steps, I recommend having some blood tests done to check your hormone levels and possibly your blood sugar. If you notice any new symptoms—such as vision changes, headaches, or feeling faint—let me know right away. Most hormonal imbalances can be managed effectively once we identify what's going on.
+
+Does this explanation make sense to you, and do you have any questions about what we've discussed so far?
+
+**Patient**: Thanks for explaining all that. If it is a hormonal imbalance, does that mean I’ll need to take medication long-term, or is it something that can be fixed?
+
+**Doctor**: Based on everything you've told me, your symptoms point toward a hormonal imbalance, likely involving the pituitary gland. This can affect several body functions, including menstrual cycles and breast discharge, as well as fluid balance. These kinds of imbalances are often treatable, and whether medication is needed long-term depends on the underlying cause.
+
+Sometimes, hormone levels can be corrected with short-term treatment, while other situations may require ongoing management. The good news is that most hormonal conditions can be controlled well with the right approach. Blood tests and possibly imaging will help us figure out exactly what's going on so we can decide on the best plan for you.
+
+In the meantime, keep track of any new changes, and try to stay hydrated. If you notice any vision changes or headaches, let me know as soon as possible. Do you have any concerns or questions about what comes next?
+
+**Patient**: Thanks for explaining. If the tests show it’s a pituitary problem, what kind of treatment would I need—are there any side effects I should know about?
+
+**Doctor**: If it turns out to be a pituitary issue, treatment often involves medication to balance hormone levels, and most people tolerate these well. Side effects depend on the specific medication, but your care team will review them with you and monitor for any problems. Feel free to reach out if anything changes or if you have more questions.
+
+**Patient**: What should I expect while waiting for the test results? Is there anything specific I should or shouldn’t do in the meantime?
+
+**Doctor**: While you’re waiting, just keep track of any new symptoms and continue your usual activities. If anything changes significantly—like vision problems or headaches—reach out promptly.
+
+**Patient**: That makes sense. I’ll pay attention to any changes and let you know if anything new comes up. Thanks for letting me know what to watch for.
+
+**Doctor**: Feel free to reach out if you notice any new changes or have questions while you wait.
+
+**Patient**: Thanks, I will. If anything new happens, I’ll reach out. Right now I don’t have any other questions.
+
+**Doctor**: Glad you know what to watch for. Take care, and reach out if anything changes.
+
+**Patient**: Thanks, I appreciate it. I’ll keep an eye on things and let you know if anything changes.
+
+**Doctor**: Glad we could talk this through. Take care, and reach out anytime if you need to.
+
+**Patient**: Thanks for talking with me today. I’ll reach out if anything else comes up.
+
+**Doctor**: Feel free to get in touch if anything changes or you have more questions.
+
+**Patient**: Sounds good. I’ll keep an eye on my symptoms and let you know if anything changes. Thanks for your help today.
+
+**Doctor**: You're welcome. Take care, and reach out if anything changes.
+
+**Patient**: Thanks, I will. If anything changes or if I think of more questions, I’ll get in touch.
+
+**Doctor**: Absolutely—stay in touch if anything changes or you have new questions.
+
+**Patient**: Got it, thanks for all the info. I’ll reach out if anything changes or if I have more questions later.
+
+**Doctor**: Absolutely, take care and reach out if anything changes.
+
+**Patient**: Thanks for your time today. I’ll keep track of my symptoms and let you know if anything changes.
+
+**Doctor**: Glad to hear you’ll keep track. Reach out anytime if anything changes.
+
+**Patient**: Thanks, I will. I’ll keep you updated if anything new happens or if I have more questions later on.
+
+**Doctor**: Absolutely, you know how to reach me if anything comes up. Take care.
+
+**Patient**: Thanks, I appreciate it. I’ll reach out if anything comes up or if I have more questions.
+
+**Doctor**: Glad you’re keeping track. Reach out anytime if anything changes.
+
+**Patient**: Sounds good. I’ll keep you posted if anything changes or if I have more questions.
+
+**Doctor**: You’re set for now. Just check in if anything changes or you have more questions.
+
+**Patient**: Thanks for your help today. I’ll get in touch if anything comes up or if I have more questions.
+
+**Doctor**: You’re all set for now. Reach out if anything changes.
+
+**Patient**: Thanks, I’ll do that. If anything new happens or I have more questions, I’ll reach out.
+
+**Doctor**: You’re in good shape for now. Reach out anytime if anything changes or you have questions.
+
+**Patient**: Thanks for letting me know. I feel better after talking this through, and I’ll reach out if anything changes.
+
+**Doctor**: Glad you’re feeling better after our conversation. Reach out anytime if anything changes.
+
+**Patient**: Thanks, I appreciate you taking the time to explain everything. I’ll keep track of my symptoms and reach out if there’s any change.
+
+**Doctor**: You’re welcome. Just reach out if anything changes or you have more questions.
+
+**Patient**: Sounds good. I’ll reach out if anything changes or if I think of more questions. Thanks for your help today.
+
+**Doctor**: Glad we could talk this through. Reach out anytime if anything changes.
+
+**Patient**: Thanks, I feel a lot better after talking this out. I’ll let you know if anything new comes up.
+
+**Doctor**: Glad you’re feeling better after our conversation. Reach out anytime if anything changes.
+
+**Patient**: Thanks, I will. If anything changes or if I have more questions, I’ll get in touch.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 601
-- **Doctor Turns**: 9
-- **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 26-year-old female presenting with symptoms related to a pituitary tumor. She reported polyuria, polydipsia, significant weight gain, galactorrhea, and cessation of menses beginning in July 2152. Her past medical history is notable for diabetes insipidus managed with nasal DDAVP, and she has no known drug allergies. Physical examination was unremarkable except for the described endocrine symptoms, and vital signs were stable. MRI showed diffuse thickening and enhancement of the pituitary infundibulum with a partially empty sella turcica. The documented diagnosis was pituitary tumor with associated diabetes insipidus. Treatment included continued DDAVP for diabetes insipidus and a plan for pituitary tumor biopsy. She was also taking monthly vitamin D supplementation.
-
-## Dialogue Summary
-
-The patient presented with increased urinary frequency over the past few weeks. She reported that the symptoms have become more noticeable, with frequent urination both day and night, passing large amounts of urine each time, constant thirst, significant weight gain, and breast discharge; she also noted that her periods have completely stopped. She denied changes in appetite or increased fatigue. No relevant medical history, medications, or allergies were mentioned. The doctor noted the combination of increased urination, thirst, weight gain, breast discharge, and amenorrhea, suggesting possible hormonal changes or pituitary gland involvement rather than diabetes. The doctor recommended prompt evaluation by a healthcare provider, including blood tests and hormone level checks, and advised the patient to monitor for new symptoms such as headaches, vision changes, or further menstrual changes. The patient was instructed to seek care urgently if severe headaches, vision problems, or sudden illness occur.
-
-## STS Evaluation
-
-- **STS Score**: 0.953
-- **Similarity Label**: N/A
+- **Turn Count**: 60
+- **Word Count**: 1566
+- **Doctor Turns**: 30
+- **Patient Turns**: 30
 
 ## Processing Information
 
-- **Processing Time**: 58.4s
+- **Processing Time**: 240.9s

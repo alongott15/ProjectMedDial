@@ -16,88 +16,93 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.968
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about the fall, neurological symptoms, and functional impact, and provides a reasonable summary and safety advice. The patient responses align with the documented symptoms and diagnoses. There are no unsupported diagnoses, treatments, or severe interventions introduced. The conversation maintains a primary-care tone and avoids ICU-level or incoherent content.
+- **Score**: 0.968
+- **Justification**: Combined score 0.97 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.89 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.895 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For added realism, the patient could mention if anyone witnessed the fall or if there were any other injuries (if prompted).
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: Doctor could clarify the urgency of evaluation (e.g., 'I recommend you be seen within the next day or two') and specify what kind of evaluation (e.g., 'by your primary care doctor or in an urgent care setting').
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and builds on previous answers. To improve, the doctor could summarize key points before giving recommendations, and check for understanding at the end.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is appropriate. For clarity, the doctor could explicitly mention that worsening symptoms may require emergency attention (e.g., 'If any of these symptoms develop suddenly, call 911 or go to the emergency room').
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's nice to see you today. How have you been feeling lately? Is there anything new or concerning that you'd like to talk about?
+**Doctor**: Let me ask about any changes you've noticed in your memory, thinking, or alertness lately. Has anything like confusion or trouble focusing come up recently?
 
-**Patient**: Yes, I actually had a fall recently, and since then I've noticed I'm not quite myself. That's what has me a bit concerned.
+**Patient**: I have noticed some changes in my memory lately, especially with short-term things. I feel more confused than usual, and it’s been harder to focus on conversations or tasks.
 
-**Doctor**: Let me ask about your fall—when did this happen, and can you describe what you mean by not feeling quite yourself since then?
+**Doctor**: Let me ask about any physical changes—have you noticed any weakness, numbness, or difficulty moving one side of your body?
 
-**Patient**: I don't remember exactly when it happened, but since the fall I've noticed my mind feels a bit foggy. It's harder to remember things in the short term, and I just don't feel quite as sharp as usual.
+**Patient**: I’ve noticed weakness on my right side, especially in my right leg. It’s been harder to move around than usual.
 
-**Doctor**: Let me ask about your day-to-day activities—has this change in how you're feeling made it harder for you to do things like cooking, reading, or managing your usual routines?
+**Doctor**: Tell me more about when you first started noticing these changes in your memory and the weakness in your leg. Did they come on suddenly or gradually?
 
-**Patient**: Yes, it's definitely made things harder. My right side feels weak, especially my leg, so I struggle more with getting around and doing my usual chores.
+**Patient**: I’m not sure exactly when it began, but the changes in my memory and the weakness in my right leg seemed to come on pretty suddenly. I didn’t notice anything leading up to it.
 
-**Doctor**: Let me ask about your right-sided weakness—did it come on immediately after the fall, or did it develop gradually over time?
+**Doctor**: Alright. Have you noticed any changes in your speech, such as slurring words or difficulty finding the right words?
 
-**Patient**: It came on right after the fall. I noticed my right side felt weaker almost immediately.
+**Patient**: I haven’t noticed any changes in my speech, like slurring or trouble finding words. My main issues have been with memory and weakness on my right side.
 
-**Doctor**: Let me ask about your mobility—are you able to walk on your own, or do you need help or support to get around now?
+**Doctor**: Let me ask about any other symptoms—have you experienced headaches, vision changes, or loss of balance along with these changes?
 
-**Patient**: I need help getting around now. My right leg feels weak, so walking on my own has been pretty difficult since the fall.
+**Patient**: I haven’t had any headaches or vision changes. My balance hasn’t really changed, but the weakness in my right leg makes it harder to get around.
 
-**Doctor**: Let me ask about your thinking and memory—have you noticed any changes in your ability to find words, recognize people, or understand what's happening around you? Or is it mostly just feeling less sharp than usual?
+**Doctor**: Got it. One more question—have these changes affected your ability to do daily activities, like dressing, bathing, or preparing meals?
 
-**Patient**: I haven't had trouble finding words or recognizing people. It's mostly just that my short-term memory is worse, and I feel less sharp than usual.
+**Patient**: Yes, the weakness on my right side has made it harder for me to do things like dressing and moving around the house. I need more help than before with daily activities.
 
-**Doctor**: Alright. Since your symptoms started right after the fall, have you had any headaches, changes in vision, or episodes of feeling dizzy since then?
+**Doctor**: Let me ask about your overall health—have you had any recent infections, changes in appetite, or new medications around the time these changes started? Sometimes these can contribute to sudden changes in memory and strength.
 
-**Patient**: No, I haven't had any headaches, vision changes, or dizziness since the fall. It's mainly the weakness on my right side and trouble with my short-term memory.
+**Patient**: I haven’t had any infections or changes in my appetite lately. I don’t remember starting any new medications around the time these symptoms began.
 
-**Doctor**: Got it. When you try to use your right leg or arm, does the weakness get worse with activity, or does it stay about the same throughout the day?
+**Doctor**: Let me ask about the severity—are you able to walk at all on your own, or do you need assistance every time you get up?
 
-**Patient**: The weakness stays about the same all day. Using my right leg or arm doesn't really make it worse, it's just always there since the fall.
+**Patient**: I need help every time I get up. The weakness in my right leg makes it difficult for me to walk on my own.
 
-**Doctor**: From what you've told me, it sounds like the changes in your memory and difficulty with movement started right after your fall, without other symptoms like headaches or dizziness. When someone develops these kinds of changes immediately following a fall, it can sometimes be due to an injury to the brain or nerves that control movement and thinking. It's reassuring that you haven't noticed problems with speech, recognizing people, or vision, but the combination of new memory issues and difficulty moving one side of your body is important to pay attention to.
+**Doctor**: Based on what we've discussed, the sudden onset of difficulty with memory and focusing, combined with weakness on one side of your body, raises concern for a problem affecting the brain, such as a stroke or a similar event. These symptoms are important because they suggest that part of your brain may not be working as well as it should, which can happen if there’s a change in blood flow or a blockage.
 
-Often, these symptoms are related to how the brain was affected during the fall. Sometimes, even if there wasn't a major injury at the time, effects can show up afterward. Since these changes are impacting your ability to get around and do daily tasks, I recommend you have a thorough evaluation soon. This would help rule out any serious problems and guide the best way to support your recovery.
+The fact that you now need help with daily activities and moving around is also significant. While you haven’t had headaches or vision changes, the main issues seem to be with your memory and movement. This pattern often points to something neurological rather than just general aging or medication side effects.
 
-In the meantime, try to rest and ask for help with activities that feel unsafe or too difficult. If you notice any new symptoms—like worsening confusion, trouble speaking, sudden severe headache, or loss of consciousness—those would be reasons to seek medical attention right away.
+At this point, it’s important to have a thorough evaluation, ideally as soon as possible. I recommend that you seek medical attention right away—either by contacting your primary doctor urgently or going to the emergency department. The reason is that some causes, like a stroke, require prompt treatment to prevent further problems and to give you the best chance at recovery.
 
-Let me know if you’d like more information about what might be going on or how to stay safe until you’re able to be seen.
+If you notice any new symptoms—such as trouble speaking, severe headache, vision loss, or worsening weakness—please call emergency services immediately. For now, try to stay safe and avoid walking without assistance.
 
-**Patient**: Thank you for explaining all that. I understand why you want me to get checked out soon. Is there anything specific I should watch for in case things change before my appointment?
+Would you like more information about what might be happening or what to expect next?
+
+**Patient**: Thank you for explaining all of that. What kinds of tests or evaluations should I expect if I go to the hospital?
+
+**Doctor**: Let me share my thoughts on what’s going on. From what you’ve told me, the sudden changes in your memory and focus, along with new difficulty moving your right leg, suggest that something may have affected the part of your brain that controls movement and thinking. This pattern is often seen when there’s a disruption in blood flow to the brain, such as a stroke or a related event.
+
+When you go to the hospital, the team will likely start with a physical and neurological exam to check your strength, coordination, and mental status. They’ll probably order brain imaging—like a CT scan or MRI—to look for any changes or blockages. Blood tests are also common to check for underlying causes, and sometimes a heart evaluation is done to see if there’s a source of blood clots.
+
+The goal of these tests is to quickly identify the cause so that treatment can be started as soon as possible. Early intervention can make a big difference in recovery and in preventing further problems.
+
+Before we wrap up, has your weakness or confusion been getting better, worse, or staying about the same since it started?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 701
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 876
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 72-year-old woman presenting after a fall three to seven days prior, with subsequent change in mental status and right-sided weakness. She has a history of dementia. Initial evaluation at an outside hospital revealed a left subdural hematoma with a 2 cm midline shift on head CT. On admission, physical exam showed right-sided drift and right lower extremity weakness, but she was otherwise stable and oriented to self. Laboratory results were within normal limits, and repeat imaging confirmed the subdural hematoma. The documented diagnosis was a large left frontotemporoparietal subdural hematoma with midline shift. She underwent bedside drainage of the hematoma without complications, resulting in resolution of her neurological deficits. The patient was deemed safe for discharge home by physical therapy, though she continued to have poor short-term memory attributed to her underlying dementia.
-
-## Dialogue Summary
-
-The patient presented with concerns following a recent fall, reporting feeling mentally "foggy" and experiencing new short-term memory difficulties and right-sided weakness, especially in the leg. The patient described immediate onset of right-sided weakness after the fall, which has persisted and made daily activities such as walking and chores more difficult; the weakness does not fluctuate with activity. The patient denied headaches, vision changes, dizziness, word-finding problems, or difficulty recognizing people. No relevant medical history, medications, or allergies were mentioned. On clinical questioning, the doctor noted persistent right-sided weakness and cognitive changes without other neurological deficits. The doctor assessed that these symptoms could be related to injury to the brain or nerves from the fall and emphasized the importance of evaluation to rule out serious problems. The doctor recommended a thorough assessment soon, advised rest and seeking help with difficult activities, and instructed the patient to watch for new symptoms such as worsening confusion, trouble speaking, severe headache, or loss of consciousness.
-
-## STS Evaluation
-
-- **STS Score**: 0.952
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 57.9s
+- **Processing Time**: 92.5s

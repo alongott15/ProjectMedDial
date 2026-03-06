@@ -16,88 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.857
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about nausea, vomiting, diarrhea, fluid intake, diabetes management, and signs of dehydration. The patient responses are plausible and match the documented symptoms. The doctor's summary and advice are clear, cautious, and appropriate for a light case, with no unsupported diagnoses or interventions. There are no obvious hallucinations or contradictions.
+- **Score**: 0.857
+- **Justification**: Combined score 0.86 (naturalness=0.90 ×0.4, profile_compliance=0.70 ×0.3, ragas_faithfulness=0.96 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 0.700 |
+| RAGAS Faithfulness | 0.957 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For improvement, the patient could specify the duration of symptoms more precisely if possible.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: Doctor's questioning is thorough and empathetic. For improvement, the doctor could briefly check for other relevant symptoms (e.g., chest pain, confusion) to further rule out complications, and clarify what constitutes 'light' versus 'severe' cases.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, moving from symptom exploration to impact on daily life, then to diabetes management and dehydration risk. The summary and advice are well-placed.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is appropriate for a light case. The doctor clearly states warning signs for escalation. For added clarity, the doctor could reinforce when to seek urgent care (e.g., if unable to keep any fluids down for several hours or signs of confusion).
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Let me ask about your main concern—what’s been bothering you the most lately?
+**Doctor**: Hello, it's nice to see you today. What brings you in, and how have you been feeling lately?
 
-**Patient**: I’ve mostly been feeling really sick to my stomach—lots of nausea and trouble keeping anything down. That’s what’s bothering me the most right now.
+**Patient**: I've been having a lot of nausea and trouble keeping anything down. That's mainly why I came in today.
 
-**Doctor**: Let me ask about how this is affecting your day-to-day routine—are you able to do your usual activities, or has this made it difficult to get around or take care of things at home?
+**Doctor**: Let me ask about the timing—when did these symptoms first begin?
 
-**Patient**: It’s been tough to do much around the house lately. I just don’t have the energy, and the nausea makes it hard to get things done like I normally would.
+**Patient**: I'm not exactly sure, but I think it started a few days ago. The nausea comes with some pain right in the upper part of my stomach, especially when I throw up.
 
-**Doctor**: Let me ask about any other symptoms—have you had any vomiting or diarrhea along with the nausea? If so, what have you noticed about them?
+**Doctor**: Let me ask about your vomiting—have you noticed if you're bringing up food, liquid, or just dry heaves? And has there been any blood in what comes up?
 
-**Patient**: Yes, I’ve had both vomiting and diarrhea along with the nausea. The vomiting started with food from supper, and then it was just dry heaves. The diarrhea has been brown, but I haven’t noticed any blood or black stool.
+**Patient**: At first, I was throwing up what looked like my supper, but now it's mostly just dry heaves. I haven't seen any blood in it.
 
-**Doctor**: Alright. When did these symptoms first begin, and have they been getting worse, staying the same, or improving since they started?
+**Doctor**: Let me ask about your appetite—have you been able to eat or drink anything at all, and are you able to keep down any fluids?
 
-**Patient**: I’m not sure exactly, but I think these symptoms started a few days ago. They’ve been about the same since they began—not really getting better or worse.
+**Patient**: I've barely been able to eat or drink, and most things just come right back up. It's tough to keep anything down right now.
 
-**Doctor**: Let me ask about your fluid intake—have you been able to drink water or clear fluids, or does the vomiting happen even with small sips?
+**Doctor**: Got it. Have you had any diarrhea along with the nausea and vomiting? If so, what has it been like—any changes in color or blood?
 
-**Patient**: I’ve only been able to get down a little bit of water, but even then, sometimes I feel like I might throw up again. I haven’t really been able to tolerate much of anything by mouth.
+**Patient**: Yes, I've had diarrhea too. It's brown, and I haven't noticed any blood or black color in it.
 
-**Doctor**: Got it. Let me ask—have you had any fever, chills, or abdominal pain along with these symptoms?
+**Doctor**: Alright. Have you had any fever, chills, or signs of dehydration like feeling very thirsty, lightheaded when you stand up, or making less urine than usual?
 
-**Patient**: I haven’t had any fever or chills. I do get some pain in my upper belly, especially when I’m throwing up. Also, I’ve noticed I can’t tolerate much by mouth and my blood sugar has been running high.
+**Patient**: I haven't had any fever or chills. I do feel pretty thirsty and I think I'm not making as much urine as usual. No lightheadedness that I've noticed.
 
-**Doctor**: Okay. When you check your blood sugar, how much higher is it running compared to your usual readings? Are you able to take your diabetes medication as normal?
+**Doctor**: Okay. How much is this affecting your day-to-day life—are you able to get out of bed, do basic activities, or is it keeping you mostly resting?
 
-**Patient**: My blood sugar has definitely been higher than usual, but I’m still taking my insulin like I’m supposed to. It’s just tough with not being able to eat or drink much.
+**Patient**: It's really been keeping me in bed most of the time. I just don't have the energy to do much right now.
 
-**Doctor**: Alright. Since you’ve had trouble keeping fluids down, have you noticed any signs of dehydration—such as dry mouth, less urine than usual, or feeling dizzy when you stand up?
+**Doctor**: I see. Over the past few days, have your symptoms been getting better, staying the same, or getting worse?
 
-**Patient**: Yes, I’ve noticed my mouth feels dry and I’m not going to the bathroom as much as usual. I haven’t really felt dizzy when I stand up, though.
+**Patient**: They've been getting worse, especially the nausea and vomiting. It feels harder to keep things down than when this first started.
 
-**Doctor**: Based on what we've discussed, it sounds like you've been dealing with several days of nausea, vomiting, and diarrhea, and it's making it hard to keep fluids down. With your diabetes and the fact that your blood sugar is running high, this situation can sometimes lead to dehydration or make blood sugar control more difficult, especially if you can't eat or drink normally.
+**Doctor**: Based on what we've discussed, it sounds like you’re dealing with a stomach or intestinal infection—what we often call “gastroenteritis.” This is usually caused by a virus or sometimes bacteria, and it leads to nausea, vomiting, diarrhea, and trouble keeping fluids down. The fact that you haven’t seen blood in your vomit or stool is reassuring, but I am concerned because your symptoms are getting worse and you’re having trouble staying hydrated.
 
-The absence of fever and chills is somewhat reassuring, as that makes infection less likely, but persistent vomiting and diarrhea can still be concerning—especially since you’re noticing signs of dehydration. Upper belly pain with vomiting is common, but if it gets worse or you develop new symptoms (like severe pain, confusion, or inability to take any fluids at all), those would be warning signs.
+The main risks here are dehydration and not getting enough nutrients or fluids. Most cases do improve on their own, but at your age and with worsening symptoms, it’s important to watch out for warning signs like severe weakness, confusion, inability to keep any liquids down for more than a day, or signs of dehydration (such as very little urine, dry mouth, or dizziness).
 
-For light cases like this, the main priorities are staying hydrated and keeping blood sugar as stable as possible. Sipping small amounts of clear fluids frequently (even a tablespoon at a time) can sometimes help. If you continue to have trouble keeping anything down or notice worsening dehydration, it’s important to reach out for in-person care.
+For now, focus on taking small sips of clear fluids (like water, broth, or oral rehydration solutions) frequently, rather than trying to drink large amounts at once. Avoid solid foods until you can keep fluids down. If you’re unable to keep any fluids down at all, or if you start to feel faint, confused, or notice blood in your vomit or stool, you should seek medical attention promptly.
 
-Does anything seem to trigger the nausea or vomiting, or is it constant regardless of what you try to eat or drink?
+Does this explanation make sense, and do you have any questions about how to manage this at home or what to watch out for?
 
-**Patient**: It seems to come and go, but the nausea is pretty much there most of the time. Trying to eat or drink does make it worse, especially if I try more than just a sip. Thanks for explaining everything—I’ll keep an eye out for any new symptoms like you mentioned.
+**Patient**: Thank you for explaining that. Since my blood sugar has been running high and I have diabetes, is there anything special I should do about my insulin or meals while I’m having these symptoms?
+
+**Doctor**: Let me share my thoughts based on everything you’ve told me. When someone with diabetes is unable to eat or drink normally due to vomiting and diarrhea, it can make blood sugar levels unpredictable. Not eating can sometimes cause blood sugar to drop, but stress and dehydration often make it go higher. Since you’re struggling to keep food and fluids down, it’s important to monitor your blood sugar more frequently than usual if you’re able, and to watch for signs of both high and low blood sugar.
+
+If you use insulin or other diabetes medications, you may need to adjust them, especially if you’re not eating. However, stopping insulin altogether can be dangerous, so don’t make changes without specific guidance from your healthcare provider. If you have any instructions from your diabetes team about what to do during illness (“sick day rules”), follow those closely.
+
+Given your diabetes and trouble keeping fluids down, it would be safest for you to contact your diabetes provider or seek medical care soon—especially if your sugars stay high, you can’t keep fluids down, or you feel weak or confused. Dehydration and high blood sugar can be serious in this situation.
+
+In the meantime, keep trying small sips of fluids with some sugar (like diluted juice or oral rehydration solution) to help prevent low blood sugar, and check your glucose as often as you can. If you have ketone testing supplies at home, check for ketones in your urine or blood—if positive, that’s a reason to
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 724
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 904
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 73-year-old female presenting with nausea, vomiting, diarrhea, and hyperglycemia. Symptoms began after dinner the previous evening and included persistent nausea, non-bloody emesis progressing to dry heaves, brown non-bloody diarrhea, and epigastric pain, with inability to tolerate oral intake. She has a history of type 1 diabetes mellitus (with prior DKA), hypertension, COPD, depression, liver hemangioma, and hyperthyroidism; she is allergic to ACE inhibitors. Home fingerstick glucose readings were in the 500s, which she reports is not unusual, but she did not take her usual Humalog due to inability to eat. In the emergency department, labs revealed serum glucose of 1142 mg/dL, bicarbonate 12 mmol/L, and anion gap 33; potassium was initially elevated at 6.7 mmol/L but normalized with treatment. The documented diagnosis was diabetic ketoacidosis (DKA) in the setting of poorly controlled diabetes. Treatment included intravenous fluids, an insulin drip, and calcium gluconate for hyperkalemia.
-
-## Dialogue Summary
-
-The patient presented with persistent nausea and difficulty keeping food or fluids down. Symptoms included ongoing nausea, vomiting (initially with food, then dry heaves), diarrhea (brown, without blood or black stool), upper abdominal pain during vomiting, dry mouth, and decreased urination; the patient denied fever, chills, or dizziness on standing. These symptoms began a few days ago and have remained stable, with nausea worsening upon attempts to eat or drink. The patient reported high blood sugar readings but has continued taking insulin as prescribed, despite difficulty tolerating oral intake. Relevant history includes diabetes managed with insulin; no medication allergies were mentioned. Clinical findings included signs of mild dehydration and inability to tolerate much by mouth. The doctor assessed that the patient is experiencing several days of gastrointestinal symptoms with dehydration risk and elevated blood sugar, but absence of fever or chills makes infection less likely. The doctor recommended frequent sips of clear fluids to maintain hydration and advised monitoring for worsening symptoms or dehydration, with instructions to seek in-person care if unable to keep fluids down or if new concerning symptoms develop.
-
-## STS Evaluation
-
-- **STS Score**: 0.974
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 61.9s
+- **Processing Time**: 93.7s

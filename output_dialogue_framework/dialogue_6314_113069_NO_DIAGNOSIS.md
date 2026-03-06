@@ -16,88 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.914
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is consistent with the provided patient profile and case type. The doctor asks appropriate questions about the chief complaint (nausea, vomiting, diarrhea, migraine), explores severity and hydration status, and provides reasonable advice for a mild case. No unsupported diagnoses, treatments, or severe events are introduced. The conversation is plausible for a primary care setting and stays within the bounds of a light, common medical case.
+- **Score**: 0.914
+- **Justification**: Combined score 0.91 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.71 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.714 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For even greater realism, the patient could mention any recent dietary changes or exposures, but this is not necessary for the case.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: Doctor's reasoning and advice are thorough and appropriate. To further improve, the doctor could briefly acknowledge the patient's history of diabetic ketoacidosis (from the profile) and mention monitoring for signs of worsening diabetes if relevant, but absence of this does not detract from realism given the focus on current symptoms.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with good transitions between symptom exploration, assessment of severity, and practical advice. The closing is supportive and clear.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is appropriate for a mild case, with clear instructions on when to seek urgent care. No clarity issues detected.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi there, nice to see you today. What brings you in—can you tell me what's been bothering you lately?
+**Doctor**: Hi there, welcome. What brings you in today? Can you tell me a bit about what you've been feeling lately?
 
-**Patient**: I've been feeling pretty nauseous for the past day, and it's just not letting up.
+**Patient**: I've been feeling pretty nauseous for the past day. That's the main thing that's bothering me right now.
 
-**Doctor**: Let me ask about other symptoms—have you had any vomiting or changes in your bowel movements, like diarrhea?
+**Doctor**: Let me ask about the timing—did the nausea come on suddenly, or did it build up gradually over the day?
 
-**Patient**: Yes, I've had both diarrhea and some vomiting along with the nausea.
+**Patient**: I think it came on pretty suddenly yesterday. It just hit me and hasn't really let up since.
 
-**Doctor**: Let me ask about something else—have you had any headaches along with these symptoms? If so, where do you feel the headache and how would you describe it?
+**Doctor**: Got it. Has this nausea made it difficult for you to eat or drink, or affected your daily activities in any way?
 
-**Patient**: Yes, I've had a migraine headache along with everything else. It mostly feels like a throbbing pain on one side of my head.
+**Patient**: It's definitely made it tough to eat or drink much. I've just felt really sick, and I haven't been able to do my usual things because of it.
 
-**Doctor**: Alright. Can you tell me how severe the headache is on a scale from 1 to 10, and whether anything—like resting in a dark room or taking any medication—has helped at all?
+**Doctor**: Let me ask about other symptoms—have you had any vomiting or diarrhea along with the nausea?
 
-**Patient**: It's probably around a 7 out of 10. Taking Imitrex and lying down in a dark room helps a bit, but the headache is still there.
+**Patient**: Yes, I've had both vomiting and diarrhea along with the nausea. It all started around the same time yesterday.
 
-**Doctor**: Got it. Since you've been having these symptoms for about a day, have you noticed any fever or chills? Sometimes infections can cause these, and it helps narrow down the cause.
+**Doctor**: Let me ask about headaches—have you noticed any pain in your head since these symptoms started? If so, what does it feel like (for example, throbbing, sharp, or dull)?
 
-**Patient**: No, I haven't had any fever or chills with these symptoms.
+**Patient**: I have had a migraine headache since the symptoms started. It's pretty intense and feels like a throbbing pain.
 
-**Doctor**: Let me ask about your hydration—have you been able to keep fluids down, or are you finding it hard to drink enough because of the nausea and vomiting? This helps me gauge your risk for dehydration.
+**Doctor**: Alright, when you have these migraine headaches, do you notice any sensitivity to light or sound, or any visual changes like seeing spots or flashes?
 
-**Patient**: It's been pretty tough to keep fluids down with the nausea and vomiting. I've tried sipping water, but I still feel pretty dehydrated.
+**Patient**: I do get sensitivity to light when I have these migraine headaches. Sometimes loud noises bother me too, but I haven't noticed any visual changes like spots or flashes.
 
-**Doctor**: Got it. When you try to sip fluids, do you notice if the nausea or vomiting gets worse, or does it stay about the same? This can help me understand how sensitive your stomach is right now.
+**Doctor**: Alright. Has anything helped relieve your symptoms, like resting in a dark room or taking any medications? Or do certain things make them worse?
 
-**Patient**: Drinking even small sips of water tends to make the nausea worse, and sometimes it triggers more vomiting.
+**Patient**: Resting in a dark room does help with the migraine a bit. I also take Imitrex and Tylenol for headaches, but with the nausea and vomiting, it's been harder to keep anything down. Eating or moving around makes everything worse.
 
-**Doctor**: Alright. Since you're having trouble keeping fluids down and have had these symptoms for about a day, have you noticed any signs of feeling very weak, lightheaded when standing, or a dry mouth? These can be clues if your body is getting dehydrated.
+**Doctor**: Let me ask about your hydration—have you been able to keep fluids down at all, or are you feeling thirsty or noticing signs of dehydration like dry mouth or dizziness when you stand up?
 
-**Patient**: I've definitely felt more weak and a bit lightheaded when I stand up. My mouth has also been pretty dry today.
+**Patient**: I haven't really been able to keep fluids down, and I do feel pretty thirsty. My mouth feels dry, and I get a bit dizzy when I stand up.
 
-**Doctor**: Based on what we've discussed, it sounds like you're dealing with a combination of gastrointestinal upset and a migraine, and it's making it very hard for you to stay hydrated. The weakness, lightheadedness when standing, and dry mouth are signs your body might not be getting enough fluids, which can sometimes become more serious if not addressed.
+**Doctor**: Based on what we've discussed, it sounds like you're experiencing a sudden onset of nausea, vomiting, diarrhea, and migraine symptoms, which have made it hard to eat or drink and are causing signs of dehydration. These symptoms are commonly seen in viral gastroenteritis—a stomach bug—which often leads to nausea, vomiting, and diarrhea. Sometimes, the stress on your body from this illness can trigger migraine headaches, especially if you have a history of migraines.
 
-Often, stomach bugs or even migraines themselves can cause these kinds of symptoms and make it tough to keep anything down. The most important thing right now is to try to prevent dehydration. If you can't keep any fluids down at all, or if you start to feel extremely weak, dizzy to the point of nearly fainting, notice very little urine output, or confusion, those would be reasons to seek care more urgently—sometimes IV fluids are needed.
+The most important thing right now is to try to stay hydrated. Even small sips of clear fluids—like water, oral rehydration solutions, or electrolyte drinks—can help. Resting in a dark room is good for your migraine. If you're unable to keep any fluids down and continue to feel dizzy or have dry mouth, those are signs you may need medical attention for dehydration.
 
-In the meantime, you could try taking tiny sips of clear liquids (like electrolyte solutions or diluted juice) every few minutes rather than larger amounts, as sometimes this is easier for your stomach. Resting in a cool, quiet space is helpful for migraines as well.
+Let me share my thoughts: Your symptoms are most likely due to a mild viral infection affecting your digestive system, with your migraine triggered by the illness. This is a common scenario and usually improves within a few days. Watch for warning signs like persistent inability to keep fluids down, worsening dizziness, confusion, or very reduced urine output—those would mean you need prompt medical care.
 
-Let me know if you have any questions about this approach or if any new symptoms develop.
+If you have any questions about this or want advice on managing your symptoms at home, let me know.
 
-**Patient**: Thanks, that helps clear things up. I’ll try those tips for staying hydrated. If things don’t improve or get worse, I’ll reach out.
+**Patient**: Thanks for explaining that. How long should I expect these symptoms to last, and when would it be safe to go back to my normal routine?
+
+**Doctor**: From what you've told me, these symptoms are most likely due to a viral stomach bug, which usually resolves within a few days—typically 24 to 72 hours. Migraines triggered by illness may linger a bit longer, but should improve as your nausea and vomiting settle.
+
+It’s safe to return to your normal routine once you’re able to keep fluids and food down, your dizziness improves, and you feel well enough to be active. Rest is important right now, and avoid strenuous activity until you’re fully rehydrated and your headache has eased.
+
+If symptoms persist beyond three days, worsen, or you continue to struggle with hydration and dizziness, it’s best to seek medical care. Otherwise, gradual return to your usual activities as you recover is fine.
+
+Let me know if you’d like tips for easing your symptoms or have other questions.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 636
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 800
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 32-year-old female presenting with nausea, diarrhea, and vomiting for 24 hours. She was unable to take her usual insulin regimen due to vomiting and reported her usual migraine headache the night prior to admission, but denied fevers, chills, chest pain, shortness of breath, or dysuria. Her medical history includes type 1 diabetes (diagnosed at age 14), multiple prior episodes of diabetic ketoacidosis, migraine headaches, and attention deficit disorder; home medications include Wellbutrin, Imitrex, Tylenol, Humalog sliding scale, and NPH insulin. Allergies include penicillin, Bactrim, Keflex (hives), and Percocet and erythromycin (gastrointestinal upset). On admission, arterial blood gases showed acidosis (pH 7.19, bicarbonate 9) and fingerstick glucose was greater than 500. The documented diagnosis was diabetic ketoacidosis. Treatment included intravenous insulin boluses and drip, five liters of normal saline, and transition back to subcutaneous insulin once her anion gap closed and blood glucose normalized; gastrointestinal symptoms resolved during hospitalization.
-
-## Dialogue Summary
-
-The patient presented with persistent nausea for the past day. They reported associated symptoms of diarrhea, vomiting, and a migraine headache described as throbbing pain on one side of the head, rated 7 out of 10 in severity. The patient noted that taking Imitrex and resting in a dark room provided partial relief for the headache. No fever or chills were reported, but the patient has had difficulty keeping fluids down due to worsening nausea and vomiting with even small sips of water, leading to feelings of dehydration, weakness, lightheadedness upon standing, and dry mouth. The doctor assessed this as a combination of gastrointestinal upset and migraine, with signs of dehydration. The doctor advised trying tiny sips of clear liquids (such as electrolyte solutions or diluted juice) every few minutes and resting in a cool, quiet space for migraine relief. The patient was instructed to seek urgent care if unable to keep fluids down, or if symptoms such as extreme weakness, near-fainting, minimal urine output, or confusion develop.
-
-## STS Evaluation
-
-- **STS Score**: 0.963
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 57.6s
+- **Processing Time**: 95.2s

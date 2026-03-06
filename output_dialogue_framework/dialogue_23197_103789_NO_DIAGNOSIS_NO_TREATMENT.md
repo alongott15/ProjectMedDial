@@ -16,86 +16,90 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.880
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about the onset, severity, and associated symptoms of nausea and vomiting, as well as medication adherence and possible triggers. The patient responses are clear and align with the profile. The doctor's summary and advice are reasonable for a mild case, with appropriate safety netting. There are no unsupported diagnoses, treatments, or hallucinations.
+- **Score**: 0.880
+- **Justification**: Combined score 0.88 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.73 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.733 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, the patient could mention any recent blood sugar checks or diabetes management, given her history.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: The doctor could briefly acknowledge the patient's diabetes and gastroparesis, as these are relevant to nausea/vomiting and confusion. Asking about recent blood sugar readings or insulin use would add depth.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with good transitions between topics. Including a brief check on diabetes management would further enhance realism.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is clear and appropriate for a mild case. Explicitly mentioning when to seek urgent care (e.g., for persistent confusion or signs of dehydration) is good practice and was included.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome in today. How have you been feeling lately, and what brings you in?
+**Doctor**: Welcome, it's good to see you today. What brings you in—can you tell me what's been bothering you lately?
 
-**Patient**: I've been feeling pretty nauseous, and I've thrown up a couple times. That's mainly why I came in today.
+**Patient**: I've been feeling pretty nauseous lately, and it's been hard to shake. That's the main thing that's been bothering me.
 
-**Doctor**: Let me ask about the timing—when did these symptoms first start for you?
+**Doctor**: Let me ask about the nausea—when did you first start noticing it, and has it been constant or does it come and go throughout the day?
 
-**Patient**: I'm not exactly sure, but I think the nausea started sometime yesterday.
+**Patient**: I'm not exactly sure when it started, but it's been happening off and on during the day. Sometimes it's a bit better, but then it comes back.
 
-**Doctor**: Got it. Has this nausea and vomiting made it difficult for you to go about your usual daily activities, like eating or moving around the house?
+**Doctor**: Let me ask about triggers—have you noticed if anything specific seems to bring on the nausea, like certain foods, activities, or times of day?
 
-**Patient**: Yes, it’s definitely made it harder to eat, and I haven’t felt up to moving around much. I’ve mostly just wanted to lie down.
+**Patient**: I haven't really noticed anything specific that brings it on. It just seems to happen randomly, not related to what I eat or what I'm doing.
 
-**Doctor**: Let me ask about the vomiting—how many times have you thrown up since yesterday, and have you been able to keep any fluids down?
+**Doctor**: Got it. Have you actually vomited at all, or is it mainly just the feeling of nausea without throwing up?
 
-**Patient**: I’ve thrown up a couple of times since yesterday. I’ve tried sipping water, but it’s been tough to keep much down.
+**Patient**: I have thrown up a few times, not just the nausea. It hasn't been constant, but I've definitely vomited here and there.
 
-**Doctor**: Let me ask about your medical history—do you have high blood pressure or take any medications for it? Also, have you noticed any other symptoms like fever, abdominal pain, or diarrhea?
+**Doctor**: Got it. How much is this affecting your daily activities—are you able to eat and drink normally, or have you had trouble keeping things down or staying hydrated?
 
-**Patient**: Yes, I do have high blood pressure and I take medicine for it. I haven’t had any fever, abdominal pain, or diarrhea.
+**Patient**: It's been tough to eat and drink like normal. Sometimes I can't keep things down, and I get worried about staying hydrated.
 
-**Doctor**: Alright. When you do vomit, is there anything unusual about it—like blood or a dark color—or does it just look like what you’ve eaten or drunk?
+**Doctor**: Alright. Along with what you've described, have you noticed any other symptoms like headaches, changes in your vision, or feeling unusually tired? Sometimes these can help point to the cause.
 
-**Patient**: It just looks like what I’ve eaten or drunk—nothing unusual like blood or a dark color.
+**Patient**: I haven't had headaches or changes in my vision. I did notice my blood pressure was high, and I've felt a little confused at times.
 
-**Doctor**: Tell me more about your blood pressure medication—have you been able to take it as usual, or has the nausea affected that? Sometimes missing doses can influence symptoms, so it's helpful to know.
+**Doctor**: Let me ask about your blood pressure—do you routinely check it at home, and if so, how high has it been compared to your usual readings?
 
-**Patient**: I’ve been able to take my blood pressure medicine like usual. I did feel a bit confused earlier, but I think that’s gotten better.
+**Patient**: I do check my blood pressure at home sometimes. Lately, it's been higher than usual, but I don't remember the exact numbers.
 
-**Doctor**: Got it. Let me ask—have you noticed if anything seems to trigger your nausea, like certain foods or movements, or does it just come on suddenly regardless of what you're doing?
+**Doctor**: Okay. Has the nausea and vomiting been getting worse over time, staying about the same, or starting to improve at all?
 
-**Patient**: It just comes on suddenly, no matter what I’m doing. I haven’t noticed any specific triggers.
+**Patient**: The nausea and vomiting have pretty much stayed the same. They haven't really gotten better or worse so far.
 
-**Doctor**: Based on what we've discussed, it sounds like you've had a sudden onset of nausea and vomiting since yesterday, which has made it difficult to eat or drink much. The absence of concerning symptoms like fever, abdominal pain, or blood in your vomit is reassuring. With your history of high blood pressure and ongoing medication use, it's important to keep hydrated, as dehydration can sometimes affect blood pressure and overall well-being.
+**Doctor**: Based on what we've discussed, it sounds like you've been dealing with ongoing nausea and some vomiting that is interfering with eating and drinking, along with episodes of higher blood pressure and a bit of confusion. When these symptoms occur together, it can sometimes be related to an imbalance in your body's fluids or electrolytes, especially if you're having trouble staying hydrated. Nausea and vomiting themselves can also raise blood pressure and cause mild confusion, but it's important to rule out other causes, particularly since you mentioned your blood pressure readings have been higher than usual.
 
-Most cases like this are related to mild viral stomach bugs or dietary upset, and often resolve within a day or two. The main concern is making sure you don't get dehydrated—so try sipping small amounts of clear fluids frequently, even if just a tablespoon at a time. If you start feeling very weak, unable to keep any fluids down for more than 24 hours, or notice new symptoms like confusion, dizziness, or dark urine, those would be reasons to seek care promptly.
+Given these symptoms, my main concerns are making sure you don't become dehydrated and that your blood pressure is not dangerously high. I recommend you try to take small sips of clear fluids frequently—things like water, clear broth, or oral rehydration solutions—rather than large amounts at once. Avoiding heavy or greasy foods may also help.
 
-Let me know if you have any questions about what to watch for or how to manage at home.
+However, because you mentioned confusion and high blood pressure along with persistent vomiting, I do think it's important for you to be evaluated in person soon—today if possible. These symptoms together can sometimes signal something more serious that needs prompt attention, such as significant dehydration, effects from high blood pressure, or other underlying issues.
 
-**Patient**: Thank you, that helps put my mind at ease. I’ll do my best to keep sipping fluids and watch for any new symptoms like you mentioned. If I have any trouble, I’ll reach out.
+In summary:  
+- The likely cause of your symptoms could be dehydration from vomiting or possibly a blood pressure issue.
+- Try to keep hydrated with small sips of clear fluids.
+- Because of the confusion and increased blood pressure, please seek medical attention today to ensure nothing more serious is going on
+
+**Patient**: Thank you for explaining that. If I go in to get checked today, what kinds of tests or exams should I expect them to do?
+
+**Doctor**: Let me share my thoughts on what to expect. When you go in for an evaluation, the medical team will likely start with a careful physical exam and check your vital signs, including your blood pressure. They may order some basic blood tests to look at your electrolytes, kidney function, and signs of dehydration. Depending on your symptoms and exam findings, they might also check your urine or do an ECG to assess your heart, especially since you've noticed higher blood pressure.
+
+These steps help rule out any serious complications and guide the best treatment. The main goals are to keep you safe, rehydrate you if needed, and address any underlying causes. If anything changes—like worsening confusion, chest pain, or difficulty breathing—seek care immediately.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 583
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 808
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 65-year-old female presenting with nausea, vomiting, and hypertension. Symptoms began the night before admission with persistent nausea and inability to tolerate oral intake, progressing to non-bloody, non-bilious vomiting and elevated blood glucose (up to 440 mg/dL). She has a history of type 1 diabetes mellitus on an insulin pump, hypertension, hypercholesterolemia, hiatal hernia, and prior episodes of similar symptoms attributed to gastroparesis versus gastritis/esophagitis. On arrival, her blood pressure was 190/72 mmHg and blood glucose was 381 mg/dL; she was alert and oriented but had dry mucous membranes. Physical exam revealed stable vital signs and no acute distress. The documented clinical impression included gastroparesis related to diabetes and hypertensive urgency. Treatment included intravenous fluids, anti-emetics, labetalol as needed for blood pressure control, and aspirin. No major surgical or invasive procedures were performed during this admission.
-
-## Dialogue Summary
-
-The patient presented with nausea and vomiting that began yesterday. The nausea has made it difficult to eat and has limited daily activities, with the patient mostly wanting to lie down; vomiting has occurred a couple of times since onset, and keeping fluids down has been challenging. The patient reported no fever, abdominal pain, diarrhea, or unusual appearance of vomit, and noted a brief episode of confusion that has since improved. Relevant history includes high blood pressure managed with ongoing medication, which the patient has continued to take as usual. On assessment, the doctor noted the sudden onset of symptoms without concerning features such as blood in vomit or persistent confusion. The working diagnosis was likely mild viral gastroenteritis or dietary upset, with reassurance provided due to the absence of alarming symptoms. The doctor advised frequent sipping of clear fluids to prevent dehydration and instructed the patient to seek care if unable to keep fluids down for more than 24 hours or if new symptoms such as confusion, dizziness, or dark urine develop.
-
-## STS Evaluation
-
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 59.9s
+- **Processing Time**: 92.1s

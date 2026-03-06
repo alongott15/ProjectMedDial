@@ -16,98 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.956
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about the chest pain, explores associated symptoms, and provides reasonable advice for a patient with coronary artery disease and risk factors. The patient responses are coherent and match the scenario. No unsupported diagnoses, treatments, or severe events are introduced. The conversation maintains a primary-care tone and avoids unnecessary escalation.
+- **Score**: 0.956
+- **Justification**: Combined score 0.96 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.85 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.852 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient could provide slightly more detail about medication use or previous episodes, but overall responses are clear and relevant.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: Doctor could briefly confirm the patient's known diagnosis of coronary artery disease earlier in the conversation to reinforce context, and explicitly ask about current medications or recent changes.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with good transitions between symptom exploration, risk assessment, and safety advice. Consider summarizing key points at the end for added clarity.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is appropriate and clear. The doctor correctly emphasizes when to seek urgent care. No major clarity concerns.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it’s good to see you today. What’s been bothering you lately?
+**Doctor**: Welcome, it's good to see you today. What brings you in—can you describe what you've been feeling lately?
 
-**Patient**: My chest has been hurting, and the pain sort of spreads to my back and jaw.
+**Patient**: I've been having chest pain that spreads to my back and jaw. It's been making me quite anxious, and I wanted to get it checked out.
 
-**Doctor**: Let me ask about the pain itself—when did this discomfort first begin, and how long does each episode last?
+**Doctor**: Let me ask about the pain—where exactly do you feel it, and how long does each episode last?
 
-**Patient**: I'm not exactly sure when it first started, maybe a few days ago. Each time it happens, the pain lasts for several minutes.
+**Patient**: The pain is right in the middle of my chest, and it moves to my back and jaw. I'm not exactly sure how long each episode lasts—sometimes it's just a few minutes, other times it feels longer.
 
-**Doctor**: Let me ask about other symptoms—have you noticed any shortness of breath, sweating, or feeling lightheaded when this happens?
+**Doctor**: Alright. Have you noticed if the pain comes on with activity, like walking or climbing stairs, or does it happen even when you're resting?
 
-**Patient**: I haven’t noticed any sweating or feeling lightheaded. I don’t think I’ve had shortness of breath either, just the chest pain spreading to my back and jaw.
+**Patient**: Sometimes it happens when I'm just sitting, but I've also felt it while walking around the house. I can't really say for sure if activity makes it worse.
 
-**Doctor**: Alright. Does anything in particular seem to bring on the discomfort, like physical activity, eating, or stress? Or does it come on at rest as well?
+**Doctor**: Let me ask about associated symptoms—have you experienced any nausea, sweating, or shortness of breath when these episodes occur?
 
-**Patient**: It doesn’t seem tied to anything specific. I’ve had the pain both when I’m active and while I’m just sitting down.
+**Patient**: I haven't noticed any nausea or sweating with the pain. As for shortness of breath, that's hard to say—I do have some trouble breathing because of my other health issues, but I'm not sure if it's worse when the chest pain happens.
 
-**Doctor**: Got it. How would you rate the discomfort on a scale from 1 to 10, with 10 being the worst pain you can imagine?
+**Doctor**: Got it. Can you describe what the pain feels like—is it sharp, dull, pressure-like, or something else? And would you say it's mild, moderate, or severe when it happens?
 
-**Patient**: I’d rate the pain around a 6, maybe a 7 when it’s at its worst.
+**Patient**: It feels more like a pressure than anything sharp or dull. When it happens, I'd call it moderate—not mild, but not the worst pain I've ever had.
 
-**Doctor**: Let me ask about the location—can you point to where you feel the discomfort the most? Is it more on one side or right in the center?
+**Doctor**: Let me ask about your medical history—are you currently taking any medications, and do you know what they're for? This can help me understand if there are any underlying conditions that might relate to your symptoms.
 
-**Patient**: The pain is mostly right in the center of my chest. It spreads out from there to my back and sometimes up to my jaw.
+**Patient**: I take a few medications right now: aspirin, Lasix, Lipitor, Dilantin, Colace, Cardizem CD, Zoloft, and Labetalol. I know some are for my blood pressure and heart, but I haven't been told exactly what condition I have.
 
-**Doctor**: Let me ask about the quality of the discomfort—would you describe it as sharp, pressure-like, burning, or something else?
+**Doctor**: Does anything seem to make the pressure better or worse—like changing positions, eating, or taking any of your medications?
 
-**Patient**: It feels more like a pressure in my chest, not really sharp or burning. The pressure is the main thing I notice.
+**Patient**: Changing positions doesn't seem to make much difference, and eating doesn't really affect the pain either. I haven't noticed any improvement after taking my medications.
 
-**Doctor**: Got it. Does anything help relieve the pressure—like resting, changing position, or taking any medications? Or does it tend to go away on its own after a while?
+**Doctor**: Got it. One more question—have you noticed any changes in your ability to do daily activities, like feeling more tired or having less stamina than usual?
 
-**Patient**: Resting helps a bit, but the pressure usually just goes away on its own after several minutes. I haven’t noticed any medications making a difference.
+**Patient**: I've felt a bit more tired lately, and I don't have as much energy for my usual routines around the house. It’s harder to keep up with things than it used to be.
 
-**Doctor**: Based on what we’ve discussed, your description of a central chest pressure that spreads to your back and jaw and lasts several minutes is something I take seriously, even though you haven’t noticed things like sweating or shortness of breath. Sometimes, discomfort like this can be related to the heart, especially in women your age, even if it isn’t brought on by exertion or relieved by medications.
+**Doctor**: From what you've told me, the chest pressure that spreads to your back and jaw, sometimes occurring at rest and with activity, along with your history of heart medications, raises concern about a possible heart-related issue—specifically, angina. Angina happens when the heart doesn’t get enough oxygen-rich blood, often causing pressure or discomfort in the chest that can radiate to other areas like the jaw or back.
 
-There are also other possible causes—like muscle strain or acid reflux—but because of the way your symptoms present, I’d recommend you don’t ignore them. If the pain becomes more intense, lasts longer than usual, or is accompanied by new symptoms like difficulty breathing, nausea, or sweating, it’s important to seek immediate medical attention.
+Your tiredness and reduced stamina are also common signs when the heart is not working as efficiently as it should. The fact that your symptoms don’t seem to change with eating or position suggests they’re less likely to be related to digestion or musculoskeletal causes.
 
-For now, I suggest you keep track of when the discomfort happens and any patterns you notice. Avoid strenuous activity until you’ve had a chance to discuss this further with your primary care provider or get checked in person. Chest pressure that spreads can sometimes be a warning sign, so it’s better to be cautious.
+My recommendation is to take these symptoms seriously. If you experience more severe pain, especially if it lasts longer than usual or is accompanied by shortness of breath, sweating, or nausea, you should seek immediate medical attention. For now, I’d advise avoiding strenuous activity and keeping track of when these episodes happen.
 
-Do you have any history of heart problems or risk factors like high blood pressure, diabetes, or high cholesterol?
+Let me explain further and answer any questions you have—does this information make sense so far?
 
-**Patient**: I do have high blood pressure, and I’ve been told I have high cholesterol. Thank you for explaining everything—I’ll make sure to keep track of when it happens and let my doctor know.
+**Patient**: Thank you for explaining that. What should I expect going forward—are there any changes I need to make in my daily routine or things I should watch out for?
 
-**Doctor**: From what you've told me, your symptoms—pressure in the center of your chest that sometimes spreads to your back and jaw, lasting several minutes, and a history of high blood pressure and cholesterol—are important to pay attention to. Chest discomfort like this can sometimes signal a problem with blood flow to the heart, even if you don't have classic symptoms like sweating or shortness of breath. This is especially true for women, where heart symptoms can present a bit differently.
+**Doctor**: Based on what we've discussed, your symptoms suggest that your heart may not be getting enough blood flow at times, which is known as angina. This can cause the kind of pressure you described, especially since it sometimes happens at rest and with activity. Your medications, like aspirin, Cardizem CD, Labetalol, and Lipitor, are often used to help protect the heart and manage blood pressure and cholesterol.
 
-While there are other causes for chest pressure, such as acid reflux or muscle strain, your risk factors make it important not to overlook your heart. It's reassuring that the pain goes away on its own and isn't getting worse, but I would still advise taking it seriously.
+What often happens with angina is that symptoms can become more frequent or severe if the underlying issue worsens. That’s why it’s important to monitor for any changes—especially pain that lasts longer than usual, new shortness of breath, or if you feel faint. If any of those occur, seek medical attention right away.
 
-What I recommend is that you contact your primary care provider soon for an in-person evaluation. If your pain becomes more severe, lasts longer than usual, or you develop new symptoms like nausea or difficulty breathing, seek emergency care right away. In the meantime, avoid heavy physical activity and note any patterns or changes.
+For your daily routine, it’s wise to avoid sudden or strenuous exertion and pace yourself with activities. Keep a record of when the pain occurs and what you were doing at the time. This information can help guide treatment decisions. Also, make sure to continue your prescribed medications and follow up regularly with your healthcare provider.
 
-If you have any questions about what to watch for or how to manage things at home until you're seen, let me know—I'm here to help clarify.
-
-**Patient**: Thank you for explaining all of that. I’ll make sure to call my primary care doctor soon and keep an eye on my symptoms like you said. It helps to know what to watch for, so I appreciate your guidance.
+Let me know if you have questions about what angina means or how to manage it day-to-day.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 20
-- **Word Count**: 850
+- **Turn Count**: 19
+- **Word Count**: 869
 - **Doctor Turns**: 10
-- **Patient Turns**: 10
-
-## EHR Summary
-
-The patient is a 71-year-old female presenting with chest pain radiating to the back and jaw. Symptoms began at home on 2108-10-22, and echocardiogram revealed anterior ischemia with an ejection fraction of 54 percent. Cardiac catheterization showed significant multi-vessel coronary artery disease, including 90% occlusion in several vessels. Her past medical history includes hypertension, abdominal aortic aneurysm, prior cerebrovascular accident, left nephrectomy, chronic obstructive pulmonary disease, and gastroesophageal reflux disease; home medications included aspirin, Lasix, Lipitor, Dilantin, Colace, Cardizem CD, Zoloft, and labetalol. On examination prior to discharge, she was afebrile with stable vital signs, clear chest except for diffuse wheezes, and regular heart rhythm. The documented diagnosis was multi-vessel coronary artery disease with anterior ischemia. She underwent coronary artery bypass grafting times four on 2108-10-29 and had an uncomplicated postoperative course aside from extended ICU monitoring due to COPD. Treatment included surgical revascularization, pulmonary toilet, and supportive care; she was ambulatory and stable at discharge.
-
-## Dialogue Summary
-
-The patient presented with chest pain described as a pressure in the center of the chest that spreads to the back and jaw. The discomfort began several days ago, with each episode lasting several minutes and rated as a 6 to 7 out of 10 in severity; it occurs both at rest and during activity, is not associated with sweating, shortness of breath, or lightheadedness, and is somewhat relieved by rest but typically resolves on its own. The patient denied any specific triggers and reported no relief from medications. Relevant history includes high blood pressure and high cholesterol; no other medical history or allergies were mentioned. On clinical review, the pain was centrally located and pressure-like, without sharp or burning qualities. The doctor assessed that the symptoms could be related to cardiac causes given the nature of the pain and the patient’s risk factors, though other causes such as muscle strain or acid reflux were also considered. The doctor advised the patient to avoid strenuous activity, keep track of symptom patterns, and contact their primary care provider soon for in-person evaluation; immediate medical attention was recommended if symptoms worsen or new symptoms such as nausea or difficulty breathing develop. The patient expressed understanding of these recommendations.
-
-## STS Evaluation
-
-- **STS Score**: 0.960
-- **Similarity Label**: N/A
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 69.3s
+- **Processing Time**: 105.6s

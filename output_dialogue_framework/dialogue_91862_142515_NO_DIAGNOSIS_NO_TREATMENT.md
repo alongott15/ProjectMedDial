@@ -16,88 +16,101 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.977
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about the falls, shoulder injury, and daily functioning, and provides reasonable advice for a mild case. The patient responses are coherent and match the documented symptoms and history. No unsupported diagnoses, treatments, or severe events are introduced.
+- **Score**: 0.977
+- **Justification**: Combined score 0.98 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.92 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.923 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient could mention any recent medication changes or other symptoms (e.g., constipation, memory issues) to provide a fuller picture, but overall responses are appropriate.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: Doctor could explicitly acknowledge the patient's history of mild memory impairment/dementia and diabetes when discussing fall risk and drowsiness, and briefly check for other symptoms (e.g., constipation, urinary issues) given the profile.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with clear transitions between topics. The doctor summarizes findings and recommendations well. Consider a brief recap at the end to reinforce safety advice.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No major safety concerns. The doctor appropriately advises when to seek further care. For clarity, the doctor could specify which symptoms would warrant urgent attention (e.g., confusion, severe pain, inability to move arm).
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me a bit about what's been going on?
+**Doctor**: Let me ask about what brought you in today—can you describe what happened with your falls and your shoulder?
 
-**Patient**: I've been having a lot of falls lately, and I hurt my right shoulder during one of them. That's what's worrying me most right now.
+**Patient**: I’ve been having a lot of falls lately, and after one of them my right shoulder started hurting quite a bit. That’s why I wanted to get checked out.
 
-**Doctor**: Let me ask about your shoulder—are you able to move it normally, or is there pain or limited movement since the fall?
+**Doctor**: Let me ask about your shoulder—can you move it at all, or is the pain too much when you try?
 
-**Patient**: I can move it, but there's definitely pain when I try. It feels a bit stiff since the fall.
+**Patient**: I can move my shoulder a bit, but it hurts when I try. The pain makes it tough to use my right arm like I normally would.
 
-**Doctor**: Let me ask about the falls—when did they start happening, and how often have you been falling recently?
+**Doctor**: Got it. Aside from the pain, have you noticed any swelling, bruising, or changes in how your shoulder looks since the fall?
 
-**Patient**: I’m not sure exactly when they started, but I’ve been falling more often lately—maybe a few times over the past couple weeks. My feet hurt from neuropathy, which doesn’t help with my balance.
+**Patient**: I haven’t really noticed any swelling or bruising on my shoulder. It just hurts when I try to move it.
 
-**Doctor**: Let me ask about your daily routine—are these falls happening indoors, outdoors, or in particular situations like getting up from a chair or walking at night?
+**Doctor**: Let me ask about the falls—how often have you been falling lately, and do you remember what tends to cause them? For example, do you trip, feel dizzy, or does your leg give out?
 
-**Patient**: Most of the falls have happened indoors, usually when I’m trying to get up from a chair or walk across the room. It’s not just at night—it can happen during the day, too.
+**Patient**: I’ve been falling quite a bit lately, but I’m not sure exactly how many times. Sometimes I just feel drowsy or confused and then lose my balance. I don’t really trip over anything, it just sort of happens.
 
-**Doctor**: Alright. When you fell and hurt your shoulder, did you notice any swelling, bruising, or unusual shape in the area?
+**Doctor**: Alright. Have these episodes of drowsiness or confusion been happening only right before you fall, or do they occur at other times as well?
 
-**Patient**: Yes, there’s some bruising on my right shoulder, and it looks a little swollen. I haven’t noticed any odd shape or anything like that.
+**Patient**: Those episodes happen at other times too, not just before I fall. Sometimes I’ll feel confused or really drowsy even when I’m just sitting around.
 
-**Doctor**: Got it. Has the pain and swelling in your shoulder been getting better, staying the same, or getting worse since the injury?
+**Doctor**: Let me ask about the timing—when did these falls and shoulder pain first begin? Has this been going on for days, weeks, or longer?
 
-**Patient**: The pain and swelling have stayed about the same since it happened. I haven’t noticed much improvement yet.
+**Patient**: I’m not exactly sure when it all started, but the falls and shoulder pain have been going on for at least a few weeks now.
 
-**Doctor**: Tell me more about how much this is interfering with your daily activities—are you able to dress, bathe, or do chores as usual, or has it become more difficult?
+**Doctor**: Got it. Does your shoulder pain seem to be getting better, staying the same, or getting worse over these past few weeks?
 
-**Patient**: It’s definitely harder to do things like dressing and bathing by myself now, especially with the shoulder pain. I also get pretty drowsy sometimes, which makes it tough to keep up with chores.
+**Patient**: The pain in my shoulder has pretty much stayed the same these past few weeks. It hasn’t really gotten better or worse.
 
-**Doctor**: Let me ask about the drowsiness you mentioned—does this come on suddenly, or is it more of a constant feeling throughout the day?
+**Doctor**: Let me ask about your daily routine—have these episodes affected your ability to take care of yourself or do things like getting dressed, bathing, or preparing meals?
 
-**Patient**: It’s more of a constant feeling throughout the day. I don’t really notice it coming on suddenly.
+**Patient**: These episodes have definitely made it harder for me to take care of myself. I need help with things like getting dressed and moving around, and sometimes I can’t manage meals on my own.
 
-**Doctor**: Based on what we've discussed, it sounds like your balance issues and frequent falls may be related to your neuropathy and possibly the drowsiness you've been feeling during the day. Sometimes, neuropathy can make it harder to sense where your feet are, which increases the risk of losing balance—especially when standing up or moving around the house. Feeling drowsy can also make it tougher to stay steady.
+**Doctor**: Based on what we've discussed, it sounds like you've been having frequent episodes where you feel drowsy or confused, which then lead to falls. After one of these falls, you developed ongoing discomfort in your right shoulder, which is making daily tasks much harder. The fact that these episodes are affecting your ability to care for yourself is important.
 
-For your shoulder, since the discomfort and swelling haven’t improved, it’s possible you have a soft tissue injury like a bruise or strain. Most minor injuries heal with rest, gentle movement, and ice, but if the swelling or function doesn’t improve in a few days, or if you notice any new symptoms like numbness or increasing weakness, it would be wise to get it checked to rule out anything more serious.
+These symptoms could be related to a number of common issues in older adults, such as medication side effects, changes in blood pressure, blood sugar fluctuations, or even underlying infections or heart rhythm changes. The shoulder discomfort after a fall is concerning for a possible injury like a strain or a minor fracture, especially since the pain hasn’t improved over several weeks.
 
-To help reduce your fall risk at home, consider making sure walkways are clear, using sturdy shoes, and perhaps adding grab bars or supports in areas where you get up often. If the drowsiness is new or getting worse, it might also be worth reviewing any recent medication changes or sleep patterns.
+Here’s what I recommend:
+1. You should have your shoulder examined in person, and an X-ray may be needed to rule out a fracture or other injury.
+2. Because your falls are happening with confusion and drowsiness, it’s important to review any medications you’re taking and check for things like low blood pressure, blood sugar issues, or other underlying causes.
+3. In the meantime, try to avoid situations where you might fall again—use support when moving around and ask for help as needed.
+4. Watch out for any new symptoms such as chest pain, severe headache, sudden weakness, or worsening confusion—if these occur, seek medical attention promptly.
 
-If you notice confusion, severe pain, inability to move the arm, or any new symptoms, please seek care promptly. Would you like some tips on safe exercises or strategies to help with balance at home?
+Falls and confusion are not a normal part of aging and deserve careful evaluation. I encourage you to see your primary care provider soon for a
 
-**Patient**: Thanks, that makes sense. I’d appreciate some tips for balance and safe exercises at home—I want to avoid more falls if I can. Sometimes I do get a bit confused, but it’s not all the time.
+**Patient**: Thank you for explaining all that. If the X-ray shows something wrong with my shoulder, what usually happens next?
+
+**Doctor**: From what you’ve told me, if the X-ray finds a problem—like a fracture or dislocation—the next steps usually depend on the specific injury. For minor injuries, treatment might include rest, using a sling to support your arm, and gentle exercises as it heals. If there’s a more significant fracture, sometimes a specialist is involved, and in rare cases, surgery might be needed. Most shoulder injuries after a fall in older adults heal well with proper support and physical therapy.
+
+The main goals are to reduce discomfort, restore movement, and prevent further injury. Your care team would guide you through each step based on the X-ray results. In the meantime, keep your shoulder supported and avoid activities that make it worse.
+
+If you notice any new swelling, increasing pain, or trouble moving your arm at all, let your provider know right away.
+
+**Patient**: How long does it usually take for a shoulder injury like this to get better?
+
+**Doctor**: Based on what we've discussed, recovery time for a shoulder injury after a fall can vary quite a bit depending on the type and severity of the injury. For mild strains or bruises, people often start to feel better within a few weeks, especially with rest and gentle movement. If there’s a small fracture, healing might take several weeks to a couple of months, and sometimes physical therapy is needed to regain full use.
+
+Since your pain hasn’t improved over several weeks, it’s important to get that X-ray so we know exactly what’s going on. While most shoulder injuries do heal with time and proper support, making sure there’s nothing more serious will help guide the best treatment and get you back to your normal activities as soon as possible.
+
+In the meantime, continue to use your arm gently and avoid heavy lifting or sudden movements. If you notice any new or worsening symptoms, let your healthcare provider know right away.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 668
-- **Doctor Turns**: 9
-- **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 76-year-old male presenting with multiple falls and a right shoulder injury. He experienced several falls within a 24-hour period, including one incident where he collapsed onto a sink, injuring his right shoulder; X-ray suggested a possible greater trochanter fracture. His history includes remote CABG, ischemic cardiomyopathy with a last measured ejection fraction of 15%, mild memory impairment, diabetes, hypertension, dyslipidemia, COPD, peripheral neuropathy, vitamin B12 deficiency, chronic kidney disease, dementia, and recurrent falls. On admission, he was drowsy but arousable and oriented to person only, with vital signs showing BP 118/59, HR 88, RR 17, and O2 saturation 94% on 3L nasal cannula. Laboratory findings included elevated BNP (1273), troponin (1.43), CK (695), and MB (7.4), with clinical signs of congestive heart failure noted in the emergency department. The documented assessment included possible CHF exacerbation and orthopedic injury. The treatment plan involved further cardiac management (including possible catheterization and electrophysiology consult for ICD consideration) and orthopedic evaluation. No major surgical or invasive procedures were performed during this admission.
-
-## Dialogue Summary
-
-The patient presented with frequent falls and right shoulder pain following a recent injury. She reported increased frequency of falls over the past couple of weeks, mostly occurring indoors when getting up from a chair or walking across the room, with underlying foot pain from neuropathy contributing to balance issues. The right shoulder is painful with movement, feels stiff, and has persistent swelling and bruising without improvement; no abnormal shape was noted. She also experiences constant daytime drowsiness and occasional confusion, which further interfere with daily activities such as dressing and bathing. Relevant history includes neuropathy affecting her feet; no medications or allergies were specified. On assessment, the doctor attributed the falls to neuropathy and drowsiness, and suspected a soft tissue injury (bruise or strain) of the shoulder. The doctor recommended rest, gentle movement, and ice for the shoulder, advised monitoring for worsening symptoms, suggested home safety modifications to reduce fall risk, and proposed reviewing medications or sleep if drowsiness worsens. Balance tips and safe exercise strategies were offered at the patient's request.
-
-## STS Evaluation
-
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
+- **Turn Count**: 21
+- **Word Count**: 1028
+- **Doctor Turns**: 11
+- **Patient Turns**: 10
 
 ## Processing Information
 
-- **Processing Time**: 62.9s
+- **Processing Time**: 101.4s

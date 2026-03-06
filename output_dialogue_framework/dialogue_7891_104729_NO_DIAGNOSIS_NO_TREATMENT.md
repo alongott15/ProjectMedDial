@@ -16,88 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.957
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions to characterize the symptom, screens for concerning features given the cardiac history, and provides reasonable reassurance and advice. The patient responses are clear, relevant, and do not introduce unsupported information. No hallucinations or contradictions are present.
+- **Score**: 0.957
+- **Justification**: Combined score 0.96 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.86 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.857 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient could specify if the heaviness ever occurs with exertion or rest, but overall responses are appropriate and clear.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: Doctor could briefly mention the patient's history of coronary artery disease and CABG when explaining why certain symptoms (e.g., chest pain, weakness) would be more concerning, to further personalize the reasoning.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical, with a clear progression from symptom characterization to reassurance and advice. The closing is supportive and invites further questions.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The doctor appropriately advises monitoring for escalation or new symptoms and gives clear instructions on when to seek care.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's nice to see you today. What brings you in, and how have you been feeling lately?
+**Doctor**: Let me ask about your main concern—can you tell me more about what brought you in today?
 
-**Patient**: I've been feeling a kind of heaviness in both of my arms every so often. That's mainly why I wanted to come in today.
+**Patient**: I've been having this odd heaviness in both of my arms from time to time, and I wanted to get it checked out.
 
-**Doctor**: Let me ask about how long this feeling has been going on. When did you first notice the heaviness in your arms?
+**Doctor**: Let me ask about when you first noticed this sensation—how long has this been happening?
 
-**Patient**: I'm not exactly sure when it started, but I think it's been happening off and on for a couple of weeks now.
+**Patient**: I'm not exactly sure when it began, but it's been happening off and on for a little while now.
 
-**Doctor**: Let me ask about what you’re doing when this feeling comes on. Have you noticed if certain activities or times of day seem to bring it on, or does it happen randomly?
+**Doctor**: Let me ask about what you’re doing when this heaviness comes on—does it seem to happen during any particular activity, like walking, using your arms, or even at rest?
 
-**Patient**: I haven't really noticed a specific time or activity that brings it on. It just seems to happen randomly, not tied to anything in particular.
+**Patient**: I don't think it's tied to any specific activity. Sometimes it happens when I'm just sitting, and other times if I'm moving around, but I haven't noticed a clear pattern.
 
-**Doctor**: Let me ask about any other symptoms—have you noticed things like numbness, tingling, weakness, or pain in your arms when this happens?
+**Doctor**: Got it. When you feel this heaviness, does it come with any other symptoms—like chest discomfort, shortness of breath, sweating, or feeling faint?
 
-**Patient**: No, I haven't had any numbness, tingling, weakness, or pain with it. It's really just the heaviness in both arms that I've noticed.
+**Patient**: I haven't noticed any chest pain, trouble breathing, sweating, or feeling lightheaded when it happens. It's just the heaviness in both arms.
 
-**Doctor**: Got it. How much does this feeling interfere with your usual activities—are you able to do things like cooking, getting dressed, or carrying groceries as you normally would?
+**Doctor**: Alright. How much would you say this sensation is interfering with your usual activities—are you able to do things like cooking, dressing, or carrying groceries as you normally would?
 
-**Patient**: I'm still able to do my usual activities like cooking and getting dressed. The heaviness doesn't really stop me from doing things, it's just a bit uncomfortable when it happens.
+**Patient**: I'm still able to do my daily activities like cooking and getting dressed. The heaviness is uncomfortable, but it hasn't really stopped me from doing things around the house.
 
-**Doctor**: Alright. Has the heaviness changed at all over the past couple of weeks—has it been getting more frequent, less frequent, or staying about the same?
+**Doctor**: Let me ask about how long these episodes usually last—does the heaviness go away after a few minutes, or does it stick around for longer periods?
 
-**Patient**: It's been about the same over the past couple of weeks. I haven't noticed it getting any better or worse.
+**Patient**: Most of the time, the heaviness goes away after a few minutes. It doesn't last very long.
 
-**Doctor**: Let me ask about your overall health—have you had any recent illnesses, changes in medications, or new stressors around the time this started? Sometimes general changes can play a role in how our bodies feel.
+**Doctor**: Alright. Does anything seem to make the heaviness better or worse—like changing your position, massaging your arms, or taking a break?
 
-**Patient**: No recent illnesses or changes in my medications. I can't think of any new stress or anything else different around the time this started.
+**Patient**: Taking a break sometimes seems to help, but I haven't noticed much difference with changing position or massaging my arms.
 
-**Doctor**: Got it. Since this feeling has been consistent, have you noticed any swelling, changes in skin color, or temperature in your arms when the heaviness occurs?
+**Doctor**: I see. Over time, have these episodes been staying about the same, or have you noticed them getting more frequent or intense?
 
-**Patient**: No, I haven't seen any swelling, changes in color, or temperature in my arms when the heaviness happens.
+**Patient**: They've pretty much stayed the same. I haven't noticed them getting worse or happening more often.
 
-**Doctor**: Based on what we've discussed, it sounds like this sensation has been mild, not interfering with your daily activities, and hasn’t been accompanied by other concerning symptoms like pain, weakness, or changes in your arms. In many cases, a vague feeling of heaviness can be related to things like mild circulation changes, muscle fatigue, or even something as simple as posture—especially if it comes and goes and doesn’t get worse.
+**Doctor**: Based on what we've discussed, it sounds like you’re experiencing intermittent heaviness in both arms that isn’t linked to activity, doesn’t come with chest pain or other concerning symptoms, and isn’t getting worse over time. The fact that it goes away after a few minutes and hasn’t limited your daily activities is reassuring.
 
-What’s reassuring is that you haven’t had any other warning signs such as chest pain, shortness of breath, or sudden loss of strength. If you do ever notice those, it’s important to seek care right away.
+Often, sensations like this can be related to circulation changes, mild nerve irritation, or even muscle fatigue—especially if there are no other warning signs like chest discomfort, shortness of breath, or fainting. Sometimes, these symptoms can also be brought on by things like posture or mild arthritis, which are common as we age.
 
-For now, I’d suggest keeping an eye on the pattern—maybe jot down when it happens and what you’re doing at the time. Staying active, stretching your arms throughout the day, and making sure you’re well-hydrated can sometimes help with these kinds of sensations.
+At this point, since your symptoms are mild, not progressing, and not associated with any serious features, I’d recommend monitoring for any changes. If you ever develop chest pain, trouble breathing, sudden weakness, or the heaviness becomes severe or constant, it would be important to seek care promptly.
 
-If the feeling becomes more frequent, starts to interfere with your activities, or you develop new symptoms, let’s check in sooner. Otherwise, we can keep monitoring it together. Does that sound reasonable to you? Any other questions or concerns on your mind today?
+For now, gentle stretching and staying active can help. If you notice the episodes becoming more frequent or they start interfering with your daily life, let’s arrange a follow-up for further evaluation. Does that sound reasonable to you?
 
-**Patient**: That all makes sense to me, thank you for explaining it. I’ll keep track of when it happens like you suggested. Right now, I don’t have any other concerns.
+**Patient**: Thank you for explaining that. Is there anything specific I should avoid doing, or any activities that might make this worse?
+
+**Doctor**: Let me share my thoughts on what you’ve described. Since your arm heaviness is brief, not worsening, and doesn’t come with any warning signs like chest pain or shortness of breath, it’s unlikely to be caused by something serious such as heart or nerve issues. These kinds of sensations can often happen with minor muscle fatigue, changes in circulation, or even mild arthritis—especially as we age.
+
+You don’t need to avoid your usual activities if you’re able to do them comfortably. In fact, gentle movement and stretching can be helpful. The main thing is to listen to your body—if something feels uncomfortable, take a short break. There’s no need to avoid specific activities unless you notice a clear link between a particular movement and the heaviness.
+
+If you ever notice the heaviness lasting longer, becoming more intense, or if you develop new symptoms like chest discomfort, trouble breathing, or sudden weakness, seek medical attention right away. Otherwise, keep an eye on things and let me know if anything changes or becomes bothersome. Most likely, this is a mild and manageable issue.
+
+Would you like some tips on simple stretches or ways to keep your arms comfortable day-to-day?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 639
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 792
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 76-year-old female presenting with occasional bilateral arm heaviness occurring both at rest and with exertion. She denied associated symptoms such as shortness of breath, nausea, vomiting, or diaphoresis. Her medical history includes coronary artery disease (with possible prior myocardial infarction), non-insulin dependent diabetes mellitus, hypertension, hypercholesterolemia, retinopathy, bilateral cataracts, and incontinence; she has no known drug allergies and is on multiple medications including Prinivil, Toprol, Glucophage, Glyburide, ocular drops, and sublingual nitroglycerin as needed. Cardiac evaluation revealed a positive exercise treadmill test and cardiac catheterization showed proximal LAD occlusion, significant left circumflex and RCA disease. On admission, laboratory values were notable for glucose 151 mg/dL and creatinine 1.2 mg/dL. The documented diagnosis was multivessel coronary artery disease. She underwent coronary artery bypass grafting (CABG) with LIMA to LAD and SVG to OM1. Postoperatively, she was extubated on day one and weaned off NeoSynephrine drip without complication.
-
-## Dialogue Summary
-
-The patient presented with intermittent heaviness in both arms as the chief complaint. The heaviness has been occurring off and on for a couple of weeks, without any identifiable triggers, specific times, or activities associated with its onset. The patient denied accompanying symptoms such as numbness, tingling, weakness, pain, swelling, changes in skin color, or temperature in the arms, and reported no interference with daily activities. There was no history of recent illness, medication changes, or new stressors. On examination, no physical abnormalities were noted by the patient. The doctor assessed that the mild, non-progressive heaviness without other concerning symptoms may be related to mild circulation changes, muscle fatigue, or posture. The doctor recommended monitoring the pattern of symptoms by keeping a log, staying active, stretching the arms, and maintaining hydration. The patient was advised to seek care if symptoms worsen or new symptoms develop, and agreed to the plan.
-
-## STS Evaluation
-
-- **STS Score**: 0.951
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 65.7s
+- **Processing Time**: 96.3s

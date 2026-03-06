@@ -16,60 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.850
+- Score: 0.713
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.850
-- **Justification**: The dialogue is realistic up to the point where it ends. The doctor asks appropriate, open-ended questions about the chest pain, and the patient provides plausible, relevant answers. The conversation follows a logical clinical history-taking process for a patient with known cardiac disease presenting with chest pain. There are no hallucinations or unsupported content. The simulation ends prematurely due to a technical issue, not a content problem.
+- **Score**: 0.713
+- **Justification**: Combined score 0.71 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.18 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.176 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For improvement, the patient could offer more detail or context if prompted (e.g., describing associated symptoms or triggers).
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and question structure. For improvement, consider asking about associated symptoms (e.g., shortness of breath, sweating, nausea) and risk factors earlier.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is natural and logical. The main issue is the abrupt end due to a technical error; ensuring the patient agent responds to all prompts would improve completeness.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns in the existing turns. The doctor maintains a clear and respectful tone.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it’s good to see you today. What brings you in—can you tell me more about what’s been bothering you lately?
+**Doctor**: Hello, good to see you today. What brings you in—could you tell me more about how you've been feeling lately?
 
-**Patient**: I've been having some chest pain lately, and it's got me a bit worried. That's really the main thing that's been bothering me.
+**Patient**: My chest has been hurting, and it's making me pretty anxious. That's the main reason I came in today.
 
-**Doctor**: Let me ask about the pain itself—when did you first notice it, and how long does it usually last when it happens?
+**Doctor**: Let me ask about the pain itself—how would you rate it on a scale from 1 to 10, with 10 being the worst pain you can imagine?
 
-**Patient**: I first noticed the pain a few days ago. It doesn’t last very long—maybe a few minutes at a time.
+**Patient**: I’d rate the pain around a 7 out of 10. It’s definitely uncomfortable and hard to ignore.
 
-**Doctor**: Alright. Have you noticed if the discomfort happens during certain activities, like walking or after eating, or does it seem to come on randomly?
+**Doctor**: Let me ask about the location—can you point to exactly where on your chest you feel the pain? Is it more in the center, to one side, or does it move around?
 
-**Patient**: It usually comes on randomly—I haven’t noticed any connection to walking or eating.
+**Patient**: The pain is mainly right in the center of my chest. It doesn’t really move around much—it just stays there and feels pretty heavy.
 
-**Doctor**: Got it. When these episodes happen, would you describe the sensation as sharp, dull, pressure-like, or something else? And on a scale of 1 to 10, how uncomfortable does it get at its worst?
+**Doctor**: Alright. When did you first notice this sensation, and has it been constant since it began or does it come and go?
+
+**Patient**: I can’t remember the exact day it started, but the pain isn’t always there—it tends to come and go. Sometimes it’s worse, especially if I’m active.
+
+**Doctor**: Got it. Besides the discomfort, have you noticed any other symptoms when this happens—like shortness of breath, sweating, or feeling lightheaded?
+
+**Patient**: I haven’t really noticed anything else—just the chest pain. No shortness of breath, sweating, or feeling lightheaded.
+
+**Doctor**: Let me ask about your activities—does resting or sitting quietly help reduce the discomfort, or does it tend to persist regardless of what you're doing?
+
+**Patient**: Resting usually helps a bit—the pain tends to ease off when I’m sitting quietly. It’s more noticeable if I’m moving around or doing something active.
+
+**Doctor**: Alright. Have you noticed any patterns with meals or stress—does this sensation ever seem linked to eating, or does it tend to appear during stressful moments?
+
+**Patient**: I haven’t noticed any connection to meals or stress. The chest pain doesn’t seem to depend on what I’m eating or how stressed I am.
+
+**Doctor**: Got it. Has this discomfort affected your sleep or woken you up at night, or does it mainly happen during the day when you’re more active?
+
+**Patient**: It mainly happens during the day when I’m more active. It hasn’t really affected my sleep or woken me up at night.
+
+**Doctor**: Based on what we've discussed, your chest discomfort seems to come on with activity and improves with rest, and you haven’t noticed other symptoms like shortness of breath or sweating. When chest pain is brought on by exertion and relieved by rest, it can sometimes be related to the heart, but it’s also possible for other causes—like muscle strain or anxiety—to play a role.
+
+Because the pain is significant and happens with activity, it’s important to be cautious. Even though you’re not having severe symptoms like fainting or pain at rest, I’d recommend we take this seriously. The next steps would usually include checking your blood pressure, heart rate, and possibly doing an EKG to look at your heart’s rhythm, just to be safe.
+
+In the meantime, avoid strenuous activity until we know more. If you develop new symptoms—like pain that won’t go away with rest, trouble breathing, or feeling faint—you should seek immediate care.
+
+Does that all make sense? Is there anything else about your symptoms or your medical history you think I should know?
+
+**Patient**: Thanks for explaining that. I should mention—I’ve already been diagnosed with coronary artery disease with multi-vessel involvement, and I’ve had a mechanical mitral valve replacement. My ejection fraction is also reduced, around 30%. Does that change anything about how you want to approach this?
 
 ## Dialogue Statistics
 
-- **Turn Count**: 7
-- **Word Count**: 177
-- **Doctor Turns**: 4
-- **Patient Turns**: 3
-
-## EHR Summary
-
-The patient is a 48-year-old male presenting with chest pain. He reported no prior cardiac or hypertensive history and is an ex-smoker. On evaluation, he was found to have elevated left ventricular end-diastolic pressure (LVEDP 30), apical inferior and posterior basal akinesis, grade 3-4 mitral regurgitation, and an ejection fraction of approximately 30%. Cardiac catheterization revealed significant coronary artery disease with 100% occlusion of the left anterior descending and right coronary arteries, and severe stenoses in other vessels. Electrocardiogram showed normal sinus rhythm with Q-waves in II, AVF, and ST elevation in V1 and V3. The documented diagnosis was severe multivessel coronary artery disease with mitral regurgitation. He underwent coronary artery bypass grafting (CABG) times four and mechanical mitral valve replacement. At discharge, his condition was stable, and he was prescribed Lipitor, Aspirin, Lopressor, Percocet as needed, and Coumadin.
-
-## Dialogue Summary
-
-The patient presented with chest pain as the chief complaint. The chest pain began a few days ago, occurs randomly without clear triggers such as walking or eating, and lasts for a few minutes at a time. No additional symptoms, severity rating, or specific pain characteristics (sharp, dull, pressure-like) were provided due to the incomplete dialogue. No relevant medical history, medications, or allergies were mentioned. There were no clinical findings discussed, as the physical examination was not performed or described. The doctor did not provide an assessment or working diagnosis during the conversation. No treatment plan or specific recommendations were given in the available portion of the dialogue.
-
-## STS Evaluation
-
-- **STS Score**: 0.946
-- **Similarity Label**: N/A
+- **Turn Count**: 18
+- **Word Count**: 618
+- **Doctor Turns**: 9
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 33.8s
+- **Processing Time**: 79.5s

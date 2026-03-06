@@ -16,88 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.940
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile. The doctor asks logical, relevant questions about the patient's symptoms, progression, and functional impact. The patient responses are coherent and match the clinical scenario of a femur fracture with associated bleeding and scrotal ecchymoses. The doctor's explanations are medically accurate for this context, and no unsupported diagnoses, treatments, or severe complications are introduced. The conversation remains focused on the light case type and does not escalate inappropriately.
+- **Score**: 0.940
+- **Justification**: Combined score 0.94 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.80 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.800 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, the patient could mention any specific limitations in daily activities or use more natural language about their concerns.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and provides clear explanations. To improve, the doctor could briefly check for other symptoms (e.g., fever, urinary changes given the UTI history) or clarify follow-up plans.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and smooth, with appropriate back-and-forth. The doctor summarizes findings and gives anticipatory guidance, which is realistic. Consider ending with a clear plan or next steps for closure.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns. The advice to monitor for worsening symptoms is appropriate. The doctor avoids unsupported interventions and stays within the scope of a light case.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me what's been bothering you lately?
+**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me what symptoms or concerns you've been having lately?
 
-**Patient**: I've been having some bleeding into my left thigh from a fracture in my femur. That's the main thing that's been worrying me lately.
+**Patient**: I've been having some bleeding into my left thigh, and it seems like I've lost quite a bit of blood. That's mainly why I came in today.
 
-**Doctor**: Let me ask about how this has been affecting your daily activities—are you able to move around, or has it limited your mobility quite a bit?
+**Doctor**: Let me ask about when this bleeding first started—was it sudden, or did it come on gradually?
 
-**Patient**: Moving around has definitely been harder for me. The bleeding in my thigh makes it tough to get up and do things like I normally would.
+**Patient**: I'm not completely sure, but I think it happened pretty suddenly. I just noticed the bleeding in my left thigh all at once.
 
-**Doctor**: Let me ask about when you first noticed the bleeding and difficulty moving—was this right after your fracture, or did it develop over time?
+**Doctor**: Let me ask about how you're feeling overall—have you noticed any lightheadedness, weakness, or trouble standing since this started?
 
-**Patient**: It started right after I fractured my femur. The bleeding and the trouble moving came on pretty quickly after that happened.
+**Patient**: I haven't really noticed feeling lightheaded or weak. It's mostly just the bleeding in my left thigh that's got me concerned.
 
-**Doctor**: Let me ask about any other changes you've noticed—have you had any symptoms like unusual bruising or swelling elsewhere, such as in the groin or scrotum area?
+**Doctor**: Let me ask about any changes in the appearance of your skin—have you noticed any unusual bruising, swelling, or color changes in your thigh or nearby areas?
 
-**Patient**: Yes, I've noticed some bruising in my scrotum area as well. That's been a bit concerning for me.
+**Patient**: I have noticed some bruising—my scrotum looks discolored, kind of like a bruise. That’s something new for me.
 
-**Doctor**: Alright. Have you experienced any lightheadedness, weakness, or changes in your energy levels since this started? Sometimes significant bleeding can cause these symptoms.
+**Doctor**: Got it. Are you having any pain in your thigh or groin, and if so, how much does it limit your ability to walk or move around?
 
-**Patient**: I haven't really felt lightheaded or weak since this started. My energy levels seem about the same as usual.
+**Patient**: There's definitely some discomfort in my left thigh, but I can still move around. I haven't noticed any pain in the groin area, just the bruising.
 
-**Doctor**: Got it. One thing I'm curious about—how much swelling do you notice in your thigh or groin area? Is it getting worse, staying the same, or improving over time?
+**Doctor**: Got it. Let me ask about the amount of blood loss—have you noticed any swelling or firmness in your thigh, or does it feel tense or tight compared to your other leg?
 
-**Patient**: The swelling in my thigh has stayed about the same. I haven’t noticed it getting worse or better over time.
+**Patient**: My left thigh does feel more swollen and kind of firm compared to my other leg. It’s definitely tighter in that area.
 
-**Doctor**: Got it. When you look at your thigh and scrotum area, does the color of the bruising seem to be changing—getting darker, lighter, or spreading? This can help me understand how your body is healing.
+**Doctor**: Alright. Has the swelling and firmness in your thigh been getting better, staying the same, or getting worse since you first noticed it?
 
-**Patient**: Yes, the bruising in my scrotum seems to be getting a bit lighter now. The color in my thigh hasn’t changed much—it’s about the same as it’s been.
+**Patient**: The swelling and firmness in my thigh seem to be getting worse, not better. It feels more tense than it did before.
 
-**Doctor**: Let me ask about your pain—how would you rate the discomfort in your thigh and groin area on a scale from 1 to 10, with 10 being the worst pain you've ever felt?
+**Doctor**: Okay. How much is this swelling and discomfort affecting your ability to do your usual daily activities, like walking around the house or getting dressed?
 
-**Patient**: I'd rate the pain in my thigh around a 6, and in the groin area it's more like a 3. It's uncomfortable but manageable.
+**Patient**: It's definitely making things harder. Walking around the house and getting dressed takes more effort because of the swelling and discomfort in my left thigh.
 
-**Doctor**: Based on what we've discussed, it sounds like your bleeding and bruising are related to the recent femur fracture. The fact that your bruising in the scrotum is lightening and the swelling isn't getting worse suggests that your body is starting to heal and the bleeding may be stabilizing. Pain levels that are manageable and no symptoms like lightheadedness or weakness are reassuring signs that you aren't losing a dangerous amount of blood.
+**Doctor**: Based on what we've discussed, it sounds like you're experiencing bleeding into the tissue of your left thigh, which is causing swelling, firmness, and some spreading of bruising to the scrotal area. The fact that the swelling and tightness are getting worse and making daily activities more difficult suggests that there's ongoing bleeding or a significant collection of blood under the skin, known as a hematoma.
 
-What often happens with injuries like this is that blood from the fracture can track down through tissue planes, causing bruising and swelling in nearby areas like the thigh and even the scrotum. This is usually expected after a significant bone injury, especially in older adults.
+This type of issue can sometimes happen after trauma or even spontaneously, especially if someone is on blood thinners or has a bleeding tendency, but you haven't mentioned any injuries. The spreading bruising and increasing firmness are important to address because, if left untreated, a large hematoma can put pressure on muscles and nerves, and in rare cases, compromise blood flow.
 
-Keep monitoring for any sudden increase in swelling, worsening pain, or feelings of dizziness—these could be warning signs that need prompt attention. For now, keeping the leg elevated when possible and avoiding strenuous movement can help with healing. If you notice any new symptoms or if things start to worsen, reach out to your healthcare team right away.
+At this point, my assessment is that you have a significant hematoma in your left thigh, possibly with extension toward the groin area. While this can sometimes be managed conservatively, the increasing swelling and difficulty with movement mean it’s important to get further evaluation soon—especially to rule out any ongoing bleeding or complications. 
 
-Does anything seem to trigger more discomfort or swelling, such as certain movements or activities?
+I recommend you seek prompt medical attention today—either at an urgent care or emergency department—so they can assess the size of the hematoma, check your blood counts, and make sure there’s no serious bleeding or compartment syndrome. In the meantime, try to keep your leg elevated and limit walking as much as possible.
 
-**Patient**: Certain movements, like trying to stand up or walk, seem to make the discomfort in my thigh worse. If I stay seated and keep my leg up, it feels a bit better. Thank you for explaining everything so clearly.
+If you notice severe pain, numbness, weakness in your leg, trouble urinating, or if you
+
+**Patient**: Thank you for explaining all of that. What kind of tests should I expect when I go in—will they need to do any scans or just blood work?
+
+**Doctor**: Let me share my thoughts on what to expect. When you go in, the team will likely want to do both blood work and some form of imaging. Blood tests help check your blood counts to see if you've lost a significant amount of blood and to look for any clotting problems. Imaging—such as an ultrasound or possibly a CT scan—can help them see how much blood has collected in your thigh, whether it’s still actively bleeding, and if there’s any pressure building up that could affect nerves or blood flow.
+
+The combination of these tests will guide them in deciding whether you need any intervention, like drainage, or if close monitoring is enough. The main goal is to ensure there’s no ongoing bleeding or risk to your leg. 
+
+If you notice sudden worsening pain, numbness, or trouble moving your leg, get seen right away—those are signs that need urgent attention. Otherwise, try to rest and keep your leg elevated while you head in for evaluation.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 651
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 842
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 72-year-old male presenting with left leg pain following a fall approximately 24 hours prior to admission. He reported lying on the floor for about 24 hours after the fall, which was unwitnessed, and also noted vomiting coffee ground material two to three days before admission. His past medical history is largely unknown, but he has a right lower extremity prosthesis and untreated diabetes mellitus for three years. On arrival, physical findings included coffee ground emesis and a dysfunctional prosthesis; laboratory evaluation revealed diabetic ketoacidosis (anion gap 28, blood glucose 689, urinalysis with >1000 glucose and ketones), a left subtrochanteric comminuted femur fracture, elevated CK (2579–3523), elevated troponin (19.5 to >50), and evidence of an upper gastrointestinal bleed. The documented diagnoses were left femur fracture, diabetic ketoacidosis, and upper GI bleed. Treatment included nasogastric tube lavage for the GI bleed, intravenous fluids, and further management for diabetic ketoacidosis and trauma.
-
-## Dialogue Summary
-
-The patient presented with bleeding into the left thigh following a femur fracture. Symptoms included immediate onset of bleeding and reduced mobility, bruising in the scrotum area, persistent swelling in the thigh, and pain rated as 6/10 in the thigh and 3/10 in the groin; bruising in the scrotum was noted to be lightening, while thigh bruising and swelling remained unchanged. The patient denied lightheadedness, weakness, or changes in energy levels, and reported that discomfort worsened with movement but improved with leg elevation. No relevant medical history, medications, or allergies were mentioned. On examination, there were no signs of worsening swelling or dangerous blood loss, and bruising appeared to be resolving in the scrotum. The doctor assessed that the bleeding and bruising were related to the recent femur fracture and that the healing process appeared stable. The doctor advised monitoring for any sudden increase in swelling, worsening pain, or dizziness, recommended keeping the leg elevated and avoiding strenuous movement, and instructed the patient to contact their healthcare team if symptoms worsened or new symptoms developed.
-
-## STS Evaluation
-
-- **STS Score**: 0.942
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 56.8s
+- **Processing Time**: 85.4s

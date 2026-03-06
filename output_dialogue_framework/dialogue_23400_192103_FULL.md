@@ -16,68 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.900
+- Score: 0.941
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.900
-- **Justification**: The dialogue is realistic and consistent with the provided patient profile and case type. The doctor asks appropriate, open-ended and symptom-focused questions, and the patient provides plausible, relevant responses. The conversation follows a logical clinical reasoning process for a sore throat with associated symptoms. The only issue is the abrupt end due to a simulation error, not a content or realism problem.
+- **Score**: 0.941
+- **Justification**: Combined score 0.94 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.94 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.938 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Continue providing clear, relevant answers to the doctor's questions. Ensure responses are complete and avoid simulation errors or incomplete turns.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Excellent job eliciting relevant history and clarifying symptom details. Consider asking about airway symptoms (e.g., difficulty breathing, drooling) earlier given the swelling and tenderness.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is natural and logical. The abrupt end was due to a technical issue, not conversational structure. Ensure the simulation allows for completion of the exchange.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns in the dialogue itself. The doctor appropriately explores red flag symptoms. Ensure the simulation allows for full assessment and does not cut off before critical information is gathered.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it’s good to see you today. What brings you in—can you tell me what’s been bothering you lately?
+**Doctor**: Hello, it's good to see you today. How have things been going with your sore throat and general malaise lately? Is there anything in particular that's been bothering you or triggering these symptoms?
 
-**Patient**: I’ve been dealing with a sore throat that just won’t go away. That’s really what brought me in today.
+**Patient**: Thanks for asking. The main thing bothering me is this sore throat—it’s been pretty persistent. I also just feel really run down.
 
-**Doctor**: Let me ask—how much is this affecting your day-to-day life? Are you able to eat, talk, and sleep normally, or is it making those things difficult?
+**Doctor**: Let me ask about the sore throat—are you finding it painful to swallow, or is it more of a constant discomfort? And with feeling run down, has that been getting worse, staying about the same, or improving?
 
-**Patient**: It's definitely making things harder. Eating and talking are both uncomfortable, and I’ve had some trouble sleeping because of the soreness.
+**Patient**: Swallowing is definitely painful—it’s more than just a constant discomfort. As for feeling run down, I think it’s stayed about the same, not really better or worse.
 
-**Doctor**: Let me ask about when this all began—how long have you been dealing with the sore throat? Has it been staying about the same, getting better, or getting worse over time?
+**Doctor**: Alright. Have you noticed any other symptoms, like a cough, fever, or changes in your voice? Sometimes these can help us figure out what’s causing the throat pain and fatigue.
 
-**Patient**: I've had this sore throat for several days now. It feels like it's getting a bit worse, not better.
+**Patient**: I have had some fevers, at least it feels like it. My voice is also hoarse, and swallowing is pretty tough. I haven’t really noticed a cough.
 
-**Doctor**: Let me ask about other symptoms—have you noticed any fever, body aches, or just feeling generally unwell along with your sore throat?
+**Doctor**: Let me ask about your energy levels—has the feeling of being run down made it difficult for you to carry out your usual daily activities, like work or errands? Or are you still able to manage most things despite the discomfort?
 
-**Patient**: I’ve felt pretty run down—just a general sense of malaise. I’ve also had some pain when swallowing. I think I’ve had some fevers, but I haven’t checked my temperature.
+**Patient**: It’s definitely made things harder. I’ve had trouble keeping up with my usual activities because of the fatigue and the pain when I try to eat or talk.
 
-**Doctor**: Let me ask about something that can sometimes go along with a sore throat—have you noticed any swelling or tenderness in your neck, especially on one side?
+**Doctor**: Got it. Let me ask about the malaise—has it come on gradually, or did it start suddenly around the same time as your sore throat? Sometimes the timing can help us pinpoint whether this is likely viral or something else.
 
-**Patient**: Yes, I’ve noticed some swelling and tenderness on the left side of my neck. It’s been pretty uncomfortable.
+**Patient**: That makes sense. The malaise and sore throat seemed to come on around the same time. If you need more details, I can share what I know about my diagnosis from the scans.
 
-**Doctor**: Got it. When you swallow, does the pain shoot into your ear or get significantly worse, or is it mostly just in your throat and neck? This helps me understand how much irritation or inflammation there might be.
+**Doctor**: Let me ask about your neck—have you noticed any swelling or tenderness on one side, especially around the left? Sometimes localized swelling can help clarify the cause of throat pain.
+
+**Patient**: There’s definitely swelling and tenderness on the left side of my neck. It’s pretty noticeable and uncomfortable.
+
+**Doctor**: Tell me more about the neck swelling—does it feel warm to the touch, or have you noticed any redness in the area? Sometimes these details can help us distinguish between different causes of tenderness.
+
+**Patient**: The left side of my neck is swollen and tender, but I haven’t really noticed any redness or extra warmth. The swelling feels pretty deep rather than just on the surface.
+
+**Doctor**: Alright. When did the swelling and pain in your neck first start—was it sudden, or did it build up gradually over a few days? The timing can sometimes help us figure out whether this is more likely an infection or another cause.
+
+**Patient**: The swelling and pain built up gradually over a few days. I understand you’re trying to figure out the cause—my CT scan showed a left parapharyngeal and retropharyngeal space phlegmon, if that helps.
+
+**Doctor**: Based on what we've discussed and your scan results showing a left parapharyngeal and retropharyngeal phlegmon, it makes sense that you're experiencing significant discomfort, fatigue, and difficulty with swallowing and speaking. These types of deep neck space infections can cause gradual swelling and tenderness, as you've described, and often lead to malaise and trouble with daily activities.
+
+The lack of redness or warmth on the surface suggests the inflammation is deeper rather than involving the skin. This fits with your scan findings. What often happens in cases like this is that infection or inflammation in these spaces can compress nearby structures, making swallowing painful and causing hoarseness.
+
+At this stage, it's important to keep monitoring for any signs that things are worsening—such as increasing difficulty breathing, severe pain, or inability to swallow fluids. If any of those develop, they would need urgent attention.
+
+Let me ask: does anything seem to trigger or worsen your symptoms, such as certain foods, positions, or activity? This can help us tailor your self-care while you recover.
+
+**Patient**: Changing positions, like lying flat, seems to make the discomfort and swelling feel worse. Eating anything solid is tough—it really hurts to swallow. I’ll keep an eye out for any trouble breathing or swallowing fluids, like you mentioned.
+
+**Doctor**: From what you've told me and considering your scan results, your symptoms are consistent with a deep neck space infection, specifically a phlegmon in the parapharyngeal and retropharyngeal areas. This explains the gradual swelling, tenderness, and difficulty swallowing, as well as why lying flat makes things worse—gravity can increase pressure in those spaces.
+
+These infections often require careful monitoring because they can progress or cause complications. It's good that you haven't noticed any surface redness or warmth, which suggests the inflammation is contained deeper. Eating soft or liquid foods is usually easier and less irritating for situations like this.
+
+Let me share my thoughts: as long as you can swallow fluids and breathe comfortably, it's reasonable to continue your current management plan and keep an eye on any changes. If you notice worsening symptoms, such as increased swelling, trouble swallowing even liquids, or any breathing difficulty, those are warning signs to seek prompt medical attention.
+
+Are you currently taking any antibiotics or other medications as part of your treatment? Knowing this will help guide further advice.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 11
-- **Word Count**: 293
-- **Doctor Turns**: 6
-- **Patient Turns**: 5
-
-## EHR Summary
-
-The patient is a 59-year-old man presenting with a chief complaint of sore throat, malaise, and odynophagia for two days. He also reported left neck swelling and tenderness for the past 24 hours, subjective fevers, and hoarseness; he denied recent dental work or pain related to eating. His relevant medical history includes non-insulin dependent diabetes mellitus, hypertension, and hypercholesterolemia; he has no known drug allergies. On physical examination, he appeared tired but not in respiratory distress, with notable findings of left soft palate swelling and uvular deviation to the right, as well as left-sided floor of mouth tenderness. The diagnosis is not explicitly documented in the note. Treatment details are not specified in the provided text.
-
-## Dialogue Summary
-
-The patient presented with a persistent sore throat. The sore throat has lasted for several days and is worsening, causing discomfort with eating, talking, and sleeping. Additional symptoms include pain when swallowing, general malaise, possible fevers (not measured), and swelling and tenderness on the left side of the neck. The patient denied specific details about pain radiating to the ear, as the simulation ended before answering. No relevant medical history, medications, or allergies were mentioned. The doctor inquired about symptom severity, associated symptoms, and neck findings but did not provide a formal assessment or diagnosis during the conversation. No specific treatment plan or recommendations were given in the dialogue.
-
-## STS Evaluation
-
-- **STS Score**: 0.977
-- **Similarity Label**: N/A
+- **Turn Count**: 19
+- **Word Count**: 915
+- **Doctor Turns**: 10
+- **Patient Turns**: 9
 
 ## Processing Information
 
-- **Processing Time**: 43.2s
+- **Processing Time**: 91.9s

@@ -16,84 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.944
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about the onset, nature, and impact of hallucinations and behavioral changes, and explores possible triggers such as medication or illness. The patient responses align with the documented symptoms and diagnoses. There are no unsupported diagnoses, treatments, or severe events introduced. The reasoning is clear and grounded in the context.
+- **Score**: 0.944
+- **Justification**: Combined score 0.94 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.81 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.812 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and describes symptoms in a way that matches the profile. For improvement, the patient could mention chronic back pain if prompted, as it is part of the profile.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. For improvement, the doctor could explicitly ask about chronic back pain or urinary symptoms, given the patient's history of arachnoiditis and UTI, to ensure a more comprehensive review.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with appropriate follow-up questions and explanations. To further improve, the doctor could summarize next steps or offer reassurance at the end.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns are present. The doctor appropriately avoids unsupported conclusions and explains reasoning clearly. For added clarity, a brief mention of monitoring or follow-up could be included.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's nice to see you today. What brings you in, and how have things been going for you recently?
+**Doctor**: Welcome back—how have things been going for you lately? Is there anything new or different you'd like to discuss today?
 
-**Patient**: I've been having some strange things happen—I started seeing things that aren't really there, and my behavior got a bit odd over the weekend. It's been pretty uncomfortable.
+**Patient**: Lately I've been having hallucinations and some really strange behavior, especially over the weekend. That's what has me most concerned right now.
 
-**Doctor**: Let me ask about how this has been affecting your usual routines—have these experiences made it hard to do things like work, socialize, or take care of yourself?
+**Doctor**: Let me ask about the timing—when did these experiences first start, and have they been happening every day since then, or just on certain days?
 
-**Patient**: Yeah, it's definitely made things harder. I haven't really felt like myself, and it's been tough to keep up with my normal routines.
+**Patient**: I'm not exactly sure when it started, but the hallucinations and odd behavior really stood out over the weekend. It's not something I've dealt with every day before this.
 
-**Doctor**: Let me ask about the timing—when did you first notice these experiences starting, and have they been getting more frequent or intense since then?
+**Doctor**: Let me ask about your energy levels—have you felt more tired or sluggish than usual lately, or noticed any changes in how alert you feel during the day?
 
-**Patient**: I first noticed it over the weekend. It felt like things got a bit worse as the days went on.
+**Patient**: I've definitely felt more lethargic lately, especially in the mornings. It's been harder to stay alert than usual.
 
-**Doctor**: Let me ask about the experiences you've had—when you see things that aren't really there, are they shapes, people, or something else? And do you notice if anything specific seems to trigger these episodes?
+**Doctor**: Alright. Have you noticed if anything seems to trigger these episodes, or do they happen randomly? For example, do they come on with stress, certain medications, or changes in your routine?
 
-**Patient**: I've mostly seen shapes and things moving that aren't really there—no people, though. I haven't noticed anything specific that sets it off.
+**Patient**: I haven't noticed a clear trigger, but I do have an intrathecal drug pump for my chronic back pain, and I take baclofen through it. I wonder if that could be related.
 
-**Doctor**: Alright. Have you noticed any changes in your mood, sleep, or thinking along with these experiences? For example, feeling unusually energetic, sad, anxious, or having trouble concentrating?
+**Doctor**: Got it. Have you noticed any muscle weakness, trouble with coordination, or unusual movements along with these symptoms? Sometimes changes in medication levels, especially with intrathecal baclofen, can cause neurological effects.
 
-**Patient**: I haven't really noticed big changes in my mood or sleep. My thinking has felt a little foggy, though, and I've been more tired than usual—kind of lethargic.
+**Patient**: I haven't had any muscle weakness or problems with coordination. The main things have been the hallucinations, bizarre behavior, and just feeling really tired.
 
-**Doctor**: Got it. When you mention your behavior got a bit odd, can you describe what felt different or unusual for you? For example, did you do things that surprised you, or did others notice changes?
+**Doctor**: Got it. Can you tell me if your sleep has changed at all—are you sleeping more than usual, having trouble falling asleep, or waking up feeling unrested? Sometimes changes in sleep can contribute to feeling more tired or even affect mental clarity.
 
-**Patient**: My family mentioned I was acting strangely and saying odd things that didn't make sense. I also felt more out of it than usual, almost like I was in a fog.
+**Patient**: My sleep hasn’t changed much. I just feel more lethargic during the day, even after a normal night’s sleep.
 
-**Doctor**: Got it. When these episodes happen, do you feel aware that things are unusual, or does it seem real at the time? Also, are you able to carry out your daily tasks during these moments, or do you need help from others?
+**Doctor**: Let me ask about your daily routine—has this lethargy made it harder for you to do your usual activities, like work, errands, or socializing? Or are you still able to get through your day, just with more effort?
 
-**Patient**: During those moments, it feels real to me, and I don't always realize things are off until later. I do need help with daily tasks when it gets bad—my family has had to step in a few times.
+**Patient**: It’s definitely made it harder to get through my day. I need more effort just to do basic things, and I feel pretty drained most of the time.
 
-**Doctor**: Tell me more about whether you've had any recent illnesses, changes in medications, or new substances—sometimes things like infections or medication side effects can trigger these kinds of symptoms.
+**Doctor**: Alright. Can you estimate how long this increased lethargy has been going on—did it begin around the same time as the other symptoms, or has it been building up over a longer period?
 
-**Patient**: I haven't had any recent illnesses or changes in my medications. I'm still on baclofen like usual and haven't started anything new.
+**Patient**: The increased lethargy started around the same time as the hallucinations and bizarre behavior over the weekend. It all seemed to come on together.
 
-**Doctor**: From what you've told me, it sounds like you've experienced some visual disturbances and changes in your thinking and behavior over a short period, without recent illness or medication changes. Sometimes, symptoms like these can be related to medication side effects, metabolic imbalances, or even temporary confusion (what we call delirium), especially if there's an underlying trigger.
+**Doctor**: Based on what we've discussed, it sounds like these new symptoms—especially the changes in your thinking and energy—started fairly suddenly and are happening alongside your intrathecal baclofen therapy. Sometimes, if the pump delivers too much medication or if there’s a change in how your body absorbs it, it can cause effects like confusion, unusual behavior, or lethargy. These symptoms can be concerning, but they’re often related to medication levels rather than something more serious.
 
-Let me share why I'm asking about your symptoms and history: understanding whether this is getting better or worse helps us figure out if it's a self-limited episode or something that needs more attention. Has there been any improvement since the weekend, or are you still experiencing these symptoms at the same level?
+It would be important to check your pump settings and make sure there haven’t been any recent changes, malfunctions, or issues with the infusion site. If you notice any worsening symptoms—like difficulty waking up, new muscle weakness, or trouble breathing—those would be reasons to seek urgent care.
 
-**Patient**: There's been a little improvement since the weekend, but I'm still not back to normal. I appreciate you explaining things—it helps to know what might be going on.
+For now, I recommend contacting your pain management team or whoever manages your pump as soon as possible to review your medication and device. They can assess whether adjustments are needed. In the meantime, try to rest and avoid activities that require full alertness until you’re feeling more like yourself.
+
+Let me know if you have any questions or if anything else has changed since we started talking.
+
+**Patient**: Thanks, that explanation helps. I’ll reach out to my pain management team to have them check my pump and the baclofen dosing. I appreciate you letting me know what to watch for.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 613
+- **Word Count**: 689
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 49-year-old woman presenting after episodes of unresponsiveness and psychosis following an intrathecal baclofen overdose. She initially became unresponsive on 3/13 after receiving an overdose through her intrathecal drug pump, which was subsequently shut off, and she gradually regained consciousness. After discharge and correction of her baclofen dose, she developed hallucinations and bizarre behavior over the weekend, leading to readmission. On 3/18, she became lethargic and was transferred to the Neurologic Intensive Care Unit. Her medical history includes chronic back pain, arachnoiditis from myelogram dye, and an intrathecal drug pump placed four years prior. On physical exam, she was awake, alert, oriented, with strong movement in all extremities and no meningeal signs. A urine culture showed >100,000 white blood cells on 3/12, and she was started on ciprofloxacin. The clinical impression is baclofen overdose with subsequent neuropsychiatric symptoms; treatment included cessation of the pump, correction of baclofen dosing, and antibiotic therapy for urinary findings.
-
-## Dialogue Summary
-
-The patient presented with visual disturbances and unusual behavior that began over the weekend. Symptoms included seeing shapes and things moving that are not present (without seeing people), feeling "foggy" and lethargic, difficulty maintaining normal routines, and needing help from family during episodes; the patient also described saying odd things and acting strangely, as noted by family members. The patient reported no recent illnesses, medication changes, or new substances, and is currently taking baclofen as usual. There were no significant changes in mood or sleep, but thinking felt clouded and energy was low. On examination, the patient described episodes where the experiences felt real at the time and awareness of their unusual nature came only afterward. The doctor assessed that these symptoms could be related to medication side effects, metabolic imbalances, or temporary confusion (delirium), especially in the absence of other triggers. The doctor explained the importance of monitoring symptom progression and discussed possible causes, noting some improvement since onset; further evaluation may be needed if symptoms persist.
-
-## STS Evaluation
-
-- **STS Score**: 0.958
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 60.7s
+- **Processing Time**: 84.8s

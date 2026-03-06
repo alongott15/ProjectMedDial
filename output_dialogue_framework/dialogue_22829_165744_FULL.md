@@ -16,84 +16,85 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.920
+- Score: 0.810
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.920
-- **Justification**: The dialogue is consistent with the provided patient profile and case type. The doctor asks logical, stepwise questions about the fever, tachycardia, alertness, and movement, and the patient provides plausible answers. The conversation avoids unsupported diagnoses or interventions and stays within the bounds of a light, common case. The doctor's explanations are clear and appropriately reassuring. There are no obvious hallucinations or contradictions.
+- **Score**: 0.810
+- **Justification**: Combined score 0.81 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.50 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.500 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient responses are clear and relevant. For even greater realism, the patient could occasionally express uncertainty or ask clarifying questions.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor does well to clarify symptoms and provide reassurance. For improvement, the doctor could briefly summarize next steps or mention if any basic tests or follow-up would be considered, as is common in primary care.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with each question building on prior answers. The conversation could be enhanced by a closing summary or plan.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns. The doctor appropriately reassures the patient without minimizing symptoms. Clarity is good throughout.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi, it's nice to meet you. What brings you in today? Tell me a bit about how you've been feeling lately.
+**Doctor**: Hi, it’s good to see you today. What’s been going on lately—are there any new symptoms or concerns you’d like to talk about?
 
-**Patient**: Hi. Lately, I've been getting these random fever spikes, and it's making me pretty uncomfortable.
+**Patient**: Lately, I've been having these fever spikes. That's the main thing that's been bothering me.
 
-**Doctor**: Let me ask about the fever—when these spikes happen, do you notice any other symptoms, like chills, sweating, or feeling unusually tired?
+**Doctor**: Let me ask about the fever spikes—when did they first start, and how high has your temperature been getting?
 
-**Patient**: I haven't noticed chills or sweating, but my heart feels like it's racing during the fever spikes.
+**Patient**: I’m not sure exactly when it started, maybe a few days ago? I haven’t checked the exact temperature each time, but I definitely feel really hot during those spikes.
 
-**Doctor**: Let me ask about your heart racing—does it come on suddenly with the fever, or do you notice it at other times too? Also, have you felt lightheaded or dizzy when this happens?
+**Doctor**: Got it. Have you noticed if these fever episodes are getting more frequent or intense, or are they staying about the same?
 
-**Patient**: It usually comes on with the fever, not really at other times. I haven't felt lightheaded or dizzy when it happens.
+**Patient**: I don’t think the fever episodes have changed much. They seem to come and go, but I haven’t noticed them getting worse or happening more often.
 
-**Doctor**: Alright. Have you noticed if anything in particular seems to trigger these episodes, like physical activity, certain foods, or stress? Or do they seem to come on completely randomly?
+**Doctor**: Let me ask about any other changes—have you noticed your heart beating faster than usual, or any feelings of palpitations during these episodes?
 
-**Patient**: They seem to come on completely randomly. I haven’t noticed anything in particular that sets them off.
+**Patient**: Yeah, my heart does beat faster during those times. I’ve been told it’s tachycardia, and it seems to happen when the fever spikes hit.
 
-**Doctor**: Got it. How much are these episodes affecting your daily life—are you able to go about your normal activities, or do you find yourself needing to rest or stop what you're doing when they happen?
+**Doctor**: Let me ask about your energy levels—do you feel especially tired or weak during these episodes, or are you able to go about your usual activities?
 
-**Patient**: Yeah, I usually have to stop what I'm doing when it happens. It's tough to focus or keep up with normal stuff during those times.
+**Patient**: I haven’t really felt extra tired or weak. Neurologically, I seem unchanged—opening my eyes and flexing to pain in all four extremities. I’m just not really able to pay attention during the episodes.
 
-**Doctor**: Let me ask about how long these episodes last—once a fever spike and the heart racing start, how much time usually passes before you feel back to normal?
+**Doctor**: Alright. You mentioned having trouble paying attention during these episodes—does that feeling last after the episode ends, or do you feel back to normal once it passes?
 
-**Patient**: It usually takes a couple of hours before I feel back to normal. Sometimes the symptoms linger a bit longer, but that's about average.
+**Patient**: Once the episode ends, I feel back to normal. It’s just during the fever spikes that I have trouble paying attention.
 
-**Doctor**: Let me ask about your overall alertness during these episodes—are you able to stay awake and respond normally, or do you ever feel confused, drowsy, or have trouble paying attention?
+**Doctor**: Let me ask about your awareness during these episodes—are you able to respond to people talking to you, or do you feel confused or less responsive when the fever and fast heartbeat happen?
 
-**Patient**: I stay awake during the episodes, but I don't really pay attention or respond to things around me. My alertness doesn't change otherwise.
+**Patient**: During those episodes, I’m opening my eyes but not really attending to people or what's going on. I flex to pain in all four extremities, but I don’t respond much otherwise.
 
-**Doctor**: Let me ask about your movements during these episodes—are you able to move your arms and legs normally, or do you notice any stiffness, weakness, or unusual movements when the symptoms are at their worst?
+**Doctor**: Let me ask about the duration—how long do these episodes typically last before you start feeling back to yourself again?
 
-**Patient**: I can move all my arms and legs, but I tend to flex them if something hurts or if there’s pain. No stiffness or weakness though.
+**Patient**: They usually last for a short time, but I’m not exactly sure how long—maybe just a few minutes. After that, I feel back to myself.
 
-**Doctor**: Based on what we've discussed, these episodes of fever with a racing heart and changes in your ability to focus sound uncomfortable, but it's reassuring that you remain awake and can move normally. Sometimes, fever itself can cause your heart to beat faster, and feeling less alert is common when you're not feeling well. The fact that you flex your arms and legs in response to pain is a normal reaction.
+**Doctor**: Based on what we've discussed, it sounds like your fever spikes are brief and accompanied by a fast heartbeat and some difficulty paying attention, but you return to normal quickly afterward. The fact that you don’t feel extra tired or weak overall, and that these episodes are short-lived, is somewhat reassuring for a light, self-limited process.
 
-I'd like to get a sense of when this all began—can you tell me how long you've been experiencing these episodes, and how often they happen? This will help me understand whether this is an ongoing issue or something new.
+Sometimes, fever itself can trigger changes in heart rate and alertness, especially if it comes on quickly. Your description of being neurologically unchanged except for decreased attention during the episodes suggests the underlying process is affecting your level of alertness temporarily but not causing lasting confusion or weakness.
 
-**Patient**: I think it started a few days ago. The episodes happen maybe once or twice a day. Thanks for explaining things—it helps to know it’s not unusual for fever to cause these symptoms.
+Let me ask—on a scale of 1 to 10, is there any pain associated with these episodes, or are they mostly uncomfortable because of the fever and fast heartbeat? This will help clarify if we need to look for other causes.
+
+**Patient**: I wouldn’t say there’s much pain, maybe just a bit when I flex to pain in all four extremities during the episodes. It’s mostly uncomfortable because of the fever and my heart racing.
+
+**Doctor**: Let me share my thoughts. From what you’ve described, these brief episodes with decreased attention and a physical response to pain seem to occur only during the fever spikes, and you return to your baseline quickly afterward. In many light, self-limited illnesses, fever can temporarily affect alertness or focus, especially if it comes on rapidly. The lack of persistent symptoms or other neurological changes is reassuring.
+
+Since you mentioned flexing to pain in all four extremities, I want to clarify—do you have any weakness, numbness, or loss of movement in your arms or legs, either during or after these episodes? This helps me make sure there aren’t signs of something more serious affecting your nervous system.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 569
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 715
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 19-year-old female admitted for neurosurgical care. Her discharge was delayed due to intermittent fever, but extensive cultures including lumbar puncture showed no evidence of infection. She remains neurologically unchanged, opening her eyes, nonattending, and flexing to pain in all extremities. Vital signs have been stable except for persistent tachycardia, which was attributed to possible autonomic dysfunction. Cardiology consultation noted tachycardia and an echocardiogram revealed a low ejection fraction. She is being treated with high doses of Lopressor for heart rate control, though with limited effect. The plan includes a repeat echocardiogram in two weeks and transfer to rehabilitation, as she is currently stable.
-
-## Dialogue Summary
-
-The patient presented with random fever spikes causing discomfort. Symptoms included episodic fever accompanied by a racing heart, occurring once or twice daily over the past few days, with each episode lasting a couple of hours and sometimes lingering longer. The patient denied chills, sweating, lightheadedness, dizziness, stiffness, or weakness, but reported decreased ability to focus and a tendency to flex arms and legs in response to pain during episodes; alertness was maintained, though attention was reduced. No specific triggers were identified, and the episodes required the patient to stop normal activities temporarily. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted that fever can commonly cause increased heart rate and reduced alertness, and that flexing limbs in response to pain is a normal reaction; physical movement remained intact. The doctor reassured the patient that these symptoms are not unusual with fever and gathered further details about onset and frequency to better understand the issue. No specific treatment or medication was recommended at this time.
-
-## STS Evaluation
-
-- **STS Score**: 0.938
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 55.8s
+- **Processing Time**: 76.5s

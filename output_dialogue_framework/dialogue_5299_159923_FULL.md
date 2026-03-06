@@ -16,86 +16,81 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.850
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate questions about the syncopal episode, possible warning signs, recovery, and injury from the fall. The patient responses are coherent and match the described symptoms. The doctor's explanation and advice are reasonable for a light case with no ongoing concerning symptoms. No unsupported diagnoses, treatments, or severe events are introduced.
+- **Score**: 0.850
+- **Justification**: Combined score 0.85 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.50 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.500 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient provides clear, relevant answers and does not introduce unsupported symptoms or details. For improvement, the patient could mention any medications or relevant medical history if prompted.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor demonstrates thoroughness and empathy. For improvement, could briefly acknowledge the patient's history of aneurysm clipping to show awareness of her background, though not strictly necessary given the mild presentation.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: Dialogue flows logically from symptom exploration to reassurance and safety advice. For improvement, a brief summary of next steps or follow-up plan could be added for completeness.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is clear and appropriate for a mild case. No concerning omissions. Clarity is maintained throughout.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me a bit about what happened with your recent episode?
+**Doctor**: Hi, it’s good to see you. How have you been feeling since your recent episode?
 
-**Patient**: I had a fainting spell recently—I just suddenly lost consciousness and fell backward. That's mainly what brought me in today.
+**Patient**: I've been a bit concerned since I passed out and fell backward. That episode really caught me off guard.
 
-**Doctor**: Let me ask about what happened just before you fainted—did you have any warning signs, like feeling lightheaded, dizzy, or nauseous?
+**Doctor**: Let me ask about the episode—when did this happen, and what were you doing just before it occurred?
 
-**Patient**: No, I didn't really notice any warning signs before it happened. I just fainted out of the blue.
+**Patient**: This happened pretty recently, but I’m not exactly sure of the exact day. I was just doing my normal activities before it happened—nothing out of the ordinary.
 
-**Doctor**: Let me ask about your recovery—after you fainted, how long did it take for you to feel back to normal? Did you have any confusion, weakness, or lingering symptoms afterward?
+**Doctor**: Let me ask about what happened right after—you mentioned falling backward. Did you have any confusion, headache, or injuries when you came to?
 
-**Patient**: After I came to, I felt pretty much normal again—not confused or weak. The only thing I noticed afterward was some swelling around my forehead and near my eye, probably from the fall.
+**Patient**: I didn't feel confused or have a headache afterward. The only thing I noticed was some swelling around my forehead and near my eyes, but it was pretty minimal.
 
-**Doctor**: Let me ask about possible triggers—were you standing up, sitting, or doing anything in particular right before you fainted?
+**Doctor**: Alright. Have you had any episodes of lightheadedness, palpitations, or feeling faint since that incident?
 
-**Patient**: I was standing up at the time, not doing anything strenuous. I didn't feel anything unusual before it happened.
+**Patient**: I haven’t had any more episodes like that since then—no lightheadedness, palpitations, or feeling faint.
 
-**Doctor**: Got it. Did anyone witness your fainting episode, or were you alone at the time? Sometimes an observer can provide useful details about what happened during the spell.
+**Doctor**: Got it. Did anyone witness the episode, or were you alone when it happened? Sometimes a witness can provide helpful details about what occurred during the event.
 
-**Patient**: I was alone when it happened, so there wasn't anyone around to see exactly what went on during the episode.
+**Patient**: I was actually alone when it happened, so unfortunately, there wasn’t anyone there to see exactly how it looked from the outside.
 
-**Doctor**: Let me ask about your general health—have you had any recent illnesses, fevers, or changes in your usual energy levels before or after this episode?
+**Doctor**: Let me ask about possible triggers—had you skipped any meals, been dehydrated, or felt especially tired that day? Sometimes these factors can play a role in episodes like this.
 
-**Patient**: No, I haven't had any recent illnesses or fevers. My energy levels have felt pretty normal before and after the episode.
+**Patient**: I don’t think I skipped any meals or was especially tired or dehydrated that day. Nothing out of the ordinary stood out to me before it happened.
 
-**Doctor**: Alright. Since you mentioned hitting your head during the fall, have you had any headaches, vision changes, or trouble concentrating since then?
+**Doctor**: Got it. Since the episode, have you felt anxious or worried about going about your normal routine, or has it changed how you approach your daily activities?
 
-**Patient**: No, I haven't had any headaches, vision changes, or trouble concentrating since the fall. Just the swelling on my forehead and near my eye.
+**Patient**: Honestly, I've been more cautious since it happened, just because it was unexpected. But I haven’t made any major changes to my routine. I do think about it sometimes, especially given my history with the aneurysm and the surgery.
 
-**Doctor**: Let me ask about your overall recovery—has the swelling on your forehead and near your eye been improving, staying the same, or getting worse since the fall?
+**Doctor**: I see. Since your surgery and given your history, have you noticed any new symptoms like vision changes, weakness, or trouble speaking—either during or after the episode?
 
-**Patient**: The swelling has been slowly getting better since the fall. It's not getting worse, and I haven't had any new issues with it.
+**Patient**: I haven’t noticed any vision changes, weakness, or trouble speaking during or after the episode. The only thing that happened was the syncopal episode itself and the fall, which led to a bit of swelling on my forehead and around my eyes.
 
-**Doctor**: Based on what we've discussed, it sounds like this was a single fainting episode without warning signs or ongoing symptoms, and your recovery has been smooth aside from some swelling from the fall. Most brief fainting spells in otherwise healthy adults are due to a temporary drop in blood pressure or blood flow to the brain—sometimes triggered by standing, dehydration, or even stress. Since you haven't had any ongoing symptoms like headache, confusion, or vision changes, and the swelling is improving, that's reassuring.
+**Doctor**: Based on what we've discussed, it sounds like this was a single, unexpected fainting episode with only mild swelling afterward and no ongoing symptoms such as weakness, vision changes, or confusion. The fact that you haven’t had any more episodes or new neurological symptoms is reassuring, especially given your medical history.
 
-However, because you lost consciousness without any clear warning, it's important to keep an eye out for any new symptoms—like repeated episodes, chest pain, palpitations, or confusion. If any of those occur, or if the swelling gets worse or you develop severe headaches, you should seek prompt medical attention.
+Let me share my thoughts: brief loss of consciousness like this can sometimes be caused by things like a sudden drop in blood pressure, dehydration, or even standing up too quickly, but you didn’t notice any clear triggers. Since you have a history of an aneurysm and surgery, it’s especially important to monitor for any new or worsening symptoms.
 
-For now, try to stay well-hydrated, rise slowly from sitting or lying positions, and avoid standing for long periods without moving. If you have another episode or notice anything unusual, let your healthcare provider know. Does that all make sense, or is there anything else about the episode you'd like to discuss?
+As for the swelling you mentioned—has it been improving since the fall, or have you noticed any increase in pain, bruising, or other changes around your forehead and eyes?
 
-**Patient**: That all makes sense, thank you for explaining it. I feel a bit better knowing the swelling is improving and there aren’t any concerning symptoms right now. I’ll keep an eye out for anything unusual—if something changes, I’ll let you know.
+**Patient**: The swelling around my forehead and eyes has been pretty minimal and seems to be improving. I haven’t noticed any pain or bruising getting worse, just the mild edema. Thank you for explaining things—I appreciate the reassurance.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 622
+- **Word Count**: 601
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 41-year-old woman presenting with a syncopal episode that led to her initial admission. She experienced a sudden loss of consciousness and fell backward, with no preceding symptoms documented. Her medical evaluation revealed a right internal carotid artery bifurcation aneurysm, for which she underwent surgical clipping. Postoperatively, she was neurologically intact, with minimal frontal and periorbital edema, symmetric facial movements, full strength in all extremities, and stable laboratory studies. Follow-up angiography confirmed successful clipping of the aneurysm. The documented diagnosis was a right internal carotid artery bifurcation aneurysm status post clipping. She was monitored in the surgical intensive care unit, weaned off intravenous antihypertensives, transitioned to a regular diet, and ambulated without difficulty. The patient was discharged home in stable condition with no neurological deficits.
-
-## Dialogue Summary
-
-The patient presented with a recent fainting spell, describing a sudden loss of consciousness and a fall backward. There were no warning signs such as lightheadedness, dizziness, or nausea prior to the episode, and recovery was rapid with no confusion or weakness afterward. The patient reported swelling around the forehead and near the eye from the fall, which has been slowly improving, and denied headaches, vision changes, or trouble concentrating since the incident. No recent illnesses, fevers, or changes in energy levels were noted, and the patient was alone during the episode. On assessment, the doctor noted this was a single fainting episode without warning signs or ongoing symptoms, with recovery proceeding smoothly aside from localized swelling. The doctor explained that brief fainting spells in otherwise healthy adults are often due to temporary drops in blood pressure or blood flow, sometimes triggered by standing. The patient was advised to stay well-hydrated, rise slowly from sitting or lying positions, avoid prolonged standing, and monitor for new symptoms such as repeated episodes, chest pain, palpitations, confusion, worsening swelling, or severe headaches. The patient understood the recommendations and agreed to seek medical attention if any concerning symptoms develop.
-
-## STS Evaluation
-
-- **STS Score**: 0.947
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 60.8s
+- **Processing Time**: 81.5s

@@ -16,88 +16,93 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.870
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about the chest pain, its characteristics, associated symptoms, and functional impact. The patient responses are clear and match the profile. The doctor's explanation and recommendations are cautious but appropriate for a light case with a history of coronary artery disease and worsening angina symptoms. No unsupported diagnoses, tests, or treatments are introduced. The conversation is logical, respectful, and avoids major omissions or hallucinations.
+- **Score**: 0.870
+- **Justification**: Combined score 0.87 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.70 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.700 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, the patient could mention any medications or prior interventions if prompted.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor is thorough and clear. For completeness, the doctor could briefly confirm medication adherence or ask about recent changes in medications or lifestyle.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is natural and logical. The transition from symptom exploration to explanation and advice is smooth.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety is maintained by advising prompt evaluation and warning signs. The explanation is clear and avoids unnecessary alarm. No safety concerns.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me a bit about what's been bothering you lately?
+**Doctor**: Hello, it's good to see you today. What brings you in—can you tell me about any concerns or symptoms you've been experiencing lately?
 
-**Patient**: I've been having this pain and pressure in my chest, and it's making me pretty anxious.
+**Patient**: My chest has been hurting lately, kind of like a pressure feeling. That’s the main thing that brought me in today.
 
-**Doctor**: Let me ask about the timing—when did you first notice this pain and pressure?
+**Doctor**: Let me ask about the chest pressure—when did you first notice it, and does it come and go or is it constant?
 
-**Patient**: I'm not exactly sure when it started, but I think it's been getting worse over the past several days.
+**Patient**: I'm not sure exactly when it started, but I noticed the pressure has been coming and going. It feels worse when I'm moving around or doing things.
 
-**Doctor**: Let me ask about the location—can you point to exactly where you feel the pain and pressure in your chest?
+**Doctor**: Let me ask about the pressure—does it ever spread to your neck, jaw, shoulder, or arm? And have you noticed any shortness of breath, sweating, or feeling lightheaded when it happens?
 
-**Patient**: The pain is right in the center of my chest, kind of behind my breastbone. That's where I feel the pressure too.
+**Patient**: The pressure doesn't really spread anywhere else. I do get more short of breath when it happens, especially if I'm active. I haven't noticed any sweating or feeling lightheaded.
 
-**Doctor**: Alright. Have you noticed if this feeling comes on with activity, like walking or climbing stairs, or does
+**Doctor**: Alright. Does resting or sitting down help the pressure go away, or does it stay about the same regardless of what you're doing?
 
-**Patient**: Yes, it definitely gets worse when I walk or try to do anything active. Even just going up the stairs makes me short of breath.
+**Patient**: Resting does seem to help a bit. The pressure isn't as bad when I'm sitting down compared to when I'm moving around.
 
-**Doctor**: Got it. Have you felt any sweating, nausea, or lightheadedness along with this discomfort?
+**Doctor**: Got it. On a scale from 1 to 10, with 10 being the most intense, how would you rate the pressure when it's at its worst?
 
-**Patient**: No, I haven't had any sweating, nausea, or lightheadedness with it. It's really just the chest pain, pressure, and the shortness of breath.
+**Patient**: At its worst, I’d say the pressure is around a 7 out of 10. It definitely gets my attention when it happens.
 
-**Doctor**: Let me ask about your breathing—when you feel short of breath, does it get better if you rest, or does it linger even when you're sitting still?
+**Doctor**: Let me ask about the location—where exactly do you feel the pressure in your chest? Is it more toward the center, left, or right side?
 
-**Patient**: Resting does help—it gets better when I sit down and catch my breath. The shortness of breath is really more noticeable when I'm moving around.
+**Patient**: The pressure is mostly in the center of my chest. It doesn’t really move to one side or the other.
 
-**Doctor**: Got it. How would you rate the intensity of this discomfort when you're active—would you say it's mild, moderate, or severe enough to make you stop what you're doing?
+**Doctor**: Tell me more about what the pressure actually feels like—is it sharp, dull, squeezing, or something else? And does it ever feel like pain, or is it mainly just a pressure sensation?
 
-**Patient**: When I'm active, it's strong enough that I have to stop and rest. I'd call it moderate to pretty uncomfortable.
+**Patient**: It mostly feels like a squeezing pressure in the center of my chest. Sometimes it turns into pain, especially if I try to do more or walk around. The shortness of breath also gets worse with activity.
 
-**Doctor**: Tell me more about whether you've had anything like this before, or if this is the first time you've experienced these symptoms.
+**Doctor**: Alright, have you noticed if eating meals, emotional stress, or cold weather tends to trigger the chest pressure or make it worse?
 
-**Patient**: I've had some chest pain before, but this time the pressure and shortness of breath with activity feel worse than what I've experienced in the past.
+**Patient**: Eating sometimes makes it worse, especially if I have a bigger meal. Emotional stress also seems to bring it on more, and I get really anxious when the pressure starts. Cold weather doesn’t seem to affect it much.
 
-**Doctor**: Based on what we've discussed, your symptoms—especially the chest pressure that worsens with activity and improves with rest, along with increasing shortness of breath—are important to pay attention to. These can sometimes be signs of your heart not getting enough oxygen during exertion, which is known as angina. While it’s good that you haven’t had associated symptoms like sweating or nausea, the change in your symptoms and the fact that they’re getting worse are reasons to be cautious.
+**Doctor**: From what you've told me, the squeezing pressure in the center of your chest that comes and goes, gets worse with activity and stress, and improves with rest, is important to pay attention to. This pattern can sometimes be related to the heart not getting enough oxygen during exertion, which is called angina. Angina is a common condition where narrowed blood vessels reduce blood flow to the heart muscle, causing discomfort or pressure, especially when you're active or stressed.
 
-What often happens in cases like this is that the heart muscle may not be getting enough blood flow when you’re active, which causes discomfort and shortness of breath. This isn’t always a sign of something immediately dangerous, but it does mean we should take it seriously.
+The fact that your symptoms improve when you rest and get worse with activity is typical for this kind of issue. Eating larger meals can also increase your heart's workload, which explains why you notice the pressure more after eating.
 
-I recommend you avoid strenuous activity for now and arrange to be evaluated soon—ideally today—to make sure we’re not missing anything urgent. If the pain becomes severe, comes on at rest, or you develop new symptoms like fainting, sweating, or pain radiating to your arm or jaw, you should seek emergency care right away.
+It's important to monitor for warning signs like chest pain that doesn't go away with rest, pain spreading to other areas (like your arm or jaw), severe shortness of breath, or feeling faint. If any of those occur, you'd need urgent attention.
 
-Would you like any advice on how to proceed with arranging a prompt evaluation?
+For now, I'd recommend avoiding strenuous activity until we can look into this further. Managing stress and eating smaller meals may help reduce your symptoms. We'll want to arrange some tests—like an EKG and possibly a stress test—to confirm if angina is the cause.
 
-**Patient**: Thank you for explaining all of that. I do feel pretty anxious about it, especially when my breathing gets fast. I’d appreciate your advice on how to set up an evaluation today.
+Let me know if you have any questions about what angina means or how it relates to your symptoms.
+
+**Patient**: Thank you for explaining that. What will the EKG and stress test involve, and is there anything I should do to prepare for them?
+
+**Doctor**: Based on what we've discussed, your symptoms are most consistent with angina, which is a common condition where the heart muscle doesn’t get enough oxygen during physical or emotional stress. This tends to cause chest pressure that improves with rest and can be triggered by activity or larger meals.
+
+The EKG is a simple, non-invasive test that records your heart's electrical activity and can show signs of reduced blood flow or previous heart issues. For a stress test, you'll typically walk on a treadmill while your heart is monitored, to see how it responds to exertion. These tests help us understand whether your symptoms are related to your heart and guide treatment.
+
+To prepare, wear comfortable clothes and shoes for the stress test. If you take any medications, let us know beforehand—sometimes certain medications should be paused before testing. Avoid eating a heavy meal right before the test.
+
+If you have any concerns about these tests or want more details, I’m happy to explain further.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 591
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 857
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 64-year-old female presenting with chest pain, pressure, and increasing shortness of breath on exertion. Symptoms were progressive and associated with a history of myocardial infarction and prior stent placement, with recent evidence of significant right coronary artery restenosis (90%) and a preserved ejection fraction (>55%). Her medical history includes high cholesterol, gastroesophageal reflux disease, prior cerebrovascular accident, lumbar disc disease, hemorrhoids, and obesity. On physical examination, she was afebrile with stable vital signs, clear lungs, a regular heart rhythm with a II/VI systolic ejection murmur, and no peripheral edema. The documented diagnosis was coronary artery disease with significant restenosis of a previously placed stent. The treatment plan included surgical intervention with coronary artery bypass grafting. She was maintained on medications including Lipitor, Prilosec, Metoprolol, Plavix, and aspirin.
-
-## Dialogue Summary
-
-The patient presented with chest pain and pressure, accompanied by anxiety. Symptoms included central chest pain and pressure behind the breastbone, worsening over several days, and increasing shortness of breath with activity such as walking or climbing stairs; symptoms improved with rest and were rated as moderate to uncomfortable during exertion. The patient denied associated sweating, nausea, or lightheadedness, and reported a history of prior chest pain but noted that current symptoms were more severe. No physical findings were described in the conversation. The doctor assessed that the symptoms—particularly chest pressure and shortness of breath worsening with activity and improving with rest—could indicate angina, suggesting the heart may not be getting enough oxygen during exertion. The doctor recommended avoiding strenuous activity and arranging prompt evaluation, ideally the same day, to rule out urgent causes. Additional advice included seeking emergency care if symptoms worsen, occur at rest, or new symptoms such as fainting, sweating, or radiating pain develop.
-
-## STS Evaluation
-
-- **STS Score**: 0.954
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 58.2s
+- **Processing Time**: 84.9s

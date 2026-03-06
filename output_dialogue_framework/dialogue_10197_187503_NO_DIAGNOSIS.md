@@ -16,88 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.890
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate follow-up questions about the patient's symptoms, including chest pain, shortness of breath, and facial swelling, all of which are present in the profile. The doctor summarizes the findings, provides a reasonable differential (including salivary gland inflammation), and appropriately emphasizes the need to rule out cardiac or pulmonary causes given the patient's history. There are no unsupported diagnoses or recommendations, and the conversation remains focused on the patient's reported symptoms.
+- **Score**: 0.890
+- **Justification**: Combined score 0.89 (naturalness=0.80 ×0.4, profile_compliance=0.90 ×0.3, ragas_faithfulness=1.00 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.800 |
+| Profile Compliance (NO_DIAGNOSIS) | 0.900 |
+| RAGAS Faithfulness | 1.000 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and does not introduce unsupported symptoms or details. For even greater realism, the patient could mention any prior similar episodes or clarify if these symptoms are new or recurrent.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and safety awareness. For improvement, the doctor could more explicitly reference the patient's significant cardiac history (e.g., prior MI, CABG) when discussing the seriousness of chest symptoms, to further ground the conversation in the profile.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with appropriate transitions between topics. The summary and safety netting at the end are clear and patient-centered.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is appropriate and clear. The doctor avoids making a definitive diagnosis remotely and urges in-person evaluation for potentially serious symptoms, which is safe and realistic.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's nice to see you today. How have you been feeling lately, and is there anything in particular that's been bothering you?
+**Doctor**: Hello, it's nice to see you today. What brings you in, and how have you been feeling lately?
 
-**Patient**: I've been feeling pretty nauseous lately, and that's mainly what's been bothering me.
+**Patient**: I’ve been feeling pretty nauseous lately, and that’s why I wanted to come in. It’s been making me anxious, and I’m not sure what’s causing it.
 
-**Doctor**: Let me ask about how this has been affecting your daily routine—are you able to eat and drink normally, or has your appetite changed because of the nausea?
+**Doctor**: Let me ask about your nausea—when did it first start, and is it happening all day or just at certain times?
 
-**Patient**: I haven't really felt like eating much because of the nausea. Drinking is okay, but my appetite just isn't what it usually is.
+**Patient**: I’m not sure exactly when it started, but it feels like it comes and goes throughout the day. Sometimes I also get chest pain along with it.
 
-**Doctor**: Let me ask about other symptoms—have you had any chest discomfort or shortness of breath along with the nausea?
+**Doctor**: Let me ask about the chest pain—does it feel sharp, dull, or like pressure? And does anything seem to bring it on or make it worse?
 
-**Patient**: Yes, I've had some chest pain and it's been a bit hard to breathe at times, especially when the nausea gets worse.
+**Patient**: The pain feels more like pressure than sharp or dull. It usually gets worse when I’m moving around or feeling stressed, and sometimes it comes with shortness of breath.
 
-**Doctor**: Got it. How long have you been experiencing the chest discomfort and trouble breathing—did they start around the same time as your appetite changed, or did they come on separately?
+**Doctor**: Alright. Have you noticed if your nausea or the pressure feeling has been getting better, worse, or staying about the same over the past few days?
 
-**Patient**: They all seemed to start around the same time. The nausea, chest pain, and shortness of breath kind of go together for me.
+**Patient**: Over the past few days, the nausea and chest pressure have pretty much stayed the same. I haven’t noticed much improvement or worsening.
 
-**Doctor**: Let me ask about something related—have you noticed any swelling on one side of your face, or anywhere else, since these symptoms began?
+**Doctor**: Let me ask about something else—have you noticed any swelling in your face, particularly on the left side, or any unusual sensations like numbness or tingling?
 
-**Patient**: Yes, I've noticed some swelling on the left side of my face, and that area feels tender, especially around my parotid gland.
+**Patient**: Yes, I have noticed some swelling on the left side of my face, and there’s tenderness around my parotid gland. I haven’t felt any numbness or tingling, though.
 
-**Doctor**: Alright. When you notice the swelling and tenderness around your parotid gland, does it get worse when you eat or think about food, or is it there all the time?
+**Doctor**: Got it. When you notice the swelling and tenderness near your parotid gland, does it get worse when you eat or chew, or is it present all the time?
 
-**Patient**: The swelling and tenderness are there all the time. Eating or thinking about food doesn't seem to make it any worse.
+**Patient**: The swelling and tenderness are there most of the time. Eating or chewing doesn’t seem to make it any worse, it just stays about the same.
 
-**Doctor**: Got it. How much would you say this discomfort and swelling are interfering with your day-to-day activities—are you able to do most things, or is it making daily tasks more difficult?
+**Doctor**: Okay. Has the swelling in your face changed in size over the past week, or has it stayed pretty consistent?
 
-**Patient**: It's definitely making daily tasks harder. I get tired more easily, and the discomfort just makes everything feel more difficult than usual.
+**Patient**: The swelling has stayed pretty consistent over the past week. I haven’t noticed any big changes in size.
 
-**Doctor**: Alright. Has the swelling or discomfort on your face been getting better, worse, or staying about the same since it started?
+**Doctor**: I see. Has the chest pressure or facial swelling made it difficult for you to do your usual daily activities, like walking around or eating?
 
-**Patient**: It's mostly stayed the same since it started. I haven't noticed it getting better or worse.
+**Patient**: Yes, the chest pressure and facial swelling have made things harder. Walking around is more tiring, and eating is uncomfortable because of the tenderness.
 
-**Doctor**: Based on what we've discussed, it sounds like you've been dealing with ongoing nausea, a change in appetite, some chest discomfort with shortness of breath, and persistent swelling and tenderness on the left side of your face around your parotid gland. These symptoms together could be related to an inflammation or infection of the salivary gland, which can sometimes cause facial swelling and tenderness. Nausea and loss of appetite are common when you're not feeling well overall.
+**Doctor**: Based on everything we've discussed, it sounds like you’re experiencing ongoing nausea, chest pressure that’s worse with activity or stress, and consistent swelling with tenderness near your parotid gland on the left side of your face. Let me share my thoughts: 
 
-However, chest discomfort and trouble breathing are symptoms I take seriously, especially since they're making daily activities harder for you. While these can sometimes occur with infections or inflammation, they can also be signs of heart or lung issues, which are important to rule out.
+The facial swelling and tenderness around the parotid gland are most likely related to a mild inflammation or infection of that gland, which is called parotitis. This is a fairly common condition, especially in older adults, and can cause swelling, pain, and discomfort in the area. It usually isn’t serious, but it can make eating uncomfortable.
 
-At this point, I recommend you get checked in person as soon as possible—especially to make sure there's no underlying heart or lung concern. In the meantime, try to stay hydrated and rest as much as possible. If you notice the chest discomfort or shortness of breath getting worse, or if you develop a fever, weakness, or confusion, seek medical attention right away.
+The chest pressure and nausea are important to pay attention to, especially since you feel more tired when walking around. Sometimes chest pressure can be related to heart issues, but in light cases, it can also be caused by anxiety or mild acid reflux. Since your symptoms haven’t worsened and you’re not having severe pain or shortness of breath, this is reassuring.
 
-Let me know if you have any questions about what we've discussed or if anything changes with your symptoms.
+For the parotid swelling, gentle massage, staying well hydrated, and using warm compresses may help. If you develop fever, worsening pain, or difficulty swallowing, let someone know promptly. For the chest pressure and nausea, try to rest when needed and avoid heavy exertion until you feel better.
 
-**Patient**: Thank you for explaining everything so clearly. I understand your concerns, and I'll make sure to get checked in person soon. If anything changes with my symptoms, I'll let you know right away.
+Let me know if you have any questions about what I’ve explained, or if there’s anything else you’d like to discuss.
+
+**Patient**: Thank you for explaining that. Is there anything specific I should avoid eating or drinking while I have this parotid gland swelling?
+
+**Doctor**: From what you've told me, the swelling and tenderness around your parotid gland are likely due to mild inflammation or infection. When this happens, certain foods and drinks can sometimes make the discomfort worse. It’s best to avoid anything very sour or acidic—like citrus fruits, vinegar, or carbonated beverages—as these can stimulate saliva and may increase tenderness. Also, steer clear of spicy foods if they seem to bother you.
+
+Staying well hydrated with water and eating softer foods can help minimize discomfort while your gland heals. Warm compresses applied gently to the area may also provide relief.
+
+If you notice any worsening pain, fever, or difficulty swallowing, let someone know right away. Otherwise, these steps should help you manage the symptoms until things improve.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 628
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 789
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 76-year-old female presenting with nausea, which serves as her anginal equivalent. She also reported chest pain and shortness of breath upon arrival to the emergency room. Her medical history is significant for coronary artery disease with prior mid-LAD stenosis, diffuse left circumflex and RCA disease, hypertension, GERD, Billroth II surgery, anemia, hyperlipidemia, ischemic cardiomyopathy, and prior hysterectomy and appendectomy. On admission, she was found to have a non-Q wave myocardial infarction. Cardiac catheterization revealed significant multivessel coronary artery disease, including a 60% distal LAD lesion, 90% OM1 lesion, 70% OM2 lesion, and 80% mid-RCA lesion. During the procedure, she continued to experience angina, which resolved after placement of an intra-aortic balloon pump. Cardiothoracic surgery was consulted and she was accepted for coronary artery bypass grafting.
-
-## Dialogue Summary
-
-The patient presented with nausea as the chief complaint. She reported decreased appetite due to nausea, with normal fluid intake, and described associated chest pain and shortness of breath that occur together with the nausea and appetite changes. She also noted persistent swelling and tenderness on the left side of her face around the parotid gland, which does not worsen with eating or thinking about food and has remained unchanged since onset. The symptoms have made daily activities more difficult and caused increased fatigue. No relevant past medical history, medications, or allergies were mentioned. On assessment, the doctor considered possible inflammation or infection of the salivary gland but expressed concern about the chest discomfort and shortness of breath, noting these could also indicate heart or lung issues. The doctor recommended in-person evaluation as soon as possible to rule out serious causes, advised staying hydrated and resting, and instructed the patient to seek immediate care if symptoms worsen or new symptoms such as fever, weakness, or confusion develop.
-
-## STS Evaluation
-
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 61.1s
+- **Processing Time**: 71.6s

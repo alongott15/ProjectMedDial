@@ -16,88 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.755
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, open-ended and focused questions about the patient's symptoms, their progression, and impact on daily life. The patient provides relevant, clear answers. The doctor summarizes findings, explains reasoning, and gives appropriate safety-netting advice without making unsupported diagnoses or suggesting inappropriate interventions. There are no obvious hallucinations or contradictions.
+- **Score**: 0.755
+- **Justification**: Combined score 0.75 (naturalness=0.70 ×0.4, profile_compliance=0.70 ×0.3, ragas_faithfulness=0.88 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.700 |
+| Profile Compliance (FULL) | 0.700 |
+| RAGAS Faithfulness | 0.882 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient responses are clear and relevant. For even greater realism, the patient could occasionally express uncertainty or provide more detail about how the symptoms affect their mood or specific activities.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor is thorough and empathetic. For improvement, the doctor could briefly mention that certain serious causes (like stroke) are less likely given the absence of speech or balance issues, but still warrant caution due to symptom progression.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with good transitions between topics. The conversation could be slightly more concise in places, but overall it maintains a realistic pace.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety-netting is clear and appropriate. The doctor avoids unsupported diagnoses and provides clear next steps. No safety concerns detected.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it's good to see you today. What brings you in—can you tell me a bit about what's been bothering you lately?
+**Doctor**: Hello, it's good to see you today. How have you been feeling lately, and is there anything specific you'd like to discuss or any new concerns on your mind?
 
-**Patient**: I've been having some weakness in my legs, and it's making me a bit concerned.
+**Patient**: Lately, I’ve been having some weakness in my legs that’s gotten worse over time. That’s the main thing that’s been bothering me.
 
-**Doctor**: Let me ask about how long you've been experiencing this weakness. Did it come on suddenly, or has it developed gradually over time?
+**Doctor**: Let me ask about the weakness—when did you first notice it starting to get worse, and has it been gradual or did it come on more suddenly?
 
-**Patient**: It’s been coming on gradually, not all at once. I’ve also started to notice some weakness in my arms now.
+**Patient**: I’m not sure exactly when it started, but the weakness in my legs has been getting worse gradually over the past several days.
 
-**Doctor**: Let me ask about your daily activities—has this change made it harder to do things like walking, getting up from a chair, or carrying objects?
+**Doctor**: Let me ask about other areas—have you noticed any changes in your arms, such as weakness or difficulty with tasks like lifting objects or buttoning clothes?
 
-**Patient**: Yes, it’s definitely made walking and getting up from a chair more difficult for me. Carrying things feels harder, too.
+**Patient**: Yes, I’ve started to notice some weakness in my arms too. It’s been making simple things like lifting or carrying stuff a bit harder than usual.
 
-**Doctor**: Got it. Have you noticed any numbness, tingling, or changes in sensation in your arms or legs? Sometimes these details help us understand if nerves might be involved.
+**Doctor**: Got it. Have you noticed any numbness, tingling, or changes in sensation in your hands or feet along with the weakness?
 
-**Patient**: No, I haven’t noticed any numbness or tingling—just the weakness in my legs and now my arms.
+**Patient**: I haven’t noticed any numbness or tingling, just the weakness in my legs and arms.
 
-**Doctor**: Let me ask about the timing—have your symptoms been getting steadily worse, staying about the same, or do they come and go throughout the day?
+**Doctor**: Alright. Have you had any trouble with your balance or walking, such as feeling unsteady or needing support?
 
-**Patient**: The weakness has been getting steadily worse. I’ve also had a headache, along with some nausea and vomiting.
+**Patient**: Walking has definitely become more difficult. I feel unsteady and need to move more slowly than usual.
 
-**Doctor**: Alright. Since you’ve also had headache, nausea, and vomiting, have you had any vision changes, trouble speaking, or difficulty with balance? These can sometimes help point to the cause of your symptoms.
+**Doctor**: Got it. One more question—how much is this change impacting your daily activities, like getting dressed, preparing meals, or moving around your home?
 
-**Patient**: No, I haven’t had any vision changes, trouble speaking, or problems with my balance. The main things have been the weakness, headache, and the nausea with vomiting.
+**Patient**: It’s made daily tasks a lot harder. I struggle with things like getting dressed and moving around the house, and I’ve had to slow down with preparing meals too.
 
-**Doctor**: Got it. How much are these symptoms interfering with your ability to manage daily tasks, like getting dressed or preparing meals? This helps me understand the impact on your day-to-day life.
+**Doctor**: Let me ask about possible triggers—have you noticed if the weakness gets worse at certain times of day, after activity, or with any specific movements?
 
-**Patient**: Yes, these symptoms are making daily tasks a lot harder. Getting dressed and making meals takes much more effort than usual.
+**Patient**: I haven’t really noticed a specific time or activity that makes it worse. The weakness seems to stay about the same throughout the day.
 
-**Doctor**: Let me ask about when you first started to notice the weakness—are we talking days, weeks, or longer? Knowing the timeframe helps narrow down possible causes.
+**Doctor**: Tell me more about your overall energy—have you experienced any unusual fatigue, shortness of breath, or difficulty swallowing along with the weakness?
 
-**Patient**: I first noticed the weakness a few days ago. It’s just
+**Patient**: I haven’t had any trouble with swallowing or shortness of breath. My main issues have just been the weakness and feeling more tired than usual.
 
-**Doctor**: Based on what we've discussed, it sounds like you've had a gradually worsening difficulty with movement over several days, now affecting both your arms and legs, along with headache, nausea, and vomiting. Because these symptoms are progressing and making daily life harder, it’s important to consider both common and less common causes—sometimes things like infections, medication side effects, or even issues with the muscles or nervous system can cause this pattern.
+**Doctor**: Based on what we've discussed, it sounds like your muscle strength has gradually declined over several days, now making daily activities more challenging and affecting your balance. You haven’t noticed any numbness, tingling, swallowing issues, or breathing problems, which helps narrow down possible causes.
 
-What stands out is the combination of these symptoms getting worse over a short timeframe and starting to interfere with basic activities. While there are many possible explanations, I’d want to make sure nothing serious is being missed, especially since you haven’t noticed numbness, tingling, or problems with speech or balance.
+What often happens in situations like this is that we look for signs of nerve, muscle, or metabolic issues that could explain these changes. The fact that both your arms and legs are involved, and it’s getting harder to do basic activities, means this deserves prompt attention.
 
-At this point, I recommend you have an in-person evaluation soon—ideally today—to check for signs that might need urgent attention. In the meantime, if you develop new symptoms like fever, confusion, chest pain, sudden trouble with speech or vision, or if you’re unable to get up at all, please seek immediate care.
+While some benign causes can lead to fatigue and weakness, the progression and impact on your mobility suggest we should rule out anything more serious. I recommend you get evaluated in person soon—especially if you notice any new symptoms like difficulty speaking, facial changes, severe headache, or sudden changes in bladder or bowel control.
 
-Would you like advice on what to expect at your evaluation or how to manage symptoms until then?
+In the meantime, try to avoid situations where you might fall, and consider having someone nearby if you feel unsteady. If anything worsens quickly, seek care urgently. Does that make sense, or is there anything specific you’re worried about right now?
 
-**Patient**: Thanks for explaining all that. I appreciate your thoroughness, and I agree—it makes sense to get checked out soon. Could you tell me what kinds of tests or exams I should expect when I go in?
+**Patient**: Thanks, that all makes sense. I have also been having some headaches, along with nausea and vomiting at times. I’ll make sure to get checked out soon.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 613
+- **Word Count**: 609
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 56-year-old woman presenting with a chief complaint of leg weakness progressing to arm weakness over one day. She also reported headache, nausea, and vomiting, and had a history of a fall with head injury one month prior. Her past medical history includes hypertension and menopause, and she takes Prempro, Univasc, and aspirin as needed; she has no known drug allergies. On examination, she was hypertensive (BP 160/79), alert, with right-sided motor weakness and abnormal right-sided reflexes; her left pupil was nonreactive. Head CT revealed a subacute and acute subdural hematoma with midline shift and minimal hydrocephalus. The documented diagnosis was subdural hematoma. She underwent left frontal and parietal burr hole evacuation of the hematoma without complications. Postoperatively, she was monitored in the ICU and had a stable recovery with good radiographic results.
-
-## Dialogue Summary
-
-The patient presented with gradually worsening weakness in the legs, now also affecting the arms. The weakness has developed over several days and is making walking, getting up from a chair, carrying objects, getting dressed, and preparing meals more difficult. The patient denied numbness, tingling, vision changes, trouble speaking, or balance problems, but reported headache, nausea, and vomiting. No relevant medical history, medications, or allergies were mentioned. The doctor noted the progressive nature of weakness and associated symptoms interfering with daily activities, and discussed possible causes including infections, medication side effects, or issues with muscles or the nervous system. The assessment emphasized concern for serious underlying conditions due to the combination and progression of symptoms. The doctor recommended an in-person evaluation as soon as possible, ideally today, and advised seeking immediate care if new symptoms such as fever, confusion, chest pain, sudden speech or vision changes, or inability to get up occur.
-
-## STS Evaluation
-
-- **STS Score**: 0.962
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 58.9s
+- **Processing Time**: 91.2s

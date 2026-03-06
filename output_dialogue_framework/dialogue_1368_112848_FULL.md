@@ -16,90 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.840
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, open-ended and focused questions about the patient's symptoms, including chest pain, palpitations, shortness of breath, dizziness, and syncope—all of which are present in the profile. The patient responses are coherent and align with the documented symptoms and impact on daily life. The doctor's reasoning is sound, mentioning possible causes (heart rhythm issues, blood pressure changes, anxiety), and the recommendations for EKG and blood work are appropriate for the scenario. No unsupported diagnoses or treatments are introduced, and the conversation remains at a primary care level without escalation to ICU or emergency interventions.
+- **Score**: 0.840
+- **Justification**: Combined score 0.84 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.60 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.600 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear and relevant answers. For even greater realism, the patient could occasionally express uncertainty or ask clarifying questions about medical terms (e.g., 'What do you mean by palpitations?').
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and communication. To further enhance realism, the doctor could briefly acknowledge the patient's underlying cardiac history (e.g., 'Given your history of heart conditions...'), which would show awareness of the patient's background.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, moving from symptom exploration to impact on daily life and then to next steps. The conversation could be improved by including a brief summary or check-back from the doctor to ensure understanding before making recommendations.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety is appropriately addressed with clear instructions on when to seek urgent care. Clarity is high; however, the doctor could explicitly mention reviewing the patient's cardiac history as part of their assessment to reinforce thoroughness.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome, it’s good to see you today. What’s been bothering you recently, and how can I help?
+**Doctor**: Hi, good to see you today. What’s been on your mind lately regarding your health?
 
-**Patient**: I've been having some chest pain lately, and it’s making me pretty anxious. That’s really what’s brought me in today.
+**Patient**: Lately, I’ve been really worried about my chest pain and how my heart keeps racing. It’s been making me pretty anxious.
 
-**Doctor**: Let me ask about any other symptoms you might have noticed—have you experienced any palpitations, like your heart racing or fluttering, when this happens?
+**Doctor**: Let me ask about your symptoms—when you notice your heart racing or the chest discomfort, does anything in particular seem to bring it on, like activity, stress, or certain foods?
 
-**Patient**: Yes, I’ve definitely felt my heart racing at times, along with the chest pain. It’s really uncomfortable when it happens.
+**Patient**: I can’t really tell what brings it on. Sometimes the chest pain and palpitations just happen out of nowhere, even when I’m not doing much. I haven’t noticed any specific triggers like food or activity.
 
-**Doctor**: Let me ask about your breathing—do you ever feel short of breath when you have these episodes?
+**Doctor**: Let me ask about any other sensations—when these episodes happen, do you ever feel short of breath, lightheaded, or sweaty?
 
-**Patient**: Yes, I do get short of breath during these episodes. It feels like I can't quite catch my breath, and that adds to my worry.
+**Patient**: I do feel short of breath and dizzy when my heart starts racing. It can get pretty intense, and sometimes I feel like I might pass out. Sweating isn’t something I’ve really noticed.
 
-**Doctor**: Let me ask about how long these episodes last—are they just a few seconds, several minutes, or longer?
+**Doctor**: Let me ask about how long these episodes usually last—are we talking seconds, minutes, or longer? And do they tend to resolve on their own, or do you have to do something to feel better?
 
-**Patient**: I'm not sure exactly how long they last, but I think it's usually several minutes, sometimes a bit longer. It’s hard to keep track when I’m feeling that way.
+**Patient**: Sometimes the episodes last just a few minutes, but other times it feels longer. They usually go away on their own—I haven’t figured out anything that really helps when it happens.
 
-**Doctor**: Alright. Have you noticed any patterns or triggers—like stress, physical activity, or certain times of day—when these episodes tend to come on?
+**Doctor**: Got it. How much would you say these episodes are affecting your usual activities—are you able to go about your day normally, or do you find yourself avoiding things because of the symptoms?
 
-**Patient**: Stress definitely seems to make things worse, especially when I'm feeling anxious. I haven't noticed a specific time of day or anything related to physical activity.
+**Patient**: Honestly, it’s gotten pretty tough to go about my day. The dizziness and even passing out sometimes make me avoid things I used to do, especially anything that might trigger those episodes.
 
-**Doctor**: Got it. When these episodes happen, would you describe the pain as sharp, dull, pressure-like, or something else? And on a scale of 1 to 10, how intense is it at its worst?
+**Doctor**: Alright, when you mention almost passing out, have you ever actually lost consciousness completely, even for a brief moment? Or do you always stay aware, just feeling very close to fainting?
 
-**Patient**: The pain feels more like a pressure in my chest than anything sharp or dull. At its worst, I’d rate it around a 7 out of 10. Along with the chest pressure, I get that heart racing and shortness of breath.
+**Patient**: I have actually lost consciousness a couple of times. There were moments where I just blacked out and didn’t remember what happened for a bit. It’s pretty scary when it happens.
 
-**Doctor**: Got it. Have you ever felt lightheaded or dizzy during these episodes, or noticed any fainting?
+**Doctor**: Okay. Over the past few weeks, have these episodes been happening more often or getting more intense, or has it stayed about the same?
 
-**Patient**: Yes, I do get dizzy during these episodes, and there have been times when I've actually fainted. The lightheaded feeling comes on pretty suddenly.
+**Patient**: They’ve definitely been happening more often lately, and the symptoms feel stronger. I’ve also had times where I get confused or disoriented, and my mental state seems to come and go.
 
-**Doctor**: Tell me more about how these episodes are affecting your daily life—are you finding it difficult to do your usual activities, or are you avoiding anything because of these symptoms?
+**Doctor**: Tell me more about when these episodes first started—was there a specific event or change in your life or health around that time, or did they just begin gradually?
 
-**Patient**: Yes, these episodes have definitely made it harder to go about my normal routine. Because of the dizziness and fainting, I’ve started avoiding things like walking outside alone or driving. I just don’t feel safe when I’m not sure if I’ll get lightheaded or pass out.
+**Patient**: These episodes started gradually, but things really changed after my surgery for the aortic dissection repair. Since then, the symptoms have gotten worse, and sometimes I get agitated or confused during the episodes.
 
-**Doctor**: From what you've told me, your episodes involve chest pressure, heart racing, shortness of breath, dizziness, and even fainting, particularly during stressful times. These symptoms are significant because they can sometimes point to heart rhythm issues, blood pressure changes, or even anxiety-related responses. The fact that you're avoiding activities like driving or walking alone shows this is really impacting your quality of life.
+**Doctor**: Based on what we've discussed, it sounds like your episodes have become more frequent and intense since your aortic dissection repair, and you’ve even experienced brief losses of consciousness and confusion. These symptoms are concerning in the context of your heart history, because they can sometimes be related to changes in blood flow or rhythm disturbances after major heart surgery.
 
-While anxiety can certainly cause symptoms like these, fainting (syncope) and ongoing dizziness always deserve a closer look to rule out any heart or circulation problems. It's important we don't ignore those possibilities.
+What often happens after aortic repair is that the heart can be more prone to abnormal rhythms or changes in blood pressure, which might explain your racing heart and dizziness. The fact that you’ve actually lost consciousness and felt confused suggests your brain may not be getting enough blood flow during these episodes.
 
-At this point, I’d recommend we arrange for some basic tests—like an EKG to look at your heart rhythm and possibly some blood work—to help us figure out what's going on. In the meantime, try to avoid situations where you might be at risk if you faint, such as driving or being somewhere unsafe alone.
+Given all this, I’d recommend you contact your cardiologist or seek prompt evaluation. It’s important to rule out any serious rhythm problems or complications from your previous surgery. While anxiety can play a role, your history means we need to be extra cautious.
 
-If you ever develop severe chest pain that doesn’t go away, pain spreading to your arm or jaw, or if you faint and can’t wake up quickly, those are warning signs that need urgent attention.
+In the meantime, if you ever have chest pain that won’t go away, severe shortness of breath, or pass out again, you should seek emergency care. Otherwise, keep track of when these episodes happen and what you’re doing at the time—it’ll help your doctors figure out the cause. Does that make sense, or is there anything else about these symptoms you want to discuss?
 
-Does it feel like these episodes are happening more often or getting worse over time?
-
-**Patient**: Yes, I do feel like these episodes are happening more often now, and sometimes my mental state gets pretty confused or disoriented when they come on. I appreciate you taking it seriously—I just want to get to the bottom of it.
+**Patient**: That makes sense, thanks for explaining it. I’ll make sure to keep track of these episodes and reach out to my cardiologist. Is there anything specific I should watch for that would mean it’s getting worse?
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 674
+- **Word Count**: 744
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 51-year-old male presenting with a one-year history of chest pain. He reported multiple episodes of palpitations, heart racing, shortness of breath, dizziness, and syncope. His medical history includes cardiomyopathy, dilated ascending aorta, hypertension, significant tobacco and alcohol use, depression with prior admissions for suicidal ideation, and panic disorder. Cardiac catheterization revealed a pulmonary capillary wedge pressure of 23 mmHg, LVEDP of 28 mmHg, ejection fraction of 24%, 1+ mitral regurgitation, and no coronary artery disease. On physical exam, he was in no acute distress with stable vital signs but had scattered rales at the lung bases and a palpable liver. The documented diagnosis was ascending aortic aneurysm with severe cardiomyopathy. The patient underwent surgical repair of the ascending aortic aneurysm and aortic valve replacement with dacron grafts.
-
-## Dialogue Summary
-
-The patient presented with chest pain that has been causing significant anxiety. Symptoms include episodes of chest pressure (rated 7/10 at worst), heart racing (palpitations), shortness of breath, dizziness, and fainting (syncope), with episodes lasting several minutes or longer and sometimes leading to confusion or disorientation. The patient reported that stress worsens the symptoms, and these episodes have become more frequent, leading to avoidance of activities like walking alone or driving due to safety concerns. No specific medical history, medications, or allergies were mentioned. The doctor noted the combination of chest pressure, palpitations, shortness of breath, dizziness, and fainting, particularly during stressful times, and emphasized that these symptoms could indicate heart rhythm issues, blood pressure changes, or anxiety-related responses. The assessment highlighted the need to rule out cardiac or circulatory causes given the presence of syncope and ongoing dizziness. The doctor recommended arranging an EKG and blood work for further evaluation and advised the patient to avoid situations where fainting could be dangerous. The patient was also instructed to seek urgent care if severe chest pain, pain radiating to the arm or jaw, or prolonged loss of consciousness occurs.
-
-## STS Evaluation
-
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 59.3s
+- **Processing Time**: 84.7s

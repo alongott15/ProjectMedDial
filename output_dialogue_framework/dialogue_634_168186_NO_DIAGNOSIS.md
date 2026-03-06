@@ -16,88 +16,98 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.944
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is consistent with the provided patient profile and case type. The doctor asks appropriate follow-up questions about postoperative symptoms (fever, hypotension, jaundice, drain output) and provides clear, reassuring explanations. The patient responses are plausible and reflect understanding of their condition and recent hospital course. No unsupported diagnoses, treatments, or severe events are introduced. The conversation stays focused on mild, expected postoperative issues and recovery.
+- **Score**: 0.944
+- **Justification**: Combined score 0.94 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.95 ×0.3). Profile type: NO_DIAGNOSIS.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS) | 1.000 |
+| RAGAS Faithfulness | 0.947 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient could provide slightly more detail about the drain output (e.g., color, amount), but overall responses are appropriate and realistic.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS profile knowledge boundaries.
 
-**Doctor Side**: Doctor could ask specifically about the surgical drain earlier in the conversation, given its relevance to the case. A brief check on peripheral edema or renal symptoms would further ground the assessment.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, moving from general recovery to specific symptoms and then to patient concerns. Minor improvement could be made by integrating the patient's concern about the drain earlier.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety or clarity concerns. The doctor gives clear guidance on warning signs and when to seek care, which is appropriate for a light postoperative case.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome in today. How have you been feeling since your procedure? What brings you in for follow-up?
+**Doctor**: Hello, it's good to see you. How have you been feeling since your surgery? Is there anything in particular that's been bothering you today?
 
-**Patient**: Since the procedure, I've been a little concerned about the common bile duct stricture and what it might mean. I wanted to check in because of that.
+**Patient**: Thanks for asking. The thing that's been bothering me most is the swelling in my legs and feet.
 
-**Doctor**: Let me ask about how you've been feeling physically since the procedure—have you noticed any changes like fever, chills, or feeling unusually tired?
+**Doctor**: Let me ask about the swelling—when did you first notice it, and has it changed since then?
 
-**Patient**: I did have a low-grade fever after the surgery, starting the day after. I haven't really noticed chills or anything like that.
+**Patient**: I first noticed the swelling after my surgery, maybe the day after. It seems like it's gotten a bit worse since then.
 
-**Doctor**: Let me ask about your temperature—have you been checking it at home, and if so, what kind of numbers have you seen?
+**Doctor**: Let me ask about other symptoms—have you had any discomfort, pain, or changes in skin color in your legs? Also, have you noticed any fever since your surgery?
 
-**Patient**: I haven't been checking my temperature at home, so I don't know the exact numbers. In the hospital, they told me it was a low-grade fever.
+**Patient**: I did have a low-grade fever the day after my surgery, but it hasn't been very high. My legs are swollen, but I haven't noticed any pain or changes in color.
 
-**Doctor**: Let me ask about your blood pressure—were you told it was low after the procedure, or did you feel lightheaded or dizzy at any point?
+**Doctor**: Let me ask about your daily routine—has the swelling made it difficult for you to walk or do normal activities? Also, have you noticed if it gets better when you elevate your legs or rest?
 
-**Patient**: Yes, they told me my blood pressure was low on the first and second day after the procedure. I did feel a bit lightheaded at times during that period.
+**Patient**: The swelling does make it harder to walk around, and I get tired more easily. I haven't really noticed if elevating my legs makes a big difference.
 
-**Doctor**: Got it. Have you noticed any yellowing of your skin or eyes, dark urine, or changes in your bowel movements since the procedure? These can sometimes be signs of issues with the bile ducts.
+**Doctor**: Alright. Since you mentioned a low-grade fever after surgery, have you had any chills or felt unusually warm since then? Also, do you recall if your healthcare team mentioned anything about your bile ducts or liver during your hospital stay?
 
-**Patient**: No, I haven't noticed any yellowing of my skin or eyes, and my urine and bowel movements seem about the same as usual.
+**Patient**: I haven’t really had chills, but I did feel a bit warmer than usual right after the surgery. As for my bile ducts or liver, I remember the team mentioning something about a blockage, but I’m not sure of the details.
 
-**Doctor**: Let me ask about the fever—do you recall how long it lasted after the procedure, and whether you felt back to normal since then?
+**Doctor**: Got it. Can you tell me if the swelling has stayed just in your legs and feet, or have you noticed it anywhere else, like your hands or face?
 
-**Patient**: It lasted for about a day or two after the procedure. Since then, I’ve started to feel more like myself again.
+**Patient**: The swelling has just been in my legs and feet. I haven't noticed it anywhere else like my hands or face.
 
-**Doctor**: Alright. Since you mentioned feeling more like yourself now, have you experienced any new symptoms such as sweating at night or a return of the lightheadedness since leaving the hospital?
+**Doctor**: Let me ask about your surgery—do you recall what type of surgery you had, and whether your doctors mentioned anything about a procedure on your bile ducts or liver? This will help me understand if the swelling could be related to your recovery.
 
-**Patient**: No, I haven’t had any night sweats or lightheadedness since I left the hospital.
+**Patient**: I know they did something to my bile duct during surgery, but I don’t remember exactly what it was called. They said there was a blockage they needed to address.
 
-**Doctor**: Got it. When you had the low blood pressure and fever after the procedure, did you need any special treatment, like extra fluids or medications, or did it resolve on its own?
+**Doctor**: Got it. Let me ask about your swelling—does anything seem to make it worse, like standing for a long time, or does it tend to be the same throughout the day?
 
-**Patient**: They gave me some fluids while I was in the hospital, and after that, things seemed to improve on their own. I didn’t need any special medications for it.
+**Patient**: Standing or being on my feet for a while definitely makes the swelling worse. It seems to get a little better when I'm sitting or lying down.
 
-**Doctor**: Based on what we've discussed, it sounds like your low-grade fever and blood pressure changes were limited to the first couple of days after your procedure and improved with fluids, without ongoing symptoms. This is reassuring—sometimes, mild fevers and temporary drops in blood pressure can occur after procedures due to the body's response to anesthesia, medications, or mild inflammation. The fact that you haven’t had any new or worsening symptoms like jaundice, dark urine, or recurrent lightheadedness is a good sign.
+**Doctor**: Based on what we've discussed, it sounds like your leg and foot swelling began shortly after your surgery to address a bile duct blockage. The swelling gets worse when you're standing and improves with rest, and you had a low-grade fever right after surgery but no ongoing fever or chills.
 
-Let me share a bit of context: with a common bile duct stricture, we mainly watch for signs of infection or blockage, such as persistent fever, yellowing of the skin or eyes, or abdominal pain. Since you haven't experienced these, it suggests things are stable for now.
+Swelling in the legs after surgery can happen for several reasons. It’s often related to being less active while recovering, which can cause fluid to build up in the lower body. Sometimes, surgery near the liver or bile ducts can also affect how your body handles fluids. The fact that the swelling improves when you rest and hasn't spread elsewhere is reassuring.
 
-If you notice any new symptoms like persistent fever, yellowing of your skin or eyes, severe abdominal pain, or if you feel faint again, those would be reasons to seek prompt medical attention. Otherwise, staying hydrated and gradually returning to your normal activities is usually safe.
+Let me share my thoughts: this type of swelling is common after abdominal surgery, especially if your activity level is reduced. It's important to keep an eye out for signs like redness, pain, or worsening fever, which could suggest infection or a blood clot, but you haven’t described those.
 
-Do you have any specific concerns or questions about your recovery or the stricture itself that I can address?
+My recommendations are:
+- Try to elevate your legs when sitting or lying down to help reduce swelling.
+- Gradually increase your activity as you’re able, but avoid standing for long periods.
+- Watch for any new pain, redness, or fever, and let your healthcare team know if these develop.
 
-**Patient**: Thanks, that helps put my mind at ease. One thing I was wondering about—the surgical drain has been putting out a lot of fluid. Is that something I should keep monitoring, or is it expected with the common bile duct stricture?
+Based on the information you’ve shared, the most likely cause is postoperative fluid retention due to decreased activity and changes in circulation after your surgery. This is usually temporary and improves as you recover and move more.
+
+If you have any questions or notice new symptoms, please let me know.
+
+**Patient**: Thanks for explaining that. How long does it usually take for this kind of swelling to go away after surgery?
+
+**Doctor**: From what you've told me, swelling after surgery—especially when related to procedures on the bile duct—can last anywhere from a few days to a few weeks. It usually improves as your activity level increases and your body recovers. The fact that it gets better with rest and hasn't spread is a good sign.
+
+What often happens is that fluid builds up in the lower legs when you're less active, and your circulation needs time to adjust after surgery. As you gradually move around more, your body will naturally start to clear this excess fluid.
+
+If you notice the swelling is getting worse or you develop new symptoms like pain, redness, or fever, let your healthcare team know. Otherwise, elevating your legs and gentle activity should help speed up recovery.
+
+Let me know if you have any other questions or concerns about your recovery.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 656
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 912
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 62-year-old male presenting with recurrent common bile duct stricture, initially suspected to be cholangiocarcinoma. He previously underwent exploratory laparotomy and cholecystectomy, with negative biopsies and resolution of symptoms, later attributed to Mirizzi syndrome. The stricture recurred after percutaneous transhepatic cholangiography (PTC) and balloon dilatation, prompting further evaluation. Past medical history includes coronary artery disease (status post stent), diabetes mellitus type 2, hypertension, Mirizzi syndrome, chronic renal failure, and prior coronary artery bypass graft. On admission, he denied fever, chills, nausea, or vomiting. Physical findings postoperatively included a low-grade fever and hypotension (90/40 mmHg) on the first day after surgery. The documented diagnosis was recurrent common bile duct stricture at the bifurcation and distal right hepatic duct. Treatment included common bile duct resection with Roux-en-Y hepatojejunostomy, intraoperative transfusion of four units of red blood cells, postoperative fluid boluses for hypotension, and adjustment of epidural dosing.
-
-## Dialogue Summary
-
-The patient presented with concerns regarding a common bile duct stricture following a recent procedure. They reported experiencing a low-grade fever for one to two days after surgery, without chills, and noted low blood pressure and mild lightheadedness during the same period; these symptoms resolved after receiving fluids in the hospital and did not require special medications. The patient denied any yellowing of the skin or eyes, dark urine, changes in bowel movements, night sweats, or recurrent lightheadedness since discharge. No ongoing symptoms were described, and the patient stated they have felt more like themselves since recovery. Relevant history includes recent surgery for a common bile duct stricture and post-operative monitoring in the hospital. On assessment, the doctor noted that the transient fever and hypotension were likely related to anesthesia, medications, or mild inflammation, and that the absence of jaundice or other concerning symptoms is reassuring for stability of the stricture. The doctor advised monitoring for new symptoms such as persistent fever, jaundice, severe abdominal pain, or recurrent faintness, and recommended staying hydrated and gradually resuming normal activities. The patient also inquired about surgical drain output, seeking guidance on monitoring.
-
-## STS Evaluation
-
-- **STS Score**: 0.969
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 65.3s
+- **Processing Time**: 97.6s

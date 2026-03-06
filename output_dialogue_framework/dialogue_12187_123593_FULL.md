@@ -16,88 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.798
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the patient's profile and symptoms. The doctor asks appropriate questions about the headaches and slurred speech, explores associated symptoms, and provides reasonable advice for a light case. There are no unsupported diagnoses, treatments, or major omissions. The conversation is clear, respectful, and avoids introducing new, unsupported facts.
+- **Score**: 0.798
+- **Justification**: Combined score 0.80 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.46 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.462 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and appropriately expresses uncertainty about the timing of symptoms. For even greater realism, the patient could mention any concerns about their past aneurysm or ask if their history might be related.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor demonstrates good clinical reasoning and safety netting. For improvement, the doctor could briefly acknowledge the patient's history of aneurysm and prior coiling/stent placement, as this is relevant to neurological symptoms, even in a light case.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with smooth transitions between topics. The summary and recommendations are clear. Adding a closing question (e.g., 'Is there anything else you'd like to discuss?') could enhance patient engagement.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No major safety or clarity concerns. The doctor appropriately advises monitoring for worsening symptoms and when to seek care. Explicitly referencing the patient's aneurysm history would further clarify risk assessment.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hello, it's good to see you today. How have you been feeling lately, and what brings you in?
+**Doctor**: Hello, it's good to see you today. How have you been feeling lately, and what would you like to focus on during our visit?
 
-**Patient**: I've been having headaches that just don't seem to go away, so that's mainly why I wanted to come in today.
+**Patient**: Lately, I've been having some headaches that have been bothering me. That's really what I'd like to talk about today.
 
-**Doctor**: Let me ask about when these headaches first started—was it days, weeks, or longer ago?
+**Doctor**: Let me ask about the timing—when did these headaches first start, and how often have you been experiencing them?
 
-**Patient**: I'm not sure exactly, but I think it's been going on for at least a couple of weeks now.
+**Patient**: I'm not sure exactly when they first started, but I've had headaches on and off for a while. Lately, they've been happening more often.
 
-**Doctor**: Let me ask about any other symptoms—have you noticed any changes in your speech, like slurring, or any difficulty finding words?
+**Doctor**: Let me ask about any other symptoms—have you noticed changes in vision, difficulty speaking, or weakness on one side when these episodes occur?
 
-**Patient**: Yes, I have noticed some slurred speech along with the headaches. It's not constant, but it does happen from time to time.
+**Patient**: I have noticed some slurred speech at times along with the headaches. I haven't had any weakness or vision changes.
 
-**Doctor**: Let me ask about your daily routine—have these episodes affected your ability to work or do things around the house?
+**Doctor**: Alright. When you experience slurred speech, how long does it typically last, and does it resolve on its own or require anything specific to improve?
 
-**Patient**: Yes, it has made things a bit harder. Sometimes the headaches and slurred speech make it difficult to focus or get tasks done like I usually would.
+**Patient**: The slurred speech usually doesn't last very long—maybe a few minutes—and it tends to go away on its own. I haven't needed to do anything specific for it.
 
-**Doctor**: Got it. When you notice the slurred speech, does it tend to happen at a particular time of day or after certain activities, or does it seem random?
+**Doctor**: Got it. Does anything in particular seem to trigger these episodes, like certain activities, foods, or stress? Or do they tend to come on randomly?
 
-**Patient**: It seems pretty random to me. I haven’t noticed a pattern with the time of day or any specific activity.
+**Patient**: They seem to come on randomly. I haven't noticed any specific triggers like foods or activities. Stress might play a role, but I'm not certain.
 
-**Doctor**: Tell me more about the headaches themselves—would you describe the pain as mild, moderate, or severe? And does anything seem to help relieve them, like rest or medication?
+**Doctor**: Tell me more about the severity—how intense are these headaches when they occur, and do they interfere with your daily activities or ability to concentrate?
 
-**Patient**: The pain is usually moderate, not severe, but definitely enough to bother me. Resting does help a bit, and sometimes medication takes the edge off.
+**Patient**: The headaches can get pretty intense at times, enough that it's hard to focus or get through my usual tasks. They definitely interfere with my day when they're bad.
 
-**Doctor**: Alright, when you take medication for the headaches, what type do you use—over-the-counter options like acetaminophen or ibuprofen, or something else? And does it usually work quickly, or just take the edge off for a short while?
+**Doctor**: Let me ask about what helps—when the headaches are intense, do you find that rest, over-the-counter medications, or anything else provides relief? Or do they just have to run their course?
 
-**Patient**: I usually take aspirin when the headaches get bad. It helps a little, but mostly just takes the edge off for a short time.
+**Patient**: Resting in a quiet room sometimes helps, but not always. Over-the-counter medications haven’t made much of a difference, so the headaches usually just have to pass on their own.
 
-**Doctor**: Let me ask about any other changes you've noticed—have you had any vision problems, numbness, or weakness in your arms or legs?
+**Doctor**: Let me ask about your sleep—have you noticed any changes in your sleep patterns recently, or do you feel rested when you wake up? Sleep can sometimes play a role in these kinds of symptoms.
 
-**Patient**: No, I haven’t had any vision problems, numbness, or weakness in my arms or legs.
+**Patient**: My sleep hasn't changed much lately. I usually wake up feeling just as tired as when I went to bed, but that's been the case for a while.
 
-**Doctor**: From what you've told me, your symptoms have been ongoing for a couple of weeks and sometimes make it harder to focus or complete tasks. While moderate pain that responds partially to rest and aspirin is common with many types of headaches, the episodes of slurred speech are less typical and deserve some extra attention. Sometimes, speech changes can be related to migraine or other benign causes, but they can also signal something more serious.
+**Doctor**: From what you've told me, your symptoms seem to be interfering with your daily life, and the brief episodes of slurred speech are important to note. While headaches are common and often linked to factors like stress or sleep, the addition of slurred speech—even if it resolves quickly—means we should pay closer attention to possible neurological causes.
 
-Right now, since you haven't had any numbness, weakness, or vision changes, that's somewhat reassuring. However, because speech changes can occasionally indicate neurological issues, it’s important to keep an eye out for any new symptoms—like sudden weakness, trouble seeing, or confusion.
+What often happens with these symptoms is that they can be related to migraine with aura, but it's also important to rule out other conditions that might affect blood vessels or brain function. Since over-the-counter medications aren't helping and the episodes are random, it's a good idea to monitor for any new or worsening symptoms, such as persistent speech changes, weakness, or vision loss.
 
-My recommendation is to monitor your symptoms closely. If you notice any worsening speech issues, weakness, or difficulty understanding others, seek medical attention promptly. For now, try to track when these episodes happen and if anything seems to trigger them. Staying well-hydrated, getting regular sleep, and continuing with moderate use of over-the-counter medication as needed is reasonable.
+For now, keeping a diary of your episodes—including timing, duration, and any possible triggers—can help us track patterns. If you notice any symptoms that last longer than usual or new issues like numbness or trouble walking, those are warning signs to seek medical attention promptly.
 
-Let me know if you have questions or if anything changes.
+Let me know if you have questions about what we've discussed or if you'd like advice on managing these episodes day-to-day.
 
-**Patient**: Thanks for explaining all of that. I’ll start keeping track of when the headaches and slurred speech happen, like you suggested. It’s good to know what to watch out for, and I’ll let you know if anything gets worse.
+**Patient**: Thanks for explaining all that. I understand the importance of tracking my symptoms, and I can start keeping a diary like you suggested. Is there anything else I should do because I’ve had a left carotid ophthalmic aneurysm that was treated with coiling and a stent?
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 609
+- **Word Count**: 667
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 45-year-old female presenting for a diagnostic cerebral angiogram with coiling. She has a history of headaches, fibromyalgia, and prior episodes of slurred speech. Her past surgical history includes tubal ligation, cystectomies, and breast lesion excision; she is allergic to tetracycline. On admission and postoperatively, her vital signs were stable and physical exam was unremarkable, with normal neurological findings. Laboratory results showed normal white blood count, hematocrit, platelets, and electrolytes; coagulation studies were within acceptable ranges. The documented diagnosis was a left carotid ophthalmic aneurysm. She underwent successful coiling and stent placement without complications. The treatment plan included continuation of antiplatelet therapy and routine postoperative monitoring.
-
-## Dialogue Summary
-
-The patient presented with persistent headaches as the chief complaint. The headaches have been ongoing for at least a couple of weeks, are usually moderate in severity, and are sometimes accompanied by episodes of slurred speech that occur randomly without a clear trigger. The patient reported that the symptoms make it harder to focus and complete daily tasks; resting and aspirin provide only partial, short-term relief. No vision problems, numbness, or weakness in the arms or legs were reported. The patient did not mention any relevant medical history, medications (other than aspirin), or allergies. On assessment, the doctor noted that while moderate headaches are common, the presence of intermittent slurred speech is less typical and warrants close monitoring, as it could indicate neurological issues despite the absence of other concerning symptoms. The doctor recommended tracking the timing and triggers of symptoms, maintaining hydration and regular sleep, continuing moderate use of over-the-counter medication as needed, and seeking prompt medical attention if new or worsening symptoms such as weakness, vision changes, or confusion develop.
-
-## STS Evaluation
-
-- **STS Score**: 0.939
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 55.4s
+- **Processing Time**: 76.0s

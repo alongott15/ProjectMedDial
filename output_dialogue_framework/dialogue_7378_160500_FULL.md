@@ -16,86 +16,83 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.808
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, open-ended questions about the patient's symptoms, their onset, severity, and impact on daily life. The patient responds in a natural way, providing relevant details without introducing unsupported information. The doctor's summary and advice are reasonable for mild, common symptoms and do not introduce any hallucinated diagnoses or treatments. There are no role confusions or incoherent turns.
+- **Score**: 0.808
+- **Justification**: Combined score 0.81 (naturalness=0.90 ×0.4, profile_compliance=0.80 ×0.3, ragas_faithfulness=0.69 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 0.800 |
+| RAGAS Faithfulness | 0.692 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For even greater realism, occasional uncertainty or more detail about how symptoms affect daily life could be added.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor's questioning is thorough and empathetic. To further improve, the doctor could briefly review the patient's chronic conditions or medications to check for possible links to current symptoms.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and smooth, moving from general to specific questions and ending with a summary and safety net advice. Consider a brief closing statement or plan for follow-up to enhance completeness.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: No safety concerns detected. The doctor appropriately advises the patient to monitor for worsening symptoms and provides clear reassurance.
+**Groundedness**: Patient statements contain claims not supported by their profile. Patient may be hallucinating symptoms, history, or other details. All patient claims must be grounded in the provided profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi, it's good to see you today. What’s been bothering you lately?
+**Doctor**: Hello, it's good to see you today. How have you been feeling lately? What brings you in for your visit?
 
-**Patient**: I've just been feeling kind of poorly for about a month now. That's what brought me in—I haven't felt like myself lately.
+**Patient**: I've just been feeling pretty poorly lately, and it’s been going on for about a month now. That’s mainly why I wanted to come in today.
 
-**Doctor**: Let me ask about how this has changed over the past month—has your energy or overall sense of well-being been getting better, worse, or staying about the same?
+**Doctor**: Let me ask about your symptoms—can you describe what you mean by feeling poorly? Are there specific issues, like fatigue, headache, or anything else that stands out?
 
-**Patient**: It's been pretty steady, I think. I haven't really noticed much improvement, and I wouldn't say it's gotten worse either. Just feeling off for a while now.
+**Patient**: Headache has been one of the main things bothering me, and just generally not feeling myself. It's hard to put my finger on exactly what it is, but I haven't felt right for a while.
 
-**Doctor**: Let me ask about your day-to-day—have you noticed any specific symptoms along with this feeling, like headaches, trouble sleeping, or changes in appetite?
+**Doctor**: Let me ask about how this has been affecting your day-to-day life. Are you able to do your usual activities, or has the headache and feeling off made things more difficult for you?
 
-**Patient**: Yes, I've had headaches along with just feeling off. I haven't noticed any trouble sleeping or changes in my appetite, though.
+**Patient**: It's definitely made things tougher for me. I find myself having to slow down, and sometimes the headache and just feeling unwell make it hard to get through my usual routine.
 
-**Doctor**: Let me ask about something related—have you experienced any unusual sweating, either during the day or at night, since you've been feeling this way?
+**Doctor**: Let me ask about other symptoms—have you noticed any unusual sweating or changes in your appetite, sleep, or energy levels over the past month?
 
-**Patient**: Yes, I've definitely noticed more sweating than usual. It happens during the day, and sometimes at night too.
+**Patient**: I've definitely had more sweating than usual—it's been pretty noticeable. As for my appetite and sleep, I haven't really noticed much change there.
 
-**Doctor**: Alright. Have you noticed if anything in particular seems to trigger the sweating or these headaches, like activity, certain foods, or stress? Or do they just come on their own?
+**Doctor**: Alright. Has the increased sweating and feeling unwell been getting better, worse, or staying about the same over the past month?
 
-**Patient**: They seem to come on their own, really. I haven’t noticed any particular triggers like food or activity. Stress doesn’t seem to set them off either, as far as I can tell.
+**Patient**: Things have mostly stayed the same over the past month. I haven't noticed much improvement or any big changes, just this ongoing feeling of not being well and more sweating than usual.
 
-**Doctor**: Got it. Have these symptoms affected your ability to do your usual daily activities, or are you still able to keep up with things as normal?
+**Doctor**: Let me ask about the sweating—does it tend to happen at certain times of day or with specific activities, or is it more constant throughout?
 
-**Patient**: No, I’ve been able to keep up with my usual daily activities. The sweating and headaches are annoying, but they haven’t really stopped me from doing things.
+**Patient**: The sweating seems to come and go, but I notice it more throughout the day rather than tied to any specific activity. It doesn't seem to matter what I'm doing—it just happens.
 
-**Doctor**: I see. When you say you’ve been feeling “off” and having these symptoms for about a month, did they start suddenly or come on gradually over time?
+**Doctor**: Got it. When the headache comes on, does it tend to last for hours at a time, or is it more intermittent throughout the day? And would you describe it as mild, moderate, or severe?
 
-**Patient**: It came on gradually over time. I didn’t notice anything sudden; it just sort of crept up over the month.
+**Patient**: The headache tends to stick around for hours at a time, and I'd describe it as moderate. It doesn't really come and go much—it just sort of lingers through the day.
 
-**Doctor**: Let me ask about the sweating—would you say it's mild, moderate, or does it get to the point where you need to change clothes or sheets? This helps me understand how much it's affecting you day-to-day.
+**Doctor**: Alright. Since you've been feeling this way for about a month, have you noticed any fevers or chills during this time? Sometimes those can help us narrow down possible causes.
 
-**Patient**: I'd call the sweating moderate. I don’t usually need to change clothes or sheets, but it’s enough that I notice it throughout the day.
+**Patient**: I haven't had any fevers or chills during this time. It's really just been the headache, sweating, and feeling generally unwell.
 
-**Doctor**: Based on what we've discussed, it sounds like you've had a gradual onset of feeling unwell, along with headaches and moderate sweating, but you’re still able to go about your usual activities. These are fairly common symptoms and can sometimes be linked to things like mild infections, hormonal changes, or even side effects from medications. The fact that you haven’t noticed any clear triggers or severe impact on your daily life is reassuring.
+**Doctor**: From what you've told me, your symptoms have been persistent and are noticeably affecting your daily routine, especially with the increased sweating and general sense of feeling unwell. While these symptoms are common in a range of mild conditions—such as viral infections or stress-related issues—the fact that they’ve lasted for a month and are impacting your activities suggests we should keep an eye out for anything more significant.
 
-Often, symptoms like these resolve on their own, but it’s important to keep an eye out for any new developments—like fever, weight loss, persistent fatigue, or any pain that gets worse. For now, staying hydrated and maintaining your normal routine is helpful. If anything changes or if you develop new symptoms, please let me know.
+Often, ongoing fatigue and sweating can be linked to things like mild infections, changes in medication, or even metabolic issues. Since you haven’t had fevers or chills, and your appetite and sleep are stable, it’s less likely to be a severe infection. 
 
-Does this summary fit with how you’ve been feeling, or is there anything else you’d like to add?
+At this point, I’d recommend monitoring for any new symptoms, such as fever, chest pain, or unexplained weight loss, which would warrant a closer look. Staying hydrated, pacing your activities, and getting adequate rest may help. If things don’t improve or new symptoms develop, it would be reasonable to consider a basic checkup or some routine blood tests to rule out underlying causes.
 
-**Patient**: Yes, that matches what I’ve been experiencing. I appreciate you explaining it. I’ll keep an eye out for any new symptoms and let you know if anything changes.
+Let me know if you have any questions or concerns about what we’ve discussed, or if there’s anything specific you’d like to address.
+
+**Patient**: Thanks for explaining that. I’ll keep an eye out for any new symptoms like you mentioned. Is there anything specific I should watch for because of my heart history and past surgeries?
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 595
+- **Word Count**: 698
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 69-year-old male presenting with a one-month history of feeling poorly, headache, and diaphoresis. Symptoms began at the start of the month and prompted further cardiac evaluation. Relevant history includes hypertension, hypercholesterolemia, prior abdominal aortic aneurysm repair, aortobifemoral bypass, pulmonary embolus (in 2154), mild thrombocytopenia, gout, benign prostatic hypertrophy, basal-cell carcinoma of the skin, and former tobacco use. Preoperative medications included aspirin, Zestril, doxazosin, Lipitor, allopurinol, vitamin E, fish oil, calcium, and multivitamins. Physical examination showed a regular pulse of 63, blood pressure 110/60, oxygen saturation 95%, clear lungs, regular heart rhythm with S4 and a 2/6 systolic murmur, and no edema. Cardiac testing revealed significant coronary artery disease with multiple stenoses (up to 75%) on catheterization and a positive stress test for inferolateral ST depression. The documented diagnosis was severe multivessel coronary artery disease. The patient was referred for coronary artery bypass surgery.
-
-## Dialogue Summary
-
-The patient presented with a one-month history of generally feeling unwell. Symptoms included a steady, gradual onset of feeling "off," accompanied by headaches and moderate sweating occurring both during the day and at night, with no identified triggers such as activity, food, or stress. The patient denied trouble sleeping, changes in appetite, or any impact on daily activities. No relevant medical history, medications, or allergies were mentioned. On assessment, the doctor noted the gradual onset of symptoms without severe impairment and suggested possible causes such as mild infections, hormonal changes, or medication side effects. The doctor recommended maintaining hydration and normal routines, and advised monitoring for new symptoms such as fever, weight loss, persistent fatigue, or worsening pain. The patient agreed with the summary and understood the plan to report any changes.
-
-## STS Evaluation
-
-- **STS Score**: 0.944
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 58.0s
+- **Processing Time**: 78.5s

@@ -22,80 +22,77 @@
 
 - **Decision**: REALISTIC
 - **Score**: 0.970
-- **Justification**: The dialogue is highly plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about chest pain and GI symptoms, and the patient responses align with the documented history (chest tightness, coffee ground emesis, anxiety/tremor). The doctor provides reasonable preliminary advice and safety warnings without overstepping into unsupported diagnoses or treatments. There are no obvious hallucinations or contradictions.
+- **Justification**: Combined score 0.97 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.90 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.900 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For improvement, the patient could mention any history of alcohol use or withdrawal symptoms if prompted, as these are part of the profile.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor could briefly acknowledge the patient's history of alcohol withdrawal and HIV, as these may impact risk assessment and management. A direct question about alcohol use or withdrawal symptoms would further ground the conversation.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and smooth, with appropriate transitions between symptom exploration and preliminary advice. The closing is supportive and clear.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is appropriate for the case. For added clarity, the doctor could explicitly state that further evaluation is needed due to the GI bleed risk, and mention that some symptoms (anxiety, tremor) may relate to withdrawal, reinforcing the need for follow-up.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Welcome in today. What brings you in—can you tell me more about what’s been going on?
+**Doctor**: Hi, good to see you today. What brings you in—can you tell me more about how you've been feeling lately?
 
-**Patient**: I've been having some chest pain—it's more of a tightness really, and it's got me feeling pretty anxious.
+**Patient**: I've been feeling pretty rough lately. The main reason I'm here is that I had some chest pain and I'm trying to detox from alcohol.
 
-**Doctor**: Let me ask about the location—can you point to exactly where you feel the tightness in your chest?
+**Doctor**: Let me ask about the chest discomfort—how would you rate the pain on a scale from 1 to 10, and does it feel more like tightness, pressure, or something else?
 
-**Patient**: It's right in the center of my chest, kind of behind my breastbone. That's where I notice the tightness most.
+**Patient**: I'd rate the pain around a 6 when it was happening. It felt more like a tightness in my chest, but it's actually gone away now.
 
-**Doctor**: Let me ask about when this tightness started—was it sudden or did it come on gradually?
+**Doctor**: Let me ask about your efforts to stop drinking—have you had any symptoms like shaking, sweating, trouble sleeping, or feeling unusually anxious since you started detoxing?
 
-**Patient**: It came on kind of gradually. I just started noticing the tightness getting worse over the past few days.
+**Patient**: I've definitely been feeling anxious and shaky, and I've noticed a tremor. I also just feel bad all over since I stopped drinking.
 
-**Doctor**: Got it. Does anything in particular seem to trigger the tightness, or have you noticed if it gets worse with activity, eating, or stress?
+**Doctor**: Got it. Since you mentioned feeling generally unwell, have you had any nausea, vomiting, or noticed anything unusual about your stomach or digestion since you stopped drinking?
 
-**Patient**: I haven't noticed anything specific that makes it worse, but I do feel more anxious when the tightness is there. Activity doesn't seem to change it much.
+**Patient**: I've had some vomiting, and what came up looked like coffee grounds. My stomach just doesn't feel right, and that's been worrying me.
 
-**Doctor**: Let me ask about any other symptoms—have you had any shortness of breath, sweating, or pain spreading to your arm, neck, or jaw?
+**Doctor**: Alright. When you noticed the vomiting that looked like coffee grounds, did you also feel lightheaded or notice any black or tarry stools?
 
-**Patient**: No, I haven't had shortness of breath or sweating, and the pain doesn't spread anywhere else. I have been feeling bad all over, and I've thrown up what looked like coffee grounds a couple times.
+**Patient**: I haven't noticed any black or tarry stools. I do feel pretty shaky and anxious, but I'm not sure about feeling lightheaded.
 
-**Doctor**: Okay. When you vomited what looked like coffee grounds, how much was it, and did you notice any blood in your stools or black, tarry bowel movements?
+**Doctor**: Let me ask about the timing—when did you first notice the vomiting with coffee ground appearance, and has it happened more than once?
 
-**Patient**: It wasn't a huge amount, just a couple times with some dark stuff in the vomit. I haven't noticed any blood in my stools or black, tarry bowel movements.
+**Patient**: The vomiting with coffee ground appearance started recently—I'm not sure of the exact day, but it has happened more than once.
 
-**Doctor**: Alright. How would you rate the chest tightness right now on a scale from 1 to 10, with 10 being the worst discomfort you've ever felt?
+**Doctor**: Tell me more about where exactly the tightness was located in your chest—was it in the center, off to one side, or did it move anywhere?
 
-**Patient**: Right now, I'd rate the tightness at about a 5 out of 10. It's uncomfortable, but not the worst pain I've felt.
+**Patient**: The tightness was right in the center of my chest. It didn’t move anywhere, and it didn’t spread to my arms or anything like that.
 
-**Doctor**: Let me ask about your general health—have you had any recent changes in appetite, weight, or energy levels over the past few weeks?
+**Doctor**: Let me ask about your alcohol detox—have you noticed any confusion, trouble focusing, or seeing or hearing things that aren’t there since stopping alcohol?
 
-**Patient**: I haven't noticed any big changes in my appetite, weight, or energy lately. Things have felt about the same as usual for me.
+**Patient**: I haven't had any confusion or trouble focusing, and I haven't seen or heard things that aren't there. It's mostly just been anxiety and tremor with the withdrawal.
 
-**Doctor**: Based on what we've discussed, your chest tightness has been gradually worsening over a few days and isn’t linked to activity, but what stands out is the dark material you’ve vomited, which can sometimes suggest irritation or even bleeding in the upper part of the digestive tract, such as the esophagus or stomach. While your other symptoms don’t point strongly toward a heart problem, this type of vomiting—especially with chest discomfort—should be evaluated further to rule out more serious causes like an ulcer or gastritis.
+**Doctor**: Based on what we've discussed, there are a couple of things to keep in mind. The chest tightness you described sounds like it has resolved and didn't have some of the classic warning signs we worry about, like pain spreading to your arm or jaw, severe shortness of breath, or sweating. However, the vomiting that looks like coffee grounds is important—this often suggests some bleeding in the stomach, which can sometimes happen when someone stops drinking after heavy alcohol use.
 
-For now, it’s important to avoid taking any anti-inflammatory medications (like ibuprofen) and to stay hydrated. If you develop new symptoms like severe abdominal pain, dizziness, weakness, or notice any black stools, those would be warning signs to seek immediate medical attention.
+Alcohol withdrawal itself can cause anxiety, tremor, and generally feeling unwell. The symptoms you've mentioned so far are consistent with mild to moderate withdrawal, but the vomiting with coffee ground appearance is a bit more concerning because it could indicate irritation or even bleeding in your stomach lining.
 
-Given your current symptoms, I recommend you follow up soon for a physical exam and possibly some tests to check for bleeding in your digestive tract. Let me know if anything changes or if you have questions about what to watch for.
+Given this, it's important to monitor for any signs of worsening—like feeling very weak or dizzy, having black or tarry stools, or vomiting blood. If any of those happen, you should seek care right away. In the meantime, staying well hydrated and avoiding any medications like ibuprofen or aspirin (which can irritate the stomach further) is important.
 
-**Patient**: Thanks for explaining all that. I’ll make sure to keep an eye out for those warning signs you mentioned. I am still feeling pretty anxious and shaky—does that fit with what you’re seeing, or is it something else I should mention when I follow up?
+Let me ask—does anything seem to trigger the vomiting, or does it come on randomly?
+
+**Patient**: Nothing really seems to trigger the vomiting—it just happens out of the blue. I appreciate you explaining everything. I'll keep an eye out for any of those warning signs you mentioned.
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 604
+- **Word Count**: 647
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 46-year-old man presenting with concerns about alcohol withdrawal ("detox") and a recent episode of chest pain. He reported binge drinking over several days, with his last drink on the morning of admission, and described chest tightness without diaphoresis, nausea, vomiting, shortness of breath, palpitations, or radiation; the pain resolved before arrival. On presentation, he began vomiting coffee ground emesis but denied prior gastrointestinal bleeding or recent fever. His past medical history includes alcohol abuse, HIV (non-progressor, never on antiretroviral therapy), hypertension, cardiomyopathy, rheumatic heart disease, anxiety disorder, macrocytic anemia, status post cholecystectomy, and depression. On exam, he was afebrile with blood pressure ranging from 120–170/90–100 mmHg and pulse 110–150s; nasogastric lavage revealed persistent coffee ground emesis, and EKG showed no acute ischemic changes. The documented clinical impression included alcohol withdrawal and gastrointestinal bleeding. Treatment included aspirin, Lopressor (metoprolol), Protonix (pantoprazole), Ativan (lorazepam), Valium (diazepam), intravenous fluids, and Reglan (metoclopramide).
-
-## Dialogue Summary
-
-The patient presented with chest pain described as central chest tightness and associated anxiety. The tightness was located behind the breastbone, had a gradual onset over several days, and was rated as 5 out of 10 in severity; it was not triggered by activity, eating, or stress, though anxiety increased when the tightness was present. The patient denied shortness of breath, sweating, or radiating pain, but reported feeling generally unwell and vomiting dark material resembling coffee grounds on two occasions, without noticing blood in stools or black, tarry bowel movements. No recent changes in appetite, weight, or energy were noted. The doctor assessed that the chest tightness and coffee-ground vomiting could indicate irritation or bleeding in the upper digestive tract, such as the esophagus or stomach, rather than a cardiac cause. The doctor advised avoiding anti-inflammatory medications, maintaining hydration, and monitoring for warning signs including severe abdominal pain, dizziness, weakness, or black stools. A follow-up for physical examination and possible tests to check for gastrointestinal bleeding was recommended.
-
-## STS Evaluation
-
-- **STS Score**: 0.957
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 63.4s
+- **Processing Time**: 82.3s

@@ -16,88 +16,91 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.936
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided patient profile and case type. The doctor asks relevant questions about the onset, frequency, and characteristics of vomiting, as well as associated symptoms like dehydration and possible GI bleeding. The patient responses are appropriate and align with the documented symptoms and history. The doctor's summary and advice are reasonable for a light, common case, focusing on hydration and warning signs without introducing unsupported diagnoses or treatments. There are no obvious hallucinations or contradictions.
+- **Score**: 0.936
+- **Justification**: Combined score 0.94 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.92 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.920 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers. For even greater realism, the patient could mention any attempts at self-care or describe the severity of symptoms in more detail.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: The doctor does well to clarify symptoms and provide education. For improvement, the doctor could briefly check for other relevant comorbidities (e.g., diabetes management) or ask about recent medication changes, but this is not essential.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with good transitions between topics. The conversation could be slightly more concise in places, but overall it is coherent.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: The doctor appropriately emphasizes warning signs and when to seek further care. The advice is clear and safe for a simulated light case. No major concerns.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi, it's good to see you today. What brings you in—how have you been feeling lately?
+**Doctor**: Let me ask about any other symptoms—have you had any nausea or vomiting along with your main concern?
 
-**Patient**: I've been feeling pretty nauseous lately, and I've been throwing up a lot. That's mainly why I came in.
+**Patient**: Yeah, I've definitely been feeling pretty nauseous, and I've been throwing up too. That's been one of the main things bothering me.
 
-**Doctor**: Let me ask about the timing—when did these symptoms first start, and how often have you been vomiting?
+**Doctor**: Got it. How much have these symptoms been affecting your ability to eat, drink, or go about your usual activities?
 
-**Patient**: I'm not sure exactly when it started, maybe a few days ago? I've been vomiting pretty often since then, and the nausea just sticks around.
+**Patient**: Honestly, it's been tough to keep anything down. Eating or drinking just makes me feel worse, and I haven't really been able to do much since the vomiting started.
 
-**Doctor**: Let me ask about something related—have you noticed any coughing, or anything unusual when you vomit, like blood or a different color?
+**Doctor**: Let me ask about your hydration—have you been able to keep any fluids down at all, even small sips of water or clear liquids?
 
-**Patient**: Yeah, I've been coughing some. When I throw up, sometimes the vomit looks kind of dark, like maroon, and I was told it was positive for occult blood.
+**Patient**: I haven't really been able to keep fluids down, even small sips. Every time I try, I end up vomiting again.
 
-**Doctor**: Got it. Are you able to keep any food or fluids down at all, or does everything come back up when you try to eat or drink?
+**Doctor**: Let me ask about your cough—have you noticed any particular time when it gets worse, or anything that seems to trigger it?
 
-**Patient**: Honestly, almost everything comes back up when I try to eat or drink. I haven't really been able to keep much down.
+**Patient**: I haven't really noticed a specific trigger for the cough. It just seems to happen randomly, and I can't tell if anything makes it worse.
 
-**Doctor**: Alright. Since this has been going on for a few days and seems to be getting worse, have you noticed any other symptoms—like feeling lightheaded when you stand up, rapid heartbeat, or any changes in your urine (like darker color or less amount)? This helps me understand if you might be getting dehydrated.
+**Doctor**: Alright. Have you noticed any fever, chills, or body aches along with these symptoms?
 
-**Patient**: I have felt my heart beating a bit faster, and I think I'm a little dehydrated. I haven't really noticed changes with my urine, though.
+**Patient**: I haven't noticed any fever, chills, or body aches. The main things have been the nausea, vomiting, and coughing. Also, my vomit looked kind of maroon, and they said it was occult-positive.
 
-**Doctor**: Let me ask about what happens right before you vomit—does anything seem to trigger it, like certain foods, movement, or lying down? Or does it just come on suddenly?
+**Doctor**: Let me ask about the maroon color you mentioned—did you notice any material in the vomit that looked like coffee grounds, or was it more liquid? And how many times has this happened?
 
-**Patient**: It just kind of comes on suddenly. I haven't noticed any specific triggers like food or movement—it just happens out of nowhere.
+**Patient**: It was more liquid, not really like coffee grounds. The maroon-colored vomit happened a couple of times, and I was told it was occult-positive.
 
-**Doctor**: Got it. How much is this interfering with your day-to-day activities—are you able to go to work, take care of your usual responsibilities, or has it kept you mostly at home?
+**Doctor**: Let me ask about your energy level—have you been feeling unusually weak, dizzy, or lightheaded since these symptoms started?
 
-**Patient**: It's definitely kept me at home. I haven't been able to do much since this started, and I've missed work because I just feel too sick.
+**Patient**: I've been feeling pretty weak, and I think it's because I'm not tolerating food or fluids. I also had some mild tachycardia and felt a bit dried out from not being able to keep anything down.
 
-**Doctor**: Let me ask about your medical history—have you ever had issues with your stomach or digestive system before, like ulcers or acid reflux? Any regular medications or known allergies? This can help me understand possible causes for the vomiting and blood.
+**Doctor**: Got it. Has the amount of maroon-colored vomit stayed about the same, or has it been increasing over time?
 
-**Patient**: I've had some stomach issues before—I've got gastroparesis and acid reflux. I take insulin 75/25 for my diabetes. I'm allergic to penicillin and amoxicillin.
+**Patient**: The amount hasn't really increased—it was just a couple of times and then stopped. They said it was likely from a tear caused by all the vomiting.
 
-**Doctor**: Based on what we've discussed, your history of gastroparesis and acid reflux, combined with frequent vomiting and the presence of maroon-colored, blood-positive vomit, suggests that your stomach may be irritated or even bleeding. Not being able to keep food or fluids down for several days is concerning because it increases the risk of dehydration and can worsen your overall health.
+**Doctor**: Based on what we've discussed, it sounds like your nausea and vomiting have been severe enough that you can't keep down food or fluids, and you've had a couple of episodes of maroon-colored vomit. Since the vomiting seems to have caused some irritation or a small tear—likely something called a Mallory-Weiss tear—this can explain the blood-tinged appearance. The fact that the bleeding hasn't increased and has stopped is reassuring.
 
-The dark color in your vomit likely means that the blood is coming from your stomach, not your mouth or throat. This can sometimes happen with severe vomiting or irritation, especially if you have underlying conditions like gastroparesis or reflux.
+The main concern right now is making sure you stay hydrated and avoid further irritation. Not being able to keep fluids down puts you at risk for dehydration, which matches your symptoms of weakness, feeling dried out, and mild tachycardia. If this continues, you may need IV fluids or further evaluation.
 
-For now, it's important to focus on hydration—small sips of clear fluids like water or oral rehydration solutions may help, but if you truly can't keep anything down, you may need medical attention to prevent dehydration and to address the possible bleeding. Warning signs to watch for include feeling faint, confusion, persistent rapid heartbeat, or if your vomit turns bright red.
+For now, it's important to try very small sips of clear liquids (like water or oral rehydration solutions) every few minutes, rather than larger amounts at once. If you still can't keep anything down, or if you see more blood in your vomit, feel dizzy when standing, or your heart is racing, those are signs to seek medical attention promptly.
 
-Let me know if you've noticed any abdominal pain or if you've had black stools, as these can also be signs of bleeding in your digestive tract.
+Does anything seem to help at all with the nausea, even briefly—like resting or changing your position?
 
-**Patient**: No abdominal pain, and I haven't noticed any black stools. Thanks for explaining everything—I'll try the clear fluids and keep an eye out for those warning signs. If things get worse, I'll come in right away.
+**Patient**: Resting does make things a bit easier, but the nausea doesn't really go away completely. Changing positions hasn't helped much either. I did notice my oral intake got a bit better by the time I was discharged, but before that, I was pretty depleted.
+
+**Doctor**: Based on what we've discussed, it sounds like your main issue was severe nausea and vomiting that led to some irritation in your esophagus, which likely caused the maroon-colored vomit. This is a common result of repeated vomiting and is usually not dangerous if the bleeding stops, as it did for you. The bigger concern was your inability to keep fluids down, which put you at risk for dehydration and made you feel weak and dried out.
+
+When this happens, the priority is always to restore hydration and allow your digestive tract to rest. Taking small sips of clear liquids frequently can sometimes help, but if vomiting persists or you notice more blood, it's important to seek care quickly.
+
+It’s reassuring that your oral intake improved before discharge and that the bleeding did not continue. Going forward, pay attention for warning signs like ongoing weakness, new bleeding, or rapid heartbeat. If any of these return or worsen, prompt medical attention is needed.
+
+Let me know if you have any questions about managing your recovery or if there’s anything else you’re concerned about right now.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 676
-- **Doctor Turns**: 9
+- **Turn Count**: 19
+- **Word Count**: 834
+- **Doctor Turns**: 10
 - **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 25-year-old male presenting with two days of nausea and one day of vomiting. His symptoms included vomiting that was initially yellowish-green and later brown, with uncertainty about the presence of coffee-ground material; he denied hematemesis, melena, diarrhea, or urinary symptoms. He has a history of type 1 diabetes mellitus for eight years with multiple prior admissions for diabetic ketoacidosis, gastroparesis, gastroesophageal reflux disease, and depression, and is allergic to penicillin and amoxicillin. On admission, his blood glucose was in the 400s with an elevated anion gap, and vital signs showed mild tachycardia (heart rate 105) and low-grade fever (temperature 99.5°F). The documented diagnosis was diabetic ketoacidosis. Treatment details are not specified in the provided note.
-
-## Dialogue Summary
-
-The patient presented with nausea and frequent vomiting over the past few days. Symptoms included persistent nausea, vomiting of maroon-colored material positive for occult blood, inability to keep food or fluids down, coughing, rapid heartbeat, and suspected dehydration; no abdominal pain or black stools were reported. Relevant history includes gastroparesis, acid reflux, diabetes managed with insulin 75/25, and allergies to penicillin and amoxicillin. The patient described sudden onset of vomiting without identifiable triggers and significant interference with daily activities, including missed work. The doctor noted concern for possible gastric irritation or bleeding, likely related to the patient's underlying gastroparesis and reflux. Assessment was that the dark color in vomit suggests stomach-origin bleeding, and inability to tolerate oral intake raises risk for dehydration. The doctor recommended attempting small sips of clear fluids or oral rehydration solutions, monitoring for warning signs such as faintness, confusion, persistent rapid heartbeat, or bright red vomit, and seeking medical attention if symptoms worsen. The patient denied abdominal pain and black stools and agreed to follow the advice provided.
-
-## STS Evaluation
-
-- **STS Score**: 0.971
-- **Similarity Label**: N/A
 
 ## Processing Information
 
-- **Processing Time**: 56.6s
+- **Processing Time**: 108.0s

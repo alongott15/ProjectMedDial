@@ -16,88 +16,104 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.950
+- Score: 0.946
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.950
-- **Justification**: The dialogue is plausible and consistent with the provided profile of a young adult with severe sore throat, odynophagia, drooling, vomiting, high fever, and hoarse voice. The doctor asks appropriate questions to clarify the severity and progression of symptoms, and the patient provides relevant answers. The doctor’s reasoning about possible causes (tonsillitis, peritonsillar abscess) is reasonable for a primary care setting, though epiglottitis is not explicitly mentioned. The recommendation for urgent evaluation is appropriate given the inability to swallow and drooling. There are no obvious hallucinations or unsupported content.
+- **Score**: 0.946
+- **Justification**: Combined score 0.95 (naturalness=0.90 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.95 ×0.3). Profile type: NO_DIAGNOSIS_NO_TREATMENT.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 0.900 |
+| Profile Compliance (NO_DIAGNOSIS_NO_TREATMENT) | 1.000 |
+| RAGAS Faithfulness | 0.952 |
 
 ### Feedback for Improvement
 
-**Patient Side**: The patient provides clear, relevant answers and describes symptoms well. For even greater realism, the patient could mention any anxiety or fear about the severity of symptoms, or clarify if there is any difficulty breathing, since this is a key concern in severe throat cases.
+**Patient Side**: Patient correctly respects NO_DIAGNOSIS_NO_TREATMENT profile knowledge boundaries.
 
-**Doctor Side**: The doctor’s assessment is thorough and safety-focused. For improvement, the doctor could explicitly mention epiglottitis as a possible cause given the profile, and stress the urgency of airway monitoring (e.g., 'If you develop any trouble breathing or feel your throat closing, call 911 immediately').
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, with appropriate follow-up questions and explanations. The transition from assessment to recommendation is smooth.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: The safety advice is good but could be strengthened by more explicit airway warnings (e.g., 'If you have any trouble breathing or feel your throat closing off, seek emergency help right away'). Otherwise, the conversation is clear and safe.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Hi there, welcome in. What brings you in today? Can you tell me a bit about how you've been feeling lately?
+**Doctor**: Hello, it's nice to meet you. What brings you in today—can you tell me what symptoms you've been experiencing lately?
 
-**Patient**: My throat's been really sore, and it hurts a lot when I try to swallow. That's mainly why I came in today.
+**Patient**: Nice to meet you too. My main issue is that my throat is really sore, and it hurts a lot when I try to swallow.
 
-**Doctor**: Let me ask about when this started—how many days have you been dealing with the sore throat?
+**Doctor**: Let me ask about your daily routine—has this sore throat made it difficult for you to eat, drink, or speak?
 
-**Patient**: I'm not sure exactly, but it's been a few days now.
+**Patient**: Yeah, it’s actually really tough to eat or drink anything. Swallowing even water hurts a lot, and my voice is kind of hoarse too.
 
-**Doctor**: Let me ask about other symptoms—have you noticed any fever, cough, or changes in your voice along with the throat pain?
+**Doctor**: Let me ask about your overall health—have you noticed any other symptoms, like fever, cough, or congestion, along with the sore throat?
 
-**Patient**: Yeah, I've had a pretty high fever, and my voice sounds kind of hoarse now. I haven't really had any cough though.
+**Patient**: I've had a pretty high fever along with the sore throat. I haven't noticed any cough or congestion, though.
 
-**Doctor**: Alright. How would you rate the throat pain on a scale from 1 to 10, with 10 being the worst pain you can imagine? And does anything—like eating, drinking, or talking—make it feel better or worse?
+**Doctor**: Alright. When did your sore throat and fever first begin—has this been going on for a few days, or did it start more recently?
 
-**Patient**: The pain is probably around an 8—it’s pretty intense. Swallowing anything, even water, makes it way worse.
+**Patient**: I'm not exactly sure when it started, but I think it's been at least a couple of days. The pain and fever just kind of showed up and got worse pretty quickly.
 
-**Doctor**: Let me ask about any other symptoms—have you noticed any swelling or tenderness in your neck, or difficulty breathing?
+**Doctor**: Got it. When you try to swallow, is it just painful, or do you ever feel like food or liquids get stuck or are impossible to get down?
 
-**Patient**: I haven’t noticed any neck swelling or tenderness, and I don’t have trouble breathing. But I can’t really swallow solids or liquids right now, and I’ve been drooling a lot.
+**Patient**: Food and liquids just won’t go down at all, it’s like I physically can’t swallow them. I’ve also been drooling because I can’t even swallow my own spit.
 
-**Doctor**: Let me ask about your general energy—have you felt extremely tired or weak over the past few days, or is it mostly the throat and swallowing issues that are bothering you?
+**Doctor**: Okay. Has the pain or difficulty swallowing been getting worse, staying about the same, or improving since it began?
 
-**Patient**: It's mostly the throat pain and trouble swallowing that are making me miserable. I haven't really felt extra tired or weak otherwise.
+**Patient**: It's definitely been getting worse since it started. Swallowing is way more painful now, and I can barely get anything down.
 
-**Doctor**: Got it. Over the past few days, has your sore throat been getting progressively worse, staying about the same, or have you noticed any improvement at all?
+**Doctor**: Got it. How much is this difficulty with swallowing and drooling affecting your day-to-day life—are you able to work, rest, or do normal activities, or has it really disrupted things for you?
 
-**Patient**: It's definitely been getting worse over the past few days. Swallowing is harder now, and the pain feels more intense than when it started.
+**Patient**: This has pretty much taken over my whole day. I can’t eat, rest properly, or focus on anything because of the pain and drooling.
 
-**Doctor**: Okay. Since swallowing has become so difficult, have you been able to drink enough fluids to stay hydrated over the past day or two? Sometimes, severe throat pain can make it hard to keep up with fluids, which is important to watch for.
+**Doctor**: Let me ask about possible triggers—does anything in particular seem to make the difficulty swallowing or drooling worse, like eating certain foods, talking, or changes in position? Or is it constant no matter what you do?
 
-**Patient**: No, I haven’t really been able to drink much at all. Swallowing even water is super painful, and I’ve actually thrown up a couple of times because of it.
+**Patient**: It’s constant no matter what I do. Eating, talking, even just sitting still—it all feels the same and makes swallowing impossible.
 
-**Doctor**: Based on what we've discussed, your difficulty swallowing and inability to keep fluids down are concerning, especially since things have been getting worse and you're starting to drool. When a sore throat is this severe and interferes with hydration, it can sometimes be due to a deeper infection or inflammation—such as tonsillitis or a peritonsillar abscess. These conditions often need prompt medical attention to prevent dehydration and further complications.
+**Doctor**: From what we've discussed, your symptoms—severe difficulty swallowing, inability to get food or liquids down, drooling, hoarseness, and a high fever that came on quickly—suggest a significant throat infection. This could be something like tonsillitis or possibly even a peritonsillar abscess, which is when an infection causes swelling and blockage near the tonsils.
 
-Right now, the most important step is ensuring you stay hydrated and get a proper evaluation. I recommend seeking care at an urgent clinic or emergency department today, since you can't swallow fluids and your symptoms are escalating. They may need to check your throat more closely and possibly provide treatment to help with pain and infection.
+The main concern is that you're unable to swallow anything, including your own saliva, and your symptoms are worsening. This level of difficulty can lead to dehydration and may require urgent evaluation.
 
-In the meantime, avoid trying to force yourself to eat or drink if it's causing vomiting. If you notice any new symptoms like trouble breathing, severe neck swelling, or high fever, get help immediately.
+Here's what I recommend:
+- You should seek medical attention as soon as possible—ideally today. Severe throat infections sometimes need antibiotics or other treatments, and in some cases, drainage if there is an abscess.
+- In the meantime, avoid trying to force food or liquids down. If you develop trouble breathing, severe neck swelling, or cannot swallow at all, go to an emergency department right away.
+- Monitor for any new symptoms like shortness of breath or severe neck pain.
 
-Let me know if you have any questions about what might happen next, or if there's anything else you'd like to discuss before you go.
+These infections are often treatable, but because you're unable to swallow and the situation is worsening, it's important not to delay care. Once evaluated, treatment may include medication, fluids, and possibly procedures to relieve the blockage.
 
-**Patient**: Thanks for explaining all of that. I’ll head to the urgent care like you suggested. I’m just hoping they can help with the pain and maybe stop the vomiting and fever too.
+Let me know if you have any questions or concerns about this plan.
+
+**Patient**: Thanks for explaining all that. If I do need a procedure or medication, how long does it usually take to start feeling better?
+
+**Doctor**: Let me share my thoughts based on everything you've described. Your symptoms—rapidly worsening pain, inability to swallow, drooling, and high fever—point toward a severe throat infection, possibly involving swelling or an abscess near the tonsils. In cases like this, once treatment begins (such as antibiotics or drainage if needed), most people start noticing improvement within 24-48 hours, especially with medication. If a procedure is required, relief can be quite rapid after it's done.
+
+The most important step is to get evaluated soon so that treatment can start and complications are avoided. While recovery speed varies, you should expect gradual improvement fairly quickly once the right therapy is underway.
+
+Do you have any other symptoms, like ear pain or neck stiffness, that we haven't discussed yet?
+
+**Patient**: No, I haven’t had any ear pain or neck stiffness. Since I’ve been vomiting and have a high fever, is there anything I should do about that while I’m waiting to get checked?
+
+**Doctor**: From what you've shared, I'm concerned that your inability to swallow, drooling, vomiting, and difficulty keeping up with fluids could quickly lead to dehydration. When a throat infection is severe enough to prevent swallowing, it often requires more than home care—sometimes IV fluids or medications are needed to help you recover.
+
+While you're waiting to be seen, try to take small sips of water if you can tolerate it, but don't force it if swallowing is impossible. Rest as much as possible and avoid anything that worsens your symptoms. If you notice signs of worsening dehydration—such as feeling very weak, dizzy, or not urinating much—or if breathing becomes difficult, seek emergency care promptly.
+
+To summarize, your symptoms suggest a serious throat infection that needs urgent medical evaluation. With proper treatment, improvement usually starts within a day or two. If you have trouble getting seen soon, or your symptoms escalate, go to an emergency department.
+
+Let me know if you have any questions about this or need clarification on next steps.
 
 ## Dialogue Statistics
 
-- **Turn Count**: 18
-- **Word Count**: 633
-- **Doctor Turns**: 9
-- **Patient Turns**: 9
-
-## EHR Summary
-
-The patient is a 29-year-old female presenting with sore throat and odynophagia that worsened over two days, leading to inability to swallow solids or liquids and drooling. She developed vomiting and a hoarse voice but denied cough, coryza, headache, or respiratory compromise. Her past medical history includes anxiety and eczema, and she takes Aldactone for acne and Celexa for anxiety; she has no known drug allergies. On examination, she had a high-grade fever, dry mucous membranes, and was found by ENT to have massive edematous, red, inflamed epiglottis with bilateral adenoid swelling and airway compromise. The documented diagnosis was acute epiglottitis. Treatment included administration of Unasyn and Decadron. The patient improved during hospitalization and was able to swallow her own secretions without further complications.
-
-## Dialogue Summary
-
-The patient presented with a severe sore throat and pain on swallowing. Symptoms included high fever, hoarse voice, inability to swallow solids or liquids, worsening throat pain rated 8/10, drooling, and vomiting after attempting to drink fluids; the patient denied cough, neck swelling, tenderness, difficulty breathing, and excessive fatigue. No relevant medical history, medications, or allergies were mentioned. On examination, the patient described escalating pain and difficulty maintaining hydration over several days. The doctor assessed that the severity of symptoms, inability to swallow fluids, and progressive worsening could indicate a deeper infection or inflammation such as tonsillitis or peritonsillar abscess. The doctor recommended urgent evaluation at a clinic or emergency department to address hydration and further assess the throat, advising against forcing food or drink if it causes vomiting. The patient was instructed to seek immediate help if new symptoms like breathing difficulty, severe neck swelling, or high fever develop.
-
-## STS Evaluation
-
-- **STS Score**: 0.961
-- **Similarity Label**: N/A
+- **Turn Count**: 21
+- **Word Count**: 986
+- **Doctor Turns**: 11
+- **Patient Turns**: 10
 
 ## Processing Information
 
-- **Processing Time**: 59.3s
+- **Processing Time**: 137.1s

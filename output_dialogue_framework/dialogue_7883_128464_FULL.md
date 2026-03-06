@@ -16,88 +16,85 @@
 ### Attempt 1
 - Success: True
 - Decision: REALISTIC
-- Score: 0.970
+- Score: 0.940
 
 ## Judge Evaluation
 
 - **Decision**: REALISTIC
-- **Score**: 0.970
-- **Justification**: The dialogue is highly plausible and consistent with the provided patient profile and case type. The doctor asks appropriate, focused questions about the chest pain, its characteristics, associated symptoms, and impact on daily life. The patient responses align well with the documented symptoms and history. The doctor's reasoning and recommendations are cautious and appropriate for a patient with worsening angina and known coronary artery disease, without introducing unsupported diagnoses or interventions. No hallucinations or role confusion are present.
+- **Score**: 0.940
+- **Justification**: Combined score 0.94 (naturalness=1.00 ×0.4, profile_compliance=1.00 ×0.3, ragas_faithfulness=0.80 ×0.3). Profile type: FULL.
+
+### DeepEval Sub-Scores
+
+| Metric | Score |
+|---|---|
+| Naturalness | 1.000 |
+| Profile Compliance (FULL) | 1.000 |
+| RAGAS Faithfulness | 0.800 |
 
 ### Feedback for Improvement
 
-**Patient Side**: Patient responses are clear and relevant. For further realism, the patient could mention any medications currently taken for angina or heart disease, if prompted.
+**Patient Side**: Patient correctly respects FULL profile knowledge boundaries.
 
-**Doctor Side**: Doctor's approach is thorough and empathetic. For completeness, the doctor could briefly review current medications or ask about recent changes in medication or lifestyle, which is common in such encounters.
+**Doctor Side**: Doctor's clinical questions should be progressive and build on patient responses. Avoid repeating the same questions.
 
-**Conversation Flow**: The flow is logical and natural, progressing from symptom exploration to impact assessment and safety advice. The transition to discussing next steps is smooth.
+**Conversation Flow**: Dialogue flow is natural and realistic.
 
-**Safety Or Clarity**: Safety advice is clear and appropriate for the scenario. The doctor correctly emphasizes the need for prompt evaluation given the change in symptom pattern. No concerns.
+**Groundedness**: Patient statements are faithful to the profile.
 
 ## Dialogue Transcript
 
-**Doctor**: Good to see you today. What brings you in—can you tell me more about what's been bothering you lately?
+**Doctor**: Hello, it's good to see you today. How have things been going with your angina lately? Are you noticing any changes in how often it occurs, or how intense it feels?
 
-**Patient**: I've been having some pretty bad chest pain lately, especially when I try to do things around the house. It's got me feeling pretty anxious.
+**Patient**: Lately, the chest pain has been pretty intense, sometimes even when I'm not doing much. It feels like an ache in my shoulder and across the left side under my chest. It's definitely happening more often than before.
 
-**Doctor**: Let me ask about the pain—does it tend to come on only when you're active, or have you noticed it at rest as well?
+**Doctor**: Let me ask about how this is impacting your day-to-day activities. Are there things you’ve had to avoid or change recently because of the pain?
 
-**Patient**: I've noticed the chest pain even when I'm just sitting down, not doing anything. It used to only come on with exertion, but now it happens at rest too.
-
-**Doctor**: Alright. When did you first start noticing these episodes, and has the pain changed in intensity or frequency over time?
-
-**Patient**: I'm not exactly sure when it started, but the pain has definitely gotten worse. It's more frequent now, and sometimes it's really intense—like a ten out of ten kind of pain.
+**Patient**: I've had to slow down quite a bit. Even simple things like walking around the house or going up stairs bring on the pain, so I try to take it easy and avoid anything too strenuous.
 
 **Doctor**: Let me ask about other symptoms—have you noticed any shortness of breath, sweating, or feeling lightheaded when these episodes occur?
 
-**Patient**: No, I haven't really noticed any shortness of breath or sweating with these episodes. The pain sometimes feels like an ache in my shoulder and on the left side, kind of under the breastbone.
+**Patient**: I haven't really noticed feeling lightheaded or sweating with the pain. I do get some nausea during these episodes, and the chest pain can be pretty severe—sometimes it feels like a ten out of ten.
 
-**Doctor**: Got it. Does anything seem to relieve the discomfort—like resting, changing position, or taking any medications? Or does it tend to persist regardless of what you do?
+**Doctor**: Alright, can you tell me if these episodes tend to happen at specific times—like during the night or while you're resting—or are they mostly triggered by activity?
 
-**Patient**: Resting sometimes helps a bit, but the pain doesn't always go away completely. It just kind of lingers, even when I'm not moving around.
+**Patient**: The pain happens both when I'm active and sometimes even while I'm resting. There isn't a specific time—it can come on unexpectedly.
 
-**Doctor**: Let me ask about timing—how long does each episode tend to last, and do you notice any particular time of day when it's more likely to happen?
+**Doctor**: Got it. When these episodes come on, do you use your prescribed nitroglycerin, and if so, does it provide relief? If not, let me know what you've been doing to manage the symptoms.
 
-**Patient**: Each episode usually lasts several minutes, sometimes longer. I haven’t noticed a specific time of day—it can happen any time, really.
+**Patient**: I haven't used nitroglycerin—I don't recall it being part of my current medications. When the pain gets bad, I usually sit down and try to rest. Sometimes I feel nauseated during these episodes.
 
-**Doctor**: Got it. When you feel this pain, do you ever notice palpitations or an unusually fast or irregular heartbeat?
+**Doctor**: Let me ask about how long these episodes tend to last—do they go away after a few minutes of rest, or do they linger for longer periods?
 
-**Patient**: No, I haven’t noticed any palpitations or irregular heartbeat when the pain happens. It’s mostly just the chest pain and sometimes nausea.
+**Patient**: The pain usually lasts longer than just a few minutes, even after I sit down and rest. Sometimes it sticks around and feels pretty strong, especially on the left side and in my shoulder.
 
-**Doctor**: Got it. How much is this affecting your ability to do things during the day—are you having to stop activities or change your routine because of these episodes?
+**Doctor**: Let me ask about possible triggers—have you noticed if eating meals, emotional stress, or cold weather seem to bring on these episodes, or do they happen randomly?
 
-**Patient**: Yes, it's definitely making it harder to get through my day. I've had to stop doing some of my usual activities because the chest pain gets pretty intense.
+**Patient**: I haven't noticed any clear triggers like meals, stress, or cold weather. The episodes seem to happen randomly, whether I'm active or resting.
 
-**Doctor**: Based on what we've discussed, it sounds like your chest discomfort has become more frequent and intense, and it's now happening even when you're not exerting yourself. When chest pain shifts from only occurring with activity to also happening at rest, that's something we pay close attention to because it can sometimes indicate that the heart isn't getting enough blood flow even when you're not active.
+**Doctor**: Alright, since these episodes are happening more often and sometimes even at rest, have you noticed any changes in how long they linger or whether they're getting progressively worse over the past few weeks?
 
-Since you haven't noticed shortness of breath or palpitations, and the pain sometimes radiates to your shoulder with occasional nausea, these are still important details. What often happens in cases like this is that the heart muscle may be under stress, and the symptoms can become more persistent.
+**Patient**: Over the past few weeks, the pain does seem to be lasting longer and getting worse. It's more frequent now, and sometimes it's really intense even when I'm not doing anything. I know I have in-stent restenosis and two vessel coronary artery disease, and I'm scheduled for CABG soon.
 
-Given these changes, I would recommend you get checked promptly—ideally today—to rule out any serious heart-related causes. While some chest pain can be due to benign issues, the pattern you're describing warrants a closer look. In the meantime, try to avoid strenuous activity and rest as much as possible.
+**Doctor**: From what you've told me, your angina symptoms have become more frequent, intense, and are now occurring even at rest. This pattern suggests your coronary artery disease may be progressing, which lines up with your known diagnosis of in-stent restenosis and two vessel disease. When angina starts to happen unpredictably and lasts longer, it's called "unstable angina," and it can signal that the heart isn't getting enough blood flow, even without exertion.
 
-If you notice new symptoms such as severe shortness of breath, sweating, or fainting, seek emergency care right away. Would you like me to help discuss next steps for getting evaluated?
+Given that you're scheduled for coronary artery bypass grafting (CABG), these changes are important to monitor closely. Until your surgery, it's especially important to avoid activities that bring on pain, and to let your care team know right away if the pain becomes constant, if you develop shortness of breath, or if you feel faint.
 
-**Patient**: Thank you for explaining all that. I appreciate you taking it seriously—I’ve been pretty worried with the chest pain happening at rest and the nausea. Yes, I’d like to talk about what I should do next to get checked today.
+What often happens in cases like yours is that the blood vessels supplying the heart become further narrowed, so symptoms can worsen. Resting and avoiding triggers is helpful, but if the pain doesn't improve or gets worse, that's a warning sign.
+
+For now, keep track of when these episodes happen and how long they last. If you haven't been prescribed nitroglycerin, mention this to your cardiologist—they may want you to have it available for symptom relief.
+
+Is there anything specific you're concerned about as you wait for your surgery?
+
+**Patient**: Thank you for explaining everything so clearly. I’m mostly worried about how bad the pain can get before the surgery, since sometimes it feels like ten out of ten. Should I call right away if it becomes constant, or is there anything else I should watch out for besides chest pain and nausea?
 
 ## Dialogue Statistics
 
 - **Turn Count**: 18
-- **Word Count**: 656
+- **Word Count**: 787
 - **Doctor Turns**: 9
 - **Patient Turns**: 9
 
-## EHR Summary
-
-The patient is a 69-year-old male presenting with chest pain as the chief complaint. He reported episodes of angina with exertion worsening over the past three weeks, culminating in severe (10/10) chest pain at rest, described as an ache in the shoulder and left substernal area, accompanied by nausea and transient right ankle edema. His relevant history includes mild aortic stenosis, coronary artery disease, and multiple prior coronary stents. On examination, he was alert and oriented, with a heart murmur consistent with aortic stenosis and no current edema; vital signs were stable on supplemental oxygen. Laboratory results showed mild anemia and normal cardiac enzymes. Cardiac catheterization revealed 80–90% in-stent restenosis of the proximal left coronary artery. The documented diagnosis was in-stent restenosis with recurrent angina. Treatment details are not specified in the note.
-
-## Dialogue Summary
-
-The patient presented with chest pain that has become more frequent and intense, now occurring both with exertion and at rest. The pain is sometimes rated as ten out of ten in severity, lasts several minutes or longer, and occasionally radiates to the left shoulder and under the breastbone; episodes are accompanied by occasional nausea but not by shortness of breath, sweating, palpitations, or irregular heartbeat. Resting sometimes helps alleviate the discomfort, but the pain often lingers even when inactive. The patient reported that these symptoms have significantly impacted daily activities, requiring them to stop or change their routine. No relevant medical history, medications, or allergies were mentioned during the conversation. The doctor noted the progression of chest pain from exertional to occurring at rest and explained that this pattern may indicate the heart is not getting enough blood flow, warranting prompt evaluation for possible cardiac causes. The doctor recommended the patient get checked today to rule out serious heart-related issues, advised avoiding strenuous activity and resting as much as possible, and instructed to seek emergency care if new symptoms such as severe shortness of breath, sweating, or fainting develop. The patient expressed understanding and agreed to discuss next steps for evaluation.
-
-## STS Evaluation
-
-- **STS Score**: 0.970
-- **Similarity Label**: N/A
-
 ## Processing Information
 
-- **Processing Time**: 57.2s
+- **Processing Time**: 98.4s
