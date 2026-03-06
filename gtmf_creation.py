@@ -10,6 +10,7 @@ from Utils.markdown_gtmf import save_gtmf_markdown
 import re
 import os
 
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 

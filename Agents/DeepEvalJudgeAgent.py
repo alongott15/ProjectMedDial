@@ -1,32 +1,3 @@
-"""
-DeepEvalJudgeAgent — Dialogue validation using the deepeval GEval framework
-and a RAGAS-style faithfulness score.
-
-Three complementary metrics are computed for every dialogue:
-
-1. **Naturalness** (deepeval GEval, weight 0.40)
-   Assesses whether the doctor–patient exchange reads like a realistic
-   primary-care consultation.
-
-2. **Patient Profile Compliance** (deepeval GEval, weight 0.30)
-   Verifies that the patient reveals *only* the information their profile
-   type allows:
-   - FULL               → may disclose symptoms + diagnosis + treatment
-   - NO_DIAGNOSIS       → may disclose symptoms + medications, NOT diagnosis
-   - NO_DIAGNOSIS_NO_TREATMENT → may disclose symptoms only
-
-3. **RAGAS Faithfulness** (weight 0.30)
-   Implements the RAGAS faithfulness algorithm directly against the Azure AI
-   Foundry endpoint (no LangChain dependency required):
-   - Atomic patient statements are extracted from patient turns.
-   - Each statement is verified against the patient profile.
-   - Score = faithful statements / total statements.
-
-LLM backend: Azure AI Foundry GPT-4.1 (via azure.ai.inference SDK).
-A custom ``AzureFoundryDeepEvalLLM`` adapter makes the client compatible
-with deepeval's ``DeepEvalBaseLLM`` interface.
-"""
-
 import json
 import logging
 import re

@@ -1,8 +1,3 @@
-"""
-Repetition detection and prevention for dialogue agents.
-Actively monitors and prevents formulaic phrase repetition.
-"""
-
 import logging
 import re
 from typing import List, Dict

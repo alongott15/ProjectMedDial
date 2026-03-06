@@ -1,8 +1,3 @@
-"""
-JudgeAgent - LLM-based naturalness validation for synthetic dialogues.
-Replaces old validation methods with a single, focused naturalness assessment.
-"""
-
 import logging
 import json
 import re

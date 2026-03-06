@@ -429,7 +429,6 @@ class DialogueGenerationPipeline:
 
         return global_stats
 
-    @staticmethod
     def _build_global_stats(per_profile_stats: list[dict], total_profiles: int, profile_types: list[str]) -> dict:
         """Rebuild aggregate statistics from the complete per-profile records list.
 

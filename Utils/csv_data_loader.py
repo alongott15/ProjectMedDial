@@ -7,7 +7,6 @@ import os
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-
 class CSVDataLoader:
     def __init__(self, csv_dir: str):
         self.csv_dir = Path(csv_dir)

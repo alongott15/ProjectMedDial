@@ -1,12 +1,7 @@
 import logging
 from Utils.llms_utils import load_gpt_model, chat_generate
 from Utils.bias_aware_prompts import BASE_SYSTEM_PROMPT, PATIENT_PROFILE_TYPE_KNOWLEDGE
-import random
-from Utils.conversation_variety import (
-    PatientPersonality, get_patient_hesitation, get_patient_response_starter,
-    should_use_filler_words, PATIENT_WORRY_EXPRESSIONS,
-    create_varied_prompt_examples
-)
+from Utils.conversation_variety import PatientPersonality, create_varied_prompt_examples
 from Utils.repetition_filter import RepetitionTracker
 
 logging.basicConfig(level=logging.INFO)

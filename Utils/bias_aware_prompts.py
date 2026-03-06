@@ -1,8 +1,3 @@
-"""
-Bias-aware prompt templates for all LLM-based agents.
-These templates reduce hallucinations and ensure grounded, conservative outputs.
-"""
-
 # Base system prompt used across all agents
 BASE_SYSTEM_PROMPT = """You are an AI assistant used in a research setting to simulate and analyze light medical cases.
 

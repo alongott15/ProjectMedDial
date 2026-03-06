@@ -1,8 +1,3 @@
-"""
-Conversation variety utilities to reduce repetitive patterns in dialogues.
-Provides natural phrase variation for both doctor and patient agents.
-"""
-
 import random
 from typing import List
 

@@ -19,6 +19,7 @@ DOCTOR_CONCLUSION_KEYWORDS = [
     "let me walk you through", "my sense is that", "what this sounds like to me"
 ]
 
+
 PATIENT_UNDERSTANDING_KEYWORDS = [
     # Direct understanding
     "i understand", "that makes sense", "okay", "thank you", "alright",

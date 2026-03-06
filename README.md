@@ -2,6 +2,7 @@
 
 A comprehensive platform for simulating and evaluating medical dialogues, focusing on realism, safety, and adherence to medical standards. This project aims to enhance the quality and safety of AI-driven medical consultations by providing tools for dialogue generation, annotation, and validation. 🚀
 
+
 ## Table of Contents 📑
 
 - [Project Title & Badges](#projectmeddial-)
