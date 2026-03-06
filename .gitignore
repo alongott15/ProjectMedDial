@@ -9,3 +9,6 @@ Agents/__pycache__/
 *.pyc
 *.pyo
 *.pyd
+.deepeval
+.vscode
+.Agents\__pycache__
