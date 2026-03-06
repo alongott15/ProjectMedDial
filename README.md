@@ -36,15 +36,10 @@ A comprehensive platform for simulating and evaluating medical dialogues, focusi
 - **Python**: Primary programming language. 🐍
 - **Markdown**: Used for documentation and GTMF output. 📝
 - **JSON**: Used for data serialization and configuration.
-- **Transformers**: Utilized for advanced NLP tasks. 🧠
-- **Torch**: Used for tensor computations.
 - **Pydantic**: Used for data validation and settings management.
 - **Azure AI Services**: Leveraged for language model functionalities and evaluations (GPT-4.1 via Azure AI Foundry). ☁️
 - **deepeval**: Used for GEval metrics and RAGAS faithfulness evaluation. 🧪
-- **Sentence Transformers**: Used for calculating sentence embeddings and semantic similarity.
-- **Scikit-learn**: Utilized for machine learning tasks.
 - **Pandas**: Used for CSV data loading and processing.
-- **NLTK (Natural Language Toolkit)**: Used for text processing and tokenization.
 - **dotenv**: Used for loading environment variables from a `.env` file.
 
 ## Installation 🛠️
@@ -68,16 +63,10 @@ A comprehensive platform for simulating and evaluating medical dialogues, focusi
    ```
    Based on the `requirements.txt` file, the following packages are required:
    ```text
-   transformers>=4.30.0
-   torch>=2.0.0
    pydantic>=1.10.2
-   scikit-learn>=1.2.0
-   sentence-transformers>=2.2.0
    azure-ai-inference
    azure-core>=1.30.0
    python-dotenv
-   nltk
-   rouge-score
    pandas>=1.5.0
    deepeval>=0.21.0
    ```
