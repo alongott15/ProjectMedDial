@@ -185,19 +185,9 @@ def get_doctor_acknowledgment(skip_probability: float = 0.3) -> str:
     return random.choice(DOCTOR_ACKNOWLEDGMENTS)
 
 
-def get_doctor_empathy(context: str = None) -> str:
-    """Get contextual empathy phrase"""
-    return random.choice(DOCTOR_EMPATHY_PHRASES)
-
-
 def get_doctor_transition() -> str:
     """Get varied transition phrase"""
     return random.choice(DOCTOR_TRANSITION_PHRASES)
-
-
-def get_doctor_reflection_start() -> str:
-    """Get reflective listening phrase template"""
-    return random.choice(DOCTOR_REFLECTION_TEMPLATES)
 
 
 def get_patient_hesitation(is_uncertain: bool = False, use_hesitation_prob: float = 0.4) -> str:
@@ -252,66 +242,6 @@ def should_doctor_explain_reasoning(turn_count: int, conversation_phase: str) ->
     if conversation_phase in ["synthesis", "conclusion"] and turn_count >= 8:
         return random.random() < 0.5
     return False
-
-
-def should_patient_ask_clarification(medical_term_used: bool, turn_count: int) -> bool:
-    """Determine if patient should ask for clarification"""
-    if medical_term_used and turn_count >= 3:
-        return random.random() < 0.3
-    return False
-
-
-def build_natural_response(
-    base_content: str,
-    add_acknowledgment: bool = False,
-    add_empathy: bool = False,
-    add_transition: bool = False,
-    is_patient: bool = False,
-    is_uncertain: bool = False
-) -> str:
-    """
-    Build a natural-sounding response with varied elements.
-
-    Args:
-        base_content: The main content of the response
-        add_acknowledgment: Add doctor acknowledgment (doctor only)
-        add_empathy: Add empathetic phrase (doctor only)
-        add_transition: Add transition phrase (doctor only)
-        is_patient: This is a patient response
-        is_uncertain: Patient is uncertain (patient only)
-
-    Returns:
-        Naturally constructed response
-    """
-    parts = []
-
-    if is_patient:
-        # Patient response construction
-        hesitation = get_patient_hesitation(is_uncertain)
-        if hesitation:
-            parts.append(hesitation)
-
-        starter = get_patient_response_starter(is_uncertain)
-        if starter:
-            parts.append(starter)
-
-        parts.append(base_content)
-    else:
-        # Doctor response construction
-        if add_acknowledgment:
-            ack = get_doctor_acknowledgment()
-            if ack:
-                parts.append(ack + ".")
-
-        if add_empathy:
-            parts.append(get_doctor_empathy() + ".")
-
-        if add_transition:
-            parts.append(get_doctor_transition())
-
-        parts.append(base_content)
-
-    return " ".join(parts).strip()
 
 
 # ============================================================================

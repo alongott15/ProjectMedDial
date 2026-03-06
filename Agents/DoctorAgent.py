@@ -3,8 +3,8 @@ import random
 from Utils.llms_utils import load_gpt_model, chat_generate
 from Utils.bias_aware_prompts import BASE_SYSTEM_PROMPT, PATIENT_PROFILE_TYPE_KNOWLEDGE
 from Utils.conversation_variety import (
-    get_doctor_acknowledgment, get_doctor_empathy, get_doctor_transition,
-    get_doctor_reflection_start, should_doctor_summarize,
+    get_doctor_acknowledgment, get_doctor_transition,
+    should_doctor_summarize,
     should_doctor_explain_reasoning, get_symptom_follow_up_question,
     DOCTOR_CLINICAL_REASONING, DOCTOR_EDUCATIONAL_PHRASES,
     create_varied_prompt_examples
